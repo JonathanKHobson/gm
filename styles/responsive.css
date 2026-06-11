@@ -1,0 +1,482 @@
+@media (max-width: 1100px) {
+  .hero h1 {
+    font-size: 3.45rem;
+  }
+
+  .hero .wrap,
+  .contact-grid {
+    gap: 2rem;
+  }
+
+  .mission-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .featured-review-card {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .featured-review-art {
+    min-height: auto;
+  }
+
+  .featured-review-art img {
+    max-height: 19rem;
+  }
+
+  .case-list,
+  .artifact-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .trust-band .wrap {
+    grid-template-columns: 1fr;
+  }
+
+  .trust-intro h2 {
+    max-width: 20ch;
+  }
+
+  .trust-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .quote-grid,
+  .project-link-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .wrap {
+    padding-inline: 1.25rem;
+  }
+
+  .menu-btn {
+    display: none;
+  }
+
+  .nav {
+    min-height: auto;
+  }
+
+  .nav .wrap {
+    flex-wrap: wrap;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .nav-links {
+    display: flex;
+    position: static;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    overflow-x: auto;
+    border: 0;
+    background: transparent;
+    padding: 0.45rem 0 0;
+  }
+
+  .navlink {
+    flex: 0 0 auto;
+    padding: 0.35rem 0;
+    white-space: nowrap;
+  }
+
+  .navlink::after {
+    display: none;
+  }
+
+  .nav-cta {
+    flex: 0 0 auto;
+    width: auto;
+    min-height: 2.1rem;
+    margin: 0;
+    padding: 0.5rem 0.8rem;
+    white-space: nowrap;
+  }
+
+  .hero .wrap {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    padding-top: 3rem;
+  }
+
+  .hero-copy,
+  .hero h1,
+  .hero-lede,
+  .hero-proof,
+  .hero-art,
+  .cta-row {
+    width: min(100%, calc(100vw - 2.5rem));
+    max-width: calc(100vw - 2.5rem);
+  }
+
+  .hero-art {
+    min-width: 0;
+    justify-self: start;
+  }
+
+  .hero .eyebrow {
+    font-size: 0.72rem;
+    overflow-wrap: anywhere;
+  }
+
+  .hero-brand-lockup img {
+    width: 3.8rem;
+    height: 3.8rem;
+  }
+
+  .hero-brand-lockup strong {
+    font-size: 1.85rem;
+  }
+
+  .hero-brand-lockup span {
+    font-size: 1rem;
+  }
+
+  .hero-lede {
+    max-width: 20rem;
+  }
+
+  .hero h1 {
+    max-width: 13ch;
+    font-size: 3.05rem;
+  }
+
+  .hero-portrait-panel {
+    width: min(100%, 24rem);
+  }
+
+  .hero-art {
+    min-height: auto;
+  }
+
+  .hero-art img {
+    max-height: 30rem;
+  }
+
+  .proof-strip .wrap {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .audience-layout,
+  .case-card,
+  .case-card:nth-child(even),
+  .contact-grid,
+  .signal-layout,
+  .detail-layout,
+  .detail-hero .wrap,
+  .detail-proof-grid,
+  .featured-artifact {
+    grid-template-columns: 1fr;
+  }
+
+  .artifact-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .detail-side {
+    width: min(100%, 25rem);
+    justify-self: start;
+  }
+
+  .detail-hero-with-art .wrap {
+    padding-right: 1.25rem;
+  }
+
+  .detail-hero-art {
+    display: none;
+  }
+
+  .detail-hero .breadcrumb,
+  .detail-hero .eyebrow,
+  .detail-hero h1,
+  .detail-hero .detail-lede,
+  .detail-hero .detail-meta,
+  .detail-hero-art {
+    grid-column: 1;
+  }
+
+  .detail-hero-art {
+    grid-row: auto;
+    justify-self: start;
+    width: min(100%, 28rem);
+  }
+
+  .stargate-detail-side {
+    width: 100%;
+    justify-self: stretch;
+  }
+
+  .detail-side img {
+    height: 9.5rem;
+  }
+
+  .stargate-detail-side img {
+    height: auto;
+    min-height: 21rem;
+  }
+
+  .featured-artifact figure,
+  .featured-artifact img {
+    min-height: 18rem;
+  }
+
+  .case-card:nth-child(even) .case-media {
+    order: 0;
+  }
+
+  .portrait-card {
+    max-width: 16.5rem;
+    justify-self: start;
+  }
+}
+
+@media (max-width: 680px) {
+  html {
+    font-size: 16px;
+  }
+
+  .hero .wrap {
+    gap: 1.45rem;
+    padding-top: 2.35rem;
+    padding-bottom: 2.65rem;
+  }
+
+  .brand-name span {
+    display: none;
+  }
+
+  .nav-links {
+    gap: 0.65rem;
+  }
+
+  .navlink {
+    font-size: 0.9rem;
+  }
+
+  .nav-cta {
+    padding-inline: 0.66rem;
+  }
+
+  .brand {
+    max-width: calc(100% - 4.5rem);
+  }
+
+  .brand-name {
+    min-width: 0;
+  }
+
+  .brand-name strong {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .band {
+    padding: 4rem 0;
+  }
+
+  .h-section,
+  .contact h2 {
+    font-size: 2.25rem;
+    max-width: 100%;
+    min-width: 0;
+    overflow-wrap: break-word;
+    word-break: normal;
+  }
+
+  .section-head,
+  .section-head .lead {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .evidence-showcase .wrap,
+  .evidence-showcase .section-head,
+  .evidence-showcase .featured-artifact,
+  .evidence-showcase .artifact-grid {
+    width: min(100%, calc(100vw - 2.5rem));
+    max-width: calc(100vw - 2.5rem);
+    min-width: 0;
+  }
+
+  .evidence-showcase .wrap {
+    padding-inline: 0;
+  }
+
+  .evidence-showcase .h-section,
+  .evidence-showcase .lead {
+    max-width: 100%;
+    overflow-wrap: normal;
+  }
+
+  .hero h1 {
+    font-size: 2.7rem;
+  }
+
+  .hero-portrait-panel {
+    display: grid;
+    grid-template-columns: 6.5rem minmax(0, 1fr);
+    gap: 0.7rem;
+    align-items: center;
+    width: 100%;
+    padding: 0.55rem;
+  }
+
+  .hero-portrait-panel img {
+    width: 6.5rem;
+    height: 7.75rem;
+    max-height: none;
+    object-position: 50% 22%;
+  }
+
+  .hero-caption {
+    margin-top: 0;
+    padding: 0.6rem;
+  }
+
+  .hero-caption strong {
+    font-size: 0.78rem;
+    line-height: 1.15;
+  }
+
+  .hero-caption span {
+    font-size: 1rem;
+    line-height: 1.34;
+  }
+
+  .hero-brand-lockup {
+    gap: 0.6rem;
+  }
+
+  .hero-brand-lockup img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .hero-brand-lockup strong {
+    font-size: 1.55rem;
+  }
+
+  .hero-brand-lockup span {
+    max-width: 14rem;
+    font-size: 1rem;
+  }
+
+  .mission-grid,
+  .quote-grid,
+  .trust-grid,
+  .project-link-grid,
+  .signal-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .trust-band .wrap {
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+  }
+
+  .trust-card {
+    min-height: auto;
+  }
+
+  .signal-feature p {
+    font-size: 1.28rem;
+  }
+
+  .hero-proof {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.55rem;
+  }
+
+  .proof-micro {
+    padding: 0.65rem 0.7rem;
+  }
+
+  .proof-micro b {
+    font-size: 2rem;
+  }
+
+  .proof-micro span {
+    font-size: 0.76rem;
+  }
+
+  .proof-strip .wrap {
+    grid-template-columns: 1fr;
+  }
+
+  .detail-hero h1 {
+    font-size: 2.65rem;
+  }
+
+  .detail-grid,
+  .detail-proof-grid,
+  .artifact-grid,
+  .next-games {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-artifact figure,
+  .featured-artifact img {
+    min-height: 15rem;
+  }
+
+  .artifact-card > img {
+    height: 12rem;
+  }
+
+  .artifact-card-wide {
+    grid-column: span 1;
+  }
+
+  .detail-side img {
+    height: 8.75rem;
+  }
+
+  .stargate-detail-side img {
+    height: auto;
+    min-height: 17rem;
+  }
+
+  .case-copy {
+    padding: 1.35rem;
+  }
+
+  .case-copy h3 {
+    font-size: 1.65rem;
+  }
+
+  .case-action {
+    width: 100%;
+    text-align: center;
+  }
+
+  .case-media,
+  .case-media img {
+    min-height: 19rem;
+  }
+
+  .case-label {
+    right: 0.75rem;
+    bottom: 0.75rem;
+    left: 0.75rem;
+    font-size: 0.78rem;
+  }
+
+  .contact-links {
+    flex-direction: column;
+  }
+
+  .contact-link {
+    width: 100%;
+  }
+
+  .contact-brief ul {
+    grid-template-columns: 1fr;
+  }
+}
