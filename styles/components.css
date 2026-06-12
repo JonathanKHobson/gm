@@ -66,7 +66,7 @@
 .navlink {
   position: relative;
   color: rgba(248, 237, 218, 0.82);
-  font-size: 0.92rem;
+  font-size: 1rem;
   font-weight: 700;
   padding: 0.6rem 0;
 }
@@ -481,7 +481,7 @@
 
 .stat span {
   color: rgba(248, 237, 218, 0.72);
-  font-size: 0.82rem;
+  font-size: 0.92rem;
   line-height: 1.35;
 }
 
@@ -602,7 +602,7 @@
 
 .trust-card p {
   color: var(--ink-soft);
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.45;
 }
 
@@ -666,7 +666,7 @@
 .pillar p,
 .audience-card p {
   color: var(--ink-soft);
-  font-size: 0.94rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
@@ -742,7 +742,7 @@
   position: relative;
   border-top: 1px solid rgba(248, 237, 218, 0.1);
   color: rgba(248, 237, 218, 0.82);
-  font-size: 0.82rem;
+  font-size: 1rem;
   font-weight: 760;
   line-height: 1.35;
   padding-top: 0.42rem;
@@ -871,7 +871,7 @@
   border-radius: var(--radius-sm);
   background: rgba(7, 19, 25, 0.84);
   color: var(--cream);
-  font-size: 0.78rem;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 1.35;
   letter-spacing: 0;
@@ -1191,7 +1191,7 @@
 .detail-side h2 {
   color: var(--teal-dark);
   font-family: var(--mono);
-  font-size: 0.82rem;
+  font-size: 1rem;
   letter-spacing: 0;
   line-height: 1.12;
   text-transform: uppercase;
@@ -1199,8 +1199,8 @@
 
 .detail-side-body p {
   color: var(--ink-soft);
-  font-size: 0.9rem;
-  line-height: 1.32;
+  font-size: 1rem;
+  line-height: 1.4;
 }
 
 .stargate-detail-side {
