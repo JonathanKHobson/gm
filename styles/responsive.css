@@ -318,13 +318,30 @@
     font-size: 2.7rem;
   }
 
+  .hero-copy,
+  .hero-proof,
+  .hero-art,
+  .hero-portrait-panel,
+  .hero-caption,
+  .proof-micro,
+  .proof-strip .wrap,
+  .signal-stat,
+  .trust-band .wrap,
+  .trust-intro,
+  .trust-grid,
+  .trust-card {
+    min-width: 0;
+    max-width: 100%;
+  }
+
   .hero-portrait-panel {
     display: grid;
-    grid-template-columns: 6.5rem minmax(0, 1fr);
+    grid-template-columns: minmax(5.5rem, 6.5rem) minmax(0, 1fr);
     gap: 0.7rem;
     align-items: center;
     width: 100%;
     padding: 0.55rem;
+    overflow: hidden;
   }
 
   .hero-portrait-panel img {
@@ -337,16 +354,20 @@
   .hero-caption {
     margin-top: 0;
     padding: 0.6rem;
+    overflow: hidden;
   }
 
   .hero-caption strong {
     font-size: 0.78rem;
     line-height: 1.15;
+    overflow-wrap: anywhere;
+    white-space: normal;
   }
 
   .hero-caption span {
     font-size: 1rem;
     line-height: 1.34;
+    overflow-wrap: anywhere;
   }
 
   .hero-brand-lockup {
@@ -380,6 +401,12 @@
     padding-bottom: 1.8rem;
   }
 
+  .trust-intro h2 {
+    max-width: 100%;
+    font-size: clamp(2rem, 10vw, 2.4rem);
+    overflow-wrap: anywhere;
+  }
+
   .trust-card {
     min-height: auto;
   }
@@ -392,10 +419,13 @@
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.55rem;
+    width: 100%;
+    justify-self: stretch;
   }
 
   .proof-micro {
     padding: 0.65rem 0.7rem;
+    overflow: hidden;
   }
 
   .proof-micro b {
@@ -404,10 +434,24 @@
 
   .proof-micro span {
     font-size: 0.76rem;
+    overflow-wrap: anywhere;
   }
 
   .proof-strip .wrap {
     grid-template-columns: 1fr;
+  }
+
+  .signal-stat {
+    overflow: hidden;
+  }
+
+  .signal-stat strong {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .signal-stat span {
+    overflow-wrap: anywhere;
   }
 
   .detail-hero h1 {
