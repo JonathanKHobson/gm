@@ -12,6 +12,10 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .about-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   .featured-review-card {
     grid-template-columns: minmax(0, 1fr);
   }
@@ -165,6 +169,7 @@
   .audience-layout,
   .case-card,
   .case-card:nth-child(even),
+  .stargate-case,
   .contact-grid,
   .signal-layout,
   .detail-layout,
@@ -229,6 +234,18 @@
     order: 0;
   }
 
+  .stargate-case .case-media {
+    min-height: 17.5rem;
+    border-right: 0;
+    border-bottom: 1px solid rgba(201, 163, 92, 0.35);
+    border-radius: calc(var(--radius) - 1px) calc(var(--radius) - 1px) 0 0;
+  }
+
+  .stargate-case .case-media img {
+    height: 19.5rem;
+    min-height: 19.5rem;
+  }
+
   .portrait-card {
     max-width: 16.5rem;
     justify-self: start;
@@ -260,6 +277,10 @@
 
   .nav-cta {
     padding-inline: 0.66rem;
+  }
+
+  .about-actions .chip-link {
+    width: 100%;
   }
 
   .brand {

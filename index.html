@@ -68,9 +68,10 @@
         </button>
         <div class="nav-links website-nav" id="navlinks">
           <a class="navlink" href="#mission">Mission</a>
-          <a class="navlink" href="#who">Who</a>
+          <a class="navlink" href="#about">About</a>
           <a class="navlink" href="#games">Games</a>
-          <a class="navlink" href="#table">Players</a>
+          <a class="navlink" href="#reviews">Reviews</a>
+          <a aria-describedby="new-tab-note" class="btn nav-cta nav-cta-discord external-link" href="https://discord.gg/A9JNzTRucn" target="_blank" rel="noopener noreferrer">Join Discord</a>
           <a class="btn nav-cta" href="#contact">Get in touch</a>
         </div>
       </div>
@@ -169,11 +170,12 @@
       </div>
     </section>
 
-    <section class="band paper-band" id="mission" data-anchor="Mission01">
+    <section class="band paper-band" data-anchor="Mission01" aria-labelledby="mission-title">
       <div class="wrap reveal">
+        <span class="section-anchor" id="mission" aria-hidden="true"></span>
         <div class="section-head">
           <div class="eyebrow">The mission</div>
-          <h2 class="h-section">Great game nights are not luck. They are designed.</h2>
+          <h2 class="h-section" id="mission-title">Great game nights are not luck. They are designed.</h2>
           <p class="lead">The job is not just lore. It is welcome, pace, clarity, trust, recovery, and payoff. I design the room so people can relax into the story.</p>
         </div>
         <div class="mission-grid">
@@ -201,11 +203,63 @@
       </div>
     </section>
 
-    <section class="band paper-band" id="who" data-anchor="Audience01">
+    <section class="band paper-band about-band" data-anchor="About01" aria-labelledby="about-title">
       <div class="wrap reveal">
+        <span class="section-anchor" id="about" aria-hidden="true"></span>
+        <div class="about-layout">
+          <div class="section-head about-head">
+            <div class="eyebrow">About GameMasterKyle</div>
+            <h2 class="h-section" id="about-title">Adaptive worlds, clear rooms, and enough weird to make the story belong to the players.</h2>
+            <p class="lead">I run games for people who want high adventure without social friction. The table gets a strong premise, a clean first step, and room for players to push the story somewhere I could not have planned alone.</p>
+          </div>
+          <div class="about-card">
+            <p>My style is collaborative, flexible, and homebrew-friendly. I like big worlds, but I care more about whether players can use them: a faction they understand, a choice with teeth, a rule that creates pressure, or a joke that helps the room relax.</p>
+            <p>Expect rich roleplay, player-driven consequences, table safety, strange systems, and a host who pays attention to pacing, comfort, and the people behind the characters.</p>
+            <div class="about-pillars" aria-label="GameMasterKyle table style">
+              <span>Adaptive worlds</span>
+              <span>Player-driven choices</span>
+              <span>Safety and access</span>
+              <span>Humor with heart</span>
+              <span>Custom systems</span>
+            </div>
+            <div class="about-actions" aria-label="GameMasterKyle profile links">
+              <a class="chip-link" href="about.html">More about Kyle</a>
+              <a aria-describedby="new-tab-note" class="chip-link external-link" href="https://discord.gg/A9JNzTRucn" target="_blank" rel="noopener noreferrer">
+                <img class="inline-link-icon" src="assets/generated/icons/contact-discord-icon.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="ContactDiscordIcon" />
+                Join Discord
+              </a>
+              <a aria-describedby="new-tab-note" class="chip-link external-link" href="https://startplaying.games/gm/gamemasterkyle" target="_blank" rel="noopener noreferrer">
+                <img class="inline-link-icon" src="assets/generated/icons/contact-startplaying-icon.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="ContactStartPlayingIcon" />
+                StartPlaying
+              </a>
+              <a aria-describedby="new-tab-note" class="chip-link external-link" href="https://www.youtube.com/@GameMasterKyleH" target="_blank" rel="noopener noreferrer">
+                <img class="inline-link-icon" src="assets/generated/icons/contact-youtube-icon.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="ContactYoutubeIcon" />
+                YouTube
+              </a>
+              <a aria-describedby="new-tab-note" class="chip-link external-link" href="https://www.tiktok.com/@gamemasterkyle" target="_blank" rel="noopener noreferrer">
+                <img class="inline-link-icon" src="assets/generated/icons/contact-tiktok-icon.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="ContactTiktokIcon" />
+                TikTok
+              </a>
+              <a aria-describedby="new-tab-note" class="chip-link external-link" href="https://github.com/JonathanKHobson" target="_blank" rel="noopener noreferrer">
+                <img class="inline-link-icon" src="assets/generated/icons/contact-github-icon.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="ContactGithubIcon" />
+                GitHub
+              </a>
+              <a class="chip-link" href="#contact">
+                <img class="inline-link-icon" src="assets/generated/icons/contact-email-icon.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="ContactEmailIcon" />
+                Get in touch
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band paper-band" data-anchor="Audience01" aria-labelledby="audience-title">
+      <div class="wrap reveal">
+        <span class="section-anchor" id="who" aria-hidden="true"></span>
         <div class="section-head">
           <div class="eyebrow">Who it helps</div>
-          <h2 class="h-section">A safer bet for the person booking the room.</h2>
+          <h2 class="h-section" id="audience-title">A safer bet for the person booking the room.</h2>
           <p class="lead">A good GM lowers buyer risk. People need to know the event will start cleanly, include newcomers, and leave the group wanting another session.</p>
         </div>
         <div class="audience-layout">
@@ -250,11 +304,12 @@
       </div>
     </section>
 
-    <section class="band dark" id="games" data-anchor="Games01">
+    <section class="band dark" data-anchor="Games01" aria-labelledby="games-title">
       <div class="wrap reveal">
+        <span class="section-anchor" id="games" aria-hidden="true"></span>
         <div class="section-head">
           <div class="eyebrow">The games</div>
-          <h2 class="h-section">Four worlds, four ways into the table.</h2>
+          <h2 class="h-section" id="games-title">Four worlds, four ways into the table.</h2>
           <p class="lead">Each one shows a different kind of fun: long-game consequence, bright table pressure, cinematic mission play, and custom systems players can actually enter.</p>
         </div>
 
@@ -270,7 +325,7 @@
               <h3>Peasants to Kings</h3>
               <p>A long-running fantasy campaign about nobodies becoming dangerous enough for the world to notice. The value is continuity: factions move, consequences echo, and players can still find the thread.</p>
               <p class="case-proof"><b>At the table:</b> Deep lore gets turned into choices players can actually use.</p>
-              <span class="case-action">Explore the world</span>
+              <span class="case-action">Explore more</span>
             </div>
           </a>
 
@@ -285,7 +340,7 @@
               <h3>Peril to Profit</h3>
               <p>A fantasy workplace hazard disguised as a team-building opportunity. The Jenga tower turns risk into a shared physical joke: HR would call it morale. The table knows better.</p>
               <p class="case-proof"><b>At the table:</b> The joke lands because the mechanic is visible, physical, and easy to teach.</p>
-              <span class="case-action">Explore the one-shot</span>
+              <span class="case-action">Explore more</span>
             </div>
           </a>
 
@@ -300,7 +355,7 @@
               <h3>Echoes of Stargate</h3>
               <p>A mission-driven sci-fi campaign built around briefings, objectives, maps, role support, and episode pacing. It proves a different kind of table craft: fast orientation inside a big premise.</p>
               <p class="case-proof"><b>At the table:</b> Players get a clear mission frame, a shared team identity, and concrete tools for the scene.</p>
-              <span class="case-action">Explore the missions</span>
+              <span class="case-action">Explore more</span>
             </div>
           </a>
 
@@ -315,54 +370,16 @@
               <h3>Stargate Card Universe</h3>
               <p>A custom sci-fi card world built around factions, missions, and table-tested pressure. The card work shows a different side of GM craft: readable mechanics, faction identity, and balance you can actually play.</p>
               <p class="case-proof"><b>At the table:</b> Faction identity and readable cards make custom systems feel playable.</p>
-              <span class="case-action">Explore the cards</span>
+              <span class="case-action">Explore more</span>
             </div>
           </a>
         </div>
       </div>
     </section>
 
-    <section class="band paper-band table-signals" id="table" data-anchor="TableSignals01" aria-labelledby="table-title">
+    <section class="band paper-band table-voices" data-anchor="PlayerVoices01" aria-labelledby="reviews-title">
       <div class="wrap reveal">
-        <div class="section-head">
-          <div class="eyebrow">After the session</div>
-          <h2 class="h-section" id="table-title">The good sign is what people carry out of the room.</h2>
-          <p class="lead">A strong table gives people something specific to remember: the choice that landed, the scene that surprised them, and the moment they knew they belonged.</p>
-        </div>
-
-        <div class="signal-layout">
-          <div class="signal-feature">
-            <span class="signal-mark" aria-hidden="true">✦</span>
-            <p>Players should leave with one scene they keep replaying, one choice that mattered, and one reason to come back.</p>
-          </div>
-          <div class="signal-grid" aria-label="Desired player experience signals">
-            <article class="signal-card">
-              <h3>Safe enough to be weird</h3>
-              <p>A good room lets people try the bold voice, the messy plan, and the sincere character beat.</p>
-            </article>
-            <article class="signal-card">
-              <h3>Big worlds, clear next steps</h3>
-              <p>Players can feel the size of the setting without needing homework before they make a choice.</p>
-            </article>
-            <article class="signal-card">
-              <h3>Chaos that still lands</h3>
-              <p>The table can swerve, joke, and surprise itself without losing pace or emotional payoff.</p>
-            </article>
-            <article class="signal-card">
-              <h3>Rules in service of fun</h3>
-              <p>Mechanics create pressure and texture, then get out of the way when the scene needs air.</p>
-            </article>
-          </div>
-        </div>
-
-        <div class="proof-cta">
-          <a aria-describedby="new-tab-note" class="chip-link external-link" href="https://startplaying.games/gm/gamemasterkyle" target="_blank" rel="noopener noreferrer">Read verified StartPlaying reviews</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="band paper-band table-voices" id="reviews" data-anchor="PlayerVoices01" aria-labelledby="reviews-title">
-      <div class="wrap reveal">
+        <span class="section-anchor" id="reviews" aria-hidden="true"></span>
         <div class="section-head">
           <div class="eyebrow">From the table</div>
           <h2 class="h-section" id="reviews-title">The proof that matters most is how players talk after.</h2>
@@ -406,8 +423,49 @@
       </div>
     </section>
 
-    <section class="band paper-band featured-voice" id="lopchop-review" data-anchor="LopchopReview01" aria-labelledby="lopchop-review-title">
+    <section class="band paper-band table-signals" data-anchor="TableSignals01" aria-labelledby="table-title">
       <div class="wrap reveal">
+        <span class="section-anchor" id="table" aria-hidden="true"></span>
+        <div class="section-head">
+          <div class="eyebrow">After the session</div>
+          <h2 class="h-section" id="table-title">The good sign is what people carry out of the room.</h2>
+          <p class="lead">A strong table gives people something specific to remember: the choice that landed, the scene that surprised them, and the moment they knew they belonged.</p>
+        </div>
+
+        <div class="signal-layout">
+          <div class="signal-feature">
+            <span class="signal-mark" aria-hidden="true">✦</span>
+            <p>Players should leave with one scene they keep replaying, one choice that mattered, and one reason to come back.</p>
+          </div>
+          <div class="signal-grid" aria-label="Desired player experience signals">
+            <article class="signal-card">
+              <h3>Safe enough to be weird</h3>
+              <p>A good room lets people try the bold voice, the messy plan, and the sincere character beat.</p>
+            </article>
+            <article class="signal-card">
+              <h3>Big worlds, clear next steps</h3>
+              <p>Players can feel the size of the setting without needing homework before they make a choice.</p>
+            </article>
+            <article class="signal-card">
+              <h3>Chaos that still lands</h3>
+              <p>The table can swerve, joke, and surprise itself without losing pace or emotional payoff.</p>
+            </article>
+            <article class="signal-card">
+              <h3>Rules in service of fun</h3>
+              <p>Mechanics create pressure and texture, then get out of the way when the scene needs air.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="proof-cta">
+          <a aria-describedby="new-tab-note" class="chip-link external-link" href="https://startplaying.games/gm/gamemasterkyle" target="_blank" rel="noopener noreferrer">Read verified StartPlaying reviews</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="band paper-band featured-voice" data-anchor="LopchopReview01" aria-labelledby="lopchop-review-title">
+      <div class="wrap reveal">
+        <span class="section-anchor" id="lopchop-review" aria-hidden="true"></span>
         <div class="featured-review-card">
           <div class="featured-review-copy">
             <div class="eyebrow">Player note</div>
@@ -433,8 +491,9 @@
       </div>
     </section>
 
-    <section class="band paper-band project-links" id="projects" data-anchor="ProjectLinks01" aria-labelledby="projects-title">
+    <section class="band paper-band project-links" data-anchor="ProjectLinks01" aria-labelledby="projects-title">
       <div class="wrap reveal">
+        <span class="section-anchor" id="projects" aria-hidden="true"></span>
         <div class="section-head">
           <div class="eyebrow">Built around the table</div>
           <h2 class="h-section" id="projects-title">Other public tools and experiments.</h2>
@@ -462,12 +521,13 @@
       </div>
     </section>
 
-    <section class="band dark contact" id="contact" data-anchor="Contact01">
+    <section class="band dark contact" data-anchor="Contact01" aria-labelledby="contact-title">
       <div class="wrap reveal">
+        <span class="section-anchor" id="contact" aria-hidden="true"></span>
         <div class="contact-grid">
           <div class="contact-copy">
             <div class="eyebrow">Get in touch</div>
-            <h2>Let's make a table people come back to.</h2>
+            <h2 id="contact-title">Let's make a table people come back to.</h2>
             <p>Tell me the room, the players, the tone, and what would make the event a win. I will help shape the first session into something clear, welcoming, and worth returning to.</p>
             <div class="contact-links" aria-label="Direct contact links">
               <a aria-describedby="new-tab-note" class="contact-link external-link" href="https://discord.gg/A9JNzTRucn" target="_blank" rel="noopener noreferrer">
@@ -479,9 +539,11 @@
                 StartPlaying profile
               </a>
               <a aria-describedby="new-tab-note" class="contact-link external-link" href="https://www.youtube.com/@GameMasterKyleH" target="_blank" rel="noopener noreferrer">
+                <img class="contact-icon" src="assets/generated/icons/contact-youtube-icon.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="ContactYoutubeIcon" />
                 YouTube
               </a>
               <a aria-describedby="new-tab-note" class="contact-link external-link" href="https://www.tiktok.com/@gamemasterkyle" target="_blank" rel="noopener noreferrer">
+                <img class="contact-icon" src="assets/generated/icons/contact-tiktok-icon.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="ContactTiktokIcon" />
                 TikTok
               </a>
               <a aria-describedby="new-tab-note" class="contact-link external-link" href="https://github.com/JonathanKHobson" target="_blank" rel="noopener noreferrer">

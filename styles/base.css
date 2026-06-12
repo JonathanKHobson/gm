@@ -72,6 +72,13 @@ header[id] {
   scroll-margin-top: calc(var(--navh) + 16px);
 }
 
+.section-anchor {
+  display: block;
+  height: 0;
+  scroll-margin-top: 0;
+  visibility: hidden;
+}
+
 h1,
 h2,
 h3 {
