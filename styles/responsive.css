@@ -49,6 +49,11 @@
   .project-link-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .story-feature,
+  .story-video-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 900px) {
@@ -526,6 +531,11 @@
 
   .detail-grid,
   .detail-proof-grid,
+  .story-feature,
+  .story-proof-grid,
+  .story-video-grid,
+  .resource-proof-grid,
+  .resource-current,
   .artifact-grid,
   .next-games {
     grid-template-columns: 1fr;
@@ -542,6 +552,38 @@
 
   .artifact-card-wide {
     grid-column: span 1;
+  }
+
+  .story-feature {
+    width: min(100%, calc(100vw - 2.5rem));
+    max-width: calc(100vw - 2.5rem);
+    padding: 0.75rem;
+  }
+
+  .story-copy {
+    padding: 0.2rem;
+  }
+
+  .story-copy h3 {
+    font-size: 1.65rem;
+    overflow-wrap: anywhere;
+  }
+
+  .story-prop-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .story-prop {
+    min-height: 6.5rem;
+    padding: 0.48rem;
+  }
+
+  .story-prop img {
+    max-height: 5.9rem;
+  }
+
+  .resource-screenshot-grid {
+    grid-template-columns: 1fr;
   }
 
   .detail-side img {
