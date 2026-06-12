@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jonathankhobson.github.io/gm/sitemap.xml
