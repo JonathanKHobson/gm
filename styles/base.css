@@ -120,7 +120,7 @@ blockquote {
   gap: 0.6rem;
   max-width: 100%;
   font-family: var(--mono);
-  font-size: 0.9rem;
+  font-size: max(0.9rem, 16px);
   font-weight: 800;
   letter-spacing: 0;
   text-transform: none;
@@ -178,7 +178,7 @@ blockquote {
 
 .asset-note {
   font-family: var(--mono);
-  font-size: 0.9rem;
+  font-size: max(0.9rem, 16px);
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;

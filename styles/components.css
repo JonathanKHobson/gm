@@ -192,7 +192,7 @@
   padding: 0.65rem 0.95rem;
   background: var(--brass);
   color: #1a1008;
-  font-size: 0.9rem;
+  font-size: max(0.9rem, 16px);
 }
 
 .hero {
@@ -361,7 +361,7 @@
   display: block;
   margin-top: 0.22rem;
   color: rgba(248, 237, 218, 0.76);
-  font-size: 0.9rem;
+  font-size: max(0.9rem, 16px);
   line-height: 1.25;
 }
 
@@ -408,7 +408,7 @@
 .hero-caption strong {
   color: var(--brass);
   font-family: var(--mono);
-  font-size: 0.9rem;
+  font-size: max(0.9rem, 16px);
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -495,7 +495,7 @@
 
 .signal-stat span {
   color: rgba(248, 237, 218, 0.76);
-  font-size: 0.9rem;
+  font-size: max(0.9rem, 16px);
 }
 
 .signal-stat::before {
@@ -590,7 +590,7 @@
 .trust-kicker {
   color: var(--ember-dark);
   font-family: var(--mono);
-  font-size: 0.9rem;
+  font-size: max(0.9rem, 16px);
   font-weight: 900;
   line-height: 1.1;
 }
@@ -889,7 +889,7 @@
 .case-copy .meta {
   color: var(--brass);
   font-family: var(--mono);
-  font-size: 0.9rem;
+  font-size: max(0.9rem, 16px);
   font-weight: 900;
   letter-spacing: 0;
   text-transform: none;
@@ -1149,7 +1149,7 @@
   background: rgba(7, 19, 25, 0.08);
   color: var(--teal-dark);
   font-family: var(--mono);
-  font-size: 0.9rem;
+  font-size: max(0.9rem, 16px);
   font-weight: 850;
   line-height: 1;
   padding: 0.36rem 0.5rem;
@@ -1223,7 +1223,7 @@
   border-top: 1px solid var(--line);
   padding-top: 0.48rem;
   color: var(--ink-muted);
-  font-size: 0.9rem;
+  font-size: max(0.9rem, 16px);
   line-height: 1.32;
 }
 
@@ -1396,7 +1396,7 @@
   border-radius: 999px;
   color: var(--brass);
   font-family: var(--mono);
-  font-size: 0.9rem;
+  font-size: max(0.9rem, 16px);
   font-weight: 850;
   padding: 0.32rem 0.58rem;
   text-transform: uppercase;
@@ -1622,7 +1622,7 @@
 
 .quote-card figcaption span {
   color: var(--ink-muted);
-  font-size: 0.9rem;
+  font-size: max(0.9rem, 16px);
   line-height: 1.35;
 }
 
@@ -1705,7 +1705,7 @@
 .featured-review-copy figcaption span,
 .featured-review-art figcaption {
   color: var(--ink-muted);
-  font-size: 0.92rem;
+  font-size: max(0.92rem, 16px);
   line-height: 1.35;
 }
 
@@ -1922,7 +1922,7 @@
   gap: 0.6rem;
   color: var(--brass);
   font-family: var(--mono);
-  font-size: 0.9rem;
+  font-size: max(0.9rem, 16px);
   font-weight: 900;
 }
 
@@ -1962,7 +1962,7 @@
 
 .contact-brief span {
   color: rgba(248, 237, 218, 0.72);
-  font-size: 0.9rem;
+  font-size: max(0.9rem, 16px);
   line-height: 1.35;
 }
 
@@ -1981,7 +1981,7 @@
 .form-hint {
   margin-top: 0.2rem;
   color: rgba(248, 237, 218, 0.76);
-  font-size: 0.92rem;
+  font-size: max(0.92rem, 16px);
 }
 
 .field {
@@ -1992,7 +1992,7 @@
 
 .field label {
   color: var(--cream);
-  font-size: 0.9rem;
+  font-size: max(0.9rem, 16px);
   font-weight: 800;
 }
 
@@ -2022,7 +2022,7 @@
   min-height: 1.3rem;
   margin-top: 0.8rem;
   color: rgba(248, 237, 218, 0.8);
-  font-size: 0.9rem;
+  font-size: max(0.9rem, 16px);
   text-align: center;
 }
 

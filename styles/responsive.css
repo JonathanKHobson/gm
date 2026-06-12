@@ -120,7 +120,7 @@
   }
 
   .hero .eyebrow {
-    font-size: 0.9rem;
+    font-size: max(0.9rem, 16px);
     overflow-wrap: anywhere;
   }
 
@@ -383,7 +383,7 @@
   }
 
   .hero-caption strong {
-    font-size: 0.9rem;
+    font-size: max(0.9rem, 16px);
     line-height: 1.15;
     overflow-wrap: anywhere;
     white-space: normal;
@@ -467,7 +467,7 @@
 
   .proof-micro span {
     margin-top: 0;
-    font-size: 0.9rem;
+    font-size: max(0.9rem, 16px);
     overflow-wrap: anywhere;
   }
 
