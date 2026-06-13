@@ -60,6 +60,8 @@
   .story-video-grid,
   .readable-artifact,
   .readable-artifact-reverse,
+  .system-loop-board,
+  .mechanics-mini-grid,
   .character-sheet-grid {
     grid-template-columns: 1fr;
   }
@@ -562,6 +564,8 @@
   .story-video-grid,
   .resource-proof-grid,
   .resource-current,
+  .system-loop-board,
+  .mechanics-mini-grid,
   .artifact-grid,
   .next-games {
     grid-template-columns: 1fr;
