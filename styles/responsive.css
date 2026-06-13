@@ -51,9 +51,14 @@
   }
 
   .story-feature,
+  .playlist-feature,
   .story-link-cards,
   .story-video-grid {
     grid-template-columns: 1fr;
+  }
+
+  .playlist-feature-reverse .playlist-copy {
+    order: 0;
   }
 }
 
@@ -533,6 +538,7 @@
   .detail-grid,
   .detail-proof-grid,
   .story-feature,
+  .playlist-feature,
   .story-proof-grid,
   .story-link-cards,
   .story-video-grid,
@@ -554,6 +560,16 @@
 
   .artifact-card-wide {
     grid-column: span 1;
+  }
+
+  .artifact-card-full,
+  .tiktok-proof-card {
+    grid-column: span 1;
+    grid-template-columns: 1fr;
+  }
+
+  .tiktok-proof-links {
+    grid-template-columns: 1fr;
   }
 
   .story-feature {
