@@ -57,11 +57,18 @@
   .story-feature,
   .playlist-feature,
   .story-link-cards,
-  .story-video-grid {
+  .story-video-grid,
+  .readable-artifact,
+  .readable-artifact-reverse,
+  .character-sheet-grid {
     grid-template-columns: 1fr;
   }
 
   .playlist-feature-reverse .playlist-copy {
+    order: 0;
+  }
+
+  .readable-artifact-reverse figure {
     order: 0;
   }
 }
@@ -192,7 +199,10 @@
   .detail-proof-grid,
   .project-index-grid,
   .super-evidence-grid,
-  .featured-artifact {
+  .featured-artifact,
+  .readable-artifact,
+  .readable-artifact-reverse,
+  .character-sheet-grid {
     grid-template-columns: 1fr;
   }
 
@@ -562,8 +572,26 @@
     min-height: 15rem;
   }
 
+  .readable-artifact {
+    width: min(100%, calc(100vw - 2.5rem));
+    max-width: calc(100vw - 2.5rem);
+  }
+
+  .readable-artifact figure {
+    min-height: auto;
+  }
+
+  .readable-artifact img,
+  .artifact-card-readable > img {
+    max-height: none;
+  }
+
   .artifact-card > img {
     height: 12rem;
+  }
+
+  .artifact-card-readable > img {
+    height: auto;
   }
 
   .artifact-card-wide {
