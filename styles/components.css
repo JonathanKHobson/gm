@@ -945,6 +945,25 @@
   order: 0;
 }
 
+.games-more-cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+
+.games-more-cta .chip-link {
+  border-color: rgba(201, 163, 92, 0.5);
+  background: rgba(248, 237, 218, 0.1);
+  color: #fff6df;
+}
+
+.games-more-cta .chip-link:hover,
+.games-more-cta .chip-link:focus-visible {
+  border-color: var(--teal);
+  background: rgba(111, 174, 183, 0.16);
+  color: #fdf8ea;
+}
+
 .case-media {
   position: relative;
   overflow: hidden;
@@ -1367,6 +1386,230 @@
   color: var(--ink-muted);
   font-size: max(0.9rem, 16px);
   line-height: 1.32;
+}
+
+.projects-detail .detail-hero {
+  background-image:
+    linear-gradient(90deg, rgba(7, 19, 25, 0.9), rgba(44, 25, 18, 0.62)),
+    url("../assets/generated/hero-tabletop-warm.webp");
+}
+
+.projects-index-band {
+  background:
+    linear-gradient(180deg, rgba(255, 250, 241, 0.96), rgba(237, 218, 184, 0.94)),
+    var(--paper);
+}
+
+.project-index-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.project-index-card {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100%;
+  overflow: hidden;
+  border: 1px solid rgba(201, 163, 92, 0.42);
+  border-radius: var(--radius);
+  background:
+    radial-gradient(circle at 12% 8%, rgba(111, 174, 183, 0.14), transparent 13rem),
+    linear-gradient(180deg, rgba(255, 250, 241, 0.97), rgba(255, 244, 222, 0.92));
+  box-shadow: var(--shadow-soft);
+}
+
+.project-card-media {
+  display: grid;
+  min-height: 13rem;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(201, 163, 92, 0.3);
+  background:
+    radial-gradient(circle at 50% 35%, rgba(111, 174, 183, 0.2), transparent 12rem),
+    linear-gradient(135deg, #0b1619, #2c1912);
+}
+
+.project-card-media img {
+  width: 100%;
+  height: 13rem;
+  object-fit: cover;
+}
+
+.project-card-mosaic {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.22rem;
+  padding: 0.22rem;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(111, 174, 183, 0.18), transparent 12rem),
+    #170f0a;
+}
+
+.project-card-mosaic img {
+  height: 6.35rem;
+  border-radius: calc(var(--radius-sm) - 0.15rem);
+  background: #fffaf1;
+  object-fit: cover;
+}
+
+.project-symbol-media {
+  place-items: center;
+  min-height: 13rem;
+}
+
+.project-symbol-media img {
+  width: 8.5rem;
+  height: 8.5rem;
+  object-fit: contain;
+  filter:
+    drop-shadow(0 0 18px rgba(74, 196, 224, 0.22))
+    drop-shadow(0 16px 18px rgba(0, 0, 0, 0.22));
+}
+
+.project-card-copy {
+  display: grid;
+  align-content: start;
+  gap: 0.72rem;
+  padding: 1.05rem;
+}
+
+.project-type {
+  width: fit-content;
+  border: 1px solid rgba(111, 174, 183, 0.28);
+  border-radius: 999px;
+  background: rgba(7, 19, 25, 0.07);
+  color: var(--teal-dark);
+  font-family: var(--mono);
+  font-size: max(0.9rem, 16px);
+  font-weight: 850;
+  line-height: 1.18;
+  padding: 0.34rem 0.52rem;
+}
+
+.project-card-copy h3 {
+  color: var(--ink);
+  font-size: 1.32rem;
+  line-height: 1.08;
+}
+
+.project-card-copy p {
+  color: var(--ink-soft);
+  font-size: 1rem;
+  line-height: 1.52;
+}
+
+.project-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.42rem;
+}
+
+.project-chips span {
+  border: 1px solid rgba(127, 44, 22, 0.16);
+  border-radius: 999px;
+  background: rgba(255, 250, 241, 0.78);
+  color: var(--ink-soft);
+  font-size: 1rem;
+  font-weight: 750;
+  line-height: 1.2;
+  padding: 0.34rem 0.52rem;
+}
+
+.project-card-action,
+.project-card-action:visited {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3rem;
+  margin: 0 1.05rem 1.05rem;
+  border: 1px solid rgba(127, 44, 22, 0.26);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 250, 241, 0.9);
+  color: var(--ember-dark);
+  font-size: 1rem;
+  font-weight: 850;
+  line-height: 1.2;
+  padding: 0.72rem 0.9rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.project-card-action:hover,
+.project-card-action:focus-visible {
+  border-color: var(--ember);
+  background: #fff;
+}
+
+.project-card-action-secondary {
+  color: var(--teal-dark);
+}
+
+.project-action-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.58rem;
+  align-items: center;
+  padding: 0 1.05rem 1.05rem;
+}
+
+.project-action-row .project-card-action {
+  flex: 1 1 9rem;
+  margin: 0;
+}
+
+.super-evidence-band {
+  position: relative;
+  overflow: hidden;
+}
+
+.super-evidence-band::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 14% 20%, rgba(111, 174, 183, 0.12), transparent 18rem),
+    radial-gradient(circle at 86% 18%, rgba(230, 96, 54, 0.1), transparent 18rem);
+  pointer-events: none;
+}
+
+.super-evidence-band .wrap {
+  position: relative;
+  z-index: 1;
+}
+
+.super-evidence-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.super-evidence-card {
+  overflow: hidden;
+  border: 1px solid rgba(201, 163, 92, 0.42);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(180deg, rgba(255, 250, 241, 0.97), rgba(255, 244, 222, 0.92));
+  box-shadow: var(--shadow-soft);
+}
+
+.super-evidence-card img {
+  display: block;
+  width: 100%;
+  height: 19rem;
+  object-fit: contain;
+  background: #fffaf1;
+}
+
+.super-evidence-card figcaption {
+  border-top: 1px solid rgba(201, 163, 92, 0.3);
+  color: var(--ink-soft);
+  font-size: 1rem;
+  line-height: 1.48;
+  padding: 0.9rem 1rem;
+}
+
+.projects-next-band .story-actions {
+  justify-content: center;
 }
 
 .featured-story-band {
