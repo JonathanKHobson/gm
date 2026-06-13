@@ -16,6 +16,7 @@
   <meta name="twitter:description" content="A mobile-first digital business card for GameMasterKyle." />
   <meta name="twitter:image" content="assets/portraits/kyle-hobson-hero-portrait.webp" />
   <link rel="icon" type="image/png" href="assets/brand/favicon.png" />
+  <link rel="preload" as="image" href="assets/brand/gamemasterkyle-discord-friend-qr-code.png" />
   <link rel="stylesheet" href="styles/tokens.css" />
   <link rel="stylesheet" href="styles/base.css" />
   <link rel="stylesheet" href="styles/components.css" />
@@ -67,23 +68,22 @@
         </figure>
         <div class="link-card-intro">
           <div class="eyebrow">Digital business card</div>
-          <h1 id="link-card-title">GameMasterKyle</h1>
-          <p class="link-card-lede">Professional Game Master, worldbuilder, game designer, streamer, and community host for tables that need a clear welcome, a strong hook, and a reason to come back.</p>
+          <h1 id="link-card-title">GameMaster<wbr>Kyle</h1>
+          <p class="link-card-lede">Professional Game Master, worldbuilder, streamer, and community host for welcoming tables with strong hooks and real player choice.</p>
           <dl class="link-card-facts" aria-label="Quick profile facts">
             <div><dt>Based in</dt><dd>Phoenix East Valley</dd></div>
-            <div><dt>Known for</dt><dd>Creative worlds, safety, humor, custom systems</dd></div>
-            <div><dt>Best first step</dt><dd>Email, Discord, or the contact form</dd></div>
+            <div><dt>Known for</dt><dd>Worlds, safety, humor, custom systems</dd></div>
           </dl>
           <div class="link-card-primary-actions" aria-label="Primary actions">
-            <a class="btn btn-primary" href="index.html">Open portfolio</a>
-            <a class="btn btn-secondary" href="index.html#contact">Send a message</a>
-            <a class="btn btn-secondary" href="mailto:jonathankylehobson@gmail.com?subject=Game%20Master%20inquiry">Email Kyle</a>
+            <a class="btn btn-primary" href="index.html">Portfolio</a>
+            <button class="btn btn-secondary" type="button" id="shareCardBtn">Share card</button>
+            <a class="btn btn-secondary" href="index.html#contact">Contact</a>
           </div>
         </div>
         <aside class="link-card-share" aria-labelledby="share-title">
-          <h2 id="share-title">QR target</h2>
-          <p>Use this page as the scan destination for a printed card, event flyer, table tent, or social bio.</p>
-          <p class="link-card-url">jonathankhobson.github.io/gm/links.html</p>
+          <h2 id="share-title">Share this card</h2>
+          <p>Open a share panel with the short link, quick actions, and a QR code someone can scan from your screen.</p>
+          <button class="btn btn-primary" type="button" id="shareCardSideBtn">Show share options</button>
         </aside>
       </div>
     </section>
@@ -91,12 +91,41 @@
     <section class="link-card-links-section" data-anchor="LinkCardLinks01" aria-labelledby="links-title">
       <div class="wrap">
         <div class="section-head">
-          <div class="eyebrow">Links</div>
-          <h2 class="h-section" id="links-title">Everything a new player, store, or collaborator needs first.</h2>
+          <div class="eyebrow">Fast links</div>
+          <h2 class="h-section" id="links-title">Start here.</h2>
         </div>
 
-        <div class="link-card-groups">
-          <article class="link-card-group" aria-labelledby="primary-links-title">
+        <div class="quick-link-grid" aria-label="Most useful GameMasterKyle links">
+          <a class="quick-link-card" href="index.html">
+            <strong>Portfolio</strong>
+            <span>Games, reviews, contact</span>
+          </a>
+          <a aria-describedby="new-tab-note" class="quick-link-card external-link" href="https://discord.gg/A9JNzTRucn" target="_blank" rel="noopener noreferrer">
+            <strong>Discord</strong>
+            <span>Main community</span>
+          </a>
+          <a class="quick-link-card" href="index.html#contact">
+            <strong>Contact</strong>
+            <span>EmailJS form</span>
+          </a>
+          <a aria-describedby="new-tab-note" class="quick-link-card external-link" href="assets/source/kyle-hobson-gamemaster-resume.pdf" target="_blank" rel="noopener noreferrer">
+            <strong>Resume</strong>
+            <span>PDF proof sheet</span>
+          </a>
+          <a aria-describedby="new-tab-note" class="quick-link-card external-link" href="https://startplaying.games/gm/gamemasterkyle" target="_blank" rel="noopener noreferrer">
+            <strong>StartPlaying</strong>
+            <span>Profile and reviews</span>
+          </a>
+          <a aria-describedby="new-tab-note" class="quick-link-card external-link" href="https://www.youtube.com/@GameMasterKyleH" target="_blank" rel="noopener noreferrer">
+            <strong>YouTube</strong>
+            <span>Stories and sessions</span>
+          </a>
+        </div>
+
+        <details class="link-directory">
+          <summary>More links</summary>
+          <div class="link-card-groups">
+            <article class="link-card-group" aria-labelledby="primary-links-title">
             <h3 id="primary-links-title">Start here</h3>
             <div class="link-card-list">
               <a class="link-card-button" href="index.html">
@@ -107,6 +136,10 @@
                 <img class="contact-icon" src="assets/generated/icons/section-host-icon.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="SectionHostIcon" />
                 <span><strong>About Kyle</strong><small>Table style, values, and public links</small></span>
               </a>
+              <a aria-describedby="new-tab-note" class="link-card-button external-link" href="assets/source/kyle-hobson-gamemaster-resume.pdf" target="_blank" rel="noopener noreferrer">
+                <img class="contact-icon" src="assets/generated/icons/section-rules-icon.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="SectionRulesIcon" />
+                <span><strong>Resume PDF</strong><small>Professional GM and event-host proof sheet</small></span>
+              </a>
               <a class="link-card-button" href="index.html#contact">
                 <img class="contact-icon" src="assets/generated/icons/contact-email-icon.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="ContactEmailIcon" />
                 <span><strong>Contact form</strong><small>Uses the portfolio EmailJS form</small></span>
@@ -116,9 +149,9 @@
                 <span><strong>Email Kyle</strong><small>jonathankylehobson@gmail.com</small></span>
               </a>
             </div>
-          </article>
+            </article>
 
-          <article class="link-card-group" aria-labelledby="community-links-title">
+            <article class="link-card-group" aria-labelledby="community-links-title">
             <h3 id="community-links-title">Community and booking</h3>
             <div class="link-card-list">
               <a aria-describedby="new-tab-note" class="link-card-button external-link" href="https://discord.gg/A9JNzTRucn" target="_blank" rel="noopener noreferrer">
@@ -134,9 +167,9 @@
                 <span><strong>StartPlaying profile</strong><small>External profile and verified reviews</small></span>
               </a>
             </div>
-          </article>
+            </article>
 
-          <article class="link-card-group" aria-labelledby="media-links-title">
+            <article class="link-card-group" aria-labelledby="media-links-title">
             <h3 id="media-links-title">Watch, listen, follow</h3>
             <div class="link-card-list">
               <a aria-describedby="new-tab-note" class="link-card-button external-link" href="https://www.youtube.com/@GameMasterKyleH" target="_blank" rel="noopener noreferrer">
@@ -152,9 +185,9 @@
                 <span><strong>Suno</strong><small>Campaign-adjacent music experiments</small></span>
               </a>
             </div>
-          </article>
+            </article>
 
-          <article class="link-card-group" aria-labelledby="proof-links-title">
+            <article class="link-card-group" aria-labelledby="proof-links-title">
             <h3 id="proof-links-title">Projects and proof</h3>
             <div class="link-card-list">
               <a class="link-card-button" href="projects.html">
@@ -170,9 +203,9 @@
                 <span><strong>GitHub</strong><small>Public code, shareables, and tools</small></span>
               </a>
             </div>
-          </article>
+            </article>
 
-          <article class="link-card-group" aria-labelledby="books-links-title">
+            <article class="link-card-group" aria-labelledby="books-links-title">
             <h3 id="books-links-title">Books and packets</h3>
             <div class="link-card-list">
               <a aria-describedby="new-tab-note" class="link-card-button external-link" href="https://www.gmbinder.com/share/-NOqVro321JIZXZzWNrD" target="_blank" rel="noopener noreferrer">
@@ -188,11 +221,45 @@
                 <span><strong>Peril to Profit book</strong><small>Corporate-fantasy Daggerheart packet</small></span>
               </a>
             </div>
-          </article>
-        </div>
+            </article>
+          </div>
+        </details>
       </div>
     </section>
   </main>
+
+  <div class="share-modal" id="shareModal" hidden role="dialog" aria-modal="true" aria-labelledby="share-modal-title" aria-describedby="share-modal-copy">
+    <div class="share-modal-backdrop" data-share-close aria-hidden="true"></div>
+    <section class="share-modal-panel" tabindex="-1" aria-labelledby="share-modal-title">
+      <button class="share-modal-close" type="button" id="shareModalClose" aria-label="Close share options">×</button>
+      <div class="share-modal-copy">
+        <div class="eyebrow">Share GameMasterKyle</div>
+        <h2 id="share-modal-title">Let them scan this.</h2>
+        <p id="share-modal-copy">Show this QR code on your phone, copy the short link, or send the card through the share sheet.</p>
+      </div>
+      <div class="share-mode-toggle" aria-label="Choose QR code">
+        <button type="button" class="share-mode-button active" data-qr-mode="portfolio" aria-pressed="true">Portfolio card</button>
+        <button type="button" class="share-mode-button" data-qr-mode="discord" aria-pressed="false">Discord friend</button>
+      </div>
+      <figure class="share-qr-frame">
+        <img id="shareQrImage" src="assets/brand/gamemasterkyle-link-qr-code.png" alt="QR code for the GameMasterKyle digital business card." width="230" height="230" loading="eager" decoding="sync" data-asset-id="LinkCardQRCode01" />
+        <figcaption id="shareQrCaption">jonathankhobson.github.io/g</figcaption>
+      </figure>
+      <div class="share-link-box" aria-label="Short share link">
+        <input id="shareUrlField" type="text" readonly value="https://jonathankhobson.github.io/g/" />
+        <button class="btn btn-primary" type="button" id="copyShareLinkBtn">Copy link</button>
+      </div>
+      <div class="share-modal-actions" aria-label="Share actions">
+        <button class="chip-link" type="button" id="nativeShareBtn">Open share sheet</button>
+        <button class="chip-link" type="button" id="copyDiscordMessageBtn">Copy for Discord</button>
+        <a aria-describedby="new-tab-note" class="chip-link external-link" href="https://discord.com/channels/@me" target="_blank" rel="noopener noreferrer">Open Discord</a>
+        <a class="chip-link" href="sms:?&body=GameMasterKyle%20digital%20card:%20https%3A%2F%2Fjonathankhobson.github.io%2Fg%2F">Text it</a>
+        <a class="chip-link" href="mailto:?subject=GameMasterKyle%20digital%20card&body=https%3A%2F%2Fjonathankhobson.github.io%2Fg%2F">Email it</a>
+        <a class="chip-link" href="index.html">Open portfolio</a>
+      </div>
+      <p class="share-status" id="shareStatus" role="status" aria-live="polite"></p>
+    </section>
+  </div>
 
   <footer class="site-footer">
     <div class="wrap">

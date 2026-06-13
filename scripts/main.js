@@ -4,6 +4,42 @@
   var navLinks = document.getElementById("navlinks");
   var form = document.getElementById("contactForm");
   var note = document.getElementById("formNote");
+  var shareModal = document.getElementById("shareModal");
+  var shareOpenButtons = [
+    document.getElementById("shareCardBtn"),
+    document.getElementById("shareCardSideBtn")
+  ].filter(Boolean);
+  var shareCloseButton = document.getElementById("shareModalClose");
+  var sharePanel = shareModal ? shareModal.querySelector(".share-modal-panel") : null;
+  var shareUrlField = document.getElementById("shareUrlField");
+  var copyShareLinkButton = document.getElementById("copyShareLinkBtn");
+  var nativeShareButton = document.getElementById("nativeShareBtn");
+  var copyDiscordMessageButton = document.getElementById("copyDiscordMessageBtn");
+  var shareStatus = document.getElementById("shareStatus");
+  var shareQrImage = document.getElementById("shareQrImage");
+  var shareQrCaption = document.getElementById("shareQrCaption");
+  var shareModeButtons = Array.prototype.slice.call(document.querySelectorAll("[data-qr-mode]"));
+  var lastShareFocus = null;
+  var shareUrl = shareUrlField ? shareUrlField.value : "https://jonathankhobson.github.io/g/";
+  var shareMessage = "GameMasterKyle digital card: " + shareUrl;
+  var qrModes = {
+    portfolio: {
+      title: "Let them scan this.",
+      copy: "Show this QR code on your phone, copy the short link, or send the card through the share sheet.",
+      src: "assets/brand/gamemasterkyle-link-qr-code.png",
+      alt: "QR code for the GameMasterKyle digital business card.",
+      caption: "jonathankhobson.github.io/g",
+      assetId: "LinkCardQRCode01"
+    },
+    discord: {
+      title: "Add me on Discord.",
+      copy: "Use this when someone is standing with you and wants to add gamemaster_kyle without searching.",
+      src: "assets/brand/gamemasterkyle-discord-friend-qr-code.png",
+      alt: "QR code to add gamemaster_kyle as a Discord friend.",
+      caption: "Discord friend QR for gamemaster_kyle",
+      assetId: "DiscordFriendQRCode01"
+    }
+  };
 
   function updateNav() {
     if (!nav) return;
@@ -52,6 +88,135 @@
     reveals.forEach(function (element) {
       element.classList.add("in");
     });
+  }
+
+  function setShareStatus(message) {
+    if (!shareStatus) return;
+    shareStatus.textContent = message;
+  }
+
+  function copyText(value, successMessage) {
+    function fallbackCopy() {
+      if (shareUrlField) {
+        shareUrlField.focus();
+        shareUrlField.select();
+        shareUrlField.setSelectionRange(0, shareUrlField.value.length);
+      }
+      try {
+        document.execCommand("copy");
+        setShareStatus(successMessage);
+      } catch (error) {
+        setShareStatus("Copy failed. The link is selected.");
+      }
+    }
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(value).then(function () {
+        setShareStatus(successMessage);
+      }, fallbackCopy);
+    } else {
+      fallbackCopy();
+    }
+  }
+
+  function setQrMode(mode) {
+    var next = qrModes[mode] || qrModes.portfolio;
+    var title = document.getElementById("share-modal-title");
+    var copy = document.getElementById("share-modal-copy");
+    if (title) title.textContent = next.title;
+    if (copy) copy.textContent = next.copy;
+    if (shareQrImage) {
+      shareQrImage.src = next.src;
+      shareQrImage.alt = next.alt;
+      shareQrImage.setAttribute("data-asset-id", next.assetId);
+    }
+    if (shareQrCaption) {
+      shareQrCaption.textContent = next.caption;
+    }
+    shareModeButtons.forEach(function (button) {
+      var active = button.getAttribute("data-qr-mode") === mode;
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-pressed", active ? "true" : "false");
+    });
+    setShareStatus("");
+  }
+
+  function openShareModal(trigger) {
+    if (!shareModal || !sharePanel) return;
+    lastShareFocus = trigger || document.activeElement;
+    shareModal.hidden = false;
+    document.body.classList.add("modal-open");
+    setShareStatus("");
+    window.setTimeout(function () {
+      sharePanel.focus();
+    }, 0);
+  }
+
+  function closeShareModal() {
+    if (!shareModal) return;
+    shareModal.hidden = true;
+    document.body.classList.remove("modal-open");
+    if (lastShareFocus && typeof lastShareFocus.focus === "function") {
+      lastShareFocus.focus();
+    }
+  }
+
+  if (shareModal) {
+    shareOpenButtons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        openShareModal(button);
+      });
+    });
+
+    if (shareCloseButton) {
+      shareCloseButton.addEventListener("click", closeShareModal);
+    }
+
+    shareModal.addEventListener("click", function (event) {
+      if (!event.target.closest("[data-share-close]")) return;
+      closeShareModal();
+    });
+
+    window.addEventListener("keydown", function (event) {
+      if (shareModal.hidden || event.key !== "Escape") return;
+      closeShareModal();
+    });
+  }
+
+  if (copyShareLinkButton && shareUrlField) {
+    copyShareLinkButton.addEventListener("click", function () {
+      copyText(shareUrl, "Link copied.");
+    });
+  }
+
+  if (copyDiscordMessageButton) {
+    copyDiscordMessageButton.addEventListener("click", function () {
+      copyText(shareMessage, "Discord-ready message copied.");
+    });
+  }
+
+  shareModeButtons.forEach(function (button) {
+    button.addEventListener("click", function () {
+      setQrMode(button.getAttribute("data-qr-mode"));
+    });
+  });
+
+  if (nativeShareButton) {
+    if (!navigator.share) {
+      nativeShareButton.hidden = true;
+    } else {
+      nativeShareButton.addEventListener("click", function () {
+        navigator.share({
+          title: "GameMasterKyle",
+          text: "GameMasterKyle digital business card",
+          url: shareUrl
+        }).then(function () {
+          setShareStatus("Share sheet opened.");
+        }, function () {
+          setShareStatus("Share cancelled.");
+        });
+      });
+    }
   }
 
   function validEmail(value) {
