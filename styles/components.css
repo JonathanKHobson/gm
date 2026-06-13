@@ -3029,6 +3029,252 @@
   margin-top: 1rem;
 }
 
+.link-card-page {
+  color: var(--cream);
+  background: var(--void);
+}
+
+.link-card-page::before {
+  background:
+    linear-gradient(180deg, rgba(7, 19, 25, 0.58), rgba(251, 244, 232, 0.12)),
+    url("../assets/generated/parchment-map-background.webp") center / cover no-repeat,
+    var(--void);
+}
+
+.link-card-page::after {
+  background:
+    radial-gradient(circle at 14% 12%, rgba(111, 174, 183, 0.2), transparent 20rem),
+    radial-gradient(circle at 86% 20%, rgba(230, 96, 54, 0.14), transparent 22rem),
+    linear-gradient(180deg, rgba(7, 19, 25, 0.82), rgba(7, 19, 25, 0.62) 34%, rgba(251, 244, 232, 0.5));
+}
+
+.link-card-nav .nav-links {
+  gap: 1rem;
+}
+
+.link-card-hero {
+  min-height: calc(100svh - var(--navh));
+  display: grid;
+  align-items: center;
+  padding: 2rem 0 3rem;
+}
+
+.link-card-shell {
+  display: grid;
+  grid-template-columns: minmax(12rem, 0.42fr) minmax(0, 1fr);
+  grid-template-areas:
+    "portrait intro"
+    "share intro";
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.link-card-portrait,
+.link-card-intro,
+.link-card-share,
+.link-card-group {
+  border: 1px solid rgba(248, 237, 218, 0.18);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(180deg, rgba(248, 237, 218, 0.13), rgba(7, 19, 25, 0.28)),
+    rgba(7, 19, 25, 0.68);
+  box-shadow: 0 22px 60px rgba(0, 0, 0, 0.28);
+}
+
+.link-card-portrait {
+  grid-area: portrait;
+  overflow: hidden;
+  min-height: 18rem;
+}
+
+.link-card-portrait img {
+  width: 100%;
+  height: 100%;
+  min-height: 18rem;
+  object-fit: cover;
+  object-position: center 28%;
+}
+
+.link-card-intro {
+  grid-area: intro;
+  display: grid;
+  align-content: center;
+  gap: 1.2rem;
+  min-width: 0;
+  padding: clamp(1.35rem, 5vw, 3rem);
+}
+
+.link-card-intro > * {
+  min-width: 0;
+}
+
+.link-card-intro .eyebrow {
+  color: var(--brass);
+}
+
+.link-card-intro h1 {
+  color: #fffdf7;
+  font-size: clamp(2.75rem, 8vw, 6rem);
+  line-height: 0.92;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+.link-card-lede {
+  max-width: 46rem;
+  color: rgba(248, 237, 218, 0.86);
+  font-size: clamp(1.05rem, 2.2vw, 1.35rem);
+  line-height: 1.5;
+}
+
+.link-card-facts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 0;
+}
+
+.link-card-facts div {
+  border: 1px solid rgba(201, 163, 92, 0.28);
+  border-radius: var(--radius-sm);
+  background: rgba(248, 237, 218, 0.08);
+  padding: 0.75rem;
+}
+
+.link-card-facts dt {
+  color: var(--brass);
+  font-family: var(--mono);
+  font-size: max(0.9rem, 16px);
+  font-weight: 900;
+}
+
+.link-card-facts dd {
+  margin: 0.18rem 0 0;
+  color: rgba(248, 237, 218, 0.82);
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.link-card-primary-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.link-card-share {
+  grid-area: share;
+  display: grid;
+  align-content: start;
+  gap: 0.65rem;
+  padding: 1rem;
+}
+
+.link-card-share h2,
+.link-card-group h3 {
+  color: #fffdf7;
+  font-size: 1.35rem;
+}
+
+.link-card-share p {
+  color: rgba(248, 237, 218, 0.78);
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+.link-card-url {
+  border: 1px dashed rgba(201, 163, 92, 0.42);
+  border-radius: var(--radius-sm);
+  overflow-wrap: anywhere;
+  background: rgba(248, 237, 218, 0.08);
+  color: var(--brass) !important;
+  font-family: var(--mono);
+  font-weight: 800;
+  padding: 0.7rem;
+}
+
+.link-card-links-section {
+  padding: 4.5rem 0 5.5rem;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 0 8%, rgba(111, 174, 183, 0.12), transparent 20rem),
+    linear-gradient(180deg, rgba(251, 244, 232, 0.95), rgba(239, 224, 199, 0.92)),
+    url("../assets/generated/parchment-map-background.webp") center / cover no-repeat,
+    var(--paper);
+}
+
+.link-card-groups {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.link-card-group {
+  display: grid;
+  gap: 0.9rem;
+  align-content: start;
+  background:
+    linear-gradient(180deg, rgba(255, 250, 241, 0.94), rgba(255, 245, 225, 0.9));
+  color: var(--ink);
+  padding: 1rem;
+}
+
+.link-card-group h3 {
+  color: var(--ink);
+}
+
+.link-card-list {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.link-card-button {
+  display: grid;
+  grid-template-columns: 2.8rem minmax(0, 1fr);
+  gap: 0.75rem;
+  align-items: center;
+  min-height: 4.25rem;
+  border: 1px solid rgba(23, 16, 11, 0.13);
+  border-radius: var(--radius);
+  background: rgba(255, 250, 241, 0.78);
+  color: var(--ink);
+  padding: 0.75rem;
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.link-card-button:hover,
+.link-card-button:focus-visible {
+  transform: translateY(-2px);
+  border-color: rgba(230, 96, 54, 0.5);
+  box-shadow: 0 12px 24px rgba(14, 8, 4, 0.12);
+}
+
+.link-card-button .contact-icon {
+  width: 2.45rem;
+  height: 2.45rem;
+}
+
+.link-card-button span {
+  display: grid;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.link-card-button strong {
+  color: var(--ink);
+  font-size: 1rem;
+  line-height: 1.15;
+}
+
+.link-card-button small {
+  color: var(--ink-muted);
+  font-size: max(0.9rem, 16px);
+  line-height: 1.3;
+}
+
+.link-card-button-muted {
+  opacity: 0.88;
+}
+
 .form-note {
   min-height: 1.3rem;
   margin-top: 0.8rem;

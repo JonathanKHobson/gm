@@ -62,7 +62,20 @@
   .readable-artifact-reverse,
   .system-loop-board,
   .mechanics-mini-grid,
-  .character-sheet-grid {
+  .character-sheet-grid,
+  .link-card-shell,
+  .link-card-groups {
+    grid-template-columns: 1fr;
+  }
+
+  .link-card-shell {
+    grid-template-areas:
+      "portrait"
+      "intro"
+      "share";
+  }
+
+  .link-card-facts {
     grid-template-columns: 1fr;
   }
 
@@ -306,6 +319,18 @@
 
   .nav-cta {
     padding-inline: 0.66rem;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    overflow-x: visible;
+    row-gap: 0.35rem;
+  }
+
+  .navlink,
+  .nav-cta {
+    flex: 0 1 auto;
+    white-space: normal;
   }
 
   .about-actions .chip-link {
@@ -706,6 +731,22 @@
 
   .contact-link {
     width: 100%;
+  }
+
+  .link-card-primary-actions,
+  .link-card-primary-actions .btn {
+    width: 100%;
+  }
+
+  .link-card-hero {
+    min-height: auto;
+    padding-top: 1rem;
+  }
+
+  .link-card-portrait,
+  .link-card-portrait img {
+    min-height: 15rem;
+    max-height: 24rem;
   }
 
   .contact-brief ul {
