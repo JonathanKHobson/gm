@@ -1141,6 +1141,19 @@
   object-fit: cover;
 }
 
+.echoes-detail .detail-hero-art {
+  width: clamp(9.25rem, 14vw, 12.5rem);
+  max-height: 18.5rem;
+  aspect-ratio: 1260 / 1750;
+  transform: translateY(-50%) rotate(1deg);
+}
+
+.echoes-detail .detail-hero-art img {
+  object-fit: contain;
+  object-position: center top;
+  padding: 0.35rem;
+}
+
 .stargate-hero-art {
   width: clamp(8.5rem, 13vw, 12rem);
   max-height: 18rem;
@@ -1402,6 +1415,39 @@
   flex-wrap: wrap;
   gap: 0.65rem;
   align-items: center;
+}
+
+.story-link-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.72rem;
+}
+
+.story-link-cards-compact {
+  grid-template-columns: 1fr;
+}
+
+.story-link-card {
+  display: grid;
+  gap: 0.58rem;
+  border: 1px solid rgba(201, 163, 92, 0.34);
+  border-radius: var(--radius-sm);
+  background:
+    radial-gradient(circle at 16% 10%, rgba(111, 174, 183, 0.14), transparent 9rem),
+    rgba(255, 250, 241, 0.74);
+  padding: 0.8rem;
+}
+
+.story-link-card h4 {
+  color: var(--ink);
+  font-size: 1.02rem;
+  line-height: 1.2;
+}
+
+.story-link-card p {
+  color: var(--ink-soft);
+  font-size: 1rem;
+  line-height: 1.45;
 }
 
 .story-art-card,
@@ -1687,6 +1733,52 @@
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+.video-feature-link {
+  position: relative;
+  display: grid;
+  min-height: 17.5rem;
+  overflow: hidden;
+  border: 1px solid rgba(127, 44, 22, 0.16);
+  border-radius: var(--radius-sm);
+  background: #071319;
+  color: var(--cream);
+  text-decoration: none;
+}
+
+.video-feature-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(7, 19, 25, 0.08), rgba(7, 19, 25, 0.78)),
+    radial-gradient(circle at 50% 35%, transparent, rgba(7, 19, 25, 0.34));
+}
+
+.video-feature-link img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-feature-link span {
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1;
+  width: fit-content;
+  max-width: calc(100% - 2rem);
+  border: 1px solid rgba(248, 237, 218, 0.34);
+  border-radius: var(--radius-sm);
+  background: rgba(7, 19, 25, 0.72);
+  color: var(--cream);
+  font-family: var(--mono);
+  font-size: max(0.92rem, 16px);
+  font-weight: 850;
+  line-height: 1.2;
+  padding: 0.58rem 0.68rem;
 }
 
 .media-link-card {

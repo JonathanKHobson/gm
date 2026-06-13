@@ -51,6 +51,7 @@
   }
 
   .story-feature,
+  .story-link-cards,
   .story-video-grid {
     grid-template-columns: 1fr;
   }
@@ -533,6 +534,7 @@
   .detail-proof-grid,
   .story-feature,
   .story-proof-grid,
+  .story-link-cards,
   .story-video-grid,
   .resource-proof-grid,
   .resource-current,
