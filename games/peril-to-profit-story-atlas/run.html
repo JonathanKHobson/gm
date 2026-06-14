@@ -10,27 +10,36 @@
 </head>
 <body class="slideshow-run-page">
   <a class="skip-link" href="#slide-stage">Skip to current slide</a>
+  <nav class="sticky-top-nav universal-nav" aria-label="Site navigation"><a href="index.html">Atlas</a><a href="run.html" aria-current="page">Run Mode</a><a href="pages/gm-dashboard.html">Dashboard</a><a href="pages/entity-index.html">Wiki</a><a href="pages/pc-cheat-sheet.html">PCs</a><a href="pages/handouts.html">Handouts</a><a href="player-display.html">Player Display</a></nav>
   <header class="run-topbar" role="banner">
-    <a class="run-home-link" href="index.html">Atlas</a>
     <div class="run-toolbar-group" aria-label="Slide navigation">
-      <button class="run-icon-button" type="button" data-run-action="first" aria-label="First slide" title="First slide"><img src="assets/icons/action-first.png" alt="" aria-hidden="true"><span class="sr-only">First slide</span></button>
       <button class="run-icon-button" type="button" data-run-action="previous" aria-label="Previous slide" title="Previous slide"><img src="assets/icons/action-prev.png" alt="" aria-hidden="true"><span class="sr-only">Previous slide</span></button>
       <button class="run-icon-button" type="button" data-run-action="next" aria-label="Next slide" title="Next slide"><img src="assets/icons/action-next.png" alt="" aria-hidden="true"><span class="sr-only">Next slide</span></button>
-      <button class="run-icon-button" type="button" data-run-action="last" aria-label="Last slide" title="Last slide"><img src="assets/icons/action-last.png" alt="" aria-hidden="true"><span class="sr-only">Last slide</span></button>
     </div>
     <label class="run-slide-jump">Slide <select id="run-slide-select" aria-label="Jump to slide"></select></label>
+    <div class="run-toolbar-group" aria-label="View controls">
+      <button class="run-labeled-button" type="button" data-run-action="toggle-image" aria-label="Hide image" title="Hide image"><img src="assets/icons/action-open-image.png" alt="" aria-hidden="true"><span class="run-button-label">Hide image</span></button>
+      <button class="run-labeled-button" type="button" data-run-action="toggle-filmstrip" aria-label="Show filmstrip" title="Show filmstrip"><img src="assets/icons/action-collapse-all.png" alt="" aria-hidden="true"><span class="run-button-label">Show filmstrip</span></button>
+    </div>
     <div class="run-toolbar-group" aria-label="Player display controls">
       <button class="run-icon-button" type="button" data-run-action="open-display" aria-label="Open player display" title="Open player display"><img src="assets/icons/action-player-display.png" alt="" aria-hidden="true"><span class="sr-only">Open player display</span></button>
       <button class="run-icon-button danger" type="button" data-run-action="blackout" aria-label="Blackout player display" title="Blackout player display"><img src="assets/icons/action-blackout.png" alt="" aria-hidden="true"><span class="sr-only">Blackout player display</span></button>
     </div>
-    <button class="run-icon-button" type="button" data-run-action="shortcuts" aria-label="Keyboard shortcuts" title="Keyboard shortcuts"><img src="assets/icons/action-help.png" alt="" aria-hidden="true"><span class="sr-only">Keyboard shortcuts</span></button>
+    <details class="run-overflow">
+      <summary class="run-icon-button" aria-label="More controls" title="More controls"><img src="assets/icons/action-settings.png" alt="" aria-hidden="true"><span class="sr-only">More controls</span></summary>
+      <div class="run-overflow-menu" role="group" aria-label="More controls">
+        <button class="run-labeled-button" type="button" data-run-action="first" aria-label="First slide" title="First slide"><img src="assets/icons/action-first.png" alt="" aria-hidden="true"><span class="run-button-label">First slide</span></button>
+        <button class="run-labeled-button" type="button" data-run-action="last" aria-label="Last slide" title="Last slide"><img src="assets/icons/action-last.png" alt="" aria-hidden="true"><span class="run-button-label">Last slide</span></button>
+        <button class="run-labeled-button" type="button" data-run-action="shortcuts" aria-label="Keyboard shortcuts" title="Keyboard shortcuts"><img src="assets/icons/action-help.png" alt="" aria-hidden="true"><span class="run-button-label">Keyboard shortcuts</span></button>
+      </div>
+    </details>
   </header>
 
   <main class="run-layout" id="slide-stage">
     <aside class="run-side-panel" aria-label="Run controls">
       <p class="run-kicker">Live-session slideshow</p>
       <h1>Run Mode</h1>
-      <p id="run-position" class="run-position">Slide 1 / 1</p>
+      <p id="run-position" class="run-position">Loading slides...</p>
       <label class="run-check"><input id="run-auto-complete" type="checkbox"> Auto-complete previous on Next</label>
       <label class="run-check"><input id="run-sync-on-change" type="checkbox" checked> Sync slide changes to Player Display</label>
       <div class="run-side-actions">
@@ -87,6 +96,9 @@
     </form>
   </dialog>
 
+  <aside id="hover-card" class="hover-card" role="dialog" aria-label="Entity quick reference" aria-hidden="true"></aside>
+
+  <script src="data/atlas-data.js"></script>
   <script src="data/slides-data.js"></script>
   <script src="js/display-sync.js"></script>
   <script src="js/run-mode.js"></script>

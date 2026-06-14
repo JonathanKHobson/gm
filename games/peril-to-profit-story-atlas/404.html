@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found · Goldspire Story Atlas</title>
+  <link rel="icon" href="/assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="subpage">
+  <a class="skip-link" href="#content">Skip to content</a>
+  
+<nav class="sticky-top-nav" aria-label="Quick navigation">
+  <a href="./index.html">Atlas</a>
+  <a href="./run.html">Run Mode</a>
+  <a href="./pages/gm-dashboard.html">Dashboard</a>
+  <a href="./pages/entity-index.html">Wiki</a>
+  <a href="./pages/pc-cheat-sheet.html">PCs</a>
+  <button type="button" data-rules-open data-rules-target="action-roll">Rules</button>
+  <details class="rules-shortcuts">
+    <summary>Rule Shortcuts</summary>
+    <div class="rules-shortcut-menu">
+      <button type="button" data-rules-open data-rules-target="action-roll">Action Roll Help</button>
+      <button type="button" data-rules-open data-rules-target="hope-fear-matrix">Hope/Fear Outcomes</button>
+      <button type="button" data-rules-open data-rules-target="difficulty-ladder">Difficulty Ladder</button>
+      <button type="button" data-rules-open data-rules-target="conditions">Official Conditions</button>
+      <button type="button" data-rules-open data-rules-target="damage-armor-stress">Damage / Armor</button>
+      <button type="button" data-rules-open data-rules-target="gm-fear">GM Fear Spends</button>
+      <a class="button secondary" href="./pages/dnd-to-daggerheart.html">D&D Conversion</a>
+      <button type="button" data-rules-open data-rules-target="short-rest">Short Rest</button>
+      <button type="button" data-rules-open data-rules-target="countdown">Countdown</button>
+      <button type="button" data-rules-open data-rules-target="gm-moves-spotlight">Adversary Spotlight</button>
+    </div>
+  </details>
+  <label>Jump <select data-scene-jump></select></label>
+  <label>Theme <select data-theme-select><option value="light">Light</option><option value="dark">Dark</option><option value="print-preview">Print preview</option></select></label>
+  <button type="button" data-command-palette-open>Search</button>
+</nav>
+<dialog id="command-palette" class="command-palette">
+  <button class="dialog-close" type="button" data-command-palette-close aria-label="Close search">Close</button>
+  <label class="search-label">Command search <input id="command-search" type="search" placeholder="Jump to a scene, entity, dashboard, or handout"></label>
+  <div id="command-results" class="command-results"></div>
+</dialog>
+
+  <main class="wiki-page" id="content">
+    <p class="private-note">Goldspire Story Atlas</p>
+    <h1>That page isn't on the table</h1>
+    <p class="entity-page-lede">The scene, entity, or handout you followed has moved or never existed. Nothing is broken &mdash; jump back to a known spot below.</p>
+    <div class="hero-actions" style="margin-top:1.5rem">
+      <a class="button" href="/index.html">Atlas Home</a>
+      <a class="button secondary" href="/run.html">Run Mode</a>
+      <a class="button secondary" href="/pages/gm-dashboard.html">GM Dashboard</a>
+      <a class="button secondary" href="/pages/entity-index.html">Entity Wiki</a>
+      <button class="button secondary" type="button" data-command-palette-open>Search the Atlas</button>
+    </div>
+    <p class="muted" style="margin-top:1.25rem">Tip: most scenes live under <code>/pages/</code> and open from the Entity Wiki or the scene jump menu.</p>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -363,13 +363,6 @@
     "short_pronunciation": "Ritual Countdown",
     "note": ""
   },
-  "untethered": {
-    "name": "Untethered",
-    "type": "condition",
-    "pronunciation": "Untethered",
-    "short_pronunciation": "Untethered",
-    "note": ""
-  },
   "forgotten-gods": {
     "name": "Forgotten Gods",
     "type": "faction",
@@ -699,6 +692,20 @@
     "short_pronunciation": "Difficulty Ladder",
     "note": ""
   },
+  "d-and-d-conversion": {
+    "name": "D&D Conversion",
+    "type": "mechanic",
+    "pronunciation": "Dandd Conversion",
+    "short_pronunciation": "Dandd Conversion",
+    "note": ""
+  },
+  "official-conditions": {
+    "name": "Official Conditions",
+    "type": "mechanic",
+    "pronunciation": "Official Conditions",
+    "short_pronunciation": "Official Conditions",
+    "note": ""
+  },
   "hope": {
     "name": "Hope",
     "type": "mechanic",
@@ -711,6 +718,34 @@
     "type": "mechanic",
     "pronunciation": "FEAR",
     "short_pronunciation": "FEAR",
+    "note": ""
+  },
+  "gm-moves": {
+    "name": "GM Moves",
+    "type": "mechanic",
+    "pronunciation": "GM Moves",
+    "short_pronunciation": "GM Moves",
+    "note": ""
+  },
+  "adversary-spotlight": {
+    "name": "Adversary Spotlight",
+    "type": "mechanic",
+    "pronunciation": "Adversary Spotlight",
+    "short_pronunciation": "Adversary Spotlight",
+    "note": ""
+  },
+  "adversary-attack-rolls": {
+    "name": "Adversary Attack Rolls",
+    "type": "mechanic",
+    "pronunciation": "Adversary Attack Rolls",
+    "short_pronunciation": "Adversary Attack Rolls",
+    "note": ""
+  },
+  "damage-armor": {
+    "name": "Damage / Armor",
+    "type": "mechanic",
+    "pronunciation": "Damage Armor",
+    "short_pronunciation": "Damage Armor",
     "note": ""
   },
   "stress": {
@@ -753,48 +788,6 @@
     "type": "condition",
     "pronunciation": "Vulnerable",
     "short_pronunciation": "Vulnerable",
-    "note": ""
-  },
-  "audited": {
-    "name": "Audited",
-    "type": "condition",
-    "pronunciation": "Audited",
-    "short_pronunciation": "Audited",
-    "note": ""
-  },
-  "bramble-snared": {
-    "name": "Bramble-Snared",
-    "type": "condition",
-    "pronunciation": "Bramble-snared",
-    "short_pronunciation": "Bramble-snared",
-    "note": ""
-  },
-  "ward-sick": {
-    "name": "Ward-Sick",
-    "type": "condition",
-    "pronunciation": "Ward-sick",
-    "short_pronunciation": "Ward-sick",
-    "note": ""
-  },
-  "compliance-flagged": {
-    "name": "Compliance-Flagged",
-    "type": "condition",
-    "pronunciation": "Compliance-flagged",
-    "short_pronunciation": "Compliance-flagged",
-    "note": ""
-  },
-  "memory-raw": {
-    "name": "Memory-Raw",
-    "type": "condition",
-    "pronunciation": "Memory-raw",
-    "short_pronunciation": "Memory-raw",
-    "note": ""
-  },
-  "debt-marked": {
-    "name": "Debt-Marked",
-    "type": "condition",
-    "pronunciation": "Debt-marked",
-    "short_pronunciation": "Debt-marked",
     "note": ""
   },
   "hexmart-pocket-wardtm-cracked": {

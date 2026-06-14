@@ -17,6 +17,21 @@
   <a href="../pages/entity-index.html">Wiki</a>
   <a href="../pages/pc-cheat-sheet.html">PCs</a>
   <button type="button" data-rules-open data-rules-target="action-roll">Rules</button>
+  <details class="rules-shortcuts">
+    <summary>Rule Shortcuts</summary>
+    <div class="rules-shortcut-menu">
+      <button type="button" data-rules-open data-rules-target="action-roll">Action Roll Help</button>
+      <button type="button" data-rules-open data-rules-target="hope-fear-matrix">Hope/Fear Outcomes</button>
+      <button type="button" data-rules-open data-rules-target="difficulty-ladder">Difficulty Ladder</button>
+      <button type="button" data-rules-open data-rules-target="conditions">Official Conditions</button>
+      <button type="button" data-rules-open data-rules-target="damage-armor-stress">Damage / Armor</button>
+      <button type="button" data-rules-open data-rules-target="gm-fear">GM Fear Spends</button>
+      <a class="button secondary" href="../pages/dnd-to-daggerheart.html">D&D Conversion</a>
+      <button type="button" data-rules-open data-rules-target="short-rest">Short Rest</button>
+      <button type="button" data-rules-open data-rules-target="countdown">Countdown</button>
+      <button type="button" data-rules-open data-rules-target="gm-moves-spotlight">Adversary Spotlight</button>
+    </div>
+  </details>
   <label>Jump <select data-scene-jump></select></label>
   <label>Theme <select data-theme-select><option value="light">Light</option><option value="dark">Dark</option><option value="print-preview">Print preview</option></select></label>
   <button type="button" data-command-palette-open>Search</button>
@@ -28,19 +43,19 @@
 </dialog>
 
   <header class="subpage-header">
-    <a class="button secondary" href="../index.html">Atlas Home</a>
-    <a class="button secondary" href="../run.html">Run Mode</a>
-    <a class="button secondary" href="../pages/gm-dashboard.html">GM Dashboard</a>
-    <a class="button secondary" href="../pages/entity-index.html">Entity Wiki</a>
-    <button class="button secondary" type="button" data-rules-open data-entity="gm-rules-drawer">GM Rules Drawer</button>
-    <a class="button secondary" href="../player-display.html">Player Display</a>
-    <a class="button secondary" href="../pages/handouts.html">Handouts</a>
-    <a class="button secondary" href="../pages/loot-board.html">Loot Board</a>
-    <a class="button secondary" href="../pages/pc-cheat-sheet.html">PC Sheet</a>
-    <a class="button secondary" href="../pages/pronunciation-guide.html">Pronunciation</a>
-    <a class="button secondary" href="../pages/media-board.html">Media Board</a>
-    <a class="button secondary" href="../pages/session-zero.html">Session Zero</a>
-    <button class="button secondary" type="button" onclick="window.print()">Print</button>
+    <details class="subpage-more">
+      <summary class="button secondary">More resources</summary>
+      <div class="subpage-more-menu">
+        <a class="button secondary" href="../player-display.html">Player Display</a>
+        <a class="button secondary" href="../pages/handouts.html">Handouts</a>
+        <a class="button secondary" href="../pages/loot-board.html">Loot Board</a>
+        <a class="button secondary" href="../pages/pronunciation-guide.html">Pronunciation</a>
+        <a class="button secondary" href="../pages/media-board.html">Media Board</a>
+        <a class="button secondary" href="../pages/session-zero.html">Session Zero</a>
+        <button class="button secondary" type="button" data-rules-open data-entity="gm-rules-drawer">GM Rules Drawer</button>
+        <button class="button secondary" type="button" onclick="window.print()">Print</button>
+      </div>
+    </details>
   </header>
   <main id="content">
 <article class="wiki-page session-zero-page" data-collapsible-sections>
@@ -553,7 +568,7 @@
     </details>
   </dialog>
   
-<aside id="rules-drawer" class="rules-drawer" aria-hidden="true" aria-label="GM Rules Drawer">
+<aside id="rules-drawer" class="rules-drawer" hidden aria-hidden="true" aria-label="GM Rules Drawer">
   <div class="rules-drawer-inner">
     <header class="drawer-header">
       <div>
@@ -562,7 +577,7 @@
       </div>
       <button type="button" class="drawer-close" data-rules-close>Close</button>
     </header>
-    <label class="search-label">Search rules <input id="rules-search" type="search" placeholder="Fear, DC, Untethered, rest"></label>
+    <label class="search-label">Search rules <input id="rules-search" type="search" placeholder="Fear, Difficulty, Vulnerable, rest"></label>
     <div class="dice-mode-inline">
       <button type="button" data-dice-mode-set="duality_2d12">Use Duality 2d12</button>
       <button type="button" data-dice-mode-set="p2p_jenga_fear">Use P2P Jenga Fear</button>
@@ -570,71 +585,153 @@
     
     <section class="rules-section" id="rule-action-roll" data-rules-text>
       <p class="private-note">#rules-canon</p>
-      <h3>Action Roll / Duality Dice</h3>
-      <p>Roll two d12s, one Hope die and one Fear die. Add the fitting trait and any bonuses, then compare the total to the Difficulty.</p><p>Higher Hope die means with Hope. Higher Fear die means with Fear. Matching dice are a Critical Success.</p><p>Reaction rolls use the same dice structure but do not generate Hope/Fear or GM moves.</p>
+      <h3>Action Roll Flow</h3>
+      
+      <p>Ask what the PC does, choose the trait that matches the fictional approach, set or reveal the Difficulty, then roll.</p><p>Roll Duality Dice, add the trait and any applicable Experience or bonus, compare the total to the Difficulty, then read Hope/Fear spin.</p><p>Roll only when the outcome is uncertain and the consequence matters. If there is no meaningful pressure, give the result without a roll.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-duality-dice" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Duality Dice</h3>
+      
+      <p>Official default: roll two d12s, one Hope die and one Fear die.</p><p>Total the dice, add the relevant trait and bonuses, then compare to Difficulty.</p><p>The higher die determines whether the roll is with Hope or with Fear. Matching dice are a Critical Success.</p><p>Reaction rolls use the Duality Dice structure, but they do not generate Hope or Fear.</p>
       
     </section>
 
     <section class="rules-section" id="rule-hope-fear-matrix" data-rules-text>
       <p class="private-note">#rules-canon</p>
-      <h3>Hope / Fear Outcome Matrix</h3>
+      <h3>Hope/Fear Outcomes</h3>
       
-      <div class="table-scroll"><table><thead><tr><th>Total</th><th>Spin</th><th>Result</th></tr></thead><tbody><tr><td>&gt;= Difficulty</td><td>Hope</td><td>Success with Hope: succeed and gain Hope; add generosity or clean position.</td></tr><tr><td>&gt;= Difficulty</td><td>Fear</td><td>Success with Fear: succeed, but the GM gains Fear and makes the cost bite.</td></tr><tr><td>&lt; Difficulty</td><td>Hope</td><td>Failure with Hope: miss the goal, but gain Hope and a useful thread.</td></tr><tr><td>&lt; Difficulty</td><td>Fear</td><td>Failure with Fear: fail and the GM makes a hard move that follows from the fiction.</td></tr><tr><td>matching dice</td><td>Critical</td><td>Critical Success: best case, gain Hope, clear 1 Stress, and add a small gift.</td></tr></tbody></table></div>
+      
+      <div class="table-scroll"><table><thead><tr><th>Total</th><th>Spin</th><th>Result</th></tr></thead><tbody><tr><td>&gt;= Difficulty</td><td>Hope</td><td>Success with Hope: get what you want and gain Hope.</td></tr><tr><td>&gt;= Difficulty</td><td>Fear</td><td>Success with Fear: get what you want, but there is a cost or consequence; GM gains Fear.</td></tr><tr><td>&lt; Difficulty</td><td>Hope</td><td>Failure with Hope: things do not go as planned, but gain Hope.</td></tr><tr><td>&lt; Difficulty</td><td>Fear</td><td>Failure with Fear: things go badly; major consequence or complication; GM gains Fear.</td></tr></tbody></table></div>
     </section>
 
-    <section class="rules-section" id="rule-slider-outcomes" data-rules-text>
-      <p class="private-note">#slider optional house layer</p>
-      <h3>Slider Outcomes</h3>
-      <p>Kyle&#x27;s Slider System adds degree to the Daggerheart result. It is a house layer, not official rules text.</p><p>First read total against the hinge D. Then overlay Hope/Fear spin. Crit always takes the top outcome.</p>
-      <div class="table-scroll"><table><thead><tr><th>Band</th><th>Total vs D</th><th>Use</th></tr></thead><tbody><tr><td>Botch</td><td>&lt;= D - 5</td><td>Failure and the situation worsens.</td></tr><tr><td>Miss</td><td>D - 4 to D - 1</td><td>Failure with a partial thread or near miss.</td></tr><tr><td>Hit</td><td>D to D + 4</td><td>Success at a cost.</td></tr><tr><td>Clean</td><td>D + 5 to D + 9</td><td>Clean success.</td></tr><tr><td>Soar</td><td>&gt;= D + 10</td><td>Success plus extra leverage.</td></tr><tr><td>Crit</td><td>matching dice</td><td>Top outcome, gain Hope, clear 1 Stress, small gift.</td></tr></tbody></table></div>
+    <section class="rules-section" id="rule-critical-success" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Critical Success</h3>
+      
+      <p>When the Hope die and Fear die match, the roll is a Critical Success.</p><p>A Critical Success counts as a roll with Hope even if the total would otherwise miss the Difficulty.</p><p>On a Critical Success, the PC gains Hope and clears 1 Stress. On an attack roll, follow the official critical damage rules.</p>
+      
     </section>
 
     <section class="rules-section" id="rule-difficulty-ladder" data-rules-text>
       <p class="private-note">#rules-canon</p>
       <h3>Difficulty Ladder</h3>
       
-      <div class="table-scroll"><table><thead><tr><th>Label</th><th>DC</th><th>Use</th></tr></thead><tbody><tr><td>Easy</td><td>10</td><td>Low pressure, beginner-friendly, obvious route.</td></tr><tr><td>Medium / Standard</td><td>15</td><td>Default meaningful uncertainty.</td></tr><tr><td>Hard</td><td>20</td><td>Dangerous, contested, or specialized task.</td></tr><tr><td>Very Hard</td><td>25</td><td>Exceptional, unstable, rushed, or opposed.</td></tr><tr><td>Near-impossible</td><td>30</td><td>Legendary attempt; usually offer another route.</td></tr></tbody></table></div>
+      
+      <div class="table-scroll"><table><thead><tr><th>Difficulty</th><th>Number</th><th>Use</th></tr></thead><tbody><tr><td>Very Easy 5</td><td>5</td><td>Obvious, low-pressure, strong leverage, or beginner-friendly on-ramp.</td></tr><tr><td>Easy 10</td><td>10</td><td>Low pressure, beginner-friendly, obvious route.</td></tr><tr><td>Average 15</td><td>15</td><td>Default meaningful uncertainty.</td></tr><tr><td>Hard 20</td><td>20</td><td>Dangerous, contested, or specialized task.</td></tr><tr><td>Very Hard 25</td><td>25</td><td>Exceptional, unstable, rushed, or opposed.</td></tr><tr><td>Nearly Impossible 30</td><td>30</td><td>Legendary attempt; usually offer another route.</td></tr></tbody></table></div>
     </section>
 
     <section class="rules-section" id="rule-traits" data-rules-text>
-      <p class="private-note">#adaptation aid</p>
-      <h3>Traits and D&amp;D-Brain Translation</h3>
+      <p class="private-note">#rules-canon</p>
+      <h3>Traits</h3>
+      
       
       <div class="table-scroll"><table><thead><tr><th>Trait</th><th>What it covers</th></tr></thead><tbody><tr><td>Agility</td><td>Sprint, leap, maneuver, dodge, balance, climb fast, keep footing.</td></tr><tr><td>Strength</td><td>Lift, smash, grapple, hold, carry, resist force, endure strain.</td></tr><tr><td>Finesse</td><td>Control, hide, tinker, pick, disable, handle delicate details.</td></tr><tr><td>Instinct</td><td>Perceive, sense, navigate, track, read danger, read animals.</td></tr><tr><td>Presence</td><td>Charm, lead, soothe, deceive, perform, intimidate, negotiate.</td></tr><tr><td>Knowledge</td><td>Recall, analyze, investigate, comprehend, reason from lore.</td></tr></tbody></table></div>
     </section>
 
-    <section class="rules-section" id="rule-modifiers-help" data-rules-text>
+    <section class="rules-section" id="rule-dnd-conversion" data-rules-text>
+      <p class="private-note">#gm-aid not official</p>
+      <h3>D&amp;D-to-Daggerheart Translation</h3>
+      <span class="sr-only" data-entity="d-and-d-conversion">D&amp;D Conversion</span>
+      <p>Daggerheart uses traits, not D&amp;D skills. Pick the trait that matches the player&#x27;s fictional approach.</p><p>Use the D&amp;D conversion page as a GM aid for players arriving from 5e; it is not official Daggerheart rules text.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-advantage-disadvantage" data-rules-text>
       <p class="private-note">#rules-canon</p>
-      <h3>Advantage, Disadvantage, Help, Experiences</h3>
-      <p>Advantage adds a d6. Disadvantage subtracts a d6. They cancel one-for-one.</p><p>Help an Ally: an ally spends 1 Hope, rolls a d6, and adds it to the acting PC&#x27;s roll.</p><p>Spend 1 Hope on a relevant Experience to add +2. Tag Team rolls cost 3 Hope and let two PCs act together.</p>
+      <h3>Advantage / Disadvantage</h3>
+      
+      <p>Advantage adds a d6 advantage die to the roll total.</p><p>Disadvantage subtracts a d6 disadvantage die from the roll total.</p><p>Advantage and disadvantage cancel each other out before rolling. If multiple advantage dice remain, use the highest one.</p><p>The GM may grant advantage or disadvantage when the fiction supports it.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-experiences-help" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Experiences, Help, Tag Team</h3>
+      
+      <p>Experiences are short backstory/expertise phrases. Spend 1 Hope before a roll to add a relevant Experience modifier.</p><p>Help an Ally: spend 1 Hope, describe feasible help, roll a d6 advantage die, and add it to the acting PC&#x27;s roll using the normal advantage rules.</p><p>Tag Team Roll: once per session, spend 3 Hope to combine two PCs&#x27; efforts. Both roll, choose one result for both, and resolve as a single action roll.</p>
       
     </section>
 
     <section class="rules-section" id="rule-gm-fear" data-rules-text>
-      <p class="private-note">#rules-canon + #p2p</p>
-      <h3>GM Fear Economy and Fear Spends</h3>
-      <p>GM starts with 1 Fear per PC and can hold up to 12 Fear.</p><p>Spend Fear to seize spotlight, make an extra move, spotlight extra adversaries, add adversary Experience, trigger Fear Features, advance countdowns, or reveal cost.</p><p>P2P Jenga Fear variant: with Fear means pull a numbered tower block. Block color is narrative corporate attention. Collapse fires banked consequences.</p>
-      
-    </section>
-
-    <section class="rules-section" id="rule-combat" data-rules-text>
       <p class="private-note">#rules-canon</p>
-      <h3>Adversary Attacks, Damage, Armor, Stress</h3>
-      <p>No fixed initiative. Pass spotlight by danger, intent, and consequences.</p><p>Adversary attacks roll d20 + attack against PC Evasion. PCs do not roll defense by default.</p><p>Damage uses thresholds. Armor Slots reduce severity by one threshold. If a PC is out of Stress and must mark more, they become Vulnerable and may mark HP.</p>
+      <h3>Hope Uses / Fear Uses</h3>
+      
+      <p>Hope can be spent to Help an Ally, use Experiences, initiate a Tag Team Roll, or activate Hope Features.</p><p>On a roll with Fear, the GM gains Fear and makes a move reflecting the complication.</p><p>Fear can be spent to spotlight adversaries, use Fear Features, make stronger GM moves, apply adversary Experiences, and advance pressure when the rules or stat block call for it.</p>
       
     </section>
 
-    <section class="rules-section" id="rule-rests-countdowns" data-rules-text>
-      <p class="private-note">#rules-canon + #adaptation</p>
-      <h3>Short Rest, Countdown Die, Ritual Countdown</h3>
-      <p>Short rest: each PC chooses two rest moves. The GM gains 1d4 Fear.</p><p>Countdowns are visible pressure. Tell players what changes when they tick.</p><p>Open Vale uses a ritual countdown. It ticks down when defenders make progress and up when the Custodian is harmed.</p>
+    <section class="rules-section" id="rule-gm-moves-spotlight" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>GM Moves / Adversary Spotlight</h3>
+      <span class="sr-only" data-entity="gm-moves">GM Moves</span><span class="sr-only" data-entity="adversary-spotlight">Adversary Spotlight</span>
+      <p>The spotlight moves through the fiction rather than a fixed initiative order.</p><p>The GM commonly makes moves when a PC rolls with Fear or fails an action roll.</p><p>Use softer moves to telegraph, reveal, or reposition. Use harder moves when the fiction and result call for direct consequence.</p><p>Spend Fear or use features when the adversary/environment rules call for it.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-adversary-attacks" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Adversary Attack Rolls</h3>
+      <span class="sr-only" data-entity="adversary-attack-rolls">Adversary Attack Rolls</span>
+      <p>Adversaries roll a d20 plus their attack modifier against the target PC&#x27;s Evasion.</p><p>PCs do not roll defense by default. Use reaction rolls only when a rule, feature, or GM call gives one.</p><p>PC action rolls against adversaries use the adversary&#x27;s Difficulty from the stat block.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-damage-armor-stress" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Damage / Armor / Stress</h3>
+      <span class="sr-only" data-entity="damage-armor">Damage / Armor</span>
+      <p>Compare incoming damage to the character&#x27;s damage thresholds to determine how many HP are marked.</p><p>Mark an Armor Slot to reduce the severity of incoming damage by one threshold.</p><p>When a character marks their last Stress, they become Vulnerable until they clear at least 1 Stress.</p><p>If a character must mark Stress while all Stress slots are marked, follow the official overflow consequence from the character rules.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-short-rest" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Short Rest</h3>
+      
+      <p>A short rest is about an hour to catch breath and recover.</p><p>Each PC may swap domain cards between loadout and vault, then choose two moves, including choosing the same move twice.</p><p>Short rest moves: Tend to Wounds, Clear Stress, Repair Armor, or Prepare.</p><p>Prepare gains Hope; preparing with one or more party members gives each of those PCs 2 Hope.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-countdown" data-rules-text>
+      <p class="private-note">#rules-canon + module tracker</p>
+      <h3>Countdown</h3>
+      
+      <p>Countdowns are visible pressure clocks. Tell players what changes when a countdown ticks.</p><p>On progress countdowns, successful action rolls can tick the party closer to the goal.</p><p>On consequence countdowns, failures or success with Fear can tick the opposing pressure closer.</p><p>Open Vale uses a module ritual countdown as a tracker; do not treat it as a new condition.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-ranges" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Ranges</h3>
+      
+      <p>Use Daggerheart range bands at the table: Melee, Very Close, Close, Far, Very Far, and Out of Range.</p><p>When exact distance is not important, keep ranges conversational and tied to reachable action.</p>
       
     </section>
 
     <section class="rules-section" id="rule-conditions" data-rules-text>
-      <p class="private-note">#rules-canon + #adaptation</p>
-      <h3>Conditions</h3>
-      <p>Core conditions: Hidden, Restrained, Vulnerable.</p><p>Goldspire conditions: Untethered, Audited, Bramble-Snared, Ward-Sick, Compliance-Flagged, Memory-Raw, Debt-Marked.</p><p>Describe the fiction first, then name the condition.</p>
+      <p class="private-note">#rules-canon</p>
+      <h3>Official Conditions</h3>
+      <span class="sr-only" data-entity="official-conditions">Official Conditions</span>
+      <p>Daggerheart has three primary global conditions: Hidden, Restrained, and Vulnerable.</p><p>Some features create unique effects, but those are feature-specific text, not module-wide conditions.</p><p>Unless a rule says otherwise, the same condition cannot stack on one target.</p><p>Temporary conditions can be cleared with a fitting action roll, a GM-approved fictional method, or by an adversary spending its spotlight to clear the condition.</p><p>Unconscious appears only as Death Move/status context in this Atlas, not as a global condition card.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-slider-outcomes" data-rules-text>
+      <p class="private-note">#slider house table style</p>
+      <h3>Kyle Slider / House Adjudication</h3>
+      
+      <p>Kyle&#x27;s Slider is a house/table adjudication overlay for degree of outcome.</p><p>It sits on top of official Daggerheart results and never replaces Success with Hope, Success with Fear, Failure with Hope, or Failure with Fear.</p><p>Use it only to decide how much fiction, cost, or leverage to attach to the official result.</p>
+      <div class="table-scroll"><table><thead><tr><th>Band</th><th>Total vs Difficulty</th><th>Use</th></tr></thead><tbody><tr><td>Botch</td><td>&lt;= D - 5</td><td>Failure and the situation worsens.</td></tr><tr><td>Miss</td><td>D - 4 to D - 1</td><td>Failure with a partial thread or near miss.</td></tr><tr><td>Hit</td><td>D to D + 4</td><td>Success at a cost.</td></tr><tr><td>Clean</td><td>D + 5 to D + 9</td><td>Clean success.</td></tr><tr><td>Soar</td><td>&gt;= D + 10</td><td>Success plus extra leverage.</td></tr><tr><td>Crit</td><td>matching dice</td><td>Top outcome, gain Hope, clear 1 Stress, small gift.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="rules-section" id="rule-jenga-variant" data-rules-text>
+      <p class="private-note">#p2p optional off by default</p>
+      <h3>P2P Jenga Fear Variant</h3>
+      
+      <p>Optional only and off by default. This is not official Daggerheart.</p><p>Default play uses official Duality Dice: two d12s, Hope and Fear.</p><p>If Kyle enables the variant, roll one Hope d12 and use the tower to resolve Fear pressure.</p>
       
     </section>
 

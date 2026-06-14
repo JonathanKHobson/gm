@@ -230,7 +230,11 @@ function setupDevToggles() {
     assets: "show-dev-assets",
     qa: "show-dev-qa",
   };
-  document.querySelectorAll("[data-dev-toggle]").forEach((toggle) => {
+  const toggles = [...document.querySelectorAll("[data-dev-toggle]")];
+  const updateDevMode = () => {
+    document.body.dataset.devMode = toggles.some((toggle) => toggle.checked) ? "true" : "false";
+  };
+  toggles.forEach((toggle) => {
     const key = toggle.dataset.devToggle;
     const cls = classMap[key];
     const stored = localStorage.getItem(`goldspire-dev-${key}`) === "true";
@@ -239,14 +243,17 @@ function setupDevToggles() {
     toggle.addEventListener("change", () => {
       localStorage.setItem(`goldspire-dev-${key}`, toggle.checked ? "true" : "false");
       if (cls) document.body.classList.toggle(cls, toggle.checked);
+      updateDevMode();
     });
   });
+  updateDevMode();
 }
 
 function setupRulesDrawer() {
   const drawer = document.querySelector("#rules-drawer");
   if (!drawer) return;
   const open = (targetId = "") => {
+    drawer.hidden = false;
     drawer.classList.add("is-open");
     drawer.setAttribute("aria-hidden", "false");
     const target = targetId ? drawer.querySelector(`#rule-${CSS.escape(targetId)}`) : null;
@@ -256,6 +263,7 @@ function setupRulesDrawer() {
   const close = () => {
     drawer.classList.remove("is-open");
     drawer.setAttribute("aria-hidden", "true");
+    drawer.hidden = true;
   };
   document.querySelectorAll("[data-rules-open]").forEach((button) => button.addEventListener("click", () => open(button.dataset.rulesTarget || "")));
   document.querySelectorAll("[data-rules-close]").forEach((button) => button.addEventListener("click", close));
@@ -506,7 +514,7 @@ function setupStateConsole() {
   document.querySelectorAll("[data-state-reset]").forEach((button) => {
     bindOnce(button, "stateResetBound", "click", () => {
       const mode = button.dataset.stateReset || "state";
-      if (!confirm(`Reset ${mode}? This cannot be undone in this browser.`)) return;
+      if (!confirm(`Reset ${mode}? This cannot be undone. Export your state first if you want a backup.`)) return;
       if (mode === "progress" || mode === "all") localStorage.removeItem(progressKey);
       if (mode === "pcs" || mode === "all") localStorage.removeItem(pcProfilesKey);
       if (mode === "state" || mode === "all") {

@@ -1090,25 +1090,5 @@
     ],
     "forbid_svg": true,
     "status": "required"
-  },
-  {
-    "id": "untethered",
-    "name": "Untethered",
-    "type": "condition",
-    "aliases": [
-      "Untethered condition",
-      "Untethered"
-    ],
-    "html_page": "pages/entities/untethered.html",
-    "obsidian_note": "obsidian_vault/Untethered.md",
-    "image_required": true,
-    "allowed_image_ext": [
-      ".png",
-      ".jpg",
-      ".jpeg",
-      ".webp"
-    ],
-    "forbid_svg": true,
-    "status": "required"
   }
 ]

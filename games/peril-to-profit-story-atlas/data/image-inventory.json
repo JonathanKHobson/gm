@@ -451,11 +451,6 @@
       "path": "assets/entities/ritual-countdown.png"
     },
     {
-      "slot": "entity:Untethered",
-      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d4455a4cc8196a5729f706987554f.png",
-      "path": "assets/entities/untethered.png"
-    },
-    {
       "slot": "entity:Forgotten Gods",
       "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d6872a4908196b4259f7186874c4f.png",
       "path": "assets/logos/forgotten-gods.png"
@@ -693,12 +688,42 @@
     {
       "slot": "icon:mechanic",
       "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d38e80938819696a94ecaa15f0c6e.png",
+      "path": "assets/entities/d-and-d-conversion.png"
+    },
+    {
+      "slot": "icon:mechanic",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d38e80938819696a94ecaa15f0c6e.png",
+      "path": "assets/entities/official-conditions.png"
+    },
+    {
+      "slot": "icon:mechanic",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d38e80938819696a94ecaa15f0c6e.png",
       "path": "assets/entities/hope.png"
     },
     {
       "slot": "icon:mechanic",
       "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d38e80938819696a94ecaa15f0c6e.png",
       "path": "assets/entities/fear.png"
+    },
+    {
+      "slot": "icon:mechanic",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d38e80938819696a94ecaa15f0c6e.png",
+      "path": "assets/entities/gm-moves.png"
+    },
+    {
+      "slot": "icon:mechanic",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d38e80938819696a94ecaa15f0c6e.png",
+      "path": "assets/entities/adversary-spotlight.png"
+    },
+    {
+      "slot": "icon:mechanic",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d38e80938819696a94ecaa15f0c6e.png",
+      "path": "assets/entities/adversary-attack-rolls.png"
+    },
+    {
+      "slot": "icon:mechanic",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d38e80938819696a94ecaa15f0c6e.png",
+      "path": "assets/entities/damage-armor.png"
     },
     {
       "slot": "icon:mechanic",
@@ -729,36 +754,6 @@
       "slot": "icon:condition",
       "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d39555d50819686c1abe7f864131e.png",
       "path": "assets/entities/vulnerable.png"
-    },
-    {
-      "slot": "icon:condition",
-      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d39555d50819686c1abe7f864131e.png",
-      "path": "assets/entities/audited.png"
-    },
-    {
-      "slot": "icon:condition",
-      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d39555d50819686c1abe7f864131e.png",
-      "path": "assets/entities/bramble-snared.png"
-    },
-    {
-      "slot": "icon:condition",
-      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d39555d50819686c1abe7f864131e.png",
-      "path": "assets/entities/ward-sick.png"
-    },
-    {
-      "slot": "icon:condition",
-      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d39555d50819686c1abe7f864131e.png",
-      "path": "assets/entities/compliance-flagged.png"
-    },
-    {
-      "slot": "icon:condition",
-      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d39555d50819686c1abe7f864131e.png",
-      "path": "assets/entities/memory-raw.png"
-    },
-    {
-      "slot": "icon:condition",
-      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d39555d50819686c1abe7f864131e.png",
-      "path": "assets/entities/debt-marked.png"
     },
     {
       "slot": "icon:item",

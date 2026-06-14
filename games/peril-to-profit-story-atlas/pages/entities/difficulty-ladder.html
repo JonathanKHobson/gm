@@ -17,6 +17,21 @@
   <a href="../../pages/entity-index.html">Wiki</a>
   <a href="../../pages/pc-cheat-sheet.html">PCs</a>
   <button type="button" data-rules-open data-rules-target="action-roll">Rules</button>
+  <details class="rules-shortcuts">
+    <summary>Rule Shortcuts</summary>
+    <div class="rules-shortcut-menu">
+      <button type="button" data-rules-open data-rules-target="action-roll">Action Roll Help</button>
+      <button type="button" data-rules-open data-rules-target="hope-fear-matrix">Hope/Fear Outcomes</button>
+      <button type="button" data-rules-open data-rules-target="difficulty-ladder">Difficulty Ladder</button>
+      <button type="button" data-rules-open data-rules-target="conditions">Official Conditions</button>
+      <button type="button" data-rules-open data-rules-target="damage-armor-stress">Damage / Armor</button>
+      <button type="button" data-rules-open data-rules-target="gm-fear">GM Fear Spends</button>
+      <a class="button secondary" href="../../pages/dnd-to-daggerheart.html">D&D Conversion</a>
+      <button type="button" data-rules-open data-rules-target="short-rest">Short Rest</button>
+      <button type="button" data-rules-open data-rules-target="countdown">Countdown</button>
+      <button type="button" data-rules-open data-rules-target="gm-moves-spotlight">Adversary Spotlight</button>
+    </div>
+  </details>
   <label>Jump <select data-scene-jump></select></label>
   <label>Theme <select data-theme-select><option value="light">Light</option><option value="dark">Dark</option><option value="print-preview">Print preview</option></select></label>
   <button type="button" data-command-palette-open>Search</button>
@@ -28,19 +43,19 @@
 </dialog>
 
   <header class="subpage-header">
-    <a class="button secondary" href="../../index.html">Atlas Home</a>
-    <a class="button secondary" href="../../run.html">Run Mode</a>
-    <a class="button secondary" href="../../pages/gm-dashboard.html">GM Dashboard</a>
-    <a class="button secondary" href="../../pages/entity-index.html">Entity Wiki</a>
-    <button class="button secondary" type="button" data-rules-open data-entity="gm-rules-drawer">GM Rules Drawer</button>
-    <a class="button secondary" href="../../player-display.html">Player Display</a>
-    <a class="button secondary" href="../../pages/handouts.html">Handouts</a>
-    <a class="button secondary" href="../../pages/loot-board.html">Loot Board</a>
-    <a class="button secondary" href="../../pages/pc-cheat-sheet.html">PC Sheet</a>
-    <a class="button secondary" href="../../pages/pronunciation-guide.html">Pronunciation</a>
-    <a class="button secondary" href="../../pages/media-board.html">Media Board</a>
-    <a class="button secondary" href="../../pages/session-zero.html">Session Zero</a>
-    <button class="button secondary" type="button" onclick="window.print()">Print</button>
+    <details class="subpage-more">
+      <summary class="button secondary">More resources</summary>
+      <div class="subpage-more-menu">
+        <a class="button secondary" href="../../player-display.html">Player Display</a>
+        <a class="button secondary" href="../../pages/handouts.html">Handouts</a>
+        <a class="button secondary" href="../../pages/loot-board.html">Loot Board</a>
+        <a class="button secondary" href="../../pages/pronunciation-guide.html">Pronunciation</a>
+        <a class="button secondary" href="../../pages/media-board.html">Media Board</a>
+        <a class="button secondary" href="../../pages/session-zero.html">Session Zero</a>
+        <button class="button secondary" type="button" data-rules-open data-entity="gm-rules-drawer">GM Rules Drawer</button>
+        <button class="button secondary" type="button" onclick="window.print()">Print</button>
+      </div>
+    </details>
   </header>
   <main id="content">
 <article class="wiki-page entity-page" data-collapsible-sections>
@@ -55,12 +70,12 @@
         </div>
       </div>
       <h1>Difficulty Ladder</h1>
-      <p class="entity-page-lede"><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Easy 10</span></a>, Medium/<a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Standard 15</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hard 20</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Hard 25</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Near-impossible 30</span></a>.</p>
-      <p class="muted"><strong>Aliases:</strong> DC, Difficulty, Difficulty Ladder, Easy 10, Hard 20, Medium 15, Near-impossible 30, Standard 15, Very Hard 25</p>
+      <p class="entity-page-lede"><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Easy 5</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Easy 10</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Average 15</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hard 20</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Hard 25</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Nearly Impossible 30</span></a>.</p>
+      <p class="muted"><strong>Aliases:</strong> Average 15, DC, Difficulty, Difficulty Ladder, Easy 10, Hard 20, Nearly Impossible 30, Very Easy 5, Very Hard 25</p>
       <div class="entity-page-actions console-actions">
         <button type="button" onclick="window.print()">Print page</button>
         
-<div class="player-safe-actions" data-player-safe-payload="{&quot;title&quot;: &quot;Difficulty Ladder&quot;, &quot;text&quot;: &quot;Difficulty Ladder: Easy 10, Medium/Standard 15, Hard 20, Very Hard 25, Near-impossible 30.&quot;, &quot;scene_id&quot;: &quot;&quot;}">
+<div class="player-safe-actions" data-player-safe-payload="{&quot;title&quot;: &quot;Difficulty Ladder&quot;, &quot;text&quot;: &quot;Difficulty Ladder: Very Easy 5, Easy 10, Average 15, Hard 20, Very Hard 25, Nearly Impossible 30.&quot;, &quot;scene_id&quot;: &quot;&quot;}">
   <button class="icon-button" type="button" aria-label="Copy" title="Copy" data-copy-player-safe><img src="../../assets/icons/action-copy.png" alt="" aria-hidden="true"><span class="sr-only">Copy</span></button>
   <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-open-player-safe-window><img src="../../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
   <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-send-player-safe><img src="../../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
@@ -88,7 +103,7 @@
   <section class="wiki-grid">
     <div>
       <h2>Player-Facing Description</h2>
-      <p><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Difficulty Ladder</span></a>: <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Easy 10</span></a>, Medium/<a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Standard 15</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hard 20</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Hard 25</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Near-impossible 30</span></a>.</p>
+      <p><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Difficulty Ladder</span></a>: <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Easy 5</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Easy 10</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Average 15</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hard 20</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Hard 25</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Nearly Impossible 30</span></a>.</p>
       <h2>GM-Only Truth</h2>
       <div class="scene-block gm-block"><p>No forced reveal. Let this entity disclose truth through scene context and player attention.</p></div>
       <h2>Role in Story</h2>
@@ -96,7 +111,7 @@
       <h2>Appearance / Sensory Palette</h2>
       <p>Give one concrete visual, one sound or texture, and one sign of who has used or neglected it.</p>
       <h2>Personality / Function</h2>
-      <p><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Easy 10</span></a>, Medium/<a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Standard 15</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hard 20</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Hard 25</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Near-impossible 30</span></a>.; keep the rule-facing state visible through fictional signs the table can understand.</p>
+      <p><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Easy 5</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Easy 10</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Average 15</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hard 20</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Hard 25</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Nearly Impossible 30</span></a>.; keep the rule-facing state visible through fictional signs the table can understand.</p>
       <h2>Wants / Pressures</h2>
       <p>Turn choices around <a class="entity-link entity-mechanic inline-entity-link" href="gm-rules-drawer.html" data-entity="gm-rules-drawer"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>GM Rules Drawer</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="slider-system.html" data-entity="slider-system"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Slider System</span></a> into clear consequences the GM can track.</p>
       <h2>Fears / Vulnerabilities</h2>
@@ -112,7 +127,7 @@
         <p><strong>Player-safe:</strong> Players can investigate, negotiate, understand, or use as context <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Difficulty Ladder</span></a> when it is present in the fiction.</p>
         <p><strong>GM-only:</strong> Use mechanics to reveal motive and cost, not to turn the entity into a rules vending machine.</p>
         <h3>No-Roll Reveals</h3>
-        <ul><li>Surface read: <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Easy 10</span></a>, Medium/<a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Standard 15</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hard 20</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Hard 25</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Near-impossible 30</span></a>.</li><li>Who or what this entity is connected to should be visible before a roll locks the answer.</li></ul>
+        <ul><li>Surface read: <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Easy 5</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Easy 10</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Average 15</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hard 20</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Hard 25</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Nearly Impossible 30</span></a>.</li><li>Who or what this entity is connected to should be visible before a roll locks the answer.</li></ul>
         <h3>Roll / Search / Fight Cards</h3>
         <div class="roll-card-stack">
 <details class="roll-card" data-roll-card="entity-difficulty-ladder-engage-difficulty-ladder" open>
@@ -123,20 +138,25 @@
     <p><strong>Why This Trait:</strong> Choose the trait from the player&#x27;s method, not the entity type.</p>
     <p><strong>Stakes:</strong> A flat read of <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Difficulty Ladder</span></a> hides the cost, motive, or useful next step.</p>
     <p class="dice-mode-copy duality-copy"><strong>Dice Mode:</strong> Roll <a class="entity-link entity-mechanic inline-entity-link" href="hope.html" data-entity="hope"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hope</span></a> and <a class="entity-link entity-mechanic inline-entity-link" href="fear.html" data-entity="fear"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Fear</span></a> d12s, add the chosen trait, compare to the hinge, then read the higher die for <a class="entity-link entity-mechanic inline-entity-link" href="hope.html" data-entity="hope"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hope</span></a>/<a class="entity-link entity-mechanic inline-entity-link" href="fear.html" data-entity="fear"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Fear spin</span></a>.</p>
-    <p class="dice-mode-copy jenga-copy"><strong>Dice Mode:</strong> Roll the <a class="entity-link entity-mechanic inline-entity-link" href="duality-dice.html" data-entity="duality-dice"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hope die</span></a> and compare to the hinge. For <a class="entity-link entity-mechanic inline-entity-link" href="fear.html" data-entity="fear"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Fear spin</span></a>, pull a numbered <a class="entity-link entity-mechanic inline-entity-link" href="p2p-jenga-fear-variant.html" data-entity="p2p-jenga-fear-variant"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>tower block</span></a>; color is corporate attention and collapse fires banked consequences.</p>
-    <div class="table-scroll"><table><tbody><tr><th>Botch &lt;=D-5</th><td>A flat read of <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Difficulty Ladder</span></a> hides the cost, motive, or useful next step. Apply a hard complication, <a class="entity-link entity-mechanic inline-entity-link" href="stress.html" data-entity="stress"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>mark Stress</span></a>, or introduce <a class="entity-link entity-condition inline-entity-link" href="compliance-flagged.html" data-entity="compliance-flagged"><img class="type-icon" src="../../assets/icons/condition.png" alt="" aria-hidden="true"><span>Compliance-Flagged</span></a>.</td></tr><tr><th>Miss D-4..D-1</th><td>The attempt falls short, but a partial thread appears. Offer one clue, weak position, or safer follow-up.</td></tr><tr><th>Hit D..D+4</th><td>The PC gets the core result, but it costs time, noise, leverage, or a visible resource.</td></tr><tr><th>Clean D+5..D+9</th><td>The result lands cleanly. Give the useful truth or position without extra cost.</td></tr><tr><th>Soar &gt;=D+10</th><td>The result lands with leverage: add a bonus clue, better position, or future advantage. Possible loot: None.</td></tr><tr><th>Crit</th><td>Best case regardless of total: gain <a class="entity-link entity-mechanic inline-entity-link" href="hope.html" data-entity="hope"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hope</span></a>, clear 1 <a class="entity-link entity-mechanic inline-entity-link" href="stress.html" data-entity="stress"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Stress</span></a>, and add a small concrete gift or clue.</td></tr></tbody></table></div>
+    <p class="dice-mode-copy jenga-copy"><strong>Dice Mode:</strong> Optional <a class="entity-link entity-mechanic inline-entity-link" href="p2p-jenga-fear-variant.html" data-entity="p2p-jenga-fear-variant"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>P2P Jenga Fear Variant</span></a>, off by default and not official Daggerheart: roll one <a class="entity-link entity-mechanic inline-entity-link" href="hope.html" data-entity="hope"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hope</span></a> d12 and use the tower for <a class="entity-link entity-mechanic inline-entity-link" href="fear.html" data-entity="fear"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Fear</span></a> only if Kyle enables it.</p>
+    <h5>Official Daggerheart Results</h5>
+    <div class="table-scroll"><table><tbody><tr><th>Critical Success</th><td>Critical Success: best possible version of the action; gain <a class="entity-link entity-mechanic inline-entity-link" href="hope.html" data-entity="hope"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hope</span></a> and clear 1 <a class="entity-link entity-mechanic inline-entity-link" href="stress.html" data-entity="stress"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Stress</span></a>. Add an extra benefit that follows from the fiction.</td></tr><tr><th>Success with Hope</th><td>Success <a class="entity-link entity-mechanic inline-entity-link" href="hope.html" data-entity="hope"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>with Hope</span></a>: the PC gets what they wanted and gains <a class="entity-link entity-mechanic inline-entity-link" href="hope.html" data-entity="hope"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hope</span></a>. Keep the position <a class="entity-link entity-mechanic inline-entity-link" href="slider-system.html" data-entity="slider-system"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>clean</span></a> or generous.</td></tr><tr><th>Success with Fear</th><td>Success <a class="entity-link entity-mechanic inline-entity-link" href="fear.html" data-entity="fear"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>with Fear</span></a>: the PC gets what they wanted, but the GM gains <a class="entity-link entity-mechanic inline-entity-link" href="fear.html" data-entity="fear"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Fear</span></a> and introduces a cost, complication, or pressure.</td></tr><tr><th>Failure with Hope</th><td>Failure <a class="entity-link entity-mechanic inline-entity-link" href="hope.html" data-entity="hope"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>with Hope</span></a>: the PC does not get the full result, but gains <a class="entity-link entity-mechanic inline-entity-link" href="hope.html" data-entity="hope"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hope</span></a> and receives a useful thread, clue, or safer next option.</td></tr><tr><th>Failure with Fear</th><td>Failure <a class="entity-link entity-mechanic inline-entity-link" href="fear.html" data-entity="fear"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>with Fear</span></a>: the PC fails and the GM gains <a class="entity-link entity-mechanic inline-entity-link" href="fear.html" data-entity="fear"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Fear</span></a>. Make a hard move that follows from the fiction.</td></tr></tbody></table></div>
+    <h5>Kyle Slider / House Adjudication Overlay</h5>
+    <p class="muted">Kyle Slider / house adjudication style; overlay only, not official Daggerheart.</p>
+    <div class="table-scroll"><table><tbody><tr><th>Botch &lt;=D-5</th><td>A flat read of <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Difficulty Ladder</span></a> hides the cost, motive, or useful next step. Use a hard complication, lost time, worse position, <a class="entity-link entity-mechanic inline-entity-link" href="fear.html" data-entity="fear"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>GM Fear</span></a>, or <a class="entity-link entity-mechanic inline-entity-link" href="stress.html" data-entity="stress"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>mark Stress</span></a>. Apply an official condition only if the fiction and rules justify it.</td></tr><tr><th>Miss D-4..D-1</th><td>The attempt falls short, but a partial thread appears. Offer one clue, weak position, or safer follow-up.</td></tr><tr><th>Hit D..D+4</th><td>The PC gets the core result, but it costs time, noise, leverage, or a visible resource.</td></tr><tr><th>Clean D+5..D+9</th><td>The result lands cleanly. Give the useful truth or position without extra cost.</td></tr><tr><th>Soar &gt;=D+10</th><td>The result lands with leverage: add a bonus clue, better position, or future advantage. Possible loot: None.</td></tr><tr><th>Crit</th><td>Best case regardless of total: gain <a class="entity-link entity-mechanic inline-entity-link" href="hope.html" data-entity="hope"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hope</span></a>, clear 1 <a class="entity-link entity-mechanic inline-entity-link" href="stress.html" data-entity="stress"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Stress</span></a>, and add a small concrete gift or clue.</td></tr></tbody></table></div>
     <div class="detail-grid">
       <div>
         <h5>Hope Spin</h5>
-        <p>Gain <a class="entity-link entity-mechanic inline-entity-link" href="hope.html" data-entity="hope"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hope</span></a> and soften the band cost by one notch. Let the player name one helpful detail when it fits.</p>
+        <p>Gain <a class="entity-link entity-mechanic inline-entity-link" href="hope.html" data-entity="hope"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hope</span></a>. If using the <a class="entity-link entity-mechanic inline-entity-link" href="slider-system.html" data-entity="slider-system"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Slider</span></a> overlay, soften the band cost by one notch when it fits the fiction.</p>
         <h5>Fear Spin</h5>
-        <p>GM gains <a class="entity-link entity-mechanic inline-entity-link" href="fear.html" data-entity="fear"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Fear</span></a> or pulls a <a class="entity-link entity-mechanic inline-entity-link" href="p2p-jenga-fear-variant.html" data-entity="p2p-jenga-fear-variant"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>tower block</span></a>. Make the same result cost more, tick a <a class="entity-link entity-mechanic inline-entity-link" href="ritual-countdown.html" data-entity="ritual-countdown"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>countdown</span></a>, or show who notices.</p>
+        <p>GM gains <a class="entity-link entity-mechanic inline-entity-link" href="fear.html" data-entity="fear"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Fear</span></a>. If using the optional <a class="entity-link entity-mechanic inline-entity-link" href="p2p-jenga-fear-variant.html" data-entity="p2p-jenga-fear-variant"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>P2P Jenga</span></a> variant, pull a <a class="entity-link entity-mechanic inline-entity-link" href="p2p-jenga-fear-variant.html" data-entity="p2p-jenga-fear-variant"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>tower block</span></a> only when Kyle enabled that mode.</p>
       </div>
       <div>
         <h5>GM Fear Spends</h5>
         <ul><li>Advance a visible timer or move a threat into better position.</li><li>Reveal an omitted clause, route cost, ward symptom, or human consequence.</li></ul>
-        <h5>Relevant Conditions</h5>
-        <p><a class="entity-link entity-condition inline-entity-link" href="compliance-flagged.html" data-entity="compliance-flagged"><img class="type-icon" src="../../assets/icons/condition.png" alt="" aria-hidden="true"><span>Compliance-Flagged</span></a></p>
+        <h5>Relevant Official Conditions</h5>
+        <p>No official condition unless the fiction calls for <a class="entity-link entity-condition inline-entity-link" href="hidden.html" data-entity="hidden"><img class="type-icon" src="../../assets/icons/condition.png" alt="" aria-hidden="true"><span>Hidden</span></a>, <a class="entity-link entity-condition inline-entity-link" href="restrained.html" data-entity="restrained"><img class="type-icon" src="../../assets/icons/condition.png" alt="" aria-hidden="true"><span>Restrained</span></a>, or <a class="entity-link entity-condition inline-entity-link" href="vulnerable.html" data-entity="vulnerable"><img class="type-icon" src="../../assets/icons/condition.png" alt="" aria-hidden="true"><span>Vulnerable</span></a></p>
+        
       </div>
     </div>
     <h5>Class / Community / Ancestry Reveals</h5>
@@ -147,18 +167,18 @@
         <h3>Fear Spend Features</h3>
         <ul><li>Reveal who benefits from the current situation.</li><li>Make the cost personal without closing off player agency.</li></ul>
         <h3>Condition Options</h3>
-        <ul><li><a class="entity-link entity-condition inline-entity-link" href="compliance-flagged.html" data-entity="compliance-flagged"><img class="type-icon" src="../../assets/icons/condition.png" alt="" aria-hidden="true"><span>Compliance-Flagged</span></a></li></ul>
+        <ul><li>No official condition unless the fiction calls for <a class="entity-link entity-condition inline-entity-link" href="hidden.html" data-entity="hidden"><img class="type-icon" src="../../assets/icons/condition.png" alt="" aria-hidden="true"><span>Hidden</span></a>, <a class="entity-link entity-condition inline-entity-link" href="restrained.html" data-entity="restrained"><img class="type-icon" src="../../assets/icons/condition.png" alt="" aria-hidden="true"><span>Restrained</span></a>, or <a class="entity-link entity-condition inline-entity-link" href="vulnerable.html" data-entity="vulnerable"><img class="type-icon" src="../../assets/icons/condition.png" alt="" aria-hidden="true"><span>Vulnerable</span></a></li></ul>
         <h3>Search / Loot</h3>
         <p>No loot. Use to set roll hinges.</p>
       </div>
       <h2>Checks / Rolls</h2>
-      <div class="table-scroll"><table class="check-matrix"><thead><tr><th>Approach</th><th>DC</th><th>Critical</th><th>Success + Hope</th><th>Success + Fear</th><th>Failure + Hope</th><th>Failure + Fear</th><th>Spend Fear</th></tr></thead><tbody><tr><td>Knowledge / Instinct / Presence as fits the table</td><td>15</td><td>Learn the <a class="entity-link entity-mechanic inline-entity-link" href="slider-system.html" data-entity="slider-system"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>clean</span></a> fact about <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Difficulty Ladder</span></a> and one deeper connection.</td><td>Learn the useful fact and gain a follow-up question.</td><td>Learn the fact, but reveal who notices, who is endangered, or what timer advances.</td><td><a class="entity-link entity-mechanic inline-entity-link" href="slider-system.html" data-entity="slider-system"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Miss</span></a> the full answer, but gain a sensory clue or safe next step.</td><td>Misread the pressure and invite a GM move tied to cost, custody, or danger.</td><td>Spend <a class="entity-link entity-mechanic inline-entity-link" href="fear.html" data-entity="fear"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Fear</span></a> to reveal the system behind the object, move a threat closer, or make a choice more costly.</td></tr></tbody></table></div>
+      <div class="table-scroll"><table class="check-matrix"><thead><tr><th>Approach</th><th>DC</th><th>Critical</th><th>Success + Hope</th><th>Success + Fear</th><th>Failure + Hope</th><th>Failure + Fear</th><th>Spend Fear</th></tr></thead><tbody><tr><td>Knowledge / Instinct / Presence as fits the table</td><td>15</td><td>Learn the <a class="entity-link entity-mechanic inline-entity-link" href="slider-system.html" data-entity="slider-system"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>clean</span></a> fact about <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Difficulty Ladder</span></a> and one deeper connection.</td><td>Learn the useful fact and gain a follow-up question.</td><td>Learn the fact, but reveal who notices, who is endangered, or what timer advances.</td><td><a class="entity-link entity-mechanic inline-entity-link" href="slider-system.html" data-entity="slider-system"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Miss</span></a> the full answer, but gain a sensory clue or safe next step.</td><td>Misread the pressure and invite a <a class="entity-link entity-mechanic inline-entity-link" href="gm-moves.html" data-entity="gm-moves"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>GM move</span></a> tied to cost, custody, or danger.</td><td>Spend <a class="entity-link entity-mechanic inline-entity-link" href="fear.html" data-entity="fear"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Fear</span></a> to reveal the system behind the object, move a threat closer, or make a choice more costly.</td></tr></tbody></table></div>
       <h2>Class / Ancestry / Community Reveals</h2>
       <ul><li>Loreborne / Knowledge: names the institutional pattern.</li><li>Wildborne / community: notices local use, neglect, or ecological <a class="entity-link entity-mechanic inline-entity-link" href="stress.html" data-entity="stress"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>stress</span></a>.</li><li>Martial / security: reads custody, danger lines, and breach response.</li><li>Magic: senses ward tone, soul-signal, or unstable resonance.</li></ul>
       <h2>Questions to Ask Players</h2>
       <ul><li>What does <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Difficulty Ladder</span></a> make your character want to inspect, protect, or challenge?</li><li>What assumption about <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Difficulty Ladder</span></a> does your character bring into the scene?</li></ul>
       <h2>Loot / Search / Investigation Table</h2>
-      <table><thead><tr><th>Mode</th><th>Result</th></tr></thead><tbody><tr><td>Visible without a roll</td><td>The surface truth of <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Difficulty Ladder</span></a>: <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Easy 10</span></a>, Medium/<a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Standard 15</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hard 20</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Hard 25</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Near-impossible 30</span></a>.</td></tr>
+      <table><thead><tr><th>Mode</th><th>Result</th></tr></thead><tbody><tr><td>Visible without a roll</td><td>The surface truth of <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Difficulty Ladder</span></a>: <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Easy 5</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Easy 10</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Average 15</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hard 20</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Hard 25</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Nearly Impossible 30</span></a>.</td></tr>
 <tr><td>Rushed search</td><td>One actionable clue, but not the motive or system behind it.</td></tr>
 <tr><td>Careful search</td><td>A practical clue plus a relationship to another entity.</td></tr>
 <tr><td>Success <a class="entity-link entity-mechanic inline-entity-link" href="fear.html" data-entity="fear"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>with Fear</span></a></td><td>The clue is true, but someone notices or the next pressure advances.</td></tr>
@@ -174,22 +194,22 @@
       <h3>Body Language</h3>
       <ul><li>Give it one tactile detail when introduced.</li><li>Connect it to a choice, clue, or consequence.</li></ul>
       <h3>Equipment / Inventory</h3>
-      <ul><li><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Easy 10</span></a></li><li>Medium / <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Standard 15</span></a></li><li><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hard 20</span></a></li><li><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Hard 25</span></a></li><li><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Near-impossible 30</span></a></li></ul>
+      <ul><li><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Easy 5</span></a></li><li><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Easy 10</span></a></li><li><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Average 15</span></a></li><li><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hard 20</span></a></li><li><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Hard 25</span></a></li><li><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Nearly Impossible 30</span></a></li></ul>
       <h3>Search / Loot</h3>
       <p>No loot. Use to set roll hinges.</p>
       <h3>Sample Dialogue</h3>
-      <blockquote><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Easy 10</span></a>, Medium/<a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Standard 15</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hard 20</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Hard 25</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Near-impossible 30</span></a>.</blockquote>
+      <blockquote><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Easy 5</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Easy 10</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Average 15</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hard 20</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Hard 25</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Nearly Impossible 30</span></a>.</blockquote>
       <h3>Stat Block / Mechanical Summary</h3>
       <p>No combat stat summary needed.</p>
       <h3>Player-Safe Handout Text</h3>
-      <p>Player-safe note: <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Easy 10</span></a>, Medium/<a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Standard 15</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hard 20</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Hard 25</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Near-impossible 30</span></a>.</p>
+      <p>Player-safe note: <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Easy 5</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Easy 10</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Average 15</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hard 20</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Hard 25</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Nearly Impossible 30</span></a>.</p>
       <h3>TV-Safe Description</h3>
-      <p><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Difficulty Ladder</span></a>: <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Easy 10</span></a>, Medium/<a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Standard 15</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hard 20</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Hard 25</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Near-impossible 30</span></a>.</p>
+      <p><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Difficulty Ladder</span></a>: <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Easy 5</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Easy 10</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Average 15</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hard 20</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Hard 25</span></a>, <a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Nearly Impossible 30</span></a>.</p>
       <h3>Future Hooks</h3>
       <ul><li>Bring back as an echo if players made a strong choice involving this entity.</li></ul>
       <details class="scene-block prompt-block dev-only">
         <summary>Image Prompt / Asset Status</summary>
-        <p>Private table TTRPG story atlas asset for Difficulty Ladder, Mechanic. Role: Numeric DC reference for Daggerheart and Slider hinges. Summary: Easy 10, Medium/Standard 15, Hard 20, Very Hard 25, Near-impossible 30.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.</p>
+        <p>Private table TTRPG story atlas asset for Difficulty Ladder, Mechanic. Role: Numeric DC reference for Daggerheart and Slider hinges. Summary: Very Easy 5, Easy 10, Average 15, Hard 20, Very Hard 25, Nearly Impossible 30.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.</p>
         <p class="muted">Asset status: image_gen</p>
       </details>
     </aside>
@@ -218,7 +238,7 @@
     </details>
   </dialog>
   
-<aside id="rules-drawer" class="rules-drawer" aria-hidden="true" aria-label="GM Rules Drawer">
+<aside id="rules-drawer" class="rules-drawer" hidden aria-hidden="true" aria-label="GM Rules Drawer">
   <div class="rules-drawer-inner">
     <header class="drawer-header">
       <div>
@@ -227,7 +247,7 @@
       </div>
       <button type="button" class="drawer-close" data-rules-close>Close</button>
     </header>
-    <label class="search-label">Search rules <input id="rules-search" type="search" placeholder="Fear, DC, Untethered, rest"></label>
+    <label class="search-label">Search rules <input id="rules-search" type="search" placeholder="Fear, Difficulty, Vulnerable, rest"></label>
     <div class="dice-mode-inline">
       <button type="button" data-dice-mode-set="duality_2d12">Use Duality 2d12</button>
       <button type="button" data-dice-mode-set="p2p_jenga_fear">Use P2P Jenga Fear</button>
@@ -235,71 +255,153 @@
     
     <section class="rules-section" id="rule-action-roll" data-rules-text>
       <p class="private-note">#rules-canon</p>
-      <h3>Action Roll / Duality Dice</h3>
-      <p>Roll two d12s, one Hope die and one Fear die. Add the fitting trait and any bonuses, then compare the total to the Difficulty.</p><p>Higher Hope die means with Hope. Higher Fear die means with Fear. Matching dice are a Critical Success.</p><p>Reaction rolls use the same dice structure but do not generate Hope/Fear or GM moves.</p>
+      <h3>Action Roll Flow</h3>
+      
+      <p>Ask what the PC does, choose the trait that matches the fictional approach, set or reveal the Difficulty, then roll.</p><p>Roll Duality Dice, add the trait and any applicable Experience or bonus, compare the total to the Difficulty, then read Hope/Fear spin.</p><p>Roll only when the outcome is uncertain and the consequence matters. If there is no meaningful pressure, give the result without a roll.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-duality-dice" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Duality Dice</h3>
+      
+      <p>Official default: roll two d12s, one Hope die and one Fear die.</p><p>Total the dice, add the relevant trait and bonuses, then compare to Difficulty.</p><p>The higher die determines whether the roll is with Hope or with Fear. Matching dice are a Critical Success.</p><p>Reaction rolls use the Duality Dice structure, but they do not generate Hope or Fear.</p>
       
     </section>
 
     <section class="rules-section" id="rule-hope-fear-matrix" data-rules-text>
       <p class="private-note">#rules-canon</p>
-      <h3>Hope / Fear Outcome Matrix</h3>
+      <h3>Hope/Fear Outcomes</h3>
       
-      <div class="table-scroll"><table><thead><tr><th>Total</th><th>Spin</th><th>Result</th></tr></thead><tbody><tr><td>&gt;= Difficulty</td><td>Hope</td><td>Success with Hope: succeed and gain Hope; add generosity or clean position.</td></tr><tr><td>&gt;= Difficulty</td><td>Fear</td><td>Success with Fear: succeed, but the GM gains Fear and makes the cost bite.</td></tr><tr><td>&lt; Difficulty</td><td>Hope</td><td>Failure with Hope: miss the goal, but gain Hope and a useful thread.</td></tr><tr><td>&lt; Difficulty</td><td>Fear</td><td>Failure with Fear: fail and the GM makes a hard move that follows from the fiction.</td></tr><tr><td>matching dice</td><td>Critical</td><td>Critical Success: best case, gain Hope, clear 1 Stress, and add a small gift.</td></tr></tbody></table></div>
+      
+      <div class="table-scroll"><table><thead><tr><th>Total</th><th>Spin</th><th>Result</th></tr></thead><tbody><tr><td>&gt;= Difficulty</td><td>Hope</td><td>Success with Hope: get what you want and gain Hope.</td></tr><tr><td>&gt;= Difficulty</td><td>Fear</td><td>Success with Fear: get what you want, but there is a cost or consequence; GM gains Fear.</td></tr><tr><td>&lt; Difficulty</td><td>Hope</td><td>Failure with Hope: things do not go as planned, but gain Hope.</td></tr><tr><td>&lt; Difficulty</td><td>Fear</td><td>Failure with Fear: things go badly; major consequence or complication; GM gains Fear.</td></tr></tbody></table></div>
     </section>
 
-    <section class="rules-section" id="rule-slider-outcomes" data-rules-text>
-      <p class="private-note">#slider optional house layer</p>
-      <h3>Slider Outcomes</h3>
-      <p>Kyle&#x27;s Slider System adds degree to the Daggerheart result. It is a house layer, not official rules text.</p><p>First read total against the hinge D. Then overlay Hope/Fear spin. Crit always takes the top outcome.</p>
-      <div class="table-scroll"><table><thead><tr><th>Band</th><th>Total vs D</th><th>Use</th></tr></thead><tbody><tr><td>Botch</td><td>&lt;= D - 5</td><td>Failure and the situation worsens.</td></tr><tr><td>Miss</td><td>D - 4 to D - 1</td><td>Failure with a partial thread or near miss.</td></tr><tr><td>Hit</td><td>D to D + 4</td><td>Success at a cost.</td></tr><tr><td>Clean</td><td>D + 5 to D + 9</td><td>Clean success.</td></tr><tr><td>Soar</td><td>&gt;= D + 10</td><td>Success plus extra leverage.</td></tr><tr><td>Crit</td><td>matching dice</td><td>Top outcome, gain Hope, clear 1 Stress, small gift.</td></tr></tbody></table></div>
+    <section class="rules-section" id="rule-critical-success" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Critical Success</h3>
+      
+      <p>When the Hope die and Fear die match, the roll is a Critical Success.</p><p>A Critical Success counts as a roll with Hope even if the total would otherwise miss the Difficulty.</p><p>On a Critical Success, the PC gains Hope and clears 1 Stress. On an attack roll, follow the official critical damage rules.</p>
+      
     </section>
 
     <section class="rules-section" id="rule-difficulty-ladder" data-rules-text>
       <p class="private-note">#rules-canon</p>
       <h3>Difficulty Ladder</h3>
       
-      <div class="table-scroll"><table><thead><tr><th>Label</th><th>DC</th><th>Use</th></tr></thead><tbody><tr><td>Easy</td><td>10</td><td>Low pressure, beginner-friendly, obvious route.</td></tr><tr><td>Medium / Standard</td><td>15</td><td>Default meaningful uncertainty.</td></tr><tr><td>Hard</td><td>20</td><td>Dangerous, contested, or specialized task.</td></tr><tr><td>Very Hard</td><td>25</td><td>Exceptional, unstable, rushed, or opposed.</td></tr><tr><td>Near-impossible</td><td>30</td><td>Legendary attempt; usually offer another route.</td></tr></tbody></table></div>
+      
+      <div class="table-scroll"><table><thead><tr><th>Difficulty</th><th>Number</th><th>Use</th></tr></thead><tbody><tr><td>Very Easy 5</td><td>5</td><td>Obvious, low-pressure, strong leverage, or beginner-friendly on-ramp.</td></tr><tr><td>Easy 10</td><td>10</td><td>Low pressure, beginner-friendly, obvious route.</td></tr><tr><td>Average 15</td><td>15</td><td>Default meaningful uncertainty.</td></tr><tr><td>Hard 20</td><td>20</td><td>Dangerous, contested, or specialized task.</td></tr><tr><td>Very Hard 25</td><td>25</td><td>Exceptional, unstable, rushed, or opposed.</td></tr><tr><td>Nearly Impossible 30</td><td>30</td><td>Legendary attempt; usually offer another route.</td></tr></tbody></table></div>
     </section>
 
     <section class="rules-section" id="rule-traits" data-rules-text>
-      <p class="private-note">#adaptation aid</p>
-      <h3>Traits and D&amp;D-Brain Translation</h3>
+      <p class="private-note">#rules-canon</p>
+      <h3>Traits</h3>
+      
       
       <div class="table-scroll"><table><thead><tr><th>Trait</th><th>What it covers</th></tr></thead><tbody><tr><td>Agility</td><td>Sprint, leap, maneuver, dodge, balance, climb fast, keep footing.</td></tr><tr><td>Strength</td><td>Lift, smash, grapple, hold, carry, resist force, endure strain.</td></tr><tr><td>Finesse</td><td>Control, hide, tinker, pick, disable, handle delicate details.</td></tr><tr><td>Instinct</td><td>Perceive, sense, navigate, track, read danger, read animals.</td></tr><tr><td>Presence</td><td>Charm, lead, soothe, deceive, perform, intimidate, negotiate.</td></tr><tr><td>Knowledge</td><td>Recall, analyze, investigate, comprehend, reason from lore.</td></tr></tbody></table></div>
     </section>
 
-    <section class="rules-section" id="rule-modifiers-help" data-rules-text>
+    <section class="rules-section" id="rule-dnd-conversion" data-rules-text>
+      <p class="private-note">#gm-aid not official</p>
+      <h3>D&amp;D-to-Daggerheart Translation</h3>
+      <span class="sr-only" data-entity="d-and-d-conversion">D&amp;D Conversion</span>
+      <p>Daggerheart uses traits, not D&amp;D skills. Pick the trait that matches the player&#x27;s fictional approach.</p><p>Use the D&amp;D conversion page as a GM aid for players arriving from 5e; it is not official Daggerheart rules text.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-advantage-disadvantage" data-rules-text>
       <p class="private-note">#rules-canon</p>
-      <h3>Advantage, Disadvantage, Help, Experiences</h3>
-      <p>Advantage adds a d6. Disadvantage subtracts a d6. They cancel one-for-one.</p><p>Help an Ally: an ally spends 1 Hope, rolls a d6, and adds it to the acting PC&#x27;s roll.</p><p>Spend 1 Hope on a relevant Experience to add +2. Tag Team rolls cost 3 Hope and let two PCs act together.</p>
+      <h3>Advantage / Disadvantage</h3>
+      
+      <p>Advantage adds a d6 advantage die to the roll total.</p><p>Disadvantage subtracts a d6 disadvantage die from the roll total.</p><p>Advantage and disadvantage cancel each other out before rolling. If multiple advantage dice remain, use the highest one.</p><p>The GM may grant advantage or disadvantage when the fiction supports it.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-experiences-help" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Experiences, Help, Tag Team</h3>
+      
+      <p>Experiences are short backstory/expertise phrases. Spend 1 Hope before a roll to add a relevant Experience modifier.</p><p>Help an Ally: spend 1 Hope, describe feasible help, roll a d6 advantage die, and add it to the acting PC&#x27;s roll using the normal advantage rules.</p><p>Tag Team Roll: once per session, spend 3 Hope to combine two PCs&#x27; efforts. Both roll, choose one result for both, and resolve as a single action roll.</p>
       
     </section>
 
     <section class="rules-section" id="rule-gm-fear" data-rules-text>
-      <p class="private-note">#rules-canon + #p2p</p>
-      <h3>GM Fear Economy and Fear Spends</h3>
-      <p>GM starts with 1 Fear per PC and can hold up to 12 Fear.</p><p>Spend Fear to seize spotlight, make an extra move, spotlight extra adversaries, add adversary Experience, trigger Fear Features, advance countdowns, or reveal cost.</p><p>P2P Jenga Fear variant: with Fear means pull a numbered tower block. Block color is narrative corporate attention. Collapse fires banked consequences.</p>
-      
-    </section>
-
-    <section class="rules-section" id="rule-combat" data-rules-text>
       <p class="private-note">#rules-canon</p>
-      <h3>Adversary Attacks, Damage, Armor, Stress</h3>
-      <p>No fixed initiative. Pass spotlight by danger, intent, and consequences.</p><p>Adversary attacks roll d20 + attack against PC Evasion. PCs do not roll defense by default.</p><p>Damage uses thresholds. Armor Slots reduce severity by one threshold. If a PC is out of Stress and must mark more, they become Vulnerable and may mark HP.</p>
+      <h3>Hope Uses / Fear Uses</h3>
+      
+      <p>Hope can be spent to Help an Ally, use Experiences, initiate a Tag Team Roll, or activate Hope Features.</p><p>On a roll with Fear, the GM gains Fear and makes a move reflecting the complication.</p><p>Fear can be spent to spotlight adversaries, use Fear Features, make stronger GM moves, apply adversary Experiences, and advance pressure when the rules or stat block call for it.</p>
       
     </section>
 
-    <section class="rules-section" id="rule-rests-countdowns" data-rules-text>
-      <p class="private-note">#rules-canon + #adaptation</p>
-      <h3>Short Rest, Countdown Die, Ritual Countdown</h3>
-      <p>Short rest: each PC chooses two rest moves. The GM gains 1d4 Fear.</p><p>Countdowns are visible pressure. Tell players what changes when they tick.</p><p>Open Vale uses a ritual countdown. It ticks down when defenders make progress and up when the Custodian is harmed.</p>
+    <section class="rules-section" id="rule-gm-moves-spotlight" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>GM Moves / Adversary Spotlight</h3>
+      <span class="sr-only" data-entity="gm-moves">GM Moves</span><span class="sr-only" data-entity="adversary-spotlight">Adversary Spotlight</span>
+      <p>The spotlight moves through the fiction rather than a fixed initiative order.</p><p>The GM commonly makes moves when a PC rolls with Fear or fails an action roll.</p><p>Use softer moves to telegraph, reveal, or reposition. Use harder moves when the fiction and result call for direct consequence.</p><p>Spend Fear or use features when the adversary/environment rules call for it.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-adversary-attacks" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Adversary Attack Rolls</h3>
+      <span class="sr-only" data-entity="adversary-attack-rolls">Adversary Attack Rolls</span>
+      <p>Adversaries roll a d20 plus their attack modifier against the target PC&#x27;s Evasion.</p><p>PCs do not roll defense by default. Use reaction rolls only when a rule, feature, or GM call gives one.</p><p>PC action rolls against adversaries use the adversary&#x27;s Difficulty from the stat block.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-damage-armor-stress" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Damage / Armor / Stress</h3>
+      <span class="sr-only" data-entity="damage-armor">Damage / Armor</span>
+      <p>Compare incoming damage to the character&#x27;s damage thresholds to determine how many HP are marked.</p><p>Mark an Armor Slot to reduce the severity of incoming damage by one threshold.</p><p>When a character marks their last Stress, they become Vulnerable until they clear at least 1 Stress.</p><p>If a character must mark Stress while all Stress slots are marked, follow the official overflow consequence from the character rules.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-short-rest" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Short Rest</h3>
+      
+      <p>A short rest is about an hour to catch breath and recover.</p><p>Each PC may swap domain cards between loadout and vault, then choose two moves, including choosing the same move twice.</p><p>Short rest moves: Tend to Wounds, Clear Stress, Repair Armor, or Prepare.</p><p>Prepare gains Hope; preparing with one or more party members gives each of those PCs 2 Hope.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-countdown" data-rules-text>
+      <p class="private-note">#rules-canon + module tracker</p>
+      <h3>Countdown</h3>
+      
+      <p>Countdowns are visible pressure clocks. Tell players what changes when a countdown ticks.</p><p>On progress countdowns, successful action rolls can tick the party closer to the goal.</p><p>On consequence countdowns, failures or success with Fear can tick the opposing pressure closer.</p><p>Open Vale uses a module ritual countdown as a tracker; do not treat it as a new condition.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-ranges" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Ranges</h3>
+      
+      <p>Use Daggerheart range bands at the table: Melee, Very Close, Close, Far, Very Far, and Out of Range.</p><p>When exact distance is not important, keep ranges conversational and tied to reachable action.</p>
       
     </section>
 
     <section class="rules-section" id="rule-conditions" data-rules-text>
-      <p class="private-note">#rules-canon + #adaptation</p>
-      <h3>Conditions</h3>
-      <p>Core conditions: Hidden, Restrained, Vulnerable.</p><p>Goldspire conditions: Untethered, Audited, Bramble-Snared, Ward-Sick, Compliance-Flagged, Memory-Raw, Debt-Marked.</p><p>Describe the fiction first, then name the condition.</p>
+      <p class="private-note">#rules-canon</p>
+      <h3>Official Conditions</h3>
+      <span class="sr-only" data-entity="official-conditions">Official Conditions</span>
+      <p>Daggerheart has three primary global conditions: Hidden, Restrained, and Vulnerable.</p><p>Some features create unique effects, but those are feature-specific text, not module-wide conditions.</p><p>Unless a rule says otherwise, the same condition cannot stack on one target.</p><p>Temporary conditions can be cleared with a fitting action roll, a GM-approved fictional method, or by an adversary spending its spotlight to clear the condition.</p><p>Unconscious appears only as Death Move/status context in this Atlas, not as a global condition card.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-slider-outcomes" data-rules-text>
+      <p class="private-note">#slider house table style</p>
+      <h3>Kyle Slider / House Adjudication</h3>
+      
+      <p>Kyle&#x27;s Slider is a house/table adjudication overlay for degree of outcome.</p><p>It sits on top of official Daggerheart results and never replaces Success with Hope, Success with Fear, Failure with Hope, or Failure with Fear.</p><p>Use it only to decide how much fiction, cost, or leverage to attach to the official result.</p>
+      <div class="table-scroll"><table><thead><tr><th>Band</th><th>Total vs Difficulty</th><th>Use</th></tr></thead><tbody><tr><td>Botch</td><td>&lt;= D - 5</td><td>Failure and the situation worsens.</td></tr><tr><td>Miss</td><td>D - 4 to D - 1</td><td>Failure with a partial thread or near miss.</td></tr><tr><td>Hit</td><td>D to D + 4</td><td>Success at a cost.</td></tr><tr><td>Clean</td><td>D + 5 to D + 9</td><td>Clean success.</td></tr><tr><td>Soar</td><td>&gt;= D + 10</td><td>Success plus extra leverage.</td></tr><tr><td>Crit</td><td>matching dice</td><td>Top outcome, gain Hope, clear 1 Stress, small gift.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="rules-section" id="rule-jenga-variant" data-rules-text>
+      <p class="private-note">#p2p optional off by default</p>
+      <h3>P2P Jenga Fear Variant</h3>
+      
+      <p>Optional only and off by default. This is not official Daggerheart.</p><p>Default play uses official Duality Dice: two d12s, Hope and Fear.</p><p>If Kyle enables the variant, roll one Hope d12 and use the tower to resolve Fear pressure.</p>
       
     </section>
 

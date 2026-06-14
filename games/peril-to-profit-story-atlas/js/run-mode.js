@@ -73,6 +73,8 @@
       revealedSlides: [],
       autoCompletePreviousSceneOnNext: true,
       syncOnSlideChange: true,
+      imageCollapsed: false,
+      filmstripCollapsed: true,
     };
   }
 
@@ -129,6 +131,27 @@
     showStatus.timer = setTimeout(() => status.classList.remove("is-visible"), 1800);
   }
 
+  function applyViewState() {
+    document.body.classList.toggle("image-hidden", !!state.imageCollapsed);
+    document.body.classList.toggle("filmstrip-hidden", !!state.filmstripCollapsed);
+    const imageButton = document.querySelector('[data-run-action="toggle-image"]');
+    const filmstripButton = document.querySelector('[data-run-action="toggle-filmstrip"]');
+    if (imageButton) {
+      const label = state.imageCollapsed ? "Show image" : "Hide image";
+      imageButton.setAttribute("aria-label", label);
+      imageButton.setAttribute("title", label);
+      const text = imageButton.querySelector(".run-button-label");
+      if (text) text.textContent = label;
+    }
+    if (filmstripButton) {
+      const label = state.filmstripCollapsed ? "Show filmstrip" : "Hide filmstrip";
+      filmstripButton.setAttribute("aria-label", label);
+      filmstripButton.setAttribute("title", label);
+      const text = filmstripButton.querySelector(".run-button-label");
+      if (text) text.textContent = label;
+    }
+  }
+
   function playerProjection(slide) {
     return {
       id: slide.id,
@@ -182,6 +205,7 @@
     const sync = document.querySelector("#run-sync-on-change");
     if (sync) sync.checked = !!state.syncOnSlideChange;
     const root = document.querySelector("[data-slide-root]");
+    applyViewState();
     root.innerHTML = slideMarkup(slide);
     renderScrubber();
     bindRenderedSlide();
@@ -196,21 +220,22 @@
     const media = hasImage
       ? `<figure class="slide-media"><button type="button" data-run-action="expand-image" aria-label="Expand image"><img src="${escapeAttr(image)}" alt="${escapeAttr(slide.alt || slide.title)}"></button><figcaption>${escapeHtml(slide.caption || "")}</figcaption></figure>`
       : `<div class="slide-media slide-divider-art"><p>${escapeHtml(slide.caption || slide.sectionTitle || "")}</p></div>`;
+    const detailStack = isCheat ? cheatReferencePanel(slide) : sceneDetailStack(slide);
     return `
       <section class="slide-main">
         ${media}
         <div class="slide-copy">
           <div class="slide-meta-row">
             <span class="slide-pill">${escapeHtml(slide.id)}</span>
-            <span class="slide-pill">${escapeHtml(slide.sectionTitle || "")}</span>
-            <span class="slide-pill">${escapeHtml(slide.type || "")}</span>
+            ${slide.sectionTitle && slide.sectionTitle !== slide.id ? `<span class="slide-pill">${escapeHtml(slide.sectionTitle)}</span>` : ""}
+            ${slide.type ? `<span class="slide-pill">${escapeHtml(slide.type)}</span>` : ""}
             <label class="complete-current"><input type="checkbox" data-run-current-complete ${state.completedSlides.includes(slide.id) ? "checked" : ""}> Complete</label>
             ${state.pinnedSlides.includes(slide.id) ? '<span class="slide-pill">Pinned</span>' : ""}
             ${state.lastAutoCompletedSlideId ? `<button class="undo-complete-button" type="button" data-run-action="undo-complete">Undo auto-complete: ${escapeHtml(state.lastAutoCompletedSlideId)}</button>` : ""}
           </div>
           <h2>${escapeHtml(slide.title)}</h2>
-          ${slide.gmGoal ? `<p class="slide-goal"><strong>GM goal:</strong> ${escapeHtml(slide.gmGoal)}</p>` : ""}
-          ${slide.publicObjective ? `<p class="slide-objective"><strong>Public objective:</strong> ${escapeHtml(slide.publicObjective)}</p>` : ""}
+          ${slide.gmGoal ? `<p class="slide-goal"><strong>GM goal:</strong> ${linkifyEntities(slide.gmGoal)}</p>` : ""}
+          ${slide.publicObjective ? `<p class="slide-objective"><strong>Public objective:</strong> ${linkifyEntities(slide.publicObjective)}</p>` : ""}
           <div class="slide-action-group" aria-label="Player display and text actions">
             <p class="slide-action-group-label">Player Display / Text</p>
             <div class="slide-action-row">
@@ -222,28 +247,51 @@
               ${runIcon("expand-text", "Fullscreen read-aloud text", "action-fullscreen.png", false, "Full")}
             </div>
           </div>
+          ${detailStack}
         </div>
+      </section>`;
+  }
+
+  function sceneDetailStack(slide) {
+    return `<div class="run-detail-stack">
+      <details class="slide-panel" id="slide-readaloud" open>
+        <summary>Player-facing read-aloud</summary>
+        <p>${linkifyEntities(slide.readAloud || slide.publicObjective || slide.caption || "No read-aloud text on this slide.")}</p>
+      </details>
+      ${entityPanel(slide)}
+      ${statePanel(slide)}
+      ${rollPanel(slide)}
+      <details class="slide-panel">
+        <summary>GM notes</summary>
+        ${linkifyList(slide.gmNotes || [], "No GM notes for this slide.")}
+      </details>
+      ${runTablePanel(slide)}
+    </div>`;
+  }
+
+  function cheatReferencePanel(slide) {
+    return `<div class="run-detail-stack">
+      <section class="slide-panel cheat-reference" aria-label="Cheat sheet reference">
+        <h3>Reference</h3>
+        ${listMarkup(slide.gmNotes || [], "No cheat notes available.").replace("<ul>", '<ul class="cheat-reference-list">')}
       </section>
-      <aside class="slide-rail">
-        <details class="slide-panel" id="slide-readaloud">
-          <summary>Player-facing read-aloud</summary>
-          <p>${escapeHtml(slide.readAloud || slide.publicObjective || slide.caption || "No read-aloud text on this slide.")}</p>
-        </details>
-        ${entityPanel(slide)}
-        ${statePanel(slide)}
-        ${rollPanel(slide)}
-        <details class="slide-panel">
-          <summary>GM notes</summary>
-          ${listMarkup(slide.gmNotes || [], isCheat ? "No cheat notes." : "No GM notes for this slide.")}
-        </details>
-        <details class="slide-panel">
-          <summary>Fear, choices, loot, questions</summary>
-          <h3>Fear spend ideas</h3>${listMarkup(slide.fearSpends || [], "No Fear spends listed.")}
-          <h3>Choices and consequences</h3>${choiceMarkup(slide.choicesConsequences || [])}
-          <h3>Loot / clues</h3>${listMarkup(slide.lootClues || [], "No loot or clue panel for this slide.")}
-          <h3>Player questions</h3>${listMarkup(slide.playerQuestions || [], "No player questions listed.")}
-        </details>
-      </aside>`;
+      ${statePanel(slide)}
+      ${entityPanel(slide)}
+    </div>`;
+  }
+
+  function runTablePanel(slide) {
+    const hasContent = (slide.fearSpends || []).length || (slide.choicesConsequences || []).length || (slide.lootClues || []).length || (slide.playerQuestions || []).length || (slide.relationshipPrompts || []).length || slide.ownershipPrompt;
+    const open = hasContent ? " open" : "";
+    return `<details class="slide-panel"${open}>
+      <summary>Fear, choices, loot, questions</summary>
+      <h3>Fear spend ideas</h3>${listMarkup(slide.fearSpends || [], "No Fear spends listed.")}
+      <h3>Choices and consequences</h3>${choiceMarkup(slide.choicesConsequences || [])}
+      <h3>Loot / clues</h3>${listMarkup(slide.lootClues || [], "No loot or clue panel for this slide.")}
+      <h3>Player questions</h3>${listMarkup(slide.playerQuestions || [], "No player questions listed.")}
+      <h3>Relationship prompts</h3>${listMarkup(slide.relationshipPrompts || [], "No relationship prompt listed.")}
+      <h3>Scene ownership prompt</h3><p>${escapeHtml(slide.ownershipPrompt || "No ownership prompt listed.")}</p>
+    </details>`;
   }
 
   function listMarkup(items, empty) {
@@ -263,7 +311,7 @@
     const rows = entities.map((entity) => {
       const href = `pages/entities/${encodeURIComponent(entity.id)}.html`;
       const icon = entity.icon ? `<img src="${escapeAttr(entity.icon)}" alt="">` : "";
-      return `<a class="entity-quick-chip" href="${href}" data-entity-id="${escapeAttr(entity.id)}">${icon}<span>${escapeHtml(entity.name)}</span></a>`;
+      return `<a class="entity-quick-chip" href="${href}" data-entity="${escapeAttr(entity.id)}">${icon}<span>${escapeHtml(entity.name)}</span></a>`;
     }).join("");
     return `<details class="slide-panel" open><summary>Key entities</summary><div class="entity-chip-row">${rows}</div></details>`;
   }
@@ -289,9 +337,18 @@
   function rollPanel(slide) {
     const cards = slide.rollCards || [];
     if (!cards.length) return '<details class="slide-panel"><summary>Roll cards</summary><p>No roll needed unless uncertainty or pressure makes a roll useful.</p></details>';
-    return `<details class="slide-panel"><summary>Roll cards</summary>${cards.map((card) => {
+    return `<details class="slide-panel" open><summary>Roll cards</summary>${cards.map((card) => {
       const bands = card.bands || {};
-      return `<article class="roll-mini-card"><h3>${escapeHtml(card.title || "Roll")}</h3><p><strong>Traits:</strong> ${escapeHtml((card.trait_options || []).join(", "))} <strong>Hinge:</strong> ${escapeHtml(card.difficulty || "")}</p><p>${escapeHtml(card.roll || "")}</p><ul><li><strong>Botch:</strong> ${escapeHtml(bands.botch || "")}</li><li><strong>Hit:</strong> ${escapeHtml(bands.hit || "")}</li><li><strong>Soar:</strong> ${escapeHtml(bands.soar || "")}</li><li><strong>Fear:</strong> ${escapeHtml(card.fear_spin || "")}</li></ul></article>`;
+      const official = card.official_results || {};
+      const officialRows = [
+        ["critical_success", "Critical Success"],
+        ["success_with_hope", "Success with Hope"],
+        ["success_with_fear", "Success with Fear"],
+        ["failure_with_hope", "Failure with Hope"],
+        ["failure_with_fear", "Failure with Fear"]
+      ].map(([key, label]) => `<li><strong>${escapeHtml(label)}:</strong> ${escapeHtml(official[key] || "")}</li>`).join("");
+      const sliderRows = ["botch", "miss", "hit", "clean", "soar", "crit"].map((band) => `<li><strong>${escapeHtml(band.charAt(0).toUpperCase() + band.slice(1))}:</strong> ${escapeHtml(bands[band] || "")}</li>`).join("");
+      return `<article class="roll-mini-card"><h3>${escapeHtml(card.title || "Roll")}</h3><p><strong>Traits:</strong> ${escapeHtml((card.trait_options || []).join(", "))} <strong>Difficulty:</strong> ${escapeHtml(card.difficulty || "")}</p><p>${escapeHtml(card.roll || "")}</p><h4>Official Daggerheart Results</h4><ul>${officialRows}</ul><h4>Kyle Slider / House Overlay</h4><ul>${sliderRows}</ul></article>`;
     }).join("")}</details>`;
   }
 
@@ -430,7 +487,7 @@
 
   function openImageDialog() {
     const slide = currentSlide();
-    if (!slide.image) return;
+    if (!fallbackImage(slide)) return;
     lastDialogOpener = document.activeElement;
     const dialog = document.querySelector("#run-image-dialog");
     document.querySelector("#run-expanded-image").src = fallbackImage(slide);
@@ -469,6 +526,18 @@
     if (action === "show-text") { send("showText", { displayMode: "read-aloud-fullscreen" }); markRevealed(); showStatus("Sent text to Player Display"); }
     if (action === "show-objective") { send("showObjective", { displayMode: "public-objective" }); showStatus("Sent objective to Player Display"); }
     if (action === "blackout") { send("blackout", { displayMode: "blackout" }); showStatus("Player Display blacked out"); }
+    if (action === "toggle-image") {
+      state.imageCollapsed = !state.imageCollapsed;
+      saveState();
+      render();
+      showStatus(state.imageCollapsed ? "Image hidden" : "Image visible");
+    }
+    if (action === "toggle-filmstrip") {
+      state.filmstripCollapsed = !state.filmstripCollapsed;
+      saveState();
+      render();
+      showStatus(state.filmstripCollapsed ? "Filmstrip hidden" : "Filmstrip visible");
+    }
     if (action === "open-display") openPlayerDisplay();
     if (action === "copy-text") copyText(false);
     if (action === "copy-discord") copyText(true);
@@ -488,6 +557,134 @@
     set.add(currentSlide().id);
     state.revealedSlides = [...set];
     saveState();
+  }
+
+  let ENTITY_INDEX = null;
+  function entityMap() { return window.ATLAS_ENTITIES || {}; }
+  function entityWikiHref(entity) { return `pages/entities/${encodeURIComponent(entity.id)}.html`; }
+  function buildEntityIndex() {
+    const map = new Map();
+    const names = [];
+    Object.values(entityMap()).forEach((entity) => {
+      if (!entity || !entity.id) return;
+      map.set(entity.id, entity);
+      [entity.name, ...(entity.aliases || [])].filter(Boolean).forEach((label) => {
+        if (String(label).length >= 3) names.push({ name: String(label), id: entity.id });
+      });
+    });
+    names.sort((a, b) => b.name.length - a.name.length);
+    return { map, names };
+  }
+  function linkifyEntities(text) {
+    if (!text) return "";
+    const escaped = escapeHtml(text);
+    if (!ENTITY_INDEX) ENTITY_INDEX = buildEntityIndex();
+    if (!ENTITY_INDEX.names.length) return escaped;
+    const matches = [];
+    const usedId = new Set();
+    for (const item of ENTITY_INDEX.names) {
+      if (usedId.has(item.id)) continue;
+      const safe = escapeHtml(item.name).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      let re;
+      try { re = new RegExp(`(?<![\\w])(${safe})(?![\\w])`, "i"); } catch (err) { re = new RegExp(`\\b(${safe})\\b`, "i"); }
+      const m = re.exec(escaped);
+      if (m) { matches.push({ start: m.index, end: m.index + m[0].length, id: item.id, text: m[0] }); usedId.add(item.id); }
+    }
+    matches.sort((a, b) => a.start - b.start);
+    const clean = [];
+    let lastEnd = -1;
+    for (const m of matches) { if (m.start >= lastEnd) { clean.push(m); lastEnd = m.end; } }
+    if (!clean.length) return escaped;
+    let out = "";
+    let cursor = 0;
+    for (const m of clean) {
+      const entity = ENTITY_INDEX.map.get(m.id);
+      const cls = (entity.meta && entity.meta.class) || "";
+      out += escaped.slice(cursor, m.start);
+      out += `<a class="entity-link ${escapeAttr(cls)} inline-entity-link" data-entity="${escapeAttr(m.id)}" href="${escapeAttr(entityWikiHref(entity))}">${m.text}</a>`;
+      cursor = m.end;
+    }
+    out += escaped.slice(cursor);
+    return out;
+  }
+  function linkifyList(items, empty) {
+    const rows = (items || []).filter(Boolean);
+    if (!rows.length) return `<p class="muted">${escapeHtml(empty)}</p>`;
+    return `<ul>${rows.map((item) => `<li>${linkifyEntities(item)}</li>`).join("")}</ul>`;
+  }
+
+  function setupEntityHoverCards() {
+    const card = document.querySelector("#hover-card");
+    if (!card) return;
+    if (!ENTITY_INDEX) ENTITY_INDEX = buildEntityIndex();
+    let pinned = false;
+    let hideTimer;
+    const fill = (entity) => {
+      const tags = (entity.tags || []).map((tag) => `<span class="track-pill">${escapeHtml(tag)}</span>`).join(" ");
+      const scenes = escapeHtml((entity.appears_in || []).join(", ") || "Referenced lore");
+      const icon = (entity.meta && entity.meta.icon_asset) || "";
+      const label = (entity.meta && entity.meta.label) || entity.type || "";
+      card.innerHTML = `
+        ${entity.image ? `<img src="${escapeAttr(entity.image)}" alt="">` : ""}
+        <div class="private-note">${icon ? `<img class="type-icon" src="${escapeAttr(icon)}" alt="" aria-hidden="true"> ` : ""}${escapeHtml(label)}</div>
+        <strong>${escapeHtml(entity.name)}</strong>
+        <p class="pronunciation-line"><strong>Pronunciation:</strong> ${escapeHtml(entity.short_pronunciation || entity.pronunciation || "")}</p>
+        <p>${escapeHtml(entity.summary || "")}</p>
+        ${entity.role ? `<p class="muted">${escapeHtml(entity.role)}</p>` : ""}
+        <div class="track-row">${tags}</div>
+        <p class="muted">Appears in: ${scenes}</p>
+        ${entity.stat_summary ? `<p><strong>Stat:</strong> ${escapeHtml(entity.stat_summary)}</p>` : ""}
+        <a class="button secondary hover-card-wiki" href="${escapeAttr(entityWikiHref(entity))}">Open full wiki entry &rarr;</a>`;
+    };
+    const place = (target) => {
+      const r = target.getBoundingClientRect();
+      const w = card.offsetWidth || 350;
+      const left = Math.min(window.innerWidth - w - 16, Math.max(12, r.left));
+      const h = card.offsetHeight;
+      let top = r.bottom + 8;
+      if (top + h > window.innerHeight - 12) top = Math.max(12, r.top - h - 8);
+      card.style.left = `${left}px`;
+      card.style.top = `${Math.max(12, top)}px`;
+    };
+    const open = (target, pin) => {
+      const entity = ENTITY_INDEX.map.get(target.dataset.entity);
+      if (!entity) return;
+      clearTimeout(hideTimer);
+      fill(entity);
+      card.classList.add("is-visible");
+      if (pin) { pinned = true; card.classList.add("is-pinned"); }
+      place(target);
+      card.setAttribute("aria-hidden", "false");
+    };
+    const close = () => {
+      pinned = false;
+      card.classList.remove("is-visible", "is-pinned");
+      card.setAttribute("aria-hidden", "true");
+    };
+    document.addEventListener("pointerover", (event) => {
+      const target = event.target.closest("[data-entity]");
+      if (target && !pinned) open(target, false);
+    });
+    document.addEventListener("focusin", (event) => {
+      const target = event.target.closest("[data-entity]");
+      if (target && !pinned) open(target, false);
+    });
+    document.addEventListener("pointerout", (event) => {
+      if (pinned) return;
+      const target = event.target.closest("[data-entity]");
+      if (!target) return;
+      hideTimer = setTimeout(() => { if (!pinned) close(); }, 160);
+    });
+    card.addEventListener("pointerenter", () => clearTimeout(hideTimer));
+    card.addEventListener("pointerleave", () => { if (!pinned) hideTimer = setTimeout(close, 160); });
+    document.addEventListener("click", (event) => {
+      const target = event.target.closest("[data-entity]");
+      if (target) { event.preventDefault(); open(target, true); return; }
+      if (!card.classList.contains("is-visible")) return;
+      if (event.target.closest(".hover-card-wiki")) return;
+      if (!event.target.closest("#hover-card")) close();
+    }, true);
+    document.addEventListener("keydown", (event) => { if (event.key === "Escape" && card.classList.contains("is-visible")) close(); });
   }
 
   function bindStaticControls() {
@@ -558,6 +755,7 @@
     select.innerHTML = slides.map((slide) => `<option value="${escapeAttr(slide.id)}">${escapeHtml(`${slide.slideNumber}. ${slide.id} - ${slide.title}`)}</option>`).join("");
     bindStaticControls();
     bindKeyboard();
+    setupEntityHoverCards();
     render();
   }
 

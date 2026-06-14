@@ -64,7 +64,7 @@
       "utility"
     ],
     "value_band": "modest",
-    "effect": "1d6 physical tool-knife; advantage to cut ropes/snares/free Bramble-Snared.",
+    "effect": "1d6 physical tool-knife; advantage on Finesse or Strength rolls to cut ropes, vines, snares, or free someone Restrained by brambles.",
     "source": [
       "Bramble Union",
       "Beginner Loot Board"
@@ -134,7 +134,7 @@
       "consumable"
     ],
     "value_band": "rare for Tier 1",
-    "effect": "Once, ignore Audited or Memory-Raw when it would be applied.",
+    "effect": "One use: clear 1 Stress caused by fear, memory, or wraith backlash, or gain advantage on a Presence or Knowledge roll to recover from a Soul-Audit Wraith module effect. Adaptation, not official Daggerheart.",
     "tags": [
       "Soulspire",
       "adaptation"

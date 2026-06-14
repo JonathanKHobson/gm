@@ -650,15 +650,6 @@
       ]
     },
     {
-      "id": "untethered",
-      "label": "Untethered",
-      "type": "condition",
-      "tags": [
-        "mechanic",
-        "condition"
-      ]
-    },
-    {
       "id": "forgotten-gods",
       "label": "Forgotten Gods",
       "type": "faction",
@@ -1141,6 +1132,26 @@
       ]
     },
     {
+      "id": "d-and-d-conversion",
+      "label": "D&D Conversion",
+      "type": "mechanic",
+      "tags": [
+        "gm-aid",
+        "conversion",
+        "mechanics"
+      ]
+    },
+    {
+      "id": "official-conditions",
+      "label": "Official Conditions",
+      "type": "mechanic",
+      "tags": [
+        "rules-canon",
+        "condition",
+        "mechanics"
+      ]
+    },
+    {
       "id": "hope",
       "label": "Hope",
       "type": "mechanic",
@@ -1157,6 +1168,42 @@
         "rules-canon",
         "currency",
         "p2p"
+      ]
+    },
+    {
+      "id": "gm-moves",
+      "label": "GM Moves",
+      "type": "mechanic",
+      "tags": [
+        "rules-canon",
+        "gm-move"
+      ]
+    },
+    {
+      "id": "adversary-spotlight",
+      "label": "Adversary Spotlight",
+      "type": "mechanic",
+      "tags": [
+        "rules-canon",
+        "combat"
+      ]
+    },
+    {
+      "id": "adversary-attack-rolls",
+      "label": "Adversary Attack Rolls",
+      "type": "mechanic",
+      "tags": [
+        "rules-canon",
+        "combat"
+      ]
+    },
+    {
+      "id": "damage-armor",
+      "label": "Damage / Armor",
+      "type": "mechanic",
+      "tags": [
+        "rules-canon",
+        "combat"
       ]
     },
     {
@@ -1192,7 +1239,7 @@
       "type": "condition",
       "tags": [
         "condition",
-        "rules-canon",
+        "official",
         "mechanics"
       ]
     },
@@ -1202,7 +1249,7 @@
       "type": "condition",
       "tags": [
         "condition",
-        "rules-canon",
+        "official",
         "mechanics"
       ]
     },
@@ -1212,67 +1259,7 @@
       "type": "condition",
       "tags": [
         "condition",
-        "rules-canon",
-        "mechanics"
-      ]
-    },
-    {
-      "id": "audited",
-      "label": "Audited",
-      "type": "condition",
-      "tags": [
-        "condition",
-        "adaptation",
-        "mechanics"
-      ]
-    },
-    {
-      "id": "bramble-snared",
-      "label": "Bramble-Snared",
-      "type": "condition",
-      "tags": [
-        "condition",
-        "module",
-        "mechanics"
-      ]
-    },
-    {
-      "id": "ward-sick",
-      "label": "Ward-Sick",
-      "type": "condition",
-      "tags": [
-        "condition",
-        "adaptation",
-        "mechanics"
-      ]
-    },
-    {
-      "id": "compliance-flagged",
-      "label": "Compliance-Flagged",
-      "type": "condition",
-      "tags": [
-        "condition",
-        "p2p",
-        "mechanics"
-      ]
-    },
-    {
-      "id": "memory-raw",
-      "label": "Memory-Raw",
-      "type": "condition",
-      "tags": [
-        "condition",
-        "adaptation",
-        "mechanics"
-      ]
-    },
-    {
-      "id": "debt-marked",
-      "label": "Debt-Marked",
-      "type": "condition",
-      "tags": [
-        "condition",
-        "adaptation",
+        "official",
         "mechanics"
       ]
     },
@@ -1811,6 +1798,11 @@
     {
       "source": "S02-01",
       "target": "bramble-union",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-01",
+      "target": "damage-armor",
       "type": "appears_in"
     },
     {
@@ -2450,6 +2442,11 @@
     },
     {
       "source": "S05-03",
+      "target": "damage-armor",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-03",
       "target": "fear",
       "type": "appears_in"
     },
@@ -2485,17 +2482,17 @@
     },
     {
       "source": "S05-04",
+      "target": "damage-armor",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-04",
       "target": "slider-system",
       "type": "appears_in"
     },
     {
       "source": "S05-05",
       "target": "soul-audit-wraith",
-      "type": "appears_in"
-    },
-    {
-      "source": "S05-05",
-      "target": "untethered",
       "type": "appears_in"
     },
     {
@@ -2545,6 +2542,11 @@
     },
     {
       "source": "S05-06",
+      "target": "soul-audit-wraith",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-06",
       "target": "marlowe-fairwind",
       "type": "appears_in"
     },
@@ -2556,11 +2558,6 @@
     {
       "source": "S05-06",
       "target": "corporate-seal-wax-residue",
-      "type": "appears_in"
-    },
-    {
-      "source": "S05-06",
-      "target": "untethered",
       "type": "appears_in"
     },
     {
@@ -3155,11 +3152,6 @@
     },
     {
       "source": "soul-audit-wraith",
-      "target": "untethered",
-      "type": "connection"
-    },
-    {
-      "source": "soul-audit-wraith",
       "target": "market-correction",
       "type": "connection"
     },
@@ -3456,16 +3448,6 @@
     {
       "source": "ritual-countdown",
       "target": "soul-audit-wraith",
-      "type": "connection"
-    },
-    {
-      "source": "untethered",
-      "target": "soul-audit-wraith",
-      "type": "connection"
-    },
-    {
-      "source": "untethered",
-      "target": "ritual-countdown",
       "type": "connection"
     },
     {
@@ -3914,11 +3896,6 @@
       "type": "connection"
     },
     {
-      "source": "soul-audit-memory-shard",
-      "target": "untethered",
-      "type": "connection"
-    },
-    {
       "source": "halython-s-fox-bat-companion",
       "target": "halython-fives",
       "type": "connection"
@@ -4249,6 +4226,16 @@
       "type": "connection"
     },
     {
+      "source": "gm-rules-drawer",
+      "target": "official-conditions",
+      "type": "connection"
+    },
+    {
+      "source": "gm-rules-drawer",
+      "target": "d-and-d-conversion",
+      "type": "connection"
+    },
+    {
       "source": "slider-system",
       "target": "gm-rules-drawer",
       "type": "connection"
@@ -4304,6 +4291,31 @@
       "type": "connection"
     },
     {
+      "source": "d-and-d-conversion",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "official-conditions",
+      "target": "hidden",
+      "type": "connection"
+    },
+    {
+      "source": "official-conditions",
+      "target": "restrained",
+      "type": "connection"
+    },
+    {
+      "source": "official-conditions",
+      "target": "vulnerable",
+      "type": "connection"
+    },
+    {
+      "source": "official-conditions",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
       "source": "hope",
       "target": "duality-dice",
       "type": "connection"
@@ -4326,6 +4338,66 @@
     {
       "source": "fear",
       "target": "p2p-jenga-fear-variant",
+      "type": "connection"
+    },
+    {
+      "source": "gm-moves",
+      "target": "fear",
+      "type": "connection"
+    },
+    {
+      "source": "gm-moves",
+      "target": "adversary-spotlight",
+      "type": "connection"
+    },
+    {
+      "source": "gm-moves",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "adversary-spotlight",
+      "target": "gm-moves",
+      "type": "connection"
+    },
+    {
+      "source": "adversary-spotlight",
+      "target": "fear",
+      "type": "connection"
+    },
+    {
+      "source": "adversary-spotlight",
+      "target": "adversary-attack-rolls",
+      "type": "connection"
+    },
+    {
+      "source": "adversary-attack-rolls",
+      "target": "adversary-spotlight",
+      "type": "connection"
+    },
+    {
+      "source": "adversary-attack-rolls",
+      "target": "damage-armor",
+      "type": "connection"
+    },
+    {
+      "source": "adversary-attack-rolls",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "damage-armor",
+      "target": "stress",
+      "type": "connection"
+    },
+    {
+      "source": "damage-armor",
+      "target": "armor-slot",
+      "type": "connection"
+    },
+    {
+      "source": "damage-armor",
+      "target": "gm-rules-drawer",
       "type": "connection"
     },
     {
@@ -4360,7 +4432,7 @@
     },
     {
       "source": "hidden",
-      "target": "slider-system",
+      "target": "official-conditions",
       "type": "connection"
     },
     {
@@ -4370,7 +4442,7 @@
     },
     {
       "source": "restrained",
-      "target": "slider-system",
+      "target": "official-conditions",
       "type": "connection"
     },
     {
@@ -4380,82 +4452,7 @@
     },
     {
       "source": "vulnerable",
-      "target": "slider-system",
-      "type": "connection"
-    },
-    {
-      "source": "audited",
-      "target": "gm-rules-drawer",
-      "type": "connection"
-    },
-    {
-      "source": "audited",
-      "target": "slider-system",
-      "type": "connection"
-    },
-    {
-      "source": "audited",
-      "target": "ritual-countdown",
-      "type": "connection"
-    },
-    {
-      "source": "bramble-snared",
-      "target": "gm-rules-drawer",
-      "type": "connection"
-    },
-    {
-      "source": "bramble-snared",
-      "target": "slider-system",
-      "type": "connection"
-    },
-    {
-      "source": "ward-sick",
-      "target": "gm-rules-drawer",
-      "type": "connection"
-    },
-    {
-      "source": "ward-sick",
-      "target": "slider-system",
-      "type": "connection"
-    },
-    {
-      "source": "compliance-flagged",
-      "target": "gm-rules-drawer",
-      "type": "connection"
-    },
-    {
-      "source": "compliance-flagged",
-      "target": "slider-system",
-      "type": "connection"
-    },
-    {
-      "source": "memory-raw",
-      "target": "gm-rules-drawer",
-      "type": "connection"
-    },
-    {
-      "source": "memory-raw",
-      "target": "slider-system",
-      "type": "connection"
-    },
-    {
-      "source": "memory-raw",
-      "target": "ritual-countdown",
-      "type": "connection"
-    },
-    {
-      "source": "debt-marked",
-      "target": "gm-rules-drawer",
-      "type": "connection"
-    },
-    {
-      "source": "debt-marked",
-      "target": "slider-system",
-      "type": "connection"
-    },
-    {
-      "source": "debt-marked",
-      "target": "ritual-countdown",
+      "target": "official-conditions",
       "type": "connection"
     },
     {
