@@ -1,0 +1,407 @@
+[
+  {
+    "id": "S00-01",
+    "title": "The Job",
+    "act": "Prologue",
+    "section": "The Contract",
+    "html_page": "pages/scenes/the-job.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S01-01",
+    "title": "Entering Sablewood™ Logistics Preserve",
+    "act": "Act One",
+    "section": "The Logistics Incident",
+    "html_page": "pages/scenes/entering-sablewood-logistics-preserve.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S01-02",
+    "title": "The Overturned Vendor Cart",
+    "act": "Act One",
+    "section": "The Logistics Incident",
+    "html_page": "pages/scenes/the-overturned-vendor-cart.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S01-03",
+    "title": "The Strixwolf Mother",
+    "act": "Act One",
+    "section": "The Logistics Incident",
+    "html_page": "pages/scenes/the-strixwolf-mother.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S01-04",
+    "title": "The First Roll",
+    "act": "Act One",
+    "section": "The Logistics Incident",
+    "html_page": "pages/scenes/the-first-roll.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S02-01",
+    "title": "The Fallout Investigation",
+    "act": "Act Two",
+    "section": "Cargo Reclaimers",
+    "html_page": "pages/scenes/the-fallout-investigation.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S02-02",
+    "title": "Eyes in the Brush",
+    "act": "Act Two",
+    "section": "Cargo Reclaimers",
+    "html_page": "pages/scenes/eyes-in-the-brush.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S02-03",
+    "title": "Bramble Union Ambush",
+    "act": "Act Two",
+    "section": "Cargo Reclaimers",
+    "html_page": "pages/scenes/bramble-union-ambush.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S02-04",
+    "title": "After the Ambush",
+    "act": "Act Two",
+    "section": "Cargo Reclaimers",
+    "html_page": "pages/scenes/after-the-ambush.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S03-01",
+    "title": "Arrival at Hush",
+    "act": "Act Three",
+    "section": "Seeking a Custodian",
+    "html_page": "pages/scenes/arrival-at-hush.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S03-02",
+    "title": "Local Clues",
+    "act": "Act Three",
+    "section": "Seeking a Custodian",
+    "html_page": "pages/scenes/local-clues.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S03-03",
+    "title": "The Clover Co-op",
+    "act": "Act Three",
+    "section": "Seeking a Custodian",
+    "html_page": "pages/scenes/the-clover-co-op.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S03-04",
+    "title": "Firstmoss Launch Festival",
+    "act": "Act Three",
+    "section": "Seeking a Custodian",
+    "html_page": "pages/scenes/firstmoss-launch-festival.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S04-01",
+    "title": "Through the Farms",
+    "act": "Act Four",
+    "section": "The Hanging Office",
+    "html_page": "pages/scenes/through-the-farms.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S04-02",
+    "title": "The Hanging Office Exterior",
+    "act": "Act Four",
+    "section": "The Hanging Office",
+    "html_page": "pages/scenes/the-hanging-office-exterior.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S04-03",
+    "title": "The Whitefire Custodian",
+    "act": "Act Four",
+    "section": "The Hanging Office",
+    "html_page": "pages/scenes/the-whitefire-custodian.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S04-04",
+    "title": "The Keystone Reveal",
+    "act": "Act Four",
+    "section": "The Hanging Office",
+    "html_page": "pages/scenes/the-keystone-reveal.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S04-05",
+    "title": "Toward Open Vale",
+    "act": "Act Four",
+    "section": "The Hanging Office",
+    "html_page": "pages/scenes/toward-open-vale.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S05-01",
+    "title": "Open Vale™ Ritual Site",
+    "act": "Act Five",
+    "section": "The Ward Renewal",
+    "html_page": "pages/scenes/open-vale-ritual-site.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S05-02",
+    "title": "Short Rest Before the Storm",
+    "act": "Act Five",
+    "section": "The Ward Renewal",
+    "html_page": "pages/scenes/short-rest-before-the-storm.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S05-03",
+    "title": "The Ritual Begins",
+    "act": "Act Five",
+    "section": "The Ward Renewal",
+    "html_page": "pages/scenes/the-ritual-begins.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S05-04",
+    "title": "Legacy Security Skeletons",
+    "act": "Act Five",
+    "section": "The Ward Renewal",
+    "html_page": "pages/scenes/legacy-security-skeletons.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S05-05",
+    "title": "Soul-Audit Wraiths",
+    "act": "Act Five",
+    "section": "The Ward Renewal",
+    "html_page": "pages/scenes/soul-audit-wraiths.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S05-06",
+    "title": "Market Correction",
+    "act": "Act Five",
+    "section": "The Ward Renewal",
+    "html_page": "pages/scenes/market-correction.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S05-07",
+    "title": "The Ward Locks Into Place",
+    "act": "Act Five",
+    "section": "The Ward Renewal",
+    "html_page": "pages/scenes/the-ward-locks-into-place.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S06-01",
+    "title": "Back in the Hanging Office",
+    "act": "Epilogue",
+    "section": "Beyond the Contract",
+    "html_page": "pages/scenes/back-in-the-hanging-office.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  },
+  {
+    "id": "S06-02",
+    "title": "The Relay Spire Hook",
+    "act": "Epilogue",
+    "section": "Beyond the Contract",
+    "html_page": "pages/scenes/the-relay-spire-hook.html",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true
+  }
+]

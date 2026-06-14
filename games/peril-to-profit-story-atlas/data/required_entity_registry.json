@@ -1,0 +1,1114 @@
+[
+  {
+    "id": "marlowe-fairwind",
+    "name": "Marlowe Fairwind",
+    "type": "npc",
+    "aliases": [
+      "Board-certified sorcerer",
+      "Marlowe Fairwind",
+      "Marlowe"
+    ],
+    "html_page": "pages/entities/marlowe-fairwind.html",
+    "obsidian_note": "obsidian_vault/Marlowe Fairwind.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "barnacle",
+    "name": "Barnacle",
+    "type": "npc",
+    "aliases": [
+      "Underborne Ribbet Rogue",
+      "Barnacle"
+    ],
+    "html_page": "pages/entities/barnacle.html",
+    "obsidian_note": "obsidian_vault/Barnacle.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "garrick-reed",
+    "name": "Garrick Reed",
+    "type": "npc",
+    "aliases": [
+      "Garrick Reed",
+      "Garrick"
+    ],
+    "html_page": "pages/entities/garrick-reed.html",
+    "obsidian_note": "obsidian_vault/Garrick Reed.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "khari-nix",
+    "name": "Khari Nix",
+    "type": "npc",
+    "aliases": [
+      "Khari Nix",
+      "Khari"
+    ],
+    "html_page": "pages/entities/khari-nix.html",
+    "obsidian_note": "obsidian_vault/Khari Nix.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "varian-soto",
+    "name": "Varian Soto",
+    "type": "npc",
+    "aliases": [
+      "Varian Soto",
+      "Varian"
+    ],
+    "html_page": "pages/entities/varian-soto.html",
+    "obsidian_note": "obsidian_vault/Varian Soto.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "tamsin-vell",
+    "name": "Tamsin Vell",
+    "type": "npc",
+    "aliases": [
+      "vendor cart driver",
+      "Tamsin Vell",
+      "dead driver",
+      "driver"
+    ],
+    "html_page": "pages/entities/tamsin-vell.html",
+    "obsidian_note": "obsidian_vault/Tamsin Vell.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "fidget",
+    "name": "Fidget",
+    "type": "npc",
+    "aliases": [
+      "Fidget"
+    ],
+    "html_page": "pages/entities/fidget.html",
+    "obsidian_note": "obsidian_vault/Fidget.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "lausa-standworth",
+    "name": "Lausa Standworth",
+    "type": "npc",
+    "aliases": [
+      "Lausa Standworth",
+      "Lausa"
+    ],
+    "html_page": "pages/entities/lausa-standworth.html",
+    "obsidian_note": "obsidian_vault/Lausa Standworth.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "halython-fives",
+    "name": "Halython Fives",
+    "type": "npc",
+    "aliases": [
+      "Halython Fives",
+      "Halython"
+    ],
+    "html_page": "pages/entities/halython-fives.html",
+    "obsidian_note": "obsidian_vault/Halython Fives.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "yera-mossglass",
+    "name": "Yera Mossglass",
+    "type": "npc",
+    "aliases": [
+      "Yera Mossglass",
+      "Yera"
+    ],
+    "html_page": "pages/entities/yera-mossglass.html",
+    "obsidian_note": "obsidian_vault/Yera Mossglass.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "whitefire-custodian",
+    "name": "Whitefire Custodian",
+    "type": "npc",
+    "aliases": [
+      "Whitefire Ward Custodian",
+      "Whitefire Custodian",
+      "ward Custodian",
+      "Custodian"
+    ],
+    "html_page": "pages/entities/whitefire-custodian.html",
+    "obsidian_note": "obsidian_vault/Whitefire Custodian.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "spirekeeper",
+    "name": "Spirekeeper",
+    "type": "npc",
+    "aliases": [
+      "Infrastructure Spirekeeper",
+      "Relay Spirekeeper",
+      "Spirekeeper"
+    ],
+    "html_page": "pages/entities/spirekeeper.html",
+    "obsidian_note": "obsidian_vault/Spirekeeper.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "kett-alderhook",
+    "name": "Kett Alderhook",
+    "type": "npc",
+    "aliases": [
+      "Kett Alderhook"
+    ],
+    "html_page": "pages/entities/kett-alderhook.html",
+    "obsidian_note": "obsidian_vault/Kett Alderhook.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "vela-bramblewick",
+    "name": "Vela Bramblewick",
+    "type": "npc",
+    "aliases": [
+      "Vela Bramblewick"
+    ],
+    "html_page": "pages/entities/vela-bramblewick.html",
+    "obsidian_note": "obsidian_vault/Vela Bramblewick.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "rye-underbough",
+    "name": "Rye Underbough",
+    "type": "npc",
+    "aliases": [
+      "Rye Underbough"
+    ],
+    "html_page": "pages/entities/rye-underbough.html",
+    "obsidian_note": "obsidian_vault/Rye Underbough.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "brannic-mossvein",
+    "name": "Brannic Mossvein",
+    "type": "npc",
+    "aliases": [
+      "Brannic Mossvein"
+    ],
+    "html_page": "pages/entities/brannic-mossvein.html",
+    "obsidian_note": "obsidian_vault/Brannic Mossvein.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "strixwolf-mother",
+    "name": "Strixwolf Mother",
+    "type": "creature",
+    "aliases": [
+      "strixwolf mother",
+      "Strixwolf Mother",
+      "strixwolf"
+    ],
+    "html_page": "pages/entities/strixwolf-mother.html",
+    "obsidian_note": "obsidian_vault/Strixwolf Mother.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "strixwolf-pup-one",
+    "name": "Strixwolf Pup One",
+    "type": "creature",
+    "aliases": [
+      "Strixwolf Pup One",
+      "bolder pup",
+      "pup one"
+    ],
+    "html_page": "pages/entities/strixwolf-pup-one.html",
+    "obsidian_note": "obsidian_vault/Strixwolf Pup One.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "strixwolf-pup-two",
+    "name": "Strixwolf Pup Two",
+    "type": "creature",
+    "aliases": [
+      "Strixwolf Pup Two",
+      "smaller pup",
+      "pup two"
+    ],
+    "html_page": "pages/entities/strixwolf-pup-two.html",
+    "obsidian_note": "obsidian_vault/Strixwolf Pup Two.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "bramble-union-ambusher",
+    "name": "Bramble Union Ambusher",
+    "type": "enemy",
+    "aliases": [
+      "Bramble Union Ambusher",
+      "Bramble Ambusher",
+      "Ambusher"
+    ],
+    "html_page": "pages/entities/bramble-union-ambusher.html",
+    "obsidian_note": "obsidian_vault/Bramble Union Ambusher.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "bramble-union-claimrunner",
+    "name": "Bramble Union Claimrunner",
+    "type": "enemy",
+    "aliases": [
+      "Bramble Union Claimrunner",
+      "Claimrunner"
+    ],
+    "html_page": "pages/entities/bramble-union-claimrunner.html",
+    "obsidian_note": "obsidian_vault/Bramble Union Claimrunner.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "legacy-security-skeleton",
+    "name": "Legacy Security Skeleton",
+    "type": "enemy",
+    "aliases": [
+      "Legacy Security Skeletons",
+      "Legacy Security Skeleton",
+      "legacy skeletons",
+      "legacy skeleton",
+      "skeletons"
+    ],
+    "html_page": "pages/entities/legacy-security-skeleton.html",
+    "obsidian_note": "obsidian_vault/Legacy Security Skeleton.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "soul-audit-wraith",
+    "name": "Soul-Audit Wraith",
+    "type": "enemy",
+    "aliases": [
+      "Soul-Audit Wraiths",
+      "Soul-Audit Wraith",
+      "wraiths",
+      "wraith"
+    ],
+    "html_page": "pages/entities/soul-audit-wraith.html",
+    "obsidian_note": "obsidian_vault/Soul-Audit Wraith.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "hush",
+    "name": "Hush",
+    "type": "location",
+    "aliases": [
+      "Hush"
+    ],
+    "html_page": "pages/entities/hush.html",
+    "obsidian_note": "obsidian_vault/Hush.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "hushtm-community-enclave",
+    "name": "Hush™ Community Enclave",
+    "type": "location",
+    "aliases": [
+      "Hush™ Community Enclave",
+      "Hush Community Enclave"
+    ],
+    "html_page": "pages/entities/hushtm-community-enclave.html",
+    "obsidian_note": "obsidian_vault/Hush™ Community Enclave.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "clover-co-op",
+    "name": "Clover Co-op",
+    "type": "location",
+    "aliases": [
+      "Clover Co-op"
+    ],
+    "html_page": "pages/entities/clover-co-op.html",
+    "obsidian_note": "obsidian_vault/Clover Co-op.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "firstmoss-launch-festival",
+    "name": "Firstmoss Launch Festival",
+    "type": "location",
+    "aliases": [
+      "Firstmoss Launch Festival",
+      "Firstmoss Festival",
+      "Firstmoss"
+    ],
+    "html_page": "pages/entities/firstmoss-launch-festival.html",
+    "obsidian_note": "obsidian_vault/Firstmoss Launch Festival.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "hush-farms",
+    "name": "Hush Farms",
+    "type": "location",
+    "aliases": [
+      "Hush Farms"
+    ],
+    "html_page": "pages/entities/hush-farms.html",
+    "obsidian_note": "obsidian_vault/Hush Farms.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "the-hanging-office",
+    "name": "The Hanging Office",
+    "type": "location",
+    "aliases": [
+      "The Hanging Office",
+      "Hanging Office"
+    ],
+    "html_page": "pages/entities/the-hanging-office.html",
+    "obsidian_note": "obsidian_vault/The Hanging Office.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "old-sable",
+    "name": "Old Sable",
+    "type": "location",
+    "aliases": [
+      "the Old Sable",
+      "old forest",
+      "Old Sable"
+    ],
+    "html_page": "pages/entities/old-sable.html",
+    "obsidian_note": "obsidian_vault/Old Sable.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "sablewoodtm-logistics-preserve",
+    "name": "Sablewood™ Logistics Preserve",
+    "type": "location",
+    "aliases": [
+      "Sablewood™ Logistics Preserve",
+      "Sablewood Logistics Preserve",
+      "Sablewood™",
+      "Sablewood"
+    ],
+    "html_page": "pages/entities/sablewoodtm-logistics-preserve.html",
+    "obsidian_note": "obsidian_vault/Sablewood™ Logistics Preserve.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "open-valetm-ritual-site",
+    "name": "Open Vale™ Ritual Site",
+    "type": "location",
+    "aliases": [
+      "Open Vale™ Ritual Site",
+      "Open Vale Ritual Site",
+      "Open Vale™",
+      "Open Vale"
+    ],
+    "html_page": "pages/entities/open-valetm-ritual-site.html",
+    "obsidian_note": "obsidian_vault/Open Vale™ Ritual Site.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "relay-spire",
+    "name": "Relay Spire",
+    "type": "location",
+    "aliases": [
+      "relay spire",
+      "Relay Spire"
+    ],
+    "html_page": "pages/entities/relay-spire.html",
+    "obsidian_note": "obsidian_vault/Relay Spire.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "bramble-union",
+    "name": "Bramble Union",
+    "type": "faction",
+    "aliases": [
+      "Bramblefolk Freeholders",
+      "Bramble Union",
+      "bramblefolk",
+      "reclaimers"
+    ],
+    "html_page": "pages/entities/bramble-union.html",
+    "obsidian_note": "obsidian_vault/Bramble Union.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "goldspire-territories",
+    "name": "Goldspire Territories",
+    "type": "faction",
+    "aliases": [
+      "Goldspire Territories™",
+      "Goldspire Territories",
+      "Goldspire"
+    ],
+    "html_page": "pages/entities/goldspire-territories.html",
+    "obsidian_note": "obsidian_vault/Goldspire Territories.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "forgotten-gods",
+    "name": "Forgotten Gods",
+    "type": "faction",
+    "aliases": [
+      "Forgotten Gods",
+      "old powers",
+      "Old Powers"
+    ],
+    "html_page": "pages/entities/forgotten-gods.html",
+    "obsidian_note": "obsidian_vault/Forgotten Gods.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "emeris-crown-holdings",
+    "name": "Emeris Crown Holdings",
+    "type": "corp",
+    "aliases": [
+      "Emeris Crown Holdings",
+      "Emeris Crown",
+      "Emeris"
+    ],
+    "html_page": "pages/entities/emeris-crown-holdings.html",
+    "obsidian_note": "obsidian_vault/Emeris Crown Holdings.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "kazrak-industries",
+    "name": "Kazrak Industries",
+    "type": "corp",
+    "aliases": [
+      "Kazrak Industries™",
+      "Kazrak Industries",
+      "Kazrak"
+    ],
+    "html_page": "pages/entities/kazrak-industries.html",
+    "obsidian_note": "obsidian_vault/Kazrak Industries.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "hexmart",
+    "name": "Hexmart",
+    "type": "corp",
+    "aliases": [
+      "Hexmart™",
+      "Hexmart"
+    ],
+    "html_page": "pages/entities/hexmart.html",
+    "obsidian_note": "obsidian_vault/Hexmart.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "mithril-and-mortar",
+    "name": "Mithril & Mortar",
+    "type": "corp",
+    "aliases": [
+      "Mithril and Mortar",
+      "Mithril & Mortar™",
+      "Mithril & Mortar"
+    ],
+    "html_page": "pages/entities/mithril-and-mortar.html",
+    "obsidian_note": "obsidian_vault/Mithril & Mortar.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "soulspire-solutions",
+    "name": "Soulspire Solutions",
+    "type": "corp",
+    "aliases": [
+      "Soulspire Solutions™",
+      "Soulspire Solutions"
+    ],
+    "html_page": "pages/entities/soulspire-solutions.html",
+    "obsidian_note": "obsidian_vault/Soulspire Solutions.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "runespark-entertainment",
+    "name": "RuneSpark Entertainment",
+    "type": "corp",
+    "aliases": [
+      "RuneSpark Entertainment™",
+      "RuneSpark Entertainment"
+    ],
+    "html_page": "pages/entities/runespark-entertainment.html",
+    "obsidian_note": "obsidian_vault/RuneSpark Entertainment.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "keystone-asset",
+    "name": "Keystone Asset",
+    "type": "item",
+    "aliases": [
+      "Keystone Asset",
+      "ward-stone",
+      "keystone",
+      "stone"
+    ],
+    "html_page": "pages/entities/keystone-asset.html",
+    "obsidian_note": "obsidian_vault/Keystone Asset.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "goldspire-waymarkers",
+    "name": "Goldspire Waymarkers",
+    "type": "item",
+    "aliases": [
+      "Goldspire waymarkers",
+      "Goldspire Waymarkers",
+      "waymarkers"
+    ],
+    "html_page": "pages/entities/goldspire-waymarkers.html",
+    "obsidian_note": "obsidian_vault/Goldspire Waymarkers.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "vendor-cart",
+    "name": "Vendor Cart",
+    "type": "item",
+    "aliases": [
+      "overturned vendor cart",
+      "supply cart",
+      "Vendor Cart",
+      "cart"
+    ],
+    "html_page": "pages/entities/vendor-cart.html",
+    "obsidian_note": "obsidian_vault/Vendor Cart.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "incident-response-placard",
+    "name": "Incident Response Placard",
+    "type": "clue",
+    "aliases": [
+      "INCIDENT RESPONSE EXPECTED WITHIN 3–5 BUSINESS DAYS",
+      "Incident Response Placard",
+      "incident placard",
+      "placard"
+    ],
+    "html_page": "pages/entities/incident-response-placard.html",
+    "obsidian_note": "obsidian_vault/Incident Response Placard.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "bramble-strand",
+    "name": "Bramble Strand",
+    "type": "clue",
+    "aliases": [
+      "thorny bramble",
+      "Bramble Strand",
+      "bramble"
+    ],
+    "html_page": "pages/entities/bramble-strand.html",
+    "obsidian_note": "obsidian_vault/Bramble Strand.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "torn-shipping-seals",
+    "name": "Torn Shipping Seals",
+    "type": "clue",
+    "aliases": [
+      "Torn Shipping Seals",
+      "old shipping seals",
+      "torn contract tags",
+      "shipping seals"
+    ],
+    "html_page": "pages/entities/torn-shipping-seals.html",
+    "obsidian_note": "obsidian_vault/Torn Shipping Seals.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "route-ledger",
+    "name": "Route Ledger",
+    "type": "clue",
+    "aliases": [
+      "Route Ledger",
+      "route ledger",
+      "ledger"
+    ],
+    "html_page": "pages/entities/route-ledger.html",
+    "obsidian_note": "obsidian_vault/Route Ledger.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "bramble-union-loot",
+    "name": "Bramble Union Loot",
+    "type": "item",
+    "aliases": [
+      "Bramble Union Loot",
+      "Bramble loot"
+    ],
+    "html_page": "pages/entities/bramble-union-loot.html",
+    "obsidian_note": "obsidian_vault/Bramble Union Loot.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "inspection-sealed-counterweight",
+    "name": "Inspection-Sealed Counterweight",
+    "type": "item",
+    "aliases": [
+      "Inspection-Sealed Counterweight",
+      "marked counterweight boulder",
+      "counterweight"
+    ],
+    "html_page": "pages/entities/inspection-sealed-counterweight.html",
+    "obsidian_note": "obsidian_vault/Inspection-Sealed Counterweight.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "market-correction",
+    "name": "Market Correction",
+    "type": "mechanic",
+    "aliases": [
+      "Market Correction"
+    ],
+    "html_page": "pages/entities/market-correction.html",
+    "obsidian_note": "obsidian_vault/Market Correction.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "ritual-countdown",
+    "name": "Ritual Countdown",
+    "type": "mechanic",
+    "aliases": [
+      "Ritual Countdown",
+      "countdown die",
+      "ritual die"
+    ],
+    "html_page": "pages/entities/ritual-countdown.html",
+    "obsidian_note": "obsidian_vault/Ritual Countdown.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  },
+  {
+    "id": "untethered",
+    "name": "Untethered",
+    "type": "condition",
+    "aliases": [
+      "Untethered condition",
+      "Untethered"
+    ],
+    "html_page": "pages/entities/untethered.html",
+    "obsidian_note": "obsidian_vault/Untethered.md",
+    "image_required": true,
+    "allowed_image_ext": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp"
+    ],
+    "forbid_svg": true,
+    "status": "required"
+  }
+]

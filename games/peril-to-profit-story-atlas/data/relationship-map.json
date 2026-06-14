@@ -1,0 +1,4652 @@
+{
+  "nodes": [
+    {
+      "id": "S00-01",
+      "label": "The Job",
+      "type": "scene",
+      "act": "Prologue"
+    },
+    {
+      "id": "S01-01",
+      "label": "Entering Sablewood™ Logistics Preserve",
+      "type": "scene",
+      "act": "Act One"
+    },
+    {
+      "id": "S01-02",
+      "label": "The Overturned Vendor Cart",
+      "type": "scene",
+      "act": "Act One"
+    },
+    {
+      "id": "S01-03",
+      "label": "The Strixwolf Mother",
+      "type": "scene",
+      "act": "Act One"
+    },
+    {
+      "id": "S01-04",
+      "label": "The First Roll",
+      "type": "scene",
+      "act": "Act One"
+    },
+    {
+      "id": "S02-01",
+      "label": "The Fallout Investigation",
+      "type": "scene",
+      "act": "Act Two"
+    },
+    {
+      "id": "S02-02",
+      "label": "Eyes in the Brush",
+      "type": "scene",
+      "act": "Act Two"
+    },
+    {
+      "id": "S02-03",
+      "label": "Bramble Union Ambush",
+      "type": "scene",
+      "act": "Act Two"
+    },
+    {
+      "id": "S02-04",
+      "label": "After the Ambush",
+      "type": "scene",
+      "act": "Act Two"
+    },
+    {
+      "id": "S03-01",
+      "label": "Arrival at Hush",
+      "type": "scene",
+      "act": "Act Three"
+    },
+    {
+      "id": "S03-02",
+      "label": "Local Clues",
+      "type": "scene",
+      "act": "Act Three"
+    },
+    {
+      "id": "S03-03",
+      "label": "The Clover Co-op",
+      "type": "scene",
+      "act": "Act Three"
+    },
+    {
+      "id": "S03-04",
+      "label": "Firstmoss Launch Festival",
+      "type": "scene",
+      "act": "Act Three"
+    },
+    {
+      "id": "S04-01",
+      "label": "Through the Farms",
+      "type": "scene",
+      "act": "Act Four"
+    },
+    {
+      "id": "S04-02",
+      "label": "The Hanging Office Exterior",
+      "type": "scene",
+      "act": "Act Four"
+    },
+    {
+      "id": "S04-03",
+      "label": "The Whitefire Custodian",
+      "type": "scene",
+      "act": "Act Four"
+    },
+    {
+      "id": "S04-04",
+      "label": "The Keystone Reveal",
+      "type": "scene",
+      "act": "Act Four"
+    },
+    {
+      "id": "S04-05",
+      "label": "Toward Open Vale",
+      "type": "scene",
+      "act": "Act Four"
+    },
+    {
+      "id": "S05-01",
+      "label": "Open Vale™ Ritual Site",
+      "type": "scene",
+      "act": "Act Five"
+    },
+    {
+      "id": "S05-02",
+      "label": "Short Rest Before the Storm",
+      "type": "scene",
+      "act": "Act Five"
+    },
+    {
+      "id": "S05-03",
+      "label": "The Ritual Begins",
+      "type": "scene",
+      "act": "Act Five"
+    },
+    {
+      "id": "S05-04",
+      "label": "Legacy Security Skeletons",
+      "type": "scene",
+      "act": "Act Five"
+    },
+    {
+      "id": "S05-05",
+      "label": "Soul-Audit Wraiths",
+      "type": "scene",
+      "act": "Act Five"
+    },
+    {
+      "id": "S05-06",
+      "label": "Market Correction",
+      "type": "scene",
+      "act": "Act Five"
+    },
+    {
+      "id": "S05-07",
+      "label": "The Ward Locks Into Place",
+      "type": "scene",
+      "act": "Act Five"
+    },
+    {
+      "id": "S06-01",
+      "label": "Back in the Hanging Office",
+      "type": "scene",
+      "act": "Epilogue"
+    },
+    {
+      "id": "S06-02",
+      "label": "The Relay Spire Hook",
+      "type": "scene",
+      "act": "Epilogue"
+    },
+    {
+      "id": "marlowe-fairwind",
+      "label": "Marlowe Fairwind",
+      "type": "pc",
+      "tags": [
+        "npc",
+        "ally",
+        "pc-pregen",
+        "pc"
+      ]
+    },
+    {
+      "id": "barnacle",
+      "label": "Barnacle",
+      "type": "pc",
+      "tags": [
+        "pc-pregen",
+        "npc",
+        "pc"
+      ]
+    },
+    {
+      "id": "garrick-reed",
+      "label": "Garrick Reed",
+      "type": "pc",
+      "tags": [
+        "pc-pregen",
+        "npc",
+        "pc"
+      ]
+    },
+    {
+      "id": "khari-nix",
+      "label": "Khari Nix",
+      "type": "pc",
+      "tags": [
+        "pc-pregen",
+        "npc",
+        "pc"
+      ]
+    },
+    {
+      "id": "varian-soto",
+      "label": "Varian Soto",
+      "type": "pc",
+      "tags": [
+        "pc-pregen",
+        "npc",
+        "pc"
+      ]
+    },
+    {
+      "id": "strixwolf-mother",
+      "label": "Strixwolf Mother",
+      "type": "creature",
+      "tags": [
+        "creature",
+        "animal",
+        "act-one"
+      ]
+    },
+    {
+      "id": "strixwolf-pup-one",
+      "label": "Strixwolf Pup One",
+      "type": "creature",
+      "tags": [
+        "creature",
+        "animal"
+      ]
+    },
+    {
+      "id": "strixwolf-pup-two",
+      "label": "Strixwolf Pup Two",
+      "type": "creature",
+      "tags": [
+        "creature",
+        "animal"
+      ]
+    },
+    {
+      "id": "tamsin-vell",
+      "label": "Tamsin Vell",
+      "type": "npc",
+      "tags": [
+        "npc",
+        "victim",
+        "clue"
+      ]
+    },
+    {
+      "id": "bramble-union",
+      "label": "Bramble Union",
+      "type": "faction",
+      "tags": [
+        "faction",
+        "antagonist",
+        "nuanced"
+      ]
+    },
+    {
+      "id": "bramble-union-ambusher",
+      "label": "Bramble Union Ambusher",
+      "type": "enemy",
+      "tags": [
+        "enemy",
+        "combat",
+        "act-two"
+      ]
+    },
+    {
+      "id": "bramble-union-claimrunner",
+      "label": "Bramble Union Claimrunner",
+      "type": "enemy",
+      "tags": [
+        "enemy",
+        "combat",
+        "act-two"
+      ]
+    },
+    {
+      "id": "kett-alderhook",
+      "label": "Kett Alderhook",
+      "type": "npc",
+      "tags": [
+        "npc",
+        "enemy",
+        "bramble-union"
+      ]
+    },
+    {
+      "id": "vela-bramblewick",
+      "label": "Vela Bramblewick",
+      "type": "npc",
+      "tags": [
+        "npc",
+        "enemy",
+        "bramble-union"
+      ]
+    },
+    {
+      "id": "rye-underbough",
+      "label": "Rye Underbough",
+      "type": "npc",
+      "tags": [
+        "npc",
+        "enemy",
+        "bramble-union"
+      ]
+    },
+    {
+      "id": "brannic-mossvein",
+      "label": "Brannic Mossvein",
+      "type": "npc",
+      "tags": [
+        "npc",
+        "enemy",
+        "bramble-union"
+      ]
+    },
+    {
+      "id": "hush",
+      "label": "Hush",
+      "type": "location",
+      "tags": [
+        "location",
+        "community"
+      ]
+    },
+    {
+      "id": "hushtm-community-enclave",
+      "label": "Hush™ Community Enclave",
+      "type": "location",
+      "tags": [
+        "location",
+        "corporate-label"
+      ]
+    },
+    {
+      "id": "fidget",
+      "label": "Fidget",
+      "type": "npc",
+      "tags": [
+        "npc",
+        "hush"
+      ]
+    },
+    {
+      "id": "lausa-standworth",
+      "label": "Lausa Standworth",
+      "type": "npc",
+      "tags": [
+        "npc",
+        "hush"
+      ]
+    },
+    {
+      "id": "halython-fives",
+      "label": "Halython Fives",
+      "type": "npc",
+      "tags": [
+        "npc",
+        "hush"
+      ]
+    },
+    {
+      "id": "yera-mossglass",
+      "label": "Yera Mossglass",
+      "type": "npc",
+      "tags": [
+        "npc",
+        "hush"
+      ]
+    },
+    {
+      "id": "clover-co-op",
+      "label": "Clover Co-op",
+      "type": "location",
+      "tags": [
+        "location",
+        "hush"
+      ]
+    },
+    {
+      "id": "firstmoss-launch-festival",
+      "label": "Firstmoss Launch Festival",
+      "type": "location",
+      "tags": [
+        "location",
+        "culture"
+      ]
+    },
+    {
+      "id": "hush-farms",
+      "label": "Hush Farms",
+      "type": "location",
+      "tags": [
+        "location"
+      ]
+    },
+    {
+      "id": "the-hanging-office",
+      "label": "The Hanging Office",
+      "type": "location",
+      "tags": [
+        "location",
+        "act-four"
+      ]
+    },
+    {
+      "id": "whitefire-custodian",
+      "label": "Whitefire Custodian",
+      "type": "npc",
+      "tags": [
+        "npc",
+        "ally",
+        "mentor"
+      ]
+    },
+    {
+      "id": "keystone-asset",
+      "label": "Keystone Asset",
+      "type": "item",
+      "tags": [
+        "item",
+        "asset",
+        "lore-reveal"
+      ]
+    },
+    {
+      "id": "open-valetm-ritual-site",
+      "label": "Open Vale™ Ritual Site",
+      "type": "location",
+      "tags": [
+        "location",
+        "combat",
+        "act-five"
+      ]
+    },
+    {
+      "id": "legacy-security-skeleton",
+      "label": "Legacy Security Skeleton",
+      "type": "enemy",
+      "tags": [
+        "enemy",
+        "undead",
+        "combat"
+      ]
+    },
+    {
+      "id": "soul-audit-wraith",
+      "label": "Soul-Audit Wraith",
+      "type": "enemy",
+      "tags": [
+        "enemy",
+        "wraith",
+        "combat"
+      ]
+    },
+    {
+      "id": "market-correction",
+      "label": "Market Correction",
+      "type": "clue",
+      "tags": [
+        "mechanic",
+        "environment",
+        "corporate-satire"
+      ]
+    },
+    {
+      "id": "relay-spire",
+      "label": "Relay Spire",
+      "type": "location",
+      "tags": [
+        "location",
+        "hook"
+      ]
+    },
+    {
+      "id": "spirekeeper",
+      "label": "Spirekeeper",
+      "type": "npc",
+      "tags": [
+        "npc",
+        "hook"
+      ]
+    },
+    {
+      "id": "emeris-crown-holdings",
+      "label": "Emeris Crown Holdings",
+      "type": "corporation",
+      "tags": [
+        "corp",
+        "employer"
+      ]
+    },
+    {
+      "id": "goldspire-territories",
+      "label": "Goldspire Territories",
+      "type": "faction",
+      "tags": [
+        "faction",
+        "setting"
+      ]
+    },
+    {
+      "id": "kazrak-industries",
+      "label": "Kazrak Industries",
+      "type": "corporation",
+      "tags": [
+        "corp",
+        "lore"
+      ]
+    },
+    {
+      "id": "hexmart",
+      "label": "Hexmart",
+      "type": "corporation",
+      "tags": [
+        "corp",
+        "lore"
+      ]
+    },
+    {
+      "id": "mithril-and-mortar",
+      "label": "Mithril & Mortar",
+      "type": "corporation",
+      "tags": [
+        "corp",
+        "lore"
+      ]
+    },
+    {
+      "id": "soulspire-solutions",
+      "label": "Soulspire Solutions",
+      "type": "corporation",
+      "tags": [
+        "corp",
+        "lore"
+      ]
+    },
+    {
+      "id": "runespark-entertainment",
+      "label": "RuneSpark Entertainment",
+      "type": "corporation",
+      "tags": [
+        "corp",
+        "lore"
+      ]
+    },
+    {
+      "id": "sablewoodtm-logistics-preserve",
+      "label": "Sablewood™ Logistics Preserve",
+      "type": "location",
+      "tags": [
+        "location",
+        "corporate-label"
+      ]
+    },
+    {
+      "id": "old-sable",
+      "label": "Old Sable",
+      "type": "location",
+      "tags": [
+        "location",
+        "local-name"
+      ]
+    },
+    {
+      "id": "goldspire-waymarkers",
+      "label": "Goldspire Waymarkers",
+      "type": "item",
+      "tags": [
+        "item",
+        "corporate-satire"
+      ]
+    },
+    {
+      "id": "vendor-cart",
+      "label": "Vendor Cart",
+      "type": "item",
+      "tags": [
+        "item",
+        "clue",
+        "act-one"
+      ]
+    },
+    {
+      "id": "incident-response-placard",
+      "label": "Incident Response Placard",
+      "type": "item",
+      "tags": [
+        "item",
+        "corporate-satire",
+        "clue"
+      ]
+    },
+    {
+      "id": "bramble-strand",
+      "label": "Bramble Strand",
+      "type": "clue",
+      "tags": [
+        "clue"
+      ]
+    },
+    {
+      "id": "torn-shipping-seals",
+      "label": "Torn Shipping Seals",
+      "type": "clue",
+      "tags": [
+        "clue"
+      ]
+    },
+    {
+      "id": "route-ledger",
+      "label": "Route Ledger",
+      "type": "clue",
+      "tags": [
+        "clue"
+      ]
+    },
+    {
+      "id": "bramble-union-loot",
+      "label": "Bramble Union Loot",
+      "type": "item",
+      "tags": [
+        "loot",
+        "item"
+      ]
+    },
+    {
+      "id": "inspection-sealed-counterweight",
+      "label": "Inspection-Sealed Counterweight",
+      "type": "item",
+      "tags": [
+        "item",
+        "location-detail"
+      ]
+    },
+    {
+      "id": "ritual-countdown",
+      "label": "Ritual Countdown",
+      "type": "mechanic",
+      "tags": [
+        "mechanic",
+        "combat"
+      ]
+    },
+    {
+      "id": "untethered",
+      "label": "Untethered",
+      "type": "condition",
+      "tags": [
+        "mechanic",
+        "condition"
+      ]
+    },
+    {
+      "id": "forgotten-gods",
+      "label": "Forgotten Gods",
+      "type": "faction",
+      "tags": [
+        "lore",
+        "faction"
+      ]
+    },
+    {
+      "id": "escort-carriage",
+      "label": "Escort Carriage",
+      "type": "item",
+      "tags": [
+        "transport",
+        "contract",
+        "asset"
+      ]
+    },
+    {
+      "id": "sealed-keystone-crate",
+      "label": "Sealed Keystone Crate",
+      "type": "item",
+      "tags": [
+        "cargo",
+        "keystone",
+        "seal"
+      ]
+    },
+    {
+      "id": "route-assurance-contract",
+      "label": "Route Assurance Contract",
+      "type": "clue",
+      "tags": [
+        "contract",
+        "clue",
+        "corporate"
+      ]
+    },
+    {
+      "id": "goldspire-permit-seal",
+      "label": "Goldspire Permit Seal",
+      "type": "item",
+      "tags": [
+        "permit",
+        "seal",
+        "corporate"
+      ]
+    },
+    {
+      "id": "corporate-route-bell",
+      "label": "Corporate Route Bell",
+      "type": "item",
+      "tags": [
+        "transport",
+        "route",
+        "signal"
+      ]
+    },
+    {
+      "id": "sablewood-route-gate",
+      "label": "Sablewood Route Gate",
+      "type": "location",
+      "tags": [
+        "threshold",
+        "sablewood",
+        "route"
+      ]
+    },
+    {
+      "id": "old-sable-canopy-road",
+      "label": "Old Sable Canopy Road",
+      "type": "location",
+      "tags": [
+        "old-sable",
+        "road",
+        "local-name"
+      ]
+    },
+    {
+      "id": "overturned-wheel-ruts",
+      "label": "Overturned Wheel Ruts",
+      "type": "clue",
+      "tags": [
+        "evidence",
+        "cart",
+        "investigation"
+      ]
+    },
+    {
+      "id": "tamsin-s-wedding-cord",
+      "label": "Tamsin's Wedding Cord",
+      "type": "clue",
+      "tags": [
+        "evidence",
+        "grief",
+        "hush"
+      ]
+    },
+    {
+      "id": "comfort-blanket",
+      "label": "Comfort Blanket",
+      "type": "item",
+      "tags": [
+        "loot",
+        "hush",
+        "personal-effect"
+      ]
+    },
+    {
+      "id": "bramble-claim-marker",
+      "label": "Bramble Claim Marker",
+      "type": "clue",
+      "tags": [
+        "bramble",
+        "ambush",
+        "evidence"
+      ]
+    },
+    {
+      "id": "ambush-roadblock",
+      "label": "Ambush Roadblock",
+      "type": "item",
+      "tags": [
+        "combat",
+        "bramble",
+        "road"
+      ]
+    },
+    {
+      "id": "reclaimer-personal-effects",
+      "label": "Reclaimer Personal Effects",
+      "type": "clue",
+      "tags": [
+        "bramble",
+        "loot",
+        "moral-residue"
+      ]
+    },
+    {
+      "id": "clover-cord-bracelet",
+      "label": "Clover Cord Bracelet",
+      "type": "item",
+      "tags": [
+        "hush",
+        "gift",
+        "trust"
+      ]
+    },
+    {
+      "id": "moss-honey-jar",
+      "label": "Moss-Honey Jar",
+      "type": "item",
+      "tags": [
+        "hush",
+        "gift",
+        "food"
+      ]
+    },
+    {
+      "id": "hush-safe-irrigation-path",
+      "label": "Hush Safe Irrigation Path",
+      "type": "location",
+      "tags": [
+        "hush",
+        "route",
+        "trust"
+      ]
+    },
+    {
+      "id": "hanging-office-winch",
+      "label": "Hanging Office Winch",
+      "type": "item",
+      "tags": [
+        "hanging-office",
+        "mechanism",
+        "access"
+      ]
+    },
+    {
+      "id": "dustless-ward-map",
+      "label": "Dustless Ward Map",
+      "type": "clue",
+      "tags": [
+        "ward",
+        "hanging-office",
+        "clue"
+      ]
+    },
+    {
+      "id": "custodian-tea-cup",
+      "label": "Custodian Tea Cup",
+      "type": "item",
+      "tags": [
+        "custodian",
+        "hanging-office",
+        "personal-effect"
+      ]
+    },
+    {
+      "id": "relay-tremor-notation",
+      "label": "Relay Tremor Notation",
+      "type": "clue",
+      "tags": [
+        "relay-spire",
+        "future-hook",
+        "ward"
+      ]
+    },
+    {
+      "id": "open-vale-ward-lines",
+      "label": "Open Vale Ward Lines",
+      "type": "location",
+      "tags": [
+        "open-vale",
+        "ritual",
+        "ward"
+      ]
+    },
+    {
+      "id": "ward-renewal-chime",
+      "label": "Ward Renewal Chime",
+      "type": "item",
+      "tags": [
+        "ritual",
+        "ward",
+        "signal"
+      ]
+    },
+    {
+      "id": "glass-bright-ward-sand",
+      "label": "Glass-Bright Ward Sand",
+      "type": "clue",
+      "tags": [
+        "open-vale",
+        "residue",
+        "payoff"
+      ]
+    },
+    {
+      "id": "corporate-seal-wax-residue",
+      "label": "Corporate Seal Wax Residue",
+      "type": "clue",
+      "tags": [
+        "corporate",
+        "open-vale",
+        "evidence"
+      ]
+    },
+    {
+      "id": "legacy-security-badge",
+      "label": "Legacy Security Badge",
+      "type": "clue",
+      "tags": [
+        "skeleton",
+        "evidence",
+        "legacy-security"
+      ]
+    },
+    {
+      "id": "soul-audit-memory-shard",
+      "label": "Soul-Audit Memory Shard",
+      "type": "clue",
+      "tags": [
+        "wraith",
+        "memory",
+        "clue"
+      ]
+    },
+    {
+      "id": "halython-s-fox-bat-companion",
+      "label": "Halython's Fox-Bat Companion",
+      "type": "creature",
+      "tags": [
+        "hush",
+        "companion",
+        "creature"
+      ]
+    },
+    {
+      "id": "emeris-clerk",
+      "label": "Emeris Clerk",
+      "type": "npc",
+      "tags": [
+        "employer",
+        "contract",
+        "corporate"
+      ]
+    },
+    {
+      "id": "the-grail",
+      "label": "The Grail",
+      "type": "corporation",
+      "tags": [
+        "p2p-canon",
+        "security",
+        "ward-stack",
+        "grail"
+      ]
+    },
+    {
+      "id": "goldwater-financial-institution",
+      "label": "Goldwater Financial Institution",
+      "type": "corporation",
+      "tags": [
+        "p2p-canon",
+        "finance",
+        "ward-stack",
+        "insurance"
+      ]
+    },
+    {
+      "id": "artemis-inc",
+      "label": "Artemis Inc",
+      "type": "corporation",
+      "tags": [
+        "p2p-canon",
+        "wilderness",
+        "survival",
+        "preserve"
+      ]
+    },
+    {
+      "id": "zephra-exchange",
+      "label": "Zephra Exchange",
+      "type": "corporation",
+      "tags": [
+        "p2p-canon",
+        "market",
+        "access",
+        "ward-stack"
+      ]
+    },
+    {
+      "id": "the-board-of-directors",
+      "label": "The Board of Directors",
+      "type": "corporation",
+      "tags": [
+        "p2p-canon",
+        "apex",
+        "gm-only",
+        "continuance-protocol"
+      ]
+    },
+    {
+      "id": "wardstone",
+      "label": "Wardstone",
+      "type": "item",
+      "tags": [
+        "ward",
+        "infrastructure",
+        "keystone",
+        "lore"
+      ]
+    },
+    {
+      "id": "ward-infrastructure",
+      "label": "Ward Infrastructure",
+      "type": "mechanic",
+      "tags": [
+        "ward",
+        "infrastructure",
+        "p2p-lore",
+        "gm-only"
+      ]
+    },
+    {
+      "id": "emeris-capital-gate",
+      "label": "Emeris Capital Gate",
+      "type": "location",
+      "tags": [
+        "athervast",
+        "capital",
+        "ward",
+        "keystone"
+      ]
+    },
+    {
+      "id": "athervast",
+      "label": "Athervast",
+      "type": "location",
+      "tags": [
+        "p2p-canon",
+        "capital",
+        "athervast",
+        "ward"
+      ]
+    },
+    {
+      "id": "public-private-ward-compact",
+      "label": "Public-Private Ward Compact",
+      "type": "clue",
+      "tags": [
+        "contract",
+        "ward",
+        "corporate",
+        "gm-only"
+      ]
+    },
+    {
+      "id": "goldspire-ward-network",
+      "label": "Goldspire Ward Network",
+      "type": "mechanic",
+      "tags": [
+        "ward",
+        "network",
+        "relay",
+        "p2p-lore"
+      ]
+    },
+    {
+      "id": "the-goldspire-relay",
+      "label": "The Goldspire Relay",
+      "type": "location",
+      "tags": [
+        "relay",
+        "future-hook",
+        "ward",
+        "location"
+      ]
+    },
+    {
+      "id": "the-relay-keeper",
+      "label": "The Relay Keeper",
+      "type": "npc",
+      "tags": [
+        "relay",
+        "future-hook",
+        "npc",
+        "ward"
+      ]
+    },
+    {
+      "id": "gm-rules-drawer",
+      "label": "GM Rules Drawer",
+      "type": "mechanic",
+      "tags": [
+        "rules",
+        "mechanics",
+        "gm-tool"
+      ]
+    },
+    {
+      "id": "slider-system",
+      "label": "Slider System",
+      "type": "mechanic",
+      "tags": [
+        "slider",
+        "house-rule",
+        "mechanics"
+      ]
+    },
+    {
+      "id": "duality-dice",
+      "label": "Duality Dice",
+      "type": "mechanic",
+      "tags": [
+        "rules-canon",
+        "dice",
+        "mechanics"
+      ]
+    },
+    {
+      "id": "p2p-jenga-fear-variant",
+      "label": "P2P Jenga Fear Variant",
+      "type": "mechanic",
+      "tags": [
+        "p2p",
+        "house-rule",
+        "dice-mode"
+      ]
+    },
+    {
+      "id": "difficulty-ladder",
+      "label": "Difficulty Ladder",
+      "type": "mechanic",
+      "tags": [
+        "rules-canon",
+        "dc",
+        "mechanics"
+      ]
+    },
+    {
+      "id": "hope",
+      "label": "Hope",
+      "type": "mechanic",
+      "tags": [
+        "rules-canon",
+        "currency"
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear",
+      "type": "mechanic",
+      "tags": [
+        "rules-canon",
+        "currency",
+        "p2p"
+      ]
+    },
+    {
+      "id": "stress",
+      "label": "Stress",
+      "type": "mechanic",
+      "tags": [
+        "rules-canon",
+        "condition"
+      ]
+    },
+    {
+      "id": "armor-slot",
+      "label": "Armor Slot",
+      "type": "mechanic",
+      "tags": [
+        "rules-canon",
+        "combat"
+      ]
+    },
+    {
+      "id": "short-rest",
+      "label": "Short Rest",
+      "type": "mechanic",
+      "tags": [
+        "rules-canon",
+        "rest"
+      ]
+    },
+    {
+      "id": "hidden",
+      "label": "Hidden",
+      "type": "condition",
+      "tags": [
+        "condition",
+        "rules-canon",
+        "mechanics"
+      ]
+    },
+    {
+      "id": "restrained",
+      "label": "Restrained",
+      "type": "condition",
+      "tags": [
+        "condition",
+        "rules-canon",
+        "mechanics"
+      ]
+    },
+    {
+      "id": "vulnerable",
+      "label": "Vulnerable",
+      "type": "condition",
+      "tags": [
+        "condition",
+        "rules-canon",
+        "mechanics"
+      ]
+    },
+    {
+      "id": "audited",
+      "label": "Audited",
+      "type": "condition",
+      "tags": [
+        "condition",
+        "adaptation",
+        "mechanics"
+      ]
+    },
+    {
+      "id": "bramble-snared",
+      "label": "Bramble-Snared",
+      "type": "condition",
+      "tags": [
+        "condition",
+        "module",
+        "mechanics"
+      ]
+    },
+    {
+      "id": "ward-sick",
+      "label": "Ward-Sick",
+      "type": "condition",
+      "tags": [
+        "condition",
+        "adaptation",
+        "mechanics"
+      ]
+    },
+    {
+      "id": "compliance-flagged",
+      "label": "Compliance-Flagged",
+      "type": "condition",
+      "tags": [
+        "condition",
+        "p2p",
+        "mechanics"
+      ]
+    },
+    {
+      "id": "memory-raw",
+      "label": "Memory-Raw",
+      "type": "condition",
+      "tags": [
+        "condition",
+        "adaptation",
+        "mechanics"
+      ]
+    },
+    {
+      "id": "debt-marked",
+      "label": "Debt-Marked",
+      "type": "condition",
+      "tags": [
+        "condition",
+        "adaptation",
+        "mechanics"
+      ]
+    },
+    {
+      "id": "hexmart-pocket-wardtm-cracked",
+      "label": "Hexmart Pocket Ward™ (cracked)",
+      "type": "item",
+      "tags": [
+        "loot",
+        "search",
+        "sellable",
+        "clue",
+        "Hexmart",
+        "false-safety",
+        "ward-infrastructure"
+      ]
+    },
+    {
+      "id": "stride-salve",
+      "label": "Stride Salve",
+      "type": "item",
+      "tags": [
+        "loot",
+        "search",
+        "consumable"
+      ]
+    },
+    {
+      "id": "grindstone-vial",
+      "label": "Grindstone Vial",
+      "type": "item",
+      "tags": [
+        "loot",
+        "search",
+        "consumable"
+      ]
+    },
+    {
+      "id": "lark-moth-lantern",
+      "label": "Lark-Moth Lantern",
+      "type": "item",
+      "tags": [
+        "loot",
+        "search",
+        "utility"
+      ]
+    },
+    {
+      "id": "bramble-cutter-s-hook",
+      "label": "Bramble-Cutter's Hook",
+      "type": "item",
+      "tags": [
+        "loot",
+        "search",
+        "weapon",
+        "utility"
+      ]
+    },
+    {
+      "id": "compliance-stamp-forged",
+      "label": "Compliance Stamp (forged)",
+      "type": "item",
+      "tags": [
+        "loot",
+        "search",
+        "utility",
+        "clue",
+        "p2p",
+        "bureaucracy"
+      ]
+    },
+    {
+      "id": "firstmoss-poultice",
+      "label": "Firstmoss Poultice",
+      "type": "item",
+      "tags": [
+        "loot",
+        "search",
+        "consumable"
+      ]
+    },
+    {
+      "id": "bag-of-mixed-chits",
+      "label": "Bag of Mixed Chits",
+      "type": "item",
+      "tags": [
+        "loot",
+        "search",
+        "sellable"
+      ]
+    },
+    {
+      "id": "whetcord",
+      "label": "Whetcord",
+      "type": "item",
+      "tags": [
+        "loot",
+        "search",
+        "consumable"
+      ]
+    },
+    {
+      "id": "tinker-s-kit-used",
+      "label": "Tinker's Kit, Used",
+      "type": "item",
+      "tags": [
+        "loot",
+        "search",
+        "utility"
+      ]
+    },
+    {
+      "id": "soul-quiet-charm",
+      "label": "Soul-Quiet Charm",
+      "type": "item",
+      "tags": [
+        "loot",
+        "search",
+        "consumable",
+        "Soulspire",
+        "adaptation"
+      ]
+    },
+    {
+      "id": "strixwolf-down-cloak",
+      "label": "Strixwolf-Down Cloak",
+      "type": "item",
+      "tags": [
+        "loot",
+        "search",
+        "utility"
+      ]
+    },
+    {
+      "id": "strixwolf-mercy-track",
+      "label": "Strixwolf Mercy Track",
+      "type": "mechanic",
+      "tags": [
+        "payoff-track",
+        "choice",
+        "consequence"
+      ]
+    },
+    {
+      "id": "bramble-union-resolution-track",
+      "label": "Bramble Union Resolution Track",
+      "type": "mechanic",
+      "tags": [
+        "payoff-track",
+        "choice",
+        "consequence"
+      ]
+    },
+    {
+      "id": "hush-trust-track",
+      "label": "Hush Trust Track",
+      "type": "mechanic",
+      "tags": [
+        "payoff-track",
+        "choice",
+        "consequence"
+      ]
+    },
+    {
+      "id": "custodian-trust-track",
+      "label": "Custodian Trust Track",
+      "type": "mechanic",
+      "tags": [
+        "payoff-track",
+        "choice",
+        "consequence"
+      ]
+    },
+    {
+      "id": "ward-stability-track",
+      "label": "Ward Stability Track",
+      "type": "mechanic",
+      "tags": [
+        "payoff-track",
+        "choice",
+        "consequence"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "S00-01",
+      "target": "marlowe-fairwind",
+      "type": "appears_in"
+    },
+    {
+      "source": "S00-01",
+      "target": "emeris-crown-holdings",
+      "type": "appears_in"
+    },
+    {
+      "source": "S00-01",
+      "target": "keystone-asset",
+      "type": "appears_in"
+    },
+    {
+      "source": "S00-01",
+      "target": "goldspire-territories",
+      "type": "appears_in"
+    },
+    {
+      "source": "S00-01",
+      "target": "ward-infrastructure",
+      "type": "appears_in"
+    },
+    {
+      "source": "S00-01",
+      "target": "route-assurance-contract",
+      "type": "appears_in"
+    },
+    {
+      "source": "S00-01",
+      "target": "sealed-keystone-crate",
+      "type": "appears_in"
+    },
+    {
+      "source": "S00-01",
+      "target": "emeris-clerk",
+      "type": "appears_in"
+    },
+    {
+      "source": "S00-01",
+      "target": "whitefire-custodian",
+      "type": "appears_in"
+    },
+    {
+      "source": "S00-01",
+      "target": "escort-carriage",
+      "type": "appears_in"
+    },
+    {
+      "source": "S00-01",
+      "target": "garrick-reed",
+      "type": "appears_in"
+    },
+    {
+      "source": "S00-01",
+      "target": "varian-soto",
+      "type": "appears_in"
+    },
+    {
+      "source": "S00-01",
+      "target": "slider-system",
+      "type": "appears_in"
+    },
+    {
+      "source": "S00-01",
+      "target": "hush",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-01",
+      "target": "sablewoodtm-logistics-preserve",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-01",
+      "target": "goldspire-waymarkers",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-01",
+      "target": "goldspire-territories",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-01",
+      "target": "old-sable",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-01",
+      "target": "varian-soto",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-01",
+      "target": "barnacle",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-01",
+      "target": "escort-carriage",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-01",
+      "target": "khari-nix",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-01",
+      "target": "hush",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-01",
+      "target": "vendor-cart",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-02",
+      "target": "vendor-cart",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-02",
+      "target": "tamsin-vell",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-02",
+      "target": "incident-response-placard",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-02",
+      "target": "keystone-asset",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-02",
+      "target": "hexmart",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-02",
+      "target": "sablewoodtm-logistics-preserve",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-02",
+      "target": "bramble-strand",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-02",
+      "target": "bramble-union",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-02",
+      "target": "garrick-reed",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-02",
+      "target": "route-ledger",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-02",
+      "target": "strixwolf-mother",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-02",
+      "target": "barnacle",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-02",
+      "target": "marlowe-fairwind",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-02",
+      "target": "sealed-keystone-crate",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-02",
+      "target": "overturned-wheel-ruts",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-03",
+      "target": "strixwolf-mother",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-03",
+      "target": "strixwolf-pup-one",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-03",
+      "target": "strixwolf-pup-two",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-03",
+      "target": "tamsin-vell",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-03",
+      "target": "vendor-cart",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-03",
+      "target": "hexmart",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-03",
+      "target": "sablewoodtm-logistics-preserve",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-03",
+      "target": "bramble-union",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-03",
+      "target": "khari-nix",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-03",
+      "target": "slider-system",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-03",
+      "target": "hush",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-04",
+      "target": "strixwolf-mother",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-04",
+      "target": "strixwolf-mercy-track",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-04",
+      "target": "corporate-route-bell",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-04",
+      "target": "sablewoodtm-logistics-preserve",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-04",
+      "target": "marlowe-fairwind",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-04",
+      "target": "bramble-union",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-04",
+      "target": "duality-dice",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-04",
+      "target": "bramble-union-ambusher",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-04",
+      "target": "varian-soto",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-04",
+      "target": "sealed-keystone-crate",
+      "type": "appears_in"
+    },
+    {
+      "source": "S01-04",
+      "target": "vendor-cart",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-01",
+      "target": "vendor-cart",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-01",
+      "target": "tamsin-vell",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-01",
+      "target": "bramble-strand",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-01",
+      "target": "torn-shipping-seals",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-01",
+      "target": "route-ledger",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-01",
+      "target": "strixwolf-mother",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-01",
+      "target": "barnacle",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-01",
+      "target": "keystone-asset",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-01",
+      "target": "marlowe-fairwind",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-01",
+      "target": "bramble-union",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-01",
+      "target": "sealed-keystone-crate",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-01",
+      "target": "hush",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-02",
+      "target": "bramble-union",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-02",
+      "target": "bramble-union-ambusher",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-02",
+      "target": "bramble-union-claimrunner",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-02",
+      "target": "strixwolf-mercy-track",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-02",
+      "target": "varian-soto",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-02",
+      "target": "strixwolf-mother",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-02",
+      "target": "escort-carriage",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-02",
+      "target": "garrick-reed",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-02",
+      "target": "short-rest",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-02",
+      "target": "hidden",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-02",
+      "target": "sealed-keystone-crate",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-03",
+      "target": "bramble-union-ambusher",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-03",
+      "target": "bramble-union-claimrunner",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-03",
+      "target": "keystone-asset",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-03",
+      "target": "bramble-union",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-03",
+      "target": "marlowe-fairwind",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-03",
+      "target": "reclaimer-personal-effects",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-03",
+      "target": "escort-carriage",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-03",
+      "target": "sealed-keystone-crate",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-03",
+      "target": "hush",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-03",
+      "target": "fear",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-04",
+      "target": "bramble-union-loot",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-04",
+      "target": "kett-alderhook",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-04",
+      "target": "vela-bramblewick",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-04",
+      "target": "rye-underbough",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-04",
+      "target": "brannic-mossvein",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-04",
+      "target": "reclaimer-personal-effects",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-04",
+      "target": "bramble-union",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-04",
+      "target": "garrick-reed",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-04",
+      "target": "goldspire-territories",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-04",
+      "target": "route-assurance-contract",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-04",
+      "target": "khari-nix",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-04",
+      "target": "sealed-keystone-crate",
+      "type": "appears_in"
+    },
+    {
+      "source": "S02-04",
+      "target": "hush",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-01",
+      "target": "hush",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-01",
+      "target": "hushtm-community-enclave",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-01",
+      "target": "clover-co-op",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-01",
+      "target": "firstmoss-launch-festival",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-01",
+      "target": "lausa-standworth",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-01",
+      "target": "route-assurance-contract",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-01",
+      "target": "sealed-keystone-crate",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-02",
+      "target": "fidget",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-02",
+      "target": "lausa-standworth",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-02",
+      "target": "halython-fives",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-02",
+      "target": "whitefire-custodian",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-02",
+      "target": "ward-renewal-chime",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-02",
+      "target": "hush-safe-irrigation-path",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-02",
+      "target": "firstmoss-launch-festival",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-02",
+      "target": "keystone-asset",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-02",
+      "target": "hush",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-03",
+      "target": "clover-co-op",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-03",
+      "target": "yera-mossglass",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-03",
+      "target": "hush",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-03",
+      "target": "firstmoss-launch-festival",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-03",
+      "target": "whitefire-custodian",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-03",
+      "target": "brannic-mossvein",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-04",
+      "target": "firstmoss-launch-festival",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-04",
+      "target": "hush",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-04",
+      "target": "clover-co-op",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-04",
+      "target": "brannic-mossvein",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-04",
+      "target": "marlowe-fairwind",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-04",
+      "target": "tamsin-vell",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-04",
+      "target": "khari-nix",
+      "type": "appears_in"
+    },
+    {
+      "source": "S03-04",
+      "target": "keystone-asset",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-01",
+      "target": "hush-farms",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-01",
+      "target": "old-sable",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-01",
+      "target": "whitefire-custodian",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-01",
+      "target": "lausa-standworth",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-01",
+      "target": "the-hanging-office",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-01",
+      "target": "open-valetm-ritual-site",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-01",
+      "target": "sablewoodtm-logistics-preserve",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-01",
+      "target": "route-assurance-contract",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-01",
+      "target": "marlowe-fairwind",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-01",
+      "target": "khari-nix",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-02",
+      "target": "the-hanging-office",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-02",
+      "target": "whitefire-custodian",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-02",
+      "target": "inspection-sealed-counterweight",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-02",
+      "target": "barnacle",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-02",
+      "target": "garrick-reed",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-02",
+      "target": "emeris-clerk",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-03",
+      "target": "whitefire-custodian",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-03",
+      "target": "the-hanging-office",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-03",
+      "target": "keystone-asset",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-03",
+      "target": "fear",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-04",
+      "target": "keystone-asset",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-04",
+      "target": "marlowe-fairwind",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-04",
+      "target": "whitefire-custodian",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-04",
+      "target": "emeris-crown-holdings",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-04",
+      "target": "ward-stability-track",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-04",
+      "target": "sealed-keystone-crate",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-04",
+      "target": "open-vale-ward-lines",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-04",
+      "target": "dustless-ward-map",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-04",
+      "target": "ward-renewal-chime",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-04",
+      "target": "stress",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-04",
+      "target": "slider-system",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-04",
+      "target": "hush",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-05",
+      "target": "open-valetm-ritual-site",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-05",
+      "target": "whitefire-custodian",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-05",
+      "target": "keystone-asset",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-05",
+      "target": "marlowe-fairwind",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-05",
+      "target": "ritual-countdown",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-05",
+      "target": "short-rest",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-05",
+      "target": "varian-soto",
+      "type": "appears_in"
+    },
+    {
+      "source": "S04-05",
+      "target": "sealed-keystone-crate",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-01",
+      "target": "open-valetm-ritual-site",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-01",
+      "target": "keystone-asset",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-01",
+      "target": "forgotten-gods",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-01",
+      "target": "whitefire-custodian",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-01",
+      "target": "goldspire-territories",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-01",
+      "target": "ritual-countdown",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-01",
+      "target": "route-assurance-contract",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-01",
+      "target": "marlowe-fairwind",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-01",
+      "target": "sealed-keystone-crate",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-02",
+      "target": "open-valetm-ritual-site",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-02",
+      "target": "whitefire-custodian",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-02",
+      "target": "keystone-asset",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-02",
+      "target": "old-sable",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-02",
+      "target": "short-rest",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-02",
+      "target": "khari-nix",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-03",
+      "target": "whitefire-custodian",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-03",
+      "target": "keystone-asset",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-03",
+      "target": "ritual-countdown",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-03",
+      "target": "legacy-security-skeleton",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-03",
+      "target": "open-valetm-ritual-site",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-03",
+      "target": "soul-audit-wraith",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-03",
+      "target": "fear",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-04",
+      "target": "legacy-security-skeleton",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-04",
+      "target": "market-correction",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-04",
+      "target": "open-valetm-ritual-site",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-04",
+      "target": "whitefire-custodian",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-04",
+      "target": "ritual-countdown",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-04",
+      "target": "garrick-reed",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-04",
+      "target": "slider-system",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-05",
+      "target": "soul-audit-wraith",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-05",
+      "target": "untethered",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-05",
+      "target": "market-correction",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-05",
+      "target": "ritual-countdown",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-05",
+      "target": "whitefire-custodian",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-05",
+      "target": "soul-audit-memory-shard",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-05",
+      "target": "route-ledger",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-05",
+      "target": "fear",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-06",
+      "target": "market-correction",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-06",
+      "target": "legacy-security-skeleton",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-06",
+      "target": "open-valetm-ritual-site",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-06",
+      "target": "marlowe-fairwind",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-06",
+      "target": "whitefire-custodian",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-06",
+      "target": "corporate-seal-wax-residue",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-06",
+      "target": "untethered",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-06",
+      "target": "vulnerable",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-06",
+      "target": "ritual-countdown",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-06",
+      "target": "route-assurance-contract",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-06",
+      "target": "keystone-asset",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-07",
+      "target": "keystone-asset",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-07",
+      "target": "whitefire-custodian",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-07",
+      "target": "open-valetm-ritual-site",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-07",
+      "target": "relay-spire",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-07",
+      "target": "ritual-countdown",
+      "type": "appears_in"
+    },
+    {
+      "source": "S05-07",
+      "target": "hush",
+      "type": "appears_in"
+    },
+    {
+      "source": "S06-01",
+      "target": "the-hanging-office",
+      "type": "appears_in"
+    },
+    {
+      "source": "S06-01",
+      "target": "whitefire-custodian",
+      "type": "appears_in"
+    },
+    {
+      "source": "S06-01",
+      "target": "keystone-asset",
+      "type": "appears_in"
+    },
+    {
+      "source": "S06-01",
+      "target": "hush",
+      "type": "appears_in"
+    },
+    {
+      "source": "S06-01",
+      "target": "route-ledger",
+      "type": "appears_in"
+    },
+    {
+      "source": "S06-01",
+      "target": "route-assurance-contract",
+      "type": "appears_in"
+    },
+    {
+      "source": "S06-01",
+      "target": "marlowe-fairwind",
+      "type": "appears_in"
+    },
+    {
+      "source": "S06-02",
+      "target": "relay-spire",
+      "type": "appears_in"
+    },
+    {
+      "source": "S06-02",
+      "target": "spirekeeper",
+      "type": "appears_in"
+    },
+    {
+      "source": "S06-02",
+      "target": "old-sable",
+      "type": "appears_in"
+    },
+    {
+      "source": "S06-02",
+      "target": "whitefire-custodian",
+      "type": "appears_in"
+    },
+    {
+      "source": "S06-02",
+      "target": "open-valetm-ritual-site",
+      "type": "appears_in"
+    },
+    {
+      "source": "S06-02",
+      "target": "marlowe-fairwind",
+      "type": "appears_in"
+    },
+    {
+      "source": "marlowe-fairwind",
+      "target": "emeris-crown-holdings",
+      "type": "connection"
+    },
+    {
+      "source": "marlowe-fairwind",
+      "target": "keystone-asset",
+      "type": "connection"
+    },
+    {
+      "source": "marlowe-fairwind",
+      "target": "whitefire-custodian",
+      "type": "connection"
+    },
+    {
+      "source": "barnacle",
+      "target": "sablewoodtm-logistics-preserve",
+      "type": "connection"
+    },
+    {
+      "source": "barnacle",
+      "target": "bramble-union",
+      "type": "connection"
+    },
+    {
+      "source": "barnacle",
+      "target": "vendor-cart",
+      "type": "connection"
+    },
+    {
+      "source": "garrick-reed",
+      "target": "emeris-crown-holdings",
+      "type": "connection"
+    },
+    {
+      "source": "garrick-reed",
+      "target": "bramble-union",
+      "type": "connection"
+    },
+    {
+      "source": "garrick-reed",
+      "target": "marlowe-fairwind",
+      "type": "connection"
+    },
+    {
+      "source": "khari-nix",
+      "target": "old-sable",
+      "type": "connection"
+    },
+    {
+      "source": "khari-nix",
+      "target": "hush",
+      "type": "connection"
+    },
+    {
+      "source": "khari-nix",
+      "target": "strixwolf-mother",
+      "type": "connection"
+    },
+    {
+      "source": "varian-soto",
+      "target": "sablewoodtm-logistics-preserve",
+      "type": "connection"
+    },
+    {
+      "source": "varian-soto",
+      "target": "strixwolf-mother",
+      "type": "connection"
+    },
+    {
+      "source": "varian-soto",
+      "target": "hush-farms",
+      "type": "connection"
+    },
+    {
+      "source": "strixwolf-mother",
+      "target": "strixwolf-pup-one",
+      "type": "connection"
+    },
+    {
+      "source": "strixwolf-mother",
+      "target": "strixwolf-pup-two",
+      "type": "connection"
+    },
+    {
+      "source": "strixwolf-mother",
+      "target": "vendor-cart",
+      "type": "connection"
+    },
+    {
+      "source": "strixwolf-mother",
+      "target": "tamsin-vell",
+      "type": "connection"
+    },
+    {
+      "source": "strixwolf-mother",
+      "target": "strixwolf-mercy-track",
+      "type": "connection"
+    },
+    {
+      "source": "strixwolf-pup-one",
+      "target": "strixwolf-mother",
+      "type": "connection"
+    },
+    {
+      "source": "strixwolf-pup-one",
+      "target": "strixwolf-pup-two",
+      "type": "connection"
+    },
+    {
+      "source": "strixwolf-pup-two",
+      "target": "strixwolf-mother",
+      "type": "connection"
+    },
+    {
+      "source": "strixwolf-pup-two",
+      "target": "strixwolf-pup-one",
+      "type": "connection"
+    },
+    {
+      "source": "tamsin-vell",
+      "target": "vendor-cart",
+      "type": "connection"
+    },
+    {
+      "source": "tamsin-vell",
+      "target": "bramble-union",
+      "type": "connection"
+    },
+    {
+      "source": "tamsin-vell",
+      "target": "route-ledger",
+      "type": "connection"
+    },
+    {
+      "source": "tamsin-vell",
+      "target": "incident-response-placard",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-union",
+      "target": "bramble-union-ambusher",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-union",
+      "target": "bramble-union-claimrunner",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-union",
+      "target": "goldspire-territories",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-union",
+      "target": "emeris-crown-holdings",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-union-ambusher",
+      "target": "bramble-union",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-union-ambusher",
+      "target": "bramble-union-claimrunner",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-union-claimrunner",
+      "target": "bramble-union",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-union-claimrunner",
+      "target": "keystone-asset",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-union-claimrunner",
+      "target": "kett-alderhook",
+      "type": "connection"
+    },
+    {
+      "source": "kett-alderhook",
+      "target": "bramble-union-claimrunner",
+      "type": "connection"
+    },
+    {
+      "source": "kett-alderhook",
+      "target": "bramble-union",
+      "type": "connection"
+    },
+    {
+      "source": "kett-alderhook",
+      "target": "vela-bramblewick",
+      "type": "connection"
+    },
+    {
+      "source": "vela-bramblewick",
+      "target": "bramble-union-ambusher",
+      "type": "connection"
+    },
+    {
+      "source": "vela-bramblewick",
+      "target": "kett-alderhook",
+      "type": "connection"
+    },
+    {
+      "source": "rye-underbough",
+      "target": "bramble-union-ambusher",
+      "type": "connection"
+    },
+    {
+      "source": "rye-underbough",
+      "target": "bramble-union",
+      "type": "connection"
+    },
+    {
+      "source": "brannic-mossvein",
+      "target": "bramble-union-ambusher",
+      "type": "connection"
+    },
+    {
+      "source": "brannic-mossvein",
+      "target": "bramble-union",
+      "type": "connection"
+    },
+    {
+      "source": "hush",
+      "target": "hushtm-community-enclave",
+      "type": "connection"
+    },
+    {
+      "source": "hush",
+      "target": "clover-co-op",
+      "type": "connection"
+    },
+    {
+      "source": "hush",
+      "target": "whitefire-custodian",
+      "type": "connection"
+    },
+    {
+      "source": "hush",
+      "target": "firstmoss-launch-festival",
+      "type": "connection"
+    },
+    {
+      "source": "hushtm-community-enclave",
+      "target": "hush",
+      "type": "connection"
+    },
+    {
+      "source": "hushtm-community-enclave",
+      "target": "goldspire-territories",
+      "type": "connection"
+    },
+    {
+      "source": "fidget",
+      "target": "hush",
+      "type": "connection"
+    },
+    {
+      "source": "fidget",
+      "target": "clover-co-op",
+      "type": "connection"
+    },
+    {
+      "source": "fidget",
+      "target": "whitefire-custodian",
+      "type": "connection"
+    },
+    {
+      "source": "lausa-standworth",
+      "target": "clover-co-op",
+      "type": "connection"
+    },
+    {
+      "source": "lausa-standworth",
+      "target": "hush",
+      "type": "connection"
+    },
+    {
+      "source": "lausa-standworth",
+      "target": "firstmoss-launch-festival",
+      "type": "connection"
+    },
+    {
+      "source": "halython-fives",
+      "target": "hush",
+      "type": "connection"
+    },
+    {
+      "source": "halython-fives",
+      "target": "bramble-union",
+      "type": "connection"
+    },
+    {
+      "source": "halython-fives",
+      "target": "clover-co-op",
+      "type": "connection"
+    },
+    {
+      "source": "yera-mossglass",
+      "target": "clover-co-op",
+      "type": "connection"
+    },
+    {
+      "source": "yera-mossglass",
+      "target": "hush",
+      "type": "connection"
+    },
+    {
+      "source": "yera-mossglass",
+      "target": "whitefire-custodian",
+      "type": "connection"
+    },
+    {
+      "source": "clover-co-op",
+      "target": "hush",
+      "type": "connection"
+    },
+    {
+      "source": "clover-co-op",
+      "target": "yera-mossglass",
+      "type": "connection"
+    },
+    {
+      "source": "clover-co-op",
+      "target": "firstmoss-launch-festival",
+      "type": "connection"
+    },
+    {
+      "source": "firstmoss-launch-festival",
+      "target": "hush",
+      "type": "connection"
+    },
+    {
+      "source": "firstmoss-launch-festival",
+      "target": "clover-co-op",
+      "type": "connection"
+    },
+    {
+      "source": "firstmoss-launch-festival",
+      "target": "hush-farms",
+      "type": "connection"
+    },
+    {
+      "source": "hush-farms",
+      "target": "hush",
+      "type": "connection"
+    },
+    {
+      "source": "hush-farms",
+      "target": "the-hanging-office",
+      "type": "connection"
+    },
+    {
+      "source": "hush-farms",
+      "target": "old-sable",
+      "type": "connection"
+    },
+    {
+      "source": "the-hanging-office",
+      "target": "whitefire-custodian",
+      "type": "connection"
+    },
+    {
+      "source": "the-hanging-office",
+      "target": "keystone-asset",
+      "type": "connection"
+    },
+    {
+      "source": "the-hanging-office",
+      "target": "inspection-sealed-counterweight",
+      "type": "connection"
+    },
+    {
+      "source": "the-hanging-office",
+      "target": "open-valetm-ritual-site",
+      "type": "connection"
+    },
+    {
+      "source": "whitefire-custodian",
+      "target": "the-hanging-office",
+      "type": "connection"
+    },
+    {
+      "source": "whitefire-custodian",
+      "target": "keystone-asset",
+      "type": "connection"
+    },
+    {
+      "source": "whitefire-custodian",
+      "target": "open-valetm-ritual-site",
+      "type": "connection"
+    },
+    {
+      "source": "whitefire-custodian",
+      "target": "relay-spire",
+      "type": "connection"
+    },
+    {
+      "source": "whitefire-custodian",
+      "target": "hush",
+      "type": "connection"
+    },
+    {
+      "source": "keystone-asset",
+      "target": "marlowe-fairwind",
+      "type": "connection"
+    },
+    {
+      "source": "keystone-asset",
+      "target": "whitefire-custodian",
+      "type": "connection"
+    },
+    {
+      "source": "keystone-asset",
+      "target": "open-valetm-ritual-site",
+      "type": "connection"
+    },
+    {
+      "source": "keystone-asset",
+      "target": "emeris-crown-holdings",
+      "type": "connection"
+    },
+    {
+      "source": "open-valetm-ritual-site",
+      "target": "whitefire-custodian",
+      "type": "connection"
+    },
+    {
+      "source": "open-valetm-ritual-site",
+      "target": "keystone-asset",
+      "type": "connection"
+    },
+    {
+      "source": "open-valetm-ritual-site",
+      "target": "legacy-security-skeleton",
+      "type": "connection"
+    },
+    {
+      "source": "open-valetm-ritual-site",
+      "target": "soul-audit-wraith",
+      "type": "connection"
+    },
+    {
+      "source": "open-valetm-ritual-site",
+      "target": "market-correction",
+      "type": "connection"
+    },
+    {
+      "source": "legacy-security-skeleton",
+      "target": "open-valetm-ritual-site",
+      "type": "connection"
+    },
+    {
+      "source": "legacy-security-skeleton",
+      "target": "market-correction",
+      "type": "connection"
+    },
+    {
+      "source": "soul-audit-wraith",
+      "target": "open-valetm-ritual-site",
+      "type": "connection"
+    },
+    {
+      "source": "soul-audit-wraith",
+      "target": "ritual-countdown",
+      "type": "connection"
+    },
+    {
+      "source": "soul-audit-wraith",
+      "target": "untethered",
+      "type": "connection"
+    },
+    {
+      "source": "soul-audit-wraith",
+      "target": "market-correction",
+      "type": "connection"
+    },
+    {
+      "source": "market-correction",
+      "target": "open-valetm-ritual-site",
+      "type": "connection"
+    },
+    {
+      "source": "market-correction",
+      "target": "legacy-security-skeleton",
+      "type": "connection"
+    },
+    {
+      "source": "market-correction",
+      "target": "soul-audit-wraith",
+      "type": "connection"
+    },
+    {
+      "source": "relay-spire",
+      "target": "whitefire-custodian",
+      "type": "connection"
+    },
+    {
+      "source": "relay-spire",
+      "target": "spirekeeper",
+      "type": "connection"
+    },
+    {
+      "source": "relay-spire",
+      "target": "old-sable",
+      "type": "connection"
+    },
+    {
+      "source": "spirekeeper",
+      "target": "relay-spire",
+      "type": "connection"
+    },
+    {
+      "source": "spirekeeper",
+      "target": "whitefire-custodian",
+      "type": "connection"
+    },
+    {
+      "source": "emeris-crown-holdings",
+      "target": "marlowe-fairwind",
+      "type": "connection"
+    },
+    {
+      "source": "emeris-crown-holdings",
+      "target": "keystone-asset",
+      "type": "connection"
+    },
+    {
+      "source": "emeris-crown-holdings",
+      "target": "goldspire-territories",
+      "type": "connection"
+    },
+    {
+      "source": "emeris-crown-holdings",
+      "target": "kazrak-industries",
+      "type": "connection"
+    },
+    {
+      "source": "goldspire-territories",
+      "target": "emeris-crown-holdings",
+      "type": "connection"
+    },
+    {
+      "source": "goldspire-territories",
+      "target": "sablewoodtm-logistics-preserve",
+      "type": "connection"
+    },
+    {
+      "source": "goldspire-territories",
+      "target": "hushtm-community-enclave",
+      "type": "connection"
+    },
+    {
+      "source": "kazrak-industries",
+      "target": "goldspire-territories",
+      "type": "connection"
+    },
+    {
+      "source": "kazrak-industries",
+      "target": "emeris-crown-holdings",
+      "type": "connection"
+    },
+    {
+      "source": "kazrak-industries",
+      "target": "hexmart",
+      "type": "connection"
+    },
+    {
+      "source": "kazrak-industries",
+      "target": "mithril-and-mortar",
+      "type": "connection"
+    },
+    {
+      "source": "hexmart",
+      "target": "kazrak-industries",
+      "type": "connection"
+    },
+    {
+      "source": "hexmart",
+      "target": "goldspire-territories",
+      "type": "connection"
+    },
+    {
+      "source": "mithril-and-mortar",
+      "target": "kazrak-industries",
+      "type": "connection"
+    },
+    {
+      "source": "mithril-and-mortar",
+      "target": "goldspire-territories",
+      "type": "connection"
+    },
+    {
+      "source": "soulspire-solutions",
+      "target": "kazrak-industries",
+      "type": "connection"
+    },
+    {
+      "source": "soulspire-solutions",
+      "target": "soul-audit-wraith",
+      "type": "connection"
+    },
+    {
+      "source": "runespark-entertainment",
+      "target": "firstmoss-launch-festival",
+      "type": "connection"
+    },
+    {
+      "source": "runespark-entertainment",
+      "target": "kazrak-industries",
+      "type": "connection"
+    },
+    {
+      "source": "sablewoodtm-logistics-preserve",
+      "target": "old-sable",
+      "type": "connection"
+    },
+    {
+      "source": "sablewoodtm-logistics-preserve",
+      "target": "goldspire-waymarkers",
+      "type": "connection"
+    },
+    {
+      "source": "sablewoodtm-logistics-preserve",
+      "target": "hush",
+      "type": "connection"
+    },
+    {
+      "source": "sablewoodtm-logistics-preserve",
+      "target": "vendor-cart",
+      "type": "connection"
+    },
+    {
+      "source": "old-sable",
+      "target": "sablewoodtm-logistics-preserve",
+      "type": "connection"
+    },
+    {
+      "source": "old-sable",
+      "target": "hush",
+      "type": "connection"
+    },
+    {
+      "source": "old-sable",
+      "target": "whitefire-custodian",
+      "type": "connection"
+    },
+    {
+      "source": "goldspire-waymarkers",
+      "target": "sablewoodtm-logistics-preserve",
+      "type": "connection"
+    },
+    {
+      "source": "goldspire-waymarkers",
+      "target": "incident-response-placard",
+      "type": "connection"
+    },
+    {
+      "source": "vendor-cart",
+      "target": "tamsin-vell",
+      "type": "connection"
+    },
+    {
+      "source": "vendor-cart",
+      "target": "incident-response-placard",
+      "type": "connection"
+    },
+    {
+      "source": "vendor-cart",
+      "target": "bramble-strand",
+      "type": "connection"
+    },
+    {
+      "source": "vendor-cart",
+      "target": "torn-shipping-seals",
+      "type": "connection"
+    },
+    {
+      "source": "vendor-cart",
+      "target": "strixwolf-mother",
+      "type": "connection"
+    },
+    {
+      "source": "incident-response-placard",
+      "target": "vendor-cart",
+      "type": "connection"
+    },
+    {
+      "source": "incident-response-placard",
+      "target": "goldspire-waymarkers",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-strand",
+      "target": "vendor-cart",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-strand",
+      "target": "bramble-union",
+      "type": "connection"
+    },
+    {
+      "source": "torn-shipping-seals",
+      "target": "vendor-cart",
+      "type": "connection"
+    },
+    {
+      "source": "torn-shipping-seals",
+      "target": "bramble-union",
+      "type": "connection"
+    },
+    {
+      "source": "torn-shipping-seals",
+      "target": "emeris-crown-holdings",
+      "type": "connection"
+    },
+    {
+      "source": "route-ledger",
+      "target": "tamsin-vell",
+      "type": "connection"
+    },
+    {
+      "source": "route-ledger",
+      "target": "vendor-cart",
+      "type": "connection"
+    },
+    {
+      "source": "route-ledger",
+      "target": "hush",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-union-loot",
+      "target": "bramble-union",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-union-loot",
+      "target": "bramble-union-ambusher",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-union-loot",
+      "target": "bramble-union-claimrunner",
+      "type": "connection"
+    },
+    {
+      "source": "inspection-sealed-counterweight",
+      "target": "the-hanging-office",
+      "type": "connection"
+    },
+    {
+      "source": "inspection-sealed-counterweight",
+      "target": "whitefire-custodian",
+      "type": "connection"
+    },
+    {
+      "source": "ritual-countdown",
+      "target": "open-valetm-ritual-site",
+      "type": "connection"
+    },
+    {
+      "source": "ritual-countdown",
+      "target": "whitefire-custodian",
+      "type": "connection"
+    },
+    {
+      "source": "ritual-countdown",
+      "target": "soul-audit-wraith",
+      "type": "connection"
+    },
+    {
+      "source": "untethered",
+      "target": "soul-audit-wraith",
+      "type": "connection"
+    },
+    {
+      "source": "untethered",
+      "target": "ritual-countdown",
+      "type": "connection"
+    },
+    {
+      "source": "forgotten-gods",
+      "target": "open-valetm-ritual-site",
+      "type": "connection"
+    },
+    {
+      "source": "forgotten-gods",
+      "target": "hush",
+      "type": "connection"
+    },
+    {
+      "source": "forgotten-gods",
+      "target": "old-sable",
+      "type": "connection"
+    },
+    {
+      "source": "escort-carriage",
+      "target": "keystone-asset",
+      "type": "connection"
+    },
+    {
+      "source": "escort-carriage",
+      "target": "marlowe-fairwind",
+      "type": "connection"
+    },
+    {
+      "source": "escort-carriage",
+      "target": "emeris-crown-holdings",
+      "type": "connection"
+    },
+    {
+      "source": "escort-carriage",
+      "target": "sablewoodtm-logistics-preserve",
+      "type": "connection"
+    },
+    {
+      "source": "sealed-keystone-crate",
+      "target": "keystone-asset",
+      "type": "connection"
+    },
+    {
+      "source": "sealed-keystone-crate",
+      "target": "escort-carriage",
+      "type": "connection"
+    },
+    {
+      "source": "sealed-keystone-crate",
+      "target": "emeris-crown-holdings",
+      "type": "connection"
+    },
+    {
+      "source": "sealed-keystone-crate",
+      "target": "whitefire-custodian",
+      "type": "connection"
+    },
+    {
+      "source": "route-assurance-contract",
+      "target": "marlowe-fairwind",
+      "type": "connection"
+    },
+    {
+      "source": "route-assurance-contract",
+      "target": "emeris-crown-holdings",
+      "type": "connection"
+    },
+    {
+      "source": "route-assurance-contract",
+      "target": "goldspire-territories",
+      "type": "connection"
+    },
+    {
+      "source": "route-assurance-contract",
+      "target": "keystone-asset",
+      "type": "connection"
+    },
+    {
+      "source": "goldspire-permit-seal",
+      "target": "goldspire-territories",
+      "type": "connection"
+    },
+    {
+      "source": "goldspire-permit-seal",
+      "target": "emeris-crown-holdings",
+      "type": "connection"
+    },
+    {
+      "source": "goldspire-permit-seal",
+      "target": "route-ledger",
+      "type": "connection"
+    },
+    {
+      "source": "goldspire-permit-seal",
+      "target": "incident-response-placard",
+      "type": "connection"
+    },
+    {
+      "source": "corporate-route-bell",
+      "target": "escort-carriage",
+      "type": "connection"
+    },
+    {
+      "source": "corporate-route-bell",
+      "target": "goldspire-waymarkers",
+      "type": "connection"
+    },
+    {
+      "source": "corporate-route-bell",
+      "target": "sablewoodtm-logistics-preserve",
+      "type": "connection"
+    },
+    {
+      "source": "sablewood-route-gate",
+      "target": "sablewoodtm-logistics-preserve",
+      "type": "connection"
+    },
+    {
+      "source": "sablewood-route-gate",
+      "target": "old-sable",
+      "type": "connection"
+    },
+    {
+      "source": "sablewood-route-gate",
+      "target": "goldspire-waymarkers",
+      "type": "connection"
+    },
+    {
+      "source": "old-sable-canopy-road",
+      "target": "old-sable",
+      "type": "connection"
+    },
+    {
+      "source": "old-sable-canopy-road",
+      "target": "sablewoodtm-logistics-preserve",
+      "type": "connection"
+    },
+    {
+      "source": "old-sable-canopy-road",
+      "target": "hush",
+      "type": "connection"
+    },
+    {
+      "source": "old-sable-canopy-road",
+      "target": "forgotten-gods",
+      "type": "connection"
+    },
+    {
+      "source": "overturned-wheel-ruts",
+      "target": "vendor-cart",
+      "type": "connection"
+    },
+    {
+      "source": "overturned-wheel-ruts",
+      "target": "tamsin-vell",
+      "type": "connection"
+    },
+    {
+      "source": "overturned-wheel-ruts",
+      "target": "bramble-strand",
+      "type": "connection"
+    },
+    {
+      "source": "tamsin-s-wedding-cord",
+      "target": "tamsin-vell",
+      "type": "connection"
+    },
+    {
+      "source": "tamsin-s-wedding-cord",
+      "target": "hush",
+      "type": "connection"
+    },
+    {
+      "source": "tamsin-s-wedding-cord",
+      "target": "vendor-cart",
+      "type": "connection"
+    },
+    {
+      "source": "comfort-blanket",
+      "target": "vendor-cart",
+      "type": "connection"
+    },
+    {
+      "source": "comfort-blanket",
+      "target": "tamsin-vell",
+      "type": "connection"
+    },
+    {
+      "source": "comfort-blanket",
+      "target": "hush",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-claim-marker",
+      "target": "bramble-union",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-claim-marker",
+      "target": "bramble-strand",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-claim-marker",
+      "target": "bramble-union-claimrunner",
+      "type": "connection"
+    },
+    {
+      "source": "ambush-roadblock",
+      "target": "bramble-union-ambusher",
+      "type": "connection"
+    },
+    {
+      "source": "ambush-roadblock",
+      "target": "bramble-union-claimrunner",
+      "type": "connection"
+    },
+    {
+      "source": "ambush-roadblock",
+      "target": "goldspire-waymarkers",
+      "type": "connection"
+    },
+    {
+      "source": "reclaimer-personal-effects",
+      "target": "bramble-union",
+      "type": "connection"
+    },
+    {
+      "source": "reclaimer-personal-effects",
+      "target": "bramble-union-ambusher",
+      "type": "connection"
+    },
+    {
+      "source": "reclaimer-personal-effects",
+      "target": "bramble-union-resolution-track",
+      "type": "connection"
+    },
+    {
+      "source": "clover-cord-bracelet",
+      "target": "hush",
+      "type": "connection"
+    },
+    {
+      "source": "clover-cord-bracelet",
+      "target": "clover-co-op",
+      "type": "connection"
+    },
+    {
+      "source": "clover-cord-bracelet",
+      "target": "yera-mossglass",
+      "type": "connection"
+    },
+    {
+      "source": "clover-cord-bracelet",
+      "target": "hush-trust-track",
+      "type": "connection"
+    },
+    {
+      "source": "moss-honey-jar",
+      "target": "hush",
+      "type": "connection"
+    },
+    {
+      "source": "moss-honey-jar",
+      "target": "clover-co-op",
+      "type": "connection"
+    },
+    {
+      "source": "hush-safe-irrigation-path",
+      "target": "hush",
+      "type": "connection"
+    },
+    {
+      "source": "hush-safe-irrigation-path",
+      "target": "hush-farms",
+      "type": "connection"
+    },
+    {
+      "source": "hush-safe-irrigation-path",
+      "target": "the-hanging-office",
+      "type": "connection"
+    },
+    {
+      "source": "hush-safe-irrigation-path",
+      "target": "hush-trust-track",
+      "type": "connection"
+    },
+    {
+      "source": "hanging-office-winch",
+      "target": "the-hanging-office",
+      "type": "connection"
+    },
+    {
+      "source": "hanging-office-winch",
+      "target": "inspection-sealed-counterweight",
+      "type": "connection"
+    },
+    {
+      "source": "hanging-office-winch",
+      "target": "whitefire-custodian",
+      "type": "connection"
+    },
+    {
+      "source": "dustless-ward-map",
+      "target": "the-hanging-office",
+      "type": "connection"
+    },
+    {
+      "source": "dustless-ward-map",
+      "target": "whitefire-custodian",
+      "type": "connection"
+    },
+    {
+      "source": "dustless-ward-map",
+      "target": "open-valetm-ritual-site",
+      "type": "connection"
+    },
+    {
+      "source": "dustless-ward-map",
+      "target": "relay-spire",
+      "type": "connection"
+    },
+    {
+      "source": "custodian-tea-cup",
+      "target": "whitefire-custodian",
+      "type": "connection"
+    },
+    {
+      "source": "custodian-tea-cup",
+      "target": "the-hanging-office",
+      "type": "connection"
+    },
+    {
+      "source": "custodian-tea-cup",
+      "target": "emeris-crown-holdings",
+      "type": "connection"
+    },
+    {
+      "source": "relay-tremor-notation",
+      "target": "relay-spire",
+      "type": "connection"
+    },
+    {
+      "source": "relay-tremor-notation",
+      "target": "whitefire-custodian",
+      "type": "connection"
+    },
+    {
+      "source": "relay-tremor-notation",
+      "target": "the-hanging-office",
+      "type": "connection"
+    },
+    {
+      "source": "open-vale-ward-lines",
+      "target": "open-valetm-ritual-site",
+      "type": "connection"
+    },
+    {
+      "source": "open-vale-ward-lines",
+      "target": "keystone-asset",
+      "type": "connection"
+    },
+    {
+      "source": "open-vale-ward-lines",
+      "target": "forgotten-gods",
+      "type": "connection"
+    },
+    {
+      "source": "open-vale-ward-lines",
+      "target": "ward-renewal-chime",
+      "type": "connection"
+    },
+    {
+      "source": "ward-renewal-chime",
+      "target": "ritual-countdown",
+      "type": "connection"
+    },
+    {
+      "source": "ward-renewal-chime",
+      "target": "whitefire-custodian",
+      "type": "connection"
+    },
+    {
+      "source": "ward-renewal-chime",
+      "target": "keystone-asset",
+      "type": "connection"
+    },
+    {
+      "source": "ward-renewal-chime",
+      "target": "open-valetm-ritual-site",
+      "type": "connection"
+    },
+    {
+      "source": "glass-bright-ward-sand",
+      "target": "open-valetm-ritual-site",
+      "type": "connection"
+    },
+    {
+      "source": "glass-bright-ward-sand",
+      "target": "ward-stability-track",
+      "type": "connection"
+    },
+    {
+      "source": "glass-bright-ward-sand",
+      "target": "relay-spire",
+      "type": "connection"
+    },
+    {
+      "source": "corporate-seal-wax-residue",
+      "target": "open-valetm-ritual-site",
+      "type": "connection"
+    },
+    {
+      "source": "corporate-seal-wax-residue",
+      "target": "emeris-crown-holdings",
+      "type": "connection"
+    },
+    {
+      "source": "corporate-seal-wax-residue",
+      "target": "market-correction",
+      "type": "connection"
+    },
+    {
+      "source": "legacy-security-badge",
+      "target": "legacy-security-skeleton",
+      "type": "connection"
+    },
+    {
+      "source": "legacy-security-badge",
+      "target": "emeris-crown-holdings",
+      "type": "connection"
+    },
+    {
+      "source": "legacy-security-badge",
+      "target": "market-correction",
+      "type": "connection"
+    },
+    {
+      "source": "soul-audit-memory-shard",
+      "target": "soul-audit-wraith",
+      "type": "connection"
+    },
+    {
+      "source": "soul-audit-memory-shard",
+      "target": "market-correction",
+      "type": "connection"
+    },
+    {
+      "source": "soul-audit-memory-shard",
+      "target": "untethered",
+      "type": "connection"
+    },
+    {
+      "source": "halython-s-fox-bat-companion",
+      "target": "halython-fives",
+      "type": "connection"
+    },
+    {
+      "source": "halython-s-fox-bat-companion",
+      "target": "hush",
+      "type": "connection"
+    },
+    {
+      "source": "halython-s-fox-bat-companion",
+      "target": "clover-co-op",
+      "type": "connection"
+    },
+    {
+      "source": "emeris-clerk",
+      "target": "emeris-crown-holdings",
+      "type": "connection"
+    },
+    {
+      "source": "emeris-clerk",
+      "target": "route-assurance-contract",
+      "type": "connection"
+    },
+    {
+      "source": "emeris-clerk",
+      "target": "marlowe-fairwind",
+      "type": "connection"
+    },
+    {
+      "source": "the-grail",
+      "target": "emeris-crown-holdings",
+      "type": "connection"
+    },
+    {
+      "source": "the-grail",
+      "target": "bramble-union",
+      "type": "connection"
+    },
+    {
+      "source": "the-grail",
+      "target": "goldspire-ward-network",
+      "type": "connection"
+    },
+    {
+      "source": "goldwater-financial-institution",
+      "target": "emeris-crown-holdings",
+      "type": "connection"
+    },
+    {
+      "source": "goldwater-financial-institution",
+      "target": "goldspire-ward-network",
+      "type": "connection"
+    },
+    {
+      "source": "goldwater-financial-institution",
+      "target": "the-goldspire-relay",
+      "type": "connection"
+    },
+    {
+      "source": "goldwater-financial-institution",
+      "target": "public-private-ward-compact",
+      "type": "connection"
+    },
+    {
+      "source": "artemis-inc",
+      "target": "sablewoodtm-logistics-preserve",
+      "type": "connection"
+    },
+    {
+      "source": "artemis-inc",
+      "target": "strixwolf-mother",
+      "type": "connection"
+    },
+    {
+      "source": "artemis-inc",
+      "target": "whitefire-custodian",
+      "type": "connection"
+    },
+    {
+      "source": "artemis-inc",
+      "target": "varian-soto",
+      "type": "connection"
+    },
+    {
+      "source": "zephra-exchange",
+      "target": "hushtm-community-enclave",
+      "type": "connection"
+    },
+    {
+      "source": "zephra-exchange",
+      "target": "goldspire-territories",
+      "type": "connection"
+    },
+    {
+      "source": "zephra-exchange",
+      "target": "route-ledger",
+      "type": "connection"
+    },
+    {
+      "source": "zephra-exchange",
+      "target": "public-private-ward-compact",
+      "type": "connection"
+    },
+    {
+      "source": "the-board-of-directors",
+      "target": "goldspire-ward-network",
+      "type": "connection"
+    },
+    {
+      "source": "the-board-of-directors",
+      "target": "forgotten-gods",
+      "type": "connection"
+    },
+    {
+      "source": "the-board-of-directors",
+      "target": "ward-infrastructure",
+      "type": "connection"
+    },
+    {
+      "source": "wardstone",
+      "target": "keystone-asset",
+      "type": "connection"
+    },
+    {
+      "source": "wardstone",
+      "target": "ward-infrastructure",
+      "type": "connection"
+    },
+    {
+      "source": "wardstone",
+      "target": "goldspire-ward-network",
+      "type": "connection"
+    },
+    {
+      "source": "wardstone",
+      "target": "soulspire-solutions",
+      "type": "connection"
+    },
+    {
+      "source": "wardstone",
+      "target": "mithril-and-mortar",
+      "type": "connection"
+    },
+    {
+      "source": "ward-infrastructure",
+      "target": "wardstone",
+      "type": "connection"
+    },
+    {
+      "source": "ward-infrastructure",
+      "target": "goldspire-ward-network",
+      "type": "connection"
+    },
+    {
+      "source": "ward-infrastructure",
+      "target": "public-private-ward-compact",
+      "type": "connection"
+    },
+    {
+      "source": "ward-infrastructure",
+      "target": "keystone-asset",
+      "type": "connection"
+    },
+    {
+      "source": "ward-infrastructure",
+      "target": "the-goldspire-relay",
+      "type": "connection"
+    },
+    {
+      "source": "emeris-capital-gate",
+      "target": "athervast",
+      "type": "connection"
+    },
+    {
+      "source": "emeris-capital-gate",
+      "target": "keystone-asset",
+      "type": "connection"
+    },
+    {
+      "source": "emeris-capital-gate",
+      "target": "emeris-crown-holdings",
+      "type": "connection"
+    },
+    {
+      "source": "emeris-capital-gate",
+      "target": "the-grail",
+      "type": "connection"
+    },
+    {
+      "source": "emeris-capital-gate",
+      "target": "goldspire-ward-network",
+      "type": "connection"
+    },
+    {
+      "source": "athervast",
+      "target": "emeris-capital-gate",
+      "type": "connection"
+    },
+    {
+      "source": "athervast",
+      "target": "goldspire-territories",
+      "type": "connection"
+    },
+    {
+      "source": "athervast",
+      "target": "the-board-of-directors",
+      "type": "connection"
+    },
+    {
+      "source": "athervast",
+      "target": "keystone-asset",
+      "type": "connection"
+    },
+    {
+      "source": "public-private-ward-compact",
+      "target": "emeris-crown-holdings",
+      "type": "connection"
+    },
+    {
+      "source": "public-private-ward-compact",
+      "target": "goldwater-financial-institution",
+      "type": "connection"
+    },
+    {
+      "source": "public-private-ward-compact",
+      "target": "the-grail",
+      "type": "connection"
+    },
+    {
+      "source": "public-private-ward-compact",
+      "target": "mithril-and-mortar",
+      "type": "connection"
+    },
+    {
+      "source": "public-private-ward-compact",
+      "target": "soulspire-solutions",
+      "type": "connection"
+    },
+    {
+      "source": "goldspire-ward-network",
+      "target": "ward-infrastructure",
+      "type": "connection"
+    },
+    {
+      "source": "goldspire-ward-network",
+      "target": "the-goldspire-relay",
+      "type": "connection"
+    },
+    {
+      "source": "goldspire-ward-network",
+      "target": "wardstone",
+      "type": "connection"
+    },
+    {
+      "source": "goldspire-ward-network",
+      "target": "keystone-asset",
+      "type": "connection"
+    },
+    {
+      "source": "goldspire-ward-network",
+      "target": "goldspire-territories",
+      "type": "connection"
+    },
+    {
+      "source": "the-goldspire-relay",
+      "target": "goldspire-ward-network",
+      "type": "connection"
+    },
+    {
+      "source": "the-goldspire-relay",
+      "target": "the-relay-keeper",
+      "type": "connection"
+    },
+    {
+      "source": "the-goldspire-relay",
+      "target": "goldwater-financial-institution",
+      "type": "connection"
+    },
+    {
+      "source": "the-goldspire-relay",
+      "target": "mithril-and-mortar",
+      "type": "connection"
+    },
+    {
+      "source": "the-goldspire-relay",
+      "target": "soulspire-solutions",
+      "type": "connection"
+    },
+    {
+      "source": "the-relay-keeper",
+      "target": "the-goldspire-relay",
+      "type": "connection"
+    },
+    {
+      "source": "the-relay-keeper",
+      "target": "whitefire-custodian",
+      "type": "connection"
+    },
+    {
+      "source": "the-relay-keeper",
+      "target": "emeris-crown-holdings",
+      "type": "connection"
+    },
+    {
+      "source": "the-relay-keeper",
+      "target": "goldwater-financial-institution",
+      "type": "connection"
+    },
+    {
+      "source": "gm-rules-drawer",
+      "target": "slider-system",
+      "type": "connection"
+    },
+    {
+      "source": "gm-rules-drawer",
+      "target": "duality-dice",
+      "type": "connection"
+    },
+    {
+      "source": "gm-rules-drawer",
+      "target": "p2p-jenga-fear-variant",
+      "type": "connection"
+    },
+    {
+      "source": "gm-rules-drawer",
+      "target": "difficulty-ladder",
+      "type": "connection"
+    },
+    {
+      "source": "slider-system",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "slider-system",
+      "target": "difficulty-ladder",
+      "type": "connection"
+    },
+    {
+      "source": "slider-system",
+      "target": "duality-dice",
+      "type": "connection"
+    },
+    {
+      "source": "duality-dice",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "duality-dice",
+      "target": "hope",
+      "type": "connection"
+    },
+    {
+      "source": "duality-dice",
+      "target": "fear",
+      "type": "connection"
+    },
+    {
+      "source": "p2p-jenga-fear-variant",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "p2p-jenga-fear-variant",
+      "target": "duality-dice",
+      "type": "connection"
+    },
+    {
+      "source": "p2p-jenga-fear-variant",
+      "target": "fear",
+      "type": "connection"
+    },
+    {
+      "source": "difficulty-ladder",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "difficulty-ladder",
+      "target": "slider-system",
+      "type": "connection"
+    },
+    {
+      "source": "hope",
+      "target": "duality-dice",
+      "type": "connection"
+    },
+    {
+      "source": "hope",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "fear",
+      "target": "duality-dice",
+      "type": "connection"
+    },
+    {
+      "source": "fear",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "fear",
+      "target": "p2p-jenga-fear-variant",
+      "type": "connection"
+    },
+    {
+      "source": "stress",
+      "target": "vulnerable",
+      "type": "connection"
+    },
+    {
+      "source": "stress",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "armor-slot",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "short-rest",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "short-rest",
+      "target": "open-valetm-ritual-site",
+      "type": "connection"
+    },
+    {
+      "source": "hidden",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "hidden",
+      "target": "slider-system",
+      "type": "connection"
+    },
+    {
+      "source": "restrained",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "restrained",
+      "target": "slider-system",
+      "type": "connection"
+    },
+    {
+      "source": "vulnerable",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "vulnerable",
+      "target": "slider-system",
+      "type": "connection"
+    },
+    {
+      "source": "audited",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "audited",
+      "target": "slider-system",
+      "type": "connection"
+    },
+    {
+      "source": "audited",
+      "target": "ritual-countdown",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-snared",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-snared",
+      "target": "slider-system",
+      "type": "connection"
+    },
+    {
+      "source": "ward-sick",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "ward-sick",
+      "target": "slider-system",
+      "type": "connection"
+    },
+    {
+      "source": "compliance-flagged",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "compliance-flagged",
+      "target": "slider-system",
+      "type": "connection"
+    },
+    {
+      "source": "memory-raw",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "memory-raw",
+      "target": "slider-system",
+      "type": "connection"
+    },
+    {
+      "source": "memory-raw",
+      "target": "ritual-countdown",
+      "type": "connection"
+    },
+    {
+      "source": "debt-marked",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "debt-marked",
+      "target": "slider-system",
+      "type": "connection"
+    },
+    {
+      "source": "debt-marked",
+      "target": "ritual-countdown",
+      "type": "connection"
+    },
+    {
+      "source": "hexmart-pocket-wardtm-cracked",
+      "target": "tamsin-vell",
+      "type": "connection"
+    },
+    {
+      "source": "hexmart-pocket-wardtm-cracked",
+      "target": "vendor-cart",
+      "type": "connection"
+    },
+    {
+      "source": "hexmart-pocket-wardtm-cracked",
+      "target": "hexmart",
+      "type": "connection"
+    },
+    {
+      "source": "hexmart-pocket-wardtm-cracked",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "stride-salve",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "grindstone-vial",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "lark-moth-lantern",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-cutter-s-hook",
+      "target": "bramble-union",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-cutter-s-hook",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "compliance-stamp-forged",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "firstmoss-poultice",
+      "target": "hush",
+      "type": "connection"
+    },
+    {
+      "source": "firstmoss-poultice",
+      "target": "clover-co-op",
+      "type": "connection"
+    },
+    {
+      "source": "firstmoss-poultice",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "bag-of-mixed-chits",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "whetcord",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "tinker-s-kit-used",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "soul-quiet-charm",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "strixwolf-down-cloak",
+      "target": "strixwolf-mercy-track",
+      "type": "connection"
+    },
+    {
+      "source": "strixwolf-down-cloak",
+      "target": "gm-rules-drawer",
+      "type": "connection"
+    },
+    {
+      "source": "strixwolf-mercy-track",
+      "target": "strixwolf-mother",
+      "type": "connection"
+    },
+    {
+      "source": "strixwolf-mercy-track",
+      "target": "strixwolf-pup-one",
+      "type": "connection"
+    },
+    {
+      "source": "strixwolf-mercy-track",
+      "target": "strixwolf-pup-two",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-union-resolution-track",
+      "target": "bramble-union",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-union-resolution-track",
+      "target": "bramble-union-ambusher",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-union-resolution-track",
+      "target": "bramble-union-claimrunner",
+      "type": "connection"
+    },
+    {
+      "source": "bramble-union-resolution-track",
+      "target": "reclaimer-personal-effects",
+      "type": "connection"
+    },
+    {
+      "source": "hush-trust-track",
+      "target": "hush",
+      "type": "connection"
+    },
+    {
+      "source": "hush-trust-track",
+      "target": "clover-co-op",
+      "type": "connection"
+    },
+    {
+      "source": "hush-trust-track",
+      "target": "clover-cord-bracelet",
+      "type": "connection"
+    },
+    {
+      "source": "hush-trust-track",
+      "target": "moss-honey-jar",
+      "type": "connection"
+    },
+    {
+      "source": "custodian-trust-track",
+      "target": "whitefire-custodian",
+      "type": "connection"
+    },
+    {
+      "source": "custodian-trust-track",
+      "target": "the-hanging-office",
+      "type": "connection"
+    },
+    {
+      "source": "custodian-trust-track",
+      "target": "dustless-ward-map",
+      "type": "connection"
+    },
+    {
+      "source": "custodian-trust-track",
+      "target": "relay-tremor-notation",
+      "type": "connection"
+    },
+    {
+      "source": "ward-stability-track",
+      "target": "ritual-countdown",
+      "type": "connection"
+    },
+    {
+      "source": "ward-stability-track",
+      "target": "keystone-asset",
+      "type": "connection"
+    },
+    {
+      "source": "ward-stability-track",
+      "target": "open-valetm-ritual-site",
+      "type": "connection"
+    },
+    {
+      "source": "ward-stability-track",
+      "target": "ward-renewal-chime",
+      "type": "connection"
+    }
+  ]
+}

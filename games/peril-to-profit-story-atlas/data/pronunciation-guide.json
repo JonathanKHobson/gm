@@ -1,0 +1,919 @@
+{
+  "marlowe-fairwind": {
+    "name": "Marlowe Fairwind",
+    "type": "pc",
+    "pronunciation": "MAR-low FAIR-wind",
+    "short_pronunciation": "MAR-low FAIR-wind",
+    "note": "Keep it crisp and courtly."
+  },
+  "barnacle": {
+    "name": "Barnacle",
+    "type": "pc",
+    "pronunciation": "BAR-nuh-kul",
+    "short_pronunciation": "BAR-nuh-kul",
+    "note": "Like the sea creature."
+  },
+  "garrick-reed": {
+    "name": "Garrick Reed",
+    "type": "pc",
+    "pronunciation": "GAIR-ick REED",
+    "short_pronunciation": "GAIR-ick REED",
+    "note": ""
+  },
+  "khari-nix": {
+    "name": "Khari Nix",
+    "type": "pc",
+    "pronunciation": "KAH-ree NIKS",
+    "short_pronunciation": "KAH-ree NIKS",
+    "note": ""
+  },
+  "varian-soto": {
+    "name": "Varian Soto",
+    "type": "pc",
+    "pronunciation": "VAIR-ee-un SOH-toh",
+    "short_pronunciation": "VAIR-ee-un SOH-toh",
+    "note": ""
+  },
+  "strixwolf-mother": {
+    "name": "Strixwolf Mother",
+    "type": "creature",
+    "pronunciation": "Strixwolf Mother",
+    "short_pronunciation": "Strixwolf Mother",
+    "note": ""
+  },
+  "strixwolf-pup-one": {
+    "name": "Strixwolf Pup One",
+    "type": "creature",
+    "pronunciation": "Strixwolf PUP ONE",
+    "short_pronunciation": "Strixwolf PUP ONE",
+    "note": ""
+  },
+  "strixwolf-pup-two": {
+    "name": "Strixwolf Pup Two",
+    "type": "creature",
+    "pronunciation": "Strixwolf PUP TWO",
+    "short_pronunciation": "Strixwolf PUP TWO",
+    "note": ""
+  },
+  "tamsin-vell": {
+    "name": "Tamsin Vell",
+    "type": "npc",
+    "pronunciation": "Tamsin VELL",
+    "short_pronunciation": "Tamsin VELL",
+    "note": ""
+  },
+  "bramble-union": {
+    "name": "Bramble Union",
+    "type": "faction",
+    "pronunciation": "Bramble Union",
+    "short_pronunciation": "Bramble Union",
+    "note": ""
+  },
+  "bramble-union-ambusher": {
+    "name": "Bramble Union Ambusher",
+    "type": "enemy",
+    "pronunciation": "Bramble Union Ambusher",
+    "short_pronunciation": "Bramble Union Ambusher",
+    "note": ""
+  },
+  "bramble-union-claimrunner": {
+    "name": "Bramble Union Claimrunner",
+    "type": "enemy",
+    "pronunciation": "Bramble Union Claimrunner",
+    "short_pronunciation": "Bramble Union Claimrunner",
+    "note": ""
+  },
+  "kett-alderhook": {
+    "name": "Kett Alderhook",
+    "type": "npc",
+    "pronunciation": "KETT Alderhook",
+    "short_pronunciation": "KETT Alderhook",
+    "note": ""
+  },
+  "vela-bramblewick": {
+    "name": "Vela Bramblewick",
+    "type": "npc",
+    "pronunciation": "VELA Bramblewick",
+    "short_pronunciation": "VELA Bramblewick",
+    "note": ""
+  },
+  "rye-underbough": {
+    "name": "Rye Underbough",
+    "type": "npc",
+    "pronunciation": "RYE Underbough",
+    "short_pronunciation": "RYE Underbough",
+    "note": ""
+  },
+  "brannic-mossvein": {
+    "name": "Brannic Mossvein",
+    "type": "npc",
+    "pronunciation": "Brannic Mossvein",
+    "short_pronunciation": "Brannic Mossvein",
+    "note": ""
+  },
+  "hush": {
+    "name": "Hush",
+    "type": "location",
+    "pronunciation": "HUSH",
+    "short_pronunciation": "HUSH",
+    "note": ""
+  },
+  "hushtm-community-enclave": {
+    "name": "Hush™ Community Enclave",
+    "type": "location",
+    "pronunciation": "hush community EN-klayv",
+    "short_pronunciation": "hush community EN-klayv",
+    "note": "Locals just say Hush."
+  },
+  "fidget": {
+    "name": "Fidget",
+    "type": "npc",
+    "pronunciation": "Fidget",
+    "short_pronunciation": "Fidget",
+    "note": ""
+  },
+  "lausa-standworth": {
+    "name": "Lausa Standworth",
+    "type": "npc",
+    "pronunciation": "LOW-suh STAND-worth",
+    "short_pronunciation": "LOW-suh STAND-worth",
+    "note": "Adjust if Kyle prefers LAH-suh."
+  },
+  "halython-fives": {
+    "name": "Halython Fives",
+    "type": "npc",
+    "pronunciation": "HAL-ee-thon FIVES",
+    "short_pronunciation": "HAL-ee-thon FIVES",
+    "note": ""
+  },
+  "yera-mossglass": {
+    "name": "Yera Mossglass",
+    "type": "npc",
+    "pronunciation": "YAIR-uh MOSS-glass",
+    "short_pronunciation": "YAIR-uh MOSS-glass",
+    "note": ""
+  },
+  "clover-co-op": {
+    "name": "Clover Co-op",
+    "type": "location",
+    "pronunciation": "Clover Co-op",
+    "short_pronunciation": "Clover Co-op",
+    "note": ""
+  },
+  "firstmoss-launch-festival": {
+    "name": "Firstmoss Launch Festival",
+    "type": "location",
+    "pronunciation": "Firstmoss Launch Festival",
+    "short_pronunciation": "Firstmoss Launch Festival",
+    "note": ""
+  },
+  "hush-farms": {
+    "name": "Hush Farms",
+    "type": "location",
+    "pronunciation": "HUSH Farms",
+    "short_pronunciation": "HUSH Farms",
+    "note": ""
+  },
+  "the-hanging-office": {
+    "name": "The Hanging Office",
+    "type": "location",
+    "pronunciation": "THE Hanging Office",
+    "short_pronunciation": "THE Hanging Office",
+    "note": ""
+  },
+  "whitefire-custodian": {
+    "name": "Whitefire Custodian",
+    "type": "npc",
+    "pronunciation": "WHITE-fire kus-TOH-dee-un",
+    "short_pronunciation": "WHITE-fire kus-TOH-dee-un",
+    "note": ""
+  },
+  "keystone-asset": {
+    "name": "Keystone Asset",
+    "type": "item",
+    "pronunciation": "Keystone Asset",
+    "short_pronunciation": "Keystone Asset",
+    "note": ""
+  },
+  "open-valetm-ritual-site": {
+    "name": "Open Vale™ Ritual Site",
+    "type": "location",
+    "pronunciation": "OH-pen VAYL ritual site",
+    "short_pronunciation": "OH-pen VAYL ritual site",
+    "note": ""
+  },
+  "legacy-security-skeleton": {
+    "name": "Legacy Security Skeleton",
+    "type": "enemy",
+    "pronunciation": "Legacy Security Skeleton",
+    "short_pronunciation": "Legacy Security Skeleton",
+    "note": ""
+  },
+  "soul-audit-wraith": {
+    "name": "Soul-Audit Wraith",
+    "type": "enemy",
+    "pronunciation": "SOHL AW-dit RAYTH",
+    "short_pronunciation": "SOHL AW-dit RAYTH",
+    "note": ""
+  },
+  "market-correction": {
+    "name": "Market Correction",
+    "type": "clue",
+    "pronunciation": "Market Correction",
+    "short_pronunciation": "Market Correction",
+    "note": ""
+  },
+  "relay-spire": {
+    "name": "Relay Spire",
+    "type": "location",
+    "pronunciation": "Relay Spire",
+    "short_pronunciation": "Relay Spire",
+    "note": ""
+  },
+  "spirekeeper": {
+    "name": "Spirekeeper",
+    "type": "npc",
+    "pronunciation": "Spirekeeper",
+    "short_pronunciation": "Spirekeeper",
+    "note": ""
+  },
+  "emeris-crown-holdings": {
+    "name": "Emeris Crown Holdings",
+    "type": "corporation",
+    "pronunciation": "Emeris Crown Holdings",
+    "short_pronunciation": "Emeris Crown Holdings",
+    "note": ""
+  },
+  "goldspire-territories": {
+    "name": "Goldspire Territories",
+    "type": "faction",
+    "pronunciation": "Goldspire Territories",
+    "short_pronunciation": "Goldspire Territories",
+    "note": ""
+  },
+  "kazrak-industries": {
+    "name": "Kazrak Industries",
+    "type": "corporation",
+    "pronunciation": "KAZ-rak industries",
+    "short_pronunciation": "KAZ-rak industries",
+    "note": ""
+  },
+  "hexmart": {
+    "name": "Hexmart",
+    "type": "corporation",
+    "pronunciation": "Hexmart",
+    "short_pronunciation": "Hexmart",
+    "note": ""
+  },
+  "mithril-and-mortar": {
+    "name": "Mithril & Mortar",
+    "type": "corporation",
+    "pronunciation": "MITH-ril and MOR-ter",
+    "short_pronunciation": "MITH-ril and MOR-ter",
+    "note": ""
+  },
+  "soulspire-solutions": {
+    "name": "Soulspire Solutions",
+    "type": "corporation",
+    "pronunciation": "SOHL-spire solutions",
+    "short_pronunciation": "SOHL-spire solutions",
+    "note": "Verified spelling: Soulspire."
+  },
+  "runespark-entertainment": {
+    "name": "RuneSpark Entertainment",
+    "type": "corporation",
+    "pronunciation": "ROON-spark entertainment",
+    "short_pronunciation": "ROON-spark entertainment",
+    "note": ""
+  },
+  "sablewoodtm-logistics-preserve": {
+    "name": "Sablewood™ Logistics Preserve",
+    "type": "location",
+    "pronunciation": "SAY-buhl-wood logistics preh-ZERV",
+    "short_pronunciation": "SAY-buhl-wood logistics preh-ZERV",
+    "note": "Locals usually say Old Sable."
+  },
+  "old-sable": {
+    "name": "Old Sable",
+    "type": "location",
+    "pronunciation": "old SAY-buhl",
+    "short_pronunciation": "old SAY-buhl",
+    "note": "Warm local term."
+  },
+  "goldspire-waymarkers": {
+    "name": "Goldspire Waymarkers",
+    "type": "item",
+    "pronunciation": "Goldspire Waymarkers",
+    "short_pronunciation": "Goldspire Waymarkers",
+    "note": ""
+  },
+  "vendor-cart": {
+    "name": "Vendor Cart",
+    "type": "item",
+    "pronunciation": "Vendor CART",
+    "short_pronunciation": "Vendor CART",
+    "note": ""
+  },
+  "incident-response-placard": {
+    "name": "Incident Response Placard",
+    "type": "item",
+    "pronunciation": "Incident Response Placard",
+    "short_pronunciation": "Incident Response Placard",
+    "note": ""
+  },
+  "bramble-strand": {
+    "name": "Bramble Strand",
+    "type": "clue",
+    "pronunciation": "Bramble Strand",
+    "short_pronunciation": "Bramble Strand",
+    "note": ""
+  },
+  "torn-shipping-seals": {
+    "name": "Torn Shipping Seals",
+    "type": "clue",
+    "pronunciation": "TORN Shipping Seals",
+    "short_pronunciation": "TORN Shipping Seals",
+    "note": ""
+  },
+  "route-ledger": {
+    "name": "Route Ledger",
+    "type": "clue",
+    "pronunciation": "Route Ledger",
+    "short_pronunciation": "Route Ledger",
+    "note": ""
+  },
+  "bramble-union-loot": {
+    "name": "Bramble Union Loot",
+    "type": "item",
+    "pronunciation": "Bramble Union LOOT",
+    "short_pronunciation": "Bramble Union LOOT",
+    "note": ""
+  },
+  "inspection-sealed-counterweight": {
+    "name": "Inspection-Sealed Counterweight",
+    "type": "item",
+    "pronunciation": "Inspection-sealed Counterweight",
+    "short_pronunciation": "Inspection-sealed Counterweight",
+    "note": ""
+  },
+  "ritual-countdown": {
+    "name": "Ritual Countdown",
+    "type": "mechanic",
+    "pronunciation": "Ritual Countdown",
+    "short_pronunciation": "Ritual Countdown",
+    "note": ""
+  },
+  "untethered": {
+    "name": "Untethered",
+    "type": "condition",
+    "pronunciation": "Untethered",
+    "short_pronunciation": "Untethered",
+    "note": ""
+  },
+  "forgotten-gods": {
+    "name": "Forgotten Gods",
+    "type": "faction",
+    "pronunciation": "Forgotten GODS",
+    "short_pronunciation": "Forgotten GODS",
+    "note": ""
+  },
+  "escort-carriage": {
+    "name": "Escort Carriage",
+    "type": "item",
+    "pronunciation": "Escort Carriage",
+    "short_pronunciation": "Escort Carriage",
+    "note": ""
+  },
+  "sealed-keystone-crate": {
+    "name": "Sealed Keystone Crate",
+    "type": "item",
+    "pronunciation": "Sealed Keystone Crate",
+    "short_pronunciation": "Sealed Keystone Crate",
+    "note": ""
+  },
+  "route-assurance-contract": {
+    "name": "Route Assurance Contract",
+    "type": "clue",
+    "pronunciation": "Route Assurance Contract",
+    "short_pronunciation": "Route Assurance Contract",
+    "note": ""
+  },
+  "goldspire-permit-seal": {
+    "name": "Goldspire Permit Seal",
+    "type": "item",
+    "pronunciation": "Goldspire Permit SEAL",
+    "short_pronunciation": "Goldspire Permit SEAL",
+    "note": ""
+  },
+  "corporate-route-bell": {
+    "name": "Corporate Route Bell",
+    "type": "item",
+    "pronunciation": "Corporate Route BELL",
+    "short_pronunciation": "Corporate Route BELL",
+    "note": ""
+  },
+  "sablewood-route-gate": {
+    "name": "Sablewood Route Gate",
+    "type": "location",
+    "pronunciation": "Sablewood Route GATE",
+    "short_pronunciation": "Sablewood Route GATE",
+    "note": ""
+  },
+  "old-sable-canopy-road": {
+    "name": "Old Sable Canopy Road",
+    "type": "location",
+    "pronunciation": "OLD Sable Canopy ROAD",
+    "short_pronunciation": "OLD Sable Canopy ROAD",
+    "note": ""
+  },
+  "overturned-wheel-ruts": {
+    "name": "Overturned Wheel Ruts",
+    "type": "clue",
+    "pronunciation": "Overturned Wheel RUTS",
+    "short_pronunciation": "Overturned Wheel RUTS",
+    "note": ""
+  },
+  "tamsin-s-wedding-cord": {
+    "name": "Tamsin's Wedding Cord",
+    "type": "clue",
+    "pronunciation": "Tamsin's Wedding CORD",
+    "short_pronunciation": "Tamsin's Wedding CORD",
+    "note": ""
+  },
+  "comfort-blanket": {
+    "name": "Comfort Blanket",
+    "type": "item",
+    "pronunciation": "Comfort Blanket",
+    "short_pronunciation": "Comfort Blanket",
+    "note": ""
+  },
+  "bramble-claim-marker": {
+    "name": "Bramble Claim Marker",
+    "type": "clue",
+    "pronunciation": "Bramble Claim Marker",
+    "short_pronunciation": "Bramble Claim Marker",
+    "note": ""
+  },
+  "ambush-roadblock": {
+    "name": "Ambush Roadblock",
+    "type": "item",
+    "pronunciation": "Ambush Roadblock",
+    "short_pronunciation": "Ambush Roadblock",
+    "note": ""
+  },
+  "reclaimer-personal-effects": {
+    "name": "Reclaimer Personal Effects",
+    "type": "clue",
+    "pronunciation": "Reclaimer Personal Effects",
+    "short_pronunciation": "Reclaimer Personal Effects",
+    "note": ""
+  },
+  "clover-cord-bracelet": {
+    "name": "Clover Cord Bracelet",
+    "type": "item",
+    "pronunciation": "Clover CORD Bracelet",
+    "short_pronunciation": "Clover CORD Bracelet",
+    "note": ""
+  },
+  "moss-honey-jar": {
+    "name": "Moss-Honey Jar",
+    "type": "item",
+    "pronunciation": "Moss-honey JAR",
+    "short_pronunciation": "Moss-honey JAR",
+    "note": ""
+  },
+  "hush-safe-irrigation-path": {
+    "name": "Hush Safe Irrigation Path",
+    "type": "location",
+    "pronunciation": "HUSH SAFE Irrigation PATH",
+    "short_pronunciation": "HUSH SAFE Irrigation PATH",
+    "note": ""
+  },
+  "hanging-office-winch": {
+    "name": "Hanging Office Winch",
+    "type": "item",
+    "pronunciation": "Hanging Office Winch",
+    "short_pronunciation": "Hanging Office Winch",
+    "note": ""
+  },
+  "dustless-ward-map": {
+    "name": "Dustless Ward Map",
+    "type": "clue",
+    "pronunciation": "Dustless WARD MAP",
+    "short_pronunciation": "Dustless WARD MAP",
+    "note": ""
+  },
+  "custodian-tea-cup": {
+    "name": "Custodian Tea Cup",
+    "type": "item",
+    "pronunciation": "Custodian TEA CUP",
+    "short_pronunciation": "Custodian TEA CUP",
+    "note": ""
+  },
+  "relay-tremor-notation": {
+    "name": "Relay Tremor Notation",
+    "type": "clue",
+    "pronunciation": "Relay Tremor Notation",
+    "short_pronunciation": "Relay Tremor Notation",
+    "note": ""
+  },
+  "open-vale-ward-lines": {
+    "name": "Open Vale Ward Lines",
+    "type": "location",
+    "pronunciation": "OPEN VALE WARD Lines",
+    "short_pronunciation": "OPEN VALE WARD Lines",
+    "note": ""
+  },
+  "ward-renewal-chime": {
+    "name": "Ward Renewal Chime",
+    "type": "item",
+    "pronunciation": "WARD Renewal Chime",
+    "short_pronunciation": "WARD Renewal Chime",
+    "note": ""
+  },
+  "glass-bright-ward-sand": {
+    "name": "Glass-Bright Ward Sand",
+    "type": "clue",
+    "pronunciation": "Glass-bright WARD SAND",
+    "short_pronunciation": "Glass-bright WARD SAND",
+    "note": ""
+  },
+  "corporate-seal-wax-residue": {
+    "name": "Corporate Seal Wax Residue",
+    "type": "clue",
+    "pronunciation": "Corporate SEAL WAX Residue",
+    "short_pronunciation": "Corporate SEAL WAX Residue",
+    "note": ""
+  },
+  "legacy-security-badge": {
+    "name": "Legacy Security Badge",
+    "type": "clue",
+    "pronunciation": "Legacy Security Badge",
+    "short_pronunciation": "Legacy Security Badge",
+    "note": ""
+  },
+  "soul-audit-memory-shard": {
+    "name": "Soul-Audit Memory Shard",
+    "type": "clue",
+    "pronunciation": "Soul-audit Memory Shard",
+    "short_pronunciation": "Soul-audit Memory Shard",
+    "note": ""
+  },
+  "halython-s-fox-bat-companion": {
+    "name": "Halython's Fox-Bat Companion",
+    "type": "creature",
+    "pronunciation": "Halython's Fox-bat Companion",
+    "short_pronunciation": "Halython's Fox-bat Companion",
+    "note": ""
+  },
+  "emeris-clerk": {
+    "name": "Emeris Clerk",
+    "type": "npc",
+    "pronunciation": "Emeris Clerk",
+    "short_pronunciation": "Emeris Clerk",
+    "note": ""
+  },
+  "the-grail": {
+    "name": "The Grail",
+    "type": "corporation",
+    "pronunciation": "THE Grail",
+    "short_pronunciation": "THE Grail",
+    "note": ""
+  },
+  "goldwater-financial-institution": {
+    "name": "Goldwater Financial Institution",
+    "type": "corporation",
+    "pronunciation": "Goldwater Financial Institution",
+    "short_pronunciation": "Goldwater Financial Institution",
+    "note": ""
+  },
+  "artemis-inc": {
+    "name": "Artemis Inc",
+    "type": "corporation",
+    "pronunciation": "Artemis INC",
+    "short_pronunciation": "Artemis INC",
+    "note": ""
+  },
+  "zephra-exchange": {
+    "name": "Zephra Exchange",
+    "type": "corporation",
+    "pronunciation": "Zephra Exchange",
+    "short_pronunciation": "Zephra Exchange",
+    "note": ""
+  },
+  "the-board-of-directors": {
+    "name": "The Board of Directors",
+    "type": "corporation",
+    "pronunciation": "THE Board OF Directors",
+    "short_pronunciation": "THE Board OF Directors",
+    "note": ""
+  },
+  "wardstone": {
+    "name": "Wardstone",
+    "type": "item",
+    "pronunciation": "Wardstone",
+    "short_pronunciation": "Wardstone",
+    "note": ""
+  },
+  "ward-infrastructure": {
+    "name": "Ward Infrastructure",
+    "type": "mechanic",
+    "pronunciation": "WARD Infrastructure",
+    "short_pronunciation": "WARD Infrastructure",
+    "note": ""
+  },
+  "emeris-capital-gate": {
+    "name": "Emeris Capital Gate",
+    "type": "location",
+    "pronunciation": "Emeris Capital GATE",
+    "short_pronunciation": "Emeris Capital GATE",
+    "note": ""
+  },
+  "athervast": {
+    "name": "Athervast",
+    "type": "location",
+    "pronunciation": "Athervast",
+    "short_pronunciation": "Athervast",
+    "note": ""
+  },
+  "public-private-ward-compact": {
+    "name": "Public-Private Ward Compact",
+    "type": "clue",
+    "pronunciation": "Public-private WARD Compact",
+    "short_pronunciation": "Public-private WARD Compact",
+    "note": ""
+  },
+  "goldspire-ward-network": {
+    "name": "Goldspire Ward Network",
+    "type": "mechanic",
+    "pronunciation": "Goldspire WARD Network",
+    "short_pronunciation": "Goldspire WARD Network",
+    "note": ""
+  },
+  "the-goldspire-relay": {
+    "name": "The Goldspire Relay",
+    "type": "location",
+    "pronunciation": "THE Goldspire Relay",
+    "short_pronunciation": "THE Goldspire Relay",
+    "note": ""
+  },
+  "the-relay-keeper": {
+    "name": "The Relay Keeper",
+    "type": "npc",
+    "pronunciation": "THE Relay Keeper",
+    "short_pronunciation": "THE Relay Keeper",
+    "note": ""
+  },
+  "gm-rules-drawer": {
+    "name": "GM Rules Drawer",
+    "type": "mechanic",
+    "pronunciation": "GM Rules Drawer",
+    "short_pronunciation": "GM Rules Drawer",
+    "note": ""
+  },
+  "slider-system": {
+    "name": "Slider System",
+    "type": "mechanic",
+    "pronunciation": "Slider System",
+    "short_pronunciation": "Slider System",
+    "note": ""
+  },
+  "duality-dice": {
+    "name": "Duality Dice",
+    "type": "mechanic",
+    "pronunciation": "Duality DICE",
+    "short_pronunciation": "Duality DICE",
+    "note": ""
+  },
+  "p2p-jenga-fear-variant": {
+    "name": "P2P Jenga Fear Variant",
+    "type": "mechanic",
+    "pronunciation": "P2P Jenga FEAR Variant",
+    "short_pronunciation": "P2P Jenga FEAR Variant",
+    "note": ""
+  },
+  "difficulty-ladder": {
+    "name": "Difficulty Ladder",
+    "type": "mechanic",
+    "pronunciation": "Difficulty Ladder",
+    "short_pronunciation": "Difficulty Ladder",
+    "note": ""
+  },
+  "hope": {
+    "name": "Hope",
+    "type": "mechanic",
+    "pronunciation": "HOPE",
+    "short_pronunciation": "HOPE",
+    "note": ""
+  },
+  "fear": {
+    "name": "Fear",
+    "type": "mechanic",
+    "pronunciation": "FEAR",
+    "short_pronunciation": "FEAR",
+    "note": ""
+  },
+  "stress": {
+    "name": "Stress",
+    "type": "mechanic",
+    "pronunciation": "Stress",
+    "short_pronunciation": "Stress",
+    "note": ""
+  },
+  "armor-slot": {
+    "name": "Armor Slot",
+    "type": "mechanic",
+    "pronunciation": "Armor SLOT",
+    "short_pronunciation": "Armor SLOT",
+    "note": ""
+  },
+  "short-rest": {
+    "name": "Short Rest",
+    "type": "mechanic",
+    "pronunciation": "Short REST",
+    "short_pronunciation": "Short REST",
+    "note": ""
+  },
+  "hidden": {
+    "name": "Hidden",
+    "type": "condition",
+    "pronunciation": "Hidden",
+    "short_pronunciation": "Hidden",
+    "note": ""
+  },
+  "restrained": {
+    "name": "Restrained",
+    "type": "condition",
+    "pronunciation": "Restrained",
+    "short_pronunciation": "Restrained",
+    "note": ""
+  },
+  "vulnerable": {
+    "name": "Vulnerable",
+    "type": "condition",
+    "pronunciation": "Vulnerable",
+    "short_pronunciation": "Vulnerable",
+    "note": ""
+  },
+  "audited": {
+    "name": "Audited",
+    "type": "condition",
+    "pronunciation": "Audited",
+    "short_pronunciation": "Audited",
+    "note": ""
+  },
+  "bramble-snared": {
+    "name": "Bramble-Snared",
+    "type": "condition",
+    "pronunciation": "Bramble-snared",
+    "short_pronunciation": "Bramble-snared",
+    "note": ""
+  },
+  "ward-sick": {
+    "name": "Ward-Sick",
+    "type": "condition",
+    "pronunciation": "Ward-sick",
+    "short_pronunciation": "Ward-sick",
+    "note": ""
+  },
+  "compliance-flagged": {
+    "name": "Compliance-Flagged",
+    "type": "condition",
+    "pronunciation": "Compliance-flagged",
+    "short_pronunciation": "Compliance-flagged",
+    "note": ""
+  },
+  "memory-raw": {
+    "name": "Memory-Raw",
+    "type": "condition",
+    "pronunciation": "Memory-raw",
+    "short_pronunciation": "Memory-raw",
+    "note": ""
+  },
+  "debt-marked": {
+    "name": "Debt-Marked",
+    "type": "condition",
+    "pronunciation": "Debt-marked",
+    "short_pronunciation": "Debt-marked",
+    "note": ""
+  },
+  "hexmart-pocket-wardtm-cracked": {
+    "name": "Hexmart Pocket Ward™ (cracked)",
+    "type": "item",
+    "pronunciation": "Hexmart Pocket WARD Cracked",
+    "short_pronunciation": "Hexmart Pocket WARD Cracked",
+    "note": ""
+  },
+  "stride-salve": {
+    "name": "Stride Salve",
+    "type": "item",
+    "pronunciation": "Stride Salve",
+    "short_pronunciation": "Stride Salve",
+    "note": ""
+  },
+  "grindstone-vial": {
+    "name": "Grindstone Vial",
+    "type": "item",
+    "pronunciation": "Grindstone VIAL",
+    "short_pronunciation": "Grindstone VIAL",
+    "note": ""
+  },
+  "lark-moth-lantern": {
+    "name": "Lark-Moth Lantern",
+    "type": "item",
+    "pronunciation": "Lark-moth Lantern",
+    "short_pronunciation": "Lark-moth Lantern",
+    "note": ""
+  },
+  "bramble-cutter-s-hook": {
+    "name": "Bramble-Cutter's Hook",
+    "type": "item",
+    "pronunciation": "Bramble-cutter's HOOK",
+    "short_pronunciation": "Bramble-cutter's HOOK",
+    "note": ""
+  },
+  "compliance-stamp-forged": {
+    "name": "Compliance Stamp (forged)",
+    "type": "item",
+    "pronunciation": "Compliance Stamp Forged",
+    "short_pronunciation": "Compliance Stamp Forged",
+    "note": ""
+  },
+  "firstmoss-poultice": {
+    "name": "Firstmoss Poultice",
+    "type": "item",
+    "pronunciation": "Firstmoss Poultice",
+    "short_pronunciation": "Firstmoss Poultice",
+    "note": ""
+  },
+  "bag-of-mixed-chits": {
+    "name": "Bag of Mixed Chits",
+    "type": "item",
+    "pronunciation": "BAG OF Mixed Chits",
+    "short_pronunciation": "BAG OF Mixed Chits",
+    "note": ""
+  },
+  "whetcord": {
+    "name": "Whetcord",
+    "type": "item",
+    "pronunciation": "Whetcord",
+    "short_pronunciation": "Whetcord",
+    "note": ""
+  },
+  "tinker-s-kit-used": {
+    "name": "Tinker's Kit, Used",
+    "type": "item",
+    "pronunciation": "Tinker's KIT USED",
+    "short_pronunciation": "Tinker's KIT USED",
+    "note": ""
+  },
+  "soul-quiet-charm": {
+    "name": "Soul-Quiet Charm",
+    "type": "item",
+    "pronunciation": "Soul-quiet Charm",
+    "short_pronunciation": "Soul-quiet Charm",
+    "note": ""
+  },
+  "strixwolf-down-cloak": {
+    "name": "Strixwolf-Down Cloak",
+    "type": "item",
+    "pronunciation": "Strixwolf-down Cloak",
+    "short_pronunciation": "Strixwolf-down Cloak",
+    "note": ""
+  },
+  "strixwolf-mercy-track": {
+    "name": "Strixwolf Mercy Track",
+    "type": "mechanic",
+    "pronunciation": "Strixwolf Mercy Track",
+    "short_pronunciation": "Strixwolf Mercy Track",
+    "note": ""
+  },
+  "bramble-union-resolution-track": {
+    "name": "Bramble Union Resolution Track",
+    "type": "mechanic",
+    "pronunciation": "Bramble Union Resolution Track",
+    "short_pronunciation": "Bramble Union Resolution Track",
+    "note": ""
+  },
+  "hush-trust-track": {
+    "name": "Hush Trust Track",
+    "type": "mechanic",
+    "pronunciation": "HUSH Trust Track",
+    "short_pronunciation": "HUSH Trust Track",
+    "note": ""
+  },
+  "custodian-trust-track": {
+    "name": "Custodian Trust Track",
+    "type": "mechanic",
+    "pronunciation": "Custodian Trust Track",
+    "short_pronunciation": "Custodian Trust Track",
+    "note": ""
+  },
+  "ward-stability-track": {
+    "name": "Ward Stability Track",
+    "type": "mechanic",
+    "pronunciation": "WARD Stability Track",
+    "short_pronunciation": "WARD Stability Track",
+    "note": ""
+  }
+}

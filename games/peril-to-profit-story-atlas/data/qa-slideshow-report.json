@@ -1,0 +1,347 @@
+{
+  "pass": true,
+  "check_count": 68,
+  "issue_count": 0,
+  "checks": [
+    {
+      "name": "required file exists: run.html",
+      "ok": true,
+      "detail": "run.html"
+    },
+    {
+      "name": "required file exists: player-display.html",
+      "ok": true,
+      "detail": "player-display.html"
+    },
+    {
+      "name": "required file exists: player-follow.html",
+      "ok": true,
+      "detail": "player-follow.html"
+    },
+    {
+      "name": "required file exists: data/slides.json",
+      "ok": true,
+      "detail": "data/slides.json"
+    },
+    {
+      "name": "required file exists: data/slides-data.js",
+      "ok": true,
+      "detail": "data/slides-data.js"
+    },
+    {
+      "name": "required file exists: js/display-sync.js",
+      "ok": true,
+      "detail": "js/display-sync.js"
+    },
+    {
+      "name": "required file exists: js/run-mode.js",
+      "ok": true,
+      "detail": "js/run-mode.js"
+    },
+    {
+      "name": "required file exists: js/player-display.js",
+      "ok": true,
+      "detail": "js/player-display.js"
+    },
+    {
+      "name": "required file exists: js/player-follow.js",
+      "ok": true,
+      "detail": "js/player-follow.js"
+    },
+    {
+      "name": "required file exists: css/run-mode.css",
+      "ok": true,
+      "detail": "css/run-mode.css"
+    },
+    {
+      "name": "slides.json is a non-empty list",
+      "ok": true,
+      "detail": "52"
+    },
+    {
+      "name": "every slide has required fields",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "slide ids are unique",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "every scene slide has image",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "no slide image references SVG",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "player-safe projections contain only safe fields",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "player-safe projections have no GM/dev strings",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "every story scene has a scene slide",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Session Zero slides exist",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "section slide exists: SESSION-ZERO",
+      "ok": true,
+      "detail": "SESSION-ZERO"
+    },
+    {
+      "name": "section slide exists: PROLOGUE",
+      "ok": true,
+      "detail": "PROLOGUE"
+    },
+    {
+      "name": "section slide exists: ACT-ONE",
+      "ok": true,
+      "detail": "ACT-ONE"
+    },
+    {
+      "name": "section slide exists: ACT-TWO",
+      "ok": true,
+      "detail": "ACT-TWO"
+    },
+    {
+      "name": "section slide exists: ACT-THREE",
+      "ok": true,
+      "detail": "ACT-THREE"
+    },
+    {
+      "name": "section slide exists: ACT-FOUR",
+      "ok": true,
+      "detail": "ACT-FOUR"
+    },
+    {
+      "name": "section slide exists: ACT-FIVE",
+      "ok": true,
+      "detail": "ACT-FIVE"
+    },
+    {
+      "name": "section slide exists: EPILOGUE",
+      "ok": true,
+      "detail": "EPILOGUE"
+    },
+    {
+      "name": "cheat slide exists: CHEAT-GM",
+      "ok": true,
+      "detail": "CHEAT-GM"
+    },
+    {
+      "name": "cheat slide exists: CHEAT-CONDITIONS",
+      "ok": true,
+      "detail": "CHEAT-CONDITIONS"
+    },
+    {
+      "name": "cheat slide exists: CHEAT-SLIDER",
+      "ok": true,
+      "detail": "CHEAT-SLIDER"
+    },
+    {
+      "name": "cheat slide exists: CHEAT-LOOT",
+      "ok": true,
+      "detail": "CHEAT-LOOT"
+    },
+    {
+      "name": "cheat slide exists: CHEAT-PC",
+      "ok": true,
+      "detail": "CHEAT-PC"
+    },
+    {
+      "name": "cheat slide exists: CHEAT-PRONUNCIATION",
+      "ok": true,
+      "detail": "CHEAT-PRONUNCIATION"
+    },
+    {
+      "name": "cheat slide exists: CHEAT-STATE",
+      "ok": true,
+      "detail": "CHEAT-STATE"
+    },
+    {
+      "name": "run.html loads data/slides-data.js",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "run.html loads js/display-sync.js",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "run.html loads js/run-mode.js",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "player-display loads sync and display scripts",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "player-follow exists as static non-sync mode",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "sync protocol constant exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "run mode shortcut/action wired: ArrowRight",
+      "ok": true,
+      "detail": "ArrowRight"
+    },
+    {
+      "name": "run mode shortcut/action wired: ArrowLeft",
+      "ok": true,
+      "detail": "ArrowLeft"
+    },
+    {
+      "name": "run mode shortcut/action wired: Home",
+      "ok": true,
+      "detail": "Home"
+    },
+    {
+      "name": "run mode shortcut/action wired: End",
+      "ok": true,
+      "detail": "End"
+    },
+    {
+      "name": "run mode shortcut/action wired: show-text",
+      "ok": true,
+      "detail": "show-text"
+    },
+    {
+      "name": "run mode shortcut/action wired: show-image",
+      "ok": true,
+      "detail": "show-image"
+    },
+    {
+      "name": "run mode shortcut/action wired: blackout",
+      "ok": true,
+      "detail": "blackout"
+    },
+    {
+      "name": "run mode shortcut/action wired: CHEAT-GM",
+      "ok": true,
+      "detail": "CHEAT-GM"
+    },
+    {
+      "name": "player static pages have no GM/dev strings",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "run.html rendered current slide",
+      "ok": true,
+      "detail": "Entering Sablewood™ Logistics Preserve"
+    },
+    {
+      "name": "run icon buttons have accessible names",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "slide images have alt text",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "Next control advances slide",
+      "ok": true,
+      "detail": "{\n  \"before\": \"S01-01\",\n  \"after\": \"S01-02\"\n}"
+    },
+    {
+      "name": "Previous control moves back",
+      "ok": true,
+      "detail": "{\n  \"expected\": \"S01-01\",\n  \"actual\": \"S01-01\"\n}"
+    },
+    {
+      "name": "ArrowRight advances slide",
+      "ok": true,
+      "detail": "{\n  \"before\": \"S01-01\",\n  \"after\": \"S01-02\"\n}"
+    },
+    {
+      "name": "shortcuts do not fire while typing",
+      "ok": true,
+      "detail": "{\n  \"before\": \"S01-02\",\n  \"after\": \"S01-02\"\n}"
+    },
+    {
+      "name": "scrubber jumps between slides",
+      "ok": true,
+      "detail": "S03-02"
+    },
+    {
+      "name": "completion state persists",
+      "ok": true,
+      "detail": "[\n  \"S01-01\"\n]"
+    },
+    {
+      "name": "player display receives setSlide messages",
+      "ok": true,
+      "detail": "Local Clues"
+    },
+    {
+      "name": "blackout works",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Show Image to Players works",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Show Text to Players works",
+      "ok": true,
+      "detail": "Slide 25 / 52\n\nLocal Clues\n\nEvery person you meet seems to have an opinion, a custom, or a small gift to press into your"
+    },
+    {
+      "name": "image expansion works",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "read-aloud expansion works",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Copy Player Text works or has fallback",
+      "ok": true,
+      "detail": "Every person you meet seems to have an opinion, a custom, or a small gift to pre"
+    },
+    {
+      "name": "shortcut help opens",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "player display has no GM/dev content",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "player-follow supports direct slide links",
+      "ok": true,
+      "detail": "Slide 25 / 52 - Act Three: Seeking a Custodian\n\nLocal Clues\n\nLocal clues make the infrastructure failure personal and sp"
+    }
+  ]
+}

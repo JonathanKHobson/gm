@@ -1,0 +1,151 @@
+{
+  "startedAt": "2026-06-14T00:58:02Z",
+  "baseUrl": "http://127.0.0.1:59927",
+  "screenshots": {
+    "main": "/Users/kyle/Documents/My Games/Peril To Profit/output/playwright/story-atlas/mechanics-main-desktop.png",
+    "lightbox": "/Users/kyle/Documents/My Games/Peril To Profit/output/playwright/story-atlas/mechanics-lightbox-s01-01.png",
+    "openImageWindow": "/Users/kyle/Documents/My Games/Peril To Profit/output/playwright/story-atlas/mechanics-open-image-window.png",
+    "garrick": "/Users/kyle/Documents/My Games/Peril To Profit/output/playwright/story-atlas/mechanics-garrick-portrait-page.png",
+    "playerDisplay": "/Users/kyle/Documents/My Games/Peril To Profit/output/playwright/story-atlas/mechanics-player-display-s01-01.png",
+    "rulesDrawer": "/Users/kyle/Documents/My Games/Peril To Profit/output/playwright/story-atlas/mechanics-rules-drawer.png"
+  },
+  "main": {
+    "url": "http://127.0.0.1:59927/index.html",
+    "title": "Peril to Profit: The Goldspire Messengers \u00b7 GM Story Atlas",
+    "sessionZeroBeforePrologue": true,
+    "noHorizontalOverflow": true,
+    "visiblePromptLeakage": [],
+    "visibleEmojiIcons": [],
+    "sceneCards": 36,
+    "expandButtons": 74,
+    "openWindowButtons": 37,
+    "rawImageLinks": 38,
+    "sceneImageFit": "contain",
+    "heroImageFit": "contain",
+    "entityHeroFit": null,
+    "lightboxFit": "contain",
+    "playerImageFit": null,
+    "firstSceneImageRect": {
+      "x": 51,
+      "y": 2726,
+      "width": 501,
+      "height": 376
+    },
+    "entityHeroRect": null,
+    "playerImageRect": null,
+    "garrickLinked": true,
+    "garrickIcon": "assets/icons/type-pc.png"
+  },
+  "lightbox": {
+    "open": true,
+    "imageLoaded": true,
+    "imageFit": "contain",
+    "imageRect": {
+      "x": 67,
+      "y": 78,
+      "width": 1146,
+      "height": 562
+    },
+    "rawLink": "assets/scenes/S01-01-entering-sablewoodtm-logistics-preserve.png",
+    "openWindowButton": true
+  },
+  "openImageWindow": {
+    "opened": true,
+    "title": "The branded wilderness looks managed until the forest begins quietly disagreeing.",
+    "imageLoaded": true,
+    "imageFit": "contain"
+  },
+  "garrickPage": {
+    "url": "http://127.0.0.1:59927/pages/entities/garrick-reed.html",
+    "title": "Garrick Reed \u00b7 Goldspire Story Atlas",
+    "sessionZeroBeforePrologue": false,
+    "noHorizontalOverflow": true,
+    "visiblePromptLeakage": [],
+    "visibleEmojiIcons": [],
+    "sceneCards": 0,
+    "expandButtons": 2,
+    "openWindowButtons": 1,
+    "rawImageLinks": 2,
+    "sceneImageFit": null,
+    "heroImageFit": null,
+    "entityHeroFit": "contain",
+    "lightboxFit": "contain",
+    "playerImageFit": null,
+    "firstSceneImageRect": null,
+    "entityHeroRect": {
+      "x": 809,
+      "y": 309,
+      "width": 420,
+      "height": 315
+    },
+    "playerImageRect": null,
+    "garrickLinked": true,
+    "garrickIcon": "../../assets/icons/type-pc.png",
+    "entityImage": {
+      "loaded": true,
+      "naturalWidth": 1024,
+      "naturalHeight": 1536,
+      "fit": "contain",
+      "rect": {
+        "x": 809,
+        "y": 309,
+        "width": 420,
+        "height": 315
+      }
+    }
+  },
+  "playerDisplay": {
+    "url": "http://127.0.0.1:59927/player-display.html?slide=S01-01",
+    "title": "Player Display - Goldspire Story Atlas",
+    "sessionZeroBeforePrologue": false,
+    "noHorizontalOverflow": true,
+    "visiblePromptLeakage": [],
+    "visibleEmojiIcons": [],
+    "sceneCards": 0,
+    "expandButtons": 0,
+    "openWindowButtons": 0,
+    "rawImageLinks": 0,
+    "sceneImageFit": null,
+    "heroImageFit": null,
+    "entityHeroFit": null,
+    "lightboxFit": null,
+    "playerImageFit": "contain",
+    "firstSceneImageRect": null,
+    "entityHeroRect": null,
+    "playerImageRect": {
+      "x": 16,
+      "y": 12,
+      "width": 1248,
+      "height": 936
+    },
+    "garrickLinked": false,
+    "garrickIcon": null,
+    "details": {
+      "selectedScene": "S01-01",
+      "title": "Entering Sablewood\u2122 Logistics Preserve",
+      "objective": "The branded wilderness looks managed until the forest begins quietly disagreeing.",
+      "imageLoaded": true,
+      "imageFit": "contain"
+    }
+  },
+  "rulesDrawer": {
+    "visible": true,
+    "hasActionRoll": true,
+    "searchExists": true,
+    "diceModeButtons": 2
+  },
+  "stateConsolePersists": true,
+  "actCollapsePersists": true,
+  "sceneCollapsePersists": true,
+  "entityIndexLoaded": true,
+  "legendCategoryNavigation": true,
+  "rulesDrawerSearchWorks": true,
+  "conditionalNoteAppears": true,
+  "playerDisplayWorks": true,
+  "noVisiblePromptLeakage": true,
+  "noVisibleEmojiIcons": true,
+  "noHorizontalOverflow": true,
+  "imageContainFirst": true,
+  "openImageWindowWorks": true,
+  "pass": true
+}

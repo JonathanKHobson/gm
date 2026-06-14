@@ -1,0 +1,716 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GM Dashboard · Goldspire Story Atlas</title>
+  <link rel="icon" href="../assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="subpage">
+  <a class="skip-link" href="#content">Skip to content</a>
+  
+<nav class="sticky-top-nav" aria-label="Quick navigation">
+  <a href="../index.html">Atlas</a>
+  <a href="../run.html">Run Mode</a>
+  <a href="../pages/gm-dashboard.html">Dashboard</a>
+  <a href="../pages/entity-index.html">Wiki</a>
+  <a href="../pages/pc-cheat-sheet.html">PCs</a>
+  <button type="button" data-rules-open data-rules-target="action-roll">Rules</button>
+  <label>Jump <select data-scene-jump></select></label>
+  <label>Theme <select data-theme-select><option value="light">Light</option><option value="dark">Dark</option><option value="print-preview">Print preview</option></select></label>
+  <button type="button" data-command-palette-open>Search</button>
+</nav>
+<dialog id="command-palette" class="command-palette">
+  <button class="dialog-close" type="button" data-command-palette-close aria-label="Close search">Close</button>
+  <label class="search-label">Command search <input id="command-search" type="search" placeholder="Jump to a scene, entity, dashboard, or handout"></label>
+  <div id="command-results" class="command-results"></div>
+</dialog>
+
+  <header class="subpage-header">
+    <a class="button secondary" href="../index.html">Atlas Home</a>
+    <a class="button secondary" href="../run.html">Run Mode</a>
+    <a class="button secondary" href="../pages/gm-dashboard.html">GM Dashboard</a>
+    <a class="button secondary" href="../pages/entity-index.html">Entity Wiki</a>
+    <button class="button secondary" type="button" data-rules-open data-entity="gm-rules-drawer">GM Rules Drawer</button>
+    <a class="button secondary" href="../player-display.html">Player Display</a>
+    <a class="button secondary" href="../pages/handouts.html">Handouts</a>
+    <a class="button secondary" href="../pages/loot-board.html">Loot Board</a>
+    <a class="button secondary" href="../pages/pc-cheat-sheet.html">PC Sheet</a>
+    <a class="button secondary" href="../pages/pronunciation-guide.html">Pronunciation</a>
+    <a class="button secondary" href="../pages/media-board.html">Media Board</a>
+    <a class="button secondary" href="../pages/session-zero.html">Session Zero</a>
+    <button class="button secondary" type="button" onclick="window.print()">Print</button>
+  </header>
+  <main id="content">
+<article class="wiki-page dashboard-page" data-collapsible-sections>
+  <header>
+    <p class="private-note">Live table dashboard</p>
+    <h1>GM Dashboard / Choice & State Console</h1>
+    <p>Use this page between scenes or during breaks to adjust state, review consequences, track player profiles, and export a session report.</p>
+  </header>
+  <section class="dashboard-stat-grid">
+    <article><p class="private-note">Progress</p><strong data-scenes-complete-count>0</strong><span>scenes complete</span></article>
+    <article><p class="private-note">Flags</p><strong data-active-flags-count>0</strong><span>active choice flags</span></article>
+    <article><p class="private-note">Players</p><strong data-pc-assigned-count>0</strong><span>PCs assigned</span></article>
+    <article><p class="private-note">Current</p><strong data-current-scene-label>S00-01</strong><span>scene</span></article>
+  </section>
+  <section class="dashboard-chart-panel">
+    <header class="console-header"><div><h2>Act Progress</h2><p>CSS meters show current completion without needing an external chart library.</p></div></header>
+    <div class="dashboard-bars">
+<article class="dashboard-bar-card" data-dashboard-act="prologue">
+  <div class="bar-card-label"><strong>Prologue</strong><span>1 scenes</span></div>
+  <div class="meter"><span data-act-meter="prologue" style="width: 0%"></span></div>
+</article>
+
+<article class="dashboard-bar-card" data-dashboard-act="act-one">
+  <div class="bar-card-label"><strong>Act One</strong><span>4 scenes</span></div>
+  <div class="meter"><span data-act-meter="act-one" style="width: 0%"></span></div>
+</article>
+
+<article class="dashboard-bar-card" data-dashboard-act="act-two">
+  <div class="bar-card-label"><strong>Act Two</strong><span>4 scenes</span></div>
+  <div class="meter"><span data-act-meter="act-two" style="width: 0%"></span></div>
+</article>
+
+<article class="dashboard-bar-card" data-dashboard-act="act-three">
+  <div class="bar-card-label"><strong>Act Three</strong><span>4 scenes</span></div>
+  <div class="meter"><span data-act-meter="act-three" style="width: 0%"></span></div>
+</article>
+
+<article class="dashboard-bar-card" data-dashboard-act="act-four">
+  <div class="bar-card-label"><strong>Act Four</strong><span>5 scenes</span></div>
+  <div class="meter"><span data-act-meter="act-four" style="width: 0%"></span></div>
+</article>
+
+<article class="dashboard-bar-card" data-dashboard-act="act-five">
+  <div class="bar-card-label"><strong>Act Five</strong><span>7 scenes</span></div>
+  <div class="meter"><span data-act-meter="act-five" style="width: 0%"></span></div>
+</article>
+
+<article class="dashboard-bar-card" data-dashboard-act="epilogue">
+  <div class="bar-card-label"><strong>Epilogue</strong><span>2 scenes</span></div>
+  <div class="meter"><span data-act-meter="epilogue" style="width: 0%"></span></div>
+</article>
+</div>
+  </section>
+  
+<section class="gm-state-console" aria-label="GM State Console">
+  <header class="console-header">
+    <div>
+      <p class="private-note">Persistent local GM controls</p>
+      <h2>GM Dashboard / Choice & State Console</h2>
+    </div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Export state" title="Export state" data-state-export-open><img src="../assets/icons/action-export.png" alt="" aria-hidden="true"><span class="sr-only">Export state</span></button>
+      <button class="icon-button" type="button" aria-label="Import state" title="Import state" data-state-import-open><img src="../assets/icons/action-import.png" alt="" aria-hidden="true"><span class="sr-only">Import state</span></button>
+      <button class="icon-button" type="button" aria-label="Reset state" title="Reset state" data-state-reset-open><img src="../assets/icons/action-reset.png" alt="" aria-hidden="true"><span class="sr-only">Reset state</span></button>
+    </div>
+  </header>
+  <div class="state-grid"><label data-state-context="Act One"><span>Strixwolf Outcome</span><small>Act One</small><select data-state-field="strixwolf_outcome"><option value="unresolved">Unresolved</option><option value="calmed">Calmed</option><option value="helped">Helped</option><option value="avoided">Avoided</option><option value="attacked">Attacked</option><option value="killed">Killed</option></select></label><label data-state-context="Act One"><span>Strixwolf Trust</span><small>Act One</small><input type="number" min="0" max="3" data-state-field="strixwolf_trust"></label><label class="checkbox-label" data-state-context="Act One"><input type="checkbox" data-state-field="strixwolf_blood_debt"> <span>Strixwolf Blood Debt</span><small>Act One</small></label><label data-state-context="Act Two"><span>Bramble Outcome</span><small>Act Two</small><select data-state-field="bramble_outcome"><option value="unresolved">Unresolved</option><option value="killed">Killed</option><option value="captured">Captured</option><option value="spared">Spared</option><option value="negotiated">Negotiated</option><option value="escaped">Escaped</option></select></label><label class="checkbox-label" data-state-context="Act Two"><input type="checkbox" data-state-field="bramble_truth_learned"> <span>Bramble Truth Learned</span><small>Act Two</small></label><label data-state-context="Act Three"><span>Hush Trust</span><small>Act Three</small><select data-state-field="hush_trust"><option value="low">Low</option><option value="medium">Medium</option><option value="high">High</option></select></label><label data-state-context="Act Four"><span>Custodian Trust</span><small>Act Four</small><select data-state-field="custodian_trust"><option value="low">Low</option><option value="medium">Medium</option><option value="high">High</option></select></label><label data-state-context="Act Five"><span>Ward Stability</span><small>Act Five</small><select data-state-field="ward_stability"><option value="unresolved">Unresolved</option><option value="strong">Strong</option><option value="unstable">Unstable</option><option value="fractured">Fractured</option></select></label><label data-state-context="Epilogue"><span>Report Choice</span><small>Epilogue</small><select data-state-field="report_choice"><option value="unresolved">Unresolved</option><option value="honest">Honest</option><option value="sanitized">Sanitized</option><option value="hidden">Hidden</option></select></label><label data-state-context="Session Zero"><span>Dice Mode</span><small>Session Zero</small><select data-state-field="dice_mode"><option value="duality_2d12">Duality_2D12</option><option value="p2p_jenga_fear">P2P_Jenga_Fear</option></select></label><label data-state-context="Global"><span>Session Zero Mode</span><small>Global</small><select data-state-field="session_zero_mode"><option value="quick_pregen">Quick_Pregen</option><option value="guided_pregen">Guided_Pregen</option><option value="full_custom">Full_Custom</option></select></label><label data-state-context="Global"><span>Character Mode</span><small>Global</small><select data-state-field="character_mode"><option value="pregen">Pregen</option><option value="reskinned_pregen">Reskinned_Pregen</option><option value="light_tweak">Light_Tweak</option><option value="full_custom">Full_Custom</option></select></label><label data-state-context="Global"><span>Marlowe Status</span><small>Global</small><select data-state-field="marlowe_status"><option value="pc">Pc</option><option value="npc_patron">Npc_Patron</option><option value="replacement_custodian">Replacement_Custodian</option></select></label><label class="checkbox-label" data-state-context="Global"><input type="checkbox" data-state-field="asset_custodian_confirmed"> <span>Asset Custodian Confirmed</span><small>Global</small></label><label class="checkbox-label" data-state-context="Global"><input type="checkbox" data-state-field="connections_complete"> <span>Connections Complete</span><small>Global</small></label><label class="checkbox-label" data-state-context="Global"><input type="checkbox" data-state-field="player_display_ready"> <span>Player Display Ready</span><small>Global</small></label><label class="checkbox-label" data-state-context="Global"><input type="checkbox" data-state-field="prologue_ready"> <span>Prologue Ready</span><small>Global</small></label></div>
+  <label class="checkbox-label auto-collapse"><input type="checkbox" data-auto-collapse> Auto-collapse completed scenes</label>
+  <section class="state-transfer-grid" aria-label="State import export reset">
+    <details class="scene-block state-panel" id="export-state-panel">
+      <summary>Export State</summary>
+      <p>Use this to save your table state between sessions, move to another browser, or keep a dated session report.</p>
+      <div class="console-actions">
+        <button type="button" data-state-export>Generate JSON</button>
+        <button type="button" data-state-copy>Copy JSON</button>
+        <button type="button" data-state-download>Download JSON</button>
+        <button type="button" data-state-report>Export Session Report</button>
+      </div>
+      <textarea id="state-export-json" rows="8" spellcheck="false" readonly aria-label="Exported GM state JSON"></textarea>
+      <textarea id="state-report-markdown" rows="8" spellcheck="false" readonly aria-label="Exported GM state Markdown report"></textarea>
+    </details>
+    <details class="scene-block state-panel" id="import-state-panel">
+      <summary>Import State</summary>
+      <p>Paste or upload a previously exported JSON state. Validate first; apply only after the message says it is safe.</p>
+      <textarea id="state-import-json" rows="8" spellcheck="false" aria-label="Paste GM state JSON"></textarea>
+      <input id="state-import-file" type="file" accept="application/json,.json">
+      <div class="console-actions">
+        <button type="button" data-state-validate>Validate</button>
+        <button type="button" data-state-import>Apply</button>
+      </div>
+      <p class="state-validation-message" id="state-validation-message" role="status"></p>
+    </details>
+    <details class="scene-block state-panel" id="reset-state-panel">
+      <summary>Reset State</summary>
+      <p>Reset only the lane you mean to clear. Full reset clears table state, progress, PC profile overrides, and player display state from localStorage.</p>
+      <div class="console-actions">
+        <button type="button" data-state-reset="progress">Reset scene progress</button>
+        <button type="button" data-state-reset="pcs">Reset PC/player notes</button>
+        <button type="button" data-state-reset="state">Reset choice state</button>
+        <button type="button" data-state-reset="all">Reset all state</button>
+      </div>
+    </details>
+  </section>
+  <details class="scene-block" open>
+    <summary>Choice Track Reference</summary>
+    <div class="track-dashboard"><article><h3><a class="entity-link entity-mechanic" href="entities/strixwolf-mercy-track.html" data-entity="strixwolf-mercy-track"><img class="type-icon" src="../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Strixwolf Mercy Track</span></a></h3><p>Calm, spare, feed, or respectfully avoid the <a class="entity-link entity-creature inline-entity-link" href="entities/strixwolf-mother.html" data-entity="strixwolf-mother"><img class="type-icon" src="../assets/icons/creature.png" alt="" aria-hidden="true"><span>Strixwolf Mother</span></a> to earn danger-warning payoffs.</p><p class="muted">strixwolf_trust, strixwolf_blood_debt</p></article><article><h3><a class="entity-link entity-mechanic" href="entities/bramble-union-resolution-track.html" data-entity="bramble-union-resolution-track"><img class="type-icon" src="../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Bramble Union Resolution Track</span></a></h3><p>Track whether <a class="entity-link entity-faction inline-entity-link" href="entities/bramble-union.html" data-entity="bramble-union"><img class="type-icon" src="../assets/icons/faction.png" alt="" aria-hidden="true"><span>reclaimers</span></a> are killed, captured, spared, interrogated, or negotiated with.</p><p class="muted">bramble_killed, bramble_spared, bramble_negotiated</p></article><article><h3><a class="entity-link entity-mechanic" href="entities/hush-trust-track.html" data-entity="hush-trust-track"><img class="type-icon" src="../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hush Trust Track</span></a></h3><p>Warm, respectful conduct in <a class="entity-link entity-location inline-entity-link" href="entities/hush.html" data-entity="hush"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Hush</span></a> earns supplies, directions, and stronger emotional stakes.</p><p class="muted">hush_trust</p></article><article><h3><a class="entity-link entity-mechanic" href="entities/custodian-trust-track.html" data-entity="custodian-trust-track"><img class="type-icon" src="../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Custodian Trust Track</span></a></h3><p>Treating the <a class="entity-link entity-npc inline-entity-link" href="entities/whitefire-custodian.html" data-entity="whitefire-custodian"><img class="type-icon" src="../assets/icons/npc.png" alt="" aria-hidden="true"><span>Whitefire Custodian</span></a> as a person makes her warmer and more candid.</p><p class="muted">custodian_trust</p></article><article><h3><a class="entity-link entity-mechanic" href="entities/ward-stability-track.html" data-entity="ward-stability-track"><img class="type-icon" src="../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Ward Stability Track</span></a></h3><p>Protect <a class="entity-link entity-npc inline-entity-link" href="entities/whitefire-custodian.html" data-entity="whitefire-custodian"><img class="type-icon" src="../assets/icons/npc.png" alt="" aria-hidden="true"><span>the Custodian</span></a> during the ritual to determine whether the renewed ward is strong or unstable.</p><p class="muted">ward_stable, ward_unstable</p></article></div>
+  </details>
+</section>
+
+  
+<section class="pc-profile-manager" data-pc-profile-manager>
+  <header class="console-header">
+    <div>
+      <p class="private-note">Local table profiles</p>
+      <h2>PC / Player Character Profiles</h2>
+      <p>Edit the default pregens, assign players, track spotlight/Hope/Fear, and preserve connection answers. Data saves in localStorage.</p>
+    </div>
+    <div class="console-actions">
+      <a class="button secondary" href="pc-cheat-sheet.html">Print PC cheat sheet</a>
+      <button type="button" data-pc-export>Export PC JSON</button>
+      <button type="button" data-pc-import-open>Import PC JSON</button>
+    </div>
+  </header>
+  <div class="pc-profile-grid-list">
+<article class="pc-profile-card entity-pc" data-pc-profile="marlowe-fairwind">
+  <header class="pc-card-head">
+    <img class="entity-thumb" src="../assets/entities/marlowe-fairwind.png" alt="Marlowe Fairwind portrait.">
+    <div>
+      <p class="private-note">Editable PC / Player profile</p>
+      <h3 data-pc-display-name>Marlowe Fairwind</h3>
+      <p class="muted">Default: Marlowe Fairwind</p>
+      <p><strong>Pronunciation:</strong> <span data-pc-display-pronunciation>MAR-low FAIR-wind</span></p>
+      <p><a class="button secondary" href="entities/marlowe-fairwind.html">Open PC wiki</a></p>
+    </div>
+  </header>
+  <div class="pc-profile-grid">
+    <label>Character name<input data-pc-field="current_character_name" value="Marlowe Fairwind"></label>
+    <label>Character pronunciation<input data-pc-field="character_pronunciation" value="MAR-low FAIR-wind"></label>
+    <label>Character pronouns<input data-pc-field="character_pronouns" value="she/her"></label>
+    <label>Player name<input data-pc-field="player_name" value="" placeholder="Write in at table"></label>
+    <label>Player pronouns<input data-pc-field="player_pronouns" value="" placeholder="Optional"></label>
+    <label>Status<select data-pc-field="status"><option value="unassigned" selected>unassigned</option><option value="assigned">assigned</option><option value="customized">customized</option></select></label>
+    <label>Class<select data-pc-field="class"><option value="">Unassigned</option><option value="Bard">Bard</option><option value="Druid">Druid</option><option value="Guardian">Guardian</option><option value="Ranger">Ranger</option><option value="Rogue">Rogue</option><option value="Seraph">Seraph</option><option value="Sorcerer" selected>Sorcerer</option><option value="Warrior">Warrior</option><option value="Wizard">Wizard</option><option value="Custom">Custom</option></select></label>
+    <label>Subclass<input data-pc-field="subclass" value="Primal Origin"></label>
+    <label>Ancestry<select data-pc-field="ancestry"><option value="">Unassigned</option><option value="Clank">Clank</option><option value="Drakona">Drakona</option><option value="Dwarf">Dwarf</option><option value="Elf" selected>Elf</option><option value="Faerie">Faerie</option><option value="Faun">Faun</option><option value="Firbolg">Firbolg</option><option value="Fungril">Fungril</option><option value="Galapa">Galapa</option><option value="Giant">Giant</option><option value="Goblin">Goblin</option><option value="Halfling">Halfling</option><option value="Human">Human</option><option value="Inferis">Inferis</option><option value="Katari">Katari</option><option value="Orc">Orc</option><option value="Ribbet">Ribbet</option><option value="Simiah">Simiah</option><option value="Custom">Custom</option></select></label>
+    <label>Community<select data-pc-field="community"><option value="">Unassigned</option><option value="Highborne">Highborne</option><option value="Loreborne" selected>Loreborne</option><option value="Orderborne">Orderborne</option><option value="Ridgeborne">Ridgeborne</option><option value="Seaborne">Seaborne</option><option value="Slyborne">Slyborne</option><option value="Underborne">Underborne</option><option value="Wanderborne">Wanderborne</option><option value="Wildborne">Wildborne</option><option value="Custom">Custom</option></select></label>
+    <label>Heritage<select data-pc-field="heritage"><option value="" selected>Unassigned</option><option value="Configured at table">Configured at table</option><option value="Custom">Custom</option></select></label>
+    <label>Spotlight count<input type="number" min="0" data-pc-field="spotlight_count" value="0"></label>
+    <label>Hope generated<input type="number" min="0" data-pc-field="hope_generated" value="0"></label>
+    <label>Fear generated<input type="number" min="0" data-pc-field="fear_generated" value="0"></label>
+  </div>
+  <label>Default Experiences<input data-pc-field="experiences_text" value="Royal Mage, Not On My Watch"></label>
+  <label>Custom Experiences<textarea data-pc-field="custom_experiences_text" rows="2"></textarea></label>
+  <label>Connection answers<textarea data-pc-field="connection_answers_text" rows="3"></textarea></label>
+  <label>Background override<textarea data-pc-field="background_override" rows="3"></textarea></label>
+  <label>Player notes<textarea data-pc-field="player_notes" rows="3"></textarea></label>
+  <label>Table notes<textarea data-pc-field="table_notes" rows="3"></textarea></label>
+  <label>Safety/private notes<textarea data-pc-field="safety_private_notes" rows="3"></textarea></label>
+  <div class="console-actions">
+    <button type="button" data-pc-save="marlowe-fairwind">Save profile</button>
+    <button type="button" data-pc-reset="marlowe-fairwind">Reset profile</button>
+  </div>
+</article>
+
+<article class="pc-profile-card entity-pc" data-pc-profile="barnacle">
+  <header class="pc-card-head">
+    <img class="entity-thumb" src="../assets/entities/barnacle.png" alt="Barnacle portrait.">
+    <div>
+      <p class="private-note">Editable PC / Player profile</p>
+      <h3 data-pc-display-name>Barnacle</h3>
+      <p class="muted">Default: Barnacle</p>
+      <p><strong>Pronunciation:</strong> <span data-pc-display-pronunciation>BAR-nuh-kul</span></p>
+      <p><a class="button secondary" href="entities/barnacle.html">Open PC wiki</a></p>
+    </div>
+  </header>
+  <div class="pc-profile-grid">
+    <label>Character name<input data-pc-field="current_character_name" value="Barnacle"></label>
+    <label>Character pronunciation<input data-pc-field="character_pronunciation" value="BAR-nuh-kul"></label>
+    <label>Character pronouns<input data-pc-field="character_pronouns" value="he/him"></label>
+    <label>Player name<input data-pc-field="player_name" value="" placeholder="Write in at table"></label>
+    <label>Player pronouns<input data-pc-field="player_pronouns" value="" placeholder="Optional"></label>
+    <label>Status<select data-pc-field="status"><option value="unassigned" selected>unassigned</option><option value="assigned">assigned</option><option value="customized">customized</option></select></label>
+    <label>Class<select data-pc-field="class"><option value="">Unassigned</option><option value="Bard">Bard</option><option value="Druid">Druid</option><option value="Guardian">Guardian</option><option value="Ranger">Ranger</option><option value="Rogue" selected>Rogue</option><option value="Seraph">Seraph</option><option value="Sorcerer">Sorcerer</option><option value="Warrior">Warrior</option><option value="Wizard">Wizard</option><option value="Custom">Custom</option></select></label>
+    <label>Subclass<input data-pc-field="subclass" value=""></label>
+    <label>Ancestry<select data-pc-field="ancestry"><option value="">Unassigned</option><option value="Clank">Clank</option><option value="Drakona">Drakona</option><option value="Dwarf">Dwarf</option><option value="Elf">Elf</option><option value="Faerie">Faerie</option><option value="Faun">Faun</option><option value="Firbolg">Firbolg</option><option value="Fungril">Fungril</option><option value="Galapa">Galapa</option><option value="Giant">Giant</option><option value="Goblin">Goblin</option><option value="Halfling">Halfling</option><option value="Human">Human</option><option value="Inferis">Inferis</option><option value="Katari">Katari</option><option value="Orc">Orc</option><option value="Ribbet" selected>Ribbet</option><option value="Simiah">Simiah</option><option value="Custom">Custom</option></select></label>
+    <label>Community<select data-pc-field="community"><option value="">Unassigned</option><option value="Highborne">Highborne</option><option value="Loreborne">Loreborne</option><option value="Orderborne">Orderborne</option><option value="Ridgeborne">Ridgeborne</option><option value="Seaborne">Seaborne</option><option value="Slyborne">Slyborne</option><option value="Underborne" selected>Underborne</option><option value="Wanderborne">Wanderborne</option><option value="Wildborne">Wildborne</option><option value="Custom">Custom</option></select></label>
+    <label>Heritage<select data-pc-field="heritage"><option value="" selected>Unassigned</option><option value="Configured at table">Configured at table</option><option value="Custom">Custom</option></select></label>
+    <label>Spotlight count<input type="number" min="0" data-pc-field="spotlight_count" value="0"></label>
+    <label>Hope generated<input type="number" min="0" data-pc-field="hope_generated" value="0"></label>
+    <label>Fear generated<input type="number" min="0" data-pc-field="fear_generated" value="0"></label>
+  </div>
+  <label>Default Experiences<input data-pc-field="experiences_text" value=""></label>
+  <label>Custom Experiences<textarea data-pc-field="custom_experiences_text" rows="2"></textarea></label>
+  <label>Connection answers<textarea data-pc-field="connection_answers_text" rows="3"></textarea></label>
+  <label>Background override<textarea data-pc-field="background_override" rows="3"></textarea></label>
+  <label>Player notes<textarea data-pc-field="player_notes" rows="3"></textarea></label>
+  <label>Table notes<textarea data-pc-field="table_notes" rows="3"></textarea></label>
+  <label>Safety/private notes<textarea data-pc-field="safety_private_notes" rows="3"></textarea></label>
+  <div class="console-actions">
+    <button type="button" data-pc-save="barnacle">Save profile</button>
+    <button type="button" data-pc-reset="barnacle">Reset profile</button>
+  </div>
+</article>
+
+<article class="pc-profile-card entity-pc" data-pc-profile="garrick-reed">
+  <header class="pc-card-head">
+    <img class="entity-thumb" src="../assets/entities/garrick-reed.png" alt="Garrick Reed portrait.">
+    <div>
+      <p class="private-note">Editable PC / Player profile</p>
+      <h3 data-pc-display-name>Garrick Reed</h3>
+      <p class="muted">Default: Garrick Reed</p>
+      <p><strong>Pronunciation:</strong> <span data-pc-display-pronunciation>GAIR-ick REED</span></p>
+      <p><a class="button secondary" href="entities/garrick-reed.html">Open PC wiki</a></p>
+    </div>
+  </header>
+  <div class="pc-profile-grid">
+    <label>Character name<input data-pc-field="current_character_name" value="Garrick Reed"></label>
+    <label>Character pronunciation<input data-pc-field="character_pronunciation" value="GAIR-ick REED"></label>
+    <label>Character pronouns<input data-pc-field="character_pronouns" value="he/him"></label>
+    <label>Player name<input data-pc-field="player_name" value="" placeholder="Write in at table"></label>
+    <label>Player pronouns<input data-pc-field="player_pronouns" value="" placeholder="Optional"></label>
+    <label>Status<select data-pc-field="status"><option value="unassigned" selected>unassigned</option><option value="assigned">assigned</option><option value="customized">customized</option></select></label>
+    <label>Class<select data-pc-field="class"><option value="">Unassigned</option><option value="Bard">Bard</option><option value="Druid">Druid</option><option value="Guardian">Guardian</option><option value="Ranger">Ranger</option><option value="Rogue">Rogue</option><option value="Seraph">Seraph</option><option value="Sorcerer">Sorcerer</option><option value="Warrior" selected>Warrior</option><option value="Wizard">Wizard</option><option value="Custom">Custom</option></select></label>
+    <label>Subclass<input data-pc-field="subclass" value=""></label>
+    <label>Ancestry<select data-pc-field="ancestry"><option value="">Unassigned</option><option value="Clank">Clank</option><option value="Drakona">Drakona</option><option value="Dwarf">Dwarf</option><option value="Elf">Elf</option><option value="Faerie">Faerie</option><option value="Faun">Faun</option><option value="Firbolg">Firbolg</option><option value="Fungril">Fungril</option><option value="Galapa">Galapa</option><option value="Giant">Giant</option><option value="Goblin">Goblin</option><option value="Halfling">Halfling</option><option value="Human" selected>Human</option><option value="Inferis">Inferis</option><option value="Katari">Katari</option><option value="Orc">Orc</option><option value="Ribbet">Ribbet</option><option value="Simiah">Simiah</option><option value="Custom">Custom</option></select></label>
+    <label>Community<select data-pc-field="community"><option value="">Unassigned</option><option value="Highborne" selected>Highborne</option><option value="Loreborne">Loreborne</option><option value="Orderborne">Orderborne</option><option value="Ridgeborne">Ridgeborne</option><option value="Seaborne">Seaborne</option><option value="Slyborne">Slyborne</option><option value="Underborne">Underborne</option><option value="Wanderborne">Wanderborne</option><option value="Wildborne">Wildborne</option><option value="Custom">Custom</option></select></label>
+    <label>Heritage<select data-pc-field="heritage"><option value="" selected>Unassigned</option><option value="Configured at table">Configured at table</option><option value="Custom">Custom</option></select></label>
+    <label>Spotlight count<input type="number" min="0" data-pc-field="spotlight_count" value="0"></label>
+    <label>Hope generated<input type="number" min="0" data-pc-field="hope_generated" value="0"></label>
+    <label>Fear generated<input type="number" min="0" data-pc-field="fear_generated" value="0"></label>
+  </div>
+  <label>Default Experiences<input data-pc-field="experiences_text" value=""></label>
+  <label>Custom Experiences<textarea data-pc-field="custom_experiences_text" rows="2"></textarea></label>
+  <label>Connection answers<textarea data-pc-field="connection_answers_text" rows="3"></textarea></label>
+  <label>Background override<textarea data-pc-field="background_override" rows="3"></textarea></label>
+  <label>Player notes<textarea data-pc-field="player_notes" rows="3"></textarea></label>
+  <label>Table notes<textarea data-pc-field="table_notes" rows="3"></textarea></label>
+  <label>Safety/private notes<textarea data-pc-field="safety_private_notes" rows="3"></textarea></label>
+  <div class="console-actions">
+    <button type="button" data-pc-save="garrick-reed">Save profile</button>
+    <button type="button" data-pc-reset="garrick-reed">Reset profile</button>
+  </div>
+</article>
+
+<article class="pc-profile-card entity-pc" data-pc-profile="khari-nix">
+  <header class="pc-card-head">
+    <img class="entity-thumb" src="../assets/entities/khari-nix.png" alt="Khari Nix portrait.">
+    <div>
+      <p class="private-note">Editable PC / Player profile</p>
+      <h3 data-pc-display-name>Khari Nix</h3>
+      <p class="muted">Default: Khari Nix</p>
+      <p><strong>Pronunciation:</strong> <span data-pc-display-pronunciation>KAH-ree NIKS</span></p>
+      <p><a class="button secondary" href="entities/khari-nix.html">Open PC wiki</a></p>
+    </div>
+  </header>
+  <div class="pc-profile-grid">
+    <label>Character name<input data-pc-field="current_character_name" value="Khari Nix"></label>
+    <label>Character pronunciation<input data-pc-field="character_pronunciation" value="KAH-ree NIKS"></label>
+    <label>Character pronouns<input data-pc-field="character_pronouns" value="she/her"></label>
+    <label>Player name<input data-pc-field="player_name" value="" placeholder="Write in at table"></label>
+    <label>Player pronouns<input data-pc-field="player_pronouns" value="" placeholder="Optional"></label>
+    <label>Status<select data-pc-field="status"><option value="unassigned" selected>unassigned</option><option value="assigned">assigned</option><option value="customized">customized</option></select></label>
+    <label>Class<select data-pc-field="class"><option value="">Unassigned</option><option value="Bard">Bard</option><option value="Druid">Druid</option><option value="Guardian" selected>Guardian</option><option value="Ranger">Ranger</option><option value="Rogue">Rogue</option><option value="Seraph">Seraph</option><option value="Sorcerer">Sorcerer</option><option value="Warrior">Warrior</option><option value="Wizard">Wizard</option><option value="Custom">Custom</option></select></label>
+    <label>Subclass<input data-pc-field="subclass" value=""></label>
+    <label>Ancestry<select data-pc-field="ancestry"><option value="">Unassigned</option><option value="Clank">Clank</option><option value="Drakona">Drakona</option><option value="Dwarf">Dwarf</option><option value="Elf">Elf</option><option value="Faerie">Faerie</option><option value="Faun">Faun</option><option value="Firbolg">Firbolg</option><option value="Fungril">Fungril</option><option value="Galapa">Galapa</option><option value="Giant" selected>Giant</option><option value="Goblin">Goblin</option><option value="Halfling">Halfling</option><option value="Human">Human</option><option value="Inferis">Inferis</option><option value="Katari">Katari</option><option value="Orc">Orc</option><option value="Ribbet">Ribbet</option><option value="Simiah">Simiah</option><option value="Custom">Custom</option></select></label>
+    <label>Community<select data-pc-field="community"><option value="">Unassigned</option><option value="Highborne">Highborne</option><option value="Loreborne">Loreborne</option><option value="Orderborne">Orderborne</option><option value="Ridgeborne" selected>Ridgeborne</option><option value="Seaborne">Seaborne</option><option value="Slyborne">Slyborne</option><option value="Underborne">Underborne</option><option value="Wanderborne">Wanderborne</option><option value="Wildborne">Wildborne</option><option value="Custom">Custom</option></select></label>
+    <label>Heritage<select data-pc-field="heritage"><option value="" selected>Unassigned</option><option value="Configured at table">Configured at table</option><option value="Custom">Custom</option></select></label>
+    <label>Spotlight count<input type="number" min="0" data-pc-field="spotlight_count" value="0"></label>
+    <label>Hope generated<input type="number" min="0" data-pc-field="hope_generated" value="0"></label>
+    <label>Fear generated<input type="number" min="0" data-pc-field="fear_generated" value="0"></label>
+  </div>
+  <label>Default Experiences<input data-pc-field="experiences_text" value=""></label>
+  <label>Custom Experiences<textarea data-pc-field="custom_experiences_text" rows="2"></textarea></label>
+  <label>Connection answers<textarea data-pc-field="connection_answers_text" rows="3"></textarea></label>
+  <label>Background override<textarea data-pc-field="background_override" rows="3"></textarea></label>
+  <label>Player notes<textarea data-pc-field="player_notes" rows="3"></textarea></label>
+  <label>Table notes<textarea data-pc-field="table_notes" rows="3"></textarea></label>
+  <label>Safety/private notes<textarea data-pc-field="safety_private_notes" rows="3"></textarea></label>
+  <div class="console-actions">
+    <button type="button" data-pc-save="khari-nix">Save profile</button>
+    <button type="button" data-pc-reset="khari-nix">Reset profile</button>
+  </div>
+</article>
+
+<article class="pc-profile-card entity-pc" data-pc-profile="varian-soto">
+  <header class="pc-card-head">
+    <img class="entity-thumb" src="../assets/entities/varian-soto.png" alt="Varian Soto portrait.">
+    <div>
+      <p class="private-note">Editable PC / Player profile</p>
+      <h3 data-pc-display-name>Varian Soto</h3>
+      <p class="muted">Default: Varian Soto</p>
+      <p><strong>Pronunciation:</strong> <span data-pc-display-pronunciation>VAIR-ee-un SOH-toh</span></p>
+      <p><a class="button secondary" href="entities/varian-soto.html">Open PC wiki</a></p>
+    </div>
+  </header>
+  <div class="pc-profile-grid">
+    <label>Character name<input data-pc-field="current_character_name" value="Varian Soto"></label>
+    <label>Character pronunciation<input data-pc-field="character_pronunciation" value="VAIR-ee-un SOH-toh"></label>
+    <label>Character pronouns<input data-pc-field="character_pronouns" value="they/them"></label>
+    <label>Player name<input data-pc-field="player_name" value="" placeholder="Write in at table"></label>
+    <label>Player pronouns<input data-pc-field="player_pronouns" value="" placeholder="Optional"></label>
+    <label>Status<select data-pc-field="status"><option value="unassigned" selected>unassigned</option><option value="assigned">assigned</option><option value="customized">customized</option></select></label>
+    <label>Class<select data-pc-field="class"><option value="">Unassigned</option><option value="Bard">Bard</option><option value="Druid">Druid</option><option value="Guardian">Guardian</option><option value="Ranger" selected>Ranger</option><option value="Rogue">Rogue</option><option value="Seraph">Seraph</option><option value="Sorcerer">Sorcerer</option><option value="Warrior">Warrior</option><option value="Wizard">Wizard</option><option value="Custom">Custom</option></select></label>
+    <label>Subclass<input data-pc-field="subclass" value=""></label>
+    <label>Ancestry<select data-pc-field="ancestry"><option value="">Unassigned</option><option value="Clank">Clank</option><option value="Drakona">Drakona</option><option value="Dwarf">Dwarf</option><option value="Elf">Elf</option><option value="Faerie">Faerie</option><option value="Faun">Faun</option><option value="Firbolg">Firbolg</option><option value="Fungril">Fungril</option><option value="Galapa">Galapa</option><option value="Giant">Giant</option><option value="Goblin">Goblin</option><option value="Halfling">Halfling</option><option value="Human">Human</option><option value="Inferis">Inferis</option><option value="Katari" selected>Katari</option><option value="Orc">Orc</option><option value="Ribbet">Ribbet</option><option value="Simiah">Simiah</option><option value="Custom">Custom</option></select></label>
+    <label>Community<select data-pc-field="community"><option value="">Unassigned</option><option value="Highborne">Highborne</option><option value="Loreborne">Loreborne</option><option value="Orderborne">Orderborne</option><option value="Ridgeborne">Ridgeborne</option><option value="Seaborne">Seaborne</option><option value="Slyborne">Slyborne</option><option value="Underborne">Underborne</option><option value="Wanderborne">Wanderborne</option><option value="Wildborne" selected>Wildborne</option><option value="Custom">Custom</option></select></label>
+    <label>Heritage<select data-pc-field="heritage"><option value="" selected>Unassigned</option><option value="Configured at table">Configured at table</option><option value="Custom">Custom</option></select></label>
+    <label>Spotlight count<input type="number" min="0" data-pc-field="spotlight_count" value="0"></label>
+    <label>Hope generated<input type="number" min="0" data-pc-field="hope_generated" value="0"></label>
+    <label>Fear generated<input type="number" min="0" data-pc-field="fear_generated" value="0"></label>
+  </div>
+  <label>Default Experiences<input data-pc-field="experiences_text" value=""></label>
+  <label>Custom Experiences<textarea data-pc-field="custom_experiences_text" rows="2"></textarea></label>
+  <label>Connection answers<textarea data-pc-field="connection_answers_text" rows="3"></textarea></label>
+  <label>Background override<textarea data-pc-field="background_override" rows="3"></textarea></label>
+  <label>Player notes<textarea data-pc-field="player_notes" rows="3"></textarea></label>
+  <label>Table notes<textarea data-pc-field="table_notes" rows="3"></textarea></label>
+  <label>Safety/private notes<textarea data-pc-field="safety_private_notes" rows="3"></textarea></label>
+  <div class="console-actions">
+    <button type="button" data-pc-save="varian-soto">Save profile</button>
+    <button type="button" data-pc-reset="varian-soto">Reset profile</button>
+  </div>
+</article>
+</div>
+  <details class="scene-block state-panel" id="pc-import-panel">
+    <summary>Import / Export PC Profiles</summary>
+    <textarea id="pc-profile-json" rows="8" spellcheck="false" aria-label="PC profile JSON"></textarea>
+    <div class="console-actions">
+      <button type="button" data-pc-copy>Copy PC JSON</button>
+      <button type="button" data-pc-import>Apply PC JSON</button>
+      <button type="button" data-pc-reset-all>Reset all PC profiles</button>
+    </div>
+  </details>
+</section>
+
+  <section class="scene-block">
+    <h2>Per-Scene Decision Log</h2>
+    <p>Record table-specific decisions, adaptations, skipped beats, and consequence notes while they are fresh.</p>
+    <div class="table-scroll"><table class="dashboard-scene-table"><thead><tr><th>Done</th><th>ID</th><th>Scene</th><th>Act</th><th>Decision / Adaptation Notes</th></tr></thead><tbody>
+<tr data-dashboard-scene-row="S00-01">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S00-01"><span class="sr-only">Complete S00-01</span></label></td>
+  <td><a href="../pages/scenes/S00-01-the-job.html">S00-01</a></td>
+  <td>The Job</td>
+  <td>Prologue</td>
+  <td><input data-choice-log-field="S00-01" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S01-01">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S01-01"><span class="sr-only">Complete S01-01</span></label></td>
+  <td><a href="../pages/scenes/S01-01-entering-sablewoodtm-logistics-preserve.html">S01-01</a></td>
+  <td>Entering <a class="entity-link entity-location inline-entity-link" href="entities/sablewoodtm-logistics-preserve.html" data-entity="sablewoodtm-logistics-preserve"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Sablewood™ Logistics Preserve</span></a></td>
+  <td>Act One</td>
+  <td><input data-choice-log-field="S01-01" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S01-02">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S01-02"><span class="sr-only">Complete S01-02</span></label></td>
+  <td><a href="../pages/scenes/S01-02-the-overturned-vendor-cart.html">S01-02</a></td>
+  <td>The <a class="entity-link entity-item inline-entity-link" href="entities/vendor-cart.html" data-entity="vendor-cart"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>Overturned Vendor Cart</span></a></td>
+  <td>Act One</td>
+  <td><input data-choice-log-field="S01-02" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S01-03">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S01-03"><span class="sr-only">Complete S01-03</span></label></td>
+  <td><a href="../pages/scenes/S01-03-the-strixwolf-mother.html">S01-03</a></td>
+  <td>The <a class="entity-link entity-creature inline-entity-link" href="entities/strixwolf-mother.html" data-entity="strixwolf-mother"><img class="type-icon" src="../assets/icons/creature.png" alt="" aria-hidden="true"><span>Strixwolf Mother</span></a></td>
+  <td>Act One</td>
+  <td><input data-choice-log-field="S01-03" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S01-04">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S01-04"><span class="sr-only">Complete S01-04</span></label></td>
+  <td><a href="../pages/scenes/S01-04-the-first-roll.html">S01-04</a></td>
+  <td>The First Roll</td>
+  <td>Act One</td>
+  <td><input data-choice-log-field="S01-04" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S02-01">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S02-01"><span class="sr-only">Complete S02-01</span></label></td>
+  <td><a href="../pages/scenes/S02-01-the-fallout-investigation.html">S02-01</a></td>
+  <td>The Fallout Investigation</td>
+  <td>Act Two</td>
+  <td><input data-choice-log-field="S02-01" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S02-02">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S02-02"><span class="sr-only">Complete S02-02</span></label></td>
+  <td><a href="../pages/scenes/S02-02-eyes-in-the-brush.html">S02-02</a></td>
+  <td>Eyes in the Brush</td>
+  <td>Act Two</td>
+  <td><input data-choice-log-field="S02-02" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S02-03">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S02-03"><span class="sr-only">Complete S02-03</span></label></td>
+  <td><a href="../pages/scenes/S02-03-bramble-union-ambush.html">S02-03</a></td>
+  <td><a class="entity-link entity-faction inline-entity-link" href="entities/bramble-union.html" data-entity="bramble-union"><img class="type-icon" src="../assets/icons/faction.png" alt="" aria-hidden="true"><span>Bramble Union</span></a> Ambush</td>
+  <td>Act Two</td>
+  <td><input data-choice-log-field="S02-03" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S02-04">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S02-04"><span class="sr-only">Complete S02-04</span></label></td>
+  <td><a href="../pages/scenes/S02-04-after-the-ambush.html">S02-04</a></td>
+  <td>After the Ambush</td>
+  <td>Act Two</td>
+  <td><input data-choice-log-field="S02-04" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S03-01">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S03-01"><span class="sr-only">Complete S03-01</span></label></td>
+  <td><a href="../pages/scenes/S03-01-arrival-at-hush.html">S03-01</a></td>
+  <td>Arrival at <a class="entity-link entity-location inline-entity-link" href="entities/hush.html" data-entity="hush"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Hush</span></a></td>
+  <td>Act Three</td>
+  <td><input data-choice-log-field="S03-01" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S03-02">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S03-02"><span class="sr-only">Complete S03-02</span></label></td>
+  <td><a href="../pages/scenes/S03-02-local-clues.html">S03-02</a></td>
+  <td>Local Clues</td>
+  <td>Act Three</td>
+  <td><input data-choice-log-field="S03-02" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S03-03">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S03-03"><span class="sr-only">Complete S03-03</span></label></td>
+  <td><a href="../pages/scenes/S03-03-the-clover-co-op.html">S03-03</a></td>
+  <td>The <a class="entity-link entity-location inline-entity-link" href="entities/clover-co-op.html" data-entity="clover-co-op"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Clover Co-op</span></a></td>
+  <td>Act Three</td>
+  <td><input data-choice-log-field="S03-03" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S03-04">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S03-04"><span class="sr-only">Complete S03-04</span></label></td>
+  <td><a href="../pages/scenes/S03-04-firstmoss-launch-festival.html">S03-04</a></td>
+  <td><a class="entity-link entity-location inline-entity-link" href="entities/firstmoss-launch-festival.html" data-entity="firstmoss-launch-festival"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Firstmoss Launch Festival</span></a></td>
+  <td>Act Three</td>
+  <td><input data-choice-log-field="S03-04" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S04-01">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S04-01"><span class="sr-only">Complete S04-01</span></label></td>
+  <td><a href="../pages/scenes/S04-01-through-the-farms.html">S04-01</a></td>
+  <td>Through <a class="entity-link entity-location inline-entity-link" href="entities/hush-farms.html" data-entity="hush-farms"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>the Farms</span></a></td>
+  <td>Act Four</td>
+  <td><input data-choice-log-field="S04-01" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S04-02">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S04-02"><span class="sr-only">Complete S04-02</span></label></td>
+  <td><a href="../pages/scenes/S04-02-the-hanging-office-exterior.html">S04-02</a></td>
+  <td><a class="entity-link entity-location inline-entity-link" href="entities/the-hanging-office.html" data-entity="the-hanging-office"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>The Hanging Office</span></a> Exterior</td>
+  <td>Act Four</td>
+  <td><input data-choice-log-field="S04-02" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S04-03">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S04-03"><span class="sr-only">Complete S04-03</span></label></td>
+  <td><a href="../pages/scenes/S04-03-the-whitefire-custodian.html">S04-03</a></td>
+  <td>The <a class="entity-link entity-npc inline-entity-link" href="entities/whitefire-custodian.html" data-entity="whitefire-custodian"><img class="type-icon" src="../assets/icons/npc.png" alt="" aria-hidden="true"><span>Whitefire Custodian</span></a></td>
+  <td>Act Four</td>
+  <td><input data-choice-log-field="S04-03" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S04-04">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S04-04"><span class="sr-only">Complete S04-04</span></label></td>
+  <td><a href="../pages/scenes/S04-04-the-keystone-reveal.html">S04-04</a></td>
+  <td>The <a class="entity-link entity-item inline-entity-link" href="entities/keystone-asset.html" data-entity="keystone-asset"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>Keystone</span></a> Reveal</td>
+  <td>Act Four</td>
+  <td><input data-choice-log-field="S04-04" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S04-05">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S04-05"><span class="sr-only">Complete S04-05</span></label></td>
+  <td><a href="../pages/scenes/S04-05-toward-open-vale.html">S04-05</a></td>
+  <td>Toward <a class="entity-link entity-location inline-entity-link" href="entities/open-valetm-ritual-site.html" data-entity="open-valetm-ritual-site"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Open Vale</span></a></td>
+  <td>Act Four</td>
+  <td><input data-choice-log-field="S04-05" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S05-01">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S05-01"><span class="sr-only">Complete S05-01</span></label></td>
+  <td><a href="../pages/scenes/S05-01-open-valetm-ritual-site.html">S05-01</a></td>
+  <td><a class="entity-link entity-location inline-entity-link" href="entities/open-valetm-ritual-site.html" data-entity="open-valetm-ritual-site"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Open Vale™ Ritual Site</span></a></td>
+  <td>Act Five</td>
+  <td><input data-choice-log-field="S05-01" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S05-02">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S05-02"><span class="sr-only">Complete S05-02</span></label></td>
+  <td><a href="../pages/scenes/S05-02-short-rest-before-the-storm.html">S05-02</a></td>
+  <td><a class="entity-link entity-mechanic inline-entity-link" href="entities/short-rest.html" data-entity="short-rest"><img class="type-icon" src="../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Short Rest</span></a> Before the Storm</td>
+  <td>Act Five</td>
+  <td><input data-choice-log-field="S05-02" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S05-03">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S05-03"><span class="sr-only">Complete S05-03</span></label></td>
+  <td><a href="../pages/scenes/S05-03-the-ritual-begins.html">S05-03</a></td>
+  <td>The Ritual Begins</td>
+  <td>Act Five</td>
+  <td><input data-choice-log-field="S05-03" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S05-04">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S05-04"><span class="sr-only">Complete S05-04</span></label></td>
+  <td><a href="../pages/scenes/S05-04-legacy-security-skeletons.html">S05-04</a></td>
+  <td><a class="entity-link entity-enemy inline-entity-link" href="entities/legacy-security-skeleton.html" data-entity="legacy-security-skeleton"><img class="type-icon" src="../assets/icons/enemy.png" alt="" aria-hidden="true"><span>Legacy Security Skeletons</span></a></td>
+  <td>Act Five</td>
+  <td><input data-choice-log-field="S05-04" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S05-05">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S05-05"><span class="sr-only">Complete S05-05</span></label></td>
+  <td><a href="../pages/scenes/S05-05-soul-audit-wraiths.html">S05-05</a></td>
+  <td><a class="entity-link entity-enemy inline-entity-link" href="entities/soul-audit-wraith.html" data-entity="soul-audit-wraith"><img class="type-icon" src="../assets/icons/enemy.png" alt="" aria-hidden="true"><span>Soul-Audit Wraiths</span></a></td>
+  <td>Act Five</td>
+  <td><input data-choice-log-field="S05-05" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S05-06">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S05-06"><span class="sr-only">Complete S05-06</span></label></td>
+  <td><a href="../pages/scenes/S05-06-market-correction.html">S05-06</a></td>
+  <td><a class="entity-link entity-clue inline-entity-link" href="entities/market-correction.html" data-entity="market-correction"><img class="type-icon" src="../assets/icons/clue.png" alt="" aria-hidden="true"><span>Market Correction</span></a></td>
+  <td>Act Five</td>
+  <td><input data-choice-log-field="S05-06" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S05-07">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S05-07"><span class="sr-only">Complete S05-07</span></label></td>
+  <td><a href="../pages/scenes/S05-07-the-ward-locks-into-place.html">S05-07</a></td>
+  <td>The Ward Locks Into Place</td>
+  <td>Act Five</td>
+  <td><input data-choice-log-field="S05-07" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S06-01">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S06-01"><span class="sr-only">Complete S06-01</span></label></td>
+  <td><a href="../pages/scenes/S06-01-back-in-the-hanging-office.html">S06-01</a></td>
+  <td>Back in <a class="entity-link entity-location inline-entity-link" href="entities/the-hanging-office.html" data-entity="the-hanging-office"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>the Hanging Office</span></a></td>
+  <td>Epilogue</td>
+  <td><input data-choice-log-field="S06-01" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+
+<tr data-dashboard-scene-row="S06-02">
+  <td><label class="icon-check"><input type="checkbox" data-scene-complete="S06-02"><span class="sr-only">Complete S06-02</span></label></td>
+  <td><a href="../pages/scenes/S06-02-the-relay-spire-hook.html">S06-02</a></td>
+  <td>The <a class="entity-link entity-location inline-entity-link" href="entities/relay-spire.html" data-entity="relay-spire"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Relay Spire</span></a> Hook</td>
+  <td>Epilogue</td>
+  <td><input data-choice-log-field="S06-02" placeholder="Player choices, flags, adaptations"></td>
+</tr>
+</tbody></table></div>
+  </section>
+</article>
+</main>
+  
+<section class="dev-toolbar" aria-label="Development toggles">
+  <strong>Dev</strong>
+  <label><input type="checkbox" data-dev-toggle="prompts"> Show Image Prompts</label>
+  <label><input type="checkbox" data-dev-toggle="assets"> Show Missing Asset Report</label>
+  <label><input type="checkbox" data-dev-toggle="qa"> Show Production QA</label>
+</section>
+
+  <dialog id="lightbox" class="lightbox">
+    <button class="dialog-close" type="button" aria-label="Close image">×</button>
+    <img alt="">
+    <p class="dialog-caption"></p>
+    <div class="image-actions">
+      <button class="image-window-button" type="button" data-lightbox-window>Open Image Window</button>
+      <a class="button secondary lightbox-raw-link" href="#" target="_blank" rel="noopener">Open Raw Image</a>
+    </div>
+    <details class="dev-only prompt-block">
+      <summary>Image Prompt</summary>
+      <p class="dialog-prompt"></p>
+    </details>
+  </dialog>
+  
+<aside id="rules-drawer" class="rules-drawer" aria-hidden="true" aria-label="GM Rules Drawer">
+  <div class="rules-drawer-inner">
+    <header class="drawer-header">
+      <div>
+        <p class="private-note">Searchable GM Rules Drawer</p>
+        <h2>Daggerheart Table Support</h2>
+      </div>
+      <button type="button" class="drawer-close" data-rules-close>Close</button>
+    </header>
+    <label class="search-label">Search rules <input id="rules-search" type="search" placeholder="Fear, DC, Untethered, rest"></label>
+    <div class="dice-mode-inline">
+      <button type="button" data-dice-mode-set="duality_2d12">Use Duality 2d12</button>
+      <button type="button" data-dice-mode-set="p2p_jenga_fear">Use P2P Jenga Fear</button>
+    </div>
+    
+    <section class="rules-section" id="rule-action-roll" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Action Roll / Duality Dice</h3>
+      <p>Roll two d12s, one Hope die and one Fear die. Add the fitting trait and any bonuses, then compare the total to the Difficulty.</p><p>Higher Hope die means with Hope. Higher Fear die means with Fear. Matching dice are a Critical Success.</p><p>Reaction rolls use the same dice structure but do not generate Hope/Fear or GM moves.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-hope-fear-matrix" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Hope / Fear Outcome Matrix</h3>
+      
+      <div class="table-scroll"><table><thead><tr><th>Total</th><th>Spin</th><th>Result</th></tr></thead><tbody><tr><td>&gt;= Difficulty</td><td>Hope</td><td>Success with Hope: succeed and gain Hope; add generosity or clean position.</td></tr><tr><td>&gt;= Difficulty</td><td>Fear</td><td>Success with Fear: succeed, but the GM gains Fear and makes the cost bite.</td></tr><tr><td>&lt; Difficulty</td><td>Hope</td><td>Failure with Hope: miss the goal, but gain Hope and a useful thread.</td></tr><tr><td>&lt; Difficulty</td><td>Fear</td><td>Failure with Fear: fail and the GM makes a hard move that follows from the fiction.</td></tr><tr><td>matching dice</td><td>Critical</td><td>Critical Success: best case, gain Hope, clear 1 Stress, and add a small gift.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="rules-section" id="rule-slider-outcomes" data-rules-text>
+      <p class="private-note">#slider optional house layer</p>
+      <h3>Slider Outcomes</h3>
+      <p>Kyle&#x27;s Slider System adds degree to the Daggerheart result. It is a house layer, not official rules text.</p><p>First read total against the hinge D. Then overlay Hope/Fear spin. Crit always takes the top outcome.</p>
+      <div class="table-scroll"><table><thead><tr><th>Band</th><th>Total vs D</th><th>Use</th></tr></thead><tbody><tr><td>Botch</td><td>&lt;= D - 5</td><td>Failure and the situation worsens.</td></tr><tr><td>Miss</td><td>D - 4 to D - 1</td><td>Failure with a partial thread or near miss.</td></tr><tr><td>Hit</td><td>D to D + 4</td><td>Success at a cost.</td></tr><tr><td>Clean</td><td>D + 5 to D + 9</td><td>Clean success.</td></tr><tr><td>Soar</td><td>&gt;= D + 10</td><td>Success plus extra leverage.</td></tr><tr><td>Crit</td><td>matching dice</td><td>Top outcome, gain Hope, clear 1 Stress, small gift.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="rules-section" id="rule-difficulty-ladder" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Difficulty Ladder</h3>
+      
+      <div class="table-scroll"><table><thead><tr><th>Label</th><th>DC</th><th>Use</th></tr></thead><tbody><tr><td>Easy</td><td>10</td><td>Low pressure, beginner-friendly, obvious route.</td></tr><tr><td>Medium / Standard</td><td>15</td><td>Default meaningful uncertainty.</td></tr><tr><td>Hard</td><td>20</td><td>Dangerous, contested, or specialized task.</td></tr><tr><td>Very Hard</td><td>25</td><td>Exceptional, unstable, rushed, or opposed.</td></tr><tr><td>Near-impossible</td><td>30</td><td>Legendary attempt; usually offer another route.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="rules-section" id="rule-traits" data-rules-text>
+      <p class="private-note">#adaptation aid</p>
+      <h3>Traits and D&amp;D-Brain Translation</h3>
+      
+      <div class="table-scroll"><table><thead><tr><th>Trait</th><th>What it covers</th></tr></thead><tbody><tr><td>Agility</td><td>Sprint, leap, maneuver, dodge, balance, climb fast, keep footing.</td></tr><tr><td>Strength</td><td>Lift, smash, grapple, hold, carry, resist force, endure strain.</td></tr><tr><td>Finesse</td><td>Control, hide, tinker, pick, disable, handle delicate details.</td></tr><tr><td>Instinct</td><td>Perceive, sense, navigate, track, read danger, read animals.</td></tr><tr><td>Presence</td><td>Charm, lead, soothe, deceive, perform, intimidate, negotiate.</td></tr><tr><td>Knowledge</td><td>Recall, analyze, investigate, comprehend, reason from lore.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="rules-section" id="rule-modifiers-help" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Advantage, Disadvantage, Help, Experiences</h3>
+      <p>Advantage adds a d6. Disadvantage subtracts a d6. They cancel one-for-one.</p><p>Help an Ally: an ally spends 1 Hope, rolls a d6, and adds it to the acting PC&#x27;s roll.</p><p>Spend 1 Hope on a relevant Experience to add +2. Tag Team rolls cost 3 Hope and let two PCs act together.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-gm-fear" data-rules-text>
+      <p class="private-note">#rules-canon + #p2p</p>
+      <h3>GM Fear Economy and Fear Spends</h3>
+      <p>GM starts with 1 Fear per PC and can hold up to 12 Fear.</p><p>Spend Fear to seize spotlight, make an extra move, spotlight extra adversaries, add adversary Experience, trigger Fear Features, advance countdowns, or reveal cost.</p><p>P2P Jenga Fear variant: with Fear means pull a numbered tower block. Block color is narrative corporate attention. Collapse fires banked consequences.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-combat" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Adversary Attacks, Damage, Armor, Stress</h3>
+      <p>No fixed initiative. Pass spotlight by danger, intent, and consequences.</p><p>Adversary attacks roll d20 + attack against PC Evasion. PCs do not roll defense by default.</p><p>Damage uses thresholds. Armor Slots reduce severity by one threshold. If a PC is out of Stress and must mark more, they become Vulnerable and may mark HP.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-rests-countdowns" data-rules-text>
+      <p class="private-note">#rules-canon + #adaptation</p>
+      <h3>Short Rest, Countdown Die, Ritual Countdown</h3>
+      <p>Short rest: each PC chooses two rest moves. The GM gains 1d4 Fear.</p><p>Countdowns are visible pressure. Tell players what changes when they tick.</p><p>Open Vale uses a ritual countdown. It ticks down when defenders make progress and up when the Custodian is harmed.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-conditions" data-rules-text>
+      <p class="private-note">#rules-canon + #adaptation</p>
+      <h3>Conditions</h3>
+      <p>Core conditions: Hidden, Restrained, Vulnerable.</p><p>Goldspire conditions: Untethered, Audited, Bramble-Snared, Ward-Sick, Compliance-Flagged, Memory-Raw, Debt-Marked.</p><p>Describe the fiction first, then name the condition.</p>
+      
+    </section>
+
+  </div>
+</aside>
+
+  <aside id="hover-card" class="hover-card" aria-hidden="true"></aside>
+  <script src="../data/atlas-data.js"></script>
+  <script src="../app.js"></script>
+</body>
+</html>

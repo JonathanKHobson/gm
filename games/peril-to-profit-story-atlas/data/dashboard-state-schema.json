@@ -1,0 +1,27 @@
+{
+  "state_version": 2,
+  "theme": "light",
+  "current_scene_id": "S00-01",
+  "autoCompletePreviousSceneOnNext": false,
+  "player_display_synced": false,
+  "choice_state": {
+    "strixwolf_outcome": "unresolved",
+    "strixwolf_trust": 0,
+    "strixwolf_blood_debt": 0,
+    "bramble_outcome": "unresolved",
+    "bramble_truth_learned": false,
+    "hush_trust": "medium",
+    "custodian_trust": "medium",
+    "ward_stability": "unresolved",
+    "report_choice": "unresolved"
+  },
+  "scene_progress": {},
+  "pc_profiles": "see pc_profile_schema.json",
+  "session_log": [],
+  "roll_stats": {
+    "hope": 0,
+    "fear": 0,
+    "crit": 0,
+    "gm_fear_spent": 0
+  }
+}

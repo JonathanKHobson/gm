@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open Vale™ Ritual Site · Goldspire Story Atlas</title>
+  <link rel="icon" href="../../assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body class="subpage">
+  <a class="skip-link" href="#content">Skip to content</a>
+  
+<nav class="sticky-top-nav" aria-label="Quick navigation">
+  <a href="../../index.html">Atlas</a>
+  <a href="../../run.html">Run Mode</a>
+  <a href="../../pages/gm-dashboard.html">Dashboard</a>
+  <a href="../../pages/entity-index.html">Wiki</a>
+  <a href="../../pages/pc-cheat-sheet.html">PCs</a>
+  <button type="button" data-rules-open data-rules-target="action-roll">Rules</button>
+  <label>Jump <select data-scene-jump></select></label>
+  <label>Theme <select data-theme-select><option value="light">Light</option><option value="dark">Dark</option><option value="print-preview">Print preview</option></select></label>
+  <button type="button" data-command-palette-open>Search</button>
+</nav>
+<dialog id="command-palette" class="command-palette">
+  <button class="dialog-close" type="button" data-command-palette-close aria-label="Close search">Close</button>
+  <label class="search-label">Command search <input id="command-search" type="search" placeholder="Jump to a scene, entity, dashboard, or handout"></label>
+  <div id="command-results" class="command-results"></div>
+</dialog>
+
+  <header class="subpage-header">
+    <a class="button secondary" href="../../index.html">Atlas Home</a>
+    <a class="button secondary" href="../../run.html">Run Mode</a>
+    <a class="button secondary" href="../../pages/gm-dashboard.html">GM Dashboard</a>
+    <a class="button secondary" href="../../pages/entity-index.html">Entity Wiki</a>
+    <button class="button secondary" type="button" data-rules-open data-entity="gm-rules-drawer">GM Rules Drawer</button>
+    <a class="button secondary" href="../../player-display.html">Player Display</a>
+    <a class="button secondary" href="../../pages/handouts.html">Handouts</a>
+    <a class="button secondary" href="../../pages/loot-board.html">Loot Board</a>
+    <a class="button secondary" href="../../pages/pc-cheat-sheet.html">PC Sheet</a>
+    <a class="button secondary" href="../../pages/pronunciation-guide.html">Pronunciation</a>
+    <a class="button secondary" href="../../pages/media-board.html">Media Board</a>
+    <a class="button secondary" href="../../pages/session-zero.html">Session Zero</a>
+    <button class="button secondary" type="button" onclick="window.print()">Print</button>
+  </header>
+  <main id="content">
+<article class="wiki-page entity-page">
+  <header>
+    <p class="private-note"><img class="type-icon" src="../../assets/icons/location.png" alt="" aria-hidden="true"> Location</p>
+    <h1>Open Vale™ Ritual Site</h1>
+    <p>This type-specific page points to the canonical entity wiki page.</p>
+    <p><a class="button" href="../entities/open-valetm-ritual-site.html">Open canonical page</a></p>
+  </header>
+</article>
+</main>
+  
+<section class="dev-toolbar" aria-label="Development toggles">
+  <strong>Dev</strong>
+  <label><input type="checkbox" data-dev-toggle="prompts"> Show Image Prompts</label>
+  <label><input type="checkbox" data-dev-toggle="assets"> Show Missing Asset Report</label>
+  <label><input type="checkbox" data-dev-toggle="qa"> Show Production QA</label>
+</section>
+
+  <dialog id="lightbox" class="lightbox">
+    <button class="dialog-close" type="button" aria-label="Close image">×</button>
+    <img alt="">
+    <p class="dialog-caption"></p>
+    <div class="image-actions">
+      <button class="image-window-button" type="button" data-lightbox-window>Open Image Window</button>
+      <a class="button secondary lightbox-raw-link" href="#" target="_blank" rel="noopener">Open Raw Image</a>
+    </div>
+    <details class="dev-only prompt-block">
+      <summary>Image Prompt</summary>
+      <p class="dialog-prompt"></p>
+    </details>
+  </dialog>
+  
+<aside id="rules-drawer" class="rules-drawer" aria-hidden="true" aria-label="GM Rules Drawer">
+  <div class="rules-drawer-inner">
+    <header class="drawer-header">
+      <div>
+        <p class="private-note">Searchable GM Rules Drawer</p>
+        <h2>Daggerheart Table Support</h2>
+      </div>
+      <button type="button" class="drawer-close" data-rules-close>Close</button>
+    </header>
+    <label class="search-label">Search rules <input id="rules-search" type="search" placeholder="Fear, DC, Untethered, rest"></label>
+    <div class="dice-mode-inline">
+      <button type="button" data-dice-mode-set="duality_2d12">Use Duality 2d12</button>
+      <button type="button" data-dice-mode-set="p2p_jenga_fear">Use P2P Jenga Fear</button>
+    </div>
+    
+    <section class="rules-section" id="rule-action-roll" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Action Roll / Duality Dice</h3>
+      <p>Roll two d12s, one Hope die and one Fear die. Add the fitting trait and any bonuses, then compare the total to the Difficulty.</p><p>Higher Hope die means with Hope. Higher Fear die means with Fear. Matching dice are a Critical Success.</p><p>Reaction rolls use the same dice structure but do not generate Hope/Fear or GM moves.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-hope-fear-matrix" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Hope / Fear Outcome Matrix</h3>
+      
+      <div class="table-scroll"><table><thead><tr><th>Total</th><th>Spin</th><th>Result</th></tr></thead><tbody><tr><td>&gt;= Difficulty</td><td>Hope</td><td>Success with Hope: succeed and gain Hope; add generosity or clean position.</td></tr><tr><td>&gt;= Difficulty</td><td>Fear</td><td>Success with Fear: succeed, but the GM gains Fear and makes the cost bite.</td></tr><tr><td>&lt; Difficulty</td><td>Hope</td><td>Failure with Hope: miss the goal, but gain Hope and a useful thread.</td></tr><tr><td>&lt; Difficulty</td><td>Fear</td><td>Failure with Fear: fail and the GM makes a hard move that follows from the fiction.</td></tr><tr><td>matching dice</td><td>Critical</td><td>Critical Success: best case, gain Hope, clear 1 Stress, and add a small gift.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="rules-section" id="rule-slider-outcomes" data-rules-text>
+      <p class="private-note">#slider optional house layer</p>
+      <h3>Slider Outcomes</h3>
+      <p>Kyle&#x27;s Slider System adds degree to the Daggerheart result. It is a house layer, not official rules text.</p><p>First read total against the hinge D. Then overlay Hope/Fear spin. Crit always takes the top outcome.</p>
+      <div class="table-scroll"><table><thead><tr><th>Band</th><th>Total vs D</th><th>Use</th></tr></thead><tbody><tr><td>Botch</td><td>&lt;= D - 5</td><td>Failure and the situation worsens.</td></tr><tr><td>Miss</td><td>D - 4 to D - 1</td><td>Failure with a partial thread or near miss.</td></tr><tr><td>Hit</td><td>D to D + 4</td><td>Success at a cost.</td></tr><tr><td>Clean</td><td>D + 5 to D + 9</td><td>Clean success.</td></tr><tr><td>Soar</td><td>&gt;= D + 10</td><td>Success plus extra leverage.</td></tr><tr><td>Crit</td><td>matching dice</td><td>Top outcome, gain Hope, clear 1 Stress, small gift.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="rules-section" id="rule-difficulty-ladder" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Difficulty Ladder</h3>
+      
+      <div class="table-scroll"><table><thead><tr><th>Label</th><th>DC</th><th>Use</th></tr></thead><tbody><tr><td>Easy</td><td>10</td><td>Low pressure, beginner-friendly, obvious route.</td></tr><tr><td>Medium / Standard</td><td>15</td><td>Default meaningful uncertainty.</td></tr><tr><td>Hard</td><td>20</td><td>Dangerous, contested, or specialized task.</td></tr><tr><td>Very Hard</td><td>25</td><td>Exceptional, unstable, rushed, or opposed.</td></tr><tr><td>Near-impossible</td><td>30</td><td>Legendary attempt; usually offer another route.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="rules-section" id="rule-traits" data-rules-text>
+      <p class="private-note">#adaptation aid</p>
+      <h3>Traits and D&amp;D-Brain Translation</h3>
+      
+      <div class="table-scroll"><table><thead><tr><th>Trait</th><th>What it covers</th></tr></thead><tbody><tr><td>Agility</td><td>Sprint, leap, maneuver, dodge, balance, climb fast, keep footing.</td></tr><tr><td>Strength</td><td>Lift, smash, grapple, hold, carry, resist force, endure strain.</td></tr><tr><td>Finesse</td><td>Control, hide, tinker, pick, disable, handle delicate details.</td></tr><tr><td>Instinct</td><td>Perceive, sense, navigate, track, read danger, read animals.</td></tr><tr><td>Presence</td><td>Charm, lead, soothe, deceive, perform, intimidate, negotiate.</td></tr><tr><td>Knowledge</td><td>Recall, analyze, investigate, comprehend, reason from lore.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="rules-section" id="rule-modifiers-help" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Advantage, Disadvantage, Help, Experiences</h3>
+      <p>Advantage adds a d6. Disadvantage subtracts a d6. They cancel one-for-one.</p><p>Help an Ally: an ally spends 1 Hope, rolls a d6, and adds it to the acting PC&#x27;s roll.</p><p>Spend 1 Hope on a relevant Experience to add +2. Tag Team rolls cost 3 Hope and let two PCs act together.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-gm-fear" data-rules-text>
+      <p class="private-note">#rules-canon + #p2p</p>
+      <h3>GM Fear Economy and Fear Spends</h3>
+      <p>GM starts with 1 Fear per PC and can hold up to 12 Fear.</p><p>Spend Fear to seize spotlight, make an extra move, spotlight extra adversaries, add adversary Experience, trigger Fear Features, advance countdowns, or reveal cost.</p><p>P2P Jenga Fear variant: with Fear means pull a numbered tower block. Block color is narrative corporate attention. Collapse fires banked consequences.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-combat" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Adversary Attacks, Damage, Armor, Stress</h3>
+      <p>No fixed initiative. Pass spotlight by danger, intent, and consequences.</p><p>Adversary attacks roll d20 + attack against PC Evasion. PCs do not roll defense by default.</p><p>Damage uses thresholds. Armor Slots reduce severity by one threshold. If a PC is out of Stress and must mark more, they become Vulnerable and may mark HP.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-rests-countdowns" data-rules-text>
+      <p class="private-note">#rules-canon + #adaptation</p>
+      <h3>Short Rest, Countdown Die, Ritual Countdown</h3>
+      <p>Short rest: each PC chooses two rest moves. The GM gains 1d4 Fear.</p><p>Countdowns are visible pressure. Tell players what changes when they tick.</p><p>Open Vale uses a ritual countdown. It ticks down when defenders make progress and up when the Custodian is harmed.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-conditions" data-rules-text>
+      <p class="private-note">#rules-canon + #adaptation</p>
+      <h3>Conditions</h3>
+      <p>Core conditions: Hidden, Restrained, Vulnerable.</p><p>Goldspire conditions: Untethered, Audited, Bramble-Snared, Ward-Sick, Compliance-Flagged, Memory-Raw, Debt-Marked.</p><p>Describe the fiction first, then name the condition.</p>
+      
+    </section>
+
+  </div>
+</aside>
+
+  <aside id="hover-card" class="hover-card" aria-hidden="true"></aside>
+  <script src="../../data/atlas-data.js"></script>
+  <script src="../../app.js"></script>
+</body>
+</html>

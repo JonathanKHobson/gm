@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Loot Board · Goldspire Story Atlas</title>
+  <link rel="icon" href="../assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="subpage">
+  <a class="skip-link" href="#content">Skip to content</a>
+  
+<nav class="sticky-top-nav" aria-label="Quick navigation">
+  <a href="../index.html">Atlas</a>
+  <a href="../run.html">Run Mode</a>
+  <a href="../pages/gm-dashboard.html">Dashboard</a>
+  <a href="../pages/entity-index.html">Wiki</a>
+  <a href="../pages/pc-cheat-sheet.html">PCs</a>
+  <button type="button" data-rules-open data-rules-target="action-roll">Rules</button>
+  <label>Jump <select data-scene-jump></select></label>
+  <label>Theme <select data-theme-select><option value="light">Light</option><option value="dark">Dark</option><option value="print-preview">Print preview</option></select></label>
+  <button type="button" data-command-palette-open>Search</button>
+</nav>
+<dialog id="command-palette" class="command-palette">
+  <button class="dialog-close" type="button" data-command-palette-close aria-label="Close search">Close</button>
+  <label class="search-label">Command search <input id="command-search" type="search" placeholder="Jump to a scene, entity, dashboard, or handout"></label>
+  <div id="command-results" class="command-results"></div>
+</dialog>
+
+  <header class="subpage-header">
+    <a class="button secondary" href="../index.html">Atlas Home</a>
+    <a class="button secondary" href="../run.html">Run Mode</a>
+    <a class="button secondary" href="../pages/gm-dashboard.html">GM Dashboard</a>
+    <a class="button secondary" href="../pages/entity-index.html">Entity Wiki</a>
+    <button class="button secondary" type="button" data-rules-open data-entity="gm-rules-drawer">GM Rules Drawer</button>
+    <a class="button secondary" href="../player-display.html">Player Display</a>
+    <a class="button secondary" href="../pages/handouts.html">Handouts</a>
+    <a class="button secondary" href="../pages/loot-board.html">Loot Board</a>
+    <a class="button secondary" href="../pages/pc-cheat-sheet.html">PC Sheet</a>
+    <a class="button secondary" href="../pages/pronunciation-guide.html">Pronunciation</a>
+    <a class="button secondary" href="../pages/media-board.html">Media Board</a>
+    <a class="button secondary" href="../pages/session-zero.html">Session Zero</a>
+    <button class="button secondary" type="button" onclick="window.print()">Print</button>
+  </header>
+  <main id="content">
+<article class="wiki-page loot-board-page" data-collapsible-sections>
+  <header>
+    <p class="private-note">Search, evidence, gifts, and rewards</p>
+    <h1>Loot Board</h1>
+    <p>Daggerheart does not need fixed prices. Goldspire loot should reveal who someone was, what happened, who benefits, and what the party can use without turning every body into treasure.</p>
+  </header>
+  <section class="scene-block">
+    <h2>Searches Use the Slider</h2>
+    <div class="table-scroll"><table>
+      <thead><tr><th>Band</th><th>Search Result</th></tr></thead>
+      <tbody>
+        <tr><td>Botch</td><td>Disturb danger, follow a false lead, or apply a condition.</td></tr>
+        <tr><td>Miss</td><td>One partial clue.</td></tr>
+        <tr><td>Hit</td><td>Main clue with cost.</td></tr>
+        <tr><td>Clean</td><td>Main clue plus useful context.</td></tr>
+        <tr><td>Soar</td><td>Clue chain plus future leverage.</td></tr>
+        <tr><td>Crit</td><td>All above plus boon, handout, or clean evidence.</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <section>
+    <h2>Beginner Loot Board</h2>
+    <div class="handout-grid">
+<article class="handout-card loot-item-card" id="loot-hexmart-pocket-ward-cracked">
+  <h2><a class="entity-link entity-item inline-entity-link" href="entities/hexmart-pocket-wardtm-cracked.html" data-entity="hexmart-pocket-wardtm-cracked"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>Hexmart Pocket Ward™ (cracked)</span></a></h2>
+  <div class="track-row"><span class="track-pill">sellable</span><span class="track-pill">clue</span><span class="track-pill">Hexmart</span><span class="track-pill">false-safety</span><span class="track-pill">ward-infrastructure</span></div>
+  <p><strong>Value:</strong> 1 Chit / mostly worthless</p>
+  <p><strong>Effect:</strong> No real ward effect; failed consumer protection charm.</p>
+  <p><strong>Story Clue:</strong> The <a class="entity-link entity-npc inline-entity-link" href="entities/tamsin-vell.html" data-entity="tamsin-vell"><img class="type-icon" src="../assets/icons/npc.png" alt="" aria-hidden="true"><span>driver</span></a> trusted cheap protection and it failed.</p>
+  <p><strong>Sources:</strong> <a class="entity-link entity-npc" href="entities/tamsin-vell.html" data-entity="tamsin-vell"><img class="type-icon" src="../assets/icons/npc.png" alt="" aria-hidden="true"><span>Tamsin Vell</span></a> <a class="entity-link entity-item" href="entities/vendor-cart.html" data-entity="vendor-cart"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>Vendor Cart</span></a></p>
+</article>
+
+<article class="handout-card loot-item-card" id="loot-stride-salve">
+  <h2><a class="entity-link entity-item inline-entity-link" href="entities/stride-salve.html" data-entity="stride-salve"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>Stride Salve</span></a></h2>
+  <div class="track-row"><span class="track-pill">consumable</span></div>
+  <p><strong>Value:</strong> minor useful consumable</p>
+  <p><strong>Effect:</strong> Clear 1 <a class="entity-link entity-mechanic inline-entity-link" href="entities/stress.html" data-entity="stress"><img class="type-icon" src="../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Stress</span></a> or move at Far without a roll once.</p>
+  <p><strong>Story Clue:</strong> Common frontier aid for exhausted couriers.</p>
+  <p><strong>Sources:</strong> Beginner Loot Board</p>
+</article>
+
+<article class="handout-card loot-item-card" id="loot-grindstone-vial">
+  <h2><a class="entity-link entity-item inline-entity-link" href="entities/grindstone-vial.html" data-entity="grindstone-vial"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>Grindstone Vial</span></a></h2>
+  <div class="track-row"><span class="track-pill">consumable</span></div>
+  <p><strong>Value:</strong> minor useful consumable</p>
+  <p><strong>Effect:</strong> Next damage roll adds +1d6.</p>
+  <p><strong>Story Clue:</strong> No fixed clue; use as texture or reward.</p>
+  <p><strong>Sources:</strong> Beginner Loot Board</p>
+</article>
+
+<article class="handout-card loot-item-card" id="loot-lark-moth-lantern">
+  <h2><a class="entity-link entity-item inline-entity-link" href="entities/lark-moth-lantern.html" data-entity="lark-moth-lantern"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>Lark-Moth Lantern</span></a></h2>
+  <div class="track-row"><span class="track-pill">utility</span></div>
+  <p><strong>Value:</strong> modest</p>
+  <p><strong>Effect:</strong> Soft light; once/<a class="entity-link entity-mechanic inline-entity-link" href="entities/short-rest.html" data-entity="short-rest"><img class="type-icon" src="../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>rest</span></a> ask GM one question about immediate area, no roll.</p>
+  <p><strong>Story Clue:</strong> No fixed clue; use as texture or reward.</p>
+  <p><strong>Sources:</strong> Beginner Loot Board</p>
+</article>
+
+<article class="handout-card loot-item-card" id="loot-bramble-cutters-hook">
+  <h2><a class="entity-link entity-item inline-entity-link" href="entities/bramble-cutter-s-hook.html" data-entity="bramble-cutter-s-hook"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>Bramble-Cutter&#x27;s Hook</span></a></h2>
+  <div class="track-row"><span class="track-pill">weapon</span><span class="track-pill">utility</span></div>
+  <p><strong>Value:</strong> modest</p>
+  <p><strong>Effect:</strong> 1d6 physical tool-knife; advantage to cut ropes/snares/free <a class="entity-link entity-condition inline-entity-link" href="entities/bramble-snared.html" data-entity="bramble-snared"><img class="type-icon" src="../assets/icons/condition.png" alt="" aria-hidden="true"><span>Bramble-Snared</span></a>.</p>
+  <p><strong>Story Clue:</strong> No fixed clue; use as texture or reward.</p>
+  <p><strong>Sources:</strong> <a class="entity-link entity-faction" href="entities/bramble-union.html" data-entity="bramble-union"><img class="type-icon" src="../assets/icons/faction.png" alt="" aria-hidden="true"><span>Bramble Union</span></a></p>
+</article>
+
+<article class="handout-card loot-item-card" id="loot-forged-compliance-stamp">
+  <h2><a class="entity-link entity-item inline-entity-link" href="entities/compliance-stamp-forged.html" data-entity="compliance-stamp-forged"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>Compliance Stamp (forged)</span></a></h2>
+  <div class="track-row"><span class="track-pill">utility</span><span class="track-pill">clue</span><span class="track-pill">p2p</span><span class="track-pill">bureaucracy</span></div>
+  <p><strong>Value:</strong> valuable if unscrutinized</p>
+  <p><strong>Effect:</strong> Once, auto-pass bureaucratic/checkpoint gate without rolling; risky if inspected.</p>
+  <p><strong>Story Clue:</strong> No fixed clue; use as texture or reward.</p>
+  <p><strong>Sources:</strong> Beginner Loot Board</p>
+</article>
+
+<article class="handout-card loot-item-card" id="loot-firstmoss-poultice">
+  <h2><a class="entity-link entity-item inline-entity-link" href="entities/firstmoss-poultice.html" data-entity="firstmoss-poultice"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>Firstmoss Poultice</span></a></h2>
+  <div class="track-row"><span class="track-pill">consumable</span></div>
+  <p><strong>Value:</strong> modest</p>
+  <p><strong>Effect:</strong> <a class="entity-link entity-mechanic inline-entity-link" href="entities/short-rest.html" data-entity="short-rest"><img class="type-icon" src="../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Tend to Wounds</span></a>: clear 1d4+1 HP outside a <a class="entity-link entity-mechanic inline-entity-link" href="entities/short-rest.html" data-entity="short-rest"><img class="type-icon" src="../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>rest</span></a>.</p>
+  <p><strong>Story Clue:</strong> No fixed clue; use as texture or reward.</p>
+  <p><strong>Sources:</strong> <a class="entity-link entity-location" href="entities/hush.html" data-entity="hush"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Hush</span></a> <a class="entity-link entity-location" href="entities/clover-co-op.html" data-entity="clover-co-op"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Clover Co-op</span></a></p>
+</article>
+
+<article class="handout-card loot-item-card" id="loot-mixed-chits">
+  <h2><a class="entity-link entity-item inline-entity-link" href="entities/bag-of-mixed-chits.html" data-entity="bag-of-mixed-chits"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>Bag of Mixed Chits</span></a></h2>
+  <div class="track-row"><span class="track-pill">sellable</span></div>
+  <p><strong>Value:</strong> 1 handful of gold / Continuance Credits</p>
+  <p><strong>Effect:</strong> Currency.</p>
+  <p><strong>Story Clue:</strong> No fixed clue; use as texture or reward.</p>
+  <p><strong>Sources:</strong> Beginner Loot Board</p>
+</article>
+
+<article class="handout-card loot-item-card" id="loot-whetcord">
+  <h2><a class="entity-link entity-item inline-entity-link" href="entities/whetcord.html" data-entity="whetcord"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>Whetcord</span></a></h2>
+  <div class="track-row"><span class="track-pill">consumable</span></div>
+  <p><strong>Value:</strong> minor</p>
+  <p><strong>Effect:</strong> Once, reroll a damage die and keep the higher.</p>
+  <p><strong>Story Clue:</strong> No fixed clue; use as texture or reward.</p>
+  <p><strong>Sources:</strong> Beginner Loot Board</p>
+</article>
+
+<article class="handout-card loot-item-card" id="loot-tinkers-kit-used">
+  <h2><a class="entity-link entity-item inline-entity-link" href="entities/tinker-s-kit-used.html" data-entity="tinker-s-kit-used"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>Tinker&#x27;s Kit, Used</span></a></h2>
+  <div class="track-row"><span class="track-pill">utility</span></div>
+  <p><strong>Value:</strong> useful</p>
+  <p><strong>Effect:</strong> Advantage on Finesse rolls to pick locks, disarm simple traps, or jury-rig.</p>
+  <p><strong>Story Clue:</strong> No fixed clue; use as texture or reward.</p>
+  <p><strong>Sources:</strong> Beginner Loot Board</p>
+</article>
+
+<article class="handout-card loot-item-card" id="loot-soul-quiet-charm">
+  <h2><a class="entity-link entity-item inline-entity-link" href="entities/soul-quiet-charm.html" data-entity="soul-quiet-charm"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>Soul-Quiet Charm</span></a></h2>
+  <div class="track-row"><span class="track-pill">consumable</span><span class="track-pill">Soulspire</span><span class="track-pill">adaptation</span></div>
+  <p><strong>Value:</strong> rare for Tier 1</p>
+  <p><strong>Effect:</strong> Once, ignore <a class="entity-link entity-condition inline-entity-link" href="entities/audited.html" data-entity="audited"><img class="type-icon" src="../assets/icons/condition.png" alt="" aria-hidden="true"><span>Audited</span></a> or <a class="entity-link entity-condition inline-entity-link" href="entities/memory-raw.html" data-entity="memory-raw"><img class="type-icon" src="../assets/icons/condition.png" alt="" aria-hidden="true"><span>Memory-Raw</span></a> when it would be applied.</p>
+  <p><strong>Story Clue:</strong> No fixed clue; use as texture or reward.</p>
+  <p><strong>Sources:</strong> Beginner Loot Board</p>
+</article>
+
+<article class="handout-card loot-item-card" id="loot-strixwolf-down-cloak">
+  <h2><a class="entity-link entity-item inline-entity-link" href="entities/strixwolf-down-cloak.html" data-entity="strixwolf-down-cloak"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>Strixwolf-Down Cloak</span></a></h2>
+  <div class="track-row"><span class="track-pill">utility</span></div>
+  <p><strong>Value:</strong> meaningful gift, not casual loot</p>
+  <p><strong>Effect:</strong> Once/<a class="entity-link entity-mechanic inline-entity-link" href="entities/short-rest.html" data-entity="short-rest"><img class="type-icon" src="../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>rest</span></a>, advantage on Agility roll to move silently or break line of sight.</p>
+  <p><strong>Story Clue:</strong> No fixed clue; use as texture or reward.</p>
+  <p><strong>Sources:</strong> <a class="entity-link entity-mechanic" href="entities/strixwolf-mercy-track.html" data-entity="strixwolf-mercy-track"><img class="type-icon" src="../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Strixwolf Mercy Track</span></a></p>
+</article>
+</div>
+  </section>
+  
+<section class="scene-block" id="loot-table-vendor-cart">
+  <h2><a class="entity-link entity-item inline-entity-link" href="entities/vendor-cart.html" data-entity="vendor-cart"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>Vendor Cart</span></a></h2>
+  <div class="table-scroll"><table><thead><tr><th>d6</th><th>Find</th><th>Meaning</th></tr></thead><tbody><tr><td>1</td><td>Fresh produce wrapped in waxed cloth</td><td>Useful food, but mostly proof the <a class="entity-link entity-item inline-entity-link" href="entities/vendor-cart.html" data-entity="vendor-cart"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>cart</span></a> was ordinary work.</td></tr><tr><td>2</td><td>Cracked spice jars</td><td>Smell of clove and smoke; can mask scent for one woodland approach.</td></tr><tr><td>3</td><td>Courier receipt with clipped seal</td><td>Points to a shipment reroute that did not match the official road claim.</td></tr><tr><td>4</td><td>Bent wheel pin</td><td>Shows the <a class="entity-link entity-item inline-entity-link" href="entities/vendor-cart.html" data-entity="vendor-cart"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>cart</span></a> was disabled before the body was found.</td></tr><tr><td>5</td><td>One intact <a class="entity-link entity-item inline-entity-link" href="entities/comfort-blanket.html" data-entity="comfort-blanket"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>comfort blanket</span></a></td><td>A <a class="entity-link entity-location inline-entity-link" href="entities/hush.html" data-entity="hush"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Hush</span></a> family recognizes the stitching if shown later.</td></tr><tr><td>6</td><td>Three low coins in a cracked bowl</td><td>Enough to matter to <a class="entity-link entity-npc inline-entity-link" href="entities/tamsin-vell.html" data-entity="tamsin-vell"><img class="type-icon" src="../assets/icons/npc.png" alt="" aria-hidden="true"><span>Tamsin</span></a>, not enough to be treasure.</td></tr></tbody></table></div>
+</section>
+
+<section class="scene-block" id="loot-table-tamsin-vell">
+  <h2><a class="entity-link entity-npc inline-entity-link" href="entities/tamsin-vell.html" data-entity="tamsin-vell"><img class="type-icon" src="../assets/icons/npc.png" alt="" aria-hidden="true"><span>Tamsin Vell</span></a></h2>
+  <div class="table-scroll"><table><thead><tr><th>d6</th><th>Find</th><th>Meaning</th></tr></thead><tbody><tr><td>1</td><td><a class="entity-link entity-clue inline-entity-link" href="entities/tamsin-s-wedding-cord.html" data-entity="tamsin-s-wedding-cord"><img class="type-icon" src="../assets/icons/clue.png" alt="" aria-hidden="true"><span>Wedding cord</span></a> around one wrist</td><td>Humanizes the body; <a class="entity-link entity-location inline-entity-link" href="entities/hush.html" data-entity="hush"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Hush</span></a> locals know who braided it.</td></tr><tr><td>2</td><td><a class="entity-link entity-clue inline-entity-link" href="entities/route-ledger.html" data-entity="route-ledger"><img class="type-icon" src="../assets/icons/clue.png" alt="" aria-hidden="true"><span>Route ledger</span></a></td><td>Lists stops, delays, and the first inconsistency in the road claim.</td></tr><tr><td>3</td><td>Cheap belt knife, <a class="entity-link entity-mechanic inline-entity-link" href="entities/slider-system.html" data-entity="slider-system"><img class="type-icon" src="../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>clean</span></a> blade</td><td>Not the murder weapon.</td></tr><tr><td>4</td><td>Sealed note to someone in <a class="entity-link entity-location inline-entity-link" href="entities/hush.html" data-entity="hush"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Hush</span></a></td><td>Player-facing grief; GM may decide the recipient.</td></tr><tr><td>5</td><td>Two handfuls mixed coin</td><td>Modest pay; taking it should feel like a choice.</td></tr><tr><td>6</td><td><a class="entity-link entity-item inline-entity-link" href="entities/goldspire-permit-seal.html" data-entity="goldspire-permit-seal"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>Permit stamp</span></a> with wrong hour</td><td>Evidence of paperwork manipulation.</td></tr></tbody></table></div>
+</section>
+
+<section class="scene-block" id="loot-table-bramble-union-ambushers">
+  <h2><a class="entity-link entity-faction inline-entity-link" href="entities/bramble-union.html" data-entity="bramble-union"><img class="type-icon" src="../assets/icons/faction.png" alt="" aria-hidden="true"><span>Bramble Union</span></a> <a class="entity-link entity-enemy inline-entity-link" href="entities/bramble-union-ambusher.html" data-entity="bramble-union-ambusher"><img class="type-icon" src="../assets/icons/enemy.png" alt="" aria-hidden="true"><span>Ambushers</span></a></h2>
+  <div class="table-scroll"><table><thead><tr><th>d6</th><th>Find</th><th>Meaning</th></tr></thead><tbody><tr><td>1</td><td>Patched <a class="entity-link entity-mechanic inline-entity-link" href="entities/armor-slot.html" data-entity="armor-slot"><img class="type-icon" src="../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>armor</span></a> with family mending</td><td>They are dangerous people, not faceless loot drops.</td></tr><tr><td>2</td><td>Torn <a class="entity-link entity-clue inline-entity-link" href="entities/route-assurance-contract.html" data-entity="route-assurance-contract"><img class="type-icon" src="../assets/icons/clue.png" alt="" aria-hidden="true"><span>contract</span></a> tag</td><td>Names a road crew dissolved by a <a class="entity-link entity-faction inline-entity-link" href="entities/goldspire-territories.html" data-entity="goldspire-territories"><img class="type-icon" src="../assets/icons/faction.png" alt="" aria-hidden="true"><span>Goldspire</span></a> subcontractor.</td></tr><tr><td>3</td><td>Hard bread and herb salt</td><td>Travel food; practical, not glamorous.</td></tr><tr><td>4</td><td>Short blade or bowstring</td><td>Usable but worn.</td></tr><tr><td>5</td><td>Personal <a class="entity-link entity-clue inline-entity-link" href="entities/reclaimer-personal-effects.html" data-entity="reclaimer-personal-effects"><img class="type-icon" src="../assets/icons/clue.png" alt="" aria-hidden="true"><span>keepsake</span></a></td><td>A carved bead, child sketch, or prayer scrap.</td></tr><tr><td>6</td><td><a class="entity-link entity-clue inline-entity-link" href="entities/bramble-strand.html" data-entity="bramble-strand"><img class="type-icon" src="../assets/icons/clue.png" alt="" aria-hidden="true"><span>Bramble strand</span></a> marker</td><td>Identifies the <a class="entity-link entity-enemy inline-entity-link" href="entities/bramble-union-claimrunner.html" data-entity="bramble-union-claimrunner"><img class="type-icon" src="../assets/icons/enemy.png" alt="" aria-hidden="true"><span>claimrunner</span></a>&#x27;s signal route.</td></tr></tbody></table></div>
+</section>
+
+<section class="scene-block" id="loot-table-bramble-union-claimrunner">
+  <h2><a class="entity-link entity-enemy inline-entity-link" href="entities/bramble-union-claimrunner.html" data-entity="bramble-union-claimrunner"><img class="type-icon" src="../assets/icons/enemy.png" alt="" aria-hidden="true"><span>Bramble Union Claimrunner</span></a></h2>
+  <div class="table-scroll"><table><thead><tr><th>d6</th><th>Find</th><th>Meaning</th></tr></thead><tbody><tr><td>1</td><td>Route sketch</td><td>Shows the ambush was aimed at <a class="entity-link entity-item inline-entity-link" href="entities/sealed-keystone-crate.html" data-entity="sealed-keystone-crate"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>cargo</span></a>, not random violence.</td></tr><tr><td>2</td><td>Half-written letter</td><td>Reveals debt, displacement, or someone waiting at a freehold.</td></tr><tr><td>3</td><td>Old <a class="entity-link entity-faction inline-entity-link" href="entities/goldspire-territories.html" data-entity="goldspire-territories"><img class="type-icon" src="../assets/icons/faction.png" alt="" aria-hidden="true"><span>Goldspire</span></a> seal</td><td>Evidence that corporate property and stolen property blur together.</td></tr><tr><td>4</td><td>Reclaimed keyring</td><td>Can open a confiscated roadside cache.</td></tr><tr><td>5</td><td>Serrated blade</td><td>A functional weapon with a filed-off inventory number.</td></tr><tr><td>6</td><td>Name list</td><td>Use only if Kyle wants a future <a class="entity-link entity-faction inline-entity-link" href="entities/bramble-union.html" data-entity="bramble-union"><img class="type-icon" src="../assets/icons/faction.png" alt="" aria-hidden="true"><span>Bramble</span></a> negotiation hook.</td></tr></tbody></table></div>
+</section>
+
+<section class="scene-block" id="loot-table-clover-co-op-gifts">
+  <h2><a class="entity-link entity-location inline-entity-link" href="entities/clover-co-op.html" data-entity="clover-co-op"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Clover Co-op</span></a> gifts</h2>
+  <div class="table-scroll"><table><thead><tr><th>d6</th><th>Find</th><th>Meaning</th></tr></thead><tbody><tr><td>1</td><td>Warm herb rolls</td><td>Heal morale; the table feels <a class="entity-link entity-location inline-entity-link" href="entities/hush.html" data-entity="hush"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Hush</span></a>&#x27;s hospitality.</td></tr><tr><td>2</td><td><a class="entity-link entity-item inline-entity-link" href="entities/moss-honey-jar.html" data-entity="moss-honey-jar"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>Jar of moss-honey</span></a></td><td>One use to sweeten a tense conversation.</td></tr><tr><td>3</td><td><a class="entity-link entity-item inline-entity-link" href="entities/clover-cord-bracelet.html" data-entity="clover-cord-bracelet"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>Clover cord bracelet</span></a></td><td>A visible sign that the party honored local custom.</td></tr><tr><td>4</td><td>Directions through the <a class="entity-link entity-location inline-entity-link" href="entities/hush-safe-irrigation-path.html" data-entity="hush-safe-irrigation-path"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>safe irrigation path</span></a></td><td>Lowers one travel complication.</td></tr><tr><td>5</td><td>Cloth packet of antiseptic moss</td><td>Counts as a small field-care supply.</td></tr><tr><td>6</td><td>Quiet warning about <a class="entity-link entity-npc inline-entity-link" href="entities/whitefire-custodian.html" data-entity="whitefire-custodian"><img class="type-icon" src="../assets/icons/npc.png" alt="" aria-hidden="true"><span>the Custodian</span></a></td><td>Do not rush her; she hates being treated like a device.</td></tr></tbody></table></div>
+</section>
+
+<section class="scene-block" id="loot-table-hanging-office-search-results">
+  <h2><a class="entity-link entity-location inline-entity-link" href="entities/the-hanging-office.html" data-entity="the-hanging-office"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Hanging Office</span></a> search results</h2>
+  <div class="table-scroll"><table><thead><tr><th>d6</th><th>Find</th><th>Meaning</th></tr></thead><tbody><tr><td>1</td><td>Maintenance tickets sorted by urgency</td><td>Every urgent ticket is older than the official response window.</td></tr><tr><td>2</td><td><a class="entity-link entity-item inline-entity-link" href="entities/inspection-sealed-counterweight.html" data-entity="inspection-sealed-counterweight"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>Inspection-sealed counterweight</span></a></td><td>A physical clue that <a class="entity-link entity-location inline-entity-link" href="entities/the-hanging-office.html" data-entity="the-hanging-office"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>the office</span></a> is still under audit.</td></tr><tr><td>3</td><td><a class="entity-link entity-clue inline-entity-link" href="entities/dustless-ward-map.html" data-entity="dustless-ward-map"><img class="type-icon" src="../assets/icons/clue.png" alt="" aria-hidden="true"><span>Dustless ward map</span></a></td><td>Someone recently checked <a class="entity-link entity-location inline-entity-link" href="entities/open-valetm-ritual-site.html" data-entity="open-valetm-ritual-site"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Open Vale</span></a>.</td></tr><tr><td>4</td><td><a class="entity-link entity-item inline-entity-link" href="entities/custodian-tea-cup.html" data-entity="custodian-tea-cup"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>Tea cup</span></a> ring on a <a class="entity-link entity-item inline-entity-link" href="entities/custodian-tea-cup.html" data-entity="custodian-tea-cup"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>denial letter</span></a></td><td><a class="entity-link entity-npc inline-entity-link" href="entities/whitefire-custodian.html" data-entity="whitefire-custodian"><img class="type-icon" src="../assets/icons/npc.png" alt="" aria-hidden="true"><span>The Custodian</span></a> has read the bad news more than once.</td></tr><tr><td>5</td><td>Private notes in old shorthand</td><td>Reveal <a class="entity-link entity-mechanic inline-entity-link" href="entities/fear.html" data-entity="fear"><img class="type-icon" src="../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>fear</span></a> without dumping lore.</td></tr><tr><td>6</td><td><a class="entity-link entity-location inline-entity-link" href="entities/relay-spire.html" data-entity="relay-spire"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Relay Spire</span></a> <a class="entity-link entity-clue inline-entity-link" href="entities/relay-tremor-notation.html" data-entity="relay-tremor-notation"><img class="type-icon" src="../assets/icons/clue.png" alt="" aria-hidden="true"><span>tremor notation</span></a></td><td>Future hook if the party earns her trust.</td></tr></tbody></table></div>
+</section>
+
+<section class="scene-block" id="loot-table-open-vale-residue">
+  <h2><a class="entity-link entity-location inline-entity-link" href="entities/open-valetm-ritual-site.html" data-entity="open-valetm-ritual-site"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Open Vale</span></a> residue</h2>
+  <div class="table-scroll"><table><thead><tr><th>d6</th><th>Find</th><th>Meaning</th></tr></thead><tbody><tr><td>1</td><td><a class="entity-link entity-clue inline-entity-link" href="entities/glass-bright-ward-sand.html" data-entity="glass-bright-ward-sand"><img class="type-icon" src="../assets/icons/clue.png" alt="" aria-hidden="true"><span>Glass-bright ward sand</span></a></td><td>Can prove the ritual worked.</td></tr><tr><td>2</td><td>Charcoal feather-shaped ash</td><td>Only use as optional <a class="entity-link entity-creature inline-entity-link" href="entities/strixwolf-mother.html" data-entity="strixwolf-mother"><img class="type-icon" src="../assets/icons/creature.png" alt="" aria-hidden="true"><span>strixwolf</span></a> payoff token if Kyle enabled it.</td></tr><tr><td>3</td><td>Cold <a class="entity-link entity-clue inline-entity-link" href="entities/corporate-seal-wax-residue.html" data-entity="corporate-seal-wax-residue"><img class="type-icon" src="../assets/icons/clue.png" alt="" aria-hidden="true"><span>corporate seal wax</span></a></td><td>Evidence that the system tried to classify the failure.</td></tr><tr><td>4</td><td>Living moss regrowth</td><td>Player-facing restoration sign.</td></tr><tr><td>5</td><td>A humming <a class="entity-link entity-item inline-entity-link" href="entities/keystone-asset.html" data-entity="keystone-asset"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>stone</span></a> chip</td><td>Future clue tied to the <a class="entity-link entity-location inline-entity-link" href="entities/relay-spire.html" data-entity="relay-spire"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Relay Spire</span></a>.</td></tr><tr><td>6</td><td>Scorched boot print</td><td><a class="entity-link entity-enemy inline-entity-link" href="entities/legacy-security-skeleton.html" data-entity="legacy-security-skeleton"><img class="type-icon" src="../assets/icons/enemy.png" alt="" aria-hidden="true"><span>Skeletons</span></a> were once workers or guards.</td></tr></tbody></table></div>
+</section>
+
+<section class="scene-block" id="loot-table-skeleton-remnants">
+  <h2><a class="entity-link entity-enemy inline-entity-link" href="entities/legacy-security-skeleton.html" data-entity="legacy-security-skeleton"><img class="type-icon" src="../assets/icons/enemy.png" alt="" aria-hidden="true"><span>Skeleton</span></a> remnants</h2>
+  <div class="table-scroll"><table><thead><tr><th>d6</th><th>Find</th><th>Meaning</th></tr></thead><tbody><tr><td>1</td><td>Stamped breastplate fragment</td><td>Legacy Security became literally inhuman infrastructure.</td></tr><tr><td>2</td><td>Finger bone wrapped in old signet wire</td><td>The person inside <a class="entity-link entity-item inline-entity-link" href="entities/keystone-asset.html" data-entity="keystone-asset"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>the asset</span></a> system still existed.</td></tr><tr><td>3</td><td>Rusty weapon</td><td>Useful only after repair.</td></tr><tr><td>4</td><td>Compliance charm</td><td>Twitches near unpaid ward debt.</td></tr><tr><td>5</td><td>Ash with green sparks</td><td>Residue from ward backlash.</td></tr><tr><td>6</td><td><a class="entity-link entity-clue inline-entity-link" href="entities/legacy-security-badge.html" data-entity="legacy-security-badge"><img class="type-icon" src="../assets/icons/clue.png" alt="" aria-hidden="true"><span>Broken badge</span></a></td><td>Names a defunct unit, not a current villain boss.</td></tr></tbody></table></div>
+</section>
+
+<section class="scene-block" id="loot-table-wraith-memory-shards">
+  <h2><a class="entity-link entity-enemy inline-entity-link" href="entities/soul-audit-wraith.html" data-entity="soul-audit-wraith"><img class="type-icon" src="../assets/icons/enemy.png" alt="" aria-hidden="true"><span>Wraith</span></a> <a class="entity-link entity-clue inline-entity-link" href="entities/soul-audit-memory-shard.html" data-entity="soul-audit-memory-shard"><img class="type-icon" src="../assets/icons/clue.png" alt="" aria-hidden="true"><span>memory shards</span></a></h2>
+  <div class="table-scroll"><table><thead><tr><th>d6</th><th>Find</th><th>Meaning</th></tr></thead><tbody><tr><td>1</td><td>A voice saying &#x27;approved with conditions&#x27;</td><td>Echo of exploitative bureaucracy.</td></tr><tr><td>2</td><td>A child&#x27;s laugh from before the ward failed</td><td>Emotional stake, not a joke.</td></tr><tr><td>3</td><td>A signature that writes itself wrong</td><td>Clue that magical paperwork falsified risk.</td></tr><tr><td>4</td><td>A cold <a class="entity-link entity-clue inline-entity-link" href="entities/soul-audit-memory-shard.html" data-entity="soul-audit-memory-shard"><img class="type-icon" src="../assets/icons/clue.png" alt="" aria-hidden="true"><span>blue glass splinter</span></a></td><td>Can be studied later for <a class="entity-link entity-location inline-entity-link" href="entities/relay-spire.html" data-entity="relay-spire"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Relay Spire</span></a> instability.</td></tr><tr><td>5</td><td><a class="entity-link entity-mechanic inline-entity-link" href="entities/fear.html" data-entity="fear"><img class="type-icon" src="../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Fear</span></a> of losing a home</td><td>Humanizes the danger.</td></tr><tr><td>6</td><td>A market <a class="entity-link entity-item inline-entity-link" href="entities/corporate-route-bell.html" data-entity="corporate-route-bell"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>bell</span></a> with no market</td><td><a class="entity-link entity-clue inline-entity-link" href="entities/market-correction.html" data-entity="market-correction"><img class="type-icon" src="../assets/icons/clue.png" alt="" aria-hidden="true"><span>Market Correction</span></a> is a system behavior, not a monster with a face.</td></tr></tbody></table></div>
+</section>
+
+</article>
+</main>
+  
+<section class="dev-toolbar" aria-label="Development toggles">
+  <strong>Dev</strong>
+  <label><input type="checkbox" data-dev-toggle="prompts"> Show Image Prompts</label>
+  <label><input type="checkbox" data-dev-toggle="assets"> Show Missing Asset Report</label>
+  <label><input type="checkbox" data-dev-toggle="qa"> Show Production QA</label>
+</section>
+
+  <dialog id="lightbox" class="lightbox">
+    <button class="dialog-close" type="button" aria-label="Close image">×</button>
+    <img alt="">
+    <p class="dialog-caption"></p>
+    <div class="image-actions">
+      <button class="image-window-button" type="button" data-lightbox-window>Open Image Window</button>
+      <a class="button secondary lightbox-raw-link" href="#" target="_blank" rel="noopener">Open Raw Image</a>
+    </div>
+    <details class="dev-only prompt-block">
+      <summary>Image Prompt</summary>
+      <p class="dialog-prompt"></p>
+    </details>
+  </dialog>
+  
+<aside id="rules-drawer" class="rules-drawer" aria-hidden="true" aria-label="GM Rules Drawer">
+  <div class="rules-drawer-inner">
+    <header class="drawer-header">
+      <div>
+        <p class="private-note">Searchable GM Rules Drawer</p>
+        <h2>Daggerheart Table Support</h2>
+      </div>
+      <button type="button" class="drawer-close" data-rules-close>Close</button>
+    </header>
+    <label class="search-label">Search rules <input id="rules-search" type="search" placeholder="Fear, DC, Untethered, rest"></label>
+    <div class="dice-mode-inline">
+      <button type="button" data-dice-mode-set="duality_2d12">Use Duality 2d12</button>
+      <button type="button" data-dice-mode-set="p2p_jenga_fear">Use P2P Jenga Fear</button>
+    </div>
+    
+    <section class="rules-section" id="rule-action-roll" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Action Roll / Duality Dice</h3>
+      <p>Roll two d12s, one Hope die and one Fear die. Add the fitting trait and any bonuses, then compare the total to the Difficulty.</p><p>Higher Hope die means with Hope. Higher Fear die means with Fear. Matching dice are a Critical Success.</p><p>Reaction rolls use the same dice structure but do not generate Hope/Fear or GM moves.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-hope-fear-matrix" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Hope / Fear Outcome Matrix</h3>
+      
+      <div class="table-scroll"><table><thead><tr><th>Total</th><th>Spin</th><th>Result</th></tr></thead><tbody><tr><td>&gt;= Difficulty</td><td>Hope</td><td>Success with Hope: succeed and gain Hope; add generosity or clean position.</td></tr><tr><td>&gt;= Difficulty</td><td>Fear</td><td>Success with Fear: succeed, but the GM gains Fear and makes the cost bite.</td></tr><tr><td>&lt; Difficulty</td><td>Hope</td><td>Failure with Hope: miss the goal, but gain Hope and a useful thread.</td></tr><tr><td>&lt; Difficulty</td><td>Fear</td><td>Failure with Fear: fail and the GM makes a hard move that follows from the fiction.</td></tr><tr><td>matching dice</td><td>Critical</td><td>Critical Success: best case, gain Hope, clear 1 Stress, and add a small gift.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="rules-section" id="rule-slider-outcomes" data-rules-text>
+      <p class="private-note">#slider optional house layer</p>
+      <h3>Slider Outcomes</h3>
+      <p>Kyle&#x27;s Slider System adds degree to the Daggerheart result. It is a house layer, not official rules text.</p><p>First read total against the hinge D. Then overlay Hope/Fear spin. Crit always takes the top outcome.</p>
+      <div class="table-scroll"><table><thead><tr><th>Band</th><th>Total vs D</th><th>Use</th></tr></thead><tbody><tr><td>Botch</td><td>&lt;= D - 5</td><td>Failure and the situation worsens.</td></tr><tr><td>Miss</td><td>D - 4 to D - 1</td><td>Failure with a partial thread or near miss.</td></tr><tr><td>Hit</td><td>D to D + 4</td><td>Success at a cost.</td></tr><tr><td>Clean</td><td>D + 5 to D + 9</td><td>Clean success.</td></tr><tr><td>Soar</td><td>&gt;= D + 10</td><td>Success plus extra leverage.</td></tr><tr><td>Crit</td><td>matching dice</td><td>Top outcome, gain Hope, clear 1 Stress, small gift.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="rules-section" id="rule-difficulty-ladder" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Difficulty Ladder</h3>
+      
+      <div class="table-scroll"><table><thead><tr><th>Label</th><th>DC</th><th>Use</th></tr></thead><tbody><tr><td>Easy</td><td>10</td><td>Low pressure, beginner-friendly, obvious route.</td></tr><tr><td>Medium / Standard</td><td>15</td><td>Default meaningful uncertainty.</td></tr><tr><td>Hard</td><td>20</td><td>Dangerous, contested, or specialized task.</td></tr><tr><td>Very Hard</td><td>25</td><td>Exceptional, unstable, rushed, or opposed.</td></tr><tr><td>Near-impossible</td><td>30</td><td>Legendary attempt; usually offer another route.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="rules-section" id="rule-traits" data-rules-text>
+      <p class="private-note">#adaptation aid</p>
+      <h3>Traits and D&amp;D-Brain Translation</h3>
+      
+      <div class="table-scroll"><table><thead><tr><th>Trait</th><th>What it covers</th></tr></thead><tbody><tr><td>Agility</td><td>Sprint, leap, maneuver, dodge, balance, climb fast, keep footing.</td></tr><tr><td>Strength</td><td>Lift, smash, grapple, hold, carry, resist force, endure strain.</td></tr><tr><td>Finesse</td><td>Control, hide, tinker, pick, disable, handle delicate details.</td></tr><tr><td>Instinct</td><td>Perceive, sense, navigate, track, read danger, read animals.</td></tr><tr><td>Presence</td><td>Charm, lead, soothe, deceive, perform, intimidate, negotiate.</td></tr><tr><td>Knowledge</td><td>Recall, analyze, investigate, comprehend, reason from lore.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="rules-section" id="rule-modifiers-help" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Advantage, Disadvantage, Help, Experiences</h3>
+      <p>Advantage adds a d6. Disadvantage subtracts a d6. They cancel one-for-one.</p><p>Help an Ally: an ally spends 1 Hope, rolls a d6, and adds it to the acting PC&#x27;s roll.</p><p>Spend 1 Hope on a relevant Experience to add +2. Tag Team rolls cost 3 Hope and let two PCs act together.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-gm-fear" data-rules-text>
+      <p class="private-note">#rules-canon + #p2p</p>
+      <h3>GM Fear Economy and Fear Spends</h3>
+      <p>GM starts with 1 Fear per PC and can hold up to 12 Fear.</p><p>Spend Fear to seize spotlight, make an extra move, spotlight extra adversaries, add adversary Experience, trigger Fear Features, advance countdowns, or reveal cost.</p><p>P2P Jenga Fear variant: with Fear means pull a numbered tower block. Block color is narrative corporate attention. Collapse fires banked consequences.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-combat" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Adversary Attacks, Damage, Armor, Stress</h3>
+      <p>No fixed initiative. Pass spotlight by danger, intent, and consequences.</p><p>Adversary attacks roll d20 + attack against PC Evasion. PCs do not roll defense by default.</p><p>Damage uses thresholds. Armor Slots reduce severity by one threshold. If a PC is out of Stress and must mark more, they become Vulnerable and may mark HP.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-rests-countdowns" data-rules-text>
+      <p class="private-note">#rules-canon + #adaptation</p>
+      <h3>Short Rest, Countdown Die, Ritual Countdown</h3>
+      <p>Short rest: each PC chooses two rest moves. The GM gains 1d4 Fear.</p><p>Countdowns are visible pressure. Tell players what changes when they tick.</p><p>Open Vale uses a ritual countdown. It ticks down when defenders make progress and up when the Custodian is harmed.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-conditions" data-rules-text>
+      <p class="private-note">#rules-canon + #adaptation</p>
+      <h3>Conditions</h3>
+      <p>Core conditions: Hidden, Restrained, Vulnerable.</p><p>Goldspire conditions: Untethered, Audited, Bramble-Snared, Ward-Sick, Compliance-Flagged, Memory-Raw, Debt-Marked.</p><p>Describe the fiction first, then name the condition.</p>
+      
+    </section>
+
+  </div>
+</aside>
+
+  <aside id="hover-card" class="hover-card" aria-hidden="true"></aside>
+  <script src="../data/atlas-data.js"></script>
+  <script src="../app.js"></script>
+</body>
+</html>

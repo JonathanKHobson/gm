@@ -1,0 +1,274 @@
+[
+  {
+    "id": "export-state",
+    "label": "Export state",
+    "icon": "assets/icons/action-export.png",
+    "aria_label": "Export state",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "import-state",
+    "label": "Import state",
+    "icon": "assets/icons/action-import.png",
+    "aria_label": "Import state",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "reset-state",
+    "label": "Reset state",
+    "icon": "assets/icons/action-reset.png",
+    "aria_label": "Reset state",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "save",
+    "label": "Save",
+    "icon": "assets/icons/action-save.png",
+    "aria_label": "Save",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "expand-all",
+    "label": "Expand all",
+    "icon": "assets/icons/action-expand-all.png",
+    "aria_label": "Expand all",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "collapse-all",
+    "label": "Collapse all",
+    "icon": "assets/icons/action-collapse-all.png",
+    "aria_label": "Collapse all",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "expand",
+    "label": "Expand",
+    "icon": "assets/icons/action-expand.png",
+    "aria_label": "Expand",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "collapse",
+    "label": "Collapse",
+    "icon": "assets/icons/action-collapse.png",
+    "aria_label": "Collapse",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "complete",
+    "label": "Mark complete",
+    "icon": "assets/icons/action-complete.png",
+    "aria_label": "Mark complete",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "pin",
+    "label": "Pin",
+    "icon": "assets/icons/action-pin.png",
+    "aria_label": "Pin",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "show-players",
+    "label": "Show to players",
+    "icon": "assets/icons/action-show-players.png",
+    "aria_label": "Show to players",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "hide-players",
+    "label": "Hide from players",
+    "icon": "assets/icons/action-hide-players.png",
+    "aria_label": "Hide from players",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "open-window",
+    "label": "Open in new window",
+    "icon": "assets/icons/action-open-window.png",
+    "aria_label": "Open in new window",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "open-image",
+    "label": "Open raw image",
+    "icon": "assets/icons/action-open-image.png",
+    "aria_label": "Open raw image",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "open-wiki",
+    "label": "Open wiki page",
+    "icon": "assets/icons/action-open-wiki.png",
+    "aria_label": "Open wiki page",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "print",
+    "label": "Print",
+    "icon": "assets/icons/action-print.png",
+    "aria_label": "Print",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "copy",
+    "label": "Copy",
+    "icon": "assets/icons/action-copy.png",
+    "aria_label": "Copy",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "search",
+    "label": "Search",
+    "icon": "assets/icons/action-search.png",
+    "aria_label": "Search",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "filter",
+    "label": "Filter",
+    "icon": "assets/icons/action-filter.png",
+    "aria_label": "Filter",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "sort",
+    "label": "Sort",
+    "icon": "assets/icons/action-sort.png",
+    "aria_label": "Sort",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "settings",
+    "label": "Settings",
+    "icon": "assets/icons/action-settings.png",
+    "aria_label": "Settings",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "rules",
+    "label": "Rules drawer",
+    "icon": "assets/icons/action-rules.png",
+    "aria_label": "Rules drawer",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "dashboard",
+    "label": "GM dashboard",
+    "icon": "assets/icons/action-dashboard.png",
+    "aria_label": "GM dashboard",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "session-zero",
+    "label": "Session zero",
+    "icon": "assets/icons/action-session-zero.png",
+    "aria_label": "Session zero",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "entity-wiki",
+    "label": "Entity wiki",
+    "icon": "assets/icons/action-entity-wiki.png",
+    "aria_label": "Entity wiki",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "handouts",
+    "label": "Handouts",
+    "icon": "assets/icons/action-handouts.png",
+    "aria_label": "Handouts",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "run-mode",
+    "label": "Run mode",
+    "icon": "assets/icons/action-run-mode.png",
+    "aria_label": "Run mode",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "prev-scene",
+    "label": "Previous scene",
+    "icon": "assets/icons/action-prev.png",
+    "aria_label": "Previous scene",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "next-scene",
+    "label": "Next scene",
+    "icon": "assets/icons/action-next.png",
+    "aria_label": "Next scene",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "first-scene",
+    "label": "First scene",
+    "icon": "assets/icons/action-first.png",
+    "aria_label": "First scene",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "last-scene",
+    "label": "Last scene",
+    "icon": "assets/icons/action-last.png",
+    "aria_label": "Last scene",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "fullscreen",
+    "label": "Fullscreen",
+    "icon": "assets/icons/action-fullscreen.png",
+    "aria_label": "Fullscreen",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "blackout",
+    "label": "Blackout player screen",
+    "icon": "assets/icons/action-blackout.png",
+    "aria_label": "Blackout player screen",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  },
+  {
+    "id": "reveal",
+    "label": "Reveal player slide",
+    "icon": "assets/icons/action-reveal.png",
+    "aria_label": "Reveal player slide",
+    "required": true,
+    "format": "png/webp preferred; no emoji; no svg placeholder"
+  }
+]

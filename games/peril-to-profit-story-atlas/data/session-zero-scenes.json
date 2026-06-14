@@ -1,0 +1,166 @@
+[
+  {
+    "id": "SZ-00",
+    "title": "Welcome / Table Frame",
+    "act": "Session Zero",
+    "purpose": "Establish tone, expectations, and the table's shared social contract.",
+    "mode": [
+      "quick_pregen",
+      "guided_pregen",
+      "full_custom"
+    ],
+    "player_facing": "Welcome to a beginner-friendly Daggerheart one-shot in Peril to Profit’s Goldspire Territories. We’ll learn by playing, build a party together, and start with a delivery job that becomes more complicated than advertised.",
+    "gm_notes": [
+      "Keep it warm, confident, and short.",
+      "This is a paid public table: clarity and consent matter."
+    ],
+    "complete_flag": "session_zero_welcome_complete"
+  },
+  {
+    "id": "SZ-01",
+    "title": "CATS / Campaign Calibration",
+    "act": "Session Zero",
+    "purpose": "Clarify concept, aim, tone, and subject matter.",
+    "mode": [
+      "quick_pregen",
+      "guided_pregen",
+      "full_custom"
+    ],
+    "concept": "Corporate-fantasy delivery incident in the Goldspire Territories.",
+    "aim": "Learn Daggerheart, protect a community, and discover what the sealed delivery means.",
+    "tone": "70% sincere fantasy, 20% corporate satire, 10% dark whimsy.",
+    "subject_matter": [
+      "animal danger",
+      "ambush",
+      "death",
+      "corporate exploitation",
+      "undead",
+      "memory/fear magic"
+    ],
+    "complete_flag": "cats_complete"
+  },
+  {
+    "id": "SZ-02",
+    "title": "Safety Tools / Table Agreement",
+    "act": "Session Zero",
+    "purpose": "Establish safety tools and participation norms.",
+    "mode": [
+      "quick_pregen",
+      "guided_pregen",
+      "full_custom"
+    ],
+    "tools": [
+      "Lines and Veils",
+      "X/N/O or equivalent",
+      "Open Door",
+      "Not For Me, Thanks",
+      "Buddy System",
+      "Digital safety intake",
+      "Stars and Wishes"
+    ],
+    "player_facing": "You can pause, pass, redirect, fade to black, or step away without explaining why.",
+    "complete_flag": "safety_tools_acknowledged"
+  },
+  {
+    "id": "SZ-03",
+    "title": "Daggerheart Rules Snapshot",
+    "act": "Session Zero",
+    "purpose": "Teach the minimum rules needed to begin.",
+    "mode": [
+      "quick_pregen",
+      "guided_pregen",
+      "full_custom"
+    ],
+    "rules": [
+      "Duality Dice",
+      "Hope",
+      "Fear",
+      "Action Rolls",
+      "Experiences",
+      "Helping",
+      "Attack Rolls",
+      "Damage",
+      "Stress",
+      "Hit Points",
+      "Armor",
+      "Evasion",
+      "Ranges",
+      "GM Moves"
+    ],
+    "difficulty": {
+      "easy": 10,
+      "medium_standard": 15,
+      "hard": 20
+    },
+    "complete_flag": "rules_snapshot_complete"
+  },
+  {
+    "id": "SZ-04",
+    "title": "Character Selection / Customization",
+    "act": "Session Zero",
+    "purpose": "Choose pregens, tweak pregens, or plan custom PCs.",
+    "mode": [
+      "quick_pregen",
+      "guided_pregen",
+      "full_custom"
+    ],
+    "required_decision": "Marlowe PC / Marlowe NPC / Replacement Keystone Asset Custodian",
+    "complete_flag": "characters_selected"
+  },
+  {
+    "id": "SZ-05",
+    "title": "Character Introductions",
+    "act": "Session Zero",
+    "purpose": "Let each player introduce who they are playing.",
+    "mode": [
+      "quick_pregen",
+      "guided_pregen",
+      "full_custom"
+    ],
+    "prompts": [
+      "Name/pronouns",
+      "What do we notice first?",
+      "Why did you take this job?",
+      "What do you think of corporate authority?",
+      "What do you do when nervous?"
+    ],
+    "complete_flag": "character_introductions_complete"
+  },
+  {
+    "id": "SZ-06",
+    "title": "Connections Workshop",
+    "act": "Session Zero",
+    "purpose": "Build relationships between PCs.",
+    "mode": [
+      "quick_pregen",
+      "guided_pregen",
+      "full_custom"
+    ],
+    "principle": "Offer, don't overwrite.",
+    "complete_flag": "connections_complete"
+  },
+  {
+    "id": "SZ-07",
+    "title": "What PCs Know / Don't Know",
+    "act": "Session Zero",
+    "purpose": "Align starting knowledge and hidden information.",
+    "mode": [
+      "quick_pregen",
+      "guided_pregen",
+      "full_custom"
+    ],
+    "complete_flag": "starting_knowledge_aligned"
+  },
+  {
+    "id": "SZ-08",
+    "title": "Launch Checklist / Cut to Prologue",
+    "act": "Session Zero",
+    "purpose": "Confirm readiness and transition into The Contract.",
+    "mode": [
+      "quick_pregen",
+      "guided_pregen",
+      "full_custom"
+    ],
+    "complete_flag": "prologue_ready"
+  }
+]

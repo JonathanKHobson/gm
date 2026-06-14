@@ -1,0 +1,225 @@
+[
+  {
+    "id": "action-roll",
+    "title": "Action Roll / Duality Dice",
+    "status": "#rules-canon",
+    "body": [
+      "Roll two d12s, one Hope die and one Fear die. Add the fitting trait and any bonuses, then compare the total to the Difficulty.",
+      "Higher Hope die means with Hope. Higher Fear die means with Fear. Matching dice are a Critical Success.",
+      "Reaction rolls use the same dice structure but do not generate Hope/Fear or GM moves."
+    ]
+  },
+  {
+    "id": "hope-fear-matrix",
+    "title": "Hope / Fear Outcome Matrix",
+    "status": "#rules-canon",
+    "table": {
+      "headers": [
+        "Total",
+        "Spin",
+        "Result"
+      ],
+      "rows": [
+        [
+          ">= Difficulty",
+          "Hope",
+          "Success with Hope: succeed and gain Hope; add generosity or clean position."
+        ],
+        [
+          ">= Difficulty",
+          "Fear",
+          "Success with Fear: succeed, but the GM gains Fear and makes the cost bite."
+        ],
+        [
+          "< Difficulty",
+          "Hope",
+          "Failure with Hope: miss the goal, but gain Hope and a useful thread."
+        ],
+        [
+          "< Difficulty",
+          "Fear",
+          "Failure with Fear: fail and the GM makes a hard move that follows from the fiction."
+        ],
+        [
+          "matching dice",
+          "Critical",
+          "Critical Success: best case, gain Hope, clear 1 Stress, and add a small gift."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "slider-outcomes",
+    "title": "Slider Outcomes",
+    "status": "#slider optional house layer",
+    "body": [
+      "Kyle's Slider System adds degree to the Daggerheart result. It is a house layer, not official rules text.",
+      "First read total against the hinge D. Then overlay Hope/Fear spin. Crit always takes the top outcome."
+    ],
+    "table": {
+      "headers": [
+        "Band",
+        "Total vs D",
+        "Use"
+      ],
+      "rows": [
+        [
+          "Botch",
+          "<= D - 5",
+          "Failure and the situation worsens."
+        ],
+        [
+          "Miss",
+          "D - 4 to D - 1",
+          "Failure with a partial thread or near miss."
+        ],
+        [
+          "Hit",
+          "D to D + 4",
+          "Success at a cost."
+        ],
+        [
+          "Clean",
+          "D + 5 to D + 9",
+          "Clean success."
+        ],
+        [
+          "Soar",
+          ">= D + 10",
+          "Success plus extra leverage."
+        ],
+        [
+          "Crit",
+          "matching dice",
+          "Top outcome, gain Hope, clear 1 Stress, small gift."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "difficulty-ladder",
+    "title": "Difficulty Ladder",
+    "status": "#rules-canon",
+    "table": {
+      "headers": [
+        "Label",
+        "DC",
+        "Use"
+      ],
+      "rows": [
+        [
+          "Easy",
+          "10",
+          "Low pressure, beginner-friendly, obvious route."
+        ],
+        [
+          "Medium / Standard",
+          "15",
+          "Default meaningful uncertainty."
+        ],
+        [
+          "Hard",
+          "20",
+          "Dangerous, contested, or specialized task."
+        ],
+        [
+          "Very Hard",
+          "25",
+          "Exceptional, unstable, rushed, or opposed."
+        ],
+        [
+          "Near-impossible",
+          "30",
+          "Legendary attempt; usually offer another route."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "traits",
+    "title": "Traits and D&D-Brain Translation",
+    "status": "#adaptation aid",
+    "table": {
+      "headers": [
+        "Trait",
+        "What it covers"
+      ],
+      "rows": [
+        [
+          "Agility",
+          "Sprint, leap, maneuver, dodge, balance, climb fast, keep footing."
+        ],
+        [
+          "Strength",
+          "Lift, smash, grapple, hold, carry, resist force, endure strain."
+        ],
+        [
+          "Finesse",
+          "Control, hide, tinker, pick, disable, handle delicate details."
+        ],
+        [
+          "Instinct",
+          "Perceive, sense, navigate, track, read danger, read animals."
+        ],
+        [
+          "Presence",
+          "Charm, lead, soothe, deceive, perform, intimidate, negotiate."
+        ],
+        [
+          "Knowledge",
+          "Recall, analyze, investigate, comprehend, reason from lore."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "modifiers-help",
+    "title": "Advantage, Disadvantage, Help, Experiences",
+    "status": "#rules-canon",
+    "body": [
+      "Advantage adds a d6. Disadvantage subtracts a d6. They cancel one-for-one.",
+      "Help an Ally: an ally spends 1 Hope, rolls a d6, and adds it to the acting PC's roll.",
+      "Spend 1 Hope on a relevant Experience to add +2. Tag Team rolls cost 3 Hope and let two PCs act together."
+    ]
+  },
+  {
+    "id": "gm-fear",
+    "title": "GM Fear Economy and Fear Spends",
+    "status": "#rules-canon + #p2p",
+    "body": [
+      "GM starts with 1 Fear per PC and can hold up to 12 Fear.",
+      "Spend Fear to seize spotlight, make an extra move, spotlight extra adversaries, add adversary Experience, trigger Fear Features, advance countdowns, or reveal cost.",
+      "P2P Jenga Fear variant: with Fear means pull a numbered tower block. Block color is narrative corporate attention. Collapse fires banked consequences."
+    ]
+  },
+  {
+    "id": "combat",
+    "title": "Adversary Attacks, Damage, Armor, Stress",
+    "status": "#rules-canon",
+    "body": [
+      "No fixed initiative. Pass spotlight by danger, intent, and consequences.",
+      "Adversary attacks roll d20 + attack against PC Evasion. PCs do not roll defense by default.",
+      "Damage uses thresholds. Armor Slots reduce severity by one threshold. If a PC is out of Stress and must mark more, they become Vulnerable and may mark HP."
+    ]
+  },
+  {
+    "id": "rests-countdowns",
+    "title": "Short Rest, Countdown Die, Ritual Countdown",
+    "status": "#rules-canon + #adaptation",
+    "body": [
+      "Short rest: each PC chooses two rest moves. The GM gains 1d4 Fear.",
+      "Countdowns are visible pressure. Tell players what changes when they tick.",
+      "Open Vale uses a ritual countdown. It ticks down when defenders make progress and up when the Custodian is harmed."
+    ]
+  },
+  {
+    "id": "conditions",
+    "title": "Conditions",
+    "status": "#rules-canon + #adaptation",
+    "body": [
+      "Core conditions: Hidden, Restrained, Vulnerable.",
+      "Goldspire conditions: Untethered, Audited, Bramble-Snared, Ward-Sick, Compliance-Flagged, Memory-Raw, Debt-Marked.",
+      "Describe the fiction first, then name the condition."
+    ]
+  }
+]

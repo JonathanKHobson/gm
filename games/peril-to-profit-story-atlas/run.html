@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Run Mode - Goldspire Story Atlas</title>
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/run-mode.css">
+</head>
+<body class="slideshow-run-page">
+  <a class="skip-link" href="#slide-stage">Skip to current slide</a>
+  <header class="run-topbar" role="banner">
+    <a class="run-home-link" href="index.html">Atlas</a>
+    <div class="run-toolbar-group" aria-label="Slide navigation">
+      <button class="run-icon-button" type="button" data-run-action="first" aria-label="First slide" title="First slide">|&lt;</button>
+      <button class="run-icon-button" type="button" data-run-action="previous" aria-label="Previous slide" title="Previous slide">&lt;</button>
+      <button class="run-icon-button" type="button" data-run-action="next" aria-label="Next slide" title="Next slide">&gt;</button>
+      <button class="run-icon-button" type="button" data-run-action="last" aria-label="Last slide" title="Last slide">&gt;|</button>
+    </div>
+    <label class="run-slide-jump">Slide <select id="run-slide-select" aria-label="Jump to slide"></select></label>
+    <div class="run-toolbar-group" aria-label="Player display controls">
+      <button class="run-icon-button" type="button" data-run-action="open-display" aria-label="Open player display" title="Open player display">TV</button>
+      <button class="run-icon-button" type="button" data-run-action="show-image" aria-label="Show image to players" title="Show image to players">IMG</button>
+      <button class="run-icon-button" type="button" data-run-action="show-text" aria-label="Show read-aloud to players" title="Show read-aloud to players">TXT</button>
+      <button class="run-icon-button" type="button" data-run-action="show-objective" aria-label="Show public objective" title="Show public objective">OBJ</button>
+      <button class="run-icon-button danger" type="button" data-run-action="blackout" aria-label="Blackout player display" title="Blackout player display">BLK</button>
+    </div>
+    <button class="run-icon-button" type="button" data-run-action="shortcuts" aria-label="Keyboard shortcuts" title="Keyboard shortcuts">?</button>
+  </header>
+
+  <main class="run-layout" id="slide-stage">
+    <aside class="run-side-panel" aria-label="Run controls">
+      <p class="run-kicker">Live-session slideshow</p>
+      <h1>Run Mode</h1>
+      <p id="run-position" class="run-position">Slide 1 / 1</p>
+      <label class="run-check"><input id="run-auto-complete" type="checkbox"> Auto-complete previous on Next</label>
+      <label class="run-check"><input id="run-sync-on-change" type="checkbox" checked> Sync slide changes to Player Display</label>
+      <div class="run-side-actions">
+        <button type="button" data-run-action="toggle-complete" aria-label="Mark current slide complete">Mark Complete</button>
+        <button type="button" data-run-action="pin" aria-label="Pin current slide">Pin</button>
+        <button type="button" data-run-action="copy-text" aria-label="Copy player text">Copy Player Text</button>
+        <button type="button" data-run-action="copy-discord" aria-label="Copy player text as Markdown quote">Copy Discord Quote</button>
+      </div>
+      <details class="run-scratch">
+        <summary>Scratch note</summary>
+        <textarea id="run-scratch-note" data-disable-shortcuts rows="4" placeholder="Private live note. Shortcuts are disabled while typing here."></textarea>
+      </details>
+      <nav class="run-cheat-menu" aria-label="Cheat sheet shortcuts">
+        <button type="button" data-run-go-slide="CHEAT-GM">1 GM Cheat</button>
+        <button type="button" data-run-go-slide="CHEAT-CONDITIONS">2 Conditions</button>
+        <button type="button" data-run-go-slide="CHEAT-SLIDER">3 Slider</button>
+        <button type="button" data-run-go-slide="CHEAT-PC">4 PC Sheet</button>
+        <button type="button" data-run-go-slide="CHEAT-PRONUNCIATION">5 Pronunciation</button>
+      </nav>
+    </aside>
+
+    <section class="run-slide-stage" aria-live="polite">
+      <article id="run-slide-root" class="run-slide-card" data-slide-root></article>
+    </section>
+  </main>
+
+  <footer class="run-bottom-scrubber" aria-label="Slide scrubber">
+    <div id="run-scrubber" class="run-scrubber-track" data-slide-scrubber tabindex="0" aria-label="Timeline scrubber"></div>
+  </footer>
+
+  <dialog id="shortcut-help" class="run-dialog" aria-label="Keyboard shortcuts">
+    <form method="dialog">
+      <button class="dialog-close" value="close" aria-label="Close shortcuts">x</button>
+      <h2>Keyboard Shortcuts</h2>
+      <div id="shortcut-list" class="shortcut-list"></div>
+    </form>
+  </dialog>
+  <dialog id="run-image-dialog" class="run-dialog run-media-dialog" aria-label="Expanded image">
+    <form method="dialog">
+      <button class="dialog-close" value="close" aria-label="Close image">x</button>
+      <img id="run-expanded-image" alt="">
+      <p id="run-expanded-caption"></p>
+      <a id="run-expanded-raw" class="button secondary" target="_blank" rel="noopener">Open raw image</a>
+    </form>
+  </dialog>
+  <dialog id="run-text-dialog" class="run-dialog run-text-dialog" aria-label="Expanded player text">
+    <form method="dialog">
+      <button class="dialog-close" value="close" aria-label="Close text">x</button>
+      <h2 id="run-expanded-text-title"></h2>
+      <p id="run-expanded-text"></p>
+    </form>
+  </dialog>
+
+  <script src="data/slides-data.js"></script>
+  <script src="js/display-sync.js"></script>
+  <script src="js/run-mode.js"></script>
+</body>
+</html>

@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Media Board · Goldspire Story Atlas</title>
+  <link rel="icon" href="../assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="subpage">
+  <a class="skip-link" href="#content">Skip to content</a>
+  
+<nav class="sticky-top-nav" aria-label="Quick navigation">
+  <a href="../index.html">Atlas</a>
+  <a href="../run.html">Run Mode</a>
+  <a href="../pages/gm-dashboard.html">Dashboard</a>
+  <a href="../pages/entity-index.html">Wiki</a>
+  <a href="../pages/pc-cheat-sheet.html">PCs</a>
+  <button type="button" data-rules-open data-rules-target="action-roll">Rules</button>
+  <label>Jump <select data-scene-jump></select></label>
+  <label>Theme <select data-theme-select><option value="light">Light</option><option value="dark">Dark</option><option value="print-preview">Print preview</option></select></label>
+  <button type="button" data-command-palette-open>Search</button>
+</nav>
+<dialog id="command-palette" class="command-palette">
+  <button class="dialog-close" type="button" data-command-palette-close aria-label="Close search">Close</button>
+  <label class="search-label">Command search <input id="command-search" type="search" placeholder="Jump to a scene, entity, dashboard, or handout"></label>
+  <div id="command-results" class="command-results"></div>
+</dialog>
+
+  <header class="subpage-header">
+    <a class="button secondary" href="../index.html">Atlas Home</a>
+    <a class="button secondary" href="../run.html">Run Mode</a>
+    <a class="button secondary" href="../pages/gm-dashboard.html">GM Dashboard</a>
+    <a class="button secondary" href="../pages/entity-index.html">Entity Wiki</a>
+    <button class="button secondary" type="button" data-rules-open data-entity="gm-rules-drawer">GM Rules Drawer</button>
+    <a class="button secondary" href="../player-display.html">Player Display</a>
+    <a class="button secondary" href="../pages/handouts.html">Handouts</a>
+    <a class="button secondary" href="../pages/loot-board.html">Loot Board</a>
+    <a class="button secondary" href="../pages/pc-cheat-sheet.html">PC Sheet</a>
+    <a class="button secondary" href="../pages/pronunciation-guide.html">Pronunciation</a>
+    <a class="button secondary" href="../pages/media-board.html">Media Board</a>
+    <a class="button secondary" href="../pages/session-zero.html">Session Zero</a>
+    <button class="button secondary" type="button" onclick="window.print()">Print</button>
+  </header>
+  <main id="content">
+<article class="wiki-page media-board-page" data-collapsible-sections>
+  <header>
+    <p class="private-note">Player-display assets</p>
+    <h1>Media Board</h1>
+    <p>Collect scene images, portraits, object images, handout slots, and send-to-player controls in one place for a second screen.</p>
+  </header>
+  <section class="media-board-grid">
+<article class="media-board-card" id="media-S00-01">
+  <header class="console-header">
+    <div><p class="private-note">Prologue</p><h2>S00-01 · The Job</h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S00-01"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S00-01-the-job.png" data-caption="The party begins inside the system: hired, trusted, and carrying more risk than they know."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S00-01-the-job.png" alt="The Job scene art for The Contract.">
+  <p>The party begins inside the system: hired, trusted, and carrying more risk than they know.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/marlowe-fairwind.html" data-entity="marlowe-fairwind"><img src="../assets/entities/marlowe-fairwind.png" alt="Marlowe Fairwind thumbnail."><span>Marlowe Fairwind</span></a><a href="entities/emeris-crown-holdings.html" data-entity="emeris-crown-holdings"><img src="../assets/logos/emeris-crown-holdings.png" alt="Emeris Crown Holdings thumbnail."><span>Emeris Crown Holdings</span></a><a href="entities/keystone-asset.html" data-entity="keystone-asset"><img src="../assets/entities/keystone-asset.png" alt="Keystone Asset thumbnail."><span>Keystone Asset</span></a><a href="entities/goldspire-territories.html" data-entity="goldspire-territories"><img src="../assets/logos/goldspire-territories.png" alt="Goldspire Territories thumbnail."><span>Goldspire Territories</span></a><a href="entities/ward-infrastructure.html" data-entity="ward-infrastructure"><img src="../assets/entities/ward-infrastructure.png" alt="Ward Infrastructure thumbnail."><span>Ward Infrastructure</span></a><a href="entities/route-assurance-contract.html" data-entity="route-assurance-contract"><img src="../assets/entities/route-assurance-contract.png" alt="Route Assurance Contract thumbnail."><span>Route Assurance Contract</span></a><a href="entities/sealed-keystone-crate.html" data-entity="sealed-keystone-crate"><img src="../assets/entities/sealed-keystone-crate.png" alt="Sealed Keystone Crate thumbnail."><span>Sealed Keystone Crate</span></a><a href="entities/emeris-clerk.html" data-entity="emeris-clerk"><img src="../assets/entities/emeris-clerk.png" alt="Emeris Clerk thumbnail."><span>Emeris Clerk</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S01-01">
+  <header class="console-header">
+    <div><p class="private-note">Act One</p><h2>S01-01 · Entering <a class="entity-link entity-location inline-entity-link" href="entities/sablewoodtm-logistics-preserve.html" data-entity="sablewoodtm-logistics-preserve"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Sablewood™ Logistics Preserve</span></a></h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S01-01"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S01-01-entering-sablewoodtm-logistics-preserve.png" data-caption="The branded wilderness looks managed until the forest begins quietly disagreeing."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S01-01-entering-sablewoodtm-logistics-preserve.png" alt="Entering Sablewood™ Logistics Preserve scene art for The Logistics Incident.">
+  <p>The <a class="entity-link entity-location inline-entity-link" href="entities/sablewoodtm-logistics-preserve.html" data-entity="sablewoodtm-logistics-preserve"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>branded wilderness</span></a> looks managed until the forest begins quietly disagreeing.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/sablewoodtm-logistics-preserve.html" data-entity="sablewoodtm-logistics-preserve"><img src="../assets/entities/sablewoodtm-logistics-preserve.png" alt="Sablewood™ Logistics Preserve thumbnail."><span>Sablewood™ Logistics Preserve</span></a><a href="entities/goldspire-waymarkers.html" data-entity="goldspire-waymarkers"><img src="../assets/entities/goldspire-waymarkers.png" alt="Goldspire Waymarkers thumbnail."><span>Goldspire Waymarkers</span></a><a href="entities/goldspire-territories.html" data-entity="goldspire-territories"><img src="../assets/logos/goldspire-territories.png" alt="Goldspire Territories thumbnail."><span>Goldspire Territories</span></a><a href="entities/old-sable.html" data-entity="old-sable"><img src="../assets/entities/old-sable.png" alt="Old Sable thumbnail."><span>Old Sable</span></a><a href="entities/varian-soto.html" data-entity="varian-soto"><img src="../assets/entities/varian-soto.png" alt="Varian Soto thumbnail."><span>Varian Soto</span></a><a href="entities/barnacle.html" data-entity="barnacle"><img src="../assets/entities/barnacle.png" alt="Barnacle thumbnail."><span>Barnacle</span></a><a href="entities/escort-carriage.html" data-entity="escort-carriage"><img src="../assets/entities/escort-carriage.png" alt="Escort Carriage thumbnail."><span>Escort Carriage</span></a><a href="entities/khari-nix.html" data-entity="khari-nix"><img src="../assets/entities/khari-nix.png" alt="Khari Nix thumbnail."><span>Khari Nix</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S01-02">
+  <header class="console-header">
+    <div><p class="private-note">Act One</p><h2>S01-02 · The <a class="entity-link entity-item inline-entity-link" href="entities/vendor-cart.html" data-entity="vendor-cart"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>Overturned Vendor Cart</span></a></h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S01-02"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S01-02-the-overturned-vendor-cart.png" data-caption="The overturned cart gives the party a mystery before it gives them a fight."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S01-02-the-overturned-vendor-cart.png" alt="The Overturned Vendor Cart scene art for The Logistics Incident.">
+  <p>The <a class="entity-link entity-item inline-entity-link" href="entities/vendor-cart.html" data-entity="vendor-cart"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>overturned cart</span></a> gives the party a mystery before it gives them a fight.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/vendor-cart.html" data-entity="vendor-cart"><img src="../assets/entities/vendor-cart.png" alt="Vendor Cart thumbnail."><span>Vendor Cart</span></a><a href="entities/tamsin-vell.html" data-entity="tamsin-vell"><img src="../assets/entities/tamsin-vell.png" alt="Tamsin Vell thumbnail."><span>Tamsin Vell</span></a><a href="entities/incident-response-placard.html" data-entity="incident-response-placard"><img src="../assets/entities/incident-response-placard.png" alt="Incident Response Placard thumbnail."><span>Incident Response Placard</span></a><a href="entities/keystone-asset.html" data-entity="keystone-asset"><img src="../assets/entities/keystone-asset.png" alt="Keystone Asset thumbnail."><span>Keystone Asset</span></a><a href="entities/hexmart.html" data-entity="hexmart"><img src="../assets/logos/hexmart.png" alt="Hexmart thumbnail."><span>Hexmart</span></a><a href="entities/sablewoodtm-logistics-preserve.html" data-entity="sablewoodtm-logistics-preserve"><img src="../assets/entities/sablewoodtm-logistics-preserve.png" alt="Sablewood™ Logistics Preserve thumbnail."><span>Sablewood™ Logistics Preserve</span></a><a href="entities/bramble-strand.html" data-entity="bramble-strand"><img src="../assets/entities/bramble-strand.png" alt="Bramble Strand thumbnail."><span>Bramble Strand</span></a><a href="entities/bramble-union.html" data-entity="bramble-union"><img src="../assets/logos/bramble-union.png" alt="Bramble Union thumbnail."><span>Bramble Union</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S01-03">
+  <header class="console-header">
+    <div><p class="private-note">Act One</p><h2>S01-03 · The <a class="entity-link entity-creature inline-entity-link" href="entities/strixwolf-mother.html" data-entity="strixwolf-mother"><img class="type-icon" src="../assets/icons/creature.png" alt="" aria-hidden="true"><span>Strixwolf Mother</span></a></h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S01-03"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S01-03-the-strixwolf-mother.png" data-caption="The Strixwolf Mother is dangerous, frightened, and probably not guilty of the murder."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S01-03-the-strixwolf-mother.png" alt="The Strixwolf Mother scene art for The Logistics Incident.">
+  <p>The <a class="entity-link entity-creature inline-entity-link" href="entities/strixwolf-mother.html" data-entity="strixwolf-mother"><img class="type-icon" src="../assets/icons/creature.png" alt="" aria-hidden="true"><span>Strixwolf Mother</span></a> is dangerous, frightened, and probably not guilty of the murder.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/strixwolf-mother.html" data-entity="strixwolf-mother"><img src="../assets/entities/strixwolf-mother.png" alt="Strixwolf Mother thumbnail."><span>Strixwolf Mother</span></a><a href="entities/strixwolf-pup-one.html" data-entity="strixwolf-pup-one"><img src="../assets/entities/strixwolf-pup-one.png" alt="Strixwolf Pup One thumbnail."><span>Strixwolf Pup One</span></a><a href="entities/strixwolf-pup-two.html" data-entity="strixwolf-pup-two"><img src="../assets/entities/strixwolf-pup-two.png" alt="Strixwolf Pup Two thumbnail."><span>Strixwolf Pup Two</span></a><a href="entities/tamsin-vell.html" data-entity="tamsin-vell"><img src="../assets/entities/tamsin-vell.png" alt="Tamsin Vell thumbnail."><span>Tamsin Vell</span></a><a href="entities/vendor-cart.html" data-entity="vendor-cart"><img src="../assets/entities/vendor-cart.png" alt="Vendor Cart thumbnail."><span>Vendor Cart</span></a><a href="entities/hexmart.html" data-entity="hexmart"><img src="../assets/logos/hexmart.png" alt="Hexmart thumbnail."><span>Hexmart</span></a><a href="entities/sablewoodtm-logistics-preserve.html" data-entity="sablewoodtm-logistics-preserve"><img src="../assets/entities/sablewoodtm-logistics-preserve.png" alt="Sablewood™ Logistics Preserve thumbnail."><span>Sablewood™ Logistics Preserve</span></a><a href="entities/bramble-union.html" data-entity="bramble-union"><img src="../assets/logos/bramble-union.png" alt="Bramble Union thumbnail."><span>Bramble Union</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S01-04">
+  <header class="console-header">
+    <div><p class="private-note">Act One</p><h2>S01-04 · The First Roll</h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S01-04"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S01-04-the-first-roll.png" data-caption="The first meaningful roll teaches that this adventure is about judgment, not just success."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S01-04-the-first-roll.png" alt="The First Roll scene art for The Logistics Incident.">
+  <p>The first meaningful roll teaches that this adventure is about judgment, not just success.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/strixwolf-mother.html" data-entity="strixwolf-mother"><img src="../assets/entities/strixwolf-mother.png" alt="Strixwolf Mother thumbnail."><span>Strixwolf Mother</span></a><a href="entities/strixwolf-mercy-track.html" data-entity="strixwolf-mercy-track"><img src="../assets/entities/strixwolf-mercy-track.png" alt="Strixwolf Mercy Track thumbnail."><span>Strixwolf Mercy Track</span></a><a href="entities/corporate-route-bell.html" data-entity="corporate-route-bell"><img src="../assets/entities/corporate-route-bell.png" alt="Corporate Route Bell thumbnail."><span>Corporate Route Bell</span></a><a href="entities/sablewoodtm-logistics-preserve.html" data-entity="sablewoodtm-logistics-preserve"><img src="../assets/entities/sablewoodtm-logistics-preserve.png" alt="Sablewood™ Logistics Preserve thumbnail."><span>Sablewood™ Logistics Preserve</span></a><a href="entities/marlowe-fairwind.html" data-entity="marlowe-fairwind"><img src="../assets/entities/marlowe-fairwind.png" alt="Marlowe Fairwind thumbnail."><span>Marlowe Fairwind</span></a><a href="entities/bramble-union.html" data-entity="bramble-union"><img src="../assets/logos/bramble-union.png" alt="Bramble Union thumbnail."><span>Bramble Union</span></a><a href="entities/duality-dice.html" data-entity="duality-dice"><img src="../assets/entities/duality-dice.png" alt="Duality Dice thumbnail."><span>Duality Dice</span></a><a href="entities/bramble-union-ambusher.html" data-entity="bramble-union-ambusher"><img src="../assets/entities/bramble-union-ambusher.png" alt="Bramble Union Ambusher thumbnail."><span>Bramble Union Ambusher</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S02-01">
+  <header class="console-header">
+    <div><p class="private-note">Act Two</p><h2>S02-01 · The Fallout Investigation</h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S02-01"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S02-01-the-fallout-investigation.png" data-caption="The cart scene becomes evidence of a claim war, not a random wilderness hazard."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S02-01-the-fallout-investigation.png" alt="The Fallout Investigation scene art for Cargo Reclaimers.">
+  <p>The <a class="entity-link entity-item inline-entity-link" href="entities/vendor-cart.html" data-entity="vendor-cart"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>cart</span></a> scene becomes evidence of a claim war, not a random wilderness hazard.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/vendor-cart.html" data-entity="vendor-cart"><img src="../assets/entities/vendor-cart.png" alt="Vendor Cart thumbnail."><span>Vendor Cart</span></a><a href="entities/tamsin-vell.html" data-entity="tamsin-vell"><img src="../assets/entities/tamsin-vell.png" alt="Tamsin Vell thumbnail."><span>Tamsin Vell</span></a><a href="entities/bramble-strand.html" data-entity="bramble-strand"><img src="../assets/entities/bramble-strand.png" alt="Bramble Strand thumbnail."><span>Bramble Strand</span></a><a href="entities/torn-shipping-seals.html" data-entity="torn-shipping-seals"><img src="../assets/entities/torn-shipping-seals.png" alt="Torn Shipping Seals thumbnail."><span>Torn Shipping Seals</span></a><a href="entities/route-ledger.html" data-entity="route-ledger"><img src="../assets/entities/route-ledger.png" alt="Route Ledger thumbnail."><span>Route Ledger</span></a><a href="entities/strixwolf-mother.html" data-entity="strixwolf-mother"><img src="../assets/entities/strixwolf-mother.png" alt="Strixwolf Mother thumbnail."><span>Strixwolf Mother</span></a><a href="entities/barnacle.html" data-entity="barnacle"><img src="../assets/entities/barnacle.png" alt="Barnacle thumbnail."><span>Barnacle</span></a><a href="entities/keystone-asset.html" data-entity="keystone-asset"><img src="../assets/entities/keystone-asset.png" alt="Keystone Asset thumbnail."><span>Keystone Asset</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S02-02">
+  <header class="console-header">
+    <div><p class="private-note">Act Two</p><h2>S02-02 · Eyes in the Brush</h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S02-02"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S02-02-eyes-in-the-brush.png" data-caption="Eyes in the brush turn investigation into an impending tactical decision."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S02-02-eyes-in-the-brush.png" alt="Eyes in the Brush scene art for Cargo Reclaimers.">
+  <p>Eyes in the brush turn investigation into an impending tactical decision.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/bramble-union.html" data-entity="bramble-union"><img src="../assets/logos/bramble-union.png" alt="Bramble Union thumbnail."><span>Bramble Union</span></a><a href="entities/bramble-union-ambusher.html" data-entity="bramble-union-ambusher"><img src="../assets/entities/bramble-union-ambusher.png" alt="Bramble Union Ambusher thumbnail."><span>Bramble Union Ambusher</span></a><a href="entities/bramble-union-claimrunner.html" data-entity="bramble-union-claimrunner"><img src="../assets/entities/bramble-union-claimrunner.png" alt="Bramble Union Claimrunner thumbnail."><span>Bramble Union Claimrunner</span></a><a href="entities/strixwolf-mercy-track.html" data-entity="strixwolf-mercy-track"><img src="../assets/entities/strixwolf-mercy-track.png" alt="Strixwolf Mercy Track thumbnail."><span>Strixwolf Mercy Track</span></a><a href="entities/varian-soto.html" data-entity="varian-soto"><img src="../assets/entities/varian-soto.png" alt="Varian Soto thumbnail."><span>Varian Soto</span></a><a href="entities/strixwolf-mother.html" data-entity="strixwolf-mother"><img src="../assets/entities/strixwolf-mother.png" alt="Strixwolf Mother thumbnail."><span>Strixwolf Mother</span></a><a href="entities/escort-carriage.html" data-entity="escort-carriage"><img src="../assets/entities/escort-carriage.png" alt="Escort Carriage thumbnail."><span>Escort Carriage</span></a><a href="entities/garrick-reed.html" data-entity="garrick-reed"><img src="../assets/entities/garrick-reed.png" alt="Garrick Reed thumbnail."><span>Garrick Reed</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S02-03">
+  <header class="console-header">
+    <div><p class="private-note">Act Two</p><h2>S02-03 · <a class="entity-link entity-faction inline-entity-link" href="entities/bramble-union.html" data-entity="bramble-union"><img class="type-icon" src="../assets/icons/faction.png" alt="" aria-hidden="true"><span>Bramble Union</span></a> Ambush</h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S02-03"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S02-03-bramble-union-ambush.png" data-caption="The Bramble Union ambush should feel dangerous and understandable at the same time."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S02-03-bramble-union-ambush.png" alt="Bramble Union Ambush scene art for Cargo Reclaimers.">
+  <p>The <a class="entity-link entity-faction inline-entity-link" href="entities/bramble-union.html" data-entity="bramble-union"><img class="type-icon" src="../assets/icons/faction.png" alt="" aria-hidden="true"><span>Bramble Union</span></a> ambush should feel dangerous and understandable at the same time.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/bramble-union-ambusher.html" data-entity="bramble-union-ambusher"><img src="../assets/entities/bramble-union-ambusher.png" alt="Bramble Union Ambusher thumbnail."><span>Bramble Union Ambusher</span></a><a href="entities/bramble-union-claimrunner.html" data-entity="bramble-union-claimrunner"><img src="../assets/entities/bramble-union-claimrunner.png" alt="Bramble Union Claimrunner thumbnail."><span>Bramble Union Claimrunner</span></a><a href="entities/keystone-asset.html" data-entity="keystone-asset"><img src="../assets/entities/keystone-asset.png" alt="Keystone Asset thumbnail."><span>Keystone Asset</span></a><a href="entities/bramble-union.html" data-entity="bramble-union"><img src="../assets/logos/bramble-union.png" alt="Bramble Union thumbnail."><span>Bramble Union</span></a><a href="entities/marlowe-fairwind.html" data-entity="marlowe-fairwind"><img src="../assets/entities/marlowe-fairwind.png" alt="Marlowe Fairwind thumbnail."><span>Marlowe Fairwind</span></a><a href="entities/reclaimer-personal-effects.html" data-entity="reclaimer-personal-effects"><img src="../assets/entities/reclaimer-personal-effects.png" alt="Reclaimer Personal Effects thumbnail."><span>Reclaimer Personal Effects</span></a><a href="entities/escort-carriage.html" data-entity="escort-carriage"><img src="../assets/entities/escort-carriage.png" alt="Escort Carriage thumbnail."><span>Escort Carriage</span></a><a href="entities/sealed-keystone-crate.html" data-entity="sealed-keystone-crate"><img src="../assets/entities/sealed-keystone-crate.png" alt="Sealed Keystone Crate thumbnail."><span>Sealed Keystone Crate</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S02-04">
+  <header class="console-header">
+    <div><p class="private-note">Act Two</p><h2>S02-04 · After the Ambush</h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S02-04"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S02-04-after-the-ambush.png" data-caption="After the fight, the module asks what victory cost and what the party learned."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S02-04-after-the-ambush.png" alt="After the Ambush scene art for Cargo Reclaimers.">
+  <p>After the fight, the module asks what victory cost and what the party learned.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/bramble-union-loot.html" data-entity="bramble-union-loot"><img src="../assets/entities/bramble-union-loot.png" alt="Bramble Union Loot thumbnail."><span>Bramble Union Loot</span></a><a href="entities/kett-alderhook.html" data-entity="kett-alderhook"><img src="../assets/entities/kett-alderhook.png" alt="Kett Alderhook thumbnail."><span>Kett Alderhook</span></a><a href="entities/vela-bramblewick.html" data-entity="vela-bramblewick"><img src="../assets/entities/vela-bramblewick.png" alt="Vela Bramblewick thumbnail."><span>Vela Bramblewick</span></a><a href="entities/rye-underbough.html" data-entity="rye-underbough"><img src="../assets/entities/rye-underbough.png" alt="Rye Underbough thumbnail."><span>Rye Underbough</span></a><a href="entities/brannic-mossvein.html" data-entity="brannic-mossvein"><img src="../assets/entities/brannic-mossvein.png" alt="Brannic Mossvein thumbnail."><span>Brannic Mossvein</span></a><a href="entities/reclaimer-personal-effects.html" data-entity="reclaimer-personal-effects"><img src="../assets/entities/reclaimer-personal-effects.png" alt="Reclaimer Personal Effects thumbnail."><span>Reclaimer Personal Effects</span></a><a href="entities/bramble-union.html" data-entity="bramble-union"><img src="../assets/logos/bramble-union.png" alt="Bramble Union thumbnail."><span>Bramble Union</span></a><a href="entities/garrick-reed.html" data-entity="garrick-reed"><img src="../assets/entities/garrick-reed.png" alt="Garrick Reed thumbnail."><span>Garrick Reed</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S03-01">
+  <header class="console-header">
+    <div><p class="private-note">Act Three</p><h2>S03-01 · Arrival at <a class="entity-link entity-location inline-entity-link" href="entities/hush.html" data-entity="hush"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Hush</span></a></h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S03-01"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S03-01-arrival-at-hush.png" data-caption="Hush must land as a warm place with jokes inside it, not as the joke."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S03-01-arrival-at-hush.png" alt="Arrival at Hush scene art for Seeking a Custodian.">
+  <p><a class="entity-link entity-location inline-entity-link" href="entities/hush.html" data-entity="hush"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Hush</span></a> must land as a warm place with jokes inside it, not as the joke.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/hush.html" data-entity="hush"><img src="../assets/entities/hush.png" alt="Hush thumbnail."><span>Hush</span></a><a href="entities/hushtm-community-enclave.html" data-entity="hushtm-community-enclave"><img src="../assets/entities/hushtm-community-enclave.png" alt="Hush™ Community Enclave thumbnail."><span>Hush™ Community Enclave</span></a><a href="entities/clover-co-op.html" data-entity="clover-co-op"><img src="../assets/entities/clover-co-op.png" alt="Clover Co-op thumbnail."><span>Clover Co-op</span></a><a href="entities/firstmoss-launch-festival.html" data-entity="firstmoss-launch-festival"><img src="../assets/entities/firstmoss-launch-festival.png" alt="Firstmoss Launch Festival thumbnail."><span>Firstmoss Launch Festival</span></a><a href="entities/lausa-standworth.html" data-entity="lausa-standworth"><img src="../assets/entities/lausa-standworth.png" alt="Lausa Standworth thumbnail."><span>Lausa Standworth</span></a><a href="entities/route-assurance-contract.html" data-entity="route-assurance-contract"><img src="../assets/entities/route-assurance-contract.png" alt="Route Assurance Contract thumbnail."><span>Route Assurance Contract</span></a><a href="entities/sealed-keystone-crate.html" data-entity="sealed-keystone-crate"><img src="../assets/entities/sealed-keystone-crate.png" alt="Sealed Keystone Crate thumbnail."><span>Sealed Keystone Crate</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S03-02">
+  <header class="console-header">
+    <div><p class="private-note">Act Three</p><h2>S03-02 · Local Clues</h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S03-02"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S03-02-local-clues.png" data-caption="Local clues make the infrastructure failure personal and specific."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S03-02-local-clues.png" alt="Local Clues scene art for Seeking a Custodian.">
+  <p>Local clues make the infrastructure failure personal and specific.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/fidget.html" data-entity="fidget"><img src="../assets/entities/fidget.png" alt="Fidget thumbnail."><span>Fidget</span></a><a href="entities/lausa-standworth.html" data-entity="lausa-standworth"><img src="../assets/entities/lausa-standworth.png" alt="Lausa Standworth thumbnail."><span>Lausa Standworth</span></a><a href="entities/halython-fives.html" data-entity="halython-fives"><img src="../assets/entities/halython-fives.png" alt="Halython Fives thumbnail."><span>Halython Fives</span></a><a href="entities/whitefire-custodian.html" data-entity="whitefire-custodian"><img src="../assets/entities/whitefire-custodian.png" alt="Whitefire Custodian thumbnail."><span>Whitefire Custodian</span></a><a href="entities/ward-renewal-chime.html" data-entity="ward-renewal-chime"><img src="../assets/entities/ward-renewal-chime.png" alt="Ward Renewal Chime thumbnail."><span>Ward Renewal Chime</span></a><a href="entities/hush-safe-irrigation-path.html" data-entity="hush-safe-irrigation-path"><img src="../assets/entities/hush-safe-irrigation-path.png" alt="Hush Safe Irrigation Path thumbnail."><span>Hush Safe Irrigation Path</span></a><a href="entities/firstmoss-launch-festival.html" data-entity="firstmoss-launch-festival"><img src="../assets/entities/firstmoss-launch-festival.png" alt="Firstmoss Launch Festival thumbnail."><span>Firstmoss Launch Festival</span></a><a href="entities/keystone-asset.html" data-entity="keystone-asset"><img src="../assets/entities/keystone-asset.png" alt="Keystone Asset thumbnail."><span>Keystone Asset</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S03-03">
+  <header class="console-header">
+    <div><p class="private-note">Act Three</p><h2>S03-03 · The <a class="entity-link entity-location inline-entity-link" href="entities/clover-co-op.html" data-entity="clover-co-op"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Clover Co-op</span></a></h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S03-03"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S03-03-the-clover-co-op.png" data-caption="The Clover Co-op gives the party hospitality, texture, and reasons to care."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S03-03-the-clover-co-op.png" alt="The Clover Co-op scene art for Seeking a Custodian.">
+  <p>The <a class="entity-link entity-location inline-entity-link" href="entities/clover-co-op.html" data-entity="clover-co-op"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Clover Co-op</span></a> gives the party hospitality, texture, and reasons to care.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/clover-co-op.html" data-entity="clover-co-op"><img src="../assets/entities/clover-co-op.png" alt="Clover Co-op thumbnail."><span>Clover Co-op</span></a><a href="entities/yera-mossglass.html" data-entity="yera-mossglass"><img src="../assets/entities/yera-mossglass.png" alt="Yera Mossglass thumbnail."><span>Yera Mossglass</span></a><a href="entities/hush.html" data-entity="hush"><img src="../assets/entities/hush.png" alt="Hush thumbnail."><span>Hush</span></a><a href="entities/firstmoss-launch-festival.html" data-entity="firstmoss-launch-festival"><img src="../assets/entities/firstmoss-launch-festival.png" alt="Firstmoss Launch Festival thumbnail."><span>Firstmoss Launch Festival</span></a><a href="entities/whitefire-custodian.html" data-entity="whitefire-custodian"><img src="../assets/entities/whitefire-custodian.png" alt="Whitefire Custodian thumbnail."><span>Whitefire Custodian</span></a><a href="entities/brannic-mossvein.html" data-entity="brannic-mossvein"><img src="../assets/entities/brannic-mossvein.png" alt="Brannic Mossvein thumbnail."><span>Brannic Mossvein</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S03-04">
+  <header class="console-header">
+    <div><p class="private-note">Act Three</p><h2>S03-04 · <a class="entity-link entity-location inline-entity-link" href="entities/firstmoss-launch-festival.html" data-entity="firstmoss-launch-festival"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Firstmoss Launch Festival</span></a></h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S03-04"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S03-04-firstmoss-launch-festival.png" data-caption="Firstmoss makes the stakes joyous before the module asks the party to defend them."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S03-04-firstmoss-launch-festival.png" alt="Firstmoss Launch Festival scene art for Seeking a Custodian.">
+  <p><a class="entity-link entity-location inline-entity-link" href="entities/firstmoss-launch-festival.html" data-entity="firstmoss-launch-festival"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Firstmoss</span></a> makes the stakes joyous before the module asks the party to defend them.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/firstmoss-launch-festival.html" data-entity="firstmoss-launch-festival"><img src="../assets/entities/firstmoss-launch-festival.png" alt="Firstmoss Launch Festival thumbnail."><span>Firstmoss Launch Festival</span></a><a href="entities/hush.html" data-entity="hush"><img src="../assets/entities/hush.png" alt="Hush thumbnail."><span>Hush</span></a><a href="entities/clover-co-op.html" data-entity="clover-co-op"><img src="../assets/entities/clover-co-op.png" alt="Clover Co-op thumbnail."><span>Clover Co-op</span></a><a href="entities/brannic-mossvein.html" data-entity="brannic-mossvein"><img src="../assets/entities/brannic-mossvein.png" alt="Brannic Mossvein thumbnail."><span>Brannic Mossvein</span></a><a href="entities/marlowe-fairwind.html" data-entity="marlowe-fairwind"><img src="../assets/entities/marlowe-fairwind.png" alt="Marlowe Fairwind thumbnail."><span>Marlowe Fairwind</span></a><a href="entities/tamsin-vell.html" data-entity="tamsin-vell"><img src="../assets/entities/tamsin-vell.png" alt="Tamsin Vell thumbnail."><span>Tamsin Vell</span></a><a href="entities/khari-nix.html" data-entity="khari-nix"><img src="../assets/entities/khari-nix.png" alt="Khari Nix thumbnail."><span>Khari Nix</span></a><a href="entities/keystone-asset.html" data-entity="keystone-asset"><img src="../assets/entities/keystone-asset.png" alt="Keystone Asset thumbnail."><span>Keystone Asset</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S04-01">
+  <header class="console-header">
+    <div><p class="private-note">Act Four</p><h2>S04-01 · Through <a class="entity-link entity-location inline-entity-link" href="entities/hush-farms.html" data-entity="hush-farms"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>the Farms</span></a></h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S04-01"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S04-01-through-the-farms.png" data-caption="The road through the farms shifts the story from delivery job to stewardship problem."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S04-01-through-the-farms.png" alt="Through the Farms scene art for The Hanging Office.">
+  <p>The road through <a class="entity-link entity-location inline-entity-link" href="entities/hush-farms.html" data-entity="hush-farms"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>the farms</span></a> shifts the story from delivery job to stewardship problem.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/hush-farms.html" data-entity="hush-farms"><img src="../assets/entities/hush-farms.png" alt="Hush Farms thumbnail."><span>Hush Farms</span></a><a href="entities/old-sable.html" data-entity="old-sable"><img src="../assets/entities/old-sable.png" alt="Old Sable thumbnail."><span>Old Sable</span></a><a href="entities/whitefire-custodian.html" data-entity="whitefire-custodian"><img src="../assets/entities/whitefire-custodian.png" alt="Whitefire Custodian thumbnail."><span>Whitefire Custodian</span></a><a href="entities/lausa-standworth.html" data-entity="lausa-standworth"><img src="../assets/entities/lausa-standworth.png" alt="Lausa Standworth thumbnail."><span>Lausa Standworth</span></a><a href="entities/the-hanging-office.html" data-entity="the-hanging-office"><img src="../assets/entities/the-hanging-office.png" alt="The Hanging Office thumbnail."><span>The Hanging Office</span></a><a href="entities/open-valetm-ritual-site.html" data-entity="open-valetm-ritual-site"><img src="../assets/entities/open-valetm-ritual-site.png" alt="Open Vale™ Ritual Site thumbnail."><span>Open Vale™ Ritual Site</span></a><a href="entities/sablewoodtm-logistics-preserve.html" data-entity="sablewoodtm-logistics-preserve"><img src="../assets/entities/sablewoodtm-logistics-preserve.png" alt="Sablewood™ Logistics Preserve thumbnail."><span>Sablewood™ Logistics Preserve</span></a><a href="entities/route-assurance-contract.html" data-entity="route-assurance-contract"><img src="../assets/entities/route-assurance-contract.png" alt="Route Assurance Contract thumbnail."><span>Route Assurance Contract</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S04-02">
+  <header class="console-header">
+    <div><p class="private-note">Act Four</p><h2>S04-02 · <a class="entity-link entity-location inline-entity-link" href="entities/the-hanging-office.html" data-entity="the-hanging-office"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>The Hanging Office</span></a> Exterior</h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S04-02"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S04-02-the-hanging-office-exterior.png" data-caption="The Hanging Office is absurd because the system is absurd; the people inside are not."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S04-02-the-hanging-office-exterior.png" alt="The Hanging Office Exterior scene art for The Hanging Office.">
+  <p><a class="entity-link entity-location inline-entity-link" href="entities/the-hanging-office.html" data-entity="the-hanging-office"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>The Hanging Office</span></a> is absurd because the system is absurd; the people inside are not.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/the-hanging-office.html" data-entity="the-hanging-office"><img src="../assets/entities/the-hanging-office.png" alt="The Hanging Office thumbnail."><span>The Hanging Office</span></a><a href="entities/whitefire-custodian.html" data-entity="whitefire-custodian"><img src="../assets/entities/whitefire-custodian.png" alt="Whitefire Custodian thumbnail."><span>Whitefire Custodian</span></a><a href="entities/inspection-sealed-counterweight.html" data-entity="inspection-sealed-counterweight"><img src="../assets/entities/inspection-sealed-counterweight.png" alt="Inspection-Sealed Counterweight thumbnail."><span>Inspection-Sealed Counterweight</span></a><a href="entities/barnacle.html" data-entity="barnacle"><img src="../assets/entities/barnacle.png" alt="Barnacle thumbnail."><span>Barnacle</span></a><a href="entities/garrick-reed.html" data-entity="garrick-reed"><img src="../assets/entities/garrick-reed.png" alt="Garrick Reed thumbnail."><span>Garrick Reed</span></a><a href="entities/emeris-clerk.html" data-entity="emeris-clerk"><img src="../assets/entities/emeris-clerk.png" alt="Emeris Clerk thumbnail."><span>Emeris Clerk</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S04-03">
+  <header class="console-header">
+    <div><p class="private-note">Act Four</p><h2>S04-03 · The <a class="entity-link entity-npc inline-entity-link" href="entities/whitefire-custodian.html" data-entity="whitefire-custodian"><img class="type-icon" src="../assets/icons/npc.png" alt="" aria-hidden="true"><span>Whitefire Custodian</span></a></h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S04-03"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S04-03-the-whitefire-custodian.png" data-caption="The Whitefire Custodian is a person, not the adventure&#x27;s magical help desk."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S04-03-the-whitefire-custodian.png" alt="The Whitefire Custodian scene art for The Hanging Office.">
+  <p>The <a class="entity-link entity-npc inline-entity-link" href="entities/whitefire-custodian.html" data-entity="whitefire-custodian"><img class="type-icon" src="../assets/icons/npc.png" alt="" aria-hidden="true"><span>Whitefire Custodian</span></a> is a person, not the adventure&#x27;s magical help desk.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/whitefire-custodian.html" data-entity="whitefire-custodian"><img src="../assets/entities/whitefire-custodian.png" alt="Whitefire Custodian thumbnail."><span>Whitefire Custodian</span></a><a href="entities/the-hanging-office.html" data-entity="the-hanging-office"><img src="../assets/entities/the-hanging-office.png" alt="The Hanging Office thumbnail."><span>The Hanging Office</span></a><a href="entities/keystone-asset.html" data-entity="keystone-asset"><img src="../assets/entities/keystone-asset.png" alt="Keystone Asset thumbnail."><span>Keystone Asset</span></a><a href="entities/fear.html" data-entity="fear"><img src="../assets/entities/fear.png" alt="Fear thumbnail."><span>Fear</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S04-04">
+  <header class="console-header">
+    <div><p class="private-note">Act Four</p><h2>S04-04 · The <a class="entity-link entity-item inline-entity-link" href="entities/keystone-asset.html" data-entity="keystone-asset"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>Keystone</span></a> Reveal</h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S04-04"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S04-04-the-keystone-reveal.png" data-caption="The Keystone Asset stops being cargo and becomes a communal protection problem."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S04-04-the-keystone-reveal.png" alt="The Keystone Reveal scene art for The Hanging Office.">
+  <p>The <a class="entity-link entity-item inline-entity-link" href="entities/keystone-asset.html" data-entity="keystone-asset"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>Keystone Asset</span></a> stops being <a class="entity-link entity-item inline-entity-link" href="entities/sealed-keystone-crate.html" data-entity="sealed-keystone-crate"><img class="type-icon" src="../assets/icons/item.png" alt="" aria-hidden="true"><span>cargo</span></a> and becomes a communal protection problem.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/keystone-asset.html" data-entity="keystone-asset"><img src="../assets/entities/keystone-asset.png" alt="Keystone Asset thumbnail."><span>Keystone Asset</span></a><a href="entities/marlowe-fairwind.html" data-entity="marlowe-fairwind"><img src="../assets/entities/marlowe-fairwind.png" alt="Marlowe Fairwind thumbnail."><span>Marlowe Fairwind</span></a><a href="entities/whitefire-custodian.html" data-entity="whitefire-custodian"><img src="../assets/entities/whitefire-custodian.png" alt="Whitefire Custodian thumbnail."><span>Whitefire Custodian</span></a><a href="entities/emeris-crown-holdings.html" data-entity="emeris-crown-holdings"><img src="../assets/logos/emeris-crown-holdings.png" alt="Emeris Crown Holdings thumbnail."><span>Emeris Crown Holdings</span></a><a href="entities/ward-stability-track.html" data-entity="ward-stability-track"><img src="../assets/entities/ward-stability-track.png" alt="Ward Stability Track thumbnail."><span>Ward Stability Track</span></a><a href="entities/sealed-keystone-crate.html" data-entity="sealed-keystone-crate"><img src="../assets/entities/sealed-keystone-crate.png" alt="Sealed Keystone Crate thumbnail."><span>Sealed Keystone Crate</span></a><a href="entities/open-vale-ward-lines.html" data-entity="open-vale-ward-lines"><img src="../assets/entities/open-vale-ward-lines.png" alt="Open Vale Ward Lines thumbnail."><span>Open Vale Ward Lines</span></a><a href="entities/dustless-ward-map.html" data-entity="dustless-ward-map"><img src="../assets/entities/dustless-ward-map.png" alt="Dustless Ward Map thumbnail."><span>Dustless Ward Map</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S04-05">
+  <header class="console-header">
+    <div><p class="private-note">Act Four</p><h2>S04-05 · Toward <a class="entity-link entity-location inline-entity-link" href="entities/open-valetm-ritual-site.html" data-entity="open-valetm-ritual-site"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Open Vale</span></a></h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S04-05"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S04-05-toward-open-vale.png" data-caption="The final approach turns understanding into preparation."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S04-05-toward-open-vale.png" alt="Toward Open Vale scene art for The Hanging Office.">
+  <p>The final approach turns understanding into preparation.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/open-valetm-ritual-site.html" data-entity="open-valetm-ritual-site"><img src="../assets/entities/open-valetm-ritual-site.png" alt="Open Vale™ Ritual Site thumbnail."><span>Open Vale™ Ritual Site</span></a><a href="entities/whitefire-custodian.html" data-entity="whitefire-custodian"><img src="../assets/entities/whitefire-custodian.png" alt="Whitefire Custodian thumbnail."><span>Whitefire Custodian</span></a><a href="entities/keystone-asset.html" data-entity="keystone-asset"><img src="../assets/entities/keystone-asset.png" alt="Keystone Asset thumbnail."><span>Keystone Asset</span></a><a href="entities/marlowe-fairwind.html" data-entity="marlowe-fairwind"><img src="../assets/entities/marlowe-fairwind.png" alt="Marlowe Fairwind thumbnail."><span>Marlowe Fairwind</span></a><a href="entities/ritual-countdown.html" data-entity="ritual-countdown"><img src="../assets/entities/ritual-countdown.png" alt="Ritual Countdown thumbnail."><span>Ritual Countdown</span></a><a href="entities/short-rest.html" data-entity="short-rest"><img src="../assets/entities/short-rest.png" alt="Short Rest thumbnail."><span>Short Rest</span></a><a href="entities/varian-soto.html" data-entity="varian-soto"><img src="../assets/entities/varian-soto.png" alt="Varian Soto thumbnail."><span>Varian Soto</span></a><a href="entities/sealed-keystone-crate.html" data-entity="sealed-keystone-crate"><img src="../assets/entities/sealed-keystone-crate.png" alt="Sealed Keystone Crate thumbnail."><span>Sealed Keystone Crate</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S05-01">
+  <header class="console-header">
+    <div><p class="private-note">Act Five</p><h2>S05-01 · <a class="entity-link entity-location inline-entity-link" href="entities/open-valetm-ritual-site.html" data-entity="open-valetm-ritual-site"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Open Vale™ Ritual Site</span></a></h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S05-01"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S05-01-open-valetm-ritual-site.png" data-caption="Open Vale is where the contract becomes a defense of living infrastructure."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S05-01-open-valetm-ritual-site.png" alt="Open Vale™ Ritual Site scene art for The Ward Renewal.">
+  <p><a class="entity-link entity-location inline-entity-link" href="entities/open-valetm-ritual-site.html" data-entity="open-valetm-ritual-site"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Open Vale</span></a> is where the <a class="entity-link entity-clue inline-entity-link" href="entities/route-assurance-contract.html" data-entity="route-assurance-contract"><img class="type-icon" src="../assets/icons/clue.png" alt="" aria-hidden="true"><span>contract</span></a> becomes a defense of living infrastructure.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/open-valetm-ritual-site.html" data-entity="open-valetm-ritual-site"><img src="../assets/entities/open-valetm-ritual-site.png" alt="Open Vale™ Ritual Site thumbnail."><span>Open Vale™ Ritual Site</span></a><a href="entities/keystone-asset.html" data-entity="keystone-asset"><img src="../assets/entities/keystone-asset.png" alt="Keystone Asset thumbnail."><span>Keystone Asset</span></a><a href="entities/forgotten-gods.html" data-entity="forgotten-gods"><img src="../assets/logos/forgotten-gods.png" alt="Forgotten Gods thumbnail."><span>Forgotten Gods</span></a><a href="entities/whitefire-custodian.html" data-entity="whitefire-custodian"><img src="../assets/entities/whitefire-custodian.png" alt="Whitefire Custodian thumbnail."><span>Whitefire Custodian</span></a><a href="entities/goldspire-territories.html" data-entity="goldspire-territories"><img src="../assets/logos/goldspire-territories.png" alt="Goldspire Territories thumbnail."><span>Goldspire Territories</span></a><a href="entities/ritual-countdown.html" data-entity="ritual-countdown"><img src="../assets/entities/ritual-countdown.png" alt="Ritual Countdown thumbnail."><span>Ritual Countdown</span></a><a href="entities/route-assurance-contract.html" data-entity="route-assurance-contract"><img src="../assets/entities/route-assurance-contract.png" alt="Route Assurance Contract thumbnail."><span>Route Assurance Contract</span></a><a href="entities/marlowe-fairwind.html" data-entity="marlowe-fairwind"><img src="../assets/entities/marlowe-fairwind.png" alt="Marlowe Fairwind thumbnail."><span>Marlowe Fairwind</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S05-02">
+  <header class="console-header">
+    <div><p class="private-note">Act Five</p><h2>S05-02 · <a class="entity-link entity-mechanic inline-entity-link" href="entities/short-rest.html" data-entity="short-rest"><img class="type-icon" src="../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Short Rest</span></a> Before the Storm</h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S05-02"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S05-02-short-rest-before-the-storm.png" data-caption="The short rest is a pressure valve, not dead air."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S05-02-short-rest-before-the-storm.png" alt="Short Rest Before the Storm scene art for The Ward Renewal.">
+  <p>The <a class="entity-link entity-mechanic inline-entity-link" href="entities/short-rest.html" data-entity="short-rest"><img class="type-icon" src="../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>short rest</span></a> is a pressure valve, not dead air.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/open-valetm-ritual-site.html" data-entity="open-valetm-ritual-site"><img src="../assets/entities/open-valetm-ritual-site.png" alt="Open Vale™ Ritual Site thumbnail."><span>Open Vale™ Ritual Site</span></a><a href="entities/whitefire-custodian.html" data-entity="whitefire-custodian"><img src="../assets/entities/whitefire-custodian.png" alt="Whitefire Custodian thumbnail."><span>Whitefire Custodian</span></a><a href="entities/keystone-asset.html" data-entity="keystone-asset"><img src="../assets/entities/keystone-asset.png" alt="Keystone Asset thumbnail."><span>Keystone Asset</span></a><a href="entities/old-sable.html" data-entity="old-sable"><img src="../assets/entities/old-sable.png" alt="Old Sable thumbnail."><span>Old Sable</span></a><a href="entities/short-rest.html" data-entity="short-rest"><img src="../assets/entities/short-rest.png" alt="Short Rest thumbnail."><span>Short Rest</span></a><a href="entities/khari-nix.html" data-entity="khari-nix"><img src="../assets/entities/khari-nix.png" alt="Khari Nix thumbnail."><span>Khari Nix</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S05-03">
+  <header class="console-header">
+    <div><p class="private-note">Act Five</p><h2>S05-03 · The Ritual Begins</h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S05-03"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S05-03-the-ritual-begins.png" data-caption="The ritual begins, and the system&#x27;s unpaid risks answer."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S05-03-the-ritual-begins.png" alt="The Ritual Begins scene art for The Ward Renewal.">
+  <p>The ritual begins, and the system&#x27;s unpaid risks answer.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/whitefire-custodian.html" data-entity="whitefire-custodian"><img src="../assets/entities/whitefire-custodian.png" alt="Whitefire Custodian thumbnail."><span>Whitefire Custodian</span></a><a href="entities/keystone-asset.html" data-entity="keystone-asset"><img src="../assets/entities/keystone-asset.png" alt="Keystone Asset thumbnail."><span>Keystone Asset</span></a><a href="entities/ritual-countdown.html" data-entity="ritual-countdown"><img src="../assets/entities/ritual-countdown.png" alt="Ritual Countdown thumbnail."><span>Ritual Countdown</span></a><a href="entities/legacy-security-skeleton.html" data-entity="legacy-security-skeleton"><img src="../assets/entities/legacy-security-skeleton.png" alt="Legacy Security Skeleton thumbnail."><span>Legacy Security Skeleton</span></a><a href="entities/open-valetm-ritual-site.html" data-entity="open-valetm-ritual-site"><img src="../assets/entities/open-valetm-ritual-site.png" alt="Open Vale™ Ritual Site thumbnail."><span>Open Vale™ Ritual Site</span></a><a href="entities/soul-audit-wraith.html" data-entity="soul-audit-wraith"><img src="../assets/entities/soul-audit-wraith.png" alt="Soul-Audit Wraith thumbnail."><span>Soul-Audit Wraith</span></a><a href="entities/fear.html" data-entity="fear"><img src="../assets/entities/fear.png" alt="Fear thumbnail."><span>Fear</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S05-04">
+  <header class="console-header">
+    <div><p class="private-note">Act Five</p><h2>S05-04 · <a class="entity-link entity-enemy inline-entity-link" href="entities/legacy-security-skeleton.html" data-entity="legacy-security-skeleton"><img class="type-icon" src="../assets/icons/enemy.png" alt="" aria-hidden="true"><span>Legacy Security Skeletons</span></a></h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S05-04"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S05-04-legacy-security-skeletons.png" data-caption="Legacy Security Skeletons are old protection logic with the people scraped out."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S05-04-legacy-security-skeletons.png" alt="Legacy Security Skeletons scene art for The Ward Renewal.">
+  <p><a class="entity-link entity-enemy inline-entity-link" href="entities/legacy-security-skeleton.html" data-entity="legacy-security-skeleton"><img class="type-icon" src="../assets/icons/enemy.png" alt="" aria-hidden="true"><span>Legacy Security Skeletons</span></a> are old protection logic with the people scraped out.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/legacy-security-skeleton.html" data-entity="legacy-security-skeleton"><img src="../assets/entities/legacy-security-skeleton.png" alt="Legacy Security Skeleton thumbnail."><span>Legacy Security Skeleton</span></a><a href="entities/market-correction.html" data-entity="market-correction"><img src="../assets/entities/market-correction.png" alt="Market Correction thumbnail."><span>Market Correction</span></a><a href="entities/open-valetm-ritual-site.html" data-entity="open-valetm-ritual-site"><img src="../assets/entities/open-valetm-ritual-site.png" alt="Open Vale™ Ritual Site thumbnail."><span>Open Vale™ Ritual Site</span></a><a href="entities/whitefire-custodian.html" data-entity="whitefire-custodian"><img src="../assets/entities/whitefire-custodian.png" alt="Whitefire Custodian thumbnail."><span>Whitefire Custodian</span></a><a href="entities/ritual-countdown.html" data-entity="ritual-countdown"><img src="../assets/entities/ritual-countdown.png" alt="Ritual Countdown thumbnail."><span>Ritual Countdown</span></a><a href="entities/garrick-reed.html" data-entity="garrick-reed"><img src="../assets/entities/garrick-reed.png" alt="Garrick Reed thumbnail."><span>Garrick Reed</span></a><a href="entities/slider-system.html" data-entity="slider-system"><img src="../assets/entities/slider-system.png" alt="Slider System thumbnail."><span>Slider System</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S05-05">
+  <header class="console-header">
+    <div><p class="private-note">Act Five</p><h2>S05-05 · <a class="entity-link entity-enemy inline-entity-link" href="entities/soul-audit-wraith.html" data-entity="soul-audit-wraith"><img class="type-icon" src="../assets/icons/enemy.png" alt="" aria-hidden="true"><span>Soul-Audit Wraiths</span></a></h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S05-05"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S05-05-soul-audit-wraiths.png" data-caption="Soul-Audit Wraiths turn fear, debt, and memory into pressure."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S05-05-soul-audit-wraiths.png" alt="Soul-Audit Wraiths scene art for The Ward Renewal.">
+  <p><a class="entity-link entity-enemy inline-entity-link" href="entities/soul-audit-wraith.html" data-entity="soul-audit-wraith"><img class="type-icon" src="../assets/icons/enemy.png" alt="" aria-hidden="true"><span>Soul-Audit Wraiths</span></a> turn <a class="entity-link entity-mechanic inline-entity-link" href="entities/fear.html" data-entity="fear"><img class="type-icon" src="../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>fear</span></a>, debt, and memory into pressure.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/soul-audit-wraith.html" data-entity="soul-audit-wraith"><img src="../assets/entities/soul-audit-wraith.png" alt="Soul-Audit Wraith thumbnail."><span>Soul-Audit Wraith</span></a><a href="entities/untethered.html" data-entity="untethered"><img src="../assets/entities/untethered.png" alt="Untethered thumbnail."><span>Untethered</span></a><a href="entities/market-correction.html" data-entity="market-correction"><img src="../assets/entities/market-correction.png" alt="Market Correction thumbnail."><span>Market Correction</span></a><a href="entities/ritual-countdown.html" data-entity="ritual-countdown"><img src="../assets/entities/ritual-countdown.png" alt="Ritual Countdown thumbnail."><span>Ritual Countdown</span></a><a href="entities/whitefire-custodian.html" data-entity="whitefire-custodian"><img src="../assets/entities/whitefire-custodian.png" alt="Whitefire Custodian thumbnail."><span>Whitefire Custodian</span></a><a href="entities/soul-audit-memory-shard.html" data-entity="soul-audit-memory-shard"><img src="../assets/entities/soul-audit-memory-shard.png" alt="Soul-Audit Memory Shard thumbnail."><span>Soul-Audit Memory Shard</span></a><a href="entities/route-ledger.html" data-entity="route-ledger"><img src="../assets/entities/route-ledger.png" alt="Route Ledger thumbnail."><span>Route Ledger</span></a><a href="entities/fear.html" data-entity="fear"><img src="../assets/entities/fear.png" alt="Fear thumbnail."><span>Fear</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S05-06">
+  <header class="console-header">
+    <div><p class="private-note">Act Five</p><h2>S05-06 · <a class="entity-link entity-clue inline-entity-link" href="entities/market-correction.html" data-entity="market-correction"><img class="type-icon" src="../assets/icons/clue.png" alt="" aria-hidden="true"><span>Market Correction</span></a></h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S05-06"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S05-06-market-correction.png" data-caption="Market Correction is the system trying to restore profit logic over human safety."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S05-06-market-correction.png" alt="Market Correction scene art for The Ward Renewal.">
+  <p><a class="entity-link entity-clue inline-entity-link" href="entities/market-correction.html" data-entity="market-correction"><img class="type-icon" src="../assets/icons/clue.png" alt="" aria-hidden="true"><span>Market Correction</span></a> is the system trying to restore profit logic over human safety.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/market-correction.html" data-entity="market-correction"><img src="../assets/entities/market-correction.png" alt="Market Correction thumbnail."><span>Market Correction</span></a><a href="entities/legacy-security-skeleton.html" data-entity="legacy-security-skeleton"><img src="../assets/entities/legacy-security-skeleton.png" alt="Legacy Security Skeleton thumbnail."><span>Legacy Security Skeleton</span></a><a href="entities/open-valetm-ritual-site.html" data-entity="open-valetm-ritual-site"><img src="../assets/entities/open-valetm-ritual-site.png" alt="Open Vale™ Ritual Site thumbnail."><span>Open Vale™ Ritual Site</span></a><a href="entities/marlowe-fairwind.html" data-entity="marlowe-fairwind"><img src="../assets/entities/marlowe-fairwind.png" alt="Marlowe Fairwind thumbnail."><span>Marlowe Fairwind</span></a><a href="entities/whitefire-custodian.html" data-entity="whitefire-custodian"><img src="../assets/entities/whitefire-custodian.png" alt="Whitefire Custodian thumbnail."><span>Whitefire Custodian</span></a><a href="entities/corporate-seal-wax-residue.html" data-entity="corporate-seal-wax-residue"><img src="../assets/entities/corporate-seal-wax-residue.png" alt="Corporate Seal Wax Residue thumbnail."><span>Corporate Seal Wax Residue</span></a><a href="entities/untethered.html" data-entity="untethered"><img src="../assets/entities/untethered.png" alt="Untethered thumbnail."><span>Untethered</span></a><a href="entities/vulnerable.html" data-entity="vulnerable"><img src="../assets/entities/vulnerable.png" alt="Vulnerable thumbnail."><span>Vulnerable</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S05-07">
+  <header class="console-header">
+    <div><p class="private-note">Act Five</p><h2>S05-07 · The Ward Locks Into Place</h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S05-07"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S05-07-the-ward-locks-into-place.png" data-caption="The ward restoration is a reward because Hush can breathe again."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S05-07-the-ward-locks-into-place.png" alt="The Ward Locks Into Place scene art for The Ward Renewal.">
+  <p>The ward restoration is a reward because <a class="entity-link entity-location inline-entity-link" href="entities/hush.html" data-entity="hush"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Hush</span></a> can breathe again.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/keystone-asset.html" data-entity="keystone-asset"><img src="../assets/entities/keystone-asset.png" alt="Keystone Asset thumbnail."><span>Keystone Asset</span></a><a href="entities/whitefire-custodian.html" data-entity="whitefire-custodian"><img src="../assets/entities/whitefire-custodian.png" alt="Whitefire Custodian thumbnail."><span>Whitefire Custodian</span></a><a href="entities/open-valetm-ritual-site.html" data-entity="open-valetm-ritual-site"><img src="../assets/entities/open-valetm-ritual-site.png" alt="Open Vale™ Ritual Site thumbnail."><span>Open Vale™ Ritual Site</span></a><a href="entities/relay-spire.html" data-entity="relay-spire"><img src="../assets/entities/relay-spire.png" alt="Relay Spire thumbnail."><span>Relay Spire</span></a><a href="entities/ritual-countdown.html" data-entity="ritual-countdown"><img src="../assets/entities/ritual-countdown.png" alt="Ritual Countdown thumbnail."><span>Ritual Countdown</span></a><a href="entities/hush.html" data-entity="hush"><img src="../assets/entities/hush.png" alt="Hush thumbnail."><span>Hush</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S06-01">
+  <header class="console-header">
+    <div><p class="private-note">Epilogue</p><h2>S06-01 · Back in <a class="entity-link entity-location inline-entity-link" href="entities/the-hanging-office.html" data-entity="the-hanging-office"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>the Hanging Office</span></a></h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S06-01"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S06-01-back-in-the-hanging-office.png" data-caption="Back at the Hanging Office, the party can see how the contract changed them."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S06-01-back-in-the-hanging-office.png" alt="Back in the Hanging Office scene art for Beyond the Contract.">
+  <p>Back at <a class="entity-link entity-location inline-entity-link" href="entities/the-hanging-office.html" data-entity="the-hanging-office"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>the Hanging Office</span></a>, the party can see how the <a class="entity-link entity-clue inline-entity-link" href="entities/route-assurance-contract.html" data-entity="route-assurance-contract"><img class="type-icon" src="../assets/icons/clue.png" alt="" aria-hidden="true"><span>contract</span></a> changed them.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/the-hanging-office.html" data-entity="the-hanging-office"><img src="../assets/entities/the-hanging-office.png" alt="The Hanging Office thumbnail."><span>The Hanging Office</span></a><a href="entities/whitefire-custodian.html" data-entity="whitefire-custodian"><img src="../assets/entities/whitefire-custodian.png" alt="Whitefire Custodian thumbnail."><span>Whitefire Custodian</span></a><a href="entities/keystone-asset.html" data-entity="keystone-asset"><img src="../assets/entities/keystone-asset.png" alt="Keystone Asset thumbnail."><span>Keystone Asset</span></a><a href="entities/hush.html" data-entity="hush"><img src="../assets/entities/hush.png" alt="Hush thumbnail."><span>Hush</span></a><a href="entities/route-ledger.html" data-entity="route-ledger"><img src="../assets/entities/route-ledger.png" alt="Route Ledger thumbnail."><span>Route Ledger</span></a><a href="entities/route-assurance-contract.html" data-entity="route-assurance-contract"><img src="../assets/entities/route-assurance-contract.png" alt="Route Assurance Contract thumbnail."><span>Route Assurance Contract</span></a><a href="entities/marlowe-fairwind.html" data-entity="marlowe-fairwind"><img src="../assets/entities/marlowe-fairwind.png" alt="Marlowe Fairwind thumbnail."><span>Marlowe Fairwind</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+
+<article class="media-board-card" id="media-S06-02">
+  <header class="console-header">
+    <div><p class="private-note">Epilogue</p><h2>S06-02 · The <a class="entity-link entity-location inline-entity-link" href="entities/relay-spire.html" data-entity="relay-spire"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Relay Spire</span></a> Hook</h2></div>
+    <div class="console-actions">
+      <button class="icon-button" type="button" aria-label="Show to players" title="Show to players" data-show-player-scene="S06-02"><img src="../assets/icons/action-show-players.png" alt="" aria-hidden="true"><span class="sr-only">Show to players</span></button>
+      <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../assets/scenes/S06-02-the-relay-spire-hook.png" data-caption="The Relay Spire hook points beyond the one-shot without stealing this ending."><img src="../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+    </div>
+  </header>
+  <img class="media-main-image" src="../assets/scenes/S06-02-the-relay-spire-hook.png" alt="The Relay Spire Hook scene art for Beyond the Contract.">
+  <p>The <a class="entity-link entity-location inline-entity-link" href="entities/relay-spire.html" data-entity="relay-spire"><img class="type-icon" src="../assets/icons/location.png" alt="" aria-hidden="true"><span>Relay Spire</span></a> hook points beyond the one-shot without stealing this ending.</p>
+  <details class="scene-block">
+    <summary>NPC Portraits / Object Images / Handout Slots</summary>
+    <div class="media-thumb-grid"><a href="entities/relay-spire.html" data-entity="relay-spire"><img src="../assets/entities/relay-spire.png" alt="Relay Spire thumbnail."><span>Relay Spire</span></a><a href="entities/spirekeeper.html" data-entity="spirekeeper"><img src="../assets/entities/spirekeeper.png" alt="Spirekeeper thumbnail."><span>Spirekeeper</span></a><a href="entities/old-sable.html" data-entity="old-sable"><img src="../assets/entities/old-sable.png" alt="Old Sable thumbnail."><span>Old Sable</span></a><a href="entities/whitefire-custodian.html" data-entity="whitefire-custodian"><img src="../assets/entities/whitefire-custodian.png" alt="Whitefire Custodian thumbnail."><span>Whitefire Custodian</span></a><a href="entities/open-valetm-ritual-site.html" data-entity="open-valetm-ritual-site"><img src="../assets/entities/open-valetm-ritual-site.png" alt="Open Vale™ Ritual Site thumbnail."><span>Open Vale™ Ritual Site</span></a><a href="entities/marlowe-fairwind.html" data-entity="marlowe-fairwind"><img src="../assets/entities/marlowe-fairwind.png" alt="Marlowe Fairwind thumbnail."><span>Marlowe Fairwind</span></a></div>
+    <p class="muted">Ambience/music/video slots are planning notes only unless actual files are added.</p>
+  </details>
+</article>
+</section>
+</article>
+</main>
+  
+<section class="dev-toolbar" aria-label="Development toggles">
+  <strong>Dev</strong>
+  <label><input type="checkbox" data-dev-toggle="prompts"> Show Image Prompts</label>
+  <label><input type="checkbox" data-dev-toggle="assets"> Show Missing Asset Report</label>
+  <label><input type="checkbox" data-dev-toggle="qa"> Show Production QA</label>
+</section>
+
+  <dialog id="lightbox" class="lightbox">
+    <button class="dialog-close" type="button" aria-label="Close image">×</button>
+    <img alt="">
+    <p class="dialog-caption"></p>
+    <div class="image-actions">
+      <button class="image-window-button" type="button" data-lightbox-window>Open Image Window</button>
+      <a class="button secondary lightbox-raw-link" href="#" target="_blank" rel="noopener">Open Raw Image</a>
+    </div>
+    <details class="dev-only prompt-block">
+      <summary>Image Prompt</summary>
+      <p class="dialog-prompt"></p>
+    </details>
+  </dialog>
+  
+<aside id="rules-drawer" class="rules-drawer" aria-hidden="true" aria-label="GM Rules Drawer">
+  <div class="rules-drawer-inner">
+    <header class="drawer-header">
+      <div>
+        <p class="private-note">Searchable GM Rules Drawer</p>
+        <h2>Daggerheart Table Support</h2>
+      </div>
+      <button type="button" class="drawer-close" data-rules-close>Close</button>
+    </header>
+    <label class="search-label">Search rules <input id="rules-search" type="search" placeholder="Fear, DC, Untethered, rest"></label>
+    <div class="dice-mode-inline">
+      <button type="button" data-dice-mode-set="duality_2d12">Use Duality 2d12</button>
+      <button type="button" data-dice-mode-set="p2p_jenga_fear">Use P2P Jenga Fear</button>
+    </div>
+    
+    <section class="rules-section" id="rule-action-roll" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Action Roll / Duality Dice</h3>
+      <p>Roll two d12s, one Hope die and one Fear die. Add the fitting trait and any bonuses, then compare the total to the Difficulty.</p><p>Higher Hope die means with Hope. Higher Fear die means with Fear. Matching dice are a Critical Success.</p><p>Reaction rolls use the same dice structure but do not generate Hope/Fear or GM moves.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-hope-fear-matrix" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Hope / Fear Outcome Matrix</h3>
+      
+      <div class="table-scroll"><table><thead><tr><th>Total</th><th>Spin</th><th>Result</th></tr></thead><tbody><tr><td>&gt;= Difficulty</td><td>Hope</td><td>Success with Hope: succeed and gain Hope; add generosity or clean position.</td></tr><tr><td>&gt;= Difficulty</td><td>Fear</td><td>Success with Fear: succeed, but the GM gains Fear and makes the cost bite.</td></tr><tr><td>&lt; Difficulty</td><td>Hope</td><td>Failure with Hope: miss the goal, but gain Hope and a useful thread.</td></tr><tr><td>&lt; Difficulty</td><td>Fear</td><td>Failure with Fear: fail and the GM makes a hard move that follows from the fiction.</td></tr><tr><td>matching dice</td><td>Critical</td><td>Critical Success: best case, gain Hope, clear 1 Stress, and add a small gift.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="rules-section" id="rule-slider-outcomes" data-rules-text>
+      <p class="private-note">#slider optional house layer</p>
+      <h3>Slider Outcomes</h3>
+      <p>Kyle&#x27;s Slider System adds degree to the Daggerheart result. It is a house layer, not official rules text.</p><p>First read total against the hinge D. Then overlay Hope/Fear spin. Crit always takes the top outcome.</p>
+      <div class="table-scroll"><table><thead><tr><th>Band</th><th>Total vs D</th><th>Use</th></tr></thead><tbody><tr><td>Botch</td><td>&lt;= D - 5</td><td>Failure and the situation worsens.</td></tr><tr><td>Miss</td><td>D - 4 to D - 1</td><td>Failure with a partial thread or near miss.</td></tr><tr><td>Hit</td><td>D to D + 4</td><td>Success at a cost.</td></tr><tr><td>Clean</td><td>D + 5 to D + 9</td><td>Clean success.</td></tr><tr><td>Soar</td><td>&gt;= D + 10</td><td>Success plus extra leverage.</td></tr><tr><td>Crit</td><td>matching dice</td><td>Top outcome, gain Hope, clear 1 Stress, small gift.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="rules-section" id="rule-difficulty-ladder" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Difficulty Ladder</h3>
+      
+      <div class="table-scroll"><table><thead><tr><th>Label</th><th>DC</th><th>Use</th></tr></thead><tbody><tr><td>Easy</td><td>10</td><td>Low pressure, beginner-friendly, obvious route.</td></tr><tr><td>Medium / Standard</td><td>15</td><td>Default meaningful uncertainty.</td></tr><tr><td>Hard</td><td>20</td><td>Dangerous, contested, or specialized task.</td></tr><tr><td>Very Hard</td><td>25</td><td>Exceptional, unstable, rushed, or opposed.</td></tr><tr><td>Near-impossible</td><td>30</td><td>Legendary attempt; usually offer another route.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="rules-section" id="rule-traits" data-rules-text>
+      <p class="private-note">#adaptation aid</p>
+      <h3>Traits and D&amp;D-Brain Translation</h3>
+      
+      <div class="table-scroll"><table><thead><tr><th>Trait</th><th>What it covers</th></tr></thead><tbody><tr><td>Agility</td><td>Sprint, leap, maneuver, dodge, balance, climb fast, keep footing.</td></tr><tr><td>Strength</td><td>Lift, smash, grapple, hold, carry, resist force, endure strain.</td></tr><tr><td>Finesse</td><td>Control, hide, tinker, pick, disable, handle delicate details.</td></tr><tr><td>Instinct</td><td>Perceive, sense, navigate, track, read danger, read animals.</td></tr><tr><td>Presence</td><td>Charm, lead, soothe, deceive, perform, intimidate, negotiate.</td></tr><tr><td>Knowledge</td><td>Recall, analyze, investigate, comprehend, reason from lore.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="rules-section" id="rule-modifiers-help" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Advantage, Disadvantage, Help, Experiences</h3>
+      <p>Advantage adds a d6. Disadvantage subtracts a d6. They cancel one-for-one.</p><p>Help an Ally: an ally spends 1 Hope, rolls a d6, and adds it to the acting PC&#x27;s roll.</p><p>Spend 1 Hope on a relevant Experience to add +2. Tag Team rolls cost 3 Hope and let two PCs act together.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-gm-fear" data-rules-text>
+      <p class="private-note">#rules-canon + #p2p</p>
+      <h3>GM Fear Economy and Fear Spends</h3>
+      <p>GM starts with 1 Fear per PC and can hold up to 12 Fear.</p><p>Spend Fear to seize spotlight, make an extra move, spotlight extra adversaries, add adversary Experience, trigger Fear Features, advance countdowns, or reveal cost.</p><p>P2P Jenga Fear variant: with Fear means pull a numbered tower block. Block color is narrative corporate attention. Collapse fires banked consequences.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-combat" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Adversary Attacks, Damage, Armor, Stress</h3>
+      <p>No fixed initiative. Pass spotlight by danger, intent, and consequences.</p><p>Adversary attacks roll d20 + attack against PC Evasion. PCs do not roll defense by default.</p><p>Damage uses thresholds. Armor Slots reduce severity by one threshold. If a PC is out of Stress and must mark more, they become Vulnerable and may mark HP.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-rests-countdowns" data-rules-text>
+      <p class="private-note">#rules-canon + #adaptation</p>
+      <h3>Short Rest, Countdown Die, Ritual Countdown</h3>
+      <p>Short rest: each PC chooses two rest moves. The GM gains 1d4 Fear.</p><p>Countdowns are visible pressure. Tell players what changes when they tick.</p><p>Open Vale uses a ritual countdown. It ticks down when defenders make progress and up when the Custodian is harmed.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-conditions" data-rules-text>
+      <p class="private-note">#rules-canon + #adaptation</p>
+      <h3>Conditions</h3>
+      <p>Core conditions: Hidden, Restrained, Vulnerable.</p><p>Goldspire conditions: Untethered, Audited, Bramble-Snared, Ward-Sick, Compliance-Flagged, Memory-Raw, Debt-Marked.</p><p>Describe the fiction first, then name the condition.</p>
+      
+    </section>
+
+  </div>
+</aside>
+
+  <aside id="hover-card" class="hover-card" aria-hidden="true"></aside>
+  <script src="../data/atlas-data.js"></script>
+  <script src="../app.js"></script>
+</body>
+</html>

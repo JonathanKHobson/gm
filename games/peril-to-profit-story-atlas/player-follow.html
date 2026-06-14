@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Player Follow - Goldspire Story Atlas</title>
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/run-mode.css">
+</head>
+<body class="player-follow-page">
+  <main class="player-follow-shell">
+    <header>
+      <p class="run-kicker">Static follow-along</p>
+      <h1>Player Follow</h1>
+      <p>This page is static for GitHub Pages or local files. It does not promise automatic phone sync. Match the slide number shown on the TV or GM screen, or use a direct link like <code>?slide=S03-02</code>.</p>
+      <p><button type="button" data-follow-action="copy-url">Copy Current Slide URL</button></p>
+    </header>
+    <section id="follow-current" class="follow-current" aria-live="polite"></section>
+    <nav class="follow-controls" aria-label="Follow controls">
+      <button type="button" data-follow-action="previous">Previous</button>
+      <button type="button" data-follow-action="next">Next</button>
+    </nav>
+    <section>
+      <h2>Manual Table of Contents</h2>
+      <p>To keep later reveals off the table, the list shows slide number and section. Open the slide Kyle tells you to follow.</p>
+      <div id="follow-toc" class="follow-toc"></div>
+    </section>
+  </main>
+  <script src="data/slides-data.js"></script>
+  <script src="js/player-follow.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+[
+  {
+    "id": "hexmart-pocket-ward-cracked",
+    "name": "Hexmart Pocket Ward™ (cracked)",
+    "types": [
+      "sellable",
+      "clue"
+    ],
+    "value_band": "1 Chit / mostly worthless",
+    "effect": "No real ward effect; failed consumer protection charm.",
+    "source": [
+      "Tamsin Vell",
+      "Vendor Cart"
+    ],
+    "story_clue": "The driver trusted cheap protection and it failed.",
+    "tags": [
+      "Hexmart",
+      "false-safety",
+      "ward-infrastructure"
+    ]
+  },
+  {
+    "id": "stride-salve",
+    "name": "Stride Salve",
+    "types": [
+      "consumable"
+    ],
+    "value_band": "minor useful consumable",
+    "effect": "Clear 1 Stress or move at Far without a roll once.",
+    "source": [
+      "Beginner Loot Board"
+    ],
+    "story_clue": "Common frontier aid for exhausted couriers."
+  },
+  {
+    "id": "grindstone-vial",
+    "name": "Grindstone Vial",
+    "types": [
+      "consumable"
+    ],
+    "value_band": "minor useful consumable",
+    "effect": "Next damage roll adds +1d6.",
+    "source": [
+      "Beginner Loot Board"
+    ]
+  },
+  {
+    "id": "lark-moth-lantern",
+    "name": "Lark-Moth Lantern",
+    "types": [
+      "utility"
+    ],
+    "value_band": "modest",
+    "effect": "Soft light; once/rest ask GM one question about immediate area, no roll.",
+    "source": [
+      "Beginner Loot Board"
+    ]
+  },
+  {
+    "id": "bramble-cutters-hook",
+    "name": "Bramble-Cutter's Hook",
+    "types": [
+      "weapon",
+      "utility"
+    ],
+    "value_band": "modest",
+    "effect": "1d6 physical tool-knife; advantage to cut ropes/snares/free Bramble-Snared.",
+    "source": [
+      "Bramble Union",
+      "Beginner Loot Board"
+    ]
+  },
+  {
+    "id": "forged-compliance-stamp",
+    "name": "Compliance Stamp (forged)",
+    "types": [
+      "utility",
+      "clue"
+    ],
+    "value_band": "valuable if unscrutinized",
+    "effect": "Once, auto-pass bureaucratic/checkpoint gate without rolling; risky if inspected.",
+    "source": [
+      "Beginner Loot Board"
+    ],
+    "tags": [
+      "p2p",
+      "bureaucracy"
+    ]
+  },
+  {
+    "id": "firstmoss-poultice",
+    "name": "Firstmoss Poultice",
+    "types": [
+      "consumable"
+    ],
+    "value_band": "modest",
+    "effect": "Tend to Wounds: clear 1d4+1 HP outside a rest.",
+    "source": [
+      "Hush",
+      "Clover Co-op"
+    ]
+  },
+  {
+    "id": "mixed-chits",
+    "name": "Bag of Mixed Chits",
+    "types": [
+      "sellable"
+    ],
+    "value_band": "1 handful of gold / Continuance Credits",
+    "effect": "Currency."
+  },
+  {
+    "id": "whetcord",
+    "name": "Whetcord",
+    "types": [
+      "consumable"
+    ],
+    "value_band": "minor",
+    "effect": "Once, reroll a damage die and keep the higher."
+  },
+  {
+    "id": "tinkers-kit-used",
+    "name": "Tinker's Kit, Used",
+    "types": [
+      "utility"
+    ],
+    "value_band": "useful",
+    "effect": "Advantage on Finesse rolls to pick locks, disarm simple traps, or jury-rig."
+  },
+  {
+    "id": "soul-quiet-charm",
+    "name": "Soul-Quiet Charm",
+    "types": [
+      "consumable"
+    ],
+    "value_band": "rare for Tier 1",
+    "effect": "Once, ignore Audited or Memory-Raw when it would be applied.",
+    "tags": [
+      "Soulspire",
+      "adaptation"
+    ]
+  },
+  {
+    "id": "strixwolf-down-cloak",
+    "name": "Strixwolf-Down Cloak",
+    "types": [
+      "utility"
+    ],
+    "value_band": "meaningful gift, not casual loot",
+    "effect": "Once/rest, advantage on Agility roll to move silently or break line of sight.",
+    "source": [
+      "Strixwolf Mercy Track"
+    ]
+  }
+]

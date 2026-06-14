@@ -1,0 +1,72 @@
+[
+  {
+    "id": "hidden",
+    "name": "Hidden",
+    "type": "rules-canon",
+    "effect": "Unseen; rolls against you have disadvantage.",
+    "clears": "Enemy sees you, you enter line of sight, or you attack."
+  },
+  {
+    "id": "restrained",
+    "name": "Restrained",
+    "type": "rules-canon",
+    "effect": "Cannot move, but can act from position.",
+    "clears": "Successful move/trait roll or source ends."
+  },
+  {
+    "id": "vulnerable",
+    "name": "Vulnerable",
+    "type": "rules-canon",
+    "effect": "All rolls targeting you have advantage.",
+    "clears": "Move clears it or source/duration ends."
+  },
+  {
+    "id": "untethered",
+    "name": "Untethered",
+    "type": "module",
+    "effect": "Soul knocked loose; cannot act until returned.",
+    "clears": "Ritual Countdown ticks down; if whole party untethered, snap back with HP cost."
+  },
+  {
+    "id": "audited",
+    "name": "Audited",
+    "type": "adaptation",
+    "effect": "Rolls against you have advantage until cleared; reskinned Vulnerable.",
+    "clears": "Presence/Knowledge to dispute finding or end of scene."
+  },
+  {
+    "id": "bramble-snared",
+    "name": "Bramble-Snared",
+    "type": "module",
+    "effect": "Restrained; taking damage while snared marks +1 Stress.",
+    "clears": "Strength or Finesse roll to cut/free yourself."
+  },
+  {
+    "id": "ward-sick",
+    "name": "Ward-Sick",
+    "type": "adaptation",
+    "effect": "Disadvantage on Instinct rolls after crossing failing ward boundary.",
+    "clears": "Short rest or entering healthy ward."
+  },
+  {
+    "id": "compliance-flagged",
+    "name": "Compliance-Flagged",
+    "type": "p2p",
+    "effect": "Next time you would gain Hope, you do not; system withholds it.",
+    "clears": "Knowledge/Presence appeal or leave warded zone."
+  },
+  {
+    "id": "memory-raw",
+    "name": "Memory-Raw",
+    "type": "adaptation",
+    "effect": "First social/memory-related roll each scene has disadvantage until soothed.",
+    "clears": "Ally comforts you, short rest, or Soul-Quiet Charm."
+  },
+  {
+    "id": "debt-marked",
+    "name": "Debt-Marked",
+    "type": "adaptation",
+    "effect": "Soul-Audit Wraiths prioritize you; GM may spend Fear to move them toward you.",
+    "clears": "Settle memory/debt fictionally or ritual completes."
+  }
+]

@@ -1,0 +1,856 @@
+{
+  "generated": [
+    {
+      "slot": "party-reference",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_07e8426b4bcfecb1016a2d204b00c08194bc60af549a7dac00.png",
+      "path": "assets/entities/party-reference.png"
+    },
+    {
+      "slot": "icon:npc",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d361c4ac48196870f8fc2ea1b0aa3.png",
+      "path": "assets/icons/npc.png"
+    },
+    {
+      "slot": "icon:creature",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d365001b88196b06f1d034704739a.png",
+      "path": "assets/icons/creature.png"
+    },
+    {
+      "slot": "icon:enemy",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d36a7a8008196b31f676ca5fe5498.png",
+      "path": "assets/icons/enemy.png"
+    },
+    {
+      "slot": "icon:faction",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d37009a4c81969f61c9a66365c2b0.png",
+      "path": "assets/icons/faction.png"
+    },
+    {
+      "slot": "icon:corporation",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d37601ac48196b682ac33663324b5.png",
+      "path": "assets/icons/corporation.png"
+    },
+    {
+      "slot": "icon:location",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d37be24c88196b9f0d387ef7f23d0.png",
+      "path": "assets/icons/location.png"
+    },
+    {
+      "slot": "icon:item",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3820077c8196b2f4b1bf02f0fe40.png",
+      "path": "assets/icons/item.png"
+    },
+    {
+      "slot": "icon:clue",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d38803dd08196ba2c46254779d4ee.png",
+      "path": "assets/icons/clue.png"
+    },
+    {
+      "slot": "icon:mechanic",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d38e80938819696a94ecaa15f0c6e.png",
+      "path": "assets/icons/mechanic.png"
+    },
+    {
+      "slot": "icon:condition",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d39555d50819686c1abe7f864131e.png",
+      "path": "assets/icons/condition.png"
+    },
+    {
+      "slot": "scene:S00-01",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_07e8426b4bcfecb1016a2d212051908194a99f2aeb35411b17.png",
+      "path": "assets/scenes/S00-01-the-job.png"
+    },
+    {
+      "slot": "scene:S01-01",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d33c216348196805de1684ff3c1a8.png",
+      "path": "assets/scenes/S01-01-entering-sablewoodtm-logistics-preserve.png"
+    },
+    {
+      "slot": "scene:S01-02",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d344a22408196a61f106c1ac97712.png",
+      "path": "assets/scenes/S01-02-the-overturned-vendor-cart.png"
+    },
+    {
+      "slot": "scene:S01-03",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_07e8426b4bcfecb1016a2d21d319f48194824c8b8f72954566.png",
+      "path": "assets/scenes/S01-03-the-strixwolf-mother.png"
+    },
+    {
+      "slot": "scene:S01-04",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d34b15dd88196a4d0b23a1f4c5101.png",
+      "path": "assets/scenes/S01-04-the-first-roll.png"
+    },
+    {
+      "slot": "scene:S02-01",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d35119eac819680c247562e19c5f7.png",
+      "path": "assets/scenes/S02-01-the-fallout-investigation.png"
+    },
+    {
+      "slot": "scene:S02-02",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3570ed1481968d632f4320b518f6.png",
+      "path": "assets/scenes/S02-02-eyes-in-the-brush.png"
+    },
+    {
+      "slot": "scene:S02-03",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_07e8426b4bcfecb1016a2d221a6a4081949dcce8e353dfed0c.png",
+      "path": "assets/scenes/S02-03-bramble-union-ambush.png"
+    },
+    {
+      "slot": "scene:S02-04",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3c7c74608196894b8fc505e6ab50.png",
+      "path": "assets/scenes/S02-04-after-the-ambush.png"
+    },
+    {
+      "slot": "scene:S03-01",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_07e8426b4bcfecb1016a2d22670944819480ecf8299444d4e0.png",
+      "path": "assets/scenes/S03-01-arrival-at-hush.png"
+    },
+    {
+      "slot": "scene:S03-02",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3d70cfac8196b6506952e928ea13.png",
+      "path": "assets/scenes/S03-02-local-clues.png"
+    },
+    {
+      "slot": "scene:S03-03",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3e3bdb788196828f4bb9473d0b3e.png",
+      "path": "assets/scenes/S03-03-the-clover-co-op.png"
+    },
+    {
+      "slot": "scene:S03-04",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3f30d234819699640845baa7c799.png",
+      "path": "assets/scenes/S03-04-firstmoss-launch-festival.png"
+    },
+    {
+      "slot": "scene:S04-01",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d401a8e9881968568ed14a8f9efaa.png",
+      "path": "assets/scenes/S04-01-through-the-farms.png"
+    },
+    {
+      "slot": "scene:S04-02",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d4092a470819693d42f4a7f6575fb.png",
+      "path": "assets/scenes/S04-02-the-hanging-office-exterior.png"
+    },
+    {
+      "slot": "scene:S04-03",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_07e8426b4bcfecb1016a2d2329420481948da9d3ed7c0d890e.png",
+      "path": "assets/scenes/S04-03-the-whitefire-custodian.png"
+    },
+    {
+      "slot": "scene:S04-04",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d411df4e4819692f2fc2757abb882.png",
+      "path": "assets/scenes/S04-04-the-keystone-reveal.png"
+    },
+    {
+      "slot": "scene:S04-05",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d41ae6460819691102d5096248fa7.png",
+      "path": "assets/scenes/S04-05-toward-open-vale.png"
+    },
+    {
+      "slot": "scene:S05-01",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d4234e99081968271579670b46315.png",
+      "path": "assets/scenes/S05-01-open-valetm-ritual-site.png"
+    },
+    {
+      "slot": "scene:S05-02",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d42c9bbc48196bf07a474557b41b7.png",
+      "path": "assets/scenes/S05-02-short-rest-before-the-storm.png"
+    },
+    {
+      "slot": "scene:S05-03",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_07e8426b4bcfecb1016a2d237bd5008194b8f75167162f05a3.png",
+      "path": "assets/scenes/S05-03-the-ritual-begins.png"
+    },
+    {
+      "slot": "scene:S05-04",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d434b4cb08196ba2bfb581968b697.png",
+      "path": "assets/scenes/S05-04-legacy-security-skeletons.png"
+    },
+    {
+      "slot": "scene:S05-05",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d4455a4cc8196a5729f706987554f.png",
+      "path": "assets/scenes/S05-05-soul-audit-wraiths.png"
+    },
+    {
+      "slot": "scene:S05-06",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d44eebf708196b4f6e9170d1c76fd.png",
+      "path": "assets/scenes/S05-06-market-correction.png"
+    },
+    {
+      "slot": "scene:S05-07",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d46227cd08196a4ef0ee4bf155248.png",
+      "path": "assets/scenes/S05-07-the-ward-locks-into-place.png"
+    },
+    {
+      "slot": "scene:S06-01",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d47475a5c81968c7a4f5f5670eafd.png",
+      "path": "assets/scenes/S06-01-back-in-the-hanging-office.png"
+    },
+    {
+      "slot": "scene:S06-02",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_07e8426b4bcfecb1016a2d24425d6881948a92998e0728b156.png",
+      "path": "assets/scenes/S06-02-the-relay-spire-hook.png"
+    },
+    {
+      "slot": "entity:Marlowe Fairwind",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d495facd88196ab0afb047dfeee02.png",
+      "path": "assets/entities/marlowe-fairwind.png"
+    },
+    {
+      "slot": "entity:Barnacle",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d4a0b387c81968129ddc909a4ef89.png",
+      "path": "assets/entities/barnacle.png"
+    },
+    {
+      "slot": "entity:Garrick Reed",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d4a9dcd188196aef48fe081f1c952.png",
+      "path": "assets/entities/garrick-reed.png"
+    },
+    {
+      "slot": "entity:Khari Nix",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d4b6aaf048196b77e043263ce2e00.png",
+      "path": "assets/entities/khari-nix.png"
+    },
+    {
+      "slot": "entity:Varian Soto",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d4c1b44ac8196a57a8cb5c8779806.png",
+      "path": "assets/entities/varian-soto.png"
+    },
+    {
+      "slot": "entity:Strixwolf Mother",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d4cca03548196908a33fd1cb75778.png",
+      "path": "assets/entities/strixwolf-mother.png"
+    },
+    {
+      "slot": "entity:Strixwolf Pup One",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d4d89f1d0819698d19ebe535eaaa9.png",
+      "path": "assets/entities/strixwolf-pup-one.png"
+    },
+    {
+      "slot": "entity:Strixwolf Pup Two",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d4e5069ac819692f568d1884d0c92.png",
+      "path": "assets/entities/strixwolf-pup-two.png"
+    },
+    {
+      "slot": "entity:Tamsin Vell",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d4efb09cc81969ccd730bfc143eb9.png",
+      "path": "assets/entities/tamsin-vell.png"
+    },
+    {
+      "slot": "entity:Bramble Union",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d5edeff7c81969de0e1142968f160.png",
+      "path": "assets/logos/bramble-union.png"
+    },
+    {
+      "slot": "entity:Bramble Union Ambusher",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d59c013408196a6dc163fd8a23691.png",
+      "path": "assets/entities/bramble-union-ambusher.png"
+    },
+    {
+      "slot": "entity:Bramble Union Claimrunner",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d5ab87b9c8196a7e8e5c791ca1ee4.png",
+      "path": "assets/entities/bramble-union-claimrunner.png"
+    },
+    {
+      "slot": "entity:Kett Alderhook",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d503ceecc819689bc5cbc381ab6af.png",
+      "path": "assets/entities/kett-alderhook.png"
+    },
+    {
+      "slot": "entity:Vela Bramblewick",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d50eff76c8196a5c0491d9fbc20ff.png",
+      "path": "assets/entities/vela-bramblewick.png"
+    },
+    {
+      "slot": "entity:Rye Underbough",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d52544d0881969678f6ed954fe3f2.png",
+      "path": "assets/entities/rye-underbough.png"
+    },
+    {
+      "slot": "entity:Brannic Mossvein",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d5306b8608196b0f947130c55a9b1.png",
+      "path": "assets/entities/brannic-mossvein.png"
+    },
+    {
+      "slot": "entity:Hush",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_07e8426b4bcfecb1016a2d22670944819480ecf8299444d4e0.png",
+      "path": "assets/entities/hush.png"
+    },
+    {
+      "slot": "entity:Hush™ Community Enclave",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_07e8426b4bcfecb1016a2d22670944819480ecf8299444d4e0.png",
+      "path": "assets/entities/hushtm-community-enclave.png"
+    },
+    {
+      "slot": "entity:Fidget",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d53c8d3c88196b429924d549f9d82.png",
+      "path": "assets/entities/fidget.png"
+    },
+    {
+      "slot": "entity:Lausa Standworth",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d549a975c81969ada01f1173e3cc5.png",
+      "path": "assets/entities/lausa-standworth.png"
+    },
+    {
+      "slot": "entity:Halython Fives",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d5584414081968f603295fc70929f.png",
+      "path": "assets/entities/halython-fives.png"
+    },
+    {
+      "slot": "entity:Yera Mossglass",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d566248b08196b9ef48e36ba72926.png",
+      "path": "assets/entities/yera-mossglass.png"
+    },
+    {
+      "slot": "entity:Clover Co-op",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3e3bdb788196828f4bb9473d0b3e.png",
+      "path": "assets/entities/clover-co-op.png"
+    },
+    {
+      "slot": "entity:Firstmoss Launch Festival",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3f30d234819699640845baa7c799.png",
+      "path": "assets/entities/firstmoss-launch-festival.png"
+    },
+    {
+      "slot": "entity:Hush Farms",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d401a8e9881968568ed14a8f9efaa.png",
+      "path": "assets/entities/hush-farms.png"
+    },
+    {
+      "slot": "entity:The Hanging Office",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d4092a470819693d42f4a7f6575fb.png",
+      "path": "assets/entities/the-hanging-office.png"
+    },
+    {
+      "slot": "entity:Whitefire Custodian",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d5738f1508196848ca928a655f047.png",
+      "path": "assets/entities/whitefire-custodian.png"
+    },
+    {
+      "slot": "entity:Keystone Asset",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d411df4e4819692f2fc2757abb882.png",
+      "path": "assets/entities/keystone-asset.png"
+    },
+    {
+      "slot": "entity:Open Vale™ Ritual Site",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d4234e99081968271579670b46315.png",
+      "path": "assets/entities/open-valetm-ritual-site.png"
+    },
+    {
+      "slot": "entity:Legacy Security Skeleton",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d5be5ea5c8196a62a66e3c2e6f2b1.png",
+      "path": "assets/entities/legacy-security-skeleton.png"
+    },
+    {
+      "slot": "entity:Soul-Audit Wraith",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d5cede3d481968eed186e295a04d1.png",
+      "path": "assets/entities/soul-audit-wraith.png"
+    },
+    {
+      "slot": "entity:Market Correction",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d44eebf708196b4f6e9170d1c76fd.png",
+      "path": "assets/entities/market-correction.png"
+    },
+    {
+      "slot": "entity:Relay Spire",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_07e8426b4bcfecb1016a2d24425d6881948a92998e0728b156.png",
+      "path": "assets/entities/relay-spire.png"
+    },
+    {
+      "slot": "entity:Spirekeeper",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d58782e008196ad193d15e651a871.png",
+      "path": "assets/entities/spirekeeper.png"
+    },
+    {
+      "slot": "entity:Emeris Crown Holdings",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d5fde05348196b2e5c46a55bcc96e.png",
+      "path": "assets/logos/emeris-crown-holdings.png"
+    },
+    {
+      "slot": "entity:Goldspire Territories",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d60da3734819697229e65e2102fc8.png",
+      "path": "assets/logos/goldspire-territories.png"
+    },
+    {
+      "slot": "entity:Kazrak Industries",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d61d8ebbc8196a5e73706888ddb46.png",
+      "path": "assets/logos/kazrak-industries.png"
+    },
+    {
+      "slot": "entity:Hexmart",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d631068748196a6481f89dc131a78.png",
+      "path": "assets/logos/hexmart.png"
+    },
+    {
+      "slot": "entity:Mithril & Mortar",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d64ef1540819686a9f27aa75bb8e5.png",
+      "path": "assets/logos/mithril-and-mortar.png"
+    },
+    {
+      "slot": "entity:Soulspire Solutions",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d660b1ddc819692cd1c028f705120.png",
+      "path": "assets/logos/soulspire-solutions.png"
+    },
+    {
+      "slot": "entity:RuneSpark Entertainment",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d6740590c8196a57e4791eb7938ea.png",
+      "path": "assets/logos/runespark-entertainment.png"
+    },
+    {
+      "slot": "entity:Sablewood™ Logistics Preserve",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d33c216348196805de1684ff3c1a8.png",
+      "path": "assets/entities/sablewoodtm-logistics-preserve.png"
+    },
+    {
+      "slot": "entity:Old Sable",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d401a8e9881968568ed14a8f9efaa.png",
+      "path": "assets/entities/old-sable.png"
+    },
+    {
+      "slot": "entity:Goldspire Waymarkers",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d33c216348196805de1684ff3c1a8.png",
+      "path": "assets/entities/goldspire-waymarkers.png"
+    },
+    {
+      "slot": "entity:Vendor Cart",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d344a22408196a61f106c1ac97712.png",
+      "path": "assets/entities/vendor-cart.png"
+    },
+    {
+      "slot": "entity:Incident Response Placard",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d344a22408196a61f106c1ac97712.png",
+      "path": "assets/entities/incident-response-placard.png"
+    },
+    {
+      "slot": "entity:Bramble Strand",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d35119eac819680c247562e19c5f7.png",
+      "path": "assets/entities/bramble-strand.png"
+    },
+    {
+      "slot": "entity:Torn Shipping Seals",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d35119eac819680c247562e19c5f7.png",
+      "path": "assets/entities/torn-shipping-seals.png"
+    },
+    {
+      "slot": "entity:Route Ledger",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d35119eac819680c247562e19c5f7.png",
+      "path": "assets/entities/route-ledger.png"
+    },
+    {
+      "slot": "entity:Bramble Union Loot",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3c7c74608196894b8fc505e6ab50.png",
+      "path": "assets/entities/bramble-union-loot.png"
+    },
+    {
+      "slot": "entity:Inspection-Sealed Counterweight",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d4092a470819693d42f4a7f6575fb.png",
+      "path": "assets/entities/inspection-sealed-counterweight.png"
+    },
+    {
+      "slot": "entity:Ritual Countdown",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_07e8426b4bcfecb1016a2d237bd5008194b8f75167162f05a3.png",
+      "path": "assets/entities/ritual-countdown.png"
+    },
+    {
+      "slot": "entity:Untethered",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d4455a4cc8196a5729f706987554f.png",
+      "path": "assets/entities/untethered.png"
+    },
+    {
+      "slot": "entity:Forgotten Gods",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d6872a4908196b4259f7186874c4f.png",
+      "path": "assets/logos/forgotten-gods.png"
+    },
+    {
+      "slot": "entity:Escort Carriage",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d33c216348196805de1684ff3c1a8.png",
+      "path": "assets/entities/escort-carriage.png"
+    },
+    {
+      "slot": "entity:Sealed Keystone Crate",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d411df4e4819692f2fc2757abb882.png",
+      "path": "assets/entities/sealed-keystone-crate.png"
+    },
+    {
+      "slot": "entity:Route Assurance Contract",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_07e8426b4bcfecb1016a2d212051908194a99f2aeb35411b17.png",
+      "path": "assets/entities/route-assurance-contract.png"
+    },
+    {
+      "slot": "entity:Goldspire Permit Seal",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_07e8426b4bcfecb1016a2d212051908194a99f2aeb35411b17.png",
+      "path": "assets/entities/goldspire-permit-seal.png"
+    },
+    {
+      "slot": "entity:Corporate Route Bell",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d33c216348196805de1684ff3c1a8.png",
+      "path": "assets/entities/corporate-route-bell.png"
+    },
+    {
+      "slot": "entity:Sablewood Route Gate",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d33c216348196805de1684ff3c1a8.png",
+      "path": "assets/entities/sablewood-route-gate.png"
+    },
+    {
+      "slot": "entity:Old Sable Canopy Road",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d401a8e9881968568ed14a8f9efaa.png",
+      "path": "assets/entities/old-sable-canopy-road.png"
+    },
+    {
+      "slot": "entity:Overturned Wheel Ruts",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d344a22408196a61f106c1ac97712.png",
+      "path": "assets/entities/overturned-wheel-ruts.png"
+    },
+    {
+      "slot": "entity:Tamsin's Wedding Cord",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d344a22408196a61f106c1ac97712.png",
+      "path": "assets/entities/tamsin-s-wedding-cord.png"
+    },
+    {
+      "slot": "entity:Comfort Blanket",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d344a22408196a61f106c1ac97712.png",
+      "path": "assets/entities/comfort-blanket.png"
+    },
+    {
+      "slot": "entity:Bramble Claim Marker",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d35119eac819680c247562e19c5f7.png",
+      "path": "assets/entities/bramble-claim-marker.png"
+    },
+    {
+      "slot": "entity:Ambush Roadblock",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3570ed1481968d632f4320b518f6.png",
+      "path": "assets/entities/ambush-roadblock.png"
+    },
+    {
+      "slot": "entity:Reclaimer Personal Effects",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3c7c74608196894b8fc505e6ab50.png",
+      "path": "assets/entities/reclaimer-personal-effects.png"
+    },
+    {
+      "slot": "entity:Clover Cord Bracelet",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3e3bdb788196828f4bb9473d0b3e.png",
+      "path": "assets/entities/clover-cord-bracelet.png"
+    },
+    {
+      "slot": "entity:Moss-Honey Jar",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3e3bdb788196828f4bb9473d0b3e.png",
+      "path": "assets/entities/moss-honey-jar.png"
+    },
+    {
+      "slot": "entity:Hush Safe Irrigation Path",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d401a8e9881968568ed14a8f9efaa.png",
+      "path": "assets/entities/hush-safe-irrigation-path.png"
+    },
+    {
+      "slot": "entity:Hanging Office Winch",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d4092a470819693d42f4a7f6575fb.png",
+      "path": "assets/entities/hanging-office-winch.png"
+    },
+    {
+      "slot": "entity:Dustless Ward Map",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d411df4e4819692f2fc2757abb882.png",
+      "path": "assets/entities/dustless-ward-map.png"
+    },
+    {
+      "slot": "entity:Custodian Tea Cup",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d47475a5c81968c7a4f5f5670eafd.png",
+      "path": "assets/entities/custodian-tea-cup.png"
+    },
+    {
+      "slot": "entity:Relay Tremor Notation",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_07e8426b4bcfecb1016a2d24425d6881948a92998e0728b156.png",
+      "path": "assets/entities/relay-tremor-notation.png"
+    },
+    {
+      "slot": "entity:Open Vale Ward Lines",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d4234e99081968271579670b46315.png",
+      "path": "assets/entities/open-vale-ward-lines.png"
+    },
+    {
+      "slot": "entity:Ward Renewal Chime",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d46227cd08196a4ef0ee4bf155248.png",
+      "path": "assets/entities/ward-renewal-chime.png"
+    },
+    {
+      "slot": "entity:Glass-Bright Ward Sand",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d46227cd08196a4ef0ee4bf155248.png",
+      "path": "assets/entities/glass-bright-ward-sand.png"
+    },
+    {
+      "slot": "entity:Corporate Seal Wax Residue",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d44eebf708196b4f6e9170d1c76fd.png",
+      "path": "assets/entities/corporate-seal-wax-residue.png"
+    },
+    {
+      "slot": "entity:Legacy Security Badge",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d434b4cb08196ba2bfb581968b697.png",
+      "path": "assets/entities/legacy-security-badge.png"
+    },
+    {
+      "slot": "entity:Soul-Audit Memory Shard",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d4455a4cc8196a5729f706987554f.png",
+      "path": "assets/entities/soul-audit-memory-shard.png"
+    },
+    {
+      "slot": "entity:Halython's Fox-Bat Companion",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3d70cfac8196b6506952e928ea13.png",
+      "path": "assets/entities/halython-s-fox-bat-companion.png"
+    },
+    {
+      "slot": "entity:Emeris Clerk",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_07e8426b4bcfecb1016a2d212051908194a99f2aeb35411b17.png",
+      "path": "assets/entities/emeris-clerk.png"
+    },
+    {
+      "slot": "entity:The Grail",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0dde39fab8e25e83016a2d9f37100c8193839d321cd73ea79b.png",
+      "path": "assets/logos/the-grail.png"
+    },
+    {
+      "slot": "entity:Goldwater Financial Institution",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0dde39fab8e25e83016a2d9f7583c48193a0dda9f57e4eaf1f.png",
+      "path": "assets/logos/goldwater-financial-institution.png"
+    },
+    {
+      "slot": "entity:Artemis Inc",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0dde39fab8e25e83016a2d9fb539dc8193968397073b888650.png",
+      "path": "assets/logos/artemis-inc.png"
+    },
+    {
+      "slot": "entity:Zephra Exchange",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0dde39fab8e25e83016a2d9ffbba5c8193bec668fef95ffcdf.png",
+      "path": "assets/logos/zephra-exchange.png"
+    },
+    {
+      "slot": "entity:The Board of Directors",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d6872a4908196b4259f7186874c4f.png",
+      "path": "assets/logos/the-board-of-directors.png"
+    },
+    {
+      "slot": "entity:Wardstone",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0dde39fab8e25e83016a2da03a9ffc819392ea1bd86b5299f5.png",
+      "path": "assets/entities/wardstone.png"
+    },
+    {
+      "slot": "entity:Ward Infrastructure",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0dde39fab8e25e83016a2da03a9ffc819392ea1bd86b5299f5.png",
+      "path": "assets/entities/ward-infrastructure.png"
+    },
+    {
+      "slot": "entity:Emeris Capital Gate",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0dde39fab8e25e83016a2da08ad50c8193b9d82a7c718ec5ac.png",
+      "path": "assets/entities/emeris-capital-gate.png"
+    },
+    {
+      "slot": "entity:Athervast",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0dde39fab8e25e83016a2da08ad50c8193b9d82a7c718ec5ac.png",
+      "path": "assets/entities/athervast.png"
+    },
+    {
+      "slot": "entity:Public-Private Ward Compact",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0dde39fab8e25e83016a2da03a9ffc819392ea1bd86b5299f5.png",
+      "path": "assets/entities/public-private-ward-compact.png"
+    },
+    {
+      "slot": "entity:Goldspire Ward Network",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0dde39fab8e25e83016a2da03a9ffc819392ea1bd86b5299f5.png",
+      "path": "assets/entities/goldspire-ward-network.png"
+    },
+    {
+      "slot": "entity:The Goldspire Relay",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_07e8426b4bcfecb1016a2d24425d6881948a92998e0728b156.png",
+      "path": "assets/entities/the-goldspire-relay.png"
+    },
+    {
+      "slot": "entity:The Relay Keeper",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d58782e008196ad193d15e651a871.png",
+      "path": "assets/entities/the-relay-keeper.png"
+    },
+    {
+      "slot": "icon:mechanic",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d38e80938819696a94ecaa15f0c6e.png",
+      "path": "assets/entities/gm-rules-drawer.png"
+    },
+    {
+      "slot": "icon:mechanic",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d38e80938819696a94ecaa15f0c6e.png",
+      "path": "assets/entities/slider-system.png"
+    },
+    {
+      "slot": "icon:mechanic",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d38e80938819696a94ecaa15f0c6e.png",
+      "path": "assets/entities/duality-dice.png"
+    },
+    {
+      "slot": "icon:mechanic",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d38e80938819696a94ecaa15f0c6e.png",
+      "path": "assets/entities/p2p-jenga-fear-variant.png"
+    },
+    {
+      "slot": "icon:mechanic",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d38e80938819696a94ecaa15f0c6e.png",
+      "path": "assets/entities/difficulty-ladder.png"
+    },
+    {
+      "slot": "icon:mechanic",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d38e80938819696a94ecaa15f0c6e.png",
+      "path": "assets/entities/hope.png"
+    },
+    {
+      "slot": "icon:mechanic",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d38e80938819696a94ecaa15f0c6e.png",
+      "path": "assets/entities/fear.png"
+    },
+    {
+      "slot": "icon:mechanic",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d38e80938819696a94ecaa15f0c6e.png",
+      "path": "assets/entities/stress.png"
+    },
+    {
+      "slot": "icon:mechanic",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d38e80938819696a94ecaa15f0c6e.png",
+      "path": "assets/entities/armor-slot.png"
+    },
+    {
+      "slot": "icon:mechanic",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d38e80938819696a94ecaa15f0c6e.png",
+      "path": "assets/entities/short-rest.png"
+    },
+    {
+      "slot": "icon:condition",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d39555d50819686c1abe7f864131e.png",
+      "path": "assets/entities/hidden.png"
+    },
+    {
+      "slot": "icon:condition",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d39555d50819686c1abe7f864131e.png",
+      "path": "assets/entities/restrained.png"
+    },
+    {
+      "slot": "icon:condition",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d39555d50819686c1abe7f864131e.png",
+      "path": "assets/entities/vulnerable.png"
+    },
+    {
+      "slot": "icon:condition",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d39555d50819686c1abe7f864131e.png",
+      "path": "assets/entities/audited.png"
+    },
+    {
+      "slot": "icon:condition",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d39555d50819686c1abe7f864131e.png",
+      "path": "assets/entities/bramble-snared.png"
+    },
+    {
+      "slot": "icon:condition",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d39555d50819686c1abe7f864131e.png",
+      "path": "assets/entities/ward-sick.png"
+    },
+    {
+      "slot": "icon:condition",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d39555d50819686c1abe7f864131e.png",
+      "path": "assets/entities/compliance-flagged.png"
+    },
+    {
+      "slot": "icon:condition",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d39555d50819686c1abe7f864131e.png",
+      "path": "assets/entities/memory-raw.png"
+    },
+    {
+      "slot": "icon:condition",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d39555d50819686c1abe7f864131e.png",
+      "path": "assets/entities/debt-marked.png"
+    },
+    {
+      "slot": "icon:item",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3820077c8196b2f4b1bf02f0fe40.png",
+      "path": "assets/entities/hexmart-pocket-wardtm-cracked.png"
+    },
+    {
+      "slot": "icon:item",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3820077c8196b2f4b1bf02f0fe40.png",
+      "path": "assets/entities/stride-salve.png"
+    },
+    {
+      "slot": "icon:item",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3820077c8196b2f4b1bf02f0fe40.png",
+      "path": "assets/entities/grindstone-vial.png"
+    },
+    {
+      "slot": "icon:item",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3820077c8196b2f4b1bf02f0fe40.png",
+      "path": "assets/entities/lark-moth-lantern.png"
+    },
+    {
+      "slot": "icon:item",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3820077c8196b2f4b1bf02f0fe40.png",
+      "path": "assets/entities/bramble-cutter-s-hook.png"
+    },
+    {
+      "slot": "icon:item",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3820077c8196b2f4b1bf02f0fe40.png",
+      "path": "assets/entities/compliance-stamp-forged.png"
+    },
+    {
+      "slot": "icon:item",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3820077c8196b2f4b1bf02f0fe40.png",
+      "path": "assets/entities/firstmoss-poultice.png"
+    },
+    {
+      "slot": "icon:item",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3820077c8196b2f4b1bf02f0fe40.png",
+      "path": "assets/entities/bag-of-mixed-chits.png"
+    },
+    {
+      "slot": "icon:item",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3820077c8196b2f4b1bf02f0fe40.png",
+      "path": "assets/entities/whetcord.png"
+    },
+    {
+      "slot": "icon:item",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3820077c8196b2f4b1bf02f0fe40.png",
+      "path": "assets/entities/tinker-s-kit-used.png"
+    },
+    {
+      "slot": "icon:item",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3820077c8196b2f4b1bf02f0fe40.png",
+      "path": "assets/entities/soul-quiet-charm.png"
+    },
+    {
+      "slot": "icon:item",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3820077c8196b2f4b1bf02f0fe40.png",
+      "path": "assets/entities/strixwolf-down-cloak.png"
+    },
+    {
+      "slot": "entity:Strixwolf Mercy Track",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d34b15dd88196a4d0b23a1f4c5101.png",
+      "path": "assets/entities/strixwolf-mercy-track.png"
+    },
+    {
+      "slot": "entity:Bramble Union Resolution Track",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3c7c74608196894b8fc505e6ab50.png",
+      "path": "assets/entities/bramble-union-resolution-track.png"
+    },
+    {
+      "slot": "entity:Hush Trust Track",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d3e3bdb788196828f4bb9473d0b3e.png",
+      "path": "assets/entities/hush-trust-track.png"
+    },
+    {
+      "slot": "entity:Custodian Trust Track",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_07e8426b4bcfecb1016a2d2329420481948da9d3ed7c0d890e.png",
+      "path": "assets/entities/custodian-trust-track.png"
+    },
+    {
+      "slot": "entity:Ward Stability Track",
+      "source": "/Users/kyle/.codex/generated_images/019ec043-286e-7412-9f39-038840412edc/ig_0804623538cf3977016a2d46227cd08196a4ef0ee4bf155248.png",
+      "path": "assets/entities/ward-stability-track.png"
+    },
+    {
+      "slot": "favicon:party-reference-copy",
+      "source": "assets/entities/party-reference.png",
+      "path": "assets/favicon.png"
+    }
+  ],
+  "missing": [],
+  "fallback": []
+}

@@ -1,0 +1,166 @@
+{
+  "counts": {
+    "Agility": 8,
+    "Strength": 10,
+    "Finesse": 15,
+    "Instinct": 17,
+    "Presence": 21,
+    "Knowledge": 35
+  },
+  "percentages": {
+    "Agility": 7.5,
+    "Strength": 9.4,
+    "Finesse": 14.2,
+    "Instinct": 16.0,
+    "Presence": 19.8,
+    "Knowledge": 33.0
+  },
+  "scenes": {
+    "S00-01": [
+      "Knowledge",
+      "Presence"
+    ],
+    "S01-01": [
+      "Agility",
+      "Instinct",
+      "Knowledge",
+      "Strength"
+    ],
+    "S01-02": [
+      "Finesse",
+      "Instinct",
+      "Knowledge"
+    ],
+    "S01-03": [
+      "Agility",
+      "Instinct",
+      "Presence"
+    ],
+    "S01-04": [
+      "Instinct",
+      "Presence"
+    ],
+    "S02-01": [
+      "Finesse",
+      "Instinct",
+      "Knowledge",
+      "Strength"
+    ],
+    "S02-02": [
+      "Agility",
+      "Finesse",
+      "Instinct",
+      "Knowledge"
+    ],
+    "S02-03": [
+      "Agility",
+      "Finesse",
+      "Instinct",
+      "Knowledge",
+      "Presence",
+      "Strength"
+    ],
+    "S02-04": [
+      "Finesse",
+      "Knowledge",
+      "Presence"
+    ],
+    "S03-01": [
+      "Instinct",
+      "Knowledge",
+      "Presence"
+    ],
+    "S03-02": [
+      "Finesse",
+      "Instinct",
+      "Knowledge",
+      "Presence"
+    ],
+    "S03-03": [
+      "Finesse",
+      "Knowledge",
+      "Presence"
+    ],
+    "S03-04": [
+      "Finesse",
+      "Instinct",
+      "Presence",
+      "Strength"
+    ],
+    "S04-01": [
+      "Agility",
+      "Finesse",
+      "Instinct",
+      "Knowledge"
+    ],
+    "S04-02": [
+      "Agility",
+      "Finesse",
+      "Knowledge",
+      "Strength"
+    ],
+    "S04-03": [
+      "Instinct",
+      "Knowledge",
+      "Presence"
+    ],
+    "S04-04": [
+      "Finesse",
+      "Instinct",
+      "Knowledge"
+    ],
+    "S04-05": [
+      "Agility",
+      "Instinct",
+      "Presence",
+      "Strength"
+    ],
+    "S05-01": [
+      "Instinct",
+      "Knowledge",
+      "Strength"
+    ],
+    "S05-02": [
+      "Finesse",
+      "Knowledge",
+      "Presence"
+    ],
+    "S05-03": [
+      "Agility",
+      "Finesse",
+      "Knowledge",
+      "Strength"
+    ],
+    "S05-04": [
+      "Knowledge",
+      "Presence",
+      "Strength"
+    ],
+    "S05-05": [
+      "Instinct",
+      "Knowledge",
+      "Presence"
+    ],
+    "S05-06": [
+      "Finesse",
+      "Knowledge",
+      "Strength"
+    ],
+    "S05-07": [
+      "Knowledge",
+      "Presence"
+    ],
+    "S06-01": [
+      "Finesse",
+      "Knowledge",
+      "Presence"
+    ],
+    "S06-02": [
+      "Instinct",
+      "Knowledge",
+      "Presence"
+    ]
+  },
+  "instinct_presence_share": 35.8,
+  "passes_variety_gate": true
+}
