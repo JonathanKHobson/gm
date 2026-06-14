@@ -13,20 +13,17 @@
   <header class="run-topbar" role="banner">
     <a class="run-home-link" href="index.html">Atlas</a>
     <div class="run-toolbar-group" aria-label="Slide navigation">
-      <button class="run-icon-button" type="button" data-run-action="first" aria-label="First slide" title="First slide">|&lt;</button>
-      <button class="run-icon-button" type="button" data-run-action="previous" aria-label="Previous slide" title="Previous slide">&lt;</button>
-      <button class="run-icon-button" type="button" data-run-action="next" aria-label="Next slide" title="Next slide">&gt;</button>
-      <button class="run-icon-button" type="button" data-run-action="last" aria-label="Last slide" title="Last slide">&gt;|</button>
+      <button class="run-icon-button" type="button" data-run-action="first" aria-label="First slide" title="First slide"><img src="assets/icons/action-first.png" alt="" aria-hidden="true"><span class="sr-only">First slide</span></button>
+      <button class="run-icon-button" type="button" data-run-action="previous" aria-label="Previous slide" title="Previous slide"><img src="assets/icons/action-prev.png" alt="" aria-hidden="true"><span class="sr-only">Previous slide</span></button>
+      <button class="run-icon-button" type="button" data-run-action="next" aria-label="Next slide" title="Next slide"><img src="assets/icons/action-next.png" alt="" aria-hidden="true"><span class="sr-only">Next slide</span></button>
+      <button class="run-icon-button" type="button" data-run-action="last" aria-label="Last slide" title="Last slide"><img src="assets/icons/action-last.png" alt="" aria-hidden="true"><span class="sr-only">Last slide</span></button>
     </div>
     <label class="run-slide-jump">Slide <select id="run-slide-select" aria-label="Jump to slide"></select></label>
     <div class="run-toolbar-group" aria-label="Player display controls">
-      <button class="run-icon-button" type="button" data-run-action="open-display" aria-label="Open player display" title="Open player display">TV</button>
-      <button class="run-icon-button" type="button" data-run-action="show-image" aria-label="Show image to players" title="Show image to players">IMG</button>
-      <button class="run-icon-button" type="button" data-run-action="show-text" aria-label="Show read-aloud to players" title="Show read-aloud to players">TXT</button>
-      <button class="run-icon-button" type="button" data-run-action="show-objective" aria-label="Show public objective" title="Show public objective">OBJ</button>
-      <button class="run-icon-button danger" type="button" data-run-action="blackout" aria-label="Blackout player display" title="Blackout player display">BLK</button>
+      <button class="run-icon-button" type="button" data-run-action="open-display" aria-label="Open player display" title="Open player display"><img src="assets/icons/action-player-display.png" alt="" aria-hidden="true"><span class="sr-only">Open player display</span></button>
+      <button class="run-icon-button danger" type="button" data-run-action="blackout" aria-label="Blackout player display" title="Blackout player display"><img src="assets/icons/action-blackout.png" alt="" aria-hidden="true"><span class="sr-only">Blackout player display</span></button>
     </div>
-    <button class="run-icon-button" type="button" data-run-action="shortcuts" aria-label="Keyboard shortcuts" title="Keyboard shortcuts">?</button>
+    <button class="run-icon-button" type="button" data-run-action="shortcuts" aria-label="Keyboard shortcuts" title="Keyboard shortcuts"><img src="assets/icons/action-help.png" alt="" aria-hidden="true"><span class="sr-only">Keyboard shortcuts</span></button>
   </header>
 
   <main class="run-layout" id="slide-stage">
@@ -37,10 +34,10 @@
       <label class="run-check"><input id="run-auto-complete" type="checkbox"> Auto-complete previous on Next</label>
       <label class="run-check"><input id="run-sync-on-change" type="checkbox" checked> Sync slide changes to Player Display</label>
       <div class="run-side-actions">
-        <button type="button" data-run-action="toggle-complete" aria-label="Mark current slide complete">Mark Complete</button>
-        <button type="button" data-run-action="pin" aria-label="Pin current slide">Pin</button>
-        <button type="button" data-run-action="copy-text" aria-label="Copy player text">Copy Player Text</button>
-        <button type="button" data-run-action="copy-discord" aria-label="Copy player text as Markdown quote">Copy Discord Quote</button>
+        <button class="run-icon-button" type="button" data-run-action="toggle-complete" aria-label="Mark current slide complete" title="Mark current slide complete"><img src="assets/icons/action-complete.png" alt="" aria-hidden="true"><span class="sr-only">Mark current slide complete</span></button>
+        <button class="run-icon-button" type="button" data-run-action="pin" aria-label="Pin current slide" title="Pin current slide"><img src="assets/icons/action-pin.png" alt="" aria-hidden="true"><span class="sr-only">Pin current slide</span></button>
+        <button class="run-icon-button" type="button" data-run-action="copy-text" aria-label="Copy player text" title="Copy player text"><img src="assets/icons/action-copy.png" alt="" aria-hidden="true"><span class="sr-only">Copy player text</span></button>
+        <button class="run-icon-button" type="button" data-run-action="copy-discord" aria-label="Copy player text as Markdown quote" title="Copy player text as Markdown quote"><img src="assets/icons/action-handouts.png" alt="" aria-hidden="true"><span class="sr-only">Copy player text as Markdown quote</span></button>
       </div>
       <details class="run-scratch">
         <summary>Scratch note</summary>
@@ -56,7 +53,10 @@
     </aside>
 
     <section class="run-slide-stage" aria-live="polite">
+      <button class="deck-arrow deck-arrow-prev" type="button" data-run-action="previous" aria-label="Previous slide" title="Previous slide"><img src="assets/icons/action-prev.png" alt="" aria-hidden="true"><span class="sr-only">Previous slide</span></button>
       <article id="run-slide-root" class="run-slide-card" data-slide-root></article>
+      <button class="deck-arrow deck-arrow-next" type="button" data-run-action="next" aria-label="Next slide" title="Next slide"><img src="assets/icons/action-next.png" alt="" aria-hidden="true"><span class="sr-only">Next slide</span></button>
+      <p id="run-status" class="run-status" role="status" aria-live="polite"></p>
     </section>
   </main>
 
@@ -76,7 +76,7 @@
       <button class="dialog-close" value="close" aria-label="Close image">x</button>
       <img id="run-expanded-image" alt="">
       <p id="run-expanded-caption"></p>
-      <a id="run-expanded-raw" class="button secondary" target="_blank" rel="noopener">Open raw image</a>
+      <a id="run-expanded-raw" class="run-icon-button" target="_blank" rel="noopener" aria-label="Open raw image" title="Open raw image"><img src="assets/icons/action-open-image.png" alt="" aria-hidden="true"><span class="sr-only">Open raw image</span></a>
     </form>
   </dialog>
   <dialog id="run-text-dialog" class="run-dialog run-text-dialog" aria-label="Expanded player text">

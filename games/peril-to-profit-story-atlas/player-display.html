@@ -11,14 +11,14 @@
 <body class="player-display-v2" data-display-mode="waiting">
   <main id="player-screen" class="player-screen" tabindex="-1" aria-live="polite"></main>
   <aside class="player-display-tools" aria-label="Player display controls">
-    <button type="button" data-player-action="blackout" aria-label="Blackout display">Blackout</button>
-    <button type="button" data-player-action="image-title-caption" aria-label="Show image and caption">Image + Caption</button>
-    <button type="button" data-player-action="read-aloud-fullscreen" aria-label="Show read-aloud">Read-Aloud</button>
-    <button type="button" data-player-action="font-up" aria-label="Increase font size">A+</button>
-    <button type="button" data-player-action="font-down" aria-label="Decrease font size">A-</button>
-    <button type="button" data-player-action="contrast" aria-label="Toggle high contrast">Contrast</button>
-    <button type="button" data-player-action="motion" aria-label="Toggle reduced motion">Motion</button>
-    <button type="button" data-player-action="fullscreen" aria-label="Fullscreen">Fullscreen</button>
+    <button class="run-icon-button" type="button" data-player-action="blackout" aria-label="Blackout display" title="Blackout display"><img src="assets/icons/action-blackout.png" alt="" aria-hidden="true"><span class="sr-only">Blackout display</span></button>
+    <button class="run-icon-button" type="button" data-player-action="image-title-caption" aria-label="Show image and caption" title="Show image and caption"><img src="assets/icons/action-open-image.png" alt="" aria-hidden="true"><span class="sr-only">Show image and caption</span></button>
+    <button class="run-icon-button" type="button" data-player-action="read-aloud-fullscreen" aria-label="Show read-aloud" title="Show read-aloud"><img src="assets/icons/action-reveal.png" alt="" aria-hidden="true"><span class="sr-only">Show read-aloud</span></button>
+    <button class="run-icon-button" type="button" data-player-action="font-up" aria-label="Increase font size" title="Increase font size"><img src="assets/icons/action-expand-all.png" alt="" aria-hidden="true"><span class="sr-only">Increase font size</span></button>
+    <button class="run-icon-button" type="button" data-player-action="font-down" aria-label="Decrease font size" title="Decrease font size"><img src="assets/icons/action-collapse-all.png" alt="" aria-hidden="true"><span class="sr-only">Decrease font size</span></button>
+    <button class="run-icon-button" type="button" data-player-action="contrast" aria-label="Toggle high contrast" title="Toggle high contrast"><img src="assets/icons/action-settings.png" alt="" aria-hidden="true"><span class="sr-only">Toggle high contrast</span></button>
+    <button class="run-icon-button" type="button" data-player-action="motion" aria-label="Toggle reduced motion" title="Toggle reduced motion"><img src="assets/icons/action-settings.png" alt="" aria-hidden="true"><span class="sr-only">Toggle reduced motion</span></button>
+    <button class="run-icon-button" type="button" data-player-action="fullscreen" aria-label="Fullscreen" title="Fullscreen"><img src="assets/icons/action-fullscreen.png" alt="" aria-hidden="true"><span class="sr-only">Fullscreen</span></button>
   </aside>
   <dialog id="player-image-dialog" class="run-dialog run-media-dialog" aria-label="Expanded player image">
     <form method="dialog">

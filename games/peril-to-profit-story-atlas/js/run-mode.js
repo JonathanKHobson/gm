@@ -97,6 +97,38 @@
     return escapeHtml(value).replaceAll("'", "&#39;");
   }
 
+  function runIcon(action, label, icon, danger = false, shortLabel = "") {
+    const classes = danger ? "run-icon-button danger" : "run-icon-button";
+    const short = shortLabel ? ` data-short-label="${escapeAttr(shortLabel)}"` : "";
+    return `<button class="${classes}" type="button" data-run-action="${escapeAttr(action)}" aria-label="${escapeAttr(label)}" title="${escapeAttr(label)}"${short}><img src="assets/icons/${escapeAttr(icon)}" alt="" aria-hidden="true"><span class="sr-only">${escapeHtml(label)}</span></button>`;
+  }
+
+  function fallbackImage(slide) {
+    if (slide.image) return slide.image;
+    const key = `${slide.id} ${slide.sectionId || ""} ${slide.sectionTitle || ""}`.toLowerCase();
+    if (key.includes("act-one") || key.includes("logistics")) return "assets/scenes/S01-01-entering-sablewoodtm-logistics-preserve.png";
+    if (key.includes("act-two") || key.includes("cargo")) return "assets/scenes/S02-03-bramble-union-ambush.png";
+    if (key.includes("act-three") || key.includes("hush")) return "assets/scenes/S03-01-arrival-at-hush.png";
+    if (key.includes("act-four") || key.includes("hanging")) return "assets/scenes/S04-02-the-hanging-office-exterior.png";
+    if (key.includes("act-five") || key.includes("ward")) return "assets/scenes/S05-01-open-valetm-ritual-site.png";
+    if (key.includes("epilogue") || key.includes("relay")) return "assets/scenes/S06-02-the-relay-spire-hook.png";
+    if (key.includes("prologue") || key.includes("contract")) return "assets/scenes/S00-01-the-job.png";
+    if (key.includes("conditions")) return "assets/entities/vulnerable.png";
+    if (key.includes("slider")) return "assets/entities/slider-system.png";
+    if (key.includes("loot")) return "assets/entities/hexmart-pocket-wardtm-cracked.png";
+    if (key.includes("pronunciation")) return "assets/entities/party-reference.png";
+    return "assets/entities/party-reference.png";
+  }
+
+  function showStatus(message) {
+    const status = document.querySelector("#run-status");
+    if (!status) return;
+    status.textContent = message;
+    status.classList.add("is-visible");
+    clearTimeout(showStatus.timer);
+    showStatus.timer = setTimeout(() => status.classList.remove("is-visible"), 1800);
+  }
+
   function playerProjection(slide) {
     return {
       id: slide.id,
@@ -108,7 +140,7 @@
       order: slide.order,
       playerSafe: !!slide.playerSafe,
       completionEligible: !!slide.completionEligible,
-      image: slide.image || "",
+      image: fallbackImage(slide),
       alt: slide.alt || slide.title,
       caption: slide.caption || "",
       mood: slide.mood || "",
@@ -121,19 +153,21 @@
 
   function send(type, payload = {}) {
     const slide = currentSlide();
-    return window.GoldspireDisplaySync?.send({
+    const sent = window.GoldspireDisplaySync?.send({
       protocol: "goldspire-run-sync-v1",
       type,
       slideId: slide?.id,
       payload: { slide: playerProjection(slide), ...payload },
       source: "gm-run-mode",
     });
+    return sent;
   }
 
   function openPlayerDisplay() {
     const slide = currentSlide();
     window.open(`player-display.html?slide=${encodeURIComponent(slide.id)}`, "_blank", "noopener");
     send("setSlide", { displayMode: "image-title-caption" });
+    showStatus("Opened Player Display");
   }
 
   function render() {
@@ -156,10 +190,11 @@
   }
 
   function slideMarkup(slide) {
-    const hasImage = !!slide.image;
+    const image = fallbackImage(slide);
+    const hasImage = !!image;
     const isCheat = slide.type === "cheat";
     const media = hasImage
-      ? `<figure class="slide-media"><button type="button" data-run-action="expand-image" aria-label="Expand image"><img src="${escapeAttr(slide.image)}" alt="${escapeAttr(slide.alt || slide.title)}"></button><figcaption>${escapeHtml(slide.caption || "")}</figcaption></figure>`
+      ? `<figure class="slide-media"><button type="button" data-run-action="expand-image" aria-label="Expand image"><img src="${escapeAttr(image)}" alt="${escapeAttr(slide.alt || slide.title)}"></button><figcaption>${escapeHtml(slide.caption || "")}</figcaption></figure>`
       : `<div class="slide-media slide-divider-art"><p>${escapeHtml(slide.caption || slide.sectionTitle || "")}</p></div>`;
     return `
       <section class="slide-main">
@@ -169,19 +204,23 @@
             <span class="slide-pill">${escapeHtml(slide.id)}</span>
             <span class="slide-pill">${escapeHtml(slide.sectionTitle || "")}</span>
             <span class="slide-pill">${escapeHtml(slide.type || "")}</span>
-            ${state.completedSlides.includes(slide.id) ? '<span class="slide-pill">Complete</span>' : ""}
+            <label class="complete-current"><input type="checkbox" data-run-current-complete ${state.completedSlides.includes(slide.id) ? "checked" : ""}> Complete</label>
             ${state.pinnedSlides.includes(slide.id) ? '<span class="slide-pill">Pinned</span>' : ""}
+            ${state.lastAutoCompletedSlideId ? `<button class="undo-complete-button" type="button" data-run-action="undo-complete">Undo auto-complete: ${escapeHtml(state.lastAutoCompletedSlideId)}</button>` : ""}
           </div>
           <h2>${escapeHtml(slide.title)}</h2>
           ${slide.gmGoal ? `<p class="slide-goal"><strong>GM goal:</strong> ${escapeHtml(slide.gmGoal)}</p>` : ""}
           ${slide.publicObjective ? `<p class="slide-objective"><strong>Public objective:</strong> ${escapeHtml(slide.publicObjective)}</p>` : ""}
-          <div class="slide-action-row">
-            <button type="button" data-run-action="show-image" aria-label="Show image to players">Show Image</button>
-            <button type="button" data-run-action="show-text" aria-label="Show player text to players">Show Text</button>
-            <button type="button" data-run-action="copy-text" aria-label="Copy player text">Copy Text</button>
-            <button type="button" data-run-action="open-text-window" aria-label="Open player text in new window">Open Text Window</button>
-            <button type="button" data-run-action="print-text" aria-label="Print player text">Print Text</button>
-            <button type="button" data-run-action="expand-text" aria-label="Expand read-aloud text">Fullscreen Text</button>
+          <div class="slide-action-group" aria-label="Player display and text actions">
+            <p class="slide-action-group-label">Player Display / Text</p>
+            <div class="slide-action-row">
+              ${runIcon("show-image", "Send image to Player Display", "action-open-image.png", false, "Image")}
+              ${runIcon("show-text", "Send read-aloud to Player Display", "action-reveal.png", false, "Text")}
+              ${runIcon("copy-text", "Copy player text", "action-copy.png", false, "Copy")}
+              ${runIcon("open-text-window", "Open player text in new window", "action-open-window.png", false, "Open")}
+              ${runIcon("print-text", "Print player text", "action-print.png", false, "Print")}
+              ${runIcon("expand-text", "Fullscreen read-aloud text", "action-fullscreen.png", false, "Full")}
+            </div>
           </div>
         </div>
       </section>
@@ -259,6 +298,7 @@
   function renderScrubber() {
     const scrubber = document.querySelector("[data-slide-scrubber]");
     scrubber.innerHTML = slides.map((slide) => {
+      const image = fallbackImage(slide);
       const classes = [
         "scrub-dot",
         slide.id === state.currentSlideId ? "is-current" : "",
@@ -266,11 +306,21 @@
         state.pinnedSlides.includes(slide.id) ? "is-pinned" : "",
         slide.type === "section" || slide.type === "act-divider" ? "is-section" : "",
       ].filter(Boolean).join(" ");
-      return `<button class="${classes}" type="button" data-scrub-slide-id="${escapeAttr(slide.id)}" title="${escapeAttr(`${slide.slideNumber}. ${slide.sectionTitle} - ${slide.title}`)}" aria-label="Go to slide ${escapeAttr(slide.slideNumber)}: ${escapeAttr(slide.title)}"></button>`;
+      return `<button class="${classes}" type="button" data-scrub-slide-id="${escapeAttr(slide.id)}" title="${escapeAttr(`${slide.slideNumber}. ${slide.sectionTitle} - ${slide.title}`)}" aria-label="Go to slide ${escapeAttr(slide.slideNumber)}: ${escapeAttr(slide.title)}"><img src="${escapeAttr(image)}" alt=""><span>${escapeHtml(`${slide.slideNumber}. ${slide.title}`)}</span></button>`;
     }).join("");
+    scrubber.querySelector(".scrub-dot.is-current")?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
   }
 
   function bindRenderedSlide() {
+    document.querySelector("[data-run-current-complete]")?.addEventListener("change", (event) => {
+      const slide = currentSlide();
+      markComplete(slide.id, event.target.checked);
+      if (!event.target.checked && state.lastAutoCompletedSlideId === slide.id) {
+        state.lastAutoCompletedSlideId = "";
+        saveState();
+      }
+      render();
+    });
     document.querySelectorAll("[data-slide-state-field]").forEach((field) => {
       field.addEventListener("change", () => {
         const gmState = readGmState();
@@ -287,7 +337,11 @@
     if (nextIndex < 0) return;
     const previous = currentSlide();
     const next = slides[nextIndex];
-    if (options.autoComplete && previous?.completionEligible && previous.id !== next.id) markComplete(previous.id, true);
+    if (options.autoComplete && previous?.completionEligible && previous.id !== next.id) {
+      markComplete(previous.id, true);
+      state.lastAutoCompletedSlideId = previous.id;
+      showStatus(`Auto-completed ${previous.id}`);
+    }
     state.currentSlideId = next.id;
     saveState();
     render();
@@ -317,6 +371,19 @@
     saveState();
   }
 
+  function undoLastAutoComplete() {
+    const id = state.lastAutoCompletedSlideId;
+    if (!id) {
+      showStatus("No auto-completed slide to undo");
+      return;
+    }
+    markComplete(id, false);
+    state.lastAutoCompletedSlideId = "";
+    saveState();
+    showStatus(`Undid completion for ${id}`);
+    render();
+  }
+
   function togglePinned() {
     const id = currentSlide().id;
     const set = new Set(state.pinnedSlides || []);
@@ -324,12 +391,15 @@
     else set.add(id);
     state.pinnedSlides = [...set];
     saveState();
+    showStatus(set.has(id) ? "Slide pinned" : "Slide unpinned");
     render();
   }
 
   function toggleComplete() {
     const id = currentSlide().id;
     markComplete(id, !state.completedSlides.includes(id));
+    if (state.completedSlides.includes(id)) showStatus("Slide marked complete");
+    else showStatus("Slide marked incomplete");
     render();
   }
 
@@ -339,8 +409,10 @@
     const output = markdown ? text.split(/\n+/).map((line) => `> ${line}`).join("\n") : text;
     try {
       await navigator.clipboard.writeText(output);
+      showStatus(markdown ? "Copied Markdown quote" : "Copied player text");
     } catch {
       window.prompt("Copy player text:", output);
+      showStatus("Copy fallback opened");
     }
     return output;
   }
@@ -353,6 +425,7 @@
     win.document.write(`<!doctype html><html><head><meta charset="utf-8"><title>${escapeHtml(slide.title)}</title><style>body{font-family:system-ui,sans-serif;margin:0;padding:3rem;background:#fff;color:#111}h1{font-size:2.4rem}p{font-size:2rem;line-height:1.35}</style></head><body><h1>${escapeHtml(slide.title)}</h1><p>${escapeHtml(text)}</p></body></html>`);
     win.document.close();
     if (printNow) win.print();
+    showStatus(printNow ? "Print window opened" : "Player text window opened");
   }
 
   function openImageDialog() {
@@ -360,10 +433,10 @@
     if (!slide.image) return;
     lastDialogOpener = document.activeElement;
     const dialog = document.querySelector("#run-image-dialog");
-    document.querySelector("#run-expanded-image").src = slide.image;
+    document.querySelector("#run-expanded-image").src = fallbackImage(slide);
     document.querySelector("#run-expanded-image").alt = slide.alt || slide.title;
     document.querySelector("#run-expanded-caption").textContent = slide.caption || "";
-    document.querySelector("#run-expanded-raw").href = slide.image;
+    document.querySelector("#run-expanded-raw").href = fallbackImage(slide);
     dialog.showModal();
   }
 
@@ -392,10 +465,10 @@
     if (action === "last") goTo(slides[slides.length - 1].id);
     if (action === "previous") go(-1);
     if (action === "next") go(1);
-    if (action === "show-image") send("showImage", { displayMode: "image-only" });
-    if (action === "show-text") { send("showText", { displayMode: "read-aloud-fullscreen" }); markRevealed(); }
-    if (action === "show-objective") send("showObjective", { displayMode: "public-objective" });
-    if (action === "blackout") send("blackout", { displayMode: "blackout" });
+    if (action === "show-image") { send("showImage", { displayMode: "image-only" }); showStatus("Sent image to Player Display"); }
+    if (action === "show-text") { send("showText", { displayMode: "read-aloud-fullscreen" }); markRevealed(); showStatus("Sent text to Player Display"); }
+    if (action === "show-objective") { send("showObjective", { displayMode: "public-objective" }); showStatus("Sent objective to Player Display"); }
+    if (action === "blackout") { send("blackout", { displayMode: "blackout" }); showStatus("Player Display blacked out"); }
     if (action === "open-display") openPlayerDisplay();
     if (action === "copy-text") copyText(false);
     if (action === "copy-discord") copyText(true);
@@ -404,6 +477,7 @@
     if (action === "expand-image") openImageDialog();
     if (action === "expand-text") openTextDialog();
     if (action === "toggle-complete") toggleComplete();
+    if (action === "undo-complete") undoLastAutoComplete();
     if (action === "pin") togglePinned();
     if (action === "fullscreen") document.documentElement.requestFullscreen?.();
     if (action === "shortcuts") showShortcuts();

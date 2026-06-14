@@ -10,6 +10,10 @@
   }
   function escapeAttr(value) { return escapeHtml(value).replaceAll("'", "&#39;"); }
 
+  function playerIcon(action, label, icon) {
+    return `<button class="run-icon-button" type="button" data-player-action="${escapeAttr(action)}" aria-label="${escapeAttr(label)}" title="${escapeAttr(label)}"><img src="assets/icons/${escapeAttr(icon)}" alt="" aria-hidden="true"><span class="sr-only">${escapeHtml(label)}</span></button>`;
+  }
+
   function safe(slide) {
     if (!slide) return null;
     const projection = slide.playerSafeProjection || slide;
@@ -47,7 +51,7 @@
       return;
     }
     if (displayMode === "read-aloud-fullscreen") {
-      root.innerHTML = `<section class="player-text-fullscreen"><div><p class="slide-pill">Slide ${escapeHtml(slide.slideNumber)} / ${escapeHtml(slide.totalSlides)}</p><h1>${escapeHtml(slide.title)}</h1><p>${escapeHtml(slide.readAloud || slide.publicObjective || slide.caption)}</p><button type="button" data-player-action="expand-text">Expand Text</button></div></section>`;
+      root.innerHTML = `<section class="player-text-fullscreen"><div><p class="slide-pill">Slide ${escapeHtml(slide.slideNumber)} / ${escapeHtml(slide.totalSlides)}</p><h1>${escapeHtml(slide.title)}</h1><p>${escapeHtml(slide.readAloud || slide.publicObjective || slide.caption)}</p>${playerIcon("expand-text", "Expand text", "action-fullscreen.png")}</div></section>`;
       return;
     }
     if (displayMode === "public-objective") {

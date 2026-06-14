@@ -96,7 +96,7 @@ h1 { font-size: clamp(3rem, 8vw, 6.8rem); margin: .2rem 0 1rem; max-width: 11ch;
   box-shadow: 0 1.2rem 3rem rgba(0,0,0,.36);
 }
 .image-frame { display: block; width: 100%; padding: 0; background: transparent; border: 0; color: inherit; }
-.image-actions { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: .55rem; align-items: center; }
+.image-actions { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .65rem; align-items: center; }
 .image-actions .button, .image-actions button, .image-actions a { padding: .45rem .6rem; font-size: .82rem; }
 figcaption { color: var(--muted); font-size: .92rem; margin-top: .65rem; }
 .control-strip {
@@ -139,11 +139,11 @@ figcaption { color: var(--muted); font-size: .92rem; margin-top: .65rem; }
   display: inline-block;
   flex: 0 0 auto;
   object-fit: contain;
-  border-radius: 4px;
+  border-radius: 0;
   vertical-align: -.18em;
-  border: 1px solid rgba(255,255,255,.18);
+  border: 0;
 }
-.legend-chip .type-icon { width: 2.25rem; height: 2.25rem; }
+.legend-chip .type-icon { width: 2.55rem; height: 2.55rem; }
 .hover-card .type-icon { width: 2rem; height: 2rem; }
 .type-icon-large {
   width: clamp(6rem, 10vw, 9rem);
@@ -352,13 +352,13 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   min-height: 2.5rem;
 }
 .icon-button {
-  width: 2.65rem;
-  height: 2.65rem;
-  min-width: 2.65rem;
-  min-height: 2.65rem;
+  width: 2.9rem;
+  height: 2.9rem;
+  min-width: 2.9rem;
+  min-height: 2.9rem;
   display: inline-grid;
   place-items: center;
-  padding: .35rem;
+  padding: .28rem;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--panel);
@@ -367,14 +367,25 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   text-decoration: none;
 }
 .icon-button img {
-  width: 1.45rem;
-  height: 1.45rem;
+  width: 2.15rem;
+  height: 2.15rem;
   object-fit: contain;
+}
+.image-actions .icon-button {
+  width: 3.15rem;
+  height: 3.15rem;
+  min-width: 3.15rem;
+  min-height: 3.15rem;
+  background: #fffdf8;
+}
+.image-actions .icon-button img {
+  width: 2.45rem;
+  height: 2.45rem;
 }
 .icon-button:hover { transform: translateY(-1px); box-shadow: var(--shadow); }
 .icon-check {
-  width: 2.65rem;
-  height: 2.65rem;
+  width: 2.9rem;
+  height: 2.9rem;
   display: inline-grid !important;
   place-items: center;
   border: 1px solid var(--line);
