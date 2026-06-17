@@ -277,6 +277,17 @@
   background: #f47d4d;
 }
 
+html[data-registration-state="pending"] .goldspire-page [data-event-cta].btn-primary {
+  background: var(--gold-brass);
+  color: var(--gold-ink);
+  box-shadow: 0 16px 32px rgba(215, 173, 87, 0.24);
+}
+
+html[data-registration-state="pending"] .goldspire-page [data-event-cta].btn-primary:hover,
+html[data-registration-state="pending"] .goldspire-page [data-event-cta].btn-primary:focus-visible {
+  background: #e2bc68;
+}
+
 .goldspire-micro,
 .goldspire-note {
   color: rgba(251, 244, 232, 0.8);

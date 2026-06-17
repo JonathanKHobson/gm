@@ -10,6 +10,20 @@
   white-space: nowrap;
 }
 
+html[data-registration-state="pending"] .daggerheart-resource [data-event-cta].btn-primary,
+html[data-registration-state="pending"] .daggerheart-resource [data-event-cta].nav-cta {
+  background: var(--brass);
+  color: #1a1008;
+  box-shadow: 0 14px 28px rgba(215, 173, 87, 0.22);
+}
+
+html[data-registration-state="pending"] .daggerheart-resource [data-event-cta].btn-primary:hover,
+html[data-registration-state="pending"] .daggerheart-resource [data-event-cta].btn-primary:focus-visible,
+html[data-registration-state="pending"] .daggerheart-resource [data-event-cta].nav-cta:hover,
+html[data-registration-state="pending"] .daggerheart-resource [data-event-cta].nav-cta:focus-visible {
+  background: #e0b760;
+}
+
 .resource-link-list {
   display: grid;
   gap: 1rem;

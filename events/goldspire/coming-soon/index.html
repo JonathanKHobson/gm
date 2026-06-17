@@ -14,35 +14,106 @@
   <style>
     body {
       background:
-        linear-gradient(135deg, rgba(7, 19, 25, 0.96), rgba(32, 60, 42, 0.92)),
+        radial-gradient(circle at 78% 18%, rgba(215, 173, 87, 0.18), transparent 18rem),
+        linear-gradient(135deg, rgba(7, 19, 25, 0.96), rgba(32, 60, 42, 0.93)),
         #071319;
       color: var(--cream);
     }
 
     .event-link-shell {
-      min-height: 100vh;
+      min-height: 100svh;
       display: grid;
-      place-items: center;
-      padding: 2rem;
+      align-content: center;
+      padding: clamp(1rem, 3vw, 2.5rem);
     }
 
     .event-link-card {
-      width: min(100%, 44rem);
+      width: min(100%, 68rem);
+      margin-inline: auto;
       border: 1px solid rgba(248, 237, 218, 0.22);
       border-radius: var(--radius);
-      background: rgba(248, 237, 218, 0.08);
-      padding: 2rem;
+      background:
+        linear-gradient(135deg, rgba(248, 237, 218, 0.13), rgba(248, 237, 218, 0.05)),
+        rgba(7, 19, 25, 0.8);
+      padding: clamp(1.2rem, 3vw, 2rem);
       box-shadow: var(--shadow);
     }
 
+    .event-link-grid {
+      display: grid;
+      gap: clamp(1.2rem, 3vw, 2rem);
+      align-items: center;
+    }
+
+    .event-link-status {
+      display: inline-flex;
+      width: fit-content;
+      align-items: center;
+      min-height: 2.25rem;
+      border: 1px solid rgba(215, 173, 87, 0.55);
+      border-radius: 999px;
+      background: rgba(215, 173, 87, 0.16);
+      color: #f3d690;
+      padding: 0.42rem 0.78rem;
+      font-family: var(--mono);
+      font-size: max(0.82rem, 15px);
+      font-weight: 800;
+    }
+
     .event-link-card h1 {
-      max-width: 12ch;
-      font-size: 2.4rem;
+      max-width: 14ch;
+      margin: 0.78rem 0 0;
+      color: #fff8ec;
+      font-size: clamp(2.35rem, 7vw, 4.8rem);
+      line-height: 0.96;
     }
 
     .event-link-card p {
       color: rgba(248, 237, 218, 0.82);
       margin-top: 1rem;
+    }
+
+    .event-link-lede {
+      max-width: 46rem;
+      font-size: max(1.05rem, 18px);
+      line-height: 1.55;
+    }
+
+    .event-link-humor {
+      max-width: 38rem;
+      color: rgba(248, 237, 218, 0.9);
+      font-weight: 800;
+    }
+
+    .event-link-facts {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.65rem;
+      margin-top: 1.25rem;
+    }
+
+    .event-link-facts span {
+      display: grid;
+      gap: 0.22rem;
+      min-height: 4.25rem;
+      border: 1px solid rgba(248, 237, 218, 0.16);
+      border-radius: 0.7rem;
+      background: rgba(7, 19, 25, 0.5);
+      padding: 0.72rem 0.82rem;
+    }
+
+    .event-link-facts small {
+      color: rgba(248, 237, 218, 0.62);
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .event-link-facts strong {
+      color: #fff8ec;
+      font-size: 1rem;
+      line-height: 1.25;
     }
 
     .event-link-actions {
@@ -51,18 +122,136 @@
       gap: 0.75rem;
       margin-top: 1.4rem;
     }
+
+    .event-link-actions .btn-primary {
+      background: var(--brass);
+      color: #1a1008;
+      box-shadow: 0 16px 32px rgba(215, 173, 87, 0.22);
+    }
+
+    .event-link-actions .btn-primary:hover,
+    .event-link-actions .btn-primary:focus-visible {
+      background: #e0b760;
+    }
+
+    .event-link-visual {
+      margin: 0;
+    }
+
+    .event-link-visual-frame {
+      display: grid;
+      place-items: end center;
+      min-height: clamp(14rem, 28vw, 22rem);
+      border: 1px solid rgba(248, 237, 218, 0.18);
+      border-radius: var(--radius);
+      background:
+        linear-gradient(180deg, rgba(215, 173, 87, 0.1), rgba(7, 19, 25, 0.42)),
+        rgba(248, 237, 218, 0.05);
+      overflow: hidden;
+    }
+
+    .event-link-visual img {
+      display: block;
+      width: min(100%, 34rem);
+      height: auto;
+      object-fit: contain;
+      transform: translateY(0.4rem);
+    }
+
+    .event-link-visual figcaption {
+      margin-top: 0.72rem;
+      color: rgba(248, 237, 218, 0.76);
+      font-size: max(0.92rem, 16px);
+      font-weight: 800;
+      text-align: center;
+    }
+
+    @media (min-width: 860px) {
+      .event-link-grid {
+        grid-template-columns: minmax(0, 1.05fr) minmax(18rem, 0.95fr);
+      }
+
+      .event-link-facts {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 620px) {
+      .event-link-shell {
+        align-content: start;
+      }
+
+      .event-link-card {
+        padding: 1rem;
+      }
+
+      .event-link-card h1 {
+        font-size: clamp(2.15rem, 11vw, 2.9rem);
+      }
+
+      .event-link-card p {
+        margin-top: 0.75rem;
+      }
+
+      .event-link-facts {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.5rem;
+        margin-top: 0.95rem;
+      }
+
+      .event-link-facts span {
+        min-height: 3.65rem;
+        padding: 0.55rem 0.65rem;
+      }
+
+      .event-link-facts span:last-child {
+        grid-column: 1 / -1;
+        min-height: auto;
+      }
+
+      .event-link-facts strong {
+        font-size: 0.94rem;
+      }
+
+      .event-link-actions {
+        margin-top: 1rem;
+      }
+
+      .event-link-actions .btn {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 <body>
   <main class="event-link-shell">
     <article class="event-link-card">
-      <p class="eyebrow">Event listing link</p>
-      <h1>Almost posted.</h1>
-      <p>The registration listing for <strong>Peril to Profit: The Goldspire Messengers</strong> is being finalized. Once the listing is live, this registration button will point directly there.</p>
-      <p>No homework in the meantime. That clause survived legal review.</p>
-      <div class="event-link-actions">
-        <a class="btn btn-primary" href="../">Back to event page</a>
-        <a class="btn btn-secondary" href="../../../index.html#contact">Ask Kyle a question</a>
+      <div class="event-link-grid">
+        <div>
+          <span class="event-link-status">Registration coming soon</span>
+          <h1>Registration opens soon.</h1>
+          <p class="event-link-lede">The official event listing for <strong>Peril to Profit&trade;: The Goldspire Messengers</strong> is being finalized. When it goes live, the event page button will take you straight there.</p>
+          <p class="event-link-humor">No homework while Management locates the correct form.</p>
+          <div class="event-link-facts" aria-label="Event quick facts">
+            <span><small>Date</small><strong>Tuesday, July 7</strong></span>
+            <span><small>Time</small><strong>5:00-9:00 PM</strong></span>
+            <span><small>Session</small><strong>4 hours</strong></span>
+            <span><small>Price</small><strong>$25 per person</strong></span>
+            <span><small>Seats</small><strong>5</strong></span>
+            <span><small>Location</small><strong>Mox Boarding House Chandler<br />1371 N Alma School Rd</strong></span>
+          </div>
+          <div class="event-link-actions" aria-label="Next steps">
+            <a class="btn btn-primary" href="../">Back to event page</a>
+            <a class="btn btn-secondary" href="../../../index.html#contact">Ask Kyle a question</a>
+            <a class="btn btn-secondary" href="../../../resources/daggerheart.html">Daggerheart resources</a>
+          </div>
+        </div>
+        <figure class="event-link-visual">
+          <div class="event-link-visual-frame">
+            <img src="../assets/characters/courier-crew-background-removed.png" alt="The five ready-to-play Goldspire courier characters." width="1536" height="1024" />
+          </div>
+          <figcaption>Five ready-to-play couriers. Registration paperwork remains the true final boss.</figcaption>
+        </figure>
       </div>
     </article>
   </main>

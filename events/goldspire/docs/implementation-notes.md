@@ -33,7 +33,8 @@ The page is a conversion-ready landing page for curious Mox, Discord, and friend
 - Static HTML/CSS/JS only.
 - Shared GM site CSS remains imported from `../../styles/`.
 - Page-specific layout lives in `goldspire.css`.
-- CTA wiring lives in `goldspire.js` through one config object.
-- Current CTA target is `events/goldspire/coming-soon/`; replacing the real listing URL is a one-value change in `goldspire.js`.
+- CTA wiring lives in `goldspire-registration.js` through one registration state object shared by the event page and Daggerheart resources page.
+- Current state is `registration_state: "pending"` with label `Registration coming soon` and target `events/goldspire/coming-soon/`.
+- When the real listing URL is live, set `registration_state: "live"` and replace `live_url` in `goldspire-registration.js`.
 - Player-facing character PDFs are published under `events/goldspire/assets/player-pdfs/`.
 - Private table edition PDFs, sheet previews, and GM-only story/rules material remain intentionally excluded from the public route.

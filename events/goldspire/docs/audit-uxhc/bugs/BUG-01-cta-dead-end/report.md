@@ -65,26 +65,26 @@ The destination cannot register the user and captures nothing. Only "ask Kyle a 
 - `../../screenshots/goldspire-desktop-hero.png` (CTA origin)
 
 ## Relevant flags / config
-- `goldspire.js` → `eventConfig.event_signup_url = "coming-soon/"` and `cta_text = "Claim a Seat"`. All `[data-event-cta]` links are rewritten from this single value.
+- Current implementation: `goldspire-registration.js` owns `registration_state`, pending/live labels, and pending/live URLs. All `[data-event-cta]` links are rewritten from this shared state.
 
 ## Additional context
 For an event sold on scarcity ("5 seats only"), losing peak-intent visitors with zero capture is the highest-cost issue in the audit. Highest-intent personas (Critical Role Curious, Mox Regular) are hurt most.
 
 ## Proposed fix (not applied)
 1. **Now:** add a waitlist/notify email capture on `coming-soon/` (embedded form or `mailto:`), plus an "add to calendar" `.ics` hold-the-date. Change the CTA label to **"Get the seat alert" / "Hold my seat."**
-2. **When listing is live:** set `event_signup_url` to the registration URL; revert label to "Claim a Seat."
+2. **When listing is live:** set `registration_state` to `live` and set `live_url` to the registration URL; the shared live label is "Claim a Seat."
 3. Copy provided in [`06-copy-rewrites/03-cta-and-coming-soon.md`](../../06-copy-rewrites/03-cta-and-coming-soon.md).
 
 ## Execution decision — 2026-06-17
 - Owner decision: do not build a waitlist, event listing, signup capture, or larger coming-soon conversion system in this pass.
-- Keep visible CTA text as `Registration has not started yet` until the real listing URL exists.
-- Keep `event_signup_url: "coming-soon/"` as the single future switch point.
+- Keep visible CTA text as `Registration coming soon` until the real listing URL exists.
+- Keep `goldspire-registration.js` as the shared pending/live switch point for the event page and Daggerheart resources page.
 - Keep `events/goldspire/coming-soon/` out of `sitemap.xml` and preserve `noindex, nofollow`.
-- Future cutover: replace `event_signup_url` with the real listing URL, set `cta_text` back to `Claim a Seat`, mirror the Daggerheart resource CTA label, then verify all `[data-event-cta]` links.
+- Future cutover: set `registration_state: "live"` and replace `live_url` with the real listing URL; the shared live label is `Claim a Seat`.
 
 ## Verification
 - [ ] Real listing URL available
 - [x] CTA text reflects current registration state
-- [x] CTA URL remains one config value in `goldspire.js`
+- [x] CTA URL remains in the shared registration config
 - [x] Coming-soon route excluded from sitemap
 - [x] Coming-soon route marked `noindex, nofollow`

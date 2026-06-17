@@ -25,7 +25,7 @@ This audit report is preserved as the original findings record. Current implemen
 
 | Area | Status | Notes |
 |---|---|---|
-| BUG-01 primary registration destination | Deferred | External dependency by owner decision. Visible CTA now reads `Registration has not started yet`; all event CTAs still route through `event_signup_url: "coming-soon/"` for cutover. |
+| BUG-01 primary registration destination | Deferred | External dependency by owner decision. Visible CTA now reads `Registration coming soon`; all event CTAs use `goldspire-registration.js` for pending/live cutover. |
 | BUG-02 mobile nav | Complete | Header nav links are reachable at mobile widths using the horizontal-scroll row; dead hamburger behavior was removed. |
 | BUG-03 Daggerheart dead-end | Complete | Resource page now includes return CTA, registration-state CTA, portfolio path, footer, and Twitter/OG metadata. |
 | BUG-04 custom 404 | Complete | Root `404.html` provides branded recovery to Home, Goldspire, and Daggerheart resources. |
