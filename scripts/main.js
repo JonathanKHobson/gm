@@ -19,7 +19,11 @@
   var shareQrImage = document.getElementById("shareQrImage");
   var shareQrCaption = document.getElementById("shareQrCaption");
   var shareModeButtons = Array.prototype.slice.call(document.querySelectorAll("[data-qr-mode]"));
+  var registrationModal = document.getElementById("registrationSoonModal");
+  var registrationOpenButtons = Array.prototype.slice.call(document.querySelectorAll("[data-registration-coming-soon]"));
+  var registrationPanel = registrationModal ? registrationModal.querySelector(".share-modal-panel") : null;
   var lastShareFocus = null;
+  var lastRegistrationFocus = null;
   var shareUrl = shareUrlField ? shareUrlField.value : "https://jonathankhobson.github.io/g/";
   var shareMessage = "GameMasterKyle digital card: " + shareUrl;
   var qrModes = {
@@ -219,8 +223,90 @@
     }
   }
 
+  function openRegistrationModal(trigger) {
+    if (!registrationModal || !registrationPanel) return;
+    lastRegistrationFocus = trigger || document.activeElement;
+    registrationModal.hidden = false;
+    registrationModal.setAttribute("aria-hidden", "false");
+    document.body.classList.add("modal-open");
+    window.setTimeout(function () {
+      registrationPanel.focus();
+    }, 0);
+  }
+
+  function closeRegistrationModal() {
+    if (!registrationModal) return;
+    registrationModal.hidden = true;
+    registrationModal.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("modal-open");
+    if (lastRegistrationFocus && typeof lastRegistrationFocus.focus === "function") {
+      lastRegistrationFocus.focus();
+    }
+  }
+
+  if (registrationModal) {
+    registrationOpenButtons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        openRegistrationModal(button);
+      });
+    });
+
+    registrationModal.addEventListener("click", function (event) {
+      if (!event.target.closest("[data-registration-close]")) return;
+      closeRegistrationModal();
+    });
+
+    window.addEventListener("keydown", function (event) {
+      if (registrationModal.hidden || event.key !== "Escape") return;
+      closeRegistrationModal();
+    });
+  }
+
+  var goldspireStickyCta = document.querySelector(".goldspire-sticky-cta");
+  if (goldspireStickyCta) {
+    var stickyHideTargets = Array.prototype.slice.call(document.querySelectorAll("#contact, .goldspire-final-band"));
+    var visibleStickyHideTargets = [];
+
+    function updateGoldspireSticky() {
+      var contactFocused = form && form.contains(document.activeElement);
+      goldspireStickyCta.classList.toggle("is-hidden", contactFocused || visibleStickyHideTargets.length > 0);
+    }
+
+    if ("IntersectionObserver" in window && stickyHideTargets.length) {
+      var stickyObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          var index = visibleStickyHideTargets.indexOf(entry.target);
+          if (entry.isIntersecting && index < 0) {
+            visibleStickyHideTargets.push(entry.target);
+          } else if (!entry.isIntersecting && index >= 0) {
+            visibleStickyHideTargets.splice(index, 1);
+          }
+        });
+        updateGoldspireSticky();
+      }, { threshold: 0.04 });
+
+      stickyHideTargets.forEach(function (target) {
+        stickyObserver.observe(target);
+      });
+    }
+
+    if (form) {
+      form.addEventListener("focusin", updateGoldspireSticky);
+      form.addEventListener("focusout", function () {
+        window.setTimeout(updateGoldspireSticky, 0);
+      });
+    }
+
+    updateGoldspireSticky();
+  }
+
   function validEmail(value) {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+  }
+
+  function contactLooksUsable(value) {
+    if (value.indexOf("@") >= 0) return validEmail(value);
+    return value.length >= 2;
   }
 
   if (form && note) {
@@ -243,6 +329,17 @@
       var name = document.getElementById("cf-name").value.trim();
       var email = document.getElementById("cf-email").value.trim();
       var message = document.getElementById("cf-msg").value.trim();
+      var topicField = document.getElementById("cf-topic");
+      var consentField = document.getElementById("cf-consent");
+      var honeypot = document.getElementById("cf-company");
+      var topic = topicField ? topicField.value.trim() : "";
+      var consent = consentField && consentField.checked ? "yes" : "not checked";
+
+      if (honeypot && honeypot.value.trim()) {
+        form.reset();
+        note.textContent = "Thanks. Your message was sent. I will reply within a day or two.";
+        return;
+      }
 
       if (name.length < 2) {
         note.textContent = "Add your name so I know who I am talking with.";
@@ -250,9 +347,15 @@
         return;
       }
 
-      if (!validEmail(email)) {
-        note.textContent = "Enter a valid email, like name@example.com.";
+      if (!contactLooksUsable(email)) {
+        note.textContent = "Enter a valid email or a clear preferred contact.";
         document.getElementById("cf-email").focus();
+        return;
+      }
+
+      if (topicField && !topic) {
+        note.textContent = "Choose the kind of question so I can route the reply.";
+        topicField.focus();
         return;
       }
 
@@ -286,10 +389,12 @@
       }
 
       var params = {
-        title: "Portfolio contact",
+        title: topic ? "Goldspire event contact" : "Portfolio contact",
         name: name,
         email: email,
-        message: message,
+        topic: topic,
+        consent: consent,
+        message: topic ? ("Topic: " + topic + "\nReply consent: " + consent + "\n\n" + message) : message,
         page: window.location.href
       };
 

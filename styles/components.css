@@ -3743,6 +3743,368 @@
   text-align: center;
 }
 
+.website-nav {
+  gap: clamp(0.65rem, 1vw, 1.1rem);
+}
+
+.events-hero,
+.goldspire-hero {
+  background:
+    linear-gradient(90deg, rgba(7, 19, 25, 0.94), rgba(7, 19, 25, 0.72) 54%, rgba(7, 19, 25, 0.34)),
+    url("../assets/events/goldspire/hero/goldspire-sablewood-wide.png") center / cover no-repeat;
+}
+
+.event-card-featured {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(22rem, 1fr);
+  gap: 1.1rem;
+  overflow: hidden;
+  border: 1px solid rgba(201, 163, 92, 0.38);
+  border-radius: var(--radius);
+  background:
+    radial-gradient(circle at 15% 10%, rgba(111, 174, 183, 0.16), transparent 15rem),
+    linear-gradient(180deg, rgba(255, 250, 241, 0.97), rgba(255, 244, 222, 0.93));
+  box-shadow: var(--shadow-soft);
+}
+
+.event-card-media {
+  min-height: 28rem;
+  margin: 0;
+  background: #071319;
+}
+
+.event-card-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 28rem;
+  object-fit: cover;
+}
+
+.event-card-copy {
+  display: grid;
+  align-content: center;
+  gap: 1rem;
+  padding: clamp(1rem, 3vw, 1.5rem);
+}
+
+.event-card-copy h3 {
+  color: var(--ink);
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  max-width: 12ch;
+}
+
+.event-card-copy p {
+  color: var(--ink-soft);
+  font-size: 1rem;
+  line-height: 1.58;
+}
+
+.event-facts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.7rem;
+  margin: 0;
+}
+
+.event-facts div {
+  border: 1px solid rgba(127, 44, 22, 0.13);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 250, 241, 0.72);
+  padding: 0.75rem;
+}
+
+.event-facts dt {
+  color: var(--ember-dark);
+  font-family: var(--mono);
+  font-size: max(0.85rem, 16px);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.event-facts dd {
+  margin: 0.25rem 0 0;
+  color: var(--ink);
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.event-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.goldspire-status-note {
+  display: inline-flex;
+  margin-top: 1rem;
+  border: 1px solid rgba(248, 237, 218, 0.28);
+  border-radius: 999px;
+  background: rgba(7, 19, 25, 0.44);
+  color: var(--cream);
+  padding: 0.55rem 0.8rem;
+}
+
+.goldspire-path-strip {
+  background: var(--brass);
+  color: #1a1008;
+}
+
+.goldspire-path-strip .wrap {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.goldspire-path-strip p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+.goldspire-fact-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.goldspire-fact-grid article {
+  display: grid;
+  gap: 0.6rem;
+  border: 1px solid rgba(201, 163, 92, 0.36);
+  border-radius: var(--radius);
+  background:
+    radial-gradient(circle at 15% 10%, rgba(111, 174, 183, 0.15), transparent 10rem),
+    rgba(255, 250, 241, 0.78);
+  padding: 1rem;
+}
+
+.goldspire-fact-grid img {
+  width: 3.2rem;
+  height: 3.2rem;
+  object-fit: contain;
+}
+
+.goldspire-fact-grid h3,
+.goldspire-character-card h3,
+.goldspire-promise-card h3 {
+  color: var(--ink);
+  font-size: 1.2rem;
+}
+
+.goldspire-fact-grid p,
+.goldspire-character-card p,
+.goldspire-promise-card p {
+  color: var(--ink-soft);
+  font-size: 1rem;
+  line-height: 1.52;
+}
+
+.goldspire-side-card img {
+  object-fit: cover;
+}
+
+.goldspire-promise-line {
+  width: fit-content;
+  border: 1px solid rgba(248, 237, 218, 0.22);
+  border-radius: 999px;
+  background: rgba(248, 237, 218, 0.1);
+  color: var(--cream);
+  font-weight: 900;
+  padding: 0.7rem 1rem;
+}
+
+.goldspire-promise-card {
+  display: grid;
+  align-content: center;
+  gap: 0.8rem;
+  border: 1px solid rgba(248, 237, 218, 0.18);
+  border-radius: var(--radius);
+  background:
+    radial-gradient(circle at 25% 18%, rgba(111, 174, 183, 0.18), transparent 12rem),
+    rgba(255, 250, 241, 0.08);
+  color: var(--cream);
+  padding: 1rem;
+}
+
+.goldspire-promise-card img {
+  width: min(100%, 16rem);
+  max-height: 14rem;
+  object-fit: contain;
+  justify-self: center;
+}
+
+.goldspire-promise-card h3,
+.goldspire-promise-card p {
+  color: var(--cream);
+}
+
+.goldspire-character-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.goldspire-character-card {
+  display: grid;
+  gap: 0.75rem;
+  border: 1px solid rgba(201, 163, 92, 0.36);
+  border-radius: var(--radius);
+  background:
+    radial-gradient(circle at 18% 12%, rgba(111, 174, 183, 0.14), transparent 10rem),
+    linear-gradient(180deg, rgba(255, 250, 241, 0.96), rgba(255, 244, 222, 0.9));
+  padding: 0.9rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.goldspire-character-card img {
+  width: 100%;
+  height: 13rem;
+  border: 1px solid rgba(127, 44, 22, 0.13);
+  border-radius: var(--radius-sm);
+  background: rgba(7, 19, 25, 0.08);
+  object-fit: contain;
+}
+
+.goldspire-character-card .meta {
+  color: var(--ember-dark);
+  font-family: var(--mono);
+  font-size: max(0.85rem, 16px);
+  font-weight: 900;
+  line-height: 1.35;
+}
+
+.goldspire-mid-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.goldspire-mid-cta p {
+  max-width: 42rem;
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.accordion-stack {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.goldspire-detail-panel {
+  border: 1px solid rgba(201, 163, 92, 0.36);
+  border-radius: var(--radius);
+  background: rgba(255, 250, 241, 0.78);
+  padding: 0.95rem;
+}
+
+.goldspire-detail-panel summary {
+  cursor: pointer;
+  color: var(--ink);
+  font-size: 1.08rem;
+  font-weight: 900;
+}
+
+.goldspire-detail-panel p {
+  color: var(--ink-soft);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.goldspire-resource-card img {
+  max-height: 14rem;
+  object-fit: contain;
+}
+
+.goldspire-contact-card select {
+  width: 100%;
+  min-height: 2.85rem;
+  border: 1px solid rgba(23, 16, 11, 0.16);
+  border-radius: var(--radius-sm);
+  background: #fffaf1;
+  color: var(--ink);
+  font: inherit;
+  font-size: max(1rem, 16px);
+  padding: 0.7rem 0.85rem;
+}
+
+.goldspire-contact-card {
+  background:
+    linear-gradient(180deg, rgba(18, 35, 37, 0.96), rgba(7, 19, 25, 0.98)),
+    var(--void);
+  border-color: rgba(248, 237, 218, 0.2);
+  color: var(--cream);
+}
+
+.goldspire-contact-card h3,
+.goldspire-contact-card label {
+  color: var(--cream);
+}
+
+.goldspire-contact-card .form-hint,
+.goldspire-contact-card .checkbox-field {
+  color: rgba(248, 237, 218, 0.78);
+}
+
+.goldspire-contact-card input,
+.goldspire-contact-card textarea {
+  border-color: rgba(248, 237, 218, 0.28);
+  background: rgba(255, 250, 241, 0.96);
+  color: var(--ink);
+}
+
+.goldspire-contact-card select {
+  border-color: rgba(248, 237, 218, 0.28);
+}
+
+.checkbox-field {
+  display: flex;
+  gap: 0.65rem;
+  align-items: flex-start;
+  color: var(--ink-soft);
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.checkbox-field input {
+  width: 1.1rem;
+  height: 1.1rem;
+  margin-top: 0.15rem;
+}
+
+.honeypot-field {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.final-cta-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: center;
+}
+
+.goldspire-sticky-cta {
+  display: none;
+}
+
+.goldspire-sticky-cta.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(1rem);
+}
+
 .link-card-links-section {
   padding: 3rem 0 4rem;
   color: var(--ink);

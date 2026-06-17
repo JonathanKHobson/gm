@@ -28,15 +28,6 @@
     <loc>https://jonathankhobson.github.io/gm/games/peril-to-profit.html</loc>
   </url>
   <url>
-    <loc>https://jonathankhobson.github.io/gm/games/peril-to-profit-story-atlas/</loc>
-  </url>
-  <url>
-    <loc>https://jonathankhobson.github.io/gm/events/goldspire/</loc>
-  </url>
-  <url>
-    <loc>https://jonathankhobson.github.io/gm/resources/daggerheart.html</loc>
-  </url>
-  <url>
     <loc>https://jonathankhobson.github.io/gm/games/stargate-card-universe.html</loc>
   </url>
   <url>
@@ -47,5 +38,11 @@
   </url>
   <url>
     <loc>https://jonathankhobson.github.io/gm/resources/p2k-war-encounter.html</loc>
+  </url>
+  <url>
+    <loc>https://jonathankhobson.github.io/gm/events/goldspire/</loc>
+  </url>
+  <url>
+    <loc>https://jonathankhobson.github.io/gm/events/</loc>
   </url>
 </urlset>
