@@ -17,6 +17,7 @@ status: active
 - `events/goldspire/goldspire.css`: page-specific layout, visual rhythm, mobile behavior, and asset placement.
 - `events/goldspire/goldspire.js`: one config object for event facts and CTA target.
 - `events/goldspire/assets/`: page-local copies of approved public Goldspire art, icons, character cutouts, locations, and poster elements.
+- `events/goldspire/assets/player-pdfs/`: optional player-facing PDF packets for the intended Goldspire couriers.
 - `events/goldspire/docs/`: maintenance notes, source manifest, and QA record.
 
 ## Future Update Path

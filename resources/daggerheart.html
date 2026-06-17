@@ -4,10 +4,10 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Daggerheart Resources | GameMasterKyle</title>
-  <meta name="description" content="Optional official Daggerheart links for players curious about the game before a GameMasterKyle one-shot." />
+  <meta name="description" content="Optional Daggerheart basics, Goldspire character PDFs, and official links for players curious before a GameMasterKyle one-shot." />
   <link rel="canonical" href="https://jonathankhobson.github.io/gm/resources/daggerheart.html" />
   <meta property="og:title" content="Daggerheart Resources | GameMasterKyle" />
-  <meta property="og:description" content="No prep required. Optional official links for players who want to peek at Daggerheart before the table." />
+  <meta property="og:description" content="No prep required. Optional Goldspire character PDFs, Daggerheart basics, Demiplane tools, and official links for curious players." />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://jonathankhobson.github.io/gm/resources/daggerheart.html" />
   <link rel="icon" type="image/png" href="../assets/brand/favicon.png" />
@@ -27,7 +27,10 @@
       gap: 1rem;
     }
 
-    .resource-link-list a {
+    .resource-link-list a,
+    .pdf-card,
+    .basics-card,
+    .resource-callout {
       display: grid;
       gap: 0.4rem;
       border: 1px solid var(--line);
@@ -37,14 +40,133 @@
       box-shadow: var(--shadow-soft);
     }
 
-    .resource-link-list strong {
+    .resource-link-list strong,
+    .pdf-card strong,
+    .basics-card h3,
+    .resource-callout h3 {
       color: var(--ink);
       font-family: var(--mono);
       font-size: 1rem;
     }
 
-    .resource-link-list span {
+    .resource-link-list span,
+    .pdf-card span,
+    .basics-card p,
+    .resource-callout p,
+    .resource-note {
       color: var(--ink-soft);
+    }
+
+    .resource-actions,
+    .resource-pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+    }
+
+    .resource-pill-row span {
+      display: inline-flex;
+      align-items: center;
+      min-height: 2.2rem;
+      border-radius: 999px;
+      background: rgba(32, 60, 42, 0.1);
+      color: var(--forest);
+      padding: 0.42rem 0.72rem;
+      font-weight: 800;
+    }
+
+    .resource-download-grid,
+    .basics-grid {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .pdf-card {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .pdf-card:hover,
+    .pdf-card:focus-visible,
+    .resource-link-list a:hover,
+    .resource-link-list a:focus-visible {
+      border-color: rgba(122, 62, 33, 0.5);
+      transform: translateY(-1px);
+    }
+
+    .pdf-card.featured {
+      background:
+        linear-gradient(135deg, rgba(32, 60, 42, 0.1), rgba(215, 173, 87, 0.16)),
+        rgba(255, 250, 241, 0.96);
+    }
+
+    .resource-card-meta {
+      color: var(--ink-muted);
+      font-family: var(--mono);
+      font-size: max(0.82rem, 16px);
+      font-weight: 800;
+    }
+
+    .resource-callout {
+      background:
+        linear-gradient(135deg, rgba(32, 60, 42, 0.1), rgba(95, 143, 157, 0.12)),
+        rgba(255, 250, 241, 0.94);
+    }
+
+    .resource-callout .btn {
+      width: fit-content;
+    }
+
+    .basics-card {
+      align-content: start;
+    }
+
+    .basics-card h3 {
+      margin: 0;
+    }
+
+    .rules-details {
+      display: grid;
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .rules-details details {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255, 250, 241, 0.82);
+    }
+
+    .rules-details summary {
+      cursor: pointer;
+      padding: 0.9rem 1rem;
+      color: var(--ink);
+      font-weight: 850;
+    }
+
+    .rules-details p,
+    .rules-details ul {
+      margin: 0;
+      padding: 0 1rem 1rem;
+      color: var(--ink-soft);
+    }
+
+    @media (min-width: 760px) {
+      .resource-download-grid,
+      .basics-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (min-width: 1080px) {
+      .resource-download-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .basics-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
     }
   </style>
 </head>
@@ -73,11 +195,11 @@
       <div class="wrap">
         <a class="breadcrumb" href="../events/goldspire/">Back to Goldspire event</a>
         <div class="eyebrow">Optional player resources</div>
-        <h1 id="daggerheart-title">Daggerheart links if you want to peek before the game.</h1>
-        <p class="detail-lede">No prep is required for the Goldspire one-shot. If you are curious, these official links are good first stops.</p>
+        <h1 id="daggerheart-title">Daggerheart resources if you want to peek before the game.</h1>
+        <p class="detail-lede">No prep is required for the Goldspire one-shot. If curiosity wins, start with the character PDFs or the quick rules notes below.</p>
         <div class="detail-meta" aria-label="Resource facts">
           <span>No homework required</span>
-          <span>Official links first</span>
+          <span>Character PDFs included</span>
           <span>Rules taught at table</span>
         </div>
       </div>
@@ -89,6 +211,11 @@
           <h2 id="links-title">Start Here</h2>
           <p>Daggerheart is a fantasy tabletop roleplaying game from Darrington Press. It is built for cinematic fantasy, teamwork, and scenes that keep moving.</p>
           <p>For a first session, the table version is simple: say what your character tries, roll when the outcome is uncertain, and Kyle will help with the rest.</p>
+          <div class="resource-pill-row" aria-label="Player prep reassurance">
+            <span>Show up curious</span>
+            <span>Printed sheets provided</span>
+            <span>Questions welcome</span>
+          </div>
         </article>
         <aside class="detail-card">
           <h2>Important note</h2>
@@ -97,12 +224,125 @@
       </div>
     </section>
 
+    <section class="band paper-band" aria-labelledby="character-packets-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="eyebrow">Goldspire player PDFs</div>
+          <h2 class="h-section" id="character-packets-title">Optional character sheets for early browsing.</h2>
+          <p class="lead">These are the intended ready-to-play couriers. You can review them now, ignore them completely, or pick by vibe at the table.</p>
+        </div>
+        <div class="resource-download-grid" aria-label="Goldspire character PDF downloads">
+          <a class="pdf-card featured" href="../events/goldspire/assets/player-pdfs/all-player-character-packet-pages-02-21.pdf" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-note">
+            <strong>All Goldspire characters</strong>
+            <span>One PDF with all five intended courier sheets.</span>
+            <span class="resource-card-meta">Open all-character packet</span>
+          </a>
+          <a class="pdf-card" href="../events/goldspire/assets/player-pdfs/03-garrick-reed-pages-10-13.pdf" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-note">
+            <strong>Garrick Reed</strong>
+            <span>Highborne Human Warrior. Direct, sturdy, easiest start.</span>
+            <span class="resource-card-meta">Open Garrick PDF</span>
+          </a>
+          <a class="pdf-card" href="../events/goldspire/assets/player-pdfs/04-khari-nix-pages-14-17.pdf" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-note">
+            <strong>Khari Nix</strong>
+            <span>Ridgeborne Giant Guardian. Protective, steady, team-first.</span>
+            <span class="resource-card-meta">Open Khari PDF</span>
+          </a>
+          <a class="pdf-card" href="../events/goldspire/assets/player-pdfs/05-varian-soto-pages-18-21.pdf" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-note">
+            <strong>Varian Soto</strong>
+            <span>Wildborne Katari Ranger. Scout, watcher, forest-smart.</span>
+            <span class="resource-card-meta">Open Varian PDF</span>
+          </a>
+          <a class="pdf-card" href="../events/goldspire/assets/player-pdfs/01-marlowe-fairwind-pages-02-05.pdf" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-note">
+            <strong>Marlowe Fairwind</strong>
+            <span>Loreborne Elf Sorcerer. Magic, curiosity, paperwork-adjacent danger.</span>
+            <span class="resource-card-meta">Open Marlowe PDF</span>
+          </a>
+          <a class="pdf-card" href="../events/goldspire/assets/player-pdfs/02-barnacle-pages-06-09.pdf" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-note">
+            <strong>Barnacle</strong>
+            <span>Underborne Ribbet Rogue. Sneaky, slippery, impossible to file correctly.</span>
+            <span class="resource-card-meta">Open Barnacle PDF</span>
+          </a>
+        </div>
+        <p class="resource-note">Printed sheets will be provided in person. These PDFs are optional early browsing, not required prep.</p>
+      </div>
+    </section>
+
+    <section class="band paper-band" aria-labelledby="character-builder-title">
+      <div class="wrap detail-layout">
+        <article class="resource-callout">
+          <h2 id="character-builder-title">Want to make or remake a character?</h2>
+          <p>Experienced or especially motivated players can use Daggerheart NEXUS on Demiplane to experiment with a Level 1 character. Keep it friendly to a four-hour beginner table and the courier premise.</p>
+          <p>Only printed character sheets will be provided in person. Custom or altered characters still need final table approval, also known as corporate approval after a very serious review by Management.</p>
+          <a class="btn btn-secondary external-link" href="https://app.demiplane.com/nexus/daggerheart" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-note">Open Demiplane NEXUS</a>
+        </article>
+        <aside class="detail-card">
+          <h2>Character flexibility</h2>
+          <p>The five Goldspire couriers are the intended roster, but Kyle will bring other Level 1 class sheets. You can choose, tweak, reskin, or rebuild as long as the final version fits the table, the session pace, and the corporate courier assignment.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="band paper-band" aria-labelledby="rules-basics-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="eyebrow">Daggerheart basics</div>
+          <h2 class="h-section" id="rules-basics-title">The short version, without the rulebook cliff.</h2>
+          <p class="lead">You do not need to memorize rules. These are the ideas most likely to make your first few turns feel easier.</p>
+        </div>
+        <div class="basics-grid" aria-label="Plain-language Daggerheart basics">
+          <article class="basics-card">
+            <h3>Say what you try</h3>
+            <p>You describe your character's goal in normal language. Kyle helps translate that into the game when dice are needed.</p>
+          </article>
+          <article class="basics-card">
+            <h3>Roll Hope and Fear</h3>
+            <p>Most risky actions use two d12s. Add the dice, add a character trait, and compare the total to the difficulty.</p>
+          </article>
+          <article class="basics-card">
+            <h3>Fear is not failure</h3>
+            <p>If Fear is higher, the scene may get tense or complicated. You can still succeed. Management regrets the confusion.</p>
+          </article>
+          <article class="basics-card">
+            <h3>Hope is useful</h3>
+            <p>Hope is player momentum. You can spend it to help allies, use Experiences, and do class-specific heroic things.</p>
+          </article>
+          <article class="basics-card">
+            <h3>Experiences are plain language</h3>
+            <p>If your sheet says something like a background, reputation, or specialty, you can use it when it clearly applies.</p>
+          </article>
+          <article class="basics-card">
+            <h3>The spotlight moves</h3>
+            <p>Combat does not need rigid initiative. The table follows the action, shares spotlight, and keeps quieter players included.</p>
+          </article>
+        </div>
+        <div class="rules-details" aria-label="Optional deeper Daggerheart basics">
+          <details>
+            <summary>Optional: what do HP, Stress, and Armor mean?</summary>
+            <p>HP tracks serious harm. Stress tracks pressure, strain, fear, effort, or emotional weight. Armor can soften incoming damage by reducing how severe a hit is.</p>
+          </details>
+          <details>
+            <summary>Optional: what conditions might come up?</summary>
+            <p>Daggerheart uses conditions such as Hidden, Restrained, and Vulnerable. Kyle will explain any condition at the moment it matters.</p>
+          </details>
+          <details>
+            <summary>Optional: what should I remember at the table?</summary>
+            <ul>
+              <li>Say what your character tries.</li>
+              <li>Roll when Kyle asks.</li>
+              <li>Tell the table your total and whether Hope or Fear was higher.</li>
+              <li>Ask questions whenever the sheet looks like a tax document with a sword.</li>
+            </ul>
+          </details>
+        </div>
+      </div>
+    </section>
+
     <section class="band paper-band" aria-labelledby="official-links-title">
       <div class="wrap">
         <div class="section-head">
           <div class="eyebrow">Official links</div>
-          <h2 class="h-section" id="official-links-title">Browse only if it sounds fun.</h2>
-          <p class="lead">You can arrive knowing nothing. These links are for curiosity, not a reading assignment.</p>
+          <h2 class="h-section" id="official-links-title">Go deeper only if it sounds fun.</h2>
+          <p class="lead">You can arrive knowing nothing. These links are for curiosity after the quick notes above.</p>
         </div>
         <div class="resource-link-list">
           <a aria-describedby="new-tab-note" class="external-link" href="https://www.daggerheart.com/" target="_blank" rel="noopener noreferrer">
@@ -123,7 +363,7 @@
           </a>
           <a aria-describedby="new-tab-note" class="external-link" href="https://app.demiplane.com/nexus/daggerheart" target="_blank" rel="noopener noreferrer">
             <strong>Daggerheart NEXUS</strong>
-            <span>Official digital companion through Demiplane for browsing digital tools.</span>
+            <span>Demiplane's Daggerheart tools for browsing or building characters online.</span>
           </a>
         </div>
       </div>

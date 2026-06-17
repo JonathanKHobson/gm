@@ -24,6 +24,7 @@ The page is a conversion-ready landing page for curious Mox, Discord, and friend
 - Hero character art uses the prepared background-removed courier crew reference as a single controlled image.
 - Mobile uses the same crew reference in a compact strip so the PCs are visible without image collision or excessive first-fold height.
 - Character art supports choice and emotional buy-in.
+- Courier cards link to optional character PDFs. These should remain framed as optional review, not required prep.
 - Location art supports atmosphere only; it should not become a lore gallery.
 - Icons are decorative supports and should not carry essential meaning by themselves.
 
@@ -34,4 +35,5 @@ The page is a conversion-ready landing page for curious Mox, Discord, and friend
 - Page-specific layout lives in `goldspire.css`.
 - CTA wiring lives in `goldspire.js` through one config object.
 - Current CTA target is `events/goldspire/coming-soon/`; replacing the real listing URL is a one-value change in `goldspire.js`.
-- Private player PDFs and sheet previews are intentionally excluded from the public route.
+- Player-facing character PDFs are published under `events/goldspire/assets/player-pdfs/`.
+- Private table edition PDFs, sheet previews, and GM-only story/rules material remain intentionally excluded from the public route.

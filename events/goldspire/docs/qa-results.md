@@ -48,3 +48,25 @@ status: local-qa-passed
 - Live HTML contains the prepared party-reference hero markers, `Claim a Seat`, `Mox Boarding House Chandler`, and `Peril to Profit`.
 - Live HTML source sweep found zero stale cast-member, stray wolf accent, internal source-status, or stale venue shorthand markers.
 - Live CSS returned `200`, contains the new hero party image styles and label contrast token, and contains zero old `.cast-*` or wolf accent rules.
+
+## 2026-06-17 Player PDFs And Rules Basics QA
+
+### Additional Visual Anchors
+
+| ID | Source / viewport | Region | Visual fact / issue | Intended action | Verification |
+| --- | --- | --- | --- | --- | --- |
+| C1 | Playwright desktop `1366x900` and mobile `390x900` | Goldspire `.courier-grid` | Five courier cards are clickable PDF links, retain individual portrait art, and do not create horizontal overflow. | Keep the card itself as the PDF target while preserving the visual character chooser. | Passed local rendered checks; all five courier images reported complete with natural dimensions on desktop and mobile. |
+| C2 | Playwright desktop `1366x900` and mobile `390x900` | Goldspire optional prep panel | The panel explains intended PCs, other Level 1 sheets, Demiplane character building, and printed in-person sheets without making prep feel required. | Keep as optional depth below the courier cards. | Passed screenshot review and source text check. |
+| R2 | Playwright desktop `1366x900` and mobile `390x900` | `/resources/daggerheart.html` PDF section | Six PDF cards are readable and touch-friendly; all open in a new tab with `noopener noreferrer`. | Let players browse all sheets or one PC sheet without requiring prep. | Passed screenshot review, link check, and copy scan. |
+| R3 | Playwright desktop `1366x900` and mobile `390x900` | `/resources/daggerheart.html` rules basics | Six plain-language rule cards are visible; denser HP/Stress/conditions/table-reminder notes remain behind optional details. | Keep player-facing basics lighter than the official rules site. | Passed screenshot review and disclosure count check. |
+
+### Local Verification
+
+- Local server: `http://127.0.0.1:8765/`.
+- Checked routes: `/events/goldspire/` and `/resources/daggerheart.html`.
+- Desktop `1366x900` and mobile `390x900`: no horizontal overflow.
+- Goldspire landing page: 6 PDF links, 5 courier cards, 1 Demiplane link, printed-sheet note present, all five courier images loaded.
+- Daggerheart resources page: 6 PDF links, 6 PDF cards, 6 basics cards, 3 optional rules details, 2 Demiplane links, printed-sheet note present.
+- Local link sweep: 16 same-origin links checked, 0 failures.
+- Public text/source sweep: no private-table identifiers, GM-only rules labels, internal safety-stage wording, placeholders, or known spoiler strings found in the active page sources/docs checked.
+- Quality-gate note: manual `visual_qa`, `design_taste`, and `communication_review` recorded in the Pro GM gate log for this focused slice; the requested `codex_artifact_quality_gate.py` helper was not present in the workspace.

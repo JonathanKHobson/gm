@@ -35,6 +35,19 @@ The five individual card portraits also have page-local cropped derivatives in `
 
 Copied from `event-visual-asset-pack/assets/pcs/` into `events/goldspire/assets/pcs/` for future page/social variants. The current public page uses the background-removed crew reference in the hero and cropped individual portraits in the character cards.
 
+### Player Character PDFs
+
+Copied from `event-visual-asset-pack/player-pdfs/` into `events/goldspire/assets/player-pdfs/` and linked from both the Goldspire landing page and `/resources/daggerheart.html`.
+
+- `01-marlowe-fairwind-pages-02-05.pdf`
+- `02-barnacle-pages-06-09.pdf`
+- `03-garrick-reed-pages-10-13.pdf`
+- `04-khari-nix-pages-14-17.pdf`
+- `05-varian-soto-pages-18-21.pdf`
+- `all-player-character-packet-pages-02-21.pdf`
+
+These are optional player-facing prep assets. The private table edition PDF at the packet root remains excluded.
+
 ### Location Art
 
 - `event-visual-asset-pack/assets/location-art/MAP-LOC-sablewood-route-gate.png`
@@ -59,7 +72,6 @@ All curated icons from `event-visual-asset-pack/assets/icons/` are copied into `
 
 ## Intentionally Excluded From Public Page
 
-- `event-visual-asset-pack/player-pdfs/`
 - `event-visual-asset-pack/assets/sheet-page-previews/`
 - private table edition PDFs at the packet root
 - non-curated map assets
@@ -82,6 +94,9 @@ All curated icons from `event-visual-asset-pack/assets/icons/` are copied into `
 - `Goldspire Creative Pass/VOICE_AND_MESSAGING_GUIDE.md`
 - `event-visual-asset-pack/docs/03-landing-page-asset-and-flow-brief.md`
 - `event-visual-asset-pack/docs/05-daggerheart-player-links.md`
+- `Rules/Core Rules (Module-Relevant).md`
+- `Rules/Conditions (Full Reference).md`
+- `Rules/Session Zero & Connection Questions.md`
 - `Peril_to_Profit_Landing_Page_Dev_Packet_Markdown/README.md`
 - `Peril_to_Profit_Landing_Page_Dev_Packet_Markdown/01_latest_event_listing_v3.md`
 - `Peril_to_Profit_Landing_Page_Dev_Packet_Markdown/02_voice_and_tone_guide.md`
