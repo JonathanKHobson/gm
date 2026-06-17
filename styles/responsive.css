@@ -56,6 +56,7 @@
 
   .story-feature,
   .playlist-feature,
+  .short-form-feature,
   .story-link-cards,
   .story-video-grid,
   .readable-artifact,
@@ -79,6 +80,19 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .hero-proof-metrics {
+    gap: 0.45rem;
+  }
+
+  .hero-proof-metrics span {
+    min-height: 4.85rem;
+    padding: 0.58rem;
+  }
+
+  .hero-proof-metrics strong {
+    font-size: 2.35rem;
+  }
+
   .mechanic-feature-reverse .mechanic-feature-copy {
     order: 0;
   }
@@ -96,6 +110,10 @@
 
   .playlist-feature-reverse .playlist-copy {
     order: 0;
+  }
+
+  .short-form-copy {
+    position: static;
   }
 
   .readable-artifact-reverse figure {
@@ -609,6 +627,7 @@
   .super-evidence-grid,
   .story-feature,
   .playlist-feature,
+  .short-form-feature,
   .story-proof-grid,
   .story-link-cards,
   .story-video-grid,
@@ -774,6 +793,16 @@
 
   .story-prop-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .short-form-rail {
+    max-height: 40rem;
+    padding-right: 0.25rem;
+  }
+
+  .short-form-card .tiktok-embed,
+  .short-form-card .tiktok-embed a {
+    min-height: 34rem;
   }
 
   .story-prop {

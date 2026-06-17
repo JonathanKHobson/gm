@@ -768,6 +768,92 @@
   margin-bottom: 0.4rem;
 }
 
+.goldspire-short-proof {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+  border: 1px solid var(--gold-line);
+  border-radius: var(--radius);
+  background:
+    radial-gradient(circle at 16% 14%, rgba(95, 143, 157, 0.16), transparent 14rem),
+    linear-gradient(135deg, rgba(32, 60, 42, 0.08), rgba(215, 173, 87, 0.13)),
+    rgba(255, 250, 241, 0.94);
+  padding: 1rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.goldspire-short-proof-copy {
+  display: grid;
+  gap: 0.55rem;
+  align-content: start;
+}
+
+.goldspire-short-proof-copy h3,
+.goldspire-short-proof-copy p {
+  margin: 0;
+}
+
+.goldspire-short-proof-copy h3 {
+  color: var(--gold-ink);
+  font-size: 1.35rem;
+  line-height: 1.18;
+}
+
+.goldspire-short-proof-copy p {
+  color: var(--ink-soft);
+}
+
+.goldspire-short-proof-rail {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(15rem, 1fr);
+  gap: 0.85rem;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  padding-bottom: 0.2rem;
+  scroll-snap-type: x proximity;
+  scrollbar-color: rgba(32, 60, 42, 0.62) rgba(247, 234, 210, 0.9);
+}
+
+.goldspire-short-proof-card {
+  min-width: 0;
+  scroll-snap-align: start;
+  border: 1px solid var(--gold-line);
+  border-radius: var(--radius);
+  background: rgba(255, 250, 241, 0.92);
+  box-shadow: var(--shadow-soft);
+  padding: 0.72rem;
+}
+
+.goldspire-short-proof-card .tiktok-embed {
+  width: 100%;
+  min-width: 0;
+  min-height: 32rem;
+  margin: 0;
+  border: 1px solid rgba(22, 15, 10, 0.16);
+  border-radius: var(--radius-sm);
+  background:
+    radial-gradient(circle at 50% 20%, rgba(95, 143, 157, 0.18), transparent 12rem),
+    #071510;
+  color: var(--gold-cream);
+  overflow: hidden;
+}
+
+.goldspire-short-proof-card .tiktok-embed a {
+  display: grid;
+  place-items: center;
+  min-height: 32rem;
+  color: var(--gold-cream);
+  font-weight: 850;
+  padding: 1rem;
+  text-align: center;
+}
+
+.goldspire-short-proof-card .tiktok-embed,
+.goldspire-short-proof-card .tiktok-embed * {
+  color: var(--gold-cream) !important;
+}
+
 @media (min-width: 900px) {
   .goldspire-proof-layout {
     grid-template-columns: minmax(300px, 0.86fr) minmax(0, 1.14fr);
@@ -775,6 +861,11 @@
 
   .goldspire-proof-figure img {
     height: 13.45rem;
+  }
+
+  .goldspire-short-proof {
+    grid-template-columns: minmax(15rem, 0.42fr) minmax(0, 1fr);
+    align-items: start;
   }
 }
 
