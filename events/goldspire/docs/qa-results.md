@@ -32,4 +32,10 @@ status: local-qa-passed
 - [x] `visual_qa` quality gate marked.
 - [x] `design_taste` quality gate marked.
 - [x] `communication_review` quality gate marked.
-- [ ] GitHub Pages live URL verified.
+- [x] GitHub Pages live URL verified at `https://jonathankhobson.github.io/gm/events/goldspire/` after commit `b2cdf06`.
+
+## Publish Smoke Test
+
+- Live route returned `200` after GitHub Pages propagated.
+- Live HTML contained `Peril to Profit: The Goldspire Messengers`, `Mox Boarding House Chandler`, and `Claim a Seat`.
+- Final CTA still points to `coming-soon/` pending the real event listing URL.
