@@ -70,6 +70,28 @@ These are copied into `events/goldspire/assets/poster-elements/`. The page curre
 
 All curated icons from `event-visual-asset-pack/assets/icons/` are copied into `events/goldspire/assets/icons/` and used for quick facts, expectations, resources, and FAQ support.
 
+### Real Table / Player Proof Assets
+
+- `/Volumes/KyleSSD/Documents/My Work/Pro GM/assets/evidence/p2p/amber_player_art_teamP2p.png` -> `events/goldspire/assets/proof/player-made-p2p-art.png`
+- `/Volumes/KyleSSD/Documents/My Work/Pro GM/assets/PhotosEvidence/Screenshot 2026-06-17 at 2.19.31 AM.png` -> `events/goldspire/assets/proof/table-session-photo.png`
+
+These are used as authenticity cues near the social-proof and Daggerheart resource surfaces. They are framed as past GameMasterKyle/player-creativity evidence, not literal Goldspire scene art.
+
+Approved but not placed in this compact pass:
+
+- `/Volumes/KyleSSD/Documents/My Work/Pro GM/assets/evidence/p2p/The P2K team.pdf`
+
+This remains available for a future proof-gallery or portfolio-context slice if the page needs more player-art evidence.
+
+### Shared Site Assets Restored
+
+These files are referenced by shared CSS used by the Goldspire and Daggerheart routes. They were restored to prevent missing background-image requests:
+
+- `/Volumes/KyleSSD/Documents/My Work/Pro GM/06_resume_portfolio_assets/portfolio-html/assets/generated/parchment-map-background.webp` -> `assets/generated/parchment-map-background.webp`
+- `/Volumes/KyleSSD/Documents/My Work/Pro GM/06_resume_portfolio_assets/portfolio-html/assets/generated/hero-tabletop-warm.webp` -> `assets/generated/hero-tabletop-warm.webp`
+- `/Volumes/KyleSSD/Documents/My Work/Pro GM/06_resume_portfolio_assets/portfolio-html/assets/generated/echoes-sci-fi-hero.webp` -> `assets/generated/echoes-sci-fi-hero.webp`
+- `/Volumes/KyleSSD/Documents/My Work/Pro GM/06_resume_portfolio_assets/portfolio-html/assets/generated/stargate-card-sci-fi-hero.webp` -> `assets/generated/stargate-card-sci-fi-hero.webp`
+
 ## Intentionally Excluded From Public Page
 
 - `event-visual-asset-pack/assets/sheet-page-previews/`

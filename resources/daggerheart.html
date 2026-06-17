@@ -10,165 +10,18 @@
   <meta property="og:description" content="No prep required. Optional Goldspire character PDFs, Daggerheart basics, Demiplane tools, and official links for curious players." />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://jonathankhobson.github.io/gm/resources/daggerheart.html" />
+  <meta property="og:image" content="https://jonathankhobson.github.io/gm/events/goldspire/assets/hero/forest-road-wide-crop.png" />
+  <meta property="og:image:alt" content="A warm fantasy forest road with courier mood art." />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Daggerheart Resources | GameMasterKyle" />
+  <meta name="twitter:description" content="No prep required. Optional Goldspire character PDFs, Daggerheart basics, Demiplane tools, and official links for curious players." />
+  <meta name="twitter:image" content="https://jonathankhobson.github.io/gm/events/goldspire/assets/hero/forest-road-wide-crop.png" />
   <link rel="icon" type="image/png" href="../assets/brand/favicon.png" />
   <link rel="stylesheet" href="../styles/tokens.css" />
   <link rel="stylesheet" href="../styles/base.css" />
   <link rel="stylesheet" href="../styles/components.css" />
   <link rel="stylesheet" href="../styles/responsive.css" />
-  <style>
-    .daggerheart-resource .detail-hero {
-      background:
-        linear-gradient(135deg, rgba(7, 19, 25, 0.96), rgba(32, 60, 42, 0.9)),
-        var(--void);
-    }
-
-    .resource-link-list {
-      display: grid;
-      gap: 1rem;
-    }
-
-    .resource-link-list a,
-    .pdf-card,
-    .basics-card,
-    .resource-callout {
-      display: grid;
-      gap: 0.4rem;
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      background: rgba(255, 250, 241, 0.92);
-      padding: 1rem;
-      box-shadow: var(--shadow-soft);
-    }
-
-    .resource-link-list strong,
-    .pdf-card strong,
-    .basics-card h3,
-    .resource-callout h3 {
-      color: var(--ink);
-      font-family: var(--mono);
-      font-size: 1rem;
-    }
-
-    .resource-link-list span,
-    .pdf-card span,
-    .basics-card p,
-    .resource-callout p,
-    .resource-note {
-      color: var(--ink-soft);
-    }
-
-    .resource-actions,
-    .resource-pill-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.75rem;
-      align-items: center;
-    }
-
-    .resource-pill-row span {
-      display: inline-flex;
-      align-items: center;
-      min-height: 2.2rem;
-      border-radius: 999px;
-      background: rgba(32, 60, 42, 0.1);
-      color: var(--forest);
-      padding: 0.42rem 0.72rem;
-      font-weight: 800;
-    }
-
-    .resource-download-grid,
-    .basics-grid {
-      display: grid;
-      gap: 1rem;
-    }
-
-    .pdf-card {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    .pdf-card:hover,
-    .pdf-card:focus-visible,
-    .resource-link-list a:hover,
-    .resource-link-list a:focus-visible {
-      border-color: rgba(122, 62, 33, 0.5);
-      transform: translateY(-1px);
-    }
-
-    .pdf-card.featured {
-      background:
-        linear-gradient(135deg, rgba(32, 60, 42, 0.1), rgba(215, 173, 87, 0.16)),
-        rgba(255, 250, 241, 0.96);
-    }
-
-    .resource-card-meta {
-      color: var(--ink-muted);
-      font-family: var(--mono);
-      font-size: max(0.82rem, 16px);
-      font-weight: 800;
-    }
-
-    .resource-callout {
-      background:
-        linear-gradient(135deg, rgba(32, 60, 42, 0.1), rgba(95, 143, 157, 0.12)),
-        rgba(255, 250, 241, 0.94);
-    }
-
-    .resource-callout .btn {
-      width: fit-content;
-    }
-
-    .basics-card {
-      align-content: start;
-    }
-
-    .basics-card h3 {
-      margin: 0;
-    }
-
-    .rules-details {
-      display: grid;
-      gap: 0.75rem;
-      margin-top: 1rem;
-    }
-
-    .rules-details details {
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      background: rgba(255, 250, 241, 0.82);
-    }
-
-    .rules-details summary {
-      cursor: pointer;
-      padding: 0.9rem 1rem;
-      color: var(--ink);
-      font-weight: 850;
-    }
-
-    .rules-details p,
-    .rules-details ul {
-      margin: 0;
-      padding: 0 1rem 1rem;
-      color: var(--ink-soft);
-    }
-
-    @media (min-width: 760px) {
-      .resource-download-grid,
-      .basics-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-    }
-
-    @media (min-width: 1080px) {
-      .resource-download-grid {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-      }
-
-      .basics-grid {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="daggerheart.css" />
 </head>
 <body class="case-detail resource-detail daggerheart-resource">
   <a class="skip" href="#main">Skip to content</a>
@@ -181,10 +34,12 @@
           <span class="brand-name"><strong>GameMasterKyle</strong><span>Table craft for real rooms</span></span>
         </a>
         <div class="nav-links website-nav">
-          <a class="navlink" href="../index.html#games">Games</a>
-          <a class="navlink" href="../index.html#about">About</a>
-          <a class="navlink" href="../events/goldspire/">Goldspire Event</a>
-          <a class="btn nav-cta" href="../index.html#contact">Get in touch</a>
+          <a class="navlink" href="../events/goldspire/#for-new-players">New players</a>
+          <a class="navlink" href="../events/goldspire/#couriers">Characters</a>
+          <a class="navlink" href="../events/goldspire/#faq">FAQ</a>
+          <a class="navlink" href="daggerheart.html" aria-current="page">Daggerheart</a>
+          <a class="navlink" href="../index.html">Portfolio</a>
+          <a class="btn nav-cta" href="../events/goldspire/coming-soon/">Claim a Seat</a>
         </div>
       </div>
     </nav>
@@ -221,6 +76,21 @@
           <h2>Important note</h2>
           <p>This event uses the Daggerheart system, but it is not official Darrington Press programming or an official Daggerheart event.</p>
         </aside>
+      </div>
+    </section>
+
+    <section class="band paper-band resource-proof-band" aria-labelledby="resource-proof-title">
+      <div class="wrap resource-proof-grid">
+        <figure class="resource-proof-figure">
+          <img src="../events/goldspire/assets/proof/table-session-photo.png" alt="Players smiling at a tabletop session with dice, sheets, and table materials visible." width="1000" height="674" loading="lazy" decoding="async" />
+          <figcaption>Past GameMasterKyle table session. The resource page is optional; the live table is guided.</figcaption>
+        </figure>
+        <div class="resource-proof-copy">
+          <div class="eyebrow">Real table signal</div>
+          <h2 class="h-section" id="resource-proof-title">The rules support the room, not the other way around.</h2>
+          <p>These links are here if you like peeking behind the curtain. You can still arrive with no prep, choose a hero, and learn through play with real people at the table.</p>
+          <a class="btn btn-secondary" href="../events/goldspire/#for-new-players">Back to new-player notes</a>
+        </div>
       </div>
     </section>
 
@@ -368,6 +238,28 @@
         </div>
       </div>
     </section>
+
+    <section class="band paper-band daggerheart-cta-band" aria-labelledby="resource-cta-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">From reassurance to one-shot</p>
+          <h2 class="h-section" id="resource-cta-title">Ready to see what you're buying into?</h2>
+          <p class="lead">If you are clear on the essentials, jump back to the event page and claim your seat.</p>
+        </div>
+        <div class="resource-cta-actions">
+          <a class="btn btn-primary" href="../events/goldspire/coming-soon/">Claim a Seat</a>
+          <a class="btn btn-secondary" href="../events/goldspire/">Back to Goldspire event</a>
+          <a class="btn btn-secondary" href="../index.html">View GM portfolio</a>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>GameMasterKyle | Peril to Profit</span>
+      <span>Build one-shot confidence in one place</span>
+    </div>
+  </footer>
 </body>
 </html>

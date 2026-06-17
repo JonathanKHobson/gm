@@ -638,6 +638,143 @@
   color: var(--ink-soft);
 }
 
+.goldspire-social-proof {
+  background:
+    linear-gradient(180deg, rgba(32, 60, 42, 0.08), rgba(247, 234, 210, 0.94)),
+    var(--gold-paper);
+}
+
+.goldspire-social-proof-grid {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.goldspire-proof-layout {
+  display: grid;
+  gap: 1rem;
+  align-items: start;
+}
+
+.goldspire-proof-context {
+  display: grid;
+  gap: 0.85rem;
+  border: 1px solid var(--gold-line);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(135deg, rgba(32, 60, 42, 0.1), rgba(215, 173, 87, 0.13)),
+    rgba(255, 250, 241, 0.94);
+  padding: 1rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.goldspire-proof-context h3,
+.goldspire-proof-context p {
+  margin: 0;
+}
+
+.goldspire-proof-context h3 {
+  color: var(--gold-ink);
+  font-size: 1.35rem;
+  line-height: 1.18;
+}
+
+.goldspire-proof-context p {
+  color: var(--ink-soft);
+}
+
+.goldspire-proof-kicker {
+  color: var(--gold-forest);
+  font-family: var(--mono);
+  font-size: max(0.82rem, 16px);
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.goldspire-proof-mini-media {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(6rem, 0.48fr);
+  gap: 0.75rem;
+  align-items: stretch;
+}
+
+.goldspire-proof-figure {
+  overflow: hidden;
+  margin: 0;
+  border: 1px solid var(--gold-line);
+  border-radius: var(--radius);
+  background: rgba(255, 250, 241, 0.92);
+  box-shadow: var(--shadow-soft);
+}
+
+.goldspire-proof-figure img {
+  display: block;
+  width: 100%;
+  height: 8.6rem;
+}
+
+.goldspire-proof-art img {
+  aspect-ratio: 1 / 1;
+  background: #ded2b7;
+  object-fit: contain;
+  object-position: center;
+}
+
+.goldspire-proof-photo img {
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.goldspire-proof-figure figcaption {
+  margin: 0;
+  padding: 0.55rem 0.65rem;
+  color: var(--ink-soft);
+  font-size: max(0.82rem, 16px);
+  line-height: 1.3;
+}
+
+.goldspire-social-proof-card {
+  border: 1px solid var(--gold-line);
+  border-radius: var(--radius);
+  background: rgba(255, 250, 241, 0.92);
+  padding: 1rem 1.1rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.goldspire-proof-copy {
+  color: var(--gold-ink);
+  font-weight: 850;
+  margin: 0 0 0.22rem;
+}
+
+.goldspire-proof-copy span {
+  color: var(--gold-forest);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.82rem;
+  font-family: var(--mono);
+  font-weight: 800;
+}
+
+.goldspire-proof-note,
+.goldspire-proof-source {
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+.goldspire-proof-note {
+  margin-bottom: 0.4rem;
+}
+
+@media (min-width: 900px) {
+  .goldspire-proof-layout {
+    grid-template-columns: minmax(300px, 0.86fr) minmax(0, 1.14fr);
+  }
+
+  .goldspire-proof-figure img {
+    height: 13.45rem;
+  }
+}
+
 .goldspire-couriers .goldspire-note {
   margin-top: 1rem;
   color: var(--ink-soft);
@@ -1032,16 +1169,17 @@
   }
 
   .goldspire-header .nav-links {
-    width: auto;
-    flex: 0 0 auto;
+    width: 100%;
+    flex: 1 1 auto;
     flex-wrap: nowrap;
-    gap: 0;
-    overflow: visible;
+    gap: 0.9rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
     padding: 0;
   }
 
   .goldspire-header .navlink {
-    display: none;
+    display: inline-flex;
   }
 
   .goldspire-header .nav-cta {

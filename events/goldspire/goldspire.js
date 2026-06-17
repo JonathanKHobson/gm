@@ -14,8 +14,6 @@
   };
 
   var nav = document.getElementById("nav");
-  var menuButton = document.getElementById("menuBtn");
-  var navLinks = document.getElementById("navlinks");
 
   Array.prototype.forEach.call(document.querySelectorAll("[data-event-cta]"), function (link) {
     link.href = eventConfig.event_signup_url;
@@ -29,19 +27,6 @@
 
   window.addEventListener("scroll", updateNav, { passive: true });
   updateNav();
-
-  if (menuButton && navLinks) {
-    menuButton.addEventListener("click", function () {
-      var open = navLinks.classList.toggle("open");
-      menuButton.setAttribute("aria-expanded", open ? "true" : "false");
-    });
-
-    navLinks.addEventListener("click", function (event) {
-      if (!event.target.closest("a")) return;
-      navLinks.classList.remove("open");
-      menuButton.setAttribute("aria-expanded", "false");
-    });
-  }
 
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   var revealElements = Array.prototype.slice.call(document.querySelectorAll(".reveal"));

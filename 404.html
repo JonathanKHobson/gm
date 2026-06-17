@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Page Not Found | GameMasterKyle</title>
+  <meta name="description" content="Route not found on the GameMasterKyle site. Use the links below to return to the Goldspire event, Daggerheart resources, or the homepage." />
+  <link rel="icon" type="image/png" href="assets/brand/favicon.png" />
+  <link rel="stylesheet" href="styles/tokens.css" />
+  <link rel="stylesheet" href="styles/base.css" />
+  <link rel="stylesheet" href="styles/components.css" />
+  <link rel="stylesheet" href="styles/responsive.css" />
+  <style>
+    .error-shell {
+      min-height: calc(100vh - 9.5rem);
+      display: grid;
+      align-content: center;
+      padding-block: 3rem;
+    }
+
+    .error-card {
+      width: min(100%, 40rem);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(254, 248, 235, 0.96);
+      padding: 1.4rem;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .error-eyebrow {
+      color: var(--ink-muted);
+      font-family: var(--mono);
+      font-size: max(0.8rem, 15px);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 0.45rem;
+    }
+
+    .error-card h1 {
+      margin: 0 0 0.6rem;
+      font-size: clamp(1.95rem, 5vw, 2.35rem);
+    }
+
+    .error-card p {
+      margin: 0 0 0.85rem;
+      color: var(--ink-muted);
+    }
+
+    .error-note {
+      display: grid;
+      gap: 0.65rem;
+      margin-top: 1.25rem;
+    }
+
+    .error-note p {
+      margin: 0;
+      color: var(--ink);
+      font-size: max(0.95rem, 16px);
+    }
+
+    .error-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1.15rem;
+    }
+  </style>
+</head>
+<body class="case-detail">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <div class="wrap">
+        <a class="brand" href="index.html#top" aria-label="GameMasterKyle home">
+          <img class="brand-mark" src="assets/brand/gmk-compass-d20-mark.png" alt="" width="96" height="96" data-asset-id="LogoMark01" />
+          <span class="brand-name"><strong>GameMasterKyle</strong><span>Table craft for real rooms</span></span>
+        </a>
+        <div class="nav-links website-nav">
+          <a class="btn nav-cta" href="events/goldspire/">See the Goldspire event</a>
+          <a class="navlink" href="resources/daggerheart.html">Daggerheart</a>
+          <a class="navlink" href="index.html#games">Games</a>
+          <a class="navlink" href="index.html#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="error-shell">
+    <div class="wrap">
+      <section class="error-card" aria-labelledby="error-title">
+        <p class="error-eyebrow">Route not found</p>
+        <h1 id="error-title">That route did not pass inspection.</h1>
+        <p>The page may have moved, expired, or been typed wrong. Use one of the links below and you’re back on the right table.</p>
+        <div class="error-links">
+          <a class="btn btn-primary" href="index.html">Home</a>
+          <a class="btn btn-secondary" href="events/goldspire/">Goldspire Event</a>
+          <a class="btn btn-secondary" href="resources/daggerheart.html">Daggerheart Resources</a>
+        </div>
+        <div class="error-note" aria-live="polite">
+          <p>If you were trying to claim a seat, the registration destination is still being pointed from the event page as a temporary route.</p>
+          <p>Returning to the event page is the best recovery path.</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>GameMasterKyle | Phoenix area fantasy tabletop games</span>
+      <span>Route recovery page</span>
+    </div>
+  </footer>
+</body>
+</html>

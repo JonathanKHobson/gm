@@ -1,0 +1,230 @@
+.daggerheart-resource .detail-hero {
+  background:
+    linear-gradient(135deg, rgba(7, 19, 25, 0.96), rgba(32, 60, 42, 0.9)),
+    var(--void);
+}
+
+.resource-link-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.resource-link-list a,
+.pdf-card,
+.basics-card,
+.resource-callout {
+  display: grid;
+  gap: 0.4rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 250, 241, 0.92);
+  padding: 1rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.resource-link-list strong,
+.pdf-card strong,
+.basics-card h3,
+.resource-callout h3 {
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: 1rem;
+}
+
+.resource-link-list span,
+.pdf-card span,
+.basics-card p,
+.resource-callout p,
+.resource-note {
+  color: var(--ink-soft);
+}
+
+.resource-actions,
+.resource-pill-row,
+.resource-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.resource-pill-row span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.2rem;
+  border-radius: 999px;
+  background: rgba(32, 60, 42, 0.1);
+  color: var(--forest);
+  padding: 0.42rem 0.72rem;
+  font-weight: 800;
+}
+
+.resource-download-grid,
+.basics-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.resource-proof-grid {
+  display: grid;
+  gap: 1rem;
+  align-items: center;
+}
+
+.resource-proof-figure {
+  overflow: hidden;
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 250, 241, 0.94);
+  box-shadow: var(--shadow-soft);
+}
+
+.resource-proof-figure img {
+  display: block;
+  width: 100%;
+  height: clamp(13rem, 28vw, 20rem);
+  object-fit: cover;
+}
+
+.resource-proof-figure figcaption {
+  margin: 0;
+  padding: 0.72rem 0.85rem;
+  color: var(--ink-soft);
+  font-size: max(0.9rem, 16px);
+  line-height: 1.45;
+}
+
+.resource-proof-copy {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.resource-proof-copy .h-section,
+.resource-proof-copy p {
+  margin: 0;
+}
+
+.resource-proof-copy .btn {
+  width: fit-content;
+}
+
+.daggerheart-resource .btn-secondary {
+  border-color: rgba(122, 62, 33, 0.34);
+  background: rgba(255, 250, 241, 0.78);
+  color: var(--ink);
+}
+
+.daggerheart-resource .btn-secondary:hover,
+.daggerheart-resource .btn-secondary:focus-visible {
+  border-color: rgba(122, 62, 33, 0.58);
+  background: rgba(255, 250, 241, 0.96);
+}
+
+.pdf-card {
+  color: inherit;
+  text-decoration: none;
+}
+
+.pdf-card:hover,
+.pdf-card:focus-visible,
+.resource-link-list a:hover,
+.resource-link-list a:focus-visible {
+  border-color: rgba(122, 62, 33, 0.5);
+  transform: translateY(-1px);
+}
+
+.pdf-card.featured {
+  background:
+    linear-gradient(135deg, rgba(32, 60, 42, 0.1), rgba(215, 173, 87, 0.16)),
+    rgba(255, 250, 241, 0.96);
+}
+
+.resource-card-meta {
+  color: var(--ink-muted);
+  font-family: var(--mono);
+  font-size: max(0.82rem, 16px);
+  font-weight: 800;
+}
+
+.resource-callout {
+  background:
+    linear-gradient(135deg, rgba(32, 60, 42, 0.1), rgba(95, 143, 157, 0.12)),
+    rgba(255, 250, 241, 0.94);
+}
+
+.resource-callout .btn {
+  width: fit-content;
+}
+
+.basics-card {
+  align-content: start;
+}
+
+.basics-card h3 {
+  margin: 0;
+}
+
+.rules-details {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.rules-details details {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 250, 241, 0.82);
+}
+
+.rules-details summary {
+  cursor: pointer;
+  padding: 0.9rem 1rem;
+  color: var(--ink);
+  font-weight: 850;
+}
+
+.rules-details p,
+.rules-details ul {
+  margin: 0;
+  padding: 0 1rem 1rem;
+  color: var(--ink-soft);
+}
+
+.daggerheart-cta-band .resource-cta-actions .btn {
+  min-height: 2.65rem;
+}
+
+.site-footer .wrap {
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.site-footer span:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.42rem;
+  justify-content: flex-end;
+}
+
+@media (min-width: 760px) {
+  .resource-download-grid,
+  .basics-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .resource-proof-grid {
+    grid-template-columns: minmax(220px, 0.7fr) minmax(0, 1.3fr);
+  }
+}
+
+@media (min-width: 1080px) {
+  .resource-download-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .basics-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

@@ -31,9 +31,9 @@ status: local-qa-passed
 - [x] FAQ/details progressive disclosure test passed.
 - [x] Public text sweep for internal source-status wording, stale venue shorthand, placeholders, and spoilers passed.
 - [x] Removed the stray wolf accent from the active page implementation.
-- [x] Manual `visual_qa` gate recorded in the Pro GM gate log.
-- [x] Manual `design_taste` gate recorded in the Pro GM gate log.
-- [x] Manual `communication_review` gate recorded in the Pro GM gate log.
+- [x] `visual_qa` gate recorded with the local artifact quality helper.
+- [x] `design_taste` gate recorded with the local artifact quality helper.
+- [x] `communication_review` gate recorded with the local artifact quality helper.
 
 ## Latest Local Metrics
 
@@ -69,7 +69,7 @@ status: local-qa-passed
 - Daggerheart resources page: 6 PDF links, 6 PDF cards, 6 basics cards, 3 optional rules details, 2 Demiplane links, printed-sheet note present.
 - Local link sweep: 16 same-origin links checked, 0 failures.
 - Public text/source sweep: no private-table identifiers, GM-only rules labels, internal safety-stage wording, placeholders, or known spoiler strings found in the active page sources/docs checked.
-- Quality-gate note: manual `visual_qa`, `design_taste`, and `communication_review` recorded in the Pro GM gate log for this focused slice; the requested `codex_artifact_quality_gate.py` helper was not present in the workspace.
+- Quality-gate note: `visual_qa`, `design_taste`, and `communication_review` were recorded with the local artifact quality helper during the final audit reconciliation pass.
 
 ### Live Publish Smoke Test
 
@@ -122,3 +122,54 @@ status: local-qa-passed
 - Replaced 11 page-local character image files: 6 full transparent sources and 5 regenerated cropped card portraits.
 - Updated character-card `width`/`height` attributes to match the regenerated crop dimensions.
 - Evidence: `/tmp/goldspire-new-transparent-assets-qa-2026-06-17/summary.json`, `desktop-hero.png`, `mobile-hero.png`, `desktop-courier-grid.png`, `mobile-courier-grid.png`, and `source-replacement-contact-sheet.jpg`.
+
+## 2026-06-17 UX Audit Execution Slice (BUG-01 Deferred)
+
+### Visual Anchor Map
+
+| ID | Source / viewport | Region | Visual fact / issue | Intended action | Verification |
+| --- | --- | --- | --- | --- | --- |
+| X1 | Playwright desktop `1366x900` and mobile `390x844` | Daggerheart page footer / CTA | Added closing CTA + footer on `/resources/daggerheart.html` with clear return path. | Close reassurance dead-end and keep return-loop into event funnel. | Passed: footer exists and CTA actions are present. |
+| X2 | Playwright desktop `1366x900` and mobile `390x844` | 404 route | `/404.html` presents branded recovery and direct links to Home, Goldspire, Daggerheart. | Reduce error confusion on bad URLs. | Passed: branded 404 loaded, recovery buttons rendered. |
+| X3 | Playwright desktop `1366x900` and mobile `390x844` | Event nav and resources nav | Nav labels now aligned (`New players / Characters / FAQ / Daggerheart / Portfolio`) and mobile scroll row restored. | Lower header navigation barrier on small widths. | Passed: all labels visible within the nav row. |
+| X4 | Playwright desktop `1366x900` and mobile `390x844` | Social proof block | Social proof now uses real player reflections plus compact proof media. | Add trust signal without creating a long blank-scroll proof gallery. | Passed: real quotes and proof thumbnails rendered; no pending/placeholder public copy. |
+| X5 | `sitemap.xml` source check | SEO index list | Removed `events/goldspire/coming-soon/` from sitemap while keeping destination in config/CTA. | Avoid indexing placeholder route. | Passed: coming-soon entry absent from sitemap. |
+
+### Checks Completed
+
+- [x] `resources/daggerheart.html` includes closing CTA band, footer, Twitter metadata, and linked `resources/daggerheart.css`.
+- [x] `events/goldspire/index.html` retains consistent Daggerheart reassurance and mobile nav visibility.
+- [x] Root `404.html` exists and links to Home, Mox route, and Daggerheart resources.
+- [x] `events/goldspire/coming-soon/index.html` explicitly set `noindex, nofollow` for SEO safety.
+- [x] Bug reports `BUG-02` through `BUG-09` marked complete in `events/goldspire/docs/audit-uxhc/bugs/`.
+- [ ] `BUG-01` (`Claim a Seat` destination lock) remains deferred by request until real listing link is available.
+
+## 2026-06-17 Audit Reconciliation And Proof Repair QA
+
+### Visual Anchor Map
+
+| ID | Source / viewport | Region | Visual fact / issue | Intended action | Verification |
+| --- | --- | --- | --- | --- | --- |
+| Nav01 | Playwright `390x844`, `430x844`, `1366x900` | Header nav row | `New players`, `Characters`, `FAQ`, `Daggerheart`, `Portfolio`, and `Claim a Seat` are present in the header row; no hidden hamburger path remains. | Preserve mobile wayfinding through the horizontal-scroll row. | Passed: no horizontal overflow; screenshots `event-390--site-header.png`, `event-430--site-header.png`, `event-1366--goldspire-hero.png`. |
+| Hero01 | Playwright `390x844`, `1366x900` | First fold / hero CTA | Hero keeps concise Daggerheart/newcomer framing and visible `Claim a Seat` CTA. | Maintain beginner self-qualification and conversion clarity above the fold. | Passed: screenshots `event-390--goldspire-hero.png`, `event-1366--goldspire-hero.png`; four `[data-event-cta]` links use config destination. |
+| Proof01 | Playwright `390x844`, `1366x900` | Social proof section | Proof area is now text-led with three quote cards and two compact evidence thumbnails. No large blank media stack remains. | Fix the previous proof-section scroll/blank-space issue while adding trust evidence. | Passed: screenshots `event-390--goldspire-social-proof.png`, `event-1366--goldspire-social-proof.png`; static sweep found no pending/placeholder copy. |
+| Resource01 | Playwright `390x844`, `1366x900` | Daggerheart proof/CTA bands | Resource page now has a proof band, return loop, `Claim a Seat`, and footer. | Prevent reassurance detour dead-end. | Passed: screenshots `resource-390--resource-proof-band.png`, `resource-390--daggerheart-cta-band.png`, `resource-1366--resource-proof-band.png`, `resource-1366--daggerheart-cta-band.png`. |
+| Error01 | Playwright `390x844` | Root `404.html` | Branded 404 recovery links render on mobile. | Recover bad/stale route traffic. | Passed: screenshot `404-390-main.png`. |
+| CTA01 | Static + Playwright | All event CTAs and Book me links | Four event CTAs use `event_signup_url: "coming-soon/"`; two `Book me` links route to `../../index.html#contact`; `coming-soon/` is not in sitemap and is `noindex,nofollow`. | Keep registration dependency deferred while preserving a future one-value cutover and private-session inquiry path. | Passed: `/tmp/goldspire-static-integrity-2026-06-17.json`. |
+
+### Static Integrity Checks
+
+- Checked public routes: `events/goldspire/index.html`, `resources/daggerheart.html`, `404.html`, `events/goldspire/coming-soon/index.html`.
+- Local reference sweep: 109 `src`/`href` references checked, 0 missing.
+- CSS URL sweep: 17 `url(...)` references checked, 0 missing. Restored the shared `assets/generated/` WebP files referenced by `styles/base.css` and `styles/components.css`.
+- Public text sweep: 0 hits for pending/placeholder testimony language, internal source-status terms, private-table identifiers, or known hidden-plot spoiler phrases.
+- JSON-LD: parsed successfully; event name is `Peril to Profit™: The Goldspire Messengers`.
+- Event CTA config: `event_signup_url` remains `coming-soon/`; `cta_text` remains `Claim a Seat`; `events/goldspire/coming-soon/` remains absent from `sitemap.xml`.
+- Browser QA evidence: `/tmp/goldspire-audit-final-qa-2026-06-17/summary.json`.
+- Static QA evidence: `/tmp/goldspire-static-integrity-2026-06-17.json`.
+
+### Backlog / Deferred
+
+- `BUG-01`: deferred until the real external event listing URL exists.
+- Media performance: PNG-to-WebP/AVIF conversion plus responsive `srcset/sizes` remains the next performance slice.
+- Full numeric accessibility certification: axe/Lighthouse contrast pass remains a future verification slice; rendered contrast was reviewed and resource secondary-button contrast was strengthened.
