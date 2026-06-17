@@ -97,3 +97,9 @@ status: local-qa-passed
 - Rendered text checks passed for: `Learn Daggerheart in one night`, `No tabletop or Daggerheart experience needed`, `Heroes provided`, `rules taught as you play`, `No acting required`, and one-evening completion language.
 - Source and rendered sweeps found no repeated delivery-object fixation, 1 `ward-stone` mention, and no blocked hidden-plot explanation phrases.
 - Artifact quality gate helper marked `visual_qa`, `design_taste`, and `communication_review` complete for `events/goldspire/index.html` with evidence at `/tmp/goldspire-writing-qa-2026-06-17/summary.json`.
+
+### Live Publish Smoke Test
+
+- Published `/gm/events/goldspire/` writing pass at commit `c097a86`.
+- Live landing page returned `200` and served the updated HTML with the new `Learn Daggerheart in one night`, `No tabletop or Daggerheart experience needed`, optional acting-voice, magical-cargo premise, and `Learn Daggerheart in one evening` copy.
+- Live source check found the old repeated delivery-object hooks absent.
