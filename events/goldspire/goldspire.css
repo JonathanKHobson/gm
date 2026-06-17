@@ -448,8 +448,7 @@
 .courier-card,
 .faq-list details,
 .goldspire-final-grid,
-.goldspire-art-panel,
-.goldspire-side-art {
+.goldspire-art-panel {
   border: 1px solid var(--gold-line);
   border-radius: var(--radius);
   background: rgba(255, 250, 241, 0.92);
@@ -734,23 +733,25 @@
 
 .goldspire-side-art {
   position: relative;
-  min-height: 22rem;
-  overflow: hidden;
-  background:
-    linear-gradient(180deg, rgba(11, 31, 24, 0.82), rgba(32, 60, 42, 0.7)),
-    var(--gold-forest);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  min-height: clamp(21rem, 64vw, 29rem);
+  margin: 0;
+  overflow: visible;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
 }
 
 .courier-accent {
-  position: absolute;
-  left: 50%;
-  bottom: 0;
+  display: block;
+  position: relative;
   width: auto;
-  height: min(80%, 20rem);
-  max-width: 72%;
+  height: clamp(22rem, 68vw, 31rem);
+  max-width: 100%;
   object-fit: contain;
-  transform: translateX(-50%);
-  filter: drop-shadow(0 28px 34px rgba(0, 0, 0, 0.44));
+  filter: drop-shadow(0 26px 28px rgba(73, 54, 28, 0.28));
 }
 
 .expect-grid {
