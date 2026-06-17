@@ -78,3 +78,22 @@ status: local-qa-passed
 - Live Daggerheart resources page returned `200` at `https://jonathankhobson.github.io/gm/resources/daggerheart.html` and contains the Goldspire PDF cards, rules basics section, all-character packet link, and printed-sheet note.
 - Live all-character PDF returned `200` as `application/pdf` at `https://jonathankhobson.github.io/gm/events/goldspire/assets/player-pdfs/all-player-character-packet-pages-02-21.pdf`.
 - Live source sweep found no private-table identifiers, GM-only labels, internal safety-stage wording, placeholders, or known spoiler strings in the two public HTML files checked.
+
+## 2026-06-17 UX Writing And Tone Pass QA
+
+### Writing Visual Anchor Map
+
+| ID | Source / viewport | Region | Visual fact / issue | Intended action | Verification |
+| --- | --- | --- | --- | --- | --- |
+| W1 | Playwright desktop `1366x900` and mobile `390x900` | Hero / first fold | Hero now sells the broad experience: learn Daggerheart in one night, funny cinematic fantasy delivery, no tabletop or Daggerheart experience needed, heroes provided. | Keep the first scan clear for total newcomers and Daggerheart-curious RPG players. | Passed screenshot review and rendered text check. |
+| W2 | Playwright desktop `1366x900` and mobile `390x900` | New player section | Copy explicitly says no rules knowledge, dice, character creation, or acting voice required, and normalizes questions. | Reduce newcomer and reluctant-plus-one anxiety without making the event sound only for beginners. | Passed screenshot review and rendered text check. |
+| W3 | Playwright desktop `1366x900` and mobile `390x900` | Premise section | Premise now frames a simple Goldspire Territories delivery and magical ward-stone without making the adventure a single-object mystery or explaining hidden plot dynamics. | Create curiosity without spoilers or object overemphasis. | Passed source sweep: no repeated delivery-object fixation, 1 ward-stone mention, no blocked spoiler language. |
+| W4 | Playwright desktop `1366x900` and mobile `390x900` | FAQ / optional reading | FAQ remains closed by default and reinforces Daggerheart clarity, no prep, one-shot pace, and no acting requirement. | Preserve progressive disclosure and beginner reassurance. | Passed details-closed metric and screenshot review. |
+
+### Local Verification
+
+- Local server: `http://127.0.0.1:8765/events/goldspire/`.
+- Desktop `1366x900` and mobile `390x900`: no horizontal overflow.
+- Rendered text checks passed for: `Learn Daggerheart in one night`, `No tabletop or Daggerheart experience needed`, `Heroes provided`, `rules taught as you play`, `No acting required`, and one-evening completion language.
+- Source and rendered sweeps found no repeated delivery-object fixation, 1 `ward-stone` mention, and no blocked hidden-plot explanation phrases.
+- Artifact quality gate helper marked `visual_qa`, `design_taste`, and `communication_review` complete for `events/goldspire/index.html` with evidence at `/tmp/goldspire-writing-qa-2026-06-17/summary.json`.
