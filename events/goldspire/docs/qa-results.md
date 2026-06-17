@@ -11,7 +11,7 @@ status: local-qa-passed
 | ID | Source / viewport | Region | Visual fact / issue | Intended action | Verification |
 | --- | --- | --- | --- | --- | --- |
 | A1 | Playwright desktop `1366x900` and mobile `390x844` | Hero | Hero now uses one prepared background-removed courier crew reference. No CSS-composed individual portrait overlap remains. | Keep one controlled party image in the hero; use individual portraits in character cards below. | Passed rendered screenshot review and DOM metrics: no overflow, one `.hero-party-reference`, zero `.cast-member` nodes. |
-| A2 | Local page / desktop and mobile | Top CTA | Visible CTA text is `Claim a Seat`; href is `coming-soon/` until the real listing URL is available. Mobile first fold keeps the primary CTA visible. | Keep CTA conversion-ready and change only `event_signup_url` later. | Passed Playwright CTA visibility check and link sweep. |
+| A2 | Local page / desktop and mobile | Top CTA | Visible CTA text is `Registration has not started yet`; href is `coming-soon/` until the real listing URL is available. Mobile first fold keeps the primary CTA visible. | Keep registration state honest now; restore `Claim a Seat` when the real listing URL is available. | Passed focused CTA label/link sweep. |
 | A3 | Playwright desktop `1366x900` | Beginner section image | Welcome image renders at its natural 16:9 ratio without clipping or stretched crop. | Preserve full image and concise caption. | Passed rendered screenshot review and ratio metric. |
 | A4 | Playwright desktop `1366x900` and mobile `390x844` | Premise image | Forest route image renders square without the tall crop/stretch shown in earlier screenshots. | Keep stable square treatment. | Passed rendered screenshot review and ratio metric. |
 | A5 | Playwright desktop `1366x900` and mobile `390x844` | GM/table-style side art | Courier accent is contained inside its panel; the stray wolf accent is removed from HTML and CSS. | Keep only one restrained accent here. | Passed side-art bounds metric and source sweep. |
@@ -45,7 +45,7 @@ status: local-qa-passed
 
 - Page revision published at commit `2b93ab9`.
 - Live HTML returned `200` at `https://jonathankhobson.github.io/gm/events/goldspire/`.
-- Live HTML contains the prepared party-reference hero markers, `Claim a Seat`, `Mox Boarding House Chandler`, and `Peril to Profit`.
+- Live HTML contains the prepared party-reference hero markers, registration-state CTA text, `Mox Boarding House Chandler`, and `Peril to Profit`.
 - Live HTML source sweep found zero stale cast-member, stray wolf accent, internal source-status, or stale venue shorthand markers.
 - Live CSS returned `200`, contains the new hero party image styles and label contrast token, and contains zero old `.cast-*` or wolf accent rules.
 
@@ -118,7 +118,7 @@ status: local-qa-passed
 ### Local Verification
 
 - Local server: `http://127.0.0.1:8765/events/goldspire/`.
-- Desktop `1366x900` and mobile `390x900`: no horizontal overflow and `Claim a Seat` remains visible.
+- Desktop `1366x900` and mobile `390x900`: no horizontal overflow and the registration-state CTA remains visible.
 - Replaced 11 page-local character image files: 6 full transparent sources and 5 regenerated cropped card portraits.
 - Updated character-card `width`/`height` attributes to match the regenerated crop dimensions.
 - Evidence: `/tmp/goldspire-new-transparent-assets-qa-2026-06-17/summary.json`, `desktop-hero.png`, `mobile-hero.png`, `desktop-courier-grid.png`, `mobile-courier-grid.png`, and `source-replacement-contact-sheet.jpg`.
@@ -142,7 +142,7 @@ status: local-qa-passed
 - [x] Root `404.html` exists and links to Home, Mox route, and Daggerheart resources.
 - [x] `events/goldspire/coming-soon/index.html` explicitly set `noindex, nofollow` for SEO safety.
 - [x] Bug reports `BUG-02` through `BUG-09` marked complete in `events/goldspire/docs/audit-uxhc/bugs/`.
-- [ ] `BUG-01` (`Claim a Seat` destination lock) remains deferred by request until real listing link is available.
+- [ ] `BUG-01` registration destination lock remains deferred by request until real listing link is available.
 
 ## 2026-06-17 Audit Reconciliation And Proof Repair QA
 
@@ -150,12 +150,12 @@ status: local-qa-passed
 
 | ID | Source / viewport | Region | Visual fact / issue | Intended action | Verification |
 | --- | --- | --- | --- | --- | --- |
-| Nav01 | Playwright `390x844`, `430x844`, `1366x900` | Header nav row | `New players`, `Characters`, `FAQ`, `Daggerheart`, `Portfolio`, and `Claim a Seat` are present in the header row; no hidden hamburger path remains. | Preserve mobile wayfinding through the horizontal-scroll row. | Passed: no horizontal overflow; screenshots `event-390--site-header.png`, `event-430--site-header.png`, `event-1366--goldspire-hero.png`. |
-| Hero01 | Playwright `390x844`, `1366x900` | First fold / hero CTA | Hero keeps concise Daggerheart/newcomer framing and visible `Claim a Seat` CTA. | Maintain beginner self-qualification and conversion clarity above the fold. | Passed: screenshots `event-390--goldspire-hero.png`, `event-1366--goldspire-hero.png`; four `[data-event-cta]` links use config destination. |
+| Nav01 | Playwright `390x844`, `430x844`, `1366x900` | Header nav row | `New players`, `Characters`, `FAQ`, `Daggerheart`, `Portfolio`, and the registration-state CTA are present in the header row; no hidden hamburger path remains. | Preserve mobile wayfinding through the horizontal-scroll row. | Passed: no horizontal overflow; screenshots `event-390--site-header.png`, `event-430--site-header.png`, `event-1366--goldspire-hero.png`. |
+| Hero01 | Playwright `390x844`, `1366x900` | First fold / hero CTA | Hero keeps concise Daggerheart/newcomer framing and visible registration-state CTA. | Maintain beginner self-qualification and honest conversion state above the fold. | Passed: screenshots `event-390--goldspire-hero.png`, `event-1366--goldspire-hero.png`; four `[data-event-cta]` links use config destination. |
 | Proof01 | Playwright `390x844`, `1366x900` | Social proof section | Proof area is now text-led with three quote cards and two compact evidence thumbnails. No large blank media stack remains. | Fix the previous proof-section scroll/blank-space issue while adding trust evidence. | Passed: screenshots `event-390--goldspire-social-proof.png`, `event-1366--goldspire-social-proof.png`; static sweep found no pending/placeholder copy. |
-| Resource01 | Playwright `390x844`, `1366x900` | Daggerheart proof/CTA bands | Resource page now has a proof band, return loop, `Claim a Seat`, and footer. | Prevent reassurance detour dead-end. | Passed: screenshots `resource-390--resource-proof-band.png`, `resource-390--daggerheart-cta-band.png`, `resource-1366--resource-proof-band.png`, `resource-1366--daggerheart-cta-band.png`. |
+| Resource01 | Playwright `390x844`, `1366x900` | Daggerheart proof/CTA bands | Resource page now has a proof band, return loop, registration-state CTA, and footer. | Prevent reassurance detour dead-end. | Passed: screenshots `resource-390--resource-proof-band.png`, `resource-390--daggerheart-cta-band.png`, `resource-1366--resource-proof-band.png`, `resource-1366--daggerheart-cta-band.png`. |
 | Error01 | Playwright `390x844` | Root `404.html` | Branded 404 recovery links render on mobile. | Recover bad/stale route traffic. | Passed: screenshot `404-390-main.png`. |
-| CTA01 | Static + Playwright | All event CTAs and Book me links | Four event CTAs use `event_signup_url: "coming-soon/"`; two `Book me` links route to `../../index.html#contact`; `coming-soon/` is not in sitemap and is `noindex,nofollow`. | Keep registration dependency deferred while preserving a future one-value cutover and private-session inquiry path. | Passed: `/tmp/goldspire-static-integrity-2026-06-17.json`. |
+| CTA01 | Static + Playwright | All event CTAs and Book me links | Four event CTAs use `event_signup_url: "coming-soon/"` and `cta_text: "Registration has not started yet"`; two `Book me` links route to `../../index.html#contact`; `coming-soon/` is not in sitemap and is `noindex,nofollow`. | Keep registration dependency deferred while preserving an easy future cutover and private-session inquiry path. | Passed: focused static integrity sweep. |
 
 ### Static Integrity Checks
 
@@ -164,9 +164,26 @@ status: local-qa-passed
 - CSS URL sweep: 17 `url(...)` references checked, 0 missing. Restored the shared `assets/generated/` WebP files referenced by `styles/base.css` and `styles/components.css`.
 - Public text sweep: 0 hits for pending/placeholder testimony language, internal source-status terms, private-table identifiers, or known hidden-plot spoiler phrases.
 - JSON-LD: parsed successfully; event name is `Peril to Profit™: The Goldspire Messengers`.
-- Event CTA config: `event_signup_url` remains `coming-soon/`; `cta_text` remains `Claim a Seat`; `events/goldspire/coming-soon/` remains absent from `sitemap.xml`.
+- Event CTA config: `event_signup_url` remains `coming-soon/`; `cta_text` is temporarily `Registration has not started yet`; `events/goldspire/coming-soon/` remains absent from `sitemap.xml`.
 - Browser QA evidence: `/tmp/goldspire-audit-final-qa-2026-06-17/summary.json`.
 - Static QA evidence: `/tmp/goldspire-static-integrity-2026-06-17.json`.
+
+## 2026-06-17 Interim Registration CTA QA
+
+### Visual Anchor Map
+
+| ID | Source / viewport | Region | Visual fact / issue | Intended action | Verification |
+| --- | --- | --- | --- | --- | --- |
+| Nav01 | Playwright `390x844`, `1366x900` | Goldspire header nav | Temporary registration CTA reads `Registration has not started yet`, points to `coming-soon/`, and remains readable without internal overflow. | Keep this honest interim state until the real listing URL exists. | Passed: `/tmp/goldspire-registration-cta-qa-2026-06-17/event-mobile.png`, `/tmp/goldspire-registration-cta-qa-2026-06-17/event-desktop.png`. |
+| Hero01 | Playwright `390x844`, `1366x900` | Goldspire first-fold CTA | Hero CTA uses the same temporary label, remains visible above the fold, and fits its button. | Restore `Claim a Seat` during final event-listing cutover. | Passed: `/tmp/goldspire-registration-cta-qa-2026-06-17/summary.json`. |
+| Resource01 | Playwright `390x844`, `1366x900` | Daggerheart resource nav / CTA band | Resource detour uses the same temporary registration label and routes to the Goldspire coming-soon target. | Mirror final CTA label once the listing URL is live. | Passed: `/tmp/goldspire-registration-cta-qa-2026-06-17/resource-mobile.png`, `/tmp/goldspire-registration-cta-qa-2026-06-17/resource-desktop.png`. |
+
+### Static Integrity Checks
+
+- Public active HTML sweep found zero `Claim a Seat` strings and zero `claim a/your seat` phrases.
+- `events/goldspire/goldspire.js` remains the cutover point: `event_signup_url: "coming-soon/"`, `cta_text: "Registration has not started yet"`.
+- `events/goldspire/coming-soon/` remains absent from `sitemap.xml`; event JSON-LD parses successfully.
+- Playwright metric check found no horizontal overflow and no CTA internal overflow for Goldspire and Daggerheart routes at `390x844` and `1366x900`.
 
 ### Backlog / Deferred
 

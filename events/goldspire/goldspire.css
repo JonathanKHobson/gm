@@ -36,6 +36,9 @@
 
 .goldspire-nav-cta {
   background: var(--gold-brass);
+  min-width: max-content;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .goldspire-hero {
@@ -1183,8 +1186,10 @@
   }
 
   .goldspire-header .nav-cta {
+    flex: 0 0 auto;
     min-height: 2.75rem;
     padding-inline: 0.9rem;
+    white-space: nowrap;
   }
 
   .goldspire-fact-grid {

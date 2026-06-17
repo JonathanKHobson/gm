@@ -9,7 +9,7 @@ status: active
 ## Public Routes
 
 - `events/goldspire/index.html`: player-facing landing page for Peril to Profit: The Goldspire Messengers.
-- `events/goldspire/coming-soon/index.html`: temporary target for the Claim a Seat CTA until the real event listing URL is available.
+- `events/goldspire/coming-soon/index.html`: temporary target for the registration CTA until the real event listing URL is available.
 - `resources/daggerheart.html`: optional official Daggerheart resources page.
 
 ## Local Page Files
@@ -22,10 +22,13 @@ status: active
 
 ## Future Update Path
 
-When the event listing goes live, update one value in `goldspire.js`:
+Current temporary CTA label: `Registration has not started yet`.
+
+When the event listing goes live, update two values in `goldspire.js`:
 
 ```js
 event_signup_url: "https://real-event-listing-url.example"
+cta_text: "Claim a Seat"
 ```
 
-Do not change CTA copy unless the event listing platform requires different wording.
+Also mirror the visible CTA label in `resources/daggerheart.html` back to `Claim a Seat` unless the event listing platform requires different wording.

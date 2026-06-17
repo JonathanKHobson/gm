@@ -4,6 +4,12 @@
     var(--void);
 }
 
+.daggerheart-resource .nav-cta {
+  min-width: max-content;
+  text-align: center;
+  white-space: nowrap;
+}
+
 .resource-link-list {
   display: grid;
   gap: 1rem;

@@ -77,14 +77,14 @@ For an event sold on scarcity ("5 seats only"), losing peak-intent visitors with
 
 ## Execution decision — 2026-06-17
 - Owner decision: do not build a waitlist, event listing, signup capture, or larger coming-soon conversion system in this pass.
-- Keep visible CTA text as `Claim a Seat`.
+- Keep visible CTA text as `Registration has not started yet` until the real listing URL exists.
 - Keep `event_signup_url: "coming-soon/"` as the single future switch point.
 - Keep `events/goldspire/coming-soon/` out of `sitemap.xml` and preserve `noindex, nofollow`.
-- Future cutover: replace only `event_signup_url` with the real listing URL, then verify all `[data-event-cta]` links.
+- Future cutover: replace `event_signup_url` with the real listing URL, set `cta_text` back to `Claim a Seat`, mirror the Daggerheart resource CTA label, then verify all `[data-event-cta]` links.
 
 ## Verification
 - [ ] Real listing URL available
-- [x] CTA text remains `Claim a Seat`
+- [x] CTA text reflects current registration state
 - [x] CTA URL remains one config value in `goldspire.js`
 - [x] Coming-soon route excluded from sitemap
 - [x] Coming-soon route marked `noindex, nofollow`

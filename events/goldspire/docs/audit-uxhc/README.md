@@ -11,7 +11,7 @@
 - (secondary) https://jonathankhobson.github.io/gm/events/goldspire/coming-soon/
 
 > **Original audit note:** no fixes were applied during the audit capture.  
-> **Remediation update, 2026-06-17:** BUG-02 through BUG-09 have now been completed or reconciled in the local repo. BUG-01 remains intentionally deferred because the real external event listing URL is not available yet; the CTA remains `Claim a Seat` and still uses the single `event_signup_url` switch point.
+> **Remediation update, 2026-06-17:** BUG-02 through BUG-09 have now been completed or reconciled in the local repo. BUG-01 remains intentionally deferred because the real external event listing URL is not available yet; the CTA now reads `Registration has not started yet` and still uses the `event_signup_url` switch point.
 
 ---
 
@@ -57,9 +57,9 @@
 ## Remediation register
 | ID | Current status | Resolution |
 |---|---|---|
-| BUG-01 | Deferred | External event listing dependency. `Claim a Seat` stays active-looking by request; `event_signup_url` remains `coming-soon/` for one-value cutover. |
+| BUG-01 | Deferred | External event listing dependency. Visible CTA is temporarily `Registration has not started yet`; `event_signup_url` remains `coming-soon/` for cutover. |
 | BUG-02 | Complete | Mobile header uses the horizontal-scroll nav row; dead hamburger JS path removed. |
-| BUG-03 | Complete | Daggerheart resources page has footer, return CTA, `Claim a Seat`, portfolio route, Twitter/OG metadata, and extracted CSS. |
+| BUG-03 | Complete | Daggerheart resources page has footer, return CTA, registration-state CTA, portfolio route, Twitter/OG metadata, and extracted CSS. |
 | BUG-04 | Complete | Root `404.html` added with branded recovery links. |
 | BUG-05 | Complete | Social-proof section now uses real player reflections, compact proof media, and `Book me` links to the existing contact form. |
 | BUG-06 | Complete | Hero, metadata, and deployed/source copy aligned around the current beginner-friendly Daggerheart framing. |

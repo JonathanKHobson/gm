@@ -10,7 +10,7 @@
     event_venue_address: "1371 N Alma School Rd, Chandler, AZ 85224",
     event_venue_url: "https://www.moxboardinghouse.com/pages/chandler",
     event_signup_url: "coming-soon/",
-    cta_text: "Claim a Seat"
+    cta_text: "Registration has not started yet"
   };
 
   var nav = document.getElementById("nav");
