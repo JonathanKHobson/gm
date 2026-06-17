@@ -43,4 +43,8 @@ status: local-qa-passed
 
 ## Publish Smoke Test
 
-Pending for the current revision after push.
+- Page revision published at commit `2b93ab9`.
+- Live HTML returned `200` at `https://jonathankhobson.github.io/gm/events/goldspire/`.
+- Live HTML contains the prepared party-reference hero markers, `Claim a Seat`, `Mox Boarding House Chandler`, and `Peril to Profit`.
+- Live HTML source sweep found zero stale cast-member, stray wolf accent, internal source-status, or stale venue shorthand markers.
+- Live CSS returned `200`, contains the new hero party image styles and label contrast token, and contains zero old `.cast-*` or wolf accent rules.
