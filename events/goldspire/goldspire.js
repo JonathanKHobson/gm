@@ -1,6 +1,6 @@
 (function () {
   var eventConfig = {
-    event_title: "Peril to Profit: The Goldspire Messengers",
+    event_title: "Peril to Profit\u2122: The Goldspire Messengers",
     event_day: "Tuesday",
     event_time: "5:00 PM",
     event_date: "July 7, 2026",

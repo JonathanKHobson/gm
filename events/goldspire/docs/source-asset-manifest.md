@@ -10,7 +10,7 @@ Source root:
 
 `/Volumes/KyleSSD/Documents/My Work/Pro GM/Daggerheart_PeriltoProfit_TheGoldspireMessengers /goldspire_player_pitch_onboarding_packet/`
 
-## Used Public-Safe Assets
+## Used Public Assets
 
 ### Hero Art
 
@@ -27,13 +27,13 @@ Source root:
 - `visual-assets/pc_portrait_assets/generated/varian-soto Background Removed.png` -> `events/goldspire/assets/characters/varian-soto-background-removed.png`
 - `visual-assets/pc_portrait_assets/generated/party-reference Background Removed.png` -> `events/goldspire/assets/characters/courier-crew-background-removed.png`
 
-The hero uses the five individual cropped portraits to create a custom party tableau. The crew image is used only inside a closed optional disclosure so the first fold does not combine group art and individual portraits in one crowded viewport.
+The hero uses the prepared background-removed crew reference as a single controlled party image. This replaced the earlier CSS-composed individual portrait tableau after rendered QA showed that the custom assembly created visual collision risk.
 
-The five individual card and hero portraits also have page-local cropped derivatives in `events/goldspire/assets/characters/cropped/`. These were generated from the background-removed source files to remove excess transparent canvas and prevent blank-looking character cards.
+The five individual card portraits also have page-local cropped derivatives in `events/goldspire/assets/characters/cropped/`. These were generated from the background-removed source files to remove excess transparent canvas and prevent blank-looking character cards.
 
 ### Supplemental PC Art
 
-Copied from `event-visual-asset-pack/assets/pcs/` into `events/goldspire/assets/pcs/` for future page/social variants. The current public page uses the background-removed versions as primary character art.
+Copied from `event-visual-asset-pack/assets/pcs/` into `events/goldspire/assets/pcs/` for future page/social variants. The current public page uses the background-removed crew reference in the hero and cropped individual portraits in the character cards.
 
 ### Location Art
 
@@ -42,7 +42,7 @@ Copied from `event-visual-asset-pack/assets/pcs/` into `events/goldspire/assets/
 - `event-visual-asset-pack/assets/location-art/MAP-LOC-hush.png`
 - `event-visual-asset-pack/assets/location-art/MAP-LOC-clover-co-op.png`
 
-All four are copied into `events/goldspire/assets/locations/` and used only as player-safe mood art.
+All four are copied into `events/goldspire/assets/locations/` and used as spoiler-light mood art.
 
 ### Poster Elements
 
@@ -50,9 +50,8 @@ All four are copied into `events/goldspire/assets/locations/` and used only as p
 - `goldspire-cutout-clean-cart-transparent.png`
 - `goldspire-margin-courier-transparent.png`
 - `goldspire-margin-waymarker-transparent.png`
-- `goldspire-margin-strixwolf-transparent.png`
 
-All are copied into `events/goldspire/assets/poster-elements/`.
+These are copied into `events/goldspire/assets/poster-elements/`. The page currently uses the courier accent only; the other poster elements remain available for future variants but are not placed in the active layout.
 
 ### Icons
 
@@ -83,6 +82,13 @@ All curated icons from `event-visual-asset-pack/assets/icons/` are copied into `
 - `Goldspire Creative Pass/VOICE_AND_MESSAGING_GUIDE.md`
 - `event-visual-asset-pack/docs/03-landing-page-asset-and-flow-brief.md`
 - `event-visual-asset-pack/docs/05-daggerheart-player-links.md`
+- `Peril_to_Profit_Landing_Page_Dev_Packet_Markdown/README.md`
+- `Peril_to_Profit_Landing_Page_Dev_Packet_Markdown/01_latest_event_listing_v3.md`
+- `Peril_to_Profit_Landing_Page_Dev_Packet_Markdown/02_voice_and_tone_guide.md`
+- `Peril_to_Profit_Landing_Page_Dev_Packet_Markdown/03_landing_page_copy_blocks.md`
+- `Peril_to_Profit_Landing_Page_Dev_Packet_Markdown/04_microcopy_bank.md`
+- `Peril_to_Profit_Landing_Page_Dev_Packet_Markdown/05_brand_glossary_tm_usage.md`
+- `Peril_to_Profit_Landing_Page_Dev_Packet_Markdown/06_dev_implementation_notes.md`
 
 ## Venue Source
 

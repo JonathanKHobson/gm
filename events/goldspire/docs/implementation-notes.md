@@ -15,14 +15,14 @@ The page is a conversion-ready landing page for curious Mox, Discord, and friend
 - Keep first-fold content short: title, hook, logistics, beginner promise, CTA.
 - Use corporate fantasy humor as seasoning, not the meal.
 - Avoid unexplained proper nouns and story terms in public copy.
-- Keep all story details spoiler-safe and limited to what helps a new player decide.
+- Keep all story details spoiler-light and limited to what helps a new player decide.
 - Use progressive disclosure for Daggerheart basics, FAQ, content comfort, and prep details.
 
 ## Visual Direction
 
 - Primary mood: warm cinematic fantasy road plus cheerful corporate risk language.
-- Hero character art uses the five individual PC portraits as a custom staged party tableau. The party reference image is intentionally not used in the hero.
-- Mobile uses a compact individual-character strip inside the first fold so the PCs are visible without making the hero too tall.
+- Hero character art uses the prepared background-removed courier crew reference as a single controlled image.
+- Mobile uses the same crew reference in a compact strip so the PCs are visible without image collision or excessive first-fold height.
 - Character art supports choice and emotional buy-in.
 - Location art supports atmosphere only; it should not become a lore gallery.
 - Icons are decorative supports and should not carry essential meaning by themselves.
