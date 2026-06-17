@@ -25,6 +25,7 @@
       background: rgba(254, 248, 235, 0.96);
       padding: 1.4rem;
       box-shadow: var(--shadow-soft);
+      overflow: hidden;
     }
 
     .error-eyebrow {
@@ -39,11 +40,13 @@
     .error-card h1 {
       margin: 0 0 0.6rem;
       font-size: clamp(1.95rem, 5vw, 2.35rem);
+      overflow-wrap: anywhere;
     }
 
     .error-card p {
       margin: 0 0 0.85rem;
       color: var(--ink-muted);
+      overflow-wrap: break-word;
     }
 
     .error-note {
@@ -64,10 +67,54 @@
       gap: 0.75rem;
       margin-top: 1.15rem;
     }
+
+    .error-links .btn-secondary {
+      border-color: rgba(27, 24, 19, 0.16);
+      background: rgba(255, 255, 255, 0.72);
+      color: var(--ink);
+    }
+
+    .error-links .btn-secondary:hover,
+    .error-links .btn-secondary:focus-visible {
+      background: var(--cream);
+      color: var(--ink);
+    }
+
+    @media (max-width: 620px) {
+      .error-shell {
+        align-content: start;
+        padding-block: 2rem;
+      }
+
+      .error-shell .wrap {
+        padding-inline: 1rem;
+      }
+
+      .error-card {
+        width: calc(100vw - 3rem);
+        max-width: calc(100vw - 3rem);
+        padding: 1rem;
+      }
+
+      .error-card h1 {
+        font-size: clamp(1.75rem, 8vw, 2rem);
+        line-height: 1.08;
+      }
+
+      .error-links {
+        display: grid;
+      }
+
+      .error-links .btn {
+        width: 100%;
+        justify-content: center;
+      }
+    }
   </style>
 </head>
 <body class="case-detail">
   <a class="skip" href="#main">Skip to content</a>
+  <span id="new-tab-note" class="sr-only">Opens in a new tab.</span>
 
   <header class="site-header">
     <nav class="nav" aria-label="Primary navigation">
@@ -90,16 +137,17 @@
     <div class="wrap">
       <section class="error-card" aria-labelledby="error-title">
         <p class="error-eyebrow">Route not found</p>
-        <h1 id="error-title">That route did not pass inspection.</h1>
-        <p>The page may have moved, expired, or been typed wrong. Use one of the links below and you’re back on the right table.</p>
+        <h1 id="error-title">Route not found.</h1>
+        <p>The page may have moved, expired, or been typed wrong.<br />Use the links below.</p>
         <div class="error-links">
           <a class="btn btn-primary" href="index.html">Home</a>
           <a class="btn btn-secondary" href="events/goldspire/">Goldspire Event</a>
+          <a class="btn btn-secondary" href="https://events.moxboardinghouse.com/p/n/xnP6r62v/v5" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-note">Book now at Mox</a>
           <a class="btn btn-secondary" href="resources/daggerheart.html">Daggerheart Resources</a>
         </div>
         <div class="error-note" aria-live="polite">
-          <p>If you were looking for registration, it is coming soon. The event page will point to the live listing as soon as it is available.</p>
-          <p>Returning to the event page is the best recovery path.</p>
+          <p>If you were looking for registration:<br />booking is live through Mox.</p>
+          <p>Return to the event page for the full pitch.</p>
         </div>
       </section>
     </div>

@@ -11,7 +11,7 @@
 - (secondary) https://jonathankhobson.github.io/gm/events/goldspire/coming-soon/
 
 > **Original audit note:** no fixes were applied during the audit capture.  
-> **Remediation update, 2026-06-17:** BUG-02 through BUG-09 have now been completed or reconciled in the local repo. BUG-01 remains intentionally deferred because the real external event listing URL is not available yet; the CTA now reads `Registration coming soon` and uses the shared registration state in `goldspire-registration.js`.
+> **Remediation update, 2026-06-17:** BUG-01 through BUG-09 have now been completed or reconciled in the local repo. BUG-01 is resolved by the live Mox event listing; the CTA reads `Book now at Mox` and uses the shared registration state in `goldspire-registration.js`.
 
 ---
 
@@ -22,7 +22,7 @@
 | Core heuristics (H1–H10) | **A+** | 90.41% |
 | Full scope incl. accessibility, inclusion, journey, UX writing (H1–H14) | **A** | 87.49% |
 
-**Top finding (Major / severity 3):** The conversion journey breaks at the finish line — **"Claim a Seat"** leads to a *coming-soon* page with no way to register or join a waitlist.
+**Top finding (Major / severity 3):** The conversion journey originally broke at the finish line. This has been remediated: the live CTA now opens the official Mox listing.
 
 **"Does it feel AI?":** Copy = **no, authored voice**. Visuals = **partly** (location renders / group art). See [05-visual-qa](05-visual-qa/visual-qa-report.md).
 
@@ -57,7 +57,7 @@
 ## Remediation register
 | ID | Current status | Resolution |
 |---|---|---|
-| BUG-01 | Deferred | External event listing dependency. Visible CTA is temporarily `Registration coming soon`; `goldspire-registration.js` holds pending/live labels and URLs for cutover. |
+| BUG-01 | Complete | Live Mox listing is wired through `goldspire-registration.js`; visible CTA is `Book now at Mox`; stale `coming-soon/` route remains noindex fallback only. |
 | BUG-02 | Complete | Mobile header uses the horizontal-scroll nav row; dead hamburger JS path removed. |
 | BUG-03 | Complete | Daggerheart resources page has footer, return CTA, registration-state CTA, portfolio route, Twitter/OG metadata, and extracted CSS. |
 | BUG-04 | Complete | Root `404.html` added with branded recovery links. |

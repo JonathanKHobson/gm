@@ -12,7 +12,7 @@ Right now the button says **"Claim a Seat"** but the destination cannot claim a 
 |---|---|
 | **`Get the seat alert`** or **`Hold my seat`** | **`Seats open soon`** (and make it a non-button styled note, not a primary button) |
 
-When the real registration URL is live, revert to **`Claim a Seat`** and point `event_signup_url` at it (one value in `goldspire.js`).
+When the real registration URL is live, use the approved live CTA **`Book now at Mox`** and point the shared registration config at the official Mox listing.
 
 ---
 

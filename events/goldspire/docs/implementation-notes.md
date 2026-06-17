@@ -34,7 +34,8 @@ The page is a conversion-ready landing page for curious Mox, Discord, and friend
 - Shared GM site CSS remains imported from `../../styles/`.
 - Page-specific layout lives in `goldspire.css`.
 - CTA wiring lives in `goldspire-registration.js` through one registration state object shared by the event page and Daggerheart resources page.
-- Current state is `registration_state: "pending"` with label `Registration coming soon` and target `events/goldspire/coming-soon/`.
-- When the real listing URL is live, set `registration_state: "live"` and replace `live_url` in `goldspire-registration.js`.
+- Current state is `registration_state: "live"` with label `Book now at Mox` and target `https://events.moxboardinghouse.com/p/n/xnP6r62v/v5`.
+- `checkout_url` is retained in the config as an optional future switch, but the verified checkout URL currently redirects back to the event listing.
+- The `events/goldspire/coming-soon/` route remains noindex as a recovery fallback for stale links and points visitors to the live Mox listing.
 - Player-facing character PDFs are published under `events/goldspire/assets/player-pdfs/`.
 - Private table edition PDFs, sheet previews, and GM-only story/rules material remain intentionally excluded from the public route.

@@ -1,7 +1,7 @@
-# BUG-01 — "Claim a Seat" dead-ends on a coming-soon page (no registration, no waitlist)
+# BUG-01 — registration CTA dead-end resolved by live Mox listing
 
 **Severity:** Critical (conversion-blocking) · UXHC: H13 sev 3 (top finding), H07/H01/H09 sev 2
-**Status:** Deferred · **Type:** Conversion / external listing dependency
+**Status:** Complete · **Type:** Conversion / external listing dependency
 
 ![Coming-soon dead-end](../../screenshots/coming-soon-desktop.png)
 
@@ -35,8 +35,11 @@
 
 ---
 
-## Description
+## Original description
 The single most important action on the site — **"Claim a Seat"** (rendered 4× on the event page plus nav and footer) — links to `coming-soon/`, an interstitial reading *"Almost posted… the registration listing is being finalized."* It offers only **Back to event page** and **Ask Kyle a question**. There is **no registration, no email/waitlist capture, no calendar hold**. A visitor at peak intent cannot complete or defer the action and leaves with nothing captured.
+
+## Resolution — 2026-06-17
+The official Mox event listing is live. The shared registration config now uses `registration_state: "live"`, label `Book now at Mox`, and `live_url: "https://events.moxboardinghouse.com/p/n/xnP6r62v/v5"`. Goldspire event CTAs and the Daggerheart resource CTAs use `[data-event-cta]` and resolve to the live listing. The old modal-only `data-registration-coming-soon` path has been removed.
 
 ## URL(s)
 - Trigger: `https://jonathankhobson.github.io/gm/events/goldspire/` (any "Claim a Seat" button)
@@ -52,7 +55,7 @@ The single most important action on the site — **"Claim a Seat"** (rendered 4�
 Clicking the primary CTA should let the user **complete the conversion** (open the registration listing) or, while the listing is pending, **capture intent** (email/waitlist "notify me," plus an optional "add to calendar"). The CTA label should match what the destination can deliver.
 
 ## Actual behavior
-The destination cannot register the user and captures nothing. Only "ask Kyle a question" is offered, which mismatches the intent ("I have a yes, not a question"). 6 of 7 usability personas were blocked here.
+Resolved. The primary CTA now opens the official Mox listing where the visitor can book the event.
 
 ## Environment
 - **Device type:** Desktop + Mobile
@@ -70,20 +73,20 @@ The destination cannot register the user and captures nothing. Only "ask Kyle a 
 ## Additional context
 For an event sold on scarcity ("5 seats only"), losing peak-intent visitors with zero capture is the highest-cost issue in the audit. Highest-intent personas (Critical Role Curious, Mox Regular) are hurt most.
 
-## Proposed fix (not applied)
+## Proposed fix
 1. **Now:** add a waitlist/notify email capture on `coming-soon/` (embedded form or `mailto:`), plus an "add to calendar" `.ics` hold-the-date. Change the CTA label to **"Get the seat alert" / "Hold my seat."**
-2. **When listing is live:** set `registration_state` to `live` and set `live_url` to the registration URL; the shared live label is "Claim a Seat."
+2. **When listing is live:** set `registration_state` to `live` and set `live_url` to the registration URL; the shared live label is `Book now at Mox`.
 3. Copy provided in [`06-copy-rewrites/03-cta-and-coming-soon.md`](../../06-copy-rewrites/03-cta-and-coming-soon.md).
 
 ## Execution decision — 2026-06-17
-- Owner decision: do not build a waitlist, event listing, signup capture, or larger coming-soon conversion system in this pass.
-- Keep visible CTA text as `Registration coming soon` until the real listing URL exists.
-- Keep `goldspire-registration.js` as the shared pending/live switch point for the event page and Daggerheart resources page.
-- Keep `events/goldspire/coming-soon/` out of `sitemap.xml` and preserve `noindex, nofollow`.
-- Future cutover: set `registration_state: "live"` and replace `live_url` with the real listing URL; the shared live label is `Claim a Seat`.
+- The live listing URL is now available and verified.
+- Visible CTA text is `Book now at Mox`.
+- `goldspire-registration.js` remains the shared pending/live switch point for the event page and Daggerheart resources page.
+- `events/goldspire/coming-soon/` remains out of `sitemap.xml` and preserves `noindex, nofollow` as a stale-link fallback.
+- The direct `/checkout` URL is documented in config, but current verification shows it redirects back to the event listing.
 
 ## Verification
-- [ ] Real listing URL available
+- [x] Real listing URL available
 - [x] CTA text reflects current registration state
 - [x] CTA URL remains in the shared registration config
 - [x] Coming-soon route excluded from sitemap

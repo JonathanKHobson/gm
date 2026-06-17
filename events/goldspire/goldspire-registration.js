@@ -1,12 +1,13 @@
 (function () {
   var registrationConfig = {
-    registration_state: "pending",
+    registration_state: "live",
     pending_label: "Registration coming soon",
-    live_label: "Claim a Seat",
+    live_label: "Book now at Mox",
     pending_url: "coming-soon/",
-    live_url: "",
+    live_url: "https://events.moxboardinghouse.com/p/n/xnP6r62v/v5",
+    checkout_url: "https://events.moxboardinghouse.com/p/n/xnP6r62v/v5/checkout",
     pending_aria_label: "Registration coming soon. Open event listing status.",
-    live_aria_label: "Claim a Seat. Open event registration."
+    live_aria_label: "Book now at Mox. Open the official event listing."
   };
 
   var script = document.currentScript;
@@ -21,12 +22,30 @@
     return eventBase + value;
   }
 
+  function isExternalUrl(value) {
+    return /^https?:/.test(value);
+  }
+
   document.documentElement.setAttribute("data-registration-state", state);
 
   Array.prototype.forEach.call(document.querySelectorAll("[data-event-cta]"), function (link) {
-    link.href = resolveUrl(url);
+    var resolvedUrl = resolveUrl(url);
+    link.href = resolvedUrl;
     link.textContent = label;
     link.setAttribute("aria-label", ariaLabel);
     link.setAttribute("data-registration-state", state);
+    if (isExternalUrl(resolvedUrl)) {
+      link.setAttribute("target", "_blank");
+      link.setAttribute("rel", "noopener noreferrer");
+      link.classList.add("external-link");
+      if (document.getElementById("new-tab-note")) {
+        link.setAttribute("aria-describedby", "new-tab-note");
+      }
+    } else {
+      link.removeAttribute("target");
+      link.removeAttribute("rel");
+      link.removeAttribute("aria-describedby");
+      link.classList.remove("external-link");
+    }
   });
 }());

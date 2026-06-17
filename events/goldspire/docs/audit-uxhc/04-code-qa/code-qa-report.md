@@ -22,7 +22,7 @@ Static GitHub Pages site. Reviewed: `events/goldspire/index.html`, `events/golds
 - **Images:** explicit `width`/`height` on every `<img>` (protects CLS); `loading="eager"`+`decoding="async"` on hero, `loading="lazy"` below the fold; decorative images correctly use `alt=""`; meaningful images have descriptive alt.
 - **New-tab links:** every `target="_blank"` carries `rel="noopener noreferrer"` and `aria-describedby="new-tab-note"` (sr-only "Opens in a new tab"). This is better than most production sites.
 - **Motion:** `goldspire.js` reveal-on-scroll uses `IntersectionObserver` and **respects `prefers-reduced-motion`** with a non-animated fallback.
-- **CTA single source of truth:** `goldspire.js` rewrites all `[data-event-cta]` hrefs/labels from `eventConfig` — flip one value to repoint every CTA when registration is live.
+- **CTA single source of truth:** `goldspire-registration.js` rewrites all `[data-event-cta]` hrefs/labels from the shared registration config — flip one value to repoint every CTA when registration state changes.
 - **Fonts:** `preconnect` to Google Fonts + `display=swap`; reasonable family count.
 - **Canonicals** present on both pages; `robots.txt` + `sitemap.xml` present; sitemap includes both primary pages.
 

@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Goldspire Event Link | GameMasterKyle</title>
-  <meta name="description" content="Temporary landing spot for the Goldspire Messengers event listing link." />
+  <title>Goldspire Registration Is Live | GameMasterKyle</title>
+  <meta name="description" content="Registration for Peril to Profit: The Goldspire Messengers is live through the official Mox event listing." />
   <meta name="robots" content="noindex, nofollow" />
   <link rel="canonical" href="https://jonathankhobson.github.io/gm/events/goldspire/coming-soon/" />
   <link rel="icon" type="image/png" href="../../../assets/brand/favicon.png" />
@@ -25,10 +25,12 @@
       display: grid;
       align-content: center;
       padding: clamp(1rem, 3vw, 2.5rem);
+      overflow-x: hidden;
     }
 
     .event-link-card {
       width: min(100%, 68rem);
+      min-width: 0;
       margin-inline: auto;
       border: 1px solid rgba(248, 237, 218, 0.22);
       border-radius: var(--radius);
@@ -37,12 +39,18 @@
         rgba(7, 19, 25, 0.8);
       padding: clamp(1.2rem, 3vw, 2rem);
       box-shadow: var(--shadow);
+      overflow: hidden;
     }
 
     .event-link-grid {
       display: grid;
       gap: clamp(1.2rem, 3vw, 2rem);
       align-items: center;
+      min-width: 0;
+    }
+
+    .event-link-grid > * {
+      min-width: 0;
     }
 
     .event-link-status {
@@ -66,11 +74,13 @@
       color: #fff8ec;
       font-size: clamp(2.35rem, 7vw, 4.8rem);
       line-height: 0.96;
+      overflow-wrap: anywhere;
     }
 
     .event-link-card p {
       color: rgba(248, 237, 218, 0.82);
       margin-top: 1rem;
+      overflow-wrap: break-word;
     }
 
     .event-link-lede {
@@ -95,6 +105,7 @@
     .event-link-facts span {
       display: grid;
       gap: 0.22rem;
+      min-width: 0;
       min-height: 4.25rem;
       border: 1px solid rgba(248, 237, 218, 0.16);
       border-radius: 0.7rem;
@@ -114,6 +125,7 @@
       color: #fff8ec;
       font-size: 1rem;
       line-height: 1.25;
+      overflow-wrap: break-word;
     }
 
     .event-link-actions {
@@ -179,22 +191,45 @@
     @media (max-width: 620px) {
       .event-link-shell {
         align-content: start;
+        padding: 0.85rem;
       }
 
       .event-link-card {
-        padding: 1rem;
+        width: calc(100vw - 3rem);
+        max-width: calc(100vw - 3rem);
+        padding: 0.95rem;
+      }
+
+      .event-link-grid {
+        grid-template-columns: minmax(0, 1fr);
       }
 
       .event-link-card h1 {
-        font-size: clamp(2.15rem, 11vw, 2.9rem);
+        max-width: 10ch;
+        font-size: clamp(2rem, 9.2vw, 2.45rem);
+        line-height: 1.02;
       }
 
       .event-link-card p {
         margin-top: 0.75rem;
       }
 
+      .event-link-lede {
+        font-size: 1rem;
+        line-height: 1.48;
+      }
+
+      .event-link-lede strong {
+        display: block;
+      }
+
+      .event-link-humor {
+        font-size: 0.98rem;
+        line-height: 1.42;
+      }
+
       .event-link-facts {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: minmax(0, 1fr);
         gap: 0.5rem;
         margin-top: 0.95rem;
       }
@@ -205,7 +240,6 @@
       }
 
       .event-link-facts span:last-child {
-        grid-column: 1 / -1;
         min-height: auto;
       }
 
@@ -219,19 +253,28 @@
 
       .event-link-actions .btn {
         width: 100%;
+        max-width: 100%;
+        white-space: normal;
+        line-height: 1.12;
+        text-align: center;
+      }
+
+      .event-link-visual {
+        display: none;
       }
     }
   </style>
 </head>
 <body>
+  <span id="new-tab-note" class="sr-only">Opens in a new tab.</span>
   <main class="event-link-shell">
     <article class="event-link-card">
       <div class="event-link-grid">
         <div>
-          <span class="event-link-status">Registration coming soon</span>
-          <h1>Registration opens soon.</h1>
-          <p class="event-link-lede">The official event listing for <strong>Peril to Profit&trade;: The Goldspire Messengers</strong> is being finalized. When it goes live, the event page button will take you straight there.</p>
-          <p class="event-link-humor">No homework while Management locates the correct form.</p>
+          <span class="event-link-status">Registration is live</span>
+          <h1>Book at Mox.</h1>
+          <p class="event-link-lede">The Mox listing is live.<br />Only 5 seats.</p>
+          <p class="event-link-humor">Management found the form.<br />Enthusiasm authorized.</p>
           <div class="event-link-facts" aria-label="Event quick facts">
             <span><small>Date</small><strong>Tuesday, July 7</strong></span>
             <span><small>Time</small><strong>5:00-9:00 PM</strong></span>
@@ -241,7 +284,8 @@
             <span><small>Location</small><strong>Mox Boarding House Chandler<br />1371 N Alma School Rd</strong></span>
           </div>
           <div class="event-link-actions" aria-label="Next steps">
-            <a class="btn btn-primary" href="../">Back to event page</a>
+            <a class="btn btn-primary" href="https://events.moxboardinghouse.com/p/n/xnP6r62v/v5" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-note">Book now at Mox</a>
+            <a class="btn btn-secondary" href="../">Back to event page</a>
             <a class="btn btn-secondary" href="../../../index.html#contact">Ask Kyle a question</a>
             <a class="btn btn-secondary" href="../../../resources/daggerheart.html">Daggerheart resources</a>
           </div>
@@ -250,7 +294,7 @@
           <div class="event-link-visual-frame">
             <img src="../assets/characters/courier-crew-background-removed.png" alt="The five ready-to-play Goldspire courier characters." width="1536" height="1024" />
           </div>
-          <figcaption>Five ready-to-play couriers. Registration paperwork remains the true final boss.</figcaption>
+          <figcaption>Five ready-to-play couriers. The paperwork finally caught up.</figcaption>
         </figure>
       </div>
     </article>

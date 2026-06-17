@@ -228,6 +228,31 @@ html[data-registration-state="pending"] .daggerheart-resource [data-event-cta].n
   justify-content: flex-end;
 }
 
+@media (max-width: 680px) {
+  .daggerheart-resource .website-nav .navlink[href="../index.html"] {
+    display: none;
+  }
+
+  .daggerheart-resource .detail-lede,
+  .daggerheart-resource .detail-meta,
+  .daggerheart-resource .detail-meta span {
+    max-width: 100%;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .daggerheart-resource .detail-meta {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .daggerheart-resource .detail-meta span {
+    display: block;
+    width: 100%;
+    white-space: normal;
+  }
+}
+
 @media (min-width: 760px) {
   .resource-download-grid,
   .basics-grid {

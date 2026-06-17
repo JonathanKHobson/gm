@@ -25,7 +25,7 @@ This audit report is preserved as the original findings record. Current implemen
 
 | Area | Status | Notes |
 |---|---|---|
-| BUG-01 primary registration destination | Deferred | External dependency by owner decision. Visible CTA now reads `Registration coming soon`; all event CTAs use `goldspire-registration.js` for pending/live cutover. |
+| BUG-01 primary registration destination | Complete | Live Mox listing is wired through `goldspire-registration.js`; visible CTA now reads `Book now at Mox`; stale `coming-soon/` route remains noindex fallback only. |
 | BUG-02 mobile nav | Complete | Header nav links are reachable at mobile widths using the horizontal-scroll row; dead hamburger behavior was removed. |
 | BUG-03 Daggerheart dead-end | Complete | Resource page now includes return CTA, registration-state CTA, portfolio path, footer, and Twitter/OG metadata. |
 | BUG-04 custom 404 | Complete | Root `404.html` provides branded recovery to Home, Goldspire, and Daggerheart resources. |
@@ -70,9 +70,9 @@ Severity: 0 none · 1 cosmetic · 2 moderate · 3 major · 4 catastrophic.
 
 ### P0 — Fix before any promotion drives traffic
 
-**F1. Primary CTA dead-ends (H13 sev 3; H07/H01/H09 sev 2) — [BUG-01](bugs/BUG-01-cta-dead-end/report.md)**
+**F1. Primary CTA dead-ends (H13 sev 3; H07/H01/H09 sev 2) — [BUG-01](bugs/BUG-01-cta-dead-end/report.md) — Resolved 2026-06-17**
 "Claim a Seat" (4× on page + nav + footer) routes to `coming-soon/`: "listing is being finalized," with only "Back to event page" and "Ask Kyle a question." No register, no email capture, no calendar add, no waitlist. This is the peak-intent moment; with "5 seats only" scarcity, a visitor who can't act won't return.
-*Fix:* (1) Now — add waitlist/notify email capture (embedded form or `mailto:`) + "add to calendar" `.ics`; relabel CTA "Hold my seat / Get the seat alert." (2) Live — point `event_signup_url` at registration; revert label. Copy in [06-copy-rewrites/03](06-copy-rewrites/03-cta-and-coming-soon.md).
+*Current fix:* live CTA now reads `Book now at Mox` and opens the official Mox listing through `goldspire-registration.js`. The old `coming-soon/` path remains noindex fallback only.
 
 ### P1 — Fix this week
 

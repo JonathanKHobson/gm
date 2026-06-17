@@ -393,8 +393,8 @@
 
   .navlink,
   .nav-cta {
-    flex: 0 1 auto;
-    white-space: normal;
+    flex: 0 0 auto;
+    white-space: nowrap;
   }
 
   .about-actions .chip-link {
@@ -640,6 +640,48 @@
 
   .detail-hero h1 {
     font-size: 2.65rem;
+  }
+
+  .goldspire-page .detail-hero .detail-lede,
+  .goldspire-page .detail-meta,
+  .goldspire-page .detail-meta span,
+  .goldspire-page .detail-hero-actions,
+  .goldspire-page .goldspire-status-note {
+    max-width: 100%;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .goldspire-page .detail-meta span {
+    display: block;
+    width: 100%;
+    white-space: normal;
+  }
+
+  .goldspire-page .detail-meta {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .goldspire-page .detail-hero-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .goldspire-page .detail-hero-actions .btn,
+  .goldspire-page .goldspire-path-strip .btn,
+  .goldspire-page .goldspire-final-band .event-actions .btn,
+  .goldspire-page .goldspire-mid-cta .btn {
+    width: 100%;
+    min-width: 0;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .goldspire-page .goldspire-status-note {
+    display: flex;
+    border-radius: var(--radius-sm);
+    line-height: 1.35;
   }
 
   .detail-grid,

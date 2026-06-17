@@ -9,7 +9,7 @@ status: active
 ## Public Routes
 
 - `events/goldspire/index.html`: player-facing landing page for Peril to Profit: The Goldspire Messengers.
-- `events/goldspire/coming-soon/index.html`: temporary target for the registration CTA until the real event listing URL is available.
+- `events/goldspire/coming-soon/index.html`: noindex fallback route for old registration-status links; it now points users to the live Mox listing.
 - `resources/daggerheart.html`: optional official Daggerheart resources page.
 
 ## Local Page Files
@@ -21,15 +21,16 @@ status: active
 - `events/goldspire/assets/player-pdfs/`: optional player-facing PDF packets for the intended Goldspire couriers.
 - `events/goldspire/docs/`: maintenance notes, source manifest, and QA record.
 
-## Future Update Path
+## Registration CTA
 
-Current temporary CTA label: `Registration coming soon`.
+Current live CTA label: `Book now at Mox`.
 
-When the event listing goes live, update these values in `goldspire-registration.js`:
+Current live target in `goldspire-registration.js`:
 
 ```js
 registration_state: "live"
-live_url: "https://real-event-listing-url.example"
+live_url: "https://events.moxboardinghouse.com/p/n/xnP6r62v/v5"
+checkout_url: "https://events.moxboardinghouse.com/p/n/xnP6r62v/v5/checkout"
 ```
 
-The live label is already set to `Claim a Seat` in the shared registration config. The Daggerheart resource CTAs use the same script, so no HTML copy hunt should be needed for cutover.
+The `/checkout` URL is retained as an optional future switch, but current verification shows it redirects back to the event listing. The Goldspire and Daggerheart resource CTAs use the same script, so future registration-state changes should stay in one file.
