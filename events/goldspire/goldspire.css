@@ -1,0 +1,1178 @@
+.goldspire-page {
+  --gold-ink: #160f0a;
+  --gold-cream: #fbf4e8;
+  --gold-paper: #f7ead2;
+  --gold-paper-strong: #efd7a7;
+  --gold-forest: #203c2a;
+  --gold-forest-dark: #0b1f18;
+  --gold-moss: #88a76e;
+  --gold-brass: #d7ad57;
+  --gold-ember: #ea6b3f;
+  --gold-blue: #5f8f9d;
+  --gold-line: rgba(22, 15, 10, 0.18);
+  --gold-line-light: rgba(251, 244, 232, 0.22);
+  background: var(--gold-paper);
+}
+
+.goldspire-page::before {
+  background:
+    linear-gradient(180deg, rgba(247, 234, 210, 0.88), rgba(251, 244, 232, 0.94)),
+    var(--gold-paper);
+}
+
+.goldspire-page::after {
+  background:
+    linear-gradient(90deg, rgba(11, 31, 24, 0.12), transparent 28%, rgba(215, 173, 87, 0.12)),
+    linear-gradient(180deg, rgba(11, 31, 24, 0.2), transparent 28%, rgba(247, 234, 210, 0.8));
+}
+
+.goldspire-header .nav {
+  background: rgba(11, 31, 24, 0.92);
+}
+
+.goldspire-header .nav.scrolled {
+  background: rgba(8, 23, 18, 0.98);
+}
+
+.goldspire-nav-cta {
+  background: var(--gold-brass);
+}
+
+.goldspire-hero {
+  position: relative;
+  overflow: hidden;
+  color: var(--gold-cream);
+  background: var(--gold-forest-dark);
+}
+
+.goldspire-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(116deg, transparent 0 53%, rgba(95, 143, 157, 0.2) 53.2%, transparent 56%),
+    linear-gradient(142deg, transparent 0 66%, rgba(215, 173, 87, 0.18) 66.2%, transparent 69%),
+    linear-gradient(180deg, transparent, rgba(234, 107, 63, 0.1));
+  mix-blend-mode: screen;
+  opacity: 0.75;
+}
+
+.goldspire-hero-bg {
+  position: absolute;
+  inset: 0;
+}
+
+.goldspire-hero-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(7, 20, 16, 0.14), rgba(7, 20, 16, 0.7)),
+    linear-gradient(90deg, rgba(7, 20, 16, 0.9), rgba(7, 20, 16, 0.64) 48%, rgba(32, 84, 70, 0.18) 75%, rgba(215, 173, 87, 0.1)),
+    linear-gradient(140deg, rgba(234, 107, 63, 0.14), transparent 34%, rgba(95, 143, 157, 0.16) 72%);
+}
+
+.goldspire-hero-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.goldspire-hero-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 1.55rem;
+  min-height: 32rem;
+  padding-top: 0.85rem;
+  padding-bottom: 1.2rem;
+}
+
+.goldspire-hero-copy {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  gap: 0.68rem;
+  align-content: center;
+  min-width: 0;
+  max-width: 44rem;
+}
+
+.goldspire-system-line,
+.goldspire-label {
+  margin: 0;
+  color: var(--gold-brass);
+  font-family: var(--mono);
+  font-size: 0.92rem;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+.goldspire-hero h1 {
+  max-width: 13.4ch;
+  color: #fff9ec;
+  font-size: 2.85rem;
+  line-height: 0.98;
+  text-shadow: 0 14px 35px rgba(0, 0, 0, 0.32);
+}
+
+.goldspire-hook {
+  max-width: 34rem;
+  color: #fff3d9;
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  font-weight: 650;
+  line-height: 1.18;
+}
+
+.goldspire-lede {
+  max-width: 33rem;
+  color: rgba(251, 244, 232, 0.86);
+  font-size: 1.02rem;
+}
+
+.mobile-courier-strip {
+  display: none;
+}
+
+.goldspire-fact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10.25rem, 1fr));
+  gap: 0.6rem;
+  width: min(100%, 44rem);
+}
+
+.goldspire-fact-grid > span {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  min-width: 0;
+  min-height: 3.85rem;
+  border: 1px solid rgba(251, 244, 232, 0.2);
+  border-radius: var(--radius);
+  background: rgba(7, 20, 16, 0.5);
+  color: rgba(251, 244, 232, 0.94);
+  padding: 0.68rem 0.78rem;
+  font-weight: 800;
+}
+
+.goldspire-fact-grid > span > img,
+.expect-grid img,
+.goldspire-resource-card img,
+.goldspire-care-box > img,
+.goldspire-path-grid img {
+  flex: 0 0 2rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+}
+
+.goldspire-fact-grid > span > span {
+  display: grid;
+  gap: 0.12rem;
+  min-width: 0;
+}
+
+.goldspire-fact-grid small,
+.goldspire-venue-card small {
+  color: rgba(251, 244, 232, 0.68);
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.goldspire-fact-grid strong {
+  color: #fff8e8;
+  font-size: 1rem;
+  line-height: 1.18;
+}
+
+.goldspire-venue-card {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  width: min(100%, 44rem);
+  min-height: 4.2rem;
+  border: 1px solid rgba(215, 173, 87, 0.34);
+  border-radius: var(--radius);
+  background: rgba(7, 20, 16, 0.62);
+  color: rgba(251, 244, 232, 0.92);
+  padding: 0.78rem 0.9rem;
+  text-decoration: none;
+}
+
+.goldspire-venue-card:hover,
+.goldspire-venue-card:focus-visible {
+  border-color: rgba(215, 173, 87, 0.7);
+  background: rgba(7, 20, 16, 0.78);
+}
+
+.goldspire-venue-card img {
+  flex: 0 0 2.25rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  object-fit: contain;
+}
+
+.goldspire-venue-card span {
+  display: grid;
+  gap: 0.12rem;
+}
+
+.goldspire-venue-card strong {
+  color: #fff8e8;
+  line-height: 1.18;
+}
+
+.goldspire-venue-card em {
+  color: rgba(251, 244, 232, 0.78);
+  font-size: 0.92rem;
+  font-style: normal;
+  line-height: 1.25;
+}
+
+.goldspire-cta-row,
+.goldspire-link-row,
+.goldspire-final-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.goldspire-primary {
+  background: var(--gold-ember);
+  color: #170d07;
+  box-shadow: 0 18px 36px rgba(234, 107, 63, 0.28);
+}
+
+.goldspire-primary:hover,
+.goldspire-primary:focus-visible {
+  background: #f47d4d;
+}
+
+.goldspire-micro,
+.goldspire-note {
+  color: rgba(251, 244, 232, 0.8);
+  font-weight: 800;
+}
+
+.goldspire-cast-stage {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  align-content: end;
+  gap: 0.45rem;
+  min-width: 0;
+  min-height: 18rem;
+  margin: 0;
+}
+
+.hero-cast-panel {
+  position: relative;
+  min-height: 22rem;
+  overflow: visible;
+  isolation: isolate;
+}
+
+.hero-cast-panel::before {
+  content: "";
+  position: absolute;
+  right: -1rem;
+  bottom: 0.2rem;
+  left: -0.5rem;
+  height: 7rem;
+  z-index: 0;
+  background:
+    linear-gradient(90deg, rgba(215, 173, 87, 0), rgba(215, 173, 87, 0.34), rgba(95, 143, 157, 0.16), rgba(215, 173, 87, 0)),
+    linear-gradient(180deg, rgba(251, 244, 232, 0), rgba(11, 31, 24, 0.72));
+  clip-path: polygon(7% 42%, 93% 18%, 100% 100%, 0 100%);
+}
+
+.hero-cast-panel::after {
+  content: "";
+  position: absolute;
+  inset: 0 0 13%;
+  z-index: 0;
+  background:
+    repeating-linear-gradient(100deg, transparent 0 3.2rem, rgba(95, 143, 157, 0.18) 3.25rem, transparent 3.45rem),
+    linear-gradient(180deg, rgba(215, 173, 87, 0.12), transparent 52%, rgba(234, 107, 63, 0.08));
+  opacity: 0.72;
+  transform: skewX(-8deg);
+}
+
+.cast-member {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  width: auto;
+  max-width: none;
+  max-height: none;
+  object-fit: contain;
+  object-position: bottom center;
+  filter:
+    drop-shadow(0 24px 22px rgba(0, 0, 0, 0.44))
+    drop-shadow(0 0 18px rgba(215, 173, 87, 0.18));
+}
+
+.cast-garrick {
+  left: -1%;
+  bottom: 0.35rem;
+  z-index: 3;
+  height: 70%;
+  transform: rotate(-1deg);
+}
+
+.cast-khari {
+  left: 16%;
+  bottom: 0;
+  z-index: 5;
+  height: 82%;
+  transform: rotate(0.5deg);
+}
+
+.cast-varian {
+  z-index: 6;
+  left: 44%;
+  bottom: 0.45rem;
+  height: 58%;
+  transform: rotate(-0.5deg);
+}
+
+.cast-marlowe {
+  right: 2%;
+  bottom: 0.15rem;
+  z-index: 3;
+  height: 66%;
+  transform: rotate(1deg);
+}
+
+.cast-barnacle {
+  right: -4%;
+  bottom: 0.15rem;
+  z-index: 7;
+  height: 47%;
+  transform: rotate(2deg);
+}
+
+.goldspire-cast-stage figcaption {
+  max-width: 28rem;
+  margin: 0 auto;
+  color: rgba(251, 244, 232, 0.82);
+  font-family: var(--mono);
+  font-size: 0.88rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.goldspire-strip {
+  background: var(--gold-forest-dark);
+  color: var(--gold-cream);
+  border-top: 1px solid var(--gold-line-light);
+  border-bottom: 1px solid var(--gold-line-light);
+}
+
+.goldspire-strip-grid {
+  display: grid;
+  gap: 0.75rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.goldspire-strip-grid > * {
+  min-height: 2.5rem;
+  display: flex;
+  align-items: center;
+  border-left: 3px solid var(--gold-brass);
+  padding-left: 0.8rem;
+}
+
+.goldspire-venue-strip {
+  background: #10120f;
+  color: rgba(251, 244, 232, 0.82);
+  border-bottom: 1px solid rgba(215, 173, 87, 0.22);
+}
+
+.venue-strip-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem 1rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.venue-kicker {
+  color: var(--gold-brass);
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  font-weight: 850;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.venue-strip-inner a {
+  color: var(--gold-cream);
+  font-weight: 850;
+}
+
+.venue-strip-inner > span:not(.venue-kicker) {
+  color: rgba(251, 244, 232, 0.72);
+}
+
+.venue-directions {
+  min-height: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgba(251, 244, 232, 0.2);
+  border-radius: 999px;
+  padding: 0.34rem 0.75rem;
+  text-decoration: none;
+}
+
+.goldspire-band {
+  padding: 4rem 0;
+}
+
+.goldspire-paths {
+  background: linear-gradient(180deg, rgba(255, 250, 241, 0.94), rgba(247, 234, 210, 0.94));
+}
+
+.goldspire-path-grid,
+.goldspire-two-col,
+.goldspire-premise-grid,
+.goldspire-logistics-grid,
+.goldspire-final-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.goldspire-path-grid article,
+.goldspire-resource-card,
+.goldspire-care-box,
+.expect-grid article,
+.courier-card,
+.faq-list details,
+.goldspire-final-grid,
+.goldspire-art-panel,
+.goldspire-side-art {
+  border: 1px solid var(--gold-line);
+  border-radius: var(--radius);
+  background: rgba(255, 250, 241, 0.92);
+  box-shadow: var(--shadow-soft);
+}
+
+.goldspire-path-grid article,
+.goldspire-resource-card,
+.expect-grid article,
+.faq-list details,
+.goldspire-final-grid {
+  padding: 1.15rem;
+}
+
+.goldspire-path-grid h2,
+.goldspire-resource-card h3,
+.expect-grid h3,
+.courier-card h3 {
+  color: var(--gold-ink);
+  font-size: 1.25rem;
+}
+
+.goldspire-copy-block {
+  display: grid;
+  gap: 0.95rem;
+  align-content: center;
+}
+
+.goldspire-copy-block h2,
+.goldspire-final h2 {
+  max-width: 18ch;
+  color: var(--gold-ink);
+  font-size: 2rem;
+}
+
+.goldspire-copy-block p,
+.goldspire-copy-block li,
+.goldspire-resource-card p,
+.expect-grid p,
+.faq-list p,
+.goldspire-final p,
+.goldspire-path-grid p {
+  color: var(--ink-soft);
+  font-size: 1rem;
+}
+
+.goldspire-checks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.goldspire-checks span,
+.courier-tags span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.15rem;
+  border-radius: 999px;
+  background: rgba(32, 60, 42, 0.1);
+  color: var(--gold-forest);
+  padding: 0.42rem 0.72rem;
+  font-weight: 850;
+}
+
+.goldspire-art-panel {
+  overflow: hidden;
+}
+
+.goldspire-art-panel img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.goldspire-art-panel figcaption,
+.location-grid figcaption {
+  padding: 0.85rem 1rem 1rem;
+  color: var(--ink-soft);
+  font-weight: 800;
+}
+
+.goldspire-premise {
+  background:
+    linear-gradient(180deg, rgba(32, 60, 42, 0.08), rgba(247, 234, 210, 0.9)),
+    var(--gold-paper);
+}
+
+.goldspire-location-stack {
+  position: relative;
+  display: grid;
+  place-items: center;
+  margin: 0;
+}
+
+.location-main {
+  display: block;
+  width: min(100%, 27rem);
+  border: 1px solid rgba(251, 244, 232, 0.42);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.goldspire-section-head .h-section {
+  max-width: 17ch;
+}
+
+.courier-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.courier-card {
+  overflow: hidden;
+}
+
+.courier-card img {
+  width: 100%;
+  height: 17rem;
+  object-fit: contain;
+  object-position: bottom center;
+  background:
+    linear-gradient(180deg, rgba(32, 60, 42, 0.04), rgba(215, 173, 87, 0.12)),
+    rgba(251, 244, 232, 0.62);
+}
+
+.courier-card > div {
+  display: grid;
+  gap: 0.55rem;
+  padding: 1rem;
+}
+
+.courier-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.42rem;
+}
+
+.courier-meta {
+  color: var(--ink-muted);
+  font-weight: 800;
+}
+
+.goldspire-couriers .goldspire-note {
+  margin-top: 1rem;
+  color: var(--ink-soft);
+}
+
+.goldspire-crew-toggle {
+  margin-top: 1rem;
+  border: 1px solid var(--gold-line);
+  border-radius: var(--radius);
+  background: rgba(255, 250, 241, 0.78);
+}
+
+.goldspire-crew-toggle summary {
+  display: flex;
+  min-height: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  cursor: pointer;
+  padding: 0.85rem 1rem;
+  color: var(--gold-ink);
+  font-weight: 850;
+}
+
+.goldspire-crew-toggle summary span:last-child {
+  color: var(--ink-muted);
+  font-family: var(--mono);
+  font-size: 0.86rem;
+}
+
+.goldspire-crew-toggle figure {
+  margin: 0;
+  padding: 0 1rem 1rem;
+}
+
+.goldspire-crew-toggle img {
+  display: block;
+  width: min(100%, 38rem);
+  max-height: 22rem;
+  margin: 0 auto;
+  object-fit: contain;
+  border-radius: var(--radius);
+  background:
+    linear-gradient(180deg, rgba(32, 60, 42, 0.05), rgba(215, 173, 87, 0.12)),
+    rgba(251, 244, 232, 0.62);
+}
+
+.goldspire-crew-toggle figcaption {
+  max-width: 38rem;
+  margin: 0.55rem auto 0;
+  color: var(--ink-soft);
+  font-weight: 800;
+}
+
+.goldspire-map-band {
+  background: linear-gradient(180deg, rgba(11, 31, 24, 0.96), rgba(32, 60, 42, 0.94));
+  color: var(--gold-cream);
+}
+
+.goldspire-map-band .lead,
+.goldspire-map-band .goldspire-label {
+  color: rgba(251, 244, 232, 0.78);
+}
+
+.location-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.location-grid figure {
+  overflow: hidden;
+  margin: 0;
+  border: 1px solid rgba(251, 244, 232, 0.2);
+  border-radius: var(--radius);
+  background: rgba(251, 244, 232, 0.08);
+}
+
+.location-grid img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.location-grid figcaption {
+  color: var(--gold-cream);
+}
+
+.goldspire-two-col-reverse {
+  align-items: center;
+}
+
+.goldspire-side-art {
+  position: relative;
+  min-height: 22rem;
+  overflow: hidden;
+  background:
+    linear-gradient(180deg, rgba(11, 31, 24, 0.82), rgba(32, 60, 42, 0.7)),
+    var(--gold-forest);
+}
+
+.courier-accent {
+  position: absolute;
+  left: 8%;
+  bottom: -2rem;
+  width: 14rem;
+  max-height: 24rem;
+  object-fit: contain;
+  filter: drop-shadow(0 28px 34px rgba(0, 0, 0, 0.44));
+}
+
+.wolf-accent {
+  position: absolute;
+  right: -2rem;
+  bottom: 0.8rem;
+  width: 15rem;
+  opacity: 0.56;
+  filter: drop-shadow(0 20px 26px rgba(0, 0, 0, 0.34));
+}
+
+.expect-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.goldspire-list {
+  display: grid;
+  gap: 0.6rem;
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.goldspire-resource-card {
+  display: grid;
+  gap: 0.8rem;
+  align-content: start;
+}
+
+.goldspire-care {
+  background:
+    linear-gradient(180deg, rgba(255, 250, 241, 0.94), rgba(239, 215, 167, 0.72)),
+    var(--gold-paper);
+}
+
+.goldspire-care-box {
+  display: grid;
+  gap: 1rem;
+  padding: 1.25rem;
+}
+
+.goldspire-care-box > img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.faq-layout {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.faq-list {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.faq-list details {
+  padding: 0;
+  overflow: hidden;
+}
+
+.faq-list summary {
+  min-height: 3.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.9rem 1rem;
+  color: var(--gold-ink);
+  cursor: pointer;
+  font-weight: 850;
+}
+
+.faq-list summary::after {
+  content: "+";
+  flex: 0 0 auto;
+  color: var(--gold-forest);
+  font-size: 1.35rem;
+}
+
+.faq-list details[open] summary::after {
+  content: "-";
+}
+
+.faq-list details p {
+  padding: 0 1rem 1rem;
+}
+
+.goldspire-final {
+  background:
+    linear-gradient(90deg, rgba(11, 31, 24, 0.94), rgba(32, 60, 42, 0.9)),
+    var(--gold-forest-dark);
+  color: var(--gold-cream);
+}
+
+.goldspire-final h2,
+.goldspire-final p {
+  color: var(--gold-cream);
+}
+
+.goldspire-final-grid {
+  background:
+    linear-gradient(135deg, rgba(251, 244, 232, 0.08), rgba(215, 173, 87, 0.14)),
+    rgba(11, 31, 24, 0.62);
+  border-color: rgba(251, 244, 232, 0.22);
+  box-shadow: none;
+}
+
+.goldspire-final-actions {
+  justify-content: flex-start;
+}
+
+.goldspire-footer {
+  background: #071510;
+  color: rgba(251, 244, 232, 0.72);
+  padding: 1.4rem 0;
+}
+
+.goldspire-footer-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.goldspire-footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem 1.1rem;
+}
+
+.goldspire-footer a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  color: var(--gold-cream);
+  font-weight: 800;
+}
+
+@media (min-width: 720px) {
+  .goldspire-hero h1 {
+    font-size: 4rem;
+  }
+
+  .goldspire-strip-grid,
+  .goldspire-path-grid,
+  .expect-grid,
+  .goldspire-logistics-grid,
+  .goldspire-final-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .goldspire-two-col,
+  .goldspire-premise-grid {
+    grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+    align-items: center;
+  }
+
+  .goldspire-two-col-reverse {
+    grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+  }
+
+  .goldspire-two-col-reverse .goldspire-copy-block {
+    order: 2;
+  }
+
+  .courier-grid,
+  .location-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .faq-layout {
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+    align-items: start;
+  }
+
+  .goldspire-footer-grid {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1040px) {
+  .goldspire-hero-grid {
+    min-height: 31rem;
+  }
+
+  .goldspire-hero h1 {
+    font-size: 3.34rem;
+  }
+
+  .goldspire-hook {
+    font-size: 1.28rem;
+  }
+
+  .goldspire-strip-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .courier-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .courier-card img {
+    height: 18rem;
+  }
+
+  .location-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .expect-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .goldspire-cast-stage {
+    min-height: 22rem;
+  }
+
+  .hero-cast-panel {
+    min-height: 22rem;
+  }
+
+  .cast-garrick {
+    height: 70%;
+  }
+
+  .cast-khari {
+    height: 83%;
+  }
+
+  .cast-varian {
+    height: 57%;
+  }
+
+  .cast-marlowe {
+    height: 72%;
+  }
+
+  .cast-barnacle {
+    height: 48%;
+  }
+}
+
+@media (min-width: 900px) {
+  .goldspire-hero-grid {
+    grid-template-columns: minmax(30rem, 0.98fr) minmax(21rem, 0.72fr);
+    align-items: center;
+    gap: 1.7rem;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1039px) {
+  .goldspire-hero-copy {
+    gap: 0.58rem;
+  }
+
+  .goldspire-hero h1 {
+    font-size: 2.68rem;
+  }
+
+  .goldspire-hook {
+    font-size: 1.16rem;
+  }
+
+  .goldspire-fact-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .goldspire-fact-grid > span {
+    min-height: 3.45rem;
+    padding: 0.55rem 0.62rem;
+  }
+
+  .goldspire-fact-grid > span > img {
+    flex-basis: 1.75rem;
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+
+  .goldspire-fact-grid strong {
+    font-size: 0.92rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .goldspire-hero-grid {
+    grid-template-columns: minmax(33rem, 0.95fr) minmax(28rem, 0.9fr);
+    align-items: center;
+    gap: 2.25rem;
+  }
+}
+
+@media (max-width: 719px) {
+  .goldspire-header .brand-mark {
+    width: 2.65rem;
+    height: 2.65rem;
+  }
+
+  .goldspire-header .brand-name span {
+    display: none;
+  }
+
+  .goldspire-header .nav .wrap {
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 0.62rem;
+    padding-bottom: 0.62rem;
+  }
+
+  .goldspire-header .nav-links {
+    width: auto;
+    flex: 0 0 auto;
+    flex-wrap: nowrap;
+    gap: 0;
+    overflow: visible;
+    padding: 0;
+  }
+
+  .goldspire-header .navlink {
+    display: none;
+  }
+
+  .goldspire-header .nav-cta {
+    min-height: 2.75rem;
+    padding-inline: 0.9rem;
+  }
+
+  .goldspire-fact-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.48rem;
+  }
+
+  .goldspire-hero {
+    padding-bottom: 1rem;
+  }
+
+  .goldspire-hero-grid {
+    min-height: auto;
+    padding-top: 1.05rem;
+    padding-bottom: 1.15rem;
+  }
+
+  .goldspire-hero h1 {
+    max-width: 12.8ch;
+    font-size: 2rem;
+  }
+
+  .goldspire-hook {
+    font-size: 1.05rem;
+  }
+
+  .goldspire-lede {
+    font-size: 0.95rem;
+    line-height: 1.42;
+  }
+
+  .mobile-courier-strip {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    align-items: end;
+    height: 5.35rem;
+    margin: 0.1rem 0 0;
+    overflow: visible;
+    border-bottom: 1px solid rgba(215, 173, 87, 0.4);
+    background:
+      linear-gradient(90deg, rgba(215, 173, 87, 0), rgba(215, 173, 87, 0.22), rgba(95, 143, 157, 0.12), rgba(215, 173, 87, 0)),
+      linear-gradient(180deg, transparent 58%, rgba(7, 20, 16, 0.48));
+  }
+
+  .mobile-courier-strip::after {
+    content: "";
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.25rem;
+    left: 0.5rem;
+    height: 0.55rem;
+    border-radius: 999px;
+    background: rgba(7, 20, 16, 0.4);
+    filter: blur(6px);
+  }
+
+  .mobile-courier-strip img {
+    position: relative;
+    z-index: 1;
+    justify-self: center;
+    align-self: end;
+    width: auto;
+    max-width: 5.4rem;
+    max-height: 4.65rem;
+    object-fit: contain;
+    object-position: bottom center;
+    filter: drop-shadow(0 10px 11px rgba(0, 0, 0, 0.5));
+  }
+
+  .mobile-courier-strip img:nth-child(2) {
+    max-height: 5.35rem;
+  }
+
+  .mobile-courier-strip img:nth-child(3) {
+    max-height: 4.1rem;
+  }
+
+  .mobile-courier-strip img:nth-child(5) {
+    max-height: 3.75rem;
+  }
+
+  .goldspire-fact-grid > span {
+    min-height: 3.25rem;
+    gap: 0.52rem;
+    padding: 0.46rem 0.52rem;
+  }
+
+  .goldspire-fact-grid > span > img {
+    flex-basis: 1.55rem;
+    width: 1.55rem;
+    height: 1.55rem;
+  }
+
+  .goldspire-fact-grid small,
+  .goldspire-venue-card small {
+    font-size: 0.64rem;
+  }
+
+  .goldspire-fact-grid strong {
+    font-size: 0.92rem;
+  }
+
+  .goldspire-venue-card {
+    align-items: flex-start;
+    min-height: 3.5rem;
+    padding: 0.58rem 0.65rem;
+  }
+
+  .goldspire-venue-card img {
+    flex-basis: 1.65rem;
+    width: 1.65rem;
+    height: 1.65rem;
+  }
+
+  .goldspire-venue-card em {
+    font-size: 0.84rem;
+  }
+
+  .goldspire-cast-stage {
+    display: none;
+  }
+
+  .goldspire-cta-row .btn,
+  .goldspire-final-actions .btn,
+  .goldspire-link-row .chip-link {
+    width: 100%;
+  }
+
+  .goldspire-band {
+    padding: 3rem 0;
+  }
+
+  .goldspire-crew-toggle summary {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}
