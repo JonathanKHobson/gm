@@ -231,3 +231,29 @@ status: local-qa-passed
 - Event JSON-LD parses successfully and points `offers.url` to the Mox listing.
 - Local route smoke test returned `200` for `/events/goldspire/`, `/resources/daggerheart.html`, `/events/goldspire/coming-soon/`, and `/404.html`.
 - Chrome automation cleanup check found no temp-profile, headless, or Playwright-owned browser processes after visual QA.
+
+## 2026-06-17 Character Guide Source QA
+
+### Visual / Source Anchor Map
+
+| ID | Source / viewport | Region | Visual fact / issue | Intended action | Verification |
+| --- | --- | --- | --- | --- | --- |
+| LandingCardCTA01 | Source check, `events/goldspire/index.html` | `goldspire-character-grid` through post-grid resource panel | The new character-guide route is linked immediately after the character cards: individual cards include `Meet [Name]` + `Open PDF`; the post-grid action row includes `Compare couriers`; the optional resources panel includes `Character guide`, `Daggerheart resources`, `All character PDFs`, and `Build on Demiplane`. | Put the new page CTA in the intended character-card / optional-prep area without adding another competing CTA elsewhere. | Passed source check at lines 196-262. |
+| ResourceCharacter01 | Source check, `resources/daggerheart.html` | Goldspire player PDF card grid | The Daggerheart resource page now starts the PDF area with `Meet the couriers`, linking to `../events/goldspire/characters/`, before the all-character packet and individual PDFs. | Give rules-curious players a friendlier character-learning route before dense PDFs. | Passed source check at lines 104-109. |
+| CharacterRoute01 | Chrome file render `390x844`, `1366x900` + source check | New character guide first fold | One static route contains five character sections, PDF links, beginner explanations, and a sheet-reading guide. The route uses shared live Mox CTA config. Mobile hero headline and lede were tightened after first capture showed edge clipping. | Provide progressive disclosure without bloating the main landing page, while keeping the first fold readable on mobile. | Passed after fix: `/tmp/goldspire-character-guide-qa-2026-06-17/characters-mobile-file-v3.png`, `/tmp/goldspire-character-guide-qa-2026-06-17/characters-desktop-file.png`; static reference check found 0 missing local refs and 3 `[data-event-cta]` links. |
+
+### Static Integrity Checks
+
+- New public route: `events/goldspire/characters/`.
+- New public asset folder: `assets/events/goldspire/pc-social/` with five 1080x1350 character poster cards.
+- `sitemap.xml` includes `/events/goldspire/characters/` and `/resources/daggerheart.html`; it still excludes `/events/goldspire/coming-soon/`.
+- Local reference parser checked `events/goldspire/index.html`, `events/goldspire/characters/index.html`, `resources/daggerheart.html`, `events/index.html`, and `404.html`: 0 missing local `href`/`src` references.
+- Public active HTML sweep found no `Player-safe`, `GM-only`, `private table`, `Keystone`, `Hush`, `Registration coming soon`, `registrationSoonModal`, or `data-registration-coming-soon` in the checked public routes.
+- `goldspire-registration.js` and `scripts/main.js` both parse as valid JavaScript.
+
+### Rendered QA Status
+
+- Rendered landing-page screenshots were captured at `/tmp/goldspire-character-guide-qa-2026-06-17/event-mobile.png` and `/tmp/goldspire-character-guide-qa-2026-06-17/event-desktop.png`.
+- Rendered character-guide first-fold screenshots were captured at `/tmp/goldspire-character-guide-qa-2026-06-17/characters-mobile-file-v3.png` and `/tmp/goldspire-character-guide-qa-2026-06-17/characters-desktop-file.png`.
+- Visual fix applied after QA: shortened character-guide hero headline and narrowed mobile lede to prevent text clipping at `390x844`.
+- Full-page scroll QA for the character guide remains a follow-up because system pressure was critical during this pass. Chrome automation was stopped and verified clean after targeted screenshots.

@@ -48,4 +48,19 @@
       link.classList.remove("external-link");
     }
   });
+
+  var stickyCta = document.querySelector(".goldspire-sticky-cta");
+  var hero = document.querySelector(".goldspire-hero");
+
+  if (stickyCta && hero && "IntersectionObserver" in window) {
+    stickyCta.classList.remove("is-visible");
+
+    var stickyObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        stickyCta.classList.toggle("is-visible", !entry.isIntersecting);
+      });
+    }, { threshold: 0.02 });
+
+    stickyObserver.observe(hero);
+  }
 }());

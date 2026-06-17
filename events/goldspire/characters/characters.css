@@ -1,0 +1,493 @@
+.goldspire-character-guide-page {
+  background: var(--paper);
+}
+
+.goldspire-character-guide-page .site-header {
+  background: rgba(7, 19, 25, 0.94);
+}
+
+.character-guide-hero {
+  position: relative;
+  overflow: hidden;
+  background:
+    linear-gradient(110deg, rgba(7, 19, 25, 0.96), rgba(32, 60, 42, 0.86) 56%, rgba(127, 44, 22, 0.62)),
+    url("../../../assets/events/goldspire/hero/goldspire-sablewood-wide.png") center / cover no-repeat;
+  color: var(--cream);
+  padding: calc(var(--navh) + 2.8rem) 0 3rem;
+}
+
+.character-guide-hero::after {
+  content: "";
+  position: absolute;
+  inset: auto -4rem -9rem auto;
+  width: min(36rem, 70vw);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(215, 173, 87, 0.2), transparent 67%);
+  pointer-events: none;
+}
+
+.character-hero-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.character-hero-copy {
+  display: grid;
+  gap: 1rem;
+  min-width: 0;
+}
+
+.character-hero-copy h1 {
+  max-width: 10ch;
+  color: var(--cream);
+  font-size: 2.72rem;
+  overflow-wrap: normal;
+}
+
+.character-hero-copy .detail-lede {
+  max-width: 32ch;
+  color: rgba(248, 237, 218, 0.88);
+  overflow-wrap: normal;
+}
+
+.character-hero-copy .detail-meta span {
+  background: rgba(255, 250, 241, 0.12);
+  color: var(--cream);
+}
+
+.character-hero-media {
+  justify-self: center;
+  width: min(100%, 24rem);
+  margin: 0;
+  border: 1px solid rgba(248, 237, 218, 0.28);
+  border-radius: var(--radius);
+  background: rgba(7, 19, 25, 0.26);
+  box-shadow: var(--shadow);
+}
+
+.character-hero-media img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: contain;
+}
+
+.character-jump-nav {
+  position: sticky;
+  top: var(--navh);
+  z-index: 60;
+  border-bottom: 1px solid rgba(23, 16, 11, 0.12);
+  background: rgba(251, 244, 232, 0.94);
+  backdrop-filter: blur(10px);
+}
+
+.character-jump-nav .wrap {
+  display: flex;
+  gap: 0.55rem;
+  overflow-x: auto;
+  padding-block: 0.62rem;
+  scrollbar-width: thin;
+}
+
+.character-jump-nav a {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.35rem;
+  border: 1px solid rgba(122, 62, 33, 0.18);
+  border-radius: 999px;
+  background: rgba(255, 250, 241, 0.9);
+  color: var(--ink);
+  padding: 0.42rem 0.75rem;
+  font-family: var(--mono);
+  font-size: max(0.85rem, 15px);
+  font-weight: 850;
+}
+
+.character-jump-nav a:hover,
+.character-jump-nav a:focus-visible {
+  border-color: rgba(122, 62, 33, 0.42);
+  background: var(--card);
+}
+
+.roster-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.roster-card {
+  display: grid;
+  gap: 0.7rem;
+  border: 1px solid rgba(201, 163, 92, 0.34);
+  border-radius: var(--radius);
+  background:
+    radial-gradient(circle at 14% 10%, rgba(111, 174, 183, 0.16), transparent 11rem),
+    rgba(255, 250, 241, 0.92);
+  padding: 0.85rem;
+  box-shadow: var(--shadow-soft);
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
+}
+
+.roster-card:hover,
+.roster-card:focus-visible {
+  border-color: rgba(122, 62, 33, 0.5);
+  box-shadow: 0 18px 40px rgba(14, 8, 4, 0.16);
+  transform: translateY(-2px);
+}
+
+.roster-card img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  border-radius: var(--radius-sm);
+  object-fit: contain;
+}
+
+.roster-card strong {
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.28rem;
+  line-height: 1.1;
+}
+
+.roster-card span {
+  color: var(--ink-soft);
+  font-size: 0.96rem;
+  line-height: 1.45;
+}
+
+.character-flex-note {
+  display: grid;
+  gap: 0.65rem;
+  margin-top: 1rem;
+  border: 1px solid rgba(32, 60, 42, 0.22);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(135deg, rgba(32, 60, 42, 0.1), rgba(215, 173, 87, 0.15)),
+    rgba(255, 250, 241, 0.96);
+  padding: 1rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.character-flex-note h3,
+.character-bottom-cta h2 {
+  color: var(--ink);
+  font-size: 1.35rem;
+}
+
+.character-flex-note p,
+.character-bottom-cta p {
+  color: var(--ink-soft);
+}
+
+.character-profile-band {
+  background:
+    radial-gradient(circle at 8% 8%, rgba(111, 174, 183, 0.18), transparent 20rem),
+    radial-gradient(circle at 88% 18%, rgba(230, 96, 54, 0.12), transparent 18rem),
+    linear-gradient(180deg, rgba(7, 19, 25, 0.96), rgba(32, 60, 42, 0.93));
+}
+
+.character-profile-stack {
+  display: grid;
+  gap: 1.35rem;
+}
+
+.character-profile {
+  display: grid;
+  gap: 1rem;
+  align-items: stretch;
+  border: 1px solid rgba(248, 237, 218, 0.18);
+  border-radius: var(--radius);
+  background:
+    radial-gradient(circle at 8% 12%, rgba(201, 163, 92, 0.14), transparent 18rem),
+    rgba(255, 250, 241, 0.94);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.character-profile-media {
+  margin: 0;
+  background: rgba(7, 19, 25, 0.86);
+}
+
+.character-profile-media img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: contain;
+}
+
+.character-profile-copy {
+  display: grid;
+  gap: 0.9rem;
+  align-content: start;
+  padding: 1rem;
+}
+
+.character-profile-copy .eyebrow {
+  color: var(--ember-dark);
+}
+
+.character-profile-copy h2 {
+  color: var(--ink);
+  font-size: clamp(2rem, 8vw, 3.4rem);
+}
+
+.character-profile-copy p,
+.character-profile-copy li {
+  color: var(--ink-soft);
+  line-height: 1.56;
+}
+
+.character-pronunciation {
+  color: var(--ink-muted);
+  font-family: var(--mono);
+  font-size: max(0.9rem, 16px);
+  font-weight: 850;
+}
+
+.plain-role-grid,
+.sheet-guide-grid {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.plain-role-grid div,
+.sheet-guide-item {
+  display: grid;
+  gap: 0.35rem;
+  border: 1px solid rgba(23, 16, 11, 0.12);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.58);
+  padding: 0.8rem;
+}
+
+.plain-role-grid strong,
+.sheet-guide-item h3 {
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: max(0.9rem, 16px);
+}
+
+.plain-role-grid span,
+.sheet-guide-item p {
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  line-height: 1.48;
+}
+
+.character-like-list {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.character-detail {
+  border: 1px solid rgba(122, 62, 33, 0.2);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 250, 241, 0.74);
+}
+
+.character-detail summary {
+  cursor: pointer;
+  min-height: 3rem;
+  color: var(--ink);
+  padding: 0.8rem 0.9rem;
+  font-weight: 850;
+}
+
+.character-detail p,
+.character-detail ul,
+.character-detail .sheet-fact-list {
+  padding: 0 0.9rem 0.9rem;
+}
+
+.character-detail ul {
+  display: grid;
+  gap: 0.38rem;
+  margin: 0;
+  padding-left: 1.95rem;
+}
+
+.sheet-fact-list {
+  display: grid;
+  gap: 0.5rem;
+  margin: 0;
+}
+
+.sheet-fact-list div {
+  display: grid;
+  gap: 0.1rem;
+}
+
+.sheet-fact-list dt {
+  color: var(--ember-dark);
+  font-family: var(--mono);
+  font-size: max(0.78rem, 14px);
+  font-weight: 900;
+}
+
+.sheet-fact-list dd {
+  margin: 0;
+  color: var(--ink-soft);
+}
+
+.character-actions,
+.character-bottom-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.character-actions .btn,
+.character-bottom-cta .btn {
+  min-height: 2.75rem;
+}
+
+.sheet-guide-band {
+  background:
+    radial-gradient(circle at 88% 10%, rgba(230, 96, 54, 0.1), transparent 18rem),
+    linear-gradient(180deg, rgba(251, 244, 232, 0.96), rgba(239, 224, 199, 0.92)),
+    url("../../../assets/generated/parchment-map-background.webp") center / cover no-repeat,
+    var(--paper);
+}
+
+.sheet-guide-grid {
+  margin-bottom: 1rem;
+}
+
+.sheet-guide-item {
+  align-content: start;
+  background: rgba(255, 250, 241, 0.88);
+  box-shadow: var(--shadow-soft);
+}
+
+.sheet-guide-item h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.sheet-guide-details {
+  margin-top: 1rem;
+}
+
+.character-bottom-cta {
+  justify-content: space-between;
+  margin-top: 1.25rem;
+  border: 1px solid rgba(201, 163, 92, 0.38);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(135deg, rgba(32, 60, 42, 0.12), rgba(215, 173, 87, 0.18)),
+    rgba(255, 250, 241, 0.96);
+  padding: 1rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.character-bottom-cta > div:first-child {
+  display: grid;
+  gap: 0.35rem;
+}
+
+@media (max-width: 680px) {
+  .goldspire-character-guide-page .website-nav .navlink[href="../../../index.html#reviews"],
+  .goldspire-character-guide-page .website-nav .navlink[href="../../../index.html#contact"] {
+    display: none;
+  }
+
+  .character-guide-hero {
+    padding-bottom: 2rem;
+  }
+
+  .character-hero-copy h1 {
+    max-width: 10ch;
+  }
+
+  .character-hero-copy .detail-meta {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .character-hero-copy .detail-meta span,
+  .character-guide-hero .detail-hero-actions .btn,
+  .character-actions .btn,
+  .character-bottom-cta .btn {
+    width: 100%;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .character-hero-media {
+    width: min(100%, 18rem);
+  }
+}
+
+@media (min-width: 720px) {
+  .character-hero-copy h1 {
+    font-size: 4rem;
+  }
+
+  .character-hero-copy .detail-lede {
+    max-width: 56ch;
+  }
+
+  .character-hero-grid {
+    grid-template-columns: minmax(0, 1.05fr) minmax(16rem, 0.54fr);
+  }
+
+  .roster-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .plain-role-grid,
+  .sheet-guide-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .character-profile {
+    grid-template-columns: minmax(17rem, 0.45fr) minmax(0, 0.55fr);
+  }
+
+  .character-profile:nth-child(even) {
+    grid-template-columns: minmax(0, 0.55fr) minmax(17rem, 0.45fr);
+  }
+
+  .character-profile:nth-child(even) .character-profile-media {
+    order: 2;
+  }
+
+  .character-profile-copy {
+    padding: clamp(1rem, 2.6vw, 1.5rem);
+  }
+}
+
+@media (min-width: 1040px) {
+  .character-hero-copy h1 {
+    font-size: 5.15rem;
+  }
+
+  .roster-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .roster-card span {
+    font-size: 0.9rem;
+  }
+
+  .plain-role-grid,
+  .sheet-guide-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .character-profile {
+    min-height: 35rem;
+  }
+}

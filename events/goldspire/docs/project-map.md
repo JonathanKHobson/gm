@@ -9,6 +9,7 @@ status: active
 ## Public Routes
 
 - `events/goldspire/index.html`: player-facing landing page for Peril to Profit: The Goldspire Messengers.
+- `events/goldspire/characters/index.html`: optional player-facing courier guide with plain-language character profiles, PDF links, and sheet-reading help.
 - `events/goldspire/coming-soon/index.html`: noindex fallback route for old registration-status links; it now points users to the live Mox listing.
 - `resources/daggerheart.html`: optional official Daggerheart resources page.
 
@@ -16,9 +17,11 @@ status: active
 
 - `events/goldspire/goldspire.css`: page-specific layout, visual rhythm, mobile behavior, and asset placement.
 - `events/goldspire/goldspire-registration.js`: shared registration state, pending/live labels, and pending/live CTA targets.
+- `events/goldspire/characters/characters.css`: lightweight route-specific CSS for the courier guide.
 - `events/goldspire/goldspire.js`: page behavior for nav scroll state and reveal animation.
 - `events/goldspire/assets/`: page-local copies of approved public Goldspire art, icons, character cutouts, locations, and poster elements.
 - `events/goldspire/assets/player-pdfs/`: optional player-facing PDF packets for the intended Goldspire couriers.
+- `assets/events/goldspire/pc-social/`: public character poster cards used by the courier guide.
 - `events/goldspire/docs/`: maintenance notes, source manifest, and QA record.
 
 ## Registration CTA

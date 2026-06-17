@@ -35,6 +35,18 @@ The five individual card portraits also have page-local cropped derivatives in `
 
 Copied from `event-visual-asset-pack/assets/pcs/` into `events/goldspire/assets/pcs/` for future page/social variants. The current public page uses the transparent crew reference in the hero and cropped transparent individual portraits in the character cards.
 
+### Character Guide Poster Cards
+
+Copied from `market-material-packet/output/final/` into `assets/events/goldspire/pc-social/` and used on `events/goldspire/characters/`.
+
+- `peril-to-profit-goldspire-pc-marlowe-v1.png` -> `assets/events/goldspire/pc-social/marlowe-fairwind-card.png`
+- `peril-to-profit-goldspire-pc-barnacle-v1.png` -> `assets/events/goldspire/pc-social/barnacle-card.png`
+- `peril-to-profit-goldspire-pc-garrick-v1.png` -> `assets/events/goldspire/pc-social/garrick-reed-card.png`
+- `peril-to-profit-goldspire-pc-khari-v1.png` -> `assets/events/goldspire/pc-social/khari-nix-card.png`
+- `peril-to-profit-goldspire-pc-varian-v1.png` -> `assets/events/goldspire/pc-social/varian-soto-card.png`
+
+These assets are used as the visual lead for each player-facing courier profile. They are not cropped in CSS; the guide preserves their 4:5 aspect ratio with `object-fit: contain`.
+
 ### Player Character PDFs
 
 Copied from `event-visual-asset-pack/player-pdfs/` into `events/goldspire/assets/player-pdfs/` and linked from both the Goldspire landing page and `/resources/daggerheart.html`.
@@ -126,6 +138,15 @@ These files are referenced by shared CSS used by the Goldspire and Daggerheart r
 - `Peril_to_Profit_Landing_Page_Dev_Packet_Markdown/04_microcopy_bank.md`
 - `Peril_to_Profit_Landing_Page_Dev_Packet_Markdown/05_brand_glossary_tm_usage.md`
 - `Peril_to_Profit_Landing_Page_Dev_Packet_Markdown/06_dev_implementation_notes.md`
+- `/Volumes/Documents/My Games/Peril To Profit/dist/story-atlas/data/pc-sheet-registry.json`
+- `/Volumes/Documents/My Games/Peril To Profit/dist/story-atlas/data/pc-profile-schema.json`
+- `/Volumes/Documents/My Games/Peril To Profit/dist/story-atlas/pages/entities/marlowe-fairwind.html`
+- `/Volumes/Documents/My Games/Peril To Profit/dist/story-atlas/pages/entities/barnacle.html`
+- `/Volumes/Documents/My Games/Peril To Profit/dist/story-atlas/pages/entities/garrick-reed.html`
+- `/Volumes/Documents/My Games/Peril To Profit/dist/story-atlas/pages/entities/khari-nix.html`
+- `/Volumes/Documents/My Games/Peril To Profit/dist/story-atlas/pages/entities/varian-soto.html`
+
+Story Atlas material was used only for player-facing character facts, plain-language roles, pronouns, ancestry/community/class/subclass, and non-spoiler personality texture. Hidden plot notes, source-status language, private GM material, and late-session reveals remain excluded from public copy.
 
 ## Venue Source
 
