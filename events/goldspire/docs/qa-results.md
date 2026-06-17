@@ -70,3 +70,11 @@ status: local-qa-passed
 - Local link sweep: 16 same-origin links checked, 0 failures.
 - Public text/source sweep: no private-table identifiers, GM-only rules labels, internal safety-stage wording, placeholders, or known spoiler strings found in the active page sources/docs checked.
 - Quality-gate note: manual `visual_qa`, `design_taste`, and `communication_review` recorded in the Pro GM gate log for this focused slice; the requested `codex_artifact_quality_gate.py` helper was not present in the workspace.
+
+### Live Publish Smoke Test
+
+- Published `/gm` to commit `8f1fdcb`.
+- Live landing page returned `200` at `https://jonathankhobson.github.io/gm/events/goldspire/` and contains the courier PDF markers, all-character packet link, and Demiplane link.
+- Live Daggerheart resources page returned `200` at `https://jonathankhobson.github.io/gm/resources/daggerheart.html` and contains the Goldspire PDF cards, rules basics section, all-character packet link, and printed-sheet note.
+- Live all-character PDF returned `200` as `application/pdf` at `https://jonathankhobson.github.io/gm/events/goldspire/assets/player-pdfs/all-player-character-packet-pages-02-21.pdf`.
+- Live source sweep found no private-table identifiers, GM-only labels, internal safety-stage wording, placeholders, or known spoiler strings in the two public HTML files checked.
