@@ -103,3 +103,22 @@ status: local-qa-passed
 - Published `/gm/events/goldspire/` writing pass at commit `c097a86`.
 - Live landing page returned `200` and served the updated HTML with the new `Learn Daggerheart in one night`, `No tabletop or Daggerheart experience needed`, optional acting-voice, magical-cargo premise, and `Learn Daggerheart in one evening` copy.
 - Live source check found the old repeated delivery-object hooks absent.
+
+## 2026-06-17 Transparent Character Asset Replacement QA
+
+### Visual Anchor Map
+
+| ID | Source / viewport | Region | Visual fact / issue | Intended action | Verification |
+| --- | --- | --- | --- | --- | --- |
+| P1 | Playwright desktop `1366x900` | Hero party panel | Party art now uses the transparent `party-reference.png` source instead of the earlier background-removed file with matte artifacts. | Keep the single controlled party image in the hero. | Passed screenshot review; no broken image; natural size `1536x1024`; no horizontal overflow. |
+| P2 | Playwright mobile `390x900` | Mobile hero party strip | Party strip remains visible and centered between the hero copy and logistics chips. | Preserve mobile first-fold clarity while showing the improved crew art. | Passed screenshot review; no collision with facts or CTA; no horizontal overflow. |
+| C1 | Playwright desktop `1366x900` and mobile `390x900` | `.courier-grid` | Five courier cards now use regenerated cropped derivatives from the new transparent individual PC sources. | Replace the old card portraits without changing the card/link structure. | Passed screenshot review and metrics: all five images complete with updated natural dimensions and no broken images. |
+| M1 | Local source manifest | Character asset source list | Manifest now points to `visual-assets/pc_portrait_assets/transparent/` for party and PC art. | Keep source status accurate and remove reliance on the artifact-prone background-removal outputs. | Passed source review. |
+
+### Local Verification
+
+- Local server: `http://127.0.0.1:8765/events/goldspire/`.
+- Desktop `1366x900` and mobile `390x900`: no horizontal overflow and `Claim a Seat` remains visible.
+- Replaced 11 page-local character image files: 6 full transparent sources and 5 regenerated cropped card portraits.
+- Updated character-card `width`/`height` attributes to match the regenerated crop dimensions.
+- Evidence: `/tmp/goldspire-new-transparent-assets-qa-2026-06-17/summary.json`, `desktop-hero.png`, `mobile-hero.png`, `desktop-courier-grid.png`, `mobile-courier-grid.png`, and `source-replacement-contact-sheet.jpg`.

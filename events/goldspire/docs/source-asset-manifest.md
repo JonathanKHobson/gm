@@ -18,22 +18,22 @@ Source root:
 - `event-visual-asset-pack/assets/hero/goldspire-footer-sablewood-wide-crop.png` -> `events/goldspire/assets/hero/forest-road-wide-crop.png`
 - `event-visual-asset-pack/assets/hero/SZ-00-standby-welcome.png` -> `events/goldspire/assets/hero/SZ-00-standby-welcome.png`
 
-### Background-Removed Character Art
+### Transparent Character Art
 
-- `visual-assets/pc_portrait_assets/generated/barnacle Background Removed.png` -> `events/goldspire/assets/characters/barnacle-background-removed.png`
-- `visual-assets/pc_portrait_assets/generated/garrick-reed Background Removed.png` -> `events/goldspire/assets/characters/garrick-reed-background-removed.png`
-- `visual-assets/pc_portrait_assets/generated/khari-nix Background Removed.png` -> `events/goldspire/assets/characters/khari-nix-background-removed.png`
-- `visual-assets/pc_portrait_assets/generated/marlowe-fairwind Background Removed.png` -> `events/goldspire/assets/characters/marlowe-fairwind-background-removed.png`
-- `visual-assets/pc_portrait_assets/generated/varian-soto Background Removed.png` -> `events/goldspire/assets/characters/varian-soto-background-removed.png`
-- `visual-assets/pc_portrait_assets/generated/party-reference Background Removed.png` -> `events/goldspire/assets/characters/courier-crew-background-removed.png`
+- `visual-assets/pc_portrait_assets/transparent/barnacle.png` -> `events/goldspire/assets/characters/barnacle-background-removed.png`
+- `visual-assets/pc_portrait_assets/transparent/garrick-reed.png` -> `events/goldspire/assets/characters/garrick-reed-background-removed.png`
+- `visual-assets/pc_portrait_assets/transparent/khari-nix.png` -> `events/goldspire/assets/characters/khari-nix-background-removed.png`
+- `visual-assets/pc_portrait_assets/transparent/marlowe-fairwind.png` -> `events/goldspire/assets/characters/marlowe-fairwind-background-removed.png`
+- `visual-assets/pc_portrait_assets/transparent/varian-soto.png` -> `events/goldspire/assets/characters/varian-soto-background-removed.png`
+- `visual-assets/pc_portrait_assets/transparent/party-reference.png` -> `events/goldspire/assets/characters/courier-crew-background-removed.png`
 
-The hero uses the prepared background-removed crew reference as a single controlled party image. This replaced the earlier CSS-composed individual portrait tableau after rendered QA showed that the custom assembly created visual collision risk.
+The hero uses the new chroma-key-derived transparent crew reference as a single controlled party image. This replaced the earlier background-removed crew reference after QA found visible matte artifacts in character gaps.
 
-The five individual card portraits also have page-local cropped derivatives in `events/goldspire/assets/characters/cropped/`. These were generated from the background-removed source files to remove excess transparent canvas and prevent blank-looking character cards.
+The five individual card portraits also have page-local cropped derivatives in `events/goldspire/assets/characters/cropped/`. These were regenerated from the transparent source files to remove excess canvas and prevent blank-looking character cards.
 
 ### Supplemental PC Art
 
-Copied from `event-visual-asset-pack/assets/pcs/` into `events/goldspire/assets/pcs/` for future page/social variants. The current public page uses the background-removed crew reference in the hero and cropped individual portraits in the character cards.
+Copied from `event-visual-asset-pack/assets/pcs/` into `events/goldspire/assets/pcs/` for future page/social variants. The current public page uses the transparent crew reference in the hero and cropped transparent individual portraits in the character cards.
 
 ### Player Character PDFs
 
