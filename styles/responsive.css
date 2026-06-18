@@ -758,6 +758,20 @@
     grid-template-columns: 1fr;
   }
 
+  .goldspire-page .goldspire-path-strip .wrap {
+    grid-template-columns: 1fr;
+  }
+
+  .goldspire-page .goldspire-path-strip p {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: normal;
+  }
+
+  .goldspire-page .goldspire-path-strip p strong {
+    display: block;
+  }
+
   .goldspire-page .goldspire-directions-button {
     min-height: 2.85rem;
     width: 100%;
