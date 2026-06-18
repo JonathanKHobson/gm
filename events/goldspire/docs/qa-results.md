@@ -257,3 +257,24 @@ status: local-qa-passed
 - Rendered character-guide first-fold screenshots were captured at `/tmp/goldspire-character-guide-qa-2026-06-17/characters-mobile-file-v3.png` and `/tmp/goldspire-character-guide-qa-2026-06-17/characters-desktop-file.png`.
 - Visual fix applied after QA: shortened character-guide hero headline and narrowed mobile lede to prevent text clipping at `390x844`.
 - Full-page scroll QA for the character guide remains a follow-up because system pressure was critical during this pass. Chrome automation was stopped and verified clean after targeted screenshots.
+
+## 2026-06-17 Hero Logistics Recovery QA
+
+### Visual Anchor Map
+
+| ID | Source / viewport | Region | Visual fact / issue | Intended action | Verification |
+| --- | --- | --- | --- | --- | --- |
+| Hero01 | Local Chrome `1366x900`, `390x844` | Goldspire first fold | Transparent party art renders without a black frame and remains separate from hero text. | Keep the character-led hero while avoiding text collision. | Passed: `/tmp/goldspire-recovery-qa-2026-06-17/hero-desktop-icon-logistics-v6.png`, `/tmp/goldspire-recovery-qa-2026-06-17/hero-mobile-icon-logistics-v9.png`. |
+| Logistics01 | Local Chrome `1366x900`, `390x1800` | Hero date/time/price/seats module | Icon-led event facts are restored from the earlier Goldspire treatment; desktop uses compact tiles, mobile stacks the same facts for readability. | Restore the old logistics affordance without reintroducing mobile clipping. | Passed: `/tmp/goldspire-recovery-qa-2026-06-17/hero-desktop-icon-logistics-v6.png`, `/tmp/goldspire-recovery-qa-2026-06-17/mobile-top1800-icon-logistics-v12.png`. |
+| Venue01 | Local Chrome `1366x900`, `390x1800` | Hero venue card and directions | Full venue name, address, and `Get directions` action are visible. | Restore location confidence and Google Maps path. | Passed: `/tmp/goldspire-recovery-qa-2026-06-17/mobile-top1800-icon-logistics-v12.png`. |
+| CTA01 | Local Chrome `390x1800` | Hero and path strip CTAs | Live `Book now at Mox` remains visible; mobile sticky CTA no longer covers the hero while it is in view. | Preserve booking path without covering intro copy. | Passed: `/tmp/goldspire-recovery-qa-2026-06-17/mobile-top1800-icon-logistics-v12.png`. |
+
+### Static Integrity Checks
+
+- `events/goldspire/index.html` still points all event CTA links to the live Mox listing.
+- Hero logistics includes the prepared Goldspire icon assets for date, time, session, price, seats, prep, and location.
+- Full address and Google Maps directions link are present in the hero.
+- Transparent PC/party assets in `assets/events/goldspire/pcs/` report `hasAlpha: yes`.
+- Source sweep found no active public `Registration coming soon`, `Claim a Seat`, `data-registration-coming-soon`, `registrationSoonModal`, `Player-safe`, or intentionally unpublished PDF copy.
+- `goldspire-registration.js` and `scripts/main.js` parse successfully.
+- Chrome automation cleanup check found no temp-profile or headless browser processes after visual QA.
