@@ -895,6 +895,12 @@
     transform: translateY(0);
   }
 
+  .goldspire-sticky-cta.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(1rem);
+  }
+
   .goldspire-detail {
     padding-bottom: 5rem;
   }

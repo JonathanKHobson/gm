@@ -224,9 +224,15 @@
     var stickyHideTargets = Array.prototype.slice.call(document.querySelectorAll("#contact, .goldspire-final-band"));
     var visibleStickyHideTargets = [];
 
+    function stickyTargetIsVisible(target) {
+      var rect = target.getBoundingClientRect();
+      return rect.bottom > 0 && rect.top < window.innerHeight * 0.92;
+    }
+
     function updateGoldspireSticky() {
       var contactFocused = form && form.contains(document.activeElement);
-      goldspireStickyCta.classList.toggle("is-hidden", contactFocused || visibleStickyHideTargets.length > 0);
+      var hideTargetVisible = stickyHideTargets.some(stickyTargetIsVisible);
+      goldspireStickyCta.classList.toggle("is-hidden", contactFocused || visibleStickyHideTargets.length > 0 || hideTargetVisible);
     }
 
     if ("IntersectionObserver" in window && stickyHideTargets.length) {
@@ -253,6 +259,12 @@
         window.setTimeout(updateGoldspireSticky, 0);
       });
     }
+
+    window.addEventListener("scroll", updateGoldspireSticky, { passive: true });
+    window.addEventListener("resize", updateGoldspireSticky);
+    window.addEventListener("hashchange", function () {
+      window.setTimeout(updateGoldspireSticky, 0);
+    });
 
     updateGoldspireSticky();
   }

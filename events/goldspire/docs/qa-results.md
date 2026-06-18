@@ -297,3 +297,13 @@ status: local-qa-passed
 - `sitemap.xml` still excludes `coming-soon/`.
 - `assets/events/goldspire/pcs/` files all report alpha channels: party reference plus Barnacle, Garrick Reed, Khari Nix, Marlowe Fairwind, and Varian Soto.
 - Final scoped CSS change: `styles/components.css` fixes `.goldspire-gm-band .detail-main .btn-secondary`, `.goldspire-gm-band .detail-main .eyebrow`, and trims `.goldspire-directions-button` desktop sizing.
+
+## 2026-06-17 Social Proof Media / Contact Accent QA
+
+### Visual Anchor Map
+
+| ID | Source / viewport | Region | Visual fact / issue | Intended action | Verification |
+| --- | --- | --- | --- | --- | --- |
+| ProofMedia01 | In-app browser `1024x900`, local server `8770` | `goldspire-proof-mini-media` | Proof images previously read as awkward tall crops. They now render inside compact evidence cards with `object-fit: contain`; the table photo uses `4 / 3`, player art uses `1 / 1`, and both images load. | Make the proof images readable without stretching or face-hostile cropping. | Passed: rendered widths/heights approx. `195x147` and `195x195`; no horizontal overflow; three quote cards still present. |
+| ContactAccent01 | In-app browser `1024x900`, local server `8770` | Contact intro column | The courier accent moved from the proof-section tail into the contact intro blank space beneath the access-needs note. | Make the image feel intentional and use the empty column space before the form. | Passed: courier asset loaded at approx. `324x256` inside the intro column; form remained visible and aligned. |
+| MobileContact01 | In-app browser `390x844`, local server `8770` | Mobile contact intro | The courier remains visible and the sticky booking bar receives `is-hidden` at `#contact`. | Prevent the moved courier/contact form from being covered on mobile. | Passed: sticky CTA computed `opacity: 0` and `pointer-events: none`; no horizontal overflow. |
