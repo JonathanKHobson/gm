@@ -279,16 +279,16 @@
   }
 
   if (form && note) {
-    var EMAILJS_PUBLIC = "DpN9hLocoU__4dYVX";
-    var EMAILJS_SERVICE = "service_9wx16fe";
-    var EMAILJS_TEMPLATE = "template_hjbmxbn";
+    var CONTACT_PUBLIC_KEY = "DpN9hLocoU__4dYVX";
+    var CONTACT_SERVICE_ID = "service_9wx16fe";
+    var CONTACT_TEMPLATE_ID = "template_hjbmxbn";
 
     try {
       if (window.emailjs) {
-        window.emailjs.init(EMAILJS_PUBLIC);
+        window.emailjs.init(CONTACT_PUBLIC_KEY);
       }
     } catch (error) {
-      console.warn("EmailJS init failed", error);
+      console.warn("Contact form setup failed", error);
     }
 
     form.addEventListener("submit", function (event) {
@@ -353,7 +353,7 @@
       note.textContent = "Sending...";
 
       if (!window.emailjs || typeof window.emailjs.send !== "function") {
-        showFallback(new Error("EmailJS is unavailable"));
+        showFallback(new Error("Contact service is unavailable"));
         return;
       }
 
@@ -368,7 +368,7 @@
       };
 
       try {
-        window.emailjs.send(EMAILJS_SERVICE, EMAILJS_TEMPLATE, params).then(function () {
+        window.emailjs.send(CONTACT_SERVICE_ID, CONTACT_TEMPLATE_ID, params).then(function () {
           form.reset();
           note.textContent = "Thanks. Your message was sent. I will reply within a day or two.";
           resetButton();

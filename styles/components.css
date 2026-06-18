@@ -188,11 +188,14 @@
 }
 
 .nav-cta {
+  flex: 0 0 auto;
   min-height: 2.35rem;
+  min-width: max-content;
   padding: 0.65rem 0.95rem;
   background: var(--brass);
   color: #1a1008;
   font-size: max(0.9rem, 16px);
+  white-space: nowrap;
 }
 
 .nav-cta-discord {
@@ -4017,6 +4020,82 @@
   padding: 0.55rem 0.8rem;
 }
 
+.goldspire-hero-assurance {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  gap: 0.8rem;
+  width: min(100%, 56rem);
+  margin-top: 0.95rem;
+  border-top: 1px solid rgba(248, 237, 218, 0.18);
+  border-bottom: 1px solid rgba(248, 237, 218, 0.18);
+  background:
+    linear-gradient(90deg, rgba(7, 19, 25, 0.66), rgba(7, 19, 25, 0.22)),
+    rgba(7, 19, 25, 0.22);
+  padding: 0.95rem 0;
+}
+
+.goldspire-hero-micro {
+  max-width: 54rem;
+  margin: 0;
+  color: #fff8e8;
+  font-size: clamp(1rem, 1.5vw, 1.16rem);
+  font-weight: 900;
+  line-height: 1.36;
+}
+
+.goldspire-assurance-grid {
+  display: grid;
+  grid-template-columns: minmax(13rem, 1.1fr) repeat(2, minmax(9rem, 0.72fr));
+  gap: 0.9rem;
+  align-items: stretch;
+}
+
+.goldspire-assurance-grid > * {
+  display: flex;
+  align-items: center;
+  min-height: 4.2rem;
+  border-left: 3px solid var(--brass);
+  color: rgba(251, 244, 232, 0.96);
+  font-size: clamp(1rem, 1.55vw, 1.18rem);
+  font-weight: 850;
+  line-height: 1.32;
+  padding: 0.35rem 1rem;
+}
+
+.goldspire-assurance-grid strong {
+  font-weight: 950;
+}
+
+.goldspire-hero-venue-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 1rem;
+  align-items: center;
+  border-top: 1px solid rgba(248, 237, 218, 0.14);
+  padding-top: 0.7rem;
+  color: rgba(251, 244, 232, 0.76);
+  line-height: 1.35;
+}
+
+.goldspire-hero-venue-strip a {
+  color: #fff8e8;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.goldspire-hero-venue-strip .venue-kicker {
+  color: var(--brass);
+  font-family: var(--mono);
+  font-size: max(0.82rem, 14px);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.goldspire-hero-venue-strip .venue-directions {
+  color: var(--brass);
+}
+
 .goldspire-path-strip {
   background: var(--brass);
   color: #1a1008;
@@ -4072,6 +4151,34 @@
   color: var(--ink-soft);
   font-size: 1rem;
   line-height: 1.52;
+}
+
+.goldspire-details-band .detail-main {
+  border: 1px solid rgba(201, 163, 92, 0.34);
+  border-radius: var(--radius);
+  background:
+    radial-gradient(circle at 12% 8%, rgba(111, 174, 183, 0.12), transparent 12rem),
+    rgba(255, 250, 241, 0.74);
+  box-shadow: var(--shadow-soft);
+  padding: clamp(1rem, 2.8vw, 1.45rem);
+}
+
+.goldspire-details-band .detail-main p {
+  color: var(--ink-soft);
+  font-size: 1.02rem;
+  line-height: 1.58;
+}
+
+.goldspire-details-band .detail-list {
+  margin-bottom: 1rem;
+}
+
+.goldspire-details-band .detail-list strong {
+  color: var(--ink);
+}
+
+.goldspire-details-band .goldspire-resource-card {
+  align-self: stretch;
 }
 
 .goldspire-side-card img {
@@ -4561,6 +4668,47 @@
 
 .goldspire-contact-card select {
   border-color: rgba(248, 237, 218, 0.28);
+}
+
+.goldspire-community-strip {
+  border-top: 1px solid rgba(248, 237, 218, 0.12);
+  background:
+    linear-gradient(90deg, rgba(7, 19, 25, 0.96), rgba(18, 35, 37, 0.94));
+  color: var(--cream);
+}
+
+.goldspire-community-strip .wrap {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.goldspire-community-strip p {
+  max-width: 54rem;
+  margin: 0;
+  color: rgba(248, 237, 218, 0.78);
+  font-size: 1rem;
+  line-height: 1.48;
+}
+
+.goldspire-community-strip strong {
+  color: #fff8e8;
+}
+
+.goldspire-community-strip .btn-secondary {
+  border-color: rgba(248, 237, 218, 0.28);
+  background: rgba(248, 237, 218, 0.08);
+  color: var(--cream);
+}
+
+.goldspire-community-strip .btn-secondary:hover,
+.goldspire-community-strip .btn-secondary:focus-visible {
+  border-color: var(--brass);
+  background: rgba(248, 237, 218, 0.16);
+  color: #fff;
 }
 
 .checkbox-field {

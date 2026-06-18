@@ -324,3 +324,25 @@ status: local-qa-passed
 - `events/goldspire/index.html` still contains seven `data-event-cta` links and seven visible `Book now at Mox` labels.
 - `resources/daggerheart.html`, `sitemap.xml`, and registration config were not changed in this pass.
 - Browser console check returned no `error` or `warn` entries during local proof-section QA.
+
+## 2026-06-18 Hero Details / Event Info Restore QA
+
+### Visual Anchor Map
+
+| ID | Source / viewport | Region | Visual fact / issue | Intended action | Verification |
+| --- | --- | --- | --- | --- | --- |
+| NavCTA01 | Playwright wrapper `1366x900`, local server `8774` | Header navigation | `Join Discord` and `Book now at Mox` render as single-line buttons with `white-space: nowrap`; measured heights were `42px`. | Fix the top-button wrapping reported in screenshots. | Passed: no horizontal overflow; nav CTA widths measured at `161px` and `195px`. Screenshot `/tmp/goldspire-restore-qa/desktop-top.png`. |
+| HeroNotice01 | Playwright wrapper `1366x900` / `390x844`, local server `8774` | Hero below live-booking status | Restored the old quick-confidence strip: dice optional, questions welcome, no Daggerheart experience needed, heroes provided, rules taught at the table, venue host/address/directions. | Add the old desktop reassurance layer without crowding the already-good mobile hero. | Passed: desktop strip renders in the hero flow; mobile computes `.goldspire-hero-assurance { display: none; }`; no mobile overflow. |
+| EventDetails01 | Playwright wrapper `1366x900`, local server `8774` | `GoldspireEventDetails01` band | Dedicated event-details band restores when/where/length/price/seats/bring notes and pairs them with a compact Daggerheart explanation + resource link. | Recover the practical old event-info section lower on the page, without adding a lore dump. | Passed: screenshot `/tmp/goldspire-restore-qa/desktop-event-details.png`; `Open Daggerheart resources` link present. |
+| ContactCopy01 | Playwright wrapper `1366x900`, local server `8774` | Contact/access form | Contact copy now talks about event questions, access needs, comfort concerns, and private table inquiries. No visible EmailJS/internal transport wording remains. | Make the form read like a human contact path, not an implementation note. | Passed: screenshot `/tmp/goldspire-restore-qa/desktop-contact.png`; source/body sweep found no `EmailJS` or `email JS` public copy. |
+| MoxCommunity01 | Static source + Playwright DOM check | Low-priority strip below final CTA | Added small Mox Chandler community links without competing with booking. | Provide a secondary path to broader Mox events/community near the bottom only. | Passed: strip links to `https://linktr.ee/moxchandler` and `https://discord.gg/6PRf6rMSJs`. |
+| ResourceMobile01 | Playwright wrapper `390x844`, local server `8774` | `/resources/daggerheart.html` first fold | Daggerheart resource page keeps `Book now at Mox`, `Back to Goldspire event`, and beginner-friendly resource framing. | Confirm the restored resource path does not create a mobile dead end. | Passed: screenshot `/tmp/goldspire-restore-qa/mobile-daggerheart.png`. |
+
+### Static Integrity Checks
+
+- HTML parse passed for `events/goldspire/index.html`, `resources/daggerheart.html`, and `events/goldspire/characters/index.html`.
+- `scripts/main.js` passed `node --check`.
+- Source sweep found zero active `Registration coming soon`, `Claim a Seat`, `data-registration-coming-soon`, `Player-safe`, `GM-only`, `mysterious crate`, `suspicious crate`, or visible `EmailJS` strings in the checked public routes.
+- Mobile DOM check at `390x844`: no horizontal overflow, `Book now at Mox` labels present, hero assurance hidden, and no EmailJS public copy.
+- Browser plugin path timed out during initial navigation, so this pass used the Playwright CLI wrapper fallback. Console noise observed during Goldspire render came from TikTok third-party embed CSP/sensor-policy messages; no app-script syntax or route-load failure was found.
+- Historical comparison note: the pre-recovery/old-design references can be inspected from git commits around `36ce6f3`, `e9695d3`, and `3d7c9e0` without reverting the current page.

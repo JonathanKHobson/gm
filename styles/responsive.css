@@ -58,6 +58,18 @@
     max-width: 20ch;
   }
 
+  .goldspire-assurance-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(9rem, 0.72fr);
+  }
+
+  .goldspire-assurance-grid strong {
+    grid-column: 1 / -1;
+  }
+
+  .goldspire-community-strip .wrap {
+    grid-template-columns: 1fr;
+  }
+
   .trust-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -697,7 +709,8 @@
   .goldspire-page .goldspire-hero-fact-grid span,
   .goldspire-page .goldspire-venue-card,
   .goldspire-page .detail-hero-actions,
-  .goldspire-page .goldspire-status-note {
+  .goldspire-page .goldspire-status-note,
+  .goldspire-page .goldspire-hero-assurance {
     max-width: 100%;
     min-width: 0;
     overflow-wrap: anywhere;
@@ -791,6 +804,10 @@
     display: flex;
     border-radius: var(--radius-sm);
     line-height: 1.35;
+  }
+
+  .goldspire-hero-assurance {
+    display: none;
   }
 
   .detail-grid,
