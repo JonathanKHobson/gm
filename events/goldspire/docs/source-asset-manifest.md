@@ -78,6 +78,18 @@ All four are copied into `events/goldspire/assets/locations/` and used as spoile
 
 These are copied into `events/goldspire/assets/poster-elements/`. The page currently uses the courier accent only; the other poster elements remain available for future variants but are not placed in the active layout.
 
+### Story-World Character Accent
+
+- `visual-assets/npc_images/inspector-pelt/fullbody_transparent.png` -> `assets/events/goldspire/npcs/inspector-pelt.png`
+
+This transparent character art is used as a contained story-world accent in the event-details Daggerheart resource card. It is atmospheric flavor, not proof of a live session and not a spoiler explanation.
+
+### Marketing CTA Art
+
+- `market-material-packet/output/final/ai-generated-qr-variants/goldspire-ai-wide-poster-with-event-qr-1731x909-v1.png` -> `assets/events/goldspire/marketing/goldspire-ai-wide-poster-with-event-qr-1731x909-v1.png`
+
+This wide QR poster is used after the short video proof cards as a booking/reminder banner. The adjacent button remains the primary booking action, because a QR code is not usable as the only action on the same device.
+
 ### Icons
 
 All curated icons from `event-visual-asset-pack/assets/icons/` are copied into `events/goldspire/assets/icons/` and used for quick facts, expectations, resources, and FAQ support.

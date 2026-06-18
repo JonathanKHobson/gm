@@ -22,11 +22,14 @@ The page is a conversion-ready landing page for curious Mox, Discord, and friend
 
 - Primary mood: warm cinematic fantasy road plus cheerful corporate risk language.
 - Hero character art uses the prepared background-removed courier crew reference as a single controlled image.
+- Desktop-only reassurance and venue bands sit immediately after the hero to restore the old placard feel without making the mobile hero heavier.
 - Mobile uses the same crew reference in a compact strip so the PCs are visible without image collision or excessive first-fold height.
 - Character art supports choice and emotional buy-in.
 - Courier cards link to optional character PDFs and the character guide. These should remain framed as optional review, not required prep.
 - The character guide uses the prepared social poster cards as full-aspect visuals. Do not crop these assets unless a new crop is deliberately exported.
 - Location art supports atmosphere only; it should not become a lore gallery.
+- Inspector Pelt is used as contained story-world atmosphere in the event-details resource card, not as proof or spoiler explanation.
+- The wide QR marketing poster belongs in its own booking/reminder banner after short video proof. Keep a normal button next to it because the QR code is not the primary same-device action.
 - Icons are decorative supports and should not carry essential meaning by themselves.
 
 ## Technical Notes

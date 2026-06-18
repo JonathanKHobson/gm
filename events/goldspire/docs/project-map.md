@@ -22,6 +22,8 @@ status: active
 - `events/goldspire/assets/`: page-local copies of approved public Goldspire art, icons, character cutouts, locations, and poster elements.
 - `events/goldspire/assets/player-pdfs/`: optional player-facing PDF packets for the intended Goldspire couriers.
 - `assets/events/goldspire/pc-social/`: public character poster cards used by the courier guide.
+- `assets/events/goldspire/npcs/`: public story-world character accents used by Goldspire event pages.
+- `assets/events/goldspire/marketing/`: public Goldspire marketing CTA images, including the wide Mox booking/QR poster.
 - `events/goldspire/docs/`: maintenance notes, source manifest, and QA record.
 
 ## Registration CTA

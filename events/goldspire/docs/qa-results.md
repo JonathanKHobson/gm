@@ -346,3 +346,24 @@ status: local-qa-passed
 - Mobile DOM check at `390x844`: no horizontal overflow, `Book now at Mox` labels present, hero assurance hidden, and no EmailJS public copy.
 - Browser plugin path timed out during initial navigation, so this pass used the Playwright CLI wrapper fallback. Console noise observed during Goldspire render came from TikTok third-party embed CSP/sensor-policy messages; no app-script syntax or route-load failure was found.
 - Historical comparison note: the pre-recovery/old-design references can be inspected from git commits around `36ce6f3`, `e9695d3`, and `3d7c9e0` without reverting the current page.
+
+## 2026-06-18 Desktop Layout / Asset Refinement QA
+
+### Visual Anchor Map
+
+| ID | Source / viewport | Region | Visual fact / issue | Intended action | Verification |
+| --- | --- | --- | --- | --- | --- |
+| HeroTitle01 | Python Playwright Chrome `1366x900`, local server `8775` | Goldspire hero H1 | Desktop title now uses more width and renders in 2 estimated lines. | Reduce the cramped desktop-column feeling without changing the mobile headline treatment. | Passed: screenshot `/tmp/goldspire-layout-asset-qa/desktop-1366-top.png`; measured H1 `874.2px` wide, 2 lines. |
+| HeroBand01 | Python Playwright Chrome `1366x900`, local server `8775` | Desktop hero / post-hero placard bands | Hero height reduced to about `729px`; desktop reassurance band spans `1366px`, and the venue strip follows as a full-width row. | Restore the old full-width confidence/venue placard pattern while keeping it out of the mobile hero. | Passed: `/tmp/goldspire-layout-asset-qa/desktop-hero-band.png`; `.goldspire-assurance-band` and `.goldspire-venue-strip` are hidden at `390x844`. |
+| ResourceCard01 | Python Playwright Chrome `1366x900`, local server `8775` | Event details side card | The repeated emblem is replaced by contained Inspector Pelt art; the transparent image keeps its tall aspect and does not stretch into a 16:10 crop. | Use story-world atmosphere in the Daggerheart resource card without making the card oversized. | Passed: `/tmp/goldspire-layout-asset-qa/desktop-resource-card.png`; image natural size `1023x1537`, rendered taller than wide, card height about `515px`. |
+| QRBanner01 | Python Playwright Chrome `1366x900`, local server `8775` | Proof section after short video cards | Wide QR poster appears in its own booking/reminder CTA banner with a normal `Book now at Mox` button. | Let the marketing poster breathe and avoid relying on a same-device QR scan. | Passed: `/tmp/goldspire-layout-asset-qa/desktop-qr-banner.png`; QR image natural size `1731x909`, `object-fit: contain`. |
+| Mobile01 | Python Playwright Chrome `390x844`, local server `8775` | Mobile top and QR banner | Mobile has no horizontal overflow; desktop-only bands are hidden; QR banner stacks with a 45px-tall CTA. | Preserve the current successful mobile shape while adding the new desktop refinement and booking banner. | Passed: `/tmp/goldspire-layout-asset-qa/mobile-390-top.png` and `/tmp/goldspire-layout-asset-qa/mobile-qr-banner.png`. |
+
+### Static Integrity Checks
+
+- HTML parse passed for `events/goldspire/index.html`.
+- `scripts/main.js` passed `node --check`.
+- `git diff --check` passed.
+- Source sweep found no active public `Registration coming soon`, `Registration has not started`, `Claim a Seat`, `Claim your seat`, `Player-safe`, `data-registration-coming-soon`, or stale `Open Daggerheart resources` copy.
+- `goldspire-cart.png` remains used only in its existing lower-page resource/promo card, not in the event-details side card.
+- New public assets documented in `source-asset-manifest.md`: `assets/events/goldspire/npcs/inspector-pelt.png` and `assets/events/goldspire/marketing/goldspire-ai-wide-poster-with-event-qr-1731x909-v1.png`.

@@ -291,7 +291,9 @@
   }
 
   .event-card-featured,
+  .goldspire-assurance-band .wrap,
   .goldspire-path-strip .wrap,
+  .goldspire-qr-cta,
   .final-cta-panel {
     grid-template-columns: 1fr;
   }
@@ -348,6 +350,11 @@
 
   .detail-side img {
     height: 9.5rem;
+  }
+
+  .goldspire-npc-resource-card .goldspire-resource-character img {
+    height: auto;
+    max-height: 15rem;
   }
 
   .stargate-detail-side img {
@@ -709,8 +716,7 @@
   .goldspire-page .goldspire-hero-fact-grid span,
   .goldspire-page .goldspire-venue-card,
   .goldspire-page .detail-hero-actions,
-  .goldspire-page .goldspire-status-note,
-  .goldspire-page .goldspire-hero-assurance {
+  .goldspire-page .goldspire-status-note {
     max-width: 100%;
     min-width: 0;
     overflow-wrap: anywhere;
@@ -790,6 +796,11 @@
     width: 100%;
   }
 
+  .goldspire-assurance-band,
+  .goldspire-venue-strip {
+    display: none;
+  }
+
   .goldspire-page .detail-hero-actions .btn,
   .goldspire-page .goldspire-path-strip .btn,
   .goldspire-page .goldspire-final-band .event-actions .btn,
@@ -804,10 +815,6 @@
     display: flex;
     border-radius: var(--radius-sm);
     line-height: 1.35;
-  }
-
-  .goldspire-hero-assurance {
-    display: none;
   }
 
   .detail-grid,
@@ -895,6 +902,24 @@
 
   .goldspire-video-proof-link {
     min-height: 3.25rem;
+  }
+
+  .goldspire-qr-cta {
+    gap: 0.85rem;
+    padding: 0.72rem;
+  }
+
+  .goldspire-qr-copy {
+    padding: 0.15rem;
+  }
+
+  .goldspire-qr-copy h3 {
+    font-size: clamp(1.65rem, 8vw, 2.15rem);
+  }
+
+  .goldspire-qr-copy .event-actions,
+  .goldspire-qr-copy .event-actions .btn {
+    width: 100%;
   }
 
   .goldspire-player-resource-panel .event-actions,
