@@ -3990,6 +3990,23 @@
   align-items: center;
 }
 
+.events-list-band .event-card-featured .btn-secondary[data-event-cta],
+.events-list-band .event-card-featured .btn-secondary.external-link {
+  border-color: rgba(127, 44, 22, 0.42);
+  background: rgba(255, 250, 241, 0.84);
+  color: var(--ember-dark);
+  box-shadow: 0 10px 24px rgba(14, 8, 4, 0.08);
+}
+
+.events-list-band .event-card-featured .btn-secondary[data-event-cta]:hover,
+.events-list-band .event-card-featured .btn-secondary[data-event-cta]:focus-visible,
+.events-list-band .event-card-featured .btn-secondary.external-link:hover,
+.events-list-band .event-card-featured .btn-secondary.external-link:focus-visible {
+  border-color: var(--ember-dark);
+  background: #fffaf1;
+  color: var(--ink);
+}
+
 .goldspire-status-note {
   display: inline-flex;
   margin-top: 1rem;
