@@ -41,18 +41,6 @@
     grid-template-columns: 1fr;
   }
 
-  .home-event-card {
-    grid-template-columns: 1fr;
-  }
-
-  .home-event-card .event-actions {
-    width: 100%;
-  }
-
-  .home-event-card .event-actions .btn {
-    justify-content: center;
-  }
-
   .event-card-media,
   .event-card-media img {
     min-height: 18rem;
@@ -314,6 +302,18 @@
     display: none;
   }
 
+  .goldspire-hero .detail-hero-art {
+    position: relative;
+    top: auto;
+    right: auto;
+    display: block;
+    width: min(100%, 30rem);
+    max-height: none;
+    aspect-ratio: 3 / 2;
+    margin: 1rem auto 0;
+    transform: none;
+  }
+
   .detail-hero .breadcrumb,
   .detail-hero .eyebrow,
   .detail-hero h1,
@@ -405,8 +405,8 @@
 
   .navlink,
   .nav-cta {
-    flex: 0 1 auto;
-    white-space: normal;
+    flex: 0 0 auto;
+    white-space: nowrap;
   }
 
   .about-actions .chip-link {
@@ -654,12 +654,152 @@
     font-size: 2.65rem;
   }
 
+  .goldspire-page .detail-hero .wrap {
+    padding-top: 3.25rem;
+    padding-right: 1.25rem;
+    padding-bottom: 2.35rem;
+  }
+
+  .goldspire-page .goldspire-hero.detail-hero-with-art .wrap {
+    padding-right: 1.25rem;
+  }
+
+  .goldspire-page .detail-hero h1 {
+    max-width: min(11.2ch, calc(100vw - 2.5rem));
+    font-size: clamp(2.18rem, 10.6vw, 2.65rem);
+    line-height: 0.98;
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+
+  .goldspire-page .detail-hero .eyebrow {
+    display: flex;
+    width: fit-content;
+    max-width: min(100%, calc(100vw - 2.5rem));
+    margin-top: 0.55rem;
+    line-height: 1.35;
+  }
+
+  .goldspire-page .detail-hero .detail-lede {
+    max-width: min(21rem, calc(100vw - 2.5rem));
+    font-size: 1rem;
+    line-height: 1.46;
+  }
+
+  .goldspire-page .goldspire-hero .detail-hero-art {
+    width: min(24rem, calc(100vw - 2.5rem));
+    margin: 0.78rem 0 0.12rem;
+  }
+
+  .goldspire-page .detail-hero .detail-lede,
+  .goldspire-page .goldspire-hero-logistics,
+  .goldspire-page .goldspire-hero-fact-grid,
+  .goldspire-page .goldspire-hero-fact-grid span,
+  .goldspire-page .goldspire-venue-card,
+  .goldspire-page .detail-hero-actions,
+  .goldspire-page .goldspire-status-note {
+    max-width: 100%;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .goldspire-page .goldspire-hero-logistics {
+    width: min(100%, calc(100vw - 2.5rem));
+  }
+
+  .goldspire-page .goldspire-hero-fact-grid {
+    grid-template-columns: 1fr;
+    gap: 0.48rem;
+  }
+
+  .goldspire-page .goldspire-hero-fact-grid > span {
+    min-height: 3.25rem;
+    gap: 0.52rem;
+    padding: 0.5rem 0.58rem;
+  }
+
+  .goldspire-page .goldspire-hero-fact-grid img {
+    flex-basis: 1.55rem;
+    width: 1.55rem;
+    height: 1.55rem;
+  }
+
+  .goldspire-page .goldspire-hero-fact-grid small,
+  .goldspire-page .goldspire-venue-card small {
+    font-size: 0.64rem;
+  }
+
+  .goldspire-page .goldspire-hero-fact-grid strong {
+    font-size: 0.92rem;
+  }
+
+  .goldspire-page .goldspire-venue-row {
+    grid-template-columns: 1fr;
+  }
+
+  .goldspire-page .goldspire-venue-card {
+    align-items: flex-start;
+    min-height: 3.5rem;
+    padding: 0.58rem 0.65rem;
+  }
+
+  .goldspire-page .goldspire-venue-card img {
+    flex-basis: 1.65rem;
+    width: 1.65rem;
+    height: 1.65rem;
+  }
+
+  .goldspire-page .goldspire-venue-card em {
+    font-size: 0.84rem;
+  }
+
+  .goldspire-page .detail-hero-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .goldspire-page .goldspire-path-strip .wrap {
+    grid-template-columns: 1fr;
+  }
+
+  .goldspire-page .goldspire-path-strip p {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: normal;
+  }
+
+  .goldspire-page .goldspire-path-strip p strong {
+    display: block;
+  }
+
+  .goldspire-page .goldspire-directions-button {
+    min-height: 2.85rem;
+    width: 100%;
+  }
+
+  .goldspire-page .detail-hero-actions .btn,
+  .goldspire-page .goldspire-path-strip .btn,
+  .goldspire-page .goldspire-final-band .event-actions .btn,
+  .goldspire-page .goldspire-mid-cta .btn {
+    width: 100%;
+    min-width: 0;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .goldspire-page .goldspire-status-note {
+    display: flex;
+    border-radius: var(--radius-sm);
+    line-height: 1.35;
+  }
+
   .detail-grid,
   .detail-proof-grid,
   .event-facts,
   .goldspire-path-strip .wrap,
   .goldspire-fact-grid,
   .goldspire-character-grid,
+  .goldspire-proof-layout,
   .project-index-grid,
   .super-evidence-grid,
   .story-feature,
@@ -720,6 +860,15 @@
     height: 15rem;
   }
 
+  .goldspire-proof-mini-media {
+    grid-template-columns: 1fr;
+  }
+
+  .goldspire-player-resource-panel .event-actions,
+  .goldspire-player-resource-panel .event-actions .btn {
+    width: 100%;
+  }
+
   .goldspire-sticky-cta {
     position: fixed;
     right: 0.75rem;
@@ -734,7 +883,16 @@
     background: rgba(7, 19, 25, 0.9);
     box-shadow: 0 18px 50px rgba(0, 0, 0, 0.34);
     padding: 0.45rem;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(1rem);
     transition: opacity 160ms ease, transform 160ms ease;
+  }
+
+  .goldspire-sticky-cta.is-visible {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
   }
 
   .goldspire-detail {
