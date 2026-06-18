@@ -4360,6 +4360,118 @@
   margin: 0;
 }
 
+.goldspire-video-proof {
+  display: grid;
+  gap: 1rem;
+  margin-top: clamp(1.25rem, 4vw, 2.35rem);
+  border-top: 1px solid rgba(23, 16, 11, 0.12);
+  padding-top: clamp(1rem, 3vw, 1.75rem);
+}
+
+.goldspire-video-proof-head {
+  display: grid;
+  gap: 0.55rem;
+  max-width: 54rem;
+}
+
+.goldspire-video-proof-head h3,
+.goldspire-video-card-copy h4 {
+  margin: 0;
+  color: var(--ink);
+}
+
+.goldspire-video-proof-head h3 {
+  font-family: var(--display);
+  font-size: clamp(1.7rem, 3.2vw, 2.45rem);
+  line-height: 0.98;
+}
+
+.goldspire-video-proof-head p {
+  max-width: 48rem;
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 1.02rem;
+  line-height: 1.55;
+}
+
+.goldspire-video-proof-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.85rem;
+  align-items: start;
+}
+
+.goldspire-video-proof-card {
+  display: grid;
+  gap: 0.7rem;
+  min-width: 0;
+  border: 1px solid rgba(201, 163, 92, 0.32);
+  border-radius: var(--radius);
+  background:
+    radial-gradient(circle at 50% 8%, rgba(111, 174, 183, 0.14), transparent 10rem),
+    rgba(255, 250, 241, 0.88);
+  box-shadow: var(--shadow-soft);
+  padding: 0.75rem;
+}
+
+.goldspire-video-card-copy {
+  display: grid;
+  gap: 0.28rem;
+  min-height: 4.6rem;
+}
+
+.goldspire-video-card-copy span {
+  color: var(--ember-dark);
+  font-family: var(--mono);
+  font-size: max(0.76rem, 13px);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.goldspire-video-card-copy h4 {
+  font-size: clamp(1.02rem, 1.4vw, 1.2rem);
+  line-height: 1.12;
+}
+
+.goldspire-video-embed-frame {
+  min-height: 34rem;
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+  background:
+    radial-gradient(circle at 50% 20%, rgba(111, 174, 183, 0.18), transparent 12rem),
+    #071319;
+}
+
+.goldspire-video-proof-card .tiktok-embed,
+.goldspire-video-proof-card .tiktok-embed a {
+  min-height: 34rem;
+}
+
+.goldspire-video-proof-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.85rem;
+  border: 1px solid rgba(127, 44, 22, 0.22);
+  border-radius: 999px;
+  background: rgba(255, 250, 241, 0.92);
+  color: var(--ember-dark);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.goldspire-video-proof-link::after {
+  content: "↗";
+  margin-left: 0.45rem;
+}
+
+.goldspire-video-proof-link:hover,
+.goldspire-video-proof-link:focus-visible {
+  border-color: var(--ember-dark);
+  background: var(--cream);
+  color: var(--ink);
+}
+
 .goldspire-courier-accent {
   display: flex;
   justify-content: center;

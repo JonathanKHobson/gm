@@ -307,3 +307,20 @@ status: local-qa-passed
 | ProofMedia01 | In-app browser `1024x900`, local server `8770` | `goldspire-proof-mini-media` | Proof images previously read as awkward tall crops. They now render inside compact evidence cards with `object-fit: contain`; the table photo uses `4 / 3`, player art uses `1 / 1`, and both images load. | Make the proof images readable without stretching or face-hostile cropping. | Passed: rendered widths/heights approx. `195x147` and `195x195`; no horizontal overflow; three quote cards still present. |
 | ContactAccent01 | In-app browser `1024x900`, local server `8770` | Contact intro column | The courier accent moved from the proof-section tail into the contact intro blank space beneath the access-needs note. | Make the image feel intentional and use the empty column space before the form. | Passed: courier asset loaded at approx. `324x256` inside the intro column; form remained visible and aligned. |
 | MobileContact01 | In-app browser `390x844`, local server `8770` | Mobile contact intro | The courier remains visible and the sticky booking bar receives `is-hidden` at `#contact`. | Prevent the moved courier/contact form from being covered on mobile. | Passed: sticky CTA computed `opacity: 0` and `pointer-events: none`; no horizontal overflow. |
+
+## 2026-06-17 TikTok Proof Clips QA
+
+### Visual Anchor Map
+
+| ID | Source / viewport | Region | Visual fact / issue | Intended action | Verification |
+| --- | --- | --- | --- | --- | --- |
+| VideoProof01 | In-app browser `1366x900`, local server `8773` | `goldspire-video-proof` under player reflections | Three short-form proof cards render under the current social proof/proof-image block; TikTok embeds load as iframes on desktop and use the three requested GameMasterKyle videos. | Restore the lost short-video proof section without disturbing the current proof layout. | Passed: three cards, three iframe embeds, three matching TikTok links, no horizontal overflow. |
+| MobileVideo01 | In-app browser `390x844`, local server `8773` | Mobile `goldspire-video-proof` | Mobile replaces the tall TikTok embeds with compact `Open clip on TikTok` link cards; each link target is 52px tall and the section remains one column. | Keep short-form proof available on phones without creating a long embedded-video scroll wall. | Passed: three cards, embeds computed `display: none`, no horizontal overflow. |
+| Script01 | Source check | End of `events/goldspire/index.html` | TikTok embed script is included once on the Goldspire page. | Enable desktop embeds while avoiding duplicate third-party script loads. | Passed: source sweep found one `https://www.tiktok.com/embed.js`. |
+
+### Static Integrity Checks
+
+- Resolved user-supplied short links to canonical TikTok video URLs before embedding.
+- `events/goldspire/index.html` still contains seven `data-event-cta` links and seven visible `Book now at Mox` labels.
+- `resources/daggerheart.html`, `sitemap.xml`, and registration config were not changed in this pass.
+- Browser console check returned no `error` or `warn` entries during local proof-section QA.

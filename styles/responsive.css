@@ -864,6 +864,22 @@
     grid-template-columns: 1fr;
   }
 
+  .goldspire-video-proof-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .goldspire-video-card-copy {
+    min-height: 0;
+  }
+
+  .goldspire-video-embed-frame {
+    display: none;
+  }
+
+  .goldspire-video-proof-link {
+    min-height: 3.25rem;
+  }
+
   .goldspire-player-resource-panel .event-actions,
   .goldspire-player-resource-panel .event-actions .btn {
     width: 100%;
