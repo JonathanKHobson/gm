@@ -3747,164 +3747,61 @@
   gap: clamp(0.65rem, 1vw, 1.1rem);
 }
 
+.home-event-promo {
+  position: relative;
+  margin-top: -1px;
+  padding: 0 0 clamp(1.2rem, 3vw, 2rem);
+  background:
+    linear-gradient(180deg, rgba(7, 19, 25, 0.98), rgba(7, 19, 25, 0.92));
+}
+
+.home-event-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: clamp(1rem, 3vw, 1.5rem);
+  border: 1px solid rgba(201, 163, 92, 0.34);
+  border-radius: var(--radius);
+  background:
+    radial-gradient(circle at 6% 10%, rgba(111, 174, 183, 0.2), transparent 16rem),
+    linear-gradient(135deg, rgba(255, 250, 241, 0.98), rgba(255, 239, 205, 0.92));
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.28);
+  padding: clamp(1rem, 3vw, 1.4rem);
+}
+
+.home-event-card h2 {
+  color: var(--ink);
+  font-size: clamp(1.55rem, 3vw, 2.5rem);
+  line-height: 1.02;
+  margin-top: 0.25rem;
+}
+
+.home-event-card p {
+  max-width: 58rem;
+  color: var(--ink-soft);
+  font-size: 1rem;
+  line-height: 1.55;
+  margin-top: 0.45rem;
+}
+
+:where(.paper-band, .detail-main, .detail-card, .detail-side, .event-card-featured, .home-event-card) .btn-secondary {
+  border-color: rgba(59, 35, 24, 0.24);
+  color: var(--ember-dark);
+  background: rgba(255, 250, 241, 0.42);
+}
+
+:where(.paper-band, .detail-main, .detail-card, .detail-side, .event-card-featured, .home-event-card) .btn-secondary:hover,
+:where(.paper-band, .detail-main, .detail-card, .detail-side, .event-card-featured, .home-event-card) .btn-secondary:focus-visible {
+  border-color: var(--ember-dark);
+  color: var(--ink);
+  background: rgba(255, 250, 241, 0.72);
+}
+
 .events-hero,
 .goldspire-hero {
   background:
     linear-gradient(90deg, rgba(7, 19, 25, 0.94), rgba(7, 19, 25, 0.72) 54%, rgba(7, 19, 25, 0.34)),
     url("../assets/events/goldspire/hero/goldspire-sablewood-wide.png") center / cover no-repeat;
-}
-
-.goldspire-hero.detail-hero-with-art .wrap {
-  padding-right: clamp(20rem, 36vw, 34rem);
-}
-
-.goldspire-hero .detail-hero-art {
-  right: clamp(0.5rem, 6vw, 4.5rem);
-  width: clamp(22rem, 34vw, 32rem);
-  max-height: none;
-  aspect-ratio: 3 / 2;
-  overflow: visible;
-  border: 0;
-  border-radius: 0;
-  background: transparent;
-  box-shadow: none;
-  transform: translateY(-45%);
-}
-
-.goldspire-hero .detail-hero-art img {
-  width: 100%;
-  height: 100%;
-  background: transparent;
-  object-fit: contain;
-  filter: drop-shadow(0 26px 32px rgba(0, 0, 0, 0.42));
-}
-
-.goldspire-hero-logistics {
-  position: relative;
-  z-index: 2;
-  display: grid;
-  gap: 0.65rem;
-  width: min(100%, 44rem);
-  margin: 0.45rem 0 1rem;
-}
-
-.goldspire-hero-fact-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10.25rem, 1fr));
-  gap: 0.6rem;
-  width: 100%;
-}
-
-.goldspire-hero-fact-grid > span {
-  display: flex;
-  align-items: center;
-  gap: 0.7rem;
-  min-width: 0;
-  min-height: 3.85rem;
-  border: 1px solid rgba(251, 244, 232, 0.2);
-  border-radius: var(--radius);
-  background: rgba(7, 20, 16, 0.5);
-  color: rgba(251, 244, 232, 0.94);
-  padding: 0.68rem 0.78rem;
-  font-weight: 800;
-}
-
-.goldspire-hero-fact-grid img {
-  flex: 0 0 2rem;
-  width: 2rem;
-  height: 2rem;
-  object-fit: contain;
-}
-
-.goldspire-hero-fact-grid > span > span {
-  display: grid;
-  gap: 0.12rem;
-  min-width: 0;
-}
-
-.goldspire-hero-fact-grid small,
-.goldspire-venue-card small {
-  color: rgba(248, 237, 218, 0.74);
-  font-family: var(--mono);
-  font-size: 0.72rem;
-  font-style: normal;
-  font-weight: 800;
-  letter-spacing: 0;
-  text-transform: uppercase;
-}
-
-.goldspire-hero-fact-grid strong {
-  color: #fff8e8;
-  font-size: 1rem;
-  line-height: 1.18;
-}
-
-.goldspire-venue-row {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 0.65rem;
-  align-items: stretch;
-  width: 100%;
-}
-
-.goldspire-venue-card {
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-  min-height: 4.2rem;
-  border: 1px solid rgba(215, 173, 87, 0.34);
-  border-radius: var(--radius);
-  background: rgba(7, 20, 16, 0.62);
-  color: rgba(251, 244, 232, 0.92);
-  padding: 0.78rem 0.9rem;
-  text-decoration: none;
-}
-
-.goldspire-venue-card:hover,
-.goldspire-venue-card:focus-visible {
-  border-color: rgba(215, 173, 87, 0.7);
-  background: rgba(7, 20, 16, 0.78);
-  color: var(--cream);
-}
-
-.goldspire-venue-card img {
-  flex: 0 0 2.25rem;
-  width: 2.25rem;
-  height: 2.25rem;
-  object-fit: contain;
-}
-
-.goldspire-venue-card span {
-  display: grid;
-  gap: 0.12rem;
-  min-width: 0;
-}
-
-.goldspire-venue-card strong {
-  color: #fff8e8;
-  line-height: 1.18;
-}
-
-.goldspire-venue-card em {
-  color: rgba(251, 244, 232, 0.78);
-  font-size: 0.92rem;
-  font-style: normal;
-  line-height: 1.25;
-}
-
-.goldspire-directions-button {
-  align-self: stretch;
-  min-height: 4.2rem;
-  border-color: rgba(248, 237, 218, 0.42);
-  background: rgba(248, 237, 218, 0.12);
-  color: var(--cream);
-  padding-inline: 1rem;
-}
-
-.goldspire-directions-button:hover,
-.goldspire-directions-button:focus-visible {
-  background: rgba(248, 237, 218, 0.24);
-  color: #fff;
 }
 
 .event-card-featured {
@@ -4131,23 +4028,6 @@
   line-height: 1.35;
 }
 
-.goldspire-character-actions {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 0.45rem;
-  margin-top: auto;
-}
-
-.goldspire-character-actions .btn {
-  width: 100%;
-  min-height: 2.45rem;
-  padding: 0.58rem 0.7rem;
-  font-size: max(0.82rem, 15px);
-  line-height: 1.2;
-  text-align: center;
-  white-space: normal;
-}
-
 .goldspire-mid-cta {
   display: flex;
   flex-wrap: wrap;
@@ -4162,175 +4042,6 @@
   color: var(--ink-soft);
   font-size: 1rem;
   line-height: 1.5;
-}
-
-.goldspire-player-resource-panel {
-  display: grid;
-  gap: 1rem;
-  margin-top: 1rem;
-  border: 1px solid rgba(201, 163, 92, 0.36);
-  border-radius: var(--radius);
-  background:
-    radial-gradient(circle at 12% 16%, rgba(111, 174, 183, 0.16), transparent 12rem),
-    linear-gradient(180deg, rgba(255, 250, 241, 0.96), rgba(255, 244, 222, 0.88));
-  padding: 1rem;
-  box-shadow: var(--shadow-soft);
-}
-
-.goldspire-player-resource-panel h3,
-.goldspire-proof-context h3 {
-  margin: 0;
-  color: var(--ink);
-  font-size: 1.25rem;
-}
-
-.goldspire-player-resource-panel p,
-.goldspire-proof-context p,
-.goldspire-social-proof-card p {
-  color: var(--ink-soft);
-}
-
-.goldspire-page .paper-band .btn-secondary {
-  border-color: rgba(23, 16, 11, 0.2);
-  background: rgba(255, 255, 255, 0.74);
-  color: var(--ink);
-}
-
-.goldspire-page .paper-band .btn-secondary:hover,
-.goldspire-page .paper-band .btn-secondary:focus-visible {
-  background: var(--cream);
-  color: var(--ink);
-}
-
-.goldspire-page .dark .btn-secondary,
-.goldspire-gm-band .btn-secondary,
-.goldspire-final-band .btn-secondary {
-  border-color: rgba(248, 237, 218, 0.4);
-  background: rgba(248, 237, 218, 0.12);
-  color: var(--cream);
-}
-
-.goldspire-page .dark .btn-secondary:hover,
-.goldspire-page .dark .btn-secondary:focus-visible,
-.goldspire-gm-band .btn-secondary:hover,
-.goldspire-gm-band .btn-secondary:focus-visible,
-.goldspire-final-band .btn-secondary:hover,
-.goldspire-final-band .btn-secondary:focus-visible {
-  background: rgba(248, 237, 218, 0.22);
-  color: #fff;
-}
-
-.goldspire-proof-band .wrap {
-  position: relative;
-}
-
-.goldspire-proof-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(18rem, 0.92fr);
-  gap: 1rem;
-  align-items: start;
-}
-
-.goldspire-proof-context,
-.goldspire-social-proof-card {
-  border: 1px solid rgba(201, 163, 92, 0.32);
-  border-radius: var(--radius);
-  background: rgba(255, 250, 241, 0.84);
-  box-shadow: var(--shadow-soft);
-}
-
-.goldspire-proof-context {
-  display: grid;
-  gap: 0.8rem;
-  padding: 1rem;
-}
-
-.goldspire-proof-kicker {
-  width: fit-content;
-  border-radius: 999px;
-  background: rgba(215, 173, 87, 0.2);
-  color: var(--ember-dark);
-  font-family: var(--mono);
-  font-size: max(0.82rem, 15px);
-  font-weight: 900;
-  padding: 0.35rem 0.65rem;
-}
-
-.goldspire-proof-mini-media {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.75rem;
-}
-
-.goldspire-proof-figure {
-  display: grid;
-  gap: 0.45rem;
-  margin: 0;
-}
-
-.goldspire-proof-figure img {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  border-radius: var(--radius-sm);
-  border: 1px solid rgba(23, 16, 11, 0.12);
-  object-fit: cover;
-}
-
-.goldspire-proof-art img {
-  object-position: center top;
-}
-
-.goldspire-proof-figure figcaption,
-.goldspire-proof-source {
-  color: var(--ink-muted);
-  font-family: var(--mono);
-  font-size: max(0.78rem, 14px);
-  font-weight: 800;
-}
-
-.goldspire-social-proof-grid {
-  display: grid;
-  gap: 0.75rem;
-}
-
-.goldspire-social-proof-card {
-  display: grid;
-  gap: 0.6rem;
-  padding: 1rem;
-}
-
-.goldspire-proof-copy {
-  margin: 0;
-  color: var(--ink);
-  font-size: 1.02rem;
-  line-height: 1.55;
-}
-
-.goldspire-proof-source {
-  margin: 0;
-}
-
-.goldspire-courier-accent {
-  display: none;
-}
-
-@media (min-width: 1080px) {
-  .goldspire-courier-accent {
-    position: absolute;
-    right: -1.8rem;
-    bottom: -2.6rem;
-    display: block;
-    width: min(18vw, 13rem);
-    margin: 0;
-    pointer-events: none;
-  }
-
-  .goldspire-courier-accent img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    filter: drop-shadow(0 20px 24px rgba(23, 16, 11, 0.22));
-  }
 }
 
 .accordion-stack {
@@ -4480,6 +4191,13 @@
   transform: translateY(-2px);
   border-color: rgba(230, 96, 54, 0.5);
   box-shadow: 0 16px 32px rgba(14, 8, 4, 0.12);
+}
+
+.quick-link-card-featured {
+  border-color: rgba(111, 174, 183, 0.42);
+  background:
+    radial-gradient(circle at 8% 20%, rgba(111, 174, 183, 0.2), transparent 8rem),
+    linear-gradient(180deg, rgba(255, 252, 245, 0.98), rgba(255, 239, 205, 0.94));
 }
 
 .quick-link-card strong {
