@@ -19,7 +19,11 @@
   var shareQrImage = document.getElementById("shareQrImage");
   var shareQrCaption = document.getElementById("shareQrCaption");
   var shareModeButtons = Array.prototype.slice.call(document.querySelectorAll("[data-qr-mode]"));
+  var registrationModal = document.getElementById("registrationSoonModal");
+  var registrationOpenButtons = Array.prototype.slice.call(document.querySelectorAll("[data-registration-coming-soon]"));
+  var registrationPanel = registrationModal ? registrationModal.querySelector(".share-modal-panel") : null;
   var lastShareFocus = null;
+  var lastRegistrationFocus = null;
   var shareUrl = shareUrlField ? shareUrlField.value : "https://jonathankhobson.github.io/g/";
   var shareMessage = "GameMasterKyle digital card: " + shareUrl;
   var qrModes = {
@@ -217,6 +221,45 @@
         });
       });
     }
+  }
+
+  function openRegistrationModal(trigger) {
+    if (!registrationModal || !registrationPanel) return;
+    lastRegistrationFocus = trigger || document.activeElement;
+    registrationModal.hidden = false;
+    registrationModal.setAttribute("aria-hidden", "false");
+    document.body.classList.add("modal-open");
+    window.setTimeout(function () {
+      registrationPanel.focus();
+    }, 0);
+  }
+
+  function closeRegistrationModal() {
+    if (!registrationModal) return;
+    registrationModal.hidden = true;
+    registrationModal.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("modal-open");
+    if (lastRegistrationFocus && typeof lastRegistrationFocus.focus === "function") {
+      lastRegistrationFocus.focus();
+    }
+  }
+
+  if (registrationModal) {
+    registrationOpenButtons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        openRegistrationModal(button);
+      });
+    });
+
+    registrationModal.addEventListener("click", function (event) {
+      if (!event.target.closest("[data-registration-close]")) return;
+      closeRegistrationModal();
+    });
+
+    window.addEventListener("keydown", function (event) {
+      if (registrationModal.hidden || event.key !== "Escape") return;
+      closeRegistrationModal();
+    });
   }
 
   var goldspireStickyCta = document.querySelector(".goldspire-sticky-cta");
