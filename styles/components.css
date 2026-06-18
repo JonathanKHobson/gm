@@ -3893,12 +3893,12 @@
 }
 
 .goldspire-directions-button {
-  align-self: stretch;
-  min-height: 4.2rem;
+  align-self: center;
+  min-height: 3rem;
   border-color: rgba(248, 237, 218, 0.42);
   background: rgba(248, 237, 218, 0.12);
   color: var(--cream);
-  padding-inline: 1rem;
+  padding-inline: 1.15rem;
 }
 
 .goldspire-directions-button:hover,
@@ -4218,6 +4218,23 @@
 .goldspire-final-band .btn-secondary:focus-visible {
   background: rgba(248, 237, 218, 0.22);
   color: #fff;
+}
+
+.goldspire-gm-band .detail-main .btn-secondary {
+  border-color: rgba(23, 16, 11, 0.24);
+  background: rgba(255, 255, 255, 0.82);
+  color: var(--ink);
+}
+
+.goldspire-gm-band .detail-main .eyebrow {
+  color: var(--ink-muted);
+}
+
+.goldspire-gm-band .detail-main .btn-secondary:hover,
+.goldspire-gm-band .detail-main .btn-secondary:focus-visible {
+  border-color: rgba(23, 16, 11, 0.36);
+  background: var(--cream);
+  color: var(--ink);
 }
 
 .goldspire-proof-band .wrap {

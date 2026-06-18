@@ -278,3 +278,22 @@ status: local-qa-passed
 - Source sweep found no active public `Registration coming soon`, `Claim a Seat`, `data-registration-coming-soon`, `registrationSoonModal`, `Player-safe`, or intentionally unpublished PDF copy.
 - `goldspire-registration.js` and `scripts/main.js` parse successfully.
 - Chrome automation cleanup check found no temp-profile or headless browser processes after visual QA.
+
+## 2026-06-17 Final Contrast / Publish QA
+
+### Visual Anchor Map
+
+| ID | Source / viewport | Region | Visual fact / issue | Intended action | Verification |
+| --- | --- | --- | --- | --- | --- |
+| GM01 | In-app browser `390x844`, local server `8767` | `goldspire-gm-band` light GM card | The secondary buttons now render as dark ink text on light buttons; the `About the GM` eyebrow no longer inherits the dark-section cream color on a cream card. | Fix the low-contrast buttons reported in the final screenshot and catch the related label contrast issue. | Passed: computed contrast approx. `18.11:1` for both secondary buttons and `6.86:1` for the eyebrow against the cream card. Screenshot crop emitted during in-app browser QA. |
+| HeroCTA01 | In-app browser `1366x900`, local server `8767` | Hero logistics and CTA | Seven event CTAs use `Book now at Mox`; directions link remains visible and points to Google Maps for Mox Boarding House Chandler. | Preserve live booking path and restored logistics/directions affordance. | Passed: no console warnings/errors; no horizontal overflow; party image loaded at `1536x1024`. |
+| Chars01 | Source + in-app browser `390x844` | Main courier cards and character route | Main landing cards use transparent `assets/events/goldspire/pcs/*.png` assets, link to character anchors, and still expose PDFs. Character route has six PDF links, Daggerheart resources, Demiplane, and three live Mox CTAs. | Keep the optional character-learning path without bloating the first page. | Passed source/image alpha check plus rendered character route check. |
+| Proof01 | In-app browser clipped page-region screenshot | Social proof band | Player-reflection/proof band is present with three quote cards and proof imagery. | Confirm the recovered social-proof section stayed in place after contrast fixes. | Passed: local rendered check found `.goldspire-proof-band` and three `.goldspire-social-proof-card` cards. |
+| ResourceCTA01 | In-app browser `1366x900`, local server `8767` | `/resources/daggerheart.html` | Resource route has two live `Book now at Mox` CTAs, a back-to-event path, character guide link, and Demiplane link. | Keep the Daggerheart page from becoming a dead-end. | Passed: no console warnings/errors and no horizontal overflow. |
+
+### Static Integrity Checks
+
+- Active public HTML sweep found zero `Claim your seat` and zero `Registration coming soon` strings in `events/goldspire/index.html`, `resources/daggerheart.html`, `events/goldspire/characters/index.html`, and `404.html`.
+- `sitemap.xml` still excludes `coming-soon/`.
+- `assets/events/goldspire/pcs/` files all report alpha channels: party reference plus Barnacle, Garrick Reed, Khari Nix, Marlowe Fairwind, and Varian Soto.
+- Final scoped CSS change: `styles/components.css` fixes `.goldspire-gm-band .detail-main .btn-secondary`, `.goldspire-gm-band .detail-main .eyebrow`, and trims `.goldspire-directions-button` desktop sizing.
