@@ -4269,6 +4269,50 @@
   white-space: nowrap;
 }
 
+@media (max-width: 900px) {
+  .goldspire-details-band .detail-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+  }
+
+  .goldspire-details-band .detail-main,
+  .goldspire-details-band .goldspire-resource-card {
+    width: 100%;
+    min-width: 0;
+    max-width: none;
+    justify-self: stretch;
+  }
+
+  .goldspire-details-band .detail-main {
+    padding: clamp(1rem, 4.5vw, 1.25rem);
+  }
+
+  .goldspire-details-band .detail-list {
+    padding-left: 1.05rem;
+  }
+
+  .goldspire-details-band .detail-list li {
+    overflow-wrap: normal;
+  }
+
+  .goldspire-details-band .goldspire-resource-character {
+    min-height: 11rem;
+    padding-top: 0.75rem;
+  }
+
+  .goldspire-details-band .goldspire-resource-character img {
+    width: auto;
+    max-width: min(72%, 10.5rem);
+    height: auto;
+    max-height: 13rem;
+  }
+
+  .goldspire-npc-resource-card .btn {
+    width: 100%;
+    white-space: normal;
+  }
+}
+
 .goldspire-side-card img {
   object-fit: cover;
 }
