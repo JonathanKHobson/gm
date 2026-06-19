@@ -367,3 +367,22 @@ status: local-qa-passed
 - Source sweep found no active public `Registration coming soon`, `Registration has not started`, `Claim a Seat`, `Claim your seat`, `Player-safe`, `data-registration-coming-soon`, or stale `Open Daggerheart resources` copy.
 - `goldspire-cart.png` remains used only in its existing lower-page resource/promo card, not in the event-details side card.
 - New public assets documented in `source-asset-manifest.md`: `assets/events/goldspire/npcs/inspector-pelt.png` and `assets/events/goldspire/marketing/goldspire-ai-wide-poster-with-event-qr-1731x909-v1.png`.
+
+## 2026-06-19 Multi-Date Preparation QA
+
+### Visual Anchor Map
+
+| ID | Source / viewport | Region | Visual fact / issue | Intended action | Verification |
+| --- | --- | --- | --- | --- | --- |
+| FutureDatesBanner01 | Python Playwright `390x844`, `1366x900` | Goldspire landing page after venue strip | Visible note says more Goldspire dates are being planned, keeps July 7 as live now, and offers `Book July 7 at Mox` plus `Ask about future dates`. | Signal likely future sessions without implying unconfirmed dates are guaranteed. | Passed: `/tmp/goldspire-multidate-qa/landing_mobile-v2.png`, `/tmp/goldspire-multidate-qa/landing_desktop-v2.png`. |
+| CTAState01 | Python Playwright DOM check | All `[data-event-cta]` on landing and dates page | Current `booking_mode` is `single`; shared CTAs still read `Book now at Mox` and target the July 7 Mox listing. | Preserve the active July 7 funnel until multiple listings exist. | Passed. |
+| DatesPage01 | Python Playwright `1366x900` | `events/goldspire/dates/` | Date selector page lists the current confirmed July 7 table and keeps each booking action routed to Mox. | Prepare the multi-date route without building a registration system. | Passed: `/tmp/goldspire-multidate-qa/dates_desktop-v2.png`. |
+| MobileDates01 | Python Playwright `390x844` | `events/goldspire/dates/` | Date card stacks cleanly with no horizontal overflow. | Keep the date selector usable on mobile. | Passed: `/tmp/goldspire-multidate-qa/dates_mobile-v2.png`. |
+
+### Static Integrity Checks
+
+- `git diff --check` passed.
+- `node --check events/goldspire/goldspire-registration.js` passed.
+- `node --check scripts/main.js` passed.
+- HTML parse smoke check passed for `events/goldspire/index.html`, `events/goldspire/dates/index.html`, and `resources/daggerheart.html`.
+- Date-page social image metadata uses the existing public `assets/events/goldspire/pcs/party-reference.png` asset.

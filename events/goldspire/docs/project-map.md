@@ -10,6 +10,7 @@ status: active
 
 - `events/goldspire/index.html`: player-facing landing page for Peril to Profit: The Goldspire Messengers.
 - `events/goldspire/characters/index.html`: optional player-facing courier guide with plain-language character profiles, PDF links, and sheet-reading help.
+- `events/goldspire/dates/index.html`: lean date-selection route for confirmed Goldspire tables; currently lists July 7 and is ready for additional Mox listings.
 - `events/goldspire/coming-soon/index.html`: noindex fallback route for old registration-status links; it now points users to the live Mox listing.
 - `resources/daggerheart.html`: optional official Daggerheart resources page.
 
@@ -34,8 +35,10 @@ Current live target in `goldspire-registration.js`:
 
 ```js
 registration_state: "live"
-live_url: "https://events.moxboardinghouse.com/p/n/xnP6r62v/v5"
+booking_mode: "single"
+single_url: "https://events.moxboardinghouse.com/p/n/xnP6r62v/v5"
+multi_url: "dates/"
 checkout_url: "https://events.moxboardinghouse.com/p/n/xnP6r62v/v5/checkout"
 ```
 
-The `/checkout` URL is retained as an optional future switch, but current verification shows it redirects back to the event listing. The Goldspire and Daggerheart resource CTAs use the same script, so future registration-state changes should stay in one file.
+The `/checkout` URL is retained as an optional future switch, but current verification shows it redirects back to the event listing. The Goldspire and Daggerheart resource CTAs use the same script. When multiple Mox listings are confirmed, set `booking_mode: "multi"` so global CTAs read `View Times` and route to `events/goldspire/dates/`; each date card should link to its own Mox listing.

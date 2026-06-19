@@ -4146,6 +4146,62 @@
   color: #fff8e8;
 }
 
+.goldspire-future-dates-strip {
+  border-bottom: 1px solid rgba(23, 16, 11, 0.12);
+  background:
+    radial-gradient(circle at 12% 12%, rgba(138, 168, 114, 0.18), transparent 16rem),
+    linear-gradient(90deg, rgba(255, 250, 241, 0.98), rgba(239, 224, 199, 0.94)),
+    var(--paper);
+  color: var(--ink);
+}
+
+.goldspire-future-dates-strip .wrap {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: clamp(1rem, 2.5vw, 2rem);
+  align-items: center;
+  padding-top: 1.15rem;
+  padding-bottom: 1.15rem;
+}
+
+.goldspire-future-dates-strip .eyebrow {
+  color: var(--teal-dark);
+  font-size: max(0.78rem, 14px);
+}
+
+.goldspire-future-dates-strip h2 {
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: clamp(1.08rem, 1.8vw, 1.34rem);
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.goldspire-future-dates-strip p:not(.eyebrow) {
+  max-width: 68ch;
+  color: var(--ink-soft);
+  font-size: max(0.96rem, 16px);
+  line-height: 1.48;
+}
+
+.goldspire-future-dates-strip .event-actions {
+  justify-content: end;
+}
+
+.goldspire-future-dates-strip .btn-secondary {
+  border-color: rgba(127, 44, 22, 0.34);
+  background: rgba(255, 250, 241, 0.82);
+  color: var(--ember-dark);
+  box-shadow: 0 10px 24px rgba(14, 8, 4, 0.08);
+}
+
+.goldspire-future-dates-strip .btn-secondary:hover,
+.goldspire-future-dates-strip .btn-secondary:focus-visible {
+  border-color: var(--ember-dark);
+  background: #fffaf1;
+  color: var(--ink);
+}
+
 .goldspire-path-strip {
   background: var(--brass);
   color: #1a1008;
@@ -4269,7 +4325,142 @@
   white-space: nowrap;
 }
 
+.goldspire-dates-hero {
+  min-height: auto;
+  background:
+    linear-gradient(90deg, rgba(7, 19, 25, 0.92), rgba(32, 60, 42, 0.88)),
+    url("../assets/events/goldspire/hero/goldspire-sablewood-wide.png") center / cover no-repeat,
+    var(--void);
+}
+
+.goldspire-dates-hero .wrap {
+  min-height: 31rem;
+}
+
+.goldspire-date-list-band .section-head {
+  margin-bottom: 1.6rem;
+}
+
+.goldspire-date-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.goldspire-date-card,
+.goldspire-date-note {
+  border: 1px solid rgba(201, 163, 92, 0.36);
+  border-radius: var(--radius);
+  background:
+    radial-gradient(circle at 12% 12%, rgba(111, 174, 183, 0.12), transparent 14rem),
+    rgba(255, 250, 241, 0.84);
+  box-shadow: var(--shadow-soft);
+}
+
+.goldspire-date-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(18rem, 0.8fr) auto;
+  gap: clamp(1rem, 2.5vw, 1.5rem);
+  align-items: center;
+  padding: clamp(1rem, 2.5vw, 1.4rem);
+}
+
+.goldspire-date-status {
+  display: inline-flex;
+  width: fit-content;
+  border: 1px solid rgba(54, 81, 58, 0.32);
+  border-radius: 999px;
+  background: rgba(138, 168, 114, 0.16);
+  color: var(--teal-dark);
+  font-family: var(--mono);
+  font-size: max(0.78rem, 14px);
+  font-weight: 900;
+  line-height: 1;
+  padding: 0.42rem 0.62rem;
+}
+
+.goldspire-date-card h3 {
+  margin-top: 0.7rem;
+  color: var(--ink);
+  font-size: clamp(1.65rem, 3vw, 2.35rem);
+}
+
+.goldspire-date-card p {
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
+.goldspire-date-card dl {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+  margin: 0;
+}
+
+.goldspire-date-card dl div {
+  min-width: 0;
+  border: 1px solid rgba(23, 16, 11, 0.12);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 250, 241, 0.72);
+  padding: 0.72rem;
+}
+
+.goldspire-date-card dt {
+  color: var(--ink-muted);
+  font-family: var(--mono);
+  font-size: max(0.74rem, 13px);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.goldspire-date-card dd {
+  margin: 0.18rem 0 0;
+  color: var(--ink);
+  font-weight: 850;
+  line-height: 1.3;
+}
+
+.goldspire-date-card .event-actions {
+  justify-content: end;
+}
+
+.goldspire-date-note {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  padding: clamp(1rem, 2.5vw, 1.35rem);
+}
+
+.goldspire-date-note h3 {
+  color: var(--ink);
+  font-size: clamp(1.35rem, 2vw, 1.65rem);
+}
+
+.goldspire-date-note p {
+  max-width: 68ch;
+  color: var(--ink-soft);
+  line-height: 1.55;
+}
+
 @media (max-width: 900px) {
+  .goldspire-future-dates-strip .wrap,
+  .goldspire-date-card {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .goldspire-future-dates-strip .event-actions,
+  .goldspire-date-card .event-actions {
+    justify-content: start;
+  }
+
+  .goldspire-dates-hero .wrap {
+    min-height: 25rem;
+  }
+
+  .goldspire-date-card dl {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   .goldspire-details-band .detail-layout {
     grid-template-columns: minmax(0, 1fr);
     gap: 1rem;
