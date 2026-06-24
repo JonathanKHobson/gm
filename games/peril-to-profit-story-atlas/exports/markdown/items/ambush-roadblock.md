@@ -1,0 +1,47 @@
+# Ambush Roadblock
+
+RAW export - entity:ambush-roadblock
+
+## Player-facing description
+Ambush Roadblock: A practical barricade built from felled branches, old signposts, and stolen route hardware.
+
+## Public role
+Improvised obstacle used by Bramble Union ambushers
+
+## Handout text
+Player-safe note: A practical barricade built from felled branches, old signposts, and stolen route hardware.
+
+## Raw source
+- Type: item
+- Role: Improvised obstacle used by Bramble Union ambushers
+- Summary: A practical barricade built from felled branches, old signposts, and stolen route hardware.
+- Tags: combat bramble road
+- Connections: Bramble Union Ambusher Bramble Union Claimrunner Goldspire Waymarkers
+- Inventory: lashed branches rope knots repurposed signpost
+- Loot: The materials suggest the reclaimers are using discarded corporate infrastructure against the route.
+- Name: Ambush Roadblock
+- Id: ambush-roadblock
+- Meta: Item / Asset ITEM assets/icons/item.png entity-item #39c5bb 07 Items and Clues entities item
+- Aliases: Ambush Roadblock barricade roadblock
+- Related: Bramble Union Ambusher Bramble Union Claimrunner Goldspire Waymarkers
+- Image Prompt: Private table TTRPG story atlas asset for Ambush Roadblock, Item / Asset. Role: Improvised obstacle used by Bramble Union ambushers. Summary: A practical barricade built from felled branches, old signposts, and stolen route hardware.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: A practical barricade built from felled branches, old signposts, and stolen route hardware.; use Ambush Roadblock as a concrete table object with texture, ownership, and a reason it matters now.
+- Wants: Give players a tangible handle on Bramble Union Ambusher, Bramble Union Claimrunner, Goldspire Waymarkers, whether they inspect, carry, return, trade, or refuse it.
+- Fears: Being treated as treasure clutter instead of evidence, memory, hospitality, or infrastructure with consequences.
+- Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.
+- Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.
+- Sample Dialogue: A practical barricade built from felled branches, old signposts, and stolen route hardware.
+- Equipment: lashed branches rope knots repurposed signpost
+- Search Or Loot: The materials suggest the reclaimers are using discarded corporate infrastructure against the route.
+- Gm Use: Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.
+- Future Hooks: Bring back as an echo if players made a strong choice involving this entity.
+- Robust: Ambush Roadblock: A practical barricade built from felled branches, old signposts, and stolen route hardware. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Give players a tangible handle on Bramble Union Ambusher, Bramble Union Claimrunner, Goldspire Waymarkers, whether they inspect, carry, return, trade, or refuse it. Being treated as treasure clutter instead of evidence, memory, hospitality, or infrastructure with consequences. Use when the scene needs a concrete object for players to inspect, carry, debate, or remember. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Ambush Roadblock and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge...
+- Mechanics: Discovery / Earn-It Mechanics Players can inspect, handle, keep, trade, reveal, or earn Ambush Roadblock when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A practical barricade built from felled branches, old signposts, and stolen route hardware. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-ambush-roadblock-engage-ambush-roadblock entity-ambush-roadblock Engage Ambush Roadblock Engage Ambush Roadblock Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Ambush Roadblock hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and...
+- Pronunciation: Ambush Roadblock
+- Short Pronunciation: Ambush Roadblock
+- Image: assets/entities/ambush-roadblock.webp
+- Image Asset Status: image_gen
+- Visual Gallery: primary Primary wiki image primary assets/entities/ambush-roadblock.webp Ambush Roadblock primary wiki image visual. Ambush Roadblock: Primary wiki image. image_gen True True
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 26955a8dc7d8892e | Source hash dac3370046ed077140fab2d6

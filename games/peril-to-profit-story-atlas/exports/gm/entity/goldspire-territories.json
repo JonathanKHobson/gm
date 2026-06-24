@@ -1,0 +1,74 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "goldspire-territories",
+  "title": "Goldspire Territories",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "4fa28fedbebba243",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Goldspire is not one city. It is a huge territory of paved capitals, painted forest roads, mossy villages, quarry towns, river markets, ridge relays, and old magic under newer paperwork."
+    },
+    {
+      "title": "Public role",
+      "body": "Run Goldspire Territories as the frontier and extraction hinterland outside Athervast: Emeris dispatches the one-shot job, Sablewood carries the road risk, Hush holds the immediate ward problem, and the faraway grand capital benefits from a safety economy it barely has to see."
+    },
+    {
+      "title": "Handout text",
+      "body": "A vast bright frontier-fantasy territory of walled cities, giant forests, wet villages, relay towers, old roads, and cheerful safety promises that never quite cover the cracks."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Keep the satire pointed at institutional behavior, not vulnerable people. Reveal function through assets, language, and consequences."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Location Exploration Mechanics",
+        "Player Safe: Players can navigate, search, read customs, inspect hazards Goldspire Territories when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: A vast bright frontier-fantasy territory of walled cities, giant forests, wet villages, relay towers, old roads, and cheerful safety promises that never quite cover the cracks. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-goldspire-territories-engage-goldspire-territories entity-goldspire-territories Engage Goldspire Territories Engage Goldspire Territories Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of Goldspire Territories hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Condition Options: No official condition unless a hazard creates Hidden, Restrained, or Vulnerable",
+        "Search Loot: Regional lore."
+      ]
+    },
+    {
+      "title": "Profile",
+      "items": [
+        "Schema Version: location-profile-v1",
+        "Id: goldspire-territories",
+        "Entity Id: goldspire-territories",
+        "Source: Goldspire Location hardening pass + one-shot source packets",
+        "Auto Surface: True",
+        "Priority: strong",
+        "Player Safe: Goldspire Territories A vast bright frontier-fantasy territory of walled cities, giant forests, wet villages, relay towers, old roads, and cheerful safety promises that never quite cover the cracks. A vast bright frontier-fantasy territory of walled cities, giant forests, wet villages, relay towers, old roads, and cheerful safety promises that never quite cover the cracks. Goldspire is not one city. It is a huge territory of paved capitals, painted forest roads, mossy villages, quarry towns, river markets, ridge relays, and old magic under newer paperwork. Goldspire Territories stretches so wide that no single horizon can explain it. One road may run through honey-stone city gates and festival stalls; another sinks into forest soil beneath trees as wide as houses; another follows canals past moss farms, wet porches, and lanterns reflected in black water. The place is bright, loud...",
+        "Block1: Goldspire Territories Run Goldspire Territories as the frontier and extraction hinterland outside Athervast: Emeris dispatches the one-shot job, Sablewood carries the road risk, Hush holds the immediate ward problem, and the faraway grand capital benefits from a safety economy it barely has to see. A vast bright frontier-fantasy territory of walled cities, giant forests, wet villages, relay towers, old roads, and cheerful safety promises that never quite cover the cracks. Names the table's arena without pretending the corporations are the place itself. The route from Emeris through Sablewood to Hush shows how outer communities rely on infrastructure that rich centers describe as someone else's local problem. Names the table's arena without pretending the corporations are the place itself. The route from Emeris through Sablewood to Hush shows how outer communities rely on infrastructure...",
+        "Block2: Corporate waymarkers sit on old trail bones. The road looks maintained until roots, moss, and animal silence contradict it. Some signs are fresh paint over older local marks. The forest quiets in waves, as if attention is moving ahead of the party. Detail Sap under varnish, rain caught in bark furrows, wet canvas, and the metallic tang of route fixtures. Detail Tree bark feels ridged like old stone; the road mud clings with fine pale grit. Goldspire is not one city. It is a huge territory of paved capitals, painted forest roads, mossy villages, quarry towns, river markets, ridge relays, and old magic under newer paperwork. Goldspire Territories stretches so wide that no single horizon can explain it. One road may run through honey-stone city gates and festival stalls; another sinks into forest soil beneath trees as wide as houses; another follows canals past moss farms, wet porches...",
+        "Block3: waymarkers liability placards old trail signs root-bent road toll posts Instinct to notice unnatural quiet. Knowledge to separate local trail marks from corporate overlays. Finesse to inspect route fixtures without tripping alarms. Local residents or workers appropriate to the place hybrid forest wildlife, courier birds, canal frogs, ridge goats, market beetles, domestic pack animals No default combatant; add only if the scene introduces one Emeris Crown Holdings Goldwater Financial Institution The Grail Zephra Exchange Hexmart Food, tools, route signs, local goods, or scene-specific clues sablewood giants, wetland moss crops, quarry scrub, river reeds, glowfungus, flowered ward grasses regional courier exchange roadside ward charm sellers food and tool markets capital record offices",
+        "Block4: Athervast sells calm as civic identity while outer places pay to keep danger away from that story. Courier brands, protection vendors, and route authorities move faster than public truth. Villages keep their own names, customs, and memory underneath official classifications. Trusting branded signs can miss older warnings. Noise carries strangely through canopy lanes. The route can hide who benefits from delay. Birdsong cuts off in a clean line across the road. A cheerful placard describes danger as customer experience. A waymarker rings like a tiny bell when the Keystone passes. The region is sold as managed frontier opportunity; lived reality is older, wetter, funnier, more communal, and less obedient. Let the place be funny through overconfident signage, awkward forms, stubborn local habits, and magic that refuses corporate language.",
+        "Block5: Emeris Emeris Capital Gate Athervast Sablewood™ Logistics Preserve Hush Open Vale™ Ritual Site The Goldspire Relay Emeris Crown Holdings Goldwater Financial Institution The Grail Zephra Exchange Hexmart S00-01 S01-01 S03-01 S04-04 S05-07 S06-02 S01-02 S01-03 S01-04 S04-01 S05-03 MAP-LOC-goldspire-territories MAP-LOC-emeris-capital MAP-LOC-sablewoodtm-logistics-preserve MAP-LOC-hush MAP-LOC-open-valetm-ritual-site MAP-LOC-the-goldspire-relay Kazrak Labyrinth and wider desert/mountain regions remain future-seed geography until Kyle confirms exact placement.",
+        "Block6: Describe what the PCs can see, smell, hear, touch, ask about, or infer. Do not explain hidden infrastructure or corporate thesis until play earns it. surface A vast bright frontier-fantasy territory of walled cities, giant forests, wet villages, relay towers, old roads, and cheerful safety promises that never quite cover the cracks. table clue The route from Emeris through Sablewood to Hush shows how outer communities rely on infrastructure that rich centers describe as someone else's local problem. earned truth Reveal deeper system meaning through NPC answers, evidence, or player questions, not narration dumps.",
+        "What Here: Local residents or workers appropriate to the place hybrid forest wildlife, courier birds, canal frogs, ridge goats, market beetles, domestic pack animals No default combatant; add only if the scene introduces one Emeris Crown Holdings Goldwater Financial Institution The Grail Zephra Exchange Hexmart Food, tools, route signs, local goods, or scene-specific clues sablewood giants, wetland moss crops, quarry scrub, river reeds, glowfungus, flowered ward grasses regional courier exchange roadside ward charm sellers food and tool markets capital record offices",
+        "Living Place: location-living-place-v1 world-scale territory; GM-facing note: think one-to-four Earths worth of playable region inside a far larger Terra Goldspire should feel like a full living world layer, not a single city: Emeris route comfort, faraway Athervast luxury, forest roads, wet villages, quarries, markets, relays, and old magic all breathing at different speeds. Emeris territory capital Honey-stone walls, courier markets, and a great forest gate make the one-shot's starting city feel safe, busy, and proud. Use as the active dispatch layer and first city texture. Athervast grand capital A faraway spiral metropolis of gold streets, sky-illusions, elite rings, and outer manufactories. Use as distant world context, not as the one-shot path. Sablewood belt A vast old-forest road system where trees are larger than wagons and the route feels negotiated rather than built. Use for travel...",
+        "Districts Or Subareas: Emeris territory capital Honey-stone walls, courier markets, and a great forest gate make the one-shot's starting city feel safe, busy, and proud. Use as the active dispatch layer and first city texture. Athervast grand capital A faraway spiral metropolis of gold streets, sky-illusions, elite rings, and outer manufactories. Use as distant world context, not as the one-shot path. Sablewood belt A vast old-forest road system where trees are larger than wagons and the route feels negotiated rather than built. Use for travel, ecology, hybrid wildlife, and off-road consequences. Hush wetlands A communal village region of canals, moss farms, low lanterns, and people who know each other too well to waste words. Use for social trust, food systems, and local memory. Open Vale stones A broad ritual landscape where infrastructure and sacred geography overlap. Use for finale stakes and visible...",
+        "Sensory Signature: Detail Sap under varnish, rain caught in bark furrows, wet canvas, and the metallic tang of route fixtures. Detail Tree bark feels ridged like old stone; the road mud clings with fine pale grit.",
+        "Visual Assets: location-visual-assets-v1 goldspire-territories Goldspire Territories Bright comedic frontier high-fantasy concept art for a Daggerheart-adjacent tabletop RPG. Medieval/Renaissance fantasy technology only: hand tools, wagons, ropes, parchment notices, ward-stones, carved wood, brass, cloth, stone, moss, lanterns, and magic. The tone is colorful, playful, slightly absurd, and vivid, like a fantasy corporate frontier comedy rather than a grim drama. No sci-fi machinery, no 1800s/Victorian clothing, no modern suits, no guns, no logos, no readable text, no watermark, no border, no collage. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/goldspire-territories MAP-LOC-goldspire-territories massive regional/world-scale territory continent-scale illustrated regional atlas map profile_scene Profile image ready /Users/kyle/Documents/My Games/Peril To...",
+        "Imagine It Like: Imagine a bright fantasy frontier the size of a whole country: a little Emerald City polish in the far capital, a National Parks map full of impossible biomes, and a roadside brochure that keeps smiling while the ink sweats. The wonder is real; the sales pitch is just louder than the birds."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 4fa28fedbebba243 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "damage-thresholds",
+  "kind": "rule",
+  "title": "Damage Thresholds",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "combat",
+  "hook": "Numbers used to determine how many HP are marked from damage.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Numbers used to determine how many HP are marked from damage."
+    },
+    {
+      "label": "How It Works",
+      "body": "Damage Thresholds: Numbers used to determine how many HP are marked from damage."
+    },
+    {
+      "label": "Try It",
+      "body": "What happens when I take damage?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use after a hit deals damage.",
+    "Compare the damage to thresholds, then mark HP by severity.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:damage-thresholds",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "1690a652443500c1",
+  "generated_at": "2026-06-23T21:40:58"
+}

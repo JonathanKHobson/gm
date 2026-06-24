@@ -1,0 +1,65 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "slide",
+  "id": "MAP-LOC-underroot",
+  "title": "MAP-LOC-underroot - Underroot Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "9dd87fd8f412a6ee",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low lanterns, and people who survive below the route economy."
+    },
+    {
+      "title": "Public objective",
+      "body": "Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low lanterns, and people who survive below the route economy."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: MAP-LOC-underroot",
+        "Type: map",
+        "Maptype: environment",
+        "Sectionid: STORY",
+        "Sectiontitle: Map Board",
+        "Title: Underroot Location Map",
+        "Shorttitle: Underroot",
+        "Order: 850.4",
+        "Playersafe: True",
+        "Completioneligible: False",
+        "Image: assets/maps/MAP-LOC-underroot-gm.webp",
+        "Alt: Underroot location map board.",
+        "Caption: Visual reference for Underroot.",
+        "Mood: spatial reference and location texture",
+        "Gmgoal: Keep hidden communities human, practical, and self-protecting.",
+        "Publicobjective: Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low lanterns, and people who survive below the route economy.",
+        "Readaloud: Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low lanterns, and people who survive below the route economy.",
+        "Playertakeaway: Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low lanterns, and people who survive below the route economy.",
+        "Storytakeaway: Underroot shows who lives under the official map.",
+        "Mechanictakeaway: Use only if spotlighted; do not turn it into loot space by default.",
+        "Entityids: underroot centi-beetles spidermanders hellbender",
+        "Entities: underroot Underroot location Location assets/icons/location.png assets/location-visuals/underroot/profile_scene_v02.webp UN-der-root A concealed web of tunnels and homes carved among roots where off-ledger communities survive below the dangerous surface. Keep hidden communities human, practical, and self-protecting. A concealed web of tunnels and homes carved among roots where off-ledger communities survive below the dangerous surface.; introduce it with a sensory palette, who feels safe there, and what has been neglected. Pull player attention toward the choices, clues, and relationships tied to Sablewood™ Logistics Preserve, Underroot Tunnels, Root's Hollow. A concealed web of tunnels and homes carved among roots where off-ledger communities survive below the dangerous surface. centi-beetles Centi-Beetles creature Creature / Animal assets/icons/creature.png assets/creature-images/centi-beetles/portrait_base.webp SEN-tee BEE-tuhlz Giant centi-beetles chew root and loam into low tunnels, making the ground sound busy even when nobody is walking. Tunnel-carving burrower Giant centi-beetles chew root and loam into low tunnels, making the ground sound busy even when nobody is walking...",
+        "Locationids: underroot",
+        "Fearspends: A lantern is covered all at once. A root door closes before the party sees who moved it.",
+        "Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth context stay off the player display.",
+        "Mapdata: MAP-LOC-underroot environment Underroot Location Map underroot centi-beetles spidermanders hellbender assets/location-visuals/underroot/profile_scene_v02.webp Visual reference for Underroot. Underroot location map board. Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low lanterns, and people who survive below the route economy. Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low lanterns, and people who survive below the route economy. Keep hidden communities human, practical, and self-protecting. Root arches and carved shelves form rooms where the forest is ceiling, wall, and witness. Lanterns are shielded so light does not betray doors above. Air holes are hidden inside harmless knots. Leaf-drip, insects, distant wingbeats, and animal calls that stop or resume according to pressure, not comfort. Cool earth, root sap, cooking smoke kept low, and stored herbs. Walls are ribbed with living root; touching them feels like touching something asleep. The forest is populated even when no NPC is present; silence, birds, insects, and tracks are actionable signals. Root arches and carved shelves form rooms where the forest is ceiling...",
+        "Livetools: scene MAP-LOC-underroot",
+        "Takeawayhelp: Player takeaway: MAP-LOC-underroot Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low lanterns, and people who survive below the route economy. Give the player one concrete way back into play: a question, a description, a choice, or a pass-and-return moment. \"Your takeaway right now is this: Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low lanterns, and people who survive below the route economy.\" \"If you are not sure what to do next, you can ask a question, describe what your character notices, or tell me what your character tries.\" \"If you are not sure what to do next, you can ask a question, describe what your character notices, or tell me what your character tries.\" Give the player one concrete way back into play: a question, a description, a choice, or a pass-and-return moment. Story takeaway: MAP-LOC-underroot Underroot shows who lives under the official map. Anchor the answer in the visible fiction on this slide: who is present, what can be observed, what has already been said, and what remains uncertain. \"Here is what your characters know right now: Underroot shows who lives under the official map.\" \"If you want more...",
+        "Playerbeats: assets/maps/MAP-LOC-underroot-player.webp Underroot location map board. MAP-LOC-underroot environment Underroot assets/maps/MAP-LOC-underroot-player.webp assets/maps/MAP-LOC-underroot-player.webp Visual reference for Underroot. Underroot location map board. Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low lanterns, and people who survive below the route economy. Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low lanterns, and people who survive below the route economy. MAP-LOC-underroot-map-only Map only Underroot map-only assets/maps/MAP-LOC-underroot-player.webp Underroot location map board. MAP-LOC-underroot environment Underroot assets/maps/MAP-LOC-underroot-player.webp assets/maps/MAP-LOC-underroot-player.webp Visual reference for Underroot. Underroot location map board. Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low lanterns, and people who survive below the route economy. Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low lanterns, and people who survive below the route economy. MAP-LOC-underroot-map-text Map + text Underroot Underroot is not a dungeon; it is a...",
+        "Beatautoplayeligible: True",
+        "Beatautoplaydefault: False",
+        "Beatautoplayintervalms: 10000",
+        "Playersafeprojection: MAP-LOC-underroot map Underroot assets/maps/MAP-LOC-underroot-player.webp Underroot location map board. Visual reference for Underroot. spatial reference and location texture Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low lanterns, and people who survive below the route economy. Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low lanterns, and people who survive below the route economy. MAP-LOC-underroot environment Underroot assets/maps/MAP-LOC-underroot-player.webp assets/maps/MAP-LOC-underroot-player.webp Visual reference for Underroot. Underroot location map board. Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low lanterns, and people who survive below the route economy. Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low lanterns, and people who survive below the route economy. assets/maps/MAP-LOC-underroot-player.webp Underroot location map board. MAP-LOC-underroot environment Underroot assets/maps/MAP-LOC-underroot-player.webp assets/maps/MAP-LOC-underroot-player.webp Visual reference for Underroot. Underroot location map board. Underroot is not a dungeon; it is a...",
+        "Slidenumber: 85",
+        "Totalslides: 110"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 9dd87fd8f412a6ee | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

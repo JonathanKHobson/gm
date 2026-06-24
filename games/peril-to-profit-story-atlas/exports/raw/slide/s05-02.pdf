@@ -1,0 +1,603 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2692 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S05-02 - The Ritual Begins) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The Custodian lets out a shrill cry. "The Keystone has finally responded! Surround me,) Tj
+T*
+(the ritual must begin or I'll lose the pathway! Hurry!" Her glow swells, her eyes roll) Tj
+T*
+(back, and the carriage lifts a foot off the ground. From the woods comes a chorus of) Tj
+T*
+(unearthly screeches. The ground rumbles. Rusted swords break the surface as dead things) Tj
+T*
+(claw their way up. In the distance, two shapes drift toward you, screeching, wrong. Hold) Tj
+T*
+(the line until she's done.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Begin the defense and understand the countdown.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: S05-02) Tj
+T*
+(- Type: scene) Tj
+T*
+(- Sectionid: ACT-FIVE) Tj
+T*
+(- Sectiontitle: Act Five: The Ward Renewal) Tj
+T*
+(- Title: The Ritual Begins) Tj
+T*
+(- Shorttitle: Countdown Starts) Tj
+T*
+(- Order: 602) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: True) Tj
+T*
+(- Image: assets/scenes/S05-02-short-rest-before-the-storm.png) Tj
+T*
+(- Alt: Short Rest Before the Storm scene art for The Ward Renewal.) Tj
+T*
+(- Caption: The ritual becomes visible pressure: protect the Custodian and drive the) Tj
+T*
+(  countdown to zero.) Tj
+T*
+(- Mood: The Ward Renewal) Tj
+T*
+(- Gmgoal: Start the ritual, show the first threats, and put the countdown die on the) Tj
+T*
+(  table.) Tj
+T*
+(- Publicobjective: Begin the defense and understand the countdown.) Tj
+T*
+(- Readaloud: The Custodian lets out a shrill cry. "The Keystone has finally responded!) Tj
+T*
+(  Surround me, the ritual must begin or I'll lose the pathway! Hurry!" Her glow) Tj
+T*
+(  swells, her eyes roll back, and the carriage lifts a foot off the ground. From the) Tj
+T*
+(  woods comes a chorus of unearthly screeches. The ground rumbles. Rusted swords break) Tj
+T*
+(  the surface as dead things claw their way up. In the distance, two shapes drift) Tj
+T*
+(  toward you, screeching, wrong. Hold the line until she's done.) Tj
+T*
+(- Gmnotes: Market Correction is available as a GM pressure valve, not player-facing) Tj
+T*
+(  terminology.) Tj
+T*
+(- Gmscript: Say: "d8, starting at 8. Defeat an enemy or remove a real pressure, it) Tj
+T*
+(  ticks down one. She gets hit or exposed, it ticks up one. At zero, the ritual is) Tj
+T*
+(  done and you win. The math is simple; staying alive is not.") Tj
+T*
+(- Gmreadaloud: "The Keystone has finally responded! Surround me, the ritual must begin) Tj
+T*
+(  or I'll lose the pathway!" The carriage lifts a foot off the ground. Rusted swords) Tj
+T*
+(  break the surface as dead things claw their way up. Two shapes drift in the) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4041 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  distance, screeching, wrong.) Tj
+T*
+(- Gmchecklist: Place Custodian center, PCs around her, 4 rusted-sword skeletons Close,) Tj
+T*
+(  and 2 screeching wraiths Far. Set ritual_countdown=8. If ward_stability=stable,) Tj
+T*
+(  soften the first exposure or give a prepared defense a free success beat; if fragile) Tj
+T*
+(  or missing, full canon pressure. If ritual_prep=ready, let the prepared PC explain) Tj
+T*
+(  the countdown in character. Initialize protected_whom as unresolved and start) Tj
+T*
+(  watching who covers whom.) Tj
+T*
+(- Gmprivate: Use description before names: rusted-sword dead, floating screeching) Tj
+T*
+(  wraiths. Names and deeper meaning can come after the table understands what they) Tj
+T*
+(  see.) Tj
+T*
+(- Playertakeaway: This is the fight that ends the story: keep her safe and run the) Tj
+T*
+(  clock down.) Tj
+T*
+(- Storytakeaway: The ritual is live and irreversible now; the only way out is through.) Tj
+T*
+(- Mechanictakeaway: The countdown die is the win condition: d8 starts at 8, down on) Tj
+T*
+(  enemy defeat or pressure removed, up when the Custodian is hit.) Tj
+T*
+(- Rollcards: s05-02-use-the-short-rest-with-intention S05-02 Use the short rest with) Tj
+T*
+(  intention Use the short rest with intention Presence Finesse Knowledge Presence) Tj
+T*
+(  Finesse, Knowledge 10 Presence tends emotions; Finesse repairs gear; Knowledge) Tj
+T*
+(  prepares the field. The rest becomes bookkeeping instead of care before danger.) Tj
+T*
+(  Critical Success: best possible version of the action; gain Hope and clear 1 Stress.) Tj
+T*
+(  Add an extra benefit that follows from the fiction. Success with Hope: the PC gets) Tj
+T*
+(  what they wanted and gains Hope. Keep the position clean or generous. Success with) Tj
+T*
+(  Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost,) Tj
+T*
+(  complication, or pressure. Failure with Hope: the PC does not get the full result,) Tj
+T*
+(  but gains Hope and receives a useful thread, clue, or safer next option. Failure) Tj
+T*
+(  with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from) Tj
+T*
+(  the fiction. The rest becomes bookkeeping instead of care before danger. Use a hard) Tj
+T*
+(  complication, lost time, worse position, GM Fear, or mark Stress. Apply an official) Tj
+T*
+(  condition only if the fiction and rules justify it. The attempt falls short, but a) Tj
+T*
+(  partial thread appears. Offer one clue, weak position, or...) Tj
+T*
+(- Entityids: open-valetm-ritual-site whitefire-custodian keystone-asset old-sable) Tj
+T*
+(  short-rest khari-nix) Tj
+T*
+(- Entities: open-valetm-ritual-site Open Vale? Ritual Site location Location) Tj
+T*
+(  assets/icons/location.png assets/location-visuals/open-valetm-ritual-) Tj
+T*
+(  site/profile_scene_v02.png OH-pen vayl RICH-oo-ul site An ancient circular clearing) Tj
+T*
+(  of standing stones and ward-light, with a freshly painted company marker staked at) Tj
+T*
+(  its edge. Make the final arena feel sacred, neglected, and operational all at once.) Tj
+T*
+(  Ancient circular clearing rebranded by Goldspire; where the ward renewal happens.;) Tj
+T*
+(  introduce it with a sensory palette, who feels safe there, and what has been) Tj
+T*
+(  neglected. Pull player attention toward the choices, clues, and relationships tied) Tj
+T*
+(  to Whitefire Custodian, Keystone Asset, Legacy Security Skeleton. Ancient circular) Tj
+T*
+(  clearing rebranded by Goldspire; where the ward renewal happens. whitefire-custodian) Tj
+T*
+(  Whitefire Custodian npc NPC / Ally assets/icons/npc.png assets/npc-images/whitefire-) Tj
+T*
+(  custodian/portrait_base.png WHITE-fire kus-TOH-dee-un Old faerie-like custodian who) Tj
+T*
+(  maintains the ward protecting Hush. Truth-bearer for the Keystone reveal. Whitefire) Tj
+T*
+(  Custodian an old faerie-like ward keeper whose exhaustion glows around the edges) Tj
+T*
+(  Ancient kindness running on fumes, glowing a little brighter whenever...) Tj
+T*
+(- Locationids: open-valetm-ritual-site old-sable) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4014 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Statecontrols: ritual_prep Ritual Prep select unready ready keystone_understanding) Tj
+T*
+(  Keystone Understanding select surface deep protected_whom Protected Whom select) Tj
+T*
+(  unresolved custodian party hush shared strixwolf_disposition Strixwolf Disposition) Tj
+T*
+(  select unresolved calm hostile killed strixwolf_outcome Strixwolf Outcome select) Tj
+T*
+(  unresolved calmed helped avoided attacked killed strixwolf_trust Strixwolf Trust) Tj
+T*
+(  number 3 strixwolf_blood_debt Strixwolf Blood Debt checkbox bramble_outcome Bramble) Tj
+T*
+(  Outcome select unresolved killed captured spared negotiated escaped let_cargo) Tj
+T*
+(  bramble_truth_learned Bramble Truth Learned checkbox package_status Package Status) Tj
+T*
+(  select held lost hush_trust Hush Trust select low neutral high custodian_route) Tj
+T*
+(  Custodian Route select unknown safe dangerous ward_awareness Ward Awareness select) Tj
+T*
+(  none seed aware festival_boon Festival Boon select none charm favor market_find) Tj
+T*
+(  goodwill custodian_trust Custodian Trust select low neutral high ward_stability Ward) Tj
+T*
+(  Stability select fragile stable hush_clues Hush Clues select none custodian_route) Tj
+T*
+(  ward_seed corporate_seam farm_seed market_rumor multiple ritual_countdown Ritual) Tj
+T*
+(  Countdown number 10 8 ritual_outcome Ritual Outcome select unresolved...) Tj
+T*
+(- Mechanicids: short-rest stress armor-slots hope countdown fear difficulty action-) Tj
+T*
+(  roll table-spotlight) Tj
+T*
+(- Playerquestions: Who stands closest to her? Who calls the first target? Who watches) Tj
+T*
+(  the far shapes instead of the skeletons?) Tj
+T*
+(- Relationshipprompts: Which PC quietly checks on someone else here? Who disagrees) Tj
+T*
+(  about the right thing to do without breaking trust?) Tj
+T*
+(- Ownershipprompt: Name one detail in Short Rest Before the Storm that belongs to your) Tj
+T*
+(  character's point of view.) Tj
+T*
+(- Fearspends: Spend Fear to tick the ritual countdown, expose the Custodian, activate) Tj
+T*
+(  ward backlash, or trigger Market Correction. Tick the Ritual Countdown the wrong) Tj
+T*
+(  direction or expose the Custodian. Trigger Market Correction, Pass-Through, Memory) Tj
+T*
+(  Delve, or Group Attack when fiction supports it.) Tj
+T*
+(- Choicesconsequences: Surround the Custodian. The party starts with bodies between) Tj
+T*
+(  her and danger. Good positioning can prevent the first +1 tick. protected_whom) Tj
+T*
+(  begins with Custodian protection. protected_whom=custodian Reward: safer center.) Tj
+T*
+(  player-visible Prioritize early defeats. The countdown starts moving down fast. Each) Tj
+T*
+(  defeated adversary ticks ritual_countdown -1. The fight feels winnable before wraith) Tj
+T*
+(  pressure escalates. ritual_countdown -1 per defeat Reward: clock momentum. player-) Tj
+T*
+(  visible Leave her exposed. A threat can reach the center. Custodian hit/exposure) Tj
+T*
+(  ticks ritual_countdown +1. custodian_fate may worsen by S05-06. ritual_countdown +1;) Tj
+T*
+(  custodian_fate trends drained Penalty: delayed ritual. player-visible) Tj
+T*
+(- Lootclues: One named preparation boon One final question answered) Tj
+T*
+(- Handoutids: Custodian composure) Tj
+T*
+(- Sourcesceneslug: S05-02-short-rest-before-the-storm) Tj
+T*
+(- Sourcefiles: dist/Act5_Upgrade_Packet/ACT5_SCENE_RESEARCH.md) Tj
+T*
+(  dist/Act5_Upgrade_Packet/ACT5_MAPS_AND_LOCATIONS.md) Tj
+T*
+(- References: Ritual arena #MAP-S05-03) Tj
+T*
+(- Storyscope: Perceived antagonist: the forest. True antagonist: the corporate lie) Tj
+T*
+(  about the forest. The players never confront it directly. They are meant to feel it) Tj
+T*
+(  by the end. Every act offers at least one guaranteed and one earned hint that the) Tj
+T*
+(  danger is manufactured and the forest is not the enemy. Soul-Audit Wraiths bear) Tj
+T*
+(  audit glyphs and say, "Unlicensed soul-resonance detected. Submit for audit.") Tj
+T*
+(  REFLAVOR GUARANTEED A defeated wraith leaves a Soulspire compliance tag or coil-) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4377 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  credit token instead of natural remains. ADD GUARANTEED Wraiths ignore forest) Tj
+T*
+(  creatures and home only on ritual soul-magic. ADD EARNED Instinct Medium 15 A player) Tj
+T*
+(  can read the markings and name Soulspire without the GM naming it first. ADD EARNED) Tj
+T*
+(  Knowledge Medium 15 Optional flag: Legacy Skeletons carry scraps of old corporate) Tj
+T*
+(  credentials. FLAG SEED Instinct: target logic. Knowledge: read markings. ACT5 Act 5:) Tj
+T*
+(  Open Vale defense 200 2:40 to 3:20 3:20 countdown 8, skeletons, wraiths, Market) Tj
+T*
+(  Correction Lower the countdown start to 6; cap wraith reinforcements.) Tj
+T*
+(- Livetools: encounter S05-02 MAP-S05-03 pages/combat/s05-03.html) Tj
+T*
+(- Percharacterlayer: marlowe-fairwind Marlowe Fairwind Assist the opening Can lend) Tj
+T*
+(  power to the Custodian's opening without making the plot depend on her. Knowledge 13) Tj
+T*
+(  May ease the opening pressure or explain the countdown diegetically if ritual_prep) Tj
+T*
+(  is ready. Can make the rules feel like fiction. Marlowe, you could lend power to her) Tj
+T*
+(  opening and ease the clock. Want to try? garrick-reed Garrick Reed Threat read) Tj
+T*
+(  Instantly triages the field: four melee dead, two ranged soul-things, center to) Tj
+T*
+(  protect. Can call targets and priorities. Garrick, you've read a hundred fights.) Tj
+T*
+(  Want to call the party's targets? khari-nix Khari Nix Anchor Can plant herself as) Tj
+T*
+(  the Custodian's body-shield. Can become the formation's immovable center without) Tj
+T*
+(  being the only solution. Khari, you're the wall between her and the dead. Want to) Tj
+T*
+(  anchor on the Custodian? varian-soto Varian Soto Far shapes Can distinguish rusted) Tj
+T*
+(  bodies from soul-cold wraith pressure by sound and smell. Can warn the table which) Tj
+T*
+(  threat is about to matter. Varian, the far shapes sound wrong in a different way.) Tj
+T*
+(  What do you warn them about? barnacle Barnacle Loose lane Sees the lane nobody) Tj
+T*
+(  official planned for. Can cover an exposed angle or exploit terrain...) Tj
+T*
+(- Takeawayhelp: Player takeaway This is the fight that ends the story: keep her safe) Tj
+T*
+(  and run the clock down. "Surround her. Drop what comes. Do not let them touch her.) Tj
+T*
+(  Get the die to zero." "Pick a threat, body-block the Custodian, or call a target.) Tj
+T*
+(  Every enemy down is a tick toward the end." Make the next action obvious for) Tj
+T*
+(  overwhelmed players. countdown fear difficulty Story takeaway The ritual is live and) Tj
+T*
+(  irreversible now; the only way out is through. "No stopping this now. She is) Tj
+T*
+(  committed. The clock is running, and it runs on how well you protect her." "The dead) Tj
+T*
+(  are clawing up and the wraiths are drifting in because the magic woke something that) Tj
+T*
+(  answers pressure." Do not name the corporate meaning yet. countdown fear difficulty) Tj
+T*
+(  Mechanic takeaway The countdown die is the win condition: d8 starts at 8, down on) Tj
+T*
+(  enemy defeat or pressure removed, up when the Custodian is hit. "d8, starting at 8.) Tj
+T*
+(  Defeat an enemy, it ticks down one. She gets hit, it ticks up one. At zero, the) Tj
+T*
+(  ritual is done and you have won." "ward_stability stable means a kinder opening;) Tj
+T*
+(  fragile or missing means full pressure. ritual_prep ready means someone can explain) Tj
+T*
+(  this before the first hit." Keep updates visual and verbal...) Tj
+T*
+(- Playerbeats: s05-02-response Response The Keystone responds) Tj
+T*
+(  assets/scenes/S05-02-short-rest-before-the-storm.png Short Rest Before the Storm) Tj
+T*
+(  scene art for The Ward Renewal. The Custodian cries out, the Keystone answers, and) Tj
+T*
+(  the carriage lifts from the ground. The Custodian cries out, the Keystone answers,) Tj
+T*
+(  and the carriage lifts from the ground. The Custodian cries out, the Keystone) Tj
+T*
+(  answers, and the carriage lifts from the ground. text-first s05-02-dead-rise Threats) Tj
+T*
+(  The dead rise assets/scenes/S05-02-short-rest-before-the-storm.png Short Rest Before) Tj
+T*
+(  the Storm scene art for The Ward Renewal. Rusted swords break the surface as dead) Tj
+T*
+(  things claw their way up. Two wrong shapes drift from the woods. Rusted swords break) Tj
+T*
+(  the surface as dead things claw their way up. Two wrong shapes drift from the woods.) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 4029 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Rusted swords break the surface as dead things claw their way up. Two wrong shapes) Tj
+T*
+(  drift from the woods. text-first s05-02-countdown Countdown The die hits the table) Tj
+T*
+(  assets/scenes/S05-02-short-rest-before-the-storm.png Short Rest Before the Storm) Tj
+T*
+(  scene art for The Ward Renewal. The countdown starts at 8. Defeat threats to move it) Tj
+T*
+(  down; protect the Custodian so it does not move up. The countdown starts...) Tj
+T*
+(- Gmbeats: s05-02-response Response The Keystone responds Say: "The ritual is live.) Tj
+T*
+(  She cannot stop now without losing the pathway." The Custodian cries out, the) Tj
+T*
+(  Keystone answers, and the carriage lifts from the ground. The party crosses from) Tj
+T*
+(  prep into irreversible action. The scene shifts to countdown play. Players know the) Tj
+T*
+(  ritual has begun. Player takeaway Players know the ritual has begun. "The ritual is) Tj
+T*
+(  live. She cannot stop now without losing the pathway." "The table-facing answer is:) Tj
+T*
+(  Players know the ritual has begun." Use this beat to give the players one visible) Tj
+T*
+(  next action: protect the center, read the field, spend prep, name who they shield,) Tj
+T*
+(  or choose what truth leaves with them. countdown Story takeaway The party crosses) Tj
+T*
+(  from prep into irreversible action. "The ritual is live. She cannot stop now without) Tj
+T*
+(  losing the pathway." "The story answer is: The party crosses from prep into) Tj
+T*
+(  irreversible action." Tie the answer to a visible Act 5 consequence: the ward) Tj
+T*
+(  steadies, the Custodian suffers, Hush is protected, or the final report changes who) Tj
+T*
+(  owns the truth. countdown Mechanic takeaway The scene shifts to countdown play. "The) Tj
+T*
+(  ritual is live. She cannot stop now without losing the...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 8500) Tj
+T*
+(- Playersafeprojection: S05-02 scene The Ritual Begins assets/scenes/S05-02-short-) Tj
+T*
+(  rest-before-the-storm.png Short Rest Before the Storm scene art for The Ward) Tj
+T*
+(  Renewal. The ritual becomes visible pressure: protect the Custodian and drive the) Tj
+T*
+(  countdown to zero. The Ward Renewal Begin the defense and understand the countdown.) Tj
+T*
+(  The Custodian lets out a shrill cry. "The Keystone has finally responded! Surround) Tj
+T*
+(  me, the ritual must begin or I'll lose the pathway! Hurry!" Her glow swells, her) Tj
+T*
+(  eyes roll back, and the carriage lifts a foot off the ground. From the woods comes a) Tj
+T*
+(  chorus of unearthly screeches. The ground rumbles. Rusted swords break the surface) Tj
+T*
+(  as dead things claw their way up. In the distance, two shapes drift toward you,) Tj
+T*
+(  screeching, wrong. Hold the line until she's done. s05-02-response Response The) Tj
+T*
+(  Keystone responds assets/scenes/S05-02-short-rest-before-the-storm.png Short Rest) Tj
+T*
+(  Before the Storm scene art for The Ward Renewal. The Custodian cries out, the) Tj
+T*
+(  Keystone answers, and the carriage lifts from the ground. The Custodian cries out,) Tj
+T*
+(  the Keystone answers, and the carriage lifts from the ground. The Custodian cries) Tj
+T*
+(  out, the Keystone answers, and the carriage lifts from the ground. text-first...) Tj
+T*
+(- Companionmapids: MAP-S05-03 MAP-LOC-open-valetm-ritual-site MAP-LOC-old-sable) Tj
+T*
+(- Slidenumber: 66) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+(- Spotlights: SPOT-M-COUNTDOWN the-countdown the-countdown M18 S05-02 high mandatory) Tj
+T*
+(  scene-enter The Ritual Countdown The finale clock is teachable math. Start the) Tj
+T*
+(  countdown at 8. Defeat an adversary or neutralize meaningful pressure: -1. Custodian) Tj
+T*
+(  hit or exposed: +1. When it reaches 0, the ritual completes. Countdown mechanics) Tj
+T*
+(  wiki/mechanic/the-countdown teach-by-example Make the finale win condition visible) Tj
+T*
+(  to the table. mechanic defer-if-clock-critical True True) Tj
+T*
+(- Spotlightsummary: 1) Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 192 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 8f054eeca7f760e9 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R 12 0 R] /Count 6 >>
+endobj
+14 0 obj
+<< /Type /Catalog /Pages 13 0 R >>
+endobj
+15 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000009 00000 n 
+0000002753 00000 n 
+0000002881 00000 n 
+0000006974 00000 n 
+0000007102 00000 n 
+0000011168 00000 n 
+0000011296 00000 n 
+0000015725 00000 n 
+0000015853 00000 n 
+0000019934 00000 n 
+0000020063 00000 n 
+0000020307 00000 n 
+0000020437 00000 n 
+0000020527 00000 n 
+0000020578 00000 n 
+trailer
+<< /Size 16 /Root 14 0 R >>
+startxref
+20651
+%%EOF

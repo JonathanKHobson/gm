@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "clover-co-op",
+  "kind": "entity",
+  "title": "Clover Co-op",
+  "in_world_label": "Public Notice",
+  "brand_flag": "Player-safe",
+  "kicker": "The social heart of Hush; shoes get polished and filled with trinkets.",
+  "hook": "The social heart of Hush; shoes get polished and filled with trinkets.",
+  "blocks": [
+    {
+      "label": "Public Face",
+      "body": "The Clover Co-op: Warm lamps, clover doors, shared bowls, and dry jokes make the Clover Co-op feel like Hush's stubborn heartbeat. Slogan: Many hands, one Hush."
+    },
+    {
+      "label": "Player Read",
+      "body": "The social heart of Hush; shoes get polished and filled with trinkets."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask what they publicly promise.",
+    "Compare their slogan to what they actually do in the scene."
+  ],
+  "archetype": "faction.flyer",
+  "disclosure_tier": "standard",
+  "featured": true,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:clover-co-op",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "540b7ba717e5f60e",
+  "generated_at": "2026-06-23T21:40:58"
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "zephra-exchange",
+  "kind": "entity",
+  "title": "Zephra Exchange",
+  "in_world_label": "Public Notice",
+  "brand_flag": "Zephra™: the price of everything, the value of you.",
+  "kicker": "A market and toll-house brand that promises orderly crossing, registered cargo, and trade access.",
+  "hook": "Zephra Exchange: Zephra Exchange™ runs the market, the toll, and the stamp that decides whether your movement counts as legal. Slogan: Zephra™: the price of everything, the value of you.",
+  "blocks": [
+    {
+      "label": "Public Face",
+      "body": "A market and toll-house brand that promises orderly crossing, registered cargo, and trade access."
+    },
+    {
+      "label": "Slogan",
+      "body": "Zephra™: the price of everything, the value of you."
+    },
+    {
+      "label": "How To Deal",
+      "body": "The Zephra™ tollhouse is bureaucratic theater: brass scales, a queue rope, a clerk stamping Movement Legitimacy™ certificates under a banner reading FREE TRADE in expensive gold leaf. Register your cargo, buy a Crossing Credit™, upgrade to a Priority..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask what they publicly promise.",
+    "Compare their slogan to what they actually do in the scene."
+  ],
+  "archetype": "faction.flyer",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:zephra-exchange",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "10b0f89078b39104",
+  "generated_at": "2026-06-23T21:40:58"
+}

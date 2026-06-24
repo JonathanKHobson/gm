@@ -1,0 +1,76 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "slide",
+  "id": "MAP-LOC-hush-safe-irrigation-path",
+  "title": "MAP-LOC-hush-safe-irrigation-path - Hush Safe Irrigation Path Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "f3b7bcc9db27db88",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "A narrow farm path follows glowing irrigation water through moss, boards, root lips, and quiet field marks. It is easy to walk when someone has shown you what the marks mean."
+    },
+    {
+      "title": "Public objective",
+      "body": "A narrow farm path follows glowing irrigation water through moss, boards, root lips, and quiet field marks. It is easy to walk when someone has shown you what the marks mean."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: MAP-LOC-hush-safe-irrigation-path",
+        "Type: map",
+        "Maptype: environment",
+        "Sectionid: ACT-THREE",
+        "Sectiontitle: Act Three: Seeking a Custodian",
+        "Title: Hush Safe Irrigation Path Location Map",
+        "Shorttitle: Safe Irrigation Path",
+        "Order: 402.08",
+        "Playersafe: True",
+        "Completioneligible: False",
+        "Image: assets/maps/MAP-LOC-hush-safe-irrigation-path-gm.webp",
+        "Alt: Hush Safe Irrigation Path location map board.",
+        "Caption: Visual reference for Hush Safe Irrigation Path.",
+        "Mood: spatial reference and location texture",
+        "Gmgoal: Use this as the trust-earned safe route toward the Act 4 bridge.",
+        "Publicobjective: A narrow farm path follows glowing irrigation water through moss, boards, root lips, and quiet field marks. It is easy to walk when someone has shown you what the marks mean.",
+        "Readaloud: A narrow farm path follows glowing irrigation water through moss, boards, root lips, and quiet field marks. It is easy to walk when someone has shown you what the marks mean.",
+        "Gmscript: Say: \"If custodian_route is safe, this path is the reward. A guide or clear local directions gets them through without an approach hazard.\"",
+        "Gmreadaloud: Glowing irrigation water. Moss, boards, root lips, and quiet field marks. A safe path only if someone taught you how to read it.",
+        "Gmchecklist: Use only if custodian_route=safe or if players earn it with strong local help. Forward transition goes to MAP-LOC-hush-farms. Do not add a hazard on the safe path.",
+        "Gmprivate: GM-only: even the safe route is maintained infrastructure. Do not make that a reveal unless players probe.",
+        "Playertakeaway: A narrow farm path follows glowing irrigation water through moss, boards, root lips, and quiet field marks. It is easy to walk when someone has shown you what the marks mean.",
+        "Storytakeaway: Trust becomes practical: locals give safer paths, not just nicer words.",
+        "Mechanictakeaway: custodian_route=safe removes the approach hazard; unaided discovery requires Instinct 12.",
+        "Entityids: hush-safe-irrigation-path hush-farms sunless-farm-moss ratcoons",
+        "Entities: hush-safe-irrigation-path Hush Safe Irrigation Path location Location assets/icons/location.png assets/location-visuals/hush-safe-irrigation-path/profile_scene_v02.webp hush sayf IR-ih-GAY-shun path A narrow working path through mosslit water channels that rewards trust built in Hush. Make the shortcut feel earned, not handed over. A narrow working path through mosslit water channels that rewards trust built in Hush.; introduce it with a sensory palette, who feels safe there, and what has been neglected. Pull player attention toward the choices, clues, and relationships tied to Hush, Hush Farms, The Hanging Office. A narrow working path through mosslit water channels that rewards trust built in Hush. hush-farms Hush Farms location Location assets/icons/location.png assets/location-visuals/hush-farms/profile_scene_v02.webp hush farmz Glowing blue moss grows over fruits and vegetables. Make the infrastructure failure agricultural and bodily, not abstract. Glowing blue moss grows over fruits and vegetables.; introduce it with a sensory palette, who feels safe there, and what has been neglected. Pull player attention toward the choices, clues, and relationships tied to Hush, The...",
+        "Locationids: hush-safe-irrigation-path hush-farms",
+        "Statecontrols: custodian_route Custodian Route select unknown safe dangerous hush_trust Hush Trust select low neutral high",
+        "Mechanicids: instinct knowledge gm-moves",
+        "Fearspends: A channel briefly reflects the wrong sky. A footbridge creaks loud enough to carry. A guide stops and listens for a ward tone the party cannot hear.",
+        "Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth context stay off the player display.",
+        "Linkedsceneids: S03-02",
+        "Mapdata: MAP-LOC-hush-safe-irrigation-path environment Hush Safe Irrigation Path Location Map S03-02 hush-safe-irrigation-path hush-farms sunless-farm-moss ratcoons assets/location-visuals/hush-safe-irrigation-path/profile_scene_v02.webp Visual reference for Hush Safe Irrigation Path. Hush Safe Irrigation Path location map board. A narrow farm path follows glowing irrigation water through moss, boards, root lips, and quiet field marks. It is easy to walk when someone has shown you what the marks mean. A narrow farm path follows glowing irrigation water through moss, boards, root lips, and quiet field marks. It is easy to walk when someone has shown you what the marks mean. Use this as the trust-earned safe route toward the Act 4 bridge. Water channels glow under boards and root lips. Small field marks point the way without looking like signs. The safe stones are worn by local feet, not marked for outsiders. Village life stays audible: work sounds, lowered voices, doors, tools, and ward tones changing the room's confidence. Cool water, crushed moss, wet rope, and the mineral smell of channels cut through old root beds. Bridge rails are slick but familiar; the safe stones feel warmer than...",
+        "Sourcefiles: dist/Act3_Upgrade_Packet/ACT3_MAPS_AND_LOCATIONS.md",
+        "References: Local Clues #S03-02 Hush Farms #MAP-LOC-hush-farms",
+        "Livetools: scene MAP-LOC-hush-safe-irrigation-path",
+        "Percharacterlayer: garrick-reed Garrick Reed Management under warmth Notices the town logistics run with corporate efficiency under the folksy surface. Instinct 13 There are company minders in Hush dressed as ordinary locals. Can talk crew-to-crew with ex-company locals and earn practical trust. Garrick, under the warmth, this town runs like a company op. Want to read who is minding it? khari-nix Khari Nix Trusted protector Protective people recognize her as protective and confide faster. Can be the one a worried local trusts with the keeper's location. Khari, they want to tell you where she is. Want to be the one they trust with it? barnacle Barnacle Paperwork seam Finds the supply manifests, tucked compliance office, and tiny signs that safety has an owner. Instinct 13 Hush is registered and inventoried; a managed place wearing a village's face. Keep the label GM-gated. Can find who handles records without making the table listen to a lore dump. Barnacle, peel back the charm and there is paperwork. Want to find who holds the deed to safe? marlowe-fairwind Marlowe Fairwind Package weight Knowledge 13 The fading ward and the package resonate; every local thanks the ward and makes the cargo feel...",
+        "Gmbeats: MAP-LOC-hush-safe-irrigation-path-reward Reward The reward route Say: \"This is what the town's trust changes: no hazard before the treehouse.\" The safe path is what high trust buys. Social choices alter geography. custodian_route=safe gates the path. Players see trust pay off. Player takeaway Players see trust pay off. \"This is what the town's trust changes: no hazard before the treehouse.\" \"The playable fact is: The safe path is what high trust buys.\" Concrete actions for this beat: talk to a person present, inspect the named detail, help an ally, or choose whether to move toward the Custodian route. gm-moves Story takeaway Social choices alter geography. \"This is what the town's trust changes: no hazard before the treehouse.\" \"The story fact in play is: Social choices alter geography.\" This beat changes Act 3 through this exact pressure: Social choices alter geography. gm-moves Mechanic takeaway custodian_route=safe gates the path. \"This is what the town's trust changes: no hazard before the treehouse.\" \"The active procedure is: custodian_route=safe gates the path.\" Run intent first, then choose Presence, Instinct, Knowledge, Strength, or Finesse only when the fiction is risky...",
+        "Takeawayhelp: Player takeaway The safe path is the visible payoff for trust. \"Because Hush trusted you, you have the route locals actually use.\" \"Follow the guide or marks forward to Hush Farms. If you turn back, you return to the Sunless Farms.\" This should feel like a reward, not skipped content. instinct gm-moves Story takeaway Trust changes the road into a known way. \"The place did not become less dangerous. You became less alone in it.\" \"A local guide or clear directions makes this automatic. Outsiders without trust do not read it cleanly.\" This map expresses the theme: social care becomes practical survival. instinct gm-moves Mechanic takeaway custodian_route=safe removes the approach hazard. \"If custodian_route is safe, no approach roll here. The guide or local marks carry you through.\" \"Without the route, Instinct 12 may find part of it; failure sends them to the dangerous/unknown approach.\" The mechanic is consequence payoff from S03-02/S03-03, not a fresh obstacle. instinct gm-moves",
+        "Playerbeats: assets/maps/MAP-LOC-hush-safe-irrigation-path.png Safe Irrigation Path map board. MAP-LOC-hush-safe-irrigation-path environment Safe Irrigation Path S03-02 assets/maps/MAP-LOC-hush-safe-irrigation-path.png assets/maps/MAP-LOC-hush-safe-irrigation-path.png Safe Irrigation Path map board. A narrow farm path follows glowing irrigation water through moss, boards, root lips, and quiet field marks. It is easy to walk when someone has shown you what the marks mean. A narrow farm path follows glowing irrigation water through moss, boards, root lips, and quiet field marks. It is easy to walk when someone has shown you what the marks mean. MAP-LOC-hush-safe-irrigation-path-map-only Map only Safe Irrigation Path map-only assets/maps/MAP-LOC-hush-safe-irrigation-path.png Safe Irrigation Path map board. MAP-LOC-hush-safe-irrigation-path environment Safe Irrigation Path S03-02 assets/maps/MAP-LOC-hush-safe-irrigation-path.png assets/maps/MAP-LOC-hush-safe-irrigation-path.png Safe Irrigation Path map board. A narrow farm path follows glowing irrigation water through moss, boards, root lips, and quiet field marks. It is easy to walk when someone has shown you what the marks mean. A narrow farm...",
+        "Beatautoplayeligible: True",
+        "Beatautoplaydefault: False",
+        "Beatautoplayintervalms: 10000",
+        "Playersafeprojection: MAP-LOC-hush-safe-irrigation-path map Safe Irrigation Path assets/maps/MAP-LOC-hush-safe-irrigation-path.png Safe Irrigation Path map board. spatial reference and location texture A narrow farm path follows glowing irrigation water through moss, boards, root lips, and quiet field marks. It is easy to walk when someone has shown you what the marks mean. A narrow farm path follows glowing irrigation water through moss, boards, root lips, and quiet field marks. It is easy to walk when someone has shown you what the marks mean. MAP-LOC-hush-safe-irrigation-path environment Safe Irrigation Path S03-02 assets/maps/MAP-LOC-hush-safe-irrigation-path.png assets/maps/MAP-LOC-hush-safe-irrigation-path.png Safe Irrigation Path map board. A narrow farm path follows glowing irrigation water through moss, boards, root lips, and quiet field marks. It is easy to walk when someone has shown you what the marks mean. A narrow farm path follows glowing irrigation water through moss, boards, root lips, and quiet field marks. It is easy to walk when someone has shown you what the marks mean. assets/maps/MAP-LOC-hush-safe-irrigation-path.png Safe Irrigation Path map board...",
+        "Slidenumber: 47",
+        "Totalslides: 110"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash f3b7bcc9db27db88 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

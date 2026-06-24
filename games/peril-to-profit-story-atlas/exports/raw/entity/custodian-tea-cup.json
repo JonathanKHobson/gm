@@ -1,0 +1,64 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "custodian-tea-cup",
+  "title": "Custodian Tea Cup",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "2156815a83b0f552",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Custodian Tea Cup: A tea ring on a denial letter that makes the Custodian's exhaustion visible before exposition."
+    },
+    {
+      "title": "Public role",
+      "body": "Quiet sign of repeated worry inside the Hanging Office"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: A tea ring on a denial letter that makes the Custodian's exhaustion visible before exposition."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: item",
+        "Role: Quiet sign of repeated worry inside the Hanging Office",
+        "Summary: A tea ring on a denial letter that makes the Custodian's exhaustion visible before exposition.",
+        "Tags: custodian hanging-office personal-effect",
+        "Connections: Whitefire Custodian The Hanging Office Emeris Crown Holdings",
+        "Inventory: chipped cup bitter tea smell stained denial letter",
+        "Loot: Not treasure; it tells the GM to play the Custodian as a person under pressure.",
+        "Name: Custodian Tea Cup",
+        "Id: custodian-tea-cup",
+        "Meta: Item / Asset ITEM assets/icons/item.png entity-item #39c5bb 07 Items and Clues entities item",
+        "Aliases: Custodian Tea Cup denial letter tea cup",
+        "Related: Emeris Crown Holdings The Hanging Office Whitefire Custodian",
+        "Image Prompt: Private table TTRPG story atlas asset for Custodian Tea Cup, Item / Asset. Role: Quiet sign of repeated worry inside the Hanging Office. Summary: A tea ring on a denial letter that makes the Custodian's exhaustion visible before exposition.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Personality: A tea ring on a denial letter that makes the Custodian's exhaustion visible before exposition.; use Custodian Tea Cup as a concrete table object with texture, ownership, and a reason it matters now.",
+        "Wants: Give players a tangible handle on Whitefire Custodian, The Hanging Office, Emeris Crown Holdings, whether they inspect, carry, return, trade, or refuse it.",
+        "Fears: Being treated as treasure clutter instead of evidence, memory, hospitality, or infrastructure with consequences.",
+        "Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.",
+        "Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.",
+        "Sample Dialogue: A tea ring on a denial letter that makes the Custodian's exhaustion visible before exposition.",
+        "Equipment: chipped cup bitter tea smell stained denial letter",
+        "Search Or Loot: Not treasure; it tells the GM to play the Custodian as a person under pressure.",
+        "Gm Use: Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.",
+        "Future Hooks: Bring back as an echo if players made a strong choice involving this entity.",
+        "Robust: Custodian Tea Cup: A tea ring on a denial letter that makes the Custodian's exhaustion visible before exposition. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Give players a tangible handle on Whitefire Custodian, The Hanging Office, Emeris Crown Holdings, whether they inspect, carry, return, trade, or refuse it. Being treated as treasure clutter instead of evidence, memory, hospitality, or infrastructure with consequences. Use when the scene needs a concrete object for players to inspect, carry, debate, or remember. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Custodian Tea Cup and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names...",
+        "Mechanics: Discovery / Earn-It Mechanics Players can inspect, handle, keep, trade, reveal, or earn Custodian Tea Cup when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A tea ring on a denial letter that makes the Custodian's exhaustion visible before exposition. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-custodian-tea-cup-engage-custodian-tea-cup entity-custodian-tea-cup Engage Custodian Tea Cup Engage Custodian Tea Cup Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Custodian Tea Cup hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains...",
+        "Pronunciation: Custodian Tea Cup",
+        "Short Pronunciation: Custodian Tea Cup",
+        "Image: assets/entities/custodian-tea-cup.webp",
+        "Image Asset Status: image_gen",
+        "Visual Gallery: primary Primary wiki image primary assets/entities/custodian-tea-cup.webp Custodian Tea Cup primary wiki image visual. Custodian Tea Cup: Primary wiki image. image_gen True True"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 2156815a83b0f552 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

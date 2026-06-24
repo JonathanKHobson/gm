@@ -1,0 +1,49 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "S02-04",
+  "title": "S02-04 - After the Ambush",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "1f0c6cc595f51cc5",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The brush goes still. Whatever you did, it is done. The horses breathe hard. The road smells like wet thorn, churned mud, and adrenaline fading too slowly. Among what was dropped, you see gear that does not look like bandit scrap: stamped buckles, route tags, and filed-off inventory marks from the same kind of system that hired you."
+    },
+    {
+      "title": "Public objective",
+      "body": "Decide what to do with what just happened and get the package moving again."
+    },
+    {
+      "title": "GM goal",
+      "body": "Turn the outcome of the ambush into consequence, truth, and the next route toward the village."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "Mercy route: leader or survivors talk.",
+        "Combat route: gear and effects talk.",
+        "Either route should leave the party asking who benefits from a dangerous forest."
+      ]
+    },
+    {
+      "title": "GM script",
+      "body": "Say: \"The fight is over. The outcome matters now.\" If mercy or negotiation opened trust, say: \"Up close, these people look less like bandits and more like former workers who have been sleeping rough and losing for a long time.\" If the party killed or routed them, say: \"The gear tells the story the survivors cannot: company issue, filed off and reused.\" If players ask for the truth, use Presence or Knowledge 14, or mercy already earned, to reveal: \"They were company or preserve workers who say the danger reports were manufactured to sell protection and discard the people who noticed.\""
+    },
+    {
+      "title": "State controls",
+      "items": [
+        "bramble_outcome Bramble outcome select unresolved killed captured spared negotiated escaped Shapes the aftermath variant and map access.",
+        "bramble_truth_learned Bramble truth learned checkbox Set only after mercy/parley, survivor trust, or Presence/Knowledge 14.",
+        "locationMapsUnlocked Location maps unlocked checkbox Use for mercy, negotiated, spared, or trusted survivor routes."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 1f0c6cc595f51cc5 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

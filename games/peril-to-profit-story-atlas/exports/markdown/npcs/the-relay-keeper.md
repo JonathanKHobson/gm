@@ -1,0 +1,52 @@
+# The Relay Keeper
+
+RAW export - entity:the-relay-keeper
+
+## Player-facing description
+The Relay Keeper: A solitary ward-keeper whose silence turns the epilogue hook from scenery into a person in danger.
+
+## Public role
+Official sequel hook embodied as a competent, exhausted person at the far end of a failing signal.
+
+## Handout text
+Player-safe note: A solitary ward-keeper whose silence turns the epilogue hook from scenery into a person in danger.
+
+## Raw source
+- Type: npc
+- Role: Official sequel hook embodied as a competent, exhausted person at the far end of a failing signal.
+- Summary: A solitary ward-keeper whose silence turns the epilogue hook from scenery into a person in danger.
+- Tags: relay future-hook npc ward npc-profile
+- Connections: The Goldspire Relay Whitefire Custodian Emeris Crown Holdings Goldwater Financial Institution
+- Inventory: keeper's map mark unanswered signal cord late-payment notation
+- Loot: Use only as a future lead unless Kyle wants the one-shot to roll directly into the relay investigation.
+- Name: The Relay Keeper
+- Id: the-relay-keeper
+- Meta: NPC / Ally NPC assets/icons/npc.png entity-npc #f0aa45 03 NPCs entities npc
+- Aliases: Relay Keeper The Relay Keeper the relay keeper
+- Related: Emeris Crown Holdings Goldwater Financial Institution The Goldspire Relay Whitefire Custodian
+- Image Prompt: Private table TTRPG story atlas asset for The Relay Keeper, NPC / Ally. Role: Official sequel hook embodied as a competent, exhausted person at the far end of a failing signal.. Summary: A solitary ward-keeper whose silence turns the epilogue hook from scenery into a person in danger.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: Keeps a dying signal alive out of sheer refusal. Wears braids threaded with bells tuned to far spires; two of them no longer ring, and she will not remove them, because silence is still evidence.
+- Wants: Be heard before the relay failure becomes someone else's ruin.
+- Fears: A bell ringing with no one left to answer it.
+- Secrets: The exact cause of the failing relay remains future-story material.
+- Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.
+- Sample Dialogue: The relay does not answer. A cold bell rings once, then stops with the rope still trembling.
+- Equipment: keeper's map mark unanswered signal cord late-payment notation Spirekeeper Relay Keyring
+- Search Or Loot: Use only as a future lead unless Kyle wants the one-shot to roll directly into the relay investigation. Loot / item link: Spirekeeper Relay Keyring (Gift, inheritance, or GM-only epilogue hook.).
+- Gm Use: Use this person to put a human face on the current pressure. Give them one concrete want before exposition.
+- Future Hooks: Follow the failing relay network after the one-shot.
+- Robust: The Relay Keeper: A solitary ward-keeper whose silence turns the epilogue hook from scenery into a person in danger. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Get a concrete outcome tied to The Goldspire Relay, Whitefire Custodian, Emeris Crown Holdings, while keeping personal agency instead of becoming a delivery mechanism for lore. Being ignored at the moment their local knowledge matters, or having The Goldspire Relay, Whitefire Custodian, Emeris Crown Holdings used without care. Use this person to put a human face on the current pressure. Give them one concrete want before exposition. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about The Relay Keeper and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move...
+- Mechanics: Social / Information Mechanics Players can interact, comfort, persuade, or earn trust The Relay Keeper when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A solitary ward-keeper whose silence turns the epilogue hook from scenery into a person in danger. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-the-relay-keeper-engage-the-relay-keeper entity-the-relay-keeper Engage The Relay Keeper Engage The Relay Keeper Presence Knowledge Instinct Presence Knowledge, Instinct 12 Choose the trait from the player's method, not the entity type. A flat read of The Relay Keeper hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a...
+- Pronunciation: the REE-lay KEE-per
+- Short Pronunciation: the REE-lay KEE-per
+- Npc Profile: npc-profile-v1 NPC_System_Packet + image-informed hardening The Relay Keeper a distant relay keeper whose silence turns the next hook into a person in danger An older woman in dark teal maintenance robes stands in a stone relay chamber, silver-black braids threaded with tiny copper bells, blue crystal earrings, a cracked glowing lens in one hand and a charred map ribbon in the other. The Relay Keeper: a distant relay keeper whose silence turns the next hook into a person in danger The Relay Keeper the REE-lay KEE-per a distant relay keeper whose silence turns the next hook into a person in danger Official sequel hook embodied as a competent, exhausted person at the far end of a failing signal. Denouement hook and future ally; she is not an Act 5 combatant or exposition dump. The Relay Keeper is separate from Spirekeeper and should have her own portrait, voice, objects, and stakes. Keep the exact danger unresolved until Kyle chooses the sequel path. A personal face for the western relay problem A reason to return after the one-shot A clue ladder without revealing the hidden thesis Unseen, urgent, lonely, and fiercely competent. Players who protect messages, maps, and living...
+- One Line: a distant relay keeper whose silence turns the next hook into a person in danger
+- Player Display Title: The Relay Keeper
+- Player Display Caption: a distant relay keeper whose silence turns the next hook into a person in danger
+- Item Links: spirekeeper-relay-keyring Spirekeeper Relay Keyring Relay Keeper Effects Gift, inheritance, or GM-only epilogue hook.
+- Image: assets/npc-images/the-relay-keeper/portrait_base.webp
+- Image Asset Status: npc_images
+- Visual Gallery: primary Primary wiki image primary assets/npc-images/the-relay-keeper/portrait_base.webp The Relay Keeper primary wiki image visual. The Relay Keeper: Primary wiki image. npc_images True True npc-fullbody_base Full-body npc-portrait assets/npc-images/the-relay-keeper/fullbody_base.webp The Relay Keeper full-body visual. The Relay Keeper: Full-body. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/the-relay-keeper/fullbody_base.png npc-fullbody_chroma Full-body chroma source npc-portrait assets/npc-images/the-relay-keeper/fullbody_chroma.webp The Relay Keeper full-body chroma source visual. The Relay Keeper: Full-body chroma source. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/the-relay-keeper/fullbody_chroma.png npc-fullbody_transparent Full-body transparent cutout npc-portrait assets/npc-images/the-relay-keeper/fullbody_transparent.webp The Relay Keeper full-body transparent cutout visual. The Relay Keeper: Full-body transparent cutout. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/the-relay-keeper/fullbody_transparent.png npc-portrait_chroma Portrait...
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 2d7be2b39714bbb3 | Source hash dac3370046ed077140fab2d6

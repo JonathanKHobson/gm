@@ -1,0 +1,76 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "slide",
+  "id": "MAP-LOC-hushtm-community-enclave",
+  "title": "MAP-LOC-hushtm-community-enclave - Hush™ Community Enclave Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "a3e7b658b67916dd",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "Near the village entrance, a polished official sign and neat route stones sit beside handmade clover charms and scuffed local paths. The sign looks newer than the place, and colder."
+    },
+    {
+      "title": "Public objective",
+      "body": "Near the village entrance, a polished official sign and neat route stones sit beside handmade clover charms and scuffed local paths. The sign looks newer than the place, and colder."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: MAP-LOC-hushtm-community-enclave",
+        "Type: map",
+        "Maptype: environment",
+        "Sectionid: ACT-THREE",
+        "Sectiontitle: Act Three: Seeking a Custodian",
+        "Title: Hush™ Community Enclave Location Map",
+        "Shorttitle: The Official Sign",
+        "Order: 401.16",
+        "Playersafe: True",
+        "Completioneligible: False",
+        "Image: assets/maps/MAP-LOC-hushtm-community-enclave-gm.webp",
+        "Alt: Hush™ Community Enclave location map board.",
+        "Caption: Visual reference for Hush™ Community Enclave.",
+        "Mood: spatial reference and location texture",
+        "Gmgoal: Use this as the GM-only / sharp-PC corporate lens on the same village: official signage, compliance stamps, ledgers, and the gap between the label and the people.",
+        "Publicobjective: Near the village entrance, a polished official sign and neat route stones sit beside handmade clover charms and scuffed local paths. The sign looks newer than the place, and colder.",
+        "Readaloud: Near the village entrance, a polished official sign and neat route stones sit beside handmade clover charms and scuffed local paths. The sign looks newer than the place, and colder.",
+        "Gmscript: Say: \"Player-facing, this is just the official sign at Hush. GM-facing, it is the corporate lens: the place as paperwork, not the place as people.\"",
+        "Gmreadaloud: The sign is polished. The local charms are handmade and thumb-worn. The gap between those two facts is the whole point.",
+        "Gmchecklist: Do not project the trademarked/corporate framing unless earned. Use this map for Barnacle/Garrick/Marlowe corporate-seam reads. Route back to Hush, the market, Co-op, or farms.",
+        "Gmprivate: GM-only: Hush is logged as managed protective infrastructure. This is a seed, not a reveal.",
+        "Playertakeaway: Near the village entrance, a polished official sign and neat route stones sit beside handmade clover charms and scuffed local paths. The sign looks newer than the place, and colder.",
+        "Storytakeaway: The official sign shows the first visible gap between lived community and corporate classification.",
+        "Mechanictakeaway: Instinct or Knowledge 13 can read the official seam and set ward_awareness or hush_clues.",
+        "Entityids: hush hushtm-community-enclave emeris-crown-holdings ratcoons festival-moths young-dryads",
+        "Entities: hush Hush location Location assets/icons/location.png assets/location-visuals/hush/profile_scene_v02.webp hush, like quiet A real village under corporate designation, protected by ward pillars. Make Hush feel worth protecting before the finale asks the party to protect it. The Village A small forest village, named only once the players ask where the package is going. Warm local community with jokes, food, arguments, work songs, children, elders, and a very real need for the ward to hold. Another season of safety, crops, music, ordinary life, and visitors who learn the old name before the corporate one. A real village under corporate designation, protected by ward pillars. hushtm-community-enclave Hush™ Community Enclave location Location assets/icons/location.png assets/location-visuals/hushtm-community-enclave/profile_scene_v02.webp hush kuh-MYOO-nih-tee EN-klayv Goldspire’s name for Hush; locals mostly ignore the trademark. Let the party feel the difference between arriving at a place and arriving at a label. Goldspire’s name for Hush; locals mostly ignore the trademark.; introduce it with a sensory palette, who feels safe there, and what has been neglected. Pull player attention...",
+        "Locationids: hush hushtm-community-enclave",
+        "Statecontrols: hush_trust Hush Trust select low neutral high ward_awareness Ward Awareness select none seed aware hush_clues Hush Clues select none custodian_route ward_seed corporate_seam farm_seed market_rumor multiple",
+        "Mechanicids: instinct knowledge presence",
+        "Fearspends: A local repeats the trademarked name with a smile that does not reach their eyes. The entry ward flickers while paperwork language is invoked.",
+        "Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth context stay off the player display.",
+        "Linkedsceneids: S03-01",
+        "Mapdata: MAP-LOC-hushtm-community-enclave environment Hush™ Community Enclave Location Map S03-01 hush hushtm-community-enclave emeris-crown-holdings ratcoons festival-moths young-dryads assets/location-visuals/hushtm-community-enclave/profile_scene_v02.webp Visual reference for Hush™ Community Enclave. Hush™ Community Enclave location map board. Near the village entrance, a polished official sign and neat route stones sit beside handmade clover charms and scuffed local paths. The sign looks newer than the place, and colder. Near the village entrance, a polished official sign and neat route stones sit beside handmade clover charms and scuffed local paths. The sign looks newer than the place, and colder. Use this as the GM-only / sharp-PC corporate lens on the same village: official signage, compliance stamps, ledgers, and the gap between the label and the people. A polished official sign and neat route stones frame a village that keeps interrupting the label with charms, scuffed paths, and hand repairs. The entry ward hums unevenly; someone inside laughs, then lowers their voice; a sign chain taps in the damp wind. Damp paint, moss, warm bread from deeper in town, and the brass smell of a...",
+        "Sourcefiles: dist/Act3_Upgrade_Packet/ACT3_MAPS_AND_LOCATIONS.md",
+        "References: Hush hub #MAP-LOC-hush",
+        "Livetools: scene MAP-LOC-hushtm-community-enclave",
+        "Percharacterlayer: garrick-reed Garrick Reed Management under warmth Notices the town logistics run with corporate efficiency under the folksy surface. Instinct 13 There are company minders in Hush dressed as ordinary locals. Can talk crew-to-crew with ex-company locals and earn practical trust. Garrick, under the warmth, this town runs like a company op. Want to read who is minding it? khari-nix Khari Nix Trusted protector Protective people recognize her as protective and confide faster. Can be the one a worried local trusts with the keeper's location. Khari, they want to tell you where she is. Want to be the one they trust with it? barnacle Barnacle Paperwork seam Finds the supply manifests, tucked compliance office, and tiny signs that safety has an owner. Instinct 13 Hush is registered and inventoried; a managed place wearing a village's face. Keep the label GM-gated. Can find who handles records without making the table listen to a lore dump. Barnacle, peel back the charm and there is paperwork. Want to find who holds the deed to safe? marlowe-fairwind Marlowe Fairwind Package weight Knowledge 13 The fading ward and the package resonate; every local thanks the ward and makes the cargo feel...",
+        "Gmbeats: MAP-LOC-hushtm-community-enclave-sign Sign The official sign Say: \"Player-facing: official sign. GM-facing: corporate lens.\" A polished sign tries to define the place before its people do. The label conflicts with lived community. Instinct/Knowledge 13 reads the seam. Players can notice the sign without receiving the reveal. Player takeaway Players can notice the sign without receiving the reveal. \"Player-facing: official sign. GM-facing: corporate lens.\" \"The playable fact is: A polished sign tries to define the place before its people do.\" Concrete actions for this beat: talk to a person present, inspect the named detail, help an ally, or choose whether to move toward the Custodian route. instinct knowledge Story takeaway The label conflicts with lived community. \"Player-facing: official sign. GM-facing: corporate lens.\" \"The story fact in play is: The label conflicts with lived community.\" This beat changes Act 3 through this exact pressure: The label conflicts with lived community. instinct knowledge Mechanic takeaway Instinct/Knowledge 13 reads the seam. \"Player-facing: official sign. GM-facing: corporate lens.\" \"The active procedure is: Instinct/Knowledge 13 reads the...",
+        "Takeawayhelp: Player takeaway Players can inspect the official sign without receiving the corporate reveal. \"The sign is official and newer than the place. The locals mostly ignore it.\" \"You can ask what locals call the village, study the marks, or move deeper toward the warm parts of town.\" Player-safe language is official sign, official marks, and local name. Keep the trademarked/corporate lens GM-only until earned. instinct knowledge Story takeaway The sign frames the gap between a living place and a managed asset. \"The village feels older, warmer, and more stubborn than the label trying to sit on it.\" \"Sharp read: the paperwork is not decoration. It records protection as infrastructure.\" This is a seed for later reveals; it should create suspicion, not an answer key. instinct knowledge Mechanic takeaway Instinct or Knowledge can turn signage into a clue. \"Instinct 13 catches who watches you notice the sign. Knowledge 13 reads what the stamps legally describe.\" \"A success can set hush_clues=corporate_seam or ward_awareness=seed.\" Use this map when Barnacle/Garrick/Marlowe want to pull at the paperwork layer. instinct knowledge",
+        "Playerbeats: assets/maps/MAP-LOC-hushtm-community-enclave.png The Official Sign map board. MAP-LOC-hushtm-community-enclave environment The Official Sign S03-01 assets/maps/MAP-LOC-hushtm-community-enclave.png assets/maps/MAP-LOC-hushtm-community-enclave.png The Official Sign map board. Near the village entrance, a polished official sign and neat route stones sit beside handmade clover charms and scuffed local paths. The sign looks newer than the place, and colder. Near the village entrance, a polished official sign and neat route stones sit beside handmade clover charms and scuffed local paths. The sign looks newer than the place, and colder. Official sign The brand is newer than the place. 0.36 0.3 MAP-LOC-hushtm-community-enclave-map-only Map only The Official Sign map-only assets/maps/MAP-LOC-hushtm-community-enclave.png The Official Sign map board. MAP-LOC-hushtm-community-enclave environment The Official Sign S03-01 assets/maps/MAP-LOC-hushtm-community-enclave.png assets/maps/MAP-LOC-hushtm-community-enclave.png The Official Sign map board. Near the village entrance, a polished official sign and neat route stones sit beside handmade clover charms and scuffed local paths. The sign looks...",
+        "Beatautoplayeligible: True",
+        "Beatautoplaydefault: False",
+        "Beatautoplayintervalms: 10000",
+        "Playersafeprojection: MAP-LOC-hushtm-community-enclave map The Official Sign assets/maps/MAP-LOC-hushtm-community-enclave.png The Official Sign map board. spatial reference and location texture Near the village entrance, a polished official sign and neat route stones sit beside handmade clover charms and scuffed local paths. The sign looks newer than the place, and colder. Near the village entrance, a polished official sign and neat route stones sit beside handmade clover charms and scuffed local paths. The sign looks newer than the place, and colder. MAP-LOC-hushtm-community-enclave environment The Official Sign S03-01 assets/maps/MAP-LOC-hushtm-community-enclave.png assets/maps/MAP-LOC-hushtm-community-enclave.png The Official Sign map board. Near the village entrance, a polished official sign and neat route stones sit beside handmade clover charms and scuffed local paths. The sign looks newer than the place, and colder. Near the village entrance, a polished official sign and neat route stones sit beside handmade clover charms and scuffed local paths. The sign looks newer than the place, and colder. Official sign The brand is newer than the place. 0.36 0.3...",
+        "Slidenumber: 42",
+        "Totalslides: 110"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash a3e7b658b67916dd | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

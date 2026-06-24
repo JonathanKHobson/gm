@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "gm-rules-drawer",
+  "title": "GM Rules Drawer",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "5c11d010b8dd04c1",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "GM Rules Drawer: A compact official Daggerheart rules drawer for live table support."
+    },
+    {
+      "title": "Public role",
+      "body": "Searchable table-running rules command center available from every atlas page"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: A compact official Daggerheart rules drawer for live table support."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use when the scene needs a concrete object for players to inspect, carry, debate, or remember."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 5c11d010b8dd04c1 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

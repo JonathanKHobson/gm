@@ -1,0 +1,58 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "SZ-02",
+  "title": "SZ-02 - Safety Tools / Table Agreement",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "e0677fb6a55dec9f",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "You do not need to justify a boundary. If something is not fun, too intense, or not for tonight, we can pause, redirect, fade to black, or move on."
+    },
+    {
+      "title": "Public objective",
+      "body": "You do not need to justify a boundary. If something is not fun, too intense, or not for tonight, we can pause, redirect, fade to black, or move on."
+    },
+    {
+      "title": "Player bullets",
+      "items": [
+        "Open Door: you can step away at any point and return when ready.",
+        "Simple table signal: say pause, slow down, can we rewind, or break.",
+        "If you missed something, ask me to repeat it.",
+        "If I am moving too fast, ask me to slow down.",
+        "If you are confused, ask any question at any time. There are no dumb questions here.",
+        "If a topic is okay in the story but not for your character, say not for me.",
+        "Discord or text can help between scenes, but I may not see it immediately while running the table."
+      ]
+    },
+    {
+      "title": "GM goal",
+      "body": "Establish safety tools and participation norms."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "Script: Before we play, I want to keep safety and communication simple. You can step away at any point, ask for a break, ask me to slow down or repeat something, or say pause if something is uncomfortable or confusing. I may talk too fast or interrupt sometimes; you are welcome to interrupt me, ask any question, or tell me to rewind. The story is for everyone at the table.",
+        "Keep private lines/veils and intake responses hidden from player display.",
+        "Default to lightweight in-person tools for a four-to-five-player one-shot.",
+        "Optional deeper tools live on the safety page for GM use only if needed.",
+        "If no Google Form URL is configured, show a missing-link note in GM view rather than inventing one.",
+        "Checklist: Lines and veils explained; Simple pause/slow down/break signal explained; Open Door explained; Break policy explained; Shared table responsibility explained; Safety intake reviewed if used",
+        "GM-only: Private lines and veils text area; Safety intake responses; Only sanitized summary may be exported",
+        "Tools: Open Door; Pause / slow down / rewind / break; Lines and Veils if needed; Not For Me, Thanks if needed; Stars and Wishes at the end if time allows"
+      ]
+    },
+    {
+      "title": "GM script",
+      "body": "Before we play, I want to keep safety and communication simple. You can step away at any point, ask for a break, ask me to slow down or repeat something, or say pause if something is uncomfortable or confusing. I may talk too fast or interrupt sometimes; you are welcome to interrupt me, ask any question, or tell me to rewind. The story is for everyone at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash e0677fb6a55dec9f | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

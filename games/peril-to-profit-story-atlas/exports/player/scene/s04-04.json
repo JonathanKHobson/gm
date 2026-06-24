@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S04-04",
+  "kind": "scene",
+  "title": "S04-04 - The Keystone Reveal",
+  "in_world_label": "Situation Briefing",
+  "brand_flag": "Briefing",
+  "kicker": "The Hanging Office",
+  "hook": "Inside the sealed crate is a massive stone with a lion’s face carved into it. The room goes quiet before anyone speaks.",
+  "blocks": [
+    {
+      "label": "Where You Are",
+      "body": "Inside the sealed crate is a massive stone with a lion’s face carved into it. The room goes quiet before anyone speaks."
+    },
+    {
+      "label": "Plain Stakes",
+      "body": "The crate contains the Keystone Asset / ward-stone tied to major protective infrastructure."
+    },
+    {
+      "label": "Visible Options",
+      "body": "Ask why it was hidden Accuse Emeris Agree to help Refuse danger"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "What detail in The Keystone Reveal tells you the official story is incomplete?",
+    "Who notices the human cost first, and how do they show it?",
+    "What small object, smell, or sound makes this scene feel real?"
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - scene:S04-04",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "c83bda3687cffc9d",
+  "generated_at": "2026-06-23T21:40:58"
+}

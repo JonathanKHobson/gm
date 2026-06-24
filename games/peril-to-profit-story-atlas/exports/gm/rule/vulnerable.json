@@ -1,0 +1,48 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "vulnerable",
+  "title": "Vulnerable",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "119f277645649a35",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "Rolls targeting the Vulnerable target have advantage."
+    },
+    {
+      "title": "How it works",
+      "body": "Use when the target is exposed by rule, feature, or clear fiction."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use when the target is exposed by rule, feature, or clear fiction.",
+        "Attacks or rolls against the target have advantage.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "What does Vulnerable do?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "conditions",
+        "stress"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 119f277645649a35 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

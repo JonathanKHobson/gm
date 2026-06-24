@@ -1,0 +1,58 @@
+# Cracked Pocket Ward™
+
+GM export - entity:cracked-pocket-ward
+
+## Player-facing description
+A cheap little ward charm sits cracked down the middle, still trying to glow through a smiling warranty sticker.
+
+## Public role
+Cracked Pocket Ward™, Mithril & Mortar street line: a failed personal safety charm that proves somebody bought protection and still died.
+
+## Handout text
+MITHRIL & MORTAR POCKET WARD: Comfort You Can Carry. Reduces Many Kinds of Worry. Warranty Valid Only Before Impact.
+
+## GM truth
+Use this element to reveal the cost of managed protection through concrete play.
+
+## GM handling
+Use when players need a tangible handle on the scene's pressure.
+
+## Mechanics
+- Title: Discovery / Earn-It Mechanics
+- Player Safe: Players can inspect, handle, keep, trade, reveal, or earn Cracked Pocket Ward™ when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: A cheap little ward charm sits cracked down the middle, still trying to glow through a smiling warranty sticker. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-cracked-pocket-ward-engage-cracked-pocket-ward™ entity-cracked-pocket-ward Engage Cracked Pocket Ward™ Engage Cracked Pocket Ward™ Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Cracked Pocket Ward™ hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless the item or clue physically creates Hidden, Restrained, or Vulnerable
+- Search Loot: Cracked Pocket Ward™, Mithril & Mortar street line: a failed personal safety charm that proves somebody bought protection and still died. Provenance: Found in Tamsin's satchel or on a lost courier.
+
+## Profile
+- Schema Version: item-profile-v1
+- Id: cracked-pocket-ward
+- Item Id: cracked-pocket-ward
+- Item Name: Cracked Pocket Ward™
+- Name: Cracked Pocket Ward™
+- Aliases: Cracked Pocket Ward pocket ward failed ward charm
+- Pronunciation: KRAKT POK-et WORD
+- Item Kind: trinket
+- Tier: Tier 1
+- Priority: P2
+- Mode: AD
+- Maker: Mithril & Mortar street line
+- Made Or Wild: corporate-made
+- Auto Surface: True
+- Discovered From Art: True
+- Atlas Lore Note: [Atlas lore - confirm or override]
+- Player Safe: Cracked Pocket Ward™ A cheap little ward charm sits cracked down the middle, still trying to glow through a smiling warranty sticker. A cheap little ward charm sits cracked down the middle, still trying to glow through a smiling warranty sticker. Mithril & Mortar street line MITHRIL & MORTAR POCKET WARD: Comfort You Can Carry. Reduces Many Kinds of Worry. Warranty Valid Only Before Impact.
+- Block0: cracked-pocket-ward Cracked Pocket Ward™ Cracked Pocket Ward pocket ward failed ward charm KRAKT POK-et WORD trinket Tier 1
+- Block1: A cheap little ward charm sits cracked down the middle, still trying to glow through a smiling warranty sticker. Cracked Pocket Ward™, Mithril & Mortar street line: a failed personal safety charm that proves somebody bought protection and still died. A broken consumer ward and evidence object. It shows protection was purchased, not delivered. pages/entities/cracked-pocket-ward.html
+- Block2: Mithril & Mortar street line corporate-made MITHRIL & MORTAR POCKET WARD: Comfort You Can Carry. Reduces Many Kinds of Worry. Warranty Valid Only Before Impact. It produces reassurance more reliably than protection. The warranty survived the impact better than the ward did.
+- Block3: Evidence object. Knowledge 12 reads the crack as overload, not animal damage. item #adaptation Daggerheart item grammar: weapon or offensive consumable; use the listed trait/range/damage/effect exactly as written here. Evidence object. Knowledge 12 reads the crack as overload, not animal damage. The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned. Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does. Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction. If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus. Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling. DC 12-15 to identify...
+- Block4: Tamsin Vell Perrin Oake Overturned Vendor Cart Tamsin's Effects Found in Tamsin's satchel or on a lost courier. S01-02 S02-01
+- Block5: Layer 1 - look A cracked charm still trying to glow. Layer 2 - hint The sticker promises safety. Layer 3 - truth Knowledge 12 shows it overloaded and failed. Inspect the crack. Compare it to route ward marks. Ask a road clerk how often cheap wards fail. Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll.
+- Block6: A cheap palm-sized ward charm cracked down the middle, smiling warranty sticker, faded glow, cheerful Mithril & Mortar packaging scrap. item wiki card and earned side-card visual Use the Run Mode item card's Show image button when the table sees or earns this item. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/cracked-pocket-ward/profile_base.png assets/item-images/cracked-pocket-ward/profile_base.webp Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark.
+- Visual Assets: profile_base Item profile image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/cracked-pocket-ward/profile_base.png assets/item-images/cracked-pocket-ward/profile_base.webp ready Cracked Pocket Ward™ item illustration. A cheap little ward charm sits cracked down the middle, still trying to glow through a smiling warranty sticker.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash d08e81a4d5b29100 | Source hash dac3370046ed077140fab2d6

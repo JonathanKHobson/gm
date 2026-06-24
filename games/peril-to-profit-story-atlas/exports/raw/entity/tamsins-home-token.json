@@ -1,0 +1,64 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "tamsins-home-token",
+  "title": "Tamsin's Home-Token",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "027454711677b32f",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "A small thumb-polished token on a cord hangs beside the torn blue scarf, warm from wear and etched with a tiny house mark instead of a company seal."
+    },
+    {
+      "title": "Public role",
+      "body": "Tamsin's Home-Token: a personal keepsake that can identify her as a person with somewhere to return to, not a route number."
+    },
+    {
+      "title": "Handout text",
+      "body": "ROUTE PROPERTY NOTICE: Personal tokens are not recognized as official identification. Please use approved badges when becoming a claim."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: tamsins-home-token",
+        "Name: Tamsin's Home-Token",
+        "Type: item",
+        "Summary: A small thumb-polished token on a cord hangs beside the torn blue scarf, warm from wear and etched with a tiny house mark instead of a company seal.",
+        "Role: Tamsin's Home-Token: a personal keepsake that can identify her as a person with somewhere to return to, not a route number.",
+        "Connections: Tamsin Vell Overturned Vendor Cart",
+        "Aliases: home-token Tamsin token Tamsin's Home-Token",
+        "Pronunciation: TAM-zinz HOHM TOH-ken",
+        "Short Pronunciation: TAM-zinz HOHM TOH-ken",
+        "Tags: item-profile loot prop trinket",
+        "Item Profile: item-profile-v1 tamsins-home-token tamsins-home-token Tamsin's Home-Token Tamsin's Home-Token home-token Tamsin token TAM-zinz HOHM TOH-ken trinket Tier 1 P2 PROP folk-made wild/folk True True [Atlas lore - confirm or override] Tamsin's Home-Token A small thumb-polished token on a cord hangs beside the torn blue scarf, warm from wear and etched with a tiny house mark instead of a company seal. A small thumb-polished token on a cord hangs beside the torn blue scarf, warm from wear and etched with a tiny house mark instead of a company seal. folk-made ROUTE PROPERTY NOTICE: Personal tokens are not recognized as official identification. Please use approved badges when becoming a claim. tamsins-home-token Tamsin's Home-Token home-token Tamsin token TAM-zinz HOHM TOH-ken trinket Tier 1 A small thumb-polished token on a cord hangs beside the torn blue scarf, warm from wear and etched with a tiny house mark instead of a company seal. Tamsin's Home-Token: a personal keepsake that can identify her as a person with somewhere to return to, not a route number. A humanizing clue carried by the dead courier. Returning it respectfully can open trust in Hush or with road folk...",
+        "Robust: A small thumb-polished token on a cord hangs beside the torn blue scarf, warm from wear and etched with a tiny house mark instead of a company seal. Use this element to reveal the cost of managed protection through concrete play. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Pull attention toward the people, stakes, or infrastructure connected to this entity. Pressure appears when players treat this as disposable, purely transactional, or unrelated to ordinary lives. Use when players need a tangible handle on the scene's pressure. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Tamsin's Home-Token and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the institutional pattern. Wildborne / community: notices local use, neglect...",
+        "Search Or Loot: Tamsin's Home-Token: a personal keepsake that can identify her as a person with somewhere to return to, not a route number. Provenance: Found only if the party searches respectfully.",
+        "Equipment: Kind: trinket Maker: folk-made Loot group: Tamsin's Effects",
+        "Image Prompt: Private table TTRPG story atlas asset for Tamsin's Home-Token, Item / Asset. Role: Tamsin's Home-Token: a personal keepsake that can identify her as a person with somewhere to return to, not a route number.. Summary: A small thumb-polished token on a cord hangs beside the torn blue scarf, warm from wear and etched with a tiny house mark instead of a company seal.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Personality: Give one concrete visual, one sound or texture, and one sign of who has used or neglected it.",
+        "Wants: Pull attention toward the people, stakes, or infrastructure connected to this entity.",
+        "Fears: Pressure appears when players treat this as disposable, purely transactional, or unrelated to ordinary lives.",
+        "Secrets: Use this element to reveal the cost of managed protection through concrete play.",
+        "Body Language: Give one concrete visual, one sound or texture, and one sign of who has used or neglected it.",
+        "Sample Dialogue: A small thumb-polished token on a cord hangs beside the torn blue scarf, warm from wear and etched with a tiny house mark instead of a company seal.",
+        "Gm Use: Use when players need a tangible handle on the scene's pressure.",
+        "Future Hooks: Bring back if player choices made this entity emotionally or tactically important.",
+        "Mechanics: Discovery / Earn-It Mechanics Players can inspect, handle, keep, trade, reveal, or earn Tamsin's Home-Token when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A small thumb-polished token on a cord hangs beside the torn blue scarf, warm from wear and etched with a tiny house mark instead of a company seal. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-tamsins-home-token-engage-tamsin's-home-token entity-tamsins-home-token Engage Tamsin's Home-Token Engage Tamsin's Home-Token Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Tamsin's Home-Token hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure...",
+        "Meta: Item / Asset ITEM assets/icons/item.png entity-item #39c5bb 07 Items and Clues entities item",
+        "Appears In: S01-02 S02-01 S03-01",
+        "Related: Overturned Vendor Cart S01-02 S02-01 S03-01 Tamsin Vell",
+        "Image: assets/item-images/tamsins-home-token/profile_base.webp",
+        "Image Asset Status: item_visual_profile",
+        "Visual Gallery: primary Primary wiki image primary assets/item-images/tamsins-home-token/profile_base.webp Tamsin's Home-Token primary wiki image visual. Tamsin's Home-Token: Primary wiki image. item_visual_profile True True"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 027454711677b32f | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

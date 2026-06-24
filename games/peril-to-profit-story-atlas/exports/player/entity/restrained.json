@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "restrained",
+  "kind": "entity",
+  "title": "Restrained",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Condition",
+  "hook": "Player-safe note: You cannot move, but you can still take actions from your current position.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "You cannot move, but you can still take actions from your current position."
+    },
+    {
+      "label": "How It Works",
+      "body": "Official Daggerheart primary condition"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use this when your action is uncertain and consequences matter.",
+    "Ask which trait fits your method."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:restrained",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "de6c0f13fb8221ee",
+  "generated_at": "2026-06-23T21:40:58"
+}

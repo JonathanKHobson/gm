@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "giraffe-deer",
+  "title": "Giraffe-Deer",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "8f21fce373541db4",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Giraffe-Deer: Tall, soft-eyed giraffe-deer step over the carriage road as if the road is a small inconvenience built by very short people."
+    },
+    {
+      "title": "Public role",
+      "body": "Gentle forest-scale grazer"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Tall, soft-eyed giraffe-deer step over the carriage road as if the road is a small inconvenience built by very short people."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use as a moral encounter. Reward restraint and observation without forcing a pet or mascot outcome."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 8f21fce373541db4 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

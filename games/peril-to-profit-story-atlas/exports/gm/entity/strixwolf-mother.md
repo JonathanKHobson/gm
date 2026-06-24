@@ -1,0 +1,36 @@
+# Strixwolf Mother
+
+GM export - entity:strixwolf-mother
+
+## Player-facing description
+The owl-wolf mother crouches around her pups, barred feathers lifted along her throat and amber eyes fixed on any hand that comes too close.
+
+## Public role
+False-monster moral encounter.
+
+## Handout text
+Player-safe note: A huge owl-wolf mother crouched around her pups, barred feathers and fur bristling, acting from protection rather than malice.
+
+## GM truth
+No forced reveal. Let this entity disclose truth through scene context and player attention.
+
+## GM handling
+Use her as a frightened parent and moral-pressure creature; her behavior should point players back to the staged crime scene rather than make her the villain.
+
+## Profile
+- Schema Version: npc-profile-v1
+- Source: NPC_System_Packet + image-informed hardening
+- Backup: False
+- Combatant: True
+- Player Safe: Strixwolf Mother a huge owl-faced wolf mother guarding her pups near the wreck A huge owl-wolf mother crouches around her pups, barred feathers and fur bristling, amber eyes fixed on any hand that comes too close. Strixwolf Mother: a huge owl-faced wolf mother guarding her pups near the wreck
+- Block1: Strixwolf Mother STRIKS-woolf MUTH-er a huge owl-faced wolf mother guarding her pups near the wreck False-monster moral encounter. First restraint test; calm, feed, retreat, or fight all set future pressure. She is scavenging and protecting pups; she is probably not the killer. A mercy branch A safe retreat option A future animal-disposition consequence Protective, frightened, and willing to leave if given space. Distance and calm hands. Food helps if the party does not crowd the pups.
+- Block2: Keep the pups fed and far from armed strangers. Survive the roads that keep cutting through hunting ground. Keep the pups fed and far from armed strangers. Survive the roads that keep cutting through hunting ground. Not cruel and not hungry for a fight, just a cornered parent doing math no one taught her, weighing every armed stranger against two small clicking shapes under her wing. She will let you walk away. She will not let you walk closer. She does not speak; she lowers her wings over the pups and tracks hands, not faces. There is no secret motive; the clue is that she is a mother, not a murderer. A sudden rush toward the pups, fire, and cornered noise. Distance, lowered weapons, tossed food, and the party giving her a clear exit. Hands near the pups, shouting, bright spell-flashes, and anyone stepping between her and the trees. Distance, lowered weapons, tossed food, and the...
+- Block3: She expects armed two-legs to rush, shout, or claim the body without noticing the pups. Empathy and calm land. Intimidation turns the scene into a fight. Presence 12 or Instinct 11 with food opens safe access. Presence 12 She stops escalating and gives the party room to investigate. Instinct 11 Food and distance turn the scene from fight to wary truce. She breaks off as soon as the pups have room to flee or the PCs clearly choose distance over dominance.
+- Block4: The road is dangerous for animals too. The body does not match a simple feeding kill. A mercy outcome can soften later wilderness pressure. No ideology; she embodies what routes and protection contracts do to living terrain. Shows how corporate routes turn living terrain into liability. Spared animal pressure can return as help, warning, or nonverbal witness. Varian can smell fear and carrion separation; Khari can protect space without escalating. Her future relationship to the party is animal memory: mercy can become warning, distance, or aid later. npc_images portrait asset
+- Block5: T1 Standard. Difficulty 10. Damage thresholds 4/8. HP 3. combatant Rules/Act-by-Act Mechanics.md Scene 1.2 Tier 1 Standard 10 4 8 3 not listed in module source not listed in module source not listed as a named adversary attack; if forced into violence, resolve PC attacks against Difficulty 10 and use the scene's force-off outcome. Melee / Very Close fictional pressure around the cart protect pups create distance guard the body as food flee when the pups are safe Protective mother: she does not fight to the death; she breaks off when the pups have space or the PCs choose distance. Scavenger, not killer: her behavior should point players back to the blade wound and the staged crime scene. Mercy payoff: calming or helping her can justify later warning/advantage in S02-02. Fear spin pressure from the first approach roll: she hoot-howls for her pack; GM gains Fear and the table knows they...
+- Portrait: assets/npc-images/strixwolf-mother/portrait_base.webp assets/npc-images/strixwolf-mother/portrait_chroma.webp assets/npc-images/strixwolf-mother/portrait_transparent.webp npc_images
+- Imagine It Like: Think a great horned owl crossed with a wolf, carrying the maternal fury of a mother bear. Picture the nature-documentary moment where the lens creeps too close to the den and the parent suddenly fills the whole frame.
+- Fullbody: assets/npc-images/strixwolf-mother/fullbody_base.webp assets/npc-images/strixwolf-mother/fullbody_chroma.webp assets/npc-images/strixwolf-mother/fullbody_transparent.webp
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 70cac28742ba5d1a | Source hash dac3370046ed077140fab2d6

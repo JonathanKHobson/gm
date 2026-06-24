@@ -1,0 +1,48 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "experiences",
+  "title": "Experiences",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "de2ac297112a1943",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "Short expertise phrases that can add to relevant rolls by spending Hope."
+    },
+    {
+      "title": "How it works",
+      "body": "Use before a roll when the phrase truly applies."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use before a roll when the phrase truly applies.",
+        "Yes, if it clearly helps this action and you spend Hope.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "Can I use my Experience?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "hope",
+        "action-roll"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash de2ac297112a1943 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

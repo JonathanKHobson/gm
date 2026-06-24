@@ -1,0 +1,330 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2652 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-the-ash-quarry - The Ash Quarry Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The Ash Quarry turns ancient residue into industry: gray terraces, warm dust, and) Tj
+T*
+(workers who know which piles still remember fire.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(The Ash Quarry turns ancient residue into industry: gray terraces, warm dust, and) Tj
+T*
+(workers who know which piles still remember fire.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-the-ash-quarry) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: STORY) Tj
+T*
+(- Sectiontitle: Map Board) Tj
+T*
+(- Title: The Ash Quarry Location Map) Tj
+T*
+(- Shorttitle: The Ash Quarry) Tj
+T*
+(- Order: 851.2) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-the-ash-quarry-gm.png) Tj
+T*
+(- Alt: The Ash Quarry location map board.) Tj
+T*
+(- Caption: Visual reference for The Ash Quarry.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Make materials feel handled by people, not listed in a setting gazetteer.) Tj
+T*
+(- Publicobjective: The Ash Quarry turns ancient residue into industry: gray terraces,) Tj
+T*
+(  warm dust, and workers who know which piles still remember fire.) Tj
+T*
+(- Readaloud: The Ash Quarry turns ancient residue into industry: gray terraces, warm) Tj
+T*
+(  dust, and workers who know which piles still remember fire.) Tj
+T*
+(- Playertakeaway: The Ash Quarry turns ancient residue into industry: gray terraces,) Tj
+T*
+(  warm dust, and workers who know which piles still remember fire.) Tj
+T*
+(- Storytakeaway: The quarry shows extraction without losing the strangeness of the old) Tj
+T*
+(  wood.) Tj
+T*
+(- Mechanictakeaway: Use for resource context or future hook, not current route) Tj
+T*
+(  clutter.) Tj
+T*
+(- Entityids: the-ash-quarry spidermanders badger-hawks) Tj
+T*
+(- Entities: the-ash-quarry The Ash Quarry location Location assets/icons/location.png) Tj
+T*
+(  assets/location-visuals/the-ash-quarry/profile_scene_v02.png the ASH KWOR-ee A) Tj
+T*
+(  quarry where ash has practical value, letting the setting show resource extraction) Tj
+T*
+(  without losing the strangeness of the old wood. Make materials feel handled by) Tj
+T*
+(  people, not listed in a setting gazetteer. A quarry where ash has practical value,) Tj
+T*
+(  letting the setting show resource extraction without losing the strangeness of the) Tj
+T*
+(  old wood.; introduce it with a sensory palette, who feels safe there, and what has) Tj
+T*
+(  been neglected. Pull player attention toward the choices, clues, and relationships) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4190 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  tied to The Fire Walk, The Refuge, Mithril & Mortar. A quarry where ash has) Tj
+T*
+(  practical value, letting the setting show resource extraction without losing the) Tj
+T*
+(  strangeness of the old wood. spidermanders Spidermanders creature Creature / Animal) Tj
+T*
+(  assets/icons/creature.png assets/creature-images/spidermanders/portrait_base.png) Tj
+T*
+(  SPY-der-MAN-derz Spider-salamander hybrids coat themselves in pale ash, gripping) Tj
+T*
+(  stone with too many soft feet and leaving damp prints where the ground should be) Tj
+T*
+(  dry. Ash-coated cave and quarry hybrid Spider-salamander hybrids...) Tj
+T*
+(- Locationids: the-ash-quarry) Tj
+T*
+(- Fearspends: A cart track fills with warm ash from below. Someone's breath fogs gray) Tj
+T*
+(  in air that should be warm.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Mapdata: MAP-LOC-the-ash-quarry environment The Ash Quarry Location Map the-ash-) Tj
+T*
+(  quarry spidermanders badger-hawks assets/location-visuals/the-ash-) Tj
+T*
+(  quarry/profile_scene_v02.png Visual reference for The Ash Quarry. The Ash Quarry) Tj
+T*
+(  location map board. The Ash Quarry turns ancient residue into industry: gray) Tj
+T*
+(  terraces, warm dust, and workers who know which piles still remember fire. The Ash) Tj
+T*
+(  Quarry turns ancient residue into industry: gray terraces, warm dust, and workers) Tj
+T*
+(  who know which piles still remember fire. Make materials feel handled by people, not) Tj
+T*
+(  listed in a setting gazetteer. Layered cuts expose pale ash, black stone, and root) Tj
+T*
+(  veins. Tools are wrapped to keep dust out of grips and lungs. The best ash is not) Tj
+T*
+(  the cleanest ash. Leaf-drip, insects, distant wingbeats, and animal calls that stop) Tj
+T*
+(  or resume according to pressure, not comfort. Dry ash, hot stone, bitter smoke, and) Tj
+T*
+(  sweat trapped in cloth masks. Dust coats skin instantly; stone is warm under shade.) Tj
+T*
+(  The forest is populated even when no NPC is present; silence, birds, insects, and) Tj
+T*
+(  tracks are actionable signals. Layered cuts expose pale ash, black stone, and root) Tj
+T*
+(  veins. Tools are wrapped to keep dust out of grips and lungs. The best...) Tj
+T*
+(- Livetools: scene MAP-LOC-the-ash-quarry) Tj
+T*
+(- Takeawayhelp: Player takeaway: MAP-LOC-the-ash-quarry The Ash Quarry turns ancient) Tj
+T*
+(  residue into industry: gray terraces, warm dust, and workers who know which piles) Tj
+T*
+(  still remember fire. Give the player one concrete way back into play: a question, a) Tj
+T*
+(  description, a choice, or a pass-and-return moment. "Your takeaway right now is) Tj
+T*
+(  this: The Ash Quarry turns ancient residue into industry: gray terraces, warm dust,) Tj
+T*
+(  and workers who know which piles still remember fire." "If you are not sure what to) Tj
+T*
+(  do next, you can ask a question, describe what your character notices, or tell me) Tj
+T*
+(  what your character tries." "If you are not sure what to do next, you can ask a) Tj
+T*
+(  question, describe what your character notices, or tell me what your character) Tj
+T*
+(  tries." Give the player one concrete way back into play: a question, a description,) Tj
+T*
+(  a choice, or a pass-and-return moment. Story takeaway: MAP-LOC-the-ash-quarry The) Tj
+T*
+(  quarry shows extraction without losing the strangeness of the old wood. Anchor the) Tj
+T*
+(  answer in the visible fiction on this slide: who is present, what can be observed,) Tj
+T*
+(  what has already been said, and what remains uncertain. "Here is what your) Tj
+T*
+(  characters know right now: The quarry shows extraction without...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-the-ash-quarry-player.png The Ash Quarry location) Tj
+T*
+(  map board. MAP-LOC-the-ash-quarry environment The Ash Quarry assets/maps/MAP-LOC-) Tj
+T*
+(  the-ash-quarry-player.png assets/maps/MAP-LOC-the-ash-quarry-player.png Visual) Tj
+T*
+(  reference for The Ash Quarry. The Ash Quarry location map board. The Ash Quarry) Tj
+T*
+(  turns ancient residue into industry: gray terraces, warm dust, and workers who know) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2625 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  which piles still remember fire. The Ash Quarry turns ancient residue into industry:) Tj
+T*
+(  gray terraces, warm dust, and workers who know which piles still remember fire. MAP-) Tj
+T*
+(  LOC-the-ash-quarry-map-only Map only The Ash Quarry map-only assets/maps/MAP-LOC-) Tj
+T*
+(  the-ash-quarry-player.png The Ash Quarry location map board. MAP-LOC-the-ash-quarry) Tj
+T*
+(  environment The Ash Quarry assets/maps/MAP-LOC-the-ash-quarry-player.png) Tj
+T*
+(  assets/maps/MAP-LOC-the-ash-quarry-player.png Visual reference for The Ash Quarry.) Tj
+T*
+(  The Ash Quarry location map board. The Ash Quarry turns ancient residue into) Tj
+T*
+(  industry: gray terraces, warm dust, and workers who know which piles still remember) Tj
+T*
+(  fire. The Ash Quarry turns ancient residue into industry: gray terraces, warm dust,) Tj
+T*
+(  and workers who know which piles still remember fire...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-the-ash-quarry map The Ash Quarry assets/maps/MAP-LOC-) Tj
+T*
+(  the-ash-quarry-player.png The Ash Quarry location map board. Visual reference for) Tj
+T*
+(  The Ash Quarry. spatial reference and location texture The Ash Quarry turns ancient) Tj
+T*
+(  residue into industry: gray terraces, warm dust, and workers who know which piles) Tj
+T*
+(  still remember fire. The Ash Quarry turns ancient residue into industry: gray) Tj
+T*
+(  terraces, warm dust, and workers who know which piles still remember fire. MAP-LOC-) Tj
+T*
+(  the-ash-quarry environment The Ash Quarry assets/maps/MAP-LOC-the-ash-quarry-) Tj
+T*
+(  player.png assets/maps/MAP-LOC-the-ash-quarry-player.png Visual reference for The) Tj
+T*
+(  Ash Quarry. The Ash Quarry location map board. The Ash Quarry turns ancient residue) Tj
+T*
+(  into industry: gray terraces, warm dust, and workers who know which piles still) Tj
+T*
+(  remember fire. The Ash Quarry turns ancient residue into industry: gray terraces,) Tj
+T*
+(  warm dust, and workers who know which piles still remember fire. assets/maps/MAP-) Tj
+T*
+(  LOC-the-ash-quarry-player.png The Ash Quarry location map board. MAP-LOC-the-ash-) Tj
+T*
+(  quarry environment The Ash Quarry assets/maps/MAP-LOC-the-ash-quarry-player.png) Tj
+T*
+(  assets/maps/MAP-LOC-the-ash-quarry-player.png Visual reference for The Ash...) Tj
+T*
+(- Slidenumber: 93) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash e2071f645b68f779 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002713 00000 n 
+0000002839 00000 n 
+0000007081 00000 n 
+0000007207 00000 n 
+0000009884 00000 n 
+0000010010 00000 n 
+0000010079 00000 n 
+0000010128 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+10200
+%%EOF

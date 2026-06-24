@@ -1,0 +1,947 @@
+[
+  {
+    "name": "Sablewood",
+    "canonical": "Sablewood™ Logistics Preserve",
+    "type": "location",
+    "source_page": 1,
+    "status": "merged",
+    "aliases": [
+      "Sablewood Logistics Preserve",
+      "Sablewood Logistics",
+      "the Preserve"
+    ]
+  },
+  {
+    "name": "Endless Verdance",
+    "canonical": "Sablewood™ Logistics Preserve",
+    "type": "location",
+    "source_page": 1,
+    "status": "merged",
+    "aliases": [
+      "endless verdancy",
+      "ancient canopy"
+    ]
+  },
+  {
+    "name": "Hybrid Fauna",
+    "canonical": "Sablewood Hybrid Fauna",
+    "type": "creature",
+    "source_page": 1,
+    "status": "new",
+    "aliases": [
+      "hybrid animals",
+      "hybrid beasts"
+    ]
+  },
+  {
+    "name": "Cat-Squirrels",
+    "canonical": "Cat-Squirrels",
+    "type": "creature",
+    "source_page": 1,
+    "status": "new",
+    "aliases": [
+      "cat squirrels",
+      "canopy cat-squirrels"
+    ]
+  },
+  {
+    "name": "Giraffe-Deer",
+    "canonical": "Giraffe-Deer",
+    "type": "creature",
+    "source_page": 1,
+    "status": "new",
+    "aliases": [
+      "giraffe deer",
+      "long-necked deer"
+    ]
+  },
+  {
+    "name": "Lemur-Toads",
+    "canonical": "Lemur-Toads",
+    "type": "creature",
+    "source_page": 1,
+    "status": "new",
+    "aliases": [
+      "lemur toads",
+      "gossip-click toads"
+    ]
+  },
+  {
+    "name": "Fox-Bats",
+    "canonical": "Fox-Bats",
+    "type": "creature",
+    "source_page": 1,
+    "status": "new",
+    "aliases": [
+      "fox bats",
+      "friendly fox-bat"
+    ]
+  },
+  {
+    "name": "Horse-Goats",
+    "canonical": "Horse-Goats",
+    "type": "creature",
+    "source_page": 1,
+    "status": "new",
+    "aliases": [
+      "horse goats",
+      "carriage horse-goats"
+    ]
+  },
+  {
+    "name": "Hunting Trees",
+    "canonical": "Hunting Trees",
+    "type": "creature",
+    "source_page": 1,
+    "status": "new",
+    "aliases": [
+      "village-taking trees"
+    ]
+  },
+  {
+    "name": "Goldspire Relays",
+    "canonical": "The Goldspire Relay",
+    "type": "location",
+    "source_page": 1,
+    "status": "merged",
+    "aliases": [
+      "Goldspire Relay",
+      "relay keeper route",
+      "Goldspire relay network"
+    ]
+  },
+  {
+    "name": "Well-Worn Pathways",
+    "canonical": "Sablewood Route Network",
+    "type": "location",
+    "source_page": 2,
+    "status": "new",
+    "aliases": [
+      "approved routes",
+      "sunken routes",
+      "well worn pathways"
+    ]
+  },
+  {
+    "name": "Underroot",
+    "canonical": "Underroot",
+    "type": "location",
+    "source_page": 2,
+    "status": "new",
+    "aliases": [
+      "Underroot communities",
+      "root tunnels"
+    ]
+  },
+  {
+    "name": "Underroot Tunnels",
+    "canonical": "Underroot Tunnels",
+    "type": "location",
+    "source_page": 10,
+    "status": "new",
+    "aliases": [
+      "underborne tunnels",
+      "subterranean tunnels"
+    ]
+  },
+  {
+    "name": "The Titan's Steps",
+    "canonical": "The Titan's Steps",
+    "type": "location",
+    "source_page": 2,
+    "status": "new",
+    "aliases": [
+      "Titan's Steps",
+      "Highest Pillar"
+    ]
+  },
+  {
+    "name": "Duskwatch Exchange",
+    "canonical": "Duskwatch Exchange",
+    "type": "location",
+    "source_page": 2,
+    "status": "new",
+    "aliases": [
+      "Duskwatch",
+      "Duskwatch market"
+    ]
+  },
+  {
+    "name": "Mountain Crabs",
+    "canonical": "Mountain Crabs",
+    "type": "creature",
+    "source_page": 2,
+    "status": "new",
+    "aliases": [
+      "mountain crab",
+      "crab shell"
+    ]
+  },
+  {
+    "name": "The Catcher's Cradles",
+    "canonical": "The Catcher's Cradles",
+    "type": "location",
+    "source_page": 2,
+    "status": "new",
+    "aliases": [
+      "Catcher's Cradles",
+      "the Cradles"
+    ]
+  },
+  {
+    "name": "The Lucent River",
+    "canonical": "The Lucent River",
+    "type": "location",
+    "source_page": 3,
+    "status": "new",
+    "aliases": [
+      "Lucent River",
+      "Lucy",
+      "Lucent Water"
+    ]
+  },
+  {
+    "name": "Moonglow",
+    "canonical": "Moonglow",
+    "type": "location",
+    "source_page": 3,
+    "status": "new",
+    "aliases": [
+      "moon glow",
+      "Lucent glow"
+    ]
+  },
+  {
+    "name": "Craymeleon",
+    "canonical": "Craymeleon",
+    "type": "creature",
+    "source_page": 3,
+    "status": "new",
+    "aliases": [
+      "craymeleons",
+      "chameleon crayfish"
+    ]
+  },
+  {
+    "name": "Eeligators",
+    "canonical": "Eeligator",
+    "type": "enemy",
+    "source_page": 3,
+    "status": "new",
+    "aliases": [
+      "Eeligators",
+      "eeligator"
+    ]
+  },
+  {
+    "name": "The High Falls",
+    "canonical": "The High Falls",
+    "type": "location",
+    "source_page": 3,
+    "status": "new",
+    "aliases": [
+      "High Falls"
+    ]
+  },
+  {
+    "name": "The Miremist",
+    "canonical": "The Miremist",
+    "type": "location",
+    "source_page": 3,
+    "status": "new",
+    "aliases": [
+      "Miremist"
+    ]
+  },
+  {
+    "name": "The Stones of the Vale",
+    "canonical": "The Stones of the Vale",
+    "type": "location",
+    "source_page": 3,
+    "status": "new",
+    "aliases": [
+      "Stones of the Vale",
+      "The Stones"
+    ]
+  },
+  {
+    "name": "The Claravale Market",
+    "canonical": "The Claravale Market",
+    "type": "location",
+    "source_page": 3,
+    "status": "new",
+    "aliases": [
+      "Claravale Market",
+      "Claravale"
+    ]
+  },
+  {
+    "name": "Open Vale",
+    "canonical": "Open Vale™ Ritual Site",
+    "type": "location",
+    "source_page": 3,
+    "status": "merged",
+    "aliases": [
+      "Open Vale Ritual Site",
+      "Stones of the Vale"
+    ]
+  },
+  {
+    "name": "Ward-Moths",
+    "canonical": "Ward-Moths",
+    "type": "creature",
+    "source_page": 3,
+    "status": "new",
+    "aliases": [
+      "ward moths",
+      "ritual moths"
+    ]
+  },
+  {
+    "name": "Mist-Things",
+    "canonical": "Mist-Things",
+    "type": "creature",
+    "source_page": 3,
+    "status": "new",
+    "aliases": [
+      "mist things",
+      "sent animals"
+    ]
+  },
+  {
+    "name": "Sunfire Lily",
+    "canonical": "Sunfire Lily",
+    "type": "item",
+    "source_page": 3,
+    "status": "new",
+    "aliases": [
+      "Sunfire Lilies"
+    ]
+  },
+  {
+    "name": "Hush Community Enclave",
+    "canonical": "Hush™ Community Enclave",
+    "type": "location",
+    "source_page": 4,
+    "status": "merged",
+    "aliases": [
+      "Hush Community Enclave",
+      "official Hush enclave"
+    ]
+  },
+  {
+    "name": "Hush",
+    "canonical": "Hush",
+    "type": "location",
+    "source_page": 4,
+    "status": "merged",
+    "aliases": [
+      "Hush village",
+      "the local village"
+    ]
+  },
+  {
+    "name": "The Sunless Farms",
+    "canonical": "The Sunless Farms",
+    "type": "location",
+    "source_page": 4,
+    "status": "new",
+    "aliases": [
+      "Sunless Farms",
+      "Hush sunless farms"
+    ]
+  },
+  {
+    "name": "Ratcoons",
+    "canonical": "Ratcoons",
+    "type": "creature",
+    "source_page": 4,
+    "status": "new",
+    "aliases": [
+      "ratcoons",
+      "canal ratcoons"
+    ]
+  },
+  {
+    "name": "Festival Moths",
+    "canonical": "Festival Moths",
+    "type": "creature",
+    "source_page": 4,
+    "status": "new",
+    "aliases": [
+      "festival moths",
+      "Firstmoss moths"
+    ]
+  },
+  {
+    "name": "Sunless-Farm Moss",
+    "canonical": "Sunless-Farm Moss",
+    "type": "item",
+    "source_page": 4,
+    "status": "new",
+    "aliases": [
+      "sunless farm moss",
+      "blue-green farm moss"
+    ]
+  },
+  {
+    "name": "Guest Privileges",
+    "canonical": "Guest Privileges",
+    "type": "mechanic",
+    "source_page": 4,
+    "status": "new",
+    "aliases": [
+      "guest custom",
+      "three-night guest privilege"
+    ]
+  },
+  {
+    "name": "The Clover Co-op",
+    "canonical": "Clover Co-op",
+    "type": "location",
+    "source_page": 4,
+    "status": "merged",
+    "aliases": [
+      "The Clover Co-op",
+      "six-story tavern"
+    ]
+  },
+  {
+    "name": "The Refuge",
+    "canonical": "The Refuge",
+    "type": "location",
+    "source_page": 5,
+    "status": "new",
+    "aliases": [
+      "Refuge"
+    ]
+  },
+  {
+    "name": "Rabbit-Gliders",
+    "canonical": "Rabbit-Gliders",
+    "type": "creature",
+    "source_page": 5,
+    "status": "new",
+    "aliases": [
+      "rabbit gliders"
+    ]
+  },
+  {
+    "name": "Moth-Possums",
+    "canonical": "Moth-Possums",
+    "type": "creature",
+    "source_page": 5,
+    "status": "new",
+    "aliases": [
+      "moth possums"
+    ]
+  },
+  {
+    "name": "Turtle-Mice",
+    "canonical": "Turtle-Mice",
+    "type": "creature",
+    "source_page": 5,
+    "status": "new",
+    "aliases": [
+      "turtle mice"
+    ]
+  },
+  {
+    "name": "Badger-Hawks",
+    "canonical": "Badger-Hawks",
+    "type": "creature",
+    "source_page": 5,
+    "status": "new",
+    "aliases": [
+      "badger hawks"
+    ]
+  },
+  {
+    "name": "The Fire Walk",
+    "canonical": "The Fire Walk",
+    "type": "location",
+    "source_page": 5,
+    "status": "new",
+    "aliases": [
+      "Fire Walk"
+    ]
+  },
+  {
+    "name": "The Ash Quarry",
+    "canonical": "The Ash Quarry",
+    "type": "location",
+    "source_page": 5,
+    "status": "new",
+    "aliases": [
+      "Ash Quarry",
+      "Restorative Ash"
+    ]
+  },
+  {
+    "name": "Root's Hollow",
+    "canonical": "Root's Hollow",
+    "type": "location",
+    "source_page": 5,
+    "status": "new",
+    "aliases": [
+      "Roots Hollow",
+      "Root Hollow"
+    ]
+  },
+  {
+    "name": "Spidermanders",
+    "canonical": "Spidermanders",
+    "type": "creature",
+    "source_page": 5,
+    "status": "new",
+    "aliases": [
+      "spidermander",
+      "spider-salamanders"
+    ]
+  },
+  {
+    "name": "Centi-Beetles",
+    "canonical": "Centi-Beetles",
+    "type": "creature",
+    "source_page": 5,
+    "status": "new",
+    "aliases": [
+      "centi beetles",
+      "giant burrowers"
+    ]
+  },
+  {
+    "name": "Hellbender",
+    "canonical": "Hellbender",
+    "type": "creature",
+    "source_page": 5,
+    "status": "new",
+    "aliases": [
+      "ancient spidermander"
+    ]
+  },
+  {
+    "name": "The Latch",
+    "canonical": "The Latch",
+    "type": "location",
+    "source_page": 5,
+    "status": "new",
+    "aliases": [
+      "Latch"
+    ]
+  },
+  {
+    "name": "The Sable Stills",
+    "canonical": "The Sable Stills",
+    "type": "location",
+    "source_page": 5,
+    "status": "new",
+    "aliases": [
+      "Sable Stills",
+      "Knock Wood"
+    ]
+  },
+  {
+    "name": "Bramble Union",
+    "canonical": "Bramble Union",
+    "type": "faction",
+    "source_page": 6,
+    "status": "merged",
+    "aliases": [
+      "The Bramble Union",
+      "Union folk",
+      "off-network reclaimers"
+    ]
+  },
+  {
+    "name": "Eclectic Villages",
+    "canonical": "Bramble Union Villages",
+    "type": "location",
+    "source_page": 6,
+    "status": "new",
+    "aliases": [
+      "Bramble villages",
+      "hidden bramble villages"
+    ]
+  },
+  {
+    "name": "The Wandering Briar",
+    "canonical": "The Wandering Briar",
+    "type": "location",
+    "source_page": 6,
+    "status": "new",
+    "aliases": [
+      "Wandering Briar",
+      "the Wanderers"
+    ]
+  },
+  {
+    "name": "Tumblers",
+    "canonical": "Bramble Stone Tumblers",
+    "type": "item",
+    "source_page": 6,
+    "status": "new",
+    "aliases": [
+      "stone tumblers",
+      "river tumblers"
+    ]
+  },
+  {
+    "name": "Proven Navir",
+    "canonical": "Proven Navir",
+    "type": "npc",
+    "source_page": 6,
+    "status": "new",
+    "aliases": [
+      "Proven Navir of the Sixspire Tangle"
+    ]
+  },
+  {
+    "name": "Xen",
+    "canonical": "Xen",
+    "type": "npc",
+    "source_page": 6,
+    "status": "new",
+    "aliases": [
+      "Xen, Lapidarian of the Highbrush",
+      "Lapidarian of the Highbrush"
+    ]
+  },
+  {
+    "name": "Yikyik Trahll",
+    "canonical": "Yikyik Trahll",
+    "type": "npc",
+    "source_page": 6,
+    "status": "new",
+    "aliases": [
+      "Yikyik Trahll, Driftwood",
+      "Yikyik"
+    ]
+  },
+  {
+    "name": "The Sable Sinecure",
+    "canonical": "The Sable Sinecure",
+    "type": "faction",
+    "source_page": 7,
+    "status": "new",
+    "aliases": [
+      "Sable Sinecure",
+      "Kazrak-franchised logistics guild"
+    ]
+  },
+  {
+    "name": "Fire-Falcons",
+    "canonical": "Fire-Falcons",
+    "type": "creature",
+    "source_page": 7,
+    "status": "new",
+    "aliases": [
+      "fire-falcons",
+      "fire falcons"
+    ]
+  },
+  {
+    "name": "Secret Caches",
+    "canonical": "Sable Sinecure Secret Caches",
+    "type": "clue",
+    "source_page": 7,
+    "status": "new",
+    "aliases": [
+      "secret caches",
+      "loss-prevention caches"
+    ]
+  },
+  {
+    "name": "Hazard-Indexed Pricing",
+    "canonical": "Hazard-Indexed Pricing",
+    "type": "mechanic",
+    "source_page": 7,
+    "status": "new",
+    "aliases": [
+      "hazard rate",
+      "Hazard Indexed Price"
+    ]
+  },
+  {
+    "name": "Helena Corain",
+    "canonical": "Helena Corain",
+    "type": "npc",
+    "source_page": 7,
+    "status": "new",
+    "aliases": [
+      "Helena"
+    ]
+  },
+  {
+    "name": "Will Scild",
+    "canonical": "Will Scild",
+    "type": "npc",
+    "source_page": 7,
+    "status": "new",
+    "aliases": [
+      "Will"
+    ]
+  },
+  {
+    "name": "Simrith Luhaj",
+    "canonical": "Simrith Luhaj",
+    "type": "npc",
+    "source_page": 7,
+    "status": "new",
+    "aliases": [
+      "Simrith"
+    ]
+  },
+  {
+    "name": "Moments of Hope",
+    "canonical": "Sablewood Hope Moments",
+    "type": "mechanic",
+    "source_page": 8,
+    "status": "new",
+    "aliases": [
+      "Sablewood hope table"
+    ]
+  },
+  {
+    "name": "Moments of Fear",
+    "canonical": "Sablewood Fear Moments",
+    "type": "mechanic",
+    "source_page": 8,
+    "status": "new",
+    "aliases": [
+      "Sablewood fear table"
+    ]
+  },
+  {
+    "name": "Tiger-Elk",
+    "canonical": "Tiger-Elk",
+    "type": "creature",
+    "source_page": 8,
+    "status": "new",
+    "aliases": [
+      "tiger elk",
+      "deep-wood tiger-elk"
+    ]
+  },
+  {
+    "name": "Twilight Plums",
+    "canonical": "Twilight Plums",
+    "type": "item",
+    "source_page": 8,
+    "status": "new",
+    "aliases": [
+      "twilight plum",
+      "trail plums"
+    ]
+  },
+  {
+    "name": "Sableblade",
+    "canonical": "Sableblade",
+    "type": "item",
+    "source_page": 8,
+    "status": "new",
+    "aliases": [
+      "Sable Blade"
+    ]
+  },
+  {
+    "name": "Ember Lake",
+    "canonical": "Ember Lake",
+    "type": "location",
+    "source_page": 8,
+    "status": "new",
+    "aliases": [
+      "Forgotten God forge lake"
+    ]
+  },
+  {
+    "name": "The Glimpse",
+    "canonical": "The Glimpse",
+    "type": "creature",
+    "source_page": 8,
+    "status": "new",
+    "aliases": [
+      "Glimpse",
+      "Faint Divinity"
+    ]
+  },
+  {
+    "name": "RuneSpark Adventure Experience",
+    "canonical": "RuneSpark Entertainment",
+    "type": "corporation",
+    "source_page": 8,
+    "status": "merged",
+    "aliases": [
+      "RuneSpark Adventure Experience",
+      "Adventure Experience carriage"
+    ]
+  },
+  {
+    "name": "Eeligator Scale Shield",
+    "canonical": "Eeligator Scale Shield",
+    "type": "item",
+    "source_page": 9,
+    "status": "new",
+    "aliases": [
+      "eeligator shield"
+    ]
+  },
+  {
+    "name": "Bramble Union Stoneweave",
+    "canonical": "Bramble Union Stoneweave",
+    "type": "item",
+    "source_page": 9,
+    "status": "new",
+    "aliases": [
+      "stoneweave",
+      "Union Stoneweave"
+    ]
+  },
+  {
+    "name": "Recall Stone",
+    "canonical": "Recall Stone",
+    "type": "item",
+    "source_page": 9,
+    "status": "new",
+    "aliases": [
+      "recalling stone"
+    ]
+  },
+  {
+    "name": "Whitefire Custodian's Ward-Charm",
+    "canonical": "Whitefire Custodian's Ward-Charm",
+    "type": "item",
+    "source_page": 9,
+    "status": "new",
+    "aliases": [
+      "Whitefire Ward-Charm",
+      "Custodian Ward-Charm"
+    ]
+  },
+  {
+    "name": "Sableleaf Shoes",
+    "canonical": "Sableleaf Shoes",
+    "type": "item",
+    "source_page": 9,
+    "status": "new",
+    "aliases": [
+      "sableleaf boots"
+    ]
+  },
+  {
+    "name": "Bugbane Berry",
+    "canonical": "Bugbane Berry",
+    "type": "item",
+    "source_page": 9,
+    "status": "new",
+    "aliases": [
+      "Hexmart Bugbane Berry"
+    ]
+  },
+  {
+    "name": "Sable Sap",
+    "canonical": "Sable Sap",
+    "type": "item",
+    "source_page": 9,
+    "status": "new",
+    "aliases": [
+      "sablewood sap"
+    ]
+  },
+  {
+    "name": "Vial of Briarpowder",
+    "canonical": "Vial of Briarpowder",
+    "type": "item",
+    "source_page": 9,
+    "status": "new",
+    "aliases": [
+      "Briarpowder",
+      "Wandering Briar thorn powder"
+    ]
+  },
+  {
+    "name": "Bullfrog",
+    "canonical": "Bullfrog",
+    "type": "enemy",
+    "source_page": 9,
+    "status": "new",
+    "aliases": [
+      "bull frog"
+    ]
+  },
+  {
+    "name": "Strixwolf",
+    "canonical": "Strixwolf",
+    "type": "enemy",
+    "source_page": 9,
+    "status": "new",
+    "aliases": [
+      "generic strixwolf",
+      "strixwolf pack hunter"
+    ]
+  },
+  {
+    "name": "Slyborne Hideout",
+    "canonical": "Slyborne Hideout",
+    "type": "mechanic",
+    "source_page": 10,
+    "status": "new",
+    "aliases": [
+      "Slyborne camp",
+      "bramble hideout"
+    ]
+  },
+  {
+    "name": "Slyborne Crew",
+    "canonical": "Slyborne Crew",
+    "type": "faction",
+    "source_page": 10,
+    "status": "new",
+    "aliases": [
+      "Slyborne bandits"
+    ]
+  },
+  {
+    "name": "Root Blockage",
+    "canonical": "Root Blockage",
+    "type": "mechanic",
+    "source_page": 10,
+    "status": "new",
+    "aliases": [
+      "blocked root path"
+    ]
+  },
+  {
+    "name": "Toll-Keepers",
+    "canonical": "Goldwater-Grail Toll Crew",
+    "type": "enemy",
+    "source_page": 10,
+    "status": "new",
+    "aliases": [
+      "Toll-Keepers",
+      "Goldwater-Grail toll crew"
+    ]
+  },
+  {
+    "name": "Faceless Six",
+    "canonical": "Faceless Six",
+    "type": "faction",
+    "source_page": 10,
+    "status": "new",
+    "aliases": [
+      "The Faceless Six",
+      "village leaders"
+    ]
+  },
+  {
+    "name": "Young Dryads",
+    "canonical": "Young Dryads",
+    "type": "creature",
+    "source_page": 10,
+    "status": "new",
+    "aliases": [
+      "dryads",
+      "tree justice"
+    ]
+  }
+]

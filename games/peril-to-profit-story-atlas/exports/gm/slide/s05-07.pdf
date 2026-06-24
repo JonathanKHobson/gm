@@ -1,0 +1,181 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2345 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S05-07 - Beyond the Contract) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(An hour later, back in the treehouse, the Keystone hangs suspended over a rumbling) Tj
+T*
+(hearth-fire. The Custodian, older now, exhaustion plain in her voice, folds herself into) Tj
+T*
+(an over-stuffed chair. "You fought hard. I'm not surprised. Emeris doesn't send just) Tj
+T*
+(anyone." She lets you sit with it, the warmth and the weight both. And then, because) Tj
+T*
+(there is always one more thing: she has a question about what you will tell the people) Tj
+T*
+(who sent you, and a map to somewhere the light is going wrong.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Wrap your story, decide how you report what happened, and learn what comes next.) Tj
+T*
+() Tj
+T*
+(GM goal) Tj
+T*
+() Tj
+T*
+(Honor the finale, run the report choice, and bridge to the Epilogue through) Tj
+T*
+(report_choice.) Tj
+T*
+() Tj
+T*
+(GM notes) Tj
+T*
+() Tj
+T*
+(- The report choice is the satirical gut-punch: real heroism meets paperwork and) Tj
+T*
+(  future liability.) Tj
+T*
+() Tj
+T*
+(GM script) Tj
+T*
+() Tj
+T*
+(Say: "The fight is won. Now the real question: what do you put in the report? File) Tj
+T*
+(honest, spin corporate, refuse to report, or withhold the truth. That choice decides the) Tj
+T*
+(Epilogue tone.") Tj
+T*
+() Tj
+T*
+(State controls) Tj
+T*
+() Tj
+T*
+(- ward_stability Ward Stability select fragile stable) Tj
+T*
+(- ritual_prep Ritual Prep select unready ready) Tj
+T*
+(- keystone_understanding Keystone Understanding select surface deep) Tj
+T*
+(- ritual_countdown Ritual Countdown number 10 8) Tj
+T*
+(- ritual_outcome Ritual Outcome select unresolved clean costly pyrrhic) Tj
+T*
+(- protected_whom Protected Whom select unresolved custodian party hush shared) Tj
+T*
+(- custodian_fate Custodian Fate select unresolved well drained dying) Tj
+T*
+(- report_choice Report Choice select unresolved file-honest spin-corporate refuse) Tj
+T*
+(  withhold-the-truth) Tj
+T*
+(- relay_hook_accepted Relay Hook Accepted checkbox) Tj
+T*
+(- strixwolf_disposition Strixwolf Disposition select unresolved calm hostile killed) Tj
+T*
+(- strixwolf_outcome Strixwolf Outcome select unresolved calmed helped avoided attacked) Tj
+T*
+(  killed) Tj
+T*
+(- strixwolf_trust Strixwolf Trust number 3) Tj
+T*
+(- strixwolf_blood_debt Strixwolf Blood Debt checkbox) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 901 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- bramble_outcome Bramble Outcome select unresolved killed captured spared negotiated) Tj
+T*
+(  escaped let_cargo) Tj
+T*
+(- bramble_truth_learned Bramble Truth Learned checkbox) Tj
+T*
+(- package_status Package Status select held lost) Tj
+T*
+(- hush_trust Hush Trust select low neutral high) Tj
+T*
+(- custodian_route Custodian Route select unknown safe dangerous) Tj
+T*
+(- ward_awareness Ward Awareness select none seed aware) Tj
+T*
+(- festival_boon Festival Boon select none charm favor market_find goodwill) Tj
+T*
+(- custodian_trust Custodian Trust select low neutral high) Tj
+T*
+(- hush_clues Hush Clues select none custodian_route ward_seed corporate_seam farm_seed) Tj
+T*
+(  market_rumor multiple) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 22f1186bbedc9f28 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R] /Count 2 >>
+endobj
+6 0 obj
+<< /Type /Catalog /Pages 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000002406 00000 n 
+0000002532 00000 n 
+0000003484 00000 n 
+0000003610 00000 n 
+0000003673 00000 n 
+0000003722 00000 n 
+trailer
+<< /Size 8 /Root 6 0 R >>
+startxref
+3794
+%%EOF

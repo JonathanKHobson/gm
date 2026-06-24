@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S06-02",
+  "kind": "scene",
+  "title": "S06-02 - The Relay Spire Hook",
+  "in_world_label": "Situation Briefing",
+  "brand_flag": "Briefing",
+  "kicker": "Beyond the Contract",
+  "hook": "“It’s good to have heroes in the Old Sable again.”",
+  "blocks": [
+    {
+      "label": "Where You Are",
+      "body": "“It’s good to have heroes in the Old Sable again.”"
+    },
+    {
+      "label": "Plain Stakes",
+      "body": "The Custodian reveals another relay spire may be failing."
+    },
+    {
+      "label": "Visible Options",
+      "body": "Accept sequel hook Ask for map Return to employer Stay in Hush"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "What detail in The Relay Spire Hook tells you the official story is incomplete?",
+    "Who notices the human cost first, and how do they show it?",
+    "What small object, smell, or sound makes this scene feel real?"
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - scene:S06-02",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "70c373eca2debb99",
+  "generated_at": "2026-06-23T21:40:58"
+}

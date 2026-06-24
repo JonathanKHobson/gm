@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "fox-bats",
+  "title": "Fox-Bats",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "47ef5f99cdfc64d0",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Fox-Bats: Small fox-bats sleep under signs, steal shiny route tokens, and may tuck into a traveler's coat when the forest briefly feels kind."
+    },
+    {
+      "title": "Public role",
+      "body": "Cozy trail companion and mischief beat"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Small fox-bats sleep under signs, steal shiny route tokens, and may tuck into a traveler's coat when the forest briefly feels kind."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use as a moral encounter. Reward restraint and observation without forcing a pet or mascot outcome."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 47ef5f99cdfc64d0 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

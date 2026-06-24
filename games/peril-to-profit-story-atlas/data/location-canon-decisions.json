@@ -1,0 +1,22 @@
+[
+  {
+    "id": "goldspire-territories-type",
+    "decision": "Goldspire Territories is a region/location layer, not a faction.",
+    "atlas_effect": "The wiki and Run Mode location system surface it as the top-level region containing Emeris, Sablewood, Hush, Open Vale, the Relay network, and faraway Athervast."
+  },
+  {
+    "id": "athervast-capital",
+    "decision": "Athervast is the faraway grand capital of the Goldspire Territories, separate from Emeris and not on the one-shot path.",
+    "atlas_effect": "Athervast is world context and elite-center texture only; player-facing text must not tie it to the Hush delivery, a missing Keystone, or a local ward failure."
+  },
+  {
+    "id": "emeris-capital",
+    "decision": "Emeris is the prosperous territory capital and one-shot start city at the edge of Sablewood.",
+    "atlas_effect": "Emeris becomes a first-class location profile. The party starts here and travels from Emeris toward Hush; Emeris itself has no missing ward or empty socket."
+  },
+  {
+    "id": "emeris-capital-gate",
+    "decision": "Emeris Capital Gate is Emeris's own city gate, not an Athervast archway.",
+    "atlas_effect": "Player-safe text describes a busy ceremonial gate and forest threshold; it must not show an empty ward socket or claim Athervast ownership."
+  }
+]

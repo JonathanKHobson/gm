@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "SABLEWOOD-ROUTES",
+  "title": "SABLEWOOD-ROUTES - Routes / Underroot / Relays",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "ca81fc01a0a937ac",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "Stay on the path unless you know who made the path."
+    },
+    {
+      "title": "Public objective",
+      "body": "Stay on the path unless you know who made the path."
+    },
+    {
+      "title": "GM goal",
+      "body": "Use route choices to ask who gets protected, who pays, and who goes off-network."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "Approved route-data is inherited, expensive, and treated as coverage.",
+        "Underroot entrances are secret because maps are power.",
+        "A relay problem can be a route problem, a financing problem, and a soul-signal problem at the same time."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash ca81fc01a0a937ac | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

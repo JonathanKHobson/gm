@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S05-05",
+  "kind": "scene",
+  "title": "S05-05 - Soul-Audit Wraiths",
+  "in_world_label": "Situation Briefing",
+  "brand_flag": "Briefing",
+  "kicker": "The Ward Renewal",
+  "hook": "The wraiths drift closer. Their faces are the shape of remembered shame.",
+  "blocks": [
+    {
+      "label": "Where You Are",
+      "body": "The wraiths drift closer. Their faces are the shape of remembered shame."
+    },
+    {
+      "label": "Plain Stakes",
+      "body": "Soul-Audit Wraiths attack memory, vulnerability, and the party’s tether to their bodies."
+    },
+    {
+      "label": "Visible Options",
+      "body": "Prioritize wraiths Use magic Protect vulnerable ally Defeat skeletons to tick countdown"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "What detail in Soul-Audit Wraiths tells you the official story is incomplete?",
+    "Who notices the human cost first, and how do they show it?",
+    "What small object, smell, or sound makes this scene feel real?"
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - scene:S05-05",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "deedc3bdcf4b2f9d",
+  "generated_at": "2026-06-23T21:40:58"
+}

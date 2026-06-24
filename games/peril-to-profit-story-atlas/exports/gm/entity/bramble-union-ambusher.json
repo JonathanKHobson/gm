@@ -1,0 +1,68 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "bramble-union-ambusher",
+  "title": "Bramble Union Ambusher",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "c113f8a17fa673f9",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Bramble Union Ambusher: Keeps the party occupied while the Claimrunner moves for the carriage."
+    },
+    {
+      "title": "Public role",
+      "body": "The frightened body in the bushes who makes the ambush real."
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Keeps the party occupied while the Claimrunner moves for the carriage."
+    },
+    {
+      "title": "GM truth",
+      "body": "Use the stat pressure, but keep the story pressure tied to the system that produced the threat."
+    },
+    {
+      "title": "GM handling",
+      "body": "Run Bramble Union Ambusher as a threat with a motive, a pressure point, and something left behind that explains why the fight happened."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Combat / Bypass Mechanics",
+        "Player Safe: Players can fight, capture, interrogate, or bypass Bramble Union Ambusher when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: a road reclaimer who has never done this before, and it shows Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-bramble-union-ambusher-engage-bramble-union-ambusher entity-bramble-union-ambusher Engage Bramble Union Ambusher Engage Bramble Union Ambusher Agility Strength Finesse Presence Knowledge Instinct Agility Strength, Finesse, Presence, Knowledge, Instinct 15 Choose the trait from the player's method, not the entity type. A flat read of Bramble Union Ambusher hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Condition Options: Hidden Restrained",
+        "Search Loot: Roll/select from Bramble Union Loot table. Loot / item link: Bramble Ward-Scrap Charm Cluster (Trade, trust, or careful examination of dropped Bramble gear.)."
+      ]
+    },
+    {
+      "title": "Profile",
+      "items": [
+        "Schema Version: npc-profile-v1",
+        "Source: NPC_System_Packet + image-informed hardening",
+        "Backup: False",
+        "Combatant: True",
+        "Player Safe: Bramble Union Ambusher a road reclaimer who has never done this before, and it shows A mud-caked road reclaimer crouches under a patched hood, face half-swallowed by moss, bark plates, rope knots, and scavenged ward charms. Bramble Union Ambusher: a road reclaimer who has never done this before, and it shows",
+        "Block1: Bramble Union Ambusher BRAM-bul YOO-nyun AM-boosh-er a road reclaimer who has never done this before, and it shows The frightened body in the bushes who makes the ambush real. First contact of the fight; their nerve sets whether this turns bloody or talks down. Their hands shake on the weapon. They will break or bolt the moment the fight stops going to plan. Parley path Capture/mercy branch Evidence that the road conflict is bigger than banditry Terrified and overcommitted, talking tough to keep their own knees from buckling. A way out that does not end with them branded a bandit. Show them the exit and they take it.",
+        "Block2: Stop the carriage and survive the next minute. Force someone powerful to admit the forest people were not accidents or pests. Stop the carriage and survive the next minute. Force someone powerful to admit the forest people were not accidents or pests. All borrowed bravado stretched thin over raw fear. They rehearsed the hard line and forgot everything after it. Under the moss and bark plates is someone who would much rather be home. Stay back. I mean it. I do. We just need the cargo. Nobody has to get hurt, alright? Don't make me. Please don't make me. They are less ready to kill than their drawn blade suggests. Being captured, branded as a bandit, and returned to a company punishment line. Plain speech, visible mercy, and PCs who lower a weapon before asking questions. Corporate titles, jokes about scavenged gear, and promises with no concrete risk attached. Plain speech, visible...",
+        "Block3: They expect the PCs to act like paid enforcers and call it order. Honesty and shared enemy land after the party proves they are not handing prisoners over. Presence 15 opens parley. Presence 15 They lower weapons long enough to bargain. Instinct 14 The player spots who is ready to run, who is committed, and who can be moved. Visible mercy, a safe retreat lane, or the leader's confidence breaking can end the fight.",
+        "Block4: They know the road has winners and losers. They are not all equally committed to killing. Keep the defector truth behind play-earned clues; this scene can show fear, hunger, and displaced-worker pressure without naming the whole engine. Named Bramble variants tie to the camp through gear, charms, and loyalty rather than a new corporation. Burned by route concessions and company maps that turned old footpaths into priced corridors. Turns the ambush into a values choice instead of a faceless combat stop. A spared reclaimer can become a future informant or complication. Barnacle can smell a deal; Garrick can read fear and posture; any PC can offer a non-lethal branch. Looks to the claimrunner or Kett for permission, but can be moved by Nettle-style fear. npc_images portrait asset",
+        "Block5: Ambusher x4. T1 Standard. Dagger 1d8+5. Difficulty 13. Thresholds 6/12. HP 3. Stress 2. Ambush reaction 2d4+8. combatant Rules/Act-by-Act Mechanics.md Scene 2.2 Tier 1 Standard 13 6 12 3 2 not listed in module source Dagger, Melee, 1d8+5 physical Melee ambush take the carriage survive retreat if the leader breaks Ambush - Reaction: if unspotted, enter unseen and strike for 2d4+8. Moral off-ramp: Presence 15 can thin or end the fight when the party offers a concrete alternative. Thorn terrain can make a PC Restrained when the fiction physically traps them. Fear pressure: spend Fear through adversary spotlight pressure, thorn terrain, or the leader's Back Off if the leader is present. Use Fear to tighten existing fictional pressure: cover closes, thorns catch cloth, or the leader forces distance with the listed Back Off move if present. Do not run them as faceless bandits; they want...",
+        "Portrait: assets/npc-images/bramble-union-ambusher/portrait_base.webp assets/npc-images/bramble-union-ambusher/portrait_chroma.webp assets/npc-images/bramble-union-ambusher/portrait_transparent.webp npc_images",
+        "Imagine It Like: Think the nervous first-timer in a heist gone wrong, the one waving the weapon because they have only ever seen it work in stories. A barricade volunteer, not a soldier.",
+        "Fullbody: assets/npc-images/bramble-union-ambusher/fullbody_base.webp assets/npc-images/bramble-union-ambusher/fullbody_chroma.webp assets/npc-images/bramble-union-ambusher/fullbody_transparent.webp"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash c113f8a17fa673f9 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

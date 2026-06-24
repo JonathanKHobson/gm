@@ -1,0 +1,50 @@
+# Marlowe Fairwind
+
+RAW export - entity:marlowe-fairwind
+
+## Player-facing description
+You are Marlowe Fairwind, a Loreborne Elf Sorcerer with Primal Origin. You are part of the courier crew for this run and the default package custodian in the group. You receive the job with everyone else.
+
+## Public role
+Playable Loreborne Elf Sorcerer pregen and package custodian in the group
+
+## Handout text
+Marlowe Fairwind is a playable Loreborne Elf Sorcerer pregen and the default package custodian. She receives the job with the rest of the party.
+
+## Raw source
+- Type: pc
+- Role: Playable Loreborne Elf Sorcerer pregen and package custodian in the group
+- Tags: npc ally pc-pregen pc
+- Summary: A playable pregen character and the default package custodian. Marlowe receives the job with the whole crew and gets her job-scene bonus insight plus extra Arcana check.
+- Connections: Emeris Crown Holdings Keystone Asset The Job Whitefire Custodian Sabine Quillon
+- Inventory: Dualstaff route map delivery seal one sealed corporate briefing she did not fully trust dualstaff route notes personal spell kit two starting Hope
+- Loot: Not intended as loot. If searched respectfully, she carries letters of authorization and personal notes about Hush.
+- Name: Marlowe Fairwind
+- Id: marlowe-fairwind
+- Meta: PC / Player Character PC assets/icons/type-pc.png entity-pc #2f8f71 03 NPCs entities pc
+- Aliases: Board-certified sorcerer Fairwind Marlowe Marlowe Fairwind Loreborne Elf Sorcerer elf sorcerer pregen package custodian
+- Appears In: S00-01 S01-02 S01-04 S02-01 S02-03 S03-04 S04-01 S04-04 S04-05 S05-01 S05-06 S06-01 S06-02
+- Related: Emeris Crown Holdings Keystone Asset S00-01 S01-02 S01-04 S02-01 S02-03 S03-04 S04-01 S04-04 S04-05 S05-01 S05-06 S06-01 S06-02 Sabine Quillon The Job Whitefire Custodian
+- Image Prompt: Private table TTRPG story atlas asset for Marlowe Fairwind, PC / Player Character. Role: Playable Loreborne Elf Sorcerer pregen and package custodian in the group. Summary: A playable pregen character and the default package custodian. Marlowe receives the job with the whole crew and gets her job-scene bonus insight plus extra Arcana check.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: sharp, responsible, and most alive when a problem needs magic and nerve instead of authority
+- Wants: to carry package-custody pressure as a PC while receiving the job with the crew
+- Fears: being treated as a required job-giver instead of a player's character
+- Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.
+- Body Language: Reaches for the Keystone strap without thinking the instant a room turns tense. Talks with her hands when the problem is magical, and goes very still when it turns moral.
+- Sample Dialogue: We can complete the contract and still notice what the contract tried to hide. I took the job too. That does not make me the handler. Royal Mage helps me read the wardcraft. It does not make the story depend on me.
+- Equipment: Dualstaff route map delivery seal one sealed corporate briefing she did not fully trust
+- Search Or Loot: Not intended as loot. If searched respectfully, she carries letters of authorization and personal notes about Hush.
+- Gm Use: Use this person to put a human face on the current pressure. Give them one concrete want before exposition.
+- Future Hooks: Bring back as an echo if players made a strong choice involving this entity.
+- Robust: You are Marlowe Fairwind, a Loreborne Elf Sorcerer with Primal Origin. You are part of the courier crew for this run and the default package custodian in the group. You receive the job with everyone else. Marlowe stays a PC and package custodian unless Kyle chooses a replacement PC for package custody. If no one plays her, assign that custody function to a chosen replacement. Do not make Marlowe the sole job-giver; everyone receives the job together. Sabine is only an optional S00-01 backup contact. Updated playable PC portrait based on the source concept-art silhouette. Marlowe is no longer using the party image as a placeholder. Answer at the table: why does Emeris Crown Holdings trust her with work like this? Do not make her the only way the job starts. If a clue needs to land and Marlowe is absent, route it through the chosen replacement PC, table action, the Custodian, or another earned source. Treat Marlowe as a player character and the default package custodian, not an NPC briefer. In S00-01, give the Marlowe player the per-character bonus insight and extra Arcana check. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Marlowe Fairwind and...
+- Pc Profile: marlowe-fairwind Marlowe Fairwind Marlowe Fairwind MAR-low FAIR-wind she/her Sorcerer Primal Origin Elf Loreborne Royal Mage Not On My Watch unassigned
+- Pronunciation: MAR-low FAIR-wind
+- Short Pronunciation: MAR-low FAIR-wind
+- Pronunciation Note: Keep it crisp and courtly.
+- Imagine It Like: Think the brilliant responsible one who still loves the spellwork for its own sake, the eldest sibling who took the dangerous job so nobody else had to. A sorcerer with a custodian's conscience.
+- Image: assets/entities/marlowe-fairwind.webp
+- Image Asset Status: image_gen
+- Visual Gallery: primary Primary wiki image primary assets/entities/marlowe-fairwind.webp Marlowe Fairwind primary wiki image visual. Marlowe Fairwind: Primary wiki image. image_gen True True pc-current Current PC portrait pc-portrait assets/entity-gallery/marlowe-fairwind/pc-current.webp Marlowe Fairwind current pc portrait visual. Marlowe Fairwind: Current PC portrait. pc_portrait_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/pc_portrait_assets/generated/marlowe-fairwind.png pc-transparent Transparent portrait pc-portrait assets/entity-gallery/marlowe-fairwind/pc-transparent.webp Marlowe Fairwind transparent portrait visual. Marlowe Fairwind: Transparent portrait. pc_portrait_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/pc_portrait_assets/transparent/marlowe-fairwind.png pc-chroma Blue-screen source pc-portrait assets/entity-gallery/marlowe-fairwind/pc-chroma.webp Marlowe Fairwind blue-screen source visual. Marlowe Fairwind: Blue-screen source. pc_portrait_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/pc_portrait_assets/chroma-blue/marlowe-fairwind-blue-screen.png
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash e00aafc914318ca6 | Source hash dac3370046ed077140fab2d6

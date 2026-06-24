@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "hunting-trees",
+  "kind": "entity",
+  "title": "Hunting Trees",
+  "in_world_label": "Field Guide Page",
+  "brand_flag": "Player-safe",
+  "kicker": "Creature / Animal",
+  "hook": "Player-safe note: Walking predatory trees with root legs, hooked branch arms, hollow amber eyes, and bark faces that make ordinary forest scenery feel like it might choose a target.",
+  "blocks": [
+    {
+      "label": "Observed Form",
+      "body": "Predatory walking trees with root legs lifting from the soil, hooked branch arms, moss, lichen, and hollow amber eyes in bark faces."
+    },
+    {
+      "label": "Behavior",
+      "body": "The point where the forest stops being scenery and starts being hungry. They do not hate; they harvest, the way a snare does. The horror is that they only move when you stop watching."
+    },
+    {
+      "label": "Warning Signs",
+      "body": "Fire, the cleared light of the open road, and prey that refuses to scatter."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Give it distance before deciding it is hostile.",
+    "Read posture, tracks, and what it is protecting."
+  ],
+  "archetype": "creature.field_guide",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:hunting-trees",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "b3fe8c30af5bcaaf",
+  "generated_at": "2026-06-23T21:40:58"
+}

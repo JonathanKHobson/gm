@@ -1,0 +1,50 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "gm-rules-drawer",
+  "title": "GM Rules Drawer",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "b5f279673e534695",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "The Atlas quick-reference drawer that gathers rule cards, conditions, conversion, and beginner reminders."
+    },
+    {
+      "title": "How it works",
+      "body": "Use when Kyle needs a fast answer without leaving Run Mode."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use when Kyle needs a fast answer without leaving Run Mode.",
+        "Open the drawer, search the mechanic, read the compact answer, then return to the scene.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "Where is the fast rule answer?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "action-roll",
+        "traits",
+        "conditions",
+        "dnd-to-daggerheart"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash b5f279673e534695 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

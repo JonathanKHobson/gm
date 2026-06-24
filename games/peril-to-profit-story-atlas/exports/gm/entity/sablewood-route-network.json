@@ -1,0 +1,73 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "sablewood-route-network",
+  "title": "Sablewood Route Network",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "6d889fefadda3ca6",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Sunken, well-worn routes through Sablewood where licensed knowledge, family route-data, and corporate coverage determine who is allowed to be safe."
+    },
+    {
+      "title": "Public role",
+      "body": "Approved-path travel pressure in the Preserve"
+    },
+    {
+      "title": "Handout text",
+      "body": "Sunken, well-worn routes through Sablewood where licensed knowledge, family route-data, and corporate coverage determine who is allowed to be safe."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Introduce with sensory texture, then make one discoverable clue or social choice visible."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Location Exploration Mechanics",
+        "Player Safe: Players can navigate, search, read customs, inspect hazards Sablewood Route Network when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: Sunken, well-worn routes through Sablewood where licensed knowledge, family route-data, and corporate coverage determine who is allowed to be safe. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-sablewood-route-network-engage-sablewood-route-network entity-sablewood-route-network Engage Sablewood Route Network Engage Sablewood Route Network Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of Sablewood Route Network hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Condition Options: No official condition unless a hazard creates Hidden, Restrained, or Vulnerable",
+        "Search Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure."
+      ]
+    },
+    {
+      "title": "Profile",
+      "items": [
+        "Schema Version: location-profile-v1",
+        "Id: sablewood-route-network",
+        "Entity Id: sablewood-route-network",
+        "Source: Story Atlas generated location notes",
+        "Auto Surface: True",
+        "Priority: strong",
+        "Player Safe: Sablewood Route Network Sunken, well-worn routes through Sablewood where licensed knowledge, family route-data, and corporate coverage determine who is allowed to be safe. Sunken, well-worn routes through Sablewood where licensed knowledge, family route-data, and corporate coverage determine who is allowed to be safe. Sunken, well-worn routes through Sablewood where licensed knowledge, family route-data, and corporate coverage determine who is allowed to be safe. Sablewood Route Network feels like a specific place with its own traffic, work, weather, sounds, and local habits. The place breaks into usable table spaces: Arrival edge: The first view gives players a clear threshold and a reason to slow down. Working center: The active middle of the location shows what people or nature are doing before the party interferes. Quiet side path: A quieter edge gives curious players somewhere to...",
+        "Block1: Sablewood Route Network Approved-path travel pressure in the Preserve Sunken, well-worn routes through Sablewood where licensed knowledge, family route-data, and corporate coverage determine who is allowed to be safe. This place makes the current scene concrete and actionable. The place gives players something concrete to notice, ask about, or act on. This place makes the current scene concrete and actionable. Something here can change what the players do next. pages/entities/sablewood-route-network.html",
+        "Block2: First impression Sablewood Route Network feels like a specific place with its own traffic, work, weather, sounds, and local habits. Ambient rhythm weather, ward hum, water movement, dust, or crowd noise gives the place a rhythm Sunken, well-worn routes through Sablewood where licensed knowledge, family route-data, and corporate coverage determine who is allowed to be safe. Sablewood Route Network feels like a specific place with its own traffic, work, weather, sounds, and local habits. The place breaks into usable table spaces: Arrival edge: The first view gives players a clear threshold and a reason to slow down. Working center: The active middle of the location shows what people or nature are doing before the party interferes. Quiet side path: A quieter edge gives curious players somewhere to poke without leaving the scene. Plants and materials: local weeds, moss, cultivated growth...",
+        "Block3: Local residents or workers appropriate to the place small local wildlife reacts before people do No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues local weeds, moss, cultivated growth, or scrub that changes how paths feel underfoot",
+        "Block4: The place changes even if the PCs stand still. Local people, creatures, weather, signage, and ward behavior all keep moving around the scene. Let the place be funny through overconfident signage, awkward forms, stubborn local habits, and magic that refuses corporate language.",
+        "Block6: Describe what the PCs can see, smell, hear, touch, ask about, or infer. Do not explain hidden infrastructure or corporate thesis until play earns it. surface Sunken, well-worn routes through Sablewood where licensed knowledge, family route-data, and corporate coverage determine who is allowed to be safe. table clue The place gives players something to notice or choose. earned truth Reveal deeper system meaning through NPC answers, evidence, or player questions, not narration dumps.",
+        "What Here: Local residents or workers appropriate to the place small local wildlife reacts before people do No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues local weeds, moss, cultivated growth, or scrub that changes how paths feel underfoot",
+        "Living Place: location-living-place-v1 playable location Sablewood Route Network should feel like a specific place with its own traffic, work, weather, sounds, and local habits. Arrival edge The first view gives players a clear threshold and a reason to slow down. Use this as the landing point when the table asks where they are standing. Working center The active middle of the location shows what people or nature are doing before the party interferes. Put questions, bargains, and quick observations here. Quiet side path A quieter edge gives curious players somewhere to poke without leaving the scene. Use this for optional clues, small encounters, or a safe pause. local weeds, moss, cultivated growth, or scrub that changes how paths feel underfoot small local wildlife reacts before people do weather, ward hum, water movement, dust, or crowd noise gives the place a rhythm The location changes through...",
+        "Districts Or Subareas: Arrival edge The first view gives players a clear threshold and a reason to slow down. Use this as the landing point when the table asks where they are standing. Working center The active middle of the location shows what people or nature are doing before the party interferes. Put questions, bargains, and quick observations here. Quiet side path A quieter edge gives curious players somewhere to poke without leaving the scene. Use this for optional clues, small encounters, or a safe pause.",
+        "Sensory Signature: First impression Sablewood Route Network feels like a specific place with its own traffic, work, weather, sounds, and local habits. Ambient rhythm weather, ward hum, water movement, dust, or crowd noise gives the place a rhythm",
+        "Visual Assets: location-visual-assets-v1 sablewood-route-network Sablewood Route Network Bright comedic frontier high-fantasy concept art for a Daggerheart-adjacent tabletop RPG. Medieval/Renaissance fantasy technology only: hand tools, wagons, ropes, parchment notices, ward-stones, carved wood, brass, cloth, stone, moss, lanterns, and magic. The tone is colorful, playful, slightly absurd, and vivid, like a fantasy corporate frontier comedy rather than a grim drama. No sci-fi machinery, no 1800s/Victorian clothing, no modern suits, no guns, no logos, no readable text, no watermark, no border, no collage. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/sablewood-route-network MAP-LOC-sablewood-route-network playable fantasy location top-down location map profile_scene Profile image ready /Users/kyle/Documents/My Games/Peril To...",
+        "Imagine It Like: Think an old national-park road system that a freight company tried to turn into a paid fast lane: muddy sunken tracks, family shortcuts, cheerful official markers, and the constant sense that the forest recognizes local knowledge before paperwork."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 6d889fefadda3ca6 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+%PDF-1.4
+1 0 obj
+<< /Length 1214 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-hush-farms - Hush Farms Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The last cultivated fields thin into carved trees and blue moss-light. The path ahead) Tj
+T*
+(leaves village warmth behind.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(The last cultivated fields thin into carved trees and blue moss-light. The path ahead) Tj
+T*
+(leaves village warmth behind.) Tj
+T*
+() Tj
+T*
+(GM goal) Tj
+T*
+() Tj
+T*
+(Use the farms as the Act 3 to Act 4 bridge, paying off custodian_route before the) Tj
+T*
+(treehouse approach.) Tj
+T*
+() Tj
+T*
+(GM script) Tj
+T*
+() Tj
+T*
+(Say: "Safe route, clean crossing. Dangerous or unknown route, Instinct 13 or one minor) Tj
+T*
+(preserve obstacle before S04-01.") Tj
+T*
+() Tj
+T*
+(State controls) Tj
+T*
+() Tj
+T*
+(- custodian_route Custodian Route select unknown safe dangerous) Tj
+T*
+(- package_status Package Status select held lost) Tj
+T*
+(- ward_awareness Ward Awareness select none seed aware) Tj
+T*
+(- custodian_trust Custodian Trust select low neutral high) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 8394bfb1c5a9c14a | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [2 0 R] /Count 1 >>
+endobj
+4 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000001275 00000 n 
+0000001401 00000 n 
+0000001458 00000 n 
+0000001507 00000 n 
+trailer
+<< /Size 6 /Root 4 0 R >>
+startxref
+1579
+%%EOF

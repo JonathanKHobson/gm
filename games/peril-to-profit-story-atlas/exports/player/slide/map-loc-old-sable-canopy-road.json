@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "MAP-LOC-old-sable-canopy-road",
+  "kind": "slide",
+  "title": "MAP-LOC-old-sable-canopy-road - Old Sable Canopy Road Location Map",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Map Board",
+  "hook": "The canopy road feels like travel through the forest's memory: dim green light, root-shadow bends, and old markers half-swallowed by moss.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "The canopy road feels like travel through the forest's memory: dim green light, root-shadow bends, and old markers half-swallowed by moss."
+    },
+    {
+      "label": "Public Objective",
+      "body": "The canopy road feels like travel through the forest's memory: dim green light, root-shadow bends, and old markers half-swallowed by moss."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:MAP-LOC-old-sable-canopy-road",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "0caba50c08592386",
+  "generated_at": "2026-06-23T21:40:58"
+}

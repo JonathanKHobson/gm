@@ -1,0 +1,185 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2724 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(SABLEWOOD-FACTIONS - Factions / Communities) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(Every group here has a survival strategy.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Every group here has a survival strategy.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: SABLEWOOD-FACTIONS) Tj
+T*
+(- Type: field-guide) Tj
+T*
+(- Sectionid: SABLEWOOD) Tj
+T*
+(- Sectiontitle: Sablewood Field Guide) Tj
+T*
+(- Title: Factions / Communities) Tj
+T*
+(- Shorttitle: Factions / Communities) Tj
+T*
+(- Order: 860.3) Tj
+T*
+(- Playersafe: False) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Caption: Bramble Union, Sable Sinecure, Hush, and Underroot communities all survive) Tj
+T*
+(  Sablewood by different rules.) Tj
+T*
+(- Mood: setting reference, lore lookup, table texture) Tj
+T*
+(- Gmgoal: Make every faction useful, human, and materially tied to the forest economy.) Tj
+T*
+(- Publicobjective: Every group here has a survival strategy.) Tj
+T*
+(- Readaloud: Every group here has a survival strategy.) Tj
+T*
+(- Gmnotes: Bramble Union is not only an ambush; it is hidden villages, stonework, and) Tj
+T*
+(  displacement. Sable Sinecure is not only merchants; it is hazard-rate logistics and) Tj
+T*
+(  Kazrak-franchised control. Hush hospitality is generous, bounded, and politically) Tj
+T*
+(  important.) Tj
+T*
+(- Playertakeaway: Every group here has a survival strategy.) Tj
+T*
+(- Storytakeaway: Bramble Union, Sable Sinecure, Hush, and Underroot communities all) Tj
+T*
+(  survive Sablewood by different rules.) Tj
+T*
+(- Mechanictakeaway: Use this reference for setting texture and entity context;) Tj
+T*
+(  introduce mechanics only when play calls for them.) Tj
+T*
+(- Entityids: bramble-union bramble-union-villages the-sable-sinecure guest-privileges) Tj
+T*
+(  faceless-six slyborne-crew) Tj
+T*
+(- Entities: bramble-union Bramble Union faction Faction / Community) Tj
+T*
+(  assets/icons/faction.png assets/logos/bramble-union.png BRAM-bul YOO-nyun Thorn-) Tj
+T*
+(  scrap armor, hungry eyes, and old worker gear make the Bramble Union look dangerous) Tj
+T*
+(  before they look human. Loose label for freeholders and cargo reclaimers Called) Tj
+T*
+(  thieves by Goldspire; actually a mix of displaced workers, freeholders, and) Tj
+T*
+(  dangerous reclaimers.; show internal disagreement, practical needs, and how the) Tj
+T*
+(  faction explains itself when outsiders listen. Protect its stake in Bramble Union) Tj
+T*
+(  Ambusher, Bramble Union Claimrunner, Goldspire Territories while being seen as more) Tj
+T*
+(  than a symbol or obstacle. Called thieves by Goldspire; actually a mix of displaced) Tj
+T*
+(  workers, freeholders, and dangerous reclaimers. bramble-union-villages Bramble Union) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 1122 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Villages location Location assets/icons/location.png assets/location-) Tj
+T*
+(  visuals/bramble-union-villages/profile_scene_v02.png BRAM-bul YOO-nyun VIL-ij-ez) Tj
+T*
+(  Vibrant, painted, moss-lit Bramble Union communities camouflaged behind mudstone) Tj
+T*
+(  walls and thorn protection. Keep opposition human and internally varied. Vibrant,) Tj
+T*
+(  painted, moss-lit Bramble Union communities camouflaged behind mudstone walls and) Tj
+T*
+(  thorn...) Tj
+T*
+(- Spoilers: Sablewood source lore and GM synthesis.) Tj
+T*
+(- Playersafeprojection: SABLEWOOD-FACTIONS field-guide Factions / Communities Bramble) Tj
+T*
+(  Union, Sable Sinecure, Hush, and Underroot communities all survive Sablewood by) Tj
+T*
+(  different rules. setting reference, lore lookup, table texture Every group here has) Tj
+T*
+(  a survival strategy. Every group here has a survival strategy.) Tj
+T*
+(- Slidenumber: 101) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 4cf83ea567112d00 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R] /Count 2 >>
+endobj
+6 0 obj
+<< /Type /Catalog /Pages 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000002785 00000 n 
+0000002911 00000 n 
+0000004085 00000 n 
+0000004211 00000 n 
+0000004274 00000 n 
+0000004323 00000 n 
+trailer
+<< /Size 8 /Root 6 0 R >>
+startxref
+4395
+%%EOF

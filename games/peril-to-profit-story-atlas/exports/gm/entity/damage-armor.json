@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "damage-armor",
+  "title": "Damage / Armor",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "a5ede29f7a263d43",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Damage / Armor: Compare damage to thresholds, mark HP by severity, and mark Armor Slots to reduce severity."
+    },
+    {
+      "title": "Public role",
+      "body": "Damage thresholds, HP, Armor Slots, and Stress reference"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Compare damage to thresholds, mark HP by severity, and mark Armor Slots to reduce severity."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use when the scene needs a concrete object for players to inspect, carry, debate, or remember."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash a5ede29f7a263d43 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

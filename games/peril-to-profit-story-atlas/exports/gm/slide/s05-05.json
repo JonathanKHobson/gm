@@ -1,0 +1,64 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "S05-05",
+  "title": "S05-05 - The Peak",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "e21756b20c1fe088",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "It all comes at once: the dead clawing up faster, the wraiths pressing in, the Custodian's glow guttering like a candle in wind. The clock is close, but so is disaster. Every choice now costs something: guard her and leave a friend exposed, or save the friend and let her take the hit that sets you all back. There is no clean way through. There is only what you are willing to give."
+    },
+    {
+      "title": "Public objective",
+      "body": "Survive the peak and drive the countdown home."
+    },
+    {
+      "title": "GM goal",
+      "body": "Run the peak HOLD/BREAK choice and let resource spends, protection, and sacrifice decide the outcome track."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "No PC is required to land the final blow. Let any meaningful action create the final tick if fiction supports it."
+      ]
+    },
+    {
+      "title": "GM script",
+      "body": "Say: \"All-in time. Spend Hope, boons, big abilities, tag-team moments, and last good ideas. You cannot cover it all, so what you choose to save becomes the ending.\""
+    },
+    {
+      "title": "State controls",
+      "items": [
+        "ward_stability Ward Stability select fragile stable",
+        "ritual_prep Ritual Prep select unready ready",
+        "keystone_understanding Keystone Understanding select surface deep",
+        "ritual_countdown Ritual Countdown number 10 8",
+        "ritual_outcome Ritual Outcome select unresolved clean costly pyrrhic",
+        "protected_whom Protected Whom select unresolved custodian party hush shared",
+        "custodian_fate Custodian Fate select unresolved well drained dying",
+        "strixwolf_disposition Strixwolf Disposition select unresolved calm hostile killed",
+        "strixwolf_outcome Strixwolf Outcome select unresolved calmed helped avoided attacked killed",
+        "strixwolf_trust Strixwolf Trust number 3",
+        "strixwolf_blood_debt Strixwolf Blood Debt checkbox",
+        "bramble_outcome Bramble Outcome select unresolved killed captured spared negotiated escaped let_cargo",
+        "bramble_truth_learned Bramble Truth Learned checkbox",
+        "package_status Package Status select held lost",
+        "hush_trust Hush Trust select low neutral high",
+        "custodian_route Custodian Route select unknown safe dangerous",
+        "ward_awareness Ward Awareness select none seed aware",
+        "festival_boon Festival Boon select none charm favor market_find goodwill",
+        "custodian_trust Custodian Trust select low neutral high",
+        "hush_clues Hush Clues select none custodian_route ward_seed corporate_seam farm_seed market_rumor multiple"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash e21756b20c1fe088 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+%PDF-1.4
+1 0 obj
+<< /Length 1923 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S03-02 - Local Clues) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The town is happy to talk. Everyone seems to know the person you are looking for, though) Tj
+T*
+(they are protective of her. A friendly local can point the way, if the town decides you) Tj
+T*
+(are safe enough to send toward someone it loves.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Find someone who can point you toward the person who keeps the ward working.) Tj
+T*
+() Tj
+T*
+(GM goal) Tj
+T*
+() Tj
+T*
+(Run the objective spine: talk to locals, build trust, find the route to the person who) Tj
+T*
+(keeps Hush safe, and seed the watched/corporate unease.) Tj
+T*
+() Tj
+T*
+(GM notes) Tj
+T*
+() Tj
+T*
+(- S03-02 must set custodian_route; this is the Act 3 to Act 4 hinge.) Tj
+T*
+(- Bramble truth learned makes sharper questions land; if false, let contradictions) Tj
+T*
+(  still be visible.) Tj
+T*
+() Tj
+T*
+(GM script) Tj
+T*
+() Tj
+T*
+(Say: "They know who you mean, but they do not hand beloved people to strangers just) Tj
+T*
+(because the strangers have a contract. Talk to them. Let them decide whether you are) Tj
+T*
+(guests, customers, or trouble.") Tj
+T*
+() Tj
+T*
+(State controls) Tj
+T*
+() Tj
+T*
+(- bramble_truth_learned Bramble Truth Learned checkbox) Tj
+T*
+(- package_status Package Status select held lost) Tj
+T*
+(- hush_trust Hush Trust select low neutral high) Tj
+T*
+(- custodian_route Custodian Route select unknown safe dangerous) Tj
+T*
+(- ward_awareness Ward Awareness select none seed aware) Tj
+T*
+(- hush_clues Hush Clues select none custodian_route ward_seed corporate_seam farm_seed) Tj
+T*
+(  market_rumor multiple) Tj
+T*
+(- bramble_outcome Bramble Outcome select unresolved killed captured spared negotiated) Tj
+T*
+(  escaped let_cargo) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 78038132b0ed6cd2 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [2 0 R] /Count 1 >>
+endobj
+4 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000001984 00000 n 
+0000002110 00000 n 
+0000002167 00000 n 
+0000002216 00000 n 
+trailer
+<< /Size 6 /Root 4 0 R >>
+startxref
+2288
+%%EOF

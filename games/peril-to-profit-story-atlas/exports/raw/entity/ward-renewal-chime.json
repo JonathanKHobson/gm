@@ -1,0 +1,65 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "ward-renewal-chime",
+  "title": "Ward Renewal Chime",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "b5058064c016908a",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Ward Renewal Chime: A low tone felt in the teeth that tells the table the ward is alive, stressed, and responding."
+    },
+    {
+      "title": "Public role",
+      "body": "Audible sign that the ritual is changing state"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: A low tone felt in the teeth that tells the table the ward is alive, stressed, and responding."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: item",
+        "Role: Audible sign that the ritual is changing state",
+        "Summary: A low tone felt in the teeth that tells the table the ward is alive, stressed, and responding.",
+        "Tags: ritual ward signal",
+        "Connections: Ritual Countdown Whitefire Custodian Keystone Asset Open Vale™ Ritual Site",
+        "Inventory: hummed air stone resonance faint green sparks",
+        "Loot: Use it as the fiction-facing cue for countdown ticks and stability shifts.",
+        "Name: Ward Renewal Chime",
+        "Id: ward-renewal-chime",
+        "Meta: Item / Asset ITEM assets/icons/item.png entity-item #39c5bb 07 Items and Clues entities item",
+        "Aliases: Ward Renewal Chime low tone renewal chime ward chime",
+        "Appears In: S03-02 S04-04",
+        "Related: Keystone Asset Open Vale™ Ritual Site Ritual Countdown S03-02 S04-04 Whitefire Custodian",
+        "Image Prompt: Private table TTRPG story atlas asset for Ward Renewal Chime, Item / Asset. Role: Audible sign that the ritual is changing state. Summary: A low tone felt in the teeth that tells the table the ward is alive, stressed, and responding.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Personality: A low tone felt in the teeth that tells the table the ward is alive, stressed, and responding.; use Ward Renewal Chime as a concrete table object with texture, ownership, and a reason it matters now.",
+        "Wants: Give players a tangible handle on Ritual Countdown, Whitefire Custodian, Keystone Asset, whether they inspect, carry, return, trade, or refuse it.",
+        "Fears: Being treated as treasure clutter instead of evidence, memory, hospitality, or infrastructure with consequences.",
+        "Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.",
+        "Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.",
+        "Sample Dialogue: A low tone felt in the teeth that tells the table the ward is alive, stressed, and responding.",
+        "Equipment: hummed air stone resonance faint green sparks",
+        "Search Or Loot: Use it as the fiction-facing cue for countdown ticks and stability shifts.",
+        "Gm Use: Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.",
+        "Future Hooks: Bring back as an echo if players made a strong choice involving this entity.",
+        "Robust: Ward Renewal Chime: A low tone felt in the teeth that tells the table the ward is alive, stressed, and responding. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Give players a tangible handle on Ritual Countdown, Whitefire Custodian, Keystone Asset, whether they inspect, carry, return, trade, or refuse it. Being treated as treasure clutter instead of evidence, memory, hospitality, or infrastructure with consequences. Use when the scene needs a concrete object for players to inspect, carry, debate, or remember. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Ward Renewal Chime and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the...",
+        "Mechanics: Discovery / Earn-It Mechanics Players can inspect, handle, keep, trade, reveal, or earn Ward Renewal Chime when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A low tone felt in the teeth that tells the table the ward is alive, stressed, and responding. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-ward-renewal-chime-engage-ward-renewal-chime entity-ward-renewal-chime Engage Ward Renewal Chime Engage Ward Renewal Chime Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Ward Renewal Chime hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but...",
+        "Pronunciation: ward Renewal Chime",
+        "Short Pronunciation: ward Renewal Chime",
+        "Image: assets/entities/ward-renewal-chime.webp",
+        "Image Asset Status: image_gen",
+        "Visual Gallery: primary Primary wiki image primary assets/entities/ward-renewal-chime.webp Ward Renewal Chime primary wiki image visual. Ward Renewal Chime: Primary wiki image. image_gen True True"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash b5058064c016908a | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

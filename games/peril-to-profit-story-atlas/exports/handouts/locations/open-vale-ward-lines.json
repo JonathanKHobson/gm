@@ -1,0 +1,44 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "open-vale-ward-lines",
+  "kind": "entity",
+  "title": "Open Vale Ward Lines",
+  "in_world_label": "Goldspire Travel Advisory",
+  "brand_flag": "Player-safe",
+  "kicker": "Lines of stone, moss, and old light that show the ward is infrastructure, memory, and place at once.",
+  "hook": "Lines of stone, moss, and old light that show the ward is infrastructure, memory, and place at once.",
+  "blocks": [
+    {
+      "label": "Arrival Read",
+      "body": "The ward lines are not decoration; they are infrastructure made visible as grooves, mosslight, dust, and old promises."
+    },
+    {
+      "label": "Known For",
+      "body": "Grooves run through the grass filled with old mosslight, pulsing faintly underfoot like buried veins. Where the lines are strong the grass grows greener. Where they gap, the flowers lean away and a quiet strip opens that the insects refuse to cross. Worn..."
+    },
+    {
+      "label": "What Is Here",
+      "body": "Local residents or workers appropriate to the place Ward-Moths cluster at warm junctions Mist-Things avoid stable lines and drift near flickering gaps No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food..."
+    },
+    {
+      "label": "Food And Texture",
+      "body": "Nobody eats here on purpose. This is a place you tend, not a place you feast. If anything, someone leaves a small offering at a service stone, a heel of bread, a smear of honey, for luck or for habit."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Look for the busiest local gathering point.",
+    "Ask what has changed here recently."
+  ],
+  "archetype": "location.advisory",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:open-vale-ward-lines",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "ec0e9d9240c85726",
+  "generated_at": "2026-06-23T21:40:58"
+}

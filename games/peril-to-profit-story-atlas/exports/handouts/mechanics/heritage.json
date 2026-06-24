@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "heritage",
+  "kind": "rule",
+  "title": "Heritage",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "character-creation",
+  "hook": "The broad character identity layer made from ancestry, community, and the player's chosen story details.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "The broad character identity layer made from ancestry, community, and the player's chosen story details."
+    },
+    {
+      "label": "How It Works",
+      "body": "Heritage: The broad character identity layer made from ancestry, community, and the player's chosen story details."
+    },
+    {
+      "label": "Try It",
+      "body": "Is heritage a rule?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use when a player asks what shaped their character before the job.",
+    "Use the exact sheet rules for ancestry/community features; use the rest as story permission and roleplay texture.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:heritage",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "e64b8b0860fe5893",
+  "generated_at": "2026-06-23T21:40:58"
+}

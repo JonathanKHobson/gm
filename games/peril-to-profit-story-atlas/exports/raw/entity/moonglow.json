@@ -1,0 +1,69 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "moonglow",
+  "title": "Moonglow",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "bb4da7ef80e3f55b",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible."
+    },
+    {
+      "title": "Public role",
+      "body": "Lucent River navigation and resource effect"
+    },
+    {
+      "title": "Handout text",
+      "body": "Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: location",
+        "Role: Lucent River navigation and resource effect",
+        "Summary: Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible.",
+        "Tags: goldspire-location location-profile navigation resource sablewood-lore source-page-3",
+        "Aliases: Lucent glow Moonglow moon glow",
+        "Connections: The Lucent River Hexmart Root's Hollow",
+        "Inventory: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry.",
+        "Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.",
+        "Image Fallback: type-icon",
+        "Source Pages: Sablewood PDF p. 3",
+        "Name: Moonglow",
+        "Id: moonglow",
+        "Meta: Location LOCATION assets/icons/location.png entity-location #5fa8d3 05 Locations locations location",
+        "Appears In: S05-03",
+        "Related: Hexmart Root's Hollow S05-03 The Lucent River",
+        "Image Prompt: Private table TTRPG story atlas asset for Moonglow, Location. Role: Lucent River navigation and resource effect. Summary: Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Show the place as an atmospheric establishing image, not a map. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Personality: Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible.; introduce it with a sensory palette, who feels safe there, and what has been neglected.",
+        "Wants: Pull player attention toward the choices, clues, and relationships tied to The Lucent River, Hexmart, Root's Hollow.",
+        "Fears: Being treated as scenery when it should reveal who is protected, who is charged, and who is left outside the ward.",
+        "Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.",
+        "Body Language: Let the place answer through sound, texture, and who feels safe there.",
+        "Sample Dialogue: Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible.",
+        "Equipment: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry.",
+        "Search Or Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.",
+        "Gm Use: Introduce with sensory texture, then make one discoverable clue or social choice visible.",
+        "Future Hooks: Bring back as an echo if players made a strong choice involving this entity.",
+        "Robust: Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Pull player attention toward the choices, clues, and relationships tied to The Lucent River, Hexmart, Root's Hollow. Being treated as scenery when it should reveal who is protected, who is charged, and who is left outside the ward. Introduce with sensory texture, then make one discoverable clue or social choice visible. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Moonglow and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the institutional...",
+        "Mechanics: Location Exploration Mechanics Players can navigate, search, read customs, inspect hazards Moonglow when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-moonglow-engage-moonglow entity-moonglow Engage Moonglow Engage Moonglow Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of Moonglow hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a...",
+        "Pronunciation: MOON-gloh",
+        "Short Pronunciation: MOON-gloh",
+        "Pronunciation Note: Say it like the two common words moon and glow.",
+        "Location Profile: location-profile-v1 moonglow moonglow Story Atlas generated location notes True strong Moonglow Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible. Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible. Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible. Moonglow feels like a specific place with its own traffic, work, weather, sounds, and local habits. The place breaks into usable table spaces: Arrival edge: The first view gives players a clear threshold and a reason to slow down. Working center: The active middle of the location shows what people or nature are doing before the party interferes. Quiet side path: A quieter edge gives curious players somewhere to poke without leaving the scene. Plants and materials: local weeds, moss, cultivated growth, or scrub that changes how paths feel underfoot. Animals and background life: small local wildlife reacts before people do. The air carries weather, ward hum, water movement...",
+        "Image: assets/location-visuals/moonglow/profile_scene_v02.webp",
+        "Image Asset Status: location_visual_profile",
+        "Visual Gallery: primary Primary wiki image primary assets/location-visuals/moonglow/profile_scene_v02.webp Moonglow primary wiki image visual. Moonglow: Primary wiki image. location_visual_profile True True primary_map Top-down map location-map assets/location-visuals/moonglow/primary_map_v02.webp Moonglow top-down map visual. Moonglow: Top-down map. ready True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/moonglow/primary_map_v02.png"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash bb4da7ef80e3f55b | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

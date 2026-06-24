@@ -1,0 +1,437 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2747 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-hush-safe-irrigation-path - Hush Safe Irrigation Path Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(A narrow farm path follows glowing irrigation water through moss, boards, root lips, and) Tj
+T*
+(quiet field marks. It is easy to walk when someone has shown you what the marks mean.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(A narrow farm path follows glowing irrigation water through moss, boards, root lips, and) Tj
+T*
+(quiet field marks. It is easy to walk when someone has shown you what the marks mean.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-hush-safe-irrigation-path) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: ACT-THREE) Tj
+T*
+(- Sectiontitle: Act Three: Seeking a Custodian) Tj
+T*
+(- Title: Hush Safe Irrigation Path Location Map) Tj
+T*
+(- Shorttitle: Safe Irrigation Path) Tj
+T*
+(- Order: 402.08) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-hush-safe-irrigation-path-gm.png) Tj
+T*
+(- Alt: Hush Safe Irrigation Path location map board.) Tj
+T*
+(- Caption: Visual reference for Hush Safe Irrigation Path.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Use this as the trust-earned safe route toward the Act 4 bridge.) Tj
+T*
+(- Publicobjective: A narrow farm path follows glowing irrigation water through moss,) Tj
+T*
+(  boards, root lips, and quiet field marks. It is easy to walk when someone has shown) Tj
+T*
+(  you what the marks mean.) Tj
+T*
+(- Readaloud: A narrow farm path follows glowing irrigation water through moss, boards,) Tj
+T*
+(  root lips, and quiet field marks. It is easy to walk when someone has shown you what) Tj
+T*
+(  the marks mean.) Tj
+T*
+(- Gmscript: Say: "If custodian_route is safe, this path is the reward. A guide or) Tj
+T*
+(  clear local directions gets them through without an approach hazard.") Tj
+T*
+(- Gmreadaloud: Glowing irrigation water. Moss, boards, root lips, and quiet field) Tj
+T*
+(  marks. A safe path only if someone taught you how to read it.) Tj
+T*
+(- Gmchecklist: Use only if custodian_route=safe or if players earn it with strong) Tj
+T*
+(  local help. Forward transition goes to MAP-LOC-hush-farms. Do not add a hazard on) Tj
+T*
+(  the safe path.) Tj
+T*
+(- Gmprivate: GM-only: even the safe route is maintained infrastructure. Do not make) Tj
+T*
+(  that a reveal unless players probe.) Tj
+T*
+(- Playertakeaway: A narrow farm path follows glowing irrigation water through moss,) Tj
+T*
+(  boards, root lips, and quiet field marks. It is easy to walk when someone has shown) Tj
+T*
+(  you what the marks mean.) Tj
+T*
+(- Storytakeaway: Trust becomes practical: locals give safer paths, not just nicer) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3974 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  words.) Tj
+T*
+(- Mechanictakeaway: custodian_route=safe removes the approach hazard; unaided) Tj
+T*
+(  discovery requires Instinct 12.) Tj
+T*
+(- Entityids: hush-safe-irrigation-path hush-farms sunless-farm-moss ratcoons) Tj
+T*
+(- Entities: hush-safe-irrigation-path Hush Safe Irrigation Path location Location) Tj
+T*
+(  assets/icons/location.png assets/location-visuals/hush-safe-irrigation-) Tj
+T*
+(  path/profile_scene_v02.png hush sayf IR-ih-GAY-shun path A narrow working path) Tj
+T*
+(  through mosslit water channels that rewards trust built in Hush. Make the shortcut) Tj
+T*
+(  feel earned, not handed over. A narrow working path through mosslit water channels) Tj
+T*
+(  that rewards trust built in Hush.; introduce it with a sensory palette, who feels) Tj
+T*
+(  safe there, and what has been neglected. Pull player attention toward the choices,) Tj
+T*
+(  clues, and relationships tied to Hush, Hush Farms, The Hanging Office. A narrow) Tj
+T*
+(  working path through mosslit water channels that rewards trust built in Hush. hush-) Tj
+T*
+(  farms Hush Farms location Location assets/icons/location.png assets/location-) Tj
+T*
+(  visuals/hush-farms/profile_scene_v02.png hush farmz Glowing blue moss grows over) Tj
+T*
+(  fruits and vegetables. Make the infrastructure failure agricultural and bodily, not) Tj
+T*
+(  abstract. Glowing blue moss grows over fruits and vegetables.; introduce it with a) Tj
+T*
+(  sensory palette, who feels safe there, and what has been neglected. Pull player) Tj
+T*
+(  attention toward the choices, clues, and relationships tied to Hush, The...) Tj
+T*
+(- Locationids: hush-safe-irrigation-path hush-farms) Tj
+T*
+(- Statecontrols: custodian_route Custodian Route select unknown safe dangerous) Tj
+T*
+(  hush_trust Hush Trust select low neutral high) Tj
+T*
+(- Mechanicids: instinct knowledge gm-moves) Tj
+T*
+(- Fearspends: A channel briefly reflects the wrong sky. A footbridge creaks loud) Tj
+T*
+(  enough to carry. A guide stops and listens for a ward tone the party cannot hear.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S03-02) Tj
+T*
+(- Mapdata: MAP-LOC-hush-safe-irrigation-path environment Hush Safe Irrigation Path) Tj
+T*
+(  Location Map S03-02 hush-safe-irrigation-path hush-farms sunless-farm-moss ratcoons) Tj
+T*
+(  assets/location-visuals/hush-safe-irrigation-path/profile_scene_v02.png Visual) Tj
+T*
+(  reference for Hush Safe Irrigation Path. Hush Safe Irrigation Path location map) Tj
+T*
+(  board. A narrow farm path follows glowing irrigation water through moss, boards,) Tj
+T*
+(  root lips, and quiet field marks. It is easy to walk when someone has shown you what) Tj
+T*
+(  the marks mean. A narrow farm path follows glowing irrigation water through moss,) Tj
+T*
+(  boards, root lips, and quiet field marks. It is easy to walk when someone has shown) Tj
+T*
+(  you what the marks mean. Use this as the trust-earned safe route toward the Act 4) Tj
+T*
+(  bridge. Water channels glow under boards and root lips. Small field marks point the) Tj
+T*
+(  way without looking like signs. The safe stones are worn by local feet, not marked) Tj
+T*
+(  for outsiders. Village life stays audible: work sounds, lowered voices, doors,) Tj
+T*
+(  tools, and ward tones changing the room's confidence. Cool water, crushed moss, wet) Tj
+T*
+(  rope, and the mineral smell of channels cut through old root beds. Bridge rails are) Tj
+T*
+(  slick but familiar; the safe stones feel warmer than...) Tj
+T*
+(- Sourcefiles: dist/Act3_Upgrade_Packet/ACT3_MAPS_AND_LOCATIONS.md) Tj
+T*
+(- References: Local Clues #S03-02 Hush Farms #MAP-LOC-hush-farms) Tj
+T*
+(- Livetools: scene MAP-LOC-hush-safe-irrigation-path) Tj
+T*
+(- Percharacterlayer: garrick-reed Garrick Reed Management under warmth Notices the) Tj
+T*
+(  town logistics run with corporate efficiency under the folksy surface. Instinct 13) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4361 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  There are company minders in Hush dressed as ordinary locals. Can talk crew-to-crew) Tj
+T*
+(  with ex-company locals and earn practical trust. Garrick, under the warmth, this) Tj
+T*
+(  town runs like a company op. Want to read who is minding it? khari-nix Khari Nix) Tj
+T*
+(  Trusted protector Protective people recognize her as protective and confide faster.) Tj
+T*
+(  Can be the one a worried local trusts with the keeper's location. Khari, they want) Tj
+T*
+(  to tell you where she is. Want to be the one they trust with it? barnacle Barnacle) Tj
+T*
+(  Paperwork seam Finds the supply manifests, tucked compliance office, and tiny signs) Tj
+T*
+(  that safety has an owner. Instinct 13 Hush is registered and inventoried; a managed) Tj
+T*
+(  place wearing a village's face. Keep the label GM-gated. Can find who handles) Tj
+T*
+(  records without making the table listen to a lore dump. Barnacle, peel back the) Tj
+T*
+(  charm and there is paperwork. Want to find who holds the deed to safe? marlowe-) Tj
+T*
+(  fairwind Marlowe Fairwind Package weight Knowledge 13 The fading ward and the) Tj
+T*
+(  package resonate; every local thanks the ward and makes the cargo feel...) Tj
+T*
+(- Gmbeats: MAP-LOC-hush-safe-irrigation-path-reward Reward The reward route Say: "This) Tj
+T*
+(  is what the town's trust changes: no hazard before the treehouse." The safe path is) Tj
+T*
+(  what high trust buys. Social choices alter geography. custodian_route=safe gates the) Tj
+T*
+(  path. Players see trust pay off. Player takeaway Players see trust pay off. "This is) Tj
+T*
+(  what the town's trust changes: no hazard before the treehouse." "The playable fact) Tj
+T*
+(  is: The safe path is what high trust buys." Concrete actions for this beat: talk to) Tj
+T*
+(  a person present, inspect the named detail, help an ally, or choose whether to move) Tj
+T*
+(  toward the Custodian route. gm-moves Story takeaway Social choices alter geography.) Tj
+T*
+(  "This is what the town's trust changes: no hazard before the treehouse." "The story) Tj
+T*
+(  fact in play is: Social choices alter geography." This beat changes Act 3 through) Tj
+T*
+(  this exact pressure: Social choices alter geography. gm-moves Mechanic takeaway) Tj
+T*
+(  custodian_route=safe gates the path. "This is what the town's trust changes: no) Tj
+T*
+(  hazard before the treehouse." "The active procedure is: custodian_route=safe gates) Tj
+T*
+(  the path." Run intent first, then choose Presence, Instinct, Knowledge, Strength, or) Tj
+T*
+(  Finesse only when the fiction is risky...) Tj
+T*
+(- Takeawayhelp: Player takeaway The safe path is the visible payoff for trust.) Tj
+T*
+(  "Because Hush trusted you, you have the route locals actually use." "Follow the) Tj
+T*
+(  guide or marks forward to Hush Farms. If you turn back, you return to the Sunless) Tj
+T*
+(  Farms." This should feel like a reward, not skipped content. instinct gm-moves Story) Tj
+T*
+(  takeaway Trust changes the road into a known way. "The place did not become less) Tj
+T*
+(  dangerous. You became less alone in it." "A local guide or clear directions makes) Tj
+T*
+(  this automatic. Outsiders without trust do not read it cleanly." This map expresses) Tj
+T*
+(  the theme: social care becomes practical survival. instinct gm-moves Mechanic) Tj
+T*
+(  takeaway custodian_route=safe removes the approach hazard. "If custodian_route is) Tj
+T*
+(  safe, no approach roll here. The guide or local marks carry you through." "Without) Tj
+T*
+(  the route, Instinct 12 may find part of it; failure sends them to the) Tj
+T*
+(  dangerous/unknown approach." The mechanic is consequence payoff from S03-02/S03-03,) Tj
+T*
+(  not a fresh obstacle. instinct gm-moves) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-hush-safe-irrigation-path.png Safe Irrigation Path) Tj
+T*
+(  map board. MAP-LOC-hush-safe-irrigation-path environment Safe Irrigation Path S03-02) Tj
+T*
+(  assets/maps/MAP-LOC-hush-safe-irrigation-path.png assets/maps/MAP-LOC-hush-safe-) Tj
+T*
+(  irrigation-path.png Safe Irrigation Path map board. A narrow farm path follows) Tj
+T*
+(  glowing irrigation water through moss, boards, root lips, and quiet field marks. It) Tj
+T*
+(  is easy to walk when someone has shown you what the marks mean. A narrow farm path) Tj
+T*
+(  follows glowing irrigation water through moss, boards, root lips, and quiet field) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 2422 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  marks. It is easy to walk when someone has shown you what the marks mean. MAP-LOC-) Tj
+T*
+(  hush-safe-irrigation-path-map-only Map only Safe Irrigation Path map-only) Tj
+T*
+(  assets/maps/MAP-LOC-hush-safe-irrigation-path.png Safe Irrigation Path map board.) Tj
+T*
+(  MAP-LOC-hush-safe-irrigation-path environment Safe Irrigation Path S03-02) Tj
+T*
+(  assets/maps/MAP-LOC-hush-safe-irrigation-path.png assets/maps/MAP-LOC-hush-safe-) Tj
+T*
+(  irrigation-path.png Safe Irrigation Path map board. A narrow farm path follows) Tj
+T*
+(  glowing irrigation water through moss, boards, root lips, and quiet field marks. It) Tj
+T*
+(  is easy to walk when someone has shown you what the marks mean. A narrow farm...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-hush-safe-irrigation-path map Safe Irrigation Path) Tj
+T*
+(  assets/maps/MAP-LOC-hush-safe-irrigation-path.png Safe Irrigation Path map board.) Tj
+T*
+(  spatial reference and location texture A narrow farm path follows glowing irrigation) Tj
+T*
+(  water through moss, boards, root lips, and quiet field marks. It is easy to walk) Tj
+T*
+(  when someone has shown you what the marks mean. A narrow farm path follows glowing) Tj
+T*
+(  irrigation water through moss, boards, root lips, and quiet field marks. It is easy) Tj
+T*
+(  to walk when someone has shown you what the marks mean. MAP-LOC-hush-safe-) Tj
+T*
+(  irrigation-path environment Safe Irrigation Path S03-02 assets/maps/MAP-LOC-hush-) Tj
+T*
+(  safe-irrigation-path.png assets/maps/MAP-LOC-hush-safe-irrigation-path.png Safe) Tj
+T*
+(  Irrigation Path map board. A narrow farm path follows glowing irrigation water) Tj
+T*
+(  through moss, boards, root lips, and quiet field marks. It is easy to walk when) Tj
+T*
+(  someone has shown you what the marks mean. A narrow farm path follows glowing) Tj
+T*
+(  irrigation water through moss, boards, root lips, and quiet field marks. It is easy) Tj
+T*
+(  to walk when someone has shown you what the marks mean. assets/maps/MAP-LOC-hush-) Tj
+T*
+(  safe-irrigation-path.png Safe Irrigation Path map board...) Tj
+T*
+(- Slidenumber: 47) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash f3b7bcc9db27db88 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R] /Count 4 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000002808 00000 n 
+0000002935 00000 n 
+0000006961 00000 n 
+0000007088 00000 n 
+0000011501 00000 n 
+0000011628 00000 n 
+0000014102 00000 n 
+0000014229 00000 n 
+0000014304 00000 n 
+0000014354 00000 n 
+trailer
+<< /Size 12 /Root 10 0 R >>
+startxref
+14427
+%%EOF

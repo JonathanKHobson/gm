@@ -1,0 +1,340 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2267 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(SZ-03 - Daggerheart Rules Snapshot) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(Daggerheart is narrative fantasy. The GM describes the world, players describe what) Tj
+T*
+(their characters do, and we roll when the outcome is risky, uncertain, or dramatic.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Daggerheart is narrative fantasy. The GM describes the world, players describe what) Tj
+T*
+(their characters do, and we roll when the outcome is risky, uncertain, or dramatic.) Tj
+T*
+() Tj
+T*
+(Player bullets) Tj
+T*
+() Tj
+T*
+(- Describe what your character tries to do.) Tj
+T*
+(- If it is risky or uncertain, roll Hope and Fear d12s.) Tj
+T*
+(- Add the trait that fits your approach.) Tj
+T*
+(- Tell the GM the total and whether Hope or Fear was higher.) Tj
+T*
+(- We will learn the rest as it matters.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: SZ-03) Tj
+T*
+(- Type: session-zero) Tj
+T*
+(- Sectionid: SESSION-ZERO) Tj
+T*
+(- Sectiontitle: Session Zero) Tj
+T*
+(- Title: Daggerheart Rules Snapshot) Tj
+T*
+(- Shorttitle: Daggerheart Rules Snapshot) Tj
+T*
+(- Playertitle: How Daggerheart works) Tj
+T*
+(- Order: 10) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: True) Tj
+T*
+(- Image: assets/icons/action-rules.png) Tj
+T*
+(- Alt: Rules reference icon for Daggerheart basics.) Tj
+T*
+(- Caption: Teach the minimum Daggerheart rules needed to begin.) Tj
+T*
+(- Mood: calibration, invitation, consent) Tj
+T*
+(- Gmgoal: Teach the minimum Daggerheart rules needed to begin.) Tj
+T*
+(- Publicobjective: Daggerheart is narrative fantasy. The GM describes the world,) Tj
+T*
+(  players describe what their characters do, and we roll when the outcome is risky,) Tj
+T*
+(  uncertain, or dramatic.) Tj
+T*
+(- Readaloud: Daggerheart is narrative fantasy. The GM describes the world, players) Tj
+T*
+(  describe what their characters do, and we roll when the outcome is risky, uncertain,) Tj
+T*
+(  or dramatic.) Tj
+T*
+(- Playerbullets: Describe what your character tries to do. If it is risky or) Tj
+T*
+(  uncertain, roll Hope and Fear d12s. Add the trait that fits your approach. Tell the) Tj
+T*
+(  GM the total and whether Hope or Fear was higher. We will learn the rest as it) Tj
+T*
+(  matters.) Tj
+T*
+(- Displaymode: text-first) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3826 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Gmnotes: Script: Teach only the minimum rules, then move on. Open the GM Rules) Tj
+T*
+(  Drawer for deeper questions, but do not dump the full rulebook before play. Every) Tj
+T*
+(  rules term should link to the GM Rules Drawer in GM view. Do not present non-) Tj
+T*
+(  official or stale mechanics as official Daggerheart rules. Checklist: Duality Dice) Tj
+T*
+(  explained; Hope/Fear explained; Experiences explained; Helping explained; Outcome) Tj
+T*
+(  matrix explained Rules snapshot: Duality Dice; Hope; Fear; Action Rolls;) Tj
+T*
+(  Experiences; Helping; Difficulty Ladder; Combat Spotlight Difficulty: easy 10;) Tj
+T*
+(  standard 15; hard 20) Tj
+T*
+(- Gmscript: Teach only the minimum rules, then move on. Open the GM Rules Drawer for) Tj
+T*
+(  deeper questions, but do not dump the full rulebook before play.) Tj
+T*
+(- Gmreadaloud: Here is the minimum Daggerheart loop. Tell me what your character wants) Tj
+T*
+(  to do. If the outcome is risky, uncertain, or dramatic, I will ask for a roll. Most) Tj
+T*
+(  rolls use two d12s: one Hope die and one Fear die. You add the right trait from your) Tj
+T*
+(  sheet and compare the total to a Difficulty. The total tells us whether you succeed.) Tj
+T*
+(  The higher die tells us whether the result comes with Hope or Fear. Doubles are a) Tj
+T*
+(  Critical Success. You do not need to remember all of that right now; I will walk you) Tj
+T*
+(  through it when the first roll happens.) Tj
+T*
+(- Gmchecklist: Duality Dice explained Hope/Fear explained Experiences explained) Tj
+T*
+(  Helping explained Outcome matrix explained) Tj
+T*
+(- Playertakeaway: Players know the minimum Daggerheart loop: describe action, roll) Tj
+T*
+(  when risky, read Hope/Fear.) Tj
+T*
+(- Storytakeaway: The system supports cinematic choices and consequences rather than) Tj
+T*
+(  tactical homework.) Tj
+T*
+(- Mechanictakeaway: Teaches Duality Dice, Hope/Fear, traits, Experiences, Stress, HP,) Tj
+T*
+(  Armor, and spotlight at a high level.) Tj
+T*
+(- Takeawayhelp: Players know the Daggerheart loop Players know describe action, roll) Tj
+T*
+(  when risky, read Hope or Fear. Minimum loop: fiction first, dice second, total for) Tj
+T*
+(  success, higher die for Hope/Fear, doubles for Critical Success. "Tell me what you) Tj
+T*
+(  do. If it is risky or uncertain, roll two d12s, add the right trait, and tell me the) Tj
+T*
+(  total and which die is higher." If someone asks what Hope and Fear mean: "Hope means) Tj
+T*
+(  the result tilts toward you and you may gain Hope. Fear means the result gives me a) Tj
+T*
+(  GM resource or complication." Minimum loop: fiction first, dice second, total for) Tj
+T*
+(  success, higher die for Hope/Fear, doubles for Critical Success. action-roll) Tj
+T*
+(  duality-dice hope fear traits experiences stress adversary-spotlight The system) Tj
+T*
+(  supports cinematic consequences Daggerheart supports choices and consequences rather) Tj
+T*
+(  than tactical homework. This lets D&D players map old instincts while learning what) Tj
+T*
+(  is different. "The dice do not replace the story. They tell us what your risky) Tj
+T*
+(  choice costs, reveals, or changes." If someone asks if this is like Dungeons &) Tj
+T*
+(  Dragons: "Close enough to feel familiar, but the Hope/Fear dice make the tone of) Tj
+T*
+(  success or failure matter immediately." This lets D&D players...) Tj
+T*
+(- Mechanicids: action-roll duality-dice hope fear traits experiences stress adversary-) Tj
+T*
+(  spotlight) Tj
+T*
+(- Handoutids: session-zero-worksheet) Tj
+T*
+(- Sourcefiles: docs/DAGGERHEART_RULES_ORIENTATION.md) Tj
+T*
+(  handouts/Daggerheart_Quick_Rules_Card.md) Tj
+T*
+(  docs/SESSION_ZERO_RUNBOOK.md#0:16-0:20-rules-snapshot) Tj
+T*
+(- Livetools: none) Tj
+T*
+(- Playerbeats: SZ-03-overview Overview Daggerheart in one minute assets/icons/action-) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3008 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  rules.png Rules reference icon for Daggerheart basics. Daggerheart is a story-first) Tj
+T*
+(  fantasy game. Describe your action first; the rules help when the moment is risky,) Tj
+T*
+(  uncertain, or dramatic. Daggerheart is a story-first fantasy game. Describe your) Tj
+T*
+(  action first; the rules help when the moment is risky, uncertain, or dramatic. You) Tj
+T*
+(  play one character; the GM plays the world. Roll only when the outcome matters. Hope) Tj
+T*
+(  and Fear color what happens next. Your sheet is a menu, not homework. text-first) Tj
+T*
+(  SZ-03-ttrpg TTRPG basics What is a TTRPG? assets/icons/action-rules.png Rules) Tj
+T*
+(  reference icon for Daggerheart basics. You and the GM are telling a story together.) Tj
+T*
+(  You play one character. The GM plays the world. Dice decide risky or uncertain) Tj
+T*
+(  moments, and there is no single win condition. You and the GM are telling a story) Tj
+T*
+(  together. You play one character. The GM plays the world. Dice decide risky or) Tj
+T*
+(  uncertain moments, and there is no single win condition. Describe what your) Tj
+T*
+(  character tries to do. Ask questions when you need context. The GM tells you when a) Tj
+T*
+(  rule or roll applies. Interesting choices and consequences matter...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 12000) Tj
+T*
+(- Playersafeprojection: SZ-03 session-zero Daggerheart Rules Snapshot) Tj
+T*
+(  assets/icons/action-rules.png Rules reference icon for Daggerheart basics. Teach the) Tj
+T*
+(  minimum Daggerheart rules needed to begin. calibration, invitation, consent) Tj
+T*
+(  Daggerheart is narrative fantasy. The GM describes the world, players describe what) Tj
+T*
+(  their characters do, and we roll when the outcome is risky, uncertain, or dramatic.) Tj
+T*
+(  Daggerheart is narrative fantasy. The GM describes the world, players describe what) Tj
+T*
+(  their characters do, and we roll when the outcome is risky, uncertain, or dramatic.) Tj
+T*
+(  Describe what your character tries to do. If it is risky or uncertain, roll Hope and) Tj
+T*
+(  Fear d12s. Add the trait that fits your approach. Tell the GM the total and whether) Tj
+T*
+(  Hope or Fear was higher. We will learn the rest as it matters. text-first) Tj
+T*
+(  SZ-03-overview Overview Daggerheart in one minute assets/icons/action-rules.png) Tj
+T*
+(  Rules reference icon for Daggerheart basics. Daggerheart is a story-first fantasy) Tj
+T*
+(  game. Describe your action first; the rules help when the moment is risky,) Tj
+T*
+(  uncertain, or dramatic. Daggerheart is a story-first fantasy game. Describe your) Tj
+T*
+(  action first; the rules help when the moment is risky, uncertain, or dramatic. You) Tj
+T*
+(  play one...) Tj
+T*
+(- Slidenumber: 10) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash fe90cdd61cfb50a1 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002328 00000 n 
+0000002454 00000 n 
+0000006332 00000 n 
+0000006458 00000 n 
+0000009518 00000 n 
+0000009644 00000 n 
+0000009713 00000 n 
+0000009762 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+9834
+%%EOF

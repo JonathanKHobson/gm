@@ -1,0 +1,97 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "scene",
+  "id": "S03-04",
+  "title": "S03-04 - Firstmoss Launch Festival",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "d9bb0957fa7506ee",
+  "sections": [
+    {
+      "title": "Player read-aloud",
+      "body": "Firstmoss banners flutter overhead, some official, some clearly painted over by children with better taste."
+    },
+    {
+      "title": "Scene summary",
+      "body": "Optional festival flavor shows Hush’s culture and resilience."
+    },
+    {
+      "title": "Visible choices",
+      "items": [
+        "Arm wrestle",
+        "Paint stones",
+        "Shop for trinkets",
+        "Taste moss fruit"
+      ]
+    },
+    {
+      "title": "Player questions",
+      "items": [
+        "What detail in Firstmoss Launch Festival tells you the official story is incomplete?",
+        "Who notices the human cost first, and how do they show it?",
+        "What small object, smell, or sound makes this scene feel real?"
+      ]
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: S03-04",
+        "Act: Act Three",
+        "Title: Firstmoss Launch Festival",
+        "Beats: Emotional beat Corporate satire beat",
+        "Image: assets/scenes/S03-04-firstmoss-launch-festival.webp",
+        "Short: Optional festival flavor shows Hush’s culture and resilience.",
+        "Long: A light scene if time allows. Corporate sponsorship banners have been repurposed into tablecloths, awnings, and jokes.",
+        "Read: Firstmoss banners flutter overhead, some official, some clearly painted over by children with better taste.",
+        "Gm: Cut this for a 2–3 hour table unless players need a breather.",
+        "Entities: Firstmoss Launch Festival Hush Clover Co-op Hush Farms The Sunless Farms Brannic Mossvein Marlowe Fairwind Tamsin Vell Khari Nix Keystone Asset",
+        "Choices: Arm wrestle Paint stones Shop for trinkets Taste moss fruit",
+        "Prompt: Small forest village festival with mossy crops, hand-painted stones, homemade trinkets, children, banners, and warm community life; no monsters, no combat.",
+        "Source Entities: Firstmoss Launch Festival Hush Clover Co-op",
+        "Beat Codes: emotional-beat corporate-satire-beat",
+        "Slug: S03-04-firstmoss-launch-festival",
+        "Act Title: Seeking a Custodian",
+        "Arc Role: Community stakes and emotional buy-in",
+        "Caption: Firstmoss makes the stakes joyous before the module asks the party to defend them.",
+        "Image Alt: Firstmoss Launch Festival scene art for Seeking a Custodian.",
+        "Image Prompt Used: Small forest village festival with mossy crops, hand-painted stones, homemade trinkets, children, banners, and warm community life; no monsters, no combat. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions unless explicitly requested. No strixwolf, no Bramble Union, no combat, no undead. Focus on Hush as warm and real. 4:3 cinematic fantasy concept art, no visible text, no captions, no logos, no UI, no watermark.",
+        "Long Storyboard: A light scene if time allows. Corporate sponsorship banners have been repurposed into tablecloths, awnings, and jokes. Run this scene as community stakes and emotional buy-in: Firstmoss makes the stakes joyous before the module asks the party to defend them. Keep the camera close to practical choices, visible consequences, and the difference between ordinary people and the infrastructure pressing on them.",
+        "Read Aloud: Firstmoss banners flutter overhead, some official, some clearly painted over by children with better taste.",
+        "Gm Notes: Cut this for a 2–3 hour table unless players need a breather. Keep player-facing information actionable. Reveal systemic truth through objects, reactions, and consequences before naming it. Manufactured-threat lens: seed the contradiction, do not explain it. The surface goal stays simple and heroic. [REFLAVOR/GUARANTEED] Firstmoss and the Sunless Farms show the forest feeding Hush rather than hunting it.",
+        "Sensory Details: green lanterns soft drumbeats clover cakes cooling on stone",
+        "Body Language: Marlowe relaxes for half a breath Khari measures the crowd like a promise",
+        "Sample Dialogue: Brannic Mossvein Festival starts whether the rich remember us or not. That is how you know it is ours.",
+        "Checks: Presence or Knowledge Learn what the ward protects by joining the celebration. Easy Make Act Five emotionally legible. 10 Cleanly resolve: Learn what the ward protects by joining the celebration. Add a concrete boon, extra clue, or improved position. Success, plus the player names one helpful detail or asks one follow-up question. Success, but the GM exposes a cost, ticks a countdown, or reveals a new pressure tied to Firstmoss Launch Festival. The full goal slips, but the party still learns a useful truth or avoids the worst consequence. The GM makes a hard move that follows from the fiction and leaves the next choice visible. Spend Fear to make trust cost time, reveal a local fear, or show a ward symptom that locals have normalized. On mixed or sliding results, reveal information in layers: visible fact, actionable clue, then systemic truth.",
+        "Choices Consequences: Join the festival briefly Earn human stakes and supplies. Hush Trust payoff. Skip it entirely Move faster, but the finale has less warmth. No penalty, just less buy-in.",
+        "Clues: Festival route The ward matters. Corporate metrics undercount communal life. The ward protects gathering places, not abstract assets. Guaranteed seed Firstmoss and the Sunless Farms show the forest feeding Hush rather than hunting it. Firstmoss and the Sunless Farms show the forest feeding Hush rather than hunting it.",
+        "Loot: Festival charm Clover cake Name of someone Tamsin cared about",
+        "Payoff Flags: Hush Trust Track",
+        "Filters: act-three choice corporate-satire-beat emotional-beat gm-only hush-trust-track seeking-a-custodian location manufactured-threat guaranteed-earned",
+        "Index: 12",
+        "Player Questions: What detail in Firstmoss Launch Festival tells you the official story is incomplete? Who notices the human cost first, and how do they show it? What small object, smell, or sound makes this scene feel real?",
+        "Relationship Prompts: Which PC quietly checks on someone else here? Who disagrees about the right thing to do without breaking trust?",
+        "Ownership Prompt: Name one detail in Firstmoss Launch Festival that belongs to your character's point of view.",
+        "Reveal Hooks: Loreborne or Knowledge-focused PCs can read the institutional layer. Wildborne/community-focused PCs can read local custom and ecological stress. Martial/security-focused PCs can read threat posture and custody logic. Magic-focused PCs can feel ward tone, soul-signal, or spell instability. Loreborne: spots older legal, heraldic, or ward-craft language under the branding. Underborne: notices service doors, hidden routes, and who built the thing nobody credits. Highborne: reads etiquette, class panic, and reputational risk. Ridgeborne: notices stonework, weight, pressure, and structural weakness. Wildborne: reads the land, animals, and local ecological stress. Elf/Ribbet/Human/Giant/Katari: invite one sensory or social detail from the player's heritage. Sorcerer/Rogue/Warrior/Guardian/Ranger: give each class one table-facing way to shine without changing the plot.",
+        "Fear Spends: Spend Fear to make trust cost time, reveal a local fear, or show a ward symptom that locals have normalized. Make trust cost time, humility, or a public apology. Show a ward symptom locals have normalized because nobody official listened.",
+        "Story Scope: Perceived antagonist: the forest. True antagonist: the corporate lie about the forest. The players never confront it directly. They are meant to feel it by the end. Every act offers at least one guaranteed and one earned hint that the danger is manufactured and the forest is not the enemy. A Grail \"Protection Coverage\" invoice hangs on the Clover Co-op wall, overdue and steep. ADD GUARANTEED Firstmoss and the Sunless Farms show the forest feeding Hush rather than hunting it. REFLAVOR GUARANTEED An elder says, \"The wood was never this bad. The trouble came with the waymarkers.\" ADD EARNED Presence Easy 10 A ledger shows protection costs and hazard sightings climbing together. ADD EARNED Knowledge Medium 15 Firstmoss and the Sunless Farms show the forest feeding Hush rather than hunting it. REFLAVOR GUARANTEED Presence: get people talking. Knowledge: read invoice/ledger. Instinct: sense resentment under hospitality. ACT3 Act 3: Hush 125 1:30 to 2:05 2:05 social beat, Co-op, local leads, optional break Trim village wandering to the invoice plus one elder line; point to the Custodian.",
+        "Mechanics: The party is in Act Three pressure: Optional festival flavor shows Hush’s culture and resilience. Use Daggerheart Duality Dice as baseline. Use the listed Difficulty and outcome options when a roll matters. Keep trivial actions no-roll; roll only when uncertainty, cost, or danger is interesting. s03-04-join-the-festival-contest S03-04 Join the festival contest Join the festival contest Strength Finesse Strength Finesse 12 Strength joins the work; Finesse joins the craft. The PCs watch community instead of participating in it. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. The PCs watch community instead of participating in it. Use a hard...",
+        "Roll Cards: s03-04-join-the-festival-contest S03-04 Join the festival contest Join the festival contest Strength Finesse Strength Finesse 12 Strength joins the work; Finesse joins the craft. The PCs watch community instead of participating in it. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. The PCs watch community instead of participating in it. Use a hard complication, lost time, worse position, GM Fear, or mark Stress. Apply an official condition only if the fiction and rules justify it. The attempt falls short, but a partial thread appears. Offer one clue, weak position, or safer follow-up. The PC gets the core result, but it costs time, noise...",
+        "Conditions Hazards: No official condition unless a feature, hazard, or fictional position calls for Hidden, Restrained, or Vulnerable.",
+        "Search Loot Clues: No fixed loot. Offer clue, texture, or hospitality only when the fiction supports it.",
+        "No Roll Guidance: Do not call for a roll when the players have time, a clear method, and no meaningful pressure.",
+        "Tv Mechanics Caption: Public cue: Firstmoss Launch Festival asks what the party does, what it costs, and who is protected.",
+        "Trait Variety Note: Primary traits in this scene: Finesse, Instinct, Presence, Strength. If rolls drift toward Instinct/Presence, ask whether Agility, Strength, Finesse, or Knowledge better describes the action.",
+        "Factionids: clover-co-op",
+        "World Connection Prompts: S03-04-clover-co-op-world-connection clover-co-op The Clover Co-op Somewhere out here once felt like home for a night. Tell us about it.",
+        "Location Ids: hush clover-co-op firstmoss-launch-festival hush-farms the-sunless-farms",
+        "Image Asset Status: image_gen"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash d9bb0957fa7506ee | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

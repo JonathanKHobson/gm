@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S03-02",
+  "kind": "scene",
+  "title": "S03-02 - Local Clues",
+  "in_world_label": "Situation Briefing",
+  "brand_flag": "Briefing",
+  "kicker": "Seeking a Custodian",
+  "hook": "Every person you meet seems to have an opinion, a custom, or a small gift to press into your hands.",
+  "blocks": [
+    {
+      "label": "Where You Are",
+      "body": "Every person you meet seems to have an opinion, a custom, or a small gift to press into your hands."
+    },
+    {
+      "label": "Plain Stakes",
+      "body": "Fidget, Lausa, and Halython can point the party toward the Custodian."
+    },
+    {
+      "label": "Visible Options",
+      "body": "Ask Fidget Talk to Lausa Play Halython’s acorn-card game Ask about Bramble Union"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "What detail in Local Clues tells you the official story is incomplete?",
+    "Who notices the human cost first, and how do they show it?",
+    "What small object, smell, or sound makes this scene feel real?"
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - scene:S03-02",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "90f9d6cbd6363cc8",
+  "generated_at": "2026-06-23T21:40:58"
+}

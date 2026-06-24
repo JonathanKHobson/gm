@@ -1,0 +1,56 @@
+# Yikyik Trahll
+
+RAW export - entity:yikyik-trahll
+
+## Player-facing description
+Yikyik Trahll: A charismatic Katari covered in black fur, quick to laugh, and determined to see every Bramble Union village in Sablewood.
+
+## Public role
+Curious Bramble wanderer visiting every village
+
+## Handout text
+Player-safe note: A charismatic Katari covered in black fur, quick to laugh, and determined to see every Bramble Union village in Sablewood.
+
+## Raw source
+- Type: npc
+- Role: Curious Bramble wanderer visiting every village
+- Summary: A charismatic Katari covered in black fur, quick to laugh, and determined to see every Bramble Union village in Sablewood.
+- Tags: sablewood-lore npc bramble source-page-6 npc-profile
+- Aliases: Yikyik Yikyik Trahll Yikyik Trahll, Driftwood
+- Connections: Bramble Union Bramble Union Villages The Wandering Briar
+- Inventory: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry.
+- Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+- Stat: Difficulty 14. Experiences: Out of Sight +3, Dodge +2.
+- Image Fallback: type-icon
+- Source Pages: Sablewood PDF p. 6
+- Name: Yikyik Trahll
+- Id: yikyik-trahll
+- Meta: NPC / Ally NPC assets/icons/npc.png entity-npc #f0aa45 03 NPCs entities npc
+- Related: Bramble Union Bramble Union Villages The Wandering Briar
+- Image Prompt: Private table TTRPG story atlas asset for Yikyik Trahll, NPC / Ally. Role: Curious Bramble wanderer visiting every village. Summary: A charismatic Katari covered in black fur, quick to laugh, and determined to see every Bramble Union village in Sablewood.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: Warmth as a vocation, keeping the roads human by carrying jokes, names, and warnings between villages. Knows by touch which house-charm marks a favor owed and which marks one owing. Fears a world where every road belongs to a toll and every story to an office.
+- Wants: Trade stories, find a safe supper, and learn what trouble is moving through town.
+- Fears: A world where every road belongs to a toll and every story to an office.
+- Secrets: Yikyik hears more than he repeats, especially when a rumor might get someone hurt.
+- Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.
+- Sample Dialogue: Friend, I have been to that village, and they still owe me a song. Sit, eat, tell me what is moving through your town. A notice calls them bandits. I have eaten at their fire. Which of us would you believe?
+- Equipment: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry. Vial of Briarpowder
+- Search Or Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure. Loot / item link: Vial of Briarpowder (Trade, gift, or harvested from the Briar.).
+- Gm Use: Use this person to put a human face on the current pressure. Give them one concrete want before exposition.
+- Future Hooks: Bring back as an echo if players made a strong choice involving this entity.
+- Stat Summary: Difficulty 14. Experiences: Out of Sight +3, Dodge +2.
+- Robust: Yikyik Trahll: A charismatic Katari covered in black fur, quick to laugh, and determined to see every Bramble Union village in Sablewood. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Get a concrete outcome tied to Bramble Union, Bramble Union Villages, The Wandering Briar, while keeping personal agency instead of becoming a delivery mechanism for lore. Being ignored at the moment their local knowledge matters, or having Bramble Union, Bramble Union Villages, The Wandering Briar used without care. Use this person to put a human face on the current pressure. Give them one concrete want before exposition. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Yikyik Trahll and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the...
+- Mechanics: Social / Information Mechanics Players can interact, comfort, persuade, or earn trust Yikyik Trahll when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A charismatic Katari covered in black fur, quick to laugh, and determined to see every Bramble Union village in Sablewood. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-yikyik-trahll-engage-yikyik-trahll entity-yikyik-trahll Engage Yikyik Trahll Engage Yikyik Trahll Presence Knowledge Instinct Presence Knowledge, Instinct 12 Choose the trait from the player's method, not the entity type. A flat read of Yikyik Trahll hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a...
+- Pronunciation: YIK-yik TRAHL
+- Short Pronunciation: YIK-yik TRAHL
+- Npc Profile: npc-profile-v1 NPC_System_Packet + image-informed hardening Yikyik Trahll A charismatic Katari covered in black fur, quick to laugh, and determined to see every Bramble Union village in Sablewood. A black-furred Katari wanderer smiles through travel dust, layered in blue beads, bronze charms, rope cords, and village tokens stitched into a patched cloak. Yikyik Trahll: A charismatic Katari covered in black fur, quick to laugh, and determined to see every Bramble Union village in Sablewood. Yikyik Trahll YIK-yik TRAHL A charismatic Katari covered in black fur, quick to laugh, and determined to see every Bramble Union village in Sablewood. Curious Bramble wanderer visiting every village Use as a role-first conversation handle, clue source, or pressure valve. Yikyik Trahll gives the table a visible person attached to Bramble Union, Bramble Union Villages, The Wandering Briar. Start with sensory detail, then let questions earn the name and motive. A question to ask A local perspective A grounded reason this place matters A charismatic Katari covered in black fur, quick to laugh, and determined to see every Bramble Union village in Sablewood.; at the table, give Yikyik Trahll one...
+- One Line: A charismatic Katari covered in black fur, quick to laugh, and determined to see every Bramble Union village in Sablewood.
+- Player Display Title: Yikyik Trahll
+- Player Display Caption: A charismatic Katari covered in black fur, quick to laugh, and determined to see every Bramble Union village in Sablewood.
+- Item Links: vial-of-briarpowder Vial of Briarpowder Bramble Union Loot Trade, gift, or harvested from the Briar.
+- Image: assets/npc-images/yikyik-trahll/portrait_base.webp
+- Image Asset Status: npc_images
+- Visual Gallery: primary Primary wiki image primary assets/npc-images/yikyik-trahll/portrait_base.webp Yikyik Trahll primary wiki image visual. Yikyik Trahll: Primary wiki image. npc_images True True npc-fullbody_base Full-body npc-portrait assets/npc-images/yikyik-trahll/fullbody_base.webp Yikyik Trahll full-body visual. Yikyik Trahll: Full-body. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/yikyik-trahll/fullbody_base.png npc-fullbody_chroma Full-body chroma source npc-portrait assets/npc-images/yikyik-trahll/fullbody_chroma.webp Yikyik Trahll full-body chroma source visual. Yikyik Trahll: Full-body chroma source. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/yikyik-trahll/fullbody_chroma.png npc-fullbody_transparent Full-body transparent cutout npc-portrait assets/npc-images/yikyik-trahll/fullbody_transparent.webp Yikyik Trahll full-body transparent cutout visual. Yikyik Trahll: Full-body transparent cutout. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/yikyik-trahll/fullbody_transparent.png npc-portrait_chroma Portrait chroma source npc-portrait...
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 51096829e28413a0 | Source hash dac3370046ed077140fab2d6

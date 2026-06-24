@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "halython-fives",
+  "kind": "entity",
+  "title": "Halython Fives",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "a soft-spoken clank playing a card-and-acorn game with a fox-bat nearby",
+  "hook": "a soft-spoken clank playing a card-and-acorn game with a fox-bat nearby",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "A round brass clank with huge glass eyes holds a tray of colored game stones inside a warm workshop of hanging lamps and tiny mechanical keepsakes."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "Patient to the point of disguise, hiding hard questions inside a children's game of cards and acorns. Oils the same shoulder twice when nervous. Wants, more than anything, to be a person made of parts rather than a tool that happened to learn tricks."
+    },
+    {
+      "label": "Might Offer",
+      "body": "A game A Bramble question A soft clue about how locals track pressure"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "A game",
+    "A Bramble question",
+    "A soft clue about how locals track pressure"
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:halython-fives",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "30edaaca841ea07d",
+  "generated_at": "2026-06-23T21:40:58"
+}

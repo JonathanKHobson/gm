@@ -1,0 +1,50 @@
+# The Umbrand Consortium
+
+GM export - entity:the-umbrand-consortium
+
+## Player-facing description
+A rumor about goods that arrive after official supply says they cannot.
+
+## Public role
+Necessity-smuggling rumor and future-campaign seed
+
+## Handout text
+The Umbrand Consortium: a future-thread rumor about necessities that arrive after official supply says no.
+
+## GM truth
+GM-only future seed: leave Umbrand unresolved unless Kyle opens the scarcity-market arc at the table.
+
+## GM handling
+Future thread only; at most a black-market rumor.
+
+## Mechanics
+- Title: Faction Pressure / Reputation Mechanics
+- Player Safe: Players can read public face, negotiate leverage, track reputation, or identify pressure The Umbrand Consortium when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: The Umbrand Consortium is the rumor of a crate that arrives after the market says survival is out of stock. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-the-umbrand-consortium-engage-the-umbrand-consortium entity-the-umbrand-consortium Engage The Umbrand Consortium Engage The Umbrand Consortium Presence Knowledge Instinct Presence Knowledge, Instinct 13 Choose the trait from the player's method, not the entity type. A flat read of The Umbrand Consortium hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Search Loot: The Umbrand Consortium: a future-thread rumor about necessities that arrive after official supply says no.
+
+## Profile
+- Schema Version: faction-profile-v1
+- Id: the-umbrand-consortium
+- Entity Id: the-umbrand-consortium
+- Source: Faction_System_Packet/factions/WIDER_LORE_FACTIONS.md
+- Priority: seed
+- Corporate: False
+- Atlas Lore Note: Atlas lore note: one-shot-safe expansion. Use as GM-only texture unless table play earns it.
+- Auto Surface: False
+- Prompt Key: goldwater
+- Player Safe: The Umbrand Consortium A rumor about goods that arrive after official supply says they cannot. If you needed it, it was never legal. The Umbrand Consortium is the rumor of a crate that arrives after the market says survival is out of stock. Umbrand stories smell like wet rope, unmarked wood, and favors nobody wants written down. They are not glamorous smugglers. They are the answer to a locked pantry, a restricted medicine shelf, and a village told to wait for authorized mercy. Someone mentions an unmarked crate that reached a house after the official supply route closed. Nobody says thank you loudly. Nobody asks who carried it.
+- Block1: The Umbrand Consortium Umbrand the necessity smugglers A rumor about goods that arrive after official supply says they cannot. GM-only seed: smuggle restricted necessities through markets that made need illegal. Future thread only; at most a black-market rumor. Unknown; do not turn rumor into a contact in this pass. Usefulness, but only in future play. pages/entities/the-umbrand-consortium.html the UM-brand kun-SOR-shee-um
+- Block2: Shadow market organization, not on the one-shot stage. Routes of necessity, rumor prices, and favors owed for forbidden help. Unknown in this module; keep them as a seed. Unknown; leave for Kyle confirmation. Not staged. A rumor can imply someone is moving what official markets restrict. Institutional beliefs: The First Necessity Smuggled as Contraband; Rare Goods, Worse Clients.
+- Block3: No confirmed allies in this one-shot. Zephra Exchange Goldspire Logistics scarcity restricted goods Unknown; do not answer in the one-shot.
+- Block4: If you needed it, it was never legal. Plain crates with the mark sanded off, practical cloth, cold coins, and no heraldry. Useful, expensive, and allergic to moral speeches. An unmarked crate with a black thumbprint. Seed only: low strings under a market bell.
+- Block5: Future-campaign texture around scarcity and black-market mercy. Shows what people build when official access is priced out of reach. Unresolved by design. GM-only future seed: leave Umbrand unresolved unless Kyle opens the scarcity-market arc at the table. surface A rumor. hint A necessity market in the gaps. earned seam Future-campaign truth only. Do not stage. Let it remain a rumor unless Kyle confirms the arc.
+- Writing Layer: The Umbrand Consortium is the rumor of a crate that arrives after the market says survival is out of stock. Umbrand stories smell like wet rope, unmarked wood, and favors nobody wants written down. They are not glamorous smugglers. They are the answer to a locked pantry, a restricted medicine shelf, and a village told to wait for authorized mercy. Someone mentions an unmarked crate that reached a house after the official supply route closed. Nobody says thank you loudly. Nobody asks who carried it. wet rope, unmarked crates, cold coins, rain-dark cloth, sanded-off brands, and quiet gratitude mercy that has to move like contraband practical fear with no romance in it rumored scarcity routes and restricted-goods markets future black-market mercy lanes, kept as rumor texture only Zephra-controlled access points as pressure, not confirmed contact No confirmed NPCs appear in this one-shot...
+- Entity Name: The Umbrand Consortium
+- Imagine It Like: Think the smugglers who move the medicine the law made illegal, a sympathetic black market, the bootleggers of necessity. (GM seed; do not stage without Kyle.)
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 05266776879bfcb2 | Source hash dac3370046ed077140fab2d6

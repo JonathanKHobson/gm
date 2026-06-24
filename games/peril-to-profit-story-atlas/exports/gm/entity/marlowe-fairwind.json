@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "marlowe-fairwind",
+  "title": "Marlowe Fairwind",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "8e97a5bcdee72dd0",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "You are Marlowe Fairwind, a Loreborne Elf Sorcerer with Primal Origin. You are part of the courier crew for this run and the default package custodian in the group. You receive the job with everyone else."
+    },
+    {
+      "title": "Public role",
+      "body": "Playable Loreborne Elf Sorcerer pregen and package custodian in the group"
+    },
+    {
+      "title": "Handout text",
+      "body": "Marlowe Fairwind is a playable Loreborne Elf Sorcerer pregen and the default package custodian. She receives the job with the rest of the party."
+    },
+    {
+      "title": "GM truth",
+      "body": "Marlowe stays a PC and package custodian unless Kyle chooses a replacement PC for package custody. If no one plays her, assign that custody function to a chosen replacement. Do not make Marlowe the sole job-giver; everyone receives the job together. Sabine is only an optional S00-01 backup contact."
+    },
+    {
+      "title": "GM handling",
+      "body": "Treat Marlowe as a player character and the default package custodian, not an NPC briefer. In S00-01, give the Marlowe player the per-character bonus insight and extra Arcana check."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 8e97a5bcdee72dd0 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

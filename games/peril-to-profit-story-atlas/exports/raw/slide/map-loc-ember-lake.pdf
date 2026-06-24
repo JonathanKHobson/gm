@@ -1,0 +1,322 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2531 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-ember-lake - Ember Lake Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(Ember Lake steams under cool canopy air, a hot spring mirror that suggests something) Tj
+T*
+(older is still working below Sablewood.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Ember Lake steams under cool canopy air, a hot spring mirror that suggests something) Tj
+T*
+(older is still working below Sablewood.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-ember-lake) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: STORY) Tj
+T*
+(- Sectiontitle: Map Board) Tj
+T*
+(- Title: Ember Lake Location Map) Tj
+T*
+(- Shorttitle: Ember Lake) Tj
+T*
+(- Order: 851.6) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-ember-lake-gm.png) Tj
+T*
+(- Alt: Ember Lake location map board.) Tj
+T*
+(- Caption: Visual reference for Ember Lake.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Make the hot spring beautiful, useful, and slightly troubling.) Tj
+T*
+(- Publicobjective: Ember Lake steams under cool canopy air, a hot spring mirror that) Tj
+T*
+(  suggests something older is still working below Sablewood.) Tj
+T*
+(- Readaloud: Ember Lake steams under cool canopy air, a hot spring mirror that) Tj
+T*
+(  suggests something older is still working below Sablewood.) Tj
+T*
+(- Playertakeaway: Ember Lake steams under cool canopy air, a hot spring mirror that) Tj
+T*
+(  suggests something older is still working below Sablewood.) Tj
+T*
+(- Storytakeaway: Ember Lake hints that Sablewood's wonder has industrial and divine) Tj
+T*
+(  layers.) Tj
+T*
+(- Mechanictakeaway: Use for future exploration or resource context only if) Tj
+T*
+(  spotlighted.) Tj
+T*
+(- Entityids: ember-lake) Tj
+T*
+(- Entities: ember-lake Ember Lake location Location assets/icons/location.png) Tj
+T*
+(  assets/location-visuals/ember-lake/profile_scene_v02.png EM-ber layk A hot spring) Tj
+T*
+(  lake that points toward buried divine industry and gives Sablewood a heat source) Tj
+T*
+(  older than any concession. Make the hot spring beautiful, useful, and slightly) Tj
+T*
+(  troubling. A hot spring lake that points toward buried divine industry and gives) Tj
+T*
+(  Sablewood a heat source older than any concession.; introduce it with a sensory) Tj
+T*
+(  palette, who feels safe there, and what has been neglected. Pull player attention) Tj
+T*
+(  toward the choices, clues, and relationships tied to Forgotten Gods, The Ash Quarry,) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4194 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Sablewood? Logistics Preserve. A hot spring lake that points toward buried divine) Tj
+T*
+(  industry and gives Sablewood a heat source older than any concession.) Tj
+T*
+(- Locationids: ember-lake) Tj
+T*
+(- Fearspends: The lake surface flashes with a ward symbol. Steam briefly smells like) Tj
+T*
+(  hot paperwork and old blood.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Mapdata: MAP-LOC-ember-lake environment Ember Lake Location Map ember-lake) Tj
+T*
+(  assets/location-visuals/ember-lake/profile_scene_v02.png Visual reference for Ember) Tj
+T*
+(  Lake. Ember Lake location map board. Ember Lake steams under cool canopy air, a hot) Tj
+T*
+(  spring mirror that suggests something older is still working below Sablewood. Ember) Tj
+T*
+(  Lake steams under cool canopy air, a hot spring mirror that suggests something older) Tj
+T*
+(  is still working below Sablewood. Make the hot spring beautiful, useful, and) Tj
+T*
+(  slightly troubling. Warm mist hangs above dark water. Orange light moves under the) Tj
+T*
+(  surface like banked coals. Stones near the edge are arranged for safe approach, not) Tj
+T*
+(  worship. Leaf-drip, insects, distant wingbeats, and animal calls that stop or resume) Tj
+T*
+(  according to pressure, not comfort. Sulfur, wet stone, mineral steam, and sweet lake) Tj
+T*
+(  reeds. Shore rocks are slick and warm; steam beads on skin like fever sweat. The) Tj
+T*
+(  forest is populated even when no NPC is present; silence, birds, insects, and tracks) Tj
+T*
+(  are actionable signals. Warm mist hangs above dark water. Orange light moves under) Tj
+T*
+(  the surface like banked coals. Stones near the edge are arranged for safe approach,) Tj
+T*
+(  not worship. The heat pulses in slow intervals...) Tj
+T*
+(- Livetools: scene MAP-LOC-ember-lake) Tj
+T*
+(- Takeawayhelp: Player takeaway: MAP-LOC-ember-lake Ember Lake steams under cool) Tj
+T*
+(  canopy air, a hot spring mirror that suggests something older is still working below) Tj
+T*
+(  Sablewood. Give the player one concrete way back into play: a question, a) Tj
+T*
+(  description, a choice, or a pass-and-return moment. "Your takeaway right now is) Tj
+T*
+(  this: Ember Lake steams under cool canopy air, a hot spring mirror that suggests) Tj
+T*
+(  something older is still working below Sablewood." "If you are not sure what to do) Tj
+T*
+(  next, you can ask a question, describe what your character notices, or tell me what) Tj
+T*
+(  your character tries." "If you are not sure what to do next, you can ask a question,) Tj
+T*
+(  describe what your character notices, or tell me what your character tries." Give) Tj
+T*
+(  the player one concrete way back into play: a question, a description, a choice, or) Tj
+T*
+(  a pass-and-return moment. Story takeaway: MAP-LOC-ember-lake Ember Lake hints that) Tj
+T*
+(  Sablewood's wonder has industrial and divine layers. Anchor the answer in the) Tj
+T*
+(  visible fiction on this slide: who is present, what can be observed, what has) Tj
+T*
+(  already been said, and what remains uncertain. "Here is what your characters know) Tj
+T*
+(  right now: Ember Lake hints that Sablewood's wonder has industrial and...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-ember-lake-player.png Ember Lake location map) Tj
+T*
+(  board. MAP-LOC-ember-lake environment Ember Lake assets/maps/MAP-LOC-ember-lake-) Tj
+T*
+(  player.png assets/maps/MAP-LOC-ember-lake-player.png Visual reference for Ember) Tj
+T*
+(  Lake. Ember Lake location map board. Ember Lake steams under cool canopy air, a hot) Tj
+T*
+(  spring mirror that suggests something older is still working below Sablewood. Ember) Tj
+T*
+(  Lake steams under cool canopy air, a hot spring mirror that suggests something older) Tj
+T*
+(  is still working below Sablewood. MAP-LOC-ember-lake-map-only Map only Ember Lake) Tj
+T*
+(  map-only assets/maps/MAP-LOC-ember-lake-player.png Ember Lake location map board.) Tj
+T*
+(  MAP-LOC-ember-lake environment Ember Lake assets/maps/MAP-LOC-ember-lake-player.png) Tj
+T*
+(  assets/maps/MAP-LOC-ember-lake-player.png Visual reference for Ember Lake. Ember) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2188 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Lake location map board. Ember Lake steams under cool canopy air, a hot spring) Tj
+T*
+(  mirror that suggests something older is still working below Sablewood. Ember Lake) Tj
+T*
+(  steams under cool canopy air, a hot spring mirror that suggests something older is) Tj
+T*
+(  still working below Sablewood. MAP-LOC-ember-lake-map-text Map + text Ember Lake) Tj
+T*
+(  Ember Lake steams under cool canopy air, a hot spring mirror that...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-ember-lake map Ember Lake assets/maps/MAP-LOC-ember-) Tj
+T*
+(  lake-player.png Ember Lake location map board. Visual reference for Ember Lake.) Tj
+T*
+(  spatial reference and location texture Ember Lake steams under cool canopy air, a) Tj
+T*
+(  hot spring mirror that suggests something older is still working below Sablewood.) Tj
+T*
+(  Ember Lake steams under cool canopy air, a hot spring mirror that suggests something) Tj
+T*
+(  older is still working below Sablewood. MAP-LOC-ember-lake environment Ember Lake) Tj
+T*
+(  assets/maps/MAP-LOC-ember-lake-player.png assets/maps/MAP-LOC-ember-lake-player.png) Tj
+T*
+(  Visual reference for Ember Lake. Ember Lake location map board. Ember Lake steams) Tj
+T*
+(  under cool canopy air, a hot spring mirror that suggests something older is still) Tj
+T*
+(  working below Sablewood. Ember Lake steams under cool canopy air, a hot spring) Tj
+T*
+(  mirror that suggests something older is still working below Sablewood.) Tj
+T*
+(  assets/maps/MAP-LOC-ember-lake-player.png Ember Lake location map board. MAP-LOC-) Tj
+T*
+(  ember-lake environment Ember Lake assets/maps/MAP-LOC-ember-lake-player.png) Tj
+T*
+(  assets/maps/MAP-LOC-ember-lake-player.png Visual reference for Ember Lake. Ember) Tj
+T*
+(  Lake location map board. Ember Lake steams under cool canopy air, a hot spring) Tj
+T*
+(  mirror that...) Tj
+T*
+(- Slidenumber: 97) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 3c169557f8b0ffef | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002592 00000 n 
+0000002718 00000 n 
+0000006964 00000 n 
+0000007090 00000 n 
+0000009330 00000 n 
+0000009456 00000 n 
+0000009525 00000 n 
+0000009574 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+9646
+%%EOF

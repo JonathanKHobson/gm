@@ -1,0 +1,59 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "kazrak-industries",
+  "title": "Kazrak Industries",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "580b9c54d4411ceb",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Kazrak Industries: Kazrak Industries™ sells adventure itself: certifications, hero ratings, and the chance to die famous. Slogan: Kazrak™: where legends are made!"
+    },
+    {
+      "title": "Public role",
+      "body": "Peer megacorp whose monster-generating spectacle economy helps create frontier danger"
+    },
+    {
+      "title": "Handout text",
+      "body": "Kazrak Industries: Kazrak Industries™ sells adventure itself: certifications, hero ratings, and the chance to die famous. Slogan: Kazrak™: where legends are made!"
+    },
+    {
+      "title": "GM truth",
+      "body": "Deepest layer, GM-only: Board ownership/collusion sits behind this brand. Surface only as hints and patterns."
+    },
+    {
+      "title": "GM handling",
+      "body": "Legacy Skeletons and old labyrinth contracts make Act 5's fight about people, not monster clutter."
+    },
+    {
+      "title": "Profile",
+      "items": [
+        "Schema Version: faction-profile-v1",
+        "Id: kazrak-industries",
+        "Entity Id: kazrak-industries",
+        "Source: Faction_System_Packet/factions/Corps_Touching_The_Oneshot.md",
+        "Priority: strong",
+        "Corporate: True",
+        "Auto Surface: True",
+        "Prompt Key: undead",
+        "Player Safe: Kazrak Industries Adventure, certification, glory, and dungeon work pitched like a chance to become legendary. Kazrak™: where legends are made! Kazrak Industries™ sells adventure itself: certifications, hero ratings, and the chance to die famous. Kazrak™ recruiting tents are pure hype: banners of grinning certified heroes, a barker bellowing about Glory Tier™ benefits, a try-before-you-die Sample Dungeon™ rated 'Tier 0, mostly survivable!' You can buy a Legend License™, a Hazard Heritage™ commemorative coin, and an upgrade to Premium Casualty Coverage™ that pays your next of kin in Kazrak store credit. The recruiter shakes your hand with both of his and calls you 'future legend' so many times it starts to sound like a verdict. The fine print rates your life by Content Value™: the more dangerously you die, the more your story is worth, to them. A Kazrak poster shows a smiling hero...",
+        "Block1: Kazrak Industries Kazrak Industries Kazrak Adventure, certification, glory, and dungeon work pitched like a chance to become legendary. Runs danger, certification, ratings, and debt funnels so casualties become useful content. Legacy Skeletons and old labyrinth contracts make Act 5's fight about people, not monster clutter. Treats the party as raw legend-material: wildly encouraging, allergic to the word 'unsafe,' and already drafting their heroic obituary copy. Evidence, embarrassment, liability, or a public contradiction moves them more than moral appeal. pages/entities/kazrak-industries.html KAZ-rak industries",
+        "Block2: The territory's loudest brand of opportunity, a name on every dungeon permit and every hazard-rated grave. Adventure, certification, glory, and dungeon work pitched like a chance to become legendary. Repackage ordinary danger as opportunity, certify it, rate it, franchise it, and funnel the certification fees and the casualties into the same ledger. True believers and tired workers keep the public promise alive while managers monetize the gap between promise and harm. Repackaging old Sablewood and Lumbax-era hazards as heritage risk, certification history, and franchise value. Institutional beliefs: The Discovery That Should Have Been a Warning; The First Ratings Spike After a Casualty; Adventurer Certification as Debt Funnel.",
+        "Block3: Soulspire Solutions RuneSpark Entertainment Mithril & Mortar Other brands in staged public competition Goldspire Logistics paperwork public trust contract language Legacy Skeletons Glory-hungry newcomers, indebted workers chasing a payout, and anyone who would rather be a legend than be careful.",
+        "Block4: Kazrak™: where legends are made! Tournament banners, brass hero-medallions, leaderboard chalkboards, fireworks, and a mascot adventurer flexing in laminated certification. You? Future legend. I can SEE it. Sign here, future legend! Tier Three glory for a Tier One fee, this WEEK only! Every hero needs a sponsor. Every sponsor needs a hero who signs the waiver. Use the generated logo as the profile mark; use the representative image to show the public promise and private cost as a living place. Seed only for a future theme pass; do not generate music in this implementation.",
+        "Block5: Legacy Skeletons and old labyrinth contracts make Act 5's fight about people, not monster clutter. Daily life depends on the public promise and is harmed by the private business model. The deeper truth is never player-facing on first contact: the public service also sustains the danger that makes the service profitable. Deepest layer, GM-only: Board ownership/collusion sits behind this brand. Surface only as hints and patterns. surface Kazrak Industries looks like its public promise: Adventure, certification, glory, and dungeon work pitched like a chance to become legendary. hint The promise has a crack: a failed product, a frightened worker, a predatory clause, or a story that does not match what the party saw. earned seam The crack points upward into coordinated market theater. Let players infer before any GM confirmation. Knowledge 12 reads the brand paperwork or seal history...",
+        "Writing Layer: Kazrak Industries™ sells adventure itself: certifications, hero ratings, and the chance to die famous. Kazrak™ recruiting tents are pure hype: banners of grinning certified heroes, a barker bellowing about Glory Tier™ benefits, a try-before-you-die Sample Dungeon™ rated 'Tier 0, mostly survivable!' You can buy a Legend License™, a Hazard Heritage™ commemorative coin, and an upgrade to Premium Casualty Coverage™ that pays your next of kin in Kazrak store credit. The recruiter shakes your hand with both of his and calls you 'future legend' so many times it starts to sound like a verdict. The fine print rates your life by Content Value™: the more dangerously you die, the more your story is worth, to them. A Kazrak poster shows a smiling hero standing on a pile of treasure no worker could lift alone. The paint is flaking at the edges, but the grin remains perfect. Tournament banners, brass...",
+        "Entity Name: Kazrak Industries",
+        "Imagine It Like: Think Mr. Torgue from Borderlands selling extreme-sports waivers, a CrossFit gym run by a dungeon, a live-service game that monetizes heroism. Glory as a subscription with a body count."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 580b9c54d4411ceb | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

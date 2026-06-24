@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "sablewood-hybrid-fauna",
+  "kind": "entity",
+  "title": "Sablewood Hybrid Fauna",
+  "in_world_label": "Field Guide Page",
+  "brand_flag": "Player-safe",
+  "kicker": "Creature / Animal",
+  "hook": "Player-safe note: Sablewood fauna mix familiar animal shapes into unfamiliar pressures: Cat-Squirrels, Giraffe-Deer, Lemur-Toads, Fox-Bats, Horse-Goats, Bullfrogs, Strixwolves, Eeligators, and stranger deep-wood hybrids.",
+  "blocks": [
+    {
+      "label": "Observed Form",
+      "body": "Give one concrete visual, one sound or texture, and one sign of who has used or neglected it."
+    },
+    {
+      "label": "Behavior",
+      "body": "Sablewood fauna mix familiar animal shapes into unfamiliar pressures: Cat-Squirrels, Giraffe-Deer, Lemur-Toads, Fox-Bats, Horse-Goats, Bullfrogs, Strixwolves, Eeligators, and stranger deep-wood hybrids.; show instinct first through..."
+    },
+    {
+      "label": "Warning Signs",
+      "body": "Being surrounded, misread as a monster, or driven toward Sablewood™ Logistics Preserve, Cat-Squirrels, Giraffe-Deer by noise and haste."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Give it distance before deciding it is hostile.",
+    "Read posture, tracks, and what it is protecting."
+  ],
+  "archetype": "creature.field_guide",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:sablewood-hybrid-fauna",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "bab919c1f8345212",
+  "generated_at": "2026-06-23T21:40:58"
+}

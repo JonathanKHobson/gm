@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "artemis-inc",
+  "kind": "entity",
+  "title": "Artemis Inc",
+  "in_world_label": "Public Notice",
+  "brand_flag": "Artemis™: the wild belongs to those who can afford it.",
+  "kicker": "Premium guides, survival gear, trophy permits, and official trails for those who can afford the wild.",
+  "hook": "Artemis Inc: Artemis Inc™ makes the wild terrifying, the locals unreliable, and confidence available exclusively for purchase. Slogan: Artemis™: the wild belongs to those who can afford it.",
+  "blocks": [
+    {
+      "label": "Public Face",
+      "body": "Premium guides, survival gear, trophy permits, and official trails for those who can afford the wild."
+    },
+    {
+      "label": "Slogan",
+      "body": "Artemis™: the wild belongs to those who can afford it."
+    },
+    {
+      "label": "How To Deal",
+      "body": "The Artemis™ outfitter is aspirational: lacquered trophy heads, a wall of Apex-Rated™ gear, a tanned guide who says 'the wild does not forgive' like a price quote. Buy a Premium Trail Pass™, a Guaranteed Glimpse™ wildlife tour, a Trophy Permit™ that makes..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask what they publicly promise.",
+    "Compare their slogan to what they actually do in the scene."
+  ],
+  "archetype": "faction.flyer",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:artemis-inc",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "f083c8b04bcf87d8",
+  "generated_at": "2026-06-23T21:40:58"
+}

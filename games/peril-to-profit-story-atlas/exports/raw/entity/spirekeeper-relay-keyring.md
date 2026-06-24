@@ -1,0 +1,47 @@
+# Spirekeeper Relay Keyring
+
+RAW export - entity:spirekeeper-relay-keyring
+
+## Player-facing description
+A heavy ring of mismatched brass keys and blue-glass tags chimes with a sound like distant bells heard through rain.
+
+## Public role
+Spirekeeper Relay Keyring: a keeper's access bundle for old maintenance doors, signal plates, and relay cabinets.
+
+## Handout text
+GOLDSPIRE ACCESS NOTICE: Unauthorized keys are not keys. They are future explanations you owe us.
+
+## Raw source
+- Id: spirekeeper-relay-keyring
+- Name: Spirekeeper Relay Keyring
+- Type: item
+- Summary: A heavy ring of mismatched brass keys and blue-glass tags chimes with a sound like distant bells heard through rain.
+- Role: Spirekeeper Relay Keyring: a keeper's access bundle for old maintenance doors, signal plates, and relay cabinets.
+- Connections: Spirekeeper The Relay Keeper Relay Spire The Goldspire Relay
+- Aliases: relay keyring signal keys Spirekeeper Relay Keyring
+- Pronunciation: SPYR-kee-per RAY-lay KEE-ring
+- Short Pronunciation: SPYR-kee-per RAY-lay KEE-ring
+- Tags: item-profile loot prop utility
+- Item Profile: item-profile-v1 spirekeeper-relay-keyring spirekeeper-relay-keyring Spirekeeper Relay Keyring Spirekeeper Relay Keyring relay keyring signal keys SPYR-kee-per RAY-lay KEE-ring utility Tier 1 P2 PROP Relay keepers competing True True [Atlas lore - confirm or override] Spirekeeper Relay Keyring A heavy ring of mismatched brass keys and blue-glass tags chimes with a sound like distant bells heard through rain. A heavy ring of mismatched brass keys and blue-glass tags chimes with a sound like distant bells heard through rain. Relay keepers GOLDSPIRE ACCESS NOTICE: Unauthorized keys are not keys. They are future explanations you owe us. spirekeeper-relay-keyring Spirekeeper Relay Keyring relay keyring signal keys SPYR-kee-per RAY-lay KEE-ring utility Tier 1 A heavy ring of mismatched brass keys and blue-glass tags chimes with a sound like distant bells heard through rain. Spirekeeper Relay Keyring: a keeper's access bundle for old maintenance doors, signal plates, and relay cabinets. A noncombat access tool tied to relay maintenance. A quiet key to sequel-space without turning the epilogue into a new fight. pages/entities/spirekeeper-relay-keyring.html Relay keepers competing...
+- Robust: A heavy ring of mismatched brass keys and blue-glass tags chimes with a sound like distant bells heard through rain. Use this element to reveal the cost of managed protection through concrete play. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Pull attention toward the people, stakes, or infrastructure connected to this entity. Pressure appears when players treat this as disposable, purely transactional, or unrelated to ordinary lives. Use when players need a tangible handle on the scene's pressure. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Spirekeeper Relay Keyring and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the institutional pattern. Wildborne / community: notices local use, neglect, or ecological stress...
+- Search Or Loot: Spirekeeper Relay Keyring: a keeper's access bundle for old maintenance doors, signal plates, and relay cabinets. Provenance: Gift, inheritance, or GM-only epilogue hook.
+- Equipment: Kind: utility Maker: Relay keepers Loot group: Relay Keeper Effects
+- Image Prompt: Private table TTRPG story atlas asset for Spirekeeper Relay Keyring, Item / Asset. Role: Spirekeeper Relay Keyring: a keeper's access bundle for old maintenance doors, signal plates, and relay cabinets.. Summary: A heavy ring of mismatched brass keys and blue-glass tags chimes with a sound like distant bells heard through rain.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: Give one concrete visual, one sound or texture, and one sign of who has used or neglected it.
+- Wants: Pull attention toward the people, stakes, or infrastructure connected to this entity.
+- Fears: Pressure appears when players treat this as disposable, purely transactional, or unrelated to ordinary lives.
+- Secrets: Use this element to reveal the cost of managed protection through concrete play.
+- Body Language: Give one concrete visual, one sound or texture, and one sign of who has used or neglected it.
+- Sample Dialogue: A heavy ring of mismatched brass keys and blue-glass tags chimes with a sound like distant bells heard through rain.
+- Gm Use: Use when players need a tangible handle on the scene's pressure.
+- Future Hooks: Bring back if player choices made this entity emotionally or tactically important.
+- Mechanics: Discovery / Earn-It Mechanics Players can inspect, handle, keep, trade, reveal, or earn Spirekeeper Relay Keyring when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A heavy ring of mismatched brass keys and blue-glass tags chimes with a sound like distant bells heard through rain. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-spirekeeper-relay-keyring-engage-spirekeeper-relay-keyring entity-spirekeeper-relay-keyring Engage Spirekeeper Relay Keyring Engage Spirekeeper Relay Keyring Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Spirekeeper Relay Keyring hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or...
+- Meta: Item / Asset ITEM assets/icons/item.png entity-item #39c5bb 07 Items and Clues entities item
+- Appears In: S06-02
+- Related: Relay Spire S06-02 Spirekeeper The Goldspire Relay The Relay Keeper
+- Image: assets/item-images/spirekeeper-relay-keyring/profile_base.webp
+- Image Asset Status: item_visual_profile
+- Visual Gallery: primary Primary wiki image primary assets/item-images/spirekeeper-relay-keyring/profile_base.webp Spirekeeper Relay Keyring primary wiki image visual. Spirekeeper Relay Keyring: Primary wiki image. item_visual_profile True True
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash da7d8e05a70aef4e | Source hash dac3370046ed077140fab2d6

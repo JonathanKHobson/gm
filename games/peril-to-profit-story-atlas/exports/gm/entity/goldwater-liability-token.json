@@ -1,0 +1,79 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "goldwater-liability-token",
+  "title": "Goldwater Liability Token™",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "d55dfe56e4646ec5",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "A heavy brass chit with a smiling coin-face drops into your palm like a tiny verdict. The fine print is too small to read without feeling blamed."
+    },
+    {
+      "title": "Public role",
+      "body": "Goldwater Liability Token™: a pay-it-forward settlement chit that turns a mishap into a debt record."
+    },
+    {
+      "title": "Handout text",
+      "body": "GOLDWATER PAY-IT-FORWARD: A Fee That Sounds Kinder Than It Feels. Congratulations On Your Liability. Terms Accrue While You Read This."
+    },
+    {
+      "title": "GM truth",
+      "body": "Use this element to reveal the cost of managed protection through concrete play."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use when players need a tangible handle on the scene's pressure."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Discovery / Earn-It Mechanics",
+        "Player Safe: Players can inspect, handle, keep, trade, reveal, or earn Goldwater Liability Token™ when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: A heavy brass chit with a smiling coin-face drops into your palm like a tiny verdict. The fine print is too small to read without feeling blamed. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-goldwater-liability-token-engage-goldwater-liability-token™ entity-goldwater-liability-token Engage Goldwater Liability Token™ Engage Goldwater Liability Token™ Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Goldwater Liability Token™ hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Condition Options: No official condition unless the item or clue physically creates Hidden, Restrained, or Vulnerable",
+        "Search Loot: Goldwater Liability Token™: a pay-it-forward settlement chit that turns a mishap into a debt record. Provenance: Toll crew paperwork, failed service response, or bureaucratic fallout."
+      ]
+    },
+    {
+      "title": "Profile",
+      "items": [
+        "Schema Version: item-profile-v1",
+        "Id: goldwater-liability-token",
+        "Item Id: goldwater-liability-token",
+        "Item Name: Goldwater Liability Token™",
+        "Name: Goldwater Liability Token™",
+        "Aliases: Goldwater Liability Token liability chit Goldwater token",
+        "Pronunciation: GOHLD-waw-ter ly-uh-BIL-ih-tee TOH-ken",
+        "Item Kind: document",
+        "Tier: Tier 1",
+        "Priority: P2",
+        "Mode: AD",
+        "Maker: Goldwater Financial",
+        "Made Or Wild: corporate-made",
+        "Auto Surface: True",
+        "Discovered From Art: False",
+        "Player Safe: Goldwater Liability Token™ A heavy brass chit with a smiling coin-face drops into your palm like a tiny verdict. The fine print is too small to read without feeling blamed. A heavy brass chit with a smiling coin-face drops into your palm like a tiny verdict. The fine print is too small to read without feeling blamed. Goldwater Financial GOLDWATER PAY-IT-FORWARD: A Fee That Sounds Kinder Than It Feels. Congratulations On Your Liability. Terms Accrue While You Read This.",
+        "Block0: goldwater-liability-token Goldwater Liability Token™ Goldwater Liability Token liability chit Goldwater token GOHLD-waw-ter ly-uh-BIL-ih-tee TOH-ken document Tier 1",
+        "Block1: A heavy brass chit with a smiling coin-face drops into your palm like a tiny verdict. The fine print is too small to read without feeling blamed. Goldwater Liability Token™: a pay-it-forward settlement chit that turns a mishap into a debt record. A narrative debt hook wearing a friendly coin face. It is funny until somebody realizes the fees accrue while they read. pages/entities/goldwater-liability-token.html",
+        "Block2: Goldwater Financial corporate-made GOLDWATER PAY-IT-FORWARD: A Fee That Sounds Kinder Than It Feels. Congratulations On Your Liability. Terms Accrue While You Read This. It protects the company by formalizing the customer's debt. The apology has interest.",
+        "Block3: Narrative debt hook; social leverage or future trouble if accepted. item #adaptation Discovery grammar: this is evidence, not treasure. It grants information, leverage, or access when earned through roleplay or a trait roll. Narrative debt hook; social leverage or future trouble if accepted. The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned. Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does. Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction. If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus. Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling. DC 12-15 to identify...",
+        "Block4: Inspector Pelt The Titan's Steps Emeris Capital Gate Route Sundries Toll crew paperwork, failed service response, or bureaucratic fallout. MAP-LOC-the-titan-s-steps S01-02",
+        "Block5: Layer 1 - look A smiling brass token with tiny print. Layer 2 - hint It congratulates the holder on liability. Layer 3 - truth It records debt rather than compensation. Read the print. Ask a clerk what happens if you keep it. Use it in a negotiation with a toll crew. Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll.",
+        "Block6: A heavy brass chit stamped with a smiling coin-face, microscopic fine print, Goldwater branding, cheerful fee stickers. item wiki card and earned side-card visual Use the Run Mode item card's Show image button when the table sees or earns this item. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/goldwater-liability-token/profile_base.png assets/item-images/goldwater-liability-token/profile_base.webp Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark.",
+        "Visual Assets: profile_base Item profile image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/goldwater-liability-token/profile_base.png assets/item-images/goldwater-liability-token/profile_base.webp ready Goldwater Liability Token™ item illustration. A heavy brass chit with a smiling coin-face drops into your palm like a tiny verdict. The fine print is too small to read without feeling blamed."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash d55dfe56e4646ec5 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

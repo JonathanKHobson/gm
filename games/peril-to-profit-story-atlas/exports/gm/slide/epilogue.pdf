@@ -1,0 +1,120 @@
+%PDF-1.4
+1 0 obj
+<< /Length 1737 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(EPILOGUE - Epilogue: Beyond the Contract) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The screeching is gone. The clearing is quiet, the open sky calm. Somewhere west, a city) Tj
+T*
+(you may never see is waking up safe because of what you did tonight. The Custodian is) Tj
+T*
+(already shuffling you back toward warmth and food and a fire that does not want anything) Tj
+T*
+(from you. For the first time since the road, there is nothing chasing you. You won. Sit) Tj
+T*
+(with that a while.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Rest, reckon with what you did, and decide what you carry forward.) Tj
+T*
+() Tj
+T*
+(GM goal) Tj
+T*
+() Tj
+T*
+(Land the plane: reward the heroes, let the table breathe, then leave one official door) Tj
+T*
+(and one optional hidden door open.) Tj
+T*
+() Tj
+T*
+(GM notes) Tj
+T*
+() Tj
+T*
+(- Conclusion-only section: no combat, no countdown, no new active crisis.) Tj
+T*
+(- Use epilogue_tone to tune warmth, grief, or relief without changing the reward-first) Tj
+T*
+(  order.) Tj
+T*
+() Tj
+T*
+(GM script) Tj
+T*
+() Tj
+T*
+(Say: "No more fighting. This is the breath after. You earned it. We are going to level) Tj
+T*
+(up, collect rewards, say goodbyes, and decide which doors stay open.") Tj
+T*
+() Tj
+T*
+(State controls) Tj
+T*
+() Tj
+T*
+(- epilogue_tone Epilogue Tone select triumphant bittersweet pyrrhic tragic) Tj
+T*
+(- hidden_hook_discovered Hidden Hook Discovered checkbox) Tj
+T*
+(- sequel_direction Sequel Direction select relay hidden both undecided) Tj
+T*
+(- rewards_granted Rewards Granted checkbox) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 360646d5c6162eae | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [2 0 R] /Count 1 >>
+endobj
+4 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000001798 00000 n 
+0000001924 00000 n 
+0000001981 00000 n 
+0000002030 00000 n 
+trailer
+<< /Size 6 /Root 4 0 R >>
+startxref
+2102
+%%EOF

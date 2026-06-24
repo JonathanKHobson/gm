@@ -1,0 +1,599 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2821 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S04-03 - The Whitefire Custodian) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The home lowers, and from it steps a being seven feet tall: part humanoid, part firefly,) Tj
+T*
+(moving in slow drifts broken by sudden jerky motions. Her face is hard to read, but her) Tj
+T*
+(voice carries every feeling plainly. She eyes your group with open mischief. "Are you) Tj
+T*
+(the group Emeris sent from the capital? Oh my. You are rather late, are you not? Come) Tj
+T*
+(in, come in." Inside, the treehouse opens far larger than it should, packed with potion) Tj
+T*
+(bottles, spellbooks, runes, plants, and small creatures. None of it is messy. You get) Tj
+T*
+(the sense that if you moved a single item an inch, she would know.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Win the Custodian's confidence and hand over the package.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: S04-03) Tj
+T*
+(- Type: scene) Tj
+T*
+(- Sectionid: ACT-FOUR) Tj
+T*
+(- Sectiontitle: Act Four: The Hanging Office) Tj
+T*
+(- Title: The Whitefire Custodian) Tj
+T*
+(- Shorttitle: The Custodian) Tj
+T*
+(- Order: 503) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: True) Tj
+T*
+(- Image: assets/scenes/S04-03-the-whitefire-custodian.png) Tj
+T*
+(- Alt: The Whitefire Custodian scene art for The Hanging Office.) Tj
+T*
+(- Caption: The Whitefire Custodian is a person, not the adventure's magical help desk.) Tj
+T*
+(- Mood: The Hanging Office) Tj
+T*
+(- Gmgoal: Deliver the Custodian as the RP heart of Act 4 and let the party earn her) Tj
+T*
+(  trust before the reveal.) Tj
+T*
+(- Publicobjective: Win the Custodian's confidence and hand over the package.) Tj
+T*
+(- Readaloud: The home lowers, and from it steps a being seven feet tall: part) Tj
+T*
+(  humanoid, part firefly, moving in slow drifts broken by sudden jerky motions. Her) Tj
+T*
+(  face is hard to read, but her voice carries every feeling plainly. She eyes your) Tj
+T*
+(  group with open mischief. "Are you the group Emeris sent from the capital? Oh my.) Tj
+T*
+(  You are rather late, are you not? Come in, come in." Inside, the treehouse opens far) Tj
+T*
+(  larger than it should, packed with potion bottles, spellbooks, runes, plants, and) Tj
+T*
+(  small creatures. None of it is messy. You get the sense that if you moved a single) Tj
+T*
+(  item an inch, she would know.) Tj
+T*
+(- Gmnotes: This scene is pure RP with stakes. Dice are optional; trust is not) Tj
+T*
+(  optional. Per-character hooks belong in perCharacterLayer, not in these notes.) Tj
+T*
+(- Gmscript: Say: "She is warm, weird, ancient, and deciding right now who you are. She) Tj
+T*
+(  rewards honesty and curiosity. Meet her strangeness with warmth and she will meet) Tj
+T*
+(  yours.") Tj
+T*
+(- Gmreadaloud: A seven-foot being steps from the hanging home: part humanoid, part) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4191 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  firefly. Her face is hard to read, but her voice carries every feeling plainly.) Tj
+T*
+(  Inside, the treehouse opens far larger than it should.) Tj
+T*
+(- Gmchecklist: Describe before naming: seven-foot firefly-faerie first, Whitefire) Tj
+T*
+(  Custodian after she names herself. Ask about the journey, who sent them, and how) Tj
+T*
+(  they imagine they might die. Read hush_trust, bramble_truth_learned,) Tj
+T*
+(  strixwolf_blood_debt, and custodian_route. Set custodian_trust from warmth, honesty,) Tj
+T*
+(  restraint, and answers. Do not reveal the package truth until S04-04.) Tj
+T*
+(- Gmprivate: Her knowledge stance is a Kyle canon flag. Play her as warm and guarded;) Tj
+T*
+(  do not resolve whether she fully knows the ward cost. If strixwolf_blood_debt is) Tj
+T*
+(  true, she can gently name that the forest has been watching the party with teeth.) Tj
+T*
+(- Playertakeaway: Be genuine with her and she becomes your greatest ally; be cold and) Tj
+T*
+(  she gives only what she must.) Tj
+T*
+(- Storytakeaway: The person the job served is strange, ancient, warm, and bound to the) Tj
+T*
+(  safety everyone has been circling.) Tj
+T*
+(- Mechanictakeaway: custodian_trust is the mechanic: warmth, honest answers,) Tj
+T*
+(  restraint, and curiosity decide how much candor and help she gives.) Tj
+T*
+(- Rollcards: s04-03-win-the-custodian's-trust S04-03 Win the Custodian's trust Win the) Tj
+T*
+(  Custodian's trust Presence Knowledge Presence Knowledge 12 Presence treats her as a) Tj
+T*
+(  person; Knowledge respects her craft. She becomes a service provider instead of an) Tj
+T*
+(  ally. Critical Success: best possible version of the action; gain Hope and clear 1) Tj
+T*
+(  Stress. Add an extra benefit that follows from the fiction. Success with Hope: the) Tj
+T*
+(  PC gets what they wanted and gains Hope. Keep the position clean or generous.) Tj
+T*
+(  Success with Fear: the PC gets what they wanted, but the GM gains Fear and) Tj
+T*
+(  introduces a cost, complication, or pressure. Failure with Hope: the PC does not get) Tj
+T*
+(  the full result, but gains Hope and receives a useful thread, clue, or safer next) Tj
+T*
+(  option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that) Tj
+T*
+(  follows from the fiction. She becomes a service provider instead of an ally. Use a) Tj
+T*
+(  hard complication, lost time, worse position, GM Fear, or mark Stress. Apply an) Tj
+T*
+(  official condition only if the fiction and rules justify it. The attempt falls) Tj
+T*
+(  short, but a partial thread appears. Offer one clue, weak position, or safer follow-) Tj
+T*
+(  up. The PC gets the core result, but it costs time, noise...) Tj
+T*
+(- Entityids: whitefire-custodian the-hanging-office inspection-sealed-counterweight) Tj
+T*
+(  soulspire-solutions keystone-asset fear) Tj
+T*
+(- Entities: whitefire-custodian Whitefire Custodian npc NPC / Ally) Tj
+T*
+(  assets/icons/npc.png assets/npc-images/whitefire-custodian/portrait_base.png WHITE-) Tj
+T*
+(  fire kus-TOH-dee-un Old faerie-like custodian who maintains the ward protecting) Tj
+T*
+(  Hush. Truth-bearer for the Keystone reveal. Whitefire Custodian an old faerie-like) Tj
+T*
+(  ward keeper whose exhaustion glows around the edges Ancient kindness running on) Tj
+T*
+(  fumes, glowing a little brighter whenever someone tells the truth nearby. Wants to) Tj
+T*
+(  keep one place honestly safe long enough for people to remember that safety can be) Tj
+T*
+(  care instead of a product, and is quietly breaking under the cost of it. Renew the) Tj
+T*
+(  ward without being treated as a device. Please do not call me the ward interface. an) Tj
+T*
+(  old faerie-like ward keeper whose exhaustion glows around the edges npc-profile-v1) Tj
+T*
+(  NPC_System_Packet + image-informed hardening Whitefire Custodian an old faerie-like) Tj
+T*
+(  ward keeper whose exhaustion glows around the edges A tall luminous faerie custodian) Tj
+T*
+(  stands like living bark and white fire, branchlike crown, translucent wings, and) Tj
+T*
+(  warm gold light gathered in the chest. Whitefire Custodian: an old faerie-like ward) Tj
+T*
+(  keeper whose exhaustion glows around the edges Whitefire...) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3798 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Locationids: the-hanging-office) Tj
+T*
+(- Itemids: whitefire-ward-charm) Tj
+T*
+(- Clueids: the-pre-dated-invoice the-convenient-renewal the-ward-subscription the-) Tj
+T*
+(  cheerful-ledger the-tired-smile) Tj
+T*
+(- Statecontrols: custodian_trust Custodian Trust select low neutral high hush_trust) Tj
+T*
+(  Hush Trust select low neutral high bramble_outcome Bramble Outcome select unresolved) Tj
+T*
+(  killed captured spared negotiated escaped let_cargo bramble_truth_learned Bramble) Tj
+T*
+(  Truth Learned checkbox strixwolf_disposition Strixwolf Disposition select unresolved) Tj
+T*
+(  calm hostile killed strixwolf_outcome Strixwolf Outcome select unresolved calmed) Tj
+T*
+(  helped avoided attacked killed strixwolf_trust Strixwolf Trust number 3) Tj
+T*
+(  strixwolf_blood_debt Strixwolf Blood Debt checkbox package_status Package Status) Tj
+T*
+(  select held lost) Tj
+T*
+(- Mechanicids: presence knowledge experiences npc-community-trust-track instinct hope) Tj
+T*
+(  fear table-spotlight) Tj
+T*
+(- Playerquestions: How honestly do you answer someone this strange? What do you ask) Tj
+T*
+(  her before handing over the package? How does your character imagine they might die) Tj
+T*
+(  one day?) Tj
+T*
+(- Relationshipprompts: Which PC quietly checks on someone else here? Who disagrees) Tj
+T*
+(  about the right thing to do without breaking trust?) Tj
+T*
+(- Ownershipprompt: Name one detail in The Whitefire Custodian that belongs to your) Tj
+T*
+(  character's point of view.) Tj
+T*
+(- Fearspends: Spend Fear to expose neglected infrastructure, stress the Custodian, or) Tj
+T*
+(  make the Keystone hum at the wrong moment. Make neglected infrastructure answer at) Tj
+T*
+(  the wrong moment. Stress the Custodian's trust without turning her into a device.) Tj
+T*
+(- Choicesconsequences: Meet her warmly and honestly She becomes playful and candid) Tj
+T*
+(  faster. Raise or keep custodian_trust high. S04-04 reveal includes more context and) Tj
+T*
+(  Act 5 aid is stronger. custodian_trust high benefit player-visible Treat her as a) Tj
+T*
+(  transaction She remains polite but exacting. Keep custodian_trust neutral or low.) Tj
+T*
+(  S04-04 is more formal and Act 5 support is limited. custodian_trust neutral/low) Tj
+T*
+(  penalty player-visible Answer the death-question thoughtfully She listens with real) Tj
+T*
+(  emotion in her voice. Presence can reinforce trust; no roll needed for a strong) Tj
+T*
+(  answer. Her aid during the ritual becomes easier to justify. custodian_trust +) Tj
+T*
+(  benefit player-visible Lie, steal, or mock her space She notices immediately and the) Tj
+T*
+(  warmth sharpens. Lower custodian_trust. S04-04 truth is colder and less expansive.) Tj
+T*
+(  custodian_trust low penalty GM-visible and player-visible) Tj
+T*
+(- Lootclues: Tea, if accepted Maintenance note Permission to understand the Keystone) Tj
+T*
+(  Whitefire Custodian's Ward-Charm: A small hand-carved wooden ratcoon mid-scamper has) Tj
+T*
+(  been thumb-worn smooth for luck. It is warm, and the forest feels a little kinder) Tj
+T*
+(  while you hold it.) Tj
+T*
+(- Handoutids: Custodian fatigue Earned seed) Tj
+T*
+(- Sourcesceneslug: S04-03-the-whitefire-custodian) Tj
+T*
+(- Sourcefiles: dist/Act4_Upgrade_Packet/ACT4_SCENE_RESEARCH.md) Tj
+T*
+(  dist/Act4_Upgrade_Packet/ACT4_PER_CHARACTER.md) Tj
+T*
+(- References: Hanging Office map #MAP-LOC-the-hanging-office Keystone Reveal #S04-04) Tj
+T*
+(- Storyscope: Perceived antagonist: the forest. True antagonist: the corporate lie) Tj
+T*
+(  about the forest. The players never confront it directly. They are meant to feel it) Tj
+T*
+(  by the end. Every act offers at least one guaranteed and one earned hint that the) Tj
+T*
+(  danger is manufactured and the forest is not the enemy. The sealed package is the) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4337 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  capital's ward Keystone; the city is unwarded while it is away. KEEP GUARANTEED "The) Tj
+T*
+(  wood never needed managing. It needed leaving alone." ADD SEED "Your capital's) Tj
+T*
+(  safety is older than your contracts. It is the very thing they teach you to fear.") Tj
+T*
+(  ADD SEED The Keystone's magic is pre-corporate forest-ward work, the same school) Tj
+T*
+(  companies call primitive. ADD EARNED Knowledge Hard 20 The Custodian glances at) Tj
+T*
+(  obsolete Soulspire inspection seals on her counterweight boulder. ADD EARNED) Tj
+T*
+(  Instinct Medium 15 "The wood never needed managing. It needed leaving alone." ADD) Tj
+T*
+(  SEED The Custodian glances at obsolete Soulspire inspection seals on her) Tj
+T*
+(  counterweight boulder. ADD EARNED Instinct Medium 15 Presence: earn candor.) Tj
+T*
+(  Knowledge: place the magic. Instinct: read the Custodian's fear. ACT4 Act 4: Hanging) Tj
+T*
+(  Office 160 2:05 to 2:40 2:40 Custodian, Keystone reveal, new objective, short...) Tj
+T*
+(- Livetools: scene MAP-LOC-the-hanging-office) Tj
+T*
+(- Percharacterlayer: garrick-reed Garrick Reed Affable warmth His warmth makes him the) Tj
+T*
+(  natural bridge to her. Can lead the conversation and answer the death-question) Tj
+T*
+(  honestly, raising trust fastest. Garrick, she likes genuine people. Want to lead the) Tj
+T*
+(  conversation and answer her death-question honestly? marlowe-fairwind Marlowe) Tj
+T*
+(  Fairwind Fellow magic-worker The Custodian recognizes a fellow arcane practitioner) Tj
+T*
+(  and warms to respect for the craft. Knowledge 13 Understands the Custodian is bound) Tj
+T*
+(  to the ward; gate the deeper cost. Can talk shop and earn trust without owning the) Tj
+T*
+(  later reveal. Marlowe, she clocks you as one of her own kind. Want to talk shop and) Tj
+T*
+(  earn her trust? varian-soto Varian Soto Trusted by creatures The small creatures in) Tj
+T*
+(  the treehouse trust Varian quickly, and the Custodian notices. Can soften the room) Tj
+T*
+(  by letting the creatures approach. Varian, her little creatures come right to you.) Tj
+T*
+(  She sees that. Want to lean into it? khari-nix Khari Nix Guardian answer The death-) Tj
+T*
+(  question can become a guardian's truth. An honest answer about dying to protect) Tj
+T*
+(  someone moves her. Khari, she asks how you imagine you will die. A guardian's true) Tj
+T*
+(  answer would move her. Want to give it? barnacle Barnacle...) Tj
+T*
+(- Takeawayhelp: Player takeaway Be genuine with her and she becomes your greatest) Tj
+T*
+(  ally. "She rewards honesty and curiosity. Meet her strangeness with warmth and she) Tj
+T*
+(  will meet yours." "Answer her questions, ask about her home or the town, or simply) Tj
+T*
+(  be kind to the odd old faerie. She is listening." The table action is conversation.) Tj
+T*
+(  Make each answer matter by changing her warmth, not by demanding a roll. presence) Tj
+T*
+(  knowledge table-spotlight Story takeaway The job recipient is strange, ancient,) Tj
+T*
+(  warm, and bound to the safety everyone has been circling. "She is warm, weird, and) Tj
+T*
+(  older than she looks, and she is deciding right now who you are." "She can name) Tj
+T*
+(  herself as the Whitefire Custodian. Her deeper nature is visible through her home,) Tj
+T*
+(  not explained all at once." Keep the package truth out of this scene. Let trust and) Tj
+T*
+(  curiosity earn the next scene. presence knowledge table-spotlight Mechanic takeaway) Tj
+T*
+(  custodian_trust is the mechanic. "No dice needed unless you want them. Just talk.) Tj
+T*
+(  Her trust is the live counter here." "Warmth, honesty, restraint, and thoughtful) Tj
+T*
+(  answers raise trust. Transactional coldness or theft lowers it." The payoff is) Tj
+T*
+(  S04-04 and Act 5: trust changes candor, help, and ritual...) Tj
+T*
+(- Playerbeats: S04-03-emerges She emerges The Whitefire Custodian) Tj
+T*
+(  assets/scenes/S04-03-the-whitefire-custodian.png The Whitefire Custodian scene art) Tj
+T*
+(  for The Hanging Office. A seven-foot firefly-faerie steps down from the home, voice) Tj
+T*
+(  bright with feeling and mischief. A seven-foot firefly-faerie steps down from the) Tj
+T*
+(  home, voice bright with feeling and mischief. A seven-foot firefly-faerie steps down) Tj
+T*
+(  from the home, voice bright with feeling and mischief. image-title-caption) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 3850 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  S04-03-inside Inside Inside the treehouse assets/scenes/S04-03-the-whitefire-) Tj
+T*
+(  custodian.png The Whitefire Custodian scene art for The Hanging Office. The inside) Tj
+T*
+(  is bigger than the outside and packed with immaculate bottles, books, runes, plants,) Tj
+T*
+(  and small creatures. The inside is bigger than the outside and packed with) Tj
+T*
+(  immaculate bottles, books, runes, plants, and small creatures. The inside is bigger) Tj
+T*
+(  than the outside and packed with immaculate bottles, books, runes, plants, and small) Tj
+T*
+(  creatures. text-first S04-03-questions Her questions Her questions) Tj
+T*
+(  assets/scenes/S04-03-the-whitefire-custodian.png The Whitefire Custodian scene art) Tj
+T*
+(  for The Hanging Office. She asks about the road, who sent you, and how each of you) Tj
+T*
+(  imagines you...) Tj
+T*
+(- Gmbeats: S04-03-emerges She emerges The Whitefire Custodian Say: "She is warm,) Tj
+T*
+(  weird, ancient, and immediately interested in you.". A seven-foot firefly-faerie) Tj
+T*
+(  steps down from the home, voice bright with feeling and mischief. The job becomes) Tj
+T*
+(  personal through the Custodian. RP trust begins before any reveal. Players meet the) Tj
+T*
+(  real recipient. Player takeaway Players meet the real recipient. "She is warm,) Tj
+T*
+(  weird, ancient, and immediately interested in you." "The playable fact is: A seven-) Tj
+T*
+(  foot firefly-faerie steps down from the home, voice bright with feeling and) Tj
+T*
+(  mischief." Concrete actions for this beat: look closely, ask the Custodian a direct) Tj
+T*
+(  question, commit to a choice, or take one prep action. presence Story takeaway The) Tj
+T*
+(  job becomes personal through the Custodian. "She is warm, weird, ancient, and) Tj
+T*
+(  immediately interested in you." "The story fact in play is: The job becomes personal) Tj
+T*
+(  through the Custodian." This beat changes Act 4 through this exact pressure: The job) Tj
+T*
+(  becomes personal through the Custodian. presence Mechanic takeaway RP trust begins) Tj
+T*
+(  before any reveal. "She is warm, weird, ancient, and immediately interested in you.") Tj
+T*
+(  "The active procedure is: RP trust begins before any...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 8000) Tj
+T*
+(- Playersafeprojection: S04-03 scene The Whitefire Custodian assets/scenes/S04-03-the-) Tj
+T*
+(  whitefire-custodian.png The Whitefire Custodian scene art for The Hanging Office.) Tj
+T*
+(  The Whitefire Custodian is a person, not the adventure's magical help desk. The) Tj
+T*
+(  Hanging Office Win the Custodian's confidence and hand over the package. The home) Tj
+T*
+(  lowers, and from it steps a being seven feet tall: part humanoid, part firefly,) Tj
+T*
+(  moving in slow drifts broken by sudden jerky motions. Her face is hard to read, but) Tj
+T*
+(  her voice carries every feeling plainly. She eyes your group with open mischief.) Tj
+T*
+(  "Are you the group Emeris sent from the capital? Oh my. You are rather late, are you) Tj
+T*
+(  not? Come in, come in." Inside, the treehouse opens far larger than it should,) Tj
+T*
+(  packed with potion bottles, spellbooks, runes, plants, and small creatures. None of) Tj
+T*
+(  it is messy. You get the sense that if you moved a single item an inch, she would) Tj
+T*
+(  know. S04-03-emerges She emerges The Whitefire Custodian assets/scenes/S04-03-the-) Tj
+T*
+(  whitefire-custodian.png The Whitefire Custodian scene art for The Hanging Office. A) Tj
+T*
+(  seven-foot firefly-faerie steps down from the home, voice bright with feeling and) Tj
+T*
+(  mischief. A seven-foot firefly-faerie steps down from the home, voice...) Tj
+T*
+(- Companionmapids: MAP-LOC-the-hanging-office) Tj
+T*
+(- Slidenumber: 57) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 162 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 058f409c05983214 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R 12 0 R] /Count 6 >>
+endobj
+14 0 obj
+<< /Type /Catalog /Pages 13 0 R >>
+endobj
+15 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000009 00000 n 
+0000002882 00000 n 
+0000003010 00000 n 
+0000007253 00000 n 
+0000007381 00000 n 
+0000011231 00000 n 
+0000011359 00000 n 
+0000015748 00000 n 
+0000015876 00000 n 
+0000019778 00000 n 
+0000019907 00000 n 
+0000020121 00000 n 
+0000020251 00000 n 
+0000020341 00000 n 
+0000020392 00000 n 
+trailer
+<< /Size 16 /Root 14 0 R >>
+startxref
+20465
+%%EOF

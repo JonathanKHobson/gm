@@ -1,0 +1,52 @@
+# The Titan's Steps
+
+GM export - entity:the-titan-s-steps
+
+## Player-facing description
+The Titan's Steps climb through height, rope, sweat, and hazard pay until travel itself feels like a negotiated risk.
+
+## Public role
+Make vertical logistics feel lived in, not decorative.
+
+## Handout text
+A colossal pillar route rising more than a thousand feet through Sablewood, where merchants pay for altitude in sweat, rope, and hazard rate.
+
+## GM truth
+No forced reveal. Let this entity disclose truth through scene context and player attention.
+
+## GM handling
+Introduce with sensory texture, then make one discoverable clue or social choice visible.
+
+## Mechanics
+- Title: Location Exploration Mechanics
+- Player Safe: Players can navigate, search, read customs, inspect hazards The Titan's Steps when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: A colossal pillar route rising more than a thousand feet through Sablewood, where merchants pay for altitude in sweat, rope, and hazard rate. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-the-titan-s-steps-engage-the-titan's-steps entity-the-titan-s-steps Engage The Titan's Steps Engage The Titan's Steps Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of The Titan's Steps hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless a hazard creates Hidden, Restrained, or Vulnerable
+- Search Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+
+## Profile
+- Schema Version: location-profile-v1
+- Id: the-titan-s-steps
+- Entity Id: the-titan-s-steps
+- Source: Story Atlas generated location notes
+- Auto Surface: True
+- Priority: strong
+- Player Safe: The Titan's Steps A colossal pillar route rising more than a thousand feet through Sablewood, where merchants pay for altitude in sweat, rope, and hazard rate. A colossal pillar route rising more than a thousand feet through Sablewood, where merchants pay for altitude in sweat, rope, and hazard rate. The Titan's Steps climb through height, rope, sweat, and hazard pay until travel itself feels like a negotiated risk. Each stair is a plaza. Each crack is a path. Every climb is a small expedition, and the people who run it have learned to laugh at the size of the place so it does not crush them. The place breaks into usable table spaces: Lower grass step: Grass and flowers turn a single stair into a meadow. Crack path: A split in the stone is wide enough to walk through. Overlook lip: The edge gives a dizzying view across the territory. Plants and materials: wind grass, step flowers...
+- Block1: The Titan's Steps Make vertical logistics feel lived in, not decorative. A colossal pillar route rising more than a thousand feet through Sablewood, where merchants pay for altitude in sweat, rope, and hazard rate. The Steps make hazard rate physical. Here the phrase hazard rate stops being paperwork. The climb itself is the cost the company sells back to you. The Steps make hazard rate physical. Altitude, rope, and weather each charge their own toll. Every shortcut up here has a price someone already paid. pages/entities/the-titan-s-steps.html
+- Block2: Huge pillar-like steps rise through canopy mist. Ropes, rest ledges, and pulley marks show how ordinary people make the impossible usable. Some safety lines are newer than the stone scars beneath them. Merchants know which ledges are safe by stain and sound. Detail Thin air, rope fiber, bird musk, wet stone, and breath warmed inside scarves. Detail Stone ledges are gritty at the edge and polished where thousands of palms have paused. The Titan's Steps climb through height, rope, sweat, and hazard pay until travel itself feels like a negotiated risk. Each stair is a plaza. Each crack is a path. Every climb is a small expedition, and the people who run it have learned to laugh at the size of the place so it does not crush them. The place breaks into usable table spaces: Lower grass step: Grass and flowers turn a single stair into a meadow. Crack path: A split in the stone is wide enough...
+- Block3: rest ledges rope lines pulley scars wind bells Agility to climb or cross safely. Knowledge to read rope and ledge maintenance. Instinct to sense weather shift. Local residents or workers appropriate to the place ridge goats, stone swifts, crack crickets, little lizards basking on warm stone No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues wind grass, step flowers, crack-root shrubs, lichen maps wind shelter rare herbs high vantage
+- Block4: The place changes even if the PCs stand still. Local people, creatures, weather, signage, and ward behavior all keep moving around the scene. A missed footing has social and physical cost. Weather changes the route faster than policy does. Risk can be priced until danger feels normal. A wind bell rings below instead of above. A safety rope has a corporate tag but local knots. Let the place be funny through overconfident signage, awkward forms, stubborn local habits, and magic that refuses corporate language.
+- Block5: MAP-LOC-the-titan-s-steps
+- Block6: Describe what the PCs can see, smell, hear, touch, ask about, or infer. Do not explain hidden infrastructure or corporate thesis until play earns it. surface A colossal pillar route rising more than a thousand feet through Sablewood, where merchants pay for altitude in sweat, rope, and hazard rate. table clue The Steps make hazard rate physical. earned truth Reveal deeper system meaning through NPC answers, evidence, or player questions, not narration dumps.
+- What Here: Local residents or workers appropriate to the place ridge goats, stone swifts, crack crickets, little lizards basking on warm stone No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues wind grass, step flowers, crack-root shrubs, lichen maps wind shelter rare herbs high vantage
+- Living Place: location-living-place-v1 colossal ancient stairland Each stair is a plaza. Each crack is a path. Every climb is a small expedition, and the people who run it have learned to laugh at the size of the place so it does not crush them. Lower grass step Grass and flowers turn a single stair into a meadow. Use for scale. Crack path A split in the stone is wide enough to walk through. Use for exploration. Overlook lip The edge gives a dizzying view across the territory. Use for orientation. wind grass, step flowers, crack-root shrubs, lichen maps ridge goats, stone swifts, crack crickets, little lizards basking on warm stone wind rise, warm stone, huge shadows, distant echo Rain fills cracks, flowers bloom in steps, goats graze the platforms, and old carved channels guide water down. A tiny mundane event should look absurdly heroic against the huge stone. Do you climb the official path, cross...
+- Districts Or Subareas: Lower grass step Grass and flowers turn a single stair into a meadow. Use for scale. Crack path A split in the stone is wide enough to walk through. Use for exploration. Overlook lip The edge gives a dizzying view across the territory. Use for orientation.
+- Sensory Signature: Detail Thin air, rope fiber, bird musk, wet stone, and breath warmed inside scarves. Detail Stone ledges are gritty at the edge and polished where thousands of palms have paused.
+- Visual Assets: location-visual-assets-v1 the-titan-s-steps The Titan's Steps Bright comedic frontier high-fantasy concept art for a Daggerheart-adjacent tabletop RPG. Medieval/Renaissance fantasy technology only: hand tools, wagons, ropes, parchment notices, ward-stones, carved wood, brass, cloth, stone, moss, lanterns, and magic. The tone is colorful, playful, slightly absurd, and vivid, like a fantasy corporate frontier comedy rather than a grim drama. No sci-fi machinery, no 1800s/Victorian clothing, no modern suits, no guns, no logos, no readable text, no watermark, no border, no collage. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/the-titan-s-steps MAP-LOC-the-titan-s-steps colossal ruin stair colossal stair route map profile_scene Profile image ready /Users/kyle/Documents/My Games/Peril To...
+- Imagine It Like: A via ferrata up a sheer cliff, or the staircase of a giant. Think the Half Dome cables crossed with climbing a cathedral made of mountains.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 279c35570afbd91a | Source hash dac3370046ed077140fab2d6

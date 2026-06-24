@@ -1,0 +1,49 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "heritage",
+  "title": "Heritage",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "71872f0150b448cc",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "The broad character identity layer made from ancestry, community, and the player's chosen story details."
+    },
+    {
+      "title": "How it works",
+      "body": "Use when a player asks what shaped their character before the job."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use when a player asks what shaped their character before the job.",
+        "Use the exact sheet rules for ancestry/community features; use the rest as story permission and roleplay texture.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "Is heritage a rule?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "ancestry",
+        "community",
+        "character-creation"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 71872f0150b448cc | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

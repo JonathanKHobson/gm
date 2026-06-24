@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "garrick-reed",
+  "kind": "entity",
+  "title": "Garrick Reed",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "PC / Player Character",
+  "hook": "Player-safe note: A kind warrior whose mercy is an active tactic.",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "Give one concrete visual, one sound or texture, and one sign of who has used or neglected it."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "gentle, disciplined, allergic to easy cruelty"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask Garrick Reed what they need right now.",
+    "Watch what they protect before asking for trust."
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:garrick-reed",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "27fadb77ee3e2ead",
+  "generated_at": "2026-06-23T21:40:58"
+}

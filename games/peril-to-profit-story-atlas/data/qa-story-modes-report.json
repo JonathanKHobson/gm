@@ -1,0 +1,148 @@
+{
+  "pass": true,
+  "check_count": 28,
+  "issue_count": 0,
+  "scene_count": 27,
+  "checks": [
+    {
+      "name": "required story mode file exists: pages/story-outline.html",
+      "ok": true,
+      "detail": "pages/story-outline.html"
+    },
+    {
+      "name": "required story mode file exists: pages/storyboard.html",
+      "ok": true,
+      "detail": "pages/storyboard.html"
+    },
+    {
+      "name": "required story mode file exists: pages/story.html",
+      "ok": true,
+      "detail": "pages/story.html"
+    },
+    {
+      "name": "required story mode file exists: css/story-modes.css",
+      "ok": true,
+      "detail": "css/story-modes.css"
+    },
+    {
+      "name": "required story mode file exists: js/story-modes.js",
+      "ok": true,
+      "detail": "js/story-modes.js"
+    },
+    {
+      "name": "required story mode file exists: data/story-modes.json",
+      "ok": true,
+      "detail": "data/story-modes.json"
+    },
+    {
+      "name": "story outline names the hero",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "story outline explains the antagonist",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "story outline includes hero journey labels",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "story outline has no content images beyond hidden link icons",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "story outline has search and section filter",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "story outline has progressive disclosure",
+      "ok": true,
+      "detail": "11"
+    },
+    {
+      "name": "story outline preserves wiki hover links",
+      "ok": true,
+      "detail": "326"
+    },
+    {
+      "name": "every scene has Run/Atlas/wiki links in story outline",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "outline scene paragraphs stay concise",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "storyboard has search and filter",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "storyboard renders visual cards",
+      "ok": true,
+      "detail": "49"
+    },
+    {
+      "name": "storyboard includes scene imagery",
+      "ok": true,
+      "detail": "151"
+    },
+    {
+      "name": "storyboard preserves wiki hover links",
+      "ok": true,
+      "detail": "234"
+    },
+    {
+      "name": "narrative story has search and filter",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "narrative story has text-to-speech controls",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "narrative story has at least one chapter per scene",
+      "ok": true,
+      "detail": "70"
+    },
+    {
+      "name": "narrative story preserves wiki hover links",
+      "ok": true,
+      "detail": "370"
+    },
+    {
+      "name": "story modes hide prompt/dev language",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "story mode JS supports search/filter and speech",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "story mode CSS supports print and no-image outline",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage links to concise story modes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "command palette links to concise story modes",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}

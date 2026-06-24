@@ -1,0 +1,50 @@
+# Mama Suet
+
+RAW export - entity:mama-suet
+
+## Player-facing description
+An old turtle-folk elder carries bowls of glowing moss and greens, her shell wrapped with soft packs and a scarf worn smooth by years of road dust.
+
+## Public role
+The grandmother of the road, who feeds first and judges never.
+
+## Handout text
+Player-safe note: A Firstmoss forager with warm food, poultices, and a stare that stops foolish arguments.
+
+## Raw source
+- Name: Mama Suet
+- Id: mama-suet
+- Aliases: Mama Suet
+- Connections: Hush Firstmoss Launch Festival
+- Related: Firstmoss Launch Festival Hush
+- Pronunciation: MAH-muh SOO-et
+- Short Pronunciation: MAH-muh SOO-et
+- Equipment: glowing moss bowl shell packs soft road scarf walking staff
+- Type: npc
+- Tags: npc backup-npc summonable npc-profile
+- Image Fallback: npc-portrait
+- Summary: A Firstmoss forager with warm food, poultices, and a stare that stops foolish arguments.
+- Role: The grandmother of the road, who feeds first and judges never.
+- Wants: Get frightened people warm enough to make better choices.
+- Sample Dialogue: Eat first. Then decide what kind of brave you are being.
+- Robust: An old turtle-folk elder carries bowls of glowing moss and greens, her shell wrapped with soft packs and a scarf worn smooth by years of road dust. She remembers who came first with ledgers and who pretended the danger was natural. An old turtle-folk elder carries bowls of glowing moss and greens, her shell wrapped with soft packs and a scarf worn smooth by years of road dust. Full-body reference: Full-body turtle-folk elder, moss basket on her shell, worn walking-staff, unhurried posture, head to feet in frame. Get frightened people warm enough to make better choices. Young people accepting danger as the normal price of being noticed. Gentle reset, care scene, or village truth. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Mama Suet and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne /...
+- Npc Profile: npc-profile-v1 NPC_System_Packet + image-informed hardening True Mama Suet a Firstmoss forager carrying food and practical comfort An old turtle-folk elder carries bowls of glowing moss and greens, her shell wrapped with soft packs and a scarf worn smooth by years of road dust. Mama Suet: a Firstmoss forager carrying food and practical comfort Mama Suet MAH-muh SOO-et a Firstmoss forager carrying food and practical comfort The grandmother of the road, who feeds first and judges never. A comfort and a compass; she steadies frightened players and points them true. She remembers the forest before the toll signs, and she will tell you, if you eat first. A way forward A grounded question A scene-specific clue seed Unhurried and nurturing, quietly unimpressed by uniforms. Sit down and accept the soup; she opens to anyone who lets themselves be cared for. Get frightened people warm enough to make better choices. Keep the old forest memory alive through care, food, and stubborn patience. Get frightened people warm enough to make better choices. Keep the old forest memory alive through care, food, and stubborn patience. Stubborn tenderness in a worn shell. Carries a spoon worn thin by...
+- Personality: Stubborn tenderness in a worn shell. Carries a spoon worn thin by decades of feeding people, and a scarf from a child she fed in a failed harvest, to remind herself that care should travel. Fears the young accepting danger as the ordinary price of being noticed.
+- Fears: Young people accepting danger as the normal price of being noticed.
+- Secrets: She remembers who came first with ledgers and who pretended the danger was natural.
+- Body Language: Slow enough to make hurried people aware of themselves.
+- Search Or Loot: Search focus: glowing moss bowl, shell packs, soft road scarf
+- Gm Use: Gentle reset, care scene, or village truth.
+- Future Hooks: The forest was safe before safety became a product.
+- One Line: a Firstmoss forager carrying food and practical comfort
+- Player Display Title: Mama Suet
+- Player Display Caption: a Firstmoss forager carrying food and practical comfort
+- Mechanics: Social / Information Mechanics Players can interact, comfort, persuade, or earn trust Mama Suet when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A Firstmoss forager with warm food, poultices, and a stare that stops foolish arguments. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-mama-suet-engage-mama-suet entity-mama-suet Engage Mama Suet Engage Mama Suet Presence Knowledge Instinct Presence Knowledge, Instinct 12 Choose the trait from the player's method, not the entity type. A flat read of Mama Suet hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear...
+- Meta: NPC / Ally NPC assets/icons/npc.png entity-npc #f0aa45 03 NPCs entities npc
+- Image Prompt: Private table TTRPG story atlas asset for Mama Suet, NPC / Ally. Role: The grandmother of the road, who feeds first and judges never.. Summary: A Firstmoss forager with warm food, poultices, and a stare that stops foolish arguments.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Image: assets/npc-images/mama-suet/portrait_base.webp
+- Image Asset Status: npc_images
+- Visual Gallery: primary Primary wiki image primary assets/npc-images/mama-suet/portrait_base.webp Mama Suet primary wiki image visual. Mama Suet: Primary wiki image. npc_images True True npc-fullbody_base Full-body npc-portrait assets/npc-images/mama-suet/fullbody_base.webp Mama Suet full-body visual. Mama Suet: Full-body. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/mama-suet/fullbody_base.png npc-fullbody_chroma Full-body chroma source npc-portrait assets/npc-images/mama-suet/fullbody_chroma.webp Mama Suet full-body chroma source visual. Mama Suet: Full-body chroma source. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/mama-suet/fullbody_chroma.png npc-fullbody_transparent Full-body transparent cutout npc-portrait assets/npc-images/mama-suet/fullbody_transparent.webp Mama Suet full-body transparent cutout visual. Mama Suet: Full-body transparent cutout. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/mama-suet/fullbody_transparent.png npc-portrait_chroma Portrait chroma source npc-portrait assets/npc-images/mama-suet/portrait_chroma.webp Mama Suet portrait chroma source...
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 3c703ee4cc0da32b | Source hash dac3370046ed077140fab2d6

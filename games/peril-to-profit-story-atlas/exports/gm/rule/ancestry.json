@@ -1,0 +1,49 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "ancestry",
+  "title": "Ancestry",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "ace48e7141f7f609",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "A character's people/species choice and its official feature package."
+    },
+    {
+      "title": "How it works",
+      "body": "Use at character creation and when ancestry fiction clearly explains how a PC perceives or approaches a moment."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use at character creation and when ancestry fiction clearly explains how a PC perceives or approaches a moment.",
+        "Use the printed ancestry feature. For scene flavor, give a distinct clue angle without changing math unless the table grants advantage or adjusts Difficulty.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "Does ancestry change rolls?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "heritage",
+        "community",
+        "traits"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash ace48e7141f7f609 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

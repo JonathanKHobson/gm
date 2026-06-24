@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "lausa-standworth",
+  "kind": "entity",
+  "title": "Lausa Standworth",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "a broad-shouldered elder carrying a barrel like it weighs nothing",
+  "hook": "a broad-shouldered elder carrying a barrel like it weighs nothing",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "A broad alewife leans over a wooden mug, braid tucked back, forearm tattoo visible, with enough warmth in her smile to make a room confess."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "Warm enough to make a room confess, shrewd enough to know exactly why it should not. Calls her love irritation because love sounds too soft out loud. Marks who enters town twice and remembers every unpaid kindness."
+    },
+    {
+      "label": "Might Offer",
+      "body": "Local stakes Hospitality if treated well A direct read on outsider behavior"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Local stakes",
+    "Hospitality if treated well",
+    "A direct read on outsider behavior"
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:lausa-standworth",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "02a875a8a56d9bec",
+  "generated_at": "2026-06-23T21:40:58"
+}

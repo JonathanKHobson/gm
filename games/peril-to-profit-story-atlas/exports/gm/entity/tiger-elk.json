@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "tiger-elk",
+  "title": "Tiger-Elk",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "00738353f4b409a0",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Tiger-Elk: A large striped elk-predator with branching antlers and catlike shoulders, glimpsed at a distance before the forest remembers how quiet it can be."
+    },
+    {
+      "title": "Public role",
+      "body": "Deep-wood danger silhouette"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: A large striped elk-predator with branching antlers and catlike shoulders, glimpsed at a distance before the forest remembers how quiet it can be."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use as a moral encounter. Reward restraint and observation without forcing a pet or mascot outcome."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 00738353f4b409a0 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

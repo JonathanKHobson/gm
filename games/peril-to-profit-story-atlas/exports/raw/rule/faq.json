@@ -1,0 +1,57 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "rule",
+  "id": "faq",
+  "title": "FAQ",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "4cc08cec15fe502e",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "Fast beginner answers for live teaching."
+    },
+    {
+      "title": "How it works",
+      "body": "Use when a player asks a table-basics question."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use when a player asks a table-basics question.",
+        "Answer the exact question and return to the scene.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "Where do I start?"
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: faq",
+        "Title: FAQ",
+        "Tag: official",
+        "Summary: Fast beginner answers for live teaching.",
+        "When: Use when a player asks a table-basics question.",
+        "Not When: Do not read it aloud as a lesson unless the table asks.",
+        "Question: Where do I start?",
+        "Answer: Answer the exact question and return to the scene.",
+        "Example: Use the FAQ during Mox teaching tables.",
+        "Related: action-roll hope fear traits",
+        "Aliases: beginner teaching question",
+        "Source: Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+        "Mechanic Profile: mechanic-profile-v1 faq FAQ beginner teaching question FAQ teaching-aid #rules-canon Beginner action-roll hope fear traits Introduce at first use action-roll hope fear traits Fast beginner answers for live teaching. Answer the exact question and return to the scene. Use when a player asks a table-basics question. FAQ: Fast beginner answers for live teaching. Use when a player asks a table-basics question. Answer the exact question and return to the scene. Return to the fiction with the concrete result, cost, or benefit. Use the FAQ during Mox teaching tables. Use the FAQ during Mox teaching tables. Where do I start? FAQ beginner teaching question action-roll hope fear traits Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use.",
+        "Canon Status: #rules-canon",
+        "Category: teaching-aid"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 4cc08cec15fe502e | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

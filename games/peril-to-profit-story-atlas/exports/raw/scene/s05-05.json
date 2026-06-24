@@ -1,0 +1,96 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "scene",
+  "id": "S05-05",
+  "title": "S05-05 - Soul-Audit Wraiths",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "9b835cb75818b9bf",
+  "sections": [
+    {
+      "title": "Player read-aloud",
+      "body": "The wraiths drift closer. Their faces are the shape of remembered shame."
+    },
+    {
+      "title": "Scene summary",
+      "body": "Soul-Audit Wraiths attack memory, vulnerability, and the party’s tether to their bodies."
+    },
+    {
+      "title": "Visible choices",
+      "items": [
+        "Prioritize wraiths",
+        "Use magic",
+        "Protect vulnerable ally",
+        "Defeat skeletons to tick countdown"
+      ]
+    },
+    {
+      "title": "Player questions",
+      "items": [
+        "What detail in Soul-Audit Wraiths tells you the official story is incomplete?",
+        "Who notices the human cost first, and how do they show it?",
+        "What small object, smell, or sound makes this scene feel real?"
+      ]
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: S05-05",
+        "Act: Act Five",
+        "Title: Soul-Audit Wraiths",
+        "Beats: Combat GM-only truth Consequence",
+        "Image: assets/scenes/S05-05-soul-audit-wraiths.webp",
+        "Short: Soul-Audit Wraiths attack memory, vulnerability, and the party’s tether to their bodies.",
+        "Long: This is the supernatural horror layer. These enemies are the metaphysical cost of neglected systems.",
+        "Read: The wraiths drift closer. Their faces are the shape of remembered shame.",
+        "Gm: Use Pass-Through sparingly. Do not lock too many PCs out of play at once.",
+        "Entities: Soul-Audit Wraith Market Correction Ritual Countdown Whitefire Custodian Soul-Audit Memory Shard Soulspire Solutions Route Ledger Fear",
+        "Choices: Prioritize wraiths Use magic Protect vulnerable ally Defeat skeletons to tick countdown",
+        "Prompt: Two translucent Soul-Audit Wraiths drift through golden ritual light, spectral papers and memory wisps around them; skeletons fight below; Custodian glows at center; no strixwolf.",
+        "Source Entities: Soul-Audit Wraith Market Correction Ritual Countdown",
+        "Beat Codes: combat gm-only-truth consequence",
+        "Slug: S05-05-soul-audit-wraiths",
+        "Act Title: The Ward Renewal",
+        "Arc Role: Ordeal, ritual defense, and restoration",
+        "Caption: Soul-Audit Wraiths turn fear, debt, and memory into pressure.",
+        "Image Alt: Soul-Audit Wraiths scene art for The Ward Renewal.",
+        "Image Prompt Used: Two translucent Soul-Audit Wraiths drift through golden ritual light, spectral papers and memory wisps around them; skeletons fight below; Custodian glows at center; no strixwolf. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions unless explicitly requested. No Strixwolf. No Bramble Union. Only Legacy Security Skeletons and Soul-Audit Wraiths as threats. 4:3 cinematic fantasy concept art, no visible text, no captions, no logos, no UI, no watermark.",
+        "Long Storyboard: This is the supernatural horror layer. These enemies are the metaphysical cost of neglected systems. Run this scene as ordeal, ritual defense, and restoration: Soul-Audit Wraiths turn fear, debt, and memory into pressure. Keep the camera close to practical choices, visible consequences, and the difference between ordinary people and the infrastructure pressing on them.",
+        "Read Aloud: The wraiths drift closer. Their faces are the shape of remembered shame.",
+        "Gm Notes: Use Pass-Through sparingly. Do not lock too many PCs out of play at once. Keep player-facing information actionable. Reveal systemic truth through objects, reactions, and consequences before naming it. Manufactured-threat lens: seed the contradiction, do not explain it. The surface goal stays simple and heroic. [REFLAVOR/GUARANTEED] Soul-Audit Wraiths bear audit glyphs and say, \"Unlicensed soul-resonance detected. Submit for audit.\" [ADD/GUARANTEED] A defeated wraith leaves a Soulspire compliance tag or coil-credit token instead of natural remains. [ADD/EARNED] Wraiths ignore forest creatures and home only on ritual soul-magic. (Instinct Medium 15) [ADD/EARNED] A player can read the markings and name Soulspire without the GM naming it first. (Knowledge Medium 15)",
+        "Sensory Details: cold invoices in the air voices overlapping with names half-erased light dimming around regret",
+        "Body Language: Wraiths lean toward whoever hesitates The Custodian flinches at familiar phrases",
+        "Sample Dialogue: Soul-Audit Wraith Please itemize the value of your safety.",
+        "Checks: Presence Resist fear or speak a human truth against the audit. Standard Reduce pressure on the ritual. 15 Cleanly resolve: Resist fear or speak a human truth against the audit. Add a concrete boon, extra clue, or improved position. Success, plus the player names one helpful detail or asks one follow-up question. Success, but the GM exposes a cost, ticks a countdown, or reveals a new pressure tied to Soul-Audit Wraiths. The full goal slips, but the party still learns a useful truth or avoids the worst consequence. The GM makes a hard move that follows from the fiction and leaves the next choice visible. Spend Fear to tick the ritual countdown, expose the Custodian, activate ward backlash, or trigger Market Correction. On mixed or sliding results, reveal information in layers: visible fact, actionable clue, then systemic truth. Knowledge Identify the memory shard pattern. Standard Reveal exploitative infrastructure history. 15 Cleanly resolve: Identify the memory shard pattern. Add a concrete boon, extra clue, or improved position. Success, plus the player names one helpful detail or asks one follow-up question. Success, but the GM exposes a cost, ticks a countdown, or reveals a...",
+        "Choices Consequences: Answer with compassion Weakens wraith pressure. Memory shards become clues. Answer with transaction It understands and tightens. Harder next beat.",
+        "Clues: Memory shard These are memories. The ward failure monetized fear. The wraiths carry lives reduced to ledger events. Guaranteed seed Soul-Audit Wraiths bear audit glyphs and say, \"Unlicensed soul-resonance detected. Submit for audit.\" Soul-Audit Wraiths bear audit glyphs and say, \"Unlicensed soul-resonance detected. Submit for audit.\" Guaranteed seed A defeated wraith leaves a Soulspire compliance tag or coil-credit token instead of natural remains. A defeated wraith leaves a Soulspire compliance tag or coil-credit token instead of natural remains. Earned seed Available if players investigate, show mercy, or ask the right question. Wraiths ignore forest creatures and home only on ritual soul-magic. Instinct Medium 15 Earned seed Available if players investigate, show mercy, or ask the right question. A player can read the markings and name Soulspire without the GM naming it first. Knowledge Medium 15",
+        "Loot: Use Wraith memory shards table",
+        "Payoff Flags: Custodian Trust Track Ward Stability Track",
+        "Filters: act-five choice combat consequence custodian-trust-track gm-only gm-only-truth the-ward-renewal ward-stability-track manufactured-threat guaranteed-earned clue",
+        "Index: 22",
+        "Player Questions: What detail in Soul-Audit Wraiths tells you the official story is incomplete? Who notices the human cost first, and how do they show it? What small object, smell, or sound makes this scene feel real?",
+        "Relationship Prompts: Which PC quietly checks on someone else here? Who disagrees about the right thing to do without breaking trust?",
+        "Ownership Prompt: Name one detail in Soul-Audit Wraiths that belongs to your character's point of view.",
+        "Reveal Hooks: Loreborne or Knowledge-focused PCs can read the institutional layer. Wildborne/community-focused PCs can read local custom and ecological stress. Martial/security-focused PCs can read threat posture and custody logic. Magic-focused PCs can feel ward tone, soul-signal, or spell instability. Loreborne: spots older legal, heraldic, or ward-craft language under the branding. Underborne: notices service doors, hidden routes, and who built the thing nobody credits. Highborne: reads etiquette, class panic, and reputational risk. Ridgeborne: notices stonework, weight, pressure, and structural weakness. Wildborne: reads the land, animals, and local ecological stress. Elf/Ribbet/Human/Giant/Katari: invite one sensory or social detail from the player's heritage. Sorcerer/Rogue/Warrior/Guardian/Ranger: give each class one table-facing way to shine without changing the plot.",
+        "Fear Spends: Spend Fear to tick the ritual countdown, expose the Custodian, activate ward backlash, or trigger Market Correction. Tick the Ritual Countdown the wrong direction or expose the Custodian. Trigger Market Correction, Pass-Through, Memory Delve, or Group Attack when fiction supports it.",
+        "Story Scope: Perceived antagonist: the forest. True antagonist: the corporate lie about the forest. The players never confront it directly. They are meant to feel it by the end. Every act offers at least one guaranteed and one earned hint that the danger is manufactured and the forest is not the enemy. Soul-Audit Wraiths bear audit glyphs and say, \"Unlicensed soul-resonance detected. Submit for audit.\" REFLAVOR GUARANTEED A defeated wraith leaves a Soulspire compliance tag or coil-credit token instead of natural remains. ADD GUARANTEED Wraiths ignore forest creatures and home only on ritual soul-magic. ADD EARNED Instinct Medium 15 A player can read the markings and name Soulspire without the GM naming it first. ADD EARNED Knowledge Medium 15 Optional flag: Legacy Skeletons carry scraps of old corporate credentials. FLAG SEED Soul-Audit Wraiths bear audit glyphs and say, \"Unlicensed soul-resonance detected. Submit for audit.\" REFLAVOR GUARANTEED A defeated wraith leaves a Soulspire compliance tag or coil-credit token instead of natural remains. ADD GUARANTEED Wraiths ignore forest creatures and home only on ritual soul-magic. ADD EARNED Instinct Medium 15 A player can read the markings and...",
+        "Mechanics: The party is in Act Five pressure: Soul-Audit Wraiths attack memory, vulnerability, and the party’s tether to their bodies. Use Daggerheart Duality Dice as baseline. Use the listed Difficulty and outcome options when a roll matters. Keep trivial actions no-roll; roll only when uncertainty, cost, or danger is interesting. s05-05-ground-an-untethered-ally S05-05 Ground an Untethered ally Ground an Untethered ally Presence Knowledge Presence Knowledge 13 Presence calls them back; Knowledge disputes the audit logic. A soul stays loose while the ritual strains. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. A soul stays loose while the ritual strains...",
+        "Roll Cards: s05-05-ground-an-untethered-ally S05-05 Ground an Untethered ally Ground an Untethered ally Presence Knowledge Presence Knowledge 13 Presence calls them back; Knowledge disputes the audit logic. A soul stays loose while the ritual strains. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. A soul stays loose while the ritual strains. Use a hard complication, lost time, worse position, GM Fear, or mark Stress. Apply an official condition only if the fiction and rules justify it. The attempt falls short, but a partial thread appears. Offer one clue, weak position, or safer follow-up. The PC gets the core result, but it costs time, noise, leverage, or...",
+        "Conditions Hazards: Vulnerable",
+        "Search Loot Clues: Wraith remains: cold ash, translucent memory shard, unpaid promise echo.",
+        "No Roll Guidance: Do not call for a roll when the players have time, a clear method, and no meaningful pressure.",
+        "Tv Mechanics Caption: Public cue: Soul-Audit Wraiths asks what the party does, what it costs, and who is protected.",
+        "Trait Variety Note: Primary traits in this scene: Instinct, Knowledge, Presence. If rolls drift toward Instinct/Presence, ask whether Agility, Strength, Finesse, or Knowledge better describes the action.",
+        "Clueids: route-ledger market-correction soul-audit-memory-shard legacy-security-badge",
+        "Clue Ids: route-ledger market-correction soul-audit-memory-shard legacy-security-badge",
+        "Image Asset Status: image_gen"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 9b835cb75818b9bf | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

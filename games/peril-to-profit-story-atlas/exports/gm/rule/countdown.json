@@ -1,0 +1,48 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "countdown",
+  "title": "Countdown",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "5a72212672b60751",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "A visible pressure clock for progress or danger."
+    },
+    {
+      "title": "How it works",
+      "body": "Use when time, ritual progress, or threat escalation matters."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use when time, ritual progress, or threat escalation matters.",
+        "Tick when the fiction or result advances the clock.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "When does it tick?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "gm-moves",
+        "fear"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 5a72212672b60751 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

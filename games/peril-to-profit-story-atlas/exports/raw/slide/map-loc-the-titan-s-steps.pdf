@@ -1,0 +1,330 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2667 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-the-titan-s-steps - The Titan's Steps Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The Titan's Steps climb through height, rope, sweat, and hazard pay until travel itself) Tj
+T*
+(feels like a negotiated risk.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(The Titan's Steps climb through height, rope, sweat, and hazard pay until travel itself) Tj
+T*
+(feels like a negotiated risk.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-the-titan-s-steps) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: STORY) Tj
+T*
+(- Sectiontitle: Map Board) Tj
+T*
+(- Title: The Titan's Steps Location Map) Tj
+T*
+(- Shorttitle: The Titan's Steps) Tj
+T*
+(- Order: 850.6) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-the-titan-s-steps-gm.png) Tj
+T*
+(- Alt: The Titan's Steps location map board.) Tj
+T*
+(- Caption: Visual reference for The Titan's Steps.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Make vertical logistics feel lived in, not decorative.) Tj
+T*
+(- Publicobjective: The Titan's Steps climb through height, rope, sweat, and hazard pay) Tj
+T*
+(  until travel itself feels like a negotiated risk.) Tj
+T*
+(- Readaloud: The Titan's Steps climb through height, rope, sweat, and hazard pay until) Tj
+T*
+(  travel itself feels like a negotiated risk.) Tj
+T*
+(- Playertakeaway: The Titan's Steps climb through height, rope, sweat, and hazard pay) Tj
+T*
+(  until travel itself feels like a negotiated risk.) Tj
+T*
+(- Storytakeaway: The Steps make hazard rate physical.) Tj
+T*
+(- Mechanictakeaway: Use only for travel challenge or Sablewood field-guide play.) Tj
+T*
+(- Entityids: the-titan-s-steps mountain-crabs fire-falcons) Tj
+T*
+(- Entities: the-titan-s-steps The Titan's Steps location Location) Tj
+T*
+(  assets/icons/location.png assets/location-visuals/the-titan-s-) Tj
+T*
+(  steps/profile_scene_v02.png the TY-tunz steps A colossal pillar route rising more) Tj
+T*
+(  than a thousand feet through Sablewood, where merchants pay for altitude in sweat,) Tj
+T*
+(  rope, and hazard rate. Make vertical logistics feel lived in, not decorative. A) Tj
+T*
+(  colossal pillar route rising more than a thousand feet through Sablewood, where) Tj
+T*
+(  merchants pay for altitude in sweat, rope, and hazard rate.; introduce it with a) Tj
+T*
+(  sensory palette, who feels safe there, and what has been neglected. Pull player) Tj
+T*
+(  attention toward the choices, clues, and relationships tied to The Sable Sinecure,) Tj
+T*
+(  Helena Corain, Mountain Crabs. A colossal pillar route rising more than a thousand) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4150 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  feet through Sablewood, where merchants pay for altitude in sweat, rope, and hazard) Tj
+T*
+(  rate. mountain-crabs Mountain Crabs creature Creature / Animal) Tj
+T*
+(  assets/icons/creature.png assets/creature-images/mountain-crabs/portrait_base.png) Tj
+T*
+(  MOUN-tin KRABZ Granite-shelled cliff crabs with moss and alpine flowers growing on) Tj
+T*
+(  their backs, stone-heavy claws, many gripping legs, and wary eyes made for vertical) Tj
+T*
+(  roads. Crab-shell resource and...) Tj
+T*
+(- Locationids: the-titan-s-steps) Tj
+T*
+(- Fearspends: A wind bell rings below instead of above. A safety rope has a corporate) Tj
+T*
+(  tag but local knots.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Mapdata: MAP-LOC-the-titan-s-steps environment The Titan's Steps Location Map the-) Tj
+T*
+(  titan-s-steps mountain-crabs fire-falcons assets/location-visuals/the-titan-s-) Tj
+T*
+(  steps/profile_scene_v02.png Visual reference for The Titan's Steps. The Titan's) Tj
+T*
+(  Steps location map board. The Titan's Steps climb through height, rope, sweat, and) Tj
+T*
+(  hazard pay until travel itself feels like a negotiated risk. The Titan's Steps climb) Tj
+T*
+(  through height, rope, sweat, and hazard pay until travel itself feels like a) Tj
+T*
+(  negotiated risk. Make vertical logistics feel lived in, not decorative. Huge pillar-) Tj
+T*
+(  like steps rise through canopy mist. Ropes, rest ledges, and pulley marks show how) Tj
+T*
+(  ordinary people make the impossible usable. Some safety lines are newer than the) Tj
+T*
+(  stone scars beneath them. Leaf-drip, insects, distant wingbeats, and animal calls) Tj
+T*
+(  that stop or resume according to pressure, not comfort. Thin air, rope fiber, bird) Tj
+T*
+(  musk, wet stone, and breath warmed inside scarves. Stone ledges are gritty at the) Tj
+T*
+(  edge and polished where thousands of palms have paused. The forest is populated even) Tj
+T*
+(  when no NPC is present; silence, birds, insects, and tracks are actionable signals.) Tj
+T*
+(  Huge pillar-like steps rise through canopy mist. Ropes...) Tj
+T*
+(- Livetools: scene MAP-LOC-the-titan-s-steps) Tj
+T*
+(- Takeawayhelp: Player takeaway: MAP-LOC-the-titan-s-steps The Titan's Steps climb) Tj
+T*
+(  through height, rope, sweat, and hazard pay until travel itself feels like a) Tj
+T*
+(  negotiated risk. Give the player one concrete way back into play: a question, a) Tj
+T*
+(  description, a choice, or a pass-and-return moment. "Your takeaway right now is) Tj
+T*
+(  this: The Titan's Steps climb through height, rope, sweat, and hazard pay until) Tj
+T*
+(  travel itself feels like a negotiated risk." "If you are not sure what to do next,) Tj
+T*
+(  you can ask a question, describe what your character notices, or tell me what your) Tj
+T*
+(  character tries." "If you are not sure what to do next, you can ask a question,) Tj
+T*
+(  describe what your character notices, or tell me what your character tries." Give) Tj
+T*
+(  the player one concrete way back into play: a question, a description, a choice, or) Tj
+T*
+(  a pass-and-return moment. Story takeaway: MAP-LOC-the-titan-s-steps The Steps make) Tj
+T*
+(  hazard rate physical. Anchor the answer in the visible fiction on this slide: who is) Tj
+T*
+(  present, what can be observed, what has already been said, and what remains) Tj
+T*
+(  uncertain. "Here is what your characters know right now: The Steps make hazard rate) Tj
+T*
+(  physical." "If you want more detail, ask it in the scene. I will answer...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-the-titan-s-steps-player.png The Titan's Steps) Tj
+T*
+(  location map board. MAP-LOC-the-titan-s-steps environment The Titan's Steps) Tj
+T*
+(  assets/maps/MAP-LOC-the-titan-s-steps-player.png assets/maps/MAP-LOC-the-titan-s-) Tj
+T*
+(  steps-player.png Visual reference for The Titan's Steps. The Titan's Steps location) Tj
+T*
+(  map board. The Titan's Steps climb through height, rope, sweat, and hazard pay until) Tj
+T*
+(  travel itself feels like a negotiated risk. The Titan's Steps climb through height,) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2545 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  rope, sweat, and hazard pay until travel itself feels like a negotiated risk. MAP-) Tj
+T*
+(  LOC-the-titan-s-steps-map-only Map only The Titan's Steps map-only assets/maps/MAP-) Tj
+T*
+(  LOC-the-titan-s-steps-player.png The Titan's Steps location map board. MAP-LOC-the-) Tj
+T*
+(  titan-s-steps environment The Titan's Steps assets/maps/MAP-LOC-the-titan-s-steps-) Tj
+T*
+(  player.png assets/maps/MAP-LOC-the-titan-s-steps-player.png Visual reference for The) Tj
+T*
+(  Titan's Steps. The Titan's Steps location map board. The Titan's Steps climb through) Tj
+T*
+(  height, rope, sweat, and hazard pay until travel itself feels like a negotiated) Tj
+T*
+(  risk. The Titan's Steps climb through height, rope, sweat, and hazard pay until) Tj
+T*
+(  travel itself feels like a negotiated risk...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-the-titan-s-steps map The Titan's Steps) Tj
+T*
+(  assets/maps/MAP-LOC-the-titan-s-steps-player.png The Titan's Steps location map) Tj
+T*
+(  board. Visual reference for The Titan's Steps. spatial reference and location) Tj
+T*
+(  texture The Titan's Steps climb through height, rope, sweat, and hazard pay until) Tj
+T*
+(  travel itself feels like a negotiated risk. The Titan's Steps climb through height,) Tj
+T*
+(  rope, sweat, and hazard pay until travel itself feels like a negotiated risk. MAP-) Tj
+T*
+(  LOC-the-titan-s-steps environment The Titan's Steps assets/maps/MAP-LOC-the-titan-s-) Tj
+T*
+(  steps-player.png assets/maps/MAP-LOC-the-titan-s-steps-player.png Visual reference) Tj
+T*
+(  for The Titan's Steps. The Titan's Steps location map board. The Titan's Steps climb) Tj
+T*
+(  through height, rope, sweat, and hazard pay until travel itself feels like a) Tj
+T*
+(  negotiated risk. The Titan's Steps climb through height, rope, sweat, and hazard pay) Tj
+T*
+(  until travel itself feels like a negotiated risk. assets/maps/MAP-LOC-the-titan-s-) Tj
+T*
+(  steps-player.png The Titan's Steps location map board. MAP-LOC-the-titan-s-steps) Tj
+T*
+(  environment The Titan's Steps assets/maps/MAP-LOC-the-titan-s-steps-player.png) Tj
+T*
+(  assets/maps/MAP-LOC-the-titan-s-steps-player.png Visual reference for The Titan's) Tj
+T*
+(  Steps...) Tj
+T*
+(- Slidenumber: 87) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 19492588113bce41 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002728 00000 n 
+0000002854 00000 n 
+0000007056 00000 n 
+0000007182 00000 n 
+0000009779 00000 n 
+0000009905 00000 n 
+0000009974 00000 n 
+0000010023 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+10095
+%%EOF

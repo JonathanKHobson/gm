@@ -1,0 +1,52 @@
+# Firstmoss Launch Festival
+
+GM export - entity:firstmoss-launch-festival
+
+## Player-facing description
+Firstmoss is not a party break; it is Hush showing what the ward protects.
+
+## Public role
+Use joy as stakes, not decoration.
+
+## Handout text
+Celebration of moss-ripened crops and spring abundance.
+
+## GM truth
+No forced reveal. Let this entity disclose truth through scene context and player attention.
+
+## GM handling
+Introduce with sensory texture, then make one discoverable clue or social choice visible.
+
+## Mechanics
+- Title: Location Exploration Mechanics
+- Player Safe: Players can navigate, search, read customs, inspect hazards Firstmoss Launch Festival when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: Celebration of moss-ripened crops and spring abundance. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-firstmoss-launch-festival-engage-firstmoss-launch-festival entity-firstmoss-launch-festival Engage Firstmoss Launch Festival Engage Firstmoss Launch Festival Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of Firstmoss Launch Festival hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless a hazard creates Hidden, Restrained, or Vulnerable
+- Search Loot: Low-value charms and food.
+
+## Profile
+- Schema Version: location-profile-v1
+- Id: firstmoss-launch-festival
+- Entity Id: firstmoss-launch-festival
+- Source: Goldspire_Location_Packet/04_Hush_Enclave.md
+- Auto Surface: True
+- Priority: strong
+- Player Safe: Firstmoss Launch Festival Celebration of moss-ripened crops and spring abundance. Celebration of moss-ripened crops and spring abundance. Firstmoss is not a party break; it is Hush showing what the ward protects. The banners are crooked, the stage wobbles, and the singing is terrible and beloved. The joy is real and just effortful enough to notice, the way a town laughs loudest on the day it most needs to. The place breaks into usable table spaces: Tiny stage: A wobbly platform holds speeches, music, and public nerves. Food line: Festival food tells players what the village grows and values. Moss lantern lane: Fresh green lanterns mark a beautiful path. Game corner: Children and adults compete in low-stakes games with very serious local rules. Plants and materials: firstmoss lanterns, braided reed streamers, festival herbs, freshly cut moss crowns. Animals and background life: Festival...
+- Block1: Firstmoss Launch Festival Use joy as stakes, not decoration. Celebration of moss-ripened crops and spring abundance. The festival makes the final ward defense personal before the fight begins. The festival is what the ward protects, made personal. Meeting these people now is what makes the later defense matter. The festival makes the final ward defense personal before the fight begins. Joy is doing a lot of work tonight. Trouble can walk in at any moment without the music ever stopping. pages/entities/firstmoss-launch-festival.html
+- Block2: Green lanterns, clover cakes, damp banners, and work songs turn the lane into a celebration. Adults keep the route clear without making it look like guarding. A few smiles falter when the ward hum dips. Older locals track the Keystone crate even while passing food. Detail Sweet mossfruit, hot griddle cakes, trampled clover, and rain on lantern paper. Detail The ground is springy with moss and packed mud; ribbons brush faces as people pass. Firstmoss is not a party break; it is Hush showing what the ward protects. The banners are crooked, the stage wobbles, and the singing is terrible and beloved. The joy is real and just effortful enough to notice, the way a town laughs loudest on the day it most needs to. The place breaks into usable table spaces: Tiny stage: A wobbly platform holds speeches, music, and public nerves. Food line: Festival food tells players what the village grows and...
+- Block3: lantern lines festival table mossfruit baskets children's game stones ward chime post Presence to join briefly without taking over. Instinct to notice what the crowd is afraid to say. Knowledge to connect the festival route to the ward's purpose. Local residents or workers appropriate to the place Festival Moths orbit green lanterns Ratcoons hunt crumbs under benches moss hens chase everything they can reach No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues firstmoss lanterns braided reed streamers festival herbs freshly cut moss crowns festival food small local crafts public introductions rumors softened by celebration
+- Block4: The place changes even if the PCs stand still. Local people, creatures, weather, signage, and ward behavior all keep moving around the scene. Skipping the festival loses emotional buy-in. Bad road news can turn joy into collective fear. A careless joke can make Hush feel mocked. The music drops out when a ward chime misses. A child asks whether the light will still work tomorrow. Someone starts clearing space in case the crate is dangerous. Let the place be funny through overconfident signage, awkward forms, stubborn local habits, and magic that refuses corporate language.
+- Block5: S03-01 S03-02 S03-03 S03-04 MAP-LOC-firstmoss-launch-festival
+- Block6: Describe what the PCs can see, smell, hear, touch, ask about, or infer. Do not explain hidden infrastructure or corporate thesis until play earns it. surface Celebration of moss-ripened crops and spring abundance. table clue The festival makes the final ward defense personal before the fight begins. earned truth Reveal deeper system meaning through NPC answers, evidence, or player questions, not narration dumps.
+- What Here: Local residents or workers appropriate to the place Festival Moths orbit green lanterns Ratcoons hunt crumbs under benches moss hens chase everything they can reach No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues firstmoss lanterns braided reed streamers festival herbs freshly cut moss crowns festival food small local crafts public introductions rumors softened by celebration
+- Living Place: location-living-place-v1 small village festival The festival should feel handmade and specific: charming, awkward, colorful, and a little tense because everyone needs joy to work today. Tiny stage A wobbly platform holds speeches, music, and public nerves. Use for crowd focus. Food line Festival food tells players what the village grows and values. Use for sensory warmth. Moss lantern lane Fresh green lanterns mark a beautiful path. Use for visual beats. Game corner Children and adults compete in low-stakes games with very serious local rules. Use for comedy and trust. firstmoss lanterns braided reed streamers festival herbs freshly cut moss crowns Festival Moths orbit green lanterns Ratcoons hunt crumbs under benches moss hens chase everything they can reach laughter covering worry green lantern glow food steam wet grass under dancing feet The festival grows from setup to speeches to...
+- Districts Or Subareas: Tiny stage A wobbly platform holds speeches, music, and public nerves. Use for crowd focus. Food line Festival food tells players what the village grows and values. Use for sensory warmth. Moss lantern lane Fresh green lanterns mark a beautiful path. Use for visual beats. Game corner Children and adults compete in low-stakes games with very serious local rules. Use for comedy and trust.
+- Sensory Signature: Detail Sweet mossfruit, hot griddle cakes, trampled clover, and rain on lantern paper. Detail The ground is springy with moss and packed mud; ribbons brush faces as people pass.
+- Visual Assets: location-visual-assets-v1 firstmoss-launch-festival Firstmoss Launch Festival Bright comedic frontier high-fantasy concept art for a Daggerheart-adjacent tabletop RPG. Medieval/Renaissance fantasy technology only: hand tools, wagons, ropes, parchment notices, ward-stones, carved wood, brass, cloth, stone, moss, lanterns, and magic. The tone is colorful, playful, slightly absurd, and vivid, like a fantasy corporate frontier comedy rather than a grim drama. No sci-fi machinery, no 1800s/Victorian clothing, no modern suits, no guns, no logos, no readable text, no watermark, no border, no collage. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/firstmoss-launch-festival MAP-LOC-firstmoss-launch-festival village festival festival square map profile_scene Profile image ready /Users/kyle/Documents/My Games/Peril To...
+- Imagine It Like: A small-town harvest fair on its one big night. Think county fair, May Day, and the slightly forced cheer of a community that had a hard year and needs this.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 3c4b93c1e2bd8fdb | Source hash dac3370046ed077140fab2d6

@@ -1,0 +1,44 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "open-valetm-ritual-site",
+  "kind": "entity",
+  "title": "Open Vale™ Ritual Site",
+  "in_world_label": "Goldspire Travel Advisory",
+  "brand_flag": "Player-safe",
+  "kicker": "An ancient circular clearing of standing stones and ward-light, with a freshly painted company marker staked at its edge.",
+  "hook": "An ancient circular clearing of standing stones and ward-light, with a freshly painted company marker staked at its edge.",
+  "blocks": [
+    {
+      "label": "Arrival Read",
+      "body": "Open Vale is older than its branded marker: a circular clearing where stone, moss, and ward-light remember protection before paperwork."
+    },
+    {
+      "label": "Known For",
+      "body": "A perfectly circular clearing older than the painted Open Vale marker staked at its edge. Standing stones ring a center where moss and ward-light still gather. Flowered grass paths run in from every direction. Lines of light spoke out from the middle to the..."
+    },
+    {
+      "label": "What Is Here",
+      "body": "Local residents or workers appropriate to the place Ward-Moths trace the ward lines Mist-Things gather at the edge of low fog field crickets go silent near ward pulses No default combatant; add only if the scene introduces one Local civic, trade, or route..."
+    },
+    {
+      "label": "Food And Texture",
+      "body": "No market, no stalls, just the clearing and whatever people bring. Offerings of bread and flowers rest at the bases of the stones. Whoever keeps the ritual shares a little honeyed water, blessed mostly by intention."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Look for the busiest local gathering point.",
+    "Ask what has changed here recently."
+  ],
+  "archetype": "location.advisory",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:open-valetm-ritual-site",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "56070640ff1250aa",
+  "generated_at": "2026-06-23T21:40:58"
+}

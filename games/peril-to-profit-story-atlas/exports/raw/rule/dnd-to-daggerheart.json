@@ -1,0 +1,57 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "rule",
+  "id": "dnd-to-daggerheart",
+  "title": "D&D to Daggerheart",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "c5dbd01b2fbfe32c",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "Quick translation aid for D&D-trained instincts."
+    },
+    {
+      "title": "How it works",
+      "body": "Use when a player asks for a D&D skill, save, AC, or initiative."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use when a player asks for a D&D skill, save, AC, or initiative.",
+        "Traits, Hope/Fear, spotlight, Evasion, thresholds, and narrative consequences.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "What is different from D&D?"
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: dnd-to-daggerheart",
+        "Title: D&D to Daggerheart",
+        "Tag: official",
+        "Summary: Quick translation aid for D&D-trained instincts.",
+        "When: Use when a player asks for a D&D skill, save, AC, or initiative.",
+        "Not When: Do not turn it into a separate rules system.",
+        "Question: What is different from D&D?",
+        "Answer: Traits, Hope/Fear, spotlight, Evasion, thresholds, and narrative consequences.",
+        "Example: Perception maps to Instinct; AC maps to Evasion.",
+        "Related: traits reaction-rolls evasion adversary-spotlight",
+        "Aliases: D&D DND 5e conversion",
+        "Source: Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+        "Mechanic Profile: mechanic-profile-v1 dnd-to-daggerheart D&D to Daggerheart D&D DND 5e conversion D&D to Daggerheart teaching-aid #rules-canon Beginner traits reaction-rolls evasion adversary-spotlight Any time a D&D-trained player names a D&D skill or save traits reaction-rolls evasion adversary-spotlight Quick translation aid for D&D-trained instincts. Traits, Hope/Fear, spotlight, Evasion, thresholds, and narrative consequences. Use when a player asks for a D&D skill, save, AC, or initiative. D&D term -> Daggerheart equivalent. Two-column lookup only. Use when a player asks for a D&D skill, save, AC, or initiative. Traits, Hope/Fear, spotlight, Evasion, thresholds, and narrative consequences. Return to the fiction with the concrete result, cost, or benefit. Perception maps to Instinct; AC maps to Evasion. Perception maps to Instinct; AC maps to Evasion. What is different from D&D? D&D to Daggerheart D&D DND 5e conversion traits reaction-rolls evasion adversary-spotlight Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use.",
+        "Canon Status: #rules-canon",
+        "Category: teaching-aid"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash c5dbd01b2fbfe32c | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

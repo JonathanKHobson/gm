@@ -1,0 +1,68 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "fire-falcons",
+  "title": "Fire-Falcons",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "4e2c6c06fce33e06",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Three falcons watch from charred branches. Their feathers glow at the edges like coals under ash, and every head turns at once."
+    },
+    {
+      "title": "Public role",
+      "body": "Violent light-bearing Sable Sinecure companion birds"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Sleek ember-orange falcons with coal-black wing tips and feather edges like banked fire, beautiful enough for prestige and sharp enough to make a cache feel watched."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: creature",
+        "Role: Violent light-bearing Sable Sinecure companion birds",
+        "Summary: Sleek ember-orange falcons with coal-black wing tips and feather edges like banked fire, beautiful enough for prestige and sharp enough to make a cache feel watched.",
+        "Tags: sablewood-lore creature artemis source-page-7",
+        "Aliases: Fire-Falcons fire falcons fire-falcons",
+        "Connections: The Sable Sinecure Artemis Inc Simrith Luhaj Sable Sinecure Secret Caches",
+        "Inventory: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry. ember feathers coal-black wing tips bright warning eyes charred branch perches",
+        "Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.",
+        "Stat: Small but violent; use as a skirmisher or warning-light hazard.",
+        "Image Fallback: type-icon",
+        "Source Pages: Sablewood PDF p. 7",
+        "Name: Fire-Falcons",
+        "Id: fire-falcons",
+        "Meta: Creature / Animal CREATURE assets/icons/creature.png entity-creature #78a65f 04 Creatures entities creature",
+        "Related: Artemis Inc Sable Sinecure Secret Caches Simrith Luhaj The Sable Sinecure",
+        "Image Prompt: Private table TTRPG story atlas asset for Fire-Falcons, Creature / Animal. Role: Violent light-bearing Sable Sinecure companion birds. Summary: Sleek ember-orange falcons with coal-black wing tips and feather edges like banked fire, beautiful enough for prestige and sharp enough to make a cache feel watched.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Personality: Beauty bred into a weapon. Banked-fire feathers the wealthy buy for spectacle and the Sinecure trains for harm. Loyal to whoever feeds them, sharp to everyone else, and aware, somewhere, that they are admired far more than they are loved.",
+        "Wants: To hunt, to be fed by a steady hand, and to keep the high perch they have claimed.",
+        "Fears: Being chained for display, the smell of a stranger's fear, and losing their handler's voice in a crowd.",
+        "Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.",
+        "Body Language: Mantle their wings to show the coal-black tips like a drawn blade. Snap toward sudden movement, then preen as if nothing happened.",
+        "Sample Dialogue: A bright scaling shriek that turns every head across a market. A low warning chitter as the feathers along their backs begin to glow.",
+        "Equipment: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry. ember feathers coal-black wing tips bright warning eyes charred branch perches",
+        "Search Or Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.",
+        "Gm Use: Use as a moral encounter. Reward restraint and observation without forcing a pet or mascot outcome.",
+        "Future Hooks: Bring back as an echo if players made a strong choice involving this entity.",
+        "Stat Summary: Small but violent; use as a skirmisher or warning-light hazard.",
+        "Robust: Three falcons watch from charred branches. Their feathers glow at the edges like coals under ash, and every head turns at once. No forced reveal. Let this entity disclose truth through scene context and player attention. Sleek falcons with ember-orange plumage, coal-dark wing tips, glowing feather edges, and intelligent eyes perched near scorched Sablewood branches. Reach safety on its own terms and communicate danger through behavior before the party turns the moment into combat. Being surrounded, misread as a monster, or driven toward The Sable Sinecure, Artemis Inc, Simrith Luhaj by noise and haste. Use as prestige and warning-light pressure for the Sable Sinecure; they signal danger before they become danger. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Fire-Falcons and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or...",
+        "Pronunciation: FYRE FAL-kuns",
+        "Short Pronunciation: FYRE FAL-kuns",
+        "Imagine It Like: Think a tamed phoenix sold as a status symbol, the falconry bird that is also a loaded weapon, a designer breed pushed past the point of kindness. Gorgeous, dangerous, and never once consulted about either.",
+        "Image: assets/creature-images/fire-falcons/portrait_base.webp",
+        "Image Asset Status: creature_images",
+        "Visual Gallery: primary Primary wiki image primary assets/creature-images/fire-falcons/portrait_base.webp Fire-Falcons primary wiki image visual. Fire-Falcons: Primary wiki image. creature_images True True"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 4e2c6c06fce33e06 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

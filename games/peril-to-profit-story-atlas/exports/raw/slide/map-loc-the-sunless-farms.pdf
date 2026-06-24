@@ -1,0 +1,441 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2614 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-the-sunless-farms - The Sunless Farms Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(Under the canopy, farms grow without full sun: blue-green rows, dark wet soil, careful) Tj
+T*
+(water paths, and tools hung where rain and sap cannot ruin them.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Under the canopy, farms grow without full sun: blue-green rows, dark wet soil, careful) Tj
+T*
+(water paths, and tools hung where rain and sap cannot ruin them.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-the-sunless-farms) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: ACT-THREE) Tj
+T*
+(- Sectiontitle: Act Three: Seeking a Custodian) Tj
+T*
+(- Title: The Sunless Farms Location Map) Tj
+T*
+(- Shorttitle: The Sunless Farms) Tj
+T*
+(- Order: 401.32) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-the-sunless-farms-gm.png) Tj
+T*
+(- Alt: The Sunless Farms location map board.) Tj
+T*
+(- Caption: Visual reference for The Sunless Farms.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Use the farms as shaded food infrastructure: player-safe abundance, GM-only) Tj
+T*
+(  managed-system seed, and route pressure toward the keeper.) Tj
+T*
+(- Publicobjective: Under the canopy, farms grow without full sun: blue-green rows,) Tj
+T*
+(  dark wet soil, careful water paths, and tools hung where rain and sap cannot ruin) Tj
+T*
+(  them.) Tj
+T*
+(- Readaloud: Under the canopy, farms grow without full sun: blue-green rows, dark wet) Tj
+T*
+(  soil, careful water paths, and tools hung where rain and sap cannot ruin them.) Tj
+T*
+(- Gmscript: Say: "The farms are player-safe as food and craft. If players look harder,) Tj
+T*
+(  the precision of the system becomes the clue.") Tj
+T*
+(- Gmreadaloud: Blue-green rows under shade. Careful water paths. Tools hung where rain) Tj
+T*
+(  and sap cannot ruin them.) Tj
+T*
+(- Gmchecklist: Keep farms vivid before naming systems. Use Varian/Marlowe hooks if) Tj
+T*
+(  present. Route to irrigation path or Hush Farms.) Tj
+T*
+(- Gmprivate: GM-only: corporate agro-infrastructure; same system family as ward) Tj
+T*
+(  maintenance.) Tj
+T*
+(- Playertakeaway: Under the canopy, farms grow without full sun: blue-green rows, dark) Tj
+T*
+(  wet soil, careful water paths, and tools hung where rain and sap cannot ruin them.) Tj
+T*
+(- Storytakeaway: The farms show that Hush's abundance is cultivated, protected, and) Tj
+T*
+(  vulnerable.) Tj
+T*
+(- Mechanictakeaway: Instinct or Knowledge 13 can find the farm/ward seed; Finesse) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3942 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  keeps the party from trampling fragile work.) Tj
+T*
+(- Entityids: the-sunless-farms hush-farms sunless-farm-moss ratcoons festival-moths) Tj
+T*
+(- Entities: the-sunless-farms The Sunless Farms location Location) Tj
+T*
+(  assets/icons/location.png assets/location-visuals/the-sunless-) Tj
+T*
+(  farms/profile_scene_v02.png the SUN-less farms A farming region shaped by canopy-) Tj
+T*
+(  darkness, local ingenuity, and crops that do not need corporate sunlight to grow.) Tj
+T*
+(  Make food production feel like protected culture. A farming region shaped by canopy-) Tj
+T*
+(  darkness, local ingenuity, and crops that do not need corporate sunlight to grow.;) Tj
+T*
+(  introduce it with a sensory palette, who feels safe there, and what has been) Tj
+T*
+(  neglected. Pull player attention toward the choices, clues, and relationships tied) Tj
+T*
+(  to Hush, Hush Farms, Clover Co-op. A farming region shaped by canopy-darkness, local) Tj
+T*
+(  ingenuity, and crops that do not need corporate sunlight to grow. hush-farms Hush) Tj
+T*
+(  Farms location Location assets/icons/location.png assets/location-visuals/hush-) Tj
+T*
+(  farms/profile_scene_v02.png hush farmz Glowing blue moss grows over fruits and) Tj
+T*
+(  vegetables. Make the infrastructure failure agricultural and bodily, not abstract.) Tj
+T*
+(  Glowing blue moss grows over fruits and vegetables.; introduce it with a sensory) Tj
+T*
+(  palette, who feels safe there, and what has been neglected. Pull player attention) Tj
+T*
+(  toward the choices...) Tj
+T*
+(- Locationids: the-sunless-farms hush-farms) Tj
+T*
+(- Statecontrols: custodian_route Custodian Route select unknown safe dangerous) Tj
+T*
+(  ward_awareness Ward Awareness select none seed aware hush_clues Hush Clues select) Tj
+T*
+(  none custodian_route ward_seed corporate_seam farm_seed market_rumor multiple) Tj
+T*
+(- Mechanicids: instinct knowledge finesse) Tj
+T*
+(- Fearspends: A row dims as the Keystone passes. A survey stake hums louder than the) Tj
+T*
+(  ward post.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S03-01 S03-04) Tj
+T*
+(- Mapdata: MAP-LOC-the-sunless-farms environment The Sunless Farms Location Map S03-01) Tj
+T*
+(  S03-04 the-sunless-farms hush-farms sunless-farm-moss ratcoons festival-moths) Tj
+T*
+(  assets/location-visuals/the-sunless-farms/profile_scene_v02.png Visual reference for) Tj
+T*
+(  The Sunless Farms. The Sunless Farms location map board. Under the canopy, farms) Tj
+T*
+(  grow without full sun: blue-green rows, dark wet soil, careful water paths, and) Tj
+T*
+(  tools hung where rain and sap cannot ruin them. Under the canopy, farms grow without) Tj
+T*
+(  full sun: blue-green rows, dark wet soil, careful water paths, and tools hung where) Tj
+T*
+(  rain and sap cannot ruin them. Use the farms as shaded food infrastructure: player-) Tj
+T*
+(  safe abundance, GM-only managed-system seed, and route pressure toward the keeper.) Tj
+T*
+(  Blue-green rows grow in shade beds under low roofs, with water paths, survey stakes,) Tj
+T*
+(  tool hooks, and crop markers only locals read quickly. Irrigation trickles under) Tj
+T*
+(  boards, insects drone in the damp rows, and farmers pause whenever a weak ward post) Tj
+T*
+(  changes pitch. Mushroom loam, damp leaves, cold channel water, cut stems, and the) Tj
+T*
+(  mineral bite of mosslit irrigation. Soil is soft, dark, and springy; leaves feel) Tj
+T*
+(  waxy from low light; tool handles are polished by...) Tj
+T*
+(- Sourcefiles: dist/Act3_Upgrade_Packet/ACT3_MAPS_AND_LOCATIONS.md) Tj
+T*
+(- References: Festival #S03-04 Local Clues #S03-02) Tj
+T*
+(- Livetools: scene MAP-LOC-the-sunless-farms) Tj
+T*
+(- Percharacterlayer: khari-nix Khari Nix Arm-wrestling contest Can dominate the arm-) Tj
+T*
+(  wrestling competition and likely earn the festival_boon. Khari, there is an arm-) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4370 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  wrestling contest with your name on it. Want to win the town's heart? varian-soto) Tj
+T*
+(  Varian Soto Sunless Farms scent Notices the moss-crops are grown under managed,) Tj
+T*
+(  sunless conditions rather than wild growth. Instinct 13 The farms are carefully) Tj
+T*
+(  managed infrastructure; seed the truth without naming the full system. Can point the) Tj
+T*
+(  party toward the farms as a clue source. Varian, those crops do not grow like wild) Tj
+T*
+(  things. Want to look closer? marlowe-fairwind Marlowe Fairwind Farm and ward) Tj
+T*
+(  signature Knowledge 13 The farm-magic and ward-work share a signature, as if the) Tj
+T*
+(  same system maintains both. Can connect festival joy to protection magic without) Tj
+T*
+(  revealing the full cost. Marlowe, the farm-magic and the ward feel like the same) Tj
+T*
+(  author. Want to trace the resemblance? garrick-reed Garrick Reed Organized) Tj
+T*
+(  volunteers Recognizes festival volunteers moving with company-style precision. Can) Tj
+T*
+(  identify who is coordinating the crowd if the party needs a contact. Garrick, this) Tj
+T*
+(  festival is organized company-style. Want to clock who is really running it?...) Tj
+T*
+(- Gmbeats: MAP-LOC-the-sunless-farms-food Food Food source Say: "This is where the) Tj
+T*
+(  food comes from: careful work under impossible trees." The farms make the festival) Tj
+T*
+(  abundance specific. Hush's joy has labor behind it. Discovery can become route) Tj
+T*
+(  leverage. Players know the farms matter. Player takeaway Players know the farms) Tj
+T*
+(  matter. "This is where the food comes from: careful work under impossible trees.") Tj
+T*
+(  "The playable fact is: The farms make the festival abundance specific." Concrete) Tj
+T*
+(  actions for this beat: talk to a person present, inspect the named detail, help an) Tj
+T*
+(  ally, or choose whether to move toward the Custodian route. knowledge Story takeaway) Tj
+T*
+(  Hush's joy has labor behind it. "This is where the food comes from: careful work) Tj
+T*
+(  under impossible trees." "The story fact in play is: Hush's joy has labor behind) Tj
+T*
+(  it." This beat changes Act 3 through this exact pressure: Hush's joy has labor) Tj
+T*
+(  behind it. knowledge Mechanic takeaway Discovery can become route leverage. "This is) Tj
+T*
+(  where the food comes from: careful work under impossible trees." "The active) Tj
+T*
+(  procedure is: Discovery can become route leverage." Run intent first, then choose) Tj
+T*
+(  Presence, Instinct, Knowledge, Strength, or Finesse only when the...) Tj
+T*
+(- Takeawayhelp: Player takeaway The farms are a useful detour if players ask where) Tj
+T*
+(  Hush's abundance comes from. "The first answer is simple: food, work, water, and) Tj
+T*
+(  careful hands." "You can ask a worker, inspect the channels, trace the path south,) Tj
+T*
+(  or return to the festival/hub." Player-safe use: route texture, food stakes, and) Tj
+T*
+(  farm-worker conversations. instinct knowledge finesse Story takeaway The farms make) Tj
+T*
+(  abundance feel earned and vulnerable. "The festival is not magic happiness. It is) Tj
+T*
+(  crops, water, labor, and protection all holding together." "A deeper read finds) Tj
+T*
+(  precision that feels managed. That is a seed, not a full reveal." Keep the joy and) Tj
+T*
+(  labor real before showing the corporate seam. instinct knowledge finesse Mechanic) Tj
+T*
+(  takeaway Instinct, Knowledge, and Finesse are the active farm mechanics. "Instinct) Tj
+T*
+(  13 reads managed cultivation. Knowledge 13 traces ward-like magic. Finesse 12) Tj
+T*
+(  crosses without damaging channels." "On a success, set hush_clues=farm_seed or) Tj
+T*
+(  ward_awareness=seed/aware." The farms should feed route and reveal pacing, not) Tj
+T*
+(  become a random obstacle course. instinct knowledge finesse) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-the-sunless-farms.png The Sunless Farms map board.) Tj
+T*
+(  MAP-LOC-the-sunless-farms environment The Sunless Farms S03-01 S03-04) Tj
+T*
+(  assets/maps/MAP-LOC-the-sunless-farms.png assets/maps/MAP-LOC-the-sunless-farms.png) Tj
+T*
+(  The Sunless Farms map board. Under the canopy, farms grow without full sun: blue-) Tj
+T*
+(  green rows, dark wet soil, careful water paths, and tools hung where rain and sap) Tj
+T*
+(  cannot ruin them. Under the canopy, farms grow without full sun: blue-green rows,) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 2555 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  dark wet soil, careful water paths, and tools hung where rain and sap cannot ruin) Tj
+T*
+(  them. MAP-LOC-the-sunless-farms-map-only Map only The Sunless Farms map-only) Tj
+T*
+(  assets/maps/MAP-LOC-the-sunless-farms.png The Sunless Farms map board. MAP-LOC-the-) Tj
+T*
+(  sunless-farms environment The Sunless Farms S03-01 S03-04 assets/maps/MAP-LOC-the-) Tj
+T*
+(  sunless-farms.png assets/maps/MAP-LOC-the-sunless-farms.png The Sunless Farms map) Tj
+T*
+(  board. Under the canopy, farms grow without full sun: blue-green rows, dark wet) Tj
+T*
+(  soil, careful water paths, and tools hung where rain and sap cannot ruin them. Under) Tj
+T*
+(  the canopy, farms grow without full sun: blue-green rows, dark wet soil, careful) Tj
+T*
+(  water paths, and tools hung where rain and sap cannot ruin them...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-the-sunless-farms map The Sunless Farms) Tj
+T*
+(  assets/maps/MAP-LOC-the-sunless-farms.png The Sunless Farms map board. spatial) Tj
+T*
+(  reference and location texture Under the canopy, farms grow without full sun: blue-) Tj
+T*
+(  green rows, dark wet soil, careful water paths, and tools hung where rain and sap) Tj
+T*
+(  cannot ruin them. Under the canopy, farms grow without full sun: blue-green rows,) Tj
+T*
+(  dark wet soil, careful water paths, and tools hung where rain and sap cannot ruin) Tj
+T*
+(  them. MAP-LOC-the-sunless-farms environment The Sunless Farms S03-01 S03-04) Tj
+T*
+(  assets/maps/MAP-LOC-the-sunless-farms.png assets/maps/MAP-LOC-the-sunless-farms.png) Tj
+T*
+(  The Sunless Farms map board. Under the canopy, farms grow without full sun: blue-) Tj
+T*
+(  green rows, dark wet soil, careful water paths, and tools hung where rain and sap) Tj
+T*
+(  cannot ruin them. Under the canopy, farms grow without full sun: blue-green rows,) Tj
+T*
+(  dark wet soil, careful water paths, and tools hung where rain and sap cannot ruin) Tj
+T*
+(  them. assets/maps/MAP-LOC-the-sunless-farms.png The Sunless Farms map board. MAP-) Tj
+T*
+(  LOC-the-sunless-farms environment The Sunless Farms S03-01 S03-04 assets/maps/MAP-) Tj
+T*
+(  LOC-the-sunless-farms.png assets/maps/MAP-LOC-the-sunless-farms.png The Sunless) Tj
+T*
+(  Farms map...) Tj
+T*
+(- Slidenumber: 44) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 7de31b0df538d99e | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R] /Count 4 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000002675 00000 n 
+0000002802 00000 n 
+0000006796 00000 n 
+0000006923 00000 n 
+0000011345 00000 n 
+0000011472 00000 n 
+0000014079 00000 n 
+0000014206 00000 n 
+0000014281 00000 n 
+0000014331 00000 n 
+trailer
+<< /Size 12 /Root 10 0 R >>
+startxref
+14404
+%%EOF

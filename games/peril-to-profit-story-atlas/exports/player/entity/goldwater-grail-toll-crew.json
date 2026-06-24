@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "goldwater-grail-toll-crew",
+  "kind": "entity",
+  "title": "Goldwater-Grail Toll Crew",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Enemy / Combatant",
+  "hook": "Player-safe note: Gold-and-white road enforcers in polished livery and practical armor, carrying a stamped ledger, coin box, spear, and shield like a toll can become a verdict.",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "A polished corporate road crew at a forest barrier: one ledger-bearer, one spear-holder, one shield-bearer, all dressed like fees are law."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "Gold-and-white road enforcers in polished livery and practical armor, carrying a stamped ledger, coin box, spear, and shield like a toll can become a verdict.; run Goldwater-Grail Toll Crew with a motive, an exit route, and one visible sign of the system..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask Goldwater-Grail Toll Crew what they need right now.",
+    "Watch what they protect before asking for trust."
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:goldwater-grail-toll-crew",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "62d901e9981b877e",
+  "generated_at": "2026-06-23T21:40:58"
+}

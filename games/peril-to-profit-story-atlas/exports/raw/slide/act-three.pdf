@@ -1,0 +1,338 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2690 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(ACT-THREE - Act Three: Seeking a Custodian) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The road softens. The trees do not change, but the air does: warmer, kinder, like a held) Tj
+T*
+(breath finally letting go. Ahead, lantern-light and music gather around ordinary people) Tj
+T*
+(who feel safe. Somewhere in this village is the person you were sent to find. All you) Tj
+T*
+(have to do now is hand off the package and collect your pay. Simple.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Reach the village, find the person who can receive the package, and deliver it.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: ACT-THREE) Tj
+T*
+(- Type: act-divider) Tj
+T*
+(- Sectionid: ACT-THREE) Tj
+T*
+(- Sectiontitle: Act Three: Seeking a Custodian) Tj
+T*
+(- Title: Act Three: Seeking a Custodian) Tj
+T*
+(- Shorttitle: Act Three) Tj
+T*
+(- Order: 400) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Caption: Hush turns the package from cargo into a community question.) Tj
+T*
+(- Mood: table transition) Tj
+T*
+(- Gmgoal: Shift from road peril to a warm village sanctuary, then let the contrast) Tj
+T*
+(  carry unease. Establish the job plainly: reach Hush, find the person who keeps it) Tj
+T*
+(  safe, and deliver the package.) Tj
+T*
+(- Publicobjective: Reach the village, find the person who can receive the package, and) Tj
+T*
+(  deliver it.) Tj
+T*
+(- Readaloud: The road softens. The trees do not change, but the air does: warmer,) Tj
+T*
+(  kinder, like a held breath finally letting go. Ahead, lantern-light and music gather) Tj
+T*
+(  around ordinary people who feel safe. Somewhere in this village is the person you) Tj
+T*
+(  were sent to find. All you have to do now is hand off the package and collect your) Tj
+T*
+(  pay. Simple.) Tj
+T*
+(- Gmnotes: High mercy from earlier acts starts Hush warmer. Slaughter or extraction) Tj
+T*
+(  starts Hush polite but cooler. If package_status is lost, this act can still play as) Tj
+T*
+(  arrival and social discovery, but the handoff branch is blocked until Kyle confirms) Tj
+T*
+(  the recovery path.) Tj
+T*
+(- Playertakeaway: You have reached the safe place; the job is nearly done, but the) Tj
+T*
+(  village is worth noticing before you rush through it.) Tj
+T*
+(- Storytakeaway: Hush is the haven the delivery exists to serve, and its safety is) Tj
+T*
+(  deliberate rather than accidental.) Tj
+T*
+(- Mechanictakeaway: Act 3 runs on social and exploration mechanics: Presence for) Tj
+T*
+(  trust, Instinct for unease, Knowledge for ward and infrastructure clues.) Tj
+T*
+(- Livetools: none) Tj
+T*
+(- Playersafeprojection: ACT-THREE act-divider Act Three: Seeking a Custodian Hush) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4134 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  turns the package from cargo into a community question. table transition Reach the) Tj
+T*
+(  village, find the person who can receive the package, and deliver it. The road) Tj
+T*
+(  softens. The trees do not change, but the air does: warmer, kinder, like a held) Tj
+T*
+(  breath finally letting go. Ahead, lantern-light and music gather around ordinary) Tj
+T*
+(  people who feel safe. Somewhere in this village is the person you were sent to find.) Tj
+T*
+(  All you have to do now is hand off the package and collect your pay. Simple. ACT-) Tj
+T*
+(  THREE-air-changes The air changes The air changes The trees are still enormous, but) Tj
+T*
+(  the road stops feeling hunted. The air warms at the edge of the village. The trees) Tj
+T*
+(  are still enormous, but the road stops feeling hunted. The air warms at the edge of) Tj
+T*
+(  the village. The trees are still enormous, but the road stops feeling hunted. The) Tj
+T*
+(  air warms at the edge of the village. text-first ACT-THREE-safe-town A safe town A) Tj
+T*
+(  town that feels safe Lanterns, music, food smells, and ordinary welcome make the) Tj
+T*
+(  destination feel like people instead of a waypoint. Lanterns, music, food smells,) Tj
+T*
+(  and ordinary welcome make the destination feel like people instead of a...) Tj
+T*
+(- Gmscript: Say: "The road pressure eases here. Let yourselves feel the relief. This) Tj
+T*
+(  village is safe on purpose, someone keeps it that way, and that is who you are here) Tj
+T*
+(  to find.") Tj
+T*
+(- Gmreadaloud: The road softens. Lantern-light and music gather around ordinary people) Tj
+T*
+(  who feel safe. Somewhere in this village is the person you were sent to find.) Tj
+T*
+(- Gmchecklist: Read Act 1/2 carry-in before the first Hush scene. Say the goal as) Tj
+T*
+(  person-first: the person who keeps this place safe. Keep Hush warm; the corporate) Tj
+T*
+(  lens is the unease, not the village itself. Say the package, never Keystone Asset,) Tj
+T*
+(  on player-facing surfaces.) Tj
+T*
+(- Gmprivate: GM-only seed: Hush's safety is the ward, the package renews it, and the) Tj
+T*
+(  cost belongs to the larger corporate soul-economy scheme. Seed with objects and) Tj
+T*
+(  reactions; do not explain. Canon flags remain locked: Hush corporate framing, ward) Tj
+T*
+(  pacing, Atlas-original locations, and package_status=lost resolution.) Tj
+T*
+(- Mechanicids: presence instinct knowledge hope fear table-spotlight) Tj
+T*
+(- References: Act 3 packet sources/Act3_Upgrade_Packet/ACT3_SCENE_UPGRADES.md Hush map) Tj
+T*
+(  #MAP-LOC-hush) Tj
+T*
+(- Sourcefiles: dist/Act3_Upgrade_Packet/README.md) Tj
+T*
+(  dist/Act3_Upgrade_Packet/ACT3_SCENE_UPGRADES.md) Tj
+T*
+(- Playerbeats: ACT-THREE-air-changes The air changes The air changes The trees are) Tj
+T*
+(  still enormous, but the road stops feeling hunted. The air warms at the edge of the) Tj
+T*
+(  village. The trees are still enormous, but the road stops feeling hunted. The air) Tj
+T*
+(  warms at the edge of the village. The trees are still enormous, but the road stops) Tj
+T*
+(  feeling hunted. The air warms at the edge of the village. text-first ACT-THREE-safe-) Tj
+T*
+(  town A safe town A town that feels safe Lanterns, music, food smells, and ordinary) Tj
+T*
+(  welcome make the destination feel like people instead of a waypoint. Lanterns,) Tj
+T*
+(  music, food smells, and ordinary welcome make the destination feel like people) Tj
+T*
+(  instead of a waypoint. Lanterns, music, food smells, and ordinary welcome make the) Tj
+T*
+(  destination feel like people instead of a waypoint. text-first ACT-THREE-find-keeper) Tj
+T*
+(  Find the keeper Find the person who keeps it safe The job is simple on the surface:) Tj
+T*
+(  find the person responsible for this protection and deliver the package. The job is) Tj
+T*
+(  simple on the surface: find the person responsible for this protection and deliver) Tj
+T*
+(  the package. The job is simple on the surface: find the person responsible for this) Tj
+T*
+(  protection and deliver the package. text-first) Tj
+T*
+(- Gmbeats: ACT-THREE-air-changes The air changes The air changes Say: "The trees are) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2987 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  still the same huge old trees, but the road stops feeling hunted. The air warms) Tj
+T*
+(  before you see why." The trees are still enormous, but the road stops feeling) Tj
+T*
+(  hunted. The air warms at the edge of the village. The sanctuary contrast makes the) Tj
+T*
+(  previous road violence matter. Tone shift is a pacing mechanic: let the table exhale) Tj
+T*
+(  before asking questions. Players know the act begins with relief. Player takeaway) Tj
+T*
+(  Players know the act begins with relief. "The trees are still the same huge old) Tj
+T*
+(  trees, but the road stops feeling hunted. The air warms before you see why." "The) Tj
+T*
+(  playable fact is: The trees are still enormous, but the road stops feeling hunted.) Tj
+T*
+(  The air warms at the edge of the village." Concrete actions for this beat: talk to a) Tj
+T*
+(  person present, inspect the named detail, help an ally, or choose whether to move) Tj
+T*
+(  toward the Custodian route. table-spotlight Story takeaway The sanctuary contrast) Tj
+T*
+(  makes the previous road violence matter. "The trees are still the same huge old) Tj
+T*
+(  trees, but the road stops feeling hunted. The air warms before you see why." "The) Tj
+T*
+(  story fact in play is: The sanctuary contrast makes the...) Tj
+T*
+(- Takeawayhelp: Player takeaway You have reached the safe place; the job is nearly) Tj
+T*
+(  done, but the village is worth noticing before you rush through it. "You are close) Tj
+T*
+(  to payday. Enjoy the warmth, and notice what your character cannot help noticing.") Tj
+T*
+(  "You can head for the music, ask a friendly local who keeps the village safe, check) Tj
+T*
+(  the package, or simply describe how relief lands on your character." Act 3 starts) Tj
+T*
+(  with playable relief: talk, ask, notice, breathe, then move toward the person who) Tj
+T*
+(  receives the package. presence instinct knowledge table-spotlight Story takeaway) Tj
+T*
+(  Hush is the haven the delivery exists to serve, and its safety is deliberate rather) Tj
+T*
+(  than accidental. "This place is safe on purpose. Someone keeps it that way. That is) Tj
+T*
+(  who you are here to find." "Locals call the protection the ward. They trust it, even) Tj
+T*
+(  when they do not know everything about it." Do not explain the ward economy. The) Tj
+T*
+(  story detail players can hold is simple: Hush is protected, and protection requires) Tj
+T*
+(  a person. presence instinct knowledge table-spotlight Mechanic takeaway Act 3 runs) Tj
+T*
+(  on social and exploration mechanics: Presence for trust, Instinct for unease,) Tj
+T*
+(  Knowledge for ward and infrastructure clues. "No fight is...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 9000) Tj
+T*
+(- Slidenumber: 39) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash ac21b375209985bf | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002751 00000 n 
+0000002877 00000 n 
+0000007063 00000 n 
+0000007189 00000 n 
+0000010228 00000 n 
+0000010354 00000 n 
+0000010423 00000 n 
+0000010472 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+10544
+%%EOF

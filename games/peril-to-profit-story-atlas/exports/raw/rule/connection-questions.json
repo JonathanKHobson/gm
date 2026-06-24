@@ -1,0 +1,57 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "rule",
+  "id": "connection-questions",
+  "title": "Connection Questions",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "31faf0b4f12a51f9",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "Daggerheart-style prompts that let players define safe, playable relationships before the first scene."
+    },
+    {
+      "title": "How it works",
+      "body": "Use during Session Zero, character introductions, and optional party-bond refresh beats."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use during Session Zero, character introductions, and optional party-bond refresh beats.",
+        "Offer one relationship prompt, then let the other player answer in their own words and keep only the part both players like.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "What does a connection answer look like?"
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: connection-questions",
+        "Title: Connection Questions",
+        "Tag: table-tool",
+        "Summary: Daggerheart-style prompts that let players define safe, playable relationships before the first scene.",
+        "When: Use during Session Zero, character introductions, and optional party-bond refresh beats.",
+        "Not When: Do not force a player to accept another player's premise; the answer can accept, alter, soften, or pass.",
+        "Question: What does a connection answer look like?",
+        "Answer: Offer one relationship prompt, then let the other player answer in their own words and keep only the part both players like.",
+        "Example: Varian asks, 'You saw me freeze once. What did you do?' The other player answers with a small memory the table can use later.",
+        "Related: roleplay table-spotlight character-creation",
+        "Aliases: connection prompts connections relationship questions",
+        "Source: Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+        "Mechanic Profile: mechanic-profile-v1 connection-questions Connection Questions connection prompts connections relationship questions Connection Questions session-zero #adaptation Beginner roleplay table-spotlight character-creation Session Zero primer roleplay table-spotlight character-creation Daggerheart-style prompts that let players define safe, playable relationships before the first scene. Offer one relationship prompt, then let the other player answer in their own words and keep only the part both players like. Use during Session Zero, character introductions, and optional party-bond refresh beats. Connection Questions: Daggerheart-style prompts that let players define safe, playable relationships before the first scene. Use during Session Zero, character introductions, and optional party-bond refresh beats. Offer one relationship prompt, then let the other player answer in their own words and keep only the part both players like. Return to the fiction with the concrete result, cost, or benefit. Varian asks, 'You saw me freeze once. What did you do?' The other player answers with a small memory the table can use later. Varian asks, 'You saw me freeze once. What did you do?' The other...",
+        "Canon Status: #adaptation",
+        "Category: session-zero"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 31faf0b4f12a51f9 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

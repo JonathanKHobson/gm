@@ -1,0 +1,128 @@
+%PDF-1.4
+1 0 obj
+<< /Length 1955 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S03-03 - The Clover Co-op) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The Clover Co-op climbs the trunk of an ancient tree, level stacked on level, crowded) Tj
+T*
+(with music and good-natured noise. A friendly local stops you at the door: newcomers) Tj
+T*
+(hang their shoes on the line strung across the ground floor. By the time you leave,) Tj
+T*
+(locals promise, the shoes come back shined and filled with little trinkets. Warmth,) Tj
+T*
+(food, and a dozen conversations wait. What do you do?) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Rest, connect, and become someone the town trusts.) Tj
+T*
+() Tj
+T*
+(GM goal) Tj
+T*
+() Tj
+T*
+(Use the vertical tavern as Hush's social heart: shoe custom, named locals, player-) Tj
+T*
+(authored details, and a chance to belong.) Tj
+T*
+() Tj
+T*
+(GM notes) Tj
+T*
+() Tj
+T*
+(- This scene is relationship, not objective extraction. Slow down and let players be) Tj
+T*
+(  people.) Tj
+T*
+(- Do not turn hospitality into shopping inventory; use gifts as story boons.) Tj
+T*
+() Tj
+T*
+(GM script) Tj
+T*
+() Tj
+T*
+(Say: "This is Hush's living room. Hang your shoes if you want to honor the custom. Pick) Tj
+T*
+(a face, pick a table, or tell me one thing this tavern has that no tavern outside Hush) Tj
+T*
+(would have.") Tj
+T*
+() Tj
+T*
+(State controls) Tj
+T*
+() Tj
+T*
+(- hush_trust Hush Trust select low neutral high) Tj
+T*
+(- custodian_route Custodian Route select unknown safe dangerous) Tj
+T*
+(- bramble_outcome Bramble Outcome select unresolved killed captured spared negotiated) Tj
+T*
+(  escaped let_cargo) Tj
+T*
+(- bramble_truth_learned Bramble Truth Learned checkbox) Tj
+T*
+(- festival_participation Festival Participation checkbox) Tj
+T*
+(- festival_boon Festival Boon select none charm favor market_find goodwill) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 9ecfe973a0a650d1 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [2 0 R] /Count 1 >>
+endobj
+4 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000002016 00000 n 
+0000002142 00000 n 
+0000002199 00000 n 
+0000002248 00000 n 
+trailer
+<< /Size 6 /Root 4 0 R >>
+startxref
+2320
+%%EOF

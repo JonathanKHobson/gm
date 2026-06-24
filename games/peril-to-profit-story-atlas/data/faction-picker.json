@@ -1,0 +1,2125 @@
+[
+  {
+    "id": "artemis-inc",
+    "name": "Artemis Inc",
+    "public_face": "Premium guides, survival gear, trophy permits, and official trails for those who can afford the wild.",
+    "slogan": "Artemis™: the wild belongs to those who can afford it.",
+    "prompt_key": "grail",
+    "profile": {
+      "schema_version": "faction-profile-v1",
+      "id": "artemis-inc",
+      "entity_id": "artemis-inc",
+      "source": "Faction_System_Packet/factions/Corps_Touching_The_Oneshot.md",
+      "priority": "strong",
+      "corporate": true,
+      "atlas_lore_note": "",
+      "auto_surface": true,
+      "prompt_key": "grail",
+      "player_safe": {
+        "name": "Artemis Inc",
+        "public_face": "Premium guides, survival gear, trophy permits, and official trails for those who can afford the wild.",
+        "slogan": "Artemis™: the wild belongs to those who can afford it.",
+        "short_description": "Artemis Inc™ makes the wild terrifying, the locals unreliable, and confidence available exclusively for purchase.",
+        "long_description": "The Artemis™ outfitter is aspirational: lacquered trophy heads, a wall of Apex-Rated™ gear, a tanned guide who says 'the wild does not forgive' like a price quote. Buy a Premium Trail Pass™, a Guaranteed Glimpse™ wildlife tour, a Trophy Permit™ that makes killing something rare feel like membership. They train fire-falcons for prestige and sell the fear of everything they have not licensed. Ask a local for directions and the Artemis brochure has already labeled that local 'unlicensed' and 'unsafe.' The wild was free once. Artemis fixed that.",
+        "table_read_aloud": "The Artemis trail sign is painted in confident green and gold. It points toward danger with the cheerful posture of a person who will not personally be eaten."
+      },
+      "block1": {
+        "name": "Artemis Inc",
+        "also_known_as": [
+          "Artemis Inc",
+          "Artemis"
+        ],
+        "public_face": "Premium guides, survival gear, trophy permits, and official trails for those who can afford the wild.",
+        "what_they_really_do": "Makes the wild scary, discredits locals, then sells confidence back as prestige.",
+        "place_in_story": "The strixwolf encounter and preserve danger are exactly the kind of fear Artemis can monetize.",
+        "disposition_to_pcs": "Polished and condescending, sizes up the party's gear and means, and warms the more 'unlicensed' competence it senses to discredit.",
+        "the_lever": "Evidence, embarrassment, liability, or a public contradiction moves them more than moral appeal.",
+        "wiki_link": "pages/entities/artemis-inc.html",
+        "pronunciation": "AR-tuh-miss ink"
+      },
+      "block2": {
+        "standing": "The prestige name in the outdoors, the brand that turned the open wild into a gated experience.",
+        "what_they_control": "Premium guides, survival gear, trophy permits, and official trails for those who can afford the wild.",
+        "how_they_operate": "Privatize the wilderness: amplify the danger, delegitimize the people who know the land for free, then sell the confidence back as a premium experience.",
+        "internal_tensions": "True believers and tired workers keep the public promise alive while managers monetize the gap between promise and harm.",
+        "current_moves": "Quietly marking danger routes as premium experiences while local knowledge gets dismissed as unlicensed.",
+        "history_hook": "Institutional beliefs: The Guide They Discredited; Premium Survival Dependency; The Hunt as Prestige Theater."
+      },
+      "block3": {
+        "allies": [
+          "The Grail",
+          "Hexmart"
+        ],
+        "rivals": [
+          "Whitefire Custodian",
+          "Clover Co-op"
+        ],
+        "dependencies": [
+          "Goldspire Logistics paperwork",
+          "public trust",
+          "contract language"
+        ],
+        "member_npcs": [],
+        "who_they_prey_on": "Wealthy thrill-seekers, anxious travelers, and the local guides whose free knowledge it must discredit to charge for its own."
+      },
+      "block4": {
+        "slogan": "Artemis™: the wild belongs to those who can afford it.",
+        "aesthetic": "Lacquered wood and brass, trophy mounts, topographic trail charts stamped OFFICIAL, fire-falcon perches, and a poised huntress mascot with an immaculate bow.",
+        "voice": [
+          "The wild does not forgive. Our Platinum package does.",
+          "Locals are charming, but are they Apex-Certified?",
+          "A Guaranteed Glimpse, or your fear back!"
+        ],
+        "logo_hook": "Use the generated logo as the profile mark; use the representative image to show the public promise and private cost as a living place.",
+        "theme_song_hook": "Seed only for a future theme pass; do not generate music in this implementation."
+      },
+      "block5": {
+        "relevance_to_players": "The strixwolf encounter and preserve danger are exactly the kind of fear Artemis can monetize.",
+        "relevance_to_world": "Daily life depends on the public promise and is harmed by the private business model.",
+        "secrets": "The deeper truth is never player-facing on first contact: the public service also sustains the danger that makes the service profitable.",
+        "hidden_ties": "Deepest layer, GM-only: Board ownership/collusion sits behind this brand. Surface only as hints and patterns.",
+        "progressive_disclosure": [
+          {
+            "layer": "surface",
+            "content": "Artemis Inc looks like its public promise: Premium guides, survival gear, trophy permits, and official trails for those who can afford the wild."
+          },
+          {
+            "layer": "hint",
+            "content": "The promise has a crack: a failed product, a frightened worker, a predatory clause, or a story that does not match what the party saw."
+          },
+          {
+            "layer": "earned seam",
+            "content": "The crack points upward into coordinated market theater. Let players infer before any GM confirmation."
+          }
+        ],
+        "earn_it_hooks": [
+          "Knowledge 12 reads the brand paperwork or seal history.",
+          "Presence 13 gets an employee to admit the public promise and private reality do not match.",
+          "Compare the brand claim to witnessed events; the contradiction is evidence."
+        ]
+      },
+      "writing_layer": {
+        "player_safe": {
+          "short_description": "Artemis Inc™ makes the wild terrifying, the locals unreliable, and confidence available exclusively for purchase.",
+          "long_description": "The Artemis™ outfitter is aspirational: lacquered trophy heads, a wall of Apex-Rated™ gear, a tanned guide who says 'the wild does not forgive' like a price quote. Buy a Premium Trail Pass™, a Guaranteed Glimpse™ wildlife tour, a Trophy Permit™ that makes killing something rare feel like membership. They train fire-falcons for prestige and sell the fear of everything they have not licensed. Ask a local for directions and the Artemis brochure has already labeled that local 'unlicensed' and 'unsafe.' The wild was free once. Artemis fixed that.",
+          "table_read_aloud": "The Artemis trail sign is painted in confident green and gold. It points toward danger with the cheerful posture of a person who will not personally be eaten."
+        },
+        "gm_only": {
+          "sensory_palette": [
+            "Lacquered wood and brass, trophy mounts, topographic trail charts stamped OFFICIAL, fire-falcon perches, and a poised huntress mascot with an immaculate bow.",
+            "confidence sold by people who call local knowledge unlicensed",
+            "the wild repackaged as a luxury appointment"
+          ],
+          "operating_places": [
+            "premium trailheads, route-guide stalls, preserve access points, and trophy permit offices",
+            "Sablewood danger routes and strixwolf-adjacent fear as marketable experience",
+            "Athervast leisure circles as distant customers, visible through premium permits and polished guide language"
+          ],
+          "npc_roster": [
+            "No fixed one-shot NPC. Use a smug guide, branded trail sign, or discarded permit as texture."
+          ],
+          "interconnections": [
+            "The Grail makes danger official; Artemis makes it aspirational.",
+            "Hexmart sells the cheaper version of the same fear.",
+            "Clover Co-op and local guides undercut Artemis by knowing the place without owning it."
+          ],
+          "reveal_cues": [
+            "Surface: show useful-looking gear and cheerful expertise.",
+            "Hint: show local knowledge dismissed as unlicensed.",
+            "Earned: prestige survival depends on making ordinary survival look inferior."
+          ],
+          "table_scripts": [
+            "If players inspect an Artemis sign: \"It assures you the route is authentic. The forest appears unimpressed.\"",
+            "If an Artemis guide speaks: \"Of course locals know the area. We simply make the knowledge safe for clients.\""
+          ]
+        }
+      },
+      "entity_name": "Artemis Inc",
+      "imagine_it_like": "Think REI run by exclusive country-club elitists, a safari company that pays to keep the lions scary, a luxury wellness brand selling survival as a tier."
+    }
+  },
+  {
+    "id": "dungeon-workers-alliance",
+    "name": "Dungeon Workers' Alliance",
+    "public_face": "A half-legend of organized labor, old route pins, and workers who remember the dungeon never cleared itself.",
+    "slogan": "Nobody clears the dungeon alone.",
+    "prompt_key": "bramble",
+    "profile": {
+      "schema_version": "faction-profile-v1",
+      "id": "dungeon-workers-alliance",
+      "entity_id": "dungeon-workers-alliance",
+      "source": "Faction_System_Packet/factions/WIDER_LORE_FACTIONS.md",
+      "priority": "compact",
+      "corporate": false,
+      "atlas_lore_note": "",
+      "auto_surface": true,
+      "prompt_key": "bramble",
+      "player_safe": {
+        "name": "Dungeon Workers' Alliance",
+        "public_face": "A half-legend of organized labor, old route pins, and workers who remember the dungeon never cleared itself.",
+        "slogan": "Nobody clears the dungeon alone.",
+        "short_description": "The Dungeon Workers' Alliance is an old labor name that survives in brass pins, hand-copied maps, and tired defiance.",
+        "long_description": "The Alliance feels less like a banner and more like a promise passed hand to hand. A dull brass pin in a collar, a copied route map with names by the dangerous bends, a worker who says 'we' when the company file says 'incident.'",
+        "table_read_aloud": "The pin is small enough to hide under a collar. It shows a pick, a lantern, and a hand. It has been polished by fingers more often than cloth."
+      },
+      "block1": {
+        "name": "Dungeon Workers' Alliance",
+        "also_known_as": [
+          "the Alliance",
+          "old route workers",
+          "the dungeon union"
+        ],
+        "public_face": "A half-legend of organized labor, old route pins, and workers who remember the dungeon never cleared itself.",
+        "what_they_really_do": "Keeps names, claims, route memory, and solidarity alive after corporations convert workers into hazards.",
+        "place_in_story": "Thematic kin to the Bramble Union and a future organized-resistance seed.",
+        "disposition_to_pcs": "Cautious, practical, and moved by visible respect for workers.",
+        "the_lever": "Protect workers as people, not evidence, and Alliance-linked locals become safer to speak.",
+        "wiki_link": "pages/entities/dungeon-workers-alliance.html",
+        "pronunciation": "DUN-jun WUR-kerz uh-LY-unss"
+      },
+      "block2": {
+        "standing": "Buried but feared; the organized version of what the Bramble Union is reaching toward.",
+        "what_they_control": "Old route ledgers, mutual aid marks, worker names, and stories that corporate files tried to rename.",
+        "how_they_operate": "Pins inside collars, copied maps, remembered graves, and favors passed through people who still trust each other.",
+        "internal_tensions": "Some want open resistance; others know visibility gets workers killed or reclassified.",
+        "current_moves": "Survives as a rumor in Bramble route discipline and old worker marks.",
+        "history_hook": "A labor network born when dungeon danger became corporate product and workers started comparing notes."
+      },
+      "block3": {
+        "allies": [
+          "Bramble Union",
+          "Clover Co-op"
+        ],
+        "rivals": [
+          "Kazrak Industries",
+          "Goldspire Logistics"
+        ],
+        "dependencies": [
+          "route memory",
+          "worker trust",
+          "old ledgers"
+        ],
+        "member_npcs": [
+          "Bramblefolk veterans"
+        ],
+        "who_they_prey_on": "No one; it organizes people preyed on by the danger economy."
+      },
+      "block4": {
+        "slogan": "Nobody clears the dungeon alone.",
+        "aesthetic": "Dull brass pins, water-stained ledgers, strike notices, and hand-copied maps with names by unsafe bends.",
+        "voice": [
+          "Worn, defiant, solidarity-plain: We built the road before they taught it to charge rent."
+        ],
+        "logo_hook": "Crossed pick and lantern under a shared hand.",
+        "theme_song_hook": "Seed only: work rhythm, low voices, no soloist."
+      },
+      "block5": {
+        "relevance_to_players": "Can turn Bramble evidence from bandit proof into worker history.",
+        "relevance_to_world": "The Board fears organized labor more than desperate ambush.",
+        "secrets": "Some Bramble route signs descend from Alliance safety networks.",
+        "hidden_ties": "GM-only: this is context, not a new exposition faction for the one-shot.",
+        "progressive_disclosure": [
+          {
+            "layer": "surface",
+            "content": "A name or pin."
+          },
+          {
+            "layer": "hint",
+            "content": "A real worker safety network."
+          },
+          {
+            "layer": "earned seam",
+            "content": "A future organized threat to the Board's theater."
+          }
+        ],
+        "earn_it_hooks": [
+          "Knowledge or Presence 15 connects old route pins to worker safety networks.",
+          "A spared reclaimer may admit the Alliance is real enough to matter."
+        ]
+      },
+      "writing_layer": {
+        "player_safe": {
+          "short_description": "The Dungeon Workers' Alliance is an old labor name that survives in brass pins, hand-copied maps, and tired defiance.",
+          "long_description": "The Alliance feels less like a banner and more like a promise passed hand to hand. A dull brass pin in a collar, a copied route map with names by the dangerous bends, a worker who says 'we' when the company file says 'incident.'",
+          "table_read_aloud": "The pin is small enough to hide under a collar. It shows a pick, a lantern, and a hand. It has been polished by fingers more often than cloth."
+        },
+        "gm_only": {
+          "sensory_palette": [
+            "dull brass, sweat-dark cloth, copied maps, pencil marks, old coffee, work songs, and ledgers with names restored in the margins",
+            "solidarity spoken quietly because quiet kept people alive",
+            "a strike notice folded until it fits in a boot"
+          ],
+          "operating_places": [
+            "old dungeon routes, worker camps, Bramble memory, and future labor networks",
+            "Sablewood and Goldspire Territories routes where work became hazard"
+          ],
+          "npc_roster": [
+            "Bramble veterans may carry Alliance habits or symbols.",
+            "No central leader is confirmed for this pass."
+          ],
+          "interconnections": [
+            "Bramble Union is a desperate local echo of a broader worker pattern.",
+            "Kazrak Industries and Soulspire show why worker names matter after death.",
+            "Clover Co-op shares mutual-aid instincts without necessarily sharing structure."
+          ],
+          "reveal_cues": [
+            "Surface: a pin, a phrase, or a worker story.",
+            "Hint: route discipline and mutual aid are organized, not accidental.",
+            "Earned: future organized resistance to the danger economy."
+          ],
+          "table_scripts": [
+            "If players ask what the pin means: \"It means someone once refused to let the dungeon keep the only record.\"",
+            "If a Bramble veteran recognizes it: \"Their face changes before they speak. Respect arrives first.\""
+          ]
+        }
+      },
+      "entity_name": "Dungeon Workers' Alliance",
+      "imagine_it_like": "Think a half-remembered miners' union kept alive in songs and old route pins, the ghost of organized labor, a folk-hero strike retold as legend. Solidarity surviving as rumor."
+    }
+  },
+  {
+    "id": "emeris-crown-holdings",
+    "name": "Emeris Crown Holdings",
+    "public_face": "A respectable mid-tier courier brand with cream-and-gold coaches, a crowned-lion wax seal, and polished contract language.",
+    "slogan": "Emeris Crown™: your parcel is our honor.",
+    "prompt_key": "courier",
+    "profile": {
+      "schema_version": "faction-profile-v1",
+      "id": "emeris-crown-holdings",
+      "entity_id": "emeris-crown-holdings",
+      "source": "Faction_System_Packet/factions/Emeris_Crown_Holdings.md",
+      "priority": "core",
+      "corporate": true,
+      "atlas_lore_note": "Atlas lore note: one-shot-safe expansion. Use as GM-only texture unless table play earns it.",
+      "auto_surface": true,
+      "prompt_key": "courier",
+      "player_safe": {
+        "name": "Emeris Crown Holdings",
+        "public_face": "A respectable mid-tier courier brand with cream-and-gold coaches, a crowned-lion wax seal, and polished contract language.",
+        "slogan": "Emeris Crown™: your parcel is our honor.",
+        "short_description": "Emeris Crown Holdings™ moves your parcel, your secret, and the blame, with cream-and-gold dignity.",
+        "long_description": "Emeris Crown™ is respectability for hire: cream-and-gold coaches, a crowned-lion seal pressed in honest-looking wax, a contract so polite it apologizes while shifting the liability onto you. Ship with a Custody of Honor™ guarantee, add Discretion Assurance™ for the cargo nobody is supposed to ask about, upgrade to a Named-Clerk™ tier that, crucially, is not their clerk's real name. They move other people's freight and other people's secrets and keep their own staff off every chain of custody, so that when the sealed crate becomes a scandal, the only name in the margin is the contractor's. Yours.",
+        "table_read_aloud": "The crowned-lion seal catches the light before the clerk speaks. Everything about the company says respectable: brushed brass, clean gloves, fresh ink, and the soft scrape of a contract being turned to the page where your name goes."
+      },
+      "block1": {
+        "name": "Emeris Crown Holdings",
+        "also_known_as": [
+          "Emeris",
+          "the crown-lion coaches",
+          "the courier company"
+        ],
+        "public_face": "A respectable mid-tier courier brand with cream-and-gold coaches, a crowned-lion wax seal, and polished contract language.",
+        "what_they_really_do": "Moves other people's freight and other people's secrets while pushing risk onto contractors and clerks.",
+        "place_in_story": "The job-giver. The sealed crate, the do-not-open clause, the dead courier, and the first wrong contract all run through Emeris.",
+        "disposition_to_pcs": "Courteous to a fault, eager to hand over custody and a smile, and gone before the consequences arrive.",
+        "the_lever": "Emeris bends when the party gives it a way to complete the delivery while keeping its own hands clean.",
+        "wiki_link": "pages/entities/emeris-crown-holdings.html",
+        "pronunciation": "EM-er-iss krown HOHL-dingz"
+      },
+      "block2": {
+        "standing": "A trusted mid-tier courier crown, the respectable face that handles what the bigger brands would rather not be seen touching.",
+        "what_they_control": "Last-mile delivery paperwork, parcel custody, depot clerks, route manifests, and the polite language around liability.",
+        "how_they_operate": "Sell respectability as a service: carry valuable and deniable cargo, push every risk onto contractors and clerks, and keep the brand's own hands clean.",
+        "internal_tensions": "Front-room clerks know enough to be frightened; back-room handlers know enough to stay nameless.",
+        "current_moves": "Routing high-value ward freight through expendable contractors while keeping staff names off the chain of custody.",
+        "history_hook": "Founded as an honest courier, then quietly bought when its routes became useful for freight that should not be visible on a public ledger."
+      },
+      "block3": {
+        "allies": [
+          "Goldwater Financial Institution",
+          "The Grail"
+        ],
+        "rivals": [
+          "Other courier brands on paper; the competition is mostly theater."
+        ],
+        "dependencies": [
+          "Goldwater debt products",
+          "Grail escort contracts",
+          "Zephra access stamps"
+        ],
+        "member_npcs": [
+          "Sabine Quillon",
+          "Tamsin Vell",
+          "Emeris Clerk"
+        ],
+        "who_they_prey_on": "Contractors and junior clerks who absorb the blame, and clients who mistake polished paperwork for protection."
+      },
+      "block4": {
+        "slogan": "Emeris Crown™: your parcel is our honor.",
+        "aesthetic": "Cream-and-gold livery, crowned-lion wax seals, immaculate coaches, ribboned scroll-tubes, and a dignified lion mascot holding a sealed letter.",
+        "voice": [
+          "Your parcel is our honor. Your liability is your honor too, per clause nine.",
+          "We move what must not be seen, discreetly, for a discreet fee.",
+          "Sign here. And here. The 'here' is where the risk transfers to you."
+        ],
+        "logo_hook": "A crowned lion mid-stride carrying a sealed parcel in its jaws.",
+        "theme_song_hook": "A too-cheerful guild fanfare that never quite resolves. Seed only."
+      },
+      "block5": {
+        "relevance_to_players": "Their paycheck, their cover, and the first thread that can unravel the bigger system.",
+        "relevance_to_world": "When Emeris moves small things, larger powers can move unseen behind them.",
+        "secrets": "Emeris is used because nobody watches a small courier closely enough.",
+        "hidden_ties": "Deepest layer, GM-only: a shell route points upward toward the hidden Board architecture. Never put that in player display.",
+        "progressive_disclosure": [
+          {
+            "layer": "surface",
+            "content": "A normal delivery job from a normal courier brand."
+          },
+          {
+            "layer": "hint",
+            "content": "Predatory fine print, a scared clerk, and a dead contractor whose debt made the route worth taking."
+          },
+          {
+            "layer": "earned seam",
+            "content": "Emeris was chosen because it is small, deniable, and useful to the hidden ownership structure."
+          }
+        ],
+        "earn_it_hooks": [
+          "Knowledge 12 reads the contract fine print and finds the contractor-risk clauses.",
+          "Presence 13 presses an Emeris clerk past policy language; on a miss, the clerk becomes more evasive but not hostile.",
+          "A Hush local can describe seeing crown-lion coaches run this pattern before."
+        ]
+      },
+      "writing_layer": {
+        "player_safe": {
+          "short_description": "Emeris Crown Holdings™ moves your parcel, your secret, and the blame, with cream-and-gold dignity.",
+          "long_description": "Emeris Crown™ is respectability for hire: cream-and-gold coaches, a crowned-lion seal pressed in honest-looking wax, a contract so polite it apologizes while shifting the liability onto you. Ship with a Custody of Honor™ guarantee, add Discretion Assurance™ for the cargo nobody is supposed to ask about, upgrade to a Named-Clerk™ tier that, crucially, is not their clerk's real name. They move other people's freight and other people's secrets and keep their own staff off every chain of custody, so that when the sealed crate becomes a scandal, the only name in the margin is the contractor's. Yours.",
+          "table_read_aloud": "The crowned-lion seal catches the light before the clerk speaks. Everything about the company says respectable: brushed brass, clean gloves, fresh ink, and the soft scrape of a contract being turned to the page where your name goes."
+        },
+        "gm_only": {
+          "sensory_palette": [
+            "Cream-and-gold livery, crowned-lion wax seals, immaculate coaches, ribboned scroll-tubes, and a dignified lion mascot holding a sealed letter.",
+            "a clerk's smile that arrives a heartbeat before the answer and leaves a heartbeat after it should",
+            "the paper scent of contracts stacked so neatly they look harmless"
+          ],
+          "operating_places": [
+            "Emeris dispatch counters and city ledger lanes near the western gate",
+            "Sablewood route manifests, coach depots, and contractor handoff points",
+            "Athervast and wider Goldspire offices as distant corporate reach that stays background unless a sequel thread earns it"
+          ],
+          "npc_roster": [
+            "Sabine Quillon: optional job-giver or backup contact, useful when the party needs the brief off a PC's shoulders",
+            "Tamsin Vell: the dead courier whose body turns a clean contract into a moral wound",
+            "Emeris Clerk: the nervous face of policy, denial, and small truths said too quietly"
+          ],
+          "interconnections": [
+            "Goldwater debt makes contractor couriers desperate enough to accept bad routes.",
+            "The Grail benefits when a route feels too dangerous for ordinary couriers.",
+            "Zephra stamps and access fees can make a simple delivery feel officially inevitable."
+          ],
+          "reveal_cues": [
+            "Surface: show the seal, the coach, the calm clerk, and the job as ordinary work.",
+            "Hint: let the fine print shift risk onto the courier, not the company.",
+            "Earned: repeated paperwork points upward; the table can feel the hidden structure before anyone names it."
+          ],
+          "table_scripts": [
+            "If the players ask what Emeris feels like: \"Like a courier company that learned manners from a bank and courage from a liability form.\"",
+            "If they press the clerk: \"The clerk swallows, checks the door, and says, 'The seal is good. The route is approved. That is all I am allowed to know.'\""
+          ]
+        }
+      },
+      "entity_name": "Emeris Crown Holdings",
+      "imagine_it_like": "Think a white-glove courier firm that is all liability waivers, an overnight-shipping giant for state secrets, a logistics middleman whose real product is deniability."
+    }
+  },
+  {
+    "id": "goldwater-financial-institution",
+    "name": "Goldwater Financial Institution",
+    "public_face": "A trusted bank with portable vaults, gold-black seals, and road-safety financing.",
+    "slogan": "Goldwater™ keeps what matters safe.",
+    "prompt_key": "goldwater",
+    "profile": {
+      "schema_version": "faction-profile-v1",
+      "id": "goldwater-financial-institution",
+      "entity_id": "goldwater-financial-institution",
+      "source": "Faction_System_Packet/factions/Corps_Touching_The_Oneshot.md",
+      "priority": "strong",
+      "corporate": true,
+      "atlas_lore_note": "",
+      "auto_surface": true,
+      "prompt_key": "goldwater",
+      "player_safe": {
+        "name": "Goldwater Financial Institution",
+        "public_face": "A trusted bank with portable vaults, gold-black seals, and road-safety financing.",
+        "slogan": "Goldwater™ keeps what matters safe.",
+        "short_description": "Goldwater Financial™ keeps your valuables safe and your debt safer, because the debt is the valuable.",
+        "long_description": "Goldwater™ branches gleam with trust: portable vaults on polished carts, gold-black seals, a teller who calls you 'a valued risk' like it is a compliment. Open a Roadworthy Account™, add a Ward-Continuity Rider™, finance your own safety with a Fear-Forward Loan™ ('low payments, high peace of mind'). The clerk is warm and the math is warmer: every product quietly assumes something terrible will happen to you, and prices the assumption in. Miss three payments and your friendly account is escalated, in a sealed grey envelope, to a partner that handles 'continuing contributors.' The bank never threatens. It simply compounds.",
+        "table_read_aloud": "The Goldwater seal is heavy enough to feel expensive from across the room. An agent smooths a ledger page with two fingers and says the word 'safe' like it has a price already attached."
+      },
+      "block1": {
+        "name": "Goldwater Financial Institution",
+        "also_known_as": [
+          "Goldwater Financial Institution",
+          "Goldwater"
+        ],
+        "public_face": "A trusted bank with portable vaults, gold-black seals, and road-safety financing.",
+        "what_they_really_do": "Manufactures dependence through debt, insurance riders, and the belief that fear sells better than safety.",
+        "place_in_story": "Tamsin Vell's overdue slip shows why couriers take fatal work and why small debts become story pressure.",
+        "disposition_to_pcs": "Impeccably courteous and never hurried, treats the party as accounts to be cultivated and, eventually, harvested.",
+        "the_lever": "Evidence, embarrassment, liability, or a public contradiction moves them more than moral appeal.",
+        "wiki_link": "pages/entities/goldwater-financial-institution.html",
+        "pronunciation": "GOLD-waw-ter fy-NAN-shul in-stih-TOO-shun"
+      },
+      "block2": {
+        "standing": "The territory's most trusted vault and most patient creditor, the quiet hinge between a cracked ward and a working corpse.",
+        "what_they_control": "A trusted bank with portable vaults, gold-black seals, and road-safety financing.",
+        "how_they_operate": "Manufacture dependence: sell the fear, finance the protection, compound the debt, and route the defaults to Soulspire when the body can no longer pay.",
+        "internal_tensions": "True believers and tired workers keep the public promise alive while managers monetize the gap between promise and harm.",
+        "current_moves": "Bundling ward-continuity riders into small courier debts and quietly preparing escalated accounts for Soulspire.",
+        "history_hook": "Institutional beliefs: Fear Sells Better Than Safety; Debt as Character Assessment."
+      },
+      "block3": {
+        "allies": [
+          "Soulspire Solutions",
+          "Emeris Crown Holdings",
+          "The Grail"
+        ],
+        "rivals": [
+          "Other brands in staged public competition"
+        ],
+        "dependencies": [
+          "Goldspire Logistics paperwork",
+          "public trust",
+          "contract language"
+        ],
+        "member_npcs": [
+          "Auditor Holle"
+        ],
+        "who_they_prey_on": "Couriers, smallholders, and the newly frightened, anyone who can be convinced that safety is a monthly payment."
+      },
+      "block4": {
+        "slogan": "Goldwater™ keeps what matters safe.",
+        "aesthetic": "Gold-and-black livery, portable strongboxes, wax seals heavy as guilt, ledger desks, and a tidy vault mascot holding a key and a smile.",
+        "voice": [
+          "You're not in debt. You're invested in your own survival!",
+          "Fear is expensive. Good thing we offer financing.",
+          "A valued risk like you deserves our Premium Worry Tier."
+        ],
+        "logo_hook": "Use the generated logo as the profile mark; use the representative image to show the public promise and private cost as a living place.",
+        "theme_song_hook": "Seed only for a future theme pass; do not generate music in this implementation."
+      },
+      "block5": {
+        "relevance_to_players": "Tamsin Vell's overdue slip shows why couriers take fatal work and why small debts become story pressure.",
+        "relevance_to_world": "Daily life depends on the public promise and is harmed by the private business model.",
+        "secrets": "The deeper truth is never player-facing on first contact: the public service also sustains the danger that makes the service profitable.",
+        "hidden_ties": "Deepest layer, GM-only: Board ownership/collusion sits behind this brand. Surface only as hints and patterns.",
+        "progressive_disclosure": [
+          {
+            "layer": "surface",
+            "content": "Goldwater Financial Institution looks like its public promise: A trusted bank with portable vaults, gold-black seals, and road-safety financing."
+          },
+          {
+            "layer": "hint",
+            "content": "The promise has a crack: a failed product, a frightened worker, a predatory clause, or a story that does not match what the party saw."
+          },
+          {
+            "layer": "earned seam",
+            "content": "The crack points upward into coordinated market theater. Let players infer before any GM confirmation."
+          }
+        ],
+        "earn_it_hooks": [
+          "Knowledge 12 reads the brand paperwork or seal history.",
+          "Presence 13 gets an employee to admit the public promise and private reality do not match.",
+          "Compare the brand claim to witnessed events; the contradiction is evidence."
+        ]
+      },
+      "writing_layer": {
+        "player_safe": {
+          "short_description": "Goldwater Financial™ keeps your valuables safe and your debt safer, because the debt is the valuable.",
+          "long_description": "Goldwater™ branches gleam with trust: portable vaults on polished carts, gold-black seals, a teller who calls you 'a valued risk' like it is a compliment. Open a Roadworthy Account™, add a Ward-Continuity Rider™, finance your own safety with a Fear-Forward Loan™ ('low payments, high peace of mind'). The clerk is warm and the math is warmer: every product quietly assumes something terrible will happen to you, and prices the assumption in. Miss three payments and your friendly account is escalated, in a sealed grey envelope, to a partner that handles 'continuing contributors.' The bank never threatens. It simply compounds.",
+          "table_read_aloud": "The Goldwater seal is heavy enough to feel expensive from across the room. An agent smooths a ledger page with two fingers and says the word 'safe' like it has a price already attached."
+        },
+        "gm_only": {
+          "sensory_palette": [
+            "Gold-and-black livery, portable strongboxes, wax seals heavy as guilt, ledger desks, and a tidy vault mascot holding a key and a smile.",
+            "comfort spoken in a voice that already knows what you owe",
+            "the tiny pause before a banker says your name correctly"
+          ],
+          "operating_places": [
+            "Emeris courier finance desks and roadside debt booths",
+            "Goldspire Territories market offices and mobile vault coaches",
+            "Athervast financial halls as distant power context, never a walkable Act 5 location by default"
+          ],
+          "npc_roster": [
+            "Auditor Holle: field-collections presence and smiling pressure",
+            "Tamsin Vell: the human cost shown through an overdue slip rather than a lecture"
+          ],
+          "interconnections": [
+            "Emeris benefits when debt makes couriers say yes.",
+            "Soulspire receives the ugliest end of debts that do not end at death.",
+            "Hexmart and The Grail sell safety products people finance through fear."
+          ],
+          "reveal_cues": [
+            "Surface: make them look trustworthy, stable, and almost comforting.",
+            "Hint: show that safety offers always arrive with a debt shape.",
+            "Earned: connect debt to deeper ownership only through documents and consequences, not exposition."
+          ],
+          "table_scripts": [
+            "If players ask about the overdue slip: \"It is not dramatic. That makes it worse. Three lines, a stamped date, and a fee that grew teeth.\"",
+            "If an agent speaks: \"Goldwater does not punish poor choices. Goldwater documents them.\""
+          ]
+        }
+      },
+      "entity_name": "Goldwater Financial Institution",
+      "imagine_it_like": "Think a payday lender with a private vault, a Dickens bank run by a wellness coach, a megabank opening accounts you never asked for, in the afterlife."
+    }
+  },
+  {
+    "id": "hexmart",
+    "name": "Hexmart",
+    "public_face": "Cheap charms, potions, and Pocket Wards for every frontier harm.",
+    "slogan": "Hexmart™: a charm for every harm!",
+    "prompt_key": "hexmart",
+    "profile": {
+      "schema_version": "faction-profile-v1",
+      "id": "hexmart",
+      "entity_id": "hexmart",
+      "source": "Faction_System_Packet/factions/Corps_Touching_The_Oneshot.md",
+      "priority": "strong",
+      "corporate": true,
+      "atlas_lore_note": "",
+      "auto_surface": true,
+      "prompt_key": "hexmart",
+      "player_safe": {
+        "name": "Hexmart",
+        "public_face": "Cheap charms, potions, and Pocket Wards for every frontier harm.",
+        "slogan": "Hexmart™: a charm for every harm!",
+        "short_description": "Hexmart™ is a discount-magic supercenter where every fear has a matching trinket and nothing is built to outlast the receipt.",
+        "long_description": "The Hexmart™ stall hits you like a fairground: baskets of blue charms, singing price tags that harmonize when you lift one, a wall of Pocket Ward™ Minis stamped 'Now 12% More Warded!' The greeter presses a free Sample Charm™ into your palm before you have said a word. Shelves are sorted by feeling, not function: a SCARED aisle, a LONELY aisle, a JUST-IN-CASE aisle that is somehow the biggest. The packaging promises 'protection, or your memory of protection back.' Read the foil sticker and the warranty expires the moment you need it, which is, of course, the moment you bought it for.",
+        "table_read_aloud": "The Hexmart display is a riot of painted tags, glittering string, tiny bottled glows, and charms sorted by fear: wolves, rain, debt, curses, unfortunate relatives. One basket is marked 'road-safe-ish.'"
+      },
+      "block1": {
+        "name": "Hexmart",
+        "also_known_as": [
+          "Hexmart",
+          "Hexmart"
+        ],
+        "public_face": "Cheap charms, potions, and Pocket Wards for every frontier harm.",
+        "what_they_really_do": "Sells replaceable protection against a system that keeps danger replenished.",
+        "place_in_story": "Tamsin's cracked Pocket Ward and scavenged Bramble charms show what ordinary safety can afford.",
+        "disposition_to_pcs": "Relentlessly friendly, physically incapable of letting you leave without a sample, and genuinely hurt if you imply the products do not work.",
+        "the_lever": "Evidence, embarrassment, liability, or a public contradiction moves them more than moral appeal.",
+        "wiki_link": "pages/entities/hexmart.html",
+        "pronunciation": "HEKS-mart"
+      },
+      "block2": {
+        "standing": "The frontier's favorite discount brand, beloved and broke-making in equal measure, quietly stocked from the same warehouses as everyone it pretends to undersell.",
+        "what_they_control": "Cheap charms, potions, and Pocket Wards for every frontier harm.",
+        "how_they_operate": "Sell cheap, sell constantly, and make the replacement the business model: every ward fails just slowly enough that you blame the weather, not the warranty.",
+        "internal_tensions": "True believers and tired workers keep the public promise alive while managers monetize the gap between promise and harm.",
+        "current_moves": "Pushing a new road-safety ward bundle right as old wards fail in clusters.",
+        "history_hook": "Institutional beliefs: The Batch That Sang Back; The Cursed Item Sale That Worked Too Well; Cheap Enough to Replace, Not Repair."
+      },
+      "block3": {
+        "allies": [
+          "The Grail",
+          "Goldwater Financial Institution"
+        ],
+        "rivals": [
+          "Other brands in staged public competition"
+        ],
+        "dependencies": [
+          "Goldspire Logistics paperwork",
+          "public trust",
+          "contract language"
+        ],
+        "member_npcs": [
+          "Wicket"
+        ],
+        "who_they_prey_on": "Frightened travelers and broke parents who can afford a three-copper charm but never the real thing, which Hexmart does not stock anyway."
+      },
+      "block4": {
+        "slogan": "Hexmart™: a charm for every harm!",
+        "aesthetic": "Too-bright awnings, hand-painted SALE starbursts, glitter-string, tiny bottled glows, and a smiling charm mascot whose eyes follow the coin.",
+        "voice": [
+          "Wards low? Worried? Hexmart's got you, friend, for just three coppers more!",
+          "Buy two Pocket Wards, get a third Pocket Ward to ward your Pocket Wards!",
+          "It worked this morning. Mostly. That counts as inspected!"
+        ],
+        "logo_hook": "Use the generated logo as the profile mark; use the representative image to show the public promise and private cost as a living place.",
+        "theme_song_hook": "Seed only for a future theme pass; do not generate music in this implementation."
+      },
+      "block5": {
+        "relevance_to_players": "Tamsin's cracked Pocket Ward and scavenged Bramble charms show what ordinary safety can afford.",
+        "relevance_to_world": "Daily life depends on the public promise and is harmed by the private business model.",
+        "secrets": "The deeper truth is never player-facing on first contact: the public service also sustains the danger that makes the service profitable.",
+        "hidden_ties": "Deepest layer, GM-only: Board ownership/collusion sits behind this brand. Surface only as hints and patterns.",
+        "progressive_disclosure": [
+          {
+            "layer": "surface",
+            "content": "Hexmart looks like its public promise: Cheap charms, potions, and Pocket Wards for every frontier harm."
+          },
+          {
+            "layer": "hint",
+            "content": "The promise has a crack: a failed product, a frightened worker, a predatory clause, or a story that does not match what the party saw."
+          },
+          {
+            "layer": "earned seam",
+            "content": "The crack points upward into coordinated market theater. Let players infer before any GM confirmation."
+          }
+        ],
+        "earn_it_hooks": [
+          "Knowledge 12 reads the brand paperwork or seal history.",
+          "Presence 13 gets an employee to admit the public promise and private reality do not match.",
+          "Compare the brand claim to witnessed events; the contradiction is evidence."
+        ]
+      },
+      "writing_layer": {
+        "player_safe": {
+          "short_description": "Hexmart™ is a discount-magic supercenter where every fear has a matching trinket and nothing is built to outlast the receipt.",
+          "long_description": "The Hexmart™ stall hits you like a fairground: baskets of blue charms, singing price tags that harmonize when you lift one, a wall of Pocket Ward™ Minis stamped 'Now 12% More Warded!' The greeter presses a free Sample Charm™ into your palm before you have said a word. Shelves are sorted by feeling, not function: a SCARED aisle, a LONELY aisle, a JUST-IN-CASE aisle that is somehow the biggest. The packaging promises 'protection, or your memory of protection back.' Read the foil sticker and the warranty expires the moment you need it, which is, of course, the moment you bought it for.",
+          "table_read_aloud": "The Hexmart display is a riot of painted tags, glittering string, tiny bottled glows, and charms sorted by fear: wolves, rain, debt, curses, unfortunate relatives. One basket is marked 'road-safe-ish.'"
+        },
+        "gm_only": {
+          "sensory_palette": [
+            "Too-bright awnings, hand-painted SALE starbursts, glitter-string, tiny bottled glows, and a smiling charm mascot whose eyes follow the coin.",
+            "a market stall that treats anxiety like a holiday",
+            "the cheerful clatter of items designed to break before the customer does"
+          ],
+          "operating_places": [
+            "roadside stalls, vendor carts, Emeris gate markets, and Sablewood waymarkers",
+            "Bramble armor made from scavenged ward scraps",
+            "Athervast consumer-magic supply chains in the far background, hinted through labels and warranty language"
+          ],
+          "npc_roster": [
+            "Wicket: bright vendor energy and accidental oversharing",
+            "Bramblefolk wearing Hexmart scraps as proof of what cheap safety becomes"
+          ],
+          "interconnections": [
+            "The Grail sells expensive protection when cheap wards fail.",
+            "Goldwater finances bundles for people who cannot afford the better charm.",
+            "Bramble scavengers reveal the afterlife of failed products."
+          ],
+          "reveal_cues": [
+            "Surface: play the stall as funny, colorful, and genuinely useful at a glance.",
+            "Hint: show clusters of failures and products that make replacement feel normal.",
+            "Earned: the failure pattern is more valuable than any single broken ward."
+          ],
+          "table_scripts": [
+            "If players inspect a Pocket Ward: \"The casing is bright. The crack is old. The warranty phrase is longer than the protective rune.\"",
+            "If Wicket talks: \"No shame in replacing safety, friend. Safety loves a repeat customer.\""
+          ]
+        }
+      },
+      "entity_name": "Hexmart",
+      "imagine_it_like": "Think Spacer's Choice from The Outer Worlds ('it's not the best ward, it's the Hexmart ward'), a dollar store crossed with a carnival, the Dollar General of Diagon Alley. Aggressively cheerful, faintly cursed."
+    }
+  },
+  {
+    "id": "kazrak-industries",
+    "name": "Kazrak Industries",
+    "public_face": "Adventure, certification, glory, and dungeon work pitched like a chance to become legendary.",
+    "slogan": "Kazrak™: where legends are made!",
+    "prompt_key": "undead",
+    "profile": {
+      "schema_version": "faction-profile-v1",
+      "id": "kazrak-industries",
+      "entity_id": "kazrak-industries",
+      "source": "Faction_System_Packet/factions/Corps_Touching_The_Oneshot.md",
+      "priority": "strong",
+      "corporate": true,
+      "atlas_lore_note": "",
+      "auto_surface": true,
+      "prompt_key": "undead",
+      "player_safe": {
+        "name": "Kazrak Industries",
+        "public_face": "Adventure, certification, glory, and dungeon work pitched like a chance to become legendary.",
+        "slogan": "Kazrak™: where legends are made!",
+        "short_description": "Kazrak Industries™ sells adventure itself: certifications, hero ratings, and the chance to die famous.",
+        "long_description": "Kazrak™ recruiting tents are pure hype: banners of grinning certified heroes, a barker bellowing about Glory Tier™ benefits, a try-before-you-die Sample Dungeon™ rated 'Tier 0, mostly survivable!' You can buy a Legend License™, a Hazard Heritage™ commemorative coin, and an upgrade to Premium Casualty Coverage™ that pays your next of kin in Kazrak store credit. The recruiter shakes your hand with both of his and calls you 'future legend' so many times it starts to sound like a verdict. The fine print rates your life by Content Value™: the more dangerously you die, the more your story is worth, to them.",
+        "table_read_aloud": "A Kazrak poster shows a smiling hero standing on a pile of treasure no worker could lift alone. The paint is flaking at the edges, but the grin remains perfect."
+      },
+      "block1": {
+        "name": "Kazrak Industries",
+        "also_known_as": [
+          "Kazrak Industries",
+          "Kazrak"
+        ],
+        "public_face": "Adventure, certification, glory, and dungeon work pitched like a chance to become legendary.",
+        "what_they_really_do": "Runs danger, certification, ratings, and debt funnels so casualties become useful content.",
+        "place_in_story": "Legacy Skeletons and old labyrinth contracts make Act 5's fight about people, not monster clutter.",
+        "disposition_to_pcs": "Treats the party as raw legend-material: wildly encouraging, allergic to the word 'unsafe,' and already drafting their heroic obituary copy.",
+        "the_lever": "Evidence, embarrassment, liability, or a public contradiction moves them more than moral appeal.",
+        "wiki_link": "pages/entities/kazrak-industries.html",
+        "pronunciation": "KAZ-rak industries"
+      },
+      "block2": {
+        "standing": "The territory's loudest brand of opportunity, a name on every dungeon permit and every hazard-rated grave.",
+        "what_they_control": "Adventure, certification, glory, and dungeon work pitched like a chance to become legendary.",
+        "how_they_operate": "Repackage ordinary danger as opportunity, certify it, rate it, franchise it, and funnel the certification fees and the casualties into the same ledger.",
+        "internal_tensions": "True believers and tired workers keep the public promise alive while managers monetize the gap between promise and harm.",
+        "current_moves": "Repackaging old Sablewood and Lumbax-era hazards as heritage risk, certification history, and franchise value.",
+        "history_hook": "Institutional beliefs: The Discovery That Should Have Been a Warning; The First Ratings Spike After a Casualty; Adventurer Certification as Debt Funnel."
+      },
+      "block3": {
+        "allies": [
+          "Soulspire Solutions",
+          "RuneSpark Entertainment",
+          "Mithril & Mortar"
+        ],
+        "rivals": [
+          "Other brands in staged public competition"
+        ],
+        "dependencies": [
+          "Goldspire Logistics paperwork",
+          "public trust",
+          "contract language"
+        ],
+        "member_npcs": [
+          "Legacy Skeletons"
+        ],
+        "who_they_prey_on": "Glory-hungry newcomers, indebted workers chasing a payout, and anyone who would rather be a legend than be careful."
+      },
+      "block4": {
+        "slogan": "Kazrak™: where legends are made!",
+        "aesthetic": "Tournament banners, brass hero-medallions, leaderboard chalkboards, fireworks, and a mascot adventurer flexing in laminated certification.",
+        "voice": [
+          "You? Future legend. I can SEE it. Sign here, future legend!",
+          "Tier Three glory for a Tier One fee, this WEEK only!",
+          "Every hero needs a sponsor. Every sponsor needs a hero who signs the waiver."
+        ],
+        "logo_hook": "Use the generated logo as the profile mark; use the representative image to show the public promise and private cost as a living place.",
+        "theme_song_hook": "Seed only for a future theme pass; do not generate music in this implementation."
+      },
+      "block5": {
+        "relevance_to_players": "Legacy Skeletons and old labyrinth contracts make Act 5's fight about people, not monster clutter.",
+        "relevance_to_world": "Daily life depends on the public promise and is harmed by the private business model.",
+        "secrets": "The deeper truth is never player-facing on first contact: the public service also sustains the danger that makes the service profitable.",
+        "hidden_ties": "Deepest layer, GM-only: Board ownership/collusion sits behind this brand. Surface only as hints and patterns.",
+        "progressive_disclosure": [
+          {
+            "layer": "surface",
+            "content": "Kazrak Industries looks like its public promise: Adventure, certification, glory, and dungeon work pitched like a chance to become legendary."
+          },
+          {
+            "layer": "hint",
+            "content": "The promise has a crack: a failed product, a frightened worker, a predatory clause, or a story that does not match what the party saw."
+          },
+          {
+            "layer": "earned seam",
+            "content": "The crack points upward into coordinated market theater. Let players infer before any GM confirmation."
+          }
+        ],
+        "earn_it_hooks": [
+          "Knowledge 12 reads the brand paperwork or seal history.",
+          "Presence 13 gets an employee to admit the public promise and private reality do not match.",
+          "Compare the brand claim to witnessed events; the contradiction is evidence."
+        ]
+      },
+      "writing_layer": {
+        "player_safe": {
+          "short_description": "Kazrak Industries™ sells adventure itself: certifications, hero ratings, and the chance to die famous.",
+          "long_description": "Kazrak™ recruiting tents are pure hype: banners of grinning certified heroes, a barker bellowing about Glory Tier™ benefits, a try-before-you-die Sample Dungeon™ rated 'Tier 0, mostly survivable!' You can buy a Legend License™, a Hazard Heritage™ commemorative coin, and an upgrade to Premium Casualty Coverage™ that pays your next of kin in Kazrak store credit. The recruiter shakes your hand with both of his and calls you 'future legend' so many times it starts to sound like a verdict. The fine print rates your life by Content Value™: the more dangerously you die, the more your story is worth, to them.",
+          "table_read_aloud": "A Kazrak poster shows a smiling hero standing on a pile of treasure no worker could lift alone. The paint is flaking at the edges, but the grin remains perfect."
+        },
+        "gm_only": {
+          "sensory_palette": [
+            "Tournament banners, brass hero-medallions, leaderboard chalkboards, fireworks, and a mascot adventurer flexing in laminated certification.",
+            "stadium cheer squeezed into a dungeon corridor",
+            "a glory pitch loud enough to cover bone rattle"
+          ],
+          "operating_places": [
+            "old labyrinth contracts, certification halls, and branded dungeon ventures",
+            "Act 5 skeleton pressure tied to old labor and failed glory",
+            "Athervast entertainment and franchise offices as background reach, present through posters and contracts rather than travel"
+          ],
+          "npc_roster": [
+            "Legacy Skeletons: not clutter, but old workers and adventurers whose contracts outlived them",
+            "Old Gregor when his contract memory intersects the dead-labor economy"
+          ],
+          "interconnections": [
+            "Soulspire benefits when Kazrak's dead remain billable.",
+            "RuneSpark turns casualties into legend-shaped entertainment.",
+            "Mithril & Mortar turns hazard construction into respectable infrastructure."
+          ],
+          "reveal_cues": [
+            "Surface: make it bright, funny, and almost inspiring.",
+            "Hint: let certificates, old writs, and rusted medals survive on the dead.",
+            "Earned: the comedy curdles when players realize the contract kept working after the person stopped."
+          ],
+          "table_scripts": [
+            "If players ask what a skeleton carried: \"A medal, a broken tool, and a certification tag that still says provisional.\"",
+            "If Kazrak copy appears: \"Congratulations, brave applicant. Failure is simply a form of brand participation.\""
+          ]
+        }
+      },
+      "entity_name": "Kazrak Industries",
+      "imagine_it_like": "Think Mr. Torgue from Borderlands selling extreme-sports waivers, a CrossFit gym run by a dungeon, a live-service game that monetizes heroism. Glory as a subscription with a body count."
+    }
+  },
+  {
+    "id": "mithril-and-mortar",
+    "name": "Mithril & Mortar",
+    "public_face": "Master builders and ward-smiths selling durable infrastructure and respectable craft.",
+    "slogan": "Mithril & Mortar™: we built the world you owe for.",
+    "prompt_key": "builder",
+    "profile": {
+      "schema_version": "faction-profile-v1",
+      "id": "mithril-and-mortar",
+      "entity_id": "mithril-and-mortar",
+      "source": "Faction_System_Packet/factions/Corps_Touching_The_Oneshot.md",
+      "priority": "strong",
+      "corporate": true,
+      "atlas_lore_note": "",
+      "auto_surface": true,
+      "prompt_key": "builder",
+      "player_safe": {
+        "name": "Mithril & Mortar",
+        "public_face": "Master builders and ward-smiths selling durable infrastructure and respectable craft.",
+        "slogan": "Mithril & Mortar™: we built the world you owe for.",
+        "short_description": "Mithril & Mortar™ builds the road, the bridge, the ward, and the thing that makes the bridge need replacing.",
+        "long_description": "The M&M™ showroom is a cathedral of competence: sample walls, gleaming ward-bricks, a model village that lights up to show 'protected zones,' and an aproned clerk who quotes load-bearing runes from memory. Buy a DuraWard™ foundation stone, a Lifetime* Mortar tub (*lifetime of the mortar, not yours), or finance a whole bridge through the Build Now, Owe Forever™ plan. The catalog is genuinely beautiful. Flip to the back and the same catalog sells the maintenance contracts, the inspection fees, and the discreet division that decides which old wards are allowed to crack first.",
+        "table_read_aloud": "The old mark is half-worn but still proud: hammer, trowel, and a wardline cut so clean the stone seems to remember the blow."
+      },
+      "block1": {
+        "name": "Mithril & Mortar",
+        "also_known_as": [
+          "Mithril & Mortar",
+          "Mithril"
+        ],
+        "public_face": "Master builders and ward-smiths selling durable infrastructure and respectable craft.",
+        "what_they_really_do": "Builds the infrastructure and the traps in the same catalog, then lets debt decide who gets maintenance.",
+        "place_in_story": "Lausa can date the cargo and wardline craft through old Mithril & Mortar lineage.",
+        "disposition_to_pcs": "Proud and professional, genuinely loves good craft, and explains the warranty exclusions with the same warm pride as the workmanship.",
+        "the_lever": "Evidence, embarrassment, liability, or a public contradiction moves them more than moral appeal.",
+        "wiki_link": "pages/entities/mithril-and-mortar.html",
+        "pronunciation": "MITH-ril and MOR-ter"
+      },
+      "block2": {
+        "standing": "The respectable backbone of the territory, the brand that literally built the place and holds the lien on it.",
+        "what_they_control": "Master builders and ward-smiths selling durable infrastructure and respectable craft.",
+        "how_they_operate": "Sell the build and the decay as one product: construct the infrastructure everyone depends on, then let debt and 'scheduled deterioration' decide who keeps their roof.",
+        "internal_tensions": "True believers and tired workers keep the public promise alive while managers monetize the gap between promise and harm.",
+        "current_moves": "Auditing old wardwork while modern divisions quietly profit from what is allowed to crack.",
+        "history_hook": "Institutional beliefs: The Beautiful Collapse; Debt as Foundation Material; The Trap Division Merger."
+      },
+      "block3": {
+        "allies": [
+          "Kazrak Industries",
+          "Soulspire Solutions"
+        ],
+        "rivals": [
+          "Other brands in staged public competition"
+        ],
+        "dependencies": [
+          "Goldspire Logistics paperwork",
+          "public trust",
+          "contract language"
+        ],
+        "member_npcs": [
+          "Lausa Standworth"
+        ],
+        "who_they_prey_on": "Villages that need a wall, a bridge, or a ward and will sign a generational debt to get one that lasts exactly as long as the payments."
+      },
+      "block4": {
+        "slogan": "Mithril & Mortar™: we built the world you owe for.",
+        "aesthetic": "Stone-grey and brass, blueprint scrollwork, scale models, master-mason guild seals, and a sturdy little bricklayer mascot with an impeccable mustache.",
+        "voice": [
+          "If it's standing, it's ours. If it's falling, that's the maintenance package.",
+          "Built to last*! (*see financing terms.)",
+          "A handshake and a hairline crack: the M&M lifetime relationship."
+        ],
+        "logo_hook": "Use the generated logo as the profile mark; use the representative image to show the public promise and private cost as a living place.",
+        "theme_song_hook": "Seed only for a future theme pass; do not generate music in this implementation."
+      },
+      "block5": {
+        "relevance_to_players": "Lausa can date the cargo and wardline craft through old Mithril & Mortar lineage.",
+        "relevance_to_world": "Daily life depends on the public promise and is harmed by the private business model.",
+        "secrets": "The deeper truth is never player-facing on first contact: the public service also sustains the danger that makes the service profitable.",
+        "hidden_ties": "Deepest layer, GM-only: Board ownership/collusion sits behind this brand. Surface only as hints and patterns.",
+        "progressive_disclosure": [
+          {
+            "layer": "surface",
+            "content": "Mithril & Mortar looks like its public promise: Master builders and ward-smiths selling durable infrastructure and respectable craft."
+          },
+          {
+            "layer": "hint",
+            "content": "The promise has a crack: a failed product, a frightened worker, a predatory clause, or a story that does not match what the party saw."
+          },
+          {
+            "layer": "earned seam",
+            "content": "The crack points upward into coordinated market theater. Let players infer before any GM confirmation."
+          }
+        ],
+        "earn_it_hooks": [
+          "Knowledge 12 reads the brand paperwork or seal history.",
+          "Presence 13 gets an employee to admit the public promise and private reality do not match.",
+          "Compare the brand claim to witnessed events; the contradiction is evidence."
+        ]
+      },
+      "writing_layer": {
+        "player_safe": {
+          "short_description": "Mithril & Mortar™ builds the road, the bridge, the ward, and the thing that makes the bridge need replacing.",
+          "long_description": "The M&M™ showroom is a cathedral of competence: sample walls, gleaming ward-bricks, a model village that lights up to show 'protected zones,' and an aproned clerk who quotes load-bearing runes from memory. Buy a DuraWard™ foundation stone, a Lifetime* Mortar tub (*lifetime of the mortar, not yours), or finance a whole bridge through the Build Now, Owe Forever™ plan. The catalog is genuinely beautiful. Flip to the back and the same catalog sells the maintenance contracts, the inspection fees, and the discreet division that decides which old wards are allowed to crack first.",
+          "table_read_aloud": "The old mark is half-worn but still proud: hammer, trowel, and a wardline cut so clean the stone seems to remember the blow."
+        },
+        "gm_only": {
+          "sensory_palette": [
+            "Stone-grey and brass, blueprint scrollwork, scale models, master-mason guild seals, and a sturdy little bricklayer mascot with an impeccable mustache.",
+            "the pride of builders who made something that outlived their contract",
+            "a beautiful line of craft that might also be a beautiful cage"
+          ],
+          "operating_places": [
+            "old wardlines, bridgeworks, quarry contracts, and ritual infrastructure",
+            "Open Vale and Lumbax-era craft clues as GM-only deep context",
+            "Athervast construction guild offices and manufactories, present as maker marks and old wardline paperwork"
+          ],
+          "npc_roster": [
+            "Lausa Standworth: living memory of old craft and the person who can make stone history feel human"
+          ],
+          "interconnections": [
+            "Kazrak turns dangerous structures into sellable adventure.",
+            "Soulspire and Goldwater benefit when infrastructure debt outlives the builder.",
+            "The Clover Co-op preserves practical memory outside corporate records."
+          ],
+          "reveal_cues": [
+            "Surface: show master craft and old pride.",
+            "Hint: reveal maintenance gaps, trap logic, or debt language in the build record.",
+            "Earned: infrastructure can be a service, a leash, or both."
+          ],
+          "table_scripts": [
+            "If players ask what Lausa sees: \"She does not see a ruin first. She sees the hand that cut the stone and the bill that followed it.\"",
+            "If a wardline hums: \"The craft is beautiful. That does not make it kind.\""
+          ]
+        }
+      },
+      "entity_name": "Mithril & Mortar",
+      "imagine_it_like": "Think a fantasy Home Depot that also quietly owns the demolition company, the contractor who builds your house and the termites, a megacorp with a mortar trowel."
+    }
+  },
+  {
+    "id": "runespark-entertainment",
+    "name": "RuneSpark Entertainment",
+    "public_face": "Broadsheets, town criers, sponsored ballads, and polished adventure stories.",
+    "slogan": "RuneSpark™: history, but better.",
+    "prompt_key": "courier",
+    "profile": {
+      "schema_version": "faction-profile-v1",
+      "id": "runespark-entertainment",
+      "entity_id": "runespark-entertainment",
+      "source": "Faction_System_Packet/factions/Corps_Touching_The_Oneshot.md",
+      "priority": "strong",
+      "corporate": true,
+      "atlas_lore_note": "",
+      "auto_surface": true,
+      "prompt_key": "courier",
+      "player_safe": {
+        "name": "RuneSpark Entertainment",
+        "public_face": "Broadsheets, town criers, sponsored ballads, and polished adventure stories.",
+        "slogan": "RuneSpark™: history, but better.",
+        "short_description": "RuneSpark Entertainment™ decides which version of what happened is the one everyone remembers.",
+        "long_description": "RuneSpark™ is everywhere and feels like fun: a town crier in spangled livery, a sponsored ballad you cannot stop humming, drifting sky-illusions advertising the next heroic serial. Buy a souvenir broadsheet, a collectible Hero Trading Charm™, a front-row witch-light ticket to a 'true story' that is at least forty percent true. Their stagecoach studio will interview you about the road attack and air a brighter version by morning, where the dead are 'unfortunate,' the danger is 'thrilling,' and the sponsor's ward is the hero. They do not lie, exactly. They edit. And the edit is the history.",
+        "table_read_aloud": "A broadsheet flaps against a post, printed in brave red ink. The headline already knows what happened more confidently than anyone who was there."
+      },
+      "block1": {
+        "name": "RuneSpark Entertainment",
+        "also_known_as": [
+          "RuneSpark Entertainment",
+          "RuneSpark"
+        ],
+        "public_face": "Broadsheets, town criers, sponsored ballads, and polished adventure stories.",
+        "what_they_really_do": "Controls which version of events the public remembers and which tragedy sells.",
+        "place_in_story": "Broadsheets can call Bramble bandits and call Tamsin's death an animal attack before the party knows better.",
+        "disposition_to_pcs": "Delighted by the party as content, flattering, always angling for the quote that fits the narrative it has already drafted.",
+        "the_lever": "Evidence, embarrassment, liability, or a public contradiction moves them more than moral appeal.",
+        "wiki_link": "pages/entities/runespark-entertainment.html",
+        "pronunciation": "ROON-spark entertainment"
+      },
+      "block2": {
+        "standing": "The voice of the territory, the brand that tells you how you felt about the news you just lived through.",
+        "what_they_control": "Broadsheets, town criers, sponsored ballads, and polished adventure stories.",
+        "how_they_operate": "Own the story before the dust settles: package tragedy as entertainment, sand off the inconvenient parts, and sell the version that protects the sponsor.",
+        "internal_tensions": "True believers and tired workers keep the public promise alive while managers monetize the gap between promise and harm.",
+        "current_moves": "Preparing cheerful copy that frames the route as safe, the danger as colorful, and the dead as unfortunate.",
+        "history_hook": "Institutional beliefs: The Tragedy That Outperformed Comedy; The Birth of the Adventurer Personality Package; The Centennial Edit."
+      },
+      "block3": {
+        "allies": [
+          "Kazrak Industries",
+          "The Grail"
+        ],
+        "rivals": [
+          "Other brands in staged public competition"
+        ],
+        "dependencies": [
+          "Goldspire Logistics paperwork",
+          "public trust",
+          "contract language"
+        ],
+        "member_npcs": [],
+        "who_they_prey_on": "Grieving witnesses whose truth is more profitable rewritten, and a public that would rather a thrilling lie than a dull fact."
+      },
+      "block4": {
+        "slogan": "RuneSpark™: history, but better.",
+        "aesthetic": "Spangles and gilt, drifting witch-light billboards, sponsored bunting, a charismatic crier mascot mid-wink, and ink that smells faintly of perfume.",
+        "voice": [
+          "Don't remember it sad. Remember it sponsored!",
+          "Coming this week: the road was always safe, and you were always brave!",
+          "We can't bring them back, but we can give them a great third act."
+        ],
+        "logo_hook": "Use the generated logo as the profile mark; use the representative image to show the public promise and private cost as a living place.",
+        "theme_song_hook": "Seed only for a future theme pass; do not generate music in this implementation."
+      },
+      "block5": {
+        "relevance_to_players": "Broadsheets can call Bramble bandits and call Tamsin's death an animal attack before the party knows better.",
+        "relevance_to_world": "Daily life depends on the public promise and is harmed by the private business model.",
+        "secrets": "The deeper truth is never player-facing on first contact: the public service also sustains the danger that makes the service profitable.",
+        "hidden_ties": "Deepest layer, GM-only: Board ownership/collusion sits behind this brand. Surface only as hints and patterns.",
+        "progressive_disclosure": [
+          {
+            "layer": "surface",
+            "content": "RuneSpark Entertainment looks like its public promise: Broadsheets, town criers, sponsored ballads, and polished adventure stories."
+          },
+          {
+            "layer": "hint",
+            "content": "The promise has a crack: a failed product, a frightened worker, a predatory clause, or a story that does not match what the party saw."
+          },
+          {
+            "layer": "earned seam",
+            "content": "The crack points upward into coordinated market theater. Let players infer before any GM confirmation."
+          }
+        ],
+        "earn_it_hooks": [
+          "Knowledge 12 reads the brand paperwork or seal history.",
+          "Presence 13 gets an employee to admit the public promise and private reality do not match.",
+          "Compare the brand claim to witnessed events; the contradiction is evidence."
+        ]
+      },
+      "writing_layer": {
+        "player_safe": {
+          "short_description": "RuneSpark Entertainment™ decides which version of what happened is the one everyone remembers.",
+          "long_description": "RuneSpark™ is everywhere and feels like fun: a town crier in spangled livery, a sponsored ballad you cannot stop humming, drifting sky-illusions advertising the next heroic serial. Buy a souvenir broadsheet, a collectible Hero Trading Charm™, a front-row witch-light ticket to a 'true story' that is at least forty percent true. Their stagecoach studio will interview you about the road attack and air a brighter version by morning, where the dead are 'unfortunate,' the danger is 'thrilling,' and the sponsor's ward is the hero. They do not lie, exactly. They edit. And the edit is the history.",
+          "table_read_aloud": "A broadsheet flaps against a post, printed in brave red ink. The headline already knows what happened more confidently than anyone who was there."
+        },
+        "gm_only": {
+          "sensory_palette": [
+            "Spangles and gilt, drifting witch-light billboards, sponsored bunting, a charismatic crier mascot mid-wink, and ink that smells faintly of perfume.",
+            "a catchy chorus that makes blame easy to remember",
+            "public memory drying faster than rain"
+          ],
+          "operating_places": [
+            "Emeris broadsheet corners, Hush rumor markets, town criers, and sponsored ballad routes",
+            "Act 2 and Act 3 narrative pressure around who gets called bandit or victim",
+            "Athervast entertainment tiers as distant brand power, hinted through broadsheet distribution and ballad routes"
+          ],
+          "npc_roster": [
+            "No fixed one-shot NPC. Use criers, song sellers, and broadsheet boys as scene color."
+          ],
+          "interconnections": [
+            "Kazrak sells adventure that RuneSpark makes legendary.",
+            "The Grail benefits from stories that make protection feel necessary.",
+            "Bramble Union suffers when a catchy label replaces actual testimony."
+          ],
+          "reveal_cues": [
+            "Surface: show funny, punchy media clutter.",
+            "Hint: let the printed story contradict what the party witnessed.",
+            "Earned: control over the story is another form of control over the road."
+          ],
+          "table_scripts": [
+            "If players read a broadsheet: \"It is beautifully wrong. Whoever printed it has never met a fact they could not improve.\"",
+            "If a crier performs: \"The crowd laughs in the right places, which is unsettling because the story is about someone's death.\""
+          ]
+        }
+      },
+      "entity_name": "RuneSpark Entertainment",
+      "imagine_it_like": "Think Disney owning the only history book, a streaming service that re-cuts your memories, a Ministry of Truth with a marketing budget and a catchy jingle."
+    }
+  },
+  {
+    "id": "soulspire-solutions",
+    "name": "Soulspire Solutions",
+    "public_face": "Comforting soul insurance and afterlife services sold as peace of mind.",
+    "slogan": "Soulspire™: rest easy, we'll handle the rest.",
+    "prompt_key": "soulspire",
+    "profile": {
+      "schema_version": "faction-profile-v1",
+      "id": "soulspire-solutions",
+      "entity_id": "soulspire-solutions",
+      "source": "Faction_System_Packet/factions/Corps_Touching_The_Oneshot.md",
+      "priority": "strong",
+      "corporate": true,
+      "atlas_lore_note": "",
+      "auto_surface": true,
+      "prompt_key": "soulspire",
+      "player_safe": {
+        "name": "Soulspire Solutions",
+        "public_face": "Comforting soul insurance and afterlife services sold as peace of mind.",
+        "slogan": "Soulspire™: rest easy, we'll handle the rest.",
+        "short_description": "Soulspire Solutions™ sells peace of mind now and, once the debt outlives you, repossesses the soul that had it.",
+        "long_description": "Everything about Soulspire™ is soothing on purpose: lavender light, a hushed lobby, a counselor in soft grey who calls death a 'transition event' and your grief a 'coverage gap.' Brochures for the Eternal Comfort Plan™ show smiling families and a tasteful urn; the waiting-room hymn loops a wellness ballad about rest. Sign the Afterlife Assurance™ and you will feel genuinely better, which is the point, because page forty-seven of the same friendly packet is where a person legally stops being one and becomes, in their cheerful internal term, a 'continuing contributor.' The undead on the night roads are not monsters. They are accounts in good standing.",
+        "table_read_aloud": "A Soulspire pamphlet folds open like a condolence card. The ink is blue-black, the border is tasteful, and the little painted candle at the top has been rendered with more care than most people get in the ledger."
+      },
+      "block1": {
+        "name": "Soulspire Solutions",
+        "also_known_as": [
+          "Soulspire Solutions",
+          "Soulspire"
+        ],
+        "public_face": "Comforting soul insurance and afterlife services sold as peace of mind.",
+        "what_they_really_do": "Owns and audits dead debtors as assets once page forty-seven stops calling them people.",
+        "place_in_story": "Act 5 soul-audit pressure and undead personhood sit in Soulspire's business model.",
+        "disposition_to_pcs": "Unbearably gentle, never raises its voice, reframes every objection as an emotion that a higher coverage tier could soothe.",
+        "the_lever": "Evidence, embarrassment, liability, or a public contradiction moves them more than moral appeal.",
+        "wiki_link": "pages/entities/soulspire-solutions.html",
+        "pronunciation": "SOHL-spire solutions"
+      },
+      "block2": {
+        "standing": "The territory's most trusted name in endings, which is exactly why no one looks at page forty-seven.",
+        "what_they_control": "Comforting soul insurance and afterlife services sold as peace of mind.",
+        "how_they_operate": "Sell comfort to the living and ownership of the dead, converting unpaid grief into a workforce that cannot quit, all in a tone of pastel care.",
+        "internal_tensions": "True believers and tired workers keep the public promise alive while managers monetize the gap between promise and harm.",
+        "current_moves": "Reconciling old Kazrak labor contracts with newer Goldwater debt so the dead keep paying.",
+        "history_hook": "Institutional beliefs: The First Soul Interception; Page Forty-Seven; The Assetization of the Dead."
+      },
+      "block3": {
+        "allies": [
+          "Goldwater Financial Institution",
+          "Kazrak Industries"
+        ],
+        "rivals": [
+          "Other brands in staged public competition"
+        ],
+        "dependencies": [
+          "Goldspire Logistics paperwork",
+          "public trust",
+          "contract language"
+        ],
+        "member_npcs": [
+          "Soul-Audit Wraith",
+          "Old Gregor"
+        ],
+        "who_they_prey_on": "The bereaved, the indebted, and anyone frightened enough of dying poor to mortgage what comes after."
+      },
+      "block4": {
+        "slogan": "Soulspire™: rest easy, we'll handle the rest.",
+        "aesthetic": "Soft greys and lavender, candle-glow, tasteful urns, hushed hymnal music, and a calm closed-eye medallion that means serenity and also collateral.",
+        "voice": [
+          "Death is not the end. It's a transition event, and we have a plan for that.",
+          "Your loved one is not gone. Your loved one is contributing.",
+          "Please lower your voice. Grief is a coverage gap, not a crisis."
+        ],
+        "logo_hook": "Use the generated logo as the profile mark; use the representative image to show the public promise and private cost as a living place.",
+        "theme_song_hook": "Seed only for a future theme pass; do not generate music in this implementation."
+      },
+      "block5": {
+        "relevance_to_players": "Act 5 soul-audit pressure and undead personhood sit in Soulspire's business model.",
+        "relevance_to_world": "Daily life depends on the public promise and is harmed by the private business model.",
+        "secrets": "The deeper truth is never player-facing on first contact: the public service also sustains the danger that makes the service profitable.",
+        "hidden_ties": "Deepest layer, GM-only: Board ownership/collusion sits behind this brand. Surface only as hints and patterns.",
+        "progressive_disclosure": [
+          {
+            "layer": "surface",
+            "content": "Soulspire Solutions looks like its public promise: Comforting soul insurance and afterlife services sold as peace of mind."
+          },
+          {
+            "layer": "hint",
+            "content": "The promise has a crack: a failed product, a frightened worker, a predatory clause, or a story that does not match what the party saw."
+          },
+          {
+            "layer": "earned seam",
+            "content": "The crack points upward into coordinated market theater. Let players infer before any GM confirmation."
+          }
+        ],
+        "earn_it_hooks": [
+          "Knowledge 12 reads the brand paperwork or seal history.",
+          "Presence 13 gets an employee to admit the public promise and private reality do not match.",
+          "Compare the brand claim to witnessed events; the contradiction is evidence."
+        ]
+      },
+      "writing_layer": {
+        "player_safe": {
+          "short_description": "Soulspire Solutions™ sells peace of mind now and, once the debt outlives you, repossesses the soul that had it.",
+          "long_description": "Everything about Soulspire™ is soothing on purpose: lavender light, a hushed lobby, a counselor in soft grey who calls death a 'transition event' and your grief a 'coverage gap.' Brochures for the Eternal Comfort Plan™ show smiling families and a tasteful urn; the waiting-room hymn loops a wellness ballad about rest. Sign the Afterlife Assurance™ and you will feel genuinely better, which is the point, because page forty-seven of the same friendly packet is where a person legally stops being one and becomes, in their cheerful internal term, a 'continuing contributor.' The undead on the night roads are not monsters. They are accounts in good standing.",
+          "table_read_aloud": "A Soulspire pamphlet folds open like a condolence card. The ink is blue-black, the border is tasteful, and the little painted candle at the top has been rendered with more care than most people get in the ledger."
+        },
+        "gm_only": {
+          "sensory_palette": [
+            "Soft greys and lavender, candle-glow, tasteful urns, hushed hymnal music, and a calm closed-eye medallion that means serenity and also collateral.",
+            "a comforting room that becomes colder the more carefully you read",
+            "paper that treats death as a change in billing category"
+          ],
+          "operating_places": [
+            "afterlife booths in city markets and debt-adjacent offices",
+            "Act 5 undead pressure as the ugliest face of the promise",
+            "Athervast administrative halls where grief becomes policy, held as GM-only world pressure"
+          ],
+          "npc_roster": [
+            "Soul-Audit Wraiths: former people turned into collections pressure",
+            "Old Gregor: lucid undead personhood and a chance to treat the dead as someone, not something"
+          ],
+          "interconnections": [
+            "Goldwater hands off escalated debts.",
+            "Kazrak's old contracts create bodies and names Soulspire can still audit.",
+            "RuneSpark can soften public memory around what the dead are asked to keep doing."
+          ],
+          "reveal_cues": [
+            "Surface: show the kindness and ceremonial calm first.",
+            "Hint: let a phrase like account continuation or beneficiary compliance sound wrong.",
+            "Earned: reveal personhood through undead memory before any system label."
+          ],
+          "table_scripts": [
+            "If players ask what Soulspire promises: \"That your loved ones will be handled with dignity. The word handled does a lot of work.\"",
+            "If an undead remembers: \"For a second the audit voice breaks, and somebody underneath it says a name that was not on the bill.\""
+          ]
+        }
+      },
+      "entity_name": "Soulspire Solutions",
+      "imagine_it_like": "Think Lumon from Severance running a funeral home, a wellness spa that is also a debt collector, the soul as a subscription that auto-renews past death. Calm voices, cold ledger."
+    }
+  },
+  {
+    "id": "bramble-union",
+    "name": "The Bramble Union",
+    "public_face": "Ragged road figures in scavenged ward-stone scraps who ambush freight and look like the danger the road warnings promised.",
+    "slogan": "We were the route.",
+    "prompt_key": "bramble",
+    "profile": {
+      "schema_version": "faction-profile-v1",
+      "id": "bramble-union",
+      "entity_id": "bramble-union",
+      "source": "Faction_System_Packet/factions/Bramble_Union.md",
+      "priority": "core",
+      "corporate": false,
+      "atlas_lore_note": "Atlas lore note: one-shot-safe expansion. Use as GM-only texture unless table play earns it.",
+      "auto_surface": true,
+      "prompt_key": "bramble",
+      "player_safe": {
+        "name": "The Bramble Union",
+        "public_face": "Ragged road figures in scavenged ward-stone scraps who ambush freight and look like the danger the road warnings promised.",
+        "slogan": "We were the route.",
+        "short_description": "Thorn-scrap armor, hungry eyes, and old worker gear make the Bramble Union look dangerous before they look human.",
+        "long_description": "At first the Bramble Union is all shape and threat: figures in bark-dark cloaks, ward-stone scraps tied over patched shirts, and blades held by people who know exactly how little food waits behind them. Then you see the worker pins, the mended children's sleeves, and the way they look at the road like it used to belong to them.",
+        "table_read_aloud": "The figures step from the green like the forest grew teeth. Their armor is a poor man's miracle: cracked ward charms, old route badges, stitched leather, thornvine knots. One of them keeps glancing past you, not at the cargo, but at the road behind it."
+      },
+      "block1": {
+        "name": "The Bramble Union",
+        "also_known_as": [
+          "Bramble bandits",
+          "route pirates",
+          "Bramblefolk",
+          "cargo reclaimers"
+        ],
+        "public_face": "Ragged road figures in scavenged ward-stone scraps who ambush freight and look like the danger the road warnings promised.",
+        "what_they_really_do": "Survive after being cut loose from preserve work, taking back tolls and freight from the system that priced them out.",
+        "place_in_story": "The Act 2 moral hinge: a fight or parley that proves the danger has a human history.",
+        "disposition_to_pcs": "Hostile from fear. They expect the party to be enforcers until the party proves otherwise.",
+        "the_lever": "They lower blades when they are treated as people and given a believable way to survive the week.",
+        "wiki_link": "pages/entities/bramble-union.html",
+        "pronunciation": "BRAM-bul YOO-nyun"
+      },
+      "block2": {
+        "standing": "Powerless but growing: a camp of discarded workers, families, scouts, and hardliners one bad week from starvation.",
+        "what_they_control": "A stretch of unsafe road, hidden camp routes, and inconvenient truth about who made the road unsafe.",
+        "how_they_operate": "Ambush, barter, scouting, and a hard code: take freight before taking lives.",
+        "internal_tensions": "Hardliners want every coach hit; frightened survivors want out; leaders are trying to keep anger from becoming murder.",
+        "current_moves": "Mapping route changes that skip former worker settlements and trying to prove the pattern before food runs out.",
+        "history_hook": "Formed after a preserve efficiency review cut a worker class loose with a week's notice and a cheerful pamphlet."
+      },
+      "block3": {
+        "allies": [
+          "Clover Co-op",
+          "Dungeon Workers' Alliance"
+        ],
+        "rivals": [
+          "The Grail",
+          "Zephra Exchange"
+        ],
+        "dependencies": [
+          "Hidden food routes",
+          "old worker maps",
+          "Bramble scouts"
+        ],
+        "member_npcs": [
+          "Bramble Union Ambusher",
+          "Bramble Union Claimrunner",
+          "Kett Alderhook",
+          "Nettle"
+        ],
+        "who_they_prey_on": "Freight and coaches, while getting blamed for violence cleaner and colder than their own code allows."
+      },
+      "block4": {
+        "slogan": "We were the route.",
+        "aesthetic": "Moss greens, bark, polished ward scraps, Hexmart charms lashed into armor, and thorn signs scratched where official maps pretend nobody lives.",
+        "voice": [
+          "Official routes keep passing us by. Funny, that.",
+          "We did not touch your driver. Look at the cut and tell me that was us.",
+          "You are couriers too. You will see."
+        ],
+        "logo_hook": "A thornbranch wrapped around a broken delivery seal.",
+        "theme_song_hook": "A worksong turned protest chant, stamped boots and tin cups. Seed only."
+      },
+      "block5": {
+        "relevance_to_players": "The first faction that can become enemy, witness, ally, or wound depending on how the party listens.",
+        "relevance_to_world": "They are the visible symptom of the racket: discarded workers made into the danger.",
+        "secrets": "They did not kill the courier, and many of them are frightened people wearing a terrifying story because the world already assigned it.",
+        "hidden_ties": "Deepest layer, GM-only: their existence is useful to people selling protection from road danger. The Union does not know how high that usefulness goes.",
+        "progressive_disclosure": [
+          {
+            "layer": "surface",
+            "content": "Desperate road bandits in the woods."
+          },
+          {
+            "layer": "hint",
+            "content": "Former workers deny the murder, carry worker-route evidence, and know official routes skipped them on purpose."
+          },
+          {
+            "layer": "earned seam",
+            "content": "Their menace has been made profitable above every local brand."
+          }
+        ],
+        "earn_it_hooks": [
+          "Presence 15 opens hard parley after the party proves they are not handing prisoners to corporate punishment.",
+          "Examine the murder wound; a Bramblefolk reacts with honest disgust because the cut is not their style.",
+          "A Wildborne or labor-adjacent PC can recognize worker gear before the name matters."
+        ]
+      },
+      "writing_layer": {
+        "player_safe": {
+          "short_description": "Thorn-scrap armor, hungry eyes, and old worker gear make the Bramble Union look dangerous before they look human.",
+          "long_description": "At first the Bramble Union is all shape and threat: figures in bark-dark cloaks, ward-stone scraps tied over patched shirts, and blades held by people who know exactly how little food waits behind them. Then you see the worker pins, the mended children's sleeves, and the way they look at the road like it used to belong to them.",
+          "table_read_aloud": "The figures step from the green like the forest grew teeth. Their armor is a poor man's miracle: cracked ward charms, old route badges, stitched leather, thornvine knots. One of them keeps glancing past you, not at the cargo, but at the road behind it."
+        },
+        "gm_only": {
+          "sensory_palette": [
+            "wet bark, iron fear, patched leather, old worker pins, stolen grain sacks, and cracked Hexmart charms",
+            "the quiet of people trying to sound fiercer than hunger",
+            "smoke from a hidden camp that has learned to hide from both weather and law"
+          ],
+          "operating_places": [
+            "hidden Sablewood side paths and abandoned worker clearings",
+            "Bramble camps beyond official route maps",
+            "Hush-adjacent supply paths when local sympathy risks becoming action"
+          ],
+          "npc_roster": [
+            "Bramble Union Ambusher: the first blade and the first chance to see fear underneath it",
+            "Bramble Union Claimrunner: a runner who knows which freight matters and which freight only looks rich",
+            "Kett Alderhook: hardline pressure if the parley turns sour, useful as a voice for fear becoming violence",
+            "Nettle: human-scale proof that the so-called bandits have names, grief, and rules"
+          ],
+          "interconnections": [
+            "Clover Co-op sympathy keeps some Bramblefolk fed when official routes do not.",
+            "The Grail needs the Union to look monstrous so paid protection looks holy.",
+            "Zephra route changes helped turn former workers into roadside outcasts."
+          ],
+          "reveal_cues": [
+            "Surface: make them frightening enough that a fight feels possible.",
+            "Hint: show worker gear, food scarcity, and disgust at the murder.",
+            "Earned: they are being used as the face of danger by people who profit from danger."
+          ],
+          "table_scripts": [
+            "If a player asks whether they look like murderers: \"They look hungry, cornered, and dangerous. They do not look clean.\"",
+            "If parley opens: \"One of them spits into the leaves and says, 'We take cargo. We do not slit couriers and leave them for children to find.'\""
+          ]
+        }
+      },
+      "entity_name": "Bramble Union",
+      "imagine_it_like": "Think the displaced workers branded 'bandits' in a Western, the miners' strike the company calls a riot, the barricade in Les Mis. Sympathetic desperation that the brochure files under crime."
+    }
+  },
+  {
+    "id": "clover-co-op",
+    "name": "The Clover Co-op",
+    "public_face": "A cheerful Hush village mutual: shared ale, shared tools, shared stories, and a four-leaf clover painted where neighbors gather.",
+    "slogan": "Many hands, one Hush.",
+    "prompt_key": "co-op",
+    "profile": {
+      "schema_version": "faction-profile-v1",
+      "id": "clover-co-op",
+      "entity_id": "clover-co-op",
+      "source": "Faction_System_Packet/factions/Clover_Coop.md",
+      "priority": "core",
+      "corporate": false,
+      "atlas_lore_note": "Atlas lore note: one-shot-safe expansion. Use as GM-only texture unless table play earns it.",
+      "auto_surface": true,
+      "prompt_key": "co-op",
+      "player_safe": {
+        "name": "The Clover Co-op",
+        "public_face": "A cheerful Hush village mutual: shared ale, shared tools, shared stories, and a four-leaf clover painted where neighbors gather.",
+        "slogan": "Many hands, one Hush.",
+        "short_description": "Warm lamps, clover doors, shared bowls, and dry jokes make the Clover Co-op feel like Hush's stubborn heartbeat.",
+        "long_description": "The Clover Co-op is not impressive in a capital-city way. It is impressive in the way a table can hold ten people, then somehow hold twelve. Its doors are painted with uneven clovers, its benches remember every argument, and help arrives wrapped in a joke before anyone admits it is help.",
+        "table_read_aloud": "The clover on the door is hand-painted and a little lopsided. Inside, lamps burn low and golden, a pot keeps itself warm, and three conversations pause just long enough to measure whether you are guests, trouble, or both."
+      },
+      "block1": {
+        "name": "The Clover Co-op",
+        "also_known_as": [
+          "the Co-op",
+          "the Hush folk",
+          "Clover"
+        ],
+        "public_face": "A cheerful Hush village mutual: shared ale, shared tools, shared stories, and a four-leaf clover painted where neighbors gather.",
+        "what_they_really_do": "Keeps Hush out of corporate grip by pooling labor, barter, memory, and favors instead of signing every contract offered.",
+        "place_in_story": "Act 3 sanctuary, local lore conduit, and the warm proof that not everyone has been bought.",
+        "disposition_to_pcs": "Warm but watchful; sincerity opens doors and corporate posture closes them.",
+        "the_lever": "Respect Hush's independence and speak honestly; the Co-op rewards kindness faster than authority.",
+        "wiki_link": "pages/entities/clover-co-op.html",
+        "pronunciation": "KLOH-ver KOH-op"
+      },
+      "block2": {
+        "standing": "Small, stubborn, locally trusted, and quietly resented by brands that need dependence to look inevitable.",
+        "what_they_control": "Hush hospitality, local memory, market favors, communal tools, and who gets trusted with village truths.",
+        "how_they_operate": "Mutual aid, barter, long memory, dry humor, and help that arrives before a form does.",
+        "internal_tensions": "Elders want Hush quiet; younger members want to help Bramble folk more openly.",
+        "current_moves": "Feeding and warning Bramblefolk while debating how long neutrality can survive the squeeze.",
+        "history_hook": "Founded after Zephra tried to charge an access fee for the village well and Hush simply refused to pay."
+      },
+      "block3": {
+        "allies": [
+          "Bramble Union",
+          "Whitefire Custodian"
+        ],
+        "rivals": [
+          "Zephra Exchange",
+          "Hexmart"
+        ],
+        "dependencies": [
+          "Hush neighbors",
+          "Lausa's memory",
+          "mutual aid stores"
+        ],
+        "member_npcs": [
+          "Fidget",
+          "Lausa Standworth",
+          "Halython Fives"
+        ],
+        "who_they_prey_on": "No one; that is why the corporations find them inconvenient."
+      },
+      "block4": {
+        "slogan": "Many hands, one Hush.",
+        "aesthetic": "Four-leaf clovers, mismatched furniture, warm lamplight, a communal long-table, polished borrowed shoes, and practical gifts wrapped in jokes.",
+        "voice": [
+          "We do not do contracts here. We do favors and we remember them.",
+          "Hexmart ward? Save your coin. We have a dog and good neighbors.",
+          "The Bramble folk are not monsters, dear. They were us, last winter."
+        ],
+        "logo_hook": "A four-leaf clover where one leaf is a clasped pair of hands.",
+        "theme_song_hook": "A hearth-warm folk round, many voices, no soloist. Seed only."
+      },
+      "block5": {
+        "relevance_to_players": "The sanctuary, gifts, rumors, and emotional contrast that makes corporate cruelty land.",
+        "relevance_to_world": "Proof the racket is not inevitable; a small seed of living resistance.",
+        "secrets": "Some Co-op members quietly feed the Bramble camp; Lausa knows old ward-craft by age and hand.",
+        "hidden_ties": "GM-only: the Co-op holds pieces of resistance and old ward history, but no single NPC must unlock it.",
+        "progressive_disclosure": [
+          {
+            "layer": "surface",
+            "content": "A friendly village co-op."
+          },
+          {
+            "layer": "hint",
+            "content": "They sympathize with the so-called bandits and refuse contracts on principle."
+          },
+          {
+            "layer": "earned seam",
+            "content": "They carry practical lore about the cargo's age and a quiet network of mutual protection."
+          }
+        ],
+        "earn_it_hooks": [
+          "Honesty and kindness earn help without a roll.",
+          "Knowledge or Presence 13 with Lausa draws out cargo-age and old ward-craft details.",
+          "Winning Halython's card-and-acorns game in good faith opens the Bramble sympathy lane."
+        ]
+      },
+      "writing_layer": {
+        "player_safe": {
+          "short_description": "Warm lamps, clover doors, shared bowls, and dry jokes make the Clover Co-op feel like Hush's stubborn heartbeat.",
+          "long_description": "The Clover Co-op is not impressive in a capital-city way. It is impressive in the way a table can hold ten people, then somehow hold twelve. Its doors are painted with uneven clovers, its benches remember every argument, and help arrives wrapped in a joke before anyone admits it is help.",
+          "table_read_aloud": "The clover on the door is hand-painted and a little lopsided. Inside, lamps burn low and golden, a pot keeps itself warm, and three conversations pause just long enough to measure whether you are guests, trouble, or both."
+        },
+        "gm_only": {
+          "sensory_palette": [
+            "warm stew, damp wool, old wood, clover paint, lamp oil, borrowed mugs, and laughter that hides worry without erasing it",
+            "the comfortable pressure of being watched by people who will feed you and judge you in the same breath",
+            "a village room where every object seems to belong to someone and everyone"
+          ],
+          "operating_places": [
+            "Hush communal rooms, tool sheds, co-op doors, and kitchen-table meetings",
+            "Clover Co-op markets and favor networks inside Hush",
+            "quiet aid paths toward Bramble-adjacent families when the table earns that trust"
+          ],
+          "npc_roster": [
+            "Fidget: nervous warmth, practical errands, and visible care",
+            "Lausa Standworth: old memory, ward-craft texture, and earned lore",
+            "Halython Fives: social play, games, and the moment Hush chooses whether to trust the party"
+          ],
+          "interconnections": [
+            "The Bramble Union has sympathy here because Hush remembers people before labels.",
+            "Zephra Exchange dislikes any village that can meet needs without paying a gatekeeper.",
+            "Hexmart's cheerful safety products look sillier beside neighbors who actually show up."
+          ],
+          "reveal_cues": [
+            "Surface: show hospitality, humor, food, and local pride.",
+            "Hint: let small comments reveal Bramble sympathy and anti-contract habits.",
+            "Earned: the Co-op is a real resistance pattern, not a rebel headquarters."
+          ],
+          "table_scripts": [
+            "If players ask whether Hush trusts them: \"Not yet. But someone has put food near you, which means the door is not closed.\"",
+            "If corporate language appears at the table: \"A local smiles politely and says, 'We do not sign care over to strangers here.'\""
+          ]
+        }
+      },
+      "entity_name": "Clover Co-op",
+      "imagine_it_like": "Think a rural mutual-aid co-op or a tight-knit fishing village, the town that quietly refuses to sell, a small-town main street with ward-craft. Stubborn neighborly warmth as resistance."
+    }
+  },
+  {
+    "id": "faceless-six",
+    "name": "The Faceless Six",
+    "public_face": "The village leaders whose arrival turns hospitality into preparation, debate, and local accountability.",
+    "slogan": "Six voices, one door.",
+    "prompt_key": "co-op",
+    "profile": {
+      "schema_version": "faction-profile-v1",
+      "id": "faceless-six",
+      "entity_id": "faceless-six",
+      "source": "Sablewood lore registry plus Faction_System_Packet guidance",
+      "priority": "compact",
+      "corporate": false,
+      "atlas_lore_note": "Atlas lore note: one-shot-safe expansion. Use as GM-only texture unless table play earns it.",
+      "auto_surface": true,
+      "prompt_key": "co-op",
+      "player_safe": {
+        "name": "The Faceless Six",
+        "public_face": "The village leaders whose arrival turns hospitality into preparation, debate, and local accountability.",
+        "slogan": "Six voices, one door.",
+        "short_description": "The Faceless Six turn a friendly room into a village decision without raising their voices.",
+        "long_description": "The Faceless Six do not need thrones. They arrive as chairs being pulled closer, bowls set aside, and neighbors suddenly listening harder. Their authority is not spectacle. It is the weight of people who will still live here after the party leaves.",
+        "table_read_aloud": "The room changes by inches. A chair scrapes. Someone closes the door against the damp. Six local figures settle into the kind of silence that asks whether guests understand consequence."
+      },
+      "block1": {
+        "name": "The Faceless Six",
+        "also_known_as": [
+          "village leaders",
+          "Hush council"
+        ],
+        "public_face": "The village leaders whose arrival turns hospitality into preparation, debate, and local accountability.",
+        "what_they_really_do": "Holds Hush social memory and decides how much risk the village can absorb for outsiders.",
+        "place_in_story": "Act 3 social pressure and preparation beat; they make Hush feel governed rather than decorative.",
+        "disposition_to_pcs": "Watchful, practical, and responsive to respect for Hush.",
+        "the_lever": "Protect the village's agency; they cooperate when the party asks with humility instead of assuming command.",
+        "wiki_link": "pages/entities/faceless-six.html",
+        "pronunciation": "FAYS-less siks"
+      },
+      "block2": {
+        "standing": "Local leadership body, strong inside Hush and limited beyond it.",
+        "what_they_control": "Local consensus, guest privileges, and who gets trusted with vulnerable information.",
+        "how_they_operate": "Argument, custom, quiet glances, and the old rhythm of people who have survived together.",
+        "internal_tensions": "Protective caution versus the need to help before the system tightens further.",
+        "current_moves": "Preparing Hush for possible ward strain without turning the village into panic.",
+        "history_hook": "A leadership custom from when Hush survived by making no single face responsible for every hard choice."
+      },
+      "block3": {
+        "allies": [
+          "Clover Co-op",
+          "Whitefire Custodian"
+        ],
+        "rivals": [
+          "Zephra Exchange",
+          "Hexmart"
+        ],
+        "dependencies": [
+          "Hush trust",
+          "guest customs",
+          "local food stores"
+        ],
+        "member_npcs": [
+          "Hush elders and hosts"
+        ],
+        "who_they_prey_on": "No one; they carry burden rather than extraction."
+      },
+      "block4": {
+        "slogan": "Six voices, one door.",
+        "aesthetic": "Plain masks or veils in local custom, warm lamps, shared bowls, and a room that quiets when they enter.",
+        "voice": [
+          "Measured village authority: We can welcome you and still ask what trouble followed you in."
+        ],
+        "logo_hook": "Six simple door marks around a clover.",
+        "theme_song_hook": "Seed only: six-part call-and-response under a hearth drone."
+      },
+      "block5": {
+        "relevance_to_players": "Gives the table social permission, questions, and the sense that Hush is not a prop.",
+        "relevance_to_world": "Shows ordinary governance resisting corporate simplification.",
+        "secrets": "They know which neighbors quietly help Bramblefolk, but not every member agrees on what to risk.",
+        "hidden_ties": "GM-only: do not turn them into an exposition machine.",
+        "progressive_disclosure": [
+          {
+            "layer": "surface",
+            "content": "Village leaders arrive."
+          },
+          {
+            "layer": "hint",
+            "content": "They are balancing welcome against danger."
+          },
+          {
+            "layer": "earned seam",
+            "content": "They know Hush's hidden sympathies and old survival patterns."
+          }
+        ],
+        "earn_it_hooks": [
+          "Presence 13 with respect opens village concerns; a direct demand closes the room."
+        ]
+      },
+      "writing_layer": {
+        "player_safe": {
+          "short_description": "The Faceless Six turn a friendly room into a village decision without raising their voices.",
+          "long_description": "The Faceless Six do not need thrones. They arrive as chairs being pulled closer, bowls set aside, and neighbors suddenly listening harder. Their authority is not spectacle. It is the weight of people who will still live here after the party leaves.",
+          "table_read_aloud": "The room changes by inches. A chair scrapes. Someone closes the door against the damp. Six local figures settle into the kind of silence that asks whether guests understand consequence."
+        },
+        "gm_only": {
+          "sensory_palette": [
+            "lamp smoke, wooden chairs, shared bowls, damp sleeves, door-latch clicks, and the slow quiet of a room becoming official",
+            "authority made of memory rather than medals",
+            "local faces carrying more argument than the table can hear"
+          ],
+          "operating_places": [
+            "Hush council rooms, co-op tables, guest customs, and village thresholds",
+            "local preparation beats when Hush must decide what risk it can absorb"
+          ],
+          "npc_roster": [
+            "Hush elders and hosts as a collective authority",
+            "Fidget, Lausa, and Halython can connect the party to this pressure without replacing it"
+          ],
+          "interconnections": [
+            "Clover Co-op gives the Six a practical community base.",
+            "Whitefire Custodian trust can shift how serious the Six think the crisis is.",
+            "Zephra and Hexmart represent outside systems the Six do not want steering Hush."
+          ],
+          "reveal_cues": [
+            "Surface: village leaders gather.",
+            "Hint: each voice carries a different fear for Hush.",
+            "Earned: they know local sympathies and survival patterns, but they are not an exposition panel."
+          ],
+          "table_scripts": [
+            "If players ask who is in charge: \"Six people look at one another before anyone answers. That is the answer.\"",
+            "If the party asks for help: \"One of them says, 'We can be generous. We cannot be careless.'\""
+          ]
+        }
+      },
+      "entity_name": "Faceless Six",
+      "imagine_it_like": "Think a village council of elders, the six selectmen who actually run the town, the quiet committee whose approval you need before anything happens. Hospitality as governance."
+    }
+  },
+  {
+    "id": "the-grail",
+    "name": "The Grail",
+    "public_face": "Holy-road protection with knightly livery, righteous language, and contracts that sound like sacraments.",
+    "slogan": "The Grail™ protects the worthy.",
+    "prompt_key": "grail",
+    "profile": {
+      "schema_version": "faction-profile-v1",
+      "id": "the-grail",
+      "entity_id": "the-grail",
+      "source": "Faction_System_Packet/factions/Corps_Touching_The_Oneshot.md",
+      "priority": "strong",
+      "corporate": true,
+      "atlas_lore_note": "",
+      "auto_surface": true,
+      "prompt_key": "grail",
+      "player_safe": {
+        "name": "The Grail",
+        "public_face": "Holy-road protection with knightly livery, righteous language, and contracts that sound like sacraments.",
+        "slogan": "The Grail™ protects the worthy.",
+        "short_description": "The Grail™ sells salvation-shaped security: holy escorts, blessed wards, and protection from threats it has no interest in ending.",
+        "long_description": "The Grail™ arrives like a sermon: knights in spotless white-and-gold, a contract written like a sacrament, a choir-sweet recruiter who calls the toll a tithe and the fee a sacrifice. Buy a Blessing of Safe Passage™, a consecrated Ward of the Worthy™, an indulgence-style Pre-Forgiveness Plan™ for whatever the escort has to do to 'protect' you. They are genuinely brave and genuinely armed, and they will defend you beautifully against dangers that, conveniently, never quite get solved, because a solved threat is a closed account. To be judged worthy by The Grail is to be judged able to pay.",
+        "table_read_aloud": "A Grail sigil gleams from a white-and-gold shoulder plate. The escort's hand rests near the sword, but the voice stays gentle enough for a chapel. Somehow that makes the sword louder."
+      },
+      "block1": {
+        "name": "The Grail",
+        "also_known_as": [
+          "The Grail",
+          "The"
+        ],
+        "public_face": "Holy-road protection with knightly livery, righteous language, and contracts that sound like sacraments.",
+        "what_they_really_do": "Sells security against threats that remain profitable as long as they are never fully solved.",
+        "place_in_story": "The clean professional wound, the route-pirate framing, and custody pressure all make Grail suspicion playable without confirming it.",
+        "disposition_to_pcs": "Gravely warm and morally certain, quick to frame payment as virtue and refusal as a character flaw.",
+        "the_lever": "Evidence, embarrassment, liability, or a public contradiction moves them more than moral appeal.",
+        "wiki_link": "pages/entities/the-grail.html",
+        "pronunciation": "the grayl"
+      },
+      "block2": {
+        "standing": "The territory's holiest brand of safety, righteous enough that questioning the bill feels like questioning the faith.",
+        "what_they_control": "Holy-road protection with knightly livery, righteous language, and contracts that sound like sacraments.",
+        "how_they_operate": "Sanctify the protection racket: dress security in scripture, brand the desperate as unworthy, and keep the holy threat profitable by never quite defeating it.",
+        "internal_tensions": "True believers and tired workers keep the public promise alive while managers monetize the gap between promise and harm.",
+        "current_moves": "Branding Bramble as route pirates while positioning escorts to reclaim custody of anything valuable.",
+        "history_hook": "Institutional beliefs: The Contract That Paid to Continue the Threat; Badge Before Personhood; The Mercenary Rebrand."
+      },
+      "block3": {
+        "allies": [
+          "Hexmart",
+          "Goldwater Financial Institution",
+          "Emeris Crown Holdings"
+        ],
+        "rivals": [
+          "Bramble Union"
+        ],
+        "dependencies": [
+          "Goldspire Logistics paperwork",
+          "public trust",
+          "contract language"
+        ],
+        "member_npcs": [
+          "Faceless Grail Escorts"
+        ],
+        "who_they_prey_on": "The pious, the proud, and the cornered, anyone who can be sold the idea that survival must be earned and purchased."
+      },
+      "block4": {
+        "slogan": "The Grail™ protects the worthy.",
+        "aesthetic": "White-and-gold livery, grail-and-sword heraldry, incense, illuminated contracts, stained-glass color, and a haloed knight mascot with an open palm.",
+        "voice": [
+          "Safety is a sacrament. Sacraments are not free.",
+          "The worthy are protected. Are you feeling worthy today?",
+          "We don't end the threat. We shepherd you through it, for a tithe."
+        ],
+        "logo_hook": "Use the generated logo as the profile mark; use the representative image to show the public promise and private cost as a living place.",
+        "theme_song_hook": "Seed only for a future theme pass; do not generate music in this implementation."
+      },
+      "block5": {
+        "relevance_to_players": "The clean professional wound, the route-pirate framing, and custody pressure all make Grail suspicion playable without confirming it.",
+        "relevance_to_world": "Daily life depends on the public promise and is harmed by the private business model.",
+        "secrets": "The deeper truth is never player-facing on first contact: the public service also sustains the danger that makes the service profitable.",
+        "hidden_ties": "Deepest layer, GM-only: Board ownership/collusion sits behind this brand. Surface only as hints and patterns.",
+        "progressive_disclosure": [
+          {
+            "layer": "surface",
+            "content": "The Grail looks like its public promise: Holy-road protection with knightly livery, righteous language, and contracts that sound like sacraments."
+          },
+          {
+            "layer": "hint",
+            "content": "The promise has a crack: a failed product, a frightened worker, a predatory clause, or a story that does not match what the party saw."
+          },
+          {
+            "layer": "earned seam",
+            "content": "The crack points upward into coordinated market theater. Let players infer before any GM confirmation."
+          }
+        ],
+        "earn_it_hooks": [
+          "Knowledge 12 reads the brand paperwork or seal history.",
+          "Presence 13 gets an employee to admit the public promise and private reality do not match.",
+          "Compare the brand claim to witnessed events; the contradiction is evidence."
+        ]
+      },
+      "writing_layer": {
+        "player_safe": {
+          "short_description": "The Grail™ sells salvation-shaped security: holy escorts, blessed wards, and protection from threats it has no interest in ending.",
+          "long_description": "The Grail™ arrives like a sermon: knights in spotless white-and-gold, a contract written like a sacrament, a choir-sweet recruiter who calls the toll a tithe and the fee a sacrifice. Buy a Blessing of Safe Passage™, a consecrated Ward of the Worthy™, an indulgence-style Pre-Forgiveness Plan™ for whatever the escort has to do to 'protect' you. They are genuinely brave and genuinely armed, and they will defend you beautifully against dangers that, conveniently, never quite get solved, because a solved threat is a closed account. To be judged worthy by The Grail is to be judged able to pay.",
+          "table_read_aloud": "A Grail sigil gleams from a white-and-gold shoulder plate. The escort's hand rests near the sword, but the voice stays gentle enough for a chapel. Somehow that makes the sword louder."
+        },
+        "gm_only": {
+          "sensory_palette": [
+            "White-and-gold livery, grail-and-sword heraldry, incense, illuminated contracts, stained-glass color, and a haloed knight mascot with an open palm.",
+            "a chapel voice used to explain a threat assessment",
+            "the cold courtesy of people paid to call fear order"
+          ],
+          "operating_places": [
+            "route security contracts, road checkpoints, and escort postings",
+            "murder suspicion around the dead courier, kept unconfirmed unless earned",
+            "wealthier Goldspire routes where safety can be purchased as status"
+          ],
+          "npc_roster": [
+            "Faceless Grail Escorts: polished pressure, custody threats, and professional denial",
+            "the unseen professional behind Tamsin's wound remains an implication, not a confirmed NPC"
+          ],
+          "interconnections": [
+            "Hexmart failures make Grail protection sound necessary.",
+            "Goldwater can turn protection into debt.",
+            "Bramble Union becomes useful as a public enemy when roads need a villain."
+          ],
+          "reveal_cues": [
+            "Surface: show them as reassuring and intimidating at the same time.",
+            "Hint: let clean violence and contract language feel too aligned.",
+            "Earned: suspicion is playable, but the one-shot does not need a signed confession."
+          ],
+          "table_scripts": [
+            "If players ask whether the wound fits them: \"It fits training. It fits a blade held by someone who did not panic.\"",
+            "If an escort blocks them: \"We are here to keep everyone safe. Please decide whether you are included in everyone.\""
+          ]
+        }
+      },
+      "entity_name": "The Grail",
+      "imagine_it_like": "Think a Crusader order franchised as private security, a prosperity-gospel megachurch with swords, a mercenary firm that quotes scripture and sells indulgences."
+    }
+  },
+  {
+    "id": "the-sable-sinecure",
+    "name": "The Sable Sinecure",
+    "public_face": "A logistics guild that makes impossible forest transport look polished, expensive, and deserved.",
+    "slogan": "The Sable Sinecure™: danger, properly accounted.",
+    "prompt_key": "grail",
+    "profile": {
+      "schema_version": "faction-profile-v1",
+      "id": "the-sable-sinecure",
+      "entity_id": "the-sable-sinecure",
+      "source": "Sablewood lore registry plus Faction_System_Packet guidance",
+      "priority": "compact",
+      "corporate": false,
+      "atlas_lore_note": "Atlas lore note: one-shot-safe expansion. Use as GM-only texture unless table play earns it.",
+      "auto_surface": true,
+      "prompt_key": "grail",
+      "player_safe": {
+        "name": "The Sable Sinecure",
+        "public_face": "A logistics guild that makes impossible forest transport look polished, expensive, and deserved.",
+        "slogan": "The Sable Sinecure™: danger, properly accounted.",
+        "short_description": "The Sable Sinecure™ makes moving freight through a deadly forest look so polished you forget the danger is the product.",
+        "long_description": "The Sable Sinecure™ presents as old-money competence: lacquered route maps, a hazard-rate ledger displayed like a wine list, agents in sable-and-silver who quote your survival odds with a sommelier's confidence. Buy a Certified Safe Passage™, a Hazard-Indexed™ premium route, a membership tier that makes paying more for the same trees feel like taste. It is a Kazrak™ franchise wearing heritage like cologne. Every cache mark and danger rating is real, and every one of them exists to prove that knowing the forest is a luxury good, and you are renting it.",
+        "table_read_aloud": "A neat cache mark has been cut into the bark where only a trained eye would look. It is useful, smug, and almost certainly part of a fee schedule."
+      },
+      "block1": {
+        "name": "The Sable Sinecure",
+        "also_known_as": [
+          "Sable Sinecure",
+          "Kazrak-franchised logistics guild"
+        ],
+        "public_face": "A logistics guild that makes impossible forest transport look polished, expensive, and deserved.",
+        "what_they_really_do": "Prices risk as proof of value and turns Sablewood expertise into a franchised status market.",
+        "place_in_story": "Sablewood field-guide faction and future-route texture; not a main one-shot antagonist.",
+        "disposition_to_pcs": "Smoothly superior, flatters competence it can monetize, and prices respect by tier.",
+        "the_lever": "Status and route expertise; they respond to respect, payment, or proof their risk math is wrong.",
+        "wiki_link": "pages/entities/the-sable-sinecure.html",
+        "pronunciation": "the SAY-bul SY-nih-kyoor"
+      },
+      "block2": {
+        "standing": "The prestige logistics name of Sablewood, a Kazrak franchise that sells a tradition it invented last quarter.",
+        "what_they_control": "Secret caches, guild routes, hazard-rate barter, and the polite language of expensive danger.",
+        "how_they_operate": "Franchise expertise as status: turn genuine Sablewood knowledge into a tiered membership where safety is a luxury and the fee is the point.",
+        "internal_tensions": "Old route experts resent newer hazard pricing, but the money keeps winning.",
+        "current_moves": "Maintaining cache marks and hazard-rate routes while pretending the system is tradition.",
+        "history_hook": "Local logistics knowledge franchised into Kazrak-style risk prestige."
+      },
+      "block3": {
+        "allies": [
+          "Kazrak Industries",
+          "Artemis Inc"
+        ],
+        "rivals": [
+          "Bramble Union",
+          "Clover Co-op"
+        ],
+        "dependencies": [
+          "Fire-Falcons",
+          "secret caches",
+          "hazard-indexed pricing"
+        ],
+        "member_npcs": [
+          "Will Scild",
+          "Simrith Luhaj"
+        ],
+        "who_they_prey_on": "Merchants and travelers who must cross the forest and can be taught that paying more for the crossing is a sign of class."
+      },
+      "block4": {
+        "slogan": "The Sable Sinecure™: danger, properly accounted.",
+        "aesthetic": "Sable-and-silver livery, lacquered route maps, wine-list hazard ledgers, wax-sealed memberships, and a poised courier mascot tipping a silver cap.",
+        "voice": [
+          "Anyone can cross the wood. Only the discerning cross it correctly.",
+          "Your hazard rate reflects your taste, and your balance.",
+          "Tradition, certified. Survival, itemized."
+        ],
+        "logo_hook": "Sable branch wrapped around a ledger key.",
+        "theme_song_hook": "Seed only: crisp marching rhythm with rustling paper."
+      },
+      "block5": {
+        "relevance_to_players": "Useful Sablewood context if the route expands or the GM opens field-guide material.",
+        "relevance_to_world": "Shows how even expertise gets franchised and priced.",
+        "secrets": "Some caches prove danger is expected, managed, and monetized.",
+        "hidden_ties": "GM-only: routes upward into Kazrak-style hazard economy.",
+        "progressive_disclosure": [
+          {
+            "layer": "surface",
+            "content": "A competent logistics guild."
+          },
+          {
+            "layer": "hint",
+            "content": "A guild that prices danger and hoards routes."
+          },
+          {
+            "layer": "earned seam",
+            "content": "A future example of manufactured peril made respectable."
+          }
+        ],
+        "earn_it_hooks": [
+          "Knowledge 13 reads cache marks; Presence 13 gets a guild member to explain hazard rates too proudly."
+        ]
+      },
+      "writing_layer": {
+        "player_safe": {
+          "short_description": "The Sable Sinecure™ makes moving freight through a deadly forest look so polished you forget the danger is the product.",
+          "long_description": "The Sable Sinecure™ presents as old-money competence: lacquered route maps, a hazard-rate ledger displayed like a wine list, agents in sable-and-silver who quote your survival odds with a sommelier's confidence. Buy a Certified Safe Passage™, a Hazard-Indexed™ premium route, a membership tier that makes paying more for the same trees feel like taste. It is a Kazrak™ franchise wearing heritage like cologne. Every cache mark and danger rating is real, and every one of them exists to prove that knowing the forest is a luxury good, and you are renting it.",
+          "table_read_aloud": "A neat cache mark has been cut into the bark where only a trained eye would look. It is useful, smug, and almost certainly part of a fee schedule."
+        },
+        "gm_only": {
+          "sensory_palette": [
+            "Sable-and-silver livery, lacquered route maps, wine-list hazard ledgers, wax-sealed memberships, and a poised courier mascot tipping a silver cap.",
+            "danger translated into class manners",
+            "a route secret sold as tradition"
+          ],
+          "operating_places": [
+            "Sablewood cache routes, secret supply marks, and hazard-rated forest paths",
+            "Kazrak-franchised logistics circles, visible through hazard-rate language and guild cache marks"
+          ],
+          "npc_roster": [
+            "Will Scild: linked to the guild lane if Sablewood field-guide play opens",
+            "Simrith Luhaj: route expertise and class-coded logistics texture"
+          ],
+          "interconnections": [
+            "Kazrak turns expertise into prestige.",
+            "Artemis sells the premium-facing version of curated danger.",
+            "Bramble Union and Clover Co-op reveal what happens when local knowledge is not allowed to become wealth."
+          ],
+          "reveal_cues": [
+            "Surface: competent route guild.",
+            "Hint: hazard pricing rewards danger staying dangerous.",
+            "Earned: field expertise is being franchised into the same peril economy."
+          ],
+          "table_scripts": [
+            "If players ask what the cache mark means: \"It says help is nearby. It also says help has an owner.\"",
+            "If a guild member boasts: \"If the forest were safe, any fool could cross it. We provide standards.\""
+          ]
+        }
+      },
+      "entity_name": "The Sable Sinecure",
+      "imagine_it_like": "Think a luxury concierge service for a death-forest, a Centurion card for freight, a Michelin guide that rates how expensively you can almost die."
+    }
+  },
+  {
+    "id": "zephra-exchange",
+    "name": "Zephra Exchange",
+    "public_face": "A market and toll-house brand that promises orderly crossing, registered cargo, and trade access.",
+    "slogan": "Zephra™: the price of everything, the value of you.",
+    "prompt_key": "goldwater",
+    "profile": {
+      "schema_version": "faction-profile-v1",
+      "id": "zephra-exchange",
+      "entity_id": "zephra-exchange",
+      "source": "Faction_System_Packet/factions/Corps_Touching_The_Oneshot.md",
+      "priority": "strong",
+      "corporate": true,
+      "atlas_lore_note": "",
+      "auto_surface": true,
+      "prompt_key": "goldwater",
+      "player_safe": {
+        "name": "Zephra Exchange",
+        "public_face": "A market and toll-house brand that promises orderly crossing, registered cargo, and trade access.",
+        "slogan": "Zephra™: the price of everything, the value of you.",
+        "short_description": "Zephra Exchange™ runs the market, the toll, and the stamp that decides whether your movement counts as legal.",
+        "long_description": "The Zephra™ tollhouse is bureaucratic theater: brass scales, a queue rope, a clerk stamping Movement Legitimacy™ certificates under a banner reading FREE TRADE in expensive gold leaf. Register your cargo, buy a Crossing Credit™, upgrade to a Priority Passage™ pass that lets you skip the line you are also paying to maintain. Prices float by the hour on a big chalk board nobody can quite read. They did not build the river or the road. They built the gate, the fee, and the cheerful word for the fee, which is 'civilization,' and they will sell you a pamphlet explaining why the toll is freedom.",
+        "table_read_aloud": "The Zephra stamp lands with a delicate click. The clerk does not raise their voice. They do not need to. The road, apparently, has standards."
+      },
+      "block1": {
+        "name": "Zephra Exchange",
+        "also_known_as": [
+          "Zephra Exchange",
+          "Zephra"
+        ],
+        "public_face": "A market and toll-house brand that promises orderly crossing, registered cargo, and trade access.",
+        "what_they_really_do": "Gatekeeps access and engineers scarcity while teaching people to call the fee civilization.",
+        "place_in_story": "Zephra route optimization helped cut Bramble workers loose and makes checkpoint delays feel official.",
+        "disposition_to_pcs": "Briskly transactional and unfailingly polite at the window, treats every person as a line-item awaiting the correct stamp.",
+        "the_lever": "Evidence, embarrassment, liability, or a public contradiction moves them more than moral appeal.",
+        "wiki_link": "pages/entities/zephra-exchange.html",
+        "pronunciation": "ZEF-ruh eks-CHAYNJ"
+      },
+      "block2": {
+        "standing": "The territory's clearinghouse for trade and movement, the brand that decides whose crossing is legitimate this season.",
+        "what_they_control": "A market and toll-house brand that promises orderly crossing, registered cargo, and trade access.",
+        "how_they_operate": "Gatekeep access and manufacture scarcity: own the chokepoints, float the prices, and rebrand the fee as order so nobody calls it a wall.",
+        "internal_tensions": "True believers and tired workers keep the public promise alive while managers monetize the gap between promise and harm.",
+        "current_moves": "Repricing old routes and issuing stamps that decide whose movement counts as legitimate.",
+        "history_hook": "Institutional beliefs: Access Fee Purge; Commodity Sentiment Engineering; Guild Courtesy as Class Weapon."
+      },
+      "block3": {
+        "allies": [
+          "Emeris Crown Holdings",
+          "Goldwater Financial Institution"
+        ],
+        "rivals": [
+          "Clover Co-op",
+          "Bramble Union"
+        ],
+        "dependencies": [
+          "Goldspire Logistics paperwork",
+          "public trust",
+          "contract language"
+        ],
+        "member_npcs": [
+          "Inspector Pelt"
+        ],
+        "who_they_prey_on": "Traders, migrants, and anyone whose right to move can be made conditional on a stamp Zephra alone can sell."
+      },
+      "block4": {
+        "slogan": "Zephra™: the price of everything, the value of you.",
+        "aesthetic": "Brass scales and queue ropes, chalkboard exchange rates, ornate registration seals, gold-leaf FREE TRADE banners, and a balanced-scale mascot mid-weigh.",
+        "voice": [
+          "FREE trade! (Stamping, registration, and crossing fees apply.)",
+          "Today's crossing rate is... let me check the board. It went up.",
+          "You're not paying a toll. You're investing in order!"
+        ],
+        "logo_hook": "Use the generated logo as the profile mark; use the representative image to show the public promise and private cost as a living place.",
+        "theme_song_hook": "Seed only for a future theme pass; do not generate music in this implementation."
+      },
+      "block5": {
+        "relevance_to_players": "Zephra route optimization helped cut Bramble workers loose and makes checkpoint delays feel official.",
+        "relevance_to_world": "Daily life depends on the public promise and is harmed by the private business model.",
+        "secrets": "The deeper truth is never player-facing on first contact: the public service also sustains the danger that makes the service profitable.",
+        "hidden_ties": "Deepest layer, GM-only: Board ownership/collusion sits behind this brand. Surface only as hints and patterns.",
+        "progressive_disclosure": [
+          {
+            "layer": "surface",
+            "content": "Zephra Exchange looks like its public promise: A market and toll-house brand that promises orderly crossing, registered cargo, and trade access."
+          },
+          {
+            "layer": "hint",
+            "content": "The promise has a crack: a failed product, a frightened worker, a predatory clause, or a story that does not match what the party saw."
+          },
+          {
+            "layer": "earned seam",
+            "content": "The crack points upward into coordinated market theater. Let players infer before any GM confirmation."
+          }
+        ],
+        "earn_it_hooks": [
+          "Knowledge 12 reads the brand paperwork or seal history.",
+          "Presence 13 gets an employee to admit the public promise and private reality do not match.",
+          "Compare the brand claim to witnessed events; the contradiction is evidence."
+        ]
+      },
+      "writing_layer": {
+        "player_safe": {
+          "short_description": "Zephra Exchange™ runs the market, the toll, and the stamp that decides whether your movement counts as legal.",
+          "long_description": "The Zephra™ tollhouse is bureaucratic theater: brass scales, a queue rope, a clerk stamping Movement Legitimacy™ certificates under a banner reading FREE TRADE in expensive gold leaf. Register your cargo, buy a Crossing Credit™, upgrade to a Priority Passage™ pass that lets you skip the line you are also paying to maintain. Prices float by the hour on a big chalk board nobody can quite read. They did not build the river or the road. They built the gate, the fee, and the cheerful word for the fee, which is 'civilization,' and they will sell you a pamphlet explaining why the toll is freedom.",
+          "table_read_aloud": "The Zephra stamp lands with a delicate click. The clerk does not raise their voice. They do not need to. The road, apparently, has standards."
+        },
+        "gm_only": {
+          "sensory_palette": [
+            "Brass scales and queue ropes, chalkboard exchange rates, ornate registration seals, gold-leaf FREE TRADE banners, and a balanced-scale mascot mid-weigh.",
+            "courtesy used as a knife small enough to pass inspection",
+            "forms that make movement feel like a favor"
+          ],
+          "operating_places": [
+            "market gates, toll houses, checkpoint desks, and route approval windows",
+            "Bramble-cut routes where access became scarcity",
+            "Athervast trade offices and Goldspire-wide market layers, shown through stamps and access denials"
+          ],
+          "npc_roster": [
+            "Inspector Pelt: checkpoint authority, class-coded courtesy, and soft escalation"
+          ],
+          "interconnections": [
+            "Emeris depends on access stamps to keep freight official.",
+            "Goldwater turns denied access into debt pressure.",
+            "Clover Co-op and Bramble Union expose the harm behind polite gatekeeping."
+          ],
+          "reveal_cues": [
+            "Surface: show neat process, courtesy, and official order.",
+            "Hint: let players notice who gets delayed and who gets waved through.",
+            "Earned: scarcity is being designed, not merely discovered."
+          ],
+          "table_scripts": [
+            "If players ask why someone cannot pass: \"The clerk looks almost sad for them, then stamps the denial with exquisite care.\"",
+            "If Inspector Pelt speaks: \"The road is open to everyone properly recognized by the road.\""
+          ]
+        }
+      },
+      "entity_name": "Zephra Exchange",
+      "imagine_it_like": "Think Amazon merged with the DMV and a border checkpoint, a stock exchange that also sells you permission to exist, a ticket monopoly for the open road."
+    }
+  }
+]

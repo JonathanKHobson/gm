@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "duality-dice",
+  "kind": "entity",
+  "title": "Duality Dice",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Mechanic",
+  "hook": "Player-safe note: Hope and Fear d12s rolled together, with total determining success and higher die determining spin.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Hope and Fear d12s rolled together, with total determining success and higher die determining spin."
+    },
+    {
+      "label": "How It Works",
+      "body": "Baseline Daggerheart action-roll dice"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use this when your action is uncertain and consequences matter.",
+    "Ask which trait fits your method."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:duality-dice",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "f8dc083bad98e844",
+  "generated_at": "2026-06-23T21:40:58"
+}

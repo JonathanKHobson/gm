@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S05-03",
+  "kind": "slide",
+  "title": "S05-03 - Holding the Line",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act Five: The Ward Renewal",
+  "hook": "The skeletons come in a clatter of rust and bone: not clever, but endless, and all of them reaching for the glowing figure at the center. For every one you put down, the ritual's clock ticks a notch closer to done. But...",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "The skeletons come in a clatter of rust and bone: not clever, but endless, and all of them reaching for the glowing figure at the center. For every one you put down, the ritual's clock ticks a notch closer to done. But they keep clawing up out of the dirt..."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Defeat the rusted dead and keep the Custodian safe."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:S05-03",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "9ccc59a3b23c3ca1",
+  "generated_at": "2026-06-23T21:40:58"
+}

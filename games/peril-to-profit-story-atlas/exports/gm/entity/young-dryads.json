@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "young-dryads",
+  "title": "Young Dryads",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "840b15a55225e393",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Three small tree-spirits watch from the grove, leaf hair trembling, bark hands half-raised, roots curled around stones like they are guarding a line."
+    },
+    {
+      "title": "Public role",
+      "body": "Sablewood justice response to abused hospitality"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Small sapling spirits with bark-textured limbs, leaf hair, green-gold eyes, and shy defensive postures rooted around stones like children guarding a boundary."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use as forest-justice pressure and a chance for players to slow down, speak gently, and prove they can be guests instead of claimants."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 840b15a55225e393 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

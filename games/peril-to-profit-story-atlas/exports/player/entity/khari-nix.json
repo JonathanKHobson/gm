@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "khari-nix",
+  "kind": "entity",
+  "title": "Khari Nix",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "PC / Player Character",
+  "hook": "Player-safe note: Loyal to people before contracts; hates predatory paperwork.",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "Give one concrete visual, one sound or texture, and one sign of who has used or neglected it."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "direct, protective, impatient with predatory paperwork"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask Khari Nix what they need right now.",
+    "Watch what they protect before asking for trust."
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:khari-nix",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "ce1a9aed655170b2",
+  "generated_at": "2026-06-23T21:40:58"
+}

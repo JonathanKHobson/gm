@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "MAP-LOC-hushtm-community-enclave",
+  "kind": "slide",
+  "title": "MAP-LOC-hushtm-community-enclave - Hush™ Community Enclave Location Map",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act Three: Seeking a Custodian",
+  "hook": "Near the village entrance, a polished official sign and neat route stones sit beside handmade clover charms and scuffed local paths. The sign looks newer than the place, and colder.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "Near the village entrance, a polished official sign and neat route stones sit beside handmade clover charms and scuffed local paths. The sign looks newer than the place, and colder."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Near the village entrance, a polished official sign and neat route stones sit beside handmade clover charms and scuffed local paths. The sign looks newer than the place, and colder."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:MAP-LOC-hushtm-community-enclave",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "cb6d50fcf8f6b526",
+  "generated_at": "2026-06-23T21:40:58"
+}

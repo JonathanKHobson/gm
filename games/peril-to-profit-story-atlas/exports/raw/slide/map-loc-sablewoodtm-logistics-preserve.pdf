@@ -1,0 +1,443 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2529 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-sablewoodtm-logistics-preserve - SablewoodTM Logistics Preserve Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The preserve stretches beyond the path, too vast to read at once. The route ahead stays) Tj
+T*
+(focused on the hanging home.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(The preserve stretches beyond the path, too vast to read at once. The route ahead stays) Tj
+T*
+(focused on the hanging home.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-sablewoodtm-logistics-preserve) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: ACT-FOUR) Tj
+T*
+(- Sectiontitle: Act Four: The Hanging Office) Tj
+T*
+(- Title: SablewoodTM Logistics Preserve Location Map) Tj
+T*
+(- Shorttitle: The Managed Preserve) Tj
+T*
+(- Order: 102.08) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-sablewoodtm-logistics-preserve-gm.png) Tj
+T*
+(- Alt: Sablewood? Logistics Preserve location map board.) Tj
+T*
+(- Caption: Visual reference for Sablewood? Logistics Preserve.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Use this as a GM-only wide-area backdrop, not a walkable Act 4 node unless) Tj
+T*
+(  Kyle later confirms.) Tj
+T*
+(- Publicobjective: The preserve stretches beyond the path, too vast to read at once.) Tj
+T*
+(  The route ahead stays focused on the hanging home.) Tj
+T*
+(- Readaloud: The preserve stretches beyond the path, too vast to read at once. The) Tj
+T*
+(  route ahead stays focused on the hanging home.) Tj
+T*
+(- Gmscript: Say: "Use this only as backdrop context. Do not turn it into a side route) Tj
+T*
+(  in Act 4.") Tj
+T*
+(- Gmreadaloud: The preserve is wider than the scene. The live route stays on the) Tj
+T*
+(  Custodian path.) Tj
+T*
+(- Gmchecklist: Treat as backdrop. Keep corporate framing GM-only. Return to S04-01 or) Tj
+T*
+(  the hanging office.) Tj
+T*
+(- Gmprivate: Act 5 backdrop: the preserve label helps the GM remember the corporate) Tj
+T*
+(  frame, but player-facing finale text should remain old forest, ritual clearing, and) Tj
+T*
+(  managed edge. Do not route Act 5 through this map unless the table is lost and needs) Tj
+T*
+(  wide-area context.) Tj
+T*
+(- Playertakeaway: The preserve stretches beyond the path, too vast to read at once.) Tj
+T*
+(  The route ahead stays focused on the hanging home.) Tj
+T*
+(- Storytakeaway: The forest is bigger than the route and carries a managed layer the) Tj
+T*
+(  players do not need named yet.) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4001 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Mechanictakeaway: Knowledge or Instinct can read the managed edge, but the map) Tj
+T*
+(  should not branch the act.) Tj
+T*
+(- Entityids: sablewoodtm-logistics-preserve cat-squirrels giraffe-deer lemur-toads) Tj
+T*
+(  fox-bats horse-goats twilight-plums sable-sap strixwolf bullfrog eeligator) Tj
+T*
+(- Entities: sablewoodtm-logistics-preserve Sablewood? Logistics Preserve location) Tj
+T*
+(  Location assets/icons/location.png assets/location-visuals/sablewoodtm-logistics-) Tj
+T*
+(  preserve/profile_scene_v02.png SAY-bul-wood loh-JIS-tiks preh-ZURV An ancient forest) Tj
+T*
+(  logistics preserve where colossal trees, hybrid fauna, underroot communities, route) Tj
+T*
+(  tolls, and corporate liability language all compete to define what safety means.) Tj
+T*
+(  Make the forest feel alive and managed badly, not just spooky. The Old Forest A vast) Tj
+T*
+(  ancient forest with trees wider than a carriage, older than any company sign. An) Tj
+T*
+(  ancient forest logistics preserve where colossal trees, hybrid fauna, underroot) Tj
+T*
+(  communities, route tolls, and corporate liability language all compete to define) Tj
+T*
+(  what safety means.; introduce it with a sensory palette, who feels safe there, and) Tj
+T*
+(  what has been neglected. Pull player attention toward the choices, clues, and) Tj
+T*
+(  relationships tied to Old Sable, Goldspire Waymarkers, Hush. An ancient forest) Tj
+T*
+(  logistics preserve where colossal trees, hybrid fauna, underroot communities, route) Tj
+T*
+(  tolls, and corporate liability language all compete to define what safety means.) Tj
+T*
+(  cat-squirrels Cat-Squirrels creature Creature / Animal...) Tj
+T*
+(- Locationids: sablewoodtm-logistics-preserve) Tj
+T*
+(- Statecontrols: ward_awareness Ward Awareness select none seed aware) Tj
+T*
+(- Mechanicids: instinct knowledge) Tj
+T*
+(- Fearspends: Spend Fear: the forest goes abruptly silent ? every hybrid animal stops) Tj
+T*
+(  at once. Players feel watched. \(Sets up either the strixwolf or the Bramble ambush.\)) Tj
+T*
+(  A compliance stamp peels off a trunk and the wound underneath looks almost like a) Tj
+T*
+(  carved face ? a quiet seed for the Treehouse's carved-face trees later. Distant,) Tj
+T*
+(  unhurried movement keeping pace with the carriage. Never resolved here. Pure dread) Tj
+T*
+(  fuel.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S04-01) Tj
+T*
+(- Mapdata: MAP-LOC-sablewoodtm-logistics-preserve environment SablewoodTM Logistics) Tj
+T*
+(  Preserve Location Map S04-01 sablewoodtm-logistics-preserve cat-squirrels giraffe-) Tj
+T*
+(  deer lemur-toads fox-bats horse-goats twilight-plums sable-sap strixwolf bullfrog) Tj
+T*
+(  eeligator assets/location-visuals/sablewoodtm-logistics-) Tj
+T*
+(  preserve/profile_scene_v02.png Visual reference for Sablewood? Logistics Preserve.) Tj
+T*
+(  Sablewood? Logistics Preserve location map board. The preserve stretches beyond the) Tj
+T*
+(  path, too vast to read at once. The route ahead stays focused on the hanging home.) Tj
+T*
+(  The preserve stretches beyond the path, too vast to read at once. The route ahead) Tj
+T*
+(  stays focused on the hanging home. Use this as a GM-only wide-area backdrop, not a) Tj
+T*
+(  walkable Act 4 node unless Kyle later confirms. Corporate route signs, liability) Tj
+T*
+(  placards, and numbered posts sit against trunks wide enough to make the signage look) Tj
+T*
+(  temporary. Rain ticks through high leaves; birdsong stops in bands ahead of the) Tj
+T*
+(  party; route fixtures click softly when the Keystone passes. Sap under varnish, rain) Tj
+T*
+(  held in bark furrows, wet canvas, and a faint metallic tang from toll posts and ward) Tj
+T*
+(  hardware. Mud grips boots with pale grit; bark feels ridged like old...) Tj
+T*
+(- Sourcefiles: dist/Act4_Upgrade_Packet/ACT4_MAPS_AND_LOCATIONS.md) Tj
+T*
+(  dist/Act4_Upgrade_Packet/ACT4_OPEN_QUESTIONS.md) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4253 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- References: Through the Farms #S04-01) Tj
+T*
+(- Livetools: scene MAP-LOC-sablewoodtm-logistics-preserve) Tj
+T*
+(- Percharacterlayer: varian-soto Varian Soto Wrong forest The carved trees and glowing) Tj
+T*
+(  moss smell worked, as if magic has been layered over living wood. Instinct 13 Reads) Tj
+T*
+(  which carved faces feel awake and where the safe line runs; if blood-debt is set,) Tj
+T*
+(  the faces feel like they are tracking the party. Can name the safest line through) Tj
+T*
+(  the carved-face edge. Varian, this stretch of forest has been changed by hands. Want) Tj
+T*
+(  to read what the trees are doing? marlowe-fairwind Marlowe Fairwind Ward heart The) Tj
+T*
+(  package resonates hard now; she can feel it is near where it belongs. Knowledge 13) Tj
+T*
+(  The carved faces are ward anchors and the cargo is tied to them. Do not name the) Tj
+T*
+(  Keystone yet. Can make the package feel important without stealing the Custodian's) Tj
+T*
+(  reveal. Marlowe, whatever you are carrying is humming now. You are close to where it) Tj
+T*
+(  belongs. Want to feel into it? garrick-reed Garrick Reed Defensible ground Reads the) Tj
+T*
+(  approach as isolated, defensible ground made for privacy and protection. Can warn) Tj
+T*
+(  the party that whoever lives here values controlled access. Garrick, this is a place) Tj
+T*
+(  built to be hard to reach. Want to note what that says about who lives here?) Tj
+T*
+(  barnacle Barnacle Puzzle-box cabin Already sees the...) Tj
+T*
+(- Gmbeats: MAP-LOC-sablewoodtm-logistics-preserve-backdrop Backdrop Backdrop context) Tj
+T*
+(  Say: "Keep the act moving toward the hanging home." The map shows the forest is) Tj
+T*
+(  larger than the route. The preserve scale supports dread. The mechanic is route) Tj
+T*
+(  discipline. Players stay oriented without a detour. Player takeaway Players stay) Tj
+T*
+(  oriented without a detour. "Keep the act moving toward the hanging home." "The) Tj
+T*
+(  playable fact is: The map shows the forest is larger than the route." Concrete) Tj
+T*
+(  actions for this beat: look closely, ask the Custodian a direct question, commit to) Tj
+T*
+(  a choice, or take one prep action. instinct Story takeaway The preserve scale) Tj
+T*
+(  supports dread. "Keep the act moving toward the hanging home." "The story fact in) Tj
+T*
+(  play is: The preserve scale supports dread." This beat changes Act 4 through this) Tj
+T*
+(  exact pressure: The preserve scale supports dread. instinct Mechanic takeaway The) Tj
+T*
+(  mechanic is route discipline. "Keep the act moving toward the hanging home." "The) Tj
+T*
+(  active procedure is: The mechanic is route discipline." Run intent first. Use) Tj
+T*
+(  Presence for trust, Knowledge for ward or stone truths, Instinct for preserve) Tj
+T*
+(  danger, and Agility or Finesse for the hanging-home puzzle. instinct) Tj
+T*
+(- Takeawayhelp: Player takeaway This is context, not a detour. "The preserve is bigger) Tj
+T*
+(  than this scene, but your route stays clear." "You can notice the scale, then) Tj
+T*
+(  continue toward the hanging home." Use this only if the table needs spatial context.) Tj
+T*
+(  instinct knowledge Story takeaway The forest carries managed layers. "There are) Tj
+T*
+(  signs this place has been measured and marked, but that is not the scene yet." "A) Tj
+T*
+(  sharp read can catch registration marks; keep the deeper framing GM-only." This) Tj
+T*
+(  protects spoiler pacing and session focus. instinct knowledge Mechanic takeaway The) Tj
+T*
+(  map mechanic is route discipline. "This is not a new branch. It is a backdrop layer.) Tj
+T*
+(  Return to S04-01 or the hanging office." "If someone studies it, Knowledge or) Tj
+T*
+(  Instinct 13 gives a managed-edge clue." Do not let this map become Act 4 sprawl.) Tj
+T*
+(  instinct knowledge) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-sablewoodtm-logistics-preserve.png The Managed) Tj
+T*
+(  Preserve map board. MAP-LOC-sablewoodtm-logistics-preserve environment The Managed) Tj
+T*
+(  Preserve S04-01 assets/maps/MAP-LOC-sablewoodtm-logistics-preserve.png) Tj
+T*
+(  assets/maps/MAP-LOC-sablewoodtm-logistics-preserve.png The Managed Preserve map) Tj
+T*
+(  board. The preserve stretches beyond the path, too vast to read at once. The route) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 2648 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  ahead stays focused on the hanging home. The preserve stretches beyond the path, too) Tj
+T*
+(  vast to read at once. The route ahead stays focused on the hanging home. Older road) Tj
+T*
+(  The trade path predates the corporate route. 0.48 0.58 Compliance stamps New labels) Tj
+T*
+(  are being swallowed by old bark. 0.72 0.34 MAP-LOC-sablewoodtm-logistics-preserve-) Tj
+T*
+(  map-only Map only The Managed Preserve map-only assets/maps/MAP-LOC-sablewoodtm-) Tj
+T*
+(  logistics-preserve.png The Managed Preserve map board. MAP-LOC-sablewoodtm-) Tj
+T*
+(  logistics-preserve environment The Managed Preserve S04-01 assets/maps/MAP-LOC-) Tj
+T*
+(  sablewoodtm-logistics-preserve.png assets/maps/MAP-LOC-sablewoodtm-logistics-) Tj
+T*
+(  preserve.png The Managed Preserve map board. The preserve stretches beyond the path,) Tj
+T*
+(  too vast to read at once. The route ahead stays focused on the hanging home. The...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-sablewoodtm-logistics-preserve map The Managed) Tj
+T*
+(  Preserve assets/maps/MAP-LOC-sablewoodtm-logistics-preserve.png The Managed Preserve) Tj
+T*
+(  map board. spatial reference and location texture The preserve stretches beyond the) Tj
+T*
+(  path, too vast to read at once. The route ahead stays focused on the hanging home.) Tj
+T*
+(  The preserve stretches beyond the path, too vast to read at once. The route ahead) Tj
+T*
+(  stays focused on the hanging home. MAP-LOC-sablewoodtm-logistics-preserve) Tj
+T*
+(  environment The Managed Preserve S04-01 assets/maps/MAP-LOC-sablewoodtm-logistics-) Tj
+T*
+(  preserve.png assets/maps/MAP-LOC-sablewoodtm-logistics-preserve.png The Managed) Tj
+T*
+(  Preserve map board. The preserve stretches beyond the path, too vast to read at) Tj
+T*
+(  once. The route ahead stays focused on the hanging home. The preserve stretches) Tj
+T*
+(  beyond the path, too vast to read at once. The route ahead stays focused on the) Tj
+T*
+(  hanging home. Older road The trade path predates the corporate route. 0.48 0.58) Tj
+T*
+(  Compliance stamps New labels are being swallowed by old bark. 0.72 0.34) Tj
+T*
+(  assets/maps/MAP-LOC-sablewoodtm-logistics-preserve.png The Managed Preserve map) Tj
+T*
+(  board. MAP-LOC-sablewoodtm-logistics-preserve environment The Managed Preserve) Tj
+T*
+(  S04-01...) Tj
+T*
+(- Slidenumber: 21) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash d609e4d005684064 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R] /Count 4 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000002590 00000 n 
+0000002717 00000 n 
+0000006770 00000 n 
+0000006897 00000 n 
+0000011202 00000 n 
+0000011329 00000 n 
+0000014029 00000 n 
+0000014156 00000 n 
+0000014231 00000 n 
+0000014281 00000 n 
+trailer
+<< /Size 12 /Root 10 0 R >>
+startxref
+14354
+%%EOF

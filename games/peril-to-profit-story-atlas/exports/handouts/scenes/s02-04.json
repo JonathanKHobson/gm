@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S02-04",
+  "kind": "scene",
+  "title": "S02-04 - After the Ambush",
+  "in_world_label": "Situation Briefing",
+  "brand_flag": "Briefing",
+  "kicker": "Cargo Reclaimers",
+  "hook": "The road is quiet again, except for the horses breathing hard and the forest shifting around the wreckage.",
+  "blocks": [
+    {
+      "label": "Where You Are",
+      "body": "The road is quiet again, except for the horses breathing hard and the forest shifting around the wreckage."
+    },
+    {
+      "label": "Plain Stakes",
+      "body": "The party regroups and may learn the Bramble Union were targeting the cargo specifically."
+    },
+    {
+      "label": "Visible Options",
+      "body": "Loot bodies Interrogate survivor Leave quickly Mark graves"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "What detail in After the Ambush tells you the official story is incomplete?",
+    "Who notices the human cost first, and how do they show it?",
+    "What small object, smell, or sound makes this scene feel real?"
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - scene:S02-04",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "e643ea8d3a304912",
+  "generated_at": "2026-06-23T21:40:58"
+}

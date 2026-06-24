@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "soul-audit-wraith",
+  "kind": "entity",
+  "title": "Soul-Audit Wraith",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "a cold memory predator that makes care feel like an unpaid balance",
+  "hook": "a cold memory predator that makes care feel like an unpaid balance",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "A blue-white skeletal auditor drifts inside a torn hood, ledger-light spilling from a dead chest medallion while spectral papers curl around one arm."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "A predator made of policy, hunting where debt, ward-failure, and fear overlap. The original person wanted release from a debt that taught them to collect others, and that single unpaid wanting is the only crack in the ledger."
+    },
+    {
+      "label": "Might Offer",
+      "body": "A hard combat puzzle A memory choice A chance to refuse accounting language"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "A hard combat puzzle",
+    "A memory choice",
+    "A chance to refuse accounting language"
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:soul-audit-wraith",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "db0328c0b99c9c5e",
+  "generated_at": "2026-06-23T21:40:58"
+}

@@ -1,0 +1,52 @@
+# The Miremist
+
+GM export - entity:the-miremist
+
+## Player-facing description
+The Miremist makes certainty expensive: fog, wet roots, and route sounds that arrive from the wrong distance.
+
+## Public role
+Make uncertainty actionable instead of vague.
+
+## Handout text
+A mist-wrapped place where route certainty breaks down and the forest makes navigation feel like an audit of attention.
+
+## GM truth
+No forced reveal. Let this entity disclose truth through scene context and player attention.
+
+## GM handling
+Introduce with sensory texture, then make one discoverable clue or social choice visible.
+
+## Mechanics
+- Title: Location Exploration Mechanics
+- Player Safe: Players can navigate, search, read customs, inspect hazards The Miremist when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: A mist-wrapped place where route certainty breaks down and the forest makes navigation feel like an audit of attention. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-the-miremist-engage-the-miremist entity-the-miremist Engage The Miremist Engage The Miremist Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of The Miremist hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless a hazard creates Hidden, Restrained, or Vulnerable
+- Search Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+
+## Profile
+- Schema Version: location-profile-v1
+- Id: the-miremist
+- Entity Id: the-miremist
+- Source: Story Atlas generated location notes
+- Auto Surface: True
+- Priority: strong
+- Player Safe: The Miremist A mist-wrapped place where route certainty breaks down and the forest makes navigation feel like an audit of attention. A mist-wrapped place where route certainty breaks down and the forest makes navigation feel like an audit of attention. The Miremist makes certainty expensive: fog, wet roots, and route sounds that arrive from the wrong distance. The Miremist feels like a place with opinions about navigation: luminous puddles, crooked posts, soft ground, cheerful warning charms, and paths that are only paths at the right time. The place breaks into usable table spaces: Post trail: Crooked markers cross wet ground. Soft pool: Still water hides depth and reflection tricks. Dry hummock: Small islands hold plants, nests, and temporary safety. Plants and materials: bog moss, pitcher flowers, reed mats, floating lantern algae. Animals and background life: Mist-Things move as...
+- Block1: The Miremist Make uncertainty actionable instead of vague. A mist-wrapped place where route certainty breaks down and the forest makes navigation feel like an audit of attention. The Miremist turns the forest into an audit of attention. The forest turns navigation into an audit of attention. The party's care, not their map, is what gets them through. The Miremist turns the forest into an audit of attention. The safe path changes with the water. What worked this morning may be under black water by dusk. pages/entities/the-miremist.html
+- Block2: Mist cuts sightlines into short, pale rooms. Markers appear wet even when sheltered. Sound travels sideways; a branch snap may be near, far, or behind memory. The safest path is sometimes the least visible one. Detail Peat, cold water, mushroom rot, and fog heavy enough to taste. Detail Roots are slick and soft at the edges; mud pulls at boots like a hand. The Miremist makes certainty expensive: fog, wet roots, and route sounds that arrive from the wrong distance. The Miremist feels like a place with opinions about navigation: luminous puddles, crooked posts, soft ground, cheerful warning charms, and paths that are only paths at the right time. The place breaks into usable table spaces: Post trail: Crooked markers cross wet ground. Soft pool: Still water hides depth and reflection tricks. Dry hummock: Small islands hold plants, nests, and temporary safety. Plants and materials: bog...
+- Block3: half-seen markers root mats shallow pools fog breaks Instinct to navigate by sound and ground feel. Knowledge to identify false route markers. Presence only if calming a panicked companion matters. Local residents or workers appropriate to the place Mist-Things move as half-seen animal shapes Eeligator wakes disturb deep pools Ward-Moths drift where old lines run under water No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues bog moss, pitcher flowers, reed mats, floating lantern algae rare herbs hidden paths quiet hiding places
+- Block4: The place changes even if the PCs stand still. Local people, creatures, weather, signage, and ward behavior all keep moving around the scene. Navigation errors cost time and trust. Fear makes the party split attention. Mist can hide clues as easily as threats. A route marker appears twice. Someone hears their name from the wrong side of the mist. The ground exhales bubbles under a boot. Let the place be funny through overconfident signage, awkward forms, stubborn local habits, and magic that refuses corporate language.
+- Block5: S05-03 MAP-LOC-the-miremist
+- Block6: Describe what the PCs can see, smell, hear, touch, ask about, or infer. Do not explain hidden infrastructure or corporate thesis until play earns it. surface A mist-wrapped place where route certainty breaks down and the forest makes navigation feel like an audit of attention. table clue The Miremist turns the forest into an audit of attention. earned truth Reveal deeper system meaning through NPC answers, evidence, or player questions, not narration dumps.
+- What Here: Local residents or workers appropriate to the place Mist-Things move as half-seen animal shapes Eeligator wakes disturb deep pools Ward-Moths drift where old lines run under water No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues bog moss, pitcher flowers, reed mats, floating lantern algae rare herbs hidden paths quiet hiding places
+- Living Place: location-living-place-v1 mist bog and wetland maze The Miremist should feel like a place with opinions about navigation: luminous puddles, crooked posts, soft ground, cheerful warning charms, and paths that are only paths at the right time. Post trail Crooked markers cross wet ground. Use for travel choices. Soft pool Still water hides depth and reflection tricks. Use for uncertainty. Dry hummock Small islands hold plants, nests, and temporary safety. Use for pauses. bog moss, pitcher flowers, reed mats, floating lantern algae Mist-Things move as half-seen animal shapes Eeligator wakes disturb deep pools Ward-Moths drift where old lines run under water low mist, sucking mud, reflected lights, muffled sound Mist rises as water warms, insects gather at lights, frogs follow insects, and the safe path changes with water level. A marker, ripple, or light reflection should make the table...
+- Districts Or Subareas: Post trail Crooked markers cross wet ground. Use for travel choices. Soft pool Still water hides depth and reflection tricks. Use for uncertainty. Dry hummock Small islands hold plants, nests, and temporary safety. Use for pauses.
+- Sensory Signature: Detail Peat, cold water, mushroom rot, and fog heavy enough to taste. Detail Roots are slick and soft at the edges; mud pulls at boots like a hand.
+- Visual Assets: location-visual-assets-v1 the-miremist The Miremist Bright comedic frontier high-fantasy concept art for a Daggerheart-adjacent tabletop RPG. Medieval/Renaissance fantasy technology only: hand tools, wagons, ropes, parchment notices, ward-stones, carved wood, brass, cloth, stone, moss, lanterns, and magic. The tone is colorful, playful, slightly absurd, and vivid, like a fantasy corporate frontier comedy rather than a grim drama. No sci-fi machinery, no 1800s/Victorian clothing, no modern suits, no guns, no logos, no readable text, no watermark, no border, no collage. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/the-miremist MAP-LOC-the-miremist mist bog bog traversal map profile_scene Profile image ready /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/the-miremist/profile_scene_v02.png...
+- Imagine It Like: A foggy peat bog or moor where the path keeps vanishing. Think will-o-the-wisps, sucking mud, and a GPS that has quietly given up on you.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 087f6b33e66c7843 | Source hash dac3370046ed077140fab2d6

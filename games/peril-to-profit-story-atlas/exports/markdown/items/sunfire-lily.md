@@ -1,0 +1,49 @@
+# Sunfire Lily
+
+RAW export - entity:sunfire-lily
+
+## Player-facing description
+Sunfire Lily: A bright Sunfire Lily blooms in Open Vale's seasonal light, making the ritual ground feel vivid and specific before any explanation lands.
+
+## Public role
+Open Vale bloom and ritual landmark
+
+## Handout text
+Player-safe note: A bright Sunfire Lily blooms in Open Vale's seasonal light, making the ritual ground feel vivid and specific before any explanation lands.
+
+## Raw source
+- Type: item
+- Role: Open Vale bloom and ritual landmark
+- Summary: A bright Sunfire Lily blooms in Open Vale's seasonal light, making the ritual ground feel vivid and specific before any explanation lands.
+- Tags: sablewood-lore flora ritual open-vale source-page-3
+- Aliases: Sunfire Lilies Sunfire Lily
+- Connections: Open Vale™ Ritual Site The Stones of the Vale Ward-Moths
+- Inventory: Use the flower as a player-facing visual landmark, not as a secret reveal.
+- Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+- Image Fallback: type-icon
+- Source Pages: Sablewood PDF p. 3
+- Name: Sunfire Lily
+- Id: sunfire-lily
+- Meta: Item / Asset ITEM assets/icons/item.png entity-item #39c5bb 07 Items and Clues entities item
+- Related: Open Vale™ Ritual Site The Stones of the Vale Ward-Moths
+- Image Prompt: Private table TTRPG story atlas asset for Sunfire Lily, Item / Asset. Role: Open Vale bloom and ritual landmark. Summary: A bright Sunfire Lily blooms in Open Vale's seasonal light, making the ritual ground feel vivid and specific before any explanation lands.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: A bright Sunfire Lily blooms in Open Vale's seasonal light, making the ritual ground feel vivid and specific before any explanation lands.; use Sunfire Lily as a concrete table object with texture, ownership, and a reason it matters now.
+- Wants: Give players a tangible handle on Open Vale™ Ritual Site, The Stones of the Vale, Ward-Moths, whether they inspect, carry, return, trade, or refuse it.
+- Fears: Being treated as treasure clutter instead of evidence, memory, hospitality, or infrastructure with consequences.
+- Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.
+- Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.
+- Sample Dialogue: A bright Sunfire Lily blooms in Open Vale's seasonal light, making the ritual ground feel vivid and specific before any explanation lands.
+- Equipment: Use the flower as a player-facing visual landmark, not as a secret reveal.
+- Search Or Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+- Gm Use: Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.
+- Future Hooks: Bring back as an echo if players made a strong choice involving this entity.
+- Robust: Sunfire Lily: A bright Sunfire Lily blooms in Open Vale's seasonal light, making the ritual ground feel vivid and specific before any explanation lands. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Give players a tangible handle on Open Vale™ Ritual Site, The Stones of the Vale, Ward-Moths, whether they inspect, carry, return, trade, or refuse it. Being treated as treasure clutter instead of evidence, memory, hospitality, or infrastructure with consequences. Use when the scene needs a concrete object for players to inspect, carry, debate, or remember. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Sunfire Lily and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more...
+- Mechanics: Discovery / Earn-It Mechanics Players can inspect, handle, keep, trade, reveal, or earn Sunfire Lily when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A bright Sunfire Lily blooms in Open Vale's seasonal light, making the ritual ground feel vivid and specific before any explanation lands. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-sunfire-lily-engage-sunfire-lily entity-sunfire-lily Engage Sunfire Lily Engage Sunfire Lily Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Sunfire Lily hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but...
+- Pronunciation: Sunfire Lily
+- Short Pronunciation: Sunfire Lily
+- Image: assets/entities/sunfire-lily.webp
+- Image Asset Status: image_gen
+- Visual Gallery: primary Primary wiki image primary assets/entities/sunfire-lily.webp Sunfire Lily primary wiki image visual. Sunfire Lily: Primary wiki image. image_gen True True
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 0ca23221bb8f811c | Source hash dac3370046ed077140fab2d6

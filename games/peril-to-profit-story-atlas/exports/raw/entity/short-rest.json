@@ -1,0 +1,64 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "short-rest",
+  "title": "Short Rest",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "036ae1e50dc38a29",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Short Rest: Each PC chooses two rest moves; the GM gains 1d4 Fear."
+    },
+    {
+      "title": "Public role",
+      "body": "Downtime move suite before the ritual pressure peaks"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Each PC chooses two rest moves; the GM gains 1d4 Fear."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: mechanic",
+        "Role: Downtime move suite before the ritual pressure peaks",
+        "Summary: Each PC chooses two rest moves; the GM gains 1d4 Fear.",
+        "Tags: rules-canon rest",
+        "Aliases: Clear Stress Prepare Repair Armor Short Rest Tend to Wounds rest",
+        "Connections: GM Rules Drawer Open Vale™ Ritual Site",
+        "Inventory: Tend to Wounds Clear Stress Repair Armor Prepare",
+        "Loot: No loot.",
+        "Name: Short Rest",
+        "Id: short-rest",
+        "Meta: Mechanic MECHANIC assets/icons/mechanic.png entity-mechanic #87b9ff 08 Tables and Loot entities mechanic",
+        "Appears In: S00-01 S02-02 S04-05 S05-02",
+        "Related: GM Rules Drawer Open Vale™ Ritual Site S00-01 S02-02 S04-05 S05-02",
+        "Image Prompt: Private table TTRPG story atlas asset for Short Rest, Mechanic. Role: Downtime move suite before the ritual pressure peaks. Summary: Each PC chooses two rest moves; the GM gains 1d4 Fear.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Personality: Each PC chooses two rest moves; the GM gains 1d4 Fear.; keep the rule-facing state visible through fictional signs the table can understand.",
+        "Wants: Turn choices around GM Rules Drawer, Open Vale™ Ritual Site into clear consequences the GM can track.",
+        "Fears: Becoming an invisible counter instead of a pressure the players can read, influence, and remember.",
+        "Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.",
+        "Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.",
+        "Sample Dialogue: Each PC chooses two rest moves; the GM gains 1d4 Fear.",
+        "Equipment: Tend to Wounds Clear Stress Repair Armor Prepare",
+        "Search Or Loot: No loot.",
+        "Gm Use: Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.",
+        "Future Hooks: Bring back as an echo if players made a strong choice involving this entity.",
+        "Robust: Short Rest: Each PC chooses two rest moves; the GM gains 1d4 Fear. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Turn choices around GM Rules Drawer, Open Vale™ Ritual Site into clear consequences the GM can track. Becoming an invisible counter instead of a pressure the players can read, influence, and remember. Use when the scene needs a concrete object for players to inspect, carry, debate, or remember. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Short Rest and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the institutional pattern. Wildborne / community: notices local use, neglect, or ecological stress. Martial / security...",
+        "Pronunciation: Short Rest",
+        "Short Pronunciation: Short Rest",
+        "Image: assets/entities/short-rest.webp",
+        "Image Asset Status: fallback_type_icon",
+        "Visual Gallery: primary Primary wiki image primary assets/entities/short-rest.webp Short Rest primary wiki image visual. Short Rest: Primary wiki image. fallback_type_icon True True"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 036ae1e50dc38a29 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

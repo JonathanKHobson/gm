@@ -1,0 +1,415 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2521 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(Hush) Tj
+T*
+() Tj
+T*
+(Player-facing description) Tj
+T*
+() Tj
+T*
+(A warm warded community of food, repairs, arguments, Firstmoss glow, shoes-off customs,) Tj
+T*
+(and people trying to keep ordinary life ordinary.) Tj
+T*
+() Tj
+T*
+(Public role) Tj
+T*
+() Tj
+T*
+(Make Hush feel worth protecting before the finale asks the party to protect it.) Tj
+T*
+() Tj
+T*
+(Handout text) Tj
+T*
+() Tj
+T*
+(A real village under corporate designation, protected by ward pillars.) Tj
+T*
+() Tj
+T*
+(GM truth) Tj
+T*
+() Tj
+T*
+(Hush is never the joke. The joke is the system that renamed a real place as a managed) Tj
+T*
+(endpoint and underfunded its protection.) Tj
+T*
+() Tj
+T*
+(GM handling) Tj
+T*
+() Tj
+T*
+(Introduce with sensory texture, then make one discoverable clue or social choice) Tj
+T*
+(visible.) Tj
+T*
+() Tj
+T*
+(Mechanics) Tj
+T*
+() Tj
+T*
+(- Title: Location Exploration Mechanics) Tj
+T*
+(- Player Safe: Players can navigate, search, read customs, inspect hazards Hush when) Tj
+T*
+(  it is present in the fiction.) Tj
+T*
+(- Gm Only: Use the roll only when the player's method, stakes, and consequence are) Tj
+T*
+(  concrete.) Tj
+T*
+(- No Roll Reveals: Surface read: A real village under corporate designation, protected) Tj
+T*
+(  by ward pillars. Give obvious visible facts freely; roll for meaning, risk,) Tj
+T*
+(  leverage, cost, or a hidden angle.) Tj
+T*
+(- Rolls: entity-hush-engage-hush entity-hush Engage Hush Engage Hush Instinct) Tj
+T*
+(  Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait) Tj
+T*
+(  from the player's method, not the entity type. A flat read of Hush hides the cost,) Tj
+T*
+(  motive, or useful next step. Critical Success: best possible version of the action;) Tj
+T*
+(  gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction.) Tj
+T*
+(  Success with Hope: the PC gets what they wanted and gains Hope. Keep the position) Tj
+T*
+(  clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains) Tj
+T*
+(  Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC) Tj
+T*
+(  does not get the full result, but gains Hope and receives a useful thread, clue, or) Tj
+T*
+(  safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a) Tj
+T*
+(  hard move that follows from the fiction. A flat read of Hush hides the cost...) Tj
+T*
+(- Fear Spends: Reveal who benefits from the current situation. Make the cost personal) Tj
+T*
+(  without closing off player agency.) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3579 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Condition Options: No official condition unless a hazard creates Hidden, Restrained,) Tj
+T*
+(  or Vulnerable) Tj
+T*
+(- Search Loot: Not lootable; offers supplies if trust is earned.) Tj
+T*
+() Tj
+T*
+(Profile) Tj
+T*
+() Tj
+T*
+(- Schema Version: location-profile-v1) Tj
+T*
+(- Id: hush) Tj
+T*
+(- Entity Id: hush) Tj
+T*
+(- Source: Goldspire_Location_Packet/04_Hush_Enclave.md) Tj
+T*
+(- Auto Surface: True) Tj
+T*
+(- Priority: strong) Tj
+T*
+(- Player Safe: Hush A real village under corporate designation, protected by ward) Tj
+T*
+(  pillars. A real village under corporate designation, protected by ward pillars. Hush) Tj
+T*
+(  is warm before it is safe: low roofs, clover smoke, hand-repaired doors, and ward) Tj
+T*
+(  posts humming just a little off-key. Hush feels walkable in every direction: canals,) Tj
+T*
+(  porches, co-op warmth, moss farms, quiet gossip, low bridges, laundry, water gates,) Tj
+T*
+(  and neighbors who know the sound of every footstep. The place breaks into usable) Tj
+T*
+(  table spaces: Canal arrival: Low bridges and lantern reflections make the first) Tj
+T*
+(  approach soft and watchful. Porch ring: Homes face shared paths more than private) Tj
+T*
+(  yards. Clover Co-op corner: The tavern/co-op is the social stomach of the village.) Tj
+T*
+(  Moss-water lanes: Narrow plank paths lead toward farms and irrigation. Quiet old) Tj
+T*
+(  shrine: A small mossy place holds older local memory. Plants and materials:) Tj
+T*
+(  firstmoss...) Tj
+T*
+(- Block1: Hush Make Hush feel worth protecting before the finale asks the party to) Tj
+T*
+(  protect it. A real village under corporate designation, protected by ward pillars.) Tj
+T*
+(  Hush is the point of the delivery: ordinary life, not a punchline or service) Tj
+T*
+(  endpoint. The ward at the water gates hums wrong. The people who live under it have) Tj
+T*
+(  stopped hearing it, which is its own kind of warning. Hush is the point of the) Tj
+T*
+(  delivery: ordinary life, not a punchline or service endpoint. Strangers are rare and) Tj
+T*
+(  remembered. The village will read the party long before it answers a single) Tj
+T*
+(  question. pages/entities/hush.html) Tj
+T*
+(- Block2: A village built for working hands, with shoes lined near thresholds and) Tj
+T*
+(  adults quietly tracking the sealed crate. Children watch from behind people they) Tj
+T*
+(  trust; nobody runs, but nobody relaxes until the party proves how they arrived. The) Tj
+T*
+(  ward chimes lag half a beat behind each other. Corporate plaques use the trademarked) Tj
+T*
+(  name, while locals speak around it like an old irritation. Detail Bread, wet clover,) Tj
+T*
+(  hearth smoke, and clean laundry under a mineral edge from the failing wards. Detail) Tj
+T*
+(  The lanes are packed earth softened by moss; doorframes feel polished by years of) Tj
+T*
+(  hands instead of money. Hush is warm before it is safe: low roofs, clover smoke,) Tj
+T*
+(  hand-repaired doors, and ward posts humming just a little off-key. Hush feels) Tj
+T*
+(  walkable in every direction: canals, porches, co-op warmth, moss farms, quiet) Tj
+T*
+(  gossip, low bridges, laundry, water gates, and neighbors who know the sound of) Tj
+T*
+(  every...) Tj
+T*
+(- Block3: threshold shoe lines ward chimes kitchen windows repair benches watchful) Tj
+T*
+(  elders Presence to arrive with care instead of contract authority. Instinct to read) Tj
+T*
+(  which locals are frightened rather than rude. Knowledge to notice the ward rhythm is) Tj
+T*
+(  failing unevenly. Local residents or workers appropriate to the place Ratcoons work) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4207 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  the canals and porch edges Festival Moths drift near moss lanterns Young Dryads) Tj
+T*
+(  watch hospitality from the tree line small fish flash under planks No default) Tj
+T*
+(  combatant; add only if the scene introduces one Local civic, trade, or route) Tj
+T*
+(  interests Food, tools, route signs, local goods, or scene-specific clues firstmoss,) Tj
+T*
+(  glowmoss, canal reeds, soft roof moss, kitchen herbs in hanging jars Clover Co-op) Tj
+T*
+(  food and drink moss-honey jars minor repairs local directions quiet gossip) Tj
+T*
+(- Block4: The place changes even if the PCs stand still. Local people, creatures,) Tj
+T*
+(  weather, signage, and ward behavior all keep moving around the scene. Outsider) Tj
+T*
+(  authority can chill the welcome. Bad news from the road spreads faster than the) Tj
+T*
+(  party can control. The Keystone crate makes private fear visible. A child repeats a) Tj
+T*
+(  corporate phrase that makes the room go quiet. A ward chime misses a beat during a) Tj
+T*
+(  tense question. Someone recognizes Tamsin's effects before the party is ready to) Tj
+T*
+(  explain. Let the place be funny through overconfident signage, awkward forms,) Tj
+T*
+(  stubborn local habits, and magic that refuses corporate language.) Tj
+T*
+(- Block5: S03-01 S03-02 S03-03 S03-04 S05-07 S06-01 MAP-LOC-hush) Tj
+T*
+(- Block6: Describe what the PCs can see, smell, hear, touch, ask about, or infer. Do) Tj
+T*
+(  not explain hidden infrastructure or corporate thesis until play earns it. surface A) Tj
+T*
+(  real village under corporate designation, protected by ward pillars. table clue Hush) Tj
+T*
+(  is the point of the delivery: ordinary life, not a punchline or service endpoint.) Tj
+T*
+(  earned truth Reveal deeper system meaning through NPC answers, evidence, or player) Tj
+T*
+(  questions, not narration dumps.) Tj
+T*
+(- What Here: Local residents or workers appropriate to the place Ratcoons work the) Tj
+T*
+(  canals and porch edges Festival Moths drift near moss lanterns Young Dryads watch) Tj
+T*
+(  hospitality from the tree line small fish flash under planks No default combatant;) Tj
+T*
+(  add only if the scene introduces one Local civic, trade, or route interests Food,) Tj
+T*
+(  tools, route signs, local goods, or scene-specific clues firstmoss, glowmoss, canal) Tj
+T*
+(  reeds, soft roof moss, kitchen herbs in hanging jars Clover Co-op food and drink) Tj
+T*
+(  moss-honey jars minor repairs local directions quiet gossip) Tj
+T*
+(- Living Place: location-living-place-v1 wetland village Hush should feel walkable in) Tj
+T*
+(  every direction: canals, porches, co-op warmth, moss farms, quiet gossip, low) Tj
+T*
+(  bridges, laundry, water gates, and neighbors who know the sound of every footstep.) Tj
+T*
+(  Canal arrival Low bridges and lantern reflections make the first approach soft and) Tj
+T*
+(  watchful. Use for entry tone. Porch ring Homes face shared paths more than private) Tj
+T*
+(  yards. Use for social observation. Clover Co-op corner The tavern/co-op is the) Tj
+T*
+(  social stomach of the village. Use for questions and warmth. Moss-water lanes Narrow) Tj
+T*
+(  plank paths lead toward farms and irrigation. Use when players wander. Quiet old) Tj
+T*
+(  shrine A small mossy place holds older local memory. Use for history, trust, or) Tj
+T*
+(  reflection. firstmoss, glowmoss, canal reeds, soft roof moss, kitchen herbs in) Tj
+T*
+(  hanging jars Ratcoons work the canals and porch edges Festival Moths drift near moss) Tj
+T*
+(  lanterns...) Tj
+T*
+(- Districts Or Subareas: Canal arrival Low bridges and lantern reflections make the) Tj
+T*
+(  first approach soft and watchful. Use for entry tone. Porch ring Homes face shared) Tj
+T*
+(  paths more than private yards. Use for social observation. Clover Co-op corner The) Tj
+T*
+(  tavern/co-op is the social stomach of the village. Use for questions and warmth.) Tj
+T*
+(  Moss-water lanes Narrow plank paths lead toward farms and irrigation. Use when) Tj
+T*
+(  players wander. Quiet old shrine A small mossy place holds older local memory. Use) Tj
+T*
+(  for history, trust, or reflection.) Tj
+T*
+(- Sensory Signature: Detail Bread, wet clover, hearth smoke, and clean laundry under a) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 1655 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  mineral edge from the failing wards. Detail The lanes are packed earth softened by) Tj
+T*
+(  moss; doorframes feel polished by years of hands instead of money.) Tj
+T*
+(- Visual Assets: location-visual-assets-v1 hush Hush Bright comedic frontier high-) Tj
+T*
+(  fantasy concept art for a Daggerheart-adjacent tabletop RPG. Medieval/Renaissance) Tj
+T*
+(  fantasy technology only: hand tools, wagons, ropes, parchment notices, ward-stones,) Tj
+T*
+(  carved wood, brass, cloth, stone, moss, lanterns, and magic. The tone is colorful,) Tj
+T*
+(  playful, slightly absurd, and vivid, like a fantasy corporate frontier comedy rather) Tj
+T*
+(  than a grim drama. No sci-fi machinery, no 1800s/Victorian clothing, no modern) Tj
+T*
+(  suits, no guns, no logos, no readable text, no watermark, no border, no collage.) Tj
+T*
+(  /Users/kyle/Documents/My Games/Peril To Profit/story-) Tj
+T*
+(  atlas/src/location_visual_assets/hush MAP-LOC-hush wetland village village regional) Tj
+T*
+(  map profile_scene Profile image ready /Users/kyle/Documents/My Games/Peril To) Tj
+T*
+(  Profit/story-atlas/src/location_visual_assets/hush/profile_scene_v02.png) Tj
+T*
+(  assets/location-visuals/hush/profile_scene_v02.png...) Tj
+T*
+(- Imagine It Like: A close-knit canal village like a tiny Venice or a bayou town where) Tj
+T*
+(  you are family by the third night. Think small fishing community, shoes-off-at-the-) Tj
+T*
+(  door, and the neighbor who already knows your business.) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 5901ea4db7921f9b | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R] /Count 4 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000002582 00000 n 
+0000002709 00000 n 
+0000006340 00000 n 
+0000006467 00000 n 
+0000010726 00000 n 
+0000010853 00000 n 
+0000012560 00000 n 
+0000012687 00000 n 
+0000012762 00000 n 
+0000012812 00000 n 
+trailer
+<< /Size 12 /Root 10 0 R >>
+startxref
+12885
+%%EOF

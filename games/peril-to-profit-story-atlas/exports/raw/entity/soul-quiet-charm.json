@@ -1,0 +1,64 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "soul-quiet-charm",
+  "title": "Soul-Quiet Charm",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "8d398fe4188c3682",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Soul-Quiet Charm: One use: clear 1 Stress caused by fear, memory, or wraith backlash, or gain advantage on a Presence or Knowledge roll to recover from a Soul-Audit Wraith module effect. Adaptation, not official Daggerheart."
+    },
+    {
+      "title": "Public role",
+      "body": "Loot Board item, clue, handout, or utility reward"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: One use: clear 1 Stress caused by fear, memory, or wraith backlash, or gain advantage on a Presence or Knowledge roll to recover from a Soul-Audit Wraith module effect. Adaptation, not official Daggerheart."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: item",
+        "Role: Loot Board item, clue, handout, or utility reward",
+        "Summary: One use: clear 1 Stress caused by fear, memory, or wraith backlash, or gain advantage on a Presence or Knowledge roll to recover from a Soul-Audit Wraith module effect. Adaptation, not official Daggerheart.",
+        "Tags: loot search consumable Soulspire adaptation",
+        "Aliases: Soul-Quiet Charm",
+        "Connections: Loot Board Soulspire adaptation GM Rules Drawer",
+        "Inventory: rare for Tier 1 One use: clear 1 Stress caused by fear, memory, or wraith backlash, or gain advantage on a Presence or Knowledge roll to recover from a Soul-Audit Wraith module effect. Adaptation, not official Daggerheart.",
+        "Loot: Use as a small reward, clue, or texture rather than a treasure pile.",
+        "Name: Soul-Quiet Charm",
+        "Id: soul-quiet-charm",
+        "Meta: Item / Asset ITEM assets/icons/item.png entity-item #39c5bb 07 Items and Clues entities item",
+        "Related: GM Rules Drawer Loot Board Soulspire adaptation",
+        "Image Prompt: Private table TTRPG story atlas asset for Soul-Quiet Charm, Item / Asset. Role: Loot Board item, clue, handout, or utility reward. Summary: One use: clear 1 Stress caused by fear, memory, or wraith backlash, or gain advantage on a Presence or Knowledge roll to recover from a Soul-Audit Wraith module effect. Adaptation, not official Daggerheart.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Personality: One use: clear 1 Stress caused by fear, memory, or wraith backlash, or gain advantage on a Presence or Knowledge roll to recover from a Soul-Audit Wraith module effect. Adaptation, not official Daggerheart.; use Soul-Quiet Charm as a concrete table object with texture, ownership, and a reason it matters now.",
+        "Wants: Give players a tangible handle on Loot Board, Soulspire, adaptation, whether they inspect, carry, return, trade, or refuse it.",
+        "Fears: Being treated as treasure clutter instead of evidence, memory, hospitality, or infrastructure with consequences.",
+        "Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.",
+        "Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.",
+        "Sample Dialogue: One use: clear 1 Stress caused by fear, memory, or wraith backlash, or gain advantage on a Presence or Knowledge roll to recover from a Soul-Audit Wraith module effect. Adaptation, not official Daggerheart.",
+        "Equipment: rare for Tier 1 One use: clear 1 Stress caused by fear, memory, or wraith backlash, or gain advantage on a Presence or Knowledge roll to recover from a Soul-Audit Wraith module effect. Adaptation, not official Daggerheart.",
+        "Search Or Loot: Use as a small reward, clue, or texture rather than a treasure pile.",
+        "Gm Use: Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.",
+        "Future Hooks: Bring back as an echo if players made a strong choice involving this entity.",
+        "Robust: Soul-Quiet Charm: One use: clear 1 Stress caused by fear, memory, or wraith backlash, or gain advantage on a Presence or Knowledge roll to recover from a Soul-Audit Wraith module effect. Adaptation, not official Daggerheart. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Give players a tangible handle on Loot Board, Soulspire, adaptation, whether they inspect, carry, return, trade, or refuse it. Being treated as treasure clutter instead of evidence, memory, hospitality, or infrastructure with consequences. Use when the scene needs a concrete object for players to inspect, carry, debate, or remember. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Soul-Quiet Charm and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object...",
+        "Mechanics: Discovery / Earn-It Mechanics Players can inspect, handle, keep, trade, reveal, or earn Soul-Quiet Charm when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: One use: clear 1 Stress caused by fear, memory, or wraith backlash, or gain advantage on a Presence or Knowledge roll to recover from a Soul-Audit Wraith module effect. Adaptation, not official Daggerheart. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-soul-quiet-charm-engage-soul-quiet-charm entity-soul-quiet-charm Engage Soul-Quiet Charm Engage Soul-Quiet Charm Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Soul-Quiet Charm hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces...",
+        "Pronunciation: Soul-quiet Charm",
+        "Short Pronunciation: Soul-quiet Charm",
+        "Image: assets/entities/soul-quiet-charm.webp",
+        "Image Asset Status: fallback_type_icon",
+        "Visual Gallery: primary Primary wiki image primary assets/entities/soul-quiet-charm.webp Soul-Quiet Charm primary wiki image visual. Soul-Quiet Charm: Primary wiki image. fallback_type_icon True True"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 8d398fe4188c3682 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

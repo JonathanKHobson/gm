@@ -1,0 +1,46 @@
+# Vela Bramblewick
+
+GM export - entity:vela-bramblewick
+
+## Player-facing description
+Vela Bramblewick: A sharp-eyed ambusher who watches the horses more than the heroes.
+
+## Public role
+The eyes that make the ambush possible and dread what it starts.
+
+## Handout text
+Player-safe note: A sharp-eyed ambusher who watches the horses more than the heroes.
+
+## GM truth
+No forced reveal. Let this entity disclose truth through scene context and player attention.
+
+## GM handling
+Use this person to put a human face on the current pressure. Give them one concrete want before exposition.
+
+## Mechanics
+- Title: Social / Information Mechanics
+- Player Safe: Players can interact, comfort, persuade, or earn trust Vela Bramblewick when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: a scout who would rather carry a warning than a blade Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-vela-bramblewick-engage-vela-bramblewick entity-vela-bramblewick Engage Vela Bramblewick Engage Vela Bramblewick Presence Knowledge Instinct Presence Knowledge, Instinct 12 Choose the trait from the player's method, not the entity type. A flat read of Vela Bramblewick hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless the fiction calls for Hidden, Restrained, or Vulnerable
+- Search Loot: Horse herbs, dagger, tag from road claim. Loot / item link: Bramble Ward-Scrap Charm Cluster (Trade, trust, or careful examination of dropped Bramble gear.).
+
+## Profile
+- Schema Version: npc-profile-v1
+- Source: NPC_System_Packet + image-informed hardening
+- Backup: False
+- Combatant: True
+- Player Safe: Vela Bramblewick a scout who would rather carry a warning than a blade A wiry Bramble scout peers from a thorn-woven hood, jaw clenched, blue charm bright against layered leaf armor and stolen road scraps. Vela Bramblewick: a scout who would rather carry a warning than a blade
+- Block1: Vela Bramblewick VAY-luh BRAM-bul-wik a scout who would rather carry a warning than a blade The eyes that make the ambush possible and dread what it starts. Skirmish mobility and the softest target for parley; she is hunting for an off-ramp. She is faster than she is committed. Offer her a way to be useful without bloodshed and she takes it. Parley path Capture/mercy branch Evidence that the road conflict is bigger than banditry Wired and watchful, already planning three exits. A chance to prove scouts and warnings matter to the camp more than blades do.
+- Block2: Get a message or warning through without being trapped. Prove she is useful enough that the camp keeps listening to scouts instead of only blades. Get a message or warning through without being trapped. Prove she is useful enough that the camp keeps listening to scouts instead of only blades. Quick, anxious, and proud of being trusted with eyes instead of a weapon. Clicks a green stone against her teeth when she thinks. Wants the camp to keep listening to her more than she wants this fight to happen. There is a clean way out east. We do not have to do this here. I run messages. I do not bury people. Kett, listen to me for once. The road is wrong tonight. She has seen evidence that frightens her more than the party does. Being caught between Kett's plan and a company response she cannot outrun. Quiet questions, safe routes, and anyone who notices she is carrying messages, not just...
+- Block3: She expects armed adults to decide she is either harmless or disposable. Gentleness and a clear no-capture promise land. Intimidation makes her vanish. Presence 15 They lower weapons long enough to bargain. Instinct 14 The player spots who is ready to run, who is committed, and who can be moved. A named safe path for her people gets her to stop fighting and start carrying terms.
+- Block4: They know the road has winners and losers. They are not all equally committed to killing. Keep the defector truth behind play-earned clues; this scene can show fear, hunger, and displaced-worker pressure without naming the whole engine. Named Bramble variants tie to the camp through gear, charms, and loyalty rather than a new corporation. Sees companies as nets: pretty knots until you are inside one. Turns the ambush into a values choice instead of a faceless combat stop. A spared reclaimer can become a future informant or complication. Barnacle can smell a deal; Garrick can read fear and posture; any PC can offer a non-lethal branch. Runs messages for Kett but worries Nettle will not survive another bold plan. npc_images portrait asset
+- Block5: Ambusher x4. T1 Standard. Dagger 1d8+5. Difficulty 13. Thresholds 6/12. HP 3. Stress 2. Ambush reaction 2d4+8. combatant Rules/Act-by-Act Mechanics.md Scene 2.2 Tier 1 Standard 13 6 12 3 2 not listed in module source Dagger, Melee, 1d8+5 physical Melee ambush take the carriage survive retreat if the leader breaks Ambush - Reaction: if unspotted, enter unseen and strike for 2d4+8. Moral off-ramp: Presence 15 can thin or end the fight when the party offers a concrete alternative. Thorn terrain can make a PC Restrained when the fiction physically traps them. Fear pressure: spend Fear through adversary spotlight pressure, thorn terrain, or the leader's Back Off if the leader is present. Use Fear to tighten existing fictional pressure: cover closes, thorns catch cloth, or the leader forces distance with the listed Back Off move if present. Do not run them as faceless bandits; they want...
+- Portrait: assets/npc-images/vela-bramblewick/portrait_base.webp assets/npc-images/vela-bramblewick/portrait_chroma.webp assets/npc-images/vela-bramblewick/portrait_transparent.webp npc_images
+- Imagine It Like: Think the young resistance runner who is brilliant in the field and sick about the cause's methods, the scout who memorizes every exit because she has had to use them.
+- Fullbody: assets/npc-images/vela-bramblewick/fullbody_base.webp assets/npc-images/vela-bramblewick/fullbody_chroma.webp assets/npc-images/vela-bramblewick/fullbody_transparent.webp
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash d426899ba147866a | Source hash dac3370046ed077140fab2d6

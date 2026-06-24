@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "sablewood-fear-moments",
+  "kind": "entity",
+  "title": "Sablewood Fear Moments",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Mechanic",
+  "hook": "Player-safe note: GM pressure beats: overturned carts, twig snaps, name-echoing wind, watching eyes, seal theft, tiger-elk violence, pit traps, thorns drinking blood, and old soul-debt credentials.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "GM pressure beats: overturned carts, twig snaps, name-echoing wind, watching eyes, seal theft, tiger-elk violence, pit traps, thorns drinking blood, and old soul-debt credentials."
+    },
+    {
+      "label": "How It Works",
+      "body": "Fear table for Sablewood pressure texture"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use this when your action is uncertain and consequences matter.",
+    "Ask which trait fits your method."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:sablewood-fear-moments",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "dbb2eb2cc1c1cccc",
+  "generated_at": "2026-06-23T21:40:58"
+}

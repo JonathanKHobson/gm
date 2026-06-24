@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "hanging-office-winch",
+  "kind": "entity",
+  "title": "Hanging Office Winch",
+  "in_world_label": "Provisioning Product Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Item / Asset",
+  "hook": "Player-safe note: A counterweight-and-winch system that makes the Custodian's home feel precarious, practical, and inspectable.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Hanging Office Winch: A counterweight-and-winch system that makes the Custodian's home feel precarious, practical, and inspectable."
+    },
+    {
+      "label": "Player Read",
+      "body": "Player-safe note: A counterweight-and-winch system that makes the Custodian's home feel precarious, practical, and inspectable."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Inspect the label, maker, or fine print.",
+    "Use it only when the fiction says you can reach it."
+  ],
+  "archetype": "item.product_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:hanging-office-winch",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "65f31a8c9c69019e",
+  "generated_at": "2026-06-23T21:40:58"
+}

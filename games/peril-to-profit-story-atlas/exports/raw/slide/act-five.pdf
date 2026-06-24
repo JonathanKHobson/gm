@@ -1,0 +1,379 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2639 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(ACT-FIVE - Act Five: The Ward Renewal) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The carriage pulls into a perfect circle of clearing, the only place in the preserve) Tj
+T*
+(where the trees pull back and let you see the open sky. This is where it ends. The) Tj
+T*
+(Custodian says the ward was first forged here, and here it must be renewed. She tells) Tj
+T*
+(you it nearly killed her the first time. Then she smiles, old and unafraid, and asks you) Tj
+T*
+(to stand with her while she does the most dangerous thing she knows how to do.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Protect the Custodian through the ritual, renew the ward, and finish what the job) Tj
+T*
+(started.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: ACT-FIVE) Tj
+T*
+(- Type: act-divider) Tj
+T*
+(- Sectionid: ACT-FIVE) Tj
+T*
+(- Sectiontitle: Act Five: The Ward Renewal) Tj
+T*
+(- Title: Act Five: The Ward Renewal) Tj
+T*
+(- Shorttitle: Act Five) Tj
+T*
+(- Order: 600) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Caption: The finale turns five acts of trust, mercy, preparation, and truth into one) Tj
+T*
+(  visible ritual outcome.) Tj
+T*
+(- Mood: table transition) Tj
+T*
+(- Gmgoal: Converge every prior choice into the ward renewal: protect the Custodian,) Tj
+T*
+(  make the countdown legible, resolve the ritual, and choose what truth leaves with) Tj
+T*
+(  the party.) Tj
+T*
+(- Publicobjective: Protect the Custodian through the ritual, renew the ward, and) Tj
+T*
+(  finish what the job started.) Tj
+T*
+(- Readaloud: The carriage pulls into a perfect circle of clearing, the only place in) Tj
+T*
+(  the preserve where the trees pull back and let you see the open sky. This is where) Tj
+T*
+(  it ends. The Custodian says the ward was first forged here, and here it must be) Tj
+T*
+(  renewed. She tells you it nearly killed her the first time. Then she smiles, old and) Tj
+T*
+(  unafraid, and asks you to stand with her while she does the most dangerous thing she) Tj
+T*
+(  knows how to do.) Tj
+T*
+(- Gmnotes: Act 5 is not a kill-all combat. It is protection under pressure until the) Tj
+T*
+(  countdown reaches 0. Let prior mercy or trust become visible help: warning, charm,) Tj
+T*
+(  positioning, steadier Custodian, or a better aftermath. If the fight drags, Market) Tj
+T*
+(  Correction can spawn easy skeletons so progress can resume without punishing) Tj
+T*
+(  beginners.) Tj
+T*
+(- Playertakeaway: You signed on for the hard road; this is the hard road. Stand with) Tj
+T*
+(  her and finish it.) Tj
+T*
+(- Storytakeaway: This is the resolution of everything: the ward, the city, the) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3945 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Custodian, and the choices that brought the party here.) Tj
+T*
+(- Mechanictakeaway: Act 5 is a defense encounter on a countdown, then a report-choice) Tj
+T*
+(  epilogue gate.) Tj
+T*
+(- Livetools: none) Tj
+T*
+(- Playersafeprojection: ACT-FIVE act-divider Act Five: The Ward Renewal The finale) Tj
+T*
+(  turns five acts of trust, mercy, preparation, and truth into one visible ritual) Tj
+T*
+(  outcome. table transition Protect the Custodian through the ritual, renew the ward,) Tj
+T*
+(  and finish what the job started. The carriage pulls into a perfect circle of) Tj
+T*
+(  clearing, the only place in the preserve where the trees pull back and let you see) Tj
+T*
+(  the open sky. This is where it ends. The Custodian says the ward was first forged) Tj
+T*
+(  here, and here it must be renewed. She tells you it nearly killed her the first) Tj
+T*
+(  time. Then she smiles, old and unafraid, and asks you to stand with her while she) Tj
+T*
+(  does the most dangerous thing she knows how to do. act-five-open-sky Open Sky The) Tj
+T*
+(  open sky For the first time in days, the trees pull back. The clearing is a perfect) Tj
+T*
+(  circle under open sky. For the first time in days, the trees pull back. The clearing) Tj
+T*
+(  is a perfect circle under open sky. For the first time in days, the trees pull back.) Tj
+T*
+(  The clearing is a perfect circle under open sky. text-first act-five-stand-with-her) Tj
+T*
+(  Stand With Her What she asks The Custodian asks you to stand with her while she does) Tj
+T*
+(  the most dangerous thing she knows how to do. The Custodian asks...) Tj
+T*
+(- Gmscript: Say: "Every road you took leads to this clearing. What happens here is the) Tj
+T*
+(  ending you have been writing all along.") Tj
+T*
+(- Gmreadaloud: The carriage pulls into a perfect circle of clearing. For the first) Tj
+T*
+(  time in days, the trees pull back and let you see the open sky. The Custodian says) Tj
+T*
+(  the ward was first forged here, and here it must be renewed.) Tj
+T*
+(- Gmchecklist: Read the full carry-in chain before S05-01: strixwolf_*, bramble_*,) Tj
+T*
+(  package_status, hush_trust, custodian_route, ward_awareness, festival_boon,) Tj
+T*
+(  custodian_trust, ward_stability, ritual_prep, keystone_understanding, and) Tj
+T*
+(  hush_clues. If package_status=lost, flag that the finale cannot proceed as written) Tj
+T*
+(  until the table recovers, improvises, or accepts an alternate fragile start. If) Tj
+T*
+(  ward_stability is unset, default to fragile and make the first countdown pressure) Tj
+T*
+(  harsher. Keep Open Vale\(TM\), Market Correction, and soul-economy as GM-side framing) Tj
+T*
+(  unless the packet gate is earned.) Tj
+T*
+(- Gmprivate: The ward renewal is a real win with a cost. Full soul-economy truth) Tj
+T*
+(  remains a seed, not a lecture. The report choice is the final values mechanic: file-) Tj
+T*
+(  honest, spin-corporate, refuse, or withhold-the-truth. Withhold-the-truth has the) Tj
+T*
+(  largest future fallout but protects the wrong readers from the deepest truth for) Tj
+T*
+(  now.) Tj
+T*
+(- Mechanicids: countdown short-rest hope fear presence knowledge table-spotlight) Tj
+T*
+(- References: Act 05 - The Ward Renewal) Tj
+T*
+(  archive/goldspire_story_atlas_packet/obsidian_vault/01 Story/Act 05 - The Ward) Tj
+T*
+(  Renewal.md Ritual Countdown archive/goldspire_story_atlas_packet/obsidian_vault/08) Tj
+T*
+(  Tables and Loot/Ritual Countdown.md) Tj
+T*
+(- Sourcefiles: archive/goldspire_story_atlas_packet/obsidian_vault/01 Story/Act 05 -) Tj
+T*
+(  The Ward Renewal.md archive/goldspire_story_atlas_packet/obsidian_vault/08 Tables) Tj
+T*
+(  and Loot/Ritual Countdown.md) Tj
+T*
+(- Playerbeats: act-five-open-sky Open Sky The open sky For the first time in days, the) Tj
+T*
+(  trees pull back. The clearing is a perfect circle under open sky. For the first time) Tj
+T*
+(  in days, the trees pull back. The clearing is a perfect circle under open sky. For) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3956 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  the first time in days, the trees pull back. The clearing is a perfect circle under) Tj
+T*
+(  open sky. text-first act-five-stand-with-her Stand With Her What she asks The) Tj
+T*
+(  Custodian asks you to stand with her while she does the most dangerous thing she) Tj
+T*
+(  knows how to do. The Custodian asks you to stand with her while she does the most) Tj
+T*
+(  dangerous thing she knows how to do. The Custodian asks you to stand with her while) Tj
+T*
+(  she does the most dangerous thing she knows how to do. text-first act-five-countdown) Tj
+T*
+(  Countdown The visible clock When the ritual begins, the countdown starts at 8.) Tj
+T*
+(  Defeat threats to move it down. Let the Custodian be hit, and it moves up. When the) Tj
+T*
+(  ritual begins, the countdown starts at 8. Defeat threats to move it down. Let the) Tj
+T*
+(  Custodian be hit, and it moves up. When the ritual begins, the countdown starts at) Tj
+T*
+(  8. Defeat threats to move it down. Let the Custodian be hit, and it moves up. text-) Tj
+T*
+(  first) Tj
+T*
+(- Gmbeats: act-five-open-sky Open Sky The open sky Say: "This is the first open sky) Tj
+T*
+(  you have seen in days. Let that land before the danger starts." For the first time) Tj
+T*
+(  in days, the trees pull back. The clearing is a perfect circle under open sky. The) Tj
+T*
+(  finale begins on sacred ground before combat begins. Scene framing gives the table a) Tj
+T*
+(  shared focus before rules pressure. Players enter the finale through image and) Tj
+T*
+(  place. Player takeaway Players enter the finale through image and place. "This is) Tj
+T*
+(  the first open sky you have seen in days. Let that land before the danger starts.") Tj
+T*
+(  "The table-facing answer is: Players enter the finale through image and place." Use) Tj
+T*
+(  this beat to give the players one visible next action: protect the center, read the) Tj
+T*
+(  field, spend prep, name who they shield, or choose what truth leaves with them.) Tj
+T*
+(  table-spotlight Story takeaway The finale begins on sacred ground before combat) Tj
+T*
+(  begins. "This is the first open sky you have seen in days. Let that land before the) Tj
+T*
+(  danger starts." "The story answer is: The finale begins on sacred ground before) Tj
+T*
+(  combat begins." Tie the answer to a visible Act 5 consequence: the ward steadies,) Tj
+T*
+(  the Custodian suffers, Hush is protected, or the...) Tj
+T*
+(- Takeawayhelp: Player takeaway You signed on for the hard road; this is the hard) Tj
+T*
+(  road. Stand with her and finish it. "No more setup. This is the fight that ends the) Tj
+T*
+(  story. Protect her, hold the line, and see it through." "Take your last rest, ready) Tj
+T*
+(  your gear, and pick who you stand beside when it gets bad." This is the player-) Tj
+T*
+(  facing finale thesis: shared courage, not lone-hero destiny. countdown short-rest) Tj
+T*
+(  fear table-spotlight Story takeaway This is the resolution of everything: the ward,) Tj
+T*
+(  the city, the Custodian, and the choices that brought the party here. "Every road) Tj
+T*
+(  you took leads to this clearing. What happens here is the ending you have been) Tj
+T*
+(  writing all along." "At stake: Hush, the Custodian, the ward, and what kind of truth) Tj
+T*
+(  survives the paperwork after you win." Make carry-in flags visible through help,) Tj
+T*
+(  pressure, and aftermath, not as a list of variables read aloud. countdown short-rest) Tj
+T*
+(  fear table-spotlight Mechanic takeaway Act 5 is a defense encounter on a countdown,) Tj
+T*
+(  then a report-choice epilogue gate. "A timed fight. She rituals, you hold the line.) Tj
+T*
+(  A countdown die runs the clock: defeat enemies to speed it, but every hit she takes) Tj
+T*
+(  slows it down." "d8 starts at 8. Down 1 on adversary...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Slidenumber: 61) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 183 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 923d82c0087e6cdb | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R] /Count 4 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000002700 00000 n 
+0000002827 00000 n 
+0000006824 00000 n 
+0000006951 00000 n 
+0000010959 00000 n 
+0000011086 00000 n 
+0000011320 00000 n 
+0000011447 00000 n 
+0000011522 00000 n 
+0000011572 00000 n 
+trailer
+<< /Size 12 /Root 10 0 R >>
+startxref
+11645
+%%EOF

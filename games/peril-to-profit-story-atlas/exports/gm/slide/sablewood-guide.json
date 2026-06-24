@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "SABLEWOOD-GUIDE",
+  "title": "SABLEWOOD-GUIDE - Sablewood Field Guide",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "8b0235b54b55e9c0",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "Sablewood is old, lush, dangerous, and bigger than the route contract."
+    },
+    {
+      "title": "Public objective",
+      "body": "Sablewood is old, lush, dangerous, and bigger than the route contract."
+    },
+    {
+      "title": "GM goal",
+      "body": "Keep Sablewood lore one click away without leaving Run Mode."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "Use lush natural wonder first, then reveal corporate pricing, coverage, tolls, and liability language.",
+        "The PDF source link lives on the Sablewood wiki page and is bundled under sources/ in the generated site."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 8b0235b54b55e9c0 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

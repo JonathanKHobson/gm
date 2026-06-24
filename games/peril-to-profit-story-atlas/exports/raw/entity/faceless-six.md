@@ -1,0 +1,53 @@
+# Faceless Six
+
+RAW export - entity:faceless-six
+
+## Player-facing description
+The Faceless Six: The Faceless Six turn a friendly room into a village decision without raising their voices. Slogan: Six voices, one door.
+
+## Public role
+Hush leadership body and preparation trigger
+
+## Handout text
+The Faceless Six: The Faceless Six turn a friendly room into a village decision without raising their voices. Slogan: Six voices, one door.
+
+## Raw source
+- Type: faction
+- Role: Hush leadership body and preparation trigger
+- Summary: The Faceless Six turn a friendly room into a village decision without raising their voices.
+- Tags: audit-recovery faction-profile hush leadership sablewood-lore source-page-10
+- Aliases: Faceless Six Hush council The Faceless Six village leaders
+- Connections: Hush Hush™ Community Enclave Guest Privileges Clover Co-op Whitefire Custodian Zephra Exchange Hexmart
+- Inventory: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry.
+- Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+- Image Fallback: type-icon
+- Source Pages: Sablewood PDF p. 10
+- Name: Faceless Six
+- Id: faceless-six
+- Meta: Faction / Community FACTION assets/icons/faction.png entity-faction #9f7aea 06 Factions and Companies factions faction
+- Appears In: S03-01
+- Related: Clover Co-op Guest Privileges Hexmart Hush Hush™ Community Enclave S03-01 Whitefire Custodian Zephra Exchange
+- Image Prompt: Private table TTRPG story atlas asset for Faceless Six, Faction / Community. Role: Hush leadership body and preparation trigger. Summary: The Faceless Six turn a friendly room into a village decision without raising their voices.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Create a clean symbolic crest or brand mark on a plain dark background; no readable words. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: The village leaders whose arrival creates social preparation pressure in Hush without turning hospitality into a gag.; show internal disagreement, practical needs, and how the faction explains itself when outsiders listen.
+- Wants: Protect its stake in Hush, Hush™ Community Enclave, Guest Privileges while being seen as more than a symbol or obstacle.
+- Fears: Being flattened into a slogan, blamed for every harm, or used by corporations as proof that control is necessary.
+- Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.
+- Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.
+- Sample Dialogue: The village leaders whose arrival creates social preparation pressure in Hush without turning hospitality into a gag.
+- Equipment: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry.
+- Search Or Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+- Gm Use: Keep the satire pointed at institutional behavior, not vulnerable people. Reveal function through assets, language, and consequences.
+- Future Hooks: Bring back as an echo if players made a strong choice involving this entity.
+- Robust: The Faceless Six: The Faceless Six turn a friendly room into a village decision without raising their voices. Slogan: Six voices, one door. GM-only: do not turn them into an exposition machine. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Protect its stake in Hush, Hush™ Community Enclave, Guest Privileges while being seen as more than a symbol or obstacle. Being flattened into a slogan, blamed for every harm, or used by corporations as proof that control is necessary. Act 3 social pressure and preparation beat; they make Hush feel governed rather than decorative. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Faceless Six and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the institutional pattern. Wildborne / community...
+- Mechanics: Faction Pressure / Reputation Mechanics Players can read public face, negotiate leverage, track reputation, or identify pressure Faceless Six when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: The Faceless Six turn a friendly room into a village decision without raising their voices. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-faceless-six-engage-faceless-six entity-faceless-six Engage Faceless Six Engage Faceless Six Presence Knowledge Instinct Presence Knowledge, Instinct 13 Choose the trait from the player's method, not the entity type. A flat read of Faceless Six hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives...
+- Pronunciation: FAYS-less siks
+- Short Pronunciation: FAYS-less siks
+- Faction Profile: faction-profile-v1 faceless-six faceless-six Sablewood lore registry plus Faction_System_Packet guidance compact Atlas lore note: one-shot-safe expansion. Use as GM-only texture unless table play earns it. True co-op The Faceless Six The village leaders whose arrival turns hospitality into preparation, debate, and local accountability. Six voices, one door. The Faceless Six turn a friendly room into a village decision without raising their voices. The Faceless Six do not need thrones. They arrive as chairs being pulled closer, bowls set aside, and neighbors suddenly listening harder. Their authority is not spectacle. It is the weight of people who will still live here after the party leaves. The room changes by inches. A chair scrapes. Someone closes the door against the damp. Six local figures settle into the kind of silence that asks whether guests understand consequence. The Faceless Six village leaders Hush council The village leaders whose arrival turns hospitality into preparation, debate, and local accountability. Holds Hush social memory and decides how much risk the village can absorb for outsiders. Act 3 social pressure and preparation beat; they make Hush feel governed...
+- Image: assets/logos/faceless-six.webp
+- Image Asset Status: image_gen
+- Faction Representative Image: assets/factions/faceless-six-representative.webp
+- Faction Representative Status: image_gen
+- Visual Gallery: primary Primary wiki image primary assets/logos/faceless-six.webp Faceless Six primary wiki image visual. Faceless Six: Primary wiki image. image_gen True True faction-logo-source Faction logo faction-logo assets/entity-gallery/faceless-six/faction-logo-source.webp Faceless Six faction logo visual. Faceless Six: Faction logo. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/logos/faceless-six.webp faction-representative-source Representative scene faction-representative assets/entity-gallery/faceless-six/faction-representative-source.webp Faceless Six representative scene visual. Faceless Six: Representative scene. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/representative/faceless-six.png
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash f4cb227d63c93cd0 | Source hash dac3370046ed077140fab2d6

@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "ancestry",
+  "kind": "rule",
+  "title": "Ancestry",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "character-creation",
+  "hook": "A character's people/species choice and its official feature package.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "A character's people/species choice and its official feature package."
+    },
+    {
+      "label": "How It Works",
+      "body": "Ancestry: A character's people/species choice and its official feature package."
+    },
+    {
+      "label": "Try It",
+      "body": "Does ancestry change rolls?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use at character creation and when ancestry fiction clearly explains how a PC perceives or approaches a moment.",
+    "Use the printed ancestry feature. For scene flavor, give a distinct clue angle without changing math unless the table grants advantage or adjusts...",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:ancestry",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "2f21c50395e34148",
+  "generated_at": "2026-06-23T21:40:58"
+}

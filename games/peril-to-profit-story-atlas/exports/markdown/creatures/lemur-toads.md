@@ -1,0 +1,48 @@
+# Lemur-Toads
+
+RAW export - entity:lemur-toads
+
+## Player-facing description
+Lemur-Toads: Lemur-toads swing overhead and gossip-click from wet hollows, then go abruptly silent when something hungry moves nearby.
+
+## Public role
+Noise-and-silence trail cue
+
+## Handout text
+Player-safe note: Lemur-toads swing overhead and gossip-click from wet hollows, then go abruptly silent when something hungry moves nearby.
+
+## Raw source
+- Type: creature
+- Role: Noise-and-silence trail cue
+- Summary: Lemur-toads swing overhead and gossip-click from wet hollows, then go abruptly silent when something hungry moves nearby.
+- Tags: sablewood-lore ambient hybrid-fauna warning-cue source-page-1
+- Aliases: Lemur-Toads gossip-click toads lemur toads
+- Connections: Sablewood™ Logistics Preserve Old Sable Canopy Road Sablewood Fear Moments
+- Inventory: Their silence is usable table pressure before a roll or reveal.
+- Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+- Image Fallback: type-icon
+- Source Pages: Sablewood PDF p. 1
+- Name: Lemur-Toads
+- Id: lemur-toads
+- Meta: Creature / Animal CREATURE assets/icons/creature.png entity-creature #78a65f 04 Creatures entities creature
+- Related: Old Sable Canopy Road Sablewood Fear Moments Sablewood™ Logistics Preserve
+- Image Prompt: Private table TTRPG story atlas asset for Lemur-Toads, Creature / Animal. Role: Noise-and-silence trail cue. Summary: Lemur-toads swing overhead and gossip-click from wet hollows, then go abruptly silent when something hungry moves nearby.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: Lemur-toads swing overhead and gossip-click from wet hollows, then go abruptly silent when something hungry moves nearby.; show instinct first through distance, posture, scent, and how the creature protects what is close to it.
+- Wants: Reach safety on its own terms and communicate danger through behavior before the party turns the moment into combat.
+- Fears: Being surrounded, misread as a monster, or driven toward Sablewood™ Logistics Preserve, Old Sable Canopy Road, Sablewood Fear Moments by noise and haste.
+- Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.
+- Body Language: Moves from protection, not malice. Reacts to posture, volume, and distance more than words.
+- Sample Dialogue: Lemur-toads swing overhead and gossip-click from wet hollows, then go abruptly silent when something hungry moves nearby.
+- Equipment: Their silence is usable table pressure before a roll or reveal.
+- Search Or Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+- Gm Use: Use as a moral encounter. Reward restraint and observation without forcing a pet or mascot outcome.
+- Future Hooks: Bring back as an echo if players made a strong choice involving this entity.
+- Robust: Lemur-Toads: Lemur-toads swing overhead and gossip-click from wet hollows, then go abruptly silent when something hungry moves nearby. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Reach safety on its own terms and communicate danger through behavior before the party turns the moment into combat. Being surrounded, misread as a monster, or driven toward Sablewood™ Logistics Preserve, Old Sable Canopy Road, Sablewood Fear Moments by noise and haste. Use as a moral encounter. Reward restraint and observation without forcing a pet or mascot outcome. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Lemur-Toads and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly...
+- Pronunciation: LEE-mur tohdz
+- Short Pronunciation: LEE-mur tohdz
+- Image: assets/creature-images/lemur-toads/portrait_base.webp
+- Image Asset Status: creature_images
+- Visual Gallery: primary Primary wiki image primary assets/creature-images/lemur-toads/portrait_base.webp Lemur-Toads primary wiki image visual. Lemur-Toads: Primary wiki image. creature_images True True
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 297dd75a1ef27f55 | Source hash dac3370046ed077140fab2d6

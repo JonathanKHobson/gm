@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "agility",
+  "kind": "rule",
+  "title": "Agility",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "trait",
+  "hook": "Sprint, leap, maneuver, dodge, balance, or move fast.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Sprint, leap, maneuver, dodge, balance, or move fast."
+    },
+    {
+      "label": "How It Works",
+      "body": "Agility: Sprint, leap, maneuver, dodge, balance, or move fast."
+    },
+    {
+      "label": "Try It",
+      "body": "Is this Acrobatics?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use when motion, speed, or positioning matters.",
+    "Usually Agility if speed or body movement is the point.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:agility",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "79472500ec837cd6",
+  "generated_at": "2026-06-23T21:40:58"
+}

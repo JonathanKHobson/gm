@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "adversary-spotlight",
+  "title": "Adversary Spotlight",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "6d2cbfb0b4c8ff1f",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Adversary Spotlight: Daggerheart uses spotlight flow rather than fixed initiative; adversaries act when spotlighted by the GM and features."
+    },
+    {
+      "title": "Public role",
+      "body": "Spotlight-based adversary activation reference"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Daggerheart uses spotlight flow rather than fixed initiative; adversaries act when spotlighted by the GM and features."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use when the scene needs a concrete object for players to inspect, carry, debate, or remember."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 6d2cbfb0b4c8ff1f | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

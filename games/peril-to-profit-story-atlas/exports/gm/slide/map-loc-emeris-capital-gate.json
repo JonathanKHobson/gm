@@ -1,0 +1,29 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "MAP-LOC-emeris-capital-gate",
+  "title": "MAP-LOC-emeris-capital-gate - Emeris Capital Gate Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "ec76adbe9ad72686",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The Emeris Capital Gate is a bright western threshold of pale carved stone, toll counters, route-charms, fried dough, caravan noise, and the green mouth of Sablewood beyond the road."
+    },
+    {
+      "title": "Public objective",
+      "body": "The Emeris Capital Gate is a bright western threshold of pale carved stone, toll counters, route-charms, fried dough, caravan noise, and the green mouth of Sablewood beyond the road."
+    },
+    {
+      "title": "GM goal",
+      "body": "Make the starting city concrete without inventing a missing ward problem here."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash ec76adbe9ad72686 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

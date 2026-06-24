@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "perrin-oake",
+  "kind": "entity",
+  "title": "Perrin Oake",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "a stranded fellow courier with a bent route pin",
+  "hook": "a stranded fellow courier with a bent route pin",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "A broad simiah courier grins through road dust, wrapped in a battered coat, tapping a cracked compass while coin charms and route tags hang from the straps."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "Road-worn and warm, humming when he feels safe and silent when he does not. Taps a cracked compass that points to the last place he felt safe instead of north, and pretends that is a feature."
+    },
+    {
+      "label": "Might Offer",
+      "body": "A way forward A grounded question A scene-specific clue seed"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "A way forward",
+    "A grounded question",
+    "A scene-specific clue seed"
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:perrin-oake",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "bc8493ea8e938772",
+  "generated_at": "2026-06-23T21:40:58"
+}

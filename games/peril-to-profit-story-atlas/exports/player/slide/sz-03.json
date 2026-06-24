@@ -1,0 +1,42 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "SZ-03",
+  "kind": "slide",
+  "title": "SZ-03 - Daggerheart Rules Snapshot",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Session Zero",
+  "hook": "Daggerheart is narrative fantasy. The GM describes the world, players describe what their characters do, and we roll when the outcome is risky, uncertain, or dramatic.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "Daggerheart is narrative fantasy. The GM describes the world, players describe what their characters do, and we roll when the outcome is risky, uncertain, or dramatic."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Daggerheart is narrative fantasy. The GM describes the world, players describe what their characters do, and we roll when the outcome is risky, uncertain, or dramatic."
+    },
+    {
+      "label": "Player Bullets",
+      "body": "Describe what your character tries to do. If it is risky or uncertain, roll Hope and Fear d12s. Add the trait that fits your approach. Tell the GM the total and whether Hope or Fear was higher. We will learn the rest..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Describe what your character tries to do.",
+    "If it is risky or uncertain, roll Hope and Fear d12s.",
+    "Add the trait that fits your approach.",
+    "Tell the GM the total and whether Hope or Fear was higher."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:SZ-03",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "5230b5ee9f8e18a2",
+  "generated_at": "2026-06-23T21:40:58"
+}

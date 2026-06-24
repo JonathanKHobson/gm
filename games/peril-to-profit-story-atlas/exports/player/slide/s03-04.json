@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S03-04",
+  "kind": "slide",
+  "title": "S03-04 - Firstmoss Launch Festival",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act Three: Seeking a Custodian",
+  "hook": "You have arrived during the Firstmoss Launch Festival. The town celebrates the season's first moss rising on the Sunless Farms crops, the promise of fresh fruit and full tables ahead. There is a good-natured...",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "You have arrived during the Firstmoss Launch Festival. The town celebrates the season's first moss rising on the Sunless Farms crops, the promise of fresh fruit and full tables ahead. There is a good-natured arm-wrestling competition, a stone-painting class..."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Join the celebration if you want, earn goodwill, and gather what helps for the road ahead."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:S03-04",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "0ed143c21cd6fabf",
+  "generated_at": "2026-06-23T21:40:58"
+}

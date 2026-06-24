@@ -1,0 +1,29 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "MAP-LOC-the-refuge",
+  "title": "MAP-LOC-the-refuge - The Refuge Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "17006b41cf7fd543",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe."
+    },
+    {
+      "title": "Public objective",
+      "body": "The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe."
+    },
+    {
+      "title": "GM goal",
+      "body": "Make success in Sablewood feel costly and communal."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 17006b41cf7fd543 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

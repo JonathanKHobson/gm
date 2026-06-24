@@ -1,0 +1,488 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2642 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-S02-03 - Cargo Reclaimer Ambush Battlefield) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The road tightens into an ambush site: mud under the carriage wheels, thorn cover on) Tj
+T*
+(both sides, and figures moving between the brush and the cargo line. The path forward is) Tj
+T*
+(blocked by people, not beasts.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(The road tightens into an ambush site: mud under the carriage wheels, thorn cover on) Tj
+T*
+(both sides, and figures moving between the brush and the cargo line. The path forward is) Tj
+T*
+(blocked by people, not beasts.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-S02-03) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: battlefield) Tj
+T*
+(- Sectionid: ACT-TWO) Tj
+T*
+(- Sectiontitle: Act Two: Cargo Reclaimers) Tj
+T*
+(- Title: Cargo Reclaimer Ambush Battlefield) Tj
+T*
+(- Shorttitle: The Road Ambush) Tj
+T*
+(- Order: 302.08) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-S02-03-gm.png) Tj
+T*
+(- Alt: Bramble Union Ambush Battlefield map board.) Tj
+T*
+(- Caption: A blocked forest road with hidden bramble lanes, carriage objective, and) Tj
+T*
+(  reclaimers trying to reach the Keystone cargo.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Run the ambush board as objective pressure around the carriage and a moral) Tj
+T*
+(  exit, not a static melee.) Tj
+T*
+(- Publicobjective: The road tightens into an ambush site: mud under the carriage) Tj
+T*
+(  wheels, thorn cover on both sides, and figures moving between the brush and the) Tj
+T*
+(  cargo line. The path forward is blocked by people, not beasts.) Tj
+T*
+(- Readaloud: The road tightens into an ambush site: mud under the carriage wheels,) Tj
+T*
+(  thorn cover on both sides, and figures moving between the brush and the cargo line.) Tj
+T*
+(  The path forward is blocked by people, not beasts.) Tj
+T*
+(- Gmnotes: The Union self-name is GM/earned dialogue. Player-facing board title stays) Tj
+T*
+(  Road Ambush. Use Back Off to create space or protect the leader, not as a slaughter) Tj
+T*
+(  button.) Tj
+T*
+(- Gmscript: Say: "Use this board as pressure around the carriage. The attackers are) Tj
+T*
+(  trying to reach the package, not win a duel. Every round, a PC can fight, protect,) Tj
+T*
+(  reposition, spare someone, or roll Presence 15 to de-escalate.") Tj
+T*
+(- Gmreadaloud: The road tightens into an ambush site. Mud pulls at the carriage) Tj
+T*
+(  wheels, thorn cover breaks sightlines, and figures move between brush and cargo) Tj
+T*
+(  line. The path forward is blocked by people, not beasts.) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4091 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Gmchecklist: Apply ambushAwareness for first actor and starting distance. Name the) Tj
+T*
+(  objective: the package in the carriage. Offer Presence 15 de-escalation every round.) Tj
+T*
+(  Lower social Difficulty for strixwolf mercy or sparing a downed attacker. Resolve to) Tj
+T*
+(  S02-04 with bramble_outcome recorded.) Tj
+T*
+(- Gmprivate: The ambushers fight like frightened amateurs because they are workers) Tj
+T*
+(  pushed into violence. Letting them take the package is valid but costly. Do not) Tj
+T*
+(  block it; record it as a branch problem.) Tj
+T*
+(- Playertakeaway: The road tightens into an ambush site: mud under the carriage) Tj
+T*
+(  wheels, thorn cover on both sides, and figures moving between the brush and the) Tj
+T*
+(  cargo line. The path forward is blocked by people, not beasts.) Tj
+T*
+(- Storytakeaway: The board makes the moral shape of the ambush visible: desperate) Tj
+T*
+(  people, a vulnerable carriage, and an objective everyone can point to.) Tj
+T*
+(- Mechanictakeaway: Combat, de-escalation, non-lethal control, Help an Ally, and) Tj
+T*
+(  objective defense are all live mechanics on this map.) Tj
+T*
+(- Entityids: bramble-union bramble-union-ambusher bramble-union-claimrunner escort-) Tj
+T*
+(  carriage) Tj
+T*
+(- Entities: bramble-union Bramble Union faction Faction / Community) Tj
+T*
+(  assets/icons/faction.png assets/logos/bramble-union.png BRAM-bul YOO-nyun Thorn-) Tj
+T*
+(  scrap armor, hungry eyes, and old worker gear make the Bramble Union look dangerous) Tj
+T*
+(  before they look human. Loose label for freeholders and cargo reclaimers Called) Tj
+T*
+(  thieves by Goldspire; actually a mix of displaced workers, freeholders, and) Tj
+T*
+(  dangerous reclaimers.; show internal disagreement, practical needs, and how the) Tj
+T*
+(  faction explains itself when outsiders listen. Protect its stake in Bramble Union) Tj
+T*
+(  Ambusher, Bramble Union Claimrunner, Goldspire Territories while being seen as more) Tj
+T*
+(  than a symbol or obstacle. Called thieves by Goldspire; actually a mix of displaced) Tj
+T*
+(  workers, freeholders, and dangerous reclaimers. bramble-union-ambusher Bramble Union) Tj
+T*
+(  Ambusher enemy Enemy / Combatant assets/icons/enemy.png assets/npc-images/bramble-) Tj
+T*
+(  union-ambusher/portrait_base.png BRAM-bul YOO-nyun AM-boosh-er a road reclaimer who) Tj
+T*
+(  has never done this before, and it shows The frightened body in the bushes who makes) Tj
+T*
+(  the ambush real. Bramble Union Ambusher a desperate road reclaimer trying to stop) Tj
+T*
+(  the carriage without looking scared All borrowed bravado stretched thin...) Tj
+T*
+(- Statecontrols: ambushAwareness Ambush awareness select unresolved see-them-coming) Tj
+T*
+(  ambushed Sets opening actor. bramble_outcome Bramble outcome select unresolved) Tj
+T*
+(  killed captured spared negotiated escaped Always record before moving to S02-04.) Tj
+T*
+(- Mechanicids: action-roll presence help-an-ally stress fear gm-moves) Tj
+T*
+(- Fearspends: The leader uses Back Off to blast space around her and move the fight) Tj
+T*
+(  away from easy parley. A horse panics and drags the carriage toward the thorn wall.) Tj
+T*
+(  An ambusher reaches the package line unless someone spends their action to block. A) Tj
+T*
+(  noncombatant clue becomes endangered: dropped papers scatter into mud or thorn.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S02-02 S02-03) Tj
+T*
+(- Mapdata: MAP-S02-03 battlefield Cargo Reclaimer Ambush Battlefield S02-02 S02-03) Tj
+T*
+(  assets/maps/MAP-S02-03-gm.png assets/maps/MAP-S02-03.png A blocked forest road with) Tj
+T*
+(  hidden bramble lanes, carriage objective, and reclaimers trying to reach the) Tj
+T*
+(  Keystone cargo. Melee/Very Close Around carriage and cart Close Ambusher entry lanes) Tj
+T*
+(  Far Archers/scouts or retreat lines if added A blocked road, carriage cover, bramble) Tj
+T*
+(  lanes, muddy ruts, and figures moving between thorn-shadow and cargo line. Raised) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4321 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  voices from cover, reins snapping, thorns scratching armor and cloth, and the) Tj
+T*
+(  carriage wood groaning whenever pressure shifts. Wet bramble, mud, horse sweat, torn) Tj
+T*
+(  leather, crushed leaves, and the sharp green smell of cut vines. The road sucks at) Tj
+T*
+(  boots; brambles catch sleeves; carriage rails are smooth where hands can brace or) Tj
+T*
+(  climb. The ambushers are people with homes and fear behind them. Their movement) Tj
+T*
+(  should feel trained by survival, not villain staging. The staged cart: cover and) Tj
+T*
+(  proof the ambush was planned. The thorn walls: cover, hazard, and flanking lanes.) Tj
+T*
+(  The carriage: the objective everyone cares about. Dropped company-marked gear: a) Tj
+T*
+(  clue during or after the fight. Cut reins and spooked horses...) Tj
+T*
+(- Sourcefiles: dist/Act2_Upgrade_Packet/ACT2_MAPS_AND_COMBAT.md) Tj
+T*
+(- References: Ambush scene #S02-03 Aftermath #S02-04) Tj
+T*
+(- Livetools: encounter S02-03 MAP-S02-03 pages/combat/s02-03.html) Tj
+T*
+(- Percharacterlayer: garrick-reed Garrick Reed De-escalator Sees the leader's) Tj
+T*
+(  reluctance and knows this can end with words. Strong candidate for Presence 15 de-) Tj
+T*
+(  escalation; Affable and Hope can matter here. Garrick, she does not want this fight.) Tj
+T*
+(  Affable plus Hope might end it without a swing. Want to try? marlowe-fairwind) Tj
+T*
+(  Marlowe Fairwind Custodian leverage As the one responsible for the package, she can) Tj
+T*
+(  speak to why it matters or bluff what handing it over costs. Can parley with) Tj
+T*
+(  leverage or use non-lethal control to protect the carriage. Marlowe, you know what) Tj
+T*
+(  you are carrying matters. Want to use that responsibility as leverage to talk them) Tj
+T*
+(  down? khari-nix Khari Nix Protect without killing Reads the fight as a line to hold,) Tj
+T*
+(  not a hunt to win. Can shield the carriage, protect allies, and subdue rather than) Tj
+T*
+(  slay. Khari, you can hold the line without putting anyone in the ground. Want to) Tj
+T*
+(  protect and subdue? barnacle Barnacle Disable or deal Sees which weapons, straps, or) Tj
+T*
+(  footing can be disabled without killing anyone. Can disarm, disable, or turn the) Tj
+T*
+(  standoff into a deal if parley starts. Barnacle, you could take them out of the) Tj
+T*
+(  fight without killing them, or cut a deal if this turns to talk...) Tj
+T*
+(- Gmbeats: MAP-S02-03-orient Orient Orient the kill-zone Say: "Here is the carriage.) Tj
+T*
+(  Here are the thorn lanes. Here is where the attackers are trying to get: the package) Tj
+T*
+(  line." The carriage is boxed in; thorn walls break sightlines; the attackers are) Tj
+T*
+(  trying to reach the package. The map turns the moral conflict into visible space.) Tj
+T*
+(  Fictional positioning decides who can protect, parley, flee, or intercept. Players) Tj
+T*
+(  know the objective and the lanes. Player takeaway Players know the objective and the) Tj
+T*
+(  lanes. "Here is the carriage. Here are the thorn lanes. Here is where the attackers) Tj
+T*
+(  are trying to get: the package line." "The playable facts are: The carriage is boxed) Tj
+T*
+(  in; thorn walls break sightlines; the attackers are trying to reach the package.") Tj
+T*
+(  Use this beat to point the table at one immediate choice. The player-facing fact is:) Tj
+T*
+(  The carriage is boxed in; thorn walls break sightlines; the attackers are trying to) Tj
+T*
+(  reach the package. gm-moves Story takeaway The map turns the moral conflict into) Tj
+T*
+(  visible space. "Here is the carriage. Here are the thorn lanes. Here is where the) Tj
+T*
+(  attackers are trying to get: the package line." "The story fact you can trust is:) Tj
+T*
+(  The map turns the moral conflict into...) Tj
+T*
+(- Takeawayhelp: Player takeaway The map gives the table objective pressure: package,) Tj
+T*
+(  carriage, thorn lanes, and leader. "Point at what matters: the carriage, the package) Tj
+T*
+(  line, the leader, and the thorn lanes." "If you are unsure what to do, choose one:) Tj
+T*
+(  protect the package, stop an attacker, talk to the leader, move the carriage, spare) Tj
+T*
+(  someone, or retreat." Use spatial clarity to reduce overwhelm. The board should make) Tj
+T*
+(  moral choices easier to act on, not harder. presence help-an-ally gm-moves Story) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 3784 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  takeaway The board makes the moral shape of the ambush visible: desperate people, a) Tj
+T*
+(  vulnerable carriage, and an objective everyone can point to. "The map is not asking) Tj
+T*
+(  who can kill fastest. It is asking what you protect when scared people reach for the) Tj
+T*
+(  same thing." "The attackers want cargo, not a massacre. Their choices are violent,) Tj
+T*
+(  but their objective is readable." Keep their humanity present in posture, gear, and) Tj
+T*
+(  hesitation while still letting them be dangerous. presence help-an-ally gm-moves) Tj
+T*
+(  Mechanic takeaway Combat, de-escalation, non-lethal control, Help an Ally, and) Tj
+T*
+(  objective defense are all live mechanics on this map. "Presence 15 talks it down.) Tj
+T*
+(  Agility or Strength 13 protects the carriage...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-S02-03.png The Road Ambush map board. MAP-S02-03) Tj
+T*
+(  battlefield The Road Ambush S02-02 S02-03 assets/maps/MAP-S02-03.png) Tj
+T*
+(  assets/maps/MAP-S02-03.png The Road Ambush map board. The road tightens into an) Tj
+T*
+(  ambush site: mud under the carriage wheels, thorn cover on both sides, and figures) Tj
+T*
+(  moving between the brush and the cargo line. The path forward is blocked by people,) Tj
+T*
+(  not beasts. The road tightens into an ambush site: mud under the carriage wheels,) Tj
+T*
+(  thorn cover on both sides, and figures moving between the brush and the cargo line.) Tj
+T*
+(  The path forward is blocked by people, not beasts. Carriage objective The) Tj
+T*
+(  Claimrunner wants the cargo. 0.48 0.52 Bramble lanes Pressure comes from cover, not) Tj
+T*
+(  a neat line. 0.72 0.36 MAP-S02-03-map-only Map only The Road Ambush map-only) Tj
+T*
+(  assets/maps/MAP-S02-03.png The Road Ambush map board. MAP-S02-03 battlefield The) Tj
+T*
+(  Road Ambush S02-02 S02-03 assets/maps/MAP-S02-03.png assets/maps/MAP-S02-03.png The) Tj
+T*
+(  Road Ambush map board. The road tightens into an ambush site: mud under the carriage) Tj
+T*
+(  wheels, thorn cover on both sides, and figures moving between the brush and the) Tj
+T*
+(  cargo line. The path forward is blocked by people, not beasts. The road tightens) Tj
+T*
+(  into...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-S02-03 map The Road Ambush assets/maps/MAP-S02-03.png The) Tj
+T*
+(  Road Ambush map board. spatial reference and location texture The road tightens into) Tj
+T*
+(  an ambush site: mud under the carriage wheels, thorn cover on both sides, and) Tj
+T*
+(  figures moving between the brush and the cargo line. The path forward is blocked by) Tj
+T*
+(  people, not beasts. The road tightens into an ambush site: mud under the carriage) Tj
+T*
+(  wheels, thorn cover on both sides, and figures moving between the brush and the) Tj
+T*
+(  cargo line. The path forward is blocked by people, not beasts. MAP-S02-03) Tj
+T*
+(  battlefield The Road Ambush S02-02 S02-03 assets/maps/MAP-S02-03.png) Tj
+T*
+(  assets/maps/MAP-S02-03.png The Road Ambush map board. The road tightens into an) Tj
+T*
+(  ambush site: mud under the carriage wheels, thorn cover on both sides, and figures) Tj
+T*
+(  moving between the brush and the cargo line. The path forward is blocked by people,) Tj
+T*
+(  not beasts. The road tightens into an ambush site: mud under the carriage wheels,) Tj
+T*
+(  thorn cover on both sides, and figures moving between the brush and the cargo line.) Tj
+T*
+(  The path forward is blocked by people, not beasts. Carriage objective The) Tj
+T*
+(  Claimrunner wants the cargo. 0.48 0.52 Bramble lanes Pressure comes from cover, not) Tj
+T*
+(  a neat line...) Tj
+T*
+(- Slidenumber: 34) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 162 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash ad14d71cdd23055a | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R] /Count 5 >>
+endobj
+12 0 obj
+<< /Type /Catalog /Pages 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000009 00000 n 
+0000002703 00000 n 
+0000002831 00000 n 
+0000006974 00000 n 
+0000007102 00000 n 
+0000011475 00000 n 
+0000011603 00000 n 
+0000015439 00000 n 
+0000015567 00000 n 
+0000015780 00000 n 
+0000015909 00000 n 
+0000015992 00000 n 
+0000016043 00000 n 
+trailer
+<< /Size 14 /Root 12 0 R >>
+startxref
+16116
+%%EOF

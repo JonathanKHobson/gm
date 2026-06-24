@@ -1,0 +1,78 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "slide",
+  "id": "SZ-00",
+  "title": "SZ-00 - Ready to Start / Table Frame",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "579dc96592769ffd",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "This is a beginner-friendly Daggerheart one-shot. You do not need to know the rules ahead of time. We will learn by playing."
+    },
+    {
+      "title": "Public objective",
+      "body": "This is a beginner-friendly Daggerheart one-shot. You do not need to know the rules ahead of time. We will learn by playing."
+    },
+    {
+      "title": "Player bullets",
+      "items": [
+        "You are hired contractors or trusted associates escorting a sealed delivery through the Goldspire Territories.",
+        "The job looks simple. It will not stay simple.",
+        "Tone: sincere fantasy adventure, corporate satire, and a little dark whimsy.",
+        "Share spotlight, ask questions, pass when needed, help other characters look cool, and respect safety tools.",
+        "GM style: clear rulings, rules-light at first, and consequences tied to the fiction."
+      ]
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: SZ-00",
+        "Type: session-zero",
+        "Sectionid: SESSION-ZERO",
+        "Sectiontitle: Session Zero",
+        "Title: Ready to Start / Table Frame",
+        "Shorttitle: Ready to Start / Table Frame",
+        "Playertitle: Welcome to the Goldspire Messengers",
+        "Order: 4",
+        "Playersafe: True",
+        "Completioneligible: True",
+        "Image: assets/entities/party-reference.webp",
+        "Alt: The five pregenerated adventurers ready for the Goldspire delivery.",
+        "Caption: Establish tone, expectations, and the table's shared social contract.",
+        "Mood: calibration, invitation, consent",
+        "Gmgoal: Establish tone, expectations, and the table's shared social contract.",
+        "Publicobjective: This is a beginner-friendly Daggerheart one-shot. You do not need to know the rules ahead of time. We will learn by playing.",
+        "Readaloud: This is a beginner-friendly Daggerheart one-shot. You do not need to know the rules ahead of time. We will learn by playing.",
+        "Playerbullets: You are hired contractors or trusted associates escorting a sealed delivery through the Goldspire Territories. The job looks simple. It will not stay simple. Tone: sincere fantasy adventure, corporate satire, and a little dark whimsy. Share spotlight, ask questions, pass when needed, help other characters look cool, and respect safety tools. GM style: clear rulings, rules-light at first, and consequences tied to the fiction.",
+        "Displaymode: image-title-caption",
+        "Gmnotes: Script: Say the welcome plainly, then tell the table that the rules will be introduced only as needed. Confirm that everyone can see the player display and has the right handouts. Keep it warm, confident, and short. This is a public table: clarity and consent matter. Checklist: All players seated; Session Zero mode selected; Safety tools ready; Handouts visible; Player display visible",
+        "Gmscript: Say the welcome plainly, then tell the table that the rules will be introduced only as needed. Confirm that everyone can see the player display and has the right handouts.",
+        "Gmreadaloud: Welcome to Peril to Profit: The Goldspire Messengers. Tonight is a one-shot about a paid delivery job that gets stranger, more dangerous, and more human as you go. You do not need to know Daggerheart before we begin. I will introduce rules only when they matter. Before we start, can everyone see the screen clearly, and does anyone need me to slow down, repeat anything, or adjust where they are sitting?",
+        "Gmchecklist: All players seated Session Zero mode selected Safety tools ready Handouts visible Player display visible",
+        "Playertakeaway: Players know the tone, GM style, and that the game will be taught by play.",
+        "Storytakeaway: The party are hired contractors or trusted associates on a delivery job that will turn complicated.",
+        "Mechanictakeaway: Reinforces learn-by-playing and rules-light onboarding.",
+        "Takeawayhelp: Players know Kyle's welcome and table frame Players know the tone, GM style, and learn-by-playing promise. This is where Kyle establishes trust: story-first, roleplay-friendly, rules as support, and questions welcome at any time. \"Welcome to Peril to Profit: The Goldspire Messengers. You do not need to know Daggerheart tonight; I will teach the rules when they matter.\" If a player asks what they should focus on: \"Focus on what your character wants, what they try, and what they ask. I will handle when dice enter the scene.\" This is where Kyle establishes trust: story-first, roleplay-friendly, rules as support, and questions welcome at any time. roleplay table-spotlight The story is a delivery job that grows teeth The party are contractors or trusted associates on a job that will complicate. Player-safe frame: contract, sealed package, old forest, village destination. The named lore can arrive later through questions. \"Your characters are here because of a delivery job. On paper it is simple; in play it is going to ask what you protect and what you are willing to question.\" If someone asks whether their PC already knows the setting: \"You know enough to take the job. You are new to...",
+        "Mechanicids: roleplay table-spotlight",
+        "Handoutids: session-zero-worksheet",
+        "Sourcefiles: docs/SESSION_ZERO_RUNBOOK.md#0:00-0:02-welcome handouts/Player_Welcome_Table_Expectations.md docs/SESSION_ZERO_DESIGN_SPEC.md",
+        "Livetools: none",
+        "Playerbeats: SZ-00-image Image only Welcome to the Goldspire Messengers assets/entities/party-reference.webp The five pregenerated adventurers ready for the Goldspire delivery. image-only SZ-00-hybrid Image + text Welcome to the Goldspire Messengers assets/entities/party-reference.webp The five pregenerated adventurers ready for the Goldspire delivery. Establish tone, expectations, and the table's shared social contract. This is a beginner-friendly Daggerheart one-shot. You do not need to know the rules ahead of time. We will learn by playing. This is a beginner-friendly Daggerheart one-shot. You do not need to know the rules ahead of time. We will learn by playing. You are hired contractors or trusted associates escorting a sealed delivery through the Goldspire Territories. The job looks simple. It will not stay simple. Tone: sincere fantasy adventure, corporate satire, and a little dark whimsy. Share spotlight, ask questions, pass when needed, help other characters look cool, and respect safety tools. image-title-caption SZ-00-text Text only Welcome to the Goldspire Messengers Establish tone, expectations, and the table's shared social contract. This is a beginner-friendly Daggerheart...",
+        "Beatautoplayeligible: False",
+        "Beatautoplaydefault: False",
+        "Beatautoplayintervalms: 12000",
+        "Playersafeprojection: SZ-00 session-zero Ready to Start / Table Frame assets/entities/party-reference.webp The five pregenerated adventurers ready for the Goldspire delivery. Establish tone, expectations, and the table's shared social contract. calibration, invitation, consent This is a beginner-friendly Daggerheart one-shot. You do not need to know the rules ahead of time. We will learn by playing. This is a beginner-friendly Daggerheart one-shot. You do not need to know the rules ahead of time. We will learn by playing. You are hired contractors or trusted associates escorting a sealed delivery through the Goldspire Territories. The job looks simple. It will not stay simple. Tone: sincere fantasy adventure, corporate satire, and a little dark whimsy. Share spotlight, ask questions, pass when needed, help other characters look cool, and respect safety tools. GM style: clear rulings, rules-light at first, and consequences tied to the fiction. image-title-caption SZ-00-image Image only Welcome to the Goldspire Messengers assets/entities/party-reference.webp The five pregenerated adventurers ready for the Goldspire delivery. image-only SZ-00-hybrid Image + text Welcome to the Goldspire Messengers...",
+        "Slidenumber: 4",
+        "Totalslides: 110"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 579dc96592769ffd | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "hidden",
+  "title": "Hidden",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "567a8500579911c5",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Hidden: While out of sight from all foes and they do not know where you are, rolls against you have disadvantage."
+    },
+    {
+      "title": "Public role",
+      "body": "Official Daggerheart primary condition"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: While out of sight from all foes and they do not know where you are, rolls against you have disadvantage."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: condition",
+        "Role: Official Daggerheart primary condition",
+        "Summary: While out of sight from all foes and they do not know where you are, rolls against you have disadvantage.",
+        "Tags: condition official mechanics",
+        "Aliases: Hidden hidden",
+        "Connections: GM Rules Drawer Official Conditions",
+        "Inventory: Effect: While out of sight from all foes and they do not know where you are, rolls against you have disadvantage. Clears: An adversary moves where they would see you, you move into line of sight, or you make an attack.",
+        "Loot: No loot. This page explains how to apply, clear, and describe the official condition.",
+        "Name: Hidden",
+        "Id: hidden",
+        "Meta: Condition CONDITION assets/icons/condition.png entity-condition #d95165 08 Tables and Loot entities condition",
+        "Appears In: S02-02 S02-03",
+        "Related: GM Rules Drawer Official Conditions S02-02 S02-03",
+        "Image Prompt: Private table TTRPG story atlas asset for Hidden, Condition. Role: Official Daggerheart primary condition. Summary: While out of sight from all foes and they do not know where you are, rolls against you have disadvantage.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Personality: While out of sight from all foes and they do not know where you are, rolls against you have disadvantage.; describe the condition through body, voice, sensation, and what other characters notice.",
+        "Wants: Make the danger around GM Rules Drawer, Official Conditions urgent without taking away player agency.",
+        "Fears: Being reduced to a status label when it should change priorities, tactics, and care.",
+        "Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.",
+        "Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.",
+        "Sample Dialogue: While out of sight from all foes and they do not know where you are, rolls against you have disadvantage.",
+        "Equipment: Effect: While out of sight from all foes and they do not know where you are, rolls against you have disadvantage. Clears: An adversary moves where they would see you, you move into line of sight, or you make an attack.",
+        "Search Or Loot: No loot. This page explains how to apply, clear, and describe the official condition.",
+        "Gm Use: Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.",
+        "Future Hooks: Bring back as an echo if players made a strong choice involving this entity.",
+        "Robust: Hidden: While out of sight from all foes and they do not know where you are, rolls against you have disadvantage. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Make the danger around GM Rules Drawer, Official Conditions urgent without taking away player agency. Being reduced to a status label when it should change priorities, tactics, and care. Use when the scene needs a concrete object for players to inspect, carry, debate, or remember. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Hidden and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the institutional pattern. Wildborne / community: notices local use, neglect, or ecological...",
+        "Mechanics: Condition Mechanics Players can apply, clear, describe, and connect to source scenes Hidden when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: While out of sight from all foes and they do not know where you are, rolls against you have disadvantage. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-hidden-engage-hidden entity-hidden Engage Hidden Engage Hidden Strength Agility Finesse Presence Knowledge Instinct Strength Agility, Finesse, Presence, Knowledge, Instinct 12 Choose the trait from the player's method, not the entity type. A flat read of Hidden hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread...",
+        "Pronunciation: Hidden",
+        "Short Pronunciation: Hidden",
+        "Image: assets/entities/hidden.webp",
+        "Image Asset Status: fallback_type_icon",
+        "Visual Gallery: primary Primary wiki image primary assets/entities/hidden.webp Hidden primary wiki image visual. Hidden: Primary wiki image. fallback_type_icon True True"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 567a8500579911c5 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

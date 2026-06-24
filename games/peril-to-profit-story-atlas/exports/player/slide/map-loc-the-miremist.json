@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "MAP-LOC-the-miremist",
+  "kind": "slide",
+  "title": "MAP-LOC-the-miremist - The Miremist Location Map",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act Five: The Ward Renewal",
+  "hook": "The Miremist makes certainty expensive: fog, wet roots, and route sounds that arrive from the wrong distance.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "The Miremist makes certainty expensive: fog, wet roots, and route sounds that arrive from the wrong distance."
+    },
+    {
+      "label": "Public Objective",
+      "body": "The Miremist makes certainty expensive: fog, wet roots, and route sounds that arrive from the wrong distance."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:MAP-LOC-the-miremist",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "10195ff6e43ef431",
+  "generated_at": "2026-06-23T21:40:58"
+}

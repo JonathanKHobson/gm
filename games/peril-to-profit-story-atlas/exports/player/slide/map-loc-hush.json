@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "MAP-LOC-hush",
+  "kind": "slide",
+  "title": "MAP-LOC-hush - Hush Location Map",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act Three: Seeking a Custodian",
+  "hook": "Hush gathers under the colossal trees: warm windows, lantern branches, low roofs, and paths leading toward a tree-tavern, market stalls, festival noise, and the farms beyond.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "Hush gathers under the colossal trees: warm windows, lantern branches, low roofs, and paths leading toward a tree-tavern, market stalls, festival noise, and the farms beyond."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Hush gathers under the colossal trees: warm windows, lantern branches, low roofs, and paths leading toward a tree-tavern, market stalls, festival noise, and the farms beyond."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:MAP-LOC-hush",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "cef2f38f18ff3bb3",
+  "generated_at": "2026-06-23T21:40:58"
+}

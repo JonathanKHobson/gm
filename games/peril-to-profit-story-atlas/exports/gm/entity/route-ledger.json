@@ -1,0 +1,75 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "route-ledger",
+  "title": "Route Ledger",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "c51351cdb081b519",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Route Ledger: Shows the driver’s route and possibly hints the cart was targeted."
+    },
+    {
+      "title": "Public role",
+      "body": "Driver’s ledger"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Shows the driver’s route and possibly hints the cart was targeted."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use when the scene needs a concrete object for players to inspect, carry, debate, or remember."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Discovery / Earn-It Mechanics",
+        "Player Safe: Players can inspect, handle, keep, trade, reveal, or earn Route Ledger when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: A water-stained ledger of the driver's route — stops, times, and a final leg that runs straight into trouble. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-route-ledger-engage-route-ledger entity-route-ledger Engage Route Ledger Engage Route Ledger Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Route Ledger hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Condition Options: No official condition unless the item or clue physically creates Hidden, Restrained, or Vulnerable",
+        "Search Loot: Can reveal Hush deliveries and a missing line."
+      ]
+    },
+    {
+      "title": "Profile",
+      "items": [
+        "Schema Version: clue-profile-v1",
+        "Id: route-ledger",
+        "Clue Id: route-ledger",
+        "Clue Name: Route Ledger",
+        "Name: Route Ledger",
+        "Pronunciation: ROOT LEJ-er",
+        "Clue Kind: document",
+        "Auto Surface: True",
+        "Player Safe: Route Ledger A water-stained ledger of the driver's route — stops, times, and a final leg that runs straight into trouble. A water-stained ledger of the driver's route — stops, times, and a final leg that runs straight into trouble. A water-stained ledger of the driver's route — stops, times, and a final leg that runs straight into trouble.",
+        "Block0: route-ledger Route Ledger ROOT LEJ-er document",
+        "Block1: the route was known; the cart was targeted, not unlucky. OBVIOUS The Ambush Reveal the-ambush-reveal Moves suspicion away from bad luck or a random beast and toward a planned trap. pages/entities/route-ledger.html pages/clues/the-ambush-reveal.html",
+        "Block2: A water-stained ledger of the driver's route — stops, times, and a final leg that runs straight into trouble. the route was known; the cart was targeted, not unlucky.",
+        "Block3: \"here's the planned route.\" \"the ambush sits right on a scheduled stop.\" \"whoever struck knew this exact route.\" \"the cart was targeted by someone with the schedule.\"",
+        "Block4: Overturned Wheel Ruts The Convenient Renewal overturned-wheel-ruts the-convenient-renewal",
+        "Block5: S01-02 S02-01 S03-02 S05-05 S06-01 Overturned Vendor Cart The Hanging Office Route Ledger read it (Knowledge 12). clues/The_Ambush_Reveal.md",
+        "Block6: OPTIONAL Use this clue to support The Ambush Reveal: the route was known; the cart was targeted, not unlucky. whisper",
+        "Block8: Bright, saturated storybook evidence illustration; clear hero shot of the actual clue object or scene detail; whimsical frontier-Renaissance materials; warm light; bright dystopian corporate satire when branded; no gore, no UI, no watermark, no repeated icon. Depict: an open hand-written route ledger, a final leg circled in ink. clue wiki card and Player Display evidence visual Send the image and SHOW text only. Keep TELL, points_to, and blunt ladder rungs GM-only until earned. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/route-ledger/profile_base.png assets/clue-images/route-ledger/profile_base.webp Bright, saturated storybook evidence illustration; clear hero shot of the actual clue object or scene detail; whimsical frontier-Renaissance materials; warm light; bright dystopian corporate satire when branded; no gore, no UI, no watermark, no repeated icon.",
+        "Block9: Official Daggerheart action roll using Duality Dice, Hope, Fear, and Difficulty; P2P Roll Slider is the table-facing result ladder. Agility move, climb, dodge, reach a better angle, or read evidence while moving Strength lift, hold, force, carry, break, or test weight and pressure Finesse handle, hide, tinker, compare, pick apart, or notice precise detail Instinct perceive, smell, listen, track, read danger, or sense body language Presence charm, soothe, press, lead, deceive, perform, or read a social response Knowledge recall, analyze, investigate, reason from lore, or understand systems Finesse D12 Knowledge D12 Presence D12 If the clue is plainly visible, give the SHOW text freely first: A water-stained ledger of the driver's route — stops, times, and a final leg that runs straight into trouble. Use the listed Difficulty for the chosen trait. Lower rolls get partial or misleading...",
+        "Mechanicids: duality-dice hope fear difficulty roll-slider clue-discovery",
+        "Visual Assets: profile_base Clue evidence image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/route-ledger/profile_base.png assets/clue-images/route-ledger/profile_base.webp ready Route Ledger clue image. A water-stained ledger of the driver's route — stops, times, and a final leg that runs straight into trouble."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash c51351cdb081b519 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

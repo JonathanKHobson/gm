@@ -1,0 +1,1566 @@
+{
+  "defaults": {
+    "fear_system_default": "Official 2d12 Daggerheart Duality.",
+    "death_handling_default": "Unconscious-at-0 module default for this beginner one-shot.",
+    "epilogue_advancement_default": "Symbolic Level 2 reward by default; optional full Tier 2 continuation block for the GM."
+  },
+  "field_mapping": [
+    [
+      "spotlight_id",
+      "new slide.spotlights[].spotlight_id",
+      "Seeded from Spotlight packet IDs."
+    ],
+    [
+      "type",
+      "new slide.spotlights[].type",
+      "mechanic or character."
+    ],
+    [
+      "priority",
+      "new slide.spotlights[].priority",
+      "high / med / low from scene matrix."
+    ],
+    [
+      "mode",
+      "new slide.spotlights[].mode",
+      "mandatory for first-teach mechanic, optional for PC spotlights."
+    ],
+    [
+      "trigger",
+      "new slide.spotlights[].trigger",
+      "scene-enter, first-use, beat:<id>, or first-resolution."
+    ],
+    [
+      "exclusivity",
+      "new slide.spotlights[].exclusivity",
+      "defer-if-clock-critical by default."
+    ],
+    [
+      "alert_headline/subheadline",
+      "new slide.spotlights[] fields",
+      "From cue-card packet or mechanic/PC index."
+    ],
+    [
+      "gm_runtime_payload",
+      "new slide.spotlights[].gm_runtime_payload",
+      "Speakable table lines; reuses packet content by intent."
+    ],
+    [
+      "cta_cards[]",
+      "new slide.spotlights[].cta_cards",
+      "Reusable wiki CTA routes."
+    ],
+    [
+      "character_ref/mechanic_ref",
+      "new slide.spotlights[] refs",
+      "Mechanic index and perCharacterLayer IDs."
+    ],
+    [
+      "perCharacterLayer.playerCue",
+      "slide.perCharacterLayer",
+      "Left in place; spotlight links to PC refs rather than moving PC content into gmNotes."
+    ],
+    [
+      "mechanicTakeaway",
+      "slide.mechanicTakeaway",
+      "Left in place; spotlight card points to the moment where it matters."
+    ],
+    [
+      "pending_spotlights_by_half",
+      "derived Run Mode HUD",
+      "Computed from character spotlights and local acknowledgement state."
+    ]
+  ],
+  "mechanics": {
+    "M1": {
+      "spotlight_id": "SPOT-M-DUALITY-SLIDER",
+      "scene_id": "S01-03",
+      "mechanic_ref": "duality-dice",
+      "mechanic_refs": [
+        "duality-dice",
+        "the-five-outcomes",
+        "slider-system"
+      ],
+      "headline": "Read the Roll, First Step"
+    },
+    "M2": {
+      "spotlight_id": "SPOT-M-DUALITY-SLIDER",
+      "scene_id": "S01-03",
+      "mechanic_ref": "duality-dice",
+      "mechanic_refs": [
+        "duality-dice",
+        "the-five-outcomes",
+        "slider-system"
+      ],
+      "headline": "Read the Roll, First Step"
+    },
+    "M24": {
+      "spotlight_id": "SPOT-M-DUALITY-SLIDER",
+      "scene_id": "S01-03",
+      "mechanic_ref": "duality-dice",
+      "mechanic_refs": [
+        "duality-dice",
+        "the-five-outcomes",
+        "slider-system"
+      ],
+      "headline": "Read the Roll, First Step"
+    },
+    "M3": {
+      "spotlight_id": "SPOT-M-CRITICAL",
+      "scene_id": "S01-04",
+      "mechanic_ref": "critical-success",
+      "mechanic_refs": [
+        "critical-success"
+      ],
+      "headline": "Critical Hit, Critical Hope"
+    },
+    "M4": {
+      "spotlight_id": "SPOT-M-HOPE",
+      "scene_id": "S01-03",
+      "mechanic_ref": "hope",
+      "mechanic_refs": [
+        "hope"
+      ],
+      "headline": "You Earned Hope"
+    },
+    "M5": {
+      "spotlight_id": "SPOT-M-FEAR",
+      "scene_id": "S01-03",
+      "mechanic_ref": "fear-gm",
+      "mechanic_refs": [
+        "fear-gm"
+      ],
+      "headline": "GM Fear Pressure"
+    },
+    "M6": {
+      "spotlight_id": "SPOT-M-CONNECTIONS",
+      "scene_id": "SZ-06",
+      "mechanic_ref": "connections",
+      "mechanic_refs": [
+        "connections"
+      ],
+      "headline": "Make the Party Real"
+    },
+    "M7": {
+      "spotlight_id": "SPOT-M-TRAITS",
+      "scene_id": "S01-03",
+      "mechanic_ref": "experiences-traits",
+      "mechanic_refs": [
+        "experiences-traits"
+      ],
+      "headline": "Tag the Right Edge"
+    },
+    "M8": {
+      "spotlight_id": "SPOT-M-HELP",
+      "scene_id": "S02-03",
+      "mechanic_ref": "help-an-ally",
+      "mechanic_refs": [
+        "help-an-ally"
+      ],
+      "headline": "Help an Ally"
+    },
+    "M9": {
+      "spotlight_id": "SPOT-M-GROUP",
+      "scene_id": "S02-02",
+      "mechanic_ref": "group-action-roll",
+      "mechanic_refs": [
+        "group-action-roll"
+      ],
+      "headline": "Do It as a Team"
+    },
+    "M10": {
+      "spotlight_id": "SPOT-M-TAGTEAM",
+      "scene_id": "S05-05",
+      "mechanic_ref": "tag-team-roll",
+      "mechanic_refs": [
+        "tag-team-roll"
+      ],
+      "headline": "Tag Team Moment"
+    },
+    "M11": {
+      "spotlight_id": "SPOT-M-MERCY",
+      "scene_id": "S01-03",
+      "mechanic_ref": "de-escalation-parley",
+      "mechanic_refs": [
+        "de-escalation-parley"
+      ],
+      "headline": "There Is Another Route"
+    },
+    "M12": {
+      "spotlight_id": "SPOT-M-DISCOVERY",
+      "scene_id": "S02-01",
+      "mechanic_ref": "discovery-rolls",
+      "mechanic_refs": [
+        "discovery-rolls"
+      ],
+      "headline": "Read the Scene"
+    },
+    "M13": {
+      "spotlight_id": "SPOT-M-THRESHOLD",
+      "scene_id": "S01-03",
+      "mechanic_ref": "damage-thresholds",
+      "mechanic_refs": [
+        "damage-thresholds"
+      ],
+      "headline": "How Damage Scales"
+    },
+    "M14": {
+      "spotlight_id": "SPOT-M-STRESS",
+      "scene_id": "S01-03",
+      "mechanic_ref": "stress-vulnerable",
+      "mechanic_refs": [
+        "stress-vulnerable"
+      ],
+      "headline": "Track Stress"
+    },
+    "M15": {
+      "spotlight_id": "SPOT-M-ADVERSARY",
+      "scene_id": "S02-03",
+      "mechanic_ref": "adversary-turns",
+      "mechanic_refs": [
+        "adversary-turns"
+      ],
+      "headline": "Spotlight the Threat"
+    },
+    "M16": {
+      "spotlight_id": "SPOT-M-SHORTREST",
+      "scene_id": "S05-01",
+      "mechanic_ref": "short-rest",
+      "mechanic_refs": [
+        "short-rest"
+      ],
+      "headline": "Short Rest, Then Breathe"
+    },
+    "M17": {
+      "spotlight_id": "SPOT-M-PREPARE",
+      "scene_id": "S03-03",
+      "mechanic_ref": "prepare",
+      "mechanic_refs": [
+        "prepare"
+      ],
+      "headline": "Prepare Together"
+    },
+    "M18": {
+      "spotlight_id": "SPOT-M-COUNTDOWN",
+      "scene_id": "S05-02",
+      "mechanic_ref": "the-countdown",
+      "mechanic_refs": [
+        "the-countdown"
+      ],
+      "headline": "The Ritual Countdown"
+    },
+    "M19": {
+      "spotlight_id": "SPOT-M-UNTETHERED",
+      "scene_id": "S05-04",
+      "mechanic_ref": "untethered",
+      "mechanic_refs": [
+        "untethered"
+      ],
+      "headline": "Your Soul Has Drifted"
+    },
+    "M20": {
+      "spotlight_id": "SPOT-M-DEATH",
+      "scene_id": "S05-05",
+      "mechanic_ref": "unconscious-state",
+      "mechanic_refs": [
+        "unconscious-state"
+      ],
+      "headline": "Unconscious, Not Gone"
+    },
+    "M21": {
+      "spotlight_id": "SPOT-M-LEVELUP",
+      "scene_id": "S06-01",
+      "mechanic_ref": "level-up",
+      "mechanic_refs": [
+        "level-up"
+      ],
+      "headline": "You Grew Here"
+    },
+    "M22": {
+      "spotlight_id": "SPOT-M-REPORT",
+      "scene_id": "S05-07",
+      "mechanic_ref": "the-report-choice",
+      "mechanic_refs": [
+        "the-report-choice"
+      ],
+      "headline": "How Will You Report?"
+    },
+    "M23": {
+      "spotlight_id": "SPOT-M-CONSEQUENCE",
+      "scene_id": "S02-04",
+      "mechanic_ref": "consequence-chain",
+      "mechanic_refs": [
+        "consequence-chain"
+      ],
+      "headline": "Carry the Choice Forward"
+    }
+  },
+  "characters": {
+    "garrick-reed": {
+      "early": [
+        "SPOT-C-GARRICK-EARLY"
+      ],
+      "late": [
+        "SPOT-C-GARRICK-LATE"
+      ]
+    },
+    "varian-soto": {
+      "early": [
+        "SPOT-C-VARIAN-EARLY"
+      ],
+      "late": [
+        "SPOT-C-VARIAN-LATE"
+      ]
+    },
+    "khari-nix": {
+      "early": [
+        "SPOT-C-KHARI-EARLY"
+      ],
+      "late": [
+        "SPOT-C-KHARI-LATE"
+      ]
+    },
+    "barnacle": {
+      "early": [
+        "SPOT-C-BARNACLE-EARLY"
+      ],
+      "late": [
+        "SPOT-C-BARNACLE-LATE"
+      ]
+    },
+    "marlowe-fairwind": {
+      "early": [
+        "SPOT-C-MARLOWE-EARLY"
+      ],
+      "late": [
+        "SPOT-C-MARLOWE-LATE"
+      ]
+    }
+  },
+  "spotlights": [
+    {
+      "spotlight_id": "SPOT-M-DUALITY-SLIDER",
+      "mechanic_ref": "duality-dice",
+      "mechanic_refs": [
+        "duality-dice",
+        "the-five-outcomes",
+        "slider-system"
+      ],
+      "mechanic_numbers": [
+        "M1",
+        "M2",
+        "M24"
+      ],
+      "scene_id": "S01-03",
+      "priority": "high",
+      "mode": "mandatory",
+      "trigger": "scene-enter",
+      "alert_headline": "Read the Roll, First Step",
+      "alert_subheadline": "Teach duality, outcome bands, and the slider together.",
+      "gm_runtime_payload": [
+        "Roll both d12s. Add the numbers and report total plus which die came up higher.",
+        "The higher die gives the tone: Hope or Fear.",
+        "Now read the slider for this total: Botch, Miss, Hit, Clean, Soar, or Crit.",
+        "If the dice match, it is a Critical. Treat it as a success beat, award the bonus, and keep the scene moving."
+      ],
+      "cta_cards": [
+        {
+          "label": "How the duality dice work",
+          "destination_wiki": "wiki/mechanic/duality-dice",
+          "help_type": "teach-by-example",
+          "gm_only": false
+        },
+        {
+          "label": "Understand the slider",
+          "destination_wiki": "wiki/mechanic/slider-system",
+          "help_type": "teach-by-example",
+          "gm_only": false
+        },
+        {
+          "label": "The five outcomes",
+          "destination_wiki": "wiki/mechanic/the-five-outcomes",
+          "help_type": "teach-by-example",
+          "gm_only": false
+        }
+      ],
+      "spotlight_goal": "First real roll: teach official 2d12 Duality plus Kyle's slider overlay without a lecture.",
+      "type": "mechanic",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-M-CRITICAL",
+      "mechanic_ref": "critical-success",
+      "mechanic_refs": [
+        "critical-success"
+      ],
+      "mechanic_numbers": [
+        "M3"
+      ],
+      "scene_id": "S01-04",
+      "priority": "high",
+      "mode": "mandatory",
+      "trigger": "first-resolution",
+      "alert_headline": "Critical Hit, Critical Hope",
+      "alert_subheadline": "Celebrate matching dice with the exact payoff.",
+      "gm_runtime_payload": [
+        "Matching dice is a Critical.",
+        "You gain Hope and clear 1 Stress.",
+        "On an attack critical, use the official critical damage rule for the attack."
+      ],
+      "cta_cards": [
+        {
+          "label": "When dice match",
+          "destination_wiki": "wiki/mechanic/critical-success",
+          "help_type": "teach-by-example",
+          "gm_only": false
+        }
+      ],
+      "spotlight_goal": "Make criticals feel celebratory and mechanically concrete.",
+      "type": "mechanic",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-M-HOPE",
+      "mechanic_ref": "hope",
+      "mechanic_refs": [
+        "hope"
+      ],
+      "mechanic_numbers": [
+        "M4"
+      ],
+      "scene_id": "S01-03",
+      "priority": "high",
+      "mode": "mandatory",
+      "trigger": "first-use",
+      "alert_headline": "You Earned Hope",
+      "alert_subheadline": "Bank and spend Hope immediately in-context.",
+      "gm_runtime_payload": [
+        "Hope starts at 2 and caps at 6.",
+        "Spend Hope on class features, Help an Ally, Experiences, and Tag Team later.",
+        "This is player currency: earning it means the table can push back."
+      ],
+      "cta_cards": [
+        {
+          "label": "Hope in practice",
+          "destination_wiki": "wiki/mechanic/hope",
+          "help_type": "teach-by-example",
+          "gm_only": false
+        },
+        {
+          "label": "Who spends it for what",
+          "destination_wiki": "wiki/mechanic/help-an-ally",
+          "help_type": "in-scene-prompts",
+          "gm_only": false
+        }
+      ],
+      "spotlight_goal": "Name Hope as immediate agency, not bookkeeping.",
+      "type": "mechanic",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-M-FEAR",
+      "mechanic_ref": "fear-gm",
+      "mechanic_refs": [
+        "fear-gm"
+      ],
+      "mechanic_numbers": [
+        "M5"
+      ],
+      "scene_id": "S01-03",
+      "priority": "high",
+      "mode": "mandatory",
+      "trigger": "first-use",
+      "alert_headline": "GM Fear Pressure",
+      "alert_subheadline": "Fear is escalation fuel, not punishment.",
+      "gm_runtime_payload": [
+        "GM Fear starts at 1 per player and caps at 12.",
+        "Default play uses official 2d12 Duality.",
+        "Spend Fear to spotlight adversaries, make stronger moves, add adversary Experience, or trigger Fear features when the scene calls for pressure."
+      ],
+      "cta_cards": [
+        {
+          "label": "GM Fear economy",
+          "destination_wiki": "wiki/mechanic/fear-gm",
+          "help_type": "teach-by-example",
+          "gm_only": true
+        }
+      ],
+      "spotlight_goal": "Keep Fear visible enough for pacing while preserving player-safe fiction.",
+      "type": "mechanic",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-M-CONNECTIONS",
+      "mechanic_ref": "connections",
+      "mechanic_refs": [
+        "connections"
+      ],
+      "mechanic_numbers": [
+        "M6"
+      ],
+      "scene_id": "SZ-06",
+      "priority": "high",
+      "mode": "mandatory",
+      "trigger": "beat:connections",
+      "alert_headline": "Make the Party Real",
+      "alert_subheadline": "Connections turn strangers into a table with history.",
+      "gm_runtime_payload": [
+        "Pick one connection prompt and answer it out loud.",
+        "Aim the answer at another PC, not at the GM.",
+        "Keep it short: one sentence of history, one sentence of feeling, one hook for later."
+      ],
+      "cta_cards": [
+        {
+          "label": "Connections prompts",
+          "destination_wiki": "wiki/mechanic/connections",
+          "help_type": "in-scene-prompts",
+          "gm_only": false
+        }
+      ],
+      "spotlight_goal": "Make connection questions playable and brief before the adventure starts.",
+      "type": "mechanic",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-M-TRAITS",
+      "mechanic_ref": "experiences-traits",
+      "mechanic_refs": [
+        "experiences-traits"
+      ],
+      "mechanic_numbers": [
+        "M7"
+      ],
+      "scene_id": "S01-03",
+      "priority": "high",
+      "mode": "mandatory",
+      "trigger": "first-use",
+      "alert_headline": "Tag the Right Edge",
+      "alert_subheadline": "One rule can unlock a better roll right now.",
+      "gm_runtime_payload": [
+        "Traits use the spread +2, +1, +1, 0, 0, -1 across Agility, Strength, Finesse, Instinct, Knowledge, and Presence.",
+        "If an Experience clearly applies, spend 1 Hope for +2.",
+        "Ask the player what part of their background helps before the roll lands."
+      ],
+      "cta_cards": [
+        {
+          "label": "Traits and Experiences",
+          "destination_wiki": "wiki/mechanic/experiences-traits",
+          "help_type": "teach-by-example",
+          "gm_only": false
+        }
+      ],
+      "spotlight_goal": "Teach character sheets through a real risky action.",
+      "type": "mechanic",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-M-HELP",
+      "mechanic_ref": "help-an-ally",
+      "mechanic_refs": [
+        "help-an-ally"
+      ],
+      "mechanic_numbers": [
+        "M8"
+      ],
+      "scene_id": "S02-03",
+      "priority": "high",
+      "mode": "mandatory",
+      "trigger": "first-use",
+      "alert_headline": "Help an Ally",
+      "alert_subheadline": "Team support is a live move.",
+      "gm_runtime_payload": [
+        "Spend 1 Hope to Help an Ally.",
+        "Roll a d6 and add it to the ally's roll.",
+        "If more than one PC helps, add only the highest helper die and narrate the strongest boost."
+      ],
+      "cta_cards": [
+        {
+          "label": "Help an Ally",
+          "destination_wiki": "wiki/mechanic/help-an-ally",
+          "help_type": "in-scene-prompts",
+          "gm_only": false
+        }
+      ],
+      "spotlight_goal": "Wake up team economy in the first hard group pressure scene.",
+      "type": "mechanic",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-M-GROUP",
+      "mechanic_ref": "group-action-roll",
+      "mechanic_refs": [
+        "group-action-roll"
+      ],
+      "mechanic_numbers": [
+        "M9"
+      ],
+      "scene_id": "S02-02",
+      "priority": "med",
+      "mode": "mandatory",
+      "trigger": "first-use-group-roll",
+      "alert_headline": "Do It as a Team",
+      "alert_subheadline": "One lead, one shared resolution.",
+      "gm_runtime_payload": [
+        "One PC leads the action.",
+        "Everyone else makes a reaction roll.",
+        "Add +1 for each helper success and -1 for each helper failure."
+      ],
+      "cta_cards": [
+        {
+          "label": "Group Action",
+          "destination_wiki": "wiki/mechanic/group-action-roll",
+          "help_type": "teach-by-example",
+          "gm_only": false
+        }
+      ],
+      "spotlight_goal": "Prevent group checks from becoming five unrelated solo rolls.",
+      "type": "mechanic",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-M-TAGTEAM",
+      "mechanic_ref": "tag-team-roll",
+      "mechanic_refs": [
+        "tag-team-roll"
+      ],
+      "mechanic_numbers": [
+        "M10"
+      ],
+      "scene_id": "S05-05",
+      "priority": "high",
+      "mode": "mandatory",
+      "trigger": "beat:peak",
+      "alert_headline": "Tag Team Moment",
+      "alert_subheadline": "Two PCs can make one dramatic move together.",
+      "gm_runtime_payload": [
+        "A player can spend 3 Hope to initiate a Tag Team Roll with another PC.",
+        "Both players roll, then choose one result to apply to both of them.",
+        "This counts as one action roll and is once per player per session."
+      ],
+      "cta_cards": [
+        {
+          "label": "Tag Team",
+          "destination_wiki": "wiki/mechanic/tag-team",
+          "help_type": "teach-by-example",
+          "gm_only": false
+        }
+      ],
+      "spotlight_goal": "Give the finale a clean, rules-backed teamwork button.",
+      "type": "mechanic",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-M-MERCY",
+      "mechanic_ref": "de-escalation-parley",
+      "mechanic_refs": [
+        "de-escalation-parley"
+      ],
+      "mechanic_numbers": [
+        "M11"
+      ],
+      "scene_id": "S01-03",
+      "priority": "high",
+      "mode": "mandatory",
+      "trigger": "scene-enter",
+      "alert_headline": "There Is Another Route",
+      "alert_subheadline": "Teach the non-lethal path before the table misses it.",
+      "gm_runtime_payload": [
+        "You do not have to end this with damage.",
+        "Approaching the strixwolf without spooking her is Presence 12.",
+        "Later, Bramble Union de-escalation is Presence 15.",
+        "On success, they pull back or listen; on Fear, the scene still asks for a cost."
+      ],
+      "cta_cards": [
+        {
+          "label": "De-escalation / Parley",
+          "destination_wiki": "wiki/mechanic/de-escalation-parley",
+          "help_type": "in-scene-prompts",
+          "gm_only": false
+        },
+        {
+          "label": "Consequence chain",
+          "destination_wiki": "wiki/mechanic/consequence-chain",
+          "help_type": "consequences-and-hints",
+          "gm_only": false
+        }
+      ],
+      "spotlight_goal": "Frame mercy as a viable tactic, not a hidden morality quiz.",
+      "type": "mechanic",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-M-DISCOVERY",
+      "mechanic_ref": "discovery-rolls",
+      "mechanic_refs": [
+        "discovery-rolls"
+      ],
+      "mechanic_numbers": [
+        "M12"
+      ],
+      "scene_id": "S02-01",
+      "priority": "med",
+      "mode": "mandatory",
+      "trigger": "first-use",
+      "alert_headline": "Read the Scene",
+      "alert_subheadline": "Clue rolls are active behavior.",
+      "gm_runtime_payload": [
+        "Use Instinct or Knowledge when players inspect what happened.",
+        "Notice ambush setup: Instinct 14.",
+        "Sense the package's wrongness later: Instinct 15, with Soar or Crit answering more.",
+        "Recognize the lion seal: Knowledge 12, automatic for Marlowe."
+      ],
+      "cta_cards": [
+        {
+          "label": "Discovery checks",
+          "destination_wiki": "wiki/mechanic/discovery-rolls",
+          "help_type": "teach-by-example",
+          "gm_only": false
+        }
+      ],
+      "spotlight_goal": "Make investigation a playable procedure instead of a lore dump.",
+      "type": "mechanic",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-M-THRESHOLD",
+      "mechanic_ref": "damage-thresholds",
+      "mechanic_refs": [
+        "damage-thresholds"
+      ],
+      "mechanic_numbers": [
+        "M13"
+      ],
+      "scene_id": "S01-03",
+      "priority": "high",
+      "mode": "mandatory",
+      "trigger": "first-use",
+      "alert_headline": "How Damage Scales",
+      "alert_subheadline": "Thresholds and severity land at the first hit.",
+      "gm_runtime_payload": [
+        "Compare incoming damage to the target's thresholds.",
+        "Below Minor: mark 1 HP. At or above Major: mark 2 HP. At or above Severe: mark 3 HP.",
+        "One Armor Slot can reduce the severity by one threshold."
+      ],
+      "cta_cards": [
+        {
+          "label": "Damage bands",
+          "destination_wiki": "wiki/mechanic/damage-thresholds",
+          "help_type": "teach-by-example",
+          "gm_only": false
+        }
+      ],
+      "spotlight_goal": "Teach damage once, out loud, so later hits move fast.",
+      "type": "mechanic",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-M-STRESS",
+      "mechanic_ref": "stress-vulnerable",
+      "mechanic_refs": [
+        "stress-vulnerable"
+      ],
+      "mechanic_numbers": [
+        "M14"
+      ],
+      "scene_id": "S01-03",
+      "priority": "high",
+      "mode": "mandatory",
+      "trigger": "first-use",
+      "alert_headline": "Track Stress",
+      "alert_subheadline": "Stress is pressure with a recovery edge.",
+      "gm_runtime_payload": [
+        "Mark Stress when the consequence is strain, fear, pressure, or resource cost.",
+        "When a character marks their last Stress, they become Vulnerable until they clear at least 1 Stress.",
+        "If they must mark Stress while maxed, mark HP instead."
+      ],
+      "cta_cards": [
+        {
+          "label": "Stress and Vulnerable",
+          "destination_wiki": "wiki/mechanic/stress-vulnerable",
+          "help_type": "teach-by-example",
+          "gm_only": false
+        }
+      ],
+      "spotlight_goal": "Make pressure visible without making it feel arbitrary.",
+      "type": "mechanic",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-M-ADVERSARY",
+      "mechanic_ref": "adversary-turns",
+      "mechanic_refs": [
+        "adversary-turns"
+      ],
+      "mechanic_numbers": [
+        "M15"
+      ],
+      "scene_id": "S02-03",
+      "priority": "high",
+      "mode": "mandatory",
+      "trigger": "scene-enter",
+      "alert_headline": "Spotlight the Threat",
+      "alert_subheadline": "Danger moves when the rules give you the spotlight.",
+      "gm_runtime_payload": [
+        "Daggerheart does not use fixed initiative.",
+        "When Fear, failure, or a stat block feature gives you the spotlight, choose the active adversary and make its move.",
+        "Spend Fear only for a real pressure beat: extra adversary spotlight, Fear feature, adversary Experience, or a stronger GM move."
+      ],
+      "cta_cards": [
+        {
+          "label": "Adversary turns",
+          "destination_wiki": "wiki/mechanic/adversary-turns",
+          "help_type": "teach-by-example",
+          "gm_only": true
+        }
+      ],
+      "spotlight_goal": "Keep combat procedures crisp without turning the scene into initiative bookkeeping.",
+      "type": "mechanic",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-M-SHORTREST",
+      "mechanic_ref": "short-rest",
+      "mechanic_refs": [
+        "short-rest"
+      ],
+      "mechanic_numbers": [
+        "M16"
+      ],
+      "scene_id": "S05-01",
+      "priority": "high",
+      "mode": "mandatory",
+      "trigger": "scene-enter",
+      "alert_headline": "Short Rest, Then Breathe",
+      "alert_subheadline": "This is the pre-finale resource checkpoint.",
+      "gm_runtime_payload": [
+        "Each PC chooses two rest moves: Tend to Wounds, Clear Stress, Repair Armor, or Prepare.",
+        "Resolve recovery before the ritual pressure begins.",
+        "After the rest tick, the GM banks 1d4 Fear."
+      ],
+      "cta_cards": [
+        {
+          "label": "Short Rest",
+          "destination_wiki": "wiki/mechanic/short-rest",
+          "help_type": "teach-by-example",
+          "gm_only": false
+        }
+      ],
+      "spotlight_goal": "Make the pre-finale reset explicit and useful.",
+      "type": "mechanic",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-M-PREPARE",
+      "mechanic_ref": "prepare",
+      "mechanic_refs": [
+        "prepare"
+      ],
+      "mechanic_numbers": [
+        "M17"
+      ],
+      "scene_id": "S03-03",
+      "priority": "high",
+      "mode": "mandatory",
+      "trigger": "beat:downtime",
+      "alert_headline": "Prepare Together",
+      "alert_subheadline": "Hope accrues fastest when actors regroup.",
+      "gm_runtime_payload": [
+        "Prepare gains Hope.",
+        "If two or more PCs Prepare together, each of those PCs gains 2 Hope.",
+        "Use the fiction: a drink, a plan, a breath, a prayer, a repaired strap."
+      ],
+      "cta_cards": [
+        {
+          "label": "Prepare for Hope",
+          "destination_wiki": "wiki/mechanic/prepare",
+          "help_type": "in-scene-prompts",
+          "gm_only": false
+        }
+      ],
+      "spotlight_goal": "Reward noncombat table momentum with real resource movement.",
+      "type": "mechanic",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-M-COUNTDOWN",
+      "mechanic_ref": "the-countdown",
+      "mechanic_refs": [
+        "the-countdown"
+      ],
+      "mechanic_numbers": [
+        "M18"
+      ],
+      "scene_id": "S05-02",
+      "priority": "high",
+      "mode": "mandatory",
+      "trigger": "scene-enter",
+      "alert_headline": "The Ritual Countdown",
+      "alert_subheadline": "The finale clock is teachable math.",
+      "gm_runtime_payload": [
+        "Start the countdown at 8.",
+        "Defeat an adversary or neutralize meaningful pressure: -1.",
+        "Custodian hit or exposed: +1.",
+        "When it reaches 0, the ritual completes."
+      ],
+      "cta_cards": [
+        {
+          "label": "Countdown mechanics",
+          "destination_wiki": "wiki/mechanic/the-countdown",
+          "help_type": "teach-by-example",
+          "gm_only": false
+        }
+      ],
+      "spotlight_goal": "Make the finale win condition visible to the table.",
+      "type": "mechanic",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-M-UNTETHERED",
+      "mechanic_ref": "untethered",
+      "mechanic_refs": [
+        "untethered"
+      ],
+      "mechanic_numbers": [
+        "M19"
+      ],
+      "scene_id": "S05-04",
+      "priority": "high",
+      "mode": "mandatory",
+      "trigger": "first-use-of-condition",
+      "alert_headline": "Your Soul Has Drifted",
+      "alert_subheadline": "A recoverable condition, not a dead end.",
+      "gm_runtime_payload": [
+        "You are temporarily Untethered: still present in the scene, but unable to act until the effect resolves.",
+        "The party can protect, reach, steady, or recover you through proximity and action.",
+        "Keep the player involved by asking what memory or sensation they are fighting through."
+      ],
+      "cta_cards": [
+        {
+          "label": "Untethered condition",
+          "destination_wiki": "wiki/mechanic/untethered",
+          "help_type": "stalled-player-recovery",
+          "gm_only": false
+        }
+      ],
+      "spotlight_goal": "Prevent the condition from feeling like the player has been removed from the story.",
+      "type": "mechanic",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-M-DEATH",
+      "mechanic_ref": "unconscious-state",
+      "mechanic_refs": [
+        "unconscious-state"
+      ],
+      "mechanic_numbers": [
+        "M20"
+      ],
+      "scene_id": "S05-05",
+      "priority": "high",
+      "mode": "mandatory",
+      "trigger": "first-time",
+      "alert_headline": "Unconscious, Not Gone",
+      "alert_subheadline": "This one-shot keeps last HP gentle and recoverable.",
+      "gm_runtime_payload": [
+        "You are not dead.",
+        "At last HP in this module default, you become Unconscious.",
+        "You can return when an ally restores 1 HP or after a long rest."
+      ],
+      "cta_cards": [
+        {
+          "label": "Last HP handling",
+          "destination_wiki": "wiki/mechanic/unconscious-state",
+          "help_type": "stalled-player-recovery",
+          "gm_only": false
+        },
+        {
+          "label": "Advanced death moves",
+          "destination_wiki": "wiki/mechanic/death-moves-advanced",
+          "help_type": "stalled-player-recovery",
+          "gm_only": true
+        }
+      ],
+      "spotlight_goal": "Protect table confidence during the most stressful hit-point moment.",
+      "type": "mechanic",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-M-LEVELUP",
+      "mechanic_ref": "level-up",
+      "mechanic_refs": [
+        "level-up"
+      ],
+      "mechanic_numbers": [
+        "M21"
+      ],
+      "scene_id": "S06-01",
+      "priority": "high",
+      "mode": "mandatory",
+      "trigger": "beat:reward",
+      "alert_headline": "You Grew Here",
+      "alert_subheadline": "Reward is immediate and celebratory.",
+      "gm_runtime_payload": [
+        "You earned a symbolic Level 2 reward at module resolution.",
+        "Let each player name one thing their character understands now that they did not understand at the start.",
+        "If the group wants continuation play, open the optional real Tier 2 advancement block after the session."
+      ],
+      "cta_cards": [
+        {
+          "label": "Level-up options",
+          "destination_wiki": "wiki/mechanic/level-up",
+          "help_type": "teach-by-example",
+          "gm_only": false
+        }
+      ],
+      "spotlight_goal": "Close the one-shot with growth, not a worksheet.",
+      "type": "mechanic",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-M-REPORT",
+      "mechanic_ref": "the-report-choice",
+      "mechanic_refs": [
+        "the-report-choice"
+      ],
+      "mechanic_numbers": [
+        "M22"
+      ],
+      "scene_id": "S05-07",
+      "priority": "high",
+      "mode": "mandatory",
+      "trigger": "beat:report",
+      "alert_headline": "How Will You Report?",
+      "alert_subheadline": "The one-shot's values check is front-and-center.",
+      "gm_runtime_payload": [
+        "You have four valid endings: file honest, spin corporate, refuse, or withhold the truth.",
+        "No move is right. Each move chooses a different consequence.",
+        "Ask the table what they write, what they omit, and who they protect."
+      ],
+      "cta_cards": [
+        {
+          "label": "Report choice",
+          "destination_wiki": "wiki/mechanic/the-report-choice",
+          "help_type": "consequences-and-hints",
+          "gm_only": false
+        },
+        {
+          "label": "Consequence chain",
+          "destination_wiki": "wiki/mechanic/consequence-chain",
+          "help_type": "consequences-and-hints",
+          "gm_only": false
+        }
+      ],
+      "spotlight_goal": "Make the final ethical choice visible and playable.",
+      "type": "mechanic",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-M-CONSEQUENCE",
+      "mechanic_ref": "consequence-chain",
+      "mechanic_refs": [
+        "consequence-chain"
+      ],
+      "mechanic_numbers": [
+        "M23"
+      ],
+      "scene_id": "S02-04",
+      "priority": "med",
+      "mode": "mandatory",
+      "trigger": "beat:resolution",
+      "alert_headline": "Carry the Choice Forward",
+      "alert_subheadline": "Earlier mercy, trust, and truth choices must matter later.",
+      "gm_runtime_payload": [
+        "Name the consequence the table just created.",
+        "Record the state change while the scene is fresh.",
+        "Bring it back later as help, suspicion, lost trust, a warning, or a changed route."
+      ],
+      "cta_cards": [
+        {
+          "label": "Consequence chain",
+          "destination_wiki": "wiki/mechanic/consequence-chain",
+          "help_type": "consequences-and-hints",
+          "gm_only": true
+        }
+      ],
+      "spotlight_goal": "Stop choices from evaporating after the scene ends.",
+      "type": "mechanic",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-C-GARRICK-EARLY",
+      "character_ref": "garrick-reed",
+      "pc_name": "Garrick Reed",
+      "half": "early",
+      "scene_id": "S01-02",
+      "priority": "high",
+      "mode": "optional",
+      "trigger": "first-use social action",
+      "alert_headline": "Garrick, Open the Room",
+      "alert_subheadline": "Ex-security warmth opens the first social beat.",
+      "gm_runtime_payload": [
+        "Garrick, you are the trusted face. Take the lead and make the first ask."
+      ],
+      "cta_cards": [
+        {
+          "label": "Spotlight: Garrick",
+          "destination_wiki": "wiki/character/garrick",
+          "help_type": "in-scene-prompts",
+          "gm_only": false
+        }
+      ],
+      "type": "character",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-C-GARRICK-LATE",
+      "character_ref": "garrick-reed",
+      "pc_name": "Garrick Reed",
+      "half": "late",
+      "scene_id": "S05-07",
+      "priority": "high",
+      "mode": "optional",
+      "trigger": "beat:report",
+      "alert_headline": "Garrick, File It Right",
+      "alert_subheadline": "Reporting experience turns into an ethics anchor.",
+      "gm_runtime_payload": [
+        "Garrick, you know how filings work. Frame the party's truth and ownership now."
+      ],
+      "cta_cards": [
+        {
+          "label": "Spotlight: Garrick",
+          "destination_wiki": "wiki/character/garrick",
+          "help_type": "in-scene-prompts",
+          "gm_only": false
+        },
+        {
+          "label": "The report choice",
+          "destination_wiki": "wiki/mechanic/the-report-choice",
+          "help_type": "consequences-and-hints",
+          "gm_only": false
+        }
+      ],
+      "type": "character",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-C-VARIAN-EARLY",
+      "character_ref": "varian-soto",
+      "pc_name": "Varian Soto",
+      "half": "early",
+      "scene_id": "S01-03",
+      "priority": "high",
+      "mode": "optional",
+      "trigger": "scene-enter",
+      "alert_headline": "Varian, Read the Forest",
+      "alert_subheadline": "Heightened senses catch predator panic first.",
+      "gm_runtime_payload": [
+        "Varian, your Ranger focus spots the non-threat posture. Want to read the creature and shape the team's action?"
+      ],
+      "cta_cards": [
+        {
+          "label": "Spotlight: Varian",
+          "destination_wiki": "wiki/character/varian",
+          "help_type": "in-scene-prompts",
+          "gm_only": false
+        },
+        {
+          "label": "Mercy path",
+          "destination_wiki": "wiki/mechanic/de-escalation-parley",
+          "help_type": "in-scene-prompts",
+          "gm_only": false
+        }
+      ],
+      "type": "character",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-C-VARIAN-LATE",
+      "character_ref": "varian-soto",
+      "pc_name": "Varian Soto",
+      "half": "late",
+      "scene_id": "S05-04",
+      "priority": "high",
+      "mode": "optional",
+      "trigger": "first-use-of-condition",
+      "alert_headline": "Varian, What Changed?",
+      "alert_subheadline": "Memory plus perception closes his arc.",
+      "gm_runtime_payload": [
+        "Varian, what does your learned sense say now? Give the party what this place really is, without naming what you cannot prove."
+      ],
+      "cta_cards": [
+        {
+          "label": "Spotlight: Varian",
+          "destination_wiki": "wiki/character/varian",
+          "help_type": "in-scene-prompts",
+          "gm_only": false
+        }
+      ],
+      "type": "character",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-C-KHARI-EARLY",
+      "character_ref": "khari-nix",
+      "pc_name": "Khari Nix",
+      "half": "early",
+      "scene_id": "S02-03",
+      "priority": "high",
+      "mode": "optional",
+      "trigger": "scene-enter",
+      "alert_headline": "Khari, Move to the Front",
+      "alert_subheadline": "Guardian protection lands now.",
+      "gm_runtime_payload": [
+        "Khari, step in front of someone exposed and own that protection beat."
+      ],
+      "cta_cards": [
+        {
+          "label": "Spotlight: Khari",
+          "destination_wiki": "wiki/character/khari",
+          "help_type": "in-scene-prompts",
+          "gm_only": false
+        },
+        {
+          "label": "Help and protect",
+          "destination_wiki": "wiki/mechanic/help-an-ally",
+          "help_type": "in-scene-prompts",
+          "gm_only": false
+        }
+      ],
+      "type": "character",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-C-KHARI-LATE",
+      "character_ref": "khari-nix",
+      "pc_name": "Khari Nix",
+      "half": "late",
+      "scene_id": "S05-03",
+      "priority": "high",
+      "mode": "optional",
+      "trigger": "first-use",
+      "alert_headline": "Khari, Hold the Line",
+      "alert_subheadline": "Finale line-holding becomes a Guardian signature beat.",
+      "gm_runtime_payload": [
+        "Khari, this is the scene for Unstoppable behavior. Who do you protect, and why now?"
+      ],
+      "cta_cards": [
+        {
+          "label": "Spotlight: Khari",
+          "destination_wiki": "wiki/character/khari",
+          "help_type": "in-scene-prompts",
+          "gm_only": false
+        }
+      ],
+      "type": "character",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-C-BARNACLE-EARLY",
+      "character_ref": "barnacle",
+      "pc_name": "Barnacle",
+      "half": "early",
+      "scene_id": "S02-01",
+      "priority": "med",
+      "mode": "optional",
+      "trigger": "first-use",
+      "alert_headline": "Barnacle, See What Is Wrong",
+      "alert_subheadline": "Rogue attention catches staged details.",
+      "gm_runtime_payload": [
+        "Barnacle, you clock a staging mismatch. Call it out as a concrete observation, not proof."
+      ],
+      "cta_cards": [
+        {
+          "label": "Spotlight: Barnacle",
+          "destination_wiki": "wiki/character/barnacle",
+          "help_type": "in-scene-prompts",
+          "gm_only": false
+        },
+        {
+          "label": "Discovery checks",
+          "destination_wiki": "wiki/mechanic/discovery-rolls",
+          "help_type": "teach-by-example",
+          "gm_only": false
+        }
+      ],
+      "type": "character",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-C-BARNACLE-LATE",
+      "character_ref": "barnacle",
+      "pc_name": "Barnacle",
+      "half": "late",
+      "scene_id": "S05-05",
+      "priority": "high",
+      "mode": "optional",
+      "trigger": "beat:peak",
+      "alert_headline": "Barnacle, Read the Market",
+      "alert_subheadline": "Endgame money trail gives them a second major role.",
+      "gm_runtime_payload": [
+        "Barnacle, who profits, and what did that cost the party? Offer only what you can say from what you found."
+      ],
+      "cta_cards": [
+        {
+          "label": "Spotlight: Barnacle",
+          "destination_wiki": "wiki/character/barnacle",
+          "help_type": "in-scene-prompts",
+          "gm_only": false
+        }
+      ],
+      "type": "character",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-C-MARLOWE-EARLY",
+      "character_ref": "marlowe-fairwind",
+      "pc_name": "Marlowe Fairwind",
+      "half": "early",
+      "scene_id": "S00-01",
+      "priority": "med",
+      "mode": "optional",
+      "trigger": "scene-enter",
+      "alert_headline": "Marlowe, Carry the Weight",
+      "alert_subheadline": "Custodianship has a cost and a choice.",
+      "gm_runtime_payload": [
+        "Marlowe, this assignment is yours by identity and trust. How do you carry that forward in this scene?"
+      ],
+      "cta_cards": [
+        {
+          "label": "Spotlight: Marlowe",
+          "destination_wiki": "wiki/character/marlowe",
+          "help_type": "in-scene-prompts",
+          "gm_only": false
+        }
+      ],
+      "type": "character",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    },
+    {
+      "spotlight_id": "SPOT-C-MARLOWE-LATE",
+      "character_ref": "marlowe-fairwind",
+      "pc_name": "Marlowe Fairwind",
+      "half": "late",
+      "scene_id": "S06-01",
+      "priority": "high",
+      "mode": "optional",
+      "trigger": "beat:reward",
+      "alert_headline": "Marlowe, Name What It Taught",
+      "alert_subheadline": "Keeper responsibility closes the loop.",
+      "gm_runtime_payload": [
+        "Marlowe, your arcane senses understand the ritual's cost. Share only what the table earned in play."
+      ],
+      "cta_cards": [
+        {
+          "label": "Spotlight: Marlowe",
+          "destination_wiki": "wiki/character/marlowe",
+          "help_type": "in-scene-prompts",
+          "gm_only": false
+        },
+        {
+          "label": "Keystone understanding",
+          "destination_wiki": "wiki/mechanic/keystone-understanding",
+          "help_type": "in-scene-prompts",
+          "gm_only": true
+        }
+      ],
+      "type": "character",
+      "exclusivity": "defer-if-clock-critical",
+      "spoiler_gate": {
+        "player_safe": true,
+        "gm_only_ctas_allowed": true
+      }
+    }
+  ],
+  "scene_bindings": {
+    "S01-03": [
+      "SPOT-M-DUALITY-SLIDER",
+      "SPOT-M-FEAR",
+      "SPOT-M-HOPE",
+      "SPOT-M-MERCY",
+      "SPOT-M-STRESS",
+      "SPOT-M-THRESHOLD",
+      "SPOT-M-TRAITS",
+      "SPOT-C-VARIAN-EARLY"
+    ],
+    "S01-04": [
+      "SPOT-M-CRITICAL"
+    ],
+    "SZ-06": [
+      "SPOT-M-CONNECTIONS"
+    ],
+    "S02-03": [
+      "SPOT-M-ADVERSARY",
+      "SPOT-M-HELP",
+      "SPOT-C-KHARI-EARLY"
+    ],
+    "S02-02": [
+      "SPOT-M-GROUP"
+    ],
+    "S05-05": [
+      "SPOT-M-DEATH",
+      "SPOT-M-TAGTEAM",
+      "SPOT-C-BARNACLE-LATE"
+    ],
+    "S02-01": [
+      "SPOT-M-DISCOVERY",
+      "SPOT-C-BARNACLE-EARLY"
+    ],
+    "S05-01": [
+      "SPOT-M-SHORTREST"
+    ],
+    "S03-03": [
+      "SPOT-M-PREPARE"
+    ],
+    "S05-02": [
+      "SPOT-M-COUNTDOWN"
+    ],
+    "S05-04": [
+      "SPOT-M-UNTETHERED",
+      "SPOT-C-VARIAN-LATE"
+    ],
+    "S06-01": [
+      "SPOT-M-LEVELUP",
+      "SPOT-C-MARLOWE-LATE"
+    ],
+    "S05-07": [
+      "SPOT-M-REPORT",
+      "SPOT-C-GARRICK-LATE"
+    ],
+    "S02-04": [
+      "SPOT-M-CONSEQUENCE"
+    ],
+    "S01-02": [
+      "SPOT-C-GARRICK-EARLY"
+    ],
+    "S05-03": [
+      "SPOT-C-KHARI-LATE"
+    ],
+    "S00-01": [
+      "SPOT-C-MARLOWE-EARLY"
+    ]
+  }
+}

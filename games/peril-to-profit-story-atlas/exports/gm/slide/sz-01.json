@@ -1,0 +1,52 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "SZ-01",
+  "title": "SZ-01 - Concept, Aim, Tone, Subject Matter",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "ac67916733e0b6dc",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "We are playing a fantasy delivery job in the Goldspire Territories: dangerous roads, strange magic, communities under pressure, and corporations trying to turn everything into paperwork."
+    },
+    {
+      "title": "Public objective",
+      "body": "We are playing a fantasy delivery job in the Goldspire Territories: dangerous roads, strange magic, communities under pressure, and corporations trying to turn everything into paperwork."
+    },
+    {
+      "title": "Player bullets",
+      "items": [
+        "Concept: a corporate-fantasy delivery job that becomes morally complicated.",
+        "Aim: learn Daggerheart, build the party, protect a community, and discover what the sealed delivery means.",
+        "Tone: mostly sincere fantasy adventure, with corporate satire and dark whimsy around the edges.",
+        "Subject matter: fantasy danger, animal peril, ambush, death, corporate exploitation, undead, and memory or fear magic.",
+        "We can pause, soften, veil, or redirect content."
+      ]
+    },
+    {
+      "title": "GM goal",
+      "body": "Clarify Concept, Aim, Tone, and Subject Matter before play begins."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "Script: Name the Concept, Aim, Tone, and Subject Matter without using the acronym as shorthand. Ask whether anything in the subject matter list needs a line, veil, or softer framing.",
+        "CATS means Concept, Aim, Tone, Subject Matter. Expand it on first use.",
+        "Do not turn this into a lecture; this is a table calibration beat.",
+        "Checklist: Concept explained; Aim explained; Tone explained; Subject matter checked"
+      ]
+    },
+    {
+      "title": "GM script",
+      "body": "Name the Concept, Aim, Tone, and Subject Matter without using the acronym as shorthand. Ask whether anything in the subject matter list needs a line, veil, or softer framing."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash ac67916733e0b6dc | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

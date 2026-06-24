@@ -1,0 +1,42 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "SZ-02B",
+  "kind": "slide",
+  "title": "SZ-02B - Player Expectations / Shared Table Care",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Session Zero",
+  "hook": "This works best when everyone is engaged, respectful, and helping the table have fun. You are responsible for your own fun and for noticing the other people at the table too.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "This works best when everyone is engaged, respectful, and helping the table have fun. You are responsible for your own fun and for noticing the other people at the table too."
+    },
+    {
+      "label": "Public Objective",
+      "body": "This works best when everyone is engaged, respectful, and helping the table have fun. You are responsible for your own fun and for noticing the other people at the table too."
+    },
+    {
+      "label": "Player Bullets",
+      "body": "Engage with the story and ask questions. Invite other players in: ask them what their character thinks, notices, or does. Speak when it is your turn, and be mindful of how much space you are taking. Only participate at..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Engage with the story and ask questions.",
+    "Invite other players in: ask them what their character thinks, notices, or does.",
+    "Speak when it is your turn, and be mindful of how much space you are taking.",
+    "Only participate at the level you are comfortable with."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:SZ-02B",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "e407f7ca077f295f",
+  "generated_at": "2026-06-23T21:40:58"
+}

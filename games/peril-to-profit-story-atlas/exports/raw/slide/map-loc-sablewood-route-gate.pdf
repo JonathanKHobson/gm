@@ -1,0 +1,334 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2585 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-sablewood-route-gate - Sablewood Route Gate Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The route gate is where polished assurance meets wet bark, old stone, and a forest that) Tj
+T*
+(has not signed anything.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(The route gate is where polished assurance meets wet bark, old stone, and a forest that) Tj
+T*
+(has not signed anything.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-sablewood-route-gate) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: PROLOGUE) Tj
+T*
+(- Sectiontitle: Prologue: The Contract) Tj
+T*
+(- Title: Sablewood Route Gate Location Map) Tj
+T*
+(- Shorttitle: Sablewood Route Gate) Tj
+T*
+(- Order: 102.24) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-sablewood-route-gate-gm.png) Tj
+T*
+(- Alt: Sablewood Route Gate location map board.) Tj
+T*
+(- Caption: Visual reference for Sablewood Route Gate.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Make the entry point a choice, not a loading screen.) Tj
+T*
+(- Publicobjective: The route gate is where polished assurance meets wet bark, old) Tj
+T*
+(  stone, and a forest that has not signed anything.) Tj
+T*
+(- Readaloud: The route gate is where polished assurance meets wet bark, old stone, and) Tj
+T*
+(  a forest that has not signed anything.) Tj
+T*
+(- Playertakeaway: The route gate is where polished assurance meets wet bark, old) Tj
+T*
+(  stone, and a forest that has not signed anything.) Tj
+T*
+(- Storytakeaway: The first threshold teaches that official safety and local safety are) Tj
+T*
+(  not the same.) Tj
+T*
+(- Mechanictakeaway: Use only if the route gate is actually visited or shown as) Tj
+T*
+(  orientation.) Tj
+T*
+(- Entityids: sablewood-route-gate horse-goats fox-bats cat-squirrels) Tj
+T*
+(- Entities: sablewood-route-gate Sablewood Route Gate location Location) Tj
+T*
+(  assets/icons/location.png assets/location-visuals/sablewood-route-) Tj
+T*
+(  gate/profile_scene_v02.png SAY-bul-wood Route Gate The road crossing where nature,) Tj
+T*
+(  signage, and corporate language first collide. Make the entry point a choice, not a) Tj
+T*
+(  loading screen. The road crossing where nature, signage, and corporate language) Tj
+T*
+(  first collide.; introduce it with a sensory palette, who feels safe there, and what) Tj
+T*
+(  has been neglected. Pull player attention toward the choices, clues, and) Tj
+T*
+(  relationships tied to Sablewood? Logistics Preserve, Old Sable, Goldspire) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4142 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Waymarkers. The road crossing where nature, signage, and corporate language first) Tj
+T*
+(  collide. horse-goats Horse-Goats creature Creature / Animal) Tj
+T*
+(  assets/icons/creature.png assets/creature-images/horse-goats/portrait_base.png HORS) Tj
+T*
+(  gohts Sturdy horse-goats pull road carriages with a suspicious mix of dignity,) Tj
+T*
+(  stubbornness, and snack-based negotiation. RuneSpark carriage animal Sturdy horse-) Tj
+T*
+(  goats pull road carriages with a suspicious mix of dignity, stubbornness, and snack-) Tj
+T*
+(  based negotiation.; show instinct first through distance, posture, scent, and how) Tj
+T*
+(  the creature protects what is close to...) Tj
+T*
+(- Locationids: sablewood-route-gate) Tj
+T*
+(- Fearspends: A lantern clicks on after the party has already passed. The route bell) Tj
+T*
+(  rings once with no wind. The old bypass looks freshly used.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S01-01) Tj
+T*
+(- Mapdata: MAP-LOC-sablewood-route-gate environment Sablewood Route Gate Location Map) Tj
+T*
+(  S01-01 sablewood-route-gate horse-goats fox-bats cat-squirrels assets/location-) Tj
+T*
+(  visuals/sablewood-route-gate/profile_scene_v02.png Visual reference for Sablewood) Tj
+T*
+(  Route Gate. Sablewood Route Gate location map board. The route gate is where) Tj
+T*
+(  polished assurance meets wet bark, old stone, and a forest that has not signed) Tj
+T*
+(  anything. The route gate is where polished assurance meets wet bark, old stone, and) Tj
+T*
+(  a forest that has not signed anything. Make the entry point a choice, not a loading) Tj
+T*
+(  screen. An arch or checkpoint frames the road with audit lanterns and warning posts.) Tj
+T*
+(  Moss has climbed the official fixtures faster than anyone cleans it. Older trail) Tj
+T*
+(  cuts bypass the gate without announcing themselves. Distant beacon-pulses, stone) Tj
+T*
+(  vibration, notices snapping in wind, and a low hum that arrives late. Oil from) Tj
+T*
+(  lanterns, damp moss, cold metal, and the sour paper smell of notices gone soft in) Tj
+T*
+(  rain. The gate surface is slick at the top and gritty near hand height. People or) Tj
+T*
+(  animals orient toward the signal for a breath, then pretend it is normal. An arch or) Tj
+T*
+(  checkpoint frames the road with audit lanterns and warning...) Tj
+T*
+(- Livetools: scene MAP-LOC-sablewood-route-gate) Tj
+T*
+(- Takeawayhelp: Player takeaway: MAP-LOC-sablewood-route-gate The route gate is where) Tj
+T*
+(  polished assurance meets wet bark, old stone, and a forest that has not signed) Tj
+T*
+(  anything. Give the player one concrete way back into play: a question, a) Tj
+T*
+(  description, a choice, or a pass-and-return moment. "Your takeaway right now is) Tj
+T*
+(  this: The route gate is where polished assurance meets wet bark, old stone, and a) Tj
+T*
+(  forest that has not signed anything." "If you are not sure what to do next, you can) Tj
+T*
+(  ask a question, describe what your character notices, or tell me what your character) Tj
+T*
+(  tries." "If you are not sure what to do next, you can ask a question, describe what) Tj
+T*
+(  your character notices, or tell me what your character tries." Give the player one) Tj
+T*
+(  concrete way back into play: a question, a description, a choice, or a pass-and-) Tj
+T*
+(  return moment. Story takeaway: MAP-LOC-sablewood-route-gate The first threshold) Tj
+T*
+(  teaches that official safety and local safety are not the same. Anchor the answer in) Tj
+T*
+(  the visible fiction on this slide: who is present, what can be observed, what has) Tj
+T*
+(  already been said, and what remains uncertain. "Here is what your characters know) Tj
+T*
+(  right now: The first threshold teaches that official safety and local...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-sablewood-route-gate-player.png Sablewood Route) Tj
+T*
+(  Gate location map board. MAP-LOC-sablewood-route-gate environment Sablewood Route) Tj
+T*
+(  Gate S01-01 assets/maps/MAP-LOC-sablewood-route-gate-player.png assets/maps/MAP-LOC-) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2781 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  sablewood-route-gate-player.png Visual reference for Sablewood Route Gate. Sablewood) Tj
+T*
+(  Route Gate location map board. The route gate is where polished assurance meets wet) Tj
+T*
+(  bark, old stone, and a forest that has not signed anything. The route gate is where) Tj
+T*
+(  polished assurance meets wet bark, old stone, and a forest that has not signed) Tj
+T*
+(  anything. MAP-LOC-sablewood-route-gate-map-only Map only Sablewood Route Gate map-) Tj
+T*
+(  only assets/maps/MAP-LOC-sablewood-route-gate-player.png Sablewood Route Gate) Tj
+T*
+(  location map board. MAP-LOC-sablewood-route-gate environment Sablewood Route Gate) Tj
+T*
+(  S01-01 assets/maps/MAP-LOC-sablewood-route-gate-player.png assets/maps/MAP-LOC-) Tj
+T*
+(  sablewood-route-gate-player.png Visual reference for Sablewood Route Gate. Sablewood) Tj
+T*
+(  Route Gate location map board. The route gate is where polished assurance meets wet) Tj
+T*
+(  bark, old stone, and a forest that has not signed anything. The route gate is where) Tj
+T*
+(  polished assurance meets wet bark, old stone, and a forest...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-sablewood-route-gate map Sablewood Route Gate) Tj
+T*
+(  assets/maps/MAP-LOC-sablewood-route-gate-player.png Sablewood Route Gate location) Tj
+T*
+(  map board. Visual reference for Sablewood Route Gate. spatial reference and location) Tj
+T*
+(  texture The route gate is where polished assurance meets wet bark, old stone, and a) Tj
+T*
+(  forest that has not signed anything. The route gate is where polished assurance) Tj
+T*
+(  meets wet bark, old stone, and a forest that has not signed anything. MAP-LOC-) Tj
+T*
+(  sablewood-route-gate environment Sablewood Route Gate S01-01 assets/maps/MAP-LOC-) Tj
+T*
+(  sablewood-route-gate-player.png assets/maps/MAP-LOC-sablewood-route-gate-player.png) Tj
+T*
+(  Visual reference for Sablewood Route Gate. Sablewood Route Gate location map board.) Tj
+T*
+(  The route gate is where polished assurance meets wet bark, old stone, and a forest) Tj
+T*
+(  that has not signed anything. The route gate is where polished assurance meets wet) Tj
+T*
+(  bark, old stone, and a forest that has not signed anything. assets/maps/MAP-LOC-) Tj
+T*
+(  sablewood-route-gate-player.png Sablewood Route Gate location map board. MAP-LOC-) Tj
+T*
+(  sablewood-route-gate environment Sablewood Route Gate S01-01 assets/maps/MAP-LOC-) Tj
+T*
+(  sablewood-route-gate-player.png...) Tj
+T*
+(- Slidenumber: 23) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash a1de2b3b95d54bf2 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002646 00000 n 
+0000002772 00000 n 
+0000006966 00000 n 
+0000007092 00000 n 
+0000009925 00000 n 
+0000010051 00000 n 
+0000010120 00000 n 
+0000010169 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+10241
+%%EOF

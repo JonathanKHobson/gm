@@ -1,0 +1,86 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "scene",
+  "id": "S05-06",
+  "title": "S05-06 - Market Correction",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "fe06f56957e7759c",
+  "sections": [
+    {
+      "title": "Player read-aloud",
+      "body": "The runes stutter. Somewhere under the soil, something old receives permission to continue."
+    },
+    {
+      "title": "Scene summary",
+      "body": "The environment produces more skeletons when pressure is needed."
+    },
+    {
+      "title": "Visible choices",
+      "items": [
+        "Spend Fear",
+        "Summon skeletons",
+        "Escalate ritual instability"
+      ]
+    },
+    {
+      "title": "Player questions",
+      "items": [
+        "What detail in Market Correction tells you the official story is incomplete?",
+        "Who notices the human cost first, and how do they show it?",
+        "What small object, smell, or sound makes this scene feel real?"
+      ]
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "Use only if the fight needs pressure or if a Soul-Audit Wraith module effect needs a fast enemy for countdown progress.",
+        "Keep player-facing information actionable. Reveal systemic truth through objects, reactions, and consequences before naming it.",
+        "Manufactured-threat lens: seed the contradiction, do not explain it. The surface goal stays simple and heroic."
+      ]
+    },
+    {
+      "title": "Checks and rolls",
+      "items": [
+        "Any heroic approach Break the correction's pressure through action, care, or sacrifice. Hard Determine strong or unstable ward outcome. 20 Cleanly resolve: Break the correction's pressure through action, care, or sacrifice. Add a concrete boon, extra clue, or improved position. Success, plus the player names one helpful detail or asks one follow-up question. Success, but the GM exposes a cost, ticks a countdown, or reveals a new pressure tied to Market Correction. The full goal slips, but the party still learns a useful truth or avoids the worst consequence. The GM makes a hard move that follows from the fiction and leaves the next choice visible. Spend Fear to tick the ritual countdown, expose the Custodian, activate ward backlash, or trigger Market Correction. On mixed or sliding results, reveal information in layers: visible fact, actionable clue, then systemic truth."
+      ]
+    },
+    {
+      "title": "Clues",
+      "items": [
+        "Market Correction pulse The final threat is systemic. No boss monster owns the harm. The infrastructure reacts to care as inefficiency."
+      ]
+    },
+    {
+      "title": "Loot",
+      "items": [
+        "Cold seal wax",
+        "Humming stone chip",
+        "Keystone Asset™: Inside the sealed crate, packed in wax-paper and reassurance, sits a heavy grey stone the size of a loaf, warm to the touch, faintly humming, with a light deep inside it that is slowly going out."
+      ]
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Plot So Far: The party is in Act Five pressure: The environment produces more skeletons when pressure is needed.",
+        "Mechanics In Play: Use Daggerheart Duality Dice as baseline. Use the listed Difficulty and outcome options when a roll matters. Keep trivial actions no-roll; roll only when uncertainty, cost, or danger is interesting.",
+        "Roll Cards: s05-06-disrupt-market-correction S05-06 Disrupt Market Correction Disrupt Market Correction Knowledge Strength Knowledge Strength 14 Knowledge finds the rising pattern; Strength collapses the breach point. The environment keeps purchasing more threat. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. The environment keeps purchasing more threat. Use a...",
+        "Gm Fear Spends: Tick the Ritual Countdown the wrong direction or expose the Custodian. Trigger Market Correction, Pass-Through, Memory Delve, or Group Attack when fiction supports it.",
+        "Conditions Hazards: Vulnerable",
+        "Search Loot Clues: No fixed loot. Offer clue, texture, or hospitality only when the fiction supports it.",
+        "No Roll Guidance: Do not call for a roll when the players have time, a clear method, and no meaningful pressure.",
+        "Escalation: Escalate by making cost visible: time, noise, trust, ward instability, or someone vulnerable in danger.",
+        "Deescalation: De-escalate through respect, care, honest testimony, useful evidence, or a concrete concession.",
+        "Tv Mechanics Caption: Public cue: Market Correction asks what the party does, what it costs, and who is protected.",
+        "Trait Variety Note: Primary traits in this scene: Finesse, Knowledge, Strength. If rolls drift toward Instinct/Presence, ask whether Agility, Strength, Finesse, or Knowledge better describes the action.",
+        "Class Community Ancestry Reveals: Loreborne: spots older legal, heraldic, or ward-craft language under the branding. Underborne: notices service doors, hidden routes, and who built the thing nobody credits. Highborne: reads etiquette, class panic, and reputational risk. Ridgeborne: notices stonework, weight, pressure, and structural weakness. Wildborne: reads the land, animals, and local ecological stress. Elf/Ribbet/Human/Giant/Katari: invite one sensory or social detail from the player's heritage. Sorcerer/Rogue/Warrior/Guardian/Ranger: give each class one table-facing way to shine without changing the plot."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash fe06f56957e7759c | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

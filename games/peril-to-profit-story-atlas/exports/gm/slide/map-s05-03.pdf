@@ -1,0 +1,175 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2276 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-S05-03 - Holding the Line Tactical Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The ritual clearing becomes a battlefield because the ward itself is under pressure. The) Tj
+T*
+(Custodian and Keystone hold the center while old security bodies and audit-cold spirits) Tj
+T*
+(test every gap around them.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(The ritual clearing becomes a battlefield because the ward itself is under pressure. The) Tj
+T*
+(Custodian and Keystone hold the center while old security bodies and audit-cold spirits) Tj
+T*
+(test every gap around them.) Tj
+T*
+() Tj
+T*
+(GM goal) Tj
+T*
+() Tj
+T*
+(Clarify first-wave positioning without replacing the finale hub map.) Tj
+T*
+() Tj
+T*
+(GM notes) Tj
+T*
+() Tj
+T*
+(- The Custodian and Keystone hold the center; PCs form a protective ring while) Tj
+T*
+(  skeletons rise Close and wraiths pressure from Far.) Tj
+T*
+(- Skeletons rise from Close ground; Wraiths drift from Far edges toward the ritual) Tj
+T*
+(  center.) Tj
+T*
+(- Relentless but procedural; threats follow old infrastructure logic.) Tj
+T*
+() Tj
+T*
+(GM script) Tj
+T*
+() Tj
+T*
+(Say: "This is the tactical view for holding the line: center, defensive ring, emergence) Tj
+T*
+(points, and clustering danger.") Tj
+T*
+() Tj
+T*
+(State controls) Tj
+T*
+() Tj
+T*
+(- strixwolf_disposition Strixwolf Disposition select unresolved calm hostile killed) Tj
+T*
+(- strixwolf_outcome Strixwolf Outcome select unresolved calmed helped avoided attacked) Tj
+T*
+(  killed) Tj
+T*
+(- strixwolf_trust Strixwolf Trust number 3) Tj
+T*
+(- strixwolf_blood_debt Strixwolf Blood Debt checkbox) Tj
+T*
+(- bramble_outcome Bramble Outcome select unresolved killed captured spared negotiated) Tj
+T*
+(  escaped let_cargo) Tj
+T*
+(- bramble_truth_learned Bramble Truth Learned checkbox) Tj
+T*
+(- package_status Package Status select held lost) Tj
+T*
+(- hush_trust Hush Trust select low neutral high) Tj
+T*
+(- custodian_route Custodian Route select unknown safe dangerous) Tj
+T*
+(- ward_awareness Ward Awareness select none seed aware) Tj
+T*
+(- festival_boon Festival Boon select none charm favor market_find goodwill) Tj
+T*
+(- custodian_trust Custodian Trust select low neutral high) Tj
+T*
+(- ward_stability Ward Stability select fragile stable) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 748 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- ritual_prep Ritual Prep select unready ready) Tj
+T*
+(- keystone_understanding Keystone Understanding select surface deep) Tj
+T*
+(- hush_clues Hush Clues select none custodian_route ward_seed corporate_seam farm_seed) Tj
+T*
+(  market_rumor multiple) Tj
+T*
+(- ritual_countdown Ritual Countdown number 10 8) Tj
+T*
+(- ritual_outcome Ritual Outcome select unresolved clean costly pyrrhic) Tj
+T*
+(- protected_whom Protected Whom select unresolved custodian party hush shared) Tj
+T*
+(- custodian_fate Custodian Fate select unresolved well drained dying) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 590be2a2ca976d4c | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R] /Count 2 >>
+endobj
+6 0 obj
+<< /Type /Catalog /Pages 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000002337 00000 n 
+0000002463 00000 n 
+0000003262 00000 n 
+0000003388 00000 n 
+0000003451 00000 n 
+0000003500 00000 n 
+trailer
+<< /Size 8 /Root 6 0 R >>
+startxref
+3572
+%%EOF

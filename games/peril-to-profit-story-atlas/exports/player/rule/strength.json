@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "strength",
+  "kind": "rule",
+  "title": "Strength",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "trait",
+  "hook": "Lift, smash, grapple, hold, carry, or resist force.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Lift, smash, grapple, hold, carry, or resist force."
+    },
+    {
+      "label": "How It Works",
+      "body": "Strength: Lift, smash, grapple, hold, carry, or resist force."
+    },
+    {
+      "label": "Try It",
+      "body": "Is this Athletics?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use when force or physical power solves the problem.",
+    "Often Strength, unless speed and movement make Agility better.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:strength",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "c19ae15752f7ef34",
+  "generated_at": "2026-06-23T21:40:58"
+}

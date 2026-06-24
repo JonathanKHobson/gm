@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "the-board-of-directors",
+  "kind": "entity",
+  "title": "Goldspire Logistics",
+  "in_world_label": "Public Notice",
+  "brand_flag": "Keeping everything moving.",
+  "kicker": "A forgettable freight-coordination concern with plain grey seals and paperwork nobody remembers seeing twice.",
+  "hook": "Goldspire Logistics: a dull freight mark, a grey seal, and a name too boring to remember.",
+  "blocks": [
+    {
+      "label": "Public Face",
+      "body": "A forgettable freight-coordination concern with plain grey seals and paperwork nobody remembers seeing twice."
+    },
+    {
+      "label": "Slogan",
+      "body": "Keeping everything moving."
+    },
+    {
+      "label": "How To Deal",
+      "body": "Goldspire Logistics does not look powerful. That is the trick of it. A grey seal appears on crate corners, approval slips, and route papers, always in the same modest ink, always small enough to miss if you are looking for a villain with a banner."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask what they publicly promise.",
+    "Compare their slogan to what they actually do in the scene."
+  ],
+  "archetype": "faction.flyer",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:the-board-of-directors",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "362e05ca5ae80bc4",
+  "generated_at": "2026-06-23T21:40:58"
+}

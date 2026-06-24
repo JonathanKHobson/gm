@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "ward-stability-track",
+  "title": "Ward Stability Track",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "eabd1703b29c8c28",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Ward Stability Track: Protect the Custodian during the ritual to determine whether the renewed ward is strong or unstable."
+    },
+    {
+      "title": "Public role",
+      "body": "Choice and payoff tracking lane"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Protect the Custodian during the ritual to determine whether the renewed ward is strong or unstable."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use when the scene needs a concrete object for players to inspect, carry, debate, or remember."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash eabd1703b29c8c28 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

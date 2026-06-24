@@ -1,0 +1,65 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "slide",
+  "id": "MAP-LOC-the-refuge",
+  "title": "MAP-LOC-the-refuge - The Refuge Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "424b3a4784915c87",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe."
+    },
+    {
+      "title": "Public objective",
+      "body": "The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: MAP-LOC-the-refuge",
+        "Type: map",
+        "Maptype: environment",
+        "Sectionid: STORY",
+        "Sectiontitle: Map Board",
+        "Title: The Refuge Location Map",
+        "Shorttitle: The Refuge",
+        "Order: 851.0",
+        "Playersafe: True",
+        "Completioneligible: False",
+        "Image: assets/maps/MAP-LOC-the-refuge-gm.webp",
+        "Alt: The Refuge location map board.",
+        "Caption: Visual reference for The Refuge.",
+        "Mood: spatial reference and location texture",
+        "Gmgoal: Make success in Sablewood feel costly and communal.",
+        "Publicobjective: The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe.",
+        "Readaloud: The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe.",
+        "Playertakeaway: The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe.",
+        "Storytakeaway: The Refuge shows survival turned into status.",
+        "Mechanictakeaway: Use only as Sablewood context or future travel hub.",
+        "Entityids: the-refuge rabbit-gliders moth-possums turtle-mice badger-hawks",
+        "Entities: the-refuge The Refuge location Location assets/icons/location.png assets/location-visuals/the-refuge/profile_scene_v02.webp the REF-yooj A prosperous Sablewood settlement where hazard rate becomes money, reputation, and a quiet measure of who survives the route. Make success in Sablewood feel costly and communal. A prosperous Sablewood settlement where hazard rate becomes money, reputation, and a quiet measure of who survives the route.; introduce it with a sensory palette, who feels safe there, and what has been neglected. Pull player attention toward the choices, clues, and relationships tied to The Sable Sinecure, Hazard-Indexed Pricing, The Fire Walk. A prosperous Sablewood settlement where hazard rate becomes money, reputation, and a quiet measure of who survives the route. rabbit-gliders Rabbit-Gliders creature Creature / Animal assets/icons/creature.png assets/creature-images/rabbit-gliders/portrait_base.webp RAB-it GLY-derz Rabbit-gliders skim between low branches near the Refuge, flashing white bellies before landing in fishing nets that were not meant for them. Refuge canopy game Rabbit-gliders skim between low branches near the Refuge, flashing white bellies before...",
+        "Locationids: the-refuge",
+        "Fearspends: A trophy cracks when nobody touches it. A route board flips from open to delayed.",
+        "Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth context stay off the player display.",
+        "Mapdata: MAP-LOC-the-refuge environment The Refuge Location Map the-refuge rabbit-gliders moth-possums turtle-mice badger-hawks assets/location-visuals/the-refuge/profile_scene_v02.webp Visual reference for The Refuge. The Refuge location map board. The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe. The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe. Make success in Sablewood feel costly and communal. Sturdy roofs, route trophies, repair yards, and warm windows sit behind practical defenses. Travelers watch the sky before entering the main lane. Some wealth is hazard pay made permanent. Leaf-drip, insects, distant wingbeats, and animal calls that stop or resume according to pressure, not comfort. Smoke, wet leather, hot stew, sawdust, and oil from maintained gear. Door handles are heavy and warm; defensive rails are smooth from frequent checks. The forest is populated even when no NPC is present; silence, birds, insects, and tracks are actionable signals. Sturdy roofs, route trophies, repair yards, and warm windows sit behind practical defenses. Travelers watch the sky before...",
+        "Livetools: scene MAP-LOC-the-refuge",
+        "Takeawayhelp: Player takeaway: MAP-LOC-the-refuge The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe. Give the player one concrete way back into play: a question, a description, a choice, or a pass-and-return moment. \"Your takeaway right now is this: The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe.\" \"If you are not sure what to do next, you can ask a question, describe what your character notices, or tell me what your character tries.\" \"If you are not sure what to do next, you can ask a question, describe what your character notices, or tell me what your character tries.\" Give the player one concrete way back into play: a question, a description, a choice, or a pass-and-return moment. Story takeaway: MAP-LOC-the-refuge The Refuge shows survival turned into status. Anchor the answer in the visible fiction on this slide: who is present, what can be observed, what has already been said, and what remains uncertain. \"Here is what your characters know right now: The Refuge shows survival turned into status.\" \"If you want more detail, ask it in the scene. I will answer the part your...",
+        "Playerbeats: assets/maps/MAP-LOC-the-refuge-player.webp The Refuge location map board. MAP-LOC-the-refuge environment The Refuge assets/maps/MAP-LOC-the-refuge-player.webp assets/maps/MAP-LOC-the-refuge-player.webp Visual reference for The Refuge. The Refuge location map board. The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe. The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe. MAP-LOC-the-refuge-map-only Map only The Refuge map-only assets/maps/MAP-LOC-the-refuge-player.webp The Refuge location map board. MAP-LOC-the-refuge environment The Refuge assets/maps/MAP-LOC-the-refuge-player.webp assets/maps/MAP-LOC-the-refuge-player.webp Visual reference for The Refuge. The Refuge location map board. The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe. The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe. MAP-LOC-the-refuge-map-text Map + text The Refuge The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe. The Refuge is...",
+        "Beatautoplayeligible: True",
+        "Beatautoplaydefault: False",
+        "Beatautoplayintervalms: 10000",
+        "Playersafeprojection: MAP-LOC-the-refuge map The Refuge assets/maps/MAP-LOC-the-refuge-player.webp The Refuge location map board. Visual reference for The Refuge. spatial reference and location texture The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe. The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe. MAP-LOC-the-refuge environment The Refuge assets/maps/MAP-LOC-the-refuge-player.webp assets/maps/MAP-LOC-the-refuge-player.webp Visual reference for The Refuge. The Refuge location map board. The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe. The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe. assets/maps/MAP-LOC-the-refuge-player.webp The Refuge location map board. MAP-LOC-the-refuge environment The Refuge assets/maps/MAP-LOC-the-refuge-player.webp assets/maps/MAP-LOC-the-refuge-player.webp Visual reference for The Refuge. The Refuge location map board. The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe. The Refuge is...",
+        "Slidenumber: 91",
+        "Totalslides: 110"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 424b3a4784915c87 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

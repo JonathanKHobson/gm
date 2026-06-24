@@ -1,0 +1,60 @@
+# SZ-00C - Player Introductions
+
+RAW export - slide:SZ-00C
+
+## Player text
+Before characters, let's meet the people at the table. Short is perfect, and passing is always okay.
+
+## Public objective
+Before characters, let's meet the people at the table. Short is perfect, and passing is always okay.
+
+## Player bullets
+- Your name and pronouns if you want to share them.
+- Your TTRPG or Daggerheart experience level.
+- One fun fact, comfort note, or what you are hoping for tonight.
+- You can pass and come back.
+
+## Raw source
+- Id: SZ-00C
+- Type: session-zero
+- Sectionid: SESSION-ZERO
+- Sectiontitle: Session Zero
+- Title: Player Introductions
+- Shorttitle: Player Introductions
+- Playertitle: Quick player introductions
+- Order: 3
+- Playersafe: True
+- Completioneligible: True
+- Image: assets/icons/live-social.png
+- Alt: Table introductions icon.
+- Caption: Let players introduce themselves as people before they introduce their characters.
+- Mood: calibration, invitation, consent
+- Gmgoal: Let players introduce themselves as people before they introduce their characters.
+- Publicobjective: Before characters, let's meet the people at the table. Short is perfect, and passing is always okay.
+- Readaloud: Before characters, let's meet the people at the table. Short is perfect, and passing is always okay.
+- Playerbullets: Your name and pronouns if you want to share them. Your TTRPG or Daggerheart experience level. One fun fact, comfort note, or what you are hoping for tonight. You can pass and come back.
+- Playertable: Name I'm Kyle. Experience New to TTRPGs, played D&D, or first time with Daggerheart. Tonight I like mystery, action, character moments, or learning by doing.
+- Displaymode: text-first
+- Gmnotes: Script: Before we meet the characters, let's meet each other. Please share your name, your TTRPG or Daggerheart experience level, and one thing you are hoping for tonight. You can pass and come back. I will use this to calibrate how much I explain as we play. This is people first, characters later. Use the answers to decide how slowly to teach dice, sheet reading, and spotlight combat. Checklist: Each player had a chance to introduce themselves; Experience levels noted mentally; Beginner questions welcomed; Passing was explicitly allowed
+- Gmscript: Before we meet the characters, let's meet each other. Please share your name, your TTRPG or Daggerheart experience level, and one thing you are hoping for tonight. You can pass and come back. I will use this to calibrate how much I explain as we play.
+- Gmreadaloud: Before we meet the characters, let's meet the people at the table. Please share your name, your pronouns if you want to, your tabletop or Daggerheart experience level, and one thing you hope we get tonight. You can keep it very short, and you can pass and come back. I use this to calibrate how much I explain as we play.
+- Gmchecklist: Each player had a chance to introduce themselves Experience levels noted mentally Beginner questions welcomed Passing was explicitly allowed
+- Gmexamples: Player intro example: 'I'm Kyle, he/him. I've played a little D&D, Daggerheart is new to me, and tonight I am hoping for mystery and character moments.' Short version: name, experience level, one thing you hope for tonight, then pass to the next person.
+- Playertakeaway: Players meet each other as people before they perform as characters.
+- Storytakeaway: The table becomes a temporary ensemble before the fiction begins.
+- Mechanictakeaway: Calibrates beginner support and spotlight pacing based on experience levels.
+- Takeawayhelp: Players meet each other before characters Players introduce themselves as people before performing a role. The useful output is not biography; it is calibration. Kyle learns who needs more rules support, who wants roleplay, and who may need gentler spotlight. "Before characters, let us meet the people. Name, pronouns if you want, your tabletop experience level, and one thing you hope we get tonight." If someone hesitates: "You can keep it tiny: name, whether you are new or experienced, and one word for the vibe you like." The useful output is not biography; it is calibration. Kyle learns who needs more rules support, who wants roleplay, and who may need gentler spotlight. table-spotlight The table becomes an ensemble The table becomes a temporary ensemble before the fiction begins. This is the social foundation for character connections later; shy players get seen before they are asked to improvise. "This is a group story. Before we ask the characters to trust each other, I want the players to know who is sharing the table." If someone asks why this matters: "It helps me pace explanations, invite people in, and make sure the game serves the people actually here." This is the...
+- Mechanicids: table-spotlight
+- Handoutids: session-zero-worksheet
+- Sourcefiles: Session Zero Checklist.txt
+- Livetools: none
+- Playerbeats: SZ-00C-prompt Intro prompt Quick player introductions assets/icons/live-social.png Table introductions icon. Before characters, let's meet the people at the table. Short is perfect, and passing is always okay. Before characters, let's meet the people at the table. Short is perfect, and passing is always okay. Name and pronouns if you want to share them. TTRPG or Daggerheart experience level. One thing you are hoping for tonight. You can pass and come back. text-first SZ-00C-example Example Example intro assets/icons/live-social.png Table introductions icon. I'm Kyle, he/him. I've played a little D&D, Daggerheart is new to me, and tonight I'm hoping for mystery and character moments. I'm Kyle, he/him. I've played a little D&D, Daggerheart is new to me, and tonight I'm hoping for mystery and character moments. Keep it to one or two sentences. You never have to share more than you want to. Passing is okay. text-first
+- Beatautoplayeligible: True
+- Beatautoplaydefault: False
+- Beatautoplayintervalms: 12000
+- Playersafeprojection: SZ-00C session-zero Player Introductions assets/icons/live-social.png Table introductions icon. Let players introduce themselves as people before they introduce their characters. calibration, invitation, consent Before characters, let's meet the people at the table. Short is perfect, and passing is always okay. Before characters, let's meet the people at the table. Short is perfect, and passing is always okay. Your name and pronouns if you want to share them. Your TTRPG or Daggerheart experience level. One fun fact, comfort note, or what you are hoping for tonight. You can pass and come back. Name I'm Kyle. Experience New to TTRPGs, played D&D, or first time with Daggerheart. Tonight I like mystery, action, character moments, or learning by doing. text-first SZ-00C-prompt Intro prompt Quick player introductions assets/icons/live-social.png Table introductions icon. Before characters, let's meet the people at the table. Short is perfect, and passing is always okay. Before characters, let's meet the people at the table. Short is perfect, and passing is always okay. Name and pronouns if you want to share them. TTRPG or Daggerheart experience level. One thing you are hoping for...
+- Slidenumber: 3
+- Totalslides: 110
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash b4f393f49e365221 | Source hash dac3370046ed077140fab2d6

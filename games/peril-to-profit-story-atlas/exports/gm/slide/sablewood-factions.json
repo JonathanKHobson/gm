@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "SABLEWOOD-FACTIONS",
+  "title": "SABLEWOOD-FACTIONS - Factions / Communities",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "af770590d93ce789",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "Every group here has a survival strategy."
+    },
+    {
+      "title": "Public objective",
+      "body": "Every group here has a survival strategy."
+    },
+    {
+      "title": "GM goal",
+      "body": "Make every faction useful, human, and materially tied to the forest economy."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "Bramble Union is not only an ambush; it is hidden villages, stonework, and displacement.",
+        "Sable Sinecure is not only merchants; it is hazard-rate logistics and Kazrak-franchised control.",
+        "Hush hospitality is generous, bounded, and politically important."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash af770590d93ce789 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

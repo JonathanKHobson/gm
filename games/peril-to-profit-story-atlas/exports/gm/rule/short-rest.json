@@ -1,0 +1,49 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "short-rest",
+  "title": "Short Rest",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "331363deab5a257d",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "About an hour to recover and prepare."
+    },
+    {
+      "title": "How it works",
+      "body": "Use at the Open Vale rest beat or similar downtime."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use at the Open Vale rest beat or similar downtime.",
+        "Tend Wounds, Clear Stress, Repair Armor, or Prepare.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "What can I do on a short rest?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "stress",
+        "armor-slots",
+        "hope"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 331363deab5a257d | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

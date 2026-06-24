@@ -1,0 +1,29 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "MAP-LOC-underroot",
+  "title": "MAP-LOC-underroot - Underroot Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "88d581551e159155",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low lanterns, and people who survive below the route economy."
+    },
+    {
+      "title": "Public objective",
+      "body": "Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low lanterns, and people who survive below the route economy."
+    },
+    {
+      "title": "GM goal",
+      "body": "Keep hidden communities human, practical, and self-protecting."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 88d581551e159155 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

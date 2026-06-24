@@ -1,0 +1,106 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "scene",
+  "id": "S01-01",
+  "title": "S01-01 - Entering Sablewood",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "f803afbfdfcf1297",
+  "sections": [
+    {
+      "title": "Player read-aloud",
+      "body": "The last warded marker slips behind you. Ahead, the road narrows and the old forest closes around the carriage."
+    },
+    {
+      "title": "Scene summary",
+      "body": "The carriage crosses from city-controlled road into a vast ancient forest and hands off to Act One."
+    },
+    {
+      "title": "Visible choices",
+      "items": [
+        "Describe the sign",
+        "Drive cautiously",
+        "Ignore the branding"
+      ]
+    },
+    {
+      "title": "Player questions",
+      "items": [
+        "Who is driving?",
+        "What is one strange detail about these enormous trees?",
+        "Who notices the road change first?"
+      ]
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: S01-01",
+        "Act: Prologue",
+        "Title: Entering Sablewood",
+        "Beats: Threshold / transition Corporate satire beat Scene setup",
+        "Image: assets/scenes/S01-01-entering-sablewood.webp",
+        "Short: The carriage crosses from city-controlled road into a vast ancient forest and hands off to Act One.",
+        "Long: A threshold scene. The old forest should land as immense, alive, and older than the company signs nailed into it. Do not linger; the next scene is the road complication.",
+        "Read: The road narrows between colossal trees. Goldspire waymarkers glow at measured intervals, promising safe passage, customer delight, and limited liability.",
+        "Gm: Ask one player what comforting lie a corporate sign tells travelers. Use their answer later as irony.",
+        "Entities: Sablewood™ Logistics Preserve Sablewood Route Gate Goldspire Waymarkers Escort Carriage Goldspire Territories Old Sable Emeris Capital Gate Emeris Crown Holdings Incident Response Placard Varian Soto Barnacle Khari Nix Vendor Cart Corporate Route Bell",
+        "Choices: Describe the sign Drive cautiously Ignore the branding",
+        "Prompt: Horse-drawn carriage carrying five adventurers enters an immense ancient forest road lined with polished glowing Goldspire waymarkers; beautiful but uneasy, no strixwolf yet, no Bramble Union, no undead.",
+        "Source Entities: Sablewood™ Logistics Preserve Goldspire Waymarkers Goldspire Territories",
+        "Beat Codes: threshold-transition corporate-satire-beat scene-setup",
+        "Slug: S01-01-entering-sablewood",
+        "Act Title: Act 0 - The Contract",
+        "Arc Role: Contract orientation, played briefing, and threshold transition",
+        "Caption: Threshold transition into the ancient forest.",
+        "Image Alt: Entering Sablewood scene art for Act 0 - The Contract.",
+        "Image Prompt Used: Horse-drawn carriage carrying five adventurers enters an immense ancient forest road lined with polished glowing Goldspire waymarkers; beautiful but uneasy, no strixwolf yet, no Bramble Union, no undead. Do not include undead, skeletons, wraiths, Open Vale, the Custodian, or the Hanging Office. 4:3 cinematic fantasy concept art, no visible text, no captions, no logos, no UI, no watermark.",
+        "Long Storyboard: The Old Sable is immense, living, and older than any corporate label. Goldspire has put its waymarkers into the ground, but the forest refuses to feel owned. Run this scene as threshold into branded wilderness and first moral test: The branded wilderness looks managed until the forest begins quietly disagreeing. Keep the camera close to practical choices, visible consequences, and the difference between ordinary people and the infrastructure pressing on them.",
+        "Read Aloud: The last warded marker slips behind you. Ahead, the road narrows and the old forest closes around the carriage.",
+        "Gm Notes: Ask one player what comforting lie a corporate sign tells travelers. Use their answer later as irony. Keep player-facing information actionable. Reveal systemic truth through objects, reactions, and consequences before naming it. Manufactured-threat lens: seed the contradiction, do not explain it. The surface goal stays simple and heroic.",
+        "Sensory Details: painted waymarkers nailed too tightly into living bark sap smell under corporate varnish distant birdsong stopping in waves",
+        "Body Language: Barnacle moves where puddles are not Khari slows when the old trees crowd the road",
+        "Sample Dialogue: Varian Soto The map calls this controlled habitat. The habitat was not consulted.",
+        "Checks: Instinct Notice the preserve is quieter than it should be. Easy Advantage on reading the cart scene. 10 Cleanly resolve: Notice the preserve is quieter than it should be. Add a concrete boon, extra clue, or improved position. Success, plus the player names one helpful detail or asks one follow-up question. Success, but the GM exposes a cost, ticks a countdown, or reveals a new pressure tied to Entering Sablewood™ Logistics Preserve. The full goal slips, but the party still learns a useful truth or avoids the worst consequence. The GM makes a hard move that follows from the fiction and leaves the next choice visible. Spend Fear to reveal omitted risk, split attention, or put a human cost in front of the contract. On mixed or sliding results, reveal information in layers: visible fact, actionable clue, then systemic truth.",
+        "Choices Consequences: Trust the signs The party moves quickly into the next problem. Pacing stays tight. Study the old path They notice the road is older than the company markers. Local-history curiosity is seeded.",
+        "Clues: Older road under new markers The road is older than the signage nailed beside it. The official route overwrote local knowledge. If a player looks at the road or markers, give the clue plainly: the road is older than the company's signs.",
+        "Loot: Route charcoal rubbing Loose waymarker nail Incident Response Placard™: A flat brass disc on a post holds a watchful glyph and a single cheerful bell. When trouble happens nearby, the glyph lights, the bell rings once, brightly, and then nothing else happens at all.",
+        "Payoff Flags: No Active Track",
+        "Filters: act-one choice corporate-satire-beat gm-only no-active-track scene-setup the-logistics-incident threshold--transition prologue progressive-disclosure run-beats manufactured-threat guaranteed-earned clue",
+        "Index: 1",
+        "Player Questions: Who is driving? What is one strange detail about these enormous trees? Who notices the road change first?",
+        "Relationship Prompts: Who gets quieter when the city disappears behind you?",
+        "Ownership Prompt: One of you is driving. Who has the reins?",
+        "Reveal Hooks: Loreborne or Knowledge-focused PCs can read the institutional layer. Wildborne/community-focused PCs can read local custom and ecological stress. Martial/security-focused PCs can read threat posture and custody logic. Magic-focused PCs can feel ward tone, soul-signal, or spell instability. Loreborne: spots older legal, heraldic, or ward-craft language under the branding. Underborne: notices service doors, hidden routes, and who built the thing nobody credits. Highborne: reads etiquette, class panic, and reputational risk. Ridgeborne: notices stonework, weight, pressure, and structural weakness. Wildborne: reads the land, animals, and local ecological stress. Elf/Ribbet/Human/Giant/Katari: invite one sensory or social detail from the player's heritage. Sorcerer/Rogue/Warrior/Guardian/Ranger: give each class one table-facing way to shine without changing the plot.",
+        "Fear Spends: Make the company's safety sign feel suddenly very small. Let a distant animal call go quiet all at once. Make the safe road feel less safe: noise, scent, cracked wheel, or cargo hum. Separate evidence from assumption so a monster read is tempting but incomplete.",
+        "Public Objective: Cross from the contract briefing into the forest road. The next thing ahead blocks the path.",
+        "Gm Script: The last warded marker slips behind you. The road narrows, the city noise thins, and the forest rises around the carriage like a green wall. Who has the reins, and what is the first strange detail your character notices about these trees?",
+        "Player Takeaway: The setting has changed; the forest is now part of the story.",
+        "Story Takeaway: The party leaves managed civilization for a living place the company only claims to control.",
+        "Mechanic Takeaway: Ask one worldbuilding prompt. The first action roll arrives in the next scene.",
+        "Gm Checklist: Ask who is driving the carriage. Ask one player what is unique about these trees. Move to the blocked road before the threshold becomes a full travel scene.",
+        "Gm Private: The signs and warded marker are quiet seeds: safety here is built, branded, and sold. Act One should begin with the Vendor Cart, not another orientation slide.",
+        "Player Beats: S01-01-threshold Threshold The Old Forest assets/scenes/S01-01-entering-sablewood.webp A carriage enters a colossal green forest road. The road narrows under trees the size of houses. image-title-caption The last warded marker slides past: a carved stone pillar with brass company stamps bolted to its face. Open country closes into forest. The trees are wrong in scale, trunks wider than the carriage, rising until the canopy swallows the sky. Behind you, the city. Ahead, green light and a long quiet road. The trees are bigger than the road was built for. If someone asks what this place is called, say, 'Locals call it the old forest. The company signs call it Sablewood.' They cross from the safe, branded world into the old forest. Threshold framing is the mechanic: mark the boundary, ask who has the reins, and let one player author a concrete forest detail. We have crossed a threshold. The old forest arrives visually Players see scale, green light, and the last managed marker behind them. This cue is a sensory handoff from civilization to wild scale. \"The last warded marker slips behind you. Ahead, trunks wider than the carriage rise until the canopy swallows the sky.\" If players...",
+        "Takeaway Help: The table crosses a threshold Players know the setting has changed and the forest matters. This transition should be brief, sensory, and playable. It is not a second lore briefing. \"The city falls behind. The road narrows. The old forest becomes the room around the carriage.\" If players ask what to do here: \"Tell me who has the reins, where your character is in the carriage, and one thing they notice as the trees close in.\" This transition should be brief, sensory, and playable. It is not a second lore briefing. roleplay table-spotlight The company does not own the old forest The forest feels older and larger than the signs claiming it. Use size and sensory language first: trunks wider than a carriage, green filtered light, animal calls dropping quiet, brass signs bolted to older stone. \"The signs say the route is managed. The trees make that claim feel very small.\" If players ask what the forest is called: \"Locals call it the old forest. The company signs call it Sablewood.\" Use size and sensory language first: trunks wider than a carriage, green filtered light, animal calls dropping quiet, brass signs bolted to older stone. roleplay Threshold framing hands players authorship...",
+        "Story Scope: Perceived antagonist: the forest. True antagonist: the corporate lie about the forest. The players never confront it directly. They are meant to feel it by the end. Every act offers at least one guaranteed and one earned hint that the danger is manufactured and the forest is not the enemy. Grail-branded bounty board: \"STRIXWOLF: APEX FOREST HAZARD. Sightings up 300%. Bounty payable in Marks.\" ADD GUARANTEED Couriers or a clerk trade fearful route gossip: the Preserve \"takes one a week now.\" ADD GUARANTEED A player asking what they know receives the corporate line: strixwolves are vicious pack predators. ADD EARNED Knowledge Easy 10 Knowledge Easy 10: recall the corporate strixwolf line if asked. ACT0 Onboarding + Prologue 30 0:00 to 0:30 0:30 pregens, safety, connections, Contract overview, Job briefing, forest threshold Keep the Contract to plain setup, let the Job carry questions, then move to the blocked road.",
+        "Mechanics: The party is in Prologue pressure: The carriage crosses from city-controlled road into a vast ancient forest and hands off to Act One. Use Daggerheart Duality Dice as baseline. Use the listed Difficulty and outcome options when a roll matters. Keep trivial actions no-roll; roll only when uncertainty, cost, or danger is interesting. s01-01-handle-the-carriage-on-the-sunken-road S01-01 Handle the carriage on the sunken road Handle the carriage on the sunken road Agility Strength Agility Strength 12 Agility keeps wheels and bodies moving; Strength holds the carriage steady. A wheel cracks or the cargo jolts before the incident. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that...",
+        "Roll Cards: s01-01-handle-the-carriage-on-the-sunken-road S01-01 Handle the carriage on the sunken road Handle the carriage on the sunken road Agility Strength Agility Strength 12 Agility keeps wheels and bodies moving; Strength holds the carriage steady. A wheel cracks or the cargo jolts before the incident. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. A wheel cracks or the cargo jolts before the incident. Use a hard complication, lost time, worse position, GM Fear, or mark Stress. Apply an official condition only if the fiction and rules justify it. The attempt falls short, but a partial thread appears. Offer one clue, weak position, or safer...",
+        "Conditions Hazards: No official condition unless a feature, hazard, or fictional position calls for Hidden, Restrained, or Vulnerable.",
+        "Search Loot Clues: No fixed loot. Offer clue, texture, or hospitality only when the fiction supports it.",
+        "No Roll Guidance: Do not call for a roll when the players have time, a clear method, and no meaningful pressure.",
+        "Tv Mechanics Caption: Public cue: Entering Sablewood asks what the party does, what it costs, and who is protected.",
+        "Trait Variety Note: Primary traits in this scene: Agility, Instinct, Knowledge, Strength. If rolls drift toward Instinct/Presence, ask whether Agility, Strength, Finesse, or Knowledge better describes the action.",
+        "Location Ids: goldspire-territories sablewoodtm-logistics-preserve old-sable emeris-capital-gate emeris-capital",
+        "Item Ids: incident-response-placard",
+        "Clueids: nature-is-deadly-placardtm sable-sinecure-secret-caches",
+        "Clue Ids: nature-is-deadly-placardtm sable-sinecure-secret-caches",
+        "Image Asset Status: image_gen"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash f803afbfdfcf1297 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

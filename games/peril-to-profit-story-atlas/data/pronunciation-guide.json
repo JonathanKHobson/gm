@@ -37,99 +37,99 @@
   "strixwolf-mother": {
     "name": "Strixwolf Mother",
     "type": "creature",
-    "pronunciation": "Strixwolf Mother",
-    "short_pronunciation": "Strixwolf Mother",
+    "pronunciation": "STRIKS-woolf MUTH-er",
+    "short_pronunciation": "STRIKS-woolf MUTH-er",
     "note": ""
   },
   "strixwolf-pup-one": {
     "name": "Strixwolf Pup One",
     "type": "creature",
-    "pronunciation": "Strixwolf PUP ONE",
-    "short_pronunciation": "Strixwolf PUP ONE",
+    "pronunciation": "STRIKS-woolf pup wun",
+    "short_pronunciation": "STRIKS-woolf pup wun",
     "note": ""
   },
   "strixwolf-pup-two": {
     "name": "Strixwolf Pup Two",
     "type": "creature",
-    "pronunciation": "Strixwolf PUP TWO",
-    "short_pronunciation": "Strixwolf PUP TWO",
+    "pronunciation": "STRIKS-woolf pup too",
+    "short_pronunciation": "STRIKS-woolf pup too",
     "note": ""
   },
   "tamsin-vell": {
     "name": "Tamsin Vell",
     "type": "npc",
-    "pronunciation": "Tamsin VELL",
-    "short_pronunciation": "Tamsin VELL",
+    "pronunciation": "TAM-zin VEL",
+    "short_pronunciation": "TAM-zin VEL",
     "note": ""
   },
   "bramble-union": {
     "name": "Bramble Union",
     "type": "faction",
-    "pronunciation": "Bramble Union",
-    "short_pronunciation": "Bramble Union",
+    "pronunciation": "BRAM-bul YOO-nyun",
+    "short_pronunciation": "BRAM-bul YOO-nyun",
     "note": ""
   },
   "bramble-union-ambusher": {
     "name": "Bramble Union Ambusher",
     "type": "enemy",
-    "pronunciation": "Bramble Union Ambusher",
-    "short_pronunciation": "Bramble Union Ambusher",
+    "pronunciation": "BRAM-bul YOO-nyun AM-boosh-er",
+    "short_pronunciation": "BRAM-bul YOO-nyun AM-boosh-er",
     "note": ""
   },
   "bramble-union-claimrunner": {
     "name": "Bramble Union Claimrunner",
     "type": "enemy",
-    "pronunciation": "Bramble Union Claimrunner",
-    "short_pronunciation": "Bramble Union Claimrunner",
+    "pronunciation": "BRAM-bul YOO-nyun KLAYM-run-er",
+    "short_pronunciation": "BRAM-bul YOO-nyun KLAYM-run-er",
     "note": ""
   },
   "kett-alderhook": {
     "name": "Kett Alderhook",
     "type": "npc",
-    "pronunciation": "KETT Alderhook",
-    "short_pronunciation": "KETT Alderhook",
+    "pronunciation": "KET AWL-der-hook",
+    "short_pronunciation": "KET AWL-der-hook",
     "note": ""
   },
   "vela-bramblewick": {
     "name": "Vela Bramblewick",
     "type": "npc",
-    "pronunciation": "VELA Bramblewick",
-    "short_pronunciation": "VELA Bramblewick",
+    "pronunciation": "VAY-luh BRAM-bul-wik",
+    "short_pronunciation": "VAY-luh BRAM-bul-wik",
     "note": ""
   },
   "rye-underbough": {
     "name": "Rye Underbough",
     "type": "npc",
-    "pronunciation": "RYE Underbough",
-    "short_pronunciation": "RYE Underbough",
+    "pronunciation": "RYE UN-der-bow",
+    "short_pronunciation": "RYE UN-der-bow",
     "note": ""
   },
   "brannic-mossvein": {
     "name": "Brannic Mossvein",
     "type": "npc",
-    "pronunciation": "Brannic Mossvein",
-    "short_pronunciation": "Brannic Mossvein",
+    "pronunciation": "BRAN-ik MOSS-vayn",
+    "short_pronunciation": "BRAN-ik MOSS-vayn",
     "note": ""
   },
   "hush": {
     "name": "Hush",
     "type": "location",
-    "pronunciation": "HUSH",
-    "short_pronunciation": "HUSH",
+    "pronunciation": "hush, like quiet",
+    "short_pronunciation": "hush, like quiet",
     "note": ""
   },
   "hushtm-community-enclave": {
     "name": "Hush™ Community Enclave",
     "type": "location",
-    "pronunciation": "hush community EN-klayv",
-    "short_pronunciation": "hush community EN-klayv",
+    "pronunciation": "hush kuh-MYOO-nih-tee EN-klayv",
+    "short_pronunciation": "hush kuh-MYOO-nih-tee EN-klayv",
     "note": "Locals just say Hush."
   },
   "fidget": {
     "name": "Fidget",
     "type": "npc",
-    "pronunciation": "Fidget",
-    "short_pronunciation": "Fidget",
+    "pronunciation": "FID-jit",
+    "short_pronunciation": "FID-jit",
     "note": ""
   },
   "lausa-standworth": {
@@ -155,30 +155,30 @@
   },
   "clover-co-op": {
     "name": "Clover Co-op",
-    "type": "location",
-    "pronunciation": "Clover Co-op",
-    "short_pronunciation": "Clover Co-op",
+    "type": "faction",
+    "pronunciation": "KLOH-ver KOH-op",
+    "short_pronunciation": "KLOH-ver KOH-op",
     "note": ""
   },
   "firstmoss-launch-festival": {
     "name": "Firstmoss Launch Festival",
     "type": "location",
-    "pronunciation": "Firstmoss Launch Festival",
-    "short_pronunciation": "Firstmoss Launch Festival",
+    "pronunciation": "FIRST-moss lawnch FES-tih-vul",
+    "short_pronunciation": "FIRST-moss lawnch FES-tih-vul",
     "note": ""
   },
   "hush-farms": {
     "name": "Hush Farms",
     "type": "location",
-    "pronunciation": "HUSH Farms",
-    "short_pronunciation": "HUSH Farms",
+    "pronunciation": "hush farmz",
+    "short_pronunciation": "hush farmz",
     "note": ""
   },
   "the-hanging-office": {
     "name": "The Hanging Office",
     "type": "location",
-    "pronunciation": "THE Hanging Office",
-    "short_pronunciation": "THE Hanging Office",
+    "pronunciation": "the HANG-ing AW-fiss",
+    "short_pronunciation": "the HANG-ing AW-fiss",
     "note": ""
   },
   "whitefire-custodian": {
@@ -189,24 +189,24 @@
     "note": ""
   },
   "keystone-asset": {
-    "name": "Keystone Asset",
+    "name": "Keystone Asset™",
     "type": "item",
-    "pronunciation": "Keystone Asset",
-    "short_pronunciation": "Keystone Asset",
+    "pronunciation": "KEE-stohn ASS-et",
+    "short_pronunciation": "KEE-stohn ASS-et",
     "note": ""
   },
   "open-valetm-ritual-site": {
     "name": "Open Vale™ Ritual Site",
     "type": "location",
-    "pronunciation": "OH-pen VAYL ritual site",
-    "short_pronunciation": "OH-pen VAYL ritual site",
+    "pronunciation": "OH-pen vayl RICH-oo-ul site",
+    "short_pronunciation": "OH-pen vayl RICH-oo-ul site",
     "note": ""
   },
   "legacy-security-skeleton": {
     "name": "Legacy Security Skeleton",
     "type": "enemy",
-    "pronunciation": "Legacy Security Skeleton",
-    "short_pronunciation": "Legacy Security Skeleton",
+    "pronunciation": "LEG-uh-see seh-KYUR-ih-tee SKEL-eh-tun",
+    "short_pronunciation": "LEG-uh-see seh-KYUR-ih-tee SKEL-eh-tun",
     "note": ""
   },
   "soul-audit-wraith": {
@@ -219,37 +219,37 @@
   "market-correction": {
     "name": "Market Correction",
     "type": "clue",
-    "pronunciation": "Market Correction",
-    "short_pronunciation": "Market Correction",
+    "pronunciation": "MAR-kit kuh-REK-shun",
+    "short_pronunciation": "MAR-kit Correction",
     "note": ""
   },
   "relay-spire": {
     "name": "Relay Spire",
     "type": "location",
-    "pronunciation": "Relay Spire",
-    "short_pronunciation": "Relay Spire",
+    "pronunciation": "REE-lay spy-er",
+    "short_pronunciation": "REE-lay spy-er",
     "note": ""
   },
   "spirekeeper": {
     "name": "Spirekeeper",
     "type": "npc",
-    "pronunciation": "Spirekeeper",
-    "short_pronunciation": "Spirekeeper",
+    "pronunciation": "SPIRE-kee-per",
+    "short_pronunciation": "SPIRE-kee-per",
     "note": ""
   },
   "emeris-crown-holdings": {
     "name": "Emeris Crown Holdings",
     "type": "corporation",
-    "pronunciation": "Emeris Crown Holdings",
-    "short_pronunciation": "Emeris Crown Holdings",
+    "pronunciation": "EM-er-iss krown HOHL-dingz",
+    "short_pronunciation": "EM-er-iss krown HOHL-dingz",
     "note": ""
   },
   "goldspire-territories": {
     "name": "Goldspire Territories",
-    "type": "faction",
-    "pronunciation": "Goldspire Territories",
-    "short_pronunciation": "Goldspire Territories",
-    "note": ""
+    "type": "location",
+    "pronunciation": "GOLD-spire TAIR-ih-tor-eez",
+    "short_pronunciation": "GOLD-spire TAIR-ih-tor-eez",
+    "note": "Region/location, not a faction."
   },
   "kazrak-industries": {
     "name": "Kazrak Industries",
@@ -261,8 +261,8 @@
   "hexmart": {
     "name": "Hexmart",
     "type": "corporation",
-    "pronunciation": "Hexmart",
-    "short_pronunciation": "Hexmart",
+    "pronunciation": "HEKS-mart",
+    "short_pronunciation": "HEKS-mart",
     "note": ""
   },
   "mithril-and-mortar": {
@@ -289,64 +289,64 @@
   "sablewoodtm-logistics-preserve": {
     "name": "Sablewood™ Logistics Preserve",
     "type": "location",
-    "pronunciation": "SAY-buhl-wood logistics preh-ZERV",
-    "short_pronunciation": "SAY-buhl-wood logistics preh-ZERV",
+    "pronunciation": "SAY-bul-wood loh-JIS-tiks preh-ZURV",
+    "short_pronunciation": "SAY-bul-wood loh-JIS-tiks preh-ZURV",
     "note": "Locals usually say Old Sable."
   },
   "old-sable": {
     "name": "Old Sable",
     "type": "location",
-    "pronunciation": "old SAY-buhl",
-    "short_pronunciation": "old SAY-buhl",
+    "pronunciation": "ohld SAY-bul",
+    "short_pronunciation": "ohld SAY-bul",
     "note": "Warm local term."
   },
   "goldspire-waymarkers": {
     "name": "Goldspire Waymarkers",
     "type": "item",
-    "pronunciation": "Goldspire Waymarkers",
-    "short_pronunciation": "Goldspire Waymarkers",
+    "pronunciation": "GOLD-spire WAY-mar-kerz",
+    "short_pronunciation": "GOLD-spire WAY-mar-kerz",
     "note": ""
   },
   "vendor-cart": {
     "name": "Vendor Cart",
     "type": "item",
-    "pronunciation": "Vendor CART",
-    "short_pronunciation": "Vendor CART",
+    "pronunciation": "Vendor Cart",
+    "short_pronunciation": "Vendor Cart",
     "note": ""
   },
   "incident-response-placard": {
-    "name": "Incident Response Placard",
+    "name": "Incident Response Placard™",
     "type": "item",
-    "pronunciation": "Incident Response Placard",
-    "short_pronunciation": "Incident Response Placard",
+    "pronunciation": "IN-sih-dent rih-SPONS PLAK-erd",
+    "short_pronunciation": "IN-sih-dent rih-SPONS PLAK-erd",
     "note": ""
   },
   "bramble-strand": {
     "name": "Bramble Strand",
     "type": "clue",
-    "pronunciation": "Bramble Strand",
-    "short_pronunciation": "Bramble Strand",
+    "pronunciation": "BRAM-bul STRAND",
+    "short_pronunciation": "BRAM-bul Strand",
     "note": ""
   },
   "torn-shipping-seals": {
     "name": "Torn Shipping Seals",
     "type": "clue",
-    "pronunciation": "TORN Shipping Seals",
-    "short_pronunciation": "TORN Shipping Seals",
+    "pronunciation": "TORN SHIP-ing SEELZ",
+    "short_pronunciation": "TORN SHIP-ing SEELZ",
     "note": ""
   },
   "route-ledger": {
     "name": "Route Ledger",
     "type": "clue",
-    "pronunciation": "Route Ledger",
-    "short_pronunciation": "Route Ledger",
+    "pronunciation": "ROOT LEJ-er",
+    "short_pronunciation": "ROOT LEJ-er",
     "note": ""
   },
   "bramble-union-loot": {
     "name": "Bramble Union Loot",
     "type": "item",
-    "pronunciation": "Bramble Union LOOT",
-    "short_pronunciation": "Bramble Union LOOT",
+    "pronunciation": "BRAM-bul YOO-nyun Loot",
+    "short_pronunciation": "BRAM-bul YOO-nyun Loot",
     "note": ""
   },
   "inspection-sealed-counterweight": {
@@ -366,8 +366,8 @@
   "forgotten-gods": {
     "name": "Forgotten Gods",
     "type": "faction",
-    "pronunciation": "Forgotten GODS",
-    "short_pronunciation": "Forgotten GODS",
+    "pronunciation": "for-GOT-en godz",
+    "short_pronunciation": "for-GOT-en godz",
     "note": ""
   },
   "escort-carriage": {
@@ -380,8 +380,8 @@
   "sealed-keystone-crate": {
     "name": "Sealed Keystone Crate",
     "type": "item",
-    "pronunciation": "Sealed Keystone Crate",
-    "short_pronunciation": "Sealed Keystone Crate",
+    "pronunciation": "Sealed KEY-stohn krayt",
+    "short_pronunciation": "Sealed KEY-stohn krayt",
     "note": ""
   },
   "route-assurance-contract": {
@@ -394,43 +394,43 @@
   "goldspire-permit-seal": {
     "name": "Goldspire Permit Seal",
     "type": "item",
-    "pronunciation": "Goldspire Permit SEAL",
-    "short_pronunciation": "Goldspire Permit SEAL",
+    "pronunciation": "GOLD-spire PER-mit seel",
+    "short_pronunciation": "GOLD-spire PER-mit seel",
     "note": ""
   },
   "corporate-route-bell": {
     "name": "Corporate Route Bell",
     "type": "item",
-    "pronunciation": "Corporate Route BELL",
-    "short_pronunciation": "Corporate Route BELL",
+    "pronunciation": "Corporate Route Bell",
+    "short_pronunciation": "Corporate Route Bell",
     "note": ""
   },
   "sablewood-route-gate": {
     "name": "Sablewood Route Gate",
     "type": "location",
-    "pronunciation": "Sablewood Route GATE",
-    "short_pronunciation": "Sablewood Route GATE",
+    "pronunciation": "SAY-bul-wood Route Gate",
+    "short_pronunciation": "SAY-bul-wood Route Gate",
     "note": ""
   },
   "old-sable-canopy-road": {
     "name": "Old Sable Canopy Road",
     "type": "location",
-    "pronunciation": "OLD Sable Canopy ROAD",
-    "short_pronunciation": "OLD Sable Canopy ROAD",
+    "pronunciation": "ohld SAY-bul KAN-uh-pee rohd",
+    "short_pronunciation": "ohld SAY-bul KAN-uh-pee rohd",
     "note": ""
   },
   "overturned-wheel-ruts": {
     "name": "Overturned Wheel Ruts",
     "type": "clue",
-    "pronunciation": "Overturned Wheel RUTS",
-    "short_pronunciation": "Overturned Wheel RUTS",
+    "pronunciation": "OH-ver-turnd WHEEL RUTS",
+    "short_pronunciation": "OH-ver-turnd WHEEL RUTS",
     "note": ""
   },
   "tamsin-s-wedding-cord": {
     "name": "Tamsin's Wedding Cord",
     "type": "clue",
-    "pronunciation": "Tamsin's Wedding CORD",
-    "short_pronunciation": "Tamsin's Wedding CORD",
+    "pronunciation": "TAM-sinz WED-ing KORD",
+    "short_pronunciation": "TAM-sinz WED-ing KORD",
     "note": ""
   },
   "comfort-blanket": {
@@ -443,8 +443,8 @@
   "bramble-claim-marker": {
     "name": "Bramble Claim Marker",
     "type": "clue",
-    "pronunciation": "Bramble Claim Marker",
-    "short_pronunciation": "Bramble Claim Marker",
+    "pronunciation": "BRAM-bul KLAYM MAR-ker",
+    "short_pronunciation": "BRAM-bul Claim Marker",
     "note": ""
   },
   "ambush-roadblock": {
@@ -457,232 +457,232 @@
   "reclaimer-personal-effects": {
     "name": "Reclaimer Personal Effects",
     "type": "clue",
-    "pronunciation": "Reclaimer Personal Effects",
-    "short_pronunciation": "Reclaimer Personal Effects",
+    "pronunciation": "rih-KLAY-mer PER-suh-nul ih-FEKTS",
+    "short_pronunciation": "rih-KLAY-mer PER-suh-nul ih-FEKTS",
     "note": ""
   },
   "clover-cord-bracelet": {
     "name": "Clover Cord Bracelet",
     "type": "item",
-    "pronunciation": "Clover CORD Bracelet",
-    "short_pronunciation": "Clover CORD Bracelet",
+    "pronunciation": "KLOH-ver Cord Bracelet",
+    "short_pronunciation": "KLOH-ver Cord Bracelet",
     "note": ""
   },
   "moss-honey-jar": {
     "name": "Moss-Honey Jar",
     "type": "item",
-    "pronunciation": "Moss-honey JAR",
-    "short_pronunciation": "Moss-honey JAR",
+    "pronunciation": "Moss-honey Jar",
+    "short_pronunciation": "Moss-honey Jar",
     "note": ""
   },
   "hush-safe-irrigation-path": {
     "name": "Hush Safe Irrigation Path",
     "type": "location",
-    "pronunciation": "HUSH SAFE Irrigation PATH",
-    "short_pronunciation": "HUSH SAFE Irrigation PATH",
+    "pronunciation": "hush sayf IR-ih-GAY-shun path",
+    "short_pronunciation": "hush sayf IR-ih-GAY-shun path",
     "note": ""
   },
   "hanging-office-winch": {
     "name": "Hanging Office Winch",
     "type": "item",
-    "pronunciation": "Hanging Office Winch",
-    "short_pronunciation": "Hanging Office Winch",
+    "pronunciation": "HANG-ing AW-fiss Winch",
+    "short_pronunciation": "HANG-ing AW-fiss Winch",
     "note": ""
   },
   "dustless-ward-map": {
     "name": "Dustless Ward Map",
     "type": "clue",
-    "pronunciation": "Dustless WARD MAP",
-    "short_pronunciation": "Dustless WARD MAP",
+    "pronunciation": "DUST-lis WORD MAP",
+    "short_pronunciation": "DUST-lis WORD MAP",
     "note": ""
   },
   "custodian-tea-cup": {
     "name": "Custodian Tea Cup",
     "type": "item",
-    "pronunciation": "Custodian TEA CUP",
-    "short_pronunciation": "Custodian TEA CUP",
+    "pronunciation": "Custodian Tea Cup",
+    "short_pronunciation": "Custodian Tea Cup",
     "note": ""
   },
   "relay-tremor-notation": {
     "name": "Relay Tremor Notation",
     "type": "clue",
-    "pronunciation": "Relay Tremor Notation",
-    "short_pronunciation": "Relay Tremor Notation",
+    "pronunciation": "REE-lay TREM-or noh-TAY-shun",
+    "short_pronunciation": "REE-lay Tremor Notation",
     "note": ""
   },
   "open-vale-ward-lines": {
     "name": "Open Vale Ward Lines",
     "type": "location",
-    "pronunciation": "OPEN VALE WARD Lines",
-    "short_pronunciation": "OPEN VALE WARD Lines",
+    "pronunciation": "OH-pen vayl ward linez",
+    "short_pronunciation": "OH-pen vayl ward linez",
     "note": ""
   },
   "ward-renewal-chime": {
     "name": "Ward Renewal Chime",
     "type": "item",
-    "pronunciation": "WARD Renewal Chime",
-    "short_pronunciation": "WARD Renewal Chime",
+    "pronunciation": "ward Renewal Chime",
+    "short_pronunciation": "ward Renewal Chime",
     "note": ""
   },
   "glass-bright-ward-sand": {
     "name": "Glass-Bright Ward Sand",
     "type": "clue",
-    "pronunciation": "Glass-bright WARD SAND",
-    "short_pronunciation": "Glass-bright WARD SAND",
+    "pronunciation": "GLAS-BRYT WORD SAND",
+    "short_pronunciation": "GLAS-BRYT WORD SAND",
     "note": ""
   },
   "corporate-seal-wax-residue": {
     "name": "Corporate Seal Wax Residue",
     "type": "clue",
-    "pronunciation": "Corporate SEAL WAX Residue",
-    "short_pronunciation": "Corporate SEAL WAX Residue",
+    "pronunciation": "KOR-puh-rit SEEL WAKS reh-ZIH-doos",
+    "short_pronunciation": "Corporate seel Wax Residue",
     "note": ""
   },
   "legacy-security-badge": {
     "name": "Legacy Security Badge",
     "type": "clue",
-    "pronunciation": "Legacy Security Badge",
-    "short_pronunciation": "Legacy Security Badge",
+    "pronunciation": "LEG-uh-see seh-KYUR-ih-tee BAJ",
+    "short_pronunciation": "LEG-uh-see seh-KYUR-ih-tee Badge",
     "note": ""
   },
   "soul-audit-memory-shard": {
     "name": "Soul-Audit Memory Shard",
     "type": "clue",
-    "pronunciation": "Soul-audit Memory Shard",
-    "short_pronunciation": "Soul-audit Memory Shard",
+    "pronunciation": "SOHL-AW-dit MEM-uh-ree SHARD",
+    "short_pronunciation": "SOHL-AW-dit MEM-uh-ree SHARD",
     "note": ""
   },
   "halython-s-fox-bat-companion": {
     "name": "Halython's Fox-Bat Companion",
     "type": "creature",
-    "pronunciation": "Halython's Fox-bat Companion",
-    "short_pronunciation": "Halython's Fox-bat Companion",
+    "pronunciation": "HAL-ee-thon's FOKS-bat kum-PAN-yun",
+    "short_pronunciation": "HAL-ee-thon's FOKS-bat kum-PAN-yun",
+    "note": ""
+  },
+  "sabine-quillon": {
+    "name": "Sabine Quillon",
+    "type": "npc",
+    "pronunciation": "suh-BEEN kee-YON",
+    "short_pronunciation": "suh-BEEN kee-YON",
     "note": ""
   },
   "emeris-clerk": {
     "name": "Emeris Clerk",
     "type": "npc",
-    "pronunciation": "Emeris Clerk",
-    "short_pronunciation": "Emeris Clerk",
+    "pronunciation": "EM-er-iss klurk",
+    "short_pronunciation": "EM-er-iss klurk",
     "note": ""
   },
   "the-grail": {
     "name": "The Grail",
     "type": "corporation",
-    "pronunciation": "THE Grail",
-    "short_pronunciation": "THE Grail",
+    "pronunciation": "the grayl",
+    "short_pronunciation": "the grayl",
     "note": ""
   },
   "goldwater-financial-institution": {
     "name": "Goldwater Financial Institution",
     "type": "corporation",
-    "pronunciation": "Goldwater Financial Institution",
-    "short_pronunciation": "Goldwater Financial Institution",
+    "pronunciation": "GOLD-waw-ter fy-NAN-shul in-stih-TOO-shun",
+    "short_pronunciation": "GOLD-waw-ter fy-NAN-shul in-stih-TOO-shun",
     "note": ""
   },
   "artemis-inc": {
     "name": "Artemis Inc",
     "type": "corporation",
-    "pronunciation": "Artemis INC",
-    "short_pronunciation": "Artemis INC",
+    "pronunciation": "AR-tuh-miss ink",
+    "short_pronunciation": "AR-tuh-miss ink",
     "note": ""
   },
   "zephra-exchange": {
     "name": "Zephra Exchange",
     "type": "corporation",
-    "pronunciation": "Zephra Exchange",
-    "short_pronunciation": "Zephra Exchange",
+    "pronunciation": "ZEF-ruh eks-CHAYNJ",
+    "short_pronunciation": "ZEF-ruh eks-CHAYNJ",
     "note": ""
   },
   "the-board-of-directors": {
-    "name": "The Board of Directors",
+    "name": "Goldspire Logistics",
     "type": "corporation",
-    "pronunciation": "THE Board OF Directors",
-    "short_pronunciation": "THE Board OF Directors",
-    "note": ""
+    "pronunciation": "GOLD-spire loh-JIS-tiks",
+    "short_pronunciation": "GOLD-spire loh-JIS-tiks",
+    "note": "Use the public-facing company name, Goldspire Logistics, at the table until Kyle chooses to reveal more."
   },
   "wardstone": {
     "name": "Wardstone",
     "type": "item",
-    "pronunciation": "Wardstone",
-    "short_pronunciation": "Wardstone",
+    "pronunciation": "WARD-stohn",
+    "short_pronunciation": "WARD-stohn",
     "note": ""
   },
   "ward-infrastructure": {
     "name": "Ward Infrastructure",
-    "type": "mechanic",
-    "pronunciation": "WARD Infrastructure",
-    "short_pronunciation": "WARD Infrastructure",
+    "type": "clue",
+    "pronunciation": "ward IN-fruh-STRUHK-cher",
+    "short_pronunciation": "ward IN-fruh-STRUHK-cher",
     "note": ""
   },
   "emeris-capital-gate": {
     "name": "Emeris Capital Gate",
     "type": "location",
-    "pronunciation": "Emeris Capital GATE",
-    "short_pronunciation": "Emeris Capital GATE",
+    "pronunciation": "EM-er-iss Capital Gate",
+    "short_pronunciation": "EM-er-iss Capital Gate",
+    "note": ""
+  },
+  "emeris-capital": {
+    "name": "Emeris",
+    "type": "location",
+    "pronunciation": "EM-er-iss",
+    "short_pronunciation": "EM-er-iss",
     "note": ""
   },
   "athervast": {
     "name": "Athervast",
     "type": "location",
-    "pronunciation": "Athervast",
-    "short_pronunciation": "Athervast",
+    "pronunciation": "A-thur-vast",
+    "short_pronunciation": "A-thur-vast",
     "note": ""
   },
   "public-private-ward-compact": {
     "name": "Public-Private Ward Compact",
     "type": "clue",
-    "pronunciation": "Public-private WARD Compact",
-    "short_pronunciation": "Public-private WARD Compact",
+    "pronunciation": "PUB-lik PRY-vit WORD KOM-pakt",
+    "short_pronunciation": "PUB-lik PRY-vit WORD KOM-pakt",
     "note": ""
   },
   "goldspire-ward-network": {
     "name": "Goldspire Ward Network",
-    "type": "mechanic",
-    "pronunciation": "Goldspire WARD Network",
-    "short_pronunciation": "Goldspire WARD Network",
+    "type": "clue",
+    "pronunciation": "GOLD-spire ward Network",
+    "short_pronunciation": "GOLD-spire ward Network",
     "note": ""
   },
   "the-goldspire-relay": {
     "name": "The Goldspire Relay",
     "type": "location",
-    "pronunciation": "THE Goldspire Relay",
-    "short_pronunciation": "THE Goldspire Relay",
+    "pronunciation": "the GOLD-spire REE-lay",
+    "short_pronunciation": "the GOLD-spire REE-lay",
     "note": ""
   },
   "the-relay-keeper": {
     "name": "The Relay Keeper",
     "type": "npc",
-    "pronunciation": "THE Relay Keeper",
-    "short_pronunciation": "THE Relay Keeper",
+    "pronunciation": "the REE-lay KEE-per",
+    "short_pronunciation": "the REE-lay KEE-per",
     "note": ""
   },
   "gm-rules-drawer": {
     "name": "GM Rules Drawer",
     "type": "mechanic",
-    "pronunciation": "GM Rules Drawer",
-    "short_pronunciation": "GM Rules Drawer",
-    "note": ""
-  },
-  "slider-system": {
-    "name": "Slider System",
-    "type": "mechanic",
-    "pronunciation": "Slider System",
-    "short_pronunciation": "Slider System",
+    "pronunciation": "Gm Rules Drawer",
+    "short_pronunciation": "Gm Rules Drawer",
     "note": ""
   },
   "duality-dice": {
     "name": "Duality Dice",
     "type": "mechanic",
-    "pronunciation": "Duality DICE",
-    "short_pronunciation": "Duality DICE",
-    "note": ""
-  },
-  "p2p-jenga-fear-variant": {
-    "name": "P2P Jenga Fear Variant",
-    "type": "mechanic",
-    "pronunciation": "P2P Jenga FEAR Variant",
-    "short_pronunciation": "P2P Jenga FEAR Variant",
+    "pronunciation": "Duality Dice",
+    "short_pronunciation": "Duality Dice",
     "note": ""
   },
   "difficulty-ladder": {
@@ -695,8 +695,8 @@
   "d-and-d-conversion": {
     "name": "D&D Conversion",
     "type": "mechanic",
-    "pronunciation": "Dandd Conversion",
-    "short_pronunciation": "Dandd Conversion",
+    "pronunciation": "D and D Conversion",
+    "short_pronunciation": "D and D Conversion",
     "note": ""
   },
   "official-conditions": {
@@ -709,22 +709,22 @@
   "hope": {
     "name": "Hope",
     "type": "mechanic",
-    "pronunciation": "HOPE",
-    "short_pronunciation": "HOPE",
+    "pronunciation": "Hope",
+    "short_pronunciation": "Hope",
     "note": ""
   },
   "fear": {
     "name": "Fear",
     "type": "mechanic",
-    "pronunciation": "FEAR",
-    "short_pronunciation": "FEAR",
+    "pronunciation": "Fear",
+    "short_pronunciation": "Fear",
     "note": ""
   },
   "gm-moves": {
     "name": "GM Moves",
     "type": "mechanic",
-    "pronunciation": "GM Moves",
-    "short_pronunciation": "GM Moves",
+    "pronunciation": "Gm Moves",
+    "short_pronunciation": "Gm Moves",
     "note": ""
   },
   "adversary-spotlight": {
@@ -758,15 +758,15 @@
   "armor-slot": {
     "name": "Armor Slot",
     "type": "mechanic",
-    "pronunciation": "Armor SLOT",
-    "short_pronunciation": "Armor SLOT",
+    "pronunciation": "Armor Slot",
+    "short_pronunciation": "Armor Slot",
     "note": ""
   },
   "short-rest": {
     "name": "Short Rest",
     "type": "mechanic",
-    "pronunciation": "Short REST",
-    "short_pronunciation": "Short REST",
+    "pronunciation": "Short Rest",
+    "short_pronunciation": "Short Rest",
     "note": ""
   },
   "hidden": {
@@ -793,8 +793,8 @@
   "hexmart-pocket-wardtm-cracked": {
     "name": "Hexmart Pocket Ward™ (cracked)",
     "type": "item",
-    "pronunciation": "Hexmart Pocket WARD Cracked",
-    "short_pronunciation": "Hexmart Pocket WARD Cracked",
+    "pronunciation": "HEKS-mart Pocket ward Cracked",
+    "short_pronunciation": "HEKS-mart Pocket ward Cracked",
     "note": ""
   },
   "stride-salve": {
@@ -807,8 +807,8 @@
   "grindstone-vial": {
     "name": "Grindstone Vial",
     "type": "item",
-    "pronunciation": "Grindstone VIAL",
-    "short_pronunciation": "Grindstone VIAL",
+    "pronunciation": "Grindstone Vial",
+    "short_pronunciation": "Grindstone Vial",
     "note": ""
   },
   "lark-moth-lantern": {
@@ -821,8 +821,8 @@
   "bramble-cutter-s-hook": {
     "name": "Bramble-Cutter's Hook",
     "type": "item",
-    "pronunciation": "Bramble-cutter's HOOK",
-    "short_pronunciation": "Bramble-cutter's HOOK",
+    "pronunciation": "Bramble-cutter's Hook",
+    "short_pronunciation": "Bramble-cutter's Hook",
     "note": ""
   },
   "compliance-stamp-forged": {
@@ -835,15 +835,15 @@
   "firstmoss-poultice": {
     "name": "Firstmoss Poultice",
     "type": "item",
-    "pronunciation": "Firstmoss Poultice",
-    "short_pronunciation": "Firstmoss Poultice",
+    "pronunciation": "FIRST-moss Poultice",
+    "short_pronunciation": "FIRST-moss Poultice",
     "note": ""
   },
   "bag-of-mixed-chits": {
     "name": "Bag of Mixed Chits",
     "type": "item",
-    "pronunciation": "BAG OF Mixed Chits",
-    "short_pronunciation": "BAG OF Mixed Chits",
+    "pronunciation": "Bag uv Mixed Chits",
+    "short_pronunciation": "Bag uv Mixed Chits",
     "note": ""
   },
   "whetcord": {
@@ -856,8 +856,8 @@
   "tinker-s-kit-used": {
     "name": "Tinker's Kit, Used",
     "type": "item",
-    "pronunciation": "Tinker's KIT USED",
-    "short_pronunciation": "Tinker's KIT USED",
+    "pronunciation": "Tinker's Kit Used",
+    "short_pronunciation": "Tinker's Kit Used",
     "note": ""
   },
   "soul-quiet-charm": {
@@ -874,39 +874,893 @@
     "short_pronunciation": "Strixwolf-down Cloak",
     "note": ""
   },
-  "strixwolf-mercy-track": {
-    "name": "Strixwolf Mercy Track",
-    "type": "mechanic",
-    "pronunciation": "Strixwolf Mercy Track",
-    "short_pronunciation": "Strixwolf Mercy Track",
+  "sablewood-hybrid-fauna": {
+    "name": "Sablewood Hybrid Fauna",
+    "type": "creature",
+    "pronunciation": "SAY-bul-wood Hybrid Fauna",
+    "short_pronunciation": "SAY-bul-wood Hybrid Fauna",
     "note": ""
   },
-  "bramble-union-resolution-track": {
-    "name": "Bramble Union Resolution Track",
-    "type": "mechanic",
-    "pronunciation": "Bramble Union Resolution Track",
-    "short_pronunciation": "Bramble Union Resolution Track",
+  "cat-squirrels": {
+    "name": "Cat-Squirrels",
+    "type": "creature",
+    "pronunciation": "KAT SKWUR-uhlz",
+    "short_pronunciation": "KAT SKWUR-uhlz",
     "note": ""
   },
-  "hush-trust-track": {
-    "name": "Hush Trust Track",
-    "type": "mechanic",
-    "pronunciation": "HUSH Trust Track",
-    "short_pronunciation": "HUSH Trust Track",
+  "giraffe-deer": {
+    "name": "Giraffe-Deer",
+    "type": "creature",
+    "pronunciation": "jih-RAF deer",
+    "short_pronunciation": "jih-RAF deer",
     "note": ""
   },
-  "custodian-trust-track": {
-    "name": "Custodian Trust Track",
+  "lemur-toads": {
+    "name": "Lemur-Toads",
+    "type": "creature",
+    "pronunciation": "LEE-mur tohdz",
+    "short_pronunciation": "LEE-mur tohdz",
+    "note": ""
+  },
+  "fox-bats": {
+    "name": "Fox-Bats",
+    "type": "creature",
+    "pronunciation": "FAHKS bats",
+    "short_pronunciation": "FAHKS bats",
+    "note": ""
+  },
+  "horse-goats": {
+    "name": "Horse-Goats",
+    "type": "creature",
+    "pronunciation": "HORS gohts",
+    "short_pronunciation": "HORS gohts",
+    "note": ""
+  },
+  "hunting-trees": {
+    "name": "Hunting Trees",
+    "type": "creature",
+    "pronunciation": "HUN-ting TREEZ",
+    "short_pronunciation": "HUN-ting TREEZ",
+    "note": ""
+  },
+  "sablewood-route-network": {
+    "name": "Sablewood Route Network",
+    "type": "location",
+    "pronunciation": "SAY-bul-wood Route Network",
+    "short_pronunciation": "SAY-bul-wood Route Network",
+    "note": ""
+  },
+  "underroot": {
+    "name": "Underroot",
+    "type": "location",
+    "pronunciation": "UN-der-root",
+    "short_pronunciation": "UN-der-root",
+    "note": ""
+  },
+  "underroot-tunnels": {
+    "name": "Underroot Tunnels",
+    "type": "location",
+    "pronunciation": "UN-der-root TUN-ulz",
+    "short_pronunciation": "UN-der-root TUN-ulz",
+    "note": "Use this for the below-road tunnel network; keep the words plain and practical at the table."
+  },
+  "the-titan-s-steps": {
+    "name": "The Titan's Steps",
+    "type": "location",
+    "pronunciation": "the TY-tunz steps",
+    "short_pronunciation": "the TY-tunz steps",
+    "note": ""
+  },
+  "duskwatch-exchange": {
+    "name": "Duskwatch Exchange",
+    "type": "location",
+    "pronunciation": "Duskwatch eks-CHAYNJ",
+    "short_pronunciation": "Duskwatch eks-CHAYNJ",
+    "note": ""
+  },
+  "mountain-crabs": {
+    "name": "Mountain Crabs",
+    "type": "creature",
+    "pronunciation": "MOUN-tin KRABZ",
+    "short_pronunciation": "MOUN-tin KRABZ",
+    "note": ""
+  },
+  "the-catcher-s-cradles": {
+    "name": "The Catcher's Cradles",
+    "type": "location",
+    "pronunciation": "the KATCH-erz KRAY-dulz",
+    "short_pronunciation": "the KATCH-erz KRAY-dulz",
+    "note": ""
+  },
+  "the-lucent-river": {
+    "name": "The Lucent River",
+    "type": "location",
+    "pronunciation": "the LOO-sent RIV-er",
+    "short_pronunciation": "the LOO-sent RIV-er",
+    "note": ""
+  },
+  "moonglow": {
+    "name": "Moonglow",
+    "type": "location",
+    "pronunciation": "MOON-gloh",
+    "short_pronunciation": "MOON-gloh",
+    "note": "Say it like the two common words moon and glow."
+  },
+  "the-high-falls": {
+    "name": "The High Falls",
+    "type": "location",
+    "pronunciation": "the HY fawlz",
+    "short_pronunciation": "the HY fawlz",
+    "note": ""
+  },
+  "the-miremist": {
+    "name": "The Miremist",
+    "type": "location",
+    "pronunciation": "the MYR-mist",
+    "short_pronunciation": "the MYR-mist",
+    "note": ""
+  },
+  "the-stones-of-the-vale": {
+    "name": "The Stones of the Vale",
+    "type": "location",
+    "pronunciation": "the stohnz uv the vayl",
+    "short_pronunciation": "the stohnz uv the vayl",
+    "note": ""
+  },
+  "the-claravale-market": {
+    "name": "The Claravale Market",
+    "type": "location",
+    "pronunciation": "the KLAIR-uh-vayl MAR-kit",
+    "short_pronunciation": "the KLAIR-uh-vayl MAR-kit",
+    "note": ""
+  },
+  "the-sunless-farms": {
+    "name": "The Sunless Farms",
+    "type": "location",
+    "pronunciation": "the SUN-less farms",
+    "short_pronunciation": "the SUN-less farms",
+    "note": ""
+  },
+  "guest-privileges": {
+    "name": "Guest Privileges",
     "type": "mechanic",
-    "pronunciation": "Custodian Trust Track",
-    "short_pronunciation": "Custodian Trust Track",
+    "pronunciation": "Guest Privileges",
+    "short_pronunciation": "Guest Privileges",
+    "note": ""
+  },
+  "the-refuge": {
+    "name": "The Refuge",
+    "type": "location",
+    "pronunciation": "the REF-yooj",
+    "short_pronunciation": "the REF-yooj",
+    "note": ""
+  },
+  "the-fire-walk": {
+    "name": "The Fire Walk",
+    "type": "location",
+    "pronunciation": "the FYRE wawlk",
+    "short_pronunciation": "the FYRE wawlk",
+    "note": ""
+  },
+  "the-ash-quarry": {
+    "name": "The Ash Quarry",
+    "type": "location",
+    "pronunciation": "the ASH KWOR-ee",
+    "short_pronunciation": "the ASH KWOR-ee",
+    "note": ""
+  },
+  "root-s-hollow": {
+    "name": "Root's Hollow",
+    "type": "location",
+    "pronunciation": "roots HAH-loh",
+    "short_pronunciation": "roots HAH-loh",
+    "note": ""
+  },
+  "the-latch": {
+    "name": "The Latch",
+    "type": "location",
+    "pronunciation": "the latch, like a gate latch",
+    "short_pronunciation": "the latch, like a gate latch",
+    "note": ""
+  },
+  "the-sable-stills": {
+    "name": "The Sable Stills",
+    "type": "location",
+    "pronunciation": "the SAY-bul Stills",
+    "short_pronunciation": "the SAY-bul Stills",
+    "note": ""
+  },
+  "bramble-union-villages": {
+    "name": "Bramble Union Villages",
+    "type": "location",
+    "pronunciation": "BRAM-bul YOO-nyun VIL-ij-ez",
+    "short_pronunciation": "BRAM-bul YOO-nyun VIL-ij-ez",
+    "note": ""
+  },
+  "the-wandering-briar": {
+    "name": "The Wandering Briar",
+    "type": "location",
+    "pronunciation": "the WAN-der-ing BRY-er",
+    "short_pronunciation": "the WAN-der-ing BRY-er",
+    "note": ""
+  },
+  "bramble-stone-tumblers": {
+    "name": "Bramble Stone Tumblers",
+    "type": "item",
+    "pronunciation": "BRAM-bul Stone Tumblers",
+    "short_pronunciation": "BRAM-bul Stone Tumblers",
+    "note": ""
+  },
+  "proven-navir": {
+    "name": "Proven Navir",
+    "type": "npc",
+    "pronunciation": "PROH-ven nah-VEER",
+    "short_pronunciation": "PROH-ven nah-VEER",
+    "note": ""
+  },
+  "xen": {
+    "name": "Xen",
+    "type": "npc",
+    "pronunciation": "ZEN",
+    "short_pronunciation": "ZEN",
+    "note": ""
+  },
+  "yikyik-trahll": {
+    "name": "Yikyik Trahll",
+    "type": "npc",
+    "pronunciation": "YIK-yik TRAHL",
+    "short_pronunciation": "YIK-yik TRAHL",
+    "note": ""
+  },
+  "the-sable-sinecure": {
+    "name": "The Sable Sinecure",
+    "type": "faction",
+    "pronunciation": "the SAY-bul SY-nih-kyoor",
+    "short_pronunciation": "the SAY-bul SY-nih-kyoor",
+    "note": ""
+  },
+  "fire-falcons": {
+    "name": "Fire-Falcons",
+    "type": "creature",
+    "pronunciation": "FYRE FAL-kuns",
+    "short_pronunciation": "FYRE FAL-kuns",
+    "note": ""
+  },
+  "sable-sinecure-secret-caches": {
+    "name": "Sable Sinecure Secret Caches",
+    "type": "clue",
+    "pronunciation": "SAY-bul SY-nih-kyoor SEE-krit KASH-iz",
+    "short_pronunciation": "SAY-bul SY-nih-kyoor Secret Caches",
+    "note": ""
+  },
+  "hazard-indexed-pricing": {
+    "name": "Hazard-Indexed Pricing",
+    "type": "clue",
+    "pronunciation": "Hazard-indexed Pricing",
+    "short_pronunciation": "Hazard-indexed Pricing",
+    "note": ""
+  },
+  "helena-corain": {
+    "name": "Helena Corain",
+    "type": "npc",
+    "pronunciation": "heh-LAY-nuh koh-RAYN",
+    "short_pronunciation": "heh-LAY-nuh koh-RAYN",
+    "note": ""
+  },
+  "will-scild": {
+    "name": "Will Scild",
+    "type": "npc",
+    "pronunciation": "WILL SKILD",
+    "short_pronunciation": "WILL SKILD",
+    "note": ""
+  },
+  "simrith-luhaj": {
+    "name": "Simrith Luhaj",
+    "type": "npc",
+    "pronunciation": "SIM-rith loo-HAJ",
+    "short_pronunciation": "SIM-rith loo-HAJ",
+    "note": ""
+  },
+  "sablewood-hope-moments": {
+    "name": "Sablewood Hope Moments",
+    "type": "mechanic",
+    "pronunciation": "SAY-bul-wood Hope Moments",
+    "short_pronunciation": "SAY-bul-wood Hope Moments",
+    "note": ""
+  },
+  "sablewood-fear-moments": {
+    "name": "Sablewood Fear Moments",
+    "type": "mechanic",
+    "pronunciation": "SAY-bul-wood Fear Moments",
+    "short_pronunciation": "SAY-bul-wood Fear Moments",
+    "note": ""
+  },
+  "sableblade": {
+    "name": "Sableblade",
+    "type": "item",
+    "pronunciation": "SAY-bul-blayd",
+    "short_pronunciation": "SAY-bul-blayd",
+    "note": ""
+  },
+  "ember-lake": {
+    "name": "Ember Lake",
+    "type": "location",
+    "pronunciation": "EM-ber layk",
+    "short_pronunciation": "EM-ber layk",
+    "note": ""
+  },
+  "the-glimpse": {
+    "name": "The Glimpse",
+    "type": "creature",
+    "pronunciation": "the GLIMPSS",
+    "short_pronunciation": "the GLIMPSS",
+    "note": ""
+  },
+  "eeligator-scale-shield": {
+    "name": "Eeligator Scale Shield",
+    "type": "item",
+    "pronunciation": "EE-lih-gay-tor SKAYL SHEELD",
+    "short_pronunciation": "EE-lih-gay-tor SKAYL SHEELD",
+    "note": ""
+  },
+  "bramble-union-stoneweave": {
+    "name": "Bramble Union Stoneweave",
+    "type": "item",
+    "pronunciation": "BRAM-bul YOO-nyun STOHN-weev",
+    "short_pronunciation": "BRAM-bul YOO-nyun STOHN-weev",
+    "note": ""
+  },
+  "recall-stone": {
+    "name": "Recall Stone",
+    "type": "item",
+    "pronunciation": "rih-KAWL STOHN",
+    "short_pronunciation": "rih-KAWL STOHN",
+    "note": ""
+  },
+  "whitefire-ward-charm": {
+    "name": "Whitefire Custodian's Ward-Charm",
+    "type": "item",
+    "pronunciation": "WYT-fyr kuh-STOH-dee-anz WORD-charm",
+    "short_pronunciation": "WYT-fyr kuh-STOH-dee-anz WORD-charm",
+    "note": ""
+  },
+  "sableleaf-shoes": {
+    "name": "Sableleaf Shoes",
+    "type": "item",
+    "pronunciation": "SAY-bul-leef SHOOZ",
+    "short_pronunciation": "SAY-bul-leef SHOOZ",
+    "note": ""
+  },
+  "bugbane-berry": {
+    "name": "Bugbane Berry™",
+    "type": "item",
+    "pronunciation": "BUG-bayn BAIR-ee",
+    "short_pronunciation": "BUG-bayn BAIR-ee",
+    "note": ""
+  },
+  "sable-sap": {
+    "name": "Sable Sap",
+    "type": "item",
+    "pronunciation": "SAY-bul SAP",
+    "short_pronunciation": "SAY-bul SAP",
+    "note": ""
+  },
+  "twilight-plums": {
+    "name": "Twilight Plums",
+    "type": "item",
+    "pronunciation": "Twilight Plums",
+    "short_pronunciation": "Twilight Plums",
+    "note": ""
+  },
+  "sunfire-lily": {
+    "name": "Sunfire Lily",
+    "type": "item",
+    "pronunciation": "Sunfire Lily",
+    "short_pronunciation": "Sunfire Lily",
+    "note": ""
+  },
+  "sunless-farm-moss": {
+    "name": "Sunless-Farm Moss",
+    "type": "item",
+    "pronunciation": "Sunless-farm Moss",
+    "short_pronunciation": "Sunless-farm Moss",
+    "note": ""
+  },
+  "vial-of-briarpowder": {
+    "name": "Vial of Briarpowder",
+    "type": "item",
+    "pronunciation": "VY-uhl ov BRY-er-POW-der",
+    "short_pronunciation": "VY-uhl ov BRY-er-POW-der",
+    "note": ""
+  },
+  "bullfrog": {
+    "name": "Bullfrog",
+    "type": "enemy",
+    "pronunciation": "BULL-frog",
+    "short_pronunciation": "BULL-frog",
+    "note": ""
+  },
+  "strixwolf": {
+    "name": "Strixwolf",
+    "type": "enemy",
+    "pronunciation": "STRIKS-woolf",
+    "short_pronunciation": "STRIKS-woolf",
+    "note": ""
+  },
+  "eeligator": {
+    "name": "Eeligator",
+    "type": "enemy",
+    "pronunciation": "EE-lih-gay-ter",
+    "short_pronunciation": "EE-lih-gay-ter",
+    "note": ""
+  },
+  "craymeleon": {
+    "name": "Craymeleon",
+    "type": "creature",
+    "pronunciation": "kray-MEEL-ee-un",
+    "short_pronunciation": "kray-MEEL-ee-un",
+    "note": ""
+  },
+  "tiger-elk": {
+    "name": "Tiger-Elk",
+    "type": "creature",
+    "pronunciation": "TY-gur elk",
+    "short_pronunciation": "TY-gur elk",
+    "note": ""
+  },
+  "spidermanders": {
+    "name": "Spidermanders",
+    "type": "creature",
+    "pronunciation": "SPY-der-MAN-derz",
+    "short_pronunciation": "SPY-der-MAN-derz",
+    "note": ""
+  },
+  "centi-beetles": {
+    "name": "Centi-Beetles",
+    "type": "creature",
+    "pronunciation": "SEN-tee BEE-tuhlz",
+    "short_pronunciation": "SEN-tee BEE-tuhlz",
+    "note": ""
+  },
+  "hellbender": {
+    "name": "Hellbender",
+    "type": "creature",
+    "pronunciation": "HEL-ben-der",
+    "short_pronunciation": "HEL-ben-der",
+    "note": ""
+  },
+  "rabbit-gliders": {
+    "name": "Rabbit-Gliders",
+    "type": "creature",
+    "pronunciation": "RAB-it GLY-derz",
+    "short_pronunciation": "RAB-it GLY-derz",
+    "note": ""
+  },
+  "moth-possums": {
+    "name": "Moth-Possums",
+    "type": "creature",
+    "pronunciation": "MAWTH PAH-sumz",
+    "short_pronunciation": "MAWTH PAH-sumz",
+    "note": ""
+  },
+  "turtle-mice": {
+    "name": "Turtle-Mice",
+    "type": "creature",
+    "pronunciation": "TUR-tuhl myss",
+    "short_pronunciation": "TUR-tuhl myss",
+    "note": ""
+  },
+  "badger-hawks": {
+    "name": "Badger-Hawks",
+    "type": "creature",
+    "pronunciation": "BAJ-er hawks",
+    "short_pronunciation": "BAJ-er hawks",
+    "note": ""
+  },
+  "ratcoons": {
+    "name": "Ratcoons",
+    "type": "creature",
+    "pronunciation": "rat-KOONZ",
+    "short_pronunciation": "rat-KOONZ",
+    "note": ""
+  },
+  "festival-moths": {
+    "name": "Festival Moths",
+    "type": "creature",
+    "pronunciation": "FES-tih-vul Moths",
+    "short_pronunciation": "FES-tih-vul Moths",
+    "note": ""
+  },
+  "ward-moths": {
+    "name": "Ward-Moths",
+    "type": "creature",
+    "pronunciation": "WARD mawths",
+    "short_pronunciation": "WARD mawths",
+    "note": ""
+  },
+  "mist-things": {
+    "name": "Mist-Things",
+    "type": "creature",
+    "pronunciation": "MIST thingz",
+    "short_pronunciation": "MIST thingz",
+    "note": ""
+  },
+  "slyborne-hideout": {
+    "name": "Slyborne Hideout",
+    "type": "mechanic",
+    "pronunciation": "SLY-born Hideout",
+    "short_pronunciation": "SLY-born Hideout",
+    "note": ""
+  },
+  "slyborne-crew": {
+    "name": "Slyborne Crew",
+    "type": "faction",
+    "pronunciation": "SLY-born kroo",
+    "short_pronunciation": "SLY-born kroo",
+    "note": ""
+  },
+  "root-blockage": {
+    "name": "Root Blockage",
+    "type": "mechanic",
+    "pronunciation": "Root Blockage",
+    "short_pronunciation": "Root Blockage",
+    "note": ""
+  },
+  "goldwater-grail-toll-crew": {
+    "name": "Goldwater-Grail Toll Crew",
+    "type": "enemy",
+    "pronunciation": "GOLD-waw-ter grayl TOHL kroo",
+    "short_pronunciation": "GOLD-waw-ter grayl TOHL kroo",
+    "note": ""
+  },
+  "faceless-six": {
+    "name": "Faceless Six",
+    "type": "faction",
+    "pronunciation": "FAYS-less siks",
+    "short_pronunciation": "FAYS-less siks",
+    "note": ""
+  },
+  "young-dryads": {
+    "name": "Young Dryads",
+    "type": "creature",
+    "pronunciation": "yung DRY-adz",
+    "short_pronunciation": "yung DRY-adz",
+    "note": ""
+  },
+  "disposition-resolution-track": {
+    "name": "Disposition / Resolution Track",
+    "type": "mechanic",
+    "pronunciation": "Disposition Resolution Track",
+    "short_pronunciation": "Disposition Resolution Track",
+    "note": ""
+  },
+  "npc-community-trust-track": {
+    "name": "NPC / Community Trust Track",
+    "type": "mechanic",
+    "pronunciation": "Npc Community Trust Track",
+    "short_pronunciation": "Npc Community Trust Track",
     "note": ""
   },
   "ward-stability-track": {
     "name": "Ward Stability Track",
     "type": "mechanic",
-    "pronunciation": "WARD Stability Track",
-    "short_pronunciation": "WARD Stability Track",
+    "pronunciation": "ward Stability Track",
+    "short_pronunciation": "ward Stability Track",
+    "note": ""
+  },
+  "dungeon-workers-alliance": {
+    "name": "Dungeon Workers' Alliance",
+    "type": "faction",
+    "pronunciation": "DUN-jun WUR-kerz uh-LY-unss",
+    "short_pronunciation": "DUN-jun WUR-kerz uh-LY-unss",
+    "note": ""
+  },
+  "manufactured-threat-future-thread": {
+    "name": "Manufactured-Threat Future Thread",
+    "type": "clue",
+    "pronunciation": "Manufactured-threat Future Thread",
+    "short_pronunciation": "Manufactured-threat Future Thread",
+    "note": ""
+  },
+  "perrin-oake": {
+    "name": "Perrin Oake",
+    "type": "npc",
+    "pronunciation": "PEH-rin OHK",
+    "short_pronunciation": "PEH-rin OHK",
+    "note": ""
+  },
+  "wicket": {
+    "name": "Wicket",
+    "type": "npc",
+    "pronunciation": "WIK-it",
+    "short_pronunciation": "WIK-it",
+    "note": ""
+  },
+  "nettle": {
+    "name": "Nettle",
+    "type": "npc",
+    "pronunciation": "NET-ul",
+    "short_pronunciation": "NET-ul",
+    "note": ""
+  },
+  "auditor-holle": {
+    "name": "Auditor Holle",
+    "type": "npc",
+    "pronunciation": "AW-dit-er HOL",
+    "short_pronunciation": "AW-dit-er HOL",
+    "note": "Pronounce Holle like holl."
+  },
+  "mama-suet": {
+    "name": "Mama Suet",
+    "type": "npc",
+    "pronunciation": "MAH-muh SOO-et",
+    "short_pronunciation": "MAH-muh SOO-et",
+    "note": ""
+  },
+  "inspector-pelt": {
+    "name": "Inspector Pelt",
+    "type": "npc",
+    "pronunciation": "in-SPEK-ter PELT",
+    "short_pronunciation": "in-SPEK-ter PELT",
+    "note": ""
+  },
+  "old-gregor": {
+    "name": "Old Gregor",
+    "type": "npc",
+    "pronunciation": "old GREG-er",
+    "short_pronunciation": "old GREG-er",
+    "note": ""
+  },
+  "the-midnight-cabal": {
+    "name": "The Midnight Cabal",
+    "type": "faction",
+    "pronunciation": "the MID-nyte kuh-BAHL",
+    "short_pronunciation": "the MID-nyte kuh-BAHL",
+    "note": ""
+  },
+  "the-umbrand-consortium": {
+    "name": "The Umbrand Consortium",
+    "type": "faction",
+    "pronunciation": "the UM-brand kun-SOR-shee-um",
+    "short_pronunciation": "the UM-brand kun-SOR-shee-um",
+    "note": ""
+  },
+  "lucent-water": {
+    "name": "Lucent Water™",
+    "type": "item",
+    "pronunciation": "LOO-sent WAW-ter",
+    "short_pronunciation": "LOO-sent WAW-ter",
+    "note": ""
+  },
+  "restorative-ash": {
+    "name": "Restorative Ash™",
+    "type": "item",
+    "pronunciation": "rih-STOR-uh-tiv ASH",
+    "short_pronunciation": "rih-STOR-uh-tiv ASH",
+    "note": ""
+  },
+  "fire-wine": {
+    "name": "Fire Wine™",
+    "type": "item",
+    "pronunciation": "FYR WYN",
+    "short_pronunciation": "FYR WYN",
+    "note": ""
+  },
+  "goldwater-liability-token": {
+    "name": "Goldwater Liability Token™",
+    "type": "item",
+    "pronunciation": "GOHLD-waw-ter ly-uh-BIL-ih-tee TOH-ken",
+    "short_pronunciation": "GOHLD-waw-ter ly-uh-BIL-ih-tee TOH-ken",
+    "note": ""
+  },
+  "kazrak-adventurer-certification": {
+    "name": "Kazrak Adventurer Certification™",
+    "type": "item",
+    "pronunciation": "KAZ-rak ad-VEN-chur-er ser-tih-fih-KAY-shun",
+    "short_pronunciation": "KAZ-rak ad-VEN-chur-er ser-tih-fih-KAY-shun",
+    "note": ""
+  },
+  "tamsins-home-token": {
+    "name": "Tamsin's Home-Token",
+    "type": "item",
+    "pronunciation": "TAM-zinz HOHM TOH-ken",
+    "short_pronunciation": "TAM-zinz HOHM TOH-ken",
+    "note": ""
+  },
+  "cracked-pocket-ward": {
+    "name": "Cracked Pocket Ward™",
+    "type": "item",
+    "pronunciation": "KRAKT POK-et WORD",
+    "short_pronunciation": "KRAKT POK-et WORD",
+    "note": ""
+  },
+  "bramble-ward-scrap-charm-cluster": {
+    "name": "Bramble Ward-Scrap Charm Cluster",
+    "type": "item",
+    "pronunciation": "BRAM-bul WORD-skrap CHARM KLUS-ter",
+    "short_pronunciation": "BRAM-bul WORD-skrap CHARM KLUS-ter",
+    "note": ""
+  },
+  "claimrunner-serrated-blade": {
+    "name": "Claimrunner Serrated Blade",
+    "type": "item",
+    "pronunciation": "KLAYM-run-er sair-AY-ted BLAYD",
+    "short_pronunciation": "KLAYM-run-er sair-AY-ted BLAYD",
+    "note": ""
+  },
+  "spirekeeper-relay-keyring": {
+    "name": "Spirekeeper Relay Keyring",
+    "type": "item",
+    "pronunciation": "SPYR-kee-per RAY-lay KEE-ring",
+    "short_pronunciation": "SPYR-kee-per RAY-lay KEE-ring",
+    "note": ""
+  },
+  "auditors-verdict-ledger": {
+    "name": "Auditor's Verdict Ledger™",
+    "type": "item",
+    "pronunciation": "AW-dih-terz VER-dikt LEJ-er",
+    "short_pronunciation": "AW-dih-terz VER-dikt LEJ-er",
+    "note": ""
+  },
+  "the-wrong-driver": {
+    "name": "The Wrong Driver",
+    "type": "clue",
+    "pronunciation": "the RONG DRY-ver",
+    "short_pronunciation": "the RONG DRY-ver",
+    "note": ""
+  },
+  "the-off-provisions": {
+    "name": "The Off Provisions",
+    "type": "clue",
+    "pronunciation": "the OFF pruh-VIZH-unz",
+    "short_pronunciation": "the OFF pruh-VIZH-unz",
+    "note": ""
+  },
+  "the-too-neat-wreck": {
+    "name": "The Too-Neat Wreck",
+    "type": "clue",
+    "pronunciation": "the TOO-NEET REK",
+    "short_pronunciation": "the TOO-NEET REK",
+    "note": ""
+  },
+  "no-predator-wounds": {
+    "name": "No Predator Wounds",
+    "type": "clue",
+    "pronunciation": "no PRED-uh-ter WOONDZ",
+    "short_pronunciation": "no PRED-uh-ter WOONDZ",
+    "note": ""
+  },
+  "the-wary-flinch": {
+    "name": "The Wary Flinch",
+    "type": "clue",
+    "pronunciation": "the WAIR-ee FLINCH",
+    "short_pronunciation": "the WAIR-ee FLINCH",
+    "note": ""
+  },
+  "feeding-not-hunting": {
+    "name": "Feeding, Not Hunting",
+    "type": "clue",
+    "pronunciation": "FEE-ding, not HUN-ting",
+    "short_pronunciation": "FEE-ding, not HUN-ting",
+    "note": ""
+  },
+  "the-late-tracks": {
+    "name": "The Late Tracks",
+    "type": "clue",
+    "pronunciation": "the LAYT TRAKS",
+    "short_pronunciation": "the LAYT TRAKS",
+    "note": ""
+  },
+  "route-assurance-contracttm": {
+    "name": "Route Assurance Contract™",
+    "type": "clue",
+    "pronunciation": "ROOT uh-SHOOR-ints KON-trakt",
+    "short_pronunciation": "ROOT uh-SHOOR-ints KON-trakt",
+    "note": ""
+  },
+  "the-pre-dated-invoice": {
+    "name": "The Pre-Dated Invoice",
+    "type": "clue",
+    "pronunciation": "the PREE-day-tid IN-voys",
+    "short_pronunciation": "the PREE-day-tid IN-voys",
+    "note": ""
+  },
+  "the-convenient-renewal": {
+    "name": "The Convenient Renewal",
+    "type": "clue",
+    "pronunciation": "the kun-VEEN-yent rih-NOO-ul",
+    "short_pronunciation": "the kun-VEEN-yent rih-NOO-ul",
+    "note": ""
+  },
+  "old-contract-tags": {
+    "name": "Old Contract Tags",
+    "type": "clue",
+    "pronunciation": "OHLD KON-trakt TAGZ",
+    "short_pronunciation": "OHLD KON-trakt TAGZ",
+    "note": ""
+  },
+  "the-held-blow": {
+    "name": "The Held Blow",
+    "type": "clue",
+    "pronunciation": "the HELD BLOH",
+    "short_pronunciation": "the HELD BLOH",
+    "note": ""
+  },
+  "the-interrogation-answer": {
+    "name": "The Interrogation Answer",
+    "type": "clue",
+    "pronunciation": "the in-TAIR-uh-GAY-shun AN-ser",
+    "short_pronunciation": "the in-TAIR-uh-GAY-shun AN-ser",
+    "note": ""
+  },
+  "the-painted-joy": {
+    "name": "The Painted Joy",
+    "type": "clue",
+    "pronunciation": "the PAYN-tid JOY",
+    "short_pronunciation": "the PAYN-tid JOY",
+    "note": ""
+  },
+  "the-ward-subscription": {
+    "name": "The Ward Subscription",
+    "type": "clue",
+    "pronunciation": "the WORD sub-SKRIP-shun",
+    "short_pronunciation": "the WORD sub-SKRIP-shun",
+    "note": ""
+  },
+  "the-cheerful-ledger": {
+    "name": "The Cheerful Ledger",
+    "type": "clue",
+    "pronunciation": "the CHEER-ful LEJ-er",
+    "short_pronunciation": "the CHEER-ful LEJ-er",
+    "note": ""
+  },
+  "the-drained-water": {
+    "name": "The Drained Water",
+    "type": "clue",
+    "pronunciation": "the DRAYND WAW-ter",
+    "short_pronunciation": "the DRAYND WAW-ter",
+    "note": ""
+  },
+  "the-patched-everything": {
+    "name": "The Patched Everything",
+    "type": "clue",
+    "pronunciation": "the PACHT EV-ree-thing",
+    "short_pronunciation": "the PACHT EV-ree-thing",
+    "note": ""
+  },
+  "the-tired-smile": {
+    "name": "The Tired Smile",
+    "type": "clue",
+    "pronunciation": "the TY-erd SMYL",
+    "short_pronunciation": "the TY-erd SMYL",
+    "note": ""
+  },
+  "the-welcome-broadcasttm": {
+    "name": "The Welcome Broadcast™",
+    "type": "clue",
+    "pronunciation": "the WEL-kum BRAWD-kast",
+    "short_pronunciation": "the WEL-kum BRAWD-kast",
+    "note": ""
+  },
+  "nature-is-deadly-placardtm": {
+    "name": "Nature-Is-Deadly Placard™",
+    "type": "clue",
+    "pronunciation": "NAY-cher iz DED-lee PLAK-erd",
+    "short_pronunciation": "NAY-cher iz DED-lee PLAK-erd",
+    "note": ""
+  },
+  "bramble-are-criminals-noticetm": {
+    "name": "Bramble-Are-Criminals Notice™",
+    "type": "clue",
+    "pronunciation": "BRAM-bul ar KRIM-ih-nulz NOH-tis",
+    "short_pronunciation": "BRAM-bul ar KRIM-ih-nulz NOH-tis",
+    "note": ""
+  },
+  "fire-solutions": {
+    "name": "Fire Solutions",
+    "type": "corporation",
+    "pronunciation": "FY-er so-LOO-shunz",
+    "short_pronunciation": "FY-er so-LOO-shunz",
     "note": ""
   }
 }

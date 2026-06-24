@@ -1,0 +1,99 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "scene",
+  "id": "S01-02",
+  "title": "S01-02 - The Overturned Vendor Cart",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "7c0e8200d6bc724a",
+  "sections": [
+    {
+      "title": "Player read-aloud",
+      "body": "A vendor cart lies sideways across the road. Produce and invoices spill into the mud. A polished placard blinks: INCIDENT RESPONSE EXPECTED WITHIN 3–5 BUSINESS DAYS."
+    },
+    {
+      "title": "Scene summary",
+      "body": "The party finds a vendor cart blocking the road, with spilled produce, invoices, and a useless incident placard."
+    },
+    {
+      "title": "Visible choices",
+      "items": [
+        "Investigate the cart",
+        "Move the cart",
+        "Call out into the woods",
+        "Approach the body"
+      ]
+    },
+    {
+      "title": "Player questions",
+      "items": [
+        "What detail in The Overturned Vendor Cart tells you the official story is incomplete?",
+        "Who notices the human cost first, and how do they show it?",
+        "What small object, smell, or sound makes this scene feel real?",
+        "What cheerful warning sign did your character dismiss as marketing copy before realizing it was true?"
+      ]
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "The placard can be a standard route-monitoring glyph, not proof that anyone meaningfully knows what happened.",
+        "Keep player-facing information actionable. Reveal systemic truth through objects, reactions, and consequences before naming it.",
+        "Sablewood route lore: this is an approved path, and the body/cart disruption should feel like a coverage failure as much as a wilderness event.",
+        "Manufactured-threat lens: seed the contradiction, do not explain it. The surface goal stays simple and heroic.",
+        "[KEEP/EARNED] The driver died from a cut throat; the strixwolf did not kill him. (Instinct or Knowledge Medium 15)",
+        "[ADD/EARNED] Near the cart is a pre-written Grail \"Hazard Confirmed: Strixwolf Attack\" tag. (Finesse or Instinct Medium 15)"
+      ]
+    },
+    {
+      "title": "Checks and rolls",
+      "items": [
+        "Instinct or Knowledge Separate animal scavenging from staged violence. Standard The PCs learn Tamsin was likely killed by humanoids. 15 Cleanly resolve: Separate animal scavenging from staged violence. Add a concrete boon, extra clue, or improved position. Success, plus the player names one helpful detail or asks one follow-up question. Success, but the GM exposes a cost, ticks a countdown, or reveals a new pressure tied to The Overturned Vendor Cart. The full goal slips, but the party still learns a useful truth or avoids the worst consequence. The GM makes a hard move that follows from the fiction and leaves the next choice visible. Spend Fear to separate true evidence from a tempting false read, or put the carriage/cargo under time pressure. On mixed or sliding results, reveal information in layers: visible fact, actionable clue, then systemic truth."
+      ]
+    },
+    {
+      "title": "Clues",
+      "items": [
+        "Route Ledger The delivery was delayed. Someone manipulated the logistics trail. The ledger's time marks do not match the official route.",
+        "Bramble Strand Someone else was here. Bramble Union scouts marked the site. A tied plant-fiber marker under the cart.",
+        "Earned seed Available if players investigate, show mercy, or ask the right question. The driver died from a cut throat; the strixwolf did not kill him. Instinct or Knowledge Medium 15",
+        "Earned seed Available if players investigate, show mercy, or ask the right question. Near the cart is a pre-written Grail \"Hazard Confirmed: Strixwolf Attack\" tag. Finesse or Instinct Medium 15"
+      ]
+    },
+    {
+      "title": "Loot",
+      "items": [
+        "Use Vendor Cart and Tamsin Vell search tables",
+        "Keystone Asset™: Inside the sealed crate, packed in wax-paper and reassurance, sits a heavy grey stone the size of a loaf, warm to the touch, faintly humming, with a light deep inside it that is slowly going out.",
+        "Incident Response Placard™: A flat brass disc on a post holds a watchful glyph and a single cheerful bell. When trouble happens nearby, the glyph lights, the bell rings once, brightly, and then nothing else happens at all.",
+        "Sableblade: Growing straight up out of dark forest soil, like a sapling that decided to be a sword, is a blade of living dark wood and pale metal. It has no maker's mark and hums when your hand nears the hilt.",
+        "Recall Stone: A smooth grey pebble feels warm and ordinary until it refuses to stay where you put it. Set it down, look away, and it waits back in your palm.",
+        "Goldwater Liability Token™: A heavy brass chit with a smiling coin-face drops into your palm like a tiny verdict. The fine print is too small to read without feeling blamed.",
+        "Tamsin's Home-Token: A small thumb-polished token on a cord hangs beside the torn blue scarf, warm from wear and etched with a tiny house mark instead of a company seal.",
+        "Cracked Pocket Ward™: A cheap little ward charm sits cracked down the middle, still trying to glow through a smiling warranty sticker."
+      ]
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Plot So Far: The party is in Act One pressure: The party finds a vendor cart blocking the road, with spilled produce, invoices, and a useless incident placard.",
+        "Mechanics In Play: Use Daggerheart Duality Dice as baseline. Use the listed Difficulty and outcome options when a roll matters. Keep trivial actions no-roll; roll only when uncertainty, cost, or danger is interesting.",
+        "Roll Cards: s01-02-search-tamsin-vell S01-02 Search Tamsin Vell Search Tamsin Vell Instinct Knowledge Instinct Knowledge 12 Instinct notices wounds and threat posture; Knowledge reconstructs the scene. A false monster-read hides the murder. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. A false monster-read hides the murder. Use a hard complication, lost time...",
+        "Gm Fear Spends: Make the safe road feel less safe: noise, scent, cracked wheel, or cargo hum. Separate evidence from assumption so a monster read is tempting but incomplete.",
+        "Conditions Hazards: Hidden",
+        "Search Loot Clues: Search Tamsin Vell / Vendor Cart: Pocket Ward, manifest, Goldwater slip, route ledger, lived-in details.",
+        "No Roll Guidance: Do not call for a roll when the players have time, a clear method, and no meaningful pressure.",
+        "Escalation: Escalate by making cost visible: time, noise, trust, ward instability, or someone vulnerable in danger.",
+        "Deescalation: De-escalate through respect, care, honest testimony, useful evidence, or a concrete concession.",
+        "Tv Mechanics Caption: Public cue: The Overturned Vendor Cart asks what the party does, what it costs, and who is protected.",
+        "Trait Variety Note: Primary traits in this scene: Finesse, Instinct, Knowledge. If rolls drift toward Instinct/Presence, ask whether Agility, Strength, Finesse, or Knowledge better describes the action.",
+        "Class Community Ancestry Reveals: Loreborne: spots older legal, heraldic, or ward-craft language under the branding. Underborne: notices service doors, hidden routes, and who built the thing nobody credits. Highborne: reads etiquette, class panic, and reputational risk. Ridgeborne: notices stonework, weight, pressure, and structural weakness. Wildborne: reads the land, animals, and local ecological stress. Elf/Ribbet/Human/Giant/Katari: invite one sensory or social detail from the player's heritage. Sorcerer/Rogue/Warrior/Guardian/Ranger: give each class one table-facing way to shine without changing the plot."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 7c0e8200d6bc724a | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

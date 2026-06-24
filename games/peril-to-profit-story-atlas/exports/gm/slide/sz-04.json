@@ -1,0 +1,56 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "SZ-04",
+  "title": "SZ-04 - Character Selection / Sheet Orientation",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "0323990d9888d241",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "In front of you: a character sheet, quick rules card, connection sheet, and safety card. Your sheet tells you who your character is, what they are good at, what they can do, and how much pressure or harm they can take."
+    },
+    {
+      "title": "Public objective",
+      "body": "In front of you: a character sheet, quick rules card, connection sheet, and safety card. Your sheet tells you who your character is, what they are good at, what they can do, and how much pressure or harm they can take."
+    },
+    {
+      "title": "Player bullets",
+      "items": [
+        "Look for: name and vibe, traits, Experiences, weapons/actions, Hope, Stress, Hit Points, Armor, and class/domain abilities.",
+        "Pick or confirm a character. If you chose ahead of time, make sure the sheet in front of you matches that choice.",
+        "Marlowe Fairwind - playable Loreborne Elf Sorcerer pregen and default package custodian; she receives the job with the crew.",
+        "Barnacle - sneaky rogue with questionable logistics instincts.",
+        "Garrick Reed - kind ex-security warrior.",
+        "Khari Nix - giant guardian loyal to people before contracts.",
+        "Varian Soto - sharp-eyed ranger tracking unlicensed apex fauna."
+      ]
+    },
+    {
+      "title": "GM goal",
+      "body": "Choose pregens, orient players to character sheets, and preserve Marlowe or a chosen replacement PC as the crew's package custody holder without making any PC the sole job-giver."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "Script: Tell players what is physically in front of them and point to each major sheet area. Marlowe stays a PC and default package custodian unless replaced; Sabine can be used in the Prologue only as an optional backup NPC job-giver. Either way, everyone receives the job together.",
+        "Quick mode: use pregens as written.",
+        "Guided mode: rename, pronouns, look, motive, and equivalent Experience label only.",
+        "Do not change stats, damage, cards, class features, or balance during a short public slot.",
+        "Checklist: Characters selected; Marlowe PC or chosen package custodian status assigned; Handouts confirmed",
+        "GM-only: What PCs do not know: ward function, soul-economy implications, Bramble Union motives, final ritual threat, Relay Spire hook."
+      ]
+    },
+    {
+      "title": "GM script",
+      "body": "Tell players what is physically in front of them and point to each major sheet area. Marlowe stays a PC and default package custodian unless replaced; Sabine can be used in the Prologue only as an optional backup NPC job-giver. Either way, everyone receives the job together."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 0323990d9888d241 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

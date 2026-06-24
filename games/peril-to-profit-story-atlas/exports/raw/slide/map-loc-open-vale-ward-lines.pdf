@@ -1,0 +1,427 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2458 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-open-vale-ward-lines - Open Vale Ward Lines Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The path ahead begins to glow in thin lines through earth and bark, all converging) Tj
+T*
+(toward the Open Vale.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(The path ahead begins to glow in thin lines through earth and bark, all converging) Tj
+T*
+(toward the Open Vale.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-open-vale-ward-lines) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: ACT-FOUR) Tj
+T*
+(- Sectiontitle: Act Four: The Hanging Office) Tj
+T*
+(- Title: Open Vale Ward Lines Location Map) Tj
+T*
+(- Shorttitle: The Road to Open Vale) Tj
+T*
+(- Order: 504.08) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-open-vale-ward-lines-gm.png) Tj
+T*
+(- Alt: Open Vale Ward Lines location map board.) Tj
+T*
+(- Caption: Visual reference for Open Vale Ward Lines.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Use this as the Act 4 to Act 5 forward edge, gated on commitment and) Tj
+T*
+(  ritual_prep.) Tj
+T*
+(- Publicobjective: The path ahead begins to glow in thin lines through earth and bark,) Tj
+T*
+(  all converging toward the Open Vale.) Tj
+T*
+(- Readaloud: The path ahead begins to glow in thin lines through earth and bark, all) Tj
+T*
+(  converging toward the Open Vale.) Tj
+T*
+(- Gmscript: Say: "This is the forward edge. Once ritual_prep is set, this map points) Tj
+T*
+(  cleanly into Act 5.") Tj
+T*
+(- Gmreadaloud: Ward lines glow through earth and bark. They converge toward the Open) Tj
+T*
+(  Vale. The deep preserve begins to stir.) Tj
+T*
+(- Gmchecklist: Set ritual_prep. Set ward_stability. Move forward to S05-01 / ACT-FIVE.) Tj
+T*
+(  Do not create alternate Act 4 exits.) Tj
+T*
+(- Gmprivate: ward_stability carries into the Act 5 countdown. Stable means kinder) Tj
+T*
+(  start; fragile means harsher pressure.) Tj
+T*
+(- Playertakeaway: The path ahead begins to glow in thin lines through earth and bark,) Tj
+T*
+(  all converging toward the Open Vale.) Tj
+T*
+(- Storytakeaway: The party is no longer delivering the package; they are walking) Tj
+T*
+(  toward the ritual that decides what the delivery means.) Tj
+T*
+(- Mechanictakeaway: This map carries ritual_prep and ward_stability into Act 5.) Tj
+T*
+(- Entityids: whitefire-custodian ward-moths sunfire-lily mist-things) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4157 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Entities: whitefire-custodian Whitefire Custodian npc NPC / Ally) Tj
+T*
+(  assets/icons/npc.png assets/npc-images/whitefire-custodian/portrait_base.png WHITE-) Tj
+T*
+(  fire kus-TOH-dee-un Old faerie-like custodian who maintains the ward protecting) Tj
+T*
+(  Hush. Truth-bearer for the Keystone reveal. Whitefire Custodian an old faerie-like) Tj
+T*
+(  ward keeper whose exhaustion glows around the edges Ancient kindness running on) Tj
+T*
+(  fumes, glowing a little brighter whenever someone tells the truth nearby. Wants to) Tj
+T*
+(  keep one place honestly safe long enough for people to remember that safety can be) Tj
+T*
+(  care instead of a product, and is quietly breaking under the cost of it. Renew the) Tj
+T*
+(  ward without being treated as a device. Please do not call me the ward interface. an) Tj
+T*
+(  old faerie-like ward keeper whose exhaustion glows around the edges npc-profile-v1) Tj
+T*
+(  NPC_System_Packet + image-informed hardening Whitefire Custodian an old faerie-like) Tj
+T*
+(  ward keeper whose exhaustion glows around the edges A tall luminous faerie custodian) Tj
+T*
+(  stands like living bark and white fire, branchlike crown, translucent wings, and) Tj
+T*
+(  warm gold light gathered in the chest. Whitefire Custodian: an old faerie-like ward) Tj
+T*
+(  keeper whose exhaustion glows around the edges Whitefire...) Tj
+T*
+(- Statecontrols: ritual_prep Ritual Prep select unready ready ward_stability Ward) Tj
+T*
+(  Stability select fragile stable custodian_trust Custodian Trust select low neutral) Tj
+T*
+(  high keystone_understanding Keystone Understanding select surface deep) Tj
+T*
+(- Mechanicids: knowledge instinct short-rest hope fear) Tj
+T*
+(- Fearspends: One groove lights red under a player hand. Dust forms the shape of an) Tj
+T*
+(  invoice seal. The Keystone answers before anyone asks.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S04-05 S05-01) Tj
+T*
+(- Mapdata: MAP-LOC-open-vale-ward-lines environment Open Vale Ward Lines Location Map) Tj
+T*
+(  S04-05 whitefire-custodian ward-moths sunfire-lily mist-things assets/location-) Tj
+T*
+(  visuals/open-vale-ward-lines/profile_scene_v02.png Visual reference for Open Vale) Tj
+T*
+(  Ward Lines. Open Vale Ward Lines location map board. The path ahead begins to glow) Tj
+T*
+(  in thin lines through earth and bark, all converging toward the Open Vale. The path) Tj
+T*
+(  ahead begins to glow in thin lines through earth and bark, all converging toward the) Tj
+T*
+(  Open Vale. Use this as the Act 4 to Act 5 forward edge, gated on commitment and) Tj
+T*
+(  ritual_prep. Thin lines run through stone, root, and soil toward the ritual center.) Tj
+T*
+(  Dust lifts from them when the Keystone is near. Some lines are bright where people) Tj
+T*
+(  gather; others are dim near neglected edges. Ward-light ticks in grooves, wind thins) Tj
+T*
+(  near the center, and voices come back as if the clearing is measuring them. Ozone,) Tj
+T*
+(  old chalk, wet stone, and a faint sweetness like crushed clover under lightning. The) Tj
+T*
+(  grooves feel smooth in the center and sharp where the ward has cracked. Animals keep) Tj
+T*
+(  to the edge. The place feels operational and old, not abandoned. Thin lines run) Tj
+T*
+(  through stone, root, and soil toward the...) Tj
+T*
+(- Sourcefiles: dist/Act4_Upgrade_Packet/ACT4_MAPS_AND_LOCATIONS.md) Tj
+T*
+(- References: Toward Open Vale #S04-05 Act Five #ACT-FIVE) Tj
+T*
+(- Livetools: scene MAP-LOC-open-vale-ward-lines) Tj
+T*
+(- Percharacterlayer: khari-nix Khari Nix The commitment A guardian can anchor the) Tj
+T*
+(  party's yes. Can be the one who says they will help. Khari, if anyone is going to) Tj
+T*
+(  say 'we will help,' it is you. Want to be the one who commits the party? marlowe-) Tj
+T*
+(  fairwind Marlowe Fairwind Ritual prep Best placed to learn the ritual shape from the) Tj
+T*
+(  Custodian. Knowledge 13 Learns the ritual structure and helps set ritual_prep=ready.) Tj
+T*
+(  Can translate arcane prep into table roles. Marlowe, she will teach you the ritual's) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4350 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  shape if you ask. Want to learn it and prep the party? garrick-reed Garrick Reed) Tj
+T*
+(  Defense plan Naturally plans who guards whom when danger arrives. Can establish Act) Tj
+T*
+(  5 positioning and watches. Garrick, you can plan how to defend her mid-ritual. Want) Tj
+T*
+(  to set the watch order now? varian-soto Varian Soto Scout the draw Can sense what) Tj
+T*
+(  the rising magic might attract from the deep preserve. Instinct 13 Foreshadows Act 5) Tj
+T*
+(  danger and helps prepare routes. Can scout the approach in fiction before the party) Tj
+T*
+(  moves. Varian, you can read what the deep preserve will send when the magic rises.) Tj
+T*
+(  Want to scout ahead in your mind? barnacle Barnacle Cash in favors Knows how to turn) Tj
+T*
+(  festival_boon or Hush goodwill into actual prep...) Tj
+T*
+(- Gmbeats: MAP-LOC-open-vale-ward-lines-bridge Bridge Act 5 bridge Say: "Set) Tj
+T*
+(  ritual_prep and ward_stability, then move to Act 5." Ward lines converge toward the) Tj
+T*
+(  Open Vale. Act 4 consequence becomes Act 5 pressure. State carries the transition.) Tj
+T*
+(  Players know the finale path is open. Player takeaway Players know the finale path) Tj
+T*
+(  is open. "Set ritual_prep and ward_stability, then move to Act 5." "The playable) Tj
+T*
+(  fact is: Ward lines converge toward the Open Vale." Concrete actions for this beat:) Tj
+T*
+(  look closely, ask the Custodian a direct question, commit to a choice, or take one) Tj
+T*
+(  prep action. knowledge short-rest Story takeaway Act 4 consequence becomes Act 5) Tj
+T*
+(  pressure. "Set ritual_prep and ward_stability, then move to Act 5." "The story fact) Tj
+T*
+(  in play is: Act 4 consequence becomes Act 5 pressure." This beat changes Act 4) Tj
+T*
+(  through this exact pressure: Act 4 consequence becomes Act 5 pressure. knowledge) Tj
+T*
+(  short-rest Mechanic takeaway State carries the transition. "Set ritual_prep and) Tj
+T*
+(  ward_stability, then move to Act 5." "The active procedure is: State carries the) Tj
+T*
+(  transition." Run intent first. Use Presence for trust, Knowledge for ward or stone) Tj
+T*
+(  truths, Instinct for preserve danger, and Agility or Finesse for...) Tj
+T*
+(- Takeawayhelp: Player takeaway This is the Act 5 forward edge. "The road to the Open) Tj
+T*
+(  Vale opens. From here, the ritual starts." "Set prep now. Once you step forward, the) Tj
+T*
+(  finale pressure begins." Do not create other Act 4 exits. knowledge instinct short-) Tj
+T*
+(  rest Story takeaway The delivery has become ritual duty. "You are no longer walking) Tj
+T*
+(  toward a handoff. You are walking toward the ward renewal." "The glowing lines) Tj
+T*
+(  converge because the ritual site is close." Keep the answer concrete and player-) Tj
+T*
+(  safe. knowledge instinct short-rest Mechanic takeaway ritual_prep and ward_stability) Tj
+T*
+(  carry forward. "Ready prep and stable ward lines make Act 5 kinder. Rushing makes it) Tj
+T*
+(  harsher." "Knowledge 13 reads stability; Instinct 13 reads what the magic will) Tj
+T*
+(  draw." This is the bridge from Act 4 choice to Act 5 countdown. knowledge instinct) Tj
+T*
+(  short-rest) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-open-vale-ward-lines.png The Road to Open Vale map) Tj
+T*
+(  board. MAP-LOC-open-vale-ward-lines environment The Road to Open Vale S04-05) Tj
+T*
+(  assets/maps/MAP-LOC-open-vale-ward-lines.png assets/maps/MAP-LOC-open-vale-ward-) Tj
+T*
+(  lines.png The Road to Open Vale map board. The path ahead begins to glow in thin) Tj
+T*
+(  lines through earth and bark, all converging toward the Open Vale. The path ahead) Tj
+T*
+(  begins to glow in thin lines through earth and bark, all converging toward the Open) Tj
+T*
+(  Vale. MAP-LOC-open-vale-ward-lines-map-only Map only The Road to Open Vale map-only) Tj
+T*
+(  assets/maps/MAP-LOC-open-vale-ward-lines.png The Road to Open Vale map board. MAP-) Tj
+T*
+(  LOC-open-vale-ward-lines environment The Road to Open Vale S04-05 assets/maps/MAP-) Tj
+T*
+(  LOC-open-vale-ward-lines.png assets/maps/MAP-LOC-open-vale-ward-lines.png The Road) Tj
+T*
+(  to Open Vale map board. The path ahead begins to glow in thin lines through earth) Tj
+T*
+(  and bark, all converging toward the Open Vale. The path ahead begins to glow in thin) Tj
+T*
+(  lines through earth and bark, all converging toward the Open Vale. MAP-LOC-open-) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 1909 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  vale-ward-lines-map-text Map + text The Road to Open Vale The path ahead begins to) Tj
+T*
+(  glow in thin lines through earth and bark, all converging...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-open-vale-ward-lines map The Road to Open Vale) Tj
+T*
+(  assets/maps/MAP-LOC-open-vale-ward-lines.png The Road to Open Vale map board.) Tj
+T*
+(  spatial reference and location texture The path ahead begins to glow in thin lines) Tj
+T*
+(  through earth and bark, all converging toward the Open Vale. The path ahead begins) Tj
+T*
+(  to glow in thin lines through earth and bark, all converging toward the Open Vale.) Tj
+T*
+(  MAP-LOC-open-vale-ward-lines environment The Road to Open Vale S04-05) Tj
+T*
+(  assets/maps/MAP-LOC-open-vale-ward-lines.png assets/maps/MAP-LOC-open-vale-ward-) Tj
+T*
+(  lines.png The Road to Open Vale map board. The path ahead begins to glow in thin) Tj
+T*
+(  lines through earth and bark, all converging toward the Open Vale. The path ahead) Tj
+T*
+(  begins to glow in thin lines through earth and bark, all converging toward the Open) Tj
+T*
+(  Vale. assets/maps/MAP-LOC-open-vale-ward-lines.png The Road to Open Vale map board.) Tj
+T*
+(  MAP-LOC-open-vale-ward-lines environment The Road to Open Vale S04-05) Tj
+T*
+(  assets/maps/MAP-LOC-open-vale-ward-lines.png assets/maps/MAP-LOC-open-vale-ward-) Tj
+T*
+(  lines.png The Road to Open Vale map board. The path ahead begins to glow in thin) Tj
+T*
+(  lines through earth and bark, all converging toward the Open Vale. The path ahead) Tj
+T*
+(  begins to glow in thin...) Tj
+T*
+(- Slidenumber: 59) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash e59203866d70db7c | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R] /Count 4 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000002519 00000 n 
+0000002646 00000 n 
+0000006855 00000 n 
+0000006982 00000 n 
+0000011384 00000 n 
+0000011511 00000 n 
+0000013472 00000 n 
+0000013599 00000 n 
+0000013674 00000 n 
+0000013724 00000 n 
+trailer
+<< /Size 12 /Root 10 0 R >>
+startxref
+13797
+%%EOF

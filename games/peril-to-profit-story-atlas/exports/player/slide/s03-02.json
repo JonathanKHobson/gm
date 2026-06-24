@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S03-02",
+  "kind": "slide",
+  "title": "S03-02 - Local Clues",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act Three: Seeking a Custodian",
+  "hook": "The town is happy to talk. Everyone seems to know the person you are looking for, though they are protective of her. A friendly local can point the way, if the town decides you are safe enough to send toward someone it...",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "The town is happy to talk. Everyone seems to know the person you are looking for, though they are protective of her. A friendly local can point the way, if the town decides you are safe enough to send toward someone it loves."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Find someone who can point you toward the person who keeps the ward working."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:S03-02",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "010b697689e442df",
+  "generated_at": "2026-06-23T21:40:58"
+}

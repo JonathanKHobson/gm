@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "the-midnight-cabal",
+  "kind": "entity",
+  "title": "The Midnight Cabal",
+  "in_world_label": "Public Notice",
+  "brand_flag": "No slogan survives daylight.",
+  "kicker": "A whispered name for impossible jobs and doors that opened without permission.",
+  "hook": "The Midnight Cabal: a whispered future-thread name for impossible jobs and locked doors that opened anyway.",
+  "blocks": [
+    {
+      "label": "Public Face",
+      "body": "A whispered name for impossible jobs and doors that opened without permission."
+    },
+    {
+      "label": "Slogan",
+      "body": "No slogan survives daylight."
+    },
+    {
+      "label": "How To Deal",
+      "body": "Nobody reliable claims to have hired the Midnight Cabal. That is part of the brand, if it is a brand. The stories always include one locked door, one unpaid debt, and one witness who insists the candle blew out by itself."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask what they publicly promise.",
+    "Compare their slogan to what they actually do in the scene."
+  ],
+  "archetype": "faction.flyer",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:the-midnight-cabal",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "f3fcfb61fcc4bec6",
+  "generated_at": "2026-06-23T21:40:58"
+}

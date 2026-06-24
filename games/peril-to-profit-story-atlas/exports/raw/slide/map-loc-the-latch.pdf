@@ -1,0 +1,314 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2391 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-the-latch - The Latch Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The Latch feels like a threshold that decides whether access is earned, bought, or) Tj
+T*
+(refused.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(The Latch feels like a threshold that decides whether access is earned, bought, or) Tj
+T*
+(refused.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-the-latch) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: STORY) Tj
+T*
+(- Sectiontitle: Map Board) Tj
+T*
+(- Title: The Latch Location Map) Tj
+T*
+(- Shorttitle: The Latch) Tj
+T*
+(- Order: 851.4) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-the-latch-gm.png) Tj
+T*
+(- Alt: The Latch location map board.) Tj
+T*
+(- Caption: Visual reference for The Latch.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Make entry feel chosen by people, not granted by map travel.) Tj
+T*
+(- Publicobjective: The Latch feels like a threshold that decides whether access is) Tj
+T*
+(  earned, bought, or refused.) Tj
+T*
+(- Readaloud: The Latch feels like a threshold that decides whether access is earned,) Tj
+T*
+(  bought, or refused.) Tj
+T*
+(- Playertakeaway: The Latch feels like a threshold that decides whether access is) Tj
+T*
+(  earned, bought, or refused.) Tj
+T*
+(- Storytakeaway: The Latch makes access relational instead of automatic.) Tj
+T*
+(- Mechanictakeaway: Use as social threshold only if visited.) Tj
+T*
+(- Entityids: the-latch) Tj
+T*
+(- Entities: the-latch The Latch location Location assets/icons/location.png) Tj
+T*
+(  assets/location-visuals/the-latch/profile_scene_v02.png the latch, like a gate latch) Tj
+T*
+(  A settlement or gateway whose name makes local access feel earned rather than) Tj
+T*
+(  purchased. Make entry feel chosen by people, not granted by map travel. A settlement) Tj
+T*
+(  or gateway whose name makes local access feel earned rather than purchased.;) Tj
+T*
+(  introduce it with a sensory palette, who feels safe there, and what has been) Tj
+T*
+(  neglected. Pull player attention toward the choices, clues, and relationships tied) Tj
+T*
+(  to Sablewood Route Network, Underroot, The Sable Stills. A settlement or gateway) Tj
+T*
+(  whose name makes local access feel earned rather than purchased.) Tj
+T*
+(- Locationids: the-latch) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4277 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Fearspends: The latch opens before anyone admits they chose to open it. A watcher) Tj
+T*
+(  names the party's cargo from behind the gate.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Mapdata: MAP-LOC-the-latch environment The Latch Location Map the-latch) Tj
+T*
+(  assets/location-visuals/the-latch/profile_scene_v02.png Visual reference for The) Tj
+T*
+(  Latch. The Latch location map board. The Latch feels like a threshold that decides) Tj
+T*
+(  whether access is earned, bought, or refused. The Latch feels like a threshold that) Tj
+T*
+(  decides whether access is earned, bought, or refused. Make entry feel chosen by) Tj
+T*
+(  people, not granted by map travel. A gate, narrow pass, or settlement edge is) Tj
+T*
+(  reinforced with practical repairs rather than show. Marks show where people wait) Tj
+T*
+(  before being invited through. The real lock is social: who vouches, who listens, and) Tj
+T*
+(  who arrives with trouble. Leaf-drip, insects, distant wingbeats, and animal calls) Tj
+T*
+(  that stop or resume according to pressure, not comfort. Wet iron, woodsmoke, packed) Tj
+T*
+(  dirt, and old rope. The latch itself is hand-worn, heavy, and warmer than the metal) Tj
+T*
+(  around it. The forest is populated even when no NPC is present; silence, birds,) Tj
+T*
+(  insects, and tracks are actionable signals. A gate, narrow pass, or settlement edge) Tj
+T*
+(  is reinforced with practical repairs rather than show. Marks show where people wait) Tj
+T*
+(  before being invited through. The real lock is social: who...) Tj
+T*
+(- Livetools: scene MAP-LOC-the-latch) Tj
+T*
+(- Takeawayhelp: Player takeaway: MAP-LOC-the-latch The Latch feels like a threshold) Tj
+T*
+(  that decides whether access is earned, bought, or refused. Give the player one) Tj
+T*
+(  concrete way back into play: a question, a description, a choice, or a pass-and-) Tj
+T*
+(  return moment. "Your takeaway right now is this: The Latch feels like a threshold) Tj
+T*
+(  that decides whether access is earned, bought, or refused." "If you are not sure) Tj
+T*
+(  what to do next, you can ask a question, describe what your character notices, or) Tj
+T*
+(  tell me what your character tries." "If you are not sure what to do next, you can) Tj
+T*
+(  ask a question, describe what your character notices, or tell me what your character) Tj
+T*
+(  tries." Give the player one concrete way back into play: a question, a description,) Tj
+T*
+(  a choice, or a pass-and-return moment. Story takeaway: MAP-LOC-the-latch The Latch) Tj
+T*
+(  makes access relational instead of automatic. Anchor the answer in the visible) Tj
+T*
+(  fiction on this slide: who is present, what can be observed, what has already been) Tj
+T*
+(  said, and what remains uncertain. "Here is what your characters know right now: The) Tj
+T*
+(  Latch makes access relational instead of automatic." "If you want more detail, ask) Tj
+T*
+(  it in the scene. I will answer the part your character can see...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-the-latch-player.png The Latch location map board.) Tj
+T*
+(  MAP-LOC-the-latch environment The Latch assets/maps/MAP-LOC-the-latch-player.png) Tj
+T*
+(  assets/maps/MAP-LOC-the-latch-player.png Visual reference for The Latch. The Latch) Tj
+T*
+(  location map board. The Latch feels like a threshold that decides whether access is) Tj
+T*
+(  earned, bought, or refused. The Latch feels like a threshold that decides whether) Tj
+T*
+(  access is earned, bought, or refused. MAP-LOC-the-latch-map-only Map only The Latch) Tj
+T*
+(  map-only assets/maps/MAP-LOC-the-latch-player.png The Latch location map board. MAP-) Tj
+T*
+(  LOC-the-latch environment The Latch assets/maps/MAP-LOC-the-latch-player.png) Tj
+T*
+(  assets/maps/MAP-LOC-the-latch-player.png Visual reference for The Latch. The Latch) Tj
+T*
+(  location map board. The Latch feels like a threshold that decides whether access is) Tj
+T*
+(  earned, bought, or refused. The Latch feels like a threshold that decides whether) Tj
+T*
+(  access is earned, bought, or refused. MAP-LOC-the-latch-map-text Map + text The) Tj
+T*
+(  Latch The Latch feels like a threshold that decides whether access is earned,) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 1877 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  bought, or refused. The Latch feels like a threshold that decides whether access is) Tj
+T*
+(  earned, bought, or refused. map-text...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-the-latch map The Latch assets/maps/MAP-LOC-the-latch-) Tj
+T*
+(  player.png The Latch location map board. Visual reference for The Latch. spatial) Tj
+T*
+(  reference and location texture The Latch feels like a threshold that decides whether) Tj
+T*
+(  access is earned, bought, or refused. The Latch feels like a threshold that decides) Tj
+T*
+(  whether access is earned, bought, or refused. MAP-LOC-the-latch environment The) Tj
+T*
+(  Latch assets/maps/MAP-LOC-the-latch-player.png assets/maps/MAP-LOC-the-latch-) Tj
+T*
+(  player.png Visual reference for The Latch. The Latch location map board. The Latch) Tj
+T*
+(  feels like a threshold that decides whether access is earned, bought, or refused.) Tj
+T*
+(  The Latch feels like a threshold that decides whether access is earned, bought, or) Tj
+T*
+(  refused. assets/maps/MAP-LOC-the-latch-player.png The Latch location map board. MAP-) Tj
+T*
+(  LOC-the-latch environment The Latch assets/maps/MAP-LOC-the-latch-player.png) Tj
+T*
+(  assets/maps/MAP-LOC-the-latch-player.png Visual reference for The Latch. The Latch) Tj
+T*
+(  location map board. The Latch feels like a threshold that decides whether access is) Tj
+T*
+(  earned, bought, or refused. The Latch feels like a threshold that decides whether) Tj
+T*
+(  access is earned, bought, or refused. MAP-LOC-the-latch-map-only Map...) Tj
+T*
+(- Slidenumber: 95) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 3353f0f1dbdae7ba | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002452 00000 n 
+0000002578 00000 n 
+0000006907 00000 n 
+0000007033 00000 n 
+0000008962 00000 n 
+0000009088 00000 n 
+0000009157 00000 n 
+0000009206 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+9278
+%%EOF

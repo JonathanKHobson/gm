@@ -1,0 +1,43 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "slide",
+  "id": "CHEAT-PC",
+  "title": "CHEAT-PC - PC / Player Cheat Sheet",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "d78e2d3ce40447d4",
+  "sections": [
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: CHEAT-PC",
+        "Type: cheat",
+        "Sectionid: CHEATS",
+        "Sectiontitle: Cheat Sheets",
+        "Title: PC / Player Cheat Sheet",
+        "Shorttitle: PCs",
+        "Order: 902",
+        "Playersafe: False",
+        "Completioneligible: False",
+        "Caption: Pregen ancestry / community / class at a glance. Names link to full character entries.",
+        "Mood: reference",
+        "Gmgoal: Track who is playing whom and keep spotlight moving.",
+        "Gmnotes: Marlowe Fairwind (MAR-low FAIR-wind) — Elf / Loreborne / Sorcerer / Primal Origin • A playable pregen character and the default package custodian. Marlowe receives the job with the whole crew and gets her job-scene bonus insight plus extra Arcana check. • Wants: to carry package-custody pressure as a PC while receiving the job with the crew • Traits: Strength 0, Agility -1, Finesse +1, Instinct +2, Knowledge +1, Presence 0 • Evasion 10; Thresholds 7 / 14; Armor 3 / Slots 3 • Experiences: Royal Mage +2, Not On My Watch +2 • Weapon: Dualstaff, Instinct Far, 1d6+3 magic • Feature: Arcane Sense; Minor Illusion; Channel Raw Power. Barnacle (BAR-nuh-kul) — Ribbet / Underborne / Rogue / Nightwalker • A slippery route-finder who fears water and unsigned obligations. • Wants: to find the angle that keeps everyone alive • Traits: Strength +1, Agility -1, Finesse +2, Instinct 0, Knowledge +1, Presence 0 • Evasion 13; Thresholds 6 / 12; Armor 3 / Slots 3 • Experiences: They Don't See Me Coming! +2, Strike a Deal +2 • Weapon: Dagger, Finesse Melee, 1d8+1 physical • Feature: Cloaked; Sneak Attack. Garrick Reed (GAIR-ick REED) — Human / Highborne / Warrior / Call of the Brave • A kind warrior...",
+        "Playertakeaway: GM-only PC reference; use it to keep character identity and spotlight clear.",
+        "Storytakeaway: Each PC should feel distinct and connected to the delivery job.",
+        "Mechanictakeaway: Reference pregenerated traits, resources, Experiences, and features from the sheet registry.",
+        "References: Open editable PC sheets pages/pc-cheat-sheet.html Assign players, edit pregens, track spotlight / Hope / Fear",
+        "Entityids: marlowe-fairwind barnacle garrick-reed khari-nix varian-soto",
+        "Slidenumber: 107",
+        "Totalslides: 110",
+        "Playersafeprojection: CHEAT-PC cheat PC / Player Cheat Sheet Pregen ancestry / community / class at a glance. Names link to full character entries. reference"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash d78e2d3ce40447d4 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

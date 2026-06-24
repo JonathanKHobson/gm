@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S05-04",
+  "kind": "scene",
+  "title": "S05-04 - Legacy Security Skeletons",
+  "in_world_label": "Situation Briefing",
+  "brand_flag": "Briefing",
+  "kicker": "The Ward Renewal",
+  "hook": "Four skeletons tear upward from the soil, rusted swords raised like policies nobody remembered to cancel.",
+  "blocks": [
+    {
+      "label": "Where You Are",
+      "body": "Four skeletons tear upward from the soil, rusted swords raised like policies nobody remembered to cancel."
+    },
+    {
+      "label": "Plain Stakes",
+      "body": "Old ward-security remnants rise with rusted swords."
+    },
+    {
+      "label": "Visible Options",
+      "body": "Destroy skeletons quickly Tank group attack Kite them away from Custodian"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "What detail in Legacy Security Skeletons tells you the official story is incomplete?",
+    "Who notices the human cost first, and how do they show it?",
+    "What small object, smell, or sound makes this scene feel real?"
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - scene:S05-04",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "633535f5dcbb5cdb",
+  "generated_at": "2026-06-23T21:40:58"
+}

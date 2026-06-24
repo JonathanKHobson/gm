@@ -1,0 +1,46 @@
+# Official Conditions
+
+RAW export - entity:official-conditions
+
+## Player-facing description
+Official Conditions: Only Hidden, Restrained, and Vulnerable are listed as global conditions in this Atlas.
+
+## Public role
+Global official Daggerheart condition reference
+
+## Handout text
+Player-safe note: Only Hidden, Restrained, and Vulnerable are listed as global conditions in this Atlas.
+
+## Raw source
+- Type: mechanic
+- Role: Global official Daggerheart condition reference
+- Summary: Only Hidden, Restrained, and Vulnerable are listed as global conditions in this Atlas.
+- Tags: rules-canon condition mechanics
+- Aliases: Hidden Restrained Vulnerable Official Conditions condition reference conditions
+- Connections: Hidden Restrained Vulnerable GM Rules Drawer
+- Inventory: Hidden Restrained Vulnerable
+- Loot: No loot. Use to avoid invented condition drift.
+- Name: Official Conditions
+- Id: official-conditions
+- Meta: Mechanic MECHANIC assets/icons/mechanic.png entity-mechanic #87b9ff 08 Tables and Loot entities mechanic
+- Related: GM Rules Drawer Hidden Restrained Vulnerable
+- Image Prompt: Private table TTRPG story atlas asset for Official Conditions, Mechanic. Role: Global official Daggerheart condition reference. Summary: Only Hidden, Restrained, and Vulnerable are listed as global conditions in this Atlas.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: Only Hidden, Restrained, and Vulnerable are listed as global conditions in this Atlas.; keep the rule-facing state visible through fictional signs the table can understand.
+- Wants: Turn choices around Hidden, Restrained, Vulnerable into clear consequences the GM can track.
+- Fears: Becoming an invisible counter instead of a pressure the players can read, influence, and remember.
+- Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.
+- Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.
+- Sample Dialogue: Only Hidden, Restrained, and Vulnerable are listed as global conditions in this Atlas.
+- Equipment: Hidden Restrained Vulnerable
+- Search Or Loot: No loot. Use to avoid invented condition drift.
+- Gm Use: Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.
+- Future Hooks: Bring back as an echo if players made a strong choice involving this entity.
+- Robust: Official Conditions: Only Hidden, Restrained, and Vulnerable are listed as global conditions in this Atlas. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Turn choices around Hidden, Restrained, Vulnerable into clear consequences the GM can track. Becoming an invisible counter instead of a pressure the players can read, influence, and remember. Use when the scene needs a concrete object for players to inspect, carry, debate, or remember. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Official Conditions and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the institutional pattern. Wildborne / community: notices local use, neglect, or...
+- Pronunciation: Official Conditions
+- Short Pronunciation: Official Conditions
+- Image: assets/entities/official-conditions.webp
+- Image Asset Status: fallback_type_icon
+- Visual Gallery: primary Primary wiki image primary assets/entities/official-conditions.webp Official Conditions primary wiki image visual. Official Conditions: Primary wiki image. fallback_type_icon True True
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 4595c896bd350154 | Source hash dac3370046ed077140fab2d6

@@ -1,0 +1,52 @@
+# Spirekeeper
+
+RAW export - entity:spirekeeper
+
+## Player-facing description
+Spirekeeper: Unknown keeper of the western relay spire.
+
+## Public role
+Future-facing infrastructure witness who makes the relay problem feel human before it becomes a quest.
+
+## Handout text
+Player-safe note: Unknown keeper of the western relay spire.
+
+## Raw source
+- Type: npc
+- Role: Future-facing infrastructure witness who makes the relay problem feel human before it becomes a quest.
+- Tags: npc hook npc-profile
+- Summary: Unknown keeper of the western relay spire.
+- Connections: Relay Spire Whitefire Custodian
+- Loot: To be developed.
+- Name: Spirekeeper
+- Id: spirekeeper
+- Meta: NPC / Ally NPC assets/icons/npc.png entity-npc #f0aa45 03 NPCs entities npc
+- Aliases: Infrastructure Spirekeeper Relay Spirekeeper Spirekeeper the Spirekeeper
+- Appears In: S06-02
+- Related: Relay Spire S06-02 Whitefire Custodian
+- Image Prompt: Private table TTRPG story atlas asset for Spirekeeper, NPC / Ally. Role: Future-facing infrastructure witness who makes the relay problem feel human before it becomes a quest.. Summary: Unknown keeper of the western relay spire.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: Sleepless devotion to a fragile chain of care strung between far places. Ties a knot in a cord for every missed reply. Her worst fear is being the last person who knows a call went unanswered.
+- Wants: Keep the relay speaking through static, bells, and failing light.
+- Fears: Being the last person who knows a call was missed.
+- Secrets: The keeper has heard gaps in the signal that sound intentional, but proof is not yet safe.
+- Body Language: Look for the player's tone before answering fully. Show the want physically before explaining it.
+- Sample Dialogue: Hold on. A pulse just came in from the west, late again. Every knot in this rope is a message no one answered. I cannot leave. If I leave, the next one rings into nothing.
+- Equipment: No equipment; use as context, place, faction, mechanic, or clue rather than treasure. Spirekeeper Relay Keyring
+- Search Or Loot: To be developed. Loot / item link: Spirekeeper Relay Keyring (Gift, inheritance, or GM-only epilogue hook.).
+- Gm Use: Use this person to put a human face on the current pressure. Give them one concrete want before exposition.
+- Future Hooks: Follow the failing relay network after the one-shot.
+- Robust: Spirekeeper: Unknown keeper of the western relay spire. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. to keep the relay from failing alone that nobody will arrive until the tower is already billing the dead Use this person to put a human face on the current pressure. Give them one concrete want before exposition. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Spirekeeper and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the institutional pattern. Wildborne / community: notices local use, neglect, or ecological stress. Martial / security: reads custody, danger lines, and breach response. Magic: senses ward tone, soul-signal, or...
+- Mechanics: Social / Information Mechanics Players can interact, comfort, persuade, or earn trust Spirekeeper when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: Unknown keeper of the western relay spire. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-spirekeeper-engage-spirekeeper entity-spirekeeper Engage Spirekeeper Engage Spirekeeper Presence Knowledge Instinct Presence Knowledge, Instinct 12 Choose the trait from the player's method, not the entity type. A flat read of Spirekeeper hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains...
+- Pronunciation: SPIRE-kee-per
+- Short Pronunciation: SPIRE-kee-per
+- Npc Profile: npc-profile-v1 NPC_System_Packet + image-informed hardening Spirekeeper a sleepless keeper of relay mechanisms, bell chains, and failing signal lights A narrow, sleepless keeper in dark maintenance robes stands among hanging bells and relay chains, blue glass pendant at her chest and a keyring tucked into both hands. Spirekeeper: a sleepless keeper of relay mechanisms, bell chains, and failing signal lights Spirekeeper SPIRE-kee-per a sleepless keeper of relay mechanisms, bell chains, and failing signal lights Future-facing infrastructure witness who makes the relay problem feel human before it becomes a quest. GM hook NPC; clue bridge for relay signals, missed messages, and damaged ward infrastructure. Spirekeeper is a distinct person from The Relay Keeper: she tends one spire's mechanisms and notices the westward silence before anyone names the danger. A human face for failing infrastructure A clue about missed relay signals A reason to care before the next adventure starts Exhausted, precise, and relieved when someone listens through the whole signal. Patient help with the bells, lenses, and logs moves her faster than heroic declarations. Keep the relay speaking through...
+- One Line: a sleepless keeper of relay mechanisms, bell chains, and failing signal lights
+- Player Display Title: Spirekeeper
+- Player Display Caption: a sleepless keeper of relay mechanisms, bell chains, and failing signal lights
+- Item Links: spirekeeper-relay-keyring Spirekeeper Relay Keyring Relay Keeper Effects Gift, inheritance, or GM-only epilogue hook.
+- Image: assets/npc-images/spirekeeper/portrait_base.webp
+- Image Asset Status: npc_images
+- Visual Gallery: primary Primary wiki image primary assets/npc-images/spirekeeper/portrait_base.webp Spirekeeper primary wiki image visual. Spirekeeper: Primary wiki image. npc_images True True npc-fullbody_base Full-body npc-portrait assets/npc-images/spirekeeper/fullbody_base.webp Spirekeeper full-body visual. Spirekeeper: Full-body. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/spirekeeper/fullbody_base.png npc-fullbody_chroma Full-body chroma source npc-portrait assets/npc-images/spirekeeper/fullbody_chroma.webp Spirekeeper full-body chroma source visual. Spirekeeper: Full-body chroma source. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/spirekeeper/fullbody_chroma.png npc-fullbody_transparent Full-body transparent cutout npc-portrait assets/npc-images/spirekeeper/fullbody_transparent.webp Spirekeeper full-body transparent cutout visual. Spirekeeper: Full-body transparent cutout. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/spirekeeper/fullbody_transparent.png npc-portrait_chroma Portrait chroma source npc-portrait assets/npc-images/spirekeeper/portrait_chroma.webp...
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 697fed663695a657 | Source hash dac3370046ed077140fab2d6

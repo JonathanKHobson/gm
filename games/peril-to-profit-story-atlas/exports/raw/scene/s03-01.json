@@ -1,0 +1,101 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "scene",
+  "id": "S03-01",
+  "title": "S03-01 - Arrival at Hush",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "15d3c48367c7913b",
+  "sections": [
+    {
+      "title": "Player read-aloud",
+      "body": "You pass the ward pillar and feel a small pop, like a bubble closing behind you. The forest quiets. Friendly voices rise ahead."
+    },
+    {
+      "title": "Scene summary",
+      "body": "The party enters Hush, a real warm village inside corporate branding."
+    },
+    {
+      "title": "Visible choices",
+      "items": [
+        "Talk to locals",
+        "Head to the tavern",
+        "Ask for the Custodian",
+        "Rush the delivery"
+      ]
+    },
+    {
+      "title": "Player questions",
+      "items": [
+        "What detail in Arrival at Hush tells you the official story is incomplete?",
+        "Who notices the human cost first, and how do they show it?",
+        "What small object, smell, or sound makes this scene feel real?"
+      ]
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: S03-01",
+        "Act: Act Three",
+        "Title: Arrival at Hush",
+        "Beats: Threshold / transition Location focus Emotional beat",
+        "Image: assets/scenes/S03-01-arrival-at-hush.webp",
+        "Short: The party enters Hush, a real warm village inside corporate branding.",
+        "Long: The tone shifts from danger to welcome. Hush is officially a Community Enclave, but locally it is home.",
+        "Read: You pass the ward pillar and feel a small pop, like a bubble closing behind you. The forest quiets. Friendly voices rise ahead.",
+        "Gm: Do not make Hush the joke. The branding is the joke; the people are sincere.",
+        "Entities: Hush Hush™ Community Enclave Clover Co-op Firstmoss Launch Festival Guest Privileges The Sunless Farms Faceless Six Goldspire Territories Tamsin's Home-Token Lausa Standworth Sableleaf Shoes Vulnerable Sablewood™ Logistics Preserve Sable Sap Route Assurance Contract Tamsin Vell Sealed Keystone Crate The Grail",
+        "Choices: Talk to locals Head to the tavern Ask for the Custodian Rush the delivery",
+        "Prompt: Carriage enters warm forest village through ward pillar with ancient runes and compliance tags; villagers wave; sponsored banners in background; genuine welcome; no strixwolf, no Bramble Union, no undead.",
+        "Source Entities: Hush Hush™ Community Enclave Clover Co-op Firstmoss Launch Festival",
+        "Beat Codes: threshold-transition location-focus emotional-beat",
+        "Slug: S03-01-arrival-at-hush",
+        "Act Title: Seeking a Custodian",
+        "Arc Role: Community stakes and emotional buy-in",
+        "Caption: Hush must land as a warm place with jokes inside it, not as the joke.",
+        "Image Alt: Arrival at Hush scene art for Seeking a Custodian.",
+        "Image Prompt Used: Carriage enters warm forest village through ward pillar with ancient runes and compliance tags; villagers wave; sponsored banners in background; genuine welcome; no strixwolf, no Bramble Union, no undead. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions unless explicitly requested. No strixwolf, no Bramble Union, no combat, no undead. Focus on Hush as warm and real. 4:3 cinematic fantasy concept art, no visible text, no captions, no logos, no UI, no watermark.",
+        "Long Storyboard: The tone shifts from danger to welcome. Hush is officially a Community Enclave, but locally it is home. Run this scene as community stakes and emotional buy-in: Hush must land as a warm place with jokes inside it, not as the joke. Keep the camera close to practical choices, visible consequences, and the difference between ordinary people and the infrastructure pressing on them.",
+        "Read Aloud: You pass the ward pillar and feel a small pop, like a bubble closing behind you. The forest quiets. Friendly voices rise ahead.",
+        "Gm Notes: Do not make Hush the joke. The branding is the joke; the people are sincere. Keep player-facing information actionable. Reveal systemic truth through objects, reactions, and consequences before naming it. Hush hospitality should use the PDF's guest privilege custom: generous, bounded, and vulnerable to exploitation. Manufactured-threat lens: seed the contradiction, do not explain it. The surface goal stays simple and heroic. [ADD/GUARANTEED] A Grail \"Protection Coverage\" invoice hangs on the Clover Co-op wall, overdue and steep.",
+        "Sensory Details: baking bread wet clover under boots repair hammers keeping time with conversation",
+        "Body Language: Locals look at the crate before they look at weapons Children are curious but kept behind familiar adults",
+        "Sample Dialogue: Lausa Standworth If you brought help, welcome. If you brought trouble, at least wipe your boots.",
+        "Checks: Presence Arrive respectfully and read local customs. Easy Gain hush_trust +1 on warmth and humility. 10 Cleanly resolve: Arrive respectfully and read local customs. Add a concrete boon, extra clue, or improved position. Success, plus the player names one helpful detail or asks one follow-up question. Success, but the GM exposes a cost, ticks a countdown, or reveals a new pressure tied to Arrival at Hush. The full goal slips, but the party still learns a useful truth or avoids the worst consequence. The GM makes a hard move that follows from the fiction and leaves the next choice visible. Spend Fear to make trust cost time, reveal a local fear, or show a ward symptom that locals have normalized. On mixed or sliding results, reveal information in layers: visible fact, actionable clue, then systemic truth.",
+        "Choices Consequences: Lead with contract authority Information still arrives, but with distance. Hush Trust remains low. Lead with care Locals offer supplies and directions. Gain Hush Trust payoff.",
+        "Clues: Local caution They are afraid. They know the ward has been neglected. Hush has survived by knowing when systems fail. Guaranteed seed A Grail \"Protection Coverage\" invoice hangs on the Clover Co-op wall, overdue and steep. A Grail \"Protection Coverage\" invoice hangs on the Clover Co-op wall, overdue and steep.",
+        "Loot: Clover Co-op gift table if trust is earned Shoe-line trinket: a tiny local object appears in a PC's boots and hints at a coming challenge. Sableleaf Shoes: A pair of shoes sewn entirely from broad sablewood leaves sits light as breath, green-veined, and already leaning toward motion. Sable Sap: Warm amber sap beads from a crack in a huge trunk like the tree is breathing it out. It smells of honey, woodsmoke, and something older. Tamsin's Home-Token: A small thumb-polished token on a cord hangs beside the torn blue scarf, warm from wear and etched with a tiny house mark instead of a company seal.",
+        "Payoff Flags: Hush Trust Track",
+        "Filters: act-three choice emotional-beat gm-only hush-trust-track location-focus seeking-a-custodian threshold--transition location manufactured-threat guaranteed-earned clue",
+        "Index: 9",
+        "Player Questions: What detail in Arrival at Hush tells you the official story is incomplete? Who notices the human cost first, and how do they show it? What small object, smell, or sound makes this scene feel real?",
+        "Relationship Prompts: Which PC quietly checks on someone else here? Who disagrees about the right thing to do without breaking trust?",
+        "Ownership Prompt: Name one detail in Arrival at Hush that belongs to your character's point of view.",
+        "Reveal Hooks: Loreborne or Knowledge-focused PCs can read the institutional layer. Wildborne/community-focused PCs can read local custom and ecological stress. Martial/security-focused PCs can read threat posture and custody logic. Magic-focused PCs can feel ward tone, soul-signal, or spell instability. Loreborne: spots older legal, heraldic, or ward-craft language under the branding. Underborne: notices service doors, hidden routes, and who built the thing nobody credits. Highborne: reads etiquette, class panic, and reputational risk. Ridgeborne: notices stonework, weight, pressure, and structural weakness. Wildborne: reads the land, animals, and local ecological stress. Elf/Ribbet/Human/Giant/Katari: invite one sensory or social detail from the player's heritage. Sorcerer/Rogue/Warrior/Guardian/Ranger: give each class one table-facing way to shine without changing the plot.",
+        "Fear Spends: Spend Fear to make trust cost time, reveal a local fear, or show a ward symptom that locals have normalized. Make trust cost time, humility, or a public apology. Show a ward symptom locals have normalized because nobody official listened.",
+        "Conditional Notes: S03-01 bramble_outcome=captured|spared|negotiated A local recognizes one Bramble name as someone displaced by a road claim. This complicates the story without excusing the ambush.",
+        "Story Scope: Perceived antagonist: the forest. True antagonist: the corporate lie about the forest. The players never confront it directly. They are meant to feel it by the end. Every act offers at least one guaranteed and one earned hint that the danger is manufactured and the forest is not the enemy. A Grail \"Protection Coverage\" invoice hangs on the Clover Co-op wall, overdue and steep. ADD GUARANTEED Firstmoss and the Sunless Farms show the forest feeding Hush rather than hunting it. REFLAVOR GUARANTEED An elder says, \"The wood was never this bad. The trouble came with the waymarkers.\" ADD EARNED Presence Easy 10 A ledger shows protection costs and hazard sightings climbing together. ADD EARNED Knowledge Medium 15 A Grail \"Protection Coverage\" invoice hangs on the Clover Co-op wall, overdue and steep. ADD GUARANTEED Presence: get people talking. Knowledge: read invoice/ledger. Instinct: sense resentment under hospitality. ACT3 Act 3: Hush 125 1:30 to 2:05 2:05 social beat, Co-op, local leads, optional break Trim village wandering to the invoice plus one elder line; point to the Custodian.",
+        "Mechanics: The party is in Act Three pressure: The party enters Hush, a real warm village inside corporate branding. Use Daggerheart Duality Dice as baseline. Use the listed Difficulty and outcome options when a roll matters. Keep trivial actions no-roll; roll only when uncertainty, cost, or danger is interesting. s03-01-read-the-ward-boundary S03-01 Read the ward boundary Read the ward boundary Knowledge Instinct Knowledge Instinct 13 Knowledge reads old symbols; Instinct feels the boundary pop. Hush becomes a service endpoint instead of a home. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. Hush becomes a service endpoint instead of a home. Use a hard...",
+        "Roll Cards: s03-01-read-the-ward-boundary S03-01 Read the ward boundary Read the ward boundary Knowledge Instinct Knowledge Instinct 13 Knowledge reads old symbols; Instinct feels the boundary pop. Hush becomes a service endpoint instead of a home. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. Hush becomes a service endpoint instead of a home. Use a hard complication, lost time, worse position, GM Fear, or mark Stress. Apply an official condition only if the fiction and rules justify it. The attempt falls short, but a partial thread appears. Offer one clue, weak position, or safer follow-up. The PC gets the core result, but it costs time, noise, leverage...",
+        "Conditions Hazards: No official condition unless a feature, hazard, or fictional position calls for Hidden, Restrained, or Vulnerable.",
+        "Search Loot Clues: No fixed loot. Offer clue, texture, or hospitality only when the fiction supports it.",
+        "No Roll Guidance: Do not call for a roll when the players have time, a clear method, and no meaningful pressure.",
+        "Tv Mechanics Caption: Public cue: Arrival at Hush asks what the party does, what it costs, and who is protected.",
+        "Trait Variety Note: Primary traits in this scene: Instinct, Knowledge, Presence. If rolls drift toward Instinct/Presence, ask whether Agility, Strength, Finesse, or Knowledge better describes the action.",
+        "Factionids: clover-co-op faceless-six",
+        "World Connection Prompts: S03-01-clover-co-op-world-connection clover-co-op The Clover Co-op Somewhere out here once felt like home for a night. Tell us about it. S03-01-faceless-six-world-connection faceless-six The Faceless Six Somewhere out here once felt like home for a night. Tell us about it.",
+        "Location Ids: hush hushtm-community-enclave clover-co-op firstmoss-launch-festival goldspire-territories the-sunless-farms",
+        "Item Ids: sableleaf-shoes sable-sap tamsins-home-token",
+        "Clueids: route-assurance-contracttm the-patched-everything the-tired-smile",
+        "Clue Ids: route-assurance-contracttm the-patched-everything the-tired-smile",
+        "Image Asset Status: image_gen"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 15d3c48367c7913b | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

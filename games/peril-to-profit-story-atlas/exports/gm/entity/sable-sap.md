@@ -1,0 +1,57 @@
+# Sable Sap
+
+GM export - entity:sable-sap
+
+## Player-facing description
+Warm amber sap beads from a crack in a huge trunk like the tree is breathing it out. It smells of honey, woodsmoke, and something older.
+
+## Public role
+Sable Sap: in a calm moment, once per long rest, consume it to clear 2 Stress.
+
+## Handout text
+HEXMART HEALTH NOTICE: Raw Sable Sap is unprocessed tree excretion. Try Hexmart Sap-Flavored Relaxation Syrup, contains no sap.
+
+## GM truth
+No forced reveal. Let this entity disclose truth through scene context and player attention.
+
+## GM handling
+Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.
+
+## Mechanics
+- Title: Discovery / Earn-It Mechanics
+- Player Safe: Players can inspect, handle, keep, trade, reveal, or earn Sable Sap when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: Warm amber sap beads from a crack in a huge trunk like the tree is breathing it out. It smells of honey, woodsmoke, and something older. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-sable-sap-engage-sable-sap entity-sable-sap Engage Sable Sap Engage Sable Sap Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Sable Sap hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. A flat...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless the item or clue physically creates Hidden, Restrained, or Vulnerable
+- Search Loot: Sable Sap: in a calm moment, once per long rest, consume it to clear 2 Stress. Provenance: Forage, gift, or trade.
+
+## Profile
+- Schema Version: item-profile-v1
+- Id: sable-sap
+- Item Id: sable-sap
+- Item Name: Sable Sap
+- Name: Sable Sap
+- Aliases: tree sap amber sap
+- Pronunciation: SAY-bul SAP
+- Item Kind: consumable
+- Tier: Tier 1
+- Priority: P2
+- Mode: PROP
+- Maker: the sablewood trees
+- Made Or Wild: wild/folk
+- Auto Surface: True
+- Discovered From Art: False
+- Player Safe: Sable Sap Warm amber sap beads from a crack in a huge trunk like the tree is breathing it out. It smells of honey, woodsmoke, and something older. Warm amber sap beads from a crack in a huge trunk like the tree is breathing it out. It smells of honey, woodsmoke, and something older. the sablewood trees HEXMART HEALTH NOTICE: Raw Sable Sap is unprocessed tree excretion. Try Hexmart Sap-Flavored Relaxation Syrup, contains no sap.
+- Block0: sable-sap Sable Sap tree sap amber sap SAY-bul SAP consumable Tier 1
+- Block1: Warm amber sap beads from a crack in a huge trunk like the tree is breathing it out. It smells of honey, woodsmoke, and something older. Sable Sap: in a calm moment, once per long rest, consume it to clear 2 Stress. The forest's own comfort. A free moment of peace in a world that bills people for relief. pages/entities/sable-sap.html
+- Block2: the sablewood trees wild/folk HEXMART HEALTH NOTICE: Raw Sable Sap is unprocessed tree excretion. Try Hexmart Sap-Flavored Relaxation Syrup, contains no sap. Hexmart's substitute contains everything except sap.
+- Block3: Consumable. Once per long rest, in a calm moment, clear 2 Stress. item #module Daggerheart item grammar: consumable; one use unless the effect says otherwise, then mark it spent or unavailable until the stated rest. Consumable. Once per long rest, in a calm moment, clear 2 Stress. The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned. Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does. Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction. If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus. Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling. DC 12-15 to identify maker...
+- Block4: SablewoodTM Logistics Preserve Hush Underroot Hush Hospitality Forage, gift, or trade. S03-01 S03-03 MAP-LOC-sablewoodtm-logistics-preserve MAP-LOC-hush
+- Block5: Layer 1 - look Warm honey-sap from a living trunk. Layer 2 - hint It steadies the body. Layer 3 - truth It clears 2 Stress in a calm moment once per long rest. Taste it at rest. A forest local shares it. Use it after a stressful scene. Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll.
+- Block6: Warm amber sap beading from a cracked giant tree trunk, golden glow, carved wooden spoon, bright cozy light, no branding. item wiki card and earned side-card visual Use the Run Mode item card's Show image button when the table sees or earns this item. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/sable-sap/profile_base.png assets/item-images/sable-sap/profile_base.webp Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark.
+- Visual Assets: profile_base Item profile image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/sable-sap/profile_base.png assets/item-images/sable-sap/profile_base.webp ready Sable Sap item illustration. Warm amber sap beads from a crack in a huge trunk like the tree is breathing it out. It smells of honey, woodsmoke, and something older.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash f55b50302b44d688 | Source hash dac3370046ed077140fab2d6

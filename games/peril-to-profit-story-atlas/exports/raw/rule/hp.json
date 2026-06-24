@@ -1,0 +1,57 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "rule",
+  "id": "hp",
+  "title": "HP",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "b9f6a182dd2e32a7",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "Hit Points marked from damage severity."
+    },
+    {
+      "title": "How it works",
+      "body": "Use after damage is compared to thresholds."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use after damage is compared to thresholds.",
+        "Yes, but damage severity decides how many boxes are marked.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "Is this hit points?"
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: hp",
+        "Title: HP",
+        "Tag: official",
+        "Summary: Hit Points marked from damage severity.",
+        "When: Use after damage is compared to thresholds.",
+        "Not When: Do not use HP as a generic stamina pool.",
+        "Question: Is this hit points?",
+        "Answer: Yes, but damage severity decides how many boxes are marked.",
+        "Example: A Severe hit marks 3 HP.",
+        "Related: damage-thresholds stress",
+        "Aliases: hit points health",
+        "Source: Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+        "Mechanic Profile: mechanic-profile-v1 hp HP hit points health HP character-sheet #rules-canon Beginner damage-thresholds stress Session Zero primer damage-thresholds stress Hit Points marked from damage severity. Yes, but damage severity decides how many boxes are marked. Use after damage is compared to thresholds. HP: Hit Points marked from damage severity. Use after damage is compared to thresholds. Yes, but damage severity decides how many boxes are marked. Return to the fiction with the concrete result, cost, or benefit. A Severe hit marks 3 HP. A Severe hit marks 3 HP. Is this hit points? HP hit points health damage-thresholds stress Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use.",
+        "Canon Status: #rules-canon",
+        "Category: character-sheet"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash b9f6a182dd2e32a7 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

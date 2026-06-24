@@ -1,0 +1,38 @@
+# SABLEWOOD-FACTIONS - Factions / Communities
+
+RAW export - slide:SABLEWOOD-FACTIONS
+
+## Player text
+Every group here has a survival strategy.
+
+## Public objective
+Every group here has a survival strategy.
+
+## Raw source
+- Id: SABLEWOOD-FACTIONS
+- Type: field-guide
+- Sectionid: SABLEWOOD
+- Sectiontitle: Sablewood Field Guide
+- Title: Factions / Communities
+- Shorttitle: Factions / Communities
+- Order: 860.3
+- Playersafe: False
+- Completioneligible: False
+- Caption: Bramble Union, Sable Sinecure, Hush, and Underroot communities all survive Sablewood by different rules.
+- Mood: setting reference, lore lookup, table texture
+- Gmgoal: Make every faction useful, human, and materially tied to the forest economy.
+- Publicobjective: Every group here has a survival strategy.
+- Readaloud: Every group here has a survival strategy.
+- Gmnotes: Bramble Union is not only an ambush; it is hidden villages, stonework, and displacement. Sable Sinecure is not only merchants; it is hazard-rate logistics and Kazrak-franchised control. Hush hospitality is generous, bounded, and politically important.
+- Playertakeaway: Every group here has a survival strategy.
+- Storytakeaway: Bramble Union, Sable Sinecure, Hush, and Underroot communities all survive Sablewood by different rules.
+- Mechanictakeaway: Use this reference for setting texture and entity context; introduce mechanics only when play calls for them.
+- Entityids: bramble-union bramble-union-villages the-sable-sinecure guest-privileges faceless-six slyborne-crew
+- Entities: bramble-union Bramble Union faction Faction / Community assets/icons/faction.png assets/logos/bramble-union.webp BRAM-bul YOO-nyun Thorn-scrap armor, hungry eyes, and old worker gear make the Bramble Union look dangerous before they look human. Loose label for freeholders and cargo reclaimers Called thieves by Goldspire; actually a mix of displaced workers, freeholders, and dangerous reclaimers.; show internal disagreement, practical needs, and how the faction explains itself when outsiders listen. Protect its stake in Bramble Union Ambusher, Bramble Union Claimrunner, Goldspire Territories while being seen as more than a symbol or obstacle. Called thieves by Goldspire; actually a mix of displaced workers, freeholders, and dangerous reclaimers. bramble-union-villages Bramble Union Villages location Location assets/icons/location.png assets/location-visuals/bramble-union-villages/profile_scene_v02.webp BRAM-bul YOO-nyun VIL-ij-ez Vibrant, painted, moss-lit Bramble Union communities camouflaged behind mudstone walls and thorn protection. Keep opposition human and internally varied. Vibrant, painted, moss-lit Bramble Union communities camouflaged behind mudstone walls and thorn...
+- Spoilers: Sablewood source lore and GM synthesis.
+- Playersafeprojection: SABLEWOOD-FACTIONS field-guide Factions / Communities Bramble Union, Sable Sinecure, Hush, and Underroot communities all survive Sablewood by different rules. setting reference, lore lookup, table texture Every group here has a survival strategy. Every group here has a survival strategy.
+- Slidenumber: 101
+- Totalslides: 110
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 4cf83ea567112d00 | Source hash dac3370046ed077140fab2d6

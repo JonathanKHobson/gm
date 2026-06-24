@@ -1,0 +1,60 @@
+# MAP-LOC-the-sunless-farms - The Sunless Farms Location Map
+
+RAW export - slide:MAP-LOC-the-sunless-farms
+
+## Player text
+Under the canopy, farms grow without full sun: blue-green rows, dark wet soil, careful water paths, and tools hung where rain and sap cannot ruin them.
+
+## Public objective
+Under the canopy, farms grow without full sun: blue-green rows, dark wet soil, careful water paths, and tools hung where rain and sap cannot ruin them.
+
+## Raw source
+- Id: MAP-LOC-the-sunless-farms
+- Type: map
+- Maptype: environment
+- Sectionid: ACT-THREE
+- Sectiontitle: Act Three: Seeking a Custodian
+- Title: The Sunless Farms Location Map
+- Shorttitle: The Sunless Farms
+- Order: 401.32
+- Playersafe: True
+- Completioneligible: False
+- Image: assets/maps/MAP-LOC-the-sunless-farms-gm.webp
+- Alt: The Sunless Farms location map board.
+- Caption: Visual reference for The Sunless Farms.
+- Mood: spatial reference and location texture
+- Gmgoal: Use the farms as shaded food infrastructure: player-safe abundance, GM-only managed-system seed, and route pressure toward the keeper.
+- Publicobjective: Under the canopy, farms grow without full sun: blue-green rows, dark wet soil, careful water paths, and tools hung where rain and sap cannot ruin them.
+- Readaloud: Under the canopy, farms grow without full sun: blue-green rows, dark wet soil, careful water paths, and tools hung where rain and sap cannot ruin them.
+- Gmscript: Say: "The farms are player-safe as food and craft. If players look harder, the precision of the system becomes the clue."
+- Gmreadaloud: Blue-green rows under shade. Careful water paths. Tools hung where rain and sap cannot ruin them.
+- Gmchecklist: Keep farms vivid before naming systems. Use Varian/Marlowe hooks if present. Route to irrigation path or Hush Farms.
+- Gmprivate: GM-only: corporate agro-infrastructure; same system family as ward maintenance.
+- Playertakeaway: Under the canopy, farms grow without full sun: blue-green rows, dark wet soil, careful water paths, and tools hung where rain and sap cannot ruin them.
+- Storytakeaway: The farms show that Hush's abundance is cultivated, protected, and vulnerable.
+- Mechanictakeaway: Instinct or Knowledge 13 can find the farm/ward seed; Finesse keeps the party from trampling fragile work.
+- Entityids: the-sunless-farms hush-farms sunless-farm-moss ratcoons festival-moths
+- Entities: the-sunless-farms The Sunless Farms location Location assets/icons/location.png assets/location-visuals/the-sunless-farms/profile_scene_v02.webp the SUN-less farms A farming region shaped by canopy-darkness, local ingenuity, and crops that do not need corporate sunlight to grow. Make food production feel like protected culture. A farming region shaped by canopy-darkness, local ingenuity, and crops that do not need corporate sunlight to grow.; introduce it with a sensory palette, who feels safe there, and what has been neglected. Pull player attention toward the choices, clues, and relationships tied to Hush, Hush Farms, Clover Co-op. A farming region shaped by canopy-darkness, local ingenuity, and crops that do not need corporate sunlight to grow. hush-farms Hush Farms location Location assets/icons/location.png assets/location-visuals/hush-farms/profile_scene_v02.webp hush farmz Glowing blue moss grows over fruits and vegetables. Make the infrastructure failure agricultural and bodily, not abstract. Glowing blue moss grows over fruits and vegetables.; introduce it with a sensory palette, who feels safe there, and what has been neglected. Pull player attention toward the choices...
+- Locationids: the-sunless-farms hush-farms
+- Statecontrols: custodian_route Custodian Route select unknown safe dangerous ward_awareness Ward Awareness select none seed aware hush_clues Hush Clues select none custodian_route ward_seed corporate_seam farm_seed market_rumor multiple
+- Mechanicids: instinct knowledge finesse
+- Fearspends: A row dims as the Keystone passes. A survey stake hums louder than the ward post.
+- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth context stay off the player display.
+- Linkedsceneids: S03-01 S03-04
+- Mapdata: MAP-LOC-the-sunless-farms environment The Sunless Farms Location Map S03-01 S03-04 the-sunless-farms hush-farms sunless-farm-moss ratcoons festival-moths assets/location-visuals/the-sunless-farms/profile_scene_v02.webp Visual reference for The Sunless Farms. The Sunless Farms location map board. Under the canopy, farms grow without full sun: blue-green rows, dark wet soil, careful water paths, and tools hung where rain and sap cannot ruin them. Under the canopy, farms grow without full sun: blue-green rows, dark wet soil, careful water paths, and tools hung where rain and sap cannot ruin them. Use the farms as shaded food infrastructure: player-safe abundance, GM-only managed-system seed, and route pressure toward the keeper. Blue-green rows grow in shade beds under low roofs, with water paths, survey stakes, tool hooks, and crop markers only locals read quickly. Irrigation trickles under boards, insects drone in the damp rows, and farmers pause whenever a weak ward post changes pitch. Mushroom loam, damp leaves, cold channel water, cut stems, and the mineral bite of mosslit irrigation. Soil is soft, dark, and springy; leaves feel waxy from low light; tool handles are polished by...
+- Sourcefiles: dist/Act3_Upgrade_Packet/ACT3_MAPS_AND_LOCATIONS.md
+- References: Festival #S03-04 Local Clues #S03-02
+- Livetools: scene MAP-LOC-the-sunless-farms
+- Percharacterlayer: khari-nix Khari Nix Arm-wrestling contest Can dominate the arm-wrestling competition and likely earn the festival_boon. Khari, there is an arm-wrestling contest with your name on it. Want to win the town's heart? varian-soto Varian Soto Sunless Farms scent Notices the moss-crops are grown under managed, sunless conditions rather than wild growth. Instinct 13 The farms are carefully managed infrastructure; seed the truth without naming the full system. Can point the party toward the farms as a clue source. Varian, those crops do not grow like wild things. Want to look closer? marlowe-fairwind Marlowe Fairwind Farm and ward signature Knowledge 13 The farm-magic and ward-work share a signature, as if the same system maintains both. Can connect festival joy to protection magic without revealing the full cost. Marlowe, the farm-magic and the ward feel like the same author. Want to trace the resemblance? garrick-reed Garrick Reed Organized volunteers Recognizes festival volunteers moving with company-style precision. Can identify who is coordinating the crowd if the party needs a contact. Garrick, this festival is organized company-style. Want to clock who is really running it?...
+- Gmbeats: MAP-LOC-the-sunless-farms-food Food Food source Say: "This is where the food comes from: careful work under impossible trees." The farms make the festival abundance specific. Hush's joy has labor behind it. Discovery can become route leverage. Players know the farms matter. Player takeaway Players know the farms matter. "This is where the food comes from: careful work under impossible trees." "The playable fact is: The farms make the festival abundance specific." Concrete actions for this beat: talk to a person present, inspect the named detail, help an ally, or choose whether to move toward the Custodian route. knowledge Story takeaway Hush's joy has labor behind it. "This is where the food comes from: careful work under impossible trees." "The story fact in play is: Hush's joy has labor behind it." This beat changes Act 3 through this exact pressure: Hush's joy has labor behind it. knowledge Mechanic takeaway Discovery can become route leverage. "This is where the food comes from: careful work under impossible trees." "The active procedure is: Discovery can become route leverage." Run intent first, then choose Presence, Instinct, Knowledge, Strength, or Finesse only when the...
+- Takeawayhelp: Player takeaway The farms are a useful detour if players ask where Hush's abundance comes from. "The first answer is simple: food, work, water, and careful hands." "You can ask a worker, inspect the channels, trace the path south, or return to the festival/hub." Player-safe use: route texture, food stakes, and farm-worker conversations. instinct knowledge finesse Story takeaway The farms make abundance feel earned and vulnerable. "The festival is not magic happiness. It is crops, water, labor, and protection all holding together." "A deeper read finds precision that feels managed. That is a seed, not a full reveal." Keep the joy and labor real before showing the corporate seam. instinct knowledge finesse Mechanic takeaway Instinct, Knowledge, and Finesse are the active farm mechanics. "Instinct 13 reads managed cultivation. Knowledge 13 traces ward-like magic. Finesse 12 crosses without damaging channels." "On a success, set hush_clues=farm_seed or ward_awareness=seed/aware." The farms should feed route and reveal pacing, not become a random obstacle course. instinct knowledge finesse
+- Playerbeats: assets/maps/MAP-LOC-the-sunless-farms.png The Sunless Farms map board. MAP-LOC-the-sunless-farms environment The Sunless Farms S03-01 S03-04 assets/maps/MAP-LOC-the-sunless-farms.png assets/maps/MAP-LOC-the-sunless-farms.png The Sunless Farms map board. Under the canopy, farms grow without full sun: blue-green rows, dark wet soil, careful water paths, and tools hung where rain and sap cannot ruin them. Under the canopy, farms grow without full sun: blue-green rows, dark wet soil, careful water paths, and tools hung where rain and sap cannot ruin them. MAP-LOC-the-sunless-farms-map-only Map only The Sunless Farms map-only assets/maps/MAP-LOC-the-sunless-farms.png The Sunless Farms map board. MAP-LOC-the-sunless-farms environment The Sunless Farms S03-01 S03-04 assets/maps/MAP-LOC-the-sunless-farms.png assets/maps/MAP-LOC-the-sunless-farms.png The Sunless Farms map board. Under the canopy, farms grow without full sun: blue-green rows, dark wet soil, careful water paths, and tools hung where rain and sap cannot ruin them. Under the canopy, farms grow without full sun: blue-green rows, dark wet soil, careful water paths, and tools hung where rain and sap cannot ruin them...
+- Beatautoplayeligible: True
+- Beatautoplaydefault: False
+- Beatautoplayintervalms: 10000
+- Playersafeprojection: MAP-LOC-the-sunless-farms map The Sunless Farms assets/maps/MAP-LOC-the-sunless-farms.png The Sunless Farms map board. spatial reference and location texture Under the canopy, farms grow without full sun: blue-green rows, dark wet soil, careful water paths, and tools hung where rain and sap cannot ruin them. Under the canopy, farms grow without full sun: blue-green rows, dark wet soil, careful water paths, and tools hung where rain and sap cannot ruin them. MAP-LOC-the-sunless-farms environment The Sunless Farms S03-01 S03-04 assets/maps/MAP-LOC-the-sunless-farms.png assets/maps/MAP-LOC-the-sunless-farms.png The Sunless Farms map board. Under the canopy, farms grow without full sun: blue-green rows, dark wet soil, careful water paths, and tools hung where rain and sap cannot ruin them. Under the canopy, farms grow without full sun: blue-green rows, dark wet soil, careful water paths, and tools hung where rain and sap cannot ruin them. assets/maps/MAP-LOC-the-sunless-farms.png The Sunless Farms map board. MAP-LOC-the-sunless-farms environment The Sunless Farms S03-01 S03-04 assets/maps/MAP-LOC-the-sunless-farms.png assets/maps/MAP-LOC-the-sunless-farms.png The Sunless Farms map...
+- Slidenumber: 44
+- Totalslides: 110
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 7de31b0df538d99e | Source hash dac3370046ed077140fab2d6

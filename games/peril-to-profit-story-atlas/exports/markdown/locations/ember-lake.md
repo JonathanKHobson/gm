@@ -1,0 +1,50 @@
+# Ember Lake
+
+RAW export - entity:ember-lake
+
+## Player-facing description
+Ember Lake steams under cool canopy air, a hot spring mirror that suggests something older is still working below Sablewood.
+
+## Public role
+Make the hot spring beautiful, useful, and slightly troubling.
+
+## Handout text
+A hot spring lake that points toward buried divine industry and gives Sablewood a heat source older than any concession.
+
+## Raw source
+- Type: location
+- Role: Make the hot spring beautiful, useful, and slightly troubling.
+- Summary: A hot spring lake that points toward buried divine industry and gives Sablewood a heat source older than any concession.
+- Tags: forgotten-gods goldspire-location location-profile rumor sablewood-lore source-page-8
+- Aliases: Ember Lake Forgotten God forge lake
+- Connections: Forgotten Gods The Ash Quarry Sablewood™ Logistics Preserve
+- Inventory: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry.
+- Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+- Image Fallback: type-icon
+- Source Pages: Sablewood PDF p. 8
+- Name: Ember Lake
+- Id: ember-lake
+- Meta: Location LOCATION assets/icons/location.png entity-location #5fa8d3 05 Locations locations location
+- Related: Forgotten Gods Sablewood™ Logistics Preserve The Ash Quarry
+- Image Prompt: Private table TTRPG story atlas asset for Ember Lake, Location. Role: Make the hot spring beautiful, useful, and slightly troubling.. Summary: A hot spring lake that points toward buried divine industry and gives Sablewood a heat source older than any concession.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Show the place as an atmospheric establishing image, not a map. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: A hot spring lake that points toward buried divine industry and gives Sablewood a heat source older than any concession.; introduce it with a sensory palette, who feels safe there, and what has been neglected.
+- Wants: Pull player attention toward the choices, clues, and relationships tied to Forgotten Gods, The Ash Quarry, Sablewood™ Logistics Preserve.
+- Fears: Being treated as scenery when it should reveal who is protected, who is charged, and who is left outside the ward.
+- Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.
+- Body Language: Let the place answer through sound, texture, and who feels safe there.
+- Sample Dialogue: A hot spring lake that points toward buried divine industry and gives Sablewood a heat source older than any concession.
+- Equipment: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry.
+- Search Or Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+- Gm Use: Introduce with sensory texture, then make one discoverable clue or social choice visible.
+- Future Hooks: Bring back as an echo if players made a strong choice involving this entity.
+- Robust: Ember Lake steams under cool canopy air, a hot spring mirror that suggests something older is still working below Sablewood. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Pull player attention toward the choices, clues, and relationships tied to Forgotten Gods, The Ash Quarry, Sablewood™ Logistics Preserve. Being treated as scenery when it should reveal who is protected, who is charged, and who is left outside the ward. Introduce with sensory texture, then make one discoverable clue or social choice visible. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Ember Lake and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the...
+- Mechanics: Location Exploration Mechanics Players can navigate, search, read customs, inspect hazards Ember Lake when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A hot spring lake that points toward buried divine industry and gives Sablewood a heat source older than any concession. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-ember-lake-engage-ember-lake entity-ember-lake Engage Ember Lake Engage Ember Lake Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of Ember Lake hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a...
+- Pronunciation: EM-ber layk
+- Short Pronunciation: EM-ber layk
+- Location Profile: location-profile-v1 ember-lake ember-lake Story Atlas generated location notes True strong Ember Lake A hot spring lake that points toward buried divine industry and gives Sablewood a heat source older than any concession. A hot spring lake that points toward buried divine industry and gives Sablewood a heat source older than any concession. Ember Lake steams under cool canopy air, a hot spring mirror that suggests something older is still working below Sablewood. Ember Lake is a quiet contradiction: water glowing like banked coals, warm shallows, black stones, steam curls, and boats that look too small for the light beneath them. The place breaks into usable table spaces: Warm shallows: The lake glows under clear water. Black-stone shore: Dark rocks hold heat after sunset. Boat landing: Small boats and heat charms mark practical use. Plants and materials: steam reeds, ember algae, black-shore moss. Animals and background life: warm-water fish, ember flies, shore lizards, night birds hunting over steam. The air carries heat shimmer over water, coal-red glow, steam curls, warm stones. Warm vents feed algae, algae feed fish, fish draw birds, and locals read lake heat like weather...
+- Image: assets/location-visuals/ember-lake/profile_scene_v02.webp
+- Image Asset Status: location_visual_profile
+- Visual Gallery: primary Primary wiki image primary assets/location-visuals/ember-lake/profile_scene_v02.webp Ember Lake primary wiki image visual. Ember Lake: Primary wiki image. location_visual_profile True True primary_map Top-down map location-map assets/location-visuals/ember-lake/primary_map_v02.webp Ember Lake top-down map visual. Ember Lake: Top-down map. ready True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/ember-lake/primary_map_v02.png location-alternate-1 Legacy v01 profile image location-alternate assets/location-visuals/ember-lake/profile_scene_v01.webp Ember Lake legacy v01 profile image visual. Ember Lake: Legacy v01 profile image. available True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/ember-lake/profile_scene_v01.png location-alternate-2 Legacy v01 primary map location-alternate assets/location-visuals/ember-lake/primary_map_v01.webp Ember Lake legacy v01 primary map visual. Ember Lake: Legacy v01 primary map. available True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/ember-lake/primary_map_v01.png location-alternate-3 Existing generated/schematic map...
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash a981b302ff73c239 | Source hash dac3370046ed077140fab2d6

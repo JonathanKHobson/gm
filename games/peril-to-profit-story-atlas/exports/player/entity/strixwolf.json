@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "strixwolf",
+  "kind": "entity",
+  "title": "Strixwolf",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Enemy / Combatant",
+  "hook": "Player-safe note: A wild adult owl-wolf with a feathered ruff, lupine body, owl face, amber hunting eyes, and a low stalking posture that turns silence into a warning.",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "Lupine body with feathered ruff, owl-like facial disk, sharp muzzle, tufted ears, powerful paws, mottled grey-brown feathers and fur, and amber eyes."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "A wild adult owl-wolf with a feathered ruff, lupine body, owl face, amber hunting eyes, and a low stalking posture that turns silence into a warning.; run Strixwolf with a motive, an exit route, and one visible sign of the system that produced the threat."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask Strixwolf what they need right now.",
+    "Watch what they protect before asking for trust."
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:strixwolf",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "f56eb1a7a415e6aa",
+  "generated_at": "2026-06-23T21:40:58"
+}

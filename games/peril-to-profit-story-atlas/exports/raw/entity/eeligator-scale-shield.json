@@ -1,0 +1,69 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "eeligator-scale-shield",
+  "title": "Eeligator Scale Shield",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "3ea175df3d073220",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "A round shield of overlapping slick green-grey scales catches the light like river-water. It smells of deep water, mud, and old teeth."
+    },
+    {
+      "title": "Public role",
+      "body": "Eeligator Scale Shield: sharp-scaled river armor. Add +1 to damage thresholds and +2 to damage rolls."
+    },
+    {
+      "title": "Handout text",
+      "body": "HEXMART REMINDS YOU: Genuine eeligator scale is unregulated wildlife and may carry opinions. Try Hexmart Scale-Look Shielding instead."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: item",
+        "Role: Eeligator Scale Shield: sharp-scaled river armor. Add +1 to damage thresholds and +2 to damage rolls.",
+        "Summary: A round shield of overlapping slick green-grey scales catches the light like river-water. It smells of deep water, mud, and old teeth.",
+        "Tags: armor equipment item-profile loot prop sablewood-lore shield source-page-9",
+        "Aliases: Eeligator Scale Shield eeligator shield scale shield river scale shield",
+        "Connections: Eeligator The Lucent River The Sable Sinecure Lucent River Miremist",
+        "Inventory: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry.",
+        "Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.",
+        "Stat: Finesse melee, d4 physical, one-handed. Add +1 to damage thresholds and +2 to damage rolls.",
+        "Source Pages: Sablewood PDF p. 9",
+        "Name: Eeligator Scale Shield",
+        "Id: eeligator-scale-shield",
+        "Meta: Item / Asset ITEM assets/icons/item.png entity-item #39c5bb 07 Items and Clues entities item",
+        "Appears In: S05-03",
+        "Related: Eeligator Lucent River Miremist S05-03 The Lucent River The Sable Sinecure",
+        "Image Prompt: Private table TTRPG story atlas asset for Eeligator Scale Shield, Item / Asset. Role: Eeligator Scale Shield: sharp-scaled river armor. Add +1 to damage thresholds and +2 to damage rolls.. Summary: A round shield of overlapping slick green-grey scales catches the light like river-water. It smells of deep water, mud, and old teeth.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Personality: A sharp secondary shield whose material ties river danger to practical defensive gear.; use Eeligator Scale Shield as a concrete table object with texture, ownership, and a reason it matters now.",
+        "Wants: Give players a tangible handle on Eeligator, The Lucent River, The Sable Sinecure, whether they inspect, carry, return, trade, or refuse it.",
+        "Fears: Being treated as treasure clutter instead of evidence, memory, hospitality, or infrastructure with consequences.",
+        "Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.",
+        "Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.",
+        "Sample Dialogue: A sharp secondary shield whose material ties river danger to practical defensive gear.",
+        "Equipment: Kind: armor Maker: wild eeligator hide Loot group: Eeligator",
+        "Search Or Loot: Eeligator Scale Shield: sharp-scaled river armor. Add +1 to damage thresholds and +2 to damage rolls. Provenance: Crafted from an eeligator after a fight or gifted by someone who has one.",
+        "Gm Use: Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.",
+        "Future Hooks: Bring back as an echo if players made a strong choice involving this entity.",
+        "Stat Summary: Finesse melee, d4 physical, one-handed. Add +1 to damage thresholds and +2 to damage rolls.",
+        "Robust: A round shield of overlapping slick green-grey scales catches the light like river-water. It smells of deep water, mud, and old teeth. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Give players a tangible handle on Eeligator, The Lucent River, The Sable Sinecure, whether they inspect, carry, return, trade, or refuse it. Being treated as treasure clutter instead of evidence, memory, hospitality, or infrastructure with consequences. Use when the scene needs a concrete object for players to inspect, carry, debate, or remember. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Eeligator Scale Shield and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne /...",
+        "Mechanics: Discovery / Earn-It Mechanics Players can inspect, handle, keep, trade, reveal, or earn Eeligator Scale Shield when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A round shield of overlapping slick green-grey scales catches the light like river-water. It smells of deep water, mud, and old teeth. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-eeligator-scale-shield-engage-eeligator-scale-shield entity-eeligator-scale-shield Engage Eeligator Scale Shield Engage Eeligator Scale Shield Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Eeligator Scale Shield hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or...",
+        "Pronunciation: EE-lih-gay-tor SKAYL SHEELD",
+        "Short Pronunciation: EE-lih-gay-tor SKAYL SHEELD",
+        "Item Profile: item-profile-v1 eeligator-scale-shield eeligator-scale-shield Eeligator Scale Shield Eeligator Scale Shield scale shield river scale shield EE-lih-gay-tor SKAYL SHEELD armor Tier 1 P2 PROP wild eeligator hide wild/folk True Eeligator Scale Shield A round shield of overlapping slick green-grey scales catches the light like river-water. It smells of deep water, mud, and old teeth. A round shield of overlapping slick green-grey scales catches the light like river-water. It smells of deep water, mud, and old teeth. wild eeligator hide HEXMART REMINDS YOU: Genuine eeligator scale is unregulated wildlife and may carry opinions. Try Hexmart Scale-Look Shielding instead. eeligator-scale-shield Eeligator Scale Shield scale shield river scale shield EE-lih-gay-tor SKAYL SHEELD armor Tier 1 A round shield of overlapping slick green-grey scales catches the light like river-water. It smells of deep water, mud, and old teeth. Eeligator Scale Shield: sharp-scaled river armor. Add +1 to damage thresholds and +2 to damage rolls. A shield cut from the hide of the Lucent River's apex predator. Proof you survived an eeligator and came away harder to hurt. pages/entities/eeligator-scale-shield.html...",
+        "Image: assets/item-images/eeligator-scale-shield/profile_base.webp",
+        "Image Asset Status: item_visual_profile",
+        "Visual Gallery: primary Primary wiki image primary assets/item-images/eeligator-scale-shield/profile_base.webp Eeligator Scale Shield primary wiki image visual. Eeligator Scale Shield: Primary wiki image. item_visual_profile True True"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 3ea175df3d073220 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

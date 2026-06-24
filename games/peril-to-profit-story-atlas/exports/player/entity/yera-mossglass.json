@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "yera-mossglass",
+  "kind": "entity",
+  "title": "Yera Mossglass",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "the host who keeps a labeled shelf for every kind of trouble",
+  "hook": "the host who keeps a labeled shelf for every kind of trouble",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "A grey-haired co-op host in round mossglass spectacles stands amid jars, folded cloth, and color-coded rolls, smiling like every comfort has a labeled shelf."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "Care organized to the edge of formidable. Tints panic faintly green through spectacles ground from reclaimed ward-glass, because she says it is easier to sort that way. Terrified that one real crisis will turn her neighbors into cases and her guests into..."
+    },
+    {
+      "label": "Might Offer",
+      "body": "A question to ask A local perspective A grounded reason this place matters"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "A question to ask",
+    "A local perspective",
+    "A grounded reason this place matters"
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:yera-mossglass",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "a1deaef3df8be04a",
+  "generated_at": "2026-06-23T21:40:58"
+}

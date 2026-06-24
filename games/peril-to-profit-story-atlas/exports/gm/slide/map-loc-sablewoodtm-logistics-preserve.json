@@ -1,0 +1,39 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "MAP-LOC-sablewoodtm-logistics-preserve",
+  "title": "MAP-LOC-sablewoodtm-logistics-preserve - SablewoodTM Logistics Preserve Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "4c3a06370fd15e7d",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The preserve stretches beyond the path, too vast to read at once. The route ahead stays focused on the hanging home."
+    },
+    {
+      "title": "Public objective",
+      "body": "The preserve stretches beyond the path, too vast to read at once. The route ahead stays focused on the hanging home."
+    },
+    {
+      "title": "GM goal",
+      "body": "Use this as a GM-only wide-area backdrop, not a walkable Act 4 node unless Kyle later confirms."
+    },
+    {
+      "title": "GM script",
+      "body": "Say: \"Use this only as backdrop context. Do not turn it into a side route in Act 4.\""
+    },
+    {
+      "title": "State controls",
+      "items": [
+        "ward_awareness Ward Awareness select none seed aware"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 4c3a06370fd15e7d | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

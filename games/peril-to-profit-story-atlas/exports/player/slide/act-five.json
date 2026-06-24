@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "ACT-FIVE",
+  "kind": "slide",
+  "title": "ACT-FIVE - Act Five: The Ward Renewal",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act Five: The Ward Renewal",
+  "hook": "The carriage pulls into a perfect circle of clearing, the only place in the preserve where the trees pull back and let you see the open sky. This is where it ends. The Custodian says the ward was first forged here, and...",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "The carriage pulls into a perfect circle of clearing, the only place in the preserve where the trees pull back and let you see the open sky. This is where it ends. The Custodian says the ward was first forged here, and here it must be renewed. She tells you..."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Protect the Custodian through the ritual, renew the ward, and finish what the job started."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:ACT-FIVE",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "6ecba93964e78891",
+  "generated_at": "2026-06-23T21:40:58"
+}

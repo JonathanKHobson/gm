@@ -1,0 +1,340 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2981 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(Emeris) Tj
+T*
+() Tj
+T*
+(Player-facing description) Tj
+T*
+() Tj
+T*
+(Emeris is honey-colored stone, crowded courier squares, fried gate dough, painted) Tj
+T*
+(shingles, and the great western road leaning into Sablewood's green dark.) Tj
+T*
+() Tj
+T*
+(Public role) Tj
+T*
+() Tj
+T*
+(Emeris is the dispatch point, territory capital, and Sablewood-edge start city. It is) Tj
+T*
+(safe and prosperous at the start; keep active ward crisis language in Hush scenes.) Tj
+T*
+() Tj
+T*
+(Handout text) Tj
+T*
+() Tj
+T*
+(Emeris: a bright territory capital at Sablewood's edge, where the last paved road) Tj
+T*
+(becomes the job.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: emeris-capital) Tj
+T*
+(- Name: Emeris) Tj
+T*
+(- Type: location) Tj
+T*
+(- Summary: A walled city of honey-colored stone on the very lip of the great forest,) Tj
+T*
+(  where the last paved road in the world meets the first wild tree.) Tj
+T*
+(- Role: Emeris is the dispatch point, territory capital, and Sablewood-edge start) Tj
+T*
+(  city. It is safe and prosperous at the start; keep active ward crisis language in) Tj
+T*
+(  Hush scenes.) Tj
+T*
+(- Connections: Emeris Capital Gate Goldspire Territories Sablewood? Logistics Preserve) Tj
+T*
+(  Emeris Crown Holdings The Grail) Tj
+T*
+(- Aliases: Emeris the local capital the territory capital) Tj
+T*
+(- Location Profile: location-profile-v1 emeris-capital emeris-capital) Tj
+T*
+(  Location_Description_Addon/EMERIS_CORRECTED.md True strong Emeris A walled city of) Tj
+T*
+(  honey-colored stone on the very lip of the great forest, where the last paved road) Tj
+T*
+(  in the world meets the first wild tree. A walled city of honey-colored stone on the) Tj
+T*
+(  very lip of the great forest, where the last paved road in the world meets the first) Tj
+T*
+(  wild tree. Emeris is a prosperous walled city built where the paved world ends and) Tj
+T*
+(  Sablewood begins. Honey-colored houses climb gentle streets toward a great western) Tj
+T*
+(  gate, banners hang from crowded windows, and the air smells of fresh bread, ink,) Tj
+T*
+(  oiled leather, and the green breath of the forest. Emeris is the capital of its own) Tj
+T*
+(  territory and proud of it, a tight, prosperous walled city built where the paved) Tj
+T*
+(  world ends and Sablewood begins. Its houses are honey-colored stone with steep) Tj
+T*
+(  painted shingles, crowded shoulder to shoulder up gentle streets that all seem to) Tj
+T*
+(  bend, eventually, toward the great gate in the western wall. Banners hang from every) Tj
+T*
+(  other window, half of them advertising something. The markets are loud and good-) Tj
+T*
+(  natured. This is a courier town as much as a capital, so the talk is all of...) Tj
+T*
+(- Robust: Emeris is honey-colored stone, crowded courier squares, fried gate dough,) Tj
+T*
+(  painted shingles, and the great western road leaning into Sablewood's green dark.) Tj
+T*
+(  Emeris is the one-shot start city and a separate territory capital. It begins) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3872 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  publicly safe and prosperous; Hush, not Emeris, carries the immediate ward crisis.) Tj
+T*
+(  Warm walls, route stalls, wax seals, oiled leather, gate bells, bread steam, and a) Tj
+T*
+(  forest smell pushing over the western wall. Emeris wants the road to feel) Tj
+T*
+(  profitable, knowable, and safe enough that couriers keep leaving at dawn. Its) Tj
+T*
+(  confidence cracks when route danger, contractor deaths, or ward-liability paperwork) Tj
+T*
+(  make the safe city feel dependent on unsafe work. Use Emeris to ground the job in) Tj
+T*
+(  civic comfort before the table enters Sablewood; it is the launching point, not the) Tj
+T*
+(  reveal. Knowledge / Presence 12 Read the courier economy cleanly: the city makes) Tj
+T*
+(  money by turning forest risk into routes, permits, guide fees, and cheerful) Tj
+T*
+(  confidence. Learn which gate, guide stall, or clerk can point the party toward) Tj
+T*
+(  Sablewood. Learn the route answer, but a clerk notes the party's interest in the) Tj
+T*
+(  contract. You miss the bigger pattern, but find the right gate and one useful...) Tj
+T*
+(- Tags: capital-context goldspire-location location-profile) Tj
+T*
+(- Source Documents: One-shot source PDF) Tj
+T*
+(  sources/Peril_to_Profit_Sablewood_Logistics_Preserve.pdf) Tj
+T*
+(- Item Links: keystone-asset Keystone Asset? Story Asset Assigned by the job; not) Tj
+T*
+(  lootable. auditors-verdict-ledger Auditor's Verdict Ledger? Corporate Sundries) Tj
+T*
+(  Appears when an auditor is summoned or a blame dispute needs a prop.) Tj
+T*
+(- Equipment: Keystone Asset? Auditor's Verdict Ledger?) Tj
+T*
+(- Clue Links: route-assurance-contracttm Route Assurance Contract? The Manufactured) Tj
+T*
+(  Failure HIDDEN, COM S00-01 S02-04 S03-01 S04-01 S05-01 Finesse D14 Knowledge D14) Tj
+T*
+(  Presence D14 If the clue is plainly visible, give the SHOW text freely first: A) Tj
+T*
+(  bland, sunny contract, thick with optimistic language, that promises everything and) Tj
+T*
+(  guarantees nothing ? and is, technically, completely truthful. With Fear on Agility,) Tj
+T*
+(  give the clue but add bite: The first read treats the paperwork as normal) Tj
+T*
+(  bureaucracy instead of a prepared failure trail. The truth remains reachable, but it) Tj
+T*
+(  costs time, attention, trust, or a new complication.) Tj
+T*
+(- Personality: Warm walls, route stalls, wax seals, oiled leather, gate bells, bread) Tj
+T*
+(  steam, and a forest smell pushing over the western wall.) Tj
+T*
+(- Wants: Emeris wants the road to feel profitable, knowable, and safe enough that) Tj
+T*
+(  couriers keep leaving at dawn.) Tj
+T*
+(- Fears: Its confidence cracks when route danger, contractor deaths, or ward-liability) Tj
+T*
+(  paperwork make the safe city feel dependent on unsafe work.) Tj
+T*
+(- Secrets: Emeris is the one-shot start city and a separate territory capital. It) Tj
+T*
+(  begins publicly safe and prosperous; Hush, not Emeris, carries the immediate ward) Tj
+T*
+(  crisis.) Tj
+T*
+(- Body Language: Warm walls, route stalls, wax seals, oiled leather, gate bells, bread) Tj
+T*
+(  steam, and a forest smell pushing over the western wall.) Tj
+T*
+(- Sample Dialogue: Honey-stone walls, courier bells, fried dough, and a green forest) Tj
+T*
+(  waiting past the western gate.) Tj
+T*
+(- Search Or Loot: Emeris: a bright territory capital at Sablewood's edge, where the) Tj
+T*
+(  last paved road becomes the job.) Tj
+T*
+(- Gm Use: Use Emeris to ground the job in civic comfort before the table enters) Tj
+T*
+(  Sablewood; it is the launching point, not the reveal.) Tj
+T*
+(- Future Hooks: Return to Emeris with a changed understanding of what its safe roads) Tj
+T*
+(  cost outside the wall.) Tj
+T*
+(- Mechanics: Location Exploration Mechanics Players can navigate, search, read) Tj
+T*
+(  customs, inspect hazards Emeris when it is present in the fiction. Use the roll only) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3108 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  when the player's method, stakes, and consequence are concrete. Surface read: A) Tj
+T*
+(  walled city of honey-colored stone on the very lip of the great forest, where the) Tj
+T*
+(  last paved road in the world meets the first wild tree. Give obvious visible facts) Tj
+T*
+(  freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-emeris-) Tj
+T*
+(  capital-engage-emeris entity-emeris-capital Engage Emeris Engage Emeris Instinct) Tj
+T*
+(  Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait) Tj
+T*
+(  from the player's method, not the entity type. A flat read of Emeris hides the cost,) Tj
+T*
+(  motive, or useful next step. Critical Success: best possible version of the action;) Tj
+T*
+(  gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction.) Tj
+T*
+(  Success with Hope: the PC gets what they wanted and gains Hope. Keep the position) Tj
+T*
+(  clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains) Tj
+T*
+(  Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC) Tj
+T*
+(  does not get the full result, but gains Hope and...) Tj
+T*
+(- Pronunciation: EM-er-iss) Tj
+T*
+(- Short Pronunciation: EM-er-iss) Tj
+T*
+(- Meta: Location LOCATION assets/icons/location.png entity-location #5fa8d3 05) Tj
+T*
+(  Locations locations location) Tj
+T*
+(- Image Prompt: Private table TTRPG story atlas asset for Emeris, Location. Role:) Tj
+T*
+(  Emeris is the dispatch point, territory capital, and Sablewood-edge start city. It) Tj
+T*
+(  is safe and prosperous at the start; keep active ward crisis language in Hush) Tj
+T*
+(  scenes.. Summary: A walled city of honey-colored stone on the very lip of the great) Tj
+T*
+(  forest, where the last paved road in the world meets the first wild tree.. Cinematic) Tj
+T*
+(  fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Show) Tj
+T*
+(  the place as an atmospheric establishing image, not a map. Do not include the) Tj
+T*
+(  Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.) Tj
+T*
+(- Related: Emeris Capital Gate Emeris Crown Holdings Goldspire Territories Sablewood?) Tj
+T*
+(  Logistics Preserve The Grail) Tj
+T*
+(- Image: assets/location-visuals/emeris-capital/profile_scene_v02.png) Tj
+T*
+(- Image Asset Status: location_visual_profile) Tj
+T*
+(- Visual Gallery: primary Primary wiki image primary assets/location-visuals/emeris-) Tj
+T*
+(  capital/profile_scene_v02.png Emeris primary wiki image visual. Emeris: Primary wiki) Tj
+T*
+(  image. location_visual_profile True True primary_map Top-down map location-map) Tj
+T*
+(  assets/location-visuals/emeris-capital/primary_map_v02.png Emeris top-down map) Tj
+T*
+(  visual. Emeris: Top-down map. ready True /Users/kyle/Documents/My Games/Peril To) Tj
+T*
+(  Profit/story-atlas/src/location_visual_assets/emeris-capital/primary_map_v02.png) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash e0bfb1a310d801af | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000003042 00000 n 
+0000003168 00000 n 
+0000007092 00000 n 
+0000007218 00000 n 
+0000010378 00000 n 
+0000010504 00000 n 
+0000010573 00000 n 
+0000010622 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+10694
+%%EOF

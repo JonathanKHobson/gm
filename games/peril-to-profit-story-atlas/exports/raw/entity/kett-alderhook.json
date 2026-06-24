@@ -1,0 +1,70 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "kett-alderhook",
+  "title": "Kett Alderhook",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "3756e2c44e200757",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Kett Alderhook: A desperate cargo runner who believes the road stole from his people first."
+    },
+    {
+      "title": "Public role",
+      "body": "The one who has to decide whether tonight's robbery becomes tonight's massacre."
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: A desperate cargo runner who believes the road stole from his people first."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: npc",
+        "Role: The one who has to decide whether tonight's robbery becomes tonight's massacre.",
+        "Tags: npc enemy bramble-union npc-profile",
+        "Summary: A desperate cargo runner who believes the road stole from his people first.",
+        "Connections: Bramble Union Claimrunner Bramble Union Vela Bramblewick",
+        "Inventory: serrated blade route sketch letter to younger sibling old shipping seal",
+        "Loot: If killed/captured, reveals Bramble Union motive.",
+        "Name: Kett Alderhook",
+        "Id: kett-alderhook",
+        "Meta: NPC / Ally NPC assets/icons/npc.png entity-npc #f0aa45 03 NPCs entities npc",
+        "Aliases: Kett Kett Alderhook",
+        "Appears In: S02-04",
+        "Related: Bramble Union Bramble Union Claimrunner S02-04 Vela Bramblewick",
+        "Image Prompt: Private table TTRPG story atlas asset for Kett Alderhook, NPC / Ally. Role: The one who has to decide whether tonight's robbery becomes tonight's massacre.. Summary: A desperate cargo runner who believes the road stole from his people first.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Personality: Carries the whole camp's survival like a debt he co-signed. Hard-jawed in front of the scouts, unsure the moment they look away. Believes the road stole from his people first, and is terrified of becoming the exact villain the company already wrote him as.",
+        "Wants: Keep the ambush from becoming a massacre while still taking something useful.",
+        "Fears: Becoming exactly the violent story the companies already wrote about them.",
+        "Secrets: Kett has doubts about whether the current plan protects the camp or just spends it.",
+        "Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.",
+        "Sample Dialogue: We are done paying tolls on roads that used to feed us. Step away from the carriage and nobody has to bleed. You think this route was made safe for us?",
+        "Equipment: serrated blade route sketch letter to younger sibling old shipping seal Bramble Ward-Scrap Charm Cluster",
+        "Search Or Loot: If killed/captured, reveals Bramble Union motive. Loot / item link: Bramble Ward-Scrap Charm Cluster (Trade, trust, or careful examination of dropped Bramble gear.).",
+        "Gm Use: Use this person to put a human face on the current pressure. Give them one concrete want before exposition.",
+        "Future Hooks: Bring back as an echo if players made a strong choice involving this entity.",
+        "Robust: Kett Alderhook: A desperate cargo runner who believes the road stole from his people first. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Get a concrete outcome tied to Bramble Union Claimrunner, Bramble Union, Vela Bramblewick, while keeping personal agency instead of becoming a delivery mechanism for lore. Being ignored at the moment their local knowledge matters, or having Bramble Union Claimrunner, Bramble Union, Vela Bramblewick used without care. Use this person to put a human face on the current pressure. Give them one concrete want before exposition. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Kett Alderhook and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice...",
+        "Mechanics: Social / Information Mechanics Players can interact, comfort, persuade, or earn trust Kett Alderhook when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A desperate cargo runner who believes the road stole from his people first. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-kett-alderhook-engage-kett-alderhook entity-kett-alderhook Engage Kett Alderhook Engage Kett Alderhook Presence Knowledge Instinct Presence Knowledge, Instinct 12 Choose the trait from the player's method, not the entity type. A flat read of Kett Alderhook hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option...",
+        "Pronunciation: KET AWL-der-hook",
+        "Short Pronunciation: KET AWL-der-hook",
+        "Npc Profile: npc-profile-v1 NPC_System_Packet + image-informed hardening True Kett Alderhook a desperate field leader trying to seize leverage from the carriage A horned Bramble field leader stands in moss-dark armor, jaw set, a blue ward pendant burning at the chest like a borrowed badge of command. Kett Alderhook: a desperate field leader trying to seize leverage from the carriage Kett Alderhook KET AWL-der-hook a desperate field leader trying to seize leverage from the carriage The one who has to decide whether tonight's robbery becomes tonight's massacre. The parley valve inside the fight; talk to him and the whole encounter can change shape without losing its danger. He wants the carriage's leverage, not your blood, and he is one wrong word away from either. Parley path Capture/mercy branch Evidence that the road conflict is bigger than banditry Coiled and courteous, watching your hands, hoping you give him a reason not to swing. Proof that surrender will not just feed his people back into the machine that buried the others. Keep the ambush from becoming a massacre while still taking something useful. Make the old forest routes answer to the people who bled on them. Keep the ambush from...",
+        "One Line: a desperate field leader trying to seize leverage from the carriage",
+        "Player Display Title: Kett Alderhook",
+        "Player Display Caption: a desperate field leader trying to seize leverage from the carriage",
+        "Item Links: bramble-ward-scrap-charm-cluster Bramble Ward-Scrap Charm Cluster Bramble Union Loot Trade, trust, or careful examination of dropped Bramble gear.",
+        "Image: assets/npc-images/kett-alderhook/portrait_base.webp",
+        "Image Asset Status: npc_images",
+        "Visual Gallery: primary Primary wiki image primary assets/npc-images/kett-alderhook/portrait_base.webp Kett Alderhook primary wiki image visual. Kett Alderhook: Primary wiki image. npc_images True True npc-fullbody_base Full-body npc-portrait assets/npc-images/kett-alderhook/fullbody_base.webp Kett Alderhook full-body visual. Kett Alderhook: Full-body. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/kett-alderhook/fullbody_base.png npc-fullbody_chroma Full-body chroma source npc-portrait assets/npc-images/kett-alderhook/fullbody_chroma.webp Kett Alderhook full-body chroma source visual. Kett Alderhook: Full-body chroma source. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/kett-alderhook/fullbody_chroma.png npc-fullbody_transparent Full-body transparent cutout npc-portrait assets/npc-images/kett-alderhook/fullbody_transparent.webp Kett Alderhook full-body transparent cutout visual. Kett Alderhook: Full-body transparent cutout. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/kett-alderhook/fullbody_transparent.png npc-portrait_chroma Portrait chroma source npc-portrait..."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 3756e2c44e200757 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

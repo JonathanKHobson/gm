@@ -1,0 +1,318 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2247 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(SZ-08 - Launch Checklist / Cut to Prologue) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(You are on a delivery job to the village of Hush with a sealed crate. You know enough to) Tj
+T*
+(start; the rest will come through play.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(You are on a delivery job to the village of Hush with a sealed crate. You know enough to) Tj
+T*
+(start; the rest will come through play.) Tj
+T*
+() Tj
+T*
+(Player bullets) Tj
+T*
+() Tj
+T*
+(- The route waits.) Tj
+T*
+(- The contract is signed.) Tj
+T*
+(- The crate is sealed.) Tj
+T*
+(- We begin now.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: SZ-08) Tj
+T*
+(- Type: session-zero) Tj
+T*
+(- Sectionid: SESSION-ZERO) Tj
+T*
+(- Sectiontitle: Session Zero) Tj
+T*
+(- Title: Launch Checklist / Cut to Prologue) Tj
+T*
+(- Shorttitle: Launch Checklist / Cut to Prologue) Tj
+T*
+(- Playertitle: Ready to begin) Tj
+T*
+(- Order: 15) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: True) Tj
+T*
+(- Image: assets/scenes/S00-01-the-job.png) Tj
+T*
+(- Alt: The opening delivery job and sealed contract ready to begin.) Tj
+T*
+(- Caption: Confirm readiness and transition into The Contract.) Tj
+T*
+(- Mood: calibration, invitation, consent) Tj
+T*
+(- Gmgoal: Confirm readiness and transition into The Contract.) Tj
+T*
+(- Publicobjective: You are on a delivery job to the village of Hush with a sealed) Tj
+T*
+(  crate. You know enough to start; the rest will come through play.) Tj
+T*
+(- Readaloud: You are on a delivery job to the village of Hush with a sealed crate. You) Tj
+T*
+(  know enough to start; the rest will come through play.) Tj
+T*
+(- Playerbullets: The route waits. The contract is signed. The crate is sealed. We) Tj
+T*
+(  begin now.) Tj
+T*
+(- Displaymode: image-title-caption) Tj
+T*
+(- Gmnotes: Script: Confirm the checklist, then jump cleanly to the Prologue. Do not) Tj
+T*
+(  reopen planning unless safety or basic readiness is unresolved. This is the last) Tj
+T*
+(  Session Zero beat. The next player-facing screen should feel like the adventure) Tj
+T*
+(  beginning. Checklist: Safety tools explained; Safety intake reviewed if used;) Tj
+T*
+(  Characters chosen or built; Marlowe PC or chosen package custodian status assigned;) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3888 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Connections recorded; Starting knowledge aligned; Rules snapshot delivered; Player) Tj
+T*
+(  display ready; Prologue ready) Tj
+T*
+(- Gmscript: Confirm the checklist, then jump cleanly to the Prologue. Do not reopen) Tj
+T*
+(  planning unless safety or basic readiness is unresolved.) Tj
+T*
+(- Gmreadaloud: Last check before the Prologue: does everyone have a sheet, a basic) Tj
+T*
+(  sense of their character, and at least one reason to be on this job? Any safety,) Tj
+T*
+(  rules, character, or connection question before we start? If not, we begin with the) Tj
+T*
+(  contract.) Tj
+T*
+(- Gmchecklist: Safety tools explained Safety intake reviewed if used Characters chosen) Tj
+T*
+(  or built Marlowe PC or chosen package custodian status assigned Connections recorded) Tj
+T*
+(  Starting knowledge aligned Rules snapshot delivered Player display ready Prologue) Tj
+T*
+(  ready) Tj
+T*
+(- Playertakeaway: Players know enough to begin the Prologue and ask for help if) Tj
+T*
+(  something is unresolved.) Tj
+T*
+(- Storytakeaway: The delivery job starts now; the rest of the truth will come through) Tj
+T*
+(  play.) Tj
+T*
+(- Mechanictakeaway: Converts onboarding into first scene agency.) Tj
+T*
+(- Takeawayhelp: Players know they can begin Players know enough to start and ask for) Tj
+T*
+(  help if unresolved. This is the final readiness gate. It should resolve friction,) Tj
+T*
+(  not reopen full Session Zero discussion. "Before we start: sheet, character name,) Tj
+T*
+(  basic vibe, one reason you are on the job, and any last safety or rules question.") Tj
+T*
+(  If someone says they are not ready: "Tell me the missing piece: sheet, character,) Tj
+T*
+(  rule, safety, or connection. We will fix that piece and begin." This is the final) Tj
+T*
+(  readiness gate. It should resolve friction, not reopen full Session Zero discussion.) Tj
+T*
+(  roleplay table-spotlight The contract starts now The delivery job begins; deeper) Tj
+T*
+(  truth arrives through play. This turns onboarding into action. Do not add more lore) Tj
+T*
+(  here; cut to the Prologue. "When we move on, we are in the fiction. You will meet) Tj
+T*
+(  the job, see the package, and decide what your character asks or does first." If) Tj
+T*
+(  someone asks what happens first: "We begin with the contract: a contact, a carriage,) Tj
+T*
+(  a sealed crate, and a job that wants you moving before daylight is gone." This turns) Tj
+T*
+(  onboarding into action. Do not add more lore here; cut to the Prologue. roleplay) Tj
+T*
+(  table-spotlight Onboarding becomes first-scene agency...) Tj
+T*
+(- Mechanicids: roleplay table-spotlight) Tj
+T*
+(- Handoutids: session-zero-worksheet) Tj
+T*
+(- Sourcefiles: docs/SESSION_ZERO_RUNBOOK.md#session-zero-closeout) Tj
+T*
+(  data/session_zero_state_schema.json docs/HTML_IMPLEMENTATION_SPEC.md) Tj
+T*
+(- Livetools: none) Tj
+T*
+(- Playerbeats: SZ-08-image Image only Ready to begin assets/scenes/S00-01-the-job.png) Tj
+T*
+(  The opening delivery job and sealed contract ready to begin. image-only SZ-08-hybrid) Tj
+T*
+(  Image + text Ready to begin assets/scenes/S00-01-the-job.png The opening delivery) Tj
+T*
+(  job and sealed contract ready to begin. Confirm readiness and transition into The) Tj
+T*
+(  Contract. You are on a delivery job to the village of Hush with a sealed crate. You) Tj
+T*
+(  know enough to start; the rest will come through play. You are on a delivery job to) Tj
+T*
+(  the village of Hush with a sealed crate. You know enough to start; the rest will) Tj
+T*
+(  come through play. The route waits. The contract is signed. The crate is sealed. We) Tj
+T*
+(  begin now. image-title-caption SZ-08-text Text only Ready to begin Confirm readiness) Tj
+T*
+(  and transition into The Contract. You are on a delivery job to the village of Hush) Tj
+T*
+(  with a sealed crate. You know enough to start; the rest will come through play. You) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 1983 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  are on a delivery job to the village of Hush with a sealed crate. You know enough to) Tj
+T*
+(  start; the rest will come through play. The route waits. The contract is signed. The) Tj
+T*
+(  crate is sealed. We begin now. text-first) Tj
+T*
+(- Beatautoplayeligible: False) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 12000) Tj
+T*
+(- Playersafeprojection: SZ-08 session-zero Launch Checklist / Cut to Prologue) Tj
+T*
+(  assets/scenes/S00-01-the-job.png The opening delivery job and sealed contract ready) Tj
+T*
+(  to begin. Confirm readiness and transition into The Contract. calibration,) Tj
+T*
+(  invitation, consent You are on a delivery job to the village of Hush with a sealed) Tj
+T*
+(  crate. You know enough to start; the rest will come through play. You are on a) Tj
+T*
+(  delivery job to the village of Hush with a sealed crate. You know enough to start;) Tj
+T*
+(  the rest will come through play. The route waits. The contract is signed. The crate) Tj
+T*
+(  is sealed. We begin now. image-title-caption SZ-08-image Image only Ready to begin) Tj
+T*
+(  assets/scenes/S00-01-the-job.png The opening delivery job and sealed contract ready) Tj
+T*
+(  to begin. image-only SZ-08-hybrid Image + text Ready to begin) Tj
+T*
+(  assets/scenes/S00-01-the-job.png The opening delivery job and sealed contract ready) Tj
+T*
+(  to begin. Confirm readiness and transition into The Contract. You are on a delivery) Tj
+T*
+(  job to the village of Hush with a sealed crate. You know enough to start; the rest) Tj
+T*
+(  will come through play. You are on a delivery job to the village of Hush with a) Tj
+T*
+(  sealed crate. You know enough to start; the rest will come through play. The route) Tj
+T*
+(  waits. The...) Tj
+T*
+(- Slidenumber: 15) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 43bbad258ebcd796 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002308 00000 n 
+0000002434 00000 n 
+0000006374 00000 n 
+0000006500 00000 n 
+0000008535 00000 n 
+0000008661 00000 n 
+0000008730 00000 n 
+0000008779 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+8851
+%%EOF

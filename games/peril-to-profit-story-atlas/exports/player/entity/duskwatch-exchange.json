@@ -1,0 +1,44 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "duskwatch-exchange",
+  "kind": "entity",
+  "title": "Duskwatch Exchange",
+  "in_world_label": "Goldspire Travel Advisory",
+  "brand_flag": "Player-safe",
+  "kicker": "A Sablewood trade point where route knowledge, watches, and liability-backed bargains change hands above or beside the old wood.",
+  "hook": "A Sablewood trade point where route knowledge, watches, and liability-backed bargains change hands above or beside the old wood.",
+  "blocks": [
+    {
+      "label": "Arrival Read",
+      "body": "Duskwatch Exchange is where route knowledge changes hands quietly, because the forest charges more for ignorance."
+    },
+    {
+      "label": "Known For",
+      "body": "Everyone wants their business done before dark, so the whole place moves at a hurried, friendly clip until the light goes. Lantern counters glow under low awnings. A raised platform keeps watch on road and sky at once. The yard fills with crates, straps, wax..."
+    },
+    {
+      "label": "What Is Here",
+      "body": "Local residents or workers appropriate to the place pack beetles, courier birds, dusk moths, tired road ponies No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or..."
+    },
+    {
+      "label": "Food And Texture",
+      "body": "Hot food comes off a smoking griddle fast and cheap, skewers, fried roots, a strong dark stew ladled to anyone with a coin and a hurry. The cider is warm, and the portions get bigger as the light gets lower."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Look for the busiest local gathering point.",
+    "Ask what has changed here recently."
+  ],
+  "archetype": "location.advisory",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:duskwatch-exchange",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "22ade3d33ce78ecd",
+  "generated_at": "2026-06-23T21:40:58"
+}

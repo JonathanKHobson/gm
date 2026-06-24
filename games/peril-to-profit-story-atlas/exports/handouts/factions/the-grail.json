@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "the-grail",
+  "kind": "entity",
+  "title": "The Grail",
+  "in_world_label": "Public Notice",
+  "brand_flag": "The Grail™ protects the worthy.",
+  "kicker": "Holy-road protection with knightly livery, righteous language, and contracts that sound like sacraments.",
+  "hook": "The Grail: The Grail™ sells salvation-shaped security: holy escorts, blessed wards, and protection from threats it has no interest in ending. Slogan: The Grail™ protects the worthy.",
+  "blocks": [
+    {
+      "label": "Public Face",
+      "body": "Holy-road protection with knightly livery, righteous language, and contracts that sound like sacraments."
+    },
+    {
+      "label": "Slogan",
+      "body": "The Grail™ protects the worthy."
+    },
+    {
+      "label": "How To Deal",
+      "body": "The Grail™ arrives like a sermon: knights in spotless white-and-gold, a contract written like a sacrament, a choir-sweet recruiter who calls the toll a tithe and the fee a sacrifice. Buy a Blessing of Safe Passage™, a consecrated Ward of the Worthy™, an..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask what they publicly promise.",
+    "Compare their slogan to what they actually do in the scene."
+  ],
+  "archetype": "faction.flyer",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:the-grail",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "accfc91242f63bd0",
+  "generated_at": "2026-06-23T21:40:58"
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "mountain-crabs",
+  "title": "Mountain Crabs",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "b332eb4941f435a1",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "The crabs look carved from the mountain until they move. Moss and tiny flowers ride their stone shells while their claws test the road edge."
+    },
+    {
+      "title": "Public role",
+      "body": "Crab-shell resource and climbing-route pressure"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Granite-shelled cliff crabs with moss and alpine flowers growing on their backs, stone-heavy claws, many gripping legs, and wary eyes made for vertical roads."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use as Titan's Steps texture: resource, danger, respect test, and a way to make vertical travel feel alive."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash b332eb4941f435a1 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

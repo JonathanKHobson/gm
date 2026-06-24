@@ -13,28 +13,74 @@
 <nav class="sticky-top-nav" aria-label="Quick navigation">
   <a href="./index.html">Atlas</a>
   <a href="./run.html">Run Mode</a>
+  <a href="./pages/session-zero.html">Session Zero</a>
+  <a href="./pages/story-outline.html">Outline</a>
   <a href="./pages/gm-dashboard.html">Dashboard</a>
+  <a href="./pages/handouts.html">Handouts</a>
   <a href="./pages/entity-index.html">Wiki</a>
   <a href="./pages/pc-cheat-sheet.html">PCs</a>
-  <button type="button" data-rules-open data-rules-target="action-roll">Rules</button>
+  <a href="./pages/settings.html">Settings</a>
+  <button type="button" data-rules-open data-rules-target="action-roll" data-mechanic="action-roll">Rules</button>
   <details class="rules-shortcuts">
     <summary>Rule Shortcuts</summary>
     <div class="rules-shortcut-menu">
-      <button type="button" data-rules-open data-rules-target="action-roll">Action Roll Help</button>
-      <button type="button" data-rules-open data-rules-target="hope-fear-matrix">Hope/Fear Outcomes</button>
-      <button type="button" data-rules-open data-rules-target="difficulty-ladder">Difficulty Ladder</button>
-      <button type="button" data-rules-open data-rules-target="conditions">Official Conditions</button>
-      <button type="button" data-rules-open data-rules-target="damage-armor-stress">Damage / Armor</button>
-      <button type="button" data-rules-open data-rules-target="gm-fear">GM Fear Spends</button>
-      <a class="button secondary" href="./pages/dnd-to-daggerheart.html">D&D Conversion</a>
-      <button type="button" data-rules-open data-rules-target="short-rest">Short Rest</button>
-      <button type="button" data-rules-open data-rules-target="countdown">Countdown</button>
-      <button type="button" data-rules-open data-rules-target="gm-moves-spotlight">Adversary Spotlight</button>
+      <button type="button" data-rules-open data-rules-target="action-roll" data-mechanic="action-roll">Action Roll Help</button>
+      <button type="button" data-rules-open data-rules-target="hope-fear-matrix" data-mechanic="hope">Hope/Fear Outcomes</button>
+      <button type="button" data-rules-open data-rules-target="difficulty-ladder" data-mechanic="difficulty">Difficulty Ladder</button>
+      <button type="button" data-rules-open data-rules-target="conditions" data-mechanic="conditions">Official Conditions</button>
+      <button type="button" data-rules-open data-rules-target="damage-armor-stress" data-mechanic="damage-thresholds">Damage / Armor</button>
+      <button type="button" data-rules-open data-rules-target="gm-fear" data-mechanic="fear">GM Fear Spends</button>
+      <a class="button secondary mechanic-link" href="./pages/dnd-to-daggerheart.html" data-mechanic="dnd-to-daggerheart"><span>D&D Conversion</span></a>
+      <button type="button" data-rules-open data-rules-target="short-rest" data-mechanic="short-rest">Short Rest</button>
+      <button type="button" data-rules-open data-rules-target="countdown" data-mechanic="countdown">Countdown</button>
+      <button type="button" data-rules-open data-rules-target="gm-moves-spotlight" data-mechanic="adversary-spotlight">Adversary Spotlight</button>
     </div>
   </details>
   <label>Jump <select data-scene-jump></select></label>
-  <label>Theme <select data-theme-select><option value="light">Light</option><option value="dark">Dark</option><option value="print-preview">Print preview</option></select></label>
   <button type="button" data-command-palette-open>Search</button>
+  
+  <section class="run-clock" data-run-clock aria-label="Run clock" hidden>
+    <button class="run-clock-chip" type="button" data-run-clock-toggle aria-expanded="false" title="Open run clock">
+      <span class="run-clock-time" data-run-clock-elapsed>0:00</span>
+      <span class="run-clock-context" data-run-clock-context>Run clock</span>
+      <span class="run-clock-target" data-run-clock-target></span>
+    </button>
+    <div class="run-clock-panel" data-run-clock-panel hidden>
+      <header>
+        <div>
+          <p class="private-note">3.5-hour pacing helper</p>
+          <h3>Run Clock</h3>
+        </div>
+        <button class="run-clock-close" type="button" data-run-clock-toggle aria-label="Close run clock">Close</button>
+      </header>
+      <div class="run-clock-current">
+        <p><strong>Elapsed:</strong> <span data-run-clock-elapsed-long>0:00</span></p>
+        <p><strong>Status:</strong> <span data-run-clock-status>Not started</span></p>
+        <p><strong>Scene:</strong> <span data-run-clock-scene-target>Start the session.</span></p>
+        <p><strong>Segment:</strong> <span data-run-clock-current-target>Start the session.</span></p>
+        <p><strong>Session:</strong> <span data-run-clock-session-target>Target 3:30; soft wall 4:00; hard wall 5:00.</span></p>
+        <p><strong>Remaining:</strong> <span data-run-clock-remaining>--</span></p>
+        <p><strong>Break prompt:</strong> <span data-run-clock-break>Ask the table as needed.</span></p>
+      </div>
+      
+      <div class="run-clock-control-grid run-clock-access-grid" aria-label="Run clock access">
+        <a class="button secondary" href="./run.html">Open Run Mode controls</a>
+      </div>
+
+    </div>
+    <div class="run-clock-modal" data-run-clock-modal role="alertdialog" aria-modal="true" aria-labelledby="run-clock-modal-title" hidden>
+      <div class="run-clock-modal-card">
+        <h3 id="run-clock-modal-title" data-run-clock-modal-title>Run clock alert</h3>
+        <p data-run-clock-modal-message></p>
+        <div class="run-clock-modal-actions">
+          <button type="button" data-run-clock-modal-snooze>Snooze 5 min</button>
+          <button type="button" data-run-clock-modal-dismiss>Dismiss</button>
+          <button type="button" data-run-clock-modal-dismiss-permanent>Permanently dismiss</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </nav>
 <dialog id="command-palette" class="command-palette">
   <button class="dialog-close" type="button" data-command-palette-close aria-label="Close search">Close</button>
@@ -43,9 +89,9 @@
 </dialog>
 
   <main class="wiki-page" id="content">
-    <p class="private-note">Goldspire Story Atlas</p>
-    <h1>That page isn't on the table</h1>
-    <p class="entity-page-lede">The scene, entity, or handout you followed has moved or never existed. Nothing is broken &mdash; jump back to a known spot below.</p>
+    <p class="private-note"><a class="entity-link entity-location inline-entity-link" href="pages/entities/goldspire-territories.html" data-entity="goldspire-territories"><img class="type-icon" src="assets/icons/location.png" alt="" aria-hidden="true"><span>Goldspire</span></a> Story Atlas</p>
+    <h1>That page isn&#x27;t on the table</h1>
+    <p class="entity-page-lede">The scene, entity, or handout you followed has moved or never existed. Nothing is broken — jump back to a known spot below.</p>
     <div class="hero-actions" style="margin-top:1.5rem">
       <a class="button" href="/index.html">Atlas Home</a>
       <a class="button secondary" href="/run.html">Run Mode</a>

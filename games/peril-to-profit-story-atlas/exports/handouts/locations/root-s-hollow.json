@@ -1,0 +1,44 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "root-s-hollow",
+  "kind": "entity",
+  "title": "Root's Hollow",
+  "in_world_label": "Goldspire Travel Advisory",
+  "brand_flag": "Player-safe",
+  "kicker": "A settlement whose alchemists brave Sablewood and the Lucent River for healing water, roots, herbs, and careful local knowledge.",
+  "hook": "A settlement whose alchemists brave Sablewood and the Lucent River for healing water, roots, herbs, and careful local knowledge.",
+  "blocks": [
+    {
+      "label": "Arrival Read",
+      "body": "Root's Hollow smells of tinctures, river water, and careful survival, a place where alchemists learn from Sablewood because they have to."
+    },
+    {
+      "label": "Known For",
+      "body": "The room sits down inside the roots, low enough that tall folk learn to stoop fast. Lanterns hang in niches worn smooth by hands. Drying herbs and stoppered tinctures crowd every shelf, and the whole place smells of river water and crushed leaves. Boots cake..."
+    },
+    {
+      "label": "What Is Here",
+      "body": "Local residents or workers appropriate to the place Spidermanders leave ash-damp prints Centi-Beetles scrape under the soil Hellbender stories make the ground feel like it is listening No default combatant; add only if the scene introduces one Local civic..."
+    },
+    {
+      "label": "Food And Texture",
+      "body": "Food is medicine here and medicine is food, bitter root teas, broths thick with foraged greens, bread you chew slowly because it is mostly seeds. They press a warm cup into your hands the moment you sit, and watch to..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Look for the busiest local gathering point.",
+    "Ask what has changed here recently."
+  ],
+  "archetype": "location.advisory",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:root-s-hollow",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "7e899d4452a0c121",
+  "generated_at": "2026-06-23T21:40:58"
+}

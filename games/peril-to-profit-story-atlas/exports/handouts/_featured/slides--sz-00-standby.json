@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "SZ-00-STANDBY",
+  "kind": "slide",
+  "title": "SZ-00-STANDBY - Standby Welcome Poster",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Session Zero",
+  "hook": "Welcome to Peril to Profit: The Goldspire Messengers.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "Welcome to Peril to Profit: The Goldspire Messengers."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Welcome to Peril to Profit: The Goldspire Messengers."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": true,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:SZ-00-STANDBY",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "6ce660f0f60a53ae",
+  "generated_at": "2026-06-23T21:40:58"
+}

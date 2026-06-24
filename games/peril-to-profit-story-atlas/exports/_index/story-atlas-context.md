@@ -1,0 +1,360 @@
+# Story Atlas Context
+
+Whole-site GM/AI context export
+
+## Counts
+- Scenes: 27
+- Entities: 252
+- Slides: 110
+- Rules: 57
+
+## Coverage
+- Available: 403
+- Featured: 11
+- No Handout: 43
+- By Archetype: 28 21 54 40 83 40 137
+
+## Scene index
+- S00-01: The Job
+- S01-01: Entering Sablewood
+- S01-02: The Overturned Vendor Cart
+- S01-03: The Strixwolf Mother
+- S01-04: The First Roll
+- S02-01: The Fallout Investigation
+- S02-02: Eyes in the Brush
+- S02-03: Bramble Union Ambush
+- S02-04: After the Ambush
+- S03-01: Arrival at Hush
+- S03-02: Local Clues
+- S03-03: The Clover Co-op
+- S03-04: Firstmoss Launch Festival
+- S04-01: Through the Farms
+- S04-02: The Hanging Office Exterior
+- S04-03: The Whitefire Custodian
+- S04-04: The Keystone Reveal
+- S04-05: Toward Open Vale
+- S05-01: Open Vale™ Ritual Site
+- S05-02: Short Rest Before the Storm
+- S05-03: The Ritual Begins
+- S05-04: Legacy Security Skeletons
+- S05-05: Soul-Audit Wraiths
+- S05-06: Market Correction
+- S05-07: The Ward Locks Into Place
+- S06-01: Back in the Hanging Office
+- S06-02: The Relay Spire Hook
+
+## Entity index
+- marlowe-fairwind: Marlowe Fairwind (pc)
+- barnacle: Barnacle (pc)
+- garrick-reed: Garrick Reed (pc)
+- khari-nix: Khari Nix (pc)
+- varian-soto: Varian Soto (pc)
+- strixwolf-mother: Strixwolf Mother (creature)
+- strixwolf-pup-one: Strixwolf Pup One (creature)
+- strixwolf-pup-two: Strixwolf Pup Two (creature)
+- tamsin-vell: Tamsin Vell (npc)
+- bramble-union: Bramble Union (faction)
+- bramble-union-ambusher: Bramble Union Ambusher (enemy)
+- bramble-union-claimrunner: Bramble Union Claimrunner (enemy)
+- kett-alderhook: Kett Alderhook (npc)
+- vela-bramblewick: Vela Bramblewick (npc)
+- rye-underbough: Rye Underbough (npc)
+- brannic-mossvein: Brannic Mossvein (npc)
+- hush: Hush (location)
+- hushtm-community-enclave: Hush™ Community Enclave (location)
+- fidget: Fidget (npc)
+- lausa-standworth: Lausa Standworth (npc)
+- halython-fives: Halython Fives (npc)
+- yera-mossglass: Yera Mossglass (npc)
+- clover-co-op: Clover Co-op (faction)
+- firstmoss-launch-festival: Firstmoss Launch Festival (location)
+- hush-farms: Hush Farms (location)
+- the-hanging-office: The Hanging Office (location)
+- whitefire-custodian: Whitefire Custodian (npc)
+- keystone-asset: Keystone Asset™ (item)
+- open-valetm-ritual-site: Open Vale™ Ritual Site (location)
+- legacy-security-skeleton: Legacy Security Skeleton (enemy)
+- soul-audit-wraith: Soul-Audit Wraith (enemy)
+- market-correction: Market Correction (clue)
+- relay-spire: Relay Spire (location)
+- spirekeeper: Spirekeeper (npc)
+- emeris-crown-holdings: Emeris Crown Holdings (corporation)
+- goldspire-territories: Goldspire Territories (location)
+- kazrak-industries: Kazrak Industries (corporation)
+- hexmart: Hexmart (corporation)
+- mithril-and-mortar: Mithril & Mortar (corporation)
+- soulspire-solutions: Soulspire Solutions (corporation)
+- runespark-entertainment: RuneSpark Entertainment (corporation)
+- sablewoodtm-logistics-preserve: Sablewood™ Logistics Preserve (location)
+- old-sable: Old Sable (location)
+- goldspire-waymarkers: Goldspire Waymarkers (item)
+- vendor-cart: Vendor Cart (item)
+- incident-response-placard: Incident Response Placard™ (item)
+- bramble-strand: Bramble Strand (clue)
+- torn-shipping-seals: Torn Shipping Seals (clue)
+- route-ledger: Route Ledger (clue)
+- bramble-union-loot: Bramble Union Loot (item)
+- inspection-sealed-counterweight: Inspection-Sealed Counterweight (item)
+- ritual-countdown: Ritual Countdown (mechanic)
+- forgotten-gods: Forgotten Gods (faction)
+- escort-carriage: Escort Carriage (item)
+- sealed-keystone-crate: Sealed Keystone Crate (item)
+- route-assurance-contract: Route Assurance Contract (clue)
+- goldspire-permit-seal: Goldspire Permit Seal (item)
+- corporate-route-bell: Corporate Route Bell (item)
+- sablewood-route-gate: Sablewood Route Gate (location)
+- old-sable-canopy-road: Old Sable Canopy Road (location)
+- overturned-wheel-ruts: Overturned Wheel Ruts (clue)
+- tamsin-s-wedding-cord: Tamsin's Wedding Cord (clue)
+- comfort-blanket: Comfort Blanket (item)
+- bramble-claim-marker: Bramble Claim Marker (clue)
+- ambush-roadblock: Ambush Roadblock (item)
+- reclaimer-personal-effects: Reclaimer Personal Effects (clue)
+- clover-cord-bracelet: Clover Cord Bracelet (item)
+- moss-honey-jar: Moss-Honey Jar (item)
+- hush-safe-irrigation-path: Hush Safe Irrigation Path (location)
+- hanging-office-winch: Hanging Office Winch (item)
+- dustless-ward-map: Dustless Ward Map (clue)
+- custodian-tea-cup: Custodian Tea Cup (item)
+- relay-tremor-notation: Relay Tremor Notation (clue)
+- open-vale-ward-lines: Open Vale Ward Lines (location)
+- ward-renewal-chime: Ward Renewal Chime (item)
+- glass-bright-ward-sand: Glass-Bright Ward Sand (clue)
+- corporate-seal-wax-residue: Corporate Seal Wax Residue (clue)
+- legacy-security-badge: Legacy Security Badge (clue)
+- soul-audit-memory-shard: Soul-Audit Memory Shard (clue)
+- halython-s-fox-bat-companion: Halython's Fox-Bat Companion (creature)
+- sabine-quillon: Sabine Quillon (npc)
+- emeris-clerk: Emeris Clerk (npc)
+- the-grail: The Grail (corporation)
+- goldwater-financial-institution: Goldwater Financial Institution (corporation)
+- artemis-inc: Artemis Inc (corporation)
+- zephra-exchange: Zephra Exchange (corporation)
+- the-board-of-directors: Goldspire Logistics (corporation)
+- wardstone: Wardstone (item)
+- ward-infrastructure: Ward Infrastructure (clue)
+- emeris-capital-gate: Emeris Capital Gate (location)
+- emeris-capital: Emeris (location)
+- athervast: Athervast (location)
+- public-private-ward-compact: Public-Private Ward Compact (clue)
+- goldspire-ward-network: Goldspire Ward Network (clue)
+- the-goldspire-relay: The Goldspire Relay (location)
+- the-relay-keeper: The Relay Keeper (npc)
+- gm-rules-drawer: GM Rules Drawer (mechanic)
+- duality-dice: Duality Dice (mechanic)
+- difficulty-ladder: Difficulty Ladder (mechanic)
+- d-and-d-conversion: D&D Conversion (mechanic)
+- official-conditions: Official Conditions (mechanic)
+- hope: Hope (mechanic)
+- fear: Fear (mechanic)
+- gm-moves: GM Moves (mechanic)
+- adversary-spotlight: Adversary Spotlight (mechanic)
+- adversary-attack-rolls: Adversary Attack Rolls (mechanic)
+- damage-armor: Damage / Armor (mechanic)
+- stress: Stress (mechanic)
+- armor-slot: Armor Slot (mechanic)
+- short-rest: Short Rest (mechanic)
+- hidden: Hidden (condition)
+- restrained: Restrained (condition)
+- vulnerable: Vulnerable (condition)
+- hexmart-pocket-wardtm-cracked: Hexmart Pocket Ward™ (cracked) (item)
+- stride-salve: Stride Salve (item)
+- grindstone-vial: Grindstone Vial (item)
+- lark-moth-lantern: Lark-Moth Lantern (item)
+- bramble-cutter-s-hook: Bramble-Cutter's Hook (item)
+- compliance-stamp-forged: Compliance Stamp (forged) (item)
+- firstmoss-poultice: Firstmoss Poultice (item)
+- bag-of-mixed-chits: Bag of Mixed Chits (item)
+- whetcord: Whetcord (item)
+- tinker-s-kit-used: Tinker's Kit, Used (item)
+- soul-quiet-charm: Soul-Quiet Charm (item)
+- strixwolf-down-cloak: Strixwolf-Down Cloak (item)
+- sablewood-hybrid-fauna: Sablewood Hybrid Fauna (creature)
+- cat-squirrels: Cat-Squirrels (creature)
+- giraffe-deer: Giraffe-Deer (creature)
+- lemur-toads: Lemur-Toads (creature)
+- fox-bats: Fox-Bats (creature)
+- horse-goats: Horse-Goats (creature)
+- hunting-trees: Hunting Trees (creature)
+- sablewood-route-network: Sablewood Route Network (location)
+- underroot: Underroot (location)
+- underroot-tunnels: Underroot Tunnels (location)
+- the-titan-s-steps: The Titan's Steps (location)
+- duskwatch-exchange: Duskwatch Exchange (location)
+- mountain-crabs: Mountain Crabs (creature)
+- the-catcher-s-cradles: The Catcher's Cradles (location)
+- the-lucent-river: The Lucent River (location)
+- moonglow: Moonglow (location)
+- the-high-falls: The High Falls (location)
+- the-miremist: The Miremist (location)
+- the-stones-of-the-vale: The Stones of the Vale (location)
+- the-claravale-market: The Claravale Market (location)
+- the-sunless-farms: The Sunless Farms (location)
+- guest-privileges: Guest Privileges (mechanic)
+- the-refuge: The Refuge (location)
+- the-fire-walk: The Fire Walk (location)
+- the-ash-quarry: The Ash Quarry (location)
+- root-s-hollow: Root's Hollow (location)
+- the-latch: The Latch (location)
+- the-sable-stills: The Sable Stills (location)
+- bramble-union-villages: Bramble Union Villages (location)
+- the-wandering-briar: The Wandering Briar (location)
+- bramble-stone-tumblers: Bramble Stone Tumblers (item)
+- proven-navir: Proven Navir (npc)
+- xen: Xen (npc)
+- yikyik-trahll: Yikyik Trahll (npc)
+- the-sable-sinecure: The Sable Sinecure (faction)
+- fire-falcons: Fire-Falcons (creature)
+- sable-sinecure-secret-caches: Sable Sinecure Secret Caches (clue)
+- hazard-indexed-pricing: Hazard-Indexed Pricing (clue)
+- helena-corain: Helena Corain (npc)
+- will-scild: Will Scild (npc)
+- simrith-luhaj: Simrith Luhaj (npc)
+- sablewood-hope-moments: Sablewood Hope Moments (mechanic)
+- sablewood-fear-moments: Sablewood Fear Moments (mechanic)
+- sableblade: Sableblade (item)
+- ember-lake: Ember Lake (location)
+- the-glimpse: The Glimpse (creature)
+- eeligator-scale-shield: Eeligator Scale Shield (item)
+- bramble-union-stoneweave: Bramble Union Stoneweave (item)
+- recall-stone: Recall Stone (item)
+- whitefire-ward-charm: Whitefire Custodian's Ward-Charm (item)
+- sableleaf-shoes: Sableleaf Shoes (item)
+- bugbane-berry: Bugbane Berry™ (item)
+- sable-sap: Sable Sap (item)
+- twilight-plums: Twilight Plums (item)
+- sunfire-lily: Sunfire Lily (item)
+- sunless-farm-moss: Sunless-Farm Moss (item)
+- vial-of-briarpowder: Vial of Briarpowder (item)
+- bullfrog: Bullfrog (enemy)
+- strixwolf: Strixwolf (enemy)
+- eeligator: Eeligator (enemy)
+- craymeleon: Craymeleon (creature)
+- tiger-elk: Tiger-Elk (creature)
+- spidermanders: Spidermanders (creature)
+- centi-beetles: Centi-Beetles (creature)
+- hellbender: Hellbender (creature)
+- rabbit-gliders: Rabbit-Gliders (creature)
+- moth-possums: Moth-Possums (creature)
+- turtle-mice: Turtle-Mice (creature)
+- badger-hawks: Badger-Hawks (creature)
+- ratcoons: Ratcoons (creature)
+- festival-moths: Festival Moths (creature)
+- ward-moths: Ward-Moths (creature)
+- mist-things: Mist-Things (creature)
+- slyborne-hideout: Slyborne Hideout (mechanic)
+- slyborne-crew: Slyborne Crew (faction)
+- root-blockage: Root Blockage (mechanic)
+- goldwater-grail-toll-crew: Goldwater-Grail Toll Crew (enemy)
+- faceless-six: Faceless Six (faction)
+- young-dryads: Young Dryads (creature)
+- disposition-resolution-track: Disposition / Resolution Track (mechanic)
+- npc-community-trust-track: NPC / Community Trust Track (mechanic)
+- ward-stability-track: Ward Stability Track (mechanic)
+- dungeon-workers-alliance: Dungeon Workers' Alliance (faction)
+- manufactured-threat-future-thread: Manufactured-Threat Future Thread (clue)
+- perrin-oake: Perrin Oake (npc)
+- wicket: Wicket (npc)
+- nettle: Nettle (npc)
+- auditor-holle: Auditor Holle (npc)
+- mama-suet: Mama Suet (npc)
+- inspector-pelt: Inspector Pelt (npc)
+- old-gregor: Old Gregor (npc)
+- the-midnight-cabal: The Midnight Cabal (faction)
+- the-umbrand-consortium: The Umbrand Consortium (faction)
+- lucent-water: Lucent Water™ (item)
+- restorative-ash: Restorative Ash™ (item)
+- fire-wine: Fire Wine™ (item)
+- goldwater-liability-token: Goldwater Liability Token™ (item)
+- kazrak-adventurer-certification: Kazrak Adventurer Certification™ (item)
+- tamsins-home-token: Tamsin's Home-Token (item)
+- cracked-pocket-ward: Cracked Pocket Ward™ (item)
+- bramble-ward-scrap-charm-cluster: Bramble Ward-Scrap Charm Cluster (item)
+- claimrunner-serrated-blade: Claimrunner Serrated Blade (item)
+- spirekeeper-relay-keyring: Spirekeeper Relay Keyring (item)
+- auditors-verdict-ledger: Auditor's Verdict Ledger™ (item)
+- the-wrong-driver: The Wrong Driver (clue)
+- the-off-provisions: The Off Provisions (clue)
+- the-too-neat-wreck: The Too-Neat Wreck (clue)
+- no-predator-wounds: No Predator Wounds (clue)
+- the-wary-flinch: The Wary Flinch (clue)
+- feeding-not-hunting: Feeding, Not Hunting (clue)
+- the-late-tracks: The Late Tracks (clue)
+- route-assurance-contracttm: Route Assurance Contract™ (clue)
+- the-pre-dated-invoice: The Pre-Dated Invoice (clue)
+- the-convenient-renewal: The Convenient Renewal (clue)
+- old-contract-tags: Old Contract Tags (clue)
+- the-held-blow: The Held Blow (clue)
+- the-interrogation-answer: The Interrogation Answer (clue)
+- the-painted-joy: The Painted Joy (clue)
+- the-ward-subscription: The Ward Subscription (clue)
+- the-cheerful-ledger: The Cheerful Ledger (clue)
+- the-drained-water: The Drained Water (clue)
+- the-patched-everything: The Patched Everything (clue)
+- the-tired-smile: The Tired Smile (clue)
+- the-welcome-broadcasttm: The Welcome Broadcast™ (clue)
+- nature-is-deadly-placardtm: Nature-Is-Deadly Placard™ (clue)
+- bramble-are-criminals-noticetm: Bramble-Are-Criminals Notice™ (clue)
+- fire-solutions: Fire Solutions (corporation)
+
+## Rule index
+- action-roll: Action Roll
+- reaction-rolls: Reaction Roll
+- duality-dice: Duality Dice
+- hope: Hope
+- fear: Fear
+- critical-success: Critical Success
+- difficulty: Difficulty
+- traits: Traits
+- agility: Agility
+- strength: Strength
+- finesse: Finesse
+- instinct: Instinct
+- presence: Presence
+- knowledge: Knowledge
+- experiences: Experiences
+- roleplay: Roleplay
+- table-spotlight: Table Spotlight
+- connection-prompts: Connection Prompts
+- cats: Concept, Aim, Tone, Subject Matter
+- safety-tools: Safety Tools
+- advantage-disadvantage: Advantage / Disadvantage
+- help-an-ally: Help an Ally
+- tag-team-roll: Tag Team Roll
+- gm-moves: GM Moves
+- adversary-spotlight: Spotlight
+- adversary-attacks: Adversary Attacks
+- evasion: Evasion
+- damage-thresholds: Damage Thresholds
+- hp: HP
+- armor-slots: Armor Slots
+- stress: Stress
+- short-rest: Short Rest
+- level-up: Level Up
+- report-choice: Report Choice
+- countdown: Countdown
+- ranges: Ranges
+- conditions: Conditions
+- hidden: Hidden
+- restrained: Restrained
+- vulnerable: Vulnerable
+- dnd-to-daggerheart: D&D to Daggerheart
+- faq: FAQ
+- five-outcomes: Five Roll Outcomes
+- connection-questions: Connection Questions
+- character-creation: Character Creation
+- heritage: Heritage
+- ancestry: Ancestry
+- community: Community
+- class-subclass: Class and Subclass
+- domain-cards: Domain Cards
+- damage-rolls: Damage Rolls
+- long-rest: Long Rest
+- disposition-track: Disposition / Resolution Track
+- npc-community-trust-track: NPC / Community Trust Track
+- hope-fear-moments: Hope & Fear Moments
+- gm-rules-drawer: GM Rules Drawer
+- roll-slider: Roll Slider
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash db9d897ab087117a | Source hash dac3370046ed077140fab2d6

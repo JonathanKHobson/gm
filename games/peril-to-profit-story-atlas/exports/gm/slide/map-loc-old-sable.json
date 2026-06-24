@@ -1,0 +1,48 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "MAP-LOC-old-sable",
+  "title": "MAP-LOC-old-sable - Old Sable Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "e48bb603e7bcbdca",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "Older stones sit half-hidden near the path, weathered enough that nobody here could have made them recently."
+    },
+    {
+      "title": "Public objective",
+      "body": "Older stones sit half-hidden near the path, weathered enough that nobody here could have made them recently."
+    },
+    {
+      "title": "GM goal",
+      "body": "Reuse Old Sable as GM-only hidden-hook backdrop without turning it into an epilogue destination."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "Old Sable is epilogue proof-texture only if players are already asking the right question."
+      ]
+    },
+    {
+      "title": "GM script",
+      "body": "Say only if earned: \"Some of the oldest stones never looked like company work. That may matter more than anyone wanted to admit.\""
+    },
+    {
+      "title": "State controls",
+      "items": [
+        "hidden_hook_discovered Hidden Hook Discovered checkbox",
+        "sequel_direction Sequel Direction select relay hidden both undecided",
+        "bramble_truth_learned Bramble Truth Learned checkbox",
+        "keystone_understanding Keystone Understanding select surface deep"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash e48bb603e7bcbdca | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

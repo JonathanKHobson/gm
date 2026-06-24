@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "adversary-attacks",
+  "kind": "rule",
+  "title": "Adversary Attacks",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "combat",
+  "hook": "Adversaries roll d20 + ATK against PC Evasion.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Adversaries roll d20 + ATK against PC Evasion."
+    },
+    {
+      "label": "How It Works",
+      "body": "Adversary Attacks: Adversaries roll d20 + ATK against PC Evasion."
+    },
+    {
+      "label": "Try It",
+      "body": "How do enemies attack?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use when an adversary gets the spotlight to attack.",
+    "Roll d20 plus ATK against the target's Evasion.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:adversary-attacks",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "9dfd10866632b3f3",
+  "generated_at": "2026-06-23T21:40:58"
+}

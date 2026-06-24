@@ -1,0 +1,44 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "ember-lake",
+  "kind": "entity",
+  "title": "Ember Lake",
+  "in_world_label": "Goldspire Travel Advisory",
+  "brand_flag": "Player-safe",
+  "kicker": "A hot spring lake that points toward buried divine industry and gives Sablewood a heat source older than any concession.",
+  "hook": "A hot spring lake that points toward buried divine industry and gives Sablewood a heat source older than any concession.",
+  "blocks": [
+    {
+      "label": "Arrival Read",
+      "body": "Ember Lake steams under cool canopy air, a hot spring mirror that suggests something older is still working below Sablewood."
+    },
+    {
+      "label": "Known For",
+      "body": "The cold gets to your fingers before the lake appears. Then the trees thin, and orange light moves under the black water like coals being stirred beneath glass. Steam beads on cloaks and eyelashes. Someone has left a kettle on a flat stone with no fire under..."
+    },
+    {
+      "label": "What Is Here",
+      "body": "Local residents or workers appropriate to the place warm-water fish, ember flies, shore lizards, night birds hunting over steam No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local..."
+    },
+    {
+      "label": "Food And Texture",
+      "body": "Dinner happens on the rocks. Someone lays a fish straight onto a stone too hot to touch and it hisses and curls and smells like the sea got lost in a forest. Kettles sit along the bank with nothing burning under them..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Look for the busiest local gathering point.",
+    "Ask what has changed here recently."
+  ],
+  "archetype": "location.advisory",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:ember-lake",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "a0f1da47ea118443",
+  "generated_at": "2026-06-23T21:40:58"
+}

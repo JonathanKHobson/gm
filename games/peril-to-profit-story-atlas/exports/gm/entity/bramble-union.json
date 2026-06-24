@@ -1,0 +1,72 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "bramble-union",
+  "title": "Bramble Union",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "74ce0df27beddbac",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "The Bramble Union: Thorn-scrap armor, hungry eyes, and old worker gear make the Bramble Union look dangerous before they look human. Slogan: We were the route."
+    },
+    {
+      "title": "Public role",
+      "body": "Loose label for freeholders and cargo reclaimers"
+    },
+    {
+      "title": "Handout text",
+      "body": "The Bramble Union: Thorn-scrap armor, hungry eyes, and old worker gear make the Bramble Union look dangerous before they look human. Slogan: We were the route."
+    },
+    {
+      "title": "GM truth",
+      "body": "Deepest layer, GM-only: their existence is useful to people selling protection from road danger. The Union does not know how high that usefulness goes."
+    },
+    {
+      "title": "GM handling",
+      "body": "The Act 2 moral hinge: a fight or parley that proves the danger has a human history."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Faction Pressure / Reputation Mechanics",
+        "Player Safe: Players can read public face, negotiate leverage, track reputation, or identify pressure Bramble Union when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: Thorn-scrap armor, hungry eyes, and old worker gear make the Bramble Union look dangerous before they look human. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-bramble-union-engage-bramble-union entity-bramble-union Engage Bramble Union Engage Bramble Union Presence Knowledge Instinct Presence Knowledge, Instinct 13 Choose the trait from the player's method, not the entity type. A flat read of Bramble Union hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. A...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Search Loot: Their members carry survival tools, reclaimed seals, worn weapons, and personal keepsakes."
+      ]
+    },
+    {
+      "title": "Profile",
+      "items": [
+        "Schema Version: faction-profile-v1",
+        "Id: bramble-union",
+        "Entity Id: bramble-union",
+        "Source: Faction_System_Packet/factions/Bramble_Union.md",
+        "Priority: core",
+        "Corporate: False",
+        "Atlas Lore Note: Atlas lore note: one-shot-safe expansion. Use as GM-only texture unless table play earns it.",
+        "Auto Surface: True",
+        "Prompt Key: bramble",
+        "Player Safe: The Bramble Union Ragged road figures in scavenged ward-stone scraps who ambush freight and look like the danger the road warnings promised. We were the route. Thorn-scrap armor, hungry eyes, and old worker gear make the Bramble Union look dangerous before they look human. At first the Bramble Union is all shape and threat: figures in bark-dark cloaks, ward-stone scraps tied over patched shirts, and blades held by people who know exactly how little food waits behind them. Then you see the worker pins, the mended children's sleeves, and the way they look at the road like it used to belong to them. The figures step from the green like the forest grew teeth. Their armor is a poor man's miracle: cracked ward charms, old route badges, stitched leather, thornvine knots. One of them keeps glancing past you, not at the cargo, but at the road behind it.",
+        "Block1: The Bramble Union Bramble bandits route pirates Bramblefolk cargo reclaimers Ragged road figures in scavenged ward-stone scraps who ambush freight and look like the danger the road warnings promised. Survive after being cut loose from preserve work, taking back tolls and freight from the system that priced them out. The Act 2 moral hinge: a fight or parley that proves the danger has a human history. Hostile from fear. They expect the party to be enforcers until the party proves otherwise. They lower blades when they are treated as people and given a believable way to survive the week. pages/entities/bramble-union.html BRAM-bul YOO-nyun",
+        "Block2: Powerless but growing: a camp of discarded workers, families, scouts, and hardliners one bad week from starvation. A stretch of unsafe road, hidden camp routes, and inconvenient truth about who made the road unsafe. Ambush, barter, scouting, and a hard code: take freight before taking lives. Hardliners want every coach hit; frightened survivors want out; leaders are trying to keep anger from becoming murder. Mapping route changes that skip former worker settlements and trying to prove the pattern before food runs out. Formed after a preserve efficiency review cut a worker class loose with a week's notice and a cheerful pamphlet.",
+        "Block3: Clover Co-op Dungeon Workers' Alliance The Grail Zephra Exchange Hidden food routes old worker maps Bramble scouts Bramble Union Ambusher Bramble Union Claimrunner Kett Alderhook Nettle Freight and coaches, while getting blamed for violence cleaner and colder than their own code allows.",
+        "Block4: We were the route. Moss greens, bark, polished ward scraps, Hexmart charms lashed into armor, and thorn signs scratched where official maps pretend nobody lives. Official routes keep passing us by. Funny, that. We did not touch your driver. Look at the cut and tell me that was us. You are couriers too. You will see. A thornbranch wrapped around a broken delivery seal. A worksong turned protest chant, stamped boots and tin cups. Seed only.",
+        "Block5: The first faction that can become enemy, witness, ally, or wound depending on how the party listens. They are the visible symptom of the racket: discarded workers made into the danger. They did not kill the courier, and many of them are frightened people wearing a terrifying story because the world already assigned it. Deepest layer, GM-only: their existence is useful to people selling protection from road danger. The Union does not know how high that usefulness goes. surface Desperate road bandits in the woods. hint Former workers deny the murder, carry worker-route evidence, and know official routes skipped them on purpose. earned seam Their menace has been made profitable above every local brand. Presence 15 opens hard parley after the party proves they are not handing prisoners to corporate punishment. Examine the murder wound; a Bramblefolk reacts with honest disgust because the...",
+        "Writing Layer: Thorn-scrap armor, hungry eyes, and old worker gear make the Bramble Union look dangerous before they look human. At first the Bramble Union is all shape and threat: figures in bark-dark cloaks, ward-stone scraps tied over patched shirts, and blades held by people who know exactly how little food waits behind them. Then you see the worker pins, the mended children's sleeves, and the way they look at the road like it used to belong to them. The figures step from the green like the forest grew teeth. Their armor is a poor man's miracle: cracked ward charms, old route badges, stitched leather, thornvine knots. One of them keeps glancing past you, not at the cargo, but at the road behind it. wet bark, iron fear, patched leather, old worker pins, stolen grain sacks, and cracked Hexmart charms the quiet of people trying to sound fiercer than hunger smoke from a hidden camp that has learned...",
+        "Entity Name: Bramble Union",
+        "Imagine It Like: Think the displaced workers branded 'bandits' in a Western, the miners' strike the company calls a riot, the barricade in Les Mis. Sympathetic desperation that the brochure files under crime."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 74ce0df27beddbac | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

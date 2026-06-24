@@ -1,0 +1,63 @@
+# MAP-LOC-the-stones-of-the-vale - The Stones of the Vale Location Map
+
+RAW export - slide:MAP-LOC-the-stones-of-the-vale
+
+## Player text
+The clearing's stones make the ward visible: blue seams, old cuts, moss-lit lanes, and a center that pulls every sound inward before the ritual begins.
+
+## Public objective
+The clearing's stones make the ward visible: blue seams, old cuts, moss-lit lanes, and a center that pulls every sound inward before the ritual begins.
+
+## Raw source
+- Id: MAP-LOC-the-stones-of-the-vale
+- Type: map
+- Maptype: environment
+- Sectionid: ACT-FIVE
+- Sectiontitle: Act Five: The Ward Renewal
+- Title: The Stones of the Vale Location Map
+- Shorttitle: The Stones of the Vale
+- Order: 601.24
+- Playersafe: True
+- Completioneligible: False
+- Image: assets/maps/MAP-LOC-the-stones-of-the-vale-gm.webp
+- Alt: The Stones of the Vale location map board.
+- Caption: Visual reference for The Stones of the Vale.
+- Mood: spatial reference and location texture
+- Gmgoal: Foreshadow battlefield geometry without starting combat early.
+- Publicobjective: The clearing's stones make the ward visible: blue seams, old cuts, moss-lit lanes, and a center that pulls every sound inward before the ritual begins.
+- Readaloud: The clearing's stones make the ward visible: blue seams, old cuts, moss-lit lanes, and a center that pulls every sound inward before the ritual begins.
+- Gmnotes: This is a close-detail map, not a separate route.
+- Gmscript: Say: "These stones are the close-up of the ritual geometry. Read them now if you want the opening pressure to be less blind."
+- Gmreadaloud: Weathered stones ring the clearing. Blue seams and old cuts answer the Keystone. The center pulls every sound inward.
+- Gmchecklist: Use for S05-01 prep and S05-02 countdown setup. Knowledge reads ward-script. Instinct reads which stones are waking. Return to S05-02 or MAP-S05-03.
+- Gmprivate: The stones are older than the current ownership story; do not turn that into a lore lecture.
+- Playertakeaway: The clearing's stones make the ward visible: blue seams, old cuts, moss-lit lanes, and a center that pulls every sound inward before the ritual begins.
+- Storytakeaway: The stones show the ward predates the official story.
+- Mechanictakeaway: Knowledge and Instinct reads can set ritual_prep=ready or soften the opening pressure.
+- Entityids: the-stones-of-the-vale ward-moths sunfire-lily mist-things
+- Entities: the-stones-of-the-vale The Stones of the Vale location Location assets/icons/location.png assets/location-visuals/the-stones-of-the-vale/profile_scene_v02.webp the stohnz uv the vayl Tall carved stones with mossy grooves and offerings that are always fresh, where the light lingers a half-second too long in the gaps between them. Foreshadow battlefield geometry without starting combat early. A ring or field of stones whose blue glow resists measurement and makes Open Vale feel older than the company sign.; introduce it with a sensory palette, who feels safe there, and what has been neglected. Pull player attention toward the choices, clues, and relationships tied to Open Vale™ Ritual Site, Forgotten Gods, Moonglow. A ring or field of stones whose blue glow resists measurement and makes Open Vale feel older than the company sign. ward-moths Ward-Moths creature Creature / Animal assets/icons/creature.png assets/creature-images/ward-moths/portrait_base.webp WARD mawths Ward-moths drift along invisible pressure lines at Open Vale, their wings flashing whenever the air remembers old protection work. Open Vale ward-line indicator Ward-moths drift along invisible pressure lines at Open...
+- Locationids: the-stones-of-the-vale
+- Statecontrols: ward_stability Ward Stability select fragile stable ritual_prep Ritual Prep select unready ready keystone_understanding Keystone Understanding select surface deep ritual_countdown Ritual Countdown number 10 8
+- Mechanicids: knowledge instinct ritual_prep countdown
+- Playerquestions: Who reads the stones? Who turns the stone read into a defensive position?
+- Fearspends: A stone speaks in a sound like a lock turning. Blue light follows a PC's shadow instead of the ground.
+- Choicesconsequences: Read the stones before the ritual starts. The map clarifies the active table choice instead of becoming a side route. Use the map only when spatial clarity changes the next roll, countdown tick, or protection choice. The result carries forward through Act 5 state rather than adding a new branch. ritual_prep=ready or ward_stability support Reward: clearer play. Cost: pause only long enough to orient the table. GM-facing
+- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth context stay off the player display.
+- Linkedsceneids: S05-01 S05-02
+- Mapdata: MAP-LOC-the-stones-of-the-vale environment The Stones of the Vale Location Map S05-01 S05-02 the-stones-of-the-vale ward-moths sunfire-lily mist-things assets/location-visuals/the-stones-of-the-vale/profile_scene_v02.webp Visual reference for The Stones of the Vale. The Stones of the Vale location map board. The clearing's stones make the ward visible: blue seams, old cuts, moss-lit lanes, and a center that pulls every sound inward before the ritual begins. The clearing's stones make the ward visible: blue seams, old cuts, moss-lit lanes, and a center that pulls every sound inward before the ritual begins. Foreshadow battlefield geometry without starting combat early. This is a close-detail map, not a separate route. Stone shapes break the clearing into lines of sight and ritual lanes. Blue moss and old cuts mark where hands have worked before. Some stones lean toward Hush. Ward-light ticks in grooves, wind thins near the center, and voices come back as if the clearing is measuring them. Cold stone, crushed grass, blue moss, and dust warmed by ward-light. The stones are smooth on one face and jagged where old force split them. Animals keep to the edge. The place feels operational...
+- Sourcefiles: dist/Act5_Upgrade_Packet/ACT5_MAPS_AND_LOCATIONS.md
+- References: Act 5 maps packet sources/Act5_Upgrade_Packet/ACT5_MAPS_AND_LOCATIONS.md
+- Livetools: scene MAP-LOC-the-stones-of-the-vale
+- Percharacterlayer: marlowe-fairwind Marlowe Fairwind Ritual briefing Recognizes the Open Vale as a true ritual site and understands the magnitude of what the Custodian is about to attempt. Knowledge 13 Grasps the countdown logic before it starts and senses the ward will take something to renew. Can brief the party diegetically without being required for the ritual. Marlowe, you understand this ritual better than anyone here. Want to brief the party on what's coming? khari-nix Khari Nix The watch Naturally turns the rest into a defensive plan: who stands where when it starts. Can set the guard order and make ritual_prep feel concrete. Khari, you can set the guard order now. Want to position the party around the Custodian before the fight? varian-soto Varian Soto The perimeter Reads the treeline and knows which directions the summoned things will come from. Instinct 13 Calls the threat lanes before S05-02 begins. Can make the first positioning beat feel earned. Varian, you can feel where the woods will spit out trouble. Want to call the threat lanes? garrick-reed Garrick Reed Rest leadership Knows how to make a last rest practical instead of sentimental. Can help the table choose Tend, Clear, Repair...
+- Gmbeats: MAP-LOC-the-stones-of-the-vale-use Use Use this board Say: "Open the board, orient the center or edge, name the current state change, then return to the active scene." Use this board only when it makes the current finale choice clearer. The map supports the finale instead of replacing the scene. Map use writes countdown, protection, prep, outcome, or report state when it changes play. Players get spatial clarity without a side route. Player takeaway Players get spatial clarity without a side route. "Open the board, orient the center or edge, name the current state change, then return to the active scene." "The table-facing answer is: Players get spatial clarity without a side route." Use this beat to give the players one visible next action: protect the center, read the field, spend prep, name who they shield, or choose what truth leaves with them. table-spotlight countdown Story takeaway The map supports the finale instead of replacing the scene. "Open the board, orient the center or edge, name the current state change, then return to the active scene." "The story answer is: The map supports the finale instead of replacing the scene." Tie the answer to a visible Act 5...
+- Takeawayhelp: Player takeaway: MAP-LOC-the-stones-of-the-vale The clearing's stones make the ward visible: blue seams, old cuts, moss-lit lanes, and a center that pulls every sound inward before the ritual begins. Give the player one concrete way back into play: a question, a description, a choice, or a pass-and-return moment. "Your takeaway right now is this: The clearing's stones make the ward visible: blue seams, old cuts, moss-lit lanes, and a center that pulls every sound inward before the ritual begins." "If you are not sure what to do next, you can ask a question, describe what your character notices, or tell me what your character tries." "If you are not sure what to do next, you can ask a question, describe what your character notices, or tell me what your character tries." Give the player one concrete way back into play: a question, a description, a choice, or a pass-and-return moment. knowledge instinct ritual_prep countdown Story takeaway: MAP-LOC-the-stones-of-the-vale The stones show the ward predates the official story. Anchor the answer in the visible fiction on this slide: who is present, what can be observed, what has already been said, and what remains uncertain. "Here is...
+- Playerbeats: assets/maps/MAP-LOC-the-stones-of-the-vale-player.webp The Stones of the Vale location map board. MAP-LOC-the-stones-of-the-vale environment The Stones of the Vale S05-01 S05-02 assets/maps/MAP-LOC-the-stones-of-the-vale-player.webp assets/maps/MAP-LOC-the-stones-of-the-vale-player.webp Visual reference for The Stones of the Vale. The Stones of the Vale location map board. The clearing's stones make the ward visible: blue seams, old cuts, moss-lit lanes, and a center that pulls every sound inward before the ritual begins. The clearing's stones make the ward visible: blue seams, old cuts, moss-lit lanes, and a center that pulls every sound inward before the ritual begins. MAP-LOC-the-stones-of-the-vale-map-only Map only The Stones of the Vale map-only assets/maps/MAP-LOC-the-stones-of-the-vale-player.webp The Stones of the Vale location map board. MAP-LOC-the-stones-of-the-vale environment The Stones of the Vale S05-01 S05-02 assets/maps/MAP-LOC-the-stones-of-the-vale-player.webp assets/maps/MAP-LOC-the-stones-of-the-vale-player.webp Visual reference for The Stones of the Vale. The Stones of the Vale location map board. The clearing's stones make the ward visible: blue seams, old cuts...
+- Beatautoplayeligible: True
+- Beatautoplaydefault: False
+- Beatautoplayintervalms: 10000
+- Playersafeprojection: MAP-LOC-the-stones-of-the-vale map The Stones of the Vale assets/maps/MAP-LOC-the-stones-of-the-vale-player.webp The Stones of the Vale location map board. Visual reference for The Stones of the Vale. spatial reference and location texture The clearing's stones make the ward visible: blue seams, old cuts, moss-lit lanes, and a center that pulls every sound inward before the ritual begins. The clearing's stones make the ward visible: blue seams, old cuts, moss-lit lanes, and a center that pulls every sound inward before the ritual begins. MAP-LOC-the-stones-of-the-vale environment The Stones of the Vale S05-01 S05-02 assets/maps/MAP-LOC-the-stones-of-the-vale-player.webp assets/maps/MAP-LOC-the-stones-of-the-vale-player.webp Visual reference for The Stones of the Vale. The Stones of the Vale location map board. The clearing's stones make the ward visible: blue seams, old cuts, moss-lit lanes, and a center that pulls every sound inward before the ritual begins. The clearing's stones make the ward visible: blue seams, old cuts, moss-lit lanes, and a center that pulls every sound inward before the ritual begins. assets/maps/MAP-LOC-the-stones-of-the-vale-player.webp The Stones of the...
+- Slidenumber: 65
+- Totalslides: 110
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 65f5b73ea8617db0 | Source hash dac3370046ed077140fab2d6

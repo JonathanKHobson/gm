@@ -1,0 +1,67 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "old-gregor",
+  "title": "Old Gregor",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "2fab131f9e7230ef",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "An old dwarf-miner skeleton wears a battered cap, a corroded locket, and brass charms over a beard that somehow still remembers its braid."
+    },
+    {
+      "title": "Public role",
+      "body": "The proof that under every soul-debt skeleton there was once a whole person."
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: A lucid old skeleton with a broken badge, a remembered trade, and one name he still protects."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Name: Old Gregor",
+        "Id: old-gregor",
+        "Aliases: Old Gregor",
+        "Connections: Legacy Security Skeleton Kazrak Industries",
+        "Related: Kazrak Industries Legacy Security Skeleton",
+        "Pronunciation: old GREG-er",
+        "Short Pronunciation: old GREG-er",
+        "Equipment: miner cap corroded locket rusted pick-token brass remembrance charms",
+        "Type: npc",
+        "Tags: npc backup-npc undead summonable npc-profile",
+        "Image Fallback: npc-portrait",
+        "Summary: A lucid old skeleton with a broken badge, a remembered trade, and one name he still protects.",
+        "Role: The proof that under every soul-debt skeleton there was once a whole person.",
+        "Wants: Remember enough of his life to stop obeying the debt.",
+        "Sample Dialogue: I was a carpenter before the badge. Tell me that matters.",
+        "Robust: An old dwarf-miner skeleton wears a battered cap, a corroded locket, and brass charms over a beard that somehow still remembers its braid. He remembers one family face clearly and hides from the rest because loss hurts even dead. An old dwarf-miner skeleton wears a battered cap, a corroded locket, and brass charms over a beard that somehow still remembers its braid. Full-body reference: Full-body animated dwarf-miner skeleton character holding a rusted pick, corroded locket, stout dwarven proportions, wistful remembering posture, head to feet in frame, no infographic, no diagram, no chart. Remember enough of his life to stop obeying the debt. Forgetting the last face and becoming only a useful skeleton. Undead mercy beat, soul-debt seed, or combat de-escalation. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Old Gregor and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the...",
+        "Npc Profile: npc-profile-v1 NPC_System_Packet + image-informed hardening True True Old Gregor a lucid old skeleton who remembers one name and one debt An old dwarf-miner skeleton wears a battered cap, a corroded locket, and brass charms over a beard that somehow still remembers its braid. Old Gregor: a lucid old skeleton who remembers one name and one debt Old Gregor old GREG-er a lucid old skeleton who remembers one name and one debt The proof that under every soul-debt skeleton there was once a whole person. A combatant who can be reached with a name instead of a weapon; remembering him is the real victory. He is lucid in flashes. Say his trade, his family, or his name, and the command loosens its grip. A way forward A grounded question A scene-specific clue seed Caught between an old labor loop and a flickering memory of being a man. Someone willing to tell him his life mattered more than the balance. Remember enough of his life to stop obeying the debt. Have someone say his trade, family, and name mattered more than the balance. Remember enough of his life to stop obeying the debt. Have someone say his trade, family, and name mattered more than the balance. A gentle ghost of a craftsman...",
+        "Personality: A gentle ghost of a craftsman wearing a soldier's command like ill-fitting borrowed clothes. Carries a carved toy with one missing wheel. Wants, beneath the whole weight of the debt, only to remember enough of his life to stop obeying it.",
+        "Fears: Forgetting the last face and becoming only a useful skeleton.",
+        "Secrets: He remembers one family face clearly and hides from the rest because loss hurts even dead.",
+        "Body Language: Duty movement that keeps slipping into old craftsman's habits.",
+        "Search Or Loot: Search focus: miner cap, corroded locket, rusted pick-token",
+        "Gm Use: Undead mercy beat, soul-debt seed, or combat de-escalation.",
+        "Future Hooks: A former person remains under the debt shape.",
+        "One Line: a lucid old skeleton who remembers one name and one debt",
+        "Player Display Title: Old Gregor",
+        "Player Display Caption: a lucid old skeleton who remembers one name and one debt",
+        "Mechanics: Social / Information Mechanics Players can interact, comfort, persuade, or earn trust Old Gregor when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A lucid old skeleton with a broken badge, a remembered trade, and one name he still protects. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-old-gregor-engage-old-gregor entity-old-gregor Engage Old Gregor Engage Old Gregor Presence Knowledge Instinct Presence Knowledge, Instinct 12 Choose the trait from the player's method, not the entity type. A flat read of Old Gregor hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure...",
+        "Meta: NPC / Ally NPC assets/icons/npc.png entity-npc #f0aa45 03 NPCs entities npc",
+        "Image Prompt: Private table TTRPG story atlas asset for Old Gregor, NPC / Ally. Role: The proof that under every soul-debt skeleton there was once a whole person.. Summary: A lucid old skeleton with a broken badge, a remembered trade, and one name he still protects.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Image: assets/npc-images/old-gregor/portrait_base.webp",
+        "Image Asset Status: npc_images",
+        "Visual Gallery: primary Primary wiki image primary assets/npc-images/old-gregor/portrait_base.webp Old Gregor primary wiki image visual. Old Gregor: Primary wiki image. npc_images True True npc-fullbody_base Full-body npc-portrait assets/npc-images/old-gregor/fullbody_base.webp Old Gregor full-body visual. Old Gregor: Full-body. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/old-gregor/fullbody_base.png npc-fullbody_chroma Full-body chroma source npc-portrait assets/npc-images/old-gregor/fullbody_chroma.webp Old Gregor full-body chroma source visual. Old Gregor: Full-body chroma source. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/old-gregor/fullbody_chroma.png npc-fullbody_transparent Full-body transparent cutout npc-portrait assets/npc-images/old-gregor/fullbody_transparent.webp Old Gregor full-body transparent cutout visual. Old Gregor: Full-body transparent cutout. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/old-gregor/fullbody_transparent.png npc-portrait_chroma Portrait chroma source npc-portrait assets/npc-images/old-gregor/portrait_chroma.webp Old Gregor..."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 2fab131f9e7230ef | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

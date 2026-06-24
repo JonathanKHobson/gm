@@ -7,20 +7,68 @@
   <link rel="icon" href="assets/favicon.png" type="image/png">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="css/run-mode.css">
+  <link rel="stylesheet" href="css/music-player.css">
+  <link rel="stylesheet" href="css/gm-hud.css">
 </head>
 <body class="player-display-v2" data-display-mode="waiting">
-  <nav class="sticky-top-nav universal-nav" aria-label="Site navigation"><a href="index.html">Atlas</a><a href="run.html">Run Mode</a><a href="pages/gm-dashboard.html">Dashboard</a><a href="pages/entity-index.html">Wiki</a><a href="pages/pc-cheat-sheet.html">PCs</a><a href="pages/handouts.html">Handouts</a><a href="player-display.html" aria-current="page">Player Display</a></nav>
+  <nav class="sticky-top-nav universal-nav" aria-label="Site navigation"><a href="index.html">Atlas</a><a href="run.html">Run Mode</a><a href="pages/session-zero.html">Session Zero</a><a href="pages/gm-dashboard.html">Dashboard</a><a href="pages/entity-index.html">Wiki</a><a href="pages/pc-cheat-sheet.html">PCs</a><a href="pages/handouts.html">Handouts</a><a href="pages/safety-tools.html">Safety</a><a href="player-display.html" aria-current="page">Player Display</a><a href="pages/settings.html">Settings</a>
+  <section class="run-clock" data-run-clock aria-label="Run clock" hidden>
+    <button class="run-clock-chip" type="button" data-run-clock-toggle aria-expanded="false" title="Open run clock">
+      <span class="run-clock-time" data-run-clock-elapsed>0:00</span>
+      <span class="run-clock-context" data-run-clock-context>Run clock</span>
+      <span class="run-clock-target" data-run-clock-target></span>
+    </button>
+    <div class="run-clock-panel" data-run-clock-panel hidden>
+      <header>
+        <div>
+          <p class="private-note">3.5-hour pacing helper</p>
+          <h3>Run Clock</h3>
+        </div>
+        <button class="run-clock-close" type="button" data-run-clock-toggle aria-label="Close run clock">Close</button>
+      </header>
+      <div class="run-clock-current">
+        <p><strong>Elapsed:</strong> <span data-run-clock-elapsed-long>0:00</span></p>
+        <p><strong>Status:</strong> <span data-run-clock-status>Not started</span></p>
+        <p><strong>Scene:</strong> <span data-run-clock-scene-target>Start the session.</span></p>
+        <p><strong>Segment:</strong> <span data-run-clock-current-target>Start the session.</span></p>
+        <p><strong>Session:</strong> <span data-run-clock-session-target>Target 3:30; soft wall 4:00; hard wall 5:00.</span></p>
+        <p><strong>Remaining:</strong> <span data-run-clock-remaining>--</span></p>
+        <p><strong>Break prompt:</strong> <span data-run-clock-break>Ask the table as needed.</span></p>
+      </div>
+      
+      <div class="run-clock-control-grid run-clock-access-grid" aria-label="Run clock access">
+        <a class="button secondary" href="run.html">Open Run Mode controls</a>
+      </div>
+
+    </div>
+    <div class="run-clock-modal" data-run-clock-modal role="alertdialog" aria-modal="true" aria-labelledby="run-clock-modal-title" hidden>
+      <div class="run-clock-modal-card">
+        <h3 id="run-clock-modal-title" data-run-clock-modal-title>Run clock alert</h3>
+        <p data-run-clock-modal-message></p>
+        <div class="run-clock-modal-actions">
+          <button type="button" data-run-clock-modal-snooze>Snooze 5 min</button>
+          <button type="button" data-run-clock-modal-dismiss>Dismiss</button>
+          <button type="button" data-run-clock-modal-dismiss-permanent>Permanently dismiss</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</nav>
   <main id="player-screen" class="player-screen" tabindex="-1" aria-live="polite"></main>
   <aside class="player-display-tools" aria-label="Player display controls">
-    <button class="run-icon-button" type="button" data-player-action="blackout" aria-label="Blackout display" title="Blackout display"><img src="assets/icons/action-blackout.png" alt="" aria-hidden="true"><span class="sr-only">Blackout display</span></button>
-    <button class="run-icon-button" type="button" data-player-action="image-title-caption" aria-label="Show image and caption" title="Show image and caption"><img src="assets/icons/action-open-image.png" alt="" aria-hidden="true"><span class="sr-only">Show image and caption</span></button>
-    <button class="run-icon-button" type="button" data-player-action="read-aloud-fullscreen" aria-label="Show read-aloud" title="Show read-aloud"><img src="assets/icons/action-reveal.png" alt="" aria-hidden="true"><span class="sr-only">Show read-aloud</span></button>
-    <button class="run-icon-button" type="button" data-player-action="font-up" aria-label="Increase font size" title="Increase font size"><img src="assets/icons/action-expand-all.png" alt="" aria-hidden="true"><span class="sr-only">Increase font size</span></button>
-    <button class="run-icon-button" type="button" data-player-action="font-down" aria-label="Decrease font size" title="Decrease font size"><img src="assets/icons/action-collapse-all.png" alt="" aria-hidden="true"><span class="sr-only">Decrease font size</span></button>
-    <button class="run-icon-button" type="button" data-player-action="contrast" aria-label="Toggle high contrast" title="Toggle high contrast"><img src="assets/icons/action-settings.png" alt="" aria-hidden="true"><span class="sr-only">Toggle high contrast</span></button>
-    <button class="run-icon-button" type="button" data-player-action="motion" aria-label="Toggle reduced motion" title="Toggle reduced motion"><img src="assets/icons/action-settings.png" alt="" aria-hidden="true"><span class="sr-only">Toggle reduced motion</span></button>
-    <button class="run-icon-button" type="button" data-player-action="fullscreen" aria-label="Fullscreen" title="Fullscreen"><img src="assets/icons/action-fullscreen.png" alt="" aria-hidden="true"><span class="sr-only">Fullscreen</span></button>
+      <button class="run-icon-button" type="button" data-player-action="blackout" aria-label="Blackout display" title="Blackout display"><img src="assets/icons/live-blackout.png" alt="" aria-hidden="true"><span class="sr-only">Blackout display</span></button>
+      <button class="run-icon-button" type="button" data-player-action="image-title-caption" aria-label="Show image and caption" title="Show image and caption"><img src="assets/icons/live-player-display.png" alt="" aria-hidden="true"><span class="sr-only">Show image and caption</span></button>
+      <button class="run-icon-button" type="button" data-player-action="read-aloud-fullscreen" aria-label="Show read-aloud" title="Show read-aloud"><img src="assets/icons/action-reveal.png" alt="" aria-hidden="true"><span class="sr-only">Show read-aloud</span></button>
+      <button class="run-icon-button" type="button" data-player-action="font-up" aria-label="Increase font size" title="Increase font size"><img src="assets/icons/action-expand-all.png" alt="" aria-hidden="true"><span class="sr-only">Increase font size</span></button>
+      <button class="run-icon-button" type="button" data-player-action="font-down" aria-label="Decrease font size" title="Decrease font size"><img src="assets/icons/action-collapse-all.png" alt="" aria-hidden="true"><span class="sr-only">Decrease font size</span></button>
+      <button class="run-icon-button" type="button" data-player-action="contrast" aria-label="Toggle high contrast" title="Toggle high contrast"><img src="assets/icons/action-settings.png" alt="" aria-hidden="true"><span class="sr-only">Toggle high contrast</span></button>
+      <button class="run-icon-button" type="button" data-player-action="motion" aria-label="Toggle reduced motion" title="Toggle reduced motion"><img src="assets/icons/action-settings.png" alt="" aria-hidden="true"><span class="sr-only">Toggle reduced motion</span></button>
+      <button class="run-icon-button" type="button" data-player-action="fullscreen" aria-label="Fullscreen" title="Fullscreen"><img src="assets/icons/live-fullscreen.png" alt="" aria-hidden="true"><span class="sr-only">Fullscreen</span></button>
   </aside>
+  
+  <audio data-music-audio preload="metadata"></audio>
+  <button class="player-audio-unlock" type="button" data-music-unlock hidden>Enable table audio</button>
+
   <dialog id="player-image-dialog" class="run-dialog run-media-dialog" aria-label="Expanded player image">
     <form method="dialog">
       <button class="dialog-close" value="close" aria-label="Close image">x</button>
@@ -36,7 +84,9 @@
     </form>
   </dialog>
   <script src="data/slides-data.js"></script>
+  <script src="data/music-library-data.js"></script>
   <script src="js/display-sync.js"></script>
+  <script src="js/music-player.js"></script>
   <script src="js/player-display.js"></script>
 </body>
 </html>

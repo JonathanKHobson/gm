@@ -1,0 +1,46 @@
+# Yera Mossglass
+
+GM export - entity:yera-mossglass
+
+## Player-facing description
+Yera Mossglass: Runs hospitality with warmth and terrifying logistical competence.
+
+## Public role
+Clover Co-op keeper
+
+## Handout text
+Player-safe note: Runs hospitality with warmth and terrifying logistical competence.
+
+## GM truth
+No forced reveal. Let this entity disclose truth through scene context and player attention.
+
+## GM handling
+Use this person to put a human face on the current pressure. Give them one concrete want before exposition.
+
+## Mechanics
+- Title: Social / Information Mechanics
+- Player Safe: Players can interact, comfort, persuade, or earn trust Yera Mossglass when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: the host who keeps a labeled shelf for every kind of trouble Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-yera-mossglass-engage-yera-mossglass entity-yera-mossglass Engage Yera Mossglass Engage Yera Mossglass Presence Knowledge Instinct Presence Knowledge, Instinct 12 Choose the trait from the player's method, not the entity type. A flat read of Yera Mossglass hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless the fiction calls for Hidden, Restrained, or Vulnerable
+- Search Loot: Can offer supplies if PCs are respectful.
+
+## Profile
+- Schema Version: npc-profile-v1
+- Source: NPC_System_Packet + image-informed hardening
+- Backup: False
+- Combatant: False
+- Player Safe: Yera Mossglass the host who keeps a labeled shelf for every kind of trouble A grey-haired co-op host in round mossglass spectacles stands amid jars, folded cloth, and color-coded rolls, smiling like every comfort has a labeled shelf. Yera Mossglass: the host who keeps a labeled shelf for every kind of trouble
+- Block1: Yera Mossglass YAIR-uh MOSS-glass the host who keeps a labeled shelf for every kind of trouble Clover Co-op keeper Use as a role-first conversation handle, clue source, or pressure valve. Yera Mossglass gives the table a visible person attached to Clover Co-op, Hush, Whitefire Custodian. Start with sensory detail, then let questions earn the name and motive. A question to ask A local perspective A grounded reason this place matters hospitable, exacting, quietly brave Respect the person's immediate want before asking for lore.
+- Block2: Get everyone fed, sorted, housed, and honest enough not to make extra work. Prove care can be organized without becoming corporate control. Get everyone fed, sorted, housed, and honest enough not to make extra work. Prove care can be organized without becoming corporate control. Care organized to the edge of formidable. Tints panic faintly green through spectacles ground from reclaimed ward-glass, because she says it is easier to sort that way. Terrified that one real crisis will turn her neighbors into cases and her guests into liabilities. Sit. Eat. We will fix it in the order things actually break. I have a bed for you and a job for you. Take both. You are allowed to fall apart here. I will hold the list. Yera knows which kindnesses are covering fear in the village. A crisis that turns neighbors into cases and guests into liabilities. Clear counts, warm blankets, labeled cups, and...
+- Block3: Yera expects exhausted guests to hide needs until they become problems. Specific needs and gratitude land. Vague hero talk gets converted into chores. Presence 12 They give one practical answer tied to their existing summary or role. She fights by evacuating, organizing witnesses, and making panic stand in line.
+- Block4: Runs hospitality with warmth and terrifying logistical competence. Keep Yera Mossglass's deeper answers tied to existing page facts: Runs hospitality with warmth and terrifying logistical competence. Rejects corporate care because it counts value before need. Yera Mossglass localizes the Atlas entry through daily work, visible belongings, and pressure from Clover Co-op, Hush, Whitefire Custodian. If the table cares about Yera Mossglass, let one object, favor, or local warning point back to Clover Co-op, Hush, Whitefire Custodian without creating a new plot engine. Any PC may engage; no PC-specific plot dependency. Co-op anchor for Fidget, Lausa, Halython, and PCs who need a humane landing. npc_images portrait asset
+- Block5: noncombat NPC NPC profile interaction model; run as social, clue, consent, or pressure play unless a scene explicitly turns violent Social / noncombat Conversation, clue, pressure, or consent gate Social NPC 12 Social threshold: one clear concession, clue, or boundary shift at Difficulty 12 Social stakes only; no HP track unless a scene assigns an adversary profile. Social stakes only; use scene Stress/Fear rules if pressure escalates. Conversation only; no attack modifier unless a scene assigns an adversary profile. Social pressure: name what they want, offer the listed trait/DC move, and let the result change access, trust, timing, or information. Disposition: hospitable, exacting, quietly brave Persuasion model: Presence 12 opens a useful local answer unless the existing stat summary names another difficulty. Table move: call for the listed trait at Difficulty 12 when the PC...
+- Portrait: assets/npc-images/yera-mossglass/portrait_base.webp assets/npc-images/yera-mossglass/portrait_chroma.webp assets/npc-images/yera-mossglass/portrait_transparent.webp npc_images
+- Imagine It Like: Think the unflappable hostel manager who has seen every disaster twice, the landlady with a clipboard, the church-basement volunteer who feeds two hundred without raising her voice.
+- Fullbody: assets/npc-images/yera-mossglass/fullbody_base.webp assets/npc-images/yera-mossglass/fullbody_chroma.webp assets/npc-images/yera-mossglass/fullbody_transparent.webp
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash d260c1483eb19977 | Source hash dac3370046ed077140fab2d6

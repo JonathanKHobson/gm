@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "short-rest",
+  "kind": "rule",
+  "title": "Short Rest",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "downtime",
+  "hook": "About an hour to recover and prepare.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "About an hour to recover and prepare."
+    },
+    {
+      "label": "How It Works",
+      "body": "Short Rest: About an hour to recover and prepare."
+    },
+    {
+      "label": "Try It",
+      "body": "What can I do on a short rest?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use at the Open Vale rest beat or similar downtime.",
+    "Tend Wounds, Clear Stress, Repair Armor, or Prepare.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:short-rest",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "2e50afe04ecbd324",
+  "generated_at": "2026-06-23T21:40:58"
+}

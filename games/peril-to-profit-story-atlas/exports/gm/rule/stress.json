@@ -1,0 +1,48 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "stress",
+  "title": "Stress",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "94da6454f1b5cde7",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "Pressure, strain, and resource cost tracked separately from HP."
+    },
+    {
+      "title": "How it works",
+      "body": "Use when fear, effort, features, or overflow call for Stress."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use when fear, effort, features, or overflow call for Stress.",
+        "It tracks strain; if Stress maxes, the PC becomes Vulnerable until some clears.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "What does Stress do?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "vulnerable",
+        "short-rest"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 94da6454f1b5cde7 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

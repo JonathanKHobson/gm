@@ -1,0 +1,623 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2668 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S02-04 - After the Ambush) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The brush goes still. Whatever you did, it is done. The horses breathe hard. The road) Tj
+T*
+(smells like wet thorn, churned mud, and adrenaline fading too slowly. Among what was) Tj
+T*
+(dropped, you see gear that does not look like bandit scrap: stamped buckles, route tags,) Tj
+T*
+(and filed-off inventory marks from the same kind of system that hired you.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Decide what to do with what just happened and get the package moving again.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: S02-04) Tj
+T*
+(- Type: scene) Tj
+T*
+(- Sectionid: ACT-TWO) Tj
+T*
+(- Sectiontitle: Act Two: Cargo Reclaimers) Tj
+T*
+(- Title: After the Ambush) Tj
+T*
+(- Shorttitle: Aftermath) Tj
+T*
+(- Order: 304) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: True) Tj
+T*
+(- Image: assets/scenes/S02-04-after-the-ambush.png) Tj
+T*
+(- Alt: After the Ambush scene art for Cargo Reclaimers.) Tj
+T*
+(- Caption: After the fight, the module asks what victory cost and what the party) Tj
+T*
+(  learned.) Tj
+T*
+(- Mood: Cargo Reclaimers) Tj
+T*
+(- Gmgoal: Turn the outcome of the ambush into consequence, truth, and the next route) Tj
+T*
+(  toward the village.) Tj
+T*
+(- Publicobjective: Decide what to do with what just happened and get the package) Tj
+T*
+(  moving again.) Tj
+T*
+(- Readaloud: The brush goes still. Whatever you did, it is done. The horses breathe) Tj
+T*
+(  hard. The road smells like wet thorn, churned mud, and adrenaline fading too slowly.) Tj
+T*
+(  Among what was dropped, you see gear that does not look like bandit scrap: stamped) Tj
+T*
+(  buckles, route tags, and filed-off inventory marks from the same kind of system that) Tj
+T*
+(  hired you.) Tj
+T*
+(- Gmnotes: Mercy route: leader or survivors talk. Combat route: gear and effects talk.) Tj
+T*
+(  Either route should leave the party asking who benefits from a dangerous forest.) Tj
+T*
+(- Gmscript: Say: "The fight is over. The outcome matters now." If mercy or negotiation) Tj
+T*
+(  opened trust, say: "Up close, these people look less like bandits and more like) Tj
+T*
+(  former workers who have been sleeping rough and losing for a long time." If the) Tj
+T*
+(  party killed or routed them, say: "The gear tells the story the survivors cannot:) Tj
+T*
+(  company issue, filed off and reused." If players ask for the truth, use Presence or) Tj
+T*
+(  Knowledge 14, or mercy already earned, to reveal: "They were company or preserve) Tj
+T*
+(  workers who say the danger reports were manufactured to sell protection and discard) Tj
+T*
+(  the people who noticed.") Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4172 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Gmreadaloud: The brush goes still. Whatever you did, it is done. Among what was) Tj
+T*
+(  dropped, you see gear that does not look like bandit scrap: stamped buckles, route) Tj
+T*
+(  tags, and filed-off inventory marks. The road smells like wet thorn, churned mud,) Tj
+T*
+(  and adrenaline fading too slowly.) Tj
+T*
+(- Gmchecklist: Read bramble_outcome before choosing variant tone. Set) Tj
+T*
+(  bramble_truth_learned only if mercy/parley, survivor dialogue, or Presence/Knowledge) Tj
+T*
+(  14 earns it. Unlock location maps only for spared, negotiated, captured-with-care,) Tj
+T*
+(  or escaped-with-contact routes. Give a thread, not the whole campaign explanation.) Tj
+T*
+(- Gmprivate: The workers' claim is the first load-bearing truth thread, but the) Tj
+T*
+(  driver-killer canon flag remains unresolved. Do not mention Keystone Asset in) Tj
+T*
+(  player-facing aftermath. If players pursue the communities, use the two location) Tj
+T*
+(  maps as optional discovery, not mandatory plot.) Tj
+T*
+(- Playertakeaway: You do not have the whole picture, but you have seen enough to) Tj
+T*
+(  question who benefits from a dangerous forest.) Tj
+T*
+(- Storytakeaway: The attackers were tied to the same company world that hired the) Tj
+T*
+(  party; the forest's danger story no longer matches the evidence.) Tj
+T*
+(- Mechanictakeaway: The mechanic here is consequence: bramble_outcome and) Tj
+T*
+(  bramble_truth_learned decide what doors open next.) Tj
+T*
+(- Rollcards: s02-04-question-a-spared-reclaimer S02-04 Question a spared reclaimer) Tj
+T*
+(  Question a spared reclaimer Presence Knowledge Presence Knowledge 12 Presence keeps) Tj
+T*
+(  them talking; Knowledge asks the right claim question. A living prisoner becomes a) Tj
+T*
+(  person or a problem. Critical Success: best possible version of the action; gain) Tj
+T*
+(  Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success) Tj
+T*
+(  with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or) Tj
+T*
+(  generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and) Tj
+T*
+(  introduces a cost, complication, or pressure. Failure with Hope: the PC does not get) Tj
+T*
+(  the full result, but gains Hope and receives a useful thread, clue, or safer next) Tj
+T*
+(  option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that) Tj
+T*
+(  follows from the fiction. A living prisoner becomes a person or a problem. Use a) Tj
+T*
+(  hard complication, lost time, worse position, GM Fear, or mark Stress. Apply an) Tj
+T*
+(  official condition only if the fiction and rules justify it. The attempt falls) Tj
+T*
+(  short, but a partial thread appears. Offer one clue, weak position, or safer follow-) Tj
+T*
+(  up. The PC gets the core result, but it costs...) Tj
+T*
+(- Entityids: bramble-union-loot kett-alderhook vela-bramblewick rye-underbough) Tj
+T*
+(  brannic-mossvein bramble-ward-scrap-charm-cluster claimrunner-serrated-blade) Tj
+T*
+(  bramble-union-stoneweave vial-of-briarpowder bramble-union reclaimer-personal-) Tj
+T*
+(  effects garrick-reed bramble-union-claimrunner goldspire-territories route-) Tj
+T*
+(  assurance-contract khari-nix sealed-keystone-crate damage-armor hush) Tj
+T*
+(- Entities: bramble-union-loot Bramble Union Loot item Item / Asset) Tj
+T*
+(  assets/icons/item.png assets/entities/bramble-union-loot.png BRAM-bul YOO-nyun Loot) Tj
+T*
+(  Personal effects and evidence carried by Bramble Union members. Loot and clue table) Tj
+T*
+(  Personal effects and evidence carried by Bramble Union members.; use Bramble Union) Tj
+T*
+(  Loot as a concrete table object with texture, ownership, and a reason it matters) Tj
+T*
+(  now. Give players a tangible handle on Bramble Union, Bramble Union Ambusher,) Tj
+T*
+(  Bramble Union Claimrunner, whether they inspect, carry, return, trade, or refuse it.) Tj
+T*
+(  Personal effects and evidence carried by Bramble Union members. kett-alderhook Kett) Tj
+T*
+(  Alderhook npc NPC / Ally assets/icons/npc.png assets/npc-images/kett-) Tj
+T*
+(  alderhook/portrait_base.png KET AWL-der-hook A desperate cargo runner who believes) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3893 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  the road stole from his people first. The one who has to decide whether tonight's) Tj
+T*
+(  robbery becomes tonight's massacre. Kett Alderhook a desperate field leader trying) Tj
+T*
+(  to seize leverage from the carriage Carries the whole camp's survival like a debt he) Tj
+T*
+(  co-signed. Hard-jawed in front of the scouts, unsure the moment they look away.) Tj
+T*
+(  Believes the road stole from his people first, and is terrified of becoming the...) Tj
+T*
+(- Itemids: bramble-union-stoneweave vial-of-briarpowder bramble-ward-scrap-charm-) Tj
+T*
+(  cluster claimrunner-serrated-blade) Tj
+T*
+(- Clueids: route-assurance-contracttm reclaimer-personal-effects old-contract-tags) Tj
+T*
+(  the-interrogation-answer the-painted-joy) Tj
+T*
+(- Statecontrols: bramble_outcome Bramble outcome select unresolved killed captured) Tj
+T*
+(  spared negotiated escaped Shapes the aftermath variant and map access.) Tj
+T*
+(  bramble_truth_learned Bramble truth learned checkbox Set only after mercy/parley,) Tj
+T*
+(  survivor trust, or Presence/Knowledge 14. locationMapsUnlocked Location maps) Tj
+T*
+(  unlocked checkbox Use for mercy, negotiated, spared, or trusted survivor routes.) Tj
+T*
+(- Mechanicids: action-roll presence knowledge short-rest stress disposition-track gm-) Tj
+T*
+(  moves hope fear) Tj
+T*
+(- Playerquestions: What detail in After the Ambush tells you the official story is) Tj
+T*
+(  incomplete? Who notices the human cost first, and how do they show it? What small) Tj
+T*
+(  object, smell, or sound makes this scene feel real?) Tj
+T*
+(- Relationshipprompts: Which PC quietly checks on someone else here? Who disagrees) Tj
+T*
+(  about the right thing to do without breaking trust?) Tj
+T*
+(- Ownershipprompt: Name one detail in After the Ambush that belongs to your) Tj
+T*
+(  character's point of view.) Tj
+T*
+(- Fearspends: Spend Fear to reveal omitted risk, split attention, or put a human cost) Tj
+T*
+(  in front of the contract. Close the ambush net or put a PC between cargo and a) Tj
+T*
+(  frightened reclaimer. Reveal a personal effect that makes victory emotionally) Tj
+T*
+(  complicated.) Tj
+T*
+(- Choicesconsequences: Question survivors with care Presence 14 or earned mercy) Tj
+T*
+(  reveals the worker-displacement thread. Location maps can open and Act 3 starts with) Tj
+T*
+(  sharper questions. Threat interrogation may get facts but close trust. Search) Tj
+T*
+(  dropped gear Knowledge 14 reads company issue and filed inventory marks. Truth is) Tj
+T*
+(  thinner without survivors but still points at the company story cracking. Ignoring) Tj
+T*
+(  gear leaves bramble_truth_learned false. Tend the wounded or bury the dead Mercy) Tj
+T*
+(  becomes visible to any survivor. A guide, safe route, or future ally can become) Tj
+T*
+(  available. Looting first makes later trust harder.) Tj
+T*
+(- Lootclues: Personal effects Route sketch Old Goldspire seal Bramble Union) Tj
+T*
+(  Stoneweave: A garment of thousands of tiny polished stones moves like cloth and) Tj
+T*
+(  turns thorns like armor. Every fitted piece looks cut by hands that loved the work.) Tj
+T*
+(  Vial of Briarpowder: A small stoppered vial holds fine grey-green thorn powder that) Tj
+T*
+(  seems to drink the light. A blade edge near it looks sharper and hungrier. Bramble) Tj
+T*
+(  Ward-Scrap Charm Cluster: A knot of blue ward shards, twine, and tiny salvage tags) Tj
+T*
+(  clacks softly at a Bramblefolk belt. It looks illegal only because it looks useful.) Tj
+T*
+(- Handoutids: Personal effects Earned seed) Tj
+T*
+(- Sourcesceneslug: S02-04-after-the-ambush) Tj
+T*
+(- Sourcefiles: dist/Act2_Upgrade_Packet/ACT2_SCENE_UPGRADES.md) Tj
+T*
+(  dist/Act2_Upgrade_Packet/ACT2_PER_CHARACTER.md) Tj
+T*
+(- References: Ambush outcome #S02-03 Hidden villages if unlocked #MAP-LOC-bramble-) Tj
+T*
+(  union-villages Living thorn refuge if unlocked #MAP-LOC-the-wandering-briar) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4349 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Storyscope: Perceived antagonist: the forest. True antagonist: the corporate lie) Tj
+T*
+(  about the forest. The players never confront it directly. They are meant to feel it) Tj
+T*
+(  by the end. Every act offers at least one guaranteed and one earned hint that the) Tj
+T*
+(  danger is manufactured and the forest is not the enemy. The reclaimers target the) Tj
+T*
+(  cargo and manifest, not purses, and avoid killing when possible. REFLAVOR GUARANTEED) Tj
+T*
+(  Their gear includes salvaged, repainted Grail/Kazrak kit: ex-workers, not feral) Tj
+T*
+(  bandits. REFLAVOR GUARANTEED Knowledge Medium 15 to name the issue "That stone) Tj
+T*
+(  belongs in the ground." "You do not know what you are carrying." ADD EARNED A) Tj
+T*
+(  spared/captured reclaimer says monster attacks spiked when protection contracts went) Tj
+T*
+(  on sale. ADD EARNED Presence Medium 15; requires mercy or capture A spared/captured) Tj
+T*
+(  reclaimer says monster attacks spiked when protection contracts went on sale. ADD) Tj
+T*
+(  EARNED Presence Medium 15; requires mercy or capture Instinct: spot ambush.) Tj
+T*
+(  Presence: parley/interrogate. Knowledge: recognize corporate-issue gear. ACT2 Act 2:) Tj
+T*
+(  Bramble ambush 90 0:55 to 1:30 1:30 first combat and possible interrogation Abstract) Tj
+T*
+(  the fight via a Group Action roll; keep one captured reclaimer...) Tj
+T*
+(- Livetools: scene MAP-LOC-goldspire-territories) Tj
+T*
+(- Percharacterlayer: marlowe-fairwind Marlowe Fairwind Cargo implications Knowledge 14) Tj
+T*
+(  Connects the worker-displacement story to the package question without resolving) Tj
+T*
+(  what the package is. Can ask what a sealed delivery means if the danger around the) Tj
+T*
+(  route was manufactured. Marlowe, their story and your cargo are starting to rhyme.) Tj
+T*
+(  Want to follow that thought? garrick-reed Garrick Reed Ex-security recognition Knows) Tj
+T*
+(  company-issue kit on sight and recognizes the pattern of discarding people who) Tj
+T*
+(  noticed too much. Presence 14 A survivor trusts him faster, one ex-company hand to) Tj
+T*
+(  another. Can get the fullest version of the truth thread on offer. Garrick, you have) Tj
+T*
+(  seen the company do this to its own. She may talk to you. Want to hear it? varian-) Tj
+T*
+(  soto Varian Soto Wounded survivors Smells which wounded people can still be helped) Tj
+T*
+(  and who is fading fast. Can tend the wounded; mercy can open the location-map path.) Tj
+T*
+(  Varian, some of them will live if you help. Want to? It might open a door. barnacle) Tj
+T*
+(  Barnacle Desperate survivor rapport Recognizes cornered-survivor behavior without) Tj
+T*
+(  needing to judge it first. Can broker safe passage or an information exchange with) Tj
+T*
+(  survivors. Barnacle, you know what cornered looks like...) Tj
+T*
+(- Takeawayhelp: Player takeaway You do not have the whole picture, but you have seen) Tj
+T*
+(  enough to question who benefits from a dangerous forest. "You do not know the whole) Tj
+T*
+(  truth. You know enough to stop trusting the easy version." "You can question) Tj
+T*
+(  survivors, tend the wounded, search dropped gear, bury the dead, or get the package) Tj
+T*
+(  moving with new questions in your pocket." Give players permission to move on) Tj
+T*
+(  without solving everything. The takeaway is suspicion with evidence, not a lore) Tj
+T*
+(  dump. gm-moves presence knowledge Story takeaway The attackers were tied to the same) Tj
+T*
+(  company world that hired the party; the forest's danger story no longer matches the) Tj
+T*
+(  evidence. "These people were not outside the system. They were used by it, discarded) Tj
+T*
+(  by it, or armed from its leftovers." "Mercy or Presence/Knowledge 14 can reveal the) Tj
+T*
+(  worker-displacement thread: they say danger reports were manufactured to sell) Tj
+T*
+(  protection and silence people who noticed." Keep the reveal as a thread. Do not) Tj
+T*
+(  settle the driver-killer canon flag or the whole ward economy yet. gm-moves presence) Tj
+T*
+(  knowledge Mechanic takeaway The mechanic here is consequence: bramble_outcome and) Tj
+T*
+(  bramble_truth_learned decide what doors open next. "How this...) Tj
+T*
+(- Playerbeats: S02-04-quiet-after The quiet after The quiet after) Tj
+T*
+(  assets/scenes/S02-04-after-the-ambush.png After the Ambush scene art for Cargo) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 4139 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Reclaimers. The ambush ends, and the road feels too quiet for a victory cheer. The) Tj
+T*
+(  ambush ends, and the road feels too quiet for a victory cheer. The ambush ends, and) Tj
+T*
+(  the road feels too quiet for a victory cheer. text-first S02-04-who-they-were Who) Tj
+T*
+(  they were Company marks in the gear assets/scenes/S02-04-after-the-ambush.png After) Tj
+T*
+(  the Ambush scene art for Cargo Reclaimers. Stamped buckles, route tags, and filed-) Tj
+T*
+(  off inventory marks show these people were tied to the same company world that hired) Tj
+T*
+(  you. Stamped buckles, route tags, and filed-off inventory marks show these people) Tj
+T*
+(  were tied to the same company world that hired you. Stamped buckles, route tags, and) Tj
+T*
+(  filed-off inventory marks show these people were tied to the same company world that) Tj
+T*
+(  hired you. text-first S02-04-thread The thread The first truth thread) Tj
+T*
+(  assets/scenes/S02-04-after-the-ambush.png After the Ambush scene art for Cargo) Tj
+T*
+(  Reclaimers. The story you were hired into no longer matches the evidence on the) Tj
+T*
+(  road. The story you were hired into no longer matches the evidence on the road.) Tj
+T*
+(  The...) Tj
+T*
+(- Gmbeats: S02-04-quiet-after The quiet after The quiet after Say: "The fight is over,) Tj
+T*
+(  but the road does not feel solved. What is the first thing your character does when) Tj
+T*
+(  the adrenaline drops?" The ambush ends, and the road feels too quiet for a victory) Tj
+T*
+(  cheer. Aftermath is a playable scene, not a fade-out. Consequence begins when the) Tj
+T*
+(  table names what they do after danger. Players can choose care, search, questions,) Tj
+T*
+(  or movement. Player takeaway Players can choose care, search, questions, or) Tj
+T*
+(  movement. "The fight is over, but the road does not feel solved. What is the first) Tj
+T*
+(  thing your character does when the adrenaline drops?" "The playable facts are: The) Tj
+T*
+(  ambush ends, and the road feels too quiet for a victory cheer." Use this beat to) Tj
+T*
+(  point the table at one immediate choice. The player-facing fact is: The ambush ends,) Tj
+T*
+(  and the road feels too quiet for a victory cheer. gm-moves table-spotlight Story) Tj
+T*
+(  takeaway Aftermath is a playable scene, not a fade-out. "The fight is over, but the) Tj
+T*
+(  road does not feel solved. What is the first thing your character does when the) Tj
+T*
+(  adrenaline drops?" "The story fact you can trust is: Aftermath is a playable scene,) Tj
+T*
+(  not a fade-out." This beat changes the fiction...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 9000) Tj
+T*
+(- Playersafeprojection: S02-04 scene After the Ambush assets/scenes/S02-04-after-the-) Tj
+T*
+(  ambush.png After the Ambush scene art for Cargo Reclaimers. After the fight, the) Tj
+T*
+(  module asks what victory cost and what the party learned. Cargo Reclaimers Decide) Tj
+T*
+(  what to do with what just happened and get the package moving again. The brush goes) Tj
+T*
+(  still. Whatever you did, it is done. The horses breathe hard. The road smells like) Tj
+T*
+(  wet thorn, churned mud, and adrenaline fading too slowly. Among what was dropped,) Tj
+T*
+(  you see gear that does not look like bandit scrap: stamped buckles, route tags, and) Tj
+T*
+(  filed-off inventory marks from the same kind of system that hired you. S02-04-quiet-) Tj
+T*
+(  after The quiet after The quiet after assets/scenes/S02-04-after-the-ambush.png) Tj
+T*
+(  After the Ambush scene art for Cargo Reclaimers. The ambush ends, and the road feels) Tj
+T*
+(  too quiet for a victory cheer. The ambush ends, and the road feels too quiet for a) Tj
+T*
+(  victory cheer. The ambush ends, and the road feels too quiet for a victory cheer.) Tj
+T*
+(  text-first S02-04-who-they-were Who they were Company marks in the gear) Tj
+T*
+(  assets/scenes/S02-04-after-the-ambush.png After the Ambush scene art for Cargo) Tj
+T*
+(  Reclaimers. Stamped buckles, route tags, and filed-off inventory marks show...) Tj
+T*
+(- Companionmapids: MAP-LOC-goldspire-territories) Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 889 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Slidenumber: 38) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+(- Spotlights: SPOT-M-CONSEQUENCE consequence-chain consequence-chain M23 S02-04 med) Tj
+T*
+(  mandatory beat:resolution Carry the Choice Forward Earlier mercy, trust, and truth) Tj
+T*
+(  choices must matter later. Name the consequence the table just created. Record the) Tj
+T*
+(  state change while the scene is fresh. Bring it back later as help, suspicion, lost) Tj
+T*
+(  trust, a warning, or a changed route. Consequence chain wiki/mechanic/consequence-) Tj
+T*
+(  chain consequences-and-hints True Stop choices from evaporating after the scene) Tj
+T*
+(  ends. mechanic defer-if-clock-critical True True) Tj
+T*
+(- Spotlightsummary: 1) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 1d37488c2bce2d12 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R 12 0 R] /Count 6 >>
+endobj
+14 0 obj
+<< /Type /Catalog /Pages 13 0 R >>
+endobj
+15 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000009 00000 n 
+0000002729 00000 n 
+0000002857 00000 n 
+0000007081 00000 n 
+0000007209 00000 n 
+0000011154 00000 n 
+0000011282 00000 n 
+0000015683 00000 n 
+0000015811 00000 n 
+0000020002 00000 n 
+0000020131 00000 n 
+0000021072 00000 n 
+0000021202 00000 n 
+0000021292 00000 n 
+0000021343 00000 n 
+trailer
+<< /Size 16 /Root 14 0 R >>
+startxref
+21416
+%%EOF

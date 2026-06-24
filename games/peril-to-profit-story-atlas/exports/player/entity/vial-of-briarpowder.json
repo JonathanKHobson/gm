@@ -1,0 +1,53 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "vial-of-briarpowder",
+  "kind": "entity",
+  "title": "Vial of Briarpowder",
+  "in_world_label": "Provisioning Product Card",
+  "brand_flag": "the Bramble Union",
+  "kicker": "A small stoppered vial holds fine grey-green thorn powder that seems to drink the light. A blade edge near it looks sharper and hungrier.",
+  "hook": "A small stoppered vial holds fine grey-green thorn powder that seems to drink the light. A blade edge near it looks sharper and hungrier.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "A small stoppered vial holds fine grey-green thorn powder that seems to drink the light. A blade edge near it looks sharper and hungrier."
+    },
+    {
+      "label": "Maker Voice",
+      "body": "GRAIL SECURITY BULLETIN: Briarpowder is an unlicensed combat agent produced by off-network persons. Report hungry-looking blades to your nearest placard."
+    },
+    {
+      "label": "At The Table",
+      "body": "Consumable. Coat a blade; the next successful attack deals 1 additional hit point. One use."
+    }
+  ],
+  "spec": [
+    [
+      "Use",
+      "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction."
+    ],
+    [
+      "Benefit",
+      "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned."
+    ],
+    [
+      "Limit",
+      "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a..."
+    ]
+  ],
+  "affordances": [
+    "Inspect the label, maker, or fine print.",
+    "Use it only when the fiction says you can reach it."
+  ],
+  "archetype": "item.product_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:vial-of-briarpowder",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "c36d1fe8aefab026",
+  "generated_at": "2026-06-23T21:40:58"
+}

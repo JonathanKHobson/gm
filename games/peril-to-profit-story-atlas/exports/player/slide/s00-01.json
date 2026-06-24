@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S00-01",
+  "kind": "slide",
+  "title": "S00-01 - The Job",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Prologue: The Contract",
+  "hook": "At the edge of the warded road, a woman waits beside a loaded carriage. She looks like your contact for this job, but she has not introduced herself yet.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "At the edge of the warded road, a woman waits beside a loaded carriage. She looks like your contact for this job, but she has not introduced herself yet."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Meet the contact, take custody of the sealed package, ask what you need to ask, and decide to roll out."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:S00-01",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "6788ce40d276a33b",
+  "generated_at": "2026-06-23T21:40:58"
+}

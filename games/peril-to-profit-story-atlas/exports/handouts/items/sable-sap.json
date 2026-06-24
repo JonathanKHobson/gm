@@ -1,0 +1,53 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "sable-sap",
+  "kind": "entity",
+  "title": "Sable Sap",
+  "in_world_label": "Provisioning Product Card",
+  "brand_flag": "the sablewood trees",
+  "kicker": "Warm amber sap beads from a crack in a huge trunk like the tree is breathing it out. It smells of honey, woodsmoke, and something older.",
+  "hook": "Warm amber sap beads from a crack in a huge trunk like the tree is breathing it out. It smells of honey, woodsmoke, and something older.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Warm amber sap beads from a crack in a huge trunk like the tree is breathing it out. It smells of honey, woodsmoke, and something older."
+    },
+    {
+      "label": "Maker Voice",
+      "body": "HEXMART HEALTH NOTICE: Raw Sable Sap is unprocessed tree excretion. Try Hexmart Sap-Flavored Relaxation Syrup, contains no sap."
+    },
+    {
+      "label": "At The Table",
+      "body": "Consumable. Once per long rest, in a calm moment, clear 2 Stress."
+    }
+  ],
+  "spec": [
+    [
+      "Use",
+      "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction."
+    ],
+    [
+      "Benefit",
+      "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned."
+    ],
+    [
+      "Limit",
+      "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a..."
+    ]
+  ],
+  "affordances": [
+    "Inspect the label, maker, or fine print.",
+    "Use it only when the fiction says you can reach it."
+  ],
+  "archetype": "item.product_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:sable-sap",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "1cfccb4c1e40dad4",
+  "generated_at": "2026-06-23T21:40:58"
+}

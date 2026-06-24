@@ -1,0 +1,231 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2132 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(CHEAT-GM - GM Rules Reference) Tj
+T*
+() Tj
+T*
+(GM goal) Tj
+T*
+() Tj
+T*
+(Find any rule fast without leaving Run Mode.) Tj
+T*
+() Tj
+T*
+(GM notes) Tj
+T*
+() Tj
+T*
+(- Roll in 10 Seconds: Use this when a player asks what to roll.) Tj
+T*
+(- ? Pick the trait that matches the approach.) Tj
+T*
+(- ? Set the Difficulty before the roll matters.) Tj
+T*
+(- ? State the stakes.) Tj
+T*
+(- ? Roll Hope d12 + Fear d12.) Tj
+T*
+(- ? Add trait, Experience, and bonuses.) Tj
+T*
+(- ? Compare total to Difficulty.) Tj
+T*
+(- Action Roll Results: Read total first, then Hope/Fear spin.) Tj
+T*
+(- ? Critical Success: best outcome, gain Hope, clear 1 Stress.) Tj
+T*
+(- ? Success with Hope: they get it and gain Hope.) Tj
+T*
+(- ? Success with Fear: they get it, but cost or pressure enters.) Tj
+T*
+(- ? Failure with Hope: they miss, but gain Hope and a useful thread.) Tj
+T*
+(- ? Failure with Fear: they miss and the GM makes a stronger move.) Tj
+T*
+(- Difficulty Ladder: Beginner hinges often sit around 10-14.) Tj
+T*
+(- ? Very Easy 5.) Tj
+T*
+(- ? Easy 10.) Tj
+T*
+(- ? Average 15.) Tj
+T*
+(- ? Hard 20.) Tj
+T*
+(- ? Very Hard 25.) Tj
+T*
+(- ? Nearly Impossible 30.) Tj
+T*
+(- Six Traits: Translate the fictional approach, not the D&D skill name.) Tj
+T*
+(- ? Agility: sprint, leap, maneuver.) Tj
+T*
+(- ? Strength: lift, smash, grapple.) Tj
+T*
+(- ? Finesse: control, hide, tinker.) Tj
+T*
+(- ? Instinct: perceive, sense, navigate.) Tj
+T*
+(- ? Presence: charm, perform, deceive.) Tj
+T*
+(- ? Knowledge: recall, analyze, comprehend.) Tj
+T*
+(- D&D to Daggerheart: Convert the instinct quickly, then move on.) Tj
+T*
+(- ? Perception -> Instinct.) Tj
+T*
+(- ? Saving throw/save -> Reaction Roll.) Tj
+T*
+(- ? AC -> Evasion.) Tj
+T*
+(- ? Initiative -> Spotlight flow.) Tj
+T*
+(- ? Skill check -> Action Roll.) Tj
+T*
+(- Hope Spend Menu: Give players fast ways to help themselves and each other.) Tj
+T*
+(- ? Help an Ally.) Tj
+T*
+(- ? Use an Experience.) Tj
+T*
+(- ? Tag Team Roll.) Tj
+T*
+(- ? Use a Hope Feature.) Tj
+T*
+(- Fear Spend Menu: Spend Fear to escalate what the fiction already set up.) Tj
+T*
+(- ? Make or interrupt with a GM move.) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 2267 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- ? Make an extra move when pressure justifies it.) Tj
+T*
+(- ? Spotlight an additional adversary.) Tj
+T*
+(- ? Use an adversary or environment Fear feature.) Tj
+T*
+(- ? Add an adversary Experience when the stat block supports it.) Tj
+T*
+(- Combat / Spotlight Loop: No initiative list; pass spotlight through the fiction.) Tj
+T*
+(- ? Spotlight follows immediate fictional pressure.) Tj
+T*
+(- ? PC action roll targets adversary Difficulty.) Tj
+T*
+(- ? Adversary attack: d20 + ATK vs PC Evasion.) Tj
+T*
+(- ? GM acts on failures, rolls with Fear, and Fear spends.) Tj
+T*
+(- Damage / Armor / Stress: Compare damage to thresholds; do not improvise a condition.) Tj
+T*
+(- ? Compare damage to the target's thresholds.) Tj
+T*
+(- ? Mark HP by damage severity.) Tj
+T*
+(- ? Mark an Armor Slot to reduce severity by one threshold.) Tj
+T*
+(- ? If Stress maxes, the PC becomes Vulnerable until at least 1 Stress clears.) Tj
+T*
+(- ? Last HP points to the Death Move / quickstart handling.) Tj
+T*
+(- Official Conditions: Only these global conditions belong in the Atlas.) Tj
+T*
+(- ? Hidden.) Tj
+T*
+(- ? Restrained.) Tj
+T*
+(- ? Vulnerable.) Tj
+T*
+(- Short Rest: Use before Open Vale pressure spikes.) Tj
+T*
+(- ? Tend to Wounds.) Tj
+T*
+(- ? Clear Stress.) Tj
+T*
+(- ? Repair Armor.) Tj
+T*
+(- ? Prepare.) Tj
+T*
+(- ? Check official loadout/vault swap text from the sheet or SRD.) Tj
+T*
+(- Countdown: Make pressure visible and explain what a tick means.) Tj
+T*
+(- ? Name what the countdown represents.) Tj
+T*
+(- ? Tick it when the fiction or result calls for pressure.) Tj
+T*
+(- ? Use the Open Vale ritual countdown as module pressure, not a condition.) Tj
+T*
+(- Beginner Teaching Script: Keep the explanation short enough to resume play.) Tj
+T*
+(- ? Two d12s: Hope and Fear.) Tj
+T*
+(- ? The total decides success against Difficulty.) Tj
+T*
+(- ? The higher die decides whether Hope or Fear colors the result.) Tj
+T*
+(- ? Traits replace D&D skills.) Tj
+T*
+(- ? Damage compares to thresholds; Armor can reduce severity.) Tj
+T*
+(- ? There is no initiative order; spotlight follows the fiction.) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 1032b0911b0e1361 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R] /Count 2 >>
+endobj
+6 0 obj
+<< /Type /Catalog /Pages 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000002193 00000 n 
+0000002319 00000 n 
+0000004638 00000 n 
+0000004764 00000 n 
+0000004827 00000 n 
+0000004876 00000 n 
+trailer
+<< /Size 8 /Root 6 0 R >>
+startxref
+4948
+%%EOF

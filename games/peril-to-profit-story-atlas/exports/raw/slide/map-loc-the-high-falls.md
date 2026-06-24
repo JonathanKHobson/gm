@@ -1,0 +1,49 @@
+# MAP-LOC-the-high-falls - The High Falls Location Map
+
+RAW export - slide:MAP-LOC-the-high-falls
+
+## Player text
+The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains.
+
+## Public objective
+The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains.
+
+## Raw source
+- Id: MAP-LOC-the-high-falls
+- Type: map
+- Maptype: environment
+- Sectionid: STORY
+- Sectiontitle: Map Board
+- Title: The High Falls Location Map
+- Shorttitle: The High Falls
+- Order: 850.9
+- Playersafe: True
+- Completioneligible: False
+- Image: assets/maps/MAP-LOC-the-high-falls-gm.webp
+- Alt: The High Falls location map board.
+- Caption: Visual reference for The High Falls.
+- Mood: spatial reference and location texture
+- Gmgoal: Make mystery available without pulling the one-shot off course.
+- Publicobjective: The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains.
+- Readaloud: The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains.
+- Playertakeaway: The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains.
+- Storytakeaway: The falls hint that Sablewood has histories outside the delivery plot.
+- Mechanictakeaway: Use only if the table diverts into exploration.
+- Entityids: the-high-falls craymeleon eeligator
+- Entities: the-high-falls The High Falls location Location assets/icons/location.png assets/location-visuals/the-high-falls/profile_scene_v02.webp the HY fawlz The place where the Lucent River drops into a cave system that once held a community nobody can fully explain. Make mystery available without pulling the one-shot off course. The place where the Lucent River drops into a cave system that once held a community nobody can fully explain.; introduce it with a sensory palette, who feels safe there, and what has been neglected. Pull player attention toward the choices, clues, and relationships tied to The Lucent River, Underroot, Forgotten Gods. The place where the Lucent River drops into a cave system that once held a community nobody can fully explain. craymeleon Craymeleon creature Creature / Animal assets/icons/creature.png assets/creature-images/craymeleon/portrait_base.webp kray-MEEL-ee-un A chameleon-crayfish river beast with bright shell plates and independently swiveling eyes, often harnessed to pull small boats through glowing current. Lucent River work animal A chameleon-crayfish river beast with bright shell plates and independently swiveling eyes, often harnessed to pull small...
+- Locationids: the-high-falls
+- Fearspends: The falls go silent for one impossible second. A glow pool shows a shape moving below.
+- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth context stay off the player display.
+- Mapdata: MAP-LOC-the-high-falls environment The High Falls Location Map the-high-falls craymeleon eeligator assets/location-visuals/the-high-falls/profile_scene_v02.webp Visual reference for The High Falls. The High Falls location map board. The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains. The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains. Make mystery available without pulling the one-shot off course. Mist turns hair and cloaks silver. A dark cave opening breathes cold air behind the falling light. Old marks near the cave are not route symbols. Leaf-drip, insects, distant wingbeats, and animal calls that stop or resume according to pressure, not comfort. Thunderous water, cold spray, mineral sharpness, and slick stone algae. Rock faces are wet glass under moss; handholds are colder than the air. The forest is populated even when no NPC is present; silence, birds, insects, and tracks are actionable signals. Mist turns hair and cloaks silver. A dark cave opening breathes cold air behind the falling light. Old marks near the cave are not route symbols. The...
+- Livetools: scene MAP-LOC-the-high-falls
+- Takeawayhelp: Player takeaway: MAP-LOC-the-high-falls The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains. Give the player one concrete way back into play: a question, a description, a choice, or a pass-and-return moment. "Your takeaway right now is this: The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains." "If you are not sure what to do next, you can ask a question, describe what your character notices, or tell me what your character tries." "If you are not sure what to do next, you can ask a question, describe what your character notices, or tell me what your character tries." Give the player one concrete way back into play: a question, a description, a choice, or a pass-and-return moment. Story takeaway: MAP-LOC-the-high-falls The falls hint that Sablewood has histories outside the delivery plot. Anchor the answer in the visible fiction on this slide: who is present, what can be observed, what has already been said, and what remains uncertain. "Here is what your characters know right now: The falls hint that Sablewood has histories outside the delivery plot."...
+- Playerbeats: assets/maps/MAP-LOC-the-high-falls-player.webp The High Falls location map board. MAP-LOC-the-high-falls environment The High Falls assets/maps/MAP-LOC-the-high-falls-player.webp assets/maps/MAP-LOC-the-high-falls-player.webp Visual reference for The High Falls. The High Falls location map board. The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains. The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains. MAP-LOC-the-high-falls-map-only Map only The High Falls map-only assets/maps/MAP-LOC-the-high-falls-player.webp The High Falls location map board. MAP-LOC-the-high-falls environment The High Falls assets/maps/MAP-LOC-the-high-falls-player.webp assets/maps/MAP-LOC-the-high-falls-player.webp Visual reference for The High Falls. The High Falls location map board. The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains. The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains. MAP-LOC-the-high-falls-map-text Map + text The High Falls The High...
+- Beatautoplayeligible: True
+- Beatautoplaydefault: False
+- Beatautoplayintervalms: 10000
+- Playersafeprojection: MAP-LOC-the-high-falls map The High Falls assets/maps/MAP-LOC-the-high-falls-player.webp The High Falls location map board. Visual reference for The High Falls. spatial reference and location texture The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains. The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains. MAP-LOC-the-high-falls environment The High Falls assets/maps/MAP-LOC-the-high-falls-player.webp assets/maps/MAP-LOC-the-high-falls-player.webp Visual reference for The High Falls. The High Falls location map board. The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains. The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains. assets/maps/MAP-LOC-the-high-falls-player.webp The High Falls location map board. MAP-LOC-the-high-falls environment The High Falls assets/maps/MAP-LOC-the-high-falls-player.webp assets/maps/MAP-LOC-the-high-falls-player.webp Visual reference for The High Falls. The High Falls location map board. The High Falls...
+- Slidenumber: 90
+- Totalslides: 110
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash d8bbb91f26f2a061 | Source hash dac3370046ed077140fab2d6

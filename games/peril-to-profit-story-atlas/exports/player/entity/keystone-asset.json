@@ -1,0 +1,53 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "keystone-asset",
+  "kind": "entity",
+  "title": "Keystone Asset™",
+  "in_world_label": "Provisioning Product Card",
+  "brand_flag": "Emeris Crown Holdings",
+  "kicker": "Inside the sealed crate, packed in wax-paper and reassurance, sits a heavy grey stone the size of a loaf, warm to the touch, faintly...",
+  "hook": "Inside the sealed crate, packed in wax-paper and reassurance, sits a heavy grey stone the size of a loaf, warm to the touch, faintly humming, with a light deep inside it that is slowly going out.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Inside the sealed crate, packed in wax-paper and reassurance, sits a heavy grey stone the size of a loaf, warm to the touch, faintly humming, with a light deep inside it that is slowly going out."
+    },
+    {
+      "label": "Maker Voice",
+      "body": "EMERIS CROWN HOLDINGS: Your Asset, Handled With Care. Fully insured against loss, theft, and most acts of god. Please do not open, touch, tilt, comfort, or speak to your Asset."
+    },
+    {
+      "label": "At The Table",
+      "body": "Reach the Whitefire Custodian and the Open Vale ritual. Sensing what it truly is uses Instinct 15 when the fiction supports it."
+    }
+  ],
+  "spec": [
+    [
+      "Use",
+      "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction."
+    ],
+    [
+      "Benefit",
+      "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned."
+    ],
+    [
+      "Limit",
+      "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a..."
+    ]
+  ],
+  "affordances": [
+    "Inspect the label, maker, or fine print.",
+    "Use it only when the fiction says you can reach it."
+  ],
+  "archetype": "item.product_card",
+  "disclosure_tier": "standard",
+  "featured": true,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:keystone-asset",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "0a3aedb00cda5b1d",
+  "generated_at": "2026-06-23T21:40:58"
+}

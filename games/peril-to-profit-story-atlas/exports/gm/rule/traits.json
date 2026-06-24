@@ -1,0 +1,52 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "traits",
+  "title": "Traits",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "97229e937bf98ec4",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "The six broad modifiers used instead of D&D skills."
+    },
+    {
+      "title": "How it works",
+      "body": "Use the trait that matches the player's approach."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use the trait that matches the player's approach.",
+        "Pick the one that matches how you do it.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "What trait do I use?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "agility",
+        "strength",
+        "finesse",
+        "instinct",
+        "presence",
+        "knowledge"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 97229e937bf98ec4 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "gm-rules-drawer",
+  "kind": "rule",
+  "title": "GM Rules Drawer",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "gm-aid",
+  "hook": "The Atlas quick-reference drawer that gathers rule cards, conditions, conversion, and beginner reminders.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "The Atlas quick-reference drawer that gathers rule cards, conditions, conversion, and beginner reminders."
+    },
+    {
+      "label": "How It Works",
+      "body": "GM Rules Drawer: The Atlas quick-reference drawer that gathers rule cards, conditions, conversion, and beginner reminders."
+    },
+    {
+      "label": "Try It",
+      "body": "Where is the fast rule answer?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use when Kyle needs a fast answer without leaving Run Mode.",
+    "Open the drawer, search the mechanic, read the compact answer, then return to the scene.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:gm-rules-drawer",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "87b01ae9df222033",
+  "generated_at": "2026-06-23T21:40:58"
+}

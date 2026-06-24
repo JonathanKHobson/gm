@@ -1,0 +1,439 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2486 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-the-hanging-office - The Hanging Office Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(A home hangs in the canopy above a carved counterweight stone. Yellow-green light moves) Tj
+T*
+(behind its windows.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(A home hangs in the canopy above a carved counterweight stone. Yellow-green light moves) Tj
+T*
+(behind its windows.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-the-hanging-office) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: ACT-FOUR) Tj
+T*
+(- Sectiontitle: Act Four: The Hanging Office) Tj
+T*
+(- Title: The Hanging Office Location Map) Tj
+T*
+(- Shorttitle: The Hanging Home) Tj
+T*
+(- Order: 501.08) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-the-hanging-office-gm.png) Tj
+T*
+(- Alt: The Hanging Office location map board.) Tj
+T*
+(- Caption: Visual reference for The Hanging Office.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Use the hanging home as the Act 4 hub: exterior puzzle, Custodian RP, and) Tj
+T*
+(  reveal chamber.) Tj
+T*
+(- Publicobjective: A home hangs in the canopy above a carved counterweight stone.) Tj
+T*
+(  Yellow-green light moves behind its windows.) Tj
+T*
+(- Readaloud: A home hangs in the canopy above a carved counterweight stone. Yellow-) Tj
+T*
+(  green light moves behind its windows.) Tj
+T*
+(- Gmscript: Say: "This map is the act heart: puzzle outside, person inside, reveal) Tj
+T*
+(  only when S04-04 begins.") Tj
+T*
+(- Gmreadaloud: The cabin sways above the counterweight. Inside, the home opens) Tj
+T*
+(  impossibly larger than it should. Every object feels exactly placed.) Tj
+T*
+(- Gmchecklist: Run S04-02 outside before interior RP. Keep the package truth hidden) Tj
+T*
+(  until S04-04. After reveal and commitment, transition to open-vale-ward-lines.) Tj
+T*
+(- Gmprivate: GM-only: the home is the Custodian's ward-workshop; the deepest consume) Tj
+T*
+(  truth stays seeded only.) Tj
+T*
+(- Playertakeaway: A home hangs in the canopy above a carved counterweight stone.) Tj
+T*
+(  Yellow-green light moves behind its windows.) Tj
+T*
+(- Storytakeaway: The Custodian's home is a test, a sanctuary, and the reveal chamber.) Tj
+T*
+(- Mechanictakeaway: Use the map to anchor Agility/Finesse/Knowledge puzzle options,) Tj
+T*
+(  Presence trust, and Knowledge 14 reveal inspection.) Tj
+T*
+(- Entityids: whitefire-custodian) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4048 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Entities: whitefire-custodian Whitefire Custodian npc NPC / Ally) Tj
+T*
+(  assets/icons/npc.png assets/npc-images/whitefire-custodian/portrait_base.png WHITE-) Tj
+T*
+(  fire kus-TOH-dee-un Old faerie-like custodian who maintains the ward protecting) Tj
+T*
+(  Hush. Truth-bearer for the Keystone reveal. Whitefire Custodian an old faerie-like) Tj
+T*
+(  ward keeper whose exhaustion glows around the edges Ancient kindness running on) Tj
+T*
+(  fumes, glowing a little brighter whenever someone tells the truth nearby. Wants to) Tj
+T*
+(  keep one place honestly safe long enough for people to remember that safety can be) Tj
+T*
+(  care instead of a product, and is quietly breaking under the cost of it. Renew the) Tj
+T*
+(  ward without being treated as a device. Please do not call me the ward interface. an) Tj
+T*
+(  old faerie-like ward keeper whose exhaustion glows around the edges npc-profile-v1) Tj
+T*
+(  NPC_System_Packet + image-informed hardening Whitefire Custodian an old faerie-like) Tj
+T*
+(  ward keeper whose exhaustion glows around the edges A tall luminous faerie custodian) Tj
+T*
+(  stands like living bark and white fire, branchlike crown, translucent wings, and) Tj
+T*
+(  warm gold light gathered in the chest. Whitefire Custodian: an old faerie-like ward) Tj
+T*
+(  keeper whose exhaustion glows around the edges Whitefire...) Tj
+T*
+(- Statecontrols: custodian_trust Custodian Trust select low neutral high) Tj
+T*
+(  package_status Package Status select held lost keystone_understanding Keystone) Tj
+T*
+(  Understanding select surface deep ward_awareness Ward Awareness select none seed) Tj
+T*
+(  aware) Tj
+T*
+(- Mechanicids: agility finesse knowledge presence stress) Tj
+T*
+(- Fearspends: This is exposition, not combat ? keep Fear low. The dread is in the) Tj
+T*
+(  carved faces and her question about how they'll die. Spend Fear: one carved face) Tj
+T*
+(  turns, almost imperceptibly, to follow a PC. Never acknowledged. Pure unease before) Tj
+T*
+(  the ritual.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S04-02 S04-03 S04-04) Tj
+T*
+(- Mapdata: MAP-LOC-the-hanging-office environment The Hanging Office Location Map) Tj
+T*
+(  S04-02 S04-03 S04-04 whitefire-custodian assets/location-visuals/the-hanging-) Tj
+T*
+(  office/profile_scene_v02.png Visual reference for The Hanging Office. The Hanging) Tj
+T*
+(  Office location map board. A home hangs in the canopy above a carved counterweight) Tj
+T*
+(  stone. Yellow-green light moves behind its windows. A home hangs in the canopy above) Tj
+T*
+(  a carved counterweight stone. Yellow-green light moves behind its windows. Use the) Tj
+T*
+(  hanging home as the Act 4 hub: exterior puzzle, Custodian RP, and reveal chamber.) Tj
+T*
+(  Hanging cabin, giant rope braid, carved counterweight boulder, yellow-green window) Tj
+T*
+(  light, trees covered in hundreds of carved watching faces, blue glowing moss) Tj
+T*
+(  starting on the nearby crops. The slow creak of the swaying cabin; the Custodian's) Tj
+T*
+(  clear, expressive voice once she emerges; a low hum from the carved faces when the) Tj
+T*
+(  wind moves. potions, dried herbs, beeswax, old wood ? a cluttered-but-precise) Tj
+T*
+(  workshop. Uncanny watchfulness \(the faces\); the cabin's gentle motion; the sense) Tj
+T*
+(  that nothing here is accidental. Small creatures of all kinds inside the cabin;) Tj
+T*
+(  potion bottles, spellbooks, runes, plants ? crowded but immaculately...) Tj
+T*
+(- Sourcefiles: dist/Act4_Upgrade_Packet/ACT4_MAPS_AND_LOCATIONS.md) Tj
+T*
+(- References: Exterior #S04-02 Custodian #S04-03 Reveal #S04-04) Tj
+T*
+(- Livetools: scene MAP-LOC-the-hanging-office) Tj
+T*
+(- Percharacterlayer: garrick-reed Garrick Reed Affable warmth His warmth makes him the) Tj
+T*
+(  natural bridge to her. Can lead the conversation and answer the death-question) Tj
+T*
+(  honestly, raising trust fastest. Garrick, she likes genuine people. Want to lead the) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4320 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  conversation and answer her death-question honestly? marlowe-fairwind Marlowe) Tj
+T*
+(  Fairwind Fellow magic-worker The Custodian recognizes a fellow arcane practitioner) Tj
+T*
+(  and warms to respect for the craft. Knowledge 13 Understands the Custodian is bound) Tj
+T*
+(  to the ward; gate the deeper cost. Can talk shop and earn trust without owning the) Tj
+T*
+(  later reveal. Marlowe, she clocks you as one of her own kind. Want to talk shop and) Tj
+T*
+(  earn her trust? varian-soto Varian Soto Trusted by creatures The small creatures in) Tj
+T*
+(  the treehouse trust Varian quickly, and the Custodian notices. Can soften the room) Tj
+T*
+(  by letting the creatures approach. Varian, her little creatures come right to you.) Tj
+T*
+(  She sees that. Want to lean into it? khari-nix Khari Nix Guardian answer The death-) Tj
+T*
+(  question can become a guardian's truth. An honest answer about dying to protect) Tj
+T*
+(  someone moves her. Khari, she asks how you imagine you will die. A guardian's true) Tj
+T*
+(  answer would move her. Want to give it? barnacle Barnacle...) Tj
+T*
+(- Gmbeats: MAP-LOC-the-hanging-office-exterior Exterior Exterior puzzle Say: "Offer) Tj
+T*
+(  call, climb, study, or force." The hanging home asks how the party approaches a) Tj
+T*
+(  person, not how they break a lock. Access is a character test. Puzzle choices write) Tj
+T*
+(  trust. Players understand the approach choices. Player takeaway Players understand) Tj
+T*
+(  the approach choices. "Offer call, climb, study, or force." "The playable fact is:) Tj
+T*
+(  The hanging home asks how the party approaches a person, not how they break a lock.") Tj
+T*
+(  Concrete actions for this beat: look closely, ask the Custodian a direct question,) Tj
+T*
+(  commit to a choice, or take one prep action. agility finesse presence Story takeaway) Tj
+T*
+(  Access is a character test. "Offer call, climb, study, or force." "The story fact in) Tj
+T*
+(  play is: Access is a character test." This beat changes Act 4 through this exact) Tj
+T*
+(  pressure: Access is a character test. agility finesse presence Mechanic takeaway) Tj
+T*
+(  Puzzle choices write trust. "Offer call, climb, study, or force." "The active) Tj
+T*
+(  procedure is: Puzzle choices write trust." Run intent first. Use Presence for trust,) Tj
+T*
+(  Knowledge for ward or stone truths, Instinct for preserve danger, and Agility or) Tj
+T*
+(  Finesse for the hanging-home puzzle. agility...) Tj
+T*
+(- Takeawayhelp: Player takeaway The hanging home is the Act 4 hub. "This is the act) Tj
+T*
+(  heart: puzzle outside, person inside, reveal only when it is time." "Use the) Tj
+T*
+(  exterior for approach choices, then interior for trust and the reveal." Keep the map) Tj
+T*
+(  oriented around the current scene beat. agility finesse knowledge presence stress) Tj
+T*
+(  Story takeaway The home is a test, sanctuary, and reveal chamber. "The place tells) Tj
+T*
+(  you who she is before she explains anything." "It is impossible, tidy, watched, and) Tj
+T*
+(  old. That is all player-safe before S04-04." The map should deepen tone without) Tj
+T*
+(  leaking the stone truth too early. agility finesse knowledge presence stress) Tj
+T*
+(  Mechanic takeaway The map anchors puzzle, trust, and inspection mechanics. "Agility) Tj
+T*
+(  13 to climb, Finesse/Knowledge 13 to solve, Knowledge 14 only after the reveal.") Tj
+T*
+(  "Force costs Stress; courtesy raises trust; inspection deepens understanding." Each) Tj
+T*
+(  map action should write trust, understanding, or prep. agility finesse knowledge) Tj
+T*
+(  presence stress) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-the-hanging-office.png The Hanging Home map board.) Tj
+T*
+(  MAP-LOC-the-hanging-office environment The Hanging Home S04-02 S04-03 S04-04) Tj
+T*
+(  assets/maps/MAP-LOC-the-hanging-office.png assets/maps/MAP-LOC-the-hanging-) Tj
+T*
+(  office.png The Hanging Home map board. A home hangs in the canopy above a carved) Tj
+T*
+(  counterweight stone. Yellow-green light moves behind its windows. A home hangs in) Tj
+T*
+(  the canopy above a carved counterweight stone. Yellow-green light moves behind its) Tj
+T*
+(  windows. Hanging cabin A puzzle-toy home, precise and precarious. 0.5 0.36) Tj
+T*
+(  Counterweight Cutting the rope is a bad idea with consequences. 0.68 0.76 Carved) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 2383 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  faces The trees watch before the reveal lands. 0.28 0.48 MAP-LOC-the-hanging-office-) Tj
+T*
+(  map-only Map only The Hanging Home map-only assets/maps/MAP-LOC-the-hanging-) Tj
+T*
+(  office.png The Hanging Home map board. MAP-LOC-the-hanging-office environment The) Tj
+T*
+(  Hanging Home S04-02 S04-03 S04-04 assets/maps/MAP-LOC-the-hanging-office.png) Tj
+T*
+(  assets/maps/MAP-LOC-the-hanging-office.png The Hanging Home map board. A home hangs) Tj
+T*
+(  in the canopy above a carved counterweight stone. Yellow-green light moves behind) Tj
+T*
+(  its windows. A home hangs in the canopy above a carved counterweight stone. Yellow-) Tj
+T*
+(  green...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-the-hanging-office map The Hanging Home) Tj
+T*
+(  assets/maps/MAP-LOC-the-hanging-office.png The Hanging Home map board. spatial) Tj
+T*
+(  reference and location texture A home hangs in the canopy above a carved) Tj
+T*
+(  counterweight stone. Yellow-green light moves behind its windows. A home hangs in) Tj
+T*
+(  the canopy above a carved counterweight stone. Yellow-green light moves behind its) Tj
+T*
+(  windows. MAP-LOC-the-hanging-office environment The Hanging Home S04-02 S04-03) Tj
+T*
+(  S04-04 assets/maps/MAP-LOC-the-hanging-office.png assets/maps/MAP-LOC-the-hanging-) Tj
+T*
+(  office.png The Hanging Home map board. A home hangs in the canopy above a carved) Tj
+T*
+(  counterweight stone. Yellow-green light moves behind its windows. A home hangs in) Tj
+T*
+(  the canopy above a carved counterweight stone. Yellow-green light moves behind its) Tj
+T*
+(  windows. Hanging cabin A puzzle-toy home, precise and precarious. 0.5 0.36) Tj
+T*
+(  Counterweight Cutting the rope is a bad idea with consequences. 0.68 0.76 Carved) Tj
+T*
+(  faces The trees watch before the reveal lands. 0.28 0.48 assets/maps/MAP-LOC-the-) Tj
+T*
+(  hanging-office.png The Hanging Home map board. MAP-LOC-the-hanging-office) Tj
+T*
+(  environment The Hanging Home S04-02 S04-03 S04-04 assets/maps/MAP-LOC-the-hanging-) Tj
+T*
+(  office.png...) Tj
+T*
+(- Slidenumber: 55) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 81c4cee55f96d111 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R] /Count 4 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000002547 00000 n 
+0000002674 00000 n 
+0000006774 00000 n 
+0000006901 00000 n 
+0000011273 00000 n 
+0000011400 00000 n 
+0000013835 00000 n 
+0000013962 00000 n 
+0000014037 00000 n 
+0000014087 00000 n 
+trailer
+<< /Size 12 /Root 10 0 R >>
+startxref
+14160
+%%EOF

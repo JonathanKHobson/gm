@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "roleplay",
+  "kind": "rule",
+  "title": "Roleplay",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "mechanic",
+  "hook": "The player states what their character says, does, notices, asks, or feels.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "The player states what their character says, does, notices, asks, or feels."
+    },
+    {
+      "label": "How It Works",
+      "body": "Roleplay: The player states what their character says, does, notices, asks, or feels."
+    },
+    {
+      "label": "Try It",
+      "body": "Do I have to act it out?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use whenever a scene needs a choice, reaction, question, or character moment before dice.",
+    "No. You can speak in character, summarize in third person, or ask for help finding the words.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:roleplay",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "9d3be2d252997c7a",
+  "generated_at": "2026-06-23T21:40:58"
+}

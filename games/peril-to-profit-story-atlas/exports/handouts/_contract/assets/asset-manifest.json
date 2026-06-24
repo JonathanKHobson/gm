@@ -1,0 +1,19 @@
+{
+  "workflow": "AI-generated black-and-white PNGs on chroma green, locally keyed to transparent PNGs during export build.",
+  "sources": {
+    "emeris-crown-seal.png": "story-atlas/src/contract_handout_assets/green/emeris-crown-seal-green.png",
+    "crest.png": "story-atlas/src/contract_handout_assets/green/crest-green.png",
+    "mascot-seal.png": "story-atlas/src/contract_handout_assets/green/mascot-seal-green.png",
+    "crate.png": "story-atlas/src/contract_handout_assets/green/crate-green.png",
+    "route-vignette.png": "story-atlas/src/contract_handout_assets/green/route-vignette-green.png",
+    "stamp-frame.png": "story-atlas/src/contract_handout_assets/green/stamp-frame-green.png"
+  },
+  "source_hashes": {
+    "emeris-crown-seal.png": "c9cade3d0fac06eb",
+    "crest.png": "c06459aeb9034ad0",
+    "mascot-seal.png": "da225b8bf45d9deb",
+    "crate.png": "29b08a849dfe50f9",
+    "route-vignette.png": "cf8b5aaa92100e44",
+    "stamp-frame.png": "e3b69ef47af5e585"
+  }
+}

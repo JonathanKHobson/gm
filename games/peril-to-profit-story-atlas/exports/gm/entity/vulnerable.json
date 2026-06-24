@@ -1,0 +1,50 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "vulnerable",
+  "title": "Vulnerable",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "d5c71179efa388c1",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Vulnerable: You are in a difficult position in the fiction; all rolls targeting you have advantage."
+    },
+    {
+      "title": "Public role",
+      "body": "Official Daggerheart primary condition"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: You are in a difficult position in the fiction; all rolls targeting you have advantage."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use when the scene needs a concrete object for players to inspect, carry, debate, or remember."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Condition Mechanics",
+        "Player Safe: Players can apply, clear, describe, and connect to source scenes Vulnerable when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: You are in a difficult position in the fiction; all rolls targeting you have advantage. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-vulnerable-engage-vulnerable entity-vulnerable Engage Vulnerable Engage Vulnerable Strength Agility Finesse Presence Knowledge Instinct Strength Agility, Finesse, Presence, Knowledge, Instinct 12 Choose the trait from the player's method, not the entity type. A flat read of Vulnerable hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Condition Options: Vulnerable",
+        "Search Loot: No loot. This page explains how to apply, clear, and describe the official condition."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash d5c71179efa388c1 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

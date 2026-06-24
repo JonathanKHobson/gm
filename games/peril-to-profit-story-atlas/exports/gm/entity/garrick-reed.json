@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "garrick-reed",
+  "title": "Garrick Reed",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "c3f52c21e355c0c7",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Garrick Reed: A kind warrior whose mercy is an active tactic."
+    },
+    {
+      "title": "Public role",
+      "body": "Ex-security defector and warrior"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: A kind warrior whose mercy is an active tactic."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use this person to put a human face on the current pressure. Give them one concrete want before exposition."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash c3f52c21e355c0c7 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+%PDF-1.4
+1 0 obj
+<< /Length 1928 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S01-04 - The First Action Roll - Reading the Creature) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The creature is wary of every movement you make. Let's find out how she reacts. This is) Tj
+T*
+(your first roll: grab your two d12s, add your Presence, and tell me the total, plus) Tj
+T*
+(which die came up higher. If you have an Experience that fits, you can spend a Hope) Tj
+T*
+(before you roll to add it.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Read the creature correctly and get everyone, including the young, out of this without) Tj
+T*
+(bloodshed.) Tj
+T*
+() Tj
+T*
+(GM goal) Tj
+T*
+() Tj
+T*
+(Teach Duality Dice through the creature reaction roll and resolve the standoff caused by) Tj
+T*
+(S01-03.) Tj
+T*
+() Tj
+T*
+(GM notes) Tj
+T*
+() Tj
+T*
+(- Use the exact outcome language here so the first roll feels transparent.) Tj
+T*
+(- After resolving the roll, return to the blocked road: the creature leaves, the road) Tj
+T*
+(  clears, or the encounter moves to the combat board.) Tj
+T*
+() Tj
+T*
+(GM script) Tj
+T*
+() Tj
+T*
+(Say: "This is our first action roll. You are trying to read and influence a living) Tj
+T*
+(creature, so this is Presence, Difficulty 10. Roll two d12s, add Presence, then tell me) Tj
+T*
+(your total and whether Hope or Fear is higher. Before you roll, does an Experience fit) Tj
+T*
+(strongly enough that you want to spend a Hope on it?") Tj
+T*
+() Tj
+T*
+(State controls) Tj
+T*
+() Tj
+T*
+(- strixwolfDisposition Creature disposition select calm wary hostile Set after the) Tj
+T*
+(  roll outcome.) Tj
+T*
+(- firstRollOutcome First roll outcome select success with hope success with fear) Tj
+T*
+(  failure with hope failure with fear critical Use this to keep the first mechanics) Tj
+T*
+(  lesson visible.) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 96299d7a241a4f46 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [2 0 R] /Count 1 >>
+endobj
+4 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000001989 00000 n 
+0000002115 00000 n 
+0000002172 00000 n 
+0000002221 00000 n 
+trailer
+<< /Size 6 /Root 4 0 R >>
+startxref
+2293
+%%EOF

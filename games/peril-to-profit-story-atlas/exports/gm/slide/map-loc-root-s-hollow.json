@@ -1,0 +1,29 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "MAP-LOC-root-s-hollow",
+  "title": "MAP-LOC-root-s-hollow - Root's Hollow Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "9b60e701bf6d8abd",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "Root's Hollow smells of tinctures, river water, and careful survival, a place where alchemists learn from Sablewood because they have to."
+    },
+    {
+      "title": "Public objective",
+      "body": "Root's Hollow smells of tinctures, river water, and careful survival, a place where alchemists learn from Sablewood because they have to."
+    },
+    {
+      "title": "GM goal",
+      "body": "Make expertise local, embodied, and respected."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 9b60e701bf6d8abd | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+# Open Vale™ Ritual Site
+
+GM export - entity:open-valetm-ritual-site
+
+## Player-facing description
+Open Vale is older than its branded marker: a circular clearing where stone, moss, and ward-light remember protection before paperwork.
+
+## Public role
+Make the final arena feel sacred, neglected, and operational all at once.
+
+## Handout text
+An ancient circular clearing of standing stones and ward-light, with a freshly painted company marker staked at its edge.
+
+## GM truth
+No forced reveal. Let this entity disclose truth through scene context and player attention.
+
+## GM handling
+Tie the PDF's Open Vale material directly to the final ritual and to the Sablewood Field Guide slides.
+
+## Mechanics
+- Title: Location Exploration Mechanics
+- Player Safe: Players can navigate, search, read customs, inspect hazards Open Vale™ Ritual Site when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: An ancient circular clearing of standing stones and ward-light, with a freshly painted company marker staked at its edge. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-open-valetm-ritual-site-engage-open-vale™-ritual-site entity-open-valetm-ritual-site Engage Open Vale™ Ritual Site Engage Open Vale™ Ritual Site Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of Open Vale™ Ritual Site hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless a hazard creates Hidden, Restrained, or Vulnerable
+- Search Loot: Ancient residue, broken ward shards, possible clue to Relay Spire.
+
+## Profile
+- Schema Version: location-profile-v1
+- Id: open-valetm-ritual-site
+- Entity Id: open-valetm-ritual-site
+- Source: Goldspire_Location_Packet/06_Open_Vale_Ritual_Site.md
+- Auto Surface: True
+- Priority: strong
+- Player Safe: Open Vale™ Ritual Site An ancient circular clearing of standing stones and ward-light, with a freshly painted company marker staked at its edge. An ancient circular clearing of standing stones and ward-light, with a freshly painted company marker staked at its edge. Open Vale is older than its branded marker: a circular clearing where stone, moss, and ward-light remember protection before paperwork. A beautiful clearing with real ground to use, stone for cover, open lanes for sightlines, ward-lines underfoot, and a center worth standing in front of. Pressure can come from every direction at once. The place breaks into usable table spaces: Ritual center: The protected middle holds the Custodian's work. Standing stone ring: Old stones create cover, lanes, and sacred weight. Flowered approach lanes: Open grass paths show where threats can arrive. Ward-line spokes: Glowing lines connect...
+- Block1: Open Vale™ Ritual Site Make the final arena feel sacred, neglected, and operational all at once. Ancient circular clearing rebranded by Goldspire; where the ward renewal happens. Open Vale turns the contract into stewardship. This is where stewardship and contract collide. The renewal turns a paid job into something that actually matters. Open Vale turns the contract into stewardship. The clearing breathes with the ritual, light gathering, pressure rising, life pulling back. When it peaks, everything arrives at once. pages/entities/open-valetm-ritual-site.html
+- Block2: Standing stones ring a low center. Old runes and newer signage disagree about what the place is for. The Keystone grows heavier near the center. The grass bends toward ward lines even without wind. Detail Cold mineral air, wet grass, stone dust, and whitefire ozone. Detail The ground feels firm until the ward hum starts; then every footstep seems to answer back. Open Vale is older than its branded marker: a circular clearing where stone, moss, and ward-light remember protection before paperwork. A beautiful clearing with real ground to use, stone for cover, open lanes for sightlines, ward-lines underfoot, and a center worth standing in front of. Pressure can come from every direction at once. The place breaks into usable table spaces: Ritual center: The protected middle holds the Custodian's work. Standing stone ring: Old stones create cover, lanes, and sacred weight. Flowered approach...
+- Block3: standing stones ward grooves ritual center corporate marker Keystone position Knowledge to read ward geometry. Instinct to place the party where pressure will arrive. Presence to steady the Custodian before the ritual starts. Local residents or workers appropriate to the place Ward-Moths trace the ward lines Mist-Things gather at the edge of low fog field crickets go silent near ward pulses No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues Sunfire Lily, flowered ward grasses, low healing herbs, moss at stone bases, wind-bent seed heads
+- Block4: The place changes even if the PCs stand still. Local people, creatures, weather, signage, and ward behavior all keep moving around the scene. The Custodian cannot defend herself while channeling. Old protection logic may target the wrong priorities. Standing too far from the ritual line turns help into distance. A ward groove lights red instead of white. An old alarm sounds without a bell. The center tries to price courage as risk exposure. Let the place be funny through overconfident signage, awkward forms, stubborn local habits, and magic that refuses corporate language.
+- Block5: S04-01 S04-05 S05-01 S05-02 S05-03 S05-04 S05-06 S05-07 S06-02 MAP-LOC-open-valetm-ritual-site
+- Block6: Describe what the PCs can see, smell, hear, touch, ask about, or infer. Do not explain hidden infrastructure or corporate thesis until play earns it. surface Ancient circular clearing rebranded by Goldspire; where the ward renewal happens. table clue Open Vale turns the contract into stewardship. earned truth Reveal deeper system meaning through NPC answers, evidence, or player questions, not narration dumps.
+- What Here: Local residents or workers appropriate to the place Ward-Moths trace the ward lines Mist-Things gather at the edge of low fog field crickets go silent near ward pulses No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues Sunfire Lily, flowered ward grasses, low healing herbs, moss at stone bases, wind-bent seed heads
+- Living Place: location-living-place-v1 ritual clearing and finale battlefield A beautiful clearing with real ground to use, stone for cover, open lanes for sightlines, ward-lines underfoot, and a center worth standing in front of. Pressure can come from every direction at once. Ritual center The protected middle holds the Custodian's work. Use as the defense objective. Standing stone ring Old stones create cover, lanes, and sacred weight. Use for movement and positioning. Flowered approach lanes Open grass paths show where threats can arrive. Use for visible pressure. Ward-line spokes Glowing lines connect center to surrounding stones. Use for mechanics and visual stakes. Sunfire Lily, flowered ward grasses, low healing herbs, moss at stone bases, wind-bent seed heads Ward-Moths trace the ward lines Mist-Things gather at the edge of low fog field crickets go silent near ward pulses ward light...
+- Districts Or Subareas: Ritual center The protected middle holds the Custodian's work. Use as the defense objective. Standing stone ring Old stones create cover, lanes, and sacred weight. Use for movement and positioning. Flowered approach lanes Open grass paths show where threats can arrive. Use for visible pressure. Ward-line spokes Glowing lines connect center to surrounding stones. Use for mechanics and visual stakes.
+- Sensory Signature: Detail Cold mineral air, wet grass, stone dust, and whitefire ozone. Detail The ground feels firm until the ward hum starts; then every footstep seems to answer back.
+- Visual Assets: location-visual-assets-v1 open-valetm-ritual-site Open Vale™ Ritual Site Bright comedic frontier high-fantasy concept art for a Daggerheart-adjacent tabletop RPG. Medieval/Renaissance fantasy technology only: hand tools, wagons, ropes, parchment notices, ward-stones, carved wood, brass, cloth, stone, moss, lanterns, and magic. The tone is colorful, playful, slightly absurd, and vivid, like a fantasy corporate frontier comedy rather than a grim drama. No sci-fi machinery, no 1800s/Victorian clothing, no modern suits, no guns, no logos, no readable text, no watermark, no border, no collage. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/open-valetm-ritual-site MAP-LOC-open-valetm-ritual-site ritual battlefield top-down ritual battle map profile_scene Profile image ready /Users/kyle/Documents/My Games/Peril To...
+- Imagine It Like: An ancient sacred grove that a company slapped a logo on, like a holy site with a gift-shop sign. Think Stonehenge with a corporate naming-rights plaque nobody asked for.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 637d745e357c1966 | Source hash dac3370046ed077140fab2d6

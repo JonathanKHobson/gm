@@ -1,0 +1,51 @@
+# CHEAT-PC - PC / Player Cheat Sheet
+
+GM export - slide:CHEAT-PC
+
+## GM goal
+Track who is playing whom and keep spotlight moving.
+
+## GM notes
+- Marlowe Fairwind (MAR-low FAIR-wind) — Elf / Loreborne / Sorcerer / Primal Origin
+- • A playable pregen character and the default package custodian. Marlowe receives the job with the whole crew and gets her job-scene bonus insight plus extra Arcana check.
+- • Wants: to carry package-custody pressure as a PC while receiving the job with the crew
+- • Traits: Strength 0, Agility -1, Finesse +1, Instinct +2, Knowledge +1, Presence 0
+- • Evasion 10; Thresholds 7 / 14; Armor 3 / Slots 3
+- • Experiences: Royal Mage +2, Not On My Watch +2
+- • Weapon: Dualstaff, Instinct Far, 1d6+3 magic
+- • Feature: Arcane Sense; Minor Illusion; Channel Raw Power.
+- Barnacle (BAR-nuh-kul) — Ribbet / Underborne / Rogue / Nightwalker
+- • A slippery route-finder who fears water and unsigned obligations.
+- • Wants: to find the angle that keeps everyone alive
+- • Traits: Strength +1, Agility -1, Finesse +2, Instinct 0, Knowledge +1, Presence 0
+- • Evasion 13; Thresholds 6 / 12; Armor 3 / Slots 3
+- • Experiences: They Don't See Me Coming! +2, Strike a Deal +2
+- • Weapon: Dagger, Finesse Melee, 1d8+1 physical
+- • Feature: Cloaked; Sneak Attack.
+- Garrick Reed (GAIR-ick REED) — Human / Highborne / Warrior / Call of the Brave
+- • A kind warrior whose mercy is an active tactic.
+- • Wants: to prove security can mean care
+- • Traits: Strength +2, Agility +1, Finesse +1, Instinct 0, Knowledge -1, Presence 0
+- • Evasion 11; Thresholds 7 / 14; Armor 3 / Slots 3
+- • Experiences: Affable +2, Hit Them Hard +2
+- • Weapon: Longsword, Agility Melee, 1d8+3 physical
+- • Feature: Attack of Opportunity; Combat Training.
+- Khari Nix (KAH-ree NIKS) — Giant / Ridgeborne / Guardian / Stalwart
+- • Loyal to people before contracts; hates predatory paperwork.
+- • Wants: to keep vulnerable people and creatures from being treated as costs
+- • Traits: Strength 0, Agility +2, Finesse -1, Instinct +1, Knowledge 0, Presence +1
+- • Evasion 8; Thresholds 9 / 17; Armor 4 / Slots 4
+- • Experiences: I've Got Your Back +2, Not Afraid of Anything +2
+- • Weapon: Battleaxe, Strength Very Close, 1d10+3 physical
+- • Feature: Unstoppable.
+- Varian Soto (VAIR-ee-un SOH-toh) — Katari / Wildborne / Ranger / Wayfinder
+- • Tracks unlicensed apex fauna first and asks questions later.
+- • Wants: to read danger before danger reads the party
+- • Traits: Strength +2, Agility 0, Finesse +1, Instinct +1, Knowledge -1, Presence 0
+- • Evasion 13; Thresholds 7 / 14; Armor 3 / Slots 3
+- • Experiences: Deadly Aim +2, Nature's Friend +2
+- • Weapon: Shortbow, Agility Far, 1d6+3 physical
+- • Feature: Ranger's Focus.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 0bd8eec7e95aaf23 | Source hash dac3370046ed077140fab2d6

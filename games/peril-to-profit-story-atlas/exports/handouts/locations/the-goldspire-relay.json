@@ -1,0 +1,44 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "the-goldspire-relay",
+  "kind": "entity",
+  "title": "The Goldspire Relay",
+  "in_world_label": "Goldspire Travel Advisory",
+  "brand_flag": "Player-safe",
+  "kicker": "A twisting stone signal-spire of mirrors, flags, and courier-birds, its beacon flickering thinner than it should.",
+  "hook": "A twisting stone signal-spire of mirrors, flags, and courier-birds, its beacon flickering thinner than it should.",
+  "blocks": [
+    {
+      "label": "Arrival Read",
+      "body": "The Goldspire Relay twists upward like maintenance became monument, its weak fire making future failure visible."
+    },
+    {
+      "label": "Known For",
+      "body": "A stone spire that twists upward as if maintenance kept turning into monument. The signal yard flashes with mirrors, flags, and courier-birds. The beacon chamber flickers with meaning. From the ridge overlook you can see every place you have been at once..."
+    },
+    {
+      "label": "What Is Here",
+      "body": "Local residents or workers appropriate to the place courier birds, ridge insects, tiny cliff goats that ignore danger No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or..."
+    },
+    {
+      "label": "Food And Texture",
+      "body": "Signal crews eat in shifts at the yard, one hand always free for a flag, bread and hard cheese and a tea brewed strong enough to survive the wind. The courier-birds get the scraps and the affection both."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Look for the busiest local gathering point.",
+    "Ask what has changed here recently."
+  ],
+  "archetype": "location.advisory",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:the-goldspire-relay",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "a71b65376f1fb055",
+  "generated_at": "2026-06-23T21:40:58"
+}

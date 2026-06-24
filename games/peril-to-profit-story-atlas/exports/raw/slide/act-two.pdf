@@ -1,0 +1,332 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2748 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(ACT-TWO - Act Two: Cargo Reclaimers) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The animal is behind you, one way or another. But the wreck did not arrange itself, and) Tj
+T*
+(the more you look, the less this feels like bad luck. Someone wanted a wreck here.) Tj
+T*
+(Someone wanted you here. The forest the company calls dangerous is starting to feel less) Tj
+T*
+(like wilderness and more like a stage.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Get through the people blocking the road and keep the package moving toward the village.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: ACT-TWO) Tj
+T*
+(- Type: act-divider) Tj
+T*
+(- Sectionid: ACT-TWO) Tj
+T*
+(- Sectiontitle: Act Two: Cargo Reclaimers) Tj
+T*
+(- Title: Act Two: Cargo Reclaimers) Tj
+T*
+(- Shorttitle: Act Two) Tj
+T*
+(- Order: 300) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Caption: The incident becomes a moral investigation instead of a simple ambush.) Tj
+T*
+(- Mood: table transition) Tj
+T*
+(- Gmgoal: Open Act 2 as the first moral fracture: the staged wreck points to people,) Tj
+T*
+(  not wilderness, and the coming ambush can become a fight, a parley, or a consequence) Tj
+T*
+(  the party has to live with.) Tj
+T*
+(- Publicobjective: Get through the people blocking the road and keep the package) Tj
+T*
+(  moving toward the village.) Tj
+T*
+(- Readaloud: The animal is behind you, one way or another. But the wreck did not) Tj
+T*
+(  arrange itself, and the more you look, the less this feels like bad luck. Someone) Tj
+T*
+(  wanted a wreck here. Someone wanted you here. The forest the company calls dangerous) Tj
+T*
+(  is starting to feel less like wilderness and more like a stage.) Tj
+T*
+(- Playertakeaway: You are being hunted by people, not predators, and how you treat) Tj
+T*
+(  them is a choice the game will remember.) Tj
+T*
+(- Storytakeaway: The danger in these woods has hands; Act 2 turns the dangerous-forest) Tj
+T*
+(  story into a human conflict.) Tj
+T*
+(- Mechanictakeaway: Act 2 widens the toolkit: Instinct spot checks, Group Action) Tj
+T*
+(  investigation, combat pressure, and Presence de-escalation.) Tj
+T*
+(- Livetools: none) Tj
+T*
+(- Playersafeprojection: ACT-TWO act-divider Act Two: Cargo Reclaimers The incident) Tj
+T*
+(  becomes a moral investigation instead of a simple ambush. table transition Get) Tj
+T*
+(  through the people blocking the road and keep the package moving toward the village.) Tj
+T*
+(  The animal is behind you, one way or another. But the wreck did not arrange itself,) Tj
+T*
+(  and the more you look, the less this feels like bad luck. Someone wanted a wreck) Tj
+T*
+(  here. Someone wanted you here. The forest the company calls dangerous is starting to) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4076 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  feel less like wilderness and more like a stage. ACT-TWO-wreck-was-not-accident The) Tj
+T*
+(  wreck was staged The wreck was staged The wreck was bait. The signs on the road) Tj
+T*
+(  point to people planning around you, not animals acting on instinct. The wreck was) Tj
+T*
+(  bait. The signs on the road point to people planning around you, not animals acting) Tj
+T*
+(  on instinct. The wreck was bait. The signs on the road point to people planning) Tj
+T*
+(  around you, not animals acting on instinct. text-first ACT-TWO-forest-as-stage The) Tj
+T*
+(  forest as a stage The forest as a stage The company calls the forest dangerous.) Tj
+T*
+(  Right now it feels like someone is using that story as cover. The company calls the) Tj
+T*
+(  forest dangerous. Right now it feels like someone is using that...) Tj
+T*
+(- Gmscript: Say: "The animal encounter is over. The road is not. Act Two starts when) Tj
+T*
+(  the evidence stops pointing at claws and starts pointing at people. You are still) Tj
+T*
+(  escorting the package, but now you know someone else is writing themselves into the) Tj
+T*
+(  job.") Tj
+T*
+(- Gmreadaloud: The animal is behind you, one way or another. Someone wanted a wreck) Tj
+T*
+(  here. Someone wanted you here. The forest the company calls dangerous is starting to) Tj
+T*
+(  feel less like wilderness and more like a stage.) Tj
+T*
+(- Gmchecklist: Keep the player-facing label as Cargo Reclaimers until the table earns) Tj
+T*
+(  the self-name. Do not resolve who killed the driver; the README canon flag remains) Tj
+T*
+(  open. Treat this act as a moral encounter with combat tools, not a mandatory combat) Tj
+T*
+(  tunnel. Watch for strixwolf carryover before S02-02.) Tj
+T*
+(- Gmprivate: Canon flags still need Kyle confirmation: public label vs self-name,) Tj
+T*
+(  driver killer, two Atlas-original locations, and strixwolf carryover weight. Player-) Tj
+T*
+(  facing Act 2 language says the package, never Keystone Asset.) Tj
+T*
+(- Mechanicids: instinct presence help-an-ally tag-team-roll hope fear countdown gm-) Tj
+T*
+(  moves) Tj
+T*
+(- References: Act 2 upgrade packet sources/Act2_Upgrade_Packet/ACT2_SCENE_UPGRADES.md) Tj
+T*
+(  Ambush site map #MAP-S02-03) Tj
+T*
+(- Sourcefiles: dist/Act2_Upgrade_Packet/README.md) Tj
+T*
+(  dist/Act2_Upgrade_Packet/ACT2_SCENE_UPGRADES.md) Tj
+T*
+(- Playerbeats: ACT-TWO-wreck-was-not-accident The wreck was staged The wreck was) Tj
+T*
+(  staged The wreck was bait. The signs on the road point to people planning around) Tj
+T*
+(  you, not animals acting on instinct. The wreck was bait. The signs on the road point) Tj
+T*
+(  to people planning around you, not animals acting on instinct. The wreck was bait.) Tj
+T*
+(  The signs on the road point to people planning around you, not animals acting on) Tj
+T*
+(  instinct. text-first ACT-TWO-forest-as-stage The forest as a stage The forest as a) Tj
+T*
+(  stage The company calls the forest dangerous. Right now it feels like someone is) Tj
+T*
+(  using that story as cover. The company calls the forest dangerous. Right now it) Tj
+T*
+(  feels like someone is using that story as cover. The company calls the forest) Tj
+T*
+(  dangerous. Right now it feels like someone is using that story as cover. text-first) Tj
+T*
+(  ACT-TWO-not-alone Not alone You are not alone out here The road ahead feels) Tj
+T*
+(  observed. If someone staged the wreck, they may still be close enough to see whether) Tj
+T*
+(  it worked. The road ahead feels observed. If someone staged the wreck, they may) Tj
+T*
+(  still be close enough to see whether it worked. The road ahead feels observed. If) Tj
+T*
+(  someone staged the wreck, they may still be close enough to see whether...) Tj
+T*
+(- Gmbeats: ACT-TWO-wreck-was-not-accident The wreck was staged The wreck was staged) Tj
+T*
+(  Say: "The wreck was bait. You do not know who set it yet, but this is planning, not) Tj
+T*
+(  nature." The wreck was bait. The signs on the road point to people planning around) Tj
+T*
+(  you, not animals acting on instinct. The route's danger stops being scenery and) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2704 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  becomes intent. Investigation and fictional positioning decide what the ambush) Tj
+T*
+(  costs. Players know the job now has human opposition. Player takeaway Players know) Tj
+T*
+(  the job now has human opposition. "The wreck was bait. You do not know who set it) Tj
+T*
+(  yet, but this is planning, not nature." "The playable facts are: The wreck was bait.) Tj
+T*
+(  The signs on the road point to people planning around you, not animals acting on) Tj
+T*
+(  instinct." Use this beat to point the table at one immediate choice. The player-) Tj
+T*
+(  facing fact is: The wreck was bait. The signs on the road point to people planning) Tj
+T*
+(  around you, not animals acting on instinct. knowledge instinct gm-moves Story) Tj
+T*
+(  takeaway The route's danger stops being scenery and becomes intent. "The wreck was) Tj
+T*
+(  bait. You do not know who set it yet, but this is planning, not nature." "The story) Tj
+T*
+(  fact you can trust is: The route's danger stops being...) Tj
+T*
+(- Takeawayhelp: Player takeaway You are being hunted by people, not predators, and how) Tj
+T*
+(  you treat them is a choice the game will remember. "Whoever is out there, you get to) Tj
+T*
+(  decide how this goes: blade first, words first, or eyes open before either." "Right) Tj
+T*
+(  now you know the wreck was staged and the package is still the target. You can) Tj
+T*
+(  scout, inspect, call out, protect the carriage, or press forward alert." The visible) Tj
+T*
+(  player choice is posture: alert investigation, defensive movement, direct challenge,) Tj
+T*
+(  or continued travel. Record later outcomes under bramble_outcome. instinct presence) Tj
+T*
+(  help-an-ally tag-team-roll gm-moves Story takeaway The danger in these woods has) Tj
+T*
+(  hands; Act 2 turns the dangerous-forest story into a human conflict. "The road is) Tj
+T*
+(  telling you this was not a monster story. It is a people story wearing one." "You do) Tj
+T*
+(  not know who yet. You know they planned, they staged, and they are close enough for) Tj
+T*
+(  the staging to matter." Keep the truth as a thread: people did this, they know the) Tj
+T*
+(  preserve, and the corporate forest story is now suspect. instinct presence help-an-) Tj
+T*
+(  ally tag-team-roll gm-moves Mechanic takeaway Act 2 widens the toolkit: Instinct) Tj
+T*
+(  spot checks, Group Action investigation...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 9000) Tj
+T*
+(- Slidenumber: 31) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 4fa90c5062b4db36 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002809 00000 n 
+0000002935 00000 n 
+0000007063 00000 n 
+0000007189 00000 n 
+0000009945 00000 n 
+0000010071 00000 n 
+0000010140 00000 n 
+0000010189 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+10261
+%%EOF

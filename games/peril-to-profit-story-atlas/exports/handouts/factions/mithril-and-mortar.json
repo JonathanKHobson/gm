@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "mithril-and-mortar",
+  "kind": "entity",
+  "title": "Mithril & Mortar",
+  "in_world_label": "Public Notice",
+  "brand_flag": "Mithril & Mortar™: we built the world you owe for.",
+  "kicker": "Master builders and ward-smiths selling durable infrastructure and respectable craft.",
+  "hook": "Mithril & Mortar: Mithril & Mortar™ builds the road, the bridge, the ward, and the thing that makes the bridge need replacing. Slogan: Mithril & Mortar™: we built the world you owe for.",
+  "blocks": [
+    {
+      "label": "Public Face",
+      "body": "Master builders and ward-smiths selling durable infrastructure and respectable craft."
+    },
+    {
+      "label": "Slogan",
+      "body": "Mithril & Mortar™: we built the world you owe for."
+    },
+    {
+      "label": "How To Deal",
+      "body": "The M&M™ showroom is a cathedral of competence: sample walls, gleaming ward-bricks, a model village that lights up to show 'protected zones,' and an aproned clerk who quotes load-bearing runes from memory. Buy a DuraWard™ foundation stone, a Lifetime* Mortar..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask what they publicly promise.",
+    "Compare their slogan to what they actually do in the scene."
+  ],
+  "archetype": "faction.flyer",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:mithril-and-mortar",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "597b8b77853c7713",
+  "generated_at": "2026-06-23T21:40:58"
+}

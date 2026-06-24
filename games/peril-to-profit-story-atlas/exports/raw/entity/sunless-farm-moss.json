@@ -1,0 +1,66 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "sunless-farm-moss",
+  "title": "Sunless-Farm Moss",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "5bf59b26d2078900",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Sunless-Farm Moss: Blue-green farm moss grows in low wet beds around Hush, touched by canal water, hand tools, and the quiet work of people who know exactly how it should smell."
+    },
+    {
+      "title": "Public role",
+      "body": "Hush farm crop texture"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Blue-green farm moss grows in low wet beds around Hush, touched by canal water, hand tools, and the quiet work of people who know exactly how it should smell."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: item",
+        "Role: Hush farm crop texture",
+        "Summary: Blue-green farm moss grows in low wet beds around Hush, touched by canal water, hand tools, and the quiet work of people who know exactly how it should smell.",
+        "Tags: sablewood-lore flora food-system hush source-page-4",
+        "Aliases: Sunless-Farm Moss blue-green farm moss sunless farm moss",
+        "Connections: The Sunless Farms Hush Farms Firstmoss Launch Festival Hush",
+        "Inventory: Show it when players need to understand Hush as a working food place, not just a plot destination.",
+        "Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.",
+        "Image Fallback: type-icon",
+        "Source Pages: Sablewood PDF p. 4",
+        "Name: Sunless-Farm Moss",
+        "Id: sunless-farm-moss",
+        "Meta: Item / Asset ITEM assets/icons/item.png entity-item #39c5bb 07 Items and Clues entities item",
+        "Related: Firstmoss Launch Festival Hush Hush Farms The Sunless Farms",
+        "Image Prompt: Private table TTRPG story atlas asset for Sunless-Farm Moss, Item / Asset. Role: Hush farm crop texture. Summary: Blue-green farm moss grows in low wet beds around Hush, touched by canal water, hand tools, and the quiet work of people who know exactly how it should smell.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Personality: Blue-green farm moss grows in low wet beds around Hush, touched by canal water, hand tools, and the quiet work of people who know exactly how it should smell.; use Sunless-Farm Moss as a concrete table object with texture, ownership, and a reason it matters now.",
+        "Wants: Give players a tangible handle on The Sunless Farms, Hush Farms, Firstmoss Launch Festival, whether they inspect, carry, return, trade, or refuse it.",
+        "Fears: Being treated as treasure clutter instead of evidence, memory, hospitality, or infrastructure with consequences.",
+        "Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.",
+        "Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.",
+        "Sample Dialogue: Blue-green farm moss grows in low wet beds around Hush, touched by canal water, hand tools, and the quiet work of people who know exactly how it should smell.",
+        "Equipment: Show it when players need to understand Hush as a working food place, not just a plot destination.",
+        "Search Or Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.",
+        "Gm Use: Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.",
+        "Future Hooks: Bring back as an echo if players made a strong choice involving this entity.",
+        "Robust: Sunless-Farm Moss: Blue-green farm moss grows in low wet beds around Hush, touched by canal water, hand tools, and the quiet work of people who know exactly how it should smell. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Give players a tangible handle on The Sunless Farms, Hush Farms, Firstmoss Launch Festival, whether they inspect, carry, return, trade, or refuse it. Being treated as treasure clutter instead of evidence, memory, hospitality, or infrastructure with consequences. Use when the scene needs a concrete object for players to inspect, carry, debate, or remember. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Sunless-Farm Moss and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer...",
+        "Mechanics: Discovery / Earn-It Mechanics Players can inspect, handle, keep, trade, reveal, or earn Sunless-Farm Moss when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: Blue-green farm moss grows in low wet beds around Hush, touched by canal water, hand tools, and the quiet work of people who know exactly how it should smell. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-sunless-farm-moss-engage-sunless-farm-moss entity-sunless-farm-moss Engage Sunless-Farm Moss Engage Sunless-Farm Moss Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Sunless-Farm Moss hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure...",
+        "Pronunciation: Sunless-farm Moss",
+        "Short Pronunciation: Sunless-farm Moss",
+        "Image: assets/entities/sunless-farm-moss.webp",
+        "Image Asset Status: image_gen",
+        "Visual Gallery: primary Primary wiki image primary assets/entities/sunless-farm-moss.webp Sunless-Farm Moss primary wiki image visual. Sunless-Farm Moss: Primary wiki image. image_gen True True"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 5bf59b26d2078900 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

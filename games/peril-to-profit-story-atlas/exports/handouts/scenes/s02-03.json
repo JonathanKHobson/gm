@@ -1,0 +1,42 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S02-03",
+  "kind": "scene",
+  "title": "S02-03 - Bramble Union Ambush",
+  "in_world_label": "Situation Briefing",
+  "brand_flag": "Briefing",
+  "kicker": "Cargo Reclaimers",
+  "hook": "Bramblefolk burst from the undergrowth, blades drawn. Their eyes keep flicking toward the carriage. They are here for the cargo.",
+  "blocks": [
+    {
+      "label": "Where You Are",
+      "body": "Bramblefolk burst from the undergrowth, blades drawn. Their eyes keep flicking toward the carriage. They are here for the cargo."
+    },
+    {
+      "label": "Plain Stakes",
+      "body": "Bramble Union reclaimers attack the carriage to seize the cargo."
+    },
+    {
+      "label": "Visible Options",
+      "body": "Fight to kill Fight to subdue Protect the crate Negotiate under pressure"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "What detail in Bramble Union Ambush tells you the official story is incomplete?",
+    "Who notices the human cost first, and how do they show it?",
+    "What small object, smell, or sound makes this scene feel real?",
+    "What detail on a reclaimer's gear makes them look like a craftsperson from a hidden community rather than a disposable bandit?"
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - scene:S02-03",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "7ff3bae1712e4af0",
+  "generated_at": "2026-06-23T21:40:58"
+}

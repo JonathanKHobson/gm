@@ -1,0 +1,47 @@
+# Soul-Audit Wraith
+
+GM export - entity:soul-audit-wraith
+
+## Player-facing description
+Soul-Audit Wraith: A terrifying wraith that attacks memory, vulnerability, and soul tether.
+
+## Public role
+Soul-debt collector threat.
+
+## Handout text
+Player-safe: the wraith's presence makes memory feel like something being appraised without consent.
+
+## GM truth
+Use the stat pressure, but keep the story pressure tied to the system that produced the threat.
+
+## GM handling
+Run Soul-Audit Wraith as a threat with a motive, a pressure point, and something left behind that explains why the fight happened.
+
+## Mechanics
+- Title: Combat / Bypass Mechanics
+- Player Safe: Players can fight, capture, interrogate, or bypass Soul-Audit Wraith when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: A terrifying wraith that attacks memory, vulnerability, and soul tether. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-soul-audit-wraith-engage-soul-audit-wraith entity-soul-audit-wraith Engage Soul-Audit Wraith Engage Soul-Audit Wraith Agility Strength Finesse Presence Knowledge Instinct Agility Strength, Finesse, Presence, Knowledge, Instinct 15 Choose the trait from the player's method, not the entity type. A flat read of Soul-Audit Wraith hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: Vulnerable
+- Module Effects: Soul-Audit Wraith module effect: Untethered, if used by the module text; not a global condition.
+- Search Loot: If defeated, leaves cold ash and a memory shard.
+
+## Profile
+- Schema Version: npc-profile-v1
+- Source: NPC_System_Packet + image-informed hardening
+- Backup: False
+- Combatant: True
+- Player Safe: Soul-Audit Wraith a cold memory predator that makes care feel like an unpaid balance A blue-white skeletal auditor drifts inside a torn hood, ledger-light spilling from a dead chest medallion while spectral papers curl around one arm. Soul-Audit Wraith: a cold memory predator that makes care feel like an unpaid balance
+- Block1: Soul-Audit Wraith SOHL AW-dit RAYTH a cold memory predator that makes care feel like an unpaid balance Soul-debt collector threat. Memory Delve pressure, vulnerability, and finale dread without exposition. It attacks memory and value, not just HP. Keep the person-layer underneath the horror. A hard combat puzzle A memory choice A chance to refuse accounting language Cold, formal, hungry, and offended by unpriced care. Freely given protection and memories that cannot be priced.
+- Block2: Convert protection, memory, and fear into collectable balance. The original person under the audit shape wanted release from a debt that taught them to collect others. Convert protection, memory, and fear into collectable balance. The original person under the audit shape wanted release from a debt that taught them to collect others. A predator made of policy, hunting where debt, ward-failure, and fear overlap. The original person wanted release from a debt that taught them to collect others, and that single unpaid wanting is the only crack in the ledger. Please state the value of what you refuse to lose. Unfiled grief accrues. Protection without invoice is an irregularity. The wraith was once a debtor before it became an instrument. Freely given protection and memories that refuse a price. Filed grief, named liabilities, and hesitation. Unpriced love, collective refusal, and a...
+- Block3: It expects the living to bargain with what they most fear losing. It is not talked down by charm; it is resisted by protection, memory, and refusal. Presence or Instinct 15 creates a beat of leverage. Presence 15 A declared memory or protected bond weakens its hold for this beat. Instinct 15 The player senses which memory it is about to reach for. Ritual completion, memory refusal, or destruction of the audit form ends the threat.
+- Block4: The threat reaches for memory and vulnerability. Protecting each other matters mechanically and emotionally. Keep soul-economy as dread unless state gates allow deeper reveal. It is what corporate collection looks like when personhood has been stripped down to function. Embodies the module's hidden cost pressure without forcing an exposition dump. The exact soul-economy conclusion stays GM-only unless players articulate it. Each PC can anchor a Memory Delve beat; no single PC is the required savior. Mirrors Auditor Holle as the endpoint of the same road, but do not explain the whole thesis unless earned. npc_images portrait asset
+- Block5: Soul-Audit Wraith x2. T1 Bruiser. Lifedrain Far 2d6+8. Difficulty 13. Thresholds 7/14. HP 6. Stress 3. Spectral Body halves physical damage. Memory Delve 3d4+9 plus childhood memory/fear and Vulnerable. Pass-Through: spend Fear to become Untethered. combatant Rules/Act-by-Act Mechanics.md Scene 5.2 and Act5_Upgrade_Packet/ACT5_MAPS_AND_LOCATIONS.md Tier 1 Bruiser 13 7 14 6 3 +3 Lifedrain, Far, 2d6+8 magic Far isolate audit memory pull warmth from the living force protection choices Spectral Body - Passive: resistance to physical damage; halve incoming physical damage and round up. Memory Delve - Action, Close attack: on hit, the player describes a terrifying childhood memory, then takes 3d4+9 magic and becomes Vulnerable until next rest. Grounding response: Presence or Knowledge 13 can call back an Untethered ally when the fiction supports it. Pass-Through - spend Fear, Melee attack...
+- Portrait: assets/npc-images/soul-audit-wraith/portrait_base.webp assets/npc-images/soul-audit-wraith/portrait_chroma.webp assets/npc-images/soul-audit-wraith/portrait_transparent.webp npc_images
+- Imagine It Like: Think a soul-draining specter reimagined as an auditor, a manager who became the spreadsheet, the repo-man who forgot he was ever a person. Grief turned into accounts receivable.
+- Fullbody: assets/npc-images/soul-audit-wraith/fullbody_base.webp assets/npc-images/soul-audit-wraith/fullbody_chroma.webp assets/npc-images/soul-audit-wraith/fullbody_transparent.webp
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 15e269ed5f2e50e8 | Source hash dac3370046ed077140fab2d6

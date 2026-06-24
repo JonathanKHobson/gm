@@ -1,0 +1,23 @@
+# Fear
+
+Player Reference Card
+
+## Hook
+GM pressure resource gained on Fear results and spent to escalate.
+
+## What It Is
+GM pressure resource gained on Fear results and spent to escalate.
+
+## How It Works
+Fear: GM pressure resource gained on Fear results and spent to escalate.
+
+## Try It
+What does the GM get?
+
+## You Could
+- Use to make moves, spotlight threats, or trigger Fear features.
+- The GM gains Fear and spends it to make the situation more dangerous or complicated.
+- Return to the fiction with the concrete result, cost, or benefit.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash fb08f00a099334c0 | Source hash dac3370046ed077140fab2d6

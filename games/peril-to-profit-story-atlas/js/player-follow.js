@@ -14,10 +14,10 @@
   }
   function render() {
     const slide = safe(slides[index]);
-    document.querySelector("#follow-current").innerHTML = `<p class="slide-pill">Slide ${escapeHtml(slide.slideNumber)} / ${escapeHtml(slide.totalSlides)} - ${escapeHtml(slide.sectionTitle)}</p><h2>${escapeHtml(slide.title)}</h2>${slide.image ? `<img src="${escapeAttr(slide.image)}" alt="${escapeAttr(slide.alt || slide.title)}">` : ""}<p>${escapeHtml(slide.caption || slide.publicObjective || "")}</p>${slide.readAloud ? `<blockquote>${escapeHtml(slide.readAloud)}</blockquote>` : ""}`;
+    document.querySelector("#follow-current").innerHTML = `<h2>${escapeHtml(slide.title)}</h2>${slide.image ? `<img src="${escapeAttr(slide.image)}" alt="${escapeAttr(slide.alt || slide.title)}">` : ""}<p>${escapeHtml(slide.publicObjective || slide.caption || "")}</p>${slide.readAloud ? `<blockquote>${escapeHtml(slide.readAloud)}</blockquote>` : ""}`;
     document.querySelector("#follow-toc").innerHTML = slides.map((raw, idx) => {
       const item = safe(raw);
-      return `<a href="player-follow.html?slide=${encodeURIComponent(item.id)}" ${idx === index ? 'aria-current="page"' : ""}><span>Slide ${escapeHtml(item.slideNumber)}</span><span>${escapeHtml(item.sectionTitle)}</span></a>`;
+      return `<a href="player-follow.html?slide=${encodeURIComponent(item.id)}" ${idx === index ? 'aria-current="page"' : ""}><span>${escapeHtml(item.title)}</span></a>`;
     }).join("");
     history.replaceState(null, "", `player-follow.html?slide=${encodeURIComponent(slide.id)}`);
   }

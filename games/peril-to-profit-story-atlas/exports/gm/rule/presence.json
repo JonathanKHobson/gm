@@ -1,0 +1,47 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "presence",
+  "title": "Presence",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "0097070cca2be3d8",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "Charm, perform, deceive, lead, soothe, or intimidate socially."
+    },
+    {
+      "title": "How it works",
+      "body": "Use when the character's force of personality matters."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use when the character's force of personality matters.",
+        "Usually Presence.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "Is this Persuasion?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "traits"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 0097070cca2be3d8 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

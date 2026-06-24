@@ -1,0 +1,46 @@
+# Kazrak Adventurer Certification™
+
+RAW export - entity:kazrak-adventurer-certification
+
+## Player-facing description
+A laminated badge shows a flattering but wrong portrait under a peeling CERTIFIED stamp. It somehow looks proud of the mistake.
+
+## Public role
+Kazrak Adventurer Certification™: proof you paid to be official, useful for access and annoying for autonomy.
+
+## Handout text
+KAZRAK CERTIFIED ADVENTURER: You are Official Now. Certification Funds Your Glory and Our Search. Renew Annually or Forfeit Your Worth.
+
+## Raw source
+- Id: kazrak-adventurer-certification
+- Name: Kazrak Adventurer Certification™
+- Type: item
+- Summary: A laminated badge shows a flattering but wrong portrait under a peeling CERTIFIED stamp. It somehow looks proud of the mistake.
+- Role: Kazrak Adventurer Certification™: proof you paid to be official, useful for access and annoying for autonomy.
+- Connections: Duskwatch Exchange The Latch
+- Aliases: Kazrak Adventurer Certification Kazrak badge adventurer license Kazrak Adventurer Certification™
+- Pronunciation: KAZ-rak ad-VEN-chur-er ser-tih-fih-KAY-shun
+- Short Pronunciation: KAZ-rak ad-VEN-chur-er ser-tih-fih-KAY-shun
+- Tags: ad document item-profile loot
+- Item Profile: item-profile-v1 kazrak-adventurer-certification kazrak-adventurer-certification Kazrak Adventurer Certification™ Kazrak Adventurer Certification™ Kazrak Adventurer Certification Kazrak badge adventurer license KAZ-rak ad-VEN-chur-er ser-tih-fih-KAY-shun document Tier 1 P2 AD Kazrak Industries corporate-made True Kazrak Adventurer Certification™ A laminated badge shows a flattering but wrong portrait under a peeling CERTIFIED stamp. It somehow looks proud of the mistake. A laminated badge shows a flattering but wrong portrait under a peeling CERTIFIED stamp. It somehow looks proud of the mistake. Kazrak Industries KAZRAK CERTIFIED ADVENTURER: You are Official Now. Certification Funds Your Glory and Our Search. Renew Annually or Forfeit Your Worth. kazrak-adventurer-certification Kazrak Adventurer Certification™ Kazrak Adventurer Certification Kazrak badge adventurer license KAZ-rak ad-VEN-chur-er ser-tih-fih-KAY-shun document Tier 1 A laminated badge shows a flattering but wrong portrait under a peeling CERTIFIED stamp. It somehow looks proud of the mistake. Kazrak Adventurer Certification™: proof you paid to be official, useful for access and annoying for autonomy. A license that...
+- Robust: A laminated badge shows a flattering but wrong portrait under a peeling CERTIFIED stamp. It somehow looks proud of the mistake. Use this element to reveal the cost of managed protection through concrete play. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Pull attention toward the people, stakes, or infrastructure connected to this entity. Pressure appears when players treat this as disposable, purely transactional, or unrelated to ordinary lives. Use when players need a tangible handle on the scene's pressure. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Kazrak Adventurer Certification™ and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the institutional pattern. Wildborne / community: notices local use, neglect, or...
+- Search Or Loot: Kazrak Adventurer Certification™: proof you paid to be official, useful for access and annoying for autonomy. Provenance: Purchase, bureaucratic reward, or found in old adventurer kit.
+- Equipment: Kind: document Maker: Kazrak Industries Loot group: Corporate Sundries
+- Image Prompt: Private table TTRPG story atlas asset for Kazrak Adventurer Certification™, Item / Asset. Role: Kazrak Adventurer Certification™: proof you paid to be official, useful for access and annoying for autonomy.. Summary: A laminated badge shows a flattering but wrong portrait under a peeling CERTIFIED stamp. It somehow looks proud of the mistake.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: Give one concrete visual, one sound or texture, and one sign of who has used or neglected it.
+- Wants: Pull attention toward the people, stakes, or infrastructure connected to this entity.
+- Fears: Pressure appears when players treat this as disposable, purely transactional, or unrelated to ordinary lives.
+- Secrets: Use this element to reveal the cost of managed protection through concrete play.
+- Body Language: Give one concrete visual, one sound or texture, and one sign of who has used or neglected it.
+- Sample Dialogue: A laminated badge shows a flattering but wrong portrait under a peeling CERTIFIED stamp. It somehow looks proud of the mistake.
+- Gm Use: Use when players need a tangible handle on the scene's pressure.
+- Future Hooks: Bring back if player choices made this entity emotionally or tactically important.
+- Mechanics: Discovery / Earn-It Mechanics Players can inspect, handle, keep, trade, reveal, or earn Kazrak Adventurer Certification™ when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A laminated badge shows a flattering but wrong portrait under a peeling CERTIFIED stamp. It somehow looks proud of the mistake. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-kazrak-adventurer-certification-engage-kazrak-adventurer-certification™ entity-kazrak-adventurer-certification Engage Kazrak Adventurer Certification™ Engage Kazrak Adventurer Certification™ Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Kazrak Adventurer Certification™ hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but...
+- Meta: Item / Asset ITEM assets/icons/item.png entity-item #39c5bb 07 Items and Clues entities item
+- Related: Duskwatch Exchange The Latch
+- Image: assets/item-images/kazrak-adventurer-certification/profile_base.webp
+- Image Asset Status: item_visual_profile
+- Visual Gallery: primary Primary wiki image primary assets/item-images/kazrak-adventurer-certification/profile_base.webp Kazrak Adventurer Certification™ primary wiki image visual. Kazrak Adventurer Certification™: Primary wiki image. item_visual_profile True True
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 2fe1cbf6d93553a1 | Source hash dac3370046ed077140fab2d6

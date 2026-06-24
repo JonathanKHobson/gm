@@ -1,0 +1,77 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "slide",
+  "id": "MAP-LOC-bramble-union-villages",
+  "title": "MAP-LOC-bramble-union-villages - Bramble Union Villages Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "c76485a226c36fa0",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The forest opens into hidden homes: thorn-warren shelters, cook-fires, moss lamps, patched tools, and people who go very quiet when strangers arrive. Whatever happened on the road, this place is not a camp of raiders. It is a community trying not to disappear."
+    },
+    {
+      "title": "Public objective",
+      "body": "The forest opens into hidden homes: thorn-warren shelters, cook-fires, moss lamps, patched tools, and people who go very quiet when strangers arrive. Whatever happened on the road, this place is not a camp of raiders. It is a community trying not to disappear."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: MAP-LOC-bramble-union-villages",
+        "Type: map",
+        "Maptype: environment",
+        "Sectionid: ACT-TWO",
+        "Sectiontitle: Act Two: Cargo Reclaimers",
+        "Title: Bramble Union Villages Location Map",
+        "Shorttitle: Hidden Forest Villages",
+        "Order: 303.08",
+        "Playersafe: True",
+        "Completioneligible: False",
+        "Image: assets/maps/MAP-LOC-bramble-union-villages-gm.webp",
+        "Alt: Bramble Union Villages location map board.",
+        "Caption: Visual reference for Bramble Union Villages.",
+        "Mood: spatial reference and location texture",
+        "Gmgoal: Use this optional discovery map only after mercy or trust opens the route; make the opposition human without excusing the ambush.",
+        "Publicobjective: The forest opens into hidden homes: thorn-warren shelters, cook-fires, moss lamps, patched tools, and people who go very quiet when strangers arrive. Whatever happened on the road, this place is not a camp of raiders. It is a community trying not to disappear.",
+        "Readaloud: The forest opens into hidden homes: thorn-warren shelters, cook-fires, moss lamps, patched tools, and people who go very quiet when strangers arrive. Whatever happened on the road, this place is not a camp of raiders. It is a community trying not to disappear.",
+        "Gmnotes: This is optional content, not the critical path. The villagers can fear the party and still accept help.",
+        "Gmscript: Say: \"This is what mercy opened: homes, not a hideout. Let the place answer before anyone lectures. You see families, old injuries, repurposed company gear, and a memory wall of names.\"",
+        "Gmreadaloud: The forest opens into hidden homes: thorn-warren shelters, cook-fires, moss lamps, patched tools. People go very quiet when strangers arrive. This is a community trying not to disappear.",
+        "Gmchecklist: Use only if bramble_outcome supports mercy, trust, or careful capture. Do not force a monologue; let place details carry the truth. Set bramble_truth_learned only if the table earns the story. Route back toward S02-04 or Act 3 after the discovery beat.",
+        "Gmprivate: Atlas-original location; keep flagged for Kyle acceptance/reskin/cut. The village disproves the corporate lethal-forest narrative through lived reality.",
+        "Playertakeaway: The forest opens into hidden homes: thorn-warren shelters, cook-fires, moss lamps, patched tools, and people who go very quiet when strangers arrive. Whatever happened on the road, this place is not a camp of raiders. It is a community trying not to disappear.",
+        "Storytakeaway: The hidden villages make the attackers' motive human: these were people with homes, families, and losses.",
+        "Mechanictakeaway: Mercy creates access: Presence, Knowledge, and careful listening can turn a combat outcome into an ally route.",
+        "Entityids: bramble-union the-wandering-briar",
+        "Entities: bramble-union Bramble Union faction Faction / Community assets/icons/faction.png assets/logos/bramble-union.webp BRAM-bul YOO-nyun Thorn-scrap armor, hungry eyes, and old worker gear make the Bramble Union look dangerous before they look human. Loose label for freeholders and cargo reclaimers Called thieves by Goldspire; actually a mix of displaced workers, freeholders, and dangerous reclaimers.; show internal disagreement, practical needs, and how the faction explains itself when outsiders listen. Protect its stake in Bramble Union Ambusher, Bramble Union Claimrunner, Goldspire Territories while being seen as more than a symbol or obstacle. Called thieves by Goldspire; actually a mix of displaced workers, freeholders, and dangerous reclaimers. the-wandering-briar The Wandering Briar location Location assets/icons/location.png assets/location-visuals/the-wandering-briar/profile_scene_v02.webp the WAN-der-ing BRY-er A mile-long living briar wall that blocks routes, shelters Wanderer families, and moves faster when its thorns taste blood. Make plants active without turning them into generic monster vines. A mile-long living briar wall that blocks routes, shelters Wanderer families...",
+        "Locationids: the-wandering-briar",
+        "Statecontrols: bramble_outcome Bramble outcome select unresolved killed captured spared negotiated escaped Only use this map for mercy/trust outcomes. bramble_truth_learned Bramble truth learned checkbox Set when the community's story lands.",
+        "Mechanicids: presence knowledge gm-moves",
+        "Fearspends: A child's map shows the official route cutting through home space. A thorn screen tightens when voices rise.",
+        "Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth context stay off the player display.",
+        "Linkedsceneids: S02-03",
+        "Mapdata: MAP-LOC-bramble-union-villages environment Bramble Union Villages Location Map S02-03 bramble-union the-wandering-briar assets/location-visuals/bramble-union-villages/profile_scene_v02.webp Visual reference for Bramble Union Villages. Bramble Union Villages location map board. The forest opens into hidden homes: thorn-warren shelters, cook-fires, moss lamps, patched tools, and people who go very quiet when strangers arrive. Whatever happened on the road, this place is not a camp of raiders. It is a community trying not to disappear. The forest opens into hidden homes: thorn-warren shelters, cook-fires, moss lamps, patched tools, and people who go very quiet when strangers arrive. Whatever happened on the road, this place is not a camp of raiders. It is a community trying not to disappear. Use this optional discovery map only after mercy or trust opens the route; make the opposition human without excusing the ambush. This is optional content, not the critical path. The villagers can fear the party and still accept help. Homes use color where the road uses warning signs. Thorn walls protect without hiding that families live inside. Some defenses are aimed at corporate survey paths...",
+        "Sourcefiles: dist/Act2_Upgrade_Packet/ACT2_MAPS_AND_COMBAT.md",
+        "References: After the Ambush #S02-04 Wandering Briar if deep trust #MAP-LOC-the-wandering-briar",
+        "Livetools: scene MAP-LOC-bramble-union-villages",
+        "Percharacterlayer: garrick-reed Garrick Reed Downsizing pattern Recognizes the memory wall and route tags as company-discarded worker evidence. Garrick, this looks less like a camp and more like people the company filed away. Want to read the wall? marlowe-fairwind Marlowe Fairwind Cargo question The village's route maps make the package feel less like cargo and more like part of the same system. Marlowe, the route maps make your sealed delivery feel connected to their losses. Want to ask how? barnacle Barnacle Survivor rapport Understands the logic of making ugly choices when all the clean doors close. Barnacle, you know the look of people surviving on bad options. Want to speak to them without judgment first? khari-nix Khari Nix Protect the vulnerable Sees children, elders, and injured people before she sees defenses. Khari, the first tactical truth is that this place has vulnerable people. What do you do with that? varian-soto Varian Soto Upside-down map Reads the forest paths and can see the official danger map does not match the living terrain. Varian, the map they keep here does not match the company map. Want to compare what your senses know?",
+        "Gmbeats: MAP-LOC-bramble-villages-arrival Arrival Homes, not a hideout Say: \"This is not a raider camp. It is homes.\" Hidden homes, cook-fires, and nervous families make the road attackers human. The combat outcome becomes a community consequence. Discovery and consequence replace combat here. Players understand mercy opened a human place. Player takeaway Players understand mercy opened a human place. \"This is not a raider camp. It is homes.\" \"The playable facts are: Hidden homes, cook-fires, and nervous families make the road attackers human.\" Use this beat to point the table at one immediate choice. The player-facing fact is: Hidden homes, cook-fires, and nervous families make the road attackers human. gm-moves Story takeaway The combat outcome becomes a community consequence. \"This is not a raider camp. It is homes.\" \"The story fact you can trust is: The combat outcome becomes a community consequence.\" This beat changes the fiction through this exact pressure: The combat outcome becomes a community consequence. gm-moves Mechanic takeaway Discovery and consequence replace combat here. \"This is not a raider camp. It is homes.\" \"The mechanic in this beat is: Discovery and consequence...",
+        "Takeawayhelp: Player takeaway Mercy opened a place, not just information. \"This is what not killing everyone made possible: a door, a fire, and people willing to decide whether you are safe.\" \"You can listen, help, ask about the route maps, ask about the names, tend wounded people, or choose to leave without taking more from them.\" Reward mercy with access and texture. The village should feel like consequence made visible. presence knowledge gm-moves Story takeaway The hidden villages make the attackers' motive human: these were people with homes, families, and losses. \"They were not born as a road problem. They became one when the road problem came for them.\" \"The village shows families, injured workers, a memory wall, and repurposed company gear. The motive is survival, not cartoon banditry.\" Do not excuse the ambush. Context and accountability should sit together. presence knowledge gm-moves Mechanic takeaway Mercy creates access: Presence, Knowledge, and careful listening can turn a combat outcome into an ally route. \"Presence 13 earns the story if mercy did not already. Knowledge 13 reads the route maps. Either can set bramble_truth_learned.\" \"If the players ask what this changes: it can...",
+        "Playerbeats: assets/maps/MAP-LOC-bramble-union-villages.png Hidden Forest Villages map board. MAP-LOC-bramble-union-villages environment Hidden Forest Villages S02-03 assets/maps/MAP-LOC-bramble-union-villages.png assets/maps/MAP-LOC-bramble-union-villages.png Hidden Forest Villages map board. The forest opens into hidden homes: thorn-warren shelters, cook-fires, moss lamps, patched tools, and people who go very quiet when strangers arrive. Whatever happened on the road, this place is not a camp of raiders. It is a community trying not to disappear. The forest opens into hidden homes: thorn-warren shelters, cook-fires, moss lamps, patched tools, and people who go very quiet when strangers arrive. Whatever happened on the road, this place is not a camp of raiders. It is a community trying not to disappear. MAP-LOC-bramble-union-villages-map-only Map only Hidden Forest Villages map-only assets/maps/MAP-LOC-bramble-union-villages.png Hidden Forest Villages map board. MAP-LOC-bramble-union-villages environment Hidden Forest Villages S02-03 assets/maps/MAP-LOC-bramble-union-villages.png assets/maps/MAP-LOC-bramble-union-villages.png Hidden Forest Villages map board. The forest opens into hidden...",
+        "Beatautoplayeligible: True",
+        "Beatautoplaydefault: False",
+        "Beatautoplayintervalms: 10000",
+        "Playersafeprojection: MAP-LOC-bramble-union-villages map Hidden Forest Villages assets/maps/MAP-LOC-bramble-union-villages.png Hidden Forest Villages map board. spatial reference and location texture The forest opens into hidden homes: thorn-warren shelters, cook-fires, moss lamps, patched tools, and people who go very quiet when strangers arrive. Whatever happened on the road, this place is not a camp of raiders. It is a community trying not to disappear. The forest opens into hidden homes: thorn-warren shelters, cook-fires, moss lamps, patched tools, and people who go very quiet when strangers arrive. Whatever happened on the road, this place is not a camp of raiders. It is a community trying not to disappear. MAP-LOC-bramble-union-villages environment Hidden Forest Villages S02-03 assets/maps/MAP-LOC-bramble-union-villages.png assets/maps/MAP-LOC-bramble-union-villages.png Hidden Forest Villages map board. The forest opens into hidden homes: thorn-warren shelters, cook-fires, moss lamps, patched tools, and people who go very quiet when strangers arrive. Whatever happened on the road, this place is not a camp of raiders. It is a community trying not to disappear. The forest opens into hidden homes...",
+        "Slidenumber: 36",
+        "Totalslides: 110"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash c76485a226c36fa0 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

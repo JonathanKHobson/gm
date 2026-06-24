@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "bramble-union-ambusher",
+  "kind": "entity",
+  "title": "Bramble Union Ambusher",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "a road reclaimer who has never done this before, and it shows",
+  "hook": "a road reclaimer who has never done this before, and it shows",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "A mud-caked road reclaimer crouches under a patched hood, face half-swallowed by moss, bark plates, rope knots, and scavenged ward charms."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "All borrowed bravado stretched thin over raw fear. They rehearsed the hard line and forgot everything after it. Under the moss and bark plates is someone who would much rather be home."
+    },
+    {
+      "label": "Might Offer",
+      "body": "Parley path Capture/mercy branch Evidence that the road conflict is bigger than banditry"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Parley path",
+    "Capture/mercy branch",
+    "Evidence that the road conflict is bigger than banditry"
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:bramble-union-ambusher",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "fc9d2e6d7de45d00",
+  "generated_at": "2026-06-23T21:40:58"
+}

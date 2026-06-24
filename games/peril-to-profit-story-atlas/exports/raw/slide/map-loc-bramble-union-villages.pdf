@@ -1,0 +1,492 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2659 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-bramble-union-villages - Bramble Union Villages Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The forest opens into hidden homes: thorn-warren shelters, cook-fires, moss lamps,) Tj
+T*
+(patched tools, and people who go very quiet when strangers arrive. Whatever happened on) Tj
+T*
+(the road, this place is not a camp of raiders. It is a community trying not to) Tj
+T*
+(disappear.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(The forest opens into hidden homes: thorn-warren shelters, cook-fires, moss lamps,) Tj
+T*
+(patched tools, and people who go very quiet when strangers arrive. Whatever happened on) Tj
+T*
+(the road, this place is not a camp of raiders. It is a community trying not to) Tj
+T*
+(disappear.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-bramble-union-villages) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: ACT-TWO) Tj
+T*
+(- Sectiontitle: Act Two: Cargo Reclaimers) Tj
+T*
+(- Title: Bramble Union Villages Location Map) Tj
+T*
+(- Shorttitle: Hidden Forest Villages) Tj
+T*
+(- Order: 303.08) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-bramble-union-villages-gm.png) Tj
+T*
+(- Alt: Bramble Union Villages location map board.) Tj
+T*
+(- Caption: Visual reference for Bramble Union Villages.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Use this optional discovery map only after mercy or trust opens the route;) Tj
+T*
+(  make the opposition human without excusing the ambush.) Tj
+T*
+(- Publicobjective: The forest opens into hidden homes: thorn-warren shelters, cook-) Tj
+T*
+(  fires, moss lamps, patched tools, and people who go very quiet when strangers) Tj
+T*
+(  arrive. Whatever happened on the road, this place is not a camp of raiders. It is a) Tj
+T*
+(  community trying not to disappear.) Tj
+T*
+(- Readaloud: The forest opens into hidden homes: thorn-warren shelters, cook-fires,) Tj
+T*
+(  moss lamps, patched tools, and people who go very quiet when strangers arrive.) Tj
+T*
+(  Whatever happened on the road, this place is not a camp of raiders. It is a) Tj
+T*
+(  community trying not to disappear.) Tj
+T*
+(- Gmnotes: This is optional content, not the critical path. The villagers can fear the) Tj
+T*
+(  party and still accept help.) Tj
+T*
+(- Gmscript: Say: "This is what mercy opened: homes, not a hideout. Let the place) Tj
+T*
+(  answer before anyone lectures. You see families, old injuries, repurposed company) Tj
+T*
+(  gear, and a memory wall of names.") Tj
+T*
+(- Gmreadaloud: The forest opens into hidden homes: thorn-warren shelters, cook-fires,) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3753 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  moss lamps, patched tools. People go very quiet when strangers arrive. This is a) Tj
+T*
+(  community trying not to disappear.) Tj
+T*
+(- Gmchecklist: Use only if bramble_outcome supports mercy, trust, or careful capture.) Tj
+T*
+(  Do not force a monologue; let place details carry the truth. Set) Tj
+T*
+(  bramble_truth_learned only if the table earns the story. Route back toward S02-04 or) Tj
+T*
+(  Act 3 after the discovery beat.) Tj
+T*
+(- Gmprivate: Atlas-original location; keep flagged for Kyle acceptance/reskin/cut. The) Tj
+T*
+(  village disproves the corporate lethal-forest narrative through lived reality.) Tj
+T*
+(- Playertakeaway: The forest opens into hidden homes: thorn-warren shelters, cook-) Tj
+T*
+(  fires, moss lamps, patched tools, and people who go very quiet when strangers) Tj
+T*
+(  arrive. Whatever happened on the road, this place is not a camp of raiders. It is a) Tj
+T*
+(  community trying not to disappear.) Tj
+T*
+(- Storytakeaway: The hidden villages make the attackers' motive human: these were) Tj
+T*
+(  people with homes, families, and losses.) Tj
+T*
+(- Mechanictakeaway: Mercy creates access: Presence, Knowledge, and careful listening) Tj
+T*
+(  can turn a combat outcome into an ally route.) Tj
+T*
+(- Entityids: bramble-union the-wandering-briar) Tj
+T*
+(- Entities: bramble-union Bramble Union faction Faction / Community) Tj
+T*
+(  assets/icons/faction.png assets/logos/bramble-union.png BRAM-bul YOO-nyun Thorn-) Tj
+T*
+(  scrap armor, hungry eyes, and old worker gear make the Bramble Union look dangerous) Tj
+T*
+(  before they look human. Loose label for freeholders and cargo reclaimers Called) Tj
+T*
+(  thieves by Goldspire; actually a mix of displaced workers, freeholders, and) Tj
+T*
+(  dangerous reclaimers.; show internal disagreement, practical needs, and how the) Tj
+T*
+(  faction explains itself when outsiders listen. Protect its stake in Bramble Union) Tj
+T*
+(  Ambusher, Bramble Union Claimrunner, Goldspire Territories while being seen as more) Tj
+T*
+(  than a symbol or obstacle. Called thieves by Goldspire; actually a mix of displaced) Tj
+T*
+(  workers, freeholders, and dangerous reclaimers. the-wandering-briar The Wandering) Tj
+T*
+(  Briar location Location assets/icons/location.png assets/location-visuals/the-) Tj
+T*
+(  wandering-briar/profile_scene_v02.png the WAN-der-ing BRY-er A mile-long living) Tj
+T*
+(  briar wall that blocks routes, shelters Wanderer families, and moves faster when its) Tj
+T*
+(  thorns taste blood. Make plants active without turning them into generic monster) Tj
+T*
+(  vines. A mile-long living briar wall that blocks routes, shelters Wanderer) Tj
+T*
+(  families...) Tj
+T*
+(- Locationids: the-wandering-briar) Tj
+T*
+(- Statecontrols: bramble_outcome Bramble outcome select unresolved killed captured) Tj
+T*
+(  spared negotiated escaped Only use this map for mercy/trust outcomes.) Tj
+T*
+(  bramble_truth_learned Bramble truth learned checkbox Set when the community's story) Tj
+T*
+(  lands.) Tj
+T*
+(- Mechanicids: presence knowledge gm-moves) Tj
+T*
+(- Fearspends: A child's map shows the official route cutting through home space. A) Tj
+T*
+(  thorn screen tightens when voices rise.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S02-03) Tj
+T*
+(- Mapdata: MAP-LOC-bramble-union-villages environment Bramble Union Villages Location) Tj
+T*
+(  Map S02-03 bramble-union the-wandering-briar assets/location-visuals/bramble-union-) Tj
+T*
+(  villages/profile_scene_v02.png Visual reference for Bramble Union Villages. Bramble) Tj
+T*
+(  Union Villages location map board. The forest opens into hidden homes: thorn-warren) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4211 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  shelters, cook-fires, moss lamps, patched tools, and people who go very quiet when) Tj
+T*
+(  strangers arrive. Whatever happened on the road, this place is not a camp of) Tj
+T*
+(  raiders. It is a community trying not to disappear. The forest opens into hidden) Tj
+T*
+(  homes: thorn-warren shelters, cook-fires, moss lamps, patched tools, and people who) Tj
+T*
+(  go very quiet when strangers arrive. Whatever happened on the road, this place is) Tj
+T*
+(  not a camp of raiders. It is a community trying not to disappear. Use this optional) Tj
+T*
+(  discovery map only after mercy or trust opens the route; make the opposition human) Tj
+T*
+(  without excusing the ambush. This is optional content, not the critical path. The) Tj
+T*
+(  villagers can fear the party and still accept help. Homes use color where the road) Tj
+T*
+(  uses warning signs. Thorn walls protect without hiding that families live inside.) Tj
+T*
+(  Some defenses are aimed at corporate survey paths...) Tj
+T*
+(- Sourcefiles: dist/Act2_Upgrade_Packet/ACT2_MAPS_AND_COMBAT.md) Tj
+T*
+(- References: After the Ambush #S02-04 Wandering Briar if deep trust #MAP-LOC-the-) Tj
+T*
+(  wandering-briar) Tj
+T*
+(- Livetools: scene MAP-LOC-bramble-union-villages) Tj
+T*
+(- Percharacterlayer: garrick-reed Garrick Reed Downsizing pattern Recognizes the) Tj
+T*
+(  memory wall and route tags as company-discarded worker evidence. Garrick, this looks) Tj
+T*
+(  less like a camp and more like people the company filed away. Want to read the wall?) Tj
+T*
+(  marlowe-fairwind Marlowe Fairwind Cargo question The village's route maps make the) Tj
+T*
+(  package feel less like cargo and more like part of the same system. Marlowe, the) Tj
+T*
+(  route maps make your sealed delivery feel connected to their losses. Want to ask) Tj
+T*
+(  how? barnacle Barnacle Survivor rapport Understands the logic of making ugly choices) Tj
+T*
+(  when all the clean doors close. Barnacle, you know the look of people surviving on) Tj
+T*
+(  bad options. Want to speak to them without judgment first? khari-nix Khari Nix) Tj
+T*
+(  Protect the vulnerable Sees children, elders, and injured people before she sees) Tj
+T*
+(  defenses. Khari, the first tactical truth is that this place has vulnerable people.) Tj
+T*
+(  What do you do with that? varian-soto Varian Soto Upside-down map Reads the forest) Tj
+T*
+(  paths and can see the official danger map does not match the living terrain. Varian,) Tj
+T*
+(  the map they keep here does not match the company map. Want to compare what your) Tj
+T*
+(  senses know?) Tj
+T*
+(- Gmbeats: MAP-LOC-bramble-villages-arrival Arrival Homes, not a hideout Say: "This is) Tj
+T*
+(  not a raider camp. It is homes." Hidden homes, cook-fires, and nervous families make) Tj
+T*
+(  the road attackers human. The combat outcome becomes a community consequence.) Tj
+T*
+(  Discovery and consequence replace combat here. Players understand mercy opened a) Tj
+T*
+(  human place. Player takeaway Players understand mercy opened a human place. "This is) Tj
+T*
+(  not a raider camp. It is homes." "The playable facts are: Hidden homes, cook-fires,) Tj
+T*
+(  and nervous families make the road attackers human." Use this beat to point the) Tj
+T*
+(  table at one immediate choice. The player-facing fact is: Hidden homes, cook-fires,) Tj
+T*
+(  and nervous families make the road attackers human. gm-moves Story takeaway The) Tj
+T*
+(  combat outcome becomes a community consequence. "This is not a raider camp. It is) Tj
+T*
+(  homes." "The story fact you can trust is: The combat outcome becomes a community) Tj
+T*
+(  consequence." This beat changes the fiction through this exact pressure: The combat) Tj
+T*
+(  outcome becomes a community consequence. gm-moves Mechanic takeaway Discovery and) Tj
+T*
+(  consequence replace combat here. "This is not a raider camp. It is homes." "The) Tj
+T*
+(  mechanic in this beat is: Discovery and consequence...) Tj
+T*
+(- Takeawayhelp: Player takeaway Mercy opened a place, not just information. "This is) Tj
+T*
+(  what not killing everyone made possible: a door, a fire, and people willing to) Tj
+T*
+(  decide whether you are safe." "You can listen, help, ask about the route maps, ask) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4040 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  about the names, tend wounded people, or choose to leave without taking more from) Tj
+T*
+(  them." Reward mercy with access and texture. The village should feel like) Tj
+T*
+(  consequence made visible. presence knowledge gm-moves Story takeaway The hidden) Tj
+T*
+(  villages make the attackers' motive human: these were people with homes, families,) Tj
+T*
+(  and losses. "They were not born as a road problem. They became one when the road) Tj
+T*
+(  problem came for them." "The village shows families, injured workers, a memory wall,) Tj
+T*
+(  and repurposed company gear. The motive is survival, not cartoon banditry." Do not) Tj
+T*
+(  excuse the ambush. Context and accountability should sit together. presence) Tj
+T*
+(  knowledge gm-moves Mechanic takeaway Mercy creates access: Presence, Knowledge, and) Tj
+T*
+(  careful listening can turn a combat outcome into an ally route. "Presence 13 earns) Tj
+T*
+(  the story if mercy did not already. Knowledge 13 reads the route maps. Either can) Tj
+T*
+(  set bramble_truth_learned." "If the players ask what this changes: it can...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-bramble-union-villages.png Hidden Forest Villages) Tj
+T*
+(  map board. MAP-LOC-bramble-union-villages environment Hidden Forest Villages S02-03) Tj
+T*
+(  assets/maps/MAP-LOC-bramble-union-villages.png assets/maps/MAP-LOC-bramble-union-) Tj
+T*
+(  villages.png Hidden Forest Villages map board. The forest opens into hidden homes:) Tj
+T*
+(  thorn-warren shelters, cook-fires, moss lamps, patched tools, and people who go very) Tj
+T*
+(  quiet when strangers arrive. Whatever happened on the road, this place is not a camp) Tj
+T*
+(  of raiders. It is a community trying not to disappear. The forest opens into hidden) Tj
+T*
+(  homes: thorn-warren shelters, cook-fires, moss lamps, patched tools, and people who) Tj
+T*
+(  go very quiet when strangers arrive. Whatever happened on the road, this place is) Tj
+T*
+(  not a camp of raiders. It is a community trying not to disappear. MAP-LOC-bramble-) Tj
+T*
+(  union-villages-map-only Map only Hidden Forest Villages map-only assets/maps/MAP-) Tj
+T*
+(  LOC-bramble-union-villages.png Hidden Forest Villages map board. MAP-LOC-bramble-) Tj
+T*
+(  union-villages environment Hidden Forest Villages S02-03 assets/maps/MAP-LOC-) Tj
+T*
+(  bramble-union-villages.png assets/maps/MAP-LOC-bramble-union-villages.png Hidden) Tj
+T*
+(  Forest Villages map board. The forest opens into hidden...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-bramble-union-villages map Hidden Forest Villages) Tj
+T*
+(  assets/maps/MAP-LOC-bramble-union-villages.png Hidden Forest Villages map board.) Tj
+T*
+(  spatial reference and location texture The forest opens into hidden homes: thorn-) Tj
+T*
+(  warren shelters, cook-fires, moss lamps, patched tools, and people who go very quiet) Tj
+T*
+(  when strangers arrive. Whatever happened on the road, this place is not a camp of) Tj
+T*
+(  raiders. It is a community trying not to disappear. The forest opens into hidden) Tj
+T*
+(  homes: thorn-warren shelters, cook-fires, moss lamps, patched tools, and people who) Tj
+T*
+(  go very quiet when strangers arrive. Whatever happened on the road, this place is) Tj
+T*
+(  not a camp of raiders. It is a community trying not to disappear. MAP-LOC-bramble-) Tj
+T*
+(  union-villages environment Hidden Forest Villages S02-03 assets/maps/MAP-LOC-) Tj
+T*
+(  bramble-union-villages.png assets/maps/MAP-LOC-bramble-union-villages.png Hidden) Tj
+T*
+(  Forest Villages map board. The forest opens into hidden homes: thorn-warren) Tj
+T*
+(  shelters, cook-fires, moss lamps, patched tools, and people who go very quiet when) Tj
+T*
+(  strangers arrive. Whatever happened on the road, this place is not a camp of) Tj
+T*
+(  raiders. It is a community trying not to disappear. The forest opens into hidden) Tj
+T*
+(  homes...) Tj
+T*
+(- Slidenumber: 36) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 192 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash c76485a226c36fa0 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R] /Count 5 >>
+endobj
+12 0 obj
+<< /Type /Catalog /Pages 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000009 00000 n 
+0000002720 00000 n 
+0000002848 00000 n 
+0000006653 00000 n 
+0000006781 00000 n 
+0000011044 00000 n 
+0000011172 00000 n 
+0000015264 00000 n 
+0000015392 00000 n 
+0000015635 00000 n 
+0000015764 00000 n 
+0000015847 00000 n 
+0000015898 00000 n 
+trailer
+<< /Size 14 /Root 12 0 R >>
+startxref
+15971
+%%EOF

@@ -1,0 +1,383 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2606 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(PROLOGUE - Prologue: The Contract) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(You have a courier contract: escort a sealed package through a huge old forest to a) Tj
+T*
+(village and get paid on delivery.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(You have a courier contract: escort a sealed package through a huge old forest to a) Tj
+T*
+(village and get paid on delivery.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: PROLOGUE) Tj
+T*
+(- Type: section) Tj
+T*
+(- Sectionid: PROLOGUE) Tj
+T*
+(- Sectiontitle: Prologue: The Contract) Tj
+T*
+(- Title: Prologue: The Contract) Tj
+T*
+(- Shorttitle: Contract) Tj
+T*
+(- Order: 100) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/scenes/S00-01-the-job.png) Tj
+T*
+(- Alt: A dawn contract briefing beside a loaded carriage.) Tj
+T*
+(- Caption: Overview only: where the party is, who is paying, and what the job is in) Tj
+T*
+(  plain terms.) Tj
+T*
+(- Mood: contract overview, plain-language orientation, progressive disclosure) Tj
+T*
+(- Gmgoal: Orient the players without dumping lore. Keep proper nouns gated for the) Tj
+T*
+(  played briefing.) Tj
+T*
+(- Publicobjective: You have a courier contract: escort a sealed package through a huge) Tj
+T*
+(  old forest to a village and get paid on delivery.) Tj
+T*
+(- Readaloud: You have a courier contract: escort a sealed package through a huge old) Tj
+T*
+(  forest to a village and get paid on delivery.) Tj
+T*
+(- Gmnotes: Contract = overview. The Job = played briefing. Entering Sablewood =) Tj
+T*
+(  threshold transition. The package's true name stays out of player-facing Prologue) Tj
+T*
+(  text.) Tj
+T*
+(- Gmscript: All right, we are moving from Session Zero into the fiction. Here is what) Tj
+T*
+(  your characters know before the first conversation: you have a courier contract, the) Tj
+T*
+(  pay is good, the package is sealed, and the route runs through a huge old forest to) Tj
+T*
+(  a small village. You do not need to know the names yet. If you want details, ask the) Tj
+T*
+(  contact once the scene starts.) Tj
+T*
+(- Gmreadaloud: All right, we are moving from Session Zero into the fiction. Here is) Tj
+T*
+(  what your characters know before the first conversation: you have a courier) Tj
+T*
+(  contract, the pay is good, the package is sealed, and the route runs through a huge) Tj
+T*
+(  old forest to a small village. You do not need to know the names yet. If you want) Tj
+T*
+(  details, ask the contact once the scene starts.) Tj
+T*
+(- Gmchecklist: Confirm everyone has their sheet and the table is ready to move from) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3838 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  onboarding into fiction. Keep this to one or two minutes unless players have a) Tj
+T*
+(  practical question. If a player asks for a name, answer only the name they could) Tj
+T*
+(  reasonably know right now.) Tj
+T*
+(- Gmprivate: Contract = overview. The Job = played briefing. Entering Sablewood =) Tj
+T*
+(  threshold transition. The package's true name stays out of player-facing Prologue) Tj
+T*
+(  text.) Tj
+T*
+(- Playertakeaway: I am a hired courier or trusted associate. I can begin without) Tj
+T*
+(  knowing the lore.) Tj
+T*
+(- Storytakeaway: The adventure starts inside an ordinary contract before the truth) Tj
+T*
+(  complicates it.) Tj
+T*
+(- Mechanictakeaway: Question-driven play starts here: players ask in character, and) Tj
+T*
+(  details get named when the scene can answer them.) Tj
+T*
+(- Mechanicids: roleplay table-spotlight) Tj
+T*
+(- Livetools: none) Tj
+T*
+(- Percharacterlayer: marlowe-fairwind Marlowe Fairwind she/her Loreborne Elf Sorcerer,) Tj
+T*
+(  Primal Origin Arcana, ward-sense, and the custodian responsibility around the) Tj
+T*
+(  package. Contract overview She understands this is not an ordinary parcel. As) Tj
+T*
+(  custodian, she feels a responsibility the others do not yet share. She knows it) Tj
+T*
+(  matters, not why. She can reassure nervous crewmates with insider calm without) Tj
+T*
+(  explaining the mystery. Marlowe, this is not an ordinary parcel. You know it) Tj
+T*
+(  matters, and you know you are responsible for it, but not the full truth yet.) Tj
+T*
+(  barnacle Barnacle he/him Underborne Ribbet Rogue, Nightwalker Shadows, deals,) Tj
+T*
+(  underworld instinct, and noticing when a job smells wrong. Contract overview A) Tj
+T*
+(  courier gig with this much secrecy smells like a setup he has seen before. Knowledge) Tj
+T*
+(  13 He recalls that Emeris contracts like this usually have a clause nobody reads) Tj
+T*
+(  aloud. He can name the angle: who benefits if the crew knows as little as possible?) Tj
+T*
+(  Barnacle, this much secrecy smells like a setup. If you study the contract, you may) Tj
+T*
+(  remember the kind of clause nobody reads aloud. garrick-reed Garrick Reed he/him) Tj
+T*
+(  Highborne Human Warrior, Call of the Brave Threat-reading, escort habits, social) Tj
+T*
+(  warmth...) Tj
+T*
+(- Playerbeats: PROLOGUE-where Where you are A Contract In The Capital) Tj
+T*
+(  assets/scenes/S00-01-the-job.png A dawn contract briefing beside a loaded carriage.) Tj
+T*
+(  You're in the capital, a city of stone archways, brass stamps, and clerks who seem) Tj
+T*
+(  to stamp every form twice. This morning, one of those forms has your name on it: a) Tj
+T*
+(  courier job, good pay, leaving today. You're in the capital, a city of stone) Tj
+T*
+(  archways, brass stamps, and clerks who seem to stamp every form twice. This morning,) Tj
+T*
+(  one of those forms has your name on it: a courier job, good pay, leaving today. You) Tj
+T*
+(  are in the capital, where stone roads, brass stamps, and little bits of practical) Tj
+T*
+(  magic all seem to belong to someone. A clerk has a form with your names on it. The) Tj
+T*
+(  job is legal, paid, and leaving today. text-first PROLOGUE-payer Who's paying A) Tj
+T*
+(  Company Job assets/scenes/S00-01-the-job.png A dawn contract briefing beside a) Tj
+T*
+(  loaded carriage. The contract comes from a large holdings company, the kind that) Tj
+T*
+(  owns roads, routes, and the right to call itself your employer for the day. Your) Tj
+T*
+(  point of contact is gathering a small crew of trusted hands for the run. The) Tj
+T*
+(  contract comes from a large holdings company, the kind that owns roads, routes,) Tj
+T*
+(  and...) Tj
+T*
+(- Gmbeats: PROLOGUE-where Where you are A Contract In The Capital You are in the) Tj
+T*
+(  capital, where stone roads, brass stamps, and little bits of practical magic all) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4093 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  seem to belong to someone. A clerk has a form with your names on it. The job is) Tj
+T*
+(  legal, paid, and leaving today. You are in the capital, where stone roads, brass) Tj
+T*
+(  stamps, and little bits of practical magic all seem to belong to someone. A clerk) Tj
+T*
+(  has a form with your names on it. The job is legal, paid, and leaving today. The) Tj
+T*
+(  party begins as working couriers inside the contract economy. Fictional positioning) Tj
+T*
+(  starts here: players know where they are, why they are together, and what kind of) Tj
+T*
+(  job can be acted on. I know where I am and what kind of job starts the story. The) Tj
+T*
+(  party is in a working city Players know they begin in the capital with a legal job) Tj
+T*
+(  leaving today. Keep city detail vivid but light: stone, brass stamps, route maps,) Tj
+T*
+(  clerks, ward markers. The point is readiness, not a capital lore lecture. "You are) Tj
+T*
+(  in the capital, at the practical edge of paperwork and roadwork. A courier job has) Tj
+T*
+(  your names on it, and it leaves today." If players ask where exactly: "At a dispatch) Tj
+T*
+(  edge near the warded road: close enough to the city to...) Tj
+T*
+(- Takeawayhelp: Begin with enough to act Players can start the Prologue without) Tj
+T*
+(  memorizing lore. Use this cue when players feel under-informed. The intended feeling) Tj
+T*
+(  is professional uncertainty, not confusion: they have a job, a contact, a package,) Tj
+T*
+(  and permission to ask practical questions. "You know enough to start: paid courier) Tj
+T*
+(  work, sealed package, old forest route, village delivery, good pay on arrival." If) Tj
+T*
+(  players ask what their characters know: "You know the practical job facts. Names) Tj
+T*
+(  like the company, forest, and village can come out in the briefing if you ask." Use) Tj
+T*
+(  this cue when players feel under-informed. The intended feeling is professional) Tj
+T*
+(  uncertainty, not confusion: they have a job, a contact, a package, and permission to) Tj
+T*
+(  ask practical questions. roleplay table-spotlight Ordinary contract first, deeper) Tj
+T*
+(  truth later The adventure begins as a normal delivery job before anything uncanny is) Tj
+T*
+(  named. Do not say Keystone Asset here. The Prologue should make the mystery) Tj
+T*
+(  physical: a crate, a contract, a route, and a contact who knows more than the paper) Tj
+T*
+(  says. "On paper this is ordinary work: escort the sealed package, keep it shut,) Tj
+T*
+(  reach the village, get paid." If players ask what is inside...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 12000) Tj
+T*
+(- Playersafeprojection: PROLOGUE section Prologue: The Contract) Tj
+T*
+(  assets/scenes/S00-01-the-job.png A dawn contract briefing beside a loaded carriage.) Tj
+T*
+(  Overview only: where the party is, who is paying, and what the job is in plain) Tj
+T*
+(  terms. contract overview, plain-language orientation, progressive disclosure You) Tj
+T*
+(  have a courier contract: escort a sealed package through a huge old forest to a) Tj
+T*
+(  village and get paid on delivery. You have a courier contract: escort a sealed) Tj
+T*
+(  package through a huge old forest to a village and get paid on delivery. PROLOGUE-) Tj
+T*
+(  where Where you are A Contract In The Capital assets/scenes/S00-01-the-job.png A) Tj
+T*
+(  dawn contract briefing beside a loaded carriage. You're in the capital, a city of) Tj
+T*
+(  stone archways, brass stamps, and clerks who seem to stamp every form twice. This) Tj
+T*
+(  morning, one of those forms has your name on it: a courier job, good pay, leaving) Tj
+T*
+(  today. You're in the capital, a city of stone archways, brass stamps, and clerks who) Tj
+T*
+(  seem to stamp every form twice. This morning, one of those forms has your name on) Tj
+T*
+(  it: a courier job, good pay, leaving today. You are in the capital, where stone) Tj
+T*
+(  roads, brass stamps, and little bits of practical magic all seem to belong to) Tj
+T*
+(  someone. A clerk has...) Tj
+T*
+(- Slidenumber: 16) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 219 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 8b26a02cbc4cf5e0 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R] /Count 4 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000002667 00000 n 
+0000002794 00000 n 
+0000006684 00000 n 
+0000006811 00000 n 
+0000010956 00000 n 
+0000011083 00000 n 
+0000011353 00000 n 
+0000011480 00000 n 
+0000011555 00000 n 
+0000011605 00000 n 
+trailer
+<< /Size 12 /Root 10 0 R >>
+startxref
+11678
+%%EOF

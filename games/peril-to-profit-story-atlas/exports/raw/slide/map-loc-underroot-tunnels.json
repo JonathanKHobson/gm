@@ -1,0 +1,64 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "slide",
+  "id": "MAP-LOC-underroot-tunnels",
+  "title": "MAP-LOC-underroot-tunnels - Underroot Tunnels Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "4cd05a0dafc7587a",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "A Progress Countdown-based traversal environment where finding entrances and navigating similar passages matter more than fighting."
+    },
+    {
+      "title": "Public objective",
+      "body": "A Progress Countdown-based traversal environment where finding entrances and navigating similar passages matter more than fighting."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: MAP-LOC-underroot-tunnels",
+        "Type: map",
+        "Maptype: environment",
+        "Sectionid: STORY",
+        "Sectiontitle: Map Board",
+        "Title: Underroot Tunnels Location Map",
+        "Shorttitle: Underroot Tunnels",
+        "Order: 850.5",
+        "Playersafe: True",
+        "Completioneligible: False",
+        "Image: assets/maps/MAP-LOC-underroot-tunnels-gm.webp",
+        "Alt: Underroot Tunnels location map board.",
+        "Caption: Visual reference for Underroot Tunnels.",
+        "Mood: spatial reference and location texture",
+        "Gmgoal: Use this environment board to orient space, table questions, and safe reveals.",
+        "Publicobjective: A Progress Countdown-based traversal environment where finding entrances and navigating similar passages matter more than fighting.",
+        "Readaloud: A Progress Countdown-based traversal environment where finding entrances and navigating similar passages matter more than fighting.",
+        "Playertakeaway: A Progress Countdown-based traversal environment where finding entrances and navigating similar passages matter more than fighting.",
+        "Storytakeaway: Visual reference for Underroot Tunnels.",
+        "Mechanictakeaway: Use the map as visual reference unless the scene is explicitly in combat.",
+        "Entityids: underroot-tunnels",
+        "Entities: underroot-tunnels Underroot Tunnels location Location assets/icons/location.png assets/location-visuals/underroot-tunnels/profile_scene_v02.webp UN-der-root TUN-ulz A Progress Countdown-based traversal environment where finding entrances and navigating similar passages matter more than fighting. Traversal environment for hidden root communities A Progress Countdown-based traversal environment where finding entrances and navigating similar passages matter more than fighting.; introduce it with a sensory palette, who feels safe there, and what has been neglected. Pull player attention toward the choices, clues, and relationships tied to Underroot, Root Blockage, Goldwater-Grail Toll Crew. A Progress Countdown-based traversal environment where finding entrances and navigating similar passages matter more than fighting.",
+        "Locationids: underroot-tunnels",
+        "Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth context stay off the player display.",
+        "Mapdata: MAP-LOC-underroot-tunnels environment Underroot Tunnels Location Map underroot-tunnels assets/location-visuals/underroot-tunnels/profile_scene_v02.webp Visual reference for Underroot Tunnels. Underroot Tunnels location map board. A Progress Countdown-based traversal environment where finding entrances and navigating similar passages matter more than fighting. Visual reference for Underroot Tunnels. Leaf-drip, insects, distant wingbeats, and animal calls that stop or resume according to pressure, not comfort. Rain on leaves, sap, mushroom loam, wet bark, and the musk of unseen animals. Bark is damp and ridged; mud alternates between springy moss and slick clay. The forest is populated even when no NPC is present; silence, birds, insects, and tracks are actionable signals. Sight Visual reference for Underroot Tunnels. Sound Leaf-drip, insects, distant wingbeats, and animal calls that stop or resume according to pressure, not comfort. Smell Rain on leaves, sap, mushroom loam, wet bark, and the musk of unseen animals. Texture / air Bark is damp and ridged; mud alternates between springy moss and slick clay. Background life The forest is populated even when no NPC is present; silence...",
+        "Livetools: scene MAP-LOC-underroot-tunnels",
+        "Takeawayhelp: Player takeaway: MAP-LOC-underroot-tunnels A Progress Countdown-based traversal environment where finding entrances and navigating similar passages matter more than fighting. Give the player one concrete way back into play: a question, a description, a choice, or a pass-and-return moment. \"Your takeaway right now is this: A Progress Countdown-based traversal environment where finding entrances and navigating similar passages matter more than fighting.\" \"If you are not sure what to do next, you can ask a question, describe what your character notices, or tell me what your character tries.\" \"If you are not sure what to do next, you can ask a question, describe what your character notices, or tell me what your character tries.\" Give the player one concrete way back into play: a question, a description, a choice, or a pass-and-return moment. Story takeaway: MAP-LOC-underroot-tunnels Visual reference for Underroot Tunnels. Anchor the answer in the visible fiction on this slide: who is present, what can be observed, what has already been said, and what remains uncertain. \"Here is what your characters know right now: Visual reference for Underroot Tunnels.\" \"If you want more detail, ask...",
+        "Playerbeats: assets/maps/MAP-LOC-underroot-tunnels-player.webp Underroot Tunnels location map board. MAP-LOC-underroot-tunnels environment Underroot Tunnels assets/maps/MAP-LOC-underroot-tunnels-player.webp assets/maps/MAP-LOC-underroot-tunnels-player.webp Visual reference for Underroot Tunnels. Underroot Tunnels location map board. A Progress Countdown-based traversal environment where finding entrances and navigating similar passages matter more than fighting. MAP-LOC-underroot-tunnels-map-only Map only Underroot Tunnels map-only assets/maps/MAP-LOC-underroot-tunnels-player.webp Underroot Tunnels location map board. MAP-LOC-underroot-tunnels environment Underroot Tunnels assets/maps/MAP-LOC-underroot-tunnels-player.webp assets/maps/MAP-LOC-underroot-tunnels-player.webp Visual reference for Underroot Tunnels. Underroot Tunnels location map board. A Progress Countdown-based traversal environment where finding entrances and navigating similar passages matter more than fighting. MAP-LOC-underroot-tunnels-map-text Map + text Underroot Tunnels A Progress Countdown-based traversal environment where finding entrances and navigating similar passages matter more than fighting. A Progress Countdown-based...",
+        "Beatautoplayeligible: True",
+        "Beatautoplaydefault: False",
+        "Beatautoplayintervalms: 10000",
+        "Playersafeprojection: MAP-LOC-underroot-tunnels map Underroot Tunnels assets/maps/MAP-LOC-underroot-tunnels-player.webp Underroot Tunnels location map board. Visual reference for Underroot Tunnels. spatial reference and location texture A Progress Countdown-based traversal environment where finding entrances and navigating similar passages matter more than fighting. A Progress Countdown-based traversal environment where finding entrances and navigating similar passages matter more than fighting. MAP-LOC-underroot-tunnels environment Underroot Tunnels assets/maps/MAP-LOC-underroot-tunnels-player.webp assets/maps/MAP-LOC-underroot-tunnels-player.webp Visual reference for Underroot Tunnels. Underroot Tunnels location map board. A Progress Countdown-based traversal environment where finding entrances and navigating similar passages matter more than fighting. assets/maps/MAP-LOC-underroot-tunnels-player.webp Underroot Tunnels location map board. MAP-LOC-underroot-tunnels environment Underroot Tunnels assets/maps/MAP-LOC-underroot-tunnels-player.webp assets/maps/MAP-LOC-underroot-tunnels-player.webp Visual reference for Underroot Tunnels. Underroot Tunnels location map board. A Progress Countdown-based traversal...",
+        "Slidenumber: 86",
+        "Totalslides: 110"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 4cd05a0dafc7587a | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

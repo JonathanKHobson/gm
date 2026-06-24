@@ -1,0 +1,8 @@
+{
+  "pages": [
+    "pages/story-outline.html",
+    "pages/storyboard.html",
+    "pages/story.html"
+  ],
+  "purpose": "Concise, progressive-disclosure story comprehension and visual navigation modes."
+}

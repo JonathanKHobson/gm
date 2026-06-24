@@ -1,0 +1,52 @@
+# Sableblade
+
+RAW export - entity:sableblade
+
+## Player-facing description
+Growing straight up out of dark forest soil, like a sapling that decided to be a sword, is a blade of living dark wood and pale metal. It has no maker's mark and hums when your hand nears the hilt.
+
+## Public role
+Sableblade: an ancient Sablewood weapon. Agility melee, one-handed, d10+1 physical; mark Stress before damage to add +3 damage.
+
+## Handout text
+GOLDSPIRE SAFETY ADVISORY: Wild-grown armaments are uncertified, uninsured, and possibly unionized. Approved blades are available at any authorized vendor.
+
+## Raw source
+- Type: item
+- Role: Sableblade: an ancient Sablewood weapon. Agility melee, one-handed, d10+1 physical; mark Stress before damage to add +3 damage.
+- Summary: Growing straight up out of dark forest soil, like a sapling that decided to be a sword, is a blade of living dark wood and pale metal. It has no maker's mark and hums when your hand nears the hilt.
+- Tags: equipment item-profile loot prop sablewood-lore source-page-8 source-page-9 weapon
+- Aliases: Sable Blade Sableblade wild-grown sword old forest blade
+- Connections: Sablewood™ Logistics Preserve Forgotten Gods Sablewood Hope Moments Old Sable SablewoodTM Logistics Preserve
+- Inventory: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry.
+- Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+- Stat: Agility melee, d10+1 physical, one-handed. Mark Stress before a damage roll to increase damage total by +3.
+- Source Pages: Sablewood PDF p. 8
+- Name: Sableblade
+- Id: sableblade
+- Meta: Item / Asset ITEM assets/icons/item.png entity-item #39c5bb 07 Items and Clues entities item
+- Appears In: S01-02
+- Related: Forgotten Gods Old Sable S01-02 Sablewood Hope Moments SablewoodTM Logistics Preserve Sablewood™ Logistics Preserve
+- Image Prompt: Private table TTRPG story atlas asset for Sableblade, Item / Asset. Role: Sableblade: an ancient Sablewood weapon. Agility melee, one-handed, d10+1 physical; mark Stress before damage to add +3 damage.. Summary: Growing straight up out of dark forest soil, like a sapling that decided to be a sword, is a blade of living dark wood and pale metal. It has no maker's mark and hums when your hand nears the hilt.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: A stress-fueled weapon rumored to grow from the forest during one of Sablewood's seasonal expansions.; use Sableblade as a concrete table object with texture, ownership, and a reason it matters now.
+- Wants: Give players a tangible handle on Sablewood™ Logistics Preserve, Forgotten Gods, Sablewood Hope Moments, whether they inspect, carry, return, trade, or refuse it.
+- Fears: Being treated as treasure clutter instead of evidence, memory, hospitality, or infrastructure with consequences.
+- Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.
+- Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.
+- Sample Dialogue: A stress-fueled weapon rumored to grow from the forest during one of Sablewood's seasonal expansions.
+- Equipment: Kind: weapon Maker: wild / pre-incorporation Loot group: Sablewood Wild Finds
+- Search Or Loot: Sableblade: an ancient Sablewood weapon. Agility melee, one-handed, d10+1 physical; mark Stress before damage to add +3 damage. Provenance: Rare seasonal find in deep Sablewood.
+- Gm Use: Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.
+- Future Hooks: Bring back as an echo if players made a strong choice involving this entity.
+- Stat Summary: Agility melee, d10+1 physical, one-handed. Mark Stress before a damage roll to increase damage total by +3.
+- Robust: Growing straight up out of dark forest soil, like a sapling that decided to be a sword, is a blade of living dark wood and pale metal. It has no maker's mark and hums when your hand nears the hilt. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Give players a tangible handle on Sablewood™ Logistics Preserve, Forgotten Gods, Sablewood Hope Moments, whether they inspect, carry, return, trade, or refuse it. Being treated as treasure clutter instead of evidence, memory, hospitality, or infrastructure with consequences. Use when the scene needs a concrete object for players to inspect, carry, debate, or remember. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Sableblade and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the...
+- Mechanics: Discovery / Earn-It Mechanics Players can inspect, handle, keep, trade, reveal, or earn Sableblade when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: Growing straight up out of dark forest soil, like a sapling that decided to be a sword, is a blade of living dark wood and pale metal. It has no maker's mark and hums when your hand nears the hilt. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-sableblade-engage-sableblade entity-sableblade Engage Sableblade Engage Sableblade Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Sableblade hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with...
+- Pronunciation: SAY-bul-blayd
+- Short Pronunciation: SAY-bul-blayd
+- Item Profile: item-profile-v1 sableblade sableblade Sableblade Sableblade wild-grown sword old forest blade SAY-bul-blayd weapon Tier 1 P2 PROP wild / pre-incorporation wild/folk True Sableblade Growing straight up out of dark forest soil, like a sapling that decided to be a sword, is a blade of living dark wood and pale metal. It has no maker's mark and hums when your hand nears the hilt. Growing straight up out of dark forest soil, like a sapling that decided to be a sword, is a blade of living dark wood and pale metal. It has no maker's mark and hums when your hand nears the hilt. wild / pre-incorporation GOLDSPIRE SAFETY ADVISORY: Wild-grown armaments are uncertified, uninsured, and possibly unionized. Approved blades are available at any authorized vendor. sableblade Sableblade wild-grown sword old forest blade SAY-bul-blayd weapon Tier 1 Growing straight up out of dark forest soil, like a sapling that decided to be a sword, is a blade of living dark wood and pale metal. It has no maker's mark and hums when your hand nears the hilt. Sableblade: an ancient Sablewood weapon. Agility melee, one-handed, d10+1 physical; mark Stress before damage to add +3 damage. A real old-forest weapon from...
+- Image: assets/item-images/sableblade/profile_base.webp
+- Image Asset Status: item_visual_profile
+- Visual Gallery: primary Primary wiki image primary assets/item-images/sableblade/profile_base.webp Sableblade primary wiki image visual. Sableblade: Primary wiki image. item_visual_profile True True
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash fc7e55fed8d3e9f6 | Source hash dac3370046ed077140fab2d6

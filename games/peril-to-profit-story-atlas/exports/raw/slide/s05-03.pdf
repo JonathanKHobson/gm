@@ -1,0 +1,607 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2629 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S05-03 - Holding the Line) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The skeletons come in a clatter of rust and bone: not clever, but endless, and all of) Tj
+T*
+(them reaching for the glowing figure at the center. For every one you put down, the) Tj
+T*
+(ritual's clock ticks a notch closer to done. But they keep clawing up out of the dirt,) Tj
+T*
+(and the Custodian cannot defend herself. The line is yours to hold.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Defeat the rusted dead and keep the Custodian safe.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: S05-03) Tj
+T*
+(- Type: scene) Tj
+T*
+(- Sectionid: ACT-FIVE) Tj
+T*
+(- Sectiontitle: Act Five: The Ward Renewal) Tj
+T*
+(- Title: Holding the Line) Tj
+T*
+(- Shorttitle: Skeletons) Tj
+T*
+(- Order: 603) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: True) Tj
+T*
+(- Image: assets/scenes/S05-03-the-ritual-begins.png) Tj
+T*
+(- Alt: The Ritual Begins scene art for The Ward Renewal.) Tj
+T*
+(- Caption: Holding the line teaches that defeating pressure and protecting the center) Tj
+T*
+(  are the same victory.) Tj
+T*
+(- Mood: The Ward Renewal) Tj
+T*
+(- Gmgoal: Run the rusted-sword skeleton wave as clear protection pressure and) Tj
+T*
+(  countdown progress.) Tj
+T*
+(- Publicobjective: Defeat the rusted dead and keep the Custodian safe.) Tj
+T*
+(- Readaloud: The skeletons come in a clatter of rust and bone: not clever, but) Tj
+T*
+(  endless, and all of them reaching for the glowing figure at the center. For every) Tj
+T*
+(  one you put down, the ritual's clock ticks a notch closer to done. But they keep) Tj
+T*
+(  clawing up out of the dirt, and the Custodian cannot defend herself. The line is) Tj
+T*
+(  yours to hold.) Tj
+T*
+(- Gmnotes: Skeletons are pressure and countdown fuel, not a slog. Keep them moving) Tj
+T*
+(  toward the Custodian.) Tj
+T*
+(- Gmscript: Say: "They are not strong. They are persistent, and they want her, not) Tj
+T*
+(  you. Stand in the way. Every one you drop moves the countdown down by one.") Tj
+T*
+(- Gmreadaloud: The skeletons come in a clatter of rust and bone. All of them reach for) Tj
+T*
+(  the glowing figure at the center. The line is yours to hold.) Tj
+T*
+(- Gmchecklist: Use Legacy Skeleton stats: Difficulty 12, HP 2, Stress 1, ATK +0,) Tj
+T*
+(  Rusted Sword 1d6+1 physical. Damage 6 or less marks 1 HP; above that defeats the) Tj
+T*
+(  skeleton. Each defeat ticks ritual_countdown -1. Spend Fear for Group Attack when) Tj
+T*
+(  skeletons cluster: one shared +0 roll, 4 physical per skeleton combined. Track who) Tj
+T*
+(  body-blocks the Custodian as protected_whom seed.) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4072 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Gmprivate: Name them Legacy Skeletons only after the table has the image. Corporate-) Tj
+T*
+(  asset undertone stays GM-side.) Tj
+T*
+(- Playertakeaway: Hold the perimeter; every skeleton you drop is a step toward the) Tj
+T*
+(  end.) Tj
+T*
+(- Storytakeaway: The first wave is beatable, but it never stops reaching for her.) Tj
+T*
+(- Mechanictakeaway: Skeleton defeats tick the countdown down, but Group Attack spikes) Tj
+T*
+(  damage if the party lets them cluster.) Tj
+T*
+(- Rollcards: s05-03-shield-the-custodian S05-03 Shield the Custodian Shield the) Tj
+T*
+(  Custodian Agility Strength Agility Strength 13 Agility intercepts; Strength holds) Tj
+T*
+(  the line. The ritual countdown ticks the wrong way. Critical Success: best possible) Tj
+T*
+(  version of the action; gain Hope and clear 1 Stress. Add an extra benefit that) Tj
+T*
+(  follows from the fiction. Success with Hope: the PC gets what they wanted and gains) Tj
+T*
+(  Hope. Keep the position clean or generous. Success with Fear: the PC gets what they) Tj
+T*
+(  wanted, but the GM gains Fear and introduces a cost, complication, or pressure.) Tj
+T*
+(  Failure with Hope: the PC does not get the full result, but gains Hope and receives) Tj
+T*
+(  a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the) Tj
+T*
+(  GM gains Fear. Make a hard move that follows from the fiction. The ritual countdown) Tj
+T*
+(  ticks the wrong way. Use a hard complication, lost time, worse position, GM Fear, or) Tj
+T*
+(  mark Stress. Apply an official condition only if the fiction and rules justify it.) Tj
+T*
+(  The attempt falls short, but a partial thread appears. Offer one clue, weak) Tj
+T*
+(  position, or safer follow-up. The PC gets the core result, but it costs time, noise,) Tj
+T*
+(  leverage, or a visible resource. The result lands...) Tj
+T*
+(- Entityids: whitefire-custodian keystone-asset ritual-countdown legacy-security-) Tj
+T*
+(  skeleton the-stones-of-the-vale the-miremist moonglow open-valetm-ritual-site) Tj
+T*
+(  goldspire-territories sablewoodtm-logistics-preserve eeligator-scale-shield soul-) Tj
+T*
+(  audit-wraith eeligator damage-armor fear ward-moths sunfire-lily mist-things) Tj
+T*
+(- Entities: whitefire-custodian Whitefire Custodian npc NPC / Ally) Tj
+T*
+(  assets/icons/npc.png assets/npc-images/whitefire-custodian/portrait_base.png WHITE-) Tj
+T*
+(  fire kus-TOH-dee-un Old faerie-like custodian who maintains the ward protecting) Tj
+T*
+(  Hush. Truth-bearer for the Keystone reveal. Whitefire Custodian an old faerie-like) Tj
+T*
+(  ward keeper whose exhaustion glows around the edges Ancient kindness running on) Tj
+T*
+(  fumes, glowing a little brighter whenever someone tells the truth nearby. Wants to) Tj
+T*
+(  keep one place honestly safe long enough for people to remember that safety can be) Tj
+T*
+(  care instead of a product, and is quietly breaking under the cost of it. Renew the) Tj
+T*
+(  ward without being treated as a device. Please do not call me the ward interface. an) Tj
+T*
+(  old faerie-like ward keeper whose exhaustion glows around the edges npc-profile-v1) Tj
+T*
+(  NPC_System_Packet + image-informed hardening Whitefire Custodian an old faerie-like) Tj
+T*
+(  ward keeper whose exhaustion glows around the edges A tall luminous faerie custodian) Tj
+T*
+(  stands like living bark and white fire, branchlike crown, translucent wings, and) Tj
+T*
+(  warm gold light gathered in the chest. Whitefire Custodian: an old faerie-like ward) Tj
+T*
+(  keeper whose exhaustion glows around the edges Whitefire...) Tj
+T*
+(- Locationids: open-valetm-ritual-site goldspire-territories sablewoodtm-logistics-) Tj
+T*
+(  preserve the-miremist the-stones-of-the-vale) Tj
+T*
+(- Itemids: eeligator-scale-shield) Tj
+T*
+(- Clueids: glass-bright-ward-sand) Tj
+T*
+(- Statecontrols: ward_stability Ward Stability select fragile stable ritual_prep) Tj
+T*
+(  Ritual Prep select unready ready keystone_understanding Keystone Understanding) Tj
+T*
+(  select surface deep ritual_countdown Ritual Countdown number 10 8 ritual_outcome) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4085 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Ritual Outcome select unresolved clean costly pyrrhic protected_whom Protected Whom) Tj
+T*
+(  select unresolved custodian party hush shared custodian_fate Custodian Fate select) Tj
+T*
+(  unresolved well drained dying strixwolf_disposition Strixwolf Disposition select) Tj
+T*
+(  unresolved calm hostile killed strixwolf_outcome Strixwolf Outcome select unresolved) Tj
+T*
+(  calmed helped avoided attacked killed strixwolf_trust Strixwolf Trust number 3) Tj
+T*
+(  strixwolf_blood_debt Strixwolf Blood Debt checkbox bramble_outcome Bramble Outcome) Tj
+T*
+(  select unresolved killed captured spared negotiated escaped let_cargo) Tj
+T*
+(  bramble_truth_learned Bramble Truth Learned checkbox package_status Package Status) Tj
+T*
+(  select held lost hush_trust Hush Trust select low neutral high custodian_route) Tj
+T*
+(  Custodian Route select unknown safe dangerous ward_awareness Ward Awareness select) Tj
+T*
+(  none seed aware festival_boon Festival Boon select none charm favor market_find) Tj
+T*
+(  goodwill custodian_trust Custodian Trust select low neutral high hush_clues Hush...) Tj
+T*
+(- Mechanicids: countdown adversary-spotlight adversary-attacks damage-rolls evasion) Tj
+T*
+(  damage-thresholds vulnerable fear group-attack action-roll) Tj
+T*
+(- Playerquestions: Who puts themselves between the dead and the Custodian? Who calls) Tj
+T*
+(  out a clustering danger? Who drives the countdown down?) Tj
+T*
+(- Relationshipprompts: Which PC quietly checks on someone else here? Who disagrees) Tj
+T*
+(  about the right thing to do without breaking trust?) Tj
+T*
+(- Ownershipprompt: Name one detail in The Ritual Begins that belongs to your) Tj
+T*
+(  character's point of view.) Tj
+T*
+(- Fearspends: Spend Fear to tick the ritual countdown, expose the Custodian, activate) Tj
+T*
+(  ward backlash, or trigger Market Correction. Tick the Ritual Countdown the wrong) Tj
+T*
+(  direction or expose the Custodian. Trigger Market Correction, Pass-Through, Memory) Tj
+T*
+(  Delve, or Group Attack when fiction supports it.) Tj
+T*
+(- Choicesconsequences: Drop a skeleton. One pressure body falls. Tick ritual_countdown) Tj
+T*
+(  -1. The party sees progress and the ward flashes stronger. ritual_countdown -1) Tj
+T*
+(  Reward: visible progress. player-visible Body-block the Custodian. A skeleton cannot) Tj
+T*
+(  reach the center. May prevent a +1 tick without a roll if position is clear;) Tj
+T*
+(  otherwise Agility/Strength vs risk. protected_whom records who held the line.) Tj
+T*
+(  protected_whom=custodian/shared Reward: safer center, possible personal cost.) Tj
+T*
+(  player-visible Let skeletons cluster. The wave becomes a single heavy hit. GM may) Tj
+T*
+(  spend Fear for Group Attack. Damage and stress force harder choices in S05-04/05.) Tj
+T*
+(  fear spent; protected_whom pressure Penalty: spike damage. player-visible) Tj
+T*
+(- Lootclues: Ritual Countdown table Open Vale residue after completion Eeligator Scale) Tj
+T*
+(  Shield: A round shield of overlapping slick green-grey scales catches the light like) Tj
+T*
+(  river-water. It smells of deep water, mud, and old teeth.) Tj
+T*
+(- Handoutids: Ritual countdown Guaranteed seed) Tj
+T*
+(- Sourcesceneslug: S05-03-the-ritual-begins) Tj
+T*
+(- Sourcefiles: dist/Act5_Upgrade_Packet/ACT5_SCENE_RESEARCH.md) Tj
+T*
+(  dist/Act5_Upgrade_Packet/ACT5_MAPS_AND_LOCATIONS.md) Tj
+T*
+(- References: Holding line map #MAP-S05-03 Peak battle map #MAP-COMBAT-S05-05) Tj
+T*
+(- Storyscope: Perceived antagonist: the forest. True antagonist: the corporate lie) Tj
+T*
+(  about the forest. The players never confront it directly. They are meant to feel it) Tj
+T*
+(  by the end. Every act offers at least one guaranteed and one earned hint that the) Tj
+T*
+(  danger is manufactured and the forest is not the enemy. Soul-Audit Wraiths bear) Tj
+T*
+(  audit glyphs and say, "Unlicensed soul-resonance detected. Submit for audit.") Tj
+T*
+(  REFLAVOR GUARANTEED A defeated wraith leaves a Soulspire compliance tag or coil-) Tj
+T*
+(  credit token instead of natural remains. ADD GUARANTEED Wraiths ignore forest) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4350 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  creatures and home only on ritual soul-magic. ADD EARNED Instinct Medium 15 A player) Tj
+T*
+(  can read the markings and name Soulspire without the GM naming it first. ADD EARNED) Tj
+T*
+(  Knowledge Medium 15 Optional flag: Legacy Skeletons carry scraps of old corporate) Tj
+T*
+(  credentials. FLAG SEED Soul-Audit Wraiths bear audit glyphs and say, "Unlicensed) Tj
+T*
+(  soul-resonance detected. Submit for audit." REFLAVOR GUARANTEED Instinct: target) Tj
+T*
+(  logic. Knowledge: read markings. ACT5 Act 5: Open Vale defense 200 2:40 to 3:20 3:20) Tj
+T*
+(  countdown 8, skeletons, wraiths, Market Correction Lower the countdown start to 6;) Tj
+T*
+(  cap wraith reinforcements.) Tj
+T*
+(- Livetools: encounter S05-03 MAP-S05-03 pages/combat/s05-03.html) Tj
+T*
+(- Percharacterlayer: khari-nix Khari Nix Guardian line Built to hold a chokepoint and) Tj
+T*
+(  keep multiple skeletons off the Custodian. Can body-block several skeletons or break) Tj
+T*
+(  a cluster. Khari, this is what a Guardian is for. Want to hold the line and keep) Tj
+T*
+(  them off her? garrick-reed Garrick Reed Hit them hard Can one-shot fragile skeletons) Tj
+T*
+(  and drive the countdown down. A clean Warrior hit can become visible clock progress.) Tj
+T*
+(  Garrick, these things pop in one solid hit. Want to drive the countdown down?) Tj
+T*
+(  varian-soto Varian Soto Deadly aim Can pick off skeletons before they reach the) Tj
+T*
+(  center. Controls the perimeter from range. Varian, you can drop them before they) Tj
+T*
+(  close. Want to thin the wave? barnacle Barnacle Safety net Can flit to whoever is) Tj
+T*
+(  exposed and disrupt a cluster. Can prevent Group Attack or protect a soft lane.) Tj
+T*
+(  Barnacle, you can flit to whoever is exposed. Want to be the party's safety net?) Tj
+T*
+(  marlowe-fairwind Marlowe Fairwind Break the rule Can see the old pattern animating) Tj
+T*
+(  the bones. Knowledge 13 Neutralizes one pressure point without pure damage, still) Tj
+T*
+(  ticking the countdown if it truly removes threat. Can show that understanding counts) Tj
+T*
+(  as progress. Marlowe, the bones are following a rule. Want to...) Tj
+T*
+(- Takeawayhelp: Player takeaway Hold the perimeter; every skeleton you drop is a step) Tj
+T*
+(  toward the end. "Cut them down, keep them off her, watch the clock fall. This part) Tj
+T*
+(  you can win with grit." "Position between the dead and the Custodian, strike the) Tj
+T*
+(  nearest, and call out if they start to swarm." Keep the first combat wave empowering) Tj
+T*
+(  before the wraiths complicate it. countdown fear group-attack evasion Story takeaway) Tj
+T*
+(  The first wave is beatable, but it never stops reaching for her. "They are not) Tj
+T*
+(  strong; they are persistent, and they want her, not you." "Describe them as rusted-) Tj
+T*
+(  sword dead first. If players ask later, the GM term is Legacy Skeletons." The) Tj
+T*
+(  corporate-asset undertone stays GM-side unless earned. countdown fear group-attack) Tj
+T*
+(  evasion Mechanic takeaway Skeleton defeats tick the countdown down, but Group Attack) Tj
+T*
+(  spikes damage if the party lets them cluster. "Squishy alone. Hit one hard enough) Tj
+T*
+(  and it is gone; clock ticks down. Let them cluster and I can spend Fear for one ugly) Tj
+T*
+(  combined hit." "Difficulty 12, HP 2, 1d6+1 physical. Group Attack is one +0 roll, 4) Tj
+T*
+(  physical per skeleton combined." Use Group Attack as warning/payoff for ignored) Tj
+T*
+(  clusters, not surprise punishment. countdown fear...) Tj
+T*
+(- Playerbeats: s05-03-clatter Clatter The clatter assets/scenes/S05-03-the-ritual-) Tj
+T*
+(  begins.png The Ritual Begins scene art for The Ward Renewal. Rusted dead claw up in) Tj
+T*
+(  a clatter of bone and metal, all of them reaching for the center. Rusted dead claw) Tj
+T*
+(  up in a clatter of bone and metal, all of them reaching for the center. Rusted dead) Tj
+T*
+(  claw up in a clatter of bone and metal, all of them reaching for the center. text-) Tj
+T*
+(  first s05-03-line Line Hold the line assets/scenes/S05-03-the-ritual-begins.png The) Tj
+T*
+(  Ritual Begins scene art for The Ward Renewal. Stand between the dead and the) Tj
+T*
+(  Custodian, split their clusters, and keep them off the center. Stand between the) Tj
+T*
+(  dead and the Custodian, split their clusters, and keep them off the center. Stand) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 4062 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  between the dead and the Custodian, split their clusters, and keep them off the) Tj
+T*
+(  center. text-first s05-03-clock Clock The clock falls assets/scenes/S05-03-the-) Tj
+T*
+(  ritual-begins.png The Ritual Begins scene art for The Ward Renewal. Every skeleton) Tj
+T*
+(  defeated or truly neutralized moves the countdown one step closer to zero. Every) Tj
+T*
+(  skeleton defeated or truly neutralized moves the countdown one step closer to zero.) Tj
+T*
+(  Every skeleton defeated or truly neutralized moves the countdown...) Tj
+T*
+(- Gmbeats: s05-03-clatter Clatter The clatter Say: "They are not clever. They are) Tj
+T*
+(  relentless." Rusted dead claw up in a clatter of bone and metal, all of them) Tj
+T*
+(  reaching for the center. The first pressure is physical and readable. Simple) Tj
+T*
+(  adversaries teach countdown rhythm. Players understand the first wave. Player) Tj
+T*
+(  takeaway Players understand the first wave. "They are not clever. They are) Tj
+T*
+(  relentless." "The table-facing answer is: Players understand the first wave." Use) Tj
+T*
+(  this beat to give the players one visible next action: protect the center, read the) Tj
+T*
+(  field, spend prep, name who they shield, or choose what truth leaves with them.) Tj
+T*
+(  countdown Story takeaway The first pressure is physical and readable. "They are not) Tj
+T*
+(  clever. They are relentless." "The story answer is: The first pressure is physical) Tj
+T*
+(  and readable." Tie the answer to a visible Act 5 consequence: the ward steadies, the) Tj
+T*
+(  Custodian suffers, Hush is protected, or the final report changes who owns the) Tj
+T*
+(  truth. countdown Mechanic takeaway Simple adversaries teach countdown rhythm. "They) Tj
+T*
+(  are not clever. They are relentless." "The active table procedure is: Simple) Tj
+T*
+(  adversaries teach countdown rhythm." Name intent first. Use a Daggerheart roll...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 8000) Tj
+T*
+(- Playersafeprojection: S05-03 scene Holding the Line assets/scenes/S05-03-the-ritual-) Tj
+T*
+(  begins.png The Ritual Begins scene art for The Ward Renewal. Holding the line) Tj
+T*
+(  teaches that defeating pressure and protecting the center are the same victory. The) Tj
+T*
+(  Ward Renewal Defeat the rusted dead and keep the Custodian safe. The skeletons come) Tj
+T*
+(  in a clatter of rust and bone: not clever, but endless, and all of them reaching for) Tj
+T*
+(  the glowing figure at the center. For every one you put down, the ritual's clock) Tj
+T*
+(  ticks a notch closer to done. But they keep clawing up out of the dirt, and the) Tj
+T*
+(  Custodian cannot defend herself. The line is yours to hold. s05-03-clatter Clatter) Tj
+T*
+(  The clatter assets/scenes/S05-03-the-ritual-begins.png The Ritual Begins scene art) Tj
+T*
+(  for The Ward Renewal. Rusted dead claw up in a clatter of bone and metal, all of) Tj
+T*
+(  them reaching for the center. Rusted dead claw up in a clatter of bone and metal,) Tj
+T*
+(  all of them reaching for the center. Rusted dead claw up in a clatter of bone and) Tj
+T*
+(  metal, all of them reaching for the center. text-first s05-03-line Line Hold the) Tj
+T*
+(  line assets/scenes/S05-03-the-ritual-begins.png The Ritual Begins scene art for The) Tj
+T*
+(  Ward Renewal. Stand between the dead and the Custodian, split their...) Tj
+T*
+(- Companionmapids: MAP-S05-03 MAP-LOC-open-valetm-ritual-site MAP-LOC-goldspire-) Tj
+T*
+(  territories MAP-LOC-sablewoodtm-logistics-preserve MAP-LOC-moonglow MAP-LOC-the-) Tj
+T*
+(  miremist MAP-LOC-the-stones-of-the-vale) Tj
+T*
+(- Slidenumber: 67) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+(- Spotlights: SPOT-C-KHARI-LATE khari-nix Khari Nix late S05-03 high optional first-) Tj
+T*
+(  use Khari, Hold the Line Finale line-holding becomes a Guardian signature beat.) Tj
+T*
+(  Khari, this is the scene for Unstoppable behavior. Who do you protect, and why now?) Tj
+T*
+(  Spotlight: Khari wiki/character/khari in-scene-prompts character defer-if-clock-) Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 251 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  critical True True) Tj
+T*
+(- Spotlightsummary: 1) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 75ac07c7cc6d99bd | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R 12 0 R] /Count 6 >>
+endobj
+14 0 obj
+<< /Type /Catalog /Pages 13 0 R >>
+endobj
+15 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000009 00000 n 
+0000002690 00000 n 
+0000002818 00000 n 
+0000006942 00000 n 
+0000007070 00000 n 
+0000011207 00000 n 
+0000011335 00000 n 
+0000015737 00000 n 
+0000015865 00000 n 
+0000019979 00000 n 
+0000020108 00000 n 
+0000020411 00000 n 
+0000020541 00000 n 
+0000020631 00000 n 
+0000020682 00000 n 
+trailer
+<< /Size 16 /Root 14 0 R >>
+startxref
+20755
+%%EOF

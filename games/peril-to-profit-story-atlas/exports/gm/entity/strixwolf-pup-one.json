@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "strixwolf-pup-one",
+  "title": "Strixwolf Pup One",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "283c5a048ceedfb8",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "One pup stands in the moss with wet feathering along its shoulders, too-big paws, and round eyes that are trying very hard to be brave."
+    },
+    {
+      "title": "Public role",
+      "body": "Strixwolf pup"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: A wet-feathered strixwolf pup with oversized ears, bright frightened eyes, and paws too large for the body it has not grown into yet."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use to make the strixwolf scene about protection and moral choice, not monster cleanup."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 283c5a048ceedfb8 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

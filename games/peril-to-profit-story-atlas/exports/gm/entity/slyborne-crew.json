@@ -1,0 +1,49 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "slyborne-crew",
+  "title": "Slyborne Crew",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "779a6c0bc18626d4",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Slyborne Crew: A flexible adversary crew category for hideouts, toll lanes, and off-route pressure."
+    },
+    {
+      "title": "Public role",
+      "body": "Bandit crew pressure for Sablewood hideouts"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: A flexible adversary crew category for hideouts, toll lanes, and off-route pressure."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Keep the satire pointed at institutional behavior, not vulnerable people. Reveal function through assets, language, and consequences."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Faction Pressure / Reputation Mechanics",
+        "Player Safe: Players can read public face, negotiate leverage, track reputation, or identify pressure Slyborne Crew when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: A flexible adversary crew category for hideouts, toll lanes, and off-route pressure. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-slyborne-crew-engage-slyborne-crew entity-slyborne-crew Engage Slyborne Crew Engage Slyborne Crew Presence Knowledge Instinct Presence Knowledge, Instinct 13 Choose the trait from the player's method, not the entity type. A flat read of Slyborne Crew hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. A...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Search Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 779a6c0bc18626d4 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

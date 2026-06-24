@@ -1,0 +1,348 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2707 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(EPILOGUE - Epilogue: Beyond the Contract) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The screeching is gone. The clearing is quiet, the open sky calm. Somewhere west, a city) Tj
+T*
+(you may never see is waking up safe because of what you did tonight. The Custodian is) Tj
+T*
+(already shuffling you back toward warmth and food and a fire that does not want anything) Tj
+T*
+(from you. For the first time since the road, there is nothing chasing you. You won. Sit) Tj
+T*
+(with that a while.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Rest, reckon with what you did, and decide what you carry forward.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: EPILOGUE) Tj
+T*
+(- Type: section) Tj
+T*
+(- Sectionid: EPILOGUE) Tj
+T*
+(- Sectiontitle: Epilogue: Beyond the Contract) Tj
+T*
+(- Title: Epilogue: Beyond the Contract) Tj
+T*
+(- Shorttitle: Epilogue) Tj
+T*
+(- Order: 700) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Caption: The screeching is gone. The clearing is quiet, the open sky calm. Somewhere) Tj
+T*
+(  west, a city you may never see is waking up safe because of what you did tonight.) Tj
+T*
+(- Mood: table transition) Tj
+T*
+(- Gmgoal: Land the plane: reward the heroes, let the table breathe, then leave one) Tj
+T*
+(  official door and one optional hidden door open.) Tj
+T*
+(- Publicobjective: Rest, reckon with what you did, and decide what you carry forward.) Tj
+T*
+(- Readaloud: The screeching is gone. The clearing is quiet, the open sky calm.) Tj
+T*
+(  Somewhere west, a city you may never see is waking up safe because of what you did) Tj
+T*
+(  tonight. The Custodian is already shuffling you back toward warmth and food and a) Tj
+T*
+(  fire that does not want anything from you. For the first time since the road, there) Tj
+T*
+(  is nothing chasing you. You won. Sit with that a while.) Tj
+T*
+(- Gmnotes: Conclusion-only section: no combat, no countdown, no new active crisis. Use) Tj
+T*
+(  epilogue_tone to tune warmth, grief, or relief without changing the reward-first) Tj
+T*
+(  order.) Tj
+T*
+(- Playertakeaway: You did the hard thing and lived. Take the win, take the level, and) Tj
+T*
+(  take a breath.) Tj
+T*
+(- Storytakeaway: The story is over, and now it gets to mean something.) Tj
+T*
+(- Mechanictakeaway: The epilogue uses reward, reflection, report payoff, and hook) Tj
+T*
+(  choice rather than combat or countdown.) Tj
+T*
+(- Statecontrols: epilogue_tone Epilogue Tone select triumphant bittersweet pyrrhic) Tj
+T*
+(  tragic hidden_hook_discovered Hidden Hook Discovered checkbox sequel_direction) Tj
+T*
+(  Sequel Direction select relay hidden both undecided rewards_granted Rewards Granted) Tj
+T*
+(  checkbox) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3814 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Playerquestions: What do you carry out of this night? Which door, if any, stays) Tj
+T*
+(  open?) Tj
+T*
+(- Livetools: none) Tj
+T*
+(- Playersafeprojection: EPILOGUE section Epilogue: Beyond the Contract The screeching) Tj
+T*
+(  is gone. The clearing is quiet, the open sky calm. Somewhere west, a city you may) Tj
+T*
+(  never see is waking up safe because of what you did tonight. table transition Rest,) Tj
+T*
+(  reckon with what you did, and decide what you carry forward. The screeching is gone.) Tj
+T*
+(  The clearing is quiet, the open sky calm. Somewhere west, a city you may never see) Tj
+T*
+(  is waking up safe because of what you did tonight. The Custodian is already) Tj
+T*
+(  shuffling you back toward warmth and food and a fire that does not want anything) Tj
+T*
+(  from you. For the first time since the road, there is nothing chasing you. You won.) Tj
+T*
+(  Sit with that a while. epilogue-quiet Quiet The quiet after The fight is over. The) Tj
+T*
+(  clearing is still, and the win finally has room to arrive. The fight is over. The) Tj
+T*
+(  clearing is still, and the win finally has room to arrive. The fight is over. The) Tj
+T*
+(  clearing is still, and the win finally has room to arrive. text-first epilogue-) Tj
+T*
+(  reward Reward Warmth and reward Warmth, food, pay, thanks, and level-up come before) Tj
+T*
+(  the next question. Warmth, food, pay, thanks, and level-up come before the next) Tj
+T*
+(  question. Warmth, food, pay, thanks, and level-up come before the next...) Tj
+T*
+(- Gmscript: Say: "No more fighting. This is the breath after. You earned it. We are) Tj
+T*
+(  going to level up, collect rewards, say goodbyes, and decide which doors stay open.") Tj
+T*
+(- Gmreadaloud: The screeching is gone. Somewhere west, a city you may never see is) Tj
+T*
+(  waking safe because of you. For the first time since the road, there is nothing) Tj
+T*
+(  chasing you.) Tj
+T*
+(- Gmchecklist: Reward first. Keep the mood warm and low-pressure. Do not add combat,) Tj
+T*
+(  countdown, or a new active crisis. Use S06-01 for rewards/report payoff, then S06-02) Tj
+T*
+(  for hooks.) Tj
+T*
+(- Gmprivate: The hidden thesis stays GM-only until players articulate it. Drop earned) Tj
+T*
+(  clues only after the table has felt the reward. The soul-cost idea remains a seed,) Tj
+T*
+(  not an explanation.) Tj
+T*
+(- Mechanicids: level-up report-choice roleplay table-spotlight) Tj
+T*
+(- Choicesconsequences: Take the win. The table accepts closure before hooks. Set) Tj
+T*
+(  rewards_granted=true by S06-01. S06-02 begins from satisfaction.) Tj
+T*
+(  rewards_granted=true Reward: closure. player-visible Leave a door open. The table) Tj
+T*
+(  names whether the Relay, the hidden question, both, or neither matters later. Set) Tj
+T*
+(  sequel_direction by S06-02. The one-shot ends with agency.) Tj
+T*
+(  sequel_direction=relay|hidden|both|undecided Reward: chosen ending shape. player-) Tj
+T*
+(  visible) Tj
+T*
+(- Linkedsceneids: S06-01 S06-02) Tj
+T*
+(- References: S06-01 #S06-01 S06-02 #S06-02) Tj
+T*
+(- Sourcefiles: dist/Epilogue_Upgrade_Packet/EPILOGUE_SCENE_RESEARCH.md) Tj
+T*
+(  dist/Epilogue_Upgrade_Packet/README.md) Tj
+T*
+(- Playerbeats: epilogue-quiet Quiet The quiet after The fight is over. The clearing is) Tj
+T*
+(  still, and the win finally has room to arrive. The fight is over. The clearing is) Tj
+T*
+(  still, and the win finally has room to arrive. The fight is over. The clearing is) Tj
+T*
+(  still, and the win finally has room to arrive. text-first epilogue-reward Reward) Tj
+T*
+(  Warmth and reward Warmth, food, pay, thanks, and level-up come before the next) Tj
+T*
+(  question. Warmth, food, pay, thanks, and level-up come before the next question.) Tj
+T*
+(  Warmth, food, pay, thanks, and level-up come before the next question. text-first) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3395 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  epilogue-wonder Threads What you have started to wonder Only after the win lands do) Tj
+T*
+(  the unanswered patterns begin to matter. Only after the win lands do the unanswered) Tj
+T*
+(  patterns begin to matter. Only after the win lands do the unanswered patterns begin) Tj
+T*
+(  to matter. text-first) Tj
+T*
+(- Gmbeats: epilogue-quiet Quiet The quiet after Say: "The fight is over. Let the quiet) Tj
+T*
+(  land." The fight is over. The clearing is still, and the win finally has room to) Tj
+T*
+(  arrive. The conclusion starts with relief. Table spotlight gives everyone a breath.) Tj
+T*
+(  Players feel the win before any hook. Player takeaway Players feel the win before) Tj
+T*
+(  any hook. "The fight is over. Let the quiet land." "Players feel the win before any) Tj
+T*
+(  hook." Use this beat to give the players closure, not a new problem to solve. table-) Tj
+T*
+(  spotlight Story takeaway The conclusion starts with relief. "The fight is over. Let) Tj
+T*
+(  the quiet land." "The conclusion starts with relief." Tie the answer back to what) Tj
+T*
+(  the party already did and chose. table-spotlight Mechanic takeaway Table spotlight) Tj
+T*
+(  gives everyone a breath. "The fight is over. Let the quiet land." "Table spotlight) Tj
+T*
+(  gives everyone a breath." The epilogue mechanics are reward, reflection, report) Tj
+T*
+(  payoff, and choosing which door stays open. table-spotlight epilogue-reward Reward) Tj
+T*
+(  Warmth and reward Say: "Reward first: level up, get paid, and let the people you) Tj
+T*
+(  saved thank you." Warmth, food, pay, thanks, and level-up come before the next) Tj
+T*
+(  question. Heroism becomes concrete. Level-up and...) Tj
+T*
+(- Takeawayhelp: Player takeaway You did the hard thing and lived. Take the win, take) Tj
+T*
+(  the level, and take a breath. "Heroes. Genuinely. Enjoy the warm room and the good) Tj
+T*
+(  company. You earned it." "Talk to the Custodian, talk to each other, collect your) Tj
+T*
+(  reward, or just be people for a minute." This is permission to slow down. The table) Tj
+T*
+(  should feel satisfied before any hook appears. level-up report-choice table-) Tj
+T*
+(  spotlight Story takeaway The story is over, and now it gets to mean something. "No) Tj
+T*
+(  more fighting. This is the breath after. You earned it." "The threat is over. The) Tj
+T*
+(  reckoning is rewards, goodbyes, and what you have started to suspect." Closure comes) Tj
+T*
+(  first. Intrigue only works after the win lands. level-up report-choice table-) Tj
+T*
+(  spotlight Mechanic takeaway The epilogue uses reward, reflection, report payoff, and) Tj
+T*
+(  hook choice rather than combat or countdown. "You are leveling up tonight. You will) Tj
+T*
+(  get your due, say your goodbyes, and choose what, if anything, you chase next.") Tj
+T*
+(  "There is no survival check here. There is reward, RP, and the doors the Custodian) Tj
+T*
+(  and your own instincts leave open." No combat, no countdown, no new active threat.) Tj
+T*
+(  The mechanics are reward and choice. level-up report-choice...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 9000) Tj
+T*
+(- Slidenumber: 76) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash bd38bc7401539c77 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002768 00000 n 
+0000002894 00000 n 
+0000006760 00000 n 
+0000006886 00000 n 
+0000010333 00000 n 
+0000010459 00000 n 
+0000010528 00000 n 
+0000010577 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+10649
+%%EOF

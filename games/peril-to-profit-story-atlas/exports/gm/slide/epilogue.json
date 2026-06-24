@@ -1,0 +1,49 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "EPILOGUE",
+  "title": "EPILOGUE - Epilogue: Beyond the Contract",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "360646d5c6162eae",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The screeching is gone. The clearing is quiet, the open sky calm. Somewhere west, a city you may never see is waking up safe because of what you did tonight. The Custodian is already shuffling you back toward warmth and food and a fire that does not want anything from you. For the first time since the road, there is nothing chasing you. You won. Sit with that a while."
+    },
+    {
+      "title": "Public objective",
+      "body": "Rest, reckon with what you did, and decide what you carry forward."
+    },
+    {
+      "title": "GM goal",
+      "body": "Land the plane: reward the heroes, let the table breathe, then leave one official door and one optional hidden door open."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "Conclusion-only section: no combat, no countdown, no new active crisis.",
+        "Use epilogue_tone to tune warmth, grief, or relief without changing the reward-first order."
+      ]
+    },
+    {
+      "title": "GM script",
+      "body": "Say: \"No more fighting. This is the breath after. You earned it. We are going to level up, collect rewards, say goodbyes, and decide which doors stay open.\""
+    },
+    {
+      "title": "State controls",
+      "items": [
+        "epilogue_tone Epilogue Tone select triumphant bittersweet pyrrhic tragic",
+        "hidden_hook_discovered Hidden Hook Discovered checkbox",
+        "sequel_direction Sequel Direction select relay hidden both undecided",
+        "rewards_granted Rewards Granted checkbox"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 360646d5c6162eae | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

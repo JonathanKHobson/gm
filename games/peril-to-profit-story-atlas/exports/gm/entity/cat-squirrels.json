@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "cat-squirrels",
+  "title": "Cat-Squirrels",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "ea3bb15ef0995e1a",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Cat-Squirrels: Bright little cat-squirrel hybrids leap limb to limb, chattering at route signs and knocking dew from leaves before larger creatures arrive."
+    },
+    {
+      "title": "Public role",
+      "body": "Canopy trail-life indicator"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Bright little cat-squirrel hybrids leap limb to limb, chattering at route signs and knocking dew from leaves before larger creatures arrive."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use as a moral encounter. Reward restraint and observation without forcing a pet or mascot outcome."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash ea3bb15ef0995e1a | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

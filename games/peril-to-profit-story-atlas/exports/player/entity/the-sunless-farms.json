@@ -1,0 +1,44 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "the-sunless-farms",
+  "kind": "entity",
+  "title": "The Sunless Farms",
+  "in_world_label": "Goldspire Travel Advisory",
+  "brand_flag": "Player-safe",
+  "kicker": "A farming region shaped by canopy-darkness, local ingenuity, and crops that do not need corporate sunlight to grow.",
+  "hook": "A farming region shaped by canopy-darkness, local ingenuity, and crops that do not need corporate sunlight to grow.",
+  "blocks": [
+    {
+      "label": "Arrival Read",
+      "body": "The Sunless Farms grow under canopy-darkness, proving that lack of official sunlight never meant lack of life."
+    },
+    {
+      "label": "Known For",
+      "body": "Crops grow here without the sun ever reaching them, pale rows lit by racks of living fungus-lamps tended like livestock. Compost pits breathe warmth up through the beds. The workers move by a careful schedule of light and heat, and they will tell you, with..."
+    },
+    {
+      "label": "What Is Here",
+      "body": "Local residents or workers appropriate to the place white beetles aerate soil soft blind mice steal seeds moth larvae pollinate night flowers No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route..."
+    },
+    {
+      "label": "Food And Texture",
+      "body": "The harvest is strange and good, pale roots sweet as chestnuts, mushrooms the size of fists, beans grown in the dark that taste faintly of smoke. Workers eat what does not sell, ladled hot from a pot kept warm on a..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Look for the busiest local gathering point.",
+    "Ask what has changed here recently."
+  ],
+  "archetype": "location.advisory",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:the-sunless-farms",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "2dedda3f8451ca8c",
+  "generated_at": "2026-06-23T21:40:58"
+}

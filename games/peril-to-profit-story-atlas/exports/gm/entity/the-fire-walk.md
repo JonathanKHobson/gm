@@ -1,0 +1,52 @@
+# The Fire Walk
+
+GM export - entity:the-fire-walk
+
+## Player-facing description
+The Fire Walk smells of ash, resin, and ritualized courage, a path where heat is both danger and credential.
+
+## Public role
+Make heat tactile, respectful, and consequential.
+
+## Handout text
+A route or ritualized path where fire becomes both danger and logistics credential in Sablewood's local economy.
+
+## GM truth
+No forced reveal. Let this entity disclose truth through scene context and player attention.
+
+## GM handling
+Introduce with sensory texture, then make one discoverable clue or social choice visible.
+
+## Mechanics
+- Title: Location Exploration Mechanics
+- Player Safe: Players can navigate, search, read customs, inspect hazards The Fire Walk when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: A route or ritualized path where fire becomes both danger and logistics credential in Sablewood's local economy. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-the-fire-walk-engage-the-fire-walk entity-the-fire-walk Engage The Fire Walk Engage The Fire Walk Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of The Fire Walk hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless a hazard creates Hidden, Restrained, or Vulnerable
+- Search Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+
+## Profile
+- Schema Version: location-profile-v1
+- Id: the-fire-walk
+- Entity Id: the-fire-walk
+- Source: Story Atlas generated location notes
+- Auto Surface: True
+- Priority: strong
+- Player Safe: The Fire Walk A route or ritualized path where fire becomes both danger and logistics credential in Sablewood's local economy. A route or ritualized path where fire becomes both danger and logistics credential in Sablewood's local economy. The Fire Walk smells of ash, resin, and ritualized courage, a path where heat is both danger and credential. The Fire Walk is a practical hazard turned local ritual: hot stones, safety ropes, heat vents, sweating travelers, and a weird pride about crossing properly. The place breaks into usable table spaces: Cool staging stones: People gather courage before the heat. Vent path: Heat vents create timing and route pressure. Rest pocket: A safe middle space lets players breathe. Plants and materials: heat flowers, ash moss, red-edged grasses. Animals and background life: heat lizards, ash beetles, bold little birds that steal cooled crumbs. The air...
+- Block1: The Fire Walk Make heat tactile, respectful, and consequential. A route or ritualized path where fire becomes both danger and logistics credential in Sablewood's local economy. The Fire Walk makes danger cultural without making it fake. Here danger has become culture without becoming fake. The fire is real, and so is the pride. The Fire Walk makes danger cultural without making it fake. The vents keep their own schedule. Read the rhythm wrong and the ritual bites. pages/entities/the-fire-walk.html
+- Block2: Blackened stones mark a route through controlled flame scars. Offerings, boot marks, and old safety hooks line the edges. Some burns are ceremonial; others are accidents nobody rebranded. Local marks show where to step when the obvious stones are unsafe. Detail Hot resin, ash, singed moss, and sweat. Detail Stones hold heat long after flame passes; ash coats fingers in fine gray layers. The Fire Walk smells of ash, resin, and ritualized courage, a path where heat is both danger and credential. The Fire Walk is a practical hazard turned local ritual: hot stones, safety ropes, heat vents, sweating travelers, and a weird pride about crossing properly. The place breaks into usable table spaces: Cool staging stones: People gather courage before the heat. Vent path: Heat vents create timing and route pressure. Rest pocket: A safe middle space lets players breathe. Plants and materials: heat...
+- Block3: blackened stones safety hooks offering niches local step marks Instinct to read heat and wind. Agility to cross safely. Presence to respect the ritual if locals are present. Local residents or workers appropriate to the place heat lizards, ash beetles, bold little birds that steal cooled crumbs No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues heat flowers, ash moss, red-edged grasses crossing guidance heat herbs local bragging rights
+- Block4: The place changes even if the PCs stand still. Local people, creatures, weather, signage, and ward behavior all keep moving around the scene. Treating the walk as spectacle can offend or injure. Heat changes fast with wind. Official certification may ignore local warnings. An old burn mark glows again. A safe stone cracks with a sound like snapping bone. Let the place be funny through overconfident signage, awkward forms, stubborn local habits, and magic that refuses corporate language.
+- Block5: MAP-LOC-the-fire-walk
+- Block6: Describe what the PCs can see, smell, hear, touch, ask about, or infer. Do not explain hidden infrastructure or corporate thesis until play earns it. surface A route or ritualized path where fire becomes both danger and logistics credential in Sablewood's local economy. table clue The Fire Walk makes danger cultural without making it fake. earned truth Reveal deeper system meaning through NPC answers, evidence, or player questions, not narration dumps.
+- What Here: Local residents or workers appropriate to the place heat lizards, ash beetles, bold little birds that steal cooled crumbs No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues heat flowers, ash moss, red-edged grasses crossing guidance heat herbs local bragging rights
+- Living Place: location-living-place-v1 heated crossing and trial path The Fire Walk is a practical hazard turned local ritual: hot stones, safety ropes, heat vents, sweating travelers, and a weird pride about crossing properly. Cool staging stones People gather courage before the heat. Use for choice. Vent path Heat vents create timing and route pressure. Use for movement. Rest pocket A safe middle space lets players breathe. Use for pacing. heat flowers, ash moss, red-edged grasses heat lizards, ash beetles, bold little birds that steal cooled crumbs heat shimmer, stone tick, sweat, sudden flame blossoms Heat vents pulse, plants bloom in warm cracks, insects graze ash moss, and locals read the crossing by rhythm. The path should visibly pulse before it becomes dangerous. Do you time the vents, follow local marks, test a stone, or ask what counts as crossing well? Side ledges reveal cool pockets...
+- Districts Or Subareas: Cool staging stones People gather courage before the heat. Use for choice. Vent path Heat vents create timing and route pressure. Use for movement. Rest pocket A safe middle space lets players breathe. Use for pacing.
+- Sensory Signature: Detail Hot resin, ash, singed moss, and sweat. Detail Stones hold heat long after flame passes; ash coats fingers in fine gray layers.
+- Visual Assets: location-visual-assets-v1 the-fire-walk The Fire Walk Bright comedic frontier high-fantasy concept art for a Daggerheart-adjacent tabletop RPG. Medieval/Renaissance fantasy technology only: hand tools, wagons, ropes, parchment notices, ward-stones, carved wood, brass, cloth, stone, moss, lanterns, and magic. The tone is colorful, playful, slightly absurd, and vivid, like a fantasy corporate frontier comedy rather than a grim drama. No sci-fi machinery, no 1800s/Victorian clothing, no modern suits, no guns, no logos, no readable text, no watermark, no border, no collage. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/the-fire-walk MAP-LOC-the-fire-walk heated crossing hazard crossing map profile_scene Profile image ready /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/the-fire-walk/profile_scene_v02.png...
+- Imagine It Like: A volcanic hot-walk or a firewalking ritual at a festival. Think geyser field crossed with a rite of passage everyone pretends is no big deal.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 3e38ffea20856efb | Source hash dac3370046ed077140fab2d6

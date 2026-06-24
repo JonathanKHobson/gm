@@ -1,0 +1,49 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "npc-community-trust-track",
+  "title": "NPC / Community Trust Track",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "ff083d2b582a4f52",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "A module-facing tracker for rapport with a person or settlement."
+    },
+    {
+      "title": "How it works",
+      "body": "Use when repeated choices change how warm, candid, generous, or guarded an NPC/community becomes."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use when repeated choices change how warm, candid, generous, or guarded an NPC/community becomes.",
+        "High trust makes help warmer and clearer. Low trust still lets play continue, but with distance, fewer gifts, or harder social positioning.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "How does trust change play?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "presence",
+        "roleplay",
+        "community"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash ff083d2b582a4f52 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

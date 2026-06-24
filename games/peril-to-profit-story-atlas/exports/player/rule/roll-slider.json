@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "roll-slider",
+  "kind": "rule",
+  "title": "Roll Slider",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "adaptation-overlay",
+  "hook": "Kyle's optional degree-of-success overlay: the total says how far above or below Difficulty the result lands while Hope/Fear sets the spin.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Kyle's optional degree-of-success overlay: the total says how far above or below Difficulty the result lands while Hope/Fear sets the spin."
+    },
+    {
+      "label": "How It Works",
+      "body": "Roll Slider: Kyle's optional degree-of-success overlay: the total says how far above or below Difficulty the result lands while Hope/Fear sets the spin."
+    },
+    {
+      "label": "Try It",
+      "body": "What extra thing does the slider add?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use when a clue, negotiation, or set piece benefits from richer tiers than pass/fail.",
+    "It tells you how much they get: botch, miss, hit, clean, soar, or crit, while Hope/Fear still colors the result.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:roll-slider",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "b3b9eaf632bedbfc",
+  "generated_at": "2026-06-23T21:40:58"
+}

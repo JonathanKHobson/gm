@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S03-03",
+  "kind": "scene",
+  "title": "S03-03 - The Clover Co-op",
+  "in_world_label": "Situation Briefing",
+  "brand_flag": "Briefing",
+  "kicker": "Seeking a Custodian",
+  "hook": "The Clover Co-op climbs six stories up an ancient tree. The room smells of bread, moss tea, old wood, and somebody’s terrible but enthusiastic fiddle.",
+  "blocks": [
+    {
+      "label": "Where You Are",
+      "body": "The Clover Co-op climbs six stories up an ancient tree. The room smells of bread, moss tea, old wood, and somebody’s terrible but enthusiastic fiddle."
+    },
+    {
+      "label": "Plain Stakes",
+      "body": "The party visits the Clover Co-op, the social heart of Hush."
+    },
+    {
+      "label": "Visible Options",
+      "body": "Honor shoe custom Ask for gossip Join festival game Find Custodian directions"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "What local custom in Hush reminds you of home?",
+    "Who accepts hospitality awkwardly, and who knows exactly what to do?",
+    "What small repaired object in the Co-op tells you this place survives by care?"
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - scene:S03-03",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "0cbc1a402ea20144",
+  "generated_at": "2026-06-23T21:40:58"
+}

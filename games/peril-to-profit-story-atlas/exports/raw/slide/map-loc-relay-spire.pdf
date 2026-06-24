@@ -1,0 +1,437 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2397 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-relay-spire - Relay Spire Vista) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(Stone spires break through the treeline, each holding a small flame. One light westward) Tj
+T*
+(burns weaker than the rest.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Stone spires break through the treeline, each holding a small flame. One light westward) Tj
+T*
+(burns weaker than the rest.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-relay-spire) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: EPILOGUE) Tj
+T*
+(- Sectiontitle: Epilogue: Beyond the Contract) Tj
+T*
+(- Title: Relay Spire Vista) Tj
+T*
+(- Shorttitle: The Relay Spire) Tj
+T*
+(- Order: 702.08) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-relay-spire-gm.png) Tj
+T*
+(- Alt: Relay Spire location map board.) Tj
+T*
+(- Caption: The official future door: a failing light in the west.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Use the map as the visual anchor for the official Relay hook. Do not make it) Tj
+T*
+(  playable this session.) Tj
+T*
+(- Publicobjective: Stone spires break through the treeline, each holding a small) Tj
+T*
+(  flame. One light westward burns weaker than the rest.) Tj
+T*
+(- Readaloud: Stone spires break through the treeline, each holding a small flame. One) Tj
+T*
+(  light westward burns weaker than the rest.) Tj
+T*
+(- Gmnotes: The Relay Spire is a door left open, not an encounter.) Tj
+T*
+(- Gmscript: Say: "This is a vista, not a dungeon. The weak light is the hook; the map) Tj
+T*
+(  is what she can give you later.") Tj
+T*
+(- Gmreadaloud: Stone spires break through the treeline. One western light burns weaker) Tj
+T*
+(  than it should.) Tj
+T*
+(- Gmchecklist: Show as hook context only. Offer Instinct or Knowledge only if players) Tj
+T*
+(  study the light. Do not start travel or combat. Set relay_hook_accepted from the) Tj
+T*
+(  party's answer.) Tj
+T*
+(- Gmprivate: GM-only underside: the failure may be engineered. Drop that only as a) Tj
+T*
+(  clue if players already connect the pattern.) Tj
+T*
+(- Playertakeaway: Stone spires break through the treeline, each holding a small flame.) Tj
+T*
+(  One light westward burns weaker than the rest.) Tj
+T*
+(- Storytakeaway: The official hook is clear and heroic: a light is failing in the) Tj
+T*
+(  west.) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3793 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Mechanictakeaway: Use Instinct/Knowledge only to read the light; sequel_direction) Tj
+T*
+(  records the door left open.) Tj
+T*
+(- Entityids: relay-spire) Tj
+T*
+(- Entities: relay-spire Relay Spire location Location assets/icons/location.png) Tj
+T*
+(  assets/location-visuals/relay-spire/profile_scene_v02.png REE-lay spy-er A slim,) Tj
+T*
+(  windswept relay tower with a beacon at the top that has lately begun to burn thin.) Tj
+T*
+(  Point beyond the ending without taking the ending away. A distant ward relay whose) Tj
+T*
+(  flame feels weak after the ritual.; introduce it with a sensory palette, who feels) Tj
+T*
+(  safe there, and what has been neglected. Pull player attention toward the choices,) Tj
+T*
+(  clues, and relationships tied to Whitefire Custodian, Spirekeeper, Old Sable. A) Tj
+T*
+(  distant ward relay whose flame feels weak after the ritual.) Tj
+T*
+(- Locationids: relay-spire) Tj
+T*
+(- Statecontrols: relay_hook_accepted Relay Hook Accepted checkbox) Tj
+T*
+(  hidden_hook_discovered Hidden Hook Discovered checkbox sequel_direction Sequel) Tj
+T*
+(  Direction select relay hidden both undecided epilogue_tone Epilogue Tone select) Tj
+T*
+(  triumphant bittersweet pyrrhic tragic) Tj
+T*
+(- Mechanicids: instinct knowledge report-choice table-spotlight) Tj
+T*
+(- Playerquestions: Do you take the map? Who looks longest at the weak light?) Tj
+T*
+(- Fearspends: None ? this is denouement. Save tension for the next adventure. Leave) Tj
+T*
+(  one thread dangling on purpose: the Custodian's offhand "or becomes sentient" about) Tj
+T*
+(  the Keystone. Don't explain it. Let it haunt.) Tj
+T*
+(- Choicesconsequences: Take the map. The official hook stays open. Set) Tj
+T*
+(  relay_hook_accepted=true. Future direction can be relay or both.) Tj
+T*
+(  relay_hook_accepted=true Reward: clear next door. player-visible Let the night end.) Tj
+T*
+(  The one-shot closes with rest. Set sequel_direction=undecided if no other hook) Tj
+T*
+(  lands. No next scene is forced. sequel_direction=undecided Reward: complete closure.) Tj
+T*
+(  player-visible) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S06-02) Tj
+T*
+(- Mapdata: MAP-LOC-relay-spire environment Relay Spire Vista S06-02 relay-spire) Tj
+T*
+(  assets/location-visuals/relay-spire/profile_scene_v02.png The official future door:) Tj
+T*
+(  a failing light in the west. Relay Spire location map board. Stone spires break) Tj
+T*
+(  through the treeline, each holding a small flame. One light westward burns weaker) Tj
+T*
+(  than the rest. Stone spires break through the treeline, each holding a small flame.) Tj
+T*
+(  One light westward burns weaker than the rest. Use the map as the visual anchor for) Tj
+T*
+(  the official Relay hook. Do not make it playable this session. The Relay Spire is a) Tj
+T*
+(  door left open, not an encounter. Aerial view of the canopy; twisting stone spires) Tj
+T*
+(  with flames flickering inside; one beacon noticeably dimmer than the rest. a faint,) Tj
+T*
+(  wrong hum on the western wind ? the failing Relay. cold smoke where the dim spire) Tj
+T*
+(  stands, as if its fire is already half out. Calm-after-the-storm; the satisfied) Tj
+T*
+(  exhaustion of a job done; a thread left deliberately loose. The Custodian, older and) Tj
+T*
+(  tired, tending the Keystone above her hearth-fire. A thin pulse answers the restored) Tj
+T*
+(  ward from the horizon. The light is blue-white, delayed, and weaker than it should) Tj
+T*
+(  be. The Custodian watches it before deciding how...) Tj
+T*
+(- Sourcefiles: dist/Epilogue_Upgrade_Packet/EPILOGUE_MAPS_AND_LOCATIONS.md) Tj
+T*
+(- References: S06-02 #S06-02) Tj
+T*
+(- Livetools: scene MAP-LOC-relay-spire) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4242 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Percharacterlayer: garrick-reed Garrick Reed Security playbook Garrick has seen) Tj
+T*
+(  staged danger, narrative control, and incident reports from the inside.) Tj
+T*
+(  Knowledge/Presence earned clue chain Can notice the pattern looks like a job, not) Tj
+T*
+(  nature. Can name the hidden pattern if the player reaches it. Garrick, you ran) Tj
+T*
+(  security for them. Does any of this start to look like a job to you? Want to say) Tj
+T*
+(  what you're seeing? marlowe-fairwind Marlowe Fairwind Magical seam If) Tj
+T*
+(  keystone_understanding is deep, Marlowe knows protection had a cost and can wonder) Tj
+T*
+(  who benefits from that cost. Knowledge gated by keystone_understanding=deep Connects) Tj
+T*
+(  the ward's consuming nature to the larger pattern without explaining the mechanism.) Tj
+T*
+(  Can make the hidden hook magical instead of bureaucratic. Marlowe, the ward consumes) Tj
+T*
+(  to protect. What if the danger it protects against is being made? Want to follow) Tj
+T*
+(  that thought? barnacle Barnacle Follow the money Barnacle has been asking who) Tj
+T*
+(  profits since the job started. Finesse/Knowledge earned clue chain Names who) Tj
+T*
+(  benefits every time the forest is called dangerous. Can turn the hidden hook into a) Tj
+T*
+(  clean rogue question: who gets paid? Barnacle, you've been asking who profits. Want) Tj
+T*
+(  to say the...) Tj
+T*
+(- Gmbeats: MAP-LOC-relay-spire-vista Vista Seen from above Say: "The weak flame is the) Tj
+T*
+(  hook. You are not entering that place tonight." Stone spires and one weak flame give) Tj
+T*
+(  the table a simple visual hook. The future is a horizon, not a new scene. Map use is) Tj
+T*
+(  contextual only. Players understand the visual hook. Player takeaway Players) Tj
+T*
+(  understand the visual hook. "The weak flame is the hook. You are not entering that) Tj
+T*
+(  place tonight." "Players understand the visual hook." Use this beat to give the) Tj
+T*
+(  players closure, not a new problem to solve. table-spotlight Story takeaway The) Tj
+T*
+(  future is a horizon, not a new scene. "The weak flame is the hook. You are not) Tj
+T*
+(  entering that place tonight." "The future is a horizon, not a new scene." Tie the) Tj
+T*
+(  answer back to what the party already did and chose. table-spotlight Mechanic) Tj
+T*
+(  takeaway Map use is contextual only. "The weak flame is the hook. You are not) Tj
+T*
+(  entering that place tonight." "Map use is contextual only." The epilogue mechanics) Tj
+T*
+(  are reward, reflection, report payoff, and choosing which door stays open. table-) Tj
+T*
+(  spotlight) Tj
+T*
+(- Takeawayhelp: Player takeaway The Relay is a future door, not tonight's danger. "The) Tj
+T*
+(  weak flame is the hook. You are not entering that place tonight." "You can take the) Tj
+T*
+(  map or let the night end complete." Keep the table relaxed. report-choice table-) Tj
+T*
+(  spotlight Story takeaway A failing western light gives the official heroic hook. "A) Tj
+T*
+(  Keeper may be in trouble. That is enough for the official hook." "The Relay is west,) Tj
+T*
+(  a few hours away, and the Custodian can guide you later." No future one-shot is) Tj
+T*
+(  planned here. report-choice table-spotlight Mechanic takeaway Instinct/Knowledge can) Tj
+T*
+(  read the light; state records whether the door stays open. "If you study the light,) Tj
+T*
+(  Instinct or Knowledge 12 tells you it is weaker than it should be." "Set) Tj
+T*
+(  relay_hook_accepted and sequel_direction from their answer." No combat state or) Tj
+T*
+(  countdown belongs here. report-choice table-spotlight) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-relay-spire-player.png The Relay Spire map board.) Tj
+T*
+(  MAP-LOC-relay-spire environment The Relay Spire S06-02 assets/maps/MAP-LOC-relay-) Tj
+T*
+(  spire-player.png assets/maps/MAP-LOC-relay-spire-player.png The Relay Spire map) Tj
+T*
+(  board. Stone spires break through the treeline, each holding a small flame. One) Tj
+T*
+(  light westward burns weaker than the rest. Stone spires break through the treeline,) Tj
+T*
+(  each holding a small flame. One light westward burns weaker than the rest. Dim) Tj
+T*
+(  beacon A future crisis, not today's fight. 0.56 0.32 MAP-LOC-relay-spire-map-only) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 2458 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Map only The Relay Spire map-only assets/maps/MAP-LOC-relay-spire-player.png The) Tj
+T*
+(  Relay Spire map board. MAP-LOC-relay-spire environment The Relay Spire S06-02) Tj
+T*
+(  assets/maps/MAP-LOC-relay-spire-player.png assets/maps/MAP-LOC-relay-spire-) Tj
+T*
+(  player.png The Relay Spire map board. Stone spires break through the treeline, each) Tj
+T*
+(  holding a small flame. One light westward burns weaker than the rest. Stone spires) Tj
+T*
+(  break through the treeline, each holding a small flame. One light westward burns) Tj
+T*
+(  weaker than the rest. Dim beacon A future crisis, not today's fight. 0.56 0.32 MAP-) Tj
+T*
+(  LOC-relay-spire-map-text Map + text The Relay Spire Stone spires break...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-relay-spire map The Relay Spire assets/maps/MAP-LOC-) Tj
+T*
+(  relay-spire-player.png The Relay Spire map board. spatial reference and location) Tj
+T*
+(  texture Stone spires break through the treeline, each holding a small flame. One) Tj
+T*
+(  light westward burns weaker than the rest. Stone spires break through the treeline,) Tj
+T*
+(  each holding a small flame. One light westward burns weaker than the rest. MAP-LOC-) Tj
+T*
+(  relay-spire environment The Relay Spire S06-02 assets/maps/MAP-LOC-relay-spire-) Tj
+T*
+(  player.png assets/maps/MAP-LOC-relay-spire-player.png The Relay Spire map board.) Tj
+T*
+(  Stone spires break through the treeline, each holding a small flame. One light) Tj
+T*
+(  westward burns weaker than the rest. Stone spires break through the treeline, each) Tj
+T*
+(  holding a small flame. One light westward burns weaker than the rest. Dim beacon A) Tj
+T*
+(  future crisis, not today's fight. 0.56 0.32 assets/maps/MAP-LOC-relay-spire-) Tj
+T*
+(  player.png The Relay Spire map board. MAP-LOC-relay-spire environment The Relay) Tj
+T*
+(  Spire S06-02 assets/maps/MAP-LOC-relay-spire-player.png assets/maps/MAP-LOC-relay-) Tj
+T*
+(  spire-player.png The Relay Spire map board. Stone spires break through the treeline,) Tj
+T*
+(  each holding a small flame. One light westward burns weaker than the rest. Stone...) Tj
+T*
+(- Slidenumber: 79) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash d280b2630880964f | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R] /Count 4 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000002458 00000 n 
+0000002585 00000 n 
+0000006430 00000 n 
+0000006557 00000 n 
+0000010851 00000 n 
+0000010978 00000 n 
+0000013488 00000 n 
+0000013615 00000 n 
+0000013690 00000 n 
+0000013740 00000 n 
+trailer
+<< /Size 12 /Root 10 0 R >>
+startxref
+13813
+%%EOF

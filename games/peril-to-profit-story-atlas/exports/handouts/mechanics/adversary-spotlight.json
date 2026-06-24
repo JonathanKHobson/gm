@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "adversary-spotlight",
+  "kind": "rule",
+  "title": "Spotlight",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "combat",
+  "hook": "Daggerheart combat flows through spotlight rather than initiative order.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Daggerheart combat flows through spotlight rather than initiative order."
+    },
+    {
+      "label": "How It Works",
+      "body": "Spotlight: Daggerheart combat flows through spotlight rather than initiative order."
+    },
+    {
+      "label": "Try It",
+      "body": "Is there initiative?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use to pass attention where the fiction is hottest.",
+    "No fixed initiative; spotlight follows fiction.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:adversary-spotlight",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "4ce3e1ed4d443355",
+  "generated_at": "2026-06-23T21:40:58"
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "scene",
+  "id": "S04-04",
+  "title": "S04-04 - The Keystone Reveal",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "5001946497000afd",
+  "sections": [
+    {
+      "title": "Player read-aloud",
+      "body": "Inside the sealed crate is a massive stone with a lion’s face carved into it. The room goes quiet before anyone speaks."
+    },
+    {
+      "title": "Scene summary",
+      "body": "The crate contains the Keystone Asset / ward-stone tied to major protective infrastructure."
+    },
+    {
+      "title": "Visible choices",
+      "items": [
+        "Ask why it was hidden",
+        "Accuse Emeris",
+        "Agree to help",
+        "Refuse danger"
+      ]
+    },
+    {
+      "title": "Player questions",
+      "items": [
+        "What detail in The Keystone Reveal tells you the official story is incomplete?",
+        "Who notices the human cost first, and how do they show it?",
+        "What small object, smell, or sound makes this scene feel real?"
+      ]
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "This is where Marlowe realizes how much was withheld from her too, unless you want her to know already.",
+        "Keep player-facing information actionable. Reveal systemic truth through objects, reactions, and consequences before naming it.",
+        "Manufactured-threat lens: seed the contradiction, do not explain it. The surface goal stays simple and heroic.",
+        "[KEEP/GUARANTEED] The sealed package is the capital's ward Keystone; the city is unwarded while it is away.",
+        "[ADD/SEED] \"Your capital's safety is older than your contracts. It is the very thing they teach you to fear.\"",
+        "[ADD/EARNED] The Keystone's magic is pre-corporate forest-ward work, the same school companies call primitive. (Knowledge Hard 20)"
+      ]
+    },
+    {
+      "title": "Checks and rolls",
+      "items": [
+        "Knowledge Understand the ward-stone without changing module mechanics. Standard The party learns what must be defended. 15 Cleanly resolve: Understand the ward-stone without changing module mechanics. Add a concrete boon, extra clue, or improved position. Success, plus the player names one helpful detail or asks one follow-up question. Success, but the GM exposes a cost, ticks a countdown, or reveals a new pressure tied to The Keystone Reveal. The full goal slips, but the party still learns a useful truth or avoids the worst consequence. The GM makes a hard move that follows from the fiction and leaves the next choice visible. Spend Fear to expose neglected infrastructure, stress the Custodian, or make the Keystone hum at the wrong moment. On mixed or sliding results, reveal information in layers: visible fact, actionable clue, then systemic truth."
+      ]
+    },
+    {
+      "title": "Clues",
+      "items": [
+        "Keystone pulse The crate protects Hush. Corporate custody is administratively convenient, not morally clean. It responds to ward stress, not ownership.",
+        "Guaranteed seed The sealed package is the capital's ward Keystone; the city is unwarded while it is away. The sealed package is the capital's ward Keystone; the city is unwarded while it is away.",
+        "Earned seed Available if players investigate, show mercy, or ask the right question. The Keystone's magic is pre-corporate forest-ward work, the same school companies call primitive. Knowledge Hard 20"
+      ]
+    },
+    {
+      "title": "Loot",
+      "items": [
+        "Keystone handling instructions",
+        "Ward map copy",
+        "Keystone Asset™: Inside the sealed crate, packed in wax-paper and reassurance, sits a heavy grey stone the size of a loaf, warm to the touch, faintly humming, with a light deep inside it that is slowly going out.",
+        "Whitefire Custodian's Ward-Charm: A small hand-carved wooden ratcoon mid-scamper has been thumb-worn smooth for luck. It is warm, and the forest feels a little kinder while you hold it."
+      ]
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Plot So Far: The party is in Act Four pressure: The crate contains the Keystone Asset / ward-stone tied to major protective infrastructure.",
+        "Mechanics In Play: Use Daggerheart Duality Dice as baseline. Use the listed Difficulty and outcome options when a roll matters. Keep trivial actions no-roll; roll only when uncertainty, cost, or danger is interesting.",
+        "Roll Cards: s04-04-recognize-the-keystone S04-04 Recognize the Keystone Recognize the Keystone Knowledge Knowledge None 12 Knowledge connects heraldry, wardcraft, and custody. The party carries a capital crisis without understanding it. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. The party carries a capital crisis without understanding it. Use a hard...",
+        "Gm Fear Spends: Make neglected infrastructure answer at the wrong moment. Stress the Custodian's trust without turning her into a device.",
+        "Conditions Hazards: No official condition unless a feature, hazard, or fictional position calls for Hidden, Restrained, or Vulnerable.",
+        "Search Loot Clues: Keystone handling: warning label, hum, possible splinter only on remarkable care.",
+        "No Roll Guidance: Do not call for a roll when the players have time, a clear method, and no meaningful pressure.",
+        "Escalation: Escalate by making cost visible: time, noise, trust, ward instability, or someone vulnerable in danger.",
+        "Deescalation: De-escalate through respect, care, honest testimony, useful evidence, or a concrete concession.",
+        "Tv Mechanics Caption: Public cue: The Keystone Reveal asks what the party does, what it costs, and who is protected.",
+        "Trait Variety Note: Primary traits in this scene: Finesse, Instinct, Knowledge. If rolls drift toward Instinct/Presence, ask whether Agility, Strength, Finesse, or Knowledge better describes the action.",
+        "Class Community Ancestry Reveals: Loreborne: spots older legal, heraldic, or ward-craft language under the branding. Underborne: notices service doors, hidden routes, and who built the thing nobody credits. Highborne: reads etiquette, class panic, and reputational risk. Ridgeborne: notices stonework, weight, pressure, and structural weakness. Wildborne: reads the land, animals, and local ecological stress. Elf/Ribbet/Human/Giant/Katari: invite one sensory or social detail from the player's heritage. Sorcerer/Rogue/Warrior/Guardian/Ranger: give each class one table-facing way to shine without changing the plot."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 5001946497000afd | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "lemur-toads",
+  "title": "Lemur-Toads",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "a10d981ee94add3f",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Lemur-Toads: Lemur-toads swing overhead and gossip-click from wet hollows, then go abruptly silent when something hungry moves nearby."
+    },
+    {
+      "title": "Public role",
+      "body": "Noise-and-silence trail cue"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Lemur-toads swing overhead and gossip-click from wet hollows, then go abruptly silent when something hungry moves nearby."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use as a moral encounter. Reward restraint and observation without forcing a pet or mascot outcome."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash a10d981ee94add3f | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "SZ-06",
+  "kind": "slide",
+  "title": "SZ-06 - Connections Workshop",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Session Zero",
+  "hook": "Offer, don't overwrite. A connection prompt is your character's perspective: what they remember, saw, believed, misunderstood, felt, or interpreted.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "Offer, don't overwrite. A connection prompt is your character's perspective: what they remember, saw, believed, misunderstood, felt, or interpreted."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Offer, don't overwrite. A connection prompt is your character's perspective: what they remember, saw, believed, misunderstood, felt, or interpreted."
+    },
+    {
+      "label": "Player Bullets",
+      "body": "The other player can accept it, clarify it, complicate it, soften it, or pass. Yes, and... Yes, but... Can we soften that? I like the emotional idea, but not that detail. Pass; give me another prompt. Active prompt..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "The other player can accept it, clarify it, complicate it, soften it, or pass.",
+    "Yes, and...",
+    "Yes, but...",
+    "Can we soften that?"
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:SZ-06",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "00cde7f3160073d1",
+  "generated_at": "2026-06-23T21:40:58"
+}

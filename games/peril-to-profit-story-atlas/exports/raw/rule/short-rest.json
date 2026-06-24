@@ -1,0 +1,57 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "rule",
+  "id": "short-rest",
+  "title": "Short Rest",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "f8f53bd46c790153",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "About an hour to recover and prepare."
+    },
+    {
+      "title": "How it works",
+      "body": "Use at the Open Vale rest beat or similar downtime."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use at the Open Vale rest beat or similar downtime.",
+        "Tend Wounds, Clear Stress, Repair Armor, or Prepare.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "What can I do on a short rest?"
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: short-rest",
+        "Title: Short Rest",
+        "Tag: official",
+        "Summary: About an hour to recover and prepare.",
+        "When: Use at the Open Vale rest beat or similar downtime.",
+        "Not When: Do not use in the middle of immediate danger.",
+        "Question: What can I do on a short rest?",
+        "Answer: Tend Wounds, Clear Stress, Repair Armor, or Prepare.",
+        "Example: Before the ritual, each PC chooses two rest moves.",
+        "Related: stress armor-slots hope",
+        "Aliases: rest Prepare Tend to Wounds Clear Stress Repair Armor",
+        "Source: Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+        "Mechanic Profile: mechanic-profile-v1 short-rest Short Rest rest Prepare Tend to Wounds Clear Stress Repair Armor Short Rest downtime #rules-canon Beginner+ stress armor-slots hope Introduce at first use stress armor-slots hope About an hour to recover and prepare. Tend Wounds, Clear Stress, Repair Armor, or Prepare. Use at the Open Vale rest beat or similar downtime. Short Rest: About an hour to recover and prepare. Use at the Open Vale rest beat or similar downtime. Tend Wounds, Clear Stress, Repair Armor, or Prepare. Return to the fiction with the concrete result, cost, or benefit. Before the ritual, each PC chooses two rest moves. Before the ritual, each PC chooses two rest moves. What can I do on a short rest? Short Rest rest Prepare Tend to Wounds Clear Stress Repair Armor stress armor-slots hope Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use.",
+        "Canon Status: #rules-canon",
+        "Category: downtime"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash f8f53bd46c790153 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

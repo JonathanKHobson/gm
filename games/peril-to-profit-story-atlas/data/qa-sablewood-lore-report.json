@@ -1,0 +1,123 @@
+{
+  "pass": true,
+  "check_count": 23,
+  "issue_count": 0,
+  "registry_count": 88,
+  "checks": [
+    {
+      "name": "Sablewood registry data exists",
+      "ok": true,
+      "detail": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/data/sablewood-entity-registry.json"
+    },
+    {
+      "name": "Sablewood source document data exists",
+      "ok": true,
+      "detail": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/data/sablewood-source-document.json"
+    },
+    {
+      "name": "Atlas entities data exists",
+      "ok": true,
+      "detail": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/data/entities.json"
+    },
+    {
+      "name": "Run Mode slides data exists",
+      "ok": true,
+      "detail": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/data/slides.json"
+    },
+    {
+      "name": "Sablewood registry has broad PDF coverage",
+      "ok": true,
+      "detail": "found 88 rows"
+    },
+    {
+      "name": "source PDF is bundled in generated site",
+      "ok": true,
+      "detail": "sources/Peril_to_Profit_Sablewood_Logistics_Preserve.pdf"
+    },
+    {
+      "name": "every registry row resolves to an entity",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "every registry entity has a generated wiki page",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "every registry row contributes an alias or canonical name",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "every registry row records its Sablewood PDF source page",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "every registry entity is tagged sablewood-lore",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sablewood wiki includes direct PDF source link",
+      "ok": true,
+      "detail": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/pages/entities/sablewoodtm-logistics-preserve.html"
+    },
+    {
+      "name": "Run Mode has Sablewood Field Guide section",
+      "ok": true,
+      "detail": "[\n  \"ACT-FIVE\",\n  \"ACT-FOUR\",\n  \"ACT-ONE\",\n  \"ACT-THREE\",\n  \"ACT-TWO\",\n  \"CHEATS\",\n  \"EPILOGUE\",\n  \"MAPS\",\n  \"PROLOGUE\",\n  \"SABLEWOOD\",\n  \"SESSION-ZERO\",\n  \"STORY\"\n]"
+    },
+    {
+      "name": "Run Mode Sablewood slide exists: SABLEWOOD-GUIDE",
+      "ok": true,
+      "detail": "SABLEWOOD-GUIDE"
+    },
+    {
+      "name": "Run Mode Sablewood slide exists: SABLEWOOD-ROUTES",
+      "ok": true,
+      "detail": "SABLEWOOD-ROUTES"
+    },
+    {
+      "name": "Run Mode Sablewood slide exists: SABLEWOOD-FACTIONS",
+      "ok": true,
+      "detail": "SABLEWOOD-FACTIONS"
+    },
+    {
+      "name": "Run Mode Sablewood slide exists: SABLEWOOD-GEAR",
+      "ok": true,
+      "detail": "SABLEWOOD-GEAR"
+    },
+    {
+      "name": "Run Mode Sablewood slide exists: SABLEWOOD-RUMORS",
+      "ok": true,
+      "detail": "SABLEWOOD-RUMORS"
+    },
+    {
+      "name": "Run Mode includes Sablewood shortcut",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "scene patches include Sablewood Route Network",
+      "ok": true,
+      "detail": "Sablewood Route Network"
+    },
+    {
+      "name": "scene patches include Bramble Union Villages",
+      "ok": true,
+      "detail": "Bramble Union Villages"
+    },
+    {
+      "name": "scene patches include Guest Privileges",
+      "ok": true,
+      "detail": "Guest Privileges"
+    },
+    {
+      "name": "scene patches include The Stones of the Vale",
+      "ok": true,
+      "detail": "The Stones of the Vale"
+    }
+  ]
+}

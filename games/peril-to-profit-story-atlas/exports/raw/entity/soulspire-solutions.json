@@ -1,0 +1,68 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "soulspire-solutions",
+  "title": "Soulspire Solutions",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "bfd9aefb760b28e6",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Soulspire Solutions: Soulspire Solutions™ sells peace of mind now and, once the debt outlives you, repossesses the soul that had it. Slogan: Soulspire™: rest easy, we'll handle the rest."
+    },
+    {
+      "title": "Public role",
+      "body": "Verified Soulspire soul-logistics corporation and silent ward-network power utility"
+    },
+    {
+      "title": "Handout text",
+      "body": "Soulspire Solutions: Soulspire Solutions™ sells peace of mind now and, once the debt outlives you, repossesses the soul that had it. Slogan: Soulspire™: rest easy, we'll handle the rest."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: corporation",
+        "Role: Verified Soulspire soul-logistics corporation and silent ward-network power utility",
+        "Tags: audit-recovery corp faction-profile lore manufactured-threat",
+        "Summary: Soulspire Solutions™ sells peace of mind now and, once the debt outlives you, repossesses the soul that had it.",
+        "Connections: Kazrak Industries Soul-Audit Wraith Goldwater Financial Institution Old Gregor",
+        "Loot: Use only as eerie flavor if desired.",
+        "Name: Soulspire Solutions",
+        "Id: soulspire-solutions",
+        "Meta: Corporation / Company CORP assets/icons/corporation.png entity-corp #d6a936 06 Factions and Companies factions corporation",
+        "Aliases: Soulspire Soulspire Solutions Soulspire Solutions™",
+        "Appears In: S04-03 S05-05",
+        "Related: Goldwater Financial Institution Kazrak Industries Old Gregor S04-03 S05-05 Soul-Audit Wraith",
+        "Image Prompt: Private table TTRPG story atlas asset for Soulspire Solutions, Corporation / Company. Role: Verified Soulspire soul-logistics corporation and silent ward-network power utility. Summary: Soulspire Solutions™ sells peace of mind now and, once the debt outlives you, repossesses the soul that had it.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Create a clean symbolic crest or brand mark on a plain dark background; no readable words. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Personality: A company linked to soul contracts, memory extraction, or metaphysical compliance.; present the public face as polished enough to pass a brochure and the real function through paperwork, assets, and cost-shifting.",
+        "Wants: Convert risk around Kazrak Industries, Soul-Audit Wraith into confidence, billable certainty, or controlled liability.",
+        "Fears: Plain evidence, human testimony, and players following the gap between promise and operational harm.",
+        "Secrets: Its public story converts risk into confidence; its real function moves cost onto ordinary people.",
+        "Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.",
+        "Sample Dialogue: Public line: A company linked to soul contracts, memory extraction, or metaphysical compliance.",
+        "Equipment: No equipment; use as context, place, faction, mechanic, or clue rather than treasure.",
+        "Search Or Loot: Use only as eerie flavor if desired.",
+        "Gm Use: Keep the satire pointed at institutional behavior, not vulnerable people. Reveal function through assets, language, and consequences. Use this page to seed the manufactured-threat reframe without turning it into exposition.",
+        "Future Hooks: Expose the gap between public assurance and operational harm. Can become evidence in the future Relay Spire manufactured-threat investigation.",
+        "Robust: Soulspire Solutions: Soulspire Solutions™ sells peace of mind now and, once the debt outlives you, repossesses the soul that had it. Slogan: Soulspire™: rest easy, we'll handle the rest. Deepest layer, GM-only: Board ownership/collusion sits behind this brand. Surface only as hints and patterns. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Convert risk around Kazrak Industries, Soul-Audit Wraith into confidence, billable certainty, or controlled liability. Plain evidence, human testimony, and players following the gap between promise and operational harm. Act 5 soul-audit pressure and undead personhood sit in Soulspire's business model. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Soulspire Solutions and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more...",
+        "Manufactured Threat: Owns, looses, or attracts Soul-Audit Wraiths. Harvests soul-resonant magic like the Open Vale ritual's signal.",
+        "Pronunciation: SOHL-spire solutions",
+        "Short Pronunciation: SOHL-spire solutions",
+        "Pronunciation Note: Verified spelling: Soulspire.",
+        "Faction Profile: faction-profile-v1 soulspire-solutions soulspire-solutions Faction_System_Packet/factions/Corps_Touching_The_Oneshot.md strong True True soulspire Soulspire Solutions Comforting soul insurance and afterlife services sold as peace of mind. Soulspire™: rest easy, we'll handle the rest. Soulspire Solutions™ sells peace of mind now and, once the debt outlives you, repossesses the soul that had it. Everything about Soulspire™ is soothing on purpose: lavender light, a hushed lobby, a counselor in soft grey who calls death a 'transition event' and your grief a 'coverage gap.' Brochures for the Eternal Comfort Plan™ show smiling families and a tasteful urn; the waiting-room hymn loops a wellness ballad about rest. Sign the Afterlife Assurance™ and you will feel genuinely better, which is the point, because page forty-seven of the same friendly packet is where a person legally stops being one and becomes, in their cheerful internal term, a 'continuing contributor.' The undead on the night roads are not monsters. They are accounts in good standing. A Soulspire pamphlet folds open like a condolence card. The ink is blue-black, the border is tasteful, and the little painted candle at the top...",
+        "Image: assets/logos/soulspire-solutions.webp",
+        "Image Asset Status: image_gen",
+        "Faction Representative Image: assets/factions/soulspire-solutions-representative.webp",
+        "Faction Representative Status: image_gen",
+        "Visual Gallery: primary Primary wiki image primary assets/logos/soulspire-solutions.webp Soulspire Solutions primary wiki image visual. Soulspire Solutions: Primary wiki image. image_gen True True faction-logo-source Faction logo faction-logo assets/entity-gallery/soulspire-solutions/faction-logo-source.webp Soulspire Solutions faction logo visual. Soulspire Solutions: Faction logo. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/logos/soulspire-solutions.webp faction-representative-source Representative scene faction-representative assets/entity-gallery/soulspire-solutions/faction-representative-source.webp Soulspire Solutions representative scene visual. Soulspire Solutions: Representative scene. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/representative/soulspire-solutions.png"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash bfd9aefb760b28e6 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

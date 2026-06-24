@@ -1,0 +1,67 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "open-vale-ward-lines",
+  "title": "Open Vale Ward Lines",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "2fd7ef8b5d385ebf",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "The ward lines are not decoration; they are infrastructure made visible as grooves, mosslight, dust, and old promises."
+    },
+    {
+      "title": "Public role",
+      "body": "Let players understand what they are defending before enemies arrive."
+    },
+    {
+      "title": "Handout text",
+      "body": "Lines of stone, moss, and old light that show the ward is infrastructure, memory, and place at once."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: location",
+        "Role: Let players understand what they are defending before enemies arrive.",
+        "Summary: Lines of stone, moss, and old light that show the ward is infrastructure, memory, and place at once.",
+        "Tags: goldspire-location location-profile open-vale ritual ward",
+        "Connections: Open Vale™ Ritual Site Keystone Asset Forgotten Gods Ward Renewal Chime",
+        "Inventory: moss-lit grooves standing stones brightening dust",
+        "Loot: Players can protect or stabilize sections as the ritual escalates.",
+        "Name: Open Vale Ward Lines",
+        "Id: open-vale-ward-lines",
+        "Meta: Location LOCATION assets/icons/location.png entity-location #5fa8d3 05 Locations locations location",
+        "Aliases: Open Vale Ward Lines ritual geometry ward lines",
+        "Appears In: S04-04",
+        "Related: Forgotten Gods Keystone Asset Open Vale™ Ritual Site S04-04 Ward Renewal Chime",
+        "Image Prompt: Private table TTRPG story atlas asset for Open Vale Ward Lines, Location. Role: Let players understand what they are defending before enemies arrive.. Summary: Lines of stone, moss, and old light that show the ward is infrastructure, memory, and place at once.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Show the place as an atmospheric establishing image, not a map. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Personality: Lines of stone, moss, and old light that show the ward is infrastructure, memory, and place at once.; introduce it with a sensory palette, who feels safe there, and what has been neglected.",
+        "Wants: Pull player attention toward the choices, clues, and relationships tied to Open Vale™ Ritual Site, Keystone Asset, Forgotten Gods.",
+        "Fears: Being treated as scenery when it should reveal who is protected, who is charged, and who is left outside the ward.",
+        "Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.",
+        "Body Language: Let the place answer through sound, texture, and who feels safe there.",
+        "Sample Dialogue: Lines of stone, moss, and old light that show the ward is infrastructure, memory, and place at once.",
+        "Equipment: moss-lit grooves standing stones brightening dust",
+        "Search Or Loot: Players can protect or stabilize sections as the ritual escalates.",
+        "Gm Use: Introduce with sensory texture, then make one discoverable clue or social choice visible.",
+        "Future Hooks: Bring back as an echo if players made a strong choice involving this entity.",
+        "Robust: The ward lines are not decoration; they are infrastructure made visible as grooves, mosslight, dust, and old promises. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Pull player attention toward the choices, clues, and relationships tied to Open Vale™ Ritual Site, Keystone Asset, Forgotten Gods. Being treated as scenery when it should reveal who is protected, who is charged, and who is left outside the ward. Introduce with sensory texture, then make one discoverable clue or social choice visible. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Open Vale Ward Lines and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the institutional...",
+        "Mechanics: Location Exploration Mechanics Players can navigate, search, read customs, inspect hazards Open Vale Ward Lines when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: Lines of stone, moss, and old light that show the ward is infrastructure, memory, and place at once. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-open-vale-ward-lines-engage-open-vale-ward-lines entity-open-vale-ward-lines Engage Open Vale Ward Lines Engage Open Vale Ward Lines Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of Open Vale Ward Lines hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get...",
+        "Pronunciation: OH-pen vayl ward linez",
+        "Short Pronunciation: OH-pen vayl ward linez",
+        "Location Profile: location-profile-v1 open-vale-ward-lines open-vale-ward-lines Goldspire_Location_Packet/06_Open_Vale_Ritual_Site.md True strong Open Vale Ward Lines Lines of stone, moss, and old light that show the ward is infrastructure, memory, and place at once. Lines of stone, moss, and old light that show the ward is infrastructure, memory, and place at once. The ward lines are not decoration; they are infrastructure made visible as grooves, mosslight, dust, and old promises. The ward lines are magic behaving like public infrastructure: beautiful, temperamental, practical, and old enough that maintenance feels like ritual. The place breaks into usable table spaces: Bright junction: Several lines meet and pulse under the ground. Dim gap: A weak stretch makes the whole system feel vulnerable. Stone service marker: Old stones mark where people once tended the line. Plants and materials: Sunfire Lily, grass grows brighter along stable lines, flowers bend away from unstable gaps, moss thickens around service stones. Animals and background life: Ward-Moths cluster at warm junctions, Mist-Things avoid stable lines and drift near flickering gaps. The air carries line hum, static hair, glowing dew...",
+        "Source Documents: One-shot source PDF sources/Peril_to_Profit_Sablewood_Logistics_Preserve.pdf",
+        "Image: assets/location-visuals/open-vale-ward-lines/profile_scene_v02.webp",
+        "Image Asset Status: location_visual_profile",
+        "Visual Gallery: primary Primary wiki image primary assets/location-visuals/open-vale-ward-lines/profile_scene_v02.webp Open Vale Ward Lines primary wiki image visual. Open Vale Ward Lines: Primary wiki image. location_visual_profile True True primary_map Top-down map location-map assets/location-visuals/open-vale-ward-lines/primary_map_v02.webp Open Vale Ward Lines top-down map visual. Open Vale Ward Lines: Top-down map. ready True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/open-vale-ward-lines/primary_map_v02.png location-alternate-1 Legacy v01 profile image location-alternate assets/location-visuals/open-vale-ward-lines/profile_scene_v01.webp Open Vale Ward Lines legacy v01 profile image visual. Open Vale Ward Lines: Legacy v01 profile image. available True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/open-vale-ward-lines/profile_scene_v01.png location-alternate-2 Legacy v01 primary map location-alternate assets/location-visuals/open-vale-ward-lines/primary_map_v01.webp Open Vale Ward Lines legacy v01 primary map visual. Open Vale Ward Lines: Legacy v01 primary map. available True /Users/kyle/Documents/My..."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 2fd7ef8b5d385ebf | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

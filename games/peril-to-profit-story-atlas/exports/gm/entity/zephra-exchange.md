@@ -1,0 +1,40 @@
+# Zephra Exchange
+
+GM export - entity:zephra-exchange
+
+## Player-facing description
+Zephra Exchange: Zephra Exchange™ runs the market, the toll, and the stamp that decides whether your movement counts as legal. Slogan: Zephra™: the price of everything, the value of you.
+
+## Public role
+Access-fee market gatekeeper and commodity sentiment engine
+
+## Handout text
+Zephra Exchange: Zephra Exchange™ runs the market, the toll, and the stamp that decides whether your movement counts as legal. Slogan: Zephra™: the price of everything, the value of you.
+
+## GM truth
+Deepest layer, GM-only: Board ownership/collusion sits behind this brand. Surface only as hints and patterns.
+
+## GM handling
+Zephra route optimization helped cut Bramble workers loose and makes checkpoint delays feel official.
+
+## Profile
+- Schema Version: faction-profile-v1
+- Id: zephra-exchange
+- Entity Id: zephra-exchange
+- Source: Faction_System_Packet/factions/Corps_Touching_The_Oneshot.md
+- Priority: strong
+- Corporate: True
+- Auto Surface: True
+- Prompt Key: goldwater
+- Player Safe: Zephra Exchange A market and toll-house brand that promises orderly crossing, registered cargo, and trade access. Zephra™: the price of everything, the value of you. Zephra Exchange™ runs the market, the toll, and the stamp that decides whether your movement counts as legal. The Zephra™ tollhouse is bureaucratic theater: brass scales, a queue rope, a clerk stamping Movement Legitimacy™ certificates under a banner reading FREE TRADE in expensive gold leaf. Register your cargo, buy a Crossing Credit™, upgrade to a Priority Passage™ pass that lets you skip the line you are also paying to maintain. Prices float by the hour on a big chalk board nobody can quite read. They did not build the river or the road. They built the gate, the fee, and the cheerful word for the fee, which is 'civilization,' and they will sell you a pamphlet explaining why the toll is freedom. The Zephra stamp lands...
+- Block1: Zephra Exchange Zephra Exchange Zephra A market and toll-house brand that promises orderly crossing, registered cargo, and trade access. Gatekeeps access and engineers scarcity while teaching people to call the fee civilization. Zephra route optimization helped cut Bramble workers loose and makes checkpoint delays feel official. Briskly transactional and unfailingly polite at the window, treats every person as a line-item awaiting the correct stamp. Evidence, embarrassment, liability, or a public contradiction moves them more than moral appeal. pages/entities/zephra-exchange.html ZEF-ruh eks-CHAYNJ
+- Block2: The territory's clearinghouse for trade and movement, the brand that decides whose crossing is legitimate this season. A market and toll-house brand that promises orderly crossing, registered cargo, and trade access. Gatekeep access and manufacture scarcity: own the chokepoints, float the prices, and rebrand the fee as order so nobody calls it a wall. True believers and tired workers keep the public promise alive while managers monetize the gap between promise and harm. Repricing old routes and issuing stamps that decide whose movement counts as legitimate. Institutional beliefs: Access Fee Purge; Commodity Sentiment Engineering; Guild Courtesy as Class Weapon.
+- Block3: Emeris Crown Holdings Goldwater Financial Institution Clover Co-op Bramble Union Goldspire Logistics paperwork public trust contract language Inspector Pelt Traders, migrants, and anyone whose right to move can be made conditional on a stamp Zephra alone can sell.
+- Block4: Zephra™: the price of everything, the value of you. Brass scales and queue ropes, chalkboard exchange rates, ornate registration seals, gold-leaf FREE TRADE banners, and a balanced-scale mascot mid-weigh. FREE trade! (Stamping, registration, and crossing fees apply.) Today's crossing rate is... let me check the board. It went up. You're not paying a toll. You're investing in order! Use the generated logo as the profile mark; use the representative image to show the public promise and private cost as a living place. Seed only for a future theme pass; do not generate music in this implementation.
+- Block5: Zephra route optimization helped cut Bramble workers loose and makes checkpoint delays feel official. Daily life depends on the public promise and is harmed by the private business model. The deeper truth is never player-facing on first contact: the public service also sustains the danger that makes the service profitable. Deepest layer, GM-only: Board ownership/collusion sits behind this brand. Surface only as hints and patterns. surface Zephra Exchange looks like its public promise: A market and toll-house brand that promises orderly crossing, registered cargo, and trade access. hint The promise has a crack: a failed product, a frightened worker, a predatory clause, or a story that does not match what the party saw. earned seam The crack points upward into coordinated market theater. Let players infer before any GM confirmation. Knowledge 12 reads the brand paperwork or seal history...
+- Writing Layer: Zephra Exchange™ runs the market, the toll, and the stamp that decides whether your movement counts as legal. The Zephra™ tollhouse is bureaucratic theater: brass scales, a queue rope, a clerk stamping Movement Legitimacy™ certificates under a banner reading FREE TRADE in expensive gold leaf. Register your cargo, buy a Crossing Credit™, upgrade to a Priority Passage™ pass that lets you skip the line you are also paying to maintain. Prices float by the hour on a big chalk board nobody can quite read. They did not build the river or the road. They built the gate, the fee, and the cheerful word for the fee, which is 'civilization,' and they will sell you a pamphlet explaining why the toll is freedom. The Zephra stamp lands with a delicate click. The clerk does not raise their voice. They do not need to. The road, apparently, has standards. Brass scales and queue ropes, chalkboard exchange...
+- Entity Name: Zephra Exchange
+- Imagine It Like: Think Amazon merged with the DMV and a border checkpoint, a stock exchange that also sells you permission to exist, a ticket monopoly for the open road.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 39d504d6f40d6ea1 | Source hash dac3370046ed077140fab2d6

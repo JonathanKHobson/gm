@@ -1,0 +1,66 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "varian-soto",
+  "title": "Varian Soto",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "ab19fb739e20f23f",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Varian Soto: Tracks unlicensed apex fauna first and asks questions later."
+    },
+    {
+      "title": "Public role",
+      "body": "Wildborne Katari ranger"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Tracks unlicensed apex fauna first and asks questions later."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: pc",
+        "Role: Wildborne Katari ranger",
+        "Tags: pc-pregen npc pc",
+        "Summary: Tracks unlicensed apex fauna first and asks questions later.",
+        "Connections: Sablewood™ Logistics Preserve Strixwolf Mother Hush Farms",
+        "Inventory: shortbow leather armor minor stamina potion field notebook of hybrid fauna",
+        "Loot: PC character.",
+        "Name: Varian Soto",
+        "Id: varian-soto",
+        "Meta: PC / Player Character PC assets/icons/type-pc.png entity-pc #2f8f71 03 NPCs entities pc",
+        "Aliases: Varian Varian Soto",
+        "Appears In: S00-01 S01-01 S01-04 S02-02 S04-05",
+        "Related: Hush Farms S00-01 S01-01 S01-04 S02-02 S04-05 Sablewood™ Logistics Preserve Strixwolf Mother",
+        "Image Prompt: Private table TTRPG story atlas asset for Varian Soto, PC / Player Character. Role: Wildborne Katari ranger. Summary: Tracks unlicensed apex fauna first and asks questions later.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Personality: sharp-eyed, self-protective, secretly sentimental about wild places",
+        "Wants: to read danger before danger reads the party",
+        "Fears: being wrong when someone else pays",
+        "Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.",
+        "Body Language: Reads the treeline and the dirt before he ever reads the people. Softens for half a second around any wild thing the company has put a price on.",
+        "Sample Dialogue: Something has been hunting this stretch. Newer than the maps say. Walk where I walk. I am not paid to be sentimental about the wild ones. (He is.) If I call it wrong, someone bleeds. So I do not call it until I am sure.",
+        "Equipment: shortbow leather armor minor stamina potion field notebook of hybrid fauna",
+        "Search Or Loot: PC character.",
+        "Gm Use: Use this person to put a human face on the current pressure. Give them one concrete want before exposition.",
+        "Future Hooks: Bring back as an echo if players made a strong choice involving this entity.",
+        "Robust: Varian Soto: Tracks unlicensed apex fauna first and asks questions later. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. to read danger before danger reads the party being wrong when someone else pays Use this person to put a human face on the current pressure. Give them one concrete want before exposition. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Varian Soto and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the institutional pattern. Wildborne / community: notices local use, neglect, or ecological stress. Martial / security: reads custody, danger lines, and breach response. Magic: senses ward tone, soul-signal, or unstable...",
+        "Pc Profile: varian-soto Varian Soto Varian Soto VAIR-ee-un SOH-toh they/them Ranger Wayfinder Katari Wildborne Deadly Aim Nature's Friend unassigned",
+        "Pronunciation: VAIR-ee-un SOH-toh",
+        "Short Pronunciation: VAIR-ee-un SOH-toh",
+        "Imagine It Like: Think a tracker's patience crossed with a cat's wariness, the ranger who pretends not to care about the animals he protects, a monster-hunter who reads sign instead of contracts.",
+        "Image: assets/entities/varian-soto.webp",
+        "Image Asset Status: image_gen",
+        "Visual Gallery: primary Primary wiki image primary assets/entities/varian-soto.webp Varian Soto primary wiki image visual. Varian Soto: Primary wiki image. image_gen True True pc-current Current PC portrait pc-portrait assets/entity-gallery/varian-soto/pc-current.webp Varian Soto current pc portrait visual. Varian Soto: Current PC portrait. pc_portrait_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/pc_portrait_assets/generated/varian-soto.png pc-transparent Transparent portrait pc-portrait assets/entity-gallery/varian-soto/pc-transparent.webp Varian Soto transparent portrait visual. Varian Soto: Transparent portrait. pc_portrait_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/pc_portrait_assets/transparent/varian-soto.png pc-chroma Blue-screen source pc-portrait assets/entity-gallery/varian-soto/pc-chroma.webp Varian Soto blue-screen source visual. Varian Soto: Blue-screen source. pc_portrait_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/pc_portrait_assets/chroma-blue/varian-soto-blue-screen.png pc-legacy-1 Legacy portrait 1 pc-legacy assets/entity-gallery/varian-soto/pc-legacy-1.webp Varian Soto legacy portrait 1..."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash ab19fb739e20f23f | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

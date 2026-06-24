@@ -1,0 +1,42 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "MAP-LOC-open-vale-ward-lines",
+  "title": "MAP-LOC-open-vale-ward-lines - Open Vale Ward Lines Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "e78d4757be359275",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The path ahead begins to glow in thin lines through earth and bark, all converging toward the Open Vale."
+    },
+    {
+      "title": "Public objective",
+      "body": "The path ahead begins to glow in thin lines through earth and bark, all converging toward the Open Vale."
+    },
+    {
+      "title": "GM goal",
+      "body": "Use this as the Act 4 to Act 5 forward edge, gated on commitment and ritual_prep."
+    },
+    {
+      "title": "GM script",
+      "body": "Say: \"This is the forward edge. Once ritual_prep is set, this map points cleanly into Act 5.\""
+    },
+    {
+      "title": "State controls",
+      "items": [
+        "ritual_prep Ritual Prep select unready ready",
+        "ward_stability Ward Stability select fragile stable",
+        "custodian_trust Custodian Trust select low neutral high",
+        "keystone_understanding Keystone Understanding select surface deep"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash e78d4757be359275 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

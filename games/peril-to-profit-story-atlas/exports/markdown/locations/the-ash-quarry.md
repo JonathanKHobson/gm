@@ -1,0 +1,51 @@
+# The Ash Quarry
+
+RAW export - entity:the-ash-quarry
+
+## Player-facing description
+The Ash Quarry turns ancient residue into industry: gray terraces, warm dust, and workers who know which piles still remember fire.
+
+## Public role
+Make materials feel handled by people, not listed in a setting gazetteer.
+
+## Handout text
+A quarry where ash has practical value, letting the setting show resource extraction without losing the strangeness of the old wood.
+
+## Raw source
+- Type: location
+- Role: Make materials feel handled by people, not listed in a setting gazetteer.
+- Summary: A quarry where ash has practical value, letting the setting show resource extraction without losing the strangeness of the old wood.
+- Tags: goldspire-location location-profile quarry resource sablewood-lore source-page-5
+- Aliases: Ash Quarry Restorative Ash The Ash Quarry
+- Connections: The Fire Walk The Refuge Mithril & Mortar
+- Inventory: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry.
+- Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+- Image Fallback: type-icon
+- Source Pages: Sablewood PDF p. 5
+- Name: The Ash Quarry
+- Id: the-ash-quarry
+- Meta: Location LOCATION assets/icons/location.png entity-location #5fa8d3 05 Locations locations location
+- Related: Mithril & Mortar The Fire Walk The Refuge
+- Image Prompt: Private table TTRPG story atlas asset for The Ash Quarry, Location. Role: Make materials feel handled by people, not listed in a setting gazetteer.. Summary: A quarry where ash has practical value, letting the setting show resource extraction without losing the strangeness of the old wood.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Show the place as an atmospheric establishing image, not a map. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: A quarry where ash has practical value, letting the setting show resource extraction without losing the strangeness of the old wood.; introduce it with a sensory palette, who feels safe there, and what has been neglected.
+- Wants: Pull player attention toward the choices, clues, and relationships tied to The Fire Walk, The Refuge, Mithril & Mortar.
+- Fears: Being treated as scenery when it should reveal who is protected, who is charged, and who is left outside the ward.
+- Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.
+- Body Language: Let the place answer through sound, texture, and who feels safe there.
+- Sample Dialogue: A quarry where ash has practical value, letting the setting show resource extraction without losing the strangeness of the old wood.
+- Equipment: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry. Restorative Ash™
+- Search Or Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+- Gm Use: Introduce with sensory texture, then make one discoverable clue or social choice visible.
+- Future Hooks: Bring back as an echo if players made a strong choice involving this entity.
+- Robust: The Ash Quarry turns ancient residue into industry: gray terraces, warm dust, and workers who know which piles still remember fire. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Pull player attention toward the choices, clues, and relationships tied to The Fire Walk, The Refuge, Mithril & Mortar. Being treated as scenery when it should reveal who is protected, who is charged, and who is left outside the ward. Introduce with sensory texture, then make one discoverable clue or social choice visible. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about The Ash Quarry and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the institutional...
+- Mechanics: Location Exploration Mechanics Players can navigate, search, read customs, inspect hazards The Ash Quarry when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A quarry where ash has practical value, letting the setting show resource extraction without losing the strangeness of the old wood. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-the-ash-quarry-engage-the-ash-quarry entity-the-ash-quarry Engage The Ash Quarry Engage The Ash Quarry Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of The Ash Quarry hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full...
+- Pronunciation: the ASH KWOR-ee
+- Short Pronunciation: the ASH KWOR-ee
+- Location Profile: location-profile-v1 the-ash-quarry the-ash-quarry Story Atlas generated location notes True strong The Ash Quarry A quarry where ash has practical value, letting the setting show resource extraction without losing the strangeness of the old wood. A quarry where ash has practical value, letting the setting show resource extraction without losing the strangeness of the old wood. The Ash Quarry turns ancient residue into industry: gray terraces, warm dust, and workers who know which piles still remember fire. The Ash Quarry feels industrial in a fantasy way: pale dust, ramps, ledges, rope lifts, lunch sheds, stone carts, and workers who know every dangerous shortcut. The place breaks into usable table spaces: Stepped cuts: Stone ledges create height and sightlines. Lift winches: Ropes and platforms move stone and people. Ash pile flats: Soft pale dust records movement. Plants and materials: ash scrub, hardy grey flowers, dust-coated weeds. Animals and background life: Spidermanders coat themselves in ash, Badger-Hawks raid lunch lines from above, dust mice and quarry swifts scatter when ropes strain. The air carries powdery air, rope strain, stone clack, echoing coughs. Dust coats...
+- Item Links: restorative-ash Restorative Ash™ Corporate Sundries Purchase, find in Refuge stores, or receive as a dubious gift.
+- Image: assets/location-visuals/the-ash-quarry/profile_scene_v02.webp
+- Image Asset Status: location_visual_profile
+- Visual Gallery: primary Primary wiki image primary assets/location-visuals/the-ash-quarry/profile_scene_v02.webp The Ash Quarry primary wiki image visual. The Ash Quarry: Primary wiki image. location_visual_profile True True primary_map Top-down map location-map assets/location-visuals/the-ash-quarry/primary_map_v02.webp The Ash Quarry top-down map visual. The Ash Quarry: Top-down map. ready True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/the-ash-quarry/primary_map_v02.png location-alternate-1 Legacy v01 profile image location-alternate assets/location-visuals/the-ash-quarry/profile_scene_v01.webp The Ash Quarry legacy v01 profile image visual. The Ash Quarry: Legacy v01 profile image. available True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/the-ash-quarry/profile_scene_v01.png location-alternate-2 Legacy v01 primary map location-alternate assets/location-visuals/the-ash-quarry/primary_map_v01.webp The Ash Quarry legacy v01 primary map visual. The Ash Quarry: Legacy v01 primary map. available True /Users/kyle/Documents/My Games/Peril To...
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 6612625710b6c335 | Source hash dac3370046ed077140fab2d6

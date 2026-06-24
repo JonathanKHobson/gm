@@ -1,0 +1,566 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2777 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S04-05 - Toward Open Vale) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The Custodian gathers what she needs with the brisk energy of someone much younger than) Tj
+T*
+(she looks. "The Open Vale is where the ward was first forged," she says. "It is where it) Tj
+T*
+(must be renewed." She looks at each of you in turn. "I cannot do this alone, and what) Tj
+T*
+(comes for us when the magic rises will not be gentle. But I think you already knew the) Tj
+T*
+(job was bigger than a crate." When you are ready, the treehouse unfolds one last time,) Tj
+T*
+(and the road to the Open Vale opens before you.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Commit to the ritual and set out for the Open Vale.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: S04-05) Tj
+T*
+(- Type: scene) Tj
+T*
+(- Sectionid: ACT-FOUR) Tj
+T*
+(- Sectiontitle: Act Four: The Hanging Office) Tj
+T*
+(- Title: Toward Open Vale) Tj
+T*
+(- Shorttitle: Toward Open Vale) Tj
+T*
+(- Order: 505) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: True) Tj
+T*
+(- Image: assets/scenes/S04-05-toward-open-vale.png) Tj
+T*
+(- Alt: Toward Open Vale scene art for The Hanging Office.) Tj
+T*
+(- Caption: The final approach turns understanding into preparation.) Tj
+T*
+(- Mood: The Hanging Office) Tj
+T*
+(- Gmgoal: Convert the reveal into commitment, offer real preparation, and bridge to) Tj
+T*
+(  Act 5.) Tj
+T*
+(- Publicobjective: Commit to the ritual and set out for the Open Vale.) Tj
+T*
+(- Readaloud: The Custodian gathers what she needs with the brisk energy of someone) Tj
+T*
+(  much younger than she looks. "The Open Vale is where the ward was first forged," she) Tj
+T*
+(  says. "It is where it must be renewed." She looks at each of you in turn. "I cannot) Tj
+T*
+(  do this alone, and what comes for us when the magic rises will not be gentle. But I) Tj
+T*
+(  think you already knew the job was bigger than a crate." When you are ready, the) Tj
+T*
+(  treehouse unfolds one last time, and the road to the Open Vale opens before you.) Tj
+T*
+(- Gmnotes: This is the bridge scene. The important output is state, not more lore. A) Tj
+T*
+(  reluctant yes still counts if the party chooses the hard road with eyes open.) Tj
+T*
+(- Gmscript: Say: "Before we go: you can rest, prepare, ask her what to expect, or) Tj
+T*
+(  spend any favor you earned. It all matters when the ritual starts.") Tj
+T*
+(- Gmreadaloud: "The Open Vale is where the ward was first forged." "I cannot do this) Tj
+T*
+(  alone." The treehouse unfolds one last time, and the road to the Open Vale opens) Tj
+T*
+(  before you.) Tj
+T*
+(- Gmchecklist: Do not railroad the yes; let the stakes and trust carry it. Offer prep:) Tj
+T*
+(  rest, learn the ritual, spend festival_boon or Hush favor, plan positions. Set) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4049 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  ritual_prep ready/unready. Set final custodian_trust. Set ward_stability) Tj
+T*
+(  fragile/stable for Act 5. Use MAP-LOC-open-vale-ward-lines as the forward edge.) Tj
+T*
+(- Gmprivate: Convergence math: high trust + deep understanding + ready prep =) Tj
+T*
+(  ward_stability stable. Otherwise fragile. If package_status=lost, commitment can) Tj
+T*
+(  exist emotionally but Act 5 cannot proceed normally until the recovery branch is) Tj
+T*
+(  confirmed.) Tj
+T*
+(- Playertakeaway: You are choosing the hard road on purpose, and what you do before) Tj
+T*
+(  you walk it will keep you alive.) Tj
+T*
+(- Storytakeaway: The party chooses to finish what the job started, not just because of) Tj
+T*
+(  pay but because the stakes are now real.) Tj
+T*
+(- Mechanictakeaway: Preparation is the mechanic: rest, learn, spend boons, and plan;) Tj
+T*
+(  ritual_prep and ward_stability set the Act 5 countdown pressure.) Tj
+T*
+(- Rollcards: s04-05-carry-the-keystone-through-the-dark-path S04-05 Carry the Keystone) Tj
+T*
+(  through the dark path Carry the Keystone through the dark path Strength Agility) Tj
+T*
+(  Strength Agility 12 Strength bears weight; Agility moves safely with it. The asset) Tj
+T*
+(  becomes a burden at the worst moment. Critical Success: best possible version of the) Tj
+T*
+(  action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the) Tj
+T*
+(  fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the) Tj
+T*
+(  position clean or generous. Success with Fear: the PC gets what they wanted, but the) Tj
+T*
+(  GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope:) Tj
+T*
+(  the PC does not get the full result, but gains Hope and receives a useful thread,) Tj
+T*
+(  clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear.) Tj
+T*
+(  Make a hard move that follows from the fiction. The asset becomes a burden at the) Tj
+T*
+(  worst moment. Use a hard complication, lost time, worse position, GM Fear, or mark) Tj
+T*
+(  Stress. Apply an official condition only if the fiction and rules justify it. The) Tj
+T*
+(  attempt falls short, but a partial thread appears. Offer one clue, weak position, or) Tj
+T*
+(  safer follow-up. The PC gets the core result...) Tj
+T*
+(- Entityids: open-valetm-ritual-site whitefire-custodian keystone-asset marlowe-) Tj
+T*
+(  fairwind ritual-countdown short-rest varian-soto sealed-keystone-crate ward-moths) Tj
+T*
+(  sunfire-lily mist-things) Tj
+T*
+(- Entities: open-valetm-ritual-site Open Vale? Ritual Site location Location) Tj
+T*
+(  assets/icons/location.png assets/location-visuals/open-valetm-ritual-) Tj
+T*
+(  site/profile_scene_v02.png OH-pen vayl RICH-oo-ul site An ancient circular clearing) Tj
+T*
+(  of standing stones and ward-light, with a freshly painted company marker staked at) Tj
+T*
+(  its edge. Make the final arena feel sacred, neglected, and operational all at once.) Tj
+T*
+(  Ancient circular clearing rebranded by Goldspire; where the ward renewal happens.;) Tj
+T*
+(  introduce it with a sensory palette, who feels safe there, and what has been) Tj
+T*
+(  neglected. Pull player attention toward the choices, clues, and relationships tied) Tj
+T*
+(  to Whitefire Custodian, Keystone Asset, Legacy Security Skeleton. Ancient circular) Tj
+T*
+(  clearing rebranded by Goldspire; where the ward renewal happens. whitefire-custodian) Tj
+T*
+(  Whitefire Custodian npc NPC / Ally assets/icons/npc.png assets/npc-images/whitefire-) Tj
+T*
+(  custodian/portrait_base.png WHITE-fire kus-TOH-dee-un Old faerie-like custodian who) Tj
+T*
+(  maintains the ward protecting Hush. Truth-bearer for the Keystone reveal. Whitefire) Tj
+T*
+(  Custodian an old faerie-like ward keeper whose exhaustion glows around the edges) Tj
+T*
+(  Ancient kindness running on fumes, glowing a little brighter whenever...) Tj
+T*
+(- Locationids: open-valetm-ritual-site) Tj
+T*
+(- Itemids: whitefire-ward-charm) Tj
+T*
+(- Statecontrols: custodian_trust Custodian Trust select low neutral high) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3973 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  ward_stability Ward Stability select fragile stable ritual_prep Ritual Prep select) Tj
+T*
+(  unready ready keystone_understanding Keystone Understanding select surface deep) Tj
+T*
+(  festival_boon Festival Boon select none charm favor market_find goodwill) Tj
+T*
+(  package_status Package Status select held lost) Tj
+T*
+(- Mechanicids: strength agility vulnerable armor-slots short-rest knowledge presence) Tj
+T*
+(  hope fear table-spotlight) Tj
+T*
+(- Playerquestions: Who says yes, and what does yes cost your character? What do you do) Tj
+T*
+(  before the road opens: rest, learn, spend a favor, or plan defense?) Tj
+T*
+(- Relationshipprompts: Which PC quietly checks on someone else here? Who disagrees) Tj
+T*
+(  about the right thing to do without breaking trust?) Tj
+T*
+(- Ownershipprompt: Name one detail in Toward Open Vale that belongs to your) Tj
+T*
+(  character's point of view.) Tj
+T*
+(- Fearspends: Spend Fear to expose neglected infrastructure, stress the Custodian, or) Tj
+T*
+(  make the Keystone hum at the wrong moment. Make neglected infrastructure answer at) Tj
+T*
+(  the wrong moment. Stress the Custodian's trust without turning her into a device.) Tj
+T*
+(- Choicesconsequences: Commit and prepare The party rests, asks questions, spends) Tj
+T*
+(  boons, or plans positions. Set ritual_prep=ready; ward_stability can become stable) Tj
+T*
+(  if trust/understanding support it. Act 5 ritual countdown starts kinder and the) Tj
+T*
+(  Custodian aid is stronger. ritual_prep ready; ward_stability stable possible benefit) Tj
+T*
+(  player-visible Commit but rush The party keeps momentum but leaves questions and) Tj
+T*
+(  resources unused. Set ritual_prep=unready; ward_stability likely fragile. Act 5) Tj
+T*
+(  begins under harder pressure. ritual_prep unready; ward_stability fragile penalty) Tj
+T*
+(  player-visible Spend festival_boon or Hush favor A charm, favor, market find, or) Tj
+T*
+(  goodwill becomes real prep. Can improve ritual_prep or justify ward_stability) Tj
+T*
+(  stable. The Act 3 festival choice pays off in the finale. festival_boon spent;) Tj
+T*
+(  ritual_prep ready benefit player-visible Ask the Custodian what to expect She names) Tj
+T*
+(  the ritual shape and what the rising magic will draw. Knowledge or Presence can) Tj
+T*
+(  clarify roles; set ritual_prep=ready. Act 5 starts with better fictional) Tj
+T*
+(  positioning. ritual_prep ready benefit player-visible) Tj
+T*
+(- Lootclues: Approach advantage One preparation detail each player names Whitefire) Tj
+T*
+(  Custodian's Ward-Charm: A small hand-carved wooden ratcoon mid-scamper has been) Tj
+T*
+(  thumb-worn smooth for luck. It is warm, and the forest feels a little kinder while) Tj
+T*
+(  you hold it.) Tj
+T*
+(- Handoutids: Open Vale pull) Tj
+T*
+(- Sourcesceneslug: S04-05-toward-open-vale) Tj
+T*
+(- Sourcefiles: dist/Act4_Upgrade_Packet/ACT4_SCENE_RESEARCH.md) Tj
+T*
+(  dist/Act4_Upgrade_Packet/ACT4_MAPS_AND_LOCATIONS.md) Tj
+T*
+(- References: Open Vale Ward Lines #MAP-LOC-open-vale-ward-lines Act Five #ACT-FIVE) Tj
+T*
+(- Storyscope: Perceived antagonist: the forest. True antagonist: the corporate lie) Tj
+T*
+(  about the forest. The players never confront it directly. They are meant to feel it) Tj
+T*
+(  by the end. Every act offers at least one guaranteed and one earned hint that the) Tj
+T*
+(  danger is manufactured and the forest is not the enemy. The sealed package is the) Tj
+T*
+(  capital's ward Keystone; the city is unwarded while it is away. KEEP GUARANTEED "The) Tj
+T*
+(  wood never needed managing. It needed leaving alone." ADD SEED "Your capital's) Tj
+T*
+(  safety is older than your contracts. It is the very thing they teach you to fear.") Tj
+T*
+(  ADD SEED The Keystone's magic is pre-corporate forest-ward work, the same school) Tj
+T*
+(  companies call primitive. ADD EARNED Knowledge Hard 20 The Custodian glances at) Tj
+T*
+(  obsolete Soulspire inspection seals on her counterweight boulder. ADD EARNED) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4211 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Instinct Medium 15 Presence: earn candor. Knowledge: place the magic. Instinct: read) Tj
+T*
+(  the Custodian's fear. ACT4 Act 4: Hanging Office 160 2:05 to 2:40 2:40 Custodian,) Tj
+T*
+(  Keystone reveal, new objective, short rest Compress the reveal; bank the Short Rest) Tj
+T*
+(  into travel narration.) Tj
+T*
+(- Livetools: none) Tj
+T*
+(- Percharacterlayer: khari-nix Khari Nix The commitment A guardian can anchor the) Tj
+T*
+(  party's yes. Can be the one who says they will help. Khari, if anyone is going to) Tj
+T*
+(  say 'we will help,' it is you. Want to be the one who commits the party? marlowe-) Tj
+T*
+(  fairwind Marlowe Fairwind Ritual prep Best placed to learn the ritual shape from the) Tj
+T*
+(  Custodian. Knowledge 13 Learns the ritual structure and helps set ritual_prep=ready.) Tj
+T*
+(  Can translate arcane prep into table roles. Marlowe, she will teach you the ritual's) Tj
+T*
+(  shape if you ask. Want to learn it and prep the party? garrick-reed Garrick Reed) Tj
+T*
+(  Defense plan Naturally plans who guards whom when danger arrives. Can establish Act) Tj
+T*
+(  5 positioning and watches. Garrick, you can plan how to defend her mid-ritual. Want) Tj
+T*
+(  to set the watch order now? varian-soto Varian Soto Scout the draw Can sense what) Tj
+T*
+(  the rising magic might attract from the deep preserve. Instinct 13 Foreshadows Act 5) Tj
+T*
+(  danger and helps prepare routes. Can scout the approach in fiction before the party) Tj
+T*
+(  moves. Varian, you can read what the deep preserve will send when the magic rises.) Tj
+T*
+(  Want to scout ahead in your mind? barnacle Barnacle Cash in favors Knows how to turn) Tj
+T*
+(  festival_boon or Hush goodwill into actual prep...) Tj
+T*
+(- Takeawayhelp: Player takeaway You are choosing the hard road on purpose. "You have) Tj
+T*
+(  signed on for something real. Use this moment: rest, ready up, ask questions.") Tj
+T*
+(  "Rest, gear up, ask the Custodian what is coming, or spend a favor you earned in) Tj
+T*
+(  Hush. Then we ride." If players hesitate, name the stakes and give them agency. A) Tj
+T*
+(  city falls if nobody renews the ward. short-rest knowledge presence hope Story) Tj
+T*
+(  takeaway The party chooses to finish what the job started. "This is the yes. Not for) Tj
+T*
+(  coin, because you have seen enough to care how this ends." "She does not force you.) Tj
+T*
+(  She names the stakes, and your characters decide whether they can walk away." Let) Tj
+T*
+(  reluctant characters be reluctant. Commitment is stronger when it is not automatic.) Tj
+T*
+(  short-rest knowledge presence hope Mechanic takeaway Preparation is the mechanic.) Tj
+T*
+(  "Before we go: rest, prepare, ask what to expect, or spend any favor you earned. It) Tj
+T*
+(  all matters when the ritual starts." "Ready prep eases Act 5. Rushing makes) Tj
+T*
+(  ward_stability fragile and the countdown harsher." Set ward_stability from) Tj
+T*
+(  convergence: trust, understanding, prep, and boons. short-rest knowledge presence) Tj
+T*
+(  hope) Tj
+T*
+(- Playerbeats: S04-05-yes The yes Toward Open Vale assets/scenes/S04-05-toward-open-) Tj
+T*
+(  vale.png Toward Open Vale scene art for The Hanging Office. The Custodian asks for) Tj
+T*
+(  help, and the table chooses whether to carry the danger forward. The Custodian asks) Tj
+T*
+(  for help, and the table chooses whether to carry the danger forward. The Custodian) Tj
+T*
+(  asks for help, and the table chooses whether to carry the danger forward. image-) Tj
+T*
+(  title-caption S04-05-prep Preparation Preparation assets/scenes/S04-05-toward-open-) Tj
+T*
+(  vale.png Toward Open Vale scene art for The Hanging Office. Rest, ask what is) Tj
+T*
+(  coming, learn the ritual shape, spend a favor, or plan who protects whom. Rest, ask) Tj
+T*
+(  what is coming, learn the ritual shape, spend a favor, or plan who protects whom.) Tj
+T*
+(  Rest, ask what is coming, learn the ritual shape, spend a favor, or plan who) Tj
+T*
+(  protects whom. text-first S04-05-road Road opens The road opens) Tj
+T*
+(  assets/scenes/S04-05-toward-open-vale.png Toward Open Vale scene art for The Hanging) Tj
+T*
+(  Office. The treehouse unfolds one last time, and the road to the Open Vale opens) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 3264 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  before you. The treehouse unfolds one last time, and the road to the Open Vale opens) Tj
+T*
+(  before you. The treehouse unfolds one last time, and the road to the Open Vale...) Tj
+T*
+(- Gmbeats: S04-05-yes The yes Toward Open Vale Say: "This is the yes. Not for coin,) Tj
+T*
+(  because you have seen enough to care how this ends.". The Custodian asks for help,) Tj
+T*
+(  and the table chooses whether to carry the danger forward. The delivery becomes) Tj
+T*
+(  duty. Commitment changes state, not just tone. Players know commitment is a choice.) Tj
+T*
+(  Player takeaway Players know commitment is a choice. "This is the yes. Not for coin,) Tj
+T*
+(  because you have seen enough to care how this ends." "The playable fact is: The) Tj
+T*
+(  Custodian asks for help, and the table chooses whether to carry the danger forward.") Tj
+T*
+(  Concrete actions for this beat: look closely, ask the Custodian a direct question,) Tj
+T*
+(  commit to a choice, or take one prep action. presence Story takeaway The delivery) Tj
+T*
+(  becomes duty. "This is the yes. Not for coin, because you have seen enough to care) Tj
+T*
+(  how this ends." "The story fact in play is: The delivery becomes duty." This beat) Tj
+T*
+(  changes Act 4 through this exact pressure: The delivery becomes duty. presence) Tj
+T*
+(  Mechanic takeaway Commitment changes state, not just tone. "This is the yes. Not for) Tj
+T*
+(  coin, because you have seen enough to care how this ends." "The active procedure is:) Tj
+T*
+(  Commitment changes state, not just tone." Run...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 8500) Tj
+T*
+(- Playersafeprojection: S04-05 scene Toward Open Vale assets/scenes/S04-05-toward-) Tj
+T*
+(  open-vale.png Toward Open Vale scene art for The Hanging Office. The final approach) Tj
+T*
+(  turns understanding into preparation. The Hanging Office Commit to the ritual and) Tj
+T*
+(  set out for the Open Vale. The Custodian gathers what she needs with the brisk) Tj
+T*
+(  energy of someone much younger than she looks. "The Open Vale is where the ward was) Tj
+T*
+(  first forged," she says. "It is where it must be renewed." She looks at each of you) Tj
+T*
+(  in turn. "I cannot do this alone, and what comes for us when the magic rises will) Tj
+T*
+(  not be gentle. But I think you already knew the job was bigger than a crate." When) Tj
+T*
+(  you are ready, the treehouse unfolds one last time, and the road to the Open Vale) Tj
+T*
+(  opens before you. S04-05-yes The yes Toward Open Vale assets/scenes/S04-05-toward-) Tj
+T*
+(  open-vale.png Toward Open Vale scene art for The Hanging Office. The Custodian asks) Tj
+T*
+(  for help, and the table chooses whether to carry the danger forward. The Custodian) Tj
+T*
+(  asks for help, and the table chooses whether to carry the danger forward. The) Tj
+T*
+(  Custodian asks for help, and the table chooses whether to carry the danger forward.) Tj
+T*
+(  image-title-caption S04-05-prep Preparation Preparation...) Tj
+T*
+(- Slidenumber: 60) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash cbed4cbd352e3978 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R] /Count 5 >>
+endobj
+12 0 obj
+<< /Type /Catalog /Pages 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000009 00000 n 
+0000002838 00000 n 
+0000002966 00000 n 
+0000007067 00000 n 
+0000007195 00000 n 
+0000011220 00000 n 
+0000011348 00000 n 
+0000015611 00000 n 
+0000015739 00000 n 
+0000019055 00000 n 
+0000019184 00000 n 
+0000019267 00000 n 
+0000019318 00000 n 
+trailer
+<< /Size 14 /Root 12 0 R >>
+startxref
+19391
+%%EOF

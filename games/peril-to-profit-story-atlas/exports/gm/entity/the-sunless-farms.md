@@ -1,0 +1,52 @@
+# The Sunless Farms
+
+GM export - entity:the-sunless-farms
+
+## Player-facing description
+The Sunless Farms grow under canopy-darkness, proving that lack of official sunlight never meant lack of life.
+
+## Public role
+Make food production feel like protected culture.
+
+## Handout text
+A farming region shaped by canopy-darkness, local ingenuity, and crops that do not need corporate sunlight to grow.
+
+## GM truth
+No forced reveal. Let this entity disclose truth through scene context and player attention.
+
+## GM handling
+Introduce with sensory texture, then make one discoverable clue or social choice visible.
+
+## Mechanics
+- Title: Location Exploration Mechanics
+- Player Safe: Players can navigate, search, read customs, inspect hazards The Sunless Farms when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: A farming region shaped by canopy-darkness, local ingenuity, and crops that do not need corporate sunlight to grow. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-the-sunless-farms-engage-the-sunless-farms entity-the-sunless-farms Engage The Sunless Farms Engage The Sunless Farms Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of The Sunless Farms hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless a hazard creates Hidden, Restrained, or Vulnerable
+- Search Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+
+## Profile
+- Schema Version: location-profile-v1
+- Id: the-sunless-farms
+- Entity Id: the-sunless-farms
+- Source: Story Atlas generated location notes
+- Auto Surface: True
+- Priority: strong
+- Player Safe: The Sunless Farms A farming region shaped by canopy-darkness, local ingenuity, and crops that do not need corporate sunlight to grow. A farming region shaped by canopy-darkness, local ingenuity, and crops that do not need corporate sunlight to grow. The Sunless Farms grow under canopy-darkness, proving that lack of official sunlight never meant lack of life. The Sunless Farms make farming feel magical and practical at once: shaded crops, fungus lamps, careful schedules, and people who know how to grow food where sunlight barely visits. The place breaks into usable table spaces: Glow-crop beds: Pale crops grow in luminous rows. Fungus lamp racks: Living lights are tended like livestock. Compost heat pits: Warm pits feed the growth cycle. Plants and materials: pale root vegetables, glowmoss, cap mushrooms, shade beans. Animals and background life: white beetles aerate soil, soft blind...
+- Block1: The Sunless Farms Make food production feel like protected culture. A farming region shaped by canopy-darkness, local ingenuity, and crops that do not need corporate sunlight to grow. The farms show local adaptation as intelligence, not quaintness. This is local adaptation as genius, not quaintness. These people built abundance where the company saw only a deficiency to fix. The farms show local adaptation as intelligence, not quaintness. The whole system balances light, heat, and water by hand. It works beautifully, and it is one cold night from trouble. pages/entities/the-sunless-farms.html
+- Block2: Blue-green rows grow in carefully shaded beds. Farm tools hang under low roofs where rain and sap cannot ruin them. The healthiest crops cluster near older local water paths. Corporate survey stakes stand where no farmer would plant. Detail Mushroom loam, damp leaves, cold water, and the green bite of cut stems. Detail Soil is soft, dark, and springy; leaves feel waxy from low light. The Sunless Farms grow under canopy-darkness, proving that lack of official sunlight never meant lack of life. The Sunless Farms make farming feel magical and practical at once: shaded crops, fungus lamps, careful schedules, and people who know how to grow food where sunlight barely visits. The place breaks into usable table spaces: Glow-crop beds: Pale crops grow in luminous rows. Fungus lamp racks: Living lights are tended like livestock. Compost heat pits: Warm pits feed the growth cycle. Plants and...
+- Block3: shade beds water paths survey stakes tool hooks Instinct to read crops and shade. Knowledge to understand local irrigation. Finesse to cross beds without harm. Local residents or workers appropriate to the place white beetles aerate soil soft blind mice steal seeds moth larvae pollinate night flowers No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues pale root vegetables glowmoss, cap mushrooms, shade beans shade crops fungus lamps quiet worker knowledge
+- Block4: The place changes even if the PCs stand still. Local people, creatures, weather, signage, and ward behavior all keep moving around the scene. Survey logic can damage what keeps the farms alive. The wrong path crushes delicate beds. Ward weakness shows in crop behavior before alarms. A row dims as the Keystone passes. A survey stake hums louder than the ward post. Let the place be funny through overconfident signage, awkward forms, stubborn local habits, and magic that refuses corporate language.
+- Block5: S03-01 S03-04 MAP-LOC-the-sunless-farms
+- Block6: Describe what the PCs can see, smell, hear, touch, ask about, or infer. Do not explain hidden infrastructure or corporate thesis until play earns it. surface A farming region shaped by canopy-darkness, local ingenuity, and crops that do not need corporate sunlight to grow. table clue The farms show local adaptation as intelligence, not quaintness. earned truth Reveal deeper system meaning through NPC answers, evidence, or player questions, not narration dumps.
+- What Here: Local residents or workers appropriate to the place white beetles aerate soil soft blind mice steal seeds moth larvae pollinate night flowers No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues pale root vegetables glowmoss, cap mushrooms, shade beans shade crops fungus lamps quiet worker knowledge
+- Living Place: location-living-place-v1 deep-shade farms The Sunless Farms make farming feel magical and practical at once: shaded crops, fungus lamps, careful schedules, and people who know how to grow food where sunlight barely visits. Glow-crop beds Pale crops grow in luminous rows. Use for wonder. Fungus lamp racks Living lights are tended like livestock. Use for ecosystem detail. Compost heat pits Warm pits feed the growth cycle. Use for smell, steam, and practical hazards. pale root vegetables glowmoss, cap mushrooms, shade beans white beetles aerate soil soft blind mice steal seeds moth larvae pollinate night flowers lamp fungus pulse warm compost steam cool overhead darkness Fungus light feeds crops; crop scraps feed compost; compost warms fungus racks and keeps the farms alive. Farmers adjust light, moisture, and heat with the precision of musicians tuning instruments. Do you inspect the...
+- Districts Or Subareas: Glow-crop beds Pale crops grow in luminous rows. Use for wonder. Fungus lamp racks Living lights are tended like livestock. Use for ecosystem detail. Compost heat pits Warm pits feed the growth cycle. Use for smell, steam, and practical hazards.
+- Sensory Signature: Detail Mushroom loam, damp leaves, cold water, and the green bite of cut stems. Detail Soil is soft, dark, and springy; leaves feel waxy from low light.
+- Visual Assets: location-visual-assets-v1 the-sunless-farms The Sunless Farms Bright comedic frontier high-fantasy concept art for a Daggerheart-adjacent tabletop RPG. Medieval/Renaissance fantasy technology only: hand tools, wagons, ropes, parchment notices, ward-stones, carved wood, brass, cloth, stone, moss, lanterns, and magic. The tone is colorful, playful, slightly absurd, and vivid, like a fantasy corporate frontier comedy rather than a grim drama. No sci-fi machinery, no 1800s/Victorian clothing, no modern suits, no guns, no logos, no readable text, no watermark, no border, no collage. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/the-sunless-farms MAP-LOC-the-sunless-farms deep shade farms undercanopy farm map profile_scene Profile image ready /Users/kyle/Documents/My Games/Peril To...
+- Imagine It Like: An underground mushroom farm or a vertical grow-op lit by lamps, except the lamps are alive. Think hydroponic warehouse crossed with a cave, run by people who out-clevered the sun.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 506856e129064594 | Source hash dac3370046ed077140fab2d6

@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Goldspire Assignment Contract</title>
+<style>
+  :root { --paper:#fbfaf4; --ink:#171511; --muted:#5b554b; --rule:#c6bda6; --strong:#252016; --accent:#9c7c33; --soft:#fffdf6; --note:#fff8bf; --serif:Georgia,"Times New Roman",serif; --sans:"Helvetica Neue",Arial,sans-serif; --maxw:7.45in; }
+  * { box-sizing:border-box; }
+  figure { margin:0; }
+  html { background:#d8d4c9; }
+  body { margin:0; color:var(--ink); font-family:var(--serif); line-height:1.36; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .page { width:var(--maxw); max-width:calc(100vw - 18px); min-height:10in; margin:18px auto; background:var(--paper); border:1px solid var(--rule); padding:.42in .48in .36in; position:relative; overflow:hidden; }
+  .page:before { content:""; position:absolute; inset:.17in; border:1px solid rgba(37,32,22,.2); pointer-events:none; }
+  .page > * { position:relative; z-index:1; }
+  .letterhead { display:grid; grid-template-columns:.82in 1fr 1.12in; gap:.16in; align-items:start; }
+  .seal-box { border:1px solid var(--strong); padding:.055in; background:#fffef8; min-height:.86in; display:flex; align-items:center; justify-content:center; }
+  .crest { width:.69in; height:.69in; object-fit:contain; display:block; filter:grayscale(1) contrast(1.08); }
+  h1 { margin:0; color:var(--strong); }
+  .company { font-size:23px; line-height:.95; letter-spacing:.02em; }
+  .company-small { font-size:19px; line-height:1; letter-spacing:.02em; }
+  .tm { color:var(--accent); font-weight:700; }
+  .redaction { position:relative; display:inline-block; width:.76in; height:.13in; margin:0 2px; vertical-align:-.01in; background:#111; border:1px solid #111; box-shadow:inset 0 0 0 1px rgba(255,255,255,.1); }
+  .redaction span { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
+  .correction { display:inline-flex; align-items:flex-end; gap:4px; white-space:nowrap; }
+  .correction s { color:var(--muted); text-decoration-thickness:2px; }
+  .correction em { font:700 12px var(--serif); transform:rotate(-4deg); color:#111; }
+  .sub { margin:4px 0 0; font-size:10.5px; color:var(--muted); font-style:italic; }
+  .form { margin:6px 0 0; font:8px var(--sans); letter-spacing:.12em; text-transform:uppercase; color:var(--muted); line-height:1.3; }
+  .tagline { display:inline-block; margin-top:8px; border:1px solid var(--strong); padding:4px 8px; font-size:10px; font-style:italic; background:#fffef8; }
+  .cargo-card { border:1px solid var(--strong); background:#fffef8; padding:.06in; text-align:center; align-self:stretch; display:grid; align-content:start; gap:2px; }
+  .crate { width:.83in; max-height:.68in; object-fit:contain; display:block; margin:0 auto; filter:grayscale(1) contrast(1.08); }
+  .cargo-card b { display:block; font:700 7.5px var(--sans); letter-spacing:.12em; text-transform:uppercase; }
+  .cargo-card span { display:block; font:7.5px var(--sans); color:var(--muted); line-height:1.15; }
+  .rule { border:0; border-top:2px solid var(--accent); margin:12px 0 9px; }
+  .facts { display:grid; grid-template-columns:1fr 1fr 1.2fr; border:1px solid var(--strong); margin-bottom:9px; background:#fffef8; }
+  .fact { min-height:.43in; padding:5px 8px; border-right:1px solid var(--rule); }
+  .fact:last-child { border-right:0; }
+  .fact b { display:block; font:700 7.5px var(--sans); letter-spacing:.13em; text-transform:uppercase; color:var(--muted); }
+  .fact span { display:block; margin-top:2px; font-size:10.5px; line-height:1.15; }
+  .contract-section { margin:0 0 7px; }
+  h2 { margin:0 0 3px; font:700 8.7px var(--sans); letter-spacing:.15em; text-transform:uppercase; border-bottom:1px solid var(--rule); padding-bottom:2px; color:var(--strong); }
+  p { margin:0; font-size:10.8px; }
+  .ack { margin:9px 0 9px; border:1.5px solid var(--strong); padding:8px 11px 9px; break-inside:avoid; background:#fffef8; }
+  .ack-note { margin:0 0 4px; color:var(--muted); font-size:9px; font-style:italic; }
+  .ack ul { list-style:none; margin:0; padding:0; columns:2; column-gap:16px; }
+  .ack li { break-inside:avoid; display:grid; grid-template-columns:38px 1fr; gap:8px; align-items:baseline; margin:4px 0; font-size:10.4px; }
+  .ack li:last-child { font-weight:700; column-span:all; margin-top:6px; }
+  .initial-line { height:13px; border-bottom:1px solid var(--ink); }
+  .execution-block { display:grid; grid-template-columns:1.6fr .78in 1.55in; gap:14px; align-items:end; margin-top:12px; }
+  .signature-line, .date-line { border-bottom:1px solid var(--ink); height:23px; }
+  .caption { margin-top:3px; font:7.5px var(--sans); letter-spacing:.1em; text-transform:uppercase; color:var(--muted); }
+  .stamp-stack { display:grid; gap:3px; justify-items:end; align-self:center; }
+  .stamp { position:relative; width:1.34in; height:.46in; display:grid; place-items:center; filter:grayscale(1) contrast(1.15); }
+  .stamp img { position:absolute; inset:0; width:100%; height:100%; object-fit:fill; opacity:.88; }
+  .stamp span { position:relative; z-index:1; font:800 12px var(--sans); letter-spacing:.17em; color:#111; transform:rotate(-3deg); }
+  .stamp-provisional { transform:rotate(5deg); }
+  .stamp-approved { transform:rotate(-7deg); }
+  .stamp-filed { width:1.28in; transform:rotate(-5deg); margin:0 auto 6px; }
+  .stamp-filed span { font-size:9.5px; letter-spacing:.12em; }
+  .footer-line { margin-top:7px; text-align:center; font-size:9.7px; font-style:italic; color:var(--muted); }
+  .page-two-head { display:grid; grid-template-columns:minmax(0,1fr) 1.28in; gap:.18in; align-items:start; }
+  .page-two-head > * { min-width:0; }
+  .route { width:100%; height:.66in; margin:1px 0 10px; object-fit:contain; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:2px 0; filter:grayscale(1) contrast(1.08); }
+  .page-two-grid { display:grid; grid-template-columns:minmax(0,1fr) 1.32in; gap:16px; align-items:start; }
+  .policy { margin:0 0 12px; }
+  .policy p { font-size:11.6px; }
+  .dispatch-flow { margin:16px 0 0; border:1px solid var(--rule); background:#fffef8; padding:9px 11px 10px; }
+  .dispatch-flow h2 { margin-bottom:7px; }
+  .dispatch-flow ol { list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:9px; }
+  .dispatch-flow li { border-left:2px solid var(--accent); padding-left:8px; min-height:.76in; }
+  .dispatch-flow b { display:inline-grid; place-items:center; width:.23in; height:.23in; margin-bottom:3px; border:1px solid var(--strong); font:700 9px var(--sans); }
+  .dispatch-flow strong { display:block; margin:0 0 2px; font:700 8px var(--sans); letter-spacing:.12em; text-transform:uppercase; }
+  .dispatch-flow span { display:block; font:9.4px var(--serif); line-height:1.28; }
+  .orientation-rail { display:grid; gap:9px; }
+  .rail-card { border:1px solid var(--rule); background:#fffef8; padding:8px; }
+  .rail-card h2 { font-size:7.4px; letter-spacing:.12em; }
+  .rail-card p, .rail-card li { font:8.4px var(--sans); line-height:1.33; color:var(--muted); }
+  .rail-card ul { margin:5px 0 0; padding:0 0 0 13px; }
+  .mascot-seal { width:100%; max-width:.95in; height:1.26in; object-fit:contain; display:block; margin:0 auto 5px; filter:grayscale(1) contrast(1.1); }
+  .dispatch-ledger { margin:13px 0 0; border:1px solid var(--rule); background:#fffef8; padding:8px 10px 9px; }
+  .ledger-grid { display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; }
+  .ledger-field b { display:block; font:700 7.4px var(--sans); letter-spacing:.12em; text-transform:uppercase; color:var(--muted); }
+  .ledger-line { display:block; height:18px; border-bottom:1px solid var(--ink); }
+  .ooc-wrap { margin:12px .18in 0; padding-top:8px; border-top:1px dashed var(--rule); }
+  .ooc { background:var(--note); border:1px solid #c9bc70; padding:12px 16px 13px; transform:rotate(-.55deg); box-shadow:2px 2px 0 rgba(0,0,0,.07); position:relative; }
+  .ooc:before { content:""; position:absolute; top:-9px; left:50%; width:1.1in; height:17px; transform:translateX(-50%) rotate(-2deg); background:rgba(173,160,82,.34); border:1px solid rgba(140,125,63,.45); }
+  .ooc h2 { font:700 10.5px var(--sans); letter-spacing:.08em; text-transform:uppercase; border:0; margin:0 0 6px; padding:0; }
+  .ooc p { font:12px Georgia,"Times New Roman",serif; line-height:1.4; }
+  .build-stamp { position:absolute; left:.48in; right:.48in; bottom:.2in; display:flex; justify-content:space-between; gap:10px; border-top:1px solid var(--rule); padding-top:5px; font:7px var(--sans); letter-spacing:.04em; color:var(--muted); }
+  @page { size:letter; margin:.45in; }
+  @media print {
+    html, body { background:#fff; }
+    .page { border:none; margin:0; width:auto; max-width:none; min-height:10in; padding:0; page-break-after:always; background:#fff; }
+    .page:last-child { page-break-after:auto; }
+    .page:before { inset:-.05in; border-color:#ccc; }
+    .tm { color:#555; }
+    .redaction { background:#111; border-color:#111; }
+    .rule { border-top-color:#555; }
+    .ooc { background:#fff8bf; box-shadow:none; }
+  }
+  @media screen and (max-width: 560px) {
+    .page { min-height:auto; margin:8px auto; padding:24px 20px 36px; }
+    .page:before { inset:10px; }
+    .letterhead { grid-template-columns:.68in 1fr; gap:10px; }
+    .page-two-head { grid-template-columns:1fr; gap:8px; }
+    .cargo-card { grid-column:1 / -1; justify-self:start; width:1.45in; }
+    .company { font-size:18px; line-height:1.04; }
+    .company-small { font-size:17px; }
+    .facts, .execution-block, .page-two-grid { grid-template-columns:1fr; }
+    .fact { border-right:0; border-bottom:1px solid var(--rule); }
+    .fact:last-child { border-bottom:0; }
+    .ack ul { columns:1; }
+    .stamp-stack { justify-items:start; grid-template-columns:1fr 1fr; }
+    .route { height:auto; max-height:.72in; }
+    .ledger-grid, .dispatch-flow ol { grid-template-columns:1fr; gap:7px; }
+    .ooc-wrap { margin:14px 0 0; }
+    .ooc { transform:none; }
+    .build-stamp { position:static; margin-top:16px; }
+  }
+</style>
+</head>
+<body>
+<article class="page contract-page" data-handout="contract" data-page="1" data-content-hash="7e2c31ba7c91b7c6">
+  <header class="letterhead">
+    <figure class="seal-box"><img class="crest" src="assets/emeris-crown-seal.png" alt="Emeris Crown Holdings crowned lion courier seal" width="720" height="720"></figure>
+    <div>
+      <h1 class="company">EMERIS CROWN HOLDINGS<span class="tm">&trade;</span></h1>
+      <p class="sub">Courier Dispatch Office | Crown-Lion Coach Division</p>
+      <p class="form">Form HC-7 | Independent Heroic Contractor Assignment, Indemnity and Gratitude Agreement | Client filing: Goldspire Logistics<span class="tm">&trade;</span></p>
+      <span class="tagline">Your safety is extremely important to us.<span class="tm">&trade;</span></span>
+    </div>
+    <aside class="cargo-card" aria-label="Sealed cargo notice">
+      <img class="crate" src="assets/crate.png" alt="Sealed cargo crate" width="720" height="720">
+      <b>Do Not Open</b>
+      <span>(friendly)</span>
+    </aside>
+  </header>
+  <hr class="rule">
+  <section class="facts" aria-label="Contract summary">
+    <div class="fact"><b>Contract</b><span>GS-HC7 | Provisional</span></div>
+    <div class="fact"><b>Cargo</b><span>One sealed <span class="redaction" aria-label="redacted cargo"><span>REDACTED</span></span><span class="tm">&trade;</span> cargo unit</span></div>
+    <div class="fact"><b>Route</b><span>Emeris Capital Gate to Hush Receiving Point</span></div>
+  </section>
+  <section class="contract-section"><h2>Welcome, Provisional Messenger</h2><p>Congratulations on your provisional promotion to Messenger (Probationary, Unbonded). Your application to Earn, Belong, and Carry<span class="tm">&trade;</span> has been pre-approved on your behalf. By being handed this document, you have already begun. Thank you for your enthusiasm, which has been noted and filed.</p></section>
+<section class="contract-section"><h2>Section One | The Assignment</h2><p>You will escort one (1) sealed <span class="redaction" aria-label="redacted cargo"><span>REDACTED</span></span><span class="tm">&trade;</span> cargo unit along the Approved Route to Hush, and deliver it unopened to authorized personnel. The crate is friendly. The crate is also sealed. These facts are not in tension. Do not open the crate.</p></section>
+<section class="contract-section"><h2>Section Two | Compensation</h2><p>Upon verified delivery you will receive Goldspire Gratitude<span class="tm">&trade;</span> (one portion, non-transferable, non-edible), one (1) commemorative Employee of the Moment token, one (1) bag of coin, and partial relief against your outstanding debt. Hazard pay is not applicable, as the route is perfectly safe. Should the route prove unsafe, this will be considered a clerical matter and addressed in a future quarter.</p></section>
+<section class="contract-section"><h2>Section Three | Route and Conduct</h2><p>Remain on the Approved Route. The forest is corporate-managed, under-monitored, and documented as hostile. Wildlife is dangerous, non-compliant, and resistant to route culture. The trees have signed nothing and bear you documented ill will. Deviation from the route voids Gratitude and all payment, and may be interpreted as non-compliance.</p></section>
+<section class="contract-section"><h2>Section Four | Safety and Indemnity</h2><p>Your wellbeing is our highest priority. In the <span class="correction"><s>unlikely</s><em>likely</em></span> event of injury, dismemberment, soul-encumbrance, spontaneous unionization, or death, Emeris Crown Holdings, its clients, carriers, underwriters, and friendly subsidiaries are not liable. Death is a schedulable inconvenience and should be reported within one (1) business day to Soulspire Solutions<span class="tm">&trade;</span>. No severance wages, separation consideration, or post-mortem benefits are included.</p></section>
+  <section class="ack">
+    <h2>Section Five | Employee Acknowledgements</h2>
+    <p class="ack-note">Please initial each. Initialing is mandatory and joyful.</p>
+    <ul><li><span class="initial-line"></span><span>I am grateful for this opportunity.</span></li>
+<li><span class="initial-line"></span><span>I have no grievance with Emeris Crown Holdings, its clients, carriers, or friendly subsidiaries.</span></li>
+<li><span class="initial-line"></span><span>I have personally witnessed no evidence of corporate wrongdoing.</span></li>
+<li><span class="initial-line"></span><span>I understand that downsizing, restructuring, and synergy are positive.</span></li>
+<li><span class="initial-line"></span><span>I will not open the crate.</span></li>
+<li><span class="initial-line"></span><span>I will not deviate from the Approved Route.</span></li>
+<li><span class="initial-line"></span><span>I will not, at this time, hope for anything I have not been issued.</span></li></ul>
+  </section>
+  <section class="signature">
+    <p>By signing, you affirm that you are a happy and willing participant in your own logistics.</p>
+    <div class="execution-block">
+      <div><div class="signature-line"></div><div class="caption">X | Provisional Messenger</div></div>
+      <div><div class="date-line"></div><div class="caption">Date</div></div>
+      <div class="stamp-stack"><div class="stamp stamp-approved"><img src="assets/stamp-frame.png" alt="" aria-hidden="true" width="520" height="260"><span>APPROVED</span></div><div class="stamp stamp-provisional"><img src="assets/stamp-frame.png" alt="" aria-hidden="true" width="520" height="260"><span>PROVISIONAL</span></div></div>
+    </div>
+    <p class="footer-line">Thank you for choosing the only available option.<span class="tm">&trade;</span></p>
+  </section>
+  <div class="build-stamp"><span>Build 2026-06-23T21:40:58</span><span>Hash 7e2c31ba7c91b7c6</span></div>
+</article>
+<article class="page contract-page" data-handout="contract" data-page="2" data-content-hash="7e2c31ba7c91b7c6">
+  <header class="page-two-head">
+    <div>
+      <h1 class="company-small">EMERIS CROWN ORIENTATION ADDENDUM</h1>
+      <p class="sub">A Few Helpful Policies | Character Duties and Player Rights</p>
+      <p class="form">Continued from Form HC-7 | Retain for your records, mandatory</p>
+    </div>
+    <div><div class="stamp stamp-filed"><img src="assets/stamp-frame.png" alt="" aria-hidden="true" width="520" height="260"><span>FILED TODAY</span></div></div>
+  </header>
+  <hr class="rule">
+  <img class="route" src="assets/route-vignette.png" alt="Approved route from city gate to open vale" width="1500" height="560">
+  <div class="page-two-grid">
+    <main><section class="policy"><h2>How Rolls Work</h2><p>When your character does something uncertain and consequences matter, the GM may call for an action roll. Roll a Hope d12 and a Fear d12, add the fitting trait, and compare the total to the difficulty. If Hope is higher, you gain Hope. If Fear is higher, the GM gains Fear. Matching dice are a critical success. The GM will teach this at the table, one roll at a time.</p></section>
+<section class="policy"><h2>Player Wellness</h2><p>This policy is for players, not characters. At any time, you may ask for a Wellness Pause, a rewind, a break, or a topic moved off-screen. No explanation is required. The table adjusts at once, with no penalty and no debate.</p></section>
+<section class="policy"><h2>Your First Day</h2><p>Today you will complete your personnel file, be introduced to your assigned coworkers, receive dispatch from Emeris Crown Holdings, and learn the work by doing it. You begin as a Messenger in good standing. What you become is not yet on file.</p></section><section class="dispatch-flow">
+      <h2>Dispatch Flow | Do Not Improvise Past This Line</h2>
+      <ol><li><b>1</b><span><strong>Sign</strong>Initial the required lines. Keep your copy where rain, teeth, and questions cannot reach it.</span></li>
+<li><b>2</b><span><strong>Receive</strong>Confirm one sealed <span class="redaction" aria-label="redacted cargo"><span>REDACTED</span></span><span class="tm">&trade;</span> cargo unit. Exterior seals are part of the deliverable.</span></li>
+<li><b>3</b><span><strong>Roll Out</strong>Ask dispatch questions, choose carriage positions, and leave the gate toward Hush before daylight becomes a budget item.</span></li></ol>
+    </section></main>
+    <aside class="orientation-rail">
+      <section class="rail-card">
+        <img class="mascot-seal" src="assets/mascot-seal.png" alt="Goldspire smiling sun mascot giving approval" width="720" height="720">
+        <h2>Managerial Encouragement</h2>
+        <p>If you feel uncertain, smile toward the nearest supervisor or trusted coworker. If none are present, the smile still counts.</p>
+      </section>
+      <section class="rail-card">
+        <h2>First-Day Checklist</h2>
+        <ul>
+          <li>Carry the sealed cargo.</li>
+          <li>Keep exterior seals intact.</li>
+          <li>Ask dispatch questions before departure.</li>
+          <li>Report tampering, detours, or forest incidents.</li>
+        </ul>
+      </section>
+      <section class="rail-card">
+        <h2>Authorized Chain</h2>
+        <p>Filed by Emeris Crown Holdings. Client of record: Goldspire Logistics<span class="tm">&trade;</span>. Additional interested parties are available on Schedule <span class="redaction" aria-label="redacted schedule"><span>REDACTED</span></span>.</p>
+      </section>
+      <section class="rail-card">
+        <h2>Cargo Standard</h2>
+        <p>Unopened is a service standard. Curiosity is appreciated after delivery, during approved hours, with a supervisor present.</p>
+      </section>
+    </aside>
+  </div>
+  <section class="dispatch-ledger">
+    <h2>Employee Copy | Day-One Dispatch Notes</h2>
+    <div class="ledger-grid">
+      <label class="ledger-field"><b>Coworker to Trust First</b><span class="ledger-line"></span></label>
+      <label class="ledger-field"><b>Question for Dispatch</b><span class="ledger-line"></span></label>
+      <label class="ledger-field"><b>Wellness Signal</b><span class="ledger-line"></span></label>
+    </div>
+  </section>
+  <aside class="ooc-wrap">
+    <section class="ooc">
+      <h2>Out of Character</h2>
+      <p>A word from a real person, not Goldspire. This is a comedy with real teeth. You start as someone who believes in the company, or just needs the paycheck. You have not found proof anything is wrong, and that is on purpose. You will. Bring curiosity, not a plan. There is no homework, no wrong choice, and no way to lose by trying something. If anything ever feels off at the table, say so. That always wins. Glad you are here.</p>
+    </section>
+  </aside>
+  <div class="build-stamp"><span>Build 2026-06-23T21:40:58</span><span>Hash 7e2c31ba7c91b7c6</span></div>
+</article>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "MAP-LOC-relay-spire",
+  "kind": "slide",
+  "title": "MAP-LOC-relay-spire - Relay Spire Vista",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Epilogue: Beyond the Contract",
+  "hook": "Stone spires break through the treeline, each holding a small flame. One light westward burns weaker than the rest.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "Stone spires break through the treeline, each holding a small flame. One light westward burns weaker than the rest."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Stone spires break through the treeline, each holding a small flame. One light westward burns weaker than the rest."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:MAP-LOC-relay-spire",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "0d06437f2a943bed",
+  "generated_at": "2026-06-23T21:40:58"
+}

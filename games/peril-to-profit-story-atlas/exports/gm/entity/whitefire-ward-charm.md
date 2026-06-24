@@ -1,0 +1,57 @@
+# Whitefire Custodian's Ward-Charm
+
+GM export - entity:whitefire-ward-charm
+
+## Player-facing description
+A small hand-carved wooden ratcoon mid-scamper has been thumb-worn smooth for luck. It is warm, and the forest feels a little kinder while you hold it.
+
+## Public role
+Whitefire Custodian's Ward-Charm: while carried in Sablewood, gain +1 Evasion.
+
+## Handout text
+MITHRIL & MORTAR WARD NOTICE: Personal charms are not a substitute for approved ward pillars, sold separately and installed quarterly.
+
+## GM truth
+No forced reveal. Let this entity disclose truth through scene context and player attention.
+
+## GM handling
+Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.
+
+## Mechanics
+- Title: Discovery / Earn-It Mechanics
+- Player Safe: Players can inspect, handle, keep, trade, reveal, or earn Whitefire Custodian's Ward-Charm when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: A small hand-carved wooden ratcoon mid-scamper has been thumb-worn smooth for luck. It is warm, and the forest feels a little kinder while you hold it. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-whitefire-ward-charm-engage-whitefire-custodian's-ward-charm entity-whitefire-ward-charm Engage Whitefire Custodian's Ward-Charm Engage Whitefire Custodian's Ward-Charm Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Whitefire Custodian's Ward-Charm hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless the item or clue physically creates Hidden, Restrained, or Vulnerable
+- Search Loot: Whitefire Custodian's Ward-Charm: while carried in Sablewood, gain +1 Evasion. Provenance: Gift for earned gratitude; not lootable.
+
+## Profile
+- Schema Version: item-profile-v1
+- Id: whitefire-ward-charm
+- Item Id: whitefire-ward-charm
+- Item Name: Whitefire Custodian's Ward-Charm
+- Name: Whitefire Custodian's Ward-Charm
+- Aliases: ward charm Custodian charm
+- Pronunciation: WYT-fyr kuh-STOH-dee-anz WORD-charm
+- Item Kind: trinket
+- Tier: Tier 1
+- Priority: P1
+- Mode: PROP
+- Maker: the Whitefire Custodian
+- Made Or Wild: wild/folk
+- Auto Surface: True
+- Discovered From Art: False
+- Player Safe: Whitefire Custodian's Ward-Charm A small hand-carved wooden ratcoon mid-scamper has been thumb-worn smooth for luck. It is warm, and the forest feels a little kinder while you hold it. A small hand-carved wooden ratcoon mid-scamper has been thumb-worn smooth for luck. It is warm, and the forest feels a little kinder while you hold it. the Whitefire Custodian MITHRIL & MORTAR WARD NOTICE: Personal charms are not a substitute for approved ward pillars, sold separately and installed quarterly.
+- Block0: whitefire-ward-charm Whitefire Custodian's Ward-Charm ward charm Custodian charm WYT-fyr kuh-STOH-dee-anz WORD-charm trinket Tier 1
+- Block1: A small hand-carved wooden ratcoon mid-scamper has been thumb-worn smooth for luck. It is warm, and the forest feels a little kinder while you hold it. Whitefire Custodian's Ward-Charm: while carried in Sablewood, gain +1 Evasion. A small ward blessing carved by the Custodian. A sign the party earned her trust. pages/entities/whitefire-ward-charm.html
+- Block2: the Whitefire Custodian wild/folk MITHRIL & MORTAR WARD NOTICE: Personal charms are not a substitute for approved ward pillars, sold separately and installed quarterly. The corporation selling ward pillars is upset a hand-carved charm works.
+- Block3: Trinket. While carried in Sablewood: +1 Evasion. item #module Daggerheart item grammar: armor, shield, or defensive trinket; apply the listed threshold, Evasion, Armor Slot, or resistance effect only in the stated context. Trinket. While carried in Sablewood: +1 Evasion. The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned. Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does. Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction. If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus. Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling. DC 12-15 to identify maker, provenance, safe...
+- Block4: Whitefire Custodian The Hanging Office Open ValeTM Ritual Site Custodian's Gift Gift for earned gratitude; not lootable. S04-03 S04-04 S04-05 S05-01
+- Block5: Layer 1 - look A warm carved charm. Layer 2 - hint The forest seems safer near it. Layer 3 - truth It grants +1 Evasion in Sablewood. Earn the Custodian's gratitude. Notice the protection in play. Ask her what it is after trust is established. Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll.
+- Block6: A small hand-carved wooden ratcoon figurine, thumb-worn, faint warm whitefire glow, cozy bright light, no branding. item wiki card and earned side-card visual Use the Run Mode item card's Show image button when the table sees or earns this item. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/whitefire-ward-charm/profile_base.png assets/item-images/whitefire-ward-charm/profile_base.webp Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark.
+- Visual Assets: profile_base Item profile image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/whitefire-ward-charm/profile_base.png assets/item-images/whitefire-ward-charm/profile_base.webp ready Whitefire Custodian's Ward-Charm item illustration. A small hand-carved wooden ratcoon mid-scamper has been thumb-worn smooth for luck. It is warm, and the forest feels a little kinder while you hold it.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 3cebe4d260874242 | Source hash dac3370046ed077140fab2d6

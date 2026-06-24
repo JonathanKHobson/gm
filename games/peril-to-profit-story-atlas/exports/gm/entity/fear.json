@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "fear",
+  "title": "Fear",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "2230ac93fa83fa80",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Fear: Fear lets the GM seize spotlight, reveal costs, trigger features, and advance pressure."
+    },
+    {
+      "title": "Public role",
+      "body": "GM escalation currency and consequence pressure"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Fear lets the GM seize spotlight, reveal costs, trigger features, and advance pressure."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use when the scene needs a concrete object for players to inspect, carry, debate, or remember."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 2230ac93fa83fa80 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "fear",
+  "kind": "entity",
+  "title": "Fear",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Mechanic",
+  "hook": "Player-safe note: Fear lets the GM seize spotlight, reveal costs, trigger features, and advance pressure.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Fear lets the GM seize spotlight, reveal costs, trigger features, and advance pressure."
+    },
+    {
+      "label": "How It Works",
+      "body": "GM escalation currency and consequence pressure"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use this when your action is uncertain and consequences matter.",
+    "Ask which trait fits your method."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:fear",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "d5d000d646248a60",
+  "generated_at": "2026-06-23T21:40:58"
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "connection-questions",
+  "kind": "rule",
+  "title": "Connection Questions",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "session-zero",
+  "hook": "Daggerheart-style prompts that let players define safe, playable relationships before the first scene.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Daggerheart-style prompts that let players define safe, playable relationships before the first scene."
+    },
+    {
+      "label": "How It Works",
+      "body": "Connection Questions: Daggerheart-style prompts that let players define safe, playable relationships before the first scene."
+    },
+    {
+      "label": "Try It",
+      "body": "What does a connection answer look like?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use during Session Zero, character introductions, and optional party-bond refresh beats.",
+    "Offer one relationship prompt, then let the other player answer in their own words and keep only the part both players like.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:connection-questions",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "b3910670186d1f27",
+  "generated_at": "2026-06-23T21:40:58"
+}

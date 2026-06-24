@@ -1,0 +1,29 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "CHEATS",
+  "title": "CHEATS - Cheat Sheets",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "42770e88a8e65a73",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "Fast reference slides for live play."
+    },
+    {
+      "title": "Public objective",
+      "body": "Keep the table moving."
+    },
+    {
+      "title": "GM goal",
+      "body": "Reframe the table, summarize the new pressure, and move cleanly into the next playable beat."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 42770e88a8e65a73 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

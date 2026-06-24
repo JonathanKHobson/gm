@@ -1,0 +1,611 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2729 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S03-03 - The Clover Co-op) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The Clover Co-op climbs the trunk of an ancient tree, level stacked on level, crowded) Tj
+T*
+(with music and good-natured noise. A friendly local stops you at the door: newcomers) Tj
+T*
+(hang their shoes on the line strung across the ground floor. By the time you leave,) Tj
+T*
+(locals promise, the shoes come back shined and filled with little trinkets. Warmth,) Tj
+T*
+(food, and a dozen conversations wait. What do you do?) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Rest, connect, and become someone the town trusts.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: S03-03) Tj
+T*
+(- Type: scene) Tj
+T*
+(- Sectionid: ACT-THREE) Tj
+T*
+(- Sectiontitle: Act Three: Seeking a Custodian) Tj
+T*
+(- Title: The Clover Co-op) Tj
+T*
+(- Shorttitle: Clover Co-op) Tj
+T*
+(- Order: 403) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: True) Tj
+T*
+(- Image: assets/scenes/S03-03-the-clover-co-op.png) Tj
+T*
+(- Alt: The Clover Co-op scene art for Seeking a Custodian.) Tj
+T*
+(- Caption: The Clover Co-op gives the party hospitality, texture, and reasons to care.) Tj
+T*
+(- Mood: Seeking a Custodian) Tj
+T*
+(- Gmgoal: Use the vertical tavern as Hush's social heart: shoe custom, named locals,) Tj
+T*
+(  player-authored details, and a chance to belong.) Tj
+T*
+(- Publicobjective: Rest, connect, and become someone the town trusts.) Tj
+T*
+(- Readaloud: The Clover Co-op climbs the trunk of an ancient tree, level stacked on) Tj
+T*
+(  level, crowded with music and good-natured noise. A friendly local stops you at the) Tj
+T*
+(  door: newcomers hang their shoes on the line strung across the ground floor. By the) Tj
+T*
+(  time you leave, locals promise, the shoes come back shined and filled with little) Tj
+T*
+(  trinkets. Warmth, food, and a dozen conversations wait. What do you do?) Tj
+T*
+(- Gmnotes: This scene is relationship, not objective extraction. Slow down and let) Tj
+T*
+(  players be people. Do not turn hospitality into shopping inventory; use gifts as) Tj
+T*
+(  story boons.) Tj
+T*
+(- Gmscript: Say: "This is Hush's living room. Hang your shoes if you want to honor the) Tj
+T*
+(  custom. Pick a face, pick a table, or tell me one thing this tavern has that no) Tj
+T*
+(  tavern outside Hush would have.") Tj
+T*
+(- Gmreadaloud: The Clover Co-op climbs the trunk of an ancient tree. Newcomers hang) Tj
+T*
+(  their shoes on the line strung across the ground floor. Warmth, food, and a dozen) Tj
+T*
+(  conversations wait.) Tj
+T*
+(- Gmchecklist: Offer the shoe custom and reward it later with polished, trinket-filled) Tj
+T*
+(  shoes. Describe Fidget, Lausa, and Halython before naming them. Ask one player-) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3979 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  authored tavern prompt. Offer Prepare/Hope as a quiet breather. Let Halython ask) Tj
+T*
+(  about the road outcome when the moment is warm.) Tj
+T*
+(- Gmprivate: Halython's Bramble question lets bramble_outcome affect trust without) Tj
+T*
+(  lore-dumping. Even the tavern has small protective wards; Marlowe can notice this.) Tj
+T*
+(- Playertakeaway: This is the warm center of the act: a place to be people before) Tj
+T*
+(  being couriers again.) Tj
+T*
+(- Storytakeaway: Belonging in Hush is offered through customs, food, games, and) Tj
+T*
+(  careful attention.) Tj
+T*
+(- Mechanictakeaway: Downtime is mechanical here: Prepare/Hope, Presence, and) Tj
+T*
+(  respectful roleplay can raise hush_trust and unlock a guide.) Tj
+T*
+(- Rollcards: s03-03-honor-the-co-op-custom S03-03 Honor the Co-op custom Honor the Co-) Tj
+T*
+(  op custom Presence Presence None 10 Presence makes courtesy active rather than) Tj
+T*
+(  performative. The party treats Hush like a checkpoint. Critical Success: best) Tj
+T*
+(  possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit) Tj
+T*
+(  that follows from the fiction. Success with Hope: the PC gets what they wanted and) Tj
+T*
+(  gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what) Tj
+T*
+(  they wanted, but the GM gains Fear and introduces a cost, complication, or pressure.) Tj
+T*
+(  Failure with Hope: the PC does not get the full result, but gains Hope and receives) Tj
+T*
+(  a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the) Tj
+T*
+(  GM gains Fear. Make a hard move that follows from the fiction. The party treats Hush) Tj
+T*
+(  like a checkpoint. Use a hard complication, lost time, worse position, GM Fear, or) Tj
+T*
+(  mark Stress. Apply an official condition only if the fiction and rules justify it.) Tj
+T*
+(  The attempt falls short, but a partial thread appears. Offer one clue, weak) Tj
+T*
+(  position, or safer follow-up. The PC gets the core result, but it costs time, noise,) Tj
+T*
+(  leverage, or a visible resource. The result...) Tj
+T*
+(- Entityids: clover-co-op yera-mossglass hush firstmoss-launch-festival sableleaf-) Tj
+T*
+(  shoes bugbane-berry fire-wine whitefire-custodian sablewoodtm-logistics-preserve) Tj
+T*
+(  sable-sap brannic-mossvein the-grail) Tj
+T*
+(- Entities: clover-co-op Clover Co-op faction Faction / Community) Tj
+T*
+(  assets/icons/faction.png assets/logos/clover-co-op.png KLOH-ver KOH-op Warm lamps,) Tj
+T*
+(  clover doors, shared bowls, and dry jokes make the Clover Co-op feel like Hush's) Tj
+T*
+(  stubborn heartbeat. Make hospitality practical, specific, and emotionally risky. The) Tj
+T*
+(  social heart of Hush; shoes get polished and filled with trinkets.; introduce it) Tj
+T*
+(  with a sensory palette, who feels safe there, and what has been neglected. Pull) Tj
+T*
+(  player attention toward the choices, clues, and relationships tied to Hush, Yera) Tj
+T*
+(  Mossglass, Firstmoss Launch Festival. The social heart of Hush; shoes get polished) Tj
+T*
+(  and filled with trinkets. yera-mossglass Yera Mossglass npc NPC / Ally) Tj
+T*
+(  assets/icons/npc.png assets/npc-images/yera-mossglass/portrait_base.png YAIR-uh) Tj
+T*
+(  MOSS-glass the host who keeps a labeled shelf for every kind of trouble Clover Co-op) Tj
+T*
+(  keeper Yera Mossglass Runs hospitality with warmth and terrifying logistical) Tj
+T*
+(  competence. Care organized to the edge of formidable. Tints panic faintly green) Tj
+T*
+(  through spectacles ground from reclaimed ward-glass, because she says it is easier) Tj
+T*
+(  to sort that way. Terrified that one real crisis will turn her neighbors into cases) Tj
+T*
+(  and her...) Tj
+T*
+(- Factionids: clover-co-op) Tj
+T*
+(- Locationids: hush clover-co-op firstmoss-launch-festival) Tj
+T*
+(- Itemids: sableleaf-shoes bugbane-berry sable-sap fire-wine) Tj
+T*
+(- Worldconnectionprompts: S03-03-clover-co-op-world-connection clover-co-op The Clover) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3909 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Co-op Somewhere out here once felt like home for a night. Tell us about it.) Tj
+T*
+(- Statecontrols: hush_trust Hush Trust select low neutral high custodian_route) Tj
+T*
+(  Custodian Route select unknown safe dangerous bramble_outcome Bramble Outcome select) Tj
+T*
+(  unresolved killed captured spared negotiated escaped let_cargo bramble_truth_learned) Tj
+T*
+(  Bramble Truth Learned checkbox festival_participation Festival Participation) Tj
+T*
+(  checkbox festival_boon Festival Boon select none charm favor market_find goodwill) Tj
+T*
+(- Mechanicids: presence knowledge hope experiences npc-community-trust-track instinct) Tj
+T*
+(  table-spotlight) Tj
+T*
+(- Playerquestions: What local custom in Hush reminds you of home? Who accepts) Tj
+T*
+(  hospitality awkwardly, and who knows exactly what to do? What small repaired object) Tj
+T*
+(  in the Co-op tells you this place survives by care?) Tj
+T*
+(- Relationshipprompts: Which PC quietly checks on someone else here? Who disagrees) Tj
+T*
+(  about the right thing to do without breaking trust?) Tj
+T*
+(- Ownershipprompt: Name one detail in The Clover Co-op that belongs to your) Tj
+T*
+(  character's point of view.) Tj
+T*
+(- Fearspends: Spend Fear to make trust cost time, reveal a local fear, or show a ward) Tj
+T*
+(  symptom that locals have normalized. Make trust cost time, humility, or a public) Tj
+T*
+(  apology. Show a ward symptom locals have normalized because nobody official) Tj
+T*
+(  listened.) Tj
+T*
+(- Choicesconsequences: Honor the shoe custom The room relaxes; later the shoes return) Tj
+T*
+(  shined with small trinkets. Raise or reinforce hush_trust. A local is more willing) Tj
+T*
+(  to guide them toward the safe route. hush_trust +; possible custodian_route safe) Tj
+T*
+(  benefit player-visible Answer Halython honestly about the road The quiet clank) Tj
+T*
+(  listens closely and the room takes its cue from the answer. bramble_outcome colors) Tj
+T*
+(  Hush trust; mercy/parley helps, slaughter chills. The town's word reaches the keeper) Tj
+T*
+(  before the party does. hush_trust shifts by bramble_outcome both player-visible Take) Tj
+T*
+(  a breather or join a game The party becomes part of the room instead of standing at) Tj
+T*
+(  its edge. Prepare/Hope or Presence can bank goodwill. Festival or market boons) Tj
+T*
+(  become easier to justify. festival_participation possible; festival_boon possible) Tj
+T*
+(  benefit player-visible) Tj
+T*
+(- Lootclues: Use Clover Co-op gifts table Sableleaf Shoes: A pair of shoes sewn) Tj
+T*
+(  entirely from broad sablewood leaves sits light as breath, green-veined, and already) Tj
+T*
+(  leaning toward motion. Bugbane Berry?: A fat red-orange berry shines a little too) Tj
+T*
+(  perfectly, with a tiny insect suspended dead-center like a pit in amber. It looks) Tj
+T*
+(  appetizing and deeply wrong. Sable Sap: Warm amber sap beads from a crack in a huge) Tj
+T*
+(  trunk like the tree is breathing it out. It smells of honey, woodsmoke, and) Tj
+T*
+(  something older. Fire Wine?: A strong golden liquor sloshes in a thick jug, warm) Tj
+T*
+(  going down and warmer staying there. A paper tag insists it is not made from grapes) Tj
+T*
+(  and is absolutely not medicinal.) Tj
+T*
+(- Handoutids: Custodian warning Guaranteed seed) Tj
+T*
+(- Sourcesceneslug: S03-03-the-clover-co-op) Tj
+T*
+(- Sourcefiles: dist/Act3_Upgrade_Packet/ACT3_SCENE_UPGRADES.md) Tj
+T*
+(  dist/Act3_Upgrade_Packet/ACT3_PER_CHARACTER.md) Tj
+T*
+(- References: Clover Co-op map #MAP-LOC-clover-co-op Festival #S03-04) Tj
+T*
+(- Storyscope: Perceived antagonist: the forest. True antagonist: the corporate lie) Tj
+T*
+(  about the forest. The players never confront it directly. They are meant to feel it) Tj
+T*
+(  by the end. Every act offers at least one guaranteed and one earned hint that the) Tj
+T*
+(  danger is manufactured and the forest is not the enemy. A Grail "Protection) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4372 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Coverage" invoice hangs on the Clover Co-op wall, overdue and steep. ADD GUARANTEED) Tj
+T*
+(  Firstmoss and the Sunless Farms show the forest feeding Hush rather than hunting it.) Tj
+T*
+(  REFLAVOR GUARANTEED An elder says, "The wood was never this bad. The trouble came) Tj
+T*
+(  with the waymarkers." ADD EARNED Presence Easy 10 A ledger shows protection costs) Tj
+T*
+(  and hazard sightings climbing together. ADD EARNED Knowledge Medium 15 A Grail) Tj
+T*
+(  "Protection Coverage" invoice hangs on the Clover Co-op wall, overdue and steep. ADD) Tj
+T*
+(  GUARANTEED Presence: get people talking. Knowledge: read invoice/ledger. Instinct:) Tj
+T*
+(  sense resentment under hospitality. ACT3 Act 3: Hush 125 1:30 to 2:05 2:05 social) Tj
+T*
+(  beat, Co-op, local leads, optional break Trim village wandering to the invoice plus) Tj
+T*
+(  one elder line; point to the Custodian.) Tj
+T*
+(- Livetools: scene MAP-LOC-hush MAP-LOC-firstmoss-launch-festival MAP-LOC-clover-co-op) Tj
+T*
+(- Percharacterlayer: barnacle Barnacle Crowd map Instantly maps the tavern's social) Tj
+T*
+(  lanes and weak spots. Can win or charmingly cheat at Halython's game, earning his) Tj
+T*
+(  regard fast. Barnacle, this is your kind of room. Want to win over the quiet clank) Tj
+T*
+(  at his own game? khari-nix Khari Nix Lausa's strength lane Lausa the bearded ale-) Tj
+T*
+(  hauler loves weapons and strength. Can arm-wrestle, talk weapon history, or make a) Tj
+T*
+(  protective friend. Khari, the woman with the ale barrel wants your weapon's name and) Tj
+T*
+(  forge-date. Want to make a friend? garrick-reed Garrick Reed Affable answer His) Tj
+T*
+(  warmth makes him the natural social anchor when Halython asks about the road. Can) Tj
+T*
+(  answer the Bramble question with grace and turn bramble_outcome into trust. Garrick,) Tj
+T*
+(  the clank is asking about the road attackers. How you answer sets the room's read of) Tj
+T*
+(  you. varian-soto Varian Soto Fidget's routes Fidget latches onto the Katari ranger) Tj
+T*
+(  and wants to show rooftop and lantern paths. Can learn the fastest town shortcuts) Tj
+T*
+(  and support custodian_route=safe. Varian, the wiggling kid wants to show you the) Tj
+T*
+(  rooftops. Want to learn the town's shortcuts? marlowe-fairwind Marlowe Fairwind) Tj
+T*
+(  Layered tavern wards The tavern's small protective wards hum as...) Tj
+T*
+(- Takeawayhelp: Player takeaway This is the warm center of the act: a place to be) Tj
+T*
+(  people before being couriers again. "Put the job down for a minute. Be a person.) Tj
+T*
+(  Hush is watching kindly." "You can hang your shoes, share a drink, play the clank's) Tj
+T*
+(  card-and-acorn game, talk weapons with the ale-hauler, follow the lantern-child, or) Tj
+T*
+(  take a quiet Prepare beat." Give players one named table action at a time: shoes,) Tj
+T*
+(  drink, game, conversation, quiet rest, or ask-the-players tavern detail. presence) Tj
+T*
+(  hope table-spotlight Story takeaway Belonging in Hush is offered through customs,) Tj
+T*
+(  food, games, and careful attention. "They are not testing you with a form. They are) Tj
+T*
+(  seeing whether you can be gentle with their home." "Halython may ask what happened) Tj
+T*
+(  with the road attackers. A mercy answer warms the room. A bloody answer makes people) Tj
+T*
+(  quieter." Let the Bramble carry-in affect faces and tone, not a lecture. The town) Tj
+T*
+(  can be kind and still judge the party's choices. presence hope table-spotlight) Tj
+T*
+(  Mechanic takeaway Downtime is mechanical here: Prepare/Hope, Presence, and) Tj
+T*
+(  respectful roleplay can raise hush_trust and unlock a guide. "A breather can be a) Tj
+T*
+(  move. If you Prepare, name what care looks like and bank the Hope...) Tj
+T*
+(- Playerbeats: S03-03-shoes Shoes on the line Shoes on the line) Tj
+T*
+(  assets/scenes/S03-03-the-clover-co-op.png The Clover Co-op scene art for Seeking a) Tj
+T*
+(  Custodian. The threshold custom is simple: hang your shoes, step in as guests, and) Tj
+T*
+(  let the town decide what welcome means. The threshold custom is simple: hang your) Tj
+T*
+(  shoes, step in as guests, and let the town decide what welcome means. The threshold) Tj
+T*
+(  custom is simple: hang your shoes, step in as guests, and let the town decide what) Tj
+T*
+(  welcome means. image-title-caption S03-03-regulars The regulars The regulars) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 4047 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  assets/scenes/S03-03-the-clover-co-op.png The Clover Co-op scene art for Seeking a) Tj
+T*
+(  Custodian. A wiggling lantern-child, a bearded ale-hauler, and a quiet clank with a) Tj
+T*
+(  fox-bat make the room feel specific. A wiggling lantern-child, a bearded ale-hauler,) Tj
+T*
+(  and a quiet clank with a fox-bat make the room feel specific. A wiggling lantern-) Tj
+T*
+(  child, a bearded ale-hauler, and a quiet clank with a fox-bat make the room feel) Tj
+T*
+(  specific. text-first S03-03-belonging Belonging A moment to belong) Tj
+T*
+(  assets/scenes/S03-03-the-clover-co-op.png The Clover Co-op scene art for Seeking a) Tj
+T*
+(  Custodian. A drink, a strange game, a local question, or a quiet seat can become the) Tj
+T*
+(  moment...) Tj
+T*
+(- Gmbeats: S03-03-shoes Shoes on the line Shoes on the line Say: "Shoes on the line if) Tj
+T*
+(  you want in as guests. The custom is gentle, but it matters." The threshold custom) Tj
+T*
+(  is simple: hang your shoes, step in as guests, and let the town decide what welcome) Tj
+T*
+(  means. Hush's culture becomes playable through a small action. Respectful fictional) Tj
+T*
+(  positioning changes trust. Players know how to show respect immediately. Player) Tj
+T*
+(  takeaway Players know how to show respect immediately. "Shoes on the line if you) Tj
+T*
+(  want in as guests. The custom is gentle, but it matters." "The playable fact is: The) Tj
+T*
+(  threshold custom is simple: hang your shoes, step in as guests, and let the town) Tj
+T*
+(  decide what welcome means." Concrete actions for this beat: talk to a person) Tj
+T*
+(  present, inspect the named detail, help an ally, or choose whether to move toward) Tj
+T*
+(  the Custodian route. presence Story takeaway Hush's culture becomes playable through) Tj
+T*
+(  a small action. "Shoes on the line if you want in as guests. The custom is gentle,) Tj
+T*
+(  but it matters." "The story fact in play is: Hush's culture becomes playable through) Tj
+T*
+(  a small action." This beat changes Act 3 through this exact pressure: Hush's culture) Tj
+T*
+(  becomes playable through a small action...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 8000) Tj
+T*
+(- Playersafeprojection: S03-03 scene The Clover Co-op assets/scenes/S03-03-the-clover-) Tj
+T*
+(  co-op.png The Clover Co-op scene art for Seeking a Custodian. The Clover Co-op gives) Tj
+T*
+(  the party hospitality, texture, and reasons to care. Seeking a Custodian Rest,) Tj
+T*
+(  connect, and become someone the town trusts. The Clover Co-op climbs the trunk of an) Tj
+T*
+(  ancient tree, level stacked on level, crowded with music and good-natured noise. A) Tj
+T*
+(  friendly local stops you at the door: newcomers hang their shoes on the line strung) Tj
+T*
+(  across the ground floor. By the time you leave, locals promise, the shoes come back) Tj
+T*
+(  shined and filled with little trinkets. Warmth, food, and a dozen conversations) Tj
+T*
+(  wait. What do you do? S03-03-shoes Shoes on the line Shoes on the line) Tj
+T*
+(  assets/scenes/S03-03-the-clover-co-op.png The Clover Co-op scene art for Seeking a) Tj
+T*
+(  Custodian. The threshold custom is simple: hang your shoes, step in as guests, and) Tj
+T*
+(  let the town decide what welcome means. The threshold custom is simple: hang your) Tj
+T*
+(  shoes, step in as guests, and let the town decide what welcome means. The threshold) Tj
+T*
+(  custom is simple: hang your shoes, step in as guests, and let the town decide what) Tj
+T*
+(  welcome means. image-title-caption S03-03-regulars The regulars The...) Tj
+T*
+(- Companionmapids: MAP-LOC-hush MAP-LOC-firstmoss-launch-festival MAP-LOC-clover-co-op) Tj
+T*
+(- Slidenumber: 50) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+(- Spotlights: SPOT-M-PREPARE prepare prepare M17 S03-03 high mandatory beat:downtime) Tj
+T*
+(  Prepare Together Hope accrues fastest when actors regroup. Prepare gains Hope. If) Tj
+T*
+(  two or more PCs Prepare together, each of those PCs gains 2 Hope. Use the fiction: a) Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 465 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  drink, a plan, a breath, a prayer, a repaired strap. Prepare for Hope) Tj
+T*
+(  wiki/mechanic/prepare in-scene-prompts Reward noncombat table momentum with real) Tj
+T*
+(  resource movement. mechanic defer-if-clock-critical True True) Tj
+T*
+(- Spotlightsummary: 1) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 7e6beca7de3fd2e4 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R 12 0 R] /Count 6 >>
+endobj
+14 0 obj
+<< /Type /Catalog /Pages 13 0 R >>
+endobj
+15 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000009 00000 n 
+0000002790 00000 n 
+0000002918 00000 n 
+0000006949 00000 n 
+0000007077 00000 n 
+0000011038 00000 n 
+0000011166 00000 n 
+0000015590 00000 n 
+0000015718 00000 n 
+0000019817 00000 n 
+0000019946 00000 n 
+0000020463 00000 n 
+0000020593 00000 n 
+0000020683 00000 n 
+0000020734 00000 n 
+trailer
+<< /Size 16 /Root 14 0 R >>
+startxref
+20807
+%%EOF

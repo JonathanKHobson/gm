@@ -1,0 +1,82 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "slide",
+  "id": "SZ-00B",
+  "title": "SZ-00B - Welcome, Logistics, and GM Role",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "23431dbce983fa12",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "This is a standalone one-shot at Mox. We are here to tell a complete story tonight, learn the game as we go, and make sure everyone has enough information to participate comfortably."
+    },
+    {
+      "title": "Public objective",
+      "body": "This is a standalone one-shot at Mox. We are here to tell a complete story tonight, learn the game as we go, and make sure everyone has enough information to participate comfortably."
+    },
+    {
+      "title": "Player bullets",
+      "items": [
+        "Your GM is Kyle, he/him. Kyle has 15+ years running in-person and online TTRPGs.",
+        "GM style for Daggerheart: story-first, roleplay-friendly, and mechanics in service of the table's fun.",
+        "Kyle plays the world, keeps the rules moving, asks questions, and helps everyone get spotlight.",
+        "You play one character. Say what they try to do, ask questions, and make choices from their point of view.",
+        "We will confirm session length, end time, breaks, bathrooms, drinks, and any Mox house policies before we begin.",
+        "Phones are fine for reference or emergencies. Please keep attention at the table when another player has the spotlight.",
+        "This is a complete story tonight: Session Zero, opening job, rising trouble, final pressure, and a short closeout if time allows."
+      ]
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: SZ-00B",
+        "Type: session-zero",
+        "Sectionid: SESSION-ZERO",
+        "Sectiontitle: Session Zero",
+        "Title: Welcome, Logistics, and GM Role",
+        "Shorttitle: Welcome, Logistics, and GM Role",
+        "Playertitle: Welcome to the table",
+        "Order: 2",
+        "Playersafe: True",
+        "Completioneligible: True",
+        "Image: assets/icons/action-session-zero.png",
+        "Alt: Session Zero welcome and logistics icon.",
+        "Caption: Cover room logistics, the GM role, the player role, and the shape of an in-person one-shot before teaching rules.",
+        "Mood: calibration, invitation, consent",
+        "Gmgoal: Cover room logistics, the GM role, the player role, and the shape of an in-person one-shot before teaching rules.",
+        "Publicobjective: This is a standalone one-shot at Mox. We are here to tell a complete story tonight, learn the game as we go, and make sure everyone has enough information to participate comfortably.",
+        "Readaloud: This is a standalone one-shot at Mox. We are here to tell a complete story tonight, learn the game as we go, and make sure everyone has enough information to participate comfortably.",
+        "Playerbullets: Your GM is Kyle, he/him. Kyle has 15+ years running in-person and online TTRPGs. GM style for Daggerheart: story-first, roleplay-friendly, and mechanics in service of the table's fun. Kyle plays the world, keeps the rules moving, asks questions, and helps everyone get spotlight. You play one character. Say what they try to do, ask questions, and make choices from their point of view. We will confirm session length, end time, breaks, bathrooms, drinks, and any Mox house policies before we begin. Phones are fine for reference or emergencies. Please keep attention at the table when another player has the spotlight. This is a complete story tonight: Session Zero, opening job, rising trouble, final pressure, and a short closeout if time allows.",
+        "Playertable: GM role Kyle plays the world and helps the table move. Player role Describe what your character does and ask questions. Logistics Time, breaks, bathrooms, drinks, phones, and Mox policies.",
+        "Displaymode: text-first",
+        "Gmnotes: Script: Welcome everyone by name if possible. Say: I'm Kyle, he/him, and you can call me Kyle. I've been running TTRPGs for 15+ years, both in person and online. For Daggerheart, my style is story-first and roleplay-friendly: the mechanics are here to support the table's fun and help us resolve risky moments, not to make you memorize a rulebook. I play the world, frame scenes, make rulings, and help everyone get time in the spotlight. You play one character and tell me what they try to do. Before we begin, let's confirm end time, breaks, bathrooms, drinks, phone expectations, and any Mox house policies. This card exists before safety and rules so strangers know what room they are in. Keep it practical. The table needs confidence, not a speech. Checklist: Introduce yourself as GM; Name/pronouns: Kyle, he/him; Mention 15+ years running in-person and online TTRPGs; State story-first, roleplay-friendly Daggerheart style; Confirm headcount, seats, names, and any latecomers; Confirm session length and target end time; Cover Mox house policies or ask staff if needed; Point out bathrooms, drinks, and table logistics; Set phone policy: reference and emergencies are fine, attention stays...",
+        "Gmscript: Welcome everyone by name if possible. Say: I'm Kyle, he/him, and you can call me Kyle. I've been running TTRPGs for 15+ years, both in person and online. For Daggerheart, my style is story-first and roleplay-friendly: the mechanics are here to support the table's fun and help us resolve risky moments, not to make you memorize a rulebook. I play the world, frame scenes, make rulings, and help everyone get time in the spotlight. You play one character and tell me what they try to do. Before we begin, let's confirm end time, breaks, bathrooms, drinks, phone expectations, and any Mox house policies.",
+        "Gmreadaloud: I am Kyle, he/him, and you can call me Kyle. I have been running tabletop games for more than fifteen years, both in person and online. My Daggerheart style is story-first and roleplay-friendly. The mechanics are here to help us resolve risky moments and make the story more fun, not to make you memorize a rulebook. I play the world, frame scenes, make rulings, and help everyone get time in the spotlight. You play one character and tell me what they try to do. Before we begin, let's confirm end time, breaks, bathrooms, drinks, phone expectations, and any Mox house policies.",
+        "Gmchecklist: Introduce yourself as GM Name/pronouns: Kyle, he/him Mention 15+ years running in-person and online TTRPGs State story-first, roleplay-friendly Daggerheart style Confirm headcount, seats, names, and any latecomers Confirm session length and target end time Cover Mox house policies or ask staff if needed Point out bathrooms, drinks, and table logistics Set phone policy: reference and emergencies are fine, attention stays at the table State that tonight is a standalone complete story",
+        "Gmprivate: Ask May or Mox staff for current house policies before the event if they are not already posted.",
+        "Playertakeaway: Players know who Kyle is, how the table works, where logistics live, and that questions are welcome.",
+        "Storytakeaway: This is a complete one-shot, not a campaign pitch or open-ended planning meeting.",
+        "Mechanictakeaway: Establishes GM role vs. player role before any Daggerheart rules are introduced.",
+        "Takeawayhelp: Players know who Kyle is Players know Kyle's name, pronouns, experience, and GM style. This cue gives Kyle credibility and lowers pressure for beginners: story-forward, mechanics-assisted, and open to interruption. \"I am Kyle, he/him. I have run tabletop games for more than fifteen years, and tonight my job is to help the table tell a strong story without making rules feel like homework.\" If someone asks how strict the rules will be: \"I care about the rules when they help the scene. If a rule would slow us down, I will make a clear ruling and keep us moving.\" This cue gives Kyle credibility and lowers pressure for beginners: story-forward, mechanics-assisted, and open to interruption. safety-tools table-spotlight The night is a complete one-shot This is a full one-shot with a beginning, middle, and end. Use this to prevent campaign-pitch drift. The table should feel that their choices matter tonight. \"Tonight is built to complete a story at the table: onboarding, contract, road trouble, village pressure, reveal, and final choice.\" If a player asks whether this becomes a campaign: \"Tonight stands alone. If people love it, there are future threads, but you will get a complete arc...",
+        "Mechanicids: safety-tools table-spotlight",
+        "Handoutids: session-zero-worksheet",
+        "Sourcefiles: Session Zero Checklist.txt docs/SESSION_ZERO_RUNBOOK.md handouts/Player_Welcome_Table_Expectations.md",
+        "Livetools: none",
+        "Playerbeats: SZ-00B-text Text only Welcome to the table Cover room logistics, the GM role, the player role, and the shape of an in-person one-shot before teaching rules. This is a standalone one-shot at Mox. We are here to tell a complete story tonight, learn the game as we go, and make sure everyone has enough information to participate comfortably. This is a standalone one-shot at Mox. We are here to tell a complete story tonight, learn the game as we go, and make sure everyone has enough information to participate comfortably. Your GM is Kyle, he/him. Kyle has 15+ years running in-person and online TTRPGs. GM style for Daggerheart: story-first, roleplay-friendly, and mechanics in service of the table's fun. Kyle plays the world, keeps the rules moving, asks questions, and helps everyone get spotlight. You play one character. Say what they try to do, ask questions, and make choices from their point of view. We will confirm session length, end time, breaks, bathrooms, drinks, and any Mox house policies before we begin. text-first SZ-00B-more More / details Welcome to the table More details for this beat. Phones are fine for reference or emergencies. Please keep attention at the table when...",
+        "Beatautoplayeligible: False",
+        "Beatautoplaydefault: False",
+        "Beatautoplayintervalms: 12000",
+        "Playersafeprojection: SZ-00B session-zero Welcome, Logistics, and GM Role assets/icons/action-session-zero.png Session Zero welcome and logistics icon. Cover room logistics, the GM role, the player role, and the shape of an in-person one-shot before teaching rules. calibration, invitation, consent This is a standalone one-shot at Mox. We are here to tell a complete story tonight, learn the game as we go, and make sure everyone has enough information to participate comfortably. This is a standalone one-shot at Mox. We are here to tell a complete story tonight, learn the game as we go, and make sure everyone has enough information to participate comfortably. Your GM is Kyle, he/him. Kyle has 15+ years running in-person and online TTRPGs. GM style for Daggerheart: story-first, roleplay-friendly, and mechanics in service of the table's fun. Kyle plays the world, keeps the rules moving, asks questions, and helps everyone get spotlight. You play one character. Say what they try to do, ask questions, and make choices from their point of view. We will confirm session length, end time, breaks, bathrooms, drinks, and any Mox house policies before we begin. Phones are fine for reference or emergencies. Please...",
+        "Slidenumber: 2",
+        "Totalslides: 110"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 23431dbce983fa12 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

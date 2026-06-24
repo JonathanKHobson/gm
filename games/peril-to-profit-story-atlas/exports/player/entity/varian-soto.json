@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "varian-soto",
+  "kind": "entity",
+  "title": "Varian Soto",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "PC / Player Character",
+  "hook": "Player-safe note: Tracks unlicensed apex fauna first and asks questions later.",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "Give one concrete visual, one sound or texture, and one sign of who has used or neglected it."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "sharp-eyed, self-protective, secretly sentimental about wild places"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask Varian Soto what they need right now.",
+    "Watch what they protect before asking for trust."
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:varian-soto",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "f4e48c62320ad802",
+  "generated_at": "2026-06-23T21:40:58"
+}

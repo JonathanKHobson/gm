@@ -1,0 +1,56 @@
+# The Ward Subscription
+
+GM export - entity:the-ward-subscription
+
+## Player-facing description
+The Ward Subscription: The villagers explain, cheerfully, what the ward costs them — a steep, endless fee — and that they've been asked to help defend the village themselves while the new ward-stone is installed.
+
+## Public role
+Clue / evidence
+
+## Handout text
+Player-safe note: The villagers explain, cheerfully, what the ward costs them — a steep, endless fee — and that they've been asked to help defend the village themselves while the new ward-stone is installed.
+
+## GM truth
+Use this element to reveal the cost of managed protection through concrete play.
+
+## GM handling
+Use when players need a tangible handle on the scene's pressure.
+
+## Mechanics
+- Title: Discovery / Earn-It Mechanics
+- Player Safe: Players can inspect, handle, keep, trade, reveal, or earn The Ward Subscription when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: The villagers explain, cheerfully, what the ward costs them — a steep, endless fee — and that they've been asked to help defend the village themselves while the new ward-stone is installed. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-the-ward-subscription-engage-the-ward-subscription entity-the-ward-subscription Engage The Ward Subscription Engage The Ward Subscription Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of The Ward Subscription hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless the item or clue physically creates Hidden, Restrained, or Vulnerable
+- Search Loot: Player-safe note: The villagers explain, cheerfully, what the ward costs them — a steep, endless fee — and that they've been asked to help defend the village themselves while the new ward-stone is installed.
+
+## Profile
+- Schema Version: clue-profile-v1
+- Id: the-ward-subscription
+- Clue Id: the-ward-subscription
+- Clue Name: The Ward Subscription
+- Name: The Ward Subscription
+- Pronunciation: the WORD sub-SKRIP-shun
+- Clue Kind: document/testimony
+- Trademark: ™
+- Auto Surface: True
+- Atlas Lore Note: [Atlas lore - confirm or override]
+- Player Safe: The Ward Subscription The villagers explain, cheerfully, what the ward costs them — a steep, endless fee — and that they've been asked to help defend the village themselves while the new ward-stone is installed. The villagers explain, cheerfully, what the ward costs them — a steep, endless fee — and that they've been asked to help defend the village themselves while the new ward-stone is installed. The villagers explain, cheerfully, what the ward costs them — a steep, endless fee — and that they've been asked to help defend the village themselves while the new ward-stone is installed.
+- Block0: the-ward-subscription The Ward Subscription the WORD sub-SKRIP-shun document/testimony ™
+- Block1: Hush pays dearly for protection it's now also expected to provide; the deal is lopsided, and they're too kind to call it. HIDDEN Hush's Hidden Struggle hush-hidden-struggle Keeps Hush warm while making the cost of protection concrete. pages/entities/the-ward-subscription.html pages/clues/hush-hidden-struggle.html
+- Block2: The villagers explain, cheerfully, what the ward costs them — a steep, endless fee — and that they've been asked to help defend the village themselves while the new ward-stone is installed. Hush pays dearly for protection it's now also expected to provide; the deal is lopsided, and they're too kind to call it.
+- Block3: "they mention the ward fee, lightly." "the fee is enormous for a village this poor." "they're paying a fortune and being asked to do the protecting too." "Hush is being squeezed by the very company that 'protects' it."
+- Block4: The Cheerful Ledger The Convenient Renewal the-cheerful-ledger the-convenient-renewal
+- Block5: S04-01 S04-03 S04-04 Hush The Hanging Office Emeris Crown Holdings just talk to them (this is the mandatory Hush beat that sets up Act 5's "defend the swap"). clues/Hush_Hidden_Struggle.md
+- Block6: MANDATORY Use this clue to support Hush's Hidden Struggle: Hush pays dearly for protection it's now also expected to provide; the deal is lopsided, and they're too kind to call it. whisper True
+- Block7: ™ Bright dystopian corporate optimism; use ™ only on branded documents, placards, contracts, and paid-protection artifacts.
+- Block8: Bright, saturated storybook evidence illustration; clear hero shot of the actual clue object or scene detail; whimsical frontier-Renaissance materials; warm light; bright dystopian corporate satire when branded; no gore, no UI, no watermark, no repeated icon. Depict: a cheerful villager pointing at a ward pillar beside a steep itemized fee notice, bright, ™. clue wiki card and Player Display evidence visual Send the image and SHOW text only. Keep TELL, points_to, and blunt ladder rungs GM-only until earned. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/the-ward-subscription/profile_base.png assets/clue-images/the-ward-subscription/profile_base.webp Bright, saturated storybook evidence illustration; clear hero shot of the actual clue object or scene detail; whimsical frontier-Renaissance materials; warm light; bright dystopian corporate satire when branded...
+- Block9: Official Daggerheart action roll using Duality Dice, Hope, Fear, and Difficulty; P2P Roll Slider is the table-facing result ladder. Agility move, climb, dodge, reach a better angle, or read evidence while moving Strength lift, hold, force, carry, break, or test weight and pressure Finesse handle, hide, tinker, compare, pick apart, or notice precise detail Instinct perceive, smell, listen, track, read danger, or sense body language Presence charm, soothe, press, lead, deceive, perform, or read a social response Knowledge recall, analyze, investigate, reason from lore, or understand systems Instinct D11 Knowledge D11 Presence D11 If the clue is plainly visible, give the SHOW text freely first: The villagers explain, cheerfully, what the ward costs them — a steep, endless fee — and that they've been asked to help defend the village themselves while the new ward-stone is installed. Use the...
+- Mechanicids: duality-dice hope fear difficulty roll-slider clue-discovery
+- Visual Assets: profile_base Clue evidence image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/the-ward-subscription/profile_base.png assets/clue-images/the-ward-subscription/profile_base.webp ready The Ward Subscription clue image. The villagers explain, cheerfully, what the ward costs them — a steep, endless fee — and that they've been asked to help defend the village themselves while the new ward-stone is installed.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 7bbba541ffd03749 | Source hash dac3370046ed077140fab2d6

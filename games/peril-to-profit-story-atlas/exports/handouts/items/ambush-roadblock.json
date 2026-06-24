@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "ambush-roadblock",
+  "kind": "entity",
+  "title": "Ambush Roadblock",
+  "in_world_label": "Provisioning Product Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Item / Asset",
+  "hook": "Player-safe note: A practical barricade built from felled branches, old signposts, and stolen route hardware.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Ambush Roadblock: A practical barricade built from felled branches, old signposts, and stolen route hardware."
+    },
+    {
+      "label": "Player Read",
+      "body": "Player-safe note: A practical barricade built from felled branches, old signposts, and stolen route hardware."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Inspect the label, maker, or fine print.",
+    "Use it only when the fiction says you can reach it."
+  ],
+  "archetype": "item.product_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:ambush-roadblock",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "a4c1b5bb6b3c9e4f",
+  "generated_at": "2026-06-23T21:40:58"
+}

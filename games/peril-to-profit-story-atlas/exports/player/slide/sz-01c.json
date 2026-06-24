@@ -1,0 +1,42 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "SZ-01C",
+  "kind": "slide",
+  "title": "SZ-01C - Tonight's Shape / Pacing",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Session Zero",
+  "hook": "We will start with Session Zero, move into the delivery job, follow the route through escalating complications, and take breaks so the table can breathe.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "We will start with Session Zero, move into the delivery job, follow the route through escalating complications, and take breaks so the table can breathe."
+    },
+    {
+      "label": "Public Objective",
+      "body": "We will start with Session Zero, move into the delivery job, follow the route through escalating complications, and take breaks so the table can breathe."
+    },
+    {
+      "label": "Player Bullets",
+      "body": "Session Zero: safety, rules, characters, and connections. Opening contract: the sealed delivery and why you took the job. Road trouble: the route proves less safe than advertised. Hush and investigation: meet people..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Session Zero: safety, rules, characters, and connections.",
+    "Opening contract: the sealed delivery and why you took the job.",
+    "Road trouble: the route proves less safe than advertised.",
+    "Hush and investigation: meet people, ask questions, and decide who to trust."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:SZ-01C",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "2e09e9403edab228",
+  "generated_at": "2026-06-23T21:40:58"
+}

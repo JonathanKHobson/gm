@@ -1,0 +1,51 @@
+# Bullfrog
+
+RAW export - entity:bullfrog
+
+## Player-facing description
+The thing in the reeds is not a normal frog scaled up. It is squat, armored, amber-eyed, and so heavy the mud dimples around it before it moves.
+
+## Public role
+Tier 1 bruiser hybrid animal
+
+## Handout text
+Player-safe note: A bull-sized swamp frog with armored warts, a heavy throat pouch, amber watching eyes, and enough mass to make a muddy bank feel like a sprung trap.
+
+## Raw source
+- Type: enemy
+- Role: Tier 1 bruiser hybrid animal
+- Summary: A bull-sized swamp frog with armored warts, a heavy throat pouch, amber watching eyes, and enough mass to make a muddy bank feel like a sprung trap.
+- Tags: sablewood-lore adversary hybrid-fauna source-page-9
+- Aliases: Bullfrog bull frog
+- Connections: Sablewood Hybrid Fauna The Lucent River Sablewood Fear Moments
+- Inventory: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry. armored warty hide mud-caked back heavy throat pouch reed charms snagged on its skin
+- Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+- Stat: Tier 1 Bruiser. Difficulty 11, thresholds 8/13, HP 4, Stress 2. Motives: Leap Out of Danger, Spear with Horns, Lash with Tongue.
+- Image Fallback: type-icon
+- Source Pages: Sablewood PDF p. 9
+- Name: Bullfrog
+- Id: bullfrog
+- Meta: Enemy / Combatant ENEMY assets/icons/enemy.png entity-enemy #ef6b42 04 Creatures entities enemy
+- Related: Sablewood Fear Moments Sablewood Hybrid Fauna The Lucent River
+- Image Prompt: Private table TTRPG story atlas asset for Bullfrog, Enemy / Combatant. Role: Tier 1 bruiser hybrid animal. Summary: A bull-sized swamp frog with armored warts, a heavy throat pouch, amber watching eyes, and enough mass to make a muddy bank feel like a sprung trap.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: A bull-sized swamp frog with armored warts, a heavy throat pouch, amber watching eyes, and enough mass to make a muddy bank feel like a sprung trap.; run Bullfrog with a motive, an exit route, and one visible sign of the system that produced the threat.
+- Wants: Win the immediate objective connected to Sablewood Hybrid Fauna, The Lucent River, Sablewood Fear Moments, not simply kill the party.
+- Fears: Failing the people or protocol behind them, being captured without being heard, or learning the fight served someone else's ledger.
+- Secrets: Use the stat pressure, but keep the story pressure tied to the system that produced the threat.
+- Body Language: Checks exits and cargo before glory. Fear makes the violence practical rather than theatrical.
+- Sample Dialogue: Bullfrog: We were told the road was theirs because they could afford the sign.
+- Equipment: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry. armored warty hide mud-caked back heavy throat pouch reed charms snagged on its skin
+- Search Or Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+- Gm Use: Run Bullfrog as a threat with a motive, a pressure point, and something left behind that explains why the fight happened.
+- Future Hooks: Bring back as an echo if players made a strong choice involving this entity.
+- Stat Summary: Tier 1 Bruiser. Difficulty 11, thresholds 8/13, HP 4, Stress 2. Motives: Leap Out of Danger, Spear with Horns, Lash with Tongue.
+- Robust: The thing in the reeds is not a normal frog scaled up. It is squat, armored, amber-eyed, and so heavy the mud dimples around it before it moves. Use the stat pressure, but keep the story pressure tied to the system that produced the threat. Broad armored body, moss and river mud across the back, huge springing legs, amber eyes, and reed charms caught in the warts like old wetland warnings. Win the immediate objective connected to Sablewood Hybrid Fauna, The Lucent River, Sablewood Fear Moments, not simply kill the party. Failing the people or protocol behind them, being captured without being heard, or learning the fight served someone else's ledger. Use as a wetland pressure creature: sudden movement, swallowed distance, and a reminder that Sablewood's small animals can become road-sized problems. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Bullfrog and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or...
+- Mechanics: Combat / Bypass Mechanics Players can fight, capture, interrogate, or bypass Bullfrog when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A bull-sized swamp frog with armored warts, a heavy throat pouch, amber watching eyes, and enough mass to make a muddy bank feel like a sprung trap. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-bullfrog-engage-bullfrog entity-bullfrog Engage Bullfrog Engage Bullfrog Agility Strength Finesse Presence Knowledge Instinct Agility Strength, Finesse, Presence, Knowledge, Instinct 15 Choose the trait from the player's method, not the entity type. A flat read of Bullfrog hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full...
+- Pronunciation: BULL-frog
+- Short Pronunciation: BULL-frog
+- Image: assets/creature-images/bullfrog/portrait_base.webp
+- Image Asset Status: creature_images
+- Visual Gallery: primary Primary wiki image primary assets/creature-images/bullfrog/portrait_base.webp Bullfrog primary wiki image visual. Bullfrog: Primary wiki image. creature_images True True
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 93770bf913e12751 | Source hash dac3370046ed077140fab2d6

@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "damage-armor",
+  "kind": "entity",
+  "title": "Damage / Armor",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Mechanic",
+  "hook": "Player-safe note: Compare damage to thresholds, mark HP by severity, and mark Armor Slots to reduce severity.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Compare damage to thresholds, mark HP by severity, and mark Armor Slots to reduce severity."
+    },
+    {
+      "label": "How It Works",
+      "body": "Damage thresholds, HP, Armor Slots, and Stress reference"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use this when your action is uncertain and consequences matter.",
+    "Ask which trait fits your method."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:damage-armor",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "47ae7ef7b7b2923e",
+  "generated_at": "2026-06-23T21:40:58"
+}

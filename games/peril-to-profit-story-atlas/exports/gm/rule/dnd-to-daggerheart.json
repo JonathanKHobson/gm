@@ -1,0 +1,50 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "dnd-to-daggerheart",
+  "title": "D&D to Daggerheart",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "20dd35bb048b98b1",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "Quick translation aid for D&D-trained instincts."
+    },
+    {
+      "title": "How it works",
+      "body": "Use when a player asks for a D&D skill, save, AC, or initiative."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use when a player asks for a D&D skill, save, AC, or initiative.",
+        "Traits, Hope/Fear, spotlight, Evasion, thresholds, and narrative consequences.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "What is different from D&D?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "traits",
+        "reaction-rolls",
+        "evasion",
+        "adversary-spotlight"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 20dd35bb048b98b1 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

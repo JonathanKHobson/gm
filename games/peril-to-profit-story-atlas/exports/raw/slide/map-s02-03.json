@@ -1,0 +1,76 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "slide",
+  "id": "MAP-S02-03",
+  "title": "MAP-S02-03 - Cargo Reclaimer Ambush Battlefield",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "ad14d71cdd23055a",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The road tightens into an ambush site: mud under the carriage wheels, thorn cover on both sides, and figures moving between the brush and the cargo line. The path forward is blocked by people, not beasts."
+    },
+    {
+      "title": "Public objective",
+      "body": "The road tightens into an ambush site: mud under the carriage wheels, thorn cover on both sides, and figures moving between the brush and the cargo line. The path forward is blocked by people, not beasts."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: MAP-S02-03",
+        "Type: map",
+        "Maptype: battlefield",
+        "Sectionid: ACT-TWO",
+        "Sectiontitle: Act Two: Cargo Reclaimers",
+        "Title: Cargo Reclaimer Ambush Battlefield",
+        "Shorttitle: The Road Ambush",
+        "Order: 302.08",
+        "Playersafe: True",
+        "Completioneligible: False",
+        "Image: assets/maps/MAP-S02-03-gm.webp",
+        "Alt: Bramble Union Ambush Battlefield map board.",
+        "Caption: A blocked forest road with hidden bramble lanes, carriage objective, and reclaimers trying to reach the Keystone cargo.",
+        "Mood: spatial reference and location texture",
+        "Gmgoal: Run the ambush board as objective pressure around the carriage and a moral exit, not a static melee.",
+        "Publicobjective: The road tightens into an ambush site: mud under the carriage wheels, thorn cover on both sides, and figures moving between the brush and the cargo line. The path forward is blocked by people, not beasts.",
+        "Readaloud: The road tightens into an ambush site: mud under the carriage wheels, thorn cover on both sides, and figures moving between the brush and the cargo line. The path forward is blocked by people, not beasts.",
+        "Gmnotes: The Union self-name is GM/earned dialogue. Player-facing board title stays Road Ambush. Use Back Off to create space or protect the leader, not as a slaughter button.",
+        "Gmscript: Say: \"Use this board as pressure around the carriage. The attackers are trying to reach the package, not win a duel. Every round, a PC can fight, protect, reposition, spare someone, or roll Presence 15 to de-escalate.\"",
+        "Gmreadaloud: The road tightens into an ambush site. Mud pulls at the carriage wheels, thorn cover breaks sightlines, and figures move between brush and cargo line. The path forward is blocked by people, not beasts.",
+        "Gmchecklist: Apply ambushAwareness for first actor and starting distance. Name the objective: the package in the carriage. Offer Presence 15 de-escalation every round. Lower social Difficulty for strixwolf mercy or sparing a downed attacker. Resolve to S02-04 with bramble_outcome recorded.",
+        "Gmprivate: The ambushers fight like frightened amateurs because they are workers pushed into violence. Letting them take the package is valid but costly. Do not block it; record it as a branch problem.",
+        "Playertakeaway: The road tightens into an ambush site: mud under the carriage wheels, thorn cover on both sides, and figures moving between the brush and the cargo line. The path forward is blocked by people, not beasts.",
+        "Storytakeaway: The board makes the moral shape of the ambush visible: desperate people, a vulnerable carriage, and an objective everyone can point to.",
+        "Mechanictakeaway: Combat, de-escalation, non-lethal control, Help an Ally, and objective defense are all live mechanics on this map.",
+        "Entityids: bramble-union bramble-union-ambusher bramble-union-claimrunner escort-carriage",
+        "Entities: bramble-union Bramble Union faction Faction / Community assets/icons/faction.png assets/logos/bramble-union.webp BRAM-bul YOO-nyun Thorn-scrap armor, hungry eyes, and old worker gear make the Bramble Union look dangerous before they look human. Loose label for freeholders and cargo reclaimers Called thieves by Goldspire; actually a mix of displaced workers, freeholders, and dangerous reclaimers.; show internal disagreement, practical needs, and how the faction explains itself when outsiders listen. Protect its stake in Bramble Union Ambusher, Bramble Union Claimrunner, Goldspire Territories while being seen as more than a symbol or obstacle. Called thieves by Goldspire; actually a mix of displaced workers, freeholders, and dangerous reclaimers. bramble-union-ambusher Bramble Union Ambusher enemy Enemy / Combatant assets/icons/enemy.png assets/npc-images/bramble-union-ambusher/portrait_base.webp BRAM-bul YOO-nyun AM-boosh-er a road reclaimer who has never done this before, and it shows The frightened body in the bushes who makes the ambush real. Bramble Union Ambusher a desperate road reclaimer trying to stop the carriage without looking scared All borrowed bravado stretched thin...",
+        "Statecontrols: ambushAwareness Ambush awareness select unresolved see-them-coming ambushed Sets opening actor. bramble_outcome Bramble outcome select unresolved killed captured spared negotiated escaped Always record before moving to S02-04.",
+        "Mechanicids: action-roll presence help-an-ally stress fear gm-moves",
+        "Fearspends: The leader uses Back Off to blast space around her and move the fight away from easy parley. A horse panics and drags the carriage toward the thorn wall. An ambusher reaches the package line unless someone spends their action to block. A noncombatant clue becomes endangered: dropped papers scatter into mud or thorn.",
+        "Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth context stay off the player display.",
+        "Linkedsceneids: S02-02 S02-03",
+        "Mapdata: MAP-S02-03 battlefield Cargo Reclaimer Ambush Battlefield S02-02 S02-03 assets/maps/MAP-S02-03-gm.webp assets/maps/MAP-S02-03.png A blocked forest road with hidden bramble lanes, carriage objective, and reclaimers trying to reach the Keystone cargo. Melee/Very Close Around carriage and cart Close Ambusher entry lanes Far Archers/scouts or retreat lines if added A blocked road, carriage cover, bramble lanes, muddy ruts, and figures moving between thorn-shadow and cargo line. Raised voices from cover, reins snapping, thorns scratching armor and cloth, and the carriage wood groaning whenever pressure shifts. Wet bramble, mud, horse sweat, torn leather, crushed leaves, and the sharp green smell of cut vines. The road sucks at boots; brambles catch sleeves; carriage rails are smooth where hands can brace or climb. The ambushers are people with homes and fear behind them. Their movement should feel trained by survival, not villain staging. The staged cart: cover and proof the ambush was planned. The thorn walls: cover, hazard, and flanking lanes. The carriage: the objective everyone cares about. Dropped company-marked gear: a clue during or after the fight. Cut reins and spooked horses...",
+        "Sourcefiles: dist/Act2_Upgrade_Packet/ACT2_MAPS_AND_COMBAT.md",
+        "References: Ambush scene #S02-03 Aftermath #S02-04",
+        "Livetools: encounter S02-03 MAP-S02-03 pages/combat/s02-03.html",
+        "Percharacterlayer: garrick-reed Garrick Reed De-escalator Sees the leader's reluctance and knows this can end with words. Strong candidate for Presence 15 de-escalation; Affable and Hope can matter here. Garrick, she does not want this fight. Affable plus Hope might end it without a swing. Want to try? marlowe-fairwind Marlowe Fairwind Custodian leverage As the one responsible for the package, she can speak to why it matters or bluff what handing it over costs. Can parley with leverage or use non-lethal control to protect the carriage. Marlowe, you know what you are carrying matters. Want to use that responsibility as leverage to talk them down? khari-nix Khari Nix Protect without killing Reads the fight as a line to hold, not a hunt to win. Can shield the carriage, protect allies, and subdue rather than slay. Khari, you can hold the line without putting anyone in the ground. Want to protect and subdue? barnacle Barnacle Disable or deal Sees which weapons, straps, or footing can be disabled without killing anyone. Can disarm, disable, or turn the standoff into a deal if parley starts. Barnacle, you could take them out of the fight without killing them, or cut a deal if this turns to talk...",
+        "Gmbeats: MAP-S02-03-orient Orient Orient the kill-zone Say: \"Here is the carriage. Here are the thorn lanes. Here is where the attackers are trying to get: the package line.\" The carriage is boxed in; thorn walls break sightlines; the attackers are trying to reach the package. The map turns the moral conflict into visible space. Fictional positioning decides who can protect, parley, flee, or intercept. Players know the objective and the lanes. Player takeaway Players know the objective and the lanes. \"Here is the carriage. Here are the thorn lanes. Here is where the attackers are trying to get: the package line.\" \"The playable facts are: The carriage is boxed in; thorn walls break sightlines; the attackers are trying to reach the package.\" Use this beat to point the table at one immediate choice. The player-facing fact is: The carriage is boxed in; thorn walls break sightlines; the attackers are trying to reach the package. gm-moves Story takeaway The map turns the moral conflict into visible space. \"Here is the carriage. Here are the thorn lanes. Here is where the attackers are trying to get: the package line.\" \"The story fact you can trust is: The map turns the moral conflict into...",
+        "Takeawayhelp: Player takeaway The map gives the table objective pressure: package, carriage, thorn lanes, and leader. \"Point at what matters: the carriage, the package line, the leader, and the thorn lanes.\" \"If you are unsure what to do, choose one: protect the package, stop an attacker, talk to the leader, move the carriage, spare someone, or retreat.\" Use spatial clarity to reduce overwhelm. The board should make moral choices easier to act on, not harder. presence help-an-ally gm-moves Story takeaway The board makes the moral shape of the ambush visible: desperate people, a vulnerable carriage, and an objective everyone can point to. \"The map is not asking who can kill fastest. It is asking what you protect when scared people reach for the same thing.\" \"The attackers want cargo, not a massacre. Their choices are violent, but their objective is readable.\" Keep their humanity present in posture, gear, and hesitation while still letting them be dangerous. presence help-an-ally gm-moves Mechanic takeaway Combat, de-escalation, non-lethal control, Help an Ally, and objective defense are all live mechanics on this map. \"Presence 15 talks it down. Agility or Strength 13 protects the carriage...",
+        "Playerbeats: assets/maps/MAP-S02-03.png The Road Ambush map board. MAP-S02-03 battlefield The Road Ambush S02-02 S02-03 assets/maps/MAP-S02-03.png assets/maps/MAP-S02-03.png The Road Ambush map board. The road tightens into an ambush site: mud under the carriage wheels, thorn cover on both sides, and figures moving between the brush and the cargo line. The path forward is blocked by people, not beasts. The road tightens into an ambush site: mud under the carriage wheels, thorn cover on both sides, and figures moving between the brush and the cargo line. The path forward is blocked by people, not beasts. Carriage objective The Claimrunner wants the cargo. 0.48 0.52 Bramble lanes Pressure comes from cover, not a neat line. 0.72 0.36 MAP-S02-03-map-only Map only The Road Ambush map-only assets/maps/MAP-S02-03.png The Road Ambush map board. MAP-S02-03 battlefield The Road Ambush S02-02 S02-03 assets/maps/MAP-S02-03.png assets/maps/MAP-S02-03.png The Road Ambush map board. The road tightens into an ambush site: mud under the carriage wheels, thorn cover on both sides, and figures moving between the brush and the cargo line. The path forward is blocked by people, not beasts. The road tightens into...",
+        "Beatautoplayeligible: True",
+        "Beatautoplaydefault: False",
+        "Beatautoplayintervalms: 10000",
+        "Playersafeprojection: MAP-S02-03 map The Road Ambush assets/maps/MAP-S02-03.png The Road Ambush map board. spatial reference and location texture The road tightens into an ambush site: mud under the carriage wheels, thorn cover on both sides, and figures moving between the brush and the cargo line. The path forward is blocked by people, not beasts. The road tightens into an ambush site: mud under the carriage wheels, thorn cover on both sides, and figures moving between the brush and the cargo line. The path forward is blocked by people, not beasts. MAP-S02-03 battlefield The Road Ambush S02-02 S02-03 assets/maps/MAP-S02-03.png assets/maps/MAP-S02-03.png The Road Ambush map board. The road tightens into an ambush site: mud under the carriage wheels, thorn cover on both sides, and figures moving between the brush and the cargo line. The path forward is blocked by people, not beasts. The road tightens into an ambush site: mud under the carriage wheels, thorn cover on both sides, and figures moving between the brush and the cargo line. The path forward is blocked by people, not beasts. Carriage objective The Claimrunner wants the cargo. 0.48 0.52 Bramble lanes Pressure comes from cover, not a neat line...",
+        "Slidenumber: 34",
+        "Totalslides: 110"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash ad14d71cdd23055a | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

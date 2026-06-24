@@ -1,0 +1,53 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "goldwater-liability-token",
+  "kind": "entity",
+  "title": "Goldwater Liability Token™",
+  "in_world_label": "Provisioning Product Card",
+  "brand_flag": "Goldwater Financial",
+  "kicker": "A heavy brass chit with a smiling coin-face drops into your palm like a tiny verdict. The fine print is too small to read without feeling...",
+  "hook": "A heavy brass chit with a smiling coin-face drops into your palm like a tiny verdict. The fine print is too small to read without feeling blamed.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "A heavy brass chit with a smiling coin-face drops into your palm like a tiny verdict. The fine print is too small to read without feeling blamed."
+    },
+    {
+      "label": "Maker Voice",
+      "body": "GOLDWATER PAY-IT-FORWARD: A Fee That Sounds Kinder Than It Feels. Congratulations On Your Liability. Terms Accrue While You Read This."
+    },
+    {
+      "label": "At The Table",
+      "body": "Narrative debt hook; social leverage or future trouble if accepted."
+    }
+  ],
+  "spec": [
+    [
+      "Use",
+      "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction."
+    ],
+    [
+      "Benefit",
+      "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned."
+    ],
+    [
+      "Limit",
+      "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a..."
+    ]
+  ],
+  "affordances": [
+    "Inspect the label, maker, or fine print.",
+    "Use it only when the fiction says you can reach it."
+  ],
+  "archetype": "item.product_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:goldwater-liability-token",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "ca0e8f1921b715ef",
+  "generated_at": "2026-06-23T21:40:58"
+}

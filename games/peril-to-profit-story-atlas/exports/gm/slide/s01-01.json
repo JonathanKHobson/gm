@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "S01-01",
+  "title": "S01-01 - Entering Sablewood",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "a245a8f5a777e8e6",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The last warded marker slips behind you. Ahead, the road narrows and the old forest closes around the carriage."
+    },
+    {
+      "title": "Public objective",
+      "body": "Cross from the contract briefing into the forest road. The next thing ahead blocks the path."
+    },
+    {
+      "title": "GM goal",
+      "body": "The carriage crosses from city-controlled road into a vast ancient forest and hands off to Act One."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "Ask one player what comforting lie a corporate sign tells travelers. Use their answer later as irony.",
+        "Keep player-facing information actionable. Reveal systemic truth through objects, reactions, and consequences before naming it.",
+        "Manufactured-threat lens: seed the contradiction, do not explain it. The surface goal stays simple and heroic."
+      ]
+    },
+    {
+      "title": "GM script",
+      "body": "The last warded marker slips behind you. The road narrows, the city noise thins, and the forest rises around the carriage like a green wall. Who has the reins, and what is the first strange detail your character notices about these trees?"
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash a245a8f5a777e8e6 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

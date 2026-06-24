@@ -1,0 +1,48 @@
+# Strixwolf Pup One
+
+RAW export - entity:strixwolf-pup-one
+
+## Player-facing description
+One pup stands in the moss with wet feathering along its shoulders, too-big paws, and round eyes that are trying very hard to be brave.
+
+## Public role
+Strixwolf pup
+
+## Handout text
+Player-safe note: A wet-feathered strixwolf pup with oversized ears, bright frightened eyes, and paws too large for the body it has not grown into yet.
+
+## Raw source
+- Type: creature
+- Role: Strixwolf pup
+- Tags: creature animal
+- Summary: A wet-feathered strixwolf pup with oversized ears, bright frightened eyes, and paws too large for the body it has not grown into yet.
+- Connections: Strixwolf Mother Strixwolf Pup Two
+- Inventory: downy owl-feathers muddy paws soft warning chirps
+- Loot: Do not loot pups. If rescued, can leave a feather token.
+- Name: Strixwolf Pup One
+- Id: strixwolf-pup-one
+- Meta: Creature / Animal CREATURE assets/icons/creature.png entity-creature #78a65f 04 Creatures entities creature
+- Aliases: Strixwolf Pup One bolder pup first pup pup one
+- Appears In: S01-03
+- Related: S01-03 Strixwolf Mother Strixwolf Pup Two
+- Image Prompt: Private table TTRPG story atlas asset for Strixwolf Pup One, Creature / Animal. Role: Strixwolf pup. Summary: A wet-feathered strixwolf pup with oversized ears, bright frightened eyes, and paws too large for the body it has not grown into yet.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark.
+- Personality: Pure startled instinct in a body it has not grown into yet. Bright frightened eyes, ears that swivel at every snapped twig, paws a size too big. It wants its mother and cannot understand why the road brought strangers instead.
+- Wants: To get back under its mother's wing without anyone deciding it is a trophy or a threat.
+- Fears: Loud voices, hands that reach too fast, and the open ground between itself and its mother.
+- Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.
+- Body Language: Flattens into the leaf litter and goes still, betting everything on not being seen. Tracks the loudest hand in the group; a soft voice lets it breathe again.
+- Sample Dialogue: A thin rising click, like a question no one answers. A whimper that cuts off the instant a hand moves too quickly.
+- Equipment: downy owl-feathers muddy paws soft warning chirps
+- Search Or Loot: Do not loot pups. If rescued, can leave a feather token.
+- Gm Use: Use as a moral encounter. Reward restraint and observation without forcing a pet or mascot outcome.
+- Future Hooks: Bring back as an echo if players made a strong choice involving this entity.
+- Robust: One pup stands in the moss with wet feathering along its shoulders, too-big paws, and round eyes that are trying very hard to be brave. No forced reveal. Let this entity disclose truth through scene context and player attention. Young owl-wolf body, mottled fur, downy dark wing-feathers along the back, upright ears, and cautious forward posture. Reach safety on its own terms and communicate danger through behavior before the party turns the moment into combat. Being surrounded, misread as a monster, or driven toward Strixwolf Mother, Strixwolf Pup Two by noise and haste. Use to make the strixwolf scene about protection and moral choice, not monster cleanup. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Strixwolf Pup One and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge...
+- Pronunciation: STRIKS-woolf pup wun
+- Short Pronunciation: STRIKS-woolf pup wun
+- Imagine It Like: Think the orphaned fawn the hunters stumble onto, the wet kitten in the storm drain, the baby animal in a nature documentary the whole room gasps for. Pure please do not be one more thing that hurts me.
+- Image: assets/creature-images/strixwolf-pup-one/portrait_base.webp
+- Image Asset Status: creature_images
+- Visual Gallery: primary Primary wiki image primary assets/creature-images/strixwolf-pup-one/portrait_base.webp Strixwolf Pup One primary wiki image visual. Strixwolf Pup One: Primary wiki image. creature_images True True creature-variant-1 Variant 1 creature-variant assets/entity-gallery/strixwolf-pup-one/creature-variant-1.webp Strixwolf Pup One variant 1 visual. Strixwolf Pup One: Variant 1. curated_variant True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/creature_images/strixwolf-pup-one/variants/legacy-current.png
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash a5e5c6107d0711dd | Source hash dac3370046ed077140fab2d6

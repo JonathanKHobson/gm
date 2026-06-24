@@ -1,322 +1,4076 @@
 [
   {
     "id": "action-roll",
-    "title": "Action Roll Flow",
-    "status": "#rules-canon",
-    "body": [
-      "Ask what the PC does, choose the trait that matches the fictional approach, set or reveal the Difficulty, then roll.",
-      "Roll Duality Dice, add the trait and any applicable Experience or bonus, compare the total to the Difficulty, then read Hope/Fear spin.",
-      "Roll only when the outcome is uncertain and the consequence matters. If there is no meaningful pressure, give the result without a roll."
-    ]
+    "title": "Action Roll",
+    "tag": "official",
+    "summary": "Roll when a PC does something uncertain and consequences matter.",
+    "when": "Use for proactive PC action under pressure.",
+    "not_when": "Do not roll when success is obvious or failure would not change anything.",
+    "question": "What do I roll?",
+    "answer": "Tell me what you do, then we choose the trait that fits.",
+    "example": "Searching Tamsin's cart is an Action Roll because the result changes what the party learns.",
+    "related": [
+      "duality-dice",
+      "difficulty",
+      "traits"
+    ],
+    "aliases": [
+      "roll",
+      "check",
+      "skill check",
+      "action rolls"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "action-roll",
+      "mechanic_name": "Action Roll",
+      "aliases": [
+        "roll",
+        "check",
+        "skill check",
+        "action rolls"
+      ],
+      "pronunciation": "Action Roll",
+      "category": "core-roll",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "duality-dice",
+        "difficulty",
+        "traits"
+      ],
+      "intro_stage": "First meaningful roll",
+      "related": [
+        "duality-dice",
+        "difficulty",
+        "traits"
+      ],
+      "what_it_is": "Roll when a PC does something uncertain and consequences matter.",
+      "why_it_matters": "Tell me what you do, then we choose the trait that fits.",
+      "how_it_functions": "Use for proactive PC action under pressure.",
+      "p2p_note": "",
+      "template": "When a PC tries something uncertain and meaningful, choose a trait, set Difficulty, roll Hope d12 + Fear d12, add bonuses, compare total, then read Hope/Fear spin.",
+      "step_by_step": [
+        "Player states the action in the fiction.",
+        "GM names the trait that best matches the method and the Difficulty.",
+        "Player rolls Hope d12 + Fear d12 and adds trait, Experience, or advantage/disadvantage.",
+        "Compare total to Difficulty, then resolve the Hope/Fear or critical result."
+      ],
+      "scenario_generic": "Searching Tamsin's cart is an Action Roll because the result changes what the party learns.",
+      "scenario_story": "Searching Tamsin's cart is an Action Roll because the result changes what the party learns.",
+      "try_it": "Give a player Presence 12 to calm a worried animal, then ask what Hope or Fear changes in the scene.",
+      "keywords": [
+        "Action Roll",
+        "roll",
+        "check",
+        "skill check",
+        "action rolls",
+        "duality-dice",
+        "difficulty",
+        "traits"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "core-roll"
+  },
+  {
+    "id": "reaction-rolls",
+    "title": "Reaction Roll",
+    "tag": "official",
+    "summary": "A roll to react to danger or pressure rather than initiate action.",
+    "when": "Use when the GM calls for a response to sudden danger.",
+    "not_when": "Do not use as a default defense roll against every attack.",
+    "question": "Is this a saving throw?",
+    "answer": "Usually yes: if you mean a D&D save, look for a Reaction Roll.",
+    "example": "Dodging a sudden falling branch can be a Reaction Roll.",
+    "related": [
+      "duality-dice",
+      "agility",
+      "instinct"
+    ],
+    "aliases": [
+      "saving throw",
+      "save",
+      "reaction"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "reaction-rolls",
+      "mechanic_name": "Reaction Roll",
+      "aliases": [
+        "saving throw",
+        "save",
+        "reaction"
+      ],
+      "pronunciation": "Reaction Roll",
+      "category": "core-roll",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "duality-dice",
+        "agility",
+        "instinct"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "duality-dice",
+        "agility",
+        "instinct"
+      ],
+      "what_it_is": "A roll to react to danger or pressure rather than initiate action.",
+      "why_it_matters": "Usually yes: if you mean a D&D save, look for a Reaction Roll.",
+      "how_it_functions": "Use when the GM calls for a response to sudden danger.",
+      "p2p_note": "",
+      "template": "Reaction Roll: A roll to react to danger or pressure rather than initiate action.",
+      "step_by_step": [
+        "Use when the GM calls for a response to sudden danger.",
+        "Usually yes: if you mean a D&D save, look for a Reaction Roll.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Dodging a sudden falling branch can be a Reaction Roll.",
+      "scenario_story": "Dodging a sudden falling branch can be a Reaction Roll.",
+      "try_it": "Is this a saving throw?",
+      "keywords": [
+        "Reaction Roll",
+        "saving throw",
+        "save",
+        "reaction",
+        "duality-dice",
+        "agility",
+        "instinct"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "core-roll"
   },
   {
     "id": "duality-dice",
     "title": "Duality Dice",
-    "status": "#rules-canon",
-    "body": [
-      "Official default: roll two d12s, one Hope die and one Fear die.",
-      "Total the dice, add the relevant trait and bonuses, then compare to Difficulty.",
-      "The higher die determines whether the roll is with Hope or with Fear. Matching dice are a Critical Success.",
-      "Reaction rolls use the Duality Dice structure, but they do not generate Hope or Fear."
-    ]
+    "tag": "official",
+    "summary": "Roll a Hope d12 and Fear d12 together, add modifiers, compare to Difficulty.",
+    "when": "Use for Action Rolls and most player-facing uncertain rolls.",
+    "not_when": "Do not replace this with a custom dice mode in official beginner play.",
+    "question": "Why are there two d12s?",
+    "answer": "One sets the total with the other; the higher die colors the result with Hope or Fear.",
+    "example": "A 10 Fear die plus 5 Hope die with +2 Instinct is 17 with Fear.",
+    "related": [
+      "hope",
+      "fear",
+      "critical-success"
+    ],
+    "aliases": [
+      "2d12",
+      "hope die",
+      "fear die"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "duality-dice",
+      "mechanic_name": "Duality Dice",
+      "aliases": [
+        "2d12",
+        "hope die",
+        "fear die"
+      ],
+      "pronunciation": "Duality Dice",
+      "category": "core-roll",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "hope",
+        "fear",
+        "critical-success"
+      ],
+      "intro_stage": "First meaningful roll",
+      "related": [
+        "hope",
+        "fear",
+        "critical-success"
+      ],
+      "what_it_is": "Roll a Hope d12 and Fear d12 together, add modifiers, compare to Difficulty.",
+      "why_it_matters": "One sets the total with the other; the higher die colors the result with Hope or Fear.",
+      "how_it_functions": "The two d12s are rolled together. Their sum plus bonuses determines success against Difficulty. The higher die says whether the result is with Hope or with Fear. Matching dice are a Critical Success.",
+      "p2p_note": "This module uses only the official two-d12 Hope/Fear roll.",
+      "template": "Duality Dice: Roll a Hope d12 and Fear d12 together, add modifiers, compare to Difficulty.",
+      "step_by_step": [
+        "Use for Action Rolls and most player-facing uncertain rolls.",
+        "One sets the total with the other; the higher die colors the result with Hope or Fear.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "A 10 Fear die plus 5 Hope die with +2 Instinct is 17 with Fear.",
+      "scenario_story": "A 10 Fear die plus 5 Hope die with +2 Instinct is 17 with Fear.",
+      "try_it": "Why are there two d12s?",
+      "keywords": [
+        "Duality Dice",
+        "2d12",
+        "hope die",
+        "fear die",
+        "hope",
+        "fear",
+        "critical-success"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "core-roll"
   },
   {
-    "id": "hope-fear-matrix",
-    "title": "Hope/Fear Outcomes",
-    "status": "#rules-canon",
-    "table": {
-      "headers": [
-        "Total",
-        "Spin",
-        "Result"
+    "id": "hope",
+    "title": "Hope",
+    "tag": "official",
+    "summary": "Player resource gained from Hope results and spent to help or use features.",
+    "when": "Use when players want to support a roll, use an Experience, Tag Team, or trigger a feature.",
+    "not_when": "Do not spend it for undefined bonuses outside supported moves.",
+    "question": "What can I do with Hope?",
+    "answer": "Help, use an Experience, Tag Team, or use a Hope Feature.",
+    "example": "Marlowe spends Hope to apply Royal Mage to a ward-reading roll.",
+    "related": [
+      "help-an-ally",
+      "experiences",
+      "tag-team-roll"
+    ],
+    "aliases": [
+      "with Hope",
+      "hope spend",
+      "spend Hope"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "hope",
+      "mechanic_name": "Hope",
+      "aliases": [
+        "with Hope",
+        "hope spend",
+        "spend Hope"
       ],
-      "rows": [
-        [
-          ">= Difficulty",
-          "Hope",
-          "Success with Hope: get what you want and gain Hope."
-        ],
-        [
-          ">= Difficulty",
-          "Fear",
-          "Success with Fear: get what you want, but there is a cost or consequence; GM gains Fear."
-        ],
-        [
-          "< Difficulty",
-          "Hope",
-          "Failure with Hope: things do not go as planned, but gain Hope."
-        ],
-        [
-          "< Difficulty",
-          "Fear",
-          "Failure with Fear: things go badly; major consequence or complication; GM gains Fear."
-        ]
-      ]
-    }
+      "pronunciation": "Hope",
+      "category": "resource",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "help-an-ally",
+        "experiences",
+        "tag-team-roll"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "help-an-ally",
+        "experiences",
+        "tag-team-roll"
+      ],
+      "what_it_is": "Player resource gained from Hope results and spent to help or use features.",
+      "why_it_matters": "Help, use an Experience, Tag Team, or use a Hope Feature.",
+      "how_it_functions": "Use when players want to support a roll, use an Experience, Tag Team, or trigger a feature.",
+      "p2p_note": "",
+      "template": "Hope: Player resource gained from Hope results and spent to help or use features.",
+      "step_by_step": [
+        "Use when players want to support a roll, use an Experience, Tag Team, or trigger a feature.",
+        "Help, use an Experience, Tag Team, or use a Hope Feature.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Marlowe spends Hope to apply Royal Mage to a ward-reading roll.",
+      "scenario_story": "Marlowe spends Hope to apply Royal Mage to a ward-reading roll.",
+      "try_it": "What can I do with Hope?",
+      "keywords": [
+        "Hope",
+        "with Hope",
+        "hope spend",
+        "spend Hope",
+        "help-an-ally",
+        "experiences",
+        "tag-team-roll"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "resource"
+  },
+  {
+    "id": "fear",
+    "title": "Fear",
+    "tag": "official",
+    "summary": "GM pressure resource gained on Fear results and spent to escalate.",
+    "when": "Use to make moves, spotlight threats, or trigger Fear features.",
+    "not_when": "Do not use it to punish randomly; attach it to visible fiction.",
+    "question": "What does the GM get?",
+    "answer": "The GM gains Fear and spends it to make the situation more dangerous or complicated.",
+    "example": "A roll with Fear lets the Bramble ambush tighten around the carriage.",
+    "related": [
+      "gm-moves",
+      "adversary-spotlight"
+    ],
+    "aliases": [
+      "with Fear",
+      "GM Fear",
+      "fear spend"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "fear",
+      "mechanic_name": "Fear",
+      "aliases": [
+        "with Fear",
+        "GM Fear",
+        "fear spend"
+      ],
+      "pronunciation": "Fear",
+      "category": "resource",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "gm-moves",
+        "adversary-spotlight"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "gm-moves",
+        "adversary-spotlight"
+      ],
+      "what_it_is": "GM pressure resource gained on Fear results and spent to escalate.",
+      "why_it_matters": "The GM gains Fear and spends it to make the situation more dangerous or complicated.",
+      "how_it_functions": "Use to make moves, spotlight threats, or trigger Fear features.",
+      "p2p_note": "",
+      "template": "Fear: GM pressure resource gained on Fear results and spent to escalate.",
+      "step_by_step": [
+        "Use to make moves, spotlight threats, or trigger Fear features.",
+        "The GM gains Fear and spends it to make the situation more dangerous or complicated.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "A roll with Fear lets the Bramble ambush tighten around the carriage.",
+      "scenario_story": "A roll with Fear lets the Bramble ambush tighten around the carriage.",
+      "try_it": "What does the GM get?",
+      "keywords": [
+        "Fear",
+        "with Fear",
+        "GM Fear",
+        "fear spend",
+        "gm-moves",
+        "adversary-spotlight"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "resource"
   },
   {
     "id": "critical-success",
     "title": "Critical Success",
-    "status": "#rules-canon",
-    "body": [
-      "When the Hope die and Fear die match, the roll is a Critical Success.",
-      "A Critical Success counts as a roll with Hope even if the total would otherwise miss the Difficulty.",
-      "On a Critical Success, the PC gains Hope and clears 1 Stress. On an attack roll, follow the official critical damage rules."
-    ]
+    "tag": "official",
+    "summary": "Matching Duality Dice create the best version of the result.",
+    "when": "Use whenever the Hope and Fear dice match.",
+    "not_when": "Do not require the total to beat the Difficulty before honoring the critical.",
+    "question": "What happens on doubles?",
+    "answer": "Treat it as a Critical Success: gain Hope, clear 1 Stress, and give a strong result.",
+    "example": "A critical animal-handling moment lets the Strixwolf Mother fully trust the party.",
+    "related": [
+      "duality-dice",
+      "hope"
+    ],
+    "aliases": [
+      "crit",
+      "critical",
+      "doubles"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "critical-success",
+      "mechanic_name": "Critical Success",
+      "aliases": [
+        "crit",
+        "critical",
+        "doubles"
+      ],
+      "pronunciation": "Critical Success",
+      "category": "core-roll",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "duality-dice",
+        "hope"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "duality-dice",
+        "hope"
+      ],
+      "what_it_is": "Matching Duality Dice create the best version of the result.",
+      "why_it_matters": "Treat it as a Critical Success: gain Hope, clear 1 Stress, and give a strong result.",
+      "how_it_functions": "Use whenever the Hope and Fear dice match.",
+      "p2p_note": "",
+      "template": "Critical Success: Matching Duality Dice create the best version of the result.",
+      "step_by_step": [
+        "Use whenever the Hope and Fear dice match.",
+        "Treat it as a Critical Success: gain Hope, clear 1 Stress, and give a strong result.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "A critical animal-handling moment lets the Strixwolf Mother fully trust the party.",
+      "scenario_story": "A critical animal-handling moment lets the Strixwolf Mother fully trust the party.",
+      "try_it": "What happens on doubles?",
+      "keywords": [
+        "Critical Success",
+        "crit",
+        "critical",
+        "doubles",
+        "duality-dice",
+        "hope"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "core-roll"
   },
   {
-    "id": "difficulty-ladder",
-    "title": "Difficulty Ladder",
-    "status": "#rules-canon",
-    "table": {
-      "headers": [
-        "Difficulty",
-        "Number",
-        "Use"
+    "id": "difficulty",
+    "title": "Difficulty",
+    "tag": "official",
+    "summary": "The target number for a roll.",
+    "when": "Use whenever the outcome needs a clear hinge.",
+    "not_when": "Do not hide the hinge if the table needs fast teaching clarity.",
+    "question": "What number do I need?",
+    "answer": "The GM sets the Difficulty; beginner hinges often sit around 10-14.",
+    "example": "Spotting watchers before the ambush might be Difficulty 14.",
+    "related": [
+      "action-roll",
+      "traits"
+    ],
+    "aliases": [
+      "DC",
+      "difficulty class",
+      "hinge"
+    ],
+    "key_number": "5 / 10 / 15 / 20 / 25 / 30",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "difficulty",
+      "mechanic_name": "Difficulty",
+      "aliases": [
+        "DC",
+        "difficulty class",
+        "hinge"
       ],
-      "rows": [
-        [
-          "Very Easy 5",
-          "5",
-          "Obvious, low-pressure, strong leverage, or beginner-friendly on-ramp."
-        ],
-        [
-          "Easy 10",
-          "10",
-          "Low pressure, beginner-friendly, obvious route."
-        ],
-        [
-          "Average 15",
-          "15",
-          "Default meaningful uncertainty."
-        ],
-        [
-          "Hard 20",
-          "20",
-          "Dangerous, contested, or specialized task."
-        ],
-        [
-          "Very Hard 25",
-          "25",
-          "Exceptional, unstable, rushed, or opposed."
-        ],
-        [
-          "Nearly Impossible 30",
-          "30",
-          "Legendary attempt; usually offer another route."
-        ]
-      ]
-    }
+      "pronunciation": "Difficulty",
+      "category": "core-roll",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "action-roll",
+        "traits"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "action-roll",
+        "traits"
+      ],
+      "what_it_is": "The target number for a roll.",
+      "why_it_matters": "The GM sets the Difficulty; beginner hinges often sit around 10-14.",
+      "how_it_functions": "Use whenever the outcome needs a clear hinge.",
+      "p2p_note": "",
+      "template": "Difficulty: The target number for a roll.",
+      "step_by_step": [
+        "Use whenever the outcome needs a clear hinge.",
+        "The GM sets the Difficulty; beginner hinges often sit around 10-14.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Spotting watchers before the ambush might be Difficulty 14.",
+      "scenario_story": "Spotting watchers before the ambush might be Difficulty 14.",
+      "try_it": "What number do I need?",
+      "keywords": [
+        "Difficulty",
+        "DC",
+        "difficulty class",
+        "hinge",
+        "action-roll",
+        "traits"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "core-roll"
   },
   {
     "id": "traits",
     "title": "Traits",
-    "status": "#rules-canon",
-    "table": {
-      "headers": [
-        "Trait",
-        "What it covers"
+    "tag": "official",
+    "summary": "The six broad modifiers used instead of D&D skills.",
+    "when": "Use the trait that matches the player's approach.",
+    "not_when": "Do not translate one D&D skill to one fixed trait every time.",
+    "question": "What trait do I use?",
+    "answer": "Pick the one that matches how you do it.",
+    "example": "Sneaking through brush may be Finesse; sprinting through it may be Agility.",
+    "related": [
+      "agility",
+      "strength",
+      "finesse",
+      "instinct",
+      "presence",
+      "knowledge"
+    ],
+    "aliases": [
+      "trait",
+      "traits"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "traits",
+      "mechanic_name": "Traits",
+      "aliases": [
+        "trait",
+        "traits"
       ],
-      "rows": [
-        [
-          "Agility",
-          "Sprint, leap, maneuver, dodge, balance, climb fast, keep footing."
-        ],
-        [
-          "Strength",
-          "Lift, smash, grapple, hold, carry, resist force, endure strain."
-        ],
-        [
-          "Finesse",
-          "Control, hide, tinker, pick, disable, handle delicate details."
-        ],
-        [
-          "Instinct",
-          "Perceive, sense, navigate, track, read danger, read animals."
-        ],
-        [
-          "Presence",
-          "Charm, lead, soothe, deceive, perform, intimidate, negotiate."
-        ],
-        [
-          "Knowledge",
-          "Recall, analyze, investigate, comprehend, reason from lore."
-        ]
-      ]
-    }
+      "pronunciation": "Traits",
+      "category": "character-sheet",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "agility",
+        "strength",
+        "finesse",
+        "instinct"
+      ],
+      "intro_stage": "Session Zero primer",
+      "related": [
+        "agility",
+        "strength",
+        "finesse",
+        "instinct",
+        "presence",
+        "knowledge"
+      ],
+      "what_it_is": "The six broad modifiers used instead of D&D skills.",
+      "why_it_matters": "Pick the one that matches how you do it.",
+      "how_it_functions": "Use the trait that matches the player's approach.",
+      "p2p_note": "",
+      "template": "Traits: The six broad modifiers used instead of D&D skills.",
+      "step_by_step": [
+        "Use the trait that matches the player's approach.",
+        "Pick the one that matches how you do it.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Sneaking through brush may be Finesse; sprinting through it may be Agility.",
+      "scenario_story": "Sneaking through brush may be Finesse; sprinting through it may be Agility.",
+      "try_it": "What trait do I use?",
+      "keywords": [
+        "Traits",
+        "trait",
+        "traits",
+        "agility",
+        "strength",
+        "finesse",
+        "instinct",
+        "presence",
+        "knowledge"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "character-sheet"
   },
   {
-    "id": "dnd-conversion",
-    "title": "D&D-to-Daggerheart Translation",
-    "status": "#gm-aid not official",
-    "body": [
-      "Daggerheart uses traits, not D&D skills. Pick the trait that matches the player's fictional approach.",
-      "Use the D&D conversion page as a GM aid for players arriving from 5e; it is not official Daggerheart rules text."
-    ]
+    "id": "agility",
+    "title": "Agility",
+    "tag": "official",
+    "summary": "Sprint, leap, maneuver, dodge, balance, or move fast.",
+    "when": "Use when motion, speed, or positioning matters.",
+    "not_when": "Do not use for delicate control if Finesse is the better fit.",
+    "question": "Is this Acrobatics?",
+    "answer": "Usually Agility if speed or body movement is the point.",
+    "example": "Leap clear of a thorn snare with Agility.",
+    "related": [
+      "traits",
+      "reaction-rolls"
+    ],
+    "aliases": [
+      "acrobatics",
+      "dexterity",
+      "dodge"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "agility",
+      "mechanic_name": "Agility",
+      "aliases": [
+        "acrobatics",
+        "dexterity",
+        "dodge"
+      ],
+      "pronunciation": "Agility",
+      "category": "trait",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "traits",
+        "reaction-rolls"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "traits",
+        "reaction-rolls"
+      ],
+      "what_it_is": "Sprint, leap, maneuver, dodge, balance, or move fast.",
+      "why_it_matters": "Usually Agility if speed or body movement is the point.",
+      "how_it_functions": "Use when motion, speed, or positioning matters.",
+      "p2p_note": "",
+      "template": "Agility: Sprint, leap, maneuver, dodge, balance, or move fast.",
+      "step_by_step": [
+        "Use when motion, speed, or positioning matters.",
+        "Usually Agility if speed or body movement is the point.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Leap clear of a thorn snare with Agility.",
+      "scenario_story": "Leap clear of a thorn snare with Agility.",
+      "try_it": "Is this Acrobatics?",
+      "keywords": [
+        "Agility",
+        "acrobatics",
+        "dexterity",
+        "dodge",
+        "traits",
+        "reaction-rolls"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "trait"
+  },
+  {
+    "id": "strength",
+    "title": "Strength",
+    "tag": "official",
+    "summary": "Lift, smash, grapple, hold, carry, or resist force.",
+    "when": "Use when force or physical power solves the problem.",
+    "not_when": "Do not use just because the PC is tough; choose the approach.",
+    "question": "Is this Athletics?",
+    "answer": "Often Strength, unless speed and movement make Agility better.",
+    "example": "Force the cart free with Strength.",
+    "related": [
+      "traits"
+    ],
+    "aliases": [
+      "athletics",
+      "force",
+      "grapple"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "strength",
+      "mechanic_name": "Strength",
+      "aliases": [
+        "athletics",
+        "force",
+        "grapple"
+      ],
+      "pronunciation": "Strength",
+      "category": "trait",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "traits"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "traits"
+      ],
+      "what_it_is": "Lift, smash, grapple, hold, carry, or resist force.",
+      "why_it_matters": "Often Strength, unless speed and movement make Agility better.",
+      "how_it_functions": "Use when force or physical power solves the problem.",
+      "p2p_note": "",
+      "template": "Strength: Lift, smash, grapple, hold, carry, or resist force.",
+      "step_by_step": [
+        "Use when force or physical power solves the problem.",
+        "Often Strength, unless speed and movement make Agility better.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Force the cart free with Strength.",
+      "scenario_story": "Force the cart free with Strength.",
+      "try_it": "Is this Athletics?",
+      "keywords": [
+        "Strength",
+        "athletics",
+        "force",
+        "grapple",
+        "traits"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "trait"
+  },
+  {
+    "id": "finesse",
+    "title": "Finesse",
+    "tag": "official",
+    "summary": "Control, hide, tinker, disable, or handle delicate details.",
+    "when": "Use for stealth, delicate tools, and precise action.",
+    "not_when": "Do not use for brute force.",
+    "question": "Is this Stealth?",
+    "answer": "Often Finesse, unless speed and position make Agility better.",
+    "example": "Disarm a Bramble snare quietly with Finesse.",
+    "related": [
+      "traits"
+    ],
+    "aliases": [
+      "stealth",
+      "sleight of hand",
+      "control",
+      "hide",
+      "tinker"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "finesse",
+      "mechanic_name": "Finesse",
+      "aliases": [
+        "stealth",
+        "sleight of hand",
+        "control",
+        "hide",
+        "tinker"
+      ],
+      "pronunciation": "Finesse",
+      "category": "trait",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "traits"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "traits"
+      ],
+      "what_it_is": "Control, hide, tinker, disable, or handle delicate details.",
+      "why_it_matters": "Often Finesse, unless speed and position make Agility better.",
+      "how_it_functions": "Use for stealth, delicate tools, and precise action.",
+      "p2p_note": "",
+      "template": "Finesse: Control, hide, tinker, disable, or handle delicate details.",
+      "step_by_step": [
+        "Use for stealth, delicate tools, and precise action.",
+        "Often Finesse, unless speed and position make Agility better.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Disarm a Bramble snare quietly with Finesse.",
+      "scenario_story": "Disarm a Bramble snare quietly with Finesse.",
+      "try_it": "Is this Stealth?",
+      "keywords": [
+        "Finesse",
+        "stealth",
+        "sleight of hand",
+        "control",
+        "hide",
+        "tinker",
+        "traits"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "trait"
+  },
+  {
+    "id": "instinct",
+    "title": "Instinct",
+    "tag": "official",
+    "summary": "Perceive, sense, navigate, track, or read danger.",
+    "when": "Use when the PC notices or feels what is wrong.",
+    "not_when": "Do not use when the task is scholarly analysis; use Knowledge.",
+    "question": "Is this Perception?",
+    "answer": "Yes, most perception-style questions are Instinct.",
+    "example": "Notice the Strixwolf Mother's warning posture with Instinct.",
+    "related": [
+      "traits"
+    ],
+    "aliases": [
+      "perception",
+      "insight",
+      "survival",
+      "animal handling"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "instinct",
+      "mechanic_name": "Instinct",
+      "aliases": [
+        "perception",
+        "insight",
+        "survival",
+        "animal handling"
+      ],
+      "pronunciation": "Instinct",
+      "category": "trait",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "traits"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "traits"
+      ],
+      "what_it_is": "Perceive, sense, navigate, track, or read danger.",
+      "why_it_matters": "Yes, most perception-style questions are Instinct.",
+      "how_it_functions": "Use when the PC notices or feels what is wrong.",
+      "p2p_note": "",
+      "template": "Instinct: Perceive, sense, navigate, track, or read danger.",
+      "step_by_step": [
+        "Use when the PC notices or feels what is wrong.",
+        "Yes, most perception-style questions are Instinct.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Notice the Strixwolf Mother's warning posture with Instinct.",
+      "scenario_story": "Notice the Strixwolf Mother's warning posture with Instinct.",
+      "try_it": "Is this Perception?",
+      "keywords": [
+        "Instinct",
+        "perception",
+        "insight",
+        "survival",
+        "animal handling",
+        "traits"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "trait"
+  },
+  {
+    "id": "presence",
+    "title": "Presence",
+    "tag": "official",
+    "summary": "Charm, perform, deceive, lead, soothe, or intimidate socially.",
+    "when": "Use when the character's force of personality matters.",
+    "not_when": "Do not use when the player solves the problem with facts alone.",
+    "question": "Is this Persuasion?",
+    "answer": "Usually Presence.",
+    "example": "Talk a frightened reclaimer into lowering a weapon with Presence.",
+    "related": [
+      "traits"
+    ],
+    "aliases": [
+      "persuasion",
+      "deception",
+      "intimidation",
+      "performance"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "presence",
+      "mechanic_name": "Presence",
+      "aliases": [
+        "persuasion",
+        "deception",
+        "intimidation",
+        "performance"
+      ],
+      "pronunciation": "Presence",
+      "category": "trait",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "traits"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "traits"
+      ],
+      "what_it_is": "Charm, perform, deceive, lead, soothe, or intimidate socially.",
+      "why_it_matters": "Usually Presence.",
+      "how_it_functions": "Use when the character's force of personality matters.",
+      "p2p_note": "",
+      "template": "Presence: Charm, perform, deceive, lead, soothe, or intimidate socially.",
+      "step_by_step": [
+        "Use when the character's force of personality matters.",
+        "Usually Presence.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Talk a frightened reclaimer into lowering a weapon with Presence.",
+      "scenario_story": "Talk a frightened reclaimer into lowering a weapon with Presence.",
+      "try_it": "Is this Persuasion?",
+      "keywords": [
+        "Presence",
+        "persuasion",
+        "deception",
+        "intimidation",
+        "performance",
+        "traits"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "trait"
+  },
+  {
+    "id": "knowledge",
+    "title": "Knowledge",
+    "tag": "official",
+    "summary": "Recall, analyze, investigate, comprehend, or reason from lore.",
+    "when": "Use when study, records, theory, or analysis matters.",
+    "not_when": "Do not use when a gut read is enough; use Instinct.",
+    "question": "Is this Investigation?",
+    "answer": "Often Knowledge, unless noticing the clue is the main action.",
+    "example": "Read a ward inscription with Knowledge.",
+    "related": [
+      "traits"
+    ],
+    "aliases": [
+      "arcana",
+      "history",
+      "investigation",
+      "religion",
+      "nature"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "knowledge",
+      "mechanic_name": "Knowledge",
+      "aliases": [
+        "arcana",
+        "history",
+        "investigation",
+        "religion",
+        "nature"
+      ],
+      "pronunciation": "Knowledge",
+      "category": "trait",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "traits"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "traits"
+      ],
+      "what_it_is": "Recall, analyze, investigate, comprehend, or reason from lore.",
+      "why_it_matters": "Often Knowledge, unless noticing the clue is the main action.",
+      "how_it_functions": "Use when study, records, theory, or analysis matters.",
+      "p2p_note": "",
+      "template": "Knowledge: Recall, analyze, investigate, comprehend, or reason from lore.",
+      "step_by_step": [
+        "Use when study, records, theory, or analysis matters.",
+        "Often Knowledge, unless noticing the clue is the main action.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Read a ward inscription with Knowledge.",
+      "scenario_story": "Read a ward inscription with Knowledge.",
+      "try_it": "Is this Investigation?",
+      "keywords": [
+        "Knowledge",
+        "arcana",
+        "history",
+        "investigation",
+        "religion",
+        "nature",
+        "traits"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "trait"
+  },
+  {
+    "id": "experiences",
+    "title": "Experiences",
+    "tag": "official",
+    "summary": "Short expertise phrases that can add to relevant rolls by spending Hope.",
+    "when": "Use before a roll when the phrase truly applies.",
+    "not_when": "Do not apply every Experience to every roll.",
+    "question": "Can I use my Experience?",
+    "answer": "Yes, if it clearly helps this action and you spend Hope.",
+    "example": "Royal Mage can help Marlowe read wardcraft.",
+    "related": [
+      "hope",
+      "action-roll"
+    ],
+    "aliases": [
+      "Experience",
+      "background",
+      "expertise"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "experiences",
+      "mechanic_name": "Experiences",
+      "aliases": [
+        "Experience",
+        "background",
+        "expertise"
+      ],
+      "pronunciation": "Experiences",
+      "category": "character-sheet",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "hope",
+        "action-roll"
+      ],
+      "intro_stage": "Session Zero primer",
+      "related": [
+        "hope",
+        "action-roll"
+      ],
+      "what_it_is": "Short expertise phrases that can add to relevant rolls by spending Hope.",
+      "why_it_matters": "Yes, if it clearly helps this action and you spend Hope.",
+      "how_it_functions": "Use before a roll when the phrase truly applies.",
+      "p2p_note": "",
+      "template": "Experiences: Short expertise phrases that can add to relevant rolls by spending Hope.",
+      "step_by_step": [
+        "Use before a roll when the phrase truly applies.",
+        "Yes, if it clearly helps this action and you spend Hope.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Royal Mage can help Marlowe read wardcraft.",
+      "scenario_story": "Royal Mage can help Marlowe read wardcraft.",
+      "try_it": "Can I use my Experience?",
+      "keywords": [
+        "Experiences",
+        "Experience",
+        "background",
+        "expertise",
+        "hope",
+        "action-roll"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "character-sheet"
+  },
+  {
+    "id": "roleplay",
+    "title": "Roleplay",
+    "tag": "table-tool",
+    "summary": "The player states what their character says, does, notices, asks, or feels.",
+    "when": "Use whenever a scene needs a choice, reaction, question, or character moment before dice.",
+    "not_when": "Do not force performance; a plain third-person description is enough.",
+    "question": "Do I have to act it out?",
+    "answer": "No. You can speak in character, summarize in third person, or ask for help finding the words.",
+    "example": "A player can say, 'Barnacle hangs back and watches the contact's hands.'",
+    "related": [
+      "table-spotlight",
+      "action-roll"
+    ],
+    "aliases": [
+      "RP",
+      "role-play",
+      "roleplaying"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "roleplay",
+      "mechanic_name": "Roleplay",
+      "aliases": [
+        "RP",
+        "role-play",
+        "roleplaying"
+      ],
+      "pronunciation": "Roleplay",
+      "category": "mechanic",
+      "canon_status": "#adaptation",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "table-spotlight",
+        "action-roll"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "table-spotlight",
+        "action-roll"
+      ],
+      "what_it_is": "The player states what their character says, does, notices, asks, or feels.",
+      "why_it_matters": "No. You can speak in character, summarize in third person, or ask for help finding the words.",
+      "how_it_functions": "Use whenever a scene needs a choice, reaction, question, or character moment before dice.",
+      "p2p_note": "",
+      "template": "Roleplay: The player states what their character says, does, notices, asks, or feels.",
+      "step_by_step": [
+        "Use whenever a scene needs a choice, reaction, question, or character moment before dice.",
+        "No. You can speak in character, summarize in third person, or ask for help finding the words.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "A player can say, 'Barnacle hangs back and watches the contact's hands.'",
+      "scenario_story": "A player can say, 'Barnacle hangs back and watches the contact's hands.'",
+      "try_it": "Do I have to act it out?",
+      "keywords": [
+        "Roleplay",
+        "RP",
+        "role-play",
+        "roleplaying",
+        "table-spotlight",
+        "action-roll"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#adaptation",
+    "category": "mechanic"
+  },
+  {
+    "id": "table-spotlight",
+    "title": "Table Spotlight",
+    "tag": "table-tool",
+    "summary": "A simple way to make sure each player gets room to speak and can pass.",
+    "when": "Use when inviting introductions, reactions, scene ownership, or quieter players into play.",
+    "not_when": "Do not make spotlight feel like pressure; offer pass-and-return.",
+    "question": "What if I do not know what to say?",
+    "answer": "You can pass, ask a question, or give one short detail.",
+    "example": "After the forest threshold, ask one player what their character notices and another who has the reins.",
+    "related": [
+      "roleplay"
+    ],
+    "aliases": [
+      "spotlight",
+      "pass",
+      "pass and return"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "table-spotlight",
+      "mechanic_name": "Table Spotlight",
+      "aliases": [
+        "spotlight",
+        "pass",
+        "pass and return"
+      ],
+      "pronunciation": "Table Spotlight",
+      "category": "mechanic",
+      "canon_status": "#adaptation",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "roleplay"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "roleplay"
+      ],
+      "what_it_is": "A simple way to make sure each player gets room to speak and can pass.",
+      "why_it_matters": "You can pass, ask a question, or give one short detail.",
+      "how_it_functions": "Use when inviting introductions, reactions, scene ownership, or quieter players into play.",
+      "p2p_note": "",
+      "template": "Table Spotlight: A simple way to make sure each player gets room to speak and can pass.",
+      "step_by_step": [
+        "Use when inviting introductions, reactions, scene ownership, or quieter players into play.",
+        "You can pass, ask a question, or give one short detail.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "After the forest threshold, ask one player what their character notices and another who has the reins.",
+      "scenario_story": "After the forest threshold, ask one player what their character notices and another who has the reins.",
+      "try_it": "What if I do not know what to say?",
+      "keywords": [
+        "Table Spotlight",
+        "spotlight",
+        "pass",
+        "pass and return",
+        "roleplay"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#adaptation",
+    "category": "mechanic"
+  },
+  {
+    "id": "connection-prompts",
+    "title": "Connection Prompts",
+    "tag": "table-tool",
+    "summary": "Short relationship questions that build party history with consent.",
+    "when": "Use before play to create one or two playable relationships between PCs.",
+    "not_when": "Do not write another player's character; offer, then let them accept, clarify, complicate, soften, or pass.",
+    "question": "How do connections work?",
+    "answer": "One player offers a memory or relationship prompt; the other player answers from their character's point of view.",
+    "example": "Marlowe asks: 'I owe you a favor. What happened, and why have I not repaid it yet?'",
+    "related": [
+      "roleplay",
+      "table-spotlight"
+    ],
+    "aliases": [
+      "Connections",
+      "connection prompt",
+      "connection prompts"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "connection-prompts",
+      "mechanic_name": "Connection Prompts",
+      "aliases": [
+        "Connections",
+        "connection prompt",
+        "connection prompts"
+      ],
+      "pronunciation": "Connection Prompts",
+      "category": "session-zero",
+      "canon_status": "#adaptation",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "roleplay",
+        "table-spotlight"
+      ],
+      "intro_stage": "Session Zero primer",
+      "related": [
+        "roleplay",
+        "table-spotlight"
+      ],
+      "what_it_is": "Short relationship questions that build party history with consent.",
+      "why_it_matters": "One player offers a memory or relationship prompt; the other player answers from their character's point of view.",
+      "how_it_functions": "Use before play to create one or two playable relationships between PCs.",
+      "p2p_note": "",
+      "template": "Connection Prompts: Short relationship questions that build party history with consent.",
+      "step_by_step": [
+        "Use before play to create one or two playable relationships between PCs.",
+        "One player offers a memory or relationship prompt; the other player answers from their character's point of view.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Marlowe asks: 'I owe you a favor. What happened, and why have I not repaid it yet?'",
+      "scenario_story": "Marlowe asks: 'I owe you a favor. What happened, and why have I not repaid it yet?'",
+      "try_it": "How do connections work?",
+      "keywords": [
+        "Connection Prompts",
+        "Connections",
+        "connection prompt",
+        "connection prompts",
+        "roleplay",
+        "table-spotlight"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#adaptation",
+    "category": "session-zero"
+  },
+  {
+    "id": "cats",
+    "title": "Concept, Aim, Tone, Subject Matter",
+    "tag": "table-tool",
+    "summary": "A quick table calibration: what this is, what we are trying to do, how it feels, and what content may appear.",
+    "when": "Use before play so players know the game frame and can raise concerns.",
+    "not_when": "Do not hide behind the acronym; say the four parts plainly.",
+    "question": "What kind of game is this?",
+    "answer": "A corporate-fantasy delivery one-shot with sincere adventure, satire, light PG-13 danger, and room to pause or soften content.",
+    "example": "Concept: paid delivery job. Aim: learn Daggerheart and protect a community. Tone: sincere adventure with corporate satire.",
+    "related": [
+      "safety-tools"
+    ],
+    "aliases": [
+      "CATS",
+      "Concept",
+      "Aim",
+      "Tone",
+      "Subject Matter",
+      "Subject matter"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "cats",
+      "mechanic_name": "Concept, Aim, Tone, Subject Matter",
+      "aliases": [
+        "CATS",
+        "Concept",
+        "Aim",
+        "Tone",
+        "Subject Matter",
+        "Subject matter"
+      ],
+      "pronunciation": "Concept, Aim, Tone, Subject Matter",
+      "category": "mechanic",
+      "canon_status": "#adaptation",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "safety-tools"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "safety-tools"
+      ],
+      "what_it_is": "A quick table calibration: what this is, what we are trying to do, how it feels, and what content may appear.",
+      "why_it_matters": "A corporate-fantasy delivery one-shot with sincere adventure, satire, light PG-13 danger, and room to pause or soften content.",
+      "how_it_functions": "Use before play so players know the game frame and can raise concerns.",
+      "p2p_note": "",
+      "template": "Concept, Aim, Tone, Subject Matter: A quick table calibration: what this is, what we are trying to do, how it feels, and what content may appear.",
+      "step_by_step": [
+        "Use before play so players know the game frame and can raise concerns.",
+        "A corporate-fantasy delivery one-shot with sincere adventure, satire, light PG-13 danger, and room to pause or soften content.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Concept: paid delivery job. Aim: learn Daggerheart and protect a community. Tone: sincere adventure with corporate satire.",
+      "scenario_story": "Concept: paid delivery job. Aim: learn Daggerheart and protect a community. Tone: sincere adventure with corporate satire.",
+      "try_it": "What kind of game is this?",
+      "keywords": [
+        "Concept, Aim, Tone, Subject Matter",
+        "CATS",
+        "Concept",
+        "Aim",
+        "Tone",
+        "Subject Matter",
+        "Subject matter",
+        "safety-tools"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#adaptation",
+    "category": "mechanic"
+  },
+  {
+    "id": "safety-tools",
+    "title": "Safety Tools",
+    "tag": "table-tool",
+    "summary": "Light in-person permissions for pausing, slowing down, rewinding, stepping away, or asking for help.",
+    "when": "Use at the start and whenever comfort, clarity, pacing, or content needs adjustment.",
+    "not_when": "Do not make safety feel like a complicated ritual; keep it practical and available.",
+    "question": "How do I pause the game?",
+    "answer": "Say pause, ask for a break, ask to rewind, step away, or tell Kyle to slow down or repeat something.",
+    "example": "A player can say, 'Pause, can we soften that animal harm?' and the table adjusts.",
+    "related": [
+      "cats",
+      "table-spotlight"
+    ],
+    "aliases": [
+      "pause",
+      "rewind",
+      "break",
+      "open door",
+      "safety"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "safety-tools",
+      "mechanic_name": "Safety Tools",
+      "aliases": [
+        "pause",
+        "rewind",
+        "break",
+        "open door",
+        "safety"
+      ],
+      "pronunciation": "Safety Tools",
+      "category": "mechanic",
+      "canon_status": "#adaptation",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "cats",
+        "table-spotlight"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "cats",
+        "table-spotlight"
+      ],
+      "what_it_is": "Light in-person permissions for pausing, slowing down, rewinding, stepping away, or asking for help.",
+      "why_it_matters": "Say pause, ask for a break, ask to rewind, step away, or tell Kyle to slow down or repeat something.",
+      "how_it_functions": "Use at the start and whenever comfort, clarity, pacing, or content needs adjustment.",
+      "p2p_note": "",
+      "template": "Safety Tools: Light in-person permissions for pausing, slowing down, rewinding, stepping away, or asking for help.",
+      "step_by_step": [
+        "Use at the start and whenever comfort, clarity, pacing, or content needs adjustment.",
+        "Say pause, ask for a break, ask to rewind, step away, or tell Kyle to slow down or repeat something.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "A player can say, 'Pause, can we soften that animal harm?' and the table adjusts.",
+      "scenario_story": "A player can say, 'Pause, can we soften that animal harm?' and the table adjusts.",
+      "try_it": "How do I pause the game?",
+      "keywords": [
+        "Safety Tools",
+        "pause",
+        "rewind",
+        "break",
+        "open door",
+        "safety",
+        "cats",
+        "table-spotlight"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#adaptation",
+    "category": "mechanic"
   },
   {
     "id": "advantage-disadvantage",
     "title": "Advantage / Disadvantage",
-    "status": "#rules-canon",
-    "body": [
-      "Advantage adds a d6 advantage die to the roll total.",
-      "Disadvantage subtracts a d6 disadvantage die from the roll total.",
-      "Advantage and disadvantage cancel each other out before rolling. If multiple advantage dice remain, use the highest one.",
-      "The GM may grant advantage or disadvantage when the fiction supports it."
-    ]
+    "tag": "official",
+    "summary": "Advantage adds a d6; disadvantage subtracts a d6.",
+    "when": "Use when the fiction gives a clear edge or obstacle.",
+    "not_when": "Do not stack unclear bonuses just because the table wants more math.",
+    "question": "How does advantage work?",
+    "answer": "Roll a d6 and add it; disadvantage subtracts it.",
+    "example": "Low-light cover can help Barnacle hide.",
+    "related": [
+      "action-roll",
+      "help-an-ally"
+    ],
+    "aliases": [
+      "advantage",
+      "disadvantage"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "advantage-disadvantage",
+      "mechanic_name": "Advantage / Disadvantage",
+      "aliases": [
+        "advantage",
+        "disadvantage"
+      ],
+      "pronunciation": "Advantage / Disadvantage",
+      "category": "roll-modifier",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner+",
+      "dependencies": [
+        "action-roll",
+        "help-an-ally"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "action-roll",
+        "help-an-ally"
+      ],
+      "what_it_is": "Advantage adds a d6; disadvantage subtracts a d6.",
+      "why_it_matters": "Roll a d6 and add it; disadvantage subtracts it.",
+      "how_it_functions": "Use when the fiction gives a clear edge or obstacle.",
+      "p2p_note": "",
+      "template": "Advantage / Disadvantage: Advantage adds a d6; disadvantage subtracts a d6.",
+      "step_by_step": [
+        "Use when the fiction gives a clear edge or obstacle.",
+        "Roll a d6 and add it; disadvantage subtracts it.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Low-light cover can help Barnacle hide.",
+      "scenario_story": "Low-light cover can help Barnacle hide.",
+      "try_it": "How does advantage work?",
+      "keywords": [
+        "Advantage / Disadvantage",
+        "advantage",
+        "disadvantage",
+        "action-roll",
+        "help-an-ally"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "roll-modifier"
   },
   {
-    "id": "experiences-help",
-    "title": "Experiences, Help, Tag Team",
-    "status": "#rules-canon",
-    "body": [
-      "Experiences are short backstory/expertise phrases. Spend 1 Hope before a roll to add a relevant Experience modifier.",
-      "Help an Ally: spend 1 Hope, describe feasible help, roll a d6 advantage die, and add it to the acting PC's roll using the normal advantage rules.",
-      "Tag Team Roll: once per session, spend 3 Hope to combine two PCs' efforts. Both roll, choose one result for both, and resolve as a single action roll."
-    ]
+    "id": "help-an-ally",
+    "title": "Help an Ally",
+    "tag": "official",
+    "summary": "Spend Hope to add an advantage die to another PC's roll.",
+    "when": "Use when the helper can describe real help in the fiction.",
+    "not_when": "Do not use if the helper cannot plausibly affect the action.",
+    "question": "Can I help?",
+    "answer": "Spend Hope, describe the help, and add the help die.",
+    "example": "Khari braces the rope while another PC climbs.",
+    "related": [
+      "hope",
+      "advantage-disadvantage"
+    ],
+    "aliases": [
+      "help",
+      "assist",
+      "aid"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "help-an-ally",
+      "mechanic_name": "Help an Ally",
+      "aliases": [
+        "help",
+        "assist",
+        "aid"
+      ],
+      "pronunciation": "Help an Ally",
+      "category": "teamwork",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner+",
+      "dependencies": [
+        "hope",
+        "advantage-disadvantage"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "hope",
+        "advantage-disadvantage"
+      ],
+      "what_it_is": "Spend Hope to add an advantage die to another PC's roll.",
+      "why_it_matters": "Spend Hope, describe the help, and add the help die.",
+      "how_it_functions": "Use when the helper can describe real help in the fiction.",
+      "p2p_note": "",
+      "template": "Help an Ally: Spend Hope to add an advantage die to another PC's roll.",
+      "step_by_step": [
+        "Use when the helper can describe real help in the fiction.",
+        "Spend Hope, describe the help, and add the help die.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Khari braces the rope while another PC climbs.",
+      "scenario_story": "Khari braces the rope while another PC climbs.",
+      "try_it": "Can I help?",
+      "keywords": [
+        "Help an Ally",
+        "help",
+        "assist",
+        "aid",
+        "hope",
+        "advantage-disadvantage"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "teamwork"
   },
   {
-    "id": "gm-fear",
-    "title": "Hope Uses / Fear Uses",
-    "status": "#rules-canon",
-    "body": [
-      "Hope can be spent to Help an Ally, use Experiences, initiate a Tag Team Roll, or activate Hope Features.",
-      "On a roll with Fear, the GM gains Fear and makes a move reflecting the complication.",
-      "Fear can be spent to spotlight adversaries, use Fear Features, make stronger GM moves, apply adversary Experiences, and advance pressure when the rules or stat block call for it."
-    ]
+    "id": "tag-team-roll",
+    "title": "Tag Team Roll",
+    "tag": "official",
+    "summary": "A bigger shared action fueled by Hope.",
+    "when": "Use for a dramatic two-PC combined effort.",
+    "not_when": "Do not use for every small assist.",
+    "question": "Can we do this together?",
+    "answer": "Yes, if the table wants a big combined moment and pays the Hope cost.",
+    "example": "Garrick and Khari hold a line together at Open Vale.",
+    "related": [
+      "hope",
+      "help-an-ally"
+    ],
+    "aliases": [
+      "tag team",
+      "team roll"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "tag-team-roll",
+      "mechanic_name": "Tag Team Roll",
+      "aliases": [
+        "tag team",
+        "team roll"
+      ],
+      "pronunciation": "Tag Team Roll",
+      "category": "teamwork",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner+",
+      "dependencies": [
+        "hope",
+        "help-an-ally"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "hope",
+        "help-an-ally"
+      ],
+      "what_it_is": "A bigger shared action fueled by Hope.",
+      "why_it_matters": "Yes, if the table wants a big combined moment and pays the Hope cost.",
+      "how_it_functions": "Use for a dramatic two-PC combined effort.",
+      "p2p_note": "",
+      "template": "Tag Team Roll: A bigger shared action fueled by Hope.",
+      "step_by_step": [
+        "Use for a dramatic two-PC combined effort.",
+        "Yes, if the table wants a big combined moment and pays the Hope cost.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Garrick and Khari hold a line together at Open Vale.",
+      "scenario_story": "Garrick and Khari hold a line together at Open Vale.",
+      "try_it": "Can we do this together?",
+      "keywords": [
+        "Tag Team Roll",
+        "tag team",
+        "team roll",
+        "hope",
+        "help-an-ally"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "teamwork"
   },
   {
-    "id": "gm-moves-spotlight",
-    "title": "GM Moves / Adversary Spotlight",
-    "status": "#rules-canon",
-    "body": [
-      "The spotlight moves through the fiction rather than a fixed initiative order.",
-      "The GM commonly makes moves when a PC rolls with Fear or fails an action roll.",
-      "Use softer moves to telegraph, reveal, or reposition. Use harder moves when the fiction and result call for direct consequence.",
-      "Spend Fear or use features when the adversary/environment rules call for it."
-    ]
+    "id": "gm-moves",
+    "title": "GM Moves",
+    "tag": "official",
+    "summary": "GM responses that reveal pressure, cost, danger, or consequence.",
+    "when": "Use on failures, Fear results, and when the fiction demands action.",
+    "not_when": "Do not make a move disconnected from the scene.",
+    "question": "What happens now?",
+    "answer": "Make the next visible pressure happen.",
+    "example": "On Fear, a hidden watcher changes position.",
+    "related": [
+      "fear",
+      "adversary-spotlight"
+    ],
+    "aliases": [
+      "GM Move",
+      "make a move"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "gm-moves",
+      "mechanic_name": "GM Moves",
+      "aliases": [
+        "GM Move",
+        "make a move"
+      ],
+      "pronunciation": "GM Moves",
+      "category": "gm-tool",
+      "canon_status": "#rules-canon",
+      "difficulty": "Intermediate",
+      "dependencies": [
+        "fear",
+        "adversary-spotlight"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "fear",
+        "adversary-spotlight"
+      ],
+      "what_it_is": "GM responses that reveal pressure, cost, danger, or consequence.",
+      "why_it_matters": "Make the next visible pressure happen.",
+      "how_it_functions": "Use on failures, Fear results, and when the fiction demands action.",
+      "p2p_note": "",
+      "template": "GM Moves: GM responses that reveal pressure, cost, danger, or consequence.",
+      "step_by_step": [
+        "Use on failures, Fear results, and when the fiction demands action.",
+        "Make the next visible pressure happen.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "On Fear, a hidden watcher changes position.",
+      "scenario_story": "On Fear, a hidden watcher changes position.",
+      "try_it": "What happens now?",
+      "keywords": [
+        "GM Moves",
+        "GM Move",
+        "make a move",
+        "fear",
+        "adversary-spotlight"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "gm-tool"
+  },
+  {
+    "id": "adversary-spotlight",
+    "title": "Spotlight",
+    "tag": "official",
+    "summary": "Daggerheart combat flows through spotlight rather than initiative order.",
+    "when": "Use to pass attention where the fiction is hottest.",
+    "not_when": "Do not build a fixed turn queue unless a local aid needs it.",
+    "question": "Is there initiative?",
+    "answer": "No fixed initiative; spotlight follows fiction.",
+    "example": "After a PC overextends, spotlight an adversary near them.",
+    "related": [
+      "gm-moves",
+      "adversary-attacks"
+    ],
+    "aliases": [
+      "initiative",
+      "turn order",
+      "spotlight"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "adversary-spotlight",
+      "mechanic_name": "Spotlight",
+      "aliases": [
+        "initiative",
+        "turn order",
+        "spotlight"
+      ],
+      "pronunciation": "Spotlight",
+      "category": "combat",
+      "canon_status": "#rules-canon",
+      "difficulty": "Intermediate",
+      "dependencies": [
+        "gm-moves",
+        "adversary-attacks"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "gm-moves",
+        "adversary-attacks"
+      ],
+      "what_it_is": "Daggerheart combat flows through spotlight rather than initiative order.",
+      "why_it_matters": "No fixed initiative; spotlight follows fiction.",
+      "how_it_functions": "Use to pass attention where the fiction is hottest.",
+      "p2p_note": "",
+      "template": "Spotlight: Daggerheart combat flows through spotlight rather than initiative order.",
+      "step_by_step": [
+        "Use to pass attention where the fiction is hottest.",
+        "No fixed initiative; spotlight follows fiction.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "After a PC overextends, spotlight an adversary near them.",
+      "scenario_story": "After a PC overextends, spotlight an adversary near them.",
+      "try_it": "Is there initiative?",
+      "keywords": [
+        "Spotlight",
+        "initiative",
+        "turn order",
+        "spotlight",
+        "gm-moves",
+        "adversary-attacks"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "combat"
   },
   {
     "id": "adversary-attacks",
-    "title": "Adversary Attack Rolls",
-    "status": "#rules-canon",
-    "body": [
-      "Adversaries roll a d20 plus their attack modifier against the target PC's Evasion.",
-      "PCs do not roll defense by default. Use reaction rolls only when a rule, feature, or GM call gives one.",
-      "PC action rolls against adversaries use the adversary's Difficulty from the stat block."
-    ]
+    "title": "Adversary Attacks",
+    "tag": "official",
+    "summary": "Adversaries roll d20 + ATK against PC Evasion.",
+    "when": "Use when an adversary gets the spotlight to attack.",
+    "not_when": "Do not ask the PC to roll defense by default.",
+    "question": "How do enemies attack?",
+    "answer": "Roll d20 plus ATK against the target's Evasion.",
+    "example": "Ancient Skeleton: d20 + ATK against Evasion.",
+    "related": [
+      "evasion",
+      "damage-thresholds"
+    ],
+    "aliases": [
+      "enemy attack",
+      "attack roll",
+      "adversary attack"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "adversary-attacks",
+      "mechanic_name": "Adversary Attacks",
+      "aliases": [
+        "enemy attack",
+        "attack roll",
+        "adversary attack"
+      ],
+      "pronunciation": "Adversary Attacks",
+      "category": "combat",
+      "canon_status": "#rules-canon",
+      "difficulty": "Intermediate",
+      "dependencies": [
+        "evasion",
+        "damage-thresholds"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "evasion",
+        "damage-thresholds"
+      ],
+      "what_it_is": "Adversaries roll d20 + ATK against PC Evasion.",
+      "why_it_matters": "Roll d20 plus ATK against the target's Evasion.",
+      "how_it_functions": "Use when an adversary gets the spotlight to attack.",
+      "p2p_note": "",
+      "template": "Adversary Attacks: Adversaries roll d20 + ATK against PC Evasion.",
+      "step_by_step": [
+        "Use when an adversary gets the spotlight to attack.",
+        "Roll d20 plus ATK against the target's Evasion.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Ancient Skeleton: d20 + ATK against Evasion.",
+      "scenario_story": "Ancient Skeleton: d20 + ATK against Evasion.",
+      "try_it": "How do enemies attack?",
+      "keywords": [
+        "Adversary Attacks",
+        "enemy attack",
+        "attack roll",
+        "adversary attack",
+        "evasion",
+        "damage-thresholds"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "combat"
   },
   {
-    "id": "damage-armor-stress",
-    "title": "Damage / Armor / Stress",
-    "status": "#rules-canon",
-    "body": [
-      "Compare incoming damage to the character's damage thresholds to determine how many HP are marked.",
-      "Mark an Armor Slot to reduce the severity of incoming damage by one threshold.",
-      "When a character marks their last Stress, they become Vulnerable until they clear at least 1 Stress.",
-      "If a character must mark Stress while all Stress slots are marked, follow the official overflow consequence from the character rules."
-    ]
+    "id": "evasion",
+    "title": "Evasion",
+    "tag": "official",
+    "summary": "The target number adversaries roll against to hit a PC.",
+    "when": "Use when resolving adversary attacks.",
+    "not_when": "Do not treat it as D&D armor class in every other context.",
+    "question": "Is this AC?",
+    "answer": "The closest Daggerheart equivalent is Evasion.",
+    "example": "Barnacle's Evasion is high, making him harder to hit.",
+    "related": [
+      "adversary-attacks"
+    ],
+    "aliases": [
+      "AC",
+      "armor class"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "evasion",
+      "mechanic_name": "Evasion",
+      "aliases": [
+        "AC",
+        "armor class"
+      ],
+      "pronunciation": "Evasion",
+      "category": "mechanic",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "adversary-attacks"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "adversary-attacks"
+      ],
+      "what_it_is": "The target number adversaries roll against to hit a PC.",
+      "why_it_matters": "The closest Daggerheart equivalent is Evasion.",
+      "how_it_functions": "Use when resolving adversary attacks.",
+      "p2p_note": "",
+      "template": "Evasion: The target number adversaries roll against to hit a PC.",
+      "step_by_step": [
+        "Use when resolving adversary attacks.",
+        "The closest Daggerheart equivalent is Evasion.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Barnacle's Evasion is high, making him harder to hit.",
+      "scenario_story": "Barnacle's Evasion is high, making him harder to hit.",
+      "try_it": "Is this AC?",
+      "keywords": [
+        "Evasion",
+        "AC",
+        "armor class",
+        "adversary-attacks"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "mechanic"
+  },
+  {
+    "id": "damage-thresholds",
+    "title": "Damage Thresholds",
+    "tag": "official",
+    "summary": "Numbers used to determine how many HP are marked from damage.",
+    "when": "Use after a hit deals damage.",
+    "not_when": "Do not mark HP before comparing damage to thresholds.",
+    "question": "What happens when I take damage?",
+    "answer": "Compare the damage to thresholds, then mark HP by severity.",
+    "example": "A 10 damage hit may be Minor, Major, or Severe depending on the PC.",
+    "related": [
+      "hp",
+      "armor-slots"
+    ],
+    "aliases": [
+      "damage",
+      "threshold",
+      "thresholds"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "damage-thresholds",
+      "mechanic_name": "Damage Thresholds",
+      "aliases": [
+        "damage",
+        "threshold",
+        "thresholds"
+      ],
+      "pronunciation": "Damage Thresholds",
+      "category": "combat",
+      "canon_status": "#rules-canon",
+      "difficulty": "Intermediate",
+      "dependencies": [
+        "hp",
+        "armor-slots"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "hp",
+        "armor-slots"
+      ],
+      "what_it_is": "Numbers used to determine how many HP are marked from damage.",
+      "why_it_matters": "Compare the damage to thresholds, then mark HP by severity.",
+      "how_it_functions": "Use after a hit deals damage.",
+      "p2p_note": "",
+      "template": "Damage Thresholds: Numbers used to determine how many HP are marked from damage.",
+      "step_by_step": [
+        "Use after a hit deals damage.",
+        "Compare the damage to thresholds, then mark HP by severity.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "A 10 damage hit may be Minor, Major, or Severe depending on the PC.",
+      "scenario_story": "A 10 damage hit may be Minor, Major, or Severe depending on the PC.",
+      "try_it": "What happens when I take damage?",
+      "keywords": [
+        "Damage Thresholds",
+        "damage",
+        "threshold",
+        "thresholds",
+        "hp",
+        "armor-slots"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "combat"
+  },
+  {
+    "id": "hp",
+    "title": "HP",
+    "tag": "official",
+    "summary": "Hit Points marked from damage severity.",
+    "when": "Use after damage is compared to thresholds.",
+    "not_when": "Do not use HP as a generic stamina pool.",
+    "question": "Is this hit points?",
+    "answer": "Yes, but damage severity decides how many boxes are marked.",
+    "example": "A Severe hit marks 3 HP.",
+    "related": [
+      "damage-thresholds",
+      "stress"
+    ],
+    "aliases": [
+      "hit points",
+      "health"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "hp",
+      "mechanic_name": "HP",
+      "aliases": [
+        "hit points",
+        "health"
+      ],
+      "pronunciation": "HP",
+      "category": "character-sheet",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "damage-thresholds",
+        "stress"
+      ],
+      "intro_stage": "Session Zero primer",
+      "related": [
+        "damage-thresholds",
+        "stress"
+      ],
+      "what_it_is": "Hit Points marked from damage severity.",
+      "why_it_matters": "Yes, but damage severity decides how many boxes are marked.",
+      "how_it_functions": "Use after damage is compared to thresholds.",
+      "p2p_note": "",
+      "template": "HP: Hit Points marked from damage severity.",
+      "step_by_step": [
+        "Use after damage is compared to thresholds.",
+        "Yes, but damage severity decides how many boxes are marked.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "A Severe hit marks 3 HP.",
+      "scenario_story": "A Severe hit marks 3 HP.",
+      "try_it": "Is this hit points?",
+      "keywords": [
+        "HP",
+        "hit points",
+        "health",
+        "damage-thresholds",
+        "stress"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "character-sheet"
+  },
+  {
+    "id": "armor-slots",
+    "title": "Armor Slots",
+    "tag": "official",
+    "summary": "Mark a slot to reduce incoming damage severity by one threshold.",
+    "when": "Use after a hit and before marking HP when armor can help.",
+    "not_when": "Do not reduce damage without spending a slot or feature.",
+    "question": "What does Armor do?",
+    "answer": "It can reduce the severity of a hit.",
+    "example": "Khari marks Armor to turn Severe damage into Major.",
+    "related": [
+      "damage-thresholds"
+    ],
+    "aliases": [
+      "armor",
+      "Armor Slot"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "armor-slots",
+      "mechanic_name": "Armor Slots",
+      "aliases": [
+        "armor",
+        "Armor Slot"
+      ],
+      "pronunciation": "Armor Slots",
+      "category": "combat",
+      "canon_status": "#rules-canon",
+      "difficulty": "Intermediate",
+      "dependencies": [
+        "damage-thresholds"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "damage-thresholds"
+      ],
+      "what_it_is": "Mark a slot to reduce incoming damage severity by one threshold.",
+      "why_it_matters": "It can reduce the severity of a hit.",
+      "how_it_functions": "Use after a hit and before marking HP when armor can help.",
+      "p2p_note": "",
+      "template": "Armor Slots: Mark a slot to reduce incoming damage severity by one threshold.",
+      "step_by_step": [
+        "Use after a hit and before marking HP when armor can help.",
+        "It can reduce the severity of a hit.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Khari marks Armor to turn Severe damage into Major.",
+      "scenario_story": "Khari marks Armor to turn Severe damage into Major.",
+      "try_it": "What does Armor do?",
+      "keywords": [
+        "Armor Slots",
+        "armor",
+        "Armor Slot",
+        "damage-thresholds"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "combat"
+  },
+  {
+    "id": "stress",
+    "title": "Stress",
+    "tag": "official",
+    "summary": "Pressure, strain, and resource cost tracked separately from HP.",
+    "when": "Use when fear, effort, features, or overflow call for Stress.",
+    "not_when": "Do not turn every bad feeling into a condition.",
+    "question": "What does Stress do?",
+    "answer": "It tracks strain; if Stress maxes, the PC becomes Vulnerable until some clears.",
+    "example": "A wraith memory hit may mark Stress.",
+    "related": [
+      "vulnerable",
+      "short-rest"
+    ],
+    "aliases": [
+      "mark Stress",
+      "clear Stress"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "stress",
+      "mechanic_name": "Stress",
+      "aliases": [
+        "mark Stress",
+        "clear Stress"
+      ],
+      "pronunciation": "Stress",
+      "category": "resource",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "vulnerable",
+        "short-rest"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "vulnerable",
+        "short-rest"
+      ],
+      "what_it_is": "Pressure, strain, and resource cost tracked separately from HP.",
+      "why_it_matters": "It tracks strain; if Stress maxes, the PC becomes Vulnerable until some clears.",
+      "how_it_functions": "Use when fear, effort, features, or overflow call for Stress.",
+      "p2p_note": "",
+      "template": "Stress: Pressure, strain, and resource cost tracked separately from HP.",
+      "step_by_step": [
+        "Use when fear, effort, features, or overflow call for Stress.",
+        "It tracks strain; if Stress maxes, the PC becomes Vulnerable until some clears.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "A wraith memory hit may mark Stress.",
+      "scenario_story": "A wraith memory hit may mark Stress.",
+      "try_it": "What does Stress do?",
+      "keywords": [
+        "Stress",
+        "mark Stress",
+        "clear Stress",
+        "vulnerable",
+        "short-rest"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "resource"
   },
   {
     "id": "short-rest",
     "title": "Short Rest",
-    "status": "#rules-canon",
-    "body": [
-      "A short rest is about an hour to catch breath and recover.",
-      "Each PC may swap domain cards between loadout and vault, then choose two moves, including choosing the same move twice.",
-      "Short rest moves: Tend to Wounds, Clear Stress, Repair Armor, or Prepare.",
-      "Prepare gains Hope; preparing with one or more party members gives each of those PCs 2 Hope."
-    ]
+    "tag": "official",
+    "summary": "About an hour to recover and prepare.",
+    "when": "Use at the Open Vale rest beat or similar downtime.",
+    "not_when": "Do not use in the middle of immediate danger.",
+    "question": "What can I do on a short rest?",
+    "answer": "Tend Wounds, Clear Stress, Repair Armor, or Prepare.",
+    "example": "Before the ritual, each PC chooses two rest moves.",
+    "related": [
+      "stress",
+      "armor-slots",
+      "hope"
+    ],
+    "aliases": [
+      "rest",
+      "Prepare",
+      "Tend to Wounds",
+      "Clear Stress",
+      "Repair Armor"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "short-rest",
+      "mechanic_name": "Short Rest",
+      "aliases": [
+        "rest",
+        "Prepare",
+        "Tend to Wounds",
+        "Clear Stress",
+        "Repair Armor"
+      ],
+      "pronunciation": "Short Rest",
+      "category": "downtime",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner+",
+      "dependencies": [
+        "stress",
+        "armor-slots",
+        "hope"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "stress",
+        "armor-slots",
+        "hope"
+      ],
+      "what_it_is": "About an hour to recover and prepare.",
+      "why_it_matters": "Tend Wounds, Clear Stress, Repair Armor, or Prepare.",
+      "how_it_functions": "Use at the Open Vale rest beat or similar downtime.",
+      "p2p_note": "",
+      "template": "Short Rest: About an hour to recover and prepare.",
+      "step_by_step": [
+        "Use at the Open Vale rest beat or similar downtime.",
+        "Tend Wounds, Clear Stress, Repair Armor, or Prepare.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Before the ritual, each PC chooses two rest moves.",
+      "scenario_story": "Before the ritual, each PC chooses two rest moves.",
+      "try_it": "What can I do on a short rest?",
+      "keywords": [
+        "Short Rest",
+        "rest",
+        "Prepare",
+        "Tend to Wounds",
+        "Clear Stress",
+        "Repair Armor",
+        "stress",
+        "armor-slots",
+        "hope"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "downtime"
+  },
+  {
+    "id": "level-up",
+    "title": "Level Up",
+    "tag": "table-tool",
+    "summary": "The reward beat where the one-shot acknowledges growth and players mark advancement.",
+    "when": "Use in the epilogue after the danger is over and before sequel hooks.",
+    "not_when": "Do not bury level-up behind the hook; reward first.",
+    "question": "Do we level up?",
+    "answer": "Yes. In the epilogue, level up, take the reward, and let the table name what changed.",
+    "example": "After the ward renewal, each PC levels up before deciding whether to take the Relay map.",
+    "related": [
+      "roleplay",
+      "table-spotlight"
+    ],
+    "aliases": [
+      "level up",
+      "level-up",
+      "advancement"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "level-up",
+      "mechanic_name": "Level Up",
+      "aliases": [
+        "level up",
+        "level-up",
+        "advancement"
+      ],
+      "pronunciation": "Level Up",
+      "category": "mechanic",
+      "canon_status": "#adaptation",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "roleplay",
+        "table-spotlight"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "roleplay",
+        "table-spotlight"
+      ],
+      "what_it_is": "The reward beat where the one-shot acknowledges growth and players mark advancement.",
+      "why_it_matters": "Yes. In the epilogue, level up, take the reward, and let the table name what changed.",
+      "how_it_functions": "Use in the epilogue after the danger is over and before sequel hooks.",
+      "p2p_note": "",
+      "template": "Level Up: The reward beat where the one-shot acknowledges growth and players mark advancement.",
+      "step_by_step": [
+        "Use in the epilogue after the danger is over and before sequel hooks.",
+        "Yes. In the epilogue, level up, take the reward, and let the table name what changed.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "After the ward renewal, each PC levels up before deciding whether to take the Relay map.",
+      "scenario_story": "After the ward renewal, each PC levels up before deciding whether to take the Relay map.",
+      "try_it": "Do we level up?",
+      "keywords": [
+        "Level Up",
+        "level up",
+        "level-up",
+        "advancement",
+        "roleplay",
+        "table-spotlight"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#adaptation",
+    "category": "mechanic"
+  },
+  {
+    "id": "report-choice",
+    "title": "Report Choice",
+    "tag": "table-tool",
+    "summary": "The final values decision about what truth leaves the table and what gets recorded.",
+    "when": "Use when resolving file-honest, spin-corporate, refuse, or withhold-the-truth branches.",
+    "not_when": "Do not use it to force the hidden conclusion; it colors consequence and epilogue tone.",
+    "question": "What does our report do?",
+    "answer": "It decides what truth goes on record, who is protected by silence, and what pressure follows the party.",
+    "example": "Withhold-the-truth protects people tonight but carries the heaviest hidden future weight.",
+    "related": [
+      "roleplay",
+      "table-spotlight"
+    ],
+    "aliases": [
+      "report_choice",
+      "report choice",
+      "file honest",
+      "spin corporate",
+      "withhold the truth",
+      "refuse"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "report-choice",
+      "mechanic_name": "Report Choice",
+      "aliases": [
+        "report_choice",
+        "report choice",
+        "file honest",
+        "spin corporate",
+        "withhold the truth",
+        "refuse"
+      ],
+      "pronunciation": "Report Choice",
+      "category": "mechanic",
+      "canon_status": "#adaptation",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "roleplay",
+        "table-spotlight"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "roleplay",
+        "table-spotlight"
+      ],
+      "what_it_is": "The final values decision about what truth leaves the table and what gets recorded.",
+      "why_it_matters": "It decides what truth goes on record, who is protected by silence, and what pressure follows the party.",
+      "how_it_functions": "Use when resolving file-honest, spin-corporate, refuse, or withhold-the-truth branches.",
+      "p2p_note": "",
+      "template": "Report Choice: The final values decision about what truth leaves the table and what gets recorded.",
+      "step_by_step": [
+        "Use when resolving file-honest, spin-corporate, refuse, or withhold-the-truth branches.",
+        "It decides what truth goes on record, who is protected by silence, and what pressure follows the party.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Withhold-the-truth protects people tonight but carries the heaviest hidden future weight.",
+      "scenario_story": "Withhold-the-truth protects people tonight but carries the heaviest hidden future weight.",
+      "try_it": "What does our report do?",
+      "keywords": [
+        "Report Choice",
+        "report_choice",
+        "report choice",
+        "file honest",
+        "spin corporate",
+        "withhold the truth",
+        "refuse",
+        "roleplay",
+        "table-spotlight"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#adaptation",
+    "category": "mechanic"
   },
   {
     "id": "countdown",
     "title": "Countdown",
-    "status": "#rules-canon + module tracker",
-    "body": [
-      "Countdowns are visible pressure clocks. Tell players what changes when a countdown ticks.",
-      "On progress countdowns, successful action rolls can tick the party closer to the goal.",
-      "On consequence countdowns, failures or success with Fear can tick the opposing pressure closer.",
-      "Open Vale uses a module ritual countdown as a tracker; do not treat it as a new condition."
-    ]
+    "tag": "official",
+    "summary": "A visible pressure clock for progress or danger.",
+    "when": "Use when time, ritual progress, or threat escalation matters.",
+    "not_when": "Do not turn the countdown into a condition.",
+    "question": "When does it tick?",
+    "answer": "Tick when the fiction or result advances the clock.",
+    "example": "Open Vale uses a ritual countdown.",
+    "related": [
+      "gm-moves",
+      "fear"
+    ],
+    "aliases": [
+      "clock",
+      "timer",
+      "countdown"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "countdown",
+      "mechanic_name": "Countdown",
+      "aliases": [
+        "clock",
+        "timer",
+        "countdown"
+      ],
+      "pronunciation": "Countdown",
+      "category": "mechanic",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "gm-moves",
+        "fear"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "gm-moves",
+        "fear"
+      ],
+      "what_it_is": "A visible pressure clock for progress or danger.",
+      "why_it_matters": "Tick when the fiction or result advances the clock.",
+      "how_it_functions": "Use when time, ritual progress, or threat escalation matters.",
+      "p2p_note": "",
+      "template": "Countdown: A visible pressure clock for progress or danger.",
+      "step_by_step": [
+        "Use when time, ritual progress, or threat escalation matters.",
+        "Tick when the fiction or result advances the clock.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Open Vale uses a ritual countdown.",
+      "scenario_story": "Open Vale uses a ritual countdown.",
+      "try_it": "When does it tick?",
+      "keywords": [
+        "Countdown",
+        "clock",
+        "timer",
+        "countdown",
+        "gm-moves",
+        "fear"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "mechanic"
   },
   {
     "id": "ranges",
     "title": "Ranges",
-    "status": "#rules-canon",
-    "body": [
-      "Use Daggerheart range bands at the table: Melee, Very Close, Close, Far, Very Far, and Out of Range.",
-      "When exact distance is not important, keep ranges conversational and tied to reachable action."
-    ]
+    "tag": "official",
+    "summary": "Daggerheart uses bands like Melee, Very Close, Close, Far, and Very Far.",
+    "when": "Use when distance matters to weapons, spells, or positioning.",
+    "not_when": "Do not stop play to measure exact feet unless necessary.",
+    "question": "How far away is it?",
+    "answer": "Use the range band that best fits the fiction.",
+    "example": "A Dualstaff can hit at Far range.",
+    "related": [
+      "adversary-attacks"
+    ],
+    "aliases": [
+      "range",
+      "movement",
+      "distance"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "ranges",
+      "mechanic_name": "Ranges",
+      "aliases": [
+        "range",
+        "movement",
+        "distance"
+      ],
+      "pronunciation": "Ranges",
+      "category": "mechanic",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "adversary-attacks"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "adversary-attacks"
+      ],
+      "what_it_is": "Daggerheart uses bands like Melee, Very Close, Close, Far, and Very Far.",
+      "why_it_matters": "Use the range band that best fits the fiction.",
+      "how_it_functions": "Use when distance matters to weapons, spells, or positioning.",
+      "p2p_note": "",
+      "template": "Ranges: Daggerheart uses bands like Melee, Very Close, Close, Far, and Very Far.",
+      "step_by_step": [
+        "Use when distance matters to weapons, spells, or positioning.",
+        "Use the range band that best fits the fiction.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "A Dualstaff can hit at Far range.",
+      "scenario_story": "A Dualstaff can hit at Far range.",
+      "try_it": "How far away is it?",
+      "keywords": [
+        "Ranges",
+        "range",
+        "movement",
+        "distance",
+        "adversary-attacks"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "mechanic"
   },
   {
     "id": "conditions",
-    "title": "Official Conditions",
-    "status": "#rules-canon",
-    "body": [
-      "Daggerheart has three primary global conditions: Hidden, Restrained, and Vulnerable.",
-      "Some features create unique effects, but those are feature-specific text, not module-wide conditions.",
-      "Unless a rule says otherwise, the same condition cannot stack on one target.",
-      "Temporary conditions can be cleared with a fitting action roll, a GM-approved fictional method, or by an adversary spending its spotlight to clear the condition.",
-      "Unconscious appears only as Death Move/status context in this Atlas, not as a global condition card."
-    ]
-  },
-  {
-    "id": "slider-outcomes",
-    "title": "Kyle Slider / House Adjudication",
-    "status": "#slider house table style",
-    "body": [
-      "Kyle's Slider is a house/table adjudication overlay for degree of outcome.",
-      "It sits on top of official Daggerheart results and never replaces Success with Hope, Success with Fear, Failure with Hope, or Failure with Fear.",
-      "Use it only to decide how much fiction, cost, or leverage to attach to the official result."
+    "title": "Conditions",
+    "tag": "official",
+    "summary": "The Atlas uses only official global conditions: Hidden, Restrained, Vulnerable.",
+    "when": "Use when a rule or clear fiction creates one of those states.",
+    "not_when": "Do not invent new global conditions.",
+    "question": "What do conditions do?",
+    "answer": "They change tactical position in specific official ways.",
+    "example": "A snare can make someone Restrained if they are physically trapped.",
+    "related": [
+      "hidden",
+      "restrained",
+      "vulnerable"
     ],
-    "table": {
-      "headers": [
-        "Band",
-        "Total vs Difficulty",
-        "Use"
+    "aliases": [
+      "condition",
+      "conditions"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "conditions",
+      "mechanic_name": "Conditions",
+      "aliases": [
+        "condition",
+        "conditions"
       ],
-      "rows": [
-        [
-          "Botch",
-          "<= D - 5",
-          "Failure and the situation worsens."
-        ],
-        [
-          "Miss",
-          "D - 4 to D - 1",
-          "Failure with a partial thread or near miss."
-        ],
-        [
-          "Hit",
-          "D to D + 4",
-          "Success at a cost."
-        ],
-        [
-          "Clean",
-          "D + 5 to D + 9",
-          "Clean success."
-        ],
-        [
-          "Soar",
-          ">= D + 10",
-          "Success plus extra leverage."
-        ],
-        [
-          "Crit",
-          "matching dice",
-          "Top outcome, gain Hope, clear 1 Stress, small gift."
-        ]
-      ]
-    }
+      "pronunciation": "Conditions",
+      "category": "condition",
+      "canon_status": "#rules-canon",
+      "difficulty": "Intermediate",
+      "dependencies": [
+        "hidden",
+        "restrained",
+        "vulnerable"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "hidden",
+        "restrained",
+        "vulnerable"
+      ],
+      "what_it_is": "The Atlas uses only official global conditions: Hidden, Restrained, Vulnerable.",
+      "why_it_matters": "They change tactical position in specific official ways.",
+      "how_it_functions": "Use when a rule or clear fiction creates one of those states.",
+      "p2p_note": "",
+      "template": "Conditions: The Atlas uses only official global conditions: Hidden, Restrained, Vulnerable.",
+      "step_by_step": [
+        "Use when a rule or clear fiction creates one of those states.",
+        "They change tactical position in specific official ways.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "A snare can make someone Restrained if they are physically trapped.",
+      "scenario_story": "A snare can make someone Restrained if they are physically trapped.",
+      "try_it": "What do conditions do?",
+      "keywords": [
+        "Conditions",
+        "condition",
+        "conditions",
+        "hidden",
+        "restrained",
+        "vulnerable"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "condition"
   },
   {
-    "id": "jenga-variant",
-    "title": "P2P Jenga Fear Variant",
-    "status": "#p2p optional off by default",
-    "body": [
-      "Optional only and off by default. This is not official Daggerheart.",
-      "Default play uses official Duality Dice: two d12s, Hope and Fear.",
-      "If Kyle enables the variant, roll one Hope d12 and use the tower to resolve Fear pressure."
-    ]
+    "id": "hidden",
+    "title": "Hidden",
+    "tag": "official",
+    "summary": "A target is unseen or its position is unknown.",
+    "when": "Use when the fiction supports being unseen or concealed.",
+    "not_when": "Do not use when someone is merely quiet but observed.",
+    "question": "What does Hidden mean?",
+    "answer": "Enemies have a harder time targeting what they cannot see or locate.",
+    "example": "Bramble watchers in brush may be Hidden.",
+    "related": [
+      "conditions",
+      "finesse"
+    ],
+    "aliases": [
+      "hide",
+      "unseen"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "hidden",
+      "mechanic_name": "Hidden",
+      "aliases": [
+        "hide",
+        "unseen"
+      ],
+      "pronunciation": "Hidden",
+      "category": "condition",
+      "canon_status": "#rules-canon",
+      "difficulty": "Intermediate",
+      "dependencies": [
+        "conditions",
+        "finesse"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "conditions",
+        "finesse"
+      ],
+      "what_it_is": "A target is unseen or its position is unknown.",
+      "why_it_matters": "Enemies have a harder time targeting what they cannot see or locate.",
+      "how_it_functions": "Use when the fiction supports being unseen or concealed.",
+      "p2p_note": "",
+      "template": "Hidden: A target is unseen or its position is unknown.",
+      "step_by_step": [
+        "Use when the fiction supports being unseen or concealed.",
+        "Enemies have a harder time targeting what they cannot see or locate.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Bramble watchers in brush may be Hidden.",
+      "scenario_story": "Bramble watchers in brush may be Hidden.",
+      "try_it": "What does Hidden mean?",
+      "keywords": [
+        "Hidden",
+        "hide",
+        "unseen",
+        "conditions",
+        "finesse"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "condition"
+  },
+  {
+    "id": "restrained",
+    "title": "Restrained",
+    "tag": "official",
+    "summary": "A target cannot move freely, though it may still act from position.",
+    "when": "Use when physically trapped, grabbed, bound, or pinned.",
+    "not_when": "Do not use as a generic social pressure label.",
+    "question": "Is grappled Restrained?",
+    "answer": "If the fiction says they are physically trapped, yes.",
+    "example": "Thorn snares can make a PC Restrained.",
+    "related": [
+      "conditions",
+      "strength"
+    ],
+    "aliases": [
+      "grappled",
+      "snared",
+      "trapped"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "restrained",
+      "mechanic_name": "Restrained",
+      "aliases": [
+        "grappled",
+        "snared",
+        "trapped"
+      ],
+      "pronunciation": "Restrained",
+      "category": "condition",
+      "canon_status": "#rules-canon",
+      "difficulty": "Intermediate",
+      "dependencies": [
+        "conditions",
+        "strength"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "conditions",
+        "strength"
+      ],
+      "what_it_is": "A target cannot move freely, though it may still act from position.",
+      "why_it_matters": "If the fiction says they are physically trapped, yes.",
+      "how_it_functions": "Use when physically trapped, grabbed, bound, or pinned.",
+      "p2p_note": "",
+      "template": "Restrained: A target cannot move freely, though it may still act from position.",
+      "step_by_step": [
+        "Use when physically trapped, grabbed, bound, or pinned.",
+        "If the fiction says they are physically trapped, yes.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Thorn snares can make a PC Restrained.",
+      "scenario_story": "Thorn snares can make a PC Restrained.",
+      "try_it": "Is grappled Restrained?",
+      "keywords": [
+        "Restrained",
+        "grappled",
+        "snared",
+        "trapped",
+        "conditions",
+        "strength"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "condition"
+  },
+  {
+    "id": "vulnerable",
+    "title": "Vulnerable",
+    "tag": "official",
+    "summary": "Rolls targeting the Vulnerable target have advantage.",
+    "when": "Use when the target is exposed by rule, feature, or clear fiction.",
+    "not_when": "Do not use as a catch-all penalty.",
+    "question": "What does Vulnerable do?",
+    "answer": "Attacks or rolls against the target have advantage.",
+    "example": "A PC who maxes Stress becomes Vulnerable until Stress clears.",
+    "related": [
+      "conditions",
+      "stress"
+    ],
+    "aliases": [
+      "exposed",
+      "easy to hit"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "vulnerable",
+      "mechanic_name": "Vulnerable",
+      "aliases": [
+        "exposed",
+        "easy to hit"
+      ],
+      "pronunciation": "Vulnerable",
+      "category": "condition",
+      "canon_status": "#rules-canon",
+      "difficulty": "Intermediate",
+      "dependencies": [
+        "conditions",
+        "stress"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "conditions",
+        "stress"
+      ],
+      "what_it_is": "Rolls targeting the Vulnerable target have advantage.",
+      "why_it_matters": "Attacks or rolls against the target have advantage.",
+      "how_it_functions": "Use when the target is exposed by rule, feature, or clear fiction.",
+      "p2p_note": "",
+      "template": "Vulnerable: Rolls targeting the Vulnerable target have advantage.",
+      "step_by_step": [
+        "Use when the target is exposed by rule, feature, or clear fiction.",
+        "Attacks or rolls against the target have advantage.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "A PC who maxes Stress becomes Vulnerable until Stress clears.",
+      "scenario_story": "A PC who maxes Stress becomes Vulnerable until Stress clears.",
+      "try_it": "What does Vulnerable do?",
+      "keywords": [
+        "Vulnerable",
+        "exposed",
+        "easy to hit",
+        "conditions",
+        "stress"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "condition"
+  },
+  {
+    "id": "dnd-to-daggerheart",
+    "title": "D&D to Daggerheart",
+    "tag": "official",
+    "summary": "Quick translation aid for D&D-trained instincts.",
+    "when": "Use when a player asks for a D&D skill, save, AC, or initiative.",
+    "not_when": "Do not turn it into a separate rules system.",
+    "question": "What is different from D&D?",
+    "answer": "Traits, Hope/Fear, spotlight, Evasion, thresholds, and narrative consequences.",
+    "example": "Perception maps to Instinct; AC maps to Evasion.",
+    "related": [
+      "traits",
+      "reaction-rolls",
+      "evasion",
+      "adversary-spotlight"
+    ],
+    "aliases": [
+      "D&D",
+      "DND",
+      "5e",
+      "conversion"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "dnd-to-daggerheart",
+      "mechanic_name": "D&D to Daggerheart",
+      "aliases": [
+        "D&D",
+        "DND",
+        "5e",
+        "conversion"
+      ],
+      "pronunciation": "D&D to Daggerheart",
+      "category": "teaching-aid",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "traits",
+        "reaction-rolls",
+        "evasion",
+        "adversary-spotlight"
+      ],
+      "intro_stage": "Any time a D&D-trained player names a D&D skill or save",
+      "related": [
+        "traits",
+        "reaction-rolls",
+        "evasion",
+        "adversary-spotlight"
+      ],
+      "what_it_is": "Quick translation aid for D&D-trained instincts.",
+      "why_it_matters": "Traits, Hope/Fear, spotlight, Evasion, thresholds, and narrative consequences.",
+      "how_it_functions": "Use when a player asks for a D&D skill, save, AC, or initiative.",
+      "p2p_note": "",
+      "template": "D&D term -> Daggerheart equivalent. Two-column lookup only.",
+      "step_by_step": [
+        "Use when a player asks for a D&D skill, save, AC, or initiative.",
+        "Traits, Hope/Fear, spotlight, Evasion, thresholds, and narrative consequences.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Perception maps to Instinct; AC maps to Evasion.",
+      "scenario_story": "Perception maps to Instinct; AC maps to Evasion.",
+      "try_it": "What is different from D&D?",
+      "keywords": [
+        "D&D to Daggerheart",
+        "D&D",
+        "DND",
+        "5e",
+        "conversion",
+        "traits",
+        "reaction-rolls",
+        "evasion",
+        "adversary-spotlight"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "teaching-aid"
+  },
+  {
+    "id": "faq",
+    "title": "FAQ",
+    "tag": "official",
+    "summary": "Fast beginner answers for live teaching.",
+    "when": "Use when a player asks a table-basics question.",
+    "not_when": "Do not read it aloud as a lesson unless the table asks.",
+    "question": "Where do I start?",
+    "answer": "Answer the exact question and return to the scene.",
+    "example": "Use the FAQ during Mox teaching tables.",
+    "related": [
+      "action-roll",
+      "hope",
+      "fear",
+      "traits"
+    ],
+    "aliases": [
+      "beginner",
+      "teaching",
+      "question"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "faq",
+      "mechanic_name": "FAQ",
+      "aliases": [
+        "beginner",
+        "teaching",
+        "question"
+      ],
+      "pronunciation": "FAQ",
+      "category": "teaching-aid",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "action-roll",
+        "hope",
+        "fear",
+        "traits"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "action-roll",
+        "hope",
+        "fear",
+        "traits"
+      ],
+      "what_it_is": "Fast beginner answers for live teaching.",
+      "why_it_matters": "Answer the exact question and return to the scene.",
+      "how_it_functions": "Use when a player asks a table-basics question.",
+      "p2p_note": "",
+      "template": "FAQ: Fast beginner answers for live teaching.",
+      "step_by_step": [
+        "Use when a player asks a table-basics question.",
+        "Answer the exact question and return to the scene.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Use the FAQ during Mox teaching tables.",
+      "scenario_story": "Use the FAQ during Mox teaching tables.",
+      "try_it": "Where do I start?",
+      "keywords": [
+        "FAQ",
+        "beginner",
+        "teaching",
+        "question",
+        "action-roll",
+        "hope",
+        "fear",
+        "traits"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "teaching-aid"
+  },
+  {
+    "id": "five-outcomes",
+    "title": "Five Roll Outcomes",
+    "tag": "official",
+    "summary": "Every action roll resolves into one of five table results: critical success, success with Hope, success with Fear, failure with Hope, or failure with Fear.",
+    "when": "Use after every Action Roll or Reaction Roll where the Hope/Fear spin matters.",
+    "not_when": "Do not flatten rolls into pass/fail when the spin should change cost, benefit, or GM pressure.",
+    "question": "What does my result mean?",
+    "answer": "First compare the total to Difficulty. Then read Hope, Fear, or matching dice to choose the exact result.",
+    "example": "A Presence 12 strixwolf approach that succeeds with Fear calms the mother but lets the GM add pressure from the pack or the woods.",
+    "related": [
+      "action-roll",
+      "duality-dice",
+      "hope",
+      "fear",
+      "critical-success"
+    ],
+    "aliases": [
+      "result matrix",
+      "roll outcomes",
+      "success with fear",
+      "failure with hope"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "five-outcomes",
+      "mechanic_name": "Five Roll Outcomes",
+      "aliases": [
+        "result matrix",
+        "roll outcomes",
+        "success with fear",
+        "failure with hope"
+      ],
+      "pronunciation": "Five Roll Outcomes",
+      "category": "core-roll",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "action-roll",
+        "duality-dice",
+        "hope",
+        "fear"
+      ],
+      "intro_stage": "First meaningful roll",
+      "related": [
+        "action-roll",
+        "duality-dice",
+        "hope",
+        "fear",
+        "critical-success"
+      ],
+      "what_it_is": "Every action roll resolves into one of five table results: critical success, success with Hope, success with Fear, failure with Hope, or failure with Fear.",
+      "why_it_matters": "First compare the total to Difficulty. Then read Hope, Fear, or matching dice to choose the exact result.",
+      "how_it_functions": "Use after every Action Roll or Reaction Roll where the Hope/Fear spin matters.",
+      "p2p_note": "",
+      "template": "Critical Success; Success with Hope; Success with Fear; Failure with Hope; Failure with Fear.",
+      "step_by_step": [
+        "Check doubles first for Critical Success.",
+        "If not a critical, compare total to Difficulty.",
+        "At or above Difficulty succeeds; below Difficulty fails.",
+        "Hope spin gives Hope and a cleaner/kinder edge; Fear spin gives the GM Fear and a cost or complication."
+      ],
+      "scenario_generic": "A Presence 12 strixwolf approach that succeeds with Fear calms the mother but lets the GM add pressure from the pack or the woods.",
+      "scenario_story": "A Presence 12 strixwolf approach that succeeds with Fear calms the mother but lets the GM add pressure from the pack or the woods.",
+      "try_it": "What does my result mean?",
+      "keywords": [
+        "Five Roll Outcomes",
+        "result matrix",
+        "roll outcomes",
+        "success with fear",
+        "failure with hope",
+        "action-roll",
+        "duality-dice",
+        "hope",
+        "fear",
+        "critical-success"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "core-roll"
+  },
+  {
+    "id": "connection-questions",
+    "title": "Connection Questions",
+    "tag": "table-tool",
+    "summary": "Daggerheart-style prompts that let players define safe, playable relationships before the first scene.",
+    "when": "Use during Session Zero, character introductions, and optional party-bond refresh beats.",
+    "not_when": "Do not force a player to accept another player's premise; the answer can accept, alter, soften, or pass.",
+    "question": "What does a connection answer look like?",
+    "answer": "Offer one relationship prompt, then let the other player answer in their own words and keep only the part both players like.",
+    "example": "Varian asks, 'You saw me freeze once. What did you do?' The other player answers with a small memory the table can use later.",
+    "related": [
+      "roleplay",
+      "table-spotlight",
+      "character-creation"
+    ],
+    "aliases": [
+      "connection prompts",
+      "connections",
+      "relationship questions"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "connection-questions",
+      "mechanic_name": "Connection Questions",
+      "aliases": [
+        "connection prompts",
+        "connections",
+        "relationship questions"
+      ],
+      "pronunciation": "Connection Questions",
+      "category": "session-zero",
+      "canon_status": "#adaptation",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "roleplay",
+        "table-spotlight",
+        "character-creation"
+      ],
+      "intro_stage": "Session Zero primer",
+      "related": [
+        "roleplay",
+        "table-spotlight",
+        "character-creation"
+      ],
+      "what_it_is": "Daggerheart-style prompts that let players define safe, playable relationships before the first scene.",
+      "why_it_matters": "Offer one relationship prompt, then let the other player answer in their own words and keep only the part both players like.",
+      "how_it_functions": "Use during Session Zero, character introductions, and optional party-bond refresh beats.",
+      "p2p_note": "",
+      "template": "Connection Questions: Daggerheart-style prompts that let players define safe, playable relationships before the first scene.",
+      "step_by_step": [
+        "Use during Session Zero, character introductions, and optional party-bond refresh beats.",
+        "Offer one relationship prompt, then let the other player answer in their own words and keep only the part both players like.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Varian asks, 'You saw me freeze once. What did you do?' The other player answers with a small memory the table can use later.",
+      "scenario_story": "Varian asks, 'You saw me freeze once. What did you do?' The other player answers with a small memory the table can use later.",
+      "try_it": "What does a connection answer look like?",
+      "keywords": [
+        "Connection Questions",
+        "connection prompts",
+        "connections",
+        "relationship questions",
+        "roleplay",
+        "table-spotlight",
+        "character-creation"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#adaptation",
+    "category": "session-zero"
+  },
+  {
+    "id": "character-creation",
+    "title": "Character Creation",
+    "tag": "official",
+    "summary": "The beginner sequence for choosing identity, ancestry, community, class, traits, equipment, Experiences, and connections.",
+    "when": "Use during Session Zero or when importing a new Level 1 PC into the one-shot.",
+    "not_when": "Do not rebuild pregen math at a public one-shot unless Kyle intentionally chooses a longer Session Zero mode.",
+    "question": "What do I choose first?",
+    "answer": "Start with who the character is, then ancestry, community, class/subclass, traits, Experiences, equipment, and connection questions.",
+    "example": "A player can keep Barnacle's Rogue math and only rename, reskin, and rewrite one Experience for a faster table start.",
+    "related": [
+      "ancestry",
+      "community",
+      "class-subclass",
+      "traits",
+      "experiences",
+      "connection-questions"
+    ],
+    "aliases": [
+      "character build",
+      "make a character",
+      "session zero character"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "character-creation",
+      "mechanic_name": "Character Creation",
+      "aliases": [
+        "character build",
+        "make a character",
+        "session zero character"
+      ],
+      "pronunciation": "Character Creation",
+      "category": "session-zero",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "ancestry",
+        "community",
+        "class-subclass",
+        "traits"
+      ],
+      "intro_stage": "Session Zero primer",
+      "related": [
+        "ancestry",
+        "community",
+        "class-subclass",
+        "traits",
+        "experiences",
+        "connection-questions"
+      ],
+      "what_it_is": "The beginner sequence for choosing identity, ancestry, community, class, traits, equipment, Experiences, and connections.",
+      "why_it_matters": "Start with who the character is, then ancestry, community, class/subclass, traits, Experiences, equipment, and connection questions.",
+      "how_it_functions": "Use during Session Zero or when importing a new Level 1 PC into the one-shot.",
+      "p2p_note": "",
+      "template": "Character Creation: The beginner sequence for choosing identity, ancestry, community, class, traits, equipment, Experiences, and connections.",
+      "step_by_step": [
+        "Use during Session Zero or when importing a new Level 1 PC into the one-shot.",
+        "Start with who the character is, then ancestry, community, class/subclass, traits, Experiences, equipment, and connection questions.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "A player can keep Barnacle's Rogue math and only rename, reskin, and rewrite one Experience for a faster table start.",
+      "scenario_story": "A player can keep Barnacle's Rogue math and only rename, reskin, and rewrite one Experience for a faster table start.",
+      "try_it": "What do I choose first?",
+      "keywords": [
+        "Character Creation",
+        "character build",
+        "make a character",
+        "session zero character",
+        "ancestry",
+        "community",
+        "class-subclass",
+        "traits",
+        "experiences",
+        "connection-questions"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "session-zero"
+  },
+  {
+    "id": "heritage",
+    "title": "Heritage",
+    "tag": "rules-canon",
+    "summary": "The broad character identity layer made from ancestry, community, and the player's chosen story details.",
+    "when": "Use when a player asks what shaped their character before the job.",
+    "not_when": "Do not treat heritage as a fixed rules bonus unless the sheet or official feature says so.",
+    "question": "Is heritage a rule?",
+    "answer": "Use the exact sheet rules for ancestry/community features; use the rest as story permission and roleplay texture.",
+    "example": "Varian's Katari heritage can justify heightened scent in scene-specific per-character clues, while the sheet still controls the actual rule bonuses.",
+    "related": [
+      "ancestry",
+      "community",
+      "character-creation"
+    ],
+    "aliases": [
+      "heritage",
+      "background identity"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "heritage",
+      "mechanic_name": "Heritage",
+      "aliases": [
+        "heritage",
+        "background identity"
+      ],
+      "pronunciation": "Heritage",
+      "category": "character-creation",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "ancestry",
+        "community",
+        "character-creation"
+      ],
+      "intro_stage": "Session Zero primer",
+      "related": [
+        "ancestry",
+        "community",
+        "character-creation"
+      ],
+      "what_it_is": "The broad character identity layer made from ancestry, community, and the player's chosen story details.",
+      "why_it_matters": "Use the exact sheet rules for ancestry/community features; use the rest as story permission and roleplay texture.",
+      "how_it_functions": "Use when a player asks what shaped their character before the job.",
+      "p2p_note": "",
+      "template": "Heritage: The broad character identity layer made from ancestry, community, and the player's chosen story details.",
+      "step_by_step": [
+        "Use when a player asks what shaped their character before the job.",
+        "Use the exact sheet rules for ancestry/community features; use the rest as story permission and roleplay texture.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Varian's Katari heritage can justify heightened scent in scene-specific per-character clues, while the sheet still controls the actual rule bonuses.",
+      "scenario_story": "Varian's Katari heritage can justify heightened scent in scene-specific per-character clues, while the sheet still controls the actual rule bonuses.",
+      "try_it": "Is heritage a rule?",
+      "keywords": [
+        "Heritage",
+        "heritage",
+        "background identity",
+        "ancestry",
+        "community",
+        "character-creation"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "character-creation"
+  },
+  {
+    "id": "ancestry",
+    "title": "Ancestry",
+    "tag": "rules-canon",
+    "summary": "A character's people/species choice and its official feature package.",
+    "when": "Use at character creation and when ancestry fiction clearly explains how a PC perceives or approaches a moment.",
+    "not_when": "Do not invent a mechanical bonus because a species detail sounds useful; use advantage or a lower Difficulty only when Kyle chooses that adaptation.",
+    "question": "Does ancestry change rolls?",
+    "answer": "Use the printed ancestry feature. For scene flavor, give a distinct clue angle without changing math unless the table grants advantage or adjusts Difficulty.",
+    "example": "A Katari ranger may smell mineral wrongness in a package clue, but the roll is still Instinct unless a feature says otherwise.",
+    "related": [
+      "heritage",
+      "community",
+      "traits"
+    ],
+    "aliases": [
+      "species",
+      "elf",
+      "human",
+      "katari",
+      "ribbet",
+      "giant"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "ancestry",
+      "mechanic_name": "Ancestry",
+      "aliases": [
+        "species",
+        "elf",
+        "human",
+        "katari",
+        "ribbet",
+        "giant"
+      ],
+      "pronunciation": "Ancestry",
+      "category": "character-creation",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "heritage",
+        "community",
+        "traits"
+      ],
+      "intro_stage": "Session Zero primer",
+      "related": [
+        "heritage",
+        "community",
+        "traits"
+      ],
+      "what_it_is": "A character's people/species choice and its official feature package.",
+      "why_it_matters": "Use the printed ancestry feature. For scene flavor, give a distinct clue angle without changing math unless the table grants advantage or adjusts Difficulty.",
+      "how_it_functions": "Use at character creation and when ancestry fiction clearly explains how a PC perceives or approaches a moment.",
+      "p2p_note": "",
+      "template": "Ancestry: A character's people/species choice and its official feature package.",
+      "step_by_step": [
+        "Use at character creation and when ancestry fiction clearly explains how a PC perceives or approaches a moment.",
+        "Use the printed ancestry feature. For scene flavor, give a distinct clue angle without changing math unless the table grants advantage or adjusts Difficulty.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "A Katari ranger may smell mineral wrongness in a package clue, but the roll is still Instinct unless a feature says otherwise.",
+      "scenario_story": "A Katari ranger may smell mineral wrongness in a package clue, but the roll is still Instinct unless a feature says otherwise.",
+      "try_it": "Does ancestry change rolls?",
+      "keywords": [
+        "Ancestry",
+        "species",
+        "elf",
+        "human",
+        "katari",
+        "ribbet",
+        "giant",
+        "heritage",
+        "community",
+        "traits"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "character-creation"
+  },
+  {
+    "id": "community",
+    "title": "Community",
+    "tag": "rules-canon",
+    "summary": "A character's social origin and the official feature tied to that origin.",
+    "when": "Use at character creation and when a PC's upbringing explains what they know, fear, or notice.",
+    "not_when": "Do not make community the only path to a clue; it should add texture or a cleaner route.",
+    "question": "What does community do?",
+    "answer": "Use the printed community feature and let the background shape how the same clue is discovered.",
+    "example": "A Highborne PC may recognize legal polish in a contract faster; an Underborne PC may notice who is absent from the paperwork.",
+    "related": [
+      "heritage",
+      "ancestry",
+      "experiences"
+    ],
+    "aliases": [
+      "background",
+      "origin",
+      "highborne",
+      "loreborne",
+      "underborne"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "community",
+      "mechanic_name": "Community",
+      "aliases": [
+        "background",
+        "origin",
+        "highborne",
+        "loreborne",
+        "underborne"
+      ],
+      "pronunciation": "Community",
+      "category": "character-creation",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "heritage",
+        "ancestry",
+        "experiences"
+      ],
+      "intro_stage": "Session Zero primer",
+      "related": [
+        "heritage",
+        "ancestry",
+        "experiences"
+      ],
+      "what_it_is": "A character's social origin and the official feature tied to that origin.",
+      "why_it_matters": "Use the printed community feature and let the background shape how the same clue is discovered.",
+      "how_it_functions": "Use at character creation and when a PC's upbringing explains what they know, fear, or notice.",
+      "p2p_note": "",
+      "template": "Community: A character's social origin and the official feature tied to that origin.",
+      "step_by_step": [
+        "Use at character creation and when a PC's upbringing explains what they know, fear, or notice.",
+        "Use the printed community feature and let the background shape how the same clue is discovered.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "A Highborne PC may recognize legal polish in a contract faster; an Underborne PC may notice who is absent from the paperwork.",
+      "scenario_story": "A Highborne PC may recognize legal polish in a contract faster; an Underborne PC may notice who is absent from the paperwork.",
+      "try_it": "What does community do?",
+      "keywords": [
+        "Community",
+        "background",
+        "origin",
+        "highborne",
+        "loreborne",
+        "underborne",
+        "heritage",
+        "ancestry",
+        "experiences"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "character-creation"
+  },
+  {
+    "id": "class-subclass",
+    "title": "Class and Subclass",
+    "tag": "rules-canon",
+    "summary": "A PC's core playstyle, starting values, features, domains, and Hope Feature.",
+    "when": "Use when explaining what a pregen is good at or when a feature changes a scene.",
+    "not_when": "Do not summarize class as personality; it is a rules package plus a play lane.",
+    "question": "What is my class for?",
+    "answer": "It tells you your main features, starting Evasion, HP, domain access, and the kinds of actions your sheet supports well.",
+    "example": "Khari's Guardian class makes body-blocking and protection scenes feel natural without making Khari the only solution.",
+    "related": [
+      "domain-cards",
+      "hope",
+      "evasion",
+      "hp"
+    ],
+    "aliases": [
+      "class",
+      "subclass",
+      "hope feature"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "class-subclass",
+      "mechanic_name": "Class and Subclass",
+      "aliases": [
+        "class",
+        "subclass",
+        "hope feature"
+      ],
+      "pronunciation": "Class and Subclass",
+      "category": "character-creation",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "domain-cards",
+        "hope",
+        "evasion",
+        "hp"
+      ],
+      "intro_stage": "Session Zero primer",
+      "related": [
+        "domain-cards",
+        "hope",
+        "evasion",
+        "hp"
+      ],
+      "what_it_is": "A PC's core playstyle, starting values, features, domains, and Hope Feature.",
+      "why_it_matters": "It tells you your main features, starting Evasion, HP, domain access, and the kinds of actions your sheet supports well.",
+      "how_it_functions": "Use when explaining what a pregen is good at or when a feature changes a scene.",
+      "p2p_note": "",
+      "template": "Class and Subclass: A PC's core playstyle, starting values, features, domains, and Hope Feature.",
+      "step_by_step": [
+        "Use when explaining what a pregen is good at or when a feature changes a scene.",
+        "It tells you your main features, starting Evasion, HP, domain access, and the kinds of actions your sheet supports well.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Khari's Guardian class makes body-blocking and protection scenes feel natural without making Khari the only solution.",
+      "scenario_story": "Khari's Guardian class makes body-blocking and protection scenes feel natural without making Khari the only solution.",
+      "try_it": "What is my class for?",
+      "keywords": [
+        "Class and Subclass",
+        "class",
+        "subclass",
+        "hope feature",
+        "domain-cards",
+        "hope",
+        "evasion",
+        "hp"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "character-creation"
+  },
+  {
+    "id": "domain-cards",
+    "title": "Domain Cards",
+    "tag": "rules-canon",
+    "summary": "Ability cards selected from a class's domains and arranged between loadout and vault.",
+    "when": "Use when a player asks what their cards do, when a rest allows swapping, or when a feature is triggered.",
+    "not_when": "Do not paraphrase a card's exact rule if the official card is available at the table; point to the card and summarize its timing.",
+    "question": "How do cards work?",
+    "answer": "Your active loadout gives usable abilities. During rests, official rules control when cards move between loadout and vault.",
+    "example": "Before Open Vale, remind players to check any card that helps protect, recover, reveal, or reposition.",
+    "related": [
+      "class-subclass",
+      "short-rest",
+      "stress"
+    ],
+    "aliases": [
+      "domain",
+      "loadout",
+      "vault",
+      "recall cost"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "domain-cards",
+      "mechanic_name": "Domain Cards",
+      "aliases": [
+        "domain",
+        "loadout",
+        "vault",
+        "recall cost"
+      ],
+      "pronunciation": "Domain Cards",
+      "category": "character-sheet",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "class-subclass",
+        "short-rest",
+        "stress"
+      ],
+      "intro_stage": "Session Zero primer",
+      "related": [
+        "class-subclass",
+        "short-rest",
+        "stress"
+      ],
+      "what_it_is": "Ability cards selected from a class's domains and arranged between loadout and vault.",
+      "why_it_matters": "Your active loadout gives usable abilities. During rests, official rules control when cards move between loadout and vault.",
+      "how_it_functions": "Use when a player asks what their cards do, when a rest allows swapping, or when a feature is triggered.",
+      "p2p_note": "",
+      "template": "Domain Cards: Ability cards selected from a class's domains and arranged between loadout and vault.",
+      "step_by_step": [
+        "Use when a player asks what their cards do, when a rest allows swapping, or when a feature is triggered.",
+        "Your active loadout gives usable abilities. During rests, official rules control when cards move between loadout and vault.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Before Open Vale, remind players to check any card that helps protect, recover, reveal, or reposition.",
+      "scenario_story": "Before Open Vale, remind players to check any card that helps protect, recover, reveal, or reposition.",
+      "try_it": "How do cards work?",
+      "keywords": [
+        "Domain Cards",
+        "domain",
+        "loadout",
+        "vault",
+        "recall cost",
+        "class-subclass",
+        "short-rest",
+        "stress"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "character-sheet"
+  },
+  {
+    "id": "damage-rolls",
+    "title": "Damage Rolls",
+    "tag": "rules-canon",
+    "summary": "After a successful attack, roll the listed weapon, spell, or adversary damage dice and compare the total to thresholds when needed.",
+    "when": "Use after a hit or when a feature calls for damage.",
+    "not_when": "Do not roll damage before confirming the attack hit or before checking whether a non-damage outcome ended the danger.",
+    "question": "When do I roll damage?",
+    "answer": "After the attack succeeds. Roll the listed damage, then compare it to the target's thresholds or stat block instructions.",
+    "example": "If a skeleton hits, roll its listed damage; if a PC hits, use the weapon or spell on their sheet.",
+    "related": [
+      "adversary-attacks",
+      "damage-thresholds",
+      "armor-slots"
+    ],
+    "aliases": [
+      "damage die",
+      "damage dice",
+      "weapon damage"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "damage-rolls",
+      "mechanic_name": "Damage Rolls",
+      "aliases": [
+        "damage die",
+        "damage dice",
+        "weapon damage"
+      ],
+      "pronunciation": "Damage Rolls",
+      "category": "combat",
+      "canon_status": "#rules-canon",
+      "difficulty": "Intermediate",
+      "dependencies": [
+        "adversary-attacks",
+        "damage-thresholds",
+        "armor-slots"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "adversary-attacks",
+        "damage-thresholds",
+        "armor-slots"
+      ],
+      "what_it_is": "After a successful attack, roll the listed weapon, spell, or adversary damage dice and compare the total to thresholds when needed.",
+      "why_it_matters": "After the attack succeeds. Roll the listed damage, then compare it to the target's thresholds or stat block instructions.",
+      "how_it_functions": "Use after a hit or when a feature calls for damage.",
+      "p2p_note": "",
+      "template": "Damage Rolls: After a successful attack, roll the listed weapon, spell, or adversary damage dice and compare the total to thresholds when needed.",
+      "step_by_step": [
+        "Use after a hit or when a feature calls for damage.",
+        "After the attack succeeds. Roll the listed damage, then compare it to the target's thresholds or stat block instructions.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "If a skeleton hits, roll its listed damage; if a PC hits, use the weapon or spell on their sheet.",
+      "scenario_story": "If a skeleton hits, roll its listed damage; if a PC hits, use the weapon or spell on their sheet.",
+      "try_it": "When do I roll damage?",
+      "keywords": [
+        "Damage Rolls",
+        "damage die",
+        "damage dice",
+        "weapon damage",
+        "adversary-attacks",
+        "damage-thresholds",
+        "armor-slots"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "combat"
+  },
+  {
+    "id": "long-rest",
+    "title": "Long Rest",
+    "tag": "rules-canon",
+    "summary": "A deeper downtime recovery and reset structure used when the story has enough time.",
+    "when": "Use between adventures or when a sequel session gives the party real downtime.",
+    "not_when": "Do not use during the one-shot climax unless the fiction actually grants extended safety.",
+    "question": "Do we long rest?",
+    "answer": "Not during immediate danger. Use short rest inside the one-shot; save long rest for between-session recovery or continuation play.",
+    "example": "After the epilogue, a future campaign could begin after a long rest and level-up decisions.",
+    "related": [
+      "short-rest",
+      "level-up",
+      "domain-cards"
+    ],
+    "aliases": [
+      "downtime",
+      "full rest"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "long-rest",
+      "mechanic_name": "Long Rest",
+      "aliases": [
+        "downtime",
+        "full rest"
+      ],
+      "pronunciation": "Long Rest",
+      "category": "downtime",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner+",
+      "dependencies": [
+        "short-rest",
+        "level-up",
+        "domain-cards"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "short-rest",
+        "level-up",
+        "domain-cards"
+      ],
+      "what_it_is": "A deeper downtime recovery and reset structure used when the story has enough time.",
+      "why_it_matters": "Not during immediate danger. Use short rest inside the one-shot; save long rest for between-session recovery or continuation play.",
+      "how_it_functions": "Use between adventures or when a sequel session gives the party real downtime.",
+      "p2p_note": "",
+      "template": "Long Rest: A deeper downtime recovery and reset structure used when the story has enough time.",
+      "step_by_step": [
+        "Use between adventures or when a sequel session gives the party real downtime.",
+        "Not during immediate danger. Use short rest inside the one-shot; save long rest for between-session recovery or continuation play.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "After the epilogue, a future campaign could begin after a long rest and level-up decisions.",
+      "scenario_story": "After the epilogue, a future campaign could begin after a long rest and level-up decisions.",
+      "try_it": "Do we long rest?",
+      "keywords": [
+        "Long Rest",
+        "downtime",
+        "full rest",
+        "short-rest",
+        "level-up",
+        "domain-cards"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "downtime"
+  },
+  {
+    "id": "disposition-track",
+    "title": "Disposition / Resolution Track",
+    "tag": "adaptation",
+    "summary": "A module-facing tracker for how a creature, NPC group, or faction leaves a scene: helped, calmed, fought, captured, spared, or harmed.",
+    "when": "Use for Strixwolf and Bramble-style outcomes that should ripple later.",
+    "not_when": "Do not turn it into a mandatory plot lock; it records consequence, not a required solution.",
+    "question": "What are we tracking?",
+    "answer": "Track what the table actually did and how the affected side now feels about them.",
+    "example": "The Strixwolf instance records whether the party calmed, fed, fought, or frightened the mother; the Bramble instance records parley, mercy, violence, or capture.",
+    "related": [
+      "roleplay",
+      "fear",
+      "gm-moves"
+    ],
+    "aliases": [
+      "strixwolf mercy track",
+      "bramble resolution track",
+      "disposition"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "disposition-track",
+      "mechanic_name": "Disposition / Resolution Track",
+      "aliases": [
+        "strixwolf mercy track",
+        "bramble resolution track",
+        "disposition"
+      ],
+      "pronunciation": "Disposition / Resolution Track",
+      "category": "module-tracker",
+      "canon_status": "#adaptation",
+      "difficulty": "Intermediate",
+      "dependencies": [
+        "roleplay",
+        "fear",
+        "gm-moves"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "roleplay",
+        "fear",
+        "gm-moves"
+      ],
+      "what_it_is": "A module-facing tracker for how a creature, NPC group, or faction leaves a scene: helped, calmed, fought, captured, spared, or harmed.",
+      "why_it_matters": "Track what the table actually did and how the affected side now feels about them.",
+      "how_it_functions": "Use for Strixwolf and Bramble-style outcomes that should ripple later.",
+      "p2p_note": "",
+      "template": "Disposition / Resolution Track: A module-facing tracker for how a creature, NPC group, or faction leaves a scene: helped, calmed, fought, captured, spared, or harmed.",
+      "step_by_step": [
+        "Use for Strixwolf and Bramble-style outcomes that should ripple later.",
+        "Track what the table actually did and how the affected side now feels about them.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "The Strixwolf instance records whether the party calmed, fed, fought, or frightened the mother; the Bramble instance records parley, mercy, violence, or capture.",
+      "scenario_story": "The Strixwolf instance records whether the party calmed, fed, fought, or frightened the mother; the Bramble instance records parley, mercy, violence, or capture.",
+      "try_it": "What are we tracking?",
+      "keywords": [
+        "Disposition / Resolution Track",
+        "strixwolf mercy track",
+        "bramble resolution track",
+        "disposition",
+        "roleplay",
+        "fear",
+        "gm-moves"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#adaptation",
+    "category": "module-tracker"
+  },
+  {
+    "id": "npc-community-trust-track",
+    "title": "NPC / Community Trust Track",
+    "tag": "adaptation",
+    "summary": "A module-facing tracker for rapport with a person or settlement.",
+    "when": "Use when repeated choices change how warm, candid, generous, or guarded an NPC/community becomes.",
+    "not_when": "Do not make trust the only route to required information; low trust changes tone, cost, and available help.",
+    "question": "How does trust change play?",
+    "answer": "High trust makes help warmer and clearer. Low trust still lets play continue, but with distance, fewer gifts, or harder social positioning.",
+    "example": "Hush Trust changes how locals offer food, directions, and emotional buy-in. Custodian Trust changes how candid and tender the reveal feels.",
+    "related": [
+      "presence",
+      "roleplay",
+      "community"
+    ],
+    "aliases": [
+      "hush trust",
+      "custodian trust",
+      "trust track"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "npc-community-trust-track",
+      "mechanic_name": "NPC / Community Trust Track",
+      "aliases": [
+        "hush trust",
+        "custodian trust",
+        "trust track"
+      ],
+      "pronunciation": "NPC / Community Trust Track",
+      "category": "module-tracker",
+      "canon_status": "#adaptation",
+      "difficulty": "Intermediate",
+      "dependencies": [
+        "presence",
+        "roleplay",
+        "community"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "presence",
+        "roleplay",
+        "community"
+      ],
+      "what_it_is": "A module-facing tracker for rapport with a person or settlement.",
+      "why_it_matters": "High trust makes help warmer and clearer. Low trust still lets play continue, but with distance, fewer gifts, or harder social positioning.",
+      "how_it_functions": "Use when repeated choices change how warm, candid, generous, or guarded an NPC/community becomes.",
+      "p2p_note": "",
+      "template": "NPC / Community Trust Track: A module-facing tracker for rapport with a person or settlement.",
+      "step_by_step": [
+        "Use when repeated choices change how warm, candid, generous, or guarded an NPC/community becomes.",
+        "High trust makes help warmer and clearer. Low trust still lets play continue, but with distance, fewer gifts, or harder social positioning.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Hush Trust changes how locals offer food, directions, and emotional buy-in. Custodian Trust changes how candid and tender the reveal feels.",
+      "scenario_story": "Hush Trust changes how locals offer food, directions, and emotional buy-in. Custodian Trust changes how candid and tender the reveal feels.",
+      "try_it": "How does trust change play?",
+      "keywords": [
+        "NPC / Community Trust Track",
+        "hush trust",
+        "custodian trust",
+        "trust track",
+        "presence",
+        "roleplay",
+        "community"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#adaptation",
+    "category": "module-tracker"
+  },
+  {
+    "id": "hope-fear-moments",
+    "title": "Hope & Fear Moments",
+    "tag": "adaptation",
+    "summary": "A table texture tool for translating Hope/Fear spins into local relief beats or pressure beats.",
+    "when": "Use when a roll's spin needs an immediate scene-specific color.",
+    "not_when": "Do not replace official Hope/Fear rules; this is a module flavor table layered on top.",
+    "question": "What happens when Hope or Fear shows up?",
+    "answer": "Resolve the official result first, then add a local Hope beat or Fear beat that fits the place.",
+    "example": "In Sablewood, Hope might bring fox-bat help or a safe branch; Fear might bring watching eyes, thorn pressure, or a route sign that notices too much.",
+    "related": [
+      "hope",
+      "fear",
+      "gm-moves"
+    ],
+    "aliases": [
+      "Sablewood Hope Moments",
+      "Sablewood Fear Moments",
+      "hope moments",
+      "fear moments"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "hope-fear-moments",
+      "mechanic_name": "Hope & Fear Moments",
+      "aliases": [
+        "Sablewood Hope Moments",
+        "Sablewood Fear Moments",
+        "hope moments",
+        "fear moments"
+      ],
+      "pronunciation": "Hope & Fear Moments",
+      "category": "module-flavor",
+      "canon_status": "#adaptation",
+      "difficulty": "Intermediate",
+      "dependencies": [
+        "hope",
+        "fear",
+        "gm-moves"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "hope",
+        "fear",
+        "gm-moves"
+      ],
+      "what_it_is": "A table texture tool for translating Hope/Fear spins into local relief beats or pressure beats.",
+      "why_it_matters": "Resolve the official result first, then add a local Hope beat or Fear beat that fits the place.",
+      "how_it_functions": "Use when a roll's spin needs an immediate scene-specific color.",
+      "p2p_note": "",
+      "template": "Hope & Fear Moments: A table texture tool for translating Hope/Fear spins into local relief beats or pressure beats.",
+      "step_by_step": [
+        "Use when a roll's spin needs an immediate scene-specific color.",
+        "Resolve the official result first, then add a local Hope beat or Fear beat that fits the place.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "In Sablewood, Hope might bring fox-bat help or a safe branch; Fear might bring watching eyes, thorn pressure, or a route sign that notices too much.",
+      "scenario_story": "In Sablewood, Hope might bring fox-bat help or a safe branch; Fear might bring watching eyes, thorn pressure, or a route sign that notices too much.",
+      "try_it": "What happens when Hope or Fear shows up?",
+      "keywords": [
+        "Hope & Fear Moments",
+        "Sablewood Hope Moments",
+        "Sablewood Fear Moments",
+        "hope moments",
+        "fear moments",
+        "hope",
+        "fear",
+        "gm-moves"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#adaptation",
+    "category": "module-flavor"
+  },
+  {
+    "id": "gm-rules-drawer",
+    "title": "GM Rules Drawer",
+    "tag": "gm-aid",
+    "summary": "The Atlas quick-reference drawer that gathers rule cards, conditions, conversion, and beginner reminders.",
+    "when": "Use when Kyle needs a fast answer without leaving Run Mode.",
+    "not_when": "Do not treat the drawer as player-facing teaching text by default; surface only the answer the table needs.",
+    "question": "Where is the fast rule answer?",
+    "answer": "Open the drawer, search the mechanic, read the compact answer, then return to the scene.",
+    "example": "During the first real roll, open Action Roll, Duality Dice, and Five Roll Outcomes without derailing the scene.",
+    "related": [
+      "action-roll",
+      "traits",
+      "conditions",
+      "dnd-to-daggerheart"
+    ],
+    "aliases": [
+      "rules drawer",
+      "quick reference"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "gm-rules-drawer",
+      "mechanic_name": "GM Rules Drawer",
+      "aliases": [
+        "rules drawer",
+        "quick reference"
+      ],
+      "pronunciation": "GM Rules Drawer",
+      "category": "gm-aid",
+      "canon_status": "#adaptation",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "action-roll",
+        "traits",
+        "conditions",
+        "dnd-to-daggerheart"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "action-roll",
+        "traits",
+        "conditions",
+        "dnd-to-daggerheart"
+      ],
+      "what_it_is": "The Atlas quick-reference drawer that gathers rule cards, conditions, conversion, and beginner reminders.",
+      "why_it_matters": "Open the drawer, search the mechanic, read the compact answer, then return to the scene.",
+      "how_it_functions": "Use when Kyle needs a fast answer without leaving Run Mode.",
+      "p2p_note": "",
+      "template": "GM Rules Drawer: The Atlas quick-reference drawer that gathers rule cards, conditions, conversion, and beginner reminders.",
+      "step_by_step": [
+        "Use when Kyle needs a fast answer without leaving Run Mode.",
+        "Open the drawer, search the mechanic, read the compact answer, then return to the scene.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "During the first real roll, open Action Roll, Duality Dice, and Five Roll Outcomes without derailing the scene.",
+      "scenario_story": "During the first real roll, open Action Roll, Duality Dice, and Five Roll Outcomes without derailing the scene.",
+      "try_it": "Where is the fast rule answer?",
+      "keywords": [
+        "GM Rules Drawer",
+        "rules drawer",
+        "quick reference",
+        "action-roll",
+        "traits",
+        "conditions",
+        "dnd-to-daggerheart"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#adaptation",
+    "category": "gm-aid"
+  },
+  {
+    "id": "roll-slider",
+    "title": "Roll Slider",
+    "tag": "adaptation",
+    "summary": "Kyle's optional degree-of-success overlay: the total says how far above or below Difficulty the result lands while Hope/Fear sets the spin.",
+    "when": "Use when a clue, negotiation, or set piece benefits from richer tiers than pass/fail.",
+    "not_when": "Do not replace official Daggerheart outcomes; keep 2d12 Hope/Fear as the baseline.",
+    "question": "What extra thing does the slider add?",
+    "answer": "It tells you how much they get: botch, miss, hit, clean, soar, or crit, while Hope/Fear still colors the result.",
+    "example": "At S01-03, Presence 12 with a high total may calm the strixwolf and reveal the corpse; the Fear spin can still call distant pack pressure.",
+    "related": [
+      "five-outcomes",
+      "difficulty",
+      "hope",
+      "fear"
+    ],
+    "aliases": [
+      "M24",
+      "slider",
+      "degree of success"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "roll-slider",
+      "mechanic_name": "Roll Slider",
+      "aliases": [
+        "M24",
+        "slider",
+        "degree of success"
+      ],
+      "pronunciation": "Roll Slider",
+      "category": "adaptation-overlay",
+      "canon_status": "#adaptation",
+      "difficulty": "Intermediate",
+      "dependencies": [
+        "action-roll",
+        "duality-dice",
+        "five-outcomes",
+        "difficulty"
+      ],
+      "intro_stage": "S01-03 first real roll, after Action Roll and Duality Dice",
+      "related": [
+        "five-outcomes",
+        "difficulty",
+        "hope",
+        "fear"
+      ],
+      "what_it_is": "Kyle's optional degree-of-success overlay: the total says how far above or below Difficulty the result lands while Hope/Fear sets the spin.",
+      "why_it_matters": "It tells you how much they get: botch, miss, hit, clean, soar, or crit, while Hope/Fear still colors the result.",
+      "how_it_functions": "Use when a clue, negotiation, or set piece benefits from richer tiers than pass/fail.",
+      "p2p_note": "This is #adaptation. It adds degree to a Daggerheart roll but never replaces official Hope/Fear or critical rules.",
+      "template": "Roll Slider: Kyle's optional degree-of-success overlay: the total says how far above or below Difficulty the result lands while Hope/Fear sets the spin.",
+      "step_by_step": [
+        "Use when a clue, negotiation, or set piece benefits from richer tiers than pass/fail.",
+        "It tells you how much they get: botch, miss, hit, clean, soar, or crit, while Hope/Fear still colors the result.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "At S01-03, Presence 12 with a high total may calm the strixwolf and reveal the corpse; the Fear spin can still call distant pack pressure.",
+      "scenario_story": "At S01-03, Presence 12 with a high total may calm the strixwolf and reveal the corpse; the Fear spin can still call distant pack pressure.",
+      "try_it": "What extra thing does the slider add?",
+      "keywords": [
+        "Roll Slider",
+        "M24",
+        "slider",
+        "degree of success",
+        "five-outcomes",
+        "difficulty",
+        "hope",
+        "fear"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#adaptation",
+    "category": "adaptation-overlay"
   }
 ]

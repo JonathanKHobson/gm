@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "MAP-LOC-hush-farms",
+  "kind": "slide",
+  "title": "MAP-LOC-hush-farms - Hush Farms Location Map",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act Four: The Hanging Office",
+  "hook": "The last cultivated fields thin into carved trees and blue moss-light. The path ahead leaves village warmth behind.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "The last cultivated fields thin into carved trees and blue moss-light. The path ahead leaves village warmth behind."
+    },
+    {
+      "label": "Public Objective",
+      "body": "The last cultivated fields thin into carved trees and blue moss-light. The path ahead leaves village warmth behind."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:MAP-LOC-hush-farms",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "12ea93ec34e45fa3",
+  "generated_at": "2026-06-23T21:40:58"
+}

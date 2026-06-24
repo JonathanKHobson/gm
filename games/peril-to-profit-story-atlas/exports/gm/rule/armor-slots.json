@@ -1,0 +1,47 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "armor-slots",
+  "title": "Armor Slots",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "46de492392d2f796",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "Mark a slot to reduce incoming damage severity by one threshold."
+    },
+    {
+      "title": "How it works",
+      "body": "Use after a hit and before marking HP when armor can help."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use after a hit and before marking HP when armor can help.",
+        "It can reduce the severity of a hit.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "What does Armor do?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "damage-thresholds"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 46de492392d2f796 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

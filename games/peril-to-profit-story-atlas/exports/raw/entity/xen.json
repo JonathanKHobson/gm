@@ -1,0 +1,73 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "xen",
+  "title": "Xen",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "cd3a1be0137aa7c6",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Xen: A cocky, practical dwarf lapidarian with faceted nails and polished emerald stones embedded in one arm."
+    },
+    {
+      "title": "Public role",
+      "body": "Bramble lapidarian with stonecraft expertise"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: A cocky, practical dwarf lapidarian with faceted nails and polished emerald stones embedded in one arm."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: npc",
+        "Role: Bramble lapidarian with stonecraft expertise",
+        "Summary: A cocky, practical dwarf lapidarian with faceted nails and polished emerald stones embedded in one arm.",
+        "Tags: sablewood-lore npc bramble source-page-6 npc-profile",
+        "Aliases: Lapidarian of the Highbrush Xen Xen, Lapidarian of the Highbrush",
+        "Connections: Bramble Union Mountain Crabs Bramble Union Stoneweave",
+        "Inventory: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry.",
+        "Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.",
+        "Stat: Difficulty 8. Experience: Rocks +10.",
+        "Image Fallback: type-icon",
+        "Source Pages: Sablewood PDF p. 6",
+        "Name: Xen",
+        "Id: xen",
+        "Meta: NPC / Ally NPC assets/icons/npc.png entity-npc #f0aa45 03 NPCs entities npc",
+        "Related: Bramble Union Bramble Union Stoneweave Mountain Crabs",
+        "Image Prompt: Private table TTRPG story atlas asset for Xen, NPC / Ally. Role: Bramble lapidarian with stonecraft expertise. Summary: A cocky, practical dwarf lapidarian with faceted nails and polished emerald stones embedded in one arm.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Personality: Swagger built on real skill and a stubborn conscience. Counts honest commissions in beard-beads, and has fewer beads than stories, which tells you something. Wants beautiful things to survive ugly ownership.",
+        "Wants: Get paid, get impressed, or get a better stone story out of the PCs.",
+        "Fears: Being bought into silence by the very people ruining the craft.",
+        "Secrets: Xen recognizes more ward-stone quality than he should advertise.",
+        "Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.",
+        "Sample Dialogue: This stone is worth more than your offer, and so is my time. Flawed? It taught me more than the perfect ones ever did. I will cut you a fair deal. I will not cut a fair stone badly.",
+        "Equipment: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry. Bramble Union Stoneweave",
+        "Search Or Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure. Loot / item link: Bramble Union Stoneweave (Earn Union trust, trade, or receive it from a lapidarian.).",
+        "Gm Use: Use this person to put a human face on the current pressure. Give them one concrete want before exposition.",
+        "Future Hooks: Bring back as an echo if players made a strong choice involving this entity.",
+        "Stat Summary: Difficulty 8. Experience: Rocks +10.",
+        "Robust: Xen: A cocky, practical dwarf lapidarian with faceted nails and polished emerald stones embedded in one arm. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Get a concrete outcome tied to Bramble Union, Mountain Crabs, Bramble Union Stoneweave, while keeping personal agency instead of becoming a delivery mechanism for lore. Being ignored at the moment their local knowledge matters, or having Bramble Union, Mountain Crabs, Bramble Union Stoneweave used without care. Use this person to put a human face on the current pressure. Give them one concrete want before exposition. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Xen and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice...",
+        "Mechanics: Social / Information Mechanics Players can interact, comfort, persuade, or earn trust Xen when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A cocky, practical dwarf lapidarian with faceted nails and polished emerald stones embedded in one arm. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-xen-engage-xen entity-xen Engage Xen Engage Xen Presence Knowledge Instinct Presence Knowledge, Instinct 12 Choose the trait from the player's method, not the entity type. A flat read of Xen hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains...",
+        "Pronunciation: ZEN",
+        "Short Pronunciation: ZEN",
+        "Npc Profile: npc-profile-v1 NPC_System_Packet + image-informed hardening Xen A cocky, practical dwarf lapidarian with faceted nails and polished emerald stones embedded in one arm. A red-bearded dwarf lapidarian grins at the workbench, turquoise beads in the beard, green stone chips on the sleeve, and a jeweler's confidence in every finger. Xen: A cocky, practical dwarf lapidarian with faceted nails and polished emerald stones embedded in one arm. Xen ZEN A cocky, practical dwarf lapidarian with faceted nails and polished emerald stones embedded in one arm. Bramble lapidarian with stonecraft expertise Use as a role-first conversation handle, clue source, or pressure valve. Xen gives the table a visible person attached to Bramble Union, Mountain Crabs, Bramble Union Stoneweave. Start with sensory detail, then let questions earn the name and motive. A question to ask A local perspective A grounded reason this place matters A cocky, practical dwarf lapidarian with faceted nails and polished emerald stones embedded in one arm.; at the table, give Xen one visible object, one bodily habit, and one protected attachment tied to Bramble Union, Mountain Crabs, Bramble Union Stoneweave. Respect the...",
+        "One Line: A cocky, practical dwarf lapidarian with faceted nails and polished emerald stones embedded in one arm.",
+        "Player Display Title: Xen",
+        "Player Display Caption: A cocky, practical dwarf lapidarian with faceted nails and polished emerald stones embedded in one arm.",
+        "Item Links: bramble-union-stoneweave Bramble Union Stoneweave Bramble Union Loot Earn Union trust, trade, or receive it from a lapidarian.",
+        "Image: assets/npc-images/xen/portrait_base.webp",
+        "Image Asset Status: npc_images",
+        "Visual Gallery: primary Primary wiki image primary assets/npc-images/xen/portrait_base.webp Xen primary wiki image visual. Xen: Primary wiki image. npc_images True True npc-fullbody_base Full-body npc-portrait assets/npc-images/xen/fullbody_base.webp Xen full-body visual. Xen: Full-body. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/xen/fullbody_base.png npc-fullbody_chroma Full-body chroma source npc-portrait assets/npc-images/xen/fullbody_chroma.webp Xen full-body chroma source visual. Xen: Full-body chroma source. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/xen/fullbody_chroma.png npc-fullbody_transparent Full-body transparent cutout npc-portrait assets/npc-images/xen/fullbody_transparent.webp Xen full-body transparent cutout visual. Xen: Full-body transparent cutout. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/xen/fullbody_transparent.png npc-portrait_chroma Portrait chroma source npc-portrait assets/npc-images/xen/portrait_chroma.webp Xen portrait chroma source visual. Xen: Portrait chroma source. npc_images True /Users/kyle/Documents/My Games/Peril To..."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash cd3a1be0137aa7c6 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

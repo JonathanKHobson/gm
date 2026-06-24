@@ -1,0 +1,58 @@
+# Bramble Ward-Scrap Charm Cluster
+
+GM export - entity:bramble-ward-scrap-charm-cluster
+
+## Player-facing description
+A knot of blue ward shards, twine, and tiny salvage tags clacks softly at a Bramblefolk belt. It looks illegal only because it looks useful.
+
+## Public role
+Bramble Ward-Scrap Charm Cluster: reclaimed protective scraps that help Bramblefolk read old route pressure and failed ward residue.
+
+## Handout text
+GRAIL SECURITY BULLETIN: Ward-scrap charms are unlicensed defensive paraphernalia and may indicate unauthorized survival.
+
+## GM truth
+Use this element to reveal the cost of managed protection through concrete play.
+
+## GM handling
+Use when players need a tangible handle on the scene's pressure.
+
+## Mechanics
+- Title: Discovery / Earn-It Mechanics
+- Player Safe: Players can inspect, handle, keep, trade, reveal, or earn Bramble Ward-Scrap Charm Cluster when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: A knot of blue ward shards, twine, and tiny salvage tags clacks softly at a Bramblefolk belt. It looks illegal only because it looks useful. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-bramble-ward-scrap-charm-cluster-engage-bramble-ward-scrap-charm-cluster entity-bramble-ward-scrap-charm-cluster Engage Bramble Ward-Scrap Charm Cluster Engage Bramble Ward-Scrap Charm Cluster Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Bramble Ward-Scrap Charm Cluster hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless the item or clue physically creates Hidden, Restrained, or Vulnerable
+- Search Loot: Bramble Ward-Scrap Charm Cluster: reclaimed protective scraps that help Bramblefolk read old route pressure and failed ward residue. Provenance: Trade, trust, or careful examination of dropped Bramble gear.
+
+## Profile
+- Schema Version: item-profile-v1
+- Id: bramble-ward-scrap-charm-cluster
+- Item Id: bramble-ward-scrap-charm-cluster
+- Item Name: Bramble Ward-Scrap Charm Cluster
+- Name: Bramble Ward-Scrap Charm Cluster
+- Aliases: ward-scrap charm blue shard charm
+- Pronunciation: BRAM-bul WORD-skrap CHARM KLUS-ter
+- Item Kind: trinket
+- Tier: Tier 1
+- Priority: P2
+- Mode: PROP
+- Maker: reclaimed Bramble craft
+- Made Or Wild: competing
+- Auto Surface: True
+- Discovered From Art: True
+- Atlas Lore Note: [Atlas lore - confirm or override]
+- Player Safe: Bramble Ward-Scrap Charm Cluster A knot of blue ward shards, twine, and tiny salvage tags clacks softly at a Bramblefolk belt. It looks illegal only because it looks useful. A knot of blue ward shards, twine, and tiny salvage tags clacks softly at a Bramblefolk belt. It looks illegal only because it looks useful. reclaimed Bramble craft GRAIL SECURITY BULLETIN: Ward-scrap charms are unlicensed defensive paraphernalia and may indicate unauthorized survival.
+- Block0: bramble-ward-scrap-charm-cluster Bramble Ward-Scrap Charm Cluster ward-scrap charm blue shard charm BRAM-bul WORD-skrap CHARM KLUS-ter trinket Tier 1
+- Block1: A knot of blue ward shards, twine, and tiny salvage tags clacks softly at a Bramblefolk belt. It looks illegal only because it looks useful. Bramble Ward-Scrap Charm Cluster: reclaimed protective scraps that help Bramblefolk read old route pressure and failed ward residue. A survival charm made from discarded corporate ward fragments. It turns waste into local knowledge. pages/entities/bramble-ward-scrap-charm-cluster.html
+- Block2: reclaimed Bramble craft competing GRAIL SECURITY BULLETIN: Ward-scrap charms are unlicensed defensive paraphernalia and may indicate unauthorized survival. The route threw the pieces away, then objected when people used them.
+- Block3: Clue tool. Instinct or Knowledge 13 can use it to read nearby ward residue or route stress. item #module Discovery grammar: this is evidence, not treasure. It grants information, leverage, or access when earned through roleplay or a trait roll. Clue tool. Instinct or Knowledge 13 can use it to read nearby ward residue or route stress. The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned. Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does. Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction. If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus. Give the item freely when the player already earned it through care, trust, trade, victory, or...
+- Block4: Bramble Union Ambusher Kett Alderhook Vela Bramblewick Bramble Union Villages Bramble Union Loot Trade, trust, or careful examination of dropped Bramble gear. S02-03 S02-04 MAP-LOC-bramble-union-villages
+- Block5: Layer 1 - look A blue-shard charm cluster. Layer 2 - hint The pieces are reclaimed ward scrap. Layer 3 - truth It can read residue or route stress with Instinct/Knowledge 13. Earn a Bramble explanation. Study the shard pattern. Use it near a failing ward line. Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll.
+- Block6: A cluster of blue ward shards, twine, tiny salvage tags, and moss cord, handmade and useful, unbranded, bright forest background. item wiki card and earned side-card visual Use the Run Mode item card's Show image button when the table sees or earns this item. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/bramble-ward-scrap-charm-cluster/profile_base.png assets/item-images/bramble-ward-scrap-charm-cluster/profile_base.webp Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark.
+- Visual Assets: profile_base Item profile image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/bramble-ward-scrap-charm-cluster/profile_base.png assets/item-images/bramble-ward-scrap-charm-cluster/profile_base.webp ready Bramble Ward-Scrap Charm Cluster item illustration. A knot of blue ward shards, twine, and tiny salvage tags clacks softly at a Bramblefolk belt. It looks illegal only because it looks useful.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 76b222f4347b9631 | Source hash dac3370046ed077140fab2d6

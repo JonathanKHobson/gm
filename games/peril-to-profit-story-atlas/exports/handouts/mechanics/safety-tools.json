@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "safety-tools",
+  "kind": "rule",
+  "title": "Safety Tools",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "mechanic",
+  "hook": "Light in-person permissions for pausing, slowing down, rewinding, stepping away, or asking for help.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Light in-person permissions for pausing, slowing down, rewinding, stepping away, or asking for help."
+    },
+    {
+      "label": "How It Works",
+      "body": "Safety Tools: Light in-person permissions for pausing, slowing down, rewinding, stepping away, or asking for help."
+    },
+    {
+      "label": "Try It",
+      "body": "How do I pause the game?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use at the start and whenever comfort, clarity, pacing, or content needs adjustment.",
+    "Say pause, ask for a break, ask to rewind, step away, or tell Kyle to slow down or repeat something.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:safety-tools",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "72d5141cf1388b63",
+  "generated_at": "2026-06-23T21:40:58"
+}

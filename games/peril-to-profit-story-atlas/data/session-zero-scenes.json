@@ -1,31 +1,513 @@
 [
   {
+    "id": "SZ-00-STANDBY",
+    "title": "Standby Welcome Poster",
+    "player_title": "Welcome",
+    "player_body": "",
+    "player_bullets": [],
+    "player_table": [],
+    "player_facing": "Welcome to Peril to Profit: The Goldspire Messengers.",
+    "purpose": "Welcome players as they enter the room before live facilitation starts.",
+    "mode": [
+      "quick_pregen",
+      "guided_pregen",
+      "full_custom"
+    ],
+    "display_mode": "standby-carousel",
+    "player_beats": [
+      {
+        "id": "SZ-00-STANDBY-poster",
+        "label": "Poster",
+        "title": "Welcome",
+        "image": "assets/session-zero/SZ-00-standby-welcome.webp",
+        "alt": "Welcome poster for Peril to Profit: The Goldspire Messengers.",
+        "displayMode": "standby-poster"
+      },
+      {
+        "id": "SZ-00-STANDBY-hook",
+        "label": "Story hook",
+        "title": "Tonight's job",
+        "body": "A sealed delivery. A living forest. A job too expensive to be simple.",
+        "bullets": [
+          "You are hired contractors or trusted associates.",
+          "The destination is the village of Hush.",
+          "The route crosses Sablewood, a vast fantasy forest managed like a logistics preserve.",
+          "The sealed delivery is a package nobody is supposed to open yet.",
+          "The contract is signed before the truth is clear."
+        ],
+        "displayMode": "text-first"
+      },
+      {
+        "id": "SZ-00-STANDBY-outline",
+        "label": "Outline",
+        "title": "How tonight flows",
+        "body": "We will start with safety, rules, characters, and connections, then move into the delivery job.",
+        "bullets": [
+          "Session Zero: safety, rules, characters, connections.",
+          "Opening contract: why you took the job.",
+          "Road trouble: the route gets complicated.",
+          "Hush and investigation: meet people and ask questions.",
+          "Final pressure: the delivery becomes a choice.",
+          "Breaks: short five-minute pauses as needed, plus a longer midpoint break if the table wants it."
+        ],
+        "displayMode": "text-first"
+      },
+      {
+        "id": "SZ-00-STANDBY-expectations",
+        "label": "Expectations",
+        "title": "Table expectations",
+        "body": "The story works best when everyone is engaged, respectful, and helping the table have fun.",
+        "bullets": [
+          "Ask questions whenever you need to.",
+          "Invite other players in.",
+          "Make space when someone else has the spotlight.",
+          "Tell the GM if you need a repeat, slower pace, pause, or break."
+        ],
+        "displayMode": "text-first"
+      },
+      {
+        "id": "SZ-00-STANDBY-gm",
+        "label": "GM intro",
+        "title": "Who is your GM?",
+        "body": "Your GM is Kyle, he/him. Kyle has 15+ years running in-person and online TTRPGs, and runs Daggerheart as a story-first, roleplay-friendly game.",
+        "bullets": [
+          "Call me Kyle.",
+          "My style: character choices first, rules in service of the table's fun.",
+          "Mechanics help us decide risky moments; they are not homework.",
+          "Questions, interruptions, repeats, and slow-down requests are welcome.",
+          "More about Kyle: https://jonathankhobson.github.io/g/"
+        ],
+        "displayMode": "text-first"
+      },
+      {
+        "id": "SZ-00-STANDBY-faq",
+        "label": "FAQ",
+        "title": "Questions while we get ready?",
+        "body": "Scan for beginner questions, safety basics, Daggerheart rules, and character sheet help.",
+        "image": "assets/session-zero/session-zero-faq-qr.webp",
+        "alt": "QR code for the public Session Zero FAQ.",
+        "caption": "https://jonathankhobson.github.io/gm/games/peril-to-profit-story-atlas/pages/session-zero-faq.html",
+        "bullets": [
+          "What is Daggerheart?",
+          "Do I need to know the rules?",
+          "What is the rating?",
+          "How do breaks and safety work?",
+          "How do I read my character sheet?"
+        ],
+        "table": [],
+        "displayMode": "qr-card"
+      }
+    ],
+    "gm_script": "Keep this poster on the player display while people enter, choose seats, and settle in. Welcome players casually, confirm names, and do not start the content until everyone is ready.",
+    "gm_checklist": [
+      "Character sheets placed or ready",
+      "Quick rules cards available",
+      "Connection sheets available",
+      "Safety cards/tools visible",
+      "Pencils and dice ready",
+      "Player display synced",
+      "Optional music off or ready"
+    ],
+    "gm_notes": [
+      "This is the room-entry slide, not the first teaching slide.",
+      "Optional future audio: quiet instrumental standby music, disabled by default."
+    ],
+    "gm_private": [],
+    "source_files": [
+      "SESSION_ZERO_RUNBOOK.md",
+      "handouts/Player_Welcome_Table_Expectations.md"
+    ],
+    "art": {
+      "src": "assets/session-zero/SZ-00-standby-welcome.webp",
+      "alt": "Welcome poster for Peril to Profit: The Goldspire Messengers with a sealed delivery crate and warm fantasy route map.",
+      "mode": "standby-poster"
+    },
+    "complete_flag": "player_display_ready",
+    "completion_eligible": false,
+    "gm_read_aloud": "[Before players arrive] Keep this welcome screen on the TV. As people walk in, say: 'Welcome to Peril to Profit. Grab a seat, settle in, and make sure you have a character sheet and pencil. We will start once everyone is here.' When the table is ready, say: 'Great. I am going to bring us into Session Zero now.'",
+    "rule_ids": [
+      "safety-tools",
+      "table-spotlight"
+    ],
+    "allow_image_beats": false,
+    "beat_autoplay_default": true,
+    "beat_autoplay_interval_ms": 9000,
+    "takeaway_help": {
+      "player": {
+        "title": "Players can settle in without GM attention",
+        "statement": "Players know they are in the right place and can scan room-entry basics.",
+        "body": "The standby carousel should answer the early-room questions: what game this is, who Kyle is, what the night roughly covers, and where the FAQ lives. It is not a rules lesson yet.",
+        "say": "\"Welcome to Peril to Profit: Goldspire Messengers. Grab a seat, settle in, and make sure you have a character sheet and pencil. We will start once everyone is here.\"",
+        "ask": "If someone asks what to do now: \"Nothing complicated yet. Pick a seat, glance at the welcome screen, and tell me if you need a sheet, pencil, water, or a better view.\"",
+        "deeper": "The standby carousel should answer the early-room questions: what game this is, who Kyle is, what the night roughly covers, and where the FAQ lives. It is not a rules lesson yet.",
+        "ruleIds": [
+          "safety-tools",
+          "table-spotlight"
+        ]
+      },
+      "story": {
+        "title": "The one-shot begins as a sealed delivery",
+        "statement": "Goldspire Messengers starts as a paid delivery through a dangerous managed forest.",
+        "body": "Player-safe hook: the package matters, the forest is old, and the job will get stranger. Do not introduce the hidden contents or late-act reveal from the standby screen.",
+        "say": "\"Tonight starts with a simple job: take a sealed package through a huge old forest and get paid when it arrives.\"",
+        "ask": "If someone asks what the story is about: \"A delivery job, a sealed package, a forest route, and the question of who gets protected when business and magic collide.\"",
+        "deeper": "Player-safe hook: the package matters, the forest is old, and the job will get stranger. Do not introduce the hidden contents or late-act reveal from the standby screen.",
+        "ruleIds": [
+          "safety-tools",
+          "table-spotlight"
+        ]
+      },
+      "mechanic": {
+        "title": "Standby is table-readiness and player-display orientation",
+        "statement": "The mechanic is room setup: players learn where to look and how the session will be paced.",
+        "body": "This beat trains the table to treat the TV as shared focus while keeping decisions and private prompts on the GM side.",
+        "say": "\"For now, just let the screen cycle. Once we begin, I will use it like a live slideshow: sometimes image, sometimes text, sometimes a quick prompt.\"",
+        "ask": "If someone asks whether they need rules now: \"No. I will teach the rules when the first risky moment needs them.\"",
+        "deeper": "This beat trains the table to treat the TV as shared focus while keeping decisions and private prompts on the GM side.",
+        "ruleIds": [
+          "safety-tools",
+          "table-spotlight"
+        ]
+      }
+    }
+  },
+  {
     "id": "SZ-00",
-    "title": "Welcome / Table Frame",
-    "act": "Session Zero",
+    "title": "Ready to Start / Table Frame",
+    "player_title": "Welcome to the Goldspire Messengers",
+    "player_body": "This is a beginner-friendly Daggerheart one-shot. You do not need to know the rules ahead of time. We will learn by playing.",
+    "player_bullets": [
+      "You are hired contractors or trusted associates escorting a sealed delivery through the Goldspire Territories.",
+      "The job looks simple. It will not stay simple.",
+      "Tone: sincere fantasy adventure, corporate satire, and a little dark whimsy.",
+      "Share spotlight, ask questions, pass when needed, help other characters look cool, and respect safety tools.",
+      "GM style: clear rulings, rules-light at first, and consequences tied to the fiction."
+    ],
+    "player_table": [],
+    "player_facing": "Welcome to a beginner-friendly Daggerheart one-shot set in Peril to Profit's Goldspire Territories. We will learn by playing, build a party together, and start with a delivery job that becomes more complicated than advertised.",
     "purpose": "Establish tone, expectations, and the table's shared social contract.",
     "mode": [
       "quick_pregen",
       "guided_pregen",
       "full_custom"
     ],
-    "player_facing": "Welcome to a beginner-friendly Daggerheart one-shot in Peril to Profit’s Goldspire Territories. We’ll learn by playing, build a party together, and start with a delivery job that becomes more complicated than advertised.",
+    "display_mode": "image-title-caption",
+    "gm_script": "Say the welcome plainly, then tell the table that the rules will be introduced only as needed. Confirm that everyone can see the player display and has the right handouts.",
+    "gm_checklist": [
+      "All players seated",
+      "Session Zero mode selected",
+      "Safety tools ready",
+      "Handouts visible",
+      "Player display visible"
+    ],
     "gm_notes": [
       "Keep it warm, confident, and short.",
-      "This is a paid public table: clarity and consent matter."
+      "This is a public table: clarity and consent matter."
     ],
-    "complete_flag": "session_zero_welcome_complete"
+    "gm_private": [],
+    "source_files": [
+      "docs/SESSION_ZERO_RUNBOOK.md#0:00-0:02-welcome",
+      "handouts/Player_Welcome_Table_Expectations.md",
+      "docs/SESSION_ZERO_DESIGN_SPEC.md"
+    ],
+    "art": {
+      "src": "assets/entities/party-reference.webp",
+      "alt": "The five pregenerated adventurers ready for the Goldspire delivery.",
+      "mode": "supporting"
+    },
+    "complete_flag": "session_zero_welcome_complete",
+    "gm_read_aloud": "Welcome to Peril to Profit: The Goldspire Messengers. Tonight is a one-shot about a paid delivery job that gets stranger, more dangerous, and more human as you go. You do not need to know Daggerheart before we begin. I will introduce rules only when they matter. Before we start, can everyone see the screen clearly, and does anyone need me to slow down, repeat anything, or adjust where they are sitting?",
+    "rule_ids": [
+      "roleplay",
+      "table-spotlight"
+    ],
+    "allow_image_beats": true,
+    "takeaway_help": {
+      "player": {
+        "title": "Players know Kyle's welcome and table frame",
+        "statement": "Players know the tone, GM style, and learn-by-playing promise.",
+        "body": "This is where Kyle establishes trust: story-first, roleplay-friendly, rules as support, and questions welcome at any time.",
+        "say": "\"Welcome to Peril to Profit: The Goldspire Messengers. You do not need to know Daggerheart tonight; I will teach the rules when they matter.\"",
+        "ask": "If a player asks what they should focus on: \"Focus on what your character wants, what they try, and what they ask. I will handle when dice enter the scene.\"",
+        "deeper": "This is where Kyle establishes trust: story-first, roleplay-friendly, rules as support, and questions welcome at any time.",
+        "ruleIds": [
+          "roleplay",
+          "table-spotlight"
+        ]
+      },
+      "story": {
+        "title": "The story is a delivery job that grows teeth",
+        "statement": "The party are contractors or trusted associates on a job that will complicate.",
+        "body": "Player-safe frame: contract, sealed package, old forest, village destination. The named lore can arrive later through questions.",
+        "say": "\"Your characters are here because of a delivery job. On paper it is simple; in play it is going to ask what you protect and what you are willing to question.\"",
+        "ask": "If someone asks whether their PC already knows the setting: \"You know enough to take the job. You are new to this specific route, so asking basic questions in character is correct.\"",
+        "deeper": "Player-safe frame: contract, sealed package, old forest, village destination. The named lore can arrive later through questions.",
+        "ruleIds": [
+          "roleplay",
+          "table-spotlight"
+        ]
+      },
+      "mechanic": {
+        "title": "Learn-by-playing is the onboarding mechanic",
+        "statement": "The table mechanic is question-driven play before formal rolls.",
+        "body": "This sets the permission structure for the whole night: player intent first, rules second, no memorization tax.",
+        "say": "\"Tell me what your character does or asks. If it is risky or uncertain, I will call for a roll and walk you through it.\"",
+        "ask": "If a player asks what happens if they make a mistake: \"Nothing breaks. We pause, clarify the intent, and pick the roll or answer that fits.\"",
+        "deeper": "This sets the permission structure for the whole night: player intent first, rules second, no memorization tax.",
+        "ruleIds": [
+          "roleplay",
+          "table-spotlight"
+        ]
+      }
+    }
   },
   {
-    "id": "SZ-01",
-    "title": "CATS / Campaign Calibration",
-    "act": "Session Zero",
-    "purpose": "Clarify concept, aim, tone, and subject matter.",
+    "id": "SZ-00B",
+    "title": "Welcome, Logistics, and GM Role",
+    "player_title": "Welcome to the table",
+    "player_body": "This is a standalone one-shot at Mox. We are here to tell a complete story tonight, learn the game as we go, and make sure everyone has enough information to participate comfortably.",
+    "player_bullets": [
+      "Your GM is Kyle, he/him. Kyle has 15+ years running in-person and online TTRPGs.",
+      "GM style for Daggerheart: story-first, roleplay-friendly, and mechanics in service of the table's fun.",
+      "Kyle plays the world, keeps the rules moving, asks questions, and helps everyone get spotlight.",
+      "You play one character. Say what they try to do, ask questions, and make choices from their point of view.",
+      "We will confirm session length, end time, breaks, bathrooms, drinks, and any Mox house policies before we begin.",
+      "Phones are fine for reference or emergencies. Please keep attention at the table when another player has the spotlight.",
+      "This is a complete story tonight: Session Zero, opening job, rising trouble, final pressure, and a short closeout if time allows."
+    ],
+    "player_table": [
+      {
+        "topic": "GM role",
+        "table version": "Kyle plays the world and helps the table move."
+      },
+      {
+        "topic": "Player role",
+        "table version": "Describe what your character does and ask questions."
+      },
+      {
+        "topic": "Logistics",
+        "table version": "Time, breaks, bathrooms, drinks, phones, and Mox policies."
+      }
+    ],
+    "purpose": "Cover room logistics, the GM role, the player role, and the shape of an in-person one-shot before teaching rules.",
     "mode": [
       "quick_pregen",
       "guided_pregen",
       "full_custom"
     ],
+    "display_mode": "text-first",
+    "gm_script": "Welcome everyone by name if possible. Say: I'm Kyle, he/him, and you can call me Kyle. I've been running TTRPGs for 15+ years, both in person and online. For Daggerheart, my style is story-first and roleplay-friendly: the mechanics are here to support the table's fun and help us resolve risky moments, not to make you memorize a rulebook. I play the world, frame scenes, make rulings, and help everyone get time in the spotlight. You play one character and tell me what they try to do. Before we begin, let's confirm end time, breaks, bathrooms, drinks, phone expectations, and any Mox house policies.",
+    "gm_checklist": [
+      "Introduce yourself as GM",
+      "Name/pronouns: Kyle, he/him",
+      "Mention 15+ years running in-person and online TTRPGs",
+      "State story-first, roleplay-friendly Daggerheart style",
+      "Confirm headcount, seats, names, and any latecomers",
+      "Confirm session length and target end time",
+      "Cover Mox house policies or ask staff if needed",
+      "Point out bathrooms, drinks, and table logistics",
+      "Set phone policy: reference and emergencies are fine, attention stays at the table",
+      "State that tonight is a standalone complete story"
+    ],
+    "gm_notes": [
+      "This card exists before safety and rules so strangers know what room they are in.",
+      "Keep it practical. The table needs confidence, not a speech."
+    ],
+    "gm_private": [
+      "Ask May or Mox staff for current house policies before the event if they are not already posted."
+    ],
+    "source_files": [
+      "Session Zero Checklist.txt",
+      "docs/SESSION_ZERO_RUNBOOK.md",
+      "handouts/Player_Welcome_Table_Expectations.md"
+    ],
+    "art": {
+      "src": "assets/icons/action-session-zero.png",
+      "alt": "Session Zero welcome and logistics icon.",
+      "mode": "supporting"
+    },
+    "complete_flag": "logistics_explained",
+    "gm_read_aloud": "I am Kyle, he/him, and you can call me Kyle. I have been running tabletop games for more than fifteen years, both in person and online. My Daggerheart style is story-first and roleplay-friendly. The mechanics are here to help us resolve risky moments and make the story more fun, not to make you memorize a rulebook. I play the world, frame scenes, make rulings, and help everyone get time in the spotlight. You play one character and tell me what they try to do. Before we begin, let's confirm end time, breaks, bathrooms, drinks, phone expectations, and any Mox house policies.",
+    "rule_ids": [
+      "safety-tools",
+      "table-spotlight"
+    ],
+    "allow_image_beats": false,
+    "takeaway_help": {
+      "player": {
+        "title": "Players know who Kyle is",
+        "statement": "Players know Kyle's name, pronouns, experience, and GM style.",
+        "body": "This cue gives Kyle credibility and lowers pressure for beginners: story-forward, mechanics-assisted, and open to interruption.",
+        "say": "\"I am Kyle, he/him. I have run tabletop games for more than fifteen years, and tonight my job is to help the table tell a strong story without making rules feel like homework.\"",
+        "ask": "If someone asks how strict the rules will be: \"I care about the rules when they help the scene. If a rule would slow us down, I will make a clear ruling and keep us moving.\"",
+        "deeper": "This cue gives Kyle credibility and lowers pressure for beginners: story-forward, mechanics-assisted, and open to interruption.",
+        "ruleIds": [
+          "safety-tools",
+          "table-spotlight"
+        ]
+      },
+      "story": {
+        "title": "The night is a complete one-shot",
+        "statement": "This is a full one-shot with a beginning, middle, and end.",
+        "body": "Use this to prevent campaign-pitch drift. The table should feel that their choices matter tonight.",
+        "say": "\"Tonight is built to complete a story at the table: onboarding, contract, road trouble, village pressure, reveal, and final choice.\"",
+        "ask": "If a player asks whether this becomes a campaign: \"Tonight stands alone. If people love it, there are future threads, but you will get a complete arc now.\"",
+        "deeper": "Use this to prevent campaign-pitch drift. The table should feel that their choices matter tonight.",
+        "ruleIds": [
+          "safety-tools",
+          "table-spotlight"
+        ]
+      },
+      "mechanic": {
+        "title": "GM role and player role are established",
+        "statement": "The mechanic is spotlight contract: Kyle frames scenes; players drive characters.",
+        "body": "This is the first spotlight-sharing cue. It tells players they do not need to perform constantly, but they are allowed to enter the scene.",
+        "say": "\"I play the world and keep the pace. You play one character and tell me what they do, ask, feel, and risk.\"",
+        "ask": "If someone asks when they should talk: \"When your character reacts, wants something, notices something, or has a question, jump in. I will help balance spotlight.\"",
+        "deeper": "This is the first spotlight-sharing cue. It tells players they do not need to perform constantly, but they are allowed to enter the scene.",
+        "ruleIds": [
+          "safety-tools",
+          "table-spotlight"
+        ]
+      }
+    }
+  },
+  {
+    "id": "SZ-00C",
+    "title": "Player Introductions",
+    "player_title": "Quick player introductions",
+    "player_body": "Before characters, let's meet the people at the table. Short is perfect, and passing is always okay.",
+    "player_bullets": [
+      "Your name and pronouns if you want to share them.",
+      "Your TTRPG or Daggerheart experience level.",
+      "One fun fact, comfort note, or what you are hoping for tonight.",
+      "You can pass and come back."
+    ],
+    "player_table": [
+      {
+        "prompt": "Name",
+        "example": "I'm Kyle."
+      },
+      {
+        "prompt": "Experience",
+        "example": "New to TTRPGs, played D&D, or first time with Daggerheart."
+      },
+      {
+        "prompt": "Tonight",
+        "example": "I like mystery, action, character moments, or learning by doing."
+      }
+    ],
+    "purpose": "Let players introduce themselves as people before they introduce their characters.",
+    "mode": [
+      "quick_pregen",
+      "guided_pregen",
+      "full_custom"
+    ],
+    "display_mode": "text-first",
+    "player_beats": [
+      {
+        "id": "SZ-00C-prompt",
+        "label": "Intro prompt",
+        "title": "Quick player introductions",
+        "body": "Before characters, let's meet the people at the table. Short is perfect, and passing is always okay.",
+        "bullets": [
+          "Name and pronouns if you want to share them.",
+          "TTRPG or Daggerheart experience level.",
+          "One thing you are hoping for tonight.",
+          "You can pass and come back."
+        ],
+        "displayMode": "text-first"
+      },
+      {
+        "id": "SZ-00C-example",
+        "label": "Example",
+        "title": "Example intro",
+        "body": "I'm Kyle, he/him. I've played a little D&D, Daggerheart is new to me, and tonight I'm hoping for mystery and character moments.",
+        "bullets": [
+          "Keep it to one or two sentences.",
+          "You never have to share more than you want to.",
+          "Passing is okay."
+        ],
+        "displayMode": "text-first"
+      }
+    ],
+    "gm_script": "Before we meet the characters, let's meet each other. Please share your name, your TTRPG or Daggerheart experience level, and one thing you are hoping for tonight. You can pass and come back. I will use this to calibrate how much I explain as we play.",
+    "gm_checklist": [
+      "Each player had a chance to introduce themselves",
+      "Experience levels noted mentally",
+      "Beginner questions welcomed",
+      "Passing was explicitly allowed"
+    ],
+    "gm_notes": [
+      "This is people first, characters later.",
+      "Use the answers to decide how slowly to teach dice, sheet reading, and spotlight combat."
+    ],
+    "gm_private": [],
+    "source_files": [
+      "Session Zero Checklist.txt"
+    ],
+    "art": {
+      "src": "assets/icons/live-social.png",
+      "alt": "Table introductions icon.",
+      "mode": "supporting"
+    },
+    "complete_flag": "player_introductions_complete",
+    "gm_read_aloud": "Before we meet the characters, let's meet the people at the table. Please share your name, your pronouns if you want to, your tabletop or Daggerheart experience level, and one thing you hope we get tonight. You can keep it very short, and you can pass and come back. I use this to calibrate how much I explain as we play.",
+    "rule_ids": [
+      "table-spotlight"
+    ],
+    "allow_image_beats": false,
+    "beat_autoplay_default": false,
+    "beat_autoplay_interval_ms": 12000,
+    "takeaway_help": {
+      "player": {
+        "title": "Players meet each other before characters",
+        "statement": "Players introduce themselves as people before performing a role.",
+        "body": "The useful output is not biography; it is calibration. Kyle learns who needs more rules support, who wants roleplay, and who may need gentler spotlight.",
+        "say": "\"Before characters, let us meet the people. Name, pronouns if you want, your tabletop experience level, and one thing you hope we get tonight.\"",
+        "ask": "If someone hesitates: \"You can keep it tiny: name, whether you are new or experienced, and one word for the vibe you like.\"",
+        "deeper": "The useful output is not biography; it is calibration. Kyle learns who needs more rules support, who wants roleplay, and who may need gentler spotlight.",
+        "ruleIds": [
+          "table-spotlight"
+        ]
+      },
+      "story": {
+        "title": "The table becomes an ensemble",
+        "statement": "The table becomes a temporary ensemble before the fiction begins.",
+        "body": "This is the social foundation for character connections later; shy players get seen before they are asked to improvise.",
+        "say": "\"This is a group story. Before we ask the characters to trust each other, I want the players to know who is sharing the table.\"",
+        "ask": "If someone asks why this matters: \"It helps me pace explanations, invite people in, and make sure the game serves the people actually here.\"",
+        "deeper": "This is the social foundation for character connections later; shy players get seen before they are asked to improvise.",
+        "ruleIds": [
+          "table-spotlight"
+        ]
+      },
+      "mechanic": {
+        "title": "Beginner calibration and spotlight pacing",
+        "statement": "The mechanic is table calibration: Kyle learns how much support and spotlight each player wants.",
+        "body": "Treat this as the first pass-and-return demonstration. The table learns that passing is allowed and not a failure.",
+        "say": "\"If you are new, I will explain more. If you are experienced, I may ask you to help model play without taking over.\"",
+        "ask": "If someone asks whether they can pass: \"Yes. Say pass, and I will come back to you after a couple of people go.\"",
+        "deeper": "Treat this as the first pass-and-return demonstration. The table learns that passing is allowed and not a failure.",
+        "ruleIds": [
+          "table-spotlight"
+        ]
+      }
+    }
+  },
+  {
+    "id": "SZ-01",
+    "title": "Concept, Aim, Tone, Subject Matter",
+    "player_title": "What kind of game is this?",
+    "player_body": "We are playing a fantasy delivery job in the Goldspire Territories: dangerous roads, strange magic, communities under pressure, and corporations trying to turn everything into paperwork.",
+    "player_bullets": [
+      "Concept: a corporate-fantasy delivery job that becomes morally complicated.",
+      "Aim: learn Daggerheart, build the party, protect a community, and discover what the sealed delivery means.",
+      "Tone: mostly sincere fantasy adventure, with corporate satire and dark whimsy around the edges.",
+      "Subject matter: fantasy danger, animal peril, ambush, death, corporate exploitation, undead, and memory or fear magic.",
+      "We can pause, soften, veil, or redirect content."
+    ],
+    "player_table": [],
     "concept": "Corporate-fantasy delivery incident in the Goldspire Territories.",
     "aim": "Learn Daggerheart, protect a community, and discover what the sealed delivery means.",
     "tone": "70% sincere fantasy, 20% corporate satire, 10% dark whimsy.",
@@ -37,40 +519,509 @@
       "undead",
       "memory/fear magic"
     ],
-    "complete_flag": "cats_complete"
+    "purpose": "Clarify Concept, Aim, Tone, and Subject Matter before play begins.",
+    "mode": [
+      "quick_pregen",
+      "guided_pregen",
+      "full_custom"
+    ],
+    "display_mode": "image-title-caption",
+    "gm_script": "Name the Concept, Aim, Tone, and Subject Matter without using the acronym as shorthand. Ask whether anything in the subject matter list needs a line, veil, or softer framing.",
+    "gm_checklist": [
+      "Concept explained",
+      "Aim explained",
+      "Tone explained",
+      "Subject matter checked"
+    ],
+    "gm_notes": [
+      "CATS means Concept, Aim, Tone, Subject Matter. Expand it on first use.",
+      "Do not turn this into a lecture; this is a table calibration beat."
+    ],
+    "gm_private": [],
+    "source_files": [
+      "data/session_zero_scenes.json",
+      "docs/SAFETY_TOOLKIT_INTEGRATION.md",
+      "docs/TTRPG Safety Toolkit/Tools and Resources/CATS - Concept Aim Tone Subjectmatter (3x5).pdf"
+    ],
+    "art": {
+      "src": "assets/maps/MAP-LOC-the-goldspire-relay-player.webp",
+      "alt": "A player-safe map of the Goldspire Relay route area.",
+      "mode": "supporting"
+    },
+    "complete_flag": "cats_complete",
+    "gm_read_aloud": "Here is the frame for tonight. The concept is a corporate-fantasy delivery job that becomes morally complicated. The aim is to learn Daggerheart, build a party that can work together, protect a community, and discover what this sealed delivery really means. The tone is mostly sincere fantasy adventure with corporate satire and a little dark whimsy around the edges. The subject matter can include fantasy danger, ambush, death, corporate exploitation, undead, memory or fear magic, and optional animal peril. If anything in that list needs to be offscreen, softened, or redirected, tell me now or at any point during play.",
+    "rule_ids": [
+      "cats",
+      "safety-tools"
+    ],
+    "allow_image_beats": false,
+    "takeaway_help": {
+      "player": {
+        "title": "Players understand the game frame",
+        "statement": "Players understand concept, aim, tone, and subject matter in plain language.",
+        "body": "The frame is CATS without the acronym: what we are playing, what we want, how it should feel, and what content might appear.",
+        "say": "\"This is a corporate-fantasy delivery job: sincere adventure, strange forest, dangerous choices, and a little satire around the paperwork.\"",
+        "ask": "If a player asks what their character should care about: \"Care about the job, the people beside you, and what feels wrong once the route starts talking back.\"",
+        "deeper": "The frame is CATS without the acronym: what we are playing, what we want, how it should feel, and what content might appear.",
+        "ruleIds": [
+          "cats",
+          "safety-tools"
+        ]
+      },
+      "story": {
+        "title": "Goldspire is paperwork plus magic",
+        "statement": "The job crosses a fantasy region where paperwork and magic collide.",
+        "body": "Use plain terms before proper nouns. The players need the feel of the place before names like Sablewood or Emeris matter.",
+        "say": "\"The world has old magic, living forests, and companies trying to turn all of that into routes, contracts, and profit.\"",
+        "ask": "If players ask what Goldspire is: \"Think fantasy logistics territory: roads, signs, permits, villages, old places, and companies pretending they own more than they understand.\"",
+        "deeper": "Use plain terms before proper nouns. The players need the feel of the place before names like Sablewood or Emeris matter.",
+        "ruleIds": [
+          "cats",
+          "safety-tools"
+        ]
+      },
+      "mechanic": {
+        "title": "CATS is table calibration",
+        "statement": "The mechanic is calibration: the group agrees what kind of play is welcome tonight.",
+        "body": "This is not a lecture. It gives players an immediate way to shape tone and subject matter without derailing the game.",
+        "say": "\"If something I name sounds like too much, tell me now or later. We can soften, skip, or move it offscreen.\"",
+        "ask": "If someone asks whether they have to disclose personal limits: \"No details required. You can just say soften that, skip that, or not for me.\"",
+        "deeper": "This is not a lecture. It gives players an immediate way to shape tone and subject matter without derailing the game.",
+        "ruleIds": [
+          "cats",
+          "safety-tools"
+        ]
+      }
+    }
+  },
+  {
+    "id": "SZ-01B",
+    "title": "Rating / Content Notes",
+    "player_title": "Content rating",
+    "player_body": "Think adult PG-13-ish fantasy adventure. There will be combat and danger, but violence descriptions stay light unless the table chooses to make a moment more intense.",
+    "player_bullets": [
+      "This is an adult game, but not a grimdark or graphic game.",
+      "Likely content: combat, peril, ambushes, monsters, undead, corporate exploitation, fear or memory magic, and morally complicated choices.",
+      "Animal peril may appear. Violence against animals is optional and can be softened, avoided, or redirected.",
+      "If anything I describe or any action at the table makes you uncomfortable, say pause, slow down, rewind, or break.",
+      "The goal is to explore fantasy danger together while keeping the real table safe and communicative."
+    ],
+    "player_table": [
+      {
+        "content": "Combat",
+        "default": "Present, described lightly."
+      },
+      {
+        "content": "Animal peril",
+        "default": "Optional; can be softened or avoided."
+      },
+      {
+        "content": "Horror/undead",
+        "default": "Atmospheric, not graphic."
+      }
+    ],
+    "purpose": "Set a clear rating and content frame before safety tools.",
+    "mode": [
+      "quick_pregen",
+      "guided_pregen",
+      "full_custom"
+    ],
+    "display_mode": "text-first",
+    "gm_script": "Frame the one-shot as adult PG-13-ish. Say that combat exists, descriptions of violence will be light, animal peril can be avoided or softened, and any player can pause or redirect if something crosses a line.",
+    "gm_checklist": [
+      "Adult PG-13-ish rating explained",
+      "Combat and light violence expectations explained",
+      "Optional animal peril explained",
+      "Pause/redirect permission reinforced"
+    ],
+    "gm_notes": [
+      "Do not over-explain the content warning. Make it clear, quick, and normal.",
+      "Use the safety page for extra tools only if the table seems to need them."
+    ],
+    "gm_private": [
+      "Module contains possible animal peril, combat against conscious beings, monsters, undead, exploitation, and fear/memory magic."
+    ],
+    "source_files": [
+      "docs/SAFETY_TOOLKIT_INTEGRATION.md",
+      "story-atlas/src/atlas_content.py",
+      "story-atlas/src/atlas_story_scope.py"
+    ],
+    "art": {
+      "src": "assets/icons/live-objective.png",
+      "alt": "Objective icon for content rating and table frame.",
+      "mode": "supporting"
+    },
+    "complete_flag": "content_rating_explained",
+    "gm_read_aloud": "I would rate tonight around PG-13-ish, with adults at the table. There will be combat and danger, but I will keep violence light unless the table clearly wants more description. Animal peril can be avoided or softened. If something crosses a line, say pause, ask for a rewind, or tell me to soften it. We will adjust without making it a big deal.",
+    "rule_ids": [
+      "safety-tools"
+    ],
+    "allow_image_beats": false,
+    "takeaway_help": {
+      "player": {
+        "title": "Players know the content rating",
+        "statement": "Players know the PG-13-ish adult frame and how to redirect intensity.",
+        "body": "Specific content warning: fantasy combat, monsters, ambush, exploitation, fear magic, undead elements, and optional animal peril.",
+        "say": "\"Tonight is PG-13-ish with adults at the table: danger and combat are in play, but violence stays light unless the table clearly wants more description.\"",
+        "ask": "If someone asks about animal peril: \"It can appear as a possibility, but we can soften it, avoid it, or keep it offscreen.\"",
+        "deeper": "Specific content warning: fantasy combat, monsters, ambush, exploitation, fear magic, undead elements, and optional animal peril.",
+        "ruleIds": [
+          "safety-tools"
+        ]
+      },
+      "story": {
+        "title": "Danger is present but not graphic",
+        "statement": "Combat and peril can appear without gore or cruelty becoming the point.",
+        "body": "This keeps the adventure adult without making edge the table's default mode.",
+        "say": "\"The story can get tense, but I am not here to make anyone sit through graphic detail. The table sets the descriptive ceiling.\"",
+        "ask": "If someone asks how dark it gets: \"Serious choices, danger, and consequences; not torture, cruelty showcase, or graphic violence.\"",
+        "deeper": "This keeps the adventure adult without making edge the table's default mode.",
+        "ruleIds": [
+          "safety-tools"
+        ]
+      },
+      "mechanic": {
+        "title": "Pause, rewind, and soften are live controls",
+        "statement": "The mechanic is safety adjustment during play.",
+        "body": "These are table controls, not a formal card system: pause stops, rewind backs up, soften lowers intensity, break steps away.",
+        "say": "\"If something feels off, say pause, rewind, or soften. I will adjust and we keep going.\"",
+        "ask": "If someone asks whether they need to explain why: \"No. You can just name the adjustment. I do not need the backstory.\"",
+        "deeper": "These are table controls, not a formal card system: pause stops, rewind backs up, soften lowers intensity, break steps away.",
+        "ruleIds": [
+          "safety-tools"
+        ]
+      }
+    }
+  },
+  {
+    "id": "SZ-01C",
+    "title": "Tonight's Shape / Pacing",
+    "player_title": "Tonight's shape",
+    "player_body": "We will start with Session Zero, move into the delivery job, follow the route through escalating complications, and take breaks so the table can breathe.",
+    "player_bullets": [
+      "Session Zero: safety, rules, characters, and connections.",
+      "Opening contract: the sealed delivery and why you took the job.",
+      "Road trouble: the route proves less safe than advertised.",
+      "Hush and investigation: meet people, ask questions, and decide who to trust.",
+      "Final pressure: the delivery becomes a choice, not just a job.",
+      "Breaks: short five-minute pauses as needed, plus a longer midpoint break if the table wants it."
+    ],
+    "player_table": [
+      {
+        "time": "Early",
+        "beat": "Session Zero + Prologue"
+      },
+      {
+        "time": "Midpoint",
+        "beat": "Longer optional break"
+      },
+      {
+        "time": "Late",
+        "beat": "Final pressure + closeout"
+      }
+    ],
+    "purpose": "Orient players to the act structure, pacing, and break policy.",
+    "mode": [
+      "quick_pregen",
+      "guided_pregen",
+      "full_custom"
+    ],
+    "display_mode": "image-title-caption",
+    "gm_script": "Give players the shape of the night without spoiling the story. Explain that the Run Clock will remind you to check in for five-minute breaks and a possible longer midpoint break.",
+    "gm_checklist": [
+      "Act shape explained",
+      "Break policy explained",
+      "Run Clock break reminders enabled"
+    ],
+    "gm_notes": [
+      "Keep the pacing overview high-level. Do not spoil act twists.",
+      "Use the Run Clock break prompts as a reminder to ask the table, not as a mandatory interruption."
+    ],
+    "gm_private": [],
+    "source_files": [
+      "story-atlas/src/atlas_story_scope.py",
+      "docs/SESSION_ZERO_RUNBOOK.md"
+    ],
+    "art": {
+      "src": "assets/maps/MAP-LOC-sablewoodtm-logistics-preserve-player.webp",
+      "alt": "A player-safe Sablewood route map used as pacing orientation.",
+      "mode": "supporting"
+    },
+    "complete_flag": "break_policy_explained",
+    "gm_read_aloud": "The rough shape is: first we do safety, expectations, rules, characters, and connections. Then we start the contract, hit the road, find the first problem, reach a village, learn what the package really means, and end with a final pressure scene. I will watch the Run Clock and offer short five-minute breaks, plus a longer midpoint break if the group wants it.",
+    "rule_ids": [
+      "countdown",
+      "safety-tools"
+    ],
+    "allow_image_beats": false,
+    "takeaway_help": {
+      "player": {
+        "title": "Players know tonight's route",
+        "statement": "Players know the session shape and when breaks may happen.",
+        "body": "The point is pacing trust. Players can relax because there is a visible shape and permission to pause.",
+        "say": "\"The night moves in beats: onboarding, contract, road trouble, village pressure, reveal, final choice, and a short closeout if time allows.\"",
+        "ask": "If someone asks when breaks happen: \"I will offer short breaks as the clock hits natural transitions, and a longer midpoint break if the group wants it.\"",
+        "deeper": "The point is pacing trust. Players can relax because there is a visible shape and permission to pause.",
+        "ruleIds": [
+          "countdown",
+          "safety-tools"
+        ]
+      },
+      "story": {
+        "title": "The one-shot has acts",
+        "statement": "The story moves from Session Zero to contract, road, village, reveal, and final pressure.",
+        "body": "This gives a spoiler-light roadmap without naming late-stage truths or hidden causes.",
+        "say": "\"You will start with a sealed delivery, hit trouble on the road, reach the village, learn why the package matters, and face the pressure around what to do with it.\"",
+        "ask": "If someone asks whether they should investigate everything: \"Follow what catches your attention. I will keep us moving toward the full arc.\"",
+        "deeper": "This gives a spoiler-light roadmap without naming late-stage truths or hidden causes.",
+        "ruleIds": [
+          "countdown",
+          "safety-tools"
+        ]
+      },
+      "mechanic": {
+        "title": "Run Clock is pacing support",
+        "statement": "The mechanic is pacing: the GM uses clock prompts to protect breaks and ending.",
+        "body": "Break policy: short five-minute breaks at natural transitions; longer midpoint break if the group wants it.",
+        "say": "\"I will watch the clock so you do not have to. If I call a break or move us forward, it is to protect the ending.\"",
+        "ask": "If someone asks whether they can request a break sooner: \"Yes. Ask for a break anytime; we do not need to wait for the clock.\"",
+        "deeper": "Break policy: short five-minute breaks at natural transitions; longer midpoint break if the group wants it.",
+        "ruleIds": [
+          "countdown",
+          "safety-tools"
+        ]
+      }
+    }
   },
   {
     "id": "SZ-02",
     "title": "Safety Tools / Table Agreement",
-    "act": "Session Zero",
+    "player_title": "Safety tools",
+    "player_body": "You do not need to justify a boundary. If something is not fun, too intense, or not for tonight, we can pause, redirect, fade to black, or move on.",
+    "player_bullets": [
+      "Open Door: you can step away at any point and return when ready.",
+      "Simple table signal: say pause, slow down, can we rewind, or break.",
+      "If you missed something, ask me to repeat it.",
+      "If I am moving too fast, ask me to slow down.",
+      "If you are confused, ask any question at any time. There are no dumb questions here.",
+      "If a topic is okay in the story but not for your character, say not for me.",
+      "Discord or text can help between scenes, but I may not see it immediately while running the table."
+    ],
+    "player_table": [
+      {
+        "signal": "Pause",
+        "meaning": "Stop for a quick check-in or redirect."
+      },
+      {
+        "signal": "Slow down",
+        "meaning": "Repeat, clarify, or make more room."
+      },
+      {
+        "signal": "Break",
+        "meaning": "Take five minutes away from the table."
+      }
+    ],
+    "tools": [
+      "Open Door",
+      "Pause / slow down / rewind / break",
+      "Lines and Veils if needed",
+      "Not For Me, Thanks if needed",
+      "Stars and Wishes at the end if time allows"
+    ],
     "purpose": "Establish safety tools and participation norms.",
     "mode": [
       "quick_pregen",
       "guided_pregen",
       "full_custom"
     ],
-    "tools": [
-      "Lines and Veils",
-      "X/N/O or equivalent",
-      "Open Door",
-      "Not For Me, Thanks",
-      "Buddy System",
-      "Digital safety intake",
-      "Stars and Wishes"
+    "display_mode": "text-first",
+    "gm_script": "Before we play, I want to keep safety and communication simple. You can step away at any point, ask for a break, ask me to slow down or repeat something, or say pause if something is uncomfortable or confusing. I may talk too fast or interrupt sometimes; you are welcome to interrupt me, ask any question, or tell me to rewind. The story is for everyone at the table.",
+    "gm_checklist": [
+      "Lines and veils explained",
+      "Simple pause/slow down/break signal explained",
+      "Open Door explained",
+      "Break policy explained",
+      "Shared table responsibility explained",
+      "Safety intake reviewed if used"
     ],
-    "player_facing": "You can pause, pass, redirect, fade to black, or step away without explaining why.",
-    "complete_flag": "safety_tools_acknowledged"
+    "gm_notes": [
+      "Keep private lines/veils and intake responses hidden from player display.",
+      "Default to lightweight in-person tools for a four-to-five-player one-shot.",
+      "Optional deeper tools live on the safety page for GM use only if needed.",
+      "If no Google Form URL is configured, show a missing-link note in GM view rather than inventing one."
+    ],
+    "gm_private": [
+      "Private lines and veils text area",
+      "Safety intake responses",
+      "Only sanitized summary may be exported"
+    ],
+    "source_files": [
+      "docs/SAFETY_TOOLKIT_INTEGRATION.md",
+      "handouts/Safety_Tools_Quick_Card.md",
+      "docs/TTRPG Safety Toolkit/"
+    ],
+    "art": {
+      "src": "assets/icons/action-session-zero.png",
+      "alt": "Session Zero safety and table agreement icon.",
+      "mode": "supporting"
+    },
+    "complete_flag": "safety_tools_acknowledged",
+    "gm_read_aloud": "Before we play, I want safety and communication to stay simple. You can step away at any point. You can ask for a break, ask me to slow down, ask me to repeat something, or say pause if something is uncomfortable or confusing. I sometimes talk fast or interrupt; you are welcome to interrupt me. There are no dumb questions tonight. If you are lost, uncomfortable, or not having fun, tell me so I can help. The story is for everyone at the table.",
+    "rule_ids": [
+      "safety-tools"
+    ],
+    "allow_image_beats": false,
+    "takeaway_help": {
+      "player": {
+        "title": "Players know how to pause or step away",
+        "statement": "Players know how to pause, slow down, rewind, break, or step away.",
+        "body": "This is the in-person safety kit: open door, pause, rewind, soften, break, slow down, repeat, and no dumb questions.",
+        "say": "\"You can say pause, slow down, repeat that, soften that, or I need a break. You can also step away at any point.\"",
+        "ask": "If someone asks how private it can be: \"You can say it out loud, tell me quietly, or step away and check in when you are ready.\"",
+        "deeper": "This is the in-person safety kit: open door, pause, rewind, soften, break, slow down, repeat, and no dumb questions.",
+        "ruleIds": [
+          "safety-tools"
+        ]
+      },
+      "story": {
+        "title": "The real table outranks fictional danger",
+        "statement": "The real table stays safer than any fictional danger.",
+        "body": "Use this line before danger enters so later safety adjustments feel normal instead of exceptional.",
+        "say": "\"The story can put characters in danger. The people at this table are not in danger. If the fiction stops being fun or clear, we adjust.\"",
+        "ask": "If someone asks whether pausing ruins the scene: \"No. Pausing protects the scene because it lets us continue with trust.\"",
+        "deeper": "Use this line before danger enters so later safety adjustments feel normal instead of exceptional.",
+        "ruleIds": [
+          "safety-tools"
+        ]
+      },
+      "mechanic": {
+        "title": "Safety tools are table permissions",
+        "statement": "The mechanic is live table communication.",
+        "body": "These permissions also help accessibility and comprehension, not only discomfort.",
+        "say": "\"If I move too fast, interrupt me. If you are confused, ask. If something feels bad, say pause. Those are all valid moves.\"",
+        "ask": "If someone asks what words to use: \"Pause means stop now; rewind means back up and redo; soften means keep the idea but lower the intensity; break means step away.\"",
+        "deeper": "These permissions also help accessibility and comprehension, not only discomfort.",
+        "ruleIds": [
+          "safety-tools"
+        ]
+      }
+    }
   },
   {
-    "id": "SZ-03",
-    "title": "Daggerheart Rules Snapshot",
-    "act": "Session Zero",
-    "purpose": "Teach the minimum rules needed to begin.",
+    "id": "SZ-02B",
+    "title": "Player Expectations / Shared Table Care",
+    "player_title": "How we make this fun together",
+    "player_body": "This works best when everyone is engaged, respectful, and helping the table have fun. You are responsible for your own fun and for noticing the other people at the table too.",
+    "player_bullets": [
+      "Engage with the story and ask questions.",
+      "Invite other players in: ask them what their character thinks, notices, or does.",
+      "Speak when it is your turn, and be mindful of how much space you are taking.",
+      "Only participate at the level you are comfortable with.",
+      "Tell me if you are confused, uncomfortable, not having fun, or need help.",
+      "I will do my best to engage everyone, but the table works because we all pay attention to each other.",
+      "If there is time at the end, we may do quick Stars and Wishes: one thing you liked, one thing you would want more or different next time."
+    ],
+    "player_table": [
+      {
+        "expectation": "Ask",
+        "meaning": "Questions are welcome at any time."
+      },
+      {
+        "expectation": "Share",
+        "meaning": "Make space for other players."
+      },
+      {
+        "expectation": "Signal",
+        "meaning": "Tell the GM what you need."
+      }
+    ],
+    "purpose": "Set player expectations for participation, shared care, questions, and communication.",
     "mode": [
       "quick_pregen",
       "guided_pregen",
       "full_custom"
     ],
+    "display_mode": "text-first",
+    "gm_script": "Set the social expectation directly: this is not only my responsibility as GM. Everyone helps the story work by engaging, listening, asking questions, and making space. Tell players they can interrupt you to ask for help, a repeat, a slower pace, or a pause.",
+    "gm_checklist": [
+      "Participation expectations explained",
+      "Questions welcome at any time",
+      "Shared responsibility named",
+      "Stars and Wishes previewed briefly"
+    ],
+    "gm_notes": [
+      "Keep this brief. It should feel like permission and care, not a lecture.",
+      "Mention Stars and Wishes only as an end-of-session possibility."
+    ],
+    "gm_private": [],
+    "source_files": [
+      "handouts/Player_Welcome_Table_Expectations.md",
+      "docs/SAFETY_TOOLKIT_INTEGRATION.md"
+    ],
+    "art": {
+      "src": "assets/icons/live-social.png",
+      "alt": "Shared table participation icon.",
+      "mode": "supporting"
+    },
+    "complete_flag": "table_expectations_explained",
+    "gm_read_aloud": "This game works best when everyone treats fun as shared work. I am responsible for running the world, but everyone helps the table by listening, asking questions, making room, and inviting other players in. Speak when it is your moment, be mindful of how much space you are taking, and help each other shine. If you need help, a repeat, a slower pace, or a pause, say so.",
+    "rule_ids": [
+      "table-spotlight",
+      "safety-tools"
+    ],
+    "allow_image_beats": false,
+    "takeaway_help": {
+      "player": {
+        "title": "Players know fun is shared work",
+        "statement": "Players know to ask, listen, invite, make room, and speak up.",
+        "body": "The table expectation is active generosity: not constant talking, not silence, but shared attention.",
+        "say": "\"Everyone is here for everyone. Make room, ask each other questions, listen when someone has spotlight, and speak up when you need help.\"",
+        "ask": "If someone asks what good participation looks like: \"Take your turn, invite someone else in, and stay curious about what the other characters do.\"",
+        "deeper": "The table expectation is active generosity: not constant talking, not silence, but shared attention.",
+        "ruleIds": [
+          "table-spotlight",
+          "safety-tools"
+        ]
+      },
+      "story": {
+        "title": "The party works because players engage",
+        "statement": "The party will work because the players pay attention to each other.",
+        "body": "This protects the one-shot from lone-wolf drift and keeps character conflict collaborative.",
+        "say": "\"The party does not have to agree on everything, but the players are building something together. Let other characters matter to yours.\"",
+        "ask": "If someone asks about intra-party conflict: \"Tension is fine. Undermining another player's fun is not. Check in before pushing hard.\"",
+        "deeper": "This protects the one-shot from lone-wolf drift and keeps character conflict collaborative.",
+        "ruleIds": [
+          "table-spotlight",
+          "safety-tools"
+        ]
+      },
+      "mechanic": {
+        "title": "Spotlight sharing is a table mechanic",
+        "statement": "The mechanic is spotlight: take space, make space, and pass when needed.",
+        "body": "This is also Kyle's self-check: slow down, stop interrupting, and let silence do some work.",
+        "say": "\"If you have had a big moment, look for someone to hand the next moment to. If you have been quiet, I may invite you in.\"",
+        "ask": "If someone asks whether they can pass: \"Yes. You can pass, and I will come back to you. Passing is a pacing tool, not a failure.\"",
+        "deeper": "This is also Kyle's self-check: slow down, stop interrupting, and let silence do some work.",
+        "ruleIds": [
+          "table-spotlight",
+          "safety-tools"
+        ]
+      }
+    }
+  },
+  {
+    "id": "SZ-03",
+    "title": "Daggerheart Rules Snapshot",
+    "player_title": "How Daggerheart works",
+    "player_body": "Daggerheart is narrative fantasy. The GM describes the world, players describe what their characters do, and we roll when the outcome is risky, uncertain, or dramatic.",
+    "player_bullets": [
+      "Describe what your character tries to do.",
+      "If it is risky or uncertain, roll Hope and Fear d12s.",
+      "Add the trait that fits your approach.",
+      "Tell the GM the total and whether Hope or Fear was higher.",
+      "We will learn the rest as it matters."
+    ],
+    "player_table": [],
     "rules": [
       "Duality Dice",
       "Hope",
@@ -78,45 +1029,435 @@
       "Action Rolls",
       "Experiences",
       "Helping",
-      "Attack Rolls",
-      "Damage",
-      "Stress",
-      "Hit Points",
-      "Armor",
-      "Evasion",
-      "Ranges",
-      "GM Moves"
+      "Difficulty Ladder",
+      "Combat Spotlight"
     ],
     "difficulty": {
       "easy": 10,
-      "medium_standard": 15,
+      "standard": 15,
       "hard": 20
     },
-    "complete_flag": "rules_snapshot_complete"
-  },
-  {
-    "id": "SZ-04",
-    "title": "Character Selection / Customization",
-    "act": "Session Zero",
-    "purpose": "Choose pregens, tweak pregens, or plan custom PCs.",
+    "purpose": "Teach the minimum Daggerheart rules needed to begin.",
     "mode": [
       "quick_pregen",
       "guided_pregen",
       "full_custom"
     ],
-    "required_decision": "Marlowe PC / Marlowe NPC / Replacement Keystone Asset Custodian",
-    "complete_flag": "characters_selected"
+    "display_mode": "text-first",
+    "player_beats": [
+      {
+        "id": "SZ-03-overview",
+        "label": "Overview",
+        "title": "Daggerheart in one minute",
+        "body": "Daggerheart is a story-first fantasy game. Describe your action first; the rules help when the moment is risky, uncertain, or dramatic.",
+        "bullets": [
+          "You play one character; the GM plays the world.",
+          "Roll only when the outcome matters.",
+          "Hope and Fear color what happens next.",
+          "Your sheet is a menu, not homework."
+        ],
+        "displayMode": "text-first"
+      },
+      {
+        "id": "SZ-03-ttrpg",
+        "label": "TTRPG basics",
+        "title": "What is a TTRPG?",
+        "body": "You and the GM are telling a story together. You play one character. The GM plays the world. Dice decide risky or uncertain moments, and there is no single win condition.",
+        "bullets": [
+          "Describe what your character tries to do.",
+          "Ask questions when you need context.",
+          "The GM tells you when a rule or roll applies.",
+          "Interesting choices and consequences matter more than perfect rules knowledge."
+        ],
+        "displayMode": "text-first"
+      },
+      {
+        "id": "SZ-03-duality",
+        "label": "Duality Dice",
+        "title": "Hope and Fear",
+        "body": "Most action rolls use two d12s: one Hope die and one Fear die. Add the right trait, compare to the difficulty, and tell the GM whether Hope or Fear was higher.",
+        "bullets": [
+          "Hope spin gives the players momentum or Hope.",
+          "Fear spin gives the GM pressure to spend.",
+          "Matching dice are a Critical Success.",
+          "Fear is not punishment. It is narrative tension."
+        ],
+        "displayMode": "text-first"
+      },
+      {
+        "id": "SZ-03-outcomes",
+        "label": "Outcomes",
+        "title": "How do results feel?",
+        "body": "Success and failure matter, and Hope or Fear tells us the direction of the next beat.",
+        "table": [
+          {
+            "outcome": "Critical success",
+            "meaning": "Success plus an extra benefit."
+          },
+          {
+            "outcome": "Success with Hope",
+            "meaning": "You succeed cleanly and gain Hope."
+          },
+          {
+            "outcome": "Success with Fear",
+            "meaning": "You succeed, and the GM gains Fear or adds pressure."
+          },
+          {
+            "outcome": "Failure with Hope",
+            "meaning": "You miss or partly succeed, but the consequence is softer."
+          },
+          {
+            "outcome": "Failure with Fear",
+            "meaning": "You miss and the scene escalates."
+          }
+        ],
+        "displayMode": "text-first"
+      },
+      {
+        "id": "SZ-03-dnd",
+        "label": "Different from D&D",
+        "title": "How is this different from Dungeons & Dragons?",
+        "body": "Daggerheart still feels like fantasy adventure, but the table listens for story momentum as much as pass/fail math.",
+        "bullets": [
+          "No fixed initiative ladder by default; spotlight moves with the fiction.",
+          "Hope and Fear tell us who has momentum after a roll.",
+          "Experiences reward your character's background when it clearly helps.",
+          "The rules support scenes, choices, and consequences more than tactical homework."
+        ],
+        "displayMode": "text-first"
+      },
+      {
+        "id": "SZ-03-sheet-rules",
+        "label": "Sheet rules",
+        "title": "What on my sheet matters first?",
+        "body": "The sheet is a menu of options, not homework. Use the parts you need when they become relevant.",
+        "bullets": [
+          "Traits: Agility, Strength, Finesse, Instinct, Presence, Knowledge.",
+          "Experiences: spend Hope when your background clearly helps.",
+          "Stress and Hit Points track pressure and harm.",
+          "Armor Slots reduce damage severity when you mark them.",
+          "Domain cards and class abilities give special moves."
+        ],
+        "displayMode": "text-first"
+      },
+      {
+        "id": "SZ-03-turns",
+        "label": "During play",
+        "title": "What do I do on my turn?",
+        "body": "Say what your character wants, tries, asks, notices, or risks. If you freeze, say that, and the table will help you find an option.",
+        "bullets": [
+          "You can ask: what do I see, what feels dangerous, who can I help, or what would my character know?",
+          "You can pass for a moment and come back.",
+          "You do not need to know the correct rule before speaking.",
+          "The fiction comes first, then the dice."
+        ],
+        "displayMode": "text-first"
+      }
+    ],
+    "gm_script": "Teach only the minimum rules, then move on. Open the GM Rules Drawer for deeper questions, but do not dump the full rulebook before play.",
+    "gm_checklist": [
+      "Duality Dice explained",
+      "Hope/Fear explained",
+      "Experiences explained",
+      "Helping explained",
+      "Outcome matrix explained"
+    ],
+    "gm_notes": [
+      "Every rules term should link to the GM Rules Drawer in GM view.",
+      "Do not present non-official or stale mechanics as official Daggerheart rules."
+    ],
+    "gm_private": [],
+    "source_files": [
+      "docs/DAGGERHEART_RULES_ORIENTATION.md",
+      "handouts/Daggerheart_Quick_Rules_Card.md",
+      "docs/SESSION_ZERO_RUNBOOK.md#0:16-0:20-rules-snapshot"
+    ],
+    "art": {
+      "src": "assets/icons/action-rules.png",
+      "alt": "Rules reference icon for Daggerheart basics.",
+      "mode": "supporting"
+    },
+    "complete_flag": "rules_snapshot_complete",
+    "gm_read_aloud": "Here is the minimum Daggerheart loop. Tell me what your character wants to do. If the outcome is risky, uncertain, or dramatic, I will ask for a roll. Most rolls use two d12s: one Hope die and one Fear die. You add the right trait from your sheet and compare the total to a Difficulty. The total tells us whether you succeed. The higher die tells us whether the result comes with Hope or Fear. Doubles are a Critical Success. You do not need to remember all of that right now; I will walk you through it when the first roll happens.",
+    "rule_ids": [
+      "action-roll",
+      "duality-dice",
+      "hope",
+      "fear",
+      "traits",
+      "experiences",
+      "stress",
+      "adversary-spotlight"
+    ],
+    "allow_image_beats": false,
+    "beat_autoplay_default": false,
+    "beat_autoplay_interval_ms": 12000,
+    "takeaway_help": {
+      "player": {
+        "title": "Players know the Daggerheart loop",
+        "statement": "Players know describe action, roll when risky, read Hope or Fear.",
+        "body": "Minimum loop: fiction first, dice second, total for success, higher die for Hope/Fear, doubles for Critical Success.",
+        "say": "\"Tell me what you do. If it is risky or uncertain, roll two d12s, add the right trait, and tell me the total and which die is higher.\"",
+        "ask": "If someone asks what Hope and Fear mean: \"Hope means the result tilts toward you and you may gain Hope. Fear means the result gives me a GM resource or complication.\"",
+        "deeper": "Minimum loop: fiction first, dice second, total for success, higher die for Hope/Fear, doubles for Critical Success.",
+        "ruleIds": [
+          "action-roll",
+          "duality-dice",
+          "hope",
+          "fear",
+          "traits",
+          "experiences",
+          "stress",
+          "adversary-spotlight"
+        ]
+      },
+      "story": {
+        "title": "The system supports cinematic consequences",
+        "statement": "Daggerheart supports choices and consequences rather than tactical homework.",
+        "body": "This lets D&D players map old instincts while learning what is different.",
+        "say": "\"The dice do not replace the story. They tell us what your risky choice costs, reveals, or changes.\"",
+        "ask": "If someone asks if this is like Dungeons & Dragons: \"Close enough to feel familiar, but the Hope/Fear dice make the tone of success or failure matter immediately.\"",
+        "deeper": "This lets D&D players map old instincts while learning what is different.",
+        "ruleIds": [
+          "action-roll",
+          "duality-dice",
+          "hope",
+          "fear",
+          "traits",
+          "experiences",
+          "stress",
+          "adversary-spotlight"
+        ]
+      },
+      "mechanic": {
+        "title": "Duality Dice and sheet basics are enough",
+        "statement": "Players get the minimum rules needed for the first roll.",
+        "body": "Mention sheet sections only as needed: traits modify rolls; Experiences can help when relevant; Stress, HP, and Armor matter once danger starts.",
+        "say": "\"For the first roll, I will name the trait and difficulty. You roll Hope and Fear, add the trait, and we read the result together.\"",
+        "ask": "If someone asks for the difficulty ladder: \"Easy is 10, standard is 15, hard is 20. I will tell you the number when it matters.\"",
+        "deeper": "Mention sheet sections only as needed: traits modify rolls; Experiences can help when relevant; Stress, HP, and Armor matter once danger starts.",
+        "ruleIds": [
+          "action-roll",
+          "duality-dice",
+          "hope",
+          "fear",
+          "traits",
+          "experiences",
+          "stress",
+          "adversary-spotlight"
+        ]
+      }
+    }
+  },
+  {
+    "id": "SZ-04",
+    "title": "Character Selection / Sheet Orientation",
+    "player_title": "Your character sheet",
+    "player_body": "In front of you: a character sheet, quick rules card, connection sheet, and safety card. Your sheet tells you who your character is, what they are good at, what they can do, and how much pressure or harm they can take.",
+    "player_bullets": [
+      "Look for: name and vibe, traits, Experiences, weapons/actions, Hope, Stress, Hit Points, Armor, and class/domain abilities.",
+      "Pick or confirm a character. If you chose ahead of time, make sure the sheet in front of you matches that choice.",
+      "Marlowe Fairwind - playable Loreborne Elf Sorcerer pregen and default package custodian; she receives the job with the crew.",
+      "Barnacle - sneaky rogue with questionable logistics instincts.",
+      "Garrick Reed - kind ex-security warrior.",
+      "Khari Nix - giant guardian loyal to people before contracts.",
+      "Varian Soto - sharp-eyed ranger tracking unlicensed apex fauna."
+    ],
+    "player_table": [
+      {
+        "motive": "Money",
+        "hook": "I need the money."
+      },
+      {
+        "motive": "Debt",
+        "hook": "I owe someone in the crew."
+      },
+      {
+        "motive": "Suspicion",
+        "hook": "I distrust Emeris and want to know what this is."
+      },
+      {
+        "motive": "Community",
+        "hook": "I know Hush, the village, or Old Sable, the forest route."
+      }
+    ],
+    "required_decision": "Marlowe PC / unplayed pregen / reskinned PC; assign the package custodian function if needed",
+    "purpose": "Choose pregens, orient players to character sheets, and preserve Marlowe or a chosen replacement PC as the crew's package custody holder without making any PC the sole job-giver.",
+    "mode": [
+      "quick_pregen",
+      "guided_pregen",
+      "full_custom"
+    ],
+    "display_mode": "image-title-caption",
+    "player_beats": [
+      {
+        "id": "SZ-04-overview",
+        "label": "Sheet overview",
+        "title": "Your character sheet",
+        "body": "Your sheet is the fast map of who you are, what you are good at, and what pressure you can take.",
+        "image": "assets/entities/party-reference.webp",
+        "alt": "The five pregenerated adventurers ready for character selection.",
+        "bullets": [
+          "Identity: name, pronouns, look, class, community, and vibe.",
+          "Traits: the six broad strengths you add to risky rolls.",
+          "Experiences: specific background details that can help when they fit.",
+          "Resources: Hope, Stress, Hit Points, Armor, and marked conditions."
+        ],
+        "displayMode": "image-title-caption"
+      },
+      {
+        "id": "SZ-04-rolls",
+        "label": "Rolls",
+        "title": "When the dice come out",
+        "body": "Describe the action first. If it is risky, uncertain, or dramatic, the GM will ask for a roll.",
+        "bullets": [
+          "Roll Hope and Fear d12s together.",
+          "Add the trait that fits your approach.",
+          "Tell the GM the total and whether Hope or Fear was higher.",
+          "Ask before spending or marking something if you are unsure."
+        ],
+        "displayMode": "text-first"
+      },
+      {
+        "id": "SZ-04-abilities",
+        "label": "Abilities",
+        "title": "Cards, weapons, and abilities",
+        "body": "Your printed sheet and cards tell you what special things your character can do.",
+        "bullets": [
+          "Weapons and actions explain how you act in danger.",
+          "Class and domain abilities give special options.",
+          "If a rule is unclear, ask. We will resolve it together.",
+          "Use the fiction first, then find the rule that fits."
+        ],
+        "displayMode": "text-first"
+      },
+      {
+        "id": "SZ-04-choose",
+        "label": "Choose",
+        "title": "Choose or confirm",
+        "body": "Pick a sheet, confirm it matches your seat or registry choice, and choose a reason this character accepted the job.",
+        "table": [
+          {
+            "motive": "Money",
+            "hook": "I need the money."
+          },
+          {
+            "motive": "Debt",
+            "hook": "I owe someone in the crew."
+          },
+          {
+            "motive": "Suspicion",
+            "hook": "I distrust Emeris and want to know what this is."
+          },
+          {
+            "motive": "Community",
+            "hook": "I know Hush, the village, or Old Sable, the forest route."
+          }
+        ],
+        "displayMode": "text-first"
+      }
+    ],
+    "gm_script": "Tell players what is physically in front of them and point to each major sheet area. Marlowe stays a PC and default package custodian unless replaced; Sabine can be used in the Prologue only as an optional backup NPC job-giver. Either way, everyone receives the job together.",
+    "gm_checklist": [
+      "Characters selected",
+      "Marlowe PC or chosen package custodian status assigned",
+      "Handouts confirmed"
+    ],
+    "gm_notes": [
+      "Quick mode: use pregens as written.",
+      "Guided mode: rename, pronouns, look, motive, and equivalent Experience label only.",
+      "Do not change stats, damage, cards, class features, or balance during a short public slot."
+    ],
+    "gm_private": [
+      "What PCs do not know: ward function, soul-economy implications, Bramble Union motives, final ritual threat, Relay Spire hook."
+    ],
+    "source_files": [
+      "docs/SESSION_ZERO_RUNBOOK.md#0:05-0:10-choose-pregens",
+      "docs/CHARACTER_OPTIONS_AND_CUSTOMIZATION.md",
+      "handouts/Player_Welcome_Table_Expectations.md"
+    ],
+    "art": {
+      "src": "assets/entities/party-reference.webp",
+      "alt": "The five pregenerated adventurers ready for character selection.",
+      "mode": "supporting"
+    },
+    "complete_flag": "characters_selected",
+    "gm_read_aloud": "In front of you is your character sheet. It tells us who your character is, what they are good at, what resources they have, and what special options they can use. The most important parts for the first scene are your name, pronouns, ancestry/community/class, traits, Experiences, Hope, Stress, HP, Armor, and your key abilities. If any sheet label is confusing, ask me. We will learn the sheet by using it.",
+    "rule_ids": [
+      "traits",
+      "experiences",
+      "hope",
+      "stress",
+      "hp",
+      "armor-slots"
+    ],
+    "allow_image_beats": true,
+    "beat_autoplay_default": false,
+    "beat_autoplay_interval_ms": 12000,
+    "takeaway_help": {
+      "player": {
+        "title": "Players can read their sheet enough to start",
+        "statement": "Players can identify major sheet areas and confirm a pregen.",
+        "body": "Use the per-character layer here for selection help: Garrick and Khari are most beginner-friendly; Varian is also beginner-friendly for scout play; Marlowe and Barnacle are medium complexity.",
+        "say": "\"Find your character name, pronouns, ancestry, community, class, traits, Experiences, Hope, Stress, HP, Armor, and your key abilities. That is enough to begin.\"",
+        "ask": "If someone asks what matters most right now: \"Name, vibe, traits, Experiences, and one ability that looks fun. The rest can wait until it comes up.\"",
+        "deeper": "Use the per-character layer here for selection help: Garrick and Khari are most beginner-friendly; Varian is also beginner-friendly for scout play; Marlowe and Barnacle are medium complexity.",
+        "ruleIds": [
+          "traits",
+          "experiences",
+          "hope",
+          "stress",
+          "hp",
+          "armor-slots"
+        ]
+      },
+      "story": {
+        "title": "Each PC needs a reason to take the job",
+        "statement": "Each PC needs a reason to be attached to the sealed delivery.",
+        "body": "The reason can be light. It only needs to survive the opening contract and give Kyle a way to invite the PC into the first scene.",
+        "say": "\"Before we start, know why your character is on this job: money, duty, curiosity, loyalty, reputation, or someone asked you personally.\"",
+        "ask": "If a player asks for an easy reason: \"You need the pay, you trust someone on the crew, or you were asked because your skills fit the route.\"",
+        "deeper": "The reason can be light. It only needs to survive the opening contract and give Kyle a way to invite the PC into the first scene.",
+        "ruleIds": [
+          "traits",
+          "experiences",
+          "hope",
+          "stress",
+          "hp",
+          "armor-slots"
+        ]
+      },
+      "mechanic": {
+        "title": "The character sheet is a play menu",
+        "statement": "Traits, Experiences, resources, and abilities become options during play.",
+        "body": "This is sheet orientation as agency: players learn what they can reach for, not every rule at once.",
+        "say": "\"Your sheet is not homework. It is a menu. When you try something, we look for the trait, Experience, or ability that helps.\"",
+        "ask": "If someone asks when to use an Experience: \"When the phrase sounds relevant to what you are doing, ask me. If it fits, it can add to the roll.\"",
+        "deeper": "This is sheet orientation as agency: players learn what they can reach for, not every rule at once.",
+        "ruleIds": [
+          "traits",
+          "experiences",
+          "hope",
+          "stress",
+          "hp",
+          "armor-slots"
+        ]
+      }
+    }
   },
   {
     "id": "SZ-05",
     "title": "Character Introductions",
-    "act": "Session Zero",
-    "purpose": "Let each player introduce who they are playing.",
-    "mode": [
-      "quick_pregen",
-      "guided_pregen",
-      "full_custom"
+    "player_title": "Introduce your character",
+    "player_body": "Short is good. You can pass and come back.",
+    "player_bullets": [
+      "Name / pronouns",
+      "Ancestry, community, class, or vibe",
+      "What do we notice first?",
+      "Why did you take this job?",
+      "What is one thing you do when nervous?"
     ],
+    "player_table": [],
     "prompts": [
       "Name/pronouns",
       "What do we notice first?",
@@ -124,43 +1465,474 @@
       "What do you think of corporate authority?",
       "What do you do when nervous?"
     ],
-    "complete_flag": "character_introductions_complete"
+    "purpose": "Let each player introduce who they are playing.",
+    "mode": [
+      "quick_pregen",
+      "guided_pregen",
+      "full_custom"
+    ],
+    "display_mode": "text-first",
+    "player_beats": [
+      {
+        "id": "SZ-05-prompt",
+        "label": "Intro prompt",
+        "title": "Introduce your character",
+        "body": "Short is good. You can pass and come back.",
+        "bullets": [
+          "Name and pronouns.",
+          "Ancestry, community, class, or vibe.",
+          "What do we notice first?",
+          "Why did you take this job?"
+        ],
+        "displayMode": "text-first"
+      },
+      {
+        "id": "SZ-05-example",
+        "label": "Example",
+        "title": "Example character intro",
+        "body": "I'm Barnacle. You notice a very small rogue with very confident pockets. I took this job because nobody audits a delivery cart carefully enough.",
+        "bullets": [
+          "One sentence of identity.",
+          "One visible detail.",
+          "One job motive."
+        ],
+        "displayMode": "text-first"
+      },
+      {
+        "id": "SZ-05-help",
+        "label": "If stuck",
+        "title": "If you are stuck",
+        "body": "Answer only the easy parts: name, what we notice first, and why you accepted the job. The rest can emerge in play.",
+        "bullets": [
+          "You do not need a voice.",
+          "You do not need a full backstory.",
+          "You can discover your character by playing."
+        ],
+        "displayMode": "text-first"
+      }
+    ],
+    "gm_script": "Run one player at a time. Keep each intro around 30 seconds unless the table is intentionally using guided mode. Capture useful intro notes.",
+    "gm_checklist": [
+      "Every player had a chance to introduce or pass",
+      "Character intro notes captured if useful"
+    ],
+    "gm_notes": [
+      "If a player freezes, ask only name, vibe, and why they took the job.",
+      "Do not pressure character performance before play has warmed up."
+    ],
+    "gm_private": [],
+    "source_files": [
+      "docs/CONNECTIONS_WORKSHOP.md#step-1-character-postcards",
+      "data/session_zero_state_schema.json"
+    ],
+    "art": {
+      "src": "assets/icons/type-pc.png",
+      "alt": "Player character icon for introductions.",
+      "mode": "supporting"
+    },
+    "complete_flag": "character_introductions_complete",
+    "gm_read_aloud": "Now let's introduce characters. Keep this short: your character name, what we notice first, and why they are on this delivery job. You can speak in first person, third person, or just summarize. If you freeze, answer only one question: what do we notice first?",
+    "rule_ids": [
+      "roleplay",
+      "table-spotlight"
+    ],
+    "allow_image_beats": false,
+    "beat_autoplay_default": false,
+    "beat_autoplay_interval_ms": 12000,
+    "takeaway_help": {
+      "player": {
+        "title": "Players can introduce without performing perfectly",
+        "statement": "Players can introduce their characters briefly and safely.",
+        "body": "Use per-character helpers: Marlowe responsibility, Barnacle rumor, Garrick ex-security kindness, Khari protective presence, Varian senses and forest memory.",
+        "say": "\"Give us your character name, what we notice first, and why you are on the delivery job. First person, third person, or summary all work.\"",
+        "ask": "If someone freezes: \"Answer only this: what do we notice first when your character walks in?\"",
+        "deeper": "Use per-character helpers: Marlowe responsibility, Barnacle rumor, Garrick ex-security kindness, Khari protective presence, Varian senses and forest memory.",
+        "ruleIds": [
+          "roleplay",
+          "table-spotlight"
+        ]
+      },
+      "story": {
+        "title": "The party becomes visible",
+        "statement": "The party gains names, vibes, motives, and nerves.",
+        "body": "This keeps introductions playable. The goal is handles for later roleplay, not complete biographies.",
+        "say": "\"By the end of intros, we should be able to picture who is in the carriage and why this job has them together.\"",
+        "ask": "If someone asks how much backstory to give: \"One sentence is enough. Save the rest for when another character asks.\"",
+        "deeper": "This keeps introductions playable. The goal is handles for later roleplay, not complete biographies.",
+        "ruleIds": [
+          "roleplay",
+          "table-spotlight"
+        ]
+      },
+      "mechanic": {
+        "title": "Pass-and-return and concise spotlight turns",
+        "statement": "The mechanic is spotlight pacing during introductions.",
+        "body": "This models table-safe improv: short answer, concrete image, clear job hook.",
+        "say": "\"Keep it short so everyone gets in. You can pass, and I will come back after you hear a couple examples.\"",
+        "ask": "If someone asks for an example: \"I am Garrick Reed, ex-security. I look tired but kind, and I took this job because Marlowe asked me to watch the crew.\"",
+        "deeper": "This models table-safe improv: short answer, concrete image, clear job hook.",
+        "ruleIds": [
+          "roleplay",
+          "table-spotlight"
+        ]
+      }
+    }
   },
   {
     "id": "SZ-06",
     "title": "Connections Workshop",
-    "act": "Session Zero",
+    "player_title": "Build connections",
+    "player_body": "Offer, don't overwrite. A connection prompt is your character's perspective: what they remember, saw, believed, misunderstood, felt, or interpreted.",
+    "player_bullets": [
+      "The other player can accept it, clarify it, complicate it, soften it, or pass.",
+      "Yes, and...",
+      "Yes, but...",
+      "Can we soften that?",
+      "I like the emotional idea, but not that detail.",
+      "Pass; give me another prompt.",
+      "Active prompt: Which PC knows why you really accepted this contract?"
+    ],
+    "player_table": [],
+    "principle": "Offer, don't overwrite.",
     "purpose": "Build relationships between PCs.",
     "mode": [
       "quick_pregen",
       "guided_pregen",
       "full_custom"
     ],
-    "principle": "Offer, don't overwrite.",
-    "complete_flag": "connections_complete"
+    "display_mode": "text-first",
+    "player_beats": [
+      {
+        "id": "SZ-06-how",
+        "label": "How it works",
+        "title": "Build connections",
+        "body": "A connection prompt is a memory one character offers to another player. The other player answers from their character's point of view.",
+        "bullets": [
+          "Offer, don't overwrite.",
+          "The other player can accept, clarify, complicate, soften, or pass.",
+          "Keep it short enough to use tonight.",
+          "We only need a starting relationship, not a full backstory."
+        ],
+        "displayMode": "text-first"
+      },
+      {
+        "id": "SZ-06-permission",
+        "label": "Permission",
+        "title": "Good answers",
+        "body": "Use plain table language if a prompt needs adjustment.",
+        "bullets": [
+          "Yes, and...",
+          "Yes, but...",
+          "Can we soften that?",
+          "I like the emotional idea, but not that detail.",
+          "Pass; give me another prompt."
+        ],
+        "displayMode": "text-first"
+      },
+      {
+        "id": "SZ-06-example",
+        "label": "Example",
+        "title": "Example connection",
+        "body": "Marlowe asks another PC: I owe you a favor. What happened, and why has Marlowe not paid it back yet?",
+        "bullets": [
+          "The other player answers from memory.",
+          "They can accept, clarify, complicate, soften, or pass.",
+          "Write down the useful relationship, not every detail."
+        ],
+        "displayMode": "text-first"
+      },
+      {
+        "id": "SZ-06-active",
+        "label": "Active prompt",
+        "title": "Active prompt",
+        "body": "Which PC knows why you really accepted this contract?",
+        "bullets": [
+          "Ask one other player.",
+          "Let them answer what they know or think they know.",
+          "Keep it playable."
+        ],
+        "displayMode": "text-first"
+      }
+    ],
+    "gm_script": "Use the prompt bank and Connection Builder. Ask each player for at least one connection in quick mode. Save accepted, clarified, complicated, or passed results.",
+    "gm_checklist": [
+      "At least one connection target per player",
+      "Connection Builder entries saved",
+      "Group memory asked if time allows",
+      "Ask one optional world-connection question per player if the table has energy.",
+      "Log answers as table-contributed canon when they point at a faction, NPC, or location."
+    ],
+    "gm_notes": [
+      "Process: character postcards, one anchor connection, one tension/trust connection, then one group memory.",
+      "Show players only the active prompt and permission language, not the whole GM prompt bank."
+    ],
+    "gm_private": [],
+    "source_files": [
+      "Rules/Session Zero & Connection Questions.md",
+      "Rules/full-daggerheart-rules.txt#Step 9 Create Your Connections",
+      "docs/CONNECTIONS_WORKSHOP.md",
+      "data/connection_question_bank.json",
+      "docs/HTML_IMPLEMENTATION_SPEC.md"
+    ],
+    "art": {
+      "src": "assets/icons/live-social.png",
+      "alt": "Social connection icon.",
+      "mode": "supporting"
+    },
+    "complete_flag": "connections_complete",
+    "gm_read_aloud": "Connections are quick relationship prompts. One player offers a memory or relationship question, and another player answers from their character's point of view. You are not writing someone else's character. You are offering a hook. The other player can accept it, clarify it, complicate it, soften it, or pass. We only need enough connection to make the party feel like people who can start the job together.",
+    "rule_ids": [
+      "connection-prompts",
+      "roleplay",
+      "table-spotlight"
+    ],
+    "allow_image_beats": false,
+    "beat_autoplay_default": false,
+    "beat_autoplay_interval_ms": 12000,
+    "takeaway_help": {
+      "player": {
+        "title": "Players can build connections",
+        "statement": "Players can offer, accept, clarify, complicate, soften, or pass.",
+        "body": "Per-character prompt banks are available in the per-character layer. Use one prompt per player if time is tight.",
+        "say": "\"A connection is an offer, not a command. Ask another player a relationship question; they can accept it, adjust it, complicate it, soften it, or pass.\"",
+        "ask": "If someone asks what to say: \"Try: which PC saw you choose a person over a policy, or which PC knows why you really accepted this contract?\"",
+        "deeper": "Per-character prompt banks are available in the per-character layer. Use one prompt per player if time is tight.",
+        "ruleIds": [
+          "connection-prompts",
+          "roleplay",
+          "table-spotlight"
+        ]
+      },
+      "story": {
+        "title": "The party starts with one live relationship",
+        "statement": "The PCs enter the job with at least one relationship already alive.",
+        "body": "Connection output should be playable tonight: a favor, suspicion, rescue, shared job, protected secret, or misjudgment.",
+        "say": "\"You do not have to be best friends. We just need one thread that makes the crew feel like people with history before the job starts.\"",
+        "ask": "If players worry about overwriting each other: \"Make it a memory from your character's point of view. The other player decides what is true for their character.\"",
+        "deeper": "Connection output should be playable tonight: a favor, suspicion, rescue, shared job, protected secret, or misjudgment.",
+        "ruleIds": [
+          "connection-prompts",
+          "roleplay",
+          "table-spotlight"
+        ]
+      },
+      "mechanic": {
+        "title": "Connection prompts are relationship mechanics",
+        "statement": "Connection prompts build party relationships before play begins.",
+        "body": "The mechanic is consent-based relationship creation: offer, answer, adjust, record, play.",
+        "say": "\"Ask the prompt, let the other player answer, then write down the useful part in one sentence.\"",
+        "ask": "If someone asks if the answer gives a bonus: \"Tonight it mainly gives us story leverage and spotlight. If a sheet feature calls for a connection later, we will use it then.\"",
+        "deeper": "The mechanic is consent-based relationship creation: offer, answer, adjust, record, play.",
+        "ruleIds": [
+          "connection-prompts",
+          "roleplay",
+          "table-spotlight"
+        ]
+      }
+    },
+    "questions": [
+      "There is a company everyone in the territories deals with that you personally do not trust. What is it to you, and what did it cost you?",
+      "You have carried freight before. Tell me about the one parcel you wish you had never agreed to move.",
+      "Somebody you knew got buried in debt they could not climb out of. Who were they to you, and who held the note?",
+      "What slogan have you heard so many times you can recite it in your sleep, and how do you feel when you hear it now?",
+      "You have met one of the undead laborers up close. What did that encounter leave you believing?",
+      "Name a place out here that felt wrong the moment you stepped into it. What was off?",
+      "Who taught you not to trust the people in nice livery? What happened to them?",
+      "What small kindness did a stranger do for you on the road that you have never forgotten?"
+    ],
+    "world_connection_questions": [
+      "There is a company everyone in the territories deals with that you personally do not trust. What is it to you, and what did it cost you?",
+      "You have carried freight before. Tell me about the one parcel you wish you had never agreed to move.",
+      "Somebody you knew got buried in debt they could not climb out of. Who were they to you, and who held the note?",
+      "What slogan have you heard so many times you can recite it in your sleep, and how do you feel when you hear it now?",
+      "You have met one of the undead laborers up close. What did that encounter leave you believing?",
+      "Name a place out here that felt wrong the moment you stepped into it. What was off?",
+      "Who taught you not to trust the people in nice livery? What happened to them?",
+      "What small kindness did a stranger do for you on the road that you have never forgotten?"
+    ],
+    "gm_examples": [
+      "World connection example: \"Somebody you knew got buried in debt. Who were they, and who held the note?\" The answer becomes table canon and can attach to Goldwater, Soulspire, or another fitting faction.",
+      "World connection example: \"What slogan have you heard too many times?\" Use the player's answer to make the next faction feel like it has already touched their life."
+    ]
   },
   {
     "id": "SZ-07",
-    "title": "What PCs Know / Don't Know",
-    "act": "Session Zero",
-    "purpose": "Align starting knowledge and hidden information.",
+    "title": "What PCs Know",
+    "player_title": "What your characters know",
+    "player_body": "You are on a delivery job to the village of Hush. The cargo is sealed, valuable, and not supposed to be opened without permission.",
+    "player_bullets": [
+      "You are escorting one sealed cargo unit.",
+      "It is important, guarded, and not supposed to be opened without permission.",
+      "It is going to Hush, a village in the Goldspire Territories.",
+      "The route crosses Sablewood Logistics Preserve: a vast fantasy forest, called Old Sable by some locals.",
+      "Payment follows verified delivery.",
+      "You begin inside the system: loyal, ignorant, conflicted, pragmatic, or simply hired."
+    ],
+    "player_table": [],
+    "purpose": "Align starting knowledge without leaking hidden information.",
     "mode": [
       "quick_pregen",
       "guided_pregen",
       "full_custom"
     ],
-    "complete_flag": "starting_knowledge_aligned"
+    "display_mode": "image-title-caption",
+    "gm_script": "Read the player-safe starting knowledge. Keep the hidden facts in GM view only and use them for foreshadowing, not for projection.",
+    "gm_checklist": [
+      "Starting knowledge aligned",
+      "Hidden knowledge kept GM-only"
+    ],
+    "gm_notes": [
+      "Player-safe knowledge should be concrete enough to start play.",
+      "Do not show hidden knowledge on the player display."
+    ],
+    "gm_private": [
+      "Keystone's real ward function",
+      "Ward network soul-economy implications",
+      "Bramble Union's deeper motives",
+      "Final ritual threat",
+      "Relay Spire hook"
+    ],
+    "source_files": [
+      "docs/CHARACTER_OPTIONS_AND_CUSTOMIZATION.md#what-custom-pcs-must-know",
+      "obsidian_vault/00 Session Zero/What PCs Know.md",
+      "obsidian_vault/00 Session Zero/What PCs Do Not Know.md"
+    ],
+    "art": {
+      "src": "assets/maps/MAP-LOC-sablewood-route-gate-player.webp",
+      "alt": "A player-safe route gate map for the delivery through Sablewood.",
+      "mode": "supporting"
+    },
+    "complete_flag": "starting_knowledge_aligned",
+    "gm_read_aloud": "Here is what your characters know at the start. You have a delivery job. You are carrying a sealed important package. You are going through a huge old forest to a village. You do not know every name, faction, or secret yet, and that is intentional. Your characters are new to this specific route and area, so asking questions in character is part of play.",
+    "rule_ids": [
+      "roleplay"
+    ],
+    "allow_image_beats": false,
+    "takeaway_help": {
+      "player": {
+        "title": "Players know starting facts only",
+        "statement": "Players know the starting facts without hidden GM answers.",
+        "body": "This is where lore overload gets prevented. Players know enough to act and enough not to feel stupid asking basic questions.",
+        "say": "\"Starting facts: you have a sealed important package, a paid delivery job, a huge old forest route, and a village destination. The rest is allowed to be unknown.\"",
+        "ask": "If someone asks whether their character should know the names: \"If it makes sense, you may know the company name, the village name, or the forest name, but you are still new to this specific route.\"",
+        "deeper": "This is where lore overload gets prevented. Players know enough to act and enough not to feel stupid asking basic questions.",
+        "ruleIds": [
+          "roleplay"
+        ]
+      },
+      "story": {
+        "title": "Known route, unknown truth",
+        "statement": "They escort a sealed package to a forest village through a huge old forest.",
+        "body": "Use plain descriptions before proper nouns: company, old forest, village, sealed package. Names can arrive through play.",
+        "say": "\"The job is simple at the surface: get the package to the village. The truth underneath it is what play will uncover.\"",
+        "ask": "If someone asks what is inside the package: \"You do not know yet. Marlowe knows it matters; Varian, Khari, and others may notice physical clues once they see it.\"",
+        "deeper": "Use plain descriptions before proper nouns: company, old forest, village, sealed package. Names can arrive through play.",
+        "ruleIds": [
+          "roleplay"
+        ]
+      },
+      "mechanic": {
+        "title": "Starting knowledge is a play boundary",
+        "statement": "The mechanic is separating known facts from discoverable mystery.",
+        "body": "This teaches question-driven discovery before the Prologue starts.",
+        "say": "\"If you wonder whether your character knows something, ask me. I will either answer, give you the player-safe version, or call for a Knowledge or Instinct roll.\"",
+        "ask": "If someone asks how to learn more: \"Ask a contact, inspect an object, compare it to your background, or roll when the answer is uncertain.\"",
+        "deeper": "This teaches question-driven discovery before the Prologue starts.",
+        "ruleIds": [
+          "roleplay"
+        ]
+      }
+    }
   },
   {
     "id": "SZ-08",
     "title": "Launch Checklist / Cut to Prologue",
-    "act": "Session Zero",
+    "player_title": "Ready to begin",
+    "player_body": "You are on a delivery job to the village of Hush with a sealed crate. You know enough to start; the rest will come through play.",
+    "player_bullets": [
+      "The route waits.",
+      "The contract is signed.",
+      "The crate is sealed.",
+      "We begin now."
+    ],
+    "player_table": [],
     "purpose": "Confirm readiness and transition into The Contract.",
     "mode": [
       "quick_pregen",
       "guided_pregen",
       "full_custom"
     ],
-    "complete_flag": "prologue_ready"
+    "display_mode": "image-title-caption",
+    "gm_script": "Confirm the checklist, then jump cleanly to the Prologue. Do not reopen planning unless safety or basic readiness is unresolved.",
+    "gm_checklist": [
+      "Safety tools explained",
+      "Safety intake reviewed if used",
+      "Characters chosen or built",
+      "Marlowe PC or chosen package custodian status assigned",
+      "Connections recorded",
+      "Starting knowledge aligned",
+      "Rules snapshot delivered",
+      "Player display ready",
+      "Prologue ready"
+    ],
+    "gm_notes": [
+      "This is the last Session Zero beat. The next player-facing screen should feel like the adventure beginning."
+    ],
+    "gm_private": [],
+    "source_files": [
+      "docs/SESSION_ZERO_RUNBOOK.md#session-zero-closeout",
+      "data/session_zero_state_schema.json",
+      "docs/HTML_IMPLEMENTATION_SPEC.md"
+    ],
+    "art": {
+      "src": "assets/scenes/S00-01-the-job.webp",
+      "alt": "The opening delivery job and sealed contract ready to begin.",
+      "mode": "supporting"
+    },
+    "complete_flag": "prologue_ready",
+    "gm_read_aloud": "Last check before the Prologue: does everyone have a sheet, a basic sense of their character, and at least one reason to be on this job? Any safety, rules, character, or connection question before we start? If not, we begin with the contract.",
+    "rule_ids": [
+      "roleplay",
+      "table-spotlight"
+    ],
+    "allow_image_beats": true,
+    "takeaway_help": {
+      "player": {
+        "title": "Players know they can begin",
+        "statement": "Players know enough to start and ask for help if unresolved.",
+        "body": "This is the final readiness gate. It should resolve friction, not reopen full Session Zero discussion.",
+        "say": "\"Before we start: sheet, character name, basic vibe, one reason you are on the job, and any last safety or rules question.\"",
+        "ask": "If someone says they are not ready: \"Tell me the missing piece: sheet, character, rule, safety, or connection. We will fix that piece and begin.\"",
+        "deeper": "This is the final readiness gate. It should resolve friction, not reopen full Session Zero discussion.",
+        "ruleIds": [
+          "roleplay",
+          "table-spotlight"
+        ]
+      },
+      "story": {
+        "title": "The contract starts now",
+        "statement": "The delivery job begins; deeper truth arrives through play.",
+        "body": "This turns onboarding into action. Do not add more lore here; cut to the Prologue.",
+        "say": "\"When we move on, we are in the fiction. You will meet the job, see the package, and decide what your character asks or does first.\"",
+        "ask": "If someone asks what happens first: \"We begin with the contract: a contact, a carriage, a sealed crate, and a job that wants you moving before daylight is gone.\"",
+        "deeper": "This turns onboarding into action. Do not add more lore here; cut to the Prologue.",
+        "ruleIds": [
+          "roleplay",
+          "table-spotlight"
+        ]
+      },
+      "mechanic": {
+        "title": "Onboarding becomes first-scene agency",
+        "statement": "The mechanic is converting preparation into player choice.",
+        "body": "This establishes the first playable options before the contract scene: ask, inspect, position, accept.",
+        "say": "\"Your next move can be simple: ask a question, inspect the package, choose where you sit, or roll out.\"",
+        "ask": "If someone asks whether they can wait and learn later: \"Yes. You can take the job now and let curiosity happen on the road.\"",
+        "deeper": "This establishes the first playable options before the contract scene: ask, inspect, position, accept.",
+        "ruleIds": [
+          "roleplay",
+          "table-spotlight"
+        ]
+      }
+    }
   }
 ]

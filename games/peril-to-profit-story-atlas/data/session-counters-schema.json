@@ -1,0 +1,46 @@
+{
+  "fear": 0,
+  "fearMax": 12,
+  "assignedPCs": 0,
+  "sessionStartedAt": null,
+  "sceneStartedAt": null,
+  "currentSceneId": "S00-01",
+  "currentAct": "Prologue",
+  "scenesComplete": [],
+  "activeCountdowns": [],
+  "sessionEventLog": [],
+  "fearSpendOptions": [
+    {
+      "id": "make-gm-move",
+      "label": "Make a GM move",
+      "rules_text": "Spend Fear to make a GM move when the fiction calls for stronger pressure."
+    },
+    {
+      "id": "additional-gm-move",
+      "label": "Make an additional GM move",
+      "rules_text": "Spend Fear to make an additional GM move."
+    },
+    {
+      "id": "spotlight-additional-adversary",
+      "label": "Spotlight an additional adversary",
+      "rules_text": "Spend Fear to spotlight an additional adversary during battle."
+    },
+    {
+      "id": "adversary-fear-feature",
+      "label": "Use an adversary Fear feature",
+      "rules_text": "Spend Fear only if the adversary or feature provides that option."
+    },
+    {
+      "id": "environment-fear-feature",
+      "label": "Use an environment Fear feature",
+      "rules_text": "Spend Fear only if the environment or feature provides that option."
+    },
+    {
+      "id": "add-adversary-experience",
+      "label": "Add adversary Experience to a roll",
+      "rules_text": "Spend Fear to add a relevant adversary Experience to a roll."
+    }
+  ],
+  "storageKey": "goldspire-gm-hud-state-v1",
+  "eventLogKey": "goldspire-session-event-log-v1"
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "whetcord",
+  "kind": "entity",
+  "title": "Whetcord",
+  "in_world_label": "Provisioning Product Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Item / Asset",
+  "hook": "Player-safe note: Once, reroll a damage die and keep the higher.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Whetcord: Once, reroll a damage die and keep the higher."
+    },
+    {
+      "label": "Player Read",
+      "body": "Player-safe note: Once, reroll a damage die and keep the higher."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Inspect the label, maker, or fine print.",
+    "Use it only when the fiction says you can reach it."
+  ],
+  "archetype": "item.product_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:whetcord",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "ac763e64c37c15b2",
+  "generated_at": "2026-06-23T21:40:58"
+}

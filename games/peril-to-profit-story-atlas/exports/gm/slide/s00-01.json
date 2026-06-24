@@ -1,0 +1,44 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "S00-01",
+  "title": "S00-01 - The Job",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "44355ba0dc561fcc",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "At the edge of the warded road, a woman waits beside a loaded carriage. She looks like your contact for this job, but she has not introduced herself yet."
+    },
+    {
+      "title": "Public objective",
+      "body": "Meet the contact, take custody of the sealed package, ask what you need to ask, and decide to roll out."
+    },
+    {
+      "title": "GM goal",
+      "body": "The party meets their contact by description, receives the sealed package, asks questions, and agrees to roll out."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "Do not play Emeris Crown Holdings as the villain yet. They are the employer and the system. Let suspicion emerge slowly.",
+        "Keep player-facing information actionable. Reveal systemic truth through objects, reactions, and consequences before naming it.",
+        "Manufactured-threat lens: seed the contradiction, do not explain it. The surface goal stays simple and heroic.",
+        "[ADD/GUARANTEED] Grail-branded bounty board: \"STRIXWOLF: APEX FOREST HAZARD. Sightings up 300%. Bounty payable in Marks.\"",
+        "[ADD/GUARANTEED] Couriers or a clerk trade fearful route gossip: the Preserve \"takes one a week now.\"",
+        "[ADD/EARNED] A player asking what they know receives the corporate line: strixwolves are vicious pack predators. (Knowledge Easy 10)"
+      ]
+    },
+    {
+      "title": "GM script",
+      "body": "At the edge of the warded road, a woman waits beside a loaded carriage. She has a book, a folded route-map, and the posture of someone trying not to look nervous. She looks across the group and says, 'You're the crew? Good. We're losing daylight.' What do you do?"
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 44355ba0dc561fcc | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

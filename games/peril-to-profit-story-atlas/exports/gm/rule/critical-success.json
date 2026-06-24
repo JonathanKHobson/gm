@@ -1,0 +1,48 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "critical-success",
+  "title": "Critical Success",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "b8b45df8e99c8018",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "Matching Duality Dice create the best version of the result."
+    },
+    {
+      "title": "How it works",
+      "body": "Use whenever the Hope and Fear dice match."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use whenever the Hope and Fear dice match.",
+        "Treat it as a Critical Success: gain Hope, clear 1 Stress, and give a strong result.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "What happens on doubles?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "duality-dice",
+        "hope"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash b8b45df8e99c8018 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

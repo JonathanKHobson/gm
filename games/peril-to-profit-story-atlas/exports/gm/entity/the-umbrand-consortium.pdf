@@ -1,0 +1,300 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2513 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(The Umbrand Consortium) Tj
+T*
+() Tj
+T*
+(Player-facing description) Tj
+T*
+() Tj
+T*
+(A rumor about goods that arrive after official supply says they cannot.) Tj
+T*
+() Tj
+T*
+(Public role) Tj
+T*
+() Tj
+T*
+(Necessity-smuggling rumor and future-campaign seed) Tj
+T*
+() Tj
+T*
+(Handout text) Tj
+T*
+() Tj
+T*
+(The Umbrand Consortium: a future-thread rumor about necessities that arrive after) Tj
+T*
+(official supply says no.) Tj
+T*
+() Tj
+T*
+(GM truth) Tj
+T*
+() Tj
+T*
+(GM-only future seed: leave Umbrand unresolved unless Kyle opens the scarcity-market arc) Tj
+T*
+(at the table.) Tj
+T*
+() Tj
+T*
+(GM handling) Tj
+T*
+() Tj
+T*
+(Future thread only; at most a black-market rumor.) Tj
+T*
+() Tj
+T*
+(Mechanics) Tj
+T*
+() Tj
+T*
+(- Title: Faction Pressure / Reputation Mechanics) Tj
+T*
+(- Player Safe: Players can read public face, negotiate leverage, track reputation, or) Tj
+T*
+(  identify pressure The Umbrand Consortium when it is present in the fiction.) Tj
+T*
+(- Gm Only: Use the roll only when the player's method, stakes, and consequence are) Tj
+T*
+(  concrete.) Tj
+T*
+(- No Roll Reveals: Surface read: The Umbrand Consortium is the rumor of a crate that) Tj
+T*
+(  arrives after the market says survival is out of stock. Give obvious visible facts) Tj
+T*
+(  freely; roll for meaning, risk, leverage, cost, or a hidden angle.) Tj
+T*
+(- Rolls: entity-the-umbrand-consortium-engage-the-umbrand-consortium entity-the-) Tj
+T*
+(  umbrand-consortium Engage The Umbrand Consortium Engage The Umbrand Consortium) Tj
+T*
+(  Presence Knowledge Instinct Presence Knowledge, Instinct 13 Choose the trait from) Tj
+T*
+(  the player's method, not the entity type. A flat read of The Umbrand Consortium) Tj
+T*
+(  hides the cost, motive, or useful next step. Critical Success: best possible version) Tj
+T*
+(  of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from) Tj
+T*
+(  the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep) Tj
+T*
+(  the position clean or generous. Success with Fear: the PC gets what they wanted, but) Tj
+T*
+(  the GM gains Fear and introduces a cost, complication, or pressure. Failure with) Tj
+T*
+(  Hope: the PC does not get the full result, but gains Hope and receives a useful) Tj
+T*
+(  thread, clue, or safer next option. Failure with Fear: the PC fails and the GM) Tj
+T*
+(  gains...) Tj
+T*
+(- Fear Spends: Reveal who benefits from the current situation. Make the cost personal) Tj
+T*
+(  without closing off player agency.) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3381 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Search Loot: The Umbrand Consortium: a future-thread rumor about necessities that) Tj
+T*
+(  arrive after official supply says no.) Tj
+T*
+() Tj
+T*
+(Profile) Tj
+T*
+() Tj
+T*
+(- Schema Version: faction-profile-v1) Tj
+T*
+(- Id: the-umbrand-consortium) Tj
+T*
+(- Entity Id: the-umbrand-consortium) Tj
+T*
+(- Source: Faction_System_Packet/factions/WIDER_LORE_FACTIONS.md) Tj
+T*
+(- Priority: seed) Tj
+T*
+(- Corporate: False) Tj
+T*
+(- Atlas Lore Note: Atlas lore note: one-shot-safe expansion. Use as GM-only texture) Tj
+T*
+(  unless table play earns it.) Tj
+T*
+(- Auto Surface: False) Tj
+T*
+(- Prompt Key: goldwater) Tj
+T*
+(- Player Safe: The Umbrand Consortium A rumor about goods that arrive after official) Tj
+T*
+(  supply says they cannot. If you needed it, it was never legal. The Umbrand) Tj
+T*
+(  Consortium is the rumor of a crate that arrives after the market says survival is) Tj
+T*
+(  out of stock. Umbrand stories smell like wet rope, unmarked wood, and favors nobody) Tj
+T*
+(  wants written down. They are not glamorous smugglers. They are the answer to a) Tj
+T*
+(  locked pantry, a restricted medicine shelf, and a village told to wait for) Tj
+T*
+(  authorized mercy. Someone mentions an unmarked crate that reached a house after the) Tj
+T*
+(  official supply route closed. Nobody says thank you loudly. Nobody asks who carried) Tj
+T*
+(  it.) Tj
+T*
+(- Block1: The Umbrand Consortium Umbrand the necessity smugglers A rumor about goods) Tj
+T*
+(  that arrive after official supply says they cannot. GM-only seed: smuggle restricted) Tj
+T*
+(  necessities through markets that made need illegal. Future thread only; at most a) Tj
+T*
+(  black-market rumor. Unknown; do not turn rumor into a contact in this pass.) Tj
+T*
+(  Usefulness, but only in future play. pages/entities/the-umbrand-consortium.html the) Tj
+T*
+(  UM-brand kun-SOR-shee-um) Tj
+T*
+(- Block2: Shadow market organization, not on the one-shot stage. Routes of necessity,) Tj
+T*
+(  rumor prices, and favors owed for forbidden help. Unknown in this module; keep them) Tj
+T*
+(  as a seed. Unknown; leave for Kyle confirmation. Not staged. A rumor can imply) Tj
+T*
+(  someone is moving what official markets restrict. Institutional beliefs: The First) Tj
+T*
+(  Necessity Smuggled as Contraband; Rare Goods, Worse Clients.) Tj
+T*
+(- Block3: No confirmed allies in this one-shot. Zephra Exchange Goldspire Logistics) Tj
+T*
+(  scarcity restricted goods Unknown; do not answer in the one-shot.) Tj
+T*
+(- Block4: If you needed it, it was never legal. Plain crates with the mark sanded off,) Tj
+T*
+(  practical cloth, cold coins, and no heraldry. Useful, expensive, and allergic to) Tj
+T*
+(  moral speeches. An unmarked crate with a black thumbprint. Seed only: low strings) Tj
+T*
+(  under a market bell.) Tj
+T*
+(- Block5: Future-campaign texture around scarcity and black-market mercy. Shows what) Tj
+T*
+(  people build when official access is priced out of reach. Unresolved by design. GM-) Tj
+T*
+(  only future seed: leave Umbrand unresolved unless Kyle opens the scarcity-market arc) Tj
+T*
+(  at the table. surface A rumor. hint A necessity market in the gaps. earned seam) Tj
+T*
+(  Future-campaign truth only. Do not stage. Let it remain a rumor unless Kyle confirms) Tj
+T*
+(  the arc.) Tj
+T*
+(- Writing Layer: The Umbrand Consortium is the rumor of a crate that arrives after the) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 1389 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  market says survival is out of stock. Umbrand stories smell like wet rope, unmarked) Tj
+T*
+(  wood, and favors nobody wants written down. They are not glamorous smugglers. They) Tj
+T*
+(  are the answer to a locked pantry, a restricted medicine shelf, and a village told) Tj
+T*
+(  to wait for authorized mercy. Someone mentions an unmarked crate that reached a) Tj
+T*
+(  house after the official supply route closed. Nobody says thank you loudly. Nobody) Tj
+T*
+(  asks who carried it. wet rope, unmarked crates, cold coins, rain-dark cloth, sanded-) Tj
+T*
+(  off brands, and quiet gratitude mercy that has to move like contraband practical) Tj
+T*
+(  fear with no romance in it rumored scarcity routes and restricted-goods markets) Tj
+T*
+(  future black-market mercy lanes, kept as rumor texture only Zephra-controlled access) Tj
+T*
+(  points as pressure, not confirmed contact No confirmed NPCs appear in this one-) Tj
+T*
+(  shot...) Tj
+T*
+(- Entity Name: The Umbrand Consortium) Tj
+T*
+(- Imagine It Like: Think the smugglers who move the medicine the law made illegal, a) Tj
+T*
+(  sympathetic black market, the bootleggers of necessity. \(GM seed; do not stage) Tj
+T*
+(  without Kyle.\)) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 05266776879bfcb2 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002574 00000 n 
+0000002700 00000 n 
+0000006133 00000 n 
+0000006259 00000 n 
+0000007700 00000 n 
+0000007826 00000 n 
+0000007895 00000 n 
+0000007944 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+8016
+%%EOF

@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "MAP-LOC-the-sunless-farms",
+  "kind": "slide",
+  "title": "MAP-LOC-the-sunless-farms - The Sunless Farms Location Map",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act Three: Seeking a Custodian",
+  "hook": "Under the canopy, farms grow without full sun: blue-green rows, dark wet soil, careful water paths, and tools hung where rain and sap cannot ruin them.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "Under the canopy, farms grow without full sun: blue-green rows, dark wet soil, careful water paths, and tools hung where rain and sap cannot ruin them."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Under the canopy, farms grow without full sun: blue-green rows, dark wet soil, careful water paths, and tools hung where rain and sap cannot ruin them."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:MAP-LOC-the-sunless-farms",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "fe31d3b384927d73",
+  "generated_at": "2026-06-23T21:40:58"
+}

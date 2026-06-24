@@ -1,0 +1,673 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2356 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S00-01 - The Job) Tj
+T*
+() Tj
+T*
+(Player read-aloud) Tj
+T*
+() Tj
+T*
+(At the edge of the warded road, a woman waits beside a loaded carriage. She looks like) Tj
+T*
+(your contact for this job, but she has not introduced herself yet.) Tj
+T*
+() Tj
+T*
+(Scene summary) Tj
+T*
+() Tj
+T*
+(The party meets their contact by description, receives the sealed package, asks) Tj
+T*
+(questions, and agrees to roll out.) Tj
+T*
+() Tj
+T*
+(Visible choices) Tj
+T*
+() Tj
+T*
+(- Ask questions about the crate) Tj
+T*
+(- Accept the job without question) Tj
+T*
+(- Try to inspect the seal) Tj
+T*
+() Tj
+T*
+(Player questions) Tj
+T*
+() Tj
+T*
+(- What do you ask before you accept the job?) Tj
+T*
+(- Who checks the package without opening it?) Tj
+T*
+(- Who is first into the carriage?) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: S00-01) Tj
+T*
+(- Act: Prologue) Tj
+T*
+(- Title: The Job) Tj
+T*
+(- Beats: Scene setup Corporate satire beat Lore reveal) Tj
+T*
+(- Image: assets/scenes/S00-01-the-job.png) Tj
+T*
+(- Short: The party meets their contact by description, receives the sealed package,) Tj
+T*
+(  asks questions, and agrees to roll out.) Tj
+T*
+(- Long: A real conversation at the edge of the city. The whole crew, including Marlowe) Tj
+T*
+(  or a chosen replacement PC for Keystone custody, receives the job together. Sabine) Tj
+T*
+(  Quillon can appear here as the optional backup NPC job-giver if the table should not) Tj
+T*
+(  put that role on the Marlowe player.) Tj
+T*
+(- Read: The crew gathers at the carriage as the sealed crate waits inside, stamped) Tj
+T*
+(  with enough authorization marks to make opening it feel expensive.) Tj
+T*
+(- Gm: Do not play Emeris Crown Holdings as the villain yet. They are the employer and) Tj
+T*
+(  the system. Let suspicion emerge slowly.) Tj
+T*
+(- Entities: Marlowe Fairwind Sabine Quillon Escort Carriage Sealed Keystone Crate) Tj
+T*
+(  Route Assurance Contract Emeris Crown Holdings Goldspire Territories Emeris Capital) Tj
+T*
+(  Gate Ward Infrastructure Keystone Asset Sablewood? Logistics Preserve Emeris Clerk) Tj
+T*
+(  Garrick Reed Difficulty Ladder Varian Soto The Grail Short Rest) Tj
+T*
+(- Choices: Ask questions about the crate Accept the job without question Try to) Tj
+T*
+(  inspect the seal) Tj
+T*
+(- Prompt: Fantasy corporate delivery briefing at dawn: a courier crew gathers beside a) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4000 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  sealed glowing crate loaded into a carriage; five adventurers prepare gear; subtle) Tj
+T*
+(  corporate seals and permits; no monsters, no strixwolf, no undead.) Tj
+T*
+(- Source Entities: Marlowe Fairwind Emeris Crown Holdings Keystone Asset Goldspire) Tj
+T*
+(  Territories) Tj
+T*
+(- Beat Codes: scene-setup corporate-satire-beat lore-reveal) Tj
+T*
+(- Slug: S00-01-the-job) Tj
+T*
+(- Act Title: Act 0 - The Contract) Tj
+T*
+(- Arc Role: Contract orientation, played briefing, and threshold transition) Tj
+T*
+(- Caption: Played briefing scene: description first, names through dialogue.) Tj
+T*
+(- Image Alt: The Job scene art for Act 0 - The Contract.) Tj
+T*
+(- Image Prompt Used: Fantasy corporate delivery briefing at dawn: a courier crew) Tj
+T*
+(  gathers beside a sealed glowing crate loaded into a carriage; five adventurers) Tj
+T*
+(  prepare gear; subtle corporate seals and permits; no monsters, no strixwolf, no) Tj
+T*
+(  undead. 4:3 cinematic fantasy concept art, no visible text, no captions, no logos,) Tj
+T*
+(  no UI, no watermark.) Tj
+T*
+(- Long Storyboard: A professional but slightly ominous delivery briefing. The crate is) Tj
+T*
+(  heavy, sealed, and important, but the full truth is withheld. The party starts) Tj
+T*
+(  inside the system rather than against it. Run this scene as contract / ordinary) Tj
+T*
+(  frame: The party begins inside the system: hired, trusted, and carrying more risk) Tj
+T*
+(  than they know. Keep the camera close to practical choices, visible consequences,) Tj
+T*
+(  and the difference between ordinary people and the infrastructure pressing on them.) Tj
+T*
+(- Read Aloud: At the edge of the warded road, a woman waits beside a loaded carriage.) Tj
+T*
+(  She looks like your contact for this job, but she has not introduced herself yet.) Tj
+T*
+(- Gm Notes: Do not play Emeris Crown Holdings as the villain yet. They are the) Tj
+T*
+(  employer and the system. Let suspicion emerge slowly. Keep player-facing information) Tj
+T*
+(  actionable. Reveal systemic truth through objects, reactions, and consequences) Tj
+T*
+(  before naming it. Manufactured-threat lens: seed the contradiction, do not explain) Tj
+T*
+(  it. The surface goal stays simple and heroic. [ADD/GUARANTEED] Grail-branded bounty) Tj
+T*
+(  board: "STRIXWOLF: APEX FOREST HAZARD. Sightings up 300%. Bounty payable in Marks.") Tj
+T*
+(  [ADD/GUARANTEED] Couriers or a clerk trade fearful route gossip: the Preserve "takes) Tj
+T*
+(  one a week now." [ADD/EARNED] A player asking what they know receives the corporate) Tj
+T*
+(  line: strixwolves are vicious pack predators. \(Knowledge Easy 10\)) Tj
+T*
+(- Sensory Details: cold brass permit seals coffee gone bitter in a tin cup crate) Tj
+T*
+(  hinges humming under the morning noise) Tj
+T*
+(- Body Language: Marlowe or the chosen replacement PC for Keystone custody receives) Tj
+T*
+(  the job with the rest of the crew If Sabine is used, she keeps her voice even but) Tj
+T*
+(  checks the seal twice Garrick watches the exits by habit Varian tracks the road) Tj
+T*
+(  before anyone asks) Tj
+T*
+(- Sample Dialogue: Sabine Quillon If I am your contact today: we are not paying you to) Tj
+T*
+(  open it. We are paying you to make sure nobody else does. Emeris clerk Routine route) Tj
+T*
+(  assurance. The form says routine, and forms are paid to be optimistic.) Tj
+T*
+(- Checks: Knowledge or Presence Read the contract pressure without derailing the job.) Tj
+T*
+(  Easy to standard The PCs learn the employer is withholding risk, not necessarily) Tj
+T*
+(  lying. 10/15 Cleanly resolve: Read the contract pressure without derailing the job.) Tj
+T*
+(  Add a concrete boon, extra clue, or improved position. Success, plus the player) Tj
+T*
+(  names one helpful detail or asks one follow-up question. Success, but the GM exposes) Tj
+T*
+(  a cost, ticks a countdown, or reveals a new pressure tied to The Job. The full goal) Tj
+T*
+(  slips, but the party still learns a useful truth or avoids the worst consequence.) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3968 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  The GM makes a hard move that follows from the fiction and leaves the next choice) Tj
+T*
+(  visible. Spend Fear to reveal omitted risk, split attention, or put a human cost in) Tj
+T*
+(  front of the contract. On mixed or sliding results, reveal information in layers:) Tj
+T*
+(  visible fact, actionable clue, then systemic truth. Marlowe's extra Arcana check) Tj
+T*
+(  Give Marlowe's player the per-character job-scene insight; use Knowledge when) Tj
+T*
+(  converting to Daggerheart traits. Standard Marlowe clocks the wardcraft/custody) Tj
+T*
+(  pressure without becoming the job-giver. 15 Cleanly resolve: Give Marlowe's player) Tj
+T*
+(  the per-character job-scene insight; use Knowledge when...) Tj
+T*
+(- Choices Consequences: Ask hard questions They get names and practical facts, plus) Tj
+T*
+(  one doubt-flicker. Curiosity is rewarded. Accept and move The run starts clean and) Tj
+T*
+(  professional. Pacing stays fast. Try to open the crate The seal flares and logs the) Tj
+T*
+(  attempt. Later corporate attention becomes easier to justify.) Tj
+T*
+(- Clues: Protective seal The seal looks contractual and protective, not decorative.) Tj
+T*
+(  The crate is linked to ward infrastructure, but do not reveal the true name here.) Tj
+T*
+(  Careful inspection can tell the package is important without saying what it is.) Tj
+T*
+(  Guaranteed seed Grail-branded bounty board: "STRIXWOLF: APEX FOREST HAZARD.) Tj
+T*
+(  Sightings up 300%. Bounty payable in Marks." Grail-branded bounty board: "STRIXWOLF:) Tj
+T*
+(  APEX FOREST HAZARD. Sightings up 300%. Bounty payable in Marks." Guaranteed seed) Tj
+T*
+(  Couriers or a clerk trade fearful route gossip: the Preserve "takes one a week now.") Tj
+T*
+(  Couriers or a clerk trade fearful route gossip: the Preserve "takes one a week now.") Tj
+T*
+(  Earned seed Available if players investigate, show mercy, or ask the right question.) Tj
+T*
+(  A player asking what they know receives the corporate line: strixwolves are vicious) Tj
+T*
+(  pack predators. Knowledge Easy 10) Tj
+T*
+(- Loot: Authorized route copy Emergency toll voucher A private worry from the contact,) Tj
+T*
+(  if roleplayed for Keystone Asset?: Inside the sealed crate, packed in wax-paper and) Tj
+T*
+(  reassurance, sits a heavy grey stone the size of a loaf, warm to the touch, faintly) Tj
+T*
+(  humming, with a light deep inside it that is slowly going out.) Tj
+T*
+(- Payoff Flags: Custodian Trust Track) Tj
+T*
+(- Filters: choice corporate-satire-beat custodian-trust-track gm-only lore-reveal) Tj
+T*
+(  prologue scene-setup the-contract npc progressive-disclosure run-beats manufactured-) Tj
+T*
+(  threat guaranteed-earned clue) Tj
+T*
+(- Index: 0) Tj
+T*
+(- Player Questions: What do you ask before you accept the job? Who checks the package) Tj
+T*
+(  without opening it? Who is first into the carriage?) Tj
+T*
+(- Relationship Prompts: Which PC has done a messy delivery job before? Which PC trusts) Tj
+T*
+(  paperwork least?) Tj
+T*
+(- Ownership Prompt: One of you takes point in the conversation. Who steps forward) Tj
+T*
+(  first?) Tj
+T*
+(- Reveal Hooks: Loreborne or Knowledge-focused PCs can read the institutional layer.) Tj
+T*
+(  Wildborne/community-focused PCs can read local custom and ecological stress.) Tj
+T*
+(  Martial/security-focused PCs can read threat posture and custody logic. Magic-) Tj
+T*
+(  focused PCs can feel ward tone, soul-signal, or spell instability. Loreborne: spots) Tj
+T*
+(  older legal, heraldic, or ward-craft language under the branding. Underborne:) Tj
+T*
+(  notices service doors, hidden routes, and who built the thing nobody credits.) Tj
+T*
+(  Highborne: reads etiquette, class panic, and reputational risk. Ridgeborne: notices) Tj
+T*
+(  stonework, weight, pressure, and structural weakness. Wildborne: reads the land,) Tj
+T*
+(  animals, and local ecological stress. Elf/Ribbet/Human/Giant/Katari: invite one) Tj
+T*
+(  sensory or social detail from the player's heritage.) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4035 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Sorcerer/Rogue/Warrior/Guardian/Ranger: give each class one table-facing way to) Tj
+T*
+(  shine without changing the plot.) Tj
+T*
+(- Fear Spends: Make the contact catch a PC reading her and go guarded. Make the route) Tj
+T*
+(  window feel tighter: a ward marker dims, a clerk hurries them, or weather presses) Tj
+T*
+(  in. Reveal omitted risk or fine print. Make the human cost visible before escalating) Tj
+T*
+(  danger.) Tj
+T*
+(- Public Objective: Meet the contact, take custody of the sealed package, ask what you) Tj
+T*
+(  need to ask, and decide to roll out.) Tj
+T*
+(- Gm Script: At the edge of the warded road, a woman waits beside a loaded carriage.) Tj
+T*
+(  She has a book, a folded route-map, and the posture of someone trying not to look) Tj
+T*
+(  nervous. She looks across the group and says, 'You're the crew? Good. We're losing) Tj
+T*
+(  daylight.' What do you do?) Tj
+T*
+(- Player Takeaway: I can ask practical questions and learn names through play.) Tj
+T*
+(- Story Takeaway: The job becomes concrete: contact, carriage, package, destination,) Tj
+T*
+(  pay, and unease.) Tj
+T*
+(- Mechanic Takeaway: Optional social/reading rolls can reveal nervousness or corporate) Tj
+T*
+(  framing, but the scene works without dice.) Tj
+T*
+(- Gm Checklist: If using Sabine, show the contact image before saying her name. Show) Tj
+T*
+(  the package image only as a sealed crate. Ask 'Any questions before you roll out?') Tj
+T*
+(  before moving to the threshold.) Tj
+T*
+(- Gm Private: Correction reminder: Marlowe stays a PC and the package custodian in the) Tj
+T*
+(  group unless Kyle chooses a replacement PC for package custody. Sabine is optional) Tj
+T*
+(  backup job-giver only for S00-01. Use her when you do not want the Marlowe player to) Tj
+T*
+(  carry the table-facing job-giver role. Everyone receives the job together, including) Tj
+T*
+(  Marlowe or the chosen replacement PC for package custody. Marlowe's player gets her) Tj
+T*
+(  per-character job-scene benefit: bonus insight and an extra Arcana check at The Job.) Tj
+T*
+(  Sabine may not know the full contents either if she is used; do not over-explain the) Tj
+T*
+(  package. Sabine only needs to be in play for this Prologue job briefing and) Tj
+T*
+(  questions. After the handoff, the crew owns the route. The manufactured-danger truth) Tj
+T*
+(  should feel like a faint mismatch, not a reveal.) Tj
+T*
+(- Gm Examples: If using Sabine and a PC asks her name: 'Sabine. Sabine Quillon. You're) Tj
+T*
+(  the crew Emeris sent? Good. We're losing daylight.' If a PC asks what's inside:) Tj
+T*
+(  'Above your pay grade and mine. Sealed means sealed.' If the table stalls: 'She's) Tj
+T*
+(  waiting. Anyone have a question before the carriage rolls?') Tj
+T*
+(- Player Beats: S00-01-contact Meet the contact Your Contact assets/entities/sabine-) Tj
+T*
+(  quillon.png A finely dressed woman with a book and route map waits beside a) Tj
+T*
+(  carriage. A finely dressed woman with a book, a creased route-map, and a fighter's) Tj
+T*
+(  wariness waits beside a loaded carriage. image-title-caption At the warded road, a) Tj
+T*
+(  sleep-frayed woman waits beside a loaded carriage: good boots, worn coat, a book,) Tj
+T*
+(  creased route-map, and the posture of someone expecting trouble. She looks you over.) Tj
+T*
+(  What do you do? Use this beat for Sabine only if you want the optional backup NPC) Tj
+T*
+(  job-giver. If Sabine is in play, do not say her name until the players ask or she) Tj
+T*
+(  introduces herself. Push her image to the player display here. Marlowe remains a PC) Tj
+T*
+(  custodian in the crew and receives the job with everyone else. The contact is a) Tj
+T*
+(  real, frayed person, not just a corporate mouthpiece. Model the core loop: ask a) Tj
+T*
+(  question, get an answer. The woman has a name once I engage with her. Engagement) Tj
+T*
+(  reveals the contact The contact has a name when players ask or she introduces) Tj
+T*
+(  herself. If Marlowe is a PC, do not make Marlowe the briefer. Marlowe receives the) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 4375 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  job with everyone else and can still carry custodian pressure. "A...) Tj
+T*
+(- Takeaway Help: The briefing is playable Players can question the contact, inspect) Tj
+T*
+(  the package, and choose how they leave. Keep the scene active. The players should) Tj
+T*
+(  leave knowing they made the job concrete, even if they did not solve the mystery.) Tj
+T*
+(  "This is not a cutscene. Ask the contact what you need to know, inspect what you can) Tj
+T*
+(  see, and decide how your character enters the job." If players ask what options) Tj
+T*
+(  matter: "Ask about pay, route, danger, destination, employer, package handling, who) Tj
+T*
+(  drives, where you sit, and whether anyone checks the crate before departure." Keep) Tj
+T*
+(  the scene active. The players should leave knowing they made the job concrete, even) Tj
+T*
+(  if they did not solve the mystery. roleplay table-spotlight The job becomes physical) Tj
+T*
+(  Contact, carriage, package, destination, pay, and unease all become visible. A) Tj
+T*
+(  direct roleplay read can give the emotional clue. For sharper detail, use Instinct) Tj
+T*
+(  or Presence 13, or Knowledge 14 for the route story. "Now the contract has a person,) Tj
+T*
+(  a carriage, a sealed crate, a route, and a deadline." If players ask what feels off:) Tj
+T*
+(  "The contact is too competent to be casual and too nervous to be merely bored. The) Tj
+T*
+(  route story sounds rehearsed." A direct roleplay...) Tj
+T*
+(- Story Scope: Perceived antagonist: the forest. True antagonist: the corporate lie) Tj
+T*
+(  about the forest. The players never confront it directly. They are meant to feel it) Tj
+T*
+(  by the end. Every act offers at least one guaranteed and one earned hint that the) Tj
+T*
+(  danger is manufactured and the forest is not the enemy. Grail-branded bounty board:) Tj
+T*
+(  "STRIXWOLF: APEX FOREST HAZARD. Sightings up 300%. Bounty payable in Marks." ADD) Tj
+T*
+(  GUARANTEED Couriers or a clerk trade fearful route gossip: the Preserve "takes one a) Tj
+T*
+(  week now." ADD GUARANTEED A player asking what they know receives the corporate) Tj
+T*
+(  line: strixwolves are vicious pack predators. ADD EARNED Knowledge Easy 10 Grail-) Tj
+T*
+(  branded bounty board: "STRIXWOLF: APEX FOREST HAZARD. Sightings up 300%. Bounty) Tj
+T*
+(  payable in Marks." ADD GUARANTEED Couriers or a clerk trade fearful route gossip:) Tj
+T*
+(  the Preserve "takes one a week now." ADD GUARANTEED A player asking what they know) Tj
+T*
+(  receives the corporate line: strixwolves are vicious pack predators. ADD EARNED) Tj
+T*
+(  Knowledge Easy 10 Knowledge Easy 10: recall the corporate strixwolf line if asked.) Tj
+T*
+(  ACT0 Onboarding + Prologue 30 0:00 to 0:30 0:30 pregens, safety, connections,) Tj
+T*
+(  Contract overview, Job briefing, forest threshold Keep the...) Tj
+T*
+(- Mechanics: The party is in Prologue pressure: The party meets their contact by) Tj
+T*
+(  description, receives the sealed package, asks questions, and agrees to roll out.) Tj
+T*
+(  Use Daggerheart Duality Dice as baseline. Use the listed Difficulty and outcome) Tj
+T*
+(  options when a roll matters. Keep trivial actions no-roll; roll only when) Tj
+T*
+(  uncertainty, cost, or danger is interesting. s00-01-read-the-contract-pressure) Tj
+T*
+(  S00-01 Read the contract pressure Read the contract pressure Knowledge Presence) Tj
+T*
+(  Knowledge Presence 12 Knowledge reads clauses; Presence reads the briefer or) Tj
+T*
+(  optional Sabine without making any PC the job-giver. The job starts feeling routine) Tj
+T*
+(  when it is not. Critical Success: best possible version of the action; gain Hope and) Tj
+T*
+(  clear 1 Stress. Add an extra benefit that follows from the fiction. Success with) Tj
+T*
+(  Hope: the PC gets what they wanted and gains Hope. Keep the position clean or) Tj
+T*
+(  generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and) Tj
+T*
+(  introduces a cost, complication, or pressure. Failure with Hope: the PC does not get) Tj
+T*
+(  the full result, but gains Hope and receives a useful thread, clue, or safer next) Tj
+T*
+(  option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard...) Tj
+T*
+(- Roll Cards: s00-01-read-the-contract-pressure S00-01 Read the contract pressure Read) Tj
+T*
+(  the contract pressure Knowledge Presence Knowledge Presence 12 Knowledge reads) Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 2855 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  clauses; Presence reads the briefer or optional Sabine without making any PC the) Tj
+T*
+(  job-giver. The job starts feeling routine when it is not. Critical Success: best) Tj
+T*
+(  possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit) Tj
+T*
+(  that follows from the fiction. Success with Hope: the PC gets what they wanted and) Tj
+T*
+(  gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what) Tj
+T*
+(  they wanted, but the GM gains Fear and introduces a cost, complication, or pressure.) Tj
+T*
+(  Failure with Hope: the PC does not get the full result, but gains Hope and receives) Tj
+T*
+(  a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the) Tj
+T*
+(  GM gains Fear. Make a hard move that follows from the fiction. The job starts) Tj
+T*
+(  feeling routine when it is not. Use a hard complication, lost time, worse position,) Tj
+T*
+(  GM Fear, or mark Stress. Apply an official condition only if the fiction and rules) Tj
+T*
+(  justify it. The attempt falls short, but a partial thread appears. Offer one clue,) Tj
+T*
+(  weak position, or safer follow-up. The PC gets...) Tj
+T*
+(- Conditions Hazards: No official condition unless a feature, hazard, or fictional) Tj
+T*
+(  position calls for Hidden, Restrained, or Vulnerable.) Tj
+T*
+(- Search Loot Clues: No fixed loot. Offer clue, texture, or hospitality only when the) Tj
+T*
+(  fiction supports it.) Tj
+T*
+(- No Roll Guidance: Do not call for a roll when the players have time, a clear method,) Tj
+T*
+(  and no meaningful pressure.) Tj
+T*
+(- Tv Mechanics Caption: Public cue: The Job asks what the party does, what it costs,) Tj
+T*
+(  and who is protected.) Tj
+T*
+(- Trait Variety Note: Primary traits in this scene: Knowledge, Presence. If rolls) Tj
+T*
+(  drift toward Instinct/Presence, ask whether Agility, Strength, Finesse, or Knowledge) Tj
+T*
+(  better describes the action.) Tj
+T*
+(- Factionids: emeris-crown-holdings) Tj
+T*
+(- World Connection Prompts: S00-01-emeris-crown-holdings-world-connection emeris-) Tj
+T*
+(  crown-holdings Emeris Crown Holdings You have worked a job like this before. What is) Tj
+T*
+(  the part of the contract you learned to read twice?) Tj
+T*
+(- Location Ids: goldspire-territories emeris-capital-gate emeris-capital) Tj
+T*
+(- Item Ids: keystone-asset) Tj
+T*
+(- Clueids: route-assurance-contracttm the-welcome-broadcasttm nature-is-deadly-) Tj
+T*
+(  placardtm bramble-are-criminals-noticetm) Tj
+T*
+(- Clue Ids: route-assurance-contracttm the-welcome-broadcasttm nature-is-deadly-) Tj
+T*
+(  placardtm bramble-are-criminals-noticetm) Tj
+T*
+(- Image Asset Status: image_gen) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 9abde8923746aae1 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R 12 0 R] /Count 6 >>
+endobj
+14 0 obj
+<< /Type /Catalog /Pages 13 0 R >>
+endobj
+15 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000009 00000 n 
+0000002417 00000 n 
+0000002545 00000 n 
+0000006597 00000 n 
+0000006725 00000 n 
+0000010745 00000 n 
+0000010873 00000 n 
+0000014960 00000 n 
+0000015088 00000 n 
+0000019515 00000 n 
+0000019644 00000 n 
+0000022552 00000 n 
+0000022682 00000 n 
+0000022772 00000 n 
+0000022823 00000 n 
+trailer
+<< /Size 16 /Root 14 0 R >>
+startxref
+22896
+%%EOF

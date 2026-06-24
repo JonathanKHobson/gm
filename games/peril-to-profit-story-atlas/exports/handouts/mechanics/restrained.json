@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "restrained",
+  "kind": "rule",
+  "title": "Restrained",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "condition",
+  "hook": "A target cannot move freely, though it may still act from position.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "A target cannot move freely, though it may still act from position."
+    },
+    {
+      "label": "How It Works",
+      "body": "Restrained: A target cannot move freely, though it may still act from position."
+    },
+    {
+      "label": "Try It",
+      "body": "Is grappled Restrained?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use when physically trapped, grabbed, bound, or pinned.",
+    "If the fiction says they are physically trapped, yes.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:restrained",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "e13ab6d6b35d0e5a",
+  "generated_at": "2026-06-23T21:40:58"
+}

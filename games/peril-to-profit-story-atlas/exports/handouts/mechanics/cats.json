@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "cats",
+  "kind": "rule",
+  "title": "Concept, Aim, Tone, Subject Matter",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "mechanic",
+  "hook": "A quick table calibration: what this is, what we are trying to do, how it feels, and what content may appear.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "A quick table calibration: what this is, what we are trying to do, how it feels, and what content may appear."
+    },
+    {
+      "label": "How It Works",
+      "body": "Concept, Aim, Tone, Subject Matter: A quick table calibration: what this is, what we are trying to do, how it feels, and what content may appear."
+    },
+    {
+      "label": "Try It",
+      "body": "What kind of game is this?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use before play so players know the game frame and can raise concerns.",
+    "A corporate-fantasy delivery one-shot with sincere adventure, satire, light PG-13 danger, and room to pause or soften content.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:cats",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "85e137c6f601c8c0",
+  "generated_at": "2026-06-23T21:40:58"
+}

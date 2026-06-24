@@ -1,0 +1,637 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2811 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S01-02 - The Overturned Vendor Cart) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(Your steeds haul the carriage around a tight bend and stop hard. The path ahead is) Tj
+T*
+(blocked: a vendor cart lies overturned, its fruit, vegetables, and spilled preserves) Tj
+T*
+(scattered across the trail. Something has been feeding here. The air is wrong: sweet rot) Tj
+T*
+(and something underneath it, coppery. From the far side of the cart, you hear wet,) Tj
+T*
+(unhurried movement.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Figure out what happened here and clear the road.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: S01-02) Tj
+T*
+(- Type: scene) Tj
+T*
+(- Sectionid: ACT-ONE) Tj
+T*
+(- Sectiontitle: Act One: The Logistics Incident) Tj
+T*
+(- Title: The Overturned Vendor Cart) Tj
+T*
+(- Shorttitle: Vendor Cart) Tj
+T*
+(- Order: 201) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: True) Tj
+T*
+(- Image: assets/scenes/S01-02-the-overturned-vendor-cart.png) Tj
+T*
+(- Alt: The Overturned Vendor Cart scene art for The Logistics Incident.) Tj
+T*
+(- Caption: The overturned cart gives the party a mystery before it gives them a fight.) Tj
+T*
+(- Mood: The Logistics Incident) Tj
+T*
+(- Gmgoal: Block the road with a wrecked vendor cart, let the table read the scene, and) Tj
+T*
+(  plant that the obvious animal story does not add up.) Tj
+T*
+(- Publicobjective: Figure out what happened here and clear the road.) Tj
+T*
+(- Readaloud: Your steeds haul the carriage around a tight bend and stop hard. The path) Tj
+T*
+(  ahead is blocked: a vendor cart lies overturned, its fruit, vegetables, and spilled) Tj
+T*
+(  preserves scattered across the trail. Something has been feeding here. The air is) Tj
+T*
+(  wrong: sweet rot and something underneath it, coppery. From the far side of the) Tj
+T*
+(  cart, you hear wet, unhurried movement.) Tj
+T*
+(- Gmnotes: Use the wreck as an investigation scene first and a creature reveal second.) Tj
+T*
+(  Player-safe language: body, feeding, blade wound. GM-only truth: staged murder and) Tj
+T*
+(  later Bramble connection.) Tj
+T*
+(- Gmscript: Say: "The carriage stops hard. Ahead of you is a wreck, a body, and) Tj
+T*
+(  something feeding just out of sight. You can rush toward the sound, but you have) Tj
+T*
+(  time to look first. What do you check?" If someone checks the body, say: "The) Tj
+T*
+(  feeding is messy, but the killing wound is clean. This was not done by claws." If) Tj
+T*
+(  they need the roll, call Knowledge or Instinct, Difficulty 12.) Tj
+T*
+(- Gmreadaloud: The path ahead is blocked: a vendor cart lies overturned, its fruit,) Tj
+T*
+(  vegetables, and spilled preserves scattered across the trail. Something has been) Tj
+T*
+(  feeding here. Sweet rot hangs over the copper smell of blood. From the far side of) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4119 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  the cart, you hear wet, unhurried movement.) Tj
+T*
+(- Gmchecklist: Offer investigation before the creature fully reveals. Gate the slit-) Tj
+T*
+(  throat truth behind Garrick's passive read or a Knowledge/Instinct 12 check. Seed) Tj
+T*
+(  the deliberate bramble in the wheel if Barnacle searches the cart. Move to S01-03) Tj
+T*
+(  when they approach the far side, try to clear the cart, or make enough noise to draw) Tj
+T*
+(  the creature out.) Tj
+T*
+(- Gmprivate: The driver was murdered with a blade, then the scene was staged to read) Tj
+T*
+(  as a forest attack. The creature is scavenging. It did not make the killing wound.) Tj
+T*
+(  The bramble in the wheel foreshadows the later ambush. Seed it; do not explain it.) Tj
+T*
+(- Playertakeaway: Someone is dead, the road is blocked, and something alive is feeding) Tj
+T*
+(  on the other side of the cart.) Tj
+T*
+(- Storytakeaway: The wreck looks like a wild-animal attack, but the clean wound and) Tj
+T*
+(  staged cart point to a person behind the violence.) Tj
+T*
+(- Mechanictakeaway: Investigation begins with what a PC examines; roll Knowledge or) Tj
+T*
+(  Instinct only when the answer is uncertain or gated.) Tj
+T*
+(- Rollcards: s01-02-search-tamsin-vell S01-02 Search Tamsin Vell Search Tamsin Vell) Tj
+T*
+(  Instinct Knowledge Instinct Knowledge 12 Instinct notices wounds and threat posture;) Tj
+T*
+(  Knowledge reconstructs the scene. A false monster-read hides the murder. Critical) Tj
+T*
+(  Success: best possible version of the action; gain Hope and clear 1 Stress. Add an) Tj
+T*
+(  extra benefit that follows from the fiction. Success with Hope: the PC gets what) Tj
+T*
+(  they wanted and gains Hope. Keep the position clean or generous. Success with Fear:) Tj
+T*
+(  the PC gets what they wanted, but the GM gains Fear and introduces a cost,) Tj
+T*
+(  complication, or pressure. Failure with Hope: the PC does not get the full result,) Tj
+T*
+(  but gains Hope and receives a useful thread, clue, or safer next option. Failure) Tj
+T*
+(  with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from) Tj
+T*
+(  the fiction. A false monster-read hides the murder. Use a hard complication, lost) Tj
+T*
+(  time, worse position, GM Fear, or mark Stress. Apply an official condition only if) Tj
+T*
+(  the fiction and rules justify it. The attempt falls short, but a partial thread) Tj
+T*
+(  appears. Offer one clue, weak position, or safer follow-up. The PC gets the core) Tj
+T*
+(  result, but it costs time, noise, leverage, or a visible...) Tj
+T*
+(- Entityids: vendor-cart tamsin-vell incident-response-placard keystone-asset) Tj
+T*
+(  sablewood-route-network sablewood-hybrid-fauna sablewood-fear-moments hexmart) Tj
+T*
+(  goldspire-territories sablewoodtm-logistics-preserve goldwater-liability-token) Tj
+T*
+(  cracked-pocket-ward tamsins-home-token bramble-strand bramble-union garrick-reed) Tj
+T*
+(  route-ledger recall-stone sableblade whitefire-custodian strixwolf-mother goldwater-) Tj
+T*
+(  financial-institution barnacle marlowe-fairwind sealed-keystone-crate the-grail) Tj
+T*
+(  corporate-route-bell overturned-wheel-ruts cat-squirrels fox-bats horse-goats) Tj
+T*
+(  strixwolf) Tj
+T*
+(- Entities: vendor-cart Vendor Cart item Item / Asset assets/icons/item.png) Tj
+T*
+(  assets/entities/vendor-cart.png Vendor Cart Overturned cart that blocks the road and) Tj
+T*
+(  sets up the ambush mystery. Wrecked cart and investigation hub Overturned cart that) Tj
+T*
+(  blocks the road and sets up the ambush mystery.; use Vendor Cart as a concrete table) Tj
+T*
+(  object with texture, ownership, and a reason it matters now. Give players a tangible) Tj
+T*
+(  handle on Tamsin Vell, Incident Response Placard, Bramble Strand, whether they) Tj
+T*
+(  inspect, carry, return, trade, or refuse it. Overturned cart that blocks the road) Tj
+T*
+(  and sets up the ambush mystery. tamsin-vell Tamsin Vell npc NPC / Ally) Tj
+T*
+(  assets/icons/npc.png assets/npc-images/tamsin-vell/portrait_base.png TAM-zin VEL The) Tj
+T*
+(  dead driver at the overturned cart; evidence suggests humanoid murder, not just) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3926 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  animal attack. The human cost at the first crime scene. Tamsin Vell a dead delivery) Tj
+T*
+(  driver at an overturned cart, with evidence that a person killed her ordinary,) Tj
+T*
+(  dutiful, dead before the party can learn the whole person In life, finish one more) Tj
+T*
+(  delivery and get home with enough coin to reduce her debt. Her voice is unavailable;) Tj
+T*
+(  use letters, route notes, and small belongings instead. a dead...) Tj
+T*
+(- Factionids: hexmart) Tj
+T*
+(- Locationids: goldspire-territories sablewoodtm-logistics-preserve) Tj
+T*
+(- Itemids: keystone-asset incident-response-placard sableblade recall-stone goldwater-) Tj
+T*
+(  liability-token tamsins-home-token cracked-pocket-ward) Tj
+T*
+(- Clueids: overturned-wheel-ruts bramble-strand route-ledger the-wrong-driver the-off-) Tj
+T*
+(  provisions the-too-neat-wreck no-predator-wounds the-wary-flinch feeding-not-hunting) Tj
+T*
+(  the-late-tracks tamsin-s-wedding-cord) Tj
+T*
+(- Worldconnectionprompts: S01-02-hexmart-world-connection hexmart Hexmart You bought) Tj
+T*
+(  one of these charms once. Did it work? What happened?) Tj
+T*
+(- Statecontrols: slitThroatDiscovered Slit throat discovered checkbox Carry this) Tj
+T*
+(  forward as the first crack in the animal-attack story. brambleSeedFound Bramble seed) Tj
+T*
+(  found checkbox Use only as a seed; do not resolve the later faction connection in) Tj
+T*
+(  Act 1.) Tj
+T*
+(- Mechanicids: action-roll five-outcomes instinct knowledge finesse experiences roll-) Tj
+T*
+(  slider difficulty) Tj
+T*
+(- Playerquestions: What detail in The Overturned Vendor Cart tells you the official) Tj
+T*
+(  story is incomplete? Who notices the human cost first, and how do they show it? What) Tj
+T*
+(  small object, smell, or sound makes this scene feel real? What cheerful warning sign) Tj
+T*
+(  did your character dismiss as marketing copy before realizing it was true?) Tj
+T*
+(- Relationshipprompts: Which PC quietly checks on someone else here? Who disagrees) Tj
+T*
+(  about the right thing to do without breaking trust?) Tj
+T*
+(- Ownershipprompt: Name one detail in The Overturned Vendor Cart that belongs to your) Tj
+T*
+(  character's point of view.) Tj
+T*
+(- Fearspends: Spend Fear to separate true evidence from a tempting false read, or put) Tj
+T*
+(  the carriage/cargo under time pressure. Make the safe road feel less safe: noise,) Tj
+T*
+(  scent, cracked wheel, or cargo hum. Separate evidence from assumption so a monster) Tj
+T*
+(  read is tempting but incomplete.) Tj
+T*
+(- Choicesconsequences: Investigate carefully More clues, less surprise pressure.) Tj
+T*
+(  Bramble Union feels discoverable. Rush to blame the creature The moral test) Tj
+T*
+(  tightens. Strixwolf Blood Debt becomes possible.) Tj
+T*
+(- Lootclues: Use Vendor Cart and Tamsin Vell search tables Keystone Asset?: Inside the) Tj
+T*
+(  sealed crate, packed in wax-paper and reassurance, sits a heavy grey stone the size) Tj
+T*
+(  of a loaf, warm to the touch, faintly humming, with a light deep inside it that is) Tj
+T*
+(  slowly going out. Incident Response Placard?: A flat brass disc on a post holds a) Tj
+T*
+(  watchful glyph and a single cheerful bell. When trouble happens nearby, the glyph) Tj
+T*
+(  lights, the bell rings once, brightly, and then nothing else happens at all.) Tj
+T*
+(  Sableblade: Growing straight up out of dark forest soil, like a sapling that decided) Tj
+T*
+(  to be a sword, is a blade of living dark wood and pale metal. It has no maker's mark) Tj
+T*
+(  and hums when your hand nears the hilt. Recall Stone: A smooth grey pebble feels) Tj
+T*
+(  warm and ordinary until it refuses to stay where you put it. Set it down, look away,) Tj
+T*
+(  and it waits back in your palm. Goldwater Liability Token?: A heavy brass chit with) Tj
+T*
+(  a smiling coin-face drops into your palm like a tiny verdict. The fine print is too) Tj
+T*
+(  small to read without feeling blamed.) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4111 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Handoutids: Route Ledger Bramble Strand Earned seed Earned seed) Tj
+T*
+(- Sourcesceneslug: S01-02-the-overturned-vendor-cart) Tj
+T*
+(- Sourcefiles: Act1_Upgrade_Packet/ACT1_SCENE_UPGRADES.md) Tj
+T*
+(  Act1_Upgrade_Packet/ACT1_PER_CHARACTER.md) Tj
+T*
+(  Goldspire_Location_Packet/02_The_Vendor_Cart.md) Tj
+T*
+(- References: Vendor Cart source) Tj
+T*
+(  sources/Goldspire_Location_Packet/02_The_Vendor_Cart.md Next scene: the creature) Tj
+T*
+(  #S01-03) Tj
+T*
+(- Storyscope: Perceived antagonist: the forest. True antagonist: the corporate lie) Tj
+T*
+(  about the forest. The players never confront it directly. They are meant to feel it) Tj
+T*
+(  by the end. Every act offers at least one guaranteed and one earned hint that the) Tj
+T*
+(  danger is manufactured and the forest is not the enemy. The Strixwolf Mother is) Tj
+T*
+(  feeding pups and guarding them; she reacts to tone, not bloodlust. REFLAVOR) Tj
+T*
+(  GUARANTEED Presence to calm; Instinct to read boundaries The driver died from a cut) Tj
+T*
+(  throat; the strixwolf did not kill him. KEEP EARNED Instinct or Knowledge Medium 15) Tj
+T*
+(  Near the cart is a pre-written Grail "Hazard Confirmed: Strixwolf Attack" tag. ADD) Tj
+T*
+(  EARNED Finesse or Instinct Medium 15 Helping the pups or sparing the mother earns) Tj
+T*
+(  Hope now and can create a later warning boon. ADD SEED The driver died from a cut) Tj
+T*
+(  throat; the strixwolf did not kill him. KEEP EARNED Instinct or Knowledge Medium 15) Tj
+T*
+(  Near the cart is a pre-written Grail "Hazard Confirmed: Strixwolf Attack" tag. ADD) Tj
+T*
+(  EARNED Finesse or Instinct Medium 15 Presence: calm the mother. Instinct: read the) Tj
+T*
+(  scene. Knowledge: notice behavior mismatch. Finesse: search the cart. ACT1 Act 1:) Tj
+T*
+(  Logistics Incident 55 0:30 to 0:55 0:55 cart, strixwolf...) Tj
+T*
+(- Livetools: scene MAP-S01-02 MAP-LOC-goldspire-territories MAP-LOC-sablewoodtm-) Tj
+T*
+(  logistics-preserve MAP-LOC-sablewood-route-network) Tj
+T*
+(- Percharacterlayer: varian-soto Varian Soto Heightened smell at the wreck The blood) Tj
+T*
+(  under the sweet-rot smell is older than the creature's feeding. Other PCs just smell) Tj
+T*
+(  that something is wrong. Instinct 12 Places animal musk as recent, human blood as) Tj
+T*
+(  older, and a faint chemical-leather tang that belongs to neither. Can track which) Tj
+T*
+(  direction the creature came from versus which direction the killer left. Varian,) Tj
+T*
+(  your nose sorts this out faster than the others. The blood here is older than the) Tj
+T*
+(  animal. Want to follow what that tells you? garrick-reed Garrick Reed Ex-security) Tj
+T*
+(  wound read The throat wound is a clean blade cut, not claws or teeth. Someone killed) Tj
+T*
+(  this man. Knowledge or Instinct 12 Confirms a deliberate, practiced cut: an) Tj
+T*
+(  execution staged as an animal attack. Can secure the scene and keep the party calm) Tj
+T*
+(  and methodical. Garrick, you have stood over bodies before. This one's wrong. Want) Tj
+T*
+(  to say how? barnacle Barnacle Rogue staging read The cart was tipped from the wrong) Tj
+T*
+(  side to be a simple accident. Instinct 13 Finds thorny bramble wedged in the) Tj
+T*
+(  carriage wheel and valuables stripped before the creature arrived. Can rig the cart) Tj
+T*
+(  to clear the road quickly or quietly pocket something useful from...) Tj
+T*
+(- Takeawayhelp: Player takeaway Someone is dead, the road is blocked, and something) Tj
+T*
+(  alive is feeding on the other side of the cart. "Three facts: someone is dead, the) Tj
+T*
+(  road is blocked, and something is eating on the other side of that cart. What do you) Tj
+T*
+(  do?" "You can search the cart, approach the body, listen to the thing feeding, hang) Tj
+T*
+(  back and watch, or ask another PC what they notice." Give the table four concrete) Tj
+T*
+(  entry points: cart, body, sound, or position. This prevents the scene from becoming) Tj
+T*
+(  a single forced monster reveal. roleplay table-spotlight Story takeaway The wreck) Tj
+T*
+(  looks like a wild-animal attack, but the clean wound and staged cart point to a) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 4182 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  person behind the violence. "At first glance, this reads like the kind of forest) Tj
+T*
+(  attack the company warns about. The closer you look, the less clean that story) Tj
+T*
+(  gets." "The obvious answer is a creature attack. The discoverable answer is that the) Tj
+T*
+(  driver was killed with a blade first. Knowledge or Instinct 12 confirms it." Do not) Tj
+T*
+(  name the later faction connection to players. Let the first fact stand: animal) Tj
+T*
+(  scavenging is true, but animal murder is false. knowledge instinct Mechanic takeaway) Tj
+T*
+(  Investigation begins with what a PC examines; roll...) Tj
+T*
+(- Playerbeats: S01-02-blocked-road The blocked road The blocked road) Tj
+T*
+(  assets/scenes/S01-02-the-overturned-vendor-cart.png The Overturned Vendor Cart scene) Tj
+T*
+(  art for The Logistics Incident. The carriage stops hard. A vendor cart lies) Tj
+T*
+(  overturned across the bend, with produce and preserves spilled into the mud. The) Tj
+T*
+(  carriage stops hard. A vendor cart lies overturned across the bend, with produce and) Tj
+T*
+(  preserves spilled into the mud. The carriage stops hard. A vendor cart lies) Tj
+T*
+(  overturned across the bend, with produce and preserves spilled into the mud. text-) Tj
+T*
+(  first S01-02-wreckage The wreckage The wreckage assets/scenes/S01-02-the-overturned-) Tj
+T*
+(  vendor-cart.png The Overturned Vendor Cart scene art for The Logistics Incident. The) Tj
+T*
+(  cart is torn open, but not cleanly. The wheel is jammed, the spilled food masks the) Tj
+T*
+(  blood smell, and the far side stays just out of sight. The cart is torn open, but) Tj
+T*
+(  not cleanly. The wheel is jammed, the spilled food masks the blood smell, and the) Tj
+T*
+(  far side stays just out of sight. The cart is torn open, but not cleanly. The wheel) Tj
+T*
+(  is jammed, the spilled food masks the blood smell, and the far side stays just out) Tj
+T*
+(  of sight. text-first S01-02-body The body The body...) Tj
+T*
+(- Gmbeats: S01-02-blocked-road The blocked road The blocked road Say: "The road is) Tj
+T*
+(  blocked. Before anyone touches the body or the sound on the far side, where does) Tj
+T*
+(  your character look first?" The carriage stops hard. A vendor cart lies overturned) Tj
+T*
+(  across the bend, with produce and preserves spilled into the mud. The road encounter) Tj
+T*
+(  starts as a mystery, not a fight. Spotlight can move PC by PC before a roll is) Tj
+T*
+(  needed. The first choice is where to put attention. Player takeaway The first choice) Tj
+T*
+(  is where to put attention. "The road is blocked. Before anyone touches the body or) Tj
+T*
+(  the sound on the far side, where does your character look first?" "The playable) Tj
+T*
+(  facts are: The carriage stops hard. A vendor cart lies overturned across the bend,) Tj
+T*
+(  with produce and preserves spilled into the mud. You can respond to one of those) Tj
+T*
+(  facts directly, ask a question about it, or invite another PC into the moment.") Tj
+T*
+(  Active GM line: Say: "The road is blocked. Before anyone touches the body or the) Tj
+T*
+(  sound on the far side, where does your character look first?" Player-facing display) Tj
+T*
+(  text: The carriage stops hard. A vendor cart lies overturned across the bend, with) Tj
+T*
+(  produce and preserves spilled into the mud. roleplay...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 8000) Tj
+T*
+(- Playersafeprojection: S01-02 scene The Overturned Vendor Cart) Tj
+T*
+(  assets/scenes/S01-02-the-overturned-vendor-cart.png The Overturned Vendor Cart scene) Tj
+T*
+(  art for The Logistics Incident. The overturned cart gives the party a mystery before) Tj
+T*
+(  it gives them a fight. The Logistics Incident Figure out what happened here and) Tj
+T*
+(  clear the road. Your steeds haul the carriage around a tight bend and stop hard. The) Tj
+T*
+(  path ahead is blocked: a vendor cart lies overturned, its fruit, vegetables, and) Tj
+T*
+(  spilled preserves scattered across the trail. Something has been feeding here. The) Tj
+T*
+(  air is wrong: sweet rot and something underneath it, coppery. From the far side of) Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 1478 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  the cart, you hear wet, unhurried movement. S01-02-blocked-road The blocked road The) Tj
+T*
+(  blocked road assets/scenes/S01-02-the-overturned-vendor-cart.png The Overturned) Tj
+T*
+(  Vendor Cart scene art for The Logistics Incident. The carriage stops hard. A vendor) Tj
+T*
+(  cart lies overturned across the bend, with produce and preserves spilled into the) Tj
+T*
+(  mud. The carriage stops hard. A vendor cart lies overturned across the bend, with) Tj
+T*
+(  produce and preserves spilled into the mud. The carriage stops hard. A vendor cart) Tj
+T*
+(  lies overturned across the bend, with produce and preserves spilled into the...) Tj
+T*
+(- Companionmapids: MAP-S01-02 MAP-LOC-goldspire-territories MAP-LOC-sablewoodtm-) Tj
+T*
+(  logistics-preserve MAP-LOC-sablewood-route-network) Tj
+T*
+(- Slidenumber: 25) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+(- Spotlights: SPOT-C-GARRICK-EARLY garrick-reed Garrick Reed early S01-02 high) Tj
+T*
+(  optional first-use social action Garrick, Open the Room Ex-security warmth opens the) Tj
+T*
+(  first social beat. Garrick, you are the trusted face. Take the lead and make the) Tj
+T*
+(  first ask. Spotlight: Garrick wiki/character/garrick in-scene-prompts character) Tj
+T*
+(  defer-if-clock-critical True True) Tj
+T*
+(- Spotlightsummary: 1) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 3ff5de1ac4d72797 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R 12 0 R] /Count 6 >>
+endobj
+14 0 obj
+<< /Type /Catalog /Pages 13 0 R >>
+endobj
+15 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000009 00000 n 
+0000002872 00000 n 
+0000003000 00000 n 
+0000007171 00000 n 
+0000007299 00000 n 
+0000011277 00000 n 
+0000011405 00000 n 
+0000015568 00000 n 
+0000015696 00000 n 
+0000019930 00000 n 
+0000020059 00000 n 
+0000021590 00000 n 
+0000021720 00000 n 
+0000021810 00000 n 
+0000021861 00000 n 
+trailer
+<< /Size 16 /Root 14 0 R >>
+startxref
+21934
+%%EOF

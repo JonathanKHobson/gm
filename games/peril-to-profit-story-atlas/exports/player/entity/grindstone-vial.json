@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "grindstone-vial",
+  "kind": "entity",
+  "title": "Grindstone Vial",
+  "in_world_label": "Provisioning Product Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Item / Asset",
+  "hook": "Player-safe note: Next damage roll adds +1d6.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Grindstone Vial: Next damage roll adds +1d6."
+    },
+    {
+      "label": "Player Read",
+      "body": "Player-safe note: Next damage roll adds +1d6."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Inspect the label, maker, or fine print.",
+    "Use it only when the fiction says you can reach it."
+  ],
+  "archetype": "item.product_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:grindstone-vial",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "aa302ccf6e741391",
+  "generated_at": "2026-06-23T21:40:58"
+}

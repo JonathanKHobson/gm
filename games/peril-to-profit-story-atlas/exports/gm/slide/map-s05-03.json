@@ -1,0 +1,66 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "MAP-S05-03",
+  "title": "MAP-S05-03 - Holding the Line Tactical Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "590be2a2ca976d4c",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The ritual clearing becomes a battlefield because the ward itself is under pressure. The Custodian and Keystone hold the center while old security bodies and audit-cold spirits test every gap around them."
+    },
+    {
+      "title": "Public objective",
+      "body": "The ritual clearing becomes a battlefield because the ward itself is under pressure. The Custodian and Keystone hold the center while old security bodies and audit-cold spirits test every gap around them."
+    },
+    {
+      "title": "GM goal",
+      "body": "Clarify first-wave positioning without replacing the finale hub map."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "The Custodian and Keystone hold the center; PCs form a protective ring while skeletons rise Close and wraiths pressure from Far.",
+        "Skeletons rise from Close ground; Wraiths drift from Far edges toward the ritual center.",
+        "Relentless but procedural; threats follow old infrastructure logic."
+      ]
+    },
+    {
+      "title": "GM script",
+      "body": "Say: \"This is the tactical view for holding the line: center, defensive ring, emergence points, and clustering danger.\""
+    },
+    {
+      "title": "State controls",
+      "items": [
+        "strixwolf_disposition Strixwolf Disposition select unresolved calm hostile killed",
+        "strixwolf_outcome Strixwolf Outcome select unresolved calmed helped avoided attacked killed",
+        "strixwolf_trust Strixwolf Trust number 3",
+        "strixwolf_blood_debt Strixwolf Blood Debt checkbox",
+        "bramble_outcome Bramble Outcome select unresolved killed captured spared negotiated escaped let_cargo",
+        "bramble_truth_learned Bramble Truth Learned checkbox",
+        "package_status Package Status select held lost",
+        "hush_trust Hush Trust select low neutral high",
+        "custodian_route Custodian Route select unknown safe dangerous",
+        "ward_awareness Ward Awareness select none seed aware",
+        "festival_boon Festival Boon select none charm favor market_find goodwill",
+        "custodian_trust Custodian Trust select low neutral high",
+        "ward_stability Ward Stability select fragile stable",
+        "ritual_prep Ritual Prep select unready ready",
+        "keystone_understanding Keystone Understanding select surface deep",
+        "hush_clues Hush Clues select none custodian_route ward_seed corporate_seam farm_seed market_rumor multiple",
+        "ritual_countdown Ritual Countdown number 10 8",
+        "ritual_outcome Ritual Outcome select unresolved clean costly pyrrhic",
+        "protected_whom Protected Whom select unresolved custodian party hush shared",
+        "custodian_fate Custodian Fate select unresolved well drained dying"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 590be2a2ca976d4c | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

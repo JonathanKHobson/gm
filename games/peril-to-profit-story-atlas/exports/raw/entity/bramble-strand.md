@@ -1,0 +1,49 @@
+# Bramble Strand
+
+RAW export - entity:bramble-strand
+
+## Player-facing description
+Bramble Strand: Thorny bramble tangled around the wheel, pointing beyond animal attack.
+
+## Public role
+Evidence of ambush setup
+
+## Handout text
+Player-safe note: Thorny bramble tangled around the wheel, pointing beyond animal attack.
+
+## Raw source
+- Type: clue
+- Role: Evidence of ambush setup
+- Tags: clue evidence obvious
+- Summary: A length of thorned bramble is wound tight around the wheel-spokes — deliberate, woven, not snagged in passing.
+- Connections: Vendor Cart Bramble Union Bramble Strand
+- Loot: Clue item.
+- Name: Bramble Strand
+- Id: bramble-strand
+- Meta: Clue / Evidence CLUE assets/icons/clue.png entity-clue #48c7e8 07 Items and Clues entities clue
+- Aliases: Bramble Strand bramble strand thorny bramble
+- Appears In: S01-02 S02-01
+- Related: Bramble Strand Bramble Union S01-02 S02-01 Vendor Cart
+- Image Prompt: Private table TTRPG story atlas asset for Bramble Strand, Clue / Evidence. Role: Evidence of ambush setup. Summary: A length of thorned bramble is wound tight around the wheel-spokes — deliberate, woven, not snagged in passing.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: Thorny bramble tangled around the wheel, pointing beyond animal attack.; make it tactile enough that the players can point to it, carry it, compare it, or show it to someone.
+- Wants: Move suspicion toward Vendor Cart, Bramble Union without requiring a lore lecture.
+- Fears: Being pocketed as trivia, missed because it looks mundane, or separated from the person it can help.
+- Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.
+- Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.
+- Sample Dialogue: Thorny bramble tangled around the wheel, pointing beyond animal attack.
+- Equipment: No equipment; use as context, place, faction, mechanic, or clue rather than treasure.
+- Search Or Loot: Clue item.
+- Gm Use: Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.
+- Future Hooks: A spared reclaimer can become a future informant or complication.
+- Robust: Bramble Strand: Thorny bramble tangled around the wheel, pointing beyond animal attack. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Move suspicion toward Vendor Cart, Bramble Union without requiring a lore lecture. Being pocketed as trivia, missed because it looks mundane, or separated from the person it can help. Use when the scene needs a concrete object for players to inspect, carry, debate, or remember. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Bramble Strand and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the institutional pattern. Wildborne / community: notices local use, neglect, or ecological stress. Martial /...
+- Mechanics: Discovery / Earn-It Mechanics Players can inspect, handle, keep, trade, reveal, or earn Bramble Strand when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A length of thorned bramble is wound tight around the wheel-spokes — deliberate, woven, not snagged in passing. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-bramble-strand-engage-bramble-strand entity-bramble-strand Engage Bramble Strand Engage Bramble Strand Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Bramble Strand hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope...
+- Pronunciation: BRAM-bul STRAND
+- Short Pronunciation: BRAM-bul Strand
+- Clue Profile: clue-profile-v1 bramble-strand bramble-strand Bramble Strand Bramble Strand BRAM-bul STRAND physical True Bramble Strand A length of thorned bramble is wound tight around the wheel-spokes — deliberate, woven, not snagged in passing. A length of thorned bramble is wound tight around the wheel-spokes — deliberate, woven, not snagged in passing. A length of thorned bramble is wound tight around the wheel-spokes — deliberate, woven, not snagged in passing. bramble-strand Bramble Strand BRAM-bul STRAND physical a thinking hand jammed the wheel; this points past "animal attack." OBVIOUS The Ambush Reveal the-ambush-reveal Moves suspicion away from bad luck or a random beast and toward a planned trap. pages/entities/bramble-strand.html pages/clues/the-ambush-reveal.html A length of thorned bramble is wound tight around the wheel-spokes — deliberate, woven, not snagged in passing. a thinking hand jammed the wheel; this points past "animal attack." "there's bramble in the wheel." "it's wound on purpose, not caught." "someone rigged this wheel with bramble." "this was sabotage, by hands that know the thorns." Bramble Claim Marker Torn Shipping Seals bramble-claim-marker torn-shipping-seals...
+- Clue Links: bramble-strand Bramble Strand The Ambush Reveal MANDATORY S01-02 S02-01 Finesse D11 Instinct D11 Knowledge D11 If the clue is plainly visible, give the SHOW text freely first: A length of thorned bramble is wound tight around the wheel-spokes — deliberate, woven, not snagged in passing. With Fear on Agility, give the clue but add bite: The first read points toward bad road luck or a panicked driver instead of a staged ambush. The truth remains reachable, but it costs time, attention, trust, or a new complication.
+- Image: assets/clue-images/bramble-strand/profile_base.webp
+- Image Asset Status: clue_visual_profile
+- Visual Gallery: primary Primary wiki image primary assets/clue-images/bramble-strand/profile_base.webp Bramble Strand primary wiki image visual. Bramble Strand: Primary wiki image. clue_visual_profile True True
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 5b333dbc9a26fc2d | Source hash dac3370046ed077140fab2d6

@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S06-01",
+  "kind": "slide",
+  "title": "S06-01 - Back in the Hanging Office",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Epilogue: Beyond the Contract",
+  "hook": "An hour later, back in the treehouse, the Keystone hangs suspended above a rumbling hearth-fire, glowing soft and settled. The Custodian, older now, the night's work plain in her voice, folds into an over-stuffed...",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "An hour later, back in the treehouse, the Keystone hangs suspended above a rumbling hearth-fire, glowing soft and settled. The Custodian, older now, the night's work plain in her voice, folds into an over-stuffed chair. \"You fought hard. I'm not surprised..."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Rest, receive your due, and reckon with the choice you made."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:S06-01",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "89ce7820f49bddf0",
+  "generated_at": "2026-06-23T21:40:58"
+}

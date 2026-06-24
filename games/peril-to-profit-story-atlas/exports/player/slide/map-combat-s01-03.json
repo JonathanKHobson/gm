@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "MAP-COMBAT-S01-03",
+  "kind": "slide",
+  "title": "MAP-COMBAT-S01-03 - Creature Mercy / Defensive Escalation Battlefield",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act One: The Logistics Incident",
+  "hook": "The road tightens around the wreck. The creature plants herself between you and the young, wings half-open, claws in the mud. The cart, the ditch, and the low branches turn the bend into a narrow standoff.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "The road tightens around the wreck. The creature plants herself between you and the young, wings half-open, claws in the mud. The cart, the ditch, and the low branches turn the bend into a narrow standoff."
+    },
+    {
+      "label": "Public Objective",
+      "body": "The road tightens around the wreck. The creature plants herself between you and the young, wings half-open, claws in the mud. The cart, the ditch, and the low branches turn the bend into a narrow standoff."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:MAP-COMBAT-S01-03",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "a864b67550188c4a",
+  "generated_at": "2026-06-23T21:40:58"
+}

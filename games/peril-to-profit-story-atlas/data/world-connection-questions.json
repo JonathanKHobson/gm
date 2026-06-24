@@ -1,0 +1,35 @@
+{
+  "storageKey": "goldspire-faction-answers-v1",
+  "session_zero": [
+    "There is a company everyone in the territories deals with that you personally do not trust. What is it to you, and what did it cost you?",
+    "You have carried freight before. Tell me about the one parcel you wish you had never agreed to move.",
+    "Somebody you knew got buried in debt they could not climb out of. Who were they to you, and who held the note?",
+    "What slogan have you heard so many times you can recite it in your sleep, and how do you feel when you hear it now?",
+    "You have met one of the undead laborers up close. What did that encounter leave you believing?",
+    "Name a place out here that felt wrong the moment you stepped into it. What was off?",
+    "Who taught you not to trust the people in nice livery? What happened to them?",
+    "What small kindness did a stranger do for you on the road that you have never forgotten?"
+  ],
+  "in_scene": {
+    "courier": "You have worked a job like this before. What is the part of the contract you learned to read twice?",
+    "bramble": "You have been desperate enough to do something you are not proud of. What was it, and would you do it again to eat?",
+    "goldwater": "You owe someone, or someone owes you. Which is it, and how does it sit with you?",
+    "soulspire": "You knew this undead laborer was a person once. What do you imagine they were, before?",
+    "undead": "You knew this skeleton was a person once. What do you imagine they were, before?",
+    "hexmart": "You bought one of these charms once. Did it work? What happened?",
+    "grail": "You have been protected by people like this. Did you feel safer, or watched?",
+    "co-op": "Somewhere out here once felt like home for a night. Tell us about it.",
+    "builder": "You once trusted a wall, bridge, or ward someone else built. What made you trust it?",
+    "board": "Something about the paperwork repeats too neatly. What detail makes your character uneasy?"
+  },
+  "npc": [
+    "You have met someone like this before. What did they want from you, and did they get it?",
+    "This person reminds you of someone. Who, and is that a good memory or a bad one?",
+    "What is the first thing your character notices about them that the rest of us might miss?"
+  ],
+  "location": [
+    "You have passed through somewhere like this. What rumor did you hear about it?",
+    "What does this place smell like to you, and what memory does that smell drag up?",
+    "Your character knows one useful, true thing about a place like this. What is it?"
+  ]
+}

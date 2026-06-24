@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S04-05",
+  "kind": "slide",
+  "title": "S04-05 - Toward Open Vale",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act Four: The Hanging Office",
+  "hook": "The Custodian gathers what she needs with the brisk energy of someone much younger than she looks. \"The Open Vale is where the ward was first forged,\" she says. \"It is where it must be renewed.\" She looks at each of...",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "The Custodian gathers what she needs with the brisk energy of someone much younger than she looks. \"The Open Vale is where the ward was first forged,\" she says. \"It is where it must be renewed.\" She looks at each of you in turn. \"I cannot do this alone, and..."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Commit to the ritual and set out for the Open Vale."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:S04-05",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "d4724dd8fae121c3",
+  "generated_at": "2026-06-23T21:40:58"
+}

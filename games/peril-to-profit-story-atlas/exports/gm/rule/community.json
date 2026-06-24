@@ -1,0 +1,49 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "community",
+  "title": "Community",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "2f49f214a32591ef",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "A character's social origin and the official feature tied to that origin."
+    },
+    {
+      "title": "How it works",
+      "body": "Use at character creation and when a PC's upbringing explains what they know, fear, or notice."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use at character creation and when a PC's upbringing explains what they know, fear, or notice.",
+        "Use the printed community feature and let the background shape how the same clue is discovered.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "What does community do?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "heritage",
+        "ancestry",
+        "experiences"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 2f49f214a32591ef | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

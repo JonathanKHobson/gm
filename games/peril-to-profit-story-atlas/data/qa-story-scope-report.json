@@ -1,0 +1,172 @@
+{
+  "pass": true,
+  "check_count": 33,
+  "issue_count": 0,
+  "checks": [
+    {
+      "name": "required story-scope output exists: data/story-scope.json",
+      "ok": true,
+      "detail": "data/story-scope.json"
+    },
+    {
+      "name": "required story-scope output exists: data/gm-future-thread.json",
+      "ok": true,
+      "detail": "data/gm-future-thread.json"
+    },
+    {
+      "name": "required story-scope output exists: pages/settings.html",
+      "ok": true,
+      "detail": "pages/settings.html"
+    },
+    {
+      "name": "required story-scope output exists: pages/story-outline.html",
+      "ok": true,
+      "detail": "pages/story-outline.html"
+    },
+    {
+      "name": "required story-scope output exists: pages/storyboard.html",
+      "ok": true,
+      "detail": "pages/storyboard.html"
+    },
+    {
+      "name": "required story-scope output exists: pages/story.html",
+      "ok": true,
+      "detail": "pages/story.html"
+    },
+    {
+      "name": "required story-scope output exists: run.html",
+      "ok": true,
+      "detail": "run.html"
+    },
+    {
+      "name": "required story-scope output exists: index.html",
+      "ok": true,
+      "detail": "index.html"
+    },
+    {
+      "name": "story-scope manifest uses exact antagonist line",
+      "ok": true,
+      "detail": "Perceived antagonist: the forest. True antagonist: the corporate lie about the forest. The players never confront it directly. They are meant to feel it by the end."
+    },
+    {
+      "name": "homepage presents perceived-vs-true antagonist line",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "story outline presents perceived-vs-true antagonist line",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "old no-clear-antagonist framing is absent",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "every generated scene has story_scope data",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "every Run Mode scene slide has storyScope data",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "every act seed menu includes GUARANTEED and EARNED depth",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "scene seeds are tagged KEEP/REFLAVOR/ADD/SEED plus GUARANTEED/EARNED/FLAG",
+      "ok": true,
+      "detail": "31"
+    },
+    {
+      "name": "run clock start controls appear only on Home and Run Mode",
+      "ok": true,
+      "detail": "[\n  \"run.html\",\n  \"index.html\"\n]"
+    },
+    {
+      "name": "run clock chip exists in shared navigation",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "run clock uses localStorage persistence",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "run clock supports Pause, Stop, Restart, Reset, Advance, and time adjustment",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "run clock supports break mode and break-handled controls",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "run clock supports notice tray, snooze/dismiss, and modal escalation",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "run clock panel is fixed top-layer UI with attention animation",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "run clock supports colored non-blocking and critical alert styling",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "run clock schedule has seven target endpoints",
+      "ok": true,
+      "detail": "7"
+    },
+    {
+      "name": "theme controls appear only on Settings page",
+      "ok": true,
+      "detail": "[\n  \"pages/settings.html\"\n]"
+    },
+    {
+      "name": "persistent theme bar has been removed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Settings page explains theme relocation",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "future-thread canon is stored in GM-only data file",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "future-thread canon has a GM wiki page",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "future-thread canon does not leak into player-facing pages",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Obsidian hub mirrors perceived-vs-true antagonist line",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Obsidian scene notes mirror manufactured-threat seeds",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}

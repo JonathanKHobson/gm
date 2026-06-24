@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "ritual-countdown",
+  "kind": "entity",
+  "title": "Ritual Countdown",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Mechanic",
+  "hook": "Player-safe note: Countdown die tracks progress of the ward renewal.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Countdown die tracks progress of the ward renewal."
+    },
+    {
+      "label": "How It Works",
+      "body": "Act Five progress clock"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use this when your action is uncertain and consequences matter.",
+    "Ask which trait fits your method."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:ritual-countdown",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "afbfbac763dd6c63",
+  "generated_at": "2026-06-23T21:40:58"
+}

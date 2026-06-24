@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "sablewood-fear-moments",
+  "title": "Sablewood Fear Moments",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "9588a8f333fc97d3",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Sablewood Fear Moments: GM pressure beats: overturned carts, twig snaps, name-echoing wind, watching eyes, seal theft, tiger-elk violence, pit traps, thorns drinking blood, and old soul-debt credentials."
+    },
+    {
+      "title": "Public role",
+      "body": "Fear table for Sablewood pressure texture"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: GM pressure beats: overturned carts, twig snaps, name-echoing wind, watching eyes, seal theft, tiger-elk violence, pit traps, thorns drinking blood, and old soul-debt credentials."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use when the scene needs a concrete object for players to inspect, carry, debate, or remember."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 9588a8f333fc97d3 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

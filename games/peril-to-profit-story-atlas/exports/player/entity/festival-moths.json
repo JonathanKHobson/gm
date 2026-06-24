@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "festival-moths",
+  "kind": "entity",
+  "title": "Festival Moths",
+  "in_world_label": "Field Guide Page",
+  "brand_flag": "Player-safe",
+  "kicker": "Creature / Animal",
+  "hook": "Player-safe note: Festival moths gather around Firstmoss lanterns in bright clouds, turning every porch into a tiny stage and every serious speech into a potential sneeze.",
+  "blocks": [
+    {
+      "label": "Observed Form",
+      "body": "Give one concrete visual, one sound or texture, and one sign of who has used or neglected it."
+    },
+    {
+      "label": "Behavior",
+      "body": "Festival moths gather around Firstmoss lanterns in bright clouds, turning every porch into a tiny stage and every serious speech into a potential sneeze.; show instinct first through distance, posture, scent, and how the creature protects..."
+    },
+    {
+      "label": "Warning Signs",
+      "body": "Being surrounded, misread as a monster, or driven toward Firstmoss Launch Festival, Hush, The Sunless Farms by noise and haste."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Give it distance before deciding it is hostile.",
+    "Read posture, tracks, and what it is protecting."
+  ],
+  "archetype": "creature.field_guide",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:festival-moths",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "e3c4ff1c4a79f28d",
+  "generated_at": "2026-06-23T21:40:58"
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "MAP-LOC-sablewood-route-network",
+  "kind": "slide",
+  "title": "MAP-LOC-sablewood-route-network - Sablewood Route Network Location Map",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act One: The Logistics Incident",
+  "hook": "Sunken, well-worn routes through Sablewood where licensed knowledge, family route-data, and corporate coverage determine who is allowed to be safe.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "Sunken, well-worn routes through Sablewood where licensed knowledge, family route-data, and corporate coverage determine who is allowed to be safe."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Sunken, well-worn routes through Sablewood where licensed knowledge, family route-data, and corporate coverage determine who is allowed to be safe."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:MAP-LOC-sablewood-route-network",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "984a2d23b84dcfdb",
+  "generated_at": "2026-06-23T21:40:58"
+}

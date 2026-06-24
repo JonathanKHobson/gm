@@ -1,0 +1,95 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "scene",
+  "id": "S01-04",
+  "title": "S01-04 - The First Roll",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "84fdf4bb90849359",
+  "sections": [
+    {
+      "title": "Player read-aloud",
+      "body": "The strixwolf lowers her head. Her feathers rise along her spine. The pups go still. What do you do?"
+    },
+    {
+      "title": "Scene summary",
+      "body": "The first action roll determines whether the strixwolf calms, retreats, snaps, or trusts."
+    },
+    {
+      "title": "Visible choices",
+      "items": [
+        "Roll Presence",
+        "Use food or magic",
+        "Let ranger/animal expert approach",
+        "Strike first"
+      ]
+    },
+    {
+      "title": "Player questions",
+      "items": [
+        "What detail in The First Roll tells you the official story is incomplete?",
+        "Who notices the human cost first, and how do they show it?",
+        "What small object, smell, or sound makes this scene feel real?"
+      ]
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: S01-04",
+        "Act: Act One",
+        "Title: The First Roll",
+        "Beats: Roll/check Meaningful choice Payoff Consequence",
+        "Image: assets/scenes/S01-04-the-first-roll.webp",
+        "Short: The first action roll determines whether the strixwolf calms, retreats, snaps, or trusts.",
+        "Long: This roll teaches Daggerheart and sets an early ethical tone. A compassionate party may earn a future warning. A violent party may alert the true ambushers.",
+        "Read: The strixwolf lowers her head. Her feathers rise along her spine. The pups go still. What do you do?",
+        "Gm: Track Strixwolf Mercy. Good treatment can pay off as warning before the Bramble Union ambush.",
+        "Entities: Strixwolf Mother Disposition / Resolution Track Goldspire Territories Sablewood™ Logistics Preserve Corporate Route Bell Bramble Union Marlowe Fairwind Duality Dice Bramble Union Ambusher Varian Soto Sealed Keystone Crate Vendor Cart",
+        "Choices: Roll Presence Use food or magic Let ranger/animal expert approach Strike first",
+        "Prompt: Close emotional encounter: one adventurer cautiously extends a hand toward protective strixwolf mother and pups; rest of party waits; tense but not violent; no Bramble Union, no undead.",
+        "Source Entities: Strixwolf Mother Strixwolf Mercy Track",
+        "Beat Codes: roll-check meaningful-choice payoff consequence",
+        "Slug: S01-04-the-first-roll",
+        "Act Title: The Logistics Incident",
+        "Arc Role: Threshold into branded wilderness and first moral test",
+        "Caption: The first meaningful roll teaches that this adventure is about judgment, not just success.",
+        "Image Alt: The First Roll scene art for The Logistics Incident.",
+        "Image Prompt Used: Close emotional encounter: one adventurer cautiously extends a hand toward protective strixwolf mother and pups; rest of party waits; tense but not violent; no Bramble Union, no undead. Do not include undead, skeletons, wraiths, Open Vale, the Custodian, or the Hanging Office. 4:3 cinematic fantasy concept art, no visible text, no captions, no logos, no UI, no watermark.",
+        "Long Storyboard: This roll teaches Daggerheart and sets an early ethical tone. A compassionate party may earn a future warning. A violent party may alert the true ambushers. Run this scene as threshold into branded wilderness and first moral test: The first meaningful roll teaches that this adventure is about judgment, not just success. Keep the camera close to practical choices, visible consequences, and the difference between ordinary people and the infrastructure pressing on them.",
+        "Read Aloud: The strixwolf lowers her head. Her feathers rise along her spine. The pups go still. What do you do?",
+        "Gm Notes: Track Strixwolf Mercy. Good treatment can pay off as warning before the Bramble Union ambush. Keep player-facing information actionable. Reveal systemic truth through objects, reactions, and consequences before naming it. Manufactured-threat lens: seed the contradiction, do not explain it. The surface goal stays simple and heroic.",
+        "Sensory Details: leaves shaking after the mother retreats the crate answering with one low pulse a corporate route bell too cheerful for the scene",
+        "Body Language: Varian's bow lowers slowly Marlowe makes herself stop staring at the blood",
+        "Sample Dialogue: Marlowe Fairwind Good. We kept the job intact and did not make the world smaller.",
+        "Checks: Any relevant approach Resolve fallout from the creature encounter. Easy to hard by choice Record trust, blood debt, or neutral outcome. 20 Cleanly resolve: Resolve fallout from the creature encounter. Add a concrete boon, extra clue, or improved position. Success, plus the player names one helpful detail or asks one follow-up question. Success, but the GM exposes a cost, ticks a countdown, or reveals a new pressure tied to The First Roll. The full goal slips, but the party still learns a useful truth or avoids the worst consequence. The GM makes a hard move that follows from the fiction and leaves the next choice visible. Spend Fear to reveal omitted risk, split attention, or put a human cost in front of the contract. On mixed or sliding results, reveal information in layers: visible fact, actionable clue, then systemic truth.",
+        "Choices Consequences: Pause to reassess The party earns a cleaner investigation beat. Lower Act Two surprise risk. Push forward The job stays on schedule. The ambush feels sharper.",
+        "Clues: Feather token A sign of danger. GM can use it to foreshadow the ambush. Only appears if mercy was shown.",
+        "Loot: Feather warning token Recovered cart supply",
+        "Payoff Flags: Strixwolf Mercy Track",
+        "Filters: act-one choice consequence gm-only meaningful-choice payoff rollcheck strixwolf-mercy-track the-logistics-incident manufactured-threat guaranteed-earned",
+        "Index: 4",
+        "Player Questions: What detail in The First Roll tells you the official story is incomplete? Who notices the human cost first, and how do they show it? What small object, smell, or sound makes this scene feel real?",
+        "Relationship Prompts: Which PC quietly checks on someone else here? Who disagrees about the right thing to do without breaking trust?",
+        "Ownership Prompt: Name one detail in The First Roll that belongs to your character's point of view.",
+        "Reveal Hooks: Loreborne or Knowledge-focused PCs can read the institutional layer. Wildborne/community-focused PCs can read local custom and ecological stress. Martial/security-focused PCs can read threat posture and custody logic. Magic-focused PCs can feel ward tone, soul-signal, or spell instability. Loreborne: spots older legal, heraldic, or ward-craft language under the branding. Underborne: notices service doors, hidden routes, and who built the thing nobody credits. Highborne: reads etiquette, class panic, and reputational risk. Ridgeborne: notices stonework, weight, pressure, and structural weakness. Wildborne: reads the land, animals, and local ecological stress. Elf/Ribbet/Human/Giant/Katari: invite one sensory or social detail from the player's heritage. Sorcerer/Rogue/Warrior/Guardian/Ranger: give each class one table-facing way to shine without changing the plot.",
+        "Fear Spends: Spend Fear to reveal omitted risk, split attention, or put a human cost in front of the contract. Make the safe road feel less safe: noise, scent, cracked wheel, or cargo hum. Separate evidence from assumption so a monster read is tempting but incomplete.",
+        "Story Scope: Perceived antagonist: the forest. True antagonist: the corporate lie about the forest. The players never confront it directly. They are meant to feel it by the end. Every act offers at least one guaranteed and one earned hint that the danger is manufactured and the forest is not the enemy. The Strixwolf Mother is feeding pups and guarding them; she reacts to tone, not bloodlust. REFLAVOR GUARANTEED Presence to calm; Instinct to read boundaries The driver died from a cut throat; the strixwolf did not kill him. KEEP EARNED Instinct or Knowledge Medium 15 Near the cart is a pre-written Grail \"Hazard Confirmed: Strixwolf Attack\" tag. ADD EARNED Finesse or Instinct Medium 15 Helping the pups or sparing the mother earns Hope now and can create a later warning boon. ADD SEED Presence: calm the mother. Instinct: read the scene. Knowledge: notice behavior mismatch. Finesse: search the cart. ACT1 Act 1: Logistics Incident 55 0:30 to 0:55 0:55 cart, strixwolf, first rolls, clues Skip the staged-bramble earned seed; move to ambush sooner.",
+        "Mechanics: The party is in Act One pressure: The first action roll determines whether the strixwolf calms, retreats, snaps, or trusts. Use Daggerheart Duality Dice as baseline. Use the listed Difficulty and outcome options when a roll matters. Keep trivial actions no-roll; roll only when uncertainty, cost, or danger is interesting. s01-04-make-the-first-meaningful-roll-matter S01-04 Make the first meaningful roll matter Make the first meaningful roll matter Presence Instinct Presence Instinct 12 This is the teaching roll: ask what the PC does, choose the trait, then show Hope/Fear. The table learns that the roll changes the fiction, not just pass/fail. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make...",
+        "Roll Cards: s01-04-make-the-first-meaningful-roll-matter S01-04 Make the first meaningful roll matter Make the first meaningful roll matter Presence Instinct Presence Instinct 12 This is the teaching roll: ask what the PC does, choose the trait, then show Hope/Fear. The table learns that the roll changes the fiction, not just pass/fail. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. The table learns that the roll changes the fiction, not just pass/fail. Use a hard complication, lost time, worse position, GM Fear, or mark Stress. Apply an official condition only if the fiction and rules justify it. The attempt falls short, but a partial thread appears. Offer...",
+        "Conditions Hazards: No official condition unless a feature, hazard, or fictional position calls for Hidden, Restrained, or Vulnerable.",
+        "Search Loot Clues: No fixed loot. Offer clue, texture, or hospitality only when the fiction supports it.",
+        "No Roll Guidance: Do not call for a roll when the players have time, a clear method, and no meaningful pressure.",
+        "Tv Mechanics Caption: Public cue: The First Roll asks what the party does, what it costs, and who is protected.",
+        "Trait Variety Note: Primary traits in this scene: Instinct, Presence. If rolls drift toward Instinct/Presence, ask whether Agility, Strength, Finesse, or Knowledge better describes the action.",
+        "Location Ids: goldspire-territories sablewoodtm-logistics-preserve",
+        "Image Asset Status: image_gen"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 84fdf4bb90849359 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

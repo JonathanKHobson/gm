@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "fidget",
+  "kind": "entity",
+  "title": "Fidget",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "a restless child guide who knows the fastest ways through the village",
+  "hook": "a restless child guide who knows the fastest ways through the village",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "A small goblin guide grins under a mop of green-black hair, layered in beads, little bells, festival cloth, and trinkets that clink before they arrive."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "Restless, sharp, and starved to be useful before the grown-ups decide the useful part is over. Reads people fast and forgives slow. The bead strings are a walking map only Fidget can fully read: blue for water, brass for tolls, bone-white for the places..."
+    },
+    {
+      "label": "Might Offer",
+      "body": "A route A local question A reminder that Hush is lived-in"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "A route",
+    "A local question",
+    "A reminder that Hush is lived-in"
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:fidget",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "fddbfc661b764c6e",
+  "generated_at": "2026-06-23T21:40:58"
+}

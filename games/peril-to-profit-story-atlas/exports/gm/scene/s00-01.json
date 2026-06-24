@@ -1,0 +1,94 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "scene",
+  "id": "S00-01",
+  "title": "S00-01 - The Job",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "3dd07a59e1b0e805",
+  "sections": [
+    {
+      "title": "Player read-aloud",
+      "body": "At the edge of the warded road, a woman waits beside a loaded carriage. She looks like your contact for this job, but she has not introduced herself yet."
+    },
+    {
+      "title": "Scene summary",
+      "body": "The party meets their contact by description, receives the sealed package, asks questions, and agrees to roll out."
+    },
+    {
+      "title": "Visible choices",
+      "items": [
+        "Ask questions about the crate",
+        "Accept the job without question",
+        "Try to inspect the seal"
+      ]
+    },
+    {
+      "title": "Player questions",
+      "items": [
+        "What do you ask before you accept the job?",
+        "Who checks the package without opening it?",
+        "Who is first into the carriage?"
+      ]
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "Do not play Emeris Crown Holdings as the villain yet. They are the employer and the system. Let suspicion emerge slowly.",
+        "Keep player-facing information actionable. Reveal systemic truth through objects, reactions, and consequences before naming it.",
+        "Manufactured-threat lens: seed the contradiction, do not explain it. The surface goal stays simple and heroic.",
+        "[ADD/GUARANTEED] Grail-branded bounty board: \"STRIXWOLF: APEX FOREST HAZARD. Sightings up 300%. Bounty payable in Marks.\"",
+        "[ADD/GUARANTEED] Couriers or a clerk trade fearful route gossip: the Preserve \"takes one a week now.\"",
+        "[ADD/EARNED] A player asking what they know receives the corporate line: strixwolves are vicious pack predators. (Knowledge Easy 10)"
+      ]
+    },
+    {
+      "title": "Checks and rolls",
+      "items": [
+        "Knowledge or Presence Read the contract pressure without derailing the job. Easy to standard The PCs learn the employer is withholding risk, not necessarily lying. 10/15 Cleanly resolve: Read the contract pressure without derailing the job. Add a concrete boon, extra clue, or improved position. Success, plus the player names one helpful detail or asks one follow-up question. Success, but the GM exposes a cost, ticks a countdown, or reveals a new pressure tied to The Job. The full goal slips, but the party still learns a useful truth or avoids the worst consequence. The GM makes a hard move that follows from the fiction and leaves the next choice visible. Spend Fear to reveal omitted risk, split attention, or put a human cost in front of the contract. On mixed or sliding results, reveal information in layers: visible fact, actionable clue, then systemic truth.",
+        "Marlowe's extra Arcana check Give Marlowe's player the per-character job-scene insight; use Knowledge when converting to Daggerheart traits. Standard Marlowe clocks the wardcraft/custody pressure without becoming the job-giver. 15 Cleanly resolve: Give Marlowe's player the per-character job-scene insight; use Knowledge when converting to Daggerheart traits. Add a concrete boon, extra clue, or improved position. Success, plus the player names one helpful detail or asks one follow-up question. Success, but the GM exposes a cost, ticks a countdown, or reveals a new pressure tied to The Job. The full goal slips, but the party still learns a useful truth or avoids the worst consequence. The GM makes a hard move that follows from the fiction and leaves the next choice visible. Spend Fear to reveal omitted risk, split attention, or put a human cost in front of the contract. On mixed or..."
+      ]
+    },
+    {
+      "title": "Clues",
+      "items": [
+        "Protective seal The seal looks contractual and protective, not decorative. The crate is linked to ward infrastructure, but do not reveal the true name here. Careful inspection can tell the package is important without saying what it is.",
+        "Guaranteed seed Grail-branded bounty board: \"STRIXWOLF: APEX FOREST HAZARD. Sightings up 300%. Bounty payable in Marks.\" Grail-branded bounty board: \"STRIXWOLF: APEX FOREST HAZARD. Sightings up 300%. Bounty payable in Marks.\"",
+        "Guaranteed seed Couriers or a clerk trade fearful route gossip: the Preserve \"takes one a week now.\" Couriers or a clerk trade fearful route gossip: the Preserve \"takes one a week now.\"",
+        "Earned seed Available if players investigate, show mercy, or ask the right question. A player asking what they know receives the corporate line: strixwolves are vicious pack predators. Knowledge Easy 10"
+      ]
+    },
+    {
+      "title": "Loot",
+      "items": [
+        "Authorized route copy",
+        "Emergency toll voucher",
+        "A private worry from the contact, if roleplayed for",
+        "Keystone Asset™: Inside the sealed crate, packed in wax-paper and reassurance, sits a heavy grey stone the size of a loaf, warm to the touch, faintly humming, with a light deep inside it that is slowly going out."
+      ]
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Plot So Far: The party is in Prologue pressure: The party meets their contact by description, receives the sealed package, asks questions, and agrees to roll out.",
+        "Mechanics In Play: Use Daggerheart Duality Dice as baseline. Use the listed Difficulty and outcome options when a roll matters. Keep trivial actions no-roll; roll only when uncertainty, cost, or danger is interesting.",
+        "Roll Cards: s00-01-read-the-contract-pressure S00-01 Read the contract pressure Read the contract pressure Knowledge Presence Knowledge Presence 12 Knowledge reads clauses; Presence reads the briefer or optional Sabine without making any PC the job-giver. The job starts feeling routine when it is not. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. The job...",
+        "Gm Fear Spends: Reveal omitted risk or fine print. Make the human cost visible before escalating danger.",
+        "Conditions Hazards: No official condition unless a feature, hazard, or fictional position calls for Hidden, Restrained, or Vulnerable.",
+        "Search Loot Clues: No fixed loot. Offer clue, texture, or hospitality only when the fiction supports it.",
+        "No Roll Guidance: Do not call for a roll when the players have time, a clear method, and no meaningful pressure.",
+        "Escalation: Escalate by making cost visible: time, noise, trust, ward instability, or someone vulnerable in danger.",
+        "Deescalation: De-escalate through respect, care, honest testimony, useful evidence, or a concrete concession.",
+        "Tv Mechanics Caption: Public cue: The Job asks what the party does, what it costs, and who is protected.",
+        "Trait Variety Note: Primary traits in this scene: Knowledge, Presence. If rolls drift toward Instinct/Presence, ask whether Agility, Strength, Finesse, or Knowledge better describes the action.",
+        "Class Community Ancestry Reveals: Loreborne: spots older legal, heraldic, or ward-craft language under the branding. Underborne: notices service doors, hidden routes, and who built the thing nobody credits. Highborne: reads etiquette, class panic, and reputational risk. Ridgeborne: notices stonework, weight, pressure, and structural weakness. Wildborne: reads the land, animals, and local ecological stress. Elf/Ribbet/Human/Giant/Katari: invite one sensory or social detail from the player's heritage. Sorcerer/Rogue/Warrior/Guardian/Ranger: give each class one table-facing way to shine without changing the plot."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 3dd07a59e1b0e805 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

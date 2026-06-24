@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S03-01",
+  "kind": "scene",
+  "title": "S03-01 - Arrival at Hush",
+  "in_world_label": "Situation Briefing",
+  "brand_flag": "Briefing",
+  "kicker": "Seeking a Custodian",
+  "hook": "You pass the ward pillar and feel a small pop, like a bubble closing behind you. The forest quiets. Friendly voices rise ahead.",
+  "blocks": [
+    {
+      "label": "Where You Are",
+      "body": "You pass the ward pillar and feel a small pop, like a bubble closing behind you. The forest quiets. Friendly voices rise ahead."
+    },
+    {
+      "label": "Plain Stakes",
+      "body": "The party enters Hush, a real warm village inside corporate branding."
+    },
+    {
+      "label": "Visible Options",
+      "body": "Talk to locals Head to the tavern Ask for the Custodian Rush the delivery"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "What detail in Arrival at Hush tells you the official story is incomplete?",
+    "Who notices the human cost first, and how do they show it?",
+    "What small object, smell, or sound makes this scene feel real?"
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - scene:S03-01",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "4218d1122d90b2b6",
+  "generated_at": "2026-06-23T21:40:58"
+}

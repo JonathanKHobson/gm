@@ -1,0 +1,607 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2736 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S02-01 - The Fallout Investigation) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(With the creature dealt with, the wreck is yours to read. Up close, the story stops) Tj
+T*
+(adding up. The cart was stripped clean before anything wild got to it. The driver's) Tj
+T*
+(wounds are not all bites. And worked into one carriage wheel, where it has no business) Tj
+T*
+(being, is a snarl of black thorn that does not match this stretch of road.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Work out what really happened here before you move on.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: S02-01) Tj
+T*
+(- Type: scene) Tj
+T*
+(- Sectionid: ACT-TWO) Tj
+T*
+(- Sectiontitle: Act Two: Cargo Reclaimers) Tj
+T*
+(- Title: The Fallout Investigation) Tj
+T*
+(- Shorttitle: Fallout Investigation) Tj
+T*
+(- Order: 301) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: True) Tj
+T*
+(- Image: assets/scenes/S02-01-the-fallout-investigation.png) Tj
+T*
+(- Alt: The Fallout Investigation scene art for Cargo Reclaimers.) Tj
+T*
+(- Caption: The cart scene becomes evidence of a claim war, not a random wilderness) Tj
+T*
+(  hazard.) Tj
+T*
+(- Mood: Cargo Reclaimers) Tj
+T*
+(- Gmgoal: Let the party confirm the wreck was staged, find the planted bramble, and) Tj
+T*
+(  realize the ambush is closing in.) Tj
+T*
+(- Publicobjective: Work out what really happened here before you move on.) Tj
+T*
+(- Readaloud: With the creature dealt with, the wreck is yours to read. Up close, the) Tj
+T*
+(  story stops adding up. The cart was stripped clean before anything wild got to it.) Tj
+T*
+(  The driver's wounds are not all bites. And worked into one carriage wheel, where it) Tj
+T*
+(  has no business being, is a snarl of black thorn that does not match this stretch of) Tj
+T*
+(  road.) Tj
+T*
+(- Gmnotes: Deepen Act 1's clue instead of replaying it: body, cart, wheel, tracks,) Tj
+T*
+(  then watchers. Player-safe conclusion: people staged this and marked the carriage.) Tj
+T*
+(- Gmscript: Say: "The animal part of this scene is over. Now the wreck gets stranger.) Tj
+T*
+(  The cart was stripped before anything fed here, the killing wound is too clean for) Tj
+T*
+(  teeth, and the thorn in your wheel means somebody got close to your carriage. What) Tj
+T*
+(  do you inspect first?" If they ask who did it, say: "You do not have a name. You) Tj
+T*
+(  have method: staged, local, and deliberate.") Tj
+T*
+(- Gmreadaloud: The cart was stripped clean before anything wild got to it. The) Tj
+T*
+(  driver's wounds are not all bites. A snarl of black thorn is worked into one) Tj
+T*
+(  carriage wheel, where it has no business being.) Tj
+T*
+(- Gmchecklist: If Act 1 already revealed the slit throat, frame this as confirmation) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4099 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  of staging, not a repeat reveal. Offer Group Action Roll: one leader, helpers feed) Tj
+T*
+(  evidence. Start or tick the Closing In countdown if they linger loudly. Do not name) Tj
+T*
+(  the faction yet.) Tj
+T*
+(- Gmprivate: The staging points to organized people in the preserve. Do not decide the) Tj
+T*
+(  driver's killer; the README canon flag stays unresolved. The planted bramble is the) Tj
+T*
+(  handoff into S02-02 and the ambush board.) Tj
+T*
+(- Playertakeaway: You now know three things: the wreck was staged, the stagers know) Tj
+T*
+(  this forest, and they have already touched your carriage.) Tj
+T*
+(- Storytakeaway: The party is the target, not a bystander; the road incident is) Tj
+T*
+(  becoming an ambush.) Tj
+T*
+(- Mechanictakeaway: Investigation can be a Group Action Roll: one PC leads with) Tj
+T*
+(  Instinct or Knowledge while others help assemble the scene.) Tj
+T*
+(- Rollcards: s02-01-get-the-road-moving-again S02-01 Get the road moving again Get the) Tj
+T*
+(  road moving again Strength Finesse Strength Finesse 12 Strength moves the cart;) Tj
+T*
+(  Finesse fixes the wheel or pin. The Bramble Union watches while the party is) Tj
+T*
+(  exposed. Critical Success: best possible version of the action; gain Hope and clear) Tj
+T*
+(  1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the) Tj
+T*
+(  PC gets what they wanted and gains Hope. Keep the position clean or generous.) Tj
+T*
+(  Success with Fear: the PC gets what they wanted, but the GM gains Fear and) Tj
+T*
+(  introduces a cost, complication, or pressure. Failure with Hope: the PC does not get) Tj
+T*
+(  the full result, but gains Hope and receives a useful thread, clue, or safer next) Tj
+T*
+(  option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that) Tj
+T*
+(  follows from the fiction. The Bramble Union watches while the party is exposed. Use) Tj
+T*
+(  a hard complication, lost time, worse position, GM Fear, or mark Stress. Apply an) Tj
+T*
+(  official condition only if the fiction and rules justify it. The attempt falls) Tj
+T*
+(  short, but a partial thread appears. Offer one clue, weak position, or safer follow-) Tj
+T*
+(  up. The PC gets the core result, but it costs time, noise...) Tj
+T*
+(- Entityids: vendor-cart tamsin-vell bramble-strand torn-shipping-seals route-ledger) Tj
+T*
+(  cracked-pocket-ward tamsins-home-token whitefire-custodian strixwolf-mother barnacle) Tj
+T*
+(  keystone-asset marlowe-fairwind bramble-union damage-armor sealed-keystone-crate) Tj
+T*
+(  hush cat-squirrels fox-bats) Tj
+T*
+(- Entities: vendor-cart Vendor Cart item Item / Asset assets/icons/item.png) Tj
+T*
+(  assets/entities/vendor-cart.png Vendor Cart Overturned cart that blocks the road and) Tj
+T*
+(  sets up the ambush mystery. Wrecked cart and investigation hub Overturned cart that) Tj
+T*
+(  blocks the road and sets up the ambush mystery.; use Vendor Cart as a concrete table) Tj
+T*
+(  object with texture, ownership, and a reason it matters now. Give players a tangible) Tj
+T*
+(  handle on Tamsin Vell, Incident Response Placard, Bramble Strand, whether they) Tj
+T*
+(  inspect, carry, return, trade, or refuse it. Overturned cart that blocks the road) Tj
+T*
+(  and sets up the ambush mystery. tamsin-vell Tamsin Vell npc NPC / Ally) Tj
+T*
+(  assets/icons/npc.png assets/npc-images/tamsin-vell/portrait_base.png TAM-zin VEL The) Tj
+T*
+(  dead driver at the overturned cart; evidence suggests humanoid murder, not just) Tj
+T*
+(  animal attack. The human cost at the first crime scene. Tamsin Vell a dead delivery) Tj
+T*
+(  driver at an overturned cart, with evidence that a person killed her ordinary,) Tj
+T*
+(  dutiful, dead before the party can learn the whole person In life, finish one more) Tj
+T*
+(  delivery and get home with enough coin to reduce her debt. Her voice is unavailable;) Tj
+T*
+(  use letters, route notes, and small belongings instead. a dead...) Tj
+T*
+(- Itemids: tamsins-home-token cracked-pocket-ward) Tj
+T*
+(- Clueids: bramble-strand bramble-claim-marker torn-shipping-seals route-ledger) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3912 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  tamsin-s-wedding-cord old-contract-tags bramble-are-criminals-noticetm) Tj
+T*
+(- Statecontrols: slitThroatDiscovered Slit throat already known checkbox If checked,) Tj
+T*
+(  do not re-reveal; confirm staging instead. stagingDiscovered Staging discovered) Tj
+T*
+(  checkbox Mark once players connect cart, wound, bramble, or tracks as deliberate.) Tj
+T*
+(  closingInCountdown Closing In countdown number 4 Tick for loud delay, messy evidence) Tj
+T*
+(  handling, or Fear. Resolve pressure in S02-02.) Tj
+T*
+(- Mechanicids: action-roll strength finesse gm-moves help-an-ally tag-team-roll) Tj
+T*
+(  knowledge instinct hope fear countdown) Tj
+T*
+(- Playerquestions: What detail in The Fallout Investigation tells you the official) Tj
+T*
+(  story is incomplete? Who notices the human cost first, and how do they show it? What) Tj
+T*
+(  small object, smell, or sound makes this scene feel real?) Tj
+T*
+(- Relationshipprompts: Which PC quietly checks on someone else here? Who disagrees) Tj
+T*
+(  about the right thing to do without breaking trust?) Tj
+T*
+(- Ownershipprompt: Name one detail in The Fallout Investigation that belongs to your) Tj
+T*
+(  character's point of view.) Tj
+T*
+(- Fearspends: Spend Fear to separate true evidence from a tempting false read, or put) Tj
+T*
+(  the carriage/cargo under time pressure. Close the ambush net or put a PC between) Tj
+T*
+(  cargo and a frightened reclaimer. Reveal a personal effect that makes victory) Tj
+T*
+(  emotionally complicated.) Tj
+T*
+(- Choicesconsequences: Preserve evidence Clearer read and a stronger parley position.) Tj
+T*
+(  S02-03 Presence difficulty can drop if they cite the staging without accusing) Tj
+T*
+(  blindly. If they rush, they still learn the threat but lose leverage. Track the) Tj
+T*
+(  planted bramble Predicts where watchers likely stood. S02-02 spot check can start) Tj
+T*
+(  with a strong fictional position. If ignored, the ambush begins with less warning.) Tj
+T*
+(  Pocket or disturb effects They gain clues or loot quickly. S02-04 survivors may) Tj
+T*
+(  distrust them if personal effects were treated as trophies. Careful handling keeps) Tj
+T*
+(  later dialogue warmer.) Tj
+T*
+(- Lootclues: Torn seal Route ledger Bramble strand Tamsin's Home-Token: A small thumb-) Tj
+T*
+(  polished token on a cord hangs beside the torn blue scarf, warm from wear and etched) Tj
+T*
+(  with a tiny house mark instead of a company seal. Cracked Pocket Ward?: A cheap) Tj
+T*
+(  little ward charm sits cracked down the middle, still trying to glow through a) Tj
+T*
+(  smiling warranty sticker.) Tj
+T*
+(- Handoutids: Torn Shipping Seals) Tj
+T*
+(- Sourcesceneslug: S02-01-the-fallout-investigation) Tj
+T*
+(- Sourcefiles: dist/Act2_Upgrade_Packet/ACT2_SCENE_UPGRADES.md) Tj
+T*
+(  dist/Act2_Upgrade_Packet/ACT2_PER_CHARACTER.md) Tj
+T*
+(- References: Previous clue seed #S01-02 Eyes in the Brush #S02-02) Tj
+T*
+(- Storyscope: Perceived antagonist: the forest. True antagonist: the corporate lie) Tj
+T*
+(  about the forest. The players never confront it directly. They are meant to feel it) Tj
+T*
+(  by the end. Every act offers at least one guaranteed and one earned hint that the) Tj
+T*
+(  danger is manufactured and the forest is not the enemy. The reclaimers target the) Tj
+T*
+(  cargo and manifest, not purses, and avoid killing when possible. REFLAVOR GUARANTEED) Tj
+T*
+(  Their gear includes salvaged, repainted Grail/Kazrak kit: ex-workers, not feral) Tj
+T*
+(  bandits. REFLAVOR GUARANTEED Knowledge Medium 15 to name the issue "That stone) Tj
+T*
+(  belongs in the ground." "You do not know what you are carrying." ADD EARNED A) Tj
+T*
+(  spared/captured reclaimer says monster attacks spiked when protection contracts went) Tj
+T*
+(  on sale. ADD EARNED Presence Medium 15; requires mercy or capture Instinct: spot) Tj
+T*
+(  ambush. Presence: parley/interrogate. Knowledge: recognize corporate-issue gear.) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4311 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  ACT2 Act 2: Bramble ambush 90 0:55 to 1:30 1:30 first combat and possible) Tj
+T*
+(  interrogation Abstract the fight via a Group Action roll; keep one captured) Tj
+T*
+(  reclaimer for the interrogation seed.) Tj
+T*
+(- Livetools: scene MAP-S01-02) Tj
+T*
+(- Percharacterlayer: garrick-reed Garrick Reed Staged crime scene Recognizes the scene) Tj
+T*
+(  as staged immediately: looted, displayed, and too clean in the wrong places.) Tj
+T*
+(  Knowledge 12 The blade work was professional, not panicked; the death was made to) Tj
+T*
+(  look like wilderness violence. Can lead the Group Action Roll and turn separate) Tj
+T*
+(  observations into one clean read. Garrick, this is staged and you know staged. Want) Tj
+T*
+(  to run the read while the others feed you details? barnacle Barnacle Staging and) Tj
+T*
+(  salvage Clocks that the cart was professionally stripped; someone knew what was) Tj
+T*
+(  worth taking and moved fast. Instinct 13 The thorn in the wheel was placed, and) Tj
+T*
+(  drag-trails lead toward the likely ambush position. Can back-trace the approach and) Tj
+T*
+(  give the party a better fictional position before S02-02. Barnacle, someone planted) Tj
+T*
+(  that thorn in your wheel on purpose. Want to follow how they got close? varian-soto) Tj
+T*
+(  Varian Soto Scent layers Smells multiple people on the wreck, recently, with nervous) Tj
+T*
+(  sweat under the blood and mud. Instinct 12 Counts roughly four or five distinct) Tj
+T*
+(  people and can tell they were frightened while they worked. Can separate animal) Tj
+T*
+(  scavenging, human staging, and the direction the watchers withdrew...) Tj
+T*
+(- Takeawayhelp: Player takeaway You now know three things: the wreck was staged, the) Tj
+T*
+(  stagers know this forest, and they have already touched your carriage. "Staged,) Tj
+T*
+(  local, and close. That thorn in your wheel means this was aimed at you." "You can) Tj
+T*
+(  inspect the body, cart, wheel, tracks, or treeline. The safest next action is to) Tj
+T*
+(  choose one thread and name who watches the carriage while you do it." Keep the next) Tj
+T*
+(  action concrete: body, cart, wheel, tracks, treeline, or carriage guard. The) Tj
+T*
+(  evidence should feel playable, not abstract. help-an-ally tag-team-roll knowledge) Tj
+T*
+(  instinct countdown Story takeaway The party is the target, not a bystander; the road) Tj
+T*
+(  incident is becoming an ambush. "This was not random damage on a road. This was a) Tj
+T*
+(  message and a setup." "The evidence says the people who did it understand the) Tj
+T*
+(  preserve, planned the stop, and got close to your carriage before you noticed." Do) Tj
+T*
+(  not reveal the self-name or motive yet. The story truth for this scene is target,) Tj
+T*
+(  method, and proximity. help-an-ally tag-team-roll knowledge instinct countdown) Tj
+T*
+(  Mechanic takeaway Investigation can be a Group Action Roll: one PC leads with) Tj
+T*
+(  Instinct or Knowledge while others help assemble the scene. "If you want to...) Tj
+T*
+(- Playerbeats: S02-01-stripped-clean Stripped clean Stripped clean before scavenging) Tj
+T*
+(  assets/scenes/S02-01-the-fallout-investigation.png The Fallout Investigation scene) Tj
+T*
+(  art for Cargo Reclaimers. The cart was looted before the animal arrived. Whoever did) Tj
+T*
+(  this knew what was worth taking and moved fast. The cart was looted before the) Tj
+T*
+(  animal arrived. Whoever did this knew what was worth taking and moved fast. The cart) Tj
+T*
+(  was looted before the animal arrived. Whoever did this knew what was worth taking) Tj
+T*
+(  and moved fast. text-first S02-01-not-all-bites Not all bites The wound does not) Tj
+T*
+(  match the story assets/scenes/S02-01-the-fallout-investigation.png The Fallout) Tj
+T*
+(  Investigation scene art for Cargo Reclaimers. The feeding is messy, but the killing) Tj
+T*
+(  wound is clean. This death started with a blade, not teeth. The feeding is messy,) Tj
+T*
+(  but the killing wound is clean. This death started with a blade, not teeth. The) Tj
+T*
+(  feeding is messy, but the killing wound is clean. This death started with a blade,) Tj
+T*
+(  not teeth. text-first S02-01-thorn-wheel Thorn in the wheel The carriage was marked) Tj
+T*
+(  assets/scenes/S02-01-the-fallout-investigation.png The Fallout Investigation scene) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 4036 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  art for Cargo Reclaimers. Black thorn is worked into the...) Tj
+T*
+(- Gmbeats: S02-01-stripped-clean Stripped clean Stripped clean before scavenging Say:) Tj
+T*
+(  "The cart was stripped before the animal ever fed here. Someone knew what mattered) Tj
+T*
+(  and took it quickly." The cart was looted before the animal arrived. Whoever did) Tj
+T*
+(  this knew what was worth taking and moved fast. The wreck shifts from animal) Tj
+T*
+(  aftermath to staged human action. Basic facts are automatic; roll only for) Tj
+T*
+(  reconstruction or hidden detail. The cart is evidence of planning, not chaos. Player) Tj
+T*
+(  takeaway The cart is evidence of planning, not chaos. "The cart was stripped before) Tj
+T*
+(  the animal ever fed here. Someone knew what mattered and took it quickly." "The) Tj
+T*
+(  playable facts are: The cart was looted before the animal arrived. Whoever did this) Tj
+T*
+(  knew what was worth taking and moved fast." Use this beat to point the table at one) Tj
+T*
+(  immediate choice. The player-facing fact is: The cart was looted before the animal) Tj
+T*
+(  arrived. Whoever did this knew what was worth taking and moved fast. knowledge) Tj
+T*
+(  instinct Story takeaway The wreck shifts from animal aftermath to staged human) Tj
+T*
+(  action. "The cart was stripped before the animal ever fed here. Someone knew what) Tj
+T*
+(  mattered and took it quickly." "The story fact you can trust is...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 8000) Tj
+T*
+(- Playersafeprojection: S02-01 scene The Fallout Investigation) Tj
+T*
+(  assets/scenes/S02-01-the-fallout-investigation.png The Fallout Investigation scene) Tj
+T*
+(  art for Cargo Reclaimers. The cart scene becomes evidence of a claim war, not a) Tj
+T*
+(  random wilderness hazard. Cargo Reclaimers Work out what really happened here before) Tj
+T*
+(  you move on. With the creature dealt with, the wreck is yours to read. Up close, the) Tj
+T*
+(  story stops adding up. The cart was stripped clean before anything wild got to it.) Tj
+T*
+(  The driver's wounds are not all bites. And worked into one carriage wheel, where it) Tj
+T*
+(  has no business being, is a snarl of black thorn that does not match this stretch of) Tj
+T*
+(  road. S02-01-stripped-clean Stripped clean Stripped clean before scavenging) Tj
+T*
+(  assets/scenes/S02-01-the-fallout-investigation.png The Fallout Investigation scene) Tj
+T*
+(  art for Cargo Reclaimers. The cart was looted before the animal arrived. Whoever did) Tj
+T*
+(  this knew what was worth taking and moved fast. The cart was looted before the) Tj
+T*
+(  animal arrived. Whoever did this knew what was worth taking and moved fast. The cart) Tj
+T*
+(  was looted before the animal arrived. Whoever did this knew what was worth taking) Tj
+T*
+(  and moved fast. text-first S02-01-not-all-bites Not all bites The wound does not...) Tj
+T*
+(- Companionmapids: MAP-S01-02) Tj
+T*
+(- Slidenumber: 32) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+(- Spotlights: SPOT-M-DISCOVERY discovery-rolls discovery-rolls M12 S02-01 med) Tj
+T*
+(  mandatory first-use Read the Scene Clue rolls are active behavior. Use Instinct or) Tj
+T*
+(  Knowledge when players inspect what happened. Notice ambush setup: Instinct 14.) Tj
+T*
+(  Sense the package's wrongness later: Instinct 15, with Soar or Crit answering more.) Tj
+T*
+(  Recognize the lion seal: Knowledge 12, automatic for Marlowe. Discovery checks) Tj
+T*
+(  wiki/mechanic/discovery-rolls teach-by-example Make investigation a playable) Tj
+T*
+(  procedure instead of a lore dump. mechanic defer-if-clock-critical True True SPOT-C-) Tj
+T*
+(  BARNACLE-EARLY barnacle Barnacle early S02-01 med optional first-use Barnacle, See) Tj
+T*
+(  What Is Wrong Rogue attention catches staged details. Barnacle, you clock a staging) Tj
+T*
+(  mismatch. Call it out as a concrete observation, not proof. Spotlight: Barnacle) Tj
+T*
+(  wiki/character/barnacle in-scene-prompts Discovery checks wiki/mechanic/discovery-) Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 301 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  rolls teach-by-example character defer-if-clock-critical True True) Tj
+T*
+(- Spotlightsummary: 1 1) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 9dd0124a1d20ed7d | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R 12 0 R] /Count 6 >>
+endobj
+14 0 obj
+<< /Type /Catalog /Pages 13 0 R >>
+endobj
+15 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000009 00000 n 
+0000002797 00000 n 
+0000002925 00000 n 
+0000007076 00000 n 
+0000007204 00000 n 
+0000011168 00000 n 
+0000011296 00000 n 
+0000015659 00000 n 
+0000015787 00000 n 
+0000019875 00000 n 
+0000020004 00000 n 
+0000020357 00000 n 
+0000020487 00000 n 
+0000020577 00000 n 
+0000020628 00000 n 
+trailer
+<< /Size 16 /Root 14 0 R >>
+startxref
+20701
+%%EOF

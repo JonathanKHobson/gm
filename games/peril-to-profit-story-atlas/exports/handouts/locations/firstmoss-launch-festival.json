@@ -1,0 +1,44 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "firstmoss-launch-festival",
+  "kind": "entity",
+  "title": "Firstmoss Launch Festival",
+  "in_world_label": "Goldspire Travel Advisory",
+  "brand_flag": "Player-safe",
+  "kicker": "Celebration of moss-ripened crops and spring abundance.",
+  "hook": "Celebration of moss-ripened crops and spring abundance.",
+  "blocks": [
+    {
+      "label": "Arrival Read",
+      "body": "Firstmoss is not a party break; it is Hush showing what the ward protects."
+    },
+    {
+      "label": "Known For",
+      "body": "Everyone is wearing moss. Crowns of it, fresh-cut and still dripping, on heads of every age. A wobbly stage holds whoever was brave or bullied into singing, and the crowd loves them anyway. Children play a game with rules older than the ward and argue the..."
+    },
+    {
+      "label": "What Is Here",
+      "body": "Local residents or workers appropriate to the place Festival Moths orbit green lanterns Ratcoons hunt crumbs under benches moss hens chase everything they can reach No default combatant; add only if the scene introduces one Local civic, trade, or route..."
+    },
+    {
+      "label": "Food And Texture",
+      "body": "The food line is the festival. Moss-honey cakes come off the pan still spitting fat. River fish blackens on reed fires. Someone keeps topping up a green cordial they swear is medicinal, and winks when they say it. You..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Look for the busiest local gathering point.",
+    "Ask what has changed here recently."
+  ],
+  "archetype": "location.advisory",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:firstmoss-launch-festival",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "6164d5e40df333a0",
+  "generated_at": "2026-06-23T21:40:58"
+}

@@ -1,0 +1,593 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2626 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S03-04 - Firstmoss Launch Festival) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(You have arrived during the Firstmoss Launch Festival. The town celebrates the season's) Tj
+T*
+(first moss rising on the Sunless Farms crops, the promise of fresh fruit and full tables) Tj
+T*
+(ahead. There is a good-natured arm-wrestling competition, a stone-painting class, and a) Tj
+T*
+(small market of homemade trinkets. The whole village feels lighter for a moment. What do) Tj
+T*
+(you do?) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Join the celebration if you want, earn goodwill, and gather what helps for the road) Tj
+T*
+(ahead.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: S03-04) Tj
+T*
+(- Type: scene) Tj
+T*
+(- Sectionid: ACT-THREE) Tj
+T*
+(- Sectiontitle: Act Three: Seeking a Custodian) Tj
+T*
+(- Title: Firstmoss Launch Festival) Tj
+T*
+(- Shorttitle: Firstmoss Festival) Tj
+T*
+(- Order: 404) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: True) Tj
+T*
+(- Image: assets/scenes/S03-04-firstmoss-launch-festival.png) Tj
+T*
+(- Alt: Firstmoss Launch Festival scene art for Seeking a Custodian.) Tj
+T*
+(- Caption: Firstmoss makes the stakes joyous before the module asks the party to) Tj
+T*
+(  defend them.) Tj
+T*
+(- Mood: Seeking a Custodian) Tj
+T*
+(- Gmgoal: Offer the optional reward arc: a joyful festival, low-stakes contests, a) Tj
+T*
+(  concrete boon, and one quiet seed about the farms.) Tj
+T*
+(- Publicobjective: Join the celebration if you want, earn goodwill, and gather what) Tj
+T*
+(  helps for the road ahead.) Tj
+T*
+(- Readaloud: You have arrived during the Firstmoss Launch Festival. The town) Tj
+T*
+(  celebrates the season's first moss rising on the Sunless Farms crops, the promise of) Tj
+T*
+(  fresh fruit and full tables ahead. There is a good-natured arm-wrestling) Tj
+T*
+(  competition, a stone-painting class, and a small market of homemade trinkets. The) Tj
+T*
+(  whole village feels lighter for a moment. What do you do?) Tj
+T*
+(- Gmnotes: The festival is the act's exhale before the Act 4 turn. Boon examples:) Tj
+T*
+(  charm, favor token, useful market find, or goodwill that opens a door later.) Tj
+T*
+(- Gmscript: Say: "This festival is optional, but it is real. If you join in, Hush) Tj
+T*
+(  remembers. Arm-wrestle, paint a stone, browse the market, dance badly, ask about the) Tj
+T*
+(  farms, or skip it and keep moving.") Tj
+T*
+(- Gmreadaloud: You have arrived during the Firstmoss Launch Festival. There is arm-) Tj
+T*
+(  wrestling, stone-painting, and a small market of homemade trinkets. The whole) Tj
+T*
+(  village feels lighter for a moment.) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4044 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Gmchecklist: Frame festival participation as optional. Grant a concrete) Tj
+T*
+(  festival_boon for sincere participation or a contest win. Let) Tj
+T*
+(  Khari/Varian/Barnacle/Marlowe hooks surface if those PCs are in play. Only seed the) Tj
+T*
+(  farm/corporate thread if a player probes it. Route back toward S03-02/MAP-LOC-hush-) Tj
+T*
+(  farms when ready.) Tj
+T*
+(- Gmprivate: The Sunless Farms are managed infrastructure. Seed through crops,) Tj
+T*
+(  schedules, and volunteer precision; do not explain the ward economy. Skipping the) Tj
+T*
+(  festival is an opportunity cost, not a punishment.) Tj
+T*
+(- Playertakeaway: You get one genuinely good day; taking part can give the party) Tj
+T*
+(  goodwill and a small boon.) Tj
+T*
+(- Storytakeaway: Hush's abundance is real and joyful, even if a curious player may) Tj
+T*
+(  notice how carefully it is managed.) Tj
+T*
+(- Mechanictakeaway: Low-stakes mechanics still matter: Strength, Finesse, Presence,) Tj
+T*
+(  market choices, and Prepare/Hope can all produce a festival_boon.) Tj
+T*
+(- Rollcards: s03-04-join-the-festival-contest S03-04 Join the festival contest Join) Tj
+T*
+(  the festival contest Strength Finesse Strength Finesse 12 Strength joins the work;) Tj
+T*
+(  Finesse joins the craft. The PCs watch community instead of participating in it.) Tj
+T*
+(  Critical Success: best possible version of the action; gain Hope and clear 1 Stress.) Tj
+T*
+(  Add an extra benefit that follows from the fiction. Success with Hope: the PC gets) Tj
+T*
+(  what they wanted and gains Hope. Keep the position clean or generous. Success with) Tj
+T*
+(  Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost,) Tj
+T*
+(  complication, or pressure. Failure with Hope: the PC does not get the full result,) Tj
+T*
+(  but gains Hope and receives a useful thread, clue, or safer next option. Failure) Tj
+T*
+(  with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from) Tj
+T*
+(  the fiction. The PCs watch community instead of participating in it. Use a hard) Tj
+T*
+(  complication, lost time, worse position, GM Fear, or mark Stress. Apply an official) Tj
+T*
+(  condition only if the fiction and rules justify it. The attempt falls short, but a) Tj
+T*
+(  partial thread appears. Offer one clue, weak position, or safer follow-up. The PC) Tj
+T*
+(  gets the core result, but it costs time, noise...) Tj
+T*
+(- Entityids: firstmoss-launch-festival hush clover-co-op hush-farms the-sunless-farms) Tj
+T*
+(  brannic-mossvein marlowe-fairwind tamsin-vell khari-nix keystone-asset festival-) Tj
+T*
+(  moths sunless-farm-moss ratcoons) Tj
+T*
+(- Entities: firstmoss-launch-festival Firstmoss Launch Festival location Location) Tj
+T*
+(  assets/icons/location.png assets/location-visuals/firstmoss-launch-) Tj
+T*
+(  festival/profile_scene_v02.png FIRST-moss lawnch FES-tih-vul Celebration of moss-) Tj
+T*
+(  ripened crops and spring abundance. Use joy as stakes, not decoration. Celebration) Tj
+T*
+(  of moss-ripened crops and spring abundance.; introduce it with a sensory palette,) Tj
+T*
+(  who feels safe there, and what has been neglected. Pull player attention toward the) Tj
+T*
+(  choices, clues, and relationships tied to Hush, Clover Co-op, Hush Farms.) Tj
+T*
+(  Celebration of moss-ripened crops and spring abundance. hush Hush location Location) Tj
+T*
+(  assets/icons/location.png assets/location-visuals/hush/profile_scene_v02.png hush,) Tj
+T*
+(  like quiet A real village under corporate designation, protected by ward pillars.) Tj
+T*
+(  Make Hush feel worth protecting before the finale asks the party to protect it. The) Tj
+T*
+(  Village A small forest village, named only once the players ask where the package is) Tj
+T*
+(  going. Warm local community with jokes, food, arguments, work songs, children,) Tj
+T*
+(  elders, and a very real need for the ward to hold. Another season of safety, crops,) Tj
+T*
+(  music, ordinary life, and visitors who learn the old name before the...) Tj
+T*
+(- Factionids: clover-co-op) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3925 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Locationids: hush clover-co-op firstmoss-launch-festival hush-farms the-sunless-) Tj
+T*
+(  farms) Tj
+T*
+(- Worldconnectionprompts: S03-04-clover-co-op-world-connection clover-co-op The Clover) Tj
+T*
+(  Co-op Somewhere out here once felt like home for a night. Tell us about it.) Tj
+T*
+(- Statecontrols: hush_trust Hush Trust select low neutral high custodian_route) Tj
+T*
+(  Custodian Route select unknown safe dangerous ward_awareness Ward Awareness select) Tj
+T*
+(  none seed aware festival_participation Festival Participation checkbox festival_boon) Tj
+T*
+(  Festival Boon select none charm favor market_find goodwill hush_clues Hush Clues) Tj
+T*
+(  select none custodian_route ward_seed corporate_seam farm_seed market_rumor multiple) Tj
+T*
+(- Mechanicids: action-roll presence finesse help-an-ally npc-community-trust-track) Tj
+T*
+(  strength instinct knowledge hope) Tj
+T*
+(- Playerquestions: What detail in Firstmoss Launch Festival tells you the official) Tj
+T*
+(  story is incomplete? Who notices the human cost first, and how do they show it? What) Tj
+T*
+(  small object, smell, or sound makes this scene feel real?) Tj
+T*
+(- Relationshipprompts: Which PC quietly checks on someone else here? Who disagrees) Tj
+T*
+(  about the right thing to do without breaking trust?) Tj
+T*
+(- Ownershipprompt: Name one detail in Firstmoss Launch Festival that belongs to your) Tj
+T*
+(  character's point of view.) Tj
+T*
+(- Fearspends: Spend Fear to make trust cost time, reveal a local fear, or show a ward) Tj
+T*
+(  symptom that locals have normalized. Make trust cost time, humility, or a public) Tj
+T*
+(  apology. Show a ward symptom locals have normalized because nobody official) Tj
+T*
+(  listened.) Tj
+T*
+(- Choicesconsequences: Join the festival The table gets a joyful beat and Hush warms) Tj
+T*
+(  to the party. Set festival_participation=true and grant a festival_boon on a win or) Tj
+T*
+(  sincere contribution. The boon can be spent later as a favor, charm, market find, or) Tj
+T*
+(  goodwill. festival_participation true; festival_boon set; hush_trust + benefit) Tj
+T*
+(  player-visible Skip the festival The party keeps momentum toward the keeper. No boon) Tj
+T*
+(  is granted, but the critical path stays intact. Act 4 proceeds without the extra) Tj
+T*
+(  favor or charm. festival_participation false; festival_boon none opportunity cost) Tj
+T*
+(  player-visible Probe the farms behind the celebration A crop worker gives a careful) Tj
+T*
+(  answer and then checks who is nearby. Instinct or Knowledge 13 can set) Tj
+T*
+(  ward_awareness=seed/aware or hush_clues=farm_seed. Act 4 reveal lands with stronger) Tj
+T*
+(  player suspicion. ward_awareness seed/aware; hush_clues farm_seed insight with) Tj
+T*
+(  social tension spoiler-gated) Tj
+T*
+(- Lootclues: Festival charm Clover cake Name of someone Tamsin cared about) Tj
+T*
+(- Handoutids: Festival route Guaranteed seed) Tj
+T*
+(- Sourcesceneslug: S03-04-firstmoss-launch-festival) Tj
+T*
+(- Sourcefiles: dist/Act3_Upgrade_Packet/ACT3_SCENE_UPGRADES.md) Tj
+T*
+(  dist/Act3_Upgrade_Packet/ACT3_PER_CHARACTER.md) Tj
+T*
+(- References: Festival map #MAP-LOC-firstmoss-launch-festival Sunless Farms #MAP-LOC-) Tj
+T*
+(  the-sunless-farms Claravale Market #MAP-LOC-the-claravale-market) Tj
+T*
+(- Storyscope: Perceived antagonist: the forest. True antagonist: the corporate lie) Tj
+T*
+(  about the forest. The players never confront it directly. They are meant to feel it) Tj
+T*
+(  by the end. Every act offers at least one guaranteed and one earned hint that the) Tj
+T*
+(  danger is manufactured and the forest is not the enemy. A Grail "Protection) Tj
+T*
+(  Coverage" invoice hangs on the Clover Co-op wall, overdue and steep. ADD GUARANTEED) Tj
+T*
+(  Firstmoss and the Sunless Farms show the forest feeding Hush rather than hunting it.) Tj
+T*
+(  REFLAVOR GUARANTEED An elder says, "The wood was never this bad. The trouble came) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4317 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  with the waymarkers." ADD EARNED Presence Easy 10 A ledger shows protection costs) Tj
+T*
+(  and hazard sightings climbing together. ADD EARNED Knowledge Medium 15 Firstmoss and) Tj
+T*
+(  the Sunless Farms show the forest feeding Hush rather than hunting it. REFLAVOR) Tj
+T*
+(  GUARANTEED Presence: get people talking. Knowledge: read invoice/ledger. Instinct:) Tj
+T*
+(  sense resentment under hospitality. ACT3 Act 3: Hush 125 1:30 to 2:05 2:05 social) Tj
+T*
+(  beat, Co-op, local leads, optional break Trim village wandering to the invoice plus) Tj
+T*
+(  one elder line; point to the Custodian.) Tj
+T*
+(- Livetools: scene MAP-LOC-hush MAP-LOC-firstmoss-launch-festival MAP-LOC-hush-farms) Tj
+T*
+(  MAP-LOC-the-sunless-farms MAP-LOC-clover-co-op) Tj
+T*
+(- Percharacterlayer: khari-nix Khari Nix Arm-wrestling contest Can dominate the arm-) Tj
+T*
+(  wrestling competition and likely earn the festival_boon. Khari, there is an arm-) Tj
+T*
+(  wrestling contest with your name on it. Want to win the town's heart? varian-soto) Tj
+T*
+(  Varian Soto Sunless Farms scent Notices the moss-crops are grown under managed,) Tj
+T*
+(  sunless conditions rather than wild growth. Instinct 13 The farms are carefully) Tj
+T*
+(  managed infrastructure; seed the truth without naming the full system. Can point the) Tj
+T*
+(  party toward the farms as a clue source. Varian, those crops do not grow like wild) Tj
+T*
+(  things. Want to look closer? marlowe-fairwind Marlowe Fairwind Farm and ward) Tj
+T*
+(  signature Knowledge 13 The farm-magic and ward-work share a signature, as if the) Tj
+T*
+(  same system maintains both. Can connect festival joy to protection magic without) Tj
+T*
+(  revealing the full cost. Marlowe, the farm-magic and the ward feel like the same) Tj
+T*
+(  author. Want to trace the resemblance? garrick-reed Garrick Reed Organized) Tj
+T*
+(  volunteers Recognizes festival volunteers moving with company-style precision. Can) Tj
+T*
+(  identify who is coordinating the crowd if the party needs a contact. Garrick, this) Tj
+T*
+(  festival is organized company-style. Want to clock who is really running it?...) Tj
+T*
+(- Takeawayhelp: Player takeaway You get one genuinely good day; taking part can give) Tj
+T*
+(  the party goodwill and a small boon. "You have earned one good day. Spend a little) Tj
+T*
+(  of it here, and Hush may send something useful with you." "You can arm-wrestle,) Tj
+T*
+(  paint a stone, browse the market, ask about Firstmoss, or skip the festival and keep) Tj
+T*
+(  moving toward the keeper." The player-facing choice is participation vs. momentum.) Tj
+T*
+(  Both are valid; only participation grants the boon. strength finesse presence) Tj
+T*
+(  instinct knowledge hope Story takeaway Hush's abundance is real and joyful, even if) Tj
+T*
+(  a curious player may notice how carefully it is managed. "The joy is real. The food) Tj
+T*
+(  is real. A curious mind may still wonder who runs the farms that make it possible.") Tj
+T*
+(  "Player-safe answer: Firstmoss is the first ripening layer on the Sunless Farms) Tj
+T*
+(  crops. Sharp read: the farms run with unusual precision." Seed managed abundance) Tj
+T*
+(  through detail only: schedules, crops, volunteers, branded stall, and people going) Tj
+T*
+(  quiet near official questions. strength finesse presence instinct knowledge hope) Tj
+T*
+(  Mechanic takeaway Low-stakes mechanics still matter: Strength, Finesse, Presence,) Tj
+T*
+(  market choices, and Prepare/Hope can all produce a...) Tj
+T*
+(- Playerbeats: S03-04-festival The festival Firstmoss begins) Tj
+T*
+(  assets/scenes/S03-04-firstmoss-launch-festival.png Firstmoss Launch Festival scene) Tj
+T*
+(  art for Seeking a Custodian. Green lanterns, mossfruit cakes, and damp banners make) Tj
+T*
+(  the lane feel like the village is choosing joy out loud. Green lanterns, mossfruit) Tj
+T*
+(  cakes, and damp banners make the lane feel like the village is choosing joy out) Tj
+T*
+(  loud. Green lanterns, mossfruit cakes, and damp banners make the lane feel like the) Tj
+T*
+(  village is choosing joy out loud. image-title-caption S03-04-join-in Join in Pick a) Tj
+T*
+(  joy assets/scenes/S03-04-firstmoss-launch-festival.png Firstmoss Launch Festival) Tj
+T*
+(  scene art for Seeking a Custodian. Arm-wrestle, paint a stone, browse the market,) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 3777 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  share food, dance, or simply watch and be seen. Arm-wrestle, paint a stone, browse) Tj
+T*
+(  the market, share food, dance, or simply watch and be seen. Arm-wrestle, paint a) Tj
+T*
+(  stone, browse the market, share food, dance, or simply watch and be seen. text-first) Tj
+T*
+(  S03-04-boon The boon A small reward assets/scenes/S03-04-firstmoss-launch-) Tj
+T*
+(  festival.png Firstmoss Launch Festival scene art for Seeking a Custodian. A charm, a) Tj
+T*
+(  favor, a market find, or goodwill can leave with the party when they turn back...) Tj
+T*
+(- Gmbeats: S03-04-festival The festival Firstmoss begins Say: "The festival is not a) Tj
+T*
+(  side gag. This is Hush showing you what safety protects: food, music, kids, old) Tj
+T*
+(  people, tomorrow." Green lanterns, mossfruit cakes, and damp banners make the lane) Tj
+T*
+(  feel like the village is choosing joy out loud. Joy becomes a reason to care about) Tj
+T*
+(  the ward. Pacing lets celebration carry consequence. Players understand the festival) Tj
+T*
+(  stakes. Player takeaway Players understand the festival stakes. "The festival is not) Tj
+T*
+(  a side gag. This is Hush showing you what safety protects: food, music, kids, old) Tj
+T*
+(  people, tomorrow." "The playable fact is: Green lanterns, mossfruit cakes, and damp) Tj
+T*
+(  banners make the lane feel like the village is choosing joy out loud." Concrete) Tj
+T*
+(  actions for this beat: talk to a person present, inspect the named detail, help an) Tj
+T*
+(  ally, or choose whether to move toward the Custodian route. table-spotlight Story) Tj
+T*
+(  takeaway Joy becomes a reason to care about the ward. "The festival is not a side) Tj
+T*
+(  gag. This is Hush showing you what safety protects: food, music, kids, old people,) Tj
+T*
+(  tomorrow." "The story fact in play is: Joy becomes a reason to care about the ward.") Tj
+T*
+(  This beat changes Act 3 through this exact...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 8000) Tj
+T*
+(- Playersafeprojection: S03-04 scene Firstmoss Launch Festival) Tj
+T*
+(  assets/scenes/S03-04-firstmoss-launch-festival.png Firstmoss Launch Festival scene) Tj
+T*
+(  art for Seeking a Custodian. Firstmoss makes the stakes joyous before the module) Tj
+T*
+(  asks the party to defend them. Seeking a Custodian Join the celebration if you want,) Tj
+T*
+(  earn goodwill, and gather what helps for the road ahead. You have arrived during the) Tj
+T*
+(  Firstmoss Launch Festival. The town celebrates the season's first moss rising on the) Tj
+T*
+(  Sunless Farms crops, the promise of fresh fruit and full tables ahead. There is a) Tj
+T*
+(  good-natured arm-wrestling competition, a stone-painting class, and a small market) Tj
+T*
+(  of homemade trinkets. The whole village feels lighter for a moment. What do you do?) Tj
+T*
+(  S03-04-festival The festival Firstmoss begins assets/scenes/S03-04-firstmoss-launch-) Tj
+T*
+(  festival.png Firstmoss Launch Festival scene art for Seeking a Custodian. Green) Tj
+T*
+(  lanterns, mossfruit cakes, and damp banners make the lane feel like the village is) Tj
+T*
+(  choosing joy out loud. Green lanterns, mossfruit cakes, and damp banners make the) Tj
+T*
+(  lane feel like the village is choosing joy out loud. Green lanterns, mossfruit) Tj
+T*
+(  cakes, and damp banners make the lane feel like the village is choosing joy out...) Tj
+T*
+(- Companionmapids: MAP-LOC-hush MAP-LOC-firstmoss-launch-festival MAP-LOC-hush-farms) Tj
+T*
+(  MAP-LOC-the-sunless-farms MAP-LOC-clover-co-op) Tj
+T*
+(- Slidenumber: 51) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 52b83f34141c598c | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 40 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+() Tj
+T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R 12 0 R] /Count 6 >>
+endobj
+14 0 obj
+<< /Type /Catalog /Pages 13 0 R >>
+endobj
+15 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000009 00000 n 
+0000002687 00000 n 
+0000002815 00000 n 
+0000006911 00000 n 
+0000007039 00000 n 
+0000011016 00000 n 
+0000011144 00000 n 
+0000015513 00000 n 
+0000015641 00000 n 
+0000019470 00000 n 
+0000019599 00000 n 
+0000019690 00000 n 
+0000019820 00000 n 
+0000019910 00000 n 
+0000019961 00000 n 
+trailer
+<< /Size 16 /Root 14 0 R >>
+startxref
+20034
+%%EOF

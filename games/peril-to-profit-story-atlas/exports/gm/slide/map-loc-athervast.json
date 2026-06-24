@@ -1,0 +1,33 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "MAP-LOC-athervast",
+  "title": "MAP-LOC-athervast - Athervast Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "2d749c6409b417ea",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "This distant capital reference is not part of the player route today."
+    },
+    {
+      "title": "Public objective",
+      "body": "This distant capital reference is not part of the player route today."
+    },
+    {
+      "title": "GM goal",
+      "body": "Keep this inactive unless a later campaign needs distant capital context."
+    },
+    {
+      "title": "GM script",
+      "body": "Say: \"Athervast exists, but the table does not travel there in this one-shot.\""
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 2d749c6409b417ea | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

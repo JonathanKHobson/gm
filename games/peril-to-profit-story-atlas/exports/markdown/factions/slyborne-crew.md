@@ -1,0 +1,51 @@
+# Slyborne Crew
+
+RAW export - entity:slyborne-crew
+
+## Player-facing description
+Slyborne Crew: A flexible adversary crew category for hideouts, toll lanes, and off-route pressure.
+
+## Public role
+Bandit crew pressure for Sablewood hideouts
+
+## Handout text
+Player-safe note: A flexible adversary crew category for hideouts, toll lanes, and off-route pressure.
+
+## Raw source
+- Type: faction
+- Role: Bandit crew pressure for Sablewood hideouts
+- Summary: A flexible adversary crew category for hideouts, toll lanes, and off-route pressure.
+- Tags: sablewood-lore faction adversary source-page-10
+- Aliases: Slyborne Crew Slyborne bandits
+- Connections: Slyborne Hideout Underroot Tunnels Goldwater-Grail Toll Crew
+- Inventory: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry.
+- Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+- Image Fallback: type-icon
+- Source Pages: Sablewood PDF p. 10
+- Name: Slyborne Crew
+- Id: slyborne-crew
+- Meta: Faction / Community FACTION assets/icons/faction.png entity-faction #9f7aea 06 Factions and Companies factions faction
+- Related: Goldwater-Grail Toll Crew Slyborne Hideout Underroot Tunnels
+- Image Prompt: Private table TTRPG story atlas asset for Slyborne Crew, Faction / Community. Role: Bandit crew pressure for Sablewood hideouts. Summary: A flexible adversary crew category for hideouts, toll lanes, and off-route pressure.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Create a clean symbolic crest or brand mark on a plain dark background; no readable words. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: A flexible adversary crew category for hideouts, toll lanes, and off-route pressure.; show internal disagreement, practical needs, and how the faction explains itself when outsiders listen.
+- Wants: Protect its stake in Slyborne Hideout, Underroot Tunnels, Goldwater-Grail Toll Crew while being seen as more than a symbol or obstacle.
+- Fears: Being flattened into a slogan, blamed for every harm, or used by corporations as proof that control is necessary.
+- Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.
+- Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.
+- Sample Dialogue: A flexible adversary crew category for hideouts, toll lanes, and off-route pressure.
+- Equipment: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry.
+- Search Or Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+- Gm Use: Keep the satire pointed at institutional behavior, not vulnerable people. Reveal function through assets, language, and consequences.
+- Future Hooks: Bring back as an echo if players made a strong choice involving this entity.
+- Robust: Slyborne Crew: A flexible adversary crew category for hideouts, toll lanes, and off-route pressure. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Protect its stake in Slyborne Hideout, Underroot Tunnels, Goldwater-Grail Toll Crew while being seen as more than a symbol or obstacle. Being flattened into a slogan, blamed for every harm, or used by corporations as proof that control is necessary. Keep the satire pointed at institutional behavior, not vulnerable people. Reveal function through assets, language, and consequences. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Slyborne Crew and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge...
+- Mechanics: Faction Pressure / Reputation Mechanics Players can read public face, negotiate leverage, track reputation, or identify pressure Slyborne Crew when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A flexible adversary crew category for hideouts, toll lanes, and off-route pressure. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-slyborne-crew-engage-slyborne-crew entity-slyborne-crew Engage Slyborne Crew Engage Slyborne Crew Presence Knowledge Instinct Presence Knowledge, Instinct 13 Choose the trait from the player's method, not the entity type. A flat read of Slyborne Crew hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives...
+- Pronunciation: SLY-born kroo
+- Short Pronunciation: SLY-born kroo
+- Image: assets/logos/slyborne-crew.webp
+- Image Asset Status: image_gen
+- Faction Representative Image: assets/factions/slyborne-crew-representative.webp
+- Faction Representative Status: image_gen
+- Visual Gallery: primary Primary wiki image primary assets/logos/slyborne-crew.webp Slyborne Crew primary wiki image visual. Slyborne Crew: Primary wiki image. image_gen True True faction-logo-source Faction logo faction-logo assets/entity-gallery/slyborne-crew/faction-logo-source.webp Slyborne Crew faction logo visual. Slyborne Crew: Faction logo. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/logos/slyborne-crew.webp faction-representative-source Representative scene faction-representative assets/entity-gallery/slyborne-crew/faction-representative-source.webp Slyborne Crew representative scene visual. Slyborne Crew: Representative scene. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/representative/slyborne-crew.png
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 3d7185686f2245a0 | Source hash dac3370046ed077140fab2d6

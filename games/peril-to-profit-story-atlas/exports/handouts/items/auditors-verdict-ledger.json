@@ -1,0 +1,53 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "auditors-verdict-ledger",
+  "kind": "entity",
+  "title": "Auditor's Verdict Ledger™",
+  "in_world_label": "Provisioning Product Card",
+  "brand_flag": "Goldwater audit office",
+  "kicker": "A black ledger with bronze corners opens too neatly, as if the pages have already decided what the facts will be.",
+  "hook": "A black ledger with bronze corners opens too neatly, as if the pages have already decided what the facts will be.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "A black ledger with bronze corners opens too neatly, as if the pages have already decided what the facts will be."
+    },
+    {
+      "label": "Maker Voice",
+      "body": "GOLDWATER VERDICT LEDGER: For When Reality Needs a Column. Balanced Books, Balanced Blame."
+    },
+    {
+      "label": "At The Table",
+      "body": "Social pressure object. Presence or Knowledge 13 can force the auditor to record an inconvenient fact."
+    }
+  ],
+  "spec": [
+    [
+      "Use",
+      "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction."
+    ],
+    [
+      "Benefit",
+      "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned."
+    ],
+    [
+      "Limit",
+      "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a..."
+    ]
+  ],
+  "affordances": [
+    "Inspect the label, maker, or fine print.",
+    "Use it only when the fiction says you can reach it."
+  ],
+  "archetype": "item.product_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:auditors-verdict-ledger",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "e5ca38ab3ec6b79a",
+  "generated_at": "2026-06-23T21:40:58"
+}

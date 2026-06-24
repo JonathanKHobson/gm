@@ -1,0 +1,93 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "scene",
+  "id": "S02-04",
+  "title": "S02-04 - After the Ambush",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "5cdcf31e62df0516",
+  "sections": [
+    {
+      "title": "Player read-aloud",
+      "body": "The road is quiet again, except for the horses breathing hard and the forest shifting around the wreckage."
+    },
+    {
+      "title": "Scene summary",
+      "body": "The party regroups and may learn the Bramble Union were targeting the cargo specifically."
+    },
+    {
+      "title": "Visible choices",
+      "items": [
+        "Loot bodies",
+        "Interrogate survivor",
+        "Leave quickly",
+        "Mark graves"
+      ]
+    },
+    {
+      "title": "Player questions",
+      "items": [
+        "What detail in After the Ambush tells you the official story is incomplete?",
+        "Who notices the human cost first, and how do they show it?",
+        "What small object, smell, or sound makes this scene feel real?"
+      ]
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "If players loot bodies, include personal details, not just coins. Make the world feel lived-in.",
+        "Keep player-facing information actionable. Reveal systemic truth through objects, reactions, and consequences before naming it.",
+        "Manufactured-threat lens: seed the contradiction, do not explain it. The surface goal stays simple and heroic.",
+        "[ADD/EARNED] A spared/captured reclaimer says monster attacks spiked when protection contracts went on sale. (Presence Medium 15; requires mercy or capture)"
+      ]
+    },
+    {
+      "title": "Checks and rolls",
+      "items": [
+        "Presence or Knowledge Interrogate, comfort, or read the aftermath. Easy to standard Convert combat result into actionable truth. 10/15 Cleanly resolve: Interrogate, comfort, or read the aftermath. Add a concrete boon, extra clue, or improved position. Success, plus the player names one helpful detail or asks one follow-up question. Success, but the GM exposes a cost, ticks a countdown, or reveals a new pressure tied to After the Ambush. The full goal slips, but the party still learns a useful truth or avoids the worst consequence. The GM makes a hard move that follows from the fiction and leaves the next choice visible. Spend Fear to reveal omitted risk, split attention, or put a human cost in front of the contract. On mixed or sliding results, reveal information in layers: visible fact, actionable clue, then systemic truth."
+      ]
+    },
+    {
+      "title": "Clues",
+      "items": [
+        "Personal effects They were people. Their violence is still violence. Keepsakes show the reclaimers had lives and obligations.",
+        "Earned seed Available if players investigate, show mercy, or ask the right question. A spared/captured reclaimer says monster attacks spiked when protection contracts went on sale. Presence Medium 15; requires mercy or capture"
+      ]
+    },
+    {
+      "title": "Loot",
+      "items": [
+        "Personal effects",
+        "Route sketch",
+        "Old Goldspire seal",
+        "Bramble Union Stoneweave: A garment of thousands of tiny polished stones moves like cloth and turns thorns like armor. Every fitted piece looks cut by hands that loved the work.",
+        "Vial of Briarpowder: A small stoppered vial holds fine grey-green thorn powder that seems to drink the light. A blade edge near it looks sharper and hungrier.",
+        "Bramble Ward-Scrap Charm Cluster: A knot of blue ward shards, twine, and tiny salvage tags clacks softly at a Bramblefolk belt. It looks illegal only because it looks useful.",
+        "Claimrunner Serrated Blade: A short serrated blade shows careful filing along the back edge and a handle wrapped in road cord. It is ugly in the practical way of a tool that has never had a decorative day."
+      ]
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Plot So Far: The party is in Act Two pressure: The party regroups and may learn the Bramble Union were targeting the cargo specifically.",
+        "Mechanics In Play: Use Daggerheart Duality Dice as baseline. Use the listed Difficulty and outcome options when a roll matters. Keep trivial actions no-roll; roll only when uncertainty, cost, or danger is interesting.",
+        "Roll Cards: s02-04-question-a-spared-reclaimer S02-04 Question a spared reclaimer Question a spared reclaimer Presence Knowledge Presence Knowledge 12 Presence keeps them talking; Knowledge asks the right claim question. A living prisoner becomes a person or a problem. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. A living prisoner becomes a person or a...",
+        "Gm Fear Spends: Close the ambush net or put a PC between cargo and a frightened reclaimer. Reveal a personal effect that makes victory emotionally complicated.",
+        "Conditions Hazards: No official condition unless a feature, hazard, or fictional position calls for Hidden, Restrained, or Vulnerable.",
+        "Search Loot Clues: Claimrunner and ambusher search: half-written letter, old Goldspire seal, reclaimed keyring, names that complicate victory.",
+        "No Roll Guidance: Do not call for a roll when the players have time, a clear method, and no meaningful pressure.",
+        "Escalation: Escalate by making cost visible: time, noise, trust, ward instability, or someone vulnerable in danger.",
+        "Deescalation: De-escalate through respect, care, honest testimony, useful evidence, or a concrete concession.",
+        "Tv Mechanics Caption: Public cue: After the Ambush asks what the party does, what it costs, and who is protected.",
+        "Trait Variety Note: Primary traits in this scene: Finesse, Knowledge, Presence. If rolls drift toward Instinct/Presence, ask whether Agility, Strength, Finesse, or Knowledge better describes the action.",
+        "Class Community Ancestry Reveals: Loreborne: spots older legal, heraldic, or ward-craft language under the branding. Underborne: notices service doors, hidden routes, and who built the thing nobody credits. Highborne: reads etiquette, class panic, and reputational risk. Ridgeborne: notices stonework, weight, pressure, and structural weakness. Wildborne: reads the land, animals, and local ecological stress. Elf/Ribbet/Human/Giant/Katari: invite one sensory or social detail from the player's heritage. Sorcerer/Rogue/Warrior/Guardian/Ranger: give each class one table-facing way to shine without changing the plot."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 5cdcf31e62df0516 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

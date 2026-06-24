@@ -1,0 +1,639 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2748 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S06-02 - The Relay Spire Hook) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The Custodian leads you out of the treehouse, out of the forest itself, to look down on) Tj
+T*
+(the green expanse from above. Twisting stone spires break through the treeline, each) Tj
+T*
+(with a flame flickering in its tower like a beacon. "There's a relay out west," she) Tj
+T*
+(says, "maybe a few hours. You might have felt it on the way in: its light was weaker) Tj
+T*
+(than it should be. I think something's wrong with its Keeper, and I fear what happens if) Tj
+T*
+(that fire goes out." She studies the horizon. "When you're ready, come back. I'll give) Tj
+T*
+(you my map, so you can make it there safe. It's good to have heroes in the preserve) Tj
+T*
+(again.") Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Learn what is stirring west, and decide whether you leave that door open.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: S06-02) Tj
+T*
+(- Type: scene) Tj
+T*
+(- Sectionid: EPILOGUE) Tj
+T*
+(- Sectiontitle: Epilogue: Beyond the Contract) Tj
+T*
+(- Title: The Relay Spire Hook) Tj
+T*
+(- Shorttitle: Relay Hook) Tj
+T*
+(- Order: 702) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: True) Tj
+T*
+(- Image: assets/scenes/S06-02-the-relay-spire-hook.png) Tj
+T*
+(- Alt: The Relay Spire Hook scene art for Beyond the Contract.) Tj
+T*
+(- Caption: The Relay Spire hook points beyond the one-shot without stealing this) Tj
+T*
+(  ending.) Tj
+T*
+(- Mood: Beyond the Contract) Tj
+T*
+(- Gmgoal: The Custodian reveals another relay spire may be failing.) Tj
+T*
+(- Publicobjective: Learn what is stirring west, and decide whether you leave that door) Tj
+T*
+(  open.) Tj
+T*
+(- Readaloud: The Custodian leads you out of the treehouse, out of the forest itself,) Tj
+T*
+(  to look down on the green expanse from above. Twisting stone spires break through) Tj
+T*
+(  the treeline, each with a flame flickering in its tower like a beacon. "There's a) Tj
+T*
+(  relay out west," she says, "maybe a few hours. You might have felt it on the way in:) Tj
+T*
+(  its light was weaker than it should be. I think something's wrong with its Keeper,) Tj
+T*
+(  and I fear what happens if that fire goes out." She studies the horizon. "When) Tj
+T*
+(  you're ready, come back. I'll give you my map, so you can make it there safe. It's) Tj
+T*
+(  good to have heroes in the preserve again.") Tj
+T*
+(- Gmnotes: The Relay is seen and described, not entered. If epilogue_tone is pyrrhic) Tj
+T*
+(  or tragic, the hook feels like unfinished business rather than excitement.) Tj
+T*
+(- Gmscript: Say: "One more thing on the horizon. Not tonight unless you want it) Tj
+T*
+(  tonight: a fire going dim, a Keeper in trouble, and a map waiting if you ever come) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4096 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  back.") Tj
+T*
+(- Gmreadaloud: Twisting stone spires break through the treeline, each with a flame) Tj
+T*
+(  flickering like a beacon. "There's a relay out west," she says. "Its light was) Tj
+T*
+(  weaker than it should be." "When you're ready, come back. I'll give you my map.") Tj
+T*
+(- Gmchecklist: Deliver official Relay hook player-facing. Offer the map as a future) Tj
+T*
+(  door, not a forced next scene. Drop 0-4 hidden hints only if earned and the players) Tj
+T*
+(  bite. Let players say the conclusion; do not lecture. Set relay_hook_accepted,) Tj
+T*
+(  hidden_hook_discovered, and sequel_direction. End open-ended. No combat, no) Tj
+T*
+(  countdown, no next act transition.) Tj
+T*
+(- Gmprivate: Hidden thesis: the corporation manufactures the peril it profits from) Tj
+T*
+(  protecting against. The official hook and hidden hook point to the same future) Tj
+T*
+(  destination, but the table only gets the hidden conclusion if they articulate it.) Tj
+T*
+(  Hint ladder: convenient Relay failure; the Custodian almost saying safety is not) Tj
+T*
+(  made from nothing; Bramble truth if learned; staged attack/defensive) Tj
+T*
+(  monster/trademarked havens/assets pattern if they connect it. Hold the soul-economy) Tj
+T*
+(  as a seed. Do not explain the mechanism.) Tj
+T*
+(- Playertakeaway: You can rest easy tonight, and if you want, a door west is open.) Tj
+T*
+(- Storytakeaway: The night's won, but a distant light is failing and the party may be) Tj
+T*
+(  the kind of people who answer.) Tj
+T*
+(- Mechanictakeaway: relay_hook_accepted, hidden_hook_discovered, and sequel_direction) Tj
+T*
+(  record which ending door the table leaves open.) Tj
+T*
+(- Rollcards: s06-02-read-the-relay-map S06-02 Read the Relay map Read the Relay map) Tj
+T*
+(  Knowledge Instinct Knowledge Instinct 12 Knowledge follows network logic; Instinct) Tj
+T*
+(  hears what feels wrong westward. The next danger becomes scenery instead of a person) Tj
+T*
+(  in peril. Critical Success: best possible version of the action; gain Hope and clear) Tj
+T*
+(  1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the) Tj
+T*
+(  PC gets what they wanted and gains Hope. Keep the position clean or generous.) Tj
+T*
+(  Success with Fear: the PC gets what they wanted, but the GM gains Fear and) Tj
+T*
+(  introduces a cost, complication, or pressure. Failure with Hope: the PC does not get) Tj
+T*
+(  the full result, but gains Hope and receives a useful thread, clue, or safer next) Tj
+T*
+(  option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that) Tj
+T*
+(  follows from the fiction. The next danger becomes scenery instead of a person in) Tj
+T*
+(  peril. Use a hard complication, lost time, worse position, GM Fear, or mark Stress.) Tj
+T*
+(  Apply an official condition only if the fiction and rules justify it. The attempt) Tj
+T*
+(  falls short, but a partial thread appears. Offer one clue, weak position, or safer) Tj
+T*
+(  follow-up. The PC gets the core result, but it...) Tj
+T*
+(- Entityids: relay-spire spirekeeper old-sable whitefire-custodian open-valetm-ritual-) Tj
+T*
+(  site goldspire-territories spirekeeper-relay-keyring auditors-verdict-ledger) Tj
+T*
+(  marlowe-fairwind route-ledger) Tj
+T*
+(- Entities: relay-spire Relay Spire location Location assets/icons/location.png) Tj
+T*
+(  assets/location-visuals/relay-spire/profile_scene_v02.png REE-lay spy-er A slim,) Tj
+T*
+(  windswept relay tower with a beacon at the top that has lately begun to burn thin.) Tj
+T*
+(  Point beyond the ending without taking the ending away. A distant ward relay whose) Tj
+T*
+(  flame feels weak after the ritual.; introduce it with a sensory palette, who feels) Tj
+T*
+(  safe there, and what has been neglected. Pull player attention toward the choices,) Tj
+T*
+(  clues, and relationships tied to Whitefire Custodian, Spirekeeper, Old Sable. A) Tj
+T*
+(  distant ward relay whose flame feels weak after the ritual. spirekeeper Spirekeeper) Tj
+T*
+(  npc NPC / Ally assets/icons/npc.png assets/npc-images/spirekeeper/portrait_base.png) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4067 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  SPIRE-kee-per Unknown keeper of the western relay spire. Future-facing) Tj
+T*
+(  infrastructure witness who makes the relay problem feel human before it becomes a) Tj
+T*
+(  quest. Spirekeeper a sleepless keeper of relay mechanisms, bell chains, and failing) Tj
+T*
+(  signal lights Sleepless devotion to a fragile chain of care strung between far) Tj
+T*
+(  places. Ties a knot in a cord for every missed reply. Her worst fear is being the) Tj
+T*
+(  last person who knows a call went unanswered. Keep the relay speaking...) Tj
+T*
+(- Locationids: open-valetm-ritual-site relay-spire goldspire-territories old-sable) Tj
+T*
+(- Itemids: spirekeeper-relay-keyring auditors-verdict-ledger) Tj
+T*
+(- Clueids: relay-tremor-notation) Tj
+T*
+(- Statecontrols: report_choice Report Choice select unresolved file-honest spin-) Tj
+T*
+(  corporate refuse withhold-the-truth relay_hook_accepted Relay Hook Accepted checkbox) Tj
+T*
+(  epilogue_tone Epilogue Tone select triumphant bittersweet pyrrhic tragic) Tj
+T*
+(  hidden_hook_discovered Hidden Hook Discovered checkbox sequel_direction Sequel) Tj
+T*
+(  Direction select relay hidden both undecided strixwolf_disposition Strixwolf) Tj
+T*
+(  Disposition select unresolved calm hostile killed strixwolf_outcome Strixwolf) Tj
+T*
+(  Outcome select unresolved calmed helped avoided attacked killed strixwolf_trust) Tj
+T*
+(  Strixwolf Trust number 3 strixwolf_blood_debt Strixwolf Blood Debt checkbox) Tj
+T*
+(  bramble_outcome Bramble Outcome select unresolved killed captured spared negotiated) Tj
+T*
+(  escaped let_cargo bramble_truth_learned Bramble Truth Learned checkbox) Tj
+T*
+(  package_status Package Status select held lost hush_trust Hush Trust select low) Tj
+T*
+(  neutral high custodian_route Custodian Route select unknown safe dangerous) Tj
+T*
+(  ward_awareness Ward Awareness select none seed aware festival_boon Festival Boon) Tj
+T*
+(  select none charm favor market_find goodwill hush_clues Hush Clues select none) Tj
+T*
+(  custodian_route ward_seed corporate_seam farm_seed market_rumor multiple) Tj
+T*
+(  custodian_trust Custodian Trust select low...) Tj
+T*
+(- Mechanicids: report-choice roleplay table-spotlight instinct knowledge presence) Tj
+T*
+(- Playerquestions: Do you take the map? Who looks longest at the dim light? What) Tj
+T*
+(  question do you leave with, if any?) Tj
+T*
+(- Relationshipprompts: Which PC quietly checks on someone else here? Who disagrees) Tj
+T*
+(  about the right thing to do without breaking trust?) Tj
+T*
+(- Ownershipprompt: Name one detail in The Relay Spire Hook that belongs to your) Tj
+T*
+(  character's point of view.) Tj
+T*
+(- Fearspends: Spend Fear to complicate the report, sharpen the relay hook, or show how) Tj
+T*
+(  the system edits a victory. Make the report protect an institution unless the PCs) Tj
+T*
+(  spend effort to keep truth intact. Bring the Relay Spire hook closer through a) Tj
+T*
+(  tremor, missing keeper mark, or unpaid notice.) Tj
+T*
+(- Choicesconsequences: Accept the Relay hook. The party agrees the story can continue) Tj
+T*
+(  west later. Set relay_hook_accepted=true and sequel_direction=relay unless hidden) Tj
+T*
+(  hook also lands. The one-shot ends with a clear heroic door.) Tj
+T*
+(  relay_hook_accepted=true; sequel_direction=relay Reward: hopeful future door.) Tj
+T*
+(  player-visible Decline for now. The party lets the night end as a complete win.) Tj
+T*
+(  Leave relay_hook_accepted=false and sequel_direction=undecided. The ending remains) Tj
+T*
+(  closed but not sealed. relay_hook_accepted=false; sequel_direction=undecided Reward:) Tj
+T*
+(  rest and closure. player-visible Name the hidden pattern. The table connects the) Tj
+T*
+(  clues themselves. Set hidden_hook_discovered=true; sequel_direction=hidden or both.) Tj
+T*
+(  The Relay hook becomes investigative as well as heroic. hidden_hook_discovered=true;) Tj
+T*
+(  sequel_direction=hidden|both Reward/cost: stronger future truth. player-visible Keep) Tj
+T*
+(  the suspicion private. The party senses something wrong but chooses not to chase it) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 3883 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  tonight. Keep hidden_hook_discovered=false or leave as table-uncertain. The deeper) Tj
+T*
+(  thread waits. sequel_direction=relay|undecided Both: closure with unease. player-) Tj
+T*
+(  visible) Tj
+T*
+(- Linkedsceneids: S06-01 MAP-LOC-relay-spire MAP-LOC-the-goldspire-relay MAP-LOC-old-) Tj
+T*
+(  sable) Tj
+T*
+(- Lootclues: Relay Spire lead Custodian's trust if earned Spirekeeper Relay Keyring: A) Tj
+T*
+(  heavy ring of mismatched brass keys and blue-glass tags chimes with a sound like) Tj
+T*
+(  distant bells heard through rain. Auditor's Verdict Ledger?: A black ledger with) Tj
+T*
+(  bronze corners opens too neatly, as if the pages have already decided what the facts) Tj
+T*
+(  will be.) Tj
+T*
+(- Handoutids: Relay pulse Guaranteed seed) Tj
+T*
+(- Sourcesceneslug: S06-02-the-relay-spire-hook) Tj
+T*
+(- Sourcefiles: dist/Epilogue_Upgrade_Packet/EPILOGUE_SCENE_RESEARCH.md) Tj
+T*
+(  dist/Epilogue_Upgrade_Packet/EPILOGUE_MAPS_AND_LOCATIONS.md) Tj
+T*
+(- References: Relay Spire map #MAP-LOC-relay-spire Goldspire Relay map #MAP-LOC-the-) Tj
+T*
+(  goldspire-relay) Tj
+T*
+(- Storyscope: Perceived antagonist: the forest. True antagonist: the corporate lie) Tj
+T*
+(  about the forest. The players never confront it directly. They are meant to feel it) Tj
+T*
+(  by the end. Every act offers at least one guaranteed and one earned hint that the) Tj
+T*
+(  danger is manufactured and the forest is not the enemy. The ritual completes, Hush) Tj
+T*
+(  is safe, and the Custodian thanks them. The win is real. KEEP GUARANTEED A) Tj
+T*
+(  Grail/Kazrak incident report thanks them for "neutralizing forest hazards" and) Tj
+T*
+(  supporting continued Protection Coverage. ADD GUARANTEED If pushed, the Custodian) Tj
+T*
+(  admits the "hazards" were not always here, then looks away. ADD EARNED Presence Hard) Tj
+T*
+(  20 A nearby Relay Spire beacon burns weakly, pointing to the larger thread. KEEP) Tj
+T*
+(  GUARANTEED A nearby Relay Spire beacon burns weakly, pointing to the larger thread.) Tj
+T*
+(  KEEP GUARANTEED Presence Hard 20: draw out the Custodian's slip. EPILOGUE Epilogue) Tj
+T*
+(  210 3:20 to 3:30 3:30 win, congratulatory-report cliffhanger, Relay Spire hook) Tj
+T*
+(  Deliver the report prop and the hook even if you skip the slip.) Tj
+T*
+(- Livetools: scene MAP-LOC-relay-spire MAP-LOC-goldspire-territories MAP-LOC-old-sable) Tj
+T*
+(  MAP-LOC-the-goldspire-relay) Tj
+T*
+(- Percharacterlayer: garrick-reed Garrick Reed Security playbook Garrick has seen) Tj
+T*
+(  staged danger, narrative control, and incident reports from the inside.) Tj
+T*
+(  Knowledge/Presence earned clue chain Can notice the pattern looks like a job, not) Tj
+T*
+(  nature. Can name the hidden pattern if the player reaches it. Garrick, you ran) Tj
+T*
+(  security for them. Does any of this start to look like a job to you? Want to say) Tj
+T*
+(  what you're seeing? marlowe-fairwind Marlowe Fairwind Magical seam If) Tj
+T*
+(  keystone_understanding is deep, Marlowe knows protection had a cost and can wonder) Tj
+T*
+(  who benefits from that cost. Knowledge gated by keystone_understanding=deep Connects) Tj
+T*
+(  the ward's consuming nature to the larger pattern without explaining the mechanism.) Tj
+T*
+(  Can make the hidden hook magical instead of bureaucratic. Marlowe, the ward consumes) Tj
+T*
+(  to protect. What if the danger it protects against is being made? Want to follow) Tj
+T*
+(  that thought? barnacle Barnacle Follow the money Barnacle has been asking who) Tj
+T*
+(  profits since the job started. Finesse/Knowledge earned clue chain Names who) Tj
+T*
+(  benefits every time the forest is called dangerous. Can turn the hidden hook into a) Tj
+T*
+(  clean rogue question: who gets paid? Barnacle, you've been asking who profits. Want) Tj
+T*
+(  to say the...) Tj
+T*
+(- Takeawayhelp: Player takeaway You can rest easy tonight, and if you want, a door) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 4228 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  west is open. "You are done for tonight, heroes. The door west is open whenever you) Tj
+T*
+(  want it." "Take the Custodian's map, ask what she is not saying, or call it a good) Tj
+T*
+(  night's work and head home." This should feel inviting, not coercive. A complete) Tj
+T*
+(  ending is valid. report-choice table-spotlight Story takeaway The night's won, but a) Tj
+T*
+(  distant light is failing and the party may be the kind of people who answer. "One) Tj
+T*
+(  more thing on the horizon: a fire going dim, a Keeper in trouble. Not tonight, but) Tj
+T*
+(  it is there." "The Relay is a beacon-spire west. Its light is failing, and the) Tj
+T*
+(  Keeper may be in danger." The official hook is player-safe and clear. The hidden) Tj
+T*
+(  hook is only a clue chain unless players connect it. report-choice table-spotlight) Tj
+T*
+(  Mechanic takeaway relay_hook_accepted, hidden_hook_discovered, and sequel_direction) Tj
+T*
+(  record which ending door the table leaves open. "No rolls. Just: do you take the) Tj
+T*
+(  Relay job, and is there a bigger question you want to chase?" "Set) Tj
+T*
+(  relay_hook_accepted if they take the map. Set hidden_hook_discovered only if they) Tj
+T*
+(  name the pattern. Set sequel_direction from the door they choose." No combat...) Tj
+T*
+(- Playerbeats: s06-02-view View The view from above assets/scenes/S06-02-the-relay-) Tj
+T*
+(  spire-hook.png The Relay Spire Hook scene art for Beyond the Contract. From above) Tj
+T*
+(  the trees, thin stone spires break the horizon, each holding a small flame against) Tj
+T*
+(  the night. From above the trees, thin stone spires break the horizon, each holding a) Tj
+T*
+(  small flame against the night. From above the trees, thin stone spires break the) Tj
+T*
+(  horizon, each holding a small flame against the night. text-first s06-02-official) Tj
+T*
+(  Relay The official hook assets/scenes/S06-02-the-relay-spire-hook.png The Relay) Tj
+T*
+(  Spire Hook scene art for Beyond the Contract. The Custodian says one relay's light) Tj
+T*
+(  is weaker than it should be, and she worries about its Keeper. The Custodian says) Tj
+T*
+(  one relay's light is weaker than it should be, and she worries about its Keeper. The) Tj
+T*
+(  Custodian says one relay's light is weaker than it should be, and she worries about) Tj
+T*
+(  its Keeper. text-first s06-02-pattern Pattern The thing that does not add up) Tj
+T*
+(  assets/scenes/S06-02-the-relay-spire-hook.png The Relay Spire Hook scene art for) Tj
+T*
+(  Beyond the Contract. If the details from tonight keep bothering you, there may be a) Tj
+T*
+(  bigger pattern waiting under them. If the details from...) Tj
+T*
+(- Gmbeats: s06-02-view View The view from above Say: "From here, you can see the) Tj
+T*
+(  spires above the trees: little flames on the horizon." From above the trees, thin) Tj
+T*
+(  stone spires break the horizon, each holding a small flame against the night. The) Tj
+T*
+(  future starts as a vista. Description-before-naming keeps the hook clean. Players) Tj
+T*
+(  see the hook before it is named. Player takeaway Players see the hook before it is) Tj
+T*
+(  named. "From here, you can see the spires above the trees: little flames on the) Tj
+T*
+(  horizon." "Players see the hook before it is named." Use this beat to give the) Tj
+T*
+(  players closure, not a new problem to solve. table-spotlight Story takeaway The) Tj
+T*
+(  future starts as a vista. "From here, you can see the spires above the trees: little) Tj
+T*
+(  flames on the horizon." "The future starts as a vista." Tie the answer back to what) Tj
+T*
+(  the party already did and chose. table-spotlight Mechanic takeaway Description-) Tj
+T*
+(  before-naming keeps the hook clean. "From here, you can see the spires above the) Tj
+T*
+(  trees: little flames on the horizon." "Description-before-naming keeps the hook) Tj
+T*
+(  clean." The epilogue mechanics are reward, reflection, report payoff, and choosing) Tj
+T*
+(  which door stays open. table-spotlight s06-02-official Relay The...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 9500) Tj
+T*
+(- Playersafeprojection: S06-02 scene The Relay Spire Hook assets/scenes/S06-02-the-) Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 1657 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  relay-spire-hook.png The Relay Spire Hook scene art for Beyond the Contract. The) Tj
+T*
+(  Relay Spire hook points beyond the one-shot without stealing this ending. Beyond the) Tj
+T*
+(  Contract Learn what is stirring west, and decide whether you leave that door open.) Tj
+T*
+(  The Custodian leads you out of the treehouse, out of the forest itself, to look down) Tj
+T*
+(  on the green expanse from above. Twisting stone spires break through the treeline,) Tj
+T*
+(  each with a flame flickering in its tower like a beacon. "There's a relay out west,") Tj
+T*
+(  she says, "maybe a few hours. You might have felt it on the way in: its light was) Tj
+T*
+(  weaker than it should be. I think something's wrong with its Keeper, and I fear what) Tj
+T*
+(  happens if that fire goes out." She studies the horizon. "When you're ready, come) Tj
+T*
+(  back. I'll give you my map, so you can make it there safe. It's good to have heroes) Tj
+T*
+(  in the preserve again." s06-02-view View The view from above) Tj
+T*
+(  assets/scenes/S06-02-the-relay-spire-hook.png The Relay Spire Hook scene art for) Tj
+T*
+(  Beyond the Contract. From above the trees, thin stone spires break the horizon, each) Tj
+T*
+(  holding a small flame against the night. From above the trees, thin stone...) Tj
+T*
+(- Companionmapids: MAP-LOC-relay-spire MAP-LOC-goldspire-territories MAP-LOC-old-sable) Tj
+T*
+(  MAP-LOC-the-goldspire-relay) Tj
+T*
+(- Slidenumber: 78) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash ba72cbd51217122e | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R 12 0 R] /Count 6 >>
+endobj
+14 0 obj
+<< /Type /Catalog /Pages 13 0 R >>
+endobj
+15 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000009 00000 n 
+0000002809 00000 n 
+0000002937 00000 n 
+0000007085 00000 n 
+0000007213 00000 n 
+0000011332 00000 n 
+0000011460 00000 n 
+0000015395 00000 n 
+0000015523 00000 n 
+0000019803 00000 n 
+0000019932 00000 n 
+0000021642 00000 n 
+0000021772 00000 n 
+0000021862 00000 n 
+0000021913 00000 n 
+trailer
+<< /Size 16 /Root 14 0 R >>
+startxref
+21986
+%%EOF

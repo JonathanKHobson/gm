@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S01-04",
+  "kind": "slide",
+  "title": "S01-04 - The First Action Roll - Reading the Creature",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act One: The Logistics Incident",
+  "hook": "The creature is wary of every movement you make. Let's find out how she reacts. This is your first roll: grab your two d12s, add your Presence, and tell me the total, plus which die came up higher. If you have an...",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "The creature is wary of every movement you make. Let's find out how she reacts. This is your first roll: grab your two d12s, add your Presence, and tell me the total, plus which die came up higher. If you have an Experience that fits, you can spend a Hope..."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Read the creature correctly and get everyone, including the young, out of this without bloodshed."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:S01-04",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "9363a5153b10545d",
+  "generated_at": "2026-06-23T21:40:58"
+}

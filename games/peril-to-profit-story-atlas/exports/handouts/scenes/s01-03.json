@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S01-03",
+  "kind": "scene",
+  "title": "S01-03 - The Strixwolf Mother",
+  "in_world_label": "Situation Briefing",
+  "brand_flag": "Briefing",
+  "kicker": "The Logistics Incident",
+  "hook": "A creature steps from behind the cart: wolf-bodied, owl-faced, wings folded tight. Two pups stumble behind her. Her eyes judge whether you are danger or mercy.",
+  "blocks": [
+    {
+      "label": "Where You Are",
+      "body": "A creature steps from behind the cart: wolf-bodied, owl-faced, wings folded tight. Two pups stumble behind her. Her eyes judge whether you are danger or mercy."
+    },
+    {
+      "label": "Plain Stakes",
+      "body": "A strange winged wolf-owl mother guards her pups while feeding from the dead driver."
+    },
+    {
+      "label": "Visible Options",
+      "body": "Soothe her Attack her Back away Inspect from afar"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Who notices the Strixwolf pups first, and why does that matter to you?",
+    "What do you do with your hands so the mother knows you are not hunting?",
+    "What sound tells you this is a parent, not a monster?"
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - scene:S01-03",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "a9cd25076155484c",
+  "generated_at": "2026-06-23T21:40:58"
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "ranges",
+  "kind": "rule",
+  "title": "Ranges",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "mechanic",
+  "hook": "Daggerheart uses bands like Melee, Very Close, Close, Far, and Very Far.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Daggerheart uses bands like Melee, Very Close, Close, Far, and Very Far."
+    },
+    {
+      "label": "How It Works",
+      "body": "Ranges: Daggerheart uses bands like Melee, Very Close, Close, Far, and Very Far."
+    },
+    {
+      "label": "Try It",
+      "body": "How far away is it?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use when distance matters to weapons, spells, or positioning.",
+    "Use the range band that best fits the fiction.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:ranges",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "47b8e0076c92663f",
+  "generated_at": "2026-06-23T21:40:58"
+}

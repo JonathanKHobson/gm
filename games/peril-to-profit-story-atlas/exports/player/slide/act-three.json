@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "ACT-THREE",
+  "kind": "slide",
+  "title": "ACT-THREE - Act Three: Seeking a Custodian",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act Three: Seeking a Custodian",
+  "hook": "The road softens. The trees do not change, but the air does: warmer, kinder, like a held breath finally letting go. Ahead, lantern-light and music gather around ordinary people who feel safe. Somewhere in this village...",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "The road softens. The trees do not change, but the air does: warmer, kinder, like a held breath finally letting go. Ahead, lantern-light and music gather around ordinary people who feel safe. Somewhere in this village is the person you were sent to find. All..."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Reach the village, find the person who can receive the package, and deliver it."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:ACT-THREE",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "7d06f623607cfa2d",
+  "generated_at": "2026-06-23T21:40:58"
+}

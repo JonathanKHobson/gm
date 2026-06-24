@@ -1,0 +1,318 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2723 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-the-sable-stills - The Sable Stills Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The Sable Stills are warm, smoky, and sharper than they seem, turning old wood, strong) Tj
+T*
+(drink, and local jokes into hospitality with teeth.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(The Sable Stills are warm, smoky, and sharper than they seem, turning old wood, strong) Tj
+T*
+(drink, and local jokes into hospitality with teeth.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-the-sable-stills) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: STORY) Tj
+T*
+(- Sectiontitle: Map Board) Tj
+T*
+(- Title: The Sable Stills Location Map) Tj
+T*
+(- Shorttitle: The Sable Stills) Tj
+T*
+(- Order: 851.5) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-the-sable-stills-gm.png) Tj
+T*
+(- Alt: The Sable Stills location map board.) Tj
+T*
+(- Caption: Visual reference for The Sable Stills.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Keep warmth complicated and specific.) Tj
+T*
+(- Publicobjective: The Sable Stills are warm, smoky, and sharper than they seem,) Tj
+T*
+(  turning old wood, strong drink, and local jokes into hospitality with teeth.) Tj
+T*
+(- Readaloud: The Sable Stills are warm, smoky, and sharper than they seem, turning old) Tj
+T*
+(  wood, strong drink, and local jokes into hospitality with teeth.) Tj
+T*
+(- Playertakeaway: The Sable Stills are warm, smoky, and sharper than they seem,) Tj
+T*
+(  turning old wood, strong drink, and local jokes into hospitality with teeth.) Tj
+T*
+(- Storytakeaway: The Stills turn danger into ritual memory.) Tj
+T*
+(- Mechanictakeaway: Use as hospitality, rumor, or grief texture if spotlighted.) Tj
+T*
+(- Entityids: the-sable-stills) Tj
+T*
+(- Entities: the-sable-stills The Sable Stills location Location) Tj
+T*
+(  assets/icons/location.png assets/location-visuals/the-sable-) Tj
+T*
+(  stills/profile_scene_v02.png the SAY-bul Stills A settlement where strong drink, old) Tj
+T*
+(  jokes, and Sablewood craft turn danger into hospitality without making danger) Tj
+T*
+(  harmless. Keep warmth complicated and specific. A settlement where strong drink, old) Tj
+T*
+(  jokes, and Sablewood craft turn danger into hospitality without making danger) Tj
+T*
+(  harmless.; introduce it with a sensory palette, who feels safe there, and what has) Tj
+T*
+(  been neglected. Pull player attention toward the choices, clues, and relationships) Tj
+T*
+(  tied to The Latch, The Sable Sinecure, Hazard-Indexed Pricing. A settlement where) Tj
+T*
+(  strong drink, old jokes, and Sablewood craft turn danger into hospitality without) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4139 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  making danger harmless.) Tj
+T*
+(- Locationids: the-sable-stills) Tj
+T*
+(- Fearspends: A toast names someone from the road. A barrel mark matches a symbol the) Tj
+T*
+(  party found earlier.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Mapdata: MAP-LOC-the-sable-stills environment The Sable Stills Location Map the-) Tj
+T*
+(  sable-stills assets/location-visuals/the-sable-stills/profile_scene_v02.png Visual) Tj
+T*
+(  reference for The Sable Stills. The Sable Stills location map board. The Sable) Tj
+T*
+(  Stills are warm, smoky, and sharper than they seem, turning old wood, strong drink,) Tj
+T*
+(  and local jokes into hospitality with teeth. The Sable Stills are warm, smoky, and) Tj
+T*
+(  sharper than they seem, turning old wood, strong drink, and local jokes into) Tj
+T*
+(  hospitality with teeth. Keep warmth complicated and specific. Copper coils, covered) Tj
+T*
+(  barrels, campfire benches, and Knock Wood cups cluster under shelter. Laughter stops) Tj
+T*
+(  quickly when route danger is named, then returns changed. Some barrels are marked) Tj
+T*
+(  for grief, not sale. Leaf-drip, insects, distant wingbeats, and animal calls that) Tj
+T*
+(  stop or resume according to pressure, not comfort. Fermenting fruit, smoke, copper,) Tj
+T*
+(  wet bark, and sweet burn. Cups are warm and rough; barrel hoops leave rust on) Tj
+T*
+(  fingers. The forest is populated even when no NPC is present; silence, birds,) Tj
+T*
+(  insects, and tracks are actionable signals. Copper coils, covered barrels, campfire) Tj
+T*
+(  benches, and Knock Wood cups cluster under shelter. Laughter...) Tj
+T*
+(- Livetools: scene MAP-LOC-the-sable-stills) Tj
+T*
+(- Takeawayhelp: Player takeaway: MAP-LOC-the-sable-stills The Sable Stills are warm,) Tj
+T*
+(  smoky, and sharper than they seem, turning old wood, strong drink, and local jokes) Tj
+T*
+(  into hospitality with teeth. Give the player one concrete way back into play: a) Tj
+T*
+(  question, a description, a choice, or a pass-and-return moment. "Your takeaway right) Tj
+T*
+(  now is this: The Sable Stills are warm, smoky, and sharper than they seem, turning) Tj
+T*
+(  old wood, strong drink, and local jokes into hospitality with teeth." "If you are) Tj
+T*
+(  not sure what to do next, you can ask a question, describe what your character) Tj
+T*
+(  notices, or tell me what your character tries." "If you are not sure what to do) Tj
+T*
+(  next, you can ask a question, describe what your character notices, or tell me what) Tj
+T*
+(  your character tries." Give the player one concrete way back into play: a question,) Tj
+T*
+(  a description, a choice, or a pass-and-return moment. Story takeaway: MAP-LOC-the-) Tj
+T*
+(  sable-stills The Stills turn danger into ritual memory. Anchor the answer in the) Tj
+T*
+(  visible fiction on this slide: who is present, what can be observed, what has) Tj
+T*
+(  already been said, and what remains uncertain. "Here is what your characters know) Tj
+T*
+(  right now: The Stills turn danger into ritual memory." "If you...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-the-sable-stills-player.png The Sable Stills) Tj
+T*
+(  location map board. MAP-LOC-the-sable-stills environment The Sable Stills) Tj
+T*
+(  assets/maps/MAP-LOC-the-sable-stills-player.png assets/maps/MAP-LOC-the-sable-) Tj
+T*
+(  stills-player.png Visual reference for The Sable Stills. The Sable Stills location) Tj
+T*
+(  map board. The Sable Stills are warm, smoky, and sharper than they seem, turning old) Tj
+T*
+(  wood, strong drink, and local jokes into hospitality with teeth. The Sable Stills) Tj
+T*
+(  are warm, smoky, and sharper than they seem, turning old wood, strong drink, and) Tj
+T*
+(  local jokes into hospitality with teeth. MAP-LOC-the-sable-stills-map-only Map only) Tj
+T*
+(  The Sable Stills map-only assets/maps/MAP-LOC-the-sable-stills-player.png The Sable) Tj
+T*
+(  Stills location map board. MAP-LOC-the-sable-stills environment The Sable Stills) Tj
+T*
+(  assets/maps/MAP-LOC-the-sable-stills-player.png assets/maps/MAP-LOC-the-sable-) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2078 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  stills-player.png Visual reference for The Sable Stills. The Sable Stills location) Tj
+T*
+(  map board. The Sable Stills are warm, smoky, and sharper than they seem, turning old) Tj
+T*
+(  wood, strong drink, and local jokes into hospitality with teeth. The Sable Stills) Tj
+T*
+(  are warm, smoky, and sharper than they seem, turning old wood, strong...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-the-sable-stills map The Sable Stills assets/maps/MAP-) Tj
+T*
+(  LOC-the-sable-stills-player.png The Sable Stills location map board. Visual) Tj
+T*
+(  reference for The Sable Stills. spatial reference and location texture The Sable) Tj
+T*
+(  Stills are warm, smoky, and sharper than they seem, turning old wood, strong drink,) Tj
+T*
+(  and local jokes into hospitality with teeth. The Sable Stills are warm, smoky, and) Tj
+T*
+(  sharper than they seem, turning old wood, strong drink, and local jokes into) Tj
+T*
+(  hospitality with teeth. MAP-LOC-the-sable-stills environment The Sable Stills) Tj
+T*
+(  assets/maps/MAP-LOC-the-sable-stills-player.png assets/maps/MAP-LOC-the-sable-) Tj
+T*
+(  stills-player.png Visual reference for The Sable Stills. The Sable Stills location) Tj
+T*
+(  map board. The Sable Stills are warm, smoky, and sharper than they seem, turning old) Tj
+T*
+(  wood, strong drink, and local jokes into hospitality with teeth. The Sable Stills) Tj
+T*
+(  are warm, smoky, and sharper than they seem, turning old wood, strong drink, and) Tj
+T*
+(  local jokes into hospitality with teeth. assets/maps/MAP-LOC-the-sable-stills-) Tj
+T*
+(  player.png The Sable Stills location map board. MAP-LOC-the-sable-stills environment) Tj
+T*
+(  The Sable Stills assets/maps/MAP-LOC-the-sable-stills-player.png...) Tj
+T*
+(- Slidenumber: 96) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 0b230d0a447eb233 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002784 00000 n 
+0000002910 00000 n 
+0000007101 00000 n 
+0000007227 00000 n 
+0000009357 00000 n 
+0000009483 00000 n 
+0000009552 00000 n 
+0000009601 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+9673
+%%EOF

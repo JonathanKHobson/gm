@@ -1,0 +1,244 @@
+{
+  "auditors-verdict-ledger": {
+    "profile_image": {
+      "key": "profile_base",
+      "label": "Item profile image",
+      "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/auditors-verdict-ledger/profile_base.png",
+      "runtime_path": "assets/item-images/auditors-verdict-ledger/profile_base.webp",
+      "status": "ready",
+      "alt": "Auditor's Verdict Ledger™ item illustration.",
+      "player_caption": "A black ledger with bronze corners opens too neatly, as if the pages have already decided what the facts will be."
+    }
+  },
+  "bramble-union-stoneweave": {
+    "profile_image": {
+      "key": "profile_base",
+      "label": "Item profile image",
+      "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/bramble-union-stoneweave/profile_base.png",
+      "runtime_path": "assets/item-images/bramble-union-stoneweave/profile_base.webp",
+      "status": "ready",
+      "alt": "Bramble Union Stoneweave item illustration.",
+      "player_caption": "A garment of thousands of tiny polished stones moves like cloth and turns thorns like armor. Every fitted piece looks cut by hands that loved the work."
+    }
+  },
+  "bramble-ward-scrap-charm-cluster": {
+    "profile_image": {
+      "key": "profile_base",
+      "label": "Item profile image",
+      "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/bramble-ward-scrap-charm-cluster/profile_base.png",
+      "runtime_path": "assets/item-images/bramble-ward-scrap-charm-cluster/profile_base.webp",
+      "status": "ready",
+      "alt": "Bramble Ward-Scrap Charm Cluster item illustration.",
+      "player_caption": "A knot of blue ward shards, twine, and tiny salvage tags clacks softly at a Bramblefolk belt. It looks illegal only because it looks useful."
+    }
+  },
+  "bugbane-berry": {
+    "profile_image": {
+      "key": "profile_base",
+      "label": "Item profile image",
+      "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/bugbane-berry/profile_base.png",
+      "runtime_path": "assets/item-images/bugbane-berry/profile_base.webp",
+      "status": "ready",
+      "alt": "Bugbane Berry™ item illustration.",
+      "player_caption": "A fat red-orange berry shines a little too perfectly, with a tiny insect suspended dead-center like a pit in amber. It looks appetizing and deeply wrong."
+    }
+  },
+  "claimrunner-serrated-blade": {
+    "profile_image": {
+      "key": "profile_base",
+      "label": "Item profile image",
+      "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/claimrunner-serrated-blade/profile_base.png",
+      "runtime_path": "assets/item-images/claimrunner-serrated-blade/profile_base.webp",
+      "status": "ready",
+      "alt": "Claimrunner Serrated Blade item illustration.",
+      "player_caption": "A short serrated blade shows careful filing along the back edge and a handle wrapped in road cord. It is ugly in the practical way of a tool that has never had a decorative day."
+    }
+  },
+  "cracked-pocket-ward": {
+    "profile_image": {
+      "key": "profile_base",
+      "label": "Item profile image",
+      "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/cracked-pocket-ward/profile_base.png",
+      "runtime_path": "assets/item-images/cracked-pocket-ward/profile_base.webp",
+      "status": "ready",
+      "alt": "Cracked Pocket Ward™ item illustration.",
+      "player_caption": "A cheap little ward charm sits cracked down the middle, still trying to glow through a smiling warranty sticker."
+    }
+  },
+  "eeligator-scale-shield": {
+    "profile_image": {
+      "key": "profile_base",
+      "label": "Item profile image",
+      "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/eeligator-scale-shield/profile_base.png",
+      "runtime_path": "assets/item-images/eeligator-scale-shield/profile_base.webp",
+      "status": "ready",
+      "alt": "Eeligator Scale Shield item illustration.",
+      "player_caption": "A round shield of overlapping slick green-grey scales catches the light like river-water. It smells of deep water, mud, and old teeth."
+    }
+  },
+  "fire-wine": {
+    "profile_image": {
+      "key": "profile_base",
+      "label": "Item profile image",
+      "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/fire-wine/profile_base.png",
+      "runtime_path": "assets/item-images/fire-wine/profile_base.webp",
+      "status": "ready",
+      "alt": "Fire Wine™ item illustration.",
+      "player_caption": "A strong golden liquor sloshes in a thick jug, warm going down and warmer staying there. A paper tag insists it is not made from grapes and is absolutely not medicinal."
+    }
+  },
+  "goldwater-liability-token": {
+    "profile_image": {
+      "key": "profile_base",
+      "label": "Item profile image",
+      "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/goldwater-liability-token/profile_base.png",
+      "runtime_path": "assets/item-images/goldwater-liability-token/profile_base.webp",
+      "status": "ready",
+      "alt": "Goldwater Liability Token™ item illustration.",
+      "player_caption": "A heavy brass chit with a smiling coin-face drops into your palm like a tiny verdict. The fine print is too small to read without feeling blamed."
+    }
+  },
+  "incident-response-placard": {
+    "profile_image": {
+      "key": "profile_base",
+      "label": "Item profile image",
+      "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/incident-response-placard/profile_base.png",
+      "runtime_path": "assets/item-images/incident-response-placard/profile_base.webp",
+      "status": "ready",
+      "alt": "Incident Response Placard™ item illustration.",
+      "player_caption": "A flat brass disc on a post holds a watchful glyph and a single cheerful bell. When trouble happens nearby, the glyph lights, the bell rings once, brightly, and then nothing else happens at all."
+    }
+  },
+  "kazrak-adventurer-certification": {
+    "profile_image": {
+      "key": "profile_base",
+      "label": "Item profile image",
+      "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/kazrak-adventurer-certification/profile_base.png",
+      "runtime_path": "assets/item-images/kazrak-adventurer-certification/profile_base.webp",
+      "status": "ready",
+      "alt": "Kazrak Adventurer Certification™ item illustration.",
+      "player_caption": "A laminated badge shows a flattering but wrong portrait under a peeling CERTIFIED stamp. It somehow looks proud of the mistake."
+    }
+  },
+  "keystone-asset": {
+    "profile_image": {
+      "key": "profile_base",
+      "label": "Item profile image",
+      "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/keystone-asset/profile_base.png",
+      "runtime_path": "assets/item-images/keystone-asset/profile_base.webp",
+      "status": "ready",
+      "alt": "Keystone Asset™ item illustration.",
+      "player_caption": "Inside the sealed crate, packed in wax-paper and reassurance, sits a heavy grey stone the size of a loaf, warm to the touch, faintly humming, with a light deep inside it that is slowly going out."
+    }
+  },
+  "lucent-water": {
+    "profile_image": {
+      "key": "profile_base",
+      "label": "Item profile image",
+      "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/lucent-water/profile_base.png",
+      "runtime_path": "assets/item-images/lucent-water/profile_base.webp",
+      "status": "ready",
+      "alt": "Lucent Water™ item illustration.",
+      "player_caption": "A corked bottle glows moonlit blue from inside, even in daylight, even in your pack. The water looks calm enough to sell itself."
+    }
+  },
+  "recall-stone": {
+    "profile_image": {
+      "key": "profile_base",
+      "label": "Item profile image",
+      "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/recall-stone/profile_base.png",
+      "runtime_path": "assets/item-images/recall-stone/profile_base.webp",
+      "status": "ready",
+      "alt": "Recall Stone item illustration.",
+      "player_caption": "A smooth grey pebble feels warm and ordinary until it refuses to stay where you put it. Set it down, look away, and it waits back in your palm."
+    }
+  },
+  "restorative-ash": {
+    "profile_image": {
+      "key": "profile_base",
+      "label": "Item profile image",
+      "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/restorative-ash/profile_base.png",
+      "runtime_path": "assets/item-images/restorative-ash/profile_base.webp",
+      "status": "ready",
+      "alt": "Restorative Ash™ item illustration.",
+      "player_caption": "A little painted tin holds fine black ash and a folded promise as long as your arm. It smells of old smoke and expensive confidence."
+    }
+  },
+  "sable-sap": {
+    "profile_image": {
+      "key": "profile_base",
+      "label": "Item profile image",
+      "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/sable-sap/profile_base.png",
+      "runtime_path": "assets/item-images/sable-sap/profile_base.webp",
+      "status": "ready",
+      "alt": "Sable Sap item illustration.",
+      "player_caption": "Warm amber sap beads from a crack in a huge trunk like the tree is breathing it out. It smells of honey, woodsmoke, and something older."
+    }
+  },
+  "sableblade": {
+    "profile_image": {
+      "key": "profile_base",
+      "label": "Item profile image",
+      "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/sableblade/profile_base.png",
+      "runtime_path": "assets/item-images/sableblade/profile_base.webp",
+      "status": "ready",
+      "alt": "Sableblade item illustration.",
+      "player_caption": "Growing straight up out of dark forest soil, like a sapling that decided to be a sword, is a blade of living dark wood and pale metal. It has no maker's mark and hums when your hand nears the hilt."
+    }
+  },
+  "sableleaf-shoes": {
+    "profile_image": {
+      "key": "profile_base",
+      "label": "Item profile image",
+      "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/sableleaf-shoes/profile_base.png",
+      "runtime_path": "assets/item-images/sableleaf-shoes/profile_base.webp",
+      "status": "ready",
+      "alt": "Sableleaf Shoes item illustration.",
+      "player_caption": "A pair of shoes sewn entirely from broad sablewood leaves sits light as breath, green-veined, and already leaning toward motion."
+    }
+  },
+  "spirekeeper-relay-keyring": {
+    "profile_image": {
+      "key": "profile_base",
+      "label": "Item profile image",
+      "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/spirekeeper-relay-keyring/profile_base.png",
+      "runtime_path": "assets/item-images/spirekeeper-relay-keyring/profile_base.webp",
+      "status": "ready",
+      "alt": "Spirekeeper Relay Keyring item illustration.",
+      "player_caption": "A heavy ring of mismatched brass keys and blue-glass tags chimes with a sound like distant bells heard through rain."
+    }
+  },
+  "tamsins-home-token": {
+    "profile_image": {
+      "key": "profile_base",
+      "label": "Item profile image",
+      "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/tamsins-home-token/profile_base.png",
+      "runtime_path": "assets/item-images/tamsins-home-token/profile_base.webp",
+      "status": "ready",
+      "alt": "Tamsin's Home-Token item illustration.",
+      "player_caption": "A small thumb-polished token on a cord hangs beside the torn blue scarf, warm from wear and etched with a tiny house mark instead of a company seal."
+    }
+  },
+  "vial-of-briarpowder": {
+    "profile_image": {
+      "key": "profile_base",
+      "label": "Item profile image",
+      "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/vial-of-briarpowder/profile_base.png",
+      "runtime_path": "assets/item-images/vial-of-briarpowder/profile_base.webp",
+      "status": "ready",
+      "alt": "Vial of Briarpowder item illustration.",
+      "player_caption": "A small stoppered vial holds fine grey-green thorn powder that seems to drink the light. A blade edge near it looks sharper and hungrier."
+    }
+  },
+  "whitefire-ward-charm": {
+    "profile_image": {
+      "key": "profile_base",
+      "label": "Item profile image",
+      "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/whitefire-ward-charm/profile_base.png",
+      "runtime_path": "assets/item-images/whitefire-ward-charm/profile_base.webp",
+      "status": "ready",
+      "alt": "Whitefire Custodian's Ward-Charm item illustration.",
+      "player_caption": "A small hand-carved wooden ratcoon mid-scamper has been thumb-worn smooth for luck. It is warm, and the forest feels a little kinder while you hold it."
+    }
+  }
+}

@@ -1,0 +1,57 @@
+# Kazrak Adventurer Certification™
+
+GM export - entity:kazrak-adventurer-certification
+
+## Player-facing description
+A laminated badge shows a flattering but wrong portrait under a peeling CERTIFIED stamp. It somehow looks proud of the mistake.
+
+## Public role
+Kazrak Adventurer Certification™: proof you paid to be official, useful for access and annoying for autonomy.
+
+## Handout text
+KAZRAK CERTIFIED ADVENTURER: You are Official Now. Certification Funds Your Glory and Our Search. Renew Annually or Forfeit Your Worth.
+
+## GM truth
+Use this element to reveal the cost of managed protection through concrete play.
+
+## GM handling
+Use when players need a tangible handle on the scene's pressure.
+
+## Mechanics
+- Title: Discovery / Earn-It Mechanics
+- Player Safe: Players can inspect, handle, keep, trade, reveal, or earn Kazrak Adventurer Certification™ when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: A laminated badge shows a flattering but wrong portrait under a peeling CERTIFIED stamp. It somehow looks proud of the mistake. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-kazrak-adventurer-certification-engage-kazrak-adventurer-certification™ entity-kazrak-adventurer-certification Engage Kazrak Adventurer Certification™ Engage Kazrak Adventurer Certification™ Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Kazrak Adventurer Certification™ hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless the item or clue physically creates Hidden, Restrained, or Vulnerable
+- Search Loot: Kazrak Adventurer Certification™: proof you paid to be official, useful for access and annoying for autonomy. Provenance: Purchase, bureaucratic reward, or found in old adventurer kit.
+
+## Profile
+- Schema Version: item-profile-v1
+- Id: kazrak-adventurer-certification
+- Item Id: kazrak-adventurer-certification
+- Item Name: Kazrak Adventurer Certification™
+- Name: Kazrak Adventurer Certification™
+- Aliases: Kazrak Adventurer Certification Kazrak badge adventurer license
+- Pronunciation: KAZ-rak ad-VEN-chur-er ser-tih-fih-KAY-shun
+- Item Kind: document
+- Tier: Tier 1
+- Priority: P2
+- Mode: AD
+- Maker: Kazrak Industries
+- Made Or Wild: corporate-made
+- Auto Surface: True
+- Discovered From Art: False
+- Player Safe: Kazrak Adventurer Certification™ A laminated badge shows a flattering but wrong portrait under a peeling CERTIFIED stamp. It somehow looks proud of the mistake. A laminated badge shows a flattering but wrong portrait under a peeling CERTIFIED stamp. It somehow looks proud of the mistake. Kazrak Industries KAZRAK CERTIFIED ADVENTURER: You are Official Now. Certification Funds Your Glory and Our Search. Renew Annually or Forfeit Your Worth.
+- Block0: kazrak-adventurer-certification Kazrak Adventurer Certification™ Kazrak Adventurer Certification Kazrak badge adventurer license KAZ-rak ad-VEN-chur-er ser-tih-fih-KAY-shun document Tier 1
+- Block1: A laminated badge shows a flattering but wrong portrait under a peeling CERTIFIED stamp. It somehow looks proud of the mistake. Kazrak Adventurer Certification™: proof you paid to be official, useful for access and annoying for autonomy. A license that marks the holder as a paying adventuring asset. Opens doors and quietly tells the world who thinks it owns the door. pages/entities/kazrak-adventurer-certification.html
+- Block2: Kazrak Industries corporate-made KAZRAK CERTIFIED ADVENTURER: You are Official Now. Certification Funds Your Glory and Our Search. Renew Annually or Forfeit Your Worth. It helps in Kazrak venues and also marks the party as registered. The badge makes you official by drawing you wrong.
+- Block3: Social access at Kazrak venues; possible tracking or reputation hook. item #adaptation Discovery grammar: this is evidence, not treasure. It grants information, leverage, or access when earned through roleplay or a trait roll. Social access at Kazrak venues; possible tracking or reputation hook. The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned. Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does. Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction. If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus. Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling. DC 12-15 to identify...
+- Block4: Duskwatch Exchange The Latch Corporate Sundries Purchase, bureaucratic reward, or found in old adventurer kit. MAP-LOC-duskwatch-exchange MAP-LOC-the-latch
+- Block5: Layer 1 - look A badge with a wrong flattering portrait. Layer 2 - hint It claims official status. Layer 3 - truth It can open doors and create obligations. Show it at a checkpoint. Read renewal terms. Ask who recognizes Kazrak paperwork. Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll.
+- Block6: A laminated fantasy adventurer badge with a flatteringly wrong portrait and peeling CERTIFIED stamp, bright corporate branding, no sci-fi screen. item wiki card and earned side-card visual Use the Run Mode item card's Show image button when the table sees or earns this item. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/kazrak-adventurer-certification/profile_base.png assets/item-images/kazrak-adventurer-certification/profile_base.webp Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark.
+- Visual Assets: profile_base Item profile image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/kazrak-adventurer-certification/profile_base.png assets/item-images/kazrak-adventurer-certification/profile_base.webp ready Kazrak Adventurer Certification™ item illustration. A laminated badge shows a flattering but wrong portrait under a peeling CERTIFIED stamp. It somehow looks proud of the mistake.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 9dc643a8f526da7c | Source hash dac3370046ed077140fab2d6

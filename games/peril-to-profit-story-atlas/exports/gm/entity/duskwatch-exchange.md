@@ -1,0 +1,52 @@
+# Duskwatch Exchange
+
+GM export - entity:duskwatch-exchange
+
+## Player-facing description
+Duskwatch Exchange is where route knowledge changes hands quietly, because the forest charges more for ignorance.
+
+## Public role
+Make information feel tactile and local.
+
+## Handout text
+A Sablewood trade point where route knowledge, watches, and liability-backed bargains change hands above or beside the old wood.
+
+## GM truth
+No forced reveal. Let this entity disclose truth through scene context and player attention.
+
+## GM handling
+Introduce with sensory texture, then make one discoverable clue or social choice visible.
+
+## Mechanics
+- Title: Location Exploration Mechanics
+- Player Safe: Players can navigate, search, read customs, inspect hazards Duskwatch Exchange when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: A Sablewood trade point where route knowledge, watches, and liability-backed bargains change hands above or beside the old wood. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-duskwatch-exchange-engage-duskwatch-exchange entity-duskwatch-exchange Engage Duskwatch Exchange Engage Duskwatch Exchange Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of Duskwatch Exchange hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless a hazard creates Hidden, Restrained, or Vulnerable
+- Search Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+
+## Profile
+- Schema Version: location-profile-v1
+- Id: duskwatch-exchange
+- Entity Id: duskwatch-exchange
+- Source: Story Atlas generated location notes
+- Auto Surface: True
+- Priority: strong
+- Player Safe: Duskwatch Exchange A Sablewood trade point where route knowledge, watches, and liability-backed bargains change hands above or beside the old wood. A Sablewood trade point where route knowledge, watches, and liability-backed bargains change hands above or beside the old wood. Duskwatch Exchange is where route knowledge changes hands quietly, because the forest charges more for ignorance. Duskwatch Exchange is a trade post at the hour when everyone wants business done before dark: lantern counters, route boards, package yards, food smoke, and tired guards. The place breaks into usable table spaces: Lantern counters: Merchants trade goods under warm low light. Watch platform: A raised lookout watches road, sky, and crowd. Package yard: Crates, straps, seals, and arguments make terrain. Plants and materials: dusty hedge rows, lantern herbs, tough road weeds. Animals and background life...
+- Block1: Duskwatch Exchange Make information feel tactile and local. A Sablewood trade point where route knowledge, watches, and liability-backed bargains change hands above or beside the old wood. The Exchange turns knowledge into survival and commerce. Route knowledge is the real merchandise here, and it costs more the closer to dark you ask for it. The Exchange turns knowledge into survival and commerce. Business peaks at dusk and then everyone wants the gates shut. Whatever the party needs, they need it before the lanterns come in. pages/entities/duskwatch-exchange.html
+- Block2: Covered stalls, watch posts, coded knots, and weather-dark awnings cluster near a safer crossing. People look at boots and packs before faces. Prices shift when route bells sound. The best information is traded by gesture before coin. Detail Lantern oil, damp wool, smoked roots, and ink sealed against rain. Detail Counters are rough plank under waxed cloth; knot-cords feel stiff from repeated handling. Duskwatch Exchange is where route knowledge changes hands quietly, because the forest charges more for ignorance. Duskwatch Exchange is a trade post at the hour when everyone wants business done before dark: lantern counters, route boards, package yards, food smoke, and tired guards. The place breaks into usable table spaces: Lantern counters: Merchants trade goods under warm low light. Watch platform: A raised lookout watches road, sky, and crowd. Package yard: Crates, straps, seals...
+- Block3: route boards watch post coded knots weather awnings Presence to bargain without arrogance. Knowledge to verify route claims. Instinct to notice when a watch changes posture. Local residents or workers appropriate to the place pack beetles, courier birds, dusk moths, tired road ponies No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues dusty hedge rows, lantern herbs, tough road weeds trade goods package handling road news cheap hot food
+- Block4: The place changes even if the PCs stand still. Local people, creatures, weather, signage, and ward behavior all keep moving around the scene. Bad information can be sold as confidence. Outsiders may be overcharged for not listening. A route update can make a plan obsolete. A route token is pulled from sale mid-conversation. A watch caller names a danger nobody wrote down. Let the place be funny through overconfident signage, awkward forms, stubborn local habits, and magic that refuses corporate language.
+- Block5: MAP-LOC-duskwatch-exchange
+- Block6: Describe what the PCs can see, smell, hear, touch, ask about, or infer. Do not explain hidden infrastructure or corporate thesis until play earns it. surface A Sablewood trade point where route knowledge, watches, and liability-backed bargains change hands above or beside the old wood. table clue The Exchange turns knowledge into survival and commerce. earned truth Reveal deeper system meaning through NPC answers, evidence, or player questions, not narration dumps.
+- What Here: Local residents or workers appropriate to the place pack beetles, courier birds, dusk moths, tired road ponies No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues dusty hedge rows, lantern herbs, tough road weeds trade goods package handling road news cheap hot food
+- Living Place: location-living-place-v1 twilight trade and watch post Duskwatch Exchange is a trade post at the hour when everyone wants business done before dark: lantern counters, route boards, package yards, food smoke, and tired guards. Lantern counters Merchants trade goods under warm low light. Use for bargains. Watch platform A raised lookout watches road, sky, and crowd. Use for surveillance. Package yard Crates, straps, seals, and arguments make terrain. Use for movement and clues. dusty hedge rows, lantern herbs, tough road weeds pack beetles, courier birds, dusk moths, tired road ponies lantern smoke, bell calls, seal wax smell, twilight chill Business peaks at dusk, then the exchange becomes watchful, quiet, and protective. Someone is always weighing, sealing, counting, or watching someone else count. Do you inspect goods, talk to watchers, follow package markings, or listen at the food...
+- Districts Or Subareas: Lantern counters Merchants trade goods under warm low light. Use for bargains. Watch platform A raised lookout watches road, sky, and crowd. Use for surveillance. Package yard Crates, straps, seals, and arguments make terrain. Use for movement and clues.
+- Sensory Signature: Detail Lantern oil, damp wool, smoked roots, and ink sealed against rain. Detail Counters are rough plank under waxed cloth; knot-cords feel stiff from repeated handling.
+- Visual Assets: location-visual-assets-v1 duskwatch-exchange Duskwatch Exchange Bright comedic frontier high-fantasy concept art for a Daggerheart-adjacent tabletop RPG. Medieval/Renaissance fantasy technology only: hand tools, wagons, ropes, parchment notices, ward-stones, carved wood, brass, cloth, stone, moss, lanterns, and magic. The tone is colorful, playful, slightly absurd, and vivid, like a fantasy corporate frontier comedy rather than a grim drama. No sci-fi machinery, no 1800s/Victorian clothing, no modern suits, no guns, no logos, no readable text, no watermark, no border, no collage. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/duskwatch-exchange MAP-LOC-duskwatch-exchange twilight trade post trade-post site map profile_scene Profile image ready /Users/kyle/Documents/My Games/Peril To...
+- Imagine It Like: A border-town market at closing time, or a truck stop before a long night drive. Think frontier trading post that locks down hard at sundown.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash a3aea66f15d888fa | Source hash dac3370046ed077140fab2d6

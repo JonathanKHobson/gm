@@ -1,0 +1,312 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2500 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(Legacy Security Badge) Tj
+T*
+() Tj
+T*
+(Player-facing description) Tj
+T*
+() Tj
+T*
+(Legacy Security Badge: A broken badge naming a defunct unit rather than a current boss) Tj
+T*
+(or simple monster.) Tj
+T*
+() Tj
+T*
+(Public role) Tj
+T*
+() Tj
+T*
+(Remnant of the person inside a security asset) Tj
+T*
+() Tj
+T*
+(Handout text) Tj
+T*
+() Tj
+T*
+(Player-safe note: A broken badge naming a defunct unit rather than a current boss or) Tj
+T*
+(simple monster.) Tj
+T*
+() Tj
+T*
+(GM truth) Tj
+T*
+() Tj
+T*
+(No forced reveal. Let this entity disclose truth through scene context and player) Tj
+T*
+(attention.) Tj
+T*
+() Tj
+T*
+(GM handling) Tj
+T*
+() Tj
+T*
+(Use when the scene needs a concrete object for players to inspect, carry, debate, or) Tj
+T*
+(remember.) Tj
+T*
+() Tj
+T*
+(Mechanics) Tj
+T*
+() Tj
+T*
+(- Title: Discovery / Earn-It Mechanics) Tj
+T*
+(- Player Safe: Players can inspect, handle, keep, trade, reveal, or earn Legacy) Tj
+T*
+(  Security Badge when it is present in the fiction.) Tj
+T*
+(- Gm Only: Use the roll only when the player's method, stakes, and consequence are) Tj
+T*
+(  concrete.) Tj
+T*
+(- No Roll Reveals: Surface read: A broken badge on a fallen figure, naming a security) Tj
+T*
+(  unit that no longer exists ? a job title outliving the person. Give obvious visible) Tj
+T*
+(  facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.) Tj
+T*
+(- Rolls: entity-legacy-security-badge-engage-legacy-security-badge entity-legacy-) Tj
+T*
+(  security-badge Engage Legacy Security Badge Engage Legacy Security Badge Knowledge) Tj
+T*
+(  Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait) Tj
+T*
+(  from the player's method, not the entity type. A flat read of Legacy Security Badge) Tj
+T*
+(  hides the cost, motive, or useful next step. Critical Success: best possible version) Tj
+T*
+(  of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from) Tj
+T*
+(  the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep) Tj
+T*
+(  the position clean or generous. Success with Fear: the PC gets what they wanted, but) Tj
+T*
+(  the GM gains Fear and introduces a cost, complication, or pressure. Failure with) Tj
+T*
+(  Hope: the PC does not get the full result, but gains Hope and receives a useful) Tj
+T*
+(  thread, clue, or safer next option. Failure with Fear: the PC fails and the...) Tj
+T*
+(- Fear Spends: Reveal who benefits from the current situation. Make the cost personal) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3409 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  without closing off player agency.) Tj
+T*
+(- Condition Options: No official condition unless the item or clue physically creates) Tj
+T*
+(  Hidden, Restrained, or Vulnerable) Tj
+T*
+(- Search Loot: Names a defunct unit and keeps the skeletons tied to abandoned) Tj
+T*
+(  infrastructure.) Tj
+T*
+() Tj
+T*
+(Profile) Tj
+T*
+() Tj
+T*
+(- Schema Version: clue-profile-v1) Tj
+T*
+(- Id: legacy-security-badge) Tj
+T*
+(- Clue Id: legacy-security-badge) Tj
+T*
+(- Clue Name: Legacy Security Badge) Tj
+T*
+(- Name: Legacy Security Badge) Tj
+T*
+(- Pronunciation: LEG-uh-see seh-KYUR-ih-tee BAJ) Tj
+T*
+(- Clue Kind: physical) Tj
+T*
+(- Auto Surface: True) Tj
+T*
+(- Player Safe: Legacy Security Badge A broken badge on a fallen figure, naming a) Tj
+T*
+(  security unit that no longer exists ? a job title outliving the person. A broken) Tj
+T*
+(  badge on a fallen figure, naming a security unit that no longer exists ? a job title) Tj
+T*
+(  outliving the person. A broken badge on a fallen figure, naming a security unit that) Tj
+T*
+(  no longer exists ? a job title outliving the person.) Tj
+T*
+(- Block0: legacy-security-badge Legacy Security Badge LEG-uh-see seh-KYUR-ih-tee BAJ) Tj
+T*
+(  physical) Tj
+T*
+(- Block1: the "monster" was an employee; this is a defunct unit, not a boss ? people,) Tj
+T*
+(  not enemies. WORLD/NPC Open Vale & Soul-Debt open-vale-and-soul-debt Gives Act Five) Tj
+T*
+(  weight without turning the hidden soul-economy seed into exposition.) Tj
+T*
+(  pages/entities/legacy-security-badge.html pages/clues/open-vale-and-soul-debt.html) Tj
+T*
+(- Block2: A broken badge on a fallen figure, naming a security unit that no longer) Tj
+T*
+(  exists ? a job title outliving the person. the "monster" was an employee; this is a) Tj
+T*
+(  defunct unit, not a boss ? people, not enemies.) Tj
+T*
+(- Block3: "the badge names an old unit." "this was a worker, not a monster." This clue) Tj
+T*
+(  points toward this conclusion: the "monster" was an employee; this is a defunct) Tj
+T*
+(  unit, not a boss ? people, not enemies. You have enough to conclude this: the) Tj
+T*
+(  "monster" was an employee; this is a defunct unit, not a boss ? people, not enemies.) Tj
+T*
+(- Block4: Soul-Audit Memory Shard soul-audit-memory-shard) Tj
+T*
+(- Block5: S05-04 S05-05 Open Vale? Ritual Site Legacy Security Skeleton read the badge) Tj
+T*
+(  \(Knowledge 12\). clues/Open_Vale_And_Soul_Debt.md) Tj
+T*
+(- Block6: HIDDEN Use this clue to support Open Vale & Soul-Debt: the "monster" was an) Tj
+T*
+(  employee; this is a defunct unit, not a boss ? people, not enemies. whisper True) Tj
+T*
+(- Block8: Bright, saturated storybook evidence illustration; clear hero shot of the) Tj
+T*
+(  actual clue object or scene detail; whimsical frontier-Renaissance materials; warm) Tj
+T*
+(  light; bright dystopian corporate satire when branded; no gore, no UI, no watermark,) Tj
+T*
+(  no repeated icon. Depict: a cracked badge naming a defunct unit. clue wiki card and) Tj
+T*
+(  Player Display evidence visual Send the image and SHOW text only. Keep TELL,) Tj
+T*
+(  points_to, and blunt ladder rungs GM-only until earned. /Users/kyle/Documents/My) Tj
+T*
+(  Games/Peril To Profit/story-atlas/src/clue_images/legacy-security-) Tj
+T*
+(  badge/profile_base.png assets/clue-images/legacy-security-badge/profile_base.png) Tj
+T*
+(  Bright, saturated storybook evidence illustration; clear hero shot of the actual) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 1933 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  clue object or scene detail; whimsical frontier-Renaissance materials; warm light;) Tj
+T*
+(  bright dystopian corporate satire when branded; no gore, no UI, no watermark, no) Tj
+T*
+(  repeated icon.) Tj
+T*
+(- Block9: Official Daggerheart action roll using Duality Dice, Hope, Fear, and) Tj
+T*
+(  Difficulty; P2P Roll Slider is the table-facing result ladder. Agility move, climb,) Tj
+T*
+(  dodge, reach a better angle, or read evidence while moving Strength lift, hold,) Tj
+T*
+(  force, carry, break, or test weight and pressure Finesse handle, hide, tinker,) Tj
+T*
+(  compare, pick apart, or notice precise detail Instinct perceive, smell, listen,) Tj
+T*
+(  track, read danger, or sense body language Presence charm, soothe, press, lead,) Tj
+T*
+(  deceive, perform, or read a social response Knowledge recall, analyze, investigate,) Tj
+T*
+(  reason from lore, or understand systems Finesse D14 Knowledge D14 Presence D14 If) Tj
+T*
+(  the clue is plainly visible, give the SHOW text freely first: A broken badge on a) Tj
+T*
+(  fallen figure, naming a security unit that no longer exists ? a job title outliving) Tj
+T*
+(  the person. Use the listed Difficulty for the chosen trait. Lower rolls get partial) Tj
+T*
+(  or...) Tj
+T*
+(- Mechanicids: duality-dice hope fear difficulty roll-slider clue-discovery) Tj
+T*
+(- Visual Assets: profile_base Clue evidence image /Users/kyle/Documents/My Games/Peril) Tj
+T*
+(  To Profit/story-atlas/src/clue_images/legacy-security-badge/profile_base.png) Tj
+T*
+(  assets/clue-images/legacy-security-badge/profile_base.png ready Legacy Security) Tj
+T*
+(  Badge clue image. A broken badge on a fallen figure, naming a security unit that no) Tj
+T*
+(  longer exists ? a job title outliving the person.) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash bce768d47b9d3bc2 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002561 00000 n 
+0000002687 00000 n 
+0000006148 00000 n 
+0000006274 00000 n 
+0000008259 00000 n 
+0000008385 00000 n 
+0000008454 00000 n 
+0000008503 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+8575
+%%EOF

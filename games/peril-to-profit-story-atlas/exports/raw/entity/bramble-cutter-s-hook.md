@@ -1,0 +1,47 @@
+# Bramble-Cutter's Hook
+
+RAW export - entity:bramble-cutter-s-hook
+
+## Player-facing description
+Bramble-Cutter's Hook: 1d6 physical tool-knife; advantage on Finesse or Strength rolls to cut ropes, vines, snares, or free someone Restrained by brambles.
+
+## Public role
+Loot Board item, clue, handout, or utility reward
+
+## Handout text
+Player-safe note: 1d6 physical tool-knife; advantage on Finesse or Strength rolls to cut ropes, vines, snares, or free someone Restrained by brambles.
+
+## Raw source
+- Type: item
+- Role: Loot Board item, clue, handout, or utility reward
+- Summary: 1d6 physical tool-knife; advantage on Finesse or Strength rolls to cut ropes, vines, snares, or free someone Restrained by brambles.
+- Tags: loot search weapon utility
+- Aliases: Bramble-Cutter's Hook
+- Connections: Bramble Union Beginner Loot Board GM Rules Drawer
+- Inventory: modest 1d6 physical tool-knife; advantage on Finesse or Strength rolls to cut ropes, vines, snares, or free someone Restrained by brambles.
+- Loot: Use as a small reward, clue, or texture rather than a treasure pile.
+- Name: Bramble-Cutter's Hook
+- Id: bramble-cutter-s-hook
+- Meta: Item / Asset ITEM assets/icons/item.png entity-item #39c5bb 07 Items and Clues entities item
+- Related: Beginner Loot Board Bramble Union GM Rules Drawer
+- Image Prompt: Private table TTRPG story atlas asset for Bramble-Cutter's Hook, Item / Asset. Role: Loot Board item, clue, handout, or utility reward. Summary: 1d6 physical tool-knife; advantage on Finesse or Strength rolls to cut ropes, vines, snares, or free someone Restrained by brambles.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: 1d6 physical tool-knife; advantage on Finesse or Strength rolls to cut ropes, vines, snares, or free someone Restrained by brambles.; use Bramble-Cutter's Hook as a concrete table object with texture, ownership, and a reason it matters now.
+- Wants: Give players a tangible handle on Bramble Union, Beginner Loot Board, GM Rules Drawer, whether they inspect, carry, return, trade, or refuse it.
+- Fears: Being treated as treasure clutter instead of evidence, memory, hospitality, or infrastructure with consequences.
+- Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.
+- Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.
+- Sample Dialogue: 1d6 physical tool-knife; advantage on Finesse or Strength rolls to cut ropes, vines, snares, or free someone Restrained by brambles.
+- Equipment: modest 1d6 physical tool-knife; advantage on Finesse or Strength rolls to cut ropes, vines, snares, or free someone Restrained by brambles.
+- Search Or Loot: Use as a small reward, clue, or texture rather than a treasure pile.
+- Gm Use: Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.
+- Future Hooks: A spared reclaimer can become a future informant or complication.
+- Robust: Bramble-Cutter's Hook: 1d6 physical tool-knife; advantage on Finesse or Strength rolls to cut ropes, vines, snares, or free someone Restrained by brambles. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Give players a tangible handle on Bramble Union, Beginner Loot Board, GM Rules Drawer, whether they inspect, carry, return, trade, or refuse it. Being treated as treasure clutter instead of evidence, memory, hospitality, or infrastructure with consequences. Use when the scene needs a concrete object for players to inspect, carry, debate, or remember. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Bramble-Cutter's Hook and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more...
+- Mechanics: Discovery / Earn-It Mechanics Players can inspect, handle, keep, trade, reveal, or earn Bramble-Cutter's Hook when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: 1d6 physical tool-knife; advantage on Finesse or Strength rolls to cut ropes, vines, snares, or free someone Restrained by brambles. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-bramble-cutter-s-hook-engage-bramble-cutter's-hook entity-bramble-cutter-s-hook Engage Bramble-Cutter's Hook Engage Bramble-Cutter's Hook Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Bramble-Cutter's Hook hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure...
+- Pronunciation: Bramble-cutter's Hook
+- Short Pronunciation: Bramble-cutter's Hook
+- Image: assets/entities/bramble-cutter-s-hook.webp
+- Image Asset Status: fallback_type_icon
+- Visual Gallery: primary Primary wiki image primary assets/entities/bramble-cutter-s-hook.webp Bramble-Cutter's Hook primary wiki image visual. Bramble-Cutter's Hook: Primary wiki image. fallback_type_icon True True
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash c5fdd1f62dc7c182 | Source hash dac3370046ed077140fab2d6

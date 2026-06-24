@@ -1,0 +1,28 @@
+# CHEAT-STATE - Current State Summary
+
+RAW export - slide:CHEAT-STATE
+
+## Raw source
+- Id: CHEAT-STATE
+- Type: cheat
+- Sectionid: CHEATS
+- Sectiontitle: Cheat Sheets
+- Title: Current State Summary
+- Shorttitle: State
+- Order: 906
+- Playersafe: False
+- Completioneligible: False
+- Caption: A quick snapshot of choice flags and table state.
+- Mood: reference
+- Gmgoal: Review choice flags without opening the full dashboard.
+- Gmnotes: Use this slide to audit current localStorage state before a major consequence fires.
+- Playertakeaway: GM-only state reference; do not project private state controls.
+- Storytakeaway: Tracked choices should pay off as visible consequences later.
+- Mechanictakeaway: Use state controls to remember flags, not to replace table judgment.
+- Statecontrols: strixwolf_disposition Strixwolf Disposition select unresolved calm hostile killed 9 strixwolf_outcome Strixwolf Outcome select unresolved calmed helped avoided attacked killed 9 strixwolf_trust Strixwolf Trust number 3 strixwolf_blood_debt Strixwolf Blood Debt checkbox 9 bramble_outcome Bramble Outcome select unresolved killed captured spared negotiated escaped 9 bramble_truth_learned Bramble Truth Learned checkbox 9 package_status Package Status select held lost 9 hush_trust Hush Trust select low neutral high 9 custodian_route Custodian Route select unknown safe dangerous 9 ward_awareness Ward Awareness select none seed aware 9 festival_participation Festival Participation checkbox 9 festival_boon Festival Boon select none charm favor market_find goodwill 9 hush_clues Hush Clues select none custodian_route ward_seed corporate_seam farm_seed market_rumor multiple 9 custodian_trust Custodian Trust select low neutral high 9 ward_stability Ward Stability select fragile stable 9 ritual_prep Ritual Prep select unready ready 9 keystone_understanding Keystone Understanding select surface deep 9 ritual_countdown Ritual Countdown number 10 ritual_outcome Ritual Outcome select unresolved...
+- Slidenumber: 110
+- Totalslides: 110
+- Playersafeprojection: CHEAT-STATE cheat Current State Summary A quick snapshot of choice flags and table state. reference
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 15dfd7acad8387a3 | Source hash dac3370046ed077140fab2d6

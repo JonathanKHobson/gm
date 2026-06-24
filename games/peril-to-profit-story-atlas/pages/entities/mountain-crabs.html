@@ -1,0 +1,587 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mountain Crabs · Goldspire Story Atlas</title>
+  <link rel="icon" href="../../assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="../../styles.css">
+  
+</head>
+<body class="subpage">
+  <a class="skip-link" href="#content">Skip to content</a>
+  
+<nav class="sticky-top-nav" aria-label="Quick navigation">
+  <a href="../../index.html">Atlas</a>
+  <a href="../../run.html">Run Mode</a>
+  <a href="../../pages/session-zero.html">Session Zero</a>
+  <a href="../../pages/story-outline.html">Outline</a>
+  <a href="../../pages/gm-dashboard.html">Dashboard</a>
+  <a href="../../pages/handouts.html">Handouts</a>
+  <a href="../../pages/entity-index.html">Wiki</a>
+  <a href="../../pages/pc-cheat-sheet.html">PCs</a>
+  <a href="../../pages/settings.html">Settings</a>
+  <button type="button" data-rules-open data-rules-target="action-roll" data-mechanic="action-roll">Rules</button>
+  <details class="rules-shortcuts">
+    <summary>Rule Shortcuts</summary>
+    <div class="rules-shortcut-menu">
+      <button type="button" data-rules-open data-rules-target="action-roll" data-mechanic="action-roll">Action Roll Help</button>
+      <button type="button" data-rules-open data-rules-target="hope-fear-matrix" data-mechanic="hope">Hope/Fear Outcomes</button>
+      <button type="button" data-rules-open data-rules-target="difficulty-ladder" data-mechanic="difficulty">Difficulty Ladder</button>
+      <button type="button" data-rules-open data-rules-target="conditions" data-mechanic="conditions">Official Conditions</button>
+      <button type="button" data-rules-open data-rules-target="damage-armor-stress" data-mechanic="damage-thresholds">Damage / Armor</button>
+      <button type="button" data-rules-open data-rules-target="gm-fear" data-mechanic="fear">GM Fear Spends</button>
+      <a class="button secondary mechanic-link" href="../../pages/dnd-to-daggerheart.html" data-mechanic="dnd-to-daggerheart"><span>D&D Conversion</span></a>
+      <button type="button" data-rules-open data-rules-target="short-rest" data-mechanic="short-rest">Short Rest</button>
+      <button type="button" data-rules-open data-rules-target="countdown" data-mechanic="countdown">Countdown</button>
+      <button type="button" data-rules-open data-rules-target="gm-moves-spotlight" data-mechanic="adversary-spotlight">Adversary Spotlight</button>
+    </div>
+  </details>
+  <label>Jump <select data-scene-jump></select></label>
+  <button type="button" data-command-palette-open>Search</button>
+  
+  <section class="run-clock" data-run-clock aria-label="Run clock" hidden>
+    <button class="run-clock-chip" type="button" data-run-clock-toggle aria-expanded="false" title="Open run clock">
+      <span class="run-clock-time" data-run-clock-elapsed>0:00</span>
+      <span class="run-clock-context" data-run-clock-context>Run clock</span>
+      <span class="run-clock-target" data-run-clock-target></span>
+    </button>
+    <div class="run-clock-panel" data-run-clock-panel hidden>
+      <header>
+        <div>
+          <p class="private-note">3.5-hour pacing helper</p>
+          <h3>Run Clock</h3>
+        </div>
+        <button class="run-clock-close" type="button" data-run-clock-toggle aria-label="Close run clock">Close</button>
+      </header>
+      <div class="run-clock-current">
+        <p><strong>Elapsed:</strong> <span data-run-clock-elapsed-long>0:00</span></p>
+        <p><strong>Status:</strong> <span data-run-clock-status>Not started</span></p>
+        <p><strong>Scene:</strong> <span data-run-clock-scene-target>Start the session.</span></p>
+        <p><strong>Segment:</strong> <span data-run-clock-current-target>Start the session.</span></p>
+        <p><strong>Session:</strong> <span data-run-clock-session-target>Target 3:30; soft wall 4:00; hard wall 5:00.</span></p>
+        <p><strong>Remaining:</strong> <span data-run-clock-remaining>--</span></p>
+        <p><strong>Break prompt:</strong> <span data-run-clock-break>Ask the table as needed.</span></p>
+      </div>
+      
+      <div class="run-clock-control-grid run-clock-access-grid" aria-label="Run clock access">
+        <a class="button secondary" href="../../run.html">Open Run Mode controls</a>
+      </div>
+
+    </div>
+    <div class="run-clock-modal" data-run-clock-modal role="alertdialog" aria-modal="true" aria-labelledby="run-clock-modal-title" hidden>
+      <div class="run-clock-modal-card">
+        <h3 id="run-clock-modal-title" data-run-clock-modal-title>Run clock alert</h3>
+        <p data-run-clock-modal-message></p>
+        <div class="run-clock-modal-actions">
+          <button type="button" data-run-clock-modal-snooze>Snooze 5 min</button>
+          <button type="button" data-run-clock-modal-dismiss>Dismiss</button>
+          <button type="button" data-run-clock-modal-dismiss-permanent>Permanently dismiss</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</nav>
+<dialog id="command-palette" class="command-palette">
+  <button class="dialog-close" type="button" data-command-palette-close aria-label="Close search">Close</button>
+  <label class="search-label">Command search <input id="command-search" type="search" placeholder="Jump to a scene, entity, dashboard, or handout"></label>
+  <div id="command-results" class="command-results"></div>
+</dialog>
+
+  <header class="subpage-header">
+    <details class="subpage-more">
+      <summary class="button secondary">More resources</summary>
+      <div class="subpage-more-menu">
+        <a class="button secondary" href="../../player-display.html">Player Display</a>
+        <a class="button secondary" href="../../pages/handouts.html">Handouts</a>
+        <a class="button secondary" href="../../pages/loot-board.html">Loot Board</a>
+        <a class="button secondary" href="../../pages/clue-board.html">Clue Board</a>
+        <a class="button secondary" href="../../pages/pronunciation-guide.html">Pronunciation</a>
+        <a class="button secondary" href="../../pages/media-board.html">Media Board</a>
+        <a class="button secondary" href="../../pages/story-outline.html">Story Outline</a>
+        <a class="button secondary" href="../../pages/storyboard.html">Storyboard</a>
+        <a class="button secondary" href="../../pages/story.html">Story</a>
+        <a class="button secondary" href="../../pages/session-zero.html">Session Zero</a>
+        <a class="button secondary mechanic-link" href="../../pages/session-zero-faq.html" data-mechanic="faq"><span>Session Zero FAQ</span></a>
+        <a class="button secondary" href="../../pages/session-zero-cue-cards.html">Session Zero Cue Cards</a>
+        <a class="button secondary" href="../../pages/safety-tools.html"><span class="mechanic-link" data-mechanic="safety-tools"><span>Safety Tools</span></span></a>
+        <a class="button secondary" href="../../pages/character-sheet-guide.html">Character Sheet Guide</a>
+        <a class="button secondary" href="../../pages/settings.html">Settings</a>
+        <button type="button" class="button secondary" data-rules-open data-rules-target="action-roll" data-mechanic="action-roll">GM Rules Drawer</button>
+        <button class="button secondary" type="button" data-export-options>Export Options</button>
+        <button class="button secondary" type="button" onclick="window.print()">Print</button>
+      </div>
+    </details>
+  </header>
+  <main id="content">
+<article class="wiki-page entity-page" data-collapsible-sections>
+  <header class="entity-page-head">
+    <div>
+      <div class="type-hero entity-creature">
+        <img class="type-icon-large" src="../../assets/icons/creature.png" alt="" aria-hidden="true">
+        <div>
+          <p class="private-note">Creature / Animal</p>
+          <p class="pronunciation-line"><strong>Pronunciation:</strong> MOUN-tin KRABZ</p>
+          
+        </div>
+      </div>
+      <h1><a class="entity-link entity-creature inline-entity-link" href="mountain-crabs.html" data-entity="mountain-crabs"><img class="type-icon" src="../../assets/icons/creature.png" alt="" aria-hidden="true"><span>Mountain Crabs</span></a></h1>
+      <p class="throwable-text-chunk entity-page-lede" data-player-display-payload="{&quot;kind&quot;:&quot;text&quot;,&quot;id&quot;:&quot;mountain-crabs-granite-shelled-cliff-crabs-with&quot;,&quot;title&quot;:&quot;Mountain Crabs&quot;,&quot;text&quot;:&quot;Granite-shelled cliff crabs with moss and alpine flowers growing on their backs, stone-heavy claws, many gripping legs, and wary eyes made for vertical roads.&quot;,&quot;caption&quot;:&quot;Granite-shelled cliff crabs with moss and alpine flowers growing on their backs, stone-heavy claws, many gripping legs, and wary eyes made for vertical roads.&quot;,&quot;readAloud&quot;:&quot;Granite-shelled cliff crabs with moss and alpine flowers growing on their backs, stone-heavy claws, many gripping legs, and wary eyes made for vertical roads.&quot;,&quot;publicObjective&quot;:&quot;Granite-shelled cliff crabs with moss and alpine flowers growing on their backs, stone-heavy claws, many gripping legs, and wary eyes made for vertical roads.&quot;,&quot;scene_id&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;read-aloud-fullscreen&quot;}"><span class="throwable-text-body">Granite-shelled cliff crabs with moss and alpine flowers growing on their backs, <a class="entity-link entity-item inline-entity-link" href="keystone-asset.html" data-entity="keystone-asset"><img class="type-icon" src="../../assets/icons/item.png" alt="" aria-hidden="true"><span>stone</span></a>-heavy claws, many gripping legs, and wary eyes made for vertical roads.</span><span class="throwable-text-actions" aria-label="Player display text actions"><button class="throwable-action throwable-send-text" type="button" aria-label="Send text to Player Display" title="Send text to Player Display" data-send-player-payload><img src="../../assets/icons/action-reveal.png" alt="" aria-hidden="true"><span class="sr-only">Send text to Player Display</span></button><button class="throwable-action throwable-copy-text" type="button" aria-label="Copy player text" title="Copy player text" data-copy-player-payload><img src="../../assets/icons/action-copy.png" alt="" aria-hidden="true"><span class="sr-only">Copy player text</span></button></span></p>
+      <p class="muted"><strong>Aliases:</strong> <a class="entity-link entity-creature inline-entity-link" href="mountain-crabs.html" data-entity="mountain-crabs"><img class="type-icon" src="../../assets/icons/creature.png" alt="" aria-hidden="true"><span>Mountain Crabs</span></a>, <a class="entity-link entity-creature inline-entity-link" href="mountain-crabs.html" data-entity="mountain-crabs"><img class="type-icon" src="../../assets/icons/creature.png" alt="" aria-hidden="true"><span>crab shell</span></a>, <a class="entity-link entity-creature inline-entity-link" href="mountain-crabs.html" data-entity="mountain-crabs"><img class="type-icon" src="../../assets/icons/creature.png" alt="" aria-hidden="true"><span>mountain crab</span></a></p>
+      
+      <h2>Source Reference</h2>
+      <div class="scene-block source-reference source-documents">
+        <p><span class="muted"><strong>Source pages:</strong> Sablewood PDF p. 2</span></p>
+      </div>
+
+      <div class="entity-page-actions console-actions">
+        <button type="button" onclick="window.print()">Print page</button>
+        
+<div class="player-safe-actions" data-player-safe-payload="{&quot;kind&quot;:&quot;text&quot;,&quot;id&quot;:&quot;mountain-crabs-the-crabs-look-carved-from-the-m&quot;,&quot;title&quot;:&quot;Mountain Crabs&quot;,&quot;text&quot;:&quot;The crabs look carved from the mountain until they move. Moss and tiny flowers ride their stone shells while their claws test the road edge.&quot;,&quot;caption&quot;:&quot;The crabs look carved from the mountain until they move. Moss and tiny flowers ride their stone shells while their claws test the road edge.&quot;,&quot;readAloud&quot;:&quot;The crabs look carved from the mountain until they move. Moss and tiny flowers ride their stone shells while their claws test the road edge.&quot;,&quot;publicObjective&quot;:&quot;The crabs look carved from the mountain until they move. Moss and tiny flowers ride their stone shells while their claws test the road edge.&quot;,&quot;scene_id&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;read-aloud-fullscreen&quot;}" data-player-display-payload="{&quot;kind&quot;:&quot;text&quot;,&quot;id&quot;:&quot;mountain-crabs-the-crabs-look-carved-from-the-m&quot;,&quot;title&quot;:&quot;Mountain Crabs&quot;,&quot;text&quot;:&quot;The crabs look carved from the mountain until they move. Moss and tiny flowers ride their stone shells while their claws test the road edge.&quot;,&quot;caption&quot;:&quot;The crabs look carved from the mountain until they move. Moss and tiny flowers ride their stone shells while their claws test the road edge.&quot;,&quot;readAloud&quot;:&quot;The crabs look carved from the mountain until they move. Moss and tiny flowers ride their stone shells while their claws test the road edge.&quot;,&quot;publicObjective&quot;:&quot;The crabs look carved from the mountain until they move. Moss and tiny flowers ride their stone shells while their claws test the road edge.&quot;,&quot;scene_id&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;read-aloud-fullscreen&quot;}">
+  <button class="icon-button" type="button" aria-label="Copy" title="Copy" data-copy-player-safe><img src="../../assets/icons/action-copy.png" alt="" aria-hidden="true"><span class="sr-only">Copy</span></button>
+  <button class="icon-button" type="button" aria-label="Open in new window" title="Open in new window" data-open-player-safe-window><img src="../../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+  <button class="throwable-action throwable-send-text" type="button" aria-label="Send text to Player Display" title="Send text to Player Display" data-send-player-payload><img src="../../assets/icons/action-reveal.png" alt="" aria-hidden="true"><span class="sr-only">Send text to Player Display</span></button>
+  <button class="icon-button" type="button" aria-label="Print" title="Print" data-print-player-safe><img src="../../assets/icons/action-print.png" alt="" aria-hidden="true"><span class="sr-only">Print</span></button>
+</div>
+
+      </div>
+    </div>
+    
+<figure class="entity-hero-figure">
+  <button class="image-open image-frame" type="button" data-image="../../assets/creature-images/mountain-crabs/portrait_base.webp" data-caption="Crab-shell resource and climbing-route pressure">
+    <img src="../../assets/creature-images/mountain-crabs/portrait_base.webp" alt="Mountain Crabs visual asset." loading="lazy">
+  </button>
+  <button class="throwable-action throwable-image-send" type="button" aria-label="Send image to Player Display" title="Send image to Player Display" data-send-player-payload data-player-display-payload="{&quot;kind&quot;:&quot;image&quot;,&quot;id&quot;:&quot;crab-shell-resource-and-climbing-route-pressure&quot;,&quot;title&quot;:&quot;Crab-shell resource and climbing-route pressure&quot;,&quot;image&quot;:&quot;assets/creature-images/mountain-crabs/portrait_base.webp&quot;,&quot;alt&quot;:&quot;Mountain Crabs visual asset.&quot;,&quot;caption&quot;:&quot;Crab-shell resource and climbing-route pressure&quot;,&quot;text&quot;:&quot;Crab-shell resource and climbing-route pressure&quot;,&quot;scene_id&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;image-title-caption&quot;}"><img src="../../assets/icons/live-player-display.png" alt="" aria-hidden="true"><span class="sr-only">Send image to Player Display</span></button>
+  <figcaption>Crab-shell resource and climbing-route pressure</figcaption>
+  
+<div class="image-actions">
+  <button class="icon-button image-open" type="button" aria-label="Expand" title="Expand" data-image="../../assets/creature-images/mountain-crabs/portrait_base.webp" data-caption="Crab-shell resource and climbing-route pressure"><img src="../../assets/icons/action-expand.png" alt="" aria-hidden="true"><span class="sr-only">Expand</span></button>
+  <button class="icon-button image-window-button" type="button" aria-label="Open in new window" title="Open in new window" data-image-window="../../assets/creature-images/mountain-crabs/portrait_base.webp" data-caption="Crab-shell resource and climbing-route pressure"><img src="../../assets/icons/action-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open in new window</span></button>
+  <a class="icon-button image-raw-link" href="../../assets/creature-images/mountain-crabs/portrait_base.webp" target="_blank" rel="noopener" aria-label="Open raw image" title="Open raw image"><img src="../../assets/icons/action-open-image.png" alt="" aria-hidden="true"><span class="sr-only">Open raw image</span></a>
+</div>
+
+</figure>
+
+  </header>
+  <section class="wiki-grid">
+    <div>
+      <h2>Player-Facing Description</h2>
+      <p class="throwable-text-chunk" data-player-display-payload="{&quot;kind&quot;:&quot;text&quot;,&quot;id&quot;:&quot;mountain-crabs-the-crabs-look-carved-from-the-m&quot;,&quot;title&quot;:&quot;Mountain Crabs&quot;,&quot;text&quot;:&quot;The crabs look carved from the mountain until they move. Moss and tiny flowers ride their stone shells while their claws test the road edge.&quot;,&quot;caption&quot;:&quot;The crabs look carved from the mountain until they move. Moss and tiny flowers ride their stone shells while their claws test the road edge.&quot;,&quot;readAloud&quot;:&quot;The crabs look carved from the mountain until they move. Moss and tiny flowers ride their stone shells while their claws test the road edge.&quot;,&quot;publicObjective&quot;:&quot;The crabs look carved from the mountain until they move. Moss and tiny flowers ride their stone shells while their claws test the road edge.&quot;,&quot;scene_id&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;read-aloud-fullscreen&quot;}"><span class="throwable-text-body">The crabs look carved from the mountain until they move. Moss and tiny flowers ride their <a class="entity-link entity-item inline-entity-link" href="keystone-asset.html" data-entity="keystone-asset"><img class="type-icon" src="../../assets/icons/item.png" alt="" aria-hidden="true"><span>stone</span></a> shells while their claws test the road edge.</span><span class="throwable-text-actions" aria-label="Player display text actions"><button class="throwable-action throwable-send-text" type="button" aria-label="Send text to Player Display" title="Send text to Player Display" data-send-player-payload><img src="../../assets/icons/action-reveal.png" alt="" aria-hidden="true"><span class="sr-only">Send text to Player Display</span></button><button class="throwable-action throwable-copy-text" type="button" aria-label="Copy player text" title="Copy player text" data-copy-player-payload><img src="../../assets/icons/action-copy.png" alt="" aria-hidden="true"><span class="sr-only">Copy player text</span></button></span></p>
+      
+      <h2>Imagine This Like</h2>
+      <div class="scene-block imagine-this-like">
+        <p>Think the <a class="mechanic-link" href="../rules/ancestry.html" data-mechanic="ancestry"><span>giant</span></a> enemy crab everyone jokes about, the territorial mountain goat that owns the trail, a walking rock garden with strong opinions. Hazard and harvest in one armored package.</p>
+      </div>
+
+      <h2>GM-Only Truth</h2><div class="scene-block gm-block"><p>No forced reveal. Let this entity disclose truth through scene context and player attention.</p></div>
+      <h2>Role in Story</h2><p>Crab-shell resource and climbing-route pressure</p>
+      <h2>Appearance / Sensory Palette</h2><p>Huge <a class="entity-link entity-item inline-entity-link" href="keystone-asset.html" data-entity="keystone-asset"><img class="type-icon" src="../../assets/icons/item.png" alt="" aria-hidden="true"><span>stone</span></a>-shelled crabs adapted to cliffs, granite <a class="mechanic-link" href="../rules/armor-slots.html" data-mechanic="armor-slots"><span>armor</span></a>, moss and small alpine flowers, many legs gripping rock, and beadlike wary eyes.</p>
+      <h2>Image-Informed Detail</h2><p>The flowers are how locals judge age. A crab with blooms on the shell has survived enough seasons to know when a climber is bluffing.</p>
+      <h2>Personality / Function</h2><p>Grumpy granite tenants of the cliff with gardens growing on their own backs. Not malicious, just enormous and territorial on a road where one bad step is the last. They were here long before the climbing route and resent the traffic.</p>
+      <h2>Wants / Pressures</h2><p>Reach <a class="mechanic-link" href="../rules/safety-tools.html" data-mechanic="safety-tools"><span>safety</span></a> on its own terms and communicate danger through behavior before the party turns the moment into combat.</p>
+      <h2>Fears / Vulnerabilities</h2><p>Being surrounded, misread as a monster, or driven toward <a class="entity-link entity-location inline-entity-link" href="the-titan-s-steps.html" data-entity="the-titan-s-steps"><img class="type-icon" src="../../assets/icons/location.png" alt="" aria-hidden="true"><span>The Titan's Steps</span></a>, <a class="entity-link entity-npc inline-entity-link" href="helena-corain.html" data-entity="helena-corain"><img class="type-icon" src="../../assets/icons/npc.png" alt="" aria-hidden="true"><span>Helena Corain</span></a>, <a class="entity-link entity-npc inline-entity-link" href="xen.html" data-entity="xen"><img class="type-icon" src="../../assets/icons/npc.png" alt="" aria-hidden="true"><span>Xen</span></a> by noise and haste.</p>
+      <h2>Appears In</h2>
+      <div class="entity-row"><span class="muted">Referenced lore only.</span></div>
+      
+      <h2>Relationships</h2>
+      <div class="entity-row"><a class="entity-link entity-location" href="the-titan-s-steps.html" data-entity="the-titan-s-steps"><img class="type-icon" src="../../assets/icons/location.png" alt="" aria-hidden="true"><span>The Titan's Steps</span></a> <a class="entity-link entity-npc" href="helena-corain.html" data-entity="helena-corain"><img class="type-icon" src="../../assets/icons/npc.png" alt="" aria-hidden="true"><span>Helena Corain</span></a> <a class="entity-link entity-npc" href="xen.html" data-entity="xen"><img class="type-icon" src="../../assets/icons/npc.png" alt="" aria-hidden="true"><span>Xen</span></a> <a class="entity-link entity-item" href="eeligator-scale-shield.html" data-entity="eeligator-scale-shield"><img class="type-icon" src="../../assets/icons/item.png" alt="" aria-hidden="true"><span>Eeligator Scale Shield</span></a></div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <h2>Checks / Rolls</h2><div class="table-scroll"><table class="check-matrix"><thead><tr><th>Approach</th><th><a class="mechanic-link" href="../rules/difficulty.html" data-mechanic="difficulty"><span>DC</span></a></th><th><a class="mechanic-link" href="../rules/critical-success.html" data-mechanic="critical-success"><span>Critical</span></a></th><th>Success + <a class="mechanic-link" href="../rules/hope.html" data-mechanic="hope"><span>Hope</span></a></th><th>Success + <a class="mechanic-link" href="../rules/fear.html" data-mechanic="fear"><span>Fear</span></a></th><th>Failure + <a class="mechanic-link" href="../rules/hope.html" data-mechanic="hope"><span>Hope</span></a></th><th>Failure + <a class="mechanic-link" href="../rules/fear.html" data-mechanic="fear"><span>Fear</span></a></th><th>Spend <a class="mechanic-link" href="../rules/fear.html" data-mechanic="fear"><span>Fear</span></a></th></tr></thead><tbody><tr><td><a class="mechanic-link" href="../rules/knowledge.html" data-mechanic="knowledge"><span>Knowledge</span></a> / <a class="mechanic-link" href="../rules/instinct.html" data-mechanic="instinct"><span>Instinct</span></a> / <a class="mechanic-link" href="../rules/presence.html" data-mechanic="presence"><span>Presence</span></a> as fits the table</td><td>15</td><td>Learn the clean fact about <a class="entity-link entity-creature inline-entity-link" href="mountain-crabs.html" data-entity="mountain-crabs"><img class="type-icon" src="../../assets/icons/creature.png" alt="" aria-hidden="true"><span>Mountain Crabs</span></a> and one deeper connection.</td><td>Learn the useful fact and gain a follow-up <a class="mechanic-link" href="../rules/faq.html" data-mechanic="faq"><span>question</span></a>.</td><td>Learn the fact, but reveal who notices, who is endangered, or what <a class="mechanic-link" href="../rules/countdown.html" data-mechanic="countdown"><span>timer</span></a> advances.</td><td>Miss the full answer, but gain a sensory clue or safe next step.</td><td>Misread the pressure and invite a <a class="mechanic-link" href="../rules/gm-moves.html" data-mechanic="gm-moves"><span>GM move</span></a> tied to cost, custody, or danger.</td><td>Spend <a class="mechanic-link" href="../rules/fear.html" data-mechanic="fear"><span>Fear</span></a> to reveal the system behind the object, move a threat closer, or make a choice more costly.</td></tr></tbody></table></div>
+      <h2 class="no-linkify">Class / Ancestry / Community Reveals</h2><ul><li><a class="mechanic-link" href="../rules/community.html" data-mechanic="community"><span>Loreborne</span></a> / <a class="mechanic-link" href="../rules/knowledge.html" data-mechanic="knowledge"><span>Knowledge</span></a>: names the institutional pattern.</li><li>Wildborne / <a class="mechanic-link" href="../rules/community.html" data-mechanic="community"><span>community</span></a>: notices local use, neglect, or ecological <a class="mechanic-link" href="../rules/stress.html" data-mechanic="stress"><span>stress</span></a>.</li><li>Martial / security: reads custody, danger lines, and breach response.</li><li>Magic: senses ward <a class="mechanic-link" href="../rules/cats.html" data-mechanic="cats"><span>tone</span></a>, soul-signal, or unstable resonance.</li></ul>
+      <h2>Questions to Ask Players</h2><ul><li>What does <a class="entity-link entity-creature inline-entity-link" href="mountain-crabs.html" data-entity="mountain-crabs"><img class="type-icon" src="../../assets/icons/creature.png" alt="" aria-hidden="true"><span>Mountain Crabs</span></a> make your character want to inspect, protect, or challenge?</li><li>What assumption about <a class="entity-link entity-creature inline-entity-link" href="mountain-crabs.html" data-entity="mountain-crabs"><img class="type-icon" src="../../assets/icons/creature.png" alt="" aria-hidden="true"><span>Mountain Crabs</span></a> does your character bring into the scene?</li></ul>
+      <h2>Loot / Search / <a class="mechanic-link" href="../rules/knowledge.html" data-mechanic="knowledge"><span>Investigation</span></a> Table</h2><table><thead><tr><th>Mode</th><th>Result</th></tr></thead><tbody><tr><td>Visible without a <a class="mechanic-link" href="../rules/action-roll.html" data-mechanic="action-roll"><span>roll</span></a></td><td>The surface truth of <a class="entity-link entity-creature inline-entity-link" href="mountain-crabs.html" data-entity="mountain-crabs"><img class="type-icon" src="../../assets/icons/creature.png" alt="" aria-hidden="true"><span>Mountain Crabs</span></a>: Granite-shelled cliff crabs with moss and alpine flowers growing on their backs, <a class="entity-link entity-item inline-entity-link" href="keystone-asset.html" data-entity="keystone-asset"><img class="type-icon" src="../../assets/icons/item.png" alt="" aria-hidden="true"><span>stone</span></a>-heavy claws, many gripping legs, and wary eyes made for vertical roads.</td></tr>
+<tr><td>Rushed search</td><td>One actionable clue, but not the motive or system behind it.</td></tr>
+<tr><td>Careful search</td><td>A practical clue plus a relationship to another entity.</td></tr>
+<tr><td><a class="mechanic-link" href="../rules/five-outcomes.html" data-mechanic="five-outcomes"><span>Success with Fear</span></a></td><td>The clue is true, but someone notices or the next pressure advances.</td></tr>
+<tr><td><a class="mechanic-link" href="../rules/five-outcomes.html" data-mechanic="five-outcomes"><span>Failure with Hope</span></a></td><td>A partial clue points toward a safer next <a class="mechanic-link" href="../rules/faq.html" data-mechanic="faq"><span>question</span></a>.</td></tr></tbody></table>
+      
+      <h2>Creature Handling</h2>
+      <p>Open with behavior and <a class="mechanic-link" href="../rules/instinct.html" data-mechanic="instinct"><span>instinct</span></a> before mechanics. Reward respectful <a class="mechanic-link" href="../rules/ranges.html" data-mechanic="ranges"><span>distance</span></a>, food, lowered weapons, or careful observation.</p>
+      <h2>Consequences of Harm / Mercy</h2>
+      <p>Mercy can create warning-token payoffs. Harm should create emotional and tactical consequences without moralizing at the table.</p>
+
+    </div>
+    <aside>
+      <h2>GM Handling Notes</h2><p>Use as <a class="entity-link entity-location inline-entity-link" href="the-titan-s-steps.html" data-entity="the-titan-s-steps"><img class="type-icon" src="../../assets/icons/location.png" alt="" aria-hidden="true"><span>Titan's Steps</span></a> texture: resource, danger, respect test, and a way to make vertical travel feel alive.</p>
+      <h3>Body Language</h3><ul><li>Plants all its legs and raises a <a class="entity-link entity-item inline-entity-link" href="keystone-asset.html" data-entity="keystone-asset"><img class="type-icon" src="../../assets/icons/item.png" alt="" aria-hidden="true"><span>stone</span></a> claw like a slammed door.</li><li>Sidles deliberately between climbers and the handholds they need most.</li></ul>
+      <h3>Equipment / Inventory</h3><ul><li>Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this <a class="entity-link entity-location inline-entity-link" href="sablewoodtm-logistics-preserve.html" data-entity="sablewoodtm-logistics-preserve"><img class="type-icon" src="../../assets/icons/location.png" alt="" aria-hidden="true"><span>Sablewood</span></a> entry.</li><li>granite shell plates</li><li>alpine moss</li><li>tiny shell flowers</li><li>powerful claws</li><li>cliff grit</li></ul>
+      <h3>Search / Loot</h3><p>Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.</p>
+      <h3>Sample Dialogue</h3><blockquote class="throwable-text-chunk" data-player-display-payload="{&quot;kind&quot;:&quot;text&quot;,&quot;id&quot;:&quot;mountain-crabs-a-deep-grinding-click-you-feel-i&quot;,&quot;title&quot;:&quot;Mountain Crabs&quot;,&quot;text&quot;:&quot;A deep grinding click you feel in the stone before you hear it.&quot;,&quot;caption&quot;:&quot;A deep grinding click you feel in the stone before you hear it.&quot;,&quot;readAloud&quot;:&quot;A deep grinding click you feel in the stone before you hear it.&quot;,&quot;publicObjective&quot;:&quot;A deep grinding click you feel in the stone before you hear it.&quot;,&quot;scene_id&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;read-aloud-fullscreen&quot;}"><span class="throwable-text-body">A deep grinding click you feel in the <a class="entity-link entity-item inline-entity-link" href="keystone-asset.html" data-entity="keystone-asset"><img class="type-icon" src="../../assets/icons/item.png" alt="" aria-hidden="true"><span>stone</span></a> before you hear it.</span><span class="throwable-text-actions" aria-label="Player display text actions"><button class="throwable-action throwable-send-text" type="button" aria-label="Send text to Player Display" title="Send text to Player Display" data-send-player-payload><img src="../../assets/icons/action-reveal.png" alt="" aria-hidden="true"><span class="sr-only">Send text to Player Display</span></button><button class="throwable-action throwable-copy-text" type="button" aria-label="Copy player text" title="Copy player text" data-copy-player-payload><img src="../../assets/icons/action-copy.png" alt="" aria-hidden="true"><span class="sr-only">Copy player text</span></button></span></blockquote><blockquote class="throwable-text-chunk" data-player-display-payload="{&quot;kind&quot;:&quot;text&quot;,&quot;id&quot;:&quot;mountain-crabs-the-long-scrape-of-shell-on-rock&quot;,&quot;title&quot;:&quot;Mountain Crabs&quot;,&quot;text&quot;:&quot;The long scrape of shell on rock as one shifts to block the ledge.&quot;,&quot;caption&quot;:&quot;The long scrape of shell on rock as one shifts to block the ledge.&quot;,&quot;readAloud&quot;:&quot;The long scrape of shell on rock as one shifts to block the ledge.&quot;,&quot;publicObjective&quot;:&quot;The long scrape of shell on rock as one shifts to block the ledge.&quot;,&quot;scene_id&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;read-aloud-fullscreen&quot;}"><span class="throwable-text-body">The long scrape of shell on rock as one shifts to block the ledge.</span><span class="throwable-text-actions" aria-label="Player display text actions"><button class="throwable-action throwable-send-text" type="button" aria-label="Send text to Player Display" title="Send text to Player Display" data-send-player-payload><img src="../../assets/icons/action-reveal.png" alt="" aria-hidden="true"><span class="sr-only">Send text to Player Display</span></button><button class="throwable-action throwable-copy-text" type="button" aria-label="Copy player text" title="Copy player text" data-copy-player-payload><img src="../../assets/icons/action-copy.png" alt="" aria-hidden="true"><span class="sr-only">Copy player text</span></button></span></blockquote>
+      <h3>Stat Block / Mechanical Summary</h3><p>Use the module stat profile; keep motive visible during combat.</p>
+      <h3>Player-Safe Handout Text</h3><p>Player-safe note: Granite-shelled cliff crabs with moss and alpine flowers growing on their backs, <a class="entity-link entity-item inline-entity-link" href="keystone-asset.html" data-entity="keystone-asset"><img class="type-icon" src="../../assets/icons/item.png" alt="" aria-hidden="true"><span>stone</span></a>-heavy claws, many gripping legs, and wary eyes made for vertical roads.</p>
+      <h3>TV-Safe Description</h3><p><a class="entity-link entity-creature inline-entity-link" href="mountain-crabs.html" data-entity="mountain-crabs"><img class="type-icon" src="../../assets/icons/creature.png" alt="" aria-hidden="true"><span>Mountain Crabs</span></a>: Granite-shelled cliff crabs with moss and alpine flowers growing on their backs, <a class="entity-link entity-item inline-entity-link" href="keystone-asset.html" data-entity="keystone-asset"><img class="type-icon" src="../../assets/icons/item.png" alt="" aria-hidden="true"><span>stone</span></a>-heavy claws, many gripping legs, and wary eyes made for vertical roads.</p>
+      <h3>Future Hooks</h3><ul><li>Bring back as an echo if players made a strong choice involving this entity.</li></ul>
+      <details class="scene-block prompt-block dev-only">
+        <summary>Image Prompt / Asset Status</summary>
+        <p>Private table TTRPG story atlas asset for Mountain Crabs, Creature / Animal. Role: Crab-shell resource and climbing-route pressure. Summary: Granite-shelled cliff crabs with moss and alpine flowers growing on their backs, stone-heavy claws, many gripping legs, and wary eyes made for vertical roads.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.</p>
+        <p class="muted">Asset status: creature_images</p>
+      </details>
+    </aside>
+  </section>
+</article>
+</main>
+  
+<section class="dev-toolbar" aria-label="Development toggles">
+  <strong>Dev</strong>
+  <label><input type="checkbox" data-dev-toggle="prompts"> Show Image Prompts</label>
+  <label><input type="checkbox" data-dev-toggle="assets"> Show Missing Asset Report</label>
+  <label><input type="checkbox" data-dev-toggle="qa"> Show Production QA</label>
+</section>
+
+  <dialog id="lightbox" class="lightbox">
+    <button class="dialog-close" type="button" aria-label="Close image">×</button>
+    <img alt="">
+    <p class="dialog-caption"></p>
+    <div class="image-actions">
+      <button class="image-window-button" type="button" data-lightbox-window>Open Image Window</button>
+      <a class="button secondary lightbox-raw-link" href="#" target="_blank" rel="noopener">Open Raw Image</a>
+    </div>
+    <details class="dev-only prompt-block">
+      <summary>Image Prompt</summary>
+      <p class="dialog-prompt"></p>
+    </details>
+  </dialog>
+  
+<aside id="rules-drawer" class="rules-drawer" hidden aria-hidden="true" aria-label="GM Rules Drawer">
+  <div class="rules-drawer-inner">
+    <header class="drawer-header">
+      <div>
+        <p class="private-note">Searchable <a class="mechanic-link" href="../rules/gm-rules-drawer.html" data-mechanic="gm-rules-drawer"><span>GM Rules Drawer</span></a></p>
+        <h2>Daggerheart Table Support</h2>
+      </div>
+      <button type="button" class="drawer-close" data-rules-close>Close</button>
+    </header>
+    <label class="search-label">Search rules <input id="rules-search" type="search" placeholder="perception, saving throw, AC, initiative, grappled, stealth"></label>
+    <section class="rule-card-grid" aria-label="Five-second GM cards">
+      
+    <article class="rule-quick-card" data-rules-text>
+      <p class="private-note">Use this when a player asks what to <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>roll</span></a>.</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>Roll</span></a> in 10 Seconds</h3>
+      <span class="sr-only">roll check skill check action rolls 2d12 hope die fear die DC difficulty class hinge crit critical doubles</span>
+      <ul><li>Pick the <a class="mechanic-link" href="../../pages/rules/traits.html" data-mechanic="traits"><span>trait</span></a> that matches the approach.</li><li>Set the <a class="mechanic-link" href="../../pages/rules/difficulty.html" data-mechanic="difficulty"><span>Difficulty</span></a> before the <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>roll</span></a> matters.</li><li>State the stakes.</li><li><a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>Roll</span></a> <a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a> d12 + <a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>Fear</span></a> d12.</li><li>Add <a class="mechanic-link" href="../../pages/rules/traits.html" data-mechanic="traits"><span>trait</span></a>, <a class="mechanic-link" href="../../pages/rules/experiences.html" data-mechanic="experiences"><span>Experience</span></a>, and bonuses.</li><li>Compare total to <a class="mechanic-link" href="../../pages/rules/difficulty.html" data-mechanic="difficulty"><span>Difficulty</span></a>.</li></ul>
+      <div class="mechanic-chip-row"><a class="mechanic-chip" href="../../pages/rules/action-roll.html" data-mechanic="action-roll" title="Roll when a PC does something uncertain and consequences matter."><span>Action Roll</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/duality-dice.html" data-mechanic="duality-dice" title="Roll a Hope d12 and Fear d12 together, add modifiers, compare to Difficulty."><span>Duality Dice</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/difficulty.html" data-mechanic="difficulty" title="The target number for a roll."><span>Difficulty</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/critical-success.html" data-mechanic="critical-success" title="Matching Duality Dice create the best version of the result."><span>Critical Success</span><small>Official</small></a></div>
+    </article>
+
+    <article class="rule-quick-card" data-rules-text>
+      <p class="private-note">Read total first, then <a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a>/<a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>Fear</span></a> spin.</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>Action Roll</span></a> Results</h3>
+      <span class="sr-only">roll check skill check action rolls with Hope hope spend spend Hope with Fear GM Fear fear spend crit critical doubles</span>
+      <ul><li><a class="mechanic-link" href="../../pages/rules/critical-success.html" data-mechanic="critical-success"><span>Critical Success</span></a>: best outcome, gain <a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a>, clear 1 <a class="mechanic-link" href="../../pages/rules/stress.html" data-mechanic="stress"><span>Stress</span></a>.</li><li>Success <a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>with Hope</span></a>: they get it and gain <a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a>.</li><li><a class="mechanic-link" href="../../pages/rules/five-outcomes.html" data-mechanic="five-outcomes"><span>Success with Fear</span></a>: they get it, but cost or pressure enters.</li><li><a class="mechanic-link" href="../../pages/rules/five-outcomes.html" data-mechanic="five-outcomes"><span>Failure with Hope</span></a>: they miss, but gain <a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a> and a useful thread.</li><li>Failure <a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>with Fear</span></a>: they miss and the GM makes a stronger move.</li></ul>
+      <div class="mechanic-chip-row"><a class="mechanic-chip" href="../../pages/rules/action-roll.html" data-mechanic="action-roll" title="Roll when a PC does something uncertain and consequences matter."><span>Action Roll</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/hope.html" data-mechanic="hope" title="Player resource gained from Hope results and spent to help or use features."><span>Hope</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/fear.html" data-mechanic="fear" title="GM pressure resource gained on Fear results and spent to escalate."><span>Fear</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/critical-success.html" data-mechanic="critical-success" title="Matching Duality Dice create the best version of the result."><span>Critical Success</span><small>Official</small></a></div>
+    </article>
+
+    <article class="rule-quick-card" data-rules-text>
+      <p class="private-note"><a class="mechanic-link" href="../../pages/rules/faq.html" data-mechanic="faq"><span>Beginner</span></a> hinges often sit around 10-14.</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/difficulty.html" data-mechanic="difficulty"><span>Difficulty</span></a> Ladder</h3>
+      <span class="sr-only">DC difficulty class hinge</span>
+      <ul><li><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Easy 5</span></a>.</li><li><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Easy 10</span></a>.</li><li><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Average 15</span></a>.</li><li><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hard 20</span></a>.</li><li><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Hard 25</span></a>.</li><li><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Nearly Impossible 30</span></a>.</li></ul>
+      <div class="mechanic-chip-row"><a class="mechanic-chip" href="../../pages/rules/difficulty.html" data-mechanic="difficulty" title="The target number for a roll."><span>Difficulty</span><small>Official</small></a></div>
+    </article>
+
+    <article class="rule-quick-card" data-rules-text>
+      <p class="private-note">Translate the fictional approach, not the <a class="mechanic-link" href="../../pages/rules/dnd-to-daggerheart.html" data-mechanic="dnd-to-daggerheart"><span>D&D</span></a> skill name.</p>
+      <h3>Six <a class="mechanic-link" href="../../pages/rules/traits.html" data-mechanic="traits"><span>Traits</span></a></h3>
+      <span class="sr-only">trait traits acrobatics dexterity dodge athletics force grapple stealth sleight of hand control hide tinker perception insight survival animal handling persuasion deception intimidation performance arcana history investigation religion nature</span>
+      <ul><li><a class="mechanic-link" href="../../pages/rules/agility.html" data-mechanic="agility"><span>Agility</span></a>: sprint, leap, maneuver.</li><li><a class="mechanic-link" href="../../pages/rules/strength.html" data-mechanic="strength"><span>Strength</span></a>: lift, smash, <a class="mechanic-link" href="../../pages/rules/strength.html" data-mechanic="strength"><span>grapple</span></a>.</li><li><a class="mechanic-link" href="../../pages/rules/finesse.html" data-mechanic="finesse"><span>Finesse</span></a>: <a class="mechanic-link" href="../../pages/rules/finesse.html" data-mechanic="finesse"><span>control</span></a>, <a class="mechanic-link" href="../../pages/rules/finesse.html" data-mechanic="finesse"><span>hide</span></a>, <a class="mechanic-link" href="../../pages/rules/finesse.html" data-mechanic="finesse"><span>tinker</span></a>.</li><li><a class="mechanic-link" href="../../pages/rules/instinct.html" data-mechanic="instinct"><span>Instinct</span></a>: perceive, sense, navigate.</li><li><a class="mechanic-link" href="../../pages/rules/presence.html" data-mechanic="presence"><span>Presence</span></a>: charm, perform, deceive.</li><li><a class="mechanic-link" href="../../pages/rules/knowledge.html" data-mechanic="knowledge"><span>Knowledge</span></a>: recall, analyze, comprehend.</li></ul>
+      <div class="mechanic-chip-row"><a class="mechanic-chip" href="../../pages/rules/traits.html" data-mechanic="traits" title="The six broad modifiers used instead of D&amp;D skills."><span>Traits</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/agility.html" data-mechanic="agility" title="Sprint, leap, maneuver, dodge, balance, or move fast."><span>Agility</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/strength.html" data-mechanic="strength" title="Lift, smash, grapple, hold, carry, or resist force."><span>Strength</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/finesse.html" data-mechanic="finesse" title="Control, hide, tinker, disable, or handle delicate details."><span>Finesse</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/instinct.html" data-mechanic="instinct" title="Perceive, sense, navigate, track, or read danger."><span>Instinct</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/presence.html" data-mechanic="presence" title="Charm, perform, deceive, lead, soothe, or intimidate socially."><span>Presence</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/knowledge.html" data-mechanic="knowledge" title="Recall, analyze, investigate, comprehend, or reason from lore."><span>Knowledge</span><small>Official</small></a></div>
+    </article>
+
+    <article class="rule-quick-card" data-rules-text>
+      <p class="private-note">Convert the <a class="mechanic-link" href="../../pages/rules/instinct.html" data-mechanic="instinct"><span>instinct</span></a> quickly, then move on.</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/dnd-to-daggerheart.html" data-mechanic="dnd-to-daggerheart"><span>D&D to Daggerheart</span></a></h3>
+      <span class="sr-only">D&D DND 5e conversion saving throw save reaction AC armor class initiative turn order spotlight</span>
+      <ul><li><a class="mechanic-link" href="../../pages/rules/instinct.html" data-mechanic="instinct"><span>Perception</span></a> -&gt; <a class="mechanic-link" href="../../pages/rules/instinct.html" data-mechanic="instinct"><span>Instinct</span></a>.</li><li><a class="mechanic-link" href="../../pages/rules/reaction-rolls.html" data-mechanic="reaction-rolls"><span>Saving throw</span></a>/<a class="mechanic-link" href="../../pages/rules/reaction-rolls.html" data-mechanic="reaction-rolls"><span>save</span></a> -&gt; <a class="mechanic-link" href="../../pages/rules/reaction-rolls.html" data-mechanic="reaction-rolls"><span>Reaction Roll</span></a>.</li><li><a class="mechanic-link" href="../../pages/rules/evasion.html" data-mechanic="evasion"><span>AC</span></a> -&gt; <a class="mechanic-link" href="../../pages/rules/evasion.html" data-mechanic="evasion"><span>Evasion</span></a>.</li><li><a class="mechanic-link" href="../../pages/rules/adversary-spotlight.html" data-mechanic="adversary-spotlight"><span>Initiative</span></a> -&gt; <a class="mechanic-link" href="../../pages/rules/table-spotlight.html" data-mechanic="table-spotlight"><span>Spotlight</span></a> flow.</li><li><a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>Skill check</span></a> -&gt; <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>Action Roll</span></a>.</li></ul>
+      <div class="mechanic-chip-row"><a class="mechanic-chip" href="../../pages/rules/dnd-to-daggerheart.html" data-mechanic="dnd-to-daggerheart" title="Quick translation aid for D&amp;D-trained instincts."><span>D&D to Daggerheart</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/reaction-rolls.html" data-mechanic="reaction-rolls" title="A roll to react to danger or pressure rather than initiate action."><span>Reaction Roll</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/evasion.html" data-mechanic="evasion" title="The target number adversaries roll against to hit a PC."><span>Evasion</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/adversary-spotlight.html" data-mechanic="adversary-spotlight" title="Daggerheart combat flows through spotlight rather than initiative order."><span>Spotlight</span><small>Official</small></a></div>
+    </article>
+
+    <article class="rule-quick-card" data-rules-text>
+      <p class="private-note">Give players fast ways to <a class="mechanic-link" href="../../pages/rules/help-an-ally.html" data-mechanic="help-an-ally"><span>help</span></a> themselves and each other.</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope Spend</span></a> Menu</h3>
+      <span class="sr-only">with Hope hope spend spend Hope help assist aid Experience background expertise tag team team roll</span>
+      <ul><li><a class="mechanic-link" href="../../pages/rules/help-an-ally.html" data-mechanic="help-an-ally"><span>Help an Ally</span></a>.</li><li>Use an <a class="mechanic-link" href="../../pages/rules/experiences.html" data-mechanic="experiences"><span>Experience</span></a>.</li><li><a class="mechanic-link" href="../../pages/rules/tag-team-roll.html" data-mechanic="tag-team-roll"><span>Tag Team Roll</span></a>.</li><li>Use a <a class="mechanic-link" href="../../pages/rules/class-subclass.html" data-mechanic="class-subclass"><span>Hope Feature</span></a>.</li></ul>
+      <div class="mechanic-chip-row"><a class="mechanic-chip" href="../../pages/rules/hope.html" data-mechanic="hope" title="Player resource gained from Hope results and spent to help or use features."><span>Hope</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/help-an-ally.html" data-mechanic="help-an-ally" title="Spend Hope to add an advantage die to another PC&#x27;s roll."><span>Help an Ally</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/experiences.html" data-mechanic="experiences" title="Short expertise phrases that can add to relevant rolls by spending Hope."><span>Experiences</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/tag-team-roll.html" data-mechanic="tag-team-roll" title="A bigger shared action fueled by Hope."><span>Tag Team Roll</span><small>Official</small></a></div>
+    </article>
+
+    <article class="rule-quick-card" data-rules-text>
+      <p class="private-note">Spend <a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>Fear</span></a> to escalate what the fiction already set up.</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>Fear Spend</span></a> Menu</h3>
+      <span class="sr-only">with Fear GM Fear fear spend GM Move make a move initiative turn order spotlight</span>
+      <ul><li>Make or interrupt with a <a class="mechanic-link" href="../../pages/rules/gm-moves.html" data-mechanic="gm-moves"><span>GM move</span></a>.</li><li>Make an extra move when pressure justifies it.</li><li><a class="mechanic-link" href="../../pages/rules/table-spotlight.html" data-mechanic="table-spotlight"><span>Spotlight</span></a> an additional adversary.</li><li>Use an adversary or environment <a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>Fear</span></a> feature.</li><li>Add an adversary <a class="mechanic-link" href="../../pages/rules/experiences.html" data-mechanic="experiences"><span>Experience</span></a> when the stat block supports it.</li></ul>
+      <div class="mechanic-chip-row"><a class="mechanic-chip" href="../../pages/rules/fear.html" data-mechanic="fear" title="GM pressure resource gained on Fear results and spent to escalate."><span>Fear</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/gm-moves.html" data-mechanic="gm-moves" title="GM responses that reveal pressure, cost, danger, or consequence."><span>GM Moves</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/adversary-spotlight.html" data-mechanic="adversary-spotlight" title="Daggerheart combat flows through spotlight rather than initiative order."><span>Spotlight</span><small>Official</small></a></div>
+    </article>
+
+    <article class="rule-quick-card" data-rules-text>
+      <p class="private-note">No <a class="mechanic-link" href="../../pages/rules/adversary-spotlight.html" data-mechanic="adversary-spotlight"><span>initiative</span></a> list; <a class="mechanic-link" href="../../pages/rules/table-spotlight.html" data-mechanic="table-spotlight"><span>pass</span></a> <a class="mechanic-link" href="../../pages/rules/table-spotlight.html" data-mechanic="table-spotlight"><span>spotlight</span></a> through the fiction.</p>
+      <h3>Combat / <a class="mechanic-link" href="../../pages/rules/table-spotlight.html" data-mechanic="table-spotlight"><span>Spotlight</span></a> Loop</h3>
+      <span class="sr-only">initiative turn order spotlight enemy attack attack roll adversary attack AC armor class GM Move make a move</span>
+      <ul><li><a class="mechanic-link" href="../../pages/rules/table-spotlight.html" data-mechanic="table-spotlight"><span>Spotlight</span></a> follows immediate fictional pressure.</li><li>PC <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>action roll</span></a> targets adversary <a class="mechanic-link" href="../../pages/rules/difficulty.html" data-mechanic="difficulty"><span>Difficulty</span></a>.</li><li><a class="mechanic-link" href="../../pages/rules/adversary-attacks.html" data-mechanic="adversary-attacks"><span>Adversary attack</span></a>: d20 + ATK vs PC <a class="mechanic-link" href="../../pages/rules/evasion.html" data-mechanic="evasion"><span>Evasion</span></a>.</li><li>GM acts on failures, rolls <a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>with Fear</span></a>, and <a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>Fear</span></a> spends.</li></ul>
+      <div class="mechanic-chip-row"><a class="mechanic-chip" href="../../pages/rules/adversary-spotlight.html" data-mechanic="adversary-spotlight" title="Daggerheart combat flows through spotlight rather than initiative order."><span>Spotlight</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/adversary-attacks.html" data-mechanic="adversary-attacks" title="Adversaries roll d20 + ATK against PC Evasion."><span>Adversary Attacks</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/evasion.html" data-mechanic="evasion" title="The target number adversaries roll against to hit a PC."><span>Evasion</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/gm-moves.html" data-mechanic="gm-moves" title="GM responses that reveal pressure, cost, danger, or consequence."><span>GM Moves</span><small>Official</small></a></div>
+    </article>
+
+    <article class="rule-quick-card" data-rules-text>
+      <p class="private-note">Compare <a class="mechanic-link" href="../../pages/rules/damage-thresholds.html" data-mechanic="damage-thresholds"><span>damage</span></a> to <a class="mechanic-link" href="../../pages/rules/damage-thresholds.html" data-mechanic="damage-thresholds"><span>thresholds</span></a>; do not improvise a <a class="mechanic-link" href="../../pages/rules/conditions.html" data-mechanic="conditions"><span>condition</span></a>.</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/damage-thresholds.html" data-mechanic="damage-thresholds"><span>Damage</span></a> / <a class="mechanic-link" href="../../pages/rules/armor-slots.html" data-mechanic="armor-slots"><span>Armor</span></a> / <a class="mechanic-link" href="../../pages/rules/stress.html" data-mechanic="stress"><span>Stress</span></a></h3>
+      <span class="sr-only">damage threshold thresholds hit points health armor Armor Slot mark Stress clear Stress exposed easy to hit</span>
+      <ul><li>Compare <a class="mechanic-link" href="../../pages/rules/damage-thresholds.html" data-mechanic="damage-thresholds"><span>damage</span></a> to the target&#x27;s <a class="mechanic-link" href="../../pages/rules/damage-thresholds.html" data-mechanic="damage-thresholds"><span>thresholds</span></a>.</li><li>Mark <a class="mechanic-link" href="../../pages/rules/hp.html" data-mechanic="hp"><span>HP</span></a> by <a class="mechanic-link" href="../../pages/rules/damage-thresholds.html" data-mechanic="damage-thresholds"><span>damage</span></a> severity.</li><li>Mark an <a class="mechanic-link" href="../../pages/rules/armor-slots.html" data-mechanic="armor-slots"><span>Armor Slot</span></a> to reduce severity by one <a class="mechanic-link" href="../../pages/rules/damage-thresholds.html" data-mechanic="damage-thresholds"><span>threshold</span></a>.</li><li>If <a class="mechanic-link" href="../../pages/rules/stress.html" data-mechanic="stress"><span>Stress</span></a> maxes, the PC becomes <a class="mechanic-link" href="../../pages/rules/vulnerable.html" data-mechanic="vulnerable"><span>Vulnerable</span></a> until at least 1 <a class="mechanic-link" href="../../pages/rules/stress.html" data-mechanic="stress"><span>Stress</span></a> clears.</li><li>Last <a class="mechanic-link" href="../../pages/rules/hp.html" data-mechanic="hp"><span>HP</span></a> points to the Death Move / quickstart handling.</li></ul>
+      <div class="mechanic-chip-row"><a class="mechanic-chip" href="../../pages/rules/damage-thresholds.html" data-mechanic="damage-thresholds" title="Numbers used to determine how many HP are marked from damage."><span>Damage Thresholds</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/hp.html" data-mechanic="hp" title="Hit Points marked from damage severity."><span>HP</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/armor-slots.html" data-mechanic="armor-slots" title="Mark a slot to reduce incoming damage severity by one threshold."><span>Armor Slots</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/stress.html" data-mechanic="stress" title="Pressure, strain, and resource cost tracked separately from HP."><span>Stress</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/vulnerable.html" data-mechanic="vulnerable" title="Rolls targeting the Vulnerable target have advantage."><span>Vulnerable</span><small>Official</small></a></div>
+    </article>
+
+    <article class="rule-quick-card" data-rules-text>
+      <p class="private-note">Only these global <a class="mechanic-link" href="../../pages/rules/conditions.html" data-mechanic="conditions"><span>conditions</span></a> belong in the Atlas.</p>
+      <h3>Official <a class="mechanic-link" href="../../pages/rules/conditions.html" data-mechanic="conditions"><span>Conditions</span></a></h3>
+      <span class="sr-only">condition conditions hide unseen grappled snared trapped exposed easy to hit</span>
+      <ul><li><a class="mechanic-link" href="../../pages/rules/hidden.html" data-mechanic="hidden"><span>Hidden</span></a>.</li><li><a class="mechanic-link" href="../../pages/rules/restrained.html" data-mechanic="restrained"><span>Restrained</span></a>.</li><li><a class="mechanic-link" href="../../pages/rules/vulnerable.html" data-mechanic="vulnerable"><span>Vulnerable</span></a>.</li></ul>
+      <div class="mechanic-chip-row"><a class="mechanic-chip" href="../../pages/rules/conditions.html" data-mechanic="conditions" title="The Atlas uses only official global conditions: Hidden, Restrained, Vulnerable."><span>Conditions</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/hidden.html" data-mechanic="hidden" title="A target is unseen or its position is unknown."><span>Hidden</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/restrained.html" data-mechanic="restrained" title="A target cannot move freely, though it may still act from position."><span>Restrained</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/vulnerable.html" data-mechanic="vulnerable" title="Rolls targeting the Vulnerable target have advantage."><span>Vulnerable</span><small>Official</small></a></div>
+    </article>
+
+    <article class="rule-quick-card" data-rules-text>
+      <p class="private-note">Use before <a class="entity-link entity-location inline-entity-link" href="open-valetm-ritual-site.html" data-entity="open-valetm-ritual-site"><img class="type-icon" src="../../assets/icons/location.png" alt="" aria-hidden="true"><span>Open Vale</span></a> pressure spikes.</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/short-rest.html" data-mechanic="short-rest"><span>Short Rest</span></a></h3>
+      <span class="sr-only">rest Prepare Tend to Wounds Clear Stress Repair Armor with Hope hope spend spend Hope mark Stress clear Stress armor Armor Slot</span>
+      <ul><li><a class="mechanic-link" href="../../pages/rules/short-rest.html" data-mechanic="short-rest"><span>Tend to Wounds</span></a>.</li><li><a class="mechanic-link" href="../../pages/rules/stress.html" data-mechanic="stress"><span>Clear Stress</span></a>.</li><li><a class="mechanic-link" href="../../pages/rules/short-rest.html" data-mechanic="short-rest"><span>Repair Armor</span></a>.</li><li><a class="mechanic-link" href="../../pages/rules/short-rest.html" data-mechanic="short-rest"><span>Prepare</span></a>.</li><li><a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>Check</span></a> official <a class="mechanic-link" href="../../pages/rules/domain-cards.html" data-mechanic="domain-cards"><span>loadout</span></a>/<a class="mechanic-link" href="../../pages/rules/domain-cards.html" data-mechanic="domain-cards"><span>vault</span></a> swap text from the sheet or SRD.</li></ul>
+      <div class="mechanic-chip-row"><a class="mechanic-chip" href="../../pages/rules/short-rest.html" data-mechanic="short-rest" title="About an hour to recover and prepare."><span>Short Rest</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/hope.html" data-mechanic="hope" title="Player resource gained from Hope results and spent to help or use features."><span>Hope</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/stress.html" data-mechanic="stress" title="Pressure, strain, and resource cost tracked separately from HP."><span>Stress</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/armor-slots.html" data-mechanic="armor-slots" title="Mark a slot to reduce incoming damage severity by one threshold."><span>Armor Slots</span><small>Official</small></a></div>
+    </article>
+
+    <article class="rule-quick-card" data-rules-text>
+      <p class="private-note">Make pressure visible and explain what a tick means.</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/countdown.html" data-mechanic="countdown"><span>Countdown</span></a></h3>
+      <span class="sr-only">clock timer countdown GM Move make a move with Fear GM Fear fear spend</span>
+      <ul><li>Name what the <a class="mechanic-link" href="../../pages/rules/countdown.html" data-mechanic="countdown"><span>countdown</span></a> represents.</li><li>Tick it when the fiction or result calls for pressure.</li><li>Use the <a class="entity-link entity-location inline-entity-link" href="open-valetm-ritual-site.html" data-entity="open-valetm-ritual-site"><img class="type-icon" src="../../assets/icons/location.png" alt="" aria-hidden="true"><span>Open Vale</span></a> ritual <a class="mechanic-link" href="../../pages/rules/countdown.html" data-mechanic="countdown"><span>countdown</span></a> as module pressure, not a <a class="mechanic-link" href="../../pages/rules/conditions.html" data-mechanic="conditions"><span>condition</span></a>.</li></ul>
+      <div class="mechanic-chip-row"><a class="mechanic-chip" href="../../pages/rules/countdown.html" data-mechanic="countdown" title="A visible pressure clock for progress or danger."><span>Countdown</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/gm-moves.html" data-mechanic="gm-moves" title="GM responses that reveal pressure, cost, danger, or consequence."><span>GM Moves</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/fear.html" data-mechanic="fear" title="GM pressure resource gained on Fear results and spent to escalate."><span>Fear</span><small>Official</small></a></div>
+    </article>
+
+    <article class="rule-quick-card" data-rules-text>
+      <p class="private-note">Keep the explanation short enough to resume play.</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/faq.html" data-mechanic="faq"><span>Beginner</span></a> <a class="mechanic-link" href="../../pages/rules/faq.html" data-mechanic="faq"><span>Teaching</span></a> Script</h3>
+      <span class="sr-only">2d12 hope die fear die DC difficulty class hinge trait traits damage threshold thresholds initiative turn order spotlight</span>
+      <ul><li>Two d12s: <a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a> and <a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>Fear</span></a>.</li><li>The total decides success against <a class="mechanic-link" href="../../pages/rules/difficulty.html" data-mechanic="difficulty"><span>Difficulty</span></a>.</li><li>The higher die decides whether <a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a> or <a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>Fear</span></a> colors the result.</li><li><a class="mechanic-link" href="../../pages/rules/traits.html" data-mechanic="traits"><span>Traits</span></a> replace <a class="mechanic-link" href="../../pages/rules/dnd-to-daggerheart.html" data-mechanic="dnd-to-daggerheart"><span>D&D</span></a> skills.</li><li><a class="mechanic-link" href="../../pages/rules/damage-thresholds.html" data-mechanic="damage-thresholds"><span>Damage</span></a> compares to <a class="mechanic-link" href="../../pages/rules/damage-thresholds.html" data-mechanic="damage-thresholds"><span>thresholds</span></a>; <a class="mechanic-link" href="../../pages/rules/armor-slots.html" data-mechanic="armor-slots"><span>Armor</span></a> can reduce severity.</li><li>There is no <a class="mechanic-link" href="../../pages/rules/adversary-spotlight.html" data-mechanic="adversary-spotlight"><span>initiative</span></a> order; <a class="mechanic-link" href="../../pages/rules/table-spotlight.html" data-mechanic="table-spotlight"><span>spotlight</span></a> follows the fiction.</li></ul>
+      <div class="mechanic-chip-row"><a class="mechanic-chip" href="../../pages/rules/duality-dice.html" data-mechanic="duality-dice" title="Roll a Hope d12 and Fear d12 together, add modifiers, compare to Difficulty."><span>Duality Dice</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/difficulty.html" data-mechanic="difficulty" title="The target number for a roll."><span>Difficulty</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/traits.html" data-mechanic="traits" title="The six broad modifiers used instead of D&amp;D skills."><span>Traits</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/damage-thresholds.html" data-mechanic="damage-thresholds" title="Numbers used to determine how many HP are marked from damage."><span>Damage Thresholds</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/adversary-spotlight.html" data-mechanic="adversary-spotlight" title="Daggerheart combat flows through spotlight rather than initiative order."><span>Spotlight</span><small>Official</small></a></div>
+    </article>
+
+    </section>
+    
+    <section class="rules-section" id="rule-action-roll" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>Action Roll</span></a> Flow</h3>
+      <span class="sr-only">['roll', 'check', 'skill check', 'action rolls'] ['saving throw', 'save', 'reaction']</span>
+      
+      <p>Ask what the PC does, choose the <a class="mechanic-link" href="../../pages/rules/traits.html" data-mechanic="traits"><span>trait</span></a> that matches the fictional approach, set or reveal the <a class="mechanic-link" href="../../pages/rules/difficulty.html" data-mechanic="difficulty"><span>Difficulty</span></a>, then <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>roll</span></a>.</p><p><a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>Roll</span></a> <a class="mechanic-link" href="../../pages/rules/duality-dice.html" data-mechanic="duality-dice"><span>Duality Dice</span></a>, add the <a class="mechanic-link" href="../../pages/rules/traits.html" data-mechanic="traits"><span>trait</span></a> and any applicable <a class="mechanic-link" href="../../pages/rules/experiences.html" data-mechanic="experiences"><span>Experience</span></a> or bonus, compare the total to the <a class="mechanic-link" href="../../pages/rules/difficulty.html" data-mechanic="difficulty"><span>Difficulty</span></a>, then read <a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a>/<a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>Fear</span></a> spin.</p><p><a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>Roll</span></a> only when the outcome is uncertain and the consequence matters. If there is no meaningful pressure, give the result without a <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>roll</span></a>.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-duality-dice" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/duality-dice.html" data-mechanic="duality-dice"><span>Duality Dice</span></a></h3>
+      <span class="sr-only">['2d12', 'hope die', 'fear die']</span>
+      
+      <p>Official default: <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>roll</span></a> two d12s, one <a class="mechanic-link" href="../../pages/rules/duality-dice.html" data-mechanic="duality-dice"><span>Hope die</span></a> and one <a class="mechanic-link" href="../../pages/rules/duality-dice.html" data-mechanic="duality-dice"><span>Fear die</span></a>.</p><p>Total the dice, add the relevant <a class="mechanic-link" href="../../pages/rules/traits.html" data-mechanic="traits"><span>trait</span></a> and bonuses, then compare to <a class="mechanic-link" href="../../pages/rules/difficulty.html" data-mechanic="difficulty"><span>Difficulty</span></a>.</p><p>The higher die determines whether the <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>roll</span></a> is <a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>with Hope</span></a> or <a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>with Fear</span></a>. Matching dice are a <a class="mechanic-link" href="../../pages/rules/critical-success.html" data-mechanic="critical-success"><span>Critical Success</span></a>.</p><p><a class="mechanic-link" href="../../pages/rules/reaction-rolls.html" data-mechanic="reaction-rolls"><span>Reaction</span></a> rolls use the <a class="mechanic-link" href="../../pages/rules/duality-dice.html" data-mechanic="duality-dice"><span>Duality Dice</span></a> structure, but they do not generate <a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a> or <a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>Fear</span></a>.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-hope-fear-matrix" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a>/<a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>Fear</span></a> Outcomes</h3>
+      <span class="sr-only"></span>
+      
+      
+      <div class="table-scroll"><table><thead><tr><th>Total</th><th>Spin</th><th>Result</th></tr></thead><tbody><tr><td>&gt;= <a class="mechanic-link" href="../../pages/rules/difficulty.html" data-mechanic="difficulty"><span>Difficulty</span></a></td><td><a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a></td><td>Success <a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>with Hope</span></a>: get what you want and gain <a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a>.</td></tr><tr><td>&gt;= <a class="mechanic-link" href="../../pages/rules/difficulty.html" data-mechanic="difficulty"><span>Difficulty</span></a></td><td><a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>Fear</span></a></td><td><a class="mechanic-link" href="../../pages/rules/five-outcomes.html" data-mechanic="five-outcomes"><span>Success with Fear</span></a>: get what you want, but there is a cost or consequence; GM gains <a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>Fear</span></a>.</td></tr><tr><td>&lt; <a class="mechanic-link" href="../../pages/rules/difficulty.html" data-mechanic="difficulty"><span>Difficulty</span></a></td><td><a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a></td><td><a class="mechanic-link" href="../../pages/rules/five-outcomes.html" data-mechanic="five-outcomes"><span>Failure with Hope</span></a>: things do not go as planned, but gain <a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a>.</td></tr><tr><td>&lt; <a class="mechanic-link" href="../../pages/rules/difficulty.html" data-mechanic="difficulty"><span>Difficulty</span></a></td><td><a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>Fear</span></a></td><td>Failure <a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>with Fear</span></a>: things go badly; major consequence or complication; GM gains <a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>Fear</span></a>.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="rules-section" id="rule-critical-success" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/critical-success.html" data-mechanic="critical-success"><span>Critical Success</span></a></h3>
+      <span class="sr-only">['crit', 'critical', 'doubles']</span>
+      
+      <p>When the <a class="mechanic-link" href="../../pages/rules/duality-dice.html" data-mechanic="duality-dice"><span>Hope die</span></a> and <a class="mechanic-link" href="../../pages/rules/duality-dice.html" data-mechanic="duality-dice"><span>Fear die</span></a> match, the <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>roll</span></a> is a <a class="mechanic-link" href="../../pages/rules/critical-success.html" data-mechanic="critical-success"><span>Critical Success</span></a>.</p><p>A <a class="mechanic-link" href="../../pages/rules/critical-success.html" data-mechanic="critical-success"><span>Critical Success</span></a> counts as a <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>roll</span></a> <a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>with Hope</span></a> even if the total would otherwise miss the <a class="mechanic-link" href="../../pages/rules/difficulty.html" data-mechanic="difficulty"><span>Difficulty</span></a>.</p><p>On a <a class="mechanic-link" href="../../pages/rules/critical-success.html" data-mechanic="critical-success"><span>Critical Success</span></a>, the PC gains <a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a> and clears 1 <a class="mechanic-link" href="../../pages/rules/stress.html" data-mechanic="stress"><span>Stress</span></a>. On an <a class="mechanic-link" href="../../pages/rules/adversary-attacks.html" data-mechanic="adversary-attacks"><span>attack roll</span></a>, follow the official <a class="mechanic-link" href="../../pages/rules/critical-success.html" data-mechanic="critical-success"><span>critical</span></a> <a class="mechanic-link" href="../../pages/rules/damage-thresholds.html" data-mechanic="damage-thresholds"><span>damage</span></a> rules.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-difficulty-ladder" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/difficulty.html" data-mechanic="difficulty"><span>Difficulty</span></a> Ladder</h3>
+      <span class="sr-only">['DC', 'difficulty class', 'hinge']</span>
+      
+      
+      <div class="table-scroll"><table><thead><tr><th><a class="mechanic-link" href="../../pages/rules/difficulty.html" data-mechanic="difficulty"><span>Difficulty</span></a></th><th>Number</th><th>Use</th></tr></thead><tbody><tr><td><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Easy 5</span></a></td><td>5</td><td>Obvious, low-pressure, strong leverage, or <a class="mechanic-link" href="../../pages/rules/faq.html" data-mechanic="faq"><span>beginner</span></a>-friendly on-ramp.</td></tr><tr><td><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Easy 10</span></a></td><td>10</td><td>Low pressure, <a class="mechanic-link" href="../../pages/rules/faq.html" data-mechanic="faq"><span>beginner</span></a>-friendly, obvious route.</td></tr><tr><td><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Average 15</span></a></td><td>15</td><td>Default meaningful uncertainty.</td></tr><tr><td><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Hard 20</span></a></td><td>20</td><td>Dangerous, contested, or specialized task.</td></tr><tr><td><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Very Hard 25</span></a></td><td>25</td><td>Exceptional, unstable, rushed, or opposed.</td></tr><tr><td><a class="entity-link entity-mechanic inline-entity-link" href="difficulty-ladder.html" data-entity="difficulty-ladder"><img class="type-icon" src="../../assets/icons/mechanic.png" alt="" aria-hidden="true"><span>Nearly Impossible 30</span></a></td><td>30</td><td>Legendary attempt; usually offer another route.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="rules-section" id="rule-traits" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/traits.html" data-mechanic="traits"><span>Traits</span></a></h3>
+      <span class="sr-only">['trait', 'traits']</span>
+      
+      
+      <div class="table-scroll"><table><thead><tr><th><a class="mechanic-link" href="../../pages/rules/traits.html" data-mechanic="traits"><span>Trait</span></a></th><th>What it covers</th></tr></thead><tbody><tr><td><a class="mechanic-link" href="../../pages/rules/agility.html" data-mechanic="agility"><span>Agility</span></a></td><td>Sprint, leap, maneuver, <a class="mechanic-link" href="../../pages/rules/agility.html" data-mechanic="agility"><span>dodge</span></a>, balance, climb fast, keep footing.</td></tr><tr><td><a class="mechanic-link" href="../../pages/rules/strength.html" data-mechanic="strength"><span>Strength</span></a></td><td>Lift, smash, <a class="mechanic-link" href="../../pages/rules/strength.html" data-mechanic="strength"><span>grapple</span></a>, hold, carry, resist <a class="mechanic-link" href="../../pages/rules/strength.html" data-mechanic="strength"><span>force</span></a>, endure strain.</td></tr><tr><td><a class="mechanic-link" href="../../pages/rules/finesse.html" data-mechanic="finesse"><span>Finesse</span></a></td><td><a class="mechanic-link" href="../../pages/rules/finesse.html" data-mechanic="finesse"><span>Control</span></a>, <a class="mechanic-link" href="../../pages/rules/finesse.html" data-mechanic="finesse"><span>hide</span></a>, <a class="mechanic-link" href="../../pages/rules/finesse.html" data-mechanic="finesse"><span>tinker</span></a>, pick, disable, handle delicate details.</td></tr><tr><td><a class="mechanic-link" href="../../pages/rules/instinct.html" data-mechanic="instinct"><span>Instinct</span></a></td><td>Perceive, sense, navigate, track, read danger, read animals.</td></tr><tr><td><a class="mechanic-link" href="../../pages/rules/presence.html" data-mechanic="presence"><span>Presence</span></a></td><td>Charm, lead, soothe, deceive, perform, intimidate, negotiate.</td></tr><tr><td><a class="mechanic-link" href="../../pages/rules/knowledge.html" data-mechanic="knowledge"><span>Knowledge</span></a></td><td>Recall, analyze, investigate, comprehend, reason from lore.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="rules-section" id="rule-dnd-conversion" data-rules-text>
+      <p class="private-note">#gm-<a class="mechanic-link" href="../../pages/rules/help-an-ally.html" data-mechanic="help-an-ally"><span>aid</span></a> not official</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/dnd-to-daggerheart.html" data-mechanic="dnd-to-daggerheart"><span>D&D</span></a>-to-Daggerheart Translation</h3>
+      <span class="sr-only"></span>
+      <span class="sr-only" data-entity="d-and-d-conversion">D&D Conversion</span>
+      <p>Daggerheart uses <a class="mechanic-link" href="../../pages/rules/traits.html" data-mechanic="traits"><span>traits</span></a>, not <a class="mechanic-link" href="../../pages/rules/dnd-to-daggerheart.html" data-mechanic="dnd-to-daggerheart"><span>D&D</span></a> skills. Pick the <a class="mechanic-link" href="../../pages/rules/traits.html" data-mechanic="traits"><span>trait</span></a> that matches the player&#x27;s fictional approach.</p><p>Use the <a class="mechanic-link" href="../../pages/rules/dnd-to-daggerheart.html" data-mechanic="dnd-to-daggerheart"><span>D&D</span></a> <a class="mechanic-link" href="../../pages/rules/dnd-to-daggerheart.html" data-mechanic="dnd-to-daggerheart"><span>conversion</span></a> page as a GM <a class="mechanic-link" href="../../pages/rules/help-an-ally.html" data-mechanic="help-an-ally"><span>aid</span></a> for players arriving from <a class="mechanic-link" href="../../pages/rules/dnd-to-daggerheart.html" data-mechanic="dnd-to-daggerheart"><span>5e</span></a>; it is not official Daggerheart rules text.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-advantage-disadvantage" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/advantage-disadvantage.html" data-mechanic="advantage-disadvantage"><span>Advantage / Disadvantage</span></a></h3>
+      <span class="sr-only">['advantage', 'disadvantage']</span>
+      
+      <p><a class="mechanic-link" href="../../pages/rules/advantage-disadvantage.html" data-mechanic="advantage-disadvantage"><span>Advantage</span></a> adds a d6 <a class="mechanic-link" href="../../pages/rules/advantage-disadvantage.html" data-mechanic="advantage-disadvantage"><span>advantage</span></a> die to the <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>roll</span></a> total.</p><p><a class="mechanic-link" href="../../pages/rules/advantage-disadvantage.html" data-mechanic="advantage-disadvantage"><span>Disadvantage</span></a> subtracts a d6 <a class="mechanic-link" href="../../pages/rules/advantage-disadvantage.html" data-mechanic="advantage-disadvantage"><span>disadvantage</span></a> die from the <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>roll</span></a> total.</p><p><a class="mechanic-link" href="../../pages/rules/advantage-disadvantage.html" data-mechanic="advantage-disadvantage"><span>Advantage</span></a> and <a class="mechanic-link" href="../../pages/rules/advantage-disadvantage.html" data-mechanic="advantage-disadvantage"><span>disadvantage</span></a> cancel each other out before rolling. If multiple <a class="mechanic-link" href="../../pages/rules/advantage-disadvantage.html" data-mechanic="advantage-disadvantage"><span>advantage</span></a> dice remain, use the highest one.</p><p>The GM may grant <a class="mechanic-link" href="../../pages/rules/advantage-disadvantage.html" data-mechanic="advantage-disadvantage"><span>advantage</span></a> or <a class="mechanic-link" href="../../pages/rules/advantage-disadvantage.html" data-mechanic="advantage-disadvantage"><span>disadvantage</span></a> when the fiction supports it.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-experiences-help" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/experiences.html" data-mechanic="experiences"><span>Experiences</span></a>, <a class="mechanic-link" href="../../pages/rules/help-an-ally.html" data-mechanic="help-an-ally"><span>Help</span></a>, <a class="mechanic-link" href="../../pages/rules/tag-team-roll.html" data-mechanic="tag-team-roll"><span>Tag Team</span></a></h3>
+      <span class="sr-only"></span>
+      
+      <p><a class="mechanic-link" href="../../pages/rules/experiences.html" data-mechanic="experiences"><span>Experiences</span></a> are short backstory/<a class="mechanic-link" href="../../pages/rules/experiences.html" data-mechanic="experiences"><span>expertise</span></a> phrases. Spend 1 <a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a> before a <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>roll</span></a> to add a relevant <a class="mechanic-link" href="../../pages/rules/experiences.html" data-mechanic="experiences"><span>Experience</span></a> modifier.</p><p><a class="mechanic-link" href="../../pages/rules/help-an-ally.html" data-mechanic="help-an-ally"><span>Help an Ally</span></a>: spend 1 <a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a>, describe feasible <a class="mechanic-link" href="../../pages/rules/help-an-ally.html" data-mechanic="help-an-ally"><span>help</span></a>, <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>roll</span></a> a d6 <a class="mechanic-link" href="../../pages/rules/advantage-disadvantage.html" data-mechanic="advantage-disadvantage"><span>advantage</span></a> die, and add it to the acting PC&#x27;s <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>roll</span></a> using the normal <a class="mechanic-link" href="../../pages/rules/advantage-disadvantage.html" data-mechanic="advantage-disadvantage"><span>advantage</span></a> rules.</p><p><a class="mechanic-link" href="../../pages/rules/tag-team-roll.html" data-mechanic="tag-team-roll"><span>Tag Team Roll</span></a>: once per session, spend 3 <a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a> to combine two PCs&#x27; efforts. Both <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>roll</span></a>, choose one result for both, and resolve as a single <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>action roll</span></a>.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-gm-fear" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a> Uses / <a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>Fear</span></a> Uses</h3>
+      <span class="sr-only">['with Hope', 'hope spend', 'spend Hope'] ['Sablewood Hope Moments', 'Sablewood Fear Moments', 'hope moments', 'fear moments']</span>
+      
+      <p><a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a> can be spent to <a class="mechanic-link" href="../../pages/rules/help-an-ally.html" data-mechanic="help-an-ally"><span>Help an Ally</span></a>, use <a class="mechanic-link" href="../../pages/rules/experiences.html" data-mechanic="experiences"><span>Experiences</span></a>, initiate a <a class="mechanic-link" href="../../pages/rules/tag-team-roll.html" data-mechanic="tag-team-roll"><span>Tag Team Roll</span></a>, or activate <a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a> Features.</p><p>On a <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>roll</span></a> <a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>with Fear</span></a>, the GM gains <a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>Fear</span></a> and makes a move reflecting the complication.</p><p><a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>Fear</span></a> can be spent to <a class="mechanic-link" href="../../pages/rules/table-spotlight.html" data-mechanic="table-spotlight"><span>spotlight</span></a> adversaries, use <a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>Fear</span></a> Features, make stronger <a class="mechanic-link" href="../../pages/rules/gm-moves.html" data-mechanic="gm-moves"><span>GM moves</span></a>, apply adversary <a class="mechanic-link" href="../../pages/rules/experiences.html" data-mechanic="experiences"><span>Experiences</span></a>, and advance pressure when the rules or stat block call for it.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-gm-moves-spotlight" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/gm-moves.html" data-mechanic="gm-moves"><span>GM Moves</span></a> / Adversary <a class="mechanic-link" href="../../pages/rules/table-spotlight.html" data-mechanic="table-spotlight"><span>Spotlight</span></a></h3>
+      <span class="sr-only">['GM Move', 'make a move'] ['rules drawer', 'quick reference']</span>
+      <span class="sr-only" data-entity="gm-moves">GM Moves</span><span class="sr-only" data-entity="adversary-spotlight">Adversary Spotlight</span>
+      <p>The <a class="mechanic-link" href="../../pages/rules/table-spotlight.html" data-mechanic="table-spotlight"><span>spotlight</span></a> moves through the fiction rather than a fixed <a class="mechanic-link" href="../../pages/rules/adversary-spotlight.html" data-mechanic="adversary-spotlight"><span>initiative</span></a> order.</p><p>The GM commonly makes moves when a PC rolls <a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>with Fear</span></a> or fails an <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>action roll</span></a>.</p><p>Use softer moves to telegraph, reveal, or reposition. Use harder moves when the fiction and result call for direct consequence.</p><p>Spend <a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>Fear</span></a> or use features when the adversary/environment rules call for it.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-adversary-attacks" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/adversary-attacks.html" data-mechanic="adversary-attacks"><span>Adversary Attack</span></a> Rolls</h3>
+      <span class="sr-only">['enemy attack', 'attack roll', 'adversary attack']</span>
+      <span class="sr-only" data-entity="adversary-attack-rolls">Adversary Attack Rolls</span>
+      <p>Adversaries <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>roll</span></a> a d20 plus their attack modifier against the target PC&#x27;s <a class="mechanic-link" href="../../pages/rules/evasion.html" data-mechanic="evasion"><span>Evasion</span></a>.</p><p>PCs do not <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>roll</span></a> defense by default. Use <a class="mechanic-link" href="../../pages/rules/reaction-rolls.html" data-mechanic="reaction-rolls"><span>reaction</span></a> rolls only when a rule, feature, or GM call gives one.</p><p>PC <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>action rolls</span></a> against adversaries use the adversary&#x27;s <a class="mechanic-link" href="../../pages/rules/difficulty.html" data-mechanic="difficulty"><span>Difficulty</span></a> from the stat block.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-damage-armor-stress" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/damage-thresholds.html" data-mechanic="damage-thresholds"><span>Damage</span></a> / <a class="mechanic-link" href="../../pages/rules/armor-slots.html" data-mechanic="armor-slots"><span>Armor</span></a> / <a class="mechanic-link" href="../../pages/rules/stress.html" data-mechanic="stress"><span>Stress</span></a></h3>
+      <span class="sr-only">['damage', 'threshold', 'thresholds'] ['damage die', 'damage dice', 'weapon damage']</span>
+      <span class="sr-only" data-entity="damage-armor">Damage / Armor</span>
+      <p>Compare incoming <a class="mechanic-link" href="../../pages/rules/damage-thresholds.html" data-mechanic="damage-thresholds"><span>damage</span></a> to the character&#x27;s <a class="mechanic-link" href="../../pages/rules/damage-thresholds.html" data-mechanic="damage-thresholds"><span>damage thresholds</span></a> to determine how many <a class="mechanic-link" href="../../pages/rules/hp.html" data-mechanic="hp"><span>HP</span></a> are marked.</p><p>Mark an <a class="mechanic-link" href="../../pages/rules/armor-slots.html" data-mechanic="armor-slots"><span>Armor Slot</span></a> to reduce the severity of incoming <a class="mechanic-link" href="../../pages/rules/damage-thresholds.html" data-mechanic="damage-thresholds"><span>damage</span></a> by one <a class="mechanic-link" href="../../pages/rules/damage-thresholds.html" data-mechanic="damage-thresholds"><span>threshold</span></a>.</p><p>When a character marks their last <a class="mechanic-link" href="../../pages/rules/stress.html" data-mechanic="stress"><span>Stress</span></a>, they become <a class="mechanic-link" href="../../pages/rules/vulnerable.html" data-mechanic="vulnerable"><span>Vulnerable</span></a> until they clear at least 1 <a class="mechanic-link" href="../../pages/rules/stress.html" data-mechanic="stress"><span>Stress</span></a>.</p><p>If a character must <a class="mechanic-link" href="../../pages/rules/stress.html" data-mechanic="stress"><span>mark Stress</span></a> while all <a class="mechanic-link" href="../../pages/rules/stress.html" data-mechanic="stress"><span>Stress</span></a> slots are marked, follow the official overflow consequence from the character rules.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-short-rest" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/short-rest.html" data-mechanic="short-rest"><span>Short Rest</span></a></h3>
+      <span class="sr-only">['rest', 'Prepare', 'Tend to Wounds', 'Clear Stress', 'Repair Armor']</span>
+      
+      <p>A <a class="mechanic-link" href="../../pages/rules/short-rest.html" data-mechanic="short-rest"><span>short rest</span></a> is about an hour to catch breath and recover.</p><p>Each PC may swap <a class="mechanic-link" href="../../pages/rules/domain-cards.html" data-mechanic="domain-cards"><span>domain cards</span></a> between <a class="mechanic-link" href="../../pages/rules/domain-cards.html" data-mechanic="domain-cards"><span>loadout</span></a> and <a class="mechanic-link" href="../../pages/rules/domain-cards.html" data-mechanic="domain-cards"><span>vault</span></a>, then choose two moves, including choosing the same move twice.</p><p><a class="mechanic-link" href="../../pages/rules/short-rest.html" data-mechanic="short-rest"><span>Short rest</span></a> moves: <a class="mechanic-link" href="../../pages/rules/short-rest.html" data-mechanic="short-rest"><span>Tend to Wounds</span></a>, <a class="mechanic-link" href="../../pages/rules/stress.html" data-mechanic="stress"><span>Clear Stress</span></a>, <a class="mechanic-link" href="../../pages/rules/short-rest.html" data-mechanic="short-rest"><span>Repair Armor</span></a>, or <a class="mechanic-link" href="../../pages/rules/short-rest.html" data-mechanic="short-rest"><span>Prepare</span></a>.</p><p><a class="mechanic-link" href="../../pages/rules/short-rest.html" data-mechanic="short-rest"><span>Prepare</span></a> gains <a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a>; preparing with one or more party members gives each of those PCs 2 <a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a>.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-countdown" data-rules-text>
+      <p class="private-note">#rules-canon + module tracker</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/countdown.html" data-mechanic="countdown"><span>Countdown</span></a></h3>
+      <span class="sr-only">['clock', 'timer', 'countdown']</span>
+      
+      <p>Countdowns are visible pressure clocks. Tell players what changes when a <a class="mechanic-link" href="../../pages/rules/countdown.html" data-mechanic="countdown"><span>countdown</span></a> ticks.</p><p>On progress countdowns, successful <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>action rolls</span></a> can tick the party closer to the goal.</p><p>On consequence countdowns, failures or <a class="mechanic-link" href="../../pages/rules/five-outcomes.html" data-mechanic="five-outcomes"><span>success with Fear</span></a> can tick the opposing pressure closer.</p><p><a class="entity-link entity-location inline-entity-link" href="open-valetm-ritual-site.html" data-entity="open-valetm-ritual-site"><img class="type-icon" src="../../assets/icons/location.png" alt="" aria-hidden="true"><span>Open Vale</span></a> uses a module ritual <a class="mechanic-link" href="../../pages/rules/countdown.html" data-mechanic="countdown"><span>countdown</span></a> as a tracker; do not treat it as a new <a class="mechanic-link" href="../../pages/rules/conditions.html" data-mechanic="conditions"><span>condition</span></a>.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-ranges" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3><a class="mechanic-link" href="../../pages/rules/ranges.html" data-mechanic="ranges"><span>Ranges</span></a></h3>
+      <span class="sr-only">['range', 'movement', 'distance']</span>
+      
+      <p>Use Daggerheart <a class="mechanic-link" href="../../pages/rules/ranges.html" data-mechanic="ranges"><span>range</span></a> bands at the table: Melee, Very Close, Close, Far, Very Far, and Out of <a class="mechanic-link" href="../../pages/rules/ranges.html" data-mechanic="ranges"><span>Range</span></a>.</p><p>When exact <a class="mechanic-link" href="../../pages/rules/ranges.html" data-mechanic="ranges"><span>distance</span></a> is not important, keep <a class="mechanic-link" href="../../pages/rules/ranges.html" data-mechanic="ranges"><span>ranges</span></a> conversational and tied to reachable action.</p>
+      
+    </section>
+
+    <section class="rules-section" id="rule-conditions" data-rules-text>
+      <p class="private-note">#rules-canon</p>
+      <h3>Official <a class="mechanic-link" href="../../pages/rules/conditions.html" data-mechanic="conditions"><span>Conditions</span></a></h3>
+      <span class="sr-only"></span>
+      <span class="sr-only" data-entity="official-conditions">Official Conditions</span>
+      <p>Daggerheart has three primary global <a class="mechanic-link" href="../../pages/rules/conditions.html" data-mechanic="conditions"><span>conditions</span></a>: <a class="mechanic-link" href="../../pages/rules/hidden.html" data-mechanic="hidden"><span>Hidden</span></a>, <a class="mechanic-link" href="../../pages/rules/restrained.html" data-mechanic="restrained"><span>Restrained</span></a>, and <a class="mechanic-link" href="../../pages/rules/vulnerable.html" data-mechanic="vulnerable"><span>Vulnerable</span></a>.</p><p>Some features create unique effects, but those are feature-specific text, not module-wide <a class="mechanic-link" href="../../pages/rules/conditions.html" data-mechanic="conditions"><span>conditions</span></a>.</p><p>Unless a rule says otherwise, the same <a class="mechanic-link" href="../../pages/rules/conditions.html" data-mechanic="conditions"><span>condition</span></a> cannot stack on one target.</p><p>Temporary <a class="mechanic-link" href="../../pages/rules/conditions.html" data-mechanic="conditions"><span>conditions</span></a> can be cleared with a fitting <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>action roll</span></a>, a GM-approved fictional method, or by an adversary spending its <a class="mechanic-link" href="../../pages/rules/table-spotlight.html" data-mechanic="table-spotlight"><span>spotlight</span></a> to clear the <a class="mechanic-link" href="../../pages/rules/conditions.html" data-mechanic="conditions"><span>condition</span></a>.</p><p>Unconscious appears only as Death Move/status context in this Atlas, not as a global <a class="mechanic-link" href="../../pages/rules/conditions.html" data-mechanic="conditions"><span>condition</span></a> card.</p>
+      
+    </section>
+
+  </div>
+</aside>
+
+  
+<aside id="quick-ref-widget" class="quick-ref-widget is-collapsed" data-quick-ref data-persist-key="goldspire.quickRef.state" aria-label="Floating Quick Reference">
+  <header class="quick-ref-header" data-quick-ref-drag>
+    <button type="button" class="quick-ref-toggle" data-quick-ref-toggle aria-expanded="false">GM Ref</button>
+    <button type="button" class="quick-ref-reset" data-quick-ref-reset>Reset</button>
+  </header>
+  <div class="quick-ref-body">
+    <section class="quick-ref-card">
+      <h2>Current Scene</h2>
+      <p data-quick-current-scene>Choose a scene from the jump menu or Run Mode.</p>
+      <div data-quick-scene-mechanics class="mechanic-chip-row"></div>
+    </section>
+    <section class="quick-ref-card">
+      <h2>PC Names</h2>
+      <div data-quick-pc-list class="quick-ref-pc-list"></div>
+      <a class="button secondary" href="../../pages/pc-cheat-sheet.html">Open PC Sheet</a>
+    </section>
+    <section class="quick-ref-card">
+      <h2><a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll">Action Roll</a></h2>
+      <p>Pick <a class="mechanic-link" href="../../pages/rules/traits.html" data-mechanic="traits"><span>trait</span></a>, set <a class="mechanic-link" href="../../pages/rules/difficulty.html" data-mechanic="difficulty"><span>Difficulty</span></a>, establish stakes, <a class="mechanic-link" href="../../pages/rules/action-roll.html" data-mechanic="action-roll"><span>roll</span></a> <a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a> d12 + <a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>Fear</span></a> d12, add bonuses, compare total.</p>
+    </section>
+    <section class="quick-ref-card">
+      <h2><a class="mechanic-link" href="../../pages/rules/difficulty.html" data-mechanic="difficulty">Difficulty</a></h2>
+      <ul><li><a class="mechanic-link" href="../../pages/rules/difficulty.html" data-mechanic="difficulty"><strong>Very Easy</strong> 5</a></li><li><a class="mechanic-link" href="../../pages/rules/difficulty.html" data-mechanic="difficulty"><strong>Easy</strong> 10</a></li><li><a class="mechanic-link" href="../../pages/rules/difficulty.html" data-mechanic="difficulty"><strong>Average</strong> 15</a></li><li><a class="mechanic-link" href="../../pages/rules/difficulty.html" data-mechanic="difficulty"><strong>Hard</strong> 20</a></li><li><a class="mechanic-link" href="../../pages/rules/difficulty.html" data-mechanic="difficulty"><strong>Very Hard</strong> 25</a></li><li><a class="mechanic-link" href="../../pages/rules/difficulty.html" data-mechanic="difficulty"><strong>Nearly Impossible</strong> 30</a></li></ul>
+    </section>
+    <section class="quick-ref-card">
+      <h2><a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope">Hope</a> / <a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear">Fear</a></h2>
+      <p>Higher <a class="mechanic-link" href="../../pages/rules/duality-dice.html" data-mechanic="duality-dice"><span>Hope die</span></a>: player gains <a class="mechanic-link" href="../../pages/rules/hope.html" data-mechanic="hope"><span>Hope</span></a>. Higher <a class="mechanic-link" href="../../pages/rules/duality-dice.html" data-mechanic="duality-dice"><span>Fear die</span></a>: GM gains <a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>Fear</span></a> and pressure enters.</p>
+    </section>
+    <section class="quick-ref-card">
+      <h2><a class="mechanic-link" href="../rules/fear.html" data-mechanic="fear"><span>Fear Spend</span></a> Mini</h2>
+      <ul>
+        <li>Make a <a class="mechanic-link" href="../../pages/rules/gm-moves.html" data-mechanic="gm-moves"><span>GM move</span></a>.</li>
+        <li><a class="mechanic-link" href="../../pages/rules/table-spotlight.html" data-mechanic="table-spotlight"><span>Spotlight</span></a> a threat.</li>
+        <li>Use adversary or environment <a class="mechanic-link" href="../../pages/rules/fear.html" data-mechanic="fear"><span>Fear</span></a> feature.</li>
+      </ul>
+    </section>
+    <section class="quick-ref-card">
+      <h2><a class="mechanic-link" href="../rules/conditions.html" data-mechanic="conditions"><span>Conditions</span></a></h2>
+      <div class="mechanic-chip-row"><a class="mechanic-chip" href="../../pages/rules/hidden.html" data-mechanic="hidden" title="A target is unseen or its position is unknown."><span>Hidden</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/restrained.html" data-mechanic="restrained" title="A target cannot move freely, though it may still act from position."><span>Restrained</span><small>Official</small></a><a class="mechanic-chip" href="../../pages/rules/vulnerable.html" data-mechanic="vulnerable" title="Rolls targeting the Vulnerable target have advantage."><span>Vulnerable</span><small>Official</small></a></div>
+    </section>
+    <section class="quick-ref-card">
+      <h2>Quick Search</h2>
+      <input data-quick-rule-search type="search" placeholder="perception, save, AC, initiative">
+      <div data-quick-rule-results class="quick-rule-results"></div>
+    </section>
+  </div>
+</aside>
+
+  <aside id="hover-card" class="hover-card" aria-hidden="true"></aside>
+  <script src="../../data/atlas-data.js"></script>
+  <script src="../../js/display-sync.js"></script>
+  <script src="../../app.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,52 @@
+# Old Sable
+
+GM export - entity:old-sable
+
+## Player-facing description
+Old Sable is the forest underneath the brand, too old to argue and too alive to be reduced to route language.
+
+## Public role
+Replace generic forest vibes with physical signals the players can act on.
+
+## Handout text
+The living old forest beneath the brand.
+
+## GM truth
+No forced reveal. Let this entity disclose truth through scene context and player attention.
+
+## GM handling
+Introduce with sensory texture, then make one discoverable clue or social choice visible.
+
+## Mechanics
+- Title: Location Exploration Mechanics
+- Player Safe: Players can navigate, search, read customs, inspect hazards Old Sable when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: The living old forest beneath the brand. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-old-sable-engage-old-sable entity-old-sable Engage Old Sable Engage Old Sable Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of Old Sable hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. A flat...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless a hazard creates Hidden, Restrained, or Vulnerable
+- Search Loot: Use in sincere local speech.
+
+## Profile
+- Schema Version: location-profile-v1
+- Id: old-sable
+- Entity Id: old-sable
+- Source: Goldspire_Location_Packet/01_Sablewood_Preserve.md
+- Auto Surface: True
+- Priority: strong
+- Player Safe: Old Sable The living old forest beneath the brand. The living old forest beneath the brand. Old Sable is the forest underneath the brand, too old to argue and too alive to be reduced to route language. Old Sable is Sablewood without the managerial mask: slower, darker, wetter, and old enough that a humanoid road feels like a recent suggestion. The place breaks into usable table spaces: Cathedral trunks: The trunks rise like towers, each with roots big enough to hide a table. Animal courts: Clearings are shaped by repeated animal use rather than tools. Old road bones: Stone, plank, and sign fragments show where older routes failed. Green hush pockets: Sound drops away under thick leaves. Plants and materials: car-wide sable trunks with roots that rise like stair rails and force roads to negotiate around them, ledgerleaf vines whose flat leaves curl shut when touched, as if refusing...
+- Block1: Old Sable Replace generic forest vibes with physical signals the players can act on. The living old forest beneath the brand. Old Sable gives the party a non-corporate truth source before people explain it. Old Sable holds the truth the brochures paper over. A party that listens here learns things no toll-post will tell them. Old Sable gives the party a non-corporate truth source before people explain it. The forest digests everything given time, signs, roads, secrets, people. It is patient and it is on no one's schedule. pages/entities/old-sable.html
+- Block2: Great trunks lean over the road until the sky feels rationed. Old stones, root shelves, and moss-dark bends shape travel more than signs do. Animals are present, but not where the signs say they should be. Some roots curl around waymarker nails as if rejecting them slowly. Detail Cold rain on leaves, sap, fungal sweetness, and the musk of unseen animals. Detail Bark is damp and layered; touching it leaves dark moisture and gold-brown pollen on the fingers. Old Sable is the forest underneath the brand, too old to argue and too alive to be reduced to route language. Old Sable is Sablewood without the managerial mask: slower, darker, wetter, and old enough that a humanoid road feels like a recent suggestion. The place breaks into usable table spaces: Cathedral trunks: The trunks rise like towers, each with roots big enough to hide a table. Animal courts: Clearings are shaped by repeated...
+- Block3: old stones root shelves canopy bends animal trails overpainted signs Instinct to read quiet, tracks, and animal spacing. Knowledge to recognize old route markers. Presence only applies to creatures or guides present, not to imaginary locals. Local residents or workers appropriate to the place Cat-Squirrels leap limb to limb and knock dew from leaves Giraffe-Deer step over the road as if wagons are very short problems Lemur-Toads gossip-click from rain hollows and go silent when large predators pass Fox-Bats sleep under route signs and steal shiny route tokens at dusk Horse-Goats pull road carriages and require snack-based diplomacy Strixwolf spoor appears where owl-feathers, canine prints, and crushed fern all overlap root-deer scrape velvet against old bark glasswing beetles clean fungus from fallen branches No default combatant; add only if the scene introduces one Local civic...
+- Block4: The place changes even if the PCs stand still. Local people, creatures, weather, signage, and ward behavior all keep moving around the scene. A quick route can ignore warnings the forest is already giving. Noise or fire can draw attention before the party understands from where. Corporate assumptions misread animal behavior. The forest goes too quiet in a widening circle. A waymarker nail pops loose and drips sap like blood. Something winged answers from the wrong direction. Let the place be funny through overconfident signage, awkward forms, stubborn local habits, and magic that refuses corporate language.
+- Block5: S01-01 S04-01 S05-02 S06-02 MAP-LOC-old-sable
+- Block6: Describe what the PCs can see, smell, hear, touch, ask about, or infer. Do not explain hidden infrastructure or corporate thesis until play earns it. surface The living old forest beneath the brand. table clue Old Sable gives the party a non-corporate truth source before people explain it. earned truth Reveal deeper system meaning through NPC answers, evidence, or player questions, not narration dumps.
+- What Here: Local residents or workers appropriate to the place Cat-Squirrels leap limb to limb and knock dew from leaves Giraffe-Deer step over the road as if wagons are very short problems Lemur-Toads gossip-click from rain hollows and go silent when large predators pass Fox-Bats sleep under route signs and steal shiny route tokens at dusk Horse-Goats pull road carriages and require snack-based diplomacy Strixwolf spoor appears where owl-feathers, canine prints, and crushed fern all overlap root-deer scrape velvet against old bark glasswing beetles clean fungus from fallen branches No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues car-wide sable trunks with roots that rise like stair rails and force roads to negotiate around them ledgerleaf vines whose flat leaves curl shut when...
+- Living Place: location-living-place-v1 deep ancient forest heart Old Sable is Sablewood without the managerial mask: slower, darker, wetter, and old enough that a humanoid road feels like a recent suggestion. Cathedral trunks The trunks rise like towers, each with roots big enough to hide a table. Use for awe and navigation. Animal courts Clearings are shaped by repeated animal use rather than tools. Use for tracks, encounters, and ecological clues. Old road bones Stone, plank, and sign fragments show where older routes failed. Use for history without exposition. Green hush pockets Sound drops away under thick leaves. Use for intimate PC moments or subtle danger. car-wide sable trunks with roots that rise like stair rails and force roads to negotiate around them ledgerleaf vines whose flat leaves curl shut when touched, as if refusing unofficial inspection blue-green moss mats that remember...
+- Districts Or Subareas: Cathedral trunks The trunks rise like towers, each with roots big enough to hide a table. Use for awe and navigation. Animal courts Clearings are shaped by repeated animal use rather than tools. Use for tracks, encounters, and ecological clues. Old road bones Stone, plank, and sign fragments show where older routes failed. Use for history without exposition. Green hush pockets Sound drops away under thick leaves. Use for intimate PC moments or subtle danger.
+- Sensory Signature: Detail Cold rain on leaves, sap, fungal sweetness, and the musk of unseen animals. Detail Bark is damp and layered; touching it leaves dark moisture and gold-brown pollen on the fingers.
+- Visual Assets: location-visual-assets-v1 old-sable Old Sable Bright comedic frontier high-fantasy concept art for a Daggerheart-adjacent tabletop RPG. Medieval/Renaissance fantasy technology only: hand tools, wagons, ropes, parchment notices, ward-stones, carved wood, brass, cloth, stone, moss, lanterns, and magic. The tone is colorful, playful, slightly absurd, and vivid, like a fantasy corporate frontier comedy rather than a grim drama. No sci-fi machinery, no 1800s/Victorian clothing, no modern suits, no guns, no logos, no readable text, no watermark, no border, no collage. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/old-sable MAP-LOC-old-sable ancient forest heart ancient forest route map profile_scene Profile image ready /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/old-sable/profile_scene_v02.png...
+- Imagine It Like: The deep backcountry past where the trails are maintained. Think old-growth forest at dusk, the part of the park with no signal and no signs.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash c6ac16f9c424d752 | Source hash dac3370046ed077140fab2d6

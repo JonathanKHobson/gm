@@ -1,0 +1,49 @@
+# Reclaimer Personal Effects
+
+RAW export - entity:reclaimer-personal-effects
+
+## Player-facing description
+Reclaimer Personal Effects: Keepsakes, family mending, and old contract tags that complicate a clean victory.
+
+## Public role
+Non-treasure belongings carried by Bramble Union fighters
+
+## Handout text
+Player-safe note: Keepsakes, family mending, and old contract tags that complicate a clean victory.
+
+## Raw source
+- Type: clue
+- Role: Non-treasure belongings carried by Bramble Union fighters
+- Summary: Among the Bramble fighters' things: a child's toy, half-finished family mending, old contract tags worn smooth — the belongings of people, not raiders.
+- Tags: bramble clue evidence hidden loot moral-residue
+- Connections: Bramble Union Bramble Union Ambusher Bramble Union Resolution Track Bramble Union Villages
+- Inventory: patched armor keepsake bead dissolved road-crew tag
+- Loot: Use these details to show the fighters were dangerous people with lives, not faceless loot drops.
+- Name: Reclaimer Personal Effects
+- Id: reclaimer-personal-effects
+- Meta: Clue / Evidence CLUE assets/icons/clue.png entity-clue #48c7e8 07 Items and Clues entities clue
+- Aliases: Reclaimer Personal Effects keepsake keepsakes personal effects
+- Appears In: S02-03 S02-04
+- Related: Bramble Union Bramble Union Ambusher Bramble Union Resolution Track Bramble Union Villages S02-03 S02-04
+- Image Prompt: Private table TTRPG story atlas asset for Reclaimer Personal Effects, Clue / Evidence. Role: Non-treasure belongings carried by Bramble Union fighters. Summary: Among the Bramble fighters' things: a child's toy, half-finished family mending, old contract tags worn smooth — the belongings of people, not raiders.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: Keepsakes, family mending, and old contract tags that complicate a clean victory.; make it tactile enough that the players can point to it, carry it, compare it, or show it to someone.
+- Wants: Move suspicion toward Bramble Union, Bramble Union Ambusher, Bramble Union Resolution Track without requiring a lore lecture.
+- Fears: Being pocketed as trivia, missed because it looks mundane, or separated from the person it can help.
+- Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.
+- Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.
+- Sample Dialogue: Keepsakes, family mending, and old contract tags that complicate a clean victory.
+- Equipment: patched armor keepsake bead dissolved road-crew tag
+- Search Or Loot: Use these details to show the fighters were dangerous people with lives, not faceless loot drops.
+- Gm Use: Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.
+- Future Hooks: Bring back as an echo if players made a strong choice involving this entity.
+- Robust: Reclaimer Personal Effects: Keepsakes, family mending, and old contract tags that complicate a clean victory. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Move suspicion toward Bramble Union, Bramble Union Ambusher, Bramble Union Resolution Track without requiring a lore lecture. Being pocketed as trivia, missed because it looks mundane, or separated from the person it can help. Use when the scene needs a concrete object for players to inspect, carry, debate, or remember. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Reclaimer Personal Effects and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the institutional pattern. Wildborne...
+- Mechanics: Discovery / Earn-It Mechanics Players can inspect, handle, keep, trade, reveal, or earn Reclaimer Personal Effects when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: Among the Bramble fighters' things: a child's toy, half-finished family mending, old contract tags worn smooth — the belongings of people, not raiders. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-reclaimer-personal-effects-engage-reclaimer-personal-effects entity-reclaimer-personal-effects Engage Reclaimer Personal Effects Engage Reclaimer Personal Effects Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Reclaimer Personal Effects hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear...
+- Pronunciation: rih-KLAY-mer PER-suh-nul ih-FEKTS
+- Short Pronunciation: rih-KLAY-mer PER-suh-nul ih-FEKTS
+- Clue Profile: clue-profile-v1 reclaimer-personal-effects reclaimer-personal-effects Reclaimer Personal Effects Reclaimer Personal Effects rih-KLAY-mer PER-suh-nul ih-FEKTS physical True Reclaimer Personal Effects Among the Bramble fighters' things: a child's toy, half-finished family mending, old contract tags worn smooth — the belongings of people, not raiders. Among the Bramble fighters' things: a child's toy, half-finished family mending, old contract tags worn smooth — the belongings of people, not raiders. Among the Bramble fighters' things: a child's toy, half-finished family mending, old contract tags worn smooth — the belongings of people, not raiders. reclaimer-personal-effects Reclaimer Personal Effects rih-KLAY-mer PER-suh-nul ih-FEKTS physical these are ordinary, struggling folk; a clean "kill the bandits" victory curdles when you see what they carry. HIDDEN The Bramble Truth the-bramble-truth Complicates victory over the Bramble and rewards empathy, capture, or careful interrogation. pages/entities/reclaimer-personal-effects.html pages/clues/the-bramble-truth.html Among the Bramble fighters' things: a child's toy, half-finished family mending, old contract tags worn smooth — the...
+- Image: assets/clue-images/reclaimer-personal-effects/profile_base.webp
+- Image Asset Status: clue_visual_profile
+- Visual Gallery: primary Primary wiki image primary assets/clue-images/reclaimer-personal-effects/profile_base.webp Reclaimer Personal Effects primary wiki image visual. Reclaimer Personal Effects: Primary wiki image. clue_visual_profile True True
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 97cbdc06d47d1a32 | Source hash dac3370046ed077140fab2d6

@@ -1,0 +1,128 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2025 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S02-01 - The Fallout Investigation) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(With the creature dealt with, the wreck is yours to read. Up close, the story stops) Tj
+T*
+(adding up. The cart was stripped clean before anything wild got to it. The driver's) Tj
+T*
+(wounds are not all bites. And worked into one carriage wheel, where it has no business) Tj
+T*
+(being, is a snarl of black thorn that does not match this stretch of road.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Work out what really happened here before you move on.) Tj
+T*
+() Tj
+T*
+(GM goal) Tj
+T*
+() Tj
+T*
+(Let the party confirm the wreck was staged, find the planted bramble, and realize the) Tj
+T*
+(ambush is closing in.) Tj
+T*
+() Tj
+T*
+(GM notes) Tj
+T*
+() Tj
+T*
+(- Deepen Act 1's clue instead of replaying it: body, cart, wheel, tracks, then) Tj
+T*
+(  watchers.) Tj
+T*
+(- Player-safe conclusion: people staged this and marked the carriage.) Tj
+T*
+() Tj
+T*
+(GM script) Tj
+T*
+() Tj
+T*
+(Say: "The animal part of this scene is over. Now the wreck gets stranger. The cart was) Tj
+T*
+(stripped before anything fed here, the killing wound is too clean for teeth, and the) Tj
+T*
+(thorn in your wheel means somebody got close to your carriage. What do you inspect) Tj
+T*
+(first?" If they ask who did it, say: "You do not have a name. You have method: staged,) Tj
+T*
+(local, and deliberate.") Tj
+T*
+() Tj
+T*
+(State controls) Tj
+T*
+() Tj
+T*
+(- slitThroatDiscovered Slit throat already known checkbox If checked, do not re-) Tj
+T*
+(  reveal; confirm staging instead.) Tj
+T*
+(- stagingDiscovered Staging discovered checkbox Mark once players connect cart, wound,) Tj
+T*
+(  bramble, or tracks as deliberate.) Tj
+T*
+(- closingInCountdown Closing In countdown number 4 Tick for loud delay, messy evidence) Tj
+T*
+(  handling, or Fear. Resolve pressure in S02-02.) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 3ea988d0f5696704 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [2 0 R] /Count 1 >>
+endobj
+4 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000002086 00000 n 
+0000002212 00000 n 
+0000002269 00000 n 
+0000002318 00000 n 
+trailer
+<< /Size 6 /Root 4 0 R >>
+startxref
+2390
+%%EOF

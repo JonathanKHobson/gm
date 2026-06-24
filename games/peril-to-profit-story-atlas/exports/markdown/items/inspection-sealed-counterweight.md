@@ -1,0 +1,47 @@
+# Inspection-Sealed Counterweight
+
+RAW export - entity:inspection-sealed-counterweight
+
+## Player-facing description
+Inspection-Sealed Counterweight: A cabin-sized rune-marked counterweight that prevents easy access to the Custodian’s office.
+
+## Public role
+Marked boulder controlling the Hanging Office
+
+## Handout text
+Player-safe note: A cabin-sized rune-marked counterweight that prevents easy access to the Custodian’s office.
+
+## Raw source
+- Type: item
+- Role: Marked boulder controlling the Hanging Office
+- Tags: item location-detail
+- Summary: A cabin-sized rune-marked counterweight that prevents easy access to the Custodian’s office.
+- Connections: The Hanging Office Whitefire Custodian
+- Loot: Do not loot; dangerous and huge.
+- Name: Inspection-Sealed Counterweight
+- Id: inspection-sealed-counterweight
+- Meta: Item / Asset ITEM assets/icons/item.png entity-item #39c5bb 07 Items and Clues entities item
+- Aliases: Inspection-Sealed Counterweight counterweight inspection-sealed boulder marked counterweight boulder
+- Appears In: S04-02 S04-03
+- Related: S04-02 S04-03 The Hanging Office Whitefire Custodian
+- Image Prompt: Private table TTRPG story atlas asset for Inspection-Sealed Counterweight, Item / Asset. Role: Marked boulder controlling the Hanging Office. Summary: A cabin-sized rune-marked counterweight that prevents easy access to the Custodian’s office.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: A cabin-sized rune-marked counterweight that prevents easy access to the Custodian’s office.; use Inspection-Sealed Counterweight as a concrete table object with texture, ownership, and a reason it matters now.
+- Wants: Give players a tangible handle on The Hanging Office, Whitefire Custodian, whether they inspect, carry, return, trade, or refuse it.
+- Fears: Being treated as treasure clutter instead of evidence, memory, hospitality, or infrastructure with consequences.
+- Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.
+- Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.
+- Sample Dialogue: A cabin-sized rune-marked counterweight that prevents easy access to the Custodian’s office.
+- Equipment: No equipment; use as context, place, faction, mechanic, or clue rather than treasure.
+- Search Or Loot: Do not loot; dangerous and huge.
+- Gm Use: Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.
+- Future Hooks: Bring back as an echo if players made a strong choice involving this entity.
+- Robust: Inspection-Sealed Counterweight: A cabin-sized rune-marked counterweight that prevents easy access to the Custodian’s office. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Give players a tangible handle on The Hanging Office, Whitefire Custodian, whether they inspect, carry, return, trade, or refuse it. Being treated as treasure clutter instead of evidence, memory, hospitality, or infrastructure with consequences. Use when the scene needs a concrete object for players to inspect, carry, debate, or remember. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Inspection-Sealed Counterweight and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge...
+- Mechanics: Discovery / Earn-It Mechanics Players can inspect, handle, keep, trade, reveal, or earn Inspection-Sealed Counterweight when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A cabin-sized rune-marked counterweight that prevents easy access to the Custodian’s office. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-inspection-sealed-counterweight-engage-inspection-sealed-counterweight entity-inspection-sealed-counterweight Engage Inspection-Sealed Counterweight Engage Inspection-Sealed Counterweight Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Inspection-Sealed Counterweight hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost...
+- Pronunciation: Inspection-sealed Counterweight
+- Short Pronunciation: Inspection-sealed Counterweight
+- Image: assets/entities/inspection-sealed-counterweight.webp
+- Image Asset Status: image_gen
+- Visual Gallery: primary Primary wiki image primary assets/entities/inspection-sealed-counterweight.webp Inspection-Sealed Counterweight primary wiki image visual. Inspection-Sealed Counterweight: Primary wiki image. image_gen True True
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 34652a9f4d820213 | Source hash dac3370046ed077140fab2d6

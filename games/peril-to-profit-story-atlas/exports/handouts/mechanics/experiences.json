@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "experiences",
+  "kind": "rule",
+  "title": "Experiences",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "character-sheet",
+  "hook": "Short expertise phrases that can add to relevant rolls by spending Hope.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Short expertise phrases that can add to relevant rolls by spending Hope."
+    },
+    {
+      "label": "How It Works",
+      "body": "Experiences: Short expertise phrases that can add to relevant rolls by spending Hope."
+    },
+    {
+      "label": "Try It",
+      "body": "Can I use my Experience?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use before a roll when the phrase truly applies.",
+    "Yes, if it clearly helps this action and you spend Hope.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:experiences",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "e089b9cc7f263a28",
+  "generated_at": "2026-06-23T21:40:58"
+}

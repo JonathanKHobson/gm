@@ -1,0 +1,73 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "sablewoodtm-logistics-preserve",
+  "title": "Sablewood™ Logistics Preserve",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "5ad8abeac3ceb5f0",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Sablewood is an ancient forest forced to wear a logistics badge: colossal trunks, liability signs, toll language, and living routes that do not care about forms."
+    },
+    {
+      "title": "Public role",
+      "body": "Make the forest feel alive and managed badly, not just spooky."
+    },
+    {
+      "title": "Handout text",
+      "body": "An ancient forest logistics preserve where colossal trees, hybrid fauna, underroot communities, route tolls, and corporate liability language all compete to define what safety means."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: location",
+        "Role: Make the forest feel alive and managed badly, not just spooky.",
+        "Tags: corporate-label goldspire-location location location-profile manufactured-threat sablewood-lore source-page-1",
+        "Summary: An ancient forest logistics preserve where colossal trees, hybrid fauna, underroot communities, route tolls, and corporate liability language all compete to define what safety means.",
+        "Connections: Old Sable Goldspire Waymarkers Hush Vendor Cart The Lucent River Underroot The Titan's Steps The Sable Sinecure Bramble Union Hush™ Community Enclave Open Vale™ Ritual Site Sablewood Hybrid Fauna Sablewood Hope Moments Sablewood Fear Moments",
+        "Loot: Environmental clue source.",
+        "Source Documents: Open Sablewood PDF Source dist/Peril_to_Profit_Sablewood_Logistics_Preserve.pdf sources/Peril_to_Profit_Sablewood_Logistics_Preserve.pdf Bundled public source link selected by Kyle for the generated Story Atlas.",
+        "Aliases: Endless Verdance Logistics Preserve Sablewood Sablewood Logistics Sablewood Logistics Preserve Sablewood™ Sablewood™ Logistics Preserve ancient canopy branded wilderness endless verdancy the Preserve the old forest the ancient forest the great forest",
+        "Source Pages: Sablewood PDF p. 1",
+        "Name: Sablewood™ Logistics Preserve",
+        "Id: sablewoodtm-logistics-preserve",
+        "Meta: Location LOCATION assets/icons/location.png entity-location #5fa8d3 05 Locations locations location",
+        "Appears In: S00-01 S01-01 S01-02 S01-03 S01-04 S03-01 S03-02 S03-03 S04-01 S05-03",
+        "Related: Bramble Union Goldspire Waymarkers Hush Hush™ Community Enclave Old Sable Open Vale™ Ritual Site S00-01 S01-01 S01-02 S01-03 S01-04 S03-01 S03-02 S03-03 S04-01 S05-03 Sablewood Fear Moments Sablewood Hope Moments Sablewood Hybrid Fauna The Lucent River The Sable Sinecure The Titan's Steps Underroot Vendor Cart",
+        "Image Prompt: Private table TTRPG story atlas asset for Sablewood™ Logistics Preserve, Location. Role: Make the forest feel alive and managed badly, not just spooky.. Summary: An ancient forest logistics preserve where colossal trees, hybrid fauna, underroot communities, route tolls, and corporate liability language all compete to define what safety means.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Show the place as an atmospheric establishing image, not a map. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Personality: An ancient forest logistics preserve where colossal trees, hybrid fauna, underroot communities, route tolls, and corporate liability language all compete to define what safety means.; introduce it with a sensory palette, who feels safe there, and what has been neglected.",
+        "Wants: Pull player attention toward the choices, clues, and relationships tied to Old Sable, Goldspire Waymarkers, Hush.",
+        "Fears: Being treated as scenery when it should reveal who is protected, who is charged, and who is left outside the ward.",
+        "Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.",
+        "Body Language: Let the place answer through sound, texture, and who feels safe there.",
+        "Sample Dialogue: An ancient forest logistics preserve where colossal trees, hybrid fauna, underroot communities, route tolls, and corporate liability language all compete to define what safety means.",
+        "Equipment: No equipment; use as context, place, faction, mechanic, or clue rather than treasure. Sableblade Recall Stone Sable Sap",
+        "Search Or Loot: Environmental clue source.",
+        "Gm Use: Introduce with sensory texture, then make one discoverable clue or social choice visible. Use this page to seed the manufactured-threat reframe without turning it into exposition.",
+        "Future Hooks: Bring back as an echo if players made a strong choice involving this entity. Can become evidence in the future Relay Spire manufactured-threat investigation.",
+        "Robust: Sablewood is an ancient forest forced to wear a logistics badge: colossal trunks, liability signs, toll language, and living routes that do not care about forms. The Preserve is the clearest local expression of Peril to Profit: danger is real, but so are the people and creatures living around it; the corporations mostly learned how to meter, brand, and bill the crossing. Hundred-foot trunks, sunken roads, dense canopy-dark, blue river-glow, warning placards, mosslit root doors, and cheerful liability language weathering on old wood. Pull player attention toward the choices, clues, and relationships tied to Old Sable, Goldspire Waymarkers, Hush. Being treated as scenery when it should reveal who is protected, who is charged, and who is left outside the ward. Use Sablewood as the umbrella wiki for every local route, settlement, creature, guild, and resource introduced by the Sablewood PDF. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Sablewood™ Logistics Preserve and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer...",
+        "Player Display Title: The Old Forest",
+        "Player Display Caption: A vast ancient forest with trees wider than a carriage, older than any company sign.",
+        "Manufactured Threat: Hazard sightings and protection pricing have risen together year over year. The forest is framed as danger while its own old magic still keeps people alive.",
+        "Mechanics: Location Exploration Mechanics Players can navigate, search, read customs, inspect hazards Sablewood™ Logistics Preserve when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: An ancient forest logistics preserve where colossal trees, hybrid fauna, underroot communities, route tolls, and corporate liability language all compete to define what safety means. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-sablewoodtm-logistics-preserve-engage-sablewood™-logistics-preserve entity-sablewoodtm-logistics-preserve Engage Sablewood™ Logistics Preserve Engage Sablewood™ Logistics Preserve Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of Sablewood™ Logistics Preserve hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with...",
+        "Pronunciation: SAY-bul-wood loh-JIS-tiks preh-ZURV",
+        "Short Pronunciation: SAY-bul-wood loh-JIS-tiks preh-ZURV",
+        "Pronunciation Note: Locals usually say Old Sable.",
+        "Location Profile: location-profile-v1 sablewoodtm-logistics-preserve sablewoodtm-logistics-preserve Goldspire_Location_Packet/01_Sablewood_Preserve.md True strong Sablewood™ Logistics Preserve An ancient forest logistics preserve where colossal trees, hybrid fauna, underroot communities, route tolls, and corporate liability language all compete to define what safety means. An ancient forest logistics preserve where colossal trees, hybrid fauna, underroot communities, route tolls, and corporate liability language all compete to define what safety means. Sablewood is an ancient forest forced to wear a logistics badge: colossal trunks, liability signs, toll language, and living routes that do not care about forms. Sablewood is a national-forest-scale wilderness wearing a branded vest it did not ask for. The trees are huge enough to drive wagons through hollow roots; the road is an agreement, not a conquest. The place breaks into usable table spaces: Managed carriage road: A wet road threads between trunks the size of small houses. Root underpasses: Hollow roots create side tunnels, animal shade, and places a cart cannot follow. Waymarker clearings: Cheerful route markers and supply posts look tiny...",
+        "Item Links: sableblade Sableblade Sablewood Wild Finds Rare seasonal find in deep Sablewood. recall-stone Recall Stone Sablewood Wild Finds Find, purchase, trade, or receive as a reward. sable-sap Sable Sap Hush Hospitality Forage, gift, or trade.",
+        "Clue Links: overturned-wheel-ruts Overturned Wheel Ruts The Ambush Reveal MANDATORY S01-02 Finesse D11 Instinct D11 Knowledge D11 If the clue is plainly visible, give the SHOW text freely first: The mud around the cart is gouged in hard, straight scars — the wheels didn't wander off the road, they were dragged and stopped. With Fear on Agility, give the clue but add bite: The first read points toward bad road luck or a panicked driver instead of a staged ambush. The truth remains reachable, but it costs time, attention, trust, or a new complication. bramble-claim-marker Bramble Claim Marker The Ambush Reveal OPTIONAL, HIDDEN S02-01 S02-02 Finesse D14 Instinct D14 Knowledge D14 If the clue is plainly visible, give the SHOW text freely first: A knotted strand and a pattern of scratch-marks, ordered like a tally or a signature, left where it would be found. With Fear on Agility, give the clue but add bite: The first read points toward bad road luck or a panicked driver instead of a staged ambush. The truth remains reachable, but it costs time, attention, trust, or a new complication. the-held-blow The Held Blow The Bramble Truth HIDDEN S02-03 Finesse D14 Instinct D14 Presence D14 If the clue is...",
+        "Image: assets/location-visuals/sablewoodtm-logistics-preserve/profile_scene_v02.webp",
+        "Image Asset Status: location_visual_profile",
+        "Visual Gallery: primary Primary wiki image primary assets/location-visuals/sablewoodtm-logistics-preserve/profile_scene_v02.webp Sablewood™ Logistics Preserve primary wiki image visual. Sablewood™ Logistics Preserve: Primary wiki image. location_visual_profile True True primary_map Top-down map location-map assets/location-visuals/sablewoodtm-logistics-preserve/primary_map_v02.webp Sablewood™ Logistics Preserve top-down map visual. Sablewood™ Logistics Preserve: Top-down map. ready True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/sablewoodtm-logistics-preserve/primary_map_v02.png location-alternate-1 Legacy v01 profile image location-alternate assets/location-visuals/sablewoodtm-logistics-preserve/profile_scene_v01.webp Sablewood™ Logistics Preserve legacy v01 profile image visual. Sablewood™ Logistics Preserve: Legacy v01 profile image. available True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/sablewoodtm-logistics-preserve/profile_scene_v01.png location-alternate-2 Legacy v01 primary map location-alternate assets/location-visuals/sablewoodtm-logistics-preserve/primary_map_v01.webp Sablewood™ Logistics Preserve..."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 5ad8abeac3ceb5f0 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

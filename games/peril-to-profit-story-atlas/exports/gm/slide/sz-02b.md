@@ -1,0 +1,33 @@
+# SZ-02B - Player Expectations / Shared Table Care
+
+GM export - slide:SZ-02B
+
+## Player text
+This works best when everyone is engaged, respectful, and helping the table have fun. You are responsible for your own fun and for noticing the other people at the table too.
+
+## Public objective
+This works best when everyone is engaged, respectful, and helping the table have fun. You are responsible for your own fun and for noticing the other people at the table too.
+
+## Player bullets
+- Engage with the story and ask questions.
+- Invite other players in: ask them what their character thinks, notices, or does.
+- Speak when it is your turn, and be mindful of how much space you are taking.
+- Only participate at the level you are comfortable with.
+- Tell me if you are confused, uncomfortable, not having fun, or need help.
+- I will do my best to engage everyone, but the table works because we all pay attention to each other.
+- If there is time at the end, we may do quick Stars and Wishes: one thing you liked, one thing you would want more or different next time.
+
+## GM goal
+Set player expectations for participation, shared care, questions, and communication.
+
+## GM notes
+- Script: Set the social expectation directly: this is not only my responsibility as GM. Everyone helps the story work by engaging, listening, asking questions, and making space. Tell players they can interrupt you to ask for help, a repeat, a slower pace, or a pause.
+- Keep this brief. It should feel like permission and care, not a lecture.
+- Mention Stars and Wishes only as an end-of-session possibility.
+- Checklist: Participation expectations explained; Questions welcome at any time; Shared responsibility named; Stars and Wishes previewed briefly
+
+## GM script
+Set the social expectation directly: this is not only my responsibility as GM. Everyone helps the story work by engaging, listening, asking questions, and making space. Tell players they can interrupt you to ask for help, a repeat, a slower pace, or a pause.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 29136b778ef79ec2 | Source hash dac3370046ed077140fab2d6

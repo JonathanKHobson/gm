@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "official-conditions",
+  "title": "Official Conditions",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "199dae229aa9cfa7",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Official Conditions: Only Hidden, Restrained, and Vulnerable are listed as global conditions in this Atlas."
+    },
+    {
+      "title": "Public role",
+      "body": "Global official Daggerheart condition reference"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Only Hidden, Restrained, and Vulnerable are listed as global conditions in this Atlas."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use when the scene needs a concrete object for players to inspect, carry, debate, or remember."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 199dae229aa9cfa7 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

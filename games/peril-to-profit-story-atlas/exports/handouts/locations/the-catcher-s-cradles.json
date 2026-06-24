@@ -1,0 +1,44 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "the-catcher-s-cradles",
+  "kind": "entity",
+  "title": "The Catcher's Cradles",
+  "in_world_label": "Goldspire Travel Advisory",
+  "brand_flag": "Player-safe",
+  "kicker": "A cradle system associated with the Titan's Steps, letting Sablewood's logistics guild make vertical risk look routine.",
+  "hook": "A cradle system associated with the Titan's Steps, letting Sablewood's logistics guild make vertical risk look routine.",
+  "blocks": [
+    {
+      "label": "Arrival Read",
+      "body": "The Catcher's Cradles make vertical danger look routine: suspended nets, rescue platforms, and the quiet pride of people who catch mistakes for a living."
+    },
+    {
+      "label": "Known For",
+      "body": "Huge nets sag between the trees, heavy with a century of caught things, branches, crates, the occasional boot. Pulley towers haul baskets up and down. Safety flags snap overhead. The workers size up a newcomer entirely by how they handle a rope, and they are..."
+    },
+    {
+      "label": "What Is Here",
+      "body": "Local residents or workers appropriate to the place nesting swifts, net spiders, beetles eating old rope fibers No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or..."
+    },
+    {
+      "label": "Food And Texture",
+      "body": "The crews eat on the repair platforms, passing a shared pot hand to hand so no one has to climb down for it. Plain food, beans and bread and strong tea, eaten with the easy gallows-humor of people who catch other..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Look for the busiest local gathering point.",
+    "Ask what has changed here recently."
+  ],
+  "archetype": "location.advisory",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:the-catcher-s-cradles",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "cb840e9d86fd6175",
+  "generated_at": "2026-06-23T21:40:58"
+}

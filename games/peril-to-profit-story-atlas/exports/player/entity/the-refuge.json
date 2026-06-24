@@ -1,0 +1,44 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "the-refuge",
+  "kind": "entity",
+  "title": "The Refuge",
+  "in_world_label": "Goldspire Travel Advisory",
+  "brand_flag": "Player-safe",
+  "kicker": "A prosperous Sablewood settlement where hazard rate becomes money, reputation, and a quiet measure of who survives the route.",
+  "hook": "A prosperous Sablewood settlement where hazard rate becomes money, reputation, and a quiet measure of who survives the route.",
+  "blocks": [
+    {
+      "label": "Arrival Read",
+      "body": "The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe."
+    },
+    {
+      "label": "Known For",
+      "body": "People arrive here shaken and leave a little steadier. The common room is all chairs and blankets and bowls, safety made visible. A wardstone burns low as a nightlight. There is always a quiet way out the back, because the folk who run this place know that a..."
+    },
+    {
+      "label": "What Is Here",
+      "body": "Local residents or workers appropriate to the place Rabbit-Gliders skim near the fishing lines Moth-Possums cling in warm rafters Turtle-Mice work the crumb paths Badger-Hawks dive for catches outside No default combatant; add only if the scene introduces..."
+    },
+    {
+      "label": "Food And Texture",
+      "body": "Soup is the whole welcome, thick and hot and pressed on you before you have sat down. The blankets smell of woodsmoke. There is bread, and broth, and the particular kindness of people who were once the ones arriving..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Look for the busiest local gathering point.",
+    "Ask what has changed here recently."
+  ],
+  "archetype": "location.advisory",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:the-refuge",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "1676e0941d381c73",
+  "generated_at": "2026-06-23T21:40:58"
+}

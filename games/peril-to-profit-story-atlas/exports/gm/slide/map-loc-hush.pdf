@@ -1,0 +1,118 @@
+%PDF-1.4
+1 0 obj
+<< /Length 1666 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-hush - Hush Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(Hush gathers under the colossal trees: warm windows, lantern branches, low roofs, and) Tj
+T*
+(paths leading toward a tree-tavern, market stalls, festival noise, and the farms beyond.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Hush gathers under the colossal trees: warm windows, lantern branches, low roofs, and) Tj
+T*
+(paths leading toward a tree-tavern, market stalls, festival noise, and the farms beyond.) Tj
+T*
+() Tj
+T*
+(GM goal) Tj
+T*
+() Tj
+T*
+(Use Hush as the warm hub for Act 3: a lived-in village, ward boundary, social routes,) Tj
+T*
+(and all optional detours looping back toward the keeper.) Tj
+T*
+() Tj
+T*
+(GM notes) Tj
+T*
+() Tj
+T*
+(- No dead ends: co-op, market, festival, farms, and official sign all loop back here) Tj
+T*
+(  or forward to the keeper route.) Tj
+T*
+() Tj
+T*
+(GM script) Tj
+T*
+() Tj
+T*
+(Say: "Use this as the hub. From here the party can head to the Co-op, ask locals, visit) Tj
+T*
+(the market or festival, inspect the farms, or follow directions south when) Tj
+T*
+(custodian_route is set.") Tj
+T*
+() Tj
+T*
+(State controls) Tj
+T*
+() Tj
+T*
+(- hush_trust Hush Trust select low neutral high) Tj
+T*
+(- custodian_route Custodian Route select unknown safe dangerous) Tj
+T*
+(- ward_awareness Ward Awareness select none seed aware) Tj
+T*
+(- hush_clues Hush Clues select none custodian_route ward_seed corporate_seam farm_seed) Tj
+T*
+(  market_rumor multiple) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 576601706d77bec2 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [2 0 R] /Count 1 >>
+endobj
+4 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000001727 00000 n 
+0000001853 00000 n 
+0000001910 00000 n 
+0000001959 00000 n 
+trailer
+<< /Size 6 /Root 4 0 R >>
+startxref
+2031
+%%EOF

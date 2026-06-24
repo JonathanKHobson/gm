@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S05-07",
+  "kind": "slide",
+  "title": "S05-07 - Beyond the Contract",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act Five: The Ward Renewal",
+  "hook": "An hour later, back in the treehouse, the Keystone hangs suspended over a rumbling hearth-fire. The Custodian, older now, exhaustion plain in her voice, folds herself into an over-stuffed chair. \"You fought hard. I'm...",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "An hour later, back in the treehouse, the Keystone hangs suspended over a rumbling hearth-fire. The Custodian, older now, exhaustion plain in her voice, folds herself into an over-stuffed chair. \"You fought hard. I'm not surprised. Emeris doesn't send just..."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Wrap your story, decide how you report what happened, and learn what comes next."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:S05-07",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "31cd568fbf93ee61",
+  "generated_at": "2026-06-23T21:40:58"
+}

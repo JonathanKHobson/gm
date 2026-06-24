@@ -1,0 +1,346 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2530 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(Incident Response Placard?) Tj
+T*
+() Tj
+T*
+(Player-facing description) Tj
+T*
+() Tj
+T*
+(A flat brass disc on a post holds a watchful glyph and a single cheerful bell. When) Tj
+T*
+(trouble happens nearby, the glyph lights, the bell rings once, brightly, and then) Tj
+T*
+(nothing else happens at all.) Tj
+T*
+() Tj
+T*
+(Public role) Tj
+T*
+() Tj
+T*
+(Incident Response Placard?, Grail Industries: detects an incident, logs it, and provides) Tj
+T*
+(no help whatsoever.) Tj
+T*
+() Tj
+T*
+(Handout text) Tj
+T*
+() Tj
+T*
+(THE INCIDENT RESPONSE PLACARD: Because Knowing Is Half the Battle. We Do Not Provide the) Tj
+T*
+(Other Half. Detects 9 of 10 incidents. Responds to 0 of 10.) Tj
+T*
+() Tj
+T*
+(GM truth) Tj
+T*
+() Tj
+T*
+(No forced reveal. Let this entity disclose truth through scene context and player) Tj
+T*
+(attention.) Tj
+T*
+() Tj
+T*
+(GM handling) Tj
+T*
+() Tj
+T*
+(Use when the scene needs a concrete object for players to inspect, carry, debate, or) Tj
+T*
+(remember.) Tj
+T*
+() Tj
+T*
+(Mechanics) Tj
+T*
+() Tj
+T*
+(- Title: Discovery / Earn-It Mechanics) Tj
+T*
+(- Player Safe: Players can inspect, handle, keep, trade, reveal, or earn Incident) Tj
+T*
+(  Response Placard? when it is present in the fiction.) Tj
+T*
+(- Gm Only: Use the roll only when the player's method, stakes, and consequence are) Tj
+T*
+(  concrete.) Tj
+T*
+(- No Roll Reveals: Surface read: A flat brass disc on a post holds a watchful glyph) Tj
+T*
+(  and a single cheerful bell. When trouble happens nearby, the glyph lights, the bell) Tj
+T*
+(  rings once, brightly, and then nothing else happens at all. Give obvious visible) Tj
+T*
+(  facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.) Tj
+T*
+(- Rolls: entity-incident-response-placard-engage-incident-response-placard? entity-) Tj
+T*
+(  incident-response-placard Engage Incident Response Placard? Engage Incident Response) Tj
+T*
+(  Placard? Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence) Tj
+T*
+(  12 Choose the trait from the player's method, not the entity type. A flat read of) Tj
+T*
+(  Incident Response Placard? hides the cost, motive, or useful next step. Critical) Tj
+T*
+(  Success: best possible version of the action; gain Hope and clear 1 Stress. Add an) Tj
+T*
+(  extra benefit that follows from the fiction. Success with Hope: the PC gets what) Tj
+T*
+(  they wanted and gains Hope. Keep the position clean or generous. Success with Fear:) Tj
+T*
+(  the PC gets what they wanted, but the GM gains Fear and introduces a cost,) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3023 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  complication, or pressure. Failure with Hope: the PC does not get the full result,) Tj
+T*
+(  but gains Hope and receives a useful thread, clue, or safer next option. Failure) Tj
+T*
+(  with...) Tj
+T*
+(- Fear Spends: Reveal who benefits from the current situation. Make the cost personal) Tj
+T*
+(  without closing off player agency.) Tj
+T*
+(- Condition Options: No official condition unless the item or clue physically creates) Tj
+T*
+(  Hidden, Restrained, or Vulnerable) Tj
+T*
+(- Search Loot: Incident Response Placard?, Grail Industries: detects an incident, logs) Tj
+T*
+(  it, and provides no help whatsoever. Provenance: Mounted at route shrines, gates,) Tj
+T*
+(  and waypoints; portable versions ride with toll crews.) Tj
+T*
+() Tj
+T*
+(Profile) Tj
+T*
+() Tj
+T*
+(- Schema Version: item-profile-v1) Tj
+T*
+(- Id: incident-response-placard) Tj
+T*
+(- Item Id: incident-response-placard) Tj
+T*
+(- Item Name: Incident Response Placard?) Tj
+T*
+(- Name: Incident Response Placard?) Tj
+T*
+(- Aliases: Incident Response Placard route placard incident placard watchful route) Tj
+T*
+(  sign) Tj
+T*
+(- Pronunciation: IN-sih-dent rih-SPONS PLAK-erd) Tj
+T*
+(- Item Kind: utility) Tj
+T*
+(- Tier: Tier 1) Tj
+T*
+(- Priority: P1) Tj
+T*
+(- Mode: AD) Tj
+T*
+(- Maker: Grail Industries) Tj
+T*
+(- Made Or Wild: corporate-made) Tj
+T*
+(- Auto Surface: True) Tj
+T*
+(- Discovered From Art: False) Tj
+T*
+(- Player Safe: Incident Response Placard? A flat brass disc on a post holds a watchful) Tj
+T*
+(  glyph and a single cheerful bell. When trouble happens nearby, the glyph lights, the) Tj
+T*
+(  bell rings once, brightly, and then nothing else happens at all. A flat brass disc) Tj
+T*
+(  on a post holds a watchful glyph and a single cheerful bell. When trouble happens) Tj
+T*
+(  nearby, the glyph lights, the bell rings once, brightly, and then nothing else) Tj
+T*
+(  happens at all. Grail Industries THE INCIDENT RESPONSE PLACARD: Because Knowing Is) Tj
+T*
+(  Half the Battle. We Do Not Provide the Other Half. Detects 9 of 10 incidents.) Tj
+T*
+(  Responds to 0 of 10.) Tj
+T*
+(- Block0: incident-response-placard Incident Response Placard? Incident Response) Tj
+T*
+(  Placard route placard incident placard watchful route sign IN-sih-dent rih-SPONS) Tj
+T*
+(  PLAK-erd utility Tier 1) Tj
+T*
+(- Block1: A flat brass disc on a post holds a watchful glyph and a single cheerful) Tj
+T*
+(  bell. When trouble happens nearby, the glyph lights, the bell rings once, brightly,) Tj
+T*
+(  and then nothing else happens at all. Incident Response Placard?, Grail Industries:) Tj
+T*
+(  detects an incident, logs it, and provides no help whatsoever. Security theater in) Tj
+T*
+(  object form. It tells the table something is wrong while proving the route's) Tj
+T*
+(  protection is mostly paperwork. pages/entities/incident-response-placard.html) Tj
+T*
+(- Block2: Grail Industries corporate-made THE INCIDENT RESPONSE PLACARD: Because) Tj
+T*
+(  Knowing Is Half the Battle. We Do Not Provide the Other Half. Detects 9 of 10) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3405 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  incidents. Responds to 0 of 10. It works perfectly at the least useful part:) Tj
+T*
+(  noticing. The bell rings. The placard glows. Everyone looks at it. It looks back,) Tj
+T*
+(  satisfied.) Tj
+T*
+(- Block3: Narrative cue. It detects nearby trouble, can be read for route data with) Tj
+T*
+(  Knowledge 12, and may ping Grail if tampered with. item #adaptation Story-item) Tj
+T*
+(  grammar: use this as access, leverage, texture, or roleplay benefit; add a) Tj
+T*
+(  mechanical bonus only if the listed effect grants one. Narrative cue. It detects) Tj
+T*
+(  nearby trouble, can be read for route data with Knowledge 12, and may ping Grail if) Tj
+T*
+(  tampered with. The player gains the listed effect, leverage, clue, access,) Tj
+T*
+(  protection, or fictional permission when the item is earned. Use the maker, label,) Tj
+T*
+(  condition, and provenance to say what the item means in the world before explaining) Tj
+T*
+(  what it does. Use when the item is worn, consumed, presented, inspected, traded, or) Tj
+T*
+(  applied in the fiction. If the item is a consumable, it is spent after use. If it is) Tj
+T*
+(  evidence or access, it creates leverage instead of a combat bonus. Give the item) Tj
+T*
+(  freely when...) Tj
+T*
+(- Block4: Emeris Capital Gate Sablewood Route Gate Old Sable Route Sundries Mounted at) Tj
+T*
+(  route shrines, gates, and waypoints; portable versions ride with toll crews. S01-01) Tj
+T*
+(  S01-02 MAP-LOC-sablewood-route-gate MAP-S01-02) Tj
+T*
+(- Block5: Layer 1 - look A watchful brass disc with a bell. Layer 2 - hint It lights) Tj
+T*
+(  and rings but never helps. Layer 3 - truth It detects and bills. It does not rescue.) Tj
+T*
+(  Trigger it once. Read the cheerful ad copy. Knowledge 12 identifies the logging) Tj
+T*
+(  glyph and route record. Show the look first. Reveal name, maker, and effect only) Tj
+T*
+(  when players use it, ask the right person, read the label, or make the listed roll.) Tj
+T*
+(- Block6: A cheerful brass route-glyph placard on a short post, tiny bell, Grail) Tj
+T*
+(  safety ads, sunburst labels, glowing smugly. item wiki card and earned side-card) Tj
+T*
+(  visual Use the Run Mode item card's Show image button when the table sees or earns) Tj
+T*
+(  this item. /Users/kyle/Documents/My Games/Peril To Profit/story-) Tj
+T*
+(  atlas/src/item_images/incident-response-placard/profile_base.png assets/item-) Tj
+T*
+(  images/incident-response-placard/profile_base.png Bright, saturated storybook) Tj
+T*
+(  fantasy product illustration; whimsical frontier-Renaissance materials; clean) Tj
+T*
+(  single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome,) Tj
+T*
+(  no screens, no watermark.) Tj
+T*
+(- Visual Assets: profile_base Item profile image /Users/kyle/Documents/My Games/Peril) Tj
+T*
+(  To Profit/story-atlas/src/item_images/incident-response-placard/profile_base.png) Tj
+T*
+(  assets/item-images/incident-response-placard/profile_base.png ready Incident) Tj
+T*
+(  Response Placard? item illustration. A flat brass disc on a post holds a watchful) Tj
+T*
+(  glyph and a single cheerful bell. When trouble happens nearby, the glyph lights, the) Tj
+T*
+(  bell rings once, brightly, and then nothing else happens at all.) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 6533e297637aa98f | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002591 00000 n 
+0000002717 00000 n 
+0000005792 00000 n 
+0000005918 00000 n 
+0000009375 00000 n 
+0000009501 00000 n 
+0000009570 00000 n 
+0000009619 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+9691
+%%EOF

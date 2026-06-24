@@ -1,0 +1,50 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "action-roll",
+  "title": "Action Roll",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "7722ca3454633ca5",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "Roll when a PC does something uncertain and consequences matter."
+    },
+    {
+      "title": "How it works",
+      "body": "Use for proactive PC action under pressure."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Player states the action in the fiction.",
+        "GM names the trait that best matches the method and the Difficulty.",
+        "Player rolls Hope d12 + Fear d12 and adds trait, Experience, or advantage/disadvantage.",
+        "Compare total to Difficulty, then resolve the Hope/Fear or critical result."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "Give a player Presence 12 to calm a worried animal, then ask what Hope or Fear changes in the scene."
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "duality-dice",
+        "difficulty",
+        "traits"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 7722ca3454633ca5 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

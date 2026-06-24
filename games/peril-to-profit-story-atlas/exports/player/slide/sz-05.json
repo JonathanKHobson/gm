@@ -1,0 +1,42 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "SZ-05",
+  "kind": "slide",
+  "title": "SZ-05 - Character Introductions",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Session Zero",
+  "hook": "Short is good. You can pass and come back.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "Short is good. You can pass and come back."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Short is good. You can pass and come back."
+    },
+    {
+      "label": "Player Bullets",
+      "body": "Name / pronouns Ancestry, community, class, or vibe What do we notice first? Why did you take this job? What is one thing you do when nervous?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Name / pronouns",
+    "Ancestry, community, class, or vibe",
+    "What do we notice first?",
+    "Why did you take this job?"
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:SZ-05",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "49fd4c7918adabba",
+  "generated_at": "2026-06-23T21:40:58"
+}

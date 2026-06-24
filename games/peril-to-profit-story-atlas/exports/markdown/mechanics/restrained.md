@@ -1,0 +1,47 @@
+# Restrained
+
+RAW export - entity:restrained
+
+## Player-facing description
+Restrained: You cannot move, but you can still take actions from your current position.
+
+## Public role
+Official Daggerheart primary condition
+
+## Handout text
+Player-safe note: You cannot move, but you can still take actions from your current position.
+
+## Raw source
+- Type: condition
+- Role: Official Daggerheart primary condition
+- Summary: You cannot move, but you can still take actions from your current position.
+- Tags: condition official mechanics
+- Aliases: Restrained restrained
+- Connections: GM Rules Drawer Official Conditions
+- Inventory: Effect: You cannot move, but you can still take actions from your current position. Clears: A temporary source is cleared with a fitting action roll, a stated feature requirement, or the source ends.
+- Loot: No loot. This page explains how to apply, clear, and describe the official condition.
+- Name: Restrained
+- Id: restrained
+- Meta: Condition CONDITION assets/icons/condition.png entity-condition #d95165 08 Tables and Loot entities condition
+- Related: GM Rules Drawer Official Conditions
+- Image Prompt: Private table TTRPG story atlas asset for Restrained, Condition. Role: Official Daggerheart primary condition. Summary: You cannot move, but you can still take actions from your current position.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: You cannot move, but you can still take actions from your current position.; describe the condition through body, voice, sensation, and what other characters notice.
+- Wants: Make the danger around GM Rules Drawer, Official Conditions urgent without taking away player agency.
+- Fears: Being reduced to a status label when it should change priorities, tactics, and care.
+- Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.
+- Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.
+- Sample Dialogue: You cannot move, but you can still take actions from your current position.
+- Equipment: Effect: You cannot move, but you can still take actions from your current position. Clears: A temporary source is cleared with a fitting action roll, a stated feature requirement, or the source ends.
+- Search Or Loot: No loot. This page explains how to apply, clear, and describe the official condition.
+- Gm Use: Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.
+- Future Hooks: Bring back as an echo if players made a strong choice involving this entity.
+- Robust: Restrained: You cannot move, but you can still take actions from your current position. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Make the danger around GM Rules Drawer, Official Conditions urgent without taking away player agency. Being reduced to a status label when it should change priorities, tactics, and care. Use when the scene needs a concrete object for players to inspect, carry, debate, or remember. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Restrained and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the institutional pattern. Wildborne / community: notices local use, neglect, or ecological stress. Martial /...
+- Mechanics: Condition Mechanics Players can apply, clear, describe, and connect to source scenes Restrained when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: You cannot move, but you can still take actions from your current position. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-restrained-engage-restrained entity-restrained Engage Restrained Engage Restrained Strength Agility Finesse Presence Knowledge Instinct Strength Agility, Finesse, Presence, Knowledge, Instinct 12 Choose the trait from the player's method, not the entity type. A flat read of Restrained hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread...
+- Pronunciation: Restrained
+- Short Pronunciation: Restrained
+- Image: assets/entities/restrained.webp
+- Image Asset Status: fallback_type_icon
+- Visual Gallery: primary Primary wiki image primary assets/entities/restrained.webp Restrained primary wiki image visual. Restrained: Primary wiki image. fallback_type_icon True True
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash ff55e31acf48cdaf | Source hash dac3370046ed077140fab2d6

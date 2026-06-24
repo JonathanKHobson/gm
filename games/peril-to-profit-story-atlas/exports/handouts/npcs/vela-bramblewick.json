@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "vela-bramblewick",
+  "kind": "entity",
+  "title": "Vela Bramblewick",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "a scout who would rather carry a warning than a blade",
+  "hook": "a scout who would rather carry a warning than a blade",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "A wiry Bramble scout peers from a thorn-woven hood, jaw clenched, blue charm bright against layered leaf armor and stolen road scraps."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "Quick, anxious, and proud of being trusted with eyes instead of a weapon. Clicks a green stone against her teeth when she thinks. Wants the camp to keep listening to her more than she wants this fight to happen."
+    },
+    {
+      "label": "Might Offer",
+      "body": "Parley path Capture/mercy branch Evidence that the road conflict is bigger than banditry"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Parley path",
+    "Capture/mercy branch",
+    "Evidence that the road conflict is bigger than banditry"
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:vela-bramblewick",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "a9b2254181b5c119",
+  "generated_at": "2026-06-23T21:40:58"
+}

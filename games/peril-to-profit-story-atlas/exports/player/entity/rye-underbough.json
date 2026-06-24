@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "rye-underbough",
+  "kind": "entity",
+  "title": "Rye Underbough",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "a broad shoulder the camp's children hide behind",
+  "hook": "a broad shoulder the camp's children hide behind",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "A broad hooded Bramble defender stands under a patched moss cloak, green charm at the throat and a face weathered into stubborn protection."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "Gentle in a way that armors itself as stubbornness. Ends arguments by shouldering the heavy task himself. The camp's children call him Uncle Rye whether or not they are kin, and he would die before he let that stop being true."
+    },
+    {
+      "label": "Might Offer",
+      "body": "Parley path Capture/mercy branch Evidence that the road conflict is bigger than banditry"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Parley path",
+    "Capture/mercy branch",
+    "Evidence that the road conflict is bigger than banditry"
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:rye-underbough",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "83a0f8fe49beb96f",
+  "generated_at": "2026-06-23T21:40:58"
+}

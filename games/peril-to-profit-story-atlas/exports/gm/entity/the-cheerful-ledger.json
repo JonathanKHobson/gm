@@ -1,0 +1,78 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "the-cheerful-ledger",
+  "title": "The Cheerful Ledger",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "0e81bb59299a2ff8",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "The Cheerful Ledger: The village books are kept in a bright, hopeful hand — and every column drains outward: tithes, fees, levies, subscriptions, all flowing to the corporations. Almost nothing stays."
+    },
+    {
+      "title": "Public role",
+      "body": "Clue / evidence"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: The village books are kept in a bright, hopeful hand — and every column drains outward: tithes, fees, levies, subscriptions, all flowing to the corporations. Almost nothing stays."
+    },
+    {
+      "title": "GM truth",
+      "body": "Use this element to reveal the cost of managed protection through concrete play."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use when players need a tangible handle on the scene's pressure."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Discovery / Earn-It Mechanics",
+        "Player Safe: Players can inspect, handle, keep, trade, reveal, or earn The Cheerful Ledger when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: The village books are kept in a bright, hopeful hand — and every column drains outward: tithes, fees, levies, subscriptions, all flowing to the corporations. Almost nothing stays. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-the-cheerful-ledger-engage-the-cheerful-ledger entity-the-cheerful-ledger Engage The Cheerful Ledger Engage The Cheerful Ledger Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of The Cheerful Ledger hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Condition Options: No official condition unless the item or clue physically creates Hidden, Restrained, or Vulnerable",
+        "Search Loot: Player-safe note: The village books are kept in a bright, hopeful hand — and every column drains outward: tithes, fees, levies, subscriptions, all flowing to the corporations. Almost nothing stays."
+      ]
+    },
+    {
+      "title": "Profile",
+      "items": [
+        "Schema Version: clue-profile-v1",
+        "Id: the-cheerful-ledger",
+        "Clue Id: the-cheerful-ledger",
+        "Clue Name: The Cheerful Ledger",
+        "Name: The Cheerful Ledger",
+        "Pronunciation: the CHEER-ful LEJ-er",
+        "Clue Kind: document",
+        "Trademark: ™",
+        "Auto Surface: True",
+        "Atlas Lore Note: [Atlas lore - confirm or override]",
+        "Player Safe: The Cheerful Ledger The village books are kept in a bright, hopeful hand — and every column drains outward: tithes, fees, levies, subscriptions, all flowing to the corporations. Almost nothing stays. The village books are kept in a bright, hopeful hand — and every column drains outward: tithes, fees, levies, subscriptions, all flowing to the corporations. Almost nothing stays. The village books are kept in a bright, hopeful hand — and every column drains outward: tithes, fees, levies, subscriptions, all flowing to the corporations. Almost nothing stays.",
+        "Block0: the-cheerful-ledger The Cheerful Ledger the CHEER-ful LEJ-er document ™",
+        "Block1: all of Hush's labor and coin is siphoned away; the smiles sit on top of a grim balance sheet. HIDDEN Hush's Hidden Struggle hush-hidden-struggle Keeps Hush warm while making the cost of protection concrete. pages/entities/the-cheerful-ledger.html pages/clues/hush-hidden-struggle.html",
+        "Block2: The village books are kept in a bright, hopeful hand — and every column drains outward: tithes, fees, levies, subscriptions, all flowing to the corporations. Almost nothing stays. all of Hush's labor and coin is siphoned away; the smiles sit on top of a grim balance sheet.",
+        "Block3: \"the books are cheerful but the totals are bleak.\" \"everything they earn flows straight out.\" You have enough GM-only proof that Hush's labor and coin leave the village almost as fast as they arrive. You have enough GM-only proof that Hush's labor and coin leave the village almost as fast as they arrive.",
+        "Block4: The Ward Subscription The Drained Water the-ward-subscription the-drained-water",
+        "Block5: S04-03 S04-04 Hush The Clover Co-op Clover Co-op Knowledge 12 to read the ledger. clues/Hush_Hidden_Struggle.md",
+        "Block6: HIDDEN Use this clue to support Hush's Hidden Struggle: all of Hush's labor and coin is siphoned away; the smiles sit on top of a grim balance sheet. whisper True",
+        "Block7: ™ Bright dystopian corporate optimism; use ™ only on branded documents, placards, contracts, and paid-protection artifacts.",
+        "Block8: Bright, saturated storybook evidence illustration; clear hero shot of the actual clue object or scene detail; whimsical frontier-Renaissance materials; warm light; bright dystopian corporate satire when branded; no gore, no UI, no watermark, no repeated icon. Depict: a brightly-kept ledger whose every line flows outward to corporate logos. clue wiki card and Player Display evidence visual Send the image and SHOW text only. Keep TELL, points_to, and blunt ladder rungs GM-only until earned. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/the-cheerful-ledger/profile_base.png assets/clue-images/the-cheerful-ledger/profile_base.webp Bright, saturated storybook evidence illustration; clear hero shot of the actual clue object or scene detail; whimsical frontier-Renaissance materials; warm light; bright dystopian corporate satire when branded; no gore, no UI, no...",
+        "Block9: Official Daggerheart action roll using Duality Dice, Hope, Fear, and Difficulty; P2P Roll Slider is the table-facing result ladder. Agility move, climb, dodge, reach a better angle, or read evidence while moving Strength lift, hold, force, carry, break, or test weight and pressure Finesse handle, hide, tinker, compare, pick apart, or notice precise detail Instinct perceive, smell, listen, track, read danger, or sense body language Presence charm, soothe, press, lead, deceive, perform, or read a social response Knowledge recall, analyze, investigate, reason from lore, or understand systems Finesse D14 Knowledge D14 Presence D14 If the clue is plainly visible, give the SHOW text freely first: The village books are kept in a bright, hopeful hand — and every column drains outward: tithes, fees, levies, subscriptions, all flowing to the corporations. Almost nothing stays. Use the listed...",
+        "Mechanicids: duality-dice hope fear difficulty roll-slider clue-discovery",
+        "Visual Assets: profile_base Clue evidence image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/the-cheerful-ledger/profile_base.png assets/clue-images/the-cheerful-ledger/profile_base.webp ready The Cheerful Ledger clue image. The village books are kept in a bright, hopeful hand — and every column drains outward: tithes, fees, levies, subscriptions, all flowing to the corporations. Almost nothing stays."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 0e81bb59299a2ff8 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

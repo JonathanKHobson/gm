@@ -1,0 +1,52 @@
+# Ember Lake
+
+GM export - entity:ember-lake
+
+## Player-facing description
+Ember Lake steams under cool canopy air, a hot spring mirror that suggests something older is still working below Sablewood.
+
+## Public role
+Make the hot spring beautiful, useful, and slightly troubling.
+
+## Handout text
+A hot spring lake that points toward buried divine industry and gives Sablewood a heat source older than any concession.
+
+## GM truth
+No forced reveal. Let this entity disclose truth through scene context and player attention.
+
+## GM handling
+Introduce with sensory texture, then make one discoverable clue or social choice visible.
+
+## Mechanics
+- Title: Location Exploration Mechanics
+- Player Safe: Players can navigate, search, read customs, inspect hazards Ember Lake when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: A hot spring lake that points toward buried divine industry and gives Sablewood a heat source older than any concession. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-ember-lake-engage-ember-lake entity-ember-lake Engage Ember Lake Engage Ember Lake Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of Ember Lake hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. A...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless a hazard creates Hidden, Restrained, or Vulnerable
+- Search Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+
+## Profile
+- Schema Version: location-profile-v1
+- Id: ember-lake
+- Entity Id: ember-lake
+- Source: Story Atlas generated location notes
+- Auto Surface: True
+- Priority: strong
+- Player Safe: Ember Lake A hot spring lake that points toward buried divine industry and gives Sablewood a heat source older than any concession. A hot spring lake that points toward buried divine industry and gives Sablewood a heat source older than any concession. Ember Lake steams under cool canopy air, a hot spring mirror that suggests something older is still working below Sablewood. Ember Lake is a quiet contradiction: water glowing like banked coals, warm shallows, black stones, steam curls, and boats that look too small for the light beneath them. The place breaks into usable table spaces: Warm shallows: The lake glows under clear water. Black-stone shore: Dark rocks hold heat after sunset. Boat landing: Small boats and heat charms mark practical use. Plants and materials: steam reeds, ember algae, black-shore moss. Animals and background life: warm-water fish, ember flies, shore lizards...
+- Block1: Ember Lake Make the hot spring beautiful, useful, and slightly troubling. A hot spring lake that points toward buried divine industry and gives Sablewood a heat source older than any concession. Ember Lake hints that Sablewood's wonder has industrial and divine layers. The heat comes from something old and buried. A curious party can learn that Sablewood's wonders were made, not found. Ember Lake hints that Sablewood's wonder has industrial and divine layers. The warmth draws people who would rather not be seen. Who else is resting on the far shore tonight? pages/entities/ember-lake.html
+- Block2: Warm mist hangs above dark water. Orange light moves under the surface like banked coals. Stones near the edge are arranged for safe approach, not worship. The heat pulses in slow intervals that do not match weather. Detail Sulfur, wet stone, mineral steam, and sweet lake reeds. Detail Shore rocks are slick and warm; steam beads on skin like fever sweat. Ember Lake steams under cool canopy air, a hot spring mirror that suggests something older is still working below Sablewood. Ember Lake is a quiet contradiction: water glowing like banked coals, warm shallows, black stones, steam curls, and boats that look too small for the light beneath them. The place breaks into usable table spaces: Warm shallows: The lake glows under clear water. Black-stone shore: Dark rocks hold heat after sunset. Boat landing: Small boats and heat charms mark practical use. Plants and materials: steam reeds...
+- Block3: warm shore stones steam vents reed beds subsurface glow Instinct to read safe stones and steam changes. Knowledge to connect heat to buried infrastructure. Finesse to collect water or ash without injury. Local residents or workers appropriate to the place warm-water fish, ember flies, shore lizards, night birds hunting over steam No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues steam reeds, ember algae, black-shore moss boat crossing warm fish heated stones lake-route lore
+- Block4: The place changes even if the PCs stand still. Local people, creatures, weather, signage, and ward behavior all keep moving around the scene. Heat can hide depth and unstable stone. Old divine industry can distract from current stakes. Steam reduces sight and makes sound close. The lake surface flashes with a ward symbol. Steam briefly smells like hot paperwork and old blood. Let the place be funny through overconfident signage, awkward forms, stubborn local habits, and magic that refuses corporate language.
+- Block5: MAP-LOC-ember-lake
+- Block6: Describe what the PCs can see, smell, hear, touch, ask about, or infer. Do not explain hidden infrastructure or corporate thesis until play earns it. surface A hot spring lake that points toward buried divine industry and gives Sablewood a heat source older than any concession. table clue Ember Lake hints that Sablewood's wonder has industrial and divine layers. earned truth Reveal deeper system meaning through NPC answers, evidence, or player questions, not narration dumps.
+- What Here: Local residents or workers appropriate to the place warm-water fish, ember flies, shore lizards, night birds hunting over steam No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues steam reeds, ember algae, black-shore moss boat crossing warm fish heated stones lake-route lore
+- Living Place: location-living-place-v1 warm magical lake Ember Lake is a quiet contradiction: water glowing like banked coals, warm shallows, black stones, steam curls, and boats that look too small for the light beneath them. Warm shallows The lake glows under clear water. Use for wonder. Black-stone shore Dark rocks hold heat after sunset. Use for tactile detail. Boat landing Small boats and heat charms mark practical use. Use for travel. steam reeds, ember algae, black-shore moss warm-water fish, ember flies, shore lizards, night birds hunting over steam heat shimmer over water, coal-red glow, steam curls, warm stones Warm vents feed algae, algae feed fish, fish draw birds, and locals read lake heat like weather. Steam should reveal and conceal the lake in slow breaths. Do you test the water, inspect the stones, talk to boat handlers, follow the glow, or watch what avoids the warmest shallows?...
+- Districts Or Subareas: Warm shallows The lake glows under clear water. Use for wonder. Black-stone shore Dark rocks hold heat after sunset. Use for tactile detail. Boat landing Small boats and heat charms mark practical use. Use for travel.
+- Sensory Signature: Detail Sulfur, wet stone, mineral steam, and sweet lake reeds. Detail Shore rocks are slick and warm; steam beads on skin like fever sweat.
+- Visual Assets: location-visual-assets-v1 ember-lake Ember Lake Bright comedic frontier high-fantasy concept art for a Daggerheart-adjacent tabletop RPG. Medieval/Renaissance fantasy technology only: hand tools, wagons, ropes, parchment notices, ward-stones, carved wood, brass, cloth, stone, moss, lanterns, and magic. The tone is colorful, playful, slightly absurd, and vivid, like a fantasy corporate frontier comedy rather than a grim drama. No sci-fi machinery, no 1800s/Victorian clothing, no modern suits, no guns, no logos, no readable text, no watermark, no border, no collage. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/ember-lake MAP-LOC-ember-lake magical lake lake shore route map profile_scene Profile image ready /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/ember-lake/profile_scene_v02.png...
+- Imagine It Like: A natural hot spring swimming hole on a freezing night. Icelandic lagoon, campground sauna, and lakeside fishing spot all in one, with the planet itself keeping the water warm.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash d21bb00f90e72258 | Source hash dac3370046ed077140fab2d6

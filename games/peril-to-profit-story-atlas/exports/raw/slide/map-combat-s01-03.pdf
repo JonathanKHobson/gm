@@ -1,0 +1,486 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2822 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-COMBAT-S01-03 - Creature Mercy / Defensive Escalation Battlefield) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The road tightens around the wreck. The creature plants herself between you and the) Tj
+T*
+(young, wings half-open, claws in the mud. The cart, the ditch, and the low branches turn) Tj
+T*
+(the bend into a narrow standoff.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(The road tightens around the wreck. The creature plants herself between you and the) Tj
+T*
+(young, wings half-open, claws in the mud. The cart, the ditch, and the low branches turn) Tj
+T*
+(the bend into a narrow standoff.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-COMBAT-S01-03) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: battlefield) Tj
+T*
+(- Sectionid: ACT-ONE) Tj
+T*
+(- Sectiontitle: Act One: The Logistics Incident) Tj
+T*
+(- Title: Creature Mercy / Defensive Escalation Battlefield) Tj
+T*
+(- Shorttitle: The Defensive Standoff) Tj
+T*
+(- Order: 202.08) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-COMBAT-S01-03-gm.png) Tj
+T*
+(- Alt: Strixwolf Mercy / Defensive Escalation battlefield map board.) Tj
+T*
+(- Caption: Battlefield operating board for Strixwolf Mercy / Defensive Escalation.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Use this only if the encounter turns physical. Make the combat board a) Tj
+T*
+(  recoverable failure state where restraint can still win.) Tj
+T*
+(- Publicobjective: The road tightens around the wreck. The creature plants herself) Tj
+T*
+(  between you and the young, wings half-open, claws in the mud. The cart, the ditch,) Tj
+T*
+(  and the low branches turn the bend into a narrow standoff.) Tj
+T*
+(- Readaloud: The road tightens around the wreck. The creature plants herself between) Tj
+T*
+(  you and the young, wings half-open, claws in the mud. The cart, the ditch, and the) Tj
+T*
+(  low branches turn the bend into a narrow standoff.) Tj
+T*
+(- Gmnotes: The creature defends and flees. She does not fight to the death unless the) Tj
+T*
+(  table hard-commits to killing a fleeing mother. Winning does not mean killing her.) Tj
+T*
+(  Winning means road cleared and no one made the world worse.) Tj
+T*
+(- Gmscript: Say: "This is not a monster hunt. This is a defensive standoff. Every) Tj
+T*
+(  turn, you can escalate by threatening her or the young, or de-escalate by creating) Tj
+T*
+(  space, lowering weapons, opening the pups' escape route, or calming her.") Tj
+T*
+(- Gmreadaloud: The creature plants herself between you and the young, wings half-open) Tj
+T*
+(  and claws in the mud. The cart, the ditch, and the low branches turn the bend into a) Tj
+T*
+(  narrow standoff.) Tj
+T*
+(- Gmchecklist: Start with disposition at wary unless the party already attacked. Offer) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3935 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  a mercy route every round. Use Fear to increase pressure, not to force a kill-box.) Tj
+T*
+(  End the fight when she flees with the young or calms enough to leave.) Tj
+T*
+(- Gmprivate: The right outcome is that nobody dies: no PC, no pup, not the mother.) Tj
+T*
+(  Killing her quietly strengthens the false corporate story that the forest itself is) Tj
+T*
+(  the danger.) Tj
+T*
+(- Playertakeaway: The road tightens around the wreck. The creature plants herself) Tj
+T*
+(  between you and the young, wings half-open, claws in the mud. The cart, the ditch,) Tj
+T*
+(  and the low branches turn the bend into a narrow standoff.) Tj
+T*
+(- Storytakeaway: The fight is a consequence of fear; the clean win is still making) Tj
+T*
+(  space for the mother and young to leave.) Tj
+T*
+(- Mechanictakeaway: Use normal action rolls, adversary attacks, Stress, and Fear, but) Tj
+T*
+(  keep a de-escalation route available every round.) Tj
+T*
+(- Entityids: strixwolf-mother strixwolf-pup-one strixwolf-pup-two vendor-cart) Tj
+T*
+(  sablewood-hybrid-fauna strixwolf lemur-toads) Tj
+T*
+(- Entities: strixwolf-mother Strixwolf Mother creature Creature / Animal) Tj
+T*
+(  assets/icons/creature.png assets/npc-images/strixwolf-mother/portrait_base.png) Tj
+T*
+(  STRIKS-woolf MUTH-er A huge owl-wolf mother crouched around her pups, barred) Tj
+T*
+(  feathers and fur bristling, acting from protection rather than malice. False-monster) Tj
+T*
+(  moral encounter. Strixwolf Mother a huge owl-faced wolf mother guarding her pups) Tj
+T*
+(  near the wreck Not cruel and not hungry for a fight, just a cornered parent doing) Tj
+T*
+(  math no one taught her, weighing every armed stranger against two small clicking) Tj
+T*
+(  shapes under her wing. She will let you walk away. She will not let you walk closer.) Tj
+T*
+(  Keep the pups fed and far from armed strangers. She does not speak; she lowers her) Tj
+T*
+(  wings over the pups and tracks hands, not faces. a huge owl-faced wolf mother) Tj
+T*
+(  guarding her pups near the wreck npc-profile-v1 NPC_System_Packet + image-informed) Tj
+T*
+(  hardening True Strixwolf Mother a huge owl-faced wolf mother guarding her pups near) Tj
+T*
+(  the wreck A huge owl-wolf mother crouches around her pups, barred feathers and fur) Tj
+T*
+(  bristling, amber eyes fixed on any hand that comes too close. Strixwolf Mother: a) Tj
+T*
+(  huge owl-faced wolf mother guarding her pups near the wreck Strixwolf...) Tj
+T*
+(- Statecontrols: strixwolfDisposition Creature disposition select calm wary defensive) Tj
+T*
+(  fleeing Move one step toward calm for restraint, one step toward defensive for) Tj
+T*
+(  threats.) Tj
+T*
+(- Mechanicids: action-roll adversary-attacks presence hope fear stress damage-) Tj
+T*
+(  thresholds) Tj
+T*
+(- Fearspends: She hoot-howls, implying another creature may be close without) Tj
+T*
+(  guaranteeing one appears. A pup bolts under the cart, forcing a choice between) Tj
+T*
+(  pursuit and restraint. A horse panics and shifts the carriage into a worse position.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S01-03) Tj
+T*
+(- Mapdata: MAP-COMBAT-S01-03 battlefield Creature Mercy / Defensive Escalation) Tj
+T*
+(  Battlefield S01-03 assets/scenes/S01-03-the-strixwolf-mother.png Battlefield) Tj
+T*
+(  operating board for Strixwolf Mercy / Defensive Escalation. Strixwolf Mercy /) Tj
+T*
+(  Defensive Escalation battlefield map board. The road tightens around the wreck. The) Tj
+T*
+(  creature plants herself between you and the young, wings half-open, claws in the) Tj
+T*
+(  mud. The cart, the ditch, and the low branches turn the bend into a narrow standoff.) Tj
+T*
+(  The road tightens around the wreck. The creature plants herself between you and the) Tj
+T*
+(  young, wings half-open, claws in the mud. The cart, the ditch, and the low branches) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4249 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  turn the bend into a narrow standoff. The creature defends and flees. She does not) Tj
+T*
+(  fight to the death unless the table hard-commits to killing a fleeing mother.) Tj
+T*
+(  Winning does not mean killing her. Winning means road cleared and no one made the) Tj
+T*
+(  world worse. The same blocked bend has become a tense defensive standoff. The mother) Tj
+T*
+(  is between the party and the cleared road; the pups shelter behind her. Every round) Tj
+T*
+(  of aggression escalates, and every round of restraint de-escalates. True Treat this) Tj
+T*
+(  as a defensive standoff, not a monster hunt. The mother...) Tj
+T*
+(- Sourcefiles: Act1_Upgrade_Packet/ACT1_MAPS_AND_COMBAT.md) Tj
+T*
+(  Act1_Upgrade_Packet/ACT1_PER_CHARACTER.md) Tj
+T*
+(  Goldspire_Location_Packet/02_The_Vendor_Cart.md) Tj
+T*
+(- References: Scene S01-03 #S01-03 First roll S01-04 #S01-04 Vendor Cart source) Tj
+T*
+(  sources/Goldspire_Location_Packet/02_The_Vendor_Cart.md) Tj
+T*
+(- Livetools: encounter S01-03 MAP-COMBAT-S01-03 pages/combat/s01-03.html) Tj
+T*
+(- Percharacterlayer: varian-soto Varian Soto Animal body language Reads her instantly:) Tj
+T*
+(  defensive, not predatory; all posture points back to the young. Instinct 12 She is) Tj
+T*
+(  underfed and far from her usual range, as if something has pushed animals out of) Tj
+T*
+(  place. Can calm her with scent and posture before violence starts. Varian, you read) Tj
+T*
+(  animals like sentences. She's terrified for her young, not hunting you. Want to act) Tj
+T*
+(  on that? khari-nix Khari Nix Guardian protection Recognizes a parent guarding young) Tj
+T*
+(  and instinctively wants to give the pups room. Can become a living buffer with open) Tj
+T*
+(  hands, de-escalating rather than provoking. Khari, you can be the wall that makes) Tj
+T*
+(  everyone feel safe enough to calm down. Want to step between, hands open? garrick-) Tj
+T*
+(  reed Garrick Reed De-escalating the crew Reads this as a tense standoff to defuse,) Tj
+T*
+(  not a fight to win. Can talk the party down if a trigger-happy ally becomes the) Tj
+T*
+(  bigger danger. Garrick, you have calmed tense standoffs before. The risk here might) Tj
+T*
+(  be your own crew. Want to keep everyone's hands down? barnacle Barnacle Quiet escape) Tj
+T*
+(  route Already sees the fastest way around her without making himself the center of) Tj
+T*
+(  attention. Can slip wide to open the pups' escape...) Tj
+T*
+(- Gmbeats: MAP-COMBAT-S01-03-frame Frame Frame defensive escalation Say: "She is) Tj
+T*
+(  defending space, not hunting you. Mercy is still a live win condition." This is a) Tj
+T*
+(  defensive standoff. Mercy is still a live win condition. The encounter remains about) Tj
+T*
+(  fear, young animals, and space. Disposition matters alongside HP: calm, wary,) Tj
+T*
+(  defensive, or fleeing. Players know combat does not erase the nonviolent solution.) Tj
+T*
+(  Player takeaway Players know combat does not erase the nonviolent solution. "She is) Tj
+T*
+(  defending space, not hunting you. Mercy is still a live win condition." "The) Tj
+T*
+(  playable facts are: This is a defensive standoff. Mercy is still a live win) Tj
+T*
+(  condition. You can respond to one of those facts directly, ask a question about it,) Tj
+T*
+(  or invite another PC into the moment." Active GM line: Say: "She is defending space,) Tj
+T*
+(  not hunting you. Mercy is still a live win condition." Player-facing display text:) Tj
+T*
+(  This is a defensive standoff. Mercy is still a live win condition. roleplay presence) Tj
+T*
+(  damage-thresholds Story takeaway The encounter remains about fear, young animals,) Tj
+T*
+(  and space. "She is defending space, not hunting you. Mercy is still a live win) Tj
+T*
+(  condition." "What this changes in the fiction is: The...) Tj
+T*
+(- Takeawayhelp: Player takeaway This is a defensive standoff, and nonviolent choices) Tj
+T*
+(  still count as winning. "You can win this by making space, calming her, or opening) Tj
+T*
+(  the pups' escape route. Killing is not the only verb on the table." "On your turn) Tj
+T*
+(  you can attack, protect, calm, help an ally, move the pups' escape route open, or) Tj
+T*
+(  back away slowly." Make the mercy path mechanically real: if a player lowers threat) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 3837 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  or creates safety, move disposition one step toward calm. roleplay presence help-an-) Tj
+T*
+(  ally Story takeaway The fight is a consequence of fear; the clean win is still) Tj
+T*
+(  making space for the mother and young to leave. "The fight started because fear got) Tj
+T*
+(  loud. It can end the moment safety becomes believable again." "She is not fighting) Tj
+T*
+(  to die. She is fighting to get the young out. If you make that possible, she) Tj
+T*
+(  leaves." Let the result create tone rather than a lecture. Mercy creates a warning) Tj
+T*
+(  and a cleaner road; cruelty creates silence and later distrust. table-spotlight) Tj
+T*
+(  Mechanic takeaway Use normal action rolls, adversary attacks, Stress, and Fear, but) Tj
+T*
+(  keep a de-escalation route available every round. "If you act under risk, we roll.) Tj
+T*
+(  If she attacks, I use her adversary action. If Fear spikes...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-COMBAT-S01-03-player.png The Defensive Standoff map) Tj
+T*
+(  board. MAP-COMBAT-S01-03 battlefield The Defensive Standoff S01-03 assets/maps/MAP-) Tj
+T*
+(  COMBAT-S01-03-player.png assets/maps/MAP-COMBAT-S01-03-player.png The Defensive) Tj
+T*
+(  Standoff map board. The road tightens around the wreck. The creature plants herself) Tj
+T*
+(  between you and the young, wings half-open, claws in the mud. The cart, the ditch,) Tj
+T*
+(  and the low branches turn the bend into a narrow standoff. The road tightens around) Tj
+T*
+(  the wreck. The creature plants herself between you and the young, wings half-open,) Tj
+T*
+(  claws in the mud. The cart, the ditch, and the low branches turn the bend into a) Tj
+T*
+(  narrow standoff. MAP-COMBAT-S01-03-map-only Map only The Defensive Standoff map-only) Tj
+T*
+(  assets/maps/MAP-COMBAT-S01-03-player.png The Defensive Standoff map board. MAP-) Tj
+T*
+(  COMBAT-S01-03 battlefield The Defensive Standoff S01-03 assets/maps/MAP-) Tj
+T*
+(  COMBAT-S01-03-player.png assets/maps/MAP-COMBAT-S01-03-player.png The Defensive) Tj
+T*
+(  Standoff map board. The road tightens around the wreck. The creature plants herself) Tj
+T*
+(  between you and the young, wings half-open, claws in the mud. The cart, the ditch,) Tj
+T*
+(  and the low branches turn the bend into a narrow standoff. The road...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-COMBAT-S01-03 map The Defensive Standoff assets/maps/MAP-) Tj
+T*
+(  COMBAT-S01-03-player.png The Defensive Standoff map board. spatial reference and) Tj
+T*
+(  location texture The road tightens around the wreck. The creature plants herself) Tj
+T*
+(  between you and the young, wings half-open, claws in the mud. The cart, the ditch,) Tj
+T*
+(  and the low branches turn the bend into a narrow standoff. The road tightens around) Tj
+T*
+(  the wreck. The creature plants herself between you and the young, wings half-open,) Tj
+T*
+(  claws in the mud. The cart, the ditch, and the low branches turn the bend into a) Tj
+T*
+(  narrow standoff. MAP-COMBAT-S01-03 battlefield The Defensive Standoff S01-03) Tj
+T*
+(  assets/maps/MAP-COMBAT-S01-03-player.png assets/maps/MAP-COMBAT-S01-03-player.png) Tj
+T*
+(  The Defensive Standoff map board. The road tightens around the wreck. The creature) Tj
+T*
+(  plants herself between you and the young, wings half-open, claws in the mud. The) Tj
+T*
+(  cart, the ditch, and the low branches turn the bend into a narrow standoff. The road) Tj
+T*
+(  tightens around the wreck. The creature plants herself between you and the young,) Tj
+T*
+(  wings half-open, claws in the mud. The cart, the ditch, and the low branches turn) Tj
+T*
+(  the bend into a narrow standoff...) Tj
+T*
+(- Slidenumber: 29) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 153 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(Build 2026-06-23T21:40:58 | Content hash 5036b08aea957915 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R] /Count 5 >>
+endobj
+12 0 obj
+<< /Type /Catalog /Pages 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000009 00000 n 
+0000002883 00000 n 
+0000003011 00000 n 
+0000006998 00000 n 
+0000007126 00000 n 
+0000011427 00000 n 
+0000011555 00000 n 
+0000015444 00000 n 
+0000015572 00000 n 
+0000015776 00000 n 
+0000015905 00000 n 
+0000015988 00000 n 
+0000016039 00000 n 
+trailer
+<< /Size 14 /Root 12 0 R >>
+startxref
+16112
+%%EOF

@@ -1,0 +1,316 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2588 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-emeris-capital - Emeris Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(A walled city of honey-colored stone on the very lip of the great forest, where the last) Tj
+T*
+(paved road in the world meets the first wild tree.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(A walled city of honey-colored stone on the very lip of the great forest, where the last) Tj
+T*
+(paved road in the world meets the first wild tree.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-emeris-capital) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: STORY) Tj
+T*
+(- Sectiontitle: Map Board) Tj
+T*
+(- Title: Emeris Location Map) Tj
+T*
+(- Shorttitle: Emeris) Tj
+T*
+(- Order: 850.2) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-emeris-capital-gm.png) Tj
+T*
+(- Alt: Emeris location map board.) Tj
+T*
+(- Caption: Visual reference for Emeris.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Use this environment board to orient space, table questions, and safe) Tj
+T*
+(  reveals.) Tj
+T*
+(- Publicobjective: A walled city of honey-colored stone on the very lip of the great) Tj
+T*
+(  forest, where the last paved road in the world meets the first wild tree.) Tj
+T*
+(- Readaloud: A walled city of honey-colored stone on the very lip of the great forest,) Tj
+T*
+(  where the last paved road in the world meets the first wild tree.) Tj
+T*
+(- Playertakeaway: A walled city of honey-colored stone on the very lip of the great) Tj
+T*
+(  forest, where the last paved road in the world meets the first wild tree.) Tj
+T*
+(- Storytakeaway: Visual reference for Emeris.) Tj
+T*
+(- Mechanictakeaway: Use the map as visual reference unless the scene is explicitly in) Tj
+T*
+(  combat.) Tj
+T*
+(- Entityids: emeris-capital) Tj
+T*
+(- Entities: emeris-capital Emeris location Location assets/icons/location.png) Tj
+T*
+(  assets/location-visuals/emeris-capital/profile_scene_v02.png EM-er-iss A walled city) Tj
+T*
+(  of honey-colored stone on the very lip of the great forest, where the last paved) Tj
+T*
+(  road in the world meets the first wild tree. Emeris is the dispatch point, territory) Tj
+T*
+(  capital, and Sablewood-edge start city. It is safe and prosperous at the start; keep) Tj
+T*
+(  active ward crisis language in Hush scenes. Warm walls, route stalls, wax seals,) Tj
+T*
+(  oiled leather, gate bells, bread steam, and a forest smell pushing over the western) Tj
+T*
+(  wall. Emeris wants the road to feel profitable, knowable, and safe enough that) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4221 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  couriers keep leaving at dawn. Honey-stone walls, courier bells, fried dough, and a) Tj
+T*
+(  green forest waiting past the western gate.) Tj
+T*
+(- Locationids: emeris-capital) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Mapdata: MAP-LOC-emeris-capital environment Emeris Location Map emeris-capital) Tj
+T*
+(  assets/location-visuals/emeris-capital/profile_scene_v02.png Visual reference for) Tj
+T*
+(  Emeris. Emeris location map board. A walled city of honey-colored stone on the very) Tj
+T*
+(  lip of the great forest, where the last paved road in the world meets the first wild) Tj
+T*
+(  tree. Visual reference for Emeris. Leaf-drip, insects, distant wingbeats, and animal) Tj
+T*
+(  calls that stop or resume according to pressure, not comfort. Rain on leaves, sap,) Tj
+T*
+(  mushroom loam, wet bark, and the musk of unseen animals. Bark is damp and ridged;) Tj
+T*
+(  mud alternates between springy moss and slick clay. The forest is populated even) Tj
+T*
+(  when no NPC is present; silence, birds, insects, and tracks are actionable signals.) Tj
+T*
+(  Sight Visual reference for Emeris. Sound Leaf-drip, insects, distant wingbeats, and) Tj
+T*
+(  animal calls that stop or resume according to pressure, not comfort. Smell Rain on) Tj
+T*
+(  leaves, sap, mushroom loam, wet bark, and the musk of unseen animals. Texture / air) Tj
+T*
+(  Bark is damp and ridged; mud alternates between springy moss and slick clay.) Tj
+T*
+(  Background life The forest is populated even when no NPC is present; silence, birds,) Tj
+T*
+(  insects, and tracks are actionable signals...) Tj
+T*
+(- Livetools: scene MAP-LOC-emeris-capital) Tj
+T*
+(- Takeawayhelp: Player takeaway: MAP-LOC-emeris-capital A walled city of honey-colored) Tj
+T*
+(  stone on the very lip of the great forest, where the last paved road in the world) Tj
+T*
+(  meets the first wild tree. Give the player one concrete way back into play: a) Tj
+T*
+(  question, a description, a choice, or a pass-and-return moment. "Your takeaway right) Tj
+T*
+(  now is this: A walled city of honey-colored stone on the very lip of the great) Tj
+T*
+(  forest, where the last paved road in the world meets the first wild tree." "If you) Tj
+T*
+(  are not sure what to do next, you can ask a question, describe what your character) Tj
+T*
+(  notices, or tell me what your character tries." "If you are not sure what to do) Tj
+T*
+(  next, you can ask a question, describe what your character notices, or tell me what) Tj
+T*
+(  your character tries." Give the player one concrete way back into play: a question,) Tj
+T*
+(  a description, a choice, or a pass-and-return moment. Story takeaway: MAP-LOC-) Tj
+T*
+(  emeris-capital Visual reference for Emeris. Anchor the answer in the visible fiction) Tj
+T*
+(  on this slide: who is present, what can be observed, what has already been said, and) Tj
+T*
+(  what remains uncertain. "Here is what your characters know right now: Visual) Tj
+T*
+(  reference for Emeris." "If you want more detail, ask it in the...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-emeris-capital-player.png Emeris location map) Tj
+T*
+(  board. MAP-LOC-emeris-capital environment Emeris assets/maps/MAP-LOC-emeris-capital-) Tj
+T*
+(  player.png assets/maps/MAP-LOC-emeris-capital-player.png Visual reference for) Tj
+T*
+(  Emeris. Emeris location map board. A walled city of honey-colored stone on the very) Tj
+T*
+(  lip of the great forest, where the last paved road in the world meets the first wild) Tj
+T*
+(  tree. MAP-LOC-emeris-capital-map-only Map only Emeris map-only assets/maps/MAP-LOC-) Tj
+T*
+(  emeris-capital-player.png Emeris location map board. MAP-LOC-emeris-capital) Tj
+T*
+(  environment Emeris assets/maps/MAP-LOC-emeris-capital-player.png assets/maps/MAP-) Tj
+T*
+(  LOC-emeris-capital-player.png Visual reference for Emeris. Emeris location map) Tj
+T*
+(  board. A walled city of honey-colored stone on the very lip of the great forest,) Tj
+T*
+(  where the last paved road in the world meets the first wild tree. MAP-LOC-emeris-) Tj
+T*
+(  capital-map-text Map + text Emeris A walled city of honey-colored stone on the very) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 1987 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  lip of the great forest, where the last paved road in the world meets the first wild) Tj
+T*
+(  tree. A walled city of honey-colored stone on the very lip of the great forest,) Tj
+T*
+(  where the last paved road in the world meets the first wild tree...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-emeris-capital map Emeris assets/maps/MAP-LOC-emeris-) Tj
+T*
+(  capital-player.png Emeris location map board. Visual reference for Emeris. spatial) Tj
+T*
+(  reference and location texture A walled city of honey-colored stone on the very lip) Tj
+T*
+(  of the great forest, where the last paved road in the world meets the first wild) Tj
+T*
+(  tree. A walled city of honey-colored stone on the very lip of the great forest,) Tj
+T*
+(  where the last paved road in the world meets the first wild tree. MAP-LOC-emeris-) Tj
+T*
+(  capital environment Emeris assets/maps/MAP-LOC-emeris-capital-player.png) Tj
+T*
+(  assets/maps/MAP-LOC-emeris-capital-player.png Visual reference for Emeris. Emeris) Tj
+T*
+(  location map board. A walled city of honey-colored stone on the very lip of the) Tj
+T*
+(  great forest, where the last paved road in the world meets the first wild tree.) Tj
+T*
+(  assets/maps/MAP-LOC-emeris-capital-player.png Emeris location map board. MAP-LOC-) Tj
+T*
+(  emeris-capital environment Emeris assets/maps/MAP-LOC-emeris-capital-player.png) Tj
+T*
+(  assets/maps/MAP-LOC-emeris-capital-player.png Visual reference for Emeris. Emeris) Tj
+T*
+(  location map board. A walled city of honey-colored stone on the very lip of the) Tj
+T*
+(  great forest, where the last paved road in the world meets the first wild tree...) Tj
+T*
+(- Slidenumber: 83) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash db319c670e78a960 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002649 00000 n 
+0000002775 00000 n 
+0000007048 00000 n 
+0000007174 00000 n 
+0000009213 00000 n 
+0000009339 00000 n 
+0000009408 00000 n 
+0000009457 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+9529
+%%EOF

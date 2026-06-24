@@ -1,0 +1,66 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "soul-audit-memory-shard",
+  "title": "Soul-Audit Memory Shard",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "f71a9e633795ccc9",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Soul-Audit Memory Shard: A cold, partial memory that turns metaphysical debt into something the players can feel and interpret."
+    },
+    {
+      "title": "Public role",
+      "body": "Fragment left by a Soul-Audit Wraith"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: A cold, partial memory that turns metaphysical debt into something the players can feel and interpret."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: clue",
+        "Role: Fragment left by a Soul-Audit Wraith",
+        "Summary: A cold sliver that, touched, plays a stranger's memory — a name, a debt, a last ordinary afternoon — partial and aching.",
+        "Tags: clue evidence memory world-npc wraith",
+        "Connections: Soul-Audit Wraith Market Correction Open Vale™ Ritual Site",
+        "Inventory: blue glass splinter wrong signature echo borrowed fear",
+        "Loot: Can reveal a human fear, a falsified signature, or a Relay Spire hint.",
+        "Name: Soul-Audit Memory Shard",
+        "Id: soul-audit-memory-shard",
+        "Meta: Clue / Evidence CLUE assets/icons/clue.png entity-clue #48c7e8 07 Items and Clues entities clue",
+        "Aliases: Soul-Audit Memory Shard blue glass splinter memory shard memory shards",
+        "Appears In: S05-05",
+        "Related: Market Correction Open Vale™ Ritual Site S05-05 Soul-Audit Wraith",
+        "Image Prompt: Private table TTRPG story atlas asset for Soul-Audit Memory Shard, Clue / Evidence. Role: Fragment left by a Soul-Audit Wraith. Summary: A cold sliver that, touched, plays a stranger's memory — a name, a debt, a last ordinary afternoon — partial and aching.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Personality: A cold, partial memory that turns metaphysical debt into something the players can feel and interpret.; make it tactile enough that the players can point to it, carry it, compare it, or show it to someone.",
+        "Wants: Move suspicion toward Soul-Audit Wraith, Market Correction without requiring a lore lecture.",
+        "Fears: Being pocketed as trivia, missed because it looks mundane, or separated from the person it can help.",
+        "Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.",
+        "Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.",
+        "Sample Dialogue: A cold, partial memory that turns metaphysical debt into something the players can feel and interpret.",
+        "Equipment: blue glass splinter wrong signature echo borrowed fear",
+        "Search Or Loot: Can reveal a human fear, a falsified signature, or a Relay Spire hint.",
+        "Gm Use: Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.",
+        "Future Hooks: Bring back as an echo if players made a strong choice involving this entity.",
+        "Robust: Soul-Audit Memory Shard: A cold, partial memory that turns metaphysical debt into something the players can feel and interpret. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Move suspicion toward Soul-Audit Wraith, Market Correction without requiring a lore lecture. Being pocketed as trivia, missed because it looks mundane, or separated from the person it can help. Use when the scene needs a concrete object for players to inspect, carry, debate, or remember. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Soul-Audit Memory Shard and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the institutional pattern. Wildborne / community...",
+        "Mechanics: Discovery / Earn-It Mechanics Players can inspect, handle, keep, trade, reveal, or earn Soul-Audit Memory Shard when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A cold sliver that, touched, plays a stranger's memory — a name, a debt, a last ordinary afternoon — partial and aching. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-soul-audit-memory-shard-engage-soul-audit-memory-shard entity-soul-audit-memory-shard Engage Soul-Audit Memory Shard Engage Soul-Audit Memory Shard Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Soul-Audit Memory Shard hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure...",
+        "Pronunciation: SOHL-AW-dit MEM-uh-ree SHARD",
+        "Short Pronunciation: SOHL-AW-dit MEM-uh-ree SHARD",
+        "Clue Profile: clue-profile-v1 soul-audit-memory-shard soul-audit-memory-shard Soul-Audit Memory Shard Soul-Audit Memory Shard SOHL-AW-dit MEM-uh-ree SHARD physical/metaphysical True Soul-Audit Memory Shard A cold sliver that, touched, plays a stranger's memory — a name, a debt, a last ordinary afternoon — partial and aching. A cold sliver that, touched, plays a stranger's memory — a name, a debt, a last ordinary afternoon — partial and aching. A cold sliver that, touched, plays a stranger's memory — a name, a debt, a last ordinary afternoon — partial and aching. soul-audit-memory-shard Soul-Audit Memory Shard SOHL-AW-dit MEM-uh-ree SHARD physical/metaphysical turns abstract \"soul-debt\" into something the players feel: these were people, audited into assets. WORLD/NPC Open Vale & Soul-Debt open-vale-and-soul-debt Gives Act Five weight without turning the hidden soul-economy seed into exposition. pages/entities/soul-audit-memory-shard.html pages/clues/open-vale-and-soul-debt.html A cold sliver that, touched, plays a stranger's memory — a name, a debt, a last ordinary afternoon — partial and aching. turns abstract \"soul-debt\" into something the players feel: these were people, audited into...",
+        "Image: assets/clue-images/soul-audit-memory-shard/profile_base.webp",
+        "Image Asset Status: clue_visual_profile",
+        "Visual Gallery: primary Primary wiki image primary assets/clue-images/soul-audit-memory-shard/profile_base.webp Soul-Audit Memory Shard primary wiki image visual. Soul-Audit Memory Shard: Primary wiki image. clue_visual_profile True True"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash f71a9e633795ccc9 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

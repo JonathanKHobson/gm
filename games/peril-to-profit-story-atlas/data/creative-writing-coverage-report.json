@@ -1,0 +1,79 @@
+{
+  "checks": [
+    {
+      "name": "Every relevant entity has a rendered wiki page",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Relevant entities have core prose",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Relevant entity prose has no scaffold/review marker leaks",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "All location profiles have Imagine This Like content",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Known previously missing locations now have Imagine This Like",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Imagine This Like renders on wiki pages when present",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Spot-check entities have visual galleries with variants",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Spot-check visual galleries render on wiki pages",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Fire Solutions has no missing image slots",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Strixwolf pup primary images use creature_images overrides",
+      "passed": true,
+      "details": {
+        "strixwolf-pup-one": {
+          "image": "assets/creature-images/strixwolf-pup-one/portrait_base.webp",
+          "status": "creature_images"
+        },
+        "strixwolf-pup-two": {
+          "image": "assets/creature-images/strixwolf-pup-two/portrait_base.webp",
+          "status": "creature_images"
+        }
+      }
+    },
+    {
+      "name": "Run Mode includes new-tab reference link safety",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "passed": true,
+  "checked_entity_count": 129,
+  "relevant_types": [
+    "corporation",
+    "creature",
+    "enemy",
+    "faction",
+    "location",
+    "npc",
+    "pc"
+  ]
+}

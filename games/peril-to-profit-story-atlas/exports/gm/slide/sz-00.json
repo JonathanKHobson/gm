@@ -1,0 +1,52 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "SZ-00",
+  "title": "SZ-00 - Ready to Start / Table Frame",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "15c26007d32d09bb",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "This is a beginner-friendly Daggerheart one-shot. You do not need to know the rules ahead of time. We will learn by playing."
+    },
+    {
+      "title": "Public objective",
+      "body": "This is a beginner-friendly Daggerheart one-shot. You do not need to know the rules ahead of time. We will learn by playing."
+    },
+    {
+      "title": "Player bullets",
+      "items": [
+        "You are hired contractors or trusted associates escorting a sealed delivery through the Goldspire Territories.",
+        "The job looks simple. It will not stay simple.",
+        "Tone: sincere fantasy adventure, corporate satire, and a little dark whimsy.",
+        "Share spotlight, ask questions, pass when needed, help other characters look cool, and respect safety tools.",
+        "GM style: clear rulings, rules-light at first, and consequences tied to the fiction."
+      ]
+    },
+    {
+      "title": "GM goal",
+      "body": "Establish tone, expectations, and the table's shared social contract."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "Script: Say the welcome plainly, then tell the table that the rules will be introduced only as needed. Confirm that everyone can see the player display and has the right handouts.",
+        "Keep it warm, confident, and short.",
+        "This is a public table: clarity and consent matter.",
+        "Checklist: All players seated; Session Zero mode selected; Safety tools ready; Handouts visible; Player display visible"
+      ]
+    },
+    {
+      "title": "GM script",
+      "body": "Say the welcome plainly, then tell the table that the rules will be introduced only as needed. Confirm that everyone can see the player display and has the right handouts."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 15c26007d32d09bb | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

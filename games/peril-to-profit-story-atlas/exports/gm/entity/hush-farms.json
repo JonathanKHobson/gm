@@ -1,0 +1,74 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "hush-farms",
+  "title": "Hush Farms",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "71374e90fc45a7c2",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "The Hush farms glow low under canopy-shadow, blue moss catching on tools, boots, and the undersides of leaves."
+    },
+    {
+      "title": "Public role",
+      "body": "Make the infrastructure failure agricultural and bodily, not abstract."
+    },
+    {
+      "title": "Handout text",
+      "body": "Glowing blue moss grows over fruits and vegetables."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Introduce with sensory texture, then make one discoverable clue or social choice visible."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Location Exploration Mechanics",
+        "Player Safe: Players can navigate, search, read customs, inspect hazards Hush Farms when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: Glowing blue moss grows over fruits and vegetables. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-hush-farms-engage-hush-farms entity-hush-farms Engage Hush Farms Engage Hush Farms Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of Hush Farms hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. A...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Condition Options: No official condition unless a hazard creates Hidden, Restrained, or Vulnerable",
+        "Search Loot: Not lootable; sensory transition."
+      ]
+    },
+    {
+      "title": "Profile",
+      "items": [
+        "Schema Version: location-profile-v1",
+        "Id: hush-farms",
+        "Entity Id: hush-farms",
+        "Source: Goldspire_Location_Packet/04_Hush_Enclave.md",
+        "Auto Surface: True",
+        "Priority: strong",
+        "Player Safe: Hush Farms Glowing blue moss grows over fruits and vegetables. Glowing blue moss grows over fruits and vegetables. The Hush farms glow low under canopy-shadow, blue moss catching on tools, boots, and the undersides of leaves. Hush Farms feels like real agricultural infrastructure: water levels, raised beds, moss rows, tools, storage, repair labor, and tiny creatures making honest work harder. The place breaks into usable table spaces: Raised moss rows: Green rows glow softly under low light. Water gate bank: Small gates control which fields drink. Tool sheds: Practical sheds show what people repair every day. Reed edge: The boundary between farm and wild wetland is alive. Plants and materials: Sunless-Farm Moss, firstmoss, glowmoss, edible reeds, canal herbs, fungus ropes on shaded posts. Animals and background life: Ratcoons test every storage lid, Festival Moths gather when lanterns...",
+        "Block1: Hush Farms Make the infrastructure failure agricultural and bodily, not abstract. Glowing blue moss grows over fruits and vegetables. The farms show that the ward protects food, labor, and tomorrow morning. The farms are what the failing ward actually protects, food, labor, and tomorrow morning. Standing in them makes the stakes concrete. The farms show that the ward protects food, labor, and tomorrow morning. The water schedule is delicate. A wrong gate, or a bad night for the ward, and the glow starts to dim. pages/entities/hush-farms.html",
+        "Block2: Irrigation channels thread between moss-lit rows. Carved tree faces and field markers make the farms feel watched over rather than owned. Some crops lean away from weak ward posts. Farmers have repaired corporate fixtures with local materials the manual never mentions. Detail Wet soil, crushed stems, mineral water, and the peppery smell of blue moss. Detail Fence posts are slick with rain and thumb-smoothed where people check them by habit. The Hush farms glow low under canopy-shadow, blue moss catching on tools, boots, and the undersides of leaves. Hush Farms feels like real agricultural infrastructure: water levels, raised beds, moss rows, tools, storage, repair labor, and tiny creatures making honest work harder. The place breaks into usable table spaces: Raised moss rows: Green rows glow softly under low light. Water gate bank: Small gates control which fields drink. Tool sheds...",
+        "Block3: irrigation channels moss crop rows carved tree markers patched ward posts Instinct to read crop and animal behavior around failing wards. Knowledge to identify which posts fail first. Finesse to cross irrigation without trampling work. Local residents or workers appropriate to the place Ratcoons test every storage lid Festival Moths gather when lanterns come out silver minnows clean irrigation channels No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues Sunless-Farm Moss, firstmoss, glowmoss, edible reeds, canal herbs, fungus ropes on shaded posts fresh food farm tools water-route directions",
+        "Block4: The place changes even if the PCs stand still. Local people, creatures, weather, signage, and ward behavior all keep moving around the scene. The party can damage fragile channels by rushing. Weak ward posts put field workers and crops at risk. Ignoring local directions wastes time. A channel coughs up cold light instead of water. A farmer stops mid-sentence to listen to a post go silent. The Keystone pulses toward Open Vale. Let the place be funny through overconfident signage, awkward forms, stubborn local habits, and magic that refuses corporate language.",
+        "Block5: S03-04 S04-01 MAP-LOC-hush-farms",
+        "Block6: Describe what the PCs can see, smell, hear, touch, ask about, or infer. Do not explain hidden infrastructure or corporate thesis until play earns it. surface Glowing blue moss grows over fruits and vegetables. table clue The farms show that the ward protects food, labor, and tomorrow morning. earned truth Reveal deeper system meaning through NPC answers, evidence, or player questions, not narration dumps.",
+        "What Here: Local residents or workers appropriate to the place Ratcoons test every storage lid Festival Moths gather when lanterns come out silver minnows clean irrigation channels No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues Sunless-Farm Moss, firstmoss, glowmoss, edible reeds, canal herbs, fungus ropes on shaded posts fresh food farm tools water-route directions",
+        "Living Place: location-living-place-v1 wetland farms and food system Hush Farms should feel like real agricultural infrastructure: water levels, raised beds, moss rows, tools, storage, repair labor, and tiny creatures making honest work harder. Raised moss rows Green rows glow softly under low light. Use for beauty and labor. Water gate bank Small gates control which fields drink. Use for mechanics and choices. Tool sheds Practical sheds show what people repair every day. Use for supplies and clues. Reed edge The boundary between farm and wild wetland is alive. Use for off-path movement. Sunless-Farm Moss, firstmoss, glowmoss, edible reeds, canal herbs, fungus ropes on shaded posts Ratcoons test every storage lid Festival Moths gather when lanterns come out silver minnows clean irrigation channels water-level clicks mud suction lantern reflection crop glow dimming when water is wrong Water feeds...",
+        "Districts Or Subareas: Raised moss rows Green rows glow softly under low light. Use for beauty and labor. Water gate bank Small gates control which fields drink. Use for mechanics and choices. Tool sheds Practical sheds show what people repair every day. Use for supplies and clues. Reed edge The boundary between farm and wild wetland is alive. Use for off-path movement.",
+        "Sensory Signature: Detail Wet soil, crushed stems, mineral water, and the peppery smell of blue moss. Detail Fence posts are slick with rain and thumb-smoothed where people check them by habit.",
+        "Visual Assets: location-visual-assets-v1 hush-farms Hush Farms Bright comedic frontier high-fantasy concept art for a Daggerheart-adjacent tabletop RPG. Medieval/Renaissance fantasy technology only: hand tools, wagons, ropes, parchment notices, ward-stones, carved wood, brass, cloth, stone, moss, lanterns, and magic. The tone is colorful, playful, slightly absurd, and vivid, like a fantasy corporate frontier comedy rather than a grim drama. No sci-fi machinery, no 1800s/Victorian clothing, no modern suits, no guns, no logos, no readable text, no watermark, no border, no collage. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/hush-farms MAP-LOC-hush-farms wetland farm edge farm and canal map profile_scene Profile image ready /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/hush-farms/profile_scene_v02.png...",
+        "Imagine It Like: A terraced rice paddy or a cranberry bog crossed with a bioluminescent cave. Think wetland market-garden where the crops are also the night-lights."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 71374e90fc45a7c2 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

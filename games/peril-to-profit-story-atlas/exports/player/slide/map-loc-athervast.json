@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "MAP-LOC-athervast",
+  "kind": "slide",
+  "title": "MAP-LOC-athervast - Athervast Location Map",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act Four: The Hanging Office",
+  "hook": "This distant capital reference is not part of the player route today.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "This distant capital reference is not part of the player route today."
+    },
+    {
+      "label": "Public Objective",
+      "body": "This distant capital reference is not part of the player route today."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:MAP-LOC-athervast",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "fab28d64d5e96fe9",
+  "generated_at": "2026-06-23T21:40:58"
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "MAP-LOC-the-high-falls",
+  "title": "MAP-LOC-the-high-falls - The High Falls Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "0030834086f52707",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains."
+    },
+    {
+      "title": "Public objective",
+      "body": "The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains."
+    },
+    {
+      "title": "GM goal",
+      "body": "Make mystery available without pulling the one-shot off course."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 0030834086f52707 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

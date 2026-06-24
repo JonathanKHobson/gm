@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "MAP-LOC-the-sable-stills",
+  "kind": "slide",
+  "title": "MAP-LOC-the-sable-stills - The Sable Stills Location Map",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Map Board",
+  "hook": "The Sable Stills are warm, smoky, and sharper than they seem, turning old wood, strong drink, and local jokes into hospitality with teeth.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "The Sable Stills are warm, smoky, and sharper than they seem, turning old wood, strong drink, and local jokes into hospitality with teeth."
+    },
+    {
+      "label": "Public Objective",
+      "body": "The Sable Stills are warm, smoky, and sharper than they seem, turning old wood, strong drink, and local jokes into hospitality with teeth."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:MAP-LOC-the-sable-stills",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "2b5a9d4da71118eb",
+  "generated_at": "2026-06-23T21:40:58"
+}

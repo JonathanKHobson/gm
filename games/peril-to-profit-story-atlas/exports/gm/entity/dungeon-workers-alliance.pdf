@@ -1,0 +1,312 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2708 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(Dungeon Workers' Alliance) Tj
+T*
+() Tj
+T*
+(Player-facing description) Tj
+T*
+() Tj
+T*
+(Dungeon Workers' Alliance: The Dungeon Workers' Alliance is an old labor name that) Tj
+T*
+(survives in brass pins, hand-copied maps, and tired defiance. Slogan: Nobody clears the) Tj
+T*
+(dungeon alone.) Tj
+T*
+() Tj
+T*
+(Public role) Tj
+T*
+() Tj
+T*
+(Sablewood labor lineage and pressure group behind Bramble-adjacent organizing) Tj
+T*
+() Tj
+T*
+(Handout text) Tj
+T*
+() Tj
+T*
+(Dungeon Workers' Alliance: The Dungeon Workers' Alliance is an old labor name that) Tj
+T*
+(survives in brass pins, hand-copied maps, and tired defiance. Slogan: Nobody clears the) Tj
+T*
+(dungeon alone.) Tj
+T*
+() Tj
+T*
+(GM truth) Tj
+T*
+() Tj
+T*
+(GM-only: this is context, not a new exposition faction for the one-shot.) Tj
+T*
+() Tj
+T*
+(GM handling) Tj
+T*
+() Tj
+T*
+(Thematic kin to the Bramble Union and a future organized-resistance seed.) Tj
+T*
+() Tj
+T*
+(Mechanics) Tj
+T*
+() Tj
+T*
+(- Title: Faction Pressure / Reputation Mechanics) Tj
+T*
+(- Player Safe: Players can read public face, negotiate leverage, track reputation, or) Tj
+T*
+(  identify pressure Dungeon Workers' Alliance when it is present in the fiction.) Tj
+T*
+(- Gm Only: Use the roll only when the player's method, stakes, and consequence are) Tj
+T*
+(  concrete.) Tj
+T*
+(- No Roll Reveals: Surface read: The Dungeon Workers' Alliance is an old labor name) Tj
+T*
+(  that survives in brass pins, hand-copied maps, and tired defiance. Give obvious) Tj
+T*
+(  visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.) Tj
+T*
+(- Rolls: entity-dungeon-workers-alliance-engage-dungeon-workers'-alliance entity-) Tj
+T*
+(  dungeon-workers-alliance Engage Dungeon Workers' Alliance Engage Dungeon Workers') Tj
+T*
+(  Alliance Presence Knowledge Instinct Presence Knowledge, Instinct 13 Choose the) Tj
+T*
+(  trait from the player's method, not the entity type. A flat read of Dungeon Workers') Tj
+T*
+(  Alliance hides the cost, motive, or useful next step. Critical Success: best) Tj
+T*
+(  possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit) Tj
+T*
+(  that follows from the fiction. Success with Hope: the PC gets what they wanted and) Tj
+T*
+(  gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what) Tj
+T*
+(  they wanted, but the GM gains Fear and introduces a cost, complication, or pressure.) Tj
+T*
+(  Failure with Hope: the PC does not get the full result, but gains Hope and receives) Tj
+T*
+(  a useful thread, clue, or safer next option. Failure with Fear: the PC fails and...) Tj
+T*
+(- Fear Spends: Reveal who benefits from the current situation. Make the cost personal) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3447 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  without closing off player agency.) Tj
+T*
+(- Search Loot: Evidence, not treasure: a strike notice, a route pin, or a list of) Tj
+T*
+(  missing workers can humanize the Bramble Union later.) Tj
+T*
+() Tj
+T*
+(Profile) Tj
+T*
+() Tj
+T*
+(- Schema Version: faction-profile-v1) Tj
+T*
+(- Id: dungeon-workers-alliance) Tj
+T*
+(- Entity Id: dungeon-workers-alliance) Tj
+T*
+(- Source: Faction_System_Packet/factions/WIDER_LORE_FACTIONS.md) Tj
+T*
+(- Priority: compact) Tj
+T*
+(- Corporate: False) Tj
+T*
+(- Auto Surface: True) Tj
+T*
+(- Prompt Key: bramble) Tj
+T*
+(- Player Safe: Dungeon Workers' Alliance A half-legend of organized labor, old route) Tj
+T*
+(  pins, and workers who remember the dungeon never cleared itself. Nobody clears the) Tj
+T*
+(  dungeon alone. The Dungeon Workers' Alliance is an old labor name that survives in) Tj
+T*
+(  brass pins, hand-copied maps, and tired defiance. The Alliance feels less like a) Tj
+T*
+(  banner and more like a promise passed hand to hand. A dull brass pin in a collar, a) Tj
+T*
+(  copied route map with names by the dangerous bends, a worker who says 'we' when the) Tj
+T*
+(  company file says 'incident.' The pin is small enough to hide under a collar. It) Tj
+T*
+(  shows a pick, a lantern, and a hand. It has been polished by fingers more often than) Tj
+T*
+(  cloth.) Tj
+T*
+(- Block1: Dungeon Workers' Alliance the Alliance old route workers the dungeon union A) Tj
+T*
+(  half-legend of organized labor, old route pins, and workers who remember the dungeon) Tj
+T*
+(  never cleared itself. Keeps names, claims, route memory, and solidarity alive after) Tj
+T*
+(  corporations convert workers into hazards. Thematic kin to the Bramble Union and a) Tj
+T*
+(  future organized-resistance seed. Cautious, practical, and moved by visible respect) Tj
+T*
+(  for workers. Protect workers as people, not evidence, and Alliance-linked locals) Tj
+T*
+(  become safer to speak. pages/entities/dungeon-workers-alliance.html DUN-jun WUR-kerz) Tj
+T*
+(  uh-LY-unss) Tj
+T*
+(- Block2: Buried but feared; the organized version of what the Bramble Union is) Tj
+T*
+(  reaching toward. Old route ledgers, mutual aid marks, worker names, and stories that) Tj
+T*
+(  corporate files tried to rename. Pins inside collars, copied maps, remembered) Tj
+T*
+(  graves, and favors passed through people who still trust each other. Some want open) Tj
+T*
+(  resistance; others know visibility gets workers killed or reclassified. Survives as) Tj
+T*
+(  a rumor in Bramble route discipline and old worker marks. A labor network born when) Tj
+T*
+(  dungeon danger became corporate product and workers started comparing notes.) Tj
+T*
+(- Block3: Bramble Union Clover Co-op Kazrak Industries Goldspire Logistics route) Tj
+T*
+(  memory worker trust old ledgers Bramblefolk veterans No one; it organizes people) Tj
+T*
+(  preyed on by the danger economy.) Tj
+T*
+(- Block4: Nobody clears the dungeon alone. Dull brass pins, water-stained ledgers,) Tj
+T*
+(  strike notices, and hand-copied maps with names by unsafe bends. Worn, defiant,) Tj
+T*
+(  solidarity-plain: We built the road before they taught it to charge rent. Crossed) Tj
+T*
+(  pick and lantern under a shared hand. Seed only: work rhythm, low voices, no) Tj
+T*
+(  soloist.) Tj
+T*
+(- Block5: Can turn Bramble evidence from bandit proof into worker history. The Board) Tj
+T*
+(  fears organized labor more than desperate ambush. Some Bramble route signs descend) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 1914 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  from Alliance safety networks. GM-only: this is context, not a new exposition) Tj
+T*
+(  faction for the one-shot. surface A name or pin. hint A real worker safety network.) Tj
+T*
+(  earned seam A future organized threat to the Board's theater. Knowledge or Presence) Tj
+T*
+(  15 connects old route pins to worker safety networks. A spared reclaimer may admit) Tj
+T*
+(  the Alliance is real enough to matter.) Tj
+T*
+(- Writing Layer: The Dungeon Workers' Alliance is an old labor name that survives in) Tj
+T*
+(  brass pins, hand-copied maps, and tired defiance. The Alliance feels less like a) Tj
+T*
+(  banner and more like a promise passed hand to hand. A dull brass pin in a collar, a) Tj
+T*
+(  copied route map with names by the dangerous bends, a worker who says 'we' when the) Tj
+T*
+(  company file says 'incident.' The pin is small enough to hide under a collar. It) Tj
+T*
+(  shows a pick, a lantern, and a hand. It has been polished by fingers more often than) Tj
+T*
+(  cloth. dull brass, sweat-dark cloth, copied maps, pencil marks, old coffee, work) Tj
+T*
+(  songs, and ledgers with names restored in the margins solidarity spoken quietly) Tj
+T*
+(  because quiet kept people alive a strike notice folded until it fits in a boot old) Tj
+T*
+(  dungeon routes, worker camps, Bramble memory, and future labor networks Sablewood) Tj
+T*
+(  and Goldspire Territories routes where work became hazard Bramble veterans may) Tj
+T*
+(  carry...) Tj
+T*
+(- Entity Name: Dungeon Workers' Alliance) Tj
+T*
+(- Imagine It Like: Think a half-remembered miners' union kept alive in songs and old) Tj
+T*
+(  route pins, the ghost of organized labor, a folk-hero strike retold as legend.) Tj
+T*
+(  Solidarity surviving as rumor.) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash cc4eb0adeb2c4bb1 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002769 00000 n 
+0000002895 00000 n 
+0000006394 00000 n 
+0000006520 00000 n 
+0000008486 00000 n 
+0000008612 00000 n 
+0000008681 00000 n 
+0000008730 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+8802
+%%EOF

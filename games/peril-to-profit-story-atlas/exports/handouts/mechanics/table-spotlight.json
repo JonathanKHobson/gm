@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "table-spotlight",
+  "kind": "rule",
+  "title": "Table Spotlight",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "mechanic",
+  "hook": "A simple way to make sure each player gets room to speak and can pass.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "A simple way to make sure each player gets room to speak and can pass."
+    },
+    {
+      "label": "How It Works",
+      "body": "Table Spotlight: A simple way to make sure each player gets room to speak and can pass."
+    },
+    {
+      "label": "Try It",
+      "body": "What if I do not know what to say?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use when inviting introductions, reactions, scene ownership, or quieter players into play.",
+    "You can pass, ask a question, or give one short detail.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:table-spotlight",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "dcbb262924d9ce1c",
+  "generated_at": "2026-06-23T21:40:58"
+}

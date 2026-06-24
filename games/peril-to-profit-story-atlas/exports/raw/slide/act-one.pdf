@@ -1,0 +1,332 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2673 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(ACT-ONE - Act One: The Logistics Incident) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The warded city is behind you now. The road runs on under a canopy so high you never see) Tj
+T*
+(it move, and the carriage rocks along ruts older than any company that claims this) Tj
+T*
+(forest. The job is simple: deliver the package, get paid. The forest, so far, has other) Tj
+T*
+(ideas.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Get the carriage and the sealed package moving again, then continue through the preserve) Tj
+T*
+(toward the village.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: ACT-ONE) Tj
+T*
+(- Type: act-divider) Tj
+T*
+(- Sectionid: ACT-ONE) Tj
+T*
+(- Sectiontitle: Act One: The Logistics Incident) Tj
+T*
+(- Title: Act One: The Logistics Incident) Tj
+T*
+(- Shorttitle: Act One) Tj
+T*
+(- Order: 200) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Caption: The branded route stops feeling managed when the Old Sable answers back.) Tj
+T*
+(- Mood: table transition) Tj
+T*
+(- Gmgoal: Open Act 1 as the first road complication: the routine courier job stops,) Tj
+T*
+(  the forest feels dangerous, and the first real rolls become possible.) Tj
+T*
+(- Publicobjective: Get the carriage and the sealed package moving again, then continue) Tj
+T*
+(  through the preserve toward the village.) Tj
+T*
+(- Readaloud: The warded city is behind you now. The road runs on under a canopy so) Tj
+T*
+(  high you never see it move, and the carriage rocks along ruts older than any company) Tj
+T*
+(  that claims this forest. The job is simple: deliver the package, get paid. The) Tj
+T*
+(  forest, so far, has other ideas.) Tj
+T*
+(- Playertakeaway: You are past the point of no return; the only paid direction is) Tj
+T*
+(  forward through the preserve.) Tj
+T*
+(- Storytakeaway: Act 1 turns a routine job into an adventure: first complication,) Tj
+T*
+(  first wrongness, first real choice.) Tj
+T*
+(- Mechanictakeaway: Act 1 teaches the core loop: describe an action, roll when risk) Tj
+T*
+(  matters, then read Hope or Fear on the Duality Dice.) Tj
+T*
+(- Livetools: none) Tj
+T*
+(- Playersafeprojection: ACT-ONE act-divider Act One: The Logistics Incident The) Tj
+T*
+(  branded route stops feeling managed when the Old Sable answers back. table) Tj
+T*
+(  transition Get the carriage and the sealed package moving again, then continue) Tj
+T*
+(  through the preserve toward the village. The warded city is behind you now. The road) Tj
+T*
+(  runs on under a canopy so high you never see it move, and the carriage rocks along) Tj
+T*
+(  ruts older than any company that claims this forest. The job is simple: deliver the) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4091 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  package, get paid. The forest, so far, has other ideas. ACT-ONE-city-behind Out of) Tj
+T*
+(  the city Out of the city The warded city is behind you now. The carriage wheels find) Tj
+T*
+(  the old forest road, and the job is still simple: deliver the package and get paid.) Tj
+T*
+(  The warded city is behind you now. The carriage wheels find the old forest road, and) Tj
+T*
+(  the job is still simple: deliver the package and get paid. The warded city is behind) Tj
+T*
+(  you now. The carriage wheels find the old forest road, and the job is still simple:) Tj
+T*
+(  deliver the package and get paid. text-first ACT-ONE-forest-closes The forest closes) Tj
+T*
+(  in The forest closes in The trees rise like buildings on every side. Company route) Tj
+T*
+(  signs look small against trunks wide enough to make the road...) Tj
+T*
+(- Gmscript: All right, this is where the road starts pushing back. Your job has not) Tj
+T*
+(  changed: keep the package safe, keep the carriage moving, and get through the) Tj
+T*
+(  preserve. What changes now is that the forest stops behaving like a company route) Tj
+T*
+(  map.) Tj
+T*
+(- Gmreadaloud: The warded city is behind you now. The road runs on under a canopy so) Tj
+T*
+(  high you never see it move, and the carriage rocks along ruts older than any company) Tj
+T*
+(  that claims this forest. The job is simple: deliver the package, get paid. The) Tj
+T*
+(  forest, so far, has other ideas.) Tj
+T*
+(- Gmchecklist: Confirm the player display is showing the Act 1 board. Have the) Tj
+T*
+(  Sablewood sensory stack ready: huge trees, company route signs, rain, old road,) Tj
+T*
+(  animal quiet. Keep the first roll cue in mind: Presence against the creature's) Tj
+T*
+(  reaction, Difficulty 10.) Tj
+T*
+(- Gmprivate: Keep the forest-danger framing slightly too smooth. This is the corporate) Tj
+T*
+(  line, and Act 1 is where the first cracks show. The package stays player-facing as) Tj
+T*
+(  the package. Do not say Keystone Asset in projected Act 1 text.) Tj
+T*
+(- Mechanicids: action-roll duality-dice hope fear presence) Tj
+T*
+(- References: Prologue transition #PROLOGUE Sablewood Preserve packet) Tj
+T*
+(  sources/Goldspire_Location_Packet/01_Sablewood_Preserve.md) Tj
+T*
+(- Sourcefiles: Act1_Upgrade_Packet/ACT1_SCENE_UPGRADES.md) Tj
+T*
+(  Goldspire_Location_Packet/01_Sablewood_Preserve.md) Tj
+T*
+(- Playerbeats: ACT-ONE-city-behind Out of the city Out of the city The warded city is) Tj
+T*
+(  behind you now. The carriage wheels find the old forest road, and the job is still) Tj
+T*
+(  simple: deliver the package and get paid. The warded city is behind you now. The) Tj
+T*
+(  carriage wheels find the old forest road, and the job is still simple: deliver the) Tj
+T*
+(  package and get paid. The warded city is behind you now. The carriage wheels find) Tj
+T*
+(  the old forest road, and the job is still simple: deliver the package and get paid.) Tj
+T*
+(  text-first ACT-ONE-forest-closes The forest closes in The forest closes in The trees) Tj
+T*
+(  rise like buildings on every side. Company route signs look small against trunks) Tj
+T*
+(  wide enough to make the road feel temporary. The trees rise like buildings on every) Tj
+T*
+(  side. Company route signs look small against trunks wide enough to make the road) Tj
+T*
+(  feel temporary. The trees rise like buildings on every side. Company route signs) Tj
+T*
+(  look small against trunks wide enough to make the road feel temporary. text-first) Tj
+T*
+(  ACT-ONE-something-ahead Something ahead Something ahead The carriage rounds a tight) Tj
+T*
+(  bend and the road ahead stops being road. Something large blocks the way. The) Tj
+T*
+(  carriage rounds a tight bend and the road ahead stops...) Tj
+T*
+(- Gmbeats: ACT-ONE-city-behind Out of the city Out of the city Say: "The city is) Tj
+T*
+(  behind you. Before the road turns strange, what does your character watch from the) Tj
+T*
+(  carriage?" The warded city is behind you now. The carriage wheels find the old) Tj
+T*
+(  forest road, and the job is still simple: deliver the package and get paid. The) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2713 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  party crosses from contract language into living wilderness. Roleplay can establish) Tj
+T*
+(  position before any dice appear. Each player can choose a detail their character is) Tj
+T*
+(  watching for. Player takeaway Each player can choose a detail their character is) Tj
+T*
+(  watching for. "The city is behind you. Before the road turns strange, what does your) Tj
+T*
+(  character watch from the carriage?" "The playable facts are: The warded city is) Tj
+T*
+(  behind you now. The carriage wheels find the old forest road, and the job is still) Tj
+T*
+(  simple: deliver the package and get paid. You can respond to one of those facts) Tj
+T*
+(  directly, ask a question about it, or invite another PC into the moment." Active GM) Tj
+T*
+(  line: Say: "The city is behind you. Before the road turns strange, what does your) Tj
+T*
+(  character watch from the carriage?" Player-facing display text: The warded city is) Tj
+T*
+(  behind you now. The carriage wheels find the old forest...) Tj
+T*
+(- Takeawayhelp: Player takeaway You are past the point of no return; the only paid) Tj
+T*
+(  direction is forward through the preserve. "You can turn around, but that means) Tj
+T*
+(  walking away from the job. Forward is the only paid direction." "You are still) Tj
+T*
+(  escorting the package. You can talk in the carriage, watch the route, ask what you) Tj
+T*
+(  notice, or push on until the road forces a decision." Keep this as permission, not a) Tj
+T*
+(  railroad. The contract creates pressure, but players can still choose how they) Tj
+T*
+(  approach danger. roleplay table-spotlight Story takeaway Act 1 turns a routine job) Tj
+T*
+(  into an adventure: first complication, first wrongness, first real choice. "This is) Tj
+T*
+(  where the easy part ends. The road is about to stop being a road." "Your job has not) Tj
+T*
+(  changed: deliver the package. The forest is going to test how you do that before you) Tj
+T*
+(  are through it." Act 1 should feel like the first crack in the company version of) Tj
+T*
+(  reality. Describe the route as managed, then let the scene make that management feel) Tj
+T*
+(  fragile. roleplay Mechanic takeaway Act 1 teaches the core loop: describe an action,) Tj
+T*
+(  roll when risk matters, then read Hope or Fear on the Duality Dice. "When something) Tj
+T*
+(  is uncertain, you will roll two d12s and add a...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 9000) Tj
+T*
+(- Slidenumber: 24) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 3a2ce783627cb51a | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002734 00000 n 
+0000002860 00000 n 
+0000007003 00000 n 
+0000007129 00000 n 
+0000009894 00000 n 
+0000010020 00000 n 
+0000010089 00000 n 
+0000010138 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+10210
+%%EOF

@@ -1,0 +1,79 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "keystone-asset",
+  "title": "Keystone Asset™",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "6b156329fecfd1c4",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "A massive lion-faced wardstone sealed as cargo. When exposed, it makes the air feel heavier, safer, and watched."
+    },
+    {
+      "title": "Public role",
+      "body": "Keystone Asset™, Emeris Crown Holdings: the ward-stone that keeps Emeris safe. It is failing and must be renewed at Open Vale."
+    },
+    {
+      "title": "Handout text",
+      "body": "Warning: sealed wardstone asset. Do not strike. Do not expose near unstable ward lines. Authorized keeper required for renewal."
+    },
+    {
+      "title": "GM truth",
+      "body": "It is a master wardstone sent from Emeris toward Hush to renew failing protection. The wider truth is that outer ward failures can be monetized, not that Emeris or Athervast begins with an empty socket."
+    },
+    {
+      "title": "GM handling",
+      "body": "Turn cargo into responsibility. The party starts paid to carry it; by Act Four they understand it protects communities and exposes the ward economy."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Discovery / Earn-It Mechanics",
+        "Player Safe: Players can inspect, handle, keep, trade, reveal, or earn Keystone Asset™ when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: Inside the sealed crate, packed in wax-paper and reassurance, sits a heavy grey stone the size of a loaf, warm to the touch, faintly humming, with a light deep inside it that is slowly going out. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-keystone-asset-engage-keystone-asset™ entity-keystone-asset Engage Keystone Asset™ Engage Keystone Asset™ Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Keystone Asset™ hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Condition Options: No official condition unless the item or clue physically creates Hidden, Restrained, or Vulnerable",
+        "Search Loot: Keystone Asset™, Emeris Crown Holdings: the ward-stone that keeps Emeris safe. It is failing and must be renewed at Open Vale. Provenance: Assigned by the job; not lootable."
+      ]
+    },
+    {
+      "title": "Profile",
+      "items": [
+        "Schema Version: item-profile-v1",
+        "Id: keystone-asset",
+        "Item Id: keystone-asset",
+        "Item Name: Keystone Asset™",
+        "Name: Keystone Asset™",
+        "Aliases: Keystone Asset sealed package the package sealed crate ward-stone",
+        "Pronunciation: KEE-stohn ASS-et",
+        "Item Kind: asset",
+        "Tier: Tier 1",
+        "Priority: P1",
+        "Mode: STORY/AD",
+        "Maker: Emeris Crown Holdings",
+        "Made Or Wild: corporate-made",
+        "Auto Surface: True",
+        "Discovered From Art: False",
+        "Player Safe: Keystone Asset™ Inside the sealed crate, packed in wax-paper and reassurance, sits a heavy grey stone the size of a loaf, warm to the touch, faintly humming, with a light deep inside it that is slowly going out. Inside the sealed crate, packed in wax-paper and reassurance, sits a heavy grey stone the size of a loaf, warm to the touch, faintly humming, with a light deep inside it that is slowly going out. Emeris Crown Holdings EMERIS CROWN HOLDINGS: Your Asset, Handled With Care. Fully insured against loss, theft, and most acts of god. Please do not open, touch, tilt, comfort, or speak to your Asset.",
+        "Block0: keystone-asset Keystone Asset™ Keystone Asset sealed package the package sealed crate ward-stone KEE-stohn ASS-et asset Tier 1",
+        "Block1: Inside the sealed crate, packed in wax-paper and reassurance, sits a heavy grey stone the size of a loaf, warm to the touch, faintly humming, with a light deep inside it that is slowly going out. Keystone Asset™, Emeris Crown Holdings: the ward-stone that keeps Emeris safe. It is failing and must be renewed at Open Vale. A genuine old protective ward-stone processed as insured freight. It is the whole job: a city's safety in a box on the party's cart. pages/entities/keystone-asset.html",
+        "Block2: Emeris Crown Holdings corporate-made EMERIS CROWN HOLDINGS: Your Asset, Handled With Care. Fully insured against loss, theft, and most acts of god. Please do not open, touch, tilt, comfort, or speak to your Asset. The label makes it sound routine. The stone is real civic magic that is dimming faster than the paperwork admits. Every label calls it an Asset. The Custodian calls it by its real name, and the room changes.",
+        "Block3: Reach the Whitefire Custodian and the Open Vale ritual. Sensing what it truly is uses Instinct 15 when the fiction supports it. item #module Story-item grammar: use this as access, leverage, texture, or roleplay benefit; add a mechanical bonus only if the listed effect grants one. Reach the Whitefire Custodian and the Open Vale ritual. Sensing what it truly is uses Instinct 15 when the fiction supports it. The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned. Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does. Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction. If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus. Give the item freely when...",
+        "Block4: Emeris Clerk Whitefire Custodian Emeris The Hanging Office Open ValeTM Ritual Site Story Asset Assigned by the job; not lootable. S00-01 S01-02 S04-04 S05-01 S05-06",
+        "Block5: Layer 1 - look A warm dimming stone in a branded crate. Layer 2 - hint The secrecy, warmth, and fading light point to civic magic, not cargo. Layer 3 - truth The Custodian reveals it as the ward-stone the ritual must renew. Open the crate. The Whitefire Custodian names it. Instinct 15 senses purpose and danger without explaining the hidden thesis. Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll.",
+        "Block6: A warm grey ward-stone with a dimming inner light, packed inside an over-branded ASSET crate covered in cheerful insurance stamps, wax seals, and do-not-touch tags. item wiki card and earned side-card visual Use the Run Mode item card's Show image button when the table sees or earns this item. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/keystone-asset/profile_base.png assets/item-images/keystone-asset/profile_base.webp Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark.",
+        "Visual Assets: profile_base Item profile image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/keystone-asset/profile_base.png assets/item-images/keystone-asset/profile_base.webp ready Keystone Asset™ item illustration. Inside the sealed crate, packed in wax-paper and reassurance, sits a heavy grey stone the size of a loaf, warm to the touch, faintly humming, with a light deep inside it that is slowly going out."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 6b156329fecfd1c4 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

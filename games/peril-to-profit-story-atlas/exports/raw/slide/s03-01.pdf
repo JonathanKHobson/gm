@@ -1,0 +1,629 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2754 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S03-01 - Arrival at Hush) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(A tall stone pillar rises beside the road, carved top to bottom with old protective) Tj
+T*
+(marks and newer brass stamps. As the carriage passes it, you feel a small sensation like) Tj
+T*
+(a bubble popping. The forest hush gives way to friendly chatter, tavern music, and) Tj
+T*
+(smiling faces turning to wave you in. The trees are still colossal, but here the air) Tj
+T*
+(feels safe. What do you do?) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Enter the village, get your bearings, and find the person who keeps this place safe.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: S03-01) Tj
+T*
+(- Type: scene) Tj
+T*
+(- Sectionid: ACT-THREE) Tj
+T*
+(- Sectiontitle: Act Three: Seeking a Custodian) Tj
+T*
+(- Title: Arrival at Hush) Tj
+T*
+(- Shorttitle: Arrival at Hush) Tj
+T*
+(- Order: 401) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: True) Tj
+T*
+(- Image: assets/scenes/S03-01-arrival-at-hush.png) Tj
+T*
+(- Alt: Arrival at Hush scene art for Seeking a Custodian.) Tj
+T*
+(- Caption: Hush must land as a warm place with jokes inside it, not as the joke.) Tj
+T*
+(- Mood: Seeking a Custodian) Tj
+T*
+(- Gmgoal: Run the ward-boundary crossing, the first welcome, and the first read of how) Tj
+T*
+(  prior choices affect Hush trust.) Tj
+T*
+(- Publicobjective: Enter the village, get your bearings, and find the person who keeps) Tj
+T*
+(  this place safe.) Tj
+T*
+(- Readaloud: A tall stone pillar rises beside the road, carved top to bottom with old) Tj
+T*
+(  protective marks and newer brass stamps. As the carriage passes it, you feel a small) Tj
+T*
+(  sensation like a bubble popping. The forest hush gives way to friendly chatter,) Tj
+T*
+(  tavern music, and smiling faces turning to wave you in. The trees are still) Tj
+T*
+(  colossal, but here the air feels safe. What do you do?) Tj
+T*
+(- Gmnotes: Hush people are sincere. Company marks are the unease. Player-safe) Tj
+T*
+(  language: old protective marks, newer official stamps, the ward, the package.) Tj
+T*
+(- Gmscript: Say: "That bubble-pop is the ward. You just crossed into protected ground.) Tj
+T*
+(  If you arrived with mercy behind you, the welcome feels warmer. If the road behind) Tj
+T*
+(  you was bloodier, the welcome is polite but watchful.") Tj
+T*
+(- Gmreadaloud: A tall stone pillar rises beside the road, carved with old protective) Tj
+T*
+(  marks and newer brass stamps. As the carriage passes it, you feel a small sensation) Tj
+T*
+(  like a bubble popping. The forest hush gives way to friendly chatter, tavern music,) Tj
+T*
+(  and smiling faces turning to wave you in.) Tj
+T*
+(- Gmchecklist: Read strixwolf_outcome / strixwolf_disposition, bramble_outcome,) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4156 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  bramble_truth_learned, and package_status. Set hush_trust baseline: high for) Tj
+T*
+(  mercy/parley, neutral for unknown, low for slaughter/extraction. Set ward_awareness) Tj
+T*
+(  to seed after the bubble-pop. If package_status is lost, name the blocked handoff) Tj
+T*
+(  privately and do not invent the recovery branch.) Tj
+T*
+(- Gmprivate: The brass stamps are corporate registration; keep that as a sharp-PC/GMer) Tj
+T*
+(  seed, not a player-facing explanation. If package_status=lost, the party can still) Tj
+T*
+(  seek the person who keeps Hush safe, but the normal handoff cannot resolve until) Tj
+T*
+(  Kyle confirms the recovery branch.) Tj
+T*
+(- Playertakeaway: You are inside protected ground, and the village is watching how you) Tj
+T*
+(  arrive.) Tj
+T*
+(- Storytakeaway: The ward is real, felt, and connected to the job before anyone) Tj
+T*
+(  explains how.) Tj
+T*
+(- Mechanictakeaway: First impressions are a mechanic here: carry-in choices set) Tj
+T*
+(  hush_trust, while Presence or Instinct 12 can read the welcome.) Tj
+T*
+(- Rollcards: s03-01-read-the-ward-boundary S03-01 Read the ward boundary Read the ward) Tj
+T*
+(  boundary Knowledge Instinct Knowledge Instinct 13 Knowledge reads old symbols;) Tj
+T*
+(  Instinct feels the boundary pop. Hush becomes a service endpoint instead of a home.) Tj
+T*
+(  Critical Success: best possible version of the action; gain Hope and clear 1 Stress.) Tj
+T*
+(  Add an extra benefit that follows from the fiction. Success with Hope: the PC gets) Tj
+T*
+(  what they wanted and gains Hope. Keep the position clean or generous. Success with) Tj
+T*
+(  Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost,) Tj
+T*
+(  complication, or pressure. Failure with Hope: the PC does not get the full result,) Tj
+T*
+(  but gains Hope and receives a useful thread, clue, or safer next option. Failure) Tj
+T*
+(  with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from) Tj
+T*
+(  the fiction. Hush becomes a service endpoint instead of a home. Use a hard) Tj
+T*
+(  complication, lost time, worse position, GM Fear, or mark Stress. Apply an official) Tj
+T*
+(  condition only if the fiction and rules justify it. The attempt falls short, but a) Tj
+T*
+(  partial thread appears. Offer one clue, weak position, or safer follow-up. The PC) Tj
+T*
+(  gets the core result, but it costs time, noise, leverage...) Tj
+T*
+(- Entityids: hush hushtm-community-enclave clover-co-op firstmoss-launch-festival) Tj
+T*
+(  guest-privileges the-sunless-farms faceless-six goldspire-territories tamsins-home-) Tj
+T*
+(  token lausa-standworth sableleaf-shoes vulnerable sablewoodtm-logistics-preserve) Tj
+T*
+(  sable-sap route-assurance-contract tamsin-vell sealed-keystone-crate the-grail) Tj
+T*
+(  ratcoons festival-moths sunless-farm-moss young-dryads) Tj
+T*
+(- Entities: hush Hush location Location assets/icons/location.png assets/location-) Tj
+T*
+(  visuals/hush/profile_scene_v02.png hush, like quiet A real village under corporate) Tj
+T*
+(  designation, protected by ward pillars. Make Hush feel worth protecting before the) Tj
+T*
+(  finale asks the party to protect it. The Village A small forest village, named only) Tj
+T*
+(  once the players ask where the package is going. Warm local community with jokes,) Tj
+T*
+(  food, arguments, work songs, children, elders, and a very real need for the ward to) Tj
+T*
+(  hold. Another season of safety, crops, music, ordinary life, and visitors who learn) Tj
+T*
+(  the old name before the corporate one. A real village under corporate designation,) Tj
+T*
+(  protected by ward pillars. hushtm-community-enclave Hush? Community Enclave location) Tj
+T*
+(  Location assets/icons/location.png assets/location-visuals/hushtm-community-) Tj
+T*
+(  enclave/profile_scene_v02.png hush kuh-MYOO-nih-tee EN-klayv Goldspire?s name for) Tj
+T*
+(  Hush; locals mostly ignore the trademark. Let the party feel the difference between) Tj
+T*
+(  arriving at a place and arriving at a label. Goldspire?s name for Hush; locals) Tj
+T*
+(  mostly ignore the trademark.; introduce it with a sensory palette, who feels safe) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3978 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  there, and what has been neglected. Pull player attention...) Tj
+T*
+(- Factionids: clover-co-op faceless-six) Tj
+T*
+(- Locationids: hush hushtm-community-enclave clover-co-op firstmoss-launch-festival) Tj
+T*
+(  goldspire-territories the-sunless-farms) Tj
+T*
+(- Itemids: sableleaf-shoes sable-sap tamsins-home-token) Tj
+T*
+(- Clueids: route-assurance-contracttm the-patched-everything the-tired-smile) Tj
+T*
+(- Worldconnectionprompts: S03-01-clover-co-op-world-connection clover-co-op The Clover) Tj
+T*
+(  Co-op Somewhere out here once felt like home for a night. Tell us about it.) Tj
+T*
+(  S03-01-faceless-six-world-connection faceless-six The Faceless Six Somewhere out) Tj
+T*
+(  here once felt like home for a night. Tell us about it.) Tj
+T*
+(- Statecontrols: strixwolf_disposition Strixwolf Disposition select unresolved calm) Tj
+T*
+(  hostile killed package_status Package Status select held lost hush_trust Hush Trust) Tj
+T*
+(  select low neutral high ward_awareness Ward Awareness select none seed aware) Tj
+T*
+(  strixwolf_outcome Strixwolf Outcome select unresolved calmed helped avoided attacked) Tj
+T*
+(  killed bramble_outcome Bramble Outcome select unresolved killed captured spared) Tj
+T*
+(  negotiated escaped let_cargo bramble_truth_learned Bramble Truth Learned checkbox) Tj
+T*
+(- Mechanicids: presence knowledge experiences help-an-ally npc-community-trust-track) Tj
+T*
+(  instinct hope fear table-spotlight) Tj
+T*
+(- Playerquestions: What detail in Arrival at Hush tells you the official story is) Tj
+T*
+(  incomplete? Who notices the human cost first, and how do they show it? What small) Tj
+T*
+(  object, smell, or sound makes this scene feel real?) Tj
+T*
+(- Relationshipprompts: Which PC quietly checks on someone else here? Who disagrees) Tj
+T*
+(  about the right thing to do without breaking trust?) Tj
+T*
+(- Ownershipprompt: Name one detail in Arrival at Hush that belongs to your character's) Tj
+T*
+(  point of view.) Tj
+T*
+(- Fearspends: Spend Fear to make trust cost time, reveal a local fear, or show a ward) Tj
+T*
+(  symptom that locals have normalized. Make trust cost time, humility, or a public) Tj
+T*
+(  apology. Show a ward symptom locals have normalized because nobody official) Tj
+T*
+(  listened.) Tj
+T*
+(- Choicesconsequences: Enter humbly Locals wave, ask if the road was hard, and offer a) Tj
+T*
+(  first direction. Set or keep hush_trust at neutral/high. S03-02 starts with easier) Tj
+T*
+(  directions and more honest answers. hush_trust neutral/high benefit player-visible) Tj
+T*
+(  Enter as contract authority The welcome stays polite, but the room watches the) Tj
+T*
+(  carriage more than the people. Set or keep hush_trust low/neutral. S03-02 directions) Tj
+T*
+(  stay vague until someone earns warmth. hush_trust low/neutral penalty player-visible) Tj
+T*
+(  Ask about the ward-marker A local says it keeps the forest out and everyone in town) Tj
+T*
+(  sleeps easier for it. Knowledge 13 can read old ward-work; Instinct 12 catches the) Tj
+T*
+(  watched feeling. ward_awareness moves to seed and Act 4's reveal lands less) Tj
+T*
+(  abruptly. ward_awareness seed benefit with unease spoiler-gated Arrive without the) Tj
+T*
+(  package The surface errand becomes tense: they can find the keeper, but cannot) Tj
+T*
+(  complete the handoff. package_status=lost blocks normal delivery resolution. Act 4) Tj
+T*
+(  handoff needs Kyle-confirmed recovery branch before it resolves. package_status lost) Tj
+T*
+(  penalty / unresolved canon GM-only) Tj
+T*
+(- Lootclues: Clover Co-op gift table if trust is earned Shoe-line trinket: a tiny) Tj
+T*
+(  local object appears in a PC's boots and hints at a coming challenge. Sableleaf) Tj
+T*
+(  Shoes: A pair of shoes sewn entirely from broad sablewood leaves sits light as) Tj
+T*
+(  breath, green-veined, and already leaning toward motion. Sable Sap: Warm amber sap) Tj
+T*
+(  beads from a crack in a huge trunk like the tree is breathing it out. It smells of) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4093 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  honey, woodsmoke, and something older. Tamsin's Home-Token: A small thumb-polished) Tj
+T*
+(  token on a cord hangs beside the torn blue scarf, warm from wear and etched with a) Tj
+T*
+(  tiny house mark instead of a company seal.) Tj
+T*
+(- Handoutids: Local caution Guaranteed seed) Tj
+T*
+(- Sourcesceneslug: S03-01-arrival-at-hush) Tj
+T*
+(- Sourcefiles: dist/Act3_Upgrade_Packet/ACT3_SCENE_UPGRADES.md) Tj
+T*
+(  dist/Act3_Upgrade_Packet/ACT3_PER_CHARACTER.md) Tj
+T*
+(- References: Hush hub #MAP-LOC-hush Official sign lens #MAP-LOC-hushtm-community-) Tj
+T*
+(  enclave Local clues #S03-02) Tj
+T*
+(- Storyscope: Perceived antagonist: the forest. True antagonist: the corporate lie) Tj
+T*
+(  about the forest. The players never confront it directly. They are meant to feel it) Tj
+T*
+(  by the end. Every act offers at least one guaranteed and one earned hint that the) Tj
+T*
+(  danger is manufactured and the forest is not the enemy. A Grail "Protection) Tj
+T*
+(  Coverage" invoice hangs on the Clover Co-op wall, overdue and steep. ADD GUARANTEED) Tj
+T*
+(  Firstmoss and the Sunless Farms show the forest feeding Hush rather than hunting it.) Tj
+T*
+(  REFLAVOR GUARANTEED An elder says, "The wood was never this bad. The trouble came) Tj
+T*
+(  with the waymarkers." ADD EARNED Presence Easy 10 A ledger shows protection costs) Tj
+T*
+(  and hazard sightings climbing together. ADD EARNED Knowledge Medium 15 A Grail) Tj
+T*
+(  "Protection Coverage" invoice hangs on the Clover Co-op wall, overdue and steep. ADD) Tj
+T*
+(  GUARANTEED Presence: get people talking. Knowledge: read invoice/ledger. Instinct:) Tj
+T*
+(  sense resentment under hospitality. ACT3 Act 3: Hush 125 1:30 to 2:05 2:05 social) Tj
+T*
+(  beat, Co-op, local leads, optional break Trim village wandering to the invoice plus) Tj
+T*
+(  one elder line; point to the Custodian.) Tj
+T*
+(- Livetools: scene MAP-LOC-hush MAP-LOC-hushtm-community-enclave MAP-LOC-firstmoss-) Tj
+T*
+(  launch-festival MAP-LOC-goldspire-territories MAP-LOC-the-sunless-farms MAP-LOC-) Tj
+T*
+(  clover-co-op) Tj
+T*
+(- Percharacterlayer: marlowe-fairwind Marlowe Fairwind Ward resonance The bubble-pop) Tj
+T*
+(  rings through the sealed package like a plucked string. Knowledge 13 The ward is) Tj
+T*
+(  sophisticated, old, fading, and needs renewal. Do not name the package's true) Tj
+T*
+(  nature. Can make the package feel meaningfully tied to Hush without revealing the) Tj
+T*
+(  truth. Marlowe, the package answers the ward-pop for one heartbeat. Want to feel) Tj
+T*
+(  into that? varian-soto Varian Soto Manufactured safety scent Smells the boundary) Tj
+T*
+(  exactly: wild forest outside, scrubbed and muted air inside. Instinct 12 The safe) Tj
+T*
+(  air is artificial; the wildness is held back, not gone. Can tell the party where the) Tj
+T*
+(  ward line actually sits. Varian, your nose says this safety is manufactured, not) Tj
+T*
+(  natural. Want to name what that feels like? garrick-reed Garrick Reed Compliance) Tj
+T*
+(  stamps Recognizes the brass stamps as corporate registration, not decoration. Can) Tj
+T*
+(  quietly warn the party that the official marks mean ownership or oversight. Garrick,) Tj
+T*
+(  those stamps are company paperwork bolted onto something old. Want to clock it?) Tj
+T*
+(  barnacle Barnacle Too-smooth welcome Reads the welcome as warm but measured; someone) Tj
+T*
+(  is counting newcomers a beat too long. Instinct 12 Spots the watcher...) Tj
+T*
+(- Takeawayhelp: Player takeaway You are inside protected ground, and the village is) Tj
+T*
+(  watching how you arrive. "You are safe enough to breathe, but not invisible. Hush) Tj
+T*
+(  sees how you carry yourselves into its home." "You can greet someone, head toward) Tj
+T*
+(  the music, inspect the marker, ask who keeps the ward working, or check the package) Tj
+T*
+(  before leaving the carriage." The immediate playable choice is posture: humble) Tj
+T*
+(  guest, official courier, curious investigator, or guarded protector. presence) Tj
+T*
+(  instinct knowledge Story takeaway The ward is real, felt, and connected to the job) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 4225 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  before anyone explains how. "That bubble-pop was the ward. This whole village trusts) Tj
+T*
+(  that feeling every day." "The marker has old protective carvings and newer official) Tj
+T*
+(  stamps. Player-safe answer: old protection, newer paperwork. Sharp read: someone) Tj
+T*
+(  registered this protection." Seed the connection: ward felt at entry, package still) Tj
+T*
+(  sealed, person-who-keeps-it-safe not yet reached. presence instinct knowledge) Tj
+T*
+(  Mechanic takeaway First impressions are a mechanic here: carry-in choices set) Tj
+T*
+(  hush_trust, while Presence or Instinct 12 can read the welcome. "Crossing itself is) Tj
+T*
+(  automatic. If you want to read the welcome, roll Presence or...) Tj
+T*
+(- Playerbeats: S03-01-marker The marker The ward marker assets/scenes/S03-01-arrival-) Tj
+T*
+(  at-hush.png Arrival at Hush scene art for Seeking a Custodian. A carved roadside) Tj
+T*
+(  pillar marks the village boundary. The old symbols feel protective; the brass stamps) Tj
+T*
+(  feel newer and official. A carved roadside pillar marks the village boundary. The) Tj
+T*
+(  old symbols feel protective; the brass stamps feel newer and official. A carved) Tj
+T*
+(  roadside pillar marks the village boundary. The old symbols feel protective; the) Tj
+T*
+(  brass stamps feel newer and official. image-title-caption S03-01-bubble-pop Bubble-) Tj
+T*
+(  pop Crossing the ward assets/scenes/S03-01-arrival-at-hush.png Arrival at Hush scene) Tj
+T*
+(  art for Seeking a Custodian. As you pass the pillar, the air pops around you like) Tj
+T*
+(  crossing through a soap bubble. The forest quiet changes all at once. As you pass) Tj
+T*
+(  the pillar, the air pops around you like crossing through a soap bubble. The forest) Tj
+T*
+(  quiet changes all at once. As you pass the pillar, the air pops around you like) Tj
+T*
+(  crossing through a soap bubble. The forest quiet changes all at once. text-first) Tj
+T*
+(  S03-01-welcome The welcome A safe welcome assets/scenes/S03-01-arrival-at-hush.png) Tj
+T*
+(  Arrival at Hush scene art for Seeking a Custodian. Music...) Tj
+T*
+(- Gmbeats: S03-01-marker The marker The ward marker Say: "The pillar is old protection) Tj
+T*
+(  with newer official stamps bolted into it. Your bodies notice it before your brains) Tj
+T*
+(  finish reading it." A carved roadside pillar marks the village boundary. The old) Tj
+T*
+(  symbols feel protective; the brass stamps feel newer and official. The safe village) Tj
+T*
+(  begins with protection layered under paperwork. Knowledge reads ward-work; Instinct) Tj
+T*
+(  reads unease. Players see the boundary object clearly. Player takeaway Players see) Tj
+T*
+(  the boundary object clearly. "The pillar is old protection with newer official) Tj
+T*
+(  stamps bolted into it. Your bodies notice it before your brains finish reading it.") Tj
+T*
+(  "The playable fact is: A carved roadside pillar marks the village boundary. The old) Tj
+T*
+(  symbols feel protective; the brass stamps feel newer and official." Concrete actions) Tj
+T*
+(  for this beat: talk to a person present, inspect the named detail, help an ally, or) Tj
+T*
+(  choose whether to move toward the Custodian route. knowledge instinct Story takeaway) Tj
+T*
+(  The safe village begins with protection layered under paperwork. "The pillar is old) Tj
+T*
+(  protection with newer official stamps bolted into it. Your bodies notice it before) Tj
+T*
+(  your brains finish reading it."...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 8000) Tj
+T*
+(- Playersafeprojection: S03-01 scene Arrival at Hush assets/scenes/S03-01-arrival-at-) Tj
+T*
+(  hush.png Arrival at Hush scene art for Seeking a Custodian. Hush must land as a warm) Tj
+T*
+(  place with jokes inside it, not as the joke. Seeking a Custodian Enter the village,) Tj
+T*
+(  get your bearings, and find the person who keeps this place safe. A tall stone) Tj
+T*
+(  pillar rises beside the road, carved top to bottom with old protective marks and) Tj
+T*
+(  newer brass stamps. As the carriage passes it, you feel a small sensation like a) Tj
+T*
+(  bubble popping. The forest hush gives way to friendly chatter, tavern music, and) Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 1163 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  smiling faces turning to wave you in. The trees are still colossal, but here the air) Tj
+T*
+(  feels safe. What do you do? S03-01-marker The marker The ward marker) Tj
+T*
+(  assets/scenes/S03-01-arrival-at-hush.png Arrival at Hush scene art for Seeking a) Tj
+T*
+(  Custodian. A carved roadside pillar marks the village boundary. The old symbols feel) Tj
+T*
+(  protective; the brass stamps feel newer and official. A carved roadside pillar marks) Tj
+T*
+(  the village boundary. The old symbols feel protective; the brass stamps feel newer) Tj
+T*
+(  and official. A carved roadside pillar marks the village boundary. The old symbols) Tj
+T*
+(  feel protective; the brass stamps feel newer and official...) Tj
+T*
+(- Companionmapids: MAP-LOC-hush MAP-LOC-hushtm-community-enclave MAP-LOC-firstmoss-) Tj
+T*
+(  launch-festival MAP-LOC-goldspire-territories MAP-LOC-the-sunless-farms MAP-LOC-) Tj
+T*
+(  clover-co-op) Tj
+T*
+(- Slidenumber: 40) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash d8d63c6bc3eb1ff6 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R 12 0 R] /Count 6 >>
+endobj
+14 0 obj
+<< /Type /Catalog /Pages 13 0 R >>
+endobj
+15 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000009 00000 n 
+0000002815 00000 n 
+0000002943 00000 n 
+0000007151 00000 n 
+0000007279 00000 n 
+0000011309 00000 n 
+0000011437 00000 n 
+0000015582 00000 n 
+0000015710 00000 n 
+0000019987 00000 n 
+0000020116 00000 n 
+0000021332 00000 n 
+0000021462 00000 n 
+0000021552 00000 n 
+0000021603 00000 n 
+trailer
+<< /Size 16 /Root 14 0 R >>
+startxref
+21676
+%%EOF

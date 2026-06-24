@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "strixwolf-mother",
+  "kind": "entity",
+  "title": "Strixwolf Mother",
+  "in_world_label": "Field Guide Page",
+  "brand_flag": "Player-safe",
+  "kicker": "a huge owl-faced wolf mother guarding her pups near the wreck",
+  "hook": "a huge owl-faced wolf mother guarding her pups near the wreck",
+  "blocks": [
+    {
+      "label": "Observed Form",
+      "body": "A huge owl-wolf mother crouches around her pups, barred feathers and fur bristling, amber eyes fixed on any hand that comes too close."
+    },
+    {
+      "label": "Behavior",
+      "body": "Low, protective, ready to retreat if retreat becomes safer than warning."
+    },
+    {
+      "label": "Warning Signs",
+      "body": "A sudden rush toward the pups, fire, and cornered noise."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Give it distance before deciding it is hostile.",
+    "Read posture, tracks, and what it is protecting."
+  ],
+  "archetype": "creature.field_guide",
+  "disclosure_tier": "standard",
+  "featured": true,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:strixwolf-mother",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "4793e79d1664a358",
+  "generated_at": "2026-06-23T21:40:58"
+}

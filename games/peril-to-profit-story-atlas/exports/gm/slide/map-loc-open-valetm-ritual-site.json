@@ -1,0 +1,64 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "MAP-LOC-open-valetm-ritual-site",
+  "title": "MAP-LOC-open-valetm-ritual-site - Open Vale™ Ritual Site Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "bf888b9fada9fea4",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The trees break around an old clearing of standing stones, wet grass, and pale ward-light. Official markers call it Open Vale, but the place feels older than the paperwork and more awake than a ruin."
+    },
+    {
+      "title": "Public objective",
+      "body": "The trees break around an old clearing of standing stones, wet grass, and pale ward-light. Official markers call it Open Vale, but the place feels older than the paperwork and more awake than a ruin."
+    },
+    {
+      "title": "GM goal",
+      "body": "The climax. A perfect circular clearing — the only break in the canopy — where the Custodian first forged Hush's ward pillars. The party takes a Short Rest, then defends her through the ward-renewal ritual against waves of skeletons and Soul-Audit Wraiths while a countdown die ticks. Win condition: survive until the ritual completes, not \"kill everything.\""
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "Hub map: one place, multiple finale beats. Do not send players wandering into a new node."
+      ]
+    },
+    {
+      "title": "GM script",
+      "body": "Say: \"This is the finale hub. Use it for arrival, the Short Rest, the ritual start, the completion, and the transition to the report choice. Set the ritual countdown to 8. Each meaningful adversary defeat or pressure neutralized ticks it down by 1. Each Custodian hit or unprotected exposure ticks it up by 1. Clamp it between 0 and 10; at 0 the ward locks and the table moves to S05-07.\""
+    },
+    {
+      "title": "State controls",
+      "items": [
+        "strixwolf_disposition Strixwolf Disposition select unresolved calm hostile killed",
+        "strixwolf_outcome Strixwolf Outcome select unresolved calmed helped avoided attacked killed",
+        "strixwolf_trust Strixwolf Trust number 3",
+        "strixwolf_blood_debt Strixwolf Blood Debt checkbox",
+        "bramble_outcome Bramble Outcome select unresolved killed captured spared negotiated escaped let_cargo",
+        "bramble_truth_learned Bramble Truth Learned checkbox",
+        "package_status Package Status select held lost",
+        "hush_trust Hush Trust select low neutral high",
+        "custodian_route Custodian Route select unknown safe dangerous",
+        "ward_awareness Ward Awareness select none seed aware",
+        "festival_boon Festival Boon select none charm favor market_find goodwill",
+        "custodian_trust Custodian Trust select low neutral high",
+        "ward_stability Ward Stability select fragile stable",
+        "ritual_prep Ritual Prep select unready ready",
+        "keystone_understanding Keystone Understanding select surface deep",
+        "hush_clues Hush Clues select none custodian_route ward_seed corporate_seam farm_seed market_rumor multiple",
+        "ritual_countdown Ritual Countdown number 10 8",
+        "ritual_outcome Ritual Outcome select unresolved clean costly pyrrhic",
+        "protected_whom Protected Whom select unresolved custodian party hush shared",
+        "custodian_fate Custodian Fate select unresolved well drained dying"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash bf888b9fada9fea4 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "SABLEWOOD-GUIDE",
+  "kind": "slide",
+  "title": "SABLEWOOD-GUIDE - Sablewood Field Guide",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Sablewood Field Guide",
+  "hook": "Sablewood is old, lush, dangerous, and bigger than the route contract.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "Sablewood is old, lush, dangerous, and bigger than the route contract."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Sablewood is old, lush, dangerous, and bigger than the route contract."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:SABLEWOOD-GUIDE",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "38f33ac6fd61f91a",
+  "generated_at": "2026-06-23T21:40:58"
+}

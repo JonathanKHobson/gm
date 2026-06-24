@@ -1,0 +1,87 @@
+# CHEAT-GM - GM Rules Reference
+
+GM export - slide:CHEAT-GM
+
+## GM goal
+Find any rule fast without leaving Run Mode.
+
+## GM notes
+- Roll in 10 Seconds: Use this when a player asks what to roll.
+- • Pick the trait that matches the approach.
+- • Set the Difficulty before the roll matters.
+- • State the stakes.
+- • Roll Hope d12 + Fear d12.
+- • Add trait, Experience, and bonuses.
+- • Compare total to Difficulty.
+- Action Roll Results: Read total first, then Hope/Fear spin.
+- • Critical Success: best outcome, gain Hope, clear 1 Stress.
+- • Success with Hope: they get it and gain Hope.
+- • Success with Fear: they get it, but cost or pressure enters.
+- • Failure with Hope: they miss, but gain Hope and a useful thread.
+- • Failure with Fear: they miss and the GM makes a stronger move.
+- Difficulty Ladder: Beginner hinges often sit around 10-14.
+- • Very Easy 5.
+- • Easy 10.
+- • Average 15.
+- • Hard 20.
+- • Very Hard 25.
+- • Nearly Impossible 30.
+- Six Traits: Translate the fictional approach, not the D&D skill name.
+- • Agility: sprint, leap, maneuver.
+- • Strength: lift, smash, grapple.
+- • Finesse: control, hide, tinker.
+- • Instinct: perceive, sense, navigate.
+- • Presence: charm, perform, deceive.
+- • Knowledge: recall, analyze, comprehend.
+- D&D to Daggerheart: Convert the instinct quickly, then move on.
+- • Perception -> Instinct.
+- • Saving throw/save -> Reaction Roll.
+- • AC -> Evasion.
+- • Initiative -> Spotlight flow.
+- • Skill check -> Action Roll.
+- Hope Spend Menu: Give players fast ways to help themselves and each other.
+- • Help an Ally.
+- • Use an Experience.
+- • Tag Team Roll.
+- • Use a Hope Feature.
+- Fear Spend Menu: Spend Fear to escalate what the fiction already set up.
+- • Make or interrupt with a GM move.
+- • Make an extra move when pressure justifies it.
+- • Spotlight an additional adversary.
+- • Use an adversary or environment Fear feature.
+- • Add an adversary Experience when the stat block supports it.
+- Combat / Spotlight Loop: No initiative list; pass spotlight through the fiction.
+- • Spotlight follows immediate fictional pressure.
+- • PC action roll targets adversary Difficulty.
+- • Adversary attack: d20 + ATK vs PC Evasion.
+- • GM acts on failures, rolls with Fear, and Fear spends.
+- Damage / Armor / Stress: Compare damage to thresholds; do not improvise a condition.
+- • Compare damage to the target's thresholds.
+- • Mark HP by damage severity.
+- • Mark an Armor Slot to reduce severity by one threshold.
+- • If Stress maxes, the PC becomes Vulnerable until at least 1 Stress clears.
+- • Last HP points to the Death Move / quickstart handling.
+- Official Conditions: Only these global conditions belong in the Atlas.
+- • Hidden.
+- • Restrained.
+- • Vulnerable.
+- Short Rest: Use before Open Vale pressure spikes.
+- • Tend to Wounds.
+- • Clear Stress.
+- • Repair Armor.
+- • Prepare.
+- • Check official loadout/vault swap text from the sheet or SRD.
+- Countdown: Make pressure visible and explain what a tick means.
+- • Name what the countdown represents.
+- • Tick it when the fiction or result calls for pressure.
+- • Use the Open Vale ritual countdown as module pressure, not a condition.
+- Beginner Teaching Script: Keep the explanation short enough to resume play.
+- • Two d12s: Hope and Fear.
+- • The total decides success against Difficulty.
+- • The higher die decides whether Hope or Fear colors the result.
+- • Traits replace D&D skills.
+- • Damage compares to thresholds; Armor can reduce severity.
+- • There is no initiative order; spotlight follows the fiction.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 1032b0911b0e1361 | Source hash dac3370046ed077140fab2d6

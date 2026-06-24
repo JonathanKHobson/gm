@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "simrith-luhaj",
+  "kind": "entity",
+  "title": "Simrith Luhaj",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "A coy, intelligent, flirtatious giant with an old burn scar and a stated ambition to train a Phoenix.",
+  "hook": "A coy, intelligent, flirtatious giant with an old burn scar and a stated ambition to train a Phoenix.",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "A giant fire-falcon trainer stands in ember light with black curls, ash-red cloth, burned cheek marks, and a feather lure glowing like a private dare."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "Coy danger wrapped around a fierce protectiveness. Carries a burn from stepping between a frightened fire-falcon and the buyer who called it merchandise. Wants to train living fire without letting anyone reduce it to spectacle or a weapon."
+    },
+    {
+      "label": "Might Offer",
+      "body": "A question to ask A local perspective A grounded reason this place matters"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "A question to ask",
+    "A local perspective",
+    "A grounded reason this place matters"
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:simrith-luhaj",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "df67c34e6e930b44",
+  "generated_at": "2026-06-23T21:40:58"
+}

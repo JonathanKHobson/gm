@@ -1,0 +1,54 @@
+# The Late Tracks
+
+GM export - entity:the-late-tracks
+
+## Player-facing description
+The Late Tracks: The creature's prints lie on top of the wheel-ruts and the dragging marks — it arrived after everything else was already done.
+
+## Public role
+Clue / evidence
+
+## Handout text
+Player-safe note: The creature's prints lie on top of the wheel-ruts and the dragging marks — it arrived after everything else was already done.
+
+## GM truth
+Use this element to reveal the cost of managed protection through concrete play.
+
+## GM handling
+Use when players need a tangible handle on the scene's pressure.
+
+## Mechanics
+- Title: Discovery / Earn-It Mechanics
+- Player Safe: Players can inspect, handle, keep, trade, reveal, or earn The Late Tracks when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: The creature's prints lie on top of the wheel-ruts and the dragging marks — it arrived after everything else was already done. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-the-late-tracks-engage-the-late-tracks entity-the-late-tracks Engage The Late Tracks Engage The Late Tracks Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of The Late Tracks hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless the item or clue physically creates Hidden, Restrained, or Vulnerable
+- Search Loot: Player-safe note: The creature's prints lie on top of the wheel-ruts and the dragging marks — it arrived after everything else was already done.
+
+## Profile
+- Schema Version: clue-profile-v1
+- Id: the-late-tracks
+- Clue Id: the-late-tracks
+- Clue Name: The Late Tracks
+- Name: The Late Tracks
+- Pronunciation: the LAYT TRAKS
+- Clue Kind: environmental
+- Auto Surface: True
+- Atlas Lore Note: [Atlas lore - confirm or override]
+- Player Safe: The Late Tracks The creature's prints lie on top of the wheel-ruts and the dragging marks — it arrived after everything else was already done. The creature's prints lie on top of the wheel-ruts and the dragging marks — it arrived after everything else was already done. The creature's prints lie on top of the wheel-ruts and the dragging marks — it arrived after everything else was already done.
+- Block0: the-late-tracks The Late Tracks the LAYT TRAKS environmental
+- Block1: chronology clears it — it showed up post-wreck. OBVIOUS The Creature Is Innocent the-creature-is-innocent Lets the table choose mercy and see nature contradict the opening propaganda. pages/entities/the-late-tracks.html pages/clues/the-creature-is-innocent.html
+- Block2: The creature's prints lie on top of the wheel-ruts and the dragging marks — it arrived after everything else was already done. chronology clears it — it showed up post-wreck.
+- Block3: "its tracks are on top of the others." "it got here after the cart was already wrecked." "it couldn't have caused this — it came later." "the timeline proves the creature is innocent."
+- Block4: Overturned Wheel Ruts Feeding Not Hunting overturned-wheel-ruts
+- Block5: S01-02 Overturned Vendor Cart Strixwolf Mother Instinct/Knowledge 12. clues/The_Creature_Is_Innocent.md
+- Block6: OPTIONAL Use this clue to support The Creature Is Innocent: chronology clears it — it showed up post-wreck. whisper
+- Block8: Bright, saturated storybook evidence illustration; clear hero shot of the actual clue object or scene detail; whimsical frontier-Renaissance materials; warm light; bright dystopian corporate satire when branded; no gore, no UI, no watermark, no repeated icon. Depict: paw-prints clearly layered on top of wheel-ruts. clue wiki card and Player Display evidence visual Send the image and SHOW text only. Keep TELL, points_to, and blunt ladder rungs GM-only until earned. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/the-late-tracks/profile_base.png assets/clue-images/the-late-tracks/profile_base.webp Bright, saturated storybook evidence illustration; clear hero shot of the actual clue object or scene detail; whimsical frontier-Renaissance materials; warm light; bright dystopian corporate satire when branded; no gore, no UI, no watermark, no repeated icon.
+- Block9: Official Daggerheart action roll using Duality Dice, Hope, Fear, and Difficulty; P2P Roll Slider is the table-facing result ladder. Agility move, climb, dodge, reach a better angle, or read evidence while moving Strength lift, hold, force, carry, break, or test weight and pressure Finesse handle, hide, tinker, compare, pick apart, or notice precise detail Instinct perceive, smell, listen, track, read danger, or sense body language Presence charm, soothe, press, lead, deceive, perform, or read a social response Knowledge recall, analyze, investigate, reason from lore, or understand systems Finesse D12 Instinct D12 Knowledge D12 If the clue is plainly visible, give the SHOW text freely first: The creature's prints lie on top of the wheel-ruts and the dragging marks — it arrived after everything else was already done. Use the listed Difficulty for the chosen trait. Lower rolls get partial...
+- Mechanicids: duality-dice hope fear difficulty roll-slider clue-discovery
+- Visual Assets: profile_base Clue evidence image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/the-late-tracks/profile_base.png assets/clue-images/the-late-tracks/profile_base.webp ready The Late Tracks clue image. The creature's prints lie on top of the wheel-ruts and the dragging marks — it arrived after everything else was already done.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash a199dc6a26242aab | Source hash dac3370046ed077140fab2d6

@@ -1,0 +1,42 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "SZ-01B",
+  "kind": "slide",
+  "title": "SZ-01B - Rating / Content Notes",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Session Zero",
+  "hook": "Think adult PG-13-ish fantasy adventure. There will be combat and danger, but violence descriptions stay light unless the table chooses to make a moment more intense.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "Think adult PG-13-ish fantasy adventure. There will be combat and danger, but violence descriptions stay light unless the table chooses to make a moment more intense."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Think adult PG-13-ish fantasy adventure. There will be combat and danger, but violence descriptions stay light unless the table chooses to make a moment more intense."
+    },
+    {
+      "label": "Player Bullets",
+      "body": "This is an adult game, but not a grimdark or graphic game. Likely content: combat, peril, ambushes, monsters, undead, corporate exploitation, fear or memory magic, and morally complicated choices. Animal peril may..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "This is an adult game, but not a grimdark or graphic game.",
+    "Likely content: combat, peril, ambushes, monsters, undead, corporate exploitation, fear or memory magic, and morally complicated choices.",
+    "Animal peril may appear. Violence against animals is optional and can be softened, avoided, or redirected.",
+    "If anything I describe or any action at the table makes you uncomfortable, say pause, slow down, rewind, or break."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:SZ-01B",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "f14beb4deb313381",
+  "generated_at": "2026-06-23T21:40:58"
+}

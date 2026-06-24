@@ -1,0 +1,48 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "level-up",
+  "title": "Level Up",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "3413e09650cf4e47",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "The reward beat where the one-shot acknowledges growth and players mark advancement."
+    },
+    {
+      "title": "How it works",
+      "body": "Use in the epilogue after the danger is over and before sequel hooks."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use in the epilogue after the danger is over and before sequel hooks.",
+        "Yes. In the epilogue, level up, take the reward, and let the table name what changed.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "Do we level up?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "roleplay",
+        "table-spotlight"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 3413e09650cf4e47 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

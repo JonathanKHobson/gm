@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "MAP-LOC-the-lucent-river",
+  "kind": "slide",
+  "title": "MAP-LOC-the-lucent-river - The Lucent River Location Map",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act Three: Seeking a Custodian",
+  "hook": "The Lucent River carries blue light through Sablewood like a road that refuses to become a road.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "The Lucent River carries blue light through Sablewood like a road that refuses to become a road."
+    },
+    {
+      "label": "Public Objective",
+      "body": "The Lucent River carries blue light through Sablewood like a road that refuses to become a road."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:MAP-LOC-the-lucent-river",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "822c2bd57d2cbc24",
+  "generated_at": "2026-06-23T21:40:58"
+}

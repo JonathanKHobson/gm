@@ -1,0 +1,524 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2426 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S01-01 - Entering Sablewood) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The last warded marker slips behind you. Ahead, the road narrows and the old forest) Tj
+T*
+(closes around the carriage.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Cross from the contract briefing into the forest road. The next thing ahead blocks the) Tj
+T*
+(path.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: S01-01) Tj
+T*
+(- Type: scene) Tj
+T*
+(- Sectionid: PROLOGUE) Tj
+T*
+(- Sectiontitle: Prologue: The Contract) Tj
+T*
+(- Title: Entering Sablewood) Tj
+T*
+(- Shorttitle: Entering Sablewood) Tj
+T*
+(- Order: 102) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: True) Tj
+T*
+(- Image: assets/scenes/S01-01-entering-sablewood.png) Tj
+T*
+(- Alt: Entering Sablewood scene art for Act 0 - The Contract.) Tj
+T*
+(- Caption: Threshold transition into the ancient forest.) Tj
+T*
+(- Mood: Act 0 - The Contract) Tj
+T*
+(- Gmgoal: The carriage crosses from city-controlled road into a vast ancient forest) Tj
+T*
+(  and hands off to Act One.) Tj
+T*
+(- Publicobjective: Cross from the contract briefing into the forest road. The next) Tj
+T*
+(  thing ahead blocks the path.) Tj
+T*
+(- Readaloud: The last warded marker slips behind you. Ahead, the road narrows and the) Tj
+T*
+(  old forest closes around the carriage.) Tj
+T*
+(- Gmnotes: Ask one player what comforting lie a corporate sign tells travelers. Use) Tj
+T*
+(  their answer later as irony. Keep player-facing information actionable. Reveal) Tj
+T*
+(  systemic truth through objects, reactions, and consequences before naming it.) Tj
+T*
+(  Manufactured-threat lens: seed the contradiction, do not explain it. The surface) Tj
+T*
+(  goal stays simple and heroic.) Tj
+T*
+(- Gmscript: The last warded marker slips behind you. The road narrows, the city noise) Tj
+T*
+(  thins, and the forest rises around the carriage like a green wall. Who has the) Tj
+T*
+(  reins, and what is the first strange detail your character notices about these) Tj
+T*
+(  trees?) Tj
+T*
+(- Gmchecklist: Ask who is driving the carriage. Ask one player what is unique about) Tj
+T*
+(  these trees. Move to the blocked road before the threshold becomes a full travel) Tj
+T*
+(  scene.) Tj
+T*
+(- Gmprivate: The signs and warded marker are quiet seeds: safety here is built,) Tj
+T*
+(  branded, and sold. Act One should begin with the Vendor Cart, not another) Tj
+T*
+(  orientation slide.) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4037 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Playertakeaway: The setting has changed; the forest is now part of the story.) Tj
+T*
+(- Storytakeaway: The party leaves managed civilization for a living place the company) Tj
+T*
+(  only claims to control.) Tj
+T*
+(- Mechanictakeaway: Ask one worldbuilding prompt. The first action roll arrives in the) Tj
+T*
+(  next scene.) Tj
+T*
+(- Rollcards: s01-01-handle-the-carriage-on-the-sunken-road S01-01 Handle the carriage) Tj
+T*
+(  on the sunken road Handle the carriage on the sunken road Agility Strength Agility) Tj
+T*
+(  Strength 12 Agility keeps wheels and bodies moving; Strength holds the carriage) Tj
+T*
+(  steady. A wheel cracks or the cargo jolts before the incident. Critical Success:) Tj
+T*
+(  best possible version of the action; gain Hope and clear 1 Stress. Add an extra) Tj
+T*
+(  benefit that follows from the fiction. Success with Hope: the PC gets what they) Tj
+T*
+(  wanted and gains Hope. Keep the position clean or generous. Success with Fear: the) Tj
+T*
+(  PC gets what they wanted, but the GM gains Fear and introduces a cost, complication,) Tj
+T*
+(  or pressure. Failure with Hope: the PC does not get the full result, but gains Hope) Tj
+T*
+(  and receives a useful thread, clue, or safer next option. Failure with Fear: the PC) Tj
+T*
+(  fails and the GM gains Fear. Make a hard move that follows from the fiction. A wheel) Tj
+T*
+(  cracks or the cargo jolts before the incident. Use a hard complication, lost time,) Tj
+T*
+(  worse position, GM Fear, or mark Stress. Apply an official condition only if the) Tj
+T*
+(  fiction and rules justify it. The attempt falls short, but a partial thread appears.) Tj
+T*
+(  Offer one clue, weak position, or safer...) Tj
+T*
+(- Entityids: sablewoodtm-logistics-preserve sablewood-route-gate goldspire-waymarkers) Tj
+T*
+(  escort-carriage goldspire-territories old-sable emeris-capital-gate emeris-crown-) Tj
+T*
+(  holdings incident-response-placard varian-soto barnacle khari-nix vendor-cart) Tj
+T*
+(  corporate-route-bell cat-squirrels giraffe-deer lemur-toads fox-bats horse-goats) Tj
+T*
+(  twilight-plums sable-sap) Tj
+T*
+(- Entities: sablewoodtm-logistics-preserve Sablewood? Logistics Preserve location) Tj
+T*
+(  Location assets/icons/location.png assets/location-visuals/sablewoodtm-logistics-) Tj
+T*
+(  preserve/profile_scene_v02.png SAY-bul-wood loh-JIS-tiks preh-ZURV An ancient forest) Tj
+T*
+(  logistics preserve where colossal trees, hybrid fauna, underroot communities, route) Tj
+T*
+(  tolls, and corporate liability language all compete to define what safety means.) Tj
+T*
+(  Make the forest feel alive and managed badly, not just spooky. The Old Forest A vast) Tj
+T*
+(  ancient forest with trees wider than a carriage, older than any company sign. An) Tj
+T*
+(  ancient forest logistics preserve where colossal trees, hybrid fauna, underroot) Tj
+T*
+(  communities, route tolls, and corporate liability language all compete to define) Tj
+T*
+(  what safety means.; introduce it with a sensory palette, who feels safe there, and) Tj
+T*
+(  what has been neglected. Pull player attention toward the choices, clues, and) Tj
+T*
+(  relationships tied to Old Sable, Goldspire Waymarkers, Hush. An ancient forest) Tj
+T*
+(  logistics preserve where colossal trees, hybrid fauna, underroot communities, route) Tj
+T*
+(  tolls, and corporate liability language all compete to define what safety means.) Tj
+T*
+(  sablewood-route-gate Sablewood Route Gate location Location...) Tj
+T*
+(- Locationids: goldspire-territories sablewoodtm-logistics-preserve old-sable emeris-) Tj
+T*
+(  capital-gate emeris-capital) Tj
+T*
+(- Itemids: incident-response-placard) Tj
+T*
+(- Clueids: nature-is-deadly-placardtm sable-sinecure-secret-caches) Tj
+T*
+(- Mechanicids: roleplay table-spotlight instinct knowledge disposition-track) Tj
+T*
+(- Playerquestions: Who is driving? What is one strange detail about these enormous) Tj
+T*
+(  trees? Who notices the road change first?) Tj
+T*
+(- Relationshipprompts: Who gets quieter when the city disappears behind you?) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4159 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Ownershipprompt: One of you is driving. Who has the reins?) Tj
+T*
+(- Fearspends: Make the company's safety sign feel suddenly very small. Let a distant) Tj
+T*
+(  animal call go quiet all at once. Make the safe road feel less safe: noise, scent,) Tj
+T*
+(  cracked wheel, or cargo hum. Separate evidence from assumption so a monster read is) Tj
+T*
+(  tempting but incomplete.) Tj
+T*
+(- Choicesconsequences: Trust the signs The party moves quickly into the next problem.) Tj
+T*
+(  Pacing stays tight. Study the old path They notice the road is older than the) Tj
+T*
+(  company markers. Local-history curiosity is seeded.) Tj
+T*
+(- Lootclues: Route charcoal rubbing Loose waymarker nail Incident Response Placard?: A) Tj
+T*
+(  flat brass disc on a post holds a watchful glyph and a single cheerful bell. When) Tj
+T*
+(  trouble happens nearby, the glyph lights, the bell rings once, brightly, and then) Tj
+T*
+(  nothing else happens at all.) Tj
+T*
+(- Handoutids: Older road under new markers) Tj
+T*
+(- Sourcesceneslug: S01-01-entering-sablewood) Tj
+T*
+(- Storyscope: Perceived antagonist: the forest. True antagonist: the corporate lie) Tj
+T*
+(  about the forest. The players never confront it directly. They are meant to feel it) Tj
+T*
+(  by the end. Every act offers at least one guaranteed and one earned hint that the) Tj
+T*
+(  danger is manufactured and the forest is not the enemy. Grail-branded bounty board:) Tj
+T*
+(  "STRIXWOLF: APEX FOREST HAZARD. Sightings up 300%. Bounty payable in Marks." ADD) Tj
+T*
+(  GUARANTEED Couriers or a clerk trade fearful route gossip: the Preserve "takes one a) Tj
+T*
+(  week now." ADD GUARANTEED A player asking what they know receives the corporate) Tj
+T*
+(  line: strixwolves are vicious pack predators. ADD EARNED Knowledge Easy 10 Knowledge) Tj
+T*
+(  Easy 10: recall the corporate strixwolf line if asked. ACT0 Onboarding + Prologue 30) Tj
+T*
+(  0:00 to 0:30 0:30 pregens, safety, connections, Contract overview, Job briefing,) Tj
+T*
+(  forest threshold Keep the Contract to plain setup, let the Job carry questions, then) Tj
+T*
+(  move to the blocked road.) Tj
+T*
+(- Livetools: scene MAP-LOC-goldspire-territories MAP-LOC-sablewoodtm-logistics-) Tj
+T*
+(  preserve MAP-LOC-old-sable MAP-LOC-sablewood-route-gate MAP-LOC-emeris-capital-gate) Tj
+T*
+(- Percharacterlayer: marlowe-fairwind Marlowe Fairwind she/her Loreborne Elf Sorcerer,) Tj
+T*
+(  Primal Origin Arcana, ward-sense, and the custodian responsibility around the) Tj
+T*
+(  package. Entering the old forest Her attuned elven senses pick up faint ambient) Tj
+T*
+(  magic from the warded marker as they cross. She feels the boundary click off behind) Tj
+T*
+(  them. She can name that the boundary felt built, maintained, and contractual rather) Tj
+T*
+(  than natural. Marlowe, as the last marker passes behind you, you feel a faint) Tj
+T*
+(  magical boundary click shut like a latch. barnacle Barnacle he/him Underborne Ribbet) Tj
+T*
+(  Rogue, Nightwalker Shadows, deals, underworld instinct, and noticing when a job) Tj
+T*
+(  smells wrong. Entering the old forest The treeline has good shadow cover. He is) Tj
+T*
+(  already mapping where he would hide, or where someone else would. Instinct 13 He) Tj
+T*
+(  spots that the official road is suspiciously the only cleared path; everything else) Tj
+T*
+(  has grown over. He can call out hiding places before the carriage reaches a blind) Tj
+T*
+(  curve. Barnacle, the treeline is full of hiding places. The official road is almost) Tj
+T*
+(  too clean compared with everything grown over around it. garrick-reed Garrick Reed) Tj
+T*
+(  he/him Highborne Human Warrior, Call of the Brave Threat-reading...) Tj
+T*
+(- Takeawayhelp: The table crosses a threshold Players know the setting has changed and) Tj
+T*
+(  the forest matters. This transition should be brief, sensory, and playable. It is) Tj
+T*
+(  not a second lore briefing. "The city falls behind. The road narrows. The old forest) Tj
+T*
+(  becomes the room around the carriage." If players ask what to do here: "Tell me who) Tj
+T*
+(  has the reins, where your character is in the carriage, and one thing they notice as) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4135 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  the trees close in." This transition should be brief, sensory, and playable. It is) Tj
+T*
+(  not a second lore briefing. roleplay table-spotlight The company does not own the) Tj
+T*
+(  old forest The forest feels older and larger than the signs claiming it. Use size) Tj
+T*
+(  and sensory language first: trunks wider than a carriage, green filtered light,) Tj
+T*
+(  animal calls dropping quiet, brass signs bolted to older stone. "The signs say the) Tj
+T*
+(  route is managed. The trees make that claim feel very small." If players ask what) Tj
+T*
+(  the forest is called: "Locals call it the old forest. The company signs call it) Tj
+T*
+(  Sablewood." Use size and sensory language first: trunks wider than a carriage, green) Tj
+T*
+(  filtered light, animal calls dropping quiet, brass signs bolted to older stone.) Tj
+T*
+(  roleplay Threshold framing hands players authorship...) Tj
+T*
+(- Playerbeats: S01-01-threshold Threshold The Old Forest) Tj
+T*
+(  assets/scenes/S01-01-entering-sablewood.png A carriage enters a colossal green) Tj
+T*
+(  forest road. The road narrows under trees the size of houses. The last warded marker) Tj
+T*
+(  slides past: a carved stone pillar with brass company stamps bolted to its face.) Tj
+T*
+(  Open country closes into forest. The trees are wrong in scale, trunks wider than the) Tj
+T*
+(  carriage, rising until the canopy swallows the sky. Behind you, the city. Ahead,) Tj
+T*
+(  green light and a long quiet road. The last warded marker slides past: a carved) Tj
+T*
+(  stone pillar with brass company stamps bolted to its face. Open country closes into) Tj
+T*
+(  forest. The trees are wrong in scale, trunks wider than the carriage, rising until) Tj
+T*
+(  the canopy swallows the sky. Behind you, the city. Ahead, green light and a long) Tj
+T*
+(  quiet road. image-title-caption S01-01-impressions First impressions Green Light) Tj
+T*
+(  assets/scenes/S01-01-entering-sablewood.png Entering Sablewood scene art for Act 0 -) Tj
+T*
+(  The Contract. From inside the carriage you can hear the forest living around you:) Tj
+T*
+(  low calls in the canopy, croaks in the wet dark, small bodies scattering through) Tj
+T*
+(  underbrush. The light comes down green and filtered. Whatever this place agreed to,) Tj
+T*
+(  it...) Tj
+T*
+(- Gmbeats: S01-01-threshold Threshold The Old Forest The trees are bigger than the) Tj
+T*
+(  road was built for. If someone asks what this place is called, say, 'Locals call it) Tj
+T*
+(  the old forest. The company signs call it Sablewood.' They cross from the safe,) Tj
+T*
+(  branded world into the old forest. Threshold framing is the mechanic: mark the) Tj
+T*
+(  boundary, ask who has the reins, and let one player author a concrete forest detail.) Tj
+T*
+(  We have crossed a threshold. The old forest arrives visually Players see scale,) Tj
+T*
+(  green light, and the last managed marker behind them. This cue is a sensory handoff) Tj
+T*
+(  from civilization to wild scale. "The last warded marker slips behind you. Ahead,) Tj
+T*
+(  trunks wider than the carriage rise until the canopy swallows the sky." If players) Tj
+T*
+(  ask what the marker says: "It is a company road marker bolted over older stone. The) Tj
+T*
+(  new brass wants you to trust the route; the old stone looks like it was here first.") Tj
+T*
+(  This cue is a sensory handoff from civilization to wild scale. roleplay Managed) Tj
+T*
+(  safety starts to feel thin The route's official safety markers are newer than the) Tj
+T*
+(  place they mark. This plants the corporate-overwrite theme without explaining it.) Tj
+T*
+(  "The road is maintained, but the maintenance feels...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 12000) Tj
+T*
+(- Playersafeprojection: S01-01 scene Entering Sablewood assets/scenes/S01-01-entering-) Tj
+T*
+(  sablewood.png Entering Sablewood scene art for Act 0 - The Contract. Threshold) Tj
+T*
+(  transition into the ancient forest. Act 0 - The Contract Cross from the contract) Tj
+T*
+(  briefing into the forest road. The next thing ahead blocks the path. The last warded) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 1438 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  marker slips behind you. Ahead, the road narrows and the old forest closes around) Tj
+T*
+(  the carriage. S01-01-threshold Threshold The Old Forest) Tj
+T*
+(  assets/scenes/S01-01-entering-sablewood.png A carriage enters a colossal green) Tj
+T*
+(  forest road. The road narrows under trees the size of houses. The last warded marker) Tj
+T*
+(  slides past: a carved stone pillar with brass company stamps bolted to its face.) Tj
+T*
+(  Open country closes into forest. The trees are wrong in scale, trunks wider than the) Tj
+T*
+(  carriage, rising until the canopy swallows the sky. Behind you, the city. Ahead,) Tj
+T*
+(  green light and a long quiet road. The last warded marker slides past: a carved) Tj
+T*
+(  stone pillar with brass company stamps bolted to its face. Open country closes into) Tj
+T*
+(  forest. The trees are wrong in scale, trunks wider than the carriage, rising until) Tj
+T*
+(  the canopy swallows the sky. Behind you, the city. Ahead, green light and a long) Tj
+T*
+(  quiet road...) Tj
+T*
+(- Companionmapids: MAP-LOC-goldspire-territories MAP-LOC-sablewoodtm-logistics-) Tj
+T*
+(  preserve MAP-LOC-old-sable MAP-LOC-sablewood-route-gate MAP-LOC-emeris-capital-gate) Tj
+T*
+(- Slidenumber: 20) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash b8d522661fa33c33 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R] /Count 5 >>
+endobj
+12 0 obj
+<< /Type /Catalog /Pages 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000009 00000 n 
+0000002487 00000 n 
+0000002615 00000 n 
+0000006704 00000 n 
+0000006832 00000 n 
+0000011043 00000 n 
+0000011171 00000 n 
+0000015358 00000 n 
+0000015486 00000 n 
+0000016976 00000 n 
+0000017105 00000 n 
+0000017188 00000 n 
+0000017239 00000 n 
+trailer
+<< /Size 14 /Root 12 0 R >>
+startxref
+17312
+%%EOF

@@ -1,0 +1,44 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "emeris-capital",
+  "kind": "entity",
+  "title": "Emeris",
+  "in_world_label": "Goldspire Travel Advisory",
+  "brand_flag": "Player-safe",
+  "kicker": "A walled city of honey-colored stone on the very lip of the great forest, where the last paved road in the world meets the first wild tree.",
+  "hook": "A walled city of honey-colored stone on the very lip of the great forest, where the last paved road in the world meets the first wild tree.",
+  "blocks": [
+    {
+      "label": "Arrival Read",
+      "body": "Emeris is a prosperous walled city built where the paved world ends and Sablewood begins. Honey-colored houses climb gentle streets toward a great western gate, banners hang from crowded windows, and the air smells of fresh bread, ink, oiled leather, and the green breath of the..."
+    },
+    {
+      "label": "Known For",
+      "body": "The last paved, walled comfort before Sablewood, courier and caravan trade, its great Capital Gate, painted shingles, route gossip, and festivals."
+    },
+    {
+      "label": "What Is Here",
+      "body": "Local residents or workers appropriate to the place horse-goats stamping in caravan queues paperfin swifts nesting under eaves market beetles hauling tiny handcarts guide dogs sleeping under map stalls No default combatant; add only if the scene introduces..."
+    },
+    {
+      "label": "Food And Texture",
+      "body": "Emeris treats routes as gossip and safe returns as public celebration. Street food is fried festival dough, skewered river fish, and hot spiced cider sold at the gate to travelers heading into the trees."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Look for the busiest local gathering point.",
+    "Ask what has changed here recently."
+  ],
+  "archetype": "location.advisory",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:emeris-capital",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "5c50a5fa5131dc6d",
+  "generated_at": "2026-06-23T21:40:58"
+}

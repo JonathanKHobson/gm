@@ -1,0 +1,37 @@
+# Critical Success
+
+RAW export - rule:critical-success
+
+## What it is
+Matching Duality Dice create the best version of the result.
+
+## How it works
+Use whenever the Hope and Fear dice match.
+
+## Step by step
+- Use whenever the Hope and Fear dice match.
+- Treat it as a Critical Success: gain Hope, clear 1 Stress, and give a strong result.
+- Return to the fiction with the concrete result, cost, or benefit.
+
+## Try it
+What happens on doubles?
+
+## Raw source
+- Id: critical-success
+- Title: Critical Success
+- Tag: official
+- Summary: Matching Duality Dice create the best version of the result.
+- When: Use whenever the Hope and Fear dice match.
+- Not When: Do not require the total to beat the Difficulty before honoring the critical.
+- Question: What happens on doubles?
+- Answer: Treat it as a Critical Success: gain Hope, clear 1 Stress, and give a strong result.
+- Example: A critical animal-handling moment lets the Strixwolf Mother fully trust the party.
+- Related: duality-dice hope
+- Aliases: crit critical doubles
+- Source: Official SRD / local quickstart reference. Use private full-rulebook material only at the table.
+- Mechanic Profile: mechanic-profile-v1 critical-success Critical Success crit critical doubles Critical Success core-roll #rules-canon Beginner duality-dice hope Introduce at first use duality-dice hope Matching Duality Dice create the best version of the result. Treat it as a Critical Success: gain Hope, clear 1 Stress, and give a strong result. Use whenever the Hope and Fear dice match. Critical Success: Matching Duality Dice create the best version of the result. Use whenever the Hope and Fear dice match. Treat it as a Critical Success: gain Hope, clear 1 Stress, and give a strong result. Return to the fiction with the concrete result, cost, or benefit. A critical animal-handling moment lets the Strixwolf Mother fully trust the party. A critical animal-handling moment lets the Strixwolf Mother fully trust the party. What happens on doubles? Critical Success crit critical doubles duality-dice hope Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use.
+- Canon Status: #rules-canon
+- Category: core-roll
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 0c7217b4cab1c58d | Source hash dac3370046ed077140fab2d6

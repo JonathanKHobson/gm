@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "short-rest",
+  "title": "Short Rest",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "c65a8f2751682ffe",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Short Rest: Each PC chooses two rest moves; the GM gains 1d4 Fear."
+    },
+    {
+      "title": "Public role",
+      "body": "Downtime move suite before the ritual pressure peaks"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Each PC chooses two rest moves; the GM gains 1d4 Fear."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use when the scene needs a concrete object for players to inspect, carry, debate, or remember."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash c65a8f2751682ffe | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

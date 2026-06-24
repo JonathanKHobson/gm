@@ -1,0 +1,47 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "MAP-S01-02",
+  "title": "MAP-S01-02 - Overturned Vendor Cart Scene Board",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "f4bce178ba178493",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "A vendor cart blocks the bend. Scattered fruit, broken jars, torn canvas, and muddy wheel ruts make the road feel suddenly too narrow. Something moves on the far side."
+    },
+    {
+      "title": "Public objective",
+      "body": "A vendor cart blocks the bend. Scattered fruit, broken jars, torn canvas, and muddy wheel ruts make the road feel suddenly too narrow. Something moves on the far side."
+    },
+    {
+      "title": "GM goal",
+      "body": "Use this as an investigation board: orient the blocked road, let the table inspect the wreck, and route the far-side movement into the creature reveal."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "Non-combat board. If players attack into the underbrush, switch to MAP-COMBAT-S01-03.",
+        "Keep the creature as movement and sound until S01-03 unless players push directly to the far side."
+      ]
+    },
+    {
+      "title": "GM script",
+      "body": "Say: \"Use the board like a crime scene. Point to where the carriage stops, where the cart blocks the road, and where the feeding sound comes from. Then ask: who checks the cart, who checks the body, and who watches the far side?\""
+    },
+    {
+      "title": "State controls",
+      "items": [
+        "slitThroatDiscovered Slit throat discovered checkbox Use this for later story coherence.",
+        "brambleSeedFound Bramble seed found checkbox Seed only; do not resolve in Act 1."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash f4bce178ba178493 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

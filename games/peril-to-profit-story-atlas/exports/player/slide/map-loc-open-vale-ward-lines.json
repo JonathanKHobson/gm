@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "MAP-LOC-open-vale-ward-lines",
+  "kind": "slide",
+  "title": "MAP-LOC-open-vale-ward-lines - Open Vale Ward Lines Location Map",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act Four: The Hanging Office",
+  "hook": "The path ahead begins to glow in thin lines through earth and bark, all converging toward the Open Vale.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "The path ahead begins to glow in thin lines through earth and bark, all converging toward the Open Vale."
+    },
+    {
+      "label": "Public Objective",
+      "body": "The path ahead begins to glow in thin lines through earth and bark, all converging toward the Open Vale."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:MAP-LOC-open-vale-ward-lines",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "b223f10e2f9a0ec7",
+  "generated_at": "2026-06-23T21:40:58"
+}

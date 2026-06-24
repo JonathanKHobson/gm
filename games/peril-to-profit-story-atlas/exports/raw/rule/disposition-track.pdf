@@ -1,0 +1,179 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2478 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(Disposition / Resolution Track) Tj
+T*
+() Tj
+T*
+(What it is) Tj
+T*
+() Tj
+T*
+(A module-facing tracker for how a creature, NPC group, or faction leaves a scene:) Tj
+T*
+(helped, calmed, fought, captured, spared, or harmed.) Tj
+T*
+() Tj
+T*
+(How it works) Tj
+T*
+() Tj
+T*
+(Use for Strixwolf and Bramble-style outcomes that should ripple later.) Tj
+T*
+() Tj
+T*
+(Step by step) Tj
+T*
+() Tj
+T*
+(- Use for Strixwolf and Bramble-style outcomes that should ripple later.) Tj
+T*
+(- Track what the table actually did and how the affected side now feels about them.) Tj
+T*
+(- Return to the fiction with the concrete result, cost, or benefit.) Tj
+T*
+() Tj
+T*
+(Try it) Tj
+T*
+() Tj
+T*
+(What are we tracking?) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: disposition-track) Tj
+T*
+(- Title: Disposition / Resolution Track) Tj
+T*
+(- Tag: adaptation) Tj
+T*
+(- Summary: A module-facing tracker for how a creature, NPC group, or faction leaves a) Tj
+T*
+(  scene: helped, calmed, fought, captured, spared, or harmed.) Tj
+T*
+(- When: Use for Strixwolf and Bramble-style outcomes that should ripple later.) Tj
+T*
+(- Not When: Do not turn it into a mandatory plot lock; it records consequence, not a) Tj
+T*
+(  required solution.) Tj
+T*
+(- Question: What are we tracking?) Tj
+T*
+(- Answer: Track what the table actually did and how the affected side now feels about) Tj
+T*
+(  them.) Tj
+T*
+(- Example: The Strixwolf instance records whether the party calmed, fed, fought, or) Tj
+T*
+(  frightened the mother; the Bramble instance records parley, mercy, violence, or) Tj
+T*
+(  capture.) Tj
+T*
+(- Related: roleplay fear gm-moves) Tj
+T*
+(- Aliases: strixwolf mercy track bramble resolution track disposition) Tj
+T*
+(- Source: Official SRD / local quickstart reference. Use private full-rulebook) Tj
+T*
+(  material only at the table.) Tj
+T*
+(- Mechanic Profile: mechanic-profile-v1 disposition-track Disposition / Resolution) Tj
+T*
+(  Track strixwolf mercy track bramble resolution track disposition Disposition /) Tj
+T*
+(  Resolution Track module-tracker #adaptation Intermediate roleplay fear gm-moves) Tj
+T*
+(  Introduce at first use roleplay fear gm-moves A module-facing tracker for how a) Tj
+T*
+(  creature, NPC group, or faction leaves a scene: helped, calmed, fought, captured,) Tj
+T*
+(  spared, or harmed. Track what the table actually did and how the affected side now) Tj
+T*
+(  feels about them. Use for Strixwolf and Bramble-style outcomes that should ripple) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 989 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  later. Disposition / Resolution Track: A module-facing tracker for how a creature,) Tj
+T*
+(  NPC group, or faction leaves a scene: helped, calmed, fought, captured, spared, or) Tj
+T*
+(  harmed. Use for Strixwolf and Bramble-style outcomes that should ripple later. Track) Tj
+T*
+(  what the table actually did and how the affected side now feels about them. Return) Tj
+T*
+(  to the fiction with the concrete result, cost, or benefit. The Strixwolf instance) Tj
+T*
+(  records whether the party calmed, fed, fought, or frightened the mother; the Bramble) Tj
+T*
+(  instance records parley, mercy, violence, or capture. The Strixwolf instance records) Tj
+T*
+(  whether the party calmed, fed, fought, or frightened the...) Tj
+T*
+(- Canon Status: #adaptation) Tj
+T*
+(- Category: module-tracker) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 29f15f9cfc3e5df2 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R] /Count 2 >>
+endobj
+6 0 obj
+<< /Type /Catalog /Pages 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000002539 00000 n 
+0000002665 00000 n 
+0000003705 00000 n 
+0000003831 00000 n 
+0000003894 00000 n 
+0000003943 00000 n 
+trailer
+<< /Size 8 /Root 6 0 R >>
+startxref
+4015
+%%EOF

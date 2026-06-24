@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S05-05",
+  "kind": "slide",
+  "title": "S05-05 - The Peak",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act Five: The Ward Renewal",
+  "hook": "It all comes at once: the dead clawing up faster, the wraiths pressing in, the Custodian's glow guttering like a candle in wind. The clock is close, but so is disaster. Every choice now costs something: guard her and...",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "It all comes at once: the dead clawing up faster, the wraiths pressing in, the Custodian's glow guttering like a candle in wind. The clock is close, but so is disaster. Every choice now costs something: guard her and leave a friend exposed, or save the..."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Survive the peak and drive the countdown home."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:S05-05",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "2092443e1be8f5f4",
+  "generated_at": "2026-06-23T21:40:58"
+}

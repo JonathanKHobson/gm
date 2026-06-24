@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "conditions",
+  "kind": "rule",
+  "title": "Conditions",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "condition",
+  "hook": "The Atlas uses only official global conditions: Hidden, Restrained, Vulnerable.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "The Atlas uses only official global conditions: Hidden, Restrained, Vulnerable."
+    },
+    {
+      "label": "How It Works",
+      "body": "Conditions: The Atlas uses only official global conditions: Hidden, Restrained, Vulnerable."
+    },
+    {
+      "label": "Try It",
+      "body": "What do conditions do?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use when a rule or clear fiction creates one of those states.",
+    "They change tactical position in specific official ways.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": true,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:conditions",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "384cb0c30fb86a7f",
+  "generated_at": "2026-06-23T21:40:58"
+}

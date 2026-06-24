@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "bramble-union-claimrunner",
+  "kind": "entity",
+  "title": "Bramble Union Claimrunner",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "a sharp-eyed lieutenant counting bodies so Kett does not have to",
+  "hook": "a sharp-eyed lieutenant counting bodies so Kett does not have to",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "A sharp-eyed faun claimrunner wears thorn-braided hair, a blue shard charm, bark armor, and too many salvaged medallions for someone who claims not to care about rank."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "Runs on borrowed certainty, turning fear into checklists. Pretends rank does not matter while wearing every salvaged medallion that says it does. Loves the camp in the only language they trust, which is logistics."
+    },
+    {
+      "label": "Might Offer",
+      "body": "Parley path Capture/mercy branch Evidence that the road conflict is bigger than banditry"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Parley path",
+    "Capture/mercy branch",
+    "Evidence that the road conflict is bigger than banditry"
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:bramble-union-claimrunner",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "1119cde80e123162",
+  "generated_at": "2026-06-23T21:40:58"
+}

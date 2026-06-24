@@ -1,0 +1,49 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "S02-03",
+  "title": "S02-03 - The Ambush",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "44d5a49c6c527d01",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "Four figures rise from the brush in a clatter of breaking branches: ragged, wiry, armored in lashed river-stone and thorn. Their blades are mismatched, half of them salvaged. A fifth hangs back, sharper-eyed, clearly the one giving orders. They do not whoop or charge. They block the road, weapons up, like people who hate that it has come to this. \"The cargo,\" the leader says. \"Hand it over and you walk.\""
+    },
+    {
+      "title": "Public objective",
+      "body": "Survive the ambush and protect the carriage and the package."
+    },
+    {
+      "title": "GM goal",
+      "body": "Run the ambush as a dangerous moral choice: fight, defend, flee, surrender, or talk it down."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "The leader does not want a massacre.",
+        "Use Back Off to create space and panic, not to punish parley.",
+        "A downed ambusher can be spared without a roll; that lowers social difficulty."
+      ]
+    },
+    {
+      "title": "GM script",
+      "body": "Say: \"They want the cargo, not your lives. You can fight, defend the carriage, run, surrender the package, or talk while weapons are up. If you talk, make the case in character and roll Presence against Difficulty 15.\" If they ask who they are and the conversation earns it, have the leader say: \"We're the Bramble Union. We didn't used to be thieves.\""
+    },
+    {
+      "title": "State controls",
+      "items": [
+        "bramble_outcome Bramble outcome select unresolved killed captured spared negotiated escaped Use negotiated for parley, spared for mercy after combat, captured for survivors held, escaped for routed or fled.",
+        "ambushAwareness Ambush awareness select unresolved see-them-coming ambushed Controls opening position and first actor.",
+        "brambleUnionNameLearned Self-name learned checkbox Check only after the leader says it in dialogue."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 44d5a49c6c527d01 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

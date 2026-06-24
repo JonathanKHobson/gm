@@ -1,0 +1,1247 @@
+{
+  "pass": true,
+  "check_count": 248,
+  "issue_count": 0,
+  "checks": [
+    {
+      "name": "required file exists: run.html",
+      "ok": true,
+      "detail": "run.html"
+    },
+    {
+      "name": "required file exists: player-display.html",
+      "ok": true,
+      "detail": "player-display.html"
+    },
+    {
+      "name": "required file exists: player-follow.html",
+      "ok": true,
+      "detail": "player-follow.html"
+    },
+    {
+      "name": "required file exists: data/slides.json",
+      "ok": true,
+      "detail": "data/slides.json"
+    },
+    {
+      "name": "required file exists: data/slides-data.js",
+      "ok": true,
+      "detail": "data/slides-data.js"
+    },
+    {
+      "name": "required file exists: data/music-library.json",
+      "ok": true,
+      "detail": "data/music-library.json"
+    },
+    {
+      "name": "required file exists: data/music-library-data.js",
+      "ok": true,
+      "detail": "data/music-library-data.js"
+    },
+    {
+      "name": "required file exists: js/display-sync.js",
+      "ok": true,
+      "detail": "js/display-sync.js"
+    },
+    {
+      "name": "required file exists: js/music-player.js",
+      "ok": true,
+      "detail": "js/music-player.js"
+    },
+    {
+      "name": "required file exists: js/run-mode.js",
+      "ok": true,
+      "detail": "js/run-mode.js"
+    },
+    {
+      "name": "required file exists: js/player-display.js",
+      "ok": true,
+      "detail": "js/player-display.js"
+    },
+    {
+      "name": "required file exists: js/player-follow.js",
+      "ok": true,
+      "detail": "js/player-follow.js"
+    },
+    {
+      "name": "required file exists: css/run-mode.css",
+      "ok": true,
+      "detail": "css/run-mode.css"
+    },
+    {
+      "name": "required file exists: css/music-player.css",
+      "ok": true,
+      "detail": "css/music-player.css"
+    },
+    {
+      "name": "required file exists: pages/session-zero.html",
+      "ok": true,
+      "detail": "pages/session-zero.html"
+    },
+    {
+      "name": "required file exists: pages/safety-tools.html",
+      "ok": true,
+      "detail": "pages/safety-tools.html"
+    },
+    {
+      "name": "required file exists: pages/session-zero-faq.html",
+      "ok": true,
+      "detail": "pages/session-zero-faq.html"
+    },
+    {
+      "name": "required file exists: pages/session-zero-cue-cards.html",
+      "ok": true,
+      "detail": "pages/session-zero-cue-cards.html"
+    },
+    {
+      "name": "required file exists: pages/character-sheet-guide.html",
+      "ok": true,
+      "detail": "pages/character-sheet-guide.html"
+    },
+    {
+      "name": "required file exists: assets/session-zero/SZ-00-standby-welcome.webp",
+      "ok": true,
+      "detail": "assets/session-zero/SZ-00-standby-welcome.webp"
+    },
+    {
+      "name": "required file exists: assets/session-zero/session-zero-faq-qr.webp",
+      "ok": true,
+      "detail": "assets/session-zero/session-zero-faq-qr.webp"
+    },
+    {
+      "name": "slides.json is a non-empty list",
+      "ok": true,
+      "detail": "110"
+    },
+    {
+      "name": "every slide has required fields",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "slide ids are unique",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "every scene slide has image",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "no slide image references SVG",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "player-safe projections contain only safe fields",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Session Zero player projections hide scaffolding",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "player-safe projections have no GM/dev strings",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Session Zero and Prologue target slides have five-PC per-character layers",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "per-character layers stay out of player-safe projections",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "per-character entries include player-safe throw cues",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "every story scene has a scene slide",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Session Zero slides exist",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Session Zero starts with standby carousel",
+      "ok": true,
+      "detail": "SZ-00-STANDBY"
+    },
+    {
+      "name": "Session Zero standby carousel has multiple player beats",
+      "ok": true,
+      "detail": "6"
+    },
+    {
+      "name": "Session Zero standby carousel auto-rotates by default",
+      "ok": true,
+      "detail": "{\n  \"beatAutoplayEligible\": true,\n  \"beatAutoplayDefault\": true,\n  \"beatAutoplayIntervalMs\": 9000\n}"
+    },
+    {
+      "name": "only standby carousel auto-rotates by default",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "decorative Session Zero slides do not expose image-only beats",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Character sheet slide has progressive player beats",
+      "ok": true,
+      "detail": "[\n  \"Sheet overview\",\n  \"Rolls\",\n  \"Abilities\",\n  \"Choose\"\n]"
+    },
+    {
+      "name": "Session Zero player projections include core onboarding content",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Session Zero slides include hoverable takeaway help",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Prologue starts Contract -> Job -> Entering Sablewood",
+      "ok": true,
+      "detail": "[\n  \"PROLOGUE\",\n  \"S00-01\",\n  \"S01-01\"\n]"
+    },
+    {
+      "name": "Prologue Contract overview has progressive beats",
+      "ok": true,
+      "detail": "[\n  \"Where you are\",\n  \"Who's paying\",\n  \"The job\",\n  \"What you know\"\n]"
+    },
+    {
+      "name": "S00-01 has five-field Prologue beats",
+      "ok": true,
+      "detail": "{\n  \"playerBeats\": [\n    \"Meet the contact\",\n    \"Briefing\",\n    \"Questions\",\n    \"Departure\"\n  ],\n  \"gmBeats\": 4\n}"
+    },
+    {
+      "name": "S01-01 has five-field Prologue beats",
+      "ok": true,
+      "detail": "{\n  \"playerBeats\": [\n    \"Threshold\",\n    \"First impressions\",\n    \"Hand-off\"\n  ],\n  \"gmBeats\": 3\n}"
+    },
+    {
+      "name": "Prologue slides include hoverable takeaway help",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Session Zero and Prologue takeaway Q-cards add detail beyond the visible takeaway",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Session Zero and Prologue takeaway Q-cards contain content, not meta-instructions",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Session Zero and Prologue takeaways never use No mechanic or No roll placeholders",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Session Zero and Prologue takeaway Q-cards include speakable Say it like this content",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Session Zero and Prologue takeaway Q-cards include actual If players ask answers",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 1 upgraded target slides exist",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 1 upgraded target slides have required Run Mode fields",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 1 upgraded target takeaway Q-cards are content-complete",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 1 upgraded target player projections do not leak GM-only terms",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 1 per-character data stays in perCharacterLayer",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 1 map boards include operating mapData",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 1 scene/map order preserves cart -> map -> creature -> combat map -> first roll",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 2 upgraded target slides exist",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 2 upgraded target slides have required Run Mode fields",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 2 upgraded target takeaway Q-cards are content-complete",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 2 upgraded target player projections do not leak gated spoiler terms",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 2 per-character data stays in perCharacterLayer",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 2 map boards include operating mapData",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 2 state controls preserve strixwolf and bramble branch continuity",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 2 transitions preserve ambush -> aftermath and optional location paths",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 3 upgraded target slides exist",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 3 upgraded target slides have required Run Mode fields",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 3 upgraded target takeaway Q-cards are content-complete",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 3 target player projections do not leak gated spoiler terms",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 3 per-character data stays in perCharacterLayer",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 3 map boards include operating mapData",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 3 state controls preserve carry-in and new branch continuity",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 3 maps preserve hub loops and gated Act 4 bridge",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 4 upgraded target slides exist",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 4 upgraded target slides have required Run Mode fields",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 4 upgraded target takeaway Q-cards are content-complete",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 4 target player projections preserve Keystone and ward spoiler gates",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 4 per-character data stays in perCharacterLayer",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 4 map boards include operating mapData",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 4 state controls preserve carry-in and reveal branch continuity",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 4 maps preserve treehouse loop, inactive Athervast lock, and Act 5 bridge",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 4 reveal is Custodian-routed and S04-04-gated",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 5 upgraded target slides exist",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 5 upgraded target slides have required Run Mode fields",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 5 upgraded target takeaway Q-cards are content-complete",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 5 target player projections preserve corporate and soul-economy spoiler gates",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 5 per-character data stays in perCharacterLayer",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 5 maps and combat boards include operating mapData",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 5 state controls preserve full carry-in, countdown, and report branch continuity",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 5 maps preserve finale transitions and Epilogue bridge",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Act 5 convergence includes countdown, lost-package fallback, Memory Delve hooks, and report choices",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Epilogue upgraded target slides exist",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Epilogue upgraded target slides have required Run Mode fields",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Epilogue takeaway Q-cards are content-complete",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Epilogue player projections preserve hidden-thesis spoiler gates",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Epilogue per-character payoffs stay in perCharacterLayer",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Epilogue maps are populated as hook context only",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Epilogue state controls preserve carry-in and closure branch continuity",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Epilogue transitions preserve S05-07 -> S06-01 -> S06-02 terminus",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Epilogue closure has rewards, report branches, hooks, and no combat/countdown",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "GM handling scripts with action language have explicit read-aloud alternatives",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Prologue player-safe text is description-first",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Entering Sablewood is now a Prologue transition scene",
+      "ok": true,
+      "detail": "Prologue"
+    },
+    {
+      "name": "Act One now starts after the Prologue transition",
+      "ok": true,
+      "detail": "Act One"
+    },
+    {
+      "name": "section slide exists: PROLOGUE",
+      "ok": true,
+      "detail": "PROLOGUE"
+    },
+    {
+      "name": "section slide exists: ACT-ONE",
+      "ok": true,
+      "detail": "ACT-ONE"
+    },
+    {
+      "name": "section slide exists: ACT-TWO",
+      "ok": true,
+      "detail": "ACT-TWO"
+    },
+    {
+      "name": "section slide exists: ACT-THREE",
+      "ok": true,
+      "detail": "ACT-THREE"
+    },
+    {
+      "name": "section slide exists: ACT-FOUR",
+      "ok": true,
+      "detail": "ACT-FOUR"
+    },
+    {
+      "name": "section slide exists: ACT-FIVE",
+      "ok": true,
+      "detail": "ACT-FIVE"
+    },
+    {
+      "name": "section slide exists: EPILOGUE",
+      "ok": true,
+      "detail": "EPILOGUE"
+    },
+    {
+      "name": "cheat slide exists: CHEAT-GM",
+      "ok": true,
+      "detail": "CHEAT-GM"
+    },
+    {
+      "name": "cheat slide exists: CHEAT-CONDITIONS",
+      "ok": true,
+      "detail": "CHEAT-CONDITIONS"
+    },
+    {
+      "name": "cheat slide exists: CHEAT-PC",
+      "ok": true,
+      "detail": "CHEAT-PC"
+    },
+    {
+      "name": "cheat slide exists: CHEAT-LOOT",
+      "ok": true,
+      "detail": "CHEAT-LOOT"
+    },
+    {
+      "name": "cheat slide exists: CHEAT-PRONUNCIATION",
+      "ok": true,
+      "detail": "CHEAT-PRONUNCIATION"
+    },
+    {
+      "name": "cheat slide exists: CHEAT-STATE",
+      "ok": true,
+      "detail": "CHEAT-STATE"
+    },
+    {
+      "name": "run.html loads data/slides-data.js",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "run.html loads js/display-sync.js",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "run.html loads js/run-mode.js",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "run.html loads music player assets",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Mode music player is collapsible by default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "player-display loads sync and display scripts",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "player-display owns music audio output",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "player-display loads music player assets",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Mode does not own an audio element",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "music library has copied audio files",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "music player JS wires GM controls to Player Display",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "music player handles browser audio unlock",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "music player expands as overlay sheet",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "player-follow exists as static non-sync mode",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "sync protocol constant exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "run mode shortcut/action wired: ArrowRight",
+      "ok": true,
+      "detail": "ArrowRight"
+    },
+    {
+      "name": "run mode shortcut/action wired: ArrowLeft",
+      "ok": true,
+      "detail": "ArrowLeft"
+    },
+    {
+      "name": "run mode shortcut/action wired: Home",
+      "ok": true,
+      "detail": "Home"
+    },
+    {
+      "name": "run mode shortcut/action wired: End",
+      "ok": true,
+      "detail": "End"
+    },
+    {
+      "name": "run mode shortcut/action wired: show-text",
+      "ok": true,
+      "detail": "show-text"
+    },
+    {
+      "name": "run mode shortcut/action wired: show-image",
+      "ok": true,
+      "detail": "show-image"
+    },
+    {
+      "name": "run mode shortcut/action wired: blackout",
+      "ok": true,
+      "detail": "blackout"
+    },
+    {
+      "name": "run mode shortcut/action wired: CHEAT-GM",
+      "ok": true,
+      "detail": "CHEAT-GM"
+    },
+    {
+      "name": "pinned slide recall shortcuts are wired",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "player display actions auto-open display",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "player display heartbeat prevents duplicate windows",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "blackout toggles back to the current player payload",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "beat autoplay toggle is wired in Run Mode",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "standby carousel sync sends the full beat projection",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "persistent beat tool row is shared",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Mode inline throw/copy controls are generated",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Mode entity hover-card image/text controls are generated",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Mode system copy shortcuts are not swallowed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Mode supports explicit GM read-aloud chunks",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "entity image show-to-players buttons are wired",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "per-character Run Mode panel and cue buttons are wired",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "per-character panel supports roster-aware filtering",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "GM-side mechanics and takeaways use cue-card links",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "standalone Will alias is excluded from cue-card matching",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "player display has no cue-card/linkification hooks",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "generated wiki pages load player-display sync",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "cue cards expose player-safe throw payloads",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "cue card text chunks preserve selectable body/actions split",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "cue card GM cues are not throwable",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "image throw buttons use Player Display icon",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "text throw buttons use reveal icon",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "quick-copy text buttons are generated",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "throwable text controls do not block native selection",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "cue-card image CSS does not override send icon",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "static hover-card image/text controls are generated and rebound",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "spotlight tray is tucked and expandable",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Clock controls are not countdown cue-card references",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Mode hover cards can be closed, temporarily suppressed, and avoid blocking new chips",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "optional Run Mode panels start collapsed by default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Clock has one canonical reset control plus explicit restart",
+      "ok": true,
+      "detail": "{\n  \"resetCount\": 1,\n  \"restartInHtml\": true,\n  \"restartInJs\": true\n}"
+    },
+    {
+      "name": "Run Clock uses explicit status/elapsed state model",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Clock reset stops at idle zero instead of hiding/deleting",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Clock start/pause/stop handlers use canonical functions",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Clock has scene, segment, session, and break settings",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Clock alert ladder includes scene/segment/session thresholds",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Clock player-facing notices are break-only",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Clock critical layer has visible styling",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "GM-only/source/dev/hidden-truth blocks have no throw payloads",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "player static pages have no GM/dev strings",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Playwright available for rendered slideshow QA",
+      "ok": true,
+      "detail": "node-playwright fallback; Python module missing: No module named 'playwright'"
+    },
+    {
+      "name": "run.html rendered current slide",
+      "ok": true,
+      "detail": "Entering Sablewood"
+    },
+    {
+      "name": "run icon buttons have accessible names",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "slide images have alt text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Mode music controls render",
+      "ok": true,
+      "detail": "8"
+    },
+    {
+      "name": "Run Mode music panel starts collapsed in browser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Mode music panel expands on demand",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "music sheet opens without moving side panel or active slide",
+      "ok": true,
+      "detail": "{\"sideBeforeMusic\":{\"x\":13.59375,\"y\":132.3125,\"width\":1338.8125,\"height\":204.859375},\"sideAfterMusic\":{\"x\":13.59375,\"y\":132.3125,\"width\":1338.8125,\"height\":205.859375},\"headingBeforeMusic\":{\"x\":479.390625,\"y\":528.421875,\"width\":772.015625,\"height\":39.09375},\"headingAfterMusic\":{\"x\":479.390625,\"y\":529.421875,\"width\":772.015625,\"height\":39.09375}}"
+    },
+    {
+      "name": "Player Display has single music audio output",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "music play command sets Player Display audio source",
+      "ok": true,
+      "detail": "assets/audio/tracks/goldspire-messenger-theme.mp3"
+    },
+    {
+      "name": "music next command changes Player Display audio source",
+      "ok": true,
+      "detail": "assets/audio/tracks/clock-in-clock-out.mp3"
+    },
+    {
+      "name": "music volume command reaches Player Display",
+      "ok": true,
+      "detail": "0.45"
+    },
+    {
+      "name": "Start Run Clock hover does not open countdown cue card",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "spotlight tray starts tucked with active-slide attention",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "spotlight tray expands on click",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "spotlight tray hides when there is no active or pending content",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "PROLOGUE has inline player-safe throw controls",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "action-only GM script block is not throwable",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "explicit GM read-aloud block is throwable",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Mode native copy shortcut copies selected text",
+      "ok": true,
+      "detail": "Slide 16 / 110 - PROLOGUE"
+    },
+    {
+      "name": "unmodified c still copies current player text",
+      "ok": true,
+      "detail": "You're in the capital, a city of stone archways, brass stamps, and clerks who seem to stamp every form twice. This morni"
+    },
+    {
+      "name": "inline Run Mode copy copies only selected chunk",
+      "ok": true,
+      "detail": "You're in the capital, a city of stone archways, brass stamps, and clerks who seem to stamp every form twice. This morning, one of those forms has your name on "
+    },
+    {
+      "name": "inline Run Mode send shows selected chunk on Player Display",
+      "ok": true,
+      "detail": "A Contract In The Capital\n\nYou're in the capital, a city of stone archways, brass stamps, and clerks who seem to stamp every form twice. This morning, one of th"
+    },
+    {
+      "name": "optional Run Mode reference panels are collapsed while player beats stay open",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Mode entity hover-card image/text controls appear",
+      "ok": true,
+      "detail": "{\"hoverImageControls\":1,\"hoverTextControls\":1}"
+    },
+    {
+      "name": "Run Mode entity hover-card image sends to Player Display",
+      "ok": true,
+      "detail": "Goldspire Waymarkers"
+    },
+    {
+      "name": "Run Mode hover-card close button appears",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Mode hover-card close hides cue card",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Mode hover-card reappears after pointer-away rehover",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "cue-card native copy shortcut copies selected text",
+      "ok": true,
+      "detail": "Player cue: This is a beginner-friendly Daggerheart one-shot. You do not need to know the rules ahead of time. We will learn by playing."
+    },
+    {
+      "name": "cue-card image hover reveals send icon",
+      "ok": true,
+      "detail": "0.537773"
+    },
+    {
+      "name": "cue-card image send icon stays compact",
+      "ok": true,
+      "detail": "{\"x\":311.125,\"y\":638.9188232421875,\"width\":20,\"height\":20}"
+    },
+    {
+      "name": "cue-card image send shows image on Player Display",
+      "ok": true,
+      "detail": "Welcome to the Goldspire Messengers"
+    },
+    {
+      "name": "Run Mode has side deck arrows",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "thumbnail scrubber uses slide images",
+      "ok": true,
+      "detail": "110"
+    },
+    {
+      "name": "Run Mode shows visible slide image anchor by default",
+      "ok": true,
+      "detail": "{\"x\":94.59375,\"y\":454.453125,\"width\":364.796875,\"height\":261.109375}"
+    },
+    {
+      "name": "current slide completion checkbox is visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Mode details live inside slide card",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "image can be hidden from Run Mode",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "image can be restored in Run Mode",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "condition cheat slide shows real content by default",
+      "ok": true,
+      "detail": "Hidden: While out of sight from all foes and they do not know where you are, rolls against you have disadvantage. Clears when: An adversary moves where they wou"
+    },
+    {
+      "name": "PC cheat slide shows real stats by default",
+      "ok": true,
+      "detail": "Marlowe Fairwind (MAR-low FAIR-wind) — Elf / Loreborne / Sorcerer / Primal Origin\n• A playable pregen character and the default package custodian. Marlowe recei"
+    },
+    {
+      "name": "loot cheat slide shows real content by default",
+      "ok": true,
+      "detail": "Hexmart Pocket Ward™ (cracked): No real ward effect; failed consumer protection charm. The driver trusted cheap protection and it failed.\nStride Salve: Clear 1 "
+    },
+    {
+      "name": "Run Mode fixed shortcut order is protected",
+      "ok": true,
+      "detail": "[\"1 GM Rules\",\"2 Conditions\",\"3 PCs\",\"4 Loot\",\"5 Pronunciation\",\"6 Sablewood\"]"
+    },
+    {
+      "name": "Run Mode pinned shortcut strip starts empty",
+      "ok": true,
+      "detail": "[\"1 GM Rules\",\"2 Conditions\",\"3 PCs\",\"4 Loot\",\"5 Pronunciation\",\"6 Sablewood\"]"
+    },
+    {
+      "name": "Pin current slide assigns shortcut 7 after fixed shortcuts",
+      "ok": true,
+      "detail": "{\"state\":[\"S01-01\"],\"buttons\":[\"1 GM Rules\",\"2 Conditions\",\"3 PCs\",\"4 Loot\",\"5 Pronunciation\",\"6 Sablewood\",\"7 Latest Entering Sablewood\"]}"
+    },
+    {
+      "name": "P jumps to latest pinned slide",
+      "ok": true,
+      "detail": "{\"from\":\"MAP-LOC-sablewoodtm-logistics-preserve\",\"actual\":\"S01-01\"}"
+    },
+    {
+      "name": "7 jumps to first pinned slide",
+      "ok": true,
+      "detail": "S01-01"
+    },
+    {
+      "name": "Pinned slides fill 7/8/9/0 in recency order",
+      "ok": true,
+      "detail": "{\"state\":[\"S04-01\",\"S03-02\",\"S02-01\",\"S01-01\"],\"buttons\":[\"1 GM Rules\",\"2 Conditions\",\"3 PCs\",\"4 Loot\",\"5 Pronunciation\",\"6 Sablewood\",\"7 Latest Through the Farms\",\"8 Local Clues\",\"9 Fallout Investigation\",\"0 Entering Sablewood\"]}"
+    },
+    {
+      "name": "0 jumps to oldest pinned slide",
+      "ok": true,
+      "detail": "S01-01"
+    },
+    {
+      "name": "Fifth pin drops oldest shortcut and keeps four pins",
+      "ok": true,
+      "detail": "{\"state\":[\"S05-01\",\"S04-01\",\"S03-02\",\"S02-01\"],\"after0\":\"S02-01\"}"
+    },
+    {
+      "name": "Next control advances slide",
+      "ok": true,
+      "detail": "{\"before\":\"S02-01\",\"afterNext\":\"S02-02\"}"
+    },
+    {
+      "name": "Previous control moves back",
+      "ok": true,
+      "detail": "{\"expected\":\"S02-01\",\"actual\":\"S02-01\"}"
+    },
+    {
+      "name": "ArrowRight advances slide",
+      "ok": true,
+      "detail": "{\"before\":\"S02-01\",\"actual\":\"S02-02\"}"
+    },
+    {
+      "name": "shortcuts do not fire while typing",
+      "ok": true,
+      "detail": "{\"before\":\"S02-02\",\"after\":\"S02-02\"}"
+    },
+    {
+      "name": "pinned shortcuts do not fire while typing",
+      "ok": true,
+      "detail": "{\"before\":\"S02-02\",\"after\":\"S02-02\"}"
+    },
+    {
+      "name": "scrubber jumps between slides",
+      "ok": true,
+      "detail": "S03-02"
+    },
+    {
+      "name": "player display receives setSlide messages",
+      "ok": true,
+      "detail": "Local Clues"
+    },
+    {
+      "name": "blackout works",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Show Image to Players works",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Show Text to Players works",
+      "ok": true,
+      "detail": "Local Clues\n\nAlmost everyone knows the person who keeps the ward working, and almost everyone becomes careful when stran"
+    },
+    {
+      "name": "image expansion works",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Full tool sends fullscreen player text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "player display has no GM/dev content",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "player-follow supports direct slide links",
+      "ok": true,
+      "detail": "Local Clues\n\nFind someone who can point you toward the person who keeps the ward working.\n\nThe town is happy to talk. Ev"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "halython-s-fox-bat-companion",
+  "title": "Halython's Fox-Bat Companion",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "bc0d52f24e8824e5",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "A tiny fox-faced bat perches nearby with its wings folded like a cloak and eyes much too clever for something pretending not to understand cards."
+    },
+    {
+      "title": "Public role",
+      "body": "Small companion creature connected to Halython Fives"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: A tiny russet fox-bat with huge ears, folded wings like a cloak, clever paws, and bright eyes that make Halython's card table feel watched by something playful."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: creature",
+        "Role: Small companion creature connected to Halython Fives",
+        "Summary: A tiny russet fox-bat with huge ears, folded wings like a cloak, clever paws, and bright eyes that make Halython's card table feel watched by something playful.",
+        "Tags: hush companion creature",
+        "Connections: Halython Fives Hush Clover Co-op",
+        "Inventory: soft wingbeats bright black eyes crumb-seeking nose soft russet fur folded leathery wings mossy perch dust",
+        "Loot: No loot; kindness toward it can make Halython easier to talk with.",
+        "Name: Halython's Fox-Bat Companion",
+        "Id: halython-s-fox-bat-companion",
+        "Meta: Creature / Animal CREATURE assets/icons/creature.png entity-creature #78a65f 04 Creatures entities creature",
+        "Aliases: Halython's Fox-Bat Companion companion creature fox-bat fox-bat companion",
+        "Related: Clover Co-op Halython Fives Hush",
+        "Image Prompt: Private table TTRPG story atlas asset for Halython's Fox-Bat Companion, Creature / Animal. Role: Small companion creature connected to Halython Fives. Summary: A tiny russet fox-bat with huge ears, folded wings like a cloak, clever paws, and bright eyes that make Halython's card table feel watched by something playful.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Personality: A pocket of curiosity with folded-cloak wings, perched where it can watch every hand at the card table. Bonded to Halython without being owned by anyone. Reads a room faster than most people and judges it kindly.",
+        "Wants: To stay near Halython, to be offered a scrap by hand, and to watch the game all the way to its end.",
+        "Fears: Being grabbed, caged, or treated as a party trick instead of a companion.",
+        "Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.",
+        "Body Language: Tilts its huge ears toward whoever is lying. Unfurls its wings like a small theatrical cloak when it decides you are interesting.",
+        "Sample Dialogue: A soft chitter that sounds suspiciously like a laugh at your bluff. A contented click when Halython's hand finds the right card.",
+        "Equipment: soft wingbeats bright black eyes crumb-seeking nose soft russet fur folded leathery wings mossy perch dust",
+        "Search Or Loot: No loot; kindness toward it can make Halython easier to talk with.",
+        "Gm Use: Use as a moral encounter. Reward restraint and observation without forcing a pet or mascot outcome.",
+        "Future Hooks: Bring back as an echo if players made a strong choice involving this entity.",
+        "Robust: A tiny fox-faced bat perches nearby with its wings folded like a cloak and eyes much too clever for something pretending not to understand cards. No forced reveal. Let this entity disclose truth through scene context and player attention. Foxlike face, oversized bat ears, delicate folded wings, tiny paws on a mossy branch, and a mischievous expression warmed by Sablewood light. Reach safety on its own terms and communicate danger through behavior before the party turns the moment into combat. Being surrounded, misread as a monster, or driven toward Halython Fives, Hush, Clover Co-op by noise and haste. Use as a warmth-and-specificity cue. It can point to a clue, soften Halython, or give nervous players a harmless living detail to engage. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Halython's Fox-Bat Companion and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system...",
+        "Pronunciation: HAL-ee-thon's FOKS-bat kum-PAN-yun",
+        "Short Pronunciation: HAL-ee-thon's FOKS-bat kum-PAN-yun",
+        "Imagine It Like: Think a daemon from His Dark Materials, the wizard's familiar that is smarter than the wizard, the shoulder-creature that quietly judges your choices. A pet that is clearly also a witness.",
+        "Image: assets/creature-images/halython-s-fox-bat-companion/portrait_base.webp",
+        "Image Asset Status: creature_images",
+        "Visual Gallery: primary Primary wiki image primary assets/creature-images/halython-s-fox-bat-companion/portrait_base.webp Halython's Fox-Bat Companion primary wiki image visual. Halython's Fox-Bat Companion: Primary wiki image. creature_images True True"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash bc0d52f24e8824e5 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

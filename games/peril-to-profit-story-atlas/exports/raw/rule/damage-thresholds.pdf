@@ -1,0 +1,161 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2380 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(Damage Thresholds) Tj
+T*
+() Tj
+T*
+(What it is) Tj
+T*
+() Tj
+T*
+(Numbers used to determine how many HP are marked from damage.) Tj
+T*
+() Tj
+T*
+(How it works) Tj
+T*
+() Tj
+T*
+(Use after a hit deals damage.) Tj
+T*
+() Tj
+T*
+(Step by step) Tj
+T*
+() Tj
+T*
+(- Use after a hit deals damage.) Tj
+T*
+(- Compare the damage to thresholds, then mark HP by severity.) Tj
+T*
+(- Return to the fiction with the concrete result, cost, or benefit.) Tj
+T*
+() Tj
+T*
+(Try it) Tj
+T*
+() Tj
+T*
+(What happens when I take damage?) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: damage-thresholds) Tj
+T*
+(- Title: Damage Thresholds) Tj
+T*
+(- Tag: official) Tj
+T*
+(- Summary: Numbers used to determine how many HP are marked from damage.) Tj
+T*
+(- When: Use after a hit deals damage.) Tj
+T*
+(- Not When: Do not mark HP before comparing damage to thresholds.) Tj
+T*
+(- Question: What happens when I take damage?) Tj
+T*
+(- Answer: Compare the damage to thresholds, then mark HP by severity.) Tj
+T*
+(- Example: A 10 damage hit may be Minor, Major, or Severe depending on the PC.) Tj
+T*
+(- Related: hp armor-slots) Tj
+T*
+(- Aliases: damage threshold thresholds) Tj
+T*
+(- Source: Official SRD / local quickstart reference. Use private full-rulebook) Tj
+T*
+(  material only at the table.) Tj
+T*
+(- Mechanic Profile: mechanic-profile-v1 damage-thresholds Damage Thresholds damage) Tj
+T*
+(  threshold thresholds Damage Thresholds combat #rules-canon Intermediate hp armor-) Tj
+T*
+(  slots Introduce at first use hp armor-slots Numbers used to determine how many HP) Tj
+T*
+(  are marked from damage. Compare the damage to thresholds, then mark HP by severity.) Tj
+T*
+(  Use after a hit deals damage. Damage Thresholds: Numbers used to determine how many) Tj
+T*
+(  HP are marked from damage. Use after a hit deals damage. Compare the damage to) Tj
+T*
+(  thresholds, then mark HP by severity. Return to the fiction with the concrete) Tj
+T*
+(  result, cost, or benefit. A 10 damage hit may be Minor, Major, or Severe depending) Tj
+T*
+(  on the PC. A 10 damage hit may be Minor, Major, or Severe depending on the PC. What) Tj
+T*
+(  happens when I take damage? Damage Thresholds damage threshold thresholds hp armor-) Tj
+T*
+(  slots Verified against local Daggerheart rules packet and Mechanic System Packet;) Tj
+T*
+(  paraphrased for table use.) Tj
+T*
+(- Canon Status: #rules-canon) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 219 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Category: combat) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 273a301b84550dab | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R] /Count 2 >>
+endobj
+6 0 obj
+<< /Type /Catalog /Pages 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000002441 00000 n 
+0000002567 00000 n 
+0000002837 00000 n 
+0000002963 00000 n 
+0000003026 00000 n 
+0000003075 00000 n 
+trailer
+<< /Size 8 /Root 6 0 R >>
+startxref
+3147
+%%EOF

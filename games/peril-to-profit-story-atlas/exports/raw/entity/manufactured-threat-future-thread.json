@@ -1,0 +1,66 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "manufactured-threat-future-thread",
+  "title": "Manufactured-Threat Future Thread",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "1228b493674010de",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "GM-only continuity reference. Do not show as a player handout."
+    },
+    {
+      "title": "Public role",
+      "body": "GM-only future-thread canon"
+    },
+    {
+      "title": "Handout text",
+      "body": "Not player-safe. Keep this page private."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: manufactured-threat-future-thread",
+        "Name: Manufactured-Threat Future Thread",
+        "Type: clue",
+        "Role: GM-only future-thread canon",
+        "Summary: The forest is not the enemy. Corporations manufacture fear of the Preserve to sell protection from it.",
+        "Tags: gm-only future-thread manufactured-threat",
+        "Connections: Relay Spire The Grail Soulspire Solutions Kazrak Industries Hush Bramble Union",
+        "Gm Use: Store the future-thread canon here so one-shot clues can point forward without becoming a speech.",
+        "Secrets: The forest is not the enemy. Corporations manufacture fear of the Preserve to sell protection from it.",
+        "Body Language: Use only as a prep reference. Surface clues through props, invoices, remains, and testimony.",
+        "Sample Dialogue: GM note: do not hand this to players.",
+        "Equipment: The Grail posts bounties and hazard notices. Protection Coverage sells to communities like Hush, with prices climbing alongside sightings. Soulspire supplies, looses, owns, or attracts dangerous soul-resonant assets. Kazrak holds the Preserve concession and reclassified the workers who became the Bramble Union. The capital ward depends on old forest-magic while the system fear-sells the forest.",
+        "Search Or Loot: No loot. Treat this as a private continuity note for future sessions.",
+        "Future Hooks: The failing Goldspire Relay is the on-ramp. One-shot clues become future leads: pre-written hazard tag, Bramble testimony, Soulspire remains, rising-cost ledger. Connections upward to the Continuance Protocol, Soulspire's soul-fuel economy, and the Endless of Truth stay GM-only.",
+        "Robust: GM-only continuity reference. Do not show as a player handout. The forest is not the enemy. Corporations manufacture fear of the Preserve to sell protection from it. Private GM note page. In play, it appears only as paperwork, invoice timing, audit remains, and contradictory local memory. Wants every future clue to preserve the same loop: hazard notice, protection sale, soul-signal extraction, concession reclassification, and forest-magic dependency. Fails if it becomes a monologue, a player-facing answer key, or a reason to undercut the party's real victory in Hush. Use this page to keep the manufactured-threat clues consistent across future sessions while keeping the one-shot surface plot intact. GM continuity check N/A Seed one clue that helps future sessions without explaining the conspiracy. Reveal a concrete object or testimony and let players ask the next question. Reveal the clue, but attach institutional attention or social cost. Keep the clue partial and point to a safer later lead. Withhold the answer and let the official story become more dangerous. Spend Fear to make a future report, audit tag, or insurance rider arrive at the worst possible moment. Loreborne: follow...",
+        "Inventory: The Grail posts bounties and hazard notices. Protection Coverage sells to communities like Hush, with prices climbing alongside sightings. Soulspire supplies, looses, owns, or attracts dangerous soul-resonant assets. Kazrak holds the Preserve concession and reclassified the workers who became the Bramble Union. The capital ward depends on old forest-magic while the system fear-sells the forest.",
+        "Loot: No player-facing loot. Use this only to keep future-session seeds consistent.",
+        "Image Fallback: type-icon",
+        "Manufactured Threat: The Grail posts bounties and hazard notices. Protection Coverage sells to communities like Hush, with prices climbing alongside sightings. Soulspire supplies, looses, owns, or attracts dangerous soul-resonant assets. Kazrak holds the Preserve concession and reclassified the workers who became the Bramble Union. The capital ward depends on old forest-magic while the system fear-sells the forest.",
+        "Future Thread Canon: The Manufactured-Threat Conspiracy gm-only The forest is not the enemy. Corporations manufacture fear of the Preserve to sell protection from it. The Grail posts bounties and hazard notices. Protection Coverage sells to communities like Hush, with prices climbing alongside sightings. Soulspire supplies, looses, owns, or attracts dangerous soul-resonant assets. Kazrak holds the Preserve concession and reclassified the workers who became the Bramble Union. The capital ward depends on old forest-magic while the system fear-sells the forest. The failing Goldspire Relay is the on-ramp. One-shot clues become future leads: pre-written hazard tag, Bramble testimony, Soulspire remains, rising-cost ledger. Connections upward to the Continuance Protocol, Soulspire's soul-fuel economy, and the Endless of Truth stay GM-only. Do not hand this to players. A reveal should cost rolls, investigation, and risk. Keep the tone bureaucratic, funny, and humane.",
+        "Mechanics: Discovery / Earn-It Mechanics Players can inspect, handle, keep, trade, reveal, or earn Manufactured-Threat Future Thread when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: The forest is not the enemy. Corporations manufacture fear of the Preserve to sell protection from it. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-manufactured-threat-future-thread-engage-manufactured-threat-future-thread entity-manufactured-threat-future-thread Engage Manufactured-Threat Future Thread Engage Manufactured-Threat Future Thread Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Manufactured-Threat Future Thread hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear...",
+        "Pronunciation: Manufactured-threat Future Thread",
+        "Short Pronunciation: Manufactured-threat Future Thread",
+        "Personality: Private GM note page. In play, it appears only as paperwork, invoice timing, audit remains, and contradictory local memory.",
+        "Wants: Wants every future clue to preserve the same loop: hazard notice, protection sale, soul-signal extraction, concession reclassification, and forest-magic dependency.",
+        "Fears: Fails if it becomes a monologue, a player-facing answer key, or a reason to undercut the party's real victory in Hush.",
+        "Meta: Clue / Evidence CLUE assets/icons/clue.png entity-clue #48c7e8 07 Items and Clues entities clue",
+        "Image Prompt: Private table TTRPG story atlas asset for Manufactured-Threat Future Thread, Clue / Evidence. Role: GM-only future-thread canon. Summary: The forest is not the enemy. Corporations manufacture fear of the Preserve to sell protection from it.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Related: Bramble Union Hush Kazrak Industries Relay Spire Soulspire Solutions The Grail",
+        "Image: assets/entities/manufactured-threat-future-thread.webp",
+        "Image Asset Status: fallback_type_icon",
+        "Visual Gallery: primary Primary wiki image primary assets/entities/manufactured-threat-future-thread.webp Manufactured-Threat Future Thread primary wiki image visual. Manufactured-Threat Future Thread: Primary wiki image. fallback_type_icon True True"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 1228b493674010de | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

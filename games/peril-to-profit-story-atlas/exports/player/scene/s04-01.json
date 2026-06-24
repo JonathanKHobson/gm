@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S04-01",
+  "kind": "scene",
+  "title": "S04-01 - Through the Farms",
+  "in_world_label": "Situation Briefing",
+  "brand_flag": "Briefing",
+  "kicker": "The Hanging Office",
+  "hook": "Blue moss glows over the crops like starlight caught in soil. The trees ahead have faces carved into every side.",
+  "blocks": [
+    {
+      "label": "Where You Are",
+      "body": "Blue moss glows over the crops like starlight caught in soil. The trees ahead have faces carved into every side."
+    },
+    {
+      "label": "Plain Stakes",
+      "body": "The road to the Custodian passes through mosslit farms and carved watching trees."
+    },
+    {
+      "label": "Visible Options",
+      "body": "Ask about tree faces Follow locals’ directions Watch for ward magic"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "What detail in Through the Farms tells you the official story is incomplete?",
+    "Who notices the human cost first, and how do they show it?",
+    "What small object, smell, or sound makes this scene feel real?"
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - scene:S04-01",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "4aa95bedb64e7bc9",
+  "generated_at": "2026-06-23T21:40:58"
+}

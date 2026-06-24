@@ -1,0 +1,54 @@
+# The Patched Everything
+
+GM export - entity:the-patched-everything
+
+## Player-facing description
+The Patched Everything: Every roof, coat, and cart in Hush is mended, re-mended, and mended again — lovingly, expertly, endlessly. Nothing here is new.
+
+## Public role
+Clue / evidence
+
+## Handout text
+Player-safe note: Every roof, coat, and cart in Hush is mended, re-mended, and mended again — lovingly, expertly, endlessly. Nothing here is new.
+
+## GM truth
+Use this element to reveal the cost of managed protection through concrete play.
+
+## GM handling
+Use when players need a tangible handle on the scene's pressure.
+
+## Mechanics
+- Title: Discovery / Earn-It Mechanics
+- Player Safe: Players can inspect, handle, keep, trade, reveal, or earn The Patched Everything when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: Every roof, coat, and cart in Hush is mended, re-mended, and mended again — lovingly, expertly, endlessly. Nothing here is new. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-the-patched-everything-engage-the-patched-everything entity-the-patched-everything Engage The Patched Everything Engage The Patched Everything Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of The Patched Everything hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless the item or clue physically creates Hidden, Restrained, or Vulnerable
+- Search Loot: Player-safe note: Every roof, coat, and cart in Hush is mended, re-mended, and mended again — lovingly, expertly, endlessly. Nothing here is new.
+
+## Profile
+- Schema Version: clue-profile-v1
+- Id: the-patched-everything
+- Clue Id: the-patched-everything
+- Clue Name: The Patched Everything
+- Name: The Patched Everything
+- Pronunciation: the PACHT EV-ree-thing
+- Clue Kind: environmental
+- Auto Surface: True
+- Atlas Lore Note: [Atlas lore - confirm or override]
+- Player Safe: The Patched Everything Every roof, coat, and cart in Hush is mended, re-mended, and mended again — lovingly, expertly, endlessly. Nothing here is new. Every roof, coat, and cart in Hush is mended, re-mended, and mended again — lovingly, expertly, endlessly. Nothing here is new. Every roof, coat, and cart in Hush is mended, re-mended, and mended again — lovingly, expertly, endlessly. Nothing here is new.
+- Block0: the-patched-everything The Patched Everything the PACHT EV-ree-thing environmental
+- Block1: they can afford nothing new; the joy is threadbare but unbroken. HIDDEN Hush's Hidden Struggle hush-hidden-struggle Keeps Hush warm while making the cost of protection concrete. pages/entities/the-patched-everything.html pages/clues/hush-hidden-struggle.html
+- Block2: Every roof, coat, and cart in Hush is mended, re-mended, and mended again — lovingly, expertly, endlessly. Nothing here is new. they can afford nothing new; the joy is threadbare but unbroken.
+- Block3: "everything's patched." "nothing here is new — it's all mended." "they're too poor to replace anything." You have enough to conclude this: they can afford nothing new; the joy is threadbare but unbroken.
+- Block4: The Cheerful Ledger Reclaimer Personal Effects the-cheerful-ledger reclaimer-personal-effects
+- Block5: S03-01 S04-01 Hush Hush Farms observation. clues/Hush_Hidden_Struggle.md
+- Block6: OPTIONAL HIDDEN Use this clue to support Hush's Hidden Struggle: they can afford nothing new; the joy is threadbare but unbroken. whisper True
+- Block8: Bright, saturated storybook evidence illustration; clear hero shot of the actual clue object or scene detail; whimsical frontier-Renaissance materials; warm light; bright dystopian corporate satire when branded; no gore, no UI, no watermark, no repeated icon. Depict: a beautifully patched-and-repatched quilt-roof cottage. clue wiki card and Player Display evidence visual Send the image and SHOW text only. Keep TELL, points_to, and blunt ladder rungs GM-only until earned. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/the-patched-everything/profile_base.png assets/clue-images/the-patched-everything/profile_base.webp Bright, saturated storybook evidence illustration; clear hero shot of the actual clue object or scene detail; whimsical frontier-Renaissance materials; warm light; bright dystopian corporate satire when branded; no gore, no UI, no watermark, no...
+- Block9: Official Daggerheart action roll using Duality Dice, Hope, Fear, and Difficulty; P2P Roll Slider is the table-facing result ladder. Agility move, climb, dodge, reach a better angle, or read evidence while moving Strength lift, hold, force, carry, break, or test weight and pressure Finesse handle, hide, tinker, compare, pick apart, or notice precise detail Instinct perceive, smell, listen, track, read danger, or sense body language Presence charm, soothe, press, lead, deceive, perform, or read a social response Knowledge recall, analyze, investigate, reason from lore, or understand systems Instinct D14 Knowledge D14 Presence D14 If the clue is plainly visible, give the SHOW text freely first: Every roof, coat, and cart in Hush is mended, re-mended, and mended again — lovingly, expertly, endlessly. Nothing here is new. Use the listed Difficulty for the chosen trait. Lower rolls get...
+- Mechanicids: duality-dice hope fear difficulty roll-slider clue-discovery
+- Visual Assets: profile_base Clue evidence image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/the-patched-everything/profile_base.png assets/clue-images/the-patched-everything/profile_base.webp ready The Patched Everything clue image. Every roof, coat, and cart in Hush is mended, re-mended, and mended again — lovingly, expertly, endlessly. Nothing here is new.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 452ab6dedeb90fa3 | Source hash dac3370046ed077140fab2d6

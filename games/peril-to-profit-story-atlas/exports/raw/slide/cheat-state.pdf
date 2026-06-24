@@ -1,0 +1,130 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2666 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(CHEAT-STATE - Current State Summary) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: CHEAT-STATE) Tj
+T*
+(- Type: cheat) Tj
+T*
+(- Sectionid: CHEATS) Tj
+T*
+(- Sectiontitle: Cheat Sheets) Tj
+T*
+(- Title: Current State Summary) Tj
+T*
+(- Shorttitle: State) Tj
+T*
+(- Order: 906) Tj
+T*
+(- Playersafe: False) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Caption: A quick snapshot of choice flags and table state.) Tj
+T*
+(- Mood: reference) Tj
+T*
+(- Gmgoal: Review choice flags without opening the full dashboard.) Tj
+T*
+(- Gmnotes: Use this slide to audit current localStorage state before a major) Tj
+T*
+(  consequence fires.) Tj
+T*
+(- Playertakeaway: GM-only state reference; do not project private state controls.) Tj
+T*
+(- Storytakeaway: Tracked choices should pay off as visible consequences later.) Tj
+T*
+(- Mechanictakeaway: Use state controls to remember flags, not to replace table) Tj
+T*
+(  judgment.) Tj
+T*
+(- Statecontrols: strixwolf_disposition Strixwolf Disposition select unresolved calm) Tj
+T*
+(  hostile killed 9 strixwolf_outcome Strixwolf Outcome select unresolved calmed helped) Tj
+T*
+(  avoided attacked killed 9 strixwolf_trust Strixwolf Trust number 3) Tj
+T*
+(  strixwolf_blood_debt Strixwolf Blood Debt checkbox 9 bramble_outcome Bramble Outcome) Tj
+T*
+(  select unresolved killed captured spared negotiated escaped 9 bramble_truth_learned) Tj
+T*
+(  Bramble Truth Learned checkbox 9 package_status Package Status select held lost 9) Tj
+T*
+(  hush_trust Hush Trust select low neutral high 9 custodian_route Custodian Route) Tj
+T*
+(  select unknown safe dangerous 9 ward_awareness Ward Awareness select none seed aware) Tj
+T*
+(  9 festival_participation Festival Participation checkbox 9 festival_boon Festival) Tj
+T*
+(  Boon select none charm favor market_find goodwill 9 hush_clues Hush Clues select) Tj
+T*
+(  none custodian_route ward_seed corporate_seam farm_seed market_rumor multiple 9) Tj
+T*
+(  custodian_trust Custodian Trust select low neutral high 9 ward_stability Ward) Tj
+T*
+(  Stability select fragile stable 9 ritual_prep Ritual Prep select unready ready 9) Tj
+T*
+(  keystone_understanding Keystone Understanding select surface deep 9 ritual_countdown) Tj
+T*
+(  Ritual Countdown number 10 ritual_outcome Ritual Outcome select unresolved...) Tj
+T*
+(- Slidenumber: 110) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+(- Playersafeprojection: CHEAT-STATE cheat Current State Summary A quick snapshot of) Tj
+T*
+(  choice flags and table state. reference) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 15dfd7acad8387a3 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [2 0 R] /Count 1 >>
+endobj
+4 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000002727 00000 n 
+0000002853 00000 n 
+0000002910 00000 n 
+0000002959 00000 n 
+trailer
+<< /Size 6 /Root 4 0 R >>
+startxref
+3031
+%%EOF

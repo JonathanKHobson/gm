@@ -1,0 +1,177 @@
+{
+  "schema_version": "story-atlas-export-build-info-v1",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "regenerate_command": "python3 story-atlas/src/build_atlas.py",
+  "dynamic_reexport_todo": "TODO: Future pipeline can re-export only changed entities from source hashes. Do not build that dynamic path in this static export slice.",
+  "counts": {
+    "entries": 446,
+    "player_handouts_available": 403,
+    "player_handouts_featured": 11
+  },
+  "organized_counts": {
+    "markdown": 336,
+    "handouts": 293,
+    "featured": 11,
+    "no_handout": 43
+  },
+  "coverage": {
+    "schema_version": "story-atlas-export-coverage-v1",
+    "generated_at": "2026-06-23T21:41:06",
+    "entities_by_type": {
+      "pc": {
+        "total": 5,
+        "robust_handout_text": 5,
+        "robust_player_description": 5,
+        "mechanics_player_safe": 0
+      },
+      "creature": {
+        "total": 28,
+        "robust_handout_text": 28,
+        "robust_player_description": 28,
+        "mechanics_player_safe": 0
+      },
+      "npc": {
+        "total": 27,
+        "robust_handout_text": 27,
+        "robust_player_description": 27,
+        "mechanics_player_safe": 27
+      },
+      "faction": {
+        "total": 9,
+        "robust_handout_text": 9,
+        "robust_player_description": 9,
+        "mechanics_player_safe": 9
+      },
+      "enemy": {
+        "total": 8,
+        "robust_handout_text": 8,
+        "robust_player_description": 8,
+        "mechanics_player_safe": 8
+      },
+      "location": {
+        "total": 40,
+        "robust_handout_text": 40,
+        "robust_player_description": 40,
+        "mechanics_player_safe": 40
+      },
+      "item": {
+        "total": 54,
+        "robust_handout_text": 54,
+        "robust_player_description": 54,
+        "mechanics_player_safe": 54
+      },
+      "clue": {
+        "total": 43,
+        "robust_handout_text": 43,
+        "robust_player_description": 43,
+        "mechanics_player_safe": 43
+      },
+      "corporation": {
+        "total": 12,
+        "robust_handout_text": 12,
+        "robust_player_description": 12,
+        "mechanics_player_safe": 0
+      },
+      "mechanic": {
+        "total": 23,
+        "robust_handout_text": 23,
+        "robust_player_description": 23,
+        "mechanics_player_safe": 0
+      },
+      "condition": {
+        "total": 3,
+        "robust_handout_text": 3,
+        "robust_player_description": 3,
+        "mechanics_player_safe": 3
+      }
+    },
+    "profiles": {
+      "npc": {
+        "total": 32,
+        "player_safe": 32,
+        "the_show": 0,
+        "handout_text": 0
+      },
+      "location": {
+        "total": 41,
+        "player_safe": 41,
+        "the_show": 0,
+        "handout_text": 0
+      },
+      "faction": {
+        "total": 19,
+        "player_safe": 19,
+        "the_show": 0,
+        "handout_text": 0
+      },
+      "item": {
+        "total": 22,
+        "player_safe": 22,
+        "the_show": 0,
+        "handout_text": 0
+      },
+      "clue": {
+        "total": 38,
+        "player_safe": 38,
+        "the_show": 38,
+        "handout_text": 0
+      }
+    },
+    "scenes": {
+      "total": 27,
+      "read_aloud": 27,
+      "player_takeaway": 2,
+      "player_beats": 2
+    },
+    "slides": {
+      "total": 110,
+      "playerSafeProjection": 110
+    },
+    "player_handouts": {
+      "available": 403,
+      "featured": 11,
+      "no_handout": 43,
+      "by_archetype": {
+        "creature.field_guide": 28,
+        "faction.flyer": 21,
+        "item.product_card": 54,
+        "location.advisory": 40,
+        "mechanic.reference_card": 83,
+        "npc.contact_card": 40,
+        "scene.briefing": 137
+      }
+    }
+  },
+  "contract": {
+    "id": "goldspire-assignment-contract",
+    "title": "Goldspire Assignment Contract",
+    "category": "_contract",
+    "formats": {
+      "json": "exports/handouts/_contract/goldspire-assignment-contract.json",
+      "markdown": "exports/handouts/_contract/goldspire-assignment-contract.md",
+      "printer": "exports/handouts/_contract/goldspire-assignment-contract.html",
+      "pdf": "exports/handouts/_contract/goldspire-assignment-contract.pdf",
+      "docx": "exports/handouts/_contract/goldspire-assignment-contract.docx"
+    },
+    "assets": [
+      "exports/handouts/_contract/assets/asset-manifest.json",
+      "exports/handouts/_contract/assets/crate.png",
+      "exports/handouts/_contract/assets/crest.png",
+      "exports/handouts/_contract/assets/emeris-crown-seal.png",
+      "exports/handouts/_contract/assets/mascot-seal.png",
+      "exports/handouts/_contract/assets/route-vignette.png",
+      "exports/handouts/_contract/assets/stamp-frame.png"
+    ],
+    "asset_fingerprints": {
+      "emeris-crown-seal.png": "c9cade3d0fac06eb",
+      "crest.png": "c06459aeb9034ad0",
+      "mascot-seal.png": "da225b8bf45d9deb",
+      "crate.png": "29b08a849dfe50f9",
+      "route-vignette.png": "cf8b5aaa92100e44",
+      "stamp-frame.png": "e3b69ef47af5e585"
+    },
+    "build_timestamp": "2026-06-23T21:40:58",
+    "content_hash": "7e2c31ba7c91b7c6"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "the-glimpse",
+  "kind": "entity",
+  "title": "The Glimpse",
+  "in_world_label": "Field Guide Page",
+  "brand_flag": "Player-safe",
+  "kicker": "Creature / Animal",
+  "hook": "Player-safe note: A half-seen deer-wolf apparition made of moonlit mist, thin branches, too many reflective eyes, and firefly motes that make mercy feel older than fear.",
+  "blocks": [
+    {
+      "label": "Observed Form",
+      "body": "A pale deer-wolf silhouette of mist and branch, many reflective eyes, dissolving edges, firefly motes, and an elegant unsettling stillness."
+    },
+    {
+      "label": "Behavior",
+      "body": "Mercy older than fear, half-seen at the edge of the lantern light. It tends the hurt animals no one else will and asks for nothing, which is exactly why it unnerves people. To meet its many gentle eyes is to feel briefly, unbearably..."
+    },
+    {
+      "label": "Warning Signs",
+      "body": "Iron cages, the hunter's certainty, and being turned from a kindness into a commodity."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Give it distance before deciding it is hostile.",
+    "Read posture, tracks, and what it is protecting."
+  ],
+  "archetype": "creature.field_guide",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:the-glimpse",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "80250272126a34e6",
+  "generated_at": "2026-06-23T21:40:58"
+}

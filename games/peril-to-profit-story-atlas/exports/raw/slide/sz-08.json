@@ -1,0 +1,77 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "slide",
+  "id": "SZ-08",
+  "title": "SZ-08 - Launch Checklist / Cut to Prologue",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "43bbad258ebcd796",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "You are on a delivery job to the village of Hush with a sealed crate. You know enough to start; the rest will come through play."
+    },
+    {
+      "title": "Public objective",
+      "body": "You are on a delivery job to the village of Hush with a sealed crate. You know enough to start; the rest will come through play."
+    },
+    {
+      "title": "Player bullets",
+      "items": [
+        "The route waits.",
+        "The contract is signed.",
+        "The crate is sealed.",
+        "We begin now."
+      ]
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: SZ-08",
+        "Type: session-zero",
+        "Sectionid: SESSION-ZERO",
+        "Sectiontitle: Session Zero",
+        "Title: Launch Checklist / Cut to Prologue",
+        "Shorttitle: Launch Checklist / Cut to Prologue",
+        "Playertitle: Ready to begin",
+        "Order: 15",
+        "Playersafe: True",
+        "Completioneligible: True",
+        "Image: assets/scenes/S00-01-the-job.webp",
+        "Alt: The opening delivery job and sealed contract ready to begin.",
+        "Caption: Confirm readiness and transition into The Contract.",
+        "Mood: calibration, invitation, consent",
+        "Gmgoal: Confirm readiness and transition into The Contract.",
+        "Publicobjective: You are on a delivery job to the village of Hush with a sealed crate. You know enough to start; the rest will come through play.",
+        "Readaloud: You are on a delivery job to the village of Hush with a sealed crate. You know enough to start; the rest will come through play.",
+        "Playerbullets: The route waits. The contract is signed. The crate is sealed. We begin now.",
+        "Displaymode: image-title-caption",
+        "Gmnotes: Script: Confirm the checklist, then jump cleanly to the Prologue. Do not reopen planning unless safety or basic readiness is unresolved. This is the last Session Zero beat. The next player-facing screen should feel like the adventure beginning. Checklist: Safety tools explained; Safety intake reviewed if used; Characters chosen or built; Marlowe PC or chosen package custodian status assigned; Connections recorded; Starting knowledge aligned; Rules snapshot delivered; Player display ready; Prologue ready",
+        "Gmscript: Confirm the checklist, then jump cleanly to the Prologue. Do not reopen planning unless safety or basic readiness is unresolved.",
+        "Gmreadaloud: Last check before the Prologue: does everyone have a sheet, a basic sense of their character, and at least one reason to be on this job? Any safety, rules, character, or connection question before we start? If not, we begin with the contract.",
+        "Gmchecklist: Safety tools explained Safety intake reviewed if used Characters chosen or built Marlowe PC or chosen package custodian status assigned Connections recorded Starting knowledge aligned Rules snapshot delivered Player display ready Prologue ready",
+        "Playertakeaway: Players know enough to begin the Prologue and ask for help if something is unresolved.",
+        "Storytakeaway: The delivery job starts now; the rest of the truth will come through play.",
+        "Mechanictakeaway: Converts onboarding into first scene agency.",
+        "Takeawayhelp: Players know they can begin Players know enough to start and ask for help if unresolved. This is the final readiness gate. It should resolve friction, not reopen full Session Zero discussion. \"Before we start: sheet, character name, basic vibe, one reason you are on the job, and any last safety or rules question.\" If someone says they are not ready: \"Tell me the missing piece: sheet, character, rule, safety, or connection. We will fix that piece and begin.\" This is the final readiness gate. It should resolve friction, not reopen full Session Zero discussion. roleplay table-spotlight The contract starts now The delivery job begins; deeper truth arrives through play. This turns onboarding into action. Do not add more lore here; cut to the Prologue. \"When we move on, we are in the fiction. You will meet the job, see the package, and decide what your character asks or does first.\" If someone asks what happens first: \"We begin with the contract: a contact, a carriage, a sealed crate, and a job that wants you moving before daylight is gone.\" This turns onboarding into action. Do not add more lore here; cut to the Prologue. roleplay table-spotlight Onboarding becomes first-scene agency...",
+        "Mechanicids: roleplay table-spotlight",
+        "Handoutids: session-zero-worksheet",
+        "Sourcefiles: docs/SESSION_ZERO_RUNBOOK.md#session-zero-closeout data/session_zero_state_schema.json docs/HTML_IMPLEMENTATION_SPEC.md",
+        "Livetools: none",
+        "Playerbeats: SZ-08-image Image only Ready to begin assets/scenes/S00-01-the-job.webp The opening delivery job and sealed contract ready to begin. image-only SZ-08-hybrid Image + text Ready to begin assets/scenes/S00-01-the-job.webp The opening delivery job and sealed contract ready to begin. Confirm readiness and transition into The Contract. You are on a delivery job to the village of Hush with a sealed crate. You know enough to start; the rest will come through play. You are on a delivery job to the village of Hush with a sealed crate. You know enough to start; the rest will come through play. The route waits. The contract is signed. The crate is sealed. We begin now. image-title-caption SZ-08-text Text only Ready to begin Confirm readiness and transition into The Contract. You are on a delivery job to the village of Hush with a sealed crate. You know enough to start; the rest will come through play. You are on a delivery job to the village of Hush with a sealed crate. You know enough to start; the rest will come through play. The route waits. The contract is signed. The crate is sealed. We begin now. text-first",
+        "Beatautoplayeligible: False",
+        "Beatautoplaydefault: False",
+        "Beatautoplayintervalms: 12000",
+        "Playersafeprojection: SZ-08 session-zero Launch Checklist / Cut to Prologue assets/scenes/S00-01-the-job.webp The opening delivery job and sealed contract ready to begin. Confirm readiness and transition into The Contract. calibration, invitation, consent You are on a delivery job to the village of Hush with a sealed crate. You know enough to start; the rest will come through play. You are on a delivery job to the village of Hush with a sealed crate. You know enough to start; the rest will come through play. The route waits. The contract is signed. The crate is sealed. We begin now. image-title-caption SZ-08-image Image only Ready to begin assets/scenes/S00-01-the-job.webp The opening delivery job and sealed contract ready to begin. image-only SZ-08-hybrid Image + text Ready to begin assets/scenes/S00-01-the-job.webp The opening delivery job and sealed contract ready to begin. Confirm readiness and transition into The Contract. You are on a delivery job to the village of Hush with a sealed crate. You know enough to start; the rest will come through play. You are on a delivery job to the village of Hush with a sealed crate. You know enough to start; the rest will come through play. The route waits. The...",
+        "Slidenumber: 15",
+        "Totalslides: 110"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 43bbad258ebcd796 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

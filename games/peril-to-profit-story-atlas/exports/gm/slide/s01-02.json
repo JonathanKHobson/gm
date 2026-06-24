@@ -1,0 +1,47 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "S01-02",
+  "title": "S01-02 - The Overturned Vendor Cart",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "61eb3367752dbbf0",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "Your steeds haul the carriage around a tight bend and stop hard. The path ahead is blocked: a vendor cart lies overturned, its fruit, vegetables, and spilled preserves scattered across the trail. Something has been feeding here. The air is wrong: sweet rot and something underneath it, coppery. From the far side of the cart, you hear wet, unhurried movement."
+    },
+    {
+      "title": "Public objective",
+      "body": "Figure out what happened here and clear the road."
+    },
+    {
+      "title": "GM goal",
+      "body": "Block the road with a wrecked vendor cart, let the table read the scene, and plant that the obvious animal story does not add up."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "Use the wreck as an investigation scene first and a creature reveal second.",
+        "Player-safe language: body, feeding, blade wound. GM-only truth: staged murder and later Bramble connection."
+      ]
+    },
+    {
+      "title": "GM script",
+      "body": "Say: \"The carriage stops hard. Ahead of you is a wreck, a body, and something feeding just out of sight. You can rush toward the sound, but you have time to look first. What do you check?\" If someone checks the body, say: \"The feeding is messy, but the killing wound is clean. This was not done by claws.\" If they need the roll, call Knowledge or Instinct, Difficulty 12."
+    },
+    {
+      "title": "State controls",
+      "items": [
+        "slitThroatDiscovered Slit throat discovered checkbox Carry this forward as the first crack in the animal-attack story.",
+        "brambleSeedFound Bramble seed found checkbox Use only as a seed; do not resolve the later faction connection in Act 1."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 61eb3367752dbbf0 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

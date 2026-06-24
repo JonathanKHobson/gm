@@ -1,0 +1,60 @@
+# MAP-LOC-hush-farms - Hush Farms Location Map
+
+RAW export - slide:MAP-LOC-hush-farms
+
+## Player text
+The last cultivated fields thin into carved trees and blue moss-light. The path ahead leaves village warmth behind.
+
+## Public objective
+The last cultivated fields thin into carved trees and blue moss-light. The path ahead leaves village warmth behind.
+
+## Raw source
+- Id: MAP-LOC-hush-farms
+- Type: map
+- Maptype: environment
+- Sectionid: ACT-FOUR
+- Sectiontitle: Act Four: The Hanging Office
+- Title: Hush Farms Location Map
+- Shorttitle: The Last Fields
+- Order: 404.08
+- Playersafe: True
+- Completioneligible: False
+- Image: assets/maps/MAP-LOC-hush-farms-gm.webp
+- Alt: Hush Farms location map board.
+- Caption: Visual reference for Hush Farms.
+- Mood: spatial reference and location texture
+- Gmgoal: Use the farms as the Act 3 to Act 4 bridge, paying off custodian_route before the treehouse approach.
+- Publicobjective: The last cultivated fields thin into carved trees and blue moss-light. The path ahead leaves village warmth behind.
+- Readaloud: The last cultivated fields thin into carved trees and blue moss-light. The path ahead leaves village warmth behind.
+- Gmscript: Say: "Safe route, clean crossing. Dangerous or unknown route, Instinct 13 or one minor preserve obstacle before S04-01."
+- Gmreadaloud: The last fields thin. Blue moss-light pulses softly. The carved-face trees begin.
+- Gmchecklist: Check custodian_route. Resolve one minor hazard only if route is dangerous/unknown. Move to S04-01.
+- Gmprivate: This map is shared with Act 3, but Act 4 uses it as the approach consequence gate.
+- Playertakeaway: The last cultivated fields thin into carved trees and blue moss-light. The path ahead leaves village warmth behind.
+- Storytakeaway: The road out of Hush proves whether the town truly vouched for the party.
+- Mechanictakeaway: custodian_route controls whether this crossing is automatic or asks for Instinct 13 / 1 Stress.
+- Entityids: hush-farms whitefire-custodian sunless-farm-moss ratcoons young-dryads
+- Entities: hush-farms Hush Farms location Location assets/icons/location.png assets/location-visuals/hush-farms/profile_scene_v02.webp hush farmz Glowing blue moss grows over fruits and vegetables. Make the infrastructure failure agricultural and bodily, not abstract. Glowing blue moss grows over fruits and vegetables.; introduce it with a sensory palette, who feels safe there, and what has been neglected. Pull player attention toward the choices, clues, and relationships tied to Hush, The Hanging Office, Old Sable. Glowing blue moss grows over fruits and vegetables. whitefire-custodian Whitefire Custodian npc NPC / Ally assets/icons/npc.png assets/npc-images/whitefire-custodian/portrait_base.webp WHITE-fire kus-TOH-dee-un Old faerie-like custodian who maintains the ward protecting Hush. Truth-bearer for the Keystone reveal. Whitefire Custodian an old faerie-like ward keeper whose exhaustion glows around the edges Ancient kindness running on fumes, glowing a little brighter whenever someone tells the truth nearby. Wants to keep one place honestly safe long enough for people to remember that safety can be care instead of a product, and is quietly breaking under the cost of it. Renew the ward...
+- Locationids: hush-farms
+- Statecontrols: custodian_route Custodian Route select unknown safe dangerous package_status Package Status select held lost ward_awareness Ward Awareness select none seed aware custodian_trust Custodian Trust select low neutral high
+- Mechanicids: instinct knowledge stress
+- Fearspends: A channel coughs up cold light instead of water. A farmer stops mid-sentence to listen to a post go silent. The Keystone pulses toward Open Vale.
+- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth context stay off the player display.
+- Linkedsceneids: S04-01
+- Mapdata: MAP-LOC-hush-farms environment Hush Farms Location Map S04-01 hush-farms whitefire-custodian sunless-farm-moss ratcoons young-dryads assets/location-visuals/hush-farms/profile_scene_v02.webp Visual reference for Hush Farms. Hush Farms location map board. The last cultivated fields thin into carved trees and blue moss-light. The path ahead leaves village warmth behind. The last cultivated fields thin into carved trees and blue moss-light. The path ahead leaves village warmth behind. Use the farms as the Act 3 to Act 4 bridge, paying off custodian_route before the treehouse approach. Irrigation channels thread between moss-lit rows. Carved tree faces and field markers make the farms feel watched over rather than owned. Some crops lean away from weak ward posts. Village life stays audible: work sounds, lowered voices, doors, tools, and ward tones changing the room's confidence. Wet soil, crushed stems, mineral water, and the peppery smell of blue moss. Fence posts are slick with rain and thumb-smoothed where people check them by habit. Let ordinary people, animals, chores, and hospitality react to the party so the place feels inhabited. Irrigation channels thread between moss-lit...
+- Sourcefiles: dist/Act4_Upgrade_Packet/ACT4_MAPS_AND_LOCATIONS.md
+- References: Through the Farms #S04-01 Hanging Office #MAP-LOC-the-hanging-office
+- Livetools: scene MAP-LOC-hush-farms
+- Percharacterlayer: varian-soto Varian Soto Wrong forest The carved trees and glowing moss smell worked, as if magic has been layered over living wood. Instinct 13 Reads which carved faces feel awake and where the safe line runs; if blood-debt is set, the faces feel like they are tracking the party. Can name the safest line through the carved-face edge. Varian, this stretch of forest has been changed by hands. Want to read what the trees are doing? marlowe-fairwind Marlowe Fairwind Ward heart The package resonates hard now; she can feel it is near where it belongs. Knowledge 13 The carved faces are ward anchors and the cargo is tied to them. Do not name the Keystone yet. Can make the package feel important without stealing the Custodian's reveal. Marlowe, whatever you are carrying is humming now. You are close to where it belongs. Want to feel into it? garrick-reed Garrick Reed Defensible ground Reads the approach as isolated, defensible ground made for privacy and protection. Can warn the party that whoever lives here values controlled access. Garrick, this is a place built to be hard to reach. Want to note what that says about who lives here? barnacle Barnacle Puzzle-box cabin Already sees the...
+- Gmbeats: MAP-LOC-hush-farms-route Route Route payoff Say: "Check custodian_route and resolve the crossing." The last fields show whether the town gave the party a safe path. Act 3 route work becomes Act 4 pressure. State gates the transition. Players see trust pay off. Player takeaway Players see trust pay off. "Check custodian_route and resolve the crossing." "The playable fact is: The last fields show whether the town gave the party a safe path." Concrete actions for this beat: look closely, ask the Custodian a direct question, commit to a choice, or take one prep action. instinct Story takeaway Act 3 route work becomes Act 4 pressure. "Check custodian_route and resolve the crossing." "The story fact in play is: Act 3 route work becomes Act 4 pressure." This beat changes Act 4 through this exact pressure: Act 3 route work becomes Act 4 pressure. instinct Mechanic takeaway State gates the transition. "Check custodian_route and resolve the crossing." "The active procedure is: State gates the transition." Run intent first. Use Presence for trust, Knowledge for ward or stone truths, Instinct for preserve danger, and Agility or Finesse for the hanging-home puzzle. instinct
+- Takeawayhelp: Player takeaway The last fields are the Act 4 entry gate. "This is where Hush warmth ends and the Custodian path begins." "Safe route is clean. Dangerous or unknown route asks for Instinct 13 or costs 1 Stress." Do not strand the table here; resolve route quality and move forward. instinct knowledge stress Story takeaway The road proves whether Hush vouched for the party. "A town trust can become a road. A town caution can become a harder one." "Guided means vouched for. Unguided means they are finding the way without full trust." This is the cleanest Act 3 payoff before the reveal act. instinct knowledge stress Mechanic takeaway custodian_route controls the crossing. "Set custodian_route before S04-01: safe, dangerous, or unknown." "If package_status is lost, note the later reveal block and keep moving until the canon branch is confirmed." Route state affects immediate pressure; package state affects reveal viability. instinct knowledge stress
+- Playerbeats: assets/maps/MAP-LOC-hush-farms.png The Last Fields map board. MAP-LOC-hush-farms environment The Last Fields S04-01 assets/maps/MAP-LOC-hush-farms.png assets/maps/MAP-LOC-hush-farms.png The Last Fields map board. The last cultivated fields thin into carved trees and blue moss-light. The path ahead leaves village warmth behind. The last cultivated fields thin into carved trees and blue moss-light. The path ahead leaves village warmth behind. MAP-LOC-hush-farms-map-only Map only The Last Fields map-only assets/maps/MAP-LOC-hush-farms.png The Last Fields map board. MAP-LOC-hush-farms environment The Last Fields S04-01 assets/maps/MAP-LOC-hush-farms.png assets/maps/MAP-LOC-hush-farms.png The Last Fields map board. The last cultivated fields thin into carved trees and blue moss-light. The path ahead leaves village warmth behind. The last cultivated fields thin into carved trees and blue moss-light. The path ahead leaves village warmth behind. MAP-LOC-hush-farms-map-text Map + text The Last Fields The last cultivated fields thin into carved trees and blue moss-light. The path ahead leaves village warmth behind. The last cultivated fields thin into carved trees and blue moss-light. The...
+- Beatautoplayeligible: True
+- Beatautoplaydefault: False
+- Beatautoplayintervalms: 10000
+- Playersafeprojection: MAP-LOC-hush-farms map The Last Fields assets/maps/MAP-LOC-hush-farms.png The Last Fields map board. spatial reference and location texture The last cultivated fields thin into carved trees and blue moss-light. The path ahead leaves village warmth behind. The last cultivated fields thin into carved trees and blue moss-light. The path ahead leaves village warmth behind. MAP-LOC-hush-farms environment The Last Fields S04-01 assets/maps/MAP-LOC-hush-farms.png assets/maps/MAP-LOC-hush-farms.png The Last Fields map board. The last cultivated fields thin into carved trees and blue moss-light. The path ahead leaves village warmth behind. The last cultivated fields thin into carved trees and blue moss-light. The path ahead leaves village warmth behind. assets/maps/MAP-LOC-hush-farms.png The Last Fields map board. MAP-LOC-hush-farms environment The Last Fields S04-01 assets/maps/MAP-LOC-hush-farms.png assets/maps/MAP-LOC-hush-farms.png The Last Fields map board. The last cultivated fields thin into carved trees and blue moss-light. The path ahead leaves village warmth behind. The last cultivated fields thin into carved trees and blue moss-light. The path ahead leaves village warmth...
+- Slidenumber: 52
+- Totalslides: 110
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash f4fc455a3aa98855 | Source hash dac3370046ed077140fab2d6

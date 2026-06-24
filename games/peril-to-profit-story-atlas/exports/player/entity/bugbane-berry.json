@@ -1,0 +1,53 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "bugbane-berry",
+  "kind": "entity",
+  "title": "Bugbane Berry™",
+  "in_world_label": "Provisioning Product Card",
+  "brand_flag": "Hexmart",
+  "kicker": "A fat red-orange berry shines a little too perfectly, with a tiny insect suspended dead-center like a pit in amber. It looks appetizing...",
+  "hook": "A fat red-orange berry shines a little too perfectly, with a tiny insect suspended dead-center like a pit in amber. It looks appetizing and deeply wrong.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "A fat red-orange berry shines a little too perfectly, with a tiny insect suspended dead-center like a pit in amber. It looks appetizing and deeply wrong."
+    },
+    {
+      "label": "Maker Voice",
+      "body": "HEXMART BUGBANE BERRY: Now 70 percent likely to contain a berry. The bug is a feature. The bug has always been a feature."
+    },
+    {
+      "label": "At The Table",
+      "body": "Consumable. Eat it to gain resistance to magic damage until your next short rest. One use."
+    }
+  ],
+  "spec": [
+    [
+      "Use",
+      "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction."
+    ],
+    [
+      "Benefit",
+      "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned."
+    ],
+    [
+      "Limit",
+      "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a..."
+    ]
+  ],
+  "affordances": [
+    "Inspect the label, maker, or fine print.",
+    "Use it only when the fiction says you can reach it."
+  ],
+  "archetype": "item.product_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:bugbane-berry",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "56f3fb5eb431cdb6",
+  "generated_at": "2026-06-23T21:40:58"
+}

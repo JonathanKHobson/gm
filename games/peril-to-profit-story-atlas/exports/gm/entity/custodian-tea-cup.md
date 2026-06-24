@@ -1,0 +1,31 @@
+# Custodian Tea Cup
+
+GM export - entity:custodian-tea-cup
+
+## Player-facing description
+Custodian Tea Cup: A tea ring on a denial letter that makes the Custodian's exhaustion visible before exposition.
+
+## Public role
+Quiet sign of repeated worry inside the Hanging Office
+
+## Handout text
+Player-safe note: A tea ring on a denial letter that makes the Custodian's exhaustion visible before exposition.
+
+## GM truth
+No forced reveal. Let this entity disclose truth through scene context and player attention.
+
+## GM handling
+Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.
+
+## Mechanics
+- Title: Discovery / Earn-It Mechanics
+- Player Safe: Players can inspect, handle, keep, trade, reveal, or earn Custodian Tea Cup when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: A tea ring on a denial letter that makes the Custodian's exhaustion visible before exposition. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-custodian-tea-cup-engage-custodian-tea-cup entity-custodian-tea-cup Engage Custodian Tea Cup Engage Custodian Tea Cup Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Custodian Tea Cup hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless the item or clue physically creates Hidden, Restrained, or Vulnerable
+- Search Loot: Not treasure; it tells the GM to play the Custodian as a person under pressure.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash fbed7f34b104d194 | Source hash dac3370046ed077140fab2d6

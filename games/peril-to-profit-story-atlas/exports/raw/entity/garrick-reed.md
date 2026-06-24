@@ -1,0 +1,49 @@
+# Garrick Reed
+
+RAW export - entity:garrick-reed
+
+## Player-facing description
+Garrick Reed: A kind warrior whose mercy is an active tactic.
+
+## Public role
+Ex-security defector and warrior
+
+## Handout text
+Player-safe note: A kind warrior whose mercy is an active tactic.
+
+## Raw source
+- Type: pc
+- Role: Ex-security defector and warrior
+- Tags: pc-pregen npc pc
+- Summary: A kind warrior whose mercy is an active tactic.
+- Connections: Emeris Crown Holdings Bramble Union Marlowe Fairwind
+- Inventory: longsword leather armor minor health potion old security insignia kept upside down
+- Loot: PC character.
+- Name: Garrick Reed
+- Id: garrick-reed
+- Meta: PC / Player Character PC assets/icons/type-pc.png entity-pc #2f8f71 03 NPCs entities pc
+- Aliases: Garrick Garrick Reed
+- Appears In: S00-01 S01-02 S02-02 S02-04 S04-02 S05-04
+- Related: Bramble Union Emeris Crown Holdings Marlowe Fairwind S00-01 S01-02 S02-02 S02-04 S04-02 S05-04
+- Image Prompt: Private table TTRPG story atlas asset for Garrick Reed, PC / Player Character. Role: Ex-security defector and warrior. Summary: A kind warrior whose mercy is an active tactic.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: gentle, disciplined, allergic to easy cruelty
+- Wants: to prove security can mean care
+- Fears: becoming useful to the wrong people again
+- Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.
+- Body Language: Keeps his hands open and visible even mid-fight, like a standing promise. Steps between the threat and the bystander before he has consciously decided to.
+- Sample Dialogue: I can stop you without breaking you. Let me show you the difference. I wore that uniform. I know exactly what it is for. Down, not dead. We do this my way.
+- Equipment: longsword leather armor minor health potion old security insignia kept upside down
+- Search Or Loot: PC character.
+- Gm Use: Use this person to put a human face on the current pressure. Give them one concrete want before exposition.
+- Future Hooks: Bring back as an echo if players made a strong choice involving this entity.
+- Robust: Garrick Reed: A kind warrior whose mercy is an active tactic. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. to prove security can mean care becoming useful to the wrong people again Use this person to put a human face on the current pressure. Give them one concrete want before exposition. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Garrick Reed and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the institutional pattern. Wildborne / community: notices local use, neglect, or ecological stress. Martial / security: reads custody, danger lines, and breach response. Magic: senses ward tone, soul-signal, or unstable resonance. What...
+- Pc Profile: garrick-reed Garrick Reed Garrick Reed GAIR-ick REED he/him Warrior Call of the Brave Human Highborne Affable Hit Them Hard unassigned
+- Pronunciation: GAIR-ick REED
+- Short Pronunciation: GAIR-ick REED
+- Imagine It Like: Think the soldier who defected on principle, the bouncer who would always rather talk you down, the redeemed enforcer. Mercy held like a disciplined weapon.
+- Image: assets/entities/garrick-reed.webp
+- Image Asset Status: image_gen
+- Visual Gallery: primary Primary wiki image primary assets/entities/garrick-reed.webp Garrick Reed primary wiki image visual. Garrick Reed: Primary wiki image. image_gen True True pc-current Current PC portrait pc-portrait assets/entity-gallery/garrick-reed/pc-current.webp Garrick Reed current pc portrait visual. Garrick Reed: Current PC portrait. pc_portrait_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/pc_portrait_assets/generated/garrick-reed.png pc-transparent Transparent portrait pc-portrait assets/entity-gallery/garrick-reed/pc-transparent.webp Garrick Reed transparent portrait visual. Garrick Reed: Transparent portrait. pc_portrait_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/pc_portrait_assets/transparent/garrick-reed.png pc-chroma Blue-screen source pc-portrait assets/entity-gallery/garrick-reed/pc-chroma.webp Garrick Reed blue-screen source visual. Garrick Reed: Blue-screen source. pc_portrait_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/pc_portrait_assets/chroma-blue/garrick-reed-blue-screen.png pc-legacy-1 Legacy portrait 1 pc-legacy assets/entity-gallery/garrick-reed/pc-legacy-1.webp Garrick Reed...
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash e2a83c45ea68417f | Source hash dac3370046ed077140fab2d6

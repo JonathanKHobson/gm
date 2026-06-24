@@ -1,0 +1,42 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "SZ-00C",
+  "kind": "slide",
+  "title": "SZ-00C - Player Introductions",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Session Zero",
+  "hook": "Before characters, let's meet the people at the table. Short is perfect, and passing is always okay.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "Before characters, let's meet the people at the table. Short is perfect, and passing is always okay."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Before characters, let's meet the people at the table. Short is perfect, and passing is always okay."
+    },
+    {
+      "label": "Player Bullets",
+      "body": "Your name and pronouns if you want to share them. Your TTRPG or Daggerheart experience level. One fun fact, comfort note, or what you are hoping for tonight. You can pass and come back."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Your name and pronouns if you want to share them.",
+    "Your TTRPG or Daggerheart experience level.",
+    "One fun fact, comfort note, or what you are hoping for tonight.",
+    "You can pass and come back."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:SZ-00C",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "016a2f7d11585614",
+  "generated_at": "2026-06-23T21:40:58"
+}

@@ -1,0 +1,459 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2590 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-hush - Hush Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(Hush gathers under the colossal trees: warm windows, lantern branches, low roofs, and) Tj
+T*
+(paths leading toward a tree-tavern, market stalls, festival noise, and the farms beyond.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Hush gathers under the colossal trees: warm windows, lantern branches, low roofs, and) Tj
+T*
+(paths leading toward a tree-tavern, market stalls, festival noise, and the farms beyond.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-hush) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: ACT-THREE) Tj
+T*
+(- Sectiontitle: Act Three: Seeking a Custodian) Tj
+T*
+(- Title: Hush Location Map) Tj
+T*
+(- Shorttitle: Hush) Tj
+T*
+(- Order: 401.08) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-hush-gm.png) Tj
+T*
+(- Alt: Hush location map board.) Tj
+T*
+(- Caption: Visual reference for Hush.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Use Hush as the warm hub for Act 3: a lived-in village, ward boundary,) Tj
+T*
+(  social routes, and all optional detours looping back toward the keeper.) Tj
+T*
+(- Publicobjective: Hush gathers under the colossal trees: warm windows, lantern) Tj
+T*
+(  branches, low roofs, and paths leading toward a tree-tavern, market stalls, festival) Tj
+T*
+(  noise, and the farms beyond.) Tj
+T*
+(- Readaloud: Hush gathers under the colossal trees: warm windows, lantern branches,) Tj
+T*
+(  low roofs, and paths leading toward a tree-tavern, market stalls, festival noise,) Tj
+T*
+(  and the farms beyond.) Tj
+T*
+(- Gmnotes: No dead ends: co-op, market, festival, farms, and official sign all loop) Tj
+T*
+(  back here or forward to the keeper route.) Tj
+T*
+(- Gmscript: Say: "Use this as the hub. From here the party can head to the Co-op, ask) Tj
+T*
+(  locals, visit the market or festival, inspect the farms, or follow directions south) Tj
+T*
+(  when custodian_route is set.") Tj
+T*
+(- Gmreadaloud: Hush gathers under the colossal trees. Warm windows and lantern) Tj
+T*
+(  branches make it feel lived in. Every path here should either deepen trust or point) Tj
+T*
+(  back toward the keeper.) Tj
+T*
+(- Gmchecklist: Keep detours looped back to the hub. Use player-safe Hush in player) Tj
+T*
+(  text. Treat the official/corporate lens as GM-only or sharp-PC discovery.) Tj
+T*
+(- Gmprivate: The cozy hub is a registered managed place. Keep that hidden-truth lens) Tj
+T*
+(  off the player display until discovered.) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3933 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Playertakeaway: Hush gathers under the colossal trees: warm windows, lantern) Tj
+T*
+(  branches, low roofs, and paths leading toward a tree-tavern, market stalls, festival) Tj
+T*
+(  noise, and the farms beyond.) Tj
+T*
+(- Storytakeaway: Hush is the community the package exists to protect, not a checkpoint) Tj
+T*
+(  to clear.) Tj
+T*
+(- Mechanictakeaway: The hub turns social trust into navigation: hush_trust and) Tj
+T*
+(  custodian_route decide the quality of the path forward.) Tj
+T*
+(- Entityids: hush clover-co-op fidget lausa-standworth halython-fives whitefire-) Tj
+T*
+(  custodian ratcoons festival-moths young-dryads sunless-farm-moss) Tj
+T*
+(- Entities: hush Hush location Location assets/icons/location.png assets/location-) Tj
+T*
+(  visuals/hush/profile_scene_v02.png hush, like quiet A real village under corporate) Tj
+T*
+(  designation, protected by ward pillars. Make Hush feel worth protecting before the) Tj
+T*
+(  finale asks the party to protect it. The Village A small forest village, named only) Tj
+T*
+(  once the players ask where the package is going. Warm local community with jokes,) Tj
+T*
+(  food, arguments, work songs, children, elders, and a very real need for the ward to) Tj
+T*
+(  hold. Another season of safety, crops, music, ordinary life, and visitors who learn) Tj
+T*
+(  the old name before the corporate one. A real village under corporate designation,) Tj
+T*
+(  protected by ward pillars. clover-co-op Clover Co-op faction Faction / Community) Tj
+T*
+(  assets/icons/faction.png assets/logos/clover-co-op.png KLOH-ver KOH-op Warm lamps,) Tj
+T*
+(  clover doors, shared bowls, and dry jokes make the Clover Co-op feel like Hush's) Tj
+T*
+(  stubborn heartbeat. Make hospitality practical, specific, and emotionally risky. The) Tj
+T*
+(  social heart of Hush; shoes get polished and filled with trinkets.; introduce it) Tj
+T*
+(  with a sensory palette, who feels safe there, and what has been neglected. Pull) Tj
+T*
+(  player attention toward the choices, clues, and...) Tj
+T*
+(- Locationids: hush) Tj
+T*
+(- Statecontrols: hush_trust Hush Trust select low neutral high custodian_route) Tj
+T*
+(  Custodian Route select unknown safe dangerous ward_awareness Ward Awareness select) Tj
+T*
+(  none seed aware hush_clues Hush Clues select none custodian_route ward_seed) Tj
+T*
+(  corporate_seam farm_seed market_rumor multiple) Tj
+T*
+(- Mechanicids: presence instinct knowledge hope fear) Tj
+T*
+(- Fearspends: This is a safe zone ? lean warmth, not threat. Resist spending Fear) Tj
+T*
+(  here; let the ward's safety contrast the road. If the table needs urgency, a runner) Tj
+T*
+(  mentions the western Relay's beacon flickering ? gentle foreshadow, no danger inside) Tj
+T*
+(  the ward.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S03-01 S03-02 S03-03 S03-04) Tj
+T*
+(- Mapdata: MAP-LOC-hush environment Hush Location Map S03-01 S03-02 S03-03 S03-04 hush) Tj
+T*
+(  clover-co-op fidget lausa-standworth halython-fives whitefire-custodian ratcoons) Tj
+T*
+(  festival-moths young-dryads sunless-farm-moss assets/location-) Tj
+T*
+(  visuals/hush/profile_scene_v02.png Visual reference for Hush. Hush location map) Tj
+T*
+(  board. Hush gathers under the colossal trees: warm windows, lantern branches, low) Tj
+T*
+(  roofs, and paths leading toward a tree-tavern, market stalls, festival noise, and) Tj
+T*
+(  the farms beyond. Hush gathers under the colossal trees: warm windows, lantern) Tj
+T*
+(  branches, low roofs, and paths leading toward a tree-tavern, market stalls, festival) Tj
+T*
+(  noise, and the farms beyond. Use Hush as the warm hub for Act 3: a lived-in village,) Tj
+T*
+(  ward boundary, social routes, and all optional detours looping back toward the) Tj
+T*
+(  keeper. No dead ends: co-op, market, festival, farms, and official sign all loop) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4318 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  back here or forward to the keeper route. Low roofs, shoe lines, kitchen windows,) Tj
+T*
+(  repair benches, clover charms, and ward posts make the village feel guarded but) Tj
+T*
+(  lived in. Mugs clink indoors, children whisper behind trusted adults, a distant work) Tj
+T*
+(  song falters when the ward hum misses a beat. Bread, wet clover, hearth smoke...) Tj
+T*
+(- Sourcefiles: dist/Act3_Upgrade_Packet/ACT3_MAPS_AND_LOCATIONS.md) Tj
+T*
+(- References: Arrival at Hush #S03-01 Local Clues #S03-02) Tj
+T*
+(- Livetools: scene MAP-LOC-hush) Tj
+T*
+(- Percharacterlayer: garrick-reed Garrick Reed Management under warmth Notices the) Tj
+T*
+(  town logistics run with corporate efficiency under the folksy surface. Instinct 13) Tj
+T*
+(  There are company minders in Hush dressed as ordinary locals. Can talk crew-to-crew) Tj
+T*
+(  with ex-company locals and earn practical trust. Garrick, under the warmth, this) Tj
+T*
+(  town runs like a company op. Want to read who is minding it? khari-nix Khari Nix) Tj
+T*
+(  Trusted protector Protective people recognize her as protective and confide faster.) Tj
+T*
+(  Can be the one a worried local trusts with the keeper's location. Khari, they want) Tj
+T*
+(  to tell you where she is. Want to be the one they trust with it? barnacle Barnacle) Tj
+T*
+(  Paperwork seam Finds the supply manifests, tucked compliance office, and tiny signs) Tj
+T*
+(  that safety has an owner. Instinct 13 Hush is registered and inventoried; a managed) Tj
+T*
+(  place wearing a village's face. Keep the label GM-gated. Can find who handles) Tj
+T*
+(  records without making the table listen to a lore dump. Barnacle, peel back the) Tj
+T*
+(  charm and there is paperwork. Want to find who holds the deed to safe? marlowe-) Tj
+T*
+(  fairwind Marlowe Fairwind Package weight Knowledge 13 The fading ward and the) Tj
+T*
+(  package resonate; every local thanks the ward and makes the cargo feel...) Tj
+T*
+(- Gmbeats: MAP-LOC-hush-orient Orient Orient the hub Say: "This is the hub: Co-op,) Tj
+T*
+(  market, festival, farms, and the route south." The map shows every Act 3 social path) Tj
+T*
+(  and the southward route. The village becomes a playable space. Map navigation) Tj
+T*
+(  supports trust and clue gathering. Players know where they can go. Player takeaway) Tj
+T*
+(  Players know where they can go. "This is the hub: Co-op, market, festival, farms,) Tj
+T*
+(  and the route south." "The playable fact is: The map shows every Act 3 social path) Tj
+T*
+(  and the southward route." Concrete actions for this beat: talk to a person present,) Tj
+T*
+(  inspect the named detail, help an ally, or choose whether to move toward the) Tj
+T*
+(  Custodian route. presence table-spotlight Story takeaway The village becomes a) Tj
+T*
+(  playable space. "This is the hub: Co-op, market, festival, farms, and the route) Tj
+T*
+(  south." "The story fact in play is: The village becomes a playable space." This beat) Tj
+T*
+(  changes Act 3 through this exact pressure: The village becomes a playable space.) Tj
+T*
+(  presence table-spotlight Mechanic takeaway Map navigation supports trust and clue) Tj
+T*
+(  gathering. "This is the hub: Co-op, market, festival, farms, and the route south.") Tj
+T*
+(  "The active procedure is: Map navigation supports trust and...) Tj
+T*
+(- Takeawayhelp: Player takeaway Hush is a navigable social hub with several useful) Tj
+T*
+(  routes. "You can go to the tree-tavern, market, festival, farms, or ask around from) Tj
+T*
+(  here." "If the table stalls, point to one route: Co-op for people, market for) Tj
+T*
+(  rumors, farms for the path south, festival for goodwill." The hub should reduce GM) Tj
+T*
+(  scrolling: one visible map, then one active choice. presence instinct knowledge) Tj
+T*
+(  Story takeaway The map makes Hush feel like a home worth protecting. "This place is) Tj
+T*
+(  not just where the job ends. This is what the job is for." "The village has warmth,) Tj
+T*
+(  routines, food, children, workers, and a ward that lets those things continue." Keep) Tj
+T*
+(  the village sincere. Corporate critique enters through stamps and systems, not by) Tj
+T*
+(  making the locals a joke. presence instinct knowledge Mechanic takeaway The map) Tj
+T*
+(  converts trust into route access. "Raise trust, get clearer paths. Lose trust, and) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 3407 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  the route gets vague or risky." "Track hush_trust, custodian_route, ward_awareness,) Tj
+T*
+(  and hush_clues from this hub as the party moves." The concrete mechanical endpoint) Tj
+T*
+(  is custodian_route: safe, dangerous, or unknown before the Act 4 bridge. presence) Tj
+T*
+(  instinct knowledge) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-hush.png Hush map board. MAP-LOC-hush environment) Tj
+T*
+(  Hush S03-01 S03-02 S03-03 S03-04 assets/maps/MAP-LOC-hush.png assets/maps/MAP-LOC-) Tj
+T*
+(  hush.png Hush map board. Hush gathers under the colossal trees: warm windows,) Tj
+T*
+(  lantern branches, low roofs, and paths leading toward a tree-tavern, market stalls,) Tj
+T*
+(  festival noise, and the farms beyond. Hush gathers under the colossal trees: warm) Tj
+T*
+(  windows, lantern branches, low roofs, and paths leading toward a tree-tavern, market) Tj
+T*
+(  stalls, festival noise, and the farms beyond. Ward pillar Crossing it should feel) Tj
+T*
+(  like a bubble popping. 0.7 0.34 Clover Co-op NPCs, customs, and trust start here.) Tj
+T*
+(  0.46 0.48 MAP-LOC-hush-map-only Map only Hush map-only assets/maps/MAP-LOC-hush.png) Tj
+T*
+(  Hush map board. MAP-LOC-hush environment Hush S03-01 S03-02 S03-03 S03-04) Tj
+T*
+(  assets/maps/MAP-LOC-hush.png assets/maps/MAP-LOC-hush.png Hush map board. Hush) Tj
+T*
+(  gathers under the colossal trees: warm windows, lantern branches, low roofs, and) Tj
+T*
+(  paths leading toward a tree-tavern, market stalls, festival noise, and the farms) Tj
+T*
+(  beyond. Hush gathers under the colossal trees: warm windows, lantern branches, low) Tj
+T*
+(  roofs, and paths leading toward a tree-tavern, market stalls, festival...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-hush map Hush assets/maps/MAP-LOC-hush.png Hush map) Tj
+T*
+(  board. spatial reference and location texture Hush gathers under the colossal trees:) Tj
+T*
+(  warm windows, lantern branches, low roofs, and paths leading toward a tree-tavern,) Tj
+T*
+(  market stalls, festival noise, and the farms beyond. Hush gathers under the colossal) Tj
+T*
+(  trees: warm windows, lantern branches, low roofs, and paths leading toward a tree-) Tj
+T*
+(  tavern, market stalls, festival noise, and the farms beyond. MAP-LOC-hush) Tj
+T*
+(  environment Hush S03-01 S03-02 S03-03 S03-04 assets/maps/MAP-LOC-hush.png) Tj
+T*
+(  assets/maps/MAP-LOC-hush.png Hush map board. Hush gathers under the colossal trees:) Tj
+T*
+(  warm windows, lantern branches, low roofs, and paths leading toward a tree-tavern,) Tj
+T*
+(  market stalls, festival noise, and the farms beyond. Hush gathers under the colossal) Tj
+T*
+(  trees: warm windows, lantern branches, low roofs, and paths leading toward a tree-) Tj
+T*
+(  tavern, market stalls, festival noise, and the farms beyond. Ward pillar Crossing it) Tj
+T*
+(  should feel like a bubble popping. 0.7 0.34 Clover Co-op NPCs, customs, and trust) Tj
+T*
+(  start here. 0.46 0.48 assets/maps/MAP-LOC-hush.png Hush map board. MAP-LOC-hush) Tj
+T*
+(  environment Hush S03-01 S03-02 S03-03 S03-04 assets/maps/MAP-LOC-hush.png...) Tj
+T*
+(- Slidenumber: 41) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 2933a63cbfe5ce76 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R] /Count 4 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000002651 00000 n 
+0000002778 00000 n 
+0000006763 00000 n 
+0000006890 00000 n 
+0000011260 00000 n 
+0000011387 00000 n 
+0000014846 00000 n 
+0000014973 00000 n 
+0000015048 00000 n 
+0000015098 00000 n 
+trailer
+<< /Size 12 /Root 10 0 R >>
+startxref
+15171
+%%EOF

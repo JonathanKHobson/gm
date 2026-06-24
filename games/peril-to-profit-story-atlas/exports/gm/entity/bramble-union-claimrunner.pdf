@@ -1,0 +1,312 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2504 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(Bramble Union Claimrunner) Tj
+T*
+() Tj
+T*
+(Player-facing description) Tj
+T*
+() Tj
+T*
+(Bramble Union Claimrunner: Leader trying to seize the carriage and Keystone cargo.) Tj
+T*
+() Tj
+T*
+(Public role) Tj
+T*
+() Tj
+T*
+(The one keeping the ambush organized while it tries to fall apart.) Tj
+T*
+() Tj
+T*
+(Handout text) Tj
+T*
+() Tj
+T*
+(Player-safe note: Leader trying to seize the carriage and Keystone cargo.) Tj
+T*
+() Tj
+T*
+(GM truth) Tj
+T*
+() Tj
+T*
+(Use the stat pressure, but keep the story pressure tied to the system that produced the) Tj
+T*
+(threat.) Tj
+T*
+() Tj
+T*
+(GM handling) Tj
+T*
+() Tj
+T*
+(Run Bramble Union Claimrunner as a threat with a motive, a pressure point, and something) Tj
+T*
+(left behind that explains why the fight happened.) Tj
+T*
+() Tj
+T*
+(Mechanics) Tj
+T*
+() Tj
+T*
+(- Title: Combat / Bypass Mechanics) Tj
+T*
+(- Player Safe: Players can fight, capture, interrogate, or bypass Bramble Union) Tj
+T*
+(  Claimrunner when it is present in the fiction.) Tj
+T*
+(- Gm Only: Use the roll only when the player's method, stakes, and consequence are) Tj
+T*
+(  concrete.) Tj
+T*
+(- No Roll Reveals: Surface read: a sharp-eyed lieutenant counting bodies so Kett does) Tj
+T*
+(  not have to Give obvious visible facts freely; roll for meaning, risk, leverage,) Tj
+T*
+(  cost, or a hidden angle.) Tj
+T*
+(- Rolls: entity-bramble-union-claimrunner-engage-bramble-union-claimrunner entity-) Tj
+T*
+(  bramble-union-claimrunner Engage Bramble Union Claimrunner Engage Bramble Union) Tj
+T*
+(  Claimrunner Agility Strength Finesse Presence Knowledge Instinct Agility Strength,) Tj
+T*
+(  Finesse, Presence, Knowledge, Instinct 15 Choose the trait from the player's method,) Tj
+T*
+(  not the entity type. A flat read of Bramble Union Claimrunner hides the cost,) Tj
+T*
+(  motive, or useful next step. Critical Success: best possible version of the action;) Tj
+T*
+(  gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction.) Tj
+T*
+(  Success with Hope: the PC gets what they wanted and gains Hope. Keep the position) Tj
+T*
+(  clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains) Tj
+T*
+(  Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC) Tj
+T*
+(  does not get the full result, but gains Hope and receives a useful thread, clue,) Tj
+T*
+(  or...) Tj
+T*
+(- Fear Spends: Reveal who benefits from the current situation. Make the cost personal) Tj
+T*
+(  without closing off player agency.) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3769 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Condition Options: Hidden Restrained) Tj
+T*
+(- Search Loot: Route sketch, letter, weapon, coin, evidence of displacement. Loot /) Tj
+T*
+(  item link: Claimrunner Serrated Blade \(Seen during the ambush, found if dropped, or) Tj
+T*
+(  inspected after parley.\).) Tj
+T*
+() Tj
+T*
+(Profile) Tj
+T*
+() Tj
+T*
+(- Schema Version: npc-profile-v1) Tj
+T*
+(- Source: NPC_System_Packet + image-informed hardening) Tj
+T*
+(- Backup: False) Tj
+T*
+(- Combatant: True) Tj
+T*
+(- Player Safe: Bramble Union Claimrunner a sharp-eyed lieutenant counting bodies so) Tj
+T*
+(  Kett does not have to A sharp-eyed faun claimrunner wears thorn-braided hair, a blue) Tj
+T*
+(  shard charm, bark armor, and too many salvaged medallions for someone who claims not) Tj
+T*
+(  to care about rank. Bramble Union Claimrunner: a sharp-eyed lieutenant counting) Tj
+T*
+(  bodies so Kett does not have to) Tj
+T*
+(- Block1: Bramble Union Claimrunner BRAM-bul YOO-nyun KLAYM-run-er a sharp-eyed) Tj
+T*
+(  lieutenant counting bodies so Kett does not have to The one keeping the ambush) Tj
+T*
+(  organized while it tries to fall apart. Tactical spine of the fight; remove or sway) Tj
+T*
+(  them and the ambush loses its shape. They follow Kett but watch the math. If the) Tj
+T*
+(  cost climbs too high, they will call the retreat before he does. Parley path) Tj
+T*
+(  Capture/mercy branch Evidence that the road conflict is bigger than banditry Coldly) Tj
+T*
+(  competent, hiding worry behind orders. Proof that surrendering buys the camp more) Tj
+T*
+(  seasons than winning ever could.) Tj
+T*
+(- Block2: Seize leverage before the party proves too dangerous. Win enough bargaining) Tj
+T*
+(  power that the dispossessed camp survives another season. Seize leverage before the) Tj
+T*
+(  party proves too dangerous. Win enough bargaining power that the dispossessed camp) Tj
+T*
+(  survives another season. Runs on borrowed certainty, turning fear into checklists.) Tj
+T*
+(  Pretends rank does not matter while wearing every salvaged medallion that says it) Tj
+T*
+(  does. Loves the camp in the only language they trust, which is logistics. Three of) Tj
+T*
+(  theirs, maybe. All of ours if we stay. You do the math. Kett, we are past the line) Tj
+T*
+(  we agreed on. Take the crate or take the loss. Pick now. They are improvising from) Tj
+T*
+(  grief as much as strategy. Losing people in a fight that the companies will describe) Tj
+T*
+(  as a routine security matter. Clear terms, hostages being protected, and enemies who) Tj
+T*
+(  admit what they are paid to do. Being called a bandit before being...) Tj
+T*
+(- Block3: They expect threats first and terms never. Concrete protection for the camp) Tj
+T*
+(  lands; pity bounces. Presence 15 after proof of non-enforcement opens a hard) Tj
+T*
+(  bargain. Presence 15 They lower weapons long enough to bargain. Instinct 14 The) Tj
+T*
+(  player spots who is ready to run, who is committed, and who can be moved. A credible) Tj
+T*
+(  exit for their people, not a personal apology, makes them lower the blade.) Tj
+T*
+(- Block4: They know the road has winners and losers. They are not all equally) Tj
+T*
+(  committed to killing. Keep the defector truth behind play-earned clues; this scene) Tj
+T*
+(  can show fear, hunger, and displaced-worker pressure without naming the whole) Tj
+T*
+(  engine. Named Bramble variants tie to the camp through gear, charms, and loyalty) Tj
+T*
+(  rather than a new corporation. Hates route-owning companies for making displacement) Tj
+T*
+(  sound like upkeep. Turns the ambush into a values choice instead of a faceless) Tj
+T*
+(  combat stop. A spared reclaimer can become a future informant or complication.) Tj
+T*
+(  Barnacle can smell a deal; Garrick can read fear and posture; any PC can offer a) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2019 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  non-lethal branch. Other reclaimers watch this NPC to decide whether they are still) Tj
+T*
+(  a people or only a mob. npc_images portrait asset) Tj
+T*
+(- Block5: Thief / Claimrunner. T1 Leader. Serrated Blade 2d4+3. Difficulty 14.) Tj
+T*
+(  Thresholds 7/14. HP 4. Stress 2. Back Off: spend Fear for 2d6+3 and push melee) Tj
+T*
+(  targets to Far. combatant Rules/Act-by-Act Mechanics.md Scene 2.2 Tier 1 Leader 14 7) Tj
+T*
+(  14 4 2 not listed in module source Serrated Blade, Melee, 2d4+3 physical Melee hold) Tj
+T*
+(  command force distance protect the ambushers break off when survival beats leverage) Tj
+T*
+(  Leader pressure: morale follows this NPC; breaking their confidence can end the) Tj
+T*
+(  combat without a body count. Parley hinge: Presence 15 after concrete proof can turn) Tj
+T*
+(  the encounter into negotiation. Back Off - Action, spend Fear: hit all targets in) Tj
+T*
+(  melee for 2d6+3 and push them to Far. Use Back Off to create space, not to punish) Tj
+T*
+(  curiosity. If the party opens with mercy or an honest shared-enemy offer, let the) Tj
+T*
+(  leader hesitate before escalating. A captured leader can deny Tamsin's murder...) Tj
+T*
+(- Portrait: assets/npc-images/bramble-union-claimrunner/portrait_base.png assets/npc-) Tj
+T*
+(  images/bramble-union-claimrunner/portrait_chroma.png assets/npc-images/bramble-) Tj
+T*
+(  union-claimrunner/portrait_transparent.png npc_images) Tj
+T*
+(- Imagine It Like: Think the competent second-in-command secretly holding the whole) Tj
+T*
+(  rebellion together, the quartermaster who has already counted the coffins.) Tj
+T*
+(- Fullbody: assets/npc-images/bramble-union-claimrunner/fullbody_base.png assets/npc-) Tj
+T*
+(  images/bramble-union-claimrunner/fullbody_chroma.png assets/npc-images/bramble-) Tj
+T*
+(  union-claimrunner/fullbody_transparent.png) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash da0600d36adb0875 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002565 00000 n 
+0000002691 00000 n 
+0000006512 00000 n 
+0000006638 00000 n 
+0000008709 00000 n 
+0000008835 00000 n 
+0000008904 00000 n 
+0000008953 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+9025
+%%EOF

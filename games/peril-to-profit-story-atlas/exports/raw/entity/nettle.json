@@ -1,0 +1,67 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "nettle",
+  "title": "Nettle",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "1d4800d0cf855ab5",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "A young faun scout freezes with one hand raised, soft horns under a ragged hood, necklaces and leaf charms trembling against a patched vest."
+    },
+    {
+      "title": "Public role",
+      "body": "A frightened Bramble scout who shows the camp is people, not bandits."
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: A frightened scout with forest mud on both knees and one eye always on the exits."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Name: Nettle",
+        "Id: nettle",
+        "Aliases: Nettle",
+        "Connections: Bramble Union Sablewood™ Logistics Preserve",
+        "Related: Bramble Union Sablewood™ Logistics Preserve",
+        "Pronunciation: NET-ul",
+        "Short Pronunciation: NET-ul",
+        "Equipment: leaf charm necklace patched vest small satchel peace-raised hand",
+        "Type: npc",
+        "Tags: npc backup-npc summonable npc-profile",
+        "Image Fallback: npc-portrait",
+        "Summary: A frightened scout with forest mud on both knees and one eye always on the exits.",
+        "Role: A frightened Bramble scout who shows the camp is people, not bandits.",
+        "Wants: Get back to camp without proving mercy is foolish.",
+        "Sample Dialogue: I am not the one who wanted blades first.",
+        "Robust: A young faun scout freezes with one hand raised, soft horns under a ragged hood, necklaces and leaf charms trembling against a patched vest. Nettle can name who did not want the ambush to go violent. A young faun scout freezes with one hand raised, soft horns under a ragged hood, necklaces and leaf charms trembling against a patched vest. Full-body reference: Full-body frightened young faun scout, trembling hands half-raised, patched scraps, small satchel, head to feet in frame. Get back to camp without proving mercy is foolish. Being handed to officials, disappointing Kett, and watching the camp starve anyway. Humanize Bramble pressure or open a mercy lane. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Nettle and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the...",
+        "Npc Profile: npc-profile-v1 NPC_System_Packet + image-informed hardening True Nettle a frightened forest scout trying not to be seen A young faun scout freezes with one hand raised, soft horns under a ragged hood, necklaces and leaf charms trembling against a patched vest. Nettle: a frightened forest scout trying not to be seen Nettle NET-ul a frightened forest scout trying not to be seen A frightened Bramble scout who shows the camp is people, not bandits. A non-violent encounter that tests mercy; how the party treats Nettle echoes through the whole Union. They are scouting, not attacking, and one act of cruelty here teaches them that mercy is foolish. A way forward A grounded question A scene-specific clue seed Cornered and trembling, desperate not to prove their own fears right. Mercy that visibly costs the party something, so it reads as real and not convenient. Get back to camp without proving mercy is foolish. Keep their people alive without learning to hate everyone outside the trees. Get back to camp without proving mercy is foolish. Keep their people alive without learning to hate everyone outside the trees. Soft-hearted and quick-footed, frozen between flight and trust. Rubs a...",
+        "Personality: Soft-hearted and quick-footed, frozen between flight and trust. Rubs a seed-charm from home whenever a choice sounds like betrayal either way. Wants to keep their people alive without learning to hate everyone outside the trees.",
+        "Fears: Being handed to officials, disappointing Kett, and watching the camp starve anyway.",
+        "Secrets: Nettle can name who did not want the ambush to go violent.",
+        "Body Language: Half apology, half readiness to run.",
+        "Search Or Loot: Search focus: leaf charm necklace, patched vest, small satchel",
+        "Gm Use: Humanize Bramble pressure or open a mercy lane.",
+        "Future Hooks: The ambushers are not all enforcers.",
+        "One Line: a frightened forest scout trying not to be seen",
+        "Player Display Title: Nettle",
+        "Player Display Caption: a frightened forest scout trying not to be seen",
+        "Mechanics: Social / Information Mechanics Players can interact, comfort, persuade, or earn trust Nettle when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A frightened scout with forest mud on both knees and one eye always on the exits. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-nettle-engage-nettle entity-nettle Engage Nettle Engage Nettle Presence Knowledge Instinct Presence Knowledge, Instinct 12 Choose the trait from the player's method, not the entity type. A flat read of Nettle hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains...",
+        "Meta: NPC / Ally NPC assets/icons/npc.png entity-npc #f0aa45 03 NPCs entities npc",
+        "Image Prompt: Private table TTRPG story atlas asset for Nettle, NPC / Ally. Role: A frightened Bramble scout who shows the camp is people, not bandits.. Summary: A frightened scout with forest mud on both knees and one eye always on the exits.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Image: assets/npc-images/nettle/portrait_base.webp",
+        "Image Asset Status: npc_images",
+        "Visual Gallery: primary Primary wiki image primary assets/npc-images/nettle/portrait_base.webp Nettle primary wiki image visual. Nettle: Primary wiki image. npc_images True True npc-fullbody_base Full-body npc-portrait assets/npc-images/nettle/fullbody_base.webp Nettle full-body visual. Nettle: Full-body. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/nettle/fullbody_base.png npc-fullbody_chroma Full-body chroma source npc-portrait assets/npc-images/nettle/fullbody_chroma.webp Nettle full-body chroma source visual. Nettle: Full-body chroma source. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/nettle/fullbody_chroma.png npc-fullbody_transparent Full-body transparent cutout npc-portrait assets/npc-images/nettle/fullbody_transparent.webp Nettle full-body transparent cutout visual. Nettle: Full-body transparent cutout. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/nettle/fullbody_transparent.png npc-portrait_chroma Portrait chroma source npc-portrait assets/npc-images/nettle/portrait_chroma.webp Nettle portrait chroma source visual. Nettle: Portrait chroma source. npc_images..."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 1d4800d0cf855ab5 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

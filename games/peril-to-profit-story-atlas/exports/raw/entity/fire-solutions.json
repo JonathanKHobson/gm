@@ -1,0 +1,64 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "fire-solutions",
+  "title": "Fire Solutions",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "ddbaf34f7266cbb5",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Orange water-wagons, fire-bright crews, free Ember Alarms, and a smiling foreman who always arrives impressively early."
+    },
+    {
+      "title": "Public role",
+      "body": "The Refuge and the Fire Walk show the burned ground and the grateful survivors who now pay a retainer."
+    },
+    {
+      "title": "Handout text",
+      "body": "Fire Solutions™: ahead of the flames. Heroic crews, fast wagons, and a retainer for every household that wants to be saved in time."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: fire-solutions",
+        "Name: Fire Solutions",
+        "Type: corporation",
+        "Role: The Refuge and the Fire Walk show the burned ground and the grateful survivors who now pay a retainer.",
+        "Summary: Fire Solutions™ is a forest-safety contractor that clears hazardous undergrowth, sells fire wards, and arrives to save you from blazes with remarkable, suspicious speed.",
+        "Aliases: Fire Solutions FireSafe",
+        "Connections: The Grail Goldwater Financial Institution Other brands in staged public competition",
+        "Tags: audit-recovery faction-profile",
+        "Pronunciation: FY-er so-LOO-shunz",
+        "Short Pronunciation: FY-er so-LOO-shunz",
+        "Faction Profile: faction-profile-v1 fire-solutions fire-solutions audit-added (CONTEXT_SUMMARY names Fire Solutions as the Refuge's forest-burners) strong True Recovered from the Claude handoff context: Fire Solutions is the Refuge-linked forest-burner and fire-safety contractor faction that was missing from the generated faction set. fire-solutions Fire Solutions Fire Solutions Heroic fire-safety crews who clear dangerous brush, sell fire wards, and are always, impressively, first on the scene. Fire Solutions™: ahead of the flames. Fire Solutions™ is a forest-safety contractor that clears hazardous undergrowth, sells fire wards, and arrives to save you from blazes with remarkable, suspicious speed. Fire Solutions™ rolls in like a parade of competence: orange-lacquered water-wagons, crews in flame-bright livery, a beaming foreman handing out free Ember Alarms™ and FireSafe Family™ pamphlets. Buy a Controlled-Burn Subscription™, a Defensible Perimeter™ package, a Rapid Response Retainer™ that guarantees a crew within the hour. They are genuinely fast, genuinely brave, and genuinely everywhere a fire happens to start. The brochure shows a saved village and a grateful child. The crews are heroes. It...",
+        "Robust: Orange water-wagons, fire-bright crews, free Ember Alarms, and a smiling foreman who always arrives impressively early. Fire Solutions sells protection from a danger it quietly supplies: burn the brush, let the woods catch, arrive as heroes, and bill the survivors. Orange lacquer, ash-grey trim, soot-smudged smiles, heroic posters, wet hoses, hot metal, and smoke that smells faintly scheduled. Turn dry-season fear into retainers, subscriptions, fire wards, public gratitude, and evidence that only Fire Solutions can keep you safe. Burn-pattern evidence, a guilt-sick crew member, arrival logs that predate the alarm, and survivors comparing who subscribed before the blaze. Use Fire Solutions in the Refuge and Fire Walk material to make the corporate satire bite: the rescue is real, and so is the racket. Knowledge / Instinct 12 Read the burn pattern: the fire started in cleared brush and moved like a scheduled demonstration, not weather. Find one detail that proves Fire Solutions arrived too quickly. Find the clue, but a cheerful crew member notices where you are looking. You cannot prove arson, but the timing bothers you enough to keep the question open. You accept the hero story...",
+        "Personality: Orange lacquer, ash-grey trim, soot-smudged smiles, heroic posters, wet hoses, hot metal, and smoke that smells faintly scheduled.",
+        "Wants: Turn dry-season fear into retainers, subscriptions, fire wards, public gratitude, and evidence that only Fire Solutions can keep you safe.",
+        "Fears: Burn-pattern evidence, a guilt-sick crew member, arrival logs that predate the alarm, and survivors comparing who subscribed before the blaze.",
+        "Secrets: Fire Solutions sells protection from a danger it quietly supplies: burn the brush, let the woods catch, arrive as heroes, and bill the survivors.",
+        "Body Language: Orange lacquer, ash-grey trim, soot-smudged smiles, heroic posters, wet hoses, hot metal, and smoke that smells faintly scheduled.",
+        "Sample Dialogue: Forest's been awful dry lately. Lucky we're close! First on the scene, every time, that's the Fire Solutions promise! Can't put a price on safety. So we put a retainer on it!",
+        "Equipment: No equipment; use as context, place, faction, mechanic, or clue rather than treasure.",
+        "Search Or Loot: Fire Solutions™: ahead of the flames. Heroic crews, fast wagons, and a retainer for every household that wants to be saved in time.",
+        "Gm Use: Use Fire Solutions in the Refuge and Fire Walk material to make the corporate satire bite: the rescue is real, and so is the racket.",
+        "Future Hooks: A Fire Solutions crew member can become a witness if the table follows the burn-pattern thread.",
+        "Meta: Corporation / Company CORP assets/icons/corporation.png entity-corp #d6a936 06 Factions and Companies factions corporation",
+        "Image Prompt: Private table TTRPG story atlas asset for Fire Solutions, Corporation / Company. Role: The Refuge and the Fire Walk show the burned ground and the grateful survivors who now pay a retainer.. Summary: Fire Solutions™ is a forest-safety contractor that clears hazardous undergrowth, sells fire wards, and arrives to save you from blazes with remarkable, suspicious speed.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Create a clean symbolic crest or brand mark on a plain dark background; no readable words. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Related: Goldwater Financial Institution Other brands in staged public competition The Grail",
+        "Image: assets/logos/fire-solutions.webp",
+        "Image Asset Status: image_gen",
+        "Faction Representative Image: assets/factions/fire-solutions-representative.webp",
+        "Faction Representative Status: image_gen",
+        "Visual Gallery: primary Primary wiki image primary assets/logos/fire-solutions.webp Fire Solutions primary wiki image visual. Fire Solutions: Primary wiki image. image_gen True True faction-logo-source Faction logo faction-logo assets/entity-gallery/fire-solutions/faction-logo-source.webp Fire Solutions faction logo visual. Fire Solutions: Faction logo. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/logos/fire-solutions.webp faction-representative-source Representative scene faction-representative assets/entity-gallery/fire-solutions/faction-representative-source.webp Fire Solutions representative scene visual. Fire Solutions: Representative scene. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/representative/fire-solutions.png"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash ddbaf34f7266cbb5 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

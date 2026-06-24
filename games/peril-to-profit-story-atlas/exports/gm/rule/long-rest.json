@@ -1,0 +1,49 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "long-rest",
+  "title": "Long Rest",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "e11fd64cf569fbf8",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "A deeper downtime recovery and reset structure used when the story has enough time."
+    },
+    {
+      "title": "How it works",
+      "body": "Use between adventures or when a sequel session gives the party real downtime."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use between adventures or when a sequel session gives the party real downtime.",
+        "Not during immediate danger. Use short rest inside the one-shot; save long rest for between-session recovery or continuation play.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "Do we long rest?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "short-rest",
+        "level-up",
+        "domain-cards"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash e11fd64cf569fbf8 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

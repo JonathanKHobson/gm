@@ -1,0 +1,50 @@
+# Bramble Stone Tumblers
+
+RAW export - entity:bramble-stone-tumblers
+
+## Player-facing description
+Bramble Stone Tumblers: Rattling tumbler devices in the Lucent River that smooth stones for Bramble armor and scare travelers who do not know the sound.
+
+## Public role
+River-powered stonework tool of the Bramble Union
+
+## Handout text
+Player-safe note: Rattling tumbler devices in the Lucent River that smooth stones for Bramble armor and scare travelers who do not know the sound.
+
+## Raw source
+- Type: item
+- Role: River-powered stonework tool of the Bramble Union
+- Summary: Rattling tumbler devices in the Lucent River that smooth stones for Bramble armor and scare travelers who do not know the sound.
+- Tags: sablewood-lore bramble craft source-page-6
+- Aliases: Bramble Stone Tumblers Tumblers river tumblers stone tumblers
+- Connections: Bramble Union The Lucent River Bramble Union Stoneweave Proven Navir
+- Inventory: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry.
+- Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+- Image Fallback: type-icon
+- Source Pages: Sablewood PDF p. 6
+- Name: Bramble Stone Tumblers
+- Id: bramble-stone-tumblers
+- Meta: Item / Asset ITEM assets/icons/item.png entity-item #39c5bb 07 Items and Clues entities item
+- Appears In: S02-03
+- Related: Bramble Union Bramble Union Stoneweave Proven Navir S02-03 The Lucent River
+- Image Prompt: Private table TTRPG story atlas asset for Bramble Stone Tumblers, Item / Asset. Role: River-powered stonework tool of the Bramble Union. Summary: Rattling tumbler devices in the Lucent River that smooth stones for Bramble armor and scare travelers who do not know the sound.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: Rattling tumbler devices in the Lucent River that smooth stones for Bramble armor and scare travelers who do not know the sound.; use Bramble Stone Tumblers as a concrete table object with texture, ownership, and a reason it matters now.
+- Wants: Give players a tangible handle on Bramble Union, The Lucent River, Bramble Union Stoneweave, whether they inspect, carry, return, trade, or refuse it.
+- Fears: Being treated as treasure clutter instead of evidence, memory, hospitality, or infrastructure with consequences.
+- Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.
+- Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.
+- Sample Dialogue: Rattling tumbler devices in the Lucent River that smooth stones for Bramble armor and scare travelers who do not know the sound.
+- Equipment: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry.
+- Search Or Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+- Gm Use: Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.
+- Future Hooks: A spared reclaimer can become a future informant or complication.
+- Robust: Bramble Stone Tumblers: Rattling tumbler devices in the Lucent River that smooth stones for Bramble armor and scare travelers who do not know the sound. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Give players a tangible handle on Bramble Union, The Lucent River, Bramble Union Stoneweave, whether they inspect, carry, return, trade, or refuse it. Being treated as treasure clutter instead of evidence, memory, hospitality, or infrastructure with consequences. Use when the scene needs a concrete object for players to inspect, carry, debate, or remember. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Bramble Stone Tumblers and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice...
+- Mechanics: Discovery / Earn-It Mechanics Players can inspect, handle, keep, trade, reveal, or earn Bramble Stone Tumblers when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: Rattling tumbler devices in the Lucent River that smooth stones for Bramble armor and scare travelers who do not know the sound. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-bramble-stone-tumblers-engage-bramble-stone-tumblers entity-bramble-stone-tumblers Engage Bramble Stone Tumblers Engage Bramble Stone Tumblers Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Bramble Stone Tumblers hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure...
+- Pronunciation: BRAM-bul Stone Tumblers
+- Short Pronunciation: BRAM-bul Stone Tumblers
+- Image: assets/entities/bramble-stone-tumblers.webp
+- Image Asset Status: fallback_type_icon
+- Visual Gallery: primary Primary wiki image primary assets/entities/bramble-stone-tumblers.webp Bramble Stone Tumblers primary wiki image visual. Bramble Stone Tumblers: Primary wiki image. fallback_type_icon True True
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash c15249c454ecfcf7 | Source hash dac3370046ed077140fab2d6

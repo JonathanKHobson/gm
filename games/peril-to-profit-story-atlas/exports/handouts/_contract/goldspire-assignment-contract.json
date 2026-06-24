@@ -1,0 +1,90 @@
+{
+  "schema_version": "story-atlas-contract-handout-v2",
+  "id": "goldspire-assignment-contract",
+  "title": "Goldspire Assignment Contract",
+  "kind": "contract",
+  "category": "_contract",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "7e2c31ba7c91b7c6",
+  "asset_fingerprints": {
+    "emeris-crown-seal.png": "c9cade3d0fac06eb",
+    "crest.png": "c06459aeb9034ad0",
+    "mascot-seal.png": "da225b8bf45d9deb",
+    "crate.png": "29b08a849dfe50f9",
+    "route-vignette.png": "cf8b5aaa92100e44",
+    "stamp-frame.png": "e3b69ef47af5e585"
+  },
+  "copy": {
+    "page_1": [
+      {
+        "title": "Welcome, Provisional Messenger",
+        "body": "Congratulations on your provisional promotion to Messenger (Probationary, Unbonded). Your application to Earn, Belong, and Carry™ has been pre-approved on your behalf. By being handed this document, you have already begun. Thank you for your enthusiasm, which has been noted and filed."
+      },
+      {
+        "title": "Section One | The Assignment",
+        "body": "You will escort one (1) sealed [REDACTED]™ cargo unit along the Approved Route to Hush, and deliver it unopened to authorized personnel. The crate is friendly. The crate is also sealed. These facts are not in tension. Do not open the crate."
+      },
+      {
+        "title": "Section Two | Compensation",
+        "body": "Upon verified delivery you will receive Goldspire Gratitude™ (one portion, non-transferable, non-edible), one (1) commemorative Employee of the Moment token, one (1) bag of coin, and partial relief against your outstanding debt. Hazard pay is not applicable, as the route is perfectly safe. Should the route prove unsafe, this will be considered a clerical matter and addressed in a future quarter."
+      },
+      {
+        "title": "Section Three | Route and Conduct",
+        "body": "Remain on the Approved Route. The forest is corporate-managed, under-monitored, and documented as hostile. Wildlife is dangerous, non-compliant, and resistant to route culture. The trees have signed nothing and bear you documented ill will. Deviation from the route voids Gratitude and all payment, and may be interpreted as non-compliance."
+      },
+      {
+        "title": "Section Four | Safety and Indemnity",
+        "body": "Your wellbeing is our highest priority. In the likely (corrected from unlikely) event of injury, dismemberment, soul-encumbrance, spontaneous unionization, or death, Emeris Crown Holdings, its clients, carriers, underwriters, and friendly subsidiaries are not liable. Death is a schedulable inconvenience and should be reported within one (1) business day to Soulspire Solutions™. No severance wages, separation consideration, or post-mortem benefits are included."
+      }
+    ],
+    "acknowledgements": [
+      "I am grateful for this opportunity.",
+      "I have no grievance with Emeris Crown Holdings, its clients, carriers, or friendly subsidiaries.",
+      "I have personally witnessed no evidence of corporate wrongdoing.",
+      "I understand that downsizing, restructuring, and synergy are positive.",
+      "I will not open the crate.",
+      "I will not deviate from the Approved Route.",
+      "I will not, at this time, hope for anything I have not been issued."
+    ],
+    "orientation": [
+      {
+        "title": "How Rolls Work",
+        "body": "When your character does something uncertain and consequences matter, the GM may call for an action roll. Roll a Hope d12 and a Fear d12, add the fitting trait, and compare the total to the difficulty. If Hope is higher, you gain Hope. If Fear is higher, the GM gains Fear. Matching dice are a critical success. The GM will teach this at the table, one roll at a time."
+      },
+      {
+        "title": "Player Wellness",
+        "body": "This policy is for players, not characters. At any time, you may ask for a Wellness Pause, a rewind, a break, or a topic moved off-screen. No explanation is required. The table adjusts at once, with no penalty and no debate."
+      },
+      {
+        "title": "Your First Day",
+        "body": "Today you will complete your personnel file, be introduced to your assigned coworkers, receive dispatch from Emeris Crown Holdings, and learn the work by doing it. You begin as a Messenger in good standing. What you become is not yet on file."
+      }
+    ],
+    "dispatch_flow": [
+      {
+        "label": "1",
+        "title": "Sign",
+        "body": "Initial the required lines. Keep your copy where rain, teeth, and questions cannot reach it."
+      },
+      {
+        "label": "2",
+        "title": "Receive",
+        "body": "Confirm one sealed [REDACTED]™ cargo unit. Exterior seals are part of the deliverable."
+      },
+      {
+        "label": "3",
+        "title": "Roll Out",
+        "body": "Ask dispatch questions, choose carriage positions, and leave the gate toward Hush before daylight becomes a budget item."
+      }
+    ],
+    "ooc_note": "A word from a real person, not Goldspire. This is a comedy with real teeth. You start as someone who believes in the company, or just needs the paycheck. You have not found proof anything is wrong, and that is on purpose. You will. Bring curiosity, not a plan. There is no homework, no wrong choice, and no way to lose by trying something. If anything ever feels off at the table, say so. That always wins. Glad you are here."
+  },
+  "formats": {
+    "json": "exports/handouts/_contract/goldspire-assignment-contract.json",
+    "markdown": "exports/handouts/_contract/goldspire-assignment-contract.md",
+    "printer": "exports/handouts/_contract/goldspire-assignment-contract.html",
+    "pdf": "exports/handouts/_contract/goldspire-assignment-contract.pdf",
+    "docx": "exports/handouts/_contract/goldspire-assignment-contract.docx"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "fear",
+  "title": "Fear",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "de698536301b4511",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "GM pressure resource gained on Fear results and spent to escalate."
+    },
+    {
+      "title": "How it works",
+      "body": "Use to make moves, spotlight threats, or trigger Fear features."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use to make moves, spotlight threats, or trigger Fear features.",
+        "The GM gains Fear and spends it to make the situation more dangerous or complicated.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "What does the GM get?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "gm-moves",
+        "adversary-spotlight"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash de698536301b4511 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

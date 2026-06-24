@@ -1,0 +1,57 @@
+# Sableleaf Shoes
+
+GM export - entity:sableleaf-shoes
+
+## Player-facing description
+A pair of shoes sewn entirely from broad sablewood leaves sits light as breath, green-veined, and already leaning toward motion.
+
+## Public role
+Sableleaf Shoes: while in Sablewood, spend Hope to take advantage on an Agility roll.
+
+## Handout text
+ZEPHRA FOOTWEAR ADVISORY: Leaf-based apparel is not rated, waterproofed, or resoled by any licensed cobbler. Why walk in salad?
+
+## GM truth
+No forced reveal. Let this entity disclose truth through scene context and player attention.
+
+## GM handling
+Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.
+
+## Mechanics
+- Title: Discovery / Earn-It Mechanics
+- Player Safe: Players can inspect, handle, keep, trade, reveal, or earn Sableleaf Shoes when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: A pair of shoes sewn entirely from broad sablewood leaves sits light as breath, green-veined, and already leaning toward motion. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-sableleaf-shoes-engage-sableleaf-shoes entity-sableleaf-shoes Engage Sableleaf Shoes Engage Sableleaf Shoes Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Sableleaf Shoes hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless the item or clue physically creates Hidden, Restrained, or Vulnerable
+- Search Loot: Sableleaf Shoes: while in Sablewood, spend Hope to take advantage on an Agility roll. Provenance: Gift, trade, or crafted local hospitality.
+
+## Profile
+- Schema Version: item-profile-v1
+- Id: sableleaf-shoes
+- Item Id: sableleaf-shoes
+- Item Name: Sableleaf Shoes
+- Name: Sableleaf Shoes
+- Aliases: leaf shoes forest shoes
+- Pronunciation: SAY-bul-leef SHOOZ
+- Item Kind: trinket
+- Tier: Tier 1
+- Priority: P2
+- Mode: PROP
+- Maker: Sablewood folk crafters
+- Made Or Wild: wild/folk
+- Auto Surface: True
+- Discovered From Art: False
+- Player Safe: Sableleaf Shoes A pair of shoes sewn entirely from broad sablewood leaves sits light as breath, green-veined, and already leaning toward motion. A pair of shoes sewn entirely from broad sablewood leaves sits light as breath, green-veined, and already leaning toward motion. Sablewood folk crafters ZEPHRA FOOTWEAR ADVISORY: Leaf-based apparel is not rated, waterproofed, or resoled by any licensed cobbler. Why walk in salad?
+- Block0: sableleaf-shoes Sableleaf Shoes leaf shoes forest shoes SAY-bul-leef SHOOZ trinket Tier 1
+- Block1: A pair of shoes sewn entirely from broad sablewood leaves sits light as breath, green-veined, and already leaning toward motion. Sableleaf Shoes: while in Sablewood, spend Hope to take advantage on an Agility roll. Forest footwear made to move with Sablewood's rhythms. The forest works with your feet instead of against them. pages/entities/sableleaf-shoes.html
+- Block2: Sablewood folk crafters wild/folk ZEPHRA FOOTWEAR ADVISORY: Leaf-based apparel is not rated, waterproofed, or resoled by any licensed cobbler. Why walk in salad? Zephra's best argument is calling magic shoes salad.
+- Block3: While in Sablewood, spend Hope to gain advantage on an Agility roll. item #module Story-item grammar: use this as access, leverage, texture, or roleplay benefit; add a mechanical bonus only if the listed effect grants one. While in Sablewood, spend Hope to gain advantage on an Agility roll. The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned. Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does. Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction. If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus. Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling. DC 12-15 to identify maker...
+- Block4: Hush Underroot Hush Hospitality Gift, trade, or crafted local hospitality. S03-01 S03-03 MAP-LOC-hush MAP-LOC-underroot
+- Block5: Layer 1 - look Leaf-sewn shoes that want to move. Layer 2 - hint They are nimble in the wood. Layer 3 - truth Spend Hope for advantage on Agility in Sablewood. Wear them on the trail. A Hush elder explains the leaf-stitching. Use them on an Agility roll. Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll.
+- Block6: Delicate shoes sewn from green sablewood leaves, light and lively, unbranded, bright forest light. item wiki card and earned side-card visual Use the Run Mode item card's Show image button when the table sees or earns this item. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/sableleaf-shoes/profile_base.png assets/item-images/sableleaf-shoes/profile_base.webp Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark.
+- Visual Assets: profile_base Item profile image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/sableleaf-shoes/profile_base.png assets/item-images/sableleaf-shoes/profile_base.webp ready Sableleaf Shoes item illustration. A pair of shoes sewn entirely from broad sablewood leaves sits light as breath, green-veined, and already leaning toward motion.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash fd3cb7e2c73b6dd0 | Source hash dac3370046ed077140fab2d6

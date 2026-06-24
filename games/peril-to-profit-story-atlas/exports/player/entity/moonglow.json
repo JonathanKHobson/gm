@@ -1,0 +1,44 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "moonglow",
+  "kind": "entity",
+  "title": "Moonglow",
+  "in_world_label": "Goldspire Travel Advisory",
+  "brand_flag": "Player-safe",
+  "kicker": "Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible.",
+  "hook": "Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible.",
+  "blocks": [
+    {
+      "label": "Arrival Read",
+      "body": "Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible."
+    },
+    {
+      "label": "Known For",
+      "body": "A specific Goldspire place with its own roads, work, food, people, and local habits."
+    },
+    {
+      "label": "What Is Here",
+      "body": "Local residents or workers appropriate to the place small local wildlife reacts before people do No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues..."
+    },
+    {
+      "label": "Food And Texture",
+      "body": "Use local food, drink, market smells, and ordinary work to make the place feel lived-in before plot enters."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Look for the busiest local gathering point.",
+    "Ask what has changed here recently."
+  ],
+  "archetype": "location.advisory",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:moonglow",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "b3c2aa5040e00408",
+  "generated_at": "2026-06-23T21:40:58"
+}

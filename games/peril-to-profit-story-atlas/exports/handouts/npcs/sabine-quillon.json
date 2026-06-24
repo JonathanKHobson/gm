@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "sabine-quillon",
+  "kind": "entity",
+  "title": "Sabine Quillon",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "a brisk field agent who can brief the job if Marlowe should not carry it",
+  "hook": "a brisk field agent who can brief the job if Marlowe should not carry it",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "A polished elf factor in white-and-gold field dress holds a sealed scroll tube with immaculate gloves, every pin and clasp arranged to look effortless."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "Immaculate competence built as armor. She keeps the contract, not the consequences. Honest in brief flashes, mostly about how little she is paid to be honest."
+    },
+    {
+      "label": "Might Offer",
+      "body": "Cargo handoff Contract terms A clean start signal"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Cargo handoff",
+    "Contract terms",
+    "A clean start signal"
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:sabine-quillon",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "cb192221f01645ac",
+  "generated_at": "2026-06-23T21:40:58"
+}

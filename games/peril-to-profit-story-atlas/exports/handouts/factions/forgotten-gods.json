@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "forgotten-gods",
+  "kind": "entity",
+  "title": "Forgotten Gods",
+  "in_world_label": "Public Notice",
+  "brand_flag": "Player-safe",
+  "kicker": "Faction / Community",
+  "hook": "Player-safe note: Nameless old powers still honored by Hush and feared by the Custodian.",
+  "blocks": [
+    {
+      "label": "Public Face",
+      "body": "Forgotten Gods: Nameless old powers still honored by Hush and feared by the Custodian."
+    },
+    {
+      "label": "Player Read",
+      "body": "Player-safe note: Nameless old powers still honored by Hush and feared by the Custodian."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask what they publicly promise.",
+    "Compare their slogan to what they actually do in the scene."
+  ],
+  "archetype": "faction.flyer",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:forgotten-gods",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "48a23aea8c5c05f5",
+  "generated_at": "2026-06-23T21:40:58"
+}

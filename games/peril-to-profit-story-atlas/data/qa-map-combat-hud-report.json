@@ -1,0 +1,526 @@
+{
+  "pass": true,
+  "check_count": 103,
+  "issue_count": 0,
+  "location_count": 40,
+  "map_count": 47,
+  "required_combat_map_count": 5,
+  "combat_workspace_count": 5,
+  "checks": [
+    {
+      "name": "required file exists: data/maps.json",
+      "ok": true,
+      "detail": "data/maps.json"
+    },
+    {
+      "name": "required file exists: data/maps-data.js",
+      "ok": true,
+      "detail": "data/maps-data.js"
+    },
+    {
+      "name": "required file exists: data/next-move-cards.json",
+      "ok": true,
+      "detail": "data/next-move-cards.json"
+    },
+    {
+      "name": "required file exists: data/session-counters-schema.json",
+      "ok": true,
+      "detail": "data/session-counters-schema.json"
+    },
+    {
+      "name": "required file exists: data/combat-workspaces.json",
+      "ok": true,
+      "detail": "data/combat-workspaces.json"
+    },
+    {
+      "name": "required file exists: css/gm-hud.css",
+      "ok": true,
+      "detail": "css/gm-hud.css"
+    },
+    {
+      "name": "required file exists: js/gm-hud.js",
+      "ok": true,
+      "detail": "js/gm-hud.js"
+    },
+    {
+      "name": "required file exists: js/encounter-cockpit.js",
+      "ok": true,
+      "detail": "js/encounter-cockpit.js"
+    },
+    {
+      "name": "required file exists: js/next-move-kit.js",
+      "ok": true,
+      "detail": "js/next-move-kit.js"
+    },
+    {
+      "name": "required file exists: js/maps-environment-slides.js",
+      "ok": true,
+      "detail": "js/maps-environment-slides.js"
+    },
+    {
+      "name": "required file exists: pages/combat.html",
+      "ok": true,
+      "detail": "pages/combat.html"
+    },
+    {
+      "name": "maps.json is populated",
+      "ok": true,
+      "detail": "47"
+    },
+    {
+      "name": "priority map/environment slides exist",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "every location entity has a generated location map",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "all map image references are raster",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "all map image assets exist",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "all primary map images are AI-generated assets",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "all AI map source crops exist",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "all required combat maps use AI-generated battlemap primaries",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "all required AI battlemap source files exist",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "declared visual inspiration alternates exist",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "declared schematic alternates exist",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "all generated maps have Run Mode map slides",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "combat workspaces exist for required combat scenes",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "combat page is complete: S01-03",
+      "ok": true,
+      "detail": "pages/combat/s01-03.html"
+    },
+    {
+      "name": "combat page is complete: S02-03",
+      "ok": true,
+      "detail": "pages/combat/s02-03.html"
+    },
+    {
+      "name": "combat page is complete: S05-03",
+      "ok": true,
+      "detail": "pages/combat/s05-03.html"
+    },
+    {
+      "name": "combat page is complete: S05-05",
+      "ok": true,
+      "detail": "pages/combat/s05-05.html"
+    },
+    {
+      "name": "combat page is complete: S05-06",
+      "ok": true,
+      "detail": "pages/combat/s05-06.html"
+    },
+    {
+      "name": "location wiki has map section: hush",
+      "ok": true,
+      "detail": "pages/entities/hush.html"
+    },
+    {
+      "name": "location wiki has map section: hushtm-community-enclave",
+      "ok": true,
+      "detail": "pages/entities/hushtm-community-enclave.html"
+    },
+    {
+      "name": "location wiki has map section: firstmoss-launch-festival",
+      "ok": true,
+      "detail": "pages/entities/firstmoss-launch-festival.html"
+    },
+    {
+      "name": "location wiki has map section: hush-farms",
+      "ok": true,
+      "detail": "pages/entities/hush-farms.html"
+    },
+    {
+      "name": "location wiki has map section: the-hanging-office",
+      "ok": true,
+      "detail": "pages/entities/the-hanging-office.html"
+    },
+    {
+      "name": "location wiki has map section: open-valetm-ritual-site",
+      "ok": true,
+      "detail": "pages/entities/open-valetm-ritual-site.html"
+    },
+    {
+      "name": "location wiki has map section: relay-spire",
+      "ok": true,
+      "detail": "pages/entities/relay-spire.html"
+    },
+    {
+      "name": "location wiki has map section: goldspire-territories",
+      "ok": true,
+      "detail": "pages/entities/goldspire-territories.html"
+    },
+    {
+      "name": "location wiki has map section: sablewoodtm-logistics-preserve",
+      "ok": true,
+      "detail": "pages/entities/sablewoodtm-logistics-preserve.html"
+    },
+    {
+      "name": "location wiki has map section: old-sable",
+      "ok": true,
+      "detail": "pages/entities/old-sable.html"
+    },
+    {
+      "name": "location wiki has map section: sablewood-route-gate",
+      "ok": true,
+      "detail": "pages/entities/sablewood-route-gate.html"
+    },
+    {
+      "name": "location wiki has map section: old-sable-canopy-road",
+      "ok": true,
+      "detail": "pages/entities/old-sable-canopy-road.html"
+    },
+    {
+      "name": "location wiki has map section: hush-safe-irrigation-path",
+      "ok": true,
+      "detail": "pages/entities/hush-safe-irrigation-path.html"
+    },
+    {
+      "name": "location wiki has map section: open-vale-ward-lines",
+      "ok": true,
+      "detail": "pages/entities/open-vale-ward-lines.html"
+    },
+    {
+      "name": "location wiki has map section: emeris-capital-gate",
+      "ok": true,
+      "detail": "pages/entities/emeris-capital-gate.html"
+    },
+    {
+      "name": "location wiki has map section: emeris-capital",
+      "ok": true,
+      "detail": "pages/entities/emeris-capital.html"
+    },
+    {
+      "name": "location wiki has map section: athervast",
+      "ok": true,
+      "detail": "pages/entities/athervast.html"
+    },
+    {
+      "name": "location wiki has map section: the-goldspire-relay",
+      "ok": true,
+      "detail": "pages/entities/the-goldspire-relay.html"
+    },
+    {
+      "name": "location wiki has map section: sablewood-route-network",
+      "ok": true,
+      "detail": "pages/entities/sablewood-route-network.html"
+    },
+    {
+      "name": "location wiki has map section: underroot",
+      "ok": true,
+      "detail": "pages/entities/underroot.html"
+    },
+    {
+      "name": "location wiki has map section: underroot-tunnels",
+      "ok": true,
+      "detail": "pages/entities/underroot-tunnels.html"
+    },
+    {
+      "name": "location wiki has map section: the-titan-s-steps",
+      "ok": true,
+      "detail": "pages/entities/the-titan-s-steps.html"
+    },
+    {
+      "name": "location wiki has map section: duskwatch-exchange",
+      "ok": true,
+      "detail": "pages/entities/duskwatch-exchange.html"
+    },
+    {
+      "name": "location wiki has map section: the-catcher-s-cradles",
+      "ok": true,
+      "detail": "pages/entities/the-catcher-s-cradles.html"
+    },
+    {
+      "name": "location wiki has map section: the-lucent-river",
+      "ok": true,
+      "detail": "pages/entities/the-lucent-river.html"
+    },
+    {
+      "name": "location wiki has map section: moonglow",
+      "ok": true,
+      "detail": "pages/entities/moonglow.html"
+    },
+    {
+      "name": "location wiki has map section: the-high-falls",
+      "ok": true,
+      "detail": "pages/entities/the-high-falls.html"
+    },
+    {
+      "name": "location wiki has map section: the-miremist",
+      "ok": true,
+      "detail": "pages/entities/the-miremist.html"
+    },
+    {
+      "name": "location wiki has map section: the-stones-of-the-vale",
+      "ok": true,
+      "detail": "pages/entities/the-stones-of-the-vale.html"
+    },
+    {
+      "name": "location wiki has map section: the-claravale-market",
+      "ok": true,
+      "detail": "pages/entities/the-claravale-market.html"
+    },
+    {
+      "name": "location wiki has map section: the-sunless-farms",
+      "ok": true,
+      "detail": "pages/entities/the-sunless-farms.html"
+    },
+    {
+      "name": "location wiki has map section: the-refuge",
+      "ok": true,
+      "detail": "pages/entities/the-refuge.html"
+    },
+    {
+      "name": "location wiki has map section: the-fire-walk",
+      "ok": true,
+      "detail": "pages/entities/the-fire-walk.html"
+    },
+    {
+      "name": "location wiki has map section: the-ash-quarry",
+      "ok": true,
+      "detail": "pages/entities/the-ash-quarry.html"
+    },
+    {
+      "name": "location wiki has map section: root-s-hollow",
+      "ok": true,
+      "detail": "pages/entities/root-s-hollow.html"
+    },
+    {
+      "name": "location wiki has map section: the-latch",
+      "ok": true,
+      "detail": "pages/entities/the-latch.html"
+    },
+    {
+      "name": "location wiki has map section: the-sable-stills",
+      "ok": true,
+      "detail": "pages/entities/the-sable-stills.html"
+    },
+    {
+      "name": "location wiki has map section: bramble-union-villages",
+      "ok": true,
+      "detail": "pages/entities/bramble-union-villages.html"
+    },
+    {
+      "name": "location wiki has map section: the-wandering-briar",
+      "ok": true,
+      "detail": "pages/entities/the-wandering-briar.html"
+    },
+    {
+      "name": "location wiki has map section: ember-lake",
+      "ok": true,
+      "detail": "pages/entities/ember-lake.html"
+    },
+    {
+      "name": "Fear spend menu uses official spend IDs only",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Run Mode mounts compact Fear dock, Encounter Cockpit, Next Move, and map scripts",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Mode dispatches slide render events for live widgets",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Mode no longer mounts global tracker/beat UI",
+      "ok": true,
+      "detail": "[\n  \"Spotlight Tracker\",\n  \"data-spotlight-dock\",\n  \"acted this beat\",\n  \"Reset Beat\",\n  \"Next PC\"\n]"
+    },
+    {
+      "name": "Run Mode primary UI does not imply fixed initiative",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Mode uses Encounter Cockpit entry points",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Mode map slides label AI-generated primary maps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "compact Fear dock avoids mystery-letter controls",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ordinary scene slides do not receive encounter tools",
+      "ok": true,
+      "detail": "17"
+    },
+    {
+      "name": "combat/potential-combat slides expose encounter mode",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "combat workspace data is exposed to Run Mode JS",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Player Display supports safe map projection",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Player Display map path has no hotspot rendering",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Mode map slide template no longer mounts hotspot overlays",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Mode no longer renders dead map CTAs",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Mode map player actions render as cards, not cramped tables",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Run Mode labels location Fear guidance as spendable table pressure",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "location packet map records exist",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "packet-bound location maps include fields 1-8 substance",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "packet-bound location maps strip optional-tag scaffolding",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "packet combat blocks render only for Ambush and Open Vale",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "packet non-combat maps do not expose range bands",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "packet location maps do not include dot hotspot data",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "all map records omit dot hotspot data",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "location and encounter maps expose sight/sound/smell/texture/background sensory rows",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "priority location read-alouds introduce plain-language place type before lore names",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Next Move shows official outcomes first",
+      "ok": true,
+      "detail": "[\n  \"critical_success\",\n  \"success_with_hope\",\n  \"success_with_fear\",\n  \"failure_with_hope\",\n  \"failure_with_fear\",\n  \"gm_spends_fear\"\n]"
+    },
+    {
+      "name": "at least five scenes have scene-specific Next Move cards",
+      "ok": true,
+      "detail": "[\n  \"S01-03\",\n  \"S02-03\",\n  \"S03-02\",\n  \"S04-04\",\n  \"S05-03\"\n]"
+    },
+    {
+      "name": "Next Move cards do not invent banned custom conditions",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "map slide player-safe projections hide GM-only/dev text",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "map slide player-safe projections contain no hotspots/tags/canon notes",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "packet map slides expose map/text player beat modes",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "packet map player projections do not leak hidden truth",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Hush map is placed in Act Three, not Prologue",
+      "ok": true,
+      "detail": "{\n  \"section\": \"ACT-THREE\",\n  \"linked\": [\n    \"S03-01\",\n    \"S03-02\",\n    \"S03-03\",\n    \"S03-04\"\n  ]\n}"
+    }
+  ]
+}

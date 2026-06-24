@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "fire-solutions",
+  "kind": "entity",
+  "title": "Fire Solutions",
+  "in_world_label": "Public Notice",
+  "brand_flag": "Fire Solutions™: ahead of the flames.",
+  "kicker": "Heroic fire-safety crews who clear dangerous brush, sell fire wards, and are always, impressively, first on the scene.",
+  "hook": "Fire Solutions™: ahead of the flames. Heroic crews, fast wagons, and a retainer for every household that wants to be saved in time.",
+  "blocks": [
+    {
+      "label": "Public Face",
+      "body": "Heroic fire-safety crews who clear dangerous brush, sell fire wards, and are always, impressively, first on the scene."
+    },
+    {
+      "label": "Slogan",
+      "body": "Fire Solutions™: ahead of the flames."
+    },
+    {
+      "label": "How To Deal",
+      "body": "Fire Solutions™ rolls in like a parade of competence: orange water-wagons, crews in flame-bright livery, free Ember Alarms™ pressed into every hand. The crews are genuinely brave. It is just a remarkable coincidence how reliably the forest catches, and how..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask what they publicly promise.",
+    "Compare their slogan to what they actually do in the scene."
+  ],
+  "archetype": "faction.flyer",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:fire-solutions",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "257997e934aec11c",
+  "generated_at": "2026-06-23T21:40:58"
+}

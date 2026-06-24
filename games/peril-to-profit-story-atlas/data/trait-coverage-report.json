@@ -5,15 +5,15 @@
     "Finesse": 15,
     "Instinct": 17,
     "Presence": 21,
-    "Knowledge": 35
+    "Knowledge": 36
   },
   "percentages": {
     "Agility": 7.5,
-    "Strength": 9.4,
-    "Finesse": 14.2,
-    "Instinct": 16.0,
-    "Presence": 19.8,
-    "Knowledge": 33.0
+    "Strength": 9.3,
+    "Finesse": 14.0,
+    "Instinct": 15.9,
+    "Presence": 19.6,
+    "Knowledge": 33.6
   },
   "scenes": {
     "S00-01": [
@@ -161,6 +161,6 @@
       "Presence"
     ]
   },
-  "instinct_presence_share": 35.8,
+  "instinct_presence_share": 35.5,
   "passes_variety_gate": true
 }

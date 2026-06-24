@@ -1,0 +1,328 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2776 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-root-s-hollow - Root's Hollow Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(Root's Hollow smells of tinctures, river water, and careful survival, a place where) Tj
+T*
+(alchemists learn from Sablewood because they have to.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Root's Hollow smells of tinctures, river water, and careful survival, a place where) Tj
+T*
+(alchemists learn from Sablewood because they have to.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-root-s-hollow) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: STORY) Tj
+T*
+(- Sectiontitle: Map Board) Tj
+T*
+(- Title: Root's Hollow Location Map) Tj
+T*
+(- Shorttitle: Root's Hollow) Tj
+T*
+(- Order: 851.3) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-root-s-hollow-gm.png) Tj
+T*
+(- Alt: Root's Hollow location map board.) Tj
+T*
+(- Caption: Visual reference for Root's Hollow.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Make expertise local, embodied, and respected.) Tj
+T*
+(- Publicobjective: Root's Hollow smells of tinctures, river water, and careful) Tj
+T*
+(  survival, a place where alchemists learn from Sablewood because they have to.) Tj
+T*
+(- Readaloud: Root's Hollow smells of tinctures, river water, and careful survival, a) Tj
+T*
+(  place where alchemists learn from Sablewood because they have to.) Tj
+T*
+(- Playertakeaway: Root's Hollow smells of tinctures, river water, and careful) Tj
+T*
+(  survival, a place where alchemists learn from Sablewood because they have to.) Tj
+T*
+(- Storytakeaway: Root's Hollow makes healing labor visible.) Tj
+T*
+(- Mechanictakeaway: Use for recovery or resource context if the table detours.) Tj
+T*
+(- Entityids: root-s-hollow spidermanders centi-beetles hellbender sable-sap) Tj
+T*
+(- Entities: root-s-hollow Root's Hollow location Location assets/icons/location.png) Tj
+T*
+(  assets/location-visuals/root-s-hollow/profile_scene_v02.png roots HAH-loh A) Tj
+T*
+(  settlement whose alchemists brave Sablewood and the Lucent River for healing water,) Tj
+T*
+(  roots, herbs, and careful local knowledge. Make expertise local, embodied, and) Tj
+T*
+(  respected. A settlement whose alchemists brave Sablewood and the Lucent River for) Tj
+T*
+(  healing water, roots, herbs, and careful local knowledge.; introduce it with a) Tj
+T*
+(  sensory palette, who feels safe there, and what has been neglected. Pull player) Tj
+T*
+(  attention toward the choices, clues, and relationships tied to The Lucent River,) Tj
+T*
+(  Underroot, Moonglow. A settlement whose alchemists brave Sablewood and the Lucent) Tj
+T*
+(  River for healing water, roots, herbs, and careful local knowledge. spidermanders) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4204 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Spidermanders creature Creature / Animal assets/icons/creature.png assets/creature-) Tj
+T*
+(  images/spidermanders/portrait_base.png SPY-der-MAN-derz Spider-salamander hybrids) Tj
+T*
+(  coat themselves in pale ash, gripping stone with too many soft feet and leaving damp) Tj
+T*
+(  prints where the ground should be dry. Ash-coated cave and quarry hybrid Spider-) Tj
+T*
+(  salamander hybrids coat themselves in pale ash, gripping stone with too...) Tj
+T*
+(- Locationids: root-s-hollow) Tj
+T*
+(- Fearspends: A bottle clouds when the Keystone is named. An herb bundle dries to ash) Tj
+T*
+(  in a heartbeat.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Mapdata: MAP-LOC-root-s-hollow environment Root's Hollow Location Map root-s-hollow) Tj
+T*
+(  spidermanders centi-beetles hellbender sable-sap assets/location-visuals/root-s-) Tj
+T*
+(  hollow/profile_scene_v02.png Visual reference for Root's Hollow. Root's Hollow) Tj
+T*
+(  location map board. Root's Hollow smells of tinctures, river water, and careful) Tj
+T*
+(  survival, a place where alchemists learn from Sablewood because they have to. Root's) Tj
+T*
+(  Hollow smells of tinctures, river water, and careful survival, a place where) Tj
+T*
+(  alchemists learn from Sablewood because they have to. Make expertise local,) Tj
+T*
+(  embodied, and respected. Low workrooms nestle among roots with drying herbs and) Tj
+T*
+(  blue-glass bottles. Every bench has a clean side and a dangerous side. Some labels) Tj
+T*
+(  are drawn by shape for people who cannot risk misreading in low light. Leaf-drip,) Tj
+T*
+(  insects, distant wingbeats, and animal calls that stop or resume according to) Tj
+T*
+(  pressure, not comfort. Sharp herbs, mineral water, beeswax, damp root, and alcohol) Tj
+T*
+(  bite. Root walls are cool; bottle glass tingles where Lucent water was stored. The) Tj
+T*
+(  forest is populated even when no NPC is present; silence, birds, insects, and tracks) Tj
+T*
+(  are actionable signals. Low workrooms nestle among roots with drying...) Tj
+T*
+(- Livetools: scene MAP-LOC-root-s-hollow) Tj
+T*
+(- Takeawayhelp: Player takeaway: MAP-LOC-root-s-hollow Root's Hollow smells of) Tj
+T*
+(  tinctures, river water, and careful survival, a place where alchemists learn from) Tj
+T*
+(  Sablewood because they have to. Give the player one concrete way back into play: a) Tj
+T*
+(  question, a description, a choice, or a pass-and-return moment. "Your takeaway right) Tj
+T*
+(  now is this: Root's Hollow smells of tinctures, river water, and careful survival, a) Tj
+T*
+(  place where alchemists learn from Sablewood because they have to." "If you are not) Tj
+T*
+(  sure what to do next, you can ask a question, describe what your character notices,) Tj
+T*
+(  or tell me what your character tries." "If you are not sure what to do next, you can) Tj
+T*
+(  ask a question, describe what your character notices, or tell me what your character) Tj
+T*
+(  tries." Give the player one concrete way back into play: a question, a description,) Tj
+T*
+(  a choice, or a pass-and-return moment. Story takeaway: MAP-LOC-root-s-hollow Root's) Tj
+T*
+(  Hollow makes healing labor visible. Anchor the answer in the visible fiction on this) Tj
+T*
+(  slide: who is present, what can be observed, what has already been said, and what) Tj
+T*
+(  remains uncertain. "Here is what your characters know right now: Root's Hollow makes) Tj
+T*
+(  healing labor visible." "If you want more...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-root-s-hollow-player.png Root's Hollow location map) Tj
+T*
+(  board. MAP-LOC-root-s-hollow environment Root's Hollow assets/maps/MAP-LOC-root-s-) Tj
+T*
+(  hollow-player.png assets/maps/MAP-LOC-root-s-hollow-player.png Visual reference for) Tj
+T*
+(  Root's Hollow. Root's Hollow location map board. Root's Hollow smells of tinctures,) Tj
+T*
+(  river water, and careful survival, a place where alchemists learn from Sablewood) Tj
+T*
+(  because they have to. Root's Hollow smells of tinctures, river water, and careful) Tj
+T*
+(  survival, a place where alchemists learn from Sablewood because they have to. MAP-) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2452 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  LOC-root-s-hollow-map-only Map only Root's Hollow map-only assets/maps/MAP-LOC-root-) Tj
+T*
+(  s-hollow-player.png Root's Hollow location map board. MAP-LOC-root-s-hollow) Tj
+T*
+(  environment Root's Hollow assets/maps/MAP-LOC-root-s-hollow-player.png) Tj
+T*
+(  assets/maps/MAP-LOC-root-s-hollow-player.png Visual reference for Root's Hollow.) Tj
+T*
+(  Root's Hollow location map board. Root's Hollow smells of tinctures, river water,) Tj
+T*
+(  and careful survival, a place where alchemists learn from Sablewood because they) Tj
+T*
+(  have to. Root's Hollow smells of tinctures, river water, and careful survival, a) Tj
+T*
+(  place where alchemists learn from Sablewood because they have to...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-root-s-hollow map Root's Hollow assets/maps/MAP-LOC-) Tj
+T*
+(  root-s-hollow-player.png Root's Hollow location map board. Visual reference for) Tj
+T*
+(  Root's Hollow. spatial reference and location texture Root's Hollow smells of) Tj
+T*
+(  tinctures, river water, and careful survival, a place where alchemists learn from) Tj
+T*
+(  Sablewood because they have to. Root's Hollow smells of tinctures, river water, and) Tj
+T*
+(  careful survival, a place where alchemists learn from Sablewood because they have) Tj
+T*
+(  to. MAP-LOC-root-s-hollow environment Root's Hollow assets/maps/MAP-LOC-root-s-) Tj
+T*
+(  hollow-player.png assets/maps/MAP-LOC-root-s-hollow-player.png Visual reference for) Tj
+T*
+(  Root's Hollow. Root's Hollow location map board. Root's Hollow smells of tinctures,) Tj
+T*
+(  river water, and careful survival, a place where alchemists learn from Sablewood) Tj
+T*
+(  because they have to. Root's Hollow smells of tinctures, river water, and careful) Tj
+T*
+(  survival, a place where alchemists learn from Sablewood because they have to.) Tj
+T*
+(  assets/maps/MAP-LOC-root-s-hollow-player.png Root's Hollow location map board. MAP-) Tj
+T*
+(  LOC-root-s-hollow environment Root's Hollow assets/maps/MAP-LOC-root-s-hollow-) Tj
+T*
+(  player.png assets/maps/MAP-LOC-root-s-hollow-player.png Visual reference for) Tj
+T*
+(  Root's...) Tj
+T*
+(- Slidenumber: 94) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash c1369ba3c32e3022 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002837 00000 n 
+0000002963 00000 n 
+0000007219 00000 n 
+0000007345 00000 n 
+0000009849 00000 n 
+0000009975 00000 n 
+0000010044 00000 n 
+0000010093 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+10165
+%%EOF

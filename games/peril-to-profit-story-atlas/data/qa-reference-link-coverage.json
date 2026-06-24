@@ -1,0 +1,1766 @@
+{
+  "status": "pass",
+  "html_unlinked_existing_references": [],
+  "obsidian_missing_notes": [],
+  "obsidian_missing_aliases": [],
+  "obsidian_plain_mentions_sample": [
+    {
+      "kind": "entity",
+      "target_id": "open-valetm-ritual-site",
+      "title": "Open Vale™ Ritual Site",
+      "alias": "Open Vale",
+      "file": "obsidian_vault/04 Creatures/Mist-Things.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "the-miremist",
+      "title": "The Miremist",
+      "alias": "Miremist",
+      "file": "obsidian_vault/04 Creatures/Mist-Things.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/Mist-Things.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "open-valetm-ritual-site",
+      "title": "Open Vale™ Ritual Site",
+      "alias": "Open Vale",
+      "file": "obsidian_vault/04 Creatures/Mist-Things.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "the-miremist",
+      "title": "The Miremist",
+      "alias": "Miremist",
+      "file": "obsidian_vault/04 Creatures/Mist-Things.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf-mother",
+      "title": "Strixwolf Mother",
+      "alias": "Strixwolf Mother",
+      "file": "obsidian_vault/04 Creatures/Mist-Things.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Mist-Things.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Mist-Things.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "halython-fives",
+      "title": "Halython Fives",
+      "alias": "Halython Fives",
+      "file": "obsidian_vault/04 Creatures/Halython's Fox-Bat Companion.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "halython-fives",
+      "title": "Halython Fives",
+      "alias": "Halython Fives",
+      "file": "obsidian_vault/04 Creatures/Halython's Fox-Bat Companion.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "halython-fives",
+      "title": "Halython Fives",
+      "alias": "Halython",
+      "file": "obsidian_vault/04 Creatures/Halython's Fox-Bat Companion.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf-mother",
+      "title": "Strixwolf Mother",
+      "alias": "Strixwolf Mother",
+      "file": "obsidian_vault/04 Creatures/Halython's Fox-Bat Companion.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Halython's Fox-Bat Companion.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Halython's Fox-Bat Companion.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/Cat-Squirrels.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf-mother",
+      "title": "Strixwolf Mother",
+      "alias": "Strixwolf Mother",
+      "file": "obsidian_vault/04 Creatures/Cat-Squirrels.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Cat-Squirrels.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Cat-Squirrels.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf-mother",
+      "title": "Strixwolf Mother",
+      "alias": "Strixwolf Mother",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Ambusher.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Ambusher.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "traits",
+      "title": "Traits",
+      "alias": "trait",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Ambusher.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "difficulty",
+      "title": "Difficulty",
+      "alias": "Difficulty",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Ambusher.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "difficulty",
+      "title": "Difficulty",
+      "alias": "DC",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Ambusher.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "traits",
+      "title": "Traits",
+      "alias": "trait",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Ambusher.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "critical-success",
+      "title": "Critical Success",
+      "alias": "Critical Success",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Ambusher.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "hope",
+      "title": "Hope",
+      "alias": "with Hope",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Ambusher.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "five-outcomes",
+      "title": "Five Roll Outcomes",
+      "alias": "success with fear",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Ambusher.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "five-outcomes",
+      "title": "Five Roll Outcomes",
+      "alias": "failure with hope",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Ambusher.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "fear",
+      "title": "Fear",
+      "alias": "with Fear",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Ambusher.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "difficulty",
+      "title": "Difficulty",
+      "alias": "DC",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Ambusher.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "critical-success",
+      "title": "Critical Success",
+      "alias": "Critical Success",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Ambusher.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "duality-dice",
+      "title": "Duality Dice",
+      "alias": "Duality Dice",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Ambusher.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "hope",
+      "title": "Hope",
+      "alias": "Hope",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Ambusher.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "fear",
+      "title": "Fear",
+      "alias": "Fear",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Ambusher.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "fear",
+      "title": "Fear",
+      "alias": "GM Fear",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Ambusher.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "conditions",
+      "title": "Conditions",
+      "alias": "Conditions",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Ambusher.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "class-subclass",
+      "title": "Class and Subclass",
+      "alias": "class",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Ambusher.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "community",
+      "title": "Community",
+      "alias": "Community",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Ambusher.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "ancestry",
+      "title": "Ancestry",
+      "alias": "Ancestry",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Ambusher.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Ambusher.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/The Glimpse.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf-mother",
+      "title": "Strixwolf Mother",
+      "alias": "Strixwolf Mother",
+      "file": "obsidian_vault/04 Creatures/The Glimpse.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/The Glimpse.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "fear",
+      "title": "Fear",
+      "alias": "Fear",
+      "file": "obsidian_vault/04 Creatures/The Glimpse.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/The Glimpse.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/Strixwolf.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf-mother",
+      "title": "Strixwolf Mother",
+      "alias": "Strixwolf Mother",
+      "file": "obsidian_vault/04 Creatures/Strixwolf.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "traits",
+      "title": "Traits",
+      "alias": "trait",
+      "file": "obsidian_vault/04 Creatures/Strixwolf.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "difficulty",
+      "title": "Difficulty",
+      "alias": "Difficulty",
+      "file": "obsidian_vault/04 Creatures/Strixwolf.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "difficulty",
+      "title": "Difficulty",
+      "alias": "DC",
+      "file": "obsidian_vault/04 Creatures/Strixwolf.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "traits",
+      "title": "Traits",
+      "alias": "trait",
+      "file": "obsidian_vault/04 Creatures/Strixwolf.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "critical-success",
+      "title": "Critical Success",
+      "alias": "Critical Success",
+      "file": "obsidian_vault/04 Creatures/Strixwolf.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "hope",
+      "title": "Hope",
+      "alias": "with Hope",
+      "file": "obsidian_vault/04 Creatures/Strixwolf.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "five-outcomes",
+      "title": "Five Roll Outcomes",
+      "alias": "success with fear",
+      "file": "obsidian_vault/04 Creatures/Strixwolf.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "five-outcomes",
+      "title": "Five Roll Outcomes",
+      "alias": "failure with hope",
+      "file": "obsidian_vault/04 Creatures/Strixwolf.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "fear",
+      "title": "Fear",
+      "alias": "with Fear",
+      "file": "obsidian_vault/04 Creatures/Strixwolf.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "difficulty",
+      "title": "Difficulty",
+      "alias": "DC",
+      "file": "obsidian_vault/04 Creatures/Strixwolf.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "critical-success",
+      "title": "Critical Success",
+      "alias": "Critical Success",
+      "file": "obsidian_vault/04 Creatures/Strixwolf.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "duality-dice",
+      "title": "Duality Dice",
+      "alias": "Duality Dice",
+      "file": "obsidian_vault/04 Creatures/Strixwolf.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "hope",
+      "title": "Hope",
+      "alias": "Hope",
+      "file": "obsidian_vault/04 Creatures/Strixwolf.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "fear",
+      "title": "Fear",
+      "alias": "Fear",
+      "file": "obsidian_vault/04 Creatures/Strixwolf.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "fear",
+      "title": "Fear",
+      "alias": "GM Fear",
+      "file": "obsidian_vault/04 Creatures/Strixwolf.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "conditions",
+      "title": "Conditions",
+      "alias": "Conditions",
+      "file": "obsidian_vault/04 Creatures/Strixwolf.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "class-subclass",
+      "title": "Class and Subclass",
+      "alias": "class",
+      "file": "obsidian_vault/04 Creatures/Strixwolf.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "community",
+      "title": "Community",
+      "alias": "Community",
+      "file": "obsidian_vault/04 Creatures/Strixwolf.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "ancestry",
+      "title": "Ancestry",
+      "alias": "Ancestry",
+      "file": "obsidian_vault/04 Creatures/Strixwolf.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Strixwolf.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/Spidermanders.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "keystone-asset",
+      "title": "Keystone Asset™",
+      "alias": "stone",
+      "file": "obsidian_vault/04 Creatures/Spidermanders.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf-mother",
+      "title": "Strixwolf Mother",
+      "alias": "Strixwolf Mother",
+      "file": "obsidian_vault/04 Creatures/Spidermanders.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Spidermanders.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Spidermanders.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf-mother",
+      "title": "Strixwolf Mother",
+      "alias": "Strixwolf Mother",
+      "file": "obsidian_vault/04 Creatures/Soul-Audit Wraith.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Soul-Audit Wraith.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "traits",
+      "title": "Traits",
+      "alias": "trait",
+      "file": "obsidian_vault/04 Creatures/Soul-Audit Wraith.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "difficulty",
+      "title": "Difficulty",
+      "alias": "Difficulty",
+      "file": "obsidian_vault/04 Creatures/Soul-Audit Wraith.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "difficulty",
+      "title": "Difficulty",
+      "alias": "DC",
+      "file": "obsidian_vault/04 Creatures/Soul-Audit Wraith.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "traits",
+      "title": "Traits",
+      "alias": "trait",
+      "file": "obsidian_vault/04 Creatures/Soul-Audit Wraith.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "critical-success",
+      "title": "Critical Success",
+      "alias": "Critical Success",
+      "file": "obsidian_vault/04 Creatures/Soul-Audit Wraith.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "hope",
+      "title": "Hope",
+      "alias": "with Hope",
+      "file": "obsidian_vault/04 Creatures/Soul-Audit Wraith.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "five-outcomes",
+      "title": "Five Roll Outcomes",
+      "alias": "success with fear",
+      "file": "obsidian_vault/04 Creatures/Soul-Audit Wraith.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "five-outcomes",
+      "title": "Five Roll Outcomes",
+      "alias": "failure with hope",
+      "file": "obsidian_vault/04 Creatures/Soul-Audit Wraith.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "fear",
+      "title": "Fear",
+      "alias": "with Fear",
+      "file": "obsidian_vault/04 Creatures/Soul-Audit Wraith.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "difficulty",
+      "title": "Difficulty",
+      "alias": "DC",
+      "file": "obsidian_vault/04 Creatures/Soul-Audit Wraith.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "critical-success",
+      "title": "Critical Success",
+      "alias": "Critical Success",
+      "file": "obsidian_vault/04 Creatures/Soul-Audit Wraith.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "duality-dice",
+      "title": "Duality Dice",
+      "alias": "Duality Dice",
+      "file": "obsidian_vault/04 Creatures/Soul-Audit Wraith.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "hope",
+      "title": "Hope",
+      "alias": "Hope",
+      "file": "obsidian_vault/04 Creatures/Soul-Audit Wraith.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "fear",
+      "title": "Fear",
+      "alias": "Fear",
+      "file": "obsidian_vault/04 Creatures/Soul-Audit Wraith.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "fear",
+      "title": "Fear",
+      "alias": "GM Fear",
+      "file": "obsidian_vault/04 Creatures/Soul-Audit Wraith.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "conditions",
+      "title": "Conditions",
+      "alias": "Conditions",
+      "file": "obsidian_vault/04 Creatures/Soul-Audit Wraith.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "class-subclass",
+      "title": "Class and Subclass",
+      "alias": "class",
+      "file": "obsidian_vault/04 Creatures/Soul-Audit Wraith.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "community",
+      "title": "Community",
+      "alias": "Community",
+      "file": "obsidian_vault/04 Creatures/Soul-Audit Wraith.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "ancestry",
+      "title": "Ancestry",
+      "alias": "Ancestry",
+      "file": "obsidian_vault/04 Creatures/Soul-Audit Wraith.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Soul-Audit Wraith.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/Hunting Trees.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/Hunting Trees.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/Hunting Trees.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf-mother",
+      "title": "Strixwolf Mother",
+      "alias": "Strixwolf Mother",
+      "file": "obsidian_vault/04 Creatures/Hunting Trees.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Hunting Trees.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Hunting Trees.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/Centi-Beetles.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf-mother",
+      "title": "Strixwolf Mother",
+      "alias": "Strixwolf Mother",
+      "file": "obsidian_vault/04 Creatures/Centi-Beetles.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Centi-Beetles.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "ancestry",
+      "title": "Ancestry",
+      "alias": "giant",
+      "file": "obsidian_vault/04 Creatures/Centi-Beetles.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "ancestry",
+      "title": "Ancestry",
+      "alias": "giant",
+      "file": "obsidian_vault/04 Creatures/Centi-Beetles.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Centi-Beetles.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/Fox-Bats.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf-mother",
+      "title": "Strixwolf Mother",
+      "alias": "Strixwolf Mother",
+      "file": "obsidian_vault/04 Creatures/Fox-Bats.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Fox-Bats.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Fox-Bats.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/Sablewood Hybrid Fauna.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/Sablewood Hybrid Fauna.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/Sablewood Hybrid Fauna.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "cat-squirrels",
+      "title": "Cat-Squirrels",
+      "alias": "Cat-Squirrels",
+      "file": "obsidian_vault/04 Creatures/Sablewood Hybrid Fauna.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "giraffe-deer",
+      "title": "Giraffe-Deer",
+      "alias": "Giraffe-Deer",
+      "file": "obsidian_vault/04 Creatures/Sablewood Hybrid Fauna.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "lemur-toads",
+      "title": "Lemur-Toads",
+      "alias": "Lemur-Toads",
+      "file": "obsidian_vault/04 Creatures/Sablewood Hybrid Fauna.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "fox-bats",
+      "title": "Fox-Bats",
+      "alias": "Fox-Bats",
+      "file": "obsidian_vault/04 Creatures/Sablewood Hybrid Fauna.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "horse-goats",
+      "title": "Horse-Goats",
+      "alias": "Horse-Goats",
+      "file": "obsidian_vault/04 Creatures/Sablewood Hybrid Fauna.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "eeligator",
+      "title": "Eeligator",
+      "alias": "Eeligators",
+      "file": "obsidian_vault/04 Creatures/Sablewood Hybrid Fauna.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf-mother",
+      "title": "Strixwolf Mother",
+      "alias": "Strixwolf Mother",
+      "file": "obsidian_vault/04 Creatures/Sablewood Hybrid Fauna.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Sablewood Hybrid Fauna.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Sablewood Hybrid Fauna.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/Mountain Crabs.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "keystone-asset",
+      "title": "Keystone Asset™",
+      "alias": "stone",
+      "file": "obsidian_vault/04 Creatures/Mountain Crabs.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf-mother",
+      "title": "Strixwolf Mother",
+      "alias": "Strixwolf Mother",
+      "file": "obsidian_vault/04 Creatures/Mountain Crabs.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Mountain Crabs.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Mountain Crabs.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Strixwolf Mother.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Strixwolf Mother.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Strixwolf Mother.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf-mother",
+      "title": "Strixwolf Mother",
+      "alias": "Strixwolf Mother",
+      "file": "obsidian_vault/04 Creatures/Legacy Security Skeleton.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Legacy Security Skeleton.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "traits",
+      "title": "Traits",
+      "alias": "trait",
+      "file": "obsidian_vault/04 Creatures/Legacy Security Skeleton.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "difficulty",
+      "title": "Difficulty",
+      "alias": "Difficulty",
+      "file": "obsidian_vault/04 Creatures/Legacy Security Skeleton.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "difficulty",
+      "title": "Difficulty",
+      "alias": "DC",
+      "file": "obsidian_vault/04 Creatures/Legacy Security Skeleton.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "traits",
+      "title": "Traits",
+      "alias": "trait",
+      "file": "obsidian_vault/04 Creatures/Legacy Security Skeleton.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "critical-success",
+      "title": "Critical Success",
+      "alias": "Critical Success",
+      "file": "obsidian_vault/04 Creatures/Legacy Security Skeleton.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "hope",
+      "title": "Hope",
+      "alias": "with Hope",
+      "file": "obsidian_vault/04 Creatures/Legacy Security Skeleton.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "five-outcomes",
+      "title": "Five Roll Outcomes",
+      "alias": "success with fear",
+      "file": "obsidian_vault/04 Creatures/Legacy Security Skeleton.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "five-outcomes",
+      "title": "Five Roll Outcomes",
+      "alias": "failure with hope",
+      "file": "obsidian_vault/04 Creatures/Legacy Security Skeleton.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "fear",
+      "title": "Fear",
+      "alias": "with Fear",
+      "file": "obsidian_vault/04 Creatures/Legacy Security Skeleton.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "difficulty",
+      "title": "Difficulty",
+      "alias": "DC",
+      "file": "obsidian_vault/04 Creatures/Legacy Security Skeleton.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "critical-success",
+      "title": "Critical Success",
+      "alias": "Critical Success",
+      "file": "obsidian_vault/04 Creatures/Legacy Security Skeleton.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "duality-dice",
+      "title": "Duality Dice",
+      "alias": "Duality Dice",
+      "file": "obsidian_vault/04 Creatures/Legacy Security Skeleton.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "hope",
+      "title": "Hope",
+      "alias": "Hope",
+      "file": "obsidian_vault/04 Creatures/Legacy Security Skeleton.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "fear",
+      "title": "Fear",
+      "alias": "Fear",
+      "file": "obsidian_vault/04 Creatures/Legacy Security Skeleton.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "fear",
+      "title": "Fear",
+      "alias": "GM Fear",
+      "file": "obsidian_vault/04 Creatures/Legacy Security Skeleton.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "conditions",
+      "title": "Conditions",
+      "alias": "Conditions",
+      "file": "obsidian_vault/04 Creatures/Legacy Security Skeleton.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "class-subclass",
+      "title": "Class and Subclass",
+      "alias": "class",
+      "file": "obsidian_vault/04 Creatures/Legacy Security Skeleton.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "community",
+      "title": "Community",
+      "alias": "Community",
+      "file": "obsidian_vault/04 Creatures/Legacy Security Skeleton.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "ancestry",
+      "title": "Ancestry",
+      "alias": "Ancestry",
+      "file": "obsidian_vault/04 Creatures/Legacy Security Skeleton.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Legacy Security Skeleton.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "firstmoss-launch-festival",
+      "title": "Firstmoss Launch Festival",
+      "alias": "Firstmoss",
+      "file": "obsidian_vault/04 Creatures/Festival Moths.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/Festival Moths.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "firstmoss-launch-festival",
+      "title": "Firstmoss Launch Festival",
+      "alias": "Firstmoss",
+      "file": "obsidian_vault/04 Creatures/Festival Moths.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "firstmoss-launch-festival",
+      "title": "Firstmoss Launch Festival",
+      "alias": "Firstmoss",
+      "file": "obsidian_vault/04 Creatures/Festival Moths.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf-mother",
+      "title": "Strixwolf Mother",
+      "alias": "Strixwolf Mother",
+      "file": "obsidian_vault/04 Creatures/Festival Moths.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Festival Moths.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Festival Moths.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "the-refuge",
+      "title": "The Refuge",
+      "alias": "Refuge",
+      "file": "obsidian_vault/04 Creatures/Badger-Hawks.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/Badger-Hawks.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "the-refuge",
+      "title": "The Refuge",
+      "alias": "Refuge",
+      "file": "obsidian_vault/04 Creatures/Badger-Hawks.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf-mother",
+      "title": "Strixwolf Mother",
+      "alias": "Strixwolf Mother",
+      "file": "obsidian_vault/04 Creatures/Badger-Hawks.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Badger-Hawks.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Badger-Hawks.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf-mother",
+      "title": "Strixwolf Mother",
+      "alias": "Strixwolf Mother",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Claimrunner.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Claimrunner.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "traits",
+      "title": "Traits",
+      "alias": "trait",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Claimrunner.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "difficulty",
+      "title": "Difficulty",
+      "alias": "Difficulty",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Claimrunner.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "difficulty",
+      "title": "Difficulty",
+      "alias": "DC",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Claimrunner.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "traits",
+      "title": "Traits",
+      "alias": "trait",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Claimrunner.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "critical-success",
+      "title": "Critical Success",
+      "alias": "Critical Success",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Claimrunner.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "hope",
+      "title": "Hope",
+      "alias": "with Hope",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Claimrunner.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "five-outcomes",
+      "title": "Five Roll Outcomes",
+      "alias": "success with fear",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Claimrunner.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "five-outcomes",
+      "title": "Five Roll Outcomes",
+      "alias": "failure with hope",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Claimrunner.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "fear",
+      "title": "Fear",
+      "alias": "with Fear",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Claimrunner.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "difficulty",
+      "title": "Difficulty",
+      "alias": "DC",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Claimrunner.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "critical-success",
+      "title": "Critical Success",
+      "alias": "Critical Success",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Claimrunner.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "duality-dice",
+      "title": "Duality Dice",
+      "alias": "Duality Dice",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Claimrunner.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "hope",
+      "title": "Hope",
+      "alias": "Hope",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Claimrunner.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "fear",
+      "title": "Fear",
+      "alias": "Fear",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Claimrunner.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "fear",
+      "title": "Fear",
+      "alias": "GM Fear",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Claimrunner.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "conditions",
+      "title": "Conditions",
+      "alias": "Conditions",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Claimrunner.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "class-subclass",
+      "title": "Class and Subclass",
+      "alias": "class",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Claimrunner.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "community",
+      "title": "Community",
+      "alias": "Community",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Claimrunner.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "ancestry",
+      "title": "Ancestry",
+      "alias": "Ancestry",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Claimrunner.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Bramble Union Claimrunner.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "the-refuge",
+      "title": "The Refuge",
+      "alias": "Refuge",
+      "file": "obsidian_vault/04 Creatures/Turtle-Mice.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/Turtle-Mice.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "the-refuge",
+      "title": "The Refuge",
+      "alias": "Refuge",
+      "file": "obsidian_vault/04 Creatures/Turtle-Mice.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "comfort-blanket",
+      "title": "Comfort Blanket",
+      "alias": "blanket",
+      "file": "obsidian_vault/04 Creatures/Turtle-Mice.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf-mother",
+      "title": "Strixwolf Mother",
+      "alias": "Strixwolf Mother",
+      "file": "obsidian_vault/04 Creatures/Turtle-Mice.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Turtle-Mice.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Turtle-Mice.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/Giraffe-Deer.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "escort-carriage",
+      "title": "Escort Carriage",
+      "alias": "carriage",
+      "file": "obsidian_vault/04 Creatures/Giraffe-Deer.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf-mother",
+      "title": "Strixwolf Mother",
+      "alias": "Strixwolf Mother",
+      "file": "obsidian_vault/04 Creatures/Giraffe-Deer.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Giraffe-Deer.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Giraffe-Deer.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/Young Dryads.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/Young Dryads.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/Young Dryads.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf-mother",
+      "title": "Strixwolf Mother",
+      "alias": "Strixwolf Mother",
+      "file": "obsidian_vault/04 Creatures/Young Dryads.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Young Dryads.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Young Dryads.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Strixwolf Pup Two.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Strixwolf Pup Two.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Strixwolf Pup Two.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Strixwolf Pup Two.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/Tiger-Elk.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf-mother",
+      "title": "Strixwolf Mother",
+      "alias": "Strixwolf Mother",
+      "file": "obsidian_vault/04 Creatures/Tiger-Elk.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Tiger-Elk.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Tiger-Elk.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "the-sable-sinecure",
+      "title": "The Sable Sinecure",
+      "alias": "Sable Sinecure",
+      "file": "obsidian_vault/04 Creatures/Fire-Falcons.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/Fire-Falcons.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "the-sable-sinecure",
+      "title": "The Sable Sinecure",
+      "alias": "Sable Sinecure",
+      "file": "obsidian_vault/04 Creatures/Fire-Falcons.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf-mother",
+      "title": "Strixwolf Mother",
+      "alias": "Strixwolf Mother",
+      "file": "obsidian_vault/04 Creatures/Fire-Falcons.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Fire-Falcons.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Fire-Falcons.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "runespark-entertainment",
+      "title": "RuneSpark Entertainment",
+      "alias": "RuneSpark",
+      "file": "obsidian_vault/04 Creatures/Horse-Goats.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "escort-carriage",
+      "title": "Escort Carriage",
+      "alias": "carriage",
+      "file": "obsidian_vault/04 Creatures/Horse-Goats.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/Horse-Goats.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "runespark-entertainment",
+      "title": "RuneSpark Entertainment",
+      "alias": "RuneSpark",
+      "file": "obsidian_vault/04 Creatures/Horse-Goats.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "escort-carriage",
+      "title": "Escort Carriage",
+      "alias": "carriage",
+      "file": "obsidian_vault/04 Creatures/Horse-Goats.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf-mother",
+      "title": "Strixwolf Mother",
+      "alias": "Strixwolf Mother",
+      "file": "obsidian_vault/04 Creatures/Horse-Goats.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Horse-Goats.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Horse-Goats.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "sablewoodtm-logistics-preserve",
+      "title": "Sablewood™ Logistics Preserve",
+      "alias": "Sablewood",
+      "file": "obsidian_vault/04 Creatures/Eeligator.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf-mother",
+      "title": "Strixwolf Mother",
+      "alias": "Strixwolf Mother",
+      "file": "obsidian_vault/04 Creatures/Eeligator.md"
+    },
+    {
+      "kind": "entity",
+      "target_id": "strixwolf",
+      "title": "Strixwolf",
+      "alias": "Strixwolf",
+      "file": "obsidian_vault/04 Creatures/Eeligator.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "traits",
+      "title": "Traits",
+      "alias": "trait",
+      "file": "obsidian_vault/04 Creatures/Eeligator.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "difficulty",
+      "title": "Difficulty",
+      "alias": "Difficulty",
+      "file": "obsidian_vault/04 Creatures/Eeligator.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "difficulty",
+      "title": "Difficulty",
+      "alias": "DC",
+      "file": "obsidian_vault/04 Creatures/Eeligator.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "traits",
+      "title": "Traits",
+      "alias": "trait",
+      "file": "obsidian_vault/04 Creatures/Eeligator.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "critical-success",
+      "title": "Critical Success",
+      "alias": "Critical Success",
+      "file": "obsidian_vault/04 Creatures/Eeligator.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "hope",
+      "title": "Hope",
+      "alias": "with Hope",
+      "file": "obsidian_vault/04 Creatures/Eeligator.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "five-outcomes",
+      "title": "Five Roll Outcomes",
+      "alias": "success with fear",
+      "file": "obsidian_vault/04 Creatures/Eeligator.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "five-outcomes",
+      "title": "Five Roll Outcomes",
+      "alias": "failure with hope",
+      "file": "obsidian_vault/04 Creatures/Eeligator.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "fear",
+      "title": "Fear",
+      "alias": "with Fear",
+      "file": "obsidian_vault/04 Creatures/Eeligator.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "difficulty",
+      "title": "Difficulty",
+      "alias": "DC",
+      "file": "obsidian_vault/04 Creatures/Eeligator.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "critical-success",
+      "title": "Critical Success",
+      "alias": "Critical Success",
+      "file": "obsidian_vault/04 Creatures/Eeligator.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "duality-dice",
+      "title": "Duality Dice",
+      "alias": "Duality Dice",
+      "file": "obsidian_vault/04 Creatures/Eeligator.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "hope",
+      "title": "Hope",
+      "alias": "Hope",
+      "file": "obsidian_vault/04 Creatures/Eeligator.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "fear",
+      "title": "Fear",
+      "alias": "Fear",
+      "file": "obsidian_vault/04 Creatures/Eeligator.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "fear",
+      "title": "Fear",
+      "alias": "GM Fear",
+      "file": "obsidian_vault/04 Creatures/Eeligator.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "conditions",
+      "title": "Conditions",
+      "alias": "Conditions",
+      "file": "obsidian_vault/04 Creatures/Eeligator.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "class-subclass",
+      "title": "Class and Subclass",
+      "alias": "class",
+      "file": "obsidian_vault/04 Creatures/Eeligator.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "community",
+      "title": "Community",
+      "alias": "Community",
+      "file": "obsidian_vault/04 Creatures/Eeligator.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "ancestry",
+      "title": "Ancestry",
+      "alias": "Ancestry",
+      "file": "obsidian_vault/04 Creatures/Eeligator.md"
+    },
+    {
+      "kind": "mechanic",
+      "target_id": "cats",
+      "title": "Concept, Aim, Tone, Subject Matter",
+      "alias": "Concept",
+      "file": "obsidian_vault/04 Creatures/Eeligator.md"
+    }
+  ],
+  "counts": {
+    "entity_aliases_checked": 833,
+    "rule_aliases_checked": 196,
+    "html_unlinked_existing_references": 0,
+    "obsidian_missing_notes": 0,
+    "obsidian_missing_aliases": 0,
+    "obsidian_plain_mentions_sample": 250
+  }
+}

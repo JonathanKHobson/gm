@@ -1,0 +1,65 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "slide",
+  "id": "ACT-FIVE",
+  "title": "ACT-FIVE - Act Five: The Ward Renewal",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "923d82c0087e6cdb",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The carriage pulls into a perfect circle of clearing, the only place in the preserve where the trees pull back and let you see the open sky. This is where it ends. The Custodian says the ward was first forged here, and here it must be renewed. She tells you it nearly killed her the first time. Then she smiles, old and unafraid, and asks you to stand with her while she does the most dangerous thing she knows how to do."
+    },
+    {
+      "title": "Public objective",
+      "body": "Protect the Custodian through the ritual, renew the ward, and finish what the job started."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: ACT-FIVE",
+        "Type: act-divider",
+        "Sectionid: ACT-FIVE",
+        "Sectiontitle: Act Five: The Ward Renewal",
+        "Title: Act Five: The Ward Renewal",
+        "Shorttitle: Act Five",
+        "Order: 600",
+        "Playersafe: True",
+        "Completioneligible: False",
+        "Caption: The finale turns five acts of trust, mercy, preparation, and truth into one visible ritual outcome.",
+        "Mood: table transition",
+        "Gmgoal: Converge every prior choice into the ward renewal: protect the Custodian, make the countdown legible, resolve the ritual, and choose what truth leaves with the party.",
+        "Publicobjective: Protect the Custodian through the ritual, renew the ward, and finish what the job started.",
+        "Readaloud: The carriage pulls into a perfect circle of clearing, the only place in the preserve where the trees pull back and let you see the open sky. This is where it ends. The Custodian says the ward was first forged here, and here it must be renewed. She tells you it nearly killed her the first time. Then she smiles, old and unafraid, and asks you to stand with her while she does the most dangerous thing she knows how to do.",
+        "Gmnotes: Act 5 is not a kill-all combat. It is protection under pressure until the countdown reaches 0. Let prior mercy or trust become visible help: warning, charm, positioning, steadier Custodian, or a better aftermath. If the fight drags, Market Correction can spawn easy skeletons so progress can resume without punishing beginners.",
+        "Playertakeaway: You signed on for the hard road; this is the hard road. Stand with her and finish it.",
+        "Storytakeaway: This is the resolution of everything: the ward, the city, the Custodian, and the choices that brought the party here.",
+        "Mechanictakeaway: Act 5 is a defense encounter on a countdown, then a report-choice epilogue gate.",
+        "Livetools: none",
+        "Playersafeprojection: ACT-FIVE act-divider Act Five: The Ward Renewal The finale turns five acts of trust, mercy, preparation, and truth into one visible ritual outcome. table transition Protect the Custodian through the ritual, renew the ward, and finish what the job started. The carriage pulls into a perfect circle of clearing, the only place in the preserve where the trees pull back and let you see the open sky. This is where it ends. The Custodian says the ward was first forged here, and here it must be renewed. She tells you it nearly killed her the first time. Then she smiles, old and unafraid, and asks you to stand with her while she does the most dangerous thing she knows how to do. act-five-open-sky Open Sky The open sky For the first time in days, the trees pull back. The clearing is a perfect circle under open sky. For the first time in days, the trees pull back. The clearing is a perfect circle under open sky. For the first time in days, the trees pull back. The clearing is a perfect circle under open sky. text-first act-five-stand-with-her Stand With Her What she asks The Custodian asks you to stand with her while she does the most dangerous thing she knows how to do. The Custodian asks...",
+        "Gmscript: Say: \"Every road you took leads to this clearing. What happens here is the ending you have been writing all along.\"",
+        "Gmreadaloud: The carriage pulls into a perfect circle of clearing. For the first time in days, the trees pull back and let you see the open sky. The Custodian says the ward was first forged here, and here it must be renewed.",
+        "Gmchecklist: Read the full carry-in chain before S05-01: strixwolf_*, bramble_*, package_status, hush_trust, custodian_route, ward_awareness, festival_boon, custodian_trust, ward_stability, ritual_prep, keystone_understanding, and hush_clues. If package_status=lost, flag that the finale cannot proceed as written until the table recovers, improvises, or accepts an alternate fragile start. If ward_stability is unset, default to fragile and make the first countdown pressure harsher. Keep Open Vale(TM), Market Correction, and soul-economy as GM-side framing unless the packet gate is earned.",
+        "Gmprivate: The ward renewal is a real win with a cost. Full soul-economy truth remains a seed, not a lecture. The report choice is the final values mechanic: file-honest, spin-corporate, refuse, or withhold-the-truth. Withhold-the-truth has the largest future fallout but protects the wrong readers from the deepest truth for now.",
+        "Mechanicids: countdown short-rest hope fear presence knowledge table-spotlight",
+        "References: Act 05 - The Ward Renewal archive/goldspire_story_atlas_packet/obsidian_vault/01 Story/Act 05 - The Ward Renewal.md Ritual Countdown archive/goldspire_story_atlas_packet/obsidian_vault/08 Tables and Loot/Ritual Countdown.md",
+        "Sourcefiles: archive/goldspire_story_atlas_packet/obsidian_vault/01 Story/Act 05 - The Ward Renewal.md archive/goldspire_story_atlas_packet/obsidian_vault/08 Tables and Loot/Ritual Countdown.md",
+        "Playerbeats: act-five-open-sky Open Sky The open sky For the first time in days, the trees pull back. The clearing is a perfect circle under open sky. For the first time in days, the trees pull back. The clearing is a perfect circle under open sky. For the first time in days, the trees pull back. The clearing is a perfect circle under open sky. text-first act-five-stand-with-her Stand With Her What she asks The Custodian asks you to stand with her while she does the most dangerous thing she knows how to do. The Custodian asks you to stand with her while she does the most dangerous thing she knows how to do. The Custodian asks you to stand with her while she does the most dangerous thing she knows how to do. text-first act-five-countdown Countdown The visible clock When the ritual begins, the countdown starts at 8. Defeat threats to move it down. Let the Custodian be hit, and it moves up. When the ritual begins, the countdown starts at 8. Defeat threats to move it down. Let the Custodian be hit, and it moves up. When the ritual begins, the countdown starts at 8. Defeat threats to move it down. Let the Custodian be hit, and it moves up. text-first",
+        "Gmbeats: act-five-open-sky Open Sky The open sky Say: \"This is the first open sky you have seen in days. Let that land before the danger starts.\" For the first time in days, the trees pull back. The clearing is a perfect circle under open sky. The finale begins on sacred ground before combat begins. Scene framing gives the table a shared focus before rules pressure. Players enter the finale through image and place. Player takeaway Players enter the finale through image and place. \"This is the first open sky you have seen in days. Let that land before the danger starts.\" \"The table-facing answer is: Players enter the finale through image and place.\" Use this beat to give the players one visible next action: protect the center, read the field, spend prep, name who they shield, or choose what truth leaves with them. table-spotlight Story takeaway The finale begins on sacred ground before combat begins. \"This is the first open sky you have seen in days. Let that land before the danger starts.\" \"The story answer is: The finale begins on sacred ground before combat begins.\" Tie the answer to a visible Act 5 consequence: the ward steadies, the Custodian suffers, Hush is protected, or the...",
+        "Takeawayhelp: Player takeaway You signed on for the hard road; this is the hard road. Stand with her and finish it. \"No more setup. This is the fight that ends the story. Protect her, hold the line, and see it through.\" \"Take your last rest, ready your gear, and pick who you stand beside when it gets bad.\" This is the player-facing finale thesis: shared courage, not lone-hero destiny. countdown short-rest fear table-spotlight Story takeaway This is the resolution of everything: the ward, the city, the Custodian, and the choices that brought the party here. \"Every road you took leads to this clearing. What happens here is the ending you have been writing all along.\" \"At stake: Hush, the Custodian, the ward, and what kind of truth survives the paperwork after you win.\" Make carry-in flags visible through help, pressure, and aftermath, not as a list of variables read aloud. countdown short-rest fear table-spotlight Mechanic takeaway Act 5 is a defense encounter on a countdown, then a report-choice epilogue gate. \"A timed fight. She rituals, you hold the line. A countdown die runs the clock: defeat enemies to speed it, but every hit she takes slows it down.\" \"d8 starts at 8. Down 1 on adversary...",
+        "Beatautoplayeligible: True",
+        "Beatautoplaydefault: False",
+        "Beatautoplayintervalms: 10000",
+        "Slidenumber: 61",
+        "Totalslides: 110"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 923d82c0087e6cdb | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

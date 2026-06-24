@@ -1,0 +1,552 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2691 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S04-02 - The Hanging Office Exterior) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(Up close, cabin undersells it. A home hangs from a braid of rope as thick as a giant's) Tj
+T*
+(forearm, tied to a massive branch and counterweighted by a boulder the size of the cabin) Tj
+T*
+(itself. The whole thing sways like overripe fruit ready to drop. The boulder is carved) Tj
+T*
+(with symbols; the windows flash a soft yellow-green light. There is no obvious door at) Tj
+T*
+(ground level. What do you do?) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Get the Custodian's attention or reach her home.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: S04-02) Tj
+T*
+(- Type: scene) Tj
+T*
+(- Sectionid: ACT-FOUR) Tj
+T*
+(- Sectiontitle: Act Four: The Hanging Office) Tj
+T*
+(- Title: The Hanging Office Exterior) Tj
+T*
+(- Shorttitle: Hanging Office Exterior) Tj
+T*
+(- Order: 502) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: True) Tj
+T*
+(- Image: assets/scenes/S04-02-the-hanging-office-exterior.png) Tj
+T*
+(- Alt: The Hanging Office Exterior scene art for The Hanging Office.) Tj
+T*
+(- Caption: The Hanging Office is absurd because the system is absurd; the people) Tj
+T*
+(  inside are not.) Tj
+T*
+(- Mood: The Hanging Office) Tj
+T*
+(- Gmgoal: Run the hanging-home puzzle as a gentle test of patience, courtesy, and) Tj
+T*
+(  cleverness.) Tj
+T*
+(- Publicobjective: Get the Custodian's attention or reach her home.) Tj
+T*
+(- Readaloud: Up close, cabin undersells it. A home hangs from a braid of rope as thick) Tj
+T*
+(  as a giant's forearm, tied to a massive branch and counterweighted by a boulder the) Tj
+T*
+(  size of the cabin itself. The whole thing sways like overripe fruit ready to drop.) Tj
+T*
+(  The boulder is carved with symbols; the windows flash a soft yellow-green light.) Tj
+T*
+(  There is no obvious door at ground level. What do you do?) Tj
+T*
+(- Gmnotes: The goal is not to stump the table. Let the puzzle reveal what kind of) Tj
+T*
+(  guests they are. Destructive force lowers trust; gentle strength or patient honesty) Tj
+T*
+(  raises it.) Tj
+T*
+(- Gmscript: Say: "This is not a lock to force. It is a person to convince. Call up,) Tj
+T*
+(  climb, study the counterweight, or wait and announce yourselves honestly.") Tj
+T*
+(- Gmreadaloud: A home hangs from a braid of rope as thick as a giant's forearm. A) Tj
+T*
+(  boulder the size of the cabin counterweights it at the tree's base. The windows) Tj
+T*
+(  flash with soft yellow-green light.) Tj
+T*
+(- Gmchecklist: Offer all three module options: call, cut the rope, climb. Cutting the) Tj
+T*
+(  rope blasts them back and costs 1 Stress. Climbing is Agility 13; failure means a) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4049 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  limb gently sets them down. Clever/courteous solutions nudge custodian_trust up.) Tj
+T*
+(  festival_boon can help charm or signal her.) Tj
+T*
+(- Gmprivate: She emerges on something worthy: patience, courtesy, cleverness,) Tj
+T*
+(  restraint, or genuine vulnerability. Keep consequences whimsical and non-lethal.) Tj
+T*
+(- Playertakeaway: The way in is to be the kind of people worth opening the door for.) Tj
+T*
+(- Storytakeaway: The Custodian tests character before access; her home answers) Tj
+T*
+(  courtesy faster than force.) Tj
+T*
+(- Mechanictakeaway: This is a forgiving puzzle with real cost: call, climb, study, or) Tj
+T*
+(  force it; force costs Stress while cleverness raises custodian_trust.) Tj
+T*
+(- Rollcards: s04-02-reach-the-hanging-office S04-02 Reach the Hanging Office Reach the) Tj
+T*
+(  Hanging Office Agility Strength Agility Strength 13 Agility climbs; Strength holds) Tj
+T*
+(  rope, ladder, or counterweight. The approach turns comic, hazardous, or) Tj
+T*
+(  disrespectful. Critical Success: best possible version of the action; gain Hope and) Tj
+T*
+(  clear 1 Stress. Add an extra benefit that follows from the fiction. Success with) Tj
+T*
+(  Hope: the PC gets what they wanted and gains Hope. Keep the position clean or) Tj
+T*
+(  generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and) Tj
+T*
+(  introduces a cost, complication, or pressure. Failure with Hope: the PC does not get) Tj
+T*
+(  the full result, but gains Hope and receives a useful thread, clue, or safer next) Tj
+T*
+(  option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that) Tj
+T*
+(  follows from the fiction. The approach turns comic, hazardous, or disrespectful. Use) Tj
+T*
+(  a hard complication, lost time, worse position, GM Fear, or mark Stress. Apply an) Tj
+T*
+(  official condition only if the fiction and rules justify it. The attempt falls) Tj
+T*
+(  short, but a partial thread appears. Offer one clue, weak position, or safer follow-) Tj
+T*
+(  up. The PC gets the core result, but it costs time...) Tj
+T*
+(- Entityids: the-hanging-office whitefire-custodian inspection-sealed-counterweight) Tj
+T*
+(  barnacle garrick-reed emeris-clerk) Tj
+T*
+(- Entities: the-hanging-office The Hanging Office location Location) Tj
+T*
+(  assets/icons/location.png assets/location-visuals/the-hanging-) Tj
+T*
+(  office/profile_scene_v02.png the HANG-ing AW-fiss A treehouse-office counterweighted) Tj
+T*
+(  by a rune-marked boulder and full of forms, runes, plants, and magic. Turn) Tj
+T*
+(  bureaucracy into physical space the players can climb, read, and choose to respect.) Tj
+T*
+(  A treehouse-office counterweighted by a rune-marked boulder and full of forms,) Tj
+T*
+(  runes, plants, and magic.; introduce it with a sensory palette, who feels safe) Tj
+T*
+(  there, and what has been neglected. Pull player attention toward the choices, clues,) Tj
+T*
+(  and relationships tied to Whitefire Custodian, Keystone Asset, Inspection-Sealed) Tj
+T*
+(  Counterweight. A treehouse-office counterweighted by a rune-marked boulder and full) Tj
+T*
+(  of forms, runes, plants, and magic. whitefire-custodian Whitefire Custodian npc NPC) Tj
+T*
+(  / Ally assets/icons/npc.png assets/npc-images/whitefire-custodian/portrait_base.png) Tj
+T*
+(  WHITE-fire kus-TOH-dee-un Old faerie-like custodian who maintains the ward) Tj
+T*
+(  protecting Hush. Truth-bearer for the Keystone reveal. Whitefire Custodian an old) Tj
+T*
+(  faerie-like ward keeper whose exhaustion glows around the edges Ancient kindness) Tj
+T*
+(  running on fumes...) Tj
+T*
+(- Locationids: the-hanging-office) Tj
+T*
+(- Statecontrols: custodian_trust Custodian Trust select low neutral high festival_boon) Tj
+T*
+(  Festival Boon select none charm favor market_find goodwill custodian_route Custodian) Tj
+T*
+(  Route select unknown safe dangerous package_status Package Status select held lost) Tj
+T*
+(- Mechanicids: agility strength restrained reaction-rolls finesse knowledge presence) Tj
+T*
+(  stress hope fear) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4046 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Playerquestions: How do you try to be noticed without breaking anything? Who takes) Tj
+T*
+(  point: the climber, the patient caller, the mechanic, or the gentle strong hand?) Tj
+T*
+(- Relationshipprompts: Which PC quietly checks on someone else here? Who disagrees) Tj
+T*
+(  about the right thing to do without breaking trust?) Tj
+T*
+(- Ownershipprompt: Name one detail in The Hanging Office Exterior that belongs to your) Tj
+T*
+(  character's point of view.) Tj
+T*
+(- Fearspends: Spend Fear to expose neglected infrastructure, stress the Custodian, or) Tj
+T*
+(  make the Keystone hum at the wrong moment. Make neglected infrastructure answer at) Tj
+T*
+(  the wrong moment. Stress the Custodian's trust without turning her into a device.) Tj
+T*
+(- Choicesconsequences: Call up or wait honestly The light flickers and she watches) Tj
+T*
+(  before answering. Courteous roleplay can raise custodian_trust; if the table wants) Tj
+T*
+(  pressure, call for Presence 13. S04-03 begins warmer because they treated her as a) Tj
+T*
+(  person. custodian_trust neutral/high benefit player-visible Climb courteously A) Tj
+T*
+(  clean climber reaches a window or is gently set back down on failure. Agility 13;) Tj
+T*
+(  failure is repositioning, not harm. The Custodian respects skill without aggression.) Tj
+T*
+(  custodian_trust neutral/high benefit player-visible Study or work the mechanism The) Tj
+T*
+(  party finds a polite way to signal or lower the home without damage. Finesse or) Tj
+T*
+(  Knowledge 13 can solve the rig. She emerges amused and impressed. custodian_trust) Tj
+T*
+(  high benefit player-visible Cut the counterweight rope The house rejects the force) Tj
+T*
+(  and blasts the character back. Mark 1 Stress and lower trust. S04-03 starts with) Tj
+T*
+(  playful but guarded suspicion. custodian_trust low; Stress +1 penalty player-visible) Tj
+T*
+(- Lootclues: Use Hanging Office search results table) Tj
+T*
+(- Handoutids: Inspection-Sealed Counterweight) Tj
+T*
+(- Sourcesceneslug: S04-02-the-hanging-office-exterior) Tj
+T*
+(- Sourcefiles: dist/Act4_Upgrade_Packet/ACT4_SCENE_RESEARCH.md) Tj
+T*
+(  dist/Act4_Upgrade_Packet/ACT4_PER_CHARACTER.md) Tj
+T*
+(- References: Hanging Office map #MAP-LOC-the-hanging-office Whitefire Custodian) Tj
+T*
+(  #S04-03) Tj
+T*
+(- Storyscope: Perceived antagonist: the forest. True antagonist: the corporate lie) Tj
+T*
+(  about the forest. The players never confront it directly. They are meant to feel it) Tj
+T*
+(  by the end. Every act offers at least one guaranteed and one earned hint that the) Tj
+T*
+(  danger is manufactured and the forest is not the enemy. The sealed package is the) Tj
+T*
+(  capital's ward Keystone; the city is unwarded while it is away. KEEP GUARANTEED "The) Tj
+T*
+(  wood never needed managing. It needed leaving alone." ADD SEED "Your capital's) Tj
+T*
+(  safety is older than your contracts. It is the very thing they teach you to fear.") Tj
+T*
+(  ADD SEED The Keystone's magic is pre-corporate forest-ward work, the same school) Tj
+T*
+(  companies call primitive. ADD EARNED Knowledge Hard 20 The Custodian glances at) Tj
+T*
+(  obsolete Soulspire inspection seals on her counterweight boulder. ADD EARNED) Tj
+T*
+(  Instinct Medium 15 Presence: earn candor. Knowledge: place the magic. Instinct: read) Tj
+T*
+(  the Custodian's fear. ACT4 Act 4: Hanging Office 160 2:05 to 2:40 2:40 Custodian,) Tj
+T*
+(  Keystone reveal, new objective, short rest Compress the reveal; bank the Short Rest) Tj
+T*
+(  into travel narration.) Tj
+T*
+(- Livetools: scene MAP-LOC-the-hanging-office) Tj
+T*
+(- Percharacterlayer: barnacle Barnacle The mechanism Instantly grasps the rope-and-) Tj
+T*
+(  counterweight system and sees how the cabin might lower safely. Finesse/Knowledge 13) Tj
+T*
+(  Finds a courteous way to signal or lower the cabin without cutting anything. Can) Tj
+T*
+(  solve the rig in a way the Custodian respects. Barnacle, you can see how this rig) Tj
+T*
+(  works. Want to bring her down the polite way instead of cutting anything? khari-nix) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4306 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Khari Nix Gentle strength Could force the mechanism, but can also use reach and) Tj
+T*
+(  strength with care. Can steady the sway for others and impress her through) Tj
+T*
+(  restraint. Khari, you could yank it down, but doing it gently says more about you.) Tj
+T*
+(  Want to steady it for the others? varian-soto Varian Soto The climb Best suited to) Tj
+T*
+(  scale the tree cleanly and announce the party from a respectful distance. Agility 13) Tj
+T*
+(  Reaches a window cleanly or is gently set down on failure. Can make the climb feel) Tj
+T*
+(  courteous rather than invasive. Varian, you can make that climb clean. Want to go up) Tj
+T*
+(  and introduce yourselves properly? garrick-reed Garrick Reed Courtesy key His warmth) Tj
+T*
+(  makes the simple honest call a real solution. Can call up kindly and wait, raising) Tj
+T*
+(  trust without a roll if the table likes it. Garrick, sometimes...) Tj
+T*
+(- Takeawayhelp: Player takeaway The way in is to be the kind of people worth opening) Tj
+T*
+(  the door for. "This is not a lock to force. It is a person to convince. Be) Tj
+T*
+(  interesting, kind, or patient." "You can call out, climb, study the carved boulder,) Tj
+T*
+(  or wait and announce yourselves honestly. She is watching." If the table freezes,) Tj
+T*
+(  name three options exactly: call, climb, or study the counterweight. agility finesse) Tj
+T*
+(  knowledge presence stress Story takeaway The Custodian tests character before) Tj
+T*
+(  access. "She is in there. The light is moving. She will come out when you do) Tj
+T*
+(  something worth answering." "Worth answering means patience, courtesy, cleverness,) Tj
+T*
+(  restraint, or honest vulnerability." Keep it whimsical. The puzzle should reveal who) Tj
+T*
+(  they are, not punish curiosity. agility finesse knowledge presence stress Mechanic) Tj
+T*
+(  takeaway This is a forgiving puzzle with real cost. "Call up, climb, or get clever.) Tj
+T*
+(  Nothing here kills you, but brute force gets politely bounced." "Cut the rope: 1) Tj
+T*
+(  Stress. Climb: Agility 13. Study the rig: Finesse or Knowledge 13. Call honestly:) Tj
+T*
+(  Presence if needed." Every outcome points forward to S04-03. The branch changes) Tj
+T*
+(  trust, not access. agility finesse knowledge presence stress) Tj
+T*
+(- Playerbeats: S04-02-home Hanging home Hanging Office Exterior) Tj
+T*
+(  assets/scenes/S04-02-the-hanging-office-exterior.png The Hanging Office Exterior) Tj
+T*
+(  scene art for The Hanging Office. A cabin hangs above you, balanced against a huge) Tj
+T*
+(  carved stone. No door waits at the ground. A cabin hangs above you, balanced against) Tj
+T*
+(  a huge carved stone. No door waits at the ground. A cabin hangs above you, balanced) Tj
+T*
+(  against a huge carved stone. No door waits at the ground. image-title-caption) Tj
+T*
+(  S04-02-options The options Getting her attention assets/scenes/S04-02-the-hanging-) Tj
+T*
+(  office-exterior.png The Hanging Office Exterior scene art for The Hanging Office.) Tj
+T*
+(  Call up, climb, study the counterweight, or try force. Each says something about who) Tj
+T*
+(  you are. Call up, climb, study the counterweight, or try force. Each says something) Tj
+T*
+(  about who you are. Call up, climb, study the counterweight, or try force. Each says) Tj
+T*
+(  something about who you are. text-first S04-02-emerges She emerges She emerges) Tj
+T*
+(  assets/scenes/S04-02-the-hanging-office-exterior.png The Hanging Office Exterior) Tj
+T*
+(  scene art for The Hanging Office. When the party shows patience, cleverness,) Tj
+T*
+(  courtesy, or restraint, the light moves and the home answers. When the party) Tj
+T*
+(  shows...) Tj
+T*
+(- Gmbeats: S04-02-home Hanging home Hanging Office Exterior Say: "No stairs. No ground) Tj
+T*
+(  door. Just a home, a rope, a boulder, and a light watching you.". A cabin hangs) Tj
+T*
+(  above you, balanced against a huge carved stone. No door waits at the ground. The) Tj
+T*
+(  home is a personality test before an entrance. Look, call, climb, or study before) Tj
+T*
+(  rolling. Players know the puzzle space. Player takeaway Players know the puzzle) Tj
+T*
+(  space. "No stairs. No ground door. Just a home, a rope, a boulder, and a light) Tj
+T*
+(  watching you." "The playable fact is: A cabin hangs above you, balanced against a) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 2510 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  huge carved stone. No door waits at the ground." Concrete actions for this beat:) Tj
+T*
+(  look closely, ask the Custodian a direct question, commit to a choice, or take one) Tj
+T*
+(  prep action. knowledge presence Story takeaway The home is a personality test before) Tj
+T*
+(  an entrance. "No stairs. No ground door. Just a home, a rope, a boulder, and a light) Tj
+T*
+(  watching you." "The story fact in play is: The home is a personality test before an) Tj
+T*
+(  entrance." This beat changes Act 4 through this exact pressure: The home is a) Tj
+T*
+(  personality test before an entrance. knowledge presence Mechanic takeaway Look,) Tj
+T*
+(  call, climb, or study before rolling. "No stairs. No...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 8000) Tj
+T*
+(- Playersafeprojection: S04-02 scene The Hanging Office Exterior) Tj
+T*
+(  assets/scenes/S04-02-the-hanging-office-exterior.png The Hanging Office Exterior) Tj
+T*
+(  scene art for The Hanging Office. The Hanging Office is absurd because the system is) Tj
+T*
+(  absurd; the people inside are not. The Hanging Office Get the Custodian's attention) Tj
+T*
+(  or reach her home. Up close, cabin undersells it. A home hangs from a braid of rope) Tj
+T*
+(  as thick as a giant's forearm, tied to a massive branch and counterweighted by a) Tj
+T*
+(  boulder the size of the cabin itself. The whole thing sways like overripe fruit) Tj
+T*
+(  ready to drop. The boulder is carved with symbols; the windows flash a soft yellow-) Tj
+T*
+(  green light. There is no obvious door at ground level. What do you do? S04-02-home) Tj
+T*
+(  Hanging home Hanging Office Exterior assets/scenes/S04-02-the-hanging-office-) Tj
+T*
+(  exterior.png The Hanging Office Exterior scene art for The Hanging Office. A cabin) Tj
+T*
+(  hangs above you, balanced against a huge carved stone. No door waits at the ground.) Tj
+T*
+(  A cabin hangs above you, balanced against a huge carved stone. No door waits at the) Tj
+T*
+(  ground. A cabin hangs above you, balanced against a huge carved stone. No door waits) Tj
+T*
+(  at the ground. image-title-caption S04-02-options The options Getting her) Tj
+T*
+(  attention...) Tj
+T*
+(- Companionmapids: MAP-LOC-the-hanging-office) Tj
+T*
+(- Slidenumber: 56) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 9dee5b811adba586 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R] /Count 5 >>
+endobj
+12 0 obj
+<< /Type /Catalog /Pages 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000009 00000 n 
+0000002752 00000 n 
+0000002880 00000 n 
+0000006981 00000 n 
+0000007109 00000 n 
+0000011207 00000 n 
+0000011335 00000 n 
+0000015693 00000 n 
+0000015821 00000 n 
+0000018383 00000 n 
+0000018512 00000 n 
+0000018595 00000 n 
+0000018646 00000 n 
+trailer
+<< /Size 14 /Root 12 0 R >>
+startxref
+18719
+%%EOF

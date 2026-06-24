@@ -1,0 +1,441 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2659 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-the-claravale-market - The Claravale Market Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(Claravale Market turns forest wonder into breakfast, tools, gossip, and pocket-sized) Tj
+T*
+(miracles: local stalls beside a few too-clean branded carts.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Claravale Market turns forest wonder into breakfast, tools, gossip, and pocket-sized) Tj
+T*
+(miracles: local stalls beside a few too-clean branded carts.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-the-claravale-market) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: ACT-THREE) Tj
+T*
+(- Sectiontitle: Act Three: Seeking a Custodian) Tj
+T*
+(- Title: The Claravale Market Location Map) Tj
+T*
+(- Shorttitle: Claravale Market) Tj
+T*
+(- Order: 402.24) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-the-claravale-market-gm.png) Tj
+T*
+(- Alt: The Claravale Market location map board.) Tj
+T*
+(- Caption: Visual reference for The Claravale Market.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Use the market for supplies, rumors, a festival boon, and a player-safe) Tj
+T*
+(  corporate/local seam.) Tj
+T*
+(- Publicobjective: Claravale Market turns forest wonder into breakfast, tools, gossip,) Tj
+T*
+(  and pocket-sized miracles: local stalls beside a few too-clean branded carts.) Tj
+T*
+(- Readaloud: Claravale Market turns forest wonder into breakfast, tools, gossip, and) Tj
+T*
+(  pocket-sized miracles: local stalls beside a few too-clean branded carts.) Tj
+T*
+(- Gmscript: Say: "The market is useful if they want a rumor, a small item, or a) Tj
+T*
+(  visible seam between local craft and imported corporate goods.") Tj
+T*
+(- Gmreadaloud: Breakfast, tools, gossip, and pocket-sized miracles. Local stalls) Tj
+T*
+(  beside a few too-clean branded carts.) Tj
+T*
+(- Gmchecklist: Offer one useful rumor. Offer a small market-find boon if earned. Keep) Tj
+T*
+(  corporate seam player-safe unless probed.) Tj
+T*
+(- Gmprivate: GM-only: corporate supply lines thread through Hush's ordinary life.) Tj
+T*
+(- Playertakeaway: Claravale Market turns forest wonder into breakfast, tools, gossip,) Tj
+T*
+(  and pocket-sized miracles: local stalls beside a few too-clean branded carts.) Tj
+T*
+(- Storytakeaway: The market shows how large systems become food, prices, remedies, and) Tj
+T*
+(  rumors.) Tj
+T*
+(- Mechanictakeaway: Presence haggles, Instinct sorts rumor, Knowledge recognizes) Tj
+T*
+(  branding; a success can set hush_clues or festival_boon.) Tj
+T*
+(- Entityids: the-claravale-market hexmart) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3998 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Entities: the-claravale-market The Claravale Market location Location) Tj
+T*
+(  assets/icons/location.png assets/location-visuals/the-claravale-) Tj
+T*
+(  market/profile_scene_v02.png the KLAIR-uh-vayl MAR-kit A warm market surface where) Tj
+T*
+(  the wonder of Sablewood becomes ordinary food, handmade craft, and gossip before it) Tj
+T*
+(  becomes corporate product. Make local commerce specific instead of generic town) Tj
+T*
+(  color. A warm market surface where the wonder of Sablewood becomes ordinary food,) Tj
+T*
+(  handmade craft, and gossip before it becomes corporate product.; introduce it with a) Tj
+T*
+(  sensory palette, who feels safe there, and what has been neglected. Pull player) Tj
+T*
+(  attention toward the choices, clues, and relationships tied to Hush, The Lucent) Tj
+T*
+(  River, Hazard-Indexed Pricing. A warm market surface where the wonder of Sablewood) Tj
+T*
+(  becomes ordinary food, handmade craft, and gossip before it becomes corporate) Tj
+T*
+(  product. hexmart Hexmart corporation Corporation / Company) Tj
+T*
+(  assets/icons/corporation.png assets/logos/hexmart.png HEKS-mart Hexmart? is a) Tj
+T*
+(  discount-magic supercenter where every fear has a matching trinket and nothing is) Tj
+T*
+(  built to outlast the receipt. Background corporation Retail/logistics corporate) Tj
+T*
+(  flavor that may appear on small branded...) Tj
+T*
+(- Locationids: the-claravale-market) Tj
+T*
+(- Statecontrols: festival_boon Festival Boon select none charm favor market_find) Tj
+T*
+(  goodwill hush_clues Hush Clues select none custodian_route ward_seed corporate_seam) Tj
+T*
+(  farm_seed market_rumor multiple ward_awareness Ward Awareness select none seed aware) Tj
+T*
+(- Mechanicids: presence instinct knowledge hope) Tj
+T*
+(- Fearspends: A vendor pulls down a route charm mid-sale. A rumor arrives with a name) Tj
+T*
+(  the party knows.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S03-02) Tj
+T*
+(- Mapdata: MAP-LOC-the-claravale-market environment The Claravale Market Location Map) Tj
+T*
+(  S03-02 the-claravale-market hexmart assets/location-visuals/the-claravale-) Tj
+T*
+(  market/profile_scene_v02.png Visual reference for The Claravale Market. The) Tj
+T*
+(  Claravale Market location map board. Claravale Market turns forest wonder into) Tj
+T*
+(  breakfast, tools, gossip, and pocket-sized miracles: local stalls beside a few too-) Tj
+T*
+(  clean branded carts. Claravale Market turns forest wonder into breakfast, tools,) Tj
+T*
+(  gossip, and pocket-sized miracles: local stalls beside a few too-clean branded) Tj
+T*
+(  carts. Use the market for supplies, rumors, a festival boon, and a player-safe) Tj
+T*
+(  corporate/local seam. Stalls crowd under green shade with mossfruit, repaired gear,) Tj
+T*
+(  and river-bright bottles. People trade news while pretending they are only trading) Tj
+T*
+(  goods. A few prices change when route rumors arrive. Village life stays audible:) Tj
+T*
+(  work sounds, lowered voices, doors, tools, and ward tones changing the room's) Tj
+T*
+(  confidence. Fried roots, river mint, wet canvas, lamp oil, and sweet fruit skins.) Tj
+T*
+(  Coins are sticky with syrup; market planks flex over damp ground. Let ordinary) Tj
+T*
+(  people, animals, chores, and hospitality react to the party so the place feels...) Tj
+T*
+(- Sourcefiles: dist/Act3_Upgrade_Packet/ACT3_MAPS_AND_LOCATIONS.md) Tj
+T*
+(- References: Festival #S03-04 Clover Co-op #MAP-LOC-clover-co-op) Tj
+T*
+(- Livetools: scene MAP-LOC-the-claravale-market) Tj
+T*
+(- Percharacterlayer: khari-nix Khari Nix Arm-wrestling contest Can dominate the arm-) Tj
+T*
+(  wrestling competition and likely earn the festival_boon. Khari, there is an arm-) Tj
+T*
+(  wrestling contest with your name on it. Want to win the town's heart? varian-soto) Tj
+T*
+(  Varian Soto Sunless Farms scent Notices the moss-crops are grown under managed,) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4242 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  sunless conditions rather than wild growth. Instinct 13 The farms are carefully) Tj
+T*
+(  managed infrastructure; seed the truth without naming the full system. Can point the) Tj
+T*
+(  party toward the farms as a clue source. Varian, those crops do not grow like wild) Tj
+T*
+(  things. Want to look closer? marlowe-fairwind Marlowe Fairwind Farm and ward) Tj
+T*
+(  signature Knowledge 13 The farm-magic and ward-work share a signature, as if the) Tj
+T*
+(  same system maintains both. Can connect festival joy to protection magic without) Tj
+T*
+(  revealing the full cost. Marlowe, the farm-magic and the ward feel like the same) Tj
+T*
+(  author. Want to trace the resemblance? garrick-reed Garrick Reed Organized) Tj
+T*
+(  volunteers Recognizes festival volunteers moving with company-style precision. Can) Tj
+T*
+(  identify who is coordinating the crowd if the party needs a contact. Garrick, this) Tj
+T*
+(  festival is organized company-style. Want to clock who is really running it?...) Tj
+T*
+(- Gmbeats: MAP-LOC-the-claravale-market-rumor Rumor Useful rumor Say: "One useful) Tj
+T*
+(  rumor is enough: route, ward, farm, or market supply." A market seller can give a) Tj
+T*
+(  route, ward worry, or farm clue. Commerce carries story clues.) Tj
+T*
+(  Presence/Instinct/Knowledge choose the route. Players can gather actionable info.) Tj
+T*
+(  Player takeaway Players can gather actionable info. "One useful rumor is enough:) Tj
+T*
+(  route, ward, farm, or market supply." "The playable fact is: A market seller can) Tj
+T*
+(  give a route, ward worry, or farm clue." Concrete actions for this beat: talk to a) Tj
+T*
+(  person present, inspect the named detail, help an ally, or choose whether to move) Tj
+T*
+(  toward the Custodian route. presence instinct knowledge Story takeaway Commerce) Tj
+T*
+(  carries story clues. "One useful rumor is enough: route, ward, farm, or market) Tj
+T*
+(  supply." "The story fact in play is: Commerce carries story clues." This beat) Tj
+T*
+(  changes Act 3 through this exact pressure: Commerce carries story clues. presence) Tj
+T*
+(  instinct knowledge Mechanic takeaway Presence/Instinct/Knowledge choose the route.) Tj
+T*
+(  "One useful rumor is enough: route, ward, farm, or market supply." "The active) Tj
+T*
+(  procedure is: Presence/Instinct/Knowledge choose the route." Run intent first, then) Tj
+T*
+(  choose...) Tj
+T*
+(- Takeawayhelp: Player takeaway The market gives supplies, rumors, and possible boon) Tj
+T*
+(  texture. "You can buy, trade, ask, browse, or look for one thing useful enough to) Tj
+T*
+(  carry forward." "A useful find can be the festival boon: charm, favor token, market) Tj
+T*
+(  find, or goodwill." Keep market use concise: one item, one rumor, one seam, then) Tj
+T*
+(  back to the route. presence instinct knowledge Story takeaway The market shows) Tj
+T*
+(  Hush's local life and outside supply dependence at the same time. "Most stalls feel) Tj
+T*
+(  handmade. A few feel imported, labeled, and too clean for the lane around them.") Tj
+T*
+(  "Player-safe fact: branded goods exist here. GM-only truth: those supply lines are) Tj
+T*
+(  part of the larger management web." This is a good place to seed without derailing) Tj
+T*
+(  the main objective. presence instinct knowledge Mechanic takeaway Presence,) Tj
+T*
+(  Instinct, and Knowledge each produce a different market result. "Presence 12 haggles) Tj
+T*
+(  or charms. Instinct 12 sorts rumor. Knowledge 12 recognizes supply branding.") Tj
+T*
+(  "Success can set festival_boon=market_find or hush_clues=market_rumor." Market) Tj
+T*
+(  mechanics should produce a portable payoff or a clear next direction. presence) Tj
+T*
+(  instinct knowledge) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-the-claravale-market.png Claravale Market map) Tj
+T*
+(  board. MAP-LOC-the-claravale-market environment Claravale Market S03-02) Tj
+T*
+(  assets/maps/MAP-LOC-the-claravale-market.png assets/maps/MAP-LOC-the-claravale-) Tj
+T*
+(  market.png Claravale Market map board. Claravale Market turns forest wonder into) Tj
+T*
+(  breakfast, tools, gossip, and pocket-sized miracles: local stalls beside a few too-) Tj
+T*
+(  clean branded carts. Claravale Market turns forest wonder into breakfast, tools,) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 2544 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  gossip, and pocket-sized miracles: local stalls beside a few too-clean branded) Tj
+T*
+(  carts. MAP-LOC-the-claravale-market-map-only Map only Claravale Market map-only) Tj
+T*
+(  assets/maps/MAP-LOC-the-claravale-market.png Claravale Market map board. MAP-LOC-) Tj
+T*
+(  the-claravale-market environment Claravale Market S03-02 assets/maps/MAP-LOC-the-) Tj
+T*
+(  claravale-market.png assets/maps/MAP-LOC-the-claravale-market.png Claravale Market) Tj
+T*
+(  map board. Claravale Market turns forest wonder into breakfast, tools, gossip, and) Tj
+T*
+(  pocket-sized miracles: local stalls beside a few too-clean branded carts. Claravale) Tj
+T*
+(  Market turns forest wonder into breakfast, tools, gossip, and pocket-sized miracles:) Tj
+T*
+(  local stalls beside a few too-clean branded carts...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-the-claravale-market map Claravale Market) Tj
+T*
+(  assets/maps/MAP-LOC-the-claravale-market.png Claravale Market map board. spatial) Tj
+T*
+(  reference and location texture Claravale Market turns forest wonder into breakfast,) Tj
+T*
+(  tools, gossip, and pocket-sized miracles: local stalls beside a few too-clean) Tj
+T*
+(  branded carts. Claravale Market turns forest wonder into breakfast, tools, gossip,) Tj
+T*
+(  and pocket-sized miracles: local stalls beside a few too-clean branded carts. MAP-) Tj
+T*
+(  LOC-the-claravale-market environment Claravale Market S03-02 assets/maps/MAP-LOC-) Tj
+T*
+(  the-claravale-market.png assets/maps/MAP-LOC-the-claravale-market.png Claravale) Tj
+T*
+(  Market map board. Claravale Market turns forest wonder into breakfast, tools,) Tj
+T*
+(  gossip, and pocket-sized miracles: local stalls beside a few too-clean branded) Tj
+T*
+(  carts. Claravale Market turns forest wonder into breakfast, tools, gossip, and) Tj
+T*
+(  pocket-sized miracles: local stalls beside a few too-clean branded carts.) Tj
+T*
+(  assets/maps/MAP-LOC-the-claravale-market.png Claravale Market map board. MAP-LOC-) Tj
+T*
+(  the-claravale-market environment Claravale Market S03-02 assets/maps/MAP-LOC-the-) Tj
+T*
+(  claravale-market.png assets/maps/MAP-LOC-the-claravale-market.png Claravale Market) Tj
+T*
+(  map board. Claravale...) Tj
+T*
+(- Slidenumber: 49) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 1500068745a6c934 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R] /Count 4 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000002720 00000 n 
+0000002847 00000 n 
+0000006897 00000 n 
+0000007024 00000 n 
+0000011318 00000 n 
+0000011445 00000 n 
+0000014041 00000 n 
+0000014168 00000 n 
+0000014243 00000 n 
+0000014293 00000 n 
+trailer
+<< /Size 12 /Root 10 0 R >>
+startxref
+14366
+%%EOF

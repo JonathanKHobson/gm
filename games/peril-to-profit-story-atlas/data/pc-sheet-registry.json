@@ -1,0 +1,241 @@
+{
+  "source_pdf": "Quickstart-Adventure-5-20-2025.pdf",
+  "public_note": "Private/local quickstart packet links. Do not publish restricted character packet PDFs publicly unless license-safe.",
+  "pcs": [
+    {
+      "id": "marlowe-fairwind",
+      "name": "Marlowe Fairwind",
+      "packet_pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "sheet_page": 3,
+      "guide_page": 4,
+      "cards_page": 5,
+      "subclass": "Primal Origin",
+      "traits": {
+        "Strength": "0",
+        "Agility": "-1",
+        "Finesse": "+1",
+        "Instinct": "+2",
+        "Knowledge": "+1",
+        "Presence": "0"
+      },
+      "evasion": "10",
+      "damage_thresholds": "7 / 14",
+      "armor_score": "3",
+      "armor_slots": "3",
+      "armor": "Leather Armor",
+      "armor_base": "6 / 13",
+      "hp_slots": 6,
+      "stress_slots": 6,
+      "hp": "6 slots",
+      "stress": "6 slots",
+      "experiences": [
+        "Royal Mage +2",
+        "Not On My Watch +2"
+      ],
+      "primary_weapon": "Dualstaff, Instinct Far, 1d6+3 magic",
+      "secondary_weapon": "None listed on sheet",
+      "inventory": [
+        "Minor Stamina Potion (clear 1d4 stress)"
+      ],
+      "key_feature": "Arcane Sense; Minor Illusion; Channel Raw Power.",
+      "hope_feature": "Volatile Magic: spend 3 Hope to reroll damage dice on a magic attack.",
+      "role": "Playable Loreborne Elf Sorcerer pregen and default package custodian; receives the job with the crew and gets the job-scene bonus insight/extra Arcana check.",
+      "source_notes": [
+        "Sorcerer starts with 6 HP. All classes start with 6 Stress. Quickstart sheet page 3 visually confirms the active tracks."
+      ]
+    },
+    {
+      "id": "barnacle",
+      "name": "Barnacle",
+      "packet_pages": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "sheet_page": 7,
+      "guide_page": 8,
+      "cards_page": 9,
+      "subclass": "Nightwalker",
+      "traits": {
+        "Strength": "+1",
+        "Agility": "-1",
+        "Finesse": "+2",
+        "Instinct": "0",
+        "Knowledge": "+1",
+        "Presence": "0"
+      },
+      "evasion": "13",
+      "damage_thresholds": "6 / 12",
+      "armor_score": "3",
+      "armor_slots": "3",
+      "armor": "Gambeson Armor",
+      "armor_base": "5 / 11",
+      "hp_slots": 6,
+      "stress_slots": 6,
+      "hp": "6 slots",
+      "stress": "6 slots",
+      "experiences": [
+        "They Don't See Me Coming! +2",
+        "Strike a Deal +2"
+      ],
+      "primary_weapon": "Dagger, Finesse Melee, 1d8+1 physical",
+      "secondary_weapon": "None listed on sheet",
+      "inventory": [
+        "Minor Stamina Potion (clear 1d4 stress)"
+      ],
+      "key_feature": "Cloaked; Sneak Attack.",
+      "hope_feature": "Rogue's Dodge: spend 3 Hope to gain +2 Evasion until next successful hit or rest.",
+      "role": "Scout, trouble-finder, and angle-reader.",
+      "source_notes": [
+        "Rogue starts with 6 HP. All classes start with 6 Stress. Quickstart sheet page 7 visually confirms the active tracks."
+      ]
+    },
+    {
+      "id": "garrick-reed",
+      "name": "Garrick Reed",
+      "packet_pages": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "sheet_page": 11,
+      "guide_page": 12,
+      "cards_page": 13,
+      "subclass": "Call of the Brave",
+      "traits": {
+        "Strength": "+2",
+        "Agility": "+1",
+        "Finesse": "+1",
+        "Instinct": "0",
+        "Knowledge": "-1",
+        "Presence": "0"
+      },
+      "evasion": "11",
+      "damage_thresholds": "7 / 14",
+      "armor_score": "3",
+      "armor_slots": "3",
+      "armor": "Leather Armor",
+      "armor_base": "6 / 13",
+      "hp_slots": 6,
+      "stress_slots": 7,
+      "hp": "6 slots",
+      "stress": "7 slots",
+      "experiences": [
+        "Affable +2",
+        "Hit Them Hard +2"
+      ],
+      "primary_weapon": "Longsword, Agility Melee, 1d8+3 physical",
+      "secondary_weapon": "None listed on sheet",
+      "inventory": [
+        "Minor Health Potion (clear 1d4 Hit Points)"
+      ],
+      "key_feature": "Attack of Opportunity; Combat Training.",
+      "hope_feature": "No Mercy: spend 3 Hope to gain +1 attack rolls until next rest.",
+      "role": "Disciplined protector and practical combat anchor.",
+      "source_notes": [
+        "Warrior starts with 6 HP. Highborne High Stamina grants an additional Stress slot at character creation, for 7 Stress total. Quickstart sheet page 11 visually confirms the active tracks."
+      ]
+    },
+    {
+      "id": "khari-nix",
+      "name": "Khari Nix",
+      "packet_pages": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "sheet_page": 15,
+      "guide_page": 16,
+      "cards_page": 17,
+      "subclass": "Stalwart",
+      "traits": {
+        "Strength": "0",
+        "Agility": "+2",
+        "Finesse": "-1",
+        "Instinct": "+1",
+        "Knowledge": "0",
+        "Presence": "+1"
+      },
+      "evasion": "8",
+      "damage_thresholds": "9 / 17",
+      "armor_score": "4",
+      "armor_slots": "4",
+      "armor": "Chainmail Armor",
+      "armor_base": "7 / 15",
+      "hp_slots": 8,
+      "stress_slots": 6,
+      "hp": "8 slots",
+      "stress": "6 slots",
+      "experiences": [
+        "I've Got Your Back +2",
+        "Not Afraid of Anything +2"
+      ],
+      "primary_weapon": "Battleaxe, Strength Very Close, 1d10+3 physical",
+      "secondary_weapon": "None listed on sheet",
+      "inventory": [
+        "Minor Health Potion (clear 1d4 Hit Points)"
+      ],
+      "key_feature": "Unstoppable.",
+      "hope_feature": "Frontline Tank: spend 3 Hope to clear 2 Armor Slots.",
+      "role": "Front-line shield and emotional backbone.",
+      "source_notes": [
+        "Guardian starts with 7 HP. Giant Endurance grants an additional HP slot at character creation, for 8 HP total. All classes start with 6 Stress. Quickstart sheet page 15 visually confirms the active tracks."
+      ]
+    },
+    {
+      "id": "varian-soto",
+      "name": "Varian Soto",
+      "packet_pages": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "sheet_page": 19,
+      "guide_page": 20,
+      "cards_page": 21,
+      "subclass": "Wayfinder",
+      "traits": {
+        "Strength": "+2",
+        "Agility": "0",
+        "Finesse": "+1",
+        "Instinct": "+1",
+        "Knowledge": "-1",
+        "Presence": "0"
+      },
+      "evasion": "13",
+      "damage_thresholds": "7 / 14",
+      "armor_score": "3",
+      "armor_slots": "3",
+      "armor": "Leather Armor",
+      "armor_base": "6 / 13",
+      "hp_slots": 6,
+      "stress_slots": 6,
+      "hp": "6 slots",
+      "stress": "6 slots",
+      "experiences": [
+        "Deadly Aim +2",
+        "Nature's Friend +2"
+      ],
+      "primary_weapon": "Shortbow, Agility Far, 1d6+3 physical",
+      "secondary_weapon": "None listed on sheet",
+      "inventory": [
+        "Minor Stamina Potion (clear 1d4 stress)"
+      ],
+      "key_feature": "Ranger's Focus.",
+      "hope_feature": "Hold Them Off: spend 3 Hope after a weapon hit to apply the same roll to two additional adversaries in range.",
+      "role": "Sharp-eyed tracker and ranged pressure reader.",
+      "source_notes": [
+        "Ranger starts with 6 HP. All classes start with 6 Stress. Quickstart sheet page 19 visually confirms the active tracks."
+      ]
+    }
+  ]
+}

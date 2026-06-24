@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "cat-squirrels",
+  "kind": "entity",
+  "title": "Cat-Squirrels",
+  "in_world_label": "Field Guide Page",
+  "brand_flag": "Player-safe",
+  "kicker": "Creature / Animal",
+  "hook": "Player-safe note: Bright little cat-squirrel hybrids leap limb to limb, chattering at route signs and knocking dew from leaves before larger creatures arrive.",
+  "blocks": [
+    {
+      "label": "Observed Form",
+      "body": "Give one concrete visual, one sound or texture, and one sign of who has used or neglected it."
+    },
+    {
+      "label": "Behavior",
+      "body": "Bright little cat-squirrel hybrids leap limb to limb, chattering at route signs and knocking dew from leaves before larger creatures arrive.; show instinct first through distance, posture, scent, and how the creature protects what is..."
+    },
+    {
+      "label": "Warning Signs",
+      "body": "Being surrounded, misread as a monster, or driven toward Sablewood™ Logistics Preserve, Sablewood Route Network, Old Sable Canopy Road by noise and haste."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Give it distance before deciding it is hostile.",
+    "Read posture, tracks, and what it is protecting."
+  ],
+  "archetype": "creature.field_guide",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:cat-squirrels",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "d48fed04f623747f",
+  "generated_at": "2026-06-23T21:40:58"
+}

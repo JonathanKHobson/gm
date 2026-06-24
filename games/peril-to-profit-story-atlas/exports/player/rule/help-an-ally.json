@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "help-an-ally",
+  "kind": "rule",
+  "title": "Help an Ally",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "teamwork",
+  "hook": "Spend Hope to add an advantage die to another PC's roll.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Spend Hope to add an advantage die to another PC's roll."
+    },
+    {
+      "label": "How It Works",
+      "body": "Help an Ally: Spend Hope to add an advantage die to another PC's roll."
+    },
+    {
+      "label": "Try It",
+      "body": "Can I help?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use when the helper can describe real help in the fiction.",
+    "Spend Hope, describe the help, and add the help die.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:help-an-ally",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "4807d703793d279e",
+  "generated_at": "2026-06-23T21:40:58"
+}

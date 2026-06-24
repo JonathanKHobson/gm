@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "report-choice",
+  "kind": "rule",
+  "title": "Report Choice",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "mechanic",
+  "hook": "The final values decision about what truth leaves the table and what gets recorded.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "The final values decision about what truth leaves the table and what gets recorded."
+    },
+    {
+      "label": "How It Works",
+      "body": "Report Choice: The final values decision about what truth leaves the table and what gets recorded."
+    },
+    {
+      "label": "Try It",
+      "body": "What does our report do?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use when resolving file-honest, spin-corporate, refuse, or withhold-the-truth branches.",
+    "It decides what truth goes on record, who is protected by silence, and what pressure follows the party.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:report-choice",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "2a86ec363c2ae7b0",
+  "generated_at": "2026-06-23T21:40:58"
+}

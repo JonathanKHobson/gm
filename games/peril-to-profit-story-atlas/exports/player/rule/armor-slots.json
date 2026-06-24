@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "armor-slots",
+  "kind": "rule",
+  "title": "Armor Slots",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "combat",
+  "hook": "Mark a slot to reduce incoming damage severity by one threshold.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Mark a slot to reduce incoming damage severity by one threshold."
+    },
+    {
+      "label": "How It Works",
+      "body": "Armor Slots: Mark a slot to reduce incoming damage severity by one threshold."
+    },
+    {
+      "label": "Try It",
+      "body": "What does Armor do?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use after a hit and before marking HP when armor can help.",
+    "It can reduce the severity of a hit.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:armor-slots",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "b7112cf2f844697f",
+  "generated_at": "2026-06-23T21:40:58"
+}

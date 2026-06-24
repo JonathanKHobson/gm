@@ -1,0 +1,385 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2482 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-athervast - Athervast Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(This distant capital reference is not part of the player route today.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(This distant capital reference is not part of the player route today.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-athervast) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: ACT-FOUR) Tj
+T*
+(- Sectiontitle: Act Four: The Hanging Office) Tj
+T*
+(- Title: Athervast Location Map) Tj
+T*
+(- Shorttitle: Distant Capital Reference) Tj
+T*
+(- Order: 850.3) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-athervast-gm.png) Tj
+T*
+(- Alt: Athervast location map board.) Tj
+T*
+(- Caption: Visual reference for Athervast.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Keep this inactive unless a later campaign needs distant capital context.) Tj
+T*
+(- Publicobjective: This distant capital reference is not part of the player route) Tj
+T*
+(  today.) Tj
+T*
+(- Readaloud: This distant capital reference is not part of the player route today.) Tj
+T*
+(- Gmscript: Say: "Athervast exists, but the table does not travel there in this one-) Tj
+T*
+(  shot.") Tj
+T*
+(- Gmreadaloud: Athervast is a distant world reference, not an active player route.) Tj
+T*
+(- Gmchecklist: Do not show to players as a route. Do not wire as a walkable Act 4) Tj
+T*
+(  node. Use only as distant context if a player asks about the wider region.) Tj
+T*
+(- Gmprivate: Athervast is the faraway grand capital where elite comfort is insulated) Tj
+T*
+(  from outer-route danger.) Tj
+T*
+(- Playertakeaway: This distant capital reference is not part of the player route) Tj
+T*
+(  today.) Tj
+T*
+(- Storytakeaway: Athervast is distant world context, while the playable pressure) Tj
+T*
+(  remains Hush, Open Vale, and the road.) Tj
+T*
+(- Mechanictakeaway: Canon-lock discipline is the mechanic: keep this off the player) Tj
+T*
+(  route and use Open Vale as the real forward edge.) Tj
+T*
+(- Entityids: athervast) Tj
+T*
+(- Entities: athervast Athervast location Location assets/icons/location.png) Tj
+T*
+(  assets/location-visuals/athervast/profile_scene_v02.png A-thur-vast A city like a) Tj
+T*
+(  coiled crown, where gold-capped towers rise from the center and the rings spiral) Tj
+T*
+(  outward, lower and louder, until the gleam becomes rumor. Use Athervast as faraway) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3998 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  elite-center context, not an active one-shot destination and not a Keystone source.) Tj
+T*
+(  It is marketed as safe because the cost of safety is pushed outward. A dazzling) Tj
+T*
+(  spiral metropolis of gold-capped towers, sky-illusion entertainment rings, potion) Tj
+T*
+(  manufactories, elite comfort, and lower-ring labor.; introduce it with a sensory) Tj
+T*
+(  palette, who feels safe there, and what has been neglected. Pull player attention) Tj
+T*
+(  toward the choices, clues, and relationships tied to Goldspire Territories, The) Tj
+T*
+(  Board of Directors, Emeris. A dazzling spiral metropolis of gold-capped towers, sky-) Tj
+T*
+(  illusion entertainment rings, potion manufactories, elite comfort, and lower-ring) Tj
+T*
+(  labor.) Tj
+T*
+(- Locationids: athervast) Tj
+T*
+(- Mechanicids: table-spotlight) Tj
+T*
+(- Fearspends: A hundred-foot smiling mascot drifts above tired workers. A public) Tj
+T*
+(  promise of safety sounds expensive before it sounds kind.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S04-05) Tj
+T*
+(- Mapdata: MAP-LOC-athervast environment Athervast Location Map S04-05 athervast) Tj
+T*
+(  assets/location-visuals/athervast/profile_scene_v02.png Visual reference for) Tj
+T*
+(  Athervast. Athervast location map board. This distant capital reference is not part) Tj
+T*
+(  of the player route today. This distant capital reference is not part of the player) Tj
+T*
+(  route today. Keep this inactive unless a later campaign needs distant capital) Tj
+T*
+(  context. The center rises in pale towers capped with gold. Circular districts spiral) Tj
+T*
+(  outward: elite terraces, entertainment rings, potion manufactories, worker markets,) Tj
+T*
+(  and bridge bazaars. Corporate safety is a civic costume here. Distant beacon-pulses,) Tj
+T*
+(  stone vibration, notices snapping in wind, and a low hum that arrives late. Citrus) Tj
+T*
+(  perfume, cold stone, sugar, mint, copper, and potion steam. Gold streets feel) Tj
+T*
+(  polished and cool; workring stones feel hot from vats and tired feet. People or) Tj
+T*
+(  animals orient toward the signal for a breath, then pretend it is normal. The center) Tj
+T*
+(  rises in pale towers capped with gold. Circular districts spiral outward: elite) Tj
+T*
+(  terraces, entertainment rings, potion manufactories, worker markets, and bridge) Tj
+T*
+(  bazaars. Corporate safety is a civic costume here. The outer...) Tj
+T*
+(- Sourcefiles: dist/Act4_Upgrade_Packet/ACT4_MAPS_AND_LOCATIONS.md) Tj
+T*
+(  dist/Act4_Upgrade_Packet/ACT4_OPEN_QUESTIONS.md) Tj
+T*
+(- References: Open Questions sources/Act4_Upgrade_Packet/ACT4_OPEN_QUESTIONS.md) Tj
+T*
+(- Livetools: scene MAP-LOC-athervast) Tj
+T*
+(- Gmbeats: MAP-LOC-athervast-inactive Inactive Distant capital reference Say: "Keep it) Tj
+T*
+(  inactive." This reference is not for player display as an active route. Canon stays) Tj
+T*
+(  clear: Athervast is faraway context. The mechanic is route discipline. Players do) Tj
+T*
+(  not see this as an active location. Player takeaway Players do not see this as an) Tj
+T*
+(  active location. "Keep it inactive." "The playable fact is: This reference is not) Tj
+T*
+(  for player display as an active route." Concrete actions for this beat: look) Tj
+T*
+(  closely, ask the Custodian a direct question, commit to a choice, or take one prep) Tj
+T*
+(  action. table-spotlight Story takeaway Canon stays clear: Athervast is faraway) Tj
+T*
+(  context. "Keep it inactive." "The story fact in play is: Canon stays clear:) Tj
+T*
+(  Athervast is faraway context." This beat changes Act 4 through this exact pressure:) Tj
+T*
+(  Canon stays clear: Athervast is faraway context. table-spotlight Mechanic takeaway) Tj
+T*
+(  The mechanic is route discipline. "Keep it inactive." "The active procedure is: The) Tj
+T*
+(  mechanic is route discipline." Run intent first. Use Presence for trust, Knowledge) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4068 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  for ward or stone truths, Instinct for preserve danger, and Agility or Finesse for) Tj
+T*
+(  the hanging-home puzzle. table-spotlight) Tj
+T*
+(- Takeawayhelp: Player takeaway Athervast is inactive in this one-shot. "Athervast) Tj
+T*
+(  exists, but the story path does not go there today." "Use Open Vale as the active) Tj
+T*
+(  forward edge. Athervast has no table route in Act 4." This preserves route clarity) Tj
+T*
+(  and keeps the distant capital from stealing focus. table-spotlight Story takeaway) Tj
+T*
+(  This is not active Act 4 play content. "The story path stays with Hush, Open Vale,) Tj
+T*
+(  and the ward lines." "If a player asks about the wider capital, answer briefly: it) Tj
+T*
+(  is far away, wealthy, safe by reputation, and not reachable today." Do not turn a) Tj
+T*
+(  lore question into a detour. table-spotlight Mechanic takeaway The mechanic is route) Tj
+T*
+(  discipline. "This is world context, not a scene button." "Use MAP-LOC-open-vale-) Tj
+T*
+(  ward-lines as the real Act 5 bridge; this reference stays inactive." This map exists) Tj
+T*
+(  so the atlas knows the place without inviting the table to travel there. table-) Tj
+T*
+(  spotlight) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-athervast.png Distant Capital Reference map board.) Tj
+T*
+(  MAP-LOC-athervast environment Distant Capital Reference S04-05 assets/maps/MAP-LOC-) Tj
+T*
+(  athervast.png assets/maps/MAP-LOC-athervast.png Distant Capital Reference map board.) Tj
+T*
+(  This distant capital reference is not part of the player route today. This distant) Tj
+T*
+(  capital reference is not part of the player route today. MAP-LOC-athervast-map-only) Tj
+T*
+(  Map only Distant Capital Reference map-only assets/maps/MAP-LOC-athervast.png) Tj
+T*
+(  Distant Capital Reference map board. MAP-LOC-athervast environment Distant Capital) Tj
+T*
+(  Reference S04-05 assets/maps/MAP-LOC-athervast.png assets/maps/MAP-LOC-athervast.png) Tj
+T*
+(  Distant Capital Reference map board. This distant capital reference is not part of) Tj
+T*
+(  the player route today. This distant capital reference is not part of the player) Tj
+T*
+(  route today. MAP-LOC-athervast-map-text Map + text Distant Capital Reference This) Tj
+T*
+(  distant capital reference is not part of the player route today. This distant) Tj
+T*
+(  capital reference is not part of the player route today. map-text MAP-LOC-athervast-) Tj
+T*
+(  text-only Text only Distant Capital Reference This distant capital reference is not) Tj
+T*
+(  part of the player route today. This distant capital...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-athervast map Distant Capital Reference) Tj
+T*
+(  assets/maps/MAP-LOC-athervast.png Distant Capital Reference map board. spatial) Tj
+T*
+(  reference and location texture This distant capital reference is not part of the) Tj
+T*
+(  player route today. This distant capital reference is not part of the player route) Tj
+T*
+(  today. MAP-LOC-athervast environment Distant Capital Reference S04-05) Tj
+T*
+(  assets/maps/MAP-LOC-athervast.png assets/maps/MAP-LOC-athervast.png Distant Capital) Tj
+T*
+(  Reference map board. This distant capital reference is not part of the player route) Tj
+T*
+(  today. This distant capital reference is not part of the player route today.) Tj
+T*
+(  assets/maps/MAP-LOC-athervast.png Distant Capital Reference map board. MAP-LOC-) Tj
+T*
+(  athervast environment Distant Capital Reference S04-05 assets/maps/MAP-LOC-) Tj
+T*
+(  athervast.png assets/maps/MAP-LOC-athervast.png Distant Capital Reference map board.) Tj
+T*
+(  This distant capital reference is not part of the player route today. This distant) Tj
+T*
+(  capital reference is not part of the player route today. MAP-LOC-athervast-map-only) Tj
+T*
+(  Map only Distant Capital Reference map-only assets/maps/MAP-LOC-athervast.png) Tj
+T*
+(  Distant Capital Reference map board. MAP-LOC-athervast environment Distant Capital) Tj
+T*
+(  Reference S04-05...) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 245 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Slidenumber: 84) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash d1254ef105dc5267 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R] /Count 4 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000002543 00000 n 
+0000002670 00000 n 
+0000006720 00000 n 
+0000006847 00000 n 
+0000010967 00000 n 
+0000011094 00000 n 
+0000011390 00000 n 
+0000011517 00000 n 
+0000011592 00000 n 
+0000011642 00000 n 
+trailer
+<< /Size 12 /Root 10 0 R >>
+startxref
+11715
+%%EOF

@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "wicket",
+  "kind": "entity",
+  "title": "Wicket",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "a Hexmart pocket-ward vendor with too many charm strings",
+  "hook": "a Hexmart pocket-ward vendor with too many charm strings",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "A beaming halfling peddler presents a tray of blue charms, brass rings, and useless-but-beautiful pocket wards with both hands and all their hope."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "All flourish and warmth on top, frantic arithmetic underneath. Compliments you, then names the price, then the problem, in that order, every time. He believes the pitch because the alternative is unbearable."
+    },
+    {
+      "label": "Might Offer",
+      "body": "A way forward A grounded question A scene-specific clue seed"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "A way forward",
+    "A grounded question",
+    "A scene-specific clue seed"
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:wicket",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "f8e73e194df28121",
+  "generated_at": "2026-06-23T21:40:58"
+}

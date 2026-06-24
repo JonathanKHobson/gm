@@ -1,0 +1,318 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2586 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-moonglow - Moonglow Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(Soft blue glow from Lucent Water that keeps shining when carried away, making time,) Tj
+T*
+(navigation, and counterfeit wellness markets possible.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Soft blue glow from Lucent Water that keeps shining when carried away, making time,) Tj
+T*
+(navigation, and counterfeit wellness markets possible.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-moonglow) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: ACT-FIVE) Tj
+T*
+(- Sectiontitle: Act Five: The Ward Renewal) Tj
+T*
+(- Title: Moonglow Location Map) Tj
+T*
+(- Shorttitle: Moonglow) Tj
+T*
+(- Order: 603.08) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-moonglow-gm.png) Tj
+T*
+(- Alt: Moonglow location map board.) Tj
+T*
+(- Caption: Visual reference for Moonglow.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Use this environment board to orient space, table questions, and safe) Tj
+T*
+(  reveals.) Tj
+T*
+(- Publicobjective: Soft blue glow from Lucent Water that keeps shining when carried) Tj
+T*
+(  away, making time, navigation, and counterfeit wellness markets possible.) Tj
+T*
+(- Readaloud: Soft blue glow from Lucent Water that keeps shining when carried away,) Tj
+T*
+(  making time, navigation, and counterfeit wellness markets possible.) Tj
+T*
+(- Playertakeaway: Soft blue glow from Lucent Water that keeps shining when carried) Tj
+T*
+(  away, making time, navigation, and counterfeit wellness markets possible.) Tj
+T*
+(- Storytakeaway: Visual reference for Moonglow.) Tj
+T*
+(- Mechanictakeaway: Use the map as visual reference unless the scene is explicitly in) Tj
+T*
+(  combat.) Tj
+T*
+(- Entityids: moonglow) Tj
+T*
+(- Entities: moonglow Moonglow location Location assets/icons/location.png) Tj
+T*
+(  assets/location-visuals/moonglow/profile_scene_v02.png MOON-gloh Soft blue glow from) Tj
+T*
+(  Lucent Water that keeps shining when carried away, making time, navigation, and) Tj
+T*
+(  counterfeit wellness markets possible. Lucent River navigation and resource effect) Tj
+T*
+(  Soft blue glow from Lucent Water that keeps shining when carried away, making time,) Tj
+T*
+(  navigation, and counterfeit wellness markets possible.; introduce it with a sensory) Tj
+T*
+(  palette, who feels safe there, and what has been neglected. Pull player attention) Tj
+T*
+(  toward the choices, clues, and relationships tied to The Lucent River, Hexmart,) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4174 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Root's Hollow. Soft blue glow from Lucent Water that keeps shining when carried) Tj
+T*
+(  away, making time, navigation, and counterfeit wellness markets possible.) Tj
+T*
+(- Locationids: moonglow) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S05-03) Tj
+T*
+(- Mapdata: MAP-LOC-moonglow environment Moonglow Location Map S05-03 moonglow) Tj
+T*
+(  assets/location-visuals/moonglow/profile_scene_v02.png Visual reference for) Tj
+T*
+(  Moonglow. Moonglow location map board. Soft blue glow from Lucent Water that keeps) Tj
+T*
+(  shining when carried away, making time, navigation, and counterfeit wellness markets) Tj
+T*
+(  possible. Visual reference for Moonglow. Leaf-drip, insects, distant wingbeats, and) Tj
+T*
+(  animal calls that stop or resume according to pressure, not comfort. Rain on leaves,) Tj
+T*
+(  sap, mushroom loam, wet bark, and the musk of unseen animals. Bark is damp and) Tj
+T*
+(  ridged; mud alternates between springy moss and slick clay. The forest is populated) Tj
+T*
+(  even when no NPC is present; silence, birds, insects, and tracks are actionable) Tj
+T*
+(  signals. Sight Visual reference for Moonglow. Sound Leaf-drip, insects, distant) Tj
+T*
+(  wingbeats, and animal calls that stop or resume according to pressure, not comfort.) Tj
+T*
+(  Smell Rain on leaves, sap, mushroom loam, wet bark, and the musk of unseen animals.) Tj
+T*
+(  Texture / air Bark is damp and ridged; mud alternates between springy moss and slick) Tj
+T*
+(  clay. Background life The forest is populated even when no NPC is present; silence,) Tj
+T*
+(  birds, insects, and tracks are actionable signals...) Tj
+T*
+(- Livetools: scene MAP-LOC-moonglow) Tj
+T*
+(- Takeawayhelp: Player takeaway: MAP-LOC-moonglow Soft blue glow from Lucent Water) Tj
+T*
+(  that keeps shining when carried away, making time, navigation, and counterfeit) Tj
+T*
+(  wellness markets possible. Give the player one concrete way back into play: a) Tj
+T*
+(  question, a description, a choice, or a pass-and-return moment. "Your takeaway right) Tj
+T*
+(  now is this: Soft blue glow from Lucent Water that keeps shining when carried away,) Tj
+T*
+(  making time, navigation, and counterfeit wellness markets possible." "If you are not) Tj
+T*
+(  sure what to do next, you can ask a question, describe what your character notices,) Tj
+T*
+(  or tell me what your character tries." "If you are not sure what to do next, you can) Tj
+T*
+(  ask a question, describe what your character notices, or tell me what your character) Tj
+T*
+(  tries." Give the player one concrete way back into play: a question, a description,) Tj
+T*
+(  a choice, or a pass-and-return moment. Story takeaway: MAP-LOC-moonglow Visual) Tj
+T*
+(  reference for Moonglow. Anchor the answer in the visible fiction on this slide: who) Tj
+T*
+(  is present, what can be observed, what has already been said, and what remains) Tj
+T*
+(  uncertain. "Here is what your characters know right now: Visual reference for) Tj
+T*
+(  Moonglow." "If you want more detail, ask it in the scene. I...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-moonglow-player.png Moonglow location map board.) Tj
+T*
+(  MAP-LOC-moonglow environment Moonglow S05-03 assets/maps/MAP-LOC-moonglow-player.png) Tj
+T*
+(  assets/maps/MAP-LOC-moonglow-player.png Visual reference for Moonglow. Moonglow) Tj
+T*
+(  location map board. Soft blue glow from Lucent Water that keeps shining when carried) Tj
+T*
+(  away, making time, navigation, and counterfeit wellness markets possible. MAP-LOC-) Tj
+T*
+(  moonglow-map-only Map only Moonglow map-only assets/maps/MAP-LOC-moonglow-player.png) Tj
+T*
+(  Moonglow location map board. MAP-LOC-moonglow environment Moonglow S05-03) Tj
+T*
+(  assets/maps/MAP-LOC-moonglow-player.png assets/maps/MAP-LOC-moonglow-player.png) Tj
+T*
+(  Visual reference for Moonglow. Moonglow location map board. Soft blue glow from) Tj
+T*
+(  Lucent Water that keeps shining when carried away, making time, navigation, and) Tj
+T*
+(  counterfeit wellness markets possible. MAP-LOC-moonglow-map-text Map + text Moonglow) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2093 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Soft blue glow from Lucent Water that keeps shining when carried away, making time,) Tj
+T*
+(  navigation, and counterfeit wellness markets possible. Soft blue glow from Lucent) Tj
+T*
+(  Water that keeps shining when carried away, making time, navigation, and counterfeit) Tj
+T*
+(  wellness markets possible. map-text MAP-LOC-moonglow-text-only...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-moonglow map Moonglow assets/maps/MAP-LOC-moonglow-) Tj
+T*
+(  player.png Moonglow location map board. Visual reference for Moonglow. spatial) Tj
+T*
+(  reference and location texture Soft blue glow from Lucent Water that keeps shining) Tj
+T*
+(  when carried away, making time, navigation, and counterfeit wellness markets) Tj
+T*
+(  possible. Soft blue glow from Lucent Water that keeps shining when carried away,) Tj
+T*
+(  making time, navigation, and counterfeit wellness markets possible. MAP-LOC-moonglow) Tj
+T*
+(  environment Moonglow S05-03 assets/maps/MAP-LOC-moonglow-player.png assets/maps/MAP-) Tj
+T*
+(  LOC-moonglow-player.png Visual reference for Moonglow. Moonglow location map board.) Tj
+T*
+(  Soft blue glow from Lucent Water that keeps shining when carried away, making time,) Tj
+T*
+(  navigation, and counterfeit wellness markets possible. assets/maps/MAP-LOC-moonglow-) Tj
+T*
+(  player.png Moonglow location map board. MAP-LOC-moonglow environment Moonglow S05-03) Tj
+T*
+(  assets/maps/MAP-LOC-moonglow-player.png assets/maps/MAP-LOC-moonglow-player.png) Tj
+T*
+(  Visual reference for Moonglow. Moonglow location map board. Soft blue glow from) Tj
+T*
+(  Lucent Water that keeps shining when carried away, making time, navigation, and) Tj
+T*
+(  counterfeit wellness markets possible. MAP-LOC-moonglow-map-only Map only...) Tj
+T*
+(- Slidenumber: 68) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 934c16f0f595ed9b | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002647 00000 n 
+0000002773 00000 n 
+0000006999 00000 n 
+0000007125 00000 n 
+0000009270 00000 n 
+0000009396 00000 n 
+0000009465 00000 n 
+0000009514 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+9586
+%%EOF

@@ -1,0 +1,51 @@
+# The Grail
+
+RAW export - entity:the-grail
+
+## Player-facing description
+The Grail: The Grail™ sells salvation-shaped security: holy escorts, blessed wards, and protection from threats it has no interest in ending. Slogan: The Grail™ protects the worthy.
+
+## Public role
+Militant-religious security contractor for ward breaches and capital protection
+
+## Handout text
+The Grail: The Grail™ sells salvation-shaped security: holy escorts, blessed wards, and protection from threats it has no interest in ending. Slogan: The Grail™ protects the worthy.
+
+## Raw source
+- Type: corporation
+- Role: Militant-religious security contractor for ward breaches and capital protection
+- Summary: The Grail™ sells salvation-shaped security: holy escorts, blessed wards, and protection from threats it has no interest in ending.
+- Tags: audit-recovery faction-profile grail manufactured-threat p2p-canon security ward-stack
+- Connections: Emeris Crown Holdings The Keystone Asset Bramble Union Goldspire Ward Network Hexmart Goldwater Financial Institution
+- Inventory: golden chalice seal white-and-silver chain-of-custody writ threat advisory placard
+- Loot: A Grail writ is evidence of custody pressure, not treasure. It names the Bramble Union as an insurgent risk before hearing their claim.
+- Name: The Grail
+- Id: the-grail
+- Meta: Corporation / Company CORP assets/icons/corporation.png entity-corp #d6a936 06 Factions and Companies factions corporation
+- Aliases: Golden Chalice Grail Grail Industries Grail responders The The Grail security order
+- Appears In: S00-01 S01-02 S02-03 S03-01 S03-03 S06-01
+- Related: Bramble Union Emeris Crown Holdings Goldspire Ward Network Goldwater Financial Institution Hexmart S00-01 S01-02 S02-03 S03-01 S03-03 S06-01 The Keystone Asset
+- Image Prompt: Private table TTRPG story atlas asset for The Grail, Corporation / Company. Role: Militant-religious security contractor for ward breaches and capital protection. Summary: The Grail™ sells salvation-shaped security: holy escorts, blessed wards, and protection from threats it has no interest in ending.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Create a clean symbolic crest or brand mark on a plain dark background; no readable words. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: A holy security brand that sells salvation through compliance and bills protection by the incident.; present the public face as polished enough to pass a brochure and the real function through paperwork, assets, and cost-shifting.
+- Wants: Convert risk around Emeris Crown Holdings, The Keystone Asset, Bramble Union into confidence, billable certainty, or controlled liability.
+- Fears: Plain evidence, human testimony, and players following the gap between promise and operational harm.
+- Secrets: Its public story converts risk into confidence; its real function moves cost onto ordinary people.
+- Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.
+- Sample Dialogue: Public line: A holy security brand that sells salvation through compliance and bills protection by the incident.
+- Equipment: golden chalice seal white-and-silver chain-of-custody writ threat advisory placard
+- Search Or Loot: A Grail writ is evidence of custody pressure, not treasure. It names the Bramble Union as an insurgent risk before hearing their claim.
+- Gm Use: Keep the satire pointed at institutional behavior, not vulnerable people. Reveal function through assets, language, and consequences. Use this page to seed the manufactured-threat reframe without turning it into exposition.
+- Future Hooks: Expose the gap between public assurance and operational harm. Can become evidence in the future Relay Spire manufactured-threat investigation.
+- Robust: The Grail: The Grail™ sells salvation-shaped security: holy escorts, blessed wards, and protection from threats it has no interest in ending. Slogan: The Grail™ protects the worthy. Deepest layer, GM-only: Board ownership/collusion sits behind this brand. Surface only as hints and patterns. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Convert risk around Emeris Crown Holdings, The Keystone Asset, Bramble Union into confidence, billable certainty, or controlled liability. Plain evidence, human testimony, and players following the gap between promise and operational harm. The clean professional wound, the route-pirate framing, and custody pressure all make Grail suspicion playable without confirming it. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about The Grail and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the...
+- Manufactured Threat: Sells Protection Coverage. Posts strixwolf bounties. Brands the Bramble Union as criminals.
+- Pronunciation: the grayl
+- Short Pronunciation: the grayl
+- Faction Profile: faction-profile-v1 the-grail the-grail Faction_System_Packet/factions/Corps_Touching_The_Oneshot.md strong True True grail The Grail Holy-road protection with knightly livery, righteous language, and contracts that sound like sacraments. The Grail™ protects the worthy. The Grail™ sells salvation-shaped security: holy escorts, blessed wards, and protection from threats it has no interest in ending. The Grail™ arrives like a sermon: knights in spotless white-and-gold, a contract written like a sacrament, a choir-sweet recruiter who calls the toll a tithe and the fee a sacrifice. Buy a Blessing of Safe Passage™, a consecrated Ward of the Worthy™, an indulgence-style Pre-Forgiveness Plan™ for whatever the escort has to do to 'protect' you. They are genuinely brave and genuinely armed, and they will defend you beautifully against dangers that, conveniently, never quite get solved, because a solved threat is a closed account. To be judged worthy by The Grail is to be judged able to pay. A Grail sigil gleams from a white-and-gold shoulder plate. The escort's hand rests near the sword, but the voice stays gentle enough for a chapel. Somehow that makes the sword louder. The Grail The...
+- Image: assets/logos/the-grail.webp
+- Image Asset Status: image_gen
+- Faction Representative Image: assets/factions/the-grail-representative.webp
+- Faction Representative Status: image_gen
+- Visual Gallery: primary Primary wiki image primary assets/logos/the-grail.webp The Grail primary wiki image visual. The Grail: Primary wiki image. image_gen True True faction-logo-source Faction logo faction-logo assets/entity-gallery/the-grail/faction-logo-source.webp The Grail faction logo visual. The Grail: Faction logo. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/logos/the-grail.webp faction-representative-source Representative scene faction-representative assets/entity-gallery/the-grail/faction-representative-source.webp The Grail representative scene visual. The Grail: Representative scene. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/representative/the-grail.png
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 263bec899e61bead | Source hash dac3370046ed077140fab2d6

@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "vulnerable",
+  "kind": "entity",
+  "title": "Vulnerable",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Condition",
+  "hook": "Player-safe note: You are in a difficult position in the fiction; all rolls targeting you have advantage.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "You are in a difficult position in the fiction; all rolls targeting you have advantage."
+    },
+    {
+      "label": "How It Works",
+      "body": "Official Daggerheart primary condition"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use this when your action is uncertain and consequences matter.",
+    "Ask which trait fits your method."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:vulnerable",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "2c9ede299b68270e",
+  "generated_at": "2026-06-23T21:40:58"
+}

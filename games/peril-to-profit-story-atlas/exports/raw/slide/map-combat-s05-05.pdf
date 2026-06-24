@@ -1,0 +1,500 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2527 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-COMBAT-S05-05 - Peak Battle: Skeleton Pressure) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The wraiths drift closer. Their faces are the shape of remembered shame.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(The wraiths drift closer. Their faces are the shape of remembered shame.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-COMBAT-S05-05) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: battlefield) Tj
+T*
+(- Sectionid: ACT-FIVE) Tj
+T*
+(- Sectiontitle: Act Five: The Ward Renewal) Tj
+T*
+(- Title: Peak Battle: Skeleton Pressure) Tj
+T*
+(- Shorttitle: The Peak) Tj
+T*
+(- Order: 605.08) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-COMBAT-S05-05-gm.png) Tj
+T*
+(- Alt: Soul-Audit Wraith Pressure battlefield map board.) Tj
+T*
+(- Caption: Battlefield operating board for Soul-Audit Wraith Pressure.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Support the HOLD/BREAK split with skeleton pressure, Death Move support, and) Tj
+T*
+(  countdown swing.) Tj
+T*
+(- Publicobjective: The wraiths drift closer. Their faces are the shape of remembered) Tj
+T*
+(  shame.) Tj
+T*
+(- Readaloud: The wraiths drift closer. Their faces are the shape of remembered shame.) Tj
+T*
+(- Gmnotes: Wraiths begin at Far or Very Far edges and pressure anyone isolated from) Tj
+T*
+(  the protective ring. Wraiths slide in where attention thins or where fear isolates a) Tj
+T*
+(  PC. Psychological and predatory; wraiths seek fear, isolation, and priced memory.) Tj
+T*
+(- Gmscript: Say: "This is the peak battle board. If they cluster, Group Attack. If) Tj
+T*
+(  someone hits last HP, Death Move. If the center holds, the outcome improves.") Tj
+T*
+(- Gmreadaloud: Everything hits at once. The Custodian flickers at the center. The) Tj
+T*
+(  rusted dead try to turn one gap into a collapse.) Tj
+T*
+(- Gmchecklist: Use Group Attack if skeletons cluster. Offer Death Move heroically at) Tj
+T*
+(  last HP. Let any PC create the final countdown tick. Set ritual_outcome from) Tj
+T*
+(  HOLD/BREAK.) Tj
+T*
+(- Gmprivate: No single PC is required for the final blow; this map exists to spotlight) Tj
+T*
+(  shared sacrifice.) Tj
+T*
+(- Playertakeaway: The wraiths drift closer. Their faces are the shape of remembered) Tj
+T*
+(  shame.) Tj
+T*
+(- Storytakeaway: The peak makes the party choose what they save when they cannot cover) Tj
+T*
+(  everything.) Tj
+T*
+(- Mechanictakeaway: HOLD/BREAK, Group Attack, Death Move, Hope, and countdown all) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4041 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  write ritual_outcome.) Tj
+T*
+(- Entityids: ward-moths mist-things) Tj
+T*
+(- Entities: ward-moths Ward-Moths creature Creature / Animal assets/icons/creature.png) Tj
+T*
+(  assets/creature-images/ward-moths/portrait_base.png WARD mawths Ward-moths drift) Tj
+T*
+(  along invisible pressure lines at Open Vale, their wings flashing whenever the air) Tj
+T*
+(  remembers old protection work. Open Vale ward-line indicator Ward-moths drift along) Tj
+T*
+(  invisible pressure lines at Open Vale, their wings flashing whenever the air) Tj
+T*
+(  remembers old protection work.; show instinct first through distance, posture,) Tj
+T*
+(  scent, and how the creature protects what is close to it. Reach safety on its own) Tj
+T*
+(  terms and communicate danger through behavior before the party turns the moment into) Tj
+T*
+(  combat. Ward-moths drift along invisible pressure lines at Open Vale, their wings) Tj
+T*
+(  flashing whenever the air remembers old protection work. mist-things Mist-Things) Tj
+T*
+(  creature Creature / Animal assets/icons/creature.png assets/creature-images/mist-) Tj
+T*
+(  things/portrait_base.png MIST thingz Mist-things move as half-seen animal shapes in) Tj
+T*
+(  low fog: not quite threat, not quite guide, but very sure they were here first. Open) Tj
+T*
+(  Vale and Miremist omen-creature Mist-things move as half-seen animal shapes in low) Tj
+T*
+(  fog: not quite threat, not quite guide, but very sure...) Tj
+T*
+(- Statecontrols: strixwolf_disposition Strixwolf Disposition select unresolved calm) Tj
+T*
+(  hostile killed strixwolf_outcome Strixwolf Outcome select unresolved calmed helped) Tj
+T*
+(  avoided attacked killed strixwolf_trust Strixwolf Trust number 3) Tj
+T*
+(  strixwolf_blood_debt Strixwolf Blood Debt checkbox bramble_outcome Bramble Outcome) Tj
+T*
+(  select unresolved killed captured spared negotiated escaped let_cargo) Tj
+T*
+(  bramble_truth_learned Bramble Truth Learned checkbox package_status Package Status) Tj
+T*
+(  select held lost hush_trust Hush Trust select low neutral high custodian_route) Tj
+T*
+(  Custodian Route select unknown safe dangerous ward_awareness Ward Awareness select) Tj
+T*
+(  none seed aware festival_boon Festival Boon select none charm favor market_find) Tj
+T*
+(  goodwill custodian_trust Custodian Trust select low neutral high ward_stability Ward) Tj
+T*
+(  Stability select fragile stable ritual_prep Ritual Prep select unready ready) Tj
+T*
+(  keystone_understanding Keystone Understanding select surface deep hush_clues Hush) Tj
+T*
+(  Clues select none custodian_route ward_seed corporate_seam farm_seed market_rumor) Tj
+T*
+(  multiple ritual_countdown Ritual Countdown number 10 8 ritual_outcome Ritual Outcome) Tj
+T*
+(  select unresolved clean costly pyrrhic protected_whom Protected Whom select) Tj
+T*
+(  unresolved...) Tj
+T*
+(- Mechanicids: countdown death-move group-attack fear hope tag-team-roll) Tj
+T*
+(- Fearspends: Spend Fear to tick the ritual countdown, expose the Custodian, activate) Tj
+T*
+(  ward backlash, or trigger Market Correction. Tick the Ritual Countdown the wrong) Tj
+T*
+(  direction or expose the Custodian. Trigger Market Correction, Pass-Through, Memory) Tj
+T*
+(  Delve, or Group Attack when fiction supports it.) Tj
+T*
+(- Choicesconsequences: Use the peak skeleton map when HOLD/BREAK pressure needs) Tj
+T*
+(  spatial clarity. The map clarifies the active table choice instead of becoming a) Tj
+T*
+(  side route. Use the map only when spatial clarity changes the next roll, countdown) Tj
+T*
+(  tick, or protection choice. The result carries forward through Act 5 state rather) Tj
+T*
+(  than adding a new branch. ritual_outcome / protected_whom Reward: clearer play.) Tj
+T*
+(  Cost: pause only long enough to orient the table. GM-facing) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S05-05 S05-06) Tj
+T*
+(- Mapdata: MAP-COMBAT-S05-05 battlefield Peak Battle: Skeleton Pressure S05-05) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4276 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  assets/scenes/S05-05-soul-audit-wraiths.png Battlefield operating board for Soul-) Tj
+T*
+(  Audit Wraith Pressure. Soul-Audit Wraith Pressure battlefield map board. The wraiths) Tj
+T*
+(  drift closer. Their faces are the shape of remembered shame. The wraiths drift) Tj
+T*
+(  closer. Their faces are the shape of remembered shame. Wraiths begin at Far or Very) Tj
+T*
+(  Far edges and pressure anyone isolated from the protective ring. Wraiths slide in) Tj
+T*
+(  where attention thins or where fear isolates a PC. Psychological and predatory;) Tj
+T*
+(  wraiths seek fear, isolation, and priced memory. Peak combat map for the hardest) Tj
+T*
+(  skeleton and protect-choice pressure. The Custodian is exposed, the countdown is) Tj
+T*
+(  close, and choices become ritual_outcome. True Legacy Skeleton x4 ? Tier 1 Standard.) Tj
+T*
+(  Difficulty 12. Thresholds 7/none. HP 2. Stress 1. ATK +0. Rusted Sword Melee 1d6+1) Tj
+T*
+(  physical. Defeat rule: take 6 or less damage -> mark 1 HP; otherwise defeated. Group) Tj
+T*
+(  Attack: spend Fear, move several skeletons into Melee of one target, one shared +0) Tj
+T*
+(  roll vs Evasion, 4 physical per skeleton combined. Each skeleton defeated ticks) Tj
+T*
+(  ritual_countdown -1; each Custodian hit/exposure ticks +1...) Tj
+T*
+(- Sourcefiles: dist/Act5_Upgrade_Packet/ACT5_MAPS_AND_LOCATIONS.md) Tj
+T*
+(  dist/Act5_Upgrade_Packet/ACT5_SCENE_RESEARCH.md) Tj
+T*
+(- References: Legacy Skeleton sources/Act5_Upgrade_Packet/ACT5_MAPS_AND_LOCATIONS.md) Tj
+T*
+(  Peak outcome #S05-05) Tj
+T*
+(- Livetools: encounter S05-05 MAP-COMBAT-S05-05 pages/combat/s05-05.html) Tj
+T*
+(- Percharacterlayer: khari-nix Khari Nix The sacrifice Natural body for the protect-) Tj
+T*
+(  choice: Custodian, ally, or center at her own cost. Can step into the hardest) Tj
+T*
+(  pressure without becoming mandatory. Khari, this is the moment a guardian lives for.) Tj
+T*
+(  Who do you put yourself between? garrick-reed Garrick Reed All-in strike Can spend) Tj
+T*
+(  Hope, Tag Team, or a big Warrior push to drop the threat menacing the Custodian. Can) Tj
+T*
+(  bring the clock home through decisive action. Garrick, go all-in on the thing about) Tj
+T*
+(  to hit her. Want to end this? marlowe-fairwind Marlowe Fairwind Duty vs people A) Tj
+T*
+(  last big spell can clear field pressure or shield the Custodian. Her choice mirrors) Tj
+T*
+(  duty versus people without gating victory. Marlowe, one big push left. Protect her,) Tj
+T*
+(  or protect the party? Your call says who you've become. barnacle Barnacle Clutch) Tj
+T*
+(  save Can yank an Untethered or falling ally out of danger. Can make the save nobody) Tj
+T*
+(  sees coming. Barnacle, someone's about to fall. Want to be the reason they don't?) Tj
+T*
+(  varian-soto Varian Soto Clean shot Can land a final ranged burst to defeat the last) Tj
+T*
+(  threat and tick the clock to 0. Can end pressure from the edge. Varian, one clean) Tj
+T*
+(  shot could end it. Want to take it?) Tj
+T*
+(- Gmbeats: MAP-COMBAT-S05-05-use Use Use this board Say: "Open the board, orient the) Tj
+T*
+(  center or edge, name the current state change, then return to the active scene." Use) Tj
+T*
+(  this board only when it makes the current finale choice clearer. The map supports) Tj
+T*
+(  the finale instead of replacing the scene. Map use writes countdown, protection,) Tj
+T*
+(  prep, outcome, or report state when it changes play. Players get spatial clarity) Tj
+T*
+(  without a side route. Player takeaway Players get spatial clarity without a side) Tj
+T*
+(  route. "Open the board, orient the center or edge, name the current state change,) Tj
+T*
+(  then return to the active scene." "The table-facing answer is: Players get spatial) Tj
+T*
+(  clarity without a side route." Use this beat to give the players one visible next) Tj
+T*
+(  action: protect the center, read the field, spend prep, name who they shield, or) Tj
+T*
+(  choose what truth leaves with them. table-spotlight countdown Story takeaway The map) Tj
+T*
+(  supports the finale instead of replacing the scene. "Open the board, orient the) Tj
+T*
+(  center or edge, name the current state change, then return to the active scene.") Tj
+T*
+(  "The story answer is: The map supports the finale instead of replacing the scene.") Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4136 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Tie the answer to a visible Act 5 consequence: the ward...) Tj
+T*
+(- Takeawayhelp: Player takeaway: MAP-COMBAT-S05-05 The wraiths drift closer. Their) Tj
+T*
+(  faces are the shape of remembered shame. Give the player one concrete way back into) Tj
+T*
+(  play: a question, a description, a choice, or a pass-and-return moment. "Your) Tj
+T*
+(  takeaway right now is this: The wraiths drift closer. Their faces are the shape of) Tj
+T*
+(  remembered shame." "If you are not sure what to do next, you can ask a question,) Tj
+T*
+(  describe what your character notices, or tell me what your character tries." "If you) Tj
+T*
+(  are not sure what to do next, you can ask a question, describe what your character) Tj
+T*
+(  notices, or tell me what your character tries." Give the player one concrete way) Tj
+T*
+(  back into play: a question, a description, a choice, or a pass-and-return moment.) Tj
+T*
+(  countdown death-move group-attack fear hope tag-team-roll Story takeaway: MAP-) Tj
+T*
+(  COMBAT-S05-05 The peak makes the party choose what they save when they cannot cover) Tj
+T*
+(  everything. Anchor the answer in the visible fiction on this slide: who is present,) Tj
+T*
+(  what can be observed, what has already been said, and what remains uncertain. "Here) Tj
+T*
+(  is what your characters know right now: The peak makes the party choose what they) Tj
+T*
+(  save when they cannot cover everything." "If you want more...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-COMBAT-S05-05-player.png The Peak map board. MAP-) Tj
+T*
+(  COMBAT-S05-05 battlefield The Peak S05-05 assets/maps/MAP-COMBAT-S05-05-player.png) Tj
+T*
+(  assets/maps/MAP-COMBAT-S05-05-player.png The Peak map board. The wraiths drift) Tj
+T*
+(  closer. Their faces are the shape of remembered shame. The wraiths drift closer.) Tj
+T*
+(  Their faces are the shape of remembered shame. MAP-COMBAT-S05-05-map-only Map only) Tj
+T*
+(  The Peak map-only assets/maps/MAP-COMBAT-S05-05-player.png The Peak map board. MAP-) Tj
+T*
+(  COMBAT-S05-05 battlefield The Peak S05-05 assets/maps/MAP-COMBAT-S05-05-player.png) Tj
+T*
+(  assets/maps/MAP-COMBAT-S05-05-player.png The Peak map board. The wraiths drift) Tj
+T*
+(  closer. Their faces are the shape of remembered shame. The wraiths drift closer.) Tj
+T*
+(  Their faces are the shape of remembered shame. MAP-COMBAT-S05-05-map-text Map + text) Tj
+T*
+(  The Peak The wraiths drift closer. Their faces are the shape of remembered shame.) Tj
+T*
+(  The wraiths drift closer. Their faces are the shape of remembered shame. map-text) Tj
+T*
+(  MAP-COMBAT-S05-05-text-only Text only The Peak The wraiths drift closer. Their faces) Tj
+T*
+(  are the shape of remembered shame. The wraiths drift closer. Their faces are the) Tj
+T*
+(  shape of remembered shame. text-first) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-COMBAT-S05-05 map The Peak assets/maps/MAP-) Tj
+T*
+(  COMBAT-S05-05-player.png The Peak map board. spatial reference and location texture) Tj
+T*
+(  The wraiths drift closer. Their faces are the shape of remembered shame. The wraiths) Tj
+T*
+(  drift closer. Their faces are the shape of remembered shame. MAP-COMBAT-S05-05) Tj
+T*
+(  battlefield The Peak S05-05 assets/maps/MAP-COMBAT-S05-05-player.png) Tj
+T*
+(  assets/maps/MAP-COMBAT-S05-05-player.png The Peak map board. The wraiths drift) Tj
+T*
+(  closer. Their faces are the shape of remembered shame. The wraiths drift closer.) Tj
+T*
+(  Their faces are the shape of remembered shame. assets/maps/MAP-) Tj
+T*
+(  COMBAT-S05-05-player.png The Peak map board. MAP-COMBAT-S05-05 battlefield The Peak) Tj
+T*
+(  S05-05 assets/maps/MAP-COMBAT-S05-05-player.png assets/maps/MAP-) Tj
+T*
+(  COMBAT-S05-05-player.png The Peak map board. The wraiths drift closer. Their faces) Tj
+T*
+(  are the shape of remembered shame. The wraiths drift closer. Their faces are the) Tj
+T*
+(  shape of remembered shame. MAP-COMBAT-S05-05-map-only Map only The Peak map-only) Tj
+T*
+(  assets/maps/MAP-COMBAT-S05-05-player.png The Peak map board. MAP-COMBAT-S05-05) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 402 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  battlefield The Peak S05-05 assets/maps/MAP-COMBAT-S05-05-player.png) Tj
+T*
+(  assets/maps/MAP-COMBAT-S05-05-player.png The Peak map board. The...) Tj
+T*
+(- Slidenumber: 72) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash f728b47bca315a5a | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R] /Count 5 >>
+endobj
+12 0 obj
+<< /Type /Catalog /Pages 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000009 00000 n 
+0000002588 00000 n 
+0000002716 00000 n 
+0000006809 00000 n 
+0000006937 00000 n 
+0000011265 00000 n 
+0000011393 00000 n 
+0000015581 00000 n 
+0000015709 00000 n 
+0000016162 00000 n 
+0000016291 00000 n 
+0000016374 00000 n 
+0000016425 00000 n 
+trailer
+<< /Size 14 /Root 12 0 R >>
+startxref
+16498
+%%EOF

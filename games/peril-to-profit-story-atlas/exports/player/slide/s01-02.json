@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S01-02",
+  "kind": "slide",
+  "title": "S01-02 - The Overturned Vendor Cart",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act One: The Logistics Incident",
+  "hook": "Your steeds haul the carriage around a tight bend and stop hard. The path ahead is blocked: a vendor cart lies overturned, its fruit, vegetables, and spilled preserves scattered across the trail. Something has been...",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "Your steeds haul the carriage around a tight bend and stop hard. The path ahead is blocked: a vendor cart lies overturned, its fruit, vegetables, and spilled preserves scattered across the trail. Something has been feeding here. The air is wrong: sweet rot..."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Figure out what happened here and clear the road."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:S01-02",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "d870f756c71f8f43",
+  "generated_at": "2026-06-23T21:40:58"
+}

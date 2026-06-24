@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "varian-soto",
+  "title": "Varian Soto",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "b49d079b4e9a00ca",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Varian Soto: Tracks unlicensed apex fauna first and asks questions later."
+    },
+    {
+      "title": "Public role",
+      "body": "Wildborne Katari ranger"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Tracks unlicensed apex fauna first and asks questions later."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use this person to put a human face on the current pressure. Give them one concrete want before exposition."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash b49d079b4e9a00ca | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

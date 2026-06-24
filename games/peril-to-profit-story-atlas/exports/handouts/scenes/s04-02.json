@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S04-02",
+  "kind": "scene",
+  "title": "S04-02 - The Hanging Office Exterior",
+  "in_world_label": "Situation Briefing",
+  "brand_flag": "Briefing",
+  "kicker": "The Hanging Office",
+  "hook": "A cabin-sized boulder rests below the tree, tied by thick rope to a hanging office above. It blinks with inspection seals and an old warning light.",
+  "blocks": [
+    {
+      "label": "Where You Are",
+      "body": "A cabin-sized boulder rests below the tree, tied by thick rope to a hanging office above. It blinks with inspection seals and an old warning light."
+    },
+    {
+      "label": "Plain Stakes",
+      "body": "The Custodian’s suspended treehouse-office hangs from an ancient tree."
+    },
+    {
+      "label": "Visible Options",
+      "body": "Call up Climb Tamper with counterweight Use magic"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "What detail in The Hanging Office Exterior tells you the official story is incomplete?",
+    "Who notices the human cost first, and how do they show it?",
+    "What small object, smell, or sound makes this scene feel real?"
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - scene:S04-02",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "ec16bfcd3d3cb1e3",
+  "generated_at": "2026-06-23T21:40:58"
+}

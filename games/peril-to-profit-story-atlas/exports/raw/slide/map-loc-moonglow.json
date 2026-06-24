@@ -1,0 +1,65 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "slide",
+  "id": "MAP-LOC-moonglow",
+  "title": "MAP-LOC-moonglow - Moonglow Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "934c16f0f595ed9b",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible."
+    },
+    {
+      "title": "Public objective",
+      "body": "Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: MAP-LOC-moonglow",
+        "Type: map",
+        "Maptype: environment",
+        "Sectionid: ACT-FIVE",
+        "Sectiontitle: Act Five: The Ward Renewal",
+        "Title: Moonglow Location Map",
+        "Shorttitle: Moonglow",
+        "Order: 603.08",
+        "Playersafe: True",
+        "Completioneligible: False",
+        "Image: assets/maps/MAP-LOC-moonglow-gm.webp",
+        "Alt: Moonglow location map board.",
+        "Caption: Visual reference for Moonglow.",
+        "Mood: spatial reference and location texture",
+        "Gmgoal: Use this environment board to orient space, table questions, and safe reveals.",
+        "Publicobjective: Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible.",
+        "Readaloud: Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible.",
+        "Playertakeaway: Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible.",
+        "Storytakeaway: Visual reference for Moonglow.",
+        "Mechanictakeaway: Use the map as visual reference unless the scene is explicitly in combat.",
+        "Entityids: moonglow",
+        "Entities: moonglow Moonglow location Location assets/icons/location.png assets/location-visuals/moonglow/profile_scene_v02.webp MOON-gloh Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible. Lucent River navigation and resource effect Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible.; introduce it with a sensory palette, who feels safe there, and what has been neglected. Pull player attention toward the choices, clues, and relationships tied to The Lucent River, Hexmart, Root's Hollow. Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible.",
+        "Locationids: moonglow",
+        "Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth context stay off the player display.",
+        "Linkedsceneids: S05-03",
+        "Mapdata: MAP-LOC-moonglow environment Moonglow Location Map S05-03 moonglow assets/location-visuals/moonglow/profile_scene_v02.webp Visual reference for Moonglow. Moonglow location map board. Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible. Visual reference for Moonglow. Leaf-drip, insects, distant wingbeats, and animal calls that stop or resume according to pressure, not comfort. Rain on leaves, sap, mushroom loam, wet bark, and the musk of unseen animals. Bark is damp and ridged; mud alternates between springy moss and slick clay. The forest is populated even when no NPC is present; silence, birds, insects, and tracks are actionable signals. Sight Visual reference for Moonglow. Sound Leaf-drip, insects, distant wingbeats, and animal calls that stop or resume according to pressure, not comfort. Smell Rain on leaves, sap, mushroom loam, wet bark, and the musk of unseen animals. Texture / air Bark is damp and ridged; mud alternates between springy moss and slick clay. Background life The forest is populated even when no NPC is present; silence, birds, insects, and tracks are actionable signals...",
+        "Livetools: scene MAP-LOC-moonglow",
+        "Takeawayhelp: Player takeaway: MAP-LOC-moonglow Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible. Give the player one concrete way back into play: a question, a description, a choice, or a pass-and-return moment. \"Your takeaway right now is this: Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible.\" \"If you are not sure what to do next, you can ask a question, describe what your character notices, or tell me what your character tries.\" \"If you are not sure what to do next, you can ask a question, describe what your character notices, or tell me what your character tries.\" Give the player one concrete way back into play: a question, a description, a choice, or a pass-and-return moment. Story takeaway: MAP-LOC-moonglow Visual reference for Moonglow. Anchor the answer in the visible fiction on this slide: who is present, what can be observed, what has already been said, and what remains uncertain. \"Here is what your characters know right now: Visual reference for Moonglow.\" \"If you want more detail, ask it in the scene. I...",
+        "Playerbeats: assets/maps/MAP-LOC-moonglow-player.webp Moonglow location map board. MAP-LOC-moonglow environment Moonglow S05-03 assets/maps/MAP-LOC-moonglow-player.webp assets/maps/MAP-LOC-moonglow-player.webp Visual reference for Moonglow. Moonglow location map board. Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible. MAP-LOC-moonglow-map-only Map only Moonglow map-only assets/maps/MAP-LOC-moonglow-player.webp Moonglow location map board. MAP-LOC-moonglow environment Moonglow S05-03 assets/maps/MAP-LOC-moonglow-player.webp assets/maps/MAP-LOC-moonglow-player.webp Visual reference for Moonglow. Moonglow location map board. Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible. MAP-LOC-moonglow-map-text Map + text Moonglow Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible. Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible. map-text MAP-LOC-moonglow-text-only...",
+        "Beatautoplayeligible: True",
+        "Beatautoplaydefault: False",
+        "Beatautoplayintervalms: 10000",
+        "Playersafeprojection: MAP-LOC-moonglow map Moonglow assets/maps/MAP-LOC-moonglow-player.webp Moonglow location map board. Visual reference for Moonglow. spatial reference and location texture Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible. Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible. MAP-LOC-moonglow environment Moonglow S05-03 assets/maps/MAP-LOC-moonglow-player.webp assets/maps/MAP-LOC-moonglow-player.webp Visual reference for Moonglow. Moonglow location map board. Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible. assets/maps/MAP-LOC-moonglow-player.webp Moonglow location map board. MAP-LOC-moonglow environment Moonglow S05-03 assets/maps/MAP-LOC-moonglow-player.webp assets/maps/MAP-LOC-moonglow-player.webp Visual reference for Moonglow. Moonglow location map board. Soft blue glow from Lucent Water that keeps shining when carried away, making time, navigation, and counterfeit wellness markets possible. MAP-LOC-moonglow-map-only Map only...",
+        "Slidenumber: 68",
+        "Totalslides: 110"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 934c16f0f595ed9b | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

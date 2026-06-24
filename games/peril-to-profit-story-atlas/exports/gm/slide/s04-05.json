@@ -1,0 +1,51 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "S04-05",
+  "title": "S04-05 - Toward Open Vale",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "128575af7d765acc",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The Custodian gathers what she needs with the brisk energy of someone much younger than she looks. \"The Open Vale is where the ward was first forged,\" she says. \"It is where it must be renewed.\" She looks at each of you in turn. \"I cannot do this alone, and what comes for us when the magic rises will not be gentle. But I think you already knew the job was bigger than a crate.\" When you are ready, the treehouse unfolds one last time, and the road to the Open Vale opens before you."
+    },
+    {
+      "title": "Public objective",
+      "body": "Commit to the ritual and set out for the Open Vale."
+    },
+    {
+      "title": "GM goal",
+      "body": "Convert the reveal into commitment, offer real preparation, and bridge to Act 5."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "This is the bridge scene. The important output is state, not more lore.",
+        "A reluctant yes still counts if the party chooses the hard road with eyes open."
+      ]
+    },
+    {
+      "title": "GM script",
+      "body": "Say: \"Before we go: you can rest, prepare, ask her what to expect, or spend any favor you earned. It all matters when the ritual starts.\""
+    },
+    {
+      "title": "State controls",
+      "items": [
+        "custodian_trust Custodian Trust select low neutral high",
+        "ward_stability Ward Stability select fragile stable",
+        "ritual_prep Ritual Prep select unready ready",
+        "keystone_understanding Keystone Understanding select surface deep",
+        "festival_boon Festival Boon select none charm favor market_find goodwill",
+        "package_status Package Status select held lost"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 128575af7d765acc | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

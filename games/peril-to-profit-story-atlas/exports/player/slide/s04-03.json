@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S04-03",
+  "kind": "slide",
+  "title": "S04-03 - The Whitefire Custodian",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act Four: The Hanging Office",
+  "hook": "The home lowers, and from it steps a being seven feet tall: part humanoid, part firefly, moving in slow drifts broken by sudden jerky motions. Her face is hard to read, but her voice carries every feeling plainly. She...",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "The home lowers, and from it steps a being seven feet tall: part humanoid, part firefly, moving in slow drifts broken by sudden jerky motions. Her face is hard to read, but her voice carries every feeling plainly. She eyes your group with open mischief. \"Are..."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Win the Custodian's confidence and hand over the package."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:S04-03",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "a712cb4ec596706d",
+  "generated_at": "2026-06-23T21:40:58"
+}

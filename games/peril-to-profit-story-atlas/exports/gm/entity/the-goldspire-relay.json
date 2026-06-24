@@ -1,0 +1,74 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "the-goldspire-relay",
+  "title": "The Goldspire Relay",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "4dbd1312aeb883e3",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "The Goldspire Relay twists upward like maintenance became monument, its weak fire making future failure visible."
+    },
+    {
+      "title": "Public role",
+      "body": "Signal scale without derailing the one-shot."
+    },
+    {
+      "title": "Handout text",
+      "body": "A twisting stone signal-spire of mirrors, flags, and courier-birds, its beacon flickering thinner than it should."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Introduce with sensory texture, then make one discoverable clue or social choice visible."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Location Exploration Mechanics",
+        "Player Safe: Players can navigate, search, read customs, inspect hazards The Goldspire Relay when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: A twisting stone signal-spire of mirrors, flags, and courier-birds, its beacon flickering thinner than it should. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-the-goldspire-relay-engage-the-goldspire-relay entity-the-goldspire-relay Engage The Goldspire Relay Engage The Goldspire Relay Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of The Goldspire Relay hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Condition Options: No official condition unless a hazard creates Hidden, Restrained, or Vulnerable",
+        "Search Loot: The relay offers a map, an unpaid notice, or a dimming pulse as future-facing evidence."
+      ]
+    },
+    {
+      "title": "Profile",
+      "items": [
+        "Schema Version: location-profile-v1",
+        "Id: the-goldspire-relay",
+        "Entity Id: the-goldspire-relay",
+        "Source: Goldspire_Location_Packet/07_Goldspire_Relay.md",
+        "Auto Surface: True",
+        "Priority: strong",
+        "Player Safe: The Goldspire Relay A twisting stone signal-spire of mirrors, flags, and courier-birds, its beacon flickering thinner than it should. A twisting stone signal-spire of mirrors, flags, and courier-birds, its beacon flickering thinner than it should. The Goldspire Relay twists upward like maintenance became monument, its weak fire making future failure visible. Wind, beacon-light, signal-workers, ridge paths, anxious maintenance, and a view wide enough to imply the rest of the story. The world feels like it is answering back from up here. The place breaks into usable table spaces: Signal yard: Mirrors, flags, and courier birds make communication visible. Beacon chamber: The light source flickers with meaning. Ridge overlook: The view connects every prior place at once. Maintenance stair: Narrow steps and tool niches make the spire feel worked, not decorative. Plants and materials...",
+        "Block1: The Goldspire Relay Signal scale without derailing the one-shot. A twisting stone relay whose weak fire suggests the next failure is already billing someone. The relay makes the next problem structural, not a new villain reveal. The relay makes the next problem structural rather than a new villain. The failures are connected, and the map proves it. The relay makes the next problem structural, not a new villain reveal. The weak fire here suggests the next failure is already happening somewhere down the line. pages/entities/the-goldspire-relay.html",
+        "Block2: A beacon burns too thin at the top. Maintenance plates and old notices cluster near the base. The newest warning is phrased as a billing status. Stone hairline cracks point toward older repairs. Detail Cold ash, heated stone, lightning-metal, and old oil. Detail The relay surface is rough where people climb it and glassy near the flame channel. The Goldspire Relay twists upward like maintenance became monument, its weak fire making future failure visible. Wind, beacon-light, signal-workers, ridge paths, anxious maintenance, and a view wide enough to imply the rest of the story. The world feels like it is answering back from up here. The place breaks into usable table spaces: Signal yard: Mirrors, flags, and courier birds make communication visible. Beacon chamber: The light source flickers with meaning. Ridge overlook: The view connects every prior place at once. Maintenance stair...",
+        "Block3: weak beacon fire maintenance plate repossession notice relay ladder Knowledge to read the relay's function. Instinct to feel the flame is weak, not distant. Local residents or workers appropriate to the place courier birds, ridge insects, tiny cliff goats that ignore danger No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues wind-bent ridge grass lichen on signal stones small herbs in stair cracks message relay ridge lodging maintenance supplies",
+        "Block4: The place changes even if the PCs stand still. Local people, creatures, weather, signage, and ward behavior all keep moving around the scene. The relay can turn a victory into a future obligation if introduced too early. Its failure pattern hints at larger infrastructure collapse. The beacon flares when the word 'asset' is spoken. A maintenance plate lists a date that has not happened yet. Let the place be funny through overconfident signage, awkward forms, stubborn local habits, and magic that refuses corporate language.",
+        "Block5: MAP-LOC-the-goldspire-relay",
+        "Block6: Describe what the PCs can see, smell, hear, touch, ask about, or infer. Do not explain hidden infrastructure or corporate thesis until play earns it. surface A twisting stone relay whose weak fire suggests the next failure is already billing someone. table clue The relay makes the next problem structural, not a new villain reveal. earned truth Reveal deeper system meaning through NPC answers, evidence, or player questions, not narration dumps.",
+        "What Here: Local residents or workers appropriate to the place courier birds, ridge insects, tiny cliff goats that ignore danger No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues wind-bent ridge grass lichen on signal stones small herbs in stair cracks message relay ridge lodging maintenance supplies",
+        "Living Place: location-living-place-v1 regional relay complex and sequel-hook site The Relay should feel like the world answering back: wind, beacon light, signal workers, ridge paths, anxious maintenance, and a view wide enough to imply more story. Signal yard Mirrors, flags, and courier birds make communication visible. Use for epilogue action. Beacon chamber The light source flickers with meaning. Use for the official hook. Ridge overlook The view connects every prior place at once. Use for closure. Maintenance stair Narrow steps and tool niches make the spire feel worked, not decorative. Use for grounded detail. wind-bent ridge grass lichen on signal stones small herbs in stair cracks courier birds, ridge insects, tiny cliff goats that ignore danger beacon pulse, high wind, signal chime, far storm light Messages arrive, are questioned, encoded, relayed, delayed, and sometimes quietly corrected...",
+        "Districts Or Subareas: Signal yard Mirrors, flags, and courier birds make communication visible. Use for epilogue action. Beacon chamber The light source flickers with meaning. Use for the official hook. Ridge overlook The view connects every prior place at once. Use for closure. Maintenance stair Narrow steps and tool niches make the spire feel worked, not decorative. Use for grounded detail.",
+        "Sensory Signature: Detail Cold ash, heated stone, lightning-metal, and old oil. Detail The relay surface is rough where people climb it and glassy near the flame channel.",
+        "Visual Assets: location-visual-assets-v1 the-goldspire-relay The Goldspire Relay Bright comedic frontier high-fantasy concept art for a Daggerheart-adjacent tabletop RPG. Medieval/Renaissance fantasy technology only: hand tools, wagons, ropes, parchment notices, ward-stones, carved wood, brass, cloth, stone, moss, lanterns, and magic. The tone is colorful, playful, slightly absurd, and vivid, like a fantasy corporate frontier comedy rather than a grim drama. No sci-fi machinery, no 1800s/Victorian clothing, no modern suits, no guns, no logos, no readable text, no watermark, no border, no collage. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/the-goldspire-relay MAP-LOC-the-goldspire-relay relay complex relay complex site map profile_scene Profile image ready /Users/kyle/Documents/My Games/Peril To...",
+        "Imagine It Like: A semaphore or telegraph relay station on a high ridge, all mirrors and flags. Think mountaintop signal-tower where the news of the world passes through and gets edited on the way."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 4dbd1312aeb883e3 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

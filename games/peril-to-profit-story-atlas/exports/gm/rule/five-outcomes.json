@@ -1,0 +1,52 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "five-outcomes",
+  "title": "Five Roll Outcomes",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "5bb8c7c42bab1cee",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "Every action roll resolves into one of five table results: critical success, success with Hope, success with Fear, failure with Hope, or failure with Fear."
+    },
+    {
+      "title": "How it works",
+      "body": "Use after every Action Roll or Reaction Roll where the Hope/Fear spin matters."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Check doubles first for Critical Success.",
+        "If not a critical, compare total to Difficulty.",
+        "At or above Difficulty succeeds; below Difficulty fails.",
+        "Hope spin gives Hope and a cleaner/kinder edge; Fear spin gives the GM Fear and a cost or complication."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "What does my result mean?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "action-roll",
+        "duality-dice",
+        "hope",
+        "fear",
+        "critical-success"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 5bb8c7c42bab1cee | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

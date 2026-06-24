@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "slyborne-crew",
+  "kind": "entity",
+  "title": "Slyborne Crew",
+  "in_world_label": "Public Notice",
+  "brand_flag": "Player-safe",
+  "kicker": "Faction / Community",
+  "hook": "Player-safe note: A flexible adversary crew category for hideouts, toll lanes, and off-route pressure.",
+  "blocks": [
+    {
+      "label": "Public Face",
+      "body": "Slyborne Crew: A flexible adversary crew category for hideouts, toll lanes, and off-route pressure."
+    },
+    {
+      "label": "Player Read",
+      "body": "Player-safe note: A flexible adversary crew category for hideouts, toll lanes, and off-route pressure."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask what they publicly promise.",
+    "Compare their slogan to what they actually do in the scene."
+  ],
+  "archetype": "faction.flyer",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:slyborne-crew",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "992b2982fc452e7f",
+  "generated_at": "2026-06-23T21:40:58"
+}

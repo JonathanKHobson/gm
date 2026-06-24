@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "spidermanders",
+  "title": "Spidermanders",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "b852af40d1f03953",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Spidermanders: Spider-salamander hybrids coat themselves in pale ash, gripping stone with too many soft feet and leaving damp prints where the ground should be dry."
+    },
+    {
+      "title": "Public role",
+      "body": "Ash-coated cave and quarry hybrid"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Spider-salamander hybrids coat themselves in pale ash, gripping stone with too many soft feet and leaving damp prints where the ground should be dry."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use as a moral encounter. Reward restraint and observation without forcing a pet or mascot outcome."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash b852af40d1f03953 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

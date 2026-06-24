@@ -1,0 +1,55 @@
+# Helena Corain
+
+RAW export - entity:helena-corain
+
+## Player-facing description
+Helena Corain: A direct, affable, brave human who free-climbs the Titan's Steps and commands more respect than most locals of the wood.
+
+## Public role
+Elderly climber and respected mountain-crab egg merchant
+
+## Handout text
+Player-safe note: A direct, affable, brave human who free-climbs the Titan's Steps and commands more respect than most locals of the wood.
+
+## Raw source
+- Type: npc
+- Role: Elderly climber and respected mountain-crab egg merchant
+- Summary: A direct, affable, brave human who free-climbs the Titan's Steps and commands more respect than most locals of the wood.
+- Tags: sablewood-lore npc sable-sinecure source-page-7 npc-profile
+- Aliases: Helena Helena Corain
+- Connections: The Sable Sinecure The Titan's Steps Mountain Crabs
+- Inventory: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry.
+- Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+- Stat: Difficulty 12. Experiences: Climbing +3, Strike a Deal +2.
+- Image Fallback: type-icon
+- Source Pages: Sablewood PDF p. 7
+- Name: Helena Corain
+- Id: helena-corain
+- Meta: NPC / Ally NPC assets/icons/npc.png entity-npc #f0aa45 03 NPCs entities npc
+- Related: Mountain Crabs The Sable Sinecure The Titan's Steps
+- Image Prompt: Private table TTRPG story atlas asset for Helena Corain, NPC / Ally. Role: Elderly climber and respected mountain-crab egg merchant. Summary: A direct, affable, brave human who free-climbs the Titan's Steps and commands more respect than most locals of the wood.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: Wind-cut confidence with nothing left to prove and everything left to protect. Stopped charging children for eggs after one hungry winter. Cannot abide a young climber trusting a posted safety notice over their own grip.
+- Wants: Sell good eggs, warn fools off bad rock, and see who respects the climb.
+- Fears: Young climbers trusting a posted assurance more than their hands.
+- Secrets: She knows which routes companies abandoned after taking the easy profit.
+- Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.
+- Sample Dialogue: That rock will kill you politely. Listen to me instead of the sign. Eggs are fair price. The advice is free, because I am old. You climb with your hands, not with a guarantee. Remember it.
+- Equipment: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry.
+- Search Or Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+- Gm Use: Use this person to put a human face on the current pressure. Give them one concrete want before exposition.
+- Future Hooks: Bring back as an echo if players made a strong choice involving this entity.
+- Stat Summary: Difficulty 12. Experiences: Climbing +3, Strike a Deal +2.
+- Robust: Helena Corain: A direct, affable, brave human who free-climbs the Titan's Steps and commands more respect than most locals of the wood. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Get a concrete outcome tied to The Sable Sinecure, The Titan's Steps, Mountain Crabs, while keeping personal agency instead of becoming a delivery mechanism for lore. Being ignored at the moment their local knowledge matters, or having The Sable Sinecure, The Titan's Steps, Mountain Crabs used without care. Use this person to put a human face on the current pressure. Give them one concrete want before exposition. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Helena Corain and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a...
+- Mechanics: Social / Information Mechanics Players can interact, comfort, persuade, or earn trust Helena Corain when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A direct, affable, brave human who free-climbs the Titan's Steps and commands more respect than most locals of the wood. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-helena-corain-engage-helena-corain entity-helena-corain Engage Helena Corain Engage Helena Corain Presence Knowledge Instinct Presence Knowledge, Instinct 12 Choose the trait from the player's method, not the entity type. A flat read of Helena Corain hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a...
+- Pronunciation: heh-LAY-nuh koh-RAYN
+- Short Pronunciation: heh-LAY-nuh koh-RAYN
+- Npc Profile: npc-profile-v1 NPC_System_Packet + image-informed hardening Helena Corain A direct, affable, brave human who free-climbs the Titan's Steps and commands more respect than most locals of the wood. An elderly climber smiles with wind-cut confidence, grey braids tied in climbing cord and a basket of pale mountain-crab eggs tucked safely against her shoulder. Helena Corain: A direct, affable, brave human who free-climbs the Titan's Steps and commands more respect than most locals of the wood. Helena Corain heh-LAY-nuh koh-RAYN A direct, affable, brave human who free-climbs the Titan's Steps and commands more respect than most locals of the wood. Elderly climber and respected mountain-crab egg merchant Use as a role-first conversation handle, clue source, or pressure valve. Helena Corain gives the table a visible person attached to The Sable Sinecure, The Titan's Steps, Mountain Crabs. Start with sensory detail, then let questions earn the name and motive. A question to ask A local perspective A grounded reason this place matters A direct, affable, brave human who free-climbs the Titan's Steps and commands more respect than most locals of the wood.; at the table, give Helena Corain one...
+- One Line: A direct, affable, brave human who free-climbs the Titan's Steps and commands more respect than most locals of the wood.
+- Player Display Title: Helena Corain
+- Player Display Caption: A direct, affable, brave human who free-climbs the Titan's Steps and commands more respect than most locals of the wood.
+- Image: assets/npc-images/helena-corain/portrait_base.webp
+- Image Asset Status: npc_images
+- Visual Gallery: primary Primary wiki image primary assets/npc-images/helena-corain/portrait_base.webp Helena Corain primary wiki image visual. Helena Corain: Primary wiki image. npc_images True True npc-fullbody_base Full-body npc-portrait assets/npc-images/helena-corain/fullbody_base.webp Helena Corain full-body visual. Helena Corain: Full-body. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/helena-corain/fullbody_base.png npc-fullbody_chroma Full-body chroma source npc-portrait assets/npc-images/helena-corain/fullbody_chroma.webp Helena Corain full-body chroma source visual. Helena Corain: Full-body chroma source. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/helena-corain/fullbody_chroma.png npc-fullbody_transparent Full-body transparent cutout npc-portrait assets/npc-images/helena-corain/fullbody_transparent.webp Helena Corain full-body transparent cutout visual. Helena Corain: Full-body transparent cutout. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/helena-corain/fullbody_transparent.png npc-portrait_chroma Portrait chroma source npc-portrait...
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 32aa147da52e3aa2 | Source hash dac3370046ed077140fab2d6

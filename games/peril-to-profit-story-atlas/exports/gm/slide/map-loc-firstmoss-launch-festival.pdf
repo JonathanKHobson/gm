@@ -1,0 +1,106 @@
+%PDF-1.4
+1 0 obj
+<< /Length 1376 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-firstmoss-launch-festival - Firstmoss Launch Festival Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The lane opens into a village festival: green lanterns, mossfruit cakes, damp banners,) Tj
+T*
+(children under watchful eyes, and music doing its best to be louder than the ward's) Tj
+T*
+(uneven hum.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(The lane opens into a village festival: green lanterns, mossfruit cakes, damp banners,) Tj
+T*
+(children under watchful eyes, and music doing its best to be louder than the ward's) Tj
+T*
+(uneven hum.) Tj
+T*
+() Tj
+T*
+(GM goal) Tj
+T*
+() Tj
+T*
+(Use the festival as optional joy with a concrete boon and a quiet farm/ward seed.) Tj
+T*
+() Tj
+T*
+(GM script) Tj
+T*
+() Tj
+T*
+(Say: "Festival participation is a real option, not filler. If the party joins sincerely,) Tj
+T*
+(name the boon before moving on.") Tj
+T*
+() Tj
+T*
+(State controls) Tj
+T*
+() Tj
+T*
+(- festival_participation Festival Participation checkbox) Tj
+T*
+(- festival_boon Festival Boon select none charm favor market_find goodwill) Tj
+T*
+(- hush_trust Hush Trust select low neutral high) Tj
+T*
+(- ward_awareness Ward Awareness select none seed aware) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 25fba127d0a11069 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [2 0 R] /Count 1 >>
+endobj
+4 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000001437 00000 n 
+0000001563 00000 n 
+0000001620 00000 n 
+0000001669 00000 n 
+trailer
+<< /Size 6 /Root 4 0 R >>
+startxref
+1741
+%%EOF

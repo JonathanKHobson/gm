@@ -1,0 +1,97 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "scene",
+  "id": "S05-07",
+  "title": "S05-07 - The Ward Locks Into Place",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "fe3d7973eb0ee6a9",
+  "sections": [
+    {
+      "title": "Player read-aloud",
+      "body": "The Keystone sings once, low and clear. The enemies dissolve like dust remembering it was overdue."
+    },
+    {
+      "title": "Scene summary",
+      "body": "The countdown reaches zero and the ward renewal completes."
+    },
+    {
+      "title": "Visible choices",
+      "items": [
+        "Describe final move",
+        "Save Custodian",
+        "Witness ward pulse"
+      ]
+    },
+    {
+      "title": "Player questions",
+      "items": [
+        "What detail in The Ward Locks Into Place tells you the official story is incomplete?",
+        "Who notices the human cost first, and how do they show it?",
+        "What small object, smell, or sound makes this scene feel real?"
+      ]
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: S05-07",
+        "Act: Act Five",
+        "Title: The Ward Locks Into Place",
+        "Beats: Payoff Emotional beat Lore reveal",
+        "Image: assets/scenes/S05-07-the-ward-locks-into-place.webp",
+        "Short: The countdown reaches zero and the ward renewal completes.",
+        "Long: The fight ends with catharsis, not a boss death. The party protected the person doing the work.",
+        "Read: The Keystone sings once, low and clear. The enemies dissolve like dust remembering it was overdue.",
+        "Gm: Give every player a final visual beat of what their character did that made the ritual succeed.",
+        "Entities: Keystone Asset Whitefire Custodian Open Vale™ Ritual Site Hush Relay Spire Goldspire Territories Auditor's Verdict Ledger™ Ritual Countdown Route Ledger",
+        "Choices: Describe final move Save Custodian Witness ward pulse",
+        "Prompt: Ward ritual completes in burst of golden light; skeletons crumble, wraiths dissolve, exhausted Custodian steadies herself beside glowing Keystone Asset; party battered but victorious; no strixwolf.",
+        "Source Entities: Keystone Asset Whitefire Custodian Open Vale™ Ritual Site",
+        "Beat Codes: payoff emotional-beat lore-reveal",
+        "Slug: S05-07-the-ward-locks-into-place",
+        "Act Title: The Ward Renewal",
+        "Arc Role: Ordeal, ritual defense, and restoration",
+        "Caption: The ward restoration is a reward because Hush can breathe again.",
+        "Image Alt: The Ward Locks Into Place scene art for The Ward Renewal.",
+        "Image Prompt Used: Ward ritual completes in burst of golden light; skeletons crumble, wraiths dissolve, exhausted Custodian steadies herself beside glowing Keystone Asset; party battered but victorious; no strixwolf. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions unless explicitly requested. No Strixwolf. No Bramble Union. Only Legacy Security Skeletons and Soul-Audit Wraiths as threats. 4:3 cinematic fantasy concept art, no visible text, no captions, no logos, no UI, no watermark.",
+        "Long Storyboard: The fight ends with catharsis, not a boss death. The party protected the person doing the work. Run this scene as ordeal, ritual defense, and restoration: The ward restoration is a reward because Hush can breathe again. Keep the camera close to practical choices, visible consequences, and the difference between ordinary people and the infrastructure pressing on them.",
+        "Read Aloud: The Keystone sings once, low and clear. The enemies dissolve like dust remembering it was overdue.",
+        "Gm Notes: Give every player a final visual beat of what their character did that made the ritual succeed. Keep player-facing information actionable. Reveal systemic truth through objects, reactions, and consequences before naming it. Manufactured-threat lens: seed the contradiction, do not explain it. The surface goal stays simple and heroic.",
+        "Sensory Details: emerald light settling into soil the first normal birdcall in hours warmth returning to fingertips",
+        "Body Language: The Custodian sways before she smiles Locals do not cheer until they believe it",
+        "Sample Dialogue: Whitefire Custodian There. Not fixed forever. Fixed enough for tomorrow, which is sometimes the honest miracle.",
+        "Checks: No required check Let the outcome breathe. - Resolve Ward Stability based on protection and choices. - Cleanly resolve: Let the outcome breathe. Add a concrete boon, extra clue, or improved position. Success, plus the player names one helpful detail or asks one follow-up question. Success, but the GM exposes a cost, ticks a countdown, or reveals a new pressure tied to The Ward Locks Into Place. The full goal slips, but the party still learns a useful truth or avoids the worst consequence. The GM makes a hard move that follows from the fiction and leaves the next choice visible. Spend Fear to tick the ritual countdown, expose the Custodian, activate ward backlash, or trigger Market Correction. On mixed or sliding results, reveal information in layers: visible fact, actionable clue, then systemic truth.",
+        "Choices Consequences: Name who helped Make the victory communal. Hush epilogue strengthens. Leave immediately Efficient, colder. Next hook feels more transactional.",
+        "Clues: Ward tone The ward is back. The Relay Spire can still fail later. Strong or wavering based on the track.",
+        "Loot: Open Vale residue Community gratitude Strong or unstable ward tag Auditor's Verdict Ledger™: A black ledger with bronze corners opens too neatly, as if the pages have already decided what the facts will be.",
+        "Payoff Flags: Hush Trust Track Ward Stability Track",
+        "Filters: act-five choice emotional-beat gm-only hush-trust-track lore-reveal payoff the-ward-renewal ward-stability-track npc manufactured-threat guaranteed-earned clue",
+        "Index: 24",
+        "Player Questions: What detail in The Ward Locks Into Place tells you the official story is incomplete? Who notices the human cost first, and how do they show it? What small object, smell, or sound makes this scene feel real?",
+        "Relationship Prompts: Which PC quietly checks on someone else here? Who disagrees about the right thing to do without breaking trust?",
+        "Ownership Prompt: Name one detail in The Ward Locks Into Place that belongs to your character's point of view.",
+        "Reveal Hooks: Loreborne or Knowledge-focused PCs can read the institutional layer. Wildborne/community-focused PCs can read local custom and ecological stress. Martial/security-focused PCs can read threat posture and custody logic. Magic-focused PCs can feel ward tone, soul-signal, or spell instability. Loreborne: spots older legal, heraldic, or ward-craft language under the branding. Underborne: notices service doors, hidden routes, and who built the thing nobody credits. Highborne: reads etiquette, class panic, and reputational risk. Ridgeborne: notices stonework, weight, pressure, and structural weakness. Wildborne: reads the land, animals, and local ecological stress. Elf/Ribbet/Human/Giant/Katari: invite one sensory or social detail from the player's heritage. Sorcerer/Rogue/Warrior/Guardian/Ranger: give each class one table-facing way to shine without changing the plot.",
+        "Fear Spends: Spend Fear to tick the ritual countdown, expose the Custodian, activate ward backlash, or trigger Market Correction. Tick the Ritual Countdown the wrong direction or expose the Custodian. Trigger Market Correction, Pass-Through, Memory Delve, or Group Attack when fiction supports it.",
+        "Story Scope: Perceived antagonist: the forest. True antagonist: the corporate lie about the forest. The players never confront it directly. They are meant to feel it by the end. Every act offers at least one guaranteed and one earned hint that the danger is manufactured and the forest is not the enemy. Soul-Audit Wraiths bear audit glyphs and say, \"Unlicensed soul-resonance detected. Submit for audit.\" REFLAVOR GUARANTEED A defeated wraith leaves a Soulspire compliance tag or coil-credit token instead of natural remains. ADD GUARANTEED Wraiths ignore forest creatures and home only on ritual soul-magic. ADD EARNED Instinct Medium 15 A player can read the markings and name Soulspire without the GM naming it first. ADD EARNED Knowledge Medium 15 Optional flag: Legacy Skeletons carry scraps of old corporate credentials. FLAG SEED Instinct: target logic. Knowledge: read markings. ACT5 Act 5: Open Vale defense 200 2:40 to 3:20 3:20 countdown 8, skeletons, wraiths, Market Correction Lower the countdown start to 6; cap wraith reinforcements.",
+        "Mechanics: The party is in Act Five pressure: The countdown reaches zero and the ward renewal completes. Use Daggerheart Duality Dice as baseline. Use the listed Difficulty and outcome options when a roll matters. Keep trivial actions no-roll; roll only when uncertainty, cost, or danger is interesting. s05-07-help-the-ward-lock-into-place S05-07 Help the ward lock into place Help the ward lock into place Knowledge Presence Knowledge Presence 12 Knowledge supports the craft; Presence steadies the people tied to it. The ward returns unstable or emotionally hollow. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. The ward returns unstable or emotionally hollow...",
+        "Roll Cards: s05-07-help-the-ward-lock-into-place S05-07 Help the ward lock into place Help the ward lock into place Knowledge Presence Knowledge Presence 12 Knowledge supports the craft; Presence steadies the people tied to it. The ward returns unstable or emotionally hollow. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. The ward returns unstable or emotionally hollow. Use a hard complication, lost time, worse position, GM Fear, or mark Stress. Apply an official condition only if the fiction and rules justify it. The attempt falls short, but a partial thread appears. Offer one clue, weak position, or safer follow-up. The PC gets the core result, but it...",
+        "Conditions Hazards: No official condition unless a feature, hazard, or fictional position calls for Hidden, Restrained, or Vulnerable.",
+        "Search Loot Clues: No fixed loot. Offer clue, texture, or hospitality only when the fiction supports it.",
+        "No Roll Guidance: Do not call for a roll when the players have time, a clear method, and no meaningful pressure.",
+        "Tv Mechanics Caption: Public cue: The Ward Locks Into Place asks what the party does, what it costs, and who is protected.",
+        "Trait Variety Note: Primary traits in this scene: Knowledge, Presence. If rolls drift toward Instinct/Presence, ask whether Agility, Strength, Finesse, or Knowledge better describes the action.",
+        "Location Ids: hush open-valetm-ritual-site relay-spire goldspire-territories",
+        "Item Ids: auditors-verdict-ledger",
+        "Clueids: glass-bright-ward-sand",
+        "Clue Ids: glass-bright-ward-sand",
+        "Image Asset Status: image_gen"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash fe3d7973eb0ee6a9 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

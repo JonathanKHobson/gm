@@ -1,0 +1,173 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2276 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S05-04 - The Soul-Audit Wraiths) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The drifting things reach you, and they do not swing for your body. One presses a cold) Tj
+T*
+(hand to a face and reaches inside, dredging up something buried. The other simply passes) Tj
+T*
+(through a body like a door, and for a horrible moment a soul stands outside itself,) Tj
+T*
+(unable to move, unable to act, while the fight roars on without them. These are worse) Tj
+T*
+(than the dead. These ask questions you do not want to answer.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Survive the wraiths, protect each other, and keep the ritual on track.) Tj
+T*
+() Tj
+T*
+(GM goal) Tj
+T*
+() Tj
+T*
+(Escalate into wraith pressure where memory, vulnerability, and rescue become the) Tj
+T*
+(emotional core.) Tj
+T*
+() Tj
+T*
+(GM notes) Tj
+T*
+() Tj
+T*
+(- Use Pass-Through sparingly. Rescue and grounding should return players to action) Tj
+T*
+(  quickly.) Tj
+T*
+() Tj
+T*
+(GM script) Tj
+T*
+() Tj
+T*
+(Say: "These do not want your blood. They want your worst memory and your soul out of) Tj
+T*
+(your body. If someone gets knocked loose, protecting and calling them back is the) Tj
+T*
+(scene.") Tj
+T*
+() Tj
+T*
+(State controls) Tj
+T*
+() Tj
+T*
+(- ward_stability Ward Stability select fragile stable) Tj
+T*
+(- ritual_prep Ritual Prep select unready ready) Tj
+T*
+(- ritual_countdown Ritual Countdown number 10 8) Tj
+T*
+(- ritual_outcome Ritual Outcome select unresolved clean costly pyrrhic) Tj
+T*
+(- protected_whom Protected Whom select unresolved custodian party hush shared) Tj
+T*
+(- custodian_fate Custodian Fate select unresolved well drained dying) Tj
+T*
+(- strixwolf_disposition Strixwolf Disposition select unresolved calm hostile killed) Tj
+T*
+(- strixwolf_outcome Strixwolf Outcome select unresolved calmed helped avoided attacked) Tj
+T*
+(  killed) Tj
+T*
+(- strixwolf_trust Strixwolf Trust number 3) Tj
+T*
+(- strixwolf_blood_debt Strixwolf Blood Debt checkbox) Tj
+T*
+(- bramble_outcome Bramble Outcome select unresolved killed captured spared negotiated) Tj
+T*
+(  escaped let_cargo) Tj
+T*
+(- bramble_truth_learned Bramble Truth Learned checkbox) Tj
+T*
+(- package_status Package Status select held lost) Tj
+T*
+(- hush_trust Hush Trust select low neutral high) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 679 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- custodian_route Custodian Route select unknown safe dangerous) Tj
+T*
+(- ward_awareness Ward Awareness select none seed aware) Tj
+T*
+(- festival_boon Festival Boon select none charm favor market_find goodwill) Tj
+T*
+(- custodian_trust Custodian Trust select low neutral high) Tj
+T*
+(- keystone_understanding Keystone Understanding select surface deep) Tj
+T*
+(- hush_clues Hush Clues select none custodian_route ward_seed corporate_seam farm_seed) Tj
+T*
+(  market_rumor multiple) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash a02c8657d418c4fb | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R] /Count 2 >>
+endobj
+6 0 obj
+<< /Type /Catalog /Pages 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000002337 00000 n 
+0000002463 00000 n 
+0000003193 00000 n 
+0000003319 00000 n 
+0000003382 00000 n 
+0000003431 00000 n 
+trailer
+<< /Size 8 /Root 6 0 R >>
+startxref
+3503
+%%EOF

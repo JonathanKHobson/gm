@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S02-01",
+  "kind": "scene",
+  "title": "S02-01 - The Fallout Investigation",
+  "in_world_label": "Situation Briefing",
+  "brand_flag": "Briefing",
+  "kicker": "Cargo Reclaimers",
+  "hook": "The wreck tells a second story. Some damage is animal hunger. Some is not.",
+  "blocks": [
+    {
+      "label": "Where You Are",
+      "body": "The wreck tells a second story. Some damage is animal hunger. Some is not."
+    },
+    {
+      "label": "Plain Stakes",
+      "body": "The party discovers clues that the strixwolf was not the whole story."
+    },
+    {
+      "label": "Visible Options",
+      "body": "Inspect body Search cart Follow tracks Move cart"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "What detail in The Fallout Investigation tells you the official story is incomplete?",
+    "Who notices the human cost first, and how do they show it?",
+    "What small object, smell, or sound makes this scene feel real?"
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - scene:S02-01",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "3416381379f74aa1",
+  "generated_at": "2026-06-23T21:40:58"
+}

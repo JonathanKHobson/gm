@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "connection-prompts",
+  "kind": "rule",
+  "title": "Connection Prompts",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "session-zero",
+  "hook": "Short relationship questions that build party history with consent.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Short relationship questions that build party history with consent."
+    },
+    {
+      "label": "How It Works",
+      "body": "Connection Prompts: Short relationship questions that build party history with consent."
+    },
+    {
+      "label": "Try It",
+      "body": "How do connections work?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use before play to create one or two playable relationships between PCs.",
+    "One player offers a memory or relationship prompt; the other player answers from their character's point of view.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:connection-prompts",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "359b3a0f81fca80a",
+  "generated_at": "2026-06-23T21:40:58"
+}

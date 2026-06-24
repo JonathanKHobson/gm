@@ -1,0 +1,42 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "MAP-LOC-firstmoss-launch-festival",
+  "title": "MAP-LOC-firstmoss-launch-festival - Firstmoss Launch Festival Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "25fba127d0a11069",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The lane opens into a village festival: green lanterns, mossfruit cakes, damp banners, children under watchful eyes, and music doing its best to be louder than the ward's uneven hum."
+    },
+    {
+      "title": "Public objective",
+      "body": "The lane opens into a village festival: green lanterns, mossfruit cakes, damp banners, children under watchful eyes, and music doing its best to be louder than the ward's uneven hum."
+    },
+    {
+      "title": "GM goal",
+      "body": "Use the festival as optional joy with a concrete boon and a quiet farm/ward seed."
+    },
+    {
+      "title": "GM script",
+      "body": "Say: \"Festival participation is a real option, not filler. If the party joins sincerely, name the boon before moving on.\""
+    },
+    {
+      "title": "State controls",
+      "items": [
+        "festival_participation Festival Participation checkbox",
+        "festival_boon Festival Boon select none charm favor market_find goodwill",
+        "hush_trust Hush Trust select low neutral high",
+        "ward_awareness Ward Awareness select none seed aware"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 25fba127d0a11069 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

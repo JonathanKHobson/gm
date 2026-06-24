@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "short-rest",
+  "kind": "entity",
+  "title": "Short Rest",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Mechanic",
+  "hook": "Player-safe note: Each PC chooses two rest moves; the GM gains 1d4 Fear.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Each PC chooses two rest moves; the GM gains 1d4 Fear."
+    },
+    {
+      "label": "How It Works",
+      "body": "Downtime move suite before the ritual pressure peaks"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use this when your action is uncertain and consequences matter.",
+    "Ask which trait fits your method."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:short-rest",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "e96ebc6eb644880b",
+  "generated_at": "2026-06-23T21:40:58"
+}

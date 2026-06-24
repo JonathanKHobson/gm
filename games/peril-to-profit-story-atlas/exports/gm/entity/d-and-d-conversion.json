@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "d-and-d-conversion",
+  "title": "D&D Conversion",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "da36b15727dc4083",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "D&D Conversion: A non-official aid: Daggerheart uses traits, so pick the trait that matches the fictional approach."
+    },
+    {
+      "title": "Public role",
+      "body": "GM aid for translating D&D skill instincts into Daggerheart traits"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: A non-official aid: Daggerheart uses traits, so pick the trait that matches the fictional approach."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use when the scene needs a concrete object for players to inspect, carry, debate, or remember."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash da36b15727dc4083 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

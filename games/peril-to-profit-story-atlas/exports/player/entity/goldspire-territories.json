@@ -1,0 +1,44 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "goldspire-territories",
+  "kind": "entity",
+  "title": "Goldspire Territories",
+  "in_world_label": "Goldspire Travel Advisory",
+  "brand_flag": "Player-safe",
+  "kicker": "A vast bright frontier-fantasy territory of walled cities, giant forests, wet villages, relay towers, old roads, and cheerful safety...",
+  "hook": "A vast bright frontier-fantasy territory of walled cities, giant forests, wet villages, relay towers, old roads, and cheerful safety promises that never quite cover the cracks.",
+  "blocks": [
+    {
+      "label": "Arrival Read",
+      "body": "Goldspire is not one city. It is a huge territory of paved capitals, painted forest roads, mossy villages, quarry towns, river markets, ridge relays, and old magic under newer paperwork."
+    },
+    {
+      "label": "Known For",
+      "body": "Gigantic forests, courier roads, territory capitals, branded protection, moss villages, bright markets, relay towers, and older magic that refuses to become a product."
+    },
+    {
+      "label": "What Is Here",
+      "body": "Local residents or workers appropriate to the place hybrid forest wildlife, courier birds, canal frogs, ridge goats, market beetles, domestic pack animals No default combatant; add only if the scene introduces one Emeris Crown Holdings Goldwater Financial..."
+    },
+    {
+      "label": "Food And Texture",
+      "body": "Road food changes by region: fried gate dough in Emeris, moss-honey bread in Hush, hot quarry stews, bright market skewers, strong forest tonics, and suspiciously cheerful packaged remedies from city manufactories."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Look for the busiest local gathering point.",
+    "Ask what has changed here recently."
+  ],
+  "archetype": "location.advisory",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:goldspire-territories",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "5f454118f0809551",
+  "generated_at": "2026-06-23T21:40:58"
+}

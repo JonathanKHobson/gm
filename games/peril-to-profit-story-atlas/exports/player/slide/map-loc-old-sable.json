@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "MAP-LOC-old-sable",
+  "kind": "slide",
+  "title": "MAP-LOC-old-sable - Old Sable Location Map",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act Four: The Hanging Office",
+  "hook": "Older stones sit half-hidden near the path, weathered enough that nobody here could have made them recently.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "Older stones sit half-hidden near the path, weathered enough that nobody here could have made them recently."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Older stones sit half-hidden near the path, weathered enough that nobody here could have made them recently."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:MAP-LOC-old-sable",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "06ff62e036201413",
+  "generated_at": "2026-06-23T21:40:58"
+}

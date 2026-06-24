@@ -1,0 +1,326 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2688 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-sablewood-route-network - Sablewood Route Network Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(Sunken, well-worn routes through Sablewood where licensed knowledge, family route-data,) Tj
+T*
+(and corporate coverage determine who is allowed to be safe.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Sunken, well-worn routes through Sablewood where licensed knowledge, family route-data,) Tj
+T*
+(and corporate coverage determine who is allowed to be safe.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-sablewood-route-network) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: ACT-ONE) Tj
+T*
+(- Sectiontitle: Act One: The Logistics Incident) Tj
+T*
+(- Title: Sablewood Route Network Location Map) Tj
+T*
+(- Shorttitle: Sablewood Route Network) Tj
+T*
+(- Order: 201.16) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-sablewood-route-network-gm.png) Tj
+T*
+(- Alt: Sablewood Route Network location map board.) Tj
+T*
+(- Caption: Visual reference for Sablewood Route Network.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Use this environment board to orient space, table questions, and safe) Tj
+T*
+(  reveals.) Tj
+T*
+(- Publicobjective: Sunken, well-worn routes through Sablewood where licensed) Tj
+T*
+(  knowledge, family route-data, and corporate coverage determine who is allowed to be) Tj
+T*
+(  safe.) Tj
+T*
+(- Readaloud: Sunken, well-worn routes through Sablewood where licensed knowledge,) Tj
+T*
+(  family route-data, and corporate coverage determine who is allowed to be safe.) Tj
+T*
+(- Playertakeaway: Sunken, well-worn routes through Sablewood where licensed knowledge,) Tj
+T*
+(  family route-data, and corporate coverage determine who is allowed to be safe.) Tj
+T*
+(- Storytakeaway: Visual reference for Sablewood Route Network.) Tj
+T*
+(- Mechanictakeaway: Use the map as visual reference unless the scene is explicitly in) Tj
+T*
+(  combat.) Tj
+T*
+(- Entityids: sablewood-route-network) Tj
+T*
+(- Entities: sablewood-route-network Sablewood Route Network location Location) Tj
+T*
+(  assets/icons/location.png assets/location-visuals/sablewood-route-) Tj
+T*
+(  network/profile_scene_v02.png SAY-bul-wood Route Network Sunken, well-worn routes) Tj
+T*
+(  through Sablewood where licensed knowledge, family route-data, and corporate) Tj
+T*
+(  coverage determine who is allowed to be safe. Approved-path travel pressure in the) Tj
+T*
+(  Preserve Sunken, well-worn routes through Sablewood where licensed knowledge, family) Tj
+T*
+(  route-data, and corporate coverage determine who is allowed to be safe.; introduce) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4172 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  it with a sensory palette, who feels safe there, and what has been neglected. Pull) Tj
+T*
+(  player attention toward the choices, clues, and relationships tied to Sablewood?) Tj
+T*
+(  Logistics Preserve, Sablewood Route Gate, Goldspire Waymarkers. Sunken, well-worn) Tj
+T*
+(  routes through Sablewood where licensed knowledge, family route-data, and corporate) Tj
+T*
+(  coverage determine who is allowed to be safe.) Tj
+T*
+(- Locationids: sablewood-route-network) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S01-02) Tj
+T*
+(- Mapdata: MAP-LOC-sablewood-route-network environment Sablewood Route Network) Tj
+T*
+(  Location Map S01-02 sablewood-route-network assets/location-visuals/sablewood-route-) Tj
+T*
+(  network/profile_scene_v02.png Visual reference for Sablewood Route Network.) Tj
+T*
+(  Sablewood Route Network location map board. Sunken, well-worn routes through) Tj
+T*
+(  Sablewood where licensed knowledge, family route-data, and corporate coverage) Tj
+T*
+(  determine who is allowed to be safe. Visual reference for Sablewood Route Network.) Tj
+T*
+(  Leaf-drip, insects, distant wingbeats, and animal calls that stop or resume) Tj
+T*
+(  according to pressure, not comfort. Rain on leaves, sap, mushroom loam, wet bark,) Tj
+T*
+(  and the musk of unseen animals. Bark is damp and ridged; mud alternates between) Tj
+T*
+(  springy moss and slick clay. The forest is populated even when no NPC is present;) Tj
+T*
+(  silence, birds, insects, and tracks are actionable signals. Sight Visual reference) Tj
+T*
+(  for Sablewood Route Network. Sound Leaf-drip, insects, distant wingbeats, and animal) Tj
+T*
+(  calls that stop or resume according to pressure, not comfort. Smell Rain on leaves,) Tj
+T*
+(  sap, mushroom loam, wet bark, and the musk of unseen animals. Texture / air Bark is) Tj
+T*
+(  damp and ridged; mud alternates between springy moss and slick clay...) Tj
+T*
+(- Livetools: scene MAP-LOC-sablewood-route-network) Tj
+T*
+(- Takeawayhelp: Player takeaway: MAP-LOC-sablewood-route-network Sunken, well-worn) Tj
+T*
+(  routes through Sablewood where licensed knowledge, family route-data, and corporate) Tj
+T*
+(  coverage determine who is allowed to be safe. Give the player one concrete way back) Tj
+T*
+(  into play: a question, a description, a choice, or a pass-and-return moment. "Your) Tj
+T*
+(  takeaway right now is this: Sunken, well-worn routes through Sablewood where) Tj
+T*
+(  licensed knowledge, family route-data, and corporate coverage determine who is) Tj
+T*
+(  allowed to be safe." "If you are not sure what to do next, you can ask a question,) Tj
+T*
+(  describe what your character notices, or tell me what your character tries." "If you) Tj
+T*
+(  are not sure what to do next, you can ask a question, describe what your character) Tj
+T*
+(  notices, or tell me what your character tries." Give the player one concrete way) Tj
+T*
+(  back into play: a question, a description, a choice, or a pass-and-return moment.) Tj
+T*
+(  Story takeaway: MAP-LOC-sablewood-route-network Visual reference for Sablewood Route) Tj
+T*
+(  Network. Anchor the answer in the visible fiction on this slide: who is present,) Tj
+T*
+(  what can be observed, what has already been said, and what remains uncertain. "Here) Tj
+T*
+(  is what your characters know right now: Visual reference for...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-sablewood-route-network-player.png Sablewood Route) Tj
+T*
+(  Network location map board. MAP-LOC-sablewood-route-network environment Sablewood) Tj
+T*
+(  Route Network S01-02 assets/maps/MAP-LOC-sablewood-route-network-player.png) Tj
+T*
+(  assets/maps/MAP-LOC-sablewood-route-network-player.png Visual reference for) Tj
+T*
+(  Sablewood Route Network. Sablewood Route Network location map board. Sunken, well-) Tj
+T*
+(  worn routes through Sablewood where licensed knowledge, family route-data, and) Tj
+T*
+(  corporate coverage determine who is allowed to be safe. MAP-LOC-sablewood-route-) Tj
+T*
+(  network-map-only Map only Sablewood Route Network map-only assets/maps/MAP-LOC-) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2384 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  sablewood-route-network-player.png Sablewood Route Network location map board. MAP-) Tj
+T*
+(  LOC-sablewood-route-network environment Sablewood Route Network S01-02) Tj
+T*
+(  assets/maps/MAP-LOC-sablewood-route-network-player.png assets/maps/MAP-LOC-) Tj
+T*
+(  sablewood-route-network-player.png Visual reference for Sablewood Route Network.) Tj
+T*
+(  Sablewood Route Network location map board. Sunken, well-worn routes through) Tj
+T*
+(  Sablewood where licensed knowledge, family route-data, and corporate coverage) Tj
+T*
+(  determine who is allowed to be safe. MAP-LOC-sablewood-route-network-map-text Map +) Tj
+T*
+(  text Sablewood Route...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-sablewood-route-network map Sablewood Route Network) Tj
+T*
+(  assets/maps/MAP-LOC-sablewood-route-network-player.png Sablewood Route Network) Tj
+T*
+(  location map board. Visual reference for Sablewood Route Network. spatial reference) Tj
+T*
+(  and location texture Sunken, well-worn routes through Sablewood where licensed) Tj
+T*
+(  knowledge, family route-data, and corporate coverage determine who is allowed to be) Tj
+T*
+(  safe. Sunken, well-worn routes through Sablewood where licensed knowledge, family) Tj
+T*
+(  route-data, and corporate coverage determine who is allowed to be safe. MAP-LOC-) Tj
+T*
+(  sablewood-route-network environment Sablewood Route Network S01-02 assets/maps/MAP-) Tj
+T*
+(  LOC-sablewood-route-network-player.png assets/maps/MAP-LOC-sablewood-route-network-) Tj
+T*
+(  player.png Visual reference for Sablewood Route Network. Sablewood Route Network) Tj
+T*
+(  location map board. Sunken, well-worn routes through Sablewood where licensed) Tj
+T*
+(  knowledge, family route-data, and corporate coverage determine who is allowed to be) Tj
+T*
+(  safe. assets/maps/MAP-LOC-sablewood-route-network-player.png Sablewood Route Network) Tj
+T*
+(  location map board. MAP-LOC-sablewood-route-network environment Sablewood Route) Tj
+T*
+(  Network S01-02 assets/maps/MAP-LOC-sablewood-route-network-player.png...) Tj
+T*
+(- Slidenumber: 27) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash cab7a227f13e5cc8 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002749 00000 n 
+0000002875 00000 n 
+0000007099 00000 n 
+0000007225 00000 n 
+0000009661 00000 n 
+0000009787 00000 n 
+0000009856 00000 n 
+0000009905 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+9977
+%%EOF

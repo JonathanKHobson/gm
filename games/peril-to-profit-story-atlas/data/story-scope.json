@@ -1,0 +1,652 @@
+{
+  "antagonist_line": "Perceived antagonist: the forest. True antagonist: the corporate lie about the forest. The players never confront it directly. They are meant to feel it by the end.",
+  "gm_thesis": "Every act offers at least one guaranteed and one earned hint that the danger is manufactured and the forest is not the enemy.",
+  "surface_plot": [
+    "Accept the contract.",
+    "Receive the sealed package.",
+    "Enter the old forest.",
+    "Find the wrecked cart.",
+    "Face the Strixwolf Mother.",
+    "Survive or resolve the Bramble Union ambush.",
+    "Deliver the Keystone Asset to Hush.",
+    "Help the Custodian install the wardstone.",
+    "Defend Open Vale until the ward renews."
+  ],
+  "tag_legend": {
+    "KEEP": "Preserve the existing beat.",
+    "REFLAVOR": "Retell the existing beat through the manufactured-threat lens.",
+    "ADD": "Add a small table-facing detail.",
+    "SEED": "Plant the truth without explaining it.",
+    "GUARANTEED": "GM narrates it; every table sees it.",
+    "EARNED": "Requires a roll, mercy, curiosity, or follow-up.",
+    "FLAG": "Kyle decision or optional dial."
+  },
+  "pacing_schedule": [
+    {
+      "id": "ACT0",
+      "label": "Onboarding + Prologue",
+      "targetEndMinutes": 30,
+      "window": "0:00 to 0:30",
+      "target": "0:30",
+      "context": "pregens, safety, connections, Contract overview, Job briefing, forest threshold",
+      "lever": "Keep the Contract to plain setup, let the Job carry questions, then move to the blocked road."
+    },
+    {
+      "id": "ACT1",
+      "label": "Act 1: Logistics Incident",
+      "targetEndMinutes": 55,
+      "window": "0:30 to 0:55",
+      "target": "0:55",
+      "context": "cart, strixwolf, first rolls, clues",
+      "lever": "Skip the staged-bramble earned seed; move to ambush sooner."
+    },
+    {
+      "id": "ACT2",
+      "label": "Act 2: Bramble ambush",
+      "targetEndMinutes": 90,
+      "window": "0:55 to 1:30",
+      "target": "1:30",
+      "context": "first combat and possible interrogation",
+      "lever": "Abstract the fight via a Group Action roll; keep one captured reclaimer for the interrogation seed."
+    },
+    {
+      "id": "ACT3",
+      "label": "Act 3: Hush",
+      "targetEndMinutes": 125,
+      "window": "1:30 to 2:05",
+      "target": "2:05",
+      "context": "social beat, Co-op, local leads, optional break",
+      "lever": "Trim village wandering to the invoice plus one elder line; point to the Custodian."
+    },
+    {
+      "id": "ACT4",
+      "label": "Act 4: Hanging Office",
+      "targetEndMinutes": 160,
+      "window": "2:05 to 2:40",
+      "target": "2:40",
+      "context": "Custodian, Keystone reveal, new objective, short rest",
+      "lever": "Compress the reveal; bank the Short Rest into travel narration."
+    },
+    {
+      "id": "ACT5",
+      "label": "Act 5: Open Vale defense",
+      "targetEndMinutes": 200,
+      "window": "2:40 to 3:20",
+      "target": "3:20",
+      "context": "countdown 8, skeletons, wraiths, Market Correction",
+      "lever": "Lower the countdown start to 6; cap wraith reinforcements."
+    },
+    {
+      "id": "EPILOGUE",
+      "label": "Epilogue",
+      "targetEndMinutes": 210,
+      "window": "3:20 to 3:30",
+      "target": "3:30",
+      "context": "win, congratulatory-report cliffhanger, Relay Spire hook",
+      "lever": "Deliver the report prop and the hook even if you skip the slip."
+    }
+  ],
+  "act_seeds": {
+    "Prologue": [
+      {
+        "text": "Grail-branded bounty board: \"STRIXWOLF: APEX FOREST HAZARD. Sightings up 300%. Bounty payable in Marks.\"",
+        "tags": [
+          "ADD",
+          "GUARANTEED"
+        ],
+        "roll": ""
+      },
+      {
+        "text": "Couriers or a clerk trade fearful route gossip: the Preserve \"takes one a week now.\"",
+        "tags": [
+          "ADD",
+          "GUARANTEED"
+        ],
+        "roll": ""
+      },
+      {
+        "text": "A player asking what they know receives the corporate line: strixwolves are vicious pack predators.",
+        "tags": [
+          "ADD",
+          "EARNED"
+        ],
+        "roll": "Knowledge Easy 10"
+      }
+    ],
+    "Act One": [
+      {
+        "text": "The Strixwolf Mother is feeding pups and guarding them; she reacts to tone, not bloodlust.",
+        "tags": [
+          "REFLAVOR",
+          "GUARANTEED"
+        ],
+        "roll": "Presence to calm; Instinct to read boundaries"
+      },
+      {
+        "text": "The driver died from a cut throat; the strixwolf did not kill him.",
+        "tags": [
+          "KEEP",
+          "EARNED"
+        ],
+        "roll": "Instinct or Knowledge Medium 15"
+      },
+      {
+        "text": "Near the cart is a pre-written Grail \"Hazard Confirmed: Strixwolf Attack\" tag.",
+        "tags": [
+          "ADD",
+          "EARNED"
+        ],
+        "roll": "Finesse or Instinct Medium 15"
+      },
+      {
+        "text": "Helping the pups or sparing the mother earns Hope now and can create a later warning boon.",
+        "tags": [
+          "ADD",
+          "SEED"
+        ],
+        "roll": ""
+      }
+    ],
+    "Act Two": [
+      {
+        "text": "The reclaimers target the cargo and manifest, not purses, and avoid killing when possible.",
+        "tags": [
+          "REFLAVOR",
+          "GUARANTEED"
+        ],
+        "roll": ""
+      },
+      {
+        "text": "Their gear includes salvaged, repainted Grail/Kazrak kit: ex-workers, not feral bandits.",
+        "tags": [
+          "REFLAVOR",
+          "GUARANTEED"
+        ],
+        "roll": "Knowledge Medium 15 to name the issue"
+      },
+      {
+        "text": "\"That stone belongs in the ground.\" \"You do not know what you are carrying.\"",
+        "tags": [
+          "ADD",
+          "EARNED"
+        ],
+        "roll": ""
+      },
+      {
+        "text": "A spared/captured reclaimer says monster attacks spiked when protection contracts went on sale.",
+        "tags": [
+          "ADD",
+          "EARNED"
+        ],
+        "roll": "Presence Medium 15; requires mercy or capture"
+      }
+    ],
+    "Act Three": [
+      {
+        "text": "A Grail \"Protection Coverage\" invoice hangs on the Clover Co-op wall, overdue and steep.",
+        "tags": [
+          "ADD",
+          "GUARANTEED"
+        ],
+        "roll": ""
+      },
+      {
+        "text": "Firstmoss and the Sunless Farms show the forest feeding Hush rather than hunting it.",
+        "tags": [
+          "REFLAVOR",
+          "GUARANTEED"
+        ],
+        "roll": ""
+      },
+      {
+        "text": "An elder says, \"The wood was never this bad. The trouble came with the waymarkers.\"",
+        "tags": [
+          "ADD",
+          "EARNED"
+        ],
+        "roll": "Presence Easy 10"
+      },
+      {
+        "text": "A ledger shows protection costs and hazard sightings climbing together.",
+        "tags": [
+          "ADD",
+          "EARNED"
+        ],
+        "roll": "Knowledge Medium 15"
+      }
+    ],
+    "Act Four": [
+      {
+        "text": "The sealed package is the capital's ward Keystone; the city is unwarded while it is away.",
+        "tags": [
+          "KEEP",
+          "GUARANTEED"
+        ],
+        "roll": ""
+      },
+      {
+        "text": "\"The wood never needed managing. It needed leaving alone.\"",
+        "tags": [
+          "ADD",
+          "SEED"
+        ],
+        "roll": ""
+      },
+      {
+        "text": "\"Your capital's safety is older than your contracts. It is the very thing they teach you to fear.\"",
+        "tags": [
+          "ADD",
+          "SEED"
+        ],
+        "roll": ""
+      },
+      {
+        "text": "The Keystone's magic is pre-corporate forest-ward work, the same school companies call primitive.",
+        "tags": [
+          "ADD",
+          "EARNED"
+        ],
+        "roll": "Knowledge Hard 20"
+      },
+      {
+        "text": "The Custodian glances at obsolete Soulspire inspection seals on her counterweight boulder.",
+        "tags": [
+          "ADD",
+          "EARNED"
+        ],
+        "roll": "Instinct Medium 15"
+      }
+    ],
+    "Act Five": [
+      {
+        "text": "Soul-Audit Wraiths bear audit glyphs and say, \"Unlicensed soul-resonance detected. Submit for audit.\"",
+        "tags": [
+          "REFLAVOR",
+          "GUARANTEED"
+        ],
+        "roll": ""
+      },
+      {
+        "text": "A defeated wraith leaves a Soulspire compliance tag or coil-credit token instead of natural remains.",
+        "tags": [
+          "ADD",
+          "GUARANTEED"
+        ],
+        "roll": ""
+      },
+      {
+        "text": "Wraiths ignore forest creatures and home only on ritual soul-magic.",
+        "tags": [
+          "ADD",
+          "EARNED"
+        ],
+        "roll": "Instinct Medium 15"
+      },
+      {
+        "text": "A player can read the markings and name Soulspire without the GM naming it first.",
+        "tags": [
+          "ADD",
+          "EARNED"
+        ],
+        "roll": "Knowledge Medium 15"
+      },
+      {
+        "text": "Optional flag: Legacy Skeletons carry scraps of old corporate credentials.",
+        "tags": [
+          "FLAG",
+          "SEED"
+        ],
+        "roll": ""
+      }
+    ],
+    "Epilogue": [
+      {
+        "text": "The ritual completes, Hush is safe, and the Custodian thanks them. The win is real.",
+        "tags": [
+          "KEEP",
+          "GUARANTEED"
+        ],
+        "roll": ""
+      },
+      {
+        "text": "A Grail/Kazrak incident report thanks them for \"neutralizing forest hazards\" and supporting continued Protection Coverage.",
+        "tags": [
+          "ADD",
+          "GUARANTEED"
+        ],
+        "roll": ""
+      },
+      {
+        "text": "If pushed, the Custodian admits the \"hazards\" were not always here, then looks away.",
+        "tags": [
+          "ADD",
+          "EARNED"
+        ],
+        "roll": "Presence Hard 20"
+      },
+      {
+        "text": "A nearby Relay Spire beacon burns weakly, pointing to the larger thread.",
+        "tags": [
+          "KEEP",
+          "GUARANTEED"
+        ],
+        "roll": ""
+      }
+    ]
+  },
+  "scene_seeds": {
+    "S00-01": [
+      {
+        "text": "Grail-branded bounty board: \"STRIXWOLF: APEX FOREST HAZARD. Sightings up 300%. Bounty payable in Marks.\"",
+        "tags": [
+          "ADD",
+          "GUARANTEED"
+        ],
+        "roll": ""
+      },
+      {
+        "text": "Couriers or a clerk trade fearful route gossip: the Preserve \"takes one a week now.\"",
+        "tags": [
+          "ADD",
+          "GUARANTEED"
+        ],
+        "roll": ""
+      },
+      {
+        "text": "A player asking what they know receives the corporate line: strixwolves are vicious pack predators.",
+        "tags": [
+          "ADD",
+          "EARNED"
+        ],
+        "roll": "Knowledge Easy 10"
+      }
+    ],
+    "S01-02": [
+      {
+        "text": "The driver died from a cut throat; the strixwolf did not kill him.",
+        "tags": [
+          "KEEP",
+          "EARNED"
+        ],
+        "roll": "Instinct or Knowledge Medium 15"
+      },
+      {
+        "text": "Near the cart is a pre-written Grail \"Hazard Confirmed: Strixwolf Attack\" tag.",
+        "tags": [
+          "ADD",
+          "EARNED"
+        ],
+        "roll": "Finesse or Instinct Medium 15"
+      }
+    ],
+    "S01-03": [
+      {
+        "text": "The Strixwolf Mother is feeding pups and guarding them; she reacts to tone, not bloodlust.",
+        "tags": [
+          "REFLAVOR",
+          "GUARANTEED"
+        ],
+        "roll": "Presence to calm; Instinct to read boundaries"
+      },
+      {
+        "text": "Helping the pups or sparing the mother earns Hope now and can create a later warning boon.",
+        "tags": [
+          "ADD",
+          "SEED"
+        ],
+        "roll": ""
+      }
+    ],
+    "S02-03": [
+      {
+        "text": "The reclaimers target the cargo and manifest, not purses, and avoid killing when possible.",
+        "tags": [
+          "REFLAVOR",
+          "GUARANTEED"
+        ],
+        "roll": ""
+      },
+      {
+        "text": "Their gear includes salvaged, repainted Grail/Kazrak kit: ex-workers, not feral bandits.",
+        "tags": [
+          "REFLAVOR",
+          "GUARANTEED"
+        ],
+        "roll": "Knowledge Medium 15 to name the issue"
+      },
+      {
+        "text": "\"That stone belongs in the ground.\" \"You do not know what you are carrying.\"",
+        "tags": [
+          "ADD",
+          "EARNED"
+        ],
+        "roll": ""
+      }
+    ],
+    "S02-04": [
+      {
+        "text": "A spared/captured reclaimer says monster attacks spiked when protection contracts went on sale.",
+        "tags": [
+          "ADD",
+          "EARNED"
+        ],
+        "roll": "Presence Medium 15; requires mercy or capture"
+      }
+    ],
+    "S03-01": [
+      {
+        "text": "A Grail \"Protection Coverage\" invoice hangs on the Clover Co-op wall, overdue and steep.",
+        "tags": [
+          "ADD",
+          "GUARANTEED"
+        ],
+        "roll": ""
+      }
+    ],
+    "S03-02": [
+      {
+        "text": "An elder says, \"The wood was never this bad. The trouble came with the waymarkers.\"",
+        "tags": [
+          "ADD",
+          "EARNED"
+        ],
+        "roll": "Presence Easy 10"
+      },
+      {
+        "text": "A ledger shows protection costs and hazard sightings climbing together.",
+        "tags": [
+          "ADD",
+          "EARNED"
+        ],
+        "roll": "Knowledge Medium 15"
+      }
+    ],
+    "S03-03": [
+      {
+        "text": "A Grail \"Protection Coverage\" invoice hangs on the Clover Co-op wall, overdue and steep.",
+        "tags": [
+          "ADD",
+          "GUARANTEED"
+        ],
+        "roll": ""
+      }
+    ],
+    "S03-04": [
+      {
+        "text": "Firstmoss and the Sunless Farms show the forest feeding Hush rather than hunting it.",
+        "tags": [
+          "REFLAVOR",
+          "GUARANTEED"
+        ],
+        "roll": ""
+      }
+    ],
+    "S04-03": [
+      {
+        "text": "\"The wood never needed managing. It needed leaving alone.\"",
+        "tags": [
+          "ADD",
+          "SEED"
+        ],
+        "roll": ""
+      },
+      {
+        "text": "The Custodian glances at obsolete Soulspire inspection seals on her counterweight boulder.",
+        "tags": [
+          "ADD",
+          "EARNED"
+        ],
+        "roll": "Instinct Medium 15"
+      }
+    ],
+    "S04-04": [
+      {
+        "text": "The sealed package is the capital's ward Keystone; the city is unwarded while it is away.",
+        "tags": [
+          "KEEP",
+          "GUARANTEED"
+        ],
+        "roll": ""
+      },
+      {
+        "text": "\"Your capital's safety is older than your contracts. It is the very thing they teach you to fear.\"",
+        "tags": [
+          "ADD",
+          "SEED"
+        ],
+        "roll": ""
+      },
+      {
+        "text": "The Keystone's magic is pre-corporate forest-ward work, the same school companies call primitive.",
+        "tags": [
+          "ADD",
+          "EARNED"
+        ],
+        "roll": "Knowledge Hard 20"
+      }
+    ],
+    "S05-03": [
+      {
+        "text": "Soul-Audit Wraiths bear audit glyphs and say, \"Unlicensed soul-resonance detected. Submit for audit.\"",
+        "tags": [
+          "REFLAVOR",
+          "GUARANTEED"
+        ],
+        "roll": ""
+      }
+    ],
+    "S05-04": [
+      {
+        "text": "Optional flag: Legacy Skeletons carry scraps of old corporate credentials.",
+        "tags": [
+          "FLAG",
+          "SEED"
+        ],
+        "roll": ""
+      }
+    ],
+    "S05-05": [
+      {
+        "text": "Soul-Audit Wraiths bear audit glyphs and say, \"Unlicensed soul-resonance detected. Submit for audit.\"",
+        "tags": [
+          "REFLAVOR",
+          "GUARANTEED"
+        ],
+        "roll": ""
+      },
+      {
+        "text": "A defeated wraith leaves a Soulspire compliance tag or coil-credit token instead of natural remains.",
+        "tags": [
+          "ADD",
+          "GUARANTEED"
+        ],
+        "roll": ""
+      },
+      {
+        "text": "Wraiths ignore forest creatures and home only on ritual soul-magic.",
+        "tags": [
+          "ADD",
+          "EARNED"
+        ],
+        "roll": "Instinct Medium 15"
+      },
+      {
+        "text": "A player can read the markings and name Soulspire without the GM naming it first.",
+        "tags": [
+          "ADD",
+          "EARNED"
+        ],
+        "roll": "Knowledge Medium 15"
+      }
+    ],
+    "S06-01": [
+      {
+        "text": "The ritual completes, Hush is safe, and the Custodian thanks them. The win is real.",
+        "tags": [
+          "KEEP",
+          "GUARANTEED"
+        ],
+        "roll": ""
+      },
+      {
+        "text": "A Grail/Kazrak incident report thanks them for \"neutralizing forest hazards\" and supporting continued Protection Coverage.",
+        "tags": [
+          "ADD",
+          "GUARANTEED"
+        ],
+        "roll": ""
+      },
+      {
+        "text": "If pushed, the Custodian admits the \"hazards\" were not always here, then looks away.",
+        "tags": [
+          "ADD",
+          "EARNED"
+        ],
+        "roll": "Presence Hard 20"
+      }
+    ],
+    "S06-02": [
+      {
+        "text": "A nearby Relay Spire beacon burns weakly, pointing to the larger thread.",
+        "tags": [
+          "KEEP",
+          "GUARANTEED"
+        ],
+        "roll": ""
+      }
+    ]
+  },
+  "roll_menus": {
+    "Prologue": [
+      "Knowledge Easy 10: recall the corporate strixwolf line if asked."
+    ],
+    "Act One": [
+      "Presence: calm the mother.",
+      "Instinct: read the scene.",
+      "Knowledge: notice behavior mismatch.",
+      "Finesse: search the cart."
+    ],
+    "Act Two": [
+      "Instinct: spot ambush.",
+      "Presence: parley/interrogate.",
+      "Knowledge: recognize corporate-issue gear."
+    ],
+    "Act Three": [
+      "Presence: get people talking.",
+      "Knowledge: read invoice/ledger.",
+      "Instinct: sense resentment under hospitality."
+    ],
+    "Act Four": [
+      "Presence: earn candor.",
+      "Knowledge: place the magic.",
+      "Instinct: read the Custodian's fear."
+    ],
+    "Act Five": [
+      "Instinct: target logic.",
+      "Knowledge: read markings."
+    ],
+    "Epilogue": [
+      "Presence Hard 20: draw out the Custodian's slip."
+    ]
+  }
+}

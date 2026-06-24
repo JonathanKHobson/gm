@@ -1,0 +1,60 @@
+# MAP-LOC-the-claravale-market - The Claravale Market Location Map
+
+RAW export - slide:MAP-LOC-the-claravale-market
+
+## Player text
+Claravale Market turns forest wonder into breakfast, tools, gossip, and pocket-sized miracles: local stalls beside a few too-clean branded carts.
+
+## Public objective
+Claravale Market turns forest wonder into breakfast, tools, gossip, and pocket-sized miracles: local stalls beside a few too-clean branded carts.
+
+## Raw source
+- Id: MAP-LOC-the-claravale-market
+- Type: map
+- Maptype: environment
+- Sectionid: ACT-THREE
+- Sectiontitle: Act Three: Seeking a Custodian
+- Title: The Claravale Market Location Map
+- Shorttitle: Claravale Market
+- Order: 402.24
+- Playersafe: True
+- Completioneligible: False
+- Image: assets/maps/MAP-LOC-the-claravale-market-gm.webp
+- Alt: The Claravale Market location map board.
+- Caption: Visual reference for The Claravale Market.
+- Mood: spatial reference and location texture
+- Gmgoal: Use the market for supplies, rumors, a festival boon, and a player-safe corporate/local seam.
+- Publicobjective: Claravale Market turns forest wonder into breakfast, tools, gossip, and pocket-sized miracles: local stalls beside a few too-clean branded carts.
+- Readaloud: Claravale Market turns forest wonder into breakfast, tools, gossip, and pocket-sized miracles: local stalls beside a few too-clean branded carts.
+- Gmscript: Say: "The market is useful if they want a rumor, a small item, or a visible seam between local craft and imported corporate goods."
+- Gmreadaloud: Breakfast, tools, gossip, and pocket-sized miracles. Local stalls beside a few too-clean branded carts.
+- Gmchecklist: Offer one useful rumor. Offer a small market-find boon if earned. Keep corporate seam player-safe unless probed.
+- Gmprivate: GM-only: corporate supply lines thread through Hush's ordinary life.
+- Playertakeaway: Claravale Market turns forest wonder into breakfast, tools, gossip, and pocket-sized miracles: local stalls beside a few too-clean branded carts.
+- Storytakeaway: The market shows how large systems become food, prices, remedies, and rumors.
+- Mechanictakeaway: Presence haggles, Instinct sorts rumor, Knowledge recognizes branding; a success can set hush_clues or festival_boon.
+- Entityids: the-claravale-market hexmart
+- Entities: the-claravale-market The Claravale Market location Location assets/icons/location.png assets/location-visuals/the-claravale-market/profile_scene_v02.webp the KLAIR-uh-vayl MAR-kit A warm market surface where the wonder of Sablewood becomes ordinary food, handmade craft, and gossip before it becomes corporate product. Make local commerce specific instead of generic town color. A warm market surface where the wonder of Sablewood becomes ordinary food, handmade craft, and gossip before it becomes corporate product.; introduce it with a sensory palette, who feels safe there, and what has been neglected. Pull player attention toward the choices, clues, and relationships tied to Hush, The Lucent River, Hazard-Indexed Pricing. A warm market surface where the wonder of Sablewood becomes ordinary food, handmade craft, and gossip before it becomes corporate product. hexmart Hexmart corporation Corporation / Company assets/icons/corporation.png assets/logos/hexmart.webp HEKS-mart Hexmart™ is a discount-magic supercenter where every fear has a matching trinket and nothing is built to outlast the receipt. Background corporation Retail/logistics corporate flavor that may appear on small branded...
+- Locationids: the-claravale-market
+- Statecontrols: festival_boon Festival Boon select none charm favor market_find goodwill hush_clues Hush Clues select none custodian_route ward_seed corporate_seam farm_seed market_rumor multiple ward_awareness Ward Awareness select none seed aware
+- Mechanicids: presence instinct knowledge hope
+- Fearspends: A vendor pulls down a route charm mid-sale. A rumor arrives with a name the party knows.
+- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth context stay off the player display.
+- Linkedsceneids: S03-02
+- Mapdata: MAP-LOC-the-claravale-market environment The Claravale Market Location Map S03-02 the-claravale-market hexmart assets/location-visuals/the-claravale-market/profile_scene_v02.webp Visual reference for The Claravale Market. The Claravale Market location map board. Claravale Market turns forest wonder into breakfast, tools, gossip, and pocket-sized miracles: local stalls beside a few too-clean branded carts. Claravale Market turns forest wonder into breakfast, tools, gossip, and pocket-sized miracles: local stalls beside a few too-clean branded carts. Use the market for supplies, rumors, a festival boon, and a player-safe corporate/local seam. Stalls crowd under green shade with mossfruit, repaired gear, and river-bright bottles. People trade news while pretending they are only trading goods. A few prices change when route rumors arrive. Village life stays audible: work sounds, lowered voices, doors, tools, and ward tones changing the room's confidence. Fried roots, river mint, wet canvas, lamp oil, and sweet fruit skins. Coins are sticky with syrup; market planks flex over damp ground. Let ordinary people, animals, chores, and hospitality react to the party so the place feels...
+- Sourcefiles: dist/Act3_Upgrade_Packet/ACT3_MAPS_AND_LOCATIONS.md
+- References: Festival #S03-04 Clover Co-op #MAP-LOC-clover-co-op
+- Livetools: scene MAP-LOC-the-claravale-market
+- Percharacterlayer: khari-nix Khari Nix Arm-wrestling contest Can dominate the arm-wrestling competition and likely earn the festival_boon. Khari, there is an arm-wrestling contest with your name on it. Want to win the town's heart? varian-soto Varian Soto Sunless Farms scent Notices the moss-crops are grown under managed, sunless conditions rather than wild growth. Instinct 13 The farms are carefully managed infrastructure; seed the truth without naming the full system. Can point the party toward the farms as a clue source. Varian, those crops do not grow like wild things. Want to look closer? marlowe-fairwind Marlowe Fairwind Farm and ward signature Knowledge 13 The farm-magic and ward-work share a signature, as if the same system maintains both. Can connect festival joy to protection magic without revealing the full cost. Marlowe, the farm-magic and the ward feel like the same author. Want to trace the resemblance? garrick-reed Garrick Reed Organized volunteers Recognizes festival volunteers moving with company-style precision. Can identify who is coordinating the crowd if the party needs a contact. Garrick, this festival is organized company-style. Want to clock who is really running it?...
+- Gmbeats: MAP-LOC-the-claravale-market-rumor Rumor Useful rumor Say: "One useful rumor is enough: route, ward, farm, or market supply." A market seller can give a route, ward worry, or farm clue. Commerce carries story clues. Presence/Instinct/Knowledge choose the route. Players can gather actionable info. Player takeaway Players can gather actionable info. "One useful rumor is enough: route, ward, farm, or market supply." "The playable fact is: A market seller can give a route, ward worry, or farm clue." Concrete actions for this beat: talk to a person present, inspect the named detail, help an ally, or choose whether to move toward the Custodian route. presence instinct knowledge Story takeaway Commerce carries story clues. "One useful rumor is enough: route, ward, farm, or market supply." "The story fact in play is: Commerce carries story clues." This beat changes Act 3 through this exact pressure: Commerce carries story clues. presence instinct knowledge Mechanic takeaway Presence/Instinct/Knowledge choose the route. "One useful rumor is enough: route, ward, farm, or market supply." "The active procedure is: Presence/Instinct/Knowledge choose the route." Run intent first, then choose...
+- Takeawayhelp: Player takeaway The market gives supplies, rumors, and possible boon texture. "You can buy, trade, ask, browse, or look for one thing useful enough to carry forward." "A useful find can be the festival boon: charm, favor token, market find, or goodwill." Keep market use concise: one item, one rumor, one seam, then back to the route. presence instinct knowledge Story takeaway The market shows Hush's local life and outside supply dependence at the same time. "Most stalls feel handmade. A few feel imported, labeled, and too clean for the lane around them." "Player-safe fact: branded goods exist here. GM-only truth: those supply lines are part of the larger management web." This is a good place to seed without derailing the main objective. presence instinct knowledge Mechanic takeaway Presence, Instinct, and Knowledge each produce a different market result. "Presence 12 haggles or charms. Instinct 12 sorts rumor. Knowledge 12 recognizes supply branding." "Success can set festival_boon=market_find or hush_clues=market_rumor." Market mechanics should produce a portable payoff or a clear next direction. presence instinct knowledge
+- Playerbeats: assets/maps/MAP-LOC-the-claravale-market.png Claravale Market map board. MAP-LOC-the-claravale-market environment Claravale Market S03-02 assets/maps/MAP-LOC-the-claravale-market.png assets/maps/MAP-LOC-the-claravale-market.png Claravale Market map board. Claravale Market turns forest wonder into breakfast, tools, gossip, and pocket-sized miracles: local stalls beside a few too-clean branded carts. Claravale Market turns forest wonder into breakfast, tools, gossip, and pocket-sized miracles: local stalls beside a few too-clean branded carts. MAP-LOC-the-claravale-market-map-only Map only Claravale Market map-only assets/maps/MAP-LOC-the-claravale-market.png Claravale Market map board. MAP-LOC-the-claravale-market environment Claravale Market S03-02 assets/maps/MAP-LOC-the-claravale-market.png assets/maps/MAP-LOC-the-claravale-market.png Claravale Market map board. Claravale Market turns forest wonder into breakfast, tools, gossip, and pocket-sized miracles: local stalls beside a few too-clean branded carts. Claravale Market turns forest wonder into breakfast, tools, gossip, and pocket-sized miracles: local stalls beside a few too-clean branded carts...
+- Beatautoplayeligible: True
+- Beatautoplaydefault: False
+- Beatautoplayintervalms: 10000
+- Playersafeprojection: MAP-LOC-the-claravale-market map Claravale Market assets/maps/MAP-LOC-the-claravale-market.png Claravale Market map board. spatial reference and location texture Claravale Market turns forest wonder into breakfast, tools, gossip, and pocket-sized miracles: local stalls beside a few too-clean branded carts. Claravale Market turns forest wonder into breakfast, tools, gossip, and pocket-sized miracles: local stalls beside a few too-clean branded carts. MAP-LOC-the-claravale-market environment Claravale Market S03-02 assets/maps/MAP-LOC-the-claravale-market.png assets/maps/MAP-LOC-the-claravale-market.png Claravale Market map board. Claravale Market turns forest wonder into breakfast, tools, gossip, and pocket-sized miracles: local stalls beside a few too-clean branded carts. Claravale Market turns forest wonder into breakfast, tools, gossip, and pocket-sized miracles: local stalls beside a few too-clean branded carts. assets/maps/MAP-LOC-the-claravale-market.png Claravale Market map board. MAP-LOC-the-claravale-market environment Claravale Market S03-02 assets/maps/MAP-LOC-the-claravale-market.png assets/maps/MAP-LOC-the-claravale-market.png Claravale Market map board. Claravale...
+- Slidenumber: 49
+- Totalslides: 110
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 1500068745a6c934 | Source hash dac3370046ed077140fab2d6

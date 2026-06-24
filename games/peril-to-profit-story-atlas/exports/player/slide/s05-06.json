@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S05-06",
+  "kind": "slide",
+  "title": "S05-06 - The Ward Renewed",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act Five: The Ward Renewal",
+  "hook": "As you land the blow that drops the last threat, the ritual ends. The carriage crashes back to earth and the Keystone blazes with arcane light. Then a soundless explosion erupts from the Custodian, washing outward...",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "As you land the blow that drops the last threat, the ritual ends. The carriage crashes back to earth and the Keystone blazes with arcane light. Then a soundless explosion erupts from the Custodian, washing outward, dissolving any enemy still standing. The..."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Finish the ritual; the ward is renewed."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:S05-06",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "6480704620cb2378",
+  "generated_at": "2026-06-23T21:40:58"
+}

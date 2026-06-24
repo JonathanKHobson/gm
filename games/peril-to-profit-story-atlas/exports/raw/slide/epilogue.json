@@ -1,0 +1,69 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "slide",
+  "id": "EPILOGUE",
+  "title": "EPILOGUE - Epilogue: Beyond the Contract",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "bd38bc7401539c77",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The screeching is gone. The clearing is quiet, the open sky calm. Somewhere west, a city you may never see is waking up safe because of what you did tonight. The Custodian is already shuffling you back toward warmth and food and a fire that does not want anything from you. For the first time since the road, there is nothing chasing you. You won. Sit with that a while."
+    },
+    {
+      "title": "Public objective",
+      "body": "Rest, reckon with what you did, and decide what you carry forward."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: EPILOGUE",
+        "Type: section",
+        "Sectionid: EPILOGUE",
+        "Sectiontitle: Epilogue: Beyond the Contract",
+        "Title: Epilogue: Beyond the Contract",
+        "Shorttitle: Epilogue",
+        "Order: 700",
+        "Playersafe: True",
+        "Completioneligible: False",
+        "Caption: The screeching is gone. The clearing is quiet, the open sky calm. Somewhere west, a city you may never see is waking up safe because of what you did tonight.",
+        "Mood: table transition",
+        "Gmgoal: Land the plane: reward the heroes, let the table breathe, then leave one official door and one optional hidden door open.",
+        "Publicobjective: Rest, reckon with what you did, and decide what you carry forward.",
+        "Readaloud: The screeching is gone. The clearing is quiet, the open sky calm. Somewhere west, a city you may never see is waking up safe because of what you did tonight. The Custodian is already shuffling you back toward warmth and food and a fire that does not want anything from you. For the first time since the road, there is nothing chasing you. You won. Sit with that a while.",
+        "Gmnotes: Conclusion-only section: no combat, no countdown, no new active crisis. Use epilogue_tone to tune warmth, grief, or relief without changing the reward-first order.",
+        "Playertakeaway: You did the hard thing and lived. Take the win, take the level, and take a breath.",
+        "Storytakeaway: The story is over, and now it gets to mean something.",
+        "Mechanictakeaway: The epilogue uses reward, reflection, report payoff, and hook choice rather than combat or countdown.",
+        "Statecontrols: epilogue_tone Epilogue Tone select triumphant bittersweet pyrrhic tragic hidden_hook_discovered Hidden Hook Discovered checkbox sequel_direction Sequel Direction select relay hidden both undecided rewards_granted Rewards Granted checkbox",
+        "Playerquestions: What do you carry out of this night? Which door, if any, stays open?",
+        "Livetools: none",
+        "Playersafeprojection: EPILOGUE section Epilogue: Beyond the Contract The screeching is gone. The clearing is quiet, the open sky calm. Somewhere west, a city you may never see is waking up safe because of what you did tonight. table transition Rest, reckon with what you did, and decide what you carry forward. The screeching is gone. The clearing is quiet, the open sky calm. Somewhere west, a city you may never see is waking up safe because of what you did tonight. The Custodian is already shuffling you back toward warmth and food and a fire that does not want anything from you. For the first time since the road, there is nothing chasing you. You won. Sit with that a while. epilogue-quiet Quiet The quiet after The fight is over. The clearing is still, and the win finally has room to arrive. The fight is over. The clearing is still, and the win finally has room to arrive. The fight is over. The clearing is still, and the win finally has room to arrive. text-first epilogue-reward Reward Warmth and reward Warmth, food, pay, thanks, and level-up come before the next question. Warmth, food, pay, thanks, and level-up come before the next question. Warmth, food, pay, thanks, and level-up come before the next...",
+        "Gmscript: Say: \"No more fighting. This is the breath after. You earned it. We are going to level up, collect rewards, say goodbyes, and decide which doors stay open.\"",
+        "Gmreadaloud: The screeching is gone. Somewhere west, a city you may never see is waking safe because of you. For the first time since the road, there is nothing chasing you.",
+        "Gmchecklist: Reward first. Keep the mood warm and low-pressure. Do not add combat, countdown, or a new active crisis. Use S06-01 for rewards/report payoff, then S06-02 for hooks.",
+        "Gmprivate: The hidden thesis stays GM-only until players articulate it. Drop earned clues only after the table has felt the reward. The soul-cost idea remains a seed, not an explanation.",
+        "Mechanicids: level-up report-choice roleplay table-spotlight",
+        "Choicesconsequences: Take the win. The table accepts closure before hooks. Set rewards_granted=true by S06-01. S06-02 begins from satisfaction. rewards_granted=true Reward: closure. player-visible Leave a door open. The table names whether the Relay, the hidden question, both, or neither matters later. Set sequel_direction by S06-02. The one-shot ends with agency. sequel_direction=relay|hidden|both|undecided Reward: chosen ending shape. player-visible",
+        "Linkedsceneids: S06-01 S06-02",
+        "References: S06-01 #S06-01 S06-02 #S06-02",
+        "Sourcefiles: dist/Epilogue_Upgrade_Packet/EPILOGUE_SCENE_RESEARCH.md dist/Epilogue_Upgrade_Packet/README.md",
+        "Playerbeats: epilogue-quiet Quiet The quiet after The fight is over. The clearing is still, and the win finally has room to arrive. The fight is over. The clearing is still, and the win finally has room to arrive. The fight is over. The clearing is still, and the win finally has room to arrive. text-first epilogue-reward Reward Warmth and reward Warmth, food, pay, thanks, and level-up come before the next question. Warmth, food, pay, thanks, and level-up come before the next question. Warmth, food, pay, thanks, and level-up come before the next question. text-first epilogue-wonder Threads What you have started to wonder Only after the win lands do the unanswered patterns begin to matter. Only after the win lands do the unanswered patterns begin to matter. Only after the win lands do the unanswered patterns begin to matter. text-first",
+        "Gmbeats: epilogue-quiet Quiet The quiet after Say: \"The fight is over. Let the quiet land.\" The fight is over. The clearing is still, and the win finally has room to arrive. The conclusion starts with relief. Table spotlight gives everyone a breath. Players feel the win before any hook. Player takeaway Players feel the win before any hook. \"The fight is over. Let the quiet land.\" \"Players feel the win before any hook.\" Use this beat to give the players closure, not a new problem to solve. table-spotlight Story takeaway The conclusion starts with relief. \"The fight is over. Let the quiet land.\" \"The conclusion starts with relief.\" Tie the answer back to what the party already did and chose. table-spotlight Mechanic takeaway Table spotlight gives everyone a breath. \"The fight is over. Let the quiet land.\" \"Table spotlight gives everyone a breath.\" The epilogue mechanics are reward, reflection, report payoff, and choosing which door stays open. table-spotlight epilogue-reward Reward Warmth and reward Say: \"Reward first: level up, get paid, and let the people you saved thank you.\" Warmth, food, pay, thanks, and level-up come before the next question. Heroism becomes concrete. Level-up and...",
+        "Takeawayhelp: Player takeaway You did the hard thing and lived. Take the win, take the level, and take a breath. \"Heroes. Genuinely. Enjoy the warm room and the good company. You earned it.\" \"Talk to the Custodian, talk to each other, collect your reward, or just be people for a minute.\" This is permission to slow down. The table should feel satisfied before any hook appears. level-up report-choice table-spotlight Story takeaway The story is over, and now it gets to mean something. \"No more fighting. This is the breath after. You earned it.\" \"The threat is over. The reckoning is rewards, goodbyes, and what you have started to suspect.\" Closure comes first. Intrigue only works after the win lands. level-up report-choice table-spotlight Mechanic takeaway The epilogue uses reward, reflection, report payoff, and hook choice rather than combat or countdown. \"You are leveling up tonight. You will get your due, say your goodbyes, and choose what, if anything, you chase next.\" \"There is no survival check here. There is reward, RP, and the doors the Custodian and your own instincts leave open.\" No combat, no countdown, no new active threat. The mechanics are reward and choice. level-up report-choice...",
+        "Beatautoplayeligible: True",
+        "Beatautoplaydefault: False",
+        "Beatautoplayintervalms: 9000",
+        "Slidenumber: 76",
+        "Totalslides: 110"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash bd38bc7401539c77 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

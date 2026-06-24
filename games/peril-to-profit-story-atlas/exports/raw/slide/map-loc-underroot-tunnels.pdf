@@ -1,0 +1,320 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2590 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-underroot-tunnels - Underroot Tunnels Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(A Progress Countdown-based traversal environment where finding entrances and navigating) Tj
+T*
+(similar passages matter more than fighting.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(A Progress Countdown-based traversal environment where finding entrances and navigating) Tj
+T*
+(similar passages matter more than fighting.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-underroot-tunnels) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: STORY) Tj
+T*
+(- Sectiontitle: Map Board) Tj
+T*
+(- Title: Underroot Tunnels Location Map) Tj
+T*
+(- Shorttitle: Underroot Tunnels) Tj
+T*
+(- Order: 850.5) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-underroot-tunnels-gm.png) Tj
+T*
+(- Alt: Underroot Tunnels location map board.) Tj
+T*
+(- Caption: Visual reference for Underroot Tunnels.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Use this environment board to orient space, table questions, and safe) Tj
+T*
+(  reveals.) Tj
+T*
+(- Publicobjective: A Progress Countdown-based traversal environment where finding) Tj
+T*
+(  entrances and navigating similar passages matter more than fighting.) Tj
+T*
+(- Readaloud: A Progress Countdown-based traversal environment where finding entrances) Tj
+T*
+(  and navigating similar passages matter more than fighting.) Tj
+T*
+(- Playertakeaway: A Progress Countdown-based traversal environment where finding) Tj
+T*
+(  entrances and navigating similar passages matter more than fighting.) Tj
+T*
+(- Storytakeaway: Visual reference for Underroot Tunnels.) Tj
+T*
+(- Mechanictakeaway: Use the map as visual reference unless the scene is explicitly in) Tj
+T*
+(  combat.) Tj
+T*
+(- Entityids: underroot-tunnels) Tj
+T*
+(- Entities: underroot-tunnels Underroot Tunnels location Location) Tj
+T*
+(  assets/icons/location.png assets/location-visuals/underroot-) Tj
+T*
+(  tunnels/profile_scene_v02.png UN-der-root TUN-ulz A Progress Countdown-based) Tj
+T*
+(  traversal environment where finding entrances and navigating similar passages matter) Tj
+T*
+(  more than fighting. Traversal environment for hidden root communities A Progress) Tj
+T*
+(  Countdown-based traversal environment where finding entrances and navigating similar) Tj
+T*
+(  passages matter more than fighting.; introduce it with a sensory palette, who feels) Tj
+T*
+(  safe there, and what has been neglected. Pull player attention toward the choices,) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4225 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  clues, and relationships tied to Underroot, Root Blockage, Goldwater-Grail Toll) Tj
+T*
+(  Crew. A Progress Countdown-based traversal environment where finding entrances and) Tj
+T*
+(  navigating similar passages matter more than fighting.) Tj
+T*
+(- Locationids: underroot-tunnels) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Mapdata: MAP-LOC-underroot-tunnels environment Underroot Tunnels Location Map) Tj
+T*
+(  underroot-tunnels assets/location-visuals/underroot-tunnels/profile_scene_v02.png) Tj
+T*
+(  Visual reference for Underroot Tunnels. Underroot Tunnels location map board. A) Tj
+T*
+(  Progress Countdown-based traversal environment where finding entrances and) Tj
+T*
+(  navigating similar passages matter more than fighting. Visual reference for) Tj
+T*
+(  Underroot Tunnels. Leaf-drip, insects, distant wingbeats, and animal calls that stop) Tj
+T*
+(  or resume according to pressure, not comfort. Rain on leaves, sap, mushroom loam,) Tj
+T*
+(  wet bark, and the musk of unseen animals. Bark is damp and ridged; mud alternates) Tj
+T*
+(  between springy moss and slick clay. The forest is populated even when no NPC is) Tj
+T*
+(  present; silence, birds, insects, and tracks are actionable signals. Sight Visual) Tj
+T*
+(  reference for Underroot Tunnels. Sound Leaf-drip, insects, distant wingbeats, and) Tj
+T*
+(  animal calls that stop or resume according to pressure, not comfort. Smell Rain on) Tj
+T*
+(  leaves, sap, mushroom loam, wet bark, and the musk of unseen animals. Texture / air) Tj
+T*
+(  Bark is damp and ridged; mud alternates between springy moss and slick clay.) Tj
+T*
+(  Background life The forest is populated even when no NPC is present; silence...) Tj
+T*
+(- Livetools: scene MAP-LOC-underroot-tunnels) Tj
+T*
+(- Takeawayhelp: Player takeaway: MAP-LOC-underroot-tunnels A Progress Countdown-based) Tj
+T*
+(  traversal environment where finding entrances and navigating similar passages matter) Tj
+T*
+(  more than fighting. Give the player one concrete way back into play: a question, a) Tj
+T*
+(  description, a choice, or a pass-and-return moment. "Your takeaway right now is) Tj
+T*
+(  this: A Progress Countdown-based traversal environment where finding entrances and) Tj
+T*
+(  navigating similar passages matter more than fighting." "If you are not sure what to) Tj
+T*
+(  do next, you can ask a question, describe what your character notices, or tell me) Tj
+T*
+(  what your character tries." "If you are not sure what to do next, you can ask a) Tj
+T*
+(  question, describe what your character notices, or tell me what your character) Tj
+T*
+(  tries." Give the player one concrete way back into play: a question, a description,) Tj
+T*
+(  a choice, or a pass-and-return moment. Story takeaway: MAP-LOC-underroot-tunnels) Tj
+T*
+(  Visual reference for Underroot Tunnels. Anchor the answer in the visible fiction on) Tj
+T*
+(  this slide: who is present, what can be observed, what has already been said, and) Tj
+T*
+(  what remains uncertain. "Here is what your characters know right now: Visual) Tj
+T*
+(  reference for Underroot Tunnels." "If you want more detail, ask...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-underroot-tunnels-player.png Underroot Tunnels) Tj
+T*
+(  location map board. MAP-LOC-underroot-tunnels environment Underroot Tunnels) Tj
+T*
+(  assets/maps/MAP-LOC-underroot-tunnels-player.png assets/maps/MAP-LOC-underroot-) Tj
+T*
+(  tunnels-player.png Visual reference for Underroot Tunnels. Underroot Tunnels) Tj
+T*
+(  location map board. A Progress Countdown-based traversal environment where finding) Tj
+T*
+(  entrances and navigating similar passages matter more than fighting. MAP-LOC-) Tj
+T*
+(  underroot-tunnels-map-only Map only Underroot Tunnels map-only assets/maps/MAP-LOC-) Tj
+T*
+(  underroot-tunnels-player.png Underroot Tunnels location map board. MAP-LOC-) Tj
+T*
+(  underroot-tunnels environment Underroot Tunnels assets/maps/MAP-LOC-underroot-) Tj
+T*
+(  tunnels-player.png assets/maps/MAP-LOC-underroot-tunnels-player.png Visual reference) Tj
+T*
+(  for Underroot Tunnels. Underroot Tunnels location map board. A Progress Countdown-) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2121 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  based traversal environment where finding entrances and navigating similar passages) Tj
+T*
+(  matter more than fighting. MAP-LOC-underroot-tunnels-map-text Map + text Underroot) Tj
+T*
+(  Tunnels A Progress Countdown-based traversal environment where finding entrances and) Tj
+T*
+(  navigating similar passages matter more than fighting. A Progress Countdown-based...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-underroot-tunnels map Underroot Tunnels) Tj
+T*
+(  assets/maps/MAP-LOC-underroot-tunnels-player.png Underroot Tunnels location map) Tj
+T*
+(  board. Visual reference for Underroot Tunnels. spatial reference and location) Tj
+T*
+(  texture A Progress Countdown-based traversal environment where finding entrances and) Tj
+T*
+(  navigating similar passages matter more than fighting. A Progress Countdown-based) Tj
+T*
+(  traversal environment where finding entrances and navigating similar passages matter) Tj
+T*
+(  more than fighting. MAP-LOC-underroot-tunnels environment Underroot Tunnels) Tj
+T*
+(  assets/maps/MAP-LOC-underroot-tunnels-player.png assets/maps/MAP-LOC-underroot-) Tj
+T*
+(  tunnels-player.png Visual reference for Underroot Tunnels. Underroot Tunnels) Tj
+T*
+(  location map board. A Progress Countdown-based traversal environment where finding) Tj
+T*
+(  entrances and navigating similar passages matter more than fighting.) Tj
+T*
+(  assets/maps/MAP-LOC-underroot-tunnels-player.png Underroot Tunnels location map) Tj
+T*
+(  board. MAP-LOC-underroot-tunnels environment Underroot Tunnels assets/maps/MAP-LOC-) Tj
+T*
+(  underroot-tunnels-player.png assets/maps/MAP-LOC-underroot-tunnels-player.png Visual) Tj
+T*
+(  reference for Underroot Tunnels. Underroot Tunnels location map board. A Progress) Tj
+T*
+(  Countdown-based traversal...) Tj
+T*
+(- Slidenumber: 86) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 4cd05a0dafc7587a | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002651 00000 n 
+0000002777 00000 n 
+0000007054 00000 n 
+0000007180 00000 n 
+0000009353 00000 n 
+0000009479 00000 n 
+0000009548 00000 n 
+0000009597 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+9669
+%%EOF

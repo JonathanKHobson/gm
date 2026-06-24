@@ -1,0 +1,1046 @@
+[
+  {
+    "id": "perrin-oake",
+    "name": "Perrin Oake",
+    "profile": {
+      "schema_version": "npc-profile-v1",
+      "source": "NPC_System_Packet + image-informed hardening",
+      "backup": true,
+      "combatant": false,
+      "player_safe": {
+        "name": "Perrin Oake",
+        "one_line": "a stranded fellow courier with a bent route pin",
+        "physical_description": "A broad simiah courier grins through road dust, wrapped in a battered coat, tapping a cracked compass while coin charms and route tags hang from the straps.",
+        "reveal_line": "Perrin Oake: a stranded fellow courier with a bent route pin"
+      },
+      "block1": {
+        "name": "Perrin Oake",
+        "pronunciation": "PEH-rin OHK",
+        "one_line": "a stranded fellow courier with a bent route pin",
+        "story_role": "A fellow courier who proves the road accidents are a pattern, not bad luck.",
+        "game_role": "A friendly source and a second opinion; he confirms what the party is starting to suspect.",
+        "critical_info": "He has walked these roads for years and swears this kind of trouble is new, and made on purpose.",
+        "offers_players": [
+          "A way forward",
+          "A grounded question",
+          "A scene-specific clue seed"
+        ],
+        "disposition_default": "Rattled but steady, relieved to find people who will actually listen.",
+        "the_lever": "Someone who takes his warning seriously instead of logging it as a delay resolved."
+      },
+      "block2": {
+        "wants_now": "Get home alive and make someone believe the accidents are not normal.",
+        "larger_motivation": "Keep courier work from becoming a polite way to feed people into the road.",
+        "wants": "Get home alive and make someone believe the accidents are not normal.",
+        "motivation": "Keep courier work from becoming a polite way to feed people into the road.",
+        "personality": "Road-worn and warm, humming when he feels safe and silent when he does not. Taps a cracked compass that points to the last place he felt safe instead of north, and pretends that is a feature.",
+        "voice": [
+          "I know what a normal bad road looks like. This is not that."
+        ],
+        "secrets": "He is more scared than his jokes allow.",
+        "fears": "Dying in a ditch and being logged as delay resolved.",
+        "likes_dislikes": {
+          "likes": "Shared trade jokes, hot tea, repaired wheels, and people who respect a good route knot.",
+          "dislikes": "Company reassurance, bad compasses, and being called lucky after losing friends."
+        },
+        "likes": "Shared trade jokes, hot tea, repaired wheels, and people who respect a good route knot.",
+        "dislikes": "Company reassurance, bad compasses, and being called lucky after losing friends.",
+        "favorite_thing": "The cracked dial-compass he still taps even when he no longer trusts it.",
+        "loved_ones": "A household that knows his route songs and worries when he stops humming.",
+        "day_to_day": "Walks road miles, swaps warnings with other couriers, and repairs straps by lantern light.",
+        "appearance": "A broad simiah courier grins through road dust, wrapped in a battered coat, tapping a cracked compass while coin charms and route tags hang from the straps. Full-body reference: Full-body upright humanoid simiah ape-folk courier person beside an overloaded pack, road-worn gear, cracked dial-compass, big warm grin, head to feet in frame, not a dog, not a pet, not a realistic animal photo.",
+        "carries": [
+          "cracked dial-compass",
+          "route tags",
+          "coin charms",
+          "muddy courier coat"
+        ],
+        "wealth_status": "Working poor with expensive tools paid off one dangerous run at a time.",
+        "animal_companion": "No animal; talks to his overloaded pack as if it has opinions.",
+        "physical": "A broad simiah courier grins through road dust, wrapped in a battered coat, tapping a cracked compass while coin charms and route tags hang from the straps.",
+        "visual_read_aloud": "A broad simiah courier grins through road dust, wrapped in a battered coat, tapping a cracked compass while coin charms and route tags hang from the straps.",
+        "voice_style": "Plainspoken and road-tired but insistent; the certainty of a man who knows a normal bad road and swears this is not one.",
+        "body_language": "Jokes forward, eyes tired behind them.",
+        "quirks": "Laughs first, then checks whether anyone else understood the danger.",
+        "image_lore": "The cracked compass points toward the last place Perrin felt safe, not north. He pretends this is a feature.",
+        "npc_relationships": "A mirror for the PCs as workers under contract pressure."
+      },
+      "block3": {
+        "how_they_expect_pcs_to_behave": "He expects fellow couriers to understand risk faster than officials.",
+        "persuasion_levers": "Shared-trade empathy lands instantly; Presence 11 earns the deeper accident pattern.",
+        "what_moves_them": [
+          {
+            "trait": "Presence",
+            "dc": 12,
+            "result": "They give the useful clue, route, or concession without becoming the plot."
+          }
+        ],
+        "combat_lever": "He avoids violence unless defending another courier."
+      },
+      "block4": {
+        "knows_about": {
+          "player_safe": [
+            "One scene-level clue or route, phrased plainly."
+          ],
+          "gm_only": [
+            "Goldwater debt and courier accident patterns.",
+            "Use this backup as a scene seed only: one clue, one pressure, one human face, then return agency to the PCs."
+          ]
+        },
+        "disposition_to_corporations": "Owes Goldwater and has learned protection fees rise when the road worsens.",
+        "p2p_universe_tie": "Goldwater debt and courier accident patterns.",
+        "hidden_plot_hooks": [
+          "Goldwater debt and courier accident patterns."
+        ],
+        "ties_to_pcs": [
+          "Any PC can engage; never make the plot depend on the summoned backup."
+        ],
+        "npc_relationships": "A mirror for the PCs as workers under contract pressure.",
+        "visual_source": "npc_images portrait asset"
+      },
+      "block5": {
+        "stat_block_ref": "",
+        "combat_stat_block": {
+          "mode": "noncombat NPC",
+          "source": "NPC profile interaction model; run as social, clue, consent, or pressure play unless a scene explicitly turns violent",
+          "tier": "Social / noncombat",
+          "role": "Conversation, clue, pressure, or consent gate",
+          "type": "Social NPC",
+          "difficulty": "12",
+          "thresholds": "Social threshold: one clear concession, clue, or boundary shift at Difficulty 12",
+          "hp": "Social stakes only; no HP track unless a scene assigns an adversary profile.",
+          "stress": "Social stakes only; use scene Stress/Fear rules if pressure escalates.",
+          "attack_modifier": "Conversation only; no attack modifier unless a scene assigns an adversary profile.",
+          "standard_attack": "Social pressure: name what they want, offer the listed trait/DC move, and let the result change access, trust, timing, or information.",
+          "abilities": [
+            "Disposition: Rattled but steady, relieved to find people who will actually listen.",
+            "Persuasion model: Presence 11 or 12 usually earns the useful version; kindness beats cleverness for backup NPCs.",
+            "Table move: call for the listed trait at Difficulty 12 when the PC risks something concrete, then give the written result."
+          ],
+          "fear_abilities": [
+            "Scene Fear pressure: a delayed answer, public embarrassment, a worse bargain, a closing route, or a witness who now expects a choice."
+          ],
+          "fear_moves": [
+            "Scene Fear pressure: a delayed answer, public embarrassment, a worse bargain, a closing route, or a witness who now expects a choice."
+          ],
+          "gm_ready_notes": [
+            "Open with the visible object, habit, or posture, then ask what the PC offers or risks.",
+            "If violence starts unexpectedly, use the closest existing module adversary profile and keep this persona's motive intact."
+          ]
+        },
+        "combat_summary": "Noncombat/social. Primary Difficulty 12; no HP/attack tracked.",
+        "person_under_the_fight": "",
+        "combat_lever": "He avoids violence unless defending another courier."
+      },
+      "portrait": {
+        "creative": "assets/npc-images/perrin-oake/portrait_base.webp",
+        "chroma_blue": "assets/npc-images/perrin-oake/portrait_chroma.webp",
+        "transparent": "assets/npc-images/perrin-oake/portrait_transparent.webp",
+        "source_status": "npc_images"
+      },
+      "imagine_it_like": "Think the trucker at the all-night diner who has seen something on the highway nobody believes, the veteran courier who knows the routes are rigged.",
+      "fullbody": {
+        "fullbody_base": "assets/npc-images/perrin-oake/fullbody_base.webp",
+        "fullbody_chroma": "assets/npc-images/perrin-oake/fullbody_chroma.webp",
+        "fullbody_transparent": "assets/npc-images/perrin-oake/fullbody_transparent.webp"
+      }
+    }
+  },
+  {
+    "id": "wicket",
+    "name": "Wicket",
+    "profile": {
+      "schema_version": "npc-profile-v1",
+      "source": "NPC_System_Packet + image-informed hardening",
+      "backup": true,
+      "combatant": false,
+      "player_safe": {
+        "name": "Wicket",
+        "one_line": "a Hexmart pocket-ward vendor with too many charm strings",
+        "physical_description": "A beaming halfling peddler presents a tray of blue charms, brass rings, and useless-but-beautiful pocket wards with both hands and all their hope.",
+        "reveal_line": "Wicket: a Hexmart pocket-ward vendor with too many charm strings"
+      },
+      "block1": {
+        "name": "Wicket",
+        "pronunciation": "WIK-it",
+        "one_line": "a Hexmart pocket-ward vendor with too many charm strings",
+        "story_role": "The cheerful face of a protection racket that does not know it is one.",
+        "game_role": "Comedy, a useful trinket, and a quiet seed of how cheap wards fail the people who trust them.",
+        "critical_info": "The wards he is selling fail most often in exactly the places people stake their lives on them.",
+        "offers_players": [
+          "A way forward",
+          "A grounded question",
+          "A scene-specific clue seed"
+        ],
+        "disposition_default": "Delighted to see a customer, quietly terrified you will ask the charms to actually work.",
+        "the_lever": "Let him finish the sales flourish before you doubt him, and he tells you more than he means to."
+      },
+      "block2": {
+        "wants_now": "Make a sale and prove the charms are not a scam.",
+        "larger_motivation": "Stay ahead of debt by believing the pitch harder than anyone else.",
+        "wants": "Make a sale and prove the charms are not a scam.",
+        "motivation": "Stay ahead of debt by believing the pitch harder than anyone else.",
+        "personality": "All flourish and warmth on top, frantic arithmetic underneath. Compliments you, then names the price, then the problem, in that order, every time. He believes the pitch because the alternative is unbearable.",
+        "voice": [
+          "It worked this morning. Mostly. That counts as inspected."
+        ],
+        "secrets": "The wards have been failing more often than he admits.",
+        "fears": "Refunds, ridicule, and the day he has to tell his creditors the tray is worthless.",
+        "likes_dislikes": {
+          "likes": "Compliments, small coins, dramatic demonstrations, and customers who let him finish the flourish.",
+          "dislikes": "Careful testing, quiet pity, and anyone saying protection racket within earshot."
+        },
+        "likes": "Compliments, small coins, dramatic demonstrations, and customers who let him finish the flourish.",
+        "dislikes": "Careful testing, quiet pity, and anyone saying protection racket within earshot.",
+        "favorite_thing": "A turquoise charm he keeps for himself because it once sparked at the right time.",
+        "loved_ones": "A sibling or spouse who thinks the charm business is finally his respectable turn.",
+        "day_to_day": "Sets up under bright cloth, polishes charms, rehearses patter, and checks which wards still warm by dusk.",
+        "appearance": "A beaming halfling peddler presents a tray of blue charms, brass rings, and useless-but-beautiful pocket wards with both hands and all their hope. Full-body reference: Full-body halfling peddler presenting a tray of glinting charms, eager sales posture, garish teal and gold colors, head to feet in frame.",
+        "carries": [
+          "blue charm tray",
+          "brass rings",
+          "teal-and-gold vest",
+          "sales smile"
+        ],
+        "wealth_status": "Looks flashy from the stall, debt-thin behind the curtain.",
+        "animal_companion": "No animal; dangling charms ring and sway like a chorus of needy witnesses.",
+        "physical": "A beaming halfling peddler presents a tray of blue charms, brass rings, and useless-but-beautiful pocket wards with both hands and all their hope.",
+        "visual_read_aloud": "A beaming halfling peddler presents a tray of blue charms, brass rings, and useless-but-beautiful pocket wards with both hands and all their hope.",
+        "voice_style": "Bright, fast patter that only speeds up under doubt; sells the dream and steers hard around the test.",
+        "body_language": "Hands open, smile bright, eyes pleading.",
+        "quirks": "Compliments the customer before naming the price, then the charm, then the problem.",
+        "image_lore": "Wicket's favorite charm is the cheapest blue bead in the tray. It never worked, but it was the first thing they sold honestly.",
+        "npc_relationships": "Can connect Hexmart comedy to real fear without becoming a villain."
+      },
+      "block3": {
+        "how_they_expect_pcs_to_behave": "Wicket expects buyers to want certainty more than truth.",
+        "persuasion_levers": "Flattery and a purchase open him up. Testing the wards makes him defensive enough to overshare.",
+        "what_moves_them": [
+          {
+            "trait": "Presence",
+            "dc": 12,
+            "result": "They give the useful clue, route, or concession without becoming the plot."
+          }
+        ],
+        "combat_lever": "He will flee a fight, but may throw a charm if someone threatens a customer."
+      },
+      "block4": {
+        "knows_about": {
+          "player_safe": [
+            "One scene-level clue or route, phrased plainly."
+          ],
+          "gm_only": [
+            "Cheap wards failing where people need them most.",
+            "Use this backup as a scene seed only: one clue, one pressure, one human face, then return agency to the PCs."
+          ]
+        },
+        "disposition_to_corporations": "A true believer-victim of magical retail protection language.",
+        "p2p_universe_tie": "Cheap wards failing where people need them most.",
+        "hidden_plot_hooks": [
+          "Cheap wards failing where people need them most."
+        ],
+        "ties_to_pcs": [
+          "Any PC can engage; never make the plot depend on the summoned backup."
+        ],
+        "npc_relationships": "Can connect Hexmart comedy to real fear without becoming a villain.",
+        "visual_source": "npc_images portrait asset"
+      },
+      "block5": {
+        "stat_block_ref": "",
+        "combat_stat_block": {
+          "mode": "noncombat NPC",
+          "source": "NPC profile interaction model; run as social, clue, consent, or pressure play unless a scene explicitly turns violent",
+          "tier": "Social / noncombat",
+          "role": "Conversation, clue, pressure, or consent gate",
+          "type": "Social NPC",
+          "difficulty": "12",
+          "thresholds": "Social threshold: one clear concession, clue, or boundary shift at Difficulty 12",
+          "hp": "Social stakes only; no HP track unless a scene assigns an adversary profile.",
+          "stress": "Social stakes only; use scene Stress/Fear rules if pressure escalates.",
+          "attack_modifier": "Conversation only; no attack modifier unless a scene assigns an adversary profile.",
+          "standard_attack": "Social pressure: name what they want, offer the listed trait/DC move, and let the result change access, trust, timing, or information.",
+          "abilities": [
+            "Disposition: Delighted to see a customer, quietly terrified you will ask the charms to actually work.",
+            "Persuasion model: Presence 11 or 12 usually earns the useful version; kindness beats cleverness for backup NPCs.",
+            "Table move: call for the listed trait at Difficulty 12 when the PC risks something concrete, then give the written result."
+          ],
+          "fear_abilities": [
+            "Scene Fear pressure: a delayed answer, public embarrassment, a worse bargain, a closing route, or a witness who now expects a choice."
+          ],
+          "fear_moves": [
+            "Scene Fear pressure: a delayed answer, public embarrassment, a worse bargain, a closing route, or a witness who now expects a choice."
+          ],
+          "gm_ready_notes": [
+            "Open with the visible object, habit, or posture, then ask what the PC offers or risks.",
+            "If violence starts unexpectedly, use the closest existing module adversary profile and keep this persona's motive intact."
+          ]
+        },
+        "combat_summary": "Noncombat/social. Primary Difficulty 12; no HP/attack tracked.",
+        "person_under_the_fight": "",
+        "combat_lever": "He will flee a fight, but may throw a charm if someone threatens a customer."
+      },
+      "portrait": {
+        "creative": "assets/npc-images/wicket/portrait_base.webp",
+        "chroma_blue": "assets/npc-images/wicket/portrait_chroma.webp",
+        "transparent": "assets/npc-images/wicket/portrait_transparent.webp",
+        "source_status": "npc_images"
+      },
+      "imagine_it_like": "Think the lovable infomercial huckster who half-believes the product, the market vendor with a song for every trinket, a used-car salesman with a good heart and bad inventory.",
+      "fullbody": {
+        "fullbody_base": "assets/npc-images/wicket/fullbody_base.webp",
+        "fullbody_chroma": "assets/npc-images/wicket/fullbody_chroma.webp",
+        "fullbody_transparent": "assets/npc-images/wicket/fullbody_transparent.webp"
+      }
+    }
+  },
+  {
+    "id": "nettle",
+    "name": "Nettle",
+    "profile": {
+      "schema_version": "npc-profile-v1",
+      "source": "NPC_System_Packet + image-informed hardening",
+      "backup": true,
+      "combatant": false,
+      "player_safe": {
+        "name": "Nettle",
+        "one_line": "a frightened forest scout trying not to be seen",
+        "physical_description": "A young faun scout freezes with one hand raised, soft horns under a ragged hood, necklaces and leaf charms trembling against a patched vest.",
+        "reveal_line": "Nettle: a frightened forest scout trying not to be seen"
+      },
+      "block1": {
+        "name": "Nettle",
+        "pronunciation": "NET-ul",
+        "one_line": "a frightened forest scout trying not to be seen",
+        "story_role": "A frightened Bramble scout who shows the camp is people, not bandits.",
+        "game_role": "A non-violent encounter that tests mercy; how the party treats Nettle echoes through the whole Union.",
+        "critical_info": "They are scouting, not attacking, and one act of cruelty here teaches them that mercy is foolish.",
+        "offers_players": [
+          "A way forward",
+          "A grounded question",
+          "A scene-specific clue seed"
+        ],
+        "disposition_default": "Cornered and trembling, desperate not to prove their own fears right.",
+        "the_lever": "Mercy that visibly costs the party something, so it reads as real and not convenient."
+      },
+      "block2": {
+        "wants_now": "Get back to camp without proving mercy is foolish.",
+        "larger_motivation": "Keep their people alive without learning to hate everyone outside the trees.",
+        "wants": "Get back to camp without proving mercy is foolish.",
+        "motivation": "Keep their people alive without learning to hate everyone outside the trees.",
+        "personality": "Soft-hearted and quick-footed, frozen between flight and trust. Rubs a seed-charm from home whenever a choice sounds like betrayal either way. Wants to keep their people alive without learning to hate everyone outside the trees.",
+        "voice": [
+          "I am not the one who wanted blades first."
+        ],
+        "secrets": "Nettle can name who did not want the ambush to go violent.",
+        "fears": "Being handed to officials, disappointing Kett, and watching the camp starve anyway.",
+        "likes_dislikes": {
+          "likes": "Gentle voices, clear promises, and food that is offered without a bargain first.",
+          "dislikes": "Sudden movement, corporate badges, and adults calling fear weakness."
+        },
+        "likes": "Gentle voices, clear promises, and food that is offered without a bargain first.",
+        "dislikes": "Sudden movement, corporate badges, and adults calling fear weakness.",
+        "favorite_thing": "A cracked nutshell whistle for calling scouts home.",
+        "loved_ones": "A camp full of older cousins, aunties, and hungry children who all know Nettle runs fast.",
+        "day_to_day": "Scouts paths, gathers small food, watches checkpoints, and sleeps near exits.",
+        "appearance": "A young faun scout freezes with one hand raised, soft horns under a ragged hood, necklaces and leaf charms trembling against a patched vest. Full-body reference: Full-body frightened young faun scout, trembling hands half-raised, patched scraps, small satchel, head to feet in frame.",
+        "carries": [
+          "leaf charm necklace",
+          "patched vest",
+          "small satchel",
+          "peace-raised hand"
+        ],
+        "wealth_status": "Very poor; every patch in the vest is a salvage story.",
+        "animal_companion": "No animal; a moth charm at the throat is the comfort object.",
+        "physical": "A young faun scout freezes with one hand raised, soft horns under a ragged hood, necklaces and leaf charms trembling against a patched vest.",
+        "visual_read_aloud": "A young faun scout freezes with one hand raised, soft horns under a ragged hood, necklaces and leaf charms trembling against a patched vest.",
+        "voice_style": "Whispered and pleading, ready to bolt; honesty that escapes before the bravado can stop it.",
+        "body_language": "Half apology, half readiness to run.",
+        "quirks": "Repeats the last honest word someone says as if testing it.",
+        "image_lore": "Nettle's smallest pendant is a seed charm from home. They rub it whenever a choice sounds like betrayal either way.",
+        "npc_relationships": "Protected by Rye, scolded by Kett, and quietly admired by Brannic."
+      },
+      "block3": {
+        "how_they_expect_pcs_to_behave": "Nettle expects PCs to be kinder in voice than outcome.",
+        "persuasion_levers": "Gentleness and a no-handover promise land. Presence 12 after trust gives the Bramble side.",
+        "what_moves_them": [
+          {
+            "trait": "Presence",
+            "dc": 12,
+            "result": "They give the useful clue, route, or concession without becoming the plot."
+          }
+        ],
+        "combat_lever": "A safe way home ends Nettle's fight before it starts."
+      },
+      "block4": {
+        "knows_about": {
+          "player_safe": [
+            "One scene-level clue or route, phrased plainly."
+          ],
+          "gm_only": [
+            "The ambushers are not all enforcers.",
+            "Use this backup as a scene seed only: one clue, one pressure, one human face, then return agency to the PCs."
+          ]
+        },
+        "disposition_to_corporations": "Afraid of all companies because company names arrive before people disappear.",
+        "p2p_universe_tie": "The ambushers are not all enforcers.",
+        "hidden_plot_hooks": [
+          "The ambushers are not all enforcers."
+        ],
+        "ties_to_pcs": [
+          "Any PC can engage; never make the plot depend on the summoned backup."
+        ],
+        "npc_relationships": "Protected by Rye, scolded by Kett, and quietly admired by Brannic.",
+        "visual_source": "npc_images portrait asset"
+      },
+      "block5": {
+        "stat_block_ref": "",
+        "combat_stat_block": {
+          "mode": "noncombat NPC",
+          "source": "NPC profile interaction model; run as social, clue, consent, or pressure play unless a scene explicitly turns violent",
+          "tier": "Social / noncombat",
+          "role": "Conversation, clue, pressure, or consent gate",
+          "type": "Social NPC",
+          "difficulty": "12",
+          "thresholds": "Social threshold: one clear concession, clue, or boundary shift at Difficulty 12",
+          "hp": "Social stakes only; no HP track unless a scene assigns an adversary profile.",
+          "stress": "Social stakes only; use scene Stress/Fear rules if pressure escalates.",
+          "attack_modifier": "Conversation only; no attack modifier unless a scene assigns an adversary profile.",
+          "standard_attack": "Social pressure: name what they want, offer the listed trait/DC move, and let the result change access, trust, timing, or information.",
+          "abilities": [
+            "Disposition: Cornered and trembling, desperate not to prove their own fears right.",
+            "Persuasion model: Presence 11 or 12 usually earns the useful version; kindness beats cleverness for backup NPCs.",
+            "Table move: call for the listed trait at Difficulty 12 when the PC risks something concrete, then give the written result."
+          ],
+          "fear_abilities": [
+            "Scene Fear pressure: a delayed answer, public embarrassment, a worse bargain, a closing route, or a witness who now expects a choice."
+          ],
+          "fear_moves": [
+            "Scene Fear pressure: a delayed answer, public embarrassment, a worse bargain, a closing route, or a witness who now expects a choice."
+          ],
+          "gm_ready_notes": [
+            "Open with the visible object, habit, or posture, then ask what the PC offers or risks.",
+            "If violence starts unexpectedly, use the closest existing module adversary profile and keep this persona's motive intact."
+          ]
+        },
+        "combat_summary": "Noncombat/social. Primary Difficulty 12; no HP/attack tracked.",
+        "person_under_the_fight": "",
+        "combat_lever": "A safe way home ends Nettle's fight before it starts."
+      },
+      "portrait": {
+        "creative": "assets/npc-images/nettle/portrait_base.webp",
+        "chroma_blue": "assets/npc-images/nettle/portrait_chroma.webp",
+        "transparent": "assets/npc-images/nettle/portrait_transparent.webp",
+        "source_status": "npc_images"
+      },
+      "imagine_it_like": "Think the young deserter hiding in the hedgerow, the deer caught in the headlights, the kid in a war film who only wants to go home.",
+      "fullbody": {
+        "fullbody_base": "assets/npc-images/nettle/fullbody_base.webp",
+        "fullbody_chroma": "assets/npc-images/nettle/fullbody_chroma.webp",
+        "fullbody_transparent": "assets/npc-images/nettle/fullbody_transparent.webp"
+      }
+    }
+  },
+  {
+    "id": "auditor-holle",
+    "name": "Auditor Holle",
+    "profile": {
+      "schema_version": "npc-profile-v1",
+      "source": "NPC_System_Packet + image-informed hardening",
+      "backup": true,
+      "combatant": false,
+      "player_safe": {
+        "name": "Auditor Holle",
+        "one_line": "a collections agent with a smile that never reaches the ledger",
+        "physical_description": "A red-violet infernis auditor in immaculate black-and-bronze robes holds a dark ledger against her chest, seal ribbons and oath-medallions hanging from her collar like little verdicts.",
+        "reveal_line": "Auditor Holle: a collections agent with a smile that never reaches the ledger"
+      },
+      "block1": {
+        "name": "Auditor Holle",
+        "pronunciation": "AW-dit-er HOL",
+        "one_line": "a collections agent with a smile that never reaches the ledger",
+        "story_role": "The polite face of debt, proving that cruelty wears clean gloves.",
+        "game_role": "A social antagonist who cannot be punched into leaving; she must be out-argued or outlasted.",
+        "critical_info": "She believes perfect procedure absolves her, and a debtor who reminds her of her own old mercy can crack that belief.",
+        "offers_players": [
+          "A way forward",
+          "A grounded question",
+          "A scene-specific clue seed"
+        ],
+        "disposition_default": "Serene, courteous, and immovably on-process.",
+        "the_lever": "A moment that forces her to see the person standing where the balance should be."
+      },
+      "block2": {
+        "wants_now": "Make the account balance without letting the human cost enter the room.",
+        "larger_motivation": "Prove that perfect process can protect her from moral responsibility.",
+        "wants": "Make the account balance without letting the human cost enter the room.",
+        "motivation": "Prove that perfect process can protect her from moral responsibility.",
+        "personality": "Immaculate calm built as a wall against her own memory of once needing mercy. Polishes a closed-eye page weight before she speaks. Insists cruelty is merely inefficient, which is its own quiet kind of confession.",
+        "voice": [
+          "I am not here for cruelty. Cruelty is inefficient."
+        ],
+        "secrets": "She knows escalation can become worse than collection, and she keeps choosing not to picture it.",
+        "fears": "A debtor who makes her remember she once needed mercy.",
+        "likes_dislikes": {
+          "likes": "Exact figures, sealed receipts, soft voices, and procedural victories.",
+          "dislikes": "Tears, improvisation, unpaid kindness, and forged stamps that work too well."
+        },
+        "likes": "Exact figures, sealed receipts, soft voices, and procedural victories.",
+        "dislikes": "Tears, improvisation, unpaid kindness, and forged stamps that work too well.",
+        "favorite_thing": "A brass page weight shaped like a closed eye.",
+        "loved_ones": "A family name she keeps off the ledger and out of conversations.",
+        "day_to_day": "Rises early, reviews balances, practices condolences, and travels with clean boots through dirty places.",
+        "appearance": "A red-violet infernis auditor in immaculate black-and-bronze robes holds a dark ledger against her chest, seal ribbons and oath-medallions hanging from her collar like little verdicts. Full-body reference: Full-body infernis demon-folk auditor in formal Goldwater robes, perfectly composed, ledger held like a verdict, black and bronze palette, head to feet in frame.",
+        "carries": [
+          "black verdict ledger",
+          "bronze oath-medallion",
+          "seal ribbons",
+          "ink knife"
+        ],
+        "wealth_status": "Professionally comfortable, emotionally mortgaged.",
+        "animal_companion": "No animal; the ledger chain is polished more tenderly than a pet.",
+        "physical": "A red-violet infernis auditor in immaculate black-and-bronze robes holds a dark ledger against her chest, seal ribbons and oath-medallions hanging from her collar like little verdicts.",
+        "visual_read_aloud": "A red-violet infernis auditor in immaculate black-and-bronze robes holds a dark ledger against her chest, seal ribbons and oath-medallions hanging from her collar like little verdicts.",
+        "voice_style": "Warm-cold and frictionless; makes a threat sound like an invoice and an invoice sound like sympathy.",
+        "body_language": "Still smile, precise hands, no wasted motion.",
+        "quirks": "Touches one seal ribbon with a red nail before every formal sentence.",
+        "image_lore": "The bronze medallion is not decoration; it is a portable oath seal that lets Holle make a promise sound like an invoice. She polishes it before saying anything cruel.",
+        "npc_relationships": "Foreshadows the wraith without revealing the whole soul-debt machinery."
+      },
+      "block3": {
+        "how_they_expect_pcs_to_behave": "She expects people to mistake politeness for softness.",
+        "persuasion_levers": "Logic and paperwork can corner her. Emotion bounces unless it creates public reputational risk.",
+        "what_moves_them": [
+          {
+            "trait": "Presence",
+            "dc": 12,
+            "result": "They give the useful clue, route, or concession without becoming the plot."
+          }
+        ],
+        "combat_lever": "She avoids direct combat; a valid form, public witness, or impossible audit contradiction forces retreat."
+      },
+      "block4": {
+        "knows_about": {
+          "player_safe": [
+            "One scene-level clue or route, phrased plainly."
+          ],
+          "gm_only": [
+            "Goldwater-to-Soulspire debt escalation.",
+            "Use this backup as a scene seed only: one clue, one pressure, one human face, then return agency to the PCs."
+          ]
+        },
+        "disposition_to_corporations": "Loyal to Goldwater because procedure has rewarded her for never looking below it.",
+        "p2p_universe_tie": "Goldwater-to-Soulspire debt escalation.",
+        "hidden_plot_hooks": [
+          "Goldwater-to-Soulspire debt escalation."
+        ],
+        "ties_to_pcs": [
+          "Any PC can engage; never make the plot depend on the summoned backup."
+        ],
+        "npc_relationships": "Foreshadows the wraith without revealing the whole soul-debt machinery.",
+        "visual_source": "npc_images portrait asset"
+      },
+      "block5": {
+        "stat_block_ref": "",
+        "combat_stat_block": {
+          "mode": "noncombat NPC",
+          "source": "NPC profile interaction model; run as social, clue, consent, or pressure play unless a scene explicitly turns violent",
+          "tier": "Social / noncombat",
+          "role": "Conversation, clue, pressure, or consent gate",
+          "type": "Social NPC",
+          "difficulty": "12",
+          "thresholds": "Social threshold: one clear concession, clue, or boundary shift at Difficulty 12",
+          "hp": "Social stakes only; no HP track unless a scene assigns an adversary profile.",
+          "stress": "Social stakes only; use scene Stress/Fear rules if pressure escalates.",
+          "attack_modifier": "Conversation only; no attack modifier unless a scene assigns an adversary profile.",
+          "standard_attack": "Social pressure: name what they want, offer the listed trait/DC move, and let the result change access, trust, timing, or information.",
+          "abilities": [
+            "Disposition: Serene, courteous, and immovably on-process.",
+            "Persuasion model: Presence 11 or 12 usually earns the useful version; kindness beats cleverness for backup NPCs.",
+            "Table move: call for the listed trait at Difficulty 12 when the PC risks something concrete, then give the written result."
+          ],
+          "fear_abilities": [
+            "Scene Fear pressure: a delayed answer, public embarrassment, a worse bargain, a closing route, or a witness who now expects a choice."
+          ],
+          "fear_moves": [
+            "Scene Fear pressure: a delayed answer, public embarrassment, a worse bargain, a closing route, or a witness who now expects a choice."
+          ],
+          "gm_ready_notes": [
+            "Open with the visible object, habit, or posture, then ask what the PC offers or risks.",
+            "If violence starts unexpectedly, use the closest existing module adversary profile and keep this persona's motive intact."
+          ]
+        },
+        "combat_summary": "Noncombat/social. Primary Difficulty 12; no HP/attack tracked.",
+        "person_under_the_fight": "",
+        "combat_lever": "She avoids direct combat; a valid form, public witness, or impossible audit contradiction forces retreat."
+      },
+      "portrait": {
+        "creative": "assets/npc-images/auditor-holle/portrait_base.webp",
+        "chroma_blue": "assets/npc-images/auditor-holle/portrait_chroma.webp",
+        "transparent": "assets/npc-images/auditor-holle/portrait_transparent.webp",
+        "source_status": "npc_images"
+      },
+      "imagine_it_like": "Think the soft-spoken repo agent who quotes policy at your funeral, the smiling official who means it kindly, the banality of harm in very good tailoring.",
+      "fullbody": {
+        "fullbody_base": "assets/npc-images/auditor-holle/fullbody_base.webp",
+        "fullbody_chroma": "assets/npc-images/auditor-holle/fullbody_chroma.webp",
+        "fullbody_transparent": "assets/npc-images/auditor-holle/fullbody_transparent.webp"
+      }
+    }
+  },
+  {
+    "id": "mama-suet",
+    "name": "Mama Suet",
+    "profile": {
+      "schema_version": "npc-profile-v1",
+      "source": "NPC_System_Packet + image-informed hardening",
+      "backup": true,
+      "combatant": false,
+      "player_safe": {
+        "name": "Mama Suet",
+        "one_line": "a Firstmoss forager carrying food and practical comfort",
+        "physical_description": "An old turtle-folk elder carries bowls of glowing moss and greens, her shell wrapped with soft packs and a scarf worn smooth by years of road dust.",
+        "reveal_line": "Mama Suet: a Firstmoss forager carrying food and practical comfort"
+      },
+      "block1": {
+        "name": "Mama Suet",
+        "pronunciation": "MAH-muh SOO-et",
+        "one_line": "a Firstmoss forager carrying food and practical comfort",
+        "story_role": "The grandmother of the road, who feeds first and judges never.",
+        "game_role": "A comfort and a compass; she steadies frightened players and points them true.",
+        "critical_info": "She remembers the forest before the toll signs, and she will tell you, if you eat first.",
+        "offers_players": [
+          "A way forward",
+          "A grounded question",
+          "A scene-specific clue seed"
+        ],
+        "disposition_default": "Unhurried and nurturing, quietly unimpressed by uniforms.",
+        "the_lever": "Sit down and accept the soup; she opens to anyone who lets themselves be cared for."
+      },
+      "block2": {
+        "wants_now": "Get frightened people warm enough to make better choices.",
+        "larger_motivation": "Keep the old forest memory alive through care, food, and stubborn patience.",
+        "wants": "Get frightened people warm enough to make better choices.",
+        "motivation": "Keep the old forest memory alive through care, food, and stubborn patience.",
+        "personality": "Stubborn tenderness in a worn shell. Carries a spoon worn thin by decades of feeding people, and a scarf from a child she fed in a failed harvest, to remind herself that care should travel. Fears the young accepting danger as the ordinary price of being noticed.",
+        "voice": [
+          "Eat first. Then decide what kind of brave you are being."
+        ],
+        "secrets": "She remembers who came first with ledgers and who pretended the danger was natural.",
+        "fears": "Young people accepting danger as the normal price of being noticed.",
+        "likes_dislikes": {
+          "likes": "Patience, washed hands, honest hunger, and someone taking seconds without apology.",
+          "dislikes": "Rushing elders, wasting food, and calling old memory superstition."
+        },
+        "likes": "Patience, washed hands, honest hunger, and someone taking seconds without apology.",
+        "dislikes": "Rushing elders, wasting food, and calling old memory superstition.",
+        "favorite_thing": "A smooth wooden spoon worn thin by decades of feeding people.",
+        "loved_ones": "The young ones of Hush, which in her mind means nearly everyone.",
+        "day_to_day": "Gathers moss at first light, checks on sick neighbors, simmers soup, and remembers the forest before toll signs.",
+        "appearance": "An old turtle-folk elder carries bowls of glowing moss and greens, her shell wrapped with soft packs and a scarf worn smooth by years of road dust. Full-body reference: Full-body turtle-folk elder, moss basket on her shell, worn walking-staff, unhurried posture, head to feet in frame.",
+        "carries": [
+          "glowing moss bowl",
+          "shell packs",
+          "soft road scarf",
+          "walking staff"
+        ],
+        "wealth_status": "Materially modest, rich in reciprocal care.",
+        "animal_companion": "No animal; small lantern-moths often follow the moss basket.",
+        "physical": "An old turtle-folk elder carries bowls of glowing moss and greens, her shell wrapped with soft packs and a scarf worn smooth by years of road dust.",
+        "visual_read_aloud": "An old turtle-folk elder carries bowls of glowing moss and greens, her shell wrapped with soft packs and a scarf worn smooth by years of road dust.",
+        "voice_style": "Slow, warm, and faintly scolding; wisdom delivered as a second helping.",
+        "body_language": "Slow enough to make hurried people aware of themselves.",
+        "quirks": "Feeds people before answering questions, because hungry people ask smaller questions.",
+        "image_lore": "The scarf came from a child she fed during a failed harvest. She keeps it tied around the shell pack because it reminds her that care should travel.",
+        "npc_relationships": "Respected by Yera, indulged by Fidget, and listened to by people who know better than to ignore soup."
+      },
+      "block3": {
+        "how_they_expect_pcs_to_behave": "She expects heroes to forget they are hungry and then make worse choices.",
+        "persuasion_levers": "Courtesy and patience land; rushing loses detail. Presence 11 opens a long-view clue.",
+        "what_moves_them": [
+          {
+            "trait": "Presence",
+            "dc": 12,
+            "result": "They give the useful clue, route, or concession without becoming the plot."
+          }
+        ],
+        "combat_lever": "She fights by sheltering, blocking a doorway with elder authority, and making witnesses."
+      },
+      "block4": {
+        "knows_about": {
+          "player_safe": [
+            "One scene-level clue or route, phrased plainly."
+          ],
+          "gm_only": [
+            "The forest was safe before safety became a product.",
+            "Use this backup as a scene seed only: one clue, one pressure, one human face, then return agency to the PCs."
+          ]
+        },
+        "disposition_to_corporations": "Remembers when company safety arrived as a sales pitch after the danger.",
+        "p2p_universe_tie": "The forest was safe before safety became a product.",
+        "hidden_plot_hooks": [
+          "The forest was safe before safety became a product."
+        ],
+        "ties_to_pcs": [
+          "Any PC can engage; never make the plot depend on the summoned backup."
+        ],
+        "npc_relationships": "Respected by Yera, indulged by Fidget, and listened to by people who know better than to ignore soup.",
+        "visual_source": "npc_images portrait asset"
+      },
+      "block5": {
+        "stat_block_ref": "",
+        "combat_stat_block": {
+          "mode": "noncombat NPC",
+          "source": "NPC profile interaction model; run as social, clue, consent, or pressure play unless a scene explicitly turns violent",
+          "tier": "Social / noncombat",
+          "role": "Conversation, clue, pressure, or consent gate",
+          "type": "Social NPC",
+          "difficulty": "12",
+          "thresholds": "Social threshold: one clear concession, clue, or boundary shift at Difficulty 12",
+          "hp": "Social stakes only; no HP track unless a scene assigns an adversary profile.",
+          "stress": "Social stakes only; use scene Stress/Fear rules if pressure escalates.",
+          "attack_modifier": "Conversation only; no attack modifier unless a scene assigns an adversary profile.",
+          "standard_attack": "Social pressure: name what they want, offer the listed trait/DC move, and let the result change access, trust, timing, or information.",
+          "abilities": [
+            "Disposition: Unhurried and nurturing, quietly unimpressed by uniforms.",
+            "Persuasion model: Presence 11 or 12 usually earns the useful version; kindness beats cleverness for backup NPCs.",
+            "Table move: call for the listed trait at Difficulty 12 when the PC risks something concrete, then give the written result."
+          ],
+          "fear_abilities": [
+            "Scene Fear pressure: a delayed answer, public embarrassment, a worse bargain, a closing route, or a witness who now expects a choice."
+          ],
+          "fear_moves": [
+            "Scene Fear pressure: a delayed answer, public embarrassment, a worse bargain, a closing route, or a witness who now expects a choice."
+          ],
+          "gm_ready_notes": [
+            "Open with the visible object, habit, or posture, then ask what the PC offers or risks.",
+            "If violence starts unexpectedly, use the closest existing module adversary profile and keep this persona's motive intact."
+          ]
+        },
+        "combat_summary": "Noncombat/social. Primary Difficulty 12; no HP/attack tracked.",
+        "person_under_the_fight": "",
+        "combat_lever": "She fights by sheltering, blocking a doorway with elder authority, and making witnesses."
+      },
+      "portrait": {
+        "creative": "assets/npc-images/mama-suet/portrait_base.webp",
+        "chroma_blue": "assets/npc-images/mama-suet/portrait_chroma.webp",
+        "transparent": "assets/npc-images/mama-suet/portrait_transparent.webp",
+        "source_status": "npc_images"
+      },
+      "imagine_it_like": "Think the grandmother who solves every crisis with a full plate, the soup-kitchen elder, a tea-shop sage with a ladle instead of a staff.",
+      "fullbody": {
+        "fullbody_base": "assets/npc-images/mama-suet/fullbody_base.webp",
+        "fullbody_chroma": "assets/npc-images/mama-suet/fullbody_chroma.webp",
+        "fullbody_transparent": "assets/npc-images/mama-suet/fullbody_transparent.webp"
+      }
+    }
+  },
+  {
+    "id": "inspector-pelt",
+    "name": "Inspector Pelt",
+    "profile": {
+      "schema_version": "npc-profile-v1",
+      "source": "NPC_System_Packet + image-informed hardening",
+      "backup": true,
+      "combatant": false,
+      "player_safe": {
+        "name": "Inspector Pelt",
+        "one_line": "a checkpoint compliance officer terrified of being blamed",
+        "physical_description": "A round-eyed ribbet inspector sits beneath hanging seals in a purple sash, clutching forms, stamps, and a frog-stiff posture that begs nobody to shout.",
+        "reveal_line": "Inspector Pelt: a checkpoint compliance officer terrified of being blamed"
+      },
+      "block1": {
+        "name": "Inspector Pelt",
+        "pronunciation": "in-SPEK-ter PELT",
+        "one_line": "a checkpoint compliance officer terrified of being blamed",
+        "story_role": "Bureaucracy with sweat on its brow, where the rules collide with people.",
+        "game_role": "A comedic and revealing obstacle; the right form, or the right pressure, moves him.",
+        "critical_info": "He cares about the right stamp, not the right answer, because the stamp is the thing that saves his neck.",
+        "offers_players": [
+          "A way forward",
+          "A grounded question",
+          "A scene-specific clue seed"
+        ],
+        "disposition_default": "Anxious and deferential, desperate not to be noticed by anyone above him.",
+        "the_lever": "Show him a path where the problem becomes somebody else's form to sign."
+      },
+      "block2": {
+        "wants_now": "Move the problem through the right form so nobody above him notices the delay.",
+        "larger_motivation": "Survive bureaucracy without becoming important enough to be blamed.",
+        "wants": "Move the problem through the right form so nobody above him notices the delay.",
+        "motivation": "Survive bureaucracy without becoming important enough to be blamed.",
+        "personality": "Fear filed neatly under compliance. Sits frog-stiff beneath his hanging seals, begging nobody to shout. Wears, hidden under the sash, the route-token of the first traveler he ever waved through for free.",
+        "voice": [
+          "I need the right stamp, not the right answer."
+        ],
+        "secrets": "He often signs things he does not understand because asking is riskier.",
+        "fears": "A superior, a missing stamp, and crates whose contents make him responsible.",
+        "likes_dislikes": {
+          "likes": "Correct margins, sympathetic faces, and procedures that let him say yes safely.",
+          "dislikes": "Raised voices, ambiguous seals, and people asking what the rule is for."
+        },
+        "likes": "Correct margins, sympathetic faces, and procedures that let him say yes safely.",
+        "dislikes": "Raised voices, ambiguous seals, and people asking what the rule is for.",
+        "favorite_thing": "A tiny dry-ink blotter his first supervisor said was lucky.",
+        "loved_ones": "A clutch of younger relatives who believe checkpoint work is dignified.",
+        "day_to_day": "Sets up the folding table, checks stamps, sweats through his sash, and files fear under compliance.",
+        "appearance": "A round-eyed ribbet inspector sits beneath hanging seals in a purple sash, clutching forms, stamps, and a frog-stiff posture that begs nobody to shout. Full-body reference: Full-body frog-folk checkpoint officer beside a folding table piled with forms, fretful posture, trembling stamp, head to feet in frame.",
+        "carries": [
+          "inspection stamp",
+          "folded permit slips",
+          "purple sash",
+          "route-token brooch"
+        ],
+        "wealth_status": "Low official wage with high personal stakes.",
+        "animal_companion": "No animal; a bell on the desk gets nervous taps all day.",
+        "physical": "A round-eyed ribbet inspector sits beneath hanging seals in a purple sash, clutching forms, stamps, and a frog-stiff posture that begs nobody to shout.",
+        "visual_read_aloud": "A round-eyed ribbet inspector sits beneath hanging seals in a purple sash, clutching forms, stamps, and a frog-stiff posture that begs nobody to shout.",
+        "voice_style": "Flustered and hedging; hides behind passive voice and the correct rubber stamp.",
+        "body_language": "Eyes dart to rules before faces.",
+        "quirks": "Blinks one eye at a time when a rule has no humane answer.",
+        "image_lore": "The route-token brooch belonged to the first traveler Pelt ever waved through without a fee. He wears it under the sash when supervisors are near.",
+        "npc_relationships": "A comic mirror of the clerk: smaller, wetter, and more honest about fear."
+      },
+      "block3": {
+        "how_they_expect_pcs_to_behave": "He expects travelers to bully him and superiors to punish him.",
+        "persuasion_levers": "Procedure, sympathy, or a forged Compliance Stamp lands. Intimidation makes him cite more rules.",
+        "what_moves_them": [
+          {
+            "trait": "Presence",
+            "dc": 12,
+            "result": "They give the useful clue, route, or concession without becoming the plot."
+          }
+        ],
+        "combat_lever": "He does not fight; he can gum the scene with process or unlock it with face-saving authorization."
+      },
+      "block4": {
+        "knows_about": {
+          "player_safe": [
+            "One scene-level clue or route, phrased plainly."
+          ],
+          "gm_only": [
+            "Custody paperwork outranks truth in the system.",
+            "Use this backup as a scene seed only: one clue, one pressure, one human face, then return agency to the PCs."
+          ]
+        },
+        "disposition_to_corporations": "Terrified of company authority, not loyal to its cruelty.",
+        "p2p_universe_tie": "Custody paperwork outranks truth in the system.",
+        "hidden_plot_hooks": [
+          "Custody paperwork outranks truth in the system."
+        ],
+        "ties_to_pcs": [
+          "Any PC can engage; never make the plot depend on the summoned backup."
+        ],
+        "npc_relationships": "A comic mirror of the clerk: smaller, wetter, and more honest about fear.",
+        "visual_source": "npc_images portrait asset"
+      },
+      "block5": {
+        "stat_block_ref": "",
+        "combat_stat_block": {
+          "mode": "noncombat NPC",
+          "source": "NPC profile interaction model; run as social, clue, consent, or pressure play unless a scene explicitly turns violent",
+          "tier": "Social / noncombat",
+          "role": "Conversation, clue, pressure, or consent gate",
+          "type": "Social NPC",
+          "difficulty": "12",
+          "thresholds": "Social threshold: one clear concession, clue, or boundary shift at Difficulty 12",
+          "hp": "Social stakes only; no HP track unless a scene assigns an adversary profile.",
+          "stress": "Social stakes only; use scene Stress/Fear rules if pressure escalates.",
+          "attack_modifier": "Conversation only; no attack modifier unless a scene assigns an adversary profile.",
+          "standard_attack": "Social pressure: name what they want, offer the listed trait/DC move, and let the result change access, trust, timing, or information.",
+          "abilities": [
+            "Disposition: Anxious and deferential, desperate not to be noticed by anyone above him.",
+            "Persuasion model: Presence 11 or 12 usually earns the useful version; kindness beats cleverness for backup NPCs.",
+            "Table move: call for the listed trait at Difficulty 12 when the PC risks something concrete, then give the written result."
+          ],
+          "fear_abilities": [
+            "Scene Fear pressure: a delayed answer, public embarrassment, a worse bargain, a closing route, or a witness who now expects a choice."
+          ],
+          "fear_moves": [
+            "Scene Fear pressure: a delayed answer, public embarrassment, a worse bargain, a closing route, or a witness who now expects a choice."
+          ],
+          "gm_ready_notes": [
+            "Open with the visible object, habit, or posture, then ask what the PC offers or risks.",
+            "If violence starts unexpectedly, use the closest existing module adversary profile and keep this persona's motive intact."
+          ]
+        },
+        "combat_summary": "Noncombat/social. Primary Difficulty 12; no HP/attack tracked.",
+        "person_under_the_fight": "",
+        "combat_lever": "He does not fight; he can gum the scene with process or unlock it with face-saving authorization."
+      },
+      "portrait": {
+        "creative": "assets/npc-images/inspector-pelt/portrait_base.webp",
+        "chroma_blue": "assets/npc-images/inspector-pelt/portrait_chroma.webp",
+        "transparent": "assets/npc-images/inspector-pelt/portrait_transparent.webp",
+        "source_status": "npc_images"
+      },
+      "imagine_it_like": "Think the petty official terrified of his own boss, the checkpoint clerk who just wants his shift to end, the rule-follower who would really rather you not make this his problem.",
+      "fullbody": {
+        "fullbody_base": "assets/npc-images/inspector-pelt/fullbody_base.webp",
+        "fullbody_chroma": "assets/npc-images/inspector-pelt/fullbody_chroma.webp",
+        "fullbody_transparent": "assets/npc-images/inspector-pelt/fullbody_transparent.webp"
+      }
+    }
+  },
+  {
+    "id": "old-gregor",
+    "name": "Old Gregor",
+    "profile": {
+      "schema_version": "npc-profile-v1",
+      "source": "NPC_System_Packet + image-informed hardening",
+      "backup": true,
+      "combatant": true,
+      "player_safe": {
+        "name": "Old Gregor",
+        "one_line": "a lucid old skeleton who remembers one name and one debt",
+        "physical_description": "An old dwarf-miner skeleton wears a battered cap, a corroded locket, and brass charms over a beard that somehow still remembers its braid.",
+        "reveal_line": "Old Gregor: a lucid old skeleton who remembers one name and one debt"
+      },
+      "block1": {
+        "name": "Old Gregor",
+        "pronunciation": "old GREG-er",
+        "one_line": "a lucid old skeleton who remembers one name and one debt",
+        "story_role": "The proof that under every soul-debt skeleton there was once a whole person.",
+        "game_role": "A combatant who can be reached with a name instead of a weapon; remembering him is the real victory.",
+        "critical_info": "He is lucid in flashes. Say his trade, his family, or his name, and the command loosens its grip.",
+        "offers_players": [
+          "A way forward",
+          "A grounded question",
+          "A scene-specific clue seed"
+        ],
+        "disposition_default": "Caught between an old labor loop and a flickering memory of being a man.",
+        "the_lever": "Someone willing to tell him his life mattered more than the balance."
+      },
+      "block2": {
+        "wants_now": "Remember enough of his life to stop obeying the debt.",
+        "larger_motivation": "Have someone say his trade, family, and name mattered more than the balance.",
+        "wants": "Remember enough of his life to stop obeying the debt.",
+        "motivation": "Have someone say his trade, family, and name mattered more than the balance.",
+        "personality": "A gentle ghost of a craftsman wearing a soldier's command like ill-fitting borrowed clothes. Carries a carved toy with one missing wheel. Wants, beneath the whole weight of the debt, only to remember enough of his life to stop obeying it.",
+        "voice": [
+          "I was a carpenter before the badge. Tell me that matters."
+        ],
+        "secrets": "He remembers one family face clearly and hides from the rest because loss hurts even dead.",
+        "fears": "Forgetting the last face and becoming only a useful skeleton.",
+        "likes_dislikes": {
+          "likes": "Carpenter's measures, mine songs, patient questions, and someone touching tools with respect.",
+          "dislikes": "Orders barked in company cadence and being called it."
+        },
+        "likes": "Carpenter's measures, mine songs, patient questions, and someone touching tools with respect.",
+        "dislikes": "Orders barked in company cadence and being called it.",
+        "favorite_thing": "A carved toy with one missing wheel.",
+        "loved_ones": "A family he was earning for before the debt closed around him.",
+        "day_to_day": "Repeats old labor loops until a familiar object or kind voice interrupts the command.",
+        "appearance": "An old dwarf-miner skeleton wears a battered cap, a corroded locket, and brass charms over a beard that somehow still remembers its braid. Full-body reference: Full-body animated dwarf-miner skeleton character holding a rusted pick, corroded locket, stout dwarven proportions, wistful remembering posture, head to feet in frame, no infographic, no diagram, no chart.",
+        "carries": [
+          "miner cap",
+          "corroded locket",
+          "rusted pick-token",
+          "brass remembrance charms"
+        ],
+        "wealth_status": "Debt-owned beyond death; the only wealth left is memory.",
+        "animal_companion": "No animal; he speaks to the candle in his helm like an old workmate.",
+        "physical": "An old dwarf-miner skeleton wears a battered cap, a corroded locket, and brass charms over a beard that somehow still remembers its braid.",
+        "visual_read_aloud": "An old dwarf-miner skeleton wears a battered cap, a corroded locket, and brass charms over a beard that somehow still remembers its braid.",
+        "voice_style": "Lucid sentences surfacing through worn command-words; a person remembering himself in real time.",
+        "body_language": "Duty movement that keeps slipping into old craftsman's habits.",
+        "quirks": "Touches the locket when asked a question the old debt-script cannot answer.",
+        "image_lore": "The locket holds a soot-dark portrait of his family. Gregor does not know the faces until someone says the word 'home' slowly enough.",
+        "npc_relationships": "Can make future undead scenes tragic instead of abstract."
+      },
+      "block3": {
+        "how_they_expect_pcs_to_behave": "Gregor expects the living to either fear him or use him.",
+        "persuasion_levers": "Kindness and remembrance reach him; Presence 12 with a name, trade, or family token can open the person-layer.",
+        "what_moves_them": [
+          {
+            "trait": "Presence",
+            "dc": 12,
+            "result": "They give the useful clue, route, or concession without becoming the plot."
+          }
+        ],
+        "combat_lever": "Remind him who he was and give him permission to stop."
+      },
+      "block4": {
+        "knows_about": {
+          "player_safe": [
+            "One scene-level clue or route, phrased plainly."
+          ],
+          "gm_only": [
+            "A former person remains under the debt shape.",
+            "Use this backup as a scene seed only: one clue, one pressure, one human face, then return agency to the PCs."
+          ]
+        },
+        "disposition_to_corporations": "The clearest face of Kazrak/Soulspire debt-as-ownership, but seed it through his own life.",
+        "p2p_universe_tie": "A former person remains under the debt shape.",
+        "hidden_plot_hooks": [
+          "A former person remains under the debt shape."
+        ],
+        "ties_to_pcs": [
+          "Any PC can engage; never make the plot depend on the summoned backup."
+        ],
+        "npc_relationships": "Can make future undead scenes tragic instead of abstract.",
+        "visual_source": "npc_images portrait asset"
+      },
+      "block5": {
+        "stat_block_ref": "Backup undead uses Legacy Skeleton stats if a fight starts: T1 Standard. Rusted Sword 1d6+1. Difficulty 12. Thresholds 7/none. HP 2. Stress 1. ATK +0. Group Attack requires Fear.",
+        "combat_stat_block": {
+          "mode": "combatant",
+          "source": "Rules/Act-by-Act Mechanics.md Scene 5.2 and atlas_act_five.py",
+          "tier": "Tier 1",
+          "type": "Standard",
+          "difficulty": 12,
+          "thresholds": {
+            "major": 7,
+            "severe": null
+          },
+          "hp": 2,
+          "stress": 1,
+          "attack_modifier": "+0",
+          "standard_attack": "Rusted Sword, Melee, 1d6+1 physical",
+          "range": "Melee",
+          "motives_tactics": [
+            "hold the old post",
+            "advance in a line",
+            "protect obsolete orders",
+            "cluster when Fear is spent"
+          ],
+          "abilities": [
+            "Defeat rule: 6 or less damage marks 1 HP; more than 6 defeats it.",
+            "Countdown fuel: each defeated or meaningfully neutralized skeleton ticks ritual_countdown -1.",
+            "Soul-debt person-layer: describe rusted-sword dead first, then let signs of former work surface."
+          ],
+          "fear_abilities": [
+            "Group Attack - spend Fear: move several skeletons into Melee of one target, make one shared +0 attack vs Evasion, and deal 4 physical per skeleton combined on success.",
+            "Market Correction environment can spend Fear to summon 2 more skeletons within Very Close of a PC."
+          ],
+          "gm_ready_notes": [
+            "Use skeletons to teach clean combat rhythm and countdown progress.",
+            "If a PC addresses the person underneath, one skeleton can falter long enough to create a non-damage neutralization.",
+            "Do not imply they are mindless props; each used to be a worker, guard, or debtor."
+          ],
+          "stat_block_id": "legacy-security-skeleton",
+          "profile_variant": "old-gregor uses the legacy-security-skeleton module stat profile.",
+          "role": "Standard",
+          "fear_moves": [
+            "Group Attack - spend Fear: move several skeletons into Melee of one target, make one shared +0 attack vs Evasion, and deal 4 physical per skeleton combined on success.",
+            "Market Correction environment can spend Fear to summon 2 more skeletons within Very Close of a PC."
+          ]
+        },
+        "combat_summary": "Tier 1 Standard; Diff 12; thresholds 7/None; HP 2; Stress 1; ATK +0; Rusted Sword, Melee, 1d6+1 physical",
+        "person_under_the_fight": "A dwarf carpenter who took a mining contract to keep his family fed, died owing, and was set back to work as bones. The corroded locket holds a soot-dark portrait he cannot recognize until someone says the word home slowly enough.",
+        "combat_lever": "Remind him who he was and give him permission to stop."
+      },
+      "portrait": {
+        "creative": "assets/npc-images/old-gregor/portrait_base.webp",
+        "chroma_blue": "assets/npc-images/old-gregor/portrait_chroma.webp",
+        "transparent": "assets/npc-images/old-gregor/portrait_transparent.webp",
+        "source_status": "npc_images"
+      },
+      "imagine_it_like": "Think the cursed soul who remembers being human at the worst possible moment, a ghost rattling a debt instead of chains, a revenant who only wants someone to say he was a carpenter.",
+      "fullbody": {
+        "fullbody_base": "assets/npc-images/old-gregor/fullbody_base.webp",
+        "fullbody_chroma": "assets/npc-images/old-gregor/fullbody_chroma.webp",
+        "fullbody_transparent": "assets/npc-images/old-gregor/fullbody_transparent.webp"
+      }
+    }
+  }
+]

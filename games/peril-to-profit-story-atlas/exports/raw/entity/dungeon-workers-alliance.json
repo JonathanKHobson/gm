@@ -1,0 +1,68 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "dungeon-workers-alliance",
+  "title": "Dungeon Workers' Alliance",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "d33e64b9d4c37ea1",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Dungeon Workers' Alliance: The Dungeon Workers' Alliance is an old labor name that survives in brass pins, hand-copied maps, and tired defiance. Slogan: Nobody clears the dungeon alone."
+    },
+    {
+      "title": "Public role",
+      "body": "Sablewood labor lineage and pressure group behind Bramble-adjacent organizing"
+    },
+    {
+      "title": "Handout text",
+      "body": "Dungeon Workers' Alliance: The Dungeon Workers' Alliance is an old labor name that survives in brass pins, hand-copied maps, and tired defiance. Slogan: Nobody clears the dungeon alone."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: faction",
+        "Role: Sablewood labor lineage and pressure group behind Bramble-adjacent organizing",
+        "Summary: The Dungeon Workers' Alliance is an old labor name that survives in brass pins, hand-copied maps, and tired defiance.",
+        "Tags: audit-recovery earned-depth faction-profile labor sablewood-lore",
+        "Connections: Bramble Union Kazrak Industries Sablewood™ Logistics Preserve Clover Co-op",
+        "Personality: Practical, tired, protective, and suspicious of corporate paperwork that arrives before help does.",
+        "Wants: Preserve workers remembered as people with claims, graves, and skills instead of as route hazards.",
+        "Fears: Being collapsed into Bramble violence, erased from records, or used as proof that all labor resistance is criminal.",
+        "Secrets: Some Bramble Union routes and signals descend from old Alliance safety networks, but no one says this in front of a company clerk.",
+        "Body Language: Pins are worn inside collars, not openly. Old workers touch route ledgers like they are family records.",
+        "Sample Dialogue: We built the road before they taught it to charge us rent.",
+        "Equipment: old route pins strike notices worker ledgers",
+        "Search Or Loot: Evidence, not treasure: a strike notice, a route pin, or a list of missing workers can humanize the Bramble Union later.",
+        "Gm Use: Use as earned depth if players ask why the Bramble Union has labor discipline, maps, or old security gear.",
+        "Future Hooks: A future Relay Spire investigation can reveal Alliance records that contradict official hazard histories.",
+        "Robust: Dungeon Workers' Alliance: The Dungeon Workers' Alliance is an old labor name that survives in brass pins, hand-copied maps, and tired defiance. Slogan: Nobody clears the dungeon alone. GM-only: this is context, not a new exposition faction for the one-shot. Dull brass route pins, water-stained ledgers, faded strike notices, and hand-copied maps with names written beside unsafe bends. Wants workers and freeholders remembered as people displaced by concessions, not converted into monster-road statistics. Fears official files turning every dead worker into a hazard justification and every survivor into a criminal. Thematic kin to the Bramble Union and a future organized-resistance seed. Knowledge or Presence 15 Connect the Alliance, Bramble route discipline, and old Kazrak concession files without needing an interrogation. Learn this was a worker safety network and gain one name a Hush local may recognize. Learn the truth, but someone realizes the party is holding politically dangerous labor evidence. Catch that the pins are worker marks, not gang trophies. Misread the evidence as criminal proof; a spared reclaimer becomes colder or more afraid. Spend Fear to make a corporate...",
+        "Inventory: old route pins strike notices worker ledgers",
+        "Loot: If searched as evidence, use it as context for displacement rather than a treasure source.",
+        "Image Fallback: type-icon",
+        "Id: dungeon-workers-alliance",
+        "Name: Dungeon Workers' Alliance",
+        "Aliases: Dungeon Workers' Alliance old route workers the Alliance the dungeon union",
+        "Mechanics: Faction Pressure / Reputation Mechanics Players can read public face, negotiate leverage, track reputation, or identify pressure Dungeon Workers' Alliance when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: The Dungeon Workers' Alliance is an old labor name that survives in brass pins, hand-copied maps, and tired defiance. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-dungeon-workers-alliance-engage-dungeon-workers'-alliance entity-dungeon-workers-alliance Engage Dungeon Workers' Alliance Engage Dungeon Workers' Alliance Presence Knowledge Instinct Presence Knowledge, Instinct 13 Choose the trait from the player's method, not the entity type. A flat read of Dungeon Workers' Alliance hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a...",
+        "Pronunciation: DUN-jun WUR-kerz uh-LY-unss",
+        "Short Pronunciation: DUN-jun WUR-kerz uh-LY-unss",
+        "Faction Profile: faction-profile-v1 dungeon-workers-alliance dungeon-workers-alliance Faction_System_Packet/factions/WIDER_LORE_FACTIONS.md compact True bramble Dungeon Workers' Alliance A half-legend of organized labor, old route pins, and workers who remember the dungeon never cleared itself. Nobody clears the dungeon alone. The Dungeon Workers' Alliance is an old labor name that survives in brass pins, hand-copied maps, and tired defiance. The Alliance feels less like a banner and more like a promise passed hand to hand. A dull brass pin in a collar, a copied route map with names by the dangerous bends, a worker who says 'we' when the company file says 'incident.' The pin is small enough to hide under a collar. It shows a pick, a lantern, and a hand. It has been polished by fingers more often than cloth. Dungeon Workers' Alliance the Alliance old route workers the dungeon union A half-legend of organized labor, old route pins, and workers who remember the dungeon never cleared itself. Keeps names, claims, route memory, and solidarity alive after corporations convert workers into hazards. Thematic kin to the Bramble Union and a future organized-resistance seed. Cautious, practical, and moved by...",
+        "Meta: Faction / Community FACTION assets/icons/faction.png entity-faction #9f7aea 06 Factions and Companies factions faction",
+        "Image Prompt: Private table TTRPG story atlas asset for Dungeon Workers' Alliance, Faction / Community. Role: Sablewood labor lineage and pressure group behind Bramble-adjacent organizing. Summary: The Dungeon Workers' Alliance is an old labor name that survives in brass pins, hand-copied maps, and tired defiance.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Create a clean symbolic crest or brand mark on a plain dark background; no readable words. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Related: Bramble Union Clover Co-op Kazrak Industries Sablewood™ Logistics Preserve",
+        "Image: assets/logos/dungeon-workers-alliance.webp",
+        "Image Asset Status: image_gen",
+        "Faction Representative Image: assets/factions/dungeon-workers-alliance-representative.webp",
+        "Faction Representative Status: image_gen",
+        "Visual Gallery: primary Primary wiki image primary assets/logos/dungeon-workers-alliance.webp Dungeon Workers' Alliance primary wiki image visual. Dungeon Workers' Alliance: Primary wiki image. image_gen True True faction-logo-source Faction logo faction-logo assets/entity-gallery/dungeon-workers-alliance/faction-logo-source.webp Dungeon Workers' Alliance faction logo visual. Dungeon Workers' Alliance: Faction logo. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/logos/dungeon-workers-alliance.webp faction-representative-source Representative scene faction-representative assets/entity-gallery/dungeon-workers-alliance/faction-representative-source.webp Dungeon Workers' Alliance representative scene visual. Dungeon Workers' Alliance: Representative scene. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/representative/dungeon-workers-alliance.png"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash d33e64b9d4c37ea1 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

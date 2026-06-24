@@ -1,0 +1,433 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2347 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-hush-farms - Hush Farms Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The last cultivated fields thin into carved trees and blue moss-light. The path ahead) Tj
+T*
+(leaves village warmth behind.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(The last cultivated fields thin into carved trees and blue moss-light. The path ahead) Tj
+T*
+(leaves village warmth behind.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-hush-farms) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: ACT-FOUR) Tj
+T*
+(- Sectiontitle: Act Four: The Hanging Office) Tj
+T*
+(- Title: Hush Farms Location Map) Tj
+T*
+(- Shorttitle: The Last Fields) Tj
+T*
+(- Order: 404.08) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-hush-farms-gm.png) Tj
+T*
+(- Alt: Hush Farms location map board.) Tj
+T*
+(- Caption: Visual reference for Hush Farms.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Use the farms as the Act 3 to Act 4 bridge, paying off custodian_route) Tj
+T*
+(  before the treehouse approach.) Tj
+T*
+(- Publicobjective: The last cultivated fields thin into carved trees and blue moss-) Tj
+T*
+(  light. The path ahead leaves village warmth behind.) Tj
+T*
+(- Readaloud: The last cultivated fields thin into carved trees and blue moss-light.) Tj
+T*
+(  The path ahead leaves village warmth behind.) Tj
+T*
+(- Gmscript: Say: "Safe route, clean crossing. Dangerous or unknown route, Instinct 13) Tj
+T*
+(  or one minor preserve obstacle before S04-01.") Tj
+T*
+(- Gmreadaloud: The last fields thin. Blue moss-light pulses softly. The carved-face) Tj
+T*
+(  trees begin.) Tj
+T*
+(- Gmchecklist: Check custodian_route. Resolve one minor hazard only if route is) Tj
+T*
+(  dangerous/unknown. Move to S04-01.) Tj
+T*
+(- Gmprivate: This map is shared with Act 3, but Act 4 uses it as the approach) Tj
+T*
+(  consequence gate.) Tj
+T*
+(- Playertakeaway: The last cultivated fields thin into carved trees and blue moss-) Tj
+T*
+(  light. The path ahead leaves village warmth behind.) Tj
+T*
+(- Storytakeaway: The road out of Hush proves whether the town truly vouched for the) Tj
+T*
+(  party.) Tj
+T*
+(- Mechanictakeaway: custodian_route controls whether this crossing is automatic or) Tj
+T*
+(  asks for Instinct 13 / 1 Stress.) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4040 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Entityids: hush-farms whitefire-custodian sunless-farm-moss ratcoons young-dryads) Tj
+T*
+(- Entities: hush-farms Hush Farms location Location assets/icons/location.png) Tj
+T*
+(  assets/location-visuals/hush-farms/profile_scene_v02.png hush farmz Glowing blue) Tj
+T*
+(  moss grows over fruits and vegetables. Make the infrastructure failure agricultural) Tj
+T*
+(  and bodily, not abstract. Glowing blue moss grows over fruits and vegetables.;) Tj
+T*
+(  introduce it with a sensory palette, who feels safe there, and what has been) Tj
+T*
+(  neglected. Pull player attention toward the choices, clues, and relationships tied) Tj
+T*
+(  to Hush, The Hanging Office, Old Sable. Glowing blue moss grows over fruits and) Tj
+T*
+(  vegetables. whitefire-custodian Whitefire Custodian npc NPC / Ally) Tj
+T*
+(  assets/icons/npc.png assets/npc-images/whitefire-custodian/portrait_base.png WHITE-) Tj
+T*
+(  fire kus-TOH-dee-un Old faerie-like custodian who maintains the ward protecting) Tj
+T*
+(  Hush. Truth-bearer for the Keystone reveal. Whitefire Custodian an old faerie-like) Tj
+T*
+(  ward keeper whose exhaustion glows around the edges Ancient kindness running on) Tj
+T*
+(  fumes, glowing a little brighter whenever someone tells the truth nearby. Wants to) Tj
+T*
+(  keep one place honestly safe long enough for people to remember that safety can be) Tj
+T*
+(  care instead of a product, and is quietly breaking under the cost of it. Renew the) Tj
+T*
+(  ward...) Tj
+T*
+(- Locationids: hush-farms) Tj
+T*
+(- Statecontrols: custodian_route Custodian Route select unknown safe dangerous) Tj
+T*
+(  package_status Package Status select held lost ward_awareness Ward Awareness select) Tj
+T*
+(  none seed aware custodian_trust Custodian Trust select low neutral high) Tj
+T*
+(- Mechanicids: instinct knowledge stress) Tj
+T*
+(- Fearspends: A channel coughs up cold light instead of water. A farmer stops mid-) Tj
+T*
+(  sentence to listen to a post go silent. The Keystone pulses toward Open Vale.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S04-01) Tj
+T*
+(- Mapdata: MAP-LOC-hush-farms environment Hush Farms Location Map S04-01 hush-farms) Tj
+T*
+(  whitefire-custodian sunless-farm-moss ratcoons young-dryads assets/location-) Tj
+T*
+(  visuals/hush-farms/profile_scene_v02.png Visual reference for Hush Farms. Hush Farms) Tj
+T*
+(  location map board. The last cultivated fields thin into carved trees and blue moss-) Tj
+T*
+(  light. The path ahead leaves village warmth behind. The last cultivated fields thin) Tj
+T*
+(  into carved trees and blue moss-light. The path ahead leaves village warmth behind.) Tj
+T*
+(  Use the farms as the Act 3 to Act 4 bridge, paying off custodian_route before the) Tj
+T*
+(  treehouse approach. Irrigation channels thread between moss-lit rows. Carved tree) Tj
+T*
+(  faces and field markers make the farms feel watched over rather than owned. Some) Tj
+T*
+(  crops lean away from weak ward posts. Village life stays audible: work sounds,) Tj
+T*
+(  lowered voices, doors, tools, and ward tones changing the room's confidence. Wet) Tj
+T*
+(  soil, crushed stems, mineral water, and the peppery smell of blue moss. Fence posts) Tj
+T*
+(  are slick with rain and thumb-smoothed where people check them by habit. Let) Tj
+T*
+(  ordinary people, animals, chores, and hospitality react to the party so the place) Tj
+T*
+(  feels inhabited. Irrigation channels thread between moss-lit...) Tj
+T*
+(- Sourcefiles: dist/Act4_Upgrade_Packet/ACT4_MAPS_AND_LOCATIONS.md) Tj
+T*
+(- References: Through the Farms #S04-01 Hanging Office #MAP-LOC-the-hanging-office) Tj
+T*
+(- Livetools: scene MAP-LOC-hush-farms) Tj
+T*
+(- Percharacterlayer: varian-soto Varian Soto Wrong forest The carved trees and glowing) Tj
+T*
+(  moss smell worked, as if magic has been layered over living wood. Instinct 13 Reads) Tj
+T*
+(  which carved faces feel awake and where the safe line runs; if blood-debt is set,) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4379 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  the faces feel like they are tracking the party. Can name the safest line through) Tj
+T*
+(  the carved-face edge. Varian, this stretch of forest has been changed by hands. Want) Tj
+T*
+(  to read what the trees are doing? marlowe-fairwind Marlowe Fairwind Ward heart The) Tj
+T*
+(  package resonates hard now; she can feel it is near where it belongs. Knowledge 13) Tj
+T*
+(  The carved faces are ward anchors and the cargo is tied to them. Do not name the) Tj
+T*
+(  Keystone yet. Can make the package feel important without stealing the Custodian's) Tj
+T*
+(  reveal. Marlowe, whatever you are carrying is humming now. You are close to where it) Tj
+T*
+(  belongs. Want to feel into it? garrick-reed Garrick Reed Defensible ground Reads the) Tj
+T*
+(  approach as isolated, defensible ground made for privacy and protection. Can warn) Tj
+T*
+(  the party that whoever lives here values controlled access. Garrick, this is a place) Tj
+T*
+(  built to be hard to reach. Want to note what that says about who lives here?) Tj
+T*
+(  barnacle Barnacle Puzzle-box cabin Already sees the...) Tj
+T*
+(- Gmbeats: MAP-LOC-hush-farms-route Route Route payoff Say: "Check custodian_route and) Tj
+T*
+(  resolve the crossing." The last fields show whether the town gave the party a safe) Tj
+T*
+(  path. Act 3 route work becomes Act 4 pressure. State gates the transition. Players) Tj
+T*
+(  see trust pay off. Player takeaway Players see trust pay off. "Check custodian_route) Tj
+T*
+(  and resolve the crossing." "The playable fact is: The last fields show whether the) Tj
+T*
+(  town gave the party a safe path." Concrete actions for this beat: look closely, ask) Tj
+T*
+(  the Custodian a direct question, commit to a choice, or take one prep action.) Tj
+T*
+(  instinct Story takeaway Act 3 route work becomes Act 4 pressure. "Check) Tj
+T*
+(  custodian_route and resolve the crossing." "The story fact in play is: Act 3 route) Tj
+T*
+(  work becomes Act 4 pressure." This beat changes Act 4 through this exact pressure:) Tj
+T*
+(  Act 3 route work becomes Act 4 pressure. instinct Mechanic takeaway State gates the) Tj
+T*
+(  transition. "Check custodian_route and resolve the crossing." "The active procedure) Tj
+T*
+(  is: State gates the transition." Run intent first. Use Presence for trust, Knowledge) Tj
+T*
+(  for ward or stone truths, Instinct for preserve danger, and Agility or Finesse for) Tj
+T*
+(  the hanging-home puzzle. instinct) Tj
+T*
+(- Takeawayhelp: Player takeaway The last fields are the Act 4 entry gate. "This is) Tj
+T*
+(  where Hush warmth ends and the Custodian path begins." "Safe route is clean.) Tj
+T*
+(  Dangerous or unknown route asks for Instinct 13 or costs 1 Stress." Do not strand) Tj
+T*
+(  the table here; resolve route quality and move forward. instinct knowledge stress) Tj
+T*
+(  Story takeaway The road proves whether Hush vouched for the party. "A town trust can) Tj
+T*
+(  become a road. A town caution can become a harder one." "Guided means vouched for.) Tj
+T*
+(  Unguided means they are finding the way without full trust." This is the cleanest) Tj
+T*
+(  Act 3 payoff before the reveal act. instinct knowledge stress Mechanic takeaway) Tj
+T*
+(  custodian_route controls the crossing. "Set custodian_route before S04-01: safe,) Tj
+T*
+(  dangerous, or unknown." "If package_status is lost, note the later reveal block and) Tj
+T*
+(  keep moving until the canon branch is confirmed." Route state affects immediate) Tj
+T*
+(  pressure; package state affects reveal viability. instinct knowledge stress) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-hush-farms.png The Last Fields map board. MAP-LOC-) Tj
+T*
+(  hush-farms environment The Last Fields S04-01 assets/maps/MAP-LOC-hush-farms.png) Tj
+T*
+(  assets/maps/MAP-LOC-hush-farms.png The Last Fields map board. The last cultivated) Tj
+T*
+(  fields thin into carved trees and blue moss-light. The path ahead leaves village) Tj
+T*
+(  warmth behind. The last cultivated fields thin into carved trees and blue moss-) Tj
+T*
+(  light. The path ahead leaves village warmth behind. MAP-LOC-hush-farms-map-only Map) Tj
+T*
+(  only The Last Fields map-only assets/maps/MAP-LOC-hush-farms.png The Last Fields map) Tj
+T*
+(  board. MAP-LOC-hush-farms environment The Last Fields S04-01 assets/maps/MAP-LOC-) Tj
+T*
+(  hush-farms.png assets/maps/MAP-LOC-hush-farms.png The Last Fields map board. The) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 2267 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  last cultivated fields thin into carved trees and blue moss-light. The path ahead) Tj
+T*
+(  leaves village warmth behind. The last cultivated fields thin into carved trees and) Tj
+T*
+(  blue moss-light. The path ahead leaves village warmth behind. MAP-LOC-hush-farms-) Tj
+T*
+(  map-text Map + text The Last Fields The last cultivated fields thin into carved) Tj
+T*
+(  trees and blue moss-light. The path ahead leaves village warmth behind. The last) Tj
+T*
+(  cultivated fields thin into carved trees and blue moss-light. The...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-hush-farms map The Last Fields assets/maps/MAP-LOC-) Tj
+T*
+(  hush-farms.png The Last Fields map board. spatial reference and location texture The) Tj
+T*
+(  last cultivated fields thin into carved trees and blue moss-light. The path ahead) Tj
+T*
+(  leaves village warmth behind. The last cultivated fields thin into carved trees and) Tj
+T*
+(  blue moss-light. The path ahead leaves village warmth behind. MAP-LOC-hush-farms) Tj
+T*
+(  environment The Last Fields S04-01 assets/maps/MAP-LOC-hush-farms.png) Tj
+T*
+(  assets/maps/MAP-LOC-hush-farms.png The Last Fields map board. The last cultivated) Tj
+T*
+(  fields thin into carved trees and blue moss-light. The path ahead leaves village) Tj
+T*
+(  warmth behind. The last cultivated fields thin into carved trees and blue moss-) Tj
+T*
+(  light. The path ahead leaves village warmth behind. assets/maps/MAP-LOC-hush-) Tj
+T*
+(  farms.png The Last Fields map board. MAP-LOC-hush-farms environment The Last Fields) Tj
+T*
+(  S04-01 assets/maps/MAP-LOC-hush-farms.png assets/maps/MAP-LOC-hush-farms.png The) Tj
+T*
+(  Last Fields map board. The last cultivated fields thin into carved trees and blue) Tj
+T*
+(  moss-light. The path ahead leaves village warmth behind. The last cultivated fields) Tj
+T*
+(  thin into carved trees and blue moss-light. The path ahead leaves village warmth...) Tj
+T*
+(- Slidenumber: 52) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash f4fc455a3aa98855 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R] /Count 4 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000002408 00000 n 
+0000002535 00000 n 
+0000006627 00000 n 
+0000006754 00000 n 
+0000011185 00000 n 
+0000011312 00000 n 
+0000013631 00000 n 
+0000013758 00000 n 
+0000013833 00000 n 
+0000013883 00000 n 
+trailer
+<< /Size 12 /Root 10 0 R >>
+startxref
+13956
+%%EOF

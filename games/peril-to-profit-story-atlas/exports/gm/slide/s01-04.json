@@ -1,0 +1,47 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "S01-04",
+  "title": "S01-04 - The First Action Roll - Reading the Creature",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "96299d7a241a4f46",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The creature is wary of every movement you make. Let's find out how she reacts. This is your first roll: grab your two d12s, add your Presence, and tell me the total, plus which die came up higher. If you have an Experience that fits, you can spend a Hope before you roll to add it."
+    },
+    {
+      "title": "Public objective",
+      "body": "Read the creature correctly and get everyone, including the young, out of this without bloodshed."
+    },
+    {
+      "title": "GM goal",
+      "body": "Teach Duality Dice through the creature reaction roll and resolve the standoff caused by S01-03."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "Use the exact outcome language here so the first roll feels transparent.",
+        "After resolving the roll, return to the blocked road: the creature leaves, the road clears, or the encounter moves to the combat board."
+      ]
+    },
+    {
+      "title": "GM script",
+      "body": "Say: \"This is our first action roll. You are trying to read and influence a living creature, so this is Presence, Difficulty 10. Roll two d12s, add Presence, then tell me your total and whether Hope or Fear is higher. Before you roll, does an Experience fit strongly enough that you want to spend a Hope on it?\""
+    },
+    {
+      "title": "State controls",
+      "items": [
+        "strixwolfDisposition Creature disposition select calm wary hostile Set after the roll outcome.",
+        "firstRollOutcome First roll outcome select success with hope success with fear failure with hope failure with fear critical Use this to keep the first mechanics lesson visible."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 96299d7a241a4f46 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "bramble-union",
+  "kind": "entity",
+  "title": "Bramble Union",
+  "in_world_label": "Public Notice",
+  "brand_flag": "We were the route.",
+  "kicker": "Ragged road figures in scavenged ward-stone scraps who ambush freight and look like the danger the road warnings promised.",
+  "hook": "The Bramble Union: Thorn-scrap armor, hungry eyes, and old worker gear make the Bramble Union look dangerous before they look human. Slogan: We were the route.",
+  "blocks": [
+    {
+      "label": "Public Face",
+      "body": "Ragged road figures in scavenged ward-stone scraps who ambush freight and look like the danger the road warnings promised."
+    },
+    {
+      "label": "Slogan",
+      "body": "We were the route."
+    },
+    {
+      "label": "How To Deal",
+      "body": "At first the Bramble Union is all shape and threat: figures in bark-dark cloaks, ward-stone scraps tied over patched shirts, and blades held by people who know exactly how little food waits behind them. Then you see the worker pins, the mended children's..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask what they publicly promise.",
+    "Compare their slogan to what they actually do in the scene."
+  ],
+  "archetype": "faction.flyer",
+  "disclosure_tier": "standard",
+  "featured": true,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:bramble-union",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "7652355798663a27",
+  "generated_at": "2026-06-23T21:40:58"
+}

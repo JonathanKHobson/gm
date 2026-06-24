@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "MAP-LOC-open-valetm-ritual-site",
+  "kind": "slide",
+  "title": "MAP-LOC-open-valetm-ritual-site - Open Vale™ Ritual Site Location Map",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act Five: The Ward Renewal",
+  "hook": "The trees break around an old clearing of standing stones, wet grass, and pale ward-light. Official markers call it Open Vale, but the place feels older than the paperwork and more awake than a ruin.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "The trees break around an old clearing of standing stones, wet grass, and pale ward-light. Official markers call it Open Vale, but the place feels older than the paperwork and more awake than a ruin."
+    },
+    {
+      "label": "Public Objective",
+      "body": "The trees break around an old clearing of standing stones, wet grass, and pale ward-light. Official markers call it Open Vale, but the place feels older than the paperwork and more awake than a ruin."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:MAP-LOC-open-valetm-ritual-site",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "b69a3411b0a281ee",
+  "generated_at": "2026-06-23T21:40:58"
+}

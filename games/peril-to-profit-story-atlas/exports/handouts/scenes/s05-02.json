@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S05-02",
+  "kind": "scene",
+  "title": "S05-02 - Short Rest Before the Storm",
+  "in_world_label": "Situation Briefing",
+  "brand_flag": "Briefing",
+  "kicker": "The Ward Renewal",
+  "hook": "For a little while, the Old Sable gives you room to breathe.",
+  "blocks": [
+    {
+      "label": "Where You Are",
+      "body": "For a little while, the Old Sable gives you room to breathe."
+    },
+    {
+      "label": "Plain Stakes",
+      "body": "The party takes a short rest while the Custodian prepares the ritual."
+    },
+    {
+      "label": "Visible Options",
+      "body": "Tend wounds Clear stress Repair armor Prepare together"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "During the short rest, who helps someone else without making a big deal of it?",
+    "What do you prepare that is not a weapon?",
+    "What fear do you admit before the ritual starts?"
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - scene:S05-02",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "56ed65e87e77e292",
+  "generated_at": "2026-06-23T21:40:58"
+}

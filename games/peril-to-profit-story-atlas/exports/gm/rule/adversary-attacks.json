@@ -1,0 +1,48 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "adversary-attacks",
+  "title": "Adversary Attacks",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "28930e230c3be743",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "Adversaries roll d20 + ATK against PC Evasion."
+    },
+    {
+      "title": "How it works",
+      "body": "Use when an adversary gets the spotlight to attack."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use when an adversary gets the spotlight to attack.",
+        "Roll d20 plus ATK against the target's Evasion.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "How do enemies attack?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "evasion",
+        "damage-thresholds"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 28930e230c3be743 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

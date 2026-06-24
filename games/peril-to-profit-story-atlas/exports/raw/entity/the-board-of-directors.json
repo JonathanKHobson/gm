@@ -1,0 +1,68 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "the-board-of-directors",
+  "title": "Goldspire Logistics",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "85e8a3dd8ea18c73",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "A forgettable freight-coordination concern with plain grey seals and paperwork nobody remembers seeing twice."
+    },
+    {
+      "title": "Public role",
+      "body": "Bland freight-coordination company and GM-only hidden corporate mastermind layer"
+    },
+    {
+      "title": "Handout text",
+      "body": "Goldspire Logistics: a dull freight mark, a grey seal, and a name too boring to remember."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: corporation",
+        "Role: Bland freight-coordination company and GM-only hidden corporate mastermind layer",
+        "Summary: A dull freight mark, a grey seal, and a name too boring to remember keep Goldspire Logistics nearly invisible.",
+        "Tags: apex audit-recovery continuance-protocol faction-profile gm-only p2p-canon",
+        "Connections: Goldspire Ward Network Forgotten Gods Ward Infrastructure The Keystone Asset Emeris Crown Holdings Goldwater Financial Institution Soulspire Solutions Kazrak Industries Hexmart The Grail Zephra Exchange Mithril & Mortar Artemis Inc RuneSpark Entertainment The Midnight Cabal The Umbrand Consortium",
+        "Inventory: unsigned apex seal continuance clause blank board line",
+        "Loot: Keep Board evidence oblique: an impossible approval stamp, a clause without a signer, or a form that edits itself.",
+        "Name: Goldspire Logistics",
+        "Id: the-board-of-directors",
+        "Meta: Corporation / Company CORP assets/icons/corporation.png entity-corp #d6a936 06 Factions and Companies factions corporation",
+        "Aliases: Board of Directors Continuance Protocol Goldspire Board Goldspire Logistics The Board of Directors apex holding company the Board the dull freight office the grey seal the hidden board",
+        "Related: Artemis Inc Emeris Crown Holdings Forgotten Gods Goldspire Ward Network Goldwater Financial Institution Hexmart Kazrak Industries Mithril & Mortar RuneSpark Entertainment Soulspire Solutions The Grail The Keystone Asset The Midnight Cabal The Umbrand Consortium Ward Infrastructure Zephra Exchange",
+        "Image Prompt: Private table TTRPG story atlas asset for Goldspire Logistics, Corporation / Company. Role: Bland freight-coordination company and GM-only hidden corporate mastermind layer. Summary: A dull freight mark, a grey seal, and a name too boring to remember keep Goldspire Logistics nearly invisible.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Create a clean symbolic crest or brand mark on a plain dark background; no readable words. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Personality: The unnamed apex holding power the frontier never meets and only feels through edits, protocols, and impossible paperwork.; present the public face as polished enough to pass a brochure and the real function through paperwork, assets, and cost-shifting.",
+        "Wants: Convert risk around Goldspire Ward Network, Forgotten Gods, Ward Infrastructure into confidence, billable certainty, or controlled liability.",
+        "Fears: Plain evidence, human testimony, and players following the gap between promise and operational harm.",
+        "Secrets: Its public story converts risk into confidence; its real function moves cost onto ordinary people.",
+        "Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.",
+        "Sample Dialogue: Public line: The unnamed apex holding power the frontier never meets and only feels through edits, protocols, and impossible paperwork.",
+        "Equipment: unsigned apex seal continuance clause blank board line",
+        "Search Or Loot: Keep Board evidence oblique: an impossible approval stamp, a clause without a signer, or a form that edits itself.",
+        "Gm Use: Keep the satire pointed at institutional behavior, not vulnerable people. Reveal function through assets, language, and consequences.",
+        "Future Hooks: Expose the gap between public assurance and operational harm.",
+        "Robust: A forgettable freight-coordination concern with plain grey seals and paperwork nobody remembers seeing twice. GM-only deepest layer: every corporate faction routes upward into this bland center. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Convert risk around Goldspire Ward Network, Forgotten Gods, Ward Infrastructure into confidence, billable certainty, or controlled liability. Plain evidence, human testimony, and players following the gap between promise and operational harm. Never on stage. It is the unseen pressure behind contracts, routes, prices, and impossible paperwork. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about The Board of Directors and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the institutional...",
+        "Pronunciation: GOLD-spire loh-JIS-tiks",
+        "Short Pronunciation: GOLD-spire loh-JIS-tiks",
+        "Pronunciation Note: Use the public-facing company name, Goldspire Logistics, at the table until Kyle chooses to reveal more.",
+        "Faction Profile: faction-profile-v1 the-board-of-directors the-board-of-directors Faction_System_Packet/factions/Goldspire_Board.md core-gm-only True Atlas lore note: one-shot-safe expansion. Use as GM-only texture unless table play earns it. board Goldspire Logistics A forgettable freight-coordination concern with plain grey seals and paperwork nobody remembers seeing twice. Keeping everything moving. A dull freight mark, a grey seal, and a name too boring to remember keep Goldspire Logistics nearly invisible. Goldspire Logistics does not look powerful. That is the trick of it. A grey seal appears on crate corners, approval slips, and route papers, always in the same modest ink, always small enough to miss if you are looking for a villain with a banner. The mark is almost nothing: grey ink, a square crate, a practical little stamp in the corner. It has the confidence of something that does not need to advertise. Goldspire Logistics the dull freight office the grey seal Goldspire Board A forgettable freight-coordination concern with plain grey seals and paperwork nobody remembers seeing twice. GM-only: coordinates the staged competition, manages scarcity, and turns danger and protection into the...",
+        "Player Safe Disabled: True",
+        "Image: assets/logos/the-board-of-directors.webp",
+        "Image Asset Status: image_gen",
+        "Faction Representative Image: assets/factions/the-board-of-directors-representative.webp",
+        "Faction Representative Status: image_gen",
+        "Visual Gallery: primary Primary wiki image primary assets/logos/the-board-of-directors.webp Goldspire Logistics primary wiki image visual. Goldspire Logistics: Primary wiki image. image_gen True faction-logo-source Faction logo faction-logo assets/entity-gallery/the-board-of-directors/faction-logo-source.webp Goldspire Logistics faction logo visual. Goldspire Logistics: Faction logo. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/logos/the-board-of-directors.webp faction-representative-source Representative scene faction-representative assets/entity-gallery/the-board-of-directors/faction-representative-source.webp Goldspire Logistics representative scene visual. Goldspire Logistics: Representative scene. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/representative/the-board-of-directors.png"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 85e8a3dd8ea18c73 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

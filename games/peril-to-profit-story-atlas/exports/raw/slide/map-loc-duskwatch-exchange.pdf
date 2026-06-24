@@ -1,0 +1,320 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2626 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-duskwatch-exchange - Duskwatch Exchange Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(Duskwatch Exchange is where route knowledge changes hands quietly, because the forest) Tj
+T*
+(charges more for ignorance.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Duskwatch Exchange is where route knowledge changes hands quietly, because the forest) Tj
+T*
+(charges more for ignorance.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-duskwatch-exchange) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: STORY) Tj
+T*
+(- Sectiontitle: Map Board) Tj
+T*
+(- Title: Duskwatch Exchange Location Map) Tj
+T*
+(- Shorttitle: Duskwatch Exchange) Tj
+T*
+(- Order: 850.7) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-duskwatch-exchange-gm.png) Tj
+T*
+(- Alt: Duskwatch Exchange location map board.) Tj
+T*
+(- Caption: Visual reference for Duskwatch Exchange.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Make information feel tactile and local.) Tj
+T*
+(- Publicobjective: Duskwatch Exchange is where route knowledge changes hands quietly,) Tj
+T*
+(  because the forest charges more for ignorance.) Tj
+T*
+(- Readaloud: Duskwatch Exchange is where route knowledge changes hands quietly,) Tj
+T*
+(  because the forest charges more for ignorance.) Tj
+T*
+(- Playertakeaway: Duskwatch Exchange is where route knowledge changes hands quietly,) Tj
+T*
+(  because the forest charges more for ignorance.) Tj
+T*
+(- Storytakeaway: The Exchange turns knowledge into survival and commerce.) Tj
+T*
+(- Mechanictakeaway: Use for route-choice stakes, not shopping sprawl.) Tj
+T*
+(- Entityids: duskwatch-exchange) Tj
+T*
+(- Entities: duskwatch-exchange Duskwatch Exchange location Location) Tj
+T*
+(  assets/icons/location.png assets/location-visuals/duskwatch-) Tj
+T*
+(  exchange/profile_scene_v02.png Duskwatch eks-CHAYNJ A Sablewood trade point where) Tj
+T*
+(  route knowledge, watches, and liability-backed bargains change hands above or beside) Tj
+T*
+(  the old wood. Make information feel tactile and local. A Sablewood trade point where) Tj
+T*
+(  route knowledge, watches, and liability-backed bargains change hands above or beside) Tj
+T*
+(  the old wood.; introduce it with a sensory palette, who feels safe there, and what) Tj
+T*
+(  has been neglected. Pull player attention toward the choices, clues, and) Tj
+T*
+(  relationships tied to The Titan's Steps, The Sable Sinecure, Hazard-Indexed Pricing.) Tj
+T*
+(  A Sablewood trade point where route knowledge, watches, and liability-backed) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4182 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  bargains change hands above or beside the old wood.) Tj
+T*
+(- Locationids: duskwatch-exchange) Tj
+T*
+(- Fearspends: A route token is pulled from sale mid-conversation. A watch caller names) Tj
+T*
+(  a danger nobody wrote down.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Mapdata: MAP-LOC-duskwatch-exchange environment Duskwatch Exchange Location Map) Tj
+T*
+(  duskwatch-exchange assets/location-visuals/duskwatch-exchange/profile_scene_v02.png) Tj
+T*
+(  Visual reference for Duskwatch Exchange. Duskwatch Exchange location map board.) Tj
+T*
+(  Duskwatch Exchange is where route knowledge changes hands quietly, because the) Tj
+T*
+(  forest charges more for ignorance. Duskwatch Exchange is where route knowledge) Tj
+T*
+(  changes hands quietly, because the forest charges more for ignorance. Make) Tj
+T*
+(  information feel tactile and local. Covered stalls, watch posts, coded knots, and) Tj
+T*
+(  weather-dark awnings cluster near a safer crossing. People look at boots and packs) Tj
+T*
+(  before faces. Prices shift when route bells sound. Leaf-drip, insects, distant) Tj
+T*
+(  wingbeats, and animal calls that stop or resume according to pressure, not comfort.) Tj
+T*
+(  Lantern oil, damp wool, smoked roots, and ink sealed against rain. Counters are) Tj
+T*
+(  rough plank under waxed cloth; knot-cords feel stiff from repeated handling. The) Tj
+T*
+(  forest is populated even when no NPC is present; silence, birds, insects, and tracks) Tj
+T*
+(  are actionable signals. Covered stalls, watch posts, coded knots, and weather-dark) Tj
+T*
+(  awnings cluster near a safer crossing. People look at boots and packs...) Tj
+T*
+(- Livetools: scene MAP-LOC-duskwatch-exchange) Tj
+T*
+(- Takeawayhelp: Player takeaway: MAP-LOC-duskwatch-exchange Duskwatch Exchange is) Tj
+T*
+(  where route knowledge changes hands quietly, because the forest charges more for) Tj
+T*
+(  ignorance. Give the player one concrete way back into play: a question, a) Tj
+T*
+(  description, a choice, or a pass-and-return moment. "Your takeaway right now is) Tj
+T*
+(  this: Duskwatch Exchange is where route knowledge changes hands quietly, because the) Tj
+T*
+(  forest charges more for ignorance." "If you are not sure what to do next, you can) Tj
+T*
+(  ask a question, describe what your character notices, or tell me what your character) Tj
+T*
+(  tries." "If you are not sure what to do next, you can ask a question, describe what) Tj
+T*
+(  your character notices, or tell me what your character tries." Give the player one) Tj
+T*
+(  concrete way back into play: a question, a description, a choice, or a pass-and-) Tj
+T*
+(  return moment. Story takeaway: MAP-LOC-duskwatch-exchange The Exchange turns) Tj
+T*
+(  knowledge into survival and commerce. Anchor the answer in the visible fiction on) Tj
+T*
+(  this slide: who is present, what can be observed, what has already been said, and) Tj
+T*
+(  what remains uncertain. "Here is what your characters know right now: The Exchange) Tj
+T*
+(  turns knowledge into survival and commerce." "If you want more detail, ask...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-duskwatch-exchange-player.png Duskwatch Exchange) Tj
+T*
+(  location map board. MAP-LOC-duskwatch-exchange environment Duskwatch Exchange) Tj
+T*
+(  assets/maps/MAP-LOC-duskwatch-exchange-player.png assets/maps/MAP-LOC-duskwatch-) Tj
+T*
+(  exchange-player.png Visual reference for Duskwatch Exchange. Duskwatch Exchange) Tj
+T*
+(  location map board. Duskwatch Exchange is where route knowledge changes hands) Tj
+T*
+(  quietly, because the forest charges more for ignorance. Duskwatch Exchange is where) Tj
+T*
+(  route knowledge changes hands quietly, because the forest charges more for) Tj
+T*
+(  ignorance. MAP-LOC-duskwatch-exchange-map-only Map only Duskwatch Exchange map-only) Tj
+T*
+(  assets/maps/MAP-LOC-duskwatch-exchange-player.png Duskwatch Exchange location map) Tj
+T*
+(  board. MAP-LOC-duskwatch-exchange environment Duskwatch Exchange assets/maps/MAP-) Tj
+T*
+(  LOC-duskwatch-exchange-player.png assets/maps/MAP-LOC-duskwatch-exchange-player.png) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2090 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Visual reference for Duskwatch Exchange. Duskwatch Exchange location map board.) Tj
+T*
+(  Duskwatch Exchange is where route knowledge changes hands quietly, because the) Tj
+T*
+(  forest charges more for ignorance. Duskwatch Exchange is where route knowledge) Tj
+T*
+(  changes hands quietly, because the forest charges more for ignorance...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-duskwatch-exchange map Duskwatch Exchange) Tj
+T*
+(  assets/maps/MAP-LOC-duskwatch-exchange-player.png Duskwatch Exchange location map) Tj
+T*
+(  board. Visual reference for Duskwatch Exchange. spatial reference and location) Tj
+T*
+(  texture Duskwatch Exchange is where route knowledge changes hands quietly, because) Tj
+T*
+(  the forest charges more for ignorance. Duskwatch Exchange is where route knowledge) Tj
+T*
+(  changes hands quietly, because the forest charges more for ignorance. MAP-LOC-) Tj
+T*
+(  duskwatch-exchange environment Duskwatch Exchange assets/maps/MAP-LOC-duskwatch-) Tj
+T*
+(  exchange-player.png assets/maps/MAP-LOC-duskwatch-exchange-player.png Visual) Tj
+T*
+(  reference for Duskwatch Exchange. Duskwatch Exchange location map board. Duskwatch) Tj
+T*
+(  Exchange is where route knowledge changes hands quietly, because the forest charges) Tj
+T*
+(  more for ignorance. Duskwatch Exchange is where route knowledge changes hands) Tj
+T*
+(  quietly, because the forest charges more for ignorance. assets/maps/MAP-LOC-) Tj
+T*
+(  duskwatch-exchange-player.png Duskwatch Exchange location map board. MAP-LOC-) Tj
+T*
+(  duskwatch-exchange environment Duskwatch Exchange assets/maps/MAP-LOC-duskwatch-) Tj
+T*
+(  exchange-player.png assets/maps/MAP-LOC-duskwatch-exchange-player.png Visual) Tj
+T*
+(  reference for Duskwatch...) Tj
+T*
+(- Slidenumber: 88) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 6a3fcfabbda46ed5 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002687 00000 n 
+0000002813 00000 n 
+0000007047 00000 n 
+0000007173 00000 n 
+0000009315 00000 n 
+0000009441 00000 n 
+0000009510 00000 n 
+0000009559 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+9631
+%%EOF

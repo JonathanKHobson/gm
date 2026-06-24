@@ -1,0 +1,74 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "sablewood-route-gate",
+  "title": "Sablewood Route Gate",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "a501e4909944edba",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "The route gate is where polished assurance meets wet bark, old stone, and a forest that has not signed anything."
+    },
+    {
+      "title": "Public role",
+      "body": "Make the entry point a choice, not a loading screen."
+    },
+    {
+      "title": "Handout text",
+      "body": "The road crossing where nature, signage, and corporate language first collide."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Introduce with sensory texture, then make one discoverable clue or social choice visible."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Location Exploration Mechanics",
+        "Player Safe: Players can navigate, search, read customs, inspect hazards Sablewood Route Gate when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: The road crossing where nature, signage, and corporate language first collide. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-sablewood-route-gate-engage-sablewood-route-gate entity-sablewood-route-gate Engage Sablewood Route Gate Engage Sablewood Route Gate Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of Sablewood Route Gate hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Condition Options: No official condition unless a hazard creates Hidden, Restrained, or Vulnerable",
+        "Search Loot: A careful search finds old local carvings beneath newer corporate plaques."
+      ]
+    },
+    {
+      "title": "Profile",
+      "items": [
+        "Schema Version: location-profile-v1",
+        "Id: sablewood-route-gate",
+        "Entity Id: sablewood-route-gate",
+        "Source: Goldspire_Location_Packet/01_Sablewood_Preserve.md",
+        "Auto Surface: True",
+        "Priority: strong",
+        "Player Safe: Sablewood Route Gate The road crossing where nature, signage, and corporate language first collide. The road crossing where nature, signage, and corporate language first collide. The route gate is where polished assurance meets wet bark, old stone, and a forest that has not signed anything. The route gate is bureaucracy wedged between trees: a tiny official station trying to impose straight lines on a forest that only understands curves. The place breaks into usable table spaces: Queue lane: Wagons line up between rope posts and roots. Stamp shed: A cramped shed holds ledgers, lanterns, and a desk built around a branch. Bypass deer path: A narrow animal trail skirts the official lane. Inspection stump: A huge cut stump has become the inspection counter. Plants and materials: roots buckle the queue stones, moss softens every official post, vines steal loose paper overnight. Animals and...",
+        "Block1: Sablewood Route Gate Make the entry point a choice, not a loading screen. The road crossing where nature, signage, and corporate language first collide. The first threshold teaches that official safety and local safety are not the same. The first lesson of the road, official safety and local safety are not the same thing, and the gap between them is where the fees live. The first threshold teaches that official safety and local safety are not the same. The gate jams, stamps, and argues, and the roots quietly undo a little more of it every night. pages/entities/sablewood-route-gate.html",
+        "Block2: An arch or checkpoint frames the road with audit lanterns and warning posts. Moss has climbed the official fixtures faster than anyone cleans it. Older trail cuts bypass the gate without announcing themselves. The newest warning plaque avoids naming the danger directly. Detail Oil from lanterns, damp moss, cold metal, and the sour paper smell of notices gone soft in rain. Detail The gate surface is slick at the top and gritty near hand height. The route gate is where polished assurance meets wet bark, old stone, and a forest that has not signed anything. The route gate is bureaucracy wedged between trees: a tiny official station trying to impose straight lines on a forest that only understands curves. The place breaks into usable table spaces: Queue lane: Wagons line up between rope posts and roots. Stamp shed: A cramped shed holds ledgers, lanterns, and a desk built around a branch...",
+        "Block3: audit lanterns warning posts old bypass trail route arch Knowledge to read what the signage omits. Instinct to find the older path. Finesse to examine fixtures without triggering a log. Local residents or workers appropriate to the place fox-bats nest above the stamp shed small root mice chew wax seals lark-moths orbit lanterns during delays No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues roots buckle the queue stones moss softens every official post vines steal loose paper overnight route stamps minor repairs cheap food stall questionable ward-token seller",
+        "Block4: The place changes even if the PCs stand still. Local people, creatures, weather, signage, and ward behavior all keep moving around the scene. The gate can log passage or tampering. Taking the official path may be faster but less informed. Ignoring old bypass signs can cost leverage later. A lantern clicks on after the party has already passed. The route bell rings once with no wind. The old bypass looks freshly used. Let the place be funny through overconfident signage, awkward forms, stubborn local habits, and magic that refuses corporate language.",
+        "Block5: MAP-LOC-sablewood-route-gate",
+        "Block6: Describe what the PCs can see, smell, hear, touch, ask about, or infer. Do not explain hidden infrastructure or corporate thesis until play earns it. surface The road crossing where nature, signage, and corporate language first collide. table clue The first threshold teaches that official safety and local safety are not the same. earned truth Reveal deeper system meaning through NPC answers, evidence, or player questions, not narration dumps.",
+        "What Here: Local residents or workers appropriate to the place fox-bats nest above the stamp shed small root mice chew wax seals lark-moths orbit lanterns during delays No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues roots buckle the queue stones moss softens every official post vines steal loose paper overnight route stamps minor repairs cheap food stall questionable ward-token seller",
+        "Living Place: location-living-place-v1 forest checkpoint and route threshold The route gate is bureaucracy wedged between trees: a tiny official station trying to impose straight lines on a forest that only understands curves. Queue lane Wagons line up between rope posts and roots. Use for social friction. Stamp shed A cramped shed holds ledgers, lanterns, and a desk built around a branch. Use for comedy and paperwork. Bypass deer path A narrow animal trail skirts the official lane. Use for sneaking or noticing local wisdom. Inspection stump A huge cut stump has become the inspection counter. Use for tactile table business. roots buckle the queue stones moss softens every official post vines steal loose paper overnight fox-bats nest above the stamp shed small root mice chew wax seals lark-moths orbit lanterns during delays stamp echo rope creak wet paper smell ward-marker buzz The gate opens, jams...",
+        "Districts Or Subareas: Queue lane Wagons line up between rope posts and roots. Use for social friction. Stamp shed A cramped shed holds ledgers, lanterns, and a desk built around a branch. Use for comedy and paperwork. Bypass deer path A narrow animal trail skirts the official lane. Use for sneaking or noticing local wisdom. Inspection stump A huge cut stump has become the inspection counter. Use for tactile table business.",
+        "Sensory Signature: Detail Oil from lanterns, damp moss, cold metal, and the sour paper smell of notices gone soft in rain. Detail The gate surface is slick at the top and gritty near hand height.",
+        "Visual Assets: location-visual-assets-v1 sablewood-route-gate Sablewood Route Gate Bright comedic frontier high-fantasy concept art for a Daggerheart-adjacent tabletop RPG. Medieval/Renaissance fantasy technology only: hand tools, wagons, ropes, parchment notices, ward-stones, carved wood, brass, cloth, stone, moss, lanterns, and magic. The tone is colorful, playful, slightly absurd, and vivid, like a fantasy corporate frontier comedy rather than a grim drama. No sci-fi machinery, no 1800s/Victorian clothing, no modern suits, no guns, no logos, no readable text, no watermark, no border, no collage. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/sablewood-route-gate MAP-LOC-sablewood-route-gate forest checkpoint checkpoint site map profile_scene Profile image ready /Users/kyle/Documents/My Games/Peril To...",
+        "Imagine It Like: A border checkpoint or a park ranger booth that the forest is slowly winning against. Think a DMV line a tree is beating."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash a501e4909944edba | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

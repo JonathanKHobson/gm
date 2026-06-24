@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "sablewood-hybrid-fauna",
+  "title": "Sablewood Hybrid Fauna",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "99696495408710ab",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Sablewood Hybrid Fauna: Sablewood fauna mix familiar animal shapes into unfamiliar pressures: Cat-Squirrels, Giraffe-Deer, Lemur-Toads, Fox-Bats, Horse-Goats, Bullfrogs, Strixwolves, Eeligators, and stranger deep-wood hybrids."
+    },
+    {
+      "title": "Public role",
+      "body": "Ecology rule for Sablewood's blended animals"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Sablewood fauna mix familiar animal shapes into unfamiliar pressures: Cat-Squirrels, Giraffe-Deer, Lemur-Toads, Fox-Bats, Horse-Goats, Bullfrogs, Strixwolves, Eeligators, and stranger deep-wood hybrids."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use as a moral encounter. Reward restraint and observation without forcing a pet or mascot outcome."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 99696495408710ab | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

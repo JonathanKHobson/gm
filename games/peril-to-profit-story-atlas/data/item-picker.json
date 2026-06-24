@@ -1,0 +1,3271 @@
+[
+  {
+    "id": "auditors-verdict-ledger",
+    "name": "Auditor's Verdict Ledger™",
+    "kind": "document",
+    "maker": "Goldwater audit office",
+    "loot_group": "Corporate Sundries",
+    "priority": "P2",
+    "profile": {
+      "schema_version": "item-profile-v1",
+      "id": "auditors-verdict-ledger",
+      "item_id": "auditors-verdict-ledger",
+      "item_name": "Auditor's Verdict Ledger™",
+      "name": "Auditor's Verdict Ledger™",
+      "aliases": [
+        "Auditor's Verdict Ledger",
+        "verdict ledger",
+        "audit ledger"
+      ],
+      "pronunciation": "AW-dih-terz VER-dikt LEJ-er",
+      "item_kind": "document",
+      "tier": "Tier 1",
+      "priority": "P2",
+      "mode": "AD",
+      "maker": "Goldwater audit office",
+      "made_or_wild": "corporate-made",
+      "auto_surface": true,
+      "discovered_from_art": true,
+      "atlas_lore_note": "[Atlas lore - confirm or override]",
+      "player_safe": {
+        "name": "Auditor's Verdict Ledger™",
+        "one_line": "A black ledger with bronze corners opens too neatly, as if the pages have already decided what the facts will be.",
+        "first_impression": "A black ledger with bronze corners opens too neatly, as if the pages have already decided what the facts will be.",
+        "maker": "Goldwater audit office",
+        "satire_line": "GOLDWATER VERDICT LEDGER: For When Reality Needs a Column. Balanced Books, Balanced Blame."
+      },
+      "block0": {
+        "item_id": "auditors-verdict-ledger",
+        "item_name": "Auditor's Verdict Ledger™",
+        "aliases": [
+          "Auditor's Verdict Ledger",
+          "verdict ledger",
+          "audit ledger"
+        ],
+        "pronunciation": "AW-dih-terz VER-dikt LEJ-er",
+        "item_kind": "document",
+        "tier": "Tier 1"
+      },
+      "block1": {
+        "first_impression": "A black ledger with bronze corners opens too neatly, as if the pages have already decided what the facts will be.",
+        "the_tell": "Auditor's Verdict Ledger™, Goldwater audit office: a pre-formatted blame book that can turn events into fees unless challenged.",
+        "what_it_is": "A bureaucratic threat object.",
+        "the_hook": "It gives the GM a visible prop for corporate blame-shifting.",
+        "wiki_link": "pages/entities/auditors-verdict-ledger.html"
+      },
+      "block2": {
+        "maker": "Goldwater audit office",
+        "made_or_wild": "corporate-made",
+        "ad_copy": "GOLDWATER VERDICT LEDGER: For When Reality Needs a Column. Balanced Books, Balanced Blame.",
+        "corporate_propaganda": "",
+        "unreliability": "It records conclusions first and facts later.",
+        "comedy_beat": "The ledger has a section for your objection and less room than the date."
+      },
+      "block3": {
+        "mechanics": "Social pressure object. Presence or Knowledge 13 can force the auditor to record an inconvenient fact.",
+        "narrative_function": "",
+        "stat_block": {
+          "stat_block_type": "item",
+          "canon_status": "#adaptation",
+          "mechanical_grammar": "Discovery grammar: this is evidence, not treasure. It grants information, leverage, or access when earned through roleplay or a trait roll.",
+          "table_effect": "Social pressure object. Presence or Knowledge 13 can force the auditor to record an inconvenient fact.",
+          "player_benefit": "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned.",
+          "roleplay_benefit": "Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does.",
+          "activation": "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction.",
+          "limits": "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus.",
+          "earn_gate": {
+            "roleplay": "Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling.",
+            "Knowledge": "DC 12-15 to identify maker, provenance, safe use, warranty lie, or rule effect.",
+            "Instinct": "DC 12-15 to sense danger, residue, freshness, wrongness, or practical use.",
+            "Finesse": "DC 12-15 to handle, open, apply, repair, harvest, or retrieve it without damage or attention.",
+            "Presence": "DC 12-15 to bargain, persuade, comfort, or socially earn access to it."
+          },
+          "outcome_spectrum": {
+            "critical_success": "Earn the item or full truth, gain Hope, clear 1 Stress, and add one clean extra: bonus clue, safer use, better condition, or no social cost.",
+            "success_with_hope": "Earn the item or truth cleanly and gain Hope.",
+            "success_with_fear": "Earn it, but the GM gains Fear and adds a cost: attention, debt, damaged packaging, limited charge, social suspicion, or delayed consequence.",
+            "failure_with_hope": "Do not earn the full benefit yet, but gain Hope and a partial thread, safer next method, or a different small clue.",
+            "failure_with_fear": "The attempt goes badly; GM gains Fear and the item is damaged, noticed, withheld, misread, or tied to a stronger complication.",
+            "plain_low_roll": "Give a plausible but incomplete read; never use a low roll to erase a mandatory clue without providing another path."
+          }
+        }
+      },
+      "block4": {
+        "source_npc": [
+          "Auditor Holle"
+        ],
+        "source_location": [
+          "Emeris",
+          "Goldspire Territories"
+        ],
+        "loot_group": "Corporate Sundries",
+        "eligibility": "Appears when an auditor is summoned or a blame dispute needs a prop.",
+        "surface_ids": [
+          "S05-07",
+          "S06-01",
+          "S06-02"
+        ]
+      },
+      "block5": {
+        "disclosure": [
+          {
+            "layer": "Layer 1 - look",
+            "content": "A black ledger that seems already decided."
+          },
+          {
+            "layer": "Layer 2 - hint",
+            "content": "It formats blame into fees."
+          },
+          {
+            "layer": "Layer 3 - truth",
+            "content": "Presence/Knowledge 13 can make it record an inconvenient fact."
+          }
+        ],
+        "earn_it_hooks": [
+          "Challenge the auditor's wording.",
+          "Read a pre-filled line.",
+          "Force a correction with evidence."
+        ],
+        "progressive_reveal": "Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll."
+      },
+      "block6": {
+        "image_prompt": "A black fantasy audit ledger with bronze corners, Goldwater coin-face seal, verdict tabs, tiny cheerful fee labels, bright satire product shot.",
+        "image_role": "item wiki card and earned side-card visual",
+        "show_to_players": "Use the Run Mode item card's Show image button when the table sees or earns this item.",
+        "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/auditors-verdict-ledger/profile_base.png",
+        "runtime_path": "assets/item-images/auditors-verdict-ledger/profile_base.webp",
+        "style_anchor": "Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark."
+      },
+      "visual_assets": {
+        "profile_image": {
+          "key": "profile_base",
+          "label": "Item profile image",
+          "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/auditors-verdict-ledger/profile_base.png",
+          "runtime_path": "assets/item-images/auditors-verdict-ledger/profile_base.webp",
+          "status": "ready",
+          "alt": "Auditor's Verdict Ledger™ item illustration.",
+          "player_caption": "A black ledger with bronze corners opens too neatly, as if the pages have already decided what the facts will be."
+        }
+      }
+    }
+  },
+  {
+    "id": "bramble-union-stoneweave",
+    "name": "Bramble Union Stoneweave",
+    "kind": "armor",
+    "maker": "the Bramble Union",
+    "loot_group": "Bramble Union Loot",
+    "priority": "P1",
+    "profile": {
+      "schema_version": "item-profile-v1",
+      "id": "bramble-union-stoneweave",
+      "item_id": "bramble-union-stoneweave",
+      "item_name": "Bramble Union Stoneweave",
+      "name": "Bramble Union Stoneweave",
+      "aliases": [
+        "stoneweave",
+        "stone-scale armor"
+      ],
+      "pronunciation": "BRAM-bul YOO-nyun STOHN-weev",
+      "item_kind": "armor",
+      "tier": "Tier 1",
+      "priority": "P1",
+      "mode": "PROP",
+      "maker": "the Bramble Union",
+      "made_or_wild": "competing",
+      "auto_surface": true,
+      "discovered_from_art": false,
+      "atlas_lore_note": "",
+      "player_safe": {
+        "name": "Bramble Union Stoneweave",
+        "one_line": "A garment of thousands of tiny polished stones moves like cloth and turns thorns like armor. Every fitted piece looks cut by hands that loved the work.",
+        "first_impression": "A garment of thousands of tiny polished stones moves like cloth and turns thorns like armor. Every fitted piece looks cut by hands that loved the work.",
+        "maker": "the Bramble Union",
+        "satire_line": "MITHRIL & MORTAR NOTICE: Stoneweave is uncertified personal armor produced by an unlicensed syndicate. Its continued excellence is under review."
+      },
+      "block0": {
+        "item_id": "bramble-union-stoneweave",
+        "item_name": "Bramble Union Stoneweave",
+        "aliases": [
+          "stoneweave",
+          "stone-scale armor"
+        ],
+        "pronunciation": "BRAM-bul YOO-nyun STOHN-weev",
+        "item_kind": "armor",
+        "tier": "Tier 1"
+      },
+      "block1": {
+        "first_impression": "A garment of thousands of tiny polished stones moves like cloth and turns thorns like armor. Every fitted piece looks cut by hands that loved the work.",
+        "the_tell": "Bramble Union Stoneweave: Base Score 3, Thresholds 6/13. When minor damage hits, roll d12; on your level or lower, mark Stress instead.",
+        "what_it_is": "The Bramble Union's lapidary armor.",
+        "the_hook": "Beautiful handmade protection that outperforms licensed gear.",
+        "wiki_link": "pages/entities/bramble-union-stoneweave.html"
+      },
+      "block2": {
+        "maker": "the Bramble Union",
+        "made_or_wild": "competing",
+        "ad_copy": "",
+        "corporate_propaganda": "MITHRIL & MORTAR NOTICE: Stoneweave is uncertified personal armor produced by an unlicensed syndicate. Its continued excellence is under review.",
+        "unreliability": "",
+        "comedy_beat": "Mithril & Mortar's real complaint is that nobody paid Mithril & Mortar."
+      },
+      "block3": {
+        "mechanics": "Tier 1 armor. Base Score 3, Base Thresholds 6/13. Seamless: when you take minor damage, roll a d12; if the result is your level or lower, mark Stress instead.",
+        "narrative_function": "",
+        "stat_block": {
+          "stat_block_type": "item",
+          "canon_status": "#module",
+          "mechanical_grammar": "Daggerheart item grammar: weapon or offensive consumable; use the listed trait/range/damage/effect exactly as written here.",
+          "table_effect": "Tier 1 armor. Base Score 3, Base Thresholds 6/13. Seamless: when you take minor damage, roll a d12; if the result is your level or lower, mark Stress instead.",
+          "player_benefit": "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned.",
+          "roleplay_benefit": "Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does.",
+          "activation": "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction.",
+          "limits": "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus.",
+          "earn_gate": {
+            "roleplay": "Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling.",
+            "Knowledge": "DC 12-15 to identify maker, provenance, safe use, warranty lie, or rule effect.",
+            "Instinct": "DC 12-15 to sense danger, residue, freshness, wrongness, or practical use.",
+            "Finesse": "DC 12-15 to handle, open, apply, repair, harvest, or retrieve it without damage or attention.",
+            "Presence": "DC 12-15 to bargain, persuade, comfort, or socially earn access to it."
+          },
+          "outcome_spectrum": {
+            "critical_success": "Earn the item or full truth, gain Hope, clear 1 Stress, and add one clean extra: bonus clue, safer use, better condition, or no social cost.",
+            "success_with_hope": "Earn the item or truth cleanly and gain Hope.",
+            "success_with_fear": "Earn it, but the GM gains Fear and adds a cost: attention, debt, damaged packaging, limited charge, social suspicion, or delayed consequence.",
+            "failure_with_hope": "Do not earn the full benefit yet, but gain Hope and a partial thread, safer next method, or a different small clue.",
+            "failure_with_fear": "The attempt goes badly; GM gains Fear and the item is damaged, noticed, withheld, misread, or tied to a stronger complication.",
+            "plain_low_roll": "Give a plausible but incomplete read; never use a low roll to erase a mandatory clue without providing another path."
+          }
+        }
+      },
+      "block4": {
+        "source_npc": [
+          "Xen"
+        ],
+        "source_location": [
+          "Bramble Union Villages",
+          "The Wandering Briar"
+        ],
+        "loot_group": "Bramble Union Loot",
+        "eligibility": "Earn Union trust, trade, or receive it from a lapidarian.",
+        "surface_ids": [
+          "S02-03",
+          "S02-04",
+          "MAP-LOC-bramble-union-villages"
+        ]
+      },
+      "block5": {
+        "disclosure": [
+          {
+            "layer": "Layer 1 - look",
+            "content": "Stone-scale armor moving like cloth."
+          },
+          {
+            "layer": "Layer 2 - hint",
+            "content": "It is thorn-proof and handmade."
+          },
+          {
+            "layer": "Layer 3 - truth",
+            "content": "Its Seamless feature can convert minor damage into Stress."
+          }
+        ],
+        "earn_it_hooks": [
+          "Earn the Union's trust.",
+          "Presence 12 opens the gift/trade lane.",
+          "Xen explains the cut."
+        ],
+        "progressive_reveal": "Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll."
+      },
+      "block6": {
+        "image_prompt": "Armor of thousands of tiny polished colored stones fitted like scales, beautiful handmade lapidary work, unbranded, bright fantasy light.",
+        "image_role": "item wiki card and earned side-card visual",
+        "show_to_players": "Use the Run Mode item card's Show image button when the table sees or earns this item.",
+        "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/bramble-union-stoneweave/profile_base.png",
+        "runtime_path": "assets/item-images/bramble-union-stoneweave/profile_base.webp",
+        "style_anchor": "Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark."
+      },
+      "visual_assets": {
+        "profile_image": {
+          "key": "profile_base",
+          "label": "Item profile image",
+          "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/bramble-union-stoneweave/profile_base.png",
+          "runtime_path": "assets/item-images/bramble-union-stoneweave/profile_base.webp",
+          "status": "ready",
+          "alt": "Bramble Union Stoneweave item illustration.",
+          "player_caption": "A garment of thousands of tiny polished stones moves like cloth and turns thorns like armor. Every fitted piece looks cut by hands that loved the work."
+        }
+      }
+    }
+  },
+  {
+    "id": "bramble-ward-scrap-charm-cluster",
+    "name": "Bramble Ward-Scrap Charm Cluster",
+    "kind": "trinket",
+    "maker": "reclaimed Bramble craft",
+    "loot_group": "Bramble Union Loot",
+    "priority": "P2",
+    "profile": {
+      "schema_version": "item-profile-v1",
+      "id": "bramble-ward-scrap-charm-cluster",
+      "item_id": "bramble-ward-scrap-charm-cluster",
+      "item_name": "Bramble Ward-Scrap Charm Cluster",
+      "name": "Bramble Ward-Scrap Charm Cluster",
+      "aliases": [
+        "ward-scrap charm",
+        "blue shard charm"
+      ],
+      "pronunciation": "BRAM-bul WORD-skrap CHARM KLUS-ter",
+      "item_kind": "trinket",
+      "tier": "Tier 1",
+      "priority": "P2",
+      "mode": "PROP",
+      "maker": "reclaimed Bramble craft",
+      "made_or_wild": "competing",
+      "auto_surface": true,
+      "discovered_from_art": true,
+      "atlas_lore_note": "[Atlas lore - confirm or override]",
+      "player_safe": {
+        "name": "Bramble Ward-Scrap Charm Cluster",
+        "one_line": "A knot of blue ward shards, twine, and tiny salvage tags clacks softly at a Bramblefolk belt. It looks illegal only because it looks useful.",
+        "first_impression": "A knot of blue ward shards, twine, and tiny salvage tags clacks softly at a Bramblefolk belt. It looks illegal only because it looks useful.",
+        "maker": "reclaimed Bramble craft",
+        "satire_line": "GRAIL SECURITY BULLETIN: Ward-scrap charms are unlicensed defensive paraphernalia and may indicate unauthorized survival."
+      },
+      "block0": {
+        "item_id": "bramble-ward-scrap-charm-cluster",
+        "item_name": "Bramble Ward-Scrap Charm Cluster",
+        "aliases": [
+          "ward-scrap charm",
+          "blue shard charm"
+        ],
+        "pronunciation": "BRAM-bul WORD-skrap CHARM KLUS-ter",
+        "item_kind": "trinket",
+        "tier": "Tier 1"
+      },
+      "block1": {
+        "first_impression": "A knot of blue ward shards, twine, and tiny salvage tags clacks softly at a Bramblefolk belt. It looks illegal only because it looks useful.",
+        "the_tell": "Bramble Ward-Scrap Charm Cluster: reclaimed protective scraps that help Bramblefolk read old route pressure and failed ward residue.",
+        "what_it_is": "A survival charm made from discarded corporate ward fragments.",
+        "the_hook": "It turns waste into local knowledge.",
+        "wiki_link": "pages/entities/bramble-ward-scrap-charm-cluster.html"
+      },
+      "block2": {
+        "maker": "reclaimed Bramble craft",
+        "made_or_wild": "competing",
+        "ad_copy": "",
+        "corporate_propaganda": "GRAIL SECURITY BULLETIN: Ward-scrap charms are unlicensed defensive paraphernalia and may indicate unauthorized survival.",
+        "unreliability": "",
+        "comedy_beat": "The route threw the pieces away, then objected when people used them."
+      },
+      "block3": {
+        "mechanics": "Clue tool. Instinct or Knowledge 13 can use it to read nearby ward residue or route stress.",
+        "narrative_function": "",
+        "stat_block": {
+          "stat_block_type": "item",
+          "canon_status": "#module",
+          "mechanical_grammar": "Discovery grammar: this is evidence, not treasure. It grants information, leverage, or access when earned through roleplay or a trait roll.",
+          "table_effect": "Clue tool. Instinct or Knowledge 13 can use it to read nearby ward residue or route stress.",
+          "player_benefit": "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned.",
+          "roleplay_benefit": "Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does.",
+          "activation": "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction.",
+          "limits": "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus.",
+          "earn_gate": {
+            "roleplay": "Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling.",
+            "Knowledge": "DC 12-15 to identify maker, provenance, safe use, warranty lie, or rule effect.",
+            "Instinct": "DC 12-15 to sense danger, residue, freshness, wrongness, or practical use.",
+            "Finesse": "DC 12-15 to handle, open, apply, repair, harvest, or retrieve it without damage or attention.",
+            "Presence": "DC 12-15 to bargain, persuade, comfort, or socially earn access to it."
+          },
+          "outcome_spectrum": {
+            "critical_success": "Earn the item or full truth, gain Hope, clear 1 Stress, and add one clean extra: bonus clue, safer use, better condition, or no social cost.",
+            "success_with_hope": "Earn the item or truth cleanly and gain Hope.",
+            "success_with_fear": "Earn it, but the GM gains Fear and adds a cost: attention, debt, damaged packaging, limited charge, social suspicion, or delayed consequence.",
+            "failure_with_hope": "Do not earn the full benefit yet, but gain Hope and a partial thread, safer next method, or a different small clue.",
+            "failure_with_fear": "The attempt goes badly; GM gains Fear and the item is damaged, noticed, withheld, misread, or tied to a stronger complication.",
+            "plain_low_roll": "Give a plausible but incomplete read; never use a low roll to erase a mandatory clue without providing another path."
+          }
+        }
+      },
+      "block4": {
+        "source_npc": [
+          "Bramble Union Ambusher",
+          "Kett Alderhook",
+          "Vela Bramblewick"
+        ],
+        "source_location": [
+          "Bramble Union Villages"
+        ],
+        "loot_group": "Bramble Union Loot",
+        "eligibility": "Trade, trust, or careful examination of dropped Bramble gear.",
+        "surface_ids": [
+          "S02-03",
+          "S02-04",
+          "MAP-LOC-bramble-union-villages"
+        ]
+      },
+      "block5": {
+        "disclosure": [
+          {
+            "layer": "Layer 1 - look",
+            "content": "A blue-shard charm cluster."
+          },
+          {
+            "layer": "Layer 2 - hint",
+            "content": "The pieces are reclaimed ward scrap."
+          },
+          {
+            "layer": "Layer 3 - truth",
+            "content": "It can read residue or route stress with Instinct/Knowledge 13."
+          }
+        ],
+        "earn_it_hooks": [
+          "Earn a Bramble explanation.",
+          "Study the shard pattern.",
+          "Use it near a failing ward line."
+        ],
+        "progressive_reveal": "Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll."
+      },
+      "block6": {
+        "image_prompt": "A cluster of blue ward shards, twine, tiny salvage tags, and moss cord, handmade and useful, unbranded, bright forest background.",
+        "image_role": "item wiki card and earned side-card visual",
+        "show_to_players": "Use the Run Mode item card's Show image button when the table sees or earns this item.",
+        "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/bramble-ward-scrap-charm-cluster/profile_base.png",
+        "runtime_path": "assets/item-images/bramble-ward-scrap-charm-cluster/profile_base.webp",
+        "style_anchor": "Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark."
+      },
+      "visual_assets": {
+        "profile_image": {
+          "key": "profile_base",
+          "label": "Item profile image",
+          "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/bramble-ward-scrap-charm-cluster/profile_base.png",
+          "runtime_path": "assets/item-images/bramble-ward-scrap-charm-cluster/profile_base.webp",
+          "status": "ready",
+          "alt": "Bramble Ward-Scrap Charm Cluster item illustration.",
+          "player_caption": "A knot of blue ward shards, twine, and tiny salvage tags clacks softly at a Bramblefolk belt. It looks illegal only because it looks useful."
+        }
+      }
+    }
+  },
+  {
+    "id": "bugbane-berry",
+    "name": "Bugbane Berry™",
+    "kind": "consumable",
+    "maker": "Hexmart",
+    "loot_group": "Hush Hospitality",
+    "priority": "P2",
+    "profile": {
+      "schema_version": "item-profile-v1",
+      "id": "bugbane-berry",
+      "item_id": "bugbane-berry",
+      "item_name": "Bugbane Berry™",
+      "name": "Bugbane Berry™",
+      "aliases": [
+        "Bugbane Berry",
+        "bug berry",
+        "Hexmart berry"
+      ],
+      "pronunciation": "BUG-bayn BAIR-ee",
+      "item_kind": "consumable",
+      "tier": "Tier 1",
+      "priority": "P2",
+      "mode": "AD",
+      "maker": "Hexmart",
+      "made_or_wild": "corporate-made",
+      "auto_surface": true,
+      "discovered_from_art": false,
+      "atlas_lore_note": "",
+      "player_safe": {
+        "name": "Bugbane Berry™",
+        "one_line": "A fat red-orange berry shines a little too perfectly, with a tiny insect suspended dead-center like a pit in amber. It looks appetizing and deeply wrong.",
+        "first_impression": "A fat red-orange berry shines a little too perfectly, with a tiny insect suspended dead-center like a pit in amber. It looks appetizing and deeply wrong.",
+        "maker": "Hexmart",
+        "satire_line": "HEXMART BUGBANE BERRY: Now 70 percent likely to contain a berry. The bug is a feature. The bug has always been a feature."
+      },
+      "block0": {
+        "item_id": "bugbane-berry",
+        "item_name": "Bugbane Berry™",
+        "aliases": [
+          "Bugbane Berry",
+          "bug berry",
+          "Hexmart berry"
+        ],
+        "pronunciation": "BUG-bayn BAIR-ee",
+        "item_kind": "consumable",
+        "tier": "Tier 1"
+      },
+      "block1": {
+        "first_impression": "A fat red-orange berry shines a little too perfectly, with a tiny insect suspended dead-center like a pit in amber. It looks appetizing and deeply wrong.",
+        "the_tell": "Bugbane Berry™, Hexmart: eat it to gain resistance to magic damage until your next short rest.",
+        "what_it_is": "A useful consumable with absurd packaging.",
+        "the_hook": "Eat the bug-berry, shrug off magic.",
+        "wiki_link": "pages/entities/bugbane-berry.html"
+      },
+      "block2": {
+        "maker": "Hexmart",
+        "made_or_wild": "corporate-made",
+        "ad_copy": "HEXMART BUGBANE BERRY: Now 70 percent likely to contain a berry. The bug is a feature. The bug has always been a feature.",
+        "corporate_propaganda": "",
+        "unreliability": "This one works, which Hexmart treats as a triumphant surprise.",
+        "comedy_beat": "The label is proud of the percentage that is fruit."
+      },
+      "block3": {
+        "mechanics": "Consumable. Eat it to gain resistance to magic damage until your next short rest. One use.",
+        "narrative_function": "",
+        "stat_block": {
+          "stat_block_type": "item",
+          "canon_status": "#adaptation",
+          "mechanical_grammar": "Daggerheart item grammar: weapon or offensive consumable; use the listed trait/range/damage/effect exactly as written here.",
+          "table_effect": "Consumable. Eat it to gain resistance to magic damage until your next short rest. One use.",
+          "player_benefit": "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned.",
+          "roleplay_benefit": "Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does.",
+          "activation": "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction.",
+          "limits": "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus.",
+          "earn_gate": {
+            "roleplay": "Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling.",
+            "Knowledge": "DC 12-15 to identify maker, provenance, safe use, warranty lie, or rule effect.",
+            "Instinct": "DC 12-15 to sense danger, residue, freshness, wrongness, or practical use.",
+            "Finesse": "DC 12-15 to handle, open, apply, repair, harvest, or retrieve it without damage or attention.",
+            "Presence": "DC 12-15 to bargain, persuade, comfort, or socially earn access to it."
+          },
+          "outcome_spectrum": {
+            "critical_success": "Earn the item or full truth, gain Hope, clear 1 Stress, and add one clean extra: bonus clue, safer use, better condition, or no social cost.",
+            "success_with_hope": "Earn the item or truth cleanly and gain Hope.",
+            "success_with_fear": "Earn it, but the GM gains Fear and adds a cost: attention, debt, damaged packaging, limited charge, social suspicion, or delayed consequence.",
+            "failure_with_hope": "Do not earn the full benefit yet, but gain Hope and a partial thread, safer next method, or a different small clue.",
+            "failure_with_fear": "The attempt goes badly; GM gains Fear and the item is damaged, noticed, withheld, misread, or tied to a stronger complication.",
+            "plain_low_roll": "Give a plausible but incomplete read; never use a low roll to erase a mandatory clue without providing another path."
+          }
+        }
+      },
+      "block4": {
+        "source_npc": [],
+        "source_location": [
+          "Hush",
+          "The Claravale Market"
+        ],
+        "loot_group": "Hush Hospitality",
+        "eligibility": "Purchase, gift, or Hexmart stall stock.",
+        "surface_ids": [
+          "S03-02",
+          "S03-03",
+          "MAP-LOC-the-claravale-market",
+          "MAP-LOC-hush"
+        ]
+      },
+      "block5": {
+        "disclosure": [
+          {
+            "layer": "Layer 1 - look",
+            "content": "A glossy berry with a bug in it."
+          },
+          {
+            "layer": "Layer 2 - hint",
+            "content": "The label brags that it works."
+          },
+          {
+            "layer": "Layer 3 - truth",
+            "content": "It grants magic resistance until next short rest."
+          }
+        ],
+        "earn_it_hooks": [
+          "Read the label.",
+          "An NPC swears by them.",
+          "Eat it."
+        ],
+        "progressive_reveal": "Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll."
+      },
+      "block6": {
+        "image_prompt": "A glossy red-orange berry with a visible insect in the center, in cheap bright Hexmart packaging with optimistic claims and silly fine print.",
+        "image_role": "item wiki card and earned side-card visual",
+        "show_to_players": "Use the Run Mode item card's Show image button when the table sees or earns this item.",
+        "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/bugbane-berry/profile_base.png",
+        "runtime_path": "assets/item-images/bugbane-berry/profile_base.webp",
+        "style_anchor": "Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark."
+      },
+      "visual_assets": {
+        "profile_image": {
+          "key": "profile_base",
+          "label": "Item profile image",
+          "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/bugbane-berry/profile_base.png",
+          "runtime_path": "assets/item-images/bugbane-berry/profile_base.webp",
+          "status": "ready",
+          "alt": "Bugbane Berry™ item illustration.",
+          "player_caption": "A fat red-orange berry shines a little too perfectly, with a tiny insect suspended dead-center like a pit in amber. It looks appetizing and deeply wrong."
+        }
+      }
+    }
+  },
+  {
+    "id": "claimrunner-serrated-blade",
+    "name": "Claimrunner Serrated Blade",
+    "kind": "weapon",
+    "maker": "Bramble Union field craft",
+    "loot_group": "Bramble Union Loot",
+    "priority": "P2",
+    "profile": {
+      "schema_version": "item-profile-v1",
+      "id": "claimrunner-serrated-blade",
+      "item_id": "claimrunner-serrated-blade",
+      "item_name": "Claimrunner Serrated Blade",
+      "name": "Claimrunner Serrated Blade",
+      "aliases": [
+        "serrated blade",
+        "claimrunner blade"
+      ],
+      "pronunciation": "KLAYM-run-er sair-AY-ted BLAYD",
+      "item_kind": "weapon",
+      "tier": "Tier 1",
+      "priority": "P2",
+      "mode": "PROP",
+      "maker": "Bramble Union field craft",
+      "made_or_wild": "competing",
+      "auto_surface": true,
+      "discovered_from_art": true,
+      "atlas_lore_note": "[Atlas lore - confirm or override]",
+      "player_safe": {
+        "name": "Claimrunner Serrated Blade",
+        "one_line": "A short serrated blade shows careful filing along the back edge and a handle wrapped in road cord. It is ugly in the practical way of a tool that has never had a decorative day.",
+        "first_impression": "A short serrated blade shows careful filing along the back edge and a handle wrapped in road cord. It is ugly in the practical way of a tool that has never had a decorative day.",
+        "maker": "Bramble Union field craft",
+        "satire_line": "GRAIL WEAPON NOTICE: Serrated reclamation tools are illegal blades when held by poor people and emergency cutters when invoiced by contractors."
+      },
+      "block0": {
+        "item_id": "claimrunner-serrated-blade",
+        "item_name": "Claimrunner Serrated Blade",
+        "aliases": [
+          "serrated blade",
+          "claimrunner blade"
+        ],
+        "pronunciation": "KLAYM-run-er sair-AY-ted BLAYD",
+        "item_kind": "weapon",
+        "tier": "Tier 1"
+      },
+      "block1": {
+        "first_impression": "A short serrated blade shows careful filing along the back edge and a handle wrapped in road cord. It is ugly in the practical way of a tool that has never had a decorative day.",
+        "the_tell": "Claimrunner Serrated Blade: the Bramble leader's close-range tool, useful as evidence of worker craft and not a clean murder weapon.",
+        "what_it_is": "A practical Bramble weapon and clue object.",
+        "the_hook": "It helps separate Bramble violence from the cleaner staged wound.",
+        "wiki_link": "pages/entities/claimrunner-serrated-blade.html"
+      },
+      "block2": {
+        "maker": "Bramble Union field craft",
+        "made_or_wild": "competing",
+        "ad_copy": "",
+        "corporate_propaganda": "GRAIL WEAPON NOTICE: Serrated reclamation tools are illegal blades when held by poor people and emergency cutters when invoiced by contractors.",
+        "unreliability": "",
+        "comedy_beat": "The definition changes with the invoice."
+      },
+      "block3": {
+        "mechanics": "Evidence. Knowledge 12 or Instinct 12 can compare its tooth pattern to a wound and show what it did not do.",
+        "narrative_function": "",
+        "stat_block": {
+          "stat_block_type": "item",
+          "canon_status": "#module",
+          "mechanical_grammar": "Daggerheart item grammar: weapon or offensive consumable; use the listed trait/range/damage/effect exactly as written here.",
+          "table_effect": "Evidence. Knowledge 12 or Instinct 12 can compare its tooth pattern to a wound and show what it did not do.",
+          "player_benefit": "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned.",
+          "roleplay_benefit": "Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does.",
+          "activation": "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction.",
+          "limits": "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus.",
+          "earn_gate": {
+            "roleplay": "Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling.",
+            "Knowledge": "DC 12-15 to identify maker, provenance, safe use, warranty lie, or rule effect.",
+            "Instinct": "DC 12-15 to sense danger, residue, freshness, wrongness, or practical use.",
+            "Finesse": "DC 12-15 to handle, open, apply, repair, harvest, or retrieve it without damage or attention.",
+            "Presence": "DC 12-15 to bargain, persuade, comfort, or socially earn access to it."
+          },
+          "outcome_spectrum": {
+            "critical_success": "Earn the item or full truth, gain Hope, clear 1 Stress, and add one clean extra: bonus clue, safer use, better condition, or no social cost.",
+            "success_with_hope": "Earn the item or truth cleanly and gain Hope.",
+            "success_with_fear": "Earn it, but the GM gains Fear and adds a cost: attention, debt, damaged packaging, limited charge, social suspicion, or delayed consequence.",
+            "failure_with_hope": "Do not earn the full benefit yet, but gain Hope and a partial thread, safer next method, or a different small clue.",
+            "failure_with_fear": "The attempt goes badly; GM gains Fear and the item is damaged, noticed, withheld, misread, or tied to a stronger complication.",
+            "plain_low_roll": "Give a plausible but incomplete read; never use a low roll to erase a mandatory clue without providing another path."
+          }
+        }
+      },
+      "block4": {
+        "source_npc": [
+          "Bramble Union Claimrunner"
+        ],
+        "source_location": [
+          "Cargo Reclaimer Ambush Battlefield"
+        ],
+        "loot_group": "Bramble Union Loot",
+        "eligibility": "Seen during the ambush, found if dropped, or inspected after parley.",
+        "surface_ids": [
+          "MAP-S02-03",
+          "S02-03",
+          "S02-04"
+        ]
+      },
+      "block5": {
+        "disclosure": [
+          {
+            "layer": "Layer 1 - look",
+            "content": "A practical serrated tool-blade."
+          },
+          {
+            "layer": "Layer 2 - hint",
+            "content": "Its filing is Bramble field craft."
+          },
+          {
+            "layer": "Layer 3 - truth",
+            "content": "Its marks do not match Tamsin's clean wound."
+          }
+        ],
+        "earn_it_hooks": [
+          "Compare it to the wound.",
+          "Ask the Claimrunner why they carry it.",
+          "Knowledge 12 reads the tool marks."
+        ],
+        "progressive_reveal": "Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll."
+      },
+      "block6": {
+        "image_prompt": "A short serrated field blade with road-cord wrapped handle, filed back edge, mossy handmade sheath, unbranded, bright forest table shot.",
+        "image_role": "item wiki card and earned side-card visual",
+        "show_to_players": "Use the Run Mode item card's Show image button when the table sees or earns this item.",
+        "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/claimrunner-serrated-blade/profile_base.png",
+        "runtime_path": "assets/item-images/claimrunner-serrated-blade/profile_base.webp",
+        "style_anchor": "Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark."
+      },
+      "visual_assets": {
+        "profile_image": {
+          "key": "profile_base",
+          "label": "Item profile image",
+          "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/claimrunner-serrated-blade/profile_base.png",
+          "runtime_path": "assets/item-images/claimrunner-serrated-blade/profile_base.webp",
+          "status": "ready",
+          "alt": "Claimrunner Serrated Blade item illustration.",
+          "player_caption": "A short serrated blade shows careful filing along the back edge and a handle wrapped in road cord. It is ugly in the practical way of a tool that has never had a decorative day."
+        }
+      }
+    }
+  },
+  {
+    "id": "cracked-pocket-ward",
+    "name": "Cracked Pocket Ward™",
+    "kind": "trinket",
+    "maker": "Mithril & Mortar street line",
+    "loot_group": "Tamsin's Effects",
+    "priority": "P2",
+    "profile": {
+      "schema_version": "item-profile-v1",
+      "id": "cracked-pocket-ward",
+      "item_id": "cracked-pocket-ward",
+      "item_name": "Cracked Pocket Ward™",
+      "name": "Cracked Pocket Ward™",
+      "aliases": [
+        "Cracked Pocket Ward",
+        "pocket ward",
+        "failed ward charm"
+      ],
+      "pronunciation": "KRAKT POK-et WORD",
+      "item_kind": "trinket",
+      "tier": "Tier 1",
+      "priority": "P2",
+      "mode": "AD",
+      "maker": "Mithril & Mortar street line",
+      "made_or_wild": "corporate-made",
+      "auto_surface": true,
+      "discovered_from_art": true,
+      "atlas_lore_note": "[Atlas lore - confirm or override]",
+      "player_safe": {
+        "name": "Cracked Pocket Ward™",
+        "one_line": "A cheap little ward charm sits cracked down the middle, still trying to glow through a smiling warranty sticker.",
+        "first_impression": "A cheap little ward charm sits cracked down the middle, still trying to glow through a smiling warranty sticker.",
+        "maker": "Mithril & Mortar street line",
+        "satire_line": "MITHRIL & MORTAR POCKET WARD: Comfort You Can Carry. Reduces Many Kinds of Worry. Warranty Valid Only Before Impact."
+      },
+      "block0": {
+        "item_id": "cracked-pocket-ward",
+        "item_name": "Cracked Pocket Ward™",
+        "aliases": [
+          "Cracked Pocket Ward",
+          "pocket ward",
+          "failed ward charm"
+        ],
+        "pronunciation": "KRAKT POK-et WORD",
+        "item_kind": "trinket",
+        "tier": "Tier 1"
+      },
+      "block1": {
+        "first_impression": "A cheap little ward charm sits cracked down the middle, still trying to glow through a smiling warranty sticker.",
+        "the_tell": "Cracked Pocket Ward™, Mithril & Mortar street line: a failed personal safety charm that proves somebody bought protection and still died.",
+        "what_it_is": "A broken consumer ward and evidence object.",
+        "the_hook": "It shows protection was purchased, not delivered.",
+        "wiki_link": "pages/entities/cracked-pocket-ward.html"
+      },
+      "block2": {
+        "maker": "Mithril & Mortar street line",
+        "made_or_wild": "corporate-made",
+        "ad_copy": "MITHRIL & MORTAR POCKET WARD: Comfort You Can Carry. Reduces Many Kinds of Worry. Warranty Valid Only Before Impact.",
+        "corporate_propaganda": "",
+        "unreliability": "It produces reassurance more reliably than protection.",
+        "comedy_beat": "The warranty survived the impact better than the ward did."
+      },
+      "block3": {
+        "mechanics": "Evidence object. Knowledge 12 reads the crack as overload, not animal damage.",
+        "narrative_function": "",
+        "stat_block": {
+          "stat_block_type": "item",
+          "canon_status": "#adaptation",
+          "mechanical_grammar": "Daggerheart item grammar: weapon or offensive consumable; use the listed trait/range/damage/effect exactly as written here.",
+          "table_effect": "Evidence object. Knowledge 12 reads the crack as overload, not animal damage.",
+          "player_benefit": "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned.",
+          "roleplay_benefit": "Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does.",
+          "activation": "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction.",
+          "limits": "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus.",
+          "earn_gate": {
+            "roleplay": "Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling.",
+            "Knowledge": "DC 12-15 to identify maker, provenance, safe use, warranty lie, or rule effect.",
+            "Instinct": "DC 12-15 to sense danger, residue, freshness, wrongness, or practical use.",
+            "Finesse": "DC 12-15 to handle, open, apply, repair, harvest, or retrieve it without damage or attention.",
+            "Presence": "DC 12-15 to bargain, persuade, comfort, or socially earn access to it."
+          },
+          "outcome_spectrum": {
+            "critical_success": "Earn the item or full truth, gain Hope, clear 1 Stress, and add one clean extra: bonus clue, safer use, better condition, or no social cost.",
+            "success_with_hope": "Earn the item or truth cleanly and gain Hope.",
+            "success_with_fear": "Earn it, but the GM gains Fear and adds a cost: attention, debt, damaged packaging, limited charge, social suspicion, or delayed consequence.",
+            "failure_with_hope": "Do not earn the full benefit yet, but gain Hope and a partial thread, safer next method, or a different small clue.",
+            "failure_with_fear": "The attempt goes badly; GM gains Fear and the item is damaged, noticed, withheld, misread, or tied to a stronger complication.",
+            "plain_low_roll": "Give a plausible but incomplete read; never use a low roll to erase a mandatory clue without providing another path."
+          }
+        }
+      },
+      "block4": {
+        "source_npc": [
+          "Tamsin Vell",
+          "Perrin Oake"
+        ],
+        "source_location": [
+          "Overturned Vendor Cart"
+        ],
+        "loot_group": "Tamsin's Effects",
+        "eligibility": "Found in Tamsin's satchel or on a lost courier.",
+        "surface_ids": [
+          "S01-02",
+          "S02-01"
+        ]
+      },
+      "block5": {
+        "disclosure": [
+          {
+            "layer": "Layer 1 - look",
+            "content": "A cracked charm still trying to glow."
+          },
+          {
+            "layer": "Layer 2 - hint",
+            "content": "The sticker promises safety."
+          },
+          {
+            "layer": "Layer 3 - truth",
+            "content": "Knowledge 12 shows it overloaded and failed."
+          }
+        ],
+        "earn_it_hooks": [
+          "Inspect the crack.",
+          "Compare it to route ward marks.",
+          "Ask a road clerk how often cheap wards fail."
+        ],
+        "progressive_reveal": "Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll."
+      },
+      "block6": {
+        "image_prompt": "A cheap palm-sized ward charm cracked down the middle, smiling warranty sticker, faded glow, cheerful Mithril & Mortar packaging scrap.",
+        "image_role": "item wiki card and earned side-card visual",
+        "show_to_players": "Use the Run Mode item card's Show image button when the table sees or earns this item.",
+        "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/cracked-pocket-ward/profile_base.png",
+        "runtime_path": "assets/item-images/cracked-pocket-ward/profile_base.webp",
+        "style_anchor": "Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark."
+      },
+      "visual_assets": {
+        "profile_image": {
+          "key": "profile_base",
+          "label": "Item profile image",
+          "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/cracked-pocket-ward/profile_base.png",
+          "runtime_path": "assets/item-images/cracked-pocket-ward/profile_base.webp",
+          "status": "ready",
+          "alt": "Cracked Pocket Ward™ item illustration.",
+          "player_caption": "A cheap little ward charm sits cracked down the middle, still trying to glow through a smiling warranty sticker."
+        }
+      }
+    }
+  },
+  {
+    "id": "eeligator-scale-shield",
+    "name": "Eeligator Scale Shield",
+    "kind": "armor",
+    "maker": "wild eeligator hide",
+    "loot_group": "Eeligator",
+    "priority": "P2",
+    "profile": {
+      "schema_version": "item-profile-v1",
+      "id": "eeligator-scale-shield",
+      "item_id": "eeligator-scale-shield",
+      "item_name": "Eeligator Scale Shield",
+      "name": "Eeligator Scale Shield",
+      "aliases": [
+        "scale shield",
+        "river scale shield"
+      ],
+      "pronunciation": "EE-lih-gay-tor SKAYL SHEELD",
+      "item_kind": "armor",
+      "tier": "Tier 1",
+      "priority": "P2",
+      "mode": "PROP",
+      "maker": "wild eeligator hide",
+      "made_or_wild": "wild/folk",
+      "auto_surface": true,
+      "discovered_from_art": false,
+      "atlas_lore_note": "",
+      "player_safe": {
+        "name": "Eeligator Scale Shield",
+        "one_line": "A round shield of overlapping slick green-grey scales catches the light like river-water. It smells of deep water, mud, and old teeth.",
+        "first_impression": "A round shield of overlapping slick green-grey scales catches the light like river-water. It smells of deep water, mud, and old teeth.",
+        "maker": "wild eeligator hide",
+        "satire_line": "HEXMART REMINDS YOU: Genuine eeligator scale is unregulated wildlife and may carry opinions. Try Hexmart Scale-Look Shielding instead."
+      },
+      "block0": {
+        "item_id": "eeligator-scale-shield",
+        "item_name": "Eeligator Scale Shield",
+        "aliases": [
+          "scale shield",
+          "river scale shield"
+        ],
+        "pronunciation": "EE-lih-gay-tor SKAYL SHEELD",
+        "item_kind": "armor",
+        "tier": "Tier 1"
+      },
+      "block1": {
+        "first_impression": "A round shield of overlapping slick green-grey scales catches the light like river-water. It smells of deep water, mud, and old teeth.",
+        "the_tell": "Eeligator Scale Shield: sharp-scaled river armor. Add +1 to damage thresholds and +2 to damage rolls.",
+        "what_it_is": "A shield cut from the hide of the Lucent River's apex predator.",
+        "the_hook": "Proof you survived an eeligator and came away harder to hurt.",
+        "wiki_link": "pages/entities/eeligator-scale-shield.html"
+      },
+      "block2": {
+        "maker": "wild eeligator hide",
+        "made_or_wild": "wild/folk",
+        "ad_copy": "",
+        "corporate_propaganda": "HEXMART REMINDS YOU: Genuine eeligator scale is unregulated wildlife and may carry opinions. Try Hexmart Scale-Look Shielding instead.",
+        "unreliability": "",
+        "comedy_beat": "Hexmart sells a worse fake of a thing it would never risk earning."
+      },
+      "block3": {
+        "mechanics": "Tier 1 secondary weapon/shield. Finesse melee, one-handed, d4 physical. Sharp: add +1 to damage thresholds and +2 to damage rolls.",
+        "narrative_function": "",
+        "stat_block": {
+          "stat_block_type": "item",
+          "canon_status": "#module",
+          "mechanical_grammar": "Daggerheart item grammar: weapon or offensive consumable; use the listed trait/range/damage/effect exactly as written here.",
+          "table_effect": "Tier 1 secondary weapon/shield. Finesse melee, one-handed, d4 physical. Sharp: add +1 to damage thresholds and +2 to damage rolls.",
+          "player_benefit": "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned.",
+          "roleplay_benefit": "Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does.",
+          "activation": "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction.",
+          "limits": "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus.",
+          "earn_gate": {
+            "roleplay": "Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling.",
+            "Knowledge": "DC 12-15 to identify maker, provenance, safe use, warranty lie, or rule effect.",
+            "Instinct": "DC 12-15 to sense danger, residue, freshness, wrongness, or practical use.",
+            "Finesse": "DC 12-15 to handle, open, apply, repair, harvest, or retrieve it without damage or attention.",
+            "Presence": "DC 12-15 to bargain, persuade, comfort, or socially earn access to it."
+          },
+          "outcome_spectrum": {
+            "critical_success": "Earn the item or full truth, gain Hope, clear 1 Stress, and add one clean extra: bonus clue, safer use, better condition, or no social cost.",
+            "success_with_hope": "Earn the item or truth cleanly and gain Hope.",
+            "success_with_fear": "Earn it, but the GM gains Fear and adds a cost: attention, debt, damaged packaging, limited charge, social suspicion, or delayed consequence.",
+            "failure_with_hope": "Do not earn the full benefit yet, but gain Hope and a partial thread, safer next method, or a different small clue.",
+            "failure_with_fear": "The attempt goes badly; GM gains Fear and the item is damaged, noticed, withheld, misread, or tied to a stronger complication.",
+            "plain_low_roll": "Give a plausible but incomplete read; never use a low roll to erase a mandatory clue without providing another path."
+          }
+        }
+      },
+      "block4": {
+        "source_npc": [
+          "Eeligator"
+        ],
+        "source_location": [
+          "Lucent River",
+          "Miremist"
+        ],
+        "loot_group": "Eeligator",
+        "eligibility": "Crafted from an eeligator after a fight or gifted by someone who has one.",
+        "surface_ids": [
+          "MAP-LOC-the-lucent-river",
+          "MAP-LOC-the-miremist",
+          "S05-03"
+        ]
+      },
+      "block5": {
+        "disclosure": [
+          {
+            "layer": "Layer 1 - look",
+            "content": "A damp scaled shield."
+          },
+          {
+            "layer": "Layer 2 - hint",
+            "content": "The scales are predator-sharp."
+          },
+          {
+            "layer": "Layer 3 - truth",
+            "content": "It grants +1 thresholds and +2 damage."
+          }
+        ],
+        "earn_it_hooks": [
+          "Defeat an eeligator.",
+          "A river trapper appraises it.",
+          "Use it in combat."
+        ],
+        "progressive_reveal": "Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll."
+      },
+      "block6": {
+        "image_prompt": "A round shield made from glossy green-grey eeligator scales, river-wet sheen, unbranded, bright daylight.",
+        "image_role": "item wiki card and earned side-card visual",
+        "show_to_players": "Use the Run Mode item card's Show image button when the table sees or earns this item.",
+        "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/eeligator-scale-shield/profile_base.png",
+        "runtime_path": "assets/item-images/eeligator-scale-shield/profile_base.webp",
+        "style_anchor": "Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark."
+      },
+      "visual_assets": {
+        "profile_image": {
+          "key": "profile_base",
+          "label": "Item profile image",
+          "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/eeligator-scale-shield/profile_base.png",
+          "runtime_path": "assets/item-images/eeligator-scale-shield/profile_base.webp",
+          "status": "ready",
+          "alt": "Eeligator Scale Shield item illustration.",
+          "player_caption": "A round shield of overlapping slick green-grey scales catches the light like river-water. It smells of deep water, mud, and old teeth."
+        }
+      }
+    }
+  },
+  {
+    "id": "fire-wine",
+    "name": "Fire Wine™",
+    "kind": "consumable",
+    "maker": "the Refuge / Fire Solutions",
+    "loot_group": "Corporate Sundries",
+    "priority": "P2",
+    "profile": {
+      "schema_version": "item-profile-v1",
+      "id": "fire-wine",
+      "item_id": "fire-wine",
+      "item_name": "Fire Wine™",
+      "name": "Fire Wine™",
+      "aliases": [
+        "Fire Wine",
+        "Refuge fire wine",
+        "gold liquor"
+      ],
+      "pronunciation": "FYR WYN",
+      "item_kind": "consumable",
+      "tier": "Tier 1",
+      "priority": "P2",
+      "mode": "AD",
+      "maker": "the Refuge / Fire Solutions",
+      "made_or_wild": "corporate-made",
+      "auto_surface": true,
+      "discovered_from_art": false,
+      "atlas_lore_note": "",
+      "player_safe": {
+        "name": "Fire Wine™",
+        "one_line": "A strong golden liquor sloshes in a thick jug, warm going down and warmer staying there. A paper tag insists it is not made from grapes and is absolutely not medicinal.",
+        "first_impression": "A strong golden liquor sloshes in a thick jug, warm going down and warmer staying there. A paper tag insists it is not made from grapes and is absolutely not medicinal.",
+        "maker": "the Refuge / Fire Solutions",
+        "satire_line": "FIRE WINE: Not Made From Grapes. Not Medicinal. Not Our Fault. Drink the Line You Hold."
+      },
+      "block0": {
+        "item_id": "fire-wine",
+        "item_name": "Fire Wine™",
+        "aliases": [
+          "Fire Wine",
+          "Refuge fire wine",
+          "gold liquor"
+        ],
+        "pronunciation": "FYR WYN",
+        "item_kind": "consumable",
+        "tier": "Tier 1"
+      },
+      "block1": {
+        "first_impression": "A strong golden liquor sloshes in a thick jug, warm going down and warmer staying there. A paper tag insists it is not made from grapes and is absolutely not medicinal.",
+        "the_tell": "Fire Wine™: the Refuge's signature drink. It is courage in a cup, legally not medicine.",
+        "what_it_is": "A hard local liquor wrapped in liability humor.",
+        "the_hook": "Social warmth, bad courage, and a later cost if the GM wants one.",
+        "wiki_link": "pages/entities/fire-wine.html"
+      },
+      "block2": {
+        "maker": "the Refuge / Fire Solutions",
+        "made_or_wild": "corporate-made",
+        "ad_copy": "FIRE WINE: Not Made From Grapes. Not Medicinal. Not Our Fault. Drink the Line You Hold.",
+        "corporate_propaganda": "",
+        "unreliability": "It does one thing well: gets you drunk. Everything else is a legal denial.",
+        "comedy_beat": "The label is mostly a list of what nobody can sue over."
+      },
+      "block3": {
+        "mechanics": "Flavor. Could justify brief liquid-courage advantage and a later cost at GM discretion.",
+        "narrative_function": "",
+        "stat_block": {
+          "stat_block_type": "item",
+          "canon_status": "#adaptation",
+          "mechanical_grammar": "Daggerheart item grammar: consumable; one use unless the effect says otherwise, then mark it spent or unavailable until the stated rest.",
+          "table_effect": "Flavor. Could justify brief liquid-courage advantage and a later cost at GM discretion.",
+          "player_benefit": "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned.",
+          "roleplay_benefit": "Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does.",
+          "activation": "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction.",
+          "limits": "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus.",
+          "earn_gate": {
+            "roleplay": "Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling.",
+            "Knowledge": "DC 12-15 to identify maker, provenance, safe use, warranty lie, or rule effect.",
+            "Instinct": "DC 12-15 to sense danger, residue, freshness, wrongness, or practical use.",
+            "Finesse": "DC 12-15 to handle, open, apply, repair, harvest, or retrieve it without damage or attention.",
+            "Presence": "DC 12-15 to bargain, persuade, comfort, or socially earn access to it."
+          },
+          "outcome_spectrum": {
+            "critical_success": "Earn the item or full truth, gain Hope, clear 1 Stress, and add one clean extra: bonus clue, safer use, better condition, or no social cost.",
+            "success_with_hope": "Earn the item or truth cleanly and gain Hope.",
+            "success_with_fear": "Earn it, but the GM gains Fear and adds a cost: attention, debt, damaged packaging, limited charge, social suspicion, or delayed consequence.",
+            "failure_with_hope": "Do not earn the full benefit yet, but gain Hope and a partial thread, safer next method, or a different small clue.",
+            "failure_with_fear": "The attempt goes badly; GM gains Fear and the item is damaged, noticed, withheld, misread, or tied to a stronger complication.",
+            "plain_low_roll": "Give a plausible but incomplete read; never use a low roll to erase a mandatory clue without providing another path."
+          }
+        }
+      },
+      "block4": {
+        "source_npc": [],
+        "source_location": [
+          "The Refuge",
+          "The Fire Walk"
+        ],
+        "loot_group": "Corporate Sundries",
+        "eligibility": "Purchase, toast, gift, or camp-table offering.",
+        "surface_ids": [
+          "MAP-LOC-the-refuge",
+          "S03-03"
+        ]
+      },
+      "block5": {
+        "disclosure": [
+          {
+            "layer": "Layer 1 - look",
+            "content": "A golden jug with denial labels."
+          },
+          {
+            "layer": "Layer 2 - hint",
+            "content": "It warms courage faster than judgment."
+          },
+          {
+            "layer": "Layer 3 - truth",
+            "content": "No fixed mechanic unless the table wants a risky social boon."
+          }
+        ],
+        "earn_it_hooks": [
+          "Drink it.",
+          "Ask a Refuge worker what it is for.",
+          "Use it in a social scene."
+        ],
+        "progressive_reveal": "Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll."
+      },
+      "block6": {
+        "image_prompt": "A golden liquor jug with a loud tag reading Not Medicinal and Not Made From Grapes, bright frontier fantasy product shot.",
+        "image_role": "item wiki card and earned side-card visual",
+        "show_to_players": "Use the Run Mode item card's Show image button when the table sees or earns this item.",
+        "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/fire-wine/profile_base.png",
+        "runtime_path": "assets/item-images/fire-wine/profile_base.webp",
+        "style_anchor": "Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark."
+      },
+      "visual_assets": {
+        "profile_image": {
+          "key": "profile_base",
+          "label": "Item profile image",
+          "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/fire-wine/profile_base.png",
+          "runtime_path": "assets/item-images/fire-wine/profile_base.webp",
+          "status": "ready",
+          "alt": "Fire Wine™ item illustration.",
+          "player_caption": "A strong golden liquor sloshes in a thick jug, warm going down and warmer staying there. A paper tag insists it is not made from grapes and is absolutely not medicinal."
+        }
+      }
+    }
+  },
+  {
+    "id": "goldwater-liability-token",
+    "name": "Goldwater Liability Token™",
+    "kind": "document",
+    "maker": "Goldwater Financial",
+    "loot_group": "Route Sundries",
+    "priority": "P2",
+    "profile": {
+      "schema_version": "item-profile-v1",
+      "id": "goldwater-liability-token",
+      "item_id": "goldwater-liability-token",
+      "item_name": "Goldwater Liability Token™",
+      "name": "Goldwater Liability Token™",
+      "aliases": [
+        "Goldwater Liability Token",
+        "liability chit",
+        "Goldwater token"
+      ],
+      "pronunciation": "GOHLD-waw-ter ly-uh-BIL-ih-tee TOH-ken",
+      "item_kind": "document",
+      "tier": "Tier 1",
+      "priority": "P2",
+      "mode": "AD",
+      "maker": "Goldwater Financial",
+      "made_or_wild": "corporate-made",
+      "auto_surface": true,
+      "discovered_from_art": false,
+      "atlas_lore_note": "",
+      "player_safe": {
+        "name": "Goldwater Liability Token™",
+        "one_line": "A heavy brass chit with a smiling coin-face drops into your palm like a tiny verdict. The fine print is too small to read without feeling blamed.",
+        "first_impression": "A heavy brass chit with a smiling coin-face drops into your palm like a tiny verdict. The fine print is too small to read without feeling blamed.",
+        "maker": "Goldwater Financial",
+        "satire_line": "GOLDWATER PAY-IT-FORWARD: A Fee That Sounds Kinder Than It Feels. Congratulations On Your Liability. Terms Accrue While You Read This."
+      },
+      "block0": {
+        "item_id": "goldwater-liability-token",
+        "item_name": "Goldwater Liability Token™",
+        "aliases": [
+          "Goldwater Liability Token",
+          "liability chit",
+          "Goldwater token"
+        ],
+        "pronunciation": "GOHLD-waw-ter ly-uh-BIL-ih-tee TOH-ken",
+        "item_kind": "document",
+        "tier": "Tier 1"
+      },
+      "block1": {
+        "first_impression": "A heavy brass chit with a smiling coin-face drops into your palm like a tiny verdict. The fine print is too small to read without feeling blamed.",
+        "the_tell": "Goldwater Liability Token™: a pay-it-forward settlement chit that turns a mishap into a debt record.",
+        "what_it_is": "A narrative debt hook wearing a friendly coin face.",
+        "the_hook": "It is funny until somebody realizes the fees accrue while they read.",
+        "wiki_link": "pages/entities/goldwater-liability-token.html"
+      },
+      "block2": {
+        "maker": "Goldwater Financial",
+        "made_or_wild": "corporate-made",
+        "ad_copy": "GOLDWATER PAY-IT-FORWARD: A Fee That Sounds Kinder Than It Feels. Congratulations On Your Liability. Terms Accrue While You Read This.",
+        "corporate_propaganda": "",
+        "unreliability": "It protects the company by formalizing the customer's debt.",
+        "comedy_beat": "The apology has interest."
+      },
+      "block3": {
+        "mechanics": "Narrative debt hook; social leverage or future trouble if accepted.",
+        "narrative_function": "",
+        "stat_block": {
+          "stat_block_type": "item",
+          "canon_status": "#adaptation",
+          "mechanical_grammar": "Discovery grammar: this is evidence, not treasure. It grants information, leverage, or access when earned through roleplay or a trait roll.",
+          "table_effect": "Narrative debt hook; social leverage or future trouble if accepted.",
+          "player_benefit": "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned.",
+          "roleplay_benefit": "Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does.",
+          "activation": "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction.",
+          "limits": "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus.",
+          "earn_gate": {
+            "roleplay": "Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling.",
+            "Knowledge": "DC 12-15 to identify maker, provenance, safe use, warranty lie, or rule effect.",
+            "Instinct": "DC 12-15 to sense danger, residue, freshness, wrongness, or practical use.",
+            "Finesse": "DC 12-15 to handle, open, apply, repair, harvest, or retrieve it without damage or attention.",
+            "Presence": "DC 12-15 to bargain, persuade, comfort, or socially earn access to it."
+          },
+          "outcome_spectrum": {
+            "critical_success": "Earn the item or full truth, gain Hope, clear 1 Stress, and add one clean extra: bonus clue, safer use, better condition, or no social cost.",
+            "success_with_hope": "Earn the item or truth cleanly and gain Hope.",
+            "success_with_fear": "Earn it, but the GM gains Fear and adds a cost: attention, debt, damaged packaging, limited charge, social suspicion, or delayed consequence.",
+            "failure_with_hope": "Do not earn the full benefit yet, but gain Hope and a partial thread, safer next method, or a different small clue.",
+            "failure_with_fear": "The attempt goes badly; GM gains Fear and the item is damaged, noticed, withheld, misread, or tied to a stronger complication.",
+            "plain_low_roll": "Give a plausible but incomplete read; never use a low roll to erase a mandatory clue without providing another path."
+          }
+        }
+      },
+      "block4": {
+        "source_npc": [
+          "Inspector Pelt"
+        ],
+        "source_location": [
+          "The Titan's Steps",
+          "Emeris Capital Gate"
+        ],
+        "loot_group": "Route Sundries",
+        "eligibility": "Toll crew paperwork, failed service response, or bureaucratic fallout.",
+        "surface_ids": [
+          "MAP-LOC-the-titan-s-steps",
+          "S01-02"
+        ]
+      },
+      "block5": {
+        "disclosure": [
+          {
+            "layer": "Layer 1 - look",
+            "content": "A smiling brass token with tiny print."
+          },
+          {
+            "layer": "Layer 2 - hint",
+            "content": "It congratulates the holder on liability."
+          },
+          {
+            "layer": "Layer 3 - truth",
+            "content": "It records debt rather than compensation."
+          }
+        ],
+        "earn_it_hooks": [
+          "Read the print.",
+          "Ask a clerk what happens if you keep it.",
+          "Use it in a negotiation with a toll crew."
+        ],
+        "progressive_reveal": "Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll."
+      },
+      "block6": {
+        "image_prompt": "A heavy brass chit stamped with a smiling coin-face, microscopic fine print, Goldwater branding, cheerful fee stickers.",
+        "image_role": "item wiki card and earned side-card visual",
+        "show_to_players": "Use the Run Mode item card's Show image button when the table sees or earns this item.",
+        "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/goldwater-liability-token/profile_base.png",
+        "runtime_path": "assets/item-images/goldwater-liability-token/profile_base.webp",
+        "style_anchor": "Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark."
+      },
+      "visual_assets": {
+        "profile_image": {
+          "key": "profile_base",
+          "label": "Item profile image",
+          "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/goldwater-liability-token/profile_base.png",
+          "runtime_path": "assets/item-images/goldwater-liability-token/profile_base.webp",
+          "status": "ready",
+          "alt": "Goldwater Liability Token™ item illustration.",
+          "player_caption": "A heavy brass chit with a smiling coin-face drops into your palm like a tiny verdict. The fine print is too small to read without feeling blamed."
+        }
+      }
+    }
+  },
+  {
+    "id": "incident-response-placard",
+    "name": "Incident Response Placard™",
+    "kind": "utility",
+    "maker": "Grail Industries",
+    "loot_group": "Route Sundries",
+    "priority": "P1",
+    "profile": {
+      "schema_version": "item-profile-v1",
+      "id": "incident-response-placard",
+      "item_id": "incident-response-placard",
+      "item_name": "Incident Response Placard™",
+      "name": "Incident Response Placard™",
+      "aliases": [
+        "Incident Response Placard",
+        "route placard",
+        "incident placard",
+        "watchful route sign"
+      ],
+      "pronunciation": "IN-sih-dent rih-SPONS PLAK-erd",
+      "item_kind": "utility",
+      "tier": "Tier 1",
+      "priority": "P1",
+      "mode": "AD",
+      "maker": "Grail Industries",
+      "made_or_wild": "corporate-made",
+      "auto_surface": true,
+      "discovered_from_art": false,
+      "atlas_lore_note": "",
+      "player_safe": {
+        "name": "Incident Response Placard™",
+        "one_line": "A flat brass disc on a post holds a watchful glyph and a single cheerful bell. When trouble happens nearby, the glyph lights, the bell rings once, brightly, and then nothing else happens at all.",
+        "first_impression": "A flat brass disc on a post holds a watchful glyph and a single cheerful bell. When trouble happens nearby, the glyph lights, the bell rings once, brightly, and then nothing else happens at all.",
+        "maker": "Grail Industries",
+        "satire_line": "THE INCIDENT RESPONSE PLACARD: Because Knowing Is Half the Battle. We Do Not Provide the Other Half. Detects 9 of 10 incidents. Responds to 0 of 10."
+      },
+      "block0": {
+        "item_id": "incident-response-placard",
+        "item_name": "Incident Response Placard™",
+        "aliases": [
+          "Incident Response Placard",
+          "route placard",
+          "incident placard",
+          "watchful route sign"
+        ],
+        "pronunciation": "IN-sih-dent rih-SPONS PLAK-erd",
+        "item_kind": "utility",
+        "tier": "Tier 1"
+      },
+      "block1": {
+        "first_impression": "A flat brass disc on a post holds a watchful glyph and a single cheerful bell. When trouble happens nearby, the glyph lights, the bell rings once, brightly, and then nothing else happens at all.",
+        "the_tell": "Incident Response Placard™, Grail Industries: detects an incident, logs it, and provides no help whatsoever.",
+        "what_it_is": "Security theater in object form.",
+        "the_hook": "It tells the table something is wrong while proving the route's protection is mostly paperwork.",
+        "wiki_link": "pages/entities/incident-response-placard.html"
+      },
+      "block2": {
+        "maker": "Grail Industries",
+        "made_or_wild": "corporate-made",
+        "ad_copy": "THE INCIDENT RESPONSE PLACARD: Because Knowing Is Half the Battle. We Do Not Provide the Other Half. Detects 9 of 10 incidents. Responds to 0 of 10.",
+        "corporate_propaganda": "",
+        "unreliability": "It works perfectly at the least useful part: noticing.",
+        "comedy_beat": "The bell rings. The placard glows. Everyone looks at it. It looks back, satisfied."
+      },
+      "block3": {
+        "mechanics": "Narrative cue. It detects nearby trouble, can be read for route data with Knowledge 12, and may ping Grail if tampered with.",
+        "narrative_function": "",
+        "stat_block": {
+          "stat_block_type": "item",
+          "canon_status": "#adaptation",
+          "mechanical_grammar": "Story-item grammar: use this as access, leverage, texture, or roleplay benefit; add a mechanical bonus only if the listed effect grants one.",
+          "table_effect": "Narrative cue. It detects nearby trouble, can be read for route data with Knowledge 12, and may ping Grail if tampered with.",
+          "player_benefit": "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned.",
+          "roleplay_benefit": "Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does.",
+          "activation": "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction.",
+          "limits": "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus.",
+          "earn_gate": {
+            "roleplay": "Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling.",
+            "Knowledge": "DC 12-15 to identify maker, provenance, safe use, warranty lie, or rule effect.",
+            "Instinct": "DC 12-15 to sense danger, residue, freshness, wrongness, or practical use.",
+            "Finesse": "DC 12-15 to handle, open, apply, repair, harvest, or retrieve it without damage or attention.",
+            "Presence": "DC 12-15 to bargain, persuade, comfort, or socially earn access to it."
+          },
+          "outcome_spectrum": {
+            "critical_success": "Earn the item or full truth, gain Hope, clear 1 Stress, and add one clean extra: bonus clue, safer use, better condition, or no social cost.",
+            "success_with_hope": "Earn the item or truth cleanly and gain Hope.",
+            "success_with_fear": "Earn it, but the GM gains Fear and adds a cost: attention, debt, damaged packaging, limited charge, social suspicion, or delayed consequence.",
+            "failure_with_hope": "Do not earn the full benefit yet, but gain Hope and a partial thread, safer next method, or a different small clue.",
+            "failure_with_fear": "The attempt goes badly; GM gains Fear and the item is damaged, noticed, withheld, misread, or tied to a stronger complication.",
+            "plain_low_roll": "Give a plausible but incomplete read; never use a low roll to erase a mandatory clue without providing another path."
+          }
+        }
+      },
+      "block4": {
+        "source_npc": [],
+        "source_location": [
+          "Emeris Capital Gate",
+          "Sablewood Route Gate",
+          "Old Sable"
+        ],
+        "loot_group": "Route Sundries",
+        "eligibility": "Mounted at route shrines, gates, and waypoints; portable versions ride with toll crews.",
+        "surface_ids": [
+          "S01-01",
+          "S01-02",
+          "MAP-LOC-sablewood-route-gate",
+          "MAP-S01-02"
+        ]
+      },
+      "block5": {
+        "disclosure": [
+          {
+            "layer": "Layer 1 - look",
+            "content": "A watchful brass disc with a bell."
+          },
+          {
+            "layer": "Layer 2 - hint",
+            "content": "It lights and rings but never helps."
+          },
+          {
+            "layer": "Layer 3 - truth",
+            "content": "It detects and bills. It does not rescue."
+          }
+        ],
+        "earn_it_hooks": [
+          "Trigger it once.",
+          "Read the cheerful ad copy.",
+          "Knowledge 12 identifies the logging glyph and route record."
+        ],
+        "progressive_reveal": "Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll."
+      },
+      "block6": {
+        "image_prompt": "A cheerful brass route-glyph placard on a short post, tiny bell, Grail safety ads, sunburst labels, glowing smugly.",
+        "image_role": "item wiki card and earned side-card visual",
+        "show_to_players": "Use the Run Mode item card's Show image button when the table sees or earns this item.",
+        "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/incident-response-placard/profile_base.png",
+        "runtime_path": "assets/item-images/incident-response-placard/profile_base.webp",
+        "style_anchor": "Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark."
+      },
+      "visual_assets": {
+        "profile_image": {
+          "key": "profile_base",
+          "label": "Item profile image",
+          "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/incident-response-placard/profile_base.png",
+          "runtime_path": "assets/item-images/incident-response-placard/profile_base.webp",
+          "status": "ready",
+          "alt": "Incident Response Placard™ item illustration.",
+          "player_caption": "A flat brass disc on a post holds a watchful glyph and a single cheerful bell. When trouble happens nearby, the glyph lights, the bell rings once, brightly, and then nothing else happens at all."
+        }
+      }
+    }
+  },
+  {
+    "id": "kazrak-adventurer-certification",
+    "name": "Kazrak Adventurer Certification™",
+    "kind": "document",
+    "maker": "Kazrak Industries",
+    "loot_group": "Corporate Sundries",
+    "priority": "P2",
+    "profile": {
+      "schema_version": "item-profile-v1",
+      "id": "kazrak-adventurer-certification",
+      "item_id": "kazrak-adventurer-certification",
+      "item_name": "Kazrak Adventurer Certification™",
+      "name": "Kazrak Adventurer Certification™",
+      "aliases": [
+        "Kazrak Adventurer Certification",
+        "Kazrak badge",
+        "adventurer license"
+      ],
+      "pronunciation": "KAZ-rak ad-VEN-chur-er ser-tih-fih-KAY-shun",
+      "item_kind": "document",
+      "tier": "Tier 1",
+      "priority": "P2",
+      "mode": "AD",
+      "maker": "Kazrak Industries",
+      "made_or_wild": "corporate-made",
+      "auto_surface": true,
+      "discovered_from_art": false,
+      "atlas_lore_note": "",
+      "player_safe": {
+        "name": "Kazrak Adventurer Certification™",
+        "one_line": "A laminated badge shows a flattering but wrong portrait under a peeling CERTIFIED stamp. It somehow looks proud of the mistake.",
+        "first_impression": "A laminated badge shows a flattering but wrong portrait under a peeling CERTIFIED stamp. It somehow looks proud of the mistake.",
+        "maker": "Kazrak Industries",
+        "satire_line": "KAZRAK CERTIFIED ADVENTURER: You are Official Now. Certification Funds Your Glory and Our Search. Renew Annually or Forfeit Your Worth."
+      },
+      "block0": {
+        "item_id": "kazrak-adventurer-certification",
+        "item_name": "Kazrak Adventurer Certification™",
+        "aliases": [
+          "Kazrak Adventurer Certification",
+          "Kazrak badge",
+          "adventurer license"
+        ],
+        "pronunciation": "KAZ-rak ad-VEN-chur-er ser-tih-fih-KAY-shun",
+        "item_kind": "document",
+        "tier": "Tier 1"
+      },
+      "block1": {
+        "first_impression": "A laminated badge shows a flattering but wrong portrait under a peeling CERTIFIED stamp. It somehow looks proud of the mistake.",
+        "the_tell": "Kazrak Adventurer Certification™: proof you paid to be official, useful for access and annoying for autonomy.",
+        "what_it_is": "A license that marks the holder as a paying adventuring asset.",
+        "the_hook": "Opens doors and quietly tells the world who thinks it owns the door.",
+        "wiki_link": "pages/entities/kazrak-adventurer-certification.html"
+      },
+      "block2": {
+        "maker": "Kazrak Industries",
+        "made_or_wild": "corporate-made",
+        "ad_copy": "KAZRAK CERTIFIED ADVENTURER: You are Official Now. Certification Funds Your Glory and Our Search. Renew Annually or Forfeit Your Worth.",
+        "corporate_propaganda": "",
+        "unreliability": "It helps in Kazrak venues and also marks the party as registered.",
+        "comedy_beat": "The badge makes you official by drawing you wrong."
+      },
+      "block3": {
+        "mechanics": "Social access at Kazrak venues; possible tracking or reputation hook.",
+        "narrative_function": "",
+        "stat_block": {
+          "stat_block_type": "item",
+          "canon_status": "#adaptation",
+          "mechanical_grammar": "Discovery grammar: this is evidence, not treasure. It grants information, leverage, or access when earned through roleplay or a trait roll.",
+          "table_effect": "Social access at Kazrak venues; possible tracking or reputation hook.",
+          "player_benefit": "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned.",
+          "roleplay_benefit": "Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does.",
+          "activation": "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction.",
+          "limits": "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus.",
+          "earn_gate": {
+            "roleplay": "Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling.",
+            "Knowledge": "DC 12-15 to identify maker, provenance, safe use, warranty lie, or rule effect.",
+            "Instinct": "DC 12-15 to sense danger, residue, freshness, wrongness, or practical use.",
+            "Finesse": "DC 12-15 to handle, open, apply, repair, harvest, or retrieve it without damage or attention.",
+            "Presence": "DC 12-15 to bargain, persuade, comfort, or socially earn access to it."
+          },
+          "outcome_spectrum": {
+            "critical_success": "Earn the item or full truth, gain Hope, clear 1 Stress, and add one clean extra: bonus clue, safer use, better condition, or no social cost.",
+            "success_with_hope": "Earn the item or truth cleanly and gain Hope.",
+            "success_with_fear": "Earn it, but the GM gains Fear and adds a cost: attention, debt, damaged packaging, limited charge, social suspicion, or delayed consequence.",
+            "failure_with_hope": "Do not earn the full benefit yet, but gain Hope and a partial thread, safer next method, or a different small clue.",
+            "failure_with_fear": "The attempt goes badly; GM gains Fear and the item is damaged, noticed, withheld, misread, or tied to a stronger complication.",
+            "plain_low_roll": "Give a plausible but incomplete read; never use a low roll to erase a mandatory clue without providing another path."
+          }
+        }
+      },
+      "block4": {
+        "source_npc": [],
+        "source_location": [
+          "Duskwatch Exchange",
+          "The Latch"
+        ],
+        "loot_group": "Corporate Sundries",
+        "eligibility": "Purchase, bureaucratic reward, or found in old adventurer kit.",
+        "surface_ids": [
+          "MAP-LOC-duskwatch-exchange",
+          "MAP-LOC-the-latch"
+        ]
+      },
+      "block5": {
+        "disclosure": [
+          {
+            "layer": "Layer 1 - look",
+            "content": "A badge with a wrong flattering portrait."
+          },
+          {
+            "layer": "Layer 2 - hint",
+            "content": "It claims official status."
+          },
+          {
+            "layer": "Layer 3 - truth",
+            "content": "It can open doors and create obligations."
+          }
+        ],
+        "earn_it_hooks": [
+          "Show it at a checkpoint.",
+          "Read renewal terms.",
+          "Ask who recognizes Kazrak paperwork."
+        ],
+        "progressive_reveal": "Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll."
+      },
+      "block6": {
+        "image_prompt": "A laminated fantasy adventurer badge with a flatteringly wrong portrait and peeling CERTIFIED stamp, bright corporate branding, no sci-fi screen.",
+        "image_role": "item wiki card and earned side-card visual",
+        "show_to_players": "Use the Run Mode item card's Show image button when the table sees or earns this item.",
+        "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/kazrak-adventurer-certification/profile_base.png",
+        "runtime_path": "assets/item-images/kazrak-adventurer-certification/profile_base.webp",
+        "style_anchor": "Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark."
+      },
+      "visual_assets": {
+        "profile_image": {
+          "key": "profile_base",
+          "label": "Item profile image",
+          "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/kazrak-adventurer-certification/profile_base.png",
+          "runtime_path": "assets/item-images/kazrak-adventurer-certification/profile_base.webp",
+          "status": "ready",
+          "alt": "Kazrak Adventurer Certification™ item illustration.",
+          "player_caption": "A laminated badge shows a flattering but wrong portrait under a peeling CERTIFIED stamp. It somehow looks proud of the mistake."
+        }
+      }
+    }
+  },
+  {
+    "id": "keystone-asset",
+    "name": "Keystone Asset™",
+    "kind": "asset",
+    "maker": "Emeris Crown Holdings",
+    "loot_group": "Story Asset",
+    "priority": "P1",
+    "profile": {
+      "schema_version": "item-profile-v1",
+      "id": "keystone-asset",
+      "item_id": "keystone-asset",
+      "item_name": "Keystone Asset™",
+      "name": "Keystone Asset™",
+      "aliases": [
+        "Keystone Asset",
+        "sealed package",
+        "the package",
+        "sealed crate",
+        "ward-stone"
+      ],
+      "pronunciation": "KEE-stohn ASS-et",
+      "item_kind": "asset",
+      "tier": "Tier 1",
+      "priority": "P1",
+      "mode": "STORY/AD",
+      "maker": "Emeris Crown Holdings",
+      "made_or_wild": "corporate-made",
+      "auto_surface": true,
+      "discovered_from_art": false,
+      "atlas_lore_note": "",
+      "player_safe": {
+        "name": "Keystone Asset™",
+        "one_line": "Inside the sealed crate, packed in wax-paper and reassurance, sits a heavy grey stone the size of a loaf, warm to the touch, faintly humming, with a light deep inside it that is slowly going out.",
+        "first_impression": "Inside the sealed crate, packed in wax-paper and reassurance, sits a heavy grey stone the size of a loaf, warm to the touch, faintly humming, with a light deep inside it that is slowly going out.",
+        "maker": "Emeris Crown Holdings",
+        "satire_line": "EMERIS CROWN HOLDINGS: Your Asset, Handled With Care. Fully insured against loss, theft, and most acts of god. Please do not open, touch, tilt, comfort, or speak to your Asset."
+      },
+      "block0": {
+        "item_id": "keystone-asset",
+        "item_name": "Keystone Asset™",
+        "aliases": [
+          "Keystone Asset",
+          "sealed package",
+          "the package",
+          "sealed crate",
+          "ward-stone"
+        ],
+        "pronunciation": "KEE-stohn ASS-et",
+        "item_kind": "asset",
+        "tier": "Tier 1"
+      },
+      "block1": {
+        "first_impression": "Inside the sealed crate, packed in wax-paper and reassurance, sits a heavy grey stone the size of a loaf, warm to the touch, faintly humming, with a light deep inside it that is slowly going out.",
+        "the_tell": "Keystone Asset™, Emeris Crown Holdings: the ward-stone that keeps Emeris safe. It is failing and must be renewed at Open Vale.",
+        "what_it_is": "A genuine old protective ward-stone processed as insured freight.",
+        "the_hook": "It is the whole job: a city's safety in a box on the party's cart.",
+        "wiki_link": "pages/entities/keystone-asset.html"
+      },
+      "block2": {
+        "maker": "Emeris Crown Holdings",
+        "made_or_wild": "corporate-made",
+        "ad_copy": "EMERIS CROWN HOLDINGS: Your Asset, Handled With Care. Fully insured against loss, theft, and most acts of god. Please do not open, touch, tilt, comfort, or speak to your Asset.",
+        "corporate_propaganda": "",
+        "unreliability": "The label makes it sound routine. The stone is real civic magic that is dimming faster than the paperwork admits.",
+        "comedy_beat": "Every label calls it an Asset. The Custodian calls it by its real name, and the room changes."
+      },
+      "block3": {
+        "mechanics": "",
+        "narrative_function": "Reach the Whitefire Custodian and the Open Vale ritual. Sensing what it truly is uses Instinct 15 when the fiction supports it.",
+        "stat_block": {
+          "stat_block_type": "item",
+          "canon_status": "#module",
+          "mechanical_grammar": "Story-item grammar: use this as access, leverage, texture, or roleplay benefit; add a mechanical bonus only if the listed effect grants one.",
+          "table_effect": "Reach the Whitefire Custodian and the Open Vale ritual. Sensing what it truly is uses Instinct 15 when the fiction supports it.",
+          "player_benefit": "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned.",
+          "roleplay_benefit": "Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does.",
+          "activation": "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction.",
+          "limits": "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus.",
+          "earn_gate": {
+            "roleplay": "Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling.",
+            "Knowledge": "DC 12-15 to identify maker, provenance, safe use, warranty lie, or rule effect.",
+            "Instinct": "DC 12-15 to sense danger, residue, freshness, wrongness, or practical use.",
+            "Finesse": "DC 12-15 to handle, open, apply, repair, harvest, or retrieve it without damage or attention.",
+            "Presence": "DC 12-15 to bargain, persuade, comfort, or socially earn access to it."
+          },
+          "outcome_spectrum": {
+            "critical_success": "Earn the item or full truth, gain Hope, clear 1 Stress, and add one clean extra: bonus clue, safer use, better condition, or no social cost.",
+            "success_with_hope": "Earn the item or truth cleanly and gain Hope.",
+            "success_with_fear": "Earn it, but the GM gains Fear and adds a cost: attention, debt, damaged packaging, limited charge, social suspicion, or delayed consequence.",
+            "failure_with_hope": "Do not earn the full benefit yet, but gain Hope and a partial thread, safer next method, or a different small clue.",
+            "failure_with_fear": "The attempt goes badly; GM gains Fear and the item is damaged, noticed, withheld, misread, or tied to a stronger complication.",
+            "plain_low_roll": "Give a plausible but incomplete read; never use a low roll to erase a mandatory clue without providing another path."
+          }
+        }
+      },
+      "block4": {
+        "source_npc": [
+          "Emeris Clerk",
+          "Whitefire Custodian"
+        ],
+        "source_location": [
+          "Emeris",
+          "The Hanging Office",
+          "Open ValeTM Ritual Site"
+        ],
+        "loot_group": "Story Asset",
+        "eligibility": "Assigned by the job; not lootable.",
+        "surface_ids": [
+          "S00-01",
+          "S01-02",
+          "S04-04",
+          "S05-01",
+          "S05-06"
+        ]
+      },
+      "block5": {
+        "disclosure": [
+          {
+            "layer": "Layer 1 - look",
+            "content": "A warm dimming stone in a branded crate."
+          },
+          {
+            "layer": "Layer 2 - hint",
+            "content": "The secrecy, warmth, and fading light point to civic magic, not cargo."
+          },
+          {
+            "layer": "Layer 3 - truth",
+            "content": "The Custodian reveals it as the ward-stone the ritual must renew."
+          }
+        ],
+        "earn_it_hooks": [
+          "Open the crate.",
+          "The Whitefire Custodian names it.",
+          "Instinct 15 senses purpose and danger without explaining the hidden thesis."
+        ],
+        "progressive_reveal": "Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll."
+      },
+      "block6": {
+        "image_prompt": "A warm grey ward-stone with a dimming inner light, packed inside an over-branded ASSET crate covered in cheerful insurance stamps, wax seals, and do-not-touch tags.",
+        "image_role": "item wiki card and earned side-card visual",
+        "show_to_players": "Use the Run Mode item card's Show image button when the table sees or earns this item.",
+        "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/keystone-asset/profile_base.png",
+        "runtime_path": "assets/item-images/keystone-asset/profile_base.webp",
+        "style_anchor": "Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark."
+      },
+      "visual_assets": {
+        "profile_image": {
+          "key": "profile_base",
+          "label": "Item profile image",
+          "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/keystone-asset/profile_base.png",
+          "runtime_path": "assets/item-images/keystone-asset/profile_base.webp",
+          "status": "ready",
+          "alt": "Keystone Asset™ item illustration.",
+          "player_caption": "Inside the sealed crate, packed in wax-paper and reassurance, sits a heavy grey stone the size of a loaf, warm to the touch, faintly humming, with a light deep inside it that is slowly going out."
+        }
+      }
+    }
+  },
+  {
+    "id": "lucent-water",
+    "name": "Lucent Water™",
+    "kind": "consumable",
+    "maker": "Hexmart resale label",
+    "loot_group": "Corporate Sundries",
+    "priority": "P2",
+    "profile": {
+      "schema_version": "item-profile-v1",
+      "id": "lucent-water",
+      "item_id": "lucent-water",
+      "item_name": "Lucent Water™",
+      "name": "Lucent Water™",
+      "aliases": [
+        "Lucent Water",
+        "glowing water",
+        "Hexmart water"
+      ],
+      "pronunciation": "LOO-sent WAW-ter",
+      "item_kind": "consumable",
+      "tier": "Tier 1",
+      "priority": "P2",
+      "mode": "AD",
+      "maker": "Hexmart resale label",
+      "made_or_wild": "corporate-made",
+      "auto_surface": true,
+      "discovered_from_art": false,
+      "atlas_lore_note": "",
+      "player_safe": {
+        "name": "Lucent Water™",
+        "one_line": "A corked bottle glows moonlit blue from inside, even in daylight, even in your pack. The water looks calm enough to sell itself.",
+        "first_impression": "A corked bottle glows moonlit blue from inside, even in daylight, even in your pack. The water looks calm enough to sell itself.",
+        "maker": "Hexmart resale label",
+        "satire_line": "HEXMART LUCENT WATER: Now With Glow. Glow Is a Feature, Not a Concern. May heal. May simply be very pretty water."
+      },
+      "block0": {
+        "item_id": "lucent-water",
+        "item_name": "Lucent Water™",
+        "aliases": [
+          "Lucent Water",
+          "glowing water",
+          "Hexmart water"
+        ],
+        "pronunciation": "LOO-sent WAW-ter",
+        "item_kind": "consumable",
+        "tier": "Tier 1"
+      },
+      "block1": {
+        "first_impression": "A corked bottle glows moonlit blue from inside, even in daylight, even in your pack. The water looks calm enough to sell itself.",
+        "the_tell": "Lucent Water™, Hexmart resale: genuine river-fresh water can be restorative; bottled stock may be pretty water with markup.",
+        "what_it_is": "Healing water when fresh, branded uncertainty when resold.",
+        "the_hook": "A useful thing turned into a price tag.",
+        "wiki_link": "pages/entities/lucent-water.html"
+      },
+      "block2": {
+        "maker": "Hexmart resale label",
+        "made_or_wild": "corporate-made",
+        "ad_copy": "HEXMART LUCENT WATER: Now With Glow. Glow Is a Feature, Not a Concern. May heal. May simply be very pretty water.",
+        "corporate_propaganda": "",
+        "unreliability": "Real at the source; unreliable after packaging and markup.",
+        "comedy_beat": "Hexmart turns wild water into a product by adding doubt."
+      },
+      "block3": {
+        "mechanics": "Minor healing or restorative at GM discretion when genuine and fresh; bottled stock may be flavor only.",
+        "narrative_function": "",
+        "stat_block": {
+          "stat_block_type": "item",
+          "canon_status": "#adaptation",
+          "mechanical_grammar": "Daggerheart item grammar: consumable; one use unless the effect says otherwise, then mark it spent or unavailable until the stated rest.",
+          "table_effect": "Minor healing or restorative at GM discretion when genuine and fresh; bottled stock may be flavor only.",
+          "player_benefit": "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned.",
+          "roleplay_benefit": "Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does.",
+          "activation": "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction.",
+          "limits": "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus.",
+          "earn_gate": {
+            "roleplay": "Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling.",
+            "Knowledge": "DC 12-15 to identify maker, provenance, safe use, warranty lie, or rule effect.",
+            "Instinct": "DC 12-15 to sense danger, residue, freshness, wrongness, or practical use.",
+            "Finesse": "DC 12-15 to handle, open, apply, repair, harvest, or retrieve it without damage or attention.",
+            "Presence": "DC 12-15 to bargain, persuade, comfort, or socially earn access to it."
+          },
+          "outcome_spectrum": {
+            "critical_success": "Earn the item or full truth, gain Hope, clear 1 Stress, and add one clean extra: bonus clue, safer use, better condition, or no social cost.",
+            "success_with_hope": "Earn the item or truth cleanly and gain Hope.",
+            "success_with_fear": "Earn it, but the GM gains Fear and adds a cost: attention, debt, damaged packaging, limited charge, social suspicion, or delayed consequence.",
+            "failure_with_hope": "Do not earn the full benefit yet, but gain Hope and a partial thread, safer next method, or a different small clue.",
+            "failure_with_fear": "The attempt goes badly; GM gains Fear and the item is damaged, noticed, withheld, misread, or tied to a stronger complication.",
+            "plain_low_roll": "Give a plausible but incomplete read; never use a low roll to erase a mandatory clue without providing another path."
+          }
+        }
+      },
+      "block4": {
+        "source_npc": [],
+        "source_location": [
+          "Lucent River",
+          "The Claravale Market",
+          "Hexmart"
+        ],
+        "loot_group": "Corporate Sundries",
+        "eligibility": "Purchase, trade, or fill at the Lucent River.",
+        "surface_ids": [
+          "MAP-LOC-the-lucent-river",
+          "MAP-LOC-the-claravale-market",
+          "S03-02"
+        ]
+      },
+      "block5": {
+        "disclosure": [
+          {
+            "layer": "Layer 1 - look",
+            "content": "Glowing blue water in a corked bottle."
+          },
+          {
+            "layer": "Layer 2 - hint",
+            "content": "The label treats the glow as the whole feature."
+          },
+          {
+            "layer": "Layer 3 - truth",
+            "content": "Fresh river water can restore; packaged bottles are suspect."
+          }
+        ],
+        "earn_it_hooks": [
+          "Compare river-fresh water to bottled stock.",
+          "Ask a Hush local.",
+          "Use it during a rest."
+        ],
+        "progressive_reveal": "Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll."
+      },
+      "block6": {
+        "image_prompt": "A corked bottle of glowing moonlit-blue water with a gaudy Hexmart label proclaiming Glow Is a Feature, bright product-illustration style.",
+        "image_role": "item wiki card and earned side-card visual",
+        "show_to_players": "Use the Run Mode item card's Show image button when the table sees or earns this item.",
+        "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/lucent-water/profile_base.png",
+        "runtime_path": "assets/item-images/lucent-water/profile_base.webp",
+        "style_anchor": "Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark."
+      },
+      "visual_assets": {
+        "profile_image": {
+          "key": "profile_base",
+          "label": "Item profile image",
+          "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/lucent-water/profile_base.png",
+          "runtime_path": "assets/item-images/lucent-water/profile_base.webp",
+          "status": "ready",
+          "alt": "Lucent Water™ item illustration.",
+          "player_caption": "A corked bottle glows moonlit blue from inside, even in daylight, even in your pack. The water looks calm enough to sell itself."
+        }
+      }
+    }
+  },
+  {
+    "id": "recall-stone",
+    "name": "Recall Stone",
+    "kind": "utility",
+    "maker": "old craft",
+    "loot_group": "Sablewood Wild Finds",
+    "priority": "P2",
+    "profile": {
+      "schema_version": "item-profile-v1",
+      "id": "recall-stone",
+      "item_id": "recall-stone",
+      "item_name": "Recall Stone",
+      "name": "Recall Stone",
+      "aliases": [
+        "return stone",
+        "warm pebble"
+      ],
+      "pronunciation": "rih-KAWL STOHN",
+      "item_kind": "utility",
+      "tier": "Tier 1",
+      "priority": "P2",
+      "mode": "PROP",
+      "maker": "old craft",
+      "made_or_wild": "wild/folk",
+      "auto_surface": true,
+      "discovered_from_art": false,
+      "atlas_lore_note": "",
+      "player_safe": {
+        "name": "Recall Stone",
+        "one_line": "A smooth grey pebble feels warm and ordinary until it refuses to stay where you put it. Set it down, look away, and it waits back in your palm.",
+        "first_impression": "A smooth grey pebble feels warm and ordinary until it refuses to stay where you put it. Set it down, look away, and it waits back in your palm.",
+        "maker": "old craft",
+        "satire_line": "GOLDWATER RECALL ASSURANCE: Why carry an unregistered stone when you could lease ours, with quarterly recall fees and a Recall Recall Clause?"
+      },
+      "block0": {
+        "item_id": "recall-stone",
+        "item_name": "Recall Stone",
+        "aliases": [
+          "return stone",
+          "warm pebble"
+        ],
+        "pronunciation": "rih-KAWL STOHN",
+        "item_kind": "utility",
+        "tier": "Tier 1"
+      },
+      "block1": {
+        "first_impression": "A smooth grey pebble feels warm and ordinary until it refuses to stay where you put it. Set it down, look away, and it waits back in your palm.",
+        "the_tell": "Recall Stone: place it anywhere, set a trigger, and it teleports back to your hand when the trigger happens.",
+        "what_it_is": "An old utility charm with a trigger-bound return.",
+        "the_hook": "A trap trigger, warning pebble, panic button, or clever table toy.",
+        "wiki_link": "pages/entities/recall-stone.html"
+      },
+      "block2": {
+        "maker": "old craft",
+        "made_or_wild": "wild/folk",
+        "ad_copy": "",
+        "corporate_propaganda": "GOLDWATER RECALL ASSURANCE: Why carry an unregistered stone when you could lease ours, with quarterly recall fees and a Recall Recall Clause?",
+        "unreliability": "",
+        "comedy_beat": "Goldwater's leased version recalls to Goldwater if you miss a payment."
+      },
+      "block3": {
+        "mechanics": "Set a trigger: proximity, damage in very close range, elapsed time, or spoken keyword. On trigger it teleports to the owner's hand.",
+        "narrative_function": "",
+        "stat_block": {
+          "stat_block_type": "item",
+          "canon_status": "#module",
+          "mechanical_grammar": "Daggerheart item grammar: weapon or offensive consumable; use the listed trait/range/damage/effect exactly as written here.",
+          "table_effect": "Set a trigger: proximity, damage in very close range, elapsed time, or spoken keyword. On trigger it teleports to the owner's hand.",
+          "player_benefit": "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned.",
+          "roleplay_benefit": "Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does.",
+          "activation": "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction.",
+          "limits": "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus.",
+          "earn_gate": {
+            "roleplay": "Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling.",
+            "Knowledge": "DC 12-15 to identify maker, provenance, safe use, warranty lie, or rule effect.",
+            "Instinct": "DC 12-15 to sense danger, residue, freshness, wrongness, or practical use.",
+            "Finesse": "DC 12-15 to handle, open, apply, repair, harvest, or retrieve it without damage or attention.",
+            "Presence": "DC 12-15 to bargain, persuade, comfort, or socially earn access to it."
+          },
+          "outcome_spectrum": {
+            "critical_success": "Earn the item or full truth, gain Hope, clear 1 Stress, and add one clean extra: bonus clue, safer use, better condition, or no social cost.",
+            "success_with_hope": "Earn the item or truth cleanly and gain Hope.",
+            "success_with_fear": "Earn it, but the GM gains Fear and adds a cost: attention, debt, damaged packaging, limited charge, social suspicion, or delayed consequence.",
+            "failure_with_hope": "Do not earn the full benefit yet, but gain Hope and a partial thread, safer next method, or a different small clue.",
+            "failure_with_fear": "The attempt goes badly; GM gains Fear and the item is damaged, noticed, withheld, misread, or tied to a stronger complication.",
+            "plain_low_roll": "Give a plausible but incomplete read; never use a low roll to erase a mandatory clue without providing another path."
+          }
+        }
+      },
+      "block4": {
+        "source_npc": [],
+        "source_location": [
+          "SablewoodTM Logistics Preserve",
+          "The Claravale Market"
+        ],
+        "loot_group": "Sablewood Wild Finds",
+        "eligibility": "Find, purchase, trade, or receive as a reward.",
+        "surface_ids": [
+          "S01-02",
+          "MAP-LOC-the-claravale-market",
+          "MAP-LOC-old-sable"
+        ]
+      },
+      "block5": {
+        "disclosure": [
+          {
+            "layer": "Layer 1 - look",
+            "content": "A pebble that will not stay put."
+          },
+          {
+            "layer": "Layer 2 - hint",
+            "content": "It returns under conditions."
+          },
+          {
+            "layer": "Layer 3 - truth",
+            "content": "The trigger list is proximity, nearby damage, time, or keyword."
+          }
+        ],
+        "earn_it_hooks": [
+          "Experiment with it.",
+          "A merchant explains the trigger list.",
+          "Use it during a tense scene."
+        ],
+        "progressive_reveal": "Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll."
+      },
+      "block6": {
+        "image_prompt": "A smooth warm grey pebble with a faint return-motion glow trail, unbranded original beside one tiny gaudy leased knockoff for contrast.",
+        "image_role": "item wiki card and earned side-card visual",
+        "show_to_players": "Use the Run Mode item card's Show image button when the table sees or earns this item.",
+        "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/recall-stone/profile_base.png",
+        "runtime_path": "assets/item-images/recall-stone/profile_base.webp",
+        "style_anchor": "Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark."
+      },
+      "visual_assets": {
+        "profile_image": {
+          "key": "profile_base",
+          "label": "Item profile image",
+          "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/recall-stone/profile_base.png",
+          "runtime_path": "assets/item-images/recall-stone/profile_base.webp",
+          "status": "ready",
+          "alt": "Recall Stone item illustration.",
+          "player_caption": "A smooth grey pebble feels warm and ordinary until it refuses to stay where you put it. Set it down, look away, and it waits back in your palm."
+        }
+      }
+    }
+  },
+  {
+    "id": "restorative-ash",
+    "name": "Restorative Ash™",
+    "kind": "consumable",
+    "maker": "Fire Solutions",
+    "loot_group": "Corporate Sundries",
+    "priority": "P2",
+    "profile": {
+      "schema_version": "item-profile-v1",
+      "id": "restorative-ash",
+      "item_id": "restorative-ash",
+      "item_name": "Restorative Ash™",
+      "name": "Restorative Ash™",
+      "aliases": [
+        "Restorative Ash",
+        "ash tin",
+        "Fire Solutions ash"
+      ],
+      "pronunciation": "rih-STOR-uh-tiv ASH",
+      "item_kind": "consumable",
+      "tier": "Tier 1",
+      "priority": "P2",
+      "mode": "AD",
+      "maker": "Fire Solutions",
+      "made_or_wild": "corporate-made",
+      "auto_surface": true,
+      "discovered_from_art": false,
+      "atlas_lore_note": "",
+      "player_safe": {
+        "name": "Restorative Ash™",
+        "one_line": "A little painted tin holds fine black ash and a folded promise as long as your arm. It smells of old smoke and expensive confidence.",
+        "first_impression": "A little painted tin holds fine black ash and a folded promise as long as your arm. It smells of old smoke and expensive confidence.",
+        "maker": "Fire Solutions",
+        "satire_line": "FIRE SOLUTIONS RESTORATIVE ASH: Cures What Ails You. Ailments not specified. Results not guaranteed. Ash not returnable."
+      },
+      "block0": {
+        "item_id": "restorative-ash",
+        "item_name": "Restorative Ash™",
+        "aliases": [
+          "Restorative Ash",
+          "ash tin",
+          "Fire Solutions ash"
+        ],
+        "pronunciation": "rih-STOR-uh-tiv ASH",
+        "item_kind": "consumable",
+        "tier": "Tier 1"
+      },
+      "block1": {
+        "first_impression": "A little painted tin holds fine black ash and a folded promise as long as your arm. It smells of old smoke and expensive confidence.",
+        "the_tell": "Restorative Ash™, Fire Solutions: sold as a cure-all; alone, it does nothing mechanical.",
+        "what_it_is": "A placebo product made from burned sablewood byproduct.",
+        "the_hook": "A perfect scam object for showing how the forest gets monetized.",
+        "wiki_link": "pages/entities/restorative-ash.html"
+      },
+      "block2": {
+        "maker": "Fire Solutions",
+        "made_or_wild": "corporate-made",
+        "ad_copy": "FIRE SOLUTIONS RESTORATIVE ASH: Cures What Ails You. Ailments not specified. Results not guaranteed. Ash not returnable.",
+        "corporate_propaganda": "",
+        "unreliability": "It is pure placebo unless an alchemist needs a reagent.",
+        "comedy_beat": "The promise is longer than the product is useful."
+      },
+      "block3": {
+        "mechanics": "No default mechanical effect. Flavor/scam; an alchemist might use it as a reagent at GM discretion.",
+        "narrative_function": "",
+        "stat_block": {
+          "stat_block_type": "item",
+          "canon_status": "#adaptation",
+          "mechanical_grammar": "Daggerheart item grammar: consumable; one use unless the effect says otherwise, then mark it spent or unavailable until the stated rest.",
+          "table_effect": "No default mechanical effect. Flavor/scam; an alchemist might use it as a reagent at GM discretion.",
+          "player_benefit": "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned.",
+          "roleplay_benefit": "Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does.",
+          "activation": "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction.",
+          "limits": "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus.",
+          "earn_gate": {
+            "roleplay": "Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling.",
+            "Knowledge": "DC 12-15 to identify maker, provenance, safe use, warranty lie, or rule effect.",
+            "Instinct": "DC 12-15 to sense danger, residue, freshness, wrongness, or practical use.",
+            "Finesse": "DC 12-15 to handle, open, apply, repair, harvest, or retrieve it without damage or attention.",
+            "Presence": "DC 12-15 to bargain, persuade, comfort, or socially earn access to it."
+          },
+          "outcome_spectrum": {
+            "critical_success": "Earn the item or full truth, gain Hope, clear 1 Stress, and add one clean extra: bonus clue, safer use, better condition, or no social cost.",
+            "success_with_hope": "Earn the item or truth cleanly and gain Hope.",
+            "success_with_fear": "Earn it, but the GM gains Fear and adds a cost: attention, debt, damaged packaging, limited charge, social suspicion, or delayed consequence.",
+            "failure_with_hope": "Do not earn the full benefit yet, but gain Hope and a partial thread, safer next method, or a different small clue.",
+            "failure_with_fear": "The attempt goes badly; GM gains Fear and the item is damaged, noticed, withheld, misread, or tied to a stronger complication.",
+            "plain_low_roll": "Give a plausible but incomplete read; never use a low roll to erase a mandatory clue without providing another path."
+          }
+        }
+      },
+      "block4": {
+        "source_npc": [],
+        "source_location": [
+          "The Refuge",
+          "The Ash Quarry"
+        ],
+        "loot_group": "Corporate Sundries",
+        "eligibility": "Purchase, find in Refuge stores, or receive as a dubious gift.",
+        "surface_ids": [
+          "MAP-LOC-the-refuge",
+          "MAP-LOC-the-ash-quarry"
+        ]
+      },
+      "block5": {
+        "disclosure": [
+          {
+            "layer": "Layer 1 - look",
+            "content": "A tin of black ash with a loud promise."
+          },
+          {
+            "layer": "Layer 2 - hint",
+            "content": "The claims are too broad."
+          },
+          {
+            "layer": "Layer 3 - truth",
+            "content": "No default mechanical benefit alone."
+          }
+        ],
+        "earn_it_hooks": [
+          "Read the label.",
+          "Ask a forest local.",
+          "Try it and learn the comedy."
+        ],
+        "progressive_reveal": "Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll."
+      },
+      "block6": {
+        "image_prompt": "A little painted tin of black ash with an arm-long printed promise and Fire Solutions sunburst logo, cheerful bright packaging.",
+        "image_role": "item wiki card and earned side-card visual",
+        "show_to_players": "Use the Run Mode item card's Show image button when the table sees or earns this item.",
+        "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/restorative-ash/profile_base.png",
+        "runtime_path": "assets/item-images/restorative-ash/profile_base.webp",
+        "style_anchor": "Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark."
+      },
+      "visual_assets": {
+        "profile_image": {
+          "key": "profile_base",
+          "label": "Item profile image",
+          "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/restorative-ash/profile_base.png",
+          "runtime_path": "assets/item-images/restorative-ash/profile_base.webp",
+          "status": "ready",
+          "alt": "Restorative Ash™ item illustration.",
+          "player_caption": "A little painted tin holds fine black ash and a folded promise as long as your arm. It smells of old smoke and expensive confidence."
+        }
+      }
+    }
+  },
+  {
+    "id": "sable-sap",
+    "name": "Sable Sap",
+    "kind": "consumable",
+    "maker": "the sablewood trees",
+    "loot_group": "Hush Hospitality",
+    "priority": "P2",
+    "profile": {
+      "schema_version": "item-profile-v1",
+      "id": "sable-sap",
+      "item_id": "sable-sap",
+      "item_name": "Sable Sap",
+      "name": "Sable Sap",
+      "aliases": [
+        "tree sap",
+        "amber sap"
+      ],
+      "pronunciation": "SAY-bul SAP",
+      "item_kind": "consumable",
+      "tier": "Tier 1",
+      "priority": "P2",
+      "mode": "PROP",
+      "maker": "the sablewood trees",
+      "made_or_wild": "wild/folk",
+      "auto_surface": true,
+      "discovered_from_art": false,
+      "atlas_lore_note": "",
+      "player_safe": {
+        "name": "Sable Sap",
+        "one_line": "Warm amber sap beads from a crack in a huge trunk like the tree is breathing it out. It smells of honey, woodsmoke, and something older.",
+        "first_impression": "Warm amber sap beads from a crack in a huge trunk like the tree is breathing it out. It smells of honey, woodsmoke, and something older.",
+        "maker": "the sablewood trees",
+        "satire_line": "HEXMART HEALTH NOTICE: Raw Sable Sap is unprocessed tree excretion. Try Hexmart Sap-Flavored Relaxation Syrup, contains no sap."
+      },
+      "block0": {
+        "item_id": "sable-sap",
+        "item_name": "Sable Sap",
+        "aliases": [
+          "tree sap",
+          "amber sap"
+        ],
+        "pronunciation": "SAY-bul SAP",
+        "item_kind": "consumable",
+        "tier": "Tier 1"
+      },
+      "block1": {
+        "first_impression": "Warm amber sap beads from a crack in a huge trunk like the tree is breathing it out. It smells of honey, woodsmoke, and something older.",
+        "the_tell": "Sable Sap: in a calm moment, once per long rest, consume it to clear 2 Stress.",
+        "what_it_is": "The forest's own comfort.",
+        "the_hook": "A free moment of peace in a world that bills people for relief.",
+        "wiki_link": "pages/entities/sable-sap.html"
+      },
+      "block2": {
+        "maker": "the sablewood trees",
+        "made_or_wild": "wild/folk",
+        "ad_copy": "",
+        "corporate_propaganda": "HEXMART HEALTH NOTICE: Raw Sable Sap is unprocessed tree excretion. Try Hexmart Sap-Flavored Relaxation Syrup, contains no sap.",
+        "unreliability": "",
+        "comedy_beat": "Hexmart's substitute contains everything except sap."
+      },
+      "block3": {
+        "mechanics": "Consumable. Once per long rest, in a calm moment, clear 2 Stress.",
+        "narrative_function": "",
+        "stat_block": {
+          "stat_block_type": "item",
+          "canon_status": "#module",
+          "mechanical_grammar": "Daggerheart item grammar: consumable; one use unless the effect says otherwise, then mark it spent or unavailable until the stated rest.",
+          "table_effect": "Consumable. Once per long rest, in a calm moment, clear 2 Stress.",
+          "player_benefit": "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned.",
+          "roleplay_benefit": "Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does.",
+          "activation": "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction.",
+          "limits": "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus.",
+          "earn_gate": {
+            "roleplay": "Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling.",
+            "Knowledge": "DC 12-15 to identify maker, provenance, safe use, warranty lie, or rule effect.",
+            "Instinct": "DC 12-15 to sense danger, residue, freshness, wrongness, or practical use.",
+            "Finesse": "DC 12-15 to handle, open, apply, repair, harvest, or retrieve it without damage or attention.",
+            "Presence": "DC 12-15 to bargain, persuade, comfort, or socially earn access to it."
+          },
+          "outcome_spectrum": {
+            "critical_success": "Earn the item or full truth, gain Hope, clear 1 Stress, and add one clean extra: bonus clue, safer use, better condition, or no social cost.",
+            "success_with_hope": "Earn the item or truth cleanly and gain Hope.",
+            "success_with_fear": "Earn it, but the GM gains Fear and adds a cost: attention, debt, damaged packaging, limited charge, social suspicion, or delayed consequence.",
+            "failure_with_hope": "Do not earn the full benefit yet, but gain Hope and a partial thread, safer next method, or a different small clue.",
+            "failure_with_fear": "The attempt goes badly; GM gains Fear and the item is damaged, noticed, withheld, misread, or tied to a stronger complication.",
+            "plain_low_roll": "Give a plausible but incomplete read; never use a low roll to erase a mandatory clue without providing another path."
+          }
+        }
+      },
+      "block4": {
+        "source_npc": [],
+        "source_location": [
+          "SablewoodTM Logistics Preserve",
+          "Hush",
+          "Underroot"
+        ],
+        "loot_group": "Hush Hospitality",
+        "eligibility": "Forage, gift, or trade.",
+        "surface_ids": [
+          "S03-01",
+          "S03-03",
+          "MAP-LOC-sablewoodtm-logistics-preserve",
+          "MAP-LOC-hush"
+        ]
+      },
+      "block5": {
+        "disclosure": [
+          {
+            "layer": "Layer 1 - look",
+            "content": "Warm honey-sap from a living trunk."
+          },
+          {
+            "layer": "Layer 2 - hint",
+            "content": "It steadies the body."
+          },
+          {
+            "layer": "Layer 3 - truth",
+            "content": "It clears 2 Stress in a calm moment once per long rest."
+          }
+        ],
+        "earn_it_hooks": [
+          "Taste it at rest.",
+          "A forest local shares it.",
+          "Use it after a stressful scene."
+        ],
+        "progressive_reveal": "Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll."
+      },
+      "block6": {
+        "image_prompt": "Warm amber sap beading from a cracked giant tree trunk, golden glow, carved wooden spoon, bright cozy light, no branding.",
+        "image_role": "item wiki card and earned side-card visual",
+        "show_to_players": "Use the Run Mode item card's Show image button when the table sees or earns this item.",
+        "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/sable-sap/profile_base.png",
+        "runtime_path": "assets/item-images/sable-sap/profile_base.webp",
+        "style_anchor": "Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark."
+      },
+      "visual_assets": {
+        "profile_image": {
+          "key": "profile_base",
+          "label": "Item profile image",
+          "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/sable-sap/profile_base.png",
+          "runtime_path": "assets/item-images/sable-sap/profile_base.webp",
+          "status": "ready",
+          "alt": "Sable Sap item illustration.",
+          "player_caption": "Warm amber sap beads from a crack in a huge trunk like the tree is breathing it out. It smells of honey, woodsmoke, and something older."
+        }
+      }
+    }
+  },
+  {
+    "id": "sableblade",
+    "name": "Sableblade",
+    "kind": "weapon",
+    "maker": "wild / pre-incorporation",
+    "loot_group": "Sablewood Wild Finds",
+    "priority": "P2",
+    "profile": {
+      "schema_version": "item-profile-v1",
+      "id": "sableblade",
+      "item_id": "sableblade",
+      "item_name": "Sableblade",
+      "name": "Sableblade",
+      "aliases": [
+        "wild-grown sword",
+        "old forest blade"
+      ],
+      "pronunciation": "SAY-bul-blayd",
+      "item_kind": "weapon",
+      "tier": "Tier 1",
+      "priority": "P2",
+      "mode": "PROP",
+      "maker": "wild / pre-incorporation",
+      "made_or_wild": "wild/folk",
+      "auto_surface": true,
+      "discovered_from_art": false,
+      "atlas_lore_note": "",
+      "player_safe": {
+        "name": "Sableblade",
+        "one_line": "Growing straight up out of dark forest soil, like a sapling that decided to be a sword, is a blade of living dark wood and pale metal. It has no maker's mark and hums when your hand nears the hilt.",
+        "first_impression": "Growing straight up out of dark forest soil, like a sapling that decided to be a sword, is a blade of living dark wood and pale metal. It has no maker's mark and hums when your hand nears the hilt.",
+        "maker": "wild / pre-incorporation",
+        "satire_line": "GOLDSPIRE SAFETY ADVISORY: Wild-grown armaments are uncertified, uninsured, and possibly unionized. Approved blades are available at any authorized vendor."
+      },
+      "block0": {
+        "item_id": "sableblade",
+        "item_name": "Sableblade",
+        "aliases": [
+          "wild-grown sword",
+          "old forest blade"
+        ],
+        "pronunciation": "SAY-bul-blayd",
+        "item_kind": "weapon",
+        "tier": "Tier 1"
+      },
+      "block1": {
+        "first_impression": "Growing straight up out of dark forest soil, like a sapling that decided to be a sword, is a blade of living dark wood and pale metal. It has no maker's mark and hums when your hand nears the hilt.",
+        "the_tell": "Sableblade: an ancient Sablewood weapon. Agility melee, one-handed, d10+1 physical; mark Stress before damage to add +3 damage.",
+        "what_it_is": "A real old-forest weapon from before the brands.",
+        "the_hook": "No serial number, no coverage, all power.",
+        "wiki_link": "pages/entities/sableblade.html"
+      },
+      "block2": {
+        "maker": "wild / pre-incorporation",
+        "made_or_wild": "wild/folk",
+        "ad_copy": "",
+        "corporate_propaganda": "GOLDSPIRE SAFETY ADVISORY: Wild-grown armaments are uncertified, uninsured, and possibly unionized. Approved blades are available at any authorized vendor.",
+        "unreliability": "",
+        "comedy_beat": "The official complaint is that nobody owns it."
+      },
+      "block3": {
+        "mechanics": "Tier 1 primary weapon. Agility melee, one-handed, d10+1 physical. Ancient Power: mark Stress before a damage roll to add +3 damage.",
+        "narrative_function": "",
+        "stat_block": {
+          "stat_block_type": "item",
+          "canon_status": "#module",
+          "mechanical_grammar": "Daggerheart item grammar: weapon or offensive consumable; use the listed trait/range/damage/effect exactly as written here.",
+          "table_effect": "Tier 1 primary weapon. Agility melee, one-handed, d10+1 physical. Ancient Power: mark Stress before a damage roll to add +3 damage.",
+          "player_benefit": "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned.",
+          "roleplay_benefit": "Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does.",
+          "activation": "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction.",
+          "limits": "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus.",
+          "earn_gate": {
+            "roleplay": "Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling.",
+            "Knowledge": "DC 12-15 to identify maker, provenance, safe use, warranty lie, or rule effect.",
+            "Instinct": "DC 12-15 to sense danger, residue, freshness, wrongness, or practical use.",
+            "Finesse": "DC 12-15 to handle, open, apply, repair, harvest, or retrieve it without damage or attention.",
+            "Presence": "DC 12-15 to bargain, persuade, comfort, or socially earn access to it."
+          },
+          "outcome_spectrum": {
+            "critical_success": "Earn the item or full truth, gain Hope, clear 1 Stress, and add one clean extra: bonus clue, safer use, better condition, or no social cost.",
+            "success_with_hope": "Earn the item or truth cleanly and gain Hope.",
+            "success_with_fear": "Earn it, but the GM gains Fear and adds a cost: attention, debt, damaged packaging, limited charge, social suspicion, or delayed consequence.",
+            "failure_with_hope": "Do not earn the full benefit yet, but gain Hope and a partial thread, safer next method, or a different small clue.",
+            "failure_with_fear": "The attempt goes badly; GM gains Fear and the item is damaged, noticed, withheld, misread, or tied to a stronger complication.",
+            "plain_low_roll": "Give a plausible but incomplete read; never use a low roll to erase a mandatory clue without providing another path."
+          }
+        }
+      },
+      "block4": {
+        "source_npc": [],
+        "source_location": [
+          "Old Sable",
+          "SablewoodTM Logistics Preserve"
+        ],
+        "loot_group": "Sablewood Wild Finds",
+        "eligibility": "Rare seasonal find in deep Sablewood.",
+        "surface_ids": [
+          "MAP-LOC-old-sable",
+          "MAP-LOC-old-sable-canopy-road",
+          "S01-02"
+        ]
+      },
+      "block5": {
+        "disclosure": [
+          {
+            "layer": "Layer 1 - look",
+            "content": "A sword growing from the dirt."
+          },
+          {
+            "layer": "Layer 2 - hint",
+            "content": "It hums and lacks a maker's mark."
+          },
+          {
+            "layer": "Layer 3 - truth",
+            "content": "Its Ancient Power spends Stress for +3 damage."
+          }
+        ],
+        "earn_it_hooks": [
+          "Wield it.",
+          "Knowledge 14 reads its age.",
+          "A local elder names old-forest craft."
+        ],
+        "progressive_reveal": "Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll."
+      },
+      "block6": {
+        "image_prompt": "A living dark-wood and pale-metal sword growing from bright forest soil, faint glow, dappled sunlight, no branding.",
+        "image_role": "item wiki card and earned side-card visual",
+        "show_to_players": "Use the Run Mode item card's Show image button when the table sees or earns this item.",
+        "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/sableblade/profile_base.png",
+        "runtime_path": "assets/item-images/sableblade/profile_base.webp",
+        "style_anchor": "Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark."
+      },
+      "visual_assets": {
+        "profile_image": {
+          "key": "profile_base",
+          "label": "Item profile image",
+          "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/sableblade/profile_base.png",
+          "runtime_path": "assets/item-images/sableblade/profile_base.webp",
+          "status": "ready",
+          "alt": "Sableblade item illustration.",
+          "player_caption": "Growing straight up out of dark forest soil, like a sapling that decided to be a sword, is a blade of living dark wood and pale metal. It has no maker's mark and hums when your hand nears the hilt."
+        }
+      }
+    }
+  },
+  {
+    "id": "sableleaf-shoes",
+    "name": "Sableleaf Shoes",
+    "kind": "trinket",
+    "maker": "Sablewood folk crafters",
+    "loot_group": "Hush Hospitality",
+    "priority": "P2",
+    "profile": {
+      "schema_version": "item-profile-v1",
+      "id": "sableleaf-shoes",
+      "item_id": "sableleaf-shoes",
+      "item_name": "Sableleaf Shoes",
+      "name": "Sableleaf Shoes",
+      "aliases": [
+        "leaf shoes",
+        "forest shoes"
+      ],
+      "pronunciation": "SAY-bul-leef SHOOZ",
+      "item_kind": "trinket",
+      "tier": "Tier 1",
+      "priority": "P2",
+      "mode": "PROP",
+      "maker": "Sablewood folk crafters",
+      "made_or_wild": "wild/folk",
+      "auto_surface": true,
+      "discovered_from_art": false,
+      "atlas_lore_note": "",
+      "player_safe": {
+        "name": "Sableleaf Shoes",
+        "one_line": "A pair of shoes sewn entirely from broad sablewood leaves sits light as breath, green-veined, and already leaning toward motion.",
+        "first_impression": "A pair of shoes sewn entirely from broad sablewood leaves sits light as breath, green-veined, and already leaning toward motion.",
+        "maker": "Sablewood folk crafters",
+        "satire_line": "ZEPHRA FOOTWEAR ADVISORY: Leaf-based apparel is not rated, waterproofed, or resoled by any licensed cobbler. Why walk in salad?"
+      },
+      "block0": {
+        "item_id": "sableleaf-shoes",
+        "item_name": "Sableleaf Shoes",
+        "aliases": [
+          "leaf shoes",
+          "forest shoes"
+        ],
+        "pronunciation": "SAY-bul-leef SHOOZ",
+        "item_kind": "trinket",
+        "tier": "Tier 1"
+      },
+      "block1": {
+        "first_impression": "A pair of shoes sewn entirely from broad sablewood leaves sits light as breath, green-veined, and already leaning toward motion.",
+        "the_tell": "Sableleaf Shoes: while in Sablewood, spend Hope to take advantage on an Agility roll.",
+        "what_it_is": "Forest footwear made to move with Sablewood's rhythms.",
+        "the_hook": "The forest works with your feet instead of against them.",
+        "wiki_link": "pages/entities/sableleaf-shoes.html"
+      },
+      "block2": {
+        "maker": "Sablewood folk crafters",
+        "made_or_wild": "wild/folk",
+        "ad_copy": "",
+        "corporate_propaganda": "ZEPHRA FOOTWEAR ADVISORY: Leaf-based apparel is not rated, waterproofed, or resoled by any licensed cobbler. Why walk in salad?",
+        "unreliability": "",
+        "comedy_beat": "Zephra's best argument is calling magic shoes salad."
+      },
+      "block3": {
+        "mechanics": "While in Sablewood, spend Hope to gain advantage on an Agility roll.",
+        "narrative_function": "",
+        "stat_block": {
+          "stat_block_type": "item",
+          "canon_status": "#module",
+          "mechanical_grammar": "Story-item grammar: use this as access, leverage, texture, or roleplay benefit; add a mechanical bonus only if the listed effect grants one.",
+          "table_effect": "While in Sablewood, spend Hope to gain advantage on an Agility roll.",
+          "player_benefit": "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned.",
+          "roleplay_benefit": "Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does.",
+          "activation": "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction.",
+          "limits": "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus.",
+          "earn_gate": {
+            "roleplay": "Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling.",
+            "Knowledge": "DC 12-15 to identify maker, provenance, safe use, warranty lie, or rule effect.",
+            "Instinct": "DC 12-15 to sense danger, residue, freshness, wrongness, or practical use.",
+            "Finesse": "DC 12-15 to handle, open, apply, repair, harvest, or retrieve it without damage or attention.",
+            "Presence": "DC 12-15 to bargain, persuade, comfort, or socially earn access to it."
+          },
+          "outcome_spectrum": {
+            "critical_success": "Earn the item or full truth, gain Hope, clear 1 Stress, and add one clean extra: bonus clue, safer use, better condition, or no social cost.",
+            "success_with_hope": "Earn the item or truth cleanly and gain Hope.",
+            "success_with_fear": "Earn it, but the GM gains Fear and adds a cost: attention, debt, damaged packaging, limited charge, social suspicion, or delayed consequence.",
+            "failure_with_hope": "Do not earn the full benefit yet, but gain Hope and a partial thread, safer next method, or a different small clue.",
+            "failure_with_fear": "The attempt goes badly; GM gains Fear and the item is damaged, noticed, withheld, misread, or tied to a stronger complication.",
+            "plain_low_roll": "Give a plausible but incomplete read; never use a low roll to erase a mandatory clue without providing another path."
+          }
+        }
+      },
+      "block4": {
+        "source_npc": [],
+        "source_location": [
+          "Hush",
+          "Underroot"
+        ],
+        "loot_group": "Hush Hospitality",
+        "eligibility": "Gift, trade, or crafted local hospitality.",
+        "surface_ids": [
+          "S03-01",
+          "S03-03",
+          "MAP-LOC-hush",
+          "MAP-LOC-underroot"
+        ]
+      },
+      "block5": {
+        "disclosure": [
+          {
+            "layer": "Layer 1 - look",
+            "content": "Leaf-sewn shoes that want to move."
+          },
+          {
+            "layer": "Layer 2 - hint",
+            "content": "They are nimble in the wood."
+          },
+          {
+            "layer": "Layer 3 - truth",
+            "content": "Spend Hope for advantage on Agility in Sablewood."
+          }
+        ],
+        "earn_it_hooks": [
+          "Wear them on the trail.",
+          "A Hush elder explains the leaf-stitching.",
+          "Use them on an Agility roll."
+        ],
+        "progressive_reveal": "Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll."
+      },
+      "block6": {
+        "image_prompt": "Delicate shoes sewn from green sablewood leaves, light and lively, unbranded, bright forest light.",
+        "image_role": "item wiki card and earned side-card visual",
+        "show_to_players": "Use the Run Mode item card's Show image button when the table sees or earns this item.",
+        "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/sableleaf-shoes/profile_base.png",
+        "runtime_path": "assets/item-images/sableleaf-shoes/profile_base.webp",
+        "style_anchor": "Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark."
+      },
+      "visual_assets": {
+        "profile_image": {
+          "key": "profile_base",
+          "label": "Item profile image",
+          "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/sableleaf-shoes/profile_base.png",
+          "runtime_path": "assets/item-images/sableleaf-shoes/profile_base.webp",
+          "status": "ready",
+          "alt": "Sableleaf Shoes item illustration.",
+          "player_caption": "A pair of shoes sewn entirely from broad sablewood leaves sits light as breath, green-veined, and already leaning toward motion."
+        }
+      }
+    }
+  },
+  {
+    "id": "spirekeeper-relay-keyring",
+    "name": "Spirekeeper Relay Keyring",
+    "kind": "utility",
+    "maker": "Relay keepers",
+    "loot_group": "Relay Keeper Effects",
+    "priority": "P2",
+    "profile": {
+      "schema_version": "item-profile-v1",
+      "id": "spirekeeper-relay-keyring",
+      "item_id": "spirekeeper-relay-keyring",
+      "item_name": "Spirekeeper Relay Keyring",
+      "name": "Spirekeeper Relay Keyring",
+      "aliases": [
+        "relay keyring",
+        "signal keys"
+      ],
+      "pronunciation": "SPYR-kee-per RAY-lay KEE-ring",
+      "item_kind": "utility",
+      "tier": "Tier 1",
+      "priority": "P2",
+      "mode": "PROP",
+      "maker": "Relay keepers",
+      "made_or_wild": "competing",
+      "auto_surface": true,
+      "discovered_from_art": true,
+      "atlas_lore_note": "[Atlas lore - confirm or override]",
+      "player_safe": {
+        "name": "Spirekeeper Relay Keyring",
+        "one_line": "A heavy ring of mismatched brass keys and blue-glass tags chimes with a sound like distant bells heard through rain.",
+        "first_impression": "A heavy ring of mismatched brass keys and blue-glass tags chimes with a sound like distant bells heard through rain.",
+        "maker": "Relay keepers",
+        "satire_line": "GOLDSPIRE ACCESS NOTICE: Unauthorized keys are not keys. They are future explanations you owe us."
+      },
+      "block0": {
+        "item_id": "spirekeeper-relay-keyring",
+        "item_name": "Spirekeeper Relay Keyring",
+        "aliases": [
+          "relay keyring",
+          "signal keys"
+        ],
+        "pronunciation": "SPYR-kee-per RAY-lay KEE-ring",
+        "item_kind": "utility",
+        "tier": "Tier 1"
+      },
+      "block1": {
+        "first_impression": "A heavy ring of mismatched brass keys and blue-glass tags chimes with a sound like distant bells heard through rain.",
+        "the_tell": "Spirekeeper Relay Keyring: a keeper's access bundle for old maintenance doors, signal plates, and relay cabinets.",
+        "what_it_is": "A noncombat access tool tied to relay maintenance.",
+        "the_hook": "A quiet key to sequel-space without turning the epilogue into a new fight.",
+        "wiki_link": "pages/entities/spirekeeper-relay-keyring.html"
+      },
+      "block2": {
+        "maker": "Relay keepers",
+        "made_or_wild": "competing",
+        "ad_copy": "",
+        "corporate_propaganda": "GOLDSPIRE ACCESS NOTICE: Unauthorized keys are not keys. They are future explanations you owe us.",
+        "unreliability": "",
+        "comedy_beat": "The key works better than the permission system."
+      },
+      "block3": {
+        "mechanics": "Narrative access. Opens a relay-side door or cabinet when the table has earned the relay hook.",
+        "narrative_function": "",
+        "stat_block": {
+          "stat_block_type": "item",
+          "canon_status": "#module",
+          "mechanical_grammar": "Story-item grammar: use this as access, leverage, texture, or roleplay benefit; add a mechanical bonus only if the listed effect grants one.",
+          "table_effect": "Narrative access. Opens a relay-side door or cabinet when the table has earned the relay hook.",
+          "player_benefit": "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned.",
+          "roleplay_benefit": "Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does.",
+          "activation": "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction.",
+          "limits": "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus.",
+          "earn_gate": {
+            "roleplay": "Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling.",
+            "Knowledge": "DC 12-15 to identify maker, provenance, safe use, warranty lie, or rule effect.",
+            "Instinct": "DC 12-15 to sense danger, residue, freshness, wrongness, or practical use.",
+            "Finesse": "DC 12-15 to handle, open, apply, repair, harvest, or retrieve it without damage or attention.",
+            "Presence": "DC 12-15 to bargain, persuade, comfort, or socially earn access to it."
+          },
+          "outcome_spectrum": {
+            "critical_success": "Earn the item or full truth, gain Hope, clear 1 Stress, and add one clean extra: bonus clue, safer use, better condition, or no social cost.",
+            "success_with_hope": "Earn the item or truth cleanly and gain Hope.",
+            "success_with_fear": "Earn it, but the GM gains Fear and adds a cost: attention, debt, damaged packaging, limited charge, social suspicion, or delayed consequence.",
+            "failure_with_hope": "Do not earn the full benefit yet, but gain Hope and a partial thread, safer next method, or a different small clue.",
+            "failure_with_fear": "The attempt goes badly; GM gains Fear and the item is damaged, noticed, withheld, misread, or tied to a stronger complication.",
+            "plain_low_roll": "Give a plausible but incomplete read; never use a low roll to erase a mandatory clue without providing another path."
+          }
+        }
+      },
+      "block4": {
+        "source_npc": [
+          "Spirekeeper",
+          "The Relay Keeper"
+        ],
+        "source_location": [
+          "Relay Spire",
+          "The Goldspire Relay"
+        ],
+        "loot_group": "Relay Keeper Effects",
+        "eligibility": "Gift, inheritance, or GM-only epilogue hook.",
+        "surface_ids": [
+          "S06-02",
+          "MAP-LOC-relay-spire",
+          "MAP-LOC-the-goldspire-relay"
+        ]
+      },
+      "block5": {
+        "disclosure": [
+          {
+            "layer": "Layer 1 - look",
+            "content": "Keys and blue tags that chime like rain-bells."
+          },
+          {
+            "layer": "Layer 2 - hint",
+            "content": "They fit old relay service locks."
+          },
+          {
+            "layer": "Layer 3 - truth",
+            "content": "They can open a maintenance lane in the epilogue hook."
+          }
+        ],
+        "earn_it_hooks": [
+          "Accept the Relay hook.",
+          "Ask the keeper what still works.",
+          "Use it at a relay cabinet."
+        ],
+        "progressive_reveal": "Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll."
+      },
+      "block6": {
+        "image_prompt": "A heavy brass keyring with mismatched fantasy keys, blue glass signal tags, tiny bell chains, bright gold and blue product-free detail.",
+        "image_role": "item wiki card and earned side-card visual",
+        "show_to_players": "Use the Run Mode item card's Show image button when the table sees or earns this item.",
+        "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/spirekeeper-relay-keyring/profile_base.png",
+        "runtime_path": "assets/item-images/spirekeeper-relay-keyring/profile_base.webp",
+        "style_anchor": "Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark."
+      },
+      "visual_assets": {
+        "profile_image": {
+          "key": "profile_base",
+          "label": "Item profile image",
+          "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/spirekeeper-relay-keyring/profile_base.png",
+          "runtime_path": "assets/item-images/spirekeeper-relay-keyring/profile_base.webp",
+          "status": "ready",
+          "alt": "Spirekeeper Relay Keyring item illustration.",
+          "player_caption": "A heavy ring of mismatched brass keys and blue-glass tags chimes with a sound like distant bells heard through rain."
+        }
+      }
+    }
+  },
+  {
+    "id": "tamsins-home-token",
+    "name": "Tamsin's Home-Token",
+    "kind": "trinket",
+    "maker": "folk-made",
+    "loot_group": "Tamsin's Effects",
+    "priority": "P2",
+    "profile": {
+      "schema_version": "item-profile-v1",
+      "id": "tamsins-home-token",
+      "item_id": "tamsins-home-token",
+      "item_name": "Tamsin's Home-Token",
+      "name": "Tamsin's Home-Token",
+      "aliases": [
+        "home-token",
+        "Tamsin token"
+      ],
+      "pronunciation": "TAM-zinz HOHM TOH-ken",
+      "item_kind": "trinket",
+      "tier": "Tier 1",
+      "priority": "P2",
+      "mode": "PROP",
+      "maker": "folk-made",
+      "made_or_wild": "wild/folk",
+      "auto_surface": true,
+      "discovered_from_art": true,
+      "atlas_lore_note": "[Atlas lore - confirm or override]",
+      "player_safe": {
+        "name": "Tamsin's Home-Token",
+        "one_line": "A small thumb-polished token on a cord hangs beside the torn blue scarf, warm from wear and etched with a tiny house mark instead of a company seal.",
+        "first_impression": "A small thumb-polished token on a cord hangs beside the torn blue scarf, warm from wear and etched with a tiny house mark instead of a company seal.",
+        "maker": "folk-made",
+        "satire_line": "ROUTE PROPERTY NOTICE: Personal tokens are not recognized as official identification. Please use approved badges when becoming a claim."
+      },
+      "block0": {
+        "item_id": "tamsins-home-token",
+        "item_name": "Tamsin's Home-Token",
+        "aliases": [
+          "home-token",
+          "Tamsin token"
+        ],
+        "pronunciation": "TAM-zinz HOHM TOH-ken",
+        "item_kind": "trinket",
+        "tier": "Tier 1"
+      },
+      "block1": {
+        "first_impression": "A small thumb-polished token on a cord hangs beside the torn blue scarf, warm from wear and etched with a tiny house mark instead of a company seal.",
+        "the_tell": "Tamsin's Home-Token: a personal keepsake that can identify her as a person with somewhere to return to, not a route number.",
+        "what_it_is": "A humanizing clue carried by the dead courier.",
+        "the_hook": "Returning it respectfully can open trust in Hush or with road folk.",
+        "wiki_link": "pages/entities/tamsins-home-token.html"
+      },
+      "block2": {
+        "maker": "folk-made",
+        "made_or_wild": "wild/folk",
+        "ad_copy": "",
+        "corporate_propaganda": "ROUTE PROPERTY NOTICE: Personal tokens are not recognized as official identification. Please use approved badges when becoming a claim.",
+        "unreliability": "",
+        "comedy_beat": "The token has more truth than the official manifest."
+      },
+      "block3": {
+        "mechanics": "No combat effect. Careful handling can lower social friction with Hush locals or couriers.",
+        "narrative_function": "",
+        "stat_block": {
+          "stat_block_type": "item",
+          "canon_status": "#module",
+          "mechanical_grammar": "Story-item grammar: use this as access, leverage, texture, or roleplay benefit; add a mechanical bonus only if the listed effect grants one.",
+          "table_effect": "No combat effect. Careful handling can lower social friction with Hush locals or couriers.",
+          "player_benefit": "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned.",
+          "roleplay_benefit": "Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does.",
+          "activation": "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction.",
+          "limits": "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus.",
+          "earn_gate": {
+            "roleplay": "Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling.",
+            "Knowledge": "DC 12-15 to identify maker, provenance, safe use, warranty lie, or rule effect.",
+            "Instinct": "DC 12-15 to sense danger, residue, freshness, wrongness, or practical use.",
+            "Finesse": "DC 12-15 to handle, open, apply, repair, harvest, or retrieve it without damage or attention.",
+            "Presence": "DC 12-15 to bargain, persuade, comfort, or socially earn access to it."
+          },
+          "outcome_spectrum": {
+            "critical_success": "Earn the item or full truth, gain Hope, clear 1 Stress, and add one clean extra: bonus clue, safer use, better condition, or no social cost.",
+            "success_with_hope": "Earn the item or truth cleanly and gain Hope.",
+            "success_with_fear": "Earn it, but the GM gains Fear and adds a cost: attention, debt, damaged packaging, limited charge, social suspicion, or delayed consequence.",
+            "failure_with_hope": "Do not earn the full benefit yet, but gain Hope and a partial thread, safer next method, or a different small clue.",
+            "failure_with_fear": "The attempt goes badly; GM gains Fear and the item is damaged, noticed, withheld, misread, or tied to a stronger complication.",
+            "plain_low_roll": "Give a plausible but incomplete read; never use a low roll to erase a mandatory clue without providing another path."
+          }
+        }
+      },
+      "block4": {
+        "source_npc": [
+          "Tamsin Vell"
+        ],
+        "source_location": [
+          "Overturned Vendor Cart"
+        ],
+        "loot_group": "Tamsin's Effects",
+        "eligibility": "Found only if the party searches respectfully.",
+        "surface_ids": [
+          "S01-02",
+          "S02-01",
+          "S03-01"
+        ]
+      },
+      "block5": {
+        "disclosure": [
+          {
+            "layer": "Layer 1 - look",
+            "content": "A warm home-mark token."
+          },
+          {
+            "layer": "Layer 2 - hint",
+            "content": "The mark means someone knew her by household, not contract."
+          },
+          {
+            "layer": "Layer 3 - truth",
+            "content": "Returning it respectfully can earn trust."
+          }
+        ],
+        "earn_it_hooks": [
+          "Handle the body respectfully.",
+          "Ask in Hush who recognizes the mark.",
+          "Offer it back without treating it as loot."
+        ],
+        "progressive_reveal": "Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll."
+      },
+      "block6": {
+        "image_prompt": "A small folk-carved wooden home-token on a blue cord beside a torn road scarf, warm and thumb-polished, no branding, bright soft light.",
+        "image_role": "item wiki card and earned side-card visual",
+        "show_to_players": "Use the Run Mode item card's Show image button when the table sees or earns this item.",
+        "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/tamsins-home-token/profile_base.png",
+        "runtime_path": "assets/item-images/tamsins-home-token/profile_base.webp",
+        "style_anchor": "Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark."
+      },
+      "visual_assets": {
+        "profile_image": {
+          "key": "profile_base",
+          "label": "Item profile image",
+          "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/tamsins-home-token/profile_base.png",
+          "runtime_path": "assets/item-images/tamsins-home-token/profile_base.webp",
+          "status": "ready",
+          "alt": "Tamsin's Home-Token item illustration.",
+          "player_caption": "A small thumb-polished token on a cord hangs beside the torn blue scarf, warm from wear and etched with a tiny house mark instead of a company seal."
+        }
+      }
+    }
+  },
+  {
+    "id": "vial-of-briarpowder",
+    "name": "Vial of Briarpowder",
+    "kind": "consumable",
+    "maker": "the Bramble Union",
+    "loot_group": "Bramble Union Loot",
+    "priority": "P2",
+    "profile": {
+      "schema_version": "item-profile-v1",
+      "id": "vial-of-briarpowder",
+      "item_id": "vial-of-briarpowder",
+      "item_name": "Vial of Briarpowder",
+      "name": "Vial of Briarpowder",
+      "aliases": [
+        "briarpowder",
+        "thorn powder"
+      ],
+      "pronunciation": "VY-uhl ov BRY-er-POW-der",
+      "item_kind": "consumable",
+      "tier": "Tier 1",
+      "priority": "P2",
+      "mode": "PROP",
+      "maker": "the Bramble Union",
+      "made_or_wild": "competing",
+      "auto_surface": true,
+      "discovered_from_art": false,
+      "atlas_lore_note": "",
+      "player_safe": {
+        "name": "Vial of Briarpowder",
+        "one_line": "A small stoppered vial holds fine grey-green thorn powder that seems to drink the light. A blade edge near it looks sharper and hungrier.",
+        "first_impression": "A small stoppered vial holds fine grey-green thorn powder that seems to drink the light. A blade edge near it looks sharper and hungrier.",
+        "maker": "the Bramble Union",
+        "satire_line": "GRAIL SECURITY BULLETIN: Briarpowder is an unlicensed combat agent produced by off-network persons. Report hungry-looking blades to your nearest placard."
+      },
+      "block0": {
+        "item_id": "vial-of-briarpowder",
+        "item_name": "Vial of Briarpowder",
+        "aliases": [
+          "briarpowder",
+          "thorn powder"
+        ],
+        "pronunciation": "VY-uhl ov BRY-er-POW-der",
+        "item_kind": "consumable",
+        "tier": "Tier 1"
+      },
+      "block1": {
+        "first_impression": "A small stoppered vial holds fine grey-green thorn powder that seems to drink the light. A blade edge near it looks sharper and hungrier.",
+        "the_tell": "Briarpowder: coat a blade; the next successful attack deals 1 additional hit point.",
+        "what_it_is": "A defensive poisoner's tool made from the Wandering Briar's thorns.",
+        "the_hook": "A small edge that makes a wound refuse to close.",
+        "wiki_link": "pages/entities/vial-of-briarpowder.html"
+      },
+      "block2": {
+        "maker": "the Bramble Union",
+        "made_or_wild": "competing",
+        "ad_copy": "",
+        "corporate_propaganda": "GRAIL SECURITY BULLETIN: Briarpowder is an unlicensed combat agent produced by off-network persons. Report hungry-looking blades to your nearest placard.",
+        "unreliability": "",
+        "comedy_beat": "The official danger is mostly that the wrong people made it."
+      },
+      "block3": {
+        "mechanics": "Consumable. Coat a blade; the next successful attack deals 1 additional hit point. One use.",
+        "narrative_function": "",
+        "stat_block": {
+          "stat_block_type": "item",
+          "canon_status": "#module",
+          "mechanical_grammar": "Daggerheart item grammar: weapon or offensive consumable; use the listed trait/range/damage/effect exactly as written here.",
+          "table_effect": "Consumable. Coat a blade; the next successful attack deals 1 additional hit point. One use.",
+          "player_benefit": "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned.",
+          "roleplay_benefit": "Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does.",
+          "activation": "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction.",
+          "limits": "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus.",
+          "earn_gate": {
+            "roleplay": "Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling.",
+            "Knowledge": "DC 12-15 to identify maker, provenance, safe use, warranty lie, or rule effect.",
+            "Instinct": "DC 12-15 to sense danger, residue, freshness, wrongness, or practical use.",
+            "Finesse": "DC 12-15 to handle, open, apply, repair, harvest, or retrieve it without damage or attention.",
+            "Presence": "DC 12-15 to bargain, persuade, comfort, or socially earn access to it."
+          },
+          "outcome_spectrum": {
+            "critical_success": "Earn the item or full truth, gain Hope, clear 1 Stress, and add one clean extra: bonus clue, safer use, better condition, or no social cost.",
+            "success_with_hope": "Earn the item or truth cleanly and gain Hope.",
+            "success_with_fear": "Earn it, but the GM gains Fear and adds a cost: attention, debt, damaged packaging, limited charge, social suspicion, or delayed consequence.",
+            "failure_with_hope": "Do not earn the full benefit yet, but gain Hope and a partial thread, safer next method, or a different small clue.",
+            "failure_with_fear": "The attempt goes badly; GM gains Fear and the item is damaged, noticed, withheld, misread, or tied to a stronger complication.",
+            "plain_low_roll": "Give a plausible but incomplete read; never use a low roll to erase a mandatory clue without providing another path."
+          }
+        }
+      },
+      "block4": {
+        "source_npc": [
+          "Yikyik Trahll"
+        ],
+        "source_location": [
+          "The Wandering Briar",
+          "Bramble Union Villages"
+        ],
+        "loot_group": "Bramble Union Loot",
+        "eligibility": "Trade, gift, or harvested from the Briar.",
+        "surface_ids": [
+          "S02-03",
+          "S02-04",
+          "MAP-LOC-the-wandering-briar"
+        ]
+      },
+      "block5": {
+        "disclosure": [
+          {
+            "layer": "Layer 1 - look",
+            "content": "Light-drinking thorn powder."
+          },
+          {
+            "layer": "Layer 2 - hint",
+            "content": "It makes wounds bleed."
+          },
+          {
+            "layer": "Layer 3 - truth",
+            "content": "The next coated hit deals +1 HP."
+          }
+        ],
+        "earn_it_hooks": [
+          "A Union poisoner explains it.",
+          "Use it once.",
+          "Inspect the thorn grind with Knowledge 13."
+        ],
+        "progressive_reveal": "Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll."
+      },
+      "block6": {
+        "image_prompt": "A small stoppered vial of grey-green thorn powder that drinks light, a coated blade-edge beside it, bright contrast, unbranded.",
+        "image_role": "item wiki card and earned side-card visual",
+        "show_to_players": "Use the Run Mode item card's Show image button when the table sees or earns this item.",
+        "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/vial-of-briarpowder/profile_base.png",
+        "runtime_path": "assets/item-images/vial-of-briarpowder/profile_base.webp",
+        "style_anchor": "Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark."
+      },
+      "visual_assets": {
+        "profile_image": {
+          "key": "profile_base",
+          "label": "Item profile image",
+          "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/vial-of-briarpowder/profile_base.png",
+          "runtime_path": "assets/item-images/vial-of-briarpowder/profile_base.webp",
+          "status": "ready",
+          "alt": "Vial of Briarpowder item illustration.",
+          "player_caption": "A small stoppered vial holds fine grey-green thorn powder that seems to drink the light. A blade edge near it looks sharper and hungrier."
+        }
+      }
+    }
+  },
+  {
+    "id": "whitefire-ward-charm",
+    "name": "Whitefire Custodian's Ward-Charm",
+    "kind": "trinket",
+    "maker": "the Whitefire Custodian",
+    "loot_group": "Custodian's Gift",
+    "priority": "P1",
+    "profile": {
+      "schema_version": "item-profile-v1",
+      "id": "whitefire-ward-charm",
+      "item_id": "whitefire-ward-charm",
+      "item_name": "Whitefire Custodian's Ward-Charm",
+      "name": "Whitefire Custodian's Ward-Charm",
+      "aliases": [
+        "ward charm",
+        "Custodian charm"
+      ],
+      "pronunciation": "WYT-fyr kuh-STOH-dee-anz WORD-charm",
+      "item_kind": "trinket",
+      "tier": "Tier 1",
+      "priority": "P1",
+      "mode": "PROP",
+      "maker": "the Whitefire Custodian",
+      "made_or_wild": "wild/folk",
+      "auto_surface": true,
+      "discovered_from_art": false,
+      "atlas_lore_note": "",
+      "player_safe": {
+        "name": "Whitefire Custodian's Ward-Charm",
+        "one_line": "A small hand-carved wooden ratcoon mid-scamper has been thumb-worn smooth for luck. It is warm, and the forest feels a little kinder while you hold it.",
+        "first_impression": "A small hand-carved wooden ratcoon mid-scamper has been thumb-worn smooth for luck. It is warm, and the forest feels a little kinder while you hold it.",
+        "maker": "the Whitefire Custodian",
+        "satire_line": "MITHRIL & MORTAR WARD NOTICE: Personal charms are not a substitute for approved ward pillars, sold separately and installed quarterly."
+      },
+      "block0": {
+        "item_id": "whitefire-ward-charm",
+        "item_name": "Whitefire Custodian's Ward-Charm",
+        "aliases": [
+          "ward charm",
+          "Custodian charm"
+        ],
+        "pronunciation": "WYT-fyr kuh-STOH-dee-anz WORD-charm",
+        "item_kind": "trinket",
+        "tier": "Tier 1"
+      },
+      "block1": {
+        "first_impression": "A small hand-carved wooden ratcoon mid-scamper has been thumb-worn smooth for luck. It is warm, and the forest feels a little kinder while you hold it.",
+        "the_tell": "Whitefire Custodian's Ward-Charm: while carried in Sablewood, gain +1 Evasion.",
+        "what_it_is": "A small ward blessing carved by the Custodian.",
+        "the_hook": "A sign the party earned her trust.",
+        "wiki_link": "pages/entities/whitefire-ward-charm.html"
+      },
+      "block2": {
+        "maker": "the Whitefire Custodian",
+        "made_or_wild": "wild/folk",
+        "ad_copy": "",
+        "corporate_propaganda": "MITHRIL & MORTAR WARD NOTICE: Personal charms are not a substitute for approved ward pillars, sold separately and installed quarterly.",
+        "unreliability": "",
+        "comedy_beat": "The corporation selling ward pillars is upset a hand-carved charm works."
+      },
+      "block3": {
+        "mechanics": "Trinket. While carried in Sablewood: +1 Evasion.",
+        "narrative_function": "",
+        "stat_block": {
+          "stat_block_type": "item",
+          "canon_status": "#module",
+          "mechanical_grammar": "Daggerheart item grammar: armor, shield, or defensive trinket; apply the listed threshold, Evasion, Armor Slot, or resistance effect only in the stated context.",
+          "table_effect": "Trinket. While carried in Sablewood: +1 Evasion.",
+          "player_benefit": "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned.",
+          "roleplay_benefit": "Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does.",
+          "activation": "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction.",
+          "limits": "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus.",
+          "earn_gate": {
+            "roleplay": "Give the item freely when the player already earned it through care, trust, trade, victory, or respectful handling.",
+            "Knowledge": "DC 12-15 to identify maker, provenance, safe use, warranty lie, or rule effect.",
+            "Instinct": "DC 12-15 to sense danger, residue, freshness, wrongness, or practical use.",
+            "Finesse": "DC 12-15 to handle, open, apply, repair, harvest, or retrieve it without damage or attention.",
+            "Presence": "DC 12-15 to bargain, persuade, comfort, or socially earn access to it."
+          },
+          "outcome_spectrum": {
+            "critical_success": "Earn the item or full truth, gain Hope, clear 1 Stress, and add one clean extra: bonus clue, safer use, better condition, or no social cost.",
+            "success_with_hope": "Earn the item or truth cleanly and gain Hope.",
+            "success_with_fear": "Earn it, but the GM gains Fear and adds a cost: attention, debt, damaged packaging, limited charge, social suspicion, or delayed consequence.",
+            "failure_with_hope": "Do not earn the full benefit yet, but gain Hope and a partial thread, safer next method, or a different small clue.",
+            "failure_with_fear": "The attempt goes badly; GM gains Fear and the item is damaged, noticed, withheld, misread, or tied to a stronger complication.",
+            "plain_low_roll": "Give a plausible but incomplete read; never use a low roll to erase a mandatory clue without providing another path."
+          }
+        }
+      },
+      "block4": {
+        "source_npc": [
+          "Whitefire Custodian"
+        ],
+        "source_location": [
+          "The Hanging Office",
+          "Open ValeTM Ritual Site"
+        ],
+        "loot_group": "Custodian's Gift",
+        "eligibility": "Gift for earned gratitude; not lootable.",
+        "surface_ids": [
+          "S04-03",
+          "S04-04",
+          "S04-05",
+          "S05-01"
+        ]
+      },
+      "block5": {
+        "disclosure": [
+          {
+            "layer": "Layer 1 - look",
+            "content": "A warm carved charm."
+          },
+          {
+            "layer": "Layer 2 - hint",
+            "content": "The forest seems safer near it."
+          },
+          {
+            "layer": "Layer 3 - truth",
+            "content": "It grants +1 Evasion in Sablewood."
+          }
+        ],
+        "earn_it_hooks": [
+          "Earn the Custodian's gratitude.",
+          "Notice the protection in play.",
+          "Ask her what it is after trust is established."
+        ],
+        "progressive_reveal": "Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll."
+      },
+      "block6": {
+        "image_prompt": "A small hand-carved wooden ratcoon figurine, thumb-worn, faint warm whitefire glow, cozy bright light, no branding.",
+        "image_role": "item wiki card and earned side-card visual",
+        "show_to_players": "Use the Run Mode item card's Show image button when the table sees or earns this item.",
+        "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/whitefire-ward-charm/profile_base.png",
+        "runtime_path": "assets/item-images/whitefire-ward-charm/profile_base.webp",
+        "style_anchor": "Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark."
+      },
+      "visual_assets": {
+        "profile_image": {
+          "key": "profile_base",
+          "label": "Item profile image",
+          "source_path": "/Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/whitefire-ward-charm/profile_base.png",
+          "runtime_path": "assets/item-images/whitefire-ward-charm/profile_base.webp",
+          "status": "ready",
+          "alt": "Whitefire Custodian's Ward-Charm item illustration.",
+          "player_caption": "A small hand-carved wooden ratcoon mid-scamper has been thumb-worn smooth for luck. It is warm, and the forest feels a little kinder while you hold it."
+        }
+      }
+    }
+  }
+]

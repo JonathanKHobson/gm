@@ -1,0 +1,76 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "old-contract-tags",
+  "title": "Old Contract Tags",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "056c8be70b5ac0d2",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Old Contract Tags: The \"stolen\" seals and tags on the Bramble's goods are old and worn — and many bear the names of the Bramble carrying them."
+    },
+    {
+      "title": "Public role",
+      "body": "Clue / evidence"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: The \"stolen\" seals and tags on the Bramble's goods are old and worn — and many bear the names of the Bramble carrying them."
+    },
+    {
+      "title": "GM truth",
+      "body": "Use this element to reveal the cost of managed protection through concrete play."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use when players need a tangible handle on the scene's pressure."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Discovery / Earn-It Mechanics",
+        "Player Safe: Players can inspect, handle, keep, trade, reveal, or earn Old Contract Tags when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: The \"stolen\" seals and tags on the Bramble's goods are old and worn — and many bear the names of the Bramble carrying them. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-old-contract-tags-engage-old-contract-tags entity-old-contract-tags Engage Old Contract Tags Engage Old Contract Tags Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Old Contract Tags hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Condition Options: No official condition unless the item or clue physically creates Hidden, Restrained, or Vulnerable",
+        "Search Loot: Player-safe note: The \"stolen\" seals and tags on the Bramble's goods are old and worn — and many bear the names of the Bramble carrying them."
+      ]
+    },
+    {
+      "title": "Profile",
+      "items": [
+        "Schema Version: clue-profile-v1",
+        "Id: old-contract-tags",
+        "Clue Id: old-contract-tags",
+        "Clue Name: Old Contract Tags",
+        "Name: Old Contract Tags",
+        "Pronunciation: OHLD KON-trakt TAGZ",
+        "Clue Kind: document",
+        "Auto Surface: True",
+        "Atlas Lore Note: [Atlas lore - confirm or override]",
+        "Player Safe: Old Contract Tags The \"stolen\" seals and tags on the Bramble's goods are old and worn — and many bear the names of the Bramble carrying them. The \"stolen\" seals and tags on the Bramble's goods are old and worn — and many bear the names of the Bramble carrying them. The \"stolen\" seals and tags on the Bramble's goods are old and worn — and many bear the names of the Bramble carrying them.",
+        "Block0: old-contract-tags Old Contract Tags OHLD KON-trakt TAGZ document",
+        "Block1: their \"loot\" is their own repossessed wages and goods — they're reclaiming what was taken, not robbing. HIDDEN The Bramble Truth the-bramble-truth Complicates victory over the Bramble and rewards empathy, capture, or careful interrogation. pages/entities/old-contract-tags.html pages/clues/the-bramble-truth.html",
+        "Block2: The \"stolen\" seals and tags on the Bramble's goods are old and worn — and many bear the names of the Bramble carrying them. their \"loot\" is their own repossessed wages and goods — they're reclaiming what was taken, not robbing.",
+        "Block3: \"these tags are old, and the names match.\" \"they're carrying their own repossessed things.\" You have enough GM-only proof that much of the so-called stolen property belonged to the people carrying it. You have enough GM-only proof that much of the so-called stolen property belonged to the people carrying it.",
+        "Block4: Torn Shipping Seals Reclaimer Personal Effects torn-shipping-seals reclaimer-personal-effects",
+        "Block5: S02-01 S02-04 Bramble Union Villages Bramble Union Knowledge 13 to match names. clues/The_Bramble_Truth.md",
+        "Block6: HIDDEN Use this clue to support The Bramble Truth: their \"loot\" is their own repossessed wages and goods — they're reclaiming what was taken, not robbing. whisper True",
+        "Block8: Bright, saturated storybook evidence illustration; clear hero shot of the actual clue object or scene detail; whimsical frontier-Renaissance materials; warm light; bright dystopian corporate satire when branded; no gore, no UI, no watermark, no repeated icon. Depict: worn contract tags whose names match their bearers. clue wiki card and Player Display evidence visual Send the image and SHOW text only. Keep TELL, points_to, and blunt ladder rungs GM-only until earned. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/old-contract-tags/profile_base.png assets/clue-images/old-contract-tags/profile_base.webp Bright, saturated storybook evidence illustration; clear hero shot of the actual clue object or scene detail; whimsical frontier-Renaissance materials; warm light; bright dystopian corporate satire when branded; no gore, no UI, no watermark, no repeated icon.",
+        "Block9: Official Daggerheart action roll using Duality Dice, Hope, Fear, and Difficulty; P2P Roll Slider is the table-facing result ladder. Agility move, climb, dodge, reach a better angle, or read evidence while moving Strength lift, hold, force, carry, break, or test weight and pressure Finesse handle, hide, tinker, compare, pick apart, or notice precise detail Instinct perceive, smell, listen, track, read danger, or sense body language Presence charm, soothe, press, lead, deceive, perform, or read a social response Knowledge recall, analyze, investigate, reason from lore, or understand systems Finesse D14 Knowledge D14 Presence D14 If the clue is plainly visible, give the SHOW text freely first: The \"stolen\" seals and tags on the Bramble's goods are old and worn — and many bear the names of the Bramble carrying them. Use the listed Difficulty for the chosen trait. Lower rolls get partial or...",
+        "Mechanicids: duality-dice hope fear difficulty roll-slider clue-discovery",
+        "Visual Assets: profile_base Clue evidence image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/old-contract-tags/profile_base.png assets/clue-images/old-contract-tags/profile_base.webp ready Old Contract Tags clue image. The \"stolen\" seals and tags on the Bramble's goods are old and worn — and many bear the names of the Bramble carrying them."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 056c8be70b5ac0d2 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

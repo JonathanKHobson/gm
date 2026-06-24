@@ -1,0 +1,87 @@
+{
+  "pass": true,
+  "error_count": 0,
+  "review_count": 12,
+  "issue_count": 12,
+  "official_conditions": [
+    "Hidden",
+    "Restrained",
+    "Vulnerable"
+  ],
+  "banned_term_count": 6,
+  "mechanics_policy": "Official Daggerheart mechanics plus module flavor. Scene rolls use Difficulty/DC and unnamed outcome options.",
+  "issues": [
+    {
+      "severity": "review",
+      "rule": "untethered_requires_module_effect_context",
+      "file": "dist/story-atlas/data/spotlight-index.json",
+      "term": "Untethered"
+    },
+    {
+      "severity": "review",
+      "rule": "untethered_requires_module_effect_context",
+      "file": "dist/story-atlas/exports/gm/slide/map-combat-s05-06.html",
+      "term": "Untethered"
+    },
+    {
+      "severity": "review",
+      "rule": "untethered_requires_module_effect_context",
+      "file": "dist/story-atlas/exports/gm/slide/map-combat-s05-06.json",
+      "term": "Untethered"
+    },
+    {
+      "severity": "review",
+      "rule": "untethered_requires_module_effect_context",
+      "file": "dist/story-atlas/exports/gm/slide/map-combat-s05-06.md",
+      "term": "Untethered"
+    },
+    {
+      "severity": "review",
+      "rule": "untethered_requires_module_effect_context",
+      "file": "dist/story-atlas/exports/raw/slide/map-loc-the-miremist.html",
+      "term": "Untethered"
+    },
+    {
+      "severity": "review",
+      "rule": "untethered_requires_module_effect_context",
+      "file": "dist/story-atlas/exports/raw/slide/map-loc-the-miremist.json",
+      "term": "Untethered"
+    },
+    {
+      "severity": "review",
+      "rule": "untethered_requires_module_effect_context",
+      "file": "dist/story-atlas/exports/raw/slide/map-loc-the-miremist.md",
+      "term": "Untethered"
+    },
+    {
+      "severity": "review",
+      "rule": "untethered_requires_module_effect_context",
+      "file": "dist/story-atlas/exports/raw/slide/map-s05-03.html",
+      "term": "Untethered"
+    },
+    {
+      "severity": "review",
+      "rule": "untethered_requires_module_effect_context",
+      "file": "dist/story-atlas/exports/raw/slide/map-s05-03.json",
+      "term": "Untethered"
+    },
+    {
+      "severity": "review",
+      "rule": "untethered_requires_module_effect_context",
+      "file": "dist/story-atlas/exports/raw/slide/map-s05-03.md",
+      "term": "Untethered"
+    },
+    {
+      "severity": "review",
+      "rule": "untethered_requires_module_effect_context",
+      "file": "dist/story-atlas/pages/pc-cheat-sheet.html",
+      "term": "Untethered"
+    },
+    {
+      "severity": "review",
+      "rule": "untethered_requires_module_effect_context",
+      "file": "dist/story-atlas/wiki/mechanic/untethered/index.html",
+      "term": "Untethered"
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+[
+  {
+    "id": "action-roll",
+    "title": "Action Roll Flow",
+    "status": "#rules-canon",
+    "body": [
+      "Ask what the PC does, choose the trait that matches the fictional approach, set or reveal the Difficulty, then roll.",
+      "Roll Duality Dice, add the trait and any applicable Experience or bonus, compare the total to the Difficulty, then read Hope/Fear spin.",
+      "Roll only when the outcome is uncertain and the consequence matters. If there is no meaningful pressure, give the result without a roll."
+    ]
+  },
+  {
+    "id": "duality-dice",
+    "title": "Duality Dice",
+    "status": "#rules-canon",
+    "body": [
+      "Official default: roll two d12s, one Hope die and one Fear die.",
+      "Total the dice, add the relevant trait and bonuses, then compare to Difficulty.",
+      "The higher die determines whether the roll is with Hope or with Fear. Matching dice are a Critical Success.",
+      "Reaction rolls use the Duality Dice structure, but they do not generate Hope or Fear."
+    ]
+  },
+  {
+    "id": "hope-fear-matrix",
+    "title": "Hope/Fear Outcomes",
+    "status": "#rules-canon",
+    "table": {
+      "headers": [
+        "Total",
+        "Spin",
+        "Result"
+      ],
+      "rows": [
+        [
+          ">= Difficulty",
+          "Hope",
+          "Success with Hope: get what you want and gain Hope."
+        ],
+        [
+          ">= Difficulty",
+          "Fear",
+          "Success with Fear: get what you want, but there is a cost or consequence; GM gains Fear."
+        ],
+        [
+          "< Difficulty",
+          "Hope",
+          "Failure with Hope: things do not go as planned, but gain Hope."
+        ],
+        [
+          "< Difficulty",
+          "Fear",
+          "Failure with Fear: things go badly; major consequence or complication; GM gains Fear."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "critical-success",
+    "title": "Critical Success",
+    "status": "#rules-canon",
+    "body": [
+      "When the Hope die and Fear die match, the roll is a Critical Success.",
+      "A Critical Success counts as a roll with Hope even if the total would otherwise miss the Difficulty.",
+      "On a Critical Success, the PC gains Hope and clears 1 Stress. On an attack roll, follow the official critical damage rules."
+    ]
+  },
+  {
+    "id": "difficulty-ladder",
+    "title": "Difficulty Ladder",
+    "status": "#rules-canon",
+    "table": {
+      "headers": [
+        "Difficulty",
+        "Number",
+        "Use"
+      ],
+      "rows": [
+        [
+          "Very Easy 5",
+          "5",
+          "Obvious, low-pressure, strong leverage, or beginner-friendly on-ramp."
+        ],
+        [
+          "Easy 10",
+          "10",
+          "Low pressure, beginner-friendly, obvious route."
+        ],
+        [
+          "Average 15",
+          "15",
+          "Default meaningful uncertainty."
+        ],
+        [
+          "Hard 20",
+          "20",
+          "Dangerous, contested, or specialized task."
+        ],
+        [
+          "Very Hard 25",
+          "25",
+          "Exceptional, unstable, rushed, or opposed."
+        ],
+        [
+          "Nearly Impossible 30",
+          "30",
+          "Legendary attempt; usually offer another route."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "traits",
+    "title": "Traits",
+    "status": "#rules-canon",
+    "table": {
+      "headers": [
+        "Trait",
+        "What it covers"
+      ],
+      "rows": [
+        [
+          "Agility",
+          "Sprint, leap, maneuver, dodge, balance, climb fast, keep footing."
+        ],
+        [
+          "Strength",
+          "Lift, smash, grapple, hold, carry, resist force, endure strain."
+        ],
+        [
+          "Finesse",
+          "Control, hide, tinker, pick, disable, handle delicate details."
+        ],
+        [
+          "Instinct",
+          "Perceive, sense, navigate, track, read danger, read animals."
+        ],
+        [
+          "Presence",
+          "Charm, lead, soothe, deceive, perform, intimidate, negotiate."
+        ],
+        [
+          "Knowledge",
+          "Recall, analyze, investigate, comprehend, reason from lore."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "dnd-conversion",
+    "title": "D&D-to-Daggerheart Translation",
+    "status": "#gm-aid not official",
+    "body": [
+      "Daggerheart uses traits, not D&D skills. Pick the trait that matches the player's fictional approach.",
+      "Use the D&D conversion page as a GM aid for players arriving from 5e; it is not official Daggerheart rules text."
+    ]
+  },
+  {
+    "id": "advantage-disadvantage",
+    "title": "Advantage / Disadvantage",
+    "status": "#rules-canon",
+    "body": [
+      "Advantage adds a d6 advantage die to the roll total.",
+      "Disadvantage subtracts a d6 disadvantage die from the roll total.",
+      "Advantage and disadvantage cancel each other out before rolling. If multiple advantage dice remain, use the highest one.",
+      "The GM may grant advantage or disadvantage when the fiction supports it."
+    ]
+  },
+  {
+    "id": "experiences-help",
+    "title": "Experiences, Help, Tag Team",
+    "status": "#rules-canon",
+    "body": [
+      "Experiences are short backstory/expertise phrases. Spend 1 Hope before a roll to add a relevant Experience modifier.",
+      "Help an Ally: spend 1 Hope, describe feasible help, roll a d6 advantage die, and add it to the acting PC's roll using the normal advantage rules.",
+      "Tag Team Roll: once per session, spend 3 Hope to combine two PCs' efforts. Both roll, choose one result for both, and resolve as a single action roll."
+    ]
+  },
+  {
+    "id": "gm-fear",
+    "title": "Hope Uses / Fear Uses",
+    "status": "#rules-canon",
+    "body": [
+      "Hope can be spent to Help an Ally, use Experiences, initiate a Tag Team Roll, or activate Hope Features.",
+      "On a roll with Fear, the GM gains Fear and makes a move reflecting the complication.",
+      "Fear can be spent to spotlight adversaries, use Fear Features, make stronger GM moves, apply adversary Experiences, and advance pressure when the rules or stat block call for it."
+    ]
+  },
+  {
+    "id": "gm-moves-spotlight",
+    "title": "GM Moves / Adversary Spotlight",
+    "status": "#rules-canon",
+    "body": [
+      "The spotlight moves through the fiction rather than a fixed initiative order.",
+      "The GM commonly makes moves when a PC rolls with Fear or fails an action roll.",
+      "Use softer moves to telegraph, reveal, or reposition. Use harder moves when the fiction and result call for direct consequence.",
+      "Spend Fear or use features when the adversary/environment rules call for it."
+    ]
+  },
+  {
+    "id": "adversary-attacks",
+    "title": "Adversary Attack Rolls",
+    "status": "#rules-canon",
+    "body": [
+      "Adversaries roll a d20 plus their attack modifier against the target PC's Evasion.",
+      "PCs do not roll defense by default. Use reaction rolls only when a rule, feature, or GM call gives one.",
+      "PC action rolls against adversaries use the adversary's Difficulty from the stat block."
+    ]
+  },
+  {
+    "id": "damage-armor-stress",
+    "title": "Damage / Armor / Stress",
+    "status": "#rules-canon",
+    "body": [
+      "Compare incoming damage to the character's damage thresholds to determine how many HP are marked.",
+      "Mark an Armor Slot to reduce the severity of incoming damage by one threshold.",
+      "When a character marks their last Stress, they become Vulnerable until they clear at least 1 Stress.",
+      "If a character must mark Stress while all Stress slots are marked, follow the official overflow consequence from the character rules."
+    ]
+  },
+  {
+    "id": "short-rest",
+    "title": "Short Rest",
+    "status": "#rules-canon",
+    "body": [
+      "A short rest is about an hour to catch breath and recover.",
+      "Each PC may swap domain cards between loadout and vault, then choose two moves, including choosing the same move twice.",
+      "Short rest moves: Tend to Wounds, Clear Stress, Repair Armor, or Prepare.",
+      "Prepare gains Hope; preparing with one or more party members gives each of those PCs 2 Hope."
+    ]
+  },
+  {
+    "id": "countdown",
+    "title": "Countdown",
+    "status": "#rules-canon + module tracker",
+    "body": [
+      "Countdowns are visible pressure clocks. Tell players what changes when a countdown ticks.",
+      "On progress countdowns, successful action rolls can tick the party closer to the goal.",
+      "On consequence countdowns, failures or success with Fear can tick the opposing pressure closer.",
+      "Open Vale uses a module ritual countdown as a tracker; do not treat it as a new condition."
+    ]
+  },
+  {
+    "id": "ranges",
+    "title": "Ranges",
+    "status": "#rules-canon",
+    "body": [
+      "Use Daggerheart range bands at the table: Melee, Very Close, Close, Far, Very Far, and Out of Range.",
+      "When exact distance is not important, keep ranges conversational and tied to reachable action."
+    ]
+  },
+  {
+    "id": "conditions",
+    "title": "Official Conditions",
+    "status": "#rules-canon",
+    "body": [
+      "Daggerheart has three primary global conditions: Hidden, Restrained, and Vulnerable.",
+      "Some features create unique effects, but those are feature-specific text, not module-wide conditions.",
+      "Unless a rule says otherwise, the same condition cannot stack on one target.",
+      "Temporary conditions can be cleared with a fitting action roll, a GM-approved fictional method, or by an adversary spending its spotlight to clear the condition.",
+      "Unconscious appears only as Death Move/status context in this Atlas, not as a global condition card."
+    ]
+  }
+]

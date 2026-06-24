@@ -1,0 +1,57 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "rule",
+  "id": "help-an-ally",
+  "title": "Help an Ally",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "6f4d27232ebc9ae5",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "Spend Hope to add an advantage die to another PC's roll."
+    },
+    {
+      "title": "How it works",
+      "body": "Use when the helper can describe real help in the fiction."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use when the helper can describe real help in the fiction.",
+        "Spend Hope, describe the help, and add the help die.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "Can I help?"
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: help-an-ally",
+        "Title: Help an Ally",
+        "Tag: official",
+        "Summary: Spend Hope to add an advantage die to another PC's roll.",
+        "When: Use when the helper can describe real help in the fiction.",
+        "Not When: Do not use if the helper cannot plausibly affect the action.",
+        "Question: Can I help?",
+        "Answer: Spend Hope, describe the help, and add the help die.",
+        "Example: Khari braces the rope while another PC climbs.",
+        "Related: hope advantage-disadvantage",
+        "Aliases: help assist aid",
+        "Source: Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+        "Mechanic Profile: mechanic-profile-v1 help-an-ally Help an Ally help assist aid Help an Ally teamwork #rules-canon Beginner+ hope advantage-disadvantage Introduce at first use hope advantage-disadvantage Spend Hope to add an advantage die to another PC's roll. Spend Hope, describe the help, and add the help die. Use when the helper can describe real help in the fiction. Help an Ally: Spend Hope to add an advantage die to another PC's roll. Use when the helper can describe real help in the fiction. Spend Hope, describe the help, and add the help die. Return to the fiction with the concrete result, cost, or benefit. Khari braces the rope while another PC climbs. Khari braces the rope while another PC climbs. Can I help? Help an Ally help assist aid hope advantage-disadvantage Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use.",
+        "Canon Status: #rules-canon",
+        "Category: teamwork"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 6f4d27232ebc9ae5 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

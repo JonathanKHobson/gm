@@ -1,0 +1,17 @@
+{
+  "built_at": "2026-06-23T21:43:39",
+  "scene_count": 27,
+  "entity_count": 252,
+  "image_gen_count": 741,
+  "missing_image_gen_slot_count": 0,
+  "fallback_asset_count": 0,
+  "entity_visual_gallery_count": 252,
+  "audit_recovery_counts": {
+    "locations": 34,
+    "npcs": 32,
+    "creatures": 8,
+    "pcs": 5,
+    "factions": 19
+  },
+  "source_packet": "/Users/kyle/Documents/My Games/Peril To Profit/archive/goldspire_story_atlas_packet"
+}

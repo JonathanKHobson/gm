@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "difficulty-ladder",
+  "title": "Difficulty Ladder",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "32f43ba8b3db35c7",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Difficulty Ladder: Very Easy 5, Easy 10, Average 15, Hard 20, Very Hard 25, Nearly Impossible 30."
+    },
+    {
+      "title": "Public role",
+      "body": "Numeric DC reference for Daggerheart action rolls"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Very Easy 5, Easy 10, Average 15, Hard 20, Very Hard 25, Nearly Impossible 30."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use when the scene needs a concrete object for players to inspect, carry, debate, or remember."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 32f43ba8b3db35c7 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

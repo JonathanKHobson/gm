@@ -1,0 +1,68 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "the-relay-keeper",
+  "title": "The Relay Keeper",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "5676caf65ac3ff5a",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "The Relay Keeper: A solitary ward-keeper whose silence turns the epilogue hook from scenery into a person in danger."
+    },
+    {
+      "title": "Public role",
+      "body": "Official sequel hook embodied as a competent, exhausted person at the far end of a failing signal."
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: A solitary ward-keeper whose silence turns the epilogue hook from scenery into a person in danger."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use this person to put a human face on the current pressure. Give them one concrete want before exposition."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Social / Information Mechanics",
+        "Player Safe: Players can interact, comfort, persuade, or earn trust The Relay Keeper when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: A solitary ward-keeper whose silence turns the epilogue hook from scenery into a person in danger. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-the-relay-keeper-engage-the-relay-keeper entity-the-relay-keeper Engage The Relay Keeper Engage The Relay Keeper Presence Knowledge Instinct Presence Knowledge, Instinct 12 Choose the trait from the player's method, not the entity type. A flat read of The Relay Keeper hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Condition Options: No official condition unless the fiction calls for Hidden, Restrained, or Vulnerable",
+        "Search Loot: Use only as a future lead unless Kyle wants the one-shot to roll directly into the relay investigation. Loot / item link: Spirekeeper Relay Keyring (Gift, inheritance, or GM-only epilogue hook.)."
+      ]
+    },
+    {
+      "title": "Profile",
+      "items": [
+        "Schema Version: npc-profile-v1",
+        "Source: NPC_System_Packet + image-informed hardening",
+        "Backup: False",
+        "Combatant: False",
+        "Player Safe: The Relay Keeper a distant relay keeper whose silence turns the next hook into a person in danger An older woman in dark teal maintenance robes stands in a stone relay chamber, silver-black braids threaded with tiny copper bells, blue crystal earrings, a cracked glowing lens in one hand and a charred map ribbon in the other. The Relay Keeper: a distant relay keeper whose silence turns the next hook into a person in danger",
+        "Block1: The Relay Keeper the REE-lay KEE-per a distant relay keeper whose silence turns the next hook into a person in danger Official sequel hook embodied as a competent, exhausted person at the far end of a failing signal. Denouement hook and future ally; she is not an Act 5 combatant or exposition dump. The Relay Keeper is separate from Spirekeeper and should have her own portrait, voice, objects, and stakes. Keep the exact danger unresolved until Kyle chooses the sequel path. A personal face for the western relay problem A reason to return after the one-shot A clue ladder without revealing the hidden thesis Unseen, urgent, lonely, and fiercely competent. Players who protect messages, maps, and living keepers earn the cleanest future opening.",
+        "Block2: Be heard before the relay failure becomes someone else's ruin. Keep a distant signal alive long enough for help to choose the road. Be heard before the relay failure becomes someone else's ruin. Keep a distant signal alive long enough for help to choose the road. Keeps a dying signal alive out of sheer refusal. Wears braids threaded with bells tuned to far spires; two of them no longer ring, and she will not remove them, because silence is still evidence. The relay does not answer. A cold bell rings once, then stops with the rope still trembling. The exact cause of the failing relay remains future-story material. A bell ringing with no one left to answer it. Clear signals, maintained lenses, and messages answered before they become prayers. Silence treated as consent and distant trouble treated as tomorrow's paperwork. Clear signals, maintained lenses, and messages answered before they...",
+        "Block3: The keeper expects help to arrive late, if it arrives at all. No epilogue persuasion roll; report_choice and relay_hook_accepted decide how cleanly the next road opens. State report_choice / relay_hook_accepted The report branch and relay hook choice decide how cleanly the next thread opens. Not a combatant in this one-shot; their danger is a hook, not a fight.",
+        "Block4: Someone at the relay may need help. Do not invent the Keeper's mechanics or reveal hidden thesis language. Sees infrastructure as a chain of people, not a line item. Turns infrastructure failure into a future person, not just a map marker. The charred map ribbon can seed a future question about who benefits when relay warnings arrive late. Any PC can choose to care; no roster requirement. The Custodian's worry makes this hook personal before the party knows the keeper. npc_images portrait asset",
+        "Block5: noncombat NPC NPC profile interaction model; run as social, clue, consent, or pressure play unless a scene explicitly turns violent Social / noncombat Conversation, clue, pressure, or consent gate Social NPC report_choice / relay_hook_accepted Social threshold: one clear concession, clue, or boundary shift at Difficulty report_choice / relay_hook_accepted Social stakes only; no HP track unless a scene assigns an adversary profile. Social stakes only; use scene Stress/Fear rules if pressure escalates. Conversation only; no attack modifier unless a scene assigns an adversary profile. Social pressure: name what they want, offer the listed trait/DC move, and let the result change access, trust, timing, or information. Disposition: Unseen, urgent, and not yet safe to explain. Persuasion model: The epilogue choice is the mechanism: an honest report opens a cleaner plea, a spun report...",
+        "Portrait: assets/npc-images/the-relay-keeper/portrait_base.webp assets/npc-images/the-relay-keeper/portrait_chroma.webp assets/npc-images/the-relay-keeper/portrait_transparent.webp npc_images",
+        "Imagine It Like: Think the distant radio operator whose sudden silence is the scariest sound in the film, the keeper at the far lighthouse going dark, the voice on the other end of the line that stops mid-sentence.",
+        "Fullbody: assets/npc-images/the-relay-keeper/fullbody_base.webp assets/npc-images/the-relay-keeper/fullbody_chroma.webp assets/npc-images/the-relay-keeper/fullbody_transparent.webp"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 5676caf65ac3ff5a | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

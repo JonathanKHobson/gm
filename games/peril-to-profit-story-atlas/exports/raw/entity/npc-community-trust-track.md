@@ -1,0 +1,46 @@
+# NPC / Community Trust Track
+
+RAW export - entity:npc-community-trust-track
+
+## Player-facing description
+NPC / Community Trust Track: A generic rapport tracker for how warm, candid, generous, or guarded a person or settlement becomes after repeated choices.
+
+## Public role
+Choice and payoff tracking lane
+
+## Handout text
+Player-safe note: A generic rapport tracker for how warm, candid, generous, or guarded a person or settlement becomes after repeated choices.
+
+## Raw source
+- Type: mechanic
+- Role: Choice and payoff tracking lane
+- Summary: A generic rapport tracker for how warm, candid, generous, or guarded a person or settlement becomes after repeated choices.
+- Tags: payoff-track choice consequence module
+- Aliases: Custodian Trust Track Hush Trust Track NPC / Community Trust Track NPC trust community trust
+- Connections: Hush Clover Co-op Whitefire Custodian The Hanging Office Dustless Ward Map Relay Tremor Notation
+- Inventory: Track mark: hush_trust Track mark: custodian_trust
+- Loot: Story instances: Hush Trust and Custodian Trust.
+- Name: NPC / Community Trust Track
+- Id: npc-community-trust-track
+- Meta: Mechanic MECHANIC assets/icons/mechanic.png entity-mechanic #87b9ff 08 Tables and Loot entities mechanic
+- Related: Clover Co-op Dustless Ward Map Hush Relay Tremor Notation The Hanging Office Whitefire Custodian
+- Image Prompt: Private table TTRPG story atlas asset for NPC / Community Trust Track, Mechanic. Role: Choice and payoff tracking lane. Summary: A generic rapport tracker for how warm, candid, generous, or guarded a person or settlement becomes after repeated choices.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: A generic rapport tracker for how warm, candid, generous, or guarded a person or settlement becomes after repeated choices.; keep the rule-facing state visible through fictional signs the table can understand.
+- Wants: Turn choices around Hush, Clover Co-op, Whitefire Custodian into clear consequences the GM can track.
+- Fears: Becoming an invisible counter instead of a pressure the players can read, influence, and remember.
+- Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.
+- Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.
+- Sample Dialogue: A generic rapport tracker for how warm, candid, generous, or guarded a person or settlement becomes after repeated choices.
+- Equipment: Track mark: hush_trust Track mark: custodian_trust
+- Search Or Loot: Story instances: Hush Trust and Custodian Trust.
+- Gm Use: Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.
+- Future Hooks: Bring back as an echo if players made a strong choice involving this entity.
+- Robust: NPC / Community Trust Track: A generic rapport tracker for how warm, candid, generous, or guarded a person or settlement becomes after repeated choices. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Turn choices around Hush, Clover Co-op, Whitefire Custodian into clear consequences the GM can track. Becoming an invisible counter instead of a pressure the players can read, influence, and remember. Use when the scene needs a concrete object for players to inspect, carry, debate, or remember. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about NPC / Community Trust Track and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the institutional...
+- Pronunciation: Npc Community Trust Track
+- Short Pronunciation: Npc Community Trust Track
+- Image: assets/entities/npc-community-trust-track.webp
+- Image Asset Status: fallback_type_icon
+- Visual Gallery: primary Primary wiki image primary assets/entities/npc-community-trust-track.webp NPC / Community Trust Track primary wiki image visual. NPC / Community Trust Track: Primary wiki image. fallback_type_icon True True
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 6579edd4b488ee9c | Source hash dac3370046ed077140fab2d6

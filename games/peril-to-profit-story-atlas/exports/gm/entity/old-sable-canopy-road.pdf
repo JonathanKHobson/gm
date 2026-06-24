@@ -1,0 +1,407 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2581 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(Old Sable Canopy Road) Tj
+T*
+() Tj
+T*
+(Player-facing description) Tj
+T*
+() Tj
+T*
+(The canopy road feels like travel through the forest's memory: dim green light, root-) Tj
+T*
+(shadow bends, and old markers half-swallowed by moss.) Tj
+T*
+() Tj
+T*
+(Public role) Tj
+T*
+() Tj
+T*
+(Give the route enough texture that the later incident feels placed, not random.) Tj
+T*
+() Tj
+T*
+(Handout text) Tj
+T*
+() Tj
+T*
+(The living road beneath the branded logistics layer, remembered by locals as a place) Tj
+T*
+(instead of a service corridor.) Tj
+T*
+() Tj
+T*
+(GM truth) Tj
+T*
+() Tj
+T*
+(No forced reveal. Let this entity disclose truth through scene context and player) Tj
+T*
+(attention.) Tj
+T*
+() Tj
+T*
+(GM handling) Tj
+T*
+() Tj
+T*
+(Introduce with sensory texture, then make one discoverable clue or social choice) Tj
+T*
+(visible.) Tj
+T*
+() Tj
+T*
+(Mechanics) Tj
+T*
+() Tj
+T*
+(- Title: Location Exploration Mechanics) Tj
+T*
+(- Player Safe: Players can navigate, search, read customs, inspect hazards Old Sable) Tj
+T*
+(  Canopy Road when it is present in the fiction.) Tj
+T*
+(- Gm Only: Use the roll only when the player's method, stakes, and consequence are) Tj
+T*
+(  concrete.) Tj
+T*
+(- No Roll Reveals: Surface read: The living road beneath the branded logistics layer,) Tj
+T*
+(  remembered by locals as a place instead of a service corridor. Give obvious visible) Tj
+T*
+(  facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.) Tj
+T*
+(- Rolls: entity-old-sable-canopy-road-engage-old-sable-canopy-road entity-old-sable-) Tj
+T*
+(  canopy-road Engage Old Sable Canopy Road Engage Old Sable Canopy Road Instinct) Tj
+T*
+(  Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait) Tj
+T*
+(  from the player's method, not the entity type. A flat read of Old Sable Canopy Road) Tj
+T*
+(  hides the cost, motive, or useful next step. Critical Success: best possible version) Tj
+T*
+(  of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from) Tj
+T*
+(  the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep) Tj
+T*
+(  the position clean or generous. Success with Fear: the PC gets what they wanted, but) Tj
+T*
+(  the GM gains Fear and introduces a cost, complication, or pressure. Failure with) Tj
+T*
+(  Hope: the PC does not get the full result, but gains Hope and receives a useful) Tj
+T*
+(  thread, clue, or safer next option. Failure with Fear: the PC fails and the...) Tj
+T*
+(- Fear Spends: Reveal who benefits from the current situation. Make the cost personal) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3522 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  without closing off player agency.) Tj
+T*
+(- Condition Options: No official condition unless a hazard creates Hidden, Restrained,) Tj
+T*
+(  or Vulnerable) Tj
+T*
+(- Search Loot: Observation reveals the branded route only partially matches the older) Tj
+T*
+(  safer path.) Tj
+T*
+() Tj
+T*
+(Profile) Tj
+T*
+() Tj
+T*
+(- Schema Version: location-profile-v1) Tj
+T*
+(- Id: old-sable-canopy-road) Tj
+T*
+(- Entity Id: old-sable-canopy-road) Tj
+T*
+(- Source: Goldspire_Location_Packet/01_Sablewood_Preserve.md) Tj
+T*
+(- Auto Surface: True) Tj
+T*
+(- Priority: strong) Tj
+T*
+(- Player Safe: Old Sable Canopy Road The living road beneath the branded logistics) Tj
+T*
+(  layer, remembered by locals as a place instead of a service corridor. The living) Tj
+T*
+(  road beneath the branded logistics layer, remembered by locals as a place instead of) Tj
+T*
+(  a service corridor. The canopy road feels like travel through the forest's memory:) Tj
+T*
+(  dim green light, root-shadow bends, and old markers half-swallowed by moss. The) Tj
+T*
+(  canopy road feels like walking through a ship rigged into living trees: planks,) Tj
+T*
+(  ropes, pulley baskets, sudden views, and drops that make every joke a little) Tj
+T*
+(  sharper. The place breaks into usable table spaces: Branch platform: Wide wooden) Tj
+T*
+(  landings wrap around living trunks. Rope bridge run: Suspended bridges sway between) Tj
+T*
+(  massive branches. Cargo pulley lane: Crates and baskets pass overhead or underfoot.) Tj
+T*
+(  Canopy nest edge: Wildlife has claimed parts of the structure. Plants and materials:) Tj
+T*
+(  air moss...) Tj
+T*
+(- Block1: Old Sable Canopy Road Give the route enough texture that the later incident) Tj
+T*
+(  feels placed, not random. The living road beneath the branded logistics layer,) Tj
+T*
+(  remembered by locals as a place instead of a service corridor. The road shows local) Tj
+T*
+(  memory being covered by a managed route. Up here, local memory survives that the) Tj
+T*
+(  route below has paved over. The old ways are literally overhead. The road shows) Tj
+T*
+(  local memory being covered by a managed route. Safe paths exist only where someone) Tj
+T*
+(  keeps mending them. Weight and weather are always voting against you.) Tj
+T*
+(  pages/entities/old-sable-canopy-road.html) Tj
+T*
+(- Block2: The road narrows under branches that meet overhead. Stone markers appear in) Tj
+T*
+(  pairs, then stop where corporate signage begins. Birds restart their calls behind) Tj
+T*
+(  the party but not ahead. Wheel ruts bend around roots locals knew not to cut. Detail) Tj
+T*
+(  Leaf-drip, distant wingbeats, mushroom loam, and rainwater running down bark) Tj
+T*
+(  channels. Detail The road surface alternates between springy moss and slick clay) Tj
+T*
+(  that remembers every wheel. The canopy road feels like travel through the forest's) Tj
+T*
+(  memory: dim green light, root-shadow bends, and old markers half-swallowed by moss.) Tj
+T*
+(  The canopy road feels like walking through a ship rigged into living trees: planks,) Tj
+T*
+(  ropes, pulley baskets, sudden views, and drops that make every joke a little) Tj
+T*
+(  sharper. The place breaks into usable table spaces: Branch platform: Wide wooden) Tj
+T*
+(  landings wrap around living trunks. Rope bridge run: Suspended bridges sway) Tj
+T*
+(  between...) Tj
+T*
+(- Block3: root-shadow bends old stone markers canopy cover wheel ruts Instinct to read) Tj
+T*
+(  the silence ahead. Knowledge to follow older markers. Agility to keep footing or) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4146 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  wheels steady on slick clay. Local residents or workers appropriate to the place) Tj
+T*
+(  fox-bats hang under platforms lark-moths cluster around pulley lanterns canopy) Tj
+T*
+(  squirrels hoard route tags No default combatant; add only if the scene introduces) Tj
+T*
+(  one Local civic, trade, or route interests Food, tools, route signs, local goods, or) Tj
+T*
+(  scene-specific clues air moss, branch orchids, rope-gripping vines, bark shelves) Tj
+T*
+(  with tiny rain pools canopy repairs rope ferries packed trail food) Tj
+T*
+(- Block4: The place changes even if the PCs stand still. Local people, creatures,) Tj
+T*
+(  weather, signage, and ward behavior all keep moving around the scene. Poor pacing) Tj
+T*
+(  can make the cart scene feel abrupt. Mistaking quiet for safety gives the forest the) Tj
+T*
+(  first move. The road hides sightlines without needing enemies. The next marker has) Tj
+T*
+(  been painted over too recently. A wheel rut fills with water from below. The canopy) Tj
+T*
+(  hush arrives before the danger does. Let the place be funny through overconfident) Tj
+T*
+(  signage, awkward forms, stubborn local habits, and magic that refuses corporate) Tj
+T*
+(  language.) Tj
+T*
+(- Block5: MAP-LOC-old-sable-canopy-road) Tj
+T*
+(- Block6: Describe what the PCs can see, smell, hear, touch, ask about, or infer. Do) Tj
+T*
+(  not explain hidden infrastructure or corporate thesis until play earns it. surface) Tj
+T*
+(  The living road beneath the branded logistics layer, remembered by locals as a place) Tj
+T*
+(  instead of a service corridor. table clue The road shows local memory being covered) Tj
+T*
+(  by a managed route. earned truth Reveal deeper system meaning through NPC answers,) Tj
+T*
+(  evidence, or player questions, not narration dumps.) Tj
+T*
+(- What Here: Local residents or workers appropriate to the place fox-bats hang under) Tj
+T*
+(  platforms lark-moths cluster around pulley lanterns canopy squirrels hoard route) Tj
+T*
+(  tags No default combatant; add only if the scene introduces one Local civic, trade,) Tj
+T*
+(  or route interests Food, tools, route signs, local goods, or scene-specific clues) Tj
+T*
+(  air moss, branch orchids, rope-gripping vines, bark shelves with tiny rain pools) Tj
+T*
+(  canopy repairs rope ferries packed trail food) Tj
+T*
+(- Living Place: location-living-place-v1 elevated forest travel route The canopy road) Tj
+T*
+(  feels like walking through a ship rigged into living trees: planks, ropes, pulley) Tj
+T*
+(  baskets, sudden views, and drops that make every joke a little sharper. Branch) Tj
+T*
+(  platform Wide wooden landings wrap around living trunks. Use for pauses and vantage) Tj
+T*
+(  points. Rope bridge run Suspended bridges sway between massive branches. Use for) Tj
+T*
+(  movement choices. Cargo pulley lane Crates and baskets pass overhead or underfoot.) Tj
+T*
+(  Use for hazards and comedy. Canopy nest edge Wildlife has claimed parts of the) Tj
+T*
+(  structure. Use for ecology and detours. air moss, branch orchids, rope-gripping) Tj
+T*
+(  vines, bark shelves with tiny rain pools fox-bats hang under platforms lark-moths) Tj
+T*
+(  cluster around pulley lanterns canopy squirrels hoard route tags wind sway rope) Tj
+T*
+(  groan green drop-light distant road noise below The canopy moves with wind and) Tj
+T*
+(  weight; safe paths...) Tj
+T*
+(- Districts Or Subareas: Branch platform Wide wooden landings wrap around living) Tj
+T*
+(  trunks. Use for pauses and vantage points. Rope bridge run Suspended bridges sway) Tj
+T*
+(  between massive branches. Use for movement choices. Cargo pulley lane Crates and) Tj
+T*
+(  baskets pass overhead or underfoot. Use for hazards and comedy. Canopy nest edge) Tj
+T*
+(  Wildlife has claimed parts of the structure. Use for ecology and detours.) Tj
+T*
+(- Sensory Signature: Detail Leaf-drip, distant wingbeats, mushroom loam, and rainwater) Tj
+T*
+(  running down bark channels. Detail The road surface alternates between springy moss) Tj
+T*
+(  and slick clay that remembers every wheel.) Tj
+T*
+(- Visual Assets: location-visual-assets-v1 old-sable-canopy-road Old Sable Canopy Road) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 1286 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Bright comedic frontier high-fantasy concept art for a Daggerheart-adjacent tabletop) Tj
+T*
+(  RPG. Medieval/Renaissance fantasy technology only: hand tools, wagons, ropes,) Tj
+T*
+(  parchment notices, ward-stones, carved wood, brass, cloth, stone, moss, lanterns,) Tj
+T*
+(  and magic. The tone is colorful, playful, slightly absurd, and vivid, like a fantasy) Tj
+T*
+(  corporate frontier comedy rather than a grim drama. No sci-fi machinery, no) Tj
+T*
+(  1800s/Victorian clothing, no modern suits, no guns, no logos, no readable text, no) Tj
+T*
+(  watermark, no border, no collage. /Users/kyle/Documents/My Games/Peril To) Tj
+T*
+(  Profit/story-atlas/src/location_visual_assets/old-sable-canopy-road MAP-LOC-old-) Tj
+T*
+(  sable-canopy-road elevated forest road vertical top-down canopy route map) Tj
+T*
+(  profile_scene Profile image ready /Users/kyle/Documents/My Games/Peril To...) Tj
+T*
+(- Imagine It Like: A canopy walkway or zipline park crossed with a working dockyard.) Tj
+T*
+(  Think rope bridges, cargo pulleys, and a tree-fort someone actually commutes) Tj
+T*
+(  through.) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash b88ee91dd60d51e4 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R] /Count 4 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000002642 00000 n 
+0000002769 00000 n 
+0000006343 00000 n 
+0000006470 00000 n 
+0000010668 00000 n 
+0000010795 00000 n 
+0000012133 00000 n 
+0000012260 00000 n 
+0000012335 00000 n 
+0000012385 00000 n 
+trailer
+<< /Size 12 /Root 10 0 R >>
+startxref
+12458
+%%EOF

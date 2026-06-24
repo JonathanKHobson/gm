@@ -1,0 +1,52 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "S03-01",
+  "title": "S03-01 - Arrival at Hush",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "ef21ffcb8359e62f",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "A tall stone pillar rises beside the road, carved top to bottom with old protective marks and newer brass stamps. As the carriage passes it, you feel a small sensation like a bubble popping. The forest hush gives way to friendly chatter, tavern music, and smiling faces turning to wave you in. The trees are still colossal, but here the air feels safe. What do you do?"
+    },
+    {
+      "title": "Public objective",
+      "body": "Enter the village, get your bearings, and find the person who keeps this place safe."
+    },
+    {
+      "title": "GM goal",
+      "body": "Run the ward-boundary crossing, the first welcome, and the first read of how prior choices affect Hush trust."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "Hush people are sincere. Company marks are the unease.",
+        "Player-safe language: old protective marks, newer official stamps, the ward, the package."
+      ]
+    },
+    {
+      "title": "GM script",
+      "body": "Say: \"That bubble-pop is the ward. You just crossed into protected ground. If you arrived with mercy behind you, the welcome feels warmer. If the road behind you was bloodier, the welcome is polite but watchful.\""
+    },
+    {
+      "title": "State controls",
+      "items": [
+        "strixwolf_disposition Strixwolf Disposition select unresolved calm hostile killed",
+        "package_status Package Status select held lost",
+        "hush_trust Hush Trust select low neutral high",
+        "ward_awareness Ward Awareness select none seed aware",
+        "strixwolf_outcome Strixwolf Outcome select unresolved calmed helped avoided attacked killed",
+        "bramble_outcome Bramble Outcome select unresolved killed captured spared negotiated escaped let_cargo",
+        "bramble_truth_learned Bramble Truth Learned checkbox"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash ef21ffcb8359e62f | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

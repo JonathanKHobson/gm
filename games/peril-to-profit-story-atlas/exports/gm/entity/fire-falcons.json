@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "fire-falcons",
+  "title": "Fire-Falcons",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "d1c07543fecbf391",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Three falcons watch from charred branches. Their feathers glow at the edges like coals under ash, and every head turns at once."
+    },
+    {
+      "title": "Public role",
+      "body": "Violent light-bearing Sable Sinecure companion birds"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Sleek ember-orange falcons with coal-black wing tips and feather edges like banked fire, beautiful enough for prestige and sharp enough to make a cache feel watched."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use as prestige and warning-light pressure for the Sable Sinecure; they signal danger before they become danger."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash d1c07543fecbf391 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

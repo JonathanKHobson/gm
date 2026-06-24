@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S05-06",
+  "kind": "scene",
+  "title": "S05-06 - Market Correction",
+  "in_world_label": "Situation Briefing",
+  "brand_flag": "Briefing",
+  "kicker": "The Ward Renewal",
+  "hook": "The runes stutter. Somewhere under the soil, something old receives permission to continue.",
+  "blocks": [
+    {
+      "label": "Where You Are",
+      "body": "The runes stutter. Somewhere under the soil, something old receives permission to continue."
+    },
+    {
+      "label": "Plain Stakes",
+      "body": "The environment produces more skeletons when pressure is needed."
+    },
+    {
+      "label": "Visible Options",
+      "body": "Spend Fear Summon skeletons Escalate ritual instability"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "What detail in Market Correction tells you the official story is incomplete?",
+    "Who notices the human cost first, and how do they show it?",
+    "What small object, smell, or sound makes this scene feel real?"
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - scene:S05-06",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "6dffb9700c5d152c",
+  "generated_at": "2026-06-23T21:40:58"
+}

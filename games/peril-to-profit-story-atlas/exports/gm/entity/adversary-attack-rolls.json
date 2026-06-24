@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "adversary-attack-rolls",
+  "title": "Adversary Attack Rolls",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "c012cef6ecb2b20e",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Adversary Attack Rolls: Adversaries roll d20 plus attack modifier against PC Evasion."
+    },
+    {
+      "title": "Public role",
+      "body": "Adversary attack resolution reference"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Adversaries roll d20 plus attack modifier against PC Evasion."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use when the scene needs a concrete object for players to inspect, carry, debate, or remember."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash c012cef6ecb2b20e | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

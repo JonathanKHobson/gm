@@ -1,0 +1,48 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "MAP-LOC-the-stones-of-the-vale",
+  "title": "MAP-LOC-the-stones-of-the-vale - The Stones of the Vale Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "aecc319a17856bfb",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The clearing's stones make the ward visible: blue seams, old cuts, moss-lit lanes, and a center that pulls every sound inward before the ritual begins."
+    },
+    {
+      "title": "Public objective",
+      "body": "The clearing's stones make the ward visible: blue seams, old cuts, moss-lit lanes, and a center that pulls every sound inward before the ritual begins."
+    },
+    {
+      "title": "GM goal",
+      "body": "Foreshadow battlefield geometry without starting combat early."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "This is a close-detail map, not a separate route."
+      ]
+    },
+    {
+      "title": "GM script",
+      "body": "Say: \"These stones are the close-up of the ritual geometry. Read them now if you want the opening pressure to be less blind.\""
+    },
+    {
+      "title": "State controls",
+      "items": [
+        "ward_stability Ward Stability select fragile stable",
+        "ritual_prep Ritual Prep select unready ready",
+        "keystone_understanding Keystone Understanding select surface deep",
+        "ritual_countdown Ritual Countdown number 10 8"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash aecc319a17856bfb | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

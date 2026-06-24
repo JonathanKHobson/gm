@@ -1,0 +1,316 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2549 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-the-fire-walk - The Fire Walk Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The Fire Walk smells of ash, resin, and ritualized courage, a path where heat is both) Tj
+T*
+(danger and credential.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(The Fire Walk smells of ash, resin, and ritualized courage, a path where heat is both) Tj
+T*
+(danger and credential.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-the-fire-walk) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: STORY) Tj
+T*
+(- Sectiontitle: Map Board) Tj
+T*
+(- Title: The Fire Walk Location Map) Tj
+T*
+(- Shorttitle: The Fire Walk) Tj
+T*
+(- Order: 851.1) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-the-fire-walk-gm.png) Tj
+T*
+(- Alt: The Fire Walk location map board.) Tj
+T*
+(- Caption: Visual reference for The Fire Walk.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Make heat tactile, respectful, and consequential.) Tj
+T*
+(- Publicobjective: The Fire Walk smells of ash, resin, and ritualized courage, a path) Tj
+T*
+(  where heat is both danger and credential.) Tj
+T*
+(- Readaloud: The Fire Walk smells of ash, resin, and ritualized courage, a path where) Tj
+T*
+(  heat is both danger and credential.) Tj
+T*
+(- Playertakeaway: The Fire Walk smells of ash, resin, and ritualized courage, a path) Tj
+T*
+(  where heat is both danger and credential.) Tj
+T*
+(- Storytakeaway: The Fire Walk makes danger cultural without making it fake.) Tj
+T*
+(- Mechanictakeaway: Use as a focused travel or ritual challenge only if visited.) Tj
+T*
+(- Entityids: the-fire-walk) Tj
+T*
+(- Entities: the-fire-walk The Fire Walk location Location assets/icons/location.png) Tj
+T*
+(  assets/location-visuals/the-fire-walk/profile_scene_v02.png the FYRE wawlk A route) Tj
+T*
+(  or ritualized path where fire becomes both danger and logistics credential in) Tj
+T*
+(  Sablewood's local economy. Make heat tactile, respectful, and consequential. A route) Tj
+T*
+(  or ritualized path where fire becomes both danger and logistics credential in) Tj
+T*
+(  Sablewood's local economy.; introduce it with a sensory palette, who feels safe) Tj
+T*
+(  there, and what has been neglected. Pull player attention toward the choices, clues,) Tj
+T*
+(  and relationships tied to The Refuge, The Ash Quarry, Fire-Falcons. A route or) Tj
+T*
+(  ritualized path where fire becomes both danger and logistics credential in) Tj
+T*
+(  Sablewood's local economy.) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4200 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Locationids: the-fire-walk) Tj
+T*
+(- Fearspends: An old burn mark glows again. A safe stone cracks with a sound like) Tj
+T*
+(  snapping bone.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Mapdata: MAP-LOC-the-fire-walk environment The Fire Walk Location Map the-fire-walk) Tj
+T*
+(  assets/location-visuals/the-fire-walk/profile_scene_v02.png Visual reference for The) Tj
+T*
+(  Fire Walk. The Fire Walk location map board. The Fire Walk smells of ash, resin, and) Tj
+T*
+(  ritualized courage, a path where heat is both danger and credential. The Fire Walk) Tj
+T*
+(  smells of ash, resin, and ritualized courage, a path where heat is both danger and) Tj
+T*
+(  credential. Make heat tactile, respectful, and consequential. Blackened stones mark) Tj
+T*
+(  a route through controlled flame scars. Offerings, boot marks, and old safety hooks) Tj
+T*
+(  line the edges. Some burns are ceremonial; others are accidents nobody rebranded.) Tj
+T*
+(  Leaf-drip, insects, distant wingbeats, and animal calls that stop or resume) Tj
+T*
+(  according to pressure, not comfort. Hot resin, ash, singed moss, and sweat. Stones) Tj
+T*
+(  hold heat long after flame passes; ash coats fingers in fine gray layers. The forest) Tj
+T*
+(  is populated even when no NPC is present; silence, birds, insects, and tracks are) Tj
+T*
+(  actionable signals. Blackened stones mark a route through controlled flame scars.) Tj
+T*
+(  Offerings, boot marks, and old safety hooks line the edges. Some burns are) Tj
+T*
+(  ceremonial; others are accidents nobody rebranded...) Tj
+T*
+(- Livetools: scene MAP-LOC-the-fire-walk) Tj
+T*
+(- Takeawayhelp: Player takeaway: MAP-LOC-the-fire-walk The Fire Walk smells of ash,) Tj
+T*
+(  resin, and ritualized courage, a path where heat is both danger and credential. Give) Tj
+T*
+(  the player one concrete way back into play: a question, a description, a choice, or) Tj
+T*
+(  a pass-and-return moment. "Your takeaway right now is this: The Fire Walk smells of) Tj
+T*
+(  ash, resin, and ritualized courage, a path where heat is both danger and) Tj
+T*
+(  credential." "If you are not sure what to do next, you can ask a question, describe) Tj
+T*
+(  what your character notices, or tell me what your character tries." "If you are not) Tj
+T*
+(  sure what to do next, you can ask a question, describe what your character notices,) Tj
+T*
+(  or tell me what your character tries." Give the player one concrete way back into) Tj
+T*
+(  play: a question, a description, a choice, or a pass-and-return moment. Story) Tj
+T*
+(  takeaway: MAP-LOC-the-fire-walk The Fire Walk makes danger cultural without making) Tj
+T*
+(  it fake. Anchor the answer in the visible fiction on this slide: who is present,) Tj
+T*
+(  what can be observed, what has already been said, and what remains uncertain. "Here) Tj
+T*
+(  is what your characters know right now: The Fire Walk makes danger cultural without) Tj
+T*
+(  making it fake." "If you want more detail, ask it in the...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-the-fire-walk-player.png The Fire Walk location map) Tj
+T*
+(  board. MAP-LOC-the-fire-walk environment The Fire Walk assets/maps/MAP-LOC-the-fire-) Tj
+T*
+(  walk-player.png assets/maps/MAP-LOC-the-fire-walk-player.png Visual reference for) Tj
+T*
+(  The Fire Walk. The Fire Walk location map board. The Fire Walk smells of ash, resin,) Tj
+T*
+(  and ritualized courage, a path where heat is both danger and credential. The Fire) Tj
+T*
+(  Walk smells of ash, resin, and ritualized courage, a path where heat is both danger) Tj
+T*
+(  and credential. MAP-LOC-the-fire-walk-map-only Map only The Fire Walk map-only) Tj
+T*
+(  assets/maps/MAP-LOC-the-fire-walk-player.png The Fire Walk location map board. MAP-) Tj
+T*
+(  LOC-the-fire-walk environment The Fire Walk assets/maps/MAP-LOC-the-fire-walk-) Tj
+T*
+(  player.png assets/maps/MAP-LOC-the-fire-walk-player.png Visual reference for The) Tj
+T*
+(  Fire Walk. The Fire Walk location map board. The Fire Walk smells of ash, resin, and) Tj
+T*
+(  ritualized courage, a path where heat is both danger and credential. The Fire Walk) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 1987 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  smells of ash, resin, and ritualized courage, a path where heat is both danger and) Tj
+T*
+(  credential. MAP-LOC-the-fire-walk-map-text Map + text The Fire Walk The Fire Walk) Tj
+T*
+(  smells of ash, resin, and ritualized courage, a path...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-the-fire-walk map The Fire Walk assets/maps/MAP-LOC-) Tj
+T*
+(  the-fire-walk-player.png The Fire Walk location map board. Visual reference for The) Tj
+T*
+(  Fire Walk. spatial reference and location texture The Fire Walk smells of ash,) Tj
+T*
+(  resin, and ritualized courage, a path where heat is both danger and credential. The) Tj
+T*
+(  Fire Walk smells of ash, resin, and ritualized courage, a path where heat is both) Tj
+T*
+(  danger and credential. MAP-LOC-the-fire-walk environment The Fire Walk) Tj
+T*
+(  assets/maps/MAP-LOC-the-fire-walk-player.png assets/maps/MAP-LOC-the-fire-walk-) Tj
+T*
+(  player.png Visual reference for The Fire Walk. The Fire Walk location map board. The) Tj
+T*
+(  Fire Walk smells of ash, resin, and ritualized courage, a path where heat is both) Tj
+T*
+(  danger and credential. The Fire Walk smells of ash, resin, and ritualized courage, a) Tj
+T*
+(  path where heat is both danger and credential. assets/maps/MAP-LOC-the-fire-walk-) Tj
+T*
+(  player.png The Fire Walk location map board. MAP-LOC-the-fire-walk environment The) Tj
+T*
+(  Fire Walk assets/maps/MAP-LOC-the-fire-walk-player.png assets/maps/MAP-LOC-the-fire-) Tj
+T*
+(  walk-player.png Visual reference for The Fire Walk. The Fire Walk location map) Tj
+T*
+(  board. The Fire Walk smells of ash, resin, and ritualized courage, a path where...) Tj
+T*
+(- Slidenumber: 92) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 03c52cc9555fa018 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002610 00000 n 
+0000002736 00000 n 
+0000006988 00000 n 
+0000007114 00000 n 
+0000009153 00000 n 
+0000009279 00000 n 
+0000009348 00000 n 
+0000009397 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+9469
+%%EOF

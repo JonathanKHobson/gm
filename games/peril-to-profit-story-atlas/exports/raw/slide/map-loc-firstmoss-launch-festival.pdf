@@ -1,0 +1,451 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2619 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-firstmoss-launch-festival - Firstmoss Launch Festival Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The lane opens into a village festival: green lanterns, mossfruit cakes, damp banners,) Tj
+T*
+(children under watchful eyes, and music doing its best to be louder than the ward's) Tj
+T*
+(uneven hum.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(The lane opens into a village festival: green lanterns, mossfruit cakes, damp banners,) Tj
+T*
+(children under watchful eyes, and music doing its best to be louder than the ward's) Tj
+T*
+(uneven hum.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-firstmoss-launch-festival) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: ACT-THREE) Tj
+T*
+(- Sectiontitle: Act Three: Seeking a Custodian) Tj
+T*
+(- Title: Firstmoss Launch Festival Location Map) Tj
+T*
+(- Shorttitle: Firstmoss Festival) Tj
+T*
+(- Order: 401.24) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-firstmoss-launch-festival-gm.png) Tj
+T*
+(- Alt: Firstmoss Launch Festival location map board.) Tj
+T*
+(- Caption: Visual reference for Firstmoss Launch Festival.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Use the festival as optional joy with a concrete boon and a quiet farm/ward) Tj
+T*
+(  seed.) Tj
+T*
+(- Publicobjective: The lane opens into a village festival: green lanterns, mossfruit) Tj
+T*
+(  cakes, damp banners, children under watchful eyes, and music doing its best to be) Tj
+T*
+(  louder than the ward's uneven hum.) Tj
+T*
+(- Readaloud: The lane opens into a village festival: green lanterns, mossfruit cakes,) Tj
+T*
+(  damp banners, children under watchful eyes, and music doing its best to be louder) Tj
+T*
+(  than the ward's uneven hum.) Tj
+T*
+(- Gmscript: Say: "Festival participation is a real option, not filler. If the party) Tj
+T*
+(  joins sincerely, name the boon before moving on.") Tj
+T*
+(- Gmreadaloud: Green lanterns and mossfruit cakes. Arm-wrestling, stone-painting, and) Tj
+T*
+(  trinket stalls. Music trying to be louder than the ward hum.) Tj
+T*
+(- Gmchecklist: Offer contests. Grant festival_boon on participation or win. Seed) Tj
+T*
+(  farm/ward only if probed. Loop back to hub or forward to farms.) Tj
+T*
+(- Gmprivate: The festival celebrates a managed crop. Keep the crop-management truth as) Tj
+T*
+(  seed, not reveal.) Tj
+T*
+(- Playertakeaway: The lane opens into a village festival: green lanterns, mossfruit) Tj
+T*
+(  cakes, damp banners, children under watchful eyes, and music doing its best to be) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3950 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  louder than the ward's uneven hum.) Tj
+T*
+(- Storytakeaway: The festival shows what the ward protects: joy, food, children, work,) Tj
+T*
+(  and tomorrow.) Tj
+T*
+(- Mechanictakeaway: Low-stakes contests can still create real state:) Tj
+T*
+(  festival_participation, festival_boon, and hush_trust.) Tj
+T*
+(- Entityids: hush the-sunless-farms lausa-standworth festival-moths sunless-farm-moss) Tj
+T*
+(  ratcoons) Tj
+T*
+(- Entities: hush Hush location Location assets/icons/location.png assets/location-) Tj
+T*
+(  visuals/hush/profile_scene_v02.png hush, like quiet A real village under corporate) Tj
+T*
+(  designation, protected by ward pillars. Make Hush feel worth protecting before the) Tj
+T*
+(  finale asks the party to protect it. The Village A small forest village, named only) Tj
+T*
+(  once the players ask where the package is going. Warm local community with jokes,) Tj
+T*
+(  food, arguments, work songs, children, elders, and a very real need for the ward to) Tj
+T*
+(  hold. Another season of safety, crops, music, ordinary life, and visitors who learn) Tj
+T*
+(  the old name before the corporate one. A real village under corporate designation,) Tj
+T*
+(  protected by ward pillars. the-sunless-farms The Sunless Farms location Location) Tj
+T*
+(  assets/icons/location.png assets/location-visuals/the-sunless-) Tj
+T*
+(  farms/profile_scene_v02.png the SUN-less farms A farming region shaped by canopy-) Tj
+T*
+(  darkness, local ingenuity, and crops that do not need corporate sunlight to grow.) Tj
+T*
+(  Make food production feel like protected culture. A farming region shaped by canopy-) Tj
+T*
+(  darkness, local ingenuity, and crops that do not need corporate sunlight to grow.;) Tj
+T*
+(  introduce it with a sensory palette, who feels safe there, and what has...) Tj
+T*
+(- Locationids: hush the-sunless-farms) Tj
+T*
+(- Statecontrols: festival_participation Festival Participation checkbox festival_boon) Tj
+T*
+(  Festival Boon select none charm favor market_find goodwill hush_trust Hush Trust) Tj
+T*
+(  select low neutral high ward_awareness Ward Awareness select none seed aware) Tj
+T*
+(- Mechanicids: strength finesse presence hope instinct) Tj
+T*
+(- Fearspends: The music drops out when a ward chime misses. A child asks whether the) Tj
+T*
+(  light will still work tomorrow. Someone starts clearing space in case the crate is) Tj
+T*
+(  dangerous.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S03-01 S03-02 S03-03 S03-04) Tj
+T*
+(- Mapdata: MAP-LOC-firstmoss-launch-festival environment Firstmoss Launch Festival) Tj
+T*
+(  Location Map S03-01 S03-02 S03-03 S03-04 hush the-sunless-farms lausa-standworth) Tj
+T*
+(  festival-moths sunless-farm-moss ratcoons assets/location-visuals/firstmoss-launch-) Tj
+T*
+(  festival/profile_scene_v02.png Visual reference for Firstmoss Launch Festival.) Tj
+T*
+(  Firstmoss Launch Festival location map board. The lane opens into a village) Tj
+T*
+(  festival: green lanterns, mossfruit cakes, damp banners, children under watchful) Tj
+T*
+(  eyes, and music doing its best to be louder than the ward's uneven hum. The lane) Tj
+T*
+(  opens into a village festival: green lanterns, mossfruit cakes, damp banners,) Tj
+T*
+(  children under watchful eyes, and music doing its best to be louder than the ward's) Tj
+T*
+(  uneven hum. Use the festival as optional joy with a concrete boon and a quiet) Tj
+T*
+(  farm/ward seed. Green lanterns, damp banners, mossfruit baskets, children's game) Tj
+T*
+(  stones, and adults keeping lanes clear without calling it guarding. Work songs,) Tj
+T*
+(  clapping, small feet on mud, griddle hiss, and the sudden dip in music whenever the) Tj
+T*
+(  ward hum catches wrong. Sweet mossfruit, hot griddle cakes, trampled clover, rain on) Tj
+T*
+(  lantern paper, and smoke from cookfires kept low. Mud is springy under...) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4248 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Sourcefiles: dist/Act3_Upgrade_Packet/ACT3_MAPS_AND_LOCATIONS.md) Tj
+T*
+(- References: Festival scene #S03-04) Tj
+T*
+(- Livetools: scene MAP-LOC-firstmoss-launch-festival) Tj
+T*
+(- Percharacterlayer: khari-nix Khari Nix Arm-wrestling contest Can dominate the arm-) Tj
+T*
+(  wrestling competition and likely earn the festival_boon. Khari, there is an arm-) Tj
+T*
+(  wrestling contest with your name on it. Want to win the town's heart? varian-soto) Tj
+T*
+(  Varian Soto Sunless Farms scent Notices the moss-crops are grown under managed,) Tj
+T*
+(  sunless conditions rather than wild growth. Instinct 13 The farms are carefully) Tj
+T*
+(  managed infrastructure; seed the truth without naming the full system. Can point the) Tj
+T*
+(  party toward the farms as a clue source. Varian, those crops do not grow like wild) Tj
+T*
+(  things. Want to look closer? marlowe-fairwind Marlowe Fairwind Farm and ward) Tj
+T*
+(  signature Knowledge 13 The farm-magic and ward-work share a signature, as if the) Tj
+T*
+(  same system maintains both. Can connect festival joy to protection magic without) Tj
+T*
+(  revealing the full cost. Marlowe, the farm-magic and the ward feel like the same) Tj
+T*
+(  author. Want to trace the resemblance? garrick-reed Garrick Reed Organized) Tj
+T*
+(  volunteers Recognizes festival volunteers moving with company-style precision. Can) Tj
+T*
+(  identify who is coordinating the crowd if the party needs a contact. Garrick, this) Tj
+T*
+(  festival is organized company-style. Want to clock who is really running it?...) Tj
+T*
+(- Gmbeats: MAP-LOC-firstmoss-launch-festival-contest Contest Pick a joy Say: "Arm-) Tj
+T*
+(  wrestle, paint, shop, dance, or just watch kindly." The festival gives low-stakes) Tj
+T*
+(  contests and market play. Joy becomes stake. Contests can grant festival_boon.) Tj
+T*
+(  Players have concrete noncombat actions. Player takeaway Players have concrete) Tj
+T*
+(  noncombat actions. "Arm-wrestle, paint, shop, dance, or just watch kindly." "The) Tj
+T*
+(  playable fact is: The festival gives low-stakes contests and market play." Concrete) Tj
+T*
+(  actions for this beat: talk to a person present, inspect the named detail, help an) Tj
+T*
+(  ally, or choose whether to move toward the Custodian route. strength finesse) Tj
+T*
+(  presence Story takeaway Joy becomes stake. "Arm-wrestle, paint, shop, dance, or just) Tj
+T*
+(  watch kindly." "The story fact in play is: Joy becomes stake." This beat changes Act) Tj
+T*
+(  3 through this exact pressure: Joy becomes stake. strength finesse presence Mechanic) Tj
+T*
+(  takeaway Contests can grant festival_boon. "Arm-wrestle, paint, shop, dance, or just) Tj
+T*
+(  watch kindly." "The active procedure is: Contests can grant festival_boon." Run) Tj
+T*
+(  intent first, then choose Presence, Instinct, Knowledge, Strength, or Finesse only) Tj
+T*
+(  when the fiction is risky or uncertain. strength finesse...) Tj
+T*
+(- Takeawayhelp: Player takeaway Festival participation is optional and rewarding.) Tj
+T*
+(  "Join in if you want a good day and a small thing to carry forward." "Concrete) Tj
+T*
+(  choices: arm-wrestle, paint, browse, ask about Firstmoss, dance, help a stall, or) Tj
+T*
+(  move on." Make the choice low-pressure. The cost of skipping is only missing the) Tj
+T*
+(  boon. strength finesse presence hope Story takeaway The festival makes Hush's stakes) Tj
+T*
+(  emotionally visible. "This is what safety buys: cakes, games, children laughing, and) Tj
+T*
+(  people planning next season." "Firstmoss means the moss-crops are ripening. A deeper) Tj
+T*
+(  farm-management read requires curiosity and a roll." Joy carries the story. The) Tj
+T*
+(  hidden truth should not flatten the moment. strength finesse presence hope Mechanic) Tj
+T*
+(  takeaway The map supports Strength, Finesse, Presence, and Hope without combat.) Tj
+T*
+(  "Strength 12 for the arm-wrestle. Finesse or Presence 12 for painting or mingling. A) Tj
+T*
+(  good contribution earns festival_boon." "Set festival_participation true and pick) Tj
+T*
+(  the boon type: charm, favor, market find, or goodwill." This is a mechanics variety) Tj
+T*
+(  beat: reward participation and roleplay with usable state. strength finesse presence) Tj
+T*
+(  hope) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 3090 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Playerbeats: assets/maps/MAP-LOC-firstmoss-launch-festival.png Firstmoss Festival) Tj
+T*
+(  map board. MAP-LOC-firstmoss-launch-festival environment Firstmoss Festival S03-01) Tj
+T*
+(  S03-02 S03-03 S03-04 assets/maps/MAP-LOC-firstmoss-launch-festival.png) Tj
+T*
+(  assets/maps/MAP-LOC-firstmoss-launch-festival.png Firstmoss Festival map board. The) Tj
+T*
+(  lane opens into a village festival: green lanterns, mossfruit cakes, damp banners,) Tj
+T*
+(  children under watchful eyes, and music doing its best to be louder than the ward's) Tj
+T*
+(  uneven hum. The lane opens into a village festival: green lanterns, mossfruit cakes,) Tj
+T*
+(  damp banners, children under watchful eyes, and music doing its best to be louder) Tj
+T*
+(  than the ward's uneven hum. MAP-LOC-firstmoss-launch-festival-map-only Map only) Tj
+T*
+(  Firstmoss Festival map-only assets/maps/MAP-LOC-firstmoss-launch-festival.png) Tj
+T*
+(  Firstmoss Festival map board. MAP-LOC-firstmoss-launch-festival environment) Tj
+T*
+(  Firstmoss Festival S03-01 S03-02 S03-03 S03-04 assets/maps/MAP-LOC-firstmoss-launch-) Tj
+T*
+(  festival.png assets/maps/MAP-LOC-firstmoss-launch-festival.png Firstmoss Festival) Tj
+T*
+(  map board. The lane opens into a village festival: green lanterns, mossfruit cakes,) Tj
+T*
+(  damp banners, children under watchful eyes, and music doing its best to...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-firstmoss-launch-festival map Firstmoss Festival) Tj
+T*
+(  assets/maps/MAP-LOC-firstmoss-launch-festival.png Firstmoss Festival map board.) Tj
+T*
+(  spatial reference and location texture The lane opens into a village festival: green) Tj
+T*
+(  lanterns, mossfruit cakes, damp banners, children under watchful eyes, and music) Tj
+T*
+(  doing its best to be louder than the ward's uneven hum. The lane opens into a) Tj
+T*
+(  village festival: green lanterns, mossfruit cakes, damp banners, children under) Tj
+T*
+(  watchful eyes, and music doing its best to be louder than the ward's uneven hum.) Tj
+T*
+(  MAP-LOC-firstmoss-launch-festival environment Firstmoss Festival S03-01 S03-02) Tj
+T*
+(  S03-03 S03-04 assets/maps/MAP-LOC-firstmoss-launch-festival.png assets/maps/MAP-LOC-) Tj
+T*
+(  firstmoss-launch-festival.png Firstmoss Festival map board. The lane opens into a) Tj
+T*
+(  village festival: green lanterns, mossfruit cakes, damp banners, children under) Tj
+T*
+(  watchful eyes, and music doing its best to be louder than the ward's uneven hum. The) Tj
+T*
+(  lane opens into a village festival: green lanterns, mossfruit cakes, damp banners,) Tj
+T*
+(  children under watchful eyes, and music doing its best to be louder than the ward's) Tj
+T*
+(  uneven hum. assets/maps/MAP-LOC-firstmoss-launch-festival.png Firstmoss...) Tj
+T*
+(- Slidenumber: 43) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 1ce2f720041c6d70 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R] /Count 4 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000002680 00000 n 
+0000002807 00000 n 
+0000006809 00000 n 
+0000006936 00000 n 
+0000011236 00000 n 
+0000011363 00000 n 
+0000014505 00000 n 
+0000014632 00000 n 
+0000014707 00000 n 
+0000014757 00000 n 
+trailer
+<< /Size 12 /Root 10 0 R >>
+startxref
+14830
+%%EOF

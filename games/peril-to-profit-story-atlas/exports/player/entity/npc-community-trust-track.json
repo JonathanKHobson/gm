@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "npc-community-trust-track",
+  "kind": "entity",
+  "title": "NPC / Community Trust Track",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Mechanic",
+  "hook": "Player-safe note: A generic rapport tracker for how warm, candid, generous, or guarded a person or settlement becomes after repeated choices.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "A generic rapport tracker for how warm, candid, generous, or guarded a person or settlement becomes after repeated choices."
+    },
+    {
+      "label": "How It Works",
+      "body": "Choice and payoff tracking lane"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use this when your action is uncertain and consequences matter.",
+    "Ask which trait fits your method."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:npc-community-trust-track",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "236b07409493f866",
+  "generated_at": "2026-06-23T21:40:58"
+}

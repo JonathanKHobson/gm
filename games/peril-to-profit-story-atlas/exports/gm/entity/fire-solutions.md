@@ -1,0 +1,41 @@
+# Fire Solutions
+
+GM export - entity:fire-solutions
+
+## Player-facing description
+Orange water-wagons, fire-bright crews, free Ember Alarms, and a smiling foreman who always arrives impressively early.
+
+## Public role
+The Refuge and the Fire Walk show the burned ground and the grateful survivors who now pay a retainer.
+
+## Handout text
+Fire Solutions™: ahead of the flames. Heroic crews, fast wagons, and a retainer for every household that wants to be saved in time.
+
+## GM truth
+Fire Solutions sells protection from a danger it quietly supplies: burn the brush, let the woods catch, arrive as heroes, and bill the survivors.
+
+## GM handling
+Use Fire Solutions in the Refuge and Fire Walk material to make the corporate satire bite: the rescue is real, and so is the racket.
+
+## Profile
+- Schema Version: faction-profile-v1
+- Id: fire-solutions
+- Entity Id: fire-solutions
+- Source: audit-added (CONTEXT_SUMMARY names Fire Solutions as the Refuge's forest-burners)
+- Priority: strong
+- Corporate: True
+- Atlas Lore Note: Recovered from the Claude handoff context: Fire Solutions is the Refuge-linked forest-burner and fire-safety contractor faction that was missing from the generated faction set.
+- Auto Surface: False
+- Prompt Key: fire-solutions
+- Entity Name: Fire Solutions
+- Player Safe: Fire Solutions Heroic fire-safety crews who clear dangerous brush, sell fire wards, and are always, impressively, first on the scene. Fire Solutions™: ahead of the flames. Fire Solutions™ is a forest-safety contractor that clears hazardous undergrowth, sells fire wards, and arrives to save you from blazes with remarkable, suspicious speed. Fire Solutions™ rolls in like a parade of competence: orange-lacquered water-wagons, crews in flame-bright livery, a beaming foreman handing out free Ember Alarms™ and FireSafe Family™ pamphlets. Buy a Controlled-Burn Subscription™, a Defensible Perimeter™ package, a Rapid Response Retainer™ that guarantees a crew within the hour. They are genuinely fast, genuinely brave, and genuinely everywhere a fire happens to start. The brochure shows a saved village and a grateful child. The crews are heroes. It is just a remarkable coincidence how reliably the...
+- Block1: Fire Solutions Fire Solutions FireSafe Heroic fire-safety crews who clear dangerous brush, sell fire wards, and are always, impressively, first on the scene. Sell protection from a danger they quietly supply: burn the brush, then the woods, then the bill. The Refuge and the Fire Walk show the burned ground and the grateful survivors who now pay a retainer. Heroically friendly, proud of the rescues, and visibly uncomfortable if you ask who reported the fire. Proof of where a fire started, a burn pattern that does not match an accident, or a survivor who saw the wagons arrive too early. pages/entities/fire-solutions.html FY-er so-LOO-shunz
+- Block2: The frontier's trusted name in fire safety, first wagon to every blaze and first invoice after. Brush-clearing crews, fire wards, water-wagons, and the Refuge's burned-over perimeter. Manufacture the emergency they answer: thin the forest, let it catch, arrive as heroes, and sell the retainer to everyone who just watched a neighbor burn. Real firefighters who love the saving part work beside managers who schedule the 'controlled' burns; most crews do not know which fires were homework. Running cheerful 'fire awareness' drives in the dry season while controlled burns creep closer to villages that have not yet subscribed. Institutional beliefs: The Season We Saved Everyone (Who Paid); Brush Is Liability; A Grateful Village Renews.
+- Block3: The Grail Goldwater Financial Institution Other brands in staged public competition Goldspire Logistics paperwork dry seasons public gratitude Forest villages and smallholders who cannot afford a retainer until they have already watched the tree line burn.
+- Block4: Fire Solutions™: ahead of the flames. Fire-bright orange and ash-grey, water-wagon livery, soot-smudged but smiling, and a heroic mascot firefighter giving a thumbs-up over a saved cottage. Forest's been awful dry lately. Lucky we're close! First on the scene, every time, that's the Fire Solutions promise! Can't put a price on safety. So we put a retainer on it! Use the generated logo as the profile mark; show the heroic public rescue and the buried cause separately. Seed only for a future theme pass; do not generate music in this implementation.
+- Block5: The Refuge's survivors and the Fire Walk's scorched ground are Fire Solutions' satisfied customers. Daily safety in the dry season depends on a brand that profits from the very fire it fights. Never player-facing on first contact: the 'controlled' burns are not always controlled, and not always accidental. Deepest layer, GM-only: Board ownership sits behind this brand; the burns keep protection demand healthy, and the money flows up to Athervast. surface Fire Solutions looks like heroic fire safety: fast crews, free alarms, grateful villages. earned They are always first, sometimes impossibly first, and the people who did not subscribe are the ones who burn. gm_only They set what they fight; the peril is the product, routed to the Board. Knowledge 12 reads a burn pattern that started in cleared brush, not lightning. Presence 13 gets a guilt-sick crew member to admit the 'controlled'...
+- Imagine It Like: Think a private fire brigade that sets the fires it charges to put out (the real 1800s insurance-brigade racket), a Borderlands-grade enthusiasm applied to arson, a protection racket in a firefighter's helmet. Heroes who manufacture the rescue.
+- Writing Layer: Fire Solutions™ is a forest-safety contractor that clears hazardous undergrowth, sells fire wards, and arrives to save you from blazes with remarkable, suspicious speed. Fire Solutions™ rolls in like a parade of competence: orange water-wagons, crews in flame-bright livery, free Ember Alarms™ pressed into every hand. The crews are genuinely brave. It is just a remarkable coincidence how reliably the forest catches, and how reliably the unsubscribed are the ones who needed saving. Orange wagons, crews in fire-bright livery, a cheerful foreman: 'Forest's been awful dry,' he says, already first on the scene of a fire nobody reported yet. orange lacquer and ash, smoke that smells faintly scheduled, heroic posters over scorched ground a rescue that always arrives exactly on time gratitude sold back as a monthly retainer Surface: play them as heroes, fast and kind. Hint: they are always...
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 1160284b1c66dea9 | Source hash dac3370046ed077140fab2d6

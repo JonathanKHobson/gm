@@ -1,0 +1,50 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "S04-04",
+  "title": "S04-04 - The Keystone Reveal",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "927f6c4687cfac6c",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The Custodian unfolds her home like a blossoming flower and draws the crate inside, sealing it open again as a workshop. She breaks the seal. Inside lies a massive stone carved with a lion's face. She goes still, then nods, slow and grave. \"Of course Emeris would keep this delivery quiet,\" she says. \"This is the Keystone Asset: the heart-stone for Hush's failing ward. If the route knew what you carried, every hungry thing in the preserve would follow the scent of it.\" The light in her home dims as she speaks. \"We must take it to the Open Vale and revitalize the ward before Hush has to trust paper promises instead of protection. That much magic will draw dangerous things from the deep preserve. I will need your help.\""
+    },
+    {
+      "title": "Public objective",
+      "body": "Learn what the package is and what must be done."
+    },
+    {
+      "title": "GM goal",
+      "body": "Route the package reveal through the Custodian, not Marlowe, and set keystone_understanding."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "This is the controlled spoiler release. Earlier player text must not have named the Keystone Asset.",
+        "Players can react before choosing prep. Do not rush the table out of shock."
+      ]
+    },
+    {
+      "title": "GM script",
+      "body": "Say: \"The Custodian carries this reveal. Marlowe can recognize a personal detail if she is present, but the truth does not depend on any one PC.\""
+    },
+    {
+      "title": "State controls",
+      "items": [
+        "custodian_trust Custodian Trust select low neutral high",
+        "ritual_prep Ritual Prep select unready ready",
+        "keystone_understanding Keystone Understanding select surface deep",
+        "package_status Package Status select held lost",
+        "ward_awareness Ward Awareness select none seed aware"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 927f6c4687cfac6c | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

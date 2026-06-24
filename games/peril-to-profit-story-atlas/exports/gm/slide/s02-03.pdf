@@ -1,0 +1,132 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2170 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S02-03 - The Ambush) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(Four figures rise from the brush in a clatter of breaking branches: ragged, wiry,) Tj
+T*
+(armored in lashed river-stone and thorn. Their blades are mismatched, half of them) Tj
+T*
+(salvaged. A fifth hangs back, sharper-eyed, clearly the one giving orders. They do not) Tj
+T*
+(whoop or charge. They block the road, weapons up, like people who hate that it has come) Tj
+T*
+(to this. "The cargo," the leader says. "Hand it over and you walk.") Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Survive the ambush and protect the carriage and the package.) Tj
+T*
+() Tj
+T*
+(GM goal) Tj
+T*
+() Tj
+T*
+(Run the ambush as a dangerous moral choice: fight, defend, flee, surrender, or talk it) Tj
+T*
+(down.) Tj
+T*
+() Tj
+T*
+(GM notes) Tj
+T*
+() Tj
+T*
+(- The leader does not want a massacre.) Tj
+T*
+(- Use Back Off to create space and panic, not to punish parley.) Tj
+T*
+(- A downed ambusher can be spared without a roll; that lowers social difficulty.) Tj
+T*
+() Tj
+T*
+(GM script) Tj
+T*
+() Tj
+T*
+(Say: "They want the cargo, not your lives. You can fight, defend the carriage, run,) Tj
+T*
+(surrender the package, or talk while weapons are up. If you talk, make the case in) Tj
+T*
+(character and roll Presence against Difficulty 15." If they ask who they are and the) Tj
+T*
+(conversation earns it, have the leader say: "We're the Bramble Union. We didn't used to) Tj
+T*
+(be thieves.") Tj
+T*
+() Tj
+T*
+(State controls) Tj
+T*
+() Tj
+T*
+(- bramble_outcome Bramble outcome select unresolved killed captured spared negotiated) Tj
+T*
+(  escaped Use negotiated for parley, spared for mercy after combat, captured for) Tj
+T*
+(  survivors held, escaped for routed or fled.) Tj
+T*
+(- ambushAwareness Ambush awareness select unresolved see-them-coming ambushed Controls) Tj
+T*
+(  opening position and first actor.) Tj
+T*
+(- brambleUnionNameLearned Self-name learned checkbox Check only after the leader says) Tj
+T*
+(  it in dialogue.) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 44d5a49c6c527d01 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [2 0 R] /Count 1 >>
+endobj
+4 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000002231 00000 n 
+0000002357 00000 n 
+0000002414 00000 n 
+0000002463 00000 n 
+trailer
+<< /Size 6 /Root 4 0 R >>
+startxref
+2535
+%%EOF

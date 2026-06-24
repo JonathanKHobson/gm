@@ -1,0 +1,53 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "spirekeeper-relay-keyring",
+  "kind": "entity",
+  "title": "Spirekeeper Relay Keyring",
+  "in_world_label": "Provisioning Product Card",
+  "brand_flag": "Relay keepers",
+  "kicker": "A heavy ring of mismatched brass keys and blue-glass tags chimes with a sound like distant bells heard through rain.",
+  "hook": "A heavy ring of mismatched brass keys and blue-glass tags chimes with a sound like distant bells heard through rain.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "A heavy ring of mismatched brass keys and blue-glass tags chimes with a sound like distant bells heard through rain."
+    },
+    {
+      "label": "Maker Voice",
+      "body": "GOLDSPIRE ACCESS NOTICE: Unauthorized keys are not keys. They are future explanations you owe us."
+    },
+    {
+      "label": "At The Table",
+      "body": "Narrative access. Opens a relay-side door or cabinet when the table has earned the relay hook."
+    }
+  ],
+  "spec": [
+    [
+      "Use",
+      "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction."
+    ],
+    [
+      "Benefit",
+      "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned."
+    ],
+    [
+      "Limit",
+      "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a..."
+    ]
+  ],
+  "affordances": [
+    "Inspect the label, maker, or fine print.",
+    "Use it only when the fiction says you can reach it."
+  ],
+  "archetype": "item.product_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:spirekeeper-relay-keyring",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "86ede993a70b37de",
+  "generated_at": "2026-06-23T21:40:58"
+}

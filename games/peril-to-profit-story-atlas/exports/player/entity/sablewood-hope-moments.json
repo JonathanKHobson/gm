@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "sablewood-hope-moments",
+  "kind": "entity",
+  "title": "Sablewood Hope Moments",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Mechanic",
+  "hook": "Player-safe note: Player-facing relief beats: shared fires, Briar maps, fox-bats, young hunters, glowing Stones, catching branches, twilight plums, and handcrafted markets.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Player-facing relief beats: shared fires, Briar maps, fox-bats, young hunters, glowing Stones, catching branches, twilight plums, and handcrafted markets."
+    },
+    {
+      "label": "How It Works",
+      "body": "Hope table for Sablewood travel texture"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use this when your action is uncertain and consequences matter.",
+    "Ask which trait fits your method."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:sablewood-hope-moments",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "b6cfae4815ec2740",
+  "generated_at": "2026-06-23T21:40:58"
+}

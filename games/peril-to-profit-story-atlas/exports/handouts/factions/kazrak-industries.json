@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "kazrak-industries",
+  "kind": "entity",
+  "title": "Kazrak Industries",
+  "in_world_label": "Public Notice",
+  "brand_flag": "Kazrak™: where legends are made!",
+  "kicker": "Adventure, certification, glory, and dungeon work pitched like a chance to become legendary.",
+  "hook": "Kazrak Industries: Kazrak Industries™ sells adventure itself: certifications, hero ratings, and the chance to die famous. Slogan: Kazrak™: where legends are made!",
+  "blocks": [
+    {
+      "label": "Public Face",
+      "body": "Adventure, certification, glory, and dungeon work pitched like a chance to become legendary."
+    },
+    {
+      "label": "Slogan",
+      "body": "Kazrak™: where legends are made!"
+    },
+    {
+      "label": "How To Deal",
+      "body": "Kazrak™ recruiting tents are pure hype: banners of grinning certified heroes, a barker bellowing about Glory Tier™ benefits, a try-before-you-die Sample Dungeon™ rated 'Tier 0, mostly survivable!' You can buy a Legend License™, a Hazard Heritage™..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask what they publicly promise.",
+    "Compare their slogan to what they actually do in the scene."
+  ],
+  "archetype": "faction.flyer",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:kazrak-industries",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "1a9632ae66c6c9fe",
+  "generated_at": "2026-06-23T21:40:58"
+}

@@ -1,0 +1,338 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2638 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-goldspire-territories - Goldspire Territories Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(A vast bright frontier-fantasy territory of walled cities, giant forests, wet villages,) Tj
+T*
+(relay towers, old roads, and cheerful safety promises that never quite cover the cracks.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(A vast bright frontier-fantasy territory of walled cities, giant forests, wet villages,) Tj
+T*
+(relay towers, old roads, and cheerful safety promises that never quite cover the cracks.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-goldspire-territories) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: PROLOGUE) Tj
+T*
+(- Sectiontitle: Prologue: The Contract) Tj
+T*
+(- Title: Goldspire Territories Location Map) Tj
+T*
+(- Shorttitle: Goldspire Territories) Tj
+T*
+(- Order: 101.08) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-goldspire-territories-gm.png) Tj
+T*
+(- Alt: Goldspire Territories location map board.) Tj
+T*
+(- Caption: Visual reference for Goldspire Territories.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Use this environment board to orient space, table questions, and safe) Tj
+T*
+(  reveals.) Tj
+T*
+(- Publicobjective: A vast bright frontier-fantasy territory of walled cities, giant) Tj
+T*
+(  forests, wet villages, relay towers, old roads, and cheerful safety promises that) Tj
+T*
+(  never quite cover the cracks.) Tj
+T*
+(- Readaloud: A vast bright frontier-fantasy territory of walled cities, giant forests,) Tj
+T*
+(  wet villages, relay towers, old roads, and cheerful safety promises that never quite) Tj
+T*
+(  cover the cracks.) Tj
+T*
+(- Playertakeaway: A vast bright frontier-fantasy territory of walled cities, giant) Tj
+T*
+(  forests, wet villages, relay towers, old roads, and cheerful safety promises that) Tj
+T*
+(  never quite cover the cracks.) Tj
+T*
+(- Storytakeaway: Visual reference for Goldspire Territories.) Tj
+T*
+(- Mechanictakeaway: Use the map as visual reference unless the scene is explicitly in) Tj
+T*
+(  combat.) Tj
+T*
+(- Entityids: goldspire-territories) Tj
+T*
+(- Entities: goldspire-territories Goldspire Territories location Location) Tj
+T*
+(  assets/icons/location.png assets/location-visuals/goldspire-) Tj
+T*
+(  territories/profile_scene_v02.png GOLD-spire TAIR-ih-tor-eez A vast bright frontier-) Tj
+T*
+(  fantasy territory of walled cities, giant forests, wet villages, relay towers, old) Tj
+T*
+(  roads, and cheerful safety promises that never quite cover the cracks. Run Goldspire) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4209 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Territories as the frontier and extraction hinterland outside Athervast: Emeris) Tj
+T*
+(  dispatches the one-shot job, Sablewood carries the road risk, Hush holds the) Tj
+T*
+(  immediate ward problem, and the faraway grand capital benefits from a safety economy) Tj
+T*
+(  it barely has to see. A cheerful dystopian territory of branded roads, contracts,) Tj
+T*
+(  and public-private magical infrastructure.; show internal disagreement, practical) Tj
+T*
+(  needs, and how the faction explains itself when outsiders listen. Protect its stake) Tj
+T*
+(  in Emeris Crown Holdings, Sablewood? Logistics Preserve, Hush? Community Enclave) Tj
+T*
+(  while being seen as more than a symbol or obstacle. A cheerful dystopian territory) Tj
+T*
+(  of branded roads, contracts, and public-private magical infrastructure.) Tj
+T*
+(- Locationids: goldspire-territories) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S00-01 S01-01 S01-02 S01-03 S01-04 S02-04 S03-01 S04-01 S04-04) Tj
+T*
+(  S05-01 S05-03 S05-07 S06-02) Tj
+T*
+(- Mapdata: MAP-LOC-goldspire-territories environment Goldspire Territories Location) Tj
+T*
+(  Map S00-01 S01-01 S01-02 S01-03 S01-04 S02-04 S03-01 S04-01 S04-04 S05-01 S05-03) Tj
+T*
+(  S05-07 S06-02 goldspire-territories assets/location-visuals/goldspire-) Tj
+T*
+(  territories/profile_scene_v02.png Visual reference for Goldspire Territories.) Tj
+T*
+(  Goldspire Territories location map board. A vast bright frontier-fantasy territory) Tj
+T*
+(  of walled cities, giant forests, wet villages, relay towers, old roads, and cheerful) Tj
+T*
+(  safety promises that never quite cover the cracks. Visual reference for Goldspire) Tj
+T*
+(  Territories. Distant beacon-pulses, stone vibration, notices snapping in wind, and a) Tj
+T*
+(  low hum that arrives late. Cold ash, hot stone, brass, press ink, and rain waiting) Tj
+T*
+(  in the air. Stone feels warm on one side and cold on the other; metal fixtures buzz) Tj
+T*
+(  under fingertips. People or animals orient toward the signal for a breath, then) Tj
+T*
+(  pretend it is normal. Sight Visual reference for Goldspire Territories. Sound) Tj
+T*
+(  Distant beacon-pulses, stone vibration, notices snapping in wind, and a low hum that) Tj
+T*
+(  arrives late. Smell Cold ash, hot stone, brass, press ink, and rain waiting in the) Tj
+T*
+(  air. Texture / air Stone feels warm on one side and cold on the...) Tj
+T*
+(- Livetools: scene MAP-LOC-goldspire-territories) Tj
+T*
+(- Takeawayhelp: Player takeaway: MAP-LOC-goldspire-territories A vast bright frontier-) Tj
+T*
+(  fantasy territory of walled cities, giant forests, wet villages, relay towers, old) Tj
+T*
+(  roads, and cheerful safety promises that never quite cover the cracks. Give the) Tj
+T*
+(  player one concrete way back into play: a question, a description, a choice, or a) Tj
+T*
+(  pass-and-return moment. "Your takeaway right now is this: A vast bright frontier-) Tj
+T*
+(  fantasy territory of walled cities, giant forests, wet villages, relay towers, old) Tj
+T*
+(  roads, and cheerful safety promises that never quite cover the cracks." "If you are) Tj
+T*
+(  not sure what to do next, you can ask a question, describe what your character) Tj
+T*
+(  notices, or tell me what your character tries." "If you are not sure what to do) Tj
+T*
+(  next, you can ask a question, describe what your character notices, or tell me what) Tj
+T*
+(  your character tries." Give the player one concrete way back into play: a question,) Tj
+T*
+(  a description, a choice, or a pass-and-return moment. Story takeaway: MAP-LOC-) Tj
+T*
+(  goldspire-territories Visual reference for Goldspire Territories. Anchor the answer) Tj
+T*
+(  in the visible fiction on this slide: who is present, what can be observed, what has) Tj
+T*
+(  already been said, and what remains uncertain. "Here is what...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-goldspire-territories-player.png Goldspire) Tj
+T*
+(  Territories location map board. MAP-LOC-goldspire-territories environment Goldspire) Tj
+T*
+(  Territories S00-01 S01-01 S01-02 S01-03 S01-04 S02-04 S03-01 S04-01 S04-04 S05-01) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2846 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  S05-03 S05-07 S06-02 assets/maps/MAP-LOC-goldspire-territories-player.png) Tj
+T*
+(  assets/maps/MAP-LOC-goldspire-territories-player.png Visual reference for Goldspire) Tj
+T*
+(  Territories. Goldspire Territories location map board. A vast bright frontier-) Tj
+T*
+(  fantasy territory of walled cities, giant forests, wet villages, relay towers, old) Tj
+T*
+(  roads, and cheerful safety promises that never quite cover the cracks. MAP-LOC-) Tj
+T*
+(  goldspire-territories-map-only Map only Goldspire Territories map-only) Tj
+T*
+(  assets/maps/MAP-LOC-goldspire-territories-player.png Goldspire Territories location) Tj
+T*
+(  map board. MAP-LOC-goldspire-territories environment Goldspire Territories S00-01) Tj
+T*
+(  S01-01 S01-02 S01-03 S01-04 S02-04 S03-01 S04-01 S04-04 S05-01 S05-03 S05-07 S06-02) Tj
+T*
+(  assets/maps/MAP-LOC-goldspire-territories-player.png assets/maps/MAP-LOC-goldspire-) Tj
+T*
+(  territories-player.png Visual reference for Goldspire Territories. Goldspire) Tj
+T*
+(  Territories location map board. A vast bright frontier-fantasy territory of walled) Tj
+T*
+(  cities...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-goldspire-territories map Goldspire Territories) Tj
+T*
+(  assets/maps/MAP-LOC-goldspire-territories-player.png Goldspire Territories location) Tj
+T*
+(  map board. Visual reference for Goldspire Territories. spatial reference and) Tj
+T*
+(  location texture A vast bright frontier-fantasy territory of walled cities, giant) Tj
+T*
+(  forests, wet villages, relay towers, old roads, and cheerful safety promises that) Tj
+T*
+(  never quite cover the cracks. A vast bright frontier-fantasy territory of walled) Tj
+T*
+(  cities, giant forests, wet villages, relay towers, old roads, and cheerful safety) Tj
+T*
+(  promises that never quite cover the cracks. MAP-LOC-goldspire-territories) Tj
+T*
+(  environment Goldspire Territories S00-01 S01-01 S01-02 S01-03 S01-04 S02-04 S03-01) Tj
+T*
+(  S04-01 S04-04 S05-01 S05-03 S05-07 S06-02 assets/maps/MAP-LOC-goldspire-territories-) Tj
+T*
+(  player.png assets/maps/MAP-LOC-goldspire-territories-player.png Visual reference for) Tj
+T*
+(  Goldspire Territories. Goldspire Territories location map board. A vast bright) Tj
+T*
+(  frontier-fantasy territory of walled cities, giant forests, wet villages, relay) Tj
+T*
+(  towers, old roads, and cheerful safety promises that never quite cover the cracks.) Tj
+T*
+(  assets/maps/MAP-LOC-goldspire-territories-player.png Goldspire Territories) Tj
+T*
+(  location...) Tj
+T*
+(- Slidenumber: 18) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 873f459e3f7f08f0 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002699 00000 n 
+0000002825 00000 n 
+0000007086 00000 n 
+0000007212 00000 n 
+0000010110 00000 n 
+0000010236 00000 n 
+0000010305 00000 n 
+0000010354 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+10426
+%%EOF

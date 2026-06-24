@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "MAP-S01-02",
+  "kind": "slide",
+  "title": "MAP-S01-02 - Overturned Vendor Cart Scene Board",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act One: The Logistics Incident",
+  "hook": "A vendor cart blocks the bend. Scattered fruit, broken jars, torn canvas, and muddy wheel ruts make the road feel suddenly too narrow. Something moves on the far side.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "A vendor cart blocks the bend. Scattered fruit, broken jars, torn canvas, and muddy wheel ruts make the road feel suddenly too narrow. Something moves on the far side."
+    },
+    {
+      "label": "Public Objective",
+      "body": "A vendor cart blocks the bend. Scattered fruit, broken jars, torn canvas, and muddy wheel ruts make the road feel suddenly too narrow. Something moves on the far side."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:MAP-S01-02",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "7b91d1d4eb10cc8c",
+  "generated_at": "2026-06-23T21:40:58"
+}

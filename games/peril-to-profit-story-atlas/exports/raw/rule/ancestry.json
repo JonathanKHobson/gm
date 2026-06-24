@@ -1,0 +1,57 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "rule",
+  "id": "ancestry",
+  "title": "Ancestry",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "923d88ab44dc0de7",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "A character's people/species choice and its official feature package."
+    },
+    {
+      "title": "How it works",
+      "body": "Use at character creation and when ancestry fiction clearly explains how a PC perceives or approaches a moment."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use at character creation and when ancestry fiction clearly explains how a PC perceives or approaches a moment.",
+        "Use the printed ancestry feature. For scene flavor, give a distinct clue angle without changing math unless the table grants advantage or adjusts Difficulty.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "Does ancestry change rolls?"
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: ancestry",
+        "Title: Ancestry",
+        "Tag: rules-canon",
+        "Summary: A character's people/species choice and its official feature package.",
+        "When: Use at character creation and when ancestry fiction clearly explains how a PC perceives or approaches a moment.",
+        "Not When: Do not invent a mechanical bonus because a species detail sounds useful; use advantage or a lower Difficulty only when Kyle chooses that adaptation.",
+        "Question: Does ancestry change rolls?",
+        "Answer: Use the printed ancestry feature. For scene flavor, give a distinct clue angle without changing math unless the table grants advantage or adjusts Difficulty.",
+        "Example: A Katari ranger may smell mineral wrongness in a package clue, but the roll is still Instinct unless a feature says otherwise.",
+        "Related: heritage community traits",
+        "Aliases: species elf human katari ribbet giant",
+        "Source: Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+        "Mechanic Profile: mechanic-profile-v1 ancestry Ancestry species elf human katari ribbet giant Ancestry character-creation #rules-canon Beginner heritage community traits Session Zero primer heritage community traits A character's people/species choice and its official feature package. Use the printed ancestry feature. For scene flavor, give a distinct clue angle without changing math unless the table grants advantage or adjusts Difficulty. Use at character creation and when ancestry fiction clearly explains how a PC perceives or approaches a moment. Ancestry: A character's people/species choice and its official feature package. Use at character creation and when ancestry fiction clearly explains how a PC perceives or approaches a moment. Use the printed ancestry feature. For scene flavor, give a distinct clue angle without changing math unless the table grants advantage or adjusts Difficulty. Return to the fiction with the concrete result, cost, or benefit. A Katari ranger may smell mineral wrongness in a package clue, but the roll is still Instinct unless a feature says otherwise. A Katari ranger may smell mineral wrongness in a package clue, but the roll is still Instinct unless a feature says...",
+        "Canon Status: #rules-canon",
+        "Category: character-creation"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 923d88ab44dc0de7 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

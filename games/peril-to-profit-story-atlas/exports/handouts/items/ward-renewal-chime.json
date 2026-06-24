@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "ward-renewal-chime",
+  "kind": "entity",
+  "title": "Ward Renewal Chime",
+  "in_world_label": "Provisioning Product Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Item / Asset",
+  "hook": "Player-safe note: A low tone felt in the teeth that tells the table the ward is alive, stressed, and responding.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Ward Renewal Chime: A low tone felt in the teeth that tells the table the ward is alive, stressed, and responding."
+    },
+    {
+      "label": "Player Read",
+      "body": "Player-safe note: A low tone felt in the teeth that tells the table the ward is alive, stressed, and responding."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Inspect the label, maker, or fine print.",
+    "Use it only when the fiction says you can reach it."
+  ],
+  "archetype": "item.product_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:ward-renewal-chime",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "881b691f707b0345",
+  "generated_at": "2026-06-23T21:40:58"
+}

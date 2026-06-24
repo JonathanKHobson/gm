@@ -1,0 +1,74 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "the-refuge",
+  "title": "The Refuge",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "192a87784c8ed1e6",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe."
+    },
+    {
+      "title": "Public role",
+      "body": "Make success in Sablewood feel costly and communal."
+    },
+    {
+      "title": "Handout text",
+      "body": "A prosperous Sablewood settlement where hazard rate becomes money, reputation, and a quiet measure of who survives the route."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Introduce with sensory texture, then make one discoverable clue or social choice visible."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Location Exploration Mechanics",
+        "Player Safe: Players can navigate, search, read customs, inspect hazards The Refuge when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: A prosperous Sablewood settlement where hazard rate becomes money, reputation, and a quiet measure of who survives the route. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-the-refuge-engage-the-refuge entity-the-refuge Engage The Refuge Engage The Refuge Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of The Refuge hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. A...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Condition Options: No official condition unless a hazard creates Hidden, Restrained, or Vulnerable",
+        "Search Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure."
+      ]
+    },
+    {
+      "title": "Profile",
+      "items": [
+        "Schema Version: location-profile-v1",
+        "Id: the-refuge",
+        "Entity Id: the-refuge",
+        "Source: Story Atlas generated location notes",
+        "Auto Surface: True",
+        "Priority: strong",
+        "Player Safe: The Refuge A prosperous Sablewood settlement where hazard rate becomes money, reputation, and a quiet measure of who survives the route. A prosperous Sablewood settlement where hazard rate becomes money, reputation, and a quiet measure of who survives the route. The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe. The Refuge feels warm but not static: soup, blankets, repairs, whispers, small injuries, and people deciding whether rest is enough. The place breaks into usable table spaces: Common room: Chairs, blankets, and bowls make safety visible. Supply corner: Practical goods show what the place can offer. Back exit: A quiet way out keeps safety from becoming a trap. Plants and materials: potted herbs, dried moss bundles, medicinal roots. Animals and background life: Rabbit-Gliders skim near the fishing lines, Moth-Possums cling...",
+        "Block1: The Refuge Make success in Sablewood feel costly and communal. A prosperous Sablewood settlement where hazard rate becomes money, reputation, and a quiet measure of who survives the route. The Refuge shows survival turned into status. Survival here has quietly turned into status. Who gets to rest, and who can afford to, says a lot about the road. The Refuge shows survival turned into status. The Refuge is warm but not safe forever. Everyone here is weighing whether this is shelter or only a pause. pages/entities/the-refuge.html",
+        "Block2: Sturdy roofs, route trophies, repair yards, and warm windows sit behind practical defenses. Travelers watch the sky before entering the main lane. Some wealth is hazard pay made permanent. The best-built walls are repaired more often than advertised. Detail Smoke, wet leather, hot stew, sawdust, and oil from maintained gear. Detail Door handles are heavy and warm; defensive rails are smooth from frequent checks. The Refuge is prosperous because people learned how to survive Sablewood, not because Sablewood became safe. The Refuge feels warm but not static: soup, blankets, repairs, whispers, small injuries, and people deciding whether rest is enough. The place breaks into usable table spaces: Common room: Chairs, blankets, and bowls make safety visible. Supply corner: Practical goods show what the place can offer. Back exit: A quiet way out keeps safety from becoming a trap. Plants and...",
+        "Block3: repair yards route trophies defensive rails traveler board Presence to read pride without flattery. Knowledge to understand route economy. Instinct to spot fresh damage. Local residents or workers appropriate to the place Rabbit-Gliders skim near the fishing lines Moth-Possums cling in warm rafters Turtle-Mice work the crumb paths Badger-Hawks dive for catches outside No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues potted herbs, dried moss bundles, medicinal roots rest food minor healing supplies safe rumor exchange",
+        "Block4: The place changes even if the PCs stand still. Local people, creatures, weather, signage, and ward behavior all keep moving around the scene. Prosperity can hide who paid for it. Travelers may normalize danger to protect pride. Bad route news changes mood fast. A trophy cracks when nobody touches it. A route board flips from open to delayed. Let the place be funny through overconfident signage, awkward forms, stubborn local habits, and magic that refuses corporate language.",
+        "Block5: MAP-LOC-the-refuge",
+        "Block6: Describe what the PCs can see, smell, hear, touch, ask about, or infer. Do not explain hidden infrastructure or corporate thesis until play earns it. surface A prosperous Sablewood settlement where hazard rate becomes money, reputation, and a quiet measure of who survives the route. table clue The Refuge shows survival turned into status. earned truth Reveal deeper system meaning through NPC answers, evidence, or player questions, not narration dumps.",
+        "What Here: Local residents or workers appropriate to the place Rabbit-Gliders skim near the fishing lines Moth-Possums cling in warm rafters Turtle-Mice work the crumb paths Badger-Hawks dive for catches outside No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues potted herbs, dried moss bundles, medicinal roots rest food minor healing supplies safe rumor exchange",
+        "Living Place: location-living-place-v1 safehouse and rest shelter The Refuge should feel warm but not static: soup, blankets, repairs, whispers, small injuries, and people deciding whether rest is enough. Common room Chairs, blankets, and bowls make safety visible. Use for recovery. Supply corner Practical goods show what the place can offer. Use for resources. Back exit A quiet way out keeps safety from becoming a trap. Use for planning. potted herbs, dried moss bundles, medicinal roots Rabbit-Gliders skim near the fishing lines Moth-Possums cling in warm rafters Turtle-Mice work the crumb paths Badger-Hawks dive for catches outside soup steam, low voices, blanket smell, wardstone night-light People arrive shaken, get fed, exchange news, repair gear, and leave with slightly steadier hands. Someone should always be mending, stirring, dozing, or listening. Do you rest, ask who else passed through...",
+        "Districts Or Subareas: Common room Chairs, blankets, and bowls make safety visible. Use for recovery. Supply corner Practical goods show what the place can offer. Use for resources. Back exit A quiet way out keeps safety from becoming a trap. Use for planning.",
+        "Sensory Signature: Detail Smoke, wet leather, hot stew, sawdust, and oil from maintained gear. Detail Door handles are heavy and warm; defensive rails are smooth from frequent checks.",
+        "Visual Assets: location-visual-assets-v1 the-refuge The Refuge Bright comedic frontier high-fantasy concept art for a Daggerheart-adjacent tabletop RPG. Medieval/Renaissance fantasy technology only: hand tools, wagons, ropes, parchment notices, ward-stones, carved wood, brass, cloth, stone, moss, lanterns, and magic. The tone is colorful, playful, slightly absurd, and vivid, like a fantasy corporate frontier comedy rather than a grim drama. No sci-fi machinery, no 1800s/Victorian clothing, no modern suits, no guns, no logos, no readable text, no watermark, no border, no collage. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/the-refuge MAP-LOC-the-refuge safe shelter safehouse interior map profile_scene Profile image ready /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/the-refuge/profile_scene_v02.png...",
+        "Imagine It Like: A mountain refuge hut or a hostel for through-hikers, crossed with a quiet field clinic. Think trail shelter where strangers patch each other up and trade warnings."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 192a87784c8ed1e6 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

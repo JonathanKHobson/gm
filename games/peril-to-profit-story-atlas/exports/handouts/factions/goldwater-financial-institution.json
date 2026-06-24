@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "goldwater-financial-institution",
+  "kind": "entity",
+  "title": "Goldwater Financial Institution",
+  "in_world_label": "Public Notice",
+  "brand_flag": "Goldwater™ keeps what matters safe.",
+  "kicker": "A trusted bank with portable vaults, gold-black seals, and road-safety financing.",
+  "hook": "Goldwater Financial Institution: Goldwater Financial™ keeps your valuables safe and your debt safer, because the debt is the valuable. Slogan: Goldwater™ keeps what matters safe.",
+  "blocks": [
+    {
+      "label": "Public Face",
+      "body": "A trusted bank with portable vaults, gold-black seals, and road-safety financing."
+    },
+    {
+      "label": "Slogan",
+      "body": "Goldwater™ keeps what matters safe."
+    },
+    {
+      "label": "How To Deal",
+      "body": "Goldwater™ branches gleam with trust: portable vaults on polished carts, gold-black seals, a teller who calls you 'a valued risk' like it is a compliment. Open a Roadworthy Account™, add a Ward-Continuity Rider™, finance your own safety with a Fear-Forward..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask what they publicly promise.",
+    "Compare their slogan to what they actually do in the scene."
+  ],
+  "archetype": "faction.flyer",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:goldwater-financial-institution",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "0abcd21910200835",
+  "generated_at": "2026-06-23T21:40:58"
+}

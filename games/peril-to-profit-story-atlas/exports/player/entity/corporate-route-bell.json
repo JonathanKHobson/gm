@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "corporate-route-bell",
+  "kind": "entity",
+  "title": "Corporate Route Bell",
+  "in_world_label": "Provisioning Product Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Item / Asset",
+  "hook": "Player-safe note: A polite chime that tells waymarkers and auditors the carriage belongs on the road.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Corporate Route Bell: A polite chime that tells waymarkers and auditors the carriage belongs on the road."
+    },
+    {
+      "label": "Player Read",
+      "body": "Player-safe note: A polite chime that tells waymarkers and auditors the carriage belongs on the road."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Inspect the label, maker, or fine print.",
+    "Use it only when the fiction says you can reach it."
+  ],
+  "archetype": "item.product_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:corporate-route-bell",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "633ac48513002a60",
+  "generated_at": "2026-06-23T21:40:58"
+}

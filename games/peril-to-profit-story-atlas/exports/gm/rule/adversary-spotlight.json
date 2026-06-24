@@ -1,0 +1,48 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "adversary-spotlight",
+  "title": "Spotlight",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "ce95e8b298f6a6f0",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "Daggerheart combat flows through spotlight rather than initiative order."
+    },
+    {
+      "title": "How it works",
+      "body": "Use to pass attention where the fiction is hottest."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use to pass attention where the fiction is hottest.",
+        "No fixed initiative; spotlight follows fiction.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "Is there initiative?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "gm-moves",
+        "adversary-attacks"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash ce95e8b298f6a6f0 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "slide",
+  "id": "SZ-02B",
+  "title": "SZ-02B - Player Expectations / Shared Table Care",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "bded8d3fd7732934",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "This works best when everyone is engaged, respectful, and helping the table have fun. You are responsible for your own fun and for noticing the other people at the table too."
+    },
+    {
+      "title": "Public objective",
+      "body": "This works best when everyone is engaged, respectful, and helping the table have fun. You are responsible for your own fun and for noticing the other people at the table too."
+    },
+    {
+      "title": "Player bullets",
+      "items": [
+        "Engage with the story and ask questions.",
+        "Invite other players in: ask them what their character thinks, notices, or does.",
+        "Speak when it is your turn, and be mindful of how much space you are taking.",
+        "Only participate at the level you are comfortable with.",
+        "Tell me if you are confused, uncomfortable, not having fun, or need help.",
+        "I will do my best to engage everyone, but the table works because we all pay attention to each other.",
+        "If there is time at the end, we may do quick Stars and Wishes: one thing you liked, one thing you would want more or different next time."
+      ]
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: SZ-02B",
+        "Type: session-zero",
+        "Sectionid: SESSION-ZERO",
+        "Sectiontitle: Session Zero",
+        "Title: Player Expectations / Shared Table Care",
+        "Shorttitle: Player Expectations / Shared Table Care",
+        "Playertitle: How we make this fun together",
+        "Order: 9",
+        "Playersafe: True",
+        "Completioneligible: True",
+        "Image: assets/icons/live-social.png",
+        "Alt: Shared table participation icon.",
+        "Caption: Set player expectations for participation, shared care, questions, and communication.",
+        "Mood: calibration, invitation, consent",
+        "Gmgoal: Set player expectations for participation, shared care, questions, and communication.",
+        "Publicobjective: This works best when everyone is engaged, respectful, and helping the table have fun. You are responsible for your own fun and for noticing the other people at the table too.",
+        "Readaloud: This works best when everyone is engaged, respectful, and helping the table have fun. You are responsible for your own fun and for noticing the other people at the table too.",
+        "Playerbullets: Engage with the story and ask questions. Invite other players in: ask them what their character thinks, notices, or does. Speak when it is your turn, and be mindful of how much space you are taking. Only participate at the level you are comfortable with. Tell me if you are confused, uncomfortable, not having fun, or need help. I will do my best to engage everyone, but the table works because we all pay attention to each other. If there is time at the end, we may do quick Stars and Wishes: one thing you liked, one thing you would want more or different next time.",
+        "Playertable: Ask Questions are welcome at any time. Share Make space for other players. Signal Tell the GM what you need.",
+        "Displaymode: text-first",
+        "Gmnotes: Script: Set the social expectation directly: this is not only my responsibility as GM. Everyone helps the story work by engaging, listening, asking questions, and making space. Tell players they can interrupt you to ask for help, a repeat, a slower pace, or a pause. Keep this brief. It should feel like permission and care, not a lecture. Mention Stars and Wishes only as an end-of-session possibility. Checklist: Participation expectations explained; Questions welcome at any time; Shared responsibility named; Stars and Wishes previewed briefly",
+        "Gmscript: Set the social expectation directly: this is not only my responsibility as GM. Everyone helps the story work by engaging, listening, asking questions, and making space. Tell players they can interrupt you to ask for help, a repeat, a slower pace, or a pause.",
+        "Gmreadaloud: This game works best when everyone treats fun as shared work. I am responsible for running the world, but everyone helps the table by listening, asking questions, making room, and inviting other players in. Speak when it is your moment, be mindful of how much space you are taking, and help each other shine. If you need help, a repeat, a slower pace, or a pause, say so.",
+        "Gmchecklist: Participation expectations explained Questions welcome at any time Shared responsibility named Stars and Wishes previewed briefly",
+        "Playertakeaway: Players know fun is shared work: ask, listen, invite, make room, and speak up.",
+        "Storytakeaway: The party will work because the players pay attention to each other.",
+        "Mechanictakeaway: Reinforces spotlight sharing and consent to pass or ask for help.",
+        "Takeawayhelp: Players know fun is shared work Players know to ask, listen, invite, make room, and speak up. The table expectation is active generosity: not constant talking, not silence, but shared attention. \"Everyone is here for everyone. Make room, ask each other questions, listen when someone has spotlight, and speak up when you need help.\" If someone asks what good participation looks like: \"Take your turn, invite someone else in, and stay curious about what the other characters do.\" The table expectation is active generosity: not constant talking, not silence, but shared attention. table-spotlight safety-tools The party works because players engage The party will work because the players pay attention to each other. This protects the one-shot from lone-wolf drift and keeps character conflict collaborative. \"The party does not have to agree on everything, but the players are building something together. Let other characters matter to yours.\" If someone asks about intra-party conflict: \"Tension is fine. Undermining another player's fun is not. Check in before pushing hard.\" This protects the one-shot from lone-wolf drift and keeps character conflict collaborative. table-spotlight...",
+        "Mechanicids: table-spotlight safety-tools",
+        "Handoutids: session-zero-worksheet",
+        "Sourcefiles: handouts/Player_Welcome_Table_Expectations.md docs/SAFETY_TOOLKIT_INTEGRATION.md",
+        "Livetools: none",
+        "Playerbeats: SZ-02B-text Text only How we make this fun together Set player expectations for participation, shared care, questions, and communication. This works best when everyone is engaged, respectful, and helping the table have fun. You are responsible for your own fun and for noticing the other people at the table too. This works best when everyone is engaged, respectful, and helping the table have fun. You are responsible for your own fun and for noticing the other people at the table too. Engage with the story and ask questions. Invite other players in: ask them what their character thinks, notices, or does. Speak when it is your turn, and be mindful of how much space you are taking. Only participate at the level you are comfortable with. Tell me if you are confused, uncomfortable, not having fun, or need help. text-first SZ-02B-more More / details How we make this fun together More details for this beat. I will do my best to engage everyone, but the table works because we all pay attention to each other. If there is time at the end, we may do quick Stars and Wishes: one thing you liked, one thing you would want more or different next time. Ask Questions are welcome at any time. Share...",
+        "Beatautoplayeligible: False",
+        "Beatautoplaydefault: False",
+        "Beatautoplayintervalms: 12000",
+        "Playersafeprojection: SZ-02B session-zero Player Expectations / Shared Table Care assets/icons/live-social.png Shared table participation icon. Set player expectations for participation, shared care, questions, and communication. calibration, invitation, consent This works best when everyone is engaged, respectful, and helping the table have fun. You are responsible for your own fun and for noticing the other people at the table too. This works best when everyone is engaged, respectful, and helping the table have fun. You are responsible for your own fun and for noticing the other people at the table too. Engage with the story and ask questions. Invite other players in: ask them what their character thinks, notices, or does. Speak when it is your turn, and be mindful of how much space you are taking. Only participate at the level you are comfortable with. Tell me if you are confused, uncomfortable, not having fun, or need help. I will do my best to engage everyone, but the table works because we all pay attention to each other. If there is time at the end, we may do quick Stars and Wishes: one thing you liked, one thing you would want more or different next time. Ask Questions are welcome at any time...",
+        "Slidenumber: 9",
+        "Totalslides: 110"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash bded8d3fd7732934 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "rule",
+  "id": "instinct",
+  "title": "Instinct",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "17c0164f859d3ee4",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "Perceive, sense, navigate, track, or read danger."
+    },
+    {
+      "title": "How it works",
+      "body": "Use when the PC notices or feels what is wrong."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use when the PC notices or feels what is wrong.",
+        "Yes, most perception-style questions are Instinct.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "Is this Perception?"
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: instinct",
+        "Title: Instinct",
+        "Tag: official",
+        "Summary: Perceive, sense, navigate, track, or read danger.",
+        "When: Use when the PC notices or feels what is wrong.",
+        "Not When: Do not use when the task is scholarly analysis; use Knowledge.",
+        "Question: Is this Perception?",
+        "Answer: Yes, most perception-style questions are Instinct.",
+        "Example: Notice the Strixwolf Mother's warning posture with Instinct.",
+        "Related: traits",
+        "Aliases: perception insight survival animal handling",
+        "Source: Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+        "Mechanic Profile: mechanic-profile-v1 instinct Instinct perception insight survival animal handling Instinct trait #rules-canon Beginner traits Introduce at first use traits Perceive, sense, navigate, track, or read danger. Yes, most perception-style questions are Instinct. Use when the PC notices or feels what is wrong. Instinct: Perceive, sense, navigate, track, or read danger. Use when the PC notices or feels what is wrong. Yes, most perception-style questions are Instinct. Return to the fiction with the concrete result, cost, or benefit. Notice the Strixwolf Mother's warning posture with Instinct. Notice the Strixwolf Mother's warning posture with Instinct. Is this Perception? Instinct perception insight survival animal handling traits Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use.",
+        "Canon Status: #rules-canon",
+        "Category: trait"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 17c0164f859d3ee4 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

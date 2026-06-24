@@ -1,0 +1,97 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "scene",
+  "id": "S02-04",
+  "title": "S02-04 - After the Ambush",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "f7304c124804f24e",
+  "sections": [
+    {
+      "title": "Player read-aloud",
+      "body": "The road is quiet again, except for the horses breathing hard and the forest shifting around the wreckage."
+    },
+    {
+      "title": "Scene summary",
+      "body": "The party regroups and may learn the Bramble Union were targeting the cargo specifically."
+    },
+    {
+      "title": "Visible choices",
+      "items": [
+        "Loot bodies",
+        "Interrogate survivor",
+        "Leave quickly",
+        "Mark graves"
+      ]
+    },
+    {
+      "title": "Player questions",
+      "items": [
+        "What detail in After the Ambush tells you the official story is incomplete?",
+        "Who notices the human cost first, and how do they show it?",
+        "What small object, smell, or sound makes this scene feel real?"
+      ]
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: S02-04",
+        "Act: Act Two",
+        "Title: After the Ambush",
+        "Beats: Clue discovery Payoff Consequence",
+        "Image: assets/scenes/S02-04-after-the-ambush.webp",
+        "Short: The party regroups and may learn the Bramble Union were targeting the cargo specifically.",
+        "Long: This is where consequences land. Loot and evidence should humanize the attackers and complicate the party’s relationship to the contract.",
+        "Read: The road is quiet again, except for the horses breathing hard and the forest shifting around the wreckage.",
+        "Gm: If players loot bodies, include personal details, not just coins. Make the world feel lived-in.",
+        "Entities: Bramble Union Loot Kett Alderhook Vela Bramblewick Rye Underbough Brannic Mossvein Bramble Ward-Scrap Charm Cluster Claimrunner Serrated Blade Bramble Union Stoneweave Vial of Briarpowder Bramble Union Reclaimer Personal Effects Garrick Reed Bramble Union Claimrunner Goldspire Territories Route Assurance Contract Khari Nix Sealed Keystone Crate Damage / Armor Hush",
+        "Choices: Loot bodies Interrogate survivor Leave quickly Mark graves",
+        "Prompt: Aftermath of forest ambush: party regroups around carriage, checking wounds, Bramble weapons and torn seals on road, sealed crate intact; no strixwolf, no undead.",
+        "Source Entities: Bramble Union Loot Kett Alderhook Vela Bramblewick Rye Underbough Brannic Mossvein",
+        "Beat Codes: clue-discovery payoff consequence",
+        "Slug: S02-04-after-the-ambush",
+        "Act Title: Cargo Reclaimers",
+        "Arc Role: External opposition and morally complicated conflict",
+        "Caption: After the fight, the module asks what victory cost and what the party learned.",
+        "Image Alt: After the Ambush scene art for Cargo Reclaimers.",
+        "Image Prompt Used: Aftermath of forest ambush: party regroups around carriage, checking wounds, Bramble weapons and torn seals on road, sealed crate intact; no strixwolf, no undead. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions unless explicitly requested. Do not include undead, skeletons, wraiths, Open Vale, the Custodian, or the Hanging Office. 4:3 cinematic fantasy concept art, no visible text, no captions, no logos, no UI, no watermark.",
+        "Long Storyboard: This is where consequences land. Loot and evidence should humanize the attackers and complicate the party’s relationship to the contract. Run this scene as external opposition and morally complicated conflict: After the fight, the module asks what victory cost and what the party learned. Keep the camera close to practical choices, visible consequences, and the difference between ordinary people and the infrastructure pressing on them.",
+        "Read Aloud: The road is quiet again, except for the horses breathing hard and the forest shifting around the wreckage.",
+        "Gm Notes: If players loot bodies, include personal details, not just coins. Make the world feel lived-in. Keep player-facing information actionable. Reveal systemic truth through objects, reactions, and consequences before naming it. Manufactured-threat lens: seed the contradiction, do not explain it. The surface goal stays simple and heroic. [ADD/EARNED] A spared/captured reclaimer says monster attacks spiked when protection contracts went on sale. (Presence Medium 15; requires mercy or capture)",
+        "Sensory Details: quiet returning too quickly blood on invoice paper rain beginning on extinguished signal knots",
+        "Body Language: Garrick cleans a blade with visible reluctance Khari looks for survivors before loot",
+        "Sample Dialogue: Garrick Reed If the story ends with 'we won,' we did not read the room.",
+        "Checks: Presence or Knowledge Interrogate, comfort, or read the aftermath. Easy to standard Convert combat result into actionable truth. 10/15 Cleanly resolve: Interrogate, comfort, or read the aftermath. Add a concrete boon, extra clue, or improved position. Success, plus the player names one helpful detail or asks one follow-up question. Success, but the GM exposes a cost, ticks a countdown, or reveals a new pressure tied to After the Ambush. The full goal slips, but the party still learns a useful truth or avoids the worst consequence. The GM makes a hard move that follows from the fiction and leaves the next choice visible. Spend Fear to reveal omitted risk, split attention, or put a human cost in front of the contract. On mixed or sliding results, reveal information in layers: visible fact, actionable clue, then systemic truth.",
+        "Choices Consequences: Question a survivor Learn about displacement and claims. Bramble nuance strengthens. Bury the dead A small ritual changes tone. Hush Trust may improve if told honestly.",
+        "Clues: Personal effects They were people. Their violence is still violence. Keepsakes show the reclaimers had lives and obligations. Earned seed Available if players investigate, show mercy, or ask the right question. A spared/captured reclaimer says monster attacks spiked when protection contracts went on sale. Presence Medium 15; requires mercy or capture",
+        "Loot: Personal effects Route sketch Old Goldspire seal Bramble Union Stoneweave: A garment of thousands of tiny polished stones moves like cloth and turns thorns like armor. Every fitted piece looks cut by hands that loved the work. Vial of Briarpowder: A small stoppered vial holds fine grey-green thorn powder that seems to drink the light. A blade edge near it looks sharper and hungrier. Bramble Ward-Scrap Charm Cluster: A knot of blue ward shards, twine, and tiny salvage tags clacks softly at a Bramblefolk belt. It looks illegal only because it looks useful. Claimrunner Serrated Blade: A short serrated blade shows careful filing along the back edge and a handle wrapped in road cord. It is ugly in the practical way of a tool that has never had a decorative day.",
+        "Payoff Flags: Bramble Union Resolution Track Hush Trust Track",
+        "Filters: act-two bramble-union-resolution-track cargo-reclaimers choice clue-discovery consequence gm-only hush-trust-track payoff clue faction manufactured-threat guaranteed-earned",
+        "Index: 8",
+        "Player Questions: What detail in After the Ambush tells you the official story is incomplete? Who notices the human cost first, and how do they show it? What small object, smell, or sound makes this scene feel real?",
+        "Relationship Prompts: Which PC quietly checks on someone else here? Who disagrees about the right thing to do without breaking trust?",
+        "Ownership Prompt: Name one detail in After the Ambush that belongs to your character's point of view.",
+        "Reveal Hooks: Loreborne or Knowledge-focused PCs can read the institutional layer. Wildborne/community-focused PCs can read local custom and ecological stress. Martial/security-focused PCs can read threat posture and custody logic. Magic-focused PCs can feel ward tone, soul-signal, or spell instability. Loreborne: spots older legal, heraldic, or ward-craft language under the branding. Underborne: notices service doors, hidden routes, and who built the thing nobody credits. Highborne: reads etiquette, class panic, and reputational risk. Ridgeborne: notices stonework, weight, pressure, and structural weakness. Wildborne: reads the land, animals, and local ecological stress. Elf/Ribbet/Human/Giant/Katari: invite one sensory or social detail from the player's heritage. Sorcerer/Rogue/Warrior/Guardian/Ranger: give each class one table-facing way to shine without changing the plot.",
+        "Fear Spends: Spend Fear to reveal omitted risk, split attention, or put a human cost in front of the contract. Close the ambush net or put a PC between cargo and a frightened reclaimer. Reveal a personal effect that makes victory emotionally complicated.",
+        "Story Scope: Perceived antagonist: the forest. True antagonist: the corporate lie about the forest. The players never confront it directly. They are meant to feel it by the end. Every act offers at least one guaranteed and one earned hint that the danger is manufactured and the forest is not the enemy. The reclaimers target the cargo and manifest, not purses, and avoid killing when possible. REFLAVOR GUARANTEED Their gear includes salvaged, repainted Grail/Kazrak kit: ex-workers, not feral bandits. REFLAVOR GUARANTEED Knowledge Medium 15 to name the issue \"That stone belongs in the ground.\" \"You do not know what you are carrying.\" ADD EARNED A spared/captured reclaimer says monster attacks spiked when protection contracts went on sale. ADD EARNED Presence Medium 15; requires mercy or capture A spared/captured reclaimer says monster attacks spiked when protection contracts went on sale. ADD EARNED Presence Medium 15; requires mercy or capture Instinct: spot ambush. Presence: parley/interrogate. Knowledge: recognize corporate-issue gear. ACT2 Act 2: Bramble ambush 90 0:55 to 1:30 1:30 first combat and possible interrogation Abstract the fight via a Group Action roll; keep one captured reclaimer...",
+        "Mechanics: The party is in Act Two pressure: The party regroups and may learn the Bramble Union were targeting the cargo specifically. Use Daggerheart Duality Dice as baseline. Use the listed Difficulty and outcome options when a roll matters. Keep trivial actions no-roll; roll only when uncertainty, cost, or danger is interesting. s02-04-question-a-spared-reclaimer S02-04 Question a spared reclaimer Question a spared reclaimer Presence Knowledge Presence Knowledge 12 Presence keeps them talking; Knowledge asks the right claim question. A living prisoner becomes a person or a problem. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. A living prisoner becomes...",
+        "Roll Cards: s02-04-question-a-spared-reclaimer S02-04 Question a spared reclaimer Question a spared reclaimer Presence Knowledge Presence Knowledge 12 Presence keeps them talking; Knowledge asks the right claim question. A living prisoner becomes a person or a problem. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. A living prisoner becomes a person or a problem. Use a hard complication, lost time, worse position, GM Fear, or mark Stress. Apply an official condition only if the fiction and rules justify it. The attempt falls short, but a partial thread appears. Offer one clue, weak position, or safer follow-up. The PC gets the core result, but it costs...",
+        "Conditions Hazards: No official condition unless a feature, hazard, or fictional position calls for Hidden, Restrained, or Vulnerable.",
+        "Search Loot Clues: Claimrunner and ambusher search: half-written letter, old Goldspire seal, reclaimed keyring, names that complicate victory.",
+        "No Roll Guidance: Do not call for a roll when the players have time, a clear method, and no meaningful pressure.",
+        "Tv Mechanics Caption: Public cue: After the Ambush asks what the party does, what it costs, and who is protected.",
+        "Trait Variety Note: Primary traits in this scene: Finesse, Knowledge, Presence. If rolls drift toward Instinct/Presence, ask whether Agility, Strength, Finesse, or Knowledge better describes the action.",
+        "Item Ids: bramble-union-stoneweave vial-of-briarpowder bramble-ward-scrap-charm-cluster claimrunner-serrated-blade",
+        "Clueids: route-assurance-contracttm reclaimer-personal-effects old-contract-tags the-interrogation-answer the-painted-joy",
+        "Clue Ids: route-assurance-contracttm reclaimer-personal-effects old-contract-tags the-interrogation-answer the-painted-joy",
+        "Image Asset Status: image_gen"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash f7304c124804f24e | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

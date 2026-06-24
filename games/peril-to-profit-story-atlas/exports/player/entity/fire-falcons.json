@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "fire-falcons",
+  "kind": "entity",
+  "title": "Fire-Falcons",
+  "in_world_label": "Field Guide Page",
+  "brand_flag": "Player-safe",
+  "kicker": "Creature / Animal",
+  "hook": "Player-safe note: Sleek ember-orange falcons with coal-black wing tips and feather edges like banked fire, beautiful enough for prestige and sharp enough to make a cache feel watched.",
+  "blocks": [
+    {
+      "label": "Observed Form",
+      "body": "Sleek falcons with ember-orange plumage, coal-dark wing tips, glowing feather edges, and intelligent eyes perched near scorched Sablewood branches."
+    },
+    {
+      "label": "Behavior",
+      "body": "Beauty bred into a weapon. Banked-fire feathers the wealthy buy for spectacle and the Sinecure trains for harm. Loyal to whoever feeds them, sharp to everyone else, and aware, somewhere, that they are admired far more than they are loved."
+    },
+    {
+      "label": "Warning Signs",
+      "body": "Being chained for display, the smell of a stranger's fear, and losing their handler's voice in a crowd."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Give it distance before deciding it is hostile.",
+    "Read posture, tracks, and what it is protecting."
+  ],
+  "archetype": "creature.field_guide",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:fire-falcons",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "4a6896a787e84135",
+  "generated_at": "2026-06-23T21:40:58"
+}

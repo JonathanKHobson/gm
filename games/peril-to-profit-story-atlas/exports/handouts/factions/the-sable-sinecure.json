@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "the-sable-sinecure",
+  "kind": "entity",
+  "title": "The Sable Sinecure",
+  "in_world_label": "Public Notice",
+  "brand_flag": "The Sable Sinecure™: danger, properly accounted.",
+  "kicker": "A logistics guild that makes impossible forest transport look polished, expensive, and deserved.",
+  "hook": "The Sable Sinecure: The Sable Sinecure™ makes moving freight through a deadly forest look so polished you forget the danger is the product. Slogan: The Sable Sinecure™: danger, properly accounted.",
+  "blocks": [
+    {
+      "label": "Public Face",
+      "body": "A logistics guild that makes impossible forest transport look polished, expensive, and deserved."
+    },
+    {
+      "label": "Slogan",
+      "body": "The Sable Sinecure™: danger, properly accounted."
+    },
+    {
+      "label": "How To Deal",
+      "body": "The Sable Sinecure™ presents as old-money competence: lacquered route maps, a hazard-rate ledger displayed like a wine list, agents in sable-and-silver who quote your survival odds with a sommelier's confidence. Buy a Certified Safe Passage™, a..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask what they publicly promise.",
+    "Compare their slogan to what they actually do in the scene."
+  ],
+  "archetype": "faction.flyer",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:the-sable-sinecure",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "d02be181d203cacb",
+  "generated_at": "2026-06-23T21:40:58"
+}

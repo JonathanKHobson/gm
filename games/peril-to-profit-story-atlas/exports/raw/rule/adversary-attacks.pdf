@@ -1,0 +1,161 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2361 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(Adversary Attacks) Tj
+T*
+() Tj
+T*
+(What it is) Tj
+T*
+() Tj
+T*
+(Adversaries roll d20 + ATK against PC Evasion.) Tj
+T*
+() Tj
+T*
+(How it works) Tj
+T*
+() Tj
+T*
+(Use when an adversary gets the spotlight to attack.) Tj
+T*
+() Tj
+T*
+(Step by step) Tj
+T*
+() Tj
+T*
+(- Use when an adversary gets the spotlight to attack.) Tj
+T*
+(- Roll d20 plus ATK against the target's Evasion.) Tj
+T*
+(- Return to the fiction with the concrete result, cost, or benefit.) Tj
+T*
+() Tj
+T*
+(Try it) Tj
+T*
+() Tj
+T*
+(How do enemies attack?) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: adversary-attacks) Tj
+T*
+(- Title: Adversary Attacks) Tj
+T*
+(- Tag: official) Tj
+T*
+(- Summary: Adversaries roll d20 + ATK against PC Evasion.) Tj
+T*
+(- When: Use when an adversary gets the spotlight to attack.) Tj
+T*
+(- Not When: Do not ask the PC to roll defense by default.) Tj
+T*
+(- Question: How do enemies attack?) Tj
+T*
+(- Answer: Roll d20 plus ATK against the target's Evasion.) Tj
+T*
+(- Example: Ancient Skeleton: d20 + ATK against Evasion.) Tj
+T*
+(- Related: evasion damage-thresholds) Tj
+T*
+(- Aliases: enemy attack attack roll adversary attack) Tj
+T*
+(- Source: Official SRD / local quickstart reference. Use private full-rulebook) Tj
+T*
+(  material only at the table.) Tj
+T*
+(- Mechanic Profile: mechanic-profile-v1 adversary-attacks Adversary Attacks enemy) Tj
+T*
+(  attack attack roll adversary attack Adversary Attacks combat #rules-canon) Tj
+T*
+(  Intermediate evasion damage-thresholds Introduce at first use evasion damage-) Tj
+T*
+(  thresholds Adversaries roll d20 + ATK against PC Evasion. Roll d20 plus ATK against) Tj
+T*
+(  the target's Evasion. Use when an adversary gets the spotlight to attack. Adversary) Tj
+T*
+(  Attacks: Adversaries roll d20 + ATK against PC Evasion. Use when an adversary gets) Tj
+T*
+(  the spotlight to attack. Roll d20 plus ATK against the target's Evasion. Return to) Tj
+T*
+(  the fiction with the concrete result, cost, or benefit. Ancient Skeleton: d20 + ATK) Tj
+T*
+(  against Evasion. Ancient Skeleton: d20 + ATK against Evasion. How do enemies attack?) Tj
+T*
+(  Adversary Attacks enemy attack attack roll adversary attack evasion damage-) Tj
+T*
+(  thresholds Verified against local Daggerheart rules packet and Mechanic System) Tj
+T*
+(  Packet; paraphrased for table use.) Tj
+T*
+(- Canon Status: #rules-canon) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 219 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Category: combat) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash ac5458f52f5f32b6 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R] /Count 2 >>
+endobj
+6 0 obj
+<< /Type /Catalog /Pages 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000002422 00000 n 
+0000002548 00000 n 
+0000002818 00000 n 
+0000002944 00000 n 
+0000003007 00000 n 
+0000003056 00000 n 
+trailer
+<< /Size 8 /Root 6 0 R >>
+startxref
+3128
+%%EOF

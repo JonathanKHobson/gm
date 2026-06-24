@@ -1,0 +1,804 @@
+{
+  "open-vale-and-soul-debt": {
+    "id": "open-vale-and-soul-debt",
+    "name": "Open Vale & Soul-Debt",
+    "track": "WORLD/NPC",
+    "conclusion": "The ward ritual's threats used to be people; the ward's beauty has a human cost.",
+    "why": "Gives Act Five weight without turning the hidden soul-economy seed into exposition.",
+    "clue_ids": [
+      "market-correction",
+      "glass-bright-ward-sand",
+      "legacy-security-badge",
+      "soul-audit-memory-shard",
+      "sable-sinecure-secret-caches"
+    ],
+    "clues": [
+      {
+        "id": "market-correction",
+        "name": "Market Correction",
+        "tier": [
+          "MANDATORY"
+        ],
+        "show": "As the ritual strains, the vale itself answers — the ground gives up more figures, rising in waves, as if the site is rebalancing a ledger.",
+        "points_to": "an environmental Fear move — the ritual site spawns more skeletons under pressure. Mechanically central to Act 5.",
+        "scenes": [
+          "S05-04",
+          "S05-05",
+          "S05-06"
+        ],
+        "primary_rolls": [
+          "Instinct D11",
+          "Knowledge D11",
+          "Strength D11"
+        ]
+      },
+      {
+        "id": "glass-bright-ward-sand",
+        "name": "Glass-Bright Ward Sand",
+        "tier": [
+          "OPTIONAL"
+        ],
+        "show": "Where the ward settles, the ground is left strewn with bright glittering sand — lovely, and just a little too sharp to touch.",
+        "points_to": "the ward's magic has a residue and a cost; beauty with an edge.",
+        "scenes": [
+          "S05-03",
+          "S05-07"
+        ],
+        "primary_rolls": [
+          "Finesse D13",
+          "Instinct D13",
+          "Knowledge D13"
+        ]
+      },
+      {
+        "id": "legacy-security-badge",
+        "name": "Legacy Security Badge",
+        "tier": [
+          "HIDDEN"
+        ],
+        "show": "A broken badge on a fallen figure, naming a security unit that no longer exists — a job title outliving the person.",
+        "points_to": "the \"monster\" was an employee; this is a defunct unit, not a boss — people, not enemies.",
+        "scenes": [
+          "S05-04",
+          "S05-05"
+        ],
+        "primary_rolls": [
+          "Finesse D14",
+          "Knowledge D14",
+          "Presence D14"
+        ]
+      },
+      {
+        "id": "soul-audit-memory-shard",
+        "name": "Soul-Audit Memory Shard",
+        "tier": [
+          "HIDDEN"
+        ],
+        "show": "A cold sliver that, touched, plays a stranger's memory — a name, a debt, a last ordinary afternoon — partial and aching.",
+        "points_to": "turns abstract \"soul-debt\" into something the players feel: these were people, audited into assets.",
+        "scenes": [
+          "S05-05"
+        ],
+        "primary_rolls": [
+          "Instinct D14",
+          "Knowledge D14",
+          "Presence D14"
+        ]
+      },
+      {
+        "id": "sable-sinecure-secret-caches",
+        "name": "Sable Sinecure Secret Caches",
+        "tier": [
+          "WORLD",
+          "COM"
+        ],
+        "show": "A forest cache sitting in plain sight, apparently unguarded — which is exactly what makes it terrifying to the locals.",
+        "points_to": "the Sinecure guards by policy, trap, and fire-falcon consequence, not visible muscle — corporate menace as fine print.",
+        "scenes": [
+          "MAP-LOC-sablewoodtm-logistics-preserve",
+          "S01-01"
+        ],
+        "primary_rolls": [
+          "Finesse D13",
+          "Instinct D13",
+          "Knowledge D13"
+        ]
+      }
+    ]
+  },
+  "the-ambush-reveal": {
+    "id": "the-ambush-reveal",
+    "name": "The Ambush Reveal",
+    "track": "OBVIOUS",
+    "conclusion": "The overturned cart was staged as an ambush site before the party arrived.",
+    "why": "Moves suspicion away from bad luck or a random beast and toward a planned trap.",
+    "clue_ids": [
+      "bramble-strand",
+      "torn-shipping-seals",
+      "route-ledger",
+      "overturned-wheel-ruts",
+      "bramble-claim-marker",
+      "the-wrong-driver",
+      "the-off-provisions",
+      "the-too-neat-wreck"
+    ],
+    "clues": [
+      {
+        "id": "bramble-strand",
+        "name": "Bramble Strand",
+        "tier": [
+          "MANDATORY"
+        ],
+        "show": "A length of thorned bramble is wound tight around the wheel-spokes — deliberate, woven, not snagged in passing.",
+        "points_to": "a thinking hand jammed the wheel; this points past \"animal attack.\"",
+        "scenes": [
+          "S01-02",
+          "S02-01"
+        ],
+        "primary_rolls": [
+          "Finesse D11",
+          "Instinct D11",
+          "Knowledge D11"
+        ]
+      },
+      {
+        "id": "torn-shipping-seals",
+        "name": "Torn Shipping Seals",
+        "tier": [
+          "OPTIONAL"
+        ],
+        "show": "Broken wax shipping seals are scattered at the cart — and the same torn seals turn up later on Bramble Union gear.",
+        "points_to": "links the cart to the Bramble — but (hidden seam) the seals are old, suggesting reclaimed goods, not a fresh heist.",
+        "scenes": [
+          "S02-01"
+        ],
+        "primary_rolls": [
+          "Finesse D12",
+          "Knowledge D12",
+          "Presence D12"
+        ]
+      },
+      {
+        "id": "route-ledger",
+        "name": "Route Ledger",
+        "tier": [
+          "OPTIONAL"
+        ],
+        "show": "A water-stained ledger of the driver's route — stops, times, and a final leg that runs straight into trouble.",
+        "points_to": "the route was known; the cart was targeted, not unlucky.",
+        "scenes": [
+          "S01-02",
+          "S02-01",
+          "S03-02",
+          "S05-05",
+          "S06-01"
+        ],
+        "primary_rolls": [
+          "Finesse D12",
+          "Knowledge D12",
+          "Presence D12"
+        ]
+      },
+      {
+        "id": "overturned-wheel-ruts",
+        "name": "Overturned Wheel Ruts",
+        "tier": [
+          "MANDATORY"
+        ],
+        "show": "The mud around the cart is gouged in hard, straight scars — the wheels didn't wander off the road, they were dragged and stopped.",
+        "points_to": "the cart was disabled and positioned, not crashed.",
+        "scenes": [
+          "S01-02"
+        ],
+        "primary_rolls": [
+          "Finesse D11",
+          "Instinct D11",
+          "Knowledge D11"
+        ]
+      },
+      {
+        "id": "bramble-claim-marker",
+        "name": "Bramble Claim Marker",
+        "tier": [
+          "OPTIONAL",
+          "HIDDEN"
+        ],
+        "show": "A knotted strand and a pattern of scratch-marks, ordered like a tally or a signature, left where it would be found.",
+        "points_to": "the ambush was organized and claimed — a system, not a random act.",
+        "scenes": [
+          "S02-01",
+          "S02-02"
+        ],
+        "primary_rolls": [
+          "Finesse D14",
+          "Instinct D14",
+          "Knowledge D14"
+        ]
+      },
+      {
+        "id": "the-wrong-driver",
+        "name": "The Wrong Driver",
+        "tier": [
+          "MANDATORY",
+          "FALLBACK"
+        ],
+        "show": "The body's livery, hands, and papers don't match this cart. A courier's hands are callused a certain way; these aren't. The name on the manifest isn't the name stitched in the collar.",
+        "points_to": "the dead \"driver\" was placed here — wrong person for this run.",
+        "scenes": [
+          "S01-02"
+        ],
+        "primary_rolls": [
+          "Instinct D11",
+          "Knowledge D11",
+          "Presence D11"
+        ]
+      },
+      {
+        "id": "the-off-provisions",
+        "name": "The Off Provisions",
+        "tier": [
+          "OPTIONAL"
+        ],
+        "show": "The provisions are wrong for the trip — too little water, the wrong rations, food already spoiling that no real courier would have packed.",
+        "points_to": "nobody actually drove this cart on a real run; it was dressed to look driven.",
+        "scenes": [
+          "S01-02"
+        ],
+        "primary_rolls": [
+          "Finesse D12",
+          "Instinct D12",
+          "Knowledge D12"
+        ]
+      },
+      {
+        "id": "the-too-neat-wreck",
+        "name": "The Too-Neat Wreck",
+        "tier": [
+          "FALLBACK"
+        ],
+        "show": "For a violent wreck, nothing valuable is actually scattered — the spill is arranged, the \"chaos\" is tidy, the sealed package conspicuously untouched.",
+        "points_to": "the scene was set-dressed; a real robbery or beast-kill would look nothing like this.",
+        "scenes": [
+          "S01-02"
+        ],
+        "primary_rolls": [
+          "Finesse D10",
+          "Knowledge D10",
+          "Presence D10"
+        ]
+      }
+    ]
+  },
+  "the-creature-is-innocent": {
+    "id": "the-creature-is-innocent",
+    "name": "The Creature Is Innocent",
+    "track": "OBVIOUS",
+    "conclusion": "The strixwolf did not kill the driver or cause the wreck; it is frightened and scavenging.",
+    "why": "Lets the table choose mercy and see nature contradict the opening propaganda.",
+    "clue_ids": [
+      "tamsin-s-wedding-cord",
+      "no-predator-wounds",
+      "the-wary-flinch",
+      "feeding-not-hunting",
+      "the-late-tracks"
+    ],
+    "clues": [
+      {
+        "id": "tamsin-s-wedding-cord",
+        "name": "Tamsin's Wedding Cord",
+        "tier": [
+          "HIDDEN"
+        ],
+        "show": "A braided cord, soft with wear, knotted around the dead courier's wrist — the kind a person ties for someone they love.",
+        "points_to": "the victim is Tamsin, a real person with a life — not a loot container; it makes the murder land and the staging crueler.",
+        "scenes": [
+          "S01-02",
+          "S02-01"
+        ],
+        "primary_rolls": [
+          "Finesse D14",
+          "Knowledge D14",
+          "Presence D14"
+        ]
+      },
+      {
+        "id": "no-predator-wounds",
+        "name": "No Predator Wounds",
+        "tier": [
+          "MANDATORY"
+        ],
+        "show": "The wound that killed the driver is a clean, thin line — not the tear of a beak or the rake of a claw. Whatever did this had an edge, not teeth.",
+        "points_to": "the death was a blade (the throat was slit) and dressed up as an animal attack.",
+        "scenes": [
+          "S01-02"
+        ],
+        "primary_rolls": [
+          "Finesse D11",
+          "Instinct D11",
+          "Knowledge D11"
+        ]
+      },
+      {
+        "id": "the-wary-flinch",
+        "name": "The Wary Flinch",
+        "tier": [
+          "MANDATORY"
+        ],
+        "show": "The creature watches your every movement and shrinks from it — ears flat, wings tucked, ready to bolt, not to pounce. It is more afraid of you than you are of it.",
+        "points_to": "it's behaving like prey, not a predator defending a kill.",
+        "scenes": [
+          "S01-02",
+          "S01-03"
+        ],
+        "primary_rolls": [
+          "Agility D11",
+          "Instinct D11",
+          "Presence D11"
+        ]
+      },
+      {
+        "id": "feeding-not-hunting",
+        "name": "Feeding, Not Hunting",
+        "tier": [
+          "OPTIONAL"
+        ],
+        "show": "It isn't guarding the body at all — it's nosing at droppings and scattered scat near the cargo, scavenging, uninterested in the corpse.",
+        "points_to": "it came for the Keystone scat / scraps, not to kill; it has no stake in the body.",
+        "scenes": [
+          "S01-02",
+          "S01-03"
+        ],
+        "primary_rolls": [
+          "Instinct D12",
+          "Knowledge D12",
+          "Presence D12"
+        ]
+      },
+      {
+        "id": "the-late-tracks",
+        "name": "The Late Tracks",
+        "tier": [
+          "OPTIONAL"
+        ],
+        "show": "The creature's prints lie on top of the wheel-ruts and the dragging marks — it arrived after everything else was already done.",
+        "points_to": "chronology clears it — it showed up post-wreck.",
+        "scenes": [
+          "S01-02"
+        ],
+        "primary_rolls": [
+          "Finesse D12",
+          "Instinct D12",
+          "Knowledge D12"
+        ]
+      }
+    ]
+  },
+  "the-bramble-truth": {
+    "id": "the-bramble-truth",
+    "name": "The Bramble Truth",
+    "track": "HIDDEN",
+    "conclusion": "The Bramble Union are harmed workers and forest defenders, not the simple criminals the propaganda describes.",
+    "why": "Complicates victory over the Bramble and rewards empathy, capture, or careful interrogation.",
+    "clue_ids": [
+      "reclaimer-personal-effects",
+      "old-contract-tags",
+      "the-held-blow",
+      "the-interrogation-answer",
+      "the-painted-joy"
+    ],
+    "clues": [
+      {
+        "id": "reclaimer-personal-effects",
+        "name": "Reclaimer Personal Effects",
+        "tier": [
+          "HIDDEN"
+        ],
+        "show": "Among the Bramble fighters' things: a child's toy, half-finished family mending, old contract tags worn smooth — the belongings of people, not raiders.",
+        "points_to": "these are ordinary, struggling folk; a clean \"kill the bandits\" victory curdles when you see what they carry.",
+        "scenes": [
+          "S02-03",
+          "S02-04"
+        ],
+        "primary_rolls": [
+          "Finesse D14",
+          "Knowledge D14",
+          "Presence D14"
+        ]
+      },
+      {
+        "id": "old-contract-tags",
+        "name": "Old Contract Tags",
+        "tier": [
+          "HIDDEN"
+        ],
+        "show": "The \"stolen\" seals and tags on the Bramble's goods are old and worn — and many bear the names of the Bramble carrying them.",
+        "points_to": "their \"loot\" is their own repossessed wages and goods — they're reclaiming what was taken, not robbing.",
+        "scenes": [
+          "S02-01",
+          "S02-04"
+        ],
+        "primary_rolls": [
+          "Finesse D14",
+          "Knowledge D14",
+          "Presence D14"
+        ]
+      },
+      {
+        "id": "the-held-blow",
+        "name": "The Held Blow",
+        "tier": [
+          "HIDDEN"
+        ],
+        "show": "In the fight, a Bramble fighter has a clean opening — and pulls the strike. A beat of hesitation that doesn't fit a ruthless bandit.",
+        "points_to": "they don't actually want to kill; the menace is mostly armor.",
+        "scenes": [
+          "S02-03"
+        ],
+        "primary_rolls": [
+          "Finesse D14",
+          "Instinct D14",
+          "Presence D14"
+        ]
+      },
+      {
+        "id": "the-interrogation-answer",
+        "name": "The Interrogation Answer",
+        "tier": [
+          "HIDDEN"
+        ],
+        "show": "Press a captured Bramble fighter and the bravado cracks: \"We used to haul for them. Then the route 'restructured,' and we didn't. The thorns took us in. They don't.\"",
+        "points_to": "the Bramble are ex-corporate workers, discarded — the clearest single source of the truth, gated behind capture + RP.",
+        "scenes": [
+          "S02-03",
+          "S02-04"
+        ],
+        "primary_rolls": [
+          "Instinct D14",
+          "Knowledge D14",
+          "Presence D14"
+        ]
+      },
+      {
+        "id": "the-painted-joy",
+        "name": "The Painted Joy",
+        "tier": [
+          "HIDDEN"
+        ],
+        "show": "Glimpsed through the thorns: a hidden village painted in bright murals and lit by glowing moss, full of color and care — nothing like the den of thieves you were warned about.",
+        "points_to": "the Bramble make beauty and community; the \"criminal syndicate\" framing is propaganda.",
+        "scenes": [
+          "MAP-LOC-bramble-union-villages",
+          "S02-04"
+        ],
+        "primary_rolls": [
+          "Instinct D14",
+          "Knowledge D14",
+          "Presence D14"
+        ]
+      }
+    ]
+  },
+  "the-manufactured-failure": {
+    "id": "the-manufactured-failure",
+    "name": "The Manufactured Failure",
+    "track": "HIDDEN",
+    "conclusion": "The corporation planned for the ward to fail and monetized the replacement.",
+    "why": "Seeds the hidden false-capitalism thesis without stating it to players.",
+    "clue_ids": [
+      "dustless-ward-map",
+      "relay-tremor-notation",
+      "corporate-seal-wax-residue",
+      "public-private-ward-compact",
+      "route-assurance-contracttm",
+      "the-pre-dated-invoice",
+      "the-convenient-renewal"
+    ],
+    "clues": [
+      {
+        "id": "dustless-ward-map",
+        "name": "Dustless Ward Map",
+        "tier": [
+          "HIDDEN"
+        ],
+        "show": "An old ward-map furred with dust — except one clean rectangle, where something has been handled, recently and often.",
+        "points_to": "attention has been focused on one ward/site (where the failure was steered).",
+        "scenes": [
+          "S04-04"
+        ],
+        "primary_rolls": [
+          "Finesse D14",
+          "Knowledge D14",
+          "Presence D14"
+        ]
+      },
+      {
+        "id": "relay-tremor-notation",
+        "name": "Relay Tremor Notation",
+        "tier": [
+          "HIDDEN"
+        ],
+        "show": "A small marginal notation — a tremor reading — showing the wider relay network is already shaking, before anyone here has words for the problem.",
+        "points_to": "the failure isn't local; the whole system is destabilizing (the sequel seam).",
+        "scenes": [
+          "S06-02"
+        ],
+        "primary_rolls": [
+          "Instinct D14",
+          "Knowledge D14",
+          "Presence D14"
+        ]
+      },
+      {
+        "id": "corporate-seal-wax-residue",
+        "name": "Corporate Seal Wax Residue",
+        "tier": [
+          "HIDDEN"
+        ],
+        "show": "Cold flecks of seal-wax, pressed and re-pressed, where some clerk has filed and re-filed the same patch of reality until it complied.",
+        "points_to": "a system that documents events into the shape it needs — paperwork overwriting truth.",
+        "scenes": [
+          "S05-06"
+        ],
+        "primary_rolls": [
+          "Finesse D14",
+          "Knowledge D14",
+          "Presence D14"
+        ]
+      },
+      {
+        "id": "public-private-ward-compact",
+        "name": "Public-Private Ward Compact",
+        "tier": [
+          "HIDDEN"
+        ],
+        "show": "A concession contract that turns \"protecting the village\" into overlapping rights to build it, bill it, power it, guard it, finance it, and narrate it.",
+        "points_to": "protection has been financialized — the same hand owns the threat, the defense, and the story about both.",
+        "scenes": [
+          "S04-04",
+          "S05-01"
+        ],
+        "primary_rolls": [
+          "Finesse D14",
+          "Knowledge D14",
+          "Presence D14"
+        ]
+      },
+      {
+        "id": "route-assurance-contracttm",
+        "name": "Route Assurance Contract™",
+        "tier": [
+          "HIDDEN",
+          "COM"
+        ],
+        "show": "A bland, sunny contract, thick with optimistic language, that promises everything and guarantees nothing — and is, technically, completely truthful.",
+        "points_to": "the company has pre-written the failure into the fine print; everyone is \"technically compliant\" while the risk sits on the village.",
+        "scenes": [
+          "S00-01",
+          "S02-04",
+          "S03-01",
+          "S04-01",
+          "S05-01"
+        ],
+        "primary_rolls": [
+          "Finesse D14",
+          "Knowledge D14",
+          "Presence D14"
+        ]
+      },
+      {
+        "id": "the-pre-dated-invoice",
+        "name": "The Pre-Dated Invoice",
+        "tier": [
+          "HIDDEN"
+        ],
+        "show": "An invoice for \"emergency ward replacement,\" cheerful and itemized — dated before the ward actually failed.",
+        "points_to": "the bill was prepared in advance; the company knew the failure was coming because it arranged it.",
+        "scenes": [
+          "S04-03",
+          "S04-04"
+        ],
+        "primary_rolls": [
+          "Finesse D14",
+          "Knowledge D14",
+          "Presence D14"
+        ]
+      },
+      {
+        "id": "the-convenient-renewal",
+        "name": "The Convenient Renewal",
+        "tier": [
+          "HIDDEN"
+        ],
+        "show": "The ward \"happens\" to fail exactly as the village's protection contract comes up for renewal — at a generous new rate.",
+        "points_to": "the timing is the tell; failure is a sales tool.",
+        "scenes": [
+          "S04-03",
+          "S04-04"
+        ],
+        "primary_rolls": [
+          "Finesse D14",
+          "Knowledge D14",
+          "Presence D14"
+        ]
+      }
+    ]
+  },
+  "hush-hidden-struggle": {
+    "id": "hush-hidden-struggle",
+    "name": "Hush's Hidden Struggle",
+    "track": "HIDDEN",
+    "conclusion": "Hush's joy is real, but corporations are draining its money, labor, and breathing room; low water can be supporting texture, not the core truth.",
+    "why": "Keeps Hush warm while making the cost of protection concrete.",
+    "clue_ids": [
+      "the-ward-subscription",
+      "the-cheerful-ledger",
+      "the-drained-water",
+      "the-patched-everything",
+      "the-tired-smile"
+    ],
+    "clues": [
+      {
+        "id": "the-ward-subscription",
+        "name": "The Ward Subscription",
+        "tier": [
+          "MANDATORY"
+        ],
+        "show": "The villagers explain, cheerfully, what the ward costs them — a steep, endless fee — and that they've been asked to help defend the village themselves while the new ward-stone is installed.",
+        "points_to": "Hush pays dearly for protection it's now also expected to provide; the deal is lopsided, and they're too kind to call it.",
+        "scenes": [
+          "S04-01",
+          "S04-03",
+          "S04-04"
+        ],
+        "primary_rolls": [
+          "Instinct D11",
+          "Knowledge D11",
+          "Presence D11"
+        ]
+      },
+      {
+        "id": "the-cheerful-ledger",
+        "name": "The Cheerful Ledger",
+        "tier": [
+          "HIDDEN"
+        ],
+        "show": "The village books are kept in a bright, hopeful hand — and every column drains outward: tithes, fees, levies, subscriptions, all flowing to the corporations. Almost nothing stays.",
+        "points_to": "all of Hush's labor and coin is siphoned away; the smiles sit on top of a grim balance sheet.",
+        "scenes": [
+          "S04-03",
+          "S04-04"
+        ],
+        "primary_rolls": [
+          "Finesse D14",
+          "Knowledge D14",
+          "Presence D14"
+        ]
+      },
+      {
+        "id": "the-drained-water",
+        "name": "The Drained Water",
+        "tier": [
+          "HIDDEN"
+        ],
+        "show": "Hush looks freshly painted and warmly tended, but the little public board is crowded with service fees, late-payment ribbons, and household ledger slips marked again and again in outgoing ink.",
+        "points_to": "Hush is being drained of coin, labor, and choices by protection fees and corporate services; low water may appear as a symptom, but the clue is economic exhaustion.",
+        "scenes": [
+          "S04-01"
+        ],
+        "primary_rolls": [
+          "Instinct D14",
+          "Knowledge D14",
+          "Presence D14"
+        ]
+      },
+      {
+        "id": "the-patched-everything",
+        "name": "The Patched Everything",
+        "tier": [
+          "OPTIONAL",
+          "HIDDEN"
+        ],
+        "show": "Every roof, coat, and cart in Hush is mended, re-mended, and mended again — lovingly, expertly, endlessly. Nothing here is new.",
+        "points_to": "they can afford nothing new; the joy is threadbare but unbroken.",
+        "scenes": [
+          "S03-01",
+          "S04-01"
+        ],
+        "primary_rolls": [
+          "Instinct D14",
+          "Knowledge D14",
+          "Presence D14"
+        ]
+      },
+      {
+        "id": "the-tired-smile",
+        "name": "The Tired Smile",
+        "tier": [
+          "HIDDEN"
+        ],
+        "show": "Mid-laugh, a villager's smile slips for half a second — bone-deep tiredness underneath — and then snaps back, brighter than before.",
+        "points_to": "the joy is real and so is the exhaustion; they carry both at once.",
+        "scenes": [
+          "S03-01",
+          "S04-03"
+        ],
+        "primary_rolls": [
+          "Instinct D14",
+          "Knowledge D14",
+          "Presence D14"
+        ]
+      }
+    ]
+  },
+  "the-propaganda-itself": {
+    "id": "the-propaganda-itself",
+    "name": "The Propaganda Itself",
+    "track": "WORLD/NPC",
+    "conclusion": "The cheerful corporate messaging is evidence because later play contradicts it.",
+    "why": "Sets the satire baseline and creates callbacks the players can notice later.",
+    "clue_ids": [
+      "the-welcome-broadcasttm",
+      "nature-is-deadly-placardtm",
+      "bramble-are-criminals-noticetm"
+    ],
+    "clues": [
+      {
+        "id": "the-welcome-broadcasttm",
+        "name": "The Welcome Broadcast™",
+        "tier": [
+          "COM",
+          "MANDATORY"
+        ],
+        "show": "A bright RuneSpark welcome plays you off: \"Congratulations on your Provisional Hire! Sablewood is a Certified Adventure Experience™. Nature is Thrilling, Lucrative, and Almost Entirely Survivable! Your Satisfaction Matters Deeply to Us!\"",
+        "points_to": "sets the official story (nature deadly, company kind) that the journey will quietly dismantle.",
+        "scenes": [
+          "S00-01"
+        ],
+        "primary_rolls": [
+          "Finesse D11",
+          "Knowledge D11",
+          "Presence D11"
+        ]
+      },
+      {
+        "id": "nature-is-deadly-placardtm",
+        "name": "Nature-Is-Deadly Placard™",
+        "tier": [
+          "COM",
+          "OPTIONAL"
+        ],
+        "show": "A roadside sign, cheerful and lurid: \"WARNING! Unlicensed Wildlife Ahead! Approved Wildlife Available for Purchase. Do Not Befriend the Forest. The Forest Cannot Be Trusted. The Forest Has Not Signed Anything.\"",
+        "points_to": "primes fear of nature — directly contradicted by the scared, harmless creature.",
+        "scenes": [
+          "S00-01",
+          "S01-01"
+        ],
+        "primary_rolls": [
+          "Finesse D13",
+          "Knowledge D13",
+          "Presence D13"
+        ]
+      },
+      {
+        "id": "bramble-are-criminals-noticetm",
+        "name": "Bramble-Are-Criminals Notice™",
+        "tier": [
+          "COM",
+          "OPTIONAL"
+        ],
+        "show": "A wanted-style notice, brightly printed: \"The Bramble Union: An Unlicensed Syndicate of Anarchists, Thieves, and Unlicensed Persons. Report Sightings. Do Not Listen to Them. Especially Do Not Listen to Them.\"",
+        "points_to": "primes the party to see the Bramble as villains — contradicted by The Bramble Truth.",
+        "scenes": [
+          "S00-01",
+          "S02-01",
+          "S02-02"
+        ],
+        "primary_rolls": [
+          "Finesse D13",
+          "Knowledge D13",
+          "Presence D13"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2112 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S04-01 - Through the Farms) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(Past the last homes of the village, the crops change: fruits and vegetables wear a thin) Tj
+T*
+(layer of glowing blue moss that pulses softly with warmth as you pass. Then the) Tj
+T*
+(cultivated land ends, and the preserve returns. The great trees here have faces,) Tj
+T*
+(hundreds of them, carved into every side. Ahead, something hangs in the canopy: a cabin,) Tj
+T*
+(swaying gently, suspended over a counterweight stone the size of a cabin itself.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Reach the Custodian's home.) Tj
+T*
+() Tj
+T*
+(GM goal) Tj
+T*
+() Tj
+T*
+(Cross from Hush farmland into the carved-face preserve edge and pay off the route the) Tj
+T*
+(party earned.) Tj
+T*
+() Tj
+T*
+(GM notes) Tj
+T*
+() Tj
+T*
+(- This is the Act 3 to Act 4 consequence handoff: route quality changes approach) Tj
+T*
+(  pressure.) Tj
+T*
+(- The alternate hazard is minor and non-combat. Save lethal danger for Act 5.) Tj
+T*
+() Tj
+T*
+(GM script) Tj
+T*
+() Tj
+T*
+(Say: "This is where the route you earned pays off. If Hush trusted you, the way is calm.) Tj
+T*
+(If the route is dangerous or unknown, the preserve asks for one last bit of attention) Tj
+T*
+(before the treehouse.") Tj
+T*
+() Tj
+T*
+(State controls) Tj
+T*
+() Tj
+T*
+(- custodian_trust Custodian Trust select low neutral high) Tj
+T*
+(- custodian_route Custodian Route select unknown safe dangerous) Tj
+T*
+(- strixwolf_disposition Strixwolf Disposition select unresolved calm hostile killed) Tj
+T*
+(- strixwolf_outcome Strixwolf Outcome select unresolved calmed helped avoided attacked) Tj
+T*
+(  killed) Tj
+T*
+(- strixwolf_trust Strixwolf Trust number 3) Tj
+T*
+(- strixwolf_blood_debt Strixwolf Blood Debt checkbox) Tj
+T*
+(- bramble_outcome Bramble Outcome select unresolved killed captured spared negotiated) Tj
+T*
+(  escaped let_cargo) Tj
+T*
+(- package_status Package Status select held lost) Tj
+T*
+(- hush_trust Hush Trust select low neutral high) Tj
+T*
+(- ward_awareness Ward Awareness select none seed aware) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 153 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(Build 2026-06-23T21:40:58 | Content hash 09c10e8f9827e44e | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R] /Count 2 >>
+endobj
+6 0 obj
+<< /Type /Catalog /Pages 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000002173 00000 n 
+0000002299 00000 n 
+0000002503 00000 n 
+0000002629 00000 n 
+0000002692 00000 n 
+0000002741 00000 n 
+trailer
+<< /Size 8 /Root 6 0 R >>
+startxref
+2813
+%%EOF

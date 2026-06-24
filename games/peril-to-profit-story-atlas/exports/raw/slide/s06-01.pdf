@@ -1,0 +1,653 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2790 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S06-01 - Back in the Hanging Office) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(An hour later, back in the treehouse, the Keystone hangs suspended above a rumbling) Tj
+T*
+(hearth-fire, glowing soft and settled. The Custodian, older now, the night's work plain) Tj
+T*
+(in her voice, folds into an over-stuffed chair. "You fought hard. I'm not surprised.) Tj
+T*
+(Emeris doesn't send just anyone." There is hot food, a warm bath waiting, and for the) Tj
+T*
+(first time in days, nowhere you need to be. She looks at each of you like she is) Tj
+T*
+(memorizing you. "Before you go," she says, "let's talk about what happened out there,) Tj
+T*
+(and what you'll do with it.") Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Rest, receive your due, and reckon with the choice you made.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: S06-01) Tj
+T*
+(- Type: scene) Tj
+T*
+(- Sectionid: EPILOGUE) Tj
+T*
+(- Sectiontitle: Epilogue: Beyond the Contract) Tj
+T*
+(- Title: Back in the Hanging Office) Tj
+T*
+(- Shorttitle: Rewards / Report) Tj
+T*
+(- Order: 701) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: True) Tj
+T*
+(- Image: assets/scenes/S06-01-back-in-the-hanging-office.png) Tj
+T*
+(- Alt: Back in the Hanging Office scene art for Beyond the Contract.) Tj
+T*
+(- Caption: Back at the Hanging Office, the party can see how the contract changed) Tj
+T*
+(  them.) Tj
+T*
+(- Mood: Beyond the Contract) Tj
+T*
+(- Gmgoal: The Keystone rests above the hearth while the Custodian thanks the party.) Tj
+T*
+(- Publicobjective: Rest, receive your due, and reckon with the choice you made.) Tj
+T*
+(- Readaloud: An hour later, back in the treehouse, the Keystone hangs suspended above) Tj
+T*
+(  a rumbling hearth-fire, glowing soft and settled. The Custodian, older now, the) Tj
+T*
+(  night's work plain in her voice, folds into an over-stuffed chair. "You fought hard.) Tj
+T*
+(  I'm not surprised. Emeris doesn't send just anyone." There is hot food, a warm bath) Tj
+T*
+(  waiting, and for the first time in days, nowhere you need to be. She looks at each) Tj
+T*
+(  of you like she is memorizing you. "Before you go," she says, "let's talk about what) Tj
+T*
+(  happened out there, and what you'll do with it.") Tj
+T*
+(- Gmnotes: Use triumphant, bittersweet, pyrrhic, or tragic tone from ritual_outcome) Tj
+T*
+(  and custodian_fate. If package_status=lost somehow reached here, frame this as an) Tj
+T*
+(  alternate close and flag the normal reward text as changed.) Tj
+T*
+(- Gmscript: Say: "This is the good part. The fire, the food, the old faerie who is) Tj
+T*
+(  alive because of you. Level up, collect what you earned, and let the report choice) Tj
+T*
+(  sit in the room.") Tj
+T*
+(- Gmreadaloud: The Keystone hangs suspended above a rumbling hearth-fire. The) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4090 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Custodian looks older, exhausted, and deeply grateful. "Before you go," she says,) Tj
+T*
+(  "let's talk about what happened out there, and what you'll do with it.") Tj
+T*
+(- Gmchecklist: Grant level-up. Distribute pay, goodwill, and the Custodian's parting) Tj
+T*
+(  gift. Name protected_whom and ritual_outcome in plain emotional language. Deliver) Tj
+T*
+(  report_choice payoff: honest, spin, refuse, or withhold. Set rewards_granted and) Tj
+T*
+(  epilogue_tone. Drop only one hidden seed if the table asks the right question.) Tj
+T*
+(- Gmprivate: Reward first. The hidden thesis has not earned space until the players) Tj
+T*
+(  feel the win. If custodian_trust is high, the Custodian can almost say: the ward) Tj
+T*
+(  does not make safety from nothing. Stop there. Do not explain the soul-cost. Let it) Tj
+T*
+(  remain a seed.) Tj
+T*
+(- Playertakeaway: You are heroes tonight: take the reward, take the level, and take) Tj
+T*
+(  the moment with the person you saved.) Tj
+T*
+(- Storytakeaway: You saved something real, and the person you saved wants to thank) Tj
+T*
+(  you.) Tj
+T*
+(- Mechanictakeaway: Level-up, rewards_granted, epilogue_tone, and report_choice payoff) Tj
+T*
+(  resolve the one-shot's consequences.) Tj
+T*
+(- Rollcards: s06-01-debrief-with-the-custodian S06-01 Debrief with the Custodian) Tj
+T*
+(  Debrief with the Custodian Presence Knowledge Presence Knowledge 11 Presence honors) Tj
+T*
+(  the person; Knowledge follows the technical warning. The epilogue becomes a handoff) Tj
+T*
+(  instead of a relationship. Critical Success: best possible version of the action;) Tj
+T*
+(  gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction.) Tj
+T*
+(  Success with Hope: the PC gets what they wanted and gains Hope. Keep the position) Tj
+T*
+(  clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains) Tj
+T*
+(  Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC) Tj
+T*
+(  does not get the full result, but gains Hope and receives a useful thread, clue, or) Tj
+T*
+(  safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a) Tj
+T*
+(  hard move that follows from the fiction. The epilogue becomes a handoff instead of a) Tj
+T*
+(  relationship. Use a hard complication, lost time, worse position, GM Fear, or mark) Tj
+T*
+(  Stress. Apply an official condition only if the fiction and rules justify it. The) Tj
+T*
+(  attempt falls short, but a partial thread appears. Offer one clue, weak position, or) Tj
+T*
+(  safer follow-up. The PC gets the core result...) Tj
+T*
+(- Entityids: the-hanging-office whitefire-custodian keystone-asset hush auditors-) Tj
+T*
+(  verdict-ledger route-ledger route-assurance-contract marlowe-fairwind difficulty-) Tj
+T*
+(  ladder kazrak-industries the-grail) Tj
+T*
+(- Entities: the-hanging-office The Hanging Office location Location) Tj
+T*
+(  assets/icons/location.png assets/location-visuals/the-hanging-) Tj
+T*
+(  office/profile_scene_v02.png the HANG-ing AW-fiss A treehouse-office counterweighted) Tj
+T*
+(  by a rune-marked boulder and full of forms, runes, plants, and magic. Turn) Tj
+T*
+(  bureaucracy into physical space the players can climb, read, and choose to respect.) Tj
+T*
+(  A treehouse-office counterweighted by a rune-marked boulder and full of forms,) Tj
+T*
+(  runes, plants, and magic.; introduce it with a sensory palette, who feels safe) Tj
+T*
+(  there, and what has been neglected. Pull player attention toward the choices, clues,) Tj
+T*
+(  and relationships tied to Whitefire Custodian, Keystone Asset, Inspection-Sealed) Tj
+T*
+(  Counterweight. A treehouse-office counterweighted by a rune-marked boulder and full) Tj
+T*
+(  of forms, runes, plants, and magic. whitefire-custodian Whitefire Custodian npc NPC) Tj
+T*
+(  / Ally assets/icons/npc.png assets/npc-images/whitefire-custodian/portrait_base.png) Tj
+T*
+(  WHITE-fire kus-TOH-dee-un Old faerie-like custodian who maintains the ward) Tj
+T*
+(  protecting Hush. Truth-bearer for the Keystone reveal. Whitefire Custodian an old) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3953 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  faerie-like ward keeper whose exhaustion glows around the edges Ancient kindness) Tj
+T*
+(  running on fumes...) Tj
+T*
+(- Locationids: hush the-hanging-office) Tj
+T*
+(- Itemids: auditors-verdict-ledger) Tj
+T*
+(- Clueids: route-ledger) Tj
+T*
+(- Statecontrols: report_choice Report Choice select unresolved file-honest spin-) Tj
+T*
+(  corporate refuse withhold-the-truth relay_hook_accepted Relay Hook Accepted checkbox) Tj
+T*
+(  epilogue_tone Epilogue Tone select triumphant bittersweet pyrrhic tragic) Tj
+T*
+(  hidden_hook_discovered Hidden Hook Discovered checkbox rewards_granted Rewards) Tj
+T*
+(  Granted checkbox strixwolf_disposition Strixwolf Disposition select unresolved calm) Tj
+T*
+(  hostile killed strixwolf_outcome Strixwolf Outcome select unresolved calmed helped) Tj
+T*
+(  avoided attacked killed strixwolf_trust Strixwolf Trust number 3) Tj
+T*
+(  strixwolf_blood_debt Strixwolf Blood Debt checkbox bramble_outcome Bramble Outcome) Tj
+T*
+(  select unresolved killed captured spared negotiated escaped let_cargo) Tj
+T*
+(  bramble_truth_learned Bramble Truth Learned checkbox package_status Package Status) Tj
+T*
+(  select held lost hush_trust Hush Trust select low neutral high custodian_route) Tj
+T*
+(  Custodian Route select unknown safe dangerous ward_awareness Ward Awareness select) Tj
+T*
+(  none seed aware festival_boon Festival Boon select none charm favor market_find) Tj
+T*
+(  goodwill hush_clues Hush Clues select none custodian_route ward_seed corporate_seam) Tj
+T*
+(  farm_seed market_rumor multiple custodian_trust Custodian Trust select low neutral) Tj
+T*
+(  high ward_stability...) Tj
+T*
+(- Mechanicids: level-up report-choice roleplay table-spotlight presence knowledge hope) Tj
+T*
+(- Playerquestions: Who do you sit beside when the food comes out? What reward, thanks,) Tj
+T*
+(  or quiet moment do you actually let yourself receive? How does the report choice) Tj
+T*
+(  feel now that no one is swinging a weapon?) Tj
+T*
+(- Relationshipprompts: Which PC quietly checks on someone else here? Who disagrees) Tj
+T*
+(  about the right thing to do without breaking trust?) Tj
+T*
+(- Ownershipprompt: Name one detail in Back in the Hanging Office that belongs to your) Tj
+T*
+(  character's point of view.) Tj
+T*
+(- Fearspends: Spend Fear to complicate the report, sharpen the relay hook, or show how) Tj
+T*
+(  the system edits a victory. Make the report protect an institution unless the PCs) Tj
+T*
+(  spend effort to keep truth intact. Bring the Relay Spire hook closer through a) Tj
+T*
+(  tremor, missing keeper mark, or unpaid notice.) Tj
+T*
+(- Choicesconsequences: file-honest The report says what happened plainly. Set) Tj
+T*
+(  report_choice=file-honest if not already set. The company now knows the party knows;) Tj
+T*
+(  the official record has teeth. report_choice=file-honest Reward: truth on record.) Tj
+T*
+(  Cost: attention. player-visible spin-corporate The report is clean, safe, and) Tj
+T*
+(  company-friendly. Set report_choice=spin-corporate if not already set. The party) Tj
+T*
+(  keeps standing, but the system digests the truth. report_choice=spin-corporate) Tj
+T*
+(  Reward: clean exit. Cost: complicity. player-visible refuse The party refuses the) Tj
+T*
+(  paperwork entirely. Set report_choice=refuse if not already set. The system flags) Tj
+T*
+(  their silence as a problem. report_choice=refuse Reward: refusal. Cost: no official) Tj
+T*
+(  shield. player-visible withhold-the-truth The report closes the job but buries the) Tj
+T*
+(  hardest truth. Set report_choice=withhold-the-truth if not already set. They) Tj
+T*
+(  protected people now while leaving the largest future pressure alive.) Tj
+T*
+(  report_choice=withhold-the-truth Reward: short-term protection. Cost: biggest hidden) Tj
+T*
+(  weight. player-visible reward and level-up The party receives pay, gratitude, and) Tj
+T*
+(  advancement. Set rewards_granted=true. S06-02 starts from satisfaction, not) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4087 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  hunger...) Tj
+T*
+(- Linkedsceneids: S05-07 S06-02) Tj
+T*
+(- Lootclues: Custodian thanks Future contact Cleaned route ledger copy Auditor's) Tj
+T*
+(  Verdict Ledger?: A black ledger with bronze corners opens too neatly, as if the) Tj
+T*
+(  pages have already decided what the facts will be.) Tj
+T*
+(- Handoutids: Amended form Guaranteed seed Guaranteed seed Earned seed) Tj
+T*
+(- Sourcesceneslug: S06-01-back-in-the-hanging-office) Tj
+T*
+(- Sourcefiles: dist/Epilogue_Upgrade_Packet/EPILOGUE_SCENE_RESEARCH.md) Tj
+T*
+(  dist/Epilogue_Upgrade_Packet/EPILOGUE_PER_CHARACTER.md) Tj
+T*
+(- References: Relay hook #S06-02 Act 5 report choice #S05-07) Tj
+T*
+(- Storyscope: Perceived antagonist: the forest. True antagonist: the corporate lie) Tj
+T*
+(  about the forest. The players never confront it directly. They are meant to feel it) Tj
+T*
+(  by the end. Every act offers at least one guaranteed and one earned hint that the) Tj
+T*
+(  danger is manufactured and the forest is not the enemy. The ritual completes, Hush) Tj
+T*
+(  is safe, and the Custodian thanks them. The win is real. KEEP GUARANTEED A) Tj
+T*
+(  Grail/Kazrak incident report thanks them for "neutralizing forest hazards" and) Tj
+T*
+(  supporting continued Protection Coverage. ADD GUARANTEED If pushed, the Custodian) Tj
+T*
+(  admits the "hazards" were not always here, then looks away. ADD EARNED Presence Hard) Tj
+T*
+(  20 A nearby Relay Spire beacon burns weakly, pointing to the larger thread. KEEP) Tj
+T*
+(  GUARANTEED The ritual completes, Hush is safe, and the Custodian thanks them. The) Tj
+T*
+(  win is real. KEEP GUARANTEED A Grail/Kazrak incident report thanks them for) Tj
+T*
+(  "neutralizing forest hazards" and supporting continued Protection Coverage. ADD) Tj
+T*
+(  GUARANTEED If pushed, the Custodian admits the "hazards" were not always here, then) Tj
+T*
+(  looks away. ADD EARNED Presence Hard 20 Presence Hard 20: draw out the Custodian's) Tj
+T*
+(  slip. EPILOGUE Epilogue 210 3:20 to 3:30 3:30 win, congratulatory-report...) Tj
+T*
+(- Livetools: none) Tj
+T*
+(- Percharacterlayer: marlowe-fairwind Marlowe Fairwind The kept duty The Custodian) Tj
+T*
+(  recognizes another keeper who carried something heavier than she let on.) Tj
+T*
+(  Knowledge/Presence gated by custodian_trust If trust is high, Marlowe receives the) Tj
+T*
+(  closest version of the cost seed: the ward does not make safety from nothing. Can) Tj
+T*
+(  close her custodian arc without becoming the only source of truth. Marlowe, she sees) Tj
+T*
+(  you as one of her own now. Want the quiet word she saves for a fellow keeper?) Tj
+T*
+(  barnacle Barnacle Courage paid off If Barnacle faced the water-fear or the Memory) Tj
+T*
+(  Delve, the warm room makes that courage real instead of comic. Can mark the moment) Tj
+T*
+(  with a joke, quiet admission, or refusal to make it sentimental. Barnacle, you) Tj
+T*
+(  looked at the thing you're most afraid of and kept going. Want a beat to mark that?) Tj
+T*
+(  garrick-reed Garrick Reed The report he chose Garrick knows exactly what reports do) Tj
+T*
+(  inside a company system. Can name the moral weight of the report branch without) Tj
+T*
+(  taking over the party decision. Garrick, you know exactly what your report does in) Tj
+T*
+(  the system. Want to sit with the choice you made? khari-nix Khari Nix Who she) Tj
+T*
+(  protected Khari's protector payoff names protected_whom: Custodian, party, Hush...) Tj
+T*
+(- Takeawayhelp: Player takeaway You are heroes tonight: take the reward, take the) Tj
+T*
+(  level, and take the moment with the person you saved. "You did it. Level up, take) Tj
+T*
+(  your due, and have the conversation you earned with the Custodian." "Ask her the) Tj
+T*
+(  questions you have been holding, thank each other, collect your reward, or enjoy) Tj
+T*
+(  being warm and alive." The scene must feel generous even on bittersweet or pyrrhic) Tj
+T*
+(  branches. level-up report-choice table-spotlight Story takeaway You saved something) Tj
+T*
+(  real, and the person you saved wants to thank you. "This is the good part. The fire,) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 4200 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  the food, the old faerie who is alive because of you. Soak it in." "The Custodian) Tj
+T*
+(  shares only as much truth as trust earned. The win is real; the cost stays a) Tj
+T*
+(  thread." Name protected_whom and ritual_outcome so prior play visibly matters.) Tj
+T*
+(  level-up report-choice table-spotlight Mechanic takeaway Level-up, rewards_granted,) Tj
+T*
+(  epilogue_tone, and report_choice payoff resolve the one-shot's consequences. "Time) Tj
+T*
+(  to level up and collect what you earned. Depending on what you told Emeris, this) Tj
+T*
+(  lands a little different." "Level-up, agreed pay, goodwill, and a Custodian gift are) Tj
+T*
+(  the reward. report_choice changes the mood, not the loot." Set...) Tj
+T*
+(- Playerbeats: s06-01-keystone Hearth The settled Keystone assets/scenes/S06-01-back-) Tj
+T*
+(  in-the-hanging-office.png Back in the Hanging Office scene art for Beyond the) Tj
+T*
+(  Contract. The Keystone hangs over the hearth, glowing soft and settled while the) Tj
+T*
+(  treehouse finally feels warm instead of dangerous. The Keystone hangs over the) Tj
+T*
+(  hearth, glowing soft and settled while the treehouse finally feels warm instead of) Tj
+T*
+(  dangerous. The Keystone hangs over the hearth, glowing soft and settled while the) Tj
+T*
+(  treehouse finally feels warm instead of dangerous. text-first s06-01-reward Reward) Tj
+T*
+(  Your due assets/scenes/S06-01-back-in-the-hanging-office.png Back in the Hanging) Tj
+T*
+(  Office scene art for Beyond the Contract. You receive your due: pay, gratitude, a) Tj
+T*
+(  level-up, and whatever goodwill your choices earned along the way. You receive your) Tj
+T*
+(  due: pay, gratitude, a level-up, and whatever goodwill your choices earned along the) Tj
+T*
+(  way. You receive your due: pay, gratitude, a level-up, and whatever goodwill your) Tj
+T*
+(  choices earned along the way. text-first s06-01-report Report The report's weight) Tj
+T*
+(  assets/scenes/S06-01-back-in-the-hanging-office.png Back in the Hanging Office scene) Tj
+T*
+(  art for Beyond the Contract. The report choice sits beside...) Tj
+T*
+(- Gmbeats: s06-01-keystone Hearth The settled Keystone Say: "The Keystone is not a) Tj
+T*
+(  threat in this room. It is warm light over the hearth, and you are safe for a) Tj
+T*
+(  minute." The Keystone hangs over the hearth, glowing soft and settled while the) Tj
+T*
+(  treehouse finally feels warm instead of dangerous. The object of the job becomes) Tj
+T*
+(  part of a home. Reflection replaces pressure. Players feel the danger has ended.) Tj
+T*
+(  Player takeaway Players feel the danger has ended. "The Keystone is not a threat in) Tj
+T*
+(  this room. It is warm light over the hearth, and you are safe for a minute.") Tj
+T*
+(  "Players feel the danger has ended." Use this beat to give the players closure, not) Tj
+T*
+(  a new problem to solve. table-spotlight Story takeaway The object of the job becomes) Tj
+T*
+(  part of a home. "The Keystone is not a threat in this room. It is warm light over) Tj
+T*
+(  the hearth, and you are safe for a minute." "The object of the job becomes part of a) Tj
+T*
+(  home." Tie the answer back to what the party already did and chose. table-spotlight) Tj
+T*
+(  Mechanic takeaway Reflection replaces pressure. "The Keystone is not a threat in) Tj
+T*
+(  this room. It is warm light over the hearth, and you are safe for a minute.") Tj
+T*
+(  "Reflection replaces pressure." The epilogue mechanics are...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 9000) Tj
+T*
+(- Playersafeprojection: S06-01 scene Back in the Hanging Office) Tj
+T*
+(  assets/scenes/S06-01-back-in-the-hanging-office.png Back in the Hanging Office scene) Tj
+T*
+(  art for Beyond the Contract. Back at the Hanging Office, the party can see how the) Tj
+T*
+(  contract changed them. Beyond the Contract Rest, receive your due, and reckon with) Tj
+T*
+(  the choice you made. An hour later, back in the treehouse, the Keystone hangs) Tj
+T*
+(  suspended above a rumbling hearth-fire, glowing soft and settled. The Custodian,) Tj
+T*
+(  older now, the night's work plain in her voice, folds into an over-stuffed chair.) Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 2166 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  "You fought hard. I'm not surprised. Emeris doesn't send just anyone." There is hot) Tj
+T*
+(  food, a warm bath waiting, and for the first time in days, nowhere you need to be.) Tj
+T*
+(  She looks at each of you like she is memorizing you. "Before you go," she says,) Tj
+T*
+(  "let's talk about what happened out there, and what you'll do with it.") Tj
+T*
+(  s06-01-keystone Hearth The settled Keystone assets/scenes/S06-01-back-in-the-) Tj
+T*
+(  hanging-office.png Back in the Hanging Office scene art for Beyond the Contract. The) Tj
+T*
+(  Keystone hangs over the hearth, glowing soft and settled while the treehouse finally) Tj
+T*
+(  feels warm instead of dangerous. The Keystone hangs over the hearth, glowing soft) Tj
+T*
+(  and settled while...) Tj
+T*
+(- Slidenumber: 77) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+(- Spotlights: SPOT-M-LEVELUP level-up level-up M21 S06-01 high mandatory beat:reward) Tj
+T*
+(  You Grew Here Reward is immediate and celebratory. You earned a symbolic Level 2) Tj
+T*
+(  reward at module resolution. Let each player name one thing their character) Tj
+T*
+(  understands now that they did not understand at the start. If the group wants) Tj
+T*
+(  continuation play, open the optional real Tier 2 advancement block after the) Tj
+T*
+(  session. Level-up options wiki/mechanic/level-up teach-by-example Close the one-shot) Tj
+T*
+(  with growth, not a worksheet. mechanic defer-if-clock-critical True True SPOT-C-) Tj
+T*
+(  MARLOWE-LATE marlowe-fairwind Marlowe Fairwind late S06-01 high optional beat:reward) Tj
+T*
+(  Marlowe, Name What It Taught Keeper responsibility closes the loop. Marlowe, your) Tj
+T*
+(  arcane senses understand the ritual's cost. Share only what the table earned in) Tj
+T*
+(  play. Spotlight: Marlowe wiki/character/marlowe in-scene-prompts Keystone) Tj
+T*
+(  understanding wiki/mechanic/keystone-understanding in-scene-prompts True character) Tj
+T*
+(  defer-if-clock-critical True True) Tj
+T*
+(- Spotlightsummary: 1 1) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 3745deb0f01bdae2 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R 12 0 R] /Count 6 >>
+endobj
+14 0 obj
+<< /Type /Catalog /Pages 13 0 R >>
+endobj
+15 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000009 00000 n 
+0000002851 00000 n 
+0000002979 00000 n 
+0000007121 00000 n 
+0000007249 00000 n 
+0000011254 00000 n 
+0000011382 00000 n 
+0000015521 00000 n 
+0000015649 00000 n 
+0000019901 00000 n 
+0000020030 00000 n 
+0000022249 00000 n 
+0000022379 00000 n 
+0000022469 00000 n 
+0000022520 00000 n 
+trailer
+<< /Size 16 /Root 14 0 R >>
+startxref
+22593
+%%EOF

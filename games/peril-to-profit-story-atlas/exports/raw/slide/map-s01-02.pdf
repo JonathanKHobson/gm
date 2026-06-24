@@ -1,0 +1,482 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2724 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-S01-02 - Overturned Vendor Cart Scene Board) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(A vendor cart blocks the bend. Scattered fruit, broken jars, torn canvas, and muddy) Tj
+T*
+(wheel ruts make the road feel suddenly too narrow. Something moves on the far side.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(A vendor cart blocks the bend. Scattered fruit, broken jars, torn canvas, and muddy) Tj
+T*
+(wheel ruts make the road feel suddenly too narrow. Something moves on the far side.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-S01-02) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: evidence-board) Tj
+T*
+(- Sectionid: ACT-ONE) Tj
+T*
+(- Sectiontitle: Act One: The Logistics Incident) Tj
+T*
+(- Title: Overturned Vendor Cart Scene Board) Tj
+T*
+(- Shorttitle: The Blocked Road) Tj
+T*
+(- Order: 201.08) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-S01-02-gm.png) Tj
+T*
+(- Alt: Overturned Vendor Cart Scene Board map board.) Tj
+T*
+(- Caption: The blocked road, the dead driver, the strixwolf family, and the first) Tj
+T*
+(  clues that this was not a simple animal attack.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Use this as an investigation board: orient the blocked road, let the table) Tj
+T*
+(  inspect the wreck, and route the far-side movement into the creature reveal.) Tj
+T*
+(- Publicobjective: A vendor cart blocks the bend. Scattered fruit, broken jars, torn) Tj
+T*
+(  canvas, and muddy wheel ruts make the road feel suddenly too narrow. Something moves) Tj
+T*
+(  on the far side.) Tj
+T*
+(- Readaloud: A vendor cart blocks the bend. Scattered fruit, broken jars, torn canvas,) Tj
+T*
+(  and muddy wheel ruts make the road feel suddenly too narrow. Something moves on the) Tj
+T*
+(  far side.) Tj
+T*
+(- Gmnotes: Non-combat board. If players attack into the underbrush, switch to MAP-) Tj
+T*
+(  COMBAT-S01-03. Keep the creature as movement and sound until S01-03 unless players) Tj
+T*
+(  push directly to the far side.) Tj
+T*
+(- Gmscript: Say: "Use the board like a crime scene. Point to where the carriage stops,) Tj
+T*
+(  where the cart blocks the road, and where the feeding sound comes from. Then ask:) Tj
+T*
+(  who checks the cart, who checks the body, and who watches the far side?") Tj
+T*
+(- Gmreadaloud: A vendor cart blocks the bend. Scattered fruit, broken jars, torn) Tj
+T*
+(  canvas, and muddy wheel ruts make the road feel suddenly too narrow. Something moves) Tj
+T*
+(  on the far side.) Tj
+T*
+(- Gmchecklist: Orient the three zones: carriage, cart, far side. Keep this non-combat) Tj
+T*
+(  unless players attack into the underbrush. Use per-character cues before asking for) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3986 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  generic rolls. Transition to S01-03 when the far side becomes the focus.) Tj
+T*
+(- Gmprivate: The driver was murdered with a blade and the scene staged to look like an) Tj
+T*
+(  animal attack.) Tj
+T*
+(- Playertakeaway: A vendor cart blocks the bend. Scattered fruit, broken jars, torn) Tj
+T*
+(  canvas, and muddy wheel ruts make the road feel suddenly too narrow. Something moves) Tj
+T*
+(  on the far side.) Tj
+T*
+(- Storytakeaway: The board shows a crime scene disguised as a forest attack.) Tj
+T*
+(- Mechanictakeaway: Give basic search facts automatically, then use Knowledge,) Tj
+T*
+(  Instinct, or Finesse when players test the staging.) Tj
+T*
+(- Entityids: vendor-cart tamsin-vell strixwolf-mother sablewood-hybrid-fauna) Tj
+T*
+(  overturned-wheel-ruts cat-squirrels fox-bats horse-goats strixwolf) Tj
+T*
+(- Entities: vendor-cart Vendor Cart item Item / Asset assets/icons/item.png) Tj
+T*
+(  assets/entities/vendor-cart.png Vendor Cart Overturned cart that blocks the road and) Tj
+T*
+(  sets up the ambush mystery. Wrecked cart and investigation hub Overturned cart that) Tj
+T*
+(  blocks the road and sets up the ambush mystery.; use Vendor Cart as a concrete table) Tj
+T*
+(  object with texture, ownership, and a reason it matters now. Give players a tangible) Tj
+T*
+(  handle on Tamsin Vell, Incident Response Placard, Bramble Strand, whether they) Tj
+T*
+(  inspect, carry, return, trade, or refuse it. Overturned cart that blocks the road) Tj
+T*
+(  and sets up the ambush mystery. tamsin-vell Tamsin Vell npc NPC / Ally) Tj
+T*
+(  assets/icons/npc.png assets/npc-images/tamsin-vell/portrait_base.png TAM-zin VEL The) Tj
+T*
+(  dead driver at the overturned cart; evidence suggests humanoid murder, not just) Tj
+T*
+(  animal attack. The human cost at the first crime scene. Tamsin Vell a dead delivery) Tj
+T*
+(  driver at an overturned cart, with evidence that a person killed her ordinary,) Tj
+T*
+(  dutiful, dead before the party can learn the whole person In life, finish one more) Tj
+T*
+(  delivery and get home with enough coin to reduce her debt. Her voice is unavailable;) Tj
+T*
+(  use letters, route notes, and small belongings instead. a dead...) Tj
+T*
+(- Statecontrols: slitThroatDiscovered Slit throat discovered checkbox Use this for) Tj
+T*
+(  later story coherence. brambleSeedFound Bramble seed found checkbox Seed only; do) Tj
+T*
+(  not resolve in Act 1.) Tj
+T*
+(- Mechanicids: knowledge instinct finesse difficulty) Tj
+T*
+(- Fearspends: A loud jar break draws the creature fully into view before the party) Tj
+T*
+(  finishes reading the scene. A horse panics and shifts the carriage closer to the) Tj
+T*
+(  blocked cart.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S01-02 S01-03 S02-01) Tj
+T*
+(- Mapdata: MAP-S01-02 evidence-board Overturned Vendor Cart Scene Board S01-02 S01-03) Tj
+T*
+(  S02-01 assets/maps/MAP-S01-02-gm.png assets/maps/MAP-S01-02-player.png The blocked) Tj
+T*
+(  road, the dead driver, the strixwolf family, and the first clues that this was not a) Tj
+T*
+(  simple animal attack. A torn canvas cart, scattered cargo, wheel ruts, a body placed) Tj
+T*
+(  too neatly, and feathered movement low under the wreck. A low wing-rustle under the) Tj
+T*
+(  cart, spooked horses breathing hard, small pups shifting in cover, and the forest) Tj
+T*
+(  holding back its usual calls. Coppery blood, wet road grit, torn grain sacks, animal) Tj
+T*
+(  musk, and rain soaking into canvas. Mud is churned and slick near the wheels; the) Tj
+T*
+(  cart boards are splintered; loose feathers cling to wet hands. The strixwolf family) Tj
+T*
+(  is alive, frightened, and watching. The corpse and staging are evidence; the animal) Tj
+T*
+(  pressure is a mercy test. The vendor cart: stripped of valuables before the creature) Tj
+T*
+(  arrived. The dead driver: throat slit by a blade, then partially fed on. The) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4169 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  carriage wheel: thorny bramble deliberately wedged in it. The spilled produce and) Tj
+T*
+(  preserves: harmless, but the sweet rot masks the blood smell. The underbrush:) Tj
+T*
+(  movement, pups, and the creature's protected...) Tj
+T*
+(- Sourcefiles: Act1_Upgrade_Packet/ACT1_MAPS_AND_COMBAT.md) Tj
+T*
+(  Act1_Upgrade_Packet/ACT1_PER_CHARACTER.md) Tj
+T*
+(  Goldspire_Location_Packet/02_The_Vendor_Cart.md) Tj
+T*
+(- References: Scene S01-02 #S01-02 Creature reveal #S01-03 Vendor Cart source) Tj
+T*
+(  sources/Goldspire_Location_Packet/02_The_Vendor_Cart.md) Tj
+T*
+(- Livetools: scene MAP-S01-02) Tj
+T*
+(- Percharacterlayer: varian-soto Varian Soto Heightened smell at the wreck The blood) Tj
+T*
+(  under the sweet-rot smell is older than the creature's feeding. Other PCs just smell) Tj
+T*
+(  that something is wrong. Instinct 12 Places animal musk as recent, human blood as) Tj
+T*
+(  older, and a faint chemical-leather tang that belongs to neither. Can track which) Tj
+T*
+(  direction the creature came from versus which direction the killer left. Varian,) Tj
+T*
+(  your nose sorts this out faster than the others. The blood here is older than the) Tj
+T*
+(  animal. Want to follow what that tells you? garrick-reed Garrick Reed Ex-security) Tj
+T*
+(  wound read The throat wound is a clean blade cut, not claws or teeth. Someone killed) Tj
+T*
+(  this man. Knowledge or Instinct 12 Confirms a deliberate, practiced cut: an) Tj
+T*
+(  execution staged as an animal attack. Can secure the scene and keep the party calm) Tj
+T*
+(  and methodical. Garrick, you have stood over bodies before. This one's wrong. Want) Tj
+T*
+(  to say how? barnacle Barnacle Rogue staging read The cart was tipped from the wrong) Tj
+T*
+(  side to be a simple accident. Instinct 13 Finds thorny bramble wedged in the) Tj
+T*
+(  carriage wheel and valuables stripped before the creature arrived. Can rig the cart) Tj
+T*
+(  to clear the road quickly or quietly pocket something useful from...) Tj
+T*
+(- Gmbeats: MAP-S01-02-orient Orient Orient the blocked road Say: "Here is your) Tj
+T*
+(  carriage. Here is the overturned cart. Here is the far side where something is) Tj
+T*
+(  feeding." The carriage stops here, the cart blocks the bend, and the feeding sound) Tj
+T*
+(  comes from the far side. The map turns the wreck from description into playable) Tj
+T*
+(  space. Positioning is the mechanic: where a PC stands changes what they can safely) Tj
+T*
+(  inspect. Players can place themselves before acting. Player takeaway Players can) Tj
+T*
+(  place themselves before acting. "Here is your carriage. Here is the overturned cart.) Tj
+T*
+(  Here is the far side where something is feeding." "The playable facts are: The) Tj
+T*
+(  carriage stops here, the cart blocks the bend, and the feeding sound comes from the) Tj
+T*
+(  far side. You can respond to one of those facts directly, ask a question about it,) Tj
+T*
+(  or invite another PC into the moment." Active GM line: Say: "Here is your carriage.) Tj
+T*
+(  Here is the overturned cart. Here is the far side where something is feeding.") Tj
+T*
+(  Player-facing display text: The carriage stops here, the cart blocks the bend, and) Tj
+T*
+(  the feeding sound comes from the far side. roleplay table-spotlight Story takeaway) Tj
+T*
+(  The map turns the wreck from description into playable space...) Tj
+T*
+(- Takeawayhelp: Player takeaway The board gives the table concrete places to) Tj
+T*
+(  investigate. "Use the map to pick where you are and what you are checking: cart,) Tj
+T*
+(  body, wheel, carriage, or underbrush." "If you are not sure what to do, choose a) Tj
+T*
+(  place on the board and tell me what your character does there." The player-facing) Tj
+T*
+(  map should reduce uncertainty. It does not need the hidden truth; it needs) Tj
+T*
+(  actionable places. roleplay table-spotlight Story takeaway The board shows a crime) Tj
+T*
+(  scene disguised as a forest attack. "This scene wants you to think animal attack) Tj
+T*
+(  first. The evidence gives you permission to doubt that." "The cart was staged, the) Tj
+T*
+(  wound is too clean, and the feeding happened after the killing. Knowledge or) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 3656 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Instinct 12 confirms the wound." Keep the later faction implications GM-only. The) Tj
+T*
+(  immediate story truth is enough: a person used the forest as cover. knowledge) Tj
+T*
+(  instinct Mechanic takeaway Give basic search facts automatically, then use) Tj
+T*
+(  Knowledge, Instinct, or Finesse when players test the staging. "If your character) Tj
+T*
+(  just searches the cart, I will give the obvious facts. If you are reconstructing the) Tj
+T*
+(  scene or reading a body, that is where the dice come in." "Cause of death is) Tj
+T*
+(  Knowledge or...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-S01-02-player.png The Blocked Road map board.) Tj
+T*
+(  MAP-S01-02 evidence-board The Blocked Road S01-02 S01-03 S02-01) Tj
+T*
+(  assets/maps/MAP-S01-02-player.png assets/maps/MAP-S01-02-player.png The Blocked Road) Tj
+T*
+(  map board. A vendor cart blocks the bend. Scattered fruit, broken jars, torn canvas,) Tj
+T*
+(  and muddy wheel ruts make the road feel suddenly too narrow. Something moves on the) Tj
+T*
+(  far side. A vendor cart blocks the bend. Scattered fruit, broken jars, torn canvas,) Tj
+T*
+(  and muddy wheel ruts make the road feel suddenly too narrow. Something moves on the) Tj
+T*
+(  far side. Overturned cart The blockage is bait and evidence. 0.52 0.46 Strixwolf) Tj
+T*
+(  family Protective, not the real villain. 0.64 0.39 Bramble sign The staged clue) Tj
+T*
+(  points past the animal scene. 0.38 0.62 MAP-S01-02-map-only Map only The Blocked) Tj
+T*
+(  Road map-only assets/maps/MAP-S01-02-player.png The Blocked Road map board.) Tj
+T*
+(  MAP-S01-02 evidence-board The Blocked Road S01-02 S01-03 S02-01) Tj
+T*
+(  assets/maps/MAP-S01-02-player.png assets/maps/MAP-S01-02-player.png The Blocked Road) Tj
+T*
+(  map board. A vendor cart blocks the bend. Scattered fruit, broken jars, torn canvas,) Tj
+T*
+(  and muddy wheel ruts make the road feel suddenly too narrow. Something moves on the) Tj
+T*
+(  far side. A...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-S01-02 map The Blocked Road) Tj
+T*
+(  assets/maps/MAP-S01-02-player.png The Blocked Road map board. spatial reference and) Tj
+T*
+(  location texture A vendor cart blocks the bend. Scattered fruit, broken jars, torn) Tj
+T*
+(  canvas, and muddy wheel ruts make the road feel suddenly too narrow. Something moves) Tj
+T*
+(  on the far side. A vendor cart blocks the bend. Scattered fruit, broken jars, torn) Tj
+T*
+(  canvas, and muddy wheel ruts make the road feel suddenly too narrow. Something moves) Tj
+T*
+(  on the far side. MAP-S01-02 evidence-board The Blocked Road S01-02 S01-03 S02-01) Tj
+T*
+(  assets/maps/MAP-S01-02-player.png assets/maps/MAP-S01-02-player.png The Blocked Road) Tj
+T*
+(  map board. A vendor cart blocks the bend. Scattered fruit, broken jars, torn canvas,) Tj
+T*
+(  and muddy wheel ruts make the road feel suddenly too narrow. Something moves on the) Tj
+T*
+(  far side. A vendor cart blocks the bend. Scattered fruit, broken jars, torn canvas,) Tj
+T*
+(  and muddy wheel ruts make the road feel suddenly too narrow. Something moves on the) Tj
+T*
+(  far side. Overturned cart The blockage is bait and evidence. 0.52 0.46 Strixwolf) Tj
+T*
+(  family Protective, not the real villain. 0.64 0.39 Bramble sign The staged clue) Tj
+T*
+(  points past the animal scene. 0.38 0.62 assets/maps/MAP-S01-02-player.png The...) Tj
+T*
+(- Slidenumber: 26) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash ac88b7db211fac01 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 40 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+() Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R] /Count 5 >>
+endobj
+12 0 obj
+<< /Type /Catalog /Pages 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000009 00000 n 
+0000002785 00000 n 
+0000002913 00000 n 
+0000006951 00000 n 
+0000007079 00000 n 
+0000011300 00000 n 
+0000011428 00000 n 
+0000015136 00000 n 
+0000015264 00000 n 
+0000015354 00000 n 
+0000015483 00000 n 
+0000015566 00000 n 
+0000015617 00000 n 
+trailer
+<< /Size 14 /Root 12 0 R >>
+startxref
+15690
+%%EOF

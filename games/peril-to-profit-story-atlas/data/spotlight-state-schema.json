@@ -1,0 +1,93 @@
+{
+  "currentActorId": null,
+  "beat": 1,
+  "actors": [
+    {
+      "id": "pc-marlowe",
+      "name": "Marlowe Fairwind",
+      "type": "pc",
+      "actedThisBeat": false,
+      "spotlightCount": 0
+    },
+    {
+      "id": "pc-barnacle",
+      "name": "Barnacle",
+      "type": "pc",
+      "actedThisBeat": false,
+      "spotlightCount": 0
+    },
+    {
+      "id": "adversary-bramble-ambushers",
+      "name": "Bramble Union Ambushers",
+      "type": "adversary-group",
+      "actedThisBeat": false,
+      "spotlightCount": 0
+    }
+  ],
+  "history": [],
+  "storageKey": "goldspire-spotlight-state-v1",
+  "label": "Encounter Cockpit",
+  "subtitle": "Combat stats, terrain, motives, Fear moves, and social off-ramps.",
+  "presets": {
+    "S02-03": {
+      "label": "Bramble Ambush",
+      "actors": [
+        {
+          "id": "pc-party",
+          "name": "PCs",
+          "type": "pc"
+        },
+        {
+          "id": "adversary-bramble-ambushers",
+          "name": "Bramble Union Ambushers",
+          "type": "adversary-group"
+        },
+        {
+          "id": "adversary-bramble-claimrunner",
+          "name": "Bramble Union Claimrunner",
+          "type": "named-adversary"
+        },
+        {
+          "id": "objective-keystone-carriage",
+          "name": "Carriage / Keystone cargo",
+          "type": "objective"
+        },
+        {
+          "id": "environment-bramble-thicket",
+          "name": "Bramble thicket",
+          "type": "environment"
+        }
+      ]
+    },
+    "S05-03": {
+      "label": "Open Vale",
+      "actors": [
+        {
+          "id": "pc-party",
+          "name": "PCs",
+          "type": "pc"
+        },
+        {
+          "id": "objective-custodian-ritual",
+          "name": "Whitefire Custodian / Ritual Countdown",
+          "type": "countdown"
+        },
+        {
+          "id": "adversary-legacy-skeletons",
+          "name": "Legacy Security Skeletons",
+          "type": "adversary-group"
+        },
+        {
+          "id": "adversary-soul-audit-wraiths",
+          "name": "Soul-Audit Wraiths",
+          "type": "adversary-group"
+        },
+        {
+          "id": "environment-market-correction",
+          "name": "Open Vale / Market Correction",
+          "type": "environment"
+        }
+      ]
+    }
+  }
+}

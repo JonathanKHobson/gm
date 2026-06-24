@@ -1,0 +1,86 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "scene",
+  "id": "S01-01",
+  "title": "S01-01 - Entering Sablewood",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "05815ee403acfb87",
+  "sections": [
+    {
+      "title": "Player read-aloud",
+      "body": "The last warded marker slips behind you. Ahead, the road narrows and the old forest closes around the carriage."
+    },
+    {
+      "title": "Scene summary",
+      "body": "The carriage crosses from city-controlled road into a vast ancient forest and hands off to Act One."
+    },
+    {
+      "title": "Visible choices",
+      "items": [
+        "Describe the sign",
+        "Drive cautiously",
+        "Ignore the branding"
+      ]
+    },
+    {
+      "title": "Player questions",
+      "items": [
+        "Who is driving?",
+        "What is one strange detail about these enormous trees?",
+        "Who notices the road change first?"
+      ]
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "Ask one player what comforting lie a corporate sign tells travelers. Use their answer later as irony.",
+        "Keep player-facing information actionable. Reveal systemic truth through objects, reactions, and consequences before naming it.",
+        "Manufactured-threat lens: seed the contradiction, do not explain it. The surface goal stays simple and heroic."
+      ]
+    },
+    {
+      "title": "Checks and rolls",
+      "items": [
+        "Instinct Notice the preserve is quieter than it should be. Easy Advantage on reading the cart scene. 10 Cleanly resolve: Notice the preserve is quieter than it should be. Add a concrete boon, extra clue, or improved position. Success, plus the player names one helpful detail or asks one follow-up question. Success, but the GM exposes a cost, ticks a countdown, or reveals a new pressure tied to Entering Sablewood™ Logistics Preserve. The full goal slips, but the party still learns a useful truth or avoids the worst consequence. The GM makes a hard move that follows from the fiction and leaves the next choice visible. Spend Fear to reveal omitted risk, split attention, or put a human cost in front of the contract. On mixed or sliding results, reveal information in layers: visible fact, actionable clue, then systemic truth."
+      ]
+    },
+    {
+      "title": "Clues",
+      "items": [
+        "Older road under new markers The road is older than the signage nailed beside it. The official route overwrote local knowledge. If a player looks at the road or markers, give the clue plainly: the road is older than the company's signs."
+      ]
+    },
+    {
+      "title": "Loot",
+      "items": [
+        "Route charcoal rubbing",
+        "Loose waymarker nail",
+        "Incident Response Placard™: A flat brass disc on a post holds a watchful glyph and a single cheerful bell. When trouble happens nearby, the glyph lights, the bell rings once, brightly, and then nothing else happens at all."
+      ]
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Plot So Far: The party is in Prologue pressure: The carriage crosses from city-controlled road into a vast ancient forest and hands off to Act One.",
+        "Mechanics In Play: Use Daggerheart Duality Dice as baseline. Use the listed Difficulty and outcome options when a roll matters. Keep trivial actions no-roll; roll only when uncertainty, cost, or danger is interesting.",
+        "Roll Cards: s01-01-handle-the-carriage-on-the-sunken-road S01-01 Handle the carriage on the sunken road Handle the carriage on the sunken road Agility Strength Agility Strength 12 Agility keeps wheels and bodies moving; Strength holds the carriage steady. A wheel cracks or the cargo jolts before the incident. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. A...",
+        "Gm Fear Spends: Make the safe road feel less safe: noise, scent, cracked wheel, or cargo hum. Separate evidence from assumption so a monster read is tempting but incomplete.",
+        "Conditions Hazards: No official condition unless a feature, hazard, or fictional position calls for Hidden, Restrained, or Vulnerable.",
+        "Search Loot Clues: No fixed loot. Offer clue, texture, or hospitality only when the fiction supports it.",
+        "No Roll Guidance: Do not call for a roll when the players have time, a clear method, and no meaningful pressure.",
+        "Escalation: Escalate by making cost visible: time, noise, trust, ward instability, or someone vulnerable in danger.",
+        "Deescalation: De-escalate through respect, care, honest testimony, useful evidence, or a concrete concession.",
+        "Tv Mechanics Caption: Public cue: Entering Sablewood asks what the party does, what it costs, and who is protected.",
+        "Trait Variety Note: Primary traits in this scene: Agility, Instinct, Knowledge, Strength. If rolls drift toward Instinct/Presence, ask whether Agility, Strength, Finesse, or Knowledge better describes the action.",
+        "Class Community Ancestry Reveals: Loreborne: spots older legal, heraldic, or ward-craft language under the branding. Underborne: notices service doors, hidden routes, and who built the thing nobody credits. Highborne: reads etiquette, class panic, and reputational risk. Ridgeborne: notices stonework, weight, pressure, and structural weakness. Wildborne: reads the land, animals, and local ecological stress. Elf/Ribbet/Human/Giant/Katari: invite one sensory or social detail from the player's heritage. Sorcerer/Rogue/Warrior/Guardian/Ranger: give each class one table-facing way to shine without changing the plot."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 05815ee403acfb87 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

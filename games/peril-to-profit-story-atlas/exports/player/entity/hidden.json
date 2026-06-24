@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "hidden",
+  "kind": "entity",
+  "title": "Hidden",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Condition",
+  "hook": "Player-safe note: While out of sight from all foes and they do not know where you are, rolls against you have disadvantage.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "While out of sight from all foes and they do not know where you are, rolls against you have disadvantage."
+    },
+    {
+      "label": "How It Works",
+      "body": "Official Daggerheart primary condition"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use this when your action is uncertain and consequences matter.",
+    "Ask which trait fits your method."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:hidden",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "a6b97d682541d20f",
+  "generated_at": "2026-06-23T21:40:58"
+}

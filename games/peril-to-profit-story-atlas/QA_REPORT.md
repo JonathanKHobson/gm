@@ -1,0 +1,1484 @@
+# Goldspire Story Atlas QA Report
+
+Checks passed: **1233 / 1233**
+Checks failed: **0**
+
+## Summary
+
+The automated atlas QA and rendered browser QA passed.
+
+## Checks
+
+- **PASS** - scene count is 27
+- **PASS** - S00-01 has required scene fields
+- **PASS** - S00-01 image exists
+- **PASS** - S00-01 scene page exists
+- **PASS** - S00-01 entity links resolve
+- **PASS** - S00-01 has checks
+- **PASS** - S00-01 has choices
+- **PASS** - S00-01 has clues
+- **PASS** - S01-01 has required scene fields
+- **PASS** - S01-01 image exists
+- **PASS** - S01-01 scene page exists
+- **PASS** - S01-01 entity links resolve
+- **PASS** - S01-01 has checks
+- **PASS** - S01-01 has choices
+- **PASS** - S01-01 has clues
+- **PASS** - S01-02 has required scene fields
+- **PASS** - S01-02 image exists
+- **PASS** - S01-02 scene page exists
+- **PASS** - S01-02 entity links resolve
+- **PASS** - S01-02 has checks
+- **PASS** - S01-02 has choices
+- **PASS** - S01-02 has clues
+- **PASS** - S01-03 has required scene fields
+- **PASS** - S01-03 image exists
+- **PASS** - S01-03 scene page exists
+- **PASS** - S01-03 entity links resolve
+- **PASS** - S01-03 has checks
+- **PASS** - S01-03 has choices
+- **PASS** - S01-03 has clues
+- **PASS** - S01-04 has required scene fields
+- **PASS** - S01-04 image exists
+- **PASS** - S01-04 scene page exists
+- **PASS** - S01-04 entity links resolve
+- **PASS** - S01-04 has checks
+- **PASS** - S01-04 has choices
+- **PASS** - S01-04 has clues
+- **PASS** - S02-01 has required scene fields
+- **PASS** - S02-01 image exists
+- **PASS** - S02-01 scene page exists
+- **PASS** - S02-01 entity links resolve
+- **PASS** - S02-01 has checks
+- **PASS** - S02-01 has choices
+- **PASS** - S02-01 has clues
+- **PASS** - S02-02 has required scene fields
+- **PASS** - S02-02 image exists
+- **PASS** - S02-02 scene page exists
+- **PASS** - S02-02 entity links resolve
+- **PASS** - S02-02 has checks
+- **PASS** - S02-02 has choices
+- **PASS** - S02-02 has clues
+- **PASS** - S02-03 has required scene fields
+- **PASS** - S02-03 image exists
+- **PASS** - S02-03 scene page exists
+- **PASS** - S02-03 entity links resolve
+- **PASS** - S02-03 has checks
+- **PASS** - S02-03 has choices
+- **PASS** - S02-03 has clues
+- **PASS** - S02-04 has required scene fields
+- **PASS** - S02-04 image exists
+- **PASS** - S02-04 scene page exists
+- **PASS** - S02-04 entity links resolve
+- **PASS** - S02-04 has checks
+- **PASS** - S02-04 has choices
+- **PASS** - S02-04 has clues
+- **PASS** - S03-01 has required scene fields
+- **PASS** - S03-01 image exists
+- **PASS** - S03-01 scene page exists
+- **PASS** - S03-01 entity links resolve
+- **PASS** - S03-01 has checks
+- **PASS** - S03-01 has choices
+- **PASS** - S03-01 has clues
+- **PASS** - S03-02 has required scene fields
+- **PASS** - S03-02 image exists
+- **PASS** - S03-02 scene page exists
+- **PASS** - S03-02 entity links resolve
+- **PASS** - S03-02 has checks
+- **PASS** - S03-02 has choices
+- **PASS** - S03-02 has clues
+- **PASS** - S03-03 has required scene fields
+- **PASS** - S03-03 image exists
+- **PASS** - S03-03 scene page exists
+- **PASS** - S03-03 entity links resolve
+- **PASS** - S03-03 has checks
+- **PASS** - S03-03 has choices
+- **PASS** - S03-03 has clues
+- **PASS** - S03-04 has required scene fields
+- **PASS** - S03-04 image exists
+- **PASS** - S03-04 scene page exists
+- **PASS** - S03-04 entity links resolve
+- **PASS** - S03-04 has checks
+- **PASS** - S03-04 has choices
+- **PASS** - S03-04 has clues
+- **PASS** - S04-01 has required scene fields
+- **PASS** - S04-01 image exists
+- **PASS** - S04-01 scene page exists
+- **PASS** - S04-01 entity links resolve
+- **PASS** - S04-01 has checks
+- **PASS** - S04-01 has choices
+- **PASS** - S04-01 has clues
+- **PASS** - S04-02 has required scene fields
+- **PASS** - S04-02 image exists
+- **PASS** - S04-02 scene page exists
+- **PASS** - S04-02 entity links resolve
+- **PASS** - S04-02 has checks
+- **PASS** - S04-02 has choices
+- **PASS** - S04-02 has clues
+- **PASS** - S04-03 has required scene fields
+- **PASS** - S04-03 image exists
+- **PASS** - S04-03 scene page exists
+- **PASS** - S04-03 entity links resolve
+- **PASS** - S04-03 has checks
+- **PASS** - S04-03 has choices
+- **PASS** - S04-03 has clues
+- **PASS** - S04-04 has required scene fields
+- **PASS** - S04-04 image exists
+- **PASS** - S04-04 scene page exists
+- **PASS** - S04-04 entity links resolve
+- **PASS** - S04-04 has checks
+- **PASS** - S04-04 has choices
+- **PASS** - S04-04 has clues
+- **PASS** - S04-05 has required scene fields
+- **PASS** - S04-05 image exists
+- **PASS** - S04-05 scene page exists
+- **PASS** - S04-05 entity links resolve
+- **PASS** - S04-05 has checks
+- **PASS** - S04-05 has choices
+- **PASS** - S04-05 has clues
+- **PASS** - S05-01 has required scene fields
+- **PASS** - S05-01 image exists
+- **PASS** - S05-01 scene page exists
+- **PASS** - S05-01 entity links resolve
+- **PASS** - S05-01 has checks
+- **PASS** - S05-01 has choices
+- **PASS** - S05-01 has clues
+- **PASS** - S05-02 has required scene fields
+- **PASS** - S05-02 image exists
+- **PASS** - S05-02 scene page exists
+- **PASS** - S05-02 entity links resolve
+- **PASS** - S05-02 has checks
+- **PASS** - S05-02 has choices
+- **PASS** - S05-02 has clues
+- **PASS** - S05-03 has required scene fields
+- **PASS** - S05-03 image exists
+- **PASS** - S05-03 scene page exists
+- **PASS** - S05-03 entity links resolve
+- **PASS** - S05-03 has checks
+- **PASS** - S05-03 has choices
+- **PASS** - S05-03 has clues
+- **PASS** - S05-04 has required scene fields
+- **PASS** - S05-04 image exists
+- **PASS** - S05-04 scene page exists
+- **PASS** - S05-04 entity links resolve
+- **PASS** - S05-04 has checks
+- **PASS** - S05-04 has choices
+- **PASS** - S05-04 has clues
+- **PASS** - S05-05 has required scene fields
+- **PASS** - S05-05 image exists
+- **PASS** - S05-05 scene page exists
+- **PASS** - S05-05 entity links resolve
+- **PASS** - S05-05 has checks
+- **PASS** - S05-05 has choices
+- **PASS** - S05-05 has clues
+- **PASS** - S05-06 has required scene fields
+- **PASS** - S05-06 image exists
+- **PASS** - S05-06 scene page exists
+- **PASS** - S05-06 entity links resolve
+- **PASS** - S05-06 has checks
+- **PASS** - S05-06 has choices
+- **PASS** - S05-06 has clues
+- **PASS** - S05-07 has required scene fields
+- **PASS** - S05-07 image exists
+- **PASS** - S05-07 scene page exists
+- **PASS** - S05-07 entity links resolve
+- **PASS** - S05-07 has checks
+- **PASS** - S05-07 has choices
+- **PASS** - S05-07 has clues
+- **PASS** - S06-01 has required scene fields
+- **PASS** - S06-01 image exists
+- **PASS** - S06-01 scene page exists
+- **PASS** - S06-01 entity links resolve
+- **PASS** - S06-01 has checks
+- **PASS** - S06-01 has choices
+- **PASS** - S06-01 has clues
+- **PASS** - S06-02 has required scene fields
+- **PASS** - S06-02 image exists
+- **PASS** - S06-02 scene page exists
+- **PASS** - S06-02 entity links resolve
+- **PASS** - S06-02 has checks
+- **PASS** - S06-02 has choices
+- **PASS** - S06-02 has clues
+- **PASS** - expanded entity count is substantial
+- **PASS** - Marlowe Fairwind has required entity fields
+- **PASS** - Marlowe Fairwind image exists
+- **PASS** - Marlowe Fairwind entity page exists
+- **PASS** - Marlowe Fairwind appears_in scenes resolve
+- **PASS** - Barnacle has required entity fields
+- **PASS** - Barnacle image exists
+- **PASS** - Barnacle entity page exists
+- **PASS** - Barnacle appears_in scenes resolve
+- **PASS** - Garrick Reed has required entity fields
+- **PASS** - Garrick Reed image exists
+- **PASS** - Garrick Reed entity page exists
+- **PASS** - Garrick Reed appears_in scenes resolve
+- **PASS** - Khari Nix has required entity fields
+- **PASS** - Khari Nix image exists
+- **PASS** - Khari Nix entity page exists
+- **PASS** - Khari Nix appears_in scenes resolve
+- **PASS** - Varian Soto has required entity fields
+- **PASS** - Varian Soto image exists
+- **PASS** - Varian Soto entity page exists
+- **PASS** - Varian Soto appears_in scenes resolve
+- **PASS** - Strixwolf Mother has required entity fields
+- **PASS** - Strixwolf Mother image exists
+- **PASS** - Strixwolf Mother entity page exists
+- **PASS** - Strixwolf Mother appears_in scenes resolve
+- **PASS** - Strixwolf Pup One has required entity fields
+- **PASS** - Strixwolf Pup One image exists
+- **PASS** - Strixwolf Pup One entity page exists
+- **PASS** - Strixwolf Pup One appears_in scenes resolve
+- **PASS** - Strixwolf Pup Two has required entity fields
+- **PASS** - Strixwolf Pup Two image exists
+- **PASS** - Strixwolf Pup Two entity page exists
+- **PASS** - Strixwolf Pup Two appears_in scenes resolve
+- **PASS** - Tamsin Vell has required entity fields
+- **PASS** - Tamsin Vell image exists
+- **PASS** - Tamsin Vell entity page exists
+- **PASS** - Tamsin Vell appears_in scenes resolve
+- **PASS** - Bramble Union has required entity fields
+- **PASS** - Bramble Union image exists
+- **PASS** - Bramble Union entity page exists
+- **PASS** - Bramble Union appears_in scenes resolve
+- **PASS** - Bramble Union Ambusher has required entity fields
+- **PASS** - Bramble Union Ambusher image exists
+- **PASS** - Bramble Union Ambusher entity page exists
+- **PASS** - Bramble Union Ambusher appears_in scenes resolve
+- **PASS** - Bramble Union Claimrunner has required entity fields
+- **PASS** - Bramble Union Claimrunner image exists
+- **PASS** - Bramble Union Claimrunner entity page exists
+- **PASS** - Bramble Union Claimrunner appears_in scenes resolve
+- **PASS** - Kett Alderhook has required entity fields
+- **PASS** - Kett Alderhook image exists
+- **PASS** - Kett Alderhook entity page exists
+- **PASS** - Kett Alderhook appears_in scenes resolve
+- **PASS** - Vela Bramblewick has required entity fields
+- **PASS** - Vela Bramblewick image exists
+- **PASS** - Vela Bramblewick entity page exists
+- **PASS** - Vela Bramblewick appears_in scenes resolve
+- **PASS** - Rye Underbough has required entity fields
+- **PASS** - Rye Underbough image exists
+- **PASS** - Rye Underbough entity page exists
+- **PASS** - Rye Underbough appears_in scenes resolve
+- **PASS** - Brannic Mossvein has required entity fields
+- **PASS** - Brannic Mossvein image exists
+- **PASS** - Brannic Mossvein entity page exists
+- **PASS** - Brannic Mossvein appears_in scenes resolve
+- **PASS** - Hush has required entity fields
+- **PASS** - Hush image exists
+- **PASS** - Hush entity page exists
+- **PASS** - Hush appears_in scenes resolve
+- **PASS** - Hush™ Community Enclave has required entity fields
+- **PASS** - Hush™ Community Enclave image exists
+- **PASS** - Hush™ Community Enclave entity page exists
+- **PASS** - Hush™ Community Enclave appears_in scenes resolve
+- **PASS** - Fidget has required entity fields
+- **PASS** - Fidget image exists
+- **PASS** - Fidget entity page exists
+- **PASS** - Fidget appears_in scenes resolve
+- **PASS** - Lausa Standworth has required entity fields
+- **PASS** - Lausa Standworth image exists
+- **PASS** - Lausa Standworth entity page exists
+- **PASS** - Lausa Standworth appears_in scenes resolve
+- **PASS** - Halython Fives has required entity fields
+- **PASS** - Halython Fives image exists
+- **PASS** - Halython Fives entity page exists
+- **PASS** - Halython Fives appears_in scenes resolve
+- **PASS** - Yera Mossglass has required entity fields
+- **PASS** - Yera Mossglass image exists
+- **PASS** - Yera Mossglass entity page exists
+- **PASS** - Yera Mossglass appears_in scenes resolve
+- **PASS** - Clover Co-op has required entity fields
+- **PASS** - Clover Co-op image exists
+- **PASS** - Clover Co-op entity page exists
+- **PASS** - Clover Co-op appears_in scenes resolve
+- **PASS** - Firstmoss Launch Festival has required entity fields
+- **PASS** - Firstmoss Launch Festival image exists
+- **PASS** - Firstmoss Launch Festival entity page exists
+- **PASS** - Firstmoss Launch Festival appears_in scenes resolve
+- **PASS** - Hush Farms has required entity fields
+- **PASS** - Hush Farms image exists
+- **PASS** - Hush Farms entity page exists
+- **PASS** - Hush Farms appears_in scenes resolve
+- **PASS** - The Hanging Office has required entity fields
+- **PASS** - The Hanging Office image exists
+- **PASS** - The Hanging Office entity page exists
+- **PASS** - The Hanging Office appears_in scenes resolve
+- **PASS** - Whitefire Custodian has required entity fields
+- **PASS** - Whitefire Custodian image exists
+- **PASS** - Whitefire Custodian entity page exists
+- **PASS** - Whitefire Custodian appears_in scenes resolve
+- **PASS** - Keystone Asset has required entity fields
+- **PASS** - Keystone Asset image exists
+- **PASS** - Keystone Asset entity page exists
+- **PASS** - Keystone Asset appears_in scenes resolve
+- **PASS** - Open Vale™ Ritual Site has required entity fields
+- **PASS** - Open Vale™ Ritual Site image exists
+- **PASS** - Open Vale™ Ritual Site entity page exists
+- **PASS** - Open Vale™ Ritual Site appears_in scenes resolve
+- **PASS** - Legacy Security Skeleton has required entity fields
+- **PASS** - Legacy Security Skeleton image exists
+- **PASS** - Legacy Security Skeleton entity page exists
+- **PASS** - Legacy Security Skeleton appears_in scenes resolve
+- **PASS** - Soul-Audit Wraith has required entity fields
+- **PASS** - Soul-Audit Wraith image exists
+- **PASS** - Soul-Audit Wraith entity page exists
+- **PASS** - Soul-Audit Wraith appears_in scenes resolve
+- **PASS** - Market Correction has required entity fields
+- **PASS** - Market Correction image exists
+- **PASS** - Market Correction entity page exists
+- **PASS** - Market Correction appears_in scenes resolve
+- **PASS** - Relay Spire has required entity fields
+- **PASS** - Relay Spire image exists
+- **PASS** - Relay Spire entity page exists
+- **PASS** - Relay Spire appears_in scenes resolve
+- **PASS** - Spirekeeper has required entity fields
+- **PASS** - Spirekeeper image exists
+- **PASS** - Spirekeeper entity page exists
+- **PASS** - Spirekeeper appears_in scenes resolve
+- **PASS** - Emeris Crown Holdings has required entity fields
+- **PASS** - Emeris Crown Holdings image exists
+- **PASS** - Emeris Crown Holdings entity page exists
+- **PASS** - Emeris Crown Holdings appears_in scenes resolve
+- **PASS** - Goldspire Territories has required entity fields
+- **PASS** - Goldspire Territories image exists
+- **PASS** - Goldspire Territories entity page exists
+- **PASS** - Goldspire Territories appears_in scenes resolve
+- **PASS** - Kazrak Industries has required entity fields
+- **PASS** - Kazrak Industries image exists
+- **PASS** - Kazrak Industries entity page exists
+- **PASS** - Kazrak Industries appears_in scenes resolve
+- **PASS** - Hexmart has required entity fields
+- **PASS** - Hexmart image exists
+- **PASS** - Hexmart entity page exists
+- **PASS** - Hexmart appears_in scenes resolve
+- **PASS** - Mithril & Mortar has required entity fields
+- **PASS** - Mithril & Mortar image exists
+- **PASS** - Mithril & Mortar entity page exists
+- **PASS** - Mithril & Mortar appears_in scenes resolve
+- **PASS** - Soulspire Solutions has required entity fields
+- **PASS** - Soulspire Solutions image exists
+- **PASS** - Soulspire Solutions entity page exists
+- **PASS** - Soulspire Solutions appears_in scenes resolve
+- **PASS** - RuneSpark Entertainment has required entity fields
+- **PASS** - RuneSpark Entertainment image exists
+- **PASS** - RuneSpark Entertainment entity page exists
+- **PASS** - RuneSpark Entertainment appears_in scenes resolve
+- **PASS** - Sablewood™ Logistics Preserve has required entity fields
+- **PASS** - Sablewood™ Logistics Preserve image exists
+- **PASS** - Sablewood™ Logistics Preserve entity page exists
+- **PASS** - Sablewood™ Logistics Preserve appears_in scenes resolve
+- **PASS** - Old Sable has required entity fields
+- **PASS** - Old Sable image exists
+- **PASS** - Old Sable entity page exists
+- **PASS** - Old Sable appears_in scenes resolve
+- **PASS** - Goldspire Waymarkers has required entity fields
+- **PASS** - Goldspire Waymarkers image exists
+- **PASS** - Goldspire Waymarkers entity page exists
+- **PASS** - Goldspire Waymarkers appears_in scenes resolve
+- **PASS** - Vendor Cart has required entity fields
+- **PASS** - Vendor Cart image exists
+- **PASS** - Vendor Cart entity page exists
+- **PASS** - Vendor Cart appears_in scenes resolve
+- **PASS** - Incident Response Placard has required entity fields
+- **PASS** - Incident Response Placard image exists
+- **PASS** - Incident Response Placard entity page exists
+- **PASS** - Incident Response Placard appears_in scenes resolve
+- **PASS** - Bramble Strand has required entity fields
+- **PASS** - Bramble Strand image exists
+- **PASS** - Bramble Strand entity page exists
+- **PASS** - Bramble Strand appears_in scenes resolve
+- **PASS** - Torn Shipping Seals has required entity fields
+- **PASS** - Torn Shipping Seals image exists
+- **PASS** - Torn Shipping Seals entity page exists
+- **PASS** - Torn Shipping Seals appears_in scenes resolve
+- **PASS** - Route Ledger has required entity fields
+- **PASS** - Route Ledger image exists
+- **PASS** - Route Ledger entity page exists
+- **PASS** - Route Ledger appears_in scenes resolve
+- **PASS** - Bramble Union Loot has required entity fields
+- **PASS** - Bramble Union Loot image exists
+- **PASS** - Bramble Union Loot entity page exists
+- **PASS** - Bramble Union Loot appears_in scenes resolve
+- **PASS** - Inspection-Sealed Counterweight has required entity fields
+- **PASS** - Inspection-Sealed Counterweight image exists
+- **PASS** - Inspection-Sealed Counterweight entity page exists
+- **PASS** - Inspection-Sealed Counterweight appears_in scenes resolve
+- **PASS** - Ritual Countdown has required entity fields
+- **PASS** - Ritual Countdown image exists
+- **PASS** - Ritual Countdown entity page exists
+- **PASS** - Ritual Countdown appears_in scenes resolve
+- **PASS** - Forgotten Gods has required entity fields
+- **PASS** - Forgotten Gods image exists
+- **PASS** - Forgotten Gods entity page exists
+- **PASS** - Forgotten Gods appears_in scenes resolve
+- **PASS** - Escort Carriage has required entity fields
+- **PASS** - Escort Carriage image exists
+- **PASS** - Escort Carriage entity page exists
+- **PASS** - Escort Carriage appears_in scenes resolve
+- **PASS** - Sealed Keystone Crate has required entity fields
+- **PASS** - Sealed Keystone Crate image exists
+- **PASS** - Sealed Keystone Crate entity page exists
+- **PASS** - Sealed Keystone Crate appears_in scenes resolve
+- **PASS** - Route Assurance Contract has required entity fields
+- **PASS** - Route Assurance Contract image exists
+- **PASS** - Route Assurance Contract entity page exists
+- **PASS** - Route Assurance Contract appears_in scenes resolve
+- **PASS** - Goldspire Permit Seal has required entity fields
+- **PASS** - Goldspire Permit Seal image exists
+- **PASS** - Goldspire Permit Seal entity page exists
+- **PASS** - Goldspire Permit Seal appears_in scenes resolve
+- **PASS** - Corporate Route Bell has required entity fields
+- **PASS** - Corporate Route Bell image exists
+- **PASS** - Corporate Route Bell entity page exists
+- **PASS** - Corporate Route Bell appears_in scenes resolve
+- **PASS** - Sablewood Route Gate has required entity fields
+- **PASS** - Sablewood Route Gate image exists
+- **PASS** - Sablewood Route Gate entity page exists
+- **PASS** - Sablewood Route Gate appears_in scenes resolve
+- **PASS** - Old Sable Canopy Road has required entity fields
+- **PASS** - Old Sable Canopy Road image exists
+- **PASS** - Old Sable Canopy Road entity page exists
+- **PASS** - Old Sable Canopy Road appears_in scenes resolve
+- **PASS** - Overturned Wheel Ruts has required entity fields
+- **PASS** - Overturned Wheel Ruts image exists
+- **PASS** - Overturned Wheel Ruts entity page exists
+- **PASS** - Overturned Wheel Ruts appears_in scenes resolve
+- **PASS** - Tamsin's Wedding Cord has required entity fields
+- **PASS** - Tamsin's Wedding Cord image exists
+- **PASS** - Tamsin's Wedding Cord entity page exists
+- **PASS** - Tamsin's Wedding Cord appears_in scenes resolve
+- **PASS** - Comfort Blanket has required entity fields
+- **PASS** - Comfort Blanket image exists
+- **PASS** - Comfort Blanket entity page exists
+- **PASS** - Comfort Blanket appears_in scenes resolve
+- **PASS** - Bramble Claim Marker has required entity fields
+- **PASS** - Bramble Claim Marker image exists
+- **PASS** - Bramble Claim Marker entity page exists
+- **PASS** - Bramble Claim Marker appears_in scenes resolve
+- **PASS** - Ambush Roadblock has required entity fields
+- **PASS** - Ambush Roadblock image exists
+- **PASS** - Ambush Roadblock entity page exists
+- **PASS** - Ambush Roadblock appears_in scenes resolve
+- **PASS** - Reclaimer Personal Effects has required entity fields
+- **PASS** - Reclaimer Personal Effects image exists
+- **PASS** - Reclaimer Personal Effects entity page exists
+- **PASS** - Reclaimer Personal Effects appears_in scenes resolve
+- **PASS** - Clover Cord Bracelet has required entity fields
+- **PASS** - Clover Cord Bracelet image exists
+- **PASS** - Clover Cord Bracelet entity page exists
+- **PASS** - Clover Cord Bracelet appears_in scenes resolve
+- **PASS** - Moss-Honey Jar has required entity fields
+- **PASS** - Moss-Honey Jar image exists
+- **PASS** - Moss-Honey Jar entity page exists
+- **PASS** - Moss-Honey Jar appears_in scenes resolve
+- **PASS** - Hush Safe Irrigation Path has required entity fields
+- **PASS** - Hush Safe Irrigation Path image exists
+- **PASS** - Hush Safe Irrigation Path entity page exists
+- **PASS** - Hush Safe Irrigation Path appears_in scenes resolve
+- **PASS** - Hanging Office Winch has required entity fields
+- **PASS** - Hanging Office Winch image exists
+- **PASS** - Hanging Office Winch entity page exists
+- **PASS** - Hanging Office Winch appears_in scenes resolve
+- **PASS** - Dustless Ward Map has required entity fields
+- **PASS** - Dustless Ward Map image exists
+- **PASS** - Dustless Ward Map entity page exists
+- **PASS** - Dustless Ward Map appears_in scenes resolve
+- **PASS** - Custodian Tea Cup has required entity fields
+- **PASS** - Custodian Tea Cup image exists
+- **PASS** - Custodian Tea Cup entity page exists
+- **PASS** - Custodian Tea Cup appears_in scenes resolve
+- **PASS** - Relay Tremor Notation has required entity fields
+- **PASS** - Relay Tremor Notation image exists
+- **PASS** - Relay Tremor Notation entity page exists
+- **PASS** - Relay Tremor Notation appears_in scenes resolve
+- **PASS** - Open Vale Ward Lines has required entity fields
+- **PASS** - Open Vale Ward Lines image exists
+- **PASS** - Open Vale Ward Lines entity page exists
+- **PASS** - Open Vale Ward Lines appears_in scenes resolve
+- **PASS** - Ward Renewal Chime has required entity fields
+- **PASS** - Ward Renewal Chime image exists
+- **PASS** - Ward Renewal Chime entity page exists
+- **PASS** - Ward Renewal Chime appears_in scenes resolve
+- **PASS** - Glass-Bright Ward Sand has required entity fields
+- **PASS** - Glass-Bright Ward Sand image exists
+- **PASS** - Glass-Bright Ward Sand entity page exists
+- **PASS** - Glass-Bright Ward Sand appears_in scenes resolve
+- **PASS** - Corporate Seal Wax Residue has required entity fields
+- **PASS** - Corporate Seal Wax Residue image exists
+- **PASS** - Corporate Seal Wax Residue entity page exists
+- **PASS** - Corporate Seal Wax Residue appears_in scenes resolve
+- **PASS** - Legacy Security Badge has required entity fields
+- **PASS** - Legacy Security Badge image exists
+- **PASS** - Legacy Security Badge entity page exists
+- **PASS** - Legacy Security Badge appears_in scenes resolve
+- **PASS** - Soul-Audit Memory Shard has required entity fields
+- **PASS** - Soul-Audit Memory Shard image exists
+- **PASS** - Soul-Audit Memory Shard entity page exists
+- **PASS** - Soul-Audit Memory Shard appears_in scenes resolve
+- **PASS** - Halython's Fox-Bat Companion has required entity fields
+- **PASS** - Halython's Fox-Bat Companion image exists
+- **PASS** - Halython's Fox-Bat Companion entity page exists
+- **PASS** - Halython's Fox-Bat Companion appears_in scenes resolve
+- **PASS** - Sabine Quillon has required entity fields
+- **PASS** - Sabine Quillon image exists
+- **PASS** - Sabine Quillon entity page exists
+- **PASS** - Sabine Quillon appears_in scenes resolve
+- **PASS** - Emeris Clerk has required entity fields
+- **PASS** - Emeris Clerk image exists
+- **PASS** - Emeris Clerk entity page exists
+- **PASS** - Emeris Clerk appears_in scenes resolve
+- **PASS** - The Grail has required entity fields
+- **PASS** - The Grail image exists
+- **PASS** - The Grail entity page exists
+- **PASS** - The Grail appears_in scenes resolve
+- **PASS** - Goldwater Financial Institution has required entity fields
+- **PASS** - Goldwater Financial Institution image exists
+- **PASS** - Goldwater Financial Institution entity page exists
+- **PASS** - Goldwater Financial Institution appears_in scenes resolve
+- **PASS** - Artemis Inc has required entity fields
+- **PASS** - Artemis Inc image exists
+- **PASS** - Artemis Inc entity page exists
+- **PASS** - Artemis Inc appears_in scenes resolve
+- **PASS** - Zephra Exchange has required entity fields
+- **PASS** - Zephra Exchange image exists
+- **PASS** - Zephra Exchange entity page exists
+- **PASS** - Zephra Exchange appears_in scenes resolve
+- **PASS** - The Board of Directors has required entity fields
+- **PASS** - The Board of Directors image exists
+- **PASS** - The Board of Directors entity page exists
+- **PASS** - The Board of Directors appears_in scenes resolve
+- **PASS** - Wardstone has required entity fields
+- **PASS** - Wardstone image exists
+- **PASS** - Wardstone entity page exists
+- **PASS** - Wardstone appears_in scenes resolve
+- **PASS** - Ward Infrastructure has required entity fields
+- **PASS** - Ward Infrastructure image exists
+- **PASS** - Ward Infrastructure entity page exists
+- **PASS** - Ward Infrastructure appears_in scenes resolve
+- **PASS** - Emeris Capital Gate has required entity fields
+- **PASS** - Emeris Capital Gate image exists
+- **PASS** - Emeris Capital Gate entity page exists
+- **PASS** - Emeris Capital Gate appears_in scenes resolve
+- **PASS** - Emeris has required entity fields
+- **PASS** - Emeris image exists
+- **PASS** - Emeris entity page exists
+- **PASS** - Emeris appears_in scenes resolve
+- **PASS** - Athervast has required entity fields
+- **PASS** - Athervast image exists
+- **PASS** - Athervast entity page exists
+- **PASS** - Athervast appears_in scenes resolve
+- **PASS** - Public-Private Ward Compact has required entity fields
+- **PASS** - Public-Private Ward Compact image exists
+- **PASS** - Public-Private Ward Compact entity page exists
+- **PASS** - Public-Private Ward Compact appears_in scenes resolve
+- **PASS** - Goldspire Ward Network has required entity fields
+- **PASS** - Goldspire Ward Network image exists
+- **PASS** - Goldspire Ward Network entity page exists
+- **PASS** - Goldspire Ward Network appears_in scenes resolve
+- **PASS** - The Goldspire Relay has required entity fields
+- **PASS** - The Goldspire Relay image exists
+- **PASS** - The Goldspire Relay entity page exists
+- **PASS** - The Goldspire Relay appears_in scenes resolve
+- **PASS** - The Relay Keeper has required entity fields
+- **PASS** - The Relay Keeper image exists
+- **PASS** - The Relay Keeper entity page exists
+- **PASS** - The Relay Keeper appears_in scenes resolve
+- **PASS** - GM Rules Drawer has required entity fields
+- **PASS** - GM Rules Drawer image exists
+- **PASS** - GM Rules Drawer entity page exists
+- **PASS** - GM Rules Drawer appears_in scenes resolve
+- **PASS** - Duality Dice has required entity fields
+- **PASS** - Duality Dice image exists
+- **PASS** - Duality Dice entity page exists
+- **PASS** - Duality Dice appears_in scenes resolve
+- **PASS** - Difficulty Ladder has required entity fields
+- **PASS** - Difficulty Ladder image exists
+- **PASS** - Difficulty Ladder entity page exists
+- **PASS** - Difficulty Ladder appears_in scenes resolve
+- **PASS** - D&D Conversion has required entity fields
+- **PASS** - D&D Conversion image exists
+- **PASS** - D&D Conversion entity page exists
+- **PASS** - D&D Conversion appears_in scenes resolve
+- **PASS** - Official Conditions has required entity fields
+- **PASS** - Official Conditions image exists
+- **PASS** - Official Conditions entity page exists
+- **PASS** - Official Conditions appears_in scenes resolve
+- **PASS** - Hope has required entity fields
+- **PASS** - Hope image exists
+- **PASS** - Hope entity page exists
+- **PASS** - Hope appears_in scenes resolve
+- **PASS** - Fear has required entity fields
+- **PASS** - Fear image exists
+- **PASS** - Fear entity page exists
+- **PASS** - Fear appears_in scenes resolve
+- **PASS** - GM Moves has required entity fields
+- **PASS** - GM Moves image exists
+- **PASS** - GM Moves entity page exists
+- **PASS** - GM Moves appears_in scenes resolve
+- **PASS** - Adversary Spotlight has required entity fields
+- **PASS** - Adversary Spotlight image exists
+- **PASS** - Adversary Spotlight entity page exists
+- **PASS** - Adversary Spotlight appears_in scenes resolve
+- **PASS** - Adversary Attack Rolls has required entity fields
+- **PASS** - Adversary Attack Rolls image exists
+- **PASS** - Adversary Attack Rolls entity page exists
+- **PASS** - Adversary Attack Rolls appears_in scenes resolve
+- **PASS** - Damage / Armor has required entity fields
+- **PASS** - Damage / Armor image exists
+- **PASS** - Damage / Armor entity page exists
+- **PASS** - Damage / Armor appears_in scenes resolve
+- **PASS** - Stress has required entity fields
+- **PASS** - Stress image exists
+- **PASS** - Stress entity page exists
+- **PASS** - Stress appears_in scenes resolve
+- **PASS** - Armor Slot has required entity fields
+- **PASS** - Armor Slot image exists
+- **PASS** - Armor Slot entity page exists
+- **PASS** - Armor Slot appears_in scenes resolve
+- **PASS** - Short Rest has required entity fields
+- **PASS** - Short Rest image exists
+- **PASS** - Short Rest entity page exists
+- **PASS** - Short Rest appears_in scenes resolve
+- **PASS** - Hidden has required entity fields
+- **PASS** - Hidden image exists
+- **PASS** - Hidden entity page exists
+- **PASS** - Hidden appears_in scenes resolve
+- **PASS** - Restrained has required entity fields
+- **PASS** - Restrained image exists
+- **PASS** - Restrained entity page exists
+- **PASS** - Restrained appears_in scenes resolve
+- **PASS** - Vulnerable has required entity fields
+- **PASS** - Vulnerable image exists
+- **PASS** - Vulnerable entity page exists
+- **PASS** - Vulnerable appears_in scenes resolve
+- **PASS** - Hexmart Pocket Ward™ (cracked) has required entity fields
+- **PASS** - Hexmart Pocket Ward™ (cracked) image exists
+- **PASS** - Hexmart Pocket Ward™ (cracked) entity page exists
+- **PASS** - Hexmart Pocket Ward™ (cracked) appears_in scenes resolve
+- **PASS** - Stride Salve has required entity fields
+- **PASS** - Stride Salve image exists
+- **PASS** - Stride Salve entity page exists
+- **PASS** - Stride Salve appears_in scenes resolve
+- **PASS** - Grindstone Vial has required entity fields
+- **PASS** - Grindstone Vial image exists
+- **PASS** - Grindstone Vial entity page exists
+- **PASS** - Grindstone Vial appears_in scenes resolve
+- **PASS** - Lark-Moth Lantern has required entity fields
+- **PASS** - Lark-Moth Lantern image exists
+- **PASS** - Lark-Moth Lantern entity page exists
+- **PASS** - Lark-Moth Lantern appears_in scenes resolve
+- **PASS** - Bramble-Cutter's Hook has required entity fields
+- **PASS** - Bramble-Cutter's Hook image exists
+- **PASS** - Bramble-Cutter's Hook entity page exists
+- **PASS** - Bramble-Cutter's Hook appears_in scenes resolve
+- **PASS** - Compliance Stamp (forged) has required entity fields
+- **PASS** - Compliance Stamp (forged) image exists
+- **PASS** - Compliance Stamp (forged) entity page exists
+- **PASS** - Compliance Stamp (forged) appears_in scenes resolve
+- **PASS** - Firstmoss Poultice has required entity fields
+- **PASS** - Firstmoss Poultice image exists
+- **PASS** - Firstmoss Poultice entity page exists
+- **PASS** - Firstmoss Poultice appears_in scenes resolve
+- **PASS** - Bag of Mixed Chits has required entity fields
+- **PASS** - Bag of Mixed Chits image exists
+- **PASS** - Bag of Mixed Chits entity page exists
+- **PASS** - Bag of Mixed Chits appears_in scenes resolve
+- **PASS** - Whetcord has required entity fields
+- **PASS** - Whetcord image exists
+- **PASS** - Whetcord entity page exists
+- **PASS** - Whetcord appears_in scenes resolve
+- **PASS** - Tinker's Kit, Used has required entity fields
+- **PASS** - Tinker's Kit, Used image exists
+- **PASS** - Tinker's Kit, Used entity page exists
+- **PASS** - Tinker's Kit, Used appears_in scenes resolve
+- **PASS** - Soul-Quiet Charm has required entity fields
+- **PASS** - Soul-Quiet Charm image exists
+- **PASS** - Soul-Quiet Charm entity page exists
+- **PASS** - Soul-Quiet Charm appears_in scenes resolve
+- **PASS** - Strixwolf-Down Cloak has required entity fields
+- **PASS** - Strixwolf-Down Cloak image exists
+- **PASS** - Strixwolf-Down Cloak entity page exists
+- **PASS** - Strixwolf-Down Cloak appears_in scenes resolve
+- **PASS** - Sablewood Hybrid Fauna has required entity fields
+- **PASS** - Sablewood Hybrid Fauna image exists
+- **PASS** - Sablewood Hybrid Fauna entity page exists
+- **PASS** - Sablewood Hybrid Fauna appears_in scenes resolve
+- **PASS** - Cat-Squirrels has required entity fields
+- **PASS** - Cat-Squirrels image exists
+- **PASS** - Cat-Squirrels entity page exists
+- **PASS** - Cat-Squirrels appears_in scenes resolve
+- **PASS** - Giraffe-Deer has required entity fields
+- **PASS** - Giraffe-Deer image exists
+- **PASS** - Giraffe-Deer entity page exists
+- **PASS** - Giraffe-Deer appears_in scenes resolve
+- **PASS** - Lemur-Toads has required entity fields
+- **PASS** - Lemur-Toads image exists
+- **PASS** - Lemur-Toads entity page exists
+- **PASS** - Lemur-Toads appears_in scenes resolve
+- **PASS** - Fox-Bats has required entity fields
+- **PASS** - Fox-Bats image exists
+- **PASS** - Fox-Bats entity page exists
+- **PASS** - Fox-Bats appears_in scenes resolve
+- **PASS** - Horse-Goats has required entity fields
+- **PASS** - Horse-Goats image exists
+- **PASS** - Horse-Goats entity page exists
+- **PASS** - Horse-Goats appears_in scenes resolve
+- **PASS** - Hunting Trees has required entity fields
+- **PASS** - Hunting Trees image exists
+- **PASS** - Hunting Trees entity page exists
+- **PASS** - Hunting Trees appears_in scenes resolve
+- **PASS** - Sablewood Route Network has required entity fields
+- **PASS** - Sablewood Route Network image exists
+- **PASS** - Sablewood Route Network entity page exists
+- **PASS** - Sablewood Route Network appears_in scenes resolve
+- **PASS** - Underroot has required entity fields
+- **PASS** - Underroot image exists
+- **PASS** - Underroot entity page exists
+- **PASS** - Underroot appears_in scenes resolve
+- **PASS** - Underroot Tunnels has required entity fields
+- **PASS** - Underroot Tunnels image exists
+- **PASS** - Underroot Tunnels entity page exists
+- **PASS** - Underroot Tunnels appears_in scenes resolve
+- **PASS** - The Titan's Steps has required entity fields
+- **PASS** - The Titan's Steps image exists
+- **PASS** - The Titan's Steps entity page exists
+- **PASS** - The Titan's Steps appears_in scenes resolve
+- **PASS** - Duskwatch Exchange has required entity fields
+- **PASS** - Duskwatch Exchange image exists
+- **PASS** - Duskwatch Exchange entity page exists
+- **PASS** - Duskwatch Exchange appears_in scenes resolve
+- **PASS** - Mountain Crabs has required entity fields
+- **PASS** - Mountain Crabs image exists
+- **PASS** - Mountain Crabs entity page exists
+- **PASS** - Mountain Crabs appears_in scenes resolve
+- **PASS** - The Catcher's Cradles has required entity fields
+- **PASS** - The Catcher's Cradles image exists
+- **PASS** - The Catcher's Cradles entity page exists
+- **PASS** - The Catcher's Cradles appears_in scenes resolve
+- **PASS** - The Lucent River has required entity fields
+- **PASS** - The Lucent River image exists
+- **PASS** - The Lucent River entity page exists
+- **PASS** - The Lucent River appears_in scenes resolve
+- **PASS** - Moonglow has required entity fields
+- **PASS** - Moonglow image exists
+- **PASS** - Moonglow entity page exists
+- **PASS** - Moonglow appears_in scenes resolve
+- **PASS** - The High Falls has required entity fields
+- **PASS** - The High Falls image exists
+- **PASS** - The High Falls entity page exists
+- **PASS** - The High Falls appears_in scenes resolve
+- **PASS** - The Miremist has required entity fields
+- **PASS** - The Miremist image exists
+- **PASS** - The Miremist entity page exists
+- **PASS** - The Miremist appears_in scenes resolve
+- **PASS** - The Stones of the Vale has required entity fields
+- **PASS** - The Stones of the Vale image exists
+- **PASS** - The Stones of the Vale entity page exists
+- **PASS** - The Stones of the Vale appears_in scenes resolve
+- **PASS** - The Claravale Market has required entity fields
+- **PASS** - The Claravale Market image exists
+- **PASS** - The Claravale Market entity page exists
+- **PASS** - The Claravale Market appears_in scenes resolve
+- **PASS** - The Sunless Farms has required entity fields
+- **PASS** - The Sunless Farms image exists
+- **PASS** - The Sunless Farms entity page exists
+- **PASS** - The Sunless Farms appears_in scenes resolve
+- **PASS** - Guest Privileges has required entity fields
+- **PASS** - Guest Privileges image exists
+- **PASS** - Guest Privileges entity page exists
+- **PASS** - Guest Privileges appears_in scenes resolve
+- **PASS** - The Refuge has required entity fields
+- **PASS** - The Refuge image exists
+- **PASS** - The Refuge entity page exists
+- **PASS** - The Refuge appears_in scenes resolve
+- **PASS** - The Fire Walk has required entity fields
+- **PASS** - The Fire Walk image exists
+- **PASS** - The Fire Walk entity page exists
+- **PASS** - The Fire Walk appears_in scenes resolve
+- **PASS** - The Ash Quarry has required entity fields
+- **PASS** - The Ash Quarry image exists
+- **PASS** - The Ash Quarry entity page exists
+- **PASS** - The Ash Quarry appears_in scenes resolve
+- **PASS** - Root's Hollow has required entity fields
+- **PASS** - Root's Hollow image exists
+- **PASS** - Root's Hollow entity page exists
+- **PASS** - Root's Hollow appears_in scenes resolve
+- **PASS** - The Latch has required entity fields
+- **PASS** - The Latch image exists
+- **PASS** - The Latch entity page exists
+- **PASS** - The Latch appears_in scenes resolve
+- **PASS** - The Sable Stills has required entity fields
+- **PASS** - The Sable Stills image exists
+- **PASS** - The Sable Stills entity page exists
+- **PASS** - The Sable Stills appears_in scenes resolve
+- **PASS** - Bramble Union Villages has required entity fields
+- **PASS** - Bramble Union Villages image exists
+- **PASS** - Bramble Union Villages entity page exists
+- **PASS** - Bramble Union Villages appears_in scenes resolve
+- **PASS** - The Wandering Briar has required entity fields
+- **PASS** - The Wandering Briar image exists
+- **PASS** - The Wandering Briar entity page exists
+- **PASS** - The Wandering Briar appears_in scenes resolve
+- **PASS** - Bramble Stone Tumblers has required entity fields
+- **PASS** - Bramble Stone Tumblers image exists
+- **PASS** - Bramble Stone Tumblers entity page exists
+- **PASS** - Bramble Stone Tumblers appears_in scenes resolve
+- **PASS** - Proven Navir has required entity fields
+- **PASS** - Proven Navir image exists
+- **PASS** - Proven Navir entity page exists
+- **PASS** - Proven Navir appears_in scenes resolve
+- **PASS** - Xen has required entity fields
+- **PASS** - Xen image exists
+- **PASS** - Xen entity page exists
+- **PASS** - Xen appears_in scenes resolve
+- **PASS** - Yikyik Trahll has required entity fields
+- **PASS** - Yikyik Trahll image exists
+- **PASS** - Yikyik Trahll entity page exists
+- **PASS** - Yikyik Trahll appears_in scenes resolve
+- **PASS** - The Sable Sinecure has required entity fields
+- **PASS** - The Sable Sinecure image exists
+- **PASS** - The Sable Sinecure entity page exists
+- **PASS** - The Sable Sinecure appears_in scenes resolve
+- **PASS** - Fire-Falcons has required entity fields
+- **PASS** - Fire-Falcons image exists
+- **PASS** - Fire-Falcons entity page exists
+- **PASS** - Fire-Falcons appears_in scenes resolve
+- **PASS** - Sable Sinecure Secret Caches has required entity fields
+- **PASS** - Sable Sinecure Secret Caches image exists
+- **PASS** - Sable Sinecure Secret Caches entity page exists
+- **PASS** - Sable Sinecure Secret Caches appears_in scenes resolve
+- **PASS** - Hazard-Indexed Pricing has required entity fields
+- **PASS** - Hazard-Indexed Pricing image exists
+- **PASS** - Hazard-Indexed Pricing entity page exists
+- **PASS** - Hazard-Indexed Pricing appears_in scenes resolve
+- **PASS** - Helena Corain has required entity fields
+- **PASS** - Helena Corain image exists
+- **PASS** - Helena Corain entity page exists
+- **PASS** - Helena Corain appears_in scenes resolve
+- **PASS** - Will Scild has required entity fields
+- **PASS** - Will Scild image exists
+- **PASS** - Will Scild entity page exists
+- **PASS** - Will Scild appears_in scenes resolve
+- **PASS** - Simrith Luhaj has required entity fields
+- **PASS** - Simrith Luhaj image exists
+- **PASS** - Simrith Luhaj entity page exists
+- **PASS** - Simrith Luhaj appears_in scenes resolve
+- **PASS** - Sablewood Hope Moments has required entity fields
+- **PASS** - Sablewood Hope Moments image exists
+- **PASS** - Sablewood Hope Moments entity page exists
+- **PASS** - Sablewood Hope Moments appears_in scenes resolve
+- **PASS** - Sablewood Fear Moments has required entity fields
+- **PASS** - Sablewood Fear Moments image exists
+- **PASS** - Sablewood Fear Moments entity page exists
+- **PASS** - Sablewood Fear Moments appears_in scenes resolve
+- **PASS** - Sableblade has required entity fields
+- **PASS** - Sableblade image exists
+- **PASS** - Sableblade entity page exists
+- **PASS** - Sableblade appears_in scenes resolve
+- **PASS** - Ember Lake has required entity fields
+- **PASS** - Ember Lake image exists
+- **PASS** - Ember Lake entity page exists
+- **PASS** - Ember Lake appears_in scenes resolve
+- **PASS** - The Glimpse has required entity fields
+- **PASS** - The Glimpse image exists
+- **PASS** - The Glimpse entity page exists
+- **PASS** - The Glimpse appears_in scenes resolve
+- **PASS** - Eeligator Scale Shield has required entity fields
+- **PASS** - Eeligator Scale Shield image exists
+- **PASS** - Eeligator Scale Shield entity page exists
+- **PASS** - Eeligator Scale Shield appears_in scenes resolve
+- **PASS** - Bramble Union Stoneweave has required entity fields
+- **PASS** - Bramble Union Stoneweave image exists
+- **PASS** - Bramble Union Stoneweave entity page exists
+- **PASS** - Bramble Union Stoneweave appears_in scenes resolve
+- **PASS** - Recall Stone has required entity fields
+- **PASS** - Recall Stone image exists
+- **PASS** - Recall Stone entity page exists
+- **PASS** - Recall Stone appears_in scenes resolve
+- **PASS** - Whitefire Custodian's Ward-Charm has required entity fields
+- **PASS** - Whitefire Custodian's Ward-Charm image exists
+- **PASS** - Whitefire Custodian's Ward-Charm entity page exists
+- **PASS** - Whitefire Custodian's Ward-Charm appears_in scenes resolve
+- **PASS** - Sableleaf Shoes has required entity fields
+- **PASS** - Sableleaf Shoes image exists
+- **PASS** - Sableleaf Shoes entity page exists
+- **PASS** - Sableleaf Shoes appears_in scenes resolve
+- **PASS** - Bugbane Berry has required entity fields
+- **PASS** - Bugbane Berry image exists
+- **PASS** - Bugbane Berry entity page exists
+- **PASS** - Bugbane Berry appears_in scenes resolve
+- **PASS** - Sable Sap has required entity fields
+- **PASS** - Sable Sap image exists
+- **PASS** - Sable Sap entity page exists
+- **PASS** - Sable Sap appears_in scenes resolve
+- **PASS** - Twilight Plums has required entity fields
+- **PASS** - Twilight Plums image exists
+- **PASS** - Twilight Plums entity page exists
+- **PASS** - Twilight Plums appears_in scenes resolve
+- **PASS** - Sunfire Lily has required entity fields
+- **PASS** - Sunfire Lily image exists
+- **PASS** - Sunfire Lily entity page exists
+- **PASS** - Sunfire Lily appears_in scenes resolve
+- **PASS** - Sunless-Farm Moss has required entity fields
+- **PASS** - Sunless-Farm Moss image exists
+- **PASS** - Sunless-Farm Moss entity page exists
+- **PASS** - Sunless-Farm Moss appears_in scenes resolve
+- **PASS** - Vial of Briarpowder has required entity fields
+- **PASS** - Vial of Briarpowder image exists
+- **PASS** - Vial of Briarpowder entity page exists
+- **PASS** - Vial of Briarpowder appears_in scenes resolve
+- **PASS** - Bullfrog has required entity fields
+- **PASS** - Bullfrog image exists
+- **PASS** - Bullfrog entity page exists
+- **PASS** - Bullfrog appears_in scenes resolve
+- **PASS** - Strixwolf has required entity fields
+- **PASS** - Strixwolf image exists
+- **PASS** - Strixwolf entity page exists
+- **PASS** - Strixwolf appears_in scenes resolve
+- **PASS** - Eeligator has required entity fields
+- **PASS** - Eeligator image exists
+- **PASS** - Eeligator entity page exists
+- **PASS** - Eeligator appears_in scenes resolve
+- **PASS** - Craymeleon has required entity fields
+- **PASS** - Craymeleon image exists
+- **PASS** - Craymeleon entity page exists
+- **PASS** - Craymeleon appears_in scenes resolve
+- **PASS** - Tiger-Elk has required entity fields
+- **PASS** - Tiger-Elk image exists
+- **PASS** - Tiger-Elk entity page exists
+- **PASS** - Tiger-Elk appears_in scenes resolve
+- **PASS** - Spidermanders has required entity fields
+- **PASS** - Spidermanders image exists
+- **PASS** - Spidermanders entity page exists
+- **PASS** - Spidermanders appears_in scenes resolve
+- **PASS** - Centi-Beetles has required entity fields
+- **PASS** - Centi-Beetles image exists
+- **PASS** - Centi-Beetles entity page exists
+- **PASS** - Centi-Beetles appears_in scenes resolve
+- **PASS** - Hellbender has required entity fields
+- **PASS** - Hellbender image exists
+- **PASS** - Hellbender entity page exists
+- **PASS** - Hellbender appears_in scenes resolve
+- **PASS** - Rabbit-Gliders has required entity fields
+- **PASS** - Rabbit-Gliders image exists
+- **PASS** - Rabbit-Gliders entity page exists
+- **PASS** - Rabbit-Gliders appears_in scenes resolve
+- **PASS** - Moth-Possums has required entity fields
+- **PASS** - Moth-Possums image exists
+- **PASS** - Moth-Possums entity page exists
+- **PASS** - Moth-Possums appears_in scenes resolve
+- **PASS** - Turtle-Mice has required entity fields
+- **PASS** - Turtle-Mice image exists
+- **PASS** - Turtle-Mice entity page exists
+- **PASS** - Turtle-Mice appears_in scenes resolve
+- **PASS** - Badger-Hawks has required entity fields
+- **PASS** - Badger-Hawks image exists
+- **PASS** - Badger-Hawks entity page exists
+- **PASS** - Badger-Hawks appears_in scenes resolve
+- **PASS** - Ratcoons has required entity fields
+- **PASS** - Ratcoons image exists
+- **PASS** - Ratcoons entity page exists
+- **PASS** - Ratcoons appears_in scenes resolve
+- **PASS** - Festival Moths has required entity fields
+- **PASS** - Festival Moths image exists
+- **PASS** - Festival Moths entity page exists
+- **PASS** - Festival Moths appears_in scenes resolve
+- **PASS** - Ward-Moths has required entity fields
+- **PASS** - Ward-Moths image exists
+- **PASS** - Ward-Moths entity page exists
+- **PASS** - Ward-Moths appears_in scenes resolve
+- **PASS** - Mist-Things has required entity fields
+- **PASS** - Mist-Things image exists
+- **PASS** - Mist-Things entity page exists
+- **PASS** - Mist-Things appears_in scenes resolve
+- **PASS** - Slyborne Hideout has required entity fields
+- **PASS** - Slyborne Hideout image exists
+- **PASS** - Slyborne Hideout entity page exists
+- **PASS** - Slyborne Hideout appears_in scenes resolve
+- **PASS** - Slyborne Crew has required entity fields
+- **PASS** - Slyborne Crew image exists
+- **PASS** - Slyborne Crew entity page exists
+- **PASS** - Slyborne Crew appears_in scenes resolve
+- **PASS** - Root Blockage has required entity fields
+- **PASS** - Root Blockage image exists
+- **PASS** - Root Blockage entity page exists
+- **PASS** - Root Blockage appears_in scenes resolve
+- **PASS** - Goldwater-Grail Toll Crew has required entity fields
+- **PASS** - Goldwater-Grail Toll Crew image exists
+- **PASS** - Goldwater-Grail Toll Crew entity page exists
+- **PASS** - Goldwater-Grail Toll Crew appears_in scenes resolve
+- **PASS** - Faceless Six has required entity fields
+- **PASS** - Faceless Six image exists
+- **PASS** - Faceless Six entity page exists
+- **PASS** - Faceless Six appears_in scenes resolve
+- **PASS** - Young Dryads has required entity fields
+- **PASS** - Young Dryads image exists
+- **PASS** - Young Dryads entity page exists
+- **PASS** - Young Dryads appears_in scenes resolve
+- **PASS** - Disposition / Resolution Track has required entity fields
+- **PASS** - Disposition / Resolution Track image exists
+- **PASS** - Disposition / Resolution Track entity page exists
+- **PASS** - Disposition / Resolution Track appears_in scenes resolve
+- **PASS** - NPC / Community Trust Track has required entity fields
+- **PASS** - NPC / Community Trust Track image exists
+- **PASS** - NPC / Community Trust Track entity page exists
+- **PASS** - NPC / Community Trust Track appears_in scenes resolve
+- **PASS** - Ward Stability Track has required entity fields
+- **PASS** - Ward Stability Track image exists
+- **PASS** - Ward Stability Track entity page exists
+- **PASS** - Ward Stability Track appears_in scenes resolve
+- **PASS** - Dungeon Workers' Alliance has required entity fields
+- **PASS** - Dungeon Workers' Alliance image exists
+- **PASS** - Dungeon Workers' Alliance entity page exists
+- **PASS** - Dungeon Workers' Alliance appears_in scenes resolve
+- **PASS** - Manufactured-Threat Future Thread has required entity fields
+- **PASS** - Manufactured-Threat Future Thread image exists
+- **PASS** - Manufactured-Threat Future Thread entity page exists
+- **PASS** - Manufactured-Threat Future Thread appears_in scenes resolve
+- **PASS** - Perrin Oake has required entity fields
+- **PASS** - Perrin Oake image exists
+- **PASS** - Perrin Oake entity page exists
+- **PASS** - Perrin Oake appears_in scenes resolve
+- **PASS** - Wicket has required entity fields
+- **PASS** - Wicket image exists
+- **PASS** - Wicket entity page exists
+- **PASS** - Wicket appears_in scenes resolve
+- **PASS** - Nettle has required entity fields
+- **PASS** - Nettle image exists
+- **PASS** - Nettle entity page exists
+- **PASS** - Nettle appears_in scenes resolve
+- **PASS** - Auditor Holle has required entity fields
+- **PASS** - Auditor Holle image exists
+- **PASS** - Auditor Holle entity page exists
+- **PASS** - Auditor Holle appears_in scenes resolve
+- **PASS** - Mama Suet has required entity fields
+- **PASS** - Mama Suet image exists
+- **PASS** - Mama Suet entity page exists
+- **PASS** - Mama Suet appears_in scenes resolve
+- **PASS** - Inspector Pelt has required entity fields
+- **PASS** - Inspector Pelt image exists
+- **PASS** - Inspector Pelt entity page exists
+- **PASS** - Inspector Pelt appears_in scenes resolve
+- **PASS** - Old Gregor has required entity fields
+- **PASS** - Old Gregor image exists
+- **PASS** - Old Gregor entity page exists
+- **PASS** - Old Gregor appears_in scenes resolve
+- **PASS** - The Midnight Cabal has required entity fields
+- **PASS** - The Midnight Cabal image exists
+- **PASS** - The Midnight Cabal entity page exists
+- **PASS** - The Midnight Cabal appears_in scenes resolve
+- **PASS** - The Umbrand Consortium has required entity fields
+- **PASS** - The Umbrand Consortium image exists
+- **PASS** - The Umbrand Consortium entity page exists
+- **PASS** - The Umbrand Consortium appears_in scenes resolve
+- **PASS** - Lucent Water™ has required entity fields
+- **PASS** - Lucent Water™ image exists
+- **PASS** - Lucent Water™ entity page exists
+- **PASS** - Lucent Water™ appears_in scenes resolve
+- **PASS** - Restorative Ash™ has required entity fields
+- **PASS** - Restorative Ash™ image exists
+- **PASS** - Restorative Ash™ entity page exists
+- **PASS** - Restorative Ash™ appears_in scenes resolve
+- **PASS** - Fire Wine™ has required entity fields
+- **PASS** - Fire Wine™ image exists
+- **PASS** - Fire Wine™ entity page exists
+- **PASS** - Fire Wine™ appears_in scenes resolve
+- **PASS** - Goldwater Liability Token™ has required entity fields
+- **PASS** - Goldwater Liability Token™ image exists
+- **PASS** - Goldwater Liability Token™ entity page exists
+- **PASS** - Goldwater Liability Token™ appears_in scenes resolve
+- **PASS** - Kazrak Adventurer Certification™ has required entity fields
+- **PASS** - Kazrak Adventurer Certification™ image exists
+- **PASS** - Kazrak Adventurer Certification™ entity page exists
+- **PASS** - Kazrak Adventurer Certification™ appears_in scenes resolve
+- **PASS** - Tamsin's Home-Token has required entity fields
+- **PASS** - Tamsin's Home-Token image exists
+- **PASS** - Tamsin's Home-Token entity page exists
+- **PASS** - Tamsin's Home-Token appears_in scenes resolve
+- **PASS** - Cracked Pocket Ward™ has required entity fields
+- **PASS** - Cracked Pocket Ward™ image exists
+- **PASS** - Cracked Pocket Ward™ entity page exists
+- **PASS** - Cracked Pocket Ward™ appears_in scenes resolve
+- **PASS** - Bramble Ward-Scrap Charm Cluster has required entity fields
+- **PASS** - Bramble Ward-Scrap Charm Cluster image exists
+- **PASS** - Bramble Ward-Scrap Charm Cluster entity page exists
+- **PASS** - Bramble Ward-Scrap Charm Cluster appears_in scenes resolve
+- **PASS** - Claimrunner Serrated Blade has required entity fields
+- **PASS** - Claimrunner Serrated Blade image exists
+- **PASS** - Claimrunner Serrated Blade entity page exists
+- **PASS** - Claimrunner Serrated Blade appears_in scenes resolve
+- **PASS** - Spirekeeper Relay Keyring has required entity fields
+- **PASS** - Spirekeeper Relay Keyring image exists
+- **PASS** - Spirekeeper Relay Keyring entity page exists
+- **PASS** - Spirekeeper Relay Keyring appears_in scenes resolve
+- **PASS** - Auditor's Verdict Ledger™ has required entity fields
+- **PASS** - Auditor's Verdict Ledger™ image exists
+- **PASS** - Auditor's Verdict Ledger™ entity page exists
+- **PASS** - Auditor's Verdict Ledger™ appears_in scenes resolve
+- **PASS** - The Wrong Driver has required entity fields
+- **PASS** - The Wrong Driver image exists
+- **PASS** - The Wrong Driver entity page exists
+- **PASS** - The Wrong Driver appears_in scenes resolve
+- **PASS** - The Off Provisions has required entity fields
+- **PASS** - The Off Provisions image exists
+- **PASS** - The Off Provisions entity page exists
+- **PASS** - The Off Provisions appears_in scenes resolve
+- **PASS** - The Too-Neat Wreck has required entity fields
+- **PASS** - The Too-Neat Wreck image exists
+- **PASS** - The Too-Neat Wreck entity page exists
+- **PASS** - The Too-Neat Wreck appears_in scenes resolve
+- **PASS** - No Predator Wounds has required entity fields
+- **PASS** - No Predator Wounds image exists
+- **PASS** - No Predator Wounds entity page exists
+- **PASS** - No Predator Wounds appears_in scenes resolve
+- **PASS** - The Wary Flinch has required entity fields
+- **PASS** - The Wary Flinch image exists
+- **PASS** - The Wary Flinch entity page exists
+- **PASS** - The Wary Flinch appears_in scenes resolve
+- **PASS** - Feeding, Not Hunting has required entity fields
+- **PASS** - Feeding, Not Hunting image exists
+- **PASS** - Feeding, Not Hunting entity page exists
+- **PASS** - Feeding, Not Hunting appears_in scenes resolve
+- **PASS** - The Late Tracks has required entity fields
+- **PASS** - The Late Tracks image exists
+- **PASS** - The Late Tracks entity page exists
+- **PASS** - The Late Tracks appears_in scenes resolve
+- **PASS** - Route Assurance Contract™ has required entity fields
+- **PASS** - Route Assurance Contract™ image exists
+- **PASS** - Route Assurance Contract™ entity page exists
+- **PASS** - Route Assurance Contract™ appears_in scenes resolve
+- **PASS** - The Pre-Dated Invoice has required entity fields
+- **PASS** - The Pre-Dated Invoice image exists
+- **PASS** - The Pre-Dated Invoice entity page exists
+- **PASS** - The Pre-Dated Invoice appears_in scenes resolve
+- **PASS** - The Convenient Renewal has required entity fields
+- **PASS** - The Convenient Renewal image exists
+- **PASS** - The Convenient Renewal entity page exists
+- **PASS** - The Convenient Renewal appears_in scenes resolve
+- **PASS** - Old Contract Tags has required entity fields
+- **PASS** - Old Contract Tags image exists
+- **PASS** - Old Contract Tags entity page exists
+- **PASS** - Old Contract Tags appears_in scenes resolve
+- **PASS** - The Held Blow has required entity fields
+- **PASS** - The Held Blow image exists
+- **PASS** - The Held Blow entity page exists
+- **PASS** - The Held Blow appears_in scenes resolve
+- **PASS** - The Interrogation Answer has required entity fields
+- **PASS** - The Interrogation Answer image exists
+- **PASS** - The Interrogation Answer entity page exists
+- **PASS** - The Interrogation Answer appears_in scenes resolve
+- **PASS** - The Painted Joy has required entity fields
+- **PASS** - The Painted Joy image exists
+- **PASS** - The Painted Joy entity page exists
+- **PASS** - The Painted Joy appears_in scenes resolve
+- **PASS** - The Ward Subscription has required entity fields
+- **PASS** - The Ward Subscription image exists
+- **PASS** - The Ward Subscription entity page exists
+- **PASS** - The Ward Subscription appears_in scenes resolve
+- **PASS** - The Cheerful Ledger has required entity fields
+- **PASS** - The Cheerful Ledger image exists
+- **PASS** - The Cheerful Ledger entity page exists
+- **PASS** - The Cheerful Ledger appears_in scenes resolve
+- **PASS** - The Drained Water has required entity fields
+- **PASS** - The Drained Water image exists
+- **PASS** - The Drained Water entity page exists
+- **PASS** - The Drained Water appears_in scenes resolve
+- **PASS** - The Patched Everything has required entity fields
+- **PASS** - The Patched Everything image exists
+- **PASS** - The Patched Everything entity page exists
+- **PASS** - The Patched Everything appears_in scenes resolve
+- **PASS** - The Tired Smile has required entity fields
+- **PASS** - The Tired Smile image exists
+- **PASS** - The Tired Smile entity page exists
+- **PASS** - The Tired Smile appears_in scenes resolve
+- **PASS** - The Welcome Broadcast™ has required entity fields
+- **PASS** - The Welcome Broadcast™ image exists
+- **PASS** - The Welcome Broadcast™ entity page exists
+- **PASS** - The Welcome Broadcast™ appears_in scenes resolve
+- **PASS** - Nature-Is-Deadly Placard™ has required entity fields
+- **PASS** - Nature-Is-Deadly Placard™ image exists
+- **PASS** - Nature-Is-Deadly Placard™ entity page exists
+- **PASS** - Nature-Is-Deadly Placard™ appears_in scenes resolve
+- **PASS** - Bramble-Are-Criminals Notice™ has required entity fields
+- **PASS** - Bramble-Are-Criminals Notice™ image exists
+- **PASS** - Bramble-Are-Criminals Notice™ entity page exists
+- **PASS** - Bramble-Are-Criminals Notice™ appears_in scenes resolve
+- **PASS** - Fire Solutions has required entity fields
+- **PASS** - Fire Solutions image exists
+- **PASS** - Fire Solutions entity page exists
+- **PASS** - Fire Solutions appears_in scenes resolve
+- **PASS** - no SVG files exist in generated atlas
+- **PASS** - no SVG references remain in HTML/data/vault package
+- **PASS** - every scene uses a generated raster image
+- **PASS** - every entity uses a source-backed raster image
+- **PASS** - all type icons are generated raster images
+- **PASS** - image inventory has no fallback assets
+- **PASS** - image inventory has no missing slots
+- **PASS** - generated UI/data/vault contain no emoji icon glyphs
+- **PASS** - critical recurring names and objects are inline linked on index
+- **PASS** - entity names present in index have data-entity hooks
+- **PASS** - internal HTML links resolve
+- **PASS** - Obsidian vault exists
+- **PASS** - Obsidian note count is substantial
+- **PASS** - Obsidian wikilinks resolve by note stem or alias
+- **PASS** - Obsidian folder structure exists
+- **PASS** - Strixwolf entity appears only in Act One or optional Act Two fallout
+- **PASS** - post-Act-One prompts include Strixwolf negative continuity
+- **PASS** - Act Five prompts exclude Strixwolf and Bramble Union
+- **PASS** - Hush is framed as warm and real
+- **PASS** - Bramble Union is morally complicated
+- **PASS** - corporations are satirical systems, not boss monsters
+- **PASS** - filters exist
+- **PASS** - hover cards exist and support focus
+- **PASS** - lightbox dialog exists
+- **PASS** - player-facing read-aloud style exists
+- **PASS** - GM-only visual style exists
+- **PASS** - print stylesheet exists
+- **PASS** - data files exist
+- **PASS** - browser QA report exists
+- **PASS** - browser QA confirms hover card visibility
+- **PASS** - browser QA confirms lightbox image loads
+- **PASS** - browser QA confirms no visible emoji UI
+- **PASS** - browser QA confirms no SVG references in rendered home
+- **PASS** - browser QA confirms mobile has no horizontal overflow
+
+## Rendered Browser QA Evidence
+
+Rendered QA used the in-app browser for visual review and Playwright with the installed Google Chrome executable for repeatable checks. Automation-owned browser sessions were closed after capture.
+
+Checked in browser:
+
+- Desktop first viewport: `output/playwright/story-atlas/desktop-home.png`
+- Mobile first viewport at 390x844: `output/playwright/story-atlas/playwright-mobile-home.png`
+- S01-01 scene card with raster scene art: `output/playwright/story-atlas/scene-s01-01.png`
+- Escort Carriage hover card: `output/playwright/story-atlas/hover-escort-carriage.png`
+- Escort Carriage entity wiki page: `output/playwright/story-atlas/entity-escort-carriage.png`
+- Browser assertion report: `output/playwright/story-atlas/browser-qa.json`
+
+Rendered checks completed:
+
+- 27 scene cards rendered.
+- Combat filter returned the combat scene set.
+- Search input filtered visible scene cards.
+- Hover opened the entity preview card with image, type, summary, tags, and appearances.
+- Image lightbox opened and dismissed.
+- Escort Carriage entity page loaded with specific content, image, relationships, and backlinks.
+- Desktop and mobile showed no horizontal overflow.
+- The rendered home contained no SVG references and no visible emoji UI.
+- Visual inspection confirmed distinct player-facing and GM-only blocks, readable text, and stable responsive layout.
+
+## Deepening Production QA
+
+Checks passed: **112 / 112**
+Checks failed: **0**
+
+Deepening production QA passed: entity wiki, GM state console, rules drawer, handouts, player display, robust pages, lore corrections, Obsidian mirror, raster assets, and browser evidence are all covered.
+
+- **PASS** - zero SVG files exist in final atlas package
+- **PASS** - zero SVG references remain in HTML, CSS, JS, JSON, Markdown, or pages
+- **PASS** - zero emoji remain as primary UI icon glyphs
+- **PASS** - every scene has a real raster Image Gen asset
+- **PASS** - every major entity has a real source-backed raster asset
+- **PASS** - type icons are raster assets, not emoji or SVG
+- **PASS** - required production pages exist
+- **PASS** - hero navigation uses production pages, not raw Markdown
+- **PASS** - hero navigation includes Browse the story
+- **PASS** - hero navigation includes Entity Wiki
+- **PASS** - hero navigation includes Player Display
+- **PASS** - hero navigation includes Handouts
+- **PASS** - hero navigation includes Session Zero
+- **PASS** - hero navigation includes GM Rules Drawer button
+- **PASS** - legend chip links to clue category
+- **PASS** - legend chip links to condition category
+- **PASS** - legend chip links to corporation category
+- **PASS** - legend chip links to creature category
+- **PASS** - legend chip links to enemy category
+- **PASS** - legend chip links to faction category
+- **PASS** - legend chip links to item category
+- **PASS** - legend chip links to location category
+- **PASS** - legend chip links to mechanic category
+- **PASS** - legend chip links to npc category
+- **PASS** - legend chip links to pc category
+- **PASS** - entity index category exists for clue
+- **PASS** - entity index category exists for condition
+- **PASS** - entity index category exists for corporation
+- **PASS** - entity index category exists for creature
+- **PASS** - entity index category exists for enemy
+- **PASS** - entity index category exists for faction
+- **PASS** - entity index category exists for item
+- **PASS** - entity index category exists for location
+- **PASS** - entity index category exists for mechanic
+- **PASS** - entity index category exists for npc
+- **PASS** - entity index category exists for pc
+- **PASS** - entity index lists every entity with thumbnail and link
+- **PASS** - entity index has search, filters, and sorting controls
+- **PASS** - every registered scene entity is clickable/hoverable on scene cards and scene pages
+- **PASS** - critical aliases are inline-linked on the main atlas
+- **PASS** - GM State Console field exists: strixwolf_outcome
+- **PASS** - GM State Console field exists: strixwolf_trust
+- **PASS** - GM State Console field exists: strixwolf_blood_debt
+- **PASS** - GM State Console field exists: bramble_outcome
+- **PASS** - GM State Console field exists: bramble_truth_learned
+- **PASS** - GM State Console field exists: hush_trust
+- **PASS** - GM State Console field exists: custodian_trust
+- **PASS** - GM State Console field exists: ward_stability
+- **PASS** - GM State Console field exists: report_choice
+- **PASS** - GM State Console persists to localStorage
+- **PASS** - conditional payoff notes are data-driven
+- **PASS** - act collapse, complete, and persistence are wired
+- **PASS** - scene collapse, complete, pin, and show-to-players controls are wired
+- **PASS** - dev-only toggles exist and default hidden
+- **PASS** - searchable GM Rules Drawer exists
+- **PASS** - print stylesheet remains present
+- **PASS** - internal prompt/status language is hidden behind dev-only UI
+- **PASS** - Handouts Hub includes required handouts
+- **PASS** - Player Display / TV Mode is player-safe by default
+- **PASS** - Player Display supports scene selection and fullscreen
+- **PASS** - Session Zero includes onboarding essentials
+- **PASS** - every scene has 2-4 player-facing questions
+- **PASS** - every scene has relationship prompts
+- **PASS** - every scene has a scene ownership prompt
+- **PASS** - every scene has class/ancestry/community reveal hooks
+- **PASS** - every scene has Fear spend ideas
+- **PASS** - every scene check has DCs and Hope/Fear outcomes
+- **PASS** - every entity has robust schema data
+- **PASS** - every entity page renders the robust schema
+- **PASS** - forbidden generic filler phrases are absent
+- **PASS** - Kazrak is framed as a peer megacorp, not parent/umbrella
+- **PASS** - Soulspire Solutions is the verified spelling in production output
+- **PASS** - Goldspire Territories are treated as frontier/extraction hinterland
+- **PASS** - Keystone Asset answers the wardstone/capital gate questions
+- **PASS** - Keystone page explains Athervast
+- **PASS** - Keystone page explains Emeris Capital Gate
+- **PASS** - Keystone page explains Wardstone
+- **PASS** - Keystone page explains Soulspire Solutions
+- **PASS** - Keystone page explains Public-Private Ward Compact
+- **PASS** - Keystone page explains Goldspire Ward Network
+- **PASS** - ward economy stack includes: creates/monetizes danger
+- **PASS** - ward economy stack includes: builds/maintains
+- **PASS** - ward economy stack includes: powers/skims
+- **PASS** - ward economy stack includes: guards/responds
+- **PASS** - ward economy stack includes: finances/insures
+- **PASS** - ward economy stack includes: holds the concession
+- **PASS** - ward economy stack includes: spins the story
+- **PASS** - ward economy stack includes: cheap consumer protection
+- **PASS** - Obsidian scene notes mirror deepening fields
+- **PASS** - Obsidian entity notes mirror robust schema
+- **PASS** - Obsidian vault includes Keystone Asset
+- **PASS** - Obsidian vault includes Wardstone
+- **PASS** - Obsidian vault includes Ward Infrastructure
+- **PASS** - Obsidian vault includes Public-Private Ward Compact
+- **PASS** - Obsidian vault includes Emeris Capital Gate
+- **PASS** - Obsidian vault includes Athervast
+- **PASS** - Obsidian vault includes Goldspire Ward Network
+- **PASS** - internal HTML links resolve
+- **PASS** - deepening browser QA report exists
+- **PASS** - browser QA confirms entityIndexLoaded
+- **PASS** - browser QA confirms legendCategoryNavigation
+- **PASS** - browser QA confirms rulesDrawerSearchWorks
+- **PASS** - browser QA confirms stateConsolePersists
+- **PASS** - browser QA confirms conditionalNoteAppears
+- **PASS** - browser QA confirms sceneCollapsePersists
+- **PASS** - browser QA confirms actCollapsePersists
+- **PASS** - browser QA confirms playerDisplayWorks
+- **PASS** - browser QA confirms noVisiblePromptLeakage
+- **PASS** - browser QA confirms noVisibleEmojiIcons
+- **PASS** - browser QA confirms noHorizontalOverflow
+- **PASS** - browser QA confirms imageContainFirst
+- **PASS** - browser QA confirms openImageWindowWorks
+
+## Dedicated Slideshow / Run Mode QA
+
+Checks passed: **248 / 248**
+Checks failed: **0**
+
+- `data/slides.json`, `run.html`, `player-display.html`, `player-follow.html`, and dedicated `js/` files are generated.
+- Browser QA covers next/previous, ArrowRight, shortcut suppression while typing, scrubber jumps, persistence, player-display sync, blackout, image/text reveal, copy fallback, and expansion dialogs.
+
+Detailed JSON: `data/qa-slideshow-report.json`.
+
+
+## Maps / Combat HUD / Next Move QA
+
+Checks passed: **103 / 103**
+
+Checks failed: **0**
+
+- Location maps generated: **40 / 40**.
+- Total map records: **47**.
+- Combat battlemap primaries verified: **5 / 5**.
+- Every primary map is declared as an AI-generated raster asset; combat maps use stricter AI-generated battlemap primaries where available.
+- Earlier AI map art is preserved as visual inspiration alternates; schematic boards are discreet reference alternates only.
+- Combat workspaces: **5**.
+- Fear spend menu is restricted to official spend categories.
+- Run Mode uses Encounter Cockpit language instead of fixed initiative bookkeeping.
+
+Detailed JSON: `data/qa-map-combat-hud-report.json`.
+
+## Sablewood Lore Integration QA
+
+Checks passed: **23 / 23**
+Checks failed: **0**
+- **PASS** - Sablewood registry data exists
+- **PASS** - Sablewood source document data exists
+- **PASS** - Atlas entities data exists
+- **PASS** - Run Mode slides data exists
+- **PASS** - Sablewood registry has broad PDF coverage
+- **PASS** - source PDF is bundled in generated site
+- **PASS** - every registry row resolves to an entity
+- **PASS** - every registry entity has a generated wiki page
+- **PASS** - every registry row contributes an alias or canonical name
+- **PASS** - every registry row records its Sablewood PDF source page
+- **PASS** - every registry entity is tagged sablewood-lore
+- **PASS** - Sablewood wiki includes direct PDF source link
+- **PASS** - Run Mode has Sablewood Field Guide section
+- **PASS** - Run Mode Sablewood slide exists: SABLEWOOD-GUIDE
+- **PASS** - Run Mode Sablewood slide exists: SABLEWOOD-ROUTES
+- **PASS** - Run Mode Sablewood slide exists: SABLEWOOD-FACTIONS
+- **PASS** - Run Mode Sablewood slide exists: SABLEWOOD-GEAR
+- **PASS** - Run Mode Sablewood slide exists: SABLEWOOD-RUMORS
+- **PASS** - Run Mode includes Sablewood shortcut
+- **PASS** - scene patches include Sablewood Route Network
+- **PASS** - scene patches include Bramble Union Villages
+- **PASS** - scene patches include Guest Privileges
+- **PASS** - scene patches include The Stones of the Vale
+
+## Mechanics / Session Zero / Loot / Dice Add-on QA
+
+Checks passed: **25 / 25**
+Checks failed: **0**
+
+- Session Zero section appears before Prologue and persists collapse/completion state.
+- Session Zero page includes run modes, Connection Builder, notes export, Rules Drawer, Handouts Hub, and Player Display links.
+- GM Rules Drawer and GM Cheat Sheet include compact official Daggerheart table cards, difficulty, conditions, rests, combat, and Fear spends.
+- Every scene has DC-based roll cards or no-roll guidance, GM Fear spends, condition/hazard guidance, search/loot guidance, TV-safe mechanics captions, and trait variety notes.
+- Every entity has Interact / Investigate / Search / Fight mechanics.
+- Rule pages, mechanic links, hover data, quick reference widget, Loot Board, condition pages, mechanics-aware handouts, and Player Display toggles are present.
+- Images are contain-first by default, with lightbox, raw image, and open-window actions.
+
+### Trait Coverage
+
+- Agility: 8
+- Strength: 10
+- Finesse: 15
+- Instinct: 17
+- Presence: 21
+- Knowledge: 36
+- Instinct + Presence share: 35.5%
+- Variety gate: PASS
+
+Detailed JSON: `data/qa-mechanics-report.json` and `data/trait-coverage-report.json`.
+
+
+## Story Comprehension Modes QA
+
+Checks passed: **28 / 28**
+
+Checks failed: **0**
+
+- Generated concise Story Outline, visual Storyboard, and narrative Story pages.
+- Verified outline is image-free, storyboard is image-led, and all scene links route to Run Mode, Atlas, and scene wiki pages.
+- Verified wiki hover links, search/filter controls, text-to-speech controls, and print CSS support.
+
+Detailed JSON: `data/qa-story-modes-report.json`.

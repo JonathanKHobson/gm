@@ -1,0 +1,108 @@
+%PDF-1.4
+1 0 obj
+<< /Length 1408 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-clover-co-op - Clover Co-op Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(Inside the village, the Co-op is a warm public room of tea steam, shoe lines, gift) Tj
+T*
+(shelves, chipped mugs, and people deciding whether these travelers are guests, trouble,) Tj
+T*
+(or both.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Inside the village, the Co-op is a warm public room of tea steam, shoe lines, gift) Tj
+T*
+(shelves, chipped mugs, and people deciding whether these travelers are guests, trouble,) Tj
+T*
+(or both.) Tj
+T*
+() Tj
+T*
+(GM goal) Tj
+T*
+() Tj
+T*
+(Run the Co-op as a social hub: shoe custom, regulars, games, tavern prompts, and trust-) Tj
+T*
+(building.) Tj
+T*
+() Tj
+T*
+(GM script) Tj
+T*
+() Tj
+T*
+(Say: "This is the room where Hush decides whether the party belongs for tonight. Offer) Tj
+T*
+(shoes, food, a game, and one regular by description before name.") Tj
+T*
+() Tj
+T*
+(State controls) Tj
+T*
+() Tj
+T*
+(- hush_trust Hush Trust select low neutral high) Tj
+T*
+(- custodian_route Custodian Route select unknown safe dangerous) Tj
+T*
+(- festival_participation Festival Participation checkbox) Tj
+T*
+(- festival_boon Festival Boon select none charm favor market_find goodwill) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 198d6911e7390ab3 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [2 0 R] /Count 1 >>
+endobj
+4 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000001469 00000 n 
+0000001595 00000 n 
+0000001652 00000 n 
+0000001701 00000 n 
+trailer
+<< /Size 6 /Root 4 0 R >>
+startxref
+1773
+%%EOF

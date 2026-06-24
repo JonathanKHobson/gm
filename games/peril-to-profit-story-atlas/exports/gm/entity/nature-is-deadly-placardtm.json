@@ -1,0 +1,79 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "nature-is-deadly-placardtm",
+  "title": "Nature-Is-Deadly Placard™",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "b29b4392aff80641",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Nature-Is-Deadly Placard™: A roadside sign, cheerful and lurid: \"WARNING! Unlicensed Wildlife Ahead! Approved Wildlife Available for Purchase. Do Not Befriend the Forest. The Forest Cannot Be Trusted. The Forest Has Not Signed Anything.\""
+    },
+    {
+      "title": "Public role",
+      "body": "Clue / evidence"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: A roadside sign, cheerful and lurid: \"WARNING! Unlicensed Wildlife Ahead! Approved Wildlife Available for Purchase. Do Not Befriend the Forest. The Forest Cannot Be Trusted. The Forest Has Not Signed Anything.\""
+    },
+    {
+      "title": "GM truth",
+      "body": "Use this element to reveal the cost of managed protection through concrete play."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use when players need a tangible handle on the scene's pressure."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Discovery / Earn-It Mechanics",
+        "Player Safe: Players can inspect, handle, keep, trade, reveal, or earn Nature-Is-Deadly Placard™ when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: A roadside sign, cheerful and lurid: \"WARNING! Unlicensed Wildlife Ahead! Approved Wildlife Available for Purchase. Do Not Befriend the Forest. The Forest Cannot Be Trusted. The Forest Has Not Signed Anything.\" Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-nature-is-deadly-placardtm-engage-nature-is-deadly-placard™ entity-nature-is-deadly-placardtm Engage Nature-Is-Deadly Placard™ Engage Nature-Is-Deadly Placard™ Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Nature-Is-Deadly Placard™ hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Condition Options: No official condition unless the item or clue physically creates Hidden, Restrained, or Vulnerable",
+        "Search Loot: Player-safe note: A roadside sign, cheerful and lurid: \"WARNING! Unlicensed Wildlife Ahead! Approved Wildlife Available for Purchase. Do Not Befriend the Forest. The Forest Cannot Be Trusted. The Forest Has Not Signed Anything.\""
+      ]
+    },
+    {
+      "title": "Profile",
+      "items": [
+        "Schema Version: clue-profile-v1",
+        "Id: nature-is-deadly-placardtm",
+        "Clue Id: nature-is-deadly-placardtm",
+        "Clue Name: Nature-Is-Deadly Placard™",
+        "Name: Nature-Is-Deadly Placard™",
+        "Aliases: Nature-Is-Deadly Placard",
+        "Pronunciation: NAY-cher iz DED-lee PLAK-erd",
+        "Clue Kind: propaganda",
+        "Trademark: ™",
+        "Auto Surface: True",
+        "Atlas Lore Note: [Atlas lore - confirm or override]",
+        "Player Safe: Nature-Is-Deadly Placard™ A roadside sign, cheerful and lurid: \"WARNING! Unlicensed Wildlife Ahead! Approved Wildlife Available for Purchase. Do Not Befriend the Forest. The Forest Cannot Be Trusted. The Forest Has Not Signed Anything.\" A roadside sign, cheerful and lurid: \"WARNING! Unlicensed Wildlife Ahead! Approved Wildlife Available for Purchase. Do Not Befriend the Forest. The Forest Cannot Be Trusted. The Forest Has Not Signed Anything.\" A roadside sign, cheerful and lurid: \"WARNING! Unlicensed Wildlife Ahead! Approved Wildlife Available for Purchase. Do Not Befriend the Forest. The Forest Cannot Be Trusted. The Forest Has Not Signed Anything.\"",
+        "Block0: nature-is-deadly-placardtm Nature-Is-Deadly Placard™ Nature-Is-Deadly Placard NAY-cher iz DED-lee PLAK-erd propaganda ™",
+        "Block1: primes fear of nature — directly contradicted by the scared, harmless creature. WORLD/NPC The Propaganda Itself the-propaganda-itself Sets the satire baseline and creates callbacks the players can notice later. pages/entities/nature-is-deadly-placardtm.html pages/clues/the-propaganda-itself.html",
+        "Block2: A roadside sign, cheerful and lurid: \"WARNING! Unlicensed Wildlife Ahead! Approved Wildlife Available for Purchase. Do Not Befriend the Forest. The Forest Cannot Be Trusted. The Forest Has Not Signed Anything.\" primes fear of nature — directly contradicted by the scared, harmless creature.",
+        "Block3: Let the placard look funny and official at the same time. The sign is trying very hard to make the forest sound guilty. The placard told you nature was the threat, but the creature is afraid and scavenging. This sign is propaganda; the forest has not behaved like the villain it describes.",
+        "Block4: The Wary Flinch Feeding Not Hunting the-wary-flinch",
+        "Block5: S00-01 S01-01 Emeris Capital Gate Sablewood Route Gate Emeris Crown Holdings read it on the road. clues/The_Propaganda_Itself.md",
+        "Block6: COM OPTIONAL Use this clue to support The Propaganda Itself: primes fear of nature — directly contradicted by the scared, harmless creature. whisper",
+        "Block7: \"The Forest Has Not Signed Anything\" is the joke. ™ Bright dystopian corporate optimism; use ™ only on branded documents, placards, contracts, and paid-protection artifacts.",
+        "Block8: Bright, saturated storybook evidence illustration; clear hero shot of the actual clue object or scene detail; whimsical frontier-Renaissance materials; warm light; bright dystopian corporate satire when branded; no gore, no UI, no watermark, no repeated icon. Depict: a lurid bright sign cartooning friendly animals as monsters. clue wiki card and Player Display evidence visual Send the image and SHOW text only. Keep TELL, points_to, and blunt ladder rungs GM-only until earned. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/nature-is-deadly-placardtm/profile_base.png assets/clue-images/nature-is-deadly-placardtm/profile_base.webp Bright, saturated storybook evidence illustration; clear hero shot of the actual clue object or scene detail; whimsical frontier-Renaissance materials; warm light; bright dystopian corporate satire when branded; no gore, no UI, no...",
+        "Block9: Official Daggerheart action roll using Duality Dice, Hope, Fear, and Difficulty; P2P Roll Slider is the table-facing result ladder. Agility move, climb, dodge, reach a better angle, or read evidence while moving Strength lift, hold, force, carry, break, or test weight and pressure Finesse handle, hide, tinker, compare, pick apart, or notice precise detail Instinct perceive, smell, listen, track, read danger, or sense body language Presence charm, soothe, press, lead, deceive, perform, or read a social response Knowledge recall, analyze, investigate, reason from lore, or understand systems Finesse D13 Knowledge D13 Presence D13 If the clue is plainly visible, give the SHOW text freely first: A roadside sign, cheerful and lurid: \"WARNING! Unlicensed Wildlife Ahead! Approved Wildlife Available for Purchase. Do Not Befriend the Forest. The Forest Cannot Be Trusted. The Forest Has Not...",
+        "Mechanicids: duality-dice hope fear difficulty roll-slider clue-discovery",
+        "Visual Assets: profile_base Clue evidence image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/nature-is-deadly-placardtm/profile_base.png assets/clue-images/nature-is-deadly-placardtm/profile_base.webp ready Nature-Is-Deadly Placard™ clue image. A roadside sign, cheerful and lurid: \"WARNING! Unlicensed Wildlife Ahead! Approved Wildlife Available for Purchase. Do Not Befriend the Forest. The Forest Cannot Be Trusted. The Forest Has Not Signed Anything.\""
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash b29b4392aff80641 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

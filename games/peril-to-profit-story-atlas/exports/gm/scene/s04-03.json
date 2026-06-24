@@ -1,0 +1,92 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "scene",
+  "id": "S04-03",
+  "title": "S04-03 - The Whitefire Custodian",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "eb012510da469118",
+  "sections": [
+    {
+      "title": "Player read-aloud",
+      "body": "The Custodian leans out, eyes glittering. “Oh my, you’re rather late. Come in, come in before the forms notice.”"
+    },
+    {
+      "title": "Scene summary",
+      "body": "The old faerie-like Custodian appears, mischievous and exhausted."
+    },
+    {
+      "title": "Visible choices",
+      "items": [
+        "Respect her process",
+        "Demand answers",
+        "Apologize for delay",
+        "Ask about the forms"
+      ]
+    },
+    {
+      "title": "Player questions",
+      "items": [
+        "What detail in The Whitefire Custodian tells you the official story is incomplete?",
+        "Who notices the human cost first, and how do they show it?",
+        "What small object, smell, or sound makes this scene feel real?"
+      ]
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "Play her as sharp, old, fussy, kind, and done with everyone’s nonsense.",
+        "Keep player-facing information actionable. Reveal systemic truth through objects, reactions, and consequences before naming it.",
+        "Manufactured-threat lens: seed the contradiction, do not explain it. The surface goal stays simple and heroic.",
+        "[ADD/SEED] \"The wood never needed managing. It needed leaving alone.\"",
+        "[ADD/EARNED] The Custodian glances at obsolete Soulspire inspection seals on her counterweight boulder. (Instinct Medium 15)"
+      ]
+    },
+    {
+      "title": "Checks and rolls",
+      "items": [
+        "Presence Treat her as a person under strain. Easy Gain custodian_trust +1. 10 Cleanly resolve: Treat her as a person under strain. Add a concrete boon, extra clue, or improved position. Success, plus the player names one helpful detail or asks one follow-up question. Success, but the GM exposes a cost, ticks a countdown, or reveals a new pressure tied to The Whitefire Custodian. The full goal slips, but the party still learns a useful truth or avoids the worst consequence. The GM makes a hard move that follows from the fiction and leaves the next choice visible. Spend Fear to expose neglected infrastructure, stress the Custodian, or make the Keystone hum at the wrong moment. On mixed or sliding results, reveal information in layers: visible fact, actionable clue, then systemic truth.",
+        "Knowledge Ask precise questions about the Keystone. Standard Clarify the ritual without lore-dumping. 15 Cleanly resolve: Ask precise questions about the Keystone. Add a concrete boon, extra clue, or improved position. Success, plus the player names one helpful detail or asks one follow-up question. Success, but the GM exposes a cost, ticks a countdown, or reveals a new pressure tied to The Whitefire Custodian. The full goal slips, but the party still learns a useful truth or avoids the worst consequence. The GM makes a hard move that follows from the fiction and leaves the next choice visible. Spend Fear to expose neglected infrastructure, stress the Custodian, or make the Keystone hum at the wrong moment. On mixed or sliding results, reveal information in layers: visible fact, actionable clue, then systemic truth."
+      ]
+    },
+    {
+      "title": "Clues",
+      "items": [
+        "Custodian fatigue She needs help. The corporation monetized protection while starving maintenance. The person carrying the system is burning down.",
+        "Earned seed Available if players investigate, show mercy, or ask the right question. The Custodian glances at obsolete Soulspire inspection seals on her counterweight boulder. Instinct Medium 15"
+      ]
+    },
+    {
+      "title": "Loot",
+      "items": [
+        "Tea, if accepted",
+        "Maintenance note",
+        "Permission to understand the Keystone",
+        "Whitefire Custodian's Ward-Charm: A small hand-carved wooden ratcoon mid-scamper has been thumb-worn smooth for luck. It is warm, and the forest feels a little kinder while you hold it."
+      ]
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Plot So Far: The party is in Act Four pressure: The old faerie-like Custodian appears, mischievous and exhausted.",
+        "Mechanics In Play: Use Daggerheart Duality Dice as baseline. Use the listed Difficulty and outcome options when a roll matters. Keep trivial actions no-roll; roll only when uncertainty, cost, or danger is interesting.",
+        "Roll Cards: s04-03-win-the-custodian's-trust S04-03 Win the Custodian's trust Win the Custodian's trust Presence Knowledge Presence Knowledge 12 Presence treats her as a person; Knowledge respects her craft. She becomes a service provider instead of an ally. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. She becomes a service provider instead of an ally. Use a...",
+        "Gm Fear Spends: Make neglected infrastructure answer at the wrong moment. Stress the Custodian's trust without turning her into a device.",
+        "Conditions Hazards: No official condition unless a feature, hazard, or fictional position calls for Hidden, Restrained, or Vulnerable.",
+        "Search Loot Clues: Hanging Office: Soul-Quiet Charm or Firstmoss if earned; failed ward splinters and dustless map as clues.",
+        "No Roll Guidance: Do not call for a roll when the players have time, a clear method, and no meaningful pressure.",
+        "Escalation: Escalate by making cost visible: time, noise, trust, ward instability, or someone vulnerable in danger.",
+        "Deescalation: De-escalate through respect, care, honest testimony, useful evidence, or a concrete concession.",
+        "Tv Mechanics Caption: Public cue: The Whitefire Custodian asks what the party does, what it costs, and who is protected.",
+        "Trait Variety Note: Primary traits in this scene: Instinct, Knowledge, Presence. If rolls drift toward Instinct/Presence, ask whether Agility, Strength, Finesse, or Knowledge better describes the action.",
+        "Class Community Ancestry Reveals: Loreborne: spots older legal, heraldic, or ward-craft language under the branding. Underborne: notices service doors, hidden routes, and who built the thing nobody credits. Highborne: reads etiquette, class panic, and reputational risk. Ridgeborne: notices stonework, weight, pressure, and structural weakness. Wildborne: reads the land, animals, and local ecological stress. Elf/Ribbet/Human/Giant/Katari: invite one sensory or social detail from the player's heritage. Sorcerer/Rogue/Warrior/Guardian/Ranger: give each class one table-facing way to shine without changing the plot."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash eb012510da469118 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

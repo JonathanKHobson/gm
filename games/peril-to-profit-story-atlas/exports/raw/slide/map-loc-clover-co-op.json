@@ -1,0 +1,75 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "slide",
+  "id": "MAP-LOC-clover-co-op",
+  "title": "MAP-LOC-clover-co-op - Clover Co-op Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "0affd055281390d3",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "Inside the village, the Co-op is a warm public room of tea steam, shoe lines, gift shelves, chipped mugs, and people deciding whether these travelers are guests, trouble, or both."
+    },
+    {
+      "title": "Public objective",
+      "body": "Inside the village, the Co-op is a warm public room of tea steam, shoe lines, gift shelves, chipped mugs, and people deciding whether these travelers are guests, trouble, or both."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: MAP-LOC-clover-co-op",
+        "Type: map",
+        "Maptype: environment",
+        "Sectionid: ACT-THREE",
+        "Sectiontitle: Act Three: Seeking a Custodian",
+        "Title: Clover Co-op Location Map",
+        "Shorttitle: Clover Co-op",
+        "Order: 401.4",
+        "Playersafe: True",
+        "Completioneligible: False",
+        "Image: assets/maps/MAP-LOC-clover-co-op-gm.webp",
+        "Alt: Clover Co-op location map board.",
+        "Caption: Visual reference for Clover Co-op.",
+        "Mood: spatial reference and location texture",
+        "Gmgoal: Run the Co-op as a social hub: shoe custom, regulars, games, tavern prompts, and trust-building.",
+        "Publicobjective: Inside the village, the Co-op is a warm public room of tea steam, shoe lines, gift shelves, chipped mugs, and people deciding whether these travelers are guests, trouble, or both.",
+        "Readaloud: Inside the village, the Co-op is a warm public room of tea steam, shoe lines, gift shelves, chipped mugs, and people deciding whether these travelers are guests, trouble, or both.",
+        "Gmscript: Say: \"This is the room where Hush decides whether the party belongs for tonight. Offer shoes, food, a game, and one regular by description before name.\"",
+        "Gmreadaloud: Tea steam, shoe lines, gift shelves, and chipped mugs. A room full of people deciding whether these travelers are guests, trouble, or both.",
+        "Gmchecklist: Offer the shoe line. Use at least one regular. Ask one tavern-building prompt. Let the room react to bramble_outcome if it comes up.",
+        "Gmprivate: Halython's Bramble question is a clean carry-in read; use it only once the table is settled enough for it to matter.",
+        "Playertakeaway: Inside the village, the Co-op is a warm public room of tea steam, shoe lines, gift shelves, chipped mugs, and people deciding whether these travelers are guests, trouble, or both.",
+        "Storytakeaway: The Co-op turns Hush from a destination into people with customs and boundaries.",
+        "Mechanictakeaway: Presence, Prepare/Hope, and table spotlight are enough to make this scene mechanically alive.",
+        "Entityids: clover-co-op fidget lausa-standworth halython-fives",
+        "Entities: clover-co-op Clover Co-op faction Faction / Community assets/icons/faction.png assets/logos/clover-co-op.webp KLOH-ver KOH-op Warm lamps, clover doors, shared bowls, and dry jokes make the Clover Co-op feel like Hush's stubborn heartbeat. Make hospitality practical, specific, and emotionally risky. The social heart of Hush; shoes get polished and filled with trinkets.; introduce it with a sensory palette, who feels safe there, and what has been neglected. Pull player attention toward the choices, clues, and relationships tied to Hush, Yera Mossglass, Firstmoss Launch Festival. The social heart of Hush; shoes get polished and filled with trinkets. fidget Fidget npc NPC / Ally assets/icons/npc.png assets/npc-images/fidget/portrait_base.webp FID-jit A restless child who knows fast routes through the village and asks blunt questions. Warm local guide and pace reset. Fidget a restless child guide who knows the fastest ways through the village Restless, sharp, and starved to be useful before the grown-ups decide the useful part is over. Reads people fast and forgives slow. The bead strings are a walking map only Fidget can fully read: blue for water, brass for tolls, bone-white for the...",
+        "Statecontrols: hush_trust Hush Trust select low neutral high custodian_route Custodian Route select unknown safe dangerous festival_participation Festival Participation checkbox festival_boon Festival Boon select none charm favor market_find goodwill",
+        "Mechanicids: presence instinct knowledge hope table-spotlight",
+        "Fearspends: A familiar item from the road is recognized. A gift is offered with hands that shake. The ward chime outside flattens while everyone pretends not to hear it.",
+        "Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth context stay off the player display.",
+        "Linkedsceneids: S03-01 S03-03 S03-04",
+        "Mapdata: MAP-LOC-clover-co-op environment Clover Co-op Location Map S03-01 S03-03 S03-04 clover-co-op fidget lausa-standworth halython-fives assets/logos/clover-co-op.webp Visual reference for Clover Co-op. Clover Co-op location map board. Inside the village, the Co-op is a warm public room of tea steam, shoe lines, gift shelves, chipped mugs, and people deciding whether these travelers are guests, trouble, or both. Inside the village, the Co-op is a warm public room of tea steam, shoe lines, gift shelves, chipped mugs, and people deciding whether these travelers are guests, trouble, or both. Run the Co-op as a social hub: shoe custom, regulars, games, tavern prompts, and trust-building. Mismatched chairs face inward, shoe lines mark the threshold, and gift shelves hold jars, cloth, ribbons, and careful generosity. Tea pours, mugs knock softly, someone clears their throat before hard news, and a ward chime outside lands a little flat. Clover honey, tea steam, wet boot leather, old wood warmed by bodies, and food stretched with pride instead of abundance. Counters are nicked smooth; mugs are chipped in familiar places; wool sleeves stay damp near the door. The room tracks manners. People...",
+        "Sourcefiles: dist/Act3_Upgrade_Packet/ACT3_MAPS_AND_LOCATIONS.md",
+        "References: Co-op scene #S03-03",
+        "Livetools: scene MAP-LOC-clover-co-op",
+        "Percharacterlayer: barnacle Barnacle Crowd map Instantly maps the tavern's social lanes and weak spots. Can win or charmingly cheat at Halython's game, earning his regard fast. Barnacle, this is your kind of room. Want to win over the quiet clank at his own game? khari-nix Khari Nix Lausa's strength lane Lausa the bearded ale-hauler loves weapons and strength. Can arm-wrestle, talk weapon history, or make a protective friend. Khari, the woman with the ale barrel wants your weapon's name and forge-date. Want to make a friend? garrick-reed Garrick Reed Affable answer His warmth makes him the natural social anchor when Halython asks about the road. Can answer the Bramble question with grace and turn bramble_outcome into trust. Garrick, the clank is asking about the road attackers. How you answer sets the room's read of you. varian-soto Varian Soto Fidget's routes Fidget latches onto the Katari ranger and wants to show rooftop and lantern paths. Can learn the fastest town shortcuts and support custodian_route=safe. Varian, the wiggling kid wants to show you the rooftops. Want to learn the town's shortcuts? marlowe-fairwind Marlowe Fairwind Layered tavern wards The tavern's small protective wards hum as...",
+        "Gmbeats: MAP-LOC-clover-co-op-custom Custom Shoes on the line Say: \"Shoes on the line if you want in as guests.\" The threshold custom gives players a simple way to show respect. Customs turn Hush into people. Respectful position changes trust. Players know how to enter well. Player takeaway Players know how to enter well. \"Shoes on the line if you want in as guests.\" \"The playable fact is: The threshold custom gives players a simple way to show respect.\" Concrete actions for this beat: talk to a person present, inspect the named detail, help an ally, or choose whether to move toward the Custodian route. presence Story takeaway Customs turn Hush into people. \"Shoes on the line if you want in as guests.\" \"The story fact in play is: Customs turn Hush into people.\" This beat changes Act 3 through this exact pressure: Customs turn Hush into people. presence Mechanic takeaway Respectful position changes trust. \"Shoes on the line if you want in as guests.\" \"The active procedure is: Respectful position changes trust.\" Run intent first, then choose Presence, Instinct, Knowledge, Strength, or Finesse only when the fiction is risky or uncertain. presence MAP-LOC-clover-co-op-regulars Regulars Choose...",
+        "Takeawayhelp: Player takeaway The Co-op gives players concrete social actions. \"Hang your shoes, choose a face, play a game, share food, or take a quiet breather.\" \"If someone is stuck, offer one face: the lantern-child, the ale-hauler, or the quiet clank with the fox-bat.\" This map should make social play easier to run: custom, person, game, food, rest. presence instinct hope table-spotlight Story takeaway The Co-op turns the town into relationships. \"This is not the place where you extract directions. This is where you become safe enough to receive them.\" \"Halython can ask about the road attackers here, and the room can hear how the party answers.\" Use Hush warmth and judgment together. Kindness and boundaries can both be true. presence instinct hope table-spotlight Mechanic takeaway Presence, Hope, and spotlight pacing are the active mechanics. \"Presence 12 earns a regular. Instinct 12 reads the room. A quiet Prepare/Hope beat can happen over tea or a game.\" \"Raise hush_trust when players honor customs, listen, or let locals be people.\" The mechanical payoff is trust, guide access, and possible festival/market boons. presence instinct hope table-spotlight",
+        "Playerbeats: assets/maps/MAP-LOC-clover-co-op.png Clover Co-op map board. MAP-LOC-clover-co-op environment Clover Co-op S03-01 S03-03 S03-04 assets/maps/MAP-LOC-clover-co-op.png assets/maps/MAP-LOC-clover-co-op.png Clover Co-op map board. Inside the village, the Co-op is a warm public room of tea steam, shoe lines, gift shelves, chipped mugs, and people deciding whether these travelers are guests, trouble, or both. Inside the village, the Co-op is a warm public room of tea steam, shoe lines, gift shelves, chipped mugs, and people deciding whether these travelers are guests, trouble, or both. Gift shelf Small gifts carry trust. 0.3 0.42 Shoe line Respect starts at the threshold. 0.54 0.72 MAP-LOC-clover-co-op-map-only Map only Clover Co-op map-only assets/maps/MAP-LOC-clover-co-op.png Clover Co-op map board. MAP-LOC-clover-co-op environment Clover Co-op S03-01 S03-03 S03-04 assets/maps/MAP-LOC-clover-co-op.png assets/maps/MAP-LOC-clover-co-op.png Clover Co-op map board. Inside the village, the Co-op is a warm public room of tea steam, shoe lines, gift shelves, chipped mugs, and people deciding whether these travelers are guests, trouble, or both. Inside the village, the Co-op is a warm public...",
+        "Beatautoplayeligible: True",
+        "Beatautoplaydefault: False",
+        "Beatautoplayintervalms: 10000",
+        "Playersafeprojection: MAP-LOC-clover-co-op map Clover Co-op assets/maps/MAP-LOC-clover-co-op.png Clover Co-op map board. spatial reference and location texture Inside the village, the Co-op is a warm public room of tea steam, shoe lines, gift shelves, chipped mugs, and people deciding whether these travelers are guests, trouble, or both. Inside the village, the Co-op is a warm public room of tea steam, shoe lines, gift shelves, chipped mugs, and people deciding whether these travelers are guests, trouble, or both. MAP-LOC-clover-co-op environment Clover Co-op S03-01 S03-03 S03-04 assets/maps/MAP-LOC-clover-co-op.png assets/maps/MAP-LOC-clover-co-op.png Clover Co-op map board. Inside the village, the Co-op is a warm public room of tea steam, shoe lines, gift shelves, chipped mugs, and people deciding whether these travelers are guests, trouble, or both. Inside the village, the Co-op is a warm public room of tea steam, shoe lines, gift shelves, chipped mugs, and people deciding whether these travelers are guests, trouble, or both. Gift shelf Small gifts carry trust. 0.3 0.42 Shoe line Respect starts at the threshold. 0.54 0.72 assets/maps/MAP-LOC-clover-co-op.png Clover Co-op map board...",
+        "Slidenumber: 45",
+        "Totalslides: 110"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 0affd055281390d3 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "the-glimpse",
+  "title": "The Glimpse",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "acd998486ccd5ec6",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Something pale stands between trees for less than a breath: deer, wolf, mist, branches, and too many eyes reflecting light that is not there."
+    },
+    {
+      "title": "Public role",
+      "body": "Faint Divinity covered in eyes that cares for injured animals"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: A half-seen deer-wolf apparition made of moonlit mist, thin branches, too many reflective eyes, and firefly motes that make mercy feel older than fear."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use as an inference hook for old mercy in the forest. It should raise questions, not answer cosmology."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash acd998486ccd5ec6 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "faq",
+  "kind": "rule",
+  "title": "FAQ",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "teaching-aid",
+  "hook": "Fast beginner answers for live teaching.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Fast beginner answers for live teaching."
+    },
+    {
+      "label": "How It Works",
+      "body": "FAQ: Fast beginner answers for live teaching."
+    },
+    {
+      "label": "Try It",
+      "body": "Where do I start?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use when a player asks a table-basics question.",
+    "Answer the exact question and return to the scene.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:faq",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "767a8600a49ac42a",
+  "generated_at": "2026-06-23T21:40:58"
+}

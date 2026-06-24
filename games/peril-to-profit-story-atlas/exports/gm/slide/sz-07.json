@@ -1,0 +1,54 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "SZ-07",
+  "title": "SZ-07 - What PCs Know",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "769ba10ff0bb33fd",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "You are on a delivery job to the village of Hush. The cargo is sealed, valuable, and not supposed to be opened without permission."
+    },
+    {
+      "title": "Public objective",
+      "body": "You are on a delivery job to the village of Hush. The cargo is sealed, valuable, and not supposed to be opened without permission."
+    },
+    {
+      "title": "Player bullets",
+      "items": [
+        "You are escorting one sealed cargo unit.",
+        "It is important, guarded, and not supposed to be opened without permission.",
+        "It is going to Hush, a village in the Goldspire Territories.",
+        "The route crosses Sablewood Logistics Preserve: a vast fantasy forest, called Old Sable by some locals.",
+        "Payment follows verified delivery.",
+        "You begin inside the system: loyal, ignorant, conflicted, pragmatic, or simply hired."
+      ]
+    },
+    {
+      "title": "GM goal",
+      "body": "Align starting knowledge without leaking hidden information."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "Script: Read the player-safe starting knowledge. Keep the hidden facts in GM view only and use them for foreshadowing, not for projection.",
+        "Player-safe knowledge should be concrete enough to start play.",
+        "Do not show hidden knowledge on the player display.",
+        "Checklist: Starting knowledge aligned; Hidden knowledge kept GM-only",
+        "GM-only: Keystone's real ward function; Ward network soul-economy implications; Bramble Union's deeper motives; Final ritual threat; Relay Spire hook"
+      ]
+    },
+    {
+      "title": "GM script",
+      "body": "Read the player-safe starting knowledge. Keep the hidden facts in GM view only and use them for foreshadowing, not for projection."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 769ba10ff0bb33fd | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

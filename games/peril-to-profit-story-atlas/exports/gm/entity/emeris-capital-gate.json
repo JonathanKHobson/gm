@@ -1,0 +1,74 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "emeris-capital-gate",
+  "title": "Emeris Capital Gate",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "3bf1729a3b71d9c2",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "A great arch of pale carved stone rises three wagons wide, its keystone leafed in gold and its faces worn smooth by a century of carved caravans setting out. Beneath it runs a permanent little fair: toll-counters clacking, a crier calling the morning rates, a stall hawking painted gate-charms, and the smell of fried dough and hot sealing-wax."
+    },
+    {
+      "title": "Public role",
+      "body": "This is Emeris's Sablewood-facing gate and a player-safe starting image. Keep it a working public threshold, not a failure reveal."
+    },
+    {
+      "title": "Handout text",
+      "body": "A great arch of pale carved stone three wagons wide, with toll-counters clacking beneath it and the green dark of Sablewood waiting beyond."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Introduce with sensory texture, then make one discoverable clue or social choice visible."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Location Exploration Mechanics",
+        "Player Safe: Players can navigate, search, read customs, inspect hazards Emeris Capital Gate when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: A great arch of pale carved stone three wagons wide, with toll-counters clacking beneath it and the green dark of Sablewood waiting beyond. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-emeris-capital-gate-engage-emeris-capital-gate entity-emeris-capital-gate Engage Emeris Capital Gate Engage Emeris Capital Gate Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of Emeris Capital Gate hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Condition Options: No official condition unless a hazard creates Hidden, Restrained, or Vulnerable",
+        "Search Loot: The gate is a vivid starting place and route threshold, not a missing-ward reveal."
+      ]
+    },
+    {
+      "title": "Profile",
+      "items": [
+        "Schema Version: location-profile-v1",
+        "Id: emeris-capital-gate",
+        "Entity Id: emeris-capital-gate",
+        "Source: Location_Description_Addon/EMERIS_CORRECTED.md",
+        "Auto Surface: True",
+        "Priority: strong",
+        "Player Safe: Emeris Capital Gate A great arch of pale carved stone three wagons wide, with toll-counters clacking beneath it and the green dark of Sablewood waiting beyond. A great arch of pale carved stone three wagons wide, with toll-counters clacking beneath it and the green dark of Sablewood waiting beyond. A great arch of pale carved stone rises three wagons wide, its keystone leafed in gold and its faces worn smooth by a century of carved caravans setting out. Beneath it runs a permanent little fair: toll-counters clacking, a crier calling the morning rates, a stall hawking painted gate-charms, and the smell of fried dough and hot sealing-wax. The Emeris Capital Gate is the city showing off the threshold of the wild. Pale carved stone rises three wagons wide, its keystone leafed in gold, its surfaces worn smooth by a century of carved caravans setting out. Carts queue in the cool of the...",
+        "Block1: Emeris Capital Gate This is Emeris's Sablewood-facing gate and a player-safe starting image. Keep it a working public threshold, not a failure reveal. A great arch of pale carved stone three wagons wide, with toll-counters clacking beneath it and the green dark of Sablewood waiting beyond. Gives the start of the road a vivid threshold before the forest becomes the table's main place. Caravans are leaving, guides are selling confidence, and the party has a job waiting beyond the arch. Gives the start of the road a vivid threshold before the forest becomes the table's main place. Caravans are leaving, guides are selling confidence, and the party has a job waiting beyond the arch. Landmark gate of Emeris, a territory capital within Goldspire. pages/entities/emeris-capital-gate.html",
+        "Block2: Pale carved stone arches over three wagon lanes. A permanent gate market clings to the wall where the city becomes road. The gate sells confidence, supplies, and paperwork before the forest gets a vote. Nothing is missing from the public face of the gate; the tension is the shift from city order to road risk. Detail Fried dough, hot sealing-wax, brass polish, carriage dust, and rain waiting in the forest air. Detail The arch is cool under the hand; the road stones grow damp and moss-flecked toward Sablewood. A great arch of pale carved stone rises three wagons wide, its keystone leafed in gold and its faces worn smooth by a century of carved caravans setting out. Beneath it runs a permanent little fair: toll-counters clacking, a crier calling the morning rates, a stall hawking painted gate-charms, and the smell of fried dough and hot sealing-wax. The Emeris Capital Gate is the city...",
+        "Block3: toll counters route-charms stall caravan queue crowned-lion stonework Presence to get a practical route answer from a gate clerk. Knowledge to read toll marks and route notices. Instinct to notice which guides are avoiding the western road. Local residents or workers appropriate to the place horse-goats stamping in harness paperfin swifts nesting in arch nooks market beetles under food carts guide dogs sleeping in shade No default combatant; add only if the scene introduces one Emeris Crown Holdings The Grail Food, tools, route signs, local goods, or scene-specific clues forest moss creeping along the outer stones painted flower boxes near charm stalls gate vines trimmed away from carved caravan faces toll counters route papers fried dough hot cider painted gate charms",
+        "Block4: The place changes even if the PCs stand still. Local people, creatures, weather, signage, and ward behavior all keep moving around the scene. Official confidence can make road risk feel smaller than it is. Buying one more charm can become a joke or a delay. Crowds make last-minute questions public. A cheerful notice updates the road fee while nobody mentions why. A charm seller offers a discount for travelers who look doomed. Let the place be funny through overconfident signage, awkward forms, stubborn local habits, and magic that refuses corporate language.",
+        "Block5: Emeris Goldspire Territories Sablewood™ Logistics Preserve Emeris Crown Holdings The Grail S00-01 S01-01 MAP-LOC-emeris-capital-gate",
+        "Block6: Keep the gate as place description: fair, tolls, carts, forest threshold, and city confidence turning into road risk. surface The gate is bright, busy, and safe. table clue Its business is departure: guides, tolls, route charms, caravan queues, and forest warnings. earned truth The wider ward-failure cliffhanger belongs later and outside the gate's player-facing description.",
+        "What Here: Local residents or workers appropriate to the place horse-goats stamping in harness paperfin swifts nesting in arch nooks market beetles under food carts guide dogs sleeping in shade No default combatant; add only if the scene introduces one Emeris Crown Holdings The Grail Food, tools, route signs, local goods, or scene-specific clues forest moss creeping along the outer stones painted flower boxes near charm stalls gate vines trimmed away from carved caravan faces toll counters route papers fried dough hot cider painted gate charms",
+        "Living Place: location-living-place-v1 Emeris landmark gate and forest threshold The Emeris Capital Gate is the city's bright western threshold: pale carved stone, toll-counters, fried dough, route charms, caravan queues, cool arch-shadow, and the forest waiting beyond the road. Arch shadow Carts queue in the cool under a gilded keystone and carved caravan faces. Use for the threshold image. Toll counters Counters clack while clerks call rates and stamp route papers. Use for job friction and comedy. Gate-charms stall Painted charms, hot cider, fried dough, and dramatic advice crowd the side of the arch. Use for food and traveler culture. Western road mouth The paved road runs straight from city stone into Sablewood's green dark. Use for the moment the journey begins. Wall steps A stair climbs above the gate for one last view of city roofs and forest canopy. Use for optional perspective or a private...",
+        "Districts Or Subareas: Arch shadow Carts queue in the cool under a gilded keystone and carved caravan faces. Use for the threshold image. Toll counters Counters clack while clerks call rates and stamp route papers. Use for job friction and comedy. Gate-charms stall Painted charms, hot cider, fried dough, and dramatic advice crowd the side of the arch. Use for food and traveler culture. Western road mouth The paved road runs straight from city stone into Sablewood's green dark. Use for the moment the journey begins. Wall steps A stair climbs above the gate for one last view of city roofs and forest canopy. Use for optional perspective or a private beat.",
+        "Sensory Signature: Detail Fried dough, hot sealing-wax, brass polish, carriage dust, and rain waiting in the forest air. Detail The arch is cool under the hand; the road stones grow damp and moss-flecked toward Sablewood.",
+        "Visual Assets: location-visual-assets-v1 emeris-capital-gate Emeris Capital Gate Bright comedic frontier high-fantasy concept art for a Daggerheart-adjacent tabletop RPG. Medieval/Renaissance fantasy technology only: hand tools, wagons, ropes, parchment notices, ward-stones, carved wood, brass, cloth, stone, moss, lanterns, and magic. The tone is colorful, playful, slightly absurd, and vivid, like a fantasy corporate frontier comedy rather than a grim drama. No sci-fi machinery, no 1800s/Victorian clothing, no modern suits, no guns, no logos, no readable text, no watermark, no border, no collage. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/emeris-capital-gate MAP-LOC-emeris-capital-gate Emeris city gate landmark landmark gate plaza and threshold map profile_scene Profile image ready /Users/kyle/Documents/My Games/Peril To...",
+        "Imagine It Like: Think the last cheerful toll plaza before a haunted national forest, crossed with a medieval festival gate. There are snacks, stamps, and lanterns under the arch, but every wheel that rolls through seems to get a little quieter."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 3bf1729a3b71d9c2 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

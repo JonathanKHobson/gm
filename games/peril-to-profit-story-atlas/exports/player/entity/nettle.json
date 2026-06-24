@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "nettle",
+  "kind": "entity",
+  "title": "Nettle",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "a frightened forest scout trying not to be seen",
+  "hook": "a frightened forest scout trying not to be seen",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "A young faun scout freezes with one hand raised, soft horns under a ragged hood, necklaces and leaf charms trembling against a patched vest."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "Soft-hearted and quick-footed, frozen between flight and trust. Rubs a seed-charm from home whenever a choice sounds like betrayal either way. Wants to keep their people alive without learning to hate everyone outside the trees."
+    },
+    {
+      "label": "Might Offer",
+      "body": "A way forward A grounded question A scene-specific clue seed"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "A way forward",
+    "A grounded question",
+    "A scene-specific clue seed"
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:nettle",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "f2151bcdfb3b4820",
+  "generated_at": "2026-06-23T21:40:58"
+}

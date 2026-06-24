@@ -1,0 +1,42 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "MAP-LOC-clover-co-op",
+  "title": "MAP-LOC-clover-co-op - Clover Co-op Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "198d6911e7390ab3",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "Inside the village, the Co-op is a warm public room of tea steam, shoe lines, gift shelves, chipped mugs, and people deciding whether these travelers are guests, trouble, or both."
+    },
+    {
+      "title": "Public objective",
+      "body": "Inside the village, the Co-op is a warm public room of tea steam, shoe lines, gift shelves, chipped mugs, and people deciding whether these travelers are guests, trouble, or both."
+    },
+    {
+      "title": "GM goal",
+      "body": "Run the Co-op as a social hub: shoe custom, regulars, games, tavern prompts, and trust-building."
+    },
+    {
+      "title": "GM script",
+      "body": "Say: \"This is the room where Hush decides whether the party belongs for tonight. Offer shoes, food, a game, and one regular by description before name.\""
+    },
+    {
+      "title": "State controls",
+      "items": [
+        "hush_trust Hush Trust select low neutral high",
+        "custodian_route Custodian Route select unknown safe dangerous",
+        "festival_participation Festival Participation checkbox",
+        "festival_boon Festival Boon select none charm favor market_find goodwill"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 198d6911e7390ab3 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

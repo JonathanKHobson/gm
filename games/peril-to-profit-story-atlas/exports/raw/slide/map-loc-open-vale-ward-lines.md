@@ -1,0 +1,59 @@
+# MAP-LOC-open-vale-ward-lines - Open Vale Ward Lines Location Map
+
+RAW export - slide:MAP-LOC-open-vale-ward-lines
+
+## Player text
+The path ahead begins to glow in thin lines through earth and bark, all converging toward the Open Vale.
+
+## Public objective
+The path ahead begins to glow in thin lines through earth and bark, all converging toward the Open Vale.
+
+## Raw source
+- Id: MAP-LOC-open-vale-ward-lines
+- Type: map
+- Maptype: environment
+- Sectionid: ACT-FOUR
+- Sectiontitle: Act Four: The Hanging Office
+- Title: Open Vale Ward Lines Location Map
+- Shorttitle: The Road to Open Vale
+- Order: 504.08
+- Playersafe: True
+- Completioneligible: False
+- Image: assets/maps/MAP-LOC-open-vale-ward-lines-gm.webp
+- Alt: Open Vale Ward Lines location map board.
+- Caption: Visual reference for Open Vale Ward Lines.
+- Mood: spatial reference and location texture
+- Gmgoal: Use this as the Act 4 to Act 5 forward edge, gated on commitment and ritual_prep.
+- Publicobjective: The path ahead begins to glow in thin lines through earth and bark, all converging toward the Open Vale.
+- Readaloud: The path ahead begins to glow in thin lines through earth and bark, all converging toward the Open Vale.
+- Gmscript: Say: "This is the forward edge. Once ritual_prep is set, this map points cleanly into Act 5."
+- Gmreadaloud: Ward lines glow through earth and bark. They converge toward the Open Vale. The deep preserve begins to stir.
+- Gmchecklist: Set ritual_prep. Set ward_stability. Move forward to S05-01 / ACT-FIVE. Do not create alternate Act 4 exits.
+- Gmprivate: ward_stability carries into the Act 5 countdown. Stable means kinder start; fragile means harsher pressure.
+- Playertakeaway: The path ahead begins to glow in thin lines through earth and bark, all converging toward the Open Vale.
+- Storytakeaway: The party is no longer delivering the package; they are walking toward the ritual that decides what the delivery means.
+- Mechanictakeaway: This map carries ritual_prep and ward_stability into Act 5.
+- Entityids: whitefire-custodian ward-moths sunfire-lily mist-things
+- Entities: whitefire-custodian Whitefire Custodian npc NPC / Ally assets/icons/npc.png assets/npc-images/whitefire-custodian/portrait_base.webp WHITE-fire kus-TOH-dee-un Old faerie-like custodian who maintains the ward protecting Hush. Truth-bearer for the Keystone reveal. Whitefire Custodian an old faerie-like ward keeper whose exhaustion glows around the edges Ancient kindness running on fumes, glowing a little brighter whenever someone tells the truth nearby. Wants to keep one place honestly safe long enough for people to remember that safety can be care instead of a product, and is quietly breaking under the cost of it. Renew the ward without being treated as a device. Please do not call me the ward interface. an old faerie-like ward keeper whose exhaustion glows around the edges npc-profile-v1 NPC_System_Packet + image-informed hardening Whitefire Custodian an old faerie-like ward keeper whose exhaustion glows around the edges A tall luminous faerie custodian stands like living bark and white fire, branchlike crown, translucent wings, and warm gold light gathered in the chest. Whitefire Custodian: an old faerie-like ward keeper whose exhaustion glows around the edges Whitefire...
+- Statecontrols: ritual_prep Ritual Prep select unready ready ward_stability Ward Stability select fragile stable custodian_trust Custodian Trust select low neutral high keystone_understanding Keystone Understanding select surface deep
+- Mechanicids: knowledge instinct short-rest hope fear
+- Fearspends: One groove lights red under a player hand. Dust forms the shape of an invoice seal. The Keystone answers before anyone asks.
+- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth context stay off the player display.
+- Linkedsceneids: S04-05 S05-01
+- Mapdata: MAP-LOC-open-vale-ward-lines environment Open Vale Ward Lines Location Map S04-05 whitefire-custodian ward-moths sunfire-lily mist-things assets/location-visuals/open-vale-ward-lines/profile_scene_v02.webp Visual reference for Open Vale Ward Lines. Open Vale Ward Lines location map board. The path ahead begins to glow in thin lines through earth and bark, all converging toward the Open Vale. The path ahead begins to glow in thin lines through earth and bark, all converging toward the Open Vale. Use this as the Act 4 to Act 5 forward edge, gated on commitment and ritual_prep. Thin lines run through stone, root, and soil toward the ritual center. Dust lifts from them when the Keystone is near. Some lines are bright where people gather; others are dim near neglected edges. Ward-light ticks in grooves, wind thins near the center, and voices come back as if the clearing is measuring them. Ozone, old chalk, wet stone, and a faint sweetness like crushed clover under lightning. The grooves feel smooth in the center and sharp where the ward has cracked. Animals keep to the edge. The place feels operational and old, not abandoned. Thin lines run through stone, root, and soil toward the...
+- Sourcefiles: dist/Act4_Upgrade_Packet/ACT4_MAPS_AND_LOCATIONS.md
+- References: Toward Open Vale #S04-05 Act Five #ACT-FIVE
+- Livetools: scene MAP-LOC-open-vale-ward-lines
+- Percharacterlayer: khari-nix Khari Nix The commitment A guardian can anchor the party's yes. Can be the one who says they will help. Khari, if anyone is going to say 'we will help,' it is you. Want to be the one who commits the party? marlowe-fairwind Marlowe Fairwind Ritual prep Best placed to learn the ritual shape from the Custodian. Knowledge 13 Learns the ritual structure and helps set ritual_prep=ready. Can translate arcane prep into table roles. Marlowe, she will teach you the ritual's shape if you ask. Want to learn it and prep the party? garrick-reed Garrick Reed Defense plan Naturally plans who guards whom when danger arrives. Can establish Act 5 positioning and watches. Garrick, you can plan how to defend her mid-ritual. Want to set the watch order now? varian-soto Varian Soto Scout the draw Can sense what the rising magic might attract from the deep preserve. Instinct 13 Foreshadows Act 5 danger and helps prepare routes. Can scout the approach in fiction before the party moves. Varian, you can read what the deep preserve will send when the magic rises. Want to scout ahead in your mind? barnacle Barnacle Cash in favors Knows how to turn festival_boon or Hush goodwill into actual prep...
+- Gmbeats: MAP-LOC-open-vale-ward-lines-bridge Bridge Act 5 bridge Say: "Set ritual_prep and ward_stability, then move to Act 5." Ward lines converge toward the Open Vale. Act 4 consequence becomes Act 5 pressure. State carries the transition. Players know the finale path is open. Player takeaway Players know the finale path is open. "Set ritual_prep and ward_stability, then move to Act 5." "The playable fact is: Ward lines converge toward the Open Vale." Concrete actions for this beat: look closely, ask the Custodian a direct question, commit to a choice, or take one prep action. knowledge short-rest Story takeaway Act 4 consequence becomes Act 5 pressure. "Set ritual_prep and ward_stability, then move to Act 5." "The story fact in play is: Act 4 consequence becomes Act 5 pressure." This beat changes Act 4 through this exact pressure: Act 4 consequence becomes Act 5 pressure. knowledge short-rest Mechanic takeaway State carries the transition. "Set ritual_prep and ward_stability, then move to Act 5." "The active procedure is: State carries the transition." Run intent first. Use Presence for trust, Knowledge for ward or stone truths, Instinct for preserve danger, and Agility or Finesse for...
+- Takeawayhelp: Player takeaway This is the Act 5 forward edge. "The road to the Open Vale opens. From here, the ritual starts." "Set prep now. Once you step forward, the finale pressure begins." Do not create other Act 4 exits. knowledge instinct short-rest Story takeaway The delivery has become ritual duty. "You are no longer walking toward a handoff. You are walking toward the ward renewal." "The glowing lines converge because the ritual site is close." Keep the answer concrete and player-safe. knowledge instinct short-rest Mechanic takeaway ritual_prep and ward_stability carry forward. "Ready prep and stable ward lines make Act 5 kinder. Rushing makes it harsher." "Knowledge 13 reads stability; Instinct 13 reads what the magic will draw." This is the bridge from Act 4 choice to Act 5 countdown. knowledge instinct short-rest
+- Playerbeats: assets/maps/MAP-LOC-open-vale-ward-lines.png The Road to Open Vale map board. MAP-LOC-open-vale-ward-lines environment The Road to Open Vale S04-05 assets/maps/MAP-LOC-open-vale-ward-lines.png assets/maps/MAP-LOC-open-vale-ward-lines.png The Road to Open Vale map board. The path ahead begins to glow in thin lines through earth and bark, all converging toward the Open Vale. The path ahead begins to glow in thin lines through earth and bark, all converging toward the Open Vale. MAP-LOC-open-vale-ward-lines-map-only Map only The Road to Open Vale map-only assets/maps/MAP-LOC-open-vale-ward-lines.png The Road to Open Vale map board. MAP-LOC-open-vale-ward-lines environment The Road to Open Vale S04-05 assets/maps/MAP-LOC-open-vale-ward-lines.png assets/maps/MAP-LOC-open-vale-ward-lines.png The Road to Open Vale map board. The path ahead begins to glow in thin lines through earth and bark, all converging toward the Open Vale. The path ahead begins to glow in thin lines through earth and bark, all converging toward the Open Vale. MAP-LOC-open-vale-ward-lines-map-text Map + text The Road to Open Vale The path ahead begins to glow in thin lines through earth and bark, all converging...
+- Beatautoplayeligible: True
+- Beatautoplaydefault: False
+- Beatautoplayintervalms: 10000
+- Playersafeprojection: MAP-LOC-open-vale-ward-lines map The Road to Open Vale assets/maps/MAP-LOC-open-vale-ward-lines.png The Road to Open Vale map board. spatial reference and location texture The path ahead begins to glow in thin lines through earth and bark, all converging toward the Open Vale. The path ahead begins to glow in thin lines through earth and bark, all converging toward the Open Vale. MAP-LOC-open-vale-ward-lines environment The Road to Open Vale S04-05 assets/maps/MAP-LOC-open-vale-ward-lines.png assets/maps/MAP-LOC-open-vale-ward-lines.png The Road to Open Vale map board. The path ahead begins to glow in thin lines through earth and bark, all converging toward the Open Vale. The path ahead begins to glow in thin lines through earth and bark, all converging toward the Open Vale. assets/maps/MAP-LOC-open-vale-ward-lines.png The Road to Open Vale map board. MAP-LOC-open-vale-ward-lines environment The Road to Open Vale S04-05 assets/maps/MAP-LOC-open-vale-ward-lines.png assets/maps/MAP-LOC-open-vale-ward-lines.png The Road to Open Vale map board. The path ahead begins to glow in thin lines through earth and bark, all converging toward the Open Vale. The path ahead begins to glow in thin...
+- Slidenumber: 59
+- Totalslides: 110
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash e59203866d70db7c | Source hash dac3370046ed077140fab2d6

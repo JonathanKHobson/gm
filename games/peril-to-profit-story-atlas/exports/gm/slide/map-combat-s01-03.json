@@ -1,0 +1,46 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "MAP-COMBAT-S01-03",
+  "title": "MAP-COMBAT-S01-03 - Creature Mercy / Defensive Escalation Battlefield",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "37ae047f3c4439bf",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The road tightens around the wreck. The creature plants herself between you and the young, wings half-open, claws in the mud. The cart, the ditch, and the low branches turn the bend into a narrow standoff."
+    },
+    {
+      "title": "Public objective",
+      "body": "The road tightens around the wreck. The creature plants herself between you and the young, wings half-open, claws in the mud. The cart, the ditch, and the low branches turn the bend into a narrow standoff."
+    },
+    {
+      "title": "GM goal",
+      "body": "Use this only if the encounter turns physical. Make the combat board a recoverable failure state where restraint can still win."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "The creature defends and flees. She does not fight to the death unless the table hard-commits to killing a fleeing mother.",
+        "Winning does not mean killing her. Winning means road cleared and no one made the world worse."
+      ]
+    },
+    {
+      "title": "GM script",
+      "body": "Say: \"This is not a monster hunt. This is a defensive standoff. Every turn, you can escalate by threatening her or the young, or de-escalate by creating space, lowering weapons, opening the pups' escape route, or calming her.\""
+    },
+    {
+      "title": "State controls",
+      "items": [
+        "strixwolfDisposition Creature disposition select calm wary defensive fleeing Move one step toward calm for restraint, one step toward defensive for threats."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 37ae047f3c4439bf | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

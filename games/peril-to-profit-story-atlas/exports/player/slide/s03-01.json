@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S03-01",
+  "kind": "slide",
+  "title": "S03-01 - Arrival at Hush",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act Three: Seeking a Custodian",
+  "hook": "A tall stone pillar rises beside the road, carved top to bottom with old protective marks and newer brass stamps. As the carriage passes it, you feel a small sensation like a bubble popping. The forest hush gives way...",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "A tall stone pillar rises beside the road, carved top to bottom with old protective marks and newer brass stamps. As the carriage passes it, you feel a small sensation like a bubble popping. The forest hush gives way to friendly chatter, tavern music, and..."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Enter the village, get your bearings, and find the person who keeps this place safe."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:S03-01",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "5c07af894e53d086",
+  "generated_at": "2026-06-23T21:40:58"
+}

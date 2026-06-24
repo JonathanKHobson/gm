@@ -1,0 +1,51 @@
+# SZ-00-STANDBY - Standby Welcome Poster
+
+RAW export - slide:SZ-00-STANDBY
+
+## Player text
+Welcome to Peril to Profit: The Goldspire Messengers.
+
+## Public objective
+Welcome to Peril to Profit: The Goldspire Messengers.
+
+## Raw source
+- Id: SZ-00-STANDBY
+- Type: session-zero
+- Sectionid: SESSION-ZERO
+- Sectiontitle: Session Zero
+- Title: Standby Welcome Poster
+- Shorttitle: Standby Welcome Poster
+- Playertitle: Welcome
+- Order: 1
+- Playersafe: True
+- Completioneligible: False
+- Image: assets/session-zero/SZ-00-standby-welcome.webp
+- Alt: Welcome poster for Peril to Profit: The Goldspire Messengers with a sealed delivery crate and warm fantasy route map.
+- Caption: Welcome players as they enter the room before live facilitation starts.
+- Mood: calibration, invitation, consent
+- Gmgoal: Welcome players as they enter the room before live facilitation starts.
+- Publicobjective: Welcome to Peril to Profit: The Goldspire Messengers.
+- Readaloud: Welcome to Peril to Profit: The Goldspire Messengers.
+- Displaymode: standby-carousel
+- Gmnotes: Script: Keep this poster on the player display while people enter, choose seats, and settle in. Welcome players casually, confirm names, and do not start the content until everyone is ready. This is the room-entry slide, not the first teaching slide. Optional future audio: quiet instrumental standby music, disabled by default. Checklist: Character sheets placed or ready; Quick rules cards available; Connection sheets available; Safety cards/tools visible; Pencils and dice ready; Player display synced; Optional music off or ready
+- Gmscript: Keep this poster on the player display while people enter, choose seats, and settle in. Welcome players casually, confirm names, and do not start the content until everyone is ready.
+- Gmreadaloud: [Before players arrive] Keep this welcome screen on the TV. As people walk in, say: 'Welcome to Peril to Profit. Grab a seat, settle in, and make sure you have a character sheet and pencil. We will start once everyone is here.' When the table is ready, say: 'Great. I am going to bring us into Session Zero now.'
+- Gmchecklist: Character sheets placed or ready Quick rules cards available Connection sheets available Safety cards/tools visible Pencils and dice ready Player display synced Optional music off or ready
+- Playertakeaway: Players know they are in the right place and can scan the room-entry basics without needing GM attention.
+- Storytakeaway: Goldspire Messengers begins as a sealed delivery through a dangerous managed forest.
+- Mechanictakeaway: Room setup and player-display readiness teach the table where shared focus lives before play begins.
+- Takeawayhelp: Players can settle in without GM attention Players know they are in the right place and can scan room-entry basics. The standby carousel should answer the early-room questions: what game this is, who Kyle is, what the night roughly covers, and where the FAQ lives. It is not a rules lesson yet. "Welcome to Peril to Profit: Goldspire Messengers. Grab a seat, settle in, and make sure you have a character sheet and pencil. We will start once everyone is here." If someone asks what to do now: "Nothing complicated yet. Pick a seat, glance at the welcome screen, and tell me if you need a sheet, pencil, water, or a better view." The standby carousel should answer the early-room questions: what game this is, who Kyle is, what the night roughly covers, and where the FAQ lives. It is not a rules lesson yet. safety-tools table-spotlight The one-shot begins as a sealed delivery Goldspire Messengers starts as a paid delivery through a dangerous managed forest. Player-safe hook: the package matters, the forest is old, and the job will get stranger. Do not introduce the hidden contents or late-act reveal from the standby screen. "Tonight starts with a simple job: take a sealed package through a...
+- Mechanicids: safety-tools table-spotlight
+- Handoutids: session-zero-worksheet
+- Sourcefiles: SESSION_ZERO_RUNBOOK.md handouts/Player_Welcome_Table_Expectations.md
+- Livetools: none
+- Playerbeats: SZ-00-STANDBY-poster Poster Welcome assets/session-zero/SZ-00-standby-welcome.webp Welcome poster for Peril to Profit: The Goldspire Messengers. standby-poster SZ-00-STANDBY-hook Story hook Tonight's job assets/session-zero/SZ-00-standby-welcome.webp Welcome poster for Peril to Profit: The Goldspire Messengers with a sealed delivery crate and warm fantasy route map. A sealed delivery. A living forest. A job too expensive to be simple. A sealed delivery. A living forest. A job too expensive to be simple. You are hired contractors or trusted associates. The destination is the village of Hush. The route crosses Sablewood, a vast fantasy forest managed like a logistics preserve. The sealed delivery is a package nobody is supposed to open yet. The contract is signed before the truth is clear. text-first SZ-00-STANDBY-outline Outline How tonight flows assets/session-zero/SZ-00-standby-welcome.webp Welcome poster for Peril to Profit: The Goldspire Messengers with a sealed delivery crate and warm fantasy route map. We will start with safety, rules, characters, and connections, then move into the delivery job. We will start with safety, rules, characters, and connections, then move into the...
+- Beatautoplayeligible: True
+- Beatautoplaydefault: True
+- Beatautoplayintervalms: 9000
+- Playersafeprojection: SZ-00-STANDBY session-zero Standby Welcome Poster assets/session-zero/SZ-00-standby-welcome.webp Welcome poster for Peril to Profit: The Goldspire Messengers with a sealed delivery crate and warm fantasy route map. Welcome players as they enter the room before live facilitation starts. calibration, invitation, consent Welcome to Peril to Profit: The Goldspire Messengers. Welcome to Peril to Profit: The Goldspire Messengers. standby-carousel SZ-00-STANDBY-poster Poster Welcome assets/session-zero/SZ-00-standby-welcome.webp Welcome poster for Peril to Profit: The Goldspire Messengers. standby-poster SZ-00-STANDBY-hook Story hook Tonight's job assets/session-zero/SZ-00-standby-welcome.webp Welcome poster for Peril to Profit: The Goldspire Messengers with a sealed delivery crate and warm fantasy route map. A sealed delivery. A living forest. A job too expensive to be simple. A sealed delivery. A living forest. A job too expensive to be simple. You are hired contractors or trusted associates. The destination is the village of Hush. The route crosses Sablewood, a vast fantasy forest managed like a logistics preserve. The sealed delivery is a package nobody is supposed to open yet. The...
+- Slidenumber: 1
+- Totalslides: 110
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 26d671425c0624d8 | Source hash dac3370046ed077140fab2d6

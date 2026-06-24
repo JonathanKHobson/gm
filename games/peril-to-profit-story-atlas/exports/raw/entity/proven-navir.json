@@ -1,0 +1,72 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "proven-navir",
+  "title": "Proven Navir",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "976fa9ff42fb6ea6",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Proven Navir: A quiet, focused Fungril retriever with goggles and an oversized bag, trying to open an untolled trade route across the river."
+    },
+    {
+      "title": "Public role",
+      "body": "Bramble Union stone retriever seeking a toll-free route"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: A quiet, focused Fungril retriever with goggles and an oversized bag, trying to open an untolled trade route across the river."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: npc",
+        "Role: Bramble Union stone retriever seeking a toll-free route",
+        "Summary: A quiet, focused Fungril retriever with goggles and an oversized bag, trying to open an untolled trade route across the river.",
+        "Tags: sablewood-lore npc bramble source-page-6 npc-profile",
+        "Aliases: Proven Navir Proven Navir of the Sixspire Tangle",
+        "Connections: Bramble Union Bramble Stone Tumblers The Lucent River Ninespire Tangle",
+        "Inventory: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry.",
+        "Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.",
+        "Stat: Difficulty 12. Experiences: Navigation +2, Engineering +1.",
+        "Image Fallback: type-icon",
+        "Source Pages: Sablewood PDF p. 6",
+        "Name: Proven Navir",
+        "Id: proven-navir",
+        "Meta: NPC / Ally NPC assets/icons/npc.png entity-npc #f0aa45 03 NPCs entities npc",
+        "Related: Bramble Stone Tumblers Bramble Union Ninespire Tangle The Lucent River",
+        "Image Prompt: Private table TTRPG story atlas asset for Proven Navir, NPC / Ally. Role: Bramble Union stone retriever seeking a toll-free route. Summary: A quiet, focused Fungril retriever with goggles and an oversized bag, trying to open an untolled trade route across the river.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Personality: Focused to the point of nearly disappearing into the work, diving under toll-chains for the older stones beneath them. Wants one untolled route to stay nameless, because the moment it has a name it has a price.",
+        "Wants: Get one untolled route fact into safe hands.",
+        "Fears: A safe crossing becoming a product by sunrise.",
+        "Secrets: Proven has mapped more route changes than they admit to strangers.",
+        "Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.",
+        "Sample Dialogue: The crossing is safe before noon. After that, the current lies. I will tell you about the water. Not about who uses it. Name a river and someone sells it. So I do not name them.",
+        "Equipment: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry.",
+        "Search Or Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.",
+        "Gm Use: Use this person to put a human face on the current pressure. Give them one concrete want before exposition.",
+        "Future Hooks: Bring back as an echo if players made a strong choice involving this entity.",
+        "Stat Summary: Difficulty 12. Experiences: Navigation +2, Engineering +1.",
+        "Robust: Proven Navir: A quiet, focused Fungril retriever with goggles and an oversized bag, trying to open an untolled trade route across the river. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Get a concrete outcome tied to Bramble Union, Bramble Stone Tumblers, The Lucent River, while keeping personal agency instead of becoming a delivery mechanism for lore. Being ignored at the moment their local knowledge matters, or having Bramble Union, Bramble Stone Tumblers, The Lucent River used without care. Use this person to put a human face on the current pressure. Give them one concrete want before exposition. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Proven Navir and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object...",
+        "Mechanics: Social / Information Mechanics Players can interact, comfort, persuade, or earn trust Proven Navir when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A quiet, focused Fungril retriever with goggles and an oversized bag, trying to open an untolled trade route across the river. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-proven-navir-engage-proven-navir entity-proven-navir Engage Proven Navir Engage Proven Navir Presence Knowledge Instinct Presence Knowledge, Instinct 12 Choose the trait from the player's method, not the entity type. A flat read of Proven Navir hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a...",
+        "Pronunciation: PROH-ven nah-VEER",
+        "Short Pronunciation: PROH-ven nah-VEER",
+        "Npc Profile: npc-profile-v1 NPC_System_Packet + image-informed hardening Proven Navir A quiet, focused Fungril retriever with goggles and an oversized bag, trying to open an untolled trade route across the river. A small Fungril retriever wears river goggles, a mushroom-cap hood, and an overloaded bag of stones, tokens, and water-bright samples. Proven Navir: A quiet, focused Fungril retriever with goggles and an oversized bag, trying to open an untolled trade route across the river. Proven Navir PROH-ven nah-VEER A quiet, focused Fungril retriever with goggles and an oversized bag, trying to open an untolled trade route across the river. Bramble Union stone retriever seeking a toll-free route Use as a role-first conversation handle, clue source, or pressure valve. Proven Navir gives the table a visible person attached to Bramble Union, Bramble Stone Tumblers, The Lucent River. Start with sensory detail, then let questions earn the name and motive. A question to ask A local perspective A grounded reason this place matters A quiet, focused Fungril retriever with goggles and an oversized bag, trying to open an untolled trade route across the river.; at the table, give Proven Navir one visible...",
+        "One Line: A quiet, focused Fungril retriever with goggles and an oversized bag, trying to open an untolled trade route across the river.",
+        "Player Display Title: Proven Navir",
+        "Player Display Caption: A quiet, focused Fungril retriever with goggles and an oversized bag, trying to open an untolled trade route across the river.",
+        "Image: assets/npc-images/proven-navir/portrait_base.webp",
+        "Image Asset Status: npc_images",
+        "Visual Gallery: primary Primary wiki image primary assets/npc-images/proven-navir/portrait_base.webp Proven Navir primary wiki image visual. Proven Navir: Primary wiki image. npc_images True True npc-fullbody_base Full-body npc-portrait assets/npc-images/proven-navir/fullbody_base.webp Proven Navir full-body visual. Proven Navir: Full-body. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/proven-navir/fullbody_base.png npc-fullbody_chroma Full-body chroma source npc-portrait assets/npc-images/proven-navir/fullbody_chroma.webp Proven Navir full-body chroma source visual. Proven Navir: Full-body chroma source. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/proven-navir/fullbody_chroma.png npc-fullbody_transparent Full-body transparent cutout npc-portrait assets/npc-images/proven-navir/fullbody_transparent.webp Proven Navir full-body transparent cutout visual. Proven Navir: Full-body transparent cutout. npc_images True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/npc_images/proven-navir/fullbody_transparent.png npc-portrait_chroma Portrait chroma source npc-portrait..."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 976fa9ff42fb6ea6 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "MAP-LOC-the-high-falls",
+  "kind": "slide",
+  "title": "MAP-LOC-the-high-falls - The High Falls Location Map",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Map Board",
+  "hook": "The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains."
+    },
+    {
+      "label": "Public Objective",
+      "body": "The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:MAP-LOC-the-high-falls",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "770457ab629cfefd",
+  "generated_at": "2026-06-23T21:40:58"
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "custodian-tea-cup",
+  "kind": "entity",
+  "title": "Custodian Tea Cup",
+  "in_world_label": "Provisioning Product Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Item / Asset",
+  "hook": "Player-safe note: A tea ring on a denial letter that makes the Custodian's exhaustion visible before exposition.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Custodian Tea Cup: A tea ring on a denial letter that makes the Custodian's exhaustion visible before exposition."
+    },
+    {
+      "label": "Player Read",
+      "body": "Player-safe note: A tea ring on a denial letter that makes the Custodian's exhaustion visible before exposition."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Inspect the label, maker, or fine print.",
+    "Use it only when the fiction says you can reach it."
+  ],
+  "archetype": "item.product_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:custodian-tea-cup",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "04f3f041042f3d18",
+  "generated_at": "2026-06-23T21:40:58"
+}

@@ -1,0 +1,202 @@
+{
+  "S00-01": [
+    "character-creation",
+    "connection-questions",
+    "heritage",
+    "ancestry",
+    "community",
+    "traits",
+    "experiences",
+    "roleplay",
+    "hope",
+    "fear"
+  ],
+  "S01-01": [
+    "roleplay",
+    "table-spotlight",
+    "instinct",
+    "knowledge",
+    "disposition-track"
+  ],
+  "S01-02": [
+    "action-roll",
+    "five-outcomes",
+    "instinct",
+    "knowledge",
+    "finesse",
+    "experiences",
+    "roll-slider"
+  ],
+  "S01-03": [
+    "action-roll",
+    "duality-dice",
+    "five-outcomes",
+    "roll-slider",
+    "presence",
+    "instinct",
+    "restrained",
+    "vulnerable",
+    "stress"
+  ],
+  "S01-04": [
+    "action-roll",
+    "duality-dice",
+    "five-outcomes",
+    "hope",
+    "fear",
+    "critical-success",
+    "hope-fear-moments"
+  ],
+  "S02-01": [
+    "action-roll",
+    "strength",
+    "finesse",
+    "gm-moves"
+  ],
+  "S02-02": [
+    "action-roll",
+    "instinct",
+    "finesse",
+    "hidden",
+    "restrained",
+    "adversary-spotlight"
+  ],
+  "S02-03": [
+    "adversary-spotlight",
+    "adversary-attacks",
+    "damage-rolls",
+    "evasion",
+    "damage-thresholds",
+    "armor-slots",
+    "fear",
+    "restrained",
+    "disposition-track"
+  ],
+  "S02-04": [
+    "action-roll",
+    "presence",
+    "knowledge",
+    "short-rest",
+    "stress",
+    "disposition-track"
+  ],
+  "S03-01": [
+    "presence",
+    "knowledge",
+    "experiences",
+    "help-an-ally",
+    "npc-community-trust-track"
+  ],
+  "S03-02": [
+    "action-roll",
+    "instinct",
+    "knowledge",
+    "dnd-to-daggerheart"
+  ],
+  "S03-03": [
+    "presence",
+    "knowledge",
+    "hope",
+    "experiences",
+    "npc-community-trust-track"
+  ],
+  "S03-04": [
+    "action-roll",
+    "presence",
+    "finesse",
+    "help-an-ally",
+    "npc-community-trust-track"
+  ],
+  "S04-01": [
+    "action-roll",
+    "instinct",
+    "knowledge",
+    "difficulty"
+  ],
+  "S04-02": [
+    "agility",
+    "strength",
+    "restrained",
+    "reaction-rolls"
+  ],
+  "S04-03": [
+    "presence",
+    "knowledge",
+    "experiences",
+    "npc-community-trust-track"
+  ],
+  "S04-04": [
+    "knowledge",
+    "instinct",
+    "critical-success"
+  ],
+  "S04-05": [
+    "strength",
+    "agility",
+    "vulnerable",
+    "armor-slots"
+  ],
+  "S05-01": [
+    "countdown",
+    "short-rest",
+    "adversary-spotlight",
+    "fear"
+  ],
+  "S05-02": [
+    "short-rest",
+    "stress",
+    "armor-slots",
+    "hope"
+  ],
+  "S05-03": [
+    "countdown",
+    "adversary-spotlight",
+    "adversary-attacks",
+    "damage-rolls",
+    "evasion",
+    "damage-thresholds",
+    "vulnerable"
+  ],
+  "S05-04": [
+    "adversary-attacks",
+    "armor-slots",
+    "damage-thresholds",
+    "restrained",
+    "vulnerable",
+    "damage-rolls"
+  ],
+  "S05-05": [
+    "stress",
+    "vulnerable",
+    "reaction-rolls",
+    "presence",
+    "knowledge"
+  ],
+  "S05-06": [
+    "countdown",
+    "fear",
+    "gm-moves",
+    "damage-thresholds"
+  ],
+  "S05-07": [
+    "countdown",
+    "hope",
+    "critical-success"
+  ],
+  "S06-01": [
+    "level-up",
+    "report-choice",
+    "roleplay",
+    "table-spotlight",
+    "presence",
+    "knowledge"
+  ],
+  "S06-02": [
+    "report-choice",
+    "roleplay",
+    "table-spotlight",
+    "instinct",
+    "knowledge",
+    "presence"
+  ]
+}

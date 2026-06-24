@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "young-dryads",
+  "kind": "entity",
+  "title": "Young Dryads",
+  "in_world_label": "Field Guide Page",
+  "brand_flag": "Player-safe",
+  "kicker": "Creature / Animal",
+  "hook": "Player-safe note: Small sapling spirits with bark-textured limbs, leaf hair, green-gold eyes, and shy defensive postures rooted around stones like children guarding a boundary.",
+  "blocks": [
+    {
+      "label": "Observed Form",
+      "body": "Childlike sapling spirits with bark limbs, leaf hair, glowing green-gold eyes, shy defensive posture, roots around stones, spring leaves, and moss."
+    },
+    {
+      "label": "Behavior",
+      "body": "Children of the wood with bark for skin, shy until a kindness is broken. They guard the stones like a held breath, and they only turn fierce when a guest takes the welcome they were given and spits on it."
+    },
+    {
+      "label": "Warning Signs",
+      "body": "Axes and fire, the Hunting Trees that were once kin gone wrong, and guests who smile and then steal."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Give it distance before deciding it is hostile.",
+    "Read posture, tracks, and what it is protecting."
+  ],
+  "archetype": "creature.field_guide",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:young-dryads",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "c6f2bd3364c8bf0a",
+  "generated_at": "2026-06-23T21:40:58"
+}

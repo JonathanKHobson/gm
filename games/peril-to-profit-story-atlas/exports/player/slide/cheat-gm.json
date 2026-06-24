@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "CHEAT-GM",
+  "kind": "slide",
+  "title": "CHEAT-GM - GM Rules Reference",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Cheat Sheets",
+  "hook": "CHEAT-GM - GM Rules Reference",
+  "blocks": [
+    {
+      "label": "At The Table",
+      "body": "CHEAT-GM - GM Rules Reference"
+    },
+    {
+      "label": "What This Is",
+      "body": "Run Mode Slide Briefing"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:CHEAT-GM",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "daafdd9eeb90b156",
+  "generated_at": "2026-06-23T21:40:58"
+}

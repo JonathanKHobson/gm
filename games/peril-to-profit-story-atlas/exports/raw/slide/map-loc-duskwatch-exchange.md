@@ -1,0 +1,49 @@
+# MAP-LOC-duskwatch-exchange - Duskwatch Exchange Location Map
+
+RAW export - slide:MAP-LOC-duskwatch-exchange
+
+## Player text
+Duskwatch Exchange is where route knowledge changes hands quietly, because the forest charges more for ignorance.
+
+## Public objective
+Duskwatch Exchange is where route knowledge changes hands quietly, because the forest charges more for ignorance.
+
+## Raw source
+- Id: MAP-LOC-duskwatch-exchange
+- Type: map
+- Maptype: environment
+- Sectionid: STORY
+- Sectiontitle: Map Board
+- Title: Duskwatch Exchange Location Map
+- Shorttitle: Duskwatch Exchange
+- Order: 850.7
+- Playersafe: True
+- Completioneligible: False
+- Image: assets/maps/MAP-LOC-duskwatch-exchange-gm.webp
+- Alt: Duskwatch Exchange location map board.
+- Caption: Visual reference for Duskwatch Exchange.
+- Mood: spatial reference and location texture
+- Gmgoal: Make information feel tactile and local.
+- Publicobjective: Duskwatch Exchange is where route knowledge changes hands quietly, because the forest charges more for ignorance.
+- Readaloud: Duskwatch Exchange is where route knowledge changes hands quietly, because the forest charges more for ignorance.
+- Playertakeaway: Duskwatch Exchange is where route knowledge changes hands quietly, because the forest charges more for ignorance.
+- Storytakeaway: The Exchange turns knowledge into survival and commerce.
+- Mechanictakeaway: Use for route-choice stakes, not shopping sprawl.
+- Entityids: duskwatch-exchange
+- Entities: duskwatch-exchange Duskwatch Exchange location Location assets/icons/location.png assets/location-visuals/duskwatch-exchange/profile_scene_v02.webp Duskwatch eks-CHAYNJ A Sablewood trade point where route knowledge, watches, and liability-backed bargains change hands above or beside the old wood. Make information feel tactile and local. A Sablewood trade point where route knowledge, watches, and liability-backed bargains change hands above or beside the old wood.; introduce it with a sensory palette, who feels safe there, and what has been neglected. Pull player attention toward the choices, clues, and relationships tied to The Titan's Steps, The Sable Sinecure, Hazard-Indexed Pricing. A Sablewood trade point where route knowledge, watches, and liability-backed bargains change hands above or beside the old wood.
+- Locationids: duskwatch-exchange
+- Fearspends: A route token is pulled from sale mid-conversation. A watch caller names a danger nobody wrote down.
+- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth context stay off the player display.
+- Mapdata: MAP-LOC-duskwatch-exchange environment Duskwatch Exchange Location Map duskwatch-exchange assets/location-visuals/duskwatch-exchange/profile_scene_v02.webp Visual reference for Duskwatch Exchange. Duskwatch Exchange location map board. Duskwatch Exchange is where route knowledge changes hands quietly, because the forest charges more for ignorance. Duskwatch Exchange is where route knowledge changes hands quietly, because the forest charges more for ignorance. Make information feel tactile and local. Covered stalls, watch posts, coded knots, and weather-dark awnings cluster near a safer crossing. People look at boots and packs before faces. Prices shift when route bells sound. Leaf-drip, insects, distant wingbeats, and animal calls that stop or resume according to pressure, not comfort. Lantern oil, damp wool, smoked roots, and ink sealed against rain. Counters are rough plank under waxed cloth; knot-cords feel stiff from repeated handling. The forest is populated even when no NPC is present; silence, birds, insects, and tracks are actionable signals. Covered stalls, watch posts, coded knots, and weather-dark awnings cluster near a safer crossing. People look at boots and packs...
+- Livetools: scene MAP-LOC-duskwatch-exchange
+- Takeawayhelp: Player takeaway: MAP-LOC-duskwatch-exchange Duskwatch Exchange is where route knowledge changes hands quietly, because the forest charges more for ignorance. Give the player one concrete way back into play: a question, a description, a choice, or a pass-and-return moment. "Your takeaway right now is this: Duskwatch Exchange is where route knowledge changes hands quietly, because the forest charges more for ignorance." "If you are not sure what to do next, you can ask a question, describe what your character notices, or tell me what your character tries." "If you are not sure what to do next, you can ask a question, describe what your character notices, or tell me what your character tries." Give the player one concrete way back into play: a question, a description, a choice, or a pass-and-return moment. Story takeaway: MAP-LOC-duskwatch-exchange The Exchange turns knowledge into survival and commerce. Anchor the answer in the visible fiction on this slide: who is present, what can be observed, what has already been said, and what remains uncertain. "Here is what your characters know right now: The Exchange turns knowledge into survival and commerce." "If you want more detail, ask...
+- Playerbeats: assets/maps/MAP-LOC-duskwatch-exchange-player.webp Duskwatch Exchange location map board. MAP-LOC-duskwatch-exchange environment Duskwatch Exchange assets/maps/MAP-LOC-duskwatch-exchange-player.webp assets/maps/MAP-LOC-duskwatch-exchange-player.webp Visual reference for Duskwatch Exchange. Duskwatch Exchange location map board. Duskwatch Exchange is where route knowledge changes hands quietly, because the forest charges more for ignorance. Duskwatch Exchange is where route knowledge changes hands quietly, because the forest charges more for ignorance. MAP-LOC-duskwatch-exchange-map-only Map only Duskwatch Exchange map-only assets/maps/MAP-LOC-duskwatch-exchange-player.webp Duskwatch Exchange location map board. MAP-LOC-duskwatch-exchange environment Duskwatch Exchange assets/maps/MAP-LOC-duskwatch-exchange-player.webp assets/maps/MAP-LOC-duskwatch-exchange-player.webp Visual reference for Duskwatch Exchange. Duskwatch Exchange location map board. Duskwatch Exchange is where route knowledge changes hands quietly, because the forest charges more for ignorance. Duskwatch Exchange is where route knowledge changes hands quietly, because the forest charges more for ignorance...
+- Beatautoplayeligible: True
+- Beatautoplaydefault: False
+- Beatautoplayintervalms: 10000
+- Playersafeprojection: MAP-LOC-duskwatch-exchange map Duskwatch Exchange assets/maps/MAP-LOC-duskwatch-exchange-player.webp Duskwatch Exchange location map board. Visual reference for Duskwatch Exchange. spatial reference and location texture Duskwatch Exchange is where route knowledge changes hands quietly, because the forest charges more for ignorance. Duskwatch Exchange is where route knowledge changes hands quietly, because the forest charges more for ignorance. MAP-LOC-duskwatch-exchange environment Duskwatch Exchange assets/maps/MAP-LOC-duskwatch-exchange-player.webp assets/maps/MAP-LOC-duskwatch-exchange-player.webp Visual reference for Duskwatch Exchange. Duskwatch Exchange location map board. Duskwatch Exchange is where route knowledge changes hands quietly, because the forest charges more for ignorance. Duskwatch Exchange is where route knowledge changes hands quietly, because the forest charges more for ignorance. assets/maps/MAP-LOC-duskwatch-exchange-player.webp Duskwatch Exchange location map board. MAP-LOC-duskwatch-exchange environment Duskwatch Exchange assets/maps/MAP-LOC-duskwatch-exchange-player.webp assets/maps/MAP-LOC-duskwatch-exchange-player.webp Visual reference for Duskwatch...
+- Slidenumber: 88
+- Totalslides: 110
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 6a3fcfabbda46ed5 | Source hash dac3370046ed077140fab2d6

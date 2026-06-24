@@ -1,0 +1,76 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "slide",
+  "id": "MAP-LOC-firstmoss-launch-festival",
+  "title": "MAP-LOC-firstmoss-launch-festival - Firstmoss Launch Festival Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "1ce2f720041c6d70",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The lane opens into a village festival: green lanterns, mossfruit cakes, damp banners, children under watchful eyes, and music doing its best to be louder than the ward's uneven hum."
+    },
+    {
+      "title": "Public objective",
+      "body": "The lane opens into a village festival: green lanterns, mossfruit cakes, damp banners, children under watchful eyes, and music doing its best to be louder than the ward's uneven hum."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: MAP-LOC-firstmoss-launch-festival",
+        "Type: map",
+        "Maptype: environment",
+        "Sectionid: ACT-THREE",
+        "Sectiontitle: Act Three: Seeking a Custodian",
+        "Title: Firstmoss Launch Festival Location Map",
+        "Shorttitle: Firstmoss Festival",
+        "Order: 401.24",
+        "Playersafe: True",
+        "Completioneligible: False",
+        "Image: assets/maps/MAP-LOC-firstmoss-launch-festival-gm.webp",
+        "Alt: Firstmoss Launch Festival location map board.",
+        "Caption: Visual reference for Firstmoss Launch Festival.",
+        "Mood: spatial reference and location texture",
+        "Gmgoal: Use the festival as optional joy with a concrete boon and a quiet farm/ward seed.",
+        "Publicobjective: The lane opens into a village festival: green lanterns, mossfruit cakes, damp banners, children under watchful eyes, and music doing its best to be louder than the ward's uneven hum.",
+        "Readaloud: The lane opens into a village festival: green lanterns, mossfruit cakes, damp banners, children under watchful eyes, and music doing its best to be louder than the ward's uneven hum.",
+        "Gmscript: Say: \"Festival participation is a real option, not filler. If the party joins sincerely, name the boon before moving on.\"",
+        "Gmreadaloud: Green lanterns and mossfruit cakes. Arm-wrestling, stone-painting, and trinket stalls. Music trying to be louder than the ward hum.",
+        "Gmchecklist: Offer contests. Grant festival_boon on participation or win. Seed farm/ward only if probed. Loop back to hub or forward to farms.",
+        "Gmprivate: The festival celebrates a managed crop. Keep the crop-management truth as seed, not reveal.",
+        "Playertakeaway: The lane opens into a village festival: green lanterns, mossfruit cakes, damp banners, children under watchful eyes, and music doing its best to be louder than the ward's uneven hum.",
+        "Storytakeaway: The festival shows what the ward protects: joy, food, children, work, and tomorrow.",
+        "Mechanictakeaway: Low-stakes contests can still create real state: festival_participation, festival_boon, and hush_trust.",
+        "Entityids: hush the-sunless-farms lausa-standworth festival-moths sunless-farm-moss ratcoons",
+        "Entities: hush Hush location Location assets/icons/location.png assets/location-visuals/hush/profile_scene_v02.webp hush, like quiet A real village under corporate designation, protected by ward pillars. Make Hush feel worth protecting before the finale asks the party to protect it. The Village A small forest village, named only once the players ask where the package is going. Warm local community with jokes, food, arguments, work songs, children, elders, and a very real need for the ward to hold. Another season of safety, crops, music, ordinary life, and visitors who learn the old name before the corporate one. A real village under corporate designation, protected by ward pillars. the-sunless-farms The Sunless Farms location Location assets/icons/location.png assets/location-visuals/the-sunless-farms/profile_scene_v02.webp the SUN-less farms A farming region shaped by canopy-darkness, local ingenuity, and crops that do not need corporate sunlight to grow. Make food production feel like protected culture. A farming region shaped by canopy-darkness, local ingenuity, and crops that do not need corporate sunlight to grow.; introduce it with a sensory palette, who feels safe there, and what has...",
+        "Locationids: hush the-sunless-farms",
+        "Statecontrols: festival_participation Festival Participation checkbox festival_boon Festival Boon select none charm favor market_find goodwill hush_trust Hush Trust select low neutral high ward_awareness Ward Awareness select none seed aware",
+        "Mechanicids: strength finesse presence hope instinct",
+        "Fearspends: The music drops out when a ward chime misses. A child asks whether the light will still work tomorrow. Someone starts clearing space in case the crate is dangerous.",
+        "Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth context stay off the player display.",
+        "Linkedsceneids: S03-01 S03-02 S03-03 S03-04",
+        "Mapdata: MAP-LOC-firstmoss-launch-festival environment Firstmoss Launch Festival Location Map S03-01 S03-02 S03-03 S03-04 hush the-sunless-farms lausa-standworth festival-moths sunless-farm-moss ratcoons assets/location-visuals/firstmoss-launch-festival/profile_scene_v02.webp Visual reference for Firstmoss Launch Festival. Firstmoss Launch Festival location map board. The lane opens into a village festival: green lanterns, mossfruit cakes, damp banners, children under watchful eyes, and music doing its best to be louder than the ward's uneven hum. The lane opens into a village festival: green lanterns, mossfruit cakes, damp banners, children under watchful eyes, and music doing its best to be louder than the ward's uneven hum. Use the festival as optional joy with a concrete boon and a quiet farm/ward seed. Green lanterns, damp banners, mossfruit baskets, children's game stones, and adults keeping lanes clear without calling it guarding. Work songs, clapping, small feet on mud, griddle hiss, and the sudden dip in music whenever the ward hum catches wrong. Sweet mossfruit, hot griddle cakes, trampled clover, rain on lantern paper, and smoke from cookfires kept low. Mud is springy under...",
+        "Sourcefiles: dist/Act3_Upgrade_Packet/ACT3_MAPS_AND_LOCATIONS.md",
+        "References: Festival scene #S03-04",
+        "Livetools: scene MAP-LOC-firstmoss-launch-festival",
+        "Percharacterlayer: khari-nix Khari Nix Arm-wrestling contest Can dominate the arm-wrestling competition and likely earn the festival_boon. Khari, there is an arm-wrestling contest with your name on it. Want to win the town's heart? varian-soto Varian Soto Sunless Farms scent Notices the moss-crops are grown under managed, sunless conditions rather than wild growth. Instinct 13 The farms are carefully managed infrastructure; seed the truth without naming the full system. Can point the party toward the farms as a clue source. Varian, those crops do not grow like wild things. Want to look closer? marlowe-fairwind Marlowe Fairwind Farm and ward signature Knowledge 13 The farm-magic and ward-work share a signature, as if the same system maintains both. Can connect festival joy to protection magic without revealing the full cost. Marlowe, the farm-magic and the ward feel like the same author. Want to trace the resemblance? garrick-reed Garrick Reed Organized volunteers Recognizes festival volunteers moving with company-style precision. Can identify who is coordinating the crowd if the party needs a contact. Garrick, this festival is organized company-style. Want to clock who is really running it?...",
+        "Gmbeats: MAP-LOC-firstmoss-launch-festival-contest Contest Pick a joy Say: \"Arm-wrestle, paint, shop, dance, or just watch kindly.\" The festival gives low-stakes contests and market play. Joy becomes stake. Contests can grant festival_boon. Players have concrete noncombat actions. Player takeaway Players have concrete noncombat actions. \"Arm-wrestle, paint, shop, dance, or just watch kindly.\" \"The playable fact is: The festival gives low-stakes contests and market play.\" Concrete actions for this beat: talk to a person present, inspect the named detail, help an ally, or choose whether to move toward the Custodian route. strength finesse presence Story takeaway Joy becomes stake. \"Arm-wrestle, paint, shop, dance, or just watch kindly.\" \"The story fact in play is: Joy becomes stake.\" This beat changes Act 3 through this exact pressure: Joy becomes stake. strength finesse presence Mechanic takeaway Contests can grant festival_boon. \"Arm-wrestle, paint, shop, dance, or just watch kindly.\" \"The active procedure is: Contests can grant festival_boon.\" Run intent first, then choose Presence, Instinct, Knowledge, Strength, or Finesse only when the fiction is risky or uncertain. strength finesse...",
+        "Takeawayhelp: Player takeaway Festival participation is optional and rewarding. \"Join in if you want a good day and a small thing to carry forward.\" \"Concrete choices: arm-wrestle, paint, browse, ask about Firstmoss, dance, help a stall, or move on.\" Make the choice low-pressure. The cost of skipping is only missing the boon. strength finesse presence hope Story takeaway The festival makes Hush's stakes emotionally visible. \"This is what safety buys: cakes, games, children laughing, and people planning next season.\" \"Firstmoss means the moss-crops are ripening. A deeper farm-management read requires curiosity and a roll.\" Joy carries the story. The hidden truth should not flatten the moment. strength finesse presence hope Mechanic takeaway The map supports Strength, Finesse, Presence, and Hope without combat. \"Strength 12 for the arm-wrestle. Finesse or Presence 12 for painting or mingling. A good contribution earns festival_boon.\" \"Set festival_participation true and pick the boon type: charm, favor, market find, or goodwill.\" This is a mechanics variety beat: reward participation and roleplay with usable state. strength finesse presence hope",
+        "Playerbeats: assets/maps/MAP-LOC-firstmoss-launch-festival.png Firstmoss Festival map board. MAP-LOC-firstmoss-launch-festival environment Firstmoss Festival S03-01 S03-02 S03-03 S03-04 assets/maps/MAP-LOC-firstmoss-launch-festival.png assets/maps/MAP-LOC-firstmoss-launch-festival.png Firstmoss Festival map board. The lane opens into a village festival: green lanterns, mossfruit cakes, damp banners, children under watchful eyes, and music doing its best to be louder than the ward's uneven hum. The lane opens into a village festival: green lanterns, mossfruit cakes, damp banners, children under watchful eyes, and music doing its best to be louder than the ward's uneven hum. MAP-LOC-firstmoss-launch-festival-map-only Map only Firstmoss Festival map-only assets/maps/MAP-LOC-firstmoss-launch-festival.png Firstmoss Festival map board. MAP-LOC-firstmoss-launch-festival environment Firstmoss Festival S03-01 S03-02 S03-03 S03-04 assets/maps/MAP-LOC-firstmoss-launch-festival.png assets/maps/MAP-LOC-firstmoss-launch-festival.png Firstmoss Festival map board. The lane opens into a village festival: green lanterns, mossfruit cakes, damp banners, children under watchful eyes, and music doing its best to...",
+        "Beatautoplayeligible: True",
+        "Beatautoplaydefault: False",
+        "Beatautoplayintervalms: 10000",
+        "Playersafeprojection: MAP-LOC-firstmoss-launch-festival map Firstmoss Festival assets/maps/MAP-LOC-firstmoss-launch-festival.png Firstmoss Festival map board. spatial reference and location texture The lane opens into a village festival: green lanterns, mossfruit cakes, damp banners, children under watchful eyes, and music doing its best to be louder than the ward's uneven hum. The lane opens into a village festival: green lanterns, mossfruit cakes, damp banners, children under watchful eyes, and music doing its best to be louder than the ward's uneven hum. MAP-LOC-firstmoss-launch-festival environment Firstmoss Festival S03-01 S03-02 S03-03 S03-04 assets/maps/MAP-LOC-firstmoss-launch-festival.png assets/maps/MAP-LOC-firstmoss-launch-festival.png Firstmoss Festival map board. The lane opens into a village festival: green lanterns, mossfruit cakes, damp banners, children under watchful eyes, and music doing its best to be louder than the ward's uneven hum. The lane opens into a village festival: green lanterns, mossfruit cakes, damp banners, children under watchful eyes, and music doing its best to be louder than the ward's uneven hum. assets/maps/MAP-LOC-firstmoss-launch-festival.png Firstmoss...",
+        "Slidenumber: 43",
+        "Totalslides: 110"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 1ce2f720041c6d70 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

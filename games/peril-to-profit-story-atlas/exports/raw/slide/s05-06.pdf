@@ -1,0 +1,574 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2655 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S05-06 - The Ward Renewed) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(As you land the blow that drops the last threat, the ritual ends. The carriage crashes) Tj
+T*
+(back to earth and the Keystone blazes with arcane light. Then a soundless explosion) Tj
+T*
+(erupts from the Custodian, washing outward, dissolving any enemy still standing. The) Tj
+T*
+(screeching stops. The clawing stops. The clearing is quiet again, the open sky calm) Tj
+T*
+(above you. It is done. The ward is renewed. You held the line, and a city you may never) Tj
+T*
+(see will wake tomorrow still safe.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Finish the ritual; the ward is renewed.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: S05-06) Tj
+T*
+(- Type: scene) Tj
+T*
+(- Sectionid: ACT-FIVE) Tj
+T*
+(- Sectiontitle: Act Five: The Ward Renewal) Tj
+T*
+(- Title: The Ward Renewed) Tj
+T*
+(- Shorttitle: Ritual Complete) Tj
+T*
+(- Order: 606) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: True) Tj
+T*
+(- Image: assets/scenes/S05-07-the-ward-locks-into-place.png) Tj
+T*
+(- Alt: Ward renewal light over the ritual clearing.) Tj
+T*
+(- Caption: The ward renews, the field goes quiet, and the cost finally becomes) Tj
+T*
+(  visible.) Tj
+T*
+(- Mood: The Ward Renewal) Tj
+T*
+(- Gmgoal: Resolve countdown zero, clear the field, and set ritual_outcome and) Tj
+T*
+(  custodian_fate.) Tj
+T*
+(- Publicobjective: Finish the ritual; the ward is renewed.) Tj
+T*
+(- Readaloud: As you land the blow that drops the last threat, the ritual ends. The) Tj
+T*
+(  carriage crashes back to earth and the Keystone blazes with arcane light. Then a) Tj
+T*
+(  soundless explosion erupts from the Custodian, washing outward, dissolving any enemy) Tj
+T*
+(  still standing. The screeching stops. The clawing stops. The clearing is quiet) Tj
+T*
+(  again, the open sky calm above you. It is done. The ward is renewed. You held the) Tj
+T*
+(  line, and a city you may never see will wake tomorrow still safe.) Tj
+T*
+(- Gmnotes: If custodian_fate=dying, mark it as a canon-sensitive result until Kyle) Tj
+T*
+(  rules whether she can die.) Tj
+T*
+(- Gmscript: Say: "Clock at zero. Fight over. The blast clears whatever remains. You do) Tj
+T*
+(  not have to mop up. Breathe, then we count what it cost.") Tj
+T*
+(- Gmreadaloud: The carriage crashes back to earth. The Keystone blazes with arcane) Tj
+T*
+(  light. A soundless explosion washes outward. The clearing is quiet again.) Tj
+T*
+(- Gmchecklist: End combat immediately when ritual_countdown reaches 0. Clear remaining) Tj
+T*
+(  enemies with the ritual release. Set ritual_outcome=clean, costly, or pyrrhic from) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4034 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  S05-05. Set custodian_fate=well, drained, or dying if Kyle/table canon allows. Give) Tj
+T*
+(  a quiet breath before S05-07.) Tj
+T*
+(- Gmprivate: The win is real. The cost is felt. Soul-economy stays dread, not) Tj
+T*
+(  exposition.) Tj
+T*
+(- Playertakeaway: You held long enough. It is over, and the ward is renewed.) Tj
+T*
+(- Storytakeaway: The city is safe tomorrow because the party held the line tonight.) Tj
+T*
+(- Mechanictakeaway: At countdown zero, combat ends immediately; ritual_outcome and) Tj
+T*
+(  custodian_fate carry the cost into the denouement.) Tj
+T*
+(- Rollcards: s05-06-disrupt-market-correction S05-06 Disrupt Market Correction Disrupt) Tj
+T*
+(  Market Correction Knowledge Strength Knowledge Strength 14 Knowledge finds the) Tj
+T*
+(  rising pattern; Strength collapses the breach point. The environment keeps) Tj
+T*
+(  purchasing more threat. Critical Success: best possible version of the action; gain) Tj
+T*
+(  Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success) Tj
+T*
+(  with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or) Tj
+T*
+(  generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and) Tj
+T*
+(  introduces a cost, complication, or pressure. Failure with Hope: the PC does not get) Tj
+T*
+(  the full result, but gains Hope and receives a useful thread, clue, or safer next) Tj
+T*
+(  option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that) Tj
+T*
+(  follows from the fiction. The environment keeps purchasing more threat. Use a hard) Tj
+T*
+(  complication, lost time, worse position, GM Fear, or mark Stress. Apply an official) Tj
+T*
+(  condition only if the fiction and rules justify it. The attempt falls short, but a) Tj
+T*
+(  partial thread appears. Offer one clue, weak position, or safer follow-up. The PC) Tj
+T*
+(  gets the core result, but it costs time, noise...) Tj
+T*
+(- Entityids: market-correction legacy-security-skeleton open-valetm-ritual-site soul-) Tj
+T*
+(  audit-wraith marlowe-fairwind keystone-asset whitefire-custodian corporate-seal-wax-) Tj
+T*
+(  residue vulnerable ritual-countdown route-assurance-contract sealed-keystone-crate) Tj
+T*
+(- Entities: market-correction Market Correction clue Clue / Evidence) Tj
+T*
+(  assets/icons/clue.png assets/clue-images/market-correction/profile_base.png MAR-kit) Tj
+T*
+(  Correction As the ritual strains, the vale itself answers ? the ground gives up more) Tj
+T*
+(  figures, rising in waves, as if the site is rebalancing a ledger. Environment) Tj
+T*
+(  feature / supernatural escalation The ritual site produces more skeletons as an) Tj
+T*
+(  environmental Fear move.; make it tactile enough that the players can point to it,) Tj
+T*
+(  carry it, compare it, or show it to someone. Move suspicion toward Open Vale? Ritual) Tj
+T*
+(  Site, Legacy Security Skeleton, Soul-Audit Wraith without requiring a lore lecture.) Tj
+T*
+(  The ritual site produces more skeletons as an environmental Fear move. legacy-) Tj
+T*
+(  security-skeleton Legacy Security Skeleton enemy Enemy / Combatant) Tj
+T*
+(  assets/icons/enemy.png assets/npc-images/legacy-security-skeleton/portrait_base.png) Tj
+T*
+(  LEG-uh-see seh-KYUR-ih-tee SKEL-eh-tun Obsolete security protocols made bone and) Tj
+T*
+(  rust. Soul-debt canon combatant. Legacy Security Skeleton a rusted dead guard still) Tj
+T*
+(  obeying a security routine nobody living remembers Not malice, momentum. A duty that) Tj
+T*
+(  outlived the man and a debt that kept the bones. Somewhere under the patrol loop) Tj
+T*
+(  is...) Tj
+T*
+(- Locationids: open-valetm-ritual-site) Tj
+T*
+(- Itemids: keystone-asset) Tj
+T*
+(- Clueids: corporate-seal-wax-residue market-correction) Tj
+T*
+(- Statecontrols: ward_stability Ward Stability select fragile stable ritual_prep) Tj
+T*
+(  Ritual Prep select unready ready ritual_countdown Ritual Countdown number 10 8) Tj
+T*
+(  ritual_outcome Ritual Outcome select unresolved clean costly pyrrhic protected_whom) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3923 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Protected Whom select unresolved custodian party hush shared custodian_fate) Tj
+T*
+(  Custodian Fate select unresolved well drained dying strixwolf_disposition Strixwolf) Tj
+T*
+(  Disposition select unresolved calm hostile killed strixwolf_outcome Strixwolf) Tj
+T*
+(  Outcome select unresolved calmed helped avoided attacked killed strixwolf_trust) Tj
+T*
+(  Strixwolf Trust number 3 strixwolf_blood_debt Strixwolf Blood Debt checkbox) Tj
+T*
+(  bramble_outcome Bramble Outcome select unresolved killed captured spared negotiated) Tj
+T*
+(  escaped let_cargo bramble_truth_learned Bramble Truth Learned checkbox) Tj
+T*
+(  package_status Package Status select held lost hush_trust Hush Trust select low) Tj
+T*
+(  neutral high custodian_route Custodian Route select unknown safe dangerous) Tj
+T*
+(  ward_awareness Ward Awareness select none seed aware festival_boon Festival Boon) Tj
+T*
+(  select none charm favor market_find goodwill custodian_trust Custodian Trust select) Tj
+T*
+(  low neutral high keystone_understanding Keystone Understanding select surface deep) Tj
+T*
+(  hush_clues Hush...) Tj
+T*
+(- Mechanicids: countdown fear gm-moves damage-thresholds hope table-spotlight) Tj
+T*
+(- Playerquestions: Who do you check on first? What sound returns to the clearing? What) Tj
+T*
+(  do you notice about the Custodian when the light fades?) Tj
+T*
+(- Relationshipprompts: Which PC quietly checks on someone else here? Who disagrees) Tj
+T*
+(  about the right thing to do without breaking trust?) Tj
+T*
+(- Ownershipprompt: Name one detail in Market Correction that belongs to your) Tj
+T*
+(  character's point of view.) Tj
+T*
+(- Fearspends: Spend Fear to tick the ritual countdown, expose the Custodian, activate) Tj
+T*
+(  ward backlash, or trigger Market Correction. Tick the Ritual Countdown the wrong) Tj
+T*
+(  direction or expose the Custodian. Trigger Market Correction, Pass-Through, Memory) Tj
+T*
+(  Delve, or Group Attack when fiction supports it.) Tj
+T*
+(- Choicesconsequences: Clean outcome. The field clears and the Custodian remains well) Tj
+T*
+(  enough to speak warmly. Set ritual_outcome=clean and custodian_fate=well. S05-07) Tj
+T*
+(  starts with gratitude and steadier truth. ritual_outcome=clean; custodian_fate=well) Tj
+T*
+(  Reward: strong relief. player-visible Costly outcome. The ward renews, but the party) Tj
+T*
+(  or Custodian carries visible strain. Set ritual_outcome=costly and) Tj
+T*
+(  custodian_fate=drained if she took hits. S05-07 honors protected_whom and cost.) Tj
+T*
+(  ritual_outcome=costly; custodian_fate=drained Both: victory with cost. player-) Tj
+T*
+(  visible Pyrrhic outcome. The ward renews at a severe price. Set) Tj
+T*
+(  ritual_outcome=pyrrhic; custodian_fate=dying only if Kyle/table canon allows. S05-07) Tj
+T*
+(  becomes grief-tinged and report_choice sharper. ritual_outcome=pyrrhic;) Tj
+T*
+(  custodian_fate=dying flagged Cost: strongest emotional fallout. player-visible) Tj
+T*
+(- Lootclues: Cold seal wax Humming stone chip Keystone Asset?: Inside the sealed) Tj
+T*
+(  crate, packed in wax-paper and reassurance, sits a heavy grey stone the size of a) Tj
+T*
+(  loaf, warm to the touch, faintly humming, with a light deep inside it that is slowly) Tj
+T*
+(  going out.) Tj
+T*
+(- Handoutids: Market Correction pulse) Tj
+T*
+(- Sourcesceneslug: S05-06-market-correction) Tj
+T*
+(- Sourcefiles: dist/Act5_Upgrade_Packet/ACT5_SCENE_RESEARCH.md) Tj
+T*
+(- References: Denouement #S05-07) Tj
+T*
+(- Storyscope: Perceived antagonist: the forest. True antagonist: the corporate lie) Tj
+T*
+(  about the forest. The players never confront it directly. They are meant to feel it) Tj
+T*
+(  by the end. Every act offers at least one guaranteed and one earned hint that the) Tj
+T*
+(  danger is manufactured and the forest is not the enemy. Soul-Audit Wraiths bear) Tj
+T*
+(  audit glyphs and say, "Unlicensed soul-resonance detected. Submit for audit.") Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4331 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  REFLAVOR GUARANTEED A defeated wraith leaves a Soulspire compliance tag or coil-) Tj
+T*
+(  credit token instead of natural remains. ADD GUARANTEED Wraiths ignore forest) Tj
+T*
+(  creatures and home only on ritual soul-magic. ADD EARNED Instinct Medium 15 A player) Tj
+T*
+(  can read the markings and name Soulspire without the GM naming it first. ADD EARNED) Tj
+T*
+(  Knowledge Medium 15 Optional flag: Legacy Skeletons carry scraps of old corporate) Tj
+T*
+(  credentials. FLAG SEED Instinct: target logic. Knowledge: read markings. ACT5 Act 5:) Tj
+T*
+(  Open Vale defense 200 2:40 to 3:20 3:20 countdown 8, skeletons, wraiths, Market) Tj
+T*
+(  Correction Lower the countdown start to 6; cap wraith reinforcements.) Tj
+T*
+(- Livetools: encounter S05-06 MAP-COMBAT-S05-06 MAP-S05-03 pages/combat/s05-06.html) Tj
+T*
+(- Percharacterlayer: marlowe-fairwind Marlowe Fairwind Ward snap Feels the ward snap) Tj
+T*
+(  back into place and, gated, the absence of what it consumed. Can voice the) Tj
+T*
+(  bittersweet result. Marlowe, you feel it work, and you feel what it cost. Want to) Tj
+T*
+(  voice that? barnacle Barnacle Still standing Notices who is alive, who is missing) Tj
+T*
+(  something, and what the official story will ignore. Can make the quiet practical.) Tj
+T*
+(  Barnacle, what do you check first now that nobody is swinging? garrick-reed Garrick) Tj
+T*
+(  Reed After-action care Knows the fight is not over until everyone is accounted for.) Tj
+T*
+(  Can check the wounded and name who held. Garrick, who do you count first when the) Tj
+T*
+(  field goes quiet? khari-nix Khari Nix The held line Feels the weight leave the line) Tj
+T*
+(  she held. Can describe what she is still holding when it ends. Khari, what are you) Tj
+T*
+(  still holding when the light fades? varian-soto Varian Soto Forest after-sense Hears) Tj
+T*
+(  whether the forest relaxes, watches, or warns. Instinct 12 Reads the epilogue tone) Tj
+T*
+(  without forcing the Relay hook yet. Can make the aftermath sensory. Varian, what) Tj
+T*
+(  does the forest do after the ward renews?) Tj
+T*
+(- Takeawayhelp: Player takeaway You held long enough. It is over, and the ward is) Tj
+T*
+(  renewed. "You made it. The line held. Breathe; the worst is behind you." "Check on) Tj
+T*
+(  each other. The immediate threat is gone; recovery happens in the denouement." Let) Tj
+T*
+(  relief land. Do not rush straight into paperwork. countdown table-spotlight Story) Tj
+T*
+(  takeaway The city is safe tomorrow because the party held the line tonight. "A city) Tj
+T*
+(  you may never see wakes tomorrow still safe because you held this clearing tonight.") Tj
+T*
+(  "The enemies are gone. The Keystone is charged. What it cost stays felt rather than) Tj
+T*
+(  explained." This is sincere victory with a shadow. countdown table-spotlight) Tj
+T*
+(  Mechanic takeaway At countdown zero, combat ends immediately; ritual_outcome and) Tj
+T*
+(  custodian_fate carry the cost into the denouement. "Clock at zero. Fight over. Blast) Tj
+T*
+(  clears the field. Now I set ritual_outcome and custodian_fate from what happened.") Tj
+T*
+(  "Clean means strong relief, costly means visible strain, pyrrhic means severe price.) Tj
+T*
+(  Dying Custodian stays canon-sensitive until Kyle rules." Carry the exact state into) Tj
+T*
+(  S05-07. countdown table-spotlight) Tj
+T*
+(- Playerbeats: s05-06-last-blow Zero The last tick assets/scenes/S05-07-the-ward-) Tj
+T*
+(  locks-into-place.png Ward renewal light over the ritual clearing. The countdown) Tj
+T*
+(  reaches zero, and the ritual releases all at once. The countdown reaches zero, and) Tj
+T*
+(  the ritual releases all at once. The countdown reaches zero, and the ritual releases) Tj
+T*
+(  all at once. text-first s05-06-release Release The soundless explosion) Tj
+T*
+(  assets/scenes/S05-07-the-ward-locks-into-place.png Ward renewal light over the) Tj
+T*
+(  ritual clearing. A soundless wave clears the field. Whatever remains dissolves in) Tj
+T*
+(  the ward's release. A soundless wave clears the field. Whatever remains dissolves in) Tj
+T*
+(  the ward's release. A soundless wave clears the field. Whatever remains dissolves in) Tj
+T*
+(  the ward's release. text-first s05-06-quiet Quiet Quiet again) Tj
+T*
+(  assets/scenes/S05-07-the-ward-locks-into-place.png Ward renewal light over the) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 3549 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  ritual clearing. The open sky is calm above you. The ward is renewed, and now the) Tj
+T*
+(  quiet lets you feel what it cost. The open sky is calm above you. The ward is) Tj
+T*
+(  renewed, and now the quiet lets you feel what it cost. The open sky is calm above) Tj
+T*
+(  you. The ward is renewed, and now the quiet lets you feel what it cost. text-first) Tj
+T*
+(- Gmbeats: s05-06-last-blow Zero The last tick Say: "Clock is zero. The fight ends) Tj
+T*
+(  now." The countdown reaches zero, and the ritual releases all at once. The table) Tj
+T*
+(  gets relief before aftermath. Countdown zero ends combat immediately. Players know) Tj
+T*
+(  the encounter is over. Player takeaway Players know the encounter is over. "Clock is) Tj
+T*
+(  zero. The fight ends now." "The table-facing answer is: Players know the encounter) Tj
+T*
+(  is over." Use this beat to give the players one visible next action: protect the) Tj
+T*
+(  center, read the field, spend prep, name who they shield, or choose what truth) Tj
+T*
+(  leaves with them. countdown Story takeaway The table gets relief before aftermath.) Tj
+T*
+(  "Clock is zero. The fight ends now." "The story answer is: The table gets relief) Tj
+T*
+(  before aftermath." Tie the answer to a visible Act 5 consequence: the ward steadies,) Tj
+T*
+(  the Custodian suffers, Hush is protected, or the final report changes who owns the) Tj
+T*
+(  truth. countdown Mechanic takeaway Countdown zero ends combat immediately. "Clock is) Tj
+T*
+(  zero. The fight ends now." "The active table procedure is: Countdown zero ends) Tj
+T*
+(  combat immediately." Name intent first. Use a Daggerheart roll only when the action) Tj
+T*
+(  is risky, opposed, or uncertain; otherwise let the...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 8500) Tj
+T*
+(- Playersafeprojection: S05-06 scene The Ward Renewed assets/scenes/S05-07-the-ward-) Tj
+T*
+(  locks-into-place.png Ward renewal light over the ritual clearing. The ward renews,) Tj
+T*
+(  the field goes quiet, and the cost finally becomes visible. The Ward Renewal Finish) Tj
+T*
+(  the ritual; the ward is renewed. As you land the blow that drops the last threat,) Tj
+T*
+(  the ritual ends. The carriage crashes back to earth and the Keystone blazes with) Tj
+T*
+(  arcane light. Then a soundless explosion erupts from the Custodian, washing outward,) Tj
+T*
+(  dissolving any enemy still standing. The screeching stops. The clawing stops. The) Tj
+T*
+(  clearing is quiet again, the open sky calm above you. It is done. The ward is) Tj
+T*
+(  renewed. You held the line, and a city you may never see will wake tomorrow still) Tj
+T*
+(  safe. s05-06-last-blow Zero The last tick assets/scenes/S05-07-the-ward-locks-into-) Tj
+T*
+(  place.png Ward renewal light over the ritual clearing. The countdown reaches zero,) Tj
+T*
+(  and the ritual releases all at once. The countdown reaches zero, and the ritual) Tj
+T*
+(  releases all at once. The countdown reaches zero, and the ritual releases all at) Tj
+T*
+(  once. text-first s05-06-release Release The soundless explosion) Tj
+T*
+(  assets/scenes/S05-07-the-ward-locks-into-place.png Ward renewal light over the) Tj
+T*
+(  ritual...) Tj
+T*
+(- Companionmapids: MAP-S05-03 MAP-COMBAT-S05-06 MAP-LOC-open-valetm-ritual-site) Tj
+T*
+(- Slidenumber: 73) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash ac86a3de4bb33a19 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R] /Count 5 >>
+endobj
+12 0 obj
+<< /Type /Catalog /Pages 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000009 00000 n 
+0000002716 00000 n 
+0000002844 00000 n 
+0000006930 00000 n 
+0000007058 00000 n 
+0000011033 00000 n 
+0000011161 00000 n 
+0000015544 00000 n 
+0000015672 00000 n 
+0000019273 00000 n 
+0000019402 00000 n 
+0000019485 00000 n 
+0000019536 00000 n 
+trailer
+<< /Size 14 /Root 12 0 R >>
+startxref
+19609
+%%EOF

@@ -1,0 +1,74 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "hush",
+  "title": "Hush",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "5901ea4db7921f9b",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "A warm warded community of food, repairs, arguments, Firstmoss glow, shoes-off customs, and people trying to keep ordinary life ordinary."
+    },
+    {
+      "title": "Public role",
+      "body": "Make Hush feel worth protecting before the finale asks the party to protect it."
+    },
+    {
+      "title": "Handout text",
+      "body": "A real village under corporate designation, protected by ward pillars."
+    },
+    {
+      "title": "GM truth",
+      "body": "Hush is never the joke. The joke is the system that renamed a real place as a managed endpoint and underfunded its protection."
+    },
+    {
+      "title": "GM handling",
+      "body": "Introduce with sensory texture, then make one discoverable clue or social choice visible."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Location Exploration Mechanics",
+        "Player Safe: Players can navigate, search, read customs, inspect hazards Hush when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: A real village under corporate designation, protected by ward pillars. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-hush-engage-hush entity-hush Engage Hush Engage Hush Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of Hush hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. A flat read of Hush hides the cost...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Condition Options: No official condition unless a hazard creates Hidden, Restrained, or Vulnerable",
+        "Search Loot: Not lootable; offers supplies if trust is earned."
+      ]
+    },
+    {
+      "title": "Profile",
+      "items": [
+        "Schema Version: location-profile-v1",
+        "Id: hush",
+        "Entity Id: hush",
+        "Source: Goldspire_Location_Packet/04_Hush_Enclave.md",
+        "Auto Surface: True",
+        "Priority: strong",
+        "Player Safe: Hush A real village under corporate designation, protected by ward pillars. A real village under corporate designation, protected by ward pillars. Hush is warm before it is safe: low roofs, clover smoke, hand-repaired doors, and ward posts humming just a little off-key. Hush feels walkable in every direction: canals, porches, co-op warmth, moss farms, quiet gossip, low bridges, laundry, water gates, and neighbors who know the sound of every footstep. The place breaks into usable table spaces: Canal arrival: Low bridges and lantern reflections make the first approach soft and watchful. Porch ring: Homes face shared paths more than private yards. Clover Co-op corner: The tavern/co-op is the social stomach of the village. Moss-water lanes: Narrow plank paths lead toward farms and irrigation. Quiet old shrine: A small mossy place holds older local memory. Plants and materials: firstmoss...",
+        "Block1: Hush Make Hush feel worth protecting before the finale asks the party to protect it. A real village under corporate designation, protected by ward pillars. Hush is the point of the delivery: ordinary life, not a punchline or service endpoint. The ward at the water gates hums wrong. The people who live under it have stopped hearing it, which is its own kind of warning. Hush is the point of the delivery: ordinary life, not a punchline or service endpoint. Strangers are rare and remembered. The village will read the party long before it answers a single question. pages/entities/hush.html",
+        "Block2: A village built for working hands, with shoes lined near thresholds and adults quietly tracking the sealed crate. Children watch from behind people they trust; nobody runs, but nobody relaxes until the party proves how they arrived. The ward chimes lag half a beat behind each other. Corporate plaques use the trademarked name, while locals speak around it like an old irritation. Detail Bread, wet clover, hearth smoke, and clean laundry under a mineral edge from the failing wards. Detail The lanes are packed earth softened by moss; doorframes feel polished by years of hands instead of money. Hush is warm before it is safe: low roofs, clover smoke, hand-repaired doors, and ward posts humming just a little off-key. Hush feels walkable in every direction: canals, porches, co-op warmth, moss farms, quiet gossip, low bridges, laundry, water gates, and neighbors who know the sound of every...",
+        "Block3: threshold shoe lines ward chimes kitchen windows repair benches watchful elders Presence to arrive with care instead of contract authority. Instinct to read which locals are frightened rather than rude. Knowledge to notice the ward rhythm is failing unevenly. Local residents or workers appropriate to the place Ratcoons work the canals and porch edges Festival Moths drift near moss lanterns Young Dryads watch hospitality from the tree line small fish flash under planks No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues firstmoss, glowmoss, canal reeds, soft roof moss, kitchen herbs in hanging jars Clover Co-op food and drink moss-honey jars minor repairs local directions quiet gossip",
+        "Block4: The place changes even if the PCs stand still. Local people, creatures, weather, signage, and ward behavior all keep moving around the scene. Outsider authority can chill the welcome. Bad news from the road spreads faster than the party can control. The Keystone crate makes private fear visible. A child repeats a corporate phrase that makes the room go quiet. A ward chime misses a beat during a tense question. Someone recognizes Tamsin's effects before the party is ready to explain. Let the place be funny through overconfident signage, awkward forms, stubborn local habits, and magic that refuses corporate language.",
+        "Block5: S03-01 S03-02 S03-03 S03-04 S05-07 S06-01 MAP-LOC-hush",
+        "Block6: Describe what the PCs can see, smell, hear, touch, ask about, or infer. Do not explain hidden infrastructure or corporate thesis until play earns it. surface A real village under corporate designation, protected by ward pillars. table clue Hush is the point of the delivery: ordinary life, not a punchline or service endpoint. earned truth Reveal deeper system meaning through NPC answers, evidence, or player questions, not narration dumps.",
+        "What Here: Local residents or workers appropriate to the place Ratcoons work the canals and porch edges Festival Moths drift near moss lanterns Young Dryads watch hospitality from the tree line small fish flash under planks No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues firstmoss, glowmoss, canal reeds, soft roof moss, kitchen herbs in hanging jars Clover Co-op food and drink moss-honey jars minor repairs local directions quiet gossip",
+        "Living Place: location-living-place-v1 wetland village Hush should feel walkable in every direction: canals, porches, co-op warmth, moss farms, quiet gossip, low bridges, laundry, water gates, and neighbors who know the sound of every footstep. Canal arrival Low bridges and lantern reflections make the first approach soft and watchful. Use for entry tone. Porch ring Homes face shared paths more than private yards. Use for social observation. Clover Co-op corner The tavern/co-op is the social stomach of the village. Use for questions and warmth. Moss-water lanes Narrow plank paths lead toward farms and irrigation. Use when players wander. Quiet old shrine A small mossy place holds older local memory. Use for history, trust, or reflection. firstmoss, glowmoss, canal reeds, soft roof moss, kitchen herbs in hanging jars Ratcoons work the canals and porch edges Festival Moths drift near moss lanterns...",
+        "Districts Or Subareas: Canal arrival Low bridges and lantern reflections make the first approach soft and watchful. Use for entry tone. Porch ring Homes face shared paths more than private yards. Use for social observation. Clover Co-op corner The tavern/co-op is the social stomach of the village. Use for questions and warmth. Moss-water lanes Narrow plank paths lead toward farms and irrigation. Use when players wander. Quiet old shrine A small mossy place holds older local memory. Use for history, trust, or reflection.",
+        "Sensory Signature: Detail Bread, wet clover, hearth smoke, and clean laundry under a mineral edge from the failing wards. Detail The lanes are packed earth softened by moss; doorframes feel polished by years of hands instead of money.",
+        "Visual Assets: location-visual-assets-v1 hush Hush Bright comedic frontier high-fantasy concept art for a Daggerheart-adjacent tabletop RPG. Medieval/Renaissance fantasy technology only: hand tools, wagons, ropes, parchment notices, ward-stones, carved wood, brass, cloth, stone, moss, lanterns, and magic. The tone is colorful, playful, slightly absurd, and vivid, like a fantasy corporate frontier comedy rather than a grim drama. No sci-fi machinery, no 1800s/Victorian clothing, no modern suits, no guns, no logos, no readable text, no watermark, no border, no collage. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/hush MAP-LOC-hush wetland village village regional map profile_scene Profile image ready /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/hush/profile_scene_v02.png assets/location-visuals/hush/profile_scene_v02.webp...",
+        "Imagine It Like: A close-knit canal village like a tiny Venice or a bayou town where you are family by the third night. Think small fishing community, shoes-off-at-the-door, and the neighbor who already knows your business."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 5901ea4db7921f9b | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S02-01",
+  "kind": "slide",
+  "title": "S02-01 - The Fallout Investigation",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act Two: Cargo Reclaimers",
+  "hook": "With the creature dealt with, the wreck is yours to read. Up close, the story stops adding up. The cart was stripped clean before anything wild got to it. The driver's wounds are not all bites. And worked into one...",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "With the creature dealt with, the wreck is yours to read. Up close, the story stops adding up. The cart was stripped clean before anything wild got to it. The driver's wounds are not all bites. And worked into one carriage wheel, where it has no business..."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Work out what really happened here before you move on."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:S02-01",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "ef0152bb7485862c",
+  "generated_at": "2026-06-23T21:40:58"
+}

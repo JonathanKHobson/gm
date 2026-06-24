@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "faceless-six",
+  "kind": "entity",
+  "title": "Faceless Six",
+  "in_world_label": "Public Notice",
+  "brand_flag": "Six voices, one door.",
+  "kicker": "The village leaders whose arrival turns hospitality into preparation, debate, and local accountability.",
+  "hook": "The Faceless Six: The Faceless Six turn a friendly room into a village decision without raising their voices. Slogan: Six voices, one door.",
+  "blocks": [
+    {
+      "label": "Public Face",
+      "body": "The village leaders whose arrival turns hospitality into preparation, debate, and local accountability."
+    },
+    {
+      "label": "Slogan",
+      "body": "Six voices, one door."
+    },
+    {
+      "label": "How To Deal",
+      "body": "The Faceless Six do not need thrones. They arrive as chairs being pulled closer, bowls set aside, and neighbors suddenly listening harder. Their authority is not spectacle. It is the weight of people who will still live here after the party leaves."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask what they publicly promise.",
+    "Compare their slogan to what they actually do in the scene."
+  ],
+  "archetype": "faction.flyer",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:faceless-six",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "374945ee23971919",
+  "generated_at": "2026-06-23T21:40:58"
+}

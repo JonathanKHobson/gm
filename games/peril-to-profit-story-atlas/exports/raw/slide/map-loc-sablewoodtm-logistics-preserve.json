@@ -1,0 +1,76 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "slide",
+  "id": "MAP-LOC-sablewoodtm-logistics-preserve",
+  "title": "MAP-LOC-sablewoodtm-logistics-preserve - SablewoodTM Logistics Preserve Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "d609e4d005684064",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The preserve stretches beyond the path, too vast to read at once. The route ahead stays focused on the hanging home."
+    },
+    {
+      "title": "Public objective",
+      "body": "The preserve stretches beyond the path, too vast to read at once. The route ahead stays focused on the hanging home."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: MAP-LOC-sablewoodtm-logistics-preserve",
+        "Type: map",
+        "Maptype: environment",
+        "Sectionid: ACT-FOUR",
+        "Sectiontitle: Act Four: The Hanging Office",
+        "Title: SablewoodTM Logistics Preserve Location Map",
+        "Shorttitle: The Managed Preserve",
+        "Order: 102.08",
+        "Playersafe: True",
+        "Completioneligible: False",
+        "Image: assets/maps/MAP-LOC-sablewoodtm-logistics-preserve-gm.webp",
+        "Alt: Sablewood™ Logistics Preserve location map board.",
+        "Caption: Visual reference for Sablewood™ Logistics Preserve.",
+        "Mood: spatial reference and location texture",
+        "Gmgoal: Use this as a GM-only wide-area backdrop, not a walkable Act 4 node unless Kyle later confirms.",
+        "Publicobjective: The preserve stretches beyond the path, too vast to read at once. The route ahead stays focused on the hanging home.",
+        "Readaloud: The preserve stretches beyond the path, too vast to read at once. The route ahead stays focused on the hanging home.",
+        "Gmscript: Say: \"Use this only as backdrop context. Do not turn it into a side route in Act 4.\"",
+        "Gmreadaloud: The preserve is wider than the scene. The live route stays on the Custodian path.",
+        "Gmchecklist: Treat as backdrop. Keep corporate framing GM-only. Return to S04-01 or the hanging office.",
+        "Gmprivate: Act 5 backdrop: the preserve label helps the GM remember the corporate frame, but player-facing finale text should remain old forest, ritual clearing, and managed edge. Do not route Act 5 through this map unless the table is lost and needs wide-area context.",
+        "Playertakeaway: The preserve stretches beyond the path, too vast to read at once. The route ahead stays focused on the hanging home.",
+        "Storytakeaway: The forest is bigger than the route and carries a managed layer the players do not need named yet.",
+        "Mechanictakeaway: Knowledge or Instinct can read the managed edge, but the map should not branch the act.",
+        "Entityids: sablewoodtm-logistics-preserve cat-squirrels giraffe-deer lemur-toads fox-bats horse-goats twilight-plums sable-sap strixwolf bullfrog eeligator",
+        "Entities: sablewoodtm-logistics-preserve Sablewood™ Logistics Preserve location Location assets/icons/location.png assets/location-visuals/sablewoodtm-logistics-preserve/profile_scene_v02.webp SAY-bul-wood loh-JIS-tiks preh-ZURV An ancient forest logistics preserve where colossal trees, hybrid fauna, underroot communities, route tolls, and corporate liability language all compete to define what safety means. Make the forest feel alive and managed badly, not just spooky. The Old Forest A vast ancient forest with trees wider than a carriage, older than any company sign. An ancient forest logistics preserve where colossal trees, hybrid fauna, underroot communities, route tolls, and corporate liability language all compete to define what safety means.; introduce it with a sensory palette, who feels safe there, and what has been neglected. Pull player attention toward the choices, clues, and relationships tied to Old Sable, Goldspire Waymarkers, Hush. An ancient forest logistics preserve where colossal trees, hybrid fauna, underroot communities, route tolls, and corporate liability language all compete to define what safety means. cat-squirrels Cat-Squirrels creature Creature / Animal...",
+        "Locationids: sablewoodtm-logistics-preserve",
+        "Statecontrols: ward_awareness Ward Awareness select none seed aware",
+        "Mechanicids: instinct knowledge",
+        "Fearspends: Spend Fear: the forest goes abruptly silent — every hybrid animal stops at once. Players feel watched. (Sets up either the strixwolf or the Bramble ambush.) A compliance stamp peels off a trunk and the wound underneath looks almost like a carved face — a quiet seed for the Treehouse's carved-face trees later. Distant, unhurried movement keeping pace with the carriage. Never resolved here. Pure dread fuel.",
+        "Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth context stay off the player display.",
+        "Linkedsceneids: S04-01",
+        "Mapdata: MAP-LOC-sablewoodtm-logistics-preserve environment SablewoodTM Logistics Preserve Location Map S04-01 sablewoodtm-logistics-preserve cat-squirrels giraffe-deer lemur-toads fox-bats horse-goats twilight-plums sable-sap strixwolf bullfrog eeligator assets/location-visuals/sablewoodtm-logistics-preserve/profile_scene_v02.webp Visual reference for Sablewood™ Logistics Preserve. Sablewood™ Logistics Preserve location map board. The preserve stretches beyond the path, too vast to read at once. The route ahead stays focused on the hanging home. The preserve stretches beyond the path, too vast to read at once. The route ahead stays focused on the hanging home. Use this as a GM-only wide-area backdrop, not a walkable Act 4 node unless Kyle later confirms. Corporate route signs, liability placards, and numbered posts sit against trunks wide enough to make the signage look temporary. Rain ticks through high leaves; birdsong stops in bands ahead of the party; route fixtures click softly when the Keystone passes. Sap under varnish, rain held in bark furrows, wet canvas, and a faint metallic tang from toll posts and ward hardware. Mud grips boots with pale grit; bark feels ridged like old...",
+        "Sourcefiles: dist/Act4_Upgrade_Packet/ACT4_MAPS_AND_LOCATIONS.md dist/Act4_Upgrade_Packet/ACT4_OPEN_QUESTIONS.md",
+        "References: Through the Farms #S04-01",
+        "Livetools: scene MAP-LOC-sablewoodtm-logistics-preserve",
+        "Percharacterlayer: varian-soto Varian Soto Wrong forest The carved trees and glowing moss smell worked, as if magic has been layered over living wood. Instinct 13 Reads which carved faces feel awake and where the safe line runs; if blood-debt is set, the faces feel like they are tracking the party. Can name the safest line through the carved-face edge. Varian, this stretch of forest has been changed by hands. Want to read what the trees are doing? marlowe-fairwind Marlowe Fairwind Ward heart The package resonates hard now; she can feel it is near where it belongs. Knowledge 13 The carved faces are ward anchors and the cargo is tied to them. Do not name the Keystone yet. Can make the package feel important without stealing the Custodian's reveal. Marlowe, whatever you are carrying is humming now. You are close to where it belongs. Want to feel into it? garrick-reed Garrick Reed Defensible ground Reads the approach as isolated, defensible ground made for privacy and protection. Can warn the party that whoever lives here values controlled access. Garrick, this is a place built to be hard to reach. Want to note what that says about who lives here? barnacle Barnacle Puzzle-box cabin Already sees the...",
+        "Gmbeats: MAP-LOC-sablewoodtm-logistics-preserve-backdrop Backdrop Backdrop context Say: \"Keep the act moving toward the hanging home.\" The map shows the forest is larger than the route. The preserve scale supports dread. The mechanic is route discipline. Players stay oriented without a detour. Player takeaway Players stay oriented without a detour. \"Keep the act moving toward the hanging home.\" \"The playable fact is: The map shows the forest is larger than the route.\" Concrete actions for this beat: look closely, ask the Custodian a direct question, commit to a choice, or take one prep action. instinct Story takeaway The preserve scale supports dread. \"Keep the act moving toward the hanging home.\" \"The story fact in play is: The preserve scale supports dread.\" This beat changes Act 4 through this exact pressure: The preserve scale supports dread. instinct Mechanic takeaway The mechanic is route discipline. \"Keep the act moving toward the hanging home.\" \"The active procedure is: The mechanic is route discipline.\" Run intent first. Use Presence for trust, Knowledge for ward or stone truths, Instinct for preserve danger, and Agility or Finesse for the hanging-home puzzle. instinct",
+        "Takeawayhelp: Player takeaway This is context, not a detour. \"The preserve is bigger than this scene, but your route stays clear.\" \"You can notice the scale, then continue toward the hanging home.\" Use this only if the table needs spatial context. instinct knowledge Story takeaway The forest carries managed layers. \"There are signs this place has been measured and marked, but that is not the scene yet.\" \"A sharp read can catch registration marks; keep the deeper framing GM-only.\" This protects spoiler pacing and session focus. instinct knowledge Mechanic takeaway The map mechanic is route discipline. \"This is not a new branch. It is a backdrop layer. Return to S04-01 or the hanging office.\" \"If someone studies it, Knowledge or Instinct 13 gives a managed-edge clue.\" Do not let this map become Act 4 sprawl. instinct knowledge",
+        "Playerbeats: assets/maps/MAP-LOC-sablewoodtm-logistics-preserve.png The Managed Preserve map board. MAP-LOC-sablewoodtm-logistics-preserve environment The Managed Preserve S04-01 assets/maps/MAP-LOC-sablewoodtm-logistics-preserve.png assets/maps/MAP-LOC-sablewoodtm-logistics-preserve.png The Managed Preserve map board. The preserve stretches beyond the path, too vast to read at once. The route ahead stays focused on the hanging home. The preserve stretches beyond the path, too vast to read at once. The route ahead stays focused on the hanging home. Older road The trade path predates the corporate route. 0.48 0.58 Compliance stamps New labels are being swallowed by old bark. 0.72 0.34 MAP-LOC-sablewoodtm-logistics-preserve-map-only Map only The Managed Preserve map-only assets/maps/MAP-LOC-sablewoodtm-logistics-preserve.png The Managed Preserve map board. MAP-LOC-sablewoodtm-logistics-preserve environment The Managed Preserve S04-01 assets/maps/MAP-LOC-sablewoodtm-logistics-preserve.png assets/maps/MAP-LOC-sablewoodtm-logistics-preserve.png The Managed Preserve map board. The preserve stretches beyond the path, too vast to read at once. The route ahead stays focused on the hanging home. The...",
+        "Beatautoplayeligible: True",
+        "Beatautoplaydefault: False",
+        "Beatautoplayintervalms: 10000",
+        "Playersafeprojection: MAP-LOC-sablewoodtm-logistics-preserve map The Managed Preserve assets/maps/MAP-LOC-sablewoodtm-logistics-preserve.png The Managed Preserve map board. spatial reference and location texture The preserve stretches beyond the path, too vast to read at once. The route ahead stays focused on the hanging home. The preserve stretches beyond the path, too vast to read at once. The route ahead stays focused on the hanging home. MAP-LOC-sablewoodtm-logistics-preserve environment The Managed Preserve S04-01 assets/maps/MAP-LOC-sablewoodtm-logistics-preserve.png assets/maps/MAP-LOC-sablewoodtm-logistics-preserve.png The Managed Preserve map board. The preserve stretches beyond the path, too vast to read at once. The route ahead stays focused on the hanging home. The preserve stretches beyond the path, too vast to read at once. The route ahead stays focused on the hanging home. Older road The trade path predates the corporate route. 0.48 0.58 Compliance stamps New labels are being swallowed by old bark. 0.72 0.34 assets/maps/MAP-LOC-sablewoodtm-logistics-preserve.png The Managed Preserve map board. MAP-LOC-sablewoodtm-logistics-preserve environment The Managed Preserve S04-01...",
+        "Slidenumber: 21",
+        "Totalslides: 110"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash d609e4d005684064 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

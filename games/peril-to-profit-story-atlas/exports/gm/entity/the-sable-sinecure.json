@@ -1,0 +1,72 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "the-sable-sinecure",
+  "title": "The Sable Sinecure",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "f9f63844f798abba",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "The Sable Sinecure: The Sable Sinecure™ makes moving freight through a deadly forest look so polished you forget the danger is the product. Slogan: The Sable Sinecure™: danger, properly accounted."
+    },
+    {
+      "title": "Public role",
+      "body": "Kazrak-franchised logistics guild that effectively runs Sablewood routes"
+    },
+    {
+      "title": "Handout text",
+      "body": "The Sable Sinecure: The Sable Sinecure™ makes moving freight through a deadly forest look so polished you forget the danger is the product. Slogan: The Sable Sinecure™: danger, properly accounted."
+    },
+    {
+      "title": "GM truth",
+      "body": "GM-only: routes upward into Kazrak-style hazard economy."
+    },
+    {
+      "title": "GM handling",
+      "body": "Sablewood field-guide faction and future-route texture; not a main one-shot antagonist."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Faction Pressure / Reputation Mechanics",
+        "Player Safe: Players can read public face, negotiate leverage, track reputation, or identify pressure The Sable Sinecure when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: The Sable Sinecure™ makes moving freight through a deadly forest look so polished you forget the danger is the product. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-the-sable-sinecure-engage-the-sable-sinecure entity-the-sable-sinecure Engage The Sable Sinecure Engage The Sable Sinecure Presence Knowledge Instinct Presence Knowledge, Instinct 13 Choose the trait from the player's method, not the entity type. A flat read of The Sable Sinecure hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Search Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure."
+      ]
+    },
+    {
+      "title": "Profile",
+      "items": [
+        "Schema Version: faction-profile-v1",
+        "Id: the-sable-sinecure",
+        "Entity Id: the-sable-sinecure",
+        "Source: Sablewood lore registry plus Faction_System_Packet guidance",
+        "Priority: compact",
+        "Corporate: False",
+        "Atlas Lore Note: Atlas lore note: one-shot-safe expansion. Use as GM-only texture unless table play earns it.",
+        "Auto Surface: True",
+        "Prompt Key: grail",
+        "Player Safe: The Sable Sinecure A logistics guild that makes impossible forest transport look polished, expensive, and deserved. The Sable Sinecure™: danger, properly accounted. The Sable Sinecure™ makes moving freight through a deadly forest look so polished you forget the danger is the product. The Sable Sinecure™ presents as old-money competence: lacquered route maps, a hazard-rate ledger displayed like a wine list, agents in sable-and-silver who quote your survival odds with a sommelier's confidence. Buy a Certified Safe Passage™, a Hazard-Indexed™ premium route, a membership tier that makes paying more for the same trees feel like taste. It is a Kazrak™ franchise wearing heritage like cologne. Every cache mark and danger rating is real, and every one of them exists to prove that knowing the forest is a luxury good, and you are renting it. A neat cache mark has been cut into the bark where only...",
+        "Block1: The Sable Sinecure Sable Sinecure Kazrak-franchised logistics guild A logistics guild that makes impossible forest transport look polished, expensive, and deserved. Prices risk as proof of value and turns Sablewood expertise into a franchised status market. Sablewood field-guide faction and future-route texture; not a main one-shot antagonist. Smoothly superior, flatters competence it can monetize, and prices respect by tier. Status and route expertise; they respond to respect, payment, or proof their risk math is wrong. pages/entities/the-sable-sinecure.html the SAY-bul SY-nih-kyoor",
+        "Block2: The prestige logistics name of Sablewood, a Kazrak franchise that sells a tradition it invented last quarter. Secret caches, guild routes, hazard-rate barter, and the polite language of expensive danger. Franchise expertise as status: turn genuine Sablewood knowledge into a tiered membership where safety is a luxury and the fee is the point. Old route experts resent newer hazard pricing, but the money keeps winning. Maintaining cache marks and hazard-rate routes while pretending the system is tradition. Local logistics knowledge franchised into Kazrak-style risk prestige.",
+        "Block3: Kazrak Industries Artemis Inc Bramble Union Clover Co-op Fire-Falcons secret caches hazard-indexed pricing Will Scild Simrith Luhaj Merchants and travelers who must cross the forest and can be taught that paying more for the crossing is a sign of class.",
+        "Block4: The Sable Sinecure™: danger, properly accounted. Sable-and-silver livery, lacquered route maps, wine-list hazard ledgers, wax-sealed memberships, and a poised courier mascot tipping a silver cap. Anyone can cross the wood. Only the discerning cross it correctly. Your hazard rate reflects your taste, and your balance. Tradition, certified. Survival, itemized. Sable branch wrapped around a ledger key. Seed only: crisp marching rhythm with rustling paper.",
+        "Block5: Useful Sablewood context if the route expands or the GM opens field-guide material. Shows how even expertise gets franchised and priced. Some caches prove danger is expected, managed, and monetized. GM-only: routes upward into Kazrak-style hazard economy. surface A competent logistics guild. hint A guild that prices danger and hoards routes. earned seam A future example of manufactured peril made respectable. Knowledge 13 reads cache marks; Presence 13 gets a guild member to explain hazard rates too proudly.",
+        "Writing Layer: The Sable Sinecure™ makes moving freight through a deadly forest look so polished you forget the danger is the product. The Sable Sinecure™ presents as old-money competence: lacquered route maps, a hazard-rate ledger displayed like a wine list, agents in sable-and-silver who quote your survival odds with a sommelier's confidence. Buy a Certified Safe Passage™, a Hazard-Indexed™ premium route, a membership tier that makes paying more for the same trees feel like taste. It is a Kazrak™ franchise wearing heritage like cologne. Every cache mark and danger rating is real, and every one of them exists to prove that knowing the forest is a luxury good, and you are renting it. A neat cache mark has been cut into the bark where only a trained eye would look. It is useful, smug, and almost certainly part of a fee schedule. Sable-and-silver livery, lacquered route maps, wine-list hazard ledgers...",
+        "Entity Name: The Sable Sinecure",
+        "Imagine It Like: Think a luxury concierge service for a death-forest, a Centurion card for freight, a Michelin guide that rates how expensively you can almost die."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash f9f63844f798abba | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

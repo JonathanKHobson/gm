@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "mist-things",
+  "kind": "entity",
+  "title": "Mist-Things",
+  "in_world_label": "Field Guide Page",
+  "brand_flag": "Player-safe",
+  "kicker": "Creature / Animal",
+  "hook": "Player-safe note: Mist-things move as half-seen animal shapes in low fog: not quite threat, not quite guide, but very sure they were here first.",
+  "blocks": [
+    {
+      "label": "Observed Form",
+      "body": "Give one concrete visual, one sound or texture, and one sign of who has used or neglected it."
+    },
+    {
+      "label": "Behavior",
+      "body": "Mist-things move as half-seen animal shapes in low fog: not quite threat, not quite guide, but very sure they were here first.; show instinct first through distance, posture, scent, and how the creature protects what is close to it."
+    },
+    {
+      "label": "Warning Signs",
+      "body": "Being surrounded, misread as a monster, or driven toward Open Vale™ Ritual Site, The Miremist, Forgotten Gods by noise and haste."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Give it distance before deciding it is hostile.",
+    "Read posture, tracks, and what it is protecting."
+  ],
+  "archetype": "creature.field_guide",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:mist-things",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "314c1a8934705b68",
+  "generated_at": "2026-06-23T21:40:58"
+}

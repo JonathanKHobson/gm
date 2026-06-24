@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "xen",
+  "kind": "entity",
+  "title": "Xen",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "A cocky, practical dwarf lapidarian with faceted nails and polished emerald stones embedded in one arm.",
+  "hook": "A cocky, practical dwarf lapidarian with faceted nails and polished emerald stones embedded in one arm.",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "A red-bearded dwarf lapidarian grins at the workbench, turquoise beads in the beard, green stone chips on the sleeve, and a jeweler's confidence in every finger."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "Swagger built on real skill and a stubborn conscience. Counts honest commissions in beard-beads, and has fewer beads than stories, which tells you something. Wants beautiful things to survive ugly ownership."
+    },
+    {
+      "label": "Might Offer",
+      "body": "A question to ask A local perspective A grounded reason this place matters"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "A question to ask",
+    "A local perspective",
+    "A grounded reason this place matters"
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:xen",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "ccfdba3e39e6c993",
+  "generated_at": "2026-06-23T21:40:58"
+}

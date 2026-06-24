@@ -1,0 +1,328 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2629 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-the-high-falls - The High Falls Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The High Falls drown speech in blue-white spray where the Lucent River drops into a cave) Tj
+T*
+(mouth nobody fully explains.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(The High Falls drown speech in blue-white spray where the Lucent River drops into a cave) Tj
+T*
+(mouth nobody fully explains.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-the-high-falls) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: STORY) Tj
+T*
+(- Sectiontitle: Map Board) Tj
+T*
+(- Title: The High Falls Location Map) Tj
+T*
+(- Shorttitle: The High Falls) Tj
+T*
+(- Order: 850.9) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-the-high-falls-gm.png) Tj
+T*
+(- Alt: The High Falls location map board.) Tj
+T*
+(- Caption: Visual reference for The High Falls.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Make mystery available without pulling the one-shot off course.) Tj
+T*
+(- Publicobjective: The High Falls drown speech in blue-white spray where the Lucent) Tj
+T*
+(  River drops into a cave mouth nobody fully explains.) Tj
+T*
+(- Readaloud: The High Falls drown speech in blue-white spray where the Lucent River) Tj
+T*
+(  drops into a cave mouth nobody fully explains.) Tj
+T*
+(- Playertakeaway: The High Falls drown speech in blue-white spray where the Lucent) Tj
+T*
+(  River drops into a cave mouth nobody fully explains.) Tj
+T*
+(- Storytakeaway: The falls hint that Sablewood has histories outside the delivery) Tj
+T*
+(  plot.) Tj
+T*
+(- Mechanictakeaway: Use only if the table diverts into exploration.) Tj
+T*
+(- Entityids: the-high-falls craymeleon eeligator) Tj
+T*
+(- Entities: the-high-falls The High Falls location Location assets/icons/location.png) Tj
+T*
+(  assets/location-visuals/the-high-falls/profile_scene_v02.png the HY fawlz The place) Tj
+T*
+(  where the Lucent River drops into a cave system that once held a community nobody) Tj
+T*
+(  can fully explain. Make mystery available without pulling the one-shot off course.) Tj
+T*
+(  The place where the Lucent River drops into a cave system that once held a community) Tj
+T*
+(  nobody can fully explain.; introduce it with a sensory palette, who feels safe) Tj
+T*
+(  there, and what has been neglected. Pull player attention toward the choices, clues,) Tj
+T*
+(  and relationships tied to The Lucent River, Underroot, Forgotten Gods. The place) Tj
+T*
+(  where the Lucent River drops into a cave system that once held a community nobody) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4170 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  can fully explain. craymeleon Craymeleon creature Creature / Animal) Tj
+T*
+(  assets/icons/creature.png assets/creature-images/craymeleon/portrait_base.png kray-) Tj
+T*
+(  MEEL-ee-un A chameleon-crayfish river beast with bright shell plates and) Tj
+T*
+(  independently swiveling eyes, often harnessed to pull small boats through glowing) Tj
+T*
+(  current. Lucent River work animal A chameleon-crayfish river beast with bright shell) Tj
+T*
+(  plates and independently swiveling eyes, often harnessed to pull small...) Tj
+T*
+(- Locationids: the-high-falls) Tj
+T*
+(- Fearspends: The falls go silent for one impossible second. A glow pool shows a shape) Tj
+T*
+(  moving below.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Mapdata: MAP-LOC-the-high-falls environment The High Falls Location Map the-high-) Tj
+T*
+(  falls craymeleon eeligator assets/location-visuals/the-high-) Tj
+T*
+(  falls/profile_scene_v02.png Visual reference for The High Falls. The High Falls) Tj
+T*
+(  location map board. The High Falls drown speech in blue-white spray where the Lucent) Tj
+T*
+(  River drops into a cave mouth nobody fully explains. The High Falls drown speech in) Tj
+T*
+(  blue-white spray where the Lucent River drops into a cave mouth nobody fully) Tj
+T*
+(  explains. Make mystery available without pulling the one-shot off course. Mist turns) Tj
+T*
+(  hair and cloaks silver. A dark cave opening breathes cold air behind the falling) Tj
+T*
+(  light. Old marks near the cave are not route symbols. Leaf-drip, insects, distant) Tj
+T*
+(  wingbeats, and animal calls that stop or resume according to pressure, not comfort.) Tj
+T*
+(  Thunderous water, cold spray, mineral sharpness, and slick stone algae. Rock faces) Tj
+T*
+(  are wet glass under moss; handholds are colder than the air. The forest is populated) Tj
+T*
+(  even when no NPC is present; silence, birds, insects, and tracks are actionable) Tj
+T*
+(  signals. Mist turns hair and cloaks silver. A dark cave opening breathes cold air) Tj
+T*
+(  behind the falling light. Old marks near the cave are not route symbols. The...) Tj
+T*
+(- Livetools: scene MAP-LOC-the-high-falls) Tj
+T*
+(- Takeawayhelp: Player takeaway: MAP-LOC-the-high-falls The High Falls drown speech in) Tj
+T*
+(  blue-white spray where the Lucent River drops into a cave mouth nobody fully) Tj
+T*
+(  explains. Give the player one concrete way back into play: a question, a) Tj
+T*
+(  description, a choice, or a pass-and-return moment. "Your takeaway right now is) Tj
+T*
+(  this: The High Falls drown speech in blue-white spray where the Lucent River drops) Tj
+T*
+(  into a cave mouth nobody fully explains." "If you are not sure what to do next, you) Tj
+T*
+(  can ask a question, describe what your character notices, or tell me what your) Tj
+T*
+(  character tries." "If you are not sure what to do next, you can ask a question,) Tj
+T*
+(  describe what your character notices, or tell me what your character tries." Give) Tj
+T*
+(  the player one concrete way back into play: a question, a description, a choice, or) Tj
+T*
+(  a pass-and-return moment. Story takeaway: MAP-LOC-the-high-falls The falls hint that) Tj
+T*
+(  Sablewood has histories outside the delivery plot. Anchor the answer in the visible) Tj
+T*
+(  fiction on this slide: who is present, what can be observed, what has already been) Tj
+T*
+(  said, and what remains uncertain. "Here is what your characters know right now: The) Tj
+T*
+(  falls hint that Sablewood has histories outside the delivery plot."...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-the-high-falls-player.png The High Falls location) Tj
+T*
+(  map board. MAP-LOC-the-high-falls environment The High Falls assets/maps/MAP-LOC-) Tj
+T*
+(  the-high-falls-player.png assets/maps/MAP-LOC-the-high-falls-player.png Visual) Tj
+T*
+(  reference for The High Falls. The High Falls location map board. The High Falls) Tj
+T*
+(  drown speech in blue-white spray where the Lucent River drops into a cave mouth) Tj
+T*
+(  nobody fully explains. The High Falls drown speech in blue-white spray where the) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2552 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Lucent River drops into a cave mouth nobody fully explains. MAP-LOC-the-high-falls-) Tj
+T*
+(  map-only Map only The High Falls map-only assets/maps/MAP-LOC-the-high-falls-) Tj
+T*
+(  player.png The High Falls location map board. MAP-LOC-the-high-falls environment The) Tj
+T*
+(  High Falls assets/maps/MAP-LOC-the-high-falls-player.png assets/maps/MAP-LOC-the-) Tj
+T*
+(  high-falls-player.png Visual reference for The High Falls. The High Falls location) Tj
+T*
+(  map board. The High Falls drown speech in blue-white spray where the Lucent River) Tj
+T*
+(  drops into a cave mouth nobody fully explains. The High Falls drown speech in blue-) Tj
+T*
+(  white spray where the Lucent River drops into a cave mouth nobody fully explains.) Tj
+T*
+(  MAP-LOC-the-high-falls-map-text Map + text The High Falls The High...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-the-high-falls map The High Falls assets/maps/MAP-LOC-) Tj
+T*
+(  the-high-falls-player.png The High Falls location map board. Visual reference for) Tj
+T*
+(  The High Falls. spatial reference and location texture The High Falls drown speech) Tj
+T*
+(  in blue-white spray where the Lucent River drops into a cave mouth nobody fully) Tj
+T*
+(  explains. The High Falls drown speech in blue-white spray where the Lucent River) Tj
+T*
+(  drops into a cave mouth nobody fully explains. MAP-LOC-the-high-falls environment) Tj
+T*
+(  The High Falls assets/maps/MAP-LOC-the-high-falls-player.png assets/maps/MAP-LOC-) Tj
+T*
+(  the-high-falls-player.png Visual reference for The High Falls. The High Falls) Tj
+T*
+(  location map board. The High Falls drown speech in blue-white spray where the Lucent) Tj
+T*
+(  River drops into a cave mouth nobody fully explains. The High Falls drown speech in) Tj
+T*
+(  blue-white spray where the Lucent River drops into a cave mouth nobody fully) Tj
+T*
+(  explains. assets/maps/MAP-LOC-the-high-falls-player.png The High Falls location map) Tj
+T*
+(  board. MAP-LOC-the-high-falls environment The High Falls assets/maps/MAP-LOC-the-) Tj
+T*
+(  high-falls-player.png assets/maps/MAP-LOC-the-high-falls-player.png Visual reference) Tj
+T*
+(  for The High Falls. The High Falls location map board. The High Falls...) Tj
+T*
+(- Slidenumber: 90) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash d8bbb91f26f2a061 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002690 00000 n 
+0000002816 00000 n 
+0000007038 00000 n 
+0000007164 00000 n 
+0000009768 00000 n 
+0000009894 00000 n 
+0000009963 00000 n 
+0000010012 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+10084
+%%EOF

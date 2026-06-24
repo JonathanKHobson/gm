@@ -1,0 +1,435 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2390 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-the-goldspire-relay - The Goldspire Relay Hook Context) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The Relay stands westward beyond the trees, a beacon that should burn steady and does) Tj
+T*
+(not.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(The Relay stands westward beyond the trees, a beacon that should burn steady and does) Tj
+T*
+(not.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-the-goldspire-relay) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: EPILOGUE) Tj
+T*
+(- Sectiontitle: Epilogue: Beyond the Contract) Tj
+T*
+(- Title: The Goldspire Relay Hook Context) Tj
+T*
+(- Shorttitle: The Goldspire Relay) Tj
+T*
+(- Order: 702.16) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-the-goldspire-relay-gm.png) Tj
+T*
+(- Alt: The Goldspire Relay location map board.) Tj
+T*
+(- Caption: A possible future destination, not a new scene tonight.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Name the official future destination without starting the future story.) Tj
+T*
+(- Publicobjective: The Relay stands westward beyond the trees, a beacon that should) Tj
+T*
+(  burn steady and does not.) Tj
+T*
+(- Readaloud: The Relay stands westward beyond the trees, a beacon that should burn) Tj
+T*
+(  steady and does not.) Tj
+T*
+(- Gmnotes: Do not add a next-section transition. The conclusion ends here.) Tj
+T*
+(- Gmscript: Say: "This is where a future story could begin. Tonight, it is a name on) Tj
+T*
+(  the horizon and a map she can give you.") Tj
+T*
+(- Gmreadaloud: The Relay stands westward beyond the trees. The beacon should burn) Tj
+T*
+(  steady and does not.) Tj
+T*
+(- Gmchecklist: Frame as future destination only. Do not define the Relay Keeper's) Tj
+T*
+(  nature. Do not solve what is wrong there. End open-ended.) Tj
+T*
+(- Gmprivate: If the hidden hook lands, this is where the official rescue and the) Tj
+T*
+(  investigative question converge later.) Tj
+T*
+(- Playertakeaway: The Relay stands westward beyond the trees, a beacon that should) Tj
+T*
+(  burn steady and does not.) Tj
+T*
+(- Storytakeaway: The future destination is named, but the current one-shot remains) Tj
+T*
+(  complete.) Tj
+T*
+(- Mechanictakeaway: sequel_direction records relay, hidden, both, or undecided.) Tj
+T*
+(- Entityids: the-goldspire-relay) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3858 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Entities: the-goldspire-relay The Goldspire Relay location Location) Tj
+T*
+(  assets/icons/location.png assets/location-visuals/the-goldspire-) Tj
+T*
+(  relay/profile_scene_v02.png the GOLD-spire REE-lay A twisting stone signal-spire of) Tj
+T*
+(  mirrors, flags, and courier-birds, its beacon flickering thinner than it should.) Tj
+T*
+(  Signal scale without derailing the one-shot. A twisting stone relay whose weak fire) Tj
+T*
+(  suggests the next failure is already billing someone.; introduce it with a sensory) Tj
+T*
+(  palette, who feels safe there, and what has been neglected. Pull player attention) Tj
+T*
+(  toward the choices, clues, and relationships tied to Goldspire Ward Network, The) Tj
+T*
+(  Relay Keeper, Goldwater Financial Institution. A twisting stone relay whose weak) Tj
+T*
+(  fire suggests the next failure is already billing someone.) Tj
+T*
+(- Locationids: the-goldspire-relay) Tj
+T*
+(- Statecontrols: relay_hook_accepted Relay Hook Accepted checkbox) Tj
+T*
+(  hidden_hook_discovered Hidden Hook Discovered checkbox sequel_direction Sequel) Tj
+T*
+(  Direction select relay hidden both undecided) Tj
+T*
+(- Mechanicids: report-choice roleplay table-spotlight) Tj
+T*
+(- Playerquestions: Do you want the map? Is this a next job, a mystery, both, or) Tj
+T*
+(  neither?) Tj
+T*
+(- Fearspends: None ? this is denouement. Save tension for the next adventure. Leave) Tj
+T*
+(  one thread dangling on purpose: the Custodian's offhand "or becomes sentient" about) Tj
+T*
+(  the Keystone. Don't explain it. Let it haunt.) Tj
+T*
+(- Choicesconsequences: Name it as a future job. The Relay stays a heroic future door.) Tj
+T*
+(  Set sequel_direction=relay if no hidden hook lands. The epilogue ends clean and) Tj
+T*
+(  adventurous. sequel_direction=relay Reward: clear sequel invitation. player-visible) Tj
+T*
+(  Name it as a bigger mystery. The Relay becomes a question, not just a rescue. Set) Tj
+T*
+(  sequel_direction=hidden or both if the table names the pattern. The epilogue ends) Tj
+T*
+(  with investigative momentum. sequel_direction=hidden|both Reward/cost: deeper) Tj
+T*
+(  unease. player-visible) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S06-02) Tj
+T*
+(- Mapdata: MAP-LOC-the-goldspire-relay environment The Goldspire Relay Hook Context) Tj
+T*
+(  S06-02 the-goldspire-relay assets/location-visuals/the-goldspire-) Tj
+T*
+(  relay/profile_scene_v02.png A possible future destination, not a new scene tonight.) Tj
+T*
+(  The Goldspire Relay location map board. The Relay stands westward beyond the trees,) Tj
+T*
+(  a beacon that should burn steady and does not. The Relay stands westward beyond the) Tj
+T*
+(  trees, a beacon that should burn steady and does not. Name the official future) Tj
+T*
+(  destination without starting the future story. Do not add a next-section transition.) Tj
+T*
+(  The conclusion ends here. Aerial view of the canopy; twisting stone spires with) Tj
+T*
+(  flames flickering inside; one beacon noticeably dimmer than the rest. a faint, wrong) Tj
+T*
+(  hum on the western wind ? the failing Relay. cold smoke where the dim spire stands,) Tj
+T*
+(  as if its fire is already half out. Calm-after-the-storm; the satisfied exhaustion) Tj
+T*
+(  of a job done; a thread left deliberately loose. The Custodian, older and tired,) Tj
+T*
+(  tending the Keystone above her hearth-fire. A beacon burns too thin at the top.) Tj
+T*
+(  Maintenance plates and old notices cluster near the base. The newest warning is) Tj
+T*
+(  phrased as a billing status. Stone hairline cracks point toward older...) Tj
+T*
+(- Sourcefiles: dist/Epilogue_Upgrade_Packet/EPILOGUE_MAPS_AND_LOCATIONS.md) Tj
+T*
+(- References: S06-02 #S06-02) Tj
+T*
+(- Livetools: scene MAP-LOC-the-goldspire-relay) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4266 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Percharacterlayer: garrick-reed Garrick Reed Security playbook Garrick has seen) Tj
+T*
+(  staged danger, narrative control, and incident reports from the inside.) Tj
+T*
+(  Knowledge/Presence earned clue chain Can notice the pattern looks like a job, not) Tj
+T*
+(  nature. Can name the hidden pattern if the player reaches it. Garrick, you ran) Tj
+T*
+(  security for them. Does any of this start to look like a job to you? Want to say) Tj
+T*
+(  what you're seeing? marlowe-fairwind Marlowe Fairwind Magical seam If) Tj
+T*
+(  keystone_understanding is deep, Marlowe knows protection had a cost and can wonder) Tj
+T*
+(  who benefits from that cost. Knowledge gated by keystone_understanding=deep Connects) Tj
+T*
+(  the ward's consuming nature to the larger pattern without explaining the mechanism.) Tj
+T*
+(  Can make the hidden hook magical instead of bureaucratic. Marlowe, the ward consumes) Tj
+T*
+(  to protect. What if the danger it protects against is being made? Want to follow) Tj
+T*
+(  that thought? barnacle Barnacle Follow the money Barnacle has been asking who) Tj
+T*
+(  profits since the job started. Finesse/Knowledge earned clue chain Names who) Tj
+T*
+(  benefits every time the forest is called dangerous. Can turn the hidden hook into a) Tj
+T*
+(  clean rogue question: who gets paid? Barnacle, you've been asking who profits. Want) Tj
+T*
+(  to say the...) Tj
+T*
+(- Gmbeats: MAP-LOC-the-goldspire-relay-future Future Future destination Say: "This is) Tj
+T*
+(  a future door, not a scene we play tonight." The Relay is a named future door, not) Tj
+T*
+(  tonight's destination. The story can continue without demanding continuation.) Tj
+T*
+(  sequel_direction captures the chosen door. Players understand the boundary. Player) Tj
+T*
+(  takeaway Players understand the boundary. "This is a future door, not a scene we) Tj
+T*
+(  play tonight." "Players understand the boundary." Use this beat to give the players) Tj
+T*
+(  closure, not a new problem to solve. report-choice Story takeaway The story can) Tj
+T*
+(  continue without demanding continuation. "This is a future door, not a scene we play) Tj
+T*
+(  tonight." "The story can continue without demanding continuation." Tie the answer) Tj
+T*
+(  back to what the party already did and chose. report-choice Mechanic takeaway) Tj
+T*
+(  sequel_direction captures the chosen door. "This is a future door, not a scene we) Tj
+T*
+(  play tonight." "sequel_direction captures the chosen door." The epilogue mechanics) Tj
+T*
+(  are reward, reflection, report payoff, and choosing which door stays open. report-) Tj
+T*
+(  choice) Tj
+T*
+(- Takeawayhelp: Player takeaway The Relay is a future door, not tonight's destination.) Tj
+T*
+(  "This is a future door, not a scene we play tonight." "You can leave it open, close) Tj
+T*
+(  it for now, or wonder what is under it." Do not overfeed tired players. report-) Tj
+T*
+(  choice table-spotlight Story takeaway The one-shot ends complete while leaving a) Tj
+T*
+(  possible next story. "Tonight ends here. The west is simply still there." "The) Tj
+T*
+(  Keeper and mechanism are intentionally deferred." No future plot is resolved now.) Tj
+T*
+(  report-choice table-spotlight Mechanic takeaway sequel_direction records which door) Tj
+T*
+(  stays open. "Set sequel_direction to relay, hidden, both, or undecided." "relay) Tj
+T*
+(  means the official hook; hidden means the table named the pattern; both means both) Tj
+T*
+(  doors stay open." This is the last state write. report-choice table-spotlight) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-the-goldspire-relay-player.png The Goldspire Relay) Tj
+T*
+(  map board. MAP-LOC-the-goldspire-relay environment The Goldspire Relay S06-02) Tj
+T*
+(  assets/maps/MAP-LOC-the-goldspire-relay-player.png assets/maps/MAP-LOC-the-) Tj
+T*
+(  goldspire-relay-player.png The Goldspire Relay map board. The Relay stands westward) Tj
+T*
+(  beyond the trees, a beacon that should burn steady and does not. The Relay stands) Tj
+T*
+(  westward beyond the trees, a beacon that should burn steady and does not. Western) Tj
+T*
+(  relay Something is wrong with the keeper or the fire. 0.56 0.32 MAP-LOC-the-) Tj
+T*
+(  goldspire-relay-map-only Map only The Goldspire Relay map-only assets/maps/MAP-LOC-) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 2378 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  the-goldspire-relay-player.png The Goldspire Relay map board. MAP-LOC-the-goldspire-) Tj
+T*
+(  relay environment The Goldspire Relay S06-02 assets/maps/MAP-LOC-the-goldspire-) Tj
+T*
+(  relay-player.png assets/maps/MAP-LOC-the-goldspire-relay-player.png The Goldspire) Tj
+T*
+(  Relay map board. The Relay stands westward beyond the trees, a beacon that should) Tj
+T*
+(  burn steady and does not. The Relay stands westward beyond the trees, a beacon that) Tj
+T*
+(  should burn steady and does not. Western relay Something is wrong with the keeper or) Tj
+T*
+(  the fire. 0.56 0.32 MAP-LOC-the-goldspire-relay-map-text Map + text The...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-the-goldspire-relay map The Goldspire Relay) Tj
+T*
+(  assets/maps/MAP-LOC-the-goldspire-relay-player.png The Goldspire Relay map board.) Tj
+T*
+(  spatial reference and location texture The Relay stands westward beyond the trees, a) Tj
+T*
+(  beacon that should burn steady and does not. The Relay stands westward beyond the) Tj
+T*
+(  trees, a beacon that should burn steady and does not. MAP-LOC-the-goldspire-relay) Tj
+T*
+(  environment The Goldspire Relay S06-02 assets/maps/MAP-LOC-the-goldspire-relay-) Tj
+T*
+(  player.png assets/maps/MAP-LOC-the-goldspire-relay-player.png The Goldspire Relay) Tj
+T*
+(  map board. The Relay stands westward beyond the trees, a beacon that should burn) Tj
+T*
+(  steady and does not. The Relay stands westward beyond the trees, a beacon that) Tj
+T*
+(  should burn steady and does not. Western relay Something is wrong with the keeper or) Tj
+T*
+(  the fire. 0.56 0.32 assets/maps/MAP-LOC-the-goldspire-relay-player.png The Goldspire) Tj
+T*
+(  Relay map board. MAP-LOC-the-goldspire-relay environment The Goldspire Relay S06-02) Tj
+T*
+(  assets/maps/MAP-LOC-the-goldspire-relay-player.png assets/maps/MAP-LOC-the-) Tj
+T*
+(  goldspire-relay-player.png The Goldspire Relay map board. The Relay stands westward) Tj
+T*
+(  beyond the trees, a beacon that should burn steady and does not. The Relay stands...) Tj
+T*
+(- Slidenumber: 80) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 9d0949ea04ecb2dc | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R] /Count 4 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000002451 00000 n 
+0000002578 00000 n 
+0000006488 00000 n 
+0000006615 00000 n 
+0000010933 00000 n 
+0000011060 00000 n 
+0000013490 00000 n 
+0000013617 00000 n 
+0000013692 00000 n 
+0000013742 00000 n 
+trailer
+<< /Size 12 /Root 10 0 R >>
+startxref
+13815
+%%EOF

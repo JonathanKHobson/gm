@@ -1,0 +1,118 @@
+%PDF-1.4
+1 0 obj
+<< /Length 1670 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S04-02 - The Hanging Office Exterior) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(Up close, cabin undersells it. A home hangs from a braid of rope as thick as a giant's) Tj
+T*
+(forearm, tied to a massive branch and counterweighted by a boulder the size of the cabin) Tj
+T*
+(itself. The whole thing sways like overripe fruit ready to drop. The boulder is carved) Tj
+T*
+(with symbols; the windows flash a soft yellow-green light. There is no obvious door at) Tj
+T*
+(ground level. What do you do?) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Get the Custodian's attention or reach her home.) Tj
+T*
+() Tj
+T*
+(GM goal) Tj
+T*
+() Tj
+T*
+(Run the hanging-home puzzle as a gentle test of patience, courtesy, and cleverness.) Tj
+T*
+() Tj
+T*
+(GM notes) Tj
+T*
+() Tj
+T*
+(- The goal is not to stump the table. Let the puzzle reveal what kind of guests they) Tj
+T*
+(  are.) Tj
+T*
+(- Destructive force lowers trust; gentle strength or patient honesty raises it.) Tj
+T*
+() Tj
+T*
+(GM script) Tj
+T*
+() Tj
+T*
+(Say: "This is not a lock to force. It is a person to convince. Call up, climb, study the) Tj
+T*
+(counterweight, or wait and announce yourselves honestly.") Tj
+T*
+() Tj
+T*
+(State controls) Tj
+T*
+() Tj
+T*
+(- custodian_trust Custodian Trust select low neutral high) Tj
+T*
+(- festival_boon Festival Boon select none charm favor market_find goodwill) Tj
+T*
+(- custodian_route Custodian Route select unknown safe dangerous) Tj
+T*
+(- package_status Package Status select held lost) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 0e4b5775a551fac3 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [2 0 R] /Count 1 >>
+endobj
+4 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000001731 00000 n 
+0000001857 00000 n 
+0000001914 00000 n 
+0000001963 00000 n 
+trailer
+<< /Size 6 /Root 4 0 R >>
+startxref
+2035
+%%EOF

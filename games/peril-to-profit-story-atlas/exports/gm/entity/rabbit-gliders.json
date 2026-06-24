@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "rabbit-gliders",
+  "title": "Rabbit-Gliders",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "c3705a9db5869685",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Rabbit-Gliders: Rabbit-gliders skim between low branches near the Refuge, flashing white bellies before landing in fishing nets that were not meant for them."
+    },
+    {
+      "title": "Public role",
+      "body": "Refuge canopy game"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Rabbit-gliders skim between low branches near the Refuge, flashing white bellies before landing in fishing nets that were not meant for them."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use as a moral encounter. Reward restraint and observation without forcing a pet or mascot outcome."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash c3705a9db5869685 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

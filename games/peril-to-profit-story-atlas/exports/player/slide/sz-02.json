@@ -1,0 +1,42 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "SZ-02",
+  "kind": "slide",
+  "title": "SZ-02 - Safety Tools / Table Agreement",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Session Zero",
+  "hook": "You do not need to justify a boundary. If something is not fun, too intense, or not for tonight, we can pause, redirect, fade to black, or move on.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "You do not need to justify a boundary. If something is not fun, too intense, or not for tonight, we can pause, redirect, fade to black, or move on."
+    },
+    {
+      "label": "Public Objective",
+      "body": "You do not need to justify a boundary. If something is not fun, too intense, or not for tonight, we can pause, redirect, fade to black, or move on."
+    },
+    {
+      "label": "Player Bullets",
+      "body": "Open Door: you can step away at any point and return when ready. Simple table signal: say pause, slow down, can we rewind, or break. If you missed something, ask me to repeat it. If I am moving too fast, ask me to slow..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Open Door: you can step away at any point and return when ready.",
+    "Simple table signal: say pause, slow down, can we rewind, or break.",
+    "If you missed something, ask me to repeat it.",
+    "If I am moving too fast, ask me to slow down."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:SZ-02",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "02d5bc141de99414",
+  "generated_at": "2026-06-23T21:40:58"
+}

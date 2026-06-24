@@ -1,0 +1,70 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "the-sable-sinecure",
+  "title": "The Sable Sinecure",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "2f5fcef8905d5639",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "The Sable Sinecure: The Sable Sinecure™ makes moving freight through a deadly forest look so polished you forget the danger is the product. Slogan: The Sable Sinecure™: danger, properly accounted."
+    },
+    {
+      "title": "Public role",
+      "body": "Kazrak-franchised logistics guild that effectively runs Sablewood routes"
+    },
+    {
+      "title": "Handout text",
+      "body": "The Sable Sinecure: The Sable Sinecure™ makes moving freight through a deadly forest look so polished you forget the danger is the product. Slogan: The Sable Sinecure™: danger, properly accounted."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: faction",
+        "Role: Kazrak-franchised logistics guild that effectively runs Sablewood routes",
+        "Summary: The Sable Sinecure™ makes moving freight through a deadly forest look so polished you forget the danger is the product.",
+        "Tags: audit-recovery faction faction-profile kazrak logistics sablewood-lore source-page-7",
+        "Aliases: Kazrak-franchised logistics guild Sable Sinecure The Sable Sinecure",
+        "Connections: Kazrak Industries The Titan's Steps The Refuge Hazard-Indexed Pricing Fire-Falcons Sable Sinecure Secret Caches Artemis Inc Bramble Union Clover Co-op Will Scild Simrith Luhaj",
+        "Inventory: laminated unspoken code secret cache marks hazard-rate barter",
+        "Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.",
+        "Image Fallback: type-icon",
+        "Source Pages: Sablewood PDF p. 7",
+        "Name: The Sable Sinecure",
+        "Id: the-sable-sinecure",
+        "Meta: Faction / Community FACTION assets/icons/faction.png entity-faction #9f7aea 06 Factions and Companies factions faction",
+        "Related: Artemis Inc Bramble Union Clover Co-op Fire-Falcons Hazard-Indexed Pricing Kazrak Industries Sable Sinecure Secret Caches Simrith Luhaj The Refuge The Titan's Steps Will Scild",
+        "Image Prompt: Private table TTRPG story atlas asset for The Sable Sinecure, Faction / Community. Role: Kazrak-franchised logistics guild that effectively runs Sablewood routes. Summary: The Sable Sinecure™ makes moving freight through a deadly forest look so polished you forget the danger is the product.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Create a clean symbolic crest or brand mark on a plain dark background; no readable words. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Personality: A logistics guild that makes impossible forest transport look easy while pricing risk as proof of earned value.; show internal disagreement, practical needs, and how the faction explains itself when outsiders listen.",
+        "Wants: Protect its stake in Kazrak Industries, The Titan's Steps, The Refuge while being seen as more than a symbol or obstacle.",
+        "Fears: Being flattened into a slogan, blamed for every harm, or used by corporations as proof that control is necessary.",
+        "Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.",
+        "Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.",
+        "Sample Dialogue: A logistics guild that makes impossible forest transport look easy while pricing risk as proof of earned value.",
+        "Equipment: laminated unspoken code secret cache marks hazard-rate barter",
+        "Search Or Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.",
+        "Gm Use: Keep the satire pointed at institutional behavior, not vulnerable people. Reveal function through assets, language, and consequences.",
+        "Future Hooks: Bring back as an echo if players made a strong choice involving this entity.",
+        "Robust: The Sable Sinecure: The Sable Sinecure™ makes moving freight through a deadly forest look so polished you forget the danger is the product. Slogan: The Sable Sinecure™: danger, properly accounted. GM-only: routes upward into Kazrak-style hazard economy. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Protect its stake in Kazrak Industries, The Titan's Steps, The Refuge while being seen as more than a symbol or obstacle. Being flattened into a slogan, blamed for every harm, or used by corporations as proof that control is necessary. Sablewood field-guide faction and future-route texture; not a main one-shot antagonist. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about The Sable Sinecure and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne /...",
+        "Mechanics: Faction Pressure / Reputation Mechanics Players can read public face, negotiate leverage, track reputation, or identify pressure The Sable Sinecure when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: The Sable Sinecure™ makes moving freight through a deadly forest look so polished you forget the danger is the product. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-the-sable-sinecure-engage-the-sable-sinecure entity-the-sable-sinecure Engage The Sable Sinecure Engage The Sable Sinecure Presence Knowledge Instinct Presence Knowledge, Instinct 13 Choose the trait from the player's method, not the entity type. A flat read of The Sable Sinecure hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with...",
+        "Pronunciation: the SAY-bul SY-nih-kyoor",
+        "Short Pronunciation: the SAY-bul SY-nih-kyoor",
+        "Faction Profile: faction-profile-v1 the-sable-sinecure the-sable-sinecure Sablewood lore registry plus Faction_System_Packet guidance compact Atlas lore note: one-shot-safe expansion. Use as GM-only texture unless table play earns it. True grail The Sable Sinecure A logistics guild that makes impossible forest transport look polished, expensive, and deserved. The Sable Sinecure™: danger, properly accounted. The Sable Sinecure™ makes moving freight through a deadly forest look so polished you forget the danger is the product. The Sable Sinecure™ presents as old-money competence: lacquered route maps, a hazard-rate ledger displayed like a wine list, agents in sable-and-silver who quote your survival odds with a sommelier's confidence. Buy a Certified Safe Passage™, a Hazard-Indexed™ premium route, a membership tier that makes paying more for the same trees feel like taste. It is a Kazrak™ franchise wearing heritage like cologne. Every cache mark and danger rating is real, and every one of them exists to prove that knowing the forest is a luxury good, and you are renting it. A neat cache mark has been cut into the bark where only a trained eye would look. It is useful, smug, and almost certainly...",
+        "Clue Links: sable-sinecure-secret-caches Sable Sinecure Secret Caches Open Vale & Soul-Debt WORLD, COM MAP-LOC-sablewoodtm-logistics-preserve S01-01 Finesse D13 Instinct D13 Knowledge D13 If the clue is plainly visible, give the SHOW text freely first: A forest cache sitting in plain sight, apparently unguarded — which is exactly what makes it terrifying to the locals. With Fear on Agility, give the clue but add bite: The first read treats the ritual pressure as generic magic weather instead of a pattern with a human cost. The truth remains reachable, but it costs time, attention, trust, or a new complication.",
+        "Image: assets/logos/the-sable-sinecure.webp",
+        "Image Asset Status: image_gen",
+        "Faction Representative Image: assets/factions/the-sable-sinecure-representative.webp",
+        "Faction Representative Status: image_gen",
+        "Visual Gallery: primary Primary wiki image primary assets/logos/the-sable-sinecure.webp The Sable Sinecure primary wiki image visual. The Sable Sinecure: Primary wiki image. image_gen True True faction-logo-source Faction logo faction-logo assets/entity-gallery/the-sable-sinecure/faction-logo-source.webp The Sable Sinecure faction logo visual. The Sable Sinecure: Faction logo. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/logos/the-sable-sinecure.webp faction-representative-source Representative scene faction-representative assets/entity-gallery/the-sable-sinecure/faction-representative-source.webp The Sable Sinecure representative scene visual. The Sable Sinecure: Representative scene. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/representative/the-sable-sinecure.png"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 2f5fcef8905d5639 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

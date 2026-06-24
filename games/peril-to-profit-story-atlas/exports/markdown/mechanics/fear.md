@@ -1,0 +1,47 @@
+# Fear
+
+RAW export - entity:fear
+
+## Player-facing description
+Fear: Fear lets the GM seize spotlight, reveal costs, trigger features, and advance pressure.
+
+## Public role
+GM escalation currency and consequence pressure
+
+## Handout text
+Player-safe note: Fear lets the GM seize spotlight, reveal costs, trigger features, and advance pressure.
+
+## Raw source
+- Type: mechanic
+- Role: GM escalation currency and consequence pressure
+- Summary: Fear lets the GM seize spotlight, reveal costs, trigger features, and advance pressure.
+- Tags: rules-canon currency p2p
+- Aliases: Fear Fear spin GM Fear with Fear
+- Connections: Duality Dice GM Rules Drawer
+- Inventory: GM starts with 1 per PC, max 12
+- Loot: No loot.
+- Name: Fear
+- Id: fear
+- Meta: Mechanic MECHANIC assets/icons/mechanic.png entity-mechanic #87b9ff 08 Tables and Loot entities mechanic
+- Appears In: S02-03 S04-03 S04-04 S05-03 S05-05
+- Related: Duality Dice GM Rules Drawer S02-03 S04-03 S04-04 S05-03 S05-05
+- Image Prompt: Private table TTRPG story atlas asset for Fear, Mechanic. Role: GM escalation currency and consequence pressure. Summary: Fear lets the GM seize spotlight, reveal costs, trigger features, and advance pressure.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: Fear lets the GM seize spotlight, reveal costs, trigger features, and advance pressure.; keep the rule-facing state visible through fictional signs the table can understand.
+- Wants: Turn choices around Duality Dice, GM Rules Drawer into clear consequences the GM can track.
+- Fears: Becoming an invisible counter instead of a pressure the players can read, influence, and remember.
+- Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.
+- Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.
+- Sample Dialogue: Fear lets the GM seize spotlight, reveal costs, trigger features, and advance pressure.
+- Equipment: GM starts with 1 per PC, max 12
+- Search Or Loot: No loot.
+- Gm Use: Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.
+- Future Hooks: Bring back as an echo if players made a strong choice involving this entity.
+- Robust: Fear: Fear lets the GM seize spotlight, reveal costs, trigger features, and advance pressure. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Turn choices around Duality Dice, GM Rules Drawer into clear consequences the GM can track. Becoming an invisible counter instead of a pressure the players can read, influence, and remember. Use when the scene needs a concrete object for players to inspect, carry, debate, or remember. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Fear and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the institutional pattern. Wildborne / community: notices local use, neglect, or ecological stress. Martial /...
+- Pronunciation: Fear
+- Short Pronunciation: Fear
+- Image: assets/entities/fear.webp
+- Image Asset Status: fallback_type_icon
+- Visual Gallery: primary Primary wiki image primary assets/entities/fear.webp Fear primary wiki image visual. Fear: Primary wiki image. fallback_type_icon True True
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 4b28a9b7e1cc0a7d | Source hash dac3370046ed077140fab2d6

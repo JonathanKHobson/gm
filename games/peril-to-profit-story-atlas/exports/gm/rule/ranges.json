@@ -1,0 +1,47 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "ranges",
+  "title": "Ranges",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "19a114918dca9215",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "Daggerheart uses bands like Melee, Very Close, Close, Far, and Very Far."
+    },
+    {
+      "title": "How it works",
+      "body": "Use when distance matters to weapons, spells, or positioning."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use when distance matters to weapons, spells, or positioning.",
+        "Use the range band that best fits the fiction.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "How far away is it?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "adversary-attacks"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 19a114918dca9215 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "vulnerable",
+  "kind": "rule",
+  "title": "Vulnerable",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "condition",
+  "hook": "Rolls targeting the Vulnerable target have advantage.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Rolls targeting the Vulnerable target have advantage."
+    },
+    {
+      "label": "How It Works",
+      "body": "Vulnerable: Rolls targeting the Vulnerable target have advantage."
+    },
+    {
+      "label": "Try It",
+      "body": "What does Vulnerable do?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use when the target is exposed by rule, feature, or clear fiction.",
+    "Attacks or rolls against the target have advantage.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:vulnerable",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "8506aa6cebc53833",
+  "generated_at": "2026-06-23T21:40:58"
+}

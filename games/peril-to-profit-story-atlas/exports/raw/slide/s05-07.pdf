@@ -1,0 +1,651 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2759 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S05-07 - Beyond the Contract) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(An hour later, back in the treehouse, the Keystone hangs suspended over a rumbling) Tj
+T*
+(hearth-fire. The Custodian, older now, exhaustion plain in her voice, folds herself into) Tj
+T*
+(an over-stuffed chair. "You fought hard. I'm not surprised. Emeris doesn't send just) Tj
+T*
+(anyone." She lets you sit with it, the warmth and the weight both. And then, because) Tj
+T*
+(there is always one more thing: she has a question about what you will tell the people) Tj
+T*
+(who sent you, and a map to somewhere the light is going wrong.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Wrap your story, decide how you report what happened, and learn what comes next.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: S05-07) Tj
+T*
+(- Type: scene) Tj
+T*
+(- Sectionid: ACT-FIVE) Tj
+T*
+(- Sectiontitle: Act Five: The Ward Renewal) Tj
+T*
+(- Title: Beyond the Contract) Tj
+T*
+(- Shorttitle: Report Choice) Tj
+T*
+(- Order: 607) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: True) Tj
+T*
+(- Image: assets/scenes/S05-07-the-ward-locks-into-place.png) Tj
+T*
+(- Alt: The Ward Locks Into Place scene art for The Ward Renewal.) Tj
+T*
+(- Caption: The adventure ends with what truth the party chooses to carry forward.) Tj
+T*
+(- Mood: The Ward Renewal) Tj
+T*
+(- Gmgoal: Honor the finale, run the report choice, and bridge to the Epilogue through) Tj
+T*
+(  report_choice.) Tj
+T*
+(- Publicobjective: Wrap your story, decide how you report what happened, and learn) Tj
+T*
+(  what comes next.) Tj
+T*
+(- Readaloud: An hour later, back in the treehouse, the Keystone hangs suspended over a) Tj
+T*
+(  rumbling hearth-fire. The Custodian, older now, exhaustion plain in her voice, folds) Tj
+T*
+(  herself into an over-stuffed chair. "You fought hard. I'm not surprised. Emeris) Tj
+T*
+(  doesn't send just anyone." She lets you sit with it, the warmth and the weight both.) Tj
+T*
+(  And then, because there is always one more thing: she has a question about what you) Tj
+T*
+(  will tell the people who sent you, and a map to somewhere the light is going wrong.) Tj
+T*
+(- Gmnotes: The report choice is the satirical gut-punch: real heroism meets paperwork) Tj
+T*
+(  and future liability.) Tj
+T*
+(- Gmscript: Say: "The fight is won. Now the real question: what do you put in the) Tj
+T*
+(  report? File honest, spin corporate, refuse to report, or withhold the truth. That) Tj
+T*
+(  choice decides the Epilogue tone.") Tj
+T*
+(- Gmreadaloud: The Keystone hangs over a rumbling hearth-fire. The Custodian looks) Tj
+T*
+(  older now. "You fought hard. I'm not surprised. Emeris doesn't send just anyone.") Tj
+T*
+(  She asks what you will tell the people who sent you.) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4209 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Gmchecklist: Name protected_whom and honor the PC or group that covered the worst) Tj
+T*
+(  moment. Name ritual_outcome and custodian_fate in the denouement tone. Gate deeper) Tj
+T*
+(  truth: only keystone_understanding=deep + custodian_trust=high gets the strongest) Tj
+T*
+(  dread hint. Offer report_choice: file-honest, spin-corporate, refuse, withhold-the-) Tj
+T*
+(  truth. Set relay_hook_accepted if the party takes the Goldspire Relay hook. Bridge) Tj
+T*
+(  S05-07 -> S06-* by report_choice.) Tj
+T*
+(- Gmprivate: Truth-hint ladder low: the form has boxes for cost, blame, and) Tj
+T*
+(  recoverable asset, but no box for who was protected. Truth-hint ladder medium: the) Tj
+T*
+(  Custodian flinches when lives, memories, or warmth are described as resources.) Tj
+T*
+(  Truth-hint ladder high: only if keystone_understanding=deep and) Tj
+T*
+(  custodian_trust=high, say the frightening part is not that wards need power, but) Tj
+T*
+(  that someone learned how to profit from what protection consumes. Do not fully) Tj
+T*
+(  explain soul-economy. Let players reach for the conclusion.) Tj
+T*
+(- Playertakeaway: You saved a city. Now decide what story you tell about it, and) Tj
+T*
+(  whether you answer the next call.) Tj
+T*
+(- Storytakeaway: The adventure ends not with the fight, but with who gets to own the) Tj
+T*
+(  truth of what happened.) Tj
+T*
+(- Mechanictakeaway: report_choice gates the Epilogue, while ritual_outcome,) Tj
+T*
+(  protected_whom, custodian_fate, and relay_hook_accepted carry the finale forward.) Tj
+T*
+(- Rollcards: s05-07-help-the-ward-lock-into-place S05-07 Help the ward lock into place) Tj
+T*
+(  Help the ward lock into place Knowledge Presence Knowledge Presence 12 Knowledge) Tj
+T*
+(  supports the craft; Presence steadies the people tied to it. The ward returns) Tj
+T*
+(  unstable or emotionally hollow. Critical Success: best possible version of the) Tj
+T*
+(  action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the) Tj
+T*
+(  fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the) Tj
+T*
+(  position clean or generous. Success with Fear: the PC gets what they wanted, but the) Tj
+T*
+(  GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope:) Tj
+T*
+(  the PC does not get the full result, but gains Hope and receives a useful thread,) Tj
+T*
+(  clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear.) Tj
+T*
+(  Make a hard move that follows from the fiction. The ward returns unstable or) Tj
+T*
+(  emotionally hollow. Use a hard complication, lost time, worse position, GM Fear, or) Tj
+T*
+(  mark Stress. Apply an official condition only if the fiction and rules justify it.) Tj
+T*
+(  The attempt falls short, but a partial thread appears. Offer one clue, weak) Tj
+T*
+(  position, or safer follow-up. The PC gets the core result, but it...) Tj
+T*
+(- Entityids: keystone-asset whitefire-custodian open-valetm-ritual-site hush relay-) Tj
+T*
+(  spire goldspire-territories auditors-verdict-ledger ritual-countdown route-ledger) Tj
+T*
+(- Entities: keystone-asset Keystone Asset? item Item / Asset assets/icons/item.png) Tj
+T*
+(  assets/item-images/keystone-asset/profile_base.png KEE-stohn ASS-et Inside the) Tj
+T*
+(  sealed crate, packed in wax-paper and reassurance, sits a heavy grey stone the size) Tj
+T*
+(  of a loaf, warm to the touch, faintly humming, with a light deep inside it that is) Tj
+T*
+(  slowly going out. Keystone Asset?, Emeris Crown Holdings: the ward-stone that keeps) Tj
+T*
+(  Emeris safe. It is failing and must be renewed at Open Vale. The Hidden Contents Do) Tj
+T*
+(  not show this image during the Prologue. Use the sealed package instead. A massive) Tj
+T*
+(  ward-stone from the capital gate, needed to renew protective infrastructure.; use) Tj
+T*
+(  Keystone Asset as a concrete table object with texture, ownership, and a reason it) Tj
+T*
+(  matters now. Give players a tangible handle on Marlowe Fairwind, Whitefire) Tj
+T*
+(  Custodian, Open Vale? Ritual Site, whether they inspect, carry, return, trade, or) Tj
+T*
+(  refuse it. A massive ward-stone from the capital gate, needed to renew protective) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4002 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  infrastructure. whitefire-custodian Whitefire Custodian npc NPC / Ally) Tj
+T*
+(  assets/icons/npc.png assets/npc-images/whitefire-custodian/portrait_base.png WHITE-) Tj
+T*
+(  fire kus-TOH-dee-un Old faerie-like custodian who maintains the ward...) Tj
+T*
+(- Locationids: hush open-valetm-ritual-site relay-spire goldspire-territories) Tj
+T*
+(- Itemids: auditors-verdict-ledger) Tj
+T*
+(- Clueids: glass-bright-ward-sand) Tj
+T*
+(- Statecontrols: ward_stability Ward Stability select fragile stable ritual_prep) Tj
+T*
+(  Ritual Prep select unready ready keystone_understanding Keystone Understanding) Tj
+T*
+(  select surface deep ritual_countdown Ritual Countdown number 10 8 ritual_outcome) Tj
+T*
+(  Ritual Outcome select unresolved clean costly pyrrhic protected_whom Protected Whom) Tj
+T*
+(  select unresolved custodian party hush shared custodian_fate Custodian Fate select) Tj
+T*
+(  unresolved well drained dying report_choice Report Choice select unresolved file-) Tj
+T*
+(  honest spin-corporate refuse withhold-the-truth relay_hook_accepted Relay Hook) Tj
+T*
+(  Accepted checkbox strixwolf_disposition Strixwolf Disposition select unresolved calm) Tj
+T*
+(  hostile killed strixwolf_outcome Strixwolf Outcome select unresolved calmed helped) Tj
+T*
+(  avoided attacked killed strixwolf_trust Strixwolf Trust number 3) Tj
+T*
+(  strixwolf_blood_debt Strixwolf Blood Debt checkbox bramble_outcome Bramble Outcome) Tj
+T*
+(  select unresolved killed captured spared negotiated escaped let_cargo) Tj
+T*
+(  bramble_truth_learned Bramble Truth Learned checkbox package_status Package Status) Tj
+T*
+(  select held lost hush_trust Hush Trust select low neutral high custodian_route) Tj
+T*
+(  Custodian Route select unknown safe dangerous ward_awareness Ward Awareness select) Tj
+T*
+(  none seed aware...) Tj
+T*
+(- Mechanicids: countdown hope critical-success report-choice presence fear table-) Tj
+T*
+(  spotlight) Tj
+T*
+(- Playerquestions: Who do you name in the report? What truth do you refuse to give the) Tj
+T*
+(  wrong reader? Do you take the map to the next light going wrong?) Tj
+T*
+(- Relationshipprompts: Which PC quietly checks on someone else here? Who disagrees) Tj
+T*
+(  about the right thing to do without breaking trust?) Tj
+T*
+(- Ownershipprompt: Name one detail in The Ward Locks Into Place that belongs to your) Tj
+T*
+(  character's point of view.) Tj
+T*
+(- Fearspends: Spend Fear to tick the ritual countdown, expose the Custodian, activate) Tj
+T*
+(  ward backlash, or trigger Market Correction. Tick the Ritual Countdown the wrong) Tj
+T*
+(  direction or expose the Custodian. Trigger Market Correction, Pass-Through, Memory) Tj
+T*
+(  Delve, or Group Attack when fiction supports it.) Tj
+T*
+(- Choicesconsequences: File honest. The report says what happened plainly. Set) Tj
+T*
+(  report_choice=file-honest. Epilogue opens with accountability pressure: the company) Tj
+T*
+(  now knows the party knows. report_choice=file-honest Reward: truth on record. Cost:) Tj
+T*
+(  risk. player-visible Spin corporate. The report is company-friendly: job done,) Tj
+T*
+(  complications minimized. Set report_choice=spin-corporate. Epilogue opens smoother,) Tj
+T*
+(  but the system digests the truth and keeps moving. report_choice=spin-corporate) Tj
+T*
+(  Reward: clean standing. Cost: complicity. player-visible Refuse to report. The party) Tj
+T*
+(  rejects the form entirely. Set report_choice=refuse. Epilogue opens rebellious and) Tj
+T*
+(  unstable; silence creates pressure of its own. report_choice=refuse Reward: refusal.) Tj
+T*
+(  Cost: no clean shield. player-visible Withhold the truth. The report says enough to) Tj
+T*
+(  close the job but buries the deepest truth from dangerous readers. Set) Tj
+T*
+(  report_choice=withhold-the-truth. Epilogue opens with the largest fallout arc:) Tj
+T*
+(  people are protected now, but the hidden system has room to move.) Tj
+T*
+(  report_choice=withhold-the-truth Reward: short-term protection. Cost: biggest future) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4131 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  pressure. player-visible Accept the Relay hook. The party agrees the trouble is) Tj
+T*
+(  larger than...) Tj
+T*
+(- Lootclues: Open Vale residue Community gratitude Strong or unstable ward tag) Tj
+T*
+(  Auditor's Verdict Ledger?: A black ledger with bronze corners opens too neatly, as) Tj
+T*
+(  if the pages have already decided what the facts will be.) Tj
+T*
+(- Handoutids: Ward tone) Tj
+T*
+(- Sourcesceneslug: S05-07-the-ward-locks-into-place) Tj
+T*
+(- Sourcefiles: dist/Act5_Upgrade_Packet/ACT5_SCENE_RESEARCH.md) Tj
+T*
+(  dist/Act5_Upgrade_Packet/ACT5_OPEN_QUESTIONS.md) Tj
+T*
+(- References: Epilogue #S06-01 Relay hook #S06-02) Tj
+T*
+(- Storyscope: Perceived antagonist: the forest. True antagonist: the corporate lie) Tj
+T*
+(  about the forest. The players never confront it directly. They are meant to feel it) Tj
+T*
+(  by the end. Every act offers at least one guaranteed and one earned hint that the) Tj
+T*
+(  danger is manufactured and the forest is not the enemy. Soul-Audit Wraiths bear) Tj
+T*
+(  audit glyphs and say, "Unlicensed soul-resonance detected. Submit for audit.") Tj
+T*
+(  REFLAVOR GUARANTEED A defeated wraith leaves a Soulspire compliance tag or coil-) Tj
+T*
+(  credit token instead of natural remains. ADD GUARANTEED Wraiths ignore forest) Tj
+T*
+(  creatures and home only on ritual soul-magic. ADD EARNED Instinct Medium 15 A player) Tj
+T*
+(  can read the markings and name Soulspire without the GM naming it first. ADD EARNED) Tj
+T*
+(  Knowledge Medium 15 Optional flag: Legacy Skeletons carry scraps of old corporate) Tj
+T*
+(  credentials. FLAG SEED Instinct: target logic. Knowledge: read markings. ACT5 Act 5:) Tj
+T*
+(  Open Vale defense 200 2:40 to 3:20 3:20 countdown 8, skeletons, wraiths, Market) Tj
+T*
+(  Correction Lower the countdown start to 6; cap wraith reinforcements.) Tj
+T*
+(- Livetools: encounter S05-07 MAP-S05-03 pages/combat/s05-03.html) Tj
+T*
+(- Percharacterlayer: garrick-reed Garrick Reed The report Knows exactly how a) Tj
+T*
+(  corporate report works and how to lie on one. Can walk the party through what each) Tj
+T*
+(  version really means. Garrick, you've filed reports like this before. Want to walk) Tj
+T*
+(  the party through what each version really means? marlowe-fairwind Marlowe Fairwind) Tj
+T*
+(  The truth If custodian_trust is high and keystone_understanding is deep, the) Tj
+T*
+(  Custodian trusts her with the hardest dread-hint. Knowledge/Presence gated Receives) Tj
+T*
+(  the strongest truth-hint ladder without a full soul-economy exposition. Can decide) Tj
+T*
+(  whether to carry that truth into the report. Marlowe, she trusts you with the hard) Tj
+T*
+(  truth. Do you put it in the report, or protect them from it? barnacle Barnacle The) Tj
+T*
+(  angle Calculates who profits from each report version and whether honesty has a) Tj
+T*
+(  price worth paying. Can expose the deal logic of the final choice. Barnacle, every) Tj
+T*
+(  version of this report makes someone money. Want to figure out who before you) Tj
+T*
+(  decide? khari-nix Khari Nix The conscience Feels that burying the truth may protect) Tj
+T*
+(  the party but fail the next people the system hurts. Can argue for protection beyond) Tj
+T*
+(  tonight. Khari, burying this protects you but not the next ones. Want...) Tj
+T*
+(- Takeawayhelp: Player takeaway You saved a city. Now decide what story you tell about) Tj
+T*
+(  it, and whether you answer the next call. "Heroes do not get a clean ending here;) Tj
+T*
+(  they get a form to fill out. What do you write? And do you take the next job?" "Say) Tj
+T*
+(  goodbye to the Custodian, ask what you have been holding, choose the report, and) Tj
+T*
+(  decide whether the Relay hook stays open." Let players talk. This is the final) Tj
+T*
+(  agency beat. report-choice presence table-spotlight Story takeaway The adventure) Tj
+T*
+(  ends not with the fight, but with who gets to own the truth of what happened. "The) Tj
+T*
+(  fight is won. Now the real question is what story leaves this clearing, and who that) Tj
+T*
+(  story protects." "If they understand the cost, the report is moral pressure. If they) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 4216 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  do not, it is still how they frame a job well done." Report choice is the story) Tj
+T*
+(  thesis; do not reduce it to bookkeeping. report-choice presence table-spotlight) Tj
+T*
+(  Mechanic takeaway report_choice gates the Epilogue, while ritual_outcome,) Tj
+T*
+(  protected_whom, custodian_fate, and relay_hook_accepted carry the finale forward.) Tj
+T*
+(  "Set report_choice now: file-honest, spin-corporate, refuse, or withhold-the-truth.) Tj
+T*
+(  Then set whether they accept the Relay hook." "file-honest risks...) Tj
+T*
+(- Playerbeats: s05-07-treehouse After The treehouse after assets/scenes/S05-07-the-) Tj
+T*
+(  ward-locks-into-place.png The Ward Locks Into Place scene art for The Ward Renewal.) Tj
+T*
+(  The Keystone hangs over the hearth. The Custodian looks older, tired, and grateful.) Tj
+T*
+(  The Keystone hangs over the hearth. The Custodian looks older, tired, and grateful.) Tj
+T*
+(  The Keystone hangs over the hearth. The Custodian looks older, tired, and grateful.) Tj
+T*
+(  text-first s05-07-truth Truth What she tells you assets/scenes/S05-07-the-ward-) Tj
+T*
+(  locks-into-place.png The Ward Locks Into Place scene art for The Ward Renewal. She) Tj
+T*
+(  answers what she can, and what she cannot say still has weight. She answers what she) Tj
+T*
+(  can, and what she cannot say still has weight. She answers what she can, and what) Tj
+T*
+(  she cannot say still has weight. text-first s05-07-report Report What goes in the) Tj
+T*
+(  report assets/scenes/S05-07-the-ward-locks-into-place.png The Ward Locks Into Place) Tj
+T*
+(  scene art for The Ward Renewal. Choose the report path: file honest, spin corporate,) Tj
+T*
+(  refuse to report, or withhold the truth. Choose the report path: file honest, spin) Tj
+T*
+(  corporate, refuse to report, or withhold the truth. Choose the report path: file) Tj
+T*
+(  honest, spin corporate, refuse to report, or...) Tj
+T*
+(- Gmbeats: s05-07-treehouse After The treehouse after Say: "Let the warmth and) Tj
+T*
+(  exhaustion sit together. This is not a victory lap; it is a landing." The Keystone) Tj
+T*
+(  hangs over the hearth. The Custodian looks older, tired, and grateful. The fight's) Tj
+T*
+(  cost enters the room. Outcome state colors tone. Players get denouement warmth.) Tj
+T*
+(  Player takeaway Players get denouement warmth. "Let the warmth and exhaustion sit) Tj
+T*
+(  together. This is not a victory lap; it is a landing." "The table-facing answer is:) Tj
+T*
+(  Players get denouement warmth." Use this beat to give the players one visible next) Tj
+T*
+(  action: protect the center, read the field, spend prep, name who they shield, or) Tj
+T*
+(  choose what truth leaves with them. table-spotlight Story takeaway The fight's cost) Tj
+T*
+(  enters the room. "Let the warmth and exhaustion sit together. This is not a victory) Tj
+T*
+(  lap; it is a landing." "The story answer is: The fight's cost enters the room." Tie) Tj
+T*
+(  the answer to a visible Act 5 consequence: the ward steadies, the Custodian suffers,) Tj
+T*
+(  Hush is protected, or the final report changes who owns the truth. table-spotlight) Tj
+T*
+(  Mechanic takeaway Outcome state colors tone. "Let the warmth and exhaustion sit) Tj
+T*
+(  together. This is not a victory lap; it is a...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 9000) Tj
+T*
+(- Playersafeprojection: S05-07 scene Beyond the Contract assets/scenes/S05-07-the-) Tj
+T*
+(  ward-locks-into-place.png The Ward Locks Into Place scene art for The Ward Renewal.) Tj
+T*
+(  The adventure ends with what truth the party chooses to carry forward. The Ward) Tj
+T*
+(  Renewal Wrap your story, decide how you report what happened, and learn what comes) Tj
+T*
+(  next. An hour later, back in the treehouse, the Keystone hangs suspended over a) Tj
+T*
+(  rumbling hearth-fire. The Custodian, older now, exhaustion plain in her voice, folds) Tj
+T*
+(  herself into an over-stuffed chair. "You fought hard. I'm not surprised. Emeris) Tj
+T*
+(  doesn't send just anyone." She lets you sit with it, the warmth and the weight both.) Tj
+T*
+(  And then, because there is always one more thing: she has a question about what you) Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 2100 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  will tell the people who sent you, and a map to somewhere the light is going wrong.) Tj
+T*
+(  s05-07-treehouse After The treehouse after assets/scenes/S05-07-the-ward-locks-into-) Tj
+T*
+(  place.png The Ward Locks Into Place scene art for The Ward Renewal. The Keystone) Tj
+T*
+(  hangs over the hearth. The Custodian looks older, tired, and grateful. The Keystone) Tj
+T*
+(  hangs over the hearth. The Custodian looks older, tired, and grateful. The Keystone) Tj
+T*
+(  hangs over the hearth. The Custodian looks older, tired, and...) Tj
+T*
+(- Companionmapids: MAP-S05-03 MAP-LOC-open-valetm-ritual-site MAP-LOC-goldspire-) Tj
+T*
+(  territories) Tj
+T*
+(- Slidenumber: 75) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+(- Spotlights: SPOT-M-REPORT the-report-choice the-report-choice M22 S05-07 high) Tj
+T*
+(  mandatory beat:report How Will You Report? The one-shot's values check is front-and-) Tj
+T*
+(  center. You have four valid endings: file honest, spin corporate, refuse, or) Tj
+T*
+(  withhold the truth. No move is right. Each move chooses a different consequence. Ask) Tj
+T*
+(  the table what they write, what they omit, and who they protect. Report choice) Tj
+T*
+(  wiki/mechanic/the-report-choice consequences-and-hints Consequence chain) Tj
+T*
+(  wiki/mechanic/consequence-chain consequences-and-hints Make the final ethical choice) Tj
+T*
+(  visible and playable. mechanic defer-if-clock-critical True True SPOT-C-GARRICK-LATE) Tj
+T*
+(  garrick-reed Garrick Reed late S05-07 high optional beat:report Garrick, File It) Tj
+T*
+(  Right Reporting experience turns into an ethics anchor. Garrick, you know how) Tj
+T*
+(  filings work. Frame the party's truth and ownership now. Spotlight: Garrick) Tj
+T*
+(  wiki/character/garrick in-scene-prompts The report choice wiki/mechanic/the-report-) Tj
+T*
+(  choice consequences-and-hints character defer-if-clock-critical True True) Tj
+T*
+(- Spotlightsummary: 1 1) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash c859c09423f0f2a5 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R 12 0 R] /Count 6 >>
+endobj
+14 0 obj
+<< /Type /Catalog /Pages 13 0 R >>
+endobj
+15 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000009 00000 n 
+0000002820 00000 n 
+0000002948 00000 n 
+0000007209 00000 n 
+0000007337 00000 n 
+0000011391 00000 n 
+0000011519 00000 n 
+0000015702 00000 n 
+0000015830 00000 n 
+0000020098 00000 n 
+0000020227 00000 n 
+0000022380 00000 n 
+0000022510 00000 n 
+0000022600 00000 n 
+0000022651 00000 n 
+trailer
+<< /Size 16 /Root 14 0 R >>
+startxref
+22724
+%%EOF

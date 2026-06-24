@@ -1,0 +1,242 @@
+
+.story-mode-page {
+  --story-max: 1120px;
+}
+.story-mode {
+  max-width: var(--story-max);
+  margin: 0 auto 4rem;
+  padding: clamp(1rem, 3vw, 2rem);
+}
+.story-mode.hero-quiet {
+  padding-top: 1rem;
+}
+.story-mode h1 {
+  font-size: clamp(2rem, 5vw, 4.4rem);
+  line-height: .95;
+  max-width: 12ch;
+}
+.story-mode .lede {
+  max-width: 74ch;
+  font-size: 1.08rem;
+  line-height: 1.65;
+}
+.story-mode .inline-entity-link .type-icon,
+.story-mode .mechanic-link .type-icon {
+  display: none;
+}
+.story-mode-toolbar {
+  position: sticky;
+  top: 3.45rem;
+  z-index: 20;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .65rem;
+  align-items: center;
+  margin: 1.25rem 0;
+  padding: .7rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(255, 253, 248, .95);
+  backdrop-filter: blur(12px);
+}
+.story-mode-toolbar label {
+  display: inline-flex;
+  gap: .4rem;
+  align-items: center;
+  font-weight: 850;
+}
+.story-mode-toolbar input,
+.story-mode-toolbar select {
+  min-height: 2.4rem;
+  border-radius: 8px;
+}
+.story-mode-switcher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin: 1rem 0 0;
+}
+.story-primer {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin: 1.5rem 0;
+}
+.story-primer-card,
+.story-journey,
+.story-act-outline,
+.story-scene-line,
+.story-chapter,
+.story-control-card {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+}
+.story-primer-card {
+  padding: 1rem;
+}
+.story-primer-card h2,
+.story-primer-card h3 {
+  margin-top: 0;
+}
+.story-journey {
+  padding: 1rem;
+  margin: 1.25rem 0;
+}
+.journey-grid {
+  display: grid;
+  gap: .65rem;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+}
+.journey-step {
+  padding: .75rem;
+  border-left: 4px solid var(--accent);
+  background: #fffaf0;
+  border-radius: 8px;
+}
+.journey-step strong {
+  display: block;
+}
+.story-outline-stack {
+  display: grid;
+  gap: .85rem;
+}
+.story-act-outline {
+  overflow: hidden;
+}
+.story-act-outline > summary {
+  cursor: pointer;
+  list-style: none;
+  display: grid;
+  gap: .4rem;
+  padding: .95rem 1rem;
+}
+.story-act-outline > summary::-webkit-details-marker {
+  display: none;
+}
+.story-act-outline > summary h2 {
+  margin: 0;
+}
+.story-act-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+}
+.story-scene-list {
+  display: grid;
+  gap: .55rem;
+  padding: 0 1rem 1rem;
+}
+.story-scene-line {
+  padding: .85rem;
+  box-shadow: none;
+}
+.story-scene-line h3,
+.story-scene-line p {
+  margin-top: 0;
+}
+.story-scene-line p {
+  line-height: 1.55;
+}
+.story-link-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  align-items: center;
+  margin-top: .65rem;
+}
+.story-link-row a,
+.story-tag {
+  display: inline-flex;
+  min-height: 2rem;
+  align-items: center;
+  padding: .25rem .55rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: #fff;
+  font-size: .83rem;
+  font-weight: 850;
+  text-decoration: none;
+}
+.story-tag {
+  color: var(--muted);
+}
+.storyboard-section {
+  margin: 1.35rem 0 2rem;
+}
+.storyboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: .9rem;
+}
+.storyboard-card {
+  display: grid;
+  gap: .6rem;
+  padding: .65rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+}
+.storyboard-card img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #f4efe3;
+}
+.storyboard-card h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+.storyboard-card p {
+  margin: 0;
+  line-height: 1.45;
+}
+.story-chapter {
+  padding: 1rem;
+  margin: 1rem 0;
+}
+.story-chapter h2 {
+  margin-top: 0;
+}
+.story-chapter p {
+  max-width: 78ch;
+  line-height: 1.75;
+}
+.story-reader-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin: 1rem 0;
+}
+.story-reader-controls button {
+  min-height: 2.4rem;
+}
+.story-hidden {
+  display: none !important;
+}
+@media print {
+  .story-mode-toolbar,
+  .story-mode-switcher,
+  .story-link-row,
+  .story-reader-controls,
+  .sticky-top-nav,
+  .subpage-header,
+  .quick-reference-widget {
+    display: none !important;
+  }
+  .story-mode {
+    max-width: none;
+    padding: 0;
+  }
+  .story-primer-card,
+  .story-journey,
+  .story-act-outline,
+  .story-scene-line,
+  .story-chapter {
+    box-shadow: none;
+    break-inside: avoid;
+  }
+}

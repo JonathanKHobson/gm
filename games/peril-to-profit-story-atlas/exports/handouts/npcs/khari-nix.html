@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Khari Nix - Player Handout</title>
+<style>
+  :root { --paper:#ffffff; --ink:#1b1b1a; --label:#6b6b6b; --rule:#cfcabd; --rule-strong:#2a2a28; --accent:#9c7c33; --band:#f4f1e8; --serif:Georgia,"Times New Roman",serif; --sans:"Helvetica Neue",Arial,sans-serif; --maxw:7.3in; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:#e9e7e1; color:var(--ink); font-family:var(--serif); line-height:1.42; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .sheet { width:var(--maxw); max-width:100%; margin:24px auto; background:var(--paper); border:1px solid var(--rule); padding:.55in .6in .5in; position:relative; }
+  .h-frame { font-family:var(--sans); font-size:8.5px; letter-spacing:.22em; text-transform:uppercase; color:var(--label); margin:0 0 4px; display:flex; justify-content:space-between; gap:12px; align-items:baseline; }
+  .h-frame .tm { color:var(--accent); font-weight:700; }
+  .h-title { font-family:var(--serif); font-weight:700; font-size:25px; line-height:1.1; margin:0 0 3px; }
+  .h-sub { font-size:11px; font-style:italic; color:#444; margin:0 0 8px; }
+  .rule-accent { height:0; border:0; border-top:2px solid var(--accent); margin:6px 0 12px; }
+  .hook { font-size:13px; font-style:italic; margin:0 0 13px; color:#2b2b2a; }
+  .blocks { display:grid; grid-template-columns:1fr 1fr; gap:11px 18px; }
+  .block { break-inside:avoid; }
+  .block:nth-child(1):last-child { grid-column:1 / -1; }
+  .b-label { font-family:var(--sans); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--label); margin:0 0 3px; border-bottom:1px solid var(--rule); padding-bottom:2px; }
+  .b-body { font-size:12px; margin:0; }
+  .spec { grid-column:1 / -1; background:var(--band); border:1px solid var(--rule); padding:8px 11px; display:flex; flex-wrap:wrap; gap:4px 22px; align-items:baseline; margin-top:12px; }
+  .spec .pair { font-size:11px; }
+  .spec .pair b { font-family:var(--sans); font-size:8.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--label); margin-right:5px; }
+  .could { margin:14px 0 0; border:1px solid var(--rule-strong); padding:9px 12px 10px; break-inside:avoid; }
+  .could h4 { font-family:var(--sans); font-size:9px; letter-spacing:.18em; text-transform:uppercase; margin:0 0 5px; color:var(--ink); }
+  .could ul { margin:0; padding-left:16px; font-size:12px; }
+  .could li { margin:2px 0; }
+  .foot { margin-top:14px; padding-top:7px; border-top:1px solid var(--rule); font-family:var(--sans); font-size:8px; letter-spacing:.04em; color:var(--label); display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap; }
+  .foot .safe { border:1px solid var(--rule); padding:1px 6px; text-transform:uppercase; letter-spacing:.12em; }
+  @page { size:letter; margin:.5in; }
+  @media print { body { background:#fff; } .sheet { border:none; margin:0; width:auto; padding:0; } .rule-accent { border-top-color:#555; } .h-frame .tm { color:#555; } .spec { background:#f2f2f2; } }
+</style>
+</head>
+<body>
+<article class="sheet" data-handout="player" data-archetype="npc.contact_card" data-disclosure="standard" data-featured="false">
+  <p class="h-frame"><span>Redacted Contact Card</span><span class="tm">Player-safe</span></p>
+  <h1 class="h-title">Khari Nix</h1>
+  <p class="h-sub">PC / Player Character</p>
+  <hr class="rule-accent">
+  <p class="hook">Player-safe note: Loyal to people before contracts; hates predatory paperwork.</p>
+  <div class="blocks"><section class="block"><p class="b-label">Public Read</p><p class="b-body">Give one concrete visual, one sound or texture, and one sign of who has used or neglected it.</p></section><section class="block"><p class="b-label">Comes Across As</p><p class="b-body">direct, protective, impatient with predatory paperwork</p></section></div>
+  
+  <div class="could"><h4>You Could -</h4><ul><li>Ask Khari Nix what they need right now.</li><li>Watch what they protect before asking for trust.</li></ul></div>
+  <div class="foot"><span>Goldspire Story Atlas - entity:khari-nix</span><span>khari-nix - tier: standard</span><span>2026-06-23T21:40:58 - ce1a9aed655170b2</span><span class="safe">Player-safe</span></div>
+</article>
+</body>
+</html>

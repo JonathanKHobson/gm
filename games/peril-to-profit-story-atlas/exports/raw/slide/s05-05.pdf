@@ -1,0 +1,629 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2693 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S05-05 - The Peak) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(It all comes at once: the dead clawing up faster, the wraiths pressing in, the) Tj
+T*
+(Custodian's glow guttering like a candle in wind. The clock is close, but so is) Tj
+T*
+(disaster. Every choice now costs something: guard her and leave a friend exposed, or) Tj
+T*
+(save the friend and let her take the hit that sets you all back. There is no clean way) Tj
+T*
+(through. There is only what you are willing to give.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Survive the peak and drive the countdown home.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: S05-05) Tj
+T*
+(- Type: scene) Tj
+T*
+(- Sectionid: ACT-FIVE) Tj
+T*
+(- Sectiontitle: Act Five: The Ward Renewal) Tj
+T*
+(- Title: The Peak) Tj
+T*
+(- Shorttitle: Hold or Break) Tj
+T*
+(- Order: 605) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: True) Tj
+T*
+(- Image: assets/scenes/S05-05-soul-audit-wraiths.png) Tj
+T*
+(- Alt: Soul-Audit Wraiths scene art for The Ward Renewal.) Tj
+T*
+(- Caption: The peak asks what the party saves when it cannot save everything cleanly.) Tj
+T*
+(- Mood: The Ward Renewal) Tj
+T*
+(- Gmgoal: Run the peak HOLD/BREAK choice and let resource spends, protection, and) Tj
+T*
+(  sacrifice decide the outcome track.) Tj
+T*
+(- Publicobjective: Survive the peak and drive the countdown home.) Tj
+T*
+(- Readaloud: It all comes at once: the dead clawing up faster, the wraiths pressing) Tj
+T*
+(  in, the Custodian's glow guttering like a candle in wind. The clock is close, but so) Tj
+T*
+(  is disaster. Every choice now costs something: guard her and leave a friend exposed,) Tj
+T*
+(  or save the friend and let her take the hit that sets you all back. There is no) Tj
+T*
+(  clean way through. There is only what you are willing to give.) Tj
+T*
+(- Gmnotes: No PC is required to land the final blow. Let any meaningful action create) Tj
+T*
+(  the final tick if fiction supports it.) Tj
+T*
+(- Gmscript: Say: "All-in time. Spend Hope, boons, big abilities, tag-team moments, and) Tj
+T*
+(  last good ideas. You cannot cover it all, so what you choose to save becomes the) Tj
+T*
+(  ending.") Tj
+T*
+(- Gmreadaloud: It all comes at once. The Custodian's glow gutters like a candle in) Tj
+T*
+(  wind. The clock is close, but so is disaster.) Tj
+T*
+(- Gmchecklist: Threaten the Custodian honestly. Offer Death Move choices heroically if) Tj
+T*
+(  a PC marks their last HP: Blaze of Glory, Avoid Death, or Risk It All. Use HOLD if) Tj
+T*
+(  she is protected and the party drives the countdown home cleanly. Use BREAK if) Tj
+T*
+(  someone falls, she is hit badly, or the win is bought with a severe cost. Seed) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4106 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  ritual_outcome as clean, costly, or pyrrhic; finalize protected_whom.) Tj
+T*
+(- Gmprivate: Custodian death remains a Kyle canon flag. Use dying only as a marked) Tj
+T*
+(  unresolved possibility unless ruled live.) Tj
+T*
+(- Playertakeaway: This is the moment you will remember: give everything, choose who) Tj
+T*
+(  you save, and finish it.) Tj
+T*
+(- Storytakeaway: You cannot save everything, so what you choose to save becomes the) Tj
+T*
+(  ending.) Tj
+T*
+(- Mechanictakeaway: Peak play spends Hope, boons, tag-team actions, Death Moves, and) Tj
+T*
+(  final countdown ticks to write ritual_outcome and protected_whom.) Tj
+T*
+(- Rollcards: s05-05-ground-an-untethered-ally S05-05 Ground an Untethered ally Ground) Tj
+T*
+(  an Untethered ally Presence Knowledge Presence Knowledge 13 Presence calls them) Tj
+T*
+(  back; Knowledge disputes the audit logic. A soul stays loose while the ritual) Tj
+T*
+(  strains. Critical Success: best possible version of the action; gain Hope and clear) Tj
+T*
+(  1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the) Tj
+T*
+(  PC gets what they wanted and gains Hope. Keep the position clean or generous.) Tj
+T*
+(  Success with Fear: the PC gets what they wanted, but the GM gains Fear and) Tj
+T*
+(  introduces a cost, complication, or pressure. Failure with Hope: the PC does not get) Tj
+T*
+(  the full result, but gains Hope and receives a useful thread, clue, or safer next) Tj
+T*
+(  option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that) Tj
+T*
+(  follows from the fiction. A soul stays loose while the ritual strains. Use a hard) Tj
+T*
+(  complication, lost time, worse position, GM Fear, or mark Stress. Apply an official) Tj
+T*
+(  condition only if the fiction and rules justify it. The attempt falls short, but a) Tj
+T*
+(  partial thread appears. Offer one clue, weak position, or safer follow-up. The PC) Tj
+T*
+(  gets the core result, but it costs time, noise, leverage, or...) Tj
+T*
+(- Entityids: soul-audit-wraith market-correction ritual-countdown whitefire-custodian) Tj
+T*
+(  soul-audit-memory-shard soulspire-solutions route-ledger fear) Tj
+T*
+(- Entities: soul-audit-wraith Soul-Audit Wraith enemy Enemy / Combatant) Tj
+T*
+(  assets/icons/enemy.png assets/npc-images/soul-audit-wraith/portrait_base.png SOHL) Tj
+T*
+(  AW-dit RAYTH A terrifying wraith that attacks memory, vulnerability, and soul) Tj
+T*
+(  tether. Soul-debt collector threat. Soul-Audit Wraith a cold memory predator that) Tj
+T*
+(  makes care feel like an unpaid balance A predator made of policy, hunting where) Tj
+T*
+(  debt, ward-failure, and fear overlap. The original person wanted release from a debt) Tj
+T*
+(  that taught them to collect others, and that single unpaid wanting is the only crack) Tj
+T*
+(  in the ledger. Convert protection, memory, and fear into collectable balance. Please) Tj
+T*
+(  state the value of what you refuse to lose. a cold memory predator that makes care) Tj
+T*
+(  feel like an unpaid balance npc-profile-v1 NPC_System_Packet + image-informed) Tj
+T*
+(  hardening True Soul-Audit Wraith a cold memory predator that makes care feel like an) Tj
+T*
+(  unpaid balance A blue-white skeletal auditor drifts inside a torn hood, ledger-light) Tj
+T*
+(  spilling from a dead chest medallion while spectral papers curl around one arm.) Tj
+T*
+(  Soul-Audit Wraith: a cold memory predator that makes care feel like an unpaid) Tj
+T*
+(  balance Soul-Audit Wraith SOHL AW-dit RAYTH a cold memory predator...) Tj
+T*
+(- Clueids: route-ledger market-correction soul-audit-memory-shard legacy-security-) Tj
+T*
+(  badge) Tj
+T*
+(- Statecontrols: ward_stability Ward Stability select fragile stable ritual_prep) Tj
+T*
+(  Ritual Prep select unready ready keystone_understanding Keystone Understanding) Tj
+T*
+(  select surface deep ritual_countdown Ritual Countdown number 10 8 ritual_outcome) Tj
+T*
+(  Ritual Outcome select unresolved clean costly pyrrhic protected_whom Protected Whom) Tj
+T*
+(  select unresolved custodian party hush shared custodian_fate Custodian Fate select) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4054 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  unresolved well drained dying strixwolf_disposition Strixwolf Disposition select) Tj
+T*
+(  unresolved calm hostile killed strixwolf_outcome Strixwolf Outcome select unresolved) Tj
+T*
+(  calmed helped avoided attacked killed strixwolf_trust Strixwolf Trust number 3) Tj
+T*
+(  strixwolf_blood_debt Strixwolf Blood Debt checkbox bramble_outcome Bramble Outcome) Tj
+T*
+(  select unresolved killed captured spared negotiated escaped let_cargo) Tj
+T*
+(  bramble_truth_learned Bramble Truth Learned checkbox package_status Package Status) Tj
+T*
+(  select held lost hush_trust Hush Trust select low neutral high custodian_route) Tj
+T*
+(  Custodian Route select unknown safe dangerous ward_awareness Ward Awareness select) Tj
+T*
+(  none seed aware festival_boon Festival Boon select none charm favor market_find) Tj
+T*
+(  goodwill custodian_trust Custodian Trust select low neutral high hush_clues Hush...) Tj
+T*
+(- Mechanicids: stress vulnerable reaction-rolls presence knowledge countdown death-) Tj
+T*
+(  move tag-team-roll hope fear untethered group-attack) Tj
+T*
+(- Playerquestions: Who do you stand in front of? What have you been saving for now? If) Tj
+T*
+(  you cannot cover everything, what do you choose to save?) Tj
+T*
+(- Relationshipprompts: Which PC quietly checks on someone else here? Who disagrees) Tj
+T*
+(  about the right thing to do without breaking trust?) Tj
+T*
+(- Ownershipprompt: Name one detail in Soul-Audit Wraiths that belongs to your) Tj
+T*
+(  character's point of view.) Tj
+T*
+(- Fearspends: Spend Fear to tick the ritual countdown, expose the Custodian, activate) Tj
+T*
+(  ward backlash, or trigger Market Correction. Tick the Ritual Countdown the wrong) Tj
+T*
+(  direction or expose the Custodian. Trigger Market Correction, Pass-Through, Memory) Tj
+T*
+(  Delve, or Group Attack when fiction supports it.) Tj
+T*
+(- Choicesconsequences: HOLD: protect her and finish the clock. The Custodian stays) Tj
+T*
+(  upright and the countdown reaches 0. Set ritual_outcome=clean if the party stays) Tj
+T*
+(  intact; costly if resources are spent hard. S05-06 lands as earned relief.) Tj
+T*
+(  ritual_outcome=clean/costly; custodian_fate=well/drained Reward: strong victory with) Tj
+T*
+(  named effort. player-visible BREAK: save a friend and let the center suffer. A) Tj
+T*
+(  friend survives, but the ritual takes a hit. Tick ritual_countdown +1 or set) Tj
+T*
+(  custodian_fate=drained/dying depending on table result. S05-06 becomes costly or) Tj
+T*
+(  pyrrhic. ritual_outcome=costly/pyrrhic; protected_whom=party Both: people saved,) Tj
+T*
+(  ward cost rises. player-visible Spend a boon or Hope now. An earned resource changes) Tj
+T*
+(  the peak. festival_boon, Hope, tag-team action, or class feature cancels pressure or) Tj
+T*
+(  creates a final tick. Prior choices become visible in the finale. ritual_outcome) Tj
+T*
+(  improves one step if fiction supports it Reward: five-act payoff. player-visible) Tj
+T*
+(  Death Move triggers. A PC facing last HP gets a heroic choice. Blaze of Glory, Avoid) Tj
+T*
+(  Death, or Risk It All; record protected_whom and ritual_outcome. The denouement) Tj
+T*
+(  honors the choice by name. protected_whom=shared/party; ritual_outcome=costly or...) Tj
+T*
+(- Lootclues: Use Wraith memory shards table) Tj
+T*
+(- Handoutids: Memory shard Guaranteed seed Guaranteed seed Earned seed Earned seed) Tj
+T*
+(- Sourcesceneslug: S05-05-soul-audit-wraiths) Tj
+T*
+(- Sourcefiles: dist/Act5_Upgrade_Packet/ACT5_SCENE_RESEARCH.md) Tj
+T*
+(  dist/Act5_Upgrade_Packet/ACT5_MAPS_AND_LOCATIONS.md) Tj
+T*
+(- References: Peak battle skeleton map #MAP-COMBAT-S05-05 Peak battle wraith map #MAP-) Tj
+T*
+(  COMBAT-S05-06) Tj
+T*
+(- Storyscope: Perceived antagonist: the forest. True antagonist: the corporate lie) Tj
+T*
+(  about the forest. The players never confront it directly. They are meant to feel it) Tj
+T*
+(  by the end. Every act offers at least one guaranteed and one earned hint that the) Tj
+T*
+(  danger is manufactured and the forest is not the enemy. Soul-Audit Wraiths bear) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4381 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  audit glyphs and say, "Unlicensed soul-resonance detected. Submit for audit.") Tj
+T*
+(  REFLAVOR GUARANTEED A defeated wraith leaves a Soulspire compliance tag or coil-) Tj
+T*
+(  credit token instead of natural remains. ADD GUARANTEED Wraiths ignore forest) Tj
+T*
+(  creatures and home only on ritual soul-magic. ADD EARNED Instinct Medium 15 A player) Tj
+T*
+(  can read the markings and name Soulspire without the GM naming it first. ADD EARNED) Tj
+T*
+(  Knowledge Medium 15 Optional flag: Legacy Skeletons carry scraps of old corporate) Tj
+T*
+(  credentials. FLAG SEED Soul-Audit Wraiths bear audit glyphs and say, "Unlicensed) Tj
+T*
+(  soul-resonance detected. Submit for audit." REFLAVOR GUARANTEED A defeated wraith) Tj
+T*
+(  leaves a Soulspire compliance tag or coil-credit token instead of natural remains.) Tj
+T*
+(  ADD GUARANTEED Wraiths ignore forest creatures and home only on ritual soul-magic.) Tj
+T*
+(  ADD EARNED Instinct Medium 15 A player can read the markings and...) Tj
+T*
+(- Livetools: encounter S05-05 MAP-COMBAT-S05-05 MAP-S05-03 pages/combat/s05-05.html) Tj
+T*
+(- Percharacterlayer: khari-nix Khari Nix The sacrifice Natural body for the protect-) Tj
+T*
+(  choice: Custodian, ally, or center at her own cost. Can step into the hardest) Tj
+T*
+(  pressure without becoming mandatory. Khari, this is the moment a guardian lives for.) Tj
+T*
+(  Who do you put yourself between? garrick-reed Garrick Reed All-in strike Can spend) Tj
+T*
+(  Hope, Tag Team, or a big Warrior push to drop the threat menacing the Custodian. Can) Tj
+T*
+(  bring the clock home through decisive action. Garrick, go all-in on the thing about) Tj
+T*
+(  to hit her. Want to end this? marlowe-fairwind Marlowe Fairwind Duty vs people A) Tj
+T*
+(  last big spell can clear field pressure or shield the Custodian. Her choice mirrors) Tj
+T*
+(  duty versus people without gating victory. Marlowe, one big push left. Protect her,) Tj
+T*
+(  or protect the party? Your call says who you've become. barnacle Barnacle Clutch) Tj
+T*
+(  save Can yank an Untethered or falling ally out of danger. Can make the save nobody) Tj
+T*
+(  sees coming. Barnacle, someone's about to fall. Want to be the reason they don't?) Tj
+T*
+(  varian-soto Varian Soto Clean shot Can land a final ranged burst to defeat the last) Tj
+T*
+(  threat and tick the clock to 0. Can end pressure from the edge. Varian, one clean) Tj
+T*
+(  shot could end it. Want to take it?) Tj
+T*
+(- Takeawayhelp: Player takeaway This is the moment you will remember: give everything,) Tj
+T*
+(  choose who you save, and finish it. "Whatever you have been saving, now. Decide who) Tj
+T*
+(  you stand in front of and bring the clock home." "Throw your best at the biggest) Tj
+T*
+(  threat, body-block the Custodian, spend a boon, or save the teammate about to fall.) Tj
+T*
+(  No wrong answer, only yours." Make this a choice scene, not a math exercise.) Tj
+T*
+(  countdown death-move hope tag-team-roll Story takeaway You cannot save everything,) Tj
+T*
+(  so what you choose to save becomes the ending. "You cannot cover it all. What you) Tj
+T*
+(  sacrifice here is the story you will tell about tonight." "There is no hidden trick.) Tj
+T*
+(  The clock can be won; the question is at what cost." HOLD/BREAK should be visible) Tj
+T*
+(  and emotionally fair. countdown death-move hope tag-team-roll Mechanic takeaway Peak) Tj
+T*
+(  play spends Hope, boons, tag-team actions, Death Moves, and final countdown ticks to) Tj
+T*
+(  write ritual_outcome and protected_whom. "All-in time: spend Hope, festival boon,) Tj
+T*
+(  tag-team, class features. If someone hits last HP, Death Move is live and heroic.") Tj
+T*
+(  "Every Custodian hit is +1; every defeat or true pressure removal is -1. Near the) Tj
+T*
+(  end, one choice can change clean to costly or costly...) Tj
+T*
+(- Playerbeats: s05-05-all-at-once Peak All at once assets/scenes/S05-05-soul-audit-) Tj
+T*
+(  wraiths.png Soul-Audit Wraiths scene art for The Ward Renewal. The dead claw faster,) Tj
+T*
+(  the wraiths press in, and the Custodian's glow gutters in the wind. The dead claw) Tj
+T*
+(  faster, the wraiths press in, and the Custodian's glow gutters in the wind. The dead) Tj
+T*
+(  claw faster, the wraiths press in, and the Custodian's glow gutters in the wind.) Tj
+T*
+(  text-first s05-05-choice Choice The choice assets/scenes/S05-05-soul-audit-) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 4099 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  wraiths.png Soul-Audit Wraiths scene art for The Ward Renewal. Guard her and leave a) Tj
+T*
+(  friend exposed, or save the friend and let her take the hit. There is no clean way) Tj
+T*
+(  through. Guard her and leave a friend exposed, or save the friend and let her take) Tj
+T*
+(  the hit. There is no clean way through. Guard her and leave a friend exposed, or) Tj
+T*
+(  save the friend and let her take the hit. There is no clean way through. text-first) Tj
+T*
+(  s05-05-drive All In Drive it home assets/scenes/S05-05-soul-audit-wraiths.png Soul-) Tj
+T*
+(  Audit Wraiths scene art for The Ward Renewal. Spend Hope, boons, big abilities, tag-) Tj
+T*
+(  team moments, and last good ideas. Bring the clock home. Spend Hope, boons, big) Tj
+T*
+(  abilities, tag-team moments, and last good ideas. Bring the...) Tj
+T*
+(- Gmbeats: s05-05-all-at-once Peak All at once Say: "This is the peak. The table) Tj
+T*
+(  should feel that every choice matters now." The dead claw faster, the wraiths press) Tj
+T*
+(  in, and the Custodian's glow gutters in the wind. All prior pressure converges. Peak) Tj
+T*
+(  state decides ritual_outcome. Players feel the climax pressure. Player takeaway) Tj
+T*
+(  Players feel the climax pressure. "This is the peak. The table should feel that) Tj
+T*
+(  every choice matters now." "The table-facing answer is: Players feel the climax) Tj
+T*
+(  pressure." Use this beat to give the players one visible next action: protect the) Tj
+T*
+(  center, read the field, spend prep, name who they shield, or choose what truth) Tj
+T*
+(  leaves with them. countdown fear Story takeaway All prior pressure converges. "This) Tj
+T*
+(  is the peak. The table should feel that every choice matters now." "The story answer) Tj
+T*
+(  is: All prior pressure converges." Tie the answer to a visible Act 5 consequence:) Tj
+T*
+(  the ward steadies, the Custodian suffers, Hush is protected, or the final report) Tj
+T*
+(  changes who owns the truth. countdown fear Mechanic takeaway Peak state decides) Tj
+T*
+(  ritual_outcome. "This is the peak. The table should feel that every choice matters) Tj
+T*
+(  now." "The active table procedure is: Peak state decides...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 8500) Tj
+T*
+(- Playersafeprojection: S05-05 scene The Peak assets/scenes/S05-05-soul-audit-) Tj
+T*
+(  wraiths.png Soul-Audit Wraiths scene art for The Ward Renewal. The peak asks what) Tj
+T*
+(  the party saves when it cannot save everything cleanly. The Ward Renewal Survive the) Tj
+T*
+(  peak and drive the countdown home. It all comes at once: the dead clawing up faster,) Tj
+T*
+(  the wraiths pressing in, the Custodian's glow guttering like a candle in wind. The) Tj
+T*
+(  clock is close, but so is disaster. Every choice now costs something: guard her and) Tj
+T*
+(  leave a friend exposed, or save the friend and let her take the hit that sets you) Tj
+T*
+(  all back. There is no clean way through. There is only what you are willing to give.) Tj
+T*
+(  s05-05-all-at-once Peak All at once assets/scenes/S05-05-soul-audit-wraiths.png) Tj
+T*
+(  Soul-Audit Wraiths scene art for The Ward Renewal. The dead claw faster, the wraiths) Tj
+T*
+(  press in, and the Custodian's glow gutters in the wind. The dead claw faster, the) Tj
+T*
+(  wraiths press in, and the Custodian's glow gutters in the wind. The dead claw) Tj
+T*
+(  faster, the wraiths press in, and the Custodian's glow gutters in the wind. text-) Tj
+T*
+(  first s05-05-choice Choice The choice assets/scenes/S05-05-soul-audit-wraiths.png) Tj
+T*
+(  Soul-Audit Wraiths scene art for The Ward Renewal. Guard her and leave...) Tj
+T*
+(- Companionmapids: MAP-S05-03 MAP-COMBAT-S05-05 MAP-LOC-open-valetm-ritual-site) Tj
+T*
+(- Slidenumber: 71) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+(- Spotlights: SPOT-M-DEATH unconscious-state unconscious-state M20 S05-05 high) Tj
+T*
+(  mandatory first-time Unconscious, Not Gone This one-shot keeps last HP gentle and) Tj
+T*
+(  recoverable. You are not dead. At last HP in this module default, you become) Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 1324 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Unconscious. You can return when an ally restores 1 HP or after a long rest. Last HP) Tj
+T*
+(  handling wiki/mechanic/unconscious-state stalled-player-recovery Advanced death) Tj
+T*
+(  moves wiki/mechanic/death-moves-advanced stalled-player-recovery True Protect table) Tj
+T*
+(  confidence during the most stressful hit-point moment. mechanic defer-if-clock-) Tj
+T*
+(  critical True True SPOT-M-TAGTEAM tag-team-roll tag-team-roll M10 S05-05 high) Tj
+T*
+(  mandatory beat:peak Tag Team Moment Two PCs can make one dramatic move together. A) Tj
+T*
+(  player can spend 3 Hope to initiate a Tag Team Roll with another PC. Both players) Tj
+T*
+(  roll, then choose one result to apply to both of them. This counts as one action) Tj
+T*
+(  roll and is once per player per session. Tag Team wiki/mechanic/tag-team teach-by-) Tj
+T*
+(  example Give the finale a clean, rules-backed teamwork button. mechanic defer-if-) Tj
+T*
+(  clock-critical True True SPOT-C-BARNACLE-LATE barnacle Barnacle late S05-05 high) Tj
+T*
+(  optional beat:peak Barnacle, Read the Market Endgame money trail gives them a...) Tj
+T*
+(- Spotlightsummary: 2 1) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 3422fa95aa18b58a | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R 12 0 R] /Count 6 >>
+endobj
+14 0 obj
+<< /Type /Catalog /Pages 13 0 R >>
+endobj
+15 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000009 00000 n 
+0000002754 00000 n 
+0000002882 00000 n 
+0000007040 00000 n 
+0000007168 00000 n 
+0000011274 00000 n 
+0000011402 00000 n 
+0000015835 00000 n 
+0000015963 00000 n 
+0000020114 00000 n 
+0000020243 00000 n 
+0000021620 00000 n 
+0000021750 00000 n 
+0000021840 00000 n 
+0000021891 00000 n 
+trailer
+<< /Size 16 /Root 14 0 R >>
+startxref
+21964
+%%EOF

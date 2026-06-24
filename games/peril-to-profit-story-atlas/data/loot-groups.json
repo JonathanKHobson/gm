@@ -1,0 +1,262 @@
+{
+  "Story Asset": [
+    {
+      "source": "Emeris Clerk",
+      "item_id": "keystone-asset",
+      "item_name": "Keystone Asset™",
+      "eligibility": "Assigned by the job; not lootable."
+    },
+    {
+      "source": "Whitefire Custodian",
+      "item_id": "keystone-asset",
+      "item_name": "Keystone Asset™",
+      "eligibility": "Assigned by the job; not lootable."
+    }
+  ],
+  "Route Sundries": [
+    {
+      "source": "Emeris Capital Gate",
+      "item_id": "incident-response-placard",
+      "item_name": "Incident Response Placard™",
+      "eligibility": "Mounted at route shrines, gates, and waypoints; portable versions ride with toll crews."
+    },
+    {
+      "source": "Sablewood Route Gate",
+      "item_id": "incident-response-placard",
+      "item_name": "Incident Response Placard™",
+      "eligibility": "Mounted at route shrines, gates, and waypoints; portable versions ride with toll crews."
+    },
+    {
+      "source": "Old Sable",
+      "item_id": "incident-response-placard",
+      "item_name": "Incident Response Placard™",
+      "eligibility": "Mounted at route shrines, gates, and waypoints; portable versions ride with toll crews."
+    },
+    {
+      "source": "Inspector Pelt",
+      "item_id": "goldwater-liability-token",
+      "item_name": "Goldwater Liability Token™",
+      "eligibility": "Toll crew paperwork, failed service response, or bureaucratic fallout."
+    }
+  ],
+  "Sablewood Wild Finds": [
+    {
+      "source": "Old Sable",
+      "item_id": "sableblade",
+      "item_name": "Sableblade",
+      "eligibility": "Rare seasonal find in deep Sablewood."
+    },
+    {
+      "source": "SablewoodTM Logistics Preserve",
+      "item_id": "sableblade",
+      "item_name": "Sableblade",
+      "eligibility": "Rare seasonal find in deep Sablewood."
+    },
+    {
+      "source": "SablewoodTM Logistics Preserve",
+      "item_id": "recall-stone",
+      "item_name": "Recall Stone",
+      "eligibility": "Find, purchase, trade, or receive as a reward."
+    },
+    {
+      "source": "The Claravale Market",
+      "item_id": "recall-stone",
+      "item_name": "Recall Stone",
+      "eligibility": "Find, purchase, trade, or receive as a reward."
+    }
+  ],
+  "Eeligator": [
+    {
+      "source": "Eeligator",
+      "item_id": "eeligator-scale-shield",
+      "item_name": "Eeligator Scale Shield",
+      "eligibility": "Crafted from an eeligator after a fight or gifted by someone who has one."
+    }
+  ],
+  "Bramble Union Loot": [
+    {
+      "source": "Xen",
+      "item_id": "bramble-union-stoneweave",
+      "item_name": "Bramble Union Stoneweave",
+      "eligibility": "Earn Union trust, trade, or receive it from a lapidarian."
+    },
+    {
+      "source": "Yikyik Trahll",
+      "item_id": "vial-of-briarpowder",
+      "item_name": "Vial of Briarpowder",
+      "eligibility": "Trade, gift, or harvested from the Briar."
+    },
+    {
+      "source": "Bramble Union Ambusher",
+      "item_id": "bramble-ward-scrap-charm-cluster",
+      "item_name": "Bramble Ward-Scrap Charm Cluster",
+      "eligibility": "Trade, trust, or careful examination of dropped Bramble gear."
+    },
+    {
+      "source": "Kett Alderhook",
+      "item_id": "bramble-ward-scrap-charm-cluster",
+      "item_name": "Bramble Ward-Scrap Charm Cluster",
+      "eligibility": "Trade, trust, or careful examination of dropped Bramble gear."
+    },
+    {
+      "source": "Vela Bramblewick",
+      "item_id": "bramble-ward-scrap-charm-cluster",
+      "item_name": "Bramble Ward-Scrap Charm Cluster",
+      "eligibility": "Trade, trust, or careful examination of dropped Bramble gear."
+    },
+    {
+      "source": "Bramble Union Claimrunner",
+      "item_id": "claimrunner-serrated-blade",
+      "item_name": "Claimrunner Serrated Blade",
+      "eligibility": "Seen during the ambush, found if dropped, or inspected after parley."
+    }
+  ],
+  "Custodian's Gift": [
+    {
+      "source": "Whitefire Custodian",
+      "item_id": "whitefire-ward-charm",
+      "item_name": "Whitefire Custodian's Ward-Charm",
+      "eligibility": "Gift for earned gratitude; not lootable."
+    }
+  ],
+  "Hush Hospitality": [
+    {
+      "source": "Hush",
+      "item_id": "sableleaf-shoes",
+      "item_name": "Sableleaf Shoes",
+      "eligibility": "Gift, trade, or crafted local hospitality."
+    },
+    {
+      "source": "Underroot",
+      "item_id": "sableleaf-shoes",
+      "item_name": "Sableleaf Shoes",
+      "eligibility": "Gift, trade, or crafted local hospitality."
+    },
+    {
+      "source": "Hush",
+      "item_id": "bugbane-berry",
+      "item_name": "Bugbane Berry™",
+      "eligibility": "Purchase, gift, or Hexmart stall stock."
+    },
+    {
+      "source": "The Claravale Market",
+      "item_id": "bugbane-berry",
+      "item_name": "Bugbane Berry™",
+      "eligibility": "Purchase, gift, or Hexmart stall stock."
+    },
+    {
+      "source": "SablewoodTM Logistics Preserve",
+      "item_id": "sable-sap",
+      "item_name": "Sable Sap",
+      "eligibility": "Forage, gift, or trade."
+    },
+    {
+      "source": "Hush",
+      "item_id": "sable-sap",
+      "item_name": "Sable Sap",
+      "eligibility": "Forage, gift, or trade."
+    },
+    {
+      "source": "Underroot",
+      "item_id": "sable-sap",
+      "item_name": "Sable Sap",
+      "eligibility": "Forage, gift, or trade."
+    }
+  ],
+  "Corporate Sundries": [
+    {
+      "source": "Lucent River",
+      "item_id": "lucent-water",
+      "item_name": "Lucent Water™",
+      "eligibility": "Purchase, trade, or fill at the Lucent River."
+    },
+    {
+      "source": "The Claravale Market",
+      "item_id": "lucent-water",
+      "item_name": "Lucent Water™",
+      "eligibility": "Purchase, trade, or fill at the Lucent River."
+    },
+    {
+      "source": "Hexmart",
+      "item_id": "lucent-water",
+      "item_name": "Lucent Water™",
+      "eligibility": "Purchase, trade, or fill at the Lucent River."
+    },
+    {
+      "source": "The Refuge",
+      "item_id": "restorative-ash",
+      "item_name": "Restorative Ash™",
+      "eligibility": "Purchase, find in Refuge stores, or receive as a dubious gift."
+    },
+    {
+      "source": "The Ash Quarry",
+      "item_id": "restorative-ash",
+      "item_name": "Restorative Ash™",
+      "eligibility": "Purchase, find in Refuge stores, or receive as a dubious gift."
+    },
+    {
+      "source": "The Refuge",
+      "item_id": "fire-wine",
+      "item_name": "Fire Wine™",
+      "eligibility": "Purchase, toast, gift, or camp-table offering."
+    },
+    {
+      "source": "The Fire Walk",
+      "item_id": "fire-wine",
+      "item_name": "Fire Wine™",
+      "eligibility": "Purchase, toast, gift, or camp-table offering."
+    },
+    {
+      "source": "Duskwatch Exchange",
+      "item_id": "kazrak-adventurer-certification",
+      "item_name": "Kazrak Adventurer Certification™",
+      "eligibility": "Purchase, bureaucratic reward, or found in old adventurer kit."
+    },
+    {
+      "source": "The Latch",
+      "item_id": "kazrak-adventurer-certification",
+      "item_name": "Kazrak Adventurer Certification™",
+      "eligibility": "Purchase, bureaucratic reward, or found in old adventurer kit."
+    },
+    {
+      "source": "Auditor Holle",
+      "item_id": "auditors-verdict-ledger",
+      "item_name": "Auditor's Verdict Ledger™",
+      "eligibility": "Appears when an auditor is summoned or a blame dispute needs a prop."
+    }
+  ],
+  "Tamsin's Effects": [
+    {
+      "source": "Tamsin Vell",
+      "item_id": "tamsins-home-token",
+      "item_name": "Tamsin's Home-Token",
+      "eligibility": "Found only if the party searches respectfully."
+    },
+    {
+      "source": "Tamsin Vell",
+      "item_id": "cracked-pocket-ward",
+      "item_name": "Cracked Pocket Ward™",
+      "eligibility": "Found in Tamsin's satchel or on a lost courier."
+    },
+    {
+      "source": "Perrin Oake",
+      "item_id": "cracked-pocket-ward",
+      "item_name": "Cracked Pocket Ward™",
+      "eligibility": "Found in Tamsin's satchel or on a lost courier."
+    }
+  ],
+  "Relay Keeper Effects": [
+    {
+      "source": "Spirekeeper",
+      "item_id": "spirekeeper-relay-keyring",
+      "item_name": "Spirekeeper Relay Keyring",
+      "eligibility": "Gift, inheritance, or GM-only epilogue hook."
+    },
+    {
+      "source": "The Relay Keeper",
+      "item_id": "spirekeeper-relay-keyring",
+      "item_name": "Spirekeeper Relay Keyring",
+      "eligibility": "Gift, inheritance, or GM-only epilogue hook."
+    }
+  ]
+}

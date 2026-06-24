@@ -1,0 +1,48 @@
+# Public-Private Ward Compact
+
+RAW export - entity:public-private-ward-compact
+
+## Player-facing description
+Public-Private Ward Compact: A concession contract that turns protection into overlapping rights to build, bill, power, guard, finance, and narrate.
+
+## Public role
+Legal framework that lets companies profit from public safety
+
+## Handout text
+Player-safe note: A concession contract that turns protection into overlapping rights to build, bill, power, guard, finance, and narrate.
+
+## Raw source
+- Type: clue
+- Role: Legal framework that lets companies profit from public safety
+- Summary: A concession contract that turns "protecting the village" into overlapping rights to build it, bill it, power it, guard it, finance it, and narrate it.
+- Tags: clue contract corporate evidence gm-only hidden ward
+- Connections: Emeris Crown Holdings Goldwater Financial Institution The Grail Mithril & Mortar Soulspire Solutions The Hanging Office Hush
+- Inventory: concession charter breach billing clause public-safety appendix
+- Loot: Finding even one compact clause helps players see that the antagonist is a system, not a boss waiting at the end.
+- Name: Public-Private Ward Compact
+- Id: public-private-ward-compact
+- Meta: Clue / Evidence CLUE assets/icons/clue.png entity-clue #48c7e8 07 Items and Clues entities clue
+- Aliases: Public-Private Ward Compact concession charter public-private compact ward charter ward compact
+- Related: Emeris Crown Holdings Goldwater Financial Institution Hush Mithril & Mortar Soulspire Solutions The Grail The Hanging Office
+- Image Prompt: Private table TTRPG story atlas asset for Public-Private Ward Compact, Clue / Evidence. Role: Legal framework that lets companies profit from public safety. Summary: A concession contract that turns "protecting the village" into overlapping rights to build it, bill it, power it, guard it, finance it, and narrate it.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: A concession contract that turns protection into overlapping rights to build, bill, power, guard, finance, and narrate.; make it tactile enough that the players can point to it, carry it, compare it, or show it to someone.
+- Wants: Move suspicion toward Emeris Crown Holdings, Goldwater Financial Institution, The Grail without requiring a lore lecture.
+- Fears: Being pocketed as trivia, missed because it looks mundane, or separated from the person it can help.
+- Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.
+- Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.
+- Sample Dialogue: A concession contract that turns protection into overlapping rights to build, bill, power, guard, finance, and narrate.
+- Equipment: concession charter breach billing clause public-safety appendix
+- Search Or Loot: Finding even one compact clause helps players see that the antagonist is a system, not a boss waiting at the end.
+- Gm Use: Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.
+- Future Hooks: Bring back as an echo if players made a strong choice involving this entity.
+- Robust: Public-Private Ward Compact: A concession contract that turns protection into overlapping rights to build, bill, power, guard, finance, and narrate. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Move suspicion toward Emeris Crown Holdings, Goldwater Financial Institution, The Grail without requiring a lore lecture. Being pocketed as trivia, missed because it looks mundane, or separated from the person it can help. Use when the scene needs a concrete object for players to inspect, carry, debate, or remember. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Public-Private Ward Compact and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names...
+- Mechanics: Discovery / Earn-It Mechanics Players can inspect, handle, keep, trade, reveal, or earn Public-Private Ward Compact when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A concession contract that turns "protecting the village" into overlapping rights to build it, bill it, power it, guard it, finance it, and narrate it. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-public-private-ward-compact-engage-public-private-ward-compact entity-public-private-ward-compact Engage Public-Private Ward Compact Engage Public-Private Ward Compact Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Public-Private Ward Compact hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM...
+- Pronunciation: PUB-lik PRY-vit WORD KOM-pakt
+- Short Pronunciation: PUB-lik PRY-vit WORD KOM-pakt
+- Clue Profile: clue-profile-v1 public-private-ward-compact public-private-ward-compact Public-Private Ward Compact Public-Private Ward Compact PUB-lik PRY-vit WORD KOM-pakt document ™ True Public-Private Ward Compact A concession contract that turns "protecting the village" into overlapping rights to build it, bill it, power it, guard it, finance it, and narrate it. A concession contract that turns "protecting the village" into overlapping rights to build it, bill it, power it, guard it, finance it, and narrate it. A concession contract that turns "protecting the village" into overlapping rights to build it, bill it, power it, guard it, finance it, and narrate it. public-private-ward-compact Public-Private Ward Compact PUB-lik PRY-vit WORD KOM-pakt document ™ protection has been financialized — the same hand owns the threat, the defense, and the story about both. HIDDEN The Manufactured Failure the-manufactured-failure Seeds the hidden false-capitalism thesis without stating it to players. pages/entities/public-private-ward-compact.html pages/clues/the-manufactured-failure.html A concession contract that turns "protecting the village" into overlapping rights to build it, bill it, power it...
+- Image: assets/clue-images/public-private-ward-compact/profile_base.webp
+- Image Asset Status: clue_visual_profile
+- Visual Gallery: primary Primary wiki image primary assets/clue-images/public-private-ward-compact/profile_base.webp Public-Private Ward Compact primary wiki image visual. Public-Private Ward Compact: Primary wiki image. clue_visual_profile True True
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 892be90cf013d1ee | Source hash dac3370046ed077140fab2d6

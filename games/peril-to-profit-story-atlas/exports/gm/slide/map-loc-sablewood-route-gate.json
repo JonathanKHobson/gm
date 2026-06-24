@@ -1,0 +1,29 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "MAP-LOC-sablewood-route-gate",
+  "title": "MAP-LOC-sablewood-route-gate - Sablewood Route Gate Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "41ecb0170c569422",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The route gate is where polished assurance meets wet bark, old stone, and a forest that has not signed anything."
+    },
+    {
+      "title": "Public objective",
+      "body": "The route gate is where polished assurance meets wet bark, old stone, and a forest that has not signed anything."
+    },
+    {
+      "title": "GM goal",
+      "body": "Make the entry point a choice, not a loading screen."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 41ecb0170c569422 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "MAP-LOC-ember-lake",
+  "title": "MAP-LOC-ember-lake - Ember Lake Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "5f4e80813a7e9f7a",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "Ember Lake steams under cool canopy air, a hot spring mirror that suggests something older is still working below Sablewood."
+    },
+    {
+      "title": "Public objective",
+      "body": "Ember Lake steams under cool canopy air, a hot spring mirror that suggests something older is still working below Sablewood."
+    },
+    {
+      "title": "GM goal",
+      "body": "Make the hot spring beautiful, useful, and slightly troubling."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 5f4e80813a7e9f7a | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "tamsin-s-wedding-cord",
+  "title": "Tamsin's Wedding Cord",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "720b322503ff26a6",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Tamsin's Wedding Cord: A braided cord around Tamsin's wrist that makes the body a person, not a loot container."
+    },
+    {
+      "title": "Public role",
+      "body": "Personal effect that humanizes the dead driver"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: A braided cord around Tamsin's wrist that makes the body a person, not a loot container."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use when the scene needs a concrete object for players to inspect, carry, debate, or remember."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Discovery / Earn-It Mechanics",
+        "Player Safe: Players can inspect, handle, keep, trade, reveal, or earn Tamsin's Wedding Cord when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: A braided cord, soft with wear, knotted around the dead courier's wrist — the kind a person ties for someone they love. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-tamsin-s-wedding-cord-engage-tamsin's-wedding-cord entity-tamsin-s-wedding-cord Engage Tamsin's Wedding Cord Engage Tamsin's Wedding Cord Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Tamsin's Wedding Cord hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Condition Options: No official condition unless the item or clue physically creates Hidden, Restrained, or Vulnerable",
+        "Search Loot: Hush locals can identify the maker if the party handles it respectfully."
+      ]
+    },
+    {
+      "title": "Profile",
+      "items": [
+        "Schema Version: clue-profile-v1",
+        "Id: tamsin-s-wedding-cord",
+        "Clue Id: tamsin-s-wedding-cord",
+        "Clue Name: Tamsin's Wedding Cord",
+        "Name: Tamsin's Wedding Cord",
+        "Pronunciation: TAM-sinz WED-ing KORD",
+        "Clue Kind: physical/testimony",
+        "Auto Surface: True",
+        "Player Safe: Tamsin's Wedding Cord A braided cord, soft with wear, knotted around the dead courier's wrist — the kind a person ties for someone they love. A braided cord, soft with wear, knotted around the dead courier's wrist — the kind a person ties for someone they love. A braided cord, soft with wear, knotted around the dead courier's wrist — the kind a person ties for someone they love.",
+        "Block0: tamsin-s-wedding-cord Tamsin's Wedding Cord TAM-sinz WED-ing KORD physical/testimony",
+        "Block1: the victim is Tamsin, a real person with a life — not a loot container; it makes the murder land and the staging crueler. OBVIOUS The Creature Is Innocent the-creature-is-innocent Lets the table choose mercy and see nature contradict the opening propaganda. pages/entities/tamsin-s-wedding-cord.html pages/clues/the-creature-is-innocent.html",
+        "Block2: A braided cord, soft with wear, knotted around the dead courier's wrist — the kind a person ties for someone they love. the victim is Tamsin, a real person with a life — not a loot container; it makes the murder land and the staging crueler.",
+        "Block3: \"there's a worn braided cord on her wrist.\" \"it's a wedding cord — she was somebody's.\" \"this was a person named Tamsin, with a family.\" (rarely needed — let this one stay quiet; its power is restraint.)",
+        "Block4: No Predator Wounds Reclaimer Personal Effects no-predator-wounds reclaimer-personal-effects",
+        "Block5: S01-02 S02-01 Overturned Vendor Cart Tamsin Vell simple observation; weight it in narration, not a roll. clues/The_Creature_Is_Innocent.md",
+        "Block6: HIDDEN Use this clue to support The Creature Is Innocent: the victim is Tamsin, a real person with a life — not a loot container; it makes the murder land and the staging crueler. whisper True",
+        "Block8: Bright, saturated storybook evidence illustration; clear hero shot of the actual clue object or scene detail; whimsical frontier-Renaissance materials; warm light; bright dystopian corporate satire when branded; no gore, no UI, no watermark, no repeated icon. Depict: a worn braided wedding cord on a still wrist (tender, no gore). clue wiki card and Player Display evidence visual Send the image and SHOW text only. Keep TELL, points_to, and blunt ladder rungs GM-only until earned. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/tamsin-s-wedding-cord/profile_base.png assets/clue-images/tamsin-s-wedding-cord/profile_base.webp Bright, saturated storybook evidence illustration; clear hero shot of the actual clue object or scene detail; whimsical frontier-Renaissance materials; warm light; bright dystopian corporate satire when branded; no gore, no UI, no watermark...",
+        "Block9: Official Daggerheart action roll using Duality Dice, Hope, Fear, and Difficulty; P2P Roll Slider is the table-facing result ladder. Agility move, climb, dodge, reach a better angle, or read evidence while moving Strength lift, hold, force, carry, break, or test weight and pressure Finesse handle, hide, tinker, compare, pick apart, or notice precise detail Instinct perceive, smell, listen, track, read danger, or sense body language Presence charm, soothe, press, lead, deceive, perform, or read a social response Knowledge recall, analyze, investigate, reason from lore, or understand systems Finesse D14 Knowledge D14 Presence D14 If the clue is plainly visible, give the SHOW text freely first: A braided cord, soft with wear, knotted around the dead courier's wrist — the kind a person ties for someone they love. Use the listed Difficulty for the chosen trait. Lower rolls get partial or...",
+        "Mechanicids: duality-dice hope fear difficulty roll-slider clue-discovery",
+        "Visual Assets: profile_base Clue evidence image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/tamsin-s-wedding-cord/profile_base.png assets/clue-images/tamsin-s-wedding-cord/profile_base.webp ready Tamsin's Wedding Cord clue image. A braided cord, soft with wear, knotted around the dead courier's wrist — the kind a person ties for someone they love."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 720b322503ff26a6 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

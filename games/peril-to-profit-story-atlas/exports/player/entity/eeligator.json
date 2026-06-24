@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "eeligator",
+  "kind": "entity",
+  "title": "Eeligator",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Enemy / Combatant",
+  "hook": "Player-safe note: A blackwater predator with an alligator's jaws, an eel's coiling body, green-blue eyes, and whiskered fins that read the river before prey knows it has been noticed.",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "Long sinuous reptile-fish body, dark wet scales, eel-like whiskers, glowing green-blue eyes, long toothy snout, and reeds bending around its coil."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "A blackwater predator with an alligator's jaws, an eel's coiling body, green-blue eyes, and whiskered fins that read the river before prey knows it has been noticed.; run Eeligator with a motive, an exit route, and one visible sign of the system that..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask Eeligator what they need right now.",
+    "Watch what they protect before asking for trust."
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:eeligator",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "c8ab0fd7b3881316",
+  "generated_at": "2026-06-23T21:40:58"
+}

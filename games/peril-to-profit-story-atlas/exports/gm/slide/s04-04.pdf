@@ -1,0 +1,130 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2106 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S04-04 - The Keystone Reveal) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The Custodian unfolds her home like a blossoming flower and draws the crate inside,) Tj
+T*
+(sealing it open again as a workshop. She breaks the seal. Inside lies a massive stone) Tj
+T*
+(carved with a lion's face. She goes still, then nods, slow and grave. "Of course Emeris) Tj
+T*
+(would keep this delivery quiet," she says. "This is the Keystone Asset: the heart-stone) Tj
+T*
+(for Hush's failing ward. If the route knew what you carried, every hungry thing in the) Tj
+T*
+(preserve would follow the scent of it." The light in her home dims as she speaks. "We) Tj
+T*
+(must take it to the Open Vale and revitalize the ward before Hush has to trust paper) Tj
+T*
+(promises instead of protection. That much magic will draw dangerous things from the deep) Tj
+T*
+(preserve. I will need your help.") Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Learn what the package is and what must be done.) Tj
+T*
+() Tj
+T*
+(GM goal) Tj
+T*
+() Tj
+T*
+(Route the package reveal through the Custodian, not Marlowe, and set) Tj
+T*
+(keystone_understanding.) Tj
+T*
+() Tj
+T*
+(GM notes) Tj
+T*
+() Tj
+T*
+(- This is the controlled spoiler release. Earlier player text must not have named the) Tj
+T*
+(  Keystone Asset.) Tj
+T*
+(- Players can react before choosing prep. Do not rush the table out of shock.) Tj
+T*
+() Tj
+T*
+(GM script) Tj
+T*
+() Tj
+T*
+(Say: "The Custodian carries this reveal. Marlowe can recognize a personal detail if she) Tj
+T*
+(is present, but the truth does not depend on any one PC.") Tj
+T*
+() Tj
+T*
+(State controls) Tj
+T*
+() Tj
+T*
+(- custodian_trust Custodian Trust select low neutral high) Tj
+T*
+(- ritual_prep Ritual Prep select unready ready) Tj
+T*
+(- keystone_understanding Keystone Understanding select surface deep) Tj
+T*
+(- package_status Package Status select held lost) Tj
+T*
+(- ward_awareness Ward Awareness select none seed aware) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 927f6c4687cfac6c | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [2 0 R] /Count 1 >>
+endobj
+4 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000002167 00000 n 
+0000002293 00000 n 
+0000002350 00000 n 
+0000002399 00000 n 
+trailer
+<< /Size 6 /Root 4 0 R >>
+startxref
+2471
+%%EOF

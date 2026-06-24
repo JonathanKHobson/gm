@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S05-03",
+  "kind": "scene",
+  "title": "S05-03 - The Ritual Begins",
+  "in_world_label": "Situation Briefing",
+  "brand_flag": "Briefing",
+  "kicker": "The Ward Renewal",
+  "hook": "The Keystone finally answers. The Custodian lifts from the ground, glowing like a lantern about to crack.",
+  "blocks": [
+    {
+      "label": "Where You Are",
+      "body": "The Keystone finally answers. The Custodian lifts from the ground, glowing like a lantern about to crack."
+    },
+    {
+      "label": "Plain Stakes",
+      "body": "The Keystone responds, the countdown starts, and the first enemies emerge."
+    },
+    {
+      "label": "Visible Options",
+      "body": "Protect Custodian Intercept skeletons Focus fire Use terrain"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "What detail in The Ritual Begins tells you the official story is incomplete?",
+    "Who notices the human cost first, and how do they show it?",
+    "What small object, smell, or sound makes this scene feel real?"
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - scene:S05-03",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "54a1baad3b34468e",
+  "generated_at": "2026-06-23T21:40:58"
+}

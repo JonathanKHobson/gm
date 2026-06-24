@@ -1,0 +1,72 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "faceless-six",
+  "title": "Faceless Six",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "c6c77054ec280a7a",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "The Faceless Six: The Faceless Six turn a friendly room into a village decision without raising their voices. Slogan: Six voices, one door."
+    },
+    {
+      "title": "Public role",
+      "body": "Hush leadership body and preparation trigger"
+    },
+    {
+      "title": "Handout text",
+      "body": "The Faceless Six: The Faceless Six turn a friendly room into a village decision without raising their voices. Slogan: Six voices, one door."
+    },
+    {
+      "title": "GM truth",
+      "body": "GM-only: do not turn them into an exposition machine."
+    },
+    {
+      "title": "GM handling",
+      "body": "Act 3 social pressure and preparation beat; they make Hush feel governed rather than decorative."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Faction Pressure / Reputation Mechanics",
+        "Player Safe: Players can read public face, negotiate leverage, track reputation, or identify pressure Faceless Six when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: The Faceless Six turn a friendly room into a village decision without raising their voices. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-faceless-six-engage-faceless-six entity-faceless-six Engage Faceless Six Engage Faceless Six Presence Knowledge Instinct Presence Knowledge, Instinct 13 Choose the trait from the player's method, not the entity type. A flat read of Faceless Six hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. A flat...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Search Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure."
+      ]
+    },
+    {
+      "title": "Profile",
+      "items": [
+        "Schema Version: faction-profile-v1",
+        "Id: faceless-six",
+        "Entity Id: faceless-six",
+        "Source: Sablewood lore registry plus Faction_System_Packet guidance",
+        "Priority: compact",
+        "Corporate: False",
+        "Atlas Lore Note: Atlas lore note: one-shot-safe expansion. Use as GM-only texture unless table play earns it.",
+        "Auto Surface: True",
+        "Prompt Key: co-op",
+        "Player Safe: The Faceless Six The village leaders whose arrival turns hospitality into preparation, debate, and local accountability. Six voices, one door. The Faceless Six turn a friendly room into a village decision without raising their voices. The Faceless Six do not need thrones. They arrive as chairs being pulled closer, bowls set aside, and neighbors suddenly listening harder. Their authority is not spectacle. It is the weight of people who will still live here after the party leaves. The room changes by inches. A chair scrapes. Someone closes the door against the damp. Six local figures settle into the kind of silence that asks whether guests understand consequence.",
+        "Block1: The Faceless Six village leaders Hush council The village leaders whose arrival turns hospitality into preparation, debate, and local accountability. Holds Hush social memory and decides how much risk the village can absorb for outsiders. Act 3 social pressure and preparation beat; they make Hush feel governed rather than decorative. Watchful, practical, and responsive to respect for Hush. Protect the village's agency; they cooperate when the party asks with humility instead of assuming command. pages/entities/faceless-six.html FAYS-less siks",
+        "Block2: Local leadership body, strong inside Hush and limited beyond it. Local consensus, guest privileges, and who gets trusted with vulnerable information. Argument, custom, quiet glances, and the old rhythm of people who have survived together. Protective caution versus the need to help before the system tightens further. Preparing Hush for possible ward strain without turning the village into panic. A leadership custom from when Hush survived by making no single face responsible for every hard choice.",
+        "Block3: Clover Co-op Whitefire Custodian Zephra Exchange Hexmart Hush trust guest customs local food stores Hush elders and hosts No one; they carry burden rather than extraction.",
+        "Block4: Six voices, one door. Plain masks or veils in local custom, warm lamps, shared bowls, and a room that quiets when they enter. Measured village authority: We can welcome you and still ask what trouble followed you in. Six simple door marks around a clover. Seed only: six-part call-and-response under a hearth drone.",
+        "Block5: Gives the table social permission, questions, and the sense that Hush is not a prop. Shows ordinary governance resisting corporate simplification. They know which neighbors quietly help Bramblefolk, but not every member agrees on what to risk. GM-only: do not turn them into an exposition machine. surface Village leaders arrive. hint They are balancing welcome against danger. earned seam They know Hush's hidden sympathies and old survival patterns. Presence 13 with respect opens village concerns; a direct demand closes the room.",
+        "Writing Layer: The Faceless Six turn a friendly room into a village decision without raising their voices. The Faceless Six do not need thrones. They arrive as chairs being pulled closer, bowls set aside, and neighbors suddenly listening harder. Their authority is not spectacle. It is the weight of people who will still live here after the party leaves. The room changes by inches. A chair scrapes. Someone closes the door against the damp. Six local figures settle into the kind of silence that asks whether guests understand consequence. lamp smoke, wooden chairs, shared bowls, damp sleeves, door-latch clicks, and the slow quiet of a room becoming official authority made of memory rather than medals local faces carrying more argument than the table can hear Hush council rooms, co-op tables, guest customs, and village thresholds local preparation beats when Hush must decide what risk it can absorb Hush...",
+        "Entity Name: Faceless Six",
+        "Imagine It Like: Think a village council of elders, the six selectmen who actually run the town, the quiet committee whose approval you need before anything happens. Hospitality as governance."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash c6c77054ec280a7a | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

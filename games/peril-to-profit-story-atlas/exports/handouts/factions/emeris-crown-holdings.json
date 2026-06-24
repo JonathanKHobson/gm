@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "emeris-crown-holdings",
+  "kind": "entity",
+  "title": "Emeris Crown Holdings",
+  "in_world_label": "Public Notice",
+  "brand_flag": "Emeris Crown™: your parcel is our honor.",
+  "kicker": "A respectable mid-tier courier brand with cream-and-gold coaches, a crowned-lion wax seal, and polished contract language.",
+  "hook": "Emeris Crown Holdings: Emeris Crown Holdings™ moves your parcel, your secret, and the blame, with cream-and-gold dignity. Slogan: Emeris Crown™: your parcel is our honor.",
+  "blocks": [
+    {
+      "label": "Public Face",
+      "body": "A respectable mid-tier courier brand with cream-and-gold coaches, a crowned-lion wax seal, and polished contract language."
+    },
+    {
+      "label": "Slogan",
+      "body": "Emeris Crown™: your parcel is our honor."
+    },
+    {
+      "label": "How To Deal",
+      "body": "Emeris Crown™ is respectability for hire: cream-and-gold coaches, a crowned-lion seal pressed in honest-looking wax, a contract so polite it apologizes while shifting the liability onto you. Ship with a Custody of Honor™ guarantee, add Discretion Assurance™..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask what they publicly promise.",
+    "Compare their slogan to what they actually do in the scene."
+  ],
+  "archetype": "faction.flyer",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:emeris-crown-holdings",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "e9bb7fd4fcca1d47",
+  "generated_at": "2026-06-23T21:40:58"
+}

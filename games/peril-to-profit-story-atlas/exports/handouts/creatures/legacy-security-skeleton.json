@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "legacy-security-skeleton",
+  "kind": "entity",
+  "title": "Legacy Security Skeleton",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "a rusted dead guard still obeying a security routine nobody living remembers",
+  "hook": "a rusted dead guard still obeying a security routine nobody living remembers",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "A rusted skeleton guard in chain scraps and bead charms stands with a cracked skull, old badge fragments, and road-dust still clinging to the bones."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "Not malice, momentum. A duty that outlived the man and a debt that kept the bones. Somewhere under the patrol loop is someone who wants, very quietly, for the post to finally fall."
+    },
+    {
+      "label": "Might Offer",
+      "body": "A fight A mercy/release angle A clue that old contracts can outlive bodies"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "A fight",
+    "A mercy/release angle",
+    "A clue that old contracts can outlive bodies"
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:legacy-security-skeleton",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "ae6e3e6fa29ee217",
+  "generated_at": "2026-06-23T21:40:58"
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "adversary-spotlight",
+  "kind": "entity",
+  "title": "Adversary Spotlight",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Mechanic",
+  "hook": "Player-safe note: Daggerheart uses spotlight flow rather than fixed initiative; adversaries act when spotlighted by the GM and features.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Daggerheart uses spotlight flow rather than fixed initiative; adversaries act when spotlighted by the GM and features."
+    },
+    {
+      "label": "How It Works",
+      "body": "Spotlight-based adversary activation reference"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use this when your action is uncertain and consequences matter.",
+    "Ask which trait fits your method."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:adversary-spotlight",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "68f54b07a2b4a8ff",
+  "generated_at": "2026-06-23T21:40:58"
+}

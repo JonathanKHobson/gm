@@ -1,0 +1,405 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2503 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(Hush? Community Enclave) Tj
+T*
+() Tj
+T*
+(Player-facing description) Tj
+T*
+() Tj
+T*
+(The official enclave signage tries to make Hush look managed, but the lived-in village) Tj
+T*
+(keeps showing through the label.) Tj
+T*
+() Tj
+T*
+(Public role) Tj
+T*
+() Tj
+T*
+(Let the party feel the difference between arriving at a place and arriving at a label.) Tj
+T*
+() Tj
+T*
+(Handout text) Tj
+T*
+() Tj
+T*
+(Goldspire?s name for Hush; locals mostly ignore the trademark.) Tj
+T*
+() Tj
+T*
+(GM truth) Tj
+T*
+() Tj
+T*
+(The tension is not whether Hush is quaint; it is whether corporate language can turn a) Tj
+T*
+(living custom into a service obligation.) Tj
+T*
+() Tj
+T*
+(GM handling) Tj
+T*
+() Tj
+T*
+(Introduce with sensory texture, then make one discoverable clue or social choice) Tj
+T*
+(visible.) Tj
+T*
+() Tj
+T*
+(Mechanics) Tj
+T*
+() Tj
+T*
+(- Title: Location Exploration Mechanics) Tj
+T*
+(- Player Safe: Players can navigate, search, read customs, inspect hazards Hush?) Tj
+T*
+(  Community Enclave when it is present in the fiction.) Tj
+T*
+(- Gm Only: Use the roll only when the player's method, stakes, and consequence are) Tj
+T*
+(  concrete.) Tj
+T*
+(- No Roll Reveals: Surface read: Goldspire?s name for Hush; locals mostly ignore the) Tj
+T*
+(  trademark. Give obvious visible facts freely; roll for meaning, risk, leverage,) Tj
+T*
+(  cost, or a hidden angle.) Tj
+T*
+(- Rolls: entity-hushtm-community-enclave-engage-hush?-community-enclave entity-hushtm-) Tj
+T*
+(  community-enclave Engage Hush? Community Enclave Engage Hush? Community Enclave) Tj
+T*
+(  Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose) Tj
+T*
+(  the trait from the player's method, not the entity type. A flat read of Hush?) Tj
+T*
+(  Community Enclave hides the cost, motive, or useful next step. Critical Success:) Tj
+T*
+(  best possible version of the action; gain Hope and clear 1 Stress. Add an extra) Tj
+T*
+(  benefit that follows from the fiction. Success with Hope: the PC gets what they) Tj
+T*
+(  wanted and gains Hope. Keep the position clean or generous. Success with Fear: the) Tj
+T*
+(  PC gets what they wanted, but the GM gains Fear and introduces a cost, complication,) Tj
+T*
+(  or pressure. Failure with Hope: the PC does not get the full result, but gains Hope) Tj
+T*
+(  and receives a useful thread, clue, or safer next option. Failure with Fear: the) Tj
+T*
+(  PC...) Tj
+T*
+(- Fear Spends: Reveal who benefits from the current situation. Make the cost personal) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3660 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  without closing off player agency.) Tj
+T*
+(- Condition Options: No official condition unless a hazard creates Hidden, Restrained,) Tj
+T*
+(  or Vulnerable) Tj
+T*
+(- Search Loot: Use only in signage/contracts.) Tj
+T*
+() Tj
+T*
+(Profile) Tj
+T*
+() Tj
+T*
+(- Schema Version: location-profile-v1) Tj
+T*
+(- Id: hushtm-community-enclave) Tj
+T*
+(- Entity Id: hushtm-community-enclave) Tj
+T*
+(- Source: Goldspire_Location_Packet/04_Hush_Enclave.md) Tj
+T*
+(- Auto Surface: True) Tj
+T*
+(- Priority: strong) Tj
+T*
+(- Player Safe: Hush? Community Enclave Goldspire?s name for Hush; locals mostly ignore) Tj
+T*
+(  the trademark. Goldspire?s name for Hush; locals mostly ignore the trademark. The) Tj
+T*
+(  official enclave signage tries to make Hush look managed, but the lived-in village) Tj
+T*
+(  keeps showing through the label. This is Hush with a cheerful public mask: welcome) Tj
+T*
+(  boards, safety phrases, fresh paint, and locals who know exactly which parts are for) Tj
+T*
+(  outsiders. The place breaks into usable table spaces: Welcome frontage: Bright) Tj
+T*
+(  official signage frames the village like a brochure. Painted public path: The route) Tj
+T*
+(  shown to visitors is smoother and less honest than the side paths. Unpainted back) Tj
+T*
+(  lane: Old moss, patched boards, and real village traffic live behind the public) Tj
+T*
+(  face. Plants and materials: freshly trimmed display moss, older stubborn canal moss,) Tj
+T*
+(  flowers planted where signs need cheer. Animals and background life: Ratcoons) Tj
+T*
+(  avoid...) Tj
+T*
+(- Block1: Hush? Community Enclave Let the party feel the difference between arriving) Tj
+T*
+(  at a place and arriving at a label. Goldspire?s name for Hush; locals mostly ignore) Tj
+T*
+(  the trademark. The name conflict shows the gap between lived community and corporate) Tj
+T*
+(  classification. The gap between the signage and the lived village is the whole) Tj
+T*
+(  point. Players who look one lane back learn who the safety is really for. The name) Tj
+T*
+(  conflict shows the gap between lived community and corporate classification. Locals) Tj
+T*
+(  weigh every word against who might report it. Trust here is earned by ignoring the) Tj
+T*
+(  brochure. pages/entities/hushtm-community-enclave.html) Tj
+T*
+(- Block2: A polished sign uses the trademarked name; someone has hung a hand-painted) Tj
+T*
+(  clover charm over one corner. The route stones are neat near the entrance and) Tj
+T*
+(  messier where residents actually walk. Locals do not correct the name every time;) Tj
+T*
+(  they choose when the correction matters. The cleanest sign is also the least touched) Tj
+T*
+(  object in view. Detail Damp paint, moss, warm bread, and the faint brass smell of a) Tj
+T*
+(  ward fixture working too hard. Detail The sign is smooth and cold; the handmade) Tj
+T*
+(  charms beside it are rough, waxed, and handled. The official enclave signage tries) Tj
+T*
+(  to make Hush look managed, but the lived-in village keeps showing through the label.) Tj
+T*
+(  This is Hush with a cheerful public mask: welcome boards, safety phrases, fresh) Tj
+T*
+(  paint, and locals who know exactly which parts are for outsiders. The place breaks) Tj
+T*
+(  into usable table spaces: Welcome frontage: Bright official signage frames the...) Tj
+T*
+(- Block3: official sign local charms route stones entry threshold Presence to notice) Tj
+T*
+(  which name locals use for themselves. Knowledge to see where the official) Tj
+T*
+(  maintenance stops. Local residents or workers appropriate to the place Ratcoons) Tj
+T*
+(  avoid the freshly painted visitor path Festival Moths ignore official signage Young) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4149 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Dryads keep to the older tree line No default combatant; add only if the scene) Tj
+T*
+(  introduces one Local civic, trade, or route interests Food, tools, route signs,) Tj
+T*
+(  local goods, or scene-specific clues freshly trimmed display moss older stubborn) Tj
+T*
+(  canal moss flowers planted where signs need cheer visitor-facing directions official) Tj
+T*
+(  welcome kiosk local food if trust is earned) Tj
+T*
+(- Block4: The place changes even if the PCs stand still. Local people, creatures,) Tj
+T*
+(  weather, signage, and ward behavior all keep moving around the scene. Using the) Tj
+T*
+(  official name too casually can mark the party as extractive. A corporate posture) Tj
+T*
+(  turns a welcome into a transaction. A local repeats the trademarked name with a) Tj
+T*
+(  smile that does not reach their eyes. The entry ward flickers while paperwork) Tj
+T*
+(  language is invoked. Let the place be funny through overconfident signage, awkward) Tj
+T*
+(  forms, stubborn local habits, and magic that refuses corporate language.) Tj
+T*
+(- Block5: S03-01 MAP-LOC-hushtm-community-enclave) Tj
+T*
+(- Block6: Describe what the PCs can see, smell, hear, touch, ask about, or infer. Do) Tj
+T*
+(  not explain hidden infrastructure or corporate thesis until play earns it. surface) Tj
+T*
+(  Goldspire?s name for Hush; locals mostly ignore the trademark. table clue The name) Tj
+T*
+(  conflict shows the gap between lived community and corporate classification. earned) Tj
+T*
+(  truth Reveal deeper system meaning through NPC answers, evidence, or player) Tj
+T*
+(  questions, not narration dumps.) Tj
+T*
+(- What Here: Local residents or workers appropriate to the place Ratcoons avoid the) Tj
+T*
+(  freshly painted visitor path Festival Moths ignore official signage Young Dryads) Tj
+T*
+(  keep to the older tree line No default combatant; add only if the scene introduces) Tj
+T*
+(  one Local civic, trade, or route interests Food, tools, route signs, local goods, or) Tj
+T*
+(  scene-specific clues freshly trimmed display moss older stubborn canal moss flowers) Tj
+T*
+(  planted where signs need cheer visitor-facing directions official welcome kiosk) Tj
+T*
+(  local food if trust is earned) Tj
+T*
+(- Living Place: location-living-place-v1 officially branded village face This is Hush) Tj
+T*
+(  with a cheerful public mask: welcome boards, safety phrases, fresh paint, and locals) Tj
+T*
+(  who know exactly which parts are for outsiders. Welcome frontage Bright official) Tj
+T*
+(  signage frames the village like a brochure. Use for player-safe first impression.) Tj
+T*
+(  Painted public path The route shown to visitors is smoother and less honest than the) Tj
+T*
+(  side paths. Use for guided/social play. Unpainted back lane Old moss, patched) Tj
+T*
+(  boards, and real village traffic live behind the public face. Use when players poke) Tj
+T*
+(  through the brand. freshly trimmed display moss older stubborn canal moss flowers) Tj
+T*
+(  planted where signs need cheer Ratcoons avoid the freshly painted visitor path) Tj
+T*
+(  Festival Moths ignore official signage Young Dryads keep to the older tree line) Tj
+T*
+(  paint smell over wet wood public cheer over local quiet ward phrases repeated too) Tj
+T*
+(  often The...) Tj
+T*
+(- Districts Or Subareas: Welcome frontage Bright official signage frames the village) Tj
+T*
+(  like a brochure. Use for player-safe first impression. Painted public path The route) Tj
+T*
+(  shown to visitors is smoother and less honest than the side paths. Use for) Tj
+T*
+(  guided/social play. Unpainted back lane Old moss, patched boards, and real village) Tj
+T*
+(  traffic live behind the public face. Use when players poke through the brand.) Tj
+T*
+(- Sensory Signature: Detail Damp paint, moss, warm bread, and the faint brass smell of) Tj
+T*
+(  a ward fixture working too hard. Detail The sign is smooth and cold; the handmade) Tj
+T*
+(  charms beside it are rough, waxed, and handled.) Tj
+T*
+(- Visual Assets: location-visual-assets-v1 hushtm-community-enclave Hush? Community) Tj
+T*
+(  Enclave Bright comedic frontier high-fantasy concept art for a Daggerheart-adjacent) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 1227 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  tabletop RPG. Medieval/Renaissance fantasy technology only: hand tools, wagons,) Tj
+T*
+(  ropes, parchment notices, ward-stones, carved wood, brass, cloth, stone, moss,) Tj
+T*
+(  lanterns, and magic. The tone is colorful, playful, slightly absurd, and vivid, like) Tj
+T*
+(  a fantasy corporate frontier comedy rather than a grim drama. No sci-fi machinery,) Tj
+T*
+(  no 1800s/Victorian clothing, no modern suits, no guns, no logos, no readable text,) Tj
+T*
+(  no watermark, no border, no collage. /Users/kyle/Documents/My Games/Peril To) Tj
+T*
+(  Profit/story-atlas/src/location_visual_assets/hushtm-community-enclave MAP-LOC-) Tj
+T*
+(  hushtm-community-enclave branded village overlay managed community site map) Tj
+T*
+(  profile_scene Profile image ready /Users/kyle/Documents/My Games/Peril To...) Tj
+T*
+(- Imagine It Like: A company town after a wellness-brand rebrand. Part HOA) Tj
+T*
+(  neighborhood, part corporate retreat, part 'Disneyfied historic village' where the) Tj
+T*
+(  locals still live behind the brochure.) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 59e484036beeaa24 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R] /Count 4 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000002564 00000 n 
+0000002691 00000 n 
+0000006403 00000 n 
+0000006530 00000 n 
+0000010731 00000 n 
+0000010858 00000 n 
+0000012137 00000 n 
+0000012264 00000 n 
+0000012339 00000 n 
+0000012389 00000 n 
+trailer
+<< /Size 12 /Root 10 0 R >>
+startxref
+12462
+%%EOF

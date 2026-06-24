@@ -1,0 +1,330 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2674 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-underroot - Underroot Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low lanterns,) Tj
+T*
+(and people who survive below the route economy.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low lanterns,) Tj
+T*
+(and people who survive below the route economy.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-underroot) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: STORY) Tj
+T*
+(- Sectiontitle: Map Board) Tj
+T*
+(- Title: Underroot Location Map) Tj
+T*
+(- Shorttitle: Underroot) Tj
+T*
+(- Order: 850.4) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-underroot-gm.png) Tj
+T*
+(- Alt: Underroot location map board.) Tj
+T*
+(- Caption: Visual reference for Underroot.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Keep hidden communities human, practical, and self-protecting.) Tj
+T*
+(- Publicobjective: Underroot is not a dungeon; it is a concealed neighborhood of root) Tj
+T*
+(  rooms, low lanterns, and people who survive below the route economy.) Tj
+T*
+(- Readaloud: Underroot is not a dungeon; it is a concealed neighborhood of root rooms,) Tj
+T*
+(  low lanterns, and people who survive below the route economy.) Tj
+T*
+(- Playertakeaway: Underroot is not a dungeon; it is a concealed neighborhood of root) Tj
+T*
+(  rooms, low lanterns, and people who survive below the route economy.) Tj
+T*
+(- Storytakeaway: Underroot shows who lives under the official map.) Tj
+T*
+(- Mechanictakeaway: Use only if spotlighted; do not turn it into loot space by) Tj
+T*
+(  default.) Tj
+T*
+(- Entityids: underroot centi-beetles spidermanders hellbender) Tj
+T*
+(- Entities: underroot Underroot location Location assets/icons/location.png) Tj
+T*
+(  assets/location-visuals/underroot/profile_scene_v02.png UN-der-root A concealed web) Tj
+T*
+(  of tunnels and homes carved among roots where off-ledger communities survive below) Tj
+T*
+(  the dangerous surface. Keep hidden communities human, practical, and self-) Tj
+T*
+(  protecting. A concealed web of tunnels and homes carved among roots where off-ledger) Tj
+T*
+(  communities survive below the dangerous surface.; introduce it with a sensory) Tj
+T*
+(  palette, who feels safe there, and what has been neglected. Pull player attention) Tj
+T*
+(  toward the choices, clues, and relationships tied to Sablewood? Logistics Preserve,) Tj
+T*
+(  Underroot Tunnels, Root's Hollow. A concealed web of tunnels and homes carved among) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4108 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  roots where off-ledger communities survive below the dangerous surface. centi-) Tj
+T*
+(  beetles Centi-Beetles creature Creature / Animal assets/icons/creature.png) Tj
+T*
+(  assets/creature-images/centi-beetles/portrait_base.png SEN-tee BEE-tuhlz Giant) Tj
+T*
+(  centi-beetles chew root and loam into low tunnels, making the ground sound busy even) Tj
+T*
+(  when nobody is walking. Tunnel-carving burrower Giant centi-beetles chew root and) Tj
+T*
+(  loam into low tunnels, making the ground sound busy even when nobody is walking...) Tj
+T*
+(- Locationids: underroot) Tj
+T*
+(- Fearspends: A lantern is covered all at once. A root door closes before the party) Tj
+T*
+(  sees who moved it.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Mapdata: MAP-LOC-underroot environment Underroot Location Map underroot centi-) Tj
+T*
+(  beetles spidermanders hellbender assets/location-) Tj
+T*
+(  visuals/underroot/profile_scene_v02.png Visual reference for Underroot. Underroot) Tj
+T*
+(  location map board. Underroot is not a dungeon; it is a concealed neighborhood of) Tj
+T*
+(  root rooms, low lanterns, and people who survive below the route economy. Underroot) Tj
+T*
+(  is not a dungeon; it is a concealed neighborhood of root rooms, low lanterns, and) Tj
+T*
+(  people who survive below the route economy. Keep hidden communities human,) Tj
+T*
+(  practical, and self-protecting. Root arches and carved shelves form rooms where the) Tj
+T*
+(  forest is ceiling, wall, and witness. Lanterns are shielded so light does not betray) Tj
+T*
+(  doors above. Air holes are hidden inside harmless knots. Leaf-drip, insects, distant) Tj
+T*
+(  wingbeats, and animal calls that stop or resume according to pressure, not comfort.) Tj
+T*
+(  Cool earth, root sap, cooking smoke kept low, and stored herbs. Walls are ribbed) Tj
+T*
+(  with living root; touching them feels like touching something asleep. The forest is) Tj
+T*
+(  populated even when no NPC is present; silence, birds, insects, and tracks are) Tj
+T*
+(  actionable signals. Root arches and carved shelves form rooms where the forest is) Tj
+T*
+(  ceiling...) Tj
+T*
+(- Livetools: scene MAP-LOC-underroot) Tj
+T*
+(- Takeawayhelp: Player takeaway: MAP-LOC-underroot Underroot is not a dungeon; it is a) Tj
+T*
+(  concealed neighborhood of root rooms, low lanterns, and people who survive below the) Tj
+T*
+(  route economy. Give the player one concrete way back into play: a question, a) Tj
+T*
+(  description, a choice, or a pass-and-return moment. "Your takeaway right now is) Tj
+T*
+(  this: Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low) Tj
+T*
+(  lanterns, and people who survive below the route economy." "If you are not sure what) Tj
+T*
+(  to do next, you can ask a question, describe what your character notices, or tell me) Tj
+T*
+(  what your character tries." "If you are not sure what to do next, you can ask a) Tj
+T*
+(  question, describe what your character notices, or tell me what your character) Tj
+T*
+(  tries." Give the player one concrete way back into play: a question, a description,) Tj
+T*
+(  a choice, or a pass-and-return moment. Story takeaway: MAP-LOC-underroot Underroot) Tj
+T*
+(  shows who lives under the official map. Anchor the answer in the visible fiction on) Tj
+T*
+(  this slide: who is present, what can be observed, what has already been said, and) Tj
+T*
+(  what remains uncertain. "Here is what your characters know right now: Underroot) Tj
+T*
+(  shows who lives under the official map." "If you want more...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-underroot-player.png Underroot location map board.) Tj
+T*
+(  MAP-LOC-underroot environment Underroot assets/maps/MAP-LOC-underroot-player.png) Tj
+T*
+(  assets/maps/MAP-LOC-underroot-player.png Visual reference for Underroot. Underroot) Tj
+T*
+(  location map board. Underroot is not a dungeon; it is a concealed neighborhood of) Tj
+T*
+(  root rooms, low lanterns, and people who survive below the route economy. Underroot) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2627 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  is not a dungeon; it is a concealed neighborhood of root rooms, low lanterns, and) Tj
+T*
+(  people who survive below the route economy. MAP-LOC-underroot-map-only Map only) Tj
+T*
+(  Underroot map-only assets/maps/MAP-LOC-underroot-player.png Underroot location map) Tj
+T*
+(  board. MAP-LOC-underroot environment Underroot assets/maps/MAP-LOC-underroot-) Tj
+T*
+(  player.png assets/maps/MAP-LOC-underroot-player.png Visual reference for Underroot.) Tj
+T*
+(  Underroot location map board. Underroot is not a dungeon; it is a concealed) Tj
+T*
+(  neighborhood of root rooms, low lanterns, and people who survive below the route) Tj
+T*
+(  economy. Underroot is not a dungeon; it is a concealed neighborhood of root rooms,) Tj
+T*
+(  low lanterns, and people who survive below the route economy. MAP-LOC-underroot-map-) Tj
+T*
+(  text Map + text Underroot Underroot is not a dungeon; it is a...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-underroot map Underroot assets/maps/MAP-LOC-underroot-) Tj
+T*
+(  player.png Underroot location map board. Visual reference for Underroot. spatial) Tj
+T*
+(  reference and location texture Underroot is not a dungeon; it is a concealed) Tj
+T*
+(  neighborhood of root rooms, low lanterns, and people who survive below the route) Tj
+T*
+(  economy. Underroot is not a dungeon; it is a concealed neighborhood of root rooms,) Tj
+T*
+(  low lanterns, and people who survive below the route economy. MAP-LOC-underroot) Tj
+T*
+(  environment Underroot assets/maps/MAP-LOC-underroot-player.png assets/maps/MAP-LOC-) Tj
+T*
+(  underroot-player.png Visual reference for Underroot. Underroot location map board.) Tj
+T*
+(  Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low) Tj
+T*
+(  lanterns, and people who survive below the route economy. Underroot is not a) Tj
+T*
+(  dungeon; it is a concealed neighborhood of root rooms, low lanterns, and people who) Tj
+T*
+(  survive below the route economy. assets/maps/MAP-LOC-underroot-player.png Underroot) Tj
+T*
+(  location map board. MAP-LOC-underroot environment Underroot assets/maps/MAP-LOC-) Tj
+T*
+(  underroot-player.png assets/maps/MAP-LOC-underroot-player.png Visual reference for) Tj
+T*
+(  Underroot. Underroot location map board. Underroot is not a dungeon; it is a...) Tj
+T*
+(- Slidenumber: 85) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 9dd87fd8f412a6ee | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002735 00000 n 
+0000002861 00000 n 
+0000007021 00000 n 
+0000007147 00000 n 
+0000009826 00000 n 
+0000009952 00000 n 
+0000010021 00000 n 
+0000010070 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+10142
+%%EOF

@@ -1,0 +1,37 @@
+# Character Creation
+
+RAW export - rule:character-creation
+
+## What it is
+The beginner sequence for choosing identity, ancestry, community, class, traits, equipment, Experiences, and connections.
+
+## How it works
+Use during Session Zero or when importing a new Level 1 PC into the one-shot.
+
+## Step by step
+- Use during Session Zero or when importing a new Level 1 PC into the one-shot.
+- Start with who the character is, then ancestry, community, class/subclass, traits, Experiences, equipment, and connection questions.
+- Return to the fiction with the concrete result, cost, or benefit.
+
+## Try it
+What do I choose first?
+
+## Raw source
+- Id: character-creation
+- Title: Character Creation
+- Tag: official
+- Summary: The beginner sequence for choosing identity, ancestry, community, class, traits, equipment, Experiences, and connections.
+- When: Use during Session Zero or when importing a new Level 1 PC into the one-shot.
+- Not When: Do not rebuild pregen math at a public one-shot unless Kyle intentionally chooses a longer Session Zero mode.
+- Question: What do I choose first?
+- Answer: Start with who the character is, then ancestry, community, class/subclass, traits, Experiences, equipment, and connection questions.
+- Example: A player can keep Barnacle's Rogue math and only rename, reskin, and rewrite one Experience for a faster table start.
+- Related: ancestry community class-subclass traits experiences connection-questions
+- Aliases: character build make a character session zero character
+- Source: Official SRD / local quickstart reference. Use private full-rulebook material only at the table.
+- Mechanic Profile: mechanic-profile-v1 character-creation Character Creation character build make a character session zero character Character Creation session-zero #rules-canon Beginner ancestry community class-subclass traits Session Zero primer ancestry community class-subclass traits experiences connection-questions The beginner sequence for choosing identity, ancestry, community, class, traits, equipment, Experiences, and connections. Start with who the character is, then ancestry, community, class/subclass, traits, Experiences, equipment, and connection questions. Use during Session Zero or when importing a new Level 1 PC into the one-shot. Character Creation: The beginner sequence for choosing identity, ancestry, community, class, traits, equipment, Experiences, and connections. Use during Session Zero or when importing a new Level 1 PC into the one-shot. Start with who the character is, then ancestry, community, class/subclass, traits, Experiences, equipment, and connection questions. Return to the fiction with the concrete result, cost, or benefit. A player can keep Barnacle's Rogue math and only rename, reskin, and rewrite one Experience for a faster table start. A player can keep...
+- Canon Status: #rules-canon
+- Category: session-zero
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 06bd12f49c5b09d2 | Source hash dac3370046ed077140fab2d6

@@ -1,0 +1,66 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "the-midnight-cabal",
+  "title": "The Midnight Cabal",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "a00e59584c324341",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "A whispered name for impossible jobs and doors that opened without permission."
+    },
+    {
+      "title": "Public role",
+      "body": "Shadow-organization rumor and future-campaign seed"
+    },
+    {
+      "title": "Handout text",
+      "body": "The Midnight Cabal: a whispered future-thread name for impossible jobs and locked doors that opened anyway."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: faction",
+        "Role: Shadow-organization rumor and future-campaign seed",
+        "Summary: The Midnight Cabal is a rumor with a lockpick smile, present only in whispers and impossible coincidences.",
+        "Tags: audit-recovery faction faction-profile future-hook shadow-org",
+        "Connections: The Board of Directors",
+        "Name: The Midnight Cabal",
+        "Id: the-midnight-cabal",
+        "Faction Profile: faction-profile-v1 the-midnight-cabal the-midnight-cabal Faction_System_Packet/factions/WIDER_LORE_FACTIONS.md seed Atlas lore note: one-shot-safe expansion. Use as GM-only texture unless table play earns it. courier The Midnight Cabal A whispered name for impossible jobs and doors that opened without permission. No slogan survives daylight. The Midnight Cabal is a rumor with a lockpick smile, present only in whispers and impossible coincidences. Nobody reliable claims to have hired the Midnight Cabal. That is part of the brand, if it is a brand. The stories always include one locked door, one unpaid debt, and one witness who insists the candle blew out by itself. The name is spoken the way people speak about a storm they hope will miss them. Quietly, with one glance toward the nearest door. The Midnight Cabal Midnight Cabal the midnight job A whispered name for impossible jobs and doors that opened without permission. GM-only seed: myth-armored operators in gaps the corporations cannot fully price. Future thread only; a rumor, not a staged one-shot faction. Unknown; useful as rumor pressure only. Unknown in this module. Their reputation is the lever, not a person on stage...",
+        "Aliases: Midnight Cabal The Midnight Cabal the midnight job",
+        "Robust: A whispered name for impossible jobs and doors that opened without permission. GM-only future seed: leave the Cabal unresolved unless Kyle opens that arc at the table. Black ribbon, cold candlewick, wrong-side wax, shutter taps, and a keyhole that feels newly important. Remain rumor-shaped until a future arc needs the kind of impossible job corporations cannot price. Daylight, proof, named members, and anyone forcing the myth to become ordinary before it is ready. Future thread only; a rumor, not a staged one-shot faction. Knowledge / Presence 15 Separate three useful pieces: the Cabal is only rumor in this one-shot, the rumor scares institutions, and one impossible detail may be true. Learn the safest version: a name whispered around locked doors and missing papers. Learn the rumor, but someone nearby decides you are interested in forbidden work. You cannot confirm them, but you know the name is treated as dangerous. You repeat the rumor in front of the wrong listener. Spend Fear to put a wrong-side wax seal or open lock into a later future-hook scene. Rogue or Slyborne PCs hear the craft hidden under the myth. Loreborne PCs know no reliable source agrees on whether the Cabal...",
+        "Player Safe Disabled: True",
+        "Pronunciation: the MID-nyte kuh-BAHL",
+        "Short Pronunciation: the MID-nyte kuh-BAHL",
+        "Personality: Black ribbon, cold candlewick, wrong-side wax, shutter taps, and a keyhole that feels newly important.",
+        "Wants: Remain rumor-shaped until a future arc needs the kind of impossible job corporations cannot price.",
+        "Fears: Daylight, proof, named members, and anyone forcing the myth to become ordinary before it is ready.",
+        "Secrets: GM-only future seed: leave the Cabal unresolved unless Kyle opens that arc at the table.",
+        "Body Language: Black ribbon, cold candlewick, wrong-side wax, shutter taps, and a keyhole that feels newly important.",
+        "Sample Dialogue: If the Cabal speaks here, it speaks as rumor: quiet, unverifiable, and too specific.",
+        "Equipment: No equipment; use as context, place, faction, mechanic, or clue rather than treasure.",
+        "Search Or Loot: The Midnight Cabal: a whispered future-thread name for impossible jobs and locked doors that opened anyway.",
+        "Gm Use: Future thread only; a rumor, not a staged one-shot faction.",
+        "Future Hooks: Use only if Kyle opens the future arc around impossible jobs, myth, and corporate blind spots.",
+        "Mechanics: Faction Pressure / Reputation Mechanics Players can read public face, negotiate leverage, track reputation, or identify pressure The Midnight Cabal when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: The Midnight Cabal is a rumor with a lockpick smile, present only in whispers and impossible coincidences. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-the-midnight-cabal-engage-the-midnight-cabal entity-the-midnight-cabal Engage The Midnight Cabal Engage The Midnight Cabal Presence Knowledge Instinct Presence Knowledge, Instinct 13 Choose the trait from the player's method, not the entity type. A flat read of The Midnight Cabal hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC...",
+        "Meta: Faction / Community FACTION assets/icons/faction.png entity-faction #9f7aea 06 Factions and Companies factions faction",
+        "Image Prompt: Private table TTRPG story atlas asset for The Midnight Cabal, Faction / Community. Role: Shadow-organization rumor and future-campaign seed. Summary: The Midnight Cabal is a rumor with a lockpick smile, present only in whispers and impossible coincidences.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Create a clean symbolic crest or brand mark on a plain dark background; no readable words. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Related: The Board of Directors",
+        "Image: assets/logos/the-midnight-cabal.webp",
+        "Image Asset Status: image_gen",
+        "Faction Representative Image: assets/factions/the-midnight-cabal-representative.webp",
+        "Faction Representative Status: image_gen",
+        "Visual Gallery: primary Primary wiki image primary assets/logos/the-midnight-cabal.webp The Midnight Cabal primary wiki image visual. The Midnight Cabal: Primary wiki image. image_gen True faction-logo-source Faction logo faction-logo assets/entity-gallery/the-midnight-cabal/faction-logo-source.webp The Midnight Cabal faction logo visual. The Midnight Cabal: Faction logo. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/logos/the-midnight-cabal.webp faction-representative-source Representative scene faction-representative assets/entity-gallery/the-midnight-cabal/faction-representative-source.webp The Midnight Cabal representative scene visual. The Midnight Cabal: Representative scene. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/representative/the-midnight-cabal.png"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash a00e59584c324341 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,629 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2705 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S05-01 - The Open Vale Site) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The clearing is a perfect circle, the only break in the endless canopy: open sky above) Tj
+T*
+(for the first time in days. The Custodian speaks softly as you arrive. This is where she) Tj
+T*
+(first forged the ward pillars that keep Hush safe. She almost died doing it. Then her) Tj
+T*
+(antennae perk in a disconcerting way. "This is good. Stop, here. Now come help me. I'm) Tj
+T*
+(old." She begins to glow. "I'll need an hour. Enjoy the night air while you can. We'll) Tj
+T*
+(be very busy soon.") Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Reach the ritual site, learn what is coming, and prepare.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: S05-01) Tj
+T*
+(- Type: scene) Tj
+T*
+(- Sectionid: ACT-FIVE) Tj
+T*
+(- Sectiontitle: Act Five: The Ward Renewal) Tj
+T*
+(- Title: The Open Vale Site) Tj
+T*
+(- Shorttitle: Arrival / Short Rest) Tj
+T*
+(- Order: 601) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: True) Tj
+T*
+(- Image: assets/scenes/S05-01-open-valetm-ritual-site.png) Tj
+T*
+(- Alt: Old ritual clearing under open sky.) Tj
+T*
+(- Caption: The quiet before the finale turns care, rest, and preparation into real) Tj
+T*
+(  protection.) Tj
+T*
+(- Mood: The Ward Renewal) Tj
+T*
+(- Gmgoal: Arrive at the old ritual clearing, run the last Short Rest, and turn) Tj
+T*
+(  preparation into finale resources.) Tj
+T*
+(- Publicobjective: Reach the ritual site, learn what is coming, and prepare.) Tj
+T*
+(- Readaloud: The clearing is a perfect circle, the only break in the endless canopy:) Tj
+T*
+(  open sky above for the first time in days. The Custodian speaks softly as you) Tj
+T*
+(  arrive. This is where she first forged the ward pillars that keep Hush safe. She) Tj
+T*
+(  almost died doing it. Then her antennae perk in a disconcerting way. "This is good.) Tj
+T*
+(  Stop, here. Now come help me. I'm old." She begins to glow. "I'll need an hour.) Tj
+T*
+(  Enjoy the night air while you can. We'll be very busy soon.") Tj
+T*
+(- Gmnotes: This is the pressure valve before the finale. Give every player one prep) Tj
+T*
+(  spotlight before moving on.) Tj
+T*
+(- Gmscript: Say: "This is your last calm moment. Short Rest now: Tend to Wounds, Clear) Tj
+T*
+(  Stress, Repair Armor, or Prepare for Hope. Pick two. If you Prepare together, you) Tj
+T*
+(  each get two Hope. I take 1d4 Fear during the rest.") Tj
+T*
+(- Gmreadaloud: The clearing is a perfect circle, the only break in the endless canopy.) Tj
+T*
+(  The Custodian says this is where she first forged the ward pillars that keep Hush) Tj
+T*
+(  safe. "I'll need an hour. Enjoy the night air while you can. We'll be very busy) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4122 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  soon.") Tj
+T*
+(- Gmchecklist: Deliver the clearing and Custodian history beat. Run Short Rest: Tend) Tj
+T*
+(  to Wounds, Clear Stress, Repair Armor, Prepare. Take 1d4 Fear during the rest. If) Tj
+T*
+(  ritual_prep=ready, let a prepared PC preview the countdown before S05-02. If) Tj
+T*
+(  package_status=lost, state that the ritual cannot proceed as written until a) Tj
+T*
+(  recovery/improvisation decision is made.) Tj
+T*
+(- Gmprivate: The Forgotten Gods deflection is canon-facing; do not explain the deeper) Tj
+T*
+(  cost. The player-facing site is warm Open Vale. Open Vale\(TM\) registration stays GM-) Tj
+T*
+(  only.) Tj
+T*
+(- Playertakeaway: This is the quiet before the worst of it; use it well.) Tj
+T*
+(- Storytakeaway: This clearing is where the ward was born and where it must be) Tj
+T*
+(  renewed, and the Custodian is risking herself again.) Tj
+T*
+(- Mechanictakeaway: Short Rest is the final resource conversion: HP, Stress, Armor,) Tj
+T*
+(  Hope, ritual_prep, and GM Fear all change the fight.) Tj
+T*
+(- Rollcards: s05-01-read-the-open-vale-pattern S05-01 Read the Open Vale pattern Read) Tj
+T*
+(  the Open Vale pattern Knowledge Instinct Knowledge Instinct 14 Knowledge reads the) Tj
+T*
+(  circle; Instinct feels what the clearing excludes. The ritual starts without a clear) Tj
+T*
+(  defensive map. Critical Success: best possible version of the action; gain Hope and) Tj
+T*
+(  clear 1 Stress. Add an extra benefit that follows from the fiction. Success with) Tj
+T*
+(  Hope: the PC gets what they wanted and gains Hope. Keep the position clean or) Tj
+T*
+(  generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and) Tj
+T*
+(  introduces a cost, complication, or pressure. Failure with Hope: the PC does not get) Tj
+T*
+(  the full result, but gains Hope and receives a useful thread, clue, or safer next) Tj
+T*
+(  option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that) Tj
+T*
+(  follows from the fiction. The ritual starts without a clear defensive map. Use a) Tj
+T*
+(  hard complication, lost time, worse position, GM Fear, or mark Stress. Apply an) Tj
+T*
+(  official condition only if the fiction and rules justify it. The attempt falls) Tj
+T*
+(  short, but a partial thread appears. Offer one clue, weak position, or safer follow-) Tj
+T*
+(  up. The PC gets the core result, but it costs time...) Tj
+T*
+(- Entityids: open-valetm-ritual-site keystone-asset forgotten-gods the-stones-of-the-) Tj
+T*
+(  vale whitefire-custodian goldspire-territories ritual-countdown route-assurance-) Tj
+T*
+(  contract marlowe-fairwind sealed-keystone-crate ward-moths sunfire-lily mist-things) Tj
+T*
+(- Entities: open-valetm-ritual-site Open Vale? Ritual Site location Location) Tj
+T*
+(  assets/icons/location.png assets/location-visuals/open-valetm-ritual-) Tj
+T*
+(  site/profile_scene_v02.png OH-pen vayl RICH-oo-ul site An ancient circular clearing) Tj
+T*
+(  of standing stones and ward-light, with a freshly painted company marker staked at) Tj
+T*
+(  its edge. Make the final arena feel sacred, neglected, and operational all at once.) Tj
+T*
+(  Ancient circular clearing rebranded by Goldspire; where the ward renewal happens.;) Tj
+T*
+(  introduce it with a sensory palette, who feels safe there, and what has been) Tj
+T*
+(  neglected. Pull player attention toward the choices, clues, and relationships tied) Tj
+T*
+(  to Whitefire Custodian, Keystone Asset, Legacy Security Skeleton. Ancient circular) Tj
+T*
+(  clearing rebranded by Goldspire; where the ward renewal happens. keystone-asset) Tj
+T*
+(  Keystone Asset? item Item / Asset assets/icons/item.png assets/item-images/keystone-) Tj
+T*
+(  asset/profile_base.png KEE-stohn ASS-et Inside the sealed crate, packed in wax-paper) Tj
+T*
+(  and reassurance, sits a heavy grey stone the size of a loaf, warm to the touch,) Tj
+T*
+(  faintly humming, with a light deep inside it that is slowly going out. Keystone) Tj
+T*
+(  Asset?, Emeris Crown Holdings: the ward-stone that keeps Emeris safe. It is...) Tj
+T*
+(- Locationids: open-valetm-ritual-site the-stones-of-the-vale) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4070 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Itemids: keystone-asset whitefire-ward-charm) Tj
+T*
+(- Clueids: route-assurance-contracttm public-private-ward-compact) Tj
+T*
+(- Statecontrols: ritual_prep Ritual Prep select unready ready keystone_understanding) Tj
+T*
+(  Keystone Understanding select surface deep strixwolf_disposition Strixwolf) Tj
+T*
+(  Disposition select unresolved calm hostile killed strixwolf_outcome Strixwolf) Tj
+T*
+(  Outcome select unresolved calmed helped avoided attacked killed strixwolf_trust) Tj
+T*
+(  Strixwolf Trust number 3 strixwolf_blood_debt Strixwolf Blood Debt checkbox) Tj
+T*
+(  bramble_outcome Bramble Outcome select unresolved killed captured spared negotiated) Tj
+T*
+(  escaped let_cargo bramble_truth_learned Bramble Truth Learned checkbox) Tj
+T*
+(  package_status Package Status select held lost hush_trust Hush Trust select low) Tj
+T*
+(  neutral high custodian_route Custodian Route select unknown safe dangerous) Tj
+T*
+(  ward_awareness Ward Awareness select none seed aware festival_boon Festival Boon) Tj
+T*
+(  select none charm favor market_find goodwill custodian_trust Custodian Trust select) Tj
+T*
+(  low neutral high ward_stability Ward Stability select fragile stable hush_clues Hush) Tj
+T*
+(  Clues select none custodian_route ward_seed corporate_seam farm_seed market_rumor) Tj
+T*
+(  multiple) Tj
+T*
+(- Mechanicids: countdown short-rest adversary-spotlight fear hope stress presence) Tj
+T*
+(  knowledge) Tj
+T*
+(- Playerquestions: Who do you prepare beside? What do you repair, confess, steady, or) Tj
+T*
+(  set down before this begins? Who explains the plan to the group?) Tj
+T*
+(- Relationshipprompts: Which PC quietly checks on someone else here? Who disagrees) Tj
+T*
+(  about the right thing to do without breaking trust?) Tj
+T*
+(- Ownershipprompt: Name one detail in Open Vale? Ritual Site that belongs to your) Tj
+T*
+(  character's point of view.) Tj
+T*
+(- Fearspends: Spend Fear to tick the ritual countdown, expose the Custodian, activate) Tj
+T*
+(  ward backlash, or trigger Market Correction. Tick the Ritual Countdown the wrong) Tj
+T*
+(  direction or expose the Custodian. Trigger Market Correction, Pass-Through, Memory) Tj
+T*
+(  Delve, or Group Attack when fiction supports it.) Tj
+T*
+(- Choicesconsequences: Tend to Wounds. A PC or ally clears 1d4+1 HP. Use the Short) Tj
+T*
+(  Rest option now. More bodies stay standing during S05-03 through S05-05. ritual_prep) Tj
+T*
+(  can still become ready if the table also plans. Reward: survival cushion. player-) Tj
+T*
+(  visible Clear Stress. A PC clears 1d4+1 Stress. Use the Short Rest option now.) Tj
+T*
+(  Memory Delve and peak pressure hurt less later. protected_whom can still be written) Tj
+T*
+(  later. Reward: emotional/mechanical resilience. player-visible Repair Armor. A PC) Tj
+T*
+(  repairs 1d4+1 armor slots. Use the Short Rest option now. Group Attack and peak hits) Tj
+T*
+(  are less punishing. ward_stability still controls ritual pressure. Reward: damage) Tj
+T*
+(  cushion. player-visible Prepare together. The party banks Hope and makes a plan.) Tj
+T*
+(  Gain Hope; if prepared together, each participating PC gets 2 Hope.) Tj
+T*
+(  ritual_prep=ready and S05-02 countdown rules can be taught diegetically.) Tj
+T*
+(  ritual_prep=ready Reward: stronger opening; GM still gains 1d4 Fear. player-visible) Tj
+T*
+(  package_status=lost warning. The table sees the missing package matters before the) Tj
+T*
+(  ritual starts. Recovery, substitution, or acceptance of a fragile alternate start is) Tj
+T*
+(  required. Without Kyle's canon ruling, this remains flagged rather than silently...) Tj
+T*
+(- Lootclues: Open Vale residue after the ritual Keystone Asset?: Inside the sealed) Tj
+T*
+(  crate, packed in wax-paper and reassurance, sits a heavy grey stone the size of a) Tj
+T*
+(  loaf, warm to the touch, faintly humming, with a light deep inside it that is slowly) Tj
+T*
+(  going out. Whitefire Custodian's Ward-Charm: A small hand-carved wooden ratcoon mid-) Tj
+T*
+(  scamper has been thumb-worn smooth for luck. It is warm, and the forest feels a) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4218 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  little kinder while you hold it.) Tj
+T*
+(- Handoutids: Ward geometry) Tj
+T*
+(- Sourcesceneslug: S05-01-open-valetm-ritual-site) Tj
+T*
+(- Sourcefiles: dist/Act5_Upgrade_Packet/ACT5_SCENE_RESEARCH.md) Tj
+T*
+(  dist/Act5_Upgrade_Packet/ACT5_PER_CHARACTER.md) Tj
+T*
+(- References: Act5 scene packet sources/Act5_Upgrade_Packet/ACT5_SCENE_RESEARCH.md) Tj
+T*
+(- Storyscope: Perceived antagonist: the forest. True antagonist: the corporate lie) Tj
+T*
+(  about the forest. The players never confront it directly. They are meant to feel it) Tj
+T*
+(  by the end. Every act offers at least one guaranteed and one earned hint that the) Tj
+T*
+(  danger is manufactured and the forest is not the enemy. Soul-Audit Wraiths bear) Tj
+T*
+(  audit glyphs and say, "Unlicensed soul-resonance detected. Submit for audit.") Tj
+T*
+(  REFLAVOR GUARANTEED A defeated wraith leaves a Soulspire compliance tag or coil-) Tj
+T*
+(  credit token instead of natural remains. ADD GUARANTEED Wraiths ignore forest) Tj
+T*
+(  creatures and home only on ritual soul-magic. ADD EARNED Instinct Medium 15 A player) Tj
+T*
+(  can read the markings and name Soulspire without the GM naming it first. ADD EARNED) Tj
+T*
+(  Knowledge Medium 15 Optional flag: Legacy Skeletons carry scraps of old corporate) Tj
+T*
+(  credentials. FLAG SEED Instinct: target logic. Knowledge: read markings. ACT5 Act 5:) Tj
+T*
+(  Open Vale defense 200 2:40 to 3:20 3:20 countdown 8, skeletons, wraiths, Market) Tj
+T*
+(  Correction Lower the countdown start to 6; cap wraith reinforcements.) Tj
+T*
+(- Livetools: encounter S05-01 MAP-S05-03 pages/combat/s05-03.html) Tj
+T*
+(- Percharacterlayer: marlowe-fairwind Marlowe Fairwind Ritual briefing Recognizes the) Tj
+T*
+(  Open Vale as a true ritual site and understands the magnitude of what the Custodian) Tj
+T*
+(  is about to attempt. Knowledge 13 Grasps the countdown logic before it starts and) Tj
+T*
+(  senses the ward will take something to renew. Can brief the party diegetically) Tj
+T*
+(  without being required for the ritual. Marlowe, you understand this ritual better) Tj
+T*
+(  than anyone here. Want to brief the party on what's coming? khari-nix Khari Nix The) Tj
+T*
+(  watch Naturally turns the rest into a defensive plan: who stands where when it) Tj
+T*
+(  starts. Can set the guard order and make ritual_prep feel concrete. Khari, you can) Tj
+T*
+(  set the guard order now. Want to position the party around the Custodian before the) Tj
+T*
+(  fight? varian-soto Varian Soto The perimeter Reads the treeline and knows which) Tj
+T*
+(  directions the summoned things will come from. Instinct 13 Calls the threat lanes) Tj
+T*
+(  before S05-02 begins. Can make the first positioning beat feel earned. Varian, you) Tj
+T*
+(  can feel where the woods will spit out trouble. Want to call the threat lanes?) Tj
+T*
+(  garrick-reed Garrick Reed Rest leadership Knows how to make a last rest practical) Tj
+T*
+(  instead of sentimental. Can help the table choose Tend, Clear, Repair...) Tj
+T*
+(- Takeawayhelp: Player takeaway This is the quiet before the worst of it; use it well.) Tj
+T*
+(  "Last calm moment. Heal up, steady yourselves, and brace. Once she starts, it is all) Tj
+T*
+(  hands." "Patch a wound, shake off stress, fix armor, prepare with someone for Hope,) Tj
+T*
+(  or ask the Custodian one human question." Every player should leave S05-01 with a) Tj
+T*
+(  concrete prep choice made. short-rest hope fear stress Story takeaway This clearing) Tj
+T*
+(  is where the ward was born and where it must be renewed, and the Custodian is) Tj
+T*
+(  risking herself again. "Sacred ground. She made the ward here once, nearly died for) Tj
+T*
+(  it, and she is about to do it again with you to guard her." "If players ask about) Tj
+T*
+(  the Forgotten Gods, she deflects. The deeper cost stays a seed, not an answer." Keep) Tj
+T*
+(  the moment sincere. Save corporate bite for the report choice. short-rest hope fear) Tj
+T*
+(  stress Mechanic takeaway Short Rest is the final resource conversion: HP, Stress,) Tj
+T*
+(  Armor, Hope, ritual_prep, and GM Fear all change the fight. "Short Rest: pick two.) Tj
+T*
+(  Tend to Wounds clears 1d4+1 HP, Clear Stress clears 1d4+1 Stress, Repair Armor) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 4221 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  restores 1d4+1 slots, Prepare gives Hope; prepare together for two Hope each. I take) Tj
+T*
+(  1d4 Fear." "If ritual_prep is ready, you know the...) Tj
+T*
+(- Playerbeats: s05-01-circle Circle The perfect circle assets/scenes/S05-01-open-) Tj
+T*
+(  valetm-ritual-site.png Old ritual clearing under open sky. The clearing is a perfect) Tj
+T*
+(  circle under open sky, the first clean break in the canopy for days. The clearing is) Tj
+T*
+(  a perfect circle under open sky, the first clean break in the canopy for days. The) Tj
+T*
+(  clearing is a perfect circle under open sky, the first clean break in the canopy for) Tj
+T*
+(  days. text-first s05-01-history History Her history assets/scenes/S05-01-open-) Tj
+T*
+(  valetm-ritual-site.png Old ritual clearing under open sky. The Custodian says she) Tj
+T*
+(  forged the ward here once before, and it nearly killed her. The Custodian says she) Tj
+T*
+(  forged the ward here once before, and it nearly killed her. The Custodian says she) Tj
+T*
+(  forged the ward here once before, and it nearly killed her. text-first s05-01-rest) Tj
+T*
+(  Short Rest The last rest assets/scenes/S05-01-open-valetm-ritual-site.png Old ritual) Tj
+T*
+(  clearing under open sky. Short Rest now: heal, clear Stress, repair Armor, or) Tj
+T*
+(  Prepare for Hope before the fight begins. Short Rest now: heal, clear Stress, repair) Tj
+T*
+(  Armor, or Prepare for Hope before the fight begins. Short Rest now: heal, clear) Tj
+T*
+(  Stress, repair Armor, or Prepare for Hope before the...) Tj
+T*
+(- Gmbeats: s05-01-circle Circle The perfect circle Say: "The first beat is relief:) Tj
+T*
+(  open sky, a circle of grass, and old stones waiting for work." The clearing is a) Tj
+T*
+(  perfect circle under open sky, the first clean break in the canopy for days. The) Tj
+T*
+(  ritual site feels sacred before it feels tactical. Visual orientation prepares later) Tj
+T*
+(  map use. Players can picture the finale space. Player takeaway Players can picture) Tj
+T*
+(  the finale space. "The first beat is relief: open sky, a circle of grass, and old) Tj
+T*
+(  stones waiting for work." "The table-facing answer is: Players can picture the) Tj
+T*
+(  finale space." Use this beat to give the players one visible next action: protect) Tj
+T*
+(  the center, read the field, spend prep, name who they shield, or choose what truth) Tj
+T*
+(  leaves with them. table-spotlight Story takeaway The ritual site feels sacred before) Tj
+T*
+(  it feels tactical. "The first beat is relief: open sky, a circle of grass, and old) Tj
+T*
+(  stones waiting for work." "The story answer is: The ritual site feels sacred before) Tj
+T*
+(  it feels tactical." Tie the answer to a visible Act 5 consequence: the ward) Tj
+T*
+(  steadies, the Custodian suffers, Hush is protected, or the final report changes who) Tj
+T*
+(  owns the truth. table-spotlight Mechanic takeaway...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 8000) Tj
+T*
+(- Playersafeprojection: S05-01 scene The Open Vale Site assets/scenes/S05-01-open-) Tj
+T*
+(  valetm-ritual-site.png Old ritual clearing under open sky. The quiet before the) Tj
+T*
+(  finale turns care, rest, and preparation into real protection. The Ward Renewal) Tj
+T*
+(  Reach the ritual site, learn what is coming, and prepare. The clearing is a perfect) Tj
+T*
+(  circle, the only break in the endless canopy: open sky above for the first time in) Tj
+T*
+(  days. The Custodian speaks softly as you arrive. This is where she first forged the) Tj
+T*
+(  ward pillars that keep Hush safe. She almost died doing it. Then her antennae perk) Tj
+T*
+(  in a disconcerting way. "This is good. Stop, here. Now come help me. I'm old." She) Tj
+T*
+(  begins to glow. "I'll need an hour. Enjoy the night air while you can. We'll be very) Tj
+T*
+(  busy soon." s05-01-circle Circle The perfect circle assets/scenes/S05-01-open-) Tj
+T*
+(  valetm-ritual-site.png Old ritual clearing under open sky. The clearing is a perfect) Tj
+T*
+(  circle under open sky, the first clean break in the canopy for days. The clearing is) Tj
+T*
+(  a perfect circle under open sky, the first clean break in the canopy for days. The) Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 1124 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  clearing is a perfect circle under open sky, the first clean break in the canopy for) Tj
+T*
+(  days. text-first s05-01-history History Her history...) Tj
+T*
+(- Companionmapids: MAP-S05-03 MAP-LOC-open-valetm-ritual-site MAP-LOC-goldspire-) Tj
+T*
+(  territories MAP-LOC-the-stones-of-the-vale) Tj
+T*
+(- Slidenumber: 62) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+(- Spotlights: SPOT-M-SHORTREST short-rest short-rest M16 S05-01 high mandatory scene-) Tj
+T*
+(  enter Short Rest, Then Breathe This is the pre-finale resource checkpoint. Each PC) Tj
+T*
+(  chooses two rest moves: Tend to Wounds, Clear Stress, Repair Armor, or Prepare.) Tj
+T*
+(  Resolve recovery before the ritual pressure begins. After the rest tick, the GM) Tj
+T*
+(  banks 1d4 Fear. Short Rest wiki/mechanic/short-rest teach-by-example Make the pre-) Tj
+T*
+(  finale reset explicit and useful. mechanic defer-if-clock-critical True True) Tj
+T*
+(- Spotlightsummary: 1) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 53ee69df929ec204 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R 12 0 R] /Count 6 >>
+endobj
+14 0 obj
+<< /Type /Catalog /Pages 13 0 R >>
+endobj
+15 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000009 00000 n 
+0000002766 00000 n 
+0000002894 00000 n 
+0000007068 00000 n 
+0000007196 00000 n 
+0000011318 00000 n 
+0000011446 00000 n 
+0000015716 00000 n 
+0000015844 00000 n 
+0000020117 00000 n 
+0000020246 00000 n 
+0000021423 00000 n 
+0000021553 00000 n 
+0000021643 00000 n 
+0000021694 00000 n 
+trailer
+<< /Size 16 /Root 14 0 R >>
+startxref
+21767
+%%EOF

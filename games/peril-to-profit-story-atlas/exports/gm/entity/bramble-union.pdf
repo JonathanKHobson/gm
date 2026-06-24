@@ -1,0 +1,332 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2724 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(Bramble Union) Tj
+T*
+() Tj
+T*
+(Player-facing description) Tj
+T*
+() Tj
+T*
+(The Bramble Union: Thorn-scrap armor, hungry eyes, and old worker gear make the Bramble) Tj
+T*
+(Union look dangerous before they look human. Slogan: We were the route.) Tj
+T*
+() Tj
+T*
+(Public role) Tj
+T*
+() Tj
+T*
+(Loose label for freeholders and cargo reclaimers) Tj
+T*
+() Tj
+T*
+(Handout text) Tj
+T*
+() Tj
+T*
+(The Bramble Union: Thorn-scrap armor, hungry eyes, and old worker gear make the Bramble) Tj
+T*
+(Union look dangerous before they look human. Slogan: We were the route.) Tj
+T*
+() Tj
+T*
+(GM truth) Tj
+T*
+() Tj
+T*
+(Deepest layer, GM-only: their existence is useful to people selling protection from road) Tj
+T*
+(danger. The Union does not know how high that usefulness goes.) Tj
+T*
+() Tj
+T*
+(GM handling) Tj
+T*
+() Tj
+T*
+(The Act 2 moral hinge: a fight or parley that proves the danger has a human history.) Tj
+T*
+() Tj
+T*
+(Mechanics) Tj
+T*
+() Tj
+T*
+(- Title: Faction Pressure / Reputation Mechanics) Tj
+T*
+(- Player Safe: Players can read public face, negotiate leverage, track reputation, or) Tj
+T*
+(  identify pressure Bramble Union when it is present in the fiction.) Tj
+T*
+(- Gm Only: Use the roll only when the player's method, stakes, and consequence are) Tj
+T*
+(  concrete.) Tj
+T*
+(- No Roll Reveals: Surface read: Thorn-scrap armor, hungry eyes, and old worker gear) Tj
+T*
+(  make the Bramble Union look dangerous before they look human. Give obvious visible) Tj
+T*
+(  facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.) Tj
+T*
+(- Rolls: entity-bramble-union-engage-bramble-union entity-bramble-union Engage Bramble) Tj
+T*
+(  Union Engage Bramble Union Presence Knowledge Instinct Presence Knowledge, Instinct) Tj
+T*
+(  13 Choose the trait from the player's method, not the entity type. A flat read of) Tj
+T*
+(  Bramble Union hides the cost, motive, or useful next step. Critical Success: best) Tj
+T*
+(  possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit) Tj
+T*
+(  that follows from the fiction. Success with Hope: the PC gets what they wanted and) Tj
+T*
+(  gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what) Tj
+T*
+(  they wanted, but the GM gains Fear and introduces a cost, complication, or pressure.) Tj
+T*
+(  Failure with Hope: the PC does not get the full result, but gains Hope and receives) Tj
+T*
+(  a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the) Tj
+T*
+(  GM gains Fear. Make a hard move that follows from the fiction. A...) Tj
+T*
+(- Fear Spends: Reveal who benefits from the current situation. Make the cost personal) Tj
+T*
+(  without closing off player agency.) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3560 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Search Loot: Their members carry survival tools, reclaimed seals, worn weapons, and) Tj
+T*
+(  personal keepsakes.) Tj
+T*
+() Tj
+T*
+(Profile) Tj
+T*
+() Tj
+T*
+(- Schema Version: faction-profile-v1) Tj
+T*
+(- Id: bramble-union) Tj
+T*
+(- Entity Id: bramble-union) Tj
+T*
+(- Source: Faction_System_Packet/factions/Bramble_Union.md) Tj
+T*
+(- Priority: core) Tj
+T*
+(- Corporate: False) Tj
+T*
+(- Atlas Lore Note: Atlas lore note: one-shot-safe expansion. Use as GM-only texture) Tj
+T*
+(  unless table play earns it.) Tj
+T*
+(- Auto Surface: True) Tj
+T*
+(- Prompt Key: bramble) Tj
+T*
+(- Player Safe: The Bramble Union Ragged road figures in scavenged ward-stone scraps) Tj
+T*
+(  who ambush freight and look like the danger the road warnings promised. We were the) Tj
+T*
+(  route. Thorn-scrap armor, hungry eyes, and old worker gear make the Bramble Union) Tj
+T*
+(  look dangerous before they look human. At first the Bramble Union is all shape and) Tj
+T*
+(  threat: figures in bark-dark cloaks, ward-stone scraps tied over patched shirts, and) Tj
+T*
+(  blades held by people who know exactly how little food waits behind them. Then you) Tj
+T*
+(  see the worker pins, the mended children's sleeves, and the way they look at the) Tj
+T*
+(  road like it used to belong to them. The figures step from the green like the forest) Tj
+T*
+(  grew teeth. Their armor is a poor man's miracle: cracked ward charms, old route) Tj
+T*
+(  badges, stitched leather, thornvine knots. One of them keeps glancing past you, not) Tj
+T*
+(  at the cargo, but at the road behind it.) Tj
+T*
+(- Block1: The Bramble Union Bramble bandits route pirates Bramblefolk cargo reclaimers) Tj
+T*
+(  Ragged road figures in scavenged ward-stone scraps who ambush freight and look like) Tj
+T*
+(  the danger the road warnings promised. Survive after being cut loose from preserve) Tj
+T*
+(  work, taking back tolls and freight from the system that priced them out. The Act 2) Tj
+T*
+(  moral hinge: a fight or parley that proves the danger has a human history. Hostile) Tj
+T*
+(  from fear. They expect the party to be enforcers until the party proves otherwise.) Tj
+T*
+(  They lower blades when they are treated as people and given a believable way to) Tj
+T*
+(  survive the week. pages/entities/bramble-union.html BRAM-bul YOO-nyun) Tj
+T*
+(- Block2: Powerless but growing: a camp of discarded workers, families, scouts, and) Tj
+T*
+(  hardliners one bad week from starvation. A stretch of unsafe road, hidden camp) Tj
+T*
+(  routes, and inconvenient truth about who made the road unsafe. Ambush, barter,) Tj
+T*
+(  scouting, and a hard code: take freight before taking lives. Hardliners want every) Tj
+T*
+(  coach hit; frightened survivors want out; leaders are trying to keep anger from) Tj
+T*
+(  becoming murder. Mapping route changes that skip former worker settlements and) Tj
+T*
+(  trying to prove the pattern before food runs out. Formed after a preserve efficiency) Tj
+T*
+(  review cut a worker class loose with a week's notice and a cheerful pamphlet.) Tj
+T*
+(- Block3: Clover Co-op Dungeon Workers' Alliance The Grail Zephra Exchange Hidden food) Tj
+T*
+(  routes old worker maps Bramble scouts Bramble Union Ambusher Bramble Union) Tj
+T*
+(  Claimrunner Kett Alderhook Nettle Freight and coaches, while getting blamed for) Tj
+T*
+(  violence cleaner and colder than their own code allows.) Tj
+T*
+(- Block4: We were the route. Moss greens, bark, polished ward scraps, Hexmart charms) Tj
+T*
+(  lashed into armor, and thorn signs scratched where official maps pretend nobody) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2849 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  lives. Official routes keep passing us by. Funny, that. We did not touch your) Tj
+T*
+(  driver. Look at the cut and tell me that was us. You are couriers too. You will see.) Tj
+T*
+(  A thornbranch wrapped around a broken delivery seal. A worksong turned protest) Tj
+T*
+(  chant, stamped boots and tin cups. Seed only.) Tj
+T*
+(- Block5: The first faction that can become enemy, witness, ally, or wound depending) Tj
+T*
+(  on how the party listens. They are the visible symptom of the racket: discarded) Tj
+T*
+(  workers made into the danger. They did not kill the courier, and many of them are) Tj
+T*
+(  frightened people wearing a terrifying story because the world already assigned it.) Tj
+T*
+(  Deepest layer, GM-only: their existence is useful to people selling protection from) Tj
+T*
+(  road danger. The Union does not know how high that usefulness goes. surface) Tj
+T*
+(  Desperate road bandits in the woods. hint Former workers deny the murder, carry) Tj
+T*
+(  worker-route evidence, and know official routes skipped them on purpose. earned seam) Tj
+T*
+(  Their menace has been made profitable above every local brand. Presence 15 opens) Tj
+T*
+(  hard parley after the party proves they are not handing prisoners to corporate) Tj
+T*
+(  punishment. Examine the murder wound; a Bramblefolk reacts with honest disgust) Tj
+T*
+(  because the...) Tj
+T*
+(- Writing Layer: Thorn-scrap armor, hungry eyes, and old worker gear make the Bramble) Tj
+T*
+(  Union look dangerous before they look human. At first the Bramble Union is all shape) Tj
+T*
+(  and threat: figures in bark-dark cloaks, ward-stone scraps tied over patched shirts,) Tj
+T*
+(  and blades held by people who know exactly how little food waits behind them. Then) Tj
+T*
+(  you see the worker pins, the mended children's sleeves, and the way they look at the) Tj
+T*
+(  road like it used to belong to them. The figures step from the green like the forest) Tj
+T*
+(  grew teeth. Their armor is a poor man's miracle: cracked ward charms, old route) Tj
+T*
+(  badges, stitched leather, thornvine knots. One of them keeps glancing past you, not) Tj
+T*
+(  at the cargo, but at the road behind it. wet bark, iron fear, patched leather, old) Tj
+T*
+(  worker pins, stolen grain sacks, and cracked Hexmart charms the quiet of people) Tj
+T*
+(  trying to sound fiercer than hunger smoke from a hidden camp that has learned...) Tj
+T*
+(- Entity Name: Bramble Union) Tj
+T*
+(- Imagine It Like: Think the displaced workers branded 'bandits' in a Western, the) Tj
+T*
+(  miners' strike the company calls a riot, the barricade in Les Mis. Sympathetic) Tj
+T*
+(  desperation that the brochure files under crime.) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 74ce0df27beddbac | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002785 00000 n 
+0000002911 00000 n 
+0000006523 00000 n 
+0000006649 00000 n 
+0000009550 00000 n 
+0000009676 00000 n 
+0000009745 00000 n 
+0000009794 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+9866
+%%EOF

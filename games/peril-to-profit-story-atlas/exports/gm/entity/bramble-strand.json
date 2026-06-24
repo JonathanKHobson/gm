@@ -1,0 +1,75 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "bramble-strand",
+  "title": "Bramble Strand",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "3d9971b208fdbed7",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Bramble Strand: Thorny bramble tangled around the wheel, pointing beyond animal attack."
+    },
+    {
+      "title": "Public role",
+      "body": "Evidence of ambush setup"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Thorny bramble tangled around the wheel, pointing beyond animal attack."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use when the scene needs a concrete object for players to inspect, carry, debate, or remember."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Discovery / Earn-It Mechanics",
+        "Player Safe: Players can inspect, handle, keep, trade, reveal, or earn Bramble Strand when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: A length of thorned bramble is wound tight around the wheel-spokes — deliberate, woven, not snagged in passing. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-bramble-strand-engage-bramble-strand entity-bramble-strand Engage Bramble Strand Engage Bramble Strand Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Bramble Strand hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Condition Options: No official condition unless the item or clue physically creates Hidden, Restrained, or Vulnerable",
+        "Search Loot: Clue item."
+      ]
+    },
+    {
+      "title": "Profile",
+      "items": [
+        "Schema Version: clue-profile-v1",
+        "Id: bramble-strand",
+        "Clue Id: bramble-strand",
+        "Clue Name: Bramble Strand",
+        "Name: Bramble Strand",
+        "Pronunciation: BRAM-bul STRAND",
+        "Clue Kind: physical",
+        "Auto Surface: True",
+        "Player Safe: Bramble Strand A length of thorned bramble is wound tight around the wheel-spokes — deliberate, woven, not snagged in passing. A length of thorned bramble is wound tight around the wheel-spokes — deliberate, woven, not snagged in passing. A length of thorned bramble is wound tight around the wheel-spokes — deliberate, woven, not snagged in passing.",
+        "Block0: bramble-strand Bramble Strand BRAM-bul STRAND physical",
+        "Block1: a thinking hand jammed the wheel; this points past \"animal attack.\" OBVIOUS The Ambush Reveal the-ambush-reveal Moves suspicion away from bad luck or a random beast and toward a planned trap. pages/entities/bramble-strand.html pages/clues/the-ambush-reveal.html",
+        "Block2: A length of thorned bramble is wound tight around the wheel-spokes — deliberate, woven, not snagged in passing. a thinking hand jammed the wheel; this points past \"animal attack.\"",
+        "Block3: \"there's bramble in the wheel.\" \"it's wound on purpose, not caught.\" \"someone rigged this wheel with bramble.\" \"this was sabotage, by hands that know the thorns.\"",
+        "Block4: Bramble Claim Marker Torn Shipping Seals bramble-claim-marker torn-shipping-seals",
+        "Block5: S01-02 S02-01 Overturned Vendor Cart Vendor Cart Bramble Strand observation; Knowledge 12 to read the weave. clues/The_Ambush_Reveal.md",
+        "Block6: MANDATORY Use this clue to support The Ambush Reveal: a thinking hand jammed the wheel; this points past \"animal attack.\" whisper",
+        "Block8: Bright, saturated storybook evidence illustration; clear hero shot of the actual clue object or scene detail; whimsical frontier-Renaissance materials; warm light; bright dystopian corporate satire when branded; no gore, no UI, no watermark, no repeated icon. Depict: thorny bramble deliberately woven through wooden wheel-spokes, close-up. clue wiki card and Player Display evidence visual Send the image and SHOW text only. Keep TELL, points_to, and blunt ladder rungs GM-only until earned. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/bramble-strand/profile_base.png assets/clue-images/bramble-strand/profile_base.webp Bright, saturated storybook evidence illustration; clear hero shot of the actual clue object or scene detail; whimsical frontier-Renaissance materials; warm light; bright dystopian corporate satire when branded; no gore, no UI, no watermark, no...",
+        "Block9: Official Daggerheart action roll using Duality Dice, Hope, Fear, and Difficulty; P2P Roll Slider is the table-facing result ladder. Agility move, climb, dodge, reach a better angle, or read evidence while moving Strength lift, hold, force, carry, break, or test weight and pressure Finesse handle, hide, tinker, compare, pick apart, or notice precise detail Instinct perceive, smell, listen, track, read danger, or sense body language Presence charm, soothe, press, lead, deceive, perform, or read a social response Knowledge recall, analyze, investigate, reason from lore, or understand systems Finesse D11 Instinct D11 Knowledge D11 If the clue is plainly visible, give the SHOW text freely first: A length of thorned bramble is wound tight around the wheel-spokes — deliberate, woven, not snagged in passing. Use the listed Difficulty for the chosen trait. Lower rolls get partial or misleading...",
+        "Mechanicids: duality-dice hope fear difficulty roll-slider clue-discovery",
+        "Visual Assets: profile_base Clue evidence image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/bramble-strand/profile_base.png assets/clue-images/bramble-strand/profile_base.webp ready Bramble Strand clue image. A length of thorned bramble is wound tight around the wheel-spokes — deliberate, woven, not snagged in passing."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 3d9971b208fdbed7 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+%PDF-1.4
+1 0 obj
+<< /Length 1860 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S04-05 - Toward Open Vale) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The Custodian gathers what she needs with the brisk energy of someone much younger than) Tj
+T*
+(she looks. "The Open Vale is where the ward was first forged," she says. "It is where it) Tj
+T*
+(must be renewed." She looks at each of you in turn. "I cannot do this alone, and what) Tj
+T*
+(comes for us when the magic rises will not be gentle. But I think you already knew the) Tj
+T*
+(job was bigger than a crate." When you are ready, the treehouse unfolds one last time,) Tj
+T*
+(and the road to the Open Vale opens before you.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Commit to the ritual and set out for the Open Vale.) Tj
+T*
+() Tj
+T*
+(GM goal) Tj
+T*
+() Tj
+T*
+(Convert the reveal into commitment, offer real preparation, and bridge to Act 5.) Tj
+T*
+() Tj
+T*
+(GM notes) Tj
+T*
+() Tj
+T*
+(- This is the bridge scene. The important output is state, not more lore.) Tj
+T*
+(- A reluctant yes still counts if the party chooses the hard road with eyes open.) Tj
+T*
+() Tj
+T*
+(GM script) Tj
+T*
+() Tj
+T*
+(Say: "Before we go: you can rest, prepare, ask her what to expect, or spend any favor) Tj
+T*
+(you earned. It all matters when the ritual starts.") Tj
+T*
+() Tj
+T*
+(State controls) Tj
+T*
+() Tj
+T*
+(- custodian_trust Custodian Trust select low neutral high) Tj
+T*
+(- ward_stability Ward Stability select fragile stable) Tj
+T*
+(- ritual_prep Ritual Prep select unready ready) Tj
+T*
+(- keystone_understanding Keystone Understanding select surface deep) Tj
+T*
+(- festival_boon Festival Boon select none charm favor market_find goodwill) Tj
+T*
+(- package_status Package Status select held lost) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 128575af7d765acc | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [2 0 R] /Count 1 >>
+endobj
+4 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000001921 00000 n 
+0000002047 00000 n 
+0000002104 00000 n 
+0000002153 00000 n 
+trailer
+<< /Size 6 /Root 4 0 R >>
+startxref
+2225
+%%EOF

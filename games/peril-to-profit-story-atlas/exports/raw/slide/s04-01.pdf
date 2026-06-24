@@ -1,0 +1,603 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2556 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S04-01 - Through the Farms) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(Past the last homes of the village, the crops change: fruits and vegetables wear a thin) Tj
+T*
+(layer of glowing blue moss that pulses softly with warmth as you pass. Then the) Tj
+T*
+(cultivated land ends, and the preserve returns. The great trees here have faces,) Tj
+T*
+(hundreds of them, carved into every side. Ahead, something hangs in the canopy: a cabin,) Tj
+T*
+(swaying gently, suspended over a counterweight stone the size of a cabin itself.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Reach the Custodian's home.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: S04-01) Tj
+T*
+(- Type: scene) Tj
+T*
+(- Sectionid: ACT-FOUR) Tj
+T*
+(- Sectiontitle: Act Four: The Hanging Office) Tj
+T*
+(- Title: Through the Farms) Tj
+T*
+(- Shorttitle: Through the Farms) Tj
+T*
+(- Order: 501) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: True) Tj
+T*
+(- Image: assets/scenes/S04-01-through-the-farms.png) Tj
+T*
+(- Alt: Through the Farms scene art for The Hanging Office.) Tj
+T*
+(- Caption: The road through the farms shifts the story from delivery job to) Tj
+T*
+(  stewardship problem.) Tj
+T*
+(- Mood: The Hanging Office) Tj
+T*
+(- Gmgoal: Cross from Hush farmland into the carved-face preserve edge and pay off the) Tj
+T*
+(  route the party earned.) Tj
+T*
+(- Publicobjective: Reach the Custodian's home.) Tj
+T*
+(- Readaloud: Past the last homes of the village, the crops change: fruits and) Tj
+T*
+(  vegetables wear a thin layer of glowing blue moss that pulses softly with warmth as) Tj
+T*
+(  you pass. Then the cultivated land ends, and the preserve returns. The great trees) Tj
+T*
+(  here have faces, hundreds of them, carved into every side. Ahead, something hangs in) Tj
+T*
+(  the canopy: a cabin, swaying gently, suspended over a counterweight stone the size) Tj
+T*
+(  of a cabin itself.) Tj
+T*
+(- Gmnotes: This is the Act 3 to Act 4 consequence handoff: route quality changes) Tj
+T*
+(  approach pressure. The alternate hazard is minor and non-combat. Save lethal danger) Tj
+T*
+(  for Act 5.) Tj
+T*
+(- Gmscript: Say: "This is where the route you earned pays off. If Hush trusted you,) Tj
+T*
+(  the way is calm. If the route is dangerous or unknown, the preserve asks for one) Tj
+T*
+(  last bit of attention before the treehouse.") Tj
+T*
+(- Gmreadaloud: The crops wear a thin layer of glowing blue moss. The cultivated land) Tj
+T*
+(  ends, and the preserve returns. The great trees here have faces carved into every) Tj
+T*
+(  side.) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4118 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Gmchecklist: Read custodian_route before framing the path. Safe route: guided calm,) Tj
+T*
+(  no roll. Dangerous/unknown route: Instinct 13 or one minor Stress-level preserve) Tj
+T*
+(  hazard. If strixwolf_blood_debt is true, make the carved faces feel hostile. If) Tj
+T*
+(  package_status=lost, the approach can continue but the normal reveal is blocked.) Tj
+T*
+(- Gmprivate: The carved faces are ward anchors. Seed them as texture now; let the) Tj
+T*
+(  Custodian explain later. The moss shares the ward's magic. Do not explain the cost) Tj
+T*
+(  here.) Tj
+T*
+(- Playertakeaway: You are leaving safe ground and approaching something old and) Tj
+T*
+(  watchful.) Tj
+T*
+(- Storytakeaway: The Custodian's home sits at the strange heart of the preserve, where) Tj
+T*
+(  the ward's protection becomes visible.) Tj
+T*
+(- Mechanictakeaway: custodian_route gates the approach: safe route skips the obstacle,) Tj
+T*
+(  dangerous or unknown route asks for Instinct 13 or costs 1 Stress.) Tj
+T*
+(- Rollcards: s04-01-navigate-the-farms-at-dusk S04-01 Navigate the farms at dusk) Tj
+T*
+(  Navigate the farms at dusk Instinct Agility Instinct Agility 11 Instinct reads) Tj
+T*
+(  paths; Agility keeps footing. The party loses time before the Custodian. Critical) Tj
+T*
+(  Success: best possible version of the action; gain Hope and clear 1 Stress. Add an) Tj
+T*
+(  extra benefit that follows from the fiction. Success with Hope: the PC gets what) Tj
+T*
+(  they wanted and gains Hope. Keep the position clean or generous. Success with Fear:) Tj
+T*
+(  the PC gets what they wanted, but the GM gains Fear and introduces a cost,) Tj
+T*
+(  complication, or pressure. Failure with Hope: the PC does not get the full result,) Tj
+T*
+(  but gains Hope and receives a useful thread, clue, or safer next option. Failure) Tj
+T*
+(  with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from) Tj
+T*
+(  the fiction. The party loses time before the Custodian. Use a hard complication,) Tj
+T*
+(  lost time, worse position, GM Fear, or mark Stress. Apply an official condition only) Tj
+T*
+(  if the fiction and rules justify it. The attempt falls short, but a partial thread) Tj
+T*
+(  appears. Offer one clue, weak position, or safer follow-up. The PC gets the core) Tj
+T*
+(  result, but it costs time, noise, leverage, or a visible resource...) Tj
+T*
+(- Entityids: hush-farms old-sable whitefire-custodian the-hanging-office open-valetm-) Tj
+T*
+(  ritual-site goldspire-territories sablewoodtm-logistics-preserve lausa-standworth) Tj
+T*
+(  route-assurance-contract marlowe-fairwind khari-nix sunless-farm-moss ratcoons) Tj
+T*
+(  young-dryads) Tj
+T*
+(- Entities: hush-farms Hush Farms location Location assets/icons/location.png) Tj
+T*
+(  assets/location-visuals/hush-farms/profile_scene_v02.png hush farmz Glowing blue) Tj
+T*
+(  moss grows over fruits and vegetables. Make the infrastructure failure agricultural) Tj
+T*
+(  and bodily, not abstract. Glowing blue moss grows over fruits and vegetables.;) Tj
+T*
+(  introduce it with a sensory palette, who feels safe there, and what has been) Tj
+T*
+(  neglected. Pull player attention toward the choices, clues, and relationships tied) Tj
+T*
+(  to Hush, The Hanging Office, Old Sable. Glowing blue moss grows over fruits and) Tj
+T*
+(  vegetables. old-sable Old Sable location Location assets/icons/location.png) Tj
+T*
+(  assets/location-visuals/old-sable/profile_scene_v02.png ohld SAY-bul The living old) Tj
+T*
+(  forest beneath the brand. Replace generic forest vibes with physical signals the) Tj
+T*
+(  players can act on. The living old forest beneath the brand.; introduce it with a) Tj
+T*
+(  sensory palette, who feels safe there, and what has been neglected. Pull player) Tj
+T*
+(  attention toward the choices, clues, and relationships tied to Sablewood? Logistics) Tj
+T*
+(  Preserve, Hush, Whitefire Custodian. The living old forest beneath the brand.) Tj
+T*
+(  whitefire-custodian Whitefire Custodian npc NPC / Ally assets/icons/npc.png...) Tj
+T*
+(- Locationids: hush-farms the-hanging-office open-valetm-ritual-site goldspire-) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3858 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  territories sablewoodtm-logistics-preserve old-sable) Tj
+T*
+(- Clueids: route-assurance-contracttm the-ward-subscription the-drained-water the-) Tj
+T*
+(  patched-everything) Tj
+T*
+(- Statecontrols: custodian_trust Custodian Trust select low neutral high) Tj
+T*
+(  custodian_route Custodian Route select unknown safe dangerous strixwolf_disposition) Tj
+T*
+(  Strixwolf Disposition select unresolved calm hostile killed strixwolf_outcome) Tj
+T*
+(  Strixwolf Outcome select unresolved calmed helped avoided attacked killed) Tj
+T*
+(  strixwolf_trust Strixwolf Trust number 3 strixwolf_blood_debt Strixwolf Blood Debt) Tj
+T*
+(  checkbox bramble_outcome Bramble Outcome select unresolved killed captured spared) Tj
+T*
+(  negotiated escaped let_cargo package_status Package Status select held lost) Tj
+T*
+(  hush_trust Hush Trust select low neutral high ward_awareness Ward Awareness select) Tj
+T*
+(  none seed aware) Tj
+T*
+(- Mechanicids: action-roll instinct knowledge difficulty stress hope fear) Tj
+T*
+(- Playerquestions: What does your character do when the trees begin looking back? Do) Tj
+T*
+(  you trust the route you earned, or do you slow down and read the place?) Tj
+T*
+(- Relationshipprompts: Which PC quietly checks on someone else here? Who disagrees) Tj
+T*
+(  about the right thing to do without breaking trust?) Tj
+T*
+(- Ownershipprompt: Name one detail in Through the Farms that belongs to your) Tj
+T*
+(  character's point of view.) Tj
+T*
+(- Fearspends: Spend Fear to expose neglected infrastructure, stress the Custodian, or) Tj
+T*
+(  make the Keystone hum at the wrong moment. Make neglected infrastructure answer at) Tj
+T*
+(  the wrong moment. Stress the Custodian's trust without turning her into a device.) Tj
+T*
+(- Choicesconsequences: Arrive by the safe route A guide or clear markers carry the) Tj
+T*
+(  party in calmly. No approach roll; custodian_trust can start at neutral/high. S04-02) Tj
+T*
+(  begins composed and the Custodian's first read is warmer. custodian_route safe;) Tj
+T*
+(  custodian_trust neutral/high benefit player-visible Arrive by a dangerous or unknown) Tj
+T*
+(  route The preserve confuses the path before the cabin comes into view. Instinct 13) Tj
+T*
+(  or one minor obstacle; on a miss, mark 1 Stress or arrive rattled. S04-02 starts) Tj
+T*
+(  with lower footing and the Custodian reads the party as less vouched-for.) Tj
+T*
+(  custodian_route dangerous/unknown; possible custodian_trust low penalty player-) Tj
+T*
+(  visible Study the moss or carved faces The party learns this protection is worked) Tj
+T*
+(  into living things. Knowledge 13 sets or reinforces ward_awareness=seed. S04-04) Tj
+T*
+(  lands as confirmation instead of pure shock. ward_awareness seed benefit spoiler-) Tj
+T*
+(  gated Approach without the package The path still reaches the Custodian, but the) Tj
+T*
+(  handoff cannot resolve normally. package_status=lost blocks the reveal-as-written.) Tj
+T*
+(  S04-04 must use the Kyle-confirmed recovery branch before naming the full truth.) Tj
+T*
+(  package_status lost blocked canon GM-only) Tj
+T*
+(- Lootclues: Soil sample Ward-post rubbing) Tj
+T*
+(- Handoutids: Uneven ward buzz) Tj
+T*
+(- Sourcesceneslug: S04-01-through-the-farms) Tj
+T*
+(- Sourcefiles: dist/Act4_Upgrade_Packet/ACT4_SCENE_RESEARCH.md) Tj
+T*
+(  dist/Act4_Upgrade_Packet/ACT4_MAPS_AND_LOCATIONS.md) Tj
+T*
+(- References: Hush Farms #MAP-LOC-hush-farms Hanging Office #MAP-LOC-the-hanging-) Tj
+T*
+(  office S04-02 #S04-02) Tj
+T*
+(- Storyscope: Perceived antagonist: the forest. True antagonist: the corporate lie) Tj
+T*
+(  about the forest. The players never confront it directly. They are meant to feel it) Tj
+T*
+(  by the end. Every act offers at least one guaranteed and one earned hint that the) Tj
+T*
+(  danger is manufactured and the forest is not the enemy. The sealed package is the) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4298 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  capital's ward Keystone; the city is unwarded while it is away. KEEP GUARANTEED "The) Tj
+T*
+(  wood never needed managing. It needed leaving alone." ADD SEED "Your capital's) Tj
+T*
+(  safety is older than your contracts. It is the very thing they teach you to fear.") Tj
+T*
+(  ADD SEED The Keystone's magic is pre-corporate forest-ward work, the same school) Tj
+T*
+(  companies call primitive. ADD EARNED Knowledge Hard 20 The Custodian glances at) Tj
+T*
+(  obsolete Soulspire inspection seals on her counterweight boulder. ADD EARNED) Tj
+T*
+(  Instinct Medium 15 Presence: earn candor. Knowledge: place the magic. Instinct: read) Tj
+T*
+(  the Custodian's fear. ACT4 Act 4: Hanging Office 160 2:05 to 2:40 2:40 Custodian,) Tj
+T*
+(  Keystone reveal, new objective, short rest Compress the reveal; bank the Short Rest) Tj
+T*
+(  into travel narration.) Tj
+T*
+(- Livetools: scene MAP-LOC-hush-farms MAP-LOC-the-hanging-office MAP-LOC-goldspire-) Tj
+T*
+(  territories MAP-LOC-sablewoodtm-logistics-preserve MAP-LOC-old-sable) Tj
+T*
+(- Percharacterlayer: varian-soto Varian Soto Wrong forest The carved trees and glowing) Tj
+T*
+(  moss smell worked, as if magic has been layered over living wood. Instinct 13 Reads) Tj
+T*
+(  which carved faces feel awake and where the safe line runs; if blood-debt is set,) Tj
+T*
+(  the faces feel like they are tracking the party. Can name the safest line through) Tj
+T*
+(  the carved-face edge. Varian, this stretch of forest has been changed by hands. Want) Tj
+T*
+(  to read what the trees are doing? marlowe-fairwind Marlowe Fairwind Ward heart The) Tj
+T*
+(  package resonates hard now; she can feel it is near where it belongs. Knowledge 13) Tj
+T*
+(  The carved faces are ward anchors and the cargo is tied to them. Do not name the) Tj
+T*
+(  Keystone yet. Can make the package feel important without stealing the Custodian's) Tj
+T*
+(  reveal. Marlowe, whatever you are carrying is humming now. You are close to where it) Tj
+T*
+(  belongs. Want to feel into it? garrick-reed Garrick Reed Defensible ground Reads the) Tj
+T*
+(  approach as isolated, defensible ground made for privacy and protection. Can warn) Tj
+T*
+(  the party that whoever lives here values controlled access. Garrick, this is a place) Tj
+T*
+(  built to be hard to reach. Want to note what that says about who lives here?) Tj
+T*
+(  barnacle Barnacle Puzzle-box cabin Already sees the...) Tj
+T*
+(- Takeawayhelp: Player takeaway You are leaving safe ground and approaching something) Tj
+T*
+(  old and watchful. "You are at the edge of the map you trusted. Ahead is older than) Tj
+T*
+(  the company that drew it." "Press toward the hanging cabin, examine the carved) Tj
+T*
+(  trees, or read the glowing moss. Pick what pulls you." Offer one concrete forward) Tj
+T*
+(  action if the table stalls: follow the guide, read the faces, or head for the cabin.) Tj
+T*
+(  instinct knowledge stress Story takeaway The Custodian's home sits where the ward) Tj
+T*
+(  becomes visible. "The town safety has an edge, and you are crossing it. The trees) Tj
+T*
+(  are watching now, literally." "Player-safe answer: old carvings, glowing moss-crops,) Tj
+T*
+(  and a hanging cabin. Deeper read: this place is built around protection." Do not) Tj
+T*
+(  explain the ward cost. Keep the answer to visible objects and a sense of worked) Tj
+T*
+(  protection. instinct knowledge stress Mechanic takeaway custodian_route gates the) Tj
+T*
+(  approach. "Safe route: your guide knows the way. Dangerous or unknown route: make) Tj
+T*
+(  Instinct 13 to reach the cabin without trouble." "On a miss, mark 1 Stress or arrive) Tj
+T*
+(  rattled. This is pressure, not a fight." This is the first Act 4 branch proof: Act 3) Tj
+T*
+(  trust either becomes an easier path or a small cost...) Tj
+T*
+(- Playerbeats: S04-01-crops Glowing crops Through the Farms) Tj
+T*
+(  assets/scenes/S04-01-through-the-farms.png Through the Farms scene art for The) Tj
+T*
+(  Hanging Office. The last fields glow with blue moss. The warmth feels cultivated,) Tj
+T*
+(  not wild. The last fields glow with blue moss. The warmth feels cultivated, not) Tj
+T*
+(  wild. The last fields glow with blue moss. The warmth feels cultivated, not wild.) Tj
+T*
+(  image-title-caption S04-01-faces Watching trees The watching trees) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 3964 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  assets/scenes/S04-01-through-the-farms.png Through the Farms scene art for The) Tj
+T*
+(  Hanging Office. The trees ahead are carved with hundreds of faces, all turned toward) Tj
+T*
+(  the path. The trees ahead are carved with hundreds of faces, all turned toward the) Tj
+T*
+(  path. The trees ahead are carved with hundreds of faces, all turned toward the path.) Tj
+T*
+(  text-first S04-01-cabin Hanging cabin The hanging cabin) Tj
+T*
+(  assets/scenes/S04-01-through-the-farms.png Through the Farms scene art for The) Tj
+T*
+(  Hanging Office. A cabin sways high above a counterweight stone, suspended in the) Tj
+T*
+(  canopy like a strange fruit. A cabin sways high above a counterweight stone,) Tj
+T*
+(  suspended in the canopy like a strange fruit. A cabin sways high above a) Tj
+T*
+(  counterweight stone, suspended in the canopy like a strange...) Tj
+T*
+(- Gmbeats: S04-01-crops Glowing crops Through the Farms Say: "The fields glow blue in) Tj
+T*
+(  patches, like warmth made visible.". The last fields glow with blue moss. The warmth) Tj
+T*
+(  feels cultivated, not wild. The ward appears through crops before anyone explains) Tj
+T*
+(  it. Knowledge can read ward-work without naming the full truth. Players see Hush's) Tj
+T*
+(  safety becoming strange. Player takeaway Players see Hush's safety becoming strange.) Tj
+T*
+(  "The fields glow blue in patches, like warmth made visible." "The playable fact is:) Tj
+T*
+(  The last fields glow with blue moss. The warmth feels cultivated, not wild.") Tj
+T*
+(  Concrete actions for this beat: look closely, ask the Custodian a direct question,) Tj
+T*
+(  commit to a choice, or take one prep action. knowledge Story takeaway The ward) Tj
+T*
+(  appears through crops before anyone explains it. "The fields glow blue in patches,) Tj
+T*
+(  like warmth made visible." "The story fact in play is: The ward appears through) Tj
+T*
+(  crops before anyone explains it." This beat changes Act 4 through this exact) Tj
+T*
+(  pressure: The ward appears through crops before anyone explains it. knowledge) Tj
+T*
+(  Mechanic takeaway Knowledge can read ward-work without naming the full truth. "The) Tj
+T*
+(  fields glow blue in patches, like warmth made visible." "The...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 8000) Tj
+T*
+(- Playersafeprojection: S04-01 scene Through the Farms assets/scenes/S04-01-through-) Tj
+T*
+(  the-farms.png Through the Farms scene art for The Hanging Office. The road through) Tj
+T*
+(  the farms shifts the story from delivery job to stewardship problem. The Hanging) Tj
+T*
+(  Office Reach the Custodian's home. Past the last homes of the village, the crops) Tj
+T*
+(  change: fruits and vegetables wear a thin layer of glowing blue moss that pulses) Tj
+T*
+(  softly with warmth as you pass. Then the cultivated land ends, and the preserve) Tj
+T*
+(  returns. The great trees here have faces, hundreds of them, carved into every side.) Tj
+T*
+(  Ahead, something hangs in the canopy: a cabin, swaying gently, suspended over a) Tj
+T*
+(  counterweight stone the size of a cabin itself. S04-01-crops Glowing crops Through) Tj
+T*
+(  the Farms assets/scenes/S04-01-through-the-farms.png Through the Farms scene art for) Tj
+T*
+(  The Hanging Office. The last fields glow with blue moss. The warmth feels) Tj
+T*
+(  cultivated, not wild. The last fields glow with blue moss. The warmth feels) Tj
+T*
+(  cultivated, not wild. The last fields glow with blue moss. The warmth feels) Tj
+T*
+(  cultivated, not wild. image-title-caption S04-01-faces Watching trees The watching) Tj
+T*
+(  trees assets/scenes/S04-01-through-the-farms.png Through the Farms scene art for) Tj
+T*
+(  The...) Tj
+T*
+(- Companionmapids: MAP-LOC-hush-farms MAP-LOC-the-hanging-office MAP-LOC-goldspire-) Tj
+T*
+(  territories MAP-LOC-sablewoodtm-logistics-preserve MAP-LOC-old-sable) Tj
+T*
+(- Slidenumber: 54) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 192 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 7d9dc62223057274 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R 12 0 R] /Count 6 >>
+endobj
+14 0 obj
+<< /Type /Catalog /Pages 13 0 R >>
+endobj
+15 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000009 00000 n 
+0000002617 00000 n 
+0000002745 00000 n 
+0000006915 00000 n 
+0000007043 00000 n 
+0000010953 00000 n 
+0000011081 00000 n 
+0000015431 00000 n 
+0000015559 00000 n 
+0000019575 00000 n 
+0000019704 00000 n 
+0000019948 00000 n 
+0000020078 00000 n 
+0000020168 00000 n 
+0000020219 00000 n 
+trailer
+<< /Size 16 /Root 14 0 R >>
+startxref
+20292
+%%EOF

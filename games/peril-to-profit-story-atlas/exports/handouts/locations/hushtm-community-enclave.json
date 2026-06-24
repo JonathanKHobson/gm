@@ -1,0 +1,44 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "hushtm-community-enclave",
+  "kind": "entity",
+  "title": "Hush™ Community Enclave",
+  "in_world_label": "Goldspire Travel Advisory",
+  "brand_flag": "Player-safe",
+  "kicker": "Goldspire’s name for Hush; locals mostly ignore the trademark.",
+  "hook": "Goldspire’s name for Hush; locals mostly ignore the trademark.",
+  "blocks": [
+    {
+      "label": "Arrival Read",
+      "body": "The official enclave signage tries to make Hush look managed, but the lived-in village keeps showing through the label."
+    },
+    {
+      "label": "Known For",
+      "body": "The welcome sign has been scrubbed so many times the paint underneath shows through: Hush™, A Certified Safe Community. The trademark symbol is newer than the village. Blue wayfinding arrows point toward approved gathering areas, approved scenic overlooks..."
+    },
+    {
+      "label": "What Is Here",
+      "body": "Local residents or workers appropriate to the place Ratcoons avoid the freshly painted visitor path Festival Moths ignore official signage Young Dryads keep to the older tree line No default combatant; add only if the scene introduces one Local civic, trade..."
+    },
+    {
+      "label": "Food And Texture",
+      "body": "The approved kiosk sells cellophaned moss-honey at a markup and a smile. Walk one lane back and a grandmother presses the real jar into your hands for nothing, sticky and unlabeled, with one glance at the bright..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Look for the busiest local gathering point.",
+    "Ask what has changed here recently."
+  ],
+  "archetype": "location.advisory",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:hushtm-community-enclave",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "cb878ddcc4de2573",
+  "generated_at": "2026-06-23T21:40:58"
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "scene",
+  "id": "S03-02",
+  "title": "S03-02 - Local Clues",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "e6078a8af44a8595",
+  "sections": [
+    {
+      "title": "Player read-aloud",
+      "body": "Every person you meet seems to have an opinion, a custom, or a small gift to press into your hands."
+    },
+    {
+      "title": "Scene summary",
+      "body": "Fidget, Lausa, and Halython can point the party toward the Custodian."
+    },
+    {
+      "title": "Visible choices",
+      "items": [
+        "Ask Fidget",
+        "Talk to Lausa",
+        "Play Halython’s acorn-card game",
+        "Ask about Bramble Union"
+      ]
+    },
+    {
+      "title": "Player questions",
+      "items": [
+        "What detail in Local Clues tells you the official story is incomplete?",
+        "Who notices the human cost first, and how do they show it?",
+        "What small object, smell, or sound makes this scene feel real?"
+      ]
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: S03-02",
+        "Act: Act Three",
+        "Title: Local Clues",
+        "Beats: NPC introduction Clue discovery Emotional beat",
+        "Image: assets/scenes/S03-02-local-clues.webp",
+        "Short: Fidget, Lausa, and Halython can point the party toward the Custodian.",
+        "Long: This scene lets players ask questions, be charmed by Hush, and connect the delivery to people rather than a destination.",
+        "Read: Every person you meet seems to have an opinion, a custom, or a small gift to press into your hands.",
+        "Gm: Use NPCs to deliver warmth, directions, and hints of dependence on the ward.",
+        "Entities: Fidget Lausa Standworth Halython Fives Whitefire Custodian Guest Privileges Young Dryads The Claravale Market Hush Firstmoss Launch Festival Hush Safe Irrigation Path Bugbane Berry Lucent Water™ The Lucent River Goldspire Waymarkers Ward Renewal Chime Sablewood™ Logistics Preserve Keystone Asset Difficulty Ladder Route Ledger",
+        "Choices: Ask Fidget Talk to Lausa Play Halython’s acorn-card game Ask about Bramble Union",
+        "Prompt: Adventurers speaking with friendly Hush locals near ward pillars and community noticeboards; warm daylight, practical kindness; no monsters, no combat.",
+        "Source Entities: Fidget Lausa Standworth Halython Fives Whitefire Custodian",
+        "Beat Codes: npc-introduction clue-discovery emotional-beat",
+        "Slug: S03-02-local-clues",
+        "Act Title: Seeking a Custodian",
+        "Arc Role: Community stakes and emotional buy-in",
+        "Caption: Local clues make the infrastructure failure personal and specific.",
+        "Image Alt: Local Clues scene art for Seeking a Custodian.",
+        "Image Prompt Used: Adventurers speaking with friendly Hush locals near ward pillars and community noticeboards; warm daylight, practical kindness; no monsters, no combat. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions unless explicitly requested. No strixwolf, no Bramble Union, no combat, no undead. Focus on Hush as warm and real. 4:3 cinematic fantasy concept art, no visible text, no captions, no logos, no UI, no watermark.",
+        "Long Storyboard: This scene lets players ask questions, be charmed by Hush, and connect the delivery to people rather than a destination. Run this scene as community stakes and emotional buy-in: Local clues make the infrastructure failure personal and specific. Keep the camera close to practical choices, visible consequences, and the difference between ordinary people and the infrastructure pressing on them.",
+        "Read Aloud: Every person you meet seems to have an opinion, a custom, or a small gift to press into your hands.",
+        "Gm Notes: Use NPCs to deliver warmth, directions, and hints of dependence on the ward. Keep player-facing information actionable. Reveal systemic truth through objects, reactions, and consequences before naming it. If someone abuses hospitality, Sablewood can answer through local custom and dryad justice without making Hush cruel. Manufactured-threat lens: seed the contradiction, do not explain it. The surface goal stays simple and heroic. [ADD/EARNED] An elder says, \"The wood was never this bad. The trouble came with the waymarkers.\" (Presence Easy 10) [ADD/EARNED] A ledger shows protection costs and hazard sightings climbing together. (Knowledge Medium 15)",
+        "Sensory Details: old smoke in rafters mended nets drying in windows ward chimes one note flat",
+        "Body Language: Fidget over-explains when nervous Halython answers direct questions and ignores corporate phrasing",
+        "Sample Dialogue: Fidget I can show you the nice path, the fast path, and the path adults pretend I do not know.",
+        "Checks: Presence or Instinct Earn local detail without interrogating people like witnesses. Easy to standard Reveal safer route and ward symptoms. 10/15 Cleanly resolve: Earn local detail without interrogating people like witnesses. Add a concrete boon, extra clue, or improved position. Success, plus the player names one helpful detail or asks one follow-up question. Success, but the GM exposes a cost, ticks a countdown, or reveals a new pressure tied to Local Clues. The full goal slips, but the party still learns a useful truth or avoids the worst consequence. The GM makes a hard move that follows from the fiction and leaves the next choice visible. Spend Fear to make trust cost time, reveal a local fear, or show a ward symptom that locals have normalized. On mixed or sliding results, reveal information in layers: visible fact, actionable clue, then systemic truth.",
+        "Choices Consequences: Listen more than talk Gain trust and better directions. Hush Trust improves. Treat locals as obstacles They still help, but only enough. Final stakes feel colder.",
+        "Clues: Flat ward chime Something protective is failing. The Keystone can stabilize it. The ward is not gone, but it is losing tone. Earned seed Available if players investigate, show mercy, or ask the right question. An elder says, \"The wood was never this bad. The trouble came with the waymarkers.\" Presence Easy 10 Earned seed Available if players investigate, show mercy, or ask the right question. A ledger shows protection costs and hazard sightings climbing together. Knowledge Medium 15",
+        "Loot: Safe path directions Festival ribbon Moss antiseptic Bugbane Berry™: A fat red-orange berry shines a little too perfectly, with a tiny insect suspended dead-center like a pit in amber. It looks appetizing and deeply wrong. Lucent Water™: A corked bottle glows moonlit blue from inside, even in daylight, even in your pack. The water looks calm enough to sell itself.",
+        "Payoff Flags: Hush Trust Track",
+        "Filters: act-three choice clue-discovery emotional-beat gm-only hush-trust-track npc-introduction seeking-a-custodian clue npc manufactured-threat guaranteed-earned",
+        "Index: 10",
+        "Player Questions: What detail in Local Clues tells you the official story is incomplete? Who notices the human cost first, and how do they show it? What small object, smell, or sound makes this scene feel real?",
+        "Relationship Prompts: Which PC quietly checks on someone else here? Who disagrees about the right thing to do without breaking trust?",
+        "Ownership Prompt: Name one detail in Local Clues that belongs to your character's point of view.",
+        "Reveal Hooks: Loreborne or Knowledge-focused PCs can read the institutional layer. Wildborne/community-focused PCs can read local custom and ecological stress. Martial/security-focused PCs can read threat posture and custody logic. Magic-focused PCs can feel ward tone, soul-signal, or spell instability. Loreborne: spots older legal, heraldic, or ward-craft language under the branding. Underborne: notices service doors, hidden routes, and who built the thing nobody credits. Highborne: reads etiquette, class panic, and reputational risk. Ridgeborne: notices stonework, weight, pressure, and structural weakness. Wildborne: reads the land, animals, and local ecological stress. Elf/Ribbet/Human/Giant/Katari: invite one sensory or social detail from the player's heritage. Sorcerer/Rogue/Warrior/Guardian/Ranger: give each class one table-facing way to shine without changing the plot.",
+        "Fear Spends: Spend Fear to make trust cost time, reveal a local fear, or show a ward symptom that locals have normalized. Make trust cost time, humility, or a public apology. Show a ward symptom locals have normalized because nobody official listened.",
+        "Story Scope: Perceived antagonist: the forest. True antagonist: the corporate lie about the forest. The players never confront it directly. They are meant to feel it by the end. Every act offers at least one guaranteed and one earned hint that the danger is manufactured and the forest is not the enemy. A Grail \"Protection Coverage\" invoice hangs on the Clover Co-op wall, overdue and steep. ADD GUARANTEED Firstmoss and the Sunless Farms show the forest feeding Hush rather than hunting it. REFLAVOR GUARANTEED An elder says, \"The wood was never this bad. The trouble came with the waymarkers.\" ADD EARNED Presence Easy 10 A ledger shows protection costs and hazard sightings climbing together. ADD EARNED Knowledge Medium 15 An elder says, \"The wood was never this bad. The trouble came with the waymarkers.\" ADD EARNED Presence Easy 10 A ledger shows protection costs and hazard sightings climbing together. ADD EARNED Knowledge Medium 15 Presence: get people talking. Knowledge: read invoice/ledger. Instinct: sense resentment under hospitality. ACT3 Act 3: Hush 125 1:30 to 2:05 2:05 social beat, Co-op, local leads, optional break Trim village wandering to the invoice plus one elder line; point to the...",
+        "Mechanics: The party is in Act Three pressure: Fidget, Lausa, and Halython can point the party toward the Custodian. Use Daggerheart Duality Dice as baseline. Use the listed Difficulty and outcome options when a roll matters. Keep trivial actions no-roll; roll only when uncertainty, cost, or danger is interesting. s03-02-gather-directions-without-treating-locals-like-s S03-02 Gather directions without treating locals like staff Gather directions without treating locals like staff Presence Instinct Presence Instinct 12 Presence invites trust; Instinct reads who is worried. A functional errand can sour the community relationship. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows...",
+        "Roll Cards: s03-02-gather-directions-without-treating-locals-like-s S03-02 Gather directions without treating locals like staff Gather directions without treating locals like staff Presence Instinct Presence Instinct 12 Presence invites trust; Instinct reads who is worried. A functional errand can sour the community relationship. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. A functional errand can sour the community relationship. Use a hard complication, lost time, worse position, GM Fear, or mark Stress. Apply an official condition only if the fiction and rules justify it. The attempt falls short, but a partial thread appears. Offer one clue, weak...",
+        "Conditions Hazards: No official condition unless a feature, hazard, or fictional position calls for Hidden, Restrained, or Vulnerable.",
+        "Search Loot Clues: No fixed loot. Offer clue, texture, or hospitality only when the fiction supports it.",
+        "No Roll Guidance: Do not call for a roll when the players have time, a clear method, and no meaningful pressure.",
+        "Tv Mechanics Caption: Public cue: Local Clues asks what the party does, what it costs, and who is protected.",
+        "Trait Variety Note: Primary traits in this scene: Finesse, Instinct, Knowledge, Presence. If rolls drift toward Instinct/Presence, ask whether Agility, Strength, Finesse, or Knowledge better describes the action.",
+        "Location Ids: hush firstmoss-launch-festival hush-safe-irrigation-path the-claravale-market",
+        "Item Ids: bugbane-berry lucent-water",
+        "Clueids: route-ledger",
+        "Clue Ids: route-ledger",
+        "Image Asset Status: image_gen"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash e6078a8af44a8595 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -7,10 +7,89 @@
   <link rel="icon" href="assets/favicon.png" type="image/png">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="css/run-mode.css">
+  <link rel="stylesheet" href="css/music-player.css">
+  <link rel="stylesheet" href="css/gm-hud.css">
 </head>
 <body class="slideshow-run-page">
   <a class="skip-link" href="#slide-stage">Skip to current slide</a>
-  <nav class="sticky-top-nav universal-nav" aria-label="Site navigation"><a href="index.html">Atlas</a><a href="run.html" aria-current="page">Run Mode</a><a href="pages/gm-dashboard.html">Dashboard</a><a href="pages/entity-index.html">Wiki</a><a href="pages/pc-cheat-sheet.html">PCs</a><a href="pages/handouts.html">Handouts</a><a href="player-display.html">Player Display</a></nav>
+  <nav class="sticky-top-nav universal-nav" aria-label="Site navigation"><a href="index.html">Atlas</a><a href="run.html" aria-current="page">Run Mode</a><a href="pages/session-zero.html">Session Zero</a><a href="pages/gm-dashboard.html">Dashboard</a><a href="pages/entity-index.html">Wiki</a><a href="pages/pc-cheat-sheet.html">PCs</a><a href="pages/handouts.html">Handouts</a><a href="pages/safety-tools.html"><span class="mechanic-link" data-mechanic="safety-tools"><span>Safety</span></span></a><a href="player-display.html">Player Display</a><a href="pages/settings.html">Settings</a>
+  <section class="run-clock" data-run-clock aria-label="Run clock" hidden>
+    <button class="run-clock-chip" type="button" data-run-clock-toggle aria-expanded="false" title="Open run clock">
+      <span class="run-clock-time" data-run-clock-elapsed>0:00</span>
+      <span class="run-clock-context" data-run-clock-context>Run clock</span>
+      <span class="run-clock-target" data-run-clock-target></span>
+    </button>
+    <div class="run-clock-panel" data-run-clock-panel hidden>
+      <header>
+        <div>
+          <p class="private-note">3.5-hour pacing helper</p>
+          <h3>Run Clock</h3>
+        </div>
+        <button class="run-clock-close" type="button" data-run-clock-toggle aria-label="Close run clock">Close</button>
+      </header>
+      <div class="run-clock-current">
+        <p><strong>Elapsed:</strong> <span data-run-clock-elapsed-long>0:00</span></p>
+        <p><strong>Status:</strong> <span data-run-clock-status>Not started</span></p>
+        <p><strong>Scene:</strong> <span data-run-clock-scene-target>Start the session.</span></p>
+        <p><strong>Segment:</strong> <span data-run-clock-current-target>Start the session.</span></p>
+        <p><strong>Session:</strong> <span data-run-clock-session-target>Target 3:30; soft wall 4:00; hard wall 5:00.</span></p>
+        <p><strong>Remaining:</strong> <span data-run-clock-remaining>--</span></p>
+        <p><strong>Break prompt:</strong> <span data-run-clock-break>Ask the table as needed.</span></p>
+      </div>
+      
+      <div class="run-clock-control-grid" aria-label="Run clock controls">
+        <button class="run-clock-icon-button" type="button" data-run-clock-start aria-label="Start or resume run clock" title="Start or resume"><img src="assets/icons/live-timer.png" alt="" aria-hidden="true"><span>Start</span></button>
+        <button class="run-clock-icon-button" type="button" data-run-clock-restart aria-label="Restart run clock from zero" title="Restart from 00:00"><img src="assets/icons/action-first.png" alt="" aria-hidden="true"><span>Restart</span></button>
+        <button class="run-clock-icon-button" type="button" data-run-clock-pause aria-label="Pause run clock" title="Pause"><img src="assets/icons/action-complete.png" alt="" aria-hidden="true"><span>Pause</span></button>
+        <button class="run-clock-icon-button" type="button" data-run-clock-stop aria-label="Stop run clock at the current time" title="Stop"><img src="assets/icons/action-hide-players.png" alt="" aria-hidden="true"><span>Stop</span></button>
+        <button class="run-clock-icon-button danger" type="button" data-run-clock-reset aria-label="Reset run clock to zero" title="Reset to 00:00"><img src="assets/icons/live-reset.png" alt="" aria-hidden="true"><span>Reset</span></button>
+        <button type="button" data-run-clock-adjust="-300000" aria-label="Move run clock back five minutes" title="Move clock back five minutes">-5 min</button>
+        <button type="button" data-run-clock-adjust="300000" aria-label="Move run clock forward five minutes" title="Move clock forward five minutes">+5 min</button>
+        <button type="button" data-run-clock-advance aria-label="Advance to the next pacing segment" title="Advance to next segment">Next segment</button>
+      </div>
+      <div class="run-clock-break-controls" aria-label="Break controls">
+        <button type="button" data-run-clock-break-start>Start break</button>
+        <button type="button" data-run-clock-break-end>End break</button>
+        <button type="button" data-run-clock-break-done>Break handled</button>
+        <span data-run-clock-break-status>Break mode off.</span>
+      </div>
+      <section class="run-clock-notices" aria-live="polite">
+        <h4>Clock attention</h4>
+        <div data-run-clock-notices><p class="run-clock-notice-empty">No active pacing notices.</p></div>
+      </section>
+      <details class="run-clock-settings">
+        <summary>Run clock settings</summary>
+        <div class="run-clock-settings-grid">
+          <label><input type="checkbox" data-run-clock-setting="scenePacingAlerts" checked> Scene pacing nudges</label>
+          <label><input type="checkbox" data-run-clock-setting="actPacingAlerts" checked> Segment pacing nudges</label>
+          <label><input type="checkbox" data-run-clock-setting="softCheckIns" checked> Soft table-energy checks</label>
+          <label><input type="checkbox" data-run-clock-setting="hourlyBreakPrompts" checked> Hourly break prompts</label>
+          <label><input type="checkbox" data-run-clock-setting="playerBreakAlerts" checked> Send break prompts to Player Display</label>
+          <label><input type="checkbox" data-run-clock-setting="modalEscalation" checked> Escalate ignored critical notices</label>
+        </div>
+      </details>
+      <details open>
+        <summary>Full schedule and pacing levers</summary>
+        <div data-run-clock-schedule></div>
+      </details>
+
+    </div>
+    <div class="run-clock-modal" data-run-clock-modal role="alertdialog" aria-modal="true" aria-labelledby="run-clock-modal-title" hidden>
+      <div class="run-clock-modal-card">
+        <h3 id="run-clock-modal-title" data-run-clock-modal-title>Run clock alert</h3>
+        <p data-run-clock-modal-message></p>
+        <div class="run-clock-modal-actions">
+          <button type="button" data-run-clock-modal-snooze>Snooze 5 min</button>
+          <button type="button" data-run-clock-modal-dismiss>Dismiss</button>
+          <button type="button" data-run-clock-modal-dismiss-permanent>Permanently dismiss</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</nav>
+  <aside data-gm-hud aria-label="GM HUD"></aside>
+  <aside class="gm-hud-drawer" data-fear-drawer hidden aria-label="Fear spend menu"></aside>
+  <aside class="encounter-cockpit-drawer" data-encounter-drawer hidden aria-label="Encounter Cockpit"></aside>
   <header class="run-topbar" role="banner">
     <div class="run-toolbar-group" aria-label="Slide navigation">
       <button class="run-icon-button" type="button" data-run-action="previous" aria-label="Previous slide" title="Previous slide"><img src="assets/icons/action-prev.png" alt="" aria-hidden="true"><span class="sr-only">Previous slide</span></button>
@@ -18,12 +97,12 @@
     </div>
     <label class="run-slide-jump">Slide <select id="run-slide-select" aria-label="Jump to slide"></select></label>
     <div class="run-toolbar-group" aria-label="View controls">
-      <button class="run-labeled-button" type="button" data-run-action="toggle-image" aria-label="Hide image" title="Hide image"><img src="assets/icons/action-open-image.png" alt="" aria-hidden="true"><span class="run-button-label">Hide image</span></button>
+      <button class="run-labeled-button" type="button" data-run-action="toggle-image" aria-label="Hide image" title="Hide image"><img src="assets/icons/action-open-image.png" alt="" aria-hidden="true"><span class="run-button-label"><span class="mechanic-link" data-mechanic="finesse"><span>Hide</span></span> image</span></button>
       <button class="run-labeled-button" type="button" data-run-action="toggle-filmstrip" aria-label="Show filmstrip" title="Show filmstrip"><img src="assets/icons/action-collapse-all.png" alt="" aria-hidden="true"><span class="run-button-label">Show filmstrip</span></button>
     </div>
     <div class="run-toolbar-group" aria-label="Player display controls">
-      <button class="run-icon-button" type="button" data-run-action="open-display" aria-label="Open player display" title="Open player display"><img src="assets/icons/action-player-display.png" alt="" aria-hidden="true"><span class="sr-only">Open player display</span></button>
-      <button class="run-icon-button danger" type="button" data-run-action="blackout" aria-label="Blackout player display" title="Blackout player display"><img src="assets/icons/action-blackout.png" alt="" aria-hidden="true"><span class="sr-only">Blackout player display</span></button>
+      <button class="run-icon-button" type="button" data-run-action="open-display" aria-label="Open player display" title="Open player display"><img src="assets/icons/live-player-display.png" alt="" aria-hidden="true"><span class="sr-only">Open player display</span></button>
+      <button class="run-icon-button danger" type="button" data-run-action="blackout" aria-label="Blackout player display" title="Blackout player display"><img src="assets/icons/live-blackout.png" alt="" aria-hidden="true"><span class="sr-only">Blackout player display</span></button>
     </div>
     <details class="run-overflow">
       <summary class="run-icon-button" aria-label="More controls" title="More controls"><img src="assets/icons/action-settings.png" alt="" aria-hidden="true"><span class="sr-only">More controls</span></summary>
@@ -40,25 +119,77 @@
       <p class="run-kicker">Live-session slideshow</p>
       <h1>Run Mode</h1>
       <p id="run-position" class="run-position">Loading slides...</p>
+      <button class="button secondary" type="button" data-run-clock-start>Start Run <span class="mechanic-link" data-mechanic="countdown"><span>Clock</span></span></button>
       <label class="run-check"><input id="run-auto-complete" type="checkbox"> Auto-complete previous on Next</label>
       <label class="run-check"><input id="run-sync-on-change" type="checkbox" checked> Sync slide changes to Player Display</label>
+      <nav class="run-cheat-menu" aria-label="Cheat sheet shortcuts">
+        <button type="button" data-run-go-slide="CHEAT-GM">1 <span class="entity-link entity-mechanic inline-entity-link" data-entity="gm-rules-drawer"><span>GM Rules</span></span></button>
+        <button type="button" data-run-go-slide="CHEAT-CONDITIONS" data-mechanic="conditions">2 Conditions</button>
+        <button type="button" data-run-go-slide="CHEAT-PC">3 PCs</button>
+        <button type="button" data-run-go-slide="CHEAT-LOOT">4 Loot</button>
+        <button type="button" data-run-go-slide="CHEAT-PRONUNCIATION">5 Pronunciation</button>
+        <button type="button" data-run-go-slide="SABLEWOOD-GUIDE" data-entity="sablewoodtm-logistics-preserve">6 Sablewood</button>
+        <span id="run-pinned-shortcuts" class="run-pinned-shortcuts" role="group" aria-label="Pinned slide shortcuts"></span>
+      </nav>
       <div class="run-side-actions">
         <button class="run-icon-button" type="button" data-run-action="toggle-complete" aria-label="Mark current slide complete" title="Mark current slide complete"><img src="assets/icons/action-complete.png" alt="" aria-hidden="true"><span class="sr-only">Mark current slide complete</span></button>
+        <button class="run-icon-button" type="button" data-run-action="undo-complete" aria-label="Undo last auto-complete" title="Undo last auto-complete"><img src="assets/icons/live-undo.png" alt="" aria-hidden="true"><span class="sr-only">Undo last auto-complete</span></button>
         <button class="run-icon-button" type="button" data-run-action="pin" aria-label="Pin current slide" title="Pin current slide"><img src="assets/icons/action-pin.png" alt="" aria-hidden="true"><span class="sr-only">Pin current slide</span></button>
-        <button class="run-icon-button" type="button" data-run-action="copy-text" aria-label="Copy player text" title="Copy player text"><img src="assets/icons/action-copy.png" alt="" aria-hidden="true"><span class="sr-only">Copy player text</span></button>
+        <button class="run-icon-button" type="button" data-run-action="copy-text" aria-label="Copy player text" title="Copy player text"><img src="assets/icons/live-copy.png" alt="" aria-hidden="true"><span class="sr-only">Copy player text</span></button>
         <button class="run-icon-button" type="button" data-run-action="copy-discord" aria-label="Copy player text as Markdown quote" title="Copy player text as Markdown quote"><img src="assets/icons/action-handouts.png" alt="" aria-hidden="true"><span class="sr-only">Copy player text as Markdown quote</span></button>
+        <button class="run-icon-button" type="button" data-run-action="export-options" aria-label="Export current slide" title="Export current slide"><img src="assets/icons/live-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Export current slide</span></button>
+        <button class="run-icon-button" type="button" data-run-action="summon-npc" aria-label="Summon backup NPC" title="Summon backup NPC"><img src="assets/icons/npc.png" alt="" aria-hidden="true"><span class="sr-only">Summon backup NPC</span></button>
+        <button class="run-icon-button" type="button" data-run-action="open-factions" aria-label="Open faction cards" title="Open faction cards"><img src="assets/icons/faction.png" alt="" aria-hidden="true"><span class="sr-only">Open faction cards</span></button>
+        <button class="run-icon-button" type="button" data-run-action="open-locations" aria-label="Open location cards" title="Open location cards"><img src="assets/icons/live-map.png" alt="" aria-hidden="true"><span class="sr-only">Open location cards</span></button>
+        <button class="run-icon-button" type="button" data-run-action="open-items" aria-label="Open item cards" title="Open item cards"><img src="assets/icons/live-loot.png" alt="" aria-hidden="true"><span class="sr-only">Open item cards</span></button>
+        <button class="run-icon-button" type="button" data-run-action="open-clues" aria-label="Open clue board" title="Open clue board"><img src="assets/icons/clue.png" alt="" aria-hidden="true"><span class="sr-only">Open clue board</span></button>
       </div>
       <details class="run-scratch">
         <summary>Scratch note</summary>
         <textarea id="run-scratch-note" data-disable-shortcuts rows="4" placeholder="Private live note. Shortcuts are disabled while typing here."></textarea>
       </details>
-      <nav class="run-cheat-menu" aria-label="Cheat sheet shortcuts">
-        <button type="button" data-run-go-slide="CHEAT-GM">1 GM Cheat</button>
-        <button type="button" data-run-go-slide="CHEAT-CONDITIONS">2 Conditions</button>
-        <button type="button" data-run-go-slide="CHEAT-SLIDER">3 Slider</button>
-        <button type="button" data-run-go-slide="CHEAT-PC">4 PC Sheet</button>
-        <button type="button" data-run-go-slide="CHEAT-PRONUNCIATION">5 Pronunciation</button>
-      </nav>
+      
+      <details class="music-player-panel" data-music-panel>
+        <summary>
+          <span class="music-summary-main">
+            <span>Music</span>
+            <span class="music-summary-now" data-music-summary-now>No track loaded</span>
+          </span>
+          <span class="music-summary-meta">
+            <span class="music-expand-label" data-music-collapsed-label>Show</span>
+            <span class="music-expand-label" data-music-expanded-label><span class="mechanic-link" data-mechanic="finesse"><span>Hide</span></span></span>
+          </span>
+          <span class="music-status-pill" data-music-status-pill>Off</span>
+        </summary>
+        <section class="music-player" data-music-player aria-label="GM music player">
+          <p class="music-now" data-music-now>No track loaded</p>
+          <div class="music-control-row" aria-label="Playback controls">
+            <button class="run-icon-button music-icon-button" type="button" data-music-action="previous" aria-label="Previous track" title="Previous track"><img src="assets/icons/action-prev.png" alt="" aria-hidden="true"><span class="sr-only">Previous track</span></button>
+            <button class="run-icon-button music-icon-button" type="button" data-music-action="play-pause" aria-label="Play or pause music" title="Play or pause music" data-short-label="Play"><img src="assets/icons/action-run-mode.png" alt="" aria-hidden="true"><span class="sr-only">Play or pause music</span></button>
+            <button class="run-icon-button music-icon-button" type="button" data-music-action="next" aria-label="Next track" title="Next track"><img src="assets/icons/action-next.png" alt="" aria-hidden="true"><span class="sr-only">Next track</span></button>
+            <button class="run-icon-button music-icon-button" type="button" data-music-action="restart" aria-label="Restart current track" title="Restart current track" data-short-label="Reset"><img src="assets/icons/live-reset.png" alt="" aria-hidden="true"><span class="sr-only">Restart current track</span></button>
+            <button class="run-icon-button music-icon-button" type="button" data-music-action="open-display" aria-label="Open Player Display" title="Open Player Display" data-short-label="Open"><img src="assets/icons/live-player-display.png" alt="" aria-hidden="true"><span class="sr-only">Open Player Display</span></button>
+          </div>
+          <label class="music-field">Playlist <select data-music-playlist aria-label="Music playlist"></select></label>
+          <label class="music-field">Track <select data-music-track aria-label="Music track"></select></label>
+          <div class="music-split-row">
+            <label class="music-field">Mode <select data-music-variant aria-label="Music mode">
+              <option value="all">All</option>
+              <option value="instrumental">Instrumental</option>
+              <option value="vocal">Vocal</option>
+              <option value="ad">Ads</option>
+            </select></label>
+            <label class="music-volume-field">Volume <input data-music-volume type="range" min="0" max="100" step="1" aria-label="Music volume"><span data-music-volume-label>18%</span></label>
+          </div>
+          <div class="music-preset-row" aria-label="Volume presets">
+            <button type="button" data-music-action="table-volume">Table</button>
+            <button type="button" data-music-action="lobby-volume">Lobby</button>
+            <button type="button" data-music-action="collapse-panel"><span class="mechanic-link" data-mechanic="finesse"><span>Hide</span></span></button>
+          </div>
+          <p class="music-status" data-music-status role="status" aria-live="polite"></p>
+        </section>
+      </details>
+
     </aside>
 
     <section class="run-slide-stage" aria-live="polite">
@@ -69,8 +200,12 @@
     </section>
   </main>
 
-  <footer class="run-bottom-scrubber" aria-label="Slide scrubber">
-    <div id="run-scrubber" class="run-scrubber-track" data-slide-scrubber tabindex="0" aria-label="Timeline scrubber"></div>
+  <footer class="run-bottom-scrubber" aria-label="Slide filmstrip">
+    <button class="scrub-toggle" type="button" data-run-action="toggle-filmstrip" aria-expanded="false" aria-label="Show or hide the filmstrip">
+      <span class="scrub-toggle-chevron" aria-hidden="true">▴</span>
+      <span class="scrub-toggle-label">Filmstrip</span>
+    </button>
+    <div id="run-scrubber" class="run-scrubber-track" data-slide-scrubber tabindex="0" aria-label="Scene filmstrip"></div>
   </footer>
 
   <dialog id="shortcut-help" class="run-dialog" aria-label="Keyboard shortcuts">
@@ -85,7 +220,7 @@
       <button class="dialog-close" value="close" aria-label="Close image">x</button>
       <img id="run-expanded-image" alt="">
       <p id="run-expanded-caption"></p>
-      <a id="run-expanded-raw" class="run-icon-button" target="_blank" rel="noopener" aria-label="Open raw image" title="Open raw image"><img src="assets/icons/action-open-image.png" alt="" aria-hidden="true"><span class="sr-only">Open raw image</span></a>
+      <a id="run-expanded-raw" class="run-icon-button" target="_blank" rel="noopener" aria-label="Open raw image" title="Open raw image"><img src="assets/icons/live-open-window.png" alt="" aria-hidden="true"><span class="sr-only">Open raw image</span></a>
     </form>
   </dialog>
   <dialog id="run-text-dialog" class="run-dialog run-text-dialog" aria-label="Expanded player text">
@@ -95,12 +230,126 @@
       <p id="run-expanded-text"></p>
     </form>
   </dialog>
+  <dialog id="npc-profile-dialog" class="run-dialog npc-profile-dialog" aria-label="NPC profile">
+    <form method="dialog">
+      <button class="dialog-close" value="close" aria-label="Close NPC profile">x</button>
+      <div data-npc-profile-dialog-body></div>
+    </form>
+  </dialog>
+  <dialog id="npc-summon-dialog" class="run-dialog npc-summon-dialog" aria-label="Summon backup NPC">
+    <form method="dialog">
+      <button class="dialog-close" value="close" aria-label="Close NPC summon picker">x</button>
+      <h2>Summon Backup NPC</h2>
+      <p class="muted">Drop a role-first utility NPC into the current scene. Player display receives only the name and one-line description if you send it.</p>
+      <label class="npc-summon-search">Search <input type="search" data-npc-summon-search placeholder="courier, debt, Bramble, elder"></label>
+      <div class="npc-summon-grid" data-npc-summon-list></div>
+      <section class="npc-improv-box">
+        <h3>10-second improv seed</h3>
+        <div data-npc-improv-seed></div>
+        <div class="npc-card-actions">
+          <button type="button" data-npc-roll-improv><span class="mechanic-link" data-mechanic="action-roll"><span>Roll</span></span> seed</button>
+          <button type="button" data-npc-add-improv>Add seed to scene</button>
+        </div>
+      </section>
+    </form>
+  </dialog>
+  <dialog id="faction-profile-dialog" class="run-dialog faction-profile-dialog" aria-label="Faction profile">
+    <form method="dialog">
+      <button class="dialog-close" value="close" aria-label="Close faction profile">x</button>
+      <div data-faction-profile-dialog-body></div>
+    </form>
+  </dialog>
+  <dialog id="faction-picker-dialog" class="run-dialog faction-picker-dialog" aria-label="Open faction card">
+    <form method="dialog">
+      <button class="dialog-close" value="close" aria-label="Close faction picker">x</button>
+      <h2>Faction Cards</h2>
+      <p class="muted">Drop a living-institution faction card into the current scene. Player Display only receives name, public face, and slogan if you send it.</p>
+      <label class="npc-summon-search">Search <input type="search" data-faction-picker-search placeholder="Emeris, Bramble, debt, ward, Hush"></label>
+      <div class="npc-summon-grid faction-picker-grid" data-faction-picker-list></div>
+    </form>
+  </dialog>
+  <dialog id="location-profile-dialog" class="run-dialog location-profile-dialog" aria-label="Location profile">
+    <form method="dialog">
+      <button class="dialog-close" value="close" aria-label="Close location profile">x</button>
+      <div data-location-profile-dialog-body></div>
+    </form>
+  </dialog>
+  <dialog id="location-picker-dialog" class="run-dialog location-picker-dialog" aria-label="Open location card">
+    <form method="dialog">
+      <button class="dialog-close" value="close" aria-label="Close location picker">x</button>
+      <h2>Location Cards</h2>
+      <p class="muted">Open a living-place card for the current scene. Player Display receives only the location name and player-safe read-aloud if you send it.</p>
+      <label class="npc-summon-search">Search <input type="search" data-location-picker-search placeholder="Athervast, Hush, Sablewood, Open Vale"></label>
+      <div class="npc-summon-grid location-picker-grid" data-location-picker-list></div>
+    </form>
+  </dialog>
+  <dialog id="item-profile-dialog" class="run-dialog item-profile-dialog" aria-label="Item profile">
+    <form method="dialog">
+      <button class="dialog-close" value="close" aria-label="Close item profile">x</button>
+      <div data-item-profile-dialog-body></div>
+    </form>
+  </dialog>
+  <dialog id="item-picker-dialog" class="run-dialog item-picker-dialog" aria-label="Open item card">
+    <form method="dialog">
+      <button class="dialog-close" value="close" aria-label="Close item picker">x</button>
+      <h2>Item Cards</h2>
+      <p class="muted">Open a loot, clue, prop, or asset card for the current scene. Player Display only receives SHOW text or earned TELL text when you send it.</p>
+      <label class="npc-summon-search">Search <input type="search" data-item-picker-search placeholder="Keystone, Sableblade, Hexmart, Bramble, ward"></label>
+      <div class="npc-summon-grid item-picker-grid" data-item-picker-list></div>
+    </form>
+  </dialog>
+  <dialog id="clue-profile-dialog" class="run-dialog clue-profile-dialog" aria-label="Clue profile">
+    <form method="dialog">
+      <button class="dialog-close" value="close" aria-label="Close clue profile">x</button>
+      <div data-clue-profile-dialog-body></div>
+    </form>
+  </dialog>
+  <dialog id="clue-picker-dialog" class="run-dialog clue-picker-dialog" aria-label="Open clue card">
+    <form method="dialog">
+      <button class="dialog-close" value="close" aria-label="Close clue picker">x</button>
+      <h2>Clue Board</h2>
+      <p class="muted">Open clue/evidence cards for the current scene. Player Display receives only the image or SHOW text when you send it.</p>
+      <label class="npc-summon-search">Search <input type="search" data-clue-picker-search placeholder="ambush, Hush, Bramble, invoice, Market Correction"></label>
+      <div class="npc-summon-grid clue-picker-grid" data-clue-picker-list></div>
+    </form>
+  </dialog>
 
+  <aside id="quick-ref-widget" class="quick-ref-widget is-collapsed" data-run-quick-ref data-persist-key="goldspire.quickRef.state" aria-label="Floating Quick Reference">
+    <header class="quick-ref-header" data-run-quick-ref-drag>
+      <button type="button" class="quick-ref-toggle" data-run-quick-ref-toggle aria-expanded="false">GM Ref</button>
+      <button type="button" class="quick-ref-reset" data-run-quick-ref-reset>Reset</button>
+    </header>
+    <div class="quick-ref-body">
+      <section class="quick-ref-card"><h2>Current Slide</h2><p data-run-quick-current>Loading...</p><div data-run-quick-mechanics class="mechanic-chip-row"></div></section>
+      <section class="quick-ref-card"><h2>PC Names</h2><div data-run-quick-pcs class="quick-ref-pc-list"></div><a class="button secondary" href="pages/pc-cheat-sheet.html">Open PC Sheet</a></section>
+      <section class="quick-ref-card"><h2><a class="mechanic-link" href="pages/rules/action-roll.html" data-mechanic="action-roll">Action Roll</a></h2><p>Pick <a class="mechanic-link" href="pages/rules/traits.html" data-mechanic="traits">trait</a>, set <a class="mechanic-link" href="pages/rules/difficulty.html" data-mechanic="difficulty">Difficulty</a>, <a class="mechanic-link" href="pages/rules/action-roll.html" data-mechanic="action-roll"><span>roll</span></a> <a class="mechanic-link" href="pages/rules/hope.html" data-mechanic="hope">Hope</a> d12 + <a class="mechanic-link" href="pages/rules/fear.html" data-mechanic="fear">Fear</a> d12, add bonuses, compare total.</p></section>
+      <section class="quick-ref-card"><h2><a class="mechanic-link" href="pages/rules/difficulty.html" data-mechanic="difficulty">Difficulty</a></h2><ul><li><a class="mechanic-link" href="pages/rules/difficulty.html" data-mechanic="difficulty">Very Easy 5</a></li><li><a class="mechanic-link" href="pages/rules/difficulty.html" data-mechanic="difficulty">Easy 10</a></li><li><a class="mechanic-link" href="pages/rules/difficulty.html" data-mechanic="difficulty">Average 15</a></li><li><a class="mechanic-link" href="pages/rules/difficulty.html" data-mechanic="difficulty">Hard 20</a></li><li><a class="mechanic-link" href="pages/rules/difficulty.html" data-mechanic="difficulty">Very Hard 25</a></li><li><a class="mechanic-link" href="pages/rules/difficulty.html" data-mechanic="difficulty">Nearly Impossible 30</a></li></ul></section>
+      <section class="quick-ref-card"><h2><a class="mechanic-link" href="pages/rules/hope.html" data-mechanic="hope">Hope</a> / <a class="mechanic-link" href="pages/rules/fear.html" data-mechanic="fear">Fear</a></h2><p>Higher die colors the result. <a class="mechanic-link" href="pages/rules/critical-success.html" data-mechanic="critical-success"><span>Doubles</span></a> are <a class="mechanic-link" href="pages/rules/critical-success.html" data-mechanic="critical-success">Critical Success</a>.</p></section>
+      <section class="quick-ref-card"><h2><a class="mechanic-link" href="pages/rules/conditions.html" data-mechanic="conditions">Conditions</a></h2><div class="mechanic-chip-row"><a class="mechanic-chip" href="pages/rules/hidden.html" data-mechanic="hidden">Hidden</a><a class="mechanic-chip" href="pages/rules/restrained.html" data-mechanic="restrained">Restrained</a><a class="mechanic-chip" href="pages/rules/vulnerable.html" data-mechanic="vulnerable">Vulnerable</a></div></section>
+      <section class="quick-ref-card"><h2>Quick Search</h2><input data-run-quick-rule-search type="search" placeholder="perception, save, AC"><div data-run-quick-rule-results class="quick-rule-results"></div></section>
+    </div>
+  </aside>
+  <aside id="faction-channel" class="faction-channel" data-faction-channel aria-live="polite" aria-label="Faction quick cards"></aside>
+  <aside id="location-channel" class="location-channel" data-location-channel aria-live="polite" aria-label="Location quick cards"></aside>
+  <aside id="item-channel" class="item-channel" data-item-channel aria-live="polite" aria-label="Item quick cards"></aside>
+  <aside id="clue-channel" class="clue-channel" data-clue-channel aria-live="polite" aria-label="Clue and evidence cards"></aside>
+  <aside id="npc-channel" class="npc-channel" data-npc-channel aria-live="polite" aria-label="NPC quick cards"></aside>
+  <aside id="spotlight-channel" class="spotlight-channel" data-spotlight-channel aria-live="polite" aria-label="Scene spotlight alerts"></aside>
   <aside id="hover-card" class="hover-card" role="dialog" aria-label="Entity quick reference" aria-hidden="true"></aside>
+  <div id="scrub-cue" class="scrub-cue" role="tooltip" hidden></div>
 
   <script src="data/atlas-data.js"></script>
+  <script src="app.js"></script>
   <script src="data/slides-data.js"></script>
+  <script src="data/music-library-data.js"></script>
+  <script src="data/maps-data.js"></script>
+  <script src="data/next-move-cards-data.js"></script>
   <script src="js/display-sync.js"></script>
+  <script src="js/music-player.js"></script>
+  <script src="js/gm-hud.js"></script>
+  <script src="js/encounter-cockpit.js"></script>
+  <script src="js/next-move-kit.js"></script>
+  <script src="js/maps-environment-slides.js"></script>
   <script src="js/run-mode.js"></script>
 </body>
 </html>

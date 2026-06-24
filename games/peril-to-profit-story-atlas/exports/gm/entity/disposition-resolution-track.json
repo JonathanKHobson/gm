@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "disposition-resolution-track",
+  "title": "Disposition / Resolution Track",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "76d4adf0b77f45cd",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Disposition / Resolution Track: A generic consequence tracker for how a creature, NPC group, or conflict leaves the scene: calmed, helped, fought, captured, spared, or harmed."
+    },
+    {
+      "title": "Public role",
+      "body": "Choice and payoff tracking lane"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: A generic consequence tracker for how a creature, NPC group, or conflict leaves the scene: calmed, helped, fought, captured, spared, or harmed."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use when the scene needs a concrete object for players to inspect, carry, debate, or remember."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 76d4adf0b77f45cd | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

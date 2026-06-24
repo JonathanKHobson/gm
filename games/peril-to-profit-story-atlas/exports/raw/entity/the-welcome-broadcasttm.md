@@ -1,0 +1,47 @@
+# The Welcome Broadcast™
+
+RAW export - entity:the-welcome-broadcasttm
+
+## Player-facing description
+The Welcome Broadcast™: A bright RuneSpark welcome plays you off: "Congratulations on your Provisional Hire! Sablewood is a Certified Adventure Experience™. Nature is Thrilling, Lucrative, and Almost Entirely Survivable! Your Satisfaction Matters Deeply to Us!"
+
+## Public role
+Clue / evidence
+
+## Handout text
+Player-safe note: A bright RuneSpark welcome plays you off: "Congratulations on your Provisional Hire! Sablewood is a Certified Adventure Experience™. Nature is Thrilling, Lucrative, and Almost Entirely Survivable! Your Satisfaction Matters Deeply to Us!"
+
+## Raw source
+- Id: the-welcome-broadcasttm
+- Name: The Welcome Broadcast™
+- Type: clue
+- Role: Clue / evidence
+- Summary: A bright RuneSpark welcome plays you off: "Congratulations on your Provisional Hire! Sablewood is a Certified Adventure Experience™. Nature is Thrilling, Lucrative, and Almost Entirely Survivable! Your Satisfaction Matters Deeply to Us!"
+- Tags: clue evidence world-npc
+- Connections: Emeris Capital Gate RuneSpark Entertainment Emeris Crown Holdings
+- Pronunciation: the WEL-kum BRAWD-kast
+- Aliases: The Welcome Broadcast
+- Image Fallback: type-icon
+- Clue Profile: clue-profile-v1 the-welcome-broadcasttm the-welcome-broadcasttm The Welcome Broadcast™ The Welcome Broadcast™ The Welcome Broadcast the WEL-kum BRAWD-kast propaganda ™ True [Atlas lore - confirm or override] The Welcome Broadcast™ A bright RuneSpark welcome plays you off: "Congratulations on your Provisional Hire! Sablewood is a Certified Adventure Experience™. Nature is Thrilling, Lucrative, and Almost Entirely Survivable! Your Satisfaction Matters Deeply to Us!" A bright RuneSpark welcome plays you off: "Congratulations on your Provisional Hire! Sablewood is a Certified Adventure Experience™. Nature is Thrilling, Lucrative, and Almost Entirely Survivable! Your Satisfaction Matters Deeply to Us!" A bright RuneSpark welcome plays you off: "Congratulations on your Provisional Hire! Sablewood is a Certified Adventure Experience™. Nature is Thrilling, Lucrative, and Almost Entirely Survivable! Your Satisfaction Matters Deeply to Us!" the-welcome-broadcasttm The Welcome Broadcast™ The Welcome Broadcast the WEL-kum BRAWD-kast propaganda ™ sets the official story (nature deadly, company kind) that the journey will quietly dismantle. WORLD/NPC The Propaganda Itself the-propaganda-itself...
+- Robust: The Welcome Broadcast™: A bright RuneSpark welcome plays you off: "Congratulations on your Provisional Hire! Sablewood is a Certified Adventure Experience™. Nature is Thrilling, Lucrative, and Almost Entirely Survivable! Your Satisfaction Matters Deeply to Us!" Use this element to reveal the cost of managed protection through concrete play. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Pull attention toward the people, stakes, or infrastructure connected to this entity. Pressure appears when players treat this as disposable, purely transactional, or unrelated to ordinary lives. Use when players need a tangible handle on the scene's pressure. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about The Welcome Broadcast™ and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice...
+- Personality: Give one concrete visual, one sound or texture, and one sign of who has used or neglected it.
+- Wants: Pull attention toward the people, stakes, or infrastructure connected to this entity.
+- Fears: Pressure appears when players treat this as disposable, purely transactional, or unrelated to ordinary lives.
+- Secrets: Use this element to reveal the cost of managed protection through concrete play.
+- Body Language: Give one concrete visual, one sound or texture, and one sign of who has used or neglected it.
+- Sample Dialogue: The Welcome Broadcast™: A bright RuneSpark welcome plays you off: "Congratulations on your Provisional Hire! Sablewood is a Certified Adventure Experience™. Nature is Thrilling, Lucrative, and Almost Entirely Survivable! Your Satisfaction Matters Deeply to Us!"
+- Equipment: No equipment; use as context, place, faction, mechanic, or clue rather than treasure.
+- Search Or Loot: Player-safe note: A bright RuneSpark welcome plays you off: "Congratulations on your Provisional Hire! Sablewood is a Certified Adventure Experience™. Nature is Thrilling, Lucrative, and Almost Entirely Survivable! Your Satisfaction Matters Deeply to Us!"
+- Gm Use: Use when players need a tangible handle on the scene's pressure.
+- Future Hooks: Bring back if player choices made this entity emotionally or tactically important.
+- Mechanics: Discovery / Earn-It Mechanics Players can inspect, handle, keep, trade, reveal, or earn The Welcome Broadcast™ when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A bright RuneSpark welcome plays you off: "Congratulations on your Provisional Hire! Sablewood is a Certified Adventure Experience™. Nature is Thrilling, Lucrative, and Almost Entirely Survivable! Your Satisfaction Matters Deeply to Us!" Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-the-welcome-broadcasttm-engage-the-welcome-broadcast™ entity-the-welcome-broadcasttm Engage The Welcome Broadcast™ Engage The Welcome Broadcast™ Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of The Welcome Broadcast™ hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success...
+- Short Pronunciation: the WEL-kum BRAWD-kast
+- Meta: Clue / Evidence CLUE assets/icons/clue.png entity-clue #48c7e8 07 Items and Clues entities clue
+- Image Prompt: Private table TTRPG story atlas asset for The Welcome Broadcast™, Clue / Evidence. Role: Clue / evidence. Summary: A bright RuneSpark welcome plays you off: "Congratulations on your Provisional Hire! Sablewood is a Certified Adventure Experience™. Nature is Thrilling, Lucrative, and Almost Entirely Survivable! Your Satisfaction Matters Deeply to Us!". Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Related: Emeris Capital Gate Emeris Crown Holdings RuneSpark Entertainment
+- Image: assets/clue-images/the-welcome-broadcasttm/profile_base.webp
+- Image Asset Status: clue_visual_profile
+- Visual Gallery: primary Primary wiki image primary assets/clue-images/the-welcome-broadcasttm/profile_base.webp The Welcome Broadcast™ primary wiki image visual. The Welcome Broadcast™: Primary wiki image. clue_visual_profile True True
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash eba52e674f7f6b95 | Source hash dac3370046ed077140fab2d6

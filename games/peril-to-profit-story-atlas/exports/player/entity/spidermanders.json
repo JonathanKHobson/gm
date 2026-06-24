@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "spidermanders",
+  "kind": "entity",
+  "title": "Spidermanders",
+  "in_world_label": "Field Guide Page",
+  "brand_flag": "Player-safe",
+  "kicker": "Creature / Animal",
+  "hook": "Player-safe note: Spider-salamander hybrids coat themselves in pale ash, gripping stone with too many soft feet and leaving damp prints where the ground should be dry.",
+  "blocks": [
+    {
+      "label": "Observed Form",
+      "body": "Give one concrete visual, one sound or texture, and one sign of who has used or neglected it."
+    },
+    {
+      "label": "Behavior",
+      "body": "Spider-salamander hybrids coat themselves in pale ash, gripping stone with too many soft feet and leaving damp prints where the ground should be dry.; show instinct first through distance, posture, scent, and how the creature protects..."
+    },
+    {
+      "label": "Warning Signs",
+      "body": "Being surrounded, misread as a monster, or driven toward Root's Hollow, The Ash Quarry, Underroot by noise and haste."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Give it distance before deciding it is hostile.",
+    "Read posture, tracks, and what it is protecting."
+  ],
+  "archetype": "creature.field_guide",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:spidermanders",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "477902f1179c91ab",
+  "generated_at": "2026-06-23T21:40:58"
+}

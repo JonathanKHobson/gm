@@ -1,0 +1,75 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "slide",
+  "id": "MAP-LOC-the-hanging-office",
+  "title": "MAP-LOC-the-hanging-office - The Hanging Office Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "81c4cee55f96d111",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "A home hangs in the canopy above a carved counterweight stone. Yellow-green light moves behind its windows."
+    },
+    {
+      "title": "Public objective",
+      "body": "A home hangs in the canopy above a carved counterweight stone. Yellow-green light moves behind its windows."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: MAP-LOC-the-hanging-office",
+        "Type: map",
+        "Maptype: environment",
+        "Sectionid: ACT-FOUR",
+        "Sectiontitle: Act Four: The Hanging Office",
+        "Title: The Hanging Office Location Map",
+        "Shorttitle: The Hanging Home",
+        "Order: 501.08",
+        "Playersafe: True",
+        "Completioneligible: False",
+        "Image: assets/maps/MAP-LOC-the-hanging-office-gm.webp",
+        "Alt: The Hanging Office location map board.",
+        "Caption: Visual reference for The Hanging Office.",
+        "Mood: spatial reference and location texture",
+        "Gmgoal: Use the hanging home as the Act 4 hub: exterior puzzle, Custodian RP, and reveal chamber.",
+        "Publicobjective: A home hangs in the canopy above a carved counterweight stone. Yellow-green light moves behind its windows.",
+        "Readaloud: A home hangs in the canopy above a carved counterweight stone. Yellow-green light moves behind its windows.",
+        "Gmscript: Say: \"This map is the act heart: puzzle outside, person inside, reveal only when S04-04 begins.\"",
+        "Gmreadaloud: The cabin sways above the counterweight. Inside, the home opens impossibly larger than it should. Every object feels exactly placed.",
+        "Gmchecklist: Run S04-02 outside before interior RP. Keep the package truth hidden until S04-04. After reveal and commitment, transition to open-vale-ward-lines.",
+        "Gmprivate: GM-only: the home is the Custodian's ward-workshop; the deepest consume truth stays seeded only.",
+        "Playertakeaway: A home hangs in the canopy above a carved counterweight stone. Yellow-green light moves behind its windows.",
+        "Storytakeaway: The Custodian's home is a test, a sanctuary, and the reveal chamber.",
+        "Mechanictakeaway: Use the map to anchor Agility/Finesse/Knowledge puzzle options, Presence trust, and Knowledge 14 reveal inspection.",
+        "Entityids: whitefire-custodian",
+        "Entities: whitefire-custodian Whitefire Custodian npc NPC / Ally assets/icons/npc.png assets/npc-images/whitefire-custodian/portrait_base.webp WHITE-fire kus-TOH-dee-un Old faerie-like custodian who maintains the ward protecting Hush. Truth-bearer for the Keystone reveal. Whitefire Custodian an old faerie-like ward keeper whose exhaustion glows around the edges Ancient kindness running on fumes, glowing a little brighter whenever someone tells the truth nearby. Wants to keep one place honestly safe long enough for people to remember that safety can be care instead of a product, and is quietly breaking under the cost of it. Renew the ward without being treated as a device. Please do not call me the ward interface. an old faerie-like ward keeper whose exhaustion glows around the edges npc-profile-v1 NPC_System_Packet + image-informed hardening Whitefire Custodian an old faerie-like ward keeper whose exhaustion glows around the edges A tall luminous faerie custodian stands like living bark and white fire, branchlike crown, translucent wings, and warm gold light gathered in the chest. Whitefire Custodian: an old faerie-like ward keeper whose exhaustion glows around the edges Whitefire...",
+        "Statecontrols: custodian_trust Custodian Trust select low neutral high package_status Package Status select held lost keystone_understanding Keystone Understanding select surface deep ward_awareness Ward Awareness select none seed aware",
+        "Mechanicids: agility finesse knowledge presence stress",
+        "Fearspends: This is exposition, not combat — keep Fear low. The dread is in the carved faces and her question about how they'll die. Spend Fear: one carved face turns, almost imperceptibly, to follow a PC. Never acknowledged. Pure unease before the ritual.",
+        "Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth context stay off the player display.",
+        "Linkedsceneids: S04-02 S04-03 S04-04",
+        "Mapdata: MAP-LOC-the-hanging-office environment The Hanging Office Location Map S04-02 S04-03 S04-04 whitefire-custodian assets/location-visuals/the-hanging-office/profile_scene_v02.webp Visual reference for The Hanging Office. The Hanging Office location map board. A home hangs in the canopy above a carved counterweight stone. Yellow-green light moves behind its windows. A home hangs in the canopy above a carved counterweight stone. Yellow-green light moves behind its windows. Use the hanging home as the Act 4 hub: exterior puzzle, Custodian RP, and reveal chamber. Hanging cabin, giant rope braid, carved counterweight boulder, yellow-green window light, trees covered in hundreds of carved watching faces, blue glowing moss starting on the nearby crops. The slow creak of the swaying cabin; the Custodian's clear, expressive voice once she emerges; a low hum from the carved faces when the wind moves. potions, dried herbs, beeswax, old wood — a cluttered-but-precise workshop. Uncanny watchfulness (the faces); the cabin's gentle motion; the sense that nothing here is accidental. Small creatures of all kinds inside the cabin; potion bottles, spellbooks, runes, plants — crowded but immaculately...",
+        "Sourcefiles: dist/Act4_Upgrade_Packet/ACT4_MAPS_AND_LOCATIONS.md",
+        "References: Exterior #S04-02 Custodian #S04-03 Reveal #S04-04",
+        "Livetools: scene MAP-LOC-the-hanging-office",
+        "Percharacterlayer: garrick-reed Garrick Reed Affable warmth His warmth makes him the natural bridge to her. Can lead the conversation and answer the death-question honestly, raising trust fastest. Garrick, she likes genuine people. Want to lead the conversation and answer her death-question honestly? marlowe-fairwind Marlowe Fairwind Fellow magic-worker The Custodian recognizes a fellow arcane practitioner and warms to respect for the craft. Knowledge 13 Understands the Custodian is bound to the ward; gate the deeper cost. Can talk shop and earn trust without owning the later reveal. Marlowe, she clocks you as one of her own kind. Want to talk shop and earn her trust? varian-soto Varian Soto Trusted by creatures The small creatures in the treehouse trust Varian quickly, and the Custodian notices. Can soften the room by letting the creatures approach. Varian, her little creatures come right to you. She sees that. Want to lean into it? khari-nix Khari Nix Guardian answer The death-question can become a guardian's truth. An honest answer about dying to protect someone moves her. Khari, she asks how you imagine you will die. A guardian's true answer would move her. Want to give it? barnacle Barnacle...",
+        "Gmbeats: MAP-LOC-the-hanging-office-exterior Exterior Exterior puzzle Say: \"Offer call, climb, study, or force.\" The hanging home asks how the party approaches a person, not how they break a lock. Access is a character test. Puzzle choices write trust. Players understand the approach choices. Player takeaway Players understand the approach choices. \"Offer call, climb, study, or force.\" \"The playable fact is: The hanging home asks how the party approaches a person, not how they break a lock.\" Concrete actions for this beat: look closely, ask the Custodian a direct question, commit to a choice, or take one prep action. agility finesse presence Story takeaway Access is a character test. \"Offer call, climb, study, or force.\" \"The story fact in play is: Access is a character test.\" This beat changes Act 4 through this exact pressure: Access is a character test. agility finesse presence Mechanic takeaway Puzzle choices write trust. \"Offer call, climb, study, or force.\" \"The active procedure is: Puzzle choices write trust.\" Run intent first. Use Presence for trust, Knowledge for ward or stone truths, Instinct for preserve danger, and Agility or Finesse for the hanging-home puzzle. agility...",
+        "Takeawayhelp: Player takeaway The hanging home is the Act 4 hub. \"This is the act heart: puzzle outside, person inside, reveal only when it is time.\" \"Use the exterior for approach choices, then interior for trust and the reveal.\" Keep the map oriented around the current scene beat. agility finesse knowledge presence stress Story takeaway The home is a test, sanctuary, and reveal chamber. \"The place tells you who she is before she explains anything.\" \"It is impossible, tidy, watched, and old. That is all player-safe before S04-04.\" The map should deepen tone without leaking the stone truth too early. agility finesse knowledge presence stress Mechanic takeaway The map anchors puzzle, trust, and inspection mechanics. \"Agility 13 to climb, Finesse/Knowledge 13 to solve, Knowledge 14 only after the reveal.\" \"Force costs Stress; courtesy raises trust; inspection deepens understanding.\" Each map action should write trust, understanding, or prep. agility finesse knowledge presence stress",
+        "Playerbeats: assets/maps/MAP-LOC-the-hanging-office.png The Hanging Home map board. MAP-LOC-the-hanging-office environment The Hanging Home S04-02 S04-03 S04-04 assets/maps/MAP-LOC-the-hanging-office.png assets/maps/MAP-LOC-the-hanging-office.png The Hanging Home map board. A home hangs in the canopy above a carved counterweight stone. Yellow-green light moves behind its windows. A home hangs in the canopy above a carved counterweight stone. Yellow-green light moves behind its windows. Hanging cabin A puzzle-toy home, precise and precarious. 0.5 0.36 Counterweight Cutting the rope is a bad idea with consequences. 0.68 0.76 Carved faces The trees watch before the reveal lands. 0.28 0.48 MAP-LOC-the-hanging-office-map-only Map only The Hanging Home map-only assets/maps/MAP-LOC-the-hanging-office.png The Hanging Home map board. MAP-LOC-the-hanging-office environment The Hanging Home S04-02 S04-03 S04-04 assets/maps/MAP-LOC-the-hanging-office.png assets/maps/MAP-LOC-the-hanging-office.png The Hanging Home map board. A home hangs in the canopy above a carved counterweight stone. Yellow-green light moves behind its windows. A home hangs in the canopy above a carved counterweight stone. Yellow-green...",
+        "Beatautoplayeligible: True",
+        "Beatautoplaydefault: False",
+        "Beatautoplayintervalms: 10000",
+        "Playersafeprojection: MAP-LOC-the-hanging-office map The Hanging Home assets/maps/MAP-LOC-the-hanging-office.png The Hanging Home map board. spatial reference and location texture A home hangs in the canopy above a carved counterweight stone. Yellow-green light moves behind its windows. A home hangs in the canopy above a carved counterweight stone. Yellow-green light moves behind its windows. MAP-LOC-the-hanging-office environment The Hanging Home S04-02 S04-03 S04-04 assets/maps/MAP-LOC-the-hanging-office.png assets/maps/MAP-LOC-the-hanging-office.png The Hanging Home map board. A home hangs in the canopy above a carved counterweight stone. Yellow-green light moves behind its windows. A home hangs in the canopy above a carved counterweight stone. Yellow-green light moves behind its windows. Hanging cabin A puzzle-toy home, precise and precarious. 0.5 0.36 Counterweight Cutting the rope is a bad idea with consequences. 0.68 0.76 Carved faces The trees watch before the reveal lands. 0.28 0.48 assets/maps/MAP-LOC-the-hanging-office.png The Hanging Home map board. MAP-LOC-the-hanging-office environment The Hanging Home S04-02 S04-03 S04-04 assets/maps/MAP-LOC-the-hanging-office.png...",
+        "Slidenumber: 55",
+        "Totalslides: 110"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 81c4cee55f96d111 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

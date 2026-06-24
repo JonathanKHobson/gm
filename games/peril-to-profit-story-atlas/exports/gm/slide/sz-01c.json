@@ -1,0 +1,53 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "SZ-01C",
+  "title": "SZ-01C - Tonight's Shape / Pacing",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "db5788e4182a3b6e",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "We will start with Session Zero, move into the delivery job, follow the route through escalating complications, and take breaks so the table can breathe."
+    },
+    {
+      "title": "Public objective",
+      "body": "We will start with Session Zero, move into the delivery job, follow the route through escalating complications, and take breaks so the table can breathe."
+    },
+    {
+      "title": "Player bullets",
+      "items": [
+        "Session Zero: safety, rules, characters, and connections.",
+        "Opening contract: the sealed delivery and why you took the job.",
+        "Road trouble: the route proves less safe than advertised.",
+        "Hush and investigation: meet people, ask questions, and decide who to trust.",
+        "Final pressure: the delivery becomes a choice, not just a job.",
+        "Breaks: short five-minute pauses as needed, plus a longer midpoint break if the table wants it."
+      ]
+    },
+    {
+      "title": "GM goal",
+      "body": "Orient players to the act structure, pacing, and break policy."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "Script: Give players the shape of the night without spoiling the story. Explain that the Run Clock will remind you to check in for five-minute breaks and a possible longer midpoint break.",
+        "Keep the pacing overview high-level. Do not spoil act twists.",
+        "Use the Run Clock break prompts as a reminder to ask the table, not as a mandatory interruption.",
+        "Checklist: Act shape explained; Break policy explained; Run Clock break reminders enabled"
+      ]
+    },
+    {
+      "title": "GM script",
+      "body": "Give players the shape of the night without spoiling the story. Explain that the Run Clock will remind you to check in for five-minute breaks and a possible longer midpoint break."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash db5788e4182a3b6e | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

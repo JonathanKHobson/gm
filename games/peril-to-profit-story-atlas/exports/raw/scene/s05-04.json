@@ -1,0 +1,96 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "scene",
+  "id": "S05-04",
+  "title": "S05-04 - Legacy Security Skeletons",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "b0c9f93c7c582afe",
+  "sections": [
+    {
+      "title": "Player read-aloud",
+      "body": "Four skeletons tear upward from the soil, rusted swords raised like policies nobody remembered to cancel."
+    },
+    {
+      "title": "Scene summary",
+      "body": "Old ward-security remnants rise with rusted swords."
+    },
+    {
+      "title": "Visible choices",
+      "items": [
+        "Destroy skeletons quickly",
+        "Tank group attack",
+        "Kite them away from Custodian"
+      ]
+    },
+    {
+      "title": "Player questions",
+      "items": [
+        "What detail in Legacy Security Skeletons tells you the official story is incomplete?",
+        "Who notices the human cost first, and how do they show it?",
+        "What small object, smell, or sound makes this scene feel real?"
+      ]
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: S05-04",
+        "Act: Act Five",
+        "Title: Legacy Security Skeletons",
+        "Beats: Combat Corporate satire beat",
+        "Image: assets/scenes/S05-04-legacy-security-skeletons.webp",
+        "Short: Old ward-security remnants rise with rusted swords.",
+        "Long: They are not random undead. They are obsolete security protocols made bone and rust.",
+        "Read: Four skeletons tear upward from the soil, rusted swords raised like policies nobody remembered to cancel.",
+        "Gm: Use them to teach group attacks and countdown progress.",
+        "Entities: Legacy Security Skeleton Market Correction Open Vale™ Ritual Site Whitefire Custodian Ritual Countdown Garrick Reed Damage / Armor",
+        "Choices: Destroy skeletons quickly Tank group attack Kite them away from Custodian",
+        "Prompt: Rusted skeleton warriors claw up from ritual clearing, old security sigils hanging from bones; party braces around Custodian and Keystone Asset; no strixwolf, no Bramble Union.",
+        "Source Entities: Legacy Security Skeleton Market Correction Open Vale™ Ritual Site",
+        "Beat Codes: combat corporate-satire-beat",
+        "Slug: S05-04-legacy-security-skeletons",
+        "Act Title: The Ward Renewal",
+        "Arc Role: Ordeal, ritual defense, and restoration",
+        "Caption: Legacy Security Skeletons are old protection logic with the people scraped out.",
+        "Image Alt: Legacy Security Skeletons scene art for The Ward Renewal.",
+        "Image Prompt Used: Rusted skeleton warriors claw up from ritual clearing, old security sigils hanging from bones; party braces around Custodian and Keystone Asset; no strixwolf, no Bramble Union. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions unless explicitly requested. No Strixwolf. No Bramble Union. Only Legacy Security Skeletons and Soul-Audit Wraiths as threats. 4:3 cinematic fantasy concept art, no visible text, no captions, no logos, no UI, no watermark.",
+        "Long Storyboard: They are not random undead. They are obsolete security protocols made bone and rust. Run this scene as ordeal, ritual defense, and restoration: Legacy Security Skeletons are old protection logic with the people scraped out. Keep the camera close to practical choices, visible consequences, and the difference between ordinary people and the infrastructure pressing on them.",
+        "Read Aloud: Four skeletons tear upward from the soil, rusted swords raised like policies nobody remembered to cancel.",
+        "Gm Notes: Use them to teach group attacks and countdown progress. Keep player-facing information actionable. Reveal systemic truth through objects, reactions, and consequences before naming it. Manufactured-threat lens: seed the contradiction, do not explain it. The surface goal stays simple and heroic. [FLAG/SEED] Optional flag: Legacy Skeletons carry scraps of old corporate credentials.",
+        "Sensory Details: bone tapping in formation rusted badges clinking orders whispered through empty jaws",
+        "Body Language: Skeletons ignore insults and react to custody claims Garrick recognizes the stance before he admits it",
+        "Sample Dialogue: Legacy Security echo Asset protection priority supersedes resident safety.",
+        "Checks: Strength or Agility Break formation or intercept strikes. Standard Keep skeletons from the Custodian. 15 Cleanly resolve: Break formation or intercept strikes. Add a concrete boon, extra clue, or improved position. Success, plus the player names one helpful detail or asks one follow-up question. Success, but the GM exposes a cost, ticks a countdown, or reveals a new pressure tied to Legacy Security Skeletons. The full goal slips, but the party still learns a useful truth or avoids the worst consequence. The GM makes a hard move that follows from the fiction and leaves the next choice visible. Spend Fear to tick the ritual countdown, expose the Custodian, activate ward backlash, or trigger Market Correction. On mixed or sliding results, reveal information in layers: visible fact, actionable clue, then systemic truth. Knowledge Exploit obsolete protocols. Hard Redirect one skeleton for a beat. 20 Cleanly resolve: Exploit obsolete protocols. Add a concrete boon, extra clue, or improved position. Success, plus the player names one helpful detail or asks one follow-up question. Success, but the GM exposes a cost, ticks a countdown, or reveals a new pressure tied to Legacy Security...",
+        "Choices Consequences: Exploit their protocol Tactical advantage and satire land. Less damage. Fight straight Clean and understandable. Consumes resources.",
+        "Clues: Stamped breastplate They are undead security. The system preserved function after humanity. These were institutional protectors before becoming residue.",
+        "Loot: Use Skeleton remnants table",
+        "Payoff Flags: Ward Stability Track",
+        "Filters: act-five choice combat corporate-satire-beat gm-only the-ward-renewal ward-stability-track manufactured-threat guaranteed-earned clue",
+        "Index: 21",
+        "Player Questions: What detail in Legacy Security Skeletons tells you the official story is incomplete? Who notices the human cost first, and how do they show it? What small object, smell, or sound makes this scene feel real?",
+        "Relationship Prompts: Which PC quietly checks on someone else here? Who disagrees about the right thing to do without breaking trust?",
+        "Ownership Prompt: Name one detail in Legacy Security Skeletons that belongs to your character's point of view.",
+        "Reveal Hooks: Loreborne or Knowledge-focused PCs can read the institutional layer. Wildborne/community-focused PCs can read local custom and ecological stress. Martial/security-focused PCs can read threat posture and custody logic. Magic-focused PCs can feel ward tone, soul-signal, or spell instability. Loreborne: spots older legal, heraldic, or ward-craft language under the branding. Underborne: notices service doors, hidden routes, and who built the thing nobody credits. Highborne: reads etiquette, class panic, and reputational risk. Ridgeborne: notices stonework, weight, pressure, and structural weakness. Wildborne: reads the land, animals, and local ecological stress. Elf/Ribbet/Human/Giant/Katari: invite one sensory or social detail from the player's heritage. Sorcerer/Rogue/Warrior/Guardian/Ranger: give each class one table-facing way to shine without changing the plot.",
+        "Fear Spends: Spend Fear to tick the ritual countdown, expose the Custodian, activate ward backlash, or trigger Market Correction. Tick the Ritual Countdown the wrong direction or expose the Custodian. Trigger Market Correction, Pass-Through, Memory Delve, or Group Attack when fiction supports it.",
+        "Story Scope: Perceived antagonist: the forest. True antagonist: the corporate lie about the forest. The players never confront it directly. They are meant to feel it by the end. Every act offers at least one guaranteed and one earned hint that the danger is manufactured and the forest is not the enemy. Soul-Audit Wraiths bear audit glyphs and say, \"Unlicensed soul-resonance detected. Submit for audit.\" REFLAVOR GUARANTEED A defeated wraith leaves a Soulspire compliance tag or coil-credit token instead of natural remains. ADD GUARANTEED Wraiths ignore forest creatures and home only on ritual soul-magic. ADD EARNED Instinct Medium 15 A player can read the markings and name Soulspire without the GM naming it first. ADD EARNED Knowledge Medium 15 Optional flag: Legacy Skeletons carry scraps of old corporate credentials. FLAG SEED Optional flag: Legacy Skeletons carry scraps of old corporate credentials. FLAG SEED Instinct: target logic. Knowledge: read markings. ACT5 Act 5: Open Vale defense 200 2:40 to 3:20 3:20 countdown 8, skeletons, wraiths, Market Correction Lower the countdown start to 6; cap wraith reinforcements.",
+        "Mechanics: The party is in Act Five pressure: Old ward-security remnants rise with rusted swords. Use Daggerheart Duality Dice as baseline. Use the listed Difficulty and outcome options when a roll matters. Keep trivial actions no-roll; roll only when uncertainty, cost, or danger is interesting. s05-04-shatter-the-skeleton-formation S05-04 Shatter the skeleton formation Shatter the skeleton formation Strength Knowledge Strength Knowledge 13 Strength breaks bodies; Knowledge breaks the pattern animating them. Old labor-debt bodies keep rising in formation. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. Old labor-debt bodies keep rising in formation. Use a...",
+        "Roll Cards: s05-04-shatter-the-skeleton-formation S05-04 Shatter the skeleton formation Shatter the skeleton formation Strength Knowledge Strength Knowledge 13 Strength breaks bodies; Knowledge breaks the pattern animating them. Old labor-debt bodies keep rising in formation. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. Old labor-debt bodies keep rising in formation. Use a hard complication, lost time, worse position, GM Fear, or mark Stress. Apply an official condition only if the fiction and rules justify it. The attempt falls short, but a partial thread appears. Offer one clue, weak position, or safer follow-up. The PC gets the core result, but it...",
+        "Conditions Hazards: Restrained Vulnerable",
+        "Search Loot Clues: Skeleton remnants: rusted writ, stamped plate, worker-person evidence, repairable weapon at most.",
+        "No Roll Guidance: Do not call for a roll when the players have time, a clear method, and no meaningful pressure.",
+        "Tv Mechanics Caption: Public cue: Legacy Security Skeletons asks what the party does, what it costs, and who is protected.",
+        "Trait Variety Note: Primary traits in this scene: Knowledge, Presence, Strength. If rolls drift toward Instinct/Presence, ask whether Agility, Strength, Finesse, or Knowledge better describes the action.",
+        "Location Ids: open-valetm-ritual-site",
+        "Clueids: market-correction legacy-security-badge",
+        "Clue Ids: market-correction legacy-security-badge",
+        "Image Asset Status: image_gen"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash b0c9f93c7c582afe | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

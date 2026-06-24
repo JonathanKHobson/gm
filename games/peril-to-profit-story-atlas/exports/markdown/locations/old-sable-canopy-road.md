@@ -1,0 +1,49 @@
+# Old Sable Canopy Road
+
+RAW export - entity:old-sable-canopy-road
+
+## Player-facing description
+The canopy road feels like travel through the forest's memory: dim green light, root-shadow bends, and old markers half-swallowed by moss.
+
+## Public role
+Give the route enough texture that the later incident feels placed, not random.
+
+## Handout text
+The living road beneath the branded logistics layer, remembered by locals as a place instead of a service corridor.
+
+## Raw source
+- Type: location
+- Role: Give the route enough texture that the later incident feels placed, not random.
+- Summary: The living road beneath the branded logistics layer, remembered by locals as a place instead of a service corridor.
+- Tags: goldspire-location local-name location-profile old-sable road
+- Connections: Old Sable Sablewood™ Logistics Preserve Hush Forgotten Gods
+- Inventory: root-shadow bends bird-hushed clearings older stone markers
+- Loot: Observation reveals the branded route only partially matches the older safer path.
+- Name: Old Sable Canopy Road
+- Id: old-sable-canopy-road
+- Meta: Location LOCATION assets/icons/location.png entity-location #5fa8d3 05 Locations locations location
+- Aliases: Old Sable Canopy Road Old Sable road canopy road
+- Related: Forgotten Gods Hush Old Sable Sablewood™ Logistics Preserve
+- Image Prompt: Private table TTRPG story atlas asset for Old Sable Canopy Road, Location. Role: Give the route enough texture that the later incident feels placed, not random.. Summary: The living road beneath the branded logistics layer, remembered by locals as a place instead of a service corridor.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Show the place as an atmospheric establishing image, not a map. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: The living road beneath the branded logistics layer, remembered by locals as a place instead of a service corridor.; introduce it with a sensory palette, who feels safe there, and what has been neglected.
+- Wants: Pull player attention toward the choices, clues, and relationships tied to Old Sable, Sablewood™ Logistics Preserve, Hush.
+- Fears: Being treated as scenery when it should reveal who is protected, who is charged, and who is left outside the ward.
+- Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.
+- Body Language: Let the place answer through sound, texture, and who feels safe there.
+- Sample Dialogue: The living road beneath the branded logistics layer, remembered by locals as a place instead of a service corridor.
+- Equipment: root-shadow bends bird-hushed clearings older stone markers
+- Search Or Loot: Observation reveals the branded route only partially matches the older safer path.
+- Gm Use: Introduce with sensory texture, then make one discoverable clue or social choice visible.
+- Future Hooks: Bring back as an echo if players made a strong choice involving this entity.
+- Robust: The canopy road feels like travel through the forest's memory: dim green light, root-shadow bends, and old markers half-swallowed by moss. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Pull player attention toward the choices, clues, and relationships tied to Old Sable, Sablewood™ Logistics Preserve, Hush. Being treated as scenery when it should reveal who is protected, who is charged, and who is left outside the ward. Introduce with sensory texture, then make one discoverable clue or social choice visible. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Old Sable Canopy Road and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the...
+- Mechanics: Location Exploration Mechanics Players can navigate, search, read customs, inspect hazards Old Sable Canopy Road when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: The living road beneath the branded logistics layer, remembered by locals as a place instead of a service corridor. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-old-sable-canopy-road-engage-old-sable-canopy-road entity-old-sable-canopy-road Engage Old Sable Canopy Road Engage Old Sable Canopy Road Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of Old Sable Canopy Road hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with...
+- Pronunciation: ohld SAY-bul KAN-uh-pee rohd
+- Short Pronunciation: ohld SAY-bul KAN-uh-pee rohd
+- Location Profile: location-profile-v1 old-sable-canopy-road old-sable-canopy-road Goldspire_Location_Packet/01_Sablewood_Preserve.md True strong Old Sable Canopy Road The living road beneath the branded logistics layer, remembered by locals as a place instead of a service corridor. The living road beneath the branded logistics layer, remembered by locals as a place instead of a service corridor. The canopy road feels like travel through the forest's memory: dim green light, root-shadow bends, and old markers half-swallowed by moss. The canopy road feels like walking through a ship rigged into living trees: planks, ropes, pulley baskets, sudden views, and drops that make every joke a little sharper. The place breaks into usable table spaces: Branch platform: Wide wooden landings wrap around living trunks. Rope bridge run: Suspended bridges sway between massive branches. Cargo pulley lane: Crates and baskets pass overhead or underfoot. Canopy nest edge: Wildlife has claimed parts of the structure. Plants and materials: air moss, branch orchids, rope-gripping vines, bark shelves with tiny rain pools. Animals and background life: fox-bats hang under platforms, lark-moths cluster around pulley...
+- Source Documents: One-shot source PDF sources/Peril_to_Profit_Sablewood_Logistics_Preserve.pdf
+- Image: assets/location-visuals/old-sable-canopy-road/profile_scene_v02.webp
+- Image Asset Status: location_visual_profile
+- Visual Gallery: primary Primary wiki image primary assets/location-visuals/old-sable-canopy-road/profile_scene_v02.webp Old Sable Canopy Road primary wiki image visual. Old Sable Canopy Road: Primary wiki image. location_visual_profile True True primary_map Top-down map location-map assets/location-visuals/old-sable-canopy-road/primary_map_v02.webp Old Sable Canopy Road top-down map visual. Old Sable Canopy Road: Top-down map. ready True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/old-sable-canopy-road/primary_map_v02.png location-alternate-1 Legacy v01 profile image location-alternate assets/location-visuals/old-sable-canopy-road/profile_scene_v01.webp Old Sable Canopy Road legacy v01 profile image visual. Old Sable Canopy Road: Legacy v01 profile image. available True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/old-sable-canopy-road/profile_scene_v01.png location-alternate-2 Legacy v01 primary map location-alternate assets/location-visuals/old-sable-canopy-road/primary_map_v01.webp Old Sable Canopy Road legacy v01 primary map visual. Old Sable Canopy Road: Legacy v01 primary map. available True...
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash edbc7c8f78944b9f | Source hash dac3370046ed077140fab2d6

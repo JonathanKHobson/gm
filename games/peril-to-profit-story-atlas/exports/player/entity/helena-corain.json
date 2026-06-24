@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "helena-corain",
+  "kind": "entity",
+  "title": "Helena Corain",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "A direct, affable, brave human who free-climbs the Titan's Steps and commands more respect than most locals of the wood.",
+  "hook": "A direct, affable, brave human who free-climbs the Titan's Steps and commands more respect than most locals of the wood.",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "An elderly climber smiles with wind-cut confidence, grey braids tied in climbing cord and a basket of pale mountain-crab eggs tucked safely against her shoulder."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "Wind-cut confidence with nothing left to prove and everything left to protect. Stopped charging children for eggs after one hungry winter. Cannot abide a young climber trusting a posted safety notice over their own grip."
+    },
+    {
+      "label": "Might Offer",
+      "body": "A question to ask A local perspective A grounded reason this place matters"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "A question to ask",
+    "A local perspective",
+    "A grounded reason this place matters"
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:helena-corain",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "74146d9f3aa26616",
+  "generated_at": "2026-06-23T21:40:58"
+}

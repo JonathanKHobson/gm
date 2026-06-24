@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "brannic-mossvein",
+  "kind": "entity",
+  "title": "Brannic Mossvein",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "a kid trying not to be the first one to break",
+  "hook": "a kid trying not to be the first one to break",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "A young Bramble skirmisher peers from a leaf-shadow hood, clutching the collar closed around a bright blue charm and a stitched patch of home-cloth."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "A boy wearing a fighter's hood two sizes too big for his nerve. Keeps touching a scrap of home-cloth from a sibling's work shirt. Wants a place in the camp without becoming cruel enough to keep it."
+    },
+    {
+      "label": "Might Offer",
+      "body": "Parley path Capture/mercy branch Evidence that the road conflict is bigger than banditry"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Parley path",
+    "Capture/mercy branch",
+    "Evidence that the road conflict is bigger than banditry"
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:brannic-mossvein",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "393a8d928cbd7729",
+  "generated_at": "2026-06-23T21:40:58"
+}

@@ -1,0 +1,52 @@
+# Bramble Union Stoneweave
+
+RAW export - entity:bramble-union-stoneweave
+
+## Player-facing description
+A garment of thousands of tiny polished stones moves like cloth and turns thorns like armor. Every fitted piece looks cut by hands that loved the work.
+
+## Public role
+Bramble Union Stoneweave: Base Score 3, Thresholds 6/13. When minor damage hits, roll d12; on your level or lower, mark Stress instead.
+
+## Handout text
+MITHRIL & MORTAR NOTICE: Stoneweave is uncertified personal armor produced by an unlicensed syndicate. Its continued excellence is under review.
+
+## Raw source
+- Type: item
+- Role: Bramble Union Stoneweave: Base Score 3, Thresholds 6/13. When minor damage hits, roll d12; on your level or lower, mark Stress instead.
+- Summary: A garment of thousands of tiny polished stones moves like cloth and turns thorns like armor. Every fitted piece looks cut by hands that loved the work.
+- Tags: armor bramble equipment item-profile loot prop sablewood-lore source-page-9
+- Aliases: Bramble Union Stoneweave Union Stoneweave stoneweave stone-scale armor
+- Connections: Bramble Union Bramble Stone Tumblers Xen Bramble Union Villages The Wandering Briar
+- Inventory: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry.
+- Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+- Stat: Base Score 3, thresholds 6/13. When taking minor damage, roll d12; on level or lower, mark Stress instead.
+- Source Pages: Sablewood PDF p. 9
+- Name: Bramble Union Stoneweave
+- Id: bramble-union-stoneweave
+- Meta: Item / Asset ITEM assets/icons/item.png entity-item #39c5bb 07 Items and Clues entities item
+- Appears In: S02-03 S02-04
+- Related: Bramble Stone Tumblers Bramble Union Bramble Union Villages S02-03 S02-04 The Wandering Briar Xen
+- Image Prompt: Private table TTRPG story atlas asset for Bramble Union Stoneweave, Item / Asset. Role: Bramble Union Stoneweave: Base Score 3, Thresholds 6/13. When minor damage hits, roll d12; on your level or lower, mark Stress instead.. Summary: A garment of thousands of tiny polished stones moves like cloth and turns thorns like armor. Every fitted piece looks cut by hands that loved the work.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.
+- Personality: Seamless armor made of polished stones cut like scales so Union folk can move through barbed thickets.; use Bramble Union Stoneweave as a concrete table object with texture, ownership, and a reason it matters now.
+- Wants: Give players a tangible handle on Bramble Union, Bramble Stone Tumblers, Xen, whether they inspect, carry, return, trade, or refuse it.
+- Fears: Being treated as treasure clutter instead of evidence, memory, hospitality, or infrastructure with consequences.
+- Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.
+- Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.
+- Sample Dialogue: Seamless armor made of polished stones cut like scales so Union folk can move through barbed thickets.
+- Equipment: Kind: armor Maker: the Bramble Union Loot group: Bramble Union Loot
+- Search Or Loot: Bramble Union Stoneweave: Base Score 3, Thresholds 6/13. When minor damage hits, roll d12; on your level or lower, mark Stress instead. Provenance: Earn Union trust, trade, or receive it from a lapidarian.
+- Gm Use: Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.
+- Future Hooks: A spared reclaimer can become a future informant or complication.
+- Stat Summary: Base Score 3, thresholds 6/13. When taking minor damage, roll d12; on level or lower, mark Stress instead.
+- Robust: A garment of thousands of tiny polished stones moves like cloth and turns thorns like armor. Every fitted piece looks cut by hands that loved the work. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Give players a tangible handle on Bramble Union, Bramble Stone Tumblers, Xen, whether they inspect, carry, return, trade, or refuse it. Being treated as treasure clutter instead of evidence, memory, hospitality, or infrastructure with consequences. Use when the scene needs a concrete object for players to inspect, carry, debate, or remember. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Bramble Union Stoneweave and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly...
+- Mechanics: Discovery / Earn-It Mechanics Players can inspect, handle, keep, trade, reveal, or earn Bramble Union Stoneweave when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A garment of thousands of tiny polished stones moves like cloth and turns thorns like armor. Every fitted piece looks cut by hands that loved the work. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-bramble-union-stoneweave-engage-bramble-union-stoneweave entity-bramble-union-stoneweave Engage Bramble Union Stoneweave Engage Bramble Union Stoneweave Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Bramble Union Stoneweave hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and...
+- Pronunciation: BRAM-bul YOO-nyun STOHN-weev
+- Short Pronunciation: BRAM-bul YOO-nyun STOHN-weev
+- Item Profile: item-profile-v1 bramble-union-stoneweave bramble-union-stoneweave Bramble Union Stoneweave Bramble Union Stoneweave stoneweave stone-scale armor BRAM-bul YOO-nyun STOHN-weev armor Tier 1 P1 PROP the Bramble Union competing True Bramble Union Stoneweave A garment of thousands of tiny polished stones moves like cloth and turns thorns like armor. Every fitted piece looks cut by hands that loved the work. A garment of thousands of tiny polished stones moves like cloth and turns thorns like armor. Every fitted piece looks cut by hands that loved the work. the Bramble Union MITHRIL & MORTAR NOTICE: Stoneweave is uncertified personal armor produced by an unlicensed syndicate. Its continued excellence is under review. bramble-union-stoneweave Bramble Union Stoneweave stoneweave stone-scale armor BRAM-bul YOO-nyun STOHN-weev armor Tier 1 A garment of thousands of tiny polished stones moves like cloth and turns thorns like armor. Every fitted piece looks cut by hands that loved the work. Bramble Union Stoneweave: Base Score 3, Thresholds 6/13. When minor damage hits, roll d12; on your level or lower, mark Stress instead. The Bramble Union's lapidary armor. Beautiful handmade protection...
+- Image: assets/item-images/bramble-union-stoneweave/profile_base.webp
+- Image Asset Status: item_visual_profile
+- Visual Gallery: primary Primary wiki image primary assets/item-images/bramble-union-stoneweave/profile_base.webp Bramble Union Stoneweave primary wiki image visual. Bramble Union Stoneweave: Primary wiki image. item_visual_profile True True
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 2121b8bb054d993b | Source hash dac3370046ed077140fab2d6

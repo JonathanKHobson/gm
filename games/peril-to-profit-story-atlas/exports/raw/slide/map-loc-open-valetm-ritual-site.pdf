@@ -1,0 +1,538 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2749 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-open-valetm-ritual-site - Open Vale? Ritual Site Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The trees break around an old clearing of standing stones, wet grass, and pale ward-) Tj
+T*
+(light. Official markers call it Open Vale, but the place feels older than the paperwork) Tj
+T*
+(and more awake than a ruin.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(The trees break around an old clearing of standing stones, wet grass, and pale ward-) Tj
+T*
+(light. Official markers call it Open Vale, but the place feels older than the paperwork) Tj
+T*
+(and more awake than a ruin.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-open-valetm-ritual-site) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: ACT-FIVE) Tj
+T*
+(- Sectiontitle: Act Five: The Ward Renewal) Tj
+T*
+(- Title: Open Vale? Ritual Site Location Map) Tj
+T*
+(- Shorttitle: The Open Vale) Tj
+T*
+(- Order: 601.16) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-open-valetm-ritual-site-gm.png) Tj
+T*
+(- Alt: Open Vale? Ritual Site location map board.) Tj
+T*
+(- Caption: Visual reference for Open Vale? Ritual Site.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: The climax. A perfect circular clearing ? the only break in the canopy ?) Tj
+T*
+(  where the Custodian first forged Hush's ward pillars. The party takes a Short Rest,) Tj
+T*
+(  then defends her through the ward-renewal ritual against waves of skeletons and) Tj
+T*
+(  Soul-Audit Wraiths while a countdown die ticks. Win condition: survive until the) Tj
+T*
+(  ritual completes, not "kill everything.") Tj
+T*
+(- Publicobjective: The trees break around an old clearing of standing stones, wet) Tj
+T*
+(  grass, and pale ward-light. Official markers call it Open Vale, but the place feels) Tj
+T*
+(  older than the paperwork and more awake than a ruin.) Tj
+T*
+(- Readaloud: The trees break around an old clearing of standing stones, wet grass, and) Tj
+T*
+(  pale ward-light. Official markers call it Open Vale, but the place feels older than) Tj
+T*
+(  the paperwork and more awake than a ruin.) Tj
+T*
+(- Gmnotes: Hub map: one place, multiple finale beats. Do not send players wandering) Tj
+T*
+(  into a new node.) Tj
+T*
+(- Gmscript: Say: "This is the finale hub. Use it for arrival, the Short Rest, the) Tj
+T*
+(  ritual start, the completion, and the transition to the report choice. Set the) Tj
+T*
+(  ritual countdown to 8. Each meaningful adversary defeat or pressure neutralized) Tj
+T*
+(  ticks it down by 1. Each Custodian hit or unprotected exposure ticks it up by 1.) Tj
+T*
+(  Clamp it between 0 and 10; at 0 the ward locks and the table moves to S05-07.") Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3941 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Gmreadaloud: Open sky over old stones. The Custodian at the center. The whole finale) Tj
+T*
+(  circles this place.) Tj
+T*
+(- Gmchecklist: Use as finale hub, not a tactical grid. Route tactical skeleton) Tj
+T*
+(  pressure to MAP-S05-03. Route S05-06 completion to S05-07. Keep Open Vale\(TM\) GM-) Tj
+T*
+(  only.) Tj
+T*
+(- Gmprivate: Open Vale\(TM\) is a GM-side registration joke. Player text stays warm:) Tj
+T*
+(  Open Vale, old clearing, ritual site.) Tj
+T*
+(- Playertakeaway: The trees break around an old clearing of standing stones, wet) Tj
+T*
+(  grass, and pale ward-light. Official markers call it Open Vale, but the place feels) Tj
+T*
+(  older than the paperwork and more awake than a ruin.) Tj
+T*
+(- Storytakeaway: The finale hub keeps the whole ending sincere, spatially clear, and) Tj
+T*
+(  centered on protection.) Tj
+T*
+(- Mechanictakeaway: The hub links Short Rest, countdown start, countdown-zero release,) Tj
+T*
+(  and report-choice exit.) Tj
+T*
+(- Entityids: open-valetm-ritual-site ward-moths sunfire-lily mist-things eeligator) Tj
+T*
+(- Entities: open-valetm-ritual-site Open Vale? Ritual Site location Location) Tj
+T*
+(  assets/icons/location.png assets/location-visuals/open-valetm-ritual-) Tj
+T*
+(  site/profile_scene_v02.png OH-pen vayl RICH-oo-ul site An ancient circular clearing) Tj
+T*
+(  of standing stones and ward-light, with a freshly painted company marker staked at) Tj
+T*
+(  its edge. Make the final arena feel sacred, neglected, and operational all at once.) Tj
+T*
+(  Ancient circular clearing rebranded by Goldspire; where the ward renewal happens.;) Tj
+T*
+(  introduce it with a sensory palette, who feels safe there, and what has been) Tj
+T*
+(  neglected. Pull player attention toward the choices, clues, and relationships tied) Tj
+T*
+(  to Whitefire Custodian, Keystone Asset, Legacy Security Skeleton. Ancient circular) Tj
+T*
+(  clearing rebranded by Goldspire; where the ward renewal happens. ward-moths Ward-) Tj
+T*
+(  Moths creature Creature / Animal assets/icons/creature.png assets/creature-) Tj
+T*
+(  images/ward-moths/portrait_base.png WARD mawths Ward-moths drift along invisible) Tj
+T*
+(  pressure lines at Open Vale, their wings flashing whenever the air remembers old) Tj
+T*
+(  protection work. Open Vale ward-line indicator Ward-moths drift along invisible) Tj
+T*
+(  pressure lines at Open Vale, their wings flashing whenever the air remembers old...) Tj
+T*
+(- Locationids: open-valetm-ritual-site) Tj
+T*
+(- Statecontrols: strixwolf_disposition Strixwolf Disposition select unresolved calm) Tj
+T*
+(  hostile killed strixwolf_outcome Strixwolf Outcome select unresolved calmed helped) Tj
+T*
+(  avoided attacked killed strixwolf_trust Strixwolf Trust number 3) Tj
+T*
+(  strixwolf_blood_debt Strixwolf Blood Debt checkbox bramble_outcome Bramble Outcome) Tj
+T*
+(  select unresolved killed captured spared negotiated escaped let_cargo) Tj
+T*
+(  bramble_truth_learned Bramble Truth Learned checkbox package_status Package Status) Tj
+T*
+(  select held lost hush_trust Hush Trust select low neutral high custodian_route) Tj
+T*
+(  Custodian Route select unknown safe dangerous ward_awareness Ward Awareness select) Tj
+T*
+(  none seed aware festival_boon Festival Boon select none charm favor market_find) Tj
+T*
+(  goodwill custodian_trust Custodian Trust select low neutral high ward_stability Ward) Tj
+T*
+(  Stability select fragile stable ritual_prep Ritual Prep select unready ready) Tj
+T*
+(  keystone_understanding Keystone Understanding select surface deep hush_clues Hush) Tj
+T*
+(  Clues select none custodian_route ward_seed corporate_seam farm_seed market_rumor) Tj
+T*
+(  multiple ritual_countdown Ritual Countdown number 10 8 ritual_outcome Ritual Outcome) Tj
+T*
+(  select unresolved clean costly pyrrhic protected_whom Protected Whom select) Tj
+T*
+(  unresolved...) Tj
+T*
+(- Mechanicids: countdown short-rest fear hope knowledge instinct presence) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4114 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Playerquestions: Where do you stand in the clearing? Who stays closest to the) Tj
+T*
+(  Custodian? Who reads the stones before the ritual starts?) Tj
+T*
+(- Fearspends: Environment Feature ? Market Correction \(canon\): spend a Fear to summon) Tj
+T*
+(  two additional Legacy Skeletons from the ground within Very Close range of a PC. Use) Tj
+T*
+(  it to keep the countdown moving \(skeletons die easily ? countdown ticks down on each) Tj
+T*
+(  defeat\). The Wraiths' Memory Delve and Pass-Through are your big Fear spends ? use) Tj
+T*
+(  Pass-Through sparingly \(it can lock a PC out; if the whole party goes Untethered) Tj
+T*
+(  they all mark 2 HP and snap back\). Spend Fear: the open sky flickers ? for one beat) Tj
+T*
+(  the stars rearrange wrongly \(Forgotten Gods watching\). Narrative dread, no) Tj
+T*
+(  mechanics.) Tj
+T*
+(- Choicesconsequences: Use the hub to choose finale positioning, rest, or report) Tj
+T*
+(  transition. The map clarifies the active table choice instead of becoming a side) Tj
+T*
+(  route. Use the map only when spatial clarity changes the next roll, countdown tick,) Tj
+T*
+(  or protection choice. The result carries forward through Act 5 state rather than) Tj
+T*
+(  adding a new branch. ritual_prep / report_choice Reward: clearer play. Cost: pause) Tj
+T*
+(  only long enough to orient the table. GM-facing) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S05-01 S05-02 S05-06 ACT-FIVE) Tj
+T*
+(- Mapdata: MAP-LOC-open-valetm-ritual-site environment Open Vale? Ritual Site Location) Tj
+T*
+(  Map S05-01 S05-02 S05-06 open-valetm-ritual-site ward-moths sunfire-lily mist-things) Tj
+T*
+(  eeligator assets/location-visuals/open-valetm-ritual-site/profile_scene_v02.png) Tj
+T*
+(  Visual reference for Open Vale? Ritual Site. Open Vale? Ritual Site location map) Tj
+T*
+(  board. The trees break around an old clearing of standing stones, wet grass, and) Tj
+T*
+(  pale ward-light. Official markers call it Open Vale, but the place feels older than) Tj
+T*
+(  the paperwork and more awake than a ruin. The trees break around an old clearing of) Tj
+T*
+(  standing stones, wet grass, and pale ward-light. Official markers call it Open Vale,) Tj
+T*
+(  but the place feels older than the paperwork and more awake than a ruin. The climax.) Tj
+T*
+(  A perfect circular clearing ? the only break in the canopy ? where the Custodian) Tj
+T*
+(  first forged Hush's ward pillars. The party takes a Short Rest, then defends her) Tj
+T*
+(  through the ward-renewal ritual against waves of skeletons and Soul-Audit Wraiths) Tj
+T*
+(  while a countdown die ticks. Win condition: survive until the ritual completes, not) Tj
+T*
+(  "kill everything." Hub map: one place, multiple finale beats. Do not send players) Tj
+T*
+(  wandering into a new node. Standing stones ring...) Tj
+T*
+(- Sourcefiles: dist/Act5_Upgrade_Packet/ACT5_MAPS_AND_LOCATIONS.md) Tj
+T*
+(- References: Act 5 maps packet sources/Act5_Upgrade_Packet/ACT5_MAPS_AND_LOCATIONS.md) Tj
+T*
+(  Report choice #S05-07) Tj
+T*
+(- Livetools: scene MAP-LOC-open-valetm-ritual-site) Tj
+T*
+(- Percharacterlayer: marlowe-fairwind Marlowe Fairwind Ritual briefing Recognizes the) Tj
+T*
+(  Open Vale as a true ritual site and understands the magnitude of what the Custodian) Tj
+T*
+(  is about to attempt. Knowledge 13 Grasps the countdown logic before it starts and) Tj
+T*
+(  senses the ward will take something to renew. Can brief the party diegetically) Tj
+T*
+(  without being required for the ritual. Marlowe, you understand this ritual better) Tj
+T*
+(  than anyone here. Want to brief the party on what's coming? khari-nix Khari Nix The) Tj
+T*
+(  watch Naturally turns the rest into a defensive plan: who stands where when it) Tj
+T*
+(  starts. Can set the guard order and make ritual_prep feel concrete. Khari, you can) Tj
+T*
+(  set the guard order now. Want to position the party around the Custodian before the) Tj
+T*
+(  fight? varian-soto Varian Soto The perimeter Reads the treeline and knows which) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4388 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  directions the summoned things will come from. Instinct 13 Calls the threat lanes) Tj
+T*
+(  before S05-02 begins. Can make the first positioning beat feel earned. Varian, you) Tj
+T*
+(  can feel where the woods will spit out trouble. Want to call the threat lanes?) Tj
+T*
+(  garrick-reed Garrick Reed Rest leadership Knows how to make a last rest practical) Tj
+T*
+(  instead of sentimental. Can help the table choose Tend, Clear, Repair...) Tj
+T*
+(- Gmbeats: MAP-LOC-open-valetm-ritual-site-use Use Use this board Say: "Open the) Tj
+T*
+(  board, orient the center or edge, name the current state change, then return to the) Tj
+T*
+(  active scene." Use this board only when it makes the current finale choice clearer.) Tj
+T*
+(  The map supports the finale instead of replacing the scene. Map use writes) Tj
+T*
+(  countdown, protection, prep, outcome, or report state when it changes play. Players) Tj
+T*
+(  get spatial clarity without a side route. Player takeaway Players get spatial) Tj
+T*
+(  clarity without a side route. "Open the board, orient the center or edge, name the) Tj
+T*
+(  current state change, then return to the active scene." "The table-facing answer is:) Tj
+T*
+(  Players get spatial clarity without a side route." Use this beat to give the players) Tj
+T*
+(  one visible next action: protect the center, read the field, spend prep, name who) Tj
+T*
+(  they shield, or choose what truth leaves with them. table-spotlight countdown Story) Tj
+T*
+(  takeaway The map supports the finale instead of replacing the scene. "Open the) Tj
+T*
+(  board, orient the center or edge, name the current state change, then return to the) Tj
+T*
+(  active scene." "The story answer is: The map supports the finale instead of) Tj
+T*
+(  replacing the scene." Tie the answer to a visible Act 5...) Tj
+T*
+(- Takeawayhelp: Player takeaway: MAP-LOC-open-valetm-ritual-site The trees break) Tj
+T*
+(  around an old clearing of standing stones, wet grass, and pale ward-light. Official) Tj
+T*
+(  markers call it Open Vale, but the place feels older than the paperwork and more) Tj
+T*
+(  awake than a ruin. Give the player one concrete way back into play: a question, a) Tj
+T*
+(  description, a choice, or a pass-and-return moment. "Your takeaway right now is) Tj
+T*
+(  this: The trees break around an old clearing of standing stones, wet grass, and pale) Tj
+T*
+(  ward-light. Official markers call it Open Vale, but the place feels older than the) Tj
+T*
+(  paperwork and more awake than a ruin." "If you are not sure what to do next, you can) Tj
+T*
+(  ask a question, describe what your character notices, or tell me what your character) Tj
+T*
+(  tries." "If you are not sure what to do next, you can ask a question, describe what) Tj
+T*
+(  your character notices, or tell me what your character tries." Give the player one) Tj
+T*
+(  concrete way back into play: a question, a description, a choice, or a pass-and-) Tj
+T*
+(  return moment. countdown short-rest fear hope knowledge instinct presence Story) Tj
+T*
+(  takeaway: MAP-LOC-open-valetm-ritual-site The finale hub keeps the whole ending) Tj
+T*
+(  sincere, spatially clear, and centered on protection. Anchor...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-open-valetm-ritual-site-player.png The Open Vale) Tj
+T*
+(  map board. MAP-LOC-open-valetm-ritual-site environment The Open Vale S05-01 S05-02) Tj
+T*
+(  S05-06 assets/maps/MAP-LOC-open-valetm-ritual-site-player.png assets/maps/MAP-LOC-) Tj
+T*
+(  open-valetm-ritual-site-player.png The Open Vale map board. The trees break around) Tj
+T*
+(  an old clearing of standing stones, wet grass, and pale ward-light. Official markers) Tj
+T*
+(  call it Open Vale, but the place feels older than the paperwork and more awake than) Tj
+T*
+(  a ruin. The trees break around an old clearing of standing stones, wet grass, and) Tj
+T*
+(  pale ward-light. Official markers call it Open Vale, but the place feels older than) Tj
+T*
+(  the paperwork and more awake than a ruin. Open sky The only break in the canopy.) Tj
+T*
+(  0.52 0.24 Ritual center Protect the channel while the Custodian works. 0.5 0.52 MAP-) Tj
+T*
+(  LOC-open-valetm-ritual-site-map-only Map only The Open Vale map-only) Tj
+T*
+(  assets/maps/MAP-LOC-open-valetm-ritual-site-player.png The Open Vale map board. MAP-) Tj
+T*
+(  LOC-open-valetm-ritual-site environment The Open Vale S05-01 S05-02 S05-06) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 1916 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  assets/maps/MAP-LOC-open-valetm-ritual-site-player.png assets/maps/MAP-LOC-open-) Tj
+T*
+(  valetm-ritual-site-player.png The Open Vale map board. The trees break...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-open-valetm-ritual-site map The Open Vale) Tj
+T*
+(  assets/maps/MAP-LOC-open-valetm-ritual-site-player.png The Open Vale map board.) Tj
+T*
+(  spatial reference and location texture The trees break around an old clearing of) Tj
+T*
+(  standing stones, wet grass, and pale ward-light. Official markers call it Open Vale,) Tj
+T*
+(  but the place feels older than the paperwork and more awake than a ruin. The trees) Tj
+T*
+(  break around an old clearing of standing stones, wet grass, and pale ward-light.) Tj
+T*
+(  Official markers call it Open Vale, but the place feels older than the paperwork and) Tj
+T*
+(  more awake than a ruin. MAP-LOC-open-valetm-ritual-site environment The Open Vale) Tj
+T*
+(  S05-01 S05-02 S05-06 assets/maps/MAP-LOC-open-valetm-ritual-site-player.png) Tj
+T*
+(  assets/maps/MAP-LOC-open-valetm-ritual-site-player.png The Open Vale map board. The) Tj
+T*
+(  trees break around an old clearing of standing stones, wet grass, and pale ward-) Tj
+T*
+(  light. Official markers call it Open Vale, but the place feels older than the) Tj
+T*
+(  paperwork and more awake than a ruin. The trees break around an old clearing of) Tj
+T*
+(  standing stones, wet grass, and pale ward-light. Official markers call it Open Vale,) Tj
+T*
+(  but the place feels older than the paperwork and more awake than a ruin. Open sky) Tj
+T*
+(  The...) Tj
+T*
+(- Slidenumber: 64) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash eca52d7eecfc870b | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R] /Count 5 >>
+endobj
+12 0 obj
+<< /Type /Catalog /Pages 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000009 00000 n 
+0000002810 00000 n 
+0000002938 00000 n 
+0000006931 00000 n 
+0000007059 00000 n 
+0000011225 00000 n 
+0000011353 00000 n 
+0000015793 00000 n 
+0000015921 00000 n 
+0000017889 00000 n 
+0000018018 00000 n 
+0000018101 00000 n 
+0000018152 00000 n 
+trailer
+<< /Size 14 /Root 12 0 R >>
+startxref
+18225
+%%EOF

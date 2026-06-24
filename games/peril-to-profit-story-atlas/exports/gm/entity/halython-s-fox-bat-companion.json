@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "halython-s-fox-bat-companion",
+  "title": "Halython's Fox-Bat Companion",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "bf77d6ba65539c45",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "A tiny fox-faced bat perches nearby with its wings folded like a cloak and eyes much too clever for something pretending not to understand cards."
+    },
+    {
+      "title": "Public role",
+      "body": "Small companion creature connected to Halython Fives"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: A tiny russet fox-bat with huge ears, folded wings like a cloak, clever paws, and bright eyes that make Halython's card table feel watched by something playful."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use as a warmth-and-specificity cue. It can point to a clue, soften Halython, or give nervous players a harmless living detail to engage."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash bf77d6ba65539c45 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

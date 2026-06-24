@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "finesse",
+  "kind": "rule",
+  "title": "Finesse",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "trait",
+  "hook": "Control, hide, tinker, disable, or handle delicate details.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Control, hide, tinker, disable, or handle delicate details."
+    },
+    {
+      "label": "How It Works",
+      "body": "Finesse: Control, hide, tinker, disable, or handle delicate details."
+    },
+    {
+      "label": "Try It",
+      "body": "Is this Stealth?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use for stealth, delicate tools, and precise action.",
+    "Often Finesse, unless speed and position make Agility better.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:finesse",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "da125d7edd9c1d2e",
+  "generated_at": "2026-06-23T21:40:58"
+}

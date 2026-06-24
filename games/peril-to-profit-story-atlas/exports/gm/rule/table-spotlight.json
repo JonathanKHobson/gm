@@ -1,0 +1,47 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "table-spotlight",
+  "title": "Table Spotlight",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "c93d4ce602edd4c1",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "A simple way to make sure each player gets room to speak and can pass."
+    },
+    {
+      "title": "How it works",
+      "body": "Use when inviting introductions, reactions, scene ownership, or quieter players into play."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use when inviting introductions, reactions, scene ownership, or quieter players into play.",
+        "You can pass, ask a question, or give one short detail.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "What if I do not know what to say?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "roleplay"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash c93d4ce602edd4c1 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

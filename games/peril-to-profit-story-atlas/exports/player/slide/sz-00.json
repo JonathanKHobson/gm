@@ -1,0 +1,42 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "SZ-00",
+  "kind": "slide",
+  "title": "SZ-00 - Ready to Start / Table Frame",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Session Zero",
+  "hook": "This is a beginner-friendly Daggerheart one-shot. You do not need to know the rules ahead of time. We will learn by playing.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "This is a beginner-friendly Daggerheart one-shot. You do not need to know the rules ahead of time. We will learn by playing."
+    },
+    {
+      "label": "Public Objective",
+      "body": "This is a beginner-friendly Daggerheart one-shot. You do not need to know the rules ahead of time. We will learn by playing."
+    },
+    {
+      "label": "Player Bullets",
+      "body": "You are hired contractors or trusted associates escorting a sealed delivery through the Goldspire Territories. The job looks simple. It will not stay simple. Tone: sincere fantasy adventure, corporate satire, and a..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "You are hired contractors or trusted associates escorting a sealed delivery through the Goldspire Territories.",
+    "The job looks simple. It will not stay simple.",
+    "Tone: sincere fantasy adventure, corporate satire, and a little dark whimsy.",
+    "Share spotlight, ask questions, pass when needed, help other characters look cool, and respect safety tools."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:SZ-00",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "81b974f862461ab9",
+  "generated_at": "2026-06-23T21:40:58"
+}

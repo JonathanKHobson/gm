@@ -1,0 +1,47 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "strength",
+  "title": "Strength",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "4ce9a371d477e3df",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "Lift, smash, grapple, hold, carry, or resist force."
+    },
+    {
+      "title": "How it works",
+      "body": "Use when force or physical power solves the problem."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use when force or physical power solves the problem.",
+        "Often Strength, unless speed and movement make Agility better.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "Is this Athletics?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "traits"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 4ce9a371d477e3df | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

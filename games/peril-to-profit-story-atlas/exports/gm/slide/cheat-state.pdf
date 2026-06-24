@@ -1,0 +1,165 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2777 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(CHEAT-STATE - Current State Summary) Tj
+T*
+() Tj
+T*
+(GM goal) Tj
+T*
+() Tj
+T*
+(Review choice flags without opening the full dashboard.) Tj
+T*
+() Tj
+T*
+(GM notes) Tj
+T*
+() Tj
+T*
+(- Use this slide to audit current localStorage state before a major consequence fires.) Tj
+T*
+() Tj
+T*
+(State controls) Tj
+T*
+() Tj
+T*
+(- strixwolf_disposition Strixwolf Disposition select unresolved calm hostile killed 9) Tj
+T*
+(- strixwolf_outcome Strixwolf Outcome select unresolved calmed helped avoided attacked) Tj
+T*
+(  killed 9) Tj
+T*
+(- strixwolf_trust Strixwolf Trust number 3) Tj
+T*
+(- strixwolf_blood_debt Strixwolf Blood Debt checkbox 9) Tj
+T*
+(- bramble_outcome Bramble Outcome select unresolved killed captured spared negotiated) Tj
+T*
+(  escaped 9) Tj
+T*
+(- bramble_truth_learned Bramble Truth Learned checkbox 9) Tj
+T*
+(- package_status Package Status select held lost 9) Tj
+T*
+(- hush_trust Hush Trust select low neutral high 9) Tj
+T*
+(- custodian_route Custodian Route select unknown safe dangerous 9) Tj
+T*
+(- ward_awareness Ward Awareness select none seed aware 9) Tj
+T*
+(- festival_participation Festival Participation checkbox 9) Tj
+T*
+(- festival_boon Festival Boon select none charm favor market_find goodwill 9) Tj
+T*
+(- hush_clues Hush Clues select none custodian_route ward_seed corporate_seam farm_seed) Tj
+T*
+(  market_rumor multiple 9) Tj
+T*
+(- custodian_trust Custodian Trust select low neutral high 9) Tj
+T*
+(- ward_stability Ward Stability select fragile stable 9) Tj
+T*
+(- ritual_prep Ritual Prep select unready ready 9) Tj
+T*
+(- keystone_understanding Keystone Understanding select surface deep 9) Tj
+T*
+(- ritual_countdown Ritual Countdown number 10) Tj
+T*
+(- ritual_outcome Ritual Outcome select unresolved clean costly pyrrhic 9) Tj
+T*
+(- protected_whom Protected Whom select unresolved custodian party hush shared 9) Tj
+T*
+(- custodian_fate Custodian Fate select unresolved well drained dying 9) Tj
+T*
+(- report_choice Report Choice select unresolved file-honest spin-corporate refuse) Tj
+T*
+(  withhold-the-truth 9) Tj
+T*
+(- relay_hook_accepted Relay Hook Accepted checkbox 9) Tj
+T*
+(- epilogue_tone Epilogue Tone select triumphant bittersweet pyrrhic tragic 9) Tj
+T*
+(- hidden_hook_discovered Hidden Hook Discovered checkbox 9) Tj
+T*
+(- sequel_direction Sequel Direction select relay hidden both undecided 9) Tj
+T*
+(- rewards_granted Rewards Granted checkbox 9) Tj
+T*
+(- session_zero_mode Session Zero Mode select quick_pregen guided_pregen full_custom 9) Tj
+T*
+(- character_mode Character Mode select pregen reskinned_pregen light_tweak full_custom) Tj
+T*
+(  9) Tj
+T*
+(- marlowe_status Marlowe PC Status select pc unplayed_pregen reskinned_pc 9) Tj
+T*
+(- asset_custodian_confirmed Asset Custodian Confirmed checkbox 9) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 369 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- connections_complete Connections Complete checkbox 9) Tj
+T*
+(- player_display_ready Player Display Ready checkbox 9) Tj
+T*
+(- prologue_ready Prologue Ready checkbox 9) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash b18beb9596a9d952 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R] /Count 2 >>
+endobj
+6 0 obj
+<< /Type /Catalog /Pages 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000002838 00000 n 
+0000002964 00000 n 
+0000003384 00000 n 
+0000003510 00000 n 
+0000003573 00000 n 
+0000003622 00000 n 
+trailer
+<< /Size 8 /Root 6 0 R >>
+startxref
+3694
+%%EOF

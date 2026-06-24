@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S05-07",
+  "kind": "scene",
+  "title": "S05-07 - The Ward Locks Into Place",
+  "in_world_label": "Situation Briefing",
+  "brand_flag": "Briefing",
+  "kicker": "The Ward Renewal",
+  "hook": "The Keystone sings once, low and clear. The enemies dissolve like dust remembering it was overdue.",
+  "blocks": [
+    {
+      "label": "Where You Are",
+      "body": "The Keystone sings once, low and clear. The enemies dissolve like dust remembering it was overdue."
+    },
+    {
+      "label": "Plain Stakes",
+      "body": "The countdown reaches zero and the ward renewal completes."
+    },
+    {
+      "label": "Visible Options",
+      "body": "Describe final move Save Custodian Witness ward pulse"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "What detail in The Ward Locks Into Place tells you the official story is incomplete?",
+    "Who notices the human cost first, and how do they show it?",
+    "What small object, smell, or sound makes this scene feel real?"
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - scene:S05-07",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "a9aa870ea08a914e",
+  "generated_at": "2026-06-23T21:40:58"
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "official-conditions",
+  "kind": "entity",
+  "title": "Official Conditions",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Mechanic",
+  "hook": "Player-safe note: Only Hidden, Restrained, and Vulnerable are listed as global conditions in this Atlas.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Only Hidden, Restrained, and Vulnerable are listed as global conditions in this Atlas."
+    },
+    {
+      "label": "How It Works",
+      "body": "Global official Daggerheart condition reference"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use this when your action is uncertain and consequences matter.",
+    "Ask which trait fits your method."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:official-conditions",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "37ae4feea40745bc",
+  "generated_at": "2026-06-23T21:40:58"
+}

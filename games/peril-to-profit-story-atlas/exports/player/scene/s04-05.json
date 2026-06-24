@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S04-05",
+  "kind": "scene",
+  "title": "S04-05 - Toward Open Vale",
+  "in_world_label": "Situation Briefing",
+  "brand_flag": "Briefing",
+  "kicker": "The Hanging Office",
+  "hook": "The Custodian closes the crate with both hands. “We must go to Open Vale. The magic will draw things best left uninvited.”",
+  "blocks": [
+    {
+      "label": "Where You Are",
+      "body": "The Custodian closes the crate with both hands. “We must go to Open Vale. The magic will draw things best left uninvited.”"
+    },
+    {
+      "label": "Plain Stakes",
+      "body": "The Custodian insists the Keystone must be renewed at Open Vale™ Ritual Site."
+    },
+    {
+      "label": "Visible Options",
+      "body": "Travel immediately Prepare first Question the danger"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "What detail in Toward Open Vale tells you the official story is incomplete?",
+    "Who notices the human cost first, and how do they show it?",
+    "What small object, smell, or sound makes this scene feel real?"
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - scene:S04-05",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "301b508d95fa64a5",
+  "generated_at": "2026-06-23T21:40:58"
+}

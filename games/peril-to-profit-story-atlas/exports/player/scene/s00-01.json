@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S00-01",
+  "kind": "scene",
+  "title": "S00-01 - The Job",
+  "in_world_label": "Situation Briefing",
+  "brand_flag": "Briefing",
+  "kicker": "Act 0 - The Contract",
+  "hook": "At the edge of the warded road, a woman waits beside a loaded carriage. She looks like your contact for this job, but she has not introduced herself yet.",
+  "blocks": [
+    {
+      "label": "Where You Are",
+      "body": "At the edge of the warded road, a woman waits beside a loaded carriage. She looks like your contact for this job, but she has not introduced herself yet."
+    },
+    {
+      "label": "Plain Stakes",
+      "body": "The party meets their contact by description, receives the sealed package, asks questions, and agrees to roll out."
+    },
+    {
+      "label": "Visible Options",
+      "body": "Ask questions about the crate Accept the job without question Try to inspect the seal"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "What do you ask before you accept the job?",
+    "Who checks the package without opening it?",
+    "Who is first into the carriage?"
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - scene:S00-01",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "914a8e3d77f4d674",
+  "generated_at": "2026-06-23T21:40:58"
+}

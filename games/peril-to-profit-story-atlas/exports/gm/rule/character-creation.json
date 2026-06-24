@@ -1,0 +1,52 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "character-creation",
+  "title": "Character Creation",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "24c7b20c3b197d32",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "The beginner sequence for choosing identity, ancestry, community, class, traits, equipment, Experiences, and connections."
+    },
+    {
+      "title": "How it works",
+      "body": "Use during Session Zero or when importing a new Level 1 PC into the one-shot."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use during Session Zero or when importing a new Level 1 PC into the one-shot.",
+        "Start with who the character is, then ancestry, community, class/subclass, traits, Experiences, equipment, and connection questions.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "What do I choose first?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "ancestry",
+        "community",
+        "class-subclass",
+        "traits",
+        "experiences",
+        "connection-questions"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 24c7b20c3b197d32 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

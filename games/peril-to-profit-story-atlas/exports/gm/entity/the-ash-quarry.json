@@ -1,0 +1,74 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "the-ash-quarry",
+  "title": "The Ash Quarry",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "b27bb3824e532d06",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "The Ash Quarry turns ancient residue into industry: gray terraces, warm dust, and workers who know which piles still remember fire."
+    },
+    {
+      "title": "Public role",
+      "body": "Make materials feel handled by people, not listed in a setting gazetteer."
+    },
+    {
+      "title": "Handout text",
+      "body": "A quarry where ash has practical value, letting the setting show resource extraction without losing the strangeness of the old wood."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Introduce with sensory texture, then make one discoverable clue or social choice visible."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Location Exploration Mechanics",
+        "Player Safe: Players can navigate, search, read customs, inspect hazards The Ash Quarry when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: A quarry where ash has practical value, letting the setting show resource extraction without losing the strangeness of the old wood. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-the-ash-quarry-engage-the-ash-quarry entity-the-ash-quarry Engage The Ash Quarry Engage The Ash Quarry Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of The Ash Quarry hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Condition Options: No official condition unless a hazard creates Hidden, Restrained, or Vulnerable",
+        "Search Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure."
+      ]
+    },
+    {
+      "title": "Profile",
+      "items": [
+        "Schema Version: location-profile-v1",
+        "Id: the-ash-quarry",
+        "Entity Id: the-ash-quarry",
+        "Source: Story Atlas generated location notes",
+        "Auto Surface: True",
+        "Priority: strong",
+        "Player Safe: The Ash Quarry A quarry where ash has practical value, letting the setting show resource extraction without losing the strangeness of the old wood. A quarry where ash has practical value, letting the setting show resource extraction without losing the strangeness of the old wood. The Ash Quarry turns ancient residue into industry: gray terraces, warm dust, and workers who know which piles still remember fire. The Ash Quarry feels industrial in a fantasy way: pale dust, ramps, ledges, rope lifts, lunch sheds, stone carts, and workers who know every dangerous shortcut. The place breaks into usable table spaces: Stepped cuts: Stone ledges create height and sightlines. Lift winches: Ropes and platforms move stone and people. Ash pile flats: Soft pale dust records movement. Plants and materials: ash scrub, hardy grey flowers, dust-coated weeds. Animals and background life: Spidermanders...",
+        "Block1: The Ash Quarry Make materials feel handled by people, not listed in a setting gazetteer. A quarry where ash has practical value, letting the setting show resource extraction without losing the strangeness of the old wood. The quarry shows extraction without losing the strangeness of the old wood. This is resource extraction laid bare, and the strangeness of the old wood is right there in the ash that still runs warm. The quarry shows extraction without losing the strangeness of the old wood. The shortcuts that save time here are the ones that get people hurt. Every crew knows which ones, and uses them anyway. pages/entities/the-ash-quarry.html",
+        "Block2: Layered cuts expose pale ash, black stone, and root veins. Tools are wrapped to keep dust out of grips and lungs. The best ash is not the cleanest ash. Some seams pulse faintly near ward talk. Detail Dry ash, hot stone, bitter smoke, and sweat trapped in cloth masks. Detail Dust coats skin instantly; stone is warm under shade. The Ash Quarry turns ancient residue into industry: gray terraces, warm dust, and workers who know which piles still remember fire. The Ash Quarry feels industrial in a fantasy way: pale dust, ramps, ledges, rope lifts, lunch sheds, stone carts, and workers who know every dangerous shortcut. The place breaks into usable table spaces: Stepped cuts: Stone ledges create height and sightlines. Lift winches: Ropes and platforms move stone and people. Ash pile flats: Soft pale dust records movement. Plants and materials: ash scrub, hardy grey flowers, dust-coated...",
+        "Block3: ash seams wrapped tools cart tracks root-vein cuts Knowledge to identify useful or dangerous ash. Instinct to notice unstable seams. Finesse to collect samples safely. Local residents or workers appropriate to the place Spidermanders coat themselves in ash Badger-Hawks raid lunch lines from above dust mice and quarry swifts scatter when ropes strain No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues ash scrub, hardy grey flowers, dust-coated weeds stone work labor gossip tools high-low route knowledge",
+        "Block4: The place changes even if the PCs stand still. Local people, creatures, weather, signage, and ward behavior all keep moving around the scene. Breathing dust matters. Extraction can awaken old heat. Workers know dangers the paperwork simplifies. A cart track fills with warm ash from below. Someone's breath fogs gray in air that should be warm. Let the place be funny through overconfident signage, awkward forms, stubborn local habits, and magic that refuses corporate language.",
+        "Block5: MAP-LOC-the-ash-quarry",
+        "Block6: Describe what the PCs can see, smell, hear, touch, ask about, or infer. Do not explain hidden infrastructure or corporate thesis until play earns it. surface A quarry where ash has practical value, letting the setting show resource extraction without losing the strangeness of the old wood. table clue The quarry shows extraction without losing the strangeness of the old wood. earned truth Reveal deeper system meaning through NPC answers, evidence, or player questions, not narration dumps.",
+        "What Here: Local residents or workers appropriate to the place Spidermanders coat themselves in ash Badger-Hawks raid lunch lines from above dust mice and quarry swifts scatter when ropes strain No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues ash scrub, hardy grey flowers, dust-coated weeds stone work labor gossip tools high-low route knowledge",
+        "Living Place: location-living-place-v1 stepped quarry worksite The Ash Quarry should feel industrial in a fantasy way: pale dust, ramps, ledges, rope lifts, lunch sheds, stone carts, and workers who know every dangerous shortcut. Stepped cuts Stone ledges create height and sightlines. Use for tactical geography. Lift winches Ropes and platforms move stone and people. Use for action. Ash pile flats Soft pale dust records movement. Use for tracks. ash scrub, hardy grey flowers, dust-coated weeds Spidermanders coat themselves in ash Badger-Hawks raid lunch lines from above dust mice and quarry swifts scatter when ropes strain powdery air, rope strain, stone clack, echoing coughs Dust coats plants, insects feed on mineral bloom, birds nest in cut ledges, and workers reshape the quarry daily. A cart, rope, dust slide, or worker call should keep the quarry moving. Do you inspect tracks, climb ledges, talk...",
+        "Districts Or Subareas: Stepped cuts Stone ledges create height and sightlines. Use for tactical geography. Lift winches Ropes and platforms move stone and people. Use for action. Ash pile flats Soft pale dust records movement. Use for tracks.",
+        "Sensory Signature: Detail Dry ash, hot stone, bitter smoke, and sweat trapped in cloth masks. Detail Dust coats skin instantly; stone is warm under shade.",
+        "Visual Assets: location-visual-assets-v1 the-ash-quarry The Ash Quarry Bright comedic frontier high-fantasy concept art for a Daggerheart-adjacent tabletop RPG. Medieval/Renaissance fantasy technology only: hand tools, wagons, ropes, parchment notices, ward-stones, carved wood, brass, cloth, stone, moss, lanterns, and magic. The tone is colorful, playful, slightly absurd, and vivid, like a fantasy corporate frontier comedy rather than a grim drama. No sci-fi machinery, no 1800s/Victorian clothing, no modern suits, no guns, no logos, no readable text, no watermark, no border, no collage. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/the-ash-quarry MAP-LOC-the-ash-quarry quarry worksite quarry tactical map profile_scene Profile image ready /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/the-ash-quarry/profile_scene_v02.png...",
+        "Imagine It Like: An open-pit quarry or a strip mine, gray and terraced and loud. Think a slate quarry crossed with a coal town, dust in everything, lungs included."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash b27bb3824e532d06 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

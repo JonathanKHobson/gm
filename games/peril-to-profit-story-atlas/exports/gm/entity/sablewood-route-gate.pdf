@@ -1,0 +1,405 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2485 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(Sablewood Route Gate) Tj
+T*
+() Tj
+T*
+(Player-facing description) Tj
+T*
+() Tj
+T*
+(The route gate is where polished assurance meets wet bark, old stone, and a forest that) Tj
+T*
+(has not signed anything.) Tj
+T*
+() Tj
+T*
+(Public role) Tj
+T*
+() Tj
+T*
+(Make the entry point a choice, not a loading screen.) Tj
+T*
+() Tj
+T*
+(Handout text) Tj
+T*
+() Tj
+T*
+(The road crossing where nature, signage, and corporate language first collide.) Tj
+T*
+() Tj
+T*
+(GM truth) Tj
+T*
+() Tj
+T*
+(No forced reveal. Let this entity disclose truth through scene context and player) Tj
+T*
+(attention.) Tj
+T*
+() Tj
+T*
+(GM handling) Tj
+T*
+() Tj
+T*
+(Introduce with sensory texture, then make one discoverable clue or social choice) Tj
+T*
+(visible.) Tj
+T*
+() Tj
+T*
+(Mechanics) Tj
+T*
+() Tj
+T*
+(- Title: Location Exploration Mechanics) Tj
+T*
+(- Player Safe: Players can navigate, search, read customs, inspect hazards Sablewood) Tj
+T*
+(  Route Gate when it is present in the fiction.) Tj
+T*
+(- Gm Only: Use the roll only when the player's method, stakes, and consequence are) Tj
+T*
+(  concrete.) Tj
+T*
+(- No Roll Reveals: Surface read: The road crossing where nature, signage, and) Tj
+T*
+(  corporate language first collide. Give obvious visible facts freely; roll for) Tj
+T*
+(  meaning, risk, leverage, cost, or a hidden angle.) Tj
+T*
+(- Rolls: entity-sablewood-route-gate-engage-sablewood-route-gate entity-sablewood-) Tj
+T*
+(  route-gate Engage Sablewood Route Gate Engage Sablewood Route Gate Instinct) Tj
+T*
+(  Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait) Tj
+T*
+(  from the player's method, not the entity type. A flat read of Sablewood Route Gate) Tj
+T*
+(  hides the cost, motive, or useful next step. Critical Success: best possible version) Tj
+T*
+(  of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from) Tj
+T*
+(  the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep) Tj
+T*
+(  the position clean or generous. Success with Fear: the PC gets what they wanted, but) Tj
+T*
+(  the GM gains Fear and introduces a cost, complication, or pressure. Failure with) Tj
+T*
+(  Hope: the PC does not get the full result, but gains Hope and receives a useful) Tj
+T*
+(  thread, clue, or safer next option. Failure with Fear: the PC fails and the GM...) Tj
+T*
+(- Fear Spends: Reveal who benefits from the current situation. Make the cost personal) Tj
+T*
+(  without closing off player agency.) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3642 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Condition Options: No official condition unless a hazard creates Hidden, Restrained,) Tj
+T*
+(  or Vulnerable) Tj
+T*
+(- Search Loot: A careful search finds old local carvings beneath newer corporate) Tj
+T*
+(  plaques.) Tj
+T*
+() Tj
+T*
+(Profile) Tj
+T*
+() Tj
+T*
+(- Schema Version: location-profile-v1) Tj
+T*
+(- Id: sablewood-route-gate) Tj
+T*
+(- Entity Id: sablewood-route-gate) Tj
+T*
+(- Source: Goldspire_Location_Packet/01_Sablewood_Preserve.md) Tj
+T*
+(- Auto Surface: True) Tj
+T*
+(- Priority: strong) Tj
+T*
+(- Player Safe: Sablewood Route Gate The road crossing where nature, signage, and) Tj
+T*
+(  corporate language first collide. The road crossing where nature, signage, and) Tj
+T*
+(  corporate language first collide. The route gate is where polished assurance meets) Tj
+T*
+(  wet bark, old stone, and a forest that has not signed anything. The route gate is) Tj
+T*
+(  bureaucracy wedged between trees: a tiny official station trying to impose straight) Tj
+T*
+(  lines on a forest that only understands curves. The place breaks into usable table) Tj
+T*
+(  spaces: Queue lane: Wagons line up between rope posts and roots. Stamp shed: A) Tj
+T*
+(  cramped shed holds ledgers, lanterns, and a desk built around a branch. Bypass deer) Tj
+T*
+(  path: A narrow animal trail skirts the official lane. Inspection stump: A huge cut) Tj
+T*
+(  stump has become the inspection counter. Plants and materials: roots buckle the) Tj
+T*
+(  queue stones, moss softens every official post, vines steal loose paper overnight.) Tj
+T*
+(  Animals and...) Tj
+T*
+(- Block1: Sablewood Route Gate Make the entry point a choice, not a loading screen.) Tj
+T*
+(  The road crossing where nature, signage, and corporate language first collide. The) Tj
+T*
+(  first threshold teaches that official safety and local safety are not the same. The) Tj
+T*
+(  first lesson of the road, official safety and local safety are not the same thing,) Tj
+T*
+(  and the gap between them is where the fees live. The first threshold teaches that) Tj
+T*
+(  official safety and local safety are not the same. The gate jams, stamps, and) Tj
+T*
+(  argues, and the roots quietly undo a little more of it every night.) Tj
+T*
+(  pages/entities/sablewood-route-gate.html) Tj
+T*
+(- Block2: An arch or checkpoint frames the road with audit lanterns and warning posts.) Tj
+T*
+(  Moss has climbed the official fixtures faster than anyone cleans it. Older trail) Tj
+T*
+(  cuts bypass the gate without announcing themselves. The newest warning plaque avoids) Tj
+T*
+(  naming the danger directly. Detail Oil from lanterns, damp moss, cold metal, and the) Tj
+T*
+(  sour paper smell of notices gone soft in rain. Detail The gate surface is slick at) Tj
+T*
+(  the top and gritty near hand height. The route gate is where polished assurance) Tj
+T*
+(  meets wet bark, old stone, and a forest that has not signed anything. The route gate) Tj
+T*
+(  is bureaucracy wedged between trees: a tiny official station trying to impose) Tj
+T*
+(  straight lines on a forest that only understands curves. The place breaks into) Tj
+T*
+(  usable table spaces: Queue lane: Wagons line up between rope posts and roots. Stamp) Tj
+T*
+(  shed: A cramped shed holds ledgers, lanterns, and a desk built around a branch...) Tj
+T*
+(- Block3: audit lanterns warning posts old bypass trail route arch Knowledge to read) Tj
+T*
+(  what the signage omits. Instinct to find the older path. Finesse to examine fixtures) Tj
+T*
+(  without triggering a log. Local residents or workers appropriate to the place fox-) Tj
+T*
+(  bats nest above the stamp shed small root mice chew wax seals lark-moths orbit) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4047 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  lanterns during delays No default combatant; add only if the scene introduces one) Tj
+T*
+(  Local civic, trade, or route interests Food, tools, route signs, local goods, or) Tj
+T*
+(  scene-specific clues roots buckle the queue stones moss softens every official post) Tj
+T*
+(  vines steal loose paper overnight route stamps minor repairs cheap food stall) Tj
+T*
+(  questionable ward-token seller) Tj
+T*
+(- Block4: The place changes even if the PCs stand still. Local people, creatures,) Tj
+T*
+(  weather, signage, and ward behavior all keep moving around the scene. The gate can) Tj
+T*
+(  log passage or tampering. Taking the official path may be faster but less informed.) Tj
+T*
+(  Ignoring old bypass signs can cost leverage later. A lantern clicks on after the) Tj
+T*
+(  party has already passed. The route bell rings once with no wind. The old bypass) Tj
+T*
+(  looks freshly used. Let the place be funny through overconfident signage, awkward) Tj
+T*
+(  forms, stubborn local habits, and magic that refuses corporate language.) Tj
+T*
+(- Block5: MAP-LOC-sablewood-route-gate) Tj
+T*
+(- Block6: Describe what the PCs can see, smell, hear, touch, ask about, or infer. Do) Tj
+T*
+(  not explain hidden infrastructure or corporate thesis until play earns it. surface) Tj
+T*
+(  The road crossing where nature, signage, and corporate language first collide. table) Tj
+T*
+(  clue The first threshold teaches that official safety and local safety are not the) Tj
+T*
+(  same. earned truth Reveal deeper system meaning through NPC answers, evidence, or) Tj
+T*
+(  player questions, not narration dumps.) Tj
+T*
+(- What Here: Local residents or workers appropriate to the place fox-bats nest above) Tj
+T*
+(  the stamp shed small root mice chew wax seals lark-moths orbit lanterns during) Tj
+T*
+(  delays No default combatant; add only if the scene introduces one Local civic,) Tj
+T*
+(  trade, or route interests Food, tools, route signs, local goods, or scene-specific) Tj
+T*
+(  clues roots buckle the queue stones moss softens every official post vines steal) Tj
+T*
+(  loose paper overnight route stamps minor repairs cheap food stall questionable ward-) Tj
+T*
+(  token seller) Tj
+T*
+(- Living Place: location-living-place-v1 forest checkpoint and route threshold The) Tj
+T*
+(  route gate is bureaucracy wedged between trees: a tiny official station trying to) Tj
+T*
+(  impose straight lines on a forest that only understands curves. Queue lane Wagons) Tj
+T*
+(  line up between rope posts and roots. Use for social friction. Stamp shed A cramped) Tj
+T*
+(  shed holds ledgers, lanterns, and a desk built around a branch. Use for comedy and) Tj
+T*
+(  paperwork. Bypass deer path A narrow animal trail skirts the official lane. Use for) Tj
+T*
+(  sneaking or noticing local wisdom. Inspection stump A huge cut stump has become the) Tj
+T*
+(  inspection counter. Use for tactile table business. roots buckle the queue stones) Tj
+T*
+(  moss softens every official post vines steal loose paper overnight fox-bats nest) Tj
+T*
+(  above the stamp shed small root mice chew wax seals lark-moths orbit lanterns during) Tj
+T*
+(  delays stamp echo rope creak wet paper smell ward-marker buzz The gate opens,) Tj
+T*
+(  jams...) Tj
+T*
+(- Districts Or Subareas: Queue lane Wagons line up between rope posts and roots. Use) Tj
+T*
+(  for social friction. Stamp shed A cramped shed holds ledgers, lanterns, and a desk) Tj
+T*
+(  built around a branch. Use for comedy and paperwork. Bypass deer path A narrow) Tj
+T*
+(  animal trail skirts the official lane. Use for sneaking or noticing local wisdom.) Tj
+T*
+(  Inspection stump A huge cut stump has become the inspection counter. Use for tactile) Tj
+T*
+(  table business.) Tj
+T*
+(- Sensory Signature: Detail Oil from lanterns, damp moss, cold metal, and the sour) Tj
+T*
+(  paper smell of notices gone soft in rain. Detail The gate surface is slick at the) Tj
+T*
+(  top and gritty near hand height.) Tj
+T*
+(- Visual Assets: location-visual-assets-v1 sablewood-route-gate Sablewood Route Gate) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 1226 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Bright comedic frontier high-fantasy concept art for a Daggerheart-adjacent tabletop) Tj
+T*
+(  RPG. Medieval/Renaissance fantasy technology only: hand tools, wagons, ropes,) Tj
+T*
+(  parchment notices, ward-stones, carved wood, brass, cloth, stone, moss, lanterns,) Tj
+T*
+(  and magic. The tone is colorful, playful, slightly absurd, and vivid, like a fantasy) Tj
+T*
+(  corporate frontier comedy rather than a grim drama. No sci-fi machinery, no) Tj
+T*
+(  1800s/Victorian clothing, no modern suits, no guns, no logos, no readable text, no) Tj
+T*
+(  watermark, no border, no collage. /Users/kyle/Documents/My Games/Peril To) Tj
+T*
+(  Profit/story-atlas/src/location_visual_assets/sablewood-route-gate MAP-LOC-) Tj
+T*
+(  sablewood-route-gate forest checkpoint checkpoint site map profile_scene Profile) Tj
+T*
+(  image ready /Users/kyle/Documents/My Games/Peril To...) Tj
+T*
+(- Imagine It Like: A border checkpoint or a park ranger booth that the forest is) Tj
+T*
+(  slowly winning against. Think a DMV line a tree is beating.) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash a501e4909944edba | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R] /Count 4 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000002546 00000 n 
+0000002673 00000 n 
+0000006367 00000 n 
+0000006494 00000 n 
+0000010593 00000 n 
+0000010720 00000 n 
+0000011998 00000 n 
+0000012125 00000 n 
+0000012200 00000 n 
+0000012250 00000 n 
+trailer
+<< /Size 12 /Root 10 0 R >>
+startxref
+12323
+%%EOF

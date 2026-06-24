@@ -1,0 +1,44 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "bramble-union-villages",
+  "kind": "entity",
+  "title": "Bramble Union Villages",
+  "in_world_label": "Goldspire Travel Advisory",
+  "brand_flag": "Player-safe",
+  "kicker": "Vibrant, painted, moss-lit Bramble Union communities camouflaged behind mudstone walls and thorn protection.",
+  "hook": "Vibrant, painted, moss-lit Bramble Union communities camouflaged behind mudstone walls and thorn protection.",
+  "blocks": [
+    {
+      "label": "Arrival Read",
+      "body": "The Bramble Union villages are vibrant behind protection: painted mudstone, thorn screens, moss lamps, and people tired of being scenery in someone else's route."
+    },
+    {
+      "label": "Known For",
+      "body": "Behind walls of trained thorn and painted mudstone, a whole village hides in plain sight. Gardens and repair-fires and children's paths fill the space within. Salvaged ward-charms get sorted and re-strung in a scrap yard. Watchers in the lookout trees see..."
+    },
+    {
+      "label": "What Is Here",
+      "body": "Local residents or workers appropriate to the place lean chickens, forest mice, watch birds trained with scraps No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or..."
+    },
+    {
+      "label": "Food And Texture",
+      "body": "Food is shared and stretched, root gardens, edible weeds, lean chickens, a stew that has plainly been added to for days. A guest gets a full bowl even when the bowl is thin, because pride here is fed before bellies are."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Look for the busiest local gathering point.",
+    "Ask what has changed here recently."
+  ],
+  "archetype": "location.advisory",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:bramble-union-villages",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "c632766e647cec6d",
+  "generated_at": "2026-06-23T21:40:58"
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "slide",
+  "id": "MAP-LOC-athervast",
+  "title": "MAP-LOC-athervast - Athervast Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "d1254ef105dc5267",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "This distant capital reference is not part of the player route today."
+    },
+    {
+      "title": "Public objective",
+      "body": "This distant capital reference is not part of the player route today."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: MAP-LOC-athervast",
+        "Type: map",
+        "Maptype: environment",
+        "Sectionid: ACT-FOUR",
+        "Sectiontitle: Act Four: The Hanging Office",
+        "Title: Athervast Location Map",
+        "Shorttitle: Distant Capital Reference",
+        "Order: 850.3",
+        "Playersafe: True",
+        "Completioneligible: False",
+        "Image: assets/maps/MAP-LOC-athervast-gm.webp",
+        "Alt: Athervast location map board.",
+        "Caption: Visual reference for Athervast.",
+        "Mood: spatial reference and location texture",
+        "Gmgoal: Keep this inactive unless a later campaign needs distant capital context.",
+        "Publicobjective: This distant capital reference is not part of the player route today.",
+        "Readaloud: This distant capital reference is not part of the player route today.",
+        "Gmscript: Say: \"Athervast exists, but the table does not travel there in this one-shot.\"",
+        "Gmreadaloud: Athervast is a distant world reference, not an active player route.",
+        "Gmchecklist: Do not show to players as a route. Do not wire as a walkable Act 4 node. Use only as distant context if a player asks about the wider region.",
+        "Gmprivate: Athervast is the faraway grand capital where elite comfort is insulated from outer-route danger.",
+        "Playertakeaway: This distant capital reference is not part of the player route today.",
+        "Storytakeaway: Athervast is distant world context, while the playable pressure remains Hush, Open Vale, and the road.",
+        "Mechanictakeaway: Canon-lock discipline is the mechanic: keep this off the player route and use Open Vale as the real forward edge.",
+        "Entityids: athervast",
+        "Entities: athervast Athervast location Location assets/icons/location.png assets/location-visuals/athervast/profile_scene_v02.webp A-thur-vast A city like a coiled crown, where gold-capped towers rise from the center and the rings spiral outward, lower and louder, until the gleam becomes rumor. Use Athervast as faraway elite-center context, not an active one-shot destination and not a Keystone source. It is marketed as safe because the cost of safety is pushed outward. A dazzling spiral metropolis of gold-capped towers, sky-illusion entertainment rings, potion manufactories, elite comfort, and lower-ring labor.; introduce it with a sensory palette, who feels safe there, and what has been neglected. Pull player attention toward the choices, clues, and relationships tied to Goldspire Territories, The Board of Directors, Emeris. A dazzling spiral metropolis of gold-capped towers, sky-illusion entertainment rings, potion manufactories, elite comfort, and lower-ring labor.",
+        "Locationids: athervast",
+        "Mechanicids: table-spotlight",
+        "Fearspends: A hundred-foot smiling mascot drifts above tired workers. A public promise of safety sounds expensive before it sounds kind.",
+        "Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth context stay off the player display.",
+        "Linkedsceneids: S04-05",
+        "Mapdata: MAP-LOC-athervast environment Athervast Location Map S04-05 athervast assets/location-visuals/athervast/profile_scene_v02.webp Visual reference for Athervast. Athervast location map board. This distant capital reference is not part of the player route today. This distant capital reference is not part of the player route today. Keep this inactive unless a later campaign needs distant capital context. The center rises in pale towers capped with gold. Circular districts spiral outward: elite terraces, entertainment rings, potion manufactories, worker markets, and bridge bazaars. Corporate safety is a civic costume here. Distant beacon-pulses, stone vibration, notices snapping in wind, and a low hum that arrives late. Citrus perfume, cold stone, sugar, mint, copper, and potion steam. Gold streets feel polished and cool; workring stones feel hot from vats and tired feet. People or animals orient toward the signal for a breath, then pretend it is normal. The center rises in pale towers capped with gold. Circular districts spiral outward: elite terraces, entertainment rings, potion manufactories, worker markets, and bridge bazaars. Corporate safety is a civic costume here. The outer...",
+        "Sourcefiles: dist/Act4_Upgrade_Packet/ACT4_MAPS_AND_LOCATIONS.md dist/Act4_Upgrade_Packet/ACT4_OPEN_QUESTIONS.md",
+        "References: Open Questions sources/Act4_Upgrade_Packet/ACT4_OPEN_QUESTIONS.md",
+        "Livetools: scene MAP-LOC-athervast",
+        "Gmbeats: MAP-LOC-athervast-inactive Inactive Distant capital reference Say: \"Keep it inactive.\" This reference is not for player display as an active route. Canon stays clear: Athervast is faraway context. The mechanic is route discipline. Players do not see this as an active location. Player takeaway Players do not see this as an active location. \"Keep it inactive.\" \"The playable fact is: This reference is not for player display as an active route.\" Concrete actions for this beat: look closely, ask the Custodian a direct question, commit to a choice, or take one prep action. table-spotlight Story takeaway Canon stays clear: Athervast is faraway context. \"Keep it inactive.\" \"The story fact in play is: Canon stays clear: Athervast is faraway context.\" This beat changes Act 4 through this exact pressure: Canon stays clear: Athervast is faraway context. table-spotlight Mechanic takeaway The mechanic is route discipline. \"Keep it inactive.\" \"The active procedure is: The mechanic is route discipline.\" Run intent first. Use Presence for trust, Knowledge for ward or stone truths, Instinct for preserve danger, and Agility or Finesse for the hanging-home puzzle. table-spotlight",
+        "Takeawayhelp: Player takeaway Athervast is inactive in this one-shot. \"Athervast exists, but the story path does not go there today.\" \"Use Open Vale as the active forward edge. Athervast has no table route in Act 4.\" This preserves route clarity and keeps the distant capital from stealing focus. table-spotlight Story takeaway This is not active Act 4 play content. \"The story path stays with Hush, Open Vale, and the ward lines.\" \"If a player asks about the wider capital, answer briefly: it is far away, wealthy, safe by reputation, and not reachable today.\" Do not turn a lore question into a detour. table-spotlight Mechanic takeaway The mechanic is route discipline. \"This is world context, not a scene button.\" \"Use MAP-LOC-open-vale-ward-lines as the real Act 5 bridge; this reference stays inactive.\" This map exists so the atlas knows the place without inviting the table to travel there. table-spotlight",
+        "Playerbeats: assets/maps/MAP-LOC-athervast.png Distant Capital Reference map board. MAP-LOC-athervast environment Distant Capital Reference S04-05 assets/maps/MAP-LOC-athervast.png assets/maps/MAP-LOC-athervast.png Distant Capital Reference map board. This distant capital reference is not part of the player route today. This distant capital reference is not part of the player route today. MAP-LOC-athervast-map-only Map only Distant Capital Reference map-only assets/maps/MAP-LOC-athervast.png Distant Capital Reference map board. MAP-LOC-athervast environment Distant Capital Reference S04-05 assets/maps/MAP-LOC-athervast.png assets/maps/MAP-LOC-athervast.png Distant Capital Reference map board. This distant capital reference is not part of the player route today. This distant capital reference is not part of the player route today. MAP-LOC-athervast-map-text Map + text Distant Capital Reference This distant capital reference is not part of the player route today. This distant capital reference is not part of the player route today. map-text MAP-LOC-athervast-text-only Text only Distant Capital Reference This distant capital reference is not part of the player route today. This distant capital...",
+        "Beatautoplayeligible: True",
+        "Beatautoplaydefault: False",
+        "Beatautoplayintervalms: 10000",
+        "Playersafeprojection: MAP-LOC-athervast map Distant Capital Reference assets/maps/MAP-LOC-athervast.png Distant Capital Reference map board. spatial reference and location texture This distant capital reference is not part of the player route today. This distant capital reference is not part of the player route today. MAP-LOC-athervast environment Distant Capital Reference S04-05 assets/maps/MAP-LOC-athervast.png assets/maps/MAP-LOC-athervast.png Distant Capital Reference map board. This distant capital reference is not part of the player route today. This distant capital reference is not part of the player route today. assets/maps/MAP-LOC-athervast.png Distant Capital Reference map board. MAP-LOC-athervast environment Distant Capital Reference S04-05 assets/maps/MAP-LOC-athervast.png assets/maps/MAP-LOC-athervast.png Distant Capital Reference map board. This distant capital reference is not part of the player route today. This distant capital reference is not part of the player route today. MAP-LOC-athervast-map-only Map only Distant Capital Reference map-only assets/maps/MAP-LOC-athervast.png Distant Capital Reference map board. MAP-LOC-athervast environment Distant Capital Reference S04-05...",
+        "Slidenumber: 84",
+        "Totalslides: 110"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash d1254ef105dc5267 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

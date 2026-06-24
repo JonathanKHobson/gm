@@ -1,0 +1,94 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "scene",
+  "id": "S06-01",
+  "title": "S06-01 - Back in the Hanging Office",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "a0ac862abe55db56",
+  "sections": [
+    {
+      "title": "Player read-aloud",
+      "body": "An hour later, the Keystone hangs above the hearth, humming to itself like a sleeping storm."
+    },
+    {
+      "title": "Scene summary",
+      "body": "The Keystone rests above the hearth while the Custodian thanks the party."
+    },
+    {
+      "title": "Visible choices",
+      "items": [
+        "Ask questions",
+        "Rest",
+        "Celebrate quietly",
+        "Confront Marlowe"
+      ]
+    },
+    {
+      "title": "Player questions",
+      "items": [
+        "What detail in Back in the Hanging Office tells you the official story is incomplete?",
+        "Who notices the human cost first, and how do they show it?",
+        "What small object, smell, or sound makes this scene feel real?"
+      ]
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "If Hush Trust is high, include a meal, bath, or local gift from the village.",
+        "Keep player-facing information actionable. Reveal systemic truth through objects, reactions, and consequences before naming it.",
+        "Manufactured-threat lens: seed the contradiction, do not explain it. The surface goal stays simple and heroic.",
+        "[KEEP/GUARANTEED] The ritual completes, Hush is safe, and the Custodian thanks them. The win is real.",
+        "[ADD/GUARANTEED] A Grail/Kazrak incident report thanks them for \"neutralizing forest hazards\" and supporting continued Protection Coverage.",
+        "[ADD/EARNED] If pushed, the Custodian admits the \"hazards\" were not always here, then looks away. (Presence Hard 20)"
+      ]
+    },
+    {
+      "title": "Checks and rolls",
+      "items": [
+        "Presence Close relationship loops with Marlowe, Hush, or the Custodian. Easy Choose epilogue tone. 10 Cleanly resolve: Close relationship loops with Marlowe, Hush, or the Custodian. Add a concrete boon, extra clue, or improved position. Success, plus the player names one helpful detail or asks one follow-up question. Success, but the GM exposes a cost, ticks a countdown, or reveals a new pressure tied to Back in the Hanging Office. The full goal slips, but the party still learns a useful truth or avoids the worst consequence. The GM makes a hard move that follows from the fiction and leaves the next choice visible. Spend Fear to complicate the report, sharpen the relay hook, or show how the system edits a victory. On mixed or sliding results, reveal information in layers: visible fact, actionable clue, then systemic truth."
+      ]
+    },
+    {
+      "title": "Clues",
+      "items": [
+        "Amended form A report is due. Documentation is a battlefield. The official record can either reveal or obscure what happened.",
+        "Guaranteed seed The ritual completes, Hush is safe, and the Custodian thanks them. The win is real. The ritual completes, Hush is safe, and the Custodian thanks them. The win is real.",
+        "Guaranteed seed A Grail/Kazrak incident report thanks them for \"neutralizing forest hazards\" and supporting continued Protection Coverage. A Grail/Kazrak incident report thanks them for \"neutralizing forest hazards\" and supporting continued Protection Coverage.",
+        "Earned seed Available if players investigate, show mercy, or ask the right question. If pushed, the Custodian admits the \"hazards\" were not always here, then looks away. Presence Hard 20"
+      ]
+    },
+    {
+      "title": "Loot",
+      "items": [
+        "Custodian thanks",
+        "Future contact",
+        "Cleaned route ledger copy",
+        "Auditor's Verdict Ledger™: A black ledger with bronze corners opens too neatly, as if the pages have already decided what the facts will be."
+      ]
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Plot So Far: The party is in Epilogue pressure: The Keystone rests above the hearth while the Custodian thanks the party.",
+        "Mechanics In Play: Use Daggerheart Duality Dice as baseline. Use the listed Difficulty and outcome options when a roll matters. Keep trivial actions no-roll; roll only when uncertainty, cost, or danger is interesting.",
+        "Roll Cards: s06-01-debrief-with-the-custodian S06-01 Debrief with the Custodian Debrief with the Custodian Presence Knowledge Presence Knowledge 11 Presence honors the person; Knowledge follows the technical warning. The epilogue becomes a handoff instead of a relationship. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that follows from the fiction. The epilogue becomes a handoff instead of...",
+        "Gm Fear Spends: Make the report protect an institution unless the PCs spend effort to keep truth intact. Bring the Relay Spire hook closer through a tremor, missing keeper mark, or unpaid notice.",
+        "Conditions Hazards: No official condition unless a feature, hazard, or fictional position calls for Hidden, Restrained, or Vulnerable.",
+        "Search Loot Clues: No fixed loot. Offer clue, texture, or hospitality only when the fiction supports it.",
+        "No Roll Guidance: Do not call for a roll when the players have time, a clear method, and no meaningful pressure.",
+        "Escalation: Escalate by making cost visible: time, noise, trust, ward instability, or someone vulnerable in danger.",
+        "Deescalation: De-escalate through respect, care, honest testimony, useful evidence, or a concrete concession.",
+        "Tv Mechanics Caption: Public cue: Back in the Hanging Office asks what the party does, what it costs, and who is protected.",
+        "Trait Variety Note: Primary traits in this scene: Finesse, Knowledge, Presence. If rolls drift toward Instinct/Presence, ask whether Agility, Strength, Finesse, or Knowledge better describes the action.",
+        "Class Community Ancestry Reveals: Loreborne: spots older legal, heraldic, or ward-craft language under the branding. Underborne: notices service doors, hidden routes, and who built the thing nobody credits. Highborne: reads etiquette, class panic, and reputational risk. Ridgeborne: notices stonework, weight, pressure, and structural weakness. Wildborne: reads the land, animals, and local ecological stress. Elf/Ribbet/Human/Giant/Katari: invite one sensory or social detail from the player's heritage. Sorcerer/Rogue/Warrior/Guardian/Ranger: give each class one table-facing way to shine without changing the plot."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash a0ac862abe55db56 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "instinct",
+  "kind": "rule",
+  "title": "Instinct",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "trait",
+  "hook": "Perceive, sense, navigate, track, or read danger.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Perceive, sense, navigate, track, or read danger."
+    },
+    {
+      "label": "How It Works",
+      "body": "Instinct: Perceive, sense, navigate, track, or read danger."
+    },
+    {
+      "label": "Try It",
+      "body": "Is this Perception?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use when the PC notices or feels what is wrong.",
+    "Yes, most perception-style questions are Instinct.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:instinct",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "09fae345b58883b8",
+  "generated_at": "2026-06-23T21:40:58"
+}

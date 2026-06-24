@@ -1,0 +1,49 @@
+{
+  "schema_version": "story-atlas-table-actor-bridge-v1",
+  "status": "ready",
+  "title": "Peril to Profit Table Actors Contact Sheet",
+  "source_output_root": "dist/table-actor-standees",
+  "contact_sheet": "table-actors/audit-review/table-actors-contact-sheet.html",
+  "legacy_contact_sheet": "table-actors/audit-review/contact-sheet.html",
+  "generated_at": "2026-06-23T13:14:06",
+  "summary": {
+    "reviewed_actor_count": 72,
+    "table_actor_count": 50,
+    "excluded_candidate_count": 186,
+    "attention_required_count": 16,
+    "ready_review_copy_count": 50,
+    "by_category": {
+      "creatures-and-animals": 26,
+      "combatants": 18,
+      "npcs": 23,
+      "pcs": 5
+    },
+    "by_stage": {
+      "needs_generation": 22,
+      "print_ready": 34,
+      "needs_keying": 3,
+      "needs_alpha_normalization": 13
+    },
+    "by_table_actor_status": {
+      "not_used_table_actor": 22,
+      "using_table_actor": 44,
+      "added_table_actor": 6
+    }
+  },
+  "production": {
+    "status": "ready",
+    "generated_at": "2026-06-22T23:27:41",
+    "actor_count": 50,
+    "print_item_count": 67,
+    "html_outputs": {
+      "color": "table-actors/print-production/print-color.html",
+      "black-and-white": "table-actors/print-production/print-black-and-white.html",
+      "mixed": "table-actors/print-production/print-mixed.html"
+    },
+    "pdf_outputs": {
+      "color": "table-actors/print-production/print-color.pdf",
+      "black-and-white": "table-actors/print-production/print-black-and-white.pdf",
+      "mixed": "table-actors/print-production/print-mixed.pdf"
+    }
+  }
+}

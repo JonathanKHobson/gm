@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "khari-nix",
+  "title": "Khari Nix",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "401dd286d95a4582",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Khari Nix: Loyal to people before contracts; hates predatory paperwork."
+    },
+    {
+      "title": "Public role",
+      "body": "Ridgeborne giant guardian"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Loyal to people before contracts; hates predatory paperwork."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use this person to put a human face on the current pressure. Give them one concrete want before exposition."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 401dd286d95a4582 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

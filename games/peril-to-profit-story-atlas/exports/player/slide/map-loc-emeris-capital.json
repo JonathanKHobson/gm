@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "MAP-LOC-emeris-capital",
+  "kind": "slide",
+  "title": "MAP-LOC-emeris-capital - Emeris Location Map",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Map Board",
+  "hook": "A walled city of honey-colored stone on the very lip of the great forest, where the last paved road in the world meets the first wild tree.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "A walled city of honey-colored stone on the very lip of the great forest, where the last paved road in the world meets the first wild tree."
+    },
+    {
+      "label": "Public Objective",
+      "body": "A walled city of honey-colored stone on the very lip of the great forest, where the last paved road in the world meets the first wild tree."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:MAP-LOC-emeris-capital",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "45f2544123250f78",
+  "generated_at": "2026-06-23T21:40:58"
+}

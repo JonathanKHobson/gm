@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "adversary-attack-rolls",
+  "kind": "entity",
+  "title": "Adversary Attack Rolls",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Mechanic",
+  "hook": "Player-safe note: Adversaries roll d20 plus attack modifier against PC Evasion.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Adversaries roll d20 plus attack modifier against PC Evasion."
+    },
+    {
+      "label": "How It Works",
+      "body": "Adversary attack resolution reference"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use this when your action is uncertain and consequences matter.",
+    "Ask which trait fits your method."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:adversary-attack-rolls",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "505ac4c0eed7c08f",
+  "generated_at": "2026-06-23T21:40:58"
+}

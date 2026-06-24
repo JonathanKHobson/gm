@@ -1,0 +1,70 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "eeligator",
+  "title": "Eeligator",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "65dd360e1781cc0c",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Something long coils through the shallow water: alligator jaw, eel body, green-blue eyes, and a finned tail moving with awful patience."
+    },
+    {
+      "title": "Public role",
+      "body": "Tier 1 solo river predator"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: A blackwater predator with an alligator's jaws, an eel's coiling body, green-blue eyes, and whiskered fins that read the river before prey knows it has been noticed."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: enemy",
+        "Role: Tier 1 solo river predator",
+        "Summary: A blackwater predator with an alligator's jaws, an eel's coiling body, green-blue eyes, and whiskered fins that read the river before prey knows it has been noticed.",
+        "Tags: sablewood-lore adversary hybrid-fauna source-page-9 source-page-3",
+        "Aliases: Eeligator Eeligators eeligator",
+        "Connections: The Lucent River Eeligator Scale Shield The High Falls",
+        "Inventory: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry. slick black river scales eel whiskers green-blue eye-shine river-muck scent",
+        "Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.",
+        "Stat: Tier 1 Solo. Difficulty 14, thresholds 12/25, HP 7, Stress 5. Pull Under can make a target Restrained and Drowning.",
+        "Image Fallback: type-icon",
+        "Source Pages: Sablewood PDF p. 3",
+        "Name: Eeligator",
+        "Id: eeligator",
+        "Meta: Enemy / Combatant ENEMY assets/icons/enemy.png entity-enemy #ef6b42 04 Creatures entities enemy",
+        "Appears In: S05-03",
+        "Related: Eeligator Scale Shield S05-03 The High Falls The Lucent River",
+        "Image Prompt: Private table TTRPG story atlas asset for Eeligator, Enemy / Combatant. Role: Tier 1 solo river predator. Summary: A blackwater predator with an alligator's jaws, an eel's coiling body, green-blue eyes, and whiskered fins that read the river before prey knows it has been noticed.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Personality: A blackwater predator with an alligator's jaws, an eel's coiling body, green-blue eyes, and whiskered fins that read the river before prey knows it has been noticed.; run Eeligator with a motive, an exit route, and one visible sign of the system that produced the threat.",
+        "Wants: Win the immediate objective connected to The Lucent River, Eeligator Scale Shield, The High Falls, not simply kill the party.",
+        "Fears: Failing the people or protocol behind them, being captured without being heard, or learning the fight served someone else's ledger.",
+        "Secrets: Use the stat pressure, but keep the story pressure tied to the system that produced the threat.",
+        "Body Language: Checks exits and cargo before glory. Fear makes the violence practical rather than theatrical.",
+        "Sample Dialogue: Eeligator: We were told the road was theirs because they could afford the sign.",
+        "Equipment: Table texture: spoor, tool marks, route tags, charm scraps, shed material, or local testimony tied to this Sablewood entry. slick black river scales eel whiskers green-blue eye-shine river-muck scent Eeligator Scale Shield",
+        "Search Or Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.",
+        "Gm Use: Run Eeligator as a threat with a motive, a pressure point, and something left behind that explains why the fight happened.",
+        "Future Hooks: Bring back as an echo if players made a strong choice involving this entity.",
+        "Stat Summary: Tier 1 Solo. Difficulty 14, thresholds 12/25, HP 7, Stress 5. Pull Under can make a target Restrained and Drowning.",
+        "Robust: Something long coils through the shallow water: alligator jaw, eel body, green-blue eyes, and a finned tail moving with awful patience. Use the stat pressure, but keep the story pressure tied to the system that produced the threat. Long sinuous reptile-fish body, dark wet scales, eel-like whiskers, glowing green-blue eyes, long toothy snout, and reeds bending around its coil. Win the immediate objective connected to The Lucent River, Eeligator Scale Shield, The High Falls, not simply kill the party. Failing the people or protocol behind them, being captured without being heard, or learning the fight served someone else's ledger. Use as Lucent River danger: drag, depth, reflection, and the question of whether the party respects water as terrain. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Eeligator and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the...",
+        "Mechanics: Combat / Bypass Mechanics Players can fight, capture, interrogate, or bypass Eeligator when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A blackwater predator with an alligator's jaws, an eel's coiling body, green-blue eyes, and whiskered fins that read the river before prey knows it has been noticed. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-eeligator-engage-eeligator entity-eeligator Engage Eeligator Engage Eeligator Agility Strength Finesse Presence Knowledge Instinct Agility Strength, Finesse, Presence, Knowledge, Instinct 15 Choose the trait from the player's method, not the entity type. A flat read of Eeligator hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC...",
+        "Pronunciation: EE-lih-gay-ter",
+        "Short Pronunciation: EE-lih-gay-ter",
+        "Item Links: eeligator-scale-shield Eeligator Scale Shield Eeligator Crafted from an eeligator after a fight or gifted by someone who has one.",
+        "Image: assets/creature-images/eeligator/portrait_base.webp",
+        "Image Asset Status: creature_images",
+        "Visual Gallery: primary Primary wiki image primary assets/creature-images/eeligator/portrait_base.webp Eeligator primary wiki image visual. Eeligator: Primary wiki image. creature_images True True"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 65dd360e1781cc0c | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

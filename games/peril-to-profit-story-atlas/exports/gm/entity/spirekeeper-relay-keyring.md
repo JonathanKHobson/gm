@@ -1,0 +1,58 @@
+# Spirekeeper Relay Keyring
+
+GM export - entity:spirekeeper-relay-keyring
+
+## Player-facing description
+A heavy ring of mismatched brass keys and blue-glass tags chimes with a sound like distant bells heard through rain.
+
+## Public role
+Spirekeeper Relay Keyring: a keeper's access bundle for old maintenance doors, signal plates, and relay cabinets.
+
+## Handout text
+GOLDSPIRE ACCESS NOTICE: Unauthorized keys are not keys. They are future explanations you owe us.
+
+## GM truth
+Use this element to reveal the cost of managed protection through concrete play.
+
+## GM handling
+Use when players need a tangible handle on the scene's pressure.
+
+## Mechanics
+- Title: Discovery / Earn-It Mechanics
+- Player Safe: Players can inspect, handle, keep, trade, reveal, or earn Spirekeeper Relay Keyring when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: A heavy ring of mismatched brass keys and blue-glass tags chimes with a sound like distant bells heard through rain. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-spirekeeper-relay-keyring-engage-spirekeeper-relay-keyring entity-spirekeeper-relay-keyring Engage Spirekeeper Relay Keyring Engage Spirekeeper Relay Keyring Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Spirekeeper Relay Keyring hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless the item or clue physically creates Hidden, Restrained, or Vulnerable
+- Search Loot: Spirekeeper Relay Keyring: a keeper's access bundle for old maintenance doors, signal plates, and relay cabinets. Provenance: Gift, inheritance, or GM-only epilogue hook.
+
+## Profile
+- Schema Version: item-profile-v1
+- Id: spirekeeper-relay-keyring
+- Item Id: spirekeeper-relay-keyring
+- Item Name: Spirekeeper Relay Keyring
+- Name: Spirekeeper Relay Keyring
+- Aliases: relay keyring signal keys
+- Pronunciation: SPYR-kee-per RAY-lay KEE-ring
+- Item Kind: utility
+- Tier: Tier 1
+- Priority: P2
+- Mode: PROP
+- Maker: Relay keepers
+- Made Or Wild: competing
+- Auto Surface: True
+- Discovered From Art: True
+- Atlas Lore Note: [Atlas lore - confirm or override]
+- Player Safe: Spirekeeper Relay Keyring A heavy ring of mismatched brass keys and blue-glass tags chimes with a sound like distant bells heard through rain. A heavy ring of mismatched brass keys and blue-glass tags chimes with a sound like distant bells heard through rain. Relay keepers GOLDSPIRE ACCESS NOTICE: Unauthorized keys are not keys. They are future explanations you owe us.
+- Block0: spirekeeper-relay-keyring Spirekeeper Relay Keyring relay keyring signal keys SPYR-kee-per RAY-lay KEE-ring utility Tier 1
+- Block1: A heavy ring of mismatched brass keys and blue-glass tags chimes with a sound like distant bells heard through rain. Spirekeeper Relay Keyring: a keeper's access bundle for old maintenance doors, signal plates, and relay cabinets. A noncombat access tool tied to relay maintenance. A quiet key to sequel-space without turning the epilogue into a new fight. pages/entities/spirekeeper-relay-keyring.html
+- Block2: Relay keepers competing GOLDSPIRE ACCESS NOTICE: Unauthorized keys are not keys. They are future explanations you owe us. The key works better than the permission system.
+- Block3: Narrative access. Opens a relay-side door or cabinet when the table has earned the relay hook. item #module Story-item grammar: use this as access, leverage, texture, or roleplay benefit; add a mechanical bonus only if the listed effect grants one. Narrative access. Opens a relay-side door or cabinet when the table has earned the relay hook. The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned. Use the maker, label, condition, and provenance to say what the item means in the world before explaining what it does. Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction. If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a combat bonus. Give the item freely when the player already earned it through care, trust, trade, victory...
+- Block4: Spirekeeper The Relay Keeper Relay Spire The Goldspire Relay Relay Keeper Effects Gift, inheritance, or GM-only epilogue hook. S06-02 MAP-LOC-relay-spire MAP-LOC-the-goldspire-relay
+- Block5: Layer 1 - look Keys and blue tags that chime like rain-bells. Layer 2 - hint They fit old relay service locks. Layer 3 - truth They can open a maintenance lane in the epilogue hook. Accept the Relay hook. Ask the keeper what still works. Use it at a relay cabinet. Show the look first. Reveal name, maker, and effect only when players use it, ask the right person, read the label, or make the listed roll.
+- Block6: A heavy brass keyring with mismatched fantasy keys, blue glass signal tags, tiny bell chains, bright gold and blue product-free detail. item wiki card and earned side-card visual Use the Run Mode item card's Show image button when the table sees or earns this item. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/spirekeeper-relay-keyring/profile_base.png assets/item-images/spirekeeper-relay-keyring/profile_base.webp Bright, saturated storybook fantasy product illustration; whimsical frontier-Renaissance materials; clean single-object hero shot on a soft bright background; no sci-fi, no neon, no chrome, no screens, no watermark.
+- Visual Assets: profile_base Item profile image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/spirekeeper-relay-keyring/profile_base.png assets/item-images/spirekeeper-relay-keyring/profile_base.webp ready Spirekeeper Relay Keyring item illustration. A heavy ring of mismatched brass keys and blue-glass tags chimes with a sound like distant bells heard through rain.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 41f304d0df33c7ab | Source hash dac3370046ed077140fab2d6

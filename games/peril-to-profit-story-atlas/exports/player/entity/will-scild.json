@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "will-scild",
+  "kind": "entity",
+  "title": "Will Scild",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "A slow-moving Sablewood merchant nobody disturbs, known for carrying valuable goods and tossing a small stone between his hands.",
+  "hook": "A slow-moving Sablewood merchant nobody disturbs, known for carrying valuable goods and tossing a small stone between his hands.",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "A turtle-folk merchant in a blue road scarf carries shell packs, brass medallions, and a smooth stone he tosses as if time belongs to him."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "Calm as geology. Tosses an ordinary river stone because it is the one thing in his pack nobody has ever tried to tax. Stays independent in a forest that keeps trying to itemize independence."
+    },
+    {
+      "label": "Might Offer",
+      "body": "A question to ask A local perspective A grounded reason this place matters"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "A question to ask",
+    "A local perspective",
+    "A grounded reason this place matters"
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:will-scild",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "2a5dbdff27b582ce",
+  "generated_at": "2026-06-23T21:40:58"
+}

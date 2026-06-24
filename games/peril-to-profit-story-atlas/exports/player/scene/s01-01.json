@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S01-01",
+  "kind": "scene",
+  "title": "S01-01 - Entering Sablewood",
+  "in_world_label": "Situation Briefing",
+  "brand_flag": "Briefing",
+  "kicker": "Act 0 - The Contract",
+  "hook": "The last warded marker slips behind you. Ahead, the road narrows and the old forest closes around the carriage.",
+  "blocks": [
+    {
+      "label": "Where You Are",
+      "body": "The last warded marker slips behind you. Ahead, the road narrows and the old forest closes around the carriage."
+    },
+    {
+      "label": "Plain Stakes",
+      "body": "The carriage crosses from city-controlled road into a vast ancient forest and hands off to Act One."
+    },
+    {
+      "label": "Visible Options",
+      "body": "Describe the sign Drive cautiously Ignore the branding"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Who is driving?",
+    "What is one strange detail about these enormous trees?",
+    "Who notices the road change first?"
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - scene:S01-01",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "51a3c49ac4c5538c",
+  "generated_at": "2026-06-23T21:40:58"
+}

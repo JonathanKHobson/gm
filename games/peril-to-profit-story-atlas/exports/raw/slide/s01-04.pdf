@@ -1,0 +1,560 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2694 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(S01-04 - The First Action Roll - Reading the Creature) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The creature is wary of every movement you make. Let's find out how she reacts. This is) Tj
+T*
+(your first roll: grab your two d12s, add your Presence, and tell me the total, plus) Tj
+T*
+(which die came up higher. If you have an Experience that fits, you can spend a Hope) Tj
+T*
+(before you roll to add it.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Read the creature correctly and get everyone, including the young, out of this without) Tj
+T*
+(bloodshed.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: S01-04) Tj
+T*
+(- Type: scene) Tj
+T*
+(- Sectionid: ACT-ONE) Tj
+T*
+(- Sectiontitle: Act One: The Logistics Incident) Tj
+T*
+(- Title: The First Action Roll - Reading the Creature) Tj
+T*
+(- Shorttitle: First Action Roll) Tj
+T*
+(- Order: 203) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: True) Tj
+T*
+(- Image: assets/scenes/S01-04-the-first-roll.png) Tj
+T*
+(- Alt: The First Roll scene art for The Logistics Incident.) Tj
+T*
+(- Caption: The first meaningful roll teaches that this adventure is about judgment,) Tj
+T*
+(  not just success.) Tj
+T*
+(- Mood: The Logistics Incident) Tj
+T*
+(- Gmgoal: Teach Duality Dice through the creature reaction roll and resolve the) Tj
+T*
+(  standoff caused by S01-03.) Tj
+T*
+(- Publicobjective: Read the creature correctly and get everyone, including the young,) Tj
+T*
+(  out of this without bloodshed.) Tj
+T*
+(- Readaloud: The creature is wary of every movement you make. Let's find out how she) Tj
+T*
+(  reacts. This is your first roll: grab your two d12s, add your Presence, and tell me) Tj
+T*
+(  the total, plus which die came up higher. If you have an Experience that fits, you) Tj
+T*
+(  can spend a Hope before you roll to add it.) Tj
+T*
+(- Gmnotes: Use the exact outcome language here so the first roll feels transparent.) Tj
+T*
+(  After resolving the roll, return to the blocked road: the creature leaves, the road) Tj
+T*
+(  clears, or the encounter moves to the combat board.) Tj
+T*
+(- Gmscript: Say: "This is our first action roll. You are trying to read and influence) Tj
+T*
+(  a living creature, so this is Presence, Difficulty 10. Roll two d12s, add Presence,) Tj
+T*
+(  then tell me your total and whether Hope or Fear is higher. Before you roll, does an) Tj
+T*
+(  Experience fit strongly enough that you want to spend a Hope on it?") Tj
+T*
+(- Gmreadaloud: This is your first roll: two d12s plus Presence against Difficulty 10.) Tj
+T*
+(  Tell me the total and which die is higher: Hope or Fear. If you have a fitting) Tj
+T*
+(  Experience, you can spend a Hope before the roll to add it.) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4072 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Gmchecklist: Name Presence and Difficulty 10 before dice hit the table. Offer spend-) Tj
+T*
+(  Hope-for-Experience before the roll. Resolve both axes: success/failure and) Tj
+T*
+(  Hope/Fear. Route success or mercy toward a cleared road; route fear-heavy escalation) Tj
+T*
+(  to MAP-COMBAT-S01-03.) Tj
+T*
+(- Gmprivate: This is not a floating tutorial. It is the resolution of S01-03. Keep) Tj
+T*
+(  mercy as the clean path. Combat is a consequence of fear, threat posture, or) Tj
+T*
+(  failure, not the goal.) Tj
+T*
+(- Playertakeaway: You now know the action-roll engine: total against difficulty, then) Tj
+T*
+(  Hope or Fear colors the result.) Tj
+T*
+(- Storytakeaway: How you read and treat a frightened animal sets the moral tone for) Tj
+T*
+(  the rest of the route.) Tj
+T*
+(- Mechanictakeaway: Roll Presence against Difficulty 10; 10+ succeeds, Hope/Fear) Tj
+T*
+(  changes who gains momentum, and doubles are a critical success.) Tj
+T*
+(- Rollcards: s01-04-make-the-first-meaningful-roll-matter S01-04 Make the first) Tj
+T*
+(  meaningful roll matter Make the first meaningful roll matter Presence Instinct) Tj
+T*
+(  Presence Instinct 12 This is the teaching roll: ask what the PC does, choose the) Tj
+T*
+(  trait, then show Hope/Fear. The table learns that the roll changes the fiction, not) Tj
+T*
+(  just pass/fail. Critical Success: best possible version of the action; gain Hope and) Tj
+T*
+(  clear 1 Stress. Add an extra benefit that follows from the fiction. Success with) Tj
+T*
+(  Hope: the PC gets what they wanted and gains Hope. Keep the position clean or) Tj
+T*
+(  generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and) Tj
+T*
+(  introduces a cost, complication, or pressure. Failure with Hope: the PC does not get) Tj
+T*
+(  the full result, but gains Hope and receives a useful thread, clue, or safer next) Tj
+T*
+(  option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that) Tj
+T*
+(  follows from the fiction. The table learns that the roll changes the fiction, not) Tj
+T*
+(  just pass/fail. Use a hard complication, lost time, worse position, GM Fear, or mark) Tj
+T*
+(  Stress. Apply an official condition only if the fiction and rules justify it. The) Tj
+T*
+(  attempt falls short, but a partial thread appears. Offer...) Tj
+T*
+(- Entityids: strixwolf-mother disposition-resolution-track goldspire-territories) Tj
+T*
+(  sablewoodtm-logistics-preserve corporate-route-bell bramble-union marlowe-fairwind) Tj
+T*
+(  duality-dice bramble-union-ambusher varian-soto sealed-keystone-crate vendor-cart) Tj
+T*
+(  strixwolf fox-bats) Tj
+T*
+(- Entities: strixwolf-mother Strixwolf Mother creature Creature / Animal) Tj
+T*
+(  assets/icons/creature.png assets/npc-images/strixwolf-mother/portrait_base.png) Tj
+T*
+(  STRIKS-woolf MUTH-er A huge owl-wolf mother crouched around her pups, barred) Tj
+T*
+(  feathers and fur bristling, acting from protection rather than malice. False-monster) Tj
+T*
+(  moral encounter. Strixwolf Mother a huge owl-faced wolf mother guarding her pups) Tj
+T*
+(  near the wreck Not cruel and not hungry for a fight, just a cornered parent doing) Tj
+T*
+(  math no one taught her, weighing every armed stranger against two small clicking) Tj
+T*
+(  shapes under her wing. She will let you walk away. She will not let you walk closer.) Tj
+T*
+(  Keep the pups fed and far from armed strangers. She does not speak; she lowers her) Tj
+T*
+(  wings over the pups and tracks hands, not faces. a huge owl-faced wolf mother) Tj
+T*
+(  guarding her pups near the wreck npc-profile-v1 NPC_System_Packet + image-informed) Tj
+T*
+(  hardening True Strixwolf Mother a huge owl-faced wolf mother guarding her pups near) Tj
+T*
+(  the wreck A huge owl-wolf mother crouches around her pups, barred feathers and fur) Tj
+T*
+(  bristling, amber eyes fixed on any hand that comes too close. Strixwolf Mother: a) Tj
+T*
+(  huge owl-faced wolf mother guarding her pups near the wreck Strixwolf...) Tj
+T*
+(- Locationids: goldspire-territories sablewoodtm-logistics-preserve) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3877 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Statecontrols: strixwolfDisposition Creature disposition select calm wary hostile) Tj
+T*
+(  Set after the roll outcome. firstRollOutcome First roll outcome select success with) Tj
+T*
+(  hope success with fear failure with hope failure with fear critical Use this to keep) Tj
+T*
+(  the first mechanics lesson visible.) Tj
+T*
+(- Mechanicids: action-roll duality-dice five-outcomes hope fear critical-success hope-) Tj
+T*
+(  fear-moments presence stress experiences help-an-ally) Tj
+T*
+(- Playerquestions: What detail in The First Roll tells you the official story is) Tj
+T*
+(  incomplete? Who notices the human cost first, and how do they show it? What small) Tj
+T*
+(  object, smell, or sound makes this scene feel real?) Tj
+T*
+(- Relationshipprompts: Which PC quietly checks on someone else here? Who disagrees) Tj
+T*
+(  about the right thing to do without breaking trust?) Tj
+T*
+(- Ownershipprompt: Name one detail in The First Roll that belongs to your character's) Tj
+T*
+(  point of view.) Tj
+T*
+(- Fearspends: Spend Fear to reveal omitted risk, split attention, or put a human cost) Tj
+T*
+(  in front of the contract. Make the safe road feel less safe: noise, scent, cracked) Tj
+T*
+(  wheel, or cargo hum. Separate evidence from assumption so a monster read is tempting) Tj
+T*
+(  but incomplete.) Tj
+T*
+(- Choicesconsequences: Pause to reassess The party earns a cleaner investigation beat.) Tj
+T*
+(  Lower Act Two surprise risk. Push forward The job stays on schedule. The ambush) Tj
+T*
+(  feels sharper.) Tj
+T*
+(- Lootclues: Feather warning token Recovered cart supply) Tj
+T*
+(- Handoutids: Feather token) Tj
+T*
+(- Sourcesceneslug: S01-04-the-first-roll) Tj
+T*
+(- Sourcefiles: Act1_Upgrade_Packet/ACT1_SCENE_UPGRADES.md) Tj
+T*
+(  Act1_Upgrade_Packet/ACT1_PER_CHARACTER.md Rules/full-daggerheart-rules.txt) Tj
+T*
+(- References: Previous scene: the creature and young #S01-03 Combat board if escalated) Tj
+T*
+(  #MAP-COMBAT-S01-03 Rules: Duality Dice pages/rules/duality-dice.html) Tj
+T*
+(- Storyscope: Perceived antagonist: the forest. True antagonist: the corporate lie) Tj
+T*
+(  about the forest. The players never confront it directly. They are meant to feel it) Tj
+T*
+(  by the end. Every act offers at least one guaranteed and one earned hint that the) Tj
+T*
+(  danger is manufactured and the forest is not the enemy. The Strixwolf Mother is) Tj
+T*
+(  feeding pups and guarding them; she reacts to tone, not bloodlust. REFLAVOR) Tj
+T*
+(  GUARANTEED Presence to calm; Instinct to read boundaries The driver died from a cut) Tj
+T*
+(  throat; the strixwolf did not kill him. KEEP EARNED Instinct or Knowledge Medium 15) Tj
+T*
+(  Near the cart is a pre-written Grail "Hazard Confirmed: Strixwolf Attack" tag. ADD) Tj
+T*
+(  EARNED Finesse or Instinct Medium 15 Helping the pups or sparing the mother earns) Tj
+T*
+(  Hope now and can create a later warning boon. ADD SEED Presence: calm the mother.) Tj
+T*
+(  Instinct: read the scene. Knowledge: notice behavior mismatch. Finesse: search the) Tj
+T*
+(  cart. ACT1 Act 1: Logistics Incident 55 0:30 to 0:55 0:55 cart, strixwolf, first) Tj
+T*
+(  rolls, clues Skip the staged-bramble earned seed; move to ambush sooner.) Tj
+T*
+(- Livetools: scene MAP-LOC-goldspire-territories MAP-LOC-sablewoodtm-logistics-) Tj
+T*
+(  preserve) Tj
+T*
+(- Percharacterlayer: marlowe-fairwind Marlowe Fairwind Calm arcane bearing Can attempt) Tj
+T*
+(  the read through composed presence; Royal Mage may apply if the player spends Hope.) Tj
+T*
+(  Marlowe, your bearing carries weight. Want to spend a Hope on Royal Mage to steady) Tj
+T*
+(  her? garrick-reed Garrick Reed Affable first-roll lead Affable fits perfectly here:) Tj
+T*
+(  warmth as a tool. Strong candidate to lead the roll. Garrick, Affable is made for) Tj
+T*
+(  this. Want to take the first roll and spend a Hope on it? varian-soto Varian Soto) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4379 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Nature's Friend first-roll lead Nature's Friend applies directly and can make Varian) Tj
+T*
+(  the cleanest reader of the creature. Varian, Nature's Friend is exactly this moment.) Tj
+T*
+(  Want to lead the roll and add it? khari-nix Khari Nix Steady guardian presence Not) Tj
+T*
+(  Afraid of Anything lets her hold steady where others flinch. Khari, you do not) Tj
+T*
+(  rattle. Want to be the calm she reads off of? barnacle Barnacle Help an Ally) Tj
+T*
+(  fallback Can Help an Ally by spending Hope and giving an advantage die to whoever) Tj
+T*
+(  leads. Barnacle, animals are not your lane, but backing someone up is. Want to Help) Tj
+T*
+(  an Ally and hand them an advantage die?) Tj
+T*
+(- Takeawayhelp: Player takeaway You now know the action-roll engine: total against) Tj
+T*
+(  difficulty, then Hope or Fear colors the result. "That is the engine: total beats) Tj
+T*
+(  the number or it does not; the higher die tells us who the moment favors." "For this) Tj
+T*
+(  roll, use Presence. If you have a fitting Experience, spend a Hope before rolling to) Tj
+T*
+(  add it. Then tell me total, Hope or Fear, and whether the dice match." After this,) Tj
+T*
+(  future rolls can be faster: ask intent, name trait, name difficulty, roll, read) Tj
+T*
+(  Hope/Fear, narrate consequence. action-roll duality-dice presence hope fear Story) Tj
+T*
+(  takeaway How you read and treat a frightened animal sets the moral tone for the rest) Tj
+T*
+(  of the route. "This first roll is not about winning. It is about what kind of crew) Tj
+T*
+(  you are when fear gives you an easy violent answer." "If you calm her, she clears) Tj
+T*
+(  the way with the pups. If the scene turns hostile, she defends space and tries to) Tj
+T*
+(  flee; the road still clears, but the memory of how it happened follows you." Use) Tj
+T*
+(  this result to set future texture: mercy can become warning, trust, or a feather) Tj
+T*
+(  token; cruelty can become silence, guilt, or later distrust. roleplay table-) Tj
+T*
+(  spotlight Mechanic takeaway Roll Presence against Difficulty 10...) Tj
+T*
+(- Playerbeats: S01-04-setup The setup The setup assets/scenes/S01-04-the-first-) Tj
+T*
+(  roll.png The First Roll scene art for The Logistics Incident. You are trying to read) Tj
+T*
+(  and influence the creature. Roll Presence against Difficulty 10. You are trying to) Tj
+T*
+(  read and influence the creature. Roll Presence against Difficulty 10. You are trying) Tj
+T*
+(  to read and influence the creature. Roll Presence against Difficulty 10. text-first) Tj
+T*
+(  S01-04-roll The roll The roll assets/scenes/S01-04-the-first-roll.png The First Roll) Tj
+T*
+(  scene art for The Logistics Incident. Roll two d12s and add Presence. Tell me your) Tj
+T*
+(  total and which die is higher: Hope or Fear. Roll two d12s and add Presence. Tell me) Tj
+T*
+(  your total and which die is higher: Hope or Fear. Roll two d12s and add Presence.) Tj
+T*
+(  Tell me your total and which die is higher: Hope or Fear. text-first S01-04-outcome) Tj
+T*
+(  The outcome The outcome assets/scenes/S01-04-the-first-roll.png The First Roll scene) Tj
+T*
+(  art for The Logistics Incident. On 10 or higher, she backs down or leaves room for) Tj
+T*
+(  the pups to escape. On 9 or lower, she advances and the scene gets sharper. Doubles) Tj
+T*
+(  are a critical success. On 10 or higher, she backs down or leaves room for the pups) Tj
+T*
+(  to escape. On 9 or lower, she advances and...) Tj
+T*
+(- Gmbeats: S01-04-setup The setup The setup Say: "You are not rolling to kill her. You) Tj
+T*
+(  are rolling to read and influence her. Presence, Difficulty 10." You are trying to) Tj
+T*
+(  read and influence the creature. Roll Presence against Difficulty 10. The standoff) Tj
+T*
+(  resolves through how the party behaves. Name intent, trait, and difficulty before) Tj
+T*
+(  rolling. The roll has a clear fictional job. Player takeaway The roll has a clear) Tj
+T*
+(  fictional job. "You are not rolling to kill her. You are rolling to read and) Tj
+T*
+(  influence her. Presence, Difficulty 10." "The playable facts are: You are trying to) Tj
+T*
+(  read and influence the creature. Roll Presence against Difficulty 10. You can) Tj
+T*
+(  respond to one of those facts directly, ask a question about it, or invite another) Tj
+T*
+(  PC into the moment." Active GM line: Say: "You are not rolling to kill her. You are) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 2840 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  rolling to read and influence her. Presence, Difficulty 10." Player-facing display) Tj
+T*
+(  text: You are trying to read and influence the creature. Roll Presence against) Tj
+T*
+(  Difficulty 10. action-roll presence difficulty Story takeaway The standoff resolves) Tj
+T*
+(  through how the party behaves. "You are not rolling to kill her. You are rolling to) Tj
+T*
+(  read and influence her. Presence, Difficulty 10."...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 7000) Tj
+T*
+(- Playersafeprojection: S01-04 scene The First Action Roll - Reading the Creature) Tj
+T*
+(  assets/scenes/S01-04-the-first-roll.png The First Roll scene art for The Logistics) Tj
+T*
+(  Incident. The first meaningful roll teaches that this adventure is about judgment,) Tj
+T*
+(  not just success. The Logistics Incident Read the creature correctly and get) Tj
+T*
+(  everyone, including the young, out of this without bloodshed. The creature is wary) Tj
+T*
+(  of every movement you make. Let's find out how she reacts. This is your first roll:) Tj
+T*
+(  grab your two d12s, add your Presence, and tell me the total, plus which die came up) Tj
+T*
+(  higher. If you have an Experience that fits, you can spend a Hope before you roll to) Tj
+T*
+(  add it. S01-04-setup The setup The setup assets/scenes/S01-04-the-first-roll.png The) Tj
+T*
+(  First Roll scene art for The Logistics Incident. You are trying to read and) Tj
+T*
+(  influence the creature. Roll Presence against Difficulty 10. You are trying to read) Tj
+T*
+(  and influence the creature. Roll Presence against Difficulty 10. You are trying to) Tj
+T*
+(  read and influence the creature. Roll Presence against Difficulty 10. text-first) Tj
+T*
+(  S01-04-roll The roll The roll assets/scenes/S01-04-the-first-roll.png The First Roll) Tj
+T*
+(  scene art for The Logistics Incident. Roll two d12s and add...) Tj
+T*
+(- Companionmapids: MAP-LOC-goldspire-territories MAP-LOC-sablewoodtm-logistics-) Tj
+T*
+(  preserve) Tj
+T*
+(- Slidenumber: 30) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+(- Spotlights: SPOT-M-CRITICAL critical-success critical-success M3 S01-04 high) Tj
+T*
+(  mandatory first-resolution Critical Hit, Critical Hope Celebrate matching dice with) Tj
+T*
+(  the exact payoff. Matching dice is a Critical. You gain Hope and clear 1 Stress. On) Tj
+T*
+(  an attack critical, use the official critical damage rule for the attack. When dice) Tj
+T*
+(  match wiki/mechanic/critical-success teach-by-example Make criticals feel) Tj
+T*
+(  celebratory and mechanically concrete. mechanic defer-if-clock-critical True True) Tj
+T*
+(- Spotlightsummary: 1) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 67a1b8b129ae81dd | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 13 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R 10 0 R] /Count 5 >>
+endobj
+12 0 obj
+<< /Type /Catalog /Pages 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000009 00000 n 
+0000002755 00000 n 
+0000002883 00000 n 
+0000007007 00000 n 
+0000007135 00000 n 
+0000011064 00000 n 
+0000011192 00000 n 
+0000015623 00000 n 
+0000015751 00000 n 
+0000018643 00000 n 
+0000018772 00000 n 
+0000018855 00000 n 
+0000018906 00000 n 
+trailer
+<< /Size 14 /Root 12 0 R >>
+startxref
+18979
+%%EOF

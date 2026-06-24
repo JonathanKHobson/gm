@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "bullfrog",
+  "kind": "entity",
+  "title": "Bullfrog",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "Enemy / Combatant",
+  "hook": "Player-safe note: A bull-sized swamp frog with armored warts, a heavy throat pouch, amber watching eyes, and enough mass to make a muddy bank feel like a sprung trap.",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "Broad armored body, moss and river mud across the back, huge springing legs, amber eyes, and reed charms caught in the warts like old wetland warnings."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "A bull-sized swamp frog with armored warts, a heavy throat pouch, amber watching eyes, and enough mass to make a muddy bank feel like a sprung trap.; run Bullfrog with a motive, an exit route, and one visible sign of the system that produced the threat."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask Bullfrog what they need right now.",
+    "Watch what they protect before asking for trust."
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:bullfrog",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "6f022a1e72ca9023",
+  "generated_at": "2026-06-23T21:40:58"
+}

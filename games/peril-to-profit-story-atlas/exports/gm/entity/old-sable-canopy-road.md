@@ -1,0 +1,52 @@
+# Old Sable Canopy Road
+
+GM export - entity:old-sable-canopy-road
+
+## Player-facing description
+The canopy road feels like travel through the forest's memory: dim green light, root-shadow bends, and old markers half-swallowed by moss.
+
+## Public role
+Give the route enough texture that the later incident feels placed, not random.
+
+## Handout text
+The living road beneath the branded logistics layer, remembered by locals as a place instead of a service corridor.
+
+## GM truth
+No forced reveal. Let this entity disclose truth through scene context and player attention.
+
+## GM handling
+Introduce with sensory texture, then make one discoverable clue or social choice visible.
+
+## Mechanics
+- Title: Location Exploration Mechanics
+- Player Safe: Players can navigate, search, read customs, inspect hazards Old Sable Canopy Road when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: The living road beneath the branded logistics layer, remembered by locals as a place instead of a service corridor. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-old-sable-canopy-road-engage-old-sable-canopy-road entity-old-sable-canopy-road Engage Old Sable Canopy Road Engage Old Sable Canopy Road Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of Old Sable Canopy Road hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless a hazard creates Hidden, Restrained, or Vulnerable
+- Search Loot: Observation reveals the branded route only partially matches the older safer path.
+
+## Profile
+- Schema Version: location-profile-v1
+- Id: old-sable-canopy-road
+- Entity Id: old-sable-canopy-road
+- Source: Goldspire_Location_Packet/01_Sablewood_Preserve.md
+- Auto Surface: True
+- Priority: strong
+- Player Safe: Old Sable Canopy Road The living road beneath the branded logistics layer, remembered by locals as a place instead of a service corridor. The living road beneath the branded logistics layer, remembered by locals as a place instead of a service corridor. The canopy road feels like travel through the forest's memory: dim green light, root-shadow bends, and old markers half-swallowed by moss. The canopy road feels like walking through a ship rigged into living trees: planks, ropes, pulley baskets, sudden views, and drops that make every joke a little sharper. The place breaks into usable table spaces: Branch platform: Wide wooden landings wrap around living trunks. Rope bridge run: Suspended bridges sway between massive branches. Cargo pulley lane: Crates and baskets pass overhead or underfoot. Canopy nest edge: Wildlife has claimed parts of the structure. Plants and materials: air moss...
+- Block1: Old Sable Canopy Road Give the route enough texture that the later incident feels placed, not random. The living road beneath the branded logistics layer, remembered by locals as a place instead of a service corridor. The road shows local memory being covered by a managed route. Up here, local memory survives that the route below has paved over. The old ways are literally overhead. The road shows local memory being covered by a managed route. Safe paths exist only where someone keeps mending them. Weight and weather are always voting against you. pages/entities/old-sable-canopy-road.html
+- Block2: The road narrows under branches that meet overhead. Stone markers appear in pairs, then stop where corporate signage begins. Birds restart their calls behind the party but not ahead. Wheel ruts bend around roots locals knew not to cut. Detail Leaf-drip, distant wingbeats, mushroom loam, and rainwater running down bark channels. Detail The road surface alternates between springy moss and slick clay that remembers every wheel. The canopy road feels like travel through the forest's memory: dim green light, root-shadow bends, and old markers half-swallowed by moss. The canopy road feels like walking through a ship rigged into living trees: planks, ropes, pulley baskets, sudden views, and drops that make every joke a little sharper. The place breaks into usable table spaces: Branch platform: Wide wooden landings wrap around living trunks. Rope bridge run: Suspended bridges sway between...
+- Block3: root-shadow bends old stone markers canopy cover wheel ruts Instinct to read the silence ahead. Knowledge to follow older markers. Agility to keep footing or wheels steady on slick clay. Local residents or workers appropriate to the place fox-bats hang under platforms lark-moths cluster around pulley lanterns canopy squirrels hoard route tags No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues air moss, branch orchids, rope-gripping vines, bark shelves with tiny rain pools canopy repairs rope ferries packed trail food
+- Block4: The place changes even if the PCs stand still. Local people, creatures, weather, signage, and ward behavior all keep moving around the scene. Poor pacing can make the cart scene feel abrupt. Mistaking quiet for safety gives the forest the first move. The road hides sightlines without needing enemies. The next marker has been painted over too recently. A wheel rut fills with water from below. The canopy hush arrives before the danger does. Let the place be funny through overconfident signage, awkward forms, stubborn local habits, and magic that refuses corporate language.
+- Block5: MAP-LOC-old-sable-canopy-road
+- Block6: Describe what the PCs can see, smell, hear, touch, ask about, or infer. Do not explain hidden infrastructure or corporate thesis until play earns it. surface The living road beneath the branded logistics layer, remembered by locals as a place instead of a service corridor. table clue The road shows local memory being covered by a managed route. earned truth Reveal deeper system meaning through NPC answers, evidence, or player questions, not narration dumps.
+- What Here: Local residents or workers appropriate to the place fox-bats hang under platforms lark-moths cluster around pulley lanterns canopy squirrels hoard route tags No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues air moss, branch orchids, rope-gripping vines, bark shelves with tiny rain pools canopy repairs rope ferries packed trail food
+- Living Place: location-living-place-v1 elevated forest travel route The canopy road feels like walking through a ship rigged into living trees: planks, ropes, pulley baskets, sudden views, and drops that make every joke a little sharper. Branch platform Wide wooden landings wrap around living trunks. Use for pauses and vantage points. Rope bridge run Suspended bridges sway between massive branches. Use for movement choices. Cargo pulley lane Crates and baskets pass overhead or underfoot. Use for hazards and comedy. Canopy nest edge Wildlife has claimed parts of the structure. Use for ecology and detours. air moss, branch orchids, rope-gripping vines, bark shelves with tiny rain pools fox-bats hang under platforms lark-moths cluster around pulley lanterns canopy squirrels hoard route tags wind sway rope groan green drop-light distant road noise below The canopy moves with wind and weight; safe paths...
+- Districts Or Subareas: Branch platform Wide wooden landings wrap around living trunks. Use for pauses and vantage points. Rope bridge run Suspended bridges sway between massive branches. Use for movement choices. Cargo pulley lane Crates and baskets pass overhead or underfoot. Use for hazards and comedy. Canopy nest edge Wildlife has claimed parts of the structure. Use for ecology and detours.
+- Sensory Signature: Detail Leaf-drip, distant wingbeats, mushroom loam, and rainwater running down bark channels. Detail The road surface alternates between springy moss and slick clay that remembers every wheel.
+- Visual Assets: location-visual-assets-v1 old-sable-canopy-road Old Sable Canopy Road Bright comedic frontier high-fantasy concept art for a Daggerheart-adjacent tabletop RPG. Medieval/Renaissance fantasy technology only: hand tools, wagons, ropes, parchment notices, ward-stones, carved wood, brass, cloth, stone, moss, lanterns, and magic. The tone is colorful, playful, slightly absurd, and vivid, like a fantasy corporate frontier comedy rather than a grim drama. No sci-fi machinery, no 1800s/Victorian clothing, no modern suits, no guns, no logos, no readable text, no watermark, no border, no collage. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/old-sable-canopy-road MAP-LOC-old-sable-canopy-road elevated forest road vertical top-down canopy route map profile_scene Profile image ready /Users/kyle/Documents/My Games/Peril To...
+- Imagine It Like: A canopy walkway or zipline park crossed with a working dockyard. Think rope bridges, cargo pulleys, and a tree-fort someone actually commutes through.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash b88ee91dd60d51e4 | Source hash dac3370046ed077140fab2d6

@@ -1,0 +1,37 @@
+# Fear
+
+RAW export - rule:fear
+
+## What it is
+GM pressure resource gained on Fear results and spent to escalate.
+
+## How it works
+Use to make moves, spotlight threats, or trigger Fear features.
+
+## Step by step
+- Use to make moves, spotlight threats, or trigger Fear features.
+- The GM gains Fear and spends it to make the situation more dangerous or complicated.
+- Return to the fiction with the concrete result, cost, or benefit.
+
+## Try it
+What does the GM get?
+
+## Raw source
+- Id: fear
+- Title: Fear
+- Tag: official
+- Summary: GM pressure resource gained on Fear results and spent to escalate.
+- When: Use to make moves, spotlight threats, or trigger Fear features.
+- Not When: Do not use it to punish randomly; attach it to visible fiction.
+- Question: What does the GM get?
+- Answer: The GM gains Fear and spends it to make the situation more dangerous or complicated.
+- Example: A roll with Fear lets the Bramble ambush tighten around the carriage.
+- Related: gm-moves adversary-spotlight
+- Aliases: with Fear GM Fear fear spend
+- Source: Official SRD / local quickstart reference. Use private full-rulebook material only at the table.
+- Mechanic Profile: mechanic-profile-v1 fear Fear with Fear GM Fear fear spend Fear resource #rules-canon Beginner gm-moves adversary-spotlight Introduce at first use gm-moves adversary-spotlight GM pressure resource gained on Fear results and spent to escalate. The GM gains Fear and spends it to make the situation more dangerous or complicated. Use to make moves, spotlight threats, or trigger Fear features. Fear: GM pressure resource gained on Fear results and spent to escalate. Use to make moves, spotlight threats, or trigger Fear features. The GM gains Fear and spends it to make the situation more dangerous or complicated. Return to the fiction with the concrete result, cost, or benefit. A roll with Fear lets the Bramble ambush tighten around the carriage. A roll with Fear lets the Bramble ambush tighten around the carriage. What does the GM get? Fear with Fear GM Fear fear spend gm-moves adversary-spotlight Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use.
+- Canon Status: #rules-canon
+- Category: resource
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash c8c359266be35366 | Source hash dac3370046ed077140fab2d6

@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "spirekeeper",
+  "kind": "entity",
+  "title": "Spirekeeper",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "a sleepless keeper of relay mechanisms, bell chains, and failing signal lights",
+  "hook": "a sleepless keeper of relay mechanisms, bell chains, and failing signal lights",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "A narrow, sleepless keeper in dark maintenance robes stands among hanging bells and relay chains, blue glass pendant at her chest and a keyring tucked into both hands."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "Sleepless devotion to a fragile chain of care strung between far places. Ties a knot in a cord for every missed reply. Her worst fear is being the last person who knows a call went unanswered."
+    },
+    {
+      "label": "Might Offer",
+      "body": "A human face for failing infrastructure A clue about missed relay signals A reason to care before the next adventure starts"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "A human face for failing infrastructure",
+    "A clue about missed relay signals",
+    "A reason to care before the next adventure starts"
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:spirekeeper",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "703b513758ade303",
+  "generated_at": "2026-06-23T21:40:58"
+}

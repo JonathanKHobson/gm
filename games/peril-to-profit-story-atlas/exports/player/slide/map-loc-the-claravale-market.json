@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "MAP-LOC-the-claravale-market",
+  "kind": "slide",
+  "title": "MAP-LOC-the-claravale-market - The Claravale Market Location Map",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act Three: Seeking a Custodian",
+  "hook": "Claravale Market turns forest wonder into breakfast, tools, gossip, and pocket-sized miracles: local stalls beside a few too-clean branded carts.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "Claravale Market turns forest wonder into breakfast, tools, gossip, and pocket-sized miracles: local stalls beside a few too-clean branded carts."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Claravale Market turns forest wonder into breakfast, tools, gossip, and pocket-sized miracles: local stalls beside a few too-clean branded carts."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:MAP-LOC-the-claravale-market",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "56c18062c90dbacb",
+  "generated_at": "2026-06-23T21:40:58"
+}

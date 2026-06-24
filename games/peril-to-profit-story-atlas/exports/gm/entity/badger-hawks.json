@@ -1,0 +1,37 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "badger-hawks",
+  "title": "Badger-Hawks",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "3814e5575184482e",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Badger-Hawks: Badger-hawks dive like feathered trouble, stealing catches off lines and sometimes trying to carry off the fisher's dignity with them."
+    },
+    {
+      "title": "Public role",
+      "body": "Refuge fishing-line thief"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Badger-hawks dive like feathered trouble, stealing catches off lines and sometimes trying to carry off the fisher's dignity with them."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use as a moral encounter. Reward restraint and observation without forcing a pet or mascot outcome."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 3814e5575184482e | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

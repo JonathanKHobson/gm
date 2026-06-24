@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "PROLOGUE",
+  "title": "PROLOGUE - Prologue: The Contract",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "a4c44619408719cd",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "You have a courier contract: escort a sealed package through a huge old forest to a village and get paid on delivery."
+    },
+    {
+      "title": "Public objective",
+      "body": "You have a courier contract: escort a sealed package through a huge old forest to a village and get paid on delivery."
+    },
+    {
+      "title": "GM goal",
+      "body": "Orient the players without dumping lore. Keep proper nouns gated for the played briefing."
+    },
+    {
+      "title": "GM notes",
+      "items": [
+        "Contract = overview. The Job = played briefing. Entering Sablewood = threshold transition.",
+        "The package's true name stays out of player-facing Prologue text."
+      ]
+    },
+    {
+      "title": "GM script",
+      "body": "All right, we are moving from Session Zero into the fiction. Here is what your characters know before the first conversation: you have a courier contract, the pay is good, the package is sealed, and the route runs through a huge old forest to a small village. You do not need to know the names yet. If you want details, ask the contact once the scene starts."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash a4c44619408719cd | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,453 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2581 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-hushtm-community-enclave - Hush? Community Enclave Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(Near the village entrance, a polished official sign and neat route stones sit beside) Tj
+T*
+(handmade clover charms and scuffed local paths. The sign looks newer than the place, and) Tj
+T*
+(colder.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(Near the village entrance, a polished official sign and neat route stones sit beside) Tj
+T*
+(handmade clover charms and scuffed local paths. The sign looks newer than the place, and) Tj
+T*
+(colder.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-hushtm-community-enclave) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: ACT-THREE) Tj
+T*
+(- Sectiontitle: Act Three: Seeking a Custodian) Tj
+T*
+(- Title: Hush? Community Enclave Location Map) Tj
+T*
+(- Shorttitle: The Official Sign) Tj
+T*
+(- Order: 401.16) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-hushtm-community-enclave-gm.png) Tj
+T*
+(- Alt: Hush? Community Enclave location map board.) Tj
+T*
+(- Caption: Visual reference for Hush? Community Enclave.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Use this as the GM-only / sharp-PC corporate lens on the same village:) Tj
+T*
+(  official signage, compliance stamps, ledgers, and the gap between the label and the) Tj
+T*
+(  people.) Tj
+T*
+(- Publicobjective: Near the village entrance, a polished official sign and neat route) Tj
+T*
+(  stones sit beside handmade clover charms and scuffed local paths. The sign looks) Tj
+T*
+(  newer than the place, and colder.) Tj
+T*
+(- Readaloud: Near the village entrance, a polished official sign and neat route stones) Tj
+T*
+(  sit beside handmade clover charms and scuffed local paths. The sign looks newer than) Tj
+T*
+(  the place, and colder.) Tj
+T*
+(- Gmscript: Say: "Player-facing, this is just the official sign at Hush. GM-facing, it) Tj
+T*
+(  is the corporate lens: the place as paperwork, not the place as people.") Tj
+T*
+(- Gmreadaloud: The sign is polished. The local charms are handmade and thumb-worn. The) Tj
+T*
+(  gap between those two facts is the whole point.) Tj
+T*
+(- Gmchecklist: Do not project the trademarked/corporate framing unless earned. Use) Tj
+T*
+(  this map for Barnacle/Garrick/Marlowe corporate-seam reads. Route back to Hush, the) Tj
+T*
+(  market, Co-op, or farms.) Tj
+T*
+(- Gmprivate: GM-only: Hush is logged as managed protective infrastructure. This is a) Tj
+T*
+(  seed, not a reveal.) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 3979 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Playertakeaway: Near the village entrance, a polished official sign and neat route) Tj
+T*
+(  stones sit beside handmade clover charms and scuffed local paths. The sign looks) Tj
+T*
+(  newer than the place, and colder.) Tj
+T*
+(- Storytakeaway: The official sign shows the first visible gap between lived community) Tj
+T*
+(  and corporate classification.) Tj
+T*
+(- Mechanictakeaway: Instinct or Knowledge 13 can read the official seam and set) Tj
+T*
+(  ward_awareness or hush_clues.) Tj
+T*
+(- Entityids: hush hushtm-community-enclave emeris-crown-holdings ratcoons festival-) Tj
+T*
+(  moths young-dryads) Tj
+T*
+(- Entities: hush Hush location Location assets/icons/location.png assets/location-) Tj
+T*
+(  visuals/hush/profile_scene_v02.png hush, like quiet A real village under corporate) Tj
+T*
+(  designation, protected by ward pillars. Make Hush feel worth protecting before the) Tj
+T*
+(  finale asks the party to protect it. The Village A small forest village, named only) Tj
+T*
+(  once the players ask where the package is going. Warm local community with jokes,) Tj
+T*
+(  food, arguments, work songs, children, elders, and a very real need for the ward to) Tj
+T*
+(  hold. Another season of safety, crops, music, ordinary life, and visitors who learn) Tj
+T*
+(  the old name before the corporate one. A real village under corporate designation,) Tj
+T*
+(  protected by ward pillars. hushtm-community-enclave Hush? Community Enclave location) Tj
+T*
+(  Location assets/icons/location.png assets/location-visuals/hushtm-community-) Tj
+T*
+(  enclave/profile_scene_v02.png hush kuh-MYOO-nih-tee EN-klayv Goldspire?s name for) Tj
+T*
+(  Hush; locals mostly ignore the trademark. Let the party feel the difference between) Tj
+T*
+(  arriving at a place and arriving at a label. Goldspire?s name for Hush; locals) Tj
+T*
+(  mostly ignore the trademark.; introduce it with a sensory palette, who feels safe) Tj
+T*
+(  there, and what has been neglected. Pull player attention...) Tj
+T*
+(- Locationids: hush hushtm-community-enclave) Tj
+T*
+(- Statecontrols: hush_trust Hush Trust select low neutral high ward_awareness Ward) Tj
+T*
+(  Awareness select none seed aware hush_clues Hush Clues select none custodian_route) Tj
+T*
+(  ward_seed corporate_seam farm_seed market_rumor multiple) Tj
+T*
+(- Mechanicids: instinct knowledge presence) Tj
+T*
+(- Fearspends: A local repeats the trademarked name with a smile that does not reach) Tj
+T*
+(  their eyes. The entry ward flickers while paperwork language is invoked.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S03-01) Tj
+T*
+(- Mapdata: MAP-LOC-hushtm-community-enclave environment Hush? Community Enclave) Tj
+T*
+(  Location Map S03-01 hush hushtm-community-enclave emeris-crown-holdings ratcoons) Tj
+T*
+(  festival-moths young-dryads assets/location-visuals/hushtm-community-) Tj
+T*
+(  enclave/profile_scene_v02.png Visual reference for Hush? Community Enclave. Hush?) Tj
+T*
+(  Community Enclave location map board. Near the village entrance, a polished official) Tj
+T*
+(  sign and neat route stones sit beside handmade clover charms and scuffed local) Tj
+T*
+(  paths. The sign looks newer than the place, and colder. Near the village entrance, a) Tj
+T*
+(  polished official sign and neat route stones sit beside handmade clover charms and) Tj
+T*
+(  scuffed local paths. The sign looks newer than the place, and colder. Use this as) Tj
+T*
+(  the GM-only / sharp-PC corporate lens on the same village: official signage,) Tj
+T*
+(  compliance stamps, ledgers, and the gap between the label and the people. A polished) Tj
+T*
+(  official sign and neat route stones frame a village that keeps interrupting the) Tj
+T*
+(  label with charms, scuffed paths, and hand repairs. The entry ward hums unevenly;) Tj
+T*
+(  someone inside laughs, then lowers their voice; a sign chain taps in the damp wind.) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4301 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Damp paint, moss, warm bread from deeper in town, and the brass smell of a...) Tj
+T*
+(- Sourcefiles: dist/Act3_Upgrade_Packet/ACT3_MAPS_AND_LOCATIONS.md) Tj
+T*
+(- References: Hush hub #MAP-LOC-hush) Tj
+T*
+(- Livetools: scene MAP-LOC-hushtm-community-enclave) Tj
+T*
+(- Percharacterlayer: garrick-reed Garrick Reed Management under warmth Notices the) Tj
+T*
+(  town logistics run with corporate efficiency under the folksy surface. Instinct 13) Tj
+T*
+(  There are company minders in Hush dressed as ordinary locals. Can talk crew-to-crew) Tj
+T*
+(  with ex-company locals and earn practical trust. Garrick, under the warmth, this) Tj
+T*
+(  town runs like a company op. Want to read who is minding it? khari-nix Khari Nix) Tj
+T*
+(  Trusted protector Protective people recognize her as protective and confide faster.) Tj
+T*
+(  Can be the one a worried local trusts with the keeper's location. Khari, they want) Tj
+T*
+(  to tell you where she is. Want to be the one they trust with it? barnacle Barnacle) Tj
+T*
+(  Paperwork seam Finds the supply manifests, tucked compliance office, and tiny signs) Tj
+T*
+(  that safety has an owner. Instinct 13 Hush is registered and inventoried; a managed) Tj
+T*
+(  place wearing a village's face. Keep the label GM-gated. Can find who handles) Tj
+T*
+(  records without making the table listen to a lore dump. Barnacle, peel back the) Tj
+T*
+(  charm and there is paperwork. Want to find who holds the deed to safe? marlowe-) Tj
+T*
+(  fairwind Marlowe Fairwind Package weight Knowledge 13 The fading ward and the) Tj
+T*
+(  package resonate; every local thanks the ward and makes the cargo feel...) Tj
+T*
+(- Gmbeats: MAP-LOC-hushtm-community-enclave-sign Sign The official sign Say: "Player-) Tj
+T*
+(  facing: official sign. GM-facing: corporate lens." A polished sign tries to define) Tj
+T*
+(  the place before its people do. The label conflicts with lived community.) Tj
+T*
+(  Instinct/Knowledge 13 reads the seam. Players can notice the sign without receiving) Tj
+T*
+(  the reveal. Player takeaway Players can notice the sign without receiving the) Tj
+T*
+(  reveal. "Player-facing: official sign. GM-facing: corporate lens." "The playable) Tj
+T*
+(  fact is: A polished sign tries to define the place before its people do." Concrete) Tj
+T*
+(  actions for this beat: talk to a person present, inspect the named detail, help an) Tj
+T*
+(  ally, or choose whether to move toward the Custodian route. instinct knowledge Story) Tj
+T*
+(  takeaway The label conflicts with lived community. "Player-facing: official sign.) Tj
+T*
+(  GM-facing: corporate lens." "The story fact in play is: The label conflicts with) Tj
+T*
+(  lived community." This beat changes Act 3 through this exact pressure: The label) Tj
+T*
+(  conflicts with lived community. instinct knowledge Mechanic takeaway) Tj
+T*
+(  Instinct/Knowledge 13 reads the seam. "Player-facing: official sign. GM-facing:) Tj
+T*
+(  corporate lens." "The active procedure is: Instinct/Knowledge 13 reads the...) Tj
+T*
+(- Takeawayhelp: Player takeaway Players can inspect the official sign without) Tj
+T*
+(  receiving the corporate reveal. "The sign is official and newer than the place. The) Tj
+T*
+(  locals mostly ignore it." "You can ask what locals call the village, study the) Tj
+T*
+(  marks, or move deeper toward the warm parts of town." Player-safe language is) Tj
+T*
+(  official sign, official marks, and local name. Keep the trademarked/corporate lens) Tj
+T*
+(  GM-only until earned. instinct knowledge Story takeaway The sign frames the gap) Tj
+T*
+(  between a living place and a managed asset. "The village feels older, warmer, and) Tj
+T*
+(  more stubborn than the label trying to sit on it." "Sharp read: the paperwork is not) Tj
+T*
+(  decoration. It records protection as infrastructure." This is a seed for later) Tj
+T*
+(  reveals; it should create suspicion, not an answer key. instinct knowledge Mechanic) Tj
+T*
+(  takeaway Instinct or Knowledge can turn signage into a clue. "Instinct 13 catches) Tj
+T*
+(  who watches you notice the sign. Knowledge 13 reads what the stamps legally) Tj
+T*
+(  describe." "A success can set hush_clues=corporate_seam or ward_awareness=seed." Use) Tj
+T*
+(  this map when Barnacle/Garrick/Marlowe want to pull at the paperwork layer. instinct) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 3079 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  knowledge) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-hushtm-community-enclave.png The Official Sign map) Tj
+T*
+(  board. MAP-LOC-hushtm-community-enclave environment The Official Sign S03-01) Tj
+T*
+(  assets/maps/MAP-LOC-hushtm-community-enclave.png assets/maps/MAP-LOC-hushtm-) Tj
+T*
+(  community-enclave.png The Official Sign map board. Near the village entrance, a) Tj
+T*
+(  polished official sign and neat route stones sit beside handmade clover charms and) Tj
+T*
+(  scuffed local paths. The sign looks newer than the place, and colder. Near the) Tj
+T*
+(  village entrance, a polished official sign and neat route stones sit beside handmade) Tj
+T*
+(  clover charms and scuffed local paths. The sign looks newer than the place, and) Tj
+T*
+(  colder. Official sign The brand is newer than the place. 0.36 0.3 MAP-LOC-hushtm-) Tj
+T*
+(  community-enclave-map-only Map only The Official Sign map-only assets/maps/MAP-LOC-) Tj
+T*
+(  hushtm-community-enclave.png The Official Sign map board. MAP-LOC-hushtm-community-) Tj
+T*
+(  enclave environment The Official Sign S03-01 assets/maps/MAP-LOC-hushtm-community-) Tj
+T*
+(  enclave.png assets/maps/MAP-LOC-hushtm-community-enclave.png The Official Sign map) Tj
+T*
+(  board. Near the village entrance, a polished official sign and neat route stones sit) Tj
+T*
+(  beside handmade clover charms and scuffed local paths. The sign looks...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-hushtm-community-enclave map The Official Sign) Tj
+T*
+(  assets/maps/MAP-LOC-hushtm-community-enclave.png The Official Sign map board.) Tj
+T*
+(  spatial reference and location texture Near the village entrance, a polished) Tj
+T*
+(  official sign and neat route stones sit beside handmade clover charms and scuffed) Tj
+T*
+(  local paths. The sign looks newer than the place, and colder. Near the village) Tj
+T*
+(  entrance, a polished official sign and neat route stones sit beside handmade clover) Tj
+T*
+(  charms and scuffed local paths. The sign looks newer than the place, and colder.) Tj
+T*
+(  MAP-LOC-hushtm-community-enclave environment The Official Sign S03-01) Tj
+T*
+(  assets/maps/MAP-LOC-hushtm-community-enclave.png assets/maps/MAP-LOC-hushtm-) Tj
+T*
+(  community-enclave.png The Official Sign map board. Near the village entrance, a) Tj
+T*
+(  polished official sign and neat route stones sit beside handmade clover charms and) Tj
+T*
+(  scuffed local paths. The sign looks newer than the place, and colder. Near the) Tj
+T*
+(  village entrance, a polished official sign and neat route stones sit beside handmade) Tj
+T*
+(  clover charms and scuffed local paths. The sign looks newer than the place, and) Tj
+T*
+(  colder. Official sign The brand is newer than the place. 0.36 0.3...) Tj
+T*
+(- Slidenumber: 42) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash a3e7b658b67916dd | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R] /Count 4 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000002642 00000 n 
+0000002769 00000 n 
+0000006800 00000 n 
+0000006927 00000 n 
+0000011280 00000 n 
+0000011407 00000 n 
+0000014538 00000 n 
+0000014665 00000 n 
+0000014740 00000 n 
+0000014790 00000 n 
+trailer
+<< /Size 12 /Root 10 0 R >>
+startxref
+14863
+%%EOF

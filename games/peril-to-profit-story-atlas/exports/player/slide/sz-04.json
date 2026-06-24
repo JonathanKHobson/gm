@@ -1,0 +1,42 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "SZ-04",
+  "kind": "slide",
+  "title": "SZ-04 - Character Selection / Sheet Orientation",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Session Zero",
+  "hook": "In front of you: a character sheet, quick rules card, connection sheet, and safety card. Your sheet tells you who your character is, what they are good at, what they can do, and how much pressure or harm they can take.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "In front of you: a character sheet, quick rules card, connection sheet, and safety card. Your sheet tells you who your character is, what they are good at, what they can do, and how much pressure or harm they can take."
+    },
+    {
+      "label": "Public Objective",
+      "body": "In front of you: a character sheet, quick rules card, connection sheet, and safety card. Your sheet tells you who your character is, what they are good at, what they can do, and how much pressure or harm they can take."
+    },
+    {
+      "label": "Player Bullets",
+      "body": "Look for: name and vibe, traits, Experiences, weapons/actions, Hope, Stress, Hit Points, Armor, and class/domain abilities. Pick or confirm a character. If you chose ahead of time, make sure the sheet in front of you..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Look for: name and vibe, traits, Experiences, weapons/actions, Hope, Stress, Hit Points, Armor, and class/domain abilities.",
+    "Pick or confirm a character. If you chose ahead of time, make sure the sheet in front of you matches that choice.",
+    "Marlowe Fairwind - playable Loreborne Elf Sorcerer pregen and default package custodian; she receives the job with the crew.",
+    "Barnacle - sneaky rogue with questionable logistics instincts."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:SZ-04",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "750ba09241cc841d",
+  "generated_at": "2026-06-23T21:40:58"
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "presence",
+  "kind": "rule",
+  "title": "Presence",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "trait",
+  "hook": "Charm, perform, deceive, lead, soothe, or intimidate socially.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Charm, perform, deceive, lead, soothe, or intimidate socially."
+    },
+    {
+      "label": "How It Works",
+      "body": "Presence: Charm, perform, deceive, lead, soothe, or intimidate socially."
+    },
+    {
+      "label": "Try It",
+      "body": "Is this Persuasion?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use when the character's force of personality matters.",
+    "Usually Presence.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:presence",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "32878f81b2f2ff01",
+  "generated_at": "2026-06-23T21:40:58"
+}

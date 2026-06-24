@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "MAP-LOC-hush-safe-irrigation-path",
+  "title": "MAP-LOC-hush-safe-irrigation-path - Hush Safe Irrigation Path Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "59682690179b4ac1",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "A narrow farm path follows glowing irrigation water through moss, boards, root lips, and quiet field marks. It is easy to walk when someone has shown you what the marks mean."
+    },
+    {
+      "title": "Public objective",
+      "body": "A narrow farm path follows glowing irrigation water through moss, boards, root lips, and quiet field marks. It is easy to walk when someone has shown you what the marks mean."
+    },
+    {
+      "title": "GM goal",
+      "body": "Use this as the trust-earned safe route toward the Act 4 bridge."
+    },
+    {
+      "title": "GM script",
+      "body": "Say: \"If custodian_route is safe, this path is the reward. A guide or clear local directions gets them through without an approach hazard.\""
+    },
+    {
+      "title": "State controls",
+      "items": [
+        "custodian_route Custodian Route select unknown safe dangerous",
+        "hush_trust Hush Trust select low neutral high"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 59682690179b4ac1 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "difficulty",
+  "kind": "rule",
+  "title": "Difficulty",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "core-roll",
+  "hook": "The target number for a roll.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "The target number for a roll."
+    },
+    {
+      "label": "How It Works",
+      "body": "Difficulty: The target number for a roll."
+    },
+    {
+      "label": "Try It",
+      "body": "What number do I need?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use whenever the outcome needs a clear hinge.",
+    "The GM sets the Difficulty; beginner hinges often sit around 10-14.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:difficulty",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "b9d65bded4ed3d96",
+  "generated_at": "2026-06-23T21:40:58"
+}

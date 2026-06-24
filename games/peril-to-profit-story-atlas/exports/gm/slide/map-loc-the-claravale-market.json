@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "MAP-LOC-the-claravale-market",
+  "title": "MAP-LOC-the-claravale-market - The Claravale Market Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "7264376b76db05b8",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "Claravale Market turns forest wonder into breakfast, tools, gossip, and pocket-sized miracles: local stalls beside a few too-clean branded carts."
+    },
+    {
+      "title": "Public objective",
+      "body": "Claravale Market turns forest wonder into breakfast, tools, gossip, and pocket-sized miracles: local stalls beside a few too-clean branded carts."
+    },
+    {
+      "title": "GM goal",
+      "body": "Use the market for supplies, rumors, a festival boon, and a player-safe corporate/local seam."
+    },
+    {
+      "title": "GM script",
+      "body": "Say: \"The market is useful if they want a rumor, a small item, or a visible seam between local craft and imported corporate goods.\""
+    },
+    {
+      "title": "State controls",
+      "items": [
+        "festival_boon Festival Boon select none charm favor market_find goodwill",
+        "hush_clues Hush Clues select none custodian_route ward_seed corporate_seam farm_seed market_rumor multiple",
+        "ward_awareness Ward Awareness select none seed aware"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 7264376b76db05b8 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

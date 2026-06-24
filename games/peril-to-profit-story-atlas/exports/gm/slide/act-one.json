@@ -1,0 +1,33 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "ACT-ONE",
+  "title": "ACT-ONE - Act One: The Logistics Incident",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "f98854250d9948f4",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The warded city is behind you now. The road runs on under a canopy so high you never see it move, and the carriage rocks along ruts older than any company that claims this forest. The job is simple: deliver the package, get paid. The forest, so far, has other ideas."
+    },
+    {
+      "title": "Public objective",
+      "body": "Get the carriage and the sealed package moving again, then continue through the preserve toward the village."
+    },
+    {
+      "title": "GM goal",
+      "body": "Open Act 1 as the first road complication: the routine courier job stops, the forest feels dangerous, and the first real rolls become possible."
+    },
+    {
+      "title": "GM script",
+      "body": "All right, this is where the road starts pushing back. Your job has not changed: keep the package safe, keep the carriage moving, and get through the preserve. What changes now is that the forest stops behaving like a company route map."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash f98854250d9948f4 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

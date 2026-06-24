@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "halython-s-fox-bat-companion",
+  "kind": "entity",
+  "title": "Halython's Fox-Bat Companion",
+  "in_world_label": "Field Guide Page",
+  "brand_flag": "Player-safe",
+  "kicker": "Creature / Animal",
+  "hook": "Player-safe note: A tiny russet fox-bat with huge ears, folded wings like a cloak, clever paws, and bright eyes that make Halython's card table feel watched by something playful.",
+  "blocks": [
+    {
+      "label": "Observed Form",
+      "body": "Foxlike face, oversized bat ears, delicate folded wings, tiny paws on a mossy branch, and a mischievous expression warmed by Sablewood light."
+    },
+    {
+      "label": "Behavior",
+      "body": "A pocket of curiosity with folded-cloak wings, perched where it can watch every hand at the card table. Bonded to Halython without being owned by anyone. Reads a room faster than most people and judges it kindly."
+    },
+    {
+      "label": "Warning Signs",
+      "body": "Being grabbed, caged, or treated as a party trick instead of a companion."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Give it distance before deciding it is hostile.",
+    "Read posture, tracks, and what it is protecting."
+  ],
+  "archetype": "creature.field_guide",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:halython-s-fox-bat-companion",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "57a2470d179de1c1",
+  "generated_at": "2026-06-23T21:40:58"
+}

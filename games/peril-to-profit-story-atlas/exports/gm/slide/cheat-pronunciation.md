@@ -1,0 +1,263 @@
+# CHEAT-PRONUNCIATION - Pronunciation Guide
+
+GM export - slide:CHEAT-PRONUNCIATION
+
+## GM goal
+Keep speech fluid while running the table.
+
+## GM notes
+- Adversary Attack Rolls: Adversary Attack Rolls
+- Adversary Spotlight: Adversary Spotlight
+- Ambush Roadblock: Ambush Roadblock
+- Armor Slot: Armor Slot
+- Artemis Inc: AR-tuh-miss ink
+- Athervast: A-thur-vast
+- Auditor Holle: AW-dit-er HOL
+- Auditor's Verdict Ledger™: AW-dih-terz VER-dikt LEJ-er
+- Badger-Hawks: BAJ-er hawks
+- Bag of Mixed Chits: Bag uv Mixed Chits
+- Barnacle: BAR-nuh-kul
+- Bramble Claim Marker: BRAM-bul Claim Marker
+- Bramble Stone Tumblers: BRAM-bul Stone Tumblers
+- Bramble Strand: BRAM-bul Strand
+- Bramble Union: BRAM-bul YOO-nyun
+- Bramble Union Ambusher: BRAM-bul YOO-nyun AM-boosh-er
+- Bramble Union Claimrunner: BRAM-bul YOO-nyun KLAYM-run-er
+- Bramble Union Loot: BRAM-bul YOO-nyun Loot
+- Bramble Union Stoneweave: BRAM-bul YOO-nyun STOHN-weev
+- Bramble Union Villages: BRAM-bul YOO-nyun VIL-ij-ez
+- Bramble Ward-Scrap Charm Cluster: BRAM-bul WORD-skrap CHARM KLUS-ter
+- Bramble-Are-Criminals Notice™: BRAM-bul ar KRIM-ih-nulz NOH-tis
+- Bramble-Cutter's Hook: Bramble-cutter's Hook
+- Brannic Mossvein: BRAN-ik MOSS-vayn
+- Bugbane Berry™: BUG-bayn BAIR-ee
+- Bullfrog: BULL-frog
+- Cat-Squirrels: KAT SKWUR-uhlz
+- Centi-Beetles: SEN-tee BEE-tuhlz
+- Claimrunner Serrated Blade: KLAYM-run-er sair-AY-ted BLAYD
+- Clover Co-op: KLOH-ver KOH-op
+- Clover Cord Bracelet: KLOH-ver Cord Bracelet
+- Comfort Blanket: Comfort Blanket
+- Compliance Stamp (forged): Compliance Stamp Forged
+- Corporate Route Bell: Corporate Route Bell
+- Corporate Seal Wax Residue: Corporate seel Wax Residue
+- Cracked Pocket Ward™: KRAKT POK-et WORD
+- Craymeleon: kray-MEEL-ee-un
+- Custodian Tea Cup: Custodian Tea Cup
+- D&D Conversion: D and D Conversion
+- Damage / Armor: Damage Armor
+- Difficulty Ladder: Difficulty Ladder
+- Disposition / Resolution Track: Disposition Resolution Track
+- Duality Dice: Duality Dice
+- Dungeon Workers' Alliance: DUN-jun WUR-kerz uh-LY-unss
+- Duskwatch Exchange: Duskwatch eks-CHAYNJ
+- Dustless Ward Map: DUST-lis WORD MAP
+- Eeligator: EE-lih-gay-ter
+- Eeligator Scale Shield: EE-lih-gay-tor SKAYL SHEELD
+- Ember Lake: EM-ber layk
+- Emeris: EM-er-iss
+- Emeris Capital Gate: EM-er-iss Capital Gate
+- Emeris Clerk: EM-er-iss klurk
+- Emeris Crown Holdings: EM-er-iss krown HOHL-dingz
+- Escort Carriage: Escort Carriage
+- Faceless Six: FAYS-less siks
+- Fear: Fear
+- Feeding, Not Hunting: FEE-ding, not HUN-ting
+- Festival Moths: FES-tih-vul Moths
+- Fidget: FID-jit
+- Fire Solutions: FY-er so-LOO-shunz
+- Fire Wine™: FYR WYN
+- Fire-Falcons: FYRE FAL-kuns
+- Firstmoss Launch Festival: FIRST-moss lawnch FES-tih-vul
+- Firstmoss Poultice: FIRST-moss Poultice
+- Forgotten Gods: for-GOT-en godz
+- Fox-Bats: FAHKS bats
+- Garrick Reed: GAIR-ick REED
+- Giraffe-Deer: jih-RAF deer
+- Glass-Bright Ward Sand: GLAS-BRYT WORD SAND
+- GM Moves: Gm Moves
+- GM Rules Drawer: Gm Rules Drawer
+- Goldspire Logistics: GOLD-spire loh-JIS-tiks
+- Goldspire Permit Seal: GOLD-spire PER-mit seel
+- Goldspire Territories: GOLD-spire TAIR-ih-tor-eez
+- Goldspire Ward Network: GOLD-spire ward Network
+- Goldspire Waymarkers: GOLD-spire WAY-mar-kerz
+- Goldwater Financial Institution: GOLD-waw-ter fy-NAN-shul in-stih-TOO-shun
+- Goldwater Liability Token™: GOHLD-waw-ter ly-uh-BIL-ih-tee TOH-ken
+- Goldwater-Grail Toll Crew: GOLD-waw-ter grayl TOHL kroo
+- Grindstone Vial: Grindstone Vial
+- Guest Privileges: Guest Privileges
+- Halython Fives: HAL-ee-thon FIVES
+- Halython's Fox-Bat Companion: HAL-ee-thon's FOKS-bat kum-PAN-yun
+- Hanging Office Winch: HANG-ing AW-fiss Winch
+- Hazard-Indexed Pricing: Hazard-indexed Pricing
+- Helena Corain: heh-LAY-nuh koh-RAYN
+- Hellbender: HEL-ben-der
+- Hexmart: HEKS-mart
+- Hexmart Pocket Ward™ (cracked): HEKS-mart Pocket ward Cracked
+- Hidden: Hidden
+- Hope: Hope
+- Horse-Goats: HORS gohts
+- Hunting Trees: HUN-ting TREEZ
+- Hush: hush, like quiet
+- Hush Farms: hush farmz
+- Hush Safe Irrigation Path: hush sayf IR-ih-GAY-shun path
+- Hush™ Community Enclave: hush kuh-MYOO-nih-tee EN-klayv
+- Incident Response Placard™: IN-sih-dent rih-SPONS PLAK-erd
+- Inspection-Sealed Counterweight: Inspection-sealed Counterweight
+- Inspector Pelt: in-SPEK-ter PELT
+- Kazrak Adventurer Certification™: KAZ-rak ad-VEN-chur-er ser-tih-fih-KAY-shun
+- Kazrak Industries: KAZ-rak industries
+- Kett Alderhook: KET AWL-der-hook
+- Keystone Asset™: KEE-stohn ASS-et
+- Khari Nix: KAH-ree NIKS
+- Lark-Moth Lantern: Lark-moth Lantern
+- Lausa Standworth: LOW-suh STAND-worth
+- Legacy Security Badge: LEG-uh-see seh-KYUR-ih-tee Badge
+- Legacy Security Skeleton: LEG-uh-see seh-KYUR-ih-tee SKEL-eh-tun
+- Lemur-Toads: LEE-mur tohdz
+- Lucent Water™: LOO-sent WAW-ter
+- Mama Suet: MAH-muh SOO-et
+- Manufactured-Threat Future Thread: Manufactured-threat Future Thread
+- Market Correction: MAR-kit Correction
+- Marlowe Fairwind: MAR-low FAIR-wind
+- Mist-Things: MIST thingz
+- Mithril & Mortar: MITH-ril and MOR-ter
+- Moonglow: MOON-gloh
+- Moss-Honey Jar: Moss-honey Jar
+- Moth-Possums: MAWTH PAH-sumz
+- Mountain Crabs: MOUN-tin KRABZ
+- Nature-Is-Deadly Placard™: NAY-cher iz DED-lee PLAK-erd
+- Nettle: NET-ul
+- No Predator Wounds: no PRED-uh-ter WOONDZ
+- NPC / Community Trust Track: Npc Community Trust Track
+- Official Conditions: Official Conditions
+- Old Contract Tags: OHLD KON-trakt TAGZ
+- Old Gregor: old GREG-er
+- Old Sable: ohld SAY-bul
+- Old Sable Canopy Road: ohld SAY-bul KAN-uh-pee rohd
+- Open Vale Ward Lines: OH-pen vayl ward linez
+- Open Vale™ Ritual Site: OH-pen vayl RICH-oo-ul site
+- Overturned Wheel Ruts: OH-ver-turnd WHEEL RUTS
+- Perrin Oake: PEH-rin OHK
+- Proven Navir: PROH-ven nah-VEER
+- Public-Private Ward Compact: PUB-lik PRY-vit WORD KOM-pakt
+- Rabbit-Gliders: RAB-it GLY-derz
+- Ratcoons: rat-KOONZ
+- Recall Stone: rih-KAWL STOHN
+- Reclaimer Personal Effects: rih-KLAY-mer PER-suh-nul ih-FEKTS
+- Relay Spire: REE-lay spy-er
+- Relay Tremor Notation: REE-lay Tremor Notation
+- Restorative Ash™: rih-STOR-uh-tiv ASH
+- Restrained: Restrained
+- Ritual Countdown: Ritual Countdown
+- Root Blockage: Root Blockage
+- Root's Hollow: roots HAH-loh
+- Route Assurance Contract: Route Assurance Contract
+- Route Assurance Contract™: ROOT uh-SHOOR-ints KON-trakt
+- Route Ledger: ROOT LEJ-er
+- RuneSpark Entertainment: ROON-spark entertainment
+- Rye Underbough: RYE UN-der-bow
+- Sabine Quillon: suh-BEEN kee-YON
+- Sable Sap: SAY-bul SAP
+- Sable Sinecure Secret Caches: SAY-bul SY-nih-kyoor Secret Caches
+- Sableblade: SAY-bul-blayd
+- Sableleaf Shoes: SAY-bul-leef SHOOZ
+- Sablewood Fear Moments: SAY-bul-wood Fear Moments
+- Sablewood Hope Moments: SAY-bul-wood Hope Moments
+- Sablewood Hybrid Fauna: SAY-bul-wood Hybrid Fauna
+- Sablewood Route Gate: SAY-bul-wood Route Gate
+- Sablewood Route Network: SAY-bul-wood Route Network
+- Sablewood™ Logistics Preserve: SAY-bul-wood loh-JIS-tiks preh-ZURV
+- Sealed Keystone Crate: Sealed KEY-stohn krayt
+- Short Rest: Short Rest
+- Simrith Luhaj: SIM-rith loo-HAJ
+- Slyborne Crew: SLY-born kroo
+- Slyborne Hideout: SLY-born Hideout
+- Soul-Audit Memory Shard: SOHL-AW-dit MEM-uh-ree SHARD
+- Soul-Audit Wraith: SOHL AW-dit RAYTH
+- Soul-Quiet Charm: Soul-quiet Charm
+- Soulspire Solutions: SOHL-spire solutions
+- Spidermanders: SPY-der-MAN-derz
+- Spirekeeper: SPIRE-kee-per
+- Spirekeeper Relay Keyring: SPYR-kee-per RAY-lay KEE-ring
+- Stress: Stress
+- Stride Salve: Stride Salve
+- Strixwolf: STRIKS-woolf
+- Strixwolf Mother: STRIKS-woolf MUTH-er
+- Strixwolf Pup One: STRIKS-woolf pup wun
+- Strixwolf Pup Two: STRIKS-woolf pup too
+- Strixwolf-Down Cloak: Strixwolf-down Cloak
+- Sunfire Lily: Sunfire Lily
+- Sunless-Farm Moss: Sunless-farm Moss
+- Tamsin Vell: TAM-zin VEL
+- Tamsin's Home-Token: TAM-zinz HOHM TOH-ken
+- Tamsin's Wedding Cord: TAM-sinz WED-ing KORD
+- The Ash Quarry: the ASH KWOR-ee
+- The Catcher's Cradles: the KATCH-erz KRAY-dulz
+- The Cheerful Ledger: the CHEER-ful LEJ-er
+- The Claravale Market: the KLAIR-uh-vayl MAR-kit
+- The Convenient Renewal: the kun-VEEN-yent rih-NOO-ul
+- The Drained Water: the DRAYND WAW-ter
+- The Fire Walk: the FYRE wawlk
+- The Glimpse: the GLIMPSS
+- The Goldspire Relay: the GOLD-spire REE-lay
+- The Grail: the grayl
+- The Hanging Office: the HANG-ing AW-fiss
+- The Held Blow: the HELD BLOH
+- The High Falls: the HY fawlz
+- The Interrogation Answer: the in-TAIR-uh-GAY-shun AN-ser
+- The Latch: the latch, like a gate latch
+- The Late Tracks: the LAYT TRAKS
+- The Lucent River: the LOO-sent RIV-er
+- The Midnight Cabal: the MID-nyte kuh-BAHL
+- The Miremist: the MYR-mist
+- The Off Provisions: the OFF pruh-VIZH-unz
+- The Painted Joy: the PAYN-tid JOY
+- The Patched Everything: the PACHT EV-ree-thing
+- The Pre-Dated Invoice: the PREE-day-tid IN-voys
+- The Refuge: the REF-yooj
+- The Relay Keeper: the REE-lay KEE-per
+- The Sable Sinecure: the SAY-bul SY-nih-kyoor
+- The Sable Stills: the SAY-bul Stills
+- The Stones of the Vale: the stohnz uv the vayl
+- The Sunless Farms: the SUN-less farms
+- The Tired Smile: the TY-erd SMYL
+- The Titan's Steps: the TY-tunz steps
+- The Too-Neat Wreck: the TOO-NEET REK
+- The Umbrand Consortium: the UM-brand kun-SOR-shee-um
+- The Wandering Briar: the WAN-der-ing BRY-er
+- The Ward Subscription: the WORD sub-SKRIP-shun
+- The Wary Flinch: the WAIR-ee FLINCH
+- The Welcome Broadcast™: the WEL-kum BRAWD-kast
+- The Wrong Driver: the RONG DRY-ver
+- Tiger-Elk: TY-gur elk
+- Tinker's Kit, Used: Tinker's Kit Used
+- Torn Shipping Seals: TORN SHIP-ing SEELZ
+- Turtle-Mice: TUR-tuhl myss
+- Twilight Plums: Twilight Plums
+- Underroot: UN-der-root
+- Underroot Tunnels: UN-der-root TUN-ulz
+- Varian Soto: VAIR-ee-un SOH-toh
+- Vela Bramblewick: VAY-luh BRAM-bul-wik
+- Vendor Cart: Vendor Cart
+- Vial of Briarpowder: VY-uhl ov BRY-er-POW-der
+- Vulnerable: Vulnerable
+- Ward Infrastructure: ward IN-fruh-STRUHK-cher
+- Ward Renewal Chime: ward Renewal Chime
+- Ward Stability Track: ward Stability Track
+- Ward-Moths: WARD mawths
+- Wardstone: WARD-stohn
+- Whetcord: Whetcord
+- Whitefire Custodian: WHITE-fire kus-TOH-dee-un
+- Whitefire Custodian's Ward-Charm: WYT-fyr kuh-STOH-dee-anz WORD-charm
+- Wicket: WIK-it
+- Will Scild: WILL SKILD
+- Xen: ZEN
+- Yera Mossglass: YAIR-uh MOSS-glass
+- Yikyik Trahll: YIK-yik TRAHL
+- Young Dryads: yung DRY-adz
+- Zephra Exchange: ZEF-ruh eks-CHAYNJ
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash 395501e18966f8de | Source hash dac3370046ed077140fab2d6

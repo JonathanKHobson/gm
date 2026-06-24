@@ -1,0 +1,52 @@
+# The High Falls
+
+GM export - entity:the-high-falls
+
+## Player-facing description
+The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains.
+
+## Public role
+Make mystery available without pulling the one-shot off course.
+
+## Handout text
+The place where the Lucent River drops into a cave system that once held a community nobody can fully explain.
+
+## GM truth
+No forced reveal. Let this entity disclose truth through scene context and player attention.
+
+## GM handling
+Introduce with sensory texture, then make one discoverable clue or social choice visible.
+
+## Mechanics
+- Title: Location Exploration Mechanics
+- Player Safe: Players can navigate, search, read customs, inspect hazards The High Falls when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: The place where the Lucent River drops into a cave system that once held a community nobody can fully explain. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-the-high-falls-engage-the-high-falls entity-the-high-falls Engage The High Falls Engage The High Falls Instinct Knowledge Finesse Presence Instinct Knowledge, Finesse, Presence 13 Choose the trait from the player's method, not the entity type. A flat read of The High Falls hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM gains Fear. Make a hard move that...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless a hazard creates Hidden, Restrained, or Vulnerable
+- Search Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.
+
+## Profile
+- Schema Version: location-profile-v1
+- Id: the-high-falls
+- Entity Id: the-high-falls
+- Source: Story Atlas generated location notes
+- Auto Surface: True
+- Priority: strong
+- Player Safe: The High Falls The place where the Lucent River drops into a cave system that once held a community nobody can fully explain. The place where the Lucent River drops into a cave system that once held a community nobody can fully explain. The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains. The High Falls are loud, wet, and vertical: rainbow mist, rope overlooks, slick ledges, tents near the spray, and conversation that has to become gesture. The place breaks into usable table spaces: Mist overlook: The falls drown out small talk. Spray path: A slick path crosses behind or beside falling water. Lower pool: Cold water gathers with floating flowers and debris. Plants and materials: spray moss, cliff flowers, water ferns, roots gripping wet stone. Animals and background life: Craymeleon shells flash near mooring ropes...
+- Block1: The High Falls Make mystery available without pulling the one-shot off course. The place where the Lucent River drops into a cave system that once held a community nobody can fully explain. The falls hint that Sablewood has histories outside the delivery plot. The cave once held a community no one can explain. Sablewood has histories with nothing to do with the delivery. The falls hint that Sablewood has histories outside the delivery plot. The falls hide things, tracks, sounds, people. Whatever is back in that cave, the water keeps its secret. pages/entities/the-high-falls.html
+- Block2: Mist turns hair and cloaks silver. A dark cave opening breathes cold air behind the falling light. Old marks near the cave are not route symbols. The water's glow weakens at the plunge, then returns below. Detail Thunderous water, cold spray, mineral sharpness, and slick stone algae. Detail Rock faces are wet glass under moss; handholds are colder than the air. The High Falls drown speech in blue-white spray where the Lucent River drops into a cave mouth nobody fully explains. The High Falls are loud, wet, and vertical: rainbow mist, rope overlooks, slick ledges, tents near the spray, and conversation that has to become gesture. The place breaks into usable table spaces: Mist overlook: The falls drown out small talk. Spray path: A slick path crosses behind or beside falling water. Lower pool: Cold water gathers with floating flowers and debris. Plants and materials: spray moss, cliff...
+- Block3: cave mouth spray ledge old marks glow pools Agility to move near spray. Instinct to read water and animal avoidance. Knowledge to identify old non-route marks. Local residents or workers appropriate to the place Craymeleon shells flash near mooring ropes Eeligator shadows move below the lower pool mist swifts hunt through spray No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues spray moss, cliff flowers, water ferns, roots gripping wet stone clean water cold storage hidden conversation space
+- Block4: The place changes even if the PCs stand still. Local people, creatures, weather, signage, and ward behavior all keep moving around the scene. Noise makes quiet warnings impossible. Slick stone punishes haste. The cave history can swallow attention if overplayed. The falls go silent for one impossible second. A glow pool shows a shape moving below. Let the place be funny through overconfident signage, awkward forms, stubborn local habits, and magic that refuses corporate language.
+- Block5: MAP-LOC-the-high-falls
+- Block6: Describe what the PCs can see, smell, hear, touch, ask about, or infer. Do not explain hidden infrastructure or corporate thesis until play earns it. surface The place where the Lucent River drops into a cave system that once held a community nobody can fully explain. table clue The falls hint that Sablewood has histories outside the delivery plot. earned truth Reveal deeper system meaning through NPC answers, evidence, or player questions, not narration dumps.
+- What Here: Local residents or workers appropriate to the place Craymeleon shells flash near mooring ropes Eeligator shadows move below the lower pool mist swifts hunt through spray No default combatant; add only if the scene introduces one Local civic, trade, or route interests Food, tools, route signs, local goods, or scene-specific clues spray moss, cliff flowers, water ferns, roots gripping wet stone clean water cold storage hidden conversation space
+- Living Place: location-living-place-v1 waterfall cliffs and spray paths The High Falls are loud, wet, and vertical: rainbow mist, rope overlooks, slick ledges, tents near the spray, and conversation that has to become gesture. Mist overlook The falls drown out small talk. Use for dramatic reveals. Spray path A slick path crosses behind or beside falling water. Use for movement. Lower pool Cold water gathers with floating flowers and debris. Use for recovery or clues. spray moss, cliff flowers, water ferns, roots gripping wet stone Craymeleon shells flash near mooring ropes Eeligator shadows move below the lower pool mist swifts hunt through spray roar, rainbow mist, slippery stone, sudden cold gusts Mist feeds moss, moss holds insects, insects feed birds, and falling water erases tracks unless someone knows where spray cannot reach. Mist hides and reveals things in pulses. Do you climb, search the...
+- Districts Or Subareas: Mist overlook The falls drown out small talk. Use for dramatic reveals. Spray path A slick path crosses behind or beside falling water. Use for movement. Lower pool Cold water gathers with floating flowers and debris. Use for recovery or clues.
+- Sensory Signature: Detail Thunderous water, cold spray, mineral sharpness, and slick stone algae. Detail Rock faces are wet glass under moss; handholds are colder than the air.
+- Visual Assets: location-visual-assets-v1 the-high-falls The High Falls Bright comedic frontier high-fantasy concept art for a Daggerheart-adjacent tabletop RPG. Medieval/Renaissance fantasy technology only: hand tools, wagons, ropes, parchment notices, ward-stones, carved wood, brass, cloth, stone, moss, lanterns, and magic. The tone is colorful, playful, slightly absurd, and vivid, like a fantasy corporate frontier comedy rather than a grim drama. No sci-fi machinery, no 1800s/Victorian clothing, no modern suits, no guns, no logos, no readable text, no watermark, no border, no collage. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/the-high-falls MAP-LOC-the-high-falls waterfall landmark cliff and falls map profile_scene Profile image ready /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/the-high-falls/profile_scene_v02.png...
+- Imagine It Like: A thundering waterfall with a cave behind it, like the walkways behind Niagara. Think roaring mist, slick rock, and a hidden mouth in the cliff nobody wants to talk about.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash a48c2b0c3ae0ef1d | Source hash dac3370046ed077140fab2d6

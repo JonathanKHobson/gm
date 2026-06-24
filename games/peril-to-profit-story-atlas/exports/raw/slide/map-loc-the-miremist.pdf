@@ -1,0 +1,455 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2429 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-the-miremist - The Miremist Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The Miremist makes certainty expensive: fog, wet roots, and route sounds that arrive) Tj
+T*
+(from the wrong distance.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(The Miremist makes certainty expensive: fog, wet roots, and route sounds that arrive) Tj
+T*
+(from the wrong distance.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-the-miremist) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: ACT-FIVE) Tj
+T*
+(- Sectiontitle: Act Five: The Ward Renewal) Tj
+T*
+(- Title: The Miremist Location Map) Tj
+T*
+(- Shorttitle: The Miremist) Tj
+T*
+(- Order: 603.16) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-the-miremist-gm.png) Tj
+T*
+(- Alt: The Miremist location map board.) Tj
+T*
+(- Caption: Visual reference for The Miremist.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Make uncertainty actionable instead of vague.) Tj
+T*
+(- Publicobjective: The Miremist makes certainty expensive: fog, wet roots, and route) Tj
+T*
+(  sounds that arrive from the wrong distance.) Tj
+T*
+(- Readaloud: The Miremist makes certainty expensive: fog, wet roots, and route sounds) Tj
+T*
+(  that arrive from the wrong distance.) Tj
+T*
+(- Gmnotes: Atmospheric staging for wraith arrival and Far-range pressure.) Tj
+T*
+(- Gmscript: Say: "This is the mist edge where wraith pressure comes from. Use it to) Tj
+T*
+(  stage isolation, Far range, and rescue routes.") Tj
+T*
+(- Gmreadaloud: Low mist curls at the edge of the clearing. Shapes drift where the) Tj
+T*
+(  light thins. The air feels cold around memory.) Tj
+T*
+(- Gmchecklist: Use for S05-04 only. Do not create a side route. Route wraith pressure) Tj
+T*
+(  to MAP-COMBAT-S05-06. Keep soul-economy GM-only.) Tj
+T*
+(- Gmprivate: The Miremist is an Atlas-original staging edge; confirm if Kyle later) Tj
+T*
+(  wants it promoted beyond atmosphere.) Tj
+T*
+(- Playertakeaway: The Miremist makes certainty expensive: fog, wet roots, and route) Tj
+T*
+(  sounds that arrive from the wrong distance.) Tj
+T*
+(- Storytakeaway: The mist makes the wraiths feel like the deep preserve reaching into) Tj
+T*
+(  the ritual.) Tj
+T*
+(- Mechanictakeaway: The map supports Far-range pressure, Memory Delve setup,) Tj
+T*
+(  Untethered rescue, and protected_whom writes.) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4113 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- Entityids: the-miremist mist-things eeligator ward-moths) Tj
+T*
+(- Entities: the-miremist The Miremist location Location assets/icons/location.png) Tj
+T*
+(  assets/location-visuals/the-miremist/profile_scene_v02.png the MYR-mist A mist-) Tj
+T*
+(  wrapped place where route certainty breaks down and the forest makes navigation feel) Tj
+T*
+(  like an audit of attention. Make uncertainty actionable instead of vague. A mist-) Tj
+T*
+(  wrapped place where route certainty breaks down and the forest makes navigation feel) Tj
+T*
+(  like an audit of attention.; introduce it with a sensory palette, who feels safe) Tj
+T*
+(  there, and what has been neglected. Pull player attention toward the choices, clues,) Tj
+T*
+(  and relationships tied to Sablewood Route Network, The Lucent River, Sablewood Fear) Tj
+T*
+(  Moments. A mist-wrapped place where route certainty breaks down and the forest makes) Tj
+T*
+(  navigation feel like an audit of attention. mist-things Mist-Things creature) Tj
+T*
+(  Creature / Animal assets/icons/creature.png assets/creature-images/mist-) Tj
+T*
+(  things/portrait_base.png MIST thingz Mist-things move as half-seen animal shapes in) Tj
+T*
+(  low fog: not quite threat, not quite guide, but very sure they were here first. Open) Tj
+T*
+(  Vale and Miremist omen-creature Mist-things move as half-seen animal shapes in low) Tj
+T*
+(  fog: not quite threat, not quite guide, but very sure they...) Tj
+T*
+(- Locationids: the-miremist) Tj
+T*
+(- Statecontrols: ward_stability Ward Stability select fragile stable ritual_prep) Tj
+T*
+(  Ritual Prep select unready ready ritual_countdown Ritual Countdown number 10 8) Tj
+T*
+(  protected_whom Protected Whom select unresolved custodian party hush shared) Tj
+T*
+(  keystone_understanding Keystone Understanding select surface deep) Tj
+T*
+(- Mechanicids: instinct knowledge memory-delve untethered) Tj
+T*
+(- Playerquestions: Who watches the mist? Who notices a friend being isolated?) Tj
+T*
+(- Fearspends: A route marker appears twice. Someone hears their name from the wrong) Tj
+T*
+(  side of the mist. The ground exhales bubbles under a boot.) Tj
+T*
+(- Choicesconsequences: Watch the mist edge for wraith isolation pressure. The map) Tj
+T*
+(  clarifies the active table choice instead of becoming a side route. Use the map only) Tj
+T*
+(  when spatial clarity changes the next roll, countdown tick, or protection choice.) Tj
+T*
+(  The result carries forward through Act 5 state rather than adding a new branch.) Tj
+T*
+(  protected_whom / ritual_countdown Reward: clearer play. Cost: pause only long enough) Tj
+T*
+(  to orient the table. GM-facing) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S05-04 MAP-COMBAT-S05-06) Tj
+T*
+(- Mapdata: MAP-LOC-the-miremist environment The Miremist Location Map S05-04 the-) Tj
+T*
+(  miremist mist-things eeligator ward-moths assets/location-visuals/the-) Tj
+T*
+(  miremist/profile_scene_v02.png Visual reference for The Miremist. The Miremist) Tj
+T*
+(  location map board. The Miremist makes certainty expensive: fog, wet roots, and) Tj
+T*
+(  route sounds that arrive from the wrong distance. The Miremist makes certainty) Tj
+T*
+(  expensive: fog, wet roots, and route sounds that arrive from the wrong distance.) Tj
+T*
+(  Make uncertainty actionable instead of vague. Atmospheric staging for wraith arrival) Tj
+T*
+(  and Far-range pressure. Mist cuts sightlines into short, pale rooms. Markers appear) Tj
+T*
+(  wet even when sheltered. Sound travels sideways; a branch snap may be near, far, or) Tj
+T*
+(  behind memory. Leaf-drip, insects, distant wingbeats, and animal calls that stop or) Tj
+T*
+(  resume according to pressure, not comfort. Peat, cold water, mushroom rot, and fog) Tj
+T*
+(  heavy enough to taste. Roots are slick and soft at the edges; mud pulls at boots) Tj
+T*
+(  like a hand. The forest is populated even when no NPC is present; silence, birds,) Tj
+T*
+(  insects, and tracks are actionable signals. Mist cuts sightlines into short, pale) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4282 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  rooms. Markers appear wet even when sheltered. Sound travels sideways; a...) Tj
+T*
+(- Sourcefiles: dist/Act5_Upgrade_Packet/ACT5_MAPS_AND_LOCATIONS.md) Tj
+T*
+(- References: Act 5 maps packet sources/Act5_Upgrade_Packet/ACT5_MAPS_AND_LOCATIONS.md) Tj
+T*
+(  Wraith scene #S05-04) Tj
+T*
+(- Livetools: scene MAP-LOC-the-miremist) Tj
+T*
+(- Percharacterlayer: marlowe-fairwind Marlowe Fairwind Memory Delve hook The Delve) Tj
+T*
+(  reaches for the oldest fear about duty and what the Keystone's custody costs.) Tj
+T*
+(  Knowledge 14 May sense the wraiths are taking inventory of souls; deepest seed, not) Tj
+T*
+(  explanation. Can turn duty-fear into protection. Marlowe, the wraith reaches for) Tj
+T*
+(  your oldest fear about your duty. Want to give it voice? barnacle Barnacle Memory) Tj
+T*
+(  Delve hook The Delve reaches for Barnacle's water-fear and the buried memory behind) Tj
+T*
+(  it. Can answer with fear, joke, refusal, or a hand reaching for another PC.) Tj
+T*
+(  Barnacle, it reaches for the water-fear you never talk about. Want to show the table) Tj
+T*
+(  where it started? garrick-reed Garrick Reed Memory Delve hook The Delve dredges up) Tj
+T*
+(  someone he could not protect in his security past. Can ground another PC by naming) Tj
+T*
+(  mercy as strength. Garrick, it dredges up someone you couldn't protect. Want to face) Tj
+T*
+(  it? khari-nix Khari Nix Memory Delve hook The Delve reaches for the first time she) Tj
+T*
+(  could not shield someone she loved. Can take a Delve meant for a vulnerable ally or) Tj
+T*
+(  hold the line around an Untethered body. Khari, it shows you the one you couldn't) Tj
+T*
+(  save. Or you could take this hit so someone else doesn't. Which?...) Tj
+T*
+(- Gmbeats: MAP-LOC-the-miremist-use Use Use this board Say: "Open the board, orient) Tj
+T*
+(  the center or edge, name the current state change, then return to the active scene.") Tj
+T*
+(  Use this board only when it makes the current finale choice clearer. The map) Tj
+T*
+(  supports the finale instead of replacing the scene. Map use writes countdown,) Tj
+T*
+(  protection, prep, outcome, or report state when it changes play. Players get spatial) Tj
+T*
+(  clarity without a side route. Player takeaway Players get spatial clarity without a) Tj
+T*
+(  side route. "Open the board, orient the center or edge, name the current state) Tj
+T*
+(  change, then return to the active scene." "The table-facing answer is: Players get) Tj
+T*
+(  spatial clarity without a side route." Use this beat to give the players one visible) Tj
+T*
+(  next action: protect the center, read the field, spend prep, name who they shield,) Tj
+T*
+(  or choose what truth leaves with them. table-spotlight countdown Story takeaway The) Tj
+T*
+(  map supports the finale instead of replacing the scene. "Open the board, orient the) Tj
+T*
+(  center or edge, name the current state change, then return to the active scene.") Tj
+T*
+(  "The story answer is: The map supports the finale instead of replacing the scene.") Tj
+T*
+(  Tie the answer to a visible Act 5 consequence: the...) Tj
+T*
+(- Takeawayhelp: Player takeaway: MAP-LOC-the-miremist The Miremist makes certainty) Tj
+T*
+(  expensive: fog, wet roots, and route sounds that arrive from the wrong distance.) Tj
+T*
+(  Give the player one concrete way back into play: a question, a description, a) Tj
+T*
+(  choice, or a pass-and-return moment. "Your takeaway right now is this: The Miremist) Tj
+T*
+(  makes certainty expensive: fog, wet roots, and route sounds that arrive from the) Tj
+T*
+(  wrong distance." "If you are not sure what to do next, you can ask a question,) Tj
+T*
+(  describe what your character notices, or tell me what your character tries." "If you) Tj
+T*
+(  are not sure what to do next, you can ask a question, describe what your character) Tj
+T*
+(  notices, or tell me what your character tries." Give the player one concrete way) Tj
+T*
+(  back into play: a question, a description, a choice, or a pass-and-return moment.) Tj
+T*
+(  instinct knowledge memory-delve untethered Story takeaway: MAP-LOC-the-miremist The) Tj
+T*
+(  mist makes the wraiths feel like the deep preserve reaching into the ritual. Anchor) Tj
+T*
+(  the answer in the visible fiction on this slide: who is present, what can be) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 3273 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  observed, what has already been said, and what remains uncertain. "Here is what your) Tj
+T*
+(  characters know right now: The mist makes the wraiths feel like the...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-the-miremist-player.png The Miremist location map) Tj
+T*
+(  board. MAP-LOC-the-miremist environment The Miremist S05-04 assets/maps/MAP-LOC-the-) Tj
+T*
+(  miremist-player.png assets/maps/MAP-LOC-the-miremist-player.png Visual reference for) Tj
+T*
+(  The Miremist. The Miremist location map board. The Miremist makes certainty) Tj
+T*
+(  expensive: fog, wet roots, and route sounds that arrive from the wrong distance. The) Tj
+T*
+(  Miremist makes certainty expensive: fog, wet roots, and route sounds that arrive) Tj
+T*
+(  from the wrong distance. MAP-LOC-the-miremist-map-only Map only The Miremist map-) Tj
+T*
+(  only assets/maps/MAP-LOC-the-miremist-player.png The Miremist location map board.) Tj
+T*
+(  MAP-LOC-the-miremist environment The Miremist S05-04 assets/maps/MAP-LOC-the-) Tj
+T*
+(  miremist-player.png assets/maps/MAP-LOC-the-miremist-player.png Visual reference for) Tj
+T*
+(  The Miremist. The Miremist location map board. The Miremist makes certainty) Tj
+T*
+(  expensive: fog, wet roots, and route sounds that arrive from the wrong distance. The) Tj
+T*
+(  Miremist makes certainty expensive: fog, wet roots, and route sounds that arrive) Tj
+T*
+(  from the wrong distance. MAP-LOC-the-miremist-map-text Map + text The Miremist The) Tj
+T*
+(  Miremist makes certainty expensive: fog, wet roots, and route...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-the-miremist map The Miremist assets/maps/MAP-LOC-the-) Tj
+T*
+(  miremist-player.png The Miremist location map board. Visual reference for The) Tj
+T*
+(  Miremist. spatial reference and location texture The Miremist makes certainty) Tj
+T*
+(  expensive: fog, wet roots, and route sounds that arrive from the wrong distance. The) Tj
+T*
+(  Miremist makes certainty expensive: fog, wet roots, and route sounds that arrive) Tj
+T*
+(  from the wrong distance. MAP-LOC-the-miremist environment The Miremist S05-04) Tj
+T*
+(  assets/maps/MAP-LOC-the-miremist-player.png assets/maps/MAP-LOC-the-miremist-) Tj
+T*
+(  player.png Visual reference for The Miremist. The Miremist location map board. The) Tj
+T*
+(  Miremist makes certainty expensive: fog, wet roots, and route sounds that arrive) Tj
+T*
+(  from the wrong distance. The Miremist makes certainty expensive: fog, wet roots, and) Tj
+T*
+(  route sounds that arrive from the wrong distance. assets/maps/MAP-LOC-the-miremist-) Tj
+T*
+(  player.png The Miremist location map board. MAP-LOC-the-miremist environment The) Tj
+T*
+(  Miremist S05-04 assets/maps/MAP-LOC-the-miremist-player.png assets/maps/MAP-LOC-the-) Tj
+T*
+(  miremist-player.png Visual reference for The Miremist. The Miremist location map) Tj
+T*
+(  board. The Miremist makes certainty expensive: fog, wet roots, and route sounds...) Tj
+T*
+(- Slidenumber: 69) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash ce5ceb46802ae727 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R 8 0 R] /Count 4 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000002490 00000 n 
+0000002617 00000 n 
+0000006782 00000 n 
+0000006909 00000 n 
+0000011243 00000 n 
+0000011370 00000 n 
+0000014695 00000 n 
+0000014822 00000 n 
+0000014897 00000 n 
+0000014947 00000 n 
+trailer
+<< /Size 12 /Root 10 0 R >>
+startxref
+15020
+%%EOF

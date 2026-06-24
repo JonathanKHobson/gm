@@ -1,0 +1,40 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "runespark-entertainment",
+  "kind": "entity",
+  "title": "RuneSpark Entertainment",
+  "in_world_label": "Public Notice",
+  "brand_flag": "RuneSpark™: history, but better.",
+  "kicker": "Broadsheets, town criers, sponsored ballads, and polished adventure stories.",
+  "hook": "RuneSpark Entertainment: RuneSpark Entertainment™ decides which version of what happened is the one everyone remembers. Slogan: RuneSpark™: history, but better.",
+  "blocks": [
+    {
+      "label": "Public Face",
+      "body": "Broadsheets, town criers, sponsored ballads, and polished adventure stories."
+    },
+    {
+      "label": "Slogan",
+      "body": "RuneSpark™: history, but better."
+    },
+    {
+      "label": "How To Deal",
+      "body": "RuneSpark™ is everywhere and feels like fun: a town crier in spangled livery, a sponsored ballad you cannot stop humming, drifting sky-illusions advertising the next heroic serial. Buy a souvenir broadsheet, a collectible Hero Trading Charm™, a front-row..."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask what they publicly promise.",
+    "Compare their slogan to what they actually do in the scene."
+  ],
+  "archetype": "faction.flyer",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:runespark-entertainment",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "e6a80c0ecad0b7f2",
+  "generated_at": "2026-06-23T21:40:58"
+}

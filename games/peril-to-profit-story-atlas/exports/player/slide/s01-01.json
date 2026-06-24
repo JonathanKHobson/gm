@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S01-01",
+  "kind": "slide",
+  "title": "S01-01 - Entering Sablewood",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Prologue: The Contract",
+  "hook": "The last warded marker slips behind you. Ahead, the road narrows and the old forest closes around the carriage.",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "The last warded marker slips behind you. Ahead, the road narrows and the old forest closes around the carriage."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Cross from the contract briefing into the forest road. The next thing ahead blocks the path."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:S01-01",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "7e18c1cec660a759",
+  "generated_at": "2026-06-23T21:40:58"
+}

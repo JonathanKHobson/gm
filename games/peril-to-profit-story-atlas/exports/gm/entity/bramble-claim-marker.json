@@ -1,0 +1,75 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "entity",
+  "id": "bramble-claim-marker",
+  "title": "Bramble Claim Marker",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "b6782fabd92ba0cb",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Bramble Claim Marker: A knotted strand and scratch-mark system that indicates the ambush was organized, not random."
+    },
+    {
+      "title": "Public role",
+      "body": "Signal object used by cargo reclaimers"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: A knotted strand and scratch-mark system that indicates the ambush was organized, not random."
+    },
+    {
+      "title": "GM truth",
+      "body": "No forced reveal. Let this entity disclose truth through scene context and player attention."
+    },
+    {
+      "title": "GM handling",
+      "body": "Use when the scene needs a concrete object for players to inspect, carry, debate, or remember."
+    },
+    {
+      "title": "Mechanics",
+      "items": [
+        "Title: Discovery / Earn-It Mechanics",
+        "Player Safe: Players can inspect, handle, keep, trade, reveal, or earn Bramble Claim Marker when it is present in the fiction.",
+        "Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.",
+        "No Roll Reveals: Surface read: A knotted strand and a pattern of scratch-marks, ordered like a tally or a signature, left where it would be found. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.",
+        "Rolls: entity-bramble-claim-marker-engage-bramble-claim-marker entity-bramble-claim-marker Engage Bramble Claim Marker Engage Bramble Claim Marker Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Bramble Claim Marker hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the GM...",
+        "Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.",
+        "Condition Options: No official condition unless the item or clue physically creates Hidden, Restrained, or Vulnerable",
+        "Search Loot: Decoding it can reveal where reclaimers expected cargo to pass."
+      ]
+    },
+    {
+      "title": "Profile",
+      "items": [
+        "Schema Version: clue-profile-v1",
+        "Id: bramble-claim-marker",
+        "Clue Id: bramble-claim-marker",
+        "Clue Name: Bramble Claim Marker",
+        "Name: Bramble Claim Marker",
+        "Pronunciation: BRAM-bul KLAYM MAR-ker",
+        "Clue Kind: physical",
+        "Auto Surface: True",
+        "Player Safe: Bramble Claim Marker A knotted strand and a pattern of scratch-marks, ordered like a tally or a signature, left where it would be found. A knotted strand and a pattern of scratch-marks, ordered like a tally or a signature, left where it would be found. A knotted strand and a pattern of scratch-marks, ordered like a tally or a signature, left where it would be found.",
+        "Block0: bramble-claim-marker Bramble Claim Marker BRAM-bul KLAYM MAR-ker physical",
+        "Block1: the ambush was organized and claimed — a system, not a random act. OBVIOUS The Ambush Reveal the-ambush-reveal Moves suspicion away from bad luck or a random beast and toward a planned trap. pages/entities/bramble-claim-marker.html pages/clues/the-ambush-reveal.html",
+        "Block2: A knotted strand and a pattern of scratch-marks, ordered like a tally or a signature, left where it would be found. the ambush was organized and claimed — a system, not a random act.",
+        "Block3: \"the scratches look patterned.\" \"this is a marker, left on purpose.\" \"someone's claiming this — it's organized.\" \"this ambush was planned and signed for.\"",
+        "Block4: Bramble Strand Old Contract Tags bramble-strand old-contract-tags",
+        "Block5: S02-01 S02-02 Sablewood™ Logistics Preserve Bramble Union Ambusher Bramble Union Knowledge 13 to read the system. clues/The_Ambush_Reveal.md",
+        "Block6: OPTIONAL HIDDEN Use this clue to support The Ambush Reveal: the ambush was organized and claimed — a system, not a random act. whisper True",
+        "Block8: Bright, saturated storybook evidence illustration; clear hero shot of the actual clue object or scene detail; whimsical frontier-Renaissance materials; warm light; bright dystopian corporate satire when branded; no gore, no UI, no watermark, no repeated icon. Depict: a knotted cord + deliberate scratch-tally carved on bark. clue wiki card and Player Display evidence visual Send the image and SHOW text only. Keep TELL, points_to, and blunt ladder rungs GM-only until earned. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/bramble-claim-marker/profile_base.png assets/clue-images/bramble-claim-marker/profile_base.webp Bright, saturated storybook evidence illustration; clear hero shot of the actual clue object or scene detail; whimsical frontier-Renaissance materials; warm light; bright dystopian corporate satire when branded; no gore, no UI, no watermark, no...",
+        "Block9: Official Daggerheart action roll using Duality Dice, Hope, Fear, and Difficulty; P2P Roll Slider is the table-facing result ladder. Agility move, climb, dodge, reach a better angle, or read evidence while moving Strength lift, hold, force, carry, break, or test weight and pressure Finesse handle, hide, tinker, compare, pick apart, or notice precise detail Instinct perceive, smell, listen, track, read danger, or sense body language Presence charm, soothe, press, lead, deceive, perform, or read a social response Knowledge recall, analyze, investigate, reason from lore, or understand systems Finesse D14 Instinct D14 Knowledge D14 If the clue is plainly visible, give the SHOW text freely first: A knotted strand and a pattern of scratch-marks, ordered like a tally or a signature, left where it would be found. Use the listed Difficulty for the chosen trait. Lower rolls get partial or...",
+        "Mechanicids: duality-dice hope fear difficulty roll-slider clue-discovery",
+        "Visual Assets: profile_base Clue evidence image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/bramble-claim-marker/profile_base.png assets/clue-images/bramble-claim-marker/profile_base.webp ready Bramble Claim Marker clue image. A knotted strand and a pattern of scratch-marks, ordered like a tally or a signature, left where it would be found."
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash b6782fabd92ba0cb | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

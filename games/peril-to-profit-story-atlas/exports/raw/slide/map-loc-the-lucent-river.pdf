@@ -1,0 +1,334 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2529 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-the-lucent-river - The Lucent River Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The Lucent River carries blue light through Sablewood like a road that refuses to become) Tj
+T*
+(a road.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(The Lucent River carries blue light through Sablewood like a road that refuses to become) Tj
+T*
+(a road.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-the-lucent-river) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: ACT-THREE) Tj
+T*
+(- Sectiontitle: Act Three: Seeking a Custodian) Tj
+T*
+(- Title: The Lucent River Location Map) Tj
+T*
+(- Shorttitle: The Lucent River) Tj
+T*
+(- Order: 402.16) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-the-lucent-river-gm.png) Tj
+T*
+(- Alt: The Lucent River location map board.) Tj
+T*
+(- Caption: Visual reference for The Lucent River.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Keep magical water physical: cold, useful, dangerous, and shared.) Tj
+T*
+(- Publicobjective: The Lucent River carries blue light through Sablewood like a road) Tj
+T*
+(  that refuses to become a road.) Tj
+T*
+(- Readaloud: The Lucent River carries blue light through Sablewood like a road that) Tj
+T*
+(  refuses to become a road.) Tj
+T*
+(- Playertakeaway: The Lucent River carries blue light through Sablewood like a road) Tj
+T*
+(  that refuses to become a road.) Tj
+T*
+(- Storytakeaway: The river makes wonder practical and vulnerable.) Tj
+T*
+(- Mechanictakeaway: Use for navigation, healing-resource context, or field-guide) Tj
+T*
+(  travel.) Tj
+T*
+(- Entityids: the-lucent-river craymeleon eeligator) Tj
+T*
+(- Entities: the-lucent-river The Lucent River location Location) Tj
+T*
+(  assets/icons/location.png assets/location-visuals/the-lucent-) Tj
+T*
+(  river/profile_scene_v02.png the LOO-sent RIV-er A luminous river whose blue night) Tj
+T*
+(  glow lets travelers keep time and whose waters are sold, mythologized, healed by,) Tj
+T*
+(  and hunted in. Keep magical water physical: cold, useful, dangerous, and shared. A) Tj
+T*
+(  luminous river whose blue night glow lets travelers keep time and whose waters are) Tj
+T*
+(  sold, mythologized, healed by, and hunted in.; introduce it with a sensory palette,) Tj
+T*
+(  who feels safe there, and what has been neglected. Pull player attention toward the) Tj
+T*
+(  choices, clues, and relationships tied to Sablewood? Logistics Preserve, Moonglow,) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4062 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Eeligator. A luminous river whose blue night glow lets travelers keep time and whose) Tj
+T*
+(  waters are sold, mythologized, healed by, and hunted in. craymeleon Craymeleon) Tj
+T*
+(  creature Creature / Animal assets/icons/creature.png assets/creature-) Tj
+T*
+(  images/craymeleon/portrait_base.png kray-MEEL-ee-un A chameleon-crayfish river beast) Tj
+T*
+(  with bright shell plates and independently swiveling eyes, often harnessed to pull) Tj
+T*
+(  small boats through glowing current. Lucent River work animal A chameleon-crayfish) Tj
+T*
+(  river beast with...) Tj
+T*
+(- Locationids: the-lucent-river) Tj
+T*
+(- Fearspends: The glow dims under the Keystone's shadow. A current pulls upstream for) Tj
+T*
+(  one breath.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S03-02) Tj
+T*
+(- Mapdata: MAP-LOC-the-lucent-river environment The Lucent River Location Map S03-02) Tj
+T*
+(  the-lucent-river craymeleon eeligator assets/location-visuals/the-lucent-) Tj
+T*
+(  river/profile_scene_v02.png Visual reference for The Lucent River. The Lucent River) Tj
+T*
+(  location map board. The Lucent River carries blue light through Sablewood like a) Tj
+T*
+(  road that refuses to become a road. The Lucent River carries blue light through) Tj
+T*
+(  Sablewood like a road that refuses to become a road. Keep magical water physical:) Tj
+T*
+(  cold, useful, dangerous, and shared. Water glows under shadowed banks, turning) Tj
+T*
+(  ropes, stones, and boat hulls blue from below. River traffic moves by practiced) Tj
+T*
+(  rhythm instead of posted schedule. The brightest eddies gather near old wardstone) Tj
+T*
+(  fragments. Leaf-drip, insects, distant wingbeats, and animal calls that stop or) Tj
+T*
+(  resume according to pressure, not comfort. Cold mineral water, river weeds, wet) Tj
+T*
+(  cedar, and the faint sweetness of luminous algae. Spray leaves fingers tingling;) Tj
+T*
+(  rope lines are slick with blue residue. The forest is populated even when no NPC is) Tj
+T*
+(  present; silence, birds, insects, and tracks are actionable signals. Water glows) Tj
+T*
+(  under shadowed banks, turning ropes, stones, and boat hulls blue from below...) Tj
+T*
+(- Livetools: scene MAP-LOC-the-lucent-river) Tj
+T*
+(- Takeawayhelp: Player takeaway: MAP-LOC-the-lucent-river The Lucent River carries) Tj
+T*
+(  blue light through Sablewood like a road that refuses to become a road. Give the) Tj
+T*
+(  player one concrete way back into play: a question, a description, a choice, or a) Tj
+T*
+(  pass-and-return moment. "Your takeaway right now is this: The Lucent River carries) Tj
+T*
+(  blue light through Sablewood like a road that refuses to become a road." "If you are) Tj
+T*
+(  not sure what to do next, you can ask a question, describe what your character) Tj
+T*
+(  notices, or tell me what your character tries." "If you are not sure what to do) Tj
+T*
+(  next, you can ask a question, describe what your character notices, or tell me what) Tj
+T*
+(  your character tries." Give the player one concrete way back into play: a question,) Tj
+T*
+(  a description, a choice, or a pass-and-return moment. Story takeaway: MAP-LOC-the-) Tj
+T*
+(  lucent-river The river makes wonder practical and vulnerable. Anchor the answer in) Tj
+T*
+(  the visible fiction on this slide: who is present, what can be observed, what has) Tj
+T*
+(  already been said, and what remains uncertain. "Here is what your characters know) Tj
+T*
+(  right now: The river makes wonder practical and vulnerable." "If you want more) Tj
+T*
+(  detail, ask it in the scene. I will answer the part your...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-the-lucent-river-player.png The Lucent River) Tj
+T*
+(  location map board. MAP-LOC-the-lucent-river environment The Lucent River S03-02) Tj
+T*
+(  assets/maps/MAP-LOC-the-lucent-river-player.png assets/maps/MAP-LOC-the-lucent-) Tj
+T*
+(  river-player.png Visual reference for The Lucent River. The Lucent River location) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2746 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  map board. The Lucent River carries blue light through Sablewood like a road that) Tj
+T*
+(  refuses to become a road. The Lucent River carries blue light through Sablewood like) Tj
+T*
+(  a road that refuses to become a road. MAP-LOC-the-lucent-river-map-only Map only The) Tj
+T*
+(  Lucent River map-only assets/maps/MAP-LOC-the-lucent-river-player.png The Lucent) Tj
+T*
+(  River location map board. MAP-LOC-the-lucent-river environment The Lucent River) Tj
+T*
+(  S03-02 assets/maps/MAP-LOC-the-lucent-river-player.png assets/maps/MAP-LOC-the-) Tj
+T*
+(  lucent-river-player.png Visual reference for The Lucent River. The Lucent River) Tj
+T*
+(  location map board. The Lucent River carries blue light through Sablewood like a) Tj
+T*
+(  road that refuses to become a road. The Lucent River carries blue light through) Tj
+T*
+(  Sablewood like a road that refuses to become a road. MAP-LOC-the-lucent-river-map-) Tj
+T*
+(  text Map + text The Lucent River The Lucent River carries blue light through...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-the-lucent-river map The Lucent River assets/maps/MAP-) Tj
+T*
+(  LOC-the-lucent-river-player.png The Lucent River location map board. Visual) Tj
+T*
+(  reference for The Lucent River. spatial reference and location texture The Lucent) Tj
+T*
+(  River carries blue light through Sablewood like a road that refuses to become a) Tj
+T*
+(  road. The Lucent River carries blue light through Sablewood like a road that refuses) Tj
+T*
+(  to become a road. MAP-LOC-the-lucent-river environment The Lucent River S03-02) Tj
+T*
+(  assets/maps/MAP-LOC-the-lucent-river-player.png assets/maps/MAP-LOC-the-lucent-) Tj
+T*
+(  river-player.png Visual reference for The Lucent River. The Lucent River location) Tj
+T*
+(  map board. The Lucent River carries blue light through Sablewood like a road that) Tj
+T*
+(  refuses to become a road. The Lucent River carries blue light through Sablewood like) Tj
+T*
+(  a road that refuses to become a road. assets/maps/MAP-LOC-the-lucent-river-) Tj
+T*
+(  player.png The Lucent River location map board. MAP-LOC-the-lucent-river environment) Tj
+T*
+(  The Lucent River S03-02 assets/maps/MAP-LOC-the-lucent-river-player.png) Tj
+T*
+(  assets/maps/MAP-LOC-the-lucent-river-player.png Visual reference for The Lucent) Tj
+T*
+(  River. The Lucent River location map board. The Lucent River carries blue light) Tj
+T*
+(  through...) Tj
+T*
+(- Slidenumber: 48) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 23795a484bb8cd9a | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002590 00000 n 
+0000002716 00000 n 
+0000006830 00000 n 
+0000006956 00000 n 
+0000009754 00000 n 
+0000009880 00000 n 
+0000009949 00000 n 
+0000009998 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+10070
+%%EOF

@@ -1,0 +1,53 @@
+# Legacy Security Badge
+
+GM export - entity:legacy-security-badge
+
+## Player-facing description
+Legacy Security Badge: A broken badge naming a defunct unit rather than a current boss or simple monster.
+
+## Public role
+Remnant of the person inside a security asset
+
+## Handout text
+Player-safe note: A broken badge naming a defunct unit rather than a current boss or simple monster.
+
+## GM truth
+No forced reveal. Let this entity disclose truth through scene context and player attention.
+
+## GM handling
+Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.
+
+## Mechanics
+- Title: Discovery / Earn-It Mechanics
+- Player Safe: Players can inspect, handle, keep, trade, reveal, or earn Legacy Security Badge when it is present in the fiction.
+- Gm Only: Use the roll only when the player's method, stakes, and consequence are concrete.
+- No Roll Reveals: Surface read: A broken badge on a fallen figure, naming a security unit that no longer exists — a job title outliving the person. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle.
+- Rolls: entity-legacy-security-badge-engage-legacy-security-badge entity-legacy-security-badge Engage Legacy Security Badge Engage Legacy Security Badge Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Legacy Security Badge hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or pressure. Failure with Hope: the PC does not get the full result, but gains Hope and receives a useful thread, clue, or safer next option. Failure with Fear: the PC fails and the...
+- Fear Spends: Reveal who benefits from the current situation. Make the cost personal without closing off player agency.
+- Condition Options: No official condition unless the item or clue physically creates Hidden, Restrained, or Vulnerable
+- Search Loot: Names a defunct unit and keeps the skeletons tied to abandoned infrastructure.
+
+## Profile
+- Schema Version: clue-profile-v1
+- Id: legacy-security-badge
+- Clue Id: legacy-security-badge
+- Clue Name: Legacy Security Badge
+- Name: Legacy Security Badge
+- Pronunciation: LEG-uh-see seh-KYUR-ih-tee BAJ
+- Clue Kind: physical
+- Auto Surface: True
+- Player Safe: Legacy Security Badge A broken badge on a fallen figure, naming a security unit that no longer exists — a job title outliving the person. A broken badge on a fallen figure, naming a security unit that no longer exists — a job title outliving the person. A broken badge on a fallen figure, naming a security unit that no longer exists — a job title outliving the person.
+- Block0: legacy-security-badge Legacy Security Badge LEG-uh-see seh-KYUR-ih-tee BAJ physical
+- Block1: the "monster" was an employee; this is a defunct unit, not a boss — people, not enemies. WORLD/NPC Open Vale & Soul-Debt open-vale-and-soul-debt Gives Act Five weight without turning the hidden soul-economy seed into exposition. pages/entities/legacy-security-badge.html pages/clues/open-vale-and-soul-debt.html
+- Block2: A broken badge on a fallen figure, naming a security unit that no longer exists — a job title outliving the person. the "monster" was an employee; this is a defunct unit, not a boss — people, not enemies.
+- Block3: "the badge names an old unit." "this was a worker, not a monster." This clue points toward this conclusion: the "monster" was an employee; this is a defunct unit, not a boss — people, not enemies. You have enough to conclude this: the "monster" was an employee; this is a defunct unit, not a boss — people, not enemies.
+- Block4: Soul-Audit Memory Shard soul-audit-memory-shard
+- Block5: S05-04 S05-05 Open Vale™ Ritual Site Legacy Security Skeleton read the badge (Knowledge 12). clues/Open_Vale_And_Soul_Debt.md
+- Block6: HIDDEN Use this clue to support Open Vale & Soul-Debt: the "monster" was an employee; this is a defunct unit, not a boss — people, not enemies. whisper True
+- Block8: Bright, saturated storybook evidence illustration; clear hero shot of the actual clue object or scene detail; whimsical frontier-Renaissance materials; warm light; bright dystopian corporate satire when branded; no gore, no UI, no watermark, no repeated icon. Depict: a cracked badge naming a defunct unit. clue wiki card and Player Display evidence visual Send the image and SHOW text only. Keep TELL, points_to, and blunt ladder rungs GM-only until earned. /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/legacy-security-badge/profile_base.png assets/clue-images/legacy-security-badge/profile_base.webp Bright, saturated storybook evidence illustration; clear hero shot of the actual clue object or scene detail; whimsical frontier-Renaissance materials; warm light; bright dystopian corporate satire when branded; no gore, no UI, no watermark, no repeated icon.
+- Block9: Official Daggerheart action roll using Duality Dice, Hope, Fear, and Difficulty; P2P Roll Slider is the table-facing result ladder. Agility move, climb, dodge, reach a better angle, or read evidence while moving Strength lift, hold, force, carry, break, or test weight and pressure Finesse handle, hide, tinker, compare, pick apart, or notice precise detail Instinct perceive, smell, listen, track, read danger, or sense body language Presence charm, soothe, press, lead, deceive, perform, or read a social response Knowledge recall, analyze, investigate, reason from lore, or understand systems Finesse D14 Knowledge D14 Presence D14 If the clue is plainly visible, give the SHOW text freely first: A broken badge on a fallen figure, naming a security unit that no longer exists — a job title outliving the person. Use the listed Difficulty for the chosen trait. Lower rolls get partial or...
+- Mechanicids: duality-dice hope fear difficulty roll-slider clue-discovery
+- Visual Assets: profile_base Clue evidence image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/legacy-security-badge/profile_base.png assets/clue-images/legacy-security-badge/profile_base.webp ready Legacy Security Badge clue image. A broken badge on a fallen figure, naming a security unit that no longer exists — a job title outliving the person.
+
+## Export Stamp
+Build 2026-06-23T21:40:58 | Content hash bce768d47b9d3bc2 | Source hash dac3370046ed077140fab2d6

@@ -1,0 +1,338 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2505 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-emeris-capital-gate - Emeris Capital Gate Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The Emeris Capital Gate is a bright western threshold of pale carved stone, toll) Tj
+T*
+(counters, route-charms, fried dough, caravan noise, and the green mouth of Sablewood) Tj
+T*
+(beyond the road.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(The Emeris Capital Gate is a bright western threshold of pale carved stone, toll) Tj
+T*
+(counters, route-charms, fried dough, caravan noise, and the green mouth of Sablewood) Tj
+T*
+(beyond the road.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-emeris-capital-gate) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: PROLOGUE) Tj
+T*
+(- Sectiontitle: Prologue: The Contract) Tj
+T*
+(- Title: Emeris Capital Gate Location Map) Tj
+T*
+(- Shorttitle: Emeris Capital Gate) Tj
+T*
+(- Order: 101.16) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-emeris-capital-gate-gm.png) Tj
+T*
+(- Alt: Emeris Capital Gate location map board.) Tj
+T*
+(- Caption: Visual reference for Emeris Capital Gate.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Make the starting city concrete without inventing a missing ward problem) Tj
+T*
+(  here.) Tj
+T*
+(- Publicobjective: The Emeris Capital Gate is a bright western threshold of pale) Tj
+T*
+(  carved stone, toll counters, route-charms, fried dough, caravan noise, and the green) Tj
+T*
+(  mouth of Sablewood beyond the road.) Tj
+T*
+(- Readaloud: The Emeris Capital Gate is a bright western threshold of pale carved) Tj
+T*
+(  stone, toll counters, route-charms, fried dough, caravan noise, and the green mouth) Tj
+T*
+(  of Sablewood beyond the road.) Tj
+T*
+(- Playertakeaway: The Emeris Capital Gate is a bright western threshold of pale carved) Tj
+T*
+(  stone, toll counters, route-charms, fried dough, caravan noise, and the green mouth) Tj
+T*
+(  of Sablewood beyond the road.) Tj
+T*
+(- Storytakeaway: Emeris feels safe until the road asks the party to leave it.) Tj
+T*
+(- Mechanictakeaway: Use for route questions, last purchases, and player introductions) Tj
+T*
+(  before Sablewood.) Tj
+T*
+(- Entityids: emeris-capital-gate) Tj
+T*
+(- Entities: emeris-capital-gate Emeris Capital Gate location Location) Tj
+T*
+(  assets/icons/location.png assets/location-visuals/emeris-capital-) Tj
+T*
+(  gate/profile_scene_v02.png EM-er-iss Capital Gate A great arch of pale carved stone) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4150 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  three wagons wide, with toll-counters clacking beneath it and the green dark of) Tj
+T*
+(  Sablewood waiting beyond. This is Emeris's Sablewood-facing gate and a player-safe) Tj
+T*
+(  starting image. Keep it a working public threshold, not a failure reveal. A pale) Tj
+T*
+(  carved city gate with toll-counters, charm stalls, caravan queues, and a road that) Tj
+T*
+(  runs from walled comfort into the green dark of Sablewood.; introduce it with a) Tj
+T*
+(  sensory palette, who feels safe there, and what has been neglected. Pull player) Tj
+T*
+(  attention toward the choices, clues, and relationships tied to Emeris, Sablewood?) Tj
+T*
+(  Logistics Preserve, Emeris Crown Holdings. A pale carved city gate with toll-) Tj
+T*
+(  counters, charm stalls, caravan queues, and a road that runs from walled comfort) Tj
+T*
+(  into the green dark of Sablewood.) Tj
+T*
+(- Locationids: emeris-capital-gate) Tj
+T*
+(- Fearspends: A cheerful notice updates the road fee while nobody mentions why. A) Tj
+T*
+(  charm seller offers a discount for travelers who look doomed.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Linkedsceneids: S00-01 S01-01) Tj
+T*
+(- Mapdata: MAP-LOC-emeris-capital-gate environment Emeris Capital Gate Location Map) Tj
+T*
+(  S00-01 S01-01 emeris-capital-gate assets/location-visuals/emeris-capital-) Tj
+T*
+(  gate/profile_scene_v02.png Visual reference for Emeris Capital Gate. Emeris Capital) Tj
+T*
+(  Gate location map board. The Emeris Capital Gate is a bright western threshold of) Tj
+T*
+(  pale carved stone, toll counters, route-charms, fried dough, caravan noise, and the) Tj
+T*
+(  green mouth of Sablewood beyond the road. The Emeris Capital Gate is a bright) Tj
+T*
+(  western threshold of pale carved stone, toll counters, route-charms, fried dough,) Tj
+T*
+(  caravan noise, and the green mouth of Sablewood beyond the road. Make the starting) Tj
+T*
+(  city concrete without inventing a missing ward problem here. Pale carved stone) Tj
+T*
+(  arches over three wagon lanes. A permanent gate market clings to the wall where the) Tj
+T*
+(  city becomes road. The gate sells confidence, supplies, and paperwork before the) Tj
+T*
+(  forest gets a vote. Distant beacon-pulses, stone vibration, notices snapping in) Tj
+T*
+(  wind, and a low hum that arrives late. Fried dough, hot sealing-wax, brass polish,) Tj
+T*
+(  carriage dust, and rain waiting in the forest air. The arch is cool under the hand;) Tj
+T*
+(  the road stones grow damp and moss-flecked toward Sablewood. People...) Tj
+T*
+(- Livetools: scene MAP-LOC-emeris-capital-gate) Tj
+T*
+(- Takeawayhelp: Player takeaway: MAP-LOC-emeris-capital-gate The Emeris Capital Gate) Tj
+T*
+(  is a bright western threshold of pale carved stone, toll counters, route-charms,) Tj
+T*
+(  fried dough, caravan noise, and the green mouth of Sablewood beyond the road. Give) Tj
+T*
+(  the player one concrete way back into play: a question, a description, a choice, or) Tj
+T*
+(  a pass-and-return moment. "Your takeaway right now is this: The Emeris Capital Gate) Tj
+T*
+(  is a bright western threshold of pale carved stone, toll counters, route-charms,) Tj
+T*
+(  fried dough, caravan noise, and the green mouth of Sablewood beyond the road." "If) Tj
+T*
+(  you are not sure what to do next, you can ask a question, describe what your) Tj
+T*
+(  character notices, or tell me what your character tries." "If you are not sure what) Tj
+T*
+(  to do next, you can ask a question, describe what your character notices, or tell me) Tj
+T*
+(  what your character tries." Give the player one concrete way back into play: a) Tj
+T*
+(  question, a description, a choice, or a pass-and-return moment. Story takeaway: MAP-) Tj
+T*
+(  LOC-emeris-capital-gate Emeris feels safe until the road asks the party to leave it.) Tj
+T*
+(  Anchor the answer in the visible fiction on this slide: who is present, what can be) Tj
+T*
+(  observed, what has already been said, and what remains...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-emeris-capital-gate-player.png Emeris Capital Gate) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3005 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  location map board. MAP-LOC-emeris-capital-gate environment Emeris Capital Gate) Tj
+T*
+(  S00-01 S01-01 assets/maps/MAP-LOC-emeris-capital-gate-player.png assets/maps/MAP-) Tj
+T*
+(  LOC-emeris-capital-gate-player.png Visual reference for Emeris Capital Gate. Emeris) Tj
+T*
+(  Capital Gate location map board. The Emeris Capital Gate is a bright western) Tj
+T*
+(  threshold of pale carved stone, toll counters, route-charms, fried dough, caravan) Tj
+T*
+(  noise, and the green mouth of Sablewood beyond the road. The Emeris Capital Gate is) Tj
+T*
+(  a bright western threshold of pale carved stone, toll counters, route-charms, fried) Tj
+T*
+(  dough, caravan noise, and the green mouth of Sablewood beyond the road. MAP-LOC-) Tj
+T*
+(  emeris-capital-gate-map-only Map only Emeris Capital Gate map-only assets/maps/MAP-) Tj
+T*
+(  LOC-emeris-capital-gate-player.png Emeris Capital Gate location map board. MAP-LOC-) Tj
+T*
+(  emeris-capital-gate environment Emeris Capital Gate S00-01 S01-01 assets/maps/MAP-) Tj
+T*
+(  LOC-emeris-capital-gate-player.png assets/maps/MAP-LOC-emeris-capital-gate-) Tj
+T*
+(  player.png Visual reference for Emeris Capital Gate. Emeris Capital Gate location) Tj
+T*
+(  map board. The Emeris Capital Gate is a bright western threshold of...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-emeris-capital-gate map Emeris Capital Gate) Tj
+T*
+(  assets/maps/MAP-LOC-emeris-capital-gate-player.png Emeris Capital Gate location map) Tj
+T*
+(  board. Visual reference for Emeris Capital Gate. spatial reference and location) Tj
+T*
+(  texture The Emeris Capital Gate is a bright western threshold of pale carved stone,) Tj
+T*
+(  toll counters, route-charms, fried dough, caravan noise, and the green mouth of) Tj
+T*
+(  Sablewood beyond the road. The Emeris Capital Gate is a bright western threshold of) Tj
+T*
+(  pale carved stone, toll counters, route-charms, fried dough, caravan noise, and the) Tj
+T*
+(  green mouth of Sablewood beyond the road. MAP-LOC-emeris-capital-gate environment) Tj
+T*
+(  Emeris Capital Gate S00-01 S01-01 assets/maps/MAP-LOC-emeris-capital-gate-player.png) Tj
+T*
+(  assets/maps/MAP-LOC-emeris-capital-gate-player.png Visual reference for Emeris) Tj
+T*
+(  Capital Gate. Emeris Capital Gate location map board. The Emeris Capital Gate is a) Tj
+T*
+(  bright western threshold of pale carved stone, toll counters, route-charms, fried) Tj
+T*
+(  dough, caravan noise, and the green mouth of Sablewood beyond the road. The Emeris) Tj
+T*
+(  Capital Gate is a bright western threshold of pale carved stone, toll counters,) Tj
+T*
+(  route-charms, fried dough, caravan noise, and the green mouth of Sablewood...) Tj
+T*
+(- Slidenumber: 19) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash a540bd1ed62010b3 | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002566 00000 n 
+0000002692 00000 n 
+0000006894 00000 n 
+0000007020 00000 n 
+0000010077 00000 n 
+0000010203 00000 n 
+0000010272 00000 n 
+0000010321 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+10393
+%%EOF

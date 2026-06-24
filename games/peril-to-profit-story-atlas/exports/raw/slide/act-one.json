@@ -1,0 +1,64 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "slide",
+  "id": "ACT-ONE",
+  "title": "ACT-ONE - Act One: The Logistics Incident",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "3a2ce783627cb51a",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The warded city is behind you now. The road runs on under a canopy so high you never see it move, and the carriage rocks along ruts older than any company that claims this forest. The job is simple: deliver the package, get paid. The forest, so far, has other ideas."
+    },
+    {
+      "title": "Public objective",
+      "body": "Get the carriage and the sealed package moving again, then continue through the preserve toward the village."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Id: ACT-ONE",
+        "Type: act-divider",
+        "Sectionid: ACT-ONE",
+        "Sectiontitle: Act One: The Logistics Incident",
+        "Title: Act One: The Logistics Incident",
+        "Shorttitle: Act One",
+        "Order: 200",
+        "Playersafe: True",
+        "Completioneligible: False",
+        "Caption: The branded route stops feeling managed when the Old Sable answers back.",
+        "Mood: table transition",
+        "Gmgoal: Open Act 1 as the first road complication: the routine courier job stops, the forest feels dangerous, and the first real rolls become possible.",
+        "Publicobjective: Get the carriage and the sealed package moving again, then continue through the preserve toward the village.",
+        "Readaloud: The warded city is behind you now. The road runs on under a canopy so high you never see it move, and the carriage rocks along ruts older than any company that claims this forest. The job is simple: deliver the package, get paid. The forest, so far, has other ideas.",
+        "Playertakeaway: You are past the point of no return; the only paid direction is forward through the preserve.",
+        "Storytakeaway: Act 1 turns a routine job into an adventure: first complication, first wrongness, first real choice.",
+        "Mechanictakeaway: Act 1 teaches the core loop: describe an action, roll when risk matters, then read Hope or Fear on the Duality Dice.",
+        "Livetools: none",
+        "Playersafeprojection: ACT-ONE act-divider Act One: The Logistics Incident The branded route stops feeling managed when the Old Sable answers back. table transition Get the carriage and the sealed package moving again, then continue through the preserve toward the village. The warded city is behind you now. The road runs on under a canopy so high you never see it move, and the carriage rocks along ruts older than any company that claims this forest. The job is simple: deliver the package, get paid. The forest, so far, has other ideas. ACT-ONE-city-behind Out of the city Out of the city The warded city is behind you now. The carriage wheels find the old forest road, and the job is still simple: deliver the package and get paid. The warded city is behind you now. The carriage wheels find the old forest road, and the job is still simple: deliver the package and get paid. The warded city is behind you now. The carriage wheels find the old forest road, and the job is still simple: deliver the package and get paid. text-first ACT-ONE-forest-closes The forest closes in The forest closes in The trees rise like buildings on every side. Company route signs look small against trunks wide enough to make the road...",
+        "Gmscript: All right, this is where the road starts pushing back. Your job has not changed: keep the package safe, keep the carriage moving, and get through the preserve. What changes now is that the forest stops behaving like a company route map.",
+        "Gmreadaloud: The warded city is behind you now. The road runs on under a canopy so high you never see it move, and the carriage rocks along ruts older than any company that claims this forest. The job is simple: deliver the package, get paid. The forest, so far, has other ideas.",
+        "Gmchecklist: Confirm the player display is showing the Act 1 board. Have the Sablewood sensory stack ready: huge trees, company route signs, rain, old road, animal quiet. Keep the first roll cue in mind: Presence against the creature's reaction, Difficulty 10.",
+        "Gmprivate: Keep the forest-danger framing slightly too smooth. This is the corporate line, and Act 1 is where the first cracks show. The package stays player-facing as the package. Do not say Keystone Asset in projected Act 1 text.",
+        "Mechanicids: action-roll duality-dice hope fear presence",
+        "References: Prologue transition #PROLOGUE Sablewood Preserve packet sources/Goldspire_Location_Packet/01_Sablewood_Preserve.md",
+        "Sourcefiles: Act1_Upgrade_Packet/ACT1_SCENE_UPGRADES.md Goldspire_Location_Packet/01_Sablewood_Preserve.md",
+        "Playerbeats: ACT-ONE-city-behind Out of the city Out of the city The warded city is behind you now. The carriage wheels find the old forest road, and the job is still simple: deliver the package and get paid. The warded city is behind you now. The carriage wheels find the old forest road, and the job is still simple: deliver the package and get paid. The warded city is behind you now. The carriage wheels find the old forest road, and the job is still simple: deliver the package and get paid. text-first ACT-ONE-forest-closes The forest closes in The forest closes in The trees rise like buildings on every side. Company route signs look small against trunks wide enough to make the road feel temporary. The trees rise like buildings on every side. Company route signs look small against trunks wide enough to make the road feel temporary. The trees rise like buildings on every side. Company route signs look small against trunks wide enough to make the road feel temporary. text-first ACT-ONE-something-ahead Something ahead Something ahead The carriage rounds a tight bend and the road ahead stops being road. Something large blocks the way. The carriage rounds a tight bend and the road ahead stops...",
+        "Gmbeats: ACT-ONE-city-behind Out of the city Out of the city Say: \"The city is behind you. Before the road turns strange, what does your character watch from the carriage?\" The warded city is behind you now. The carriage wheels find the old forest road, and the job is still simple: deliver the package and get paid. The party crosses from contract language into living wilderness. Roleplay can establish position before any dice appear. Each player can choose a detail their character is watching for. Player takeaway Each player can choose a detail their character is watching for. \"The city is behind you. Before the road turns strange, what does your character watch from the carriage?\" \"The playable facts are: The warded city is behind you now. The carriage wheels find the old forest road, and the job is still simple: deliver the package and get paid. You can respond to one of those facts directly, ask a question about it, or invite another PC into the moment.\" Active GM line: Say: \"The city is behind you. Before the road turns strange, what does your character watch from the carriage?\" Player-facing display text: The warded city is behind you now. The carriage wheels find the old forest...",
+        "Takeawayhelp: Player takeaway You are past the point of no return; the only paid direction is forward through the preserve. \"You can turn around, but that means walking away from the job. Forward is the only paid direction.\" \"You are still escorting the package. You can talk in the carriage, watch the route, ask what you notice, or push on until the road forces a decision.\" Keep this as permission, not a railroad. The contract creates pressure, but players can still choose how they approach danger. roleplay table-spotlight Story takeaway Act 1 turns a routine job into an adventure: first complication, first wrongness, first real choice. \"This is where the easy part ends. The road is about to stop being a road.\" \"Your job has not changed: deliver the package. The forest is going to test how you do that before you are through it.\" Act 1 should feel like the first crack in the company version of reality. Describe the route as managed, then let the scene make that management feel fragile. roleplay Mechanic takeaway Act 1 teaches the core loop: describe an action, roll when risk matters, then read Hope or Fear on the Duality Dice. \"When something is uncertain, you will roll two d12s and add a...",
+        "Beatautoplayeligible: True",
+        "Beatautoplaydefault: False",
+        "Beatautoplayintervalms: 9000",
+        "Slidenumber: 24",
+        "Totalslides: 110"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 3a2ce783627cb51a | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

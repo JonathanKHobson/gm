@@ -1,0 +1,66 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "sablewood-hybrid-fauna",
+  "title": "Sablewood Hybrid Fauna",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "e73ad849270fc747",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Sablewood Hybrid Fauna: Sablewood fauna mix familiar animal shapes into unfamiliar pressures: Cat-Squirrels, Giraffe-Deer, Lemur-Toads, Fox-Bats, Horse-Goats, Bullfrogs, Strixwolves, Eeligators, and stranger deep-wood hybrids."
+    },
+    {
+      "title": "Public role",
+      "body": "Ecology rule for Sablewood's blended animals"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: Sablewood fauna mix familiar animal shapes into unfamiliar pressures: Cat-Squirrels, Giraffe-Deer, Lemur-Toads, Fox-Bats, Horse-Goats, Bullfrogs, Strixwolves, Eeligators, and stranger deep-wood hybrids."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: creature",
+        "Role: Ecology rule for Sablewood's blended animals",
+        "Summary: Sablewood fauna mix familiar animal shapes into unfamiliar pressures: Cat-Squirrels, Giraffe-Deer, Lemur-Toads, Fox-Bats, Horse-Goats, Bullfrogs, Strixwolves, Eeligators, and stranger deep-wood hybrids.",
+        "Tags: sablewood-lore ecology hybrid-fauna source-page-1",
+        "Aliases: Hybrid Fauna Sablewood Hybrid Fauna hybrid animals hybrid beasts",
+        "Connections: Sablewood™ Logistics Preserve Cat-Squirrels Giraffe-Deer Lemur-Toads Fox-Bats Horse-Goats Strixwolf Eeligator Bullfrog The Glimpse",
+        "Inventory: Cat-Squirrels Giraffe-Deer Lemur-Toads Fox-Bats Horse-Goats Strixwolf Eeligator Bullfrog",
+        "Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.",
+        "Image Fallback: type-icon",
+        "Source Pages: Sablewood PDF p. 1",
+        "Name: Sablewood Hybrid Fauna",
+        "Id: sablewood-hybrid-fauna",
+        "Meta: Creature / Animal CREATURE assets/icons/creature.png entity-creature #78a65f 04 Creatures entities creature",
+        "Appears In: S01-02 S01-03",
+        "Related: Bullfrog Cat-Squirrels Eeligator Fox-Bats Giraffe-Deer Horse-Goats Lemur-Toads S01-02 S01-03 Sablewood™ Logistics Preserve Strixwolf The Glimpse",
+        "Image Prompt: Private table TTRPG story atlas asset for Sablewood Hybrid Fauna, Creature / Animal. Role: Ecology rule for Sablewood's blended animals. Summary: Sablewood fauna mix familiar animal shapes into unfamiliar pressures: Cat-Squirrels, Giraffe-Deer, Lemur-Toads, Fox-Bats, Horse-Goats, Bullfrogs, Strixwolves, Eeligators, and stranger deep-wood hybrids.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Personality: Sablewood fauna mix familiar animal shapes into unfamiliar pressures: Cat-Squirrels, Giraffe-Deer, Lemur-Toads, Fox-Bats, Horse-Goats, Bullfrogs, Strixwolves, Eeligators, and stranger deep-wood hybrids.; show instinct first through distance, posture, scent, and how the creature protects what is close to it.",
+        "Wants: Reach safety on its own terms and communicate danger through behavior before the party turns the moment into combat.",
+        "Fears: Being surrounded, misread as a monster, or driven toward Sablewood™ Logistics Preserve, Cat-Squirrels, Giraffe-Deer by noise and haste.",
+        "Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.",
+        "Body Language: Moves from protection, not malice. Reacts to posture, volume, and distance more than words.",
+        "Sample Dialogue: Sablewood fauna mix familiar animal shapes into unfamiliar pressures: Cat-Squirrels, Giraffe-Deer, Lemur-Toads, Fox-Bats, Horse-Goats, Bullfrogs, Strixwolves, Eeligators, and stranger deep-wood hybrids.",
+        "Equipment: Cat-Squirrels Giraffe-Deer Lemur-Toads Fox-Bats Horse-Goats Strixwolf Eeligator Bullfrog",
+        "Search Or Loot: Search yields context first: spoor, warning marks, tool scratches, route signs, or local testimony unless a scene names treasure.",
+        "Gm Use: Use as a moral encounter. Reward restraint and observation without forcing a pet or mascot outcome.",
+        "Future Hooks: Bring back as an echo if players made a strong choice involving this entity.",
+        "Robust: Sablewood Hybrid Fauna: Sablewood fauna mix familiar animal shapes into unfamiliar pressures: Cat-Squirrels, Giraffe-Deer, Lemur-Toads, Fox-Bats, Horse-Goats, Bullfrogs, Strixwolves, Eeligators, and stranger deep-wood hybrids. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Reach safety on its own terms and communicate danger through behavior before the party turns the moment into combat. Being surrounded, misread as a monster, or driven toward Sablewood™ Logistics Preserve, Cat-Squirrels, Giraffe-Deer by noise and haste. Use as a moral encounter. Reward restraint and observation without forcing a pet or mascot outcome. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Sablewood Hybrid Fauna and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the...",
+        "Pronunciation: SAY-bul-wood Hybrid Fauna",
+        "Short Pronunciation: SAY-bul-wood Hybrid Fauna",
+        "Image: assets/entities/sablewood-hybrid-fauna.webp",
+        "Image Asset Status: fallback_type_icon",
+        "Visual Gallery: primary Primary wiki image primary assets/entities/sablewood-hybrid-fauna.webp Sablewood Hybrid Fauna primary wiki image visual. Sablewood Hybrid Fauna: Primary wiki image. fallback_type_icon True True"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash e73ad849270fc747 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

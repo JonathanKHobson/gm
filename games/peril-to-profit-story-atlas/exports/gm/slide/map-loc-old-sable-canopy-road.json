@@ -1,0 +1,29 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "slide",
+  "id": "MAP-LOC-old-sable-canopy-road",
+  "title": "MAP-LOC-old-sable-canopy-road - Old Sable Canopy Road Location Map",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "3c2d6bc4e84ce3a0",
+  "sections": [
+    {
+      "title": "Player text",
+      "body": "The canopy road feels like travel through the forest's memory: dim green light, root-shadow bends, and old markers half-swallowed by moss."
+    },
+    {
+      "title": "Public objective",
+      "body": "The canopy road feels like travel through the forest's memory: dim green light, root-shadow bends, and old markers half-swallowed by moss."
+    },
+    {
+      "title": "GM goal",
+      "body": "Give the route enough texture that the later incident feels placed, not random."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 3c2d6bc4e84ce3a0 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

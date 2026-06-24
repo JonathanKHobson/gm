@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S05-01",
+  "kind": "slide",
+  "title": "S05-01 - The Open Vale Site",
+  "in_world_label": "Run Mode Slide Briefing",
+  "brand_flag": "Run Mode",
+  "kicker": "Act Five: The Ward Renewal",
+  "hook": "The clearing is a perfect circle, the only break in the endless canopy: open sky above for the first time in days. The Custodian speaks softly as you arrive. This is where she first forged the ward pillars that keep...",
+  "blocks": [
+    {
+      "label": "Current Beat",
+      "body": "The clearing is a perfect circle, the only break in the endless canopy: open sky above for the first time in days. The Custodian speaks softly as you arrive. This is where she first forged the ward pillars that keep Hush safe. She almost died doing it. Then..."
+    },
+    {
+      "label": "Public Objective",
+      "body": "Reach the ritual site, learn what is coming, and prepare."
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Choose one visible approach.",
+    "Ask one practical question before acting."
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - slide:S05-01",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "fed5131440c88f4e",
+  "generated_at": "2026-06-23T21:40:58"
+}

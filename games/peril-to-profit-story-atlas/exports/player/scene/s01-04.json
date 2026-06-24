@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "S01-04",
+  "kind": "scene",
+  "title": "S01-04 - The First Roll",
+  "in_world_label": "Situation Briefing",
+  "brand_flag": "Briefing",
+  "kicker": "The Logistics Incident",
+  "hook": "The strixwolf lowers her head. Her feathers rise along her spine. The pups go still. What do you do?",
+  "blocks": [
+    {
+      "label": "Where You Are",
+      "body": "The strixwolf lowers her head. Her feathers rise along her spine. The pups go still. What do you do?"
+    },
+    {
+      "label": "Plain Stakes",
+      "body": "The first action roll determines whether the strixwolf calms, retreats, snaps, or trusts."
+    },
+    {
+      "label": "Visible Options",
+      "body": "Roll Presence Use food or magic Let ranger/animal expert approach Strike first"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "What detail in The First Roll tells you the official story is incomplete?",
+    "Who notices the human cost first, and how do they show it?",
+    "What small object, smell, or sound makes this scene feel real?"
+  ],
+  "archetype": "scene.briefing",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - scene:S01-04",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "f42579a4e9a08bc0",
+  "generated_at": "2026-06-23T21:40:58"
+}

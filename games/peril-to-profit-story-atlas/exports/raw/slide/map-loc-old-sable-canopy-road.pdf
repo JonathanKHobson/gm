@@ -1,0 +1,332 @@
+%PDF-1.4
+1 0 obj
+<< /Length 2795 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(MAP-LOC-old-sable-canopy-road - Old Sable Canopy Road Location Map) Tj
+T*
+() Tj
+T*
+(Player text) Tj
+T*
+() Tj
+T*
+(The canopy road feels like travel through the forest's memory: dim green light, root-) Tj
+T*
+(shadow bends, and old markers half-swallowed by moss.) Tj
+T*
+() Tj
+T*
+(Public objective) Tj
+T*
+() Tj
+T*
+(The canopy road feels like travel through the forest's memory: dim green light, root-) Tj
+T*
+(shadow bends, and old markers half-swallowed by moss.) Tj
+T*
+() Tj
+T*
+(Raw source) Tj
+T*
+() Tj
+T*
+(- Id: MAP-LOC-old-sable-canopy-road) Tj
+T*
+(- Type: map) Tj
+T*
+(- Maptype: environment) Tj
+T*
+(- Sectionid: STORY) Tj
+T*
+(- Sectiontitle: Map Board) Tj
+T*
+(- Title: Old Sable Canopy Road Location Map) Tj
+T*
+(- Shorttitle: Old Sable Canopy Road) Tj
+T*
+(- Order: 850.1) Tj
+T*
+(- Playersafe: True) Tj
+T*
+(- Completioneligible: False) Tj
+T*
+(- Image: assets/maps/MAP-LOC-old-sable-canopy-road-gm.png) Tj
+T*
+(- Alt: Old Sable Canopy Road location map board.) Tj
+T*
+(- Caption: Visual reference for Old Sable Canopy Road.) Tj
+T*
+(- Mood: spatial reference and location texture) Tj
+T*
+(- Gmgoal: Give the route enough texture that the later incident feels placed, not) Tj
+T*
+(  random.) Tj
+T*
+(- Publicobjective: The canopy road feels like travel through the forest's memory: dim) Tj
+T*
+(  green light, root-shadow bends, and old markers half-swallowed by moss.) Tj
+T*
+(- Readaloud: The canopy road feels like travel through the forest's memory: dim green) Tj
+T*
+(  light, root-shadow bends, and old markers half-swallowed by moss.) Tj
+T*
+(- Playertakeaway: The canopy road feels like travel through the forest's memory: dim) Tj
+T*
+(  green light, root-shadow bends, and old markers half-swallowed by moss.) Tj
+T*
+(- Storytakeaway: The road shows local memory being covered by a managed route.) Tj
+T*
+(- Mechanictakeaway: Use as travel pressure, not combat space.) Tj
+T*
+(- Entityids: old-sable-canopy-road cat-squirrels lemur-toads fox-bats horse-goats) Tj
+T*
+(- Entities: old-sable-canopy-road Old Sable Canopy Road location Location) Tj
+T*
+(  assets/icons/location.png assets/location-visuals/old-sable-canopy-) Tj
+T*
+(  road/profile_scene_v02.png ohld SAY-bul KAN-uh-pee rohd The living road beneath the) Tj
+T*
+(  branded logistics layer, remembered by locals as a place instead of a service) Tj
+T*
+(  corridor. Give the route enough texture that the later incident feels placed, not) Tj
+T*
+(  random. The living road beneath the branded logistics layer, remembered by locals as) Tj
+T*
+(  a place instead of a service corridor.; introduce it with a sensory palette, who) Tj
+T*
+(  feels safe there, and what has been neglected. Pull player attention toward the) Tj
+T*
+(  choices, clues, and relationships tied to Old Sable, Sablewood? Logistics Preserve,) Tj
+T*
+ET
+endstream
+endobj
+2 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
+endobj
+3 0 obj
+<< /Length 4189 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  Hush. The living road beneath the branded logistics layer, remembered by locals as a) Tj
+T*
+(  place instead of a service corridor. cat-squirrels Cat-Squirrels creature Creature /) Tj
+T*
+(  Animal assets/icons/creature.png assets/creature-images/cat-) Tj
+T*
+(  squirrels/portrait_base.png KAT SKWUR-uhlz Bright little cat-squirrel hybrids leap) Tj
+T*
+(  limb to limb, chattering at route signs and knocking dew from leaves before larger) Tj
+T*
+(  creatures arrive. Canopy trail-life indicator Bright little cat-squirrel hybrids) Tj
+T*
+(  leap limb to limb...) Tj
+T*
+(- Locationids: old-sable-canopy-road) Tj
+T*
+(- Fearspends: The next marker has been painted over too recently. A wheel rut fills) Tj
+T*
+(  with water from below. The canopy hush arrives before the danger does.) Tj
+T*
+(- Spoilers: GM-only location fields, combat notes, canon notes, and hidden-truth) Tj
+T*
+(  context stay off the player display.) Tj
+T*
+(- Mapdata: MAP-LOC-old-sable-canopy-road environment Old Sable Canopy Road Location) Tj
+T*
+(  Map old-sable-canopy-road cat-squirrels lemur-toads fox-bats horse-goats) Tj
+T*
+(  assets/location-visuals/old-sable-canopy-road/profile_scene_v02.png Visual reference) Tj
+T*
+(  for Old Sable Canopy Road. Old Sable Canopy Road location map board. The canopy road) Tj
+T*
+(  feels like travel through the forest's memory: dim green light, root-shadow bends,) Tj
+T*
+(  and old markers half-swallowed by moss. The canopy road feels like travel through) Tj
+T*
+(  the forest's memory: dim green light, root-shadow bends, and old markers half-) Tj
+T*
+(  swallowed by moss. Give the route enough texture that the later incident feels) Tj
+T*
+(  placed, not random. The road narrows under branches that meet overhead. Stone) Tj
+T*
+(  markers appear in pairs, then stop where corporate signage begins. Birds restart) Tj
+T*
+(  their calls behind the party but not ahead. Leaf-drip, insects, distant wingbeats,) Tj
+T*
+(  and animal calls that stop or resume according to pressure, not comfort. Leaf-drip,) Tj
+T*
+(  distant wingbeats, mushroom loam, and rainwater running down bark channels. The road) Tj
+T*
+(  surface alternates between springy moss and slick clay that remembers every wheel.) Tj
+T*
+(  The forest is populated even when no NPC is present; silence...) Tj
+T*
+(- Livetools: scene MAP-LOC-old-sable-canopy-road) Tj
+T*
+(- Takeawayhelp: Player takeaway: MAP-LOC-old-sable-canopy-road The canopy road feels) Tj
+T*
+(  like travel through the forest's memory: dim green light, root-shadow bends, and old) Tj
+T*
+(  markers half-swallowed by moss. Give the player one concrete way back into play: a) Tj
+T*
+(  question, a description, a choice, or a pass-and-return moment. "Your takeaway right) Tj
+T*
+(  now is this: The canopy road feels like travel through the forest's memory: dim) Tj
+T*
+(  green light, root-shadow bends, and old markers half-swallowed by moss." "If you are) Tj
+T*
+(  not sure what to do next, you can ask a question, describe what your character) Tj
+T*
+(  notices, or tell me what your character tries." "If you are not sure what to do) Tj
+T*
+(  next, you can ask a question, describe what your character notices, or tell me what) Tj
+T*
+(  your character tries." Give the player one concrete way back into play: a question,) Tj
+T*
+(  a description, a choice, or a pass-and-return moment. Story takeaway: MAP-LOC-old-) Tj
+T*
+(  sable-canopy-road The road shows local memory being covered by a managed route.) Tj
+T*
+(  Anchor the answer in the visible fiction on this slide: who is present, what can be) Tj
+T*
+(  observed, what has already been said, and what remains uncertain. "Here is what your) Tj
+T*
+(  characters know right now: The road shows local...) Tj
+T*
+(- Playerbeats: assets/maps/MAP-LOC-old-sable-canopy-road-player.png Old Sable Canopy) Tj
+T*
+(  Road location map board. MAP-LOC-old-sable-canopy-road environment Old Sable Canopy) Tj
+T*
+(  Road assets/maps/MAP-LOC-old-sable-canopy-road-player.png assets/maps/MAP-LOC-old-) Tj
+T*
+(  sable-canopy-road-player.png Visual reference for Old Sable Canopy Road. Old Sable) Tj
+T*
+(  Canopy Road location map board. The canopy road feels like travel through the) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2646 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(  forest's memory: dim green light, root-shadow bends, and old markers half-swallowed) Tj
+T*
+(  by moss. The canopy road feels like travel through the forest's memory: dim green) Tj
+T*
+(  light, root-shadow bends, and old markers half-swallowed by moss. MAP-LOC-old-sable-) Tj
+T*
+(  canopy-road-map-only Map only Old Sable Canopy Road map-only assets/maps/MAP-LOC-) Tj
+T*
+(  old-sable-canopy-road-player.png Old Sable Canopy Road location map board. MAP-LOC-) Tj
+T*
+(  old-sable-canopy-road environment Old Sable Canopy Road assets/maps/MAP-LOC-old-) Tj
+T*
+(  sable-canopy-road-player.png assets/maps/MAP-LOC-old-sable-canopy-road-player.png) Tj
+T*
+(  Visual reference for Old Sable Canopy Road. Old Sable Canopy Road location map) Tj
+T*
+(  board. The canopy road feels like travel through the forest's memory: dim green) Tj
+T*
+(  light, root-shadow bends, and old markers half-swallowed by moss...) Tj
+T*
+(- Beatautoplayeligible: True) Tj
+T*
+(- Beatautoplaydefault: False) Tj
+T*
+(- Beatautoplayintervalms: 10000) Tj
+T*
+(- Playersafeprojection: MAP-LOC-old-sable-canopy-road map Old Sable Canopy Road) Tj
+T*
+(  assets/maps/MAP-LOC-old-sable-canopy-road-player.png Old Sable Canopy Road location) Tj
+T*
+(  map board. Visual reference for Old Sable Canopy Road. spatial reference and) Tj
+T*
+(  location texture The canopy road feels like travel through the forest's memory: dim) Tj
+T*
+(  green light, root-shadow bends, and old markers half-swallowed by moss. The canopy) Tj
+T*
+(  road feels like travel through the forest's memory: dim green light, root-shadow) Tj
+T*
+(  bends, and old markers half-swallowed by moss. MAP-LOC-old-sable-canopy-road) Tj
+T*
+(  environment Old Sable Canopy Road assets/maps/MAP-LOC-old-sable-canopy-road-) Tj
+T*
+(  player.png assets/maps/MAP-LOC-old-sable-canopy-road-player.png Visual reference for) Tj
+T*
+(  Old Sable Canopy Road. Old Sable Canopy Road location map board. The canopy road) Tj
+T*
+(  feels like travel through the forest's memory: dim green light, root-shadow bends,) Tj
+T*
+(  and old markers half-swallowed by moss. The canopy road feels like travel through) Tj
+T*
+(  the forest's memory: dim green light, root-shadow bends, and old markers half-) Tj
+T*
+(  swallowed by moss. assets/maps/MAP-LOC-old-sable-canopy-road-player.png Old Sable) Tj
+T*
+(  Canopy Road location map board. MAP-LOC-old-sable-canopy-road environment Old) Tj
+T*
+(  Sable...) Tj
+T*
+(- Slidenumber: 82) Tj
+T*
+(- Totalslides: 110) Tj
+T*
+() Tj
+T*
+(Export Stamp) Tj
+T*
+() Tj
+T*
+(Build 2026-06-23T21:40:58 | Content hash 16256117c4aa12dd | Source hash) Tj
+T*
+(dac3370046ed077140fab2d6) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000002856 00000 n 
+0000002982 00000 n 
+0000007223 00000 n 
+0000007349 00000 n 
+0000010047 00000 n 
+0000010173 00000 n 
+0000010242 00000 n 
+0000010291 00000 n 
+trailer
+<< /Size 10 /Root 8 0 R >>
+startxref
+10363
+%%EOF

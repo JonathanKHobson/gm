@@ -1,0 +1,65 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "raw",
+  "kind": "entity",
+  "id": "relay-tremor-notation",
+  "title": "Relay Tremor Notation",
+  "generated_at": "2026-06-23T21:40:58",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "42a08d18eb4af039",
+  "sections": [
+    {
+      "title": "Player-facing description",
+      "body": "Relay Tremor Notation: A small notation that the larger network is shaking before the party has language for the problem."
+    },
+    {
+      "title": "Public role",
+      "body": "Early warning of the Relay Spire future hook"
+    },
+    {
+      "title": "Handout text",
+      "body": "Player-safe note: A small notation that the larger network is shaking before the party has language for the problem."
+    },
+    {
+      "title": "Raw source",
+      "items": [
+        "Type: clue",
+        "Role: Early warning of the Relay Spire future hook",
+        "Summary: A small marginal notation — a tremor reading — showing the wider relay network is already shaking, before anyone here has words for the problem.",
+        "Tags: clue evidence future-hook hidden relay-spire ward",
+        "Connections: Relay Spire Whitefire Custodian The Hanging Office The Goldspire Relay",
+        "Inventory: margin note tremor date crossed-out reassurance",
+        "Loot: Only reveal the larger meaning if the party earns the Custodian's candor.",
+        "Name: Relay Tremor Notation",
+        "Id: relay-tremor-notation",
+        "Meta: Clue / Evidence CLUE assets/icons/clue.png entity-clue #48c7e8 07 Items and Clues entities clue",
+        "Aliases: Relay Tremor Notation relay notation tremor notation tremor note",
+        "Related: Relay Spire The Goldspire Relay The Hanging Office Whitefire Custodian",
+        "Image Prompt: Private table TTRPG story atlas asset for Relay Tremor Notation, Clue / Evidence. Role: Early warning of the Relay Spire future hook. Summary: A small marginal notation — a tremor reading — showing the wider relay network is already shaking, before anyone here has words for the problem.. Cinematic fantasy concept art, readable silhouette, no visible text, no UI, no watermark. Do not include the Strixwolf Mother, strixwolf pups, wolves, owlbears, or animal companions.",
+        "Personality: A small notation that the larger network is shaking before the party has language for the problem.; make it tactile enough that the players can point to it, carry it, compare it, or show it to someone.",
+        "Wants: Move suspicion toward Relay Spire, Whitefire Custodian, The Hanging Office without requiring a lore lecture.",
+        "Fears: Being pocketed as trivia, missed because it looks mundane, or separated from the person it can help.",
+        "Secrets: No forced reveal. Let this entity disclose truth through scene context and player attention.",
+        "Body Language: Give it one tactile detail when introduced. Connect it to a choice, clue, or consequence.",
+        "Sample Dialogue: A small notation that the larger network is shaking before the party has language for the problem.",
+        "Equipment: margin note tremor date crossed-out reassurance",
+        "Search Or Loot: Only reveal the larger meaning if the party earns the Custodian's candor.",
+        "Gm Use: Use when the scene needs a concrete object for players to inspect, carry, debate, or remember.",
+        "Future Hooks: Follow the failing relay network after the one-shot.",
+        "Robust: Relay Tremor Notation: A small notation that the larger network is shaking before the party has language for the problem. No forced reveal. Let this entity disclose truth through scene context and player attention. Give one concrete visual, one sound or texture, and one sign of who has used or neglected it. Move suspicion toward Relay Spire, Whitefire Custodian, The Hanging Office without requiring a lore lecture. Being pocketed as trivia, missed because it looks mundane, or separated from the person it can help. Use when the scene needs a concrete object for players to inspect, carry, debate, or remember. Knowledge / Instinct / Presence as fits the table 15 Learn the clean fact about Relay Tremor Notation and one deeper connection. Learn the useful fact and gain a follow-up question. Learn the fact, but reveal who notices, who is endangered, or what timer advances. Miss the full answer, but gain a sensory clue or safe next step. Misread the pressure and invite a GM move tied to cost, custody, or danger. Spend Fear to reveal the system behind the object, move a threat closer, or make a choice more costly. Loreborne / Knowledge: names the institutional pattern. Wildborne /...",
+        "Mechanics: Discovery / Earn-It Mechanics Players can inspect, handle, keep, trade, reveal, or earn Relay Tremor Notation when it is present in the fiction. Use the roll only when the player's method, stakes, and consequence are concrete. Surface read: A small marginal notation — a tremor reading — showing the wider relay network is already shaking, before anyone here has words for the problem. Give obvious visible facts freely; roll for meaning, risk, leverage, cost, or a hidden angle. entity-relay-tremor-notation-engage-relay-tremor-notation entity-relay-tremor-notation Engage Relay Tremor Notation Engage Relay Tremor Notation Knowledge Finesse Instinct Presence Knowledge Finesse, Instinct, Presence 12 Choose the trait from the player's method, not the entity type. A flat read of Relay Tremor Notation hides the cost, motive, or useful next step. Critical Success: best possible version of the action; gain Hope and clear 1 Stress. Add an extra benefit that follows from the fiction. Success with Hope: the PC gets what they wanted and gains Hope. Keep the position clean or generous. Success with Fear: the PC gets what they wanted, but the GM gains Fear and introduces a cost, complication, or...",
+        "Pronunciation: REE-lay TREM-or noh-TAY-shun",
+        "Short Pronunciation: REE-lay Tremor Notation",
+        "Clue Profile: clue-profile-v1 relay-tremor-notation relay-tremor-notation Relay Tremor Notation Relay Tremor Notation REE-lay TREM-or noh-TAY-shun document/environmental True Relay Tremor Notation A small marginal notation — a tremor reading — showing the wider relay network is already shaking, before anyone here has words for the problem. A small marginal notation — a tremor reading — showing the wider relay network is already shaking, before anyone here has words for the problem. A small marginal notation — a tremor reading — showing the wider relay network is already shaking, before anyone here has words for the problem. relay-tremor-notation Relay Tremor Notation REE-lay TREM-or noh-TAY-shun document/environmental the failure isn't local; the whole system is destabilizing (the sequel seam). HIDDEN The Manufactured Failure the-manufactured-failure Seeds the hidden false-capitalism thesis without stating it to players. pages/entities/relay-tremor-notation.html pages/clues/the-manufactured-failure.html A small marginal notation — a tremor reading — showing the wider relay network is already shaking, before anyone here has words for the problem. the failure isn't local; the whole system is...",
+        "Image: assets/clue-images/relay-tremor-notation/profile_base.webp",
+        "Image Asset Status: clue_visual_profile",
+        "Visual Gallery: primary Primary wiki image primary assets/clue-images/relay-tremor-notation/profile_base.webp Relay Tremor Notation primary wiki image visual. Relay Tremor Notation: Primary wiki image. clue_visual_profile True True"
+      ]
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-06-23T21:40:58 | Content hash 42a08d18eb4af039 | Source hash dac3370046ed077140fab2d6"
+    }
+  ]
+}

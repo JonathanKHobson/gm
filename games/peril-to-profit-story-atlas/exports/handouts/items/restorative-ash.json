@@ -1,0 +1,53 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "restorative-ash",
+  "kind": "entity",
+  "title": "Restorative Ash™",
+  "in_world_label": "Provisioning Product Card",
+  "brand_flag": "Fire Solutions",
+  "kicker": "A little painted tin holds fine black ash and a folded promise as long as your arm. It smells of old smoke and expensive confidence.",
+  "hook": "A little painted tin holds fine black ash and a folded promise as long as your arm. It smells of old smoke and expensive confidence.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "A little painted tin holds fine black ash and a folded promise as long as your arm. It smells of old smoke and expensive confidence."
+    },
+    {
+      "label": "Maker Voice",
+      "body": "FIRE SOLUTIONS RESTORATIVE ASH: Cures What Ails You. Ailments not specified. Results not guaranteed. Ash not returnable."
+    },
+    {
+      "label": "At The Table",
+      "body": "No default mechanical effect. Flavor/scam; an alchemist might use it as a reagent at GM discretion."
+    }
+  ],
+  "spec": [
+    [
+      "Use",
+      "Use when the item is worn, consumed, presented, inspected, traded, or applied in the fiction."
+    ],
+    [
+      "Benefit",
+      "The player gains the listed effect, leverage, clue, access, protection, or fictional permission when the item is earned."
+    ],
+    [
+      "Limit",
+      "If the item is a consumable, it is spent after use. If it is evidence or access, it creates leverage instead of a..."
+    ]
+  ],
+  "affordances": [
+    "Inspect the label, maker, or fine print.",
+    "Use it only when the fiction says you can reach it."
+  ],
+  "archetype": "item.product_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:restorative-ash",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "a4efbf80a88242d0",
+  "generated_at": "2026-06-23T21:40:58"
+}

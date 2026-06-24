@@ -1,0 +1,36 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "marlowe-fairwind",
+  "kind": "entity",
+  "title": "Marlowe Fairwind",
+  "in_world_label": "Redacted Contact Card",
+  "brand_flag": "Player-safe",
+  "kicker": "PC / Player Character",
+  "hook": "Marlowe Fairwind is a playable Loreborne Elf Sorcerer pregen and the default package custodian. She receives the job with the rest of the party.",
+  "blocks": [
+    {
+      "label": "Public Read",
+      "body": "Updated playable PC portrait based on the source concept-art silhouette. Marlowe is no longer using the party image as a placeholder."
+    },
+    {
+      "label": "Comes Across As",
+      "body": "sharp, responsible, and most alive when a problem needs magic and nerve instead of authority"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Ask Marlowe Fairwind what they need right now.",
+    "Watch what they protect before asking for trust."
+  ],
+  "archetype": "npc.contact_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - entity:marlowe-fairwind",
+  "build_timestamp": "2026-06-23T21:40:58",
+  "source_content_hash": "dac3370046ed077140fab2d6",
+  "content_hash": "1409bcfcb1144570",
+  "generated_at": "2026-06-23T21:40:58"
+}
