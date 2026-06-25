@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How the Story Atlas Was Built</title>
+  <meta name="description" content="A public case study on building the Goldspire Story Atlas with AI collaboration, human steering, source generation, visual assets, QA, and GitHub Pages publishing.">
+  <meta property="og:title" content="How the Story Atlas Was Built">
+  <meta property="og:description" content="A candid case study about turning prompts, AI collaboration, source generation, and QA into a GM-ready Story Atlas.">
+  <meta property="og:type" content="article">
+  <link rel="icon" href="data:,">
+  <style>
+    :root {
+      --ink:#17201b; --paper:#f6f1e8; --muted:#65706a; --line:#d8cec0;
+      --forest:#16473a; --teal:#0f766e; --amber:#c77c26; --blue:#335c9b;
+      --berry:#8f3f55; --moss:#6d8a42; --charcoal:#101413; --cream:#fffaf1;
+    }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color:var(--ink); background:var(--paper); line-height:1.55; }
+    a { color:var(--teal); }
+    img { max-width:100%; display:block; }
+    .hero {
+      min-height:92vh; display:grid; align-items:end; padding:clamp(2rem,5vw,5rem);
+      background:linear-gradient(90deg, rgba(9,16,14,.88) 0%, rgba(9,16,14,.62) 48%, rgba(9,16,14,.42) 100%), url('assets/story/S03-03-the-clover-co-op.webp') center/cover no-repeat;
+      color:white; position:relative;
+    }
+    .hero-inner { max-width:980px; padding-bottom:8vh; text-shadow:0 .18rem .9rem rgba(0,0,0,.42); }
+    .eyebrow { text-transform:uppercase; letter-spacing:.12em; font-weight:800; color:#f4bf6a; font-size:.8rem; }
+    h1,h2,h3 { line-height:1.05; letter-spacing:0; }
+    h1 { font-size:clamp(2.8rem,8vw,7.1rem); margin:.35rem 0 1rem; max-width:10ch; }
+    h2 { font-size:clamp(2rem,4vw,4.2rem); margin:0 0 1rem; }
+    h3 { font-size:1.35rem; margin:0 0 .6rem; }
+    .lead { font-size:clamp(1.08rem,2vw,1.55rem); max-width:760px; }
+    .nav { position:sticky; top:0; z-index:5; display:flex; flex-wrap:wrap; gap:.35rem; padding:.65rem clamp(1rem,4vw,3rem); background:rgba(246,241,232,.94); border-bottom:1px solid var(--line); backdrop-filter:blur(14px); }
+    .nav a { text-decoration:none; color:var(--ink); font-weight:800; font-size:.88rem; padding:.35rem .55rem; border-radius:5px; }
+    section { padding:clamp(2.4rem,6vw,6rem) clamp(1rem,5vw,5rem); }
+    .band-dark { background:var(--charcoal); color:var(--cream); }
+    .band-green { background:#e7efe5; }
+    .inner { max-width:1220px; margin:0 auto; }
+    .two { display:grid; grid-template-columns:minmax(0,1fr) minmax(320px,.86fr); gap:clamp(1.5rem,4vw,4rem); align-items:start; }
+    .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; }
+    .metric, .evidence-card, .tool-row, details, .role-card { background:var(--cream); border:1px solid var(--line); border-radius:8px; padding:1rem; }
+    .band-dark .metric, .band-dark .evidence-card, .band-dark .tool-row, .band-dark details, .band-dark .role-card { background:#18201d; border-color:#34423d; }
+    .metric strong { display:block; font-size:2rem; color:var(--teal); }
+    .metric span { display:block; font-weight:900; }
+    .method-flow { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:.6rem; margin-top:1rem; }
+    .flow-step { padding:1rem; border-radius:8px; color:white; min-height:8rem; display:flex; flex-direction:column; justify-content:space-between; }
+    .flow-step:nth-child(1) { background:var(--forest); }
+    .flow-step:nth-child(2) { background:var(--teal); }
+    .flow-step:nth-child(3) { background:var(--blue); }
+    .flow-step:nth-child(4) { background:var(--berry); }
+    .flow-step:nth-child(5) { background:var(--amber); }
+    .flow-step:nth-child(6) { background:var(--moss); }
+    summary { cursor:pointer; font-weight:900; font-size:1.08rem; }
+    details + details { margin-top:.7rem; }
+    .ask-grid, .phase-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.75rem; margin-top:1rem; }
+    .phase-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
+    .annotated { margin:0; }
+    .shot-wrap { position:relative; overflow:hidden; border-radius:8px; border:1px solid var(--line); background:#111; }
+    .shot-wrap img { width:100%; }
+    .callout { position:absolute; max-width:15rem; background:rgba(255,250,241,.94); border:2px solid var(--amber); color:#141814; padding:.42rem .55rem; font-weight:900; font-size:.82rem; border-radius:6px; box-shadow:0 .5rem 1.2rem rgba(0,0,0,.22); }
+    figcaption { color:var(--muted); margin-top:.55rem; font-size:.94rem; }
+    .band-dark figcaption { color:#c2cbc4; }
+    .asset-strip { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:.8rem; align-items:end; }
+    .asset-strip figure { margin:0; background:rgba(255,255,255,.7); border:1px solid var(--line); border-radius:8px; padding:.7rem; min-height:12rem; display:flex; flex-direction:column; justify-content:end; }
+    .asset-strip img { object-fit:contain; max-height:15rem; margin:auto; }
+    .quote { border-left:4px solid var(--teal); padding-left:1rem; color:#25322c; font-weight:650; }
+    .tool-table { display:grid; gap:.55rem; }
+    .tool-row { display:grid; grid-template-columns:1fr 1.3fr 1.3fr; gap:.8rem; align-items:start; }
+    .role-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:1rem; }
+    pre { white-space:pre-wrap; overflow:auto; background:#0d1211; color:#e7efe5; padding:1rem; border-radius:8px; border:1px solid #34423d; max-height:30rem; }
+    details > div { max-width:100%; overflow-x:auto; }
+    table { width:100%; border-collapse:collapse; }
+    th, td { padding:.45rem; border-bottom:1px solid var(--line); text-align:left; vertical-align:top; }
+    pre, code, th, td { overflow-wrap:anywhere; word-break:break-word; }
+    .cta { display:inline-block; background:var(--teal); color:white; text-decoration:none; font-weight:900; border-radius:6px; padding:.8rem 1rem; }
+    footer { padding:2rem clamp(1rem,5vw,5rem); background:#0d1211; color:#dfe7e1; }
+    @media (max-width:900px) {
+      .two, .grid, .method-flow, .ask-grid, .phase-grid, .asset-strip, .tool-row, .role-grid { grid-template-columns:1fr; }
+      .hero { min-height:84vh; }
+      .callout { position:static; display:block; margin:.35rem; max-width:none; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior:auto; } }
+    @media print {
+      .nav, .callout { display:none; }
+      .hero { min-height:auto; color:#111; background:white; padding:1rem; }
+      section { padding:1rem 0; }
+      details { break-inside:avoid; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero" id="top">
+    <div class="hero-inner">
+      <div class="eyebrow">Public build case study</div>
+      <h1>How the Story Atlas was built</h1>
+      <p class="lead">A candid look at turning a private GM need into an app-like Story Atlas through AI collaboration, human steering, source generation, visual assets, QA, and GitHub Pages publishing.</p>
+    </div>
+  </header>
+  <nav class="nav" aria-label="Case study sections">
+    <a href="#one-minute">One minute</a><a href="#vision">Vision</a><a href="#method">Method</a><a href="#workflow">Workflow</a><a href="#prompts">Prompts</a><a href="#tools">Tools</a><a href="#image-pipeline">Image pipeline</a><a href="#results">Results</a><a href="#builder-pattern">Builder pattern</a><a href="#appendix">Appendix</a>
+  </nav>
+  <main>
+    <section id="one-minute">
+      <div class="inner two">
+        <div>
+          <p class="eyebrow">What this is in one minute</p>
+          <h2>Story Atlas is a GM command surface, not a static prep note.</h2>
+          <p>The Goldspire Story Atlas helps a GM understand and run a Daggerheart one-shot by moving between study mode, Run Mode, Player Display, wiki pages, rules references, visual assets, handouts, and QA-backed generated data.</p>
+          <p>It exists because a live GM needs the next usable beat faster than they need another lore dump. The app keeps player-safe text separate from GM-only context, turns important names into hoverable references, and lets the table-facing view show only what players should see.</p>
+          <p>The build was AI-first but not AI-owned. Kyle supplied the goal, taste, canon, corrections, and acceptance gates. ChatGPT and Claude shaped strategy and content packets. Codex bound the work into source, generated/captured assets, ran QA, and published.</p>
+        </div>
+        
+    <figure class="annotated ">
+      <div class="shot-wrap">
+        <img src="assets/screenshots/run-desktop.png" alt="Run Mode became the live table surface: current beat, player display actions, timing, references, and optional tools.">
+        <span class="callout" style="left:7%; top:10%">GM-only operating surface</span>
+<span class="callout" style="left:60%; top:15%">Current beat stays central</span>
+<span class="callout" style="left:64%; top:71%">Optional tools stay tucked away</span>
+      </div>
+      <figcaption>Run Mode became the live table surface: current beat, player display actions, timing, references, and optional tools.</figcaption>
+    </figure>
+    
+      </div>
+    </section>
+    <section id="vision" class="band-green">
+      <div class="inner">
+        <p class="eyebrow">The vision and problem</p>
+        <h2>The problem was live-use complexity.</h2>
+        <div class="grid">
+          <article class="metric"><strong>27</strong><span>Scenes</span><p>The current generated atlas build records this scene count.</p></article>
+          <article class="metric"><strong>252</strong><span>Entities</span><p>NPCs, creatures, locations, factions, items, clues, mechanics, and related wiki entries.</p></article>
+          <article class="metric"><strong>741</strong><span>Image Gen files</span><p>Copied into the generated Story Atlas build with no missing image slots in the current manifest.</p></article>
+        </div>
+        <p>The useful question was not whether AI could make a website. It was whether AI collaboration could help a GM build a personal app-like product that survives table use, source rebuilds, visual QA, and public publishing constraints.</p>
+      </div>
+    </section>
+    <section id="method" class="band-dark">
+      <div class="inner">
+        <p class="eyebrow">High-level method</p>
+        <h2>Idea to prompt to source to proof.</h2>
+        <div class="method-flow" aria-label="Build method flow">
+          <div class="flow-step"><b>1. Idea</b><span>GM needs a live command surface</span></div>
+          <div class="flow-step"><b>2. Prompt</b><span>Vision, outputs, constraints, QA</span></div>
+          <div class="flow-step"><b>3. AI cycles</b><span>ChatGPT, Claude, Codex</span></div>
+          <div class="flow-step"><b>4. Source</b><span>Python modules and data</span></div>
+          <div class="flow-step"><b>5. Review</b><span>Kyle checks taste and truth</span></div>
+          <div class="flow-step"><b>6. Publish</b><span>QA, lean assets, GitHub Pages</span></div>
+        </div>
+      </div>
+    </section>
+    <section id="workflow">
+      <div class="inner">
+        <p class="eyebrow">Workflow deep-dive</p>
+        <h2>Five phases, each with a human check.</h2>
+        <details open><summary>Discovery and First Intent</summary><div>
+        <div class="ask-grid">
+          <p><b>What I asked</b><br>Kyle asked for a dynamic, image-rich, linked GM Story Atlas that could act as a scene guide, wiki, visual board, data source, and Obsidian vault.</p>
+          <p><b>What the model did</b><br>Codex inspected the seed packet and repo map, preserved the seed instead of replacing it, and built toward a source-generated multi-surface deliverable.</p>
+          <p><b>What I checked</b><br>Kyle checked continuity, tone, player-facing separation, visual intent, and whether the tool was useful to run a table rather than just pretty to read.</p>
+          <p><b>What changed</b><br>The project moved from a converted/private table packet into a generated app-like GM surface with scenes, entities, assets, vault notes, and QA reports.</p>
+        </div>
+        
+        <div class="phase-grid">
+          <p><b>Challenges faced</b><br>The first request was broad enough to become endless unless it became source-generated and QA-backed.</p>
+          <p><b>Strengths of process/prompts</b><br>The opening prompt named the product, outputs, UX north star, continuity rules, visual rules, and done criteria in one place.</p>
+          <p><b>Pain points</b><br>Large prompts invite agents to satisfy the visible checklist while missing the human reason behind the tool.</p>
+          <p><b>Failures and fixes</b><br>The source generator and project map turned the prompt into concrete files, commands, and proof points.</p>
+          <p><b>Outcomes</b><br>The app baseline produced 27 scenes, 252 entities, and a synchronized generated Story Atlas.</p>
+          <p><b>Scaffolding and workflow support used</b><br>Project map, packet registry, build manifest, and browser QA kept the work from becoming scattered.</p>
+          <p><b>Risks / uncertainties / follow-up items</b><br>A public case study can over-share private table text if evidence is copied without selection.</p>
+        </div>
+        
+        </div></details><details ><summary>Architecture and Content Model</summary><div>
+        <div class="ask-grid">
+          <p><b>What I asked</b><br>Kyle wanted the Atlas to behave like a GM control room and connected wiki, not a generic summary page.</p>
+          <p><b>What the model did</b><br>Codex made the app source-driven around `story-atlas/src/`, generated pages/data/vault output, and added modules for scope, mechanics, locations, factions, items, clues, music, and Run Mode.</p>
+          <p><b>What I checked</b><br>Kyle kept correcting what needed to be content versus instruction: usable GM words, real player display text, real Q-card details, and actual table mechanics.</p>
+          <p><b>What changed</b><br>The project gained a repeatable architecture: source modules produce HTML, JSON, Obsidian notes, assets, QA reports, and online publishing output.</p>
+        </div>
+        
+        <div class="phase-grid">
+          <p><b>Challenges faced</b><br>Generated output can look finished while the real source of truth lives elsewhere.</p>
+          <p><b>Strengths of process/prompts</b><br>Source-first generation made global fixes possible: one change could rebuild app pages, data, and vault mirrors.</p>
+          <p><b>Pain points</b><br>The source tree grew into many specialized modules and needed strong project-map documentation.</p>
+          <p><b>Failures and fixes</b><br>The repo now documents edit locality and generated-output boundaries in `docs/project-map.md` and `docs/repo-hygiene.md`.</p>
+          <p><b>Outcomes</b><br>Future changes can target the right source module instead of hand-editing `dist/story-atlas/`.</p>
+          <p><b>Scaffolding and workflow support used</b><br>The project-specific skill, AGENTS notes, and repo docs became part of the operating system.</p>
+          <p><b>Risks / uncertainties / follow-up items</b><br>Without the project map, a future agent could patch generated HTML and lose changes on rebuild.</p>
+        </div>
+        
+        </div></details><details ><summary>Build and Iteration Loops</summary><div>
+        <div class="ask-grid">
+          <p><b>What I asked</b><br>Kyle pushed for linked mechanics, hover cards, Run Mode, Player Display, music controls, living-place detail, and richer visual evidence.</p>
+          <p><b>What the model did</b><br>Codex added and repaired generated UI systems, then rebuilt and re-tested instead of making one-off page edits.</p>
+          <p><b>What I checked</b><br>Kyle checked whether the app answered live-GM questions quickly: where to click, what to show players, what changed in the fiction, and what stayed hidden.</p>
+          <p><b>What changed</b><br>The Atlas became a live prep/run tool: study mode, Run Mode, player display, references, handouts, maps, clue boards, and asset galleries.</p>
+        </div>
+        
+        <div class="phase-grid">
+          <p><b>Challenges faced</b><br>AI tends to produce plausible labels and reminders when the table needs exact content.</p>
+          <p><b>Strengths of process/prompts</b><br>Prompt constraints like &#x27;actual content, not instructions&#x27; pushed the system toward speakable and usable table output.</p>
+          <p><b>Pain points</b><br>Feature requests landed across many files, which made source ownership and QA increasingly important.</p>
+          <p><b>Failures and fixes</b><br>Dedicated QA scripts were added for link coverage, story scope, music, exports, location assets, mechanics, and Run Mode.</p>
+          <p><b>Outcomes</b><br>The current online QA set covers home, Run Mode, Player Display, handouts, PC cheat sheet, and local-only fallbacks.</p>
+          <p><b>Scaffolding and workflow support used</b><br>Claude handoff packets supplied structured design/content; Codex bound and verified them in the app.</p>
+          <p><b>Risks / uncertainties / follow-up items</b><br>Candid public process needs to explain failures without turning the case study into a postmortem of every detour.</p>
+        </div>
+        
+        </div></details><details ><summary>QA and Proof Gathering</summary><div>
+        <div class="ask-grid">
+          <p><b>What I asked</b><br>Kyle wanted real proof: screenshots, QA reports, browser checks, and no unsupported claims.</p>
+          <p><b>What the model did</b><br>Codex ran automated checks, used Playwright browser proof, generated online QA screenshots, and built lean online publishing manifests.</p>
+          <p><b>What I checked</b><br>Kyle checked the difference between a useful public proof and a pile of private logs.</p>
+          <p><b>What changed</b><br>The project gained a public-evidence habit: proof screenshots, manifests, QA report text, and source-indexed claims.</p>
+        </div>
+        
+        <div class="phase-grid">
+          <p><b>Challenges faced</b><br>Some raw token counters and durations are technically present but not clean enough for precise public claims.</p>
+          <p><b>Strengths of process/prompts</b><br>Build and QA manifests provide stronger evidence than memory or vibes.</p>
+          <p><b>Pain points</b><br>Browser tooling varies by environment, so QA scripts need fallbacks.</p>
+          <p><b>Failures and fixes</b><br>The Story Atlas QA lane uses bundled Node/Playwright paths when system Python lacks browser packages.</p>
+          <p><b>Outcomes</b><br>The online visual QA report records 6 rendered surfaces with no console errors, page errors, broken visible images, or horizontal overflow.</p>
+          <p><b>Scaffolding and workflow support used</b><br>UX Heuristic Compass, Playwright, Design Taste review, and source reports create an audit trail.</p>
+          <p><b>Risks / uncertainties / follow-up items</b><br>Credibility fails if the case study overstates metrics that are not cleanly grounded.</p>
+        </div>
+        
+        </div></details><details ><summary>Publication and Handoff</summary><div>
+        <div class="ask-grid">
+          <p><b>What I asked</b><br>Kyle wanted the local version protected and the online version lean, public, and GitHub Pages compatible.</p>
+          <p><b>What the model did</b><br>Codex created a separate online bundle, optimized large assets, excluded local-only folders, and kept Google Drive/YouTube as fallback hooks rather than first choices.</p>
+          <p><b>What I checked</b><br>Kyle checked that the public URL works without sacrificing the full local GM build.</p>
+          <p><b>What changed</b><br>The Story Atlas now has separate local and online deliverables with shortcuts, manifests, and publishing policy.</p>
+        </div>
+        
+        <div class="phase-grid">
+          <p><b>Challenges faced</b><br>A rich app with hundreds of images can exceed GitHub comfort limits if copied blindly.</p>
+          <p><b>Strengths of process/prompts</b><br>The online builder cut size while leaving local originals intact.</p>
+          <p><b>Pain points</b><br>Publishing introduces a second repo and one more place to verify.</p>
+          <p><b>Failures and fixes</b><br>The Pages repo is nested under `deploy/gm-pages` and the public route is verified before handoff.</p>
+          <p><b>Outcomes</b><br>The case study publishes as a separate shareable without changing the live Story Atlas route.</p>
+          <p><b>Scaffolding and workflow support used</b><br>Shareables MCP contracts, GitHub Pages workflow, and repo hygiene rules shape the public artifact.</p>
+          <p><b>Risks / uncertainties / follow-up items</b><br>A shareable can become a second product unless v1 is shipped before further enrichment.</p>
+        </div>
+        
+        </div></details>
+      </div>
+    </section>
+    <section id="prompts" class="band-green">
+      <div class="inner two">
+        <div>
+          <p class="eyebrow">Prompt and exchange examples</p>
+          <h2>Representative exchanges, not every turn.</h2>
+          <details open><summary>Initial product prompt</summary><div><p><b>Goal</b>: Build a dynamic Story Atlas and Obsidian vault.</p><p><b>AI output</b>: Source-generated app/vault/data architecture.</p><p><b>Human decision</b>: Preserve seed packet, expand it, and make the tool useful for a live GM.</p><p><b>Next move</b>: Build, then QA.</p><pre>A dynamic, image-rich, linked GM Story Atlas for The Goldspire Messengers that lets me understand the module scene-by-scene, click through every NPC/location/creature/item/faction like a wiki, and import the same content into Obsidian as a connected knowledge graph.
+
+PROJECT:
+Build a dynamic HTML deliverable and Obsidian-compatible Markdown vault for Kyle’s private-table Daggerheart adaptation:
+
+Peril to Profit™: The Goldspire Messengers.
+
+This is not just a summary page. It is a GM Story Atlas: a visual, interactive, deeply connected story tool that helps Kyle understand, prep, run, and expand the module.
+
+PRIMARY OUTPUTS:
+1. A dynamic HTML artifact.
+2. A matching Obsidian-compatible Markdown vault.
+3. AI-generated visual assets for scenes, NPCs, creatures, locations, factions, props, clues, and handouts.
+4. Data files that keep the HTML and vault in sync.
+5. A QA report.
+
+Use the uploaded Markdown packet as the project source:
+- CODEX
+
+[...]
+
+PRIMARY OUTPUTS:
+1. A dynamic HTML artifact.
+2. A matching Obsidian-compatible Markdown vault.
+3. AI-generated visual assets for scenes, NPCs, creatures, locations, factions, props, clues, and handouts.
+4. Data files that keep the HTML and vault in sync.
+5. A QA report.
+
+Use the uploaded Markdown packet as the project source:
+- CODEX_MASTER_PROMPT.md
+- docs/
+- data/scenes.json
+- data/entities.json
+- obsidian_vault/
+
+The included packet is the source-of-truth seed. Expand it, but do not throw it away.
+
+CORE STORY SPINE:
+The PCs begin as paid contractors or trusted associates working with Marlowe Fairwind and Emeris Crown Holdings. They escort a sealed Keystone Asset through Sablewood™ Logistics Preserve to Hush™ Community Enclave.
+
+The story follows this structure:
+- Prologue: The Contract
+- Act One: The Logistics Incident
+- Act Two: Cargo Reclaimers
+- Act Three: Seeking a Custodian
+- Act Four: The Hanging Office
+- Act Five: The Ward Ren
+
+[...]
+
+UX NORTH STAR:
+The HTML should feel like a cinematic GM control room:
+- acts broken into scenes,
+- each scene with a large expandable image,
+- short caption,
+- short description,
+- long cinematic storyboard description,
+- GM-only notes,
+- player-facing read-aloud,
+- checks/rolls,
+- dialogue examples,
+- sensory details,
+- choices and consequences,
+- linked NPCs/locations/items/factions,
+- hover cards,
+- dedicated entity pages,
+- and Obsidian-style interconnectivity.
+
+HTML STRUCTURE:
+Create a static site unless a framework already exists.
+
+Recommended structure:
+story-atlas/
+  index.html
+  styles.css
+  app.js
+  data/
+    scenes.json
+    entities.json
+    relationship-map.json
+  assets/
+    scenes/
+    entities/
+    logos/
+    handouts/
+  pages/
+    entities/
+    scenes/
+    locations/
+    factions/
+  obsidian_vault/
+
+MAIN PAGE REQUIREMENTS:
+The main index.html should include:
+- hero header with title, pitch, and core theme,
+- symbol/color
+
+[...]
+
+SCENE CARD REQUIREMENTS:
+Every scene must include:
+- scene ID,
+- act/sub-act,
+- title,
+- story beat symbols,
+- image,
+- image caption,
+- short description,
+- long cinematic storyboard description,
+- player-facing read-aloud,
+- GM-only notes,
+- sensory details,
+- body language notes,
+- sample dialogue,
+- checks/rolls,
+- choices/consequences,
+- clues,
+- loot,
+- linked entities,
+- payoff flags,
+- image prompt used.
+
+ENTITY LINK SYSTEM:
+Every important name should be hoverable and clickable:
+- NPCs
+- creatures
+- monsters
+- factions
+- companies
+- locations
+- items
+- clues
+- props
+- mechanics/conditions if useful
+
+Hover/focus preview should show:
+- portrait or thumbnail,
+- entity type,
+- icon,
+- role,
+- one-line summary,
+- tags,
+- stat summary if combatant,
+- scenes where it appears.
+
+Clicking opens a dedicated page with:
+- full bio,
+- image,
+- role in story,
+- relationships,
+- appears-in scenes,
+- secrets,
+- inventory/equipment,
+- loot/searc
+
+[...]
+
+ENTITY LINK SYSTEM:
+Every important name should be hoverable and clickable:
+- NPCs
+- creatures
+- monsters
+- factions
+- companies
+- locations
+- items
+- clues
+- props
+- mechanics/conditions if useful
+
+Hover/focus preview should show:
+- portrait or thumbnail,
+- entity type,
+- icon,
+- role,
+- one-line summary,
+- tags,
+- stat summary if combatant,
+- scenes where it appears.
+
+Clicking opens a dedicated page with:
+- full bio,
+- image,
+- role in story,
+- relationships,
+- appears-in scenes,
+- secrets,
+- inventory/equipment,
+- loot/search results,
+- stat block if applicable,
+- sample dialogue,
+- GM handling notes,
+- linked related entities.
+
+ENTITY COLOR / SYMBOL SYSTEM:
+Use a consistent visual language:
+- NPC / Ally: warm amber, icon 👤
+- Creature / Animal: moss green, icon 🐾
+- Enemy / Combatant: red-orange, icon ⚔
+- Faction / Union / Community: violet, icon 🏴
+- Corporation / Company: gold, icon 🏢
+- Location: blue, icon 🏛
+- Item / Asset: teal, ic
+
+[...]
+
+VISUAL GENERATION:
+Generate:
+- one clean party reference image,
+- one image per scene,
+- one image per important NPC,
+- one image per important creature,
+- one image per important location,
+- one logo/brand mark per faction/company when useful,
+- one image per important object/clue when useful.
+
+Store image prompts and outputs in both data JSON and Obsidian notes.
+
+Critical visual continuity:
+- Strixwo
+</pre></div></details>
+          <details ><summary>Image-generation correction</summary><div><p><b>Goal</b>: Avoid blocking on a missing API key.</p><p><b>AI output</b>: Use built-in Image Gen and local recovery/binding paths.</p><p><b>Human decision</b>: The image lane must keep moving with accepted local assets.</p><p><b>Next move</b>: Bind accepted images into source folders and manifests.</p></div></details>
+          <details ><summary>Reference-link repair</summary><div><p><b>Goal</b>: Every mechanic or wiki term should behave like a reference.</p><p><b>AI output</b>: Source-level linkification and browser sampling.</p><p><b>Human decision</b>: Fix it globally, not only on the reported page.</p><p><b>Next move</b>: Add coverage QA and rebuild.</p></div></details>
+          <details ><summary>Run Mode music split</summary><div><p><b>Goal</b>: Let the GM control music while Player Display plays audio.</p><p><b>AI output</b>: Source music module, manifest, Run Mode controls, Player Display audio output.</p><p><b>Human decision</b>: V1 stays manual playlist, not automatic scene scoring.</p><p><b>Next move</b>: QA player-display audio wiring and local MP3 hygiene.</p></div></details>
+        </div>
+        
+    <figure class="annotated ">
+      <div class="shot-wrap">
+        <img src="assets/screenshots/player-display-desktop.png" alt="Player Display shows the audience-facing layer while GM controls stay elsewhere.">
+        <span class="callout" style="left:8%; top:13%">Player-safe text only</span>
+<span class="callout" style="left:64%; top:20%">Built for a second screen</span>
+      </div>
+      <figcaption>Player Display shows the audience-facing layer while GM controls stay elsewhere.</figcaption>
+    </figure>
+    
+      </div>
+    </section>
+    <section id="tools">
+      <div class="inner">
+        <p class="eyebrow">Tools, skills, and system map</p>
+        <h2>What each tool actually did.</h2>
+        <div class="tool-table">
+          <div class="tool-row"><b>ChatGPT</b><span>Strategy, framing, public critique</span><span>Gap analysis and case-study structure.</span></div>
+<div class="tool-row"><b>Claude / Claude Code</b><span>Structured design/content packets and prose audit</span><span>Claude handoff context and recovery bundles.</span></div>
+<div class="tool-row"><b>Codex</b><span>Local implementation and publishing</span><span>Source modules, generated app, screenshots, QA, GitHub Pages.</span></div>
+<div class="tool-row"><b>Shareables MCP</b><span>Public-shareable workflow contract</span><span>Route, manifest, source ingestion, validation, review, stage/publish pattern.</span></div>
+<div class="tool-row"><b>UX Heuristic Compass</b><span>UX audit lens</span><span>Rendered surface review and report-ready thinking.</span></div>
+<div class="tool-row"><b>Playwright</b><span>Browser proof</span><span>Fresh screenshots and rendered QA.</span></div>
+<div class="tool-row"><b>communication-story-crafter</b><span>Narrative clarity</span><span>Reader outcome before technical process.</span></div>
+<div class="tool-row"><b>html-presentation-builder</b><span>Progressive HTML structure</span><span>One job per section with expandable depth.</span></div>
+<div class="tool-row"><b>design-taste-gate</b><span>Visual credibility</span><span>Avoid generic AI case-study styling.</span></div>
+<div class="tool-row"><b>frontend-ux</b><span>Responsive interaction</span><span>Mobile, anchors, disclosures, screenshots, no overflow.</span></div>
+<div class="tool-row"><b>learning-experience-designer</b><span>Transferable pattern</span><span>Builder appendix and practical takeaway.</span></div>
+<div class="tool-row"><b>vibe-check</b><span>Scope control</span><span>Ship a useful v1 instead of endless polish.</span></div>
+<div class="tool-row"><b>project-structure-architect</b><span>File organization</span><span>Separate source, content, data, assets, public bundle, QA.</span></div>
+        </div>
+      </div>
+    </section>
+    <section id="image-pipeline" class="band-dark">
+      <div class="inner">
+        <p class="eyebrow">Transparent-background image pipeline</p>
+        <h2>The visual sub-case-study that made the process concrete.</h2>
+        <p><b>Transparent-background image pipeline.</b> The repeatable move was to generate on a removable color field, recover the real file, remove the background, and bind the accepted transparent result into the source asset folders.</p>
+        <p>One distinctive part of the build was not just generating fantasy art. It was turning generated art into usable app assets: blue-screen or green-screen generations, accepted source folders, transparency cleanup, manifests, and generated pages that could use the assets consistently.</p>
+        <div class="asset-strip">
+          <figure><img src="assets/pipeline/party-reference-blue-screen.png" alt="Blue-screen party reference"><figcaption>Generated blue-screen source</figcaption></figure>
+          <figure><img src="assets/characters/party-reference-transparent.png" alt="Transparent party reference"><figcaption>Transparent party output</figcaption></figure>
+          <figure><img src="assets/pipeline/strixwolf-fullbody-chroma.png" alt="Chroma source creature"><figcaption>Chroma creature source</figcaption></figure>
+          <figure><img src="assets/pipeline/strixwolf-fullbody-transparent.png" alt="Transparent creature"><figcaption>Transparent creature output</figcaption></figure>
+          <figure><img src="assets/pipeline/live-player-display-icon.png" alt="Processed transparent icon"><figcaption>Processed UI icon</figcaption></figure>
+        </div>
+        <h3>AI strengths and weaknesses</h3>
+        <div class="grid" style="margin-top:1rem">
+          <div class="evidence-card"><b>What AI was good at</b><p>Generating many visual candidates, prompt variants, character ideas, and sourceable image lanes quickly.</p></div>
+          <div class="evidence-card"><b>Where AI was weak</b><p>It could claim an image existed before it was materialized, drift continuity, or produce art that looked nice but did not fit the app surface.</p></div>
+          <div class="evidence-card"><b>How Kyle overcame it</b><p>Accepted assets had to land in real source folders, appear in manifests, survive rebuilds, and pass visual/browser checks.</p></div>
+        </div>
+      </div>
+    </section>
+    <section id="results">
+      <div class="inner">
+        <p class="eyebrow">Results and reality check</p>
+        <h2>What worked, what failed, what mattered.</h2>
+        <div class="role-grid">
+          <div class="role-card"><h3>What ChatGPT did</h3><p>Helped frame the public narrative, critique gaps, sharpen prompts, and convert scattered ambition into a builder-facing case study.</p></div>
+          <div class="role-card"><h3>What Claude did</h3><p>Produced structured design/content packets and prose audit material used as handoff inputs for the app work.</p></div>
+          <div class="role-card"><h3>What Codex did</h3><p>Inspected the repo, wrote source modules, generated outputs, copied/bound assets, ran QA, captured screenshots, and published.</p></div>
+          <div class="role-card"><h3>What Kyle did</h3><p>Owned canon, taste, scope, corrections, acceptance, and the decision that this should be a table-use tool instead of a generic wiki.</p></div>
+        </div>
+        <div class="grid" style="margin-top:1rem">
+          <div class="evidence-card"><h3>What stayed manual</h3><p>Final taste, canon calls, spoiler boundaries, whether a surface was useful at the table, and when to stop polishing.</p></div>
+          <div class="evidence-card"><h3>What was automated but reviewed</h3><p>Source generation, page builds, linkification, image copying, online asset optimization, screenshots, and QA reports.</p></div>
+          <div class="evidence-card"><h3>What remains transparent evidence</h3><p>Screenshots, manifests, QA reports, source modules, asset folders, prompt excerpts, thread summaries, and GitHub Pages output.</p></div>
+        </div>
+        <div class="grid" style="margin-top:1rem">
+          <article class="metric"><strong>904</strong><span>Optimized online assets</span><p>From the online asset manifest.</p></article>
+          <article class="metric"><strong>715.8 MB</strong><span>Online output</span><p>The lean Pages payload, separate from the local GM build.</p></article>
+          <article class="metric"><strong>0</strong><span>Visual QA failures</span><p>From the online visual QA report.</p></article>
+        </div>
+        
+    <figure class="annotated ">
+      <div class="shot-wrap">
+        <img src="assets/screenshots/handouts-desktop.png" alt="Handouts Hub shows the project moving beyond pages into exports and reviewable table artifacts.">
+        <span class="callout" style="left:8%; top:11%">Evidence of breadth</span>
+<span class="callout" style="left:58%; top:22%">Generated handout surface</span>
+      </div>
+      <figcaption>Handouts Hub shows the project moving beyond pages into exports and reviewable table artifacts.</figcaption>
+    </figure>
+    
+      </div>
+    </section>
+    <section id="builder-pattern" class="band-green">
+      <div class="inner">
+        <p class="eyebrow">Builder pattern</p>
+        <h2>If you wanted to do this, copy the pattern.</h2>
+        <div class="grid">
+          <div class="evidence-card"><b>1. Start with the job</b><p>Name the live use case, audience, outputs, and what success looks like in the real world.</p></div>
+          <div class="evidence-card"><b>2. Force source discipline</b><p>Make AI write into source files and data, then regenerate outputs instead of patching artifacts by hand.</p></div>
+          <div class="evidence-card"><b>3. Review like an owner</b><p>The human checks truth, taste, safety, scope, and whether the result works in the moment of use.</p></div>
+          <div class="evidence-card"><b>4. Make proof visible</b><p>Use screenshots, manifests, tests, and QA reports so claims are not just confidence.</p></div>
+          <div class="evidence-card"><b>5. Publish an 80 percent useful version</b><p>One QA pass, one refinement pass, then ship. More polish becomes a new version.</p></div>
+          <div class="evidence-card"><b>6. Keep local and public separate</b><p>The local GM build can stay rich and private while the public bundle stays lean and web-compatible.</p></div>
+        </div>
+      </div>
+    </section>
+    <section id="appendix" class="band-dark">
+      <div class="inner">
+        <p class="eyebrow">Read more about the raw process</p>
+        <h2>Appendix</h2>
+        <details open><summary>Thread evidence</summary><div><table><thead><tr><th>Thread</th><th>Found</th><th>Window</th><th>Public use</th></tr></thead><tbody>
+<tr><td>019ec043-286e-7412-9f39-038840412edc</td><td>yes</td><td>2026-06-13T09:14:54.102Z to 2026-06-15T21:32:36.878Z</td><td>Initial build and reframe</td></tr>
+<tr><td>019ecdf3-6f1e-7672-a644-5fa1a43b8aad</td><td>yes</td><td>2026-06-16T01:02:36.194Z to 2026-06-16T01:03:39.012Z</td><td>Final reframe and QA</td></tr>
+<tr><td>019edce0-973e-7d02-86f7-8d75cb0df154</td><td>yes</td><td>2026-06-18T22:36:29.135Z to 2026-06-18T22:44:52.892Z</td><td>Later generated-content pass</td></tr>
+<tr><td>019ee2be-04a5-73a0-bb18-0c42dbaeba10</td><td>yes</td><td>2026-06-20T01:56:08.109Z to 2026-06-20T04:11:25.080Z</td><td>Visual/content iteration</td></tr>
+<tr><td>019ee65c-0a48-7713-a6dc-444679767f90</td><td>yes</td><td>2026-06-20T18:47:53.678Z to 2026-06-20T18:54:14.714Z</td><td>Recovery and hardening</td></tr>
+<tr><td>019ecd67-efe4-7e11-b104-d51ac582b404</td><td>yes</td><td>2026-06-15T22:30:28.989Z to 2026-06-20T20:24:19.845Z</td><td>Packet/handoff lane</td></tr>
+<tr><td>019ef156-c6f2-7a93-8bef-7545556d63ca</td><td>yes</td><td>2026-06-22T21:58:14.338Z to 2026-06-23T21:57:35.060Z</td><td>Run Mode music</td></tr>
+<tr><td>019ef19b-c60e-7de0-8da4-d7bf3ca305ec</td><td>yes</td><td>2026-06-22T23:13:07.013Z to 2026-06-23T21:49:24.943Z</td><td>Publication/online cleanup</td></tr>
+<tr><td>019ed2e7-828e-7512-927f-733156cfcde4</td><td>yes</td><td>2026-06-17T00:07:30.374Z to 2026-06-17T01:33:15.073Z</td><td>Reference linkification</td></tr>
+<tr><td>019ed323-8239-7d93-81c0-34fb45de8902</td><td>yes</td><td>2026-06-17T01:13:01.500Z to 2026-06-17T01:51:12.690Z</td><td>Follow-up reference QA</td></tr>
+</tbody></table></div></details>
+        <details ><summary>Script list</summary><div><ul><li><code>story-atlas/src/build_atlas.py</code></li><li><code>story-atlas/src/qa_atlas.py</code></li><li><code>story-atlas/src/qa_reference_link_coverage.py</code></li><li><code>story-atlas/src/qa_story_scope.py</code></li><li><code>story-atlas/src/qa_slideshow_mode.py</code></li><li><code>story-atlas/src/qa_music_player.py</code></li><li><code>scripts/build_online_atlas.py</code></li><li><code>scripts/recover_codex_imagegen.py</code></li><li><code>shareables/story-atlas-ai-build-case-study/scripts/capture_story_atlas_screenshots.cjs</code></li><li><code>shareables/story-atlas-ai-build-case-study/scripts/build_shareable.py</code></li><li><code>shareables/story-atlas-ai-build-case-study/scripts/qa_shareable.cjs</code></li></ul></div></details>
+        <details ><summary>Skills and MCP inventory</summary><div><ul><li>Peril to Profit project skill</li><li>project-structure-architect</li><li>communication-story-crafter</li><li>html-presentation-builder</li><li>design-taste-gate</li><li>frontend-ux</li><li>learning-experience-designer</li><li>vibe-check</li><li>Shareables MCP</li><li>UX Heuristic Compass MCP</li><li>GitHub Pages repo</li></ul></div></details>
+        <details ><summary>Evidence index</summary><div><table><thead><tr><th>ID</th><th>Source</th><th>Claims</th></tr></thead><tbody>
+<tr><td>build-manifest</td><td>dist/story-atlas/BUILD_MANIFEST.json</td><td>27 scenes; 252 entities; 741 Image Gen files copied; 0 missing Image Gen slots; 252 entity visual galleries</td></tr>
+<tr><td>online-asset-manifest</td><td>dist/story-atlas-online/ONLINE_ASSET_MANIFEST.json</td><td>904 optimized assets; 1953 rewritten files; 750539128 output bytes; 2014839273 bytes saved</td></tr>
+<tr><td>online-visual-qa</td><td>qa/online-visual-qa/online-visual-qa.json</td><td>6 rendered surfaces; 0 failures</td></tr>
+<tr><td>thread-logs</td><td>~/.codex/sessions</td><td>10 supplied Codex thread logs found locally; dates span June 13-23, 2026 across supplied representative threads</td></tr>
+<tr><td>asset-inventory</td><td>Story Atlas source asset folders</td><td>840 image files inventoried across selected source/public asset lanes</td></tr>
+<tr><td>shareable-assets</td><td>shareables/story-atlas-ai-build-case-study/public/assets</td><td>19 curated public shareable assets copied</td></tr>
+</tbody></table></div></details>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p><b>Story Atlas AI Build Case Study</b> - public process artifact for Kyle Hobson's Peril to Profit / Goldspire Story Atlas project.</p>
+    <p>Published as a standalone shareable. The live Story Atlas and the private local GM build remain separate deliverables.</p>
+  </footer>
+</body>
+</html>
