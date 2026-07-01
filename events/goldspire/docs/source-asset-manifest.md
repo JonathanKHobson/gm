@@ -90,6 +90,19 @@ This transparent character art is used as a contained story-world accent in the 
 
 This wide QR poster is used after the short video proof cards as a booking/reminder banner. The adjacent button remains the primary booking action, because a QR code is not usable as the only action on the same device.
 
+### Optimized Character Delivery Assets
+
+Generated public performance derivatives from the already-approved transparent character PNGs:
+
+- `assets/events/goldspire/pcs/party-reference.png` -> `assets/events/goldspire/pcs/optimized/party-reference-1280.webp`
+- `assets/events/goldspire/pcs/marlowe-fairwind.png` -> `assets/events/goldspire/pcs/optimized/marlowe-fairwind-card.webp`
+- `assets/events/goldspire/pcs/barnacle.png` -> `assets/events/goldspire/pcs/optimized/barnacle-card.webp`
+- `assets/events/goldspire/pcs/garrick-reed.png` -> `assets/events/goldspire/pcs/optimized/garrick-reed-card.webp`
+- `assets/events/goldspire/pcs/khari-nix.png` -> `assets/events/goldspire/pcs/optimized/khari-nix-card.webp`
+- `assets/events/goldspire/pcs/varian-soto.png` -> `assets/events/goldspire/pcs/optimized/varian-soto-card.webp`
+
+These WebP files preserve transparent character art while reducing cold-load payload for the hero party image and landing-page character cards. The original PNG files remain in place as source/fallback assets.
+
 ### Icons
 
 All curated icons from `event-visual-asset-pack/assets/icons/` are copied into `events/goldspire/assets/icons/` and used for quick facts, expectations, resources, and FAQ support.

@@ -406,3 +406,22 @@ status: local-qa-passed
 - HTML parse smoke check passed for `events/goldspire/index.html`, `events/goldspire/dates/index.html`, `events/index.html`, and `resources/daggerheart.html`.
 - Goldspire JSON-LD parses and exposes three scheduled event dates: July 7, July 15, and July 25.
 - Source sweep found no active public `Registration coming soon`, `Claim a Seat`, `Book July 7`, `More Goldspire dates are being planned`, or stale July-7-only planning copy.
+
+## 2026-07-01 Character Image Load Optimization QA
+
+### Visual Anchor Map
+
+| ID | Source / viewport | Region | Visual fact / issue | Intended action | Verification |
+| --- | --- | --- | --- | --- | --- |
+| HeroImg01 | Python Playwright `1366x900`, `390x844` | Goldspire hero party art | Hero party image now resolves to `party-reference-1280.webp` while retaining the original transparent PNG fallback. | Reduce cold-load hero image payload without changing composition. | Passed: `/tmp/goldspire-image-load-qa/hero-desktop.png`, `/tmp/goldspire-image-load-qa/hero-mobile.png`; `currentSrc` ended in `.webp`. |
+| CardImg01 | Python Playwright `1366x900`, `390x844` | Landing page premade character grid | All five character-card images resolved to optimized WebP derivatives and reported `complete=true` with nonzero natural dimensions. | Prevent long blank card frames on first visit. | Passed: `/tmp/goldspire-image-load-qa/characters-desktop.png`, `/tmp/goldspire-image-load-qa/characters-mobile.png`. |
+| BlankGuard01 | Python Playwright DOM check | Khari Nix and Varian Soto cards | The two cards that appeared blank in the reported screenshot now load `khari-nix-card.webp` and `varian-soto-card.webp` with visible rendered boxes. | Verify the reported failure mode directly. | Passed in `/tmp/goldspire-image-load-qa/summary.json`. |
+| Overflow01 | Python Playwright `1366x900`, `390x844` | Page width after `<picture>` wrappers | No horizontal overflow after wrapping the hero and character images in `<picture>`. | Keep the performance fix from changing layout behavior. | Passed in local rendered QA. |
+
+### Static Integrity Checks
+
+- `git diff --check` passed.
+- HTML parse smoke check passed for `events/goldspire/index.html`.
+- Hero party PNG reduced from about `2138KB` to `315KB` WebP.
+- Five landing character PNGs reduced from about `6836KB` total to about `447KB` total WebP.
+- Original PNG files remain in place as fallback/source assets.
