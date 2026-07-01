@@ -386,3 +386,23 @@ status: local-qa-passed
 - `node --check scripts/main.js` passed.
 - HTML parse smoke check passed for `events/goldspire/index.html`, `events/goldspire/dates/index.html`, and `resources/daggerheart.html`.
 - Date-page social image metadata uses the existing public `assets/events/goldspire/pcs/party-reference.png` asset.
+
+## 2026-07-01 Confirmed July Multi-Date Update QA
+
+### Visual Anchor Map
+
+| ID | Source / viewport | Region | Visual fact / issue | Intended action | Verification |
+| --- | --- | --- | --- | --- | --- |
+| DatesCopy01 | Static source sweep + Python Playwright `390x844`, `1366x900` | `events/goldspire/index.html`, `events/goldspire/dates/index.html`, `events/index.html` | Public copy now presents July 7, July 15, and July 25 as confirmed table times. Stale "more dates are being planned" and "Book July 7" copy was removed from active pages. | Reflect the live Mox listing state without implying separate event URLs. | Passed: `/tmp/goldspire-july-multidate-qa-v2/landing-desktop.png`, `/tmp/goldspire-july-multidate-qa-v2/landing-mobile.png`. |
+| MoxCta01 | Static source sweep + Python Playwright DOM check | Shared `[data-event-cta]` links | `booking_mode` remains `single`; shared CTAs keep `Book now at Mox` and target `https://events.moxboardinghouse.com/p/n/xnP6r62v/v5`, where Mox handles date/time selection. | Keep the conversion path direct because all three table times share one venue listing. | Passed: no horizontal overflow on checked routes; Mox listing returned `200`; screenshot set in `/tmp/goldspire-july-multidate-qa-v2/`. |
+| DatesPage01 | Python Playwright `390x844`, `1366x900` | `events/goldspire/dates/` | Date-options page now lists three confirmed cards: Tuesday July 7, Wednesday July 15, and Saturday July 25. Each booking button points to the same Mox listing. | Give visitors a readable time overview without building a registration system. | Passed: `/tmp/goldspire-july-multidate-qa-v2/dates-desktop-full.png`, `/tmp/goldspire-july-multidate-qa-v2/dates-mobile-full.png`. |
+| EventsIndex01 | Python Playwright `390x844`, `1366x1200` | `/events/` card | All-events card now says July Goldspire tables are booking, with dates `July 7, 15, and 25`, starts `Tue 5:00 PM, Wed 5:30 PM, Sat 10:30 AM`, and 5 seats per table. | Make the all-events page consistent with the one-shot page. | Passed: `/tmp/goldspire-july-multidate-qa-v2/events-desktop-full.png`, `/tmp/goldspire-july-multidate-qa-v2/events-mobile.png`. |
+
+### Static Integrity Checks
+
+- `git diff --check` passed.
+- `node --check events/goldspire/goldspire-registration.js` passed.
+- `node --check scripts/main.js` passed.
+- HTML parse smoke check passed for `events/goldspire/index.html`, `events/goldspire/dates/index.html`, `events/index.html`, and `resources/daggerheart.html`.
+- Goldspire JSON-LD parses and exposes three scheduled event dates: July 7, July 15, and July 25.
+- Source sweep found no active public `Registration coming soon`, `Claim a Seat`, `Book July 7`, `More Goldspire dates are being planned`, or stale July-7-only planning copy.
