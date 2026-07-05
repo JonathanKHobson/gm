@@ -256,7 +256,6 @@
     if (action === "play-pause") {
       musicState.playing = !musicState.playing;
       saveState(musicState);
-      if (musicState.playing) openPlayerDisplay();
       sendMusic(musicState.playing ? "musicPlay" : "musicPause");
     }
     if (action === "next") {

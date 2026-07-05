@@ -22,4 +22,4 @@ The approved kiosk sells cellophaned moss-honey at a markup and a smile. Walk on
 - Ask what has changed here recently.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash cb878ddcc4de2573 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash cb878ddcc4de2573 | Source hash 6753a06c32e5dca07a19eb73

@@ -19,4 +19,4 @@ Orient the players without dumping lore. Keep proper nouns gated for the played 
 All right, we are moving from Session Zero into the fiction. Here is what your characters know before the first conversation: you have a courier contract, the pay is good, the package is sealed, and the route runs through a huge old forest to a small village. You do not need to know the names yet. If you want details, ask the contact once the scene starts.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash a4c44619408719cd | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash a4c44619408719cd | Source hash 6753a06c32e5dca07a19eb73

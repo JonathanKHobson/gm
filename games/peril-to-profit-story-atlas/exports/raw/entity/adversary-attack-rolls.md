@@ -43,4 +43,4 @@ Player-safe note: Adversaries roll d20 plus attack modifier against PC Evasion.
 - Visual Gallery: primary Primary wiki image primary assets/entities/adversary-attack-rolls.webp Adversary Attack Rolls primary wiki image visual. Adversary Attack Rolls: Primary wiki image. fallback_type_icon True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash b12a899726db6f87 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash b12a899726db6f87 | Source hash 6753a06c32e5dca07a19eb73

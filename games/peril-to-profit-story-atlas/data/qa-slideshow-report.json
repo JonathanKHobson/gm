@@ -1,6 +1,6 @@
 {
   "pass": true,
-  "check_count": 248,
+  "check_count": 259,
   "issue_count": 0,
   "checks": [
     {
@@ -854,12 +854,22 @@
       "detail": ""
     },
     {
+      "name": "Run Mode rail owns every quick-card channel",
+      "ok": true,
+      "detail": "{\n  \"fixedRailChannels\": []\n}"
+    },
+    {
       "name": "Run Clock controls are not countdown cue-card references",
       "ok": true,
       "detail": ""
     },
     {
-      "name": "Run Mode hover cards can be closed, temporarily suppressed, and avoid blocking new chips",
+      "name": "Run Mode hover cards can be closed, scrolled, temporarily suppressed, and avoid blocking new chips",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "collapsed Run Mode quick cards are click-through except for Open controls",
       "ok": true,
       "detail": ""
     },
@@ -956,7 +966,7 @@
     {
       "name": "music sheet opens without moving side panel or active slide",
       "ok": true,
-      "detail": "{\"sideBeforeMusic\":{\"x\":13.59375,\"y\":132.3125,\"width\":1338.8125,\"height\":204.859375},\"sideAfterMusic\":{\"x\":13.59375,\"y\":132.3125,\"width\":1338.8125,\"height\":205.859375},\"headingBeforeMusic\":{\"x\":479.390625,\"y\":528.421875,\"width\":772.015625,\"height\":39.09375},\"headingAfterMusic\":{\"x\":479.390625,\"y\":529.421875,\"width\":772.015625,\"height\":39.09375}}"
+      "detail": "{\"sideBeforeMusic\":{\"x\":13.59375,\"y\":132.3125,\"width\":1338.8125,\"height\":204.859375},\"sideAfterMusic\":{\"x\":13.59375,\"y\":132.3125,\"width\":1338.8125,\"height\":205.859375},\"headingBeforeMusic\":{\"x\":422.59375,\"y\":528.421875,\"width\":509.625,\"height\":39.09375},\"headingAfterMusic\":{\"x\":422.59375,\"y\":529.421875,\"width\":509.625,\"height\":39.09375}}"
     },
     {
       "name": "Player Display has single music audio output",
@@ -967,6 +977,11 @@
       "name": "music play command sets Player Display audio source",
       "ok": true,
       "detail": "assets/audio/tracks/goldspire-messenger-theme.mp3"
+    },
+    {
+      "name": "music play command does not change Player Display visual state",
+      "ok": true,
+      "detail": "{\"before\":{\"mode\":\"image-title-caption\",\"text\":\"\"},\"after\":{\"mode\":\"image-title-caption\",\"text\":\"\"}}"
     },
     {
       "name": "music next command changes Player Display audio source",
@@ -984,9 +999,34 @@
       "detail": ""
     },
     {
-      "name": "spotlight tray starts tucked with active-slide attention",
+      "name": "Run Mode open rail docks all quick cards plus hover, GM reference, and spotlight",
       "ok": true,
-      "detail": ""
+      "detail": "{\"ok\":true,\"rail\":{\"left\":1016.40625,\"top\":348.359375,\"right\":1352.40625,\"bottom\":609.359375,\"width\":336,\"height\":261},\"open\":true,\"railOverflowY\":\"auto\",\"cardCount\":13,\"outsideRail\":[],\"collisions\":[],\"channelPositions\":[{\"kind\":\"npc\",\"position\":\"static\"},{\"kind\":\"faction\",\"position\":\"static\"},{\"kind\":\"location\",\"position\":\"static\"},{\"kind\":\"item\",\"position\":\"static\"},{\"kind\":\"clue\",\"position\":\"static\"}],\"railContents\":{\"npc\":true,\"faction\":true,\"item\":true,\"location\":true,\"clue\":true,\"gmRef\":true,\"spotlight\":true,\"hover\":true}}"
+    },
+    {
+      "name": "Run Mode quick-card render polling does not recreate unchanged cards",
+      "ok": true,
+      "detail": "{\"ok\":true,\"after\":[{\"sameFirst\":true,\"sameHtml\":true,\"sameScroll\":true},{\"sameFirst\":true,\"sameHtml\":true,\"sameScroll\":true},{\"sameFirst\":true,\"sameHtml\":true,\"sameScroll\":true},{\"sameFirst\":true,\"sameHtml\":true,\"sameScroll\":true},{\"sameFirst\":true,\"sameHtml\":true,\"sameScroll\":true}]}"
+    },
+    {
+      "name": "Run Mode Fear HUD remains a visible floating overlay",
+      "ok": true,
+      "detail": "{\"ok\":true,\"position\":\"fixed\",\"visibleOnTop\":true,\"hud\":{\"left\":1128.234375,\"top\":621.875,\"right\":1350,\"bottom\":675.203125,\"width\":221.765625,\"height\":53.328125},\"rail\":{\"left\":1016.40625,\"top\":348.359375,\"right\":1352.40625,\"bottom\":609.359375,\"width\":336,\"height\":261}}"
+    },
+    {
+      "name": "expanded location quick-card stays in rail, scrolls, and does not cover the beat or music",
+      "ok": true,
+      "detail": "{\"hudVisible\":true,\"ok\":true,\"overflowY\":\"auto\",\"maxHeight\":\"291.84px\",\"card\":{\"left\":1027.796875,\"top\":336.390625,\"right\":1341.015625,\"bottom\":628.21875,\"width\":313.21875,\"height\":291.828125},\"stage\":{\"left\":13.59375,\"top\":348.359375,\"right\":1005.21875,\"bottom\":1637.84375,\"width\":991.625,\"height\":1289.484375},\"music\":{\"left\":1073.171875,\"top\":269.3125,\"right\":1338.609375,\"bottom\":325.78125,\"width\":265.4375,\"height\":56.46875},\"hud\":{\"left\":1128.234375,\"top\":621.875,\"right\":1350,\"bottom\":675.203125,\"width\":221.765625,\"height\":53.328125}}"
+    },
+    {
+      "name": "rail-open spotlight is auto-expanded without a visible dropdown toggle",
+      "ok": true,
+      "detail": "{\"ok\":true,\"railOpen\":true,\"insideRail\":true,\"railDocked\":true,\"bodyHidden\":false,\"toggleDisplay\":\"none\"}"
+    },
+    {
+      "name": "rail-closed spotlight is compact and stacked above the bottom-right Fear HUD",
+      "ok": true,
+      "detail": "{\"ok\":true,\"railOpen\":false,\"insideRail\":false,\"position\":\"fixed\",\"bodyHidden\":true,\"spotlight\":{\"left\":1310.8125,\"top\":576.015625,\"right\":1350,\"bottom\":615.203125,\"width\":39.1875,\"height\":39.1875},\"fear\":{\"left\":1128.234375,\"top\":621.875,\"right\":1350,\"bottom\":675.203125,\"width\":221.765625,\"height\":53.328125}}"
     },
     {
       "name": "spotlight tray expands on click",
@@ -1044,6 +1084,16 @@
       "detail": "{\"hoverImageControls\":1,\"hoverTextControls\":1}"
     },
     {
+      "name": "Run Mode hover cue docks inside the open reference rail",
+      "ok": true,
+      "detail": "{\"ok\":true,\"position\":\"relative\",\"insideRail\":true,\"card\":{\"left\":1027.796875,\"top\":176.40625,\"right\":1341.015625,\"bottom\":498.953125,\"width\":313.21875,\"height\":322.546875},\"stage\":{\"left\":13.59375,\"top\":-1987.03125,\"right\":1005.21875,\"bottom\":736,\"width\":991.625,\"height\":2723.03125},\"music\":{\"left\":1073.171875,\"top\":-2066.078125,\"right\":1338.609375,\"bottom\":-2009.609375,\"width\":265.4375,\"height\":56.46875},\"hud\":{\"left\":1128.234375,\"top\":621.875,\"right\":1350,\"bottom\":675.203125,\"width\":221.765625,\"height\":53.328125}}"
+    },
+    {
+      "name": "closed Run Mode rail restores hover, GM reference, and spotlight floating behavior",
+      "ok": true,
+      "detail": "{\"ok\":true,\"railOpen\":false,\"quickChannels\":[{\"kind\":\"npc\",\"insideRail\":true,\"position\":\"static\"},{\"kind\":\"faction\",\"insideRail\":true,\"position\":\"static\"},{\"kind\":\"location\",\"insideRail\":true,\"position\":\"static\"},{\"kind\":\"item\",\"insideRail\":true,\"position\":\"static\"},{\"kind\":\"clue\",\"insideRail\":true,\"position\":\"static\"}],\"visibleQuickCards\":0,\"hoverInsideRail\":false,\"hoverPosition\":\"fixed\",\"gmRefInsideRail\":false,\"gmRefPosition\":\"fixed\",\"spotlightInsideRail\":false,\"spotlightPosition\":\"fixed\"}"
+    },
+    {
       "name": "Run Mode entity hover-card image sends to Player Display",
       "ok": true,
       "detail": "Goldspire Waymarkers"
@@ -1071,12 +1121,12 @@
     {
       "name": "cue-card image hover reveals send icon",
       "ok": true,
-      "detail": "0.537773"
+      "detail": "1"
     },
     {
       "name": "cue-card image send icon stays compact",
       "ok": true,
-      "detail": "{\"x\":311.125,\"y\":638.9188232421875,\"width\":20,\"height\":20}"
+      "detail": "{\"x\":311.125,\"y\":639.859375,\"width\":20,\"height\":20}"
     },
     {
       "name": "cue-card image send shows image on Player Display",
@@ -1096,7 +1146,7 @@
     {
       "name": "Run Mode shows visible slide image anchor by default",
       "ok": true,
-      "detail": "{\"x\":94.59375,\"y\":454.453125,\"width\":364.796875,\"height\":261.109375}"
+      "detail": "{\"x\":66.59375,\"y\":454.453125,\"width\":336,\"height\":252}"
     },
     {
       "name": "current slide completion checkbox is visible",
@@ -1202,6 +1252,11 @@
       "name": "scrubber jumps between slides",
       "ok": true,
       "detail": "S03-02"
+    },
+    {
+      "name": "Run Mode blocks horizontal browser history overscroll",
+      "ok": true,
+      "detail": "{\"html\":\"none\",\"scrubber\":\"contain\"}"
     },
     {
       "name": "player display receives setSlide messages",

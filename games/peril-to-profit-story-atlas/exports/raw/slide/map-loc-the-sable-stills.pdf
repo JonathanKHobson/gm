@@ -1,6 +1,6 @@
 %PDF-1.4
 1 0 obj
-<< /Length 2723 >>
+<< /Length 2726 >>
 stream
 BT
 /F1 10 Tf
@@ -40,9 +40,9 @@ T*
 T*
 (- Maptype: environment) Tj
 T*
-(- Sectionid: STORY) Tj
+(- Sectionid: MAPS) Tj
 T*
-(- Sectiontitle: Map Board) Tj
+(- Sectiontitle: Location Maps) Tj
 T*
 (- Title: The Sable Stills Location Map) Tj
 T*
@@ -278,9 +278,9 @@ T*
 T*
 () Tj
 T*
-(Build 2026-06-23T21:40:58 | Content hash 0b230d0a447eb233 | Source hash) Tj
+(Build 2026-07-05T12:33:16 | Content hash c01e0791ab59d893 | Source hash) Tj
 T*
-(dac3370046ed077140fab2d6) Tj
+(6753a06c32e5dca07a19eb73) Tj
 T*
 () Tj
 T*
@@ -303,16 +303,16 @@ xref
 0 10
 0000000000 65535 f 
 0000000009 00000 n 
-0000002784 00000 n 
-0000002910 00000 n 
-0000007101 00000 n 
-0000007227 00000 n 
-0000009357 00000 n 
-0000009483 00000 n 
-0000009552 00000 n 
-0000009601 00000 n 
+0000002787 00000 n 
+0000002913 00000 n 
+0000007104 00000 n 
+0000007230 00000 n 
+0000009360 00000 n 
+0000009486 00000 n 
+0000009555 00000 n 
+0000009604 00000 n 
 trailer
 << /Size 10 /Root 8 0 R >>
 startxref
-9673
+9676
 %%EOF

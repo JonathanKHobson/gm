@@ -1,6 +1,6 @@
 %PDF-1.4
 1 0 obj
-<< /Length 2356 >>
+<< /Length 2412 >>
 stream
 BT
 /F1 10 Tf
@@ -14,7 +14,7 @@ T*
 T*
 () Tj
 T*
-(About an hour to recover and prepare.) Tj
+(About an hour to recover and prepare; the GM gains 1d4 Fear.) Tj
 T*
 () Tj
 T*
@@ -32,7 +32,9 @@ T*
 T*
 (- Use at the Open Vale rest beat or similar downtime.) Tj
 T*
-(- Tend Wounds, Clear Stress, Repair Armor, or Prepare.) Tj
+(- Each PC chooses two downtime moves. The GM gains 1d4 Fear, then play returns with) Tj
+T*
+(  refreshed pressure.) Tj
 T*
 (- Return to the fiction with the concrete result, cost, or benefit.) Tj
 T*
@@ -56,7 +58,7 @@ T*
 T*
 (- Tag: official) Tj
 T*
-(- Summary: About an hour to recover and prepare.) Tj
+(- Summary: About an hour to recover and prepare; the GM gains 1d4 Fear.) Tj
 T*
 (- When: Use at the Open Vale rest beat or similar downtime.) Tj
 T*
@@ -64,9 +66,13 @@ T*
 T*
 (- Question: What can I do on a short rest?) Tj
 T*
-(- Answer: Tend Wounds, Clear Stress, Repair Armor, or Prepare.) Tj
+(- Answer: Each PC chooses two downtime moves. The GM gains 1d4 Fear, then play returns) Tj
 T*
-(- Example: Before the ritual, each PC chooses two rest moves.) Tj
+(  with refreshed pressure.) Tj
+T*
+(- Example: Before the ritual, each PC chooses two rest moves and the GM takes downtime) Tj
+T*
+(  Fear.) Tj
 T*
 (- Related: stress armor-slots hope) Tj
 T*
@@ -82,25 +88,19 @@ T*
 T*
 (  armor-slots hope Introduce at first use stress armor-slots hope About an hour to) Tj
 T*
-(  recover and prepare. Tend Wounds, Clear Stress, Repair Armor, or Prepare. Use at the) Tj
+(  recover and prepare; the GM gains 1d4 Fear. Each PC chooses two downtime moves. The) Tj
 T*
-(  Open Vale rest beat or similar downtime. Short Rest: About an hour to recover and) Tj
+(  GM gains 1d4 Fear, then play returns with refreshed pressure. Use at the Open Vale) Tj
 T*
-(  prepare. Use at the Open Vale rest beat or similar downtime. Tend Wounds, Clear) Tj
+(  rest beat or similar downtime. Short Rest: About an hour to recover and prepare; the) Tj
 T*
-(  Stress, Repair Armor, or Prepare. Return to the fiction with the concrete result,) Tj
+(  GM gains 1d4 Fear. Use at the Open Vale rest beat or similar downtime. Each PC) Tj
 T*
-(  cost, or benefit. Before the ritual, each PC chooses two rest moves. Before the) Tj
+(  chooses two downtime moves. The GM gains 1d4 Fear, then play returns with refreshed) Tj
 T*
-(  ritual, each PC chooses two rest moves. What can I do on a short rest? Short Rest) Tj
+(  pressure. Return to the fiction with the concrete result, cost, or benefit. Before) Tj
 T*
-(  rest Prepare Tend to Wounds Clear Stress Repair Armor stress armor-slots hope) Tj
-T*
-(  Verified against local Daggerheart rules packet and Mechanic System Packet;) Tj
-T*
-(  paraphrased for table use.) Tj
-T*
-(- Canon Status: #rules-canon) Tj
+(  the ritual, each PC chooses two rest moves and the GM takes downtime Fear. Before) Tj
 T*
 ET
 endstream
@@ -109,12 +109,22 @@ endobj
 << /Type /Page /Parent 5 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 1 0 R >>
 endobj
 3 0 obj
-<< /Length 221 >>
+<< /Length 596 >>
 stream
 BT
 /F1 10 Tf
 50 742 Td
 14 TL
+(  the ritual, each PC chooses two rest moves and the GM takes downtime Fear. What can) Tj
+T*
+(  I do on a short rest? Short Rest rest Prepare Tend to Wounds Clear Stress Repair) Tj
+T*
+(  Armor stress armor-slots hope Verified against local Daggerheart rules packet and) Tj
+T*
+(  Mechanic System Packet; paraphrased for table use.) Tj
+T*
+(- Canon Status: #rules-canon) Tj
+T*
 (- Category: downtime) Tj
 T*
 () Tj
@@ -123,9 +133,9 @@ T*
 T*
 () Tj
 T*
-(Build 2026-06-23T21:40:58 | Content hash f8f53bd46c790153 | Source hash) Tj
+(Build 2026-07-05T12:33:16 | Content hash 65537cf835027eb4 | Source hash) Tj
 T*
-(dac3370046ed077140fab2d6) Tj
+(6753a06c32e5dca07a19eb73) Tj
 T*
 () Tj
 T*
@@ -148,14 +158,14 @@ xref
 0 8
 0000000000 65535 f 
 0000000009 00000 n 
-0000002417 00000 n 
-0000002543 00000 n 
-0000002815 00000 n 
-0000002941 00000 n 
-0000003004 00000 n 
-0000003053 00000 n 
+0000002473 00000 n 
+0000002599 00000 n 
+0000003246 00000 n 
+0000003372 00000 n 
+0000003435 00000 n 
+0000003484 00000 n 
 trailer
 << /Size 8 /Root 6 0 R >>
 startxref
-3125
+3556
 %%EOF

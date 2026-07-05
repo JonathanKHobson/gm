@@ -46,4 +46,4 @@ Player-safe note: Shows the driver’s route and possibly hints the cart was tar
 - Visual Gallery: primary Primary wiki image primary assets/clue-images/route-ledger/profile_base.webp Route Ledger primary wiki image visual. Route Ledger: Primary wiki image. clue_visual_profile True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 0a3a9c9557e61038 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 0a3a9c9557e61038 | Source hash 6753a06c32e5dca07a19eb73

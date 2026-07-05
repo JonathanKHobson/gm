@@ -4,10 +4,10 @@
   "kind": "slide",
   "id": "MAP-LOC-the-sable-stills",
   "title": "MAP-LOC-the-sable-stills - The Sable Stills Location Map",
-  "generated_at": "2026-06-23T21:40:58",
-  "build_timestamp": "2026-06-23T21:40:58",
-  "source_content_hash": "dac3370046ed077140fab2d6",
-  "content_hash": "0b230d0a447eb233",
+  "generated_at": "2026-07-05T12:33:16",
+  "build_timestamp": "2026-07-05T12:33:16",
+  "source_content_hash": "6753a06c32e5dca07a19eb73",
+  "content_hash": "c01e0791ab59d893",
   "sections": [
     {
       "title": "Player text",
@@ -23,8 +23,8 @@
         "Id: MAP-LOC-the-sable-stills",
         "Type: map",
         "Maptype: environment",
-        "Sectionid: STORY",
-        "Sectiontitle: Map Board",
+        "Sectionid: MAPS",
+        "Sectiontitle: Location Maps",
         "Title: The Sable Stills Location Map",
         "Shorttitle: The Sable Stills",
         "Order: 851.5",
@@ -59,7 +59,7 @@
     },
     {
       "title": "Export Stamp",
-      "body": "Build 2026-06-23T21:40:58 | Content hash 0b230d0a447eb233 | Source hash dac3370046ed077140fab2d6"
+      "body": "Build 2026-07-05T12:33:16 | Content hash c01e0791ab59d893 | Source hash 6753a06c32e5dca07a19eb73"
     }
   ]
 }

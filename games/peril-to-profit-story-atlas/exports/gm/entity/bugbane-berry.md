@@ -54,4 +54,4 @@ Use when the scene needs a concrete object for players to inspect, carry, debate
 - Visual Assets: profile_base Item profile image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/bugbane-berry/profile_base.png assets/item-images/bugbane-berry/profile_base.webp ready Bugbane Berry™ item illustration. A fat red-orange berry shines a little too perfectly, with a tiny insect suspended dead-center like a pit in amber. It looks appetizing and deeply wrong.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 5d657dcbf2d1f728 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 5d657dcbf2d1f728 | Source hash 6753a06c32e5dca07a19eb73

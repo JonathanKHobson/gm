@@ -45,4 +45,4 @@ Review choice flags without opening the full dashboard.
 - prologue_ready Prologue Ready checkbox 9
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash b18beb9596a9d952 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash b18beb9596a9d952 | Source hash 6753a06c32e5dca07a19eb73

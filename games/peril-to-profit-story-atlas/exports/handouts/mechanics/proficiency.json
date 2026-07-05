@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "proficiency",
+  "kind": "rule",
+  "title": "Proficiency",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "character-sheet",
+  "hook": "The number that sets how many damage dice a PC rolls with weapons and many damaging features.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "The number that sets how many damage dice a PC rolls with weapons and many damaging features."
+    },
+    {
+      "label": "How It Works",
+      "body": "Proficiency: The number that sets how many damage dice a PC rolls with weapons and many damaging features."
+    },
+    {
+      "label": "Try It",
+      "body": "How many damage dice?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use after a successful PC attack or when a feature references Proficiency.",
+    "Roll a number of damage dice equal to Proficiency, then add the listed modifier.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:proficiency",
+  "build_timestamp": "2026-07-05T12:33:16",
+  "source_content_hash": "6753a06c32e5dca07a19eb73",
+  "content_hash": "c9fd044d60447a34",
+  "generated_at": "2026-07-05T12:33:16"
+}

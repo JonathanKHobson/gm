@@ -66,11 +66,12 @@ Find any rule fast without leaving Run Mode.
 - • Restrained.
 - • Vulnerable.
 - Short Rest: Use before Open Vale pressure spikes.
+- • GM gains 1d4 Fear.
 - • Tend to Wounds.
 - • Clear Stress.
 - • Repair Armor.
 - • Prepare.
-- • Check official loadout/vault swap text from the sheet or SRD.
+- • Long rest is true downtime: GM gains PC count + 1d4 Fear and can advance a long-term countdown.
 - Countdown: Make pressure visible and explain what a tick means.
 - • Name what the countdown represents.
 - • Tick it when the fiction or result calls for pressure.
@@ -82,6 +83,13 @@ Find any rule fast without leaving Run Mode.
 - • Traits replace D&D skills.
 - • Damage compares to thresholds; Armor can reduce severity.
 - • There is no initiative order; spotlight follows the fiction.
+- GM Screen Edge Cases: Fast handles for rules that come up mid-session but do not deserve a lecture.
+- • Group Action: choose a leader; helpers roll reactions; successes and failures shift the leader's roll.
+- • Fate Roll: define the stakes, then roll one Duality Die when the outcome is pure chance.
+- • Temporary effects: clear through the listed move, natural end, or GM/Fear procedure if a spell says so.
+- • Falling or collision: use the SRD damage guide and fit the danger to the fiction.
+- • Spellcast Roll: only when a feature calls for the character's Spellcast trait.
+- • Unarmed attack: Strength or Finesse, then Proficiency d4 damage on a hit.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 1032b0911b0e1361 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 80df45b2a750f9f2 | Source hash 6753a06c32e5dca07a19eb73

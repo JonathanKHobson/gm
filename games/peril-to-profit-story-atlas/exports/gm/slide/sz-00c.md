@@ -27,4 +27,4 @@ Let players introduce themselves as people before they introduce their character
 Before we meet the characters, let's meet each other. Please share your name, your TTRPG or Daggerheart experience level, and one thing you are hoping for tonight. You can pass and come back. I will use this to calibrate how much I explain as we play.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 20ca6c83c25035b8 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 20ca6c83c25035b8 | Source hash 6753a06c32e5dca07a19eb73

@@ -7,7 +7,7 @@
   "title": "MAP-LOC-old-sable - Old Sable Location Map",
   "in_world_label": "Run Mode Slide Briefing",
   "brand_flag": "Run Mode",
-  "kicker": "Act Four: The Hanging Office",
+  "kicker": "Prologue: The Contract",
   "hook": "Older stones sit half-hidden near the path, weathered enough that nobody here could have made them recently.",
   "blocks": [
     {
@@ -29,8 +29,8 @@
   "featured": false,
   "handout_policy": "generate",
   "watermark": "Goldspire Story Atlas - slide:MAP-LOC-old-sable",
-  "build_timestamp": "2026-06-23T21:40:58",
-  "source_content_hash": "dac3370046ed077140fab2d6",
-  "content_hash": "06ff62e036201413",
-  "generated_at": "2026-06-23T21:40:58"
+  "build_timestamp": "2026-07-05T12:33:16",
+  "source_content_hash": "6753a06c32e5dca07a19eb73",
+  "content_hash": "c86eb8a74070ffbd",
+  "generated_at": "2026-07-05T12:33:16"
 }

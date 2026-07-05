@@ -37,4 +37,4 @@ Act 5 soul-audit pressure and undead personhood sit in Soulspire's business mode
 - Imagine It Like: Think Lumon from Severance running a funeral home, a wellness spa that is also a debt collector, the soul as a subscription that auto-renews past death. Calm voices, cold ledger.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 77f3fcafce0de789 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 77f3fcafce0de789 | Source hash 6753a06c32e5dca07a19eb73

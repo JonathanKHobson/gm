@@ -28,4 +28,4 @@ Use when the scene needs a concrete object for players to inspect, carry, debate
 - Search Loot: One use can sweeten a tense conversation or simply make the world feel cared for.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 203a55a062b3f4dc | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 203a55a062b3f4dc | Source hash 6753a06c32e5dca07a19eb73

@@ -37,4 +37,4 @@ Legacy Skeletons and old labyrinth contracts make Act 5's fight about people, no
 - Imagine It Like: Think Mr. Torgue from Borderlands selling extreme-sports waivers, a CrossFit gym run by a dungeon, a live-service game that monetizes heroism. Glory as a subscription with a body count.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 580b9c54d4411ceb | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 580b9c54d4411ceb | Source hash 6753a06c32e5dca07a19eb73

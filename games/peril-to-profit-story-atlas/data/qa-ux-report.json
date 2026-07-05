@@ -1,0 +1,218 @@
+{
+  "pass": false,
+  "check_count": 41,
+  "issue_count": 0,
+  "checks": [
+    {
+      "name": "required page exists: index.html",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "required page exists: run.html",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "required page exists: player-display.html",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "required page exists: pages/entity-index.html",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "required page exists: pages/gm-dashboard.html",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "required page exists: pages/handouts.html",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "required page exists: pages/session-zero.html",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "required page exists: pages/pc-cheat-sheet.html",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "required page exists: pages/pronunciation-guide.html",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "required page exists: pages/media-board.html",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no SVG references in generated site files",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no emoji in primary UI files",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no internal prompt language visible in HTML",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "light mode is default",
+      "ok": true,
+      "detail": "\n  --bg: #f6f3ec;\n  --panel: #fffdf8;\n  --panel-2: #ece6da;\n  --ink: #1e2428;\n  --muted: #5a646a;\n  --line: rgba(45, 54, 60, .18);\n  --amber: #f0aa45;\n  --moss: #78a65f;\n  --enemy: #ef6b42;\n  --violet: #9f7aea;\n  --gold: #d6a936;\n  --blue: #5fa8d3;\n  --teal: #39c5bb;\n  --cyan: #48c7e8;\n  --purple: #27163c;\n  --green: #58d182;\n  --crimson: #d95165;\n  --midnight: #182747;\n  --shadow: 0 .7rem 1.8rem rgba(35, 44, 48, .12);\n  --radius: 8px;\n  color-scheme: light;\n"
+    },
+    {
+      "name": "dark mode remains optional",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "print stylesheet exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage links Run Mode",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage links GM Dashboard",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage does not show full choice track reference",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage primary nav does not link raw Markdown",
+      "ok": true,
+      "detail": "<div class=\"hero-actions\">\n        <a class=\"button\" href=\"run.html\">Open Run Mode</a>\n        <button class=\"button secondary\" type=\"button\" data-run-clock-start>Start Run <span class=\"mechanic-link\" data-mechanic=\"countdown\"><span>Clock</span></span></button>\n        <a class=\"button secondary\" href=\"#acts\">Browse the story</a>\n        <a class=\"button secondary\" href=\"pages/story-outline.html\">Story Outline</a>\n        <a class=\"button secondary\" href=\"pages/settings.html\">Settings</a>\n      </div><nav class=\"hero-jump\" aria-label=\"Jump to\">\n        <span class=\"hero-jump-label\">Jump to</span>\n        <a class=\"button tertiary\" href=\"pages/storyboard.html\">Storyboard</a>\n        <a class=\"button tertiary\" href=\"pages/story.html\">Story</a>\n        <a class=\"button tertiary\" href=\"pages/entity-index.html\">Entity Wiki</a>\n        <a class=\"button tertiary\" href=\"pages/gm-dashboard.html\">GM Dashboard</a>\n        <button type=\"button\" class=\"button tertiary\" data-rules-open data-rules-ta"
+    },
+    {
+      "name": "compact dashboard summary exists on homepage",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "GM dashboard has state import/export/reset panels",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "dashboard includes CSS meter bars",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "dashboard includes PC profile manager",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "entity index includes PC category",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "entity index includes pronunciations",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "run mode exists and has scrubber",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "run mode no longer ships a Slide 1 / 1 shell placeholder",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "run mode can auto-complete previous scene",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "player display sync uses BroadcastChannel and localStorage fallback",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "player display supports blackout",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "rules drawer is hidden outside normal page flow by default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "dev mode uses explicit data-dev-mode boundary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "GM dashboard groups state controls by context",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "homepage Session Zero deep content is collapsed behind summary",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "PC cheat sheet is a printable editable dossier",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "pronunciation guide page exists with cards",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "media board exists with send-to-player controls",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "wiki pages have collapsible section hook",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "entity header clipping fix classes present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "icon buttons have labels",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "browser_visual": {
+    "pass": true,
+    "check_count": 62,
+    "issue_count": 0,
+    "screenshots_dir": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots"
+  }
+}

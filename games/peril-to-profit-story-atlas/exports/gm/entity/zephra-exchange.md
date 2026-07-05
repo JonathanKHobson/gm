@@ -37,4 +37,4 @@ Zephra route optimization helped cut Bramble workers loose and makes checkpoint 
 - Imagine It Like: Think Amazon merged with the DMV and a border checkpoint, a stock exchange that also sells you permission to exist, a ticket monopoly for the open road.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 39d504d6f40d6ea1 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 39d504d6f40d6ea1 | Source hash 6753a06c32e5dca07a19eb73

@@ -49,4 +49,4 @@ Introduce with sensory texture, then make one discoverable clue or social choice
 - Imagine It Like: A canopy walkway or zipline park crossed with a working dockyard. Think rope bridges, cargo pulleys, and a tree-fort someone actually commutes through.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash b88ee91dd60d51e4 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash b88ee91dd60d51e4 | Source hash 6753a06c32e5dca07a19eb73

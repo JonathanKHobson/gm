@@ -16,4 +16,4 @@ Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low la
 - Ask one practical question before acting.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 0f9acbaa8572c376 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 63b0278da1f165b7 | Source hash 6753a06c32e5dca07a19eb73

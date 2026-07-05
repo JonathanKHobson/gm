@@ -47,4 +47,4 @@ Hexmart: Hexmart™ is a discount-magic supercenter where every fear has a match
 - Visual Gallery: primary Primary wiki image primary assets/logos/hexmart.webp Hexmart primary wiki image visual. Hexmart: Primary wiki image. image_gen True True faction-logo-source Faction logo faction-logo assets/entity-gallery/hexmart/faction-logo-source.webp Hexmart faction logo visual. Hexmart: Faction logo. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/logos/hexmart.webp faction-representative-source Representative scene faction-representative assets/entity-gallery/hexmart/faction-representative-source.webp Hexmart representative scene visual. Hexmart: Representative scene. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/representative/hexmart.png
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash f80495c2e29586c9 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash f80495c2e29586c9 | Source hash 6753a06c32e5dca07a19eb73

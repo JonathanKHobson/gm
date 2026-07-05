@@ -49,4 +49,4 @@ HEXMART BUGBANE BERRY: Now 70 percent likely to contain a berry. The bug is a fe
 - Visual Gallery: primary Primary wiki image primary assets/item-images/bugbane-berry/profile_base.webp Bugbane Berry™ primary wiki image visual. Bugbane Berry™: Primary wiki image. item_visual_profile True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 560d28e84c018e7a | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 560d28e84c018e7a | Source hash 6753a06c32e5dca07a19eb73

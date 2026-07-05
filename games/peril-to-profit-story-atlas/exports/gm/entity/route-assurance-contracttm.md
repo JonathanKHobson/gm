@@ -53,4 +53,4 @@ Use when players need a tangible handle on the scene's pressure.
 - Visual Assets: profile_base Clue evidence image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/route-assurance-contracttm/profile_base.png assets/clue-images/route-assurance-contracttm/profile_base.webp ready Route Assurance Contract™ clue image. A bland, sunny contract, thick with optimistic language, that promises everything and guarantees nothing — and is, technically, completely truthful.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash fe9408ed2b52da25 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash fe9408ed2b52da25 | Source hash 6753a06c32e5dca07a19eb73

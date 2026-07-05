@@ -46,4 +46,4 @@ Player-safe note: A cold, partial memory that turns metaphysical debt into somet
 - Visual Gallery: primary Primary wiki image primary assets/clue-images/soul-audit-memory-shard/profile_base.webp Soul-Audit Memory Shard primary wiki image visual. Soul-Audit Memory Shard: Primary wiki image. clue_visual_profile True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash f71a9e633795ccc9 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash f71a9e633795ccc9 | Source hash 6753a06c32e5dca07a19eb73

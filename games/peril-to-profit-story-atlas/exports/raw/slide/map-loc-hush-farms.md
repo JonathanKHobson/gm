@@ -12,8 +12,8 @@ The last cultivated fields thin into carved trees and blue moss-light. The path 
 - Id: MAP-LOC-hush-farms
 - Type: map
 - Maptype: environment
-- Sectionid: ACT-FOUR
-- Sectiontitle: Act Four: The Hanging Office
+- Sectionid: ACT-THREE
+- Sectiontitle: Act Three: Seeking a Custodian
 - Title: Hush Farms Location Map
 - Shorttitle: The Last Fields
 - Order: 404.08
@@ -57,4 +57,4 @@ The last cultivated fields thin into carved trees and blue moss-light. The path 
 - Totalslides: 110
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash f4fc455a3aa98855 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash ea8aafe9d196ed34 | Source hash 6753a06c32e5dca07a19eb73

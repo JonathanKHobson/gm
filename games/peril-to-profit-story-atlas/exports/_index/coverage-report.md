@@ -1,7 +1,7 @@
 # Story Atlas Export Coverage Report
 
-Build timestamp: 2026-06-23T21:40:58
-Source content hash: dac3370046ed077140fab2d6
+Build timestamp: 2026-07-05T12:33:16
+Source content hash: 6753a06c32e5dca07a19eb73
 
 | category | entity | has_markdown | has_handout | featured | notes |
 |---|---|---:|---:|---:|---|
@@ -306,11 +306,17 @@ Source content hash: dac3370046ed077140fab2d6
 | mechanics | rule:safety-tools | yes | yes | no |  |
 | mechanics | rule:advantage-disadvantage | yes | yes | no |  |
 | mechanics | rule:help-an-ally | yes | yes | no |  |
+| mechanics | rule:group-action-rolls | yes | yes | no |  |
 | mechanics | rule:tag-team-roll | yes | yes | no |  |
 | mechanics | rule:gm-moves | yes | yes | no |  |
 | mechanics | rule:adversary-spotlight | yes | yes | no |  |
 | mechanics | rule:adversary-attacks | yes | yes | no |  |
+| mechanics | rule:attack-rolls | yes | yes | no |  |
+| mechanics | rule:spellcast-rolls | yes | yes | no |  |
 | mechanics | rule:evasion | yes | yes | no |  |
+| mechanics | rule:proficiency | yes | yes | no |  |
+| mechanics | rule:unarmed-attacks | yes | yes | no |  |
+| mechanics | rule:attack-of-opportunity | yes | yes | no |  |
 | mechanics | rule:damage-thresholds | yes | yes | no |  |
 | mechanics | rule:hp | yes | yes | no |  |
 | mechanics | rule:armor-slots | yes | yes | no |  |
@@ -320,7 +326,10 @@ Source content hash: dac3370046ed077140fab2d6
 | mechanics | rule:report-choice | yes | yes | no |  |
 | mechanics | rule:countdown | yes | yes | no |  |
 | mechanics | rule:ranges | yes | yes | no |  |
+| mechanics | rule:falling-collision | yes | yes | no |  |
+| mechanics | rule:fate-rolls | yes | yes | no |  |
 | mechanics | rule:conditions | yes | yes | yes |  |
+| mechanics | rule:temporary-effects | yes | yes | no |  |
 | mechanics | rule:hidden | yes | yes | no |  |
 | mechanics | rule:restrained | yes | yes | no |  |
 | mechanics | rule:vulnerable | yes | yes | no |  |

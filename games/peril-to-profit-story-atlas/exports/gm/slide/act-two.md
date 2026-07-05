@@ -15,4 +15,4 @@ Open Act 2 as the first moral fracture: the staged wreck points to people, not w
 Say: "The animal encounter is over. The road is not. Act Two starts when the evidence stops pointing at claws and starts pointing at people. You are still escorting the package, but now you know someone else is writing themselves into the job."
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash e87cc62c2e4cacea | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash e87cc62c2e4cacea | Source hash 6753a06c32e5dca07a19eb73

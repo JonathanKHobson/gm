@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "attack-rolls",
+  "kind": "rule",
+  "title": "Attack Rolls",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "combat",
+  "hook": "Action rolls intended to inflict harm with a weapon, spell, or unarmed strike.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Action rolls intended to inflict harm with a weapon, spell, or unarmed strike."
+    },
+    {
+      "label": "How It Works",
+      "body": "Attack Rolls: Action rolls intended to inflict harm with a weapon, spell, or unarmed strike."
+    },
+    {
+      "label": "Try It",
+      "body": "How do I attack?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use when a PC attacks an adversary or a feature calls for an attack roll.",
+    "Make the relevant action roll against the target Difficulty, then roll damage on a success.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:attack-rolls",
+  "build_timestamp": "2026-07-05T12:33:16",
+  "source_content_hash": "6753a06c32e5dca07a19eb73",
+  "content_hash": "935f24360f68916f",
+  "generated_at": "2026-07-05T12:33:16"
+}

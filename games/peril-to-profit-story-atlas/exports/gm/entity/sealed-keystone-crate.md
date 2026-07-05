@@ -28,4 +28,4 @@ Make the mystery physical without solving it. The crate is a job constraint firs
 - Search Loot: Tampering logs the attempt and may create later corporate attention; careful inspection shows the cargo is ward-related.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 47b3b334a6162359 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 47b3b334a6162359 | Source hash 6753a06c32e5dca07a19eb73

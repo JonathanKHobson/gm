@@ -54,4 +54,4 @@ Use when players need a tangible handle on the scene's pressure.
 - Visual Assets: profile_base Clue evidence image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/the-welcome-broadcasttm/profile_base.png assets/clue-images/the-welcome-broadcasttm/profile_base.webp ready The Welcome Broadcast™ clue image. A bright RuneSpark welcome plays you off: "Congratulations on your Provisional Hire! Sablewood is a Certified Adventure Experience™. Nature is Thrilling, Lucrative, and Almost Entirely Survivable! Your Satisfaction Matters Deeply to Us!"
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 8107f69a96092a3d | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 8107f69a96092a3d | Source hash 6753a06c32e5dca07a19eb73

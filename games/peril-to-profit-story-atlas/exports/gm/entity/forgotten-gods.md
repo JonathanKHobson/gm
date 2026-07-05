@@ -27,4 +27,4 @@ Keep the satire pointed at institutional behavior, not vulnerable people. Reveal
 - Search Loot: Do not over-explain.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 7b9287a59cda7b36 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 7b9287a59cda7b36 | Source hash 6753a06c32e5dca07a19eb73

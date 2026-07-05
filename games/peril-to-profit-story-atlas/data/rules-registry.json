@@ -1551,6 +1551,86 @@
     "category": "teamwork"
   },
   {
+    "id": "group-action-rolls",
+    "title": "Group Action Rolls",
+    "tag": "official",
+    "summary": "A shared action where one PC leads and the other PCs support with reaction rolls.",
+    "when": "Use when several PCs work on the same task together and one clear leader makes sense.",
+    "not_when": "Do not use when the PCs are taking separate actions or when simple Help an Ally is enough.",
+    "question": "Can we all do this together?",
+    "answer": "Choose a leader. Other PCs describe help and make reaction rolls; their successes and failures adjust the leader's action roll.",
+    "example": "Khari leads the cart-lift while the others brace wheels, cut vines, and watch the road.",
+    "related": [
+      "action-roll",
+      "reaction-rolls",
+      "traits",
+      "help-an-ally"
+    ],
+    "aliases": [
+      "group action",
+      "group action roll",
+      "group roll",
+      "team action"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "group-action-rolls",
+      "mechanic_name": "Group Action Rolls",
+      "aliases": [
+        "group action",
+        "group action roll",
+        "group roll",
+        "team action"
+      ],
+      "pronunciation": "Group Action Rolls",
+      "category": "teamwork",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner+",
+      "dependencies": [
+        "action-roll",
+        "reaction-rolls",
+        "traits",
+        "help-an-ally"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "action-roll",
+        "reaction-rolls",
+        "traits",
+        "help-an-ally"
+      ],
+      "what_it_is": "A shared action where one PC leads and the other PCs support with reaction rolls.",
+      "why_it_matters": "Choose a leader. Other PCs describe help and make reaction rolls; their successes and failures adjust the leader's action roll.",
+      "how_it_functions": "Use when several PCs work on the same task together and one clear leader makes sense.",
+      "p2p_note": "",
+      "template": "Group Action Rolls: A shared action where one PC leads and the other PCs support with reaction rolls.",
+      "step_by_step": [
+        "Use when several PCs work on the same task together and one clear leader makes sense.",
+        "Choose a leader. Other PCs describe help and make reaction rolls; their successes and failures adjust the leader's action roll.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Khari leads the cart-lift while the others brace wheels, cut vines, and watch the road.",
+      "scenario_story": "Khari leads the cart-lift while the others brace wheels, cut vines, and watch the road.",
+      "try_it": "Can we all do this together?",
+      "keywords": [
+        "Group Action Rolls",
+        "group action",
+        "group action roll",
+        "group roll",
+        "team action",
+        "action-roll",
+        "reaction-rolls",
+        "traits",
+        "help-an-ally"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "teamwork"
+  },
+  {
     "id": "tag-team-roll",
     "title": "Tag Team Roll",
     "tag": "official",
@@ -1821,6 +1901,162 @@
     "category": "combat"
   },
   {
+    "id": "attack-rolls",
+    "title": "Attack Rolls",
+    "tag": "official",
+    "summary": "Action rolls intended to inflict harm with a weapon, spell, or unarmed strike.",
+    "when": "Use when a PC attacks an adversary or a feature calls for an attack roll.",
+    "not_when": "Do not use this for adversary attacks against PCs; those use adversary attack procedure.",
+    "question": "How do I attack?",
+    "answer": "Make the relevant action roll against the target Difficulty, then roll damage on a success.",
+    "example": "Barnacle strikes with Finesse against the Claimrunner's Difficulty.",
+    "related": [
+      "action-roll",
+      "damage-rolls",
+      "proficiency",
+      "adversary-attacks"
+    ],
+    "aliases": [
+      "attack",
+      "attack roll",
+      "weapon attack",
+      "spell attack"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "attack-rolls",
+      "mechanic_name": "Attack Rolls",
+      "aliases": [
+        "attack",
+        "attack roll",
+        "weapon attack",
+        "spell attack"
+      ],
+      "pronunciation": "Attack Rolls",
+      "category": "combat",
+      "canon_status": "#rules-canon",
+      "difficulty": "Intermediate",
+      "dependencies": [
+        "action-roll",
+        "damage-rolls",
+        "proficiency",
+        "adversary-attacks"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "action-roll",
+        "damage-rolls",
+        "proficiency",
+        "adversary-attacks"
+      ],
+      "what_it_is": "Action rolls intended to inflict harm with a weapon, spell, or unarmed strike.",
+      "why_it_matters": "Make the relevant action roll against the target Difficulty, then roll damage on a success.",
+      "how_it_functions": "Use when a PC attacks an adversary or a feature calls for an attack roll.",
+      "p2p_note": "",
+      "template": "Attack Rolls: Action rolls intended to inflict harm with a weapon, spell, or unarmed strike.",
+      "step_by_step": [
+        "Use when a PC attacks an adversary or a feature calls for an attack roll.",
+        "Make the relevant action roll against the target Difficulty, then roll damage on a success.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Barnacle strikes with Finesse against the Claimrunner's Difficulty.",
+      "scenario_story": "Barnacle strikes with Finesse against the Claimrunner's Difficulty.",
+      "try_it": "How do I attack?",
+      "keywords": [
+        "Attack Rolls",
+        "attack",
+        "attack roll",
+        "weapon attack",
+        "spell attack",
+        "action-roll",
+        "damage-rolls",
+        "proficiency",
+        "adversary-attacks"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "combat"
+  },
+  {
+    "id": "spellcast-rolls",
+    "title": "Spellcast Rolls",
+    "tag": "official",
+    "summary": "Trait rolls using a character's Spellcast trait when a feature requires one.",
+    "when": "Use only when the feature, spell, or card calls for a Spellcast Roll.",
+    "not_when": "Do not ask for a Spellcast Roll just because magic is nearby; pick the correct trait or feature procedure.",
+    "question": "When do I spellcast?",
+    "answer": "Use your Spellcast trait when the feature says to make a Spellcast Roll.",
+    "example": "Marlowe's magic feature may call for an Instinct-based Spellcast Roll.",
+    "related": [
+      "traits",
+      "attack-rolls",
+      "temporary-effects"
+    ],
+    "aliases": [
+      "spellcast",
+      "spellcast roll",
+      "spell roll",
+      "cast a spell"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "spellcast-rolls",
+      "mechanic_name": "Spellcast Rolls",
+      "aliases": [
+        "spellcast",
+        "spellcast roll",
+        "spell roll",
+        "cast a spell"
+      ],
+      "pronunciation": "Spellcast Rolls",
+      "category": "core-roll",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "traits",
+        "attack-rolls",
+        "temporary-effects"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "traits",
+        "attack-rolls",
+        "temporary-effects"
+      ],
+      "what_it_is": "Trait rolls using a character's Spellcast trait when a feature requires one.",
+      "why_it_matters": "Use your Spellcast trait when the feature says to make a Spellcast Roll.",
+      "how_it_functions": "Use only when the feature, spell, or card calls for a Spellcast Roll.",
+      "p2p_note": "",
+      "template": "Spellcast Rolls: Trait rolls using a character's Spellcast trait when a feature requires one.",
+      "step_by_step": [
+        "Use only when the feature, spell, or card calls for a Spellcast Roll.",
+        "Use your Spellcast trait when the feature says to make a Spellcast Roll.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Marlowe's magic feature may call for an Instinct-based Spellcast Roll.",
+      "scenario_story": "Marlowe's magic feature may call for an Instinct-based Spellcast Roll.",
+      "try_it": "When do I spellcast?",
+      "keywords": [
+        "Spellcast Rolls",
+        "spellcast",
+        "spellcast roll",
+        "spell roll",
+        "cast a spell",
+        "traits",
+        "attack-rolls",
+        "temporary-effects"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "core-roll"
+  },
+  {
     "id": "evasion",
     "title": "Evasion",
     "tag": "official",
@@ -1881,6 +2117,228 @@
     },
     "canon_status": "#rules-canon",
     "category": "mechanic"
+  },
+  {
+    "id": "proficiency",
+    "title": "Proficiency",
+    "tag": "official",
+    "summary": "The number that sets how many damage dice a PC rolls with weapons and many damaging features.",
+    "when": "Use after a successful PC attack or when a feature references Proficiency.",
+    "not_when": "Do not add Proficiency to the flat modifier unless the rule or feature specifically says so.",
+    "question": "How many damage dice?",
+    "answer": "Roll a number of damage dice equal to Proficiency, then add the listed modifier.",
+    "example": "A Proficiency 1 shortbow rolls one damage die; later advancement adds more dice.",
+    "related": [
+      "damage-rolls",
+      "attack-rolls"
+    ],
+    "aliases": [
+      "prof",
+      "damage dice",
+      "weapon dice"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "proficiency",
+      "mechanic_name": "Proficiency",
+      "aliases": [
+        "prof",
+        "damage dice",
+        "weapon dice"
+      ],
+      "pronunciation": "Proficiency",
+      "category": "character-sheet",
+      "canon_status": "#rules-canon",
+      "difficulty": "Beginner",
+      "dependencies": [
+        "damage-rolls",
+        "attack-rolls"
+      ],
+      "intro_stage": "Session Zero primer",
+      "related": [
+        "damage-rolls",
+        "attack-rolls"
+      ],
+      "what_it_is": "The number that sets how many damage dice a PC rolls with weapons and many damaging features.",
+      "why_it_matters": "Roll a number of damage dice equal to Proficiency, then add the listed modifier.",
+      "how_it_functions": "Use after a successful PC attack or when a feature references Proficiency.",
+      "p2p_note": "",
+      "template": "Proficiency: The number that sets how many damage dice a PC rolls with weapons and many damaging features.",
+      "step_by_step": [
+        "Use after a successful PC attack or when a feature references Proficiency.",
+        "Roll a number of damage dice equal to Proficiency, then add the listed modifier.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "A Proficiency 1 shortbow rolls one damage die; later advancement adds more dice.",
+      "scenario_story": "A Proficiency 1 shortbow rolls one damage die; later advancement adds more dice.",
+      "try_it": "How many damage dice?",
+      "keywords": [
+        "Proficiency",
+        "prof",
+        "damage dice",
+        "weapon dice",
+        "damage-rolls",
+        "attack-rolls"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "character-sheet"
+  },
+  {
+    "id": "unarmed-attacks",
+    "title": "Unarmed Attacks",
+    "tag": "official",
+    "summary": "Attacks without a weapon use Strength or Finesse and deal Proficiency d4 physical damage on a success.",
+    "when": "Use when a PC punches, kicks, tackles, or otherwise attacks without a listed weapon.",
+    "not_when": "Do not invent a larger damage die unless a feature or table ruling grants one.",
+    "question": "Can I hit them without a weapon?",
+    "answer": "Yes. Use Strength or Finesse as fits the fiction, then roll Proficiency d4 damage on a hit.",
+    "example": "Garrick shoulder-checks a skeleton away from the Custodian.",
+    "related": [
+      "attack-rolls",
+      "strength",
+      "finesse",
+      "proficiency"
+    ],
+    "aliases": [
+      "unarmed",
+      "punch",
+      "kick",
+      "improvised punch"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "unarmed-attacks",
+      "mechanic_name": "Unarmed Attacks",
+      "aliases": [
+        "unarmed",
+        "punch",
+        "kick",
+        "improvised punch"
+      ],
+      "pronunciation": "Unarmed Attacks",
+      "category": "combat",
+      "canon_status": "#rules-canon",
+      "difficulty": "Intermediate",
+      "dependencies": [
+        "attack-rolls",
+        "strength",
+        "finesse",
+        "proficiency"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "attack-rolls",
+        "strength",
+        "finesse",
+        "proficiency"
+      ],
+      "what_it_is": "Attacks without a weapon use Strength or Finesse and deal Proficiency d4 physical damage on a success.",
+      "why_it_matters": "Yes. Use Strength or Finesse as fits the fiction, then roll Proficiency d4 damage on a hit.",
+      "how_it_functions": "Use when a PC punches, kicks, tackles, or otherwise attacks without a listed weapon.",
+      "p2p_note": "",
+      "template": "Unarmed Attacks: Attacks without a weapon use Strength or Finesse and deal Proficiency d4 physical damage on a success.",
+      "step_by_step": [
+        "Use when a PC punches, kicks, tackles, or otherwise attacks without a listed weapon.",
+        "Yes. Use Strength or Finesse as fits the fiction, then roll Proficiency d4 damage on a hit.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Garrick shoulder-checks a skeleton away from the Custodian.",
+      "scenario_story": "Garrick shoulder-checks a skeleton away from the Custodian.",
+      "try_it": "Can I hit them without a weapon?",
+      "keywords": [
+        "Unarmed Attacks",
+        "unarmed",
+        "punch",
+        "kick",
+        "improvised punch",
+        "attack-rolls",
+        "strength",
+        "finesse",
+        "proficiency"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "combat"
+  },
+  {
+    "id": "attack-of-opportunity",
+    "title": "Attack of Opportunity",
+    "tag": "official",
+    "summary": "A Warrior feature that punishes an adversary leaving Melee range.",
+    "when": "Use for Garrick when an adversary in Melee tries to leave that range.",
+    "not_when": "Do not grant it to every PC unless their sheet gives the feature.",
+    "question": "Can Garrick stop them leaving?",
+    "answer": "If the feature applies, make the reaction roll and choose the listed success effect from the sheet.",
+    "example": "Garrick cuts off a skeleton trying to slip past him toward the ritual.",
+    "related": [
+      "reaction-rolls",
+      "ranges",
+      "class-subclass"
+    ],
+    "aliases": [
+      "opportunity attack",
+      "leaving melee",
+      "warrior feature"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "attack-of-opportunity",
+      "mechanic_name": "Attack of Opportunity",
+      "aliases": [
+        "opportunity attack",
+        "leaving melee",
+        "warrior feature"
+      ],
+      "pronunciation": "Attack of Opportunity",
+      "category": "combat",
+      "canon_status": "#rules-canon",
+      "difficulty": "Intermediate",
+      "dependencies": [
+        "reaction-rolls",
+        "ranges",
+        "class-subclass"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "reaction-rolls",
+        "ranges",
+        "class-subclass"
+      ],
+      "what_it_is": "A Warrior feature that punishes an adversary leaving Melee range.",
+      "why_it_matters": "If the feature applies, make the reaction roll and choose the listed success effect from the sheet.",
+      "how_it_functions": "Use for Garrick when an adversary in Melee tries to leave that range.",
+      "p2p_note": "",
+      "template": "Attack of Opportunity: A Warrior feature that punishes an adversary leaving Melee range.",
+      "step_by_step": [
+        "Use for Garrick when an adversary in Melee tries to leave that range.",
+        "If the feature applies, make the reaction roll and choose the listed success effect from the sheet.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Garrick cuts off a skeleton trying to slip past him toward the ritual.",
+      "scenario_story": "Garrick cuts off a skeleton trying to slip past him toward the ritual.",
+      "try_it": "Can Garrick stop them leaving?",
+      "keywords": [
+        "Attack of Opportunity",
+        "opportunity attack",
+        "leaving melee",
+        "warrior feature",
+        "reaction-rolls",
+        "ranges",
+        "class-subclass"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "combat"
   },
   {
     "id": "damage-thresholds",
@@ -2149,12 +2607,12 @@
     "id": "short-rest",
     "title": "Short Rest",
     "tag": "official",
-    "summary": "About an hour to recover and prepare.",
+    "summary": "About an hour to recover and prepare; the GM gains 1d4 Fear.",
     "when": "Use at the Open Vale rest beat or similar downtime.",
     "not_when": "Do not use in the middle of immediate danger.",
     "question": "What can I do on a short rest?",
-    "answer": "Tend Wounds, Clear Stress, Repair Armor, or Prepare.",
-    "example": "Before the ritual, each PC chooses two rest moves.",
+    "answer": "Each PC chooses two downtime moves. The GM gains 1d4 Fear, then play returns with refreshed pressure.",
+    "example": "Before the ritual, each PC chooses two rest moves and the GM takes downtime Fear.",
     "related": [
       "stress",
       "armor-slots",
@@ -2195,18 +2653,18 @@
         "armor-slots",
         "hope"
       ],
-      "what_it_is": "About an hour to recover and prepare.",
-      "why_it_matters": "Tend Wounds, Clear Stress, Repair Armor, or Prepare.",
+      "what_it_is": "About an hour to recover and prepare; the GM gains 1d4 Fear.",
+      "why_it_matters": "Each PC chooses two downtime moves. The GM gains 1d4 Fear, then play returns with refreshed pressure.",
       "how_it_functions": "Use at the Open Vale rest beat or similar downtime.",
       "p2p_note": "",
-      "template": "Short Rest: About an hour to recover and prepare.",
+      "template": "Short Rest: About an hour to recover and prepare; the GM gains 1d4 Fear.",
       "step_by_step": [
         "Use at the Open Vale rest beat or similar downtime.",
-        "Tend Wounds, Clear Stress, Repair Armor, or Prepare.",
+        "Each PC chooses two downtime moves. The GM gains 1d4 Fear, then play returns with refreshed pressure.",
         "Return to the fiction with the concrete result, cost, or benefit."
       ],
-      "scenario_generic": "Before the ritual, each PC chooses two rest moves.",
-      "scenario_story": "Before the ritual, each PC chooses two rest moves.",
+      "scenario_generic": "Before the ritual, each PC chooses two rest moves and the GM takes downtime Fear.",
+      "scenario_story": "Before the ritual, each PC chooses two rest moves and the GM takes downtime Fear.",
       "try_it": "What can I do on a short rest?",
       "keywords": [
         "Short Rest",
@@ -2506,6 +2964,158 @@
     "category": "mechanic"
   },
   {
+    "id": "falling-collision",
+    "title": "Falling / Collision Damage",
+    "tag": "official",
+    "summary": "SRD guidance for falls and dangerous-speed collisions.",
+    "when": "Use when a fall or collision is a real consequence already established in the fiction.",
+    "not_when": "Do not spring it as surprise punishment; make lethal stakes clear before the action resolves.",
+    "question": "How much damage is the fall?",
+    "answer": "Use the SRD fall/collision guide and scale it to the range, speed, and established danger.",
+    "example": "A fall from a ritual platform is damage only if the table already understands the drop is dangerous.",
+    "related": [
+      "ranges",
+      "damage-rolls",
+      "hp"
+    ],
+    "aliases": [
+      "falling",
+      "fall damage",
+      "collision",
+      "crash",
+      "dangerous speed"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "falling-collision",
+      "mechanic_name": "Falling / Collision Damage",
+      "aliases": [
+        "falling",
+        "fall damage",
+        "collision",
+        "crash",
+        "dangerous speed"
+      ],
+      "pronunciation": "Falling / Collision Damage",
+      "category": "gm-tool",
+      "canon_status": "#rules-canon",
+      "difficulty": "Intermediate",
+      "dependencies": [
+        "ranges",
+        "damage-rolls",
+        "hp"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "ranges",
+        "damage-rolls",
+        "hp"
+      ],
+      "what_it_is": "SRD guidance for falls and dangerous-speed collisions.",
+      "why_it_matters": "Use the SRD fall/collision guide and scale it to the range, speed, and established danger.",
+      "how_it_functions": "Use when a fall or collision is a real consequence already established in the fiction.",
+      "p2p_note": "",
+      "template": "Falling / Collision Damage: SRD guidance for falls and dangerous-speed collisions.",
+      "step_by_step": [
+        "Use when a fall or collision is a real consequence already established in the fiction.",
+        "Use the SRD fall/collision guide and scale it to the range, speed, and established danger.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "A fall from a ritual platform is damage only if the table already understands the drop is dangerous.",
+      "scenario_story": "A fall from a ritual platform is damage only if the table already understands the drop is dangerous.",
+      "try_it": "How much damage is the fall?",
+      "keywords": [
+        "Falling / Collision Damage",
+        "falling",
+        "fall damage",
+        "collision",
+        "crash",
+        "dangerous speed",
+        "ranges",
+        "damage-rolls",
+        "hp"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "gm-tool"
+  },
+  {
+    "id": "fate-rolls",
+    "title": "Fate Rolls",
+    "tag": "official",
+    "summary": "A one-die roll when the GM leaves an outcome entirely to chance.",
+    "when": "Use when the PCs are not directly causing the result but chance should decide a detail.",
+    "not_when": "Do not use it to dodge a player-facing action roll or hide stakes.",
+    "question": "Can we just see what chance says?",
+    "answer": "Name the stakes first, then roll one Duality Die and interpret it openly.",
+    "example": "Roll a Fear Die to set how soon off-screen reinforcements arrive.",
+    "related": [
+      "duality-dice",
+      "gm-moves",
+      "countdown"
+    ],
+    "aliases": [
+      "fate roll",
+      "chance roll",
+      "luck roll"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "fate-rolls",
+      "mechanic_name": "Fate Rolls",
+      "aliases": [
+        "fate roll",
+        "chance roll",
+        "luck roll"
+      ],
+      "pronunciation": "Fate Rolls",
+      "category": "gm-tool",
+      "canon_status": "#rules-canon",
+      "difficulty": "Intermediate",
+      "dependencies": [
+        "duality-dice",
+        "gm-moves",
+        "countdown"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "duality-dice",
+        "gm-moves",
+        "countdown"
+      ],
+      "what_it_is": "A one-die roll when the GM leaves an outcome entirely to chance.",
+      "why_it_matters": "Name the stakes first, then roll one Duality Die and interpret it openly.",
+      "how_it_functions": "Use when the PCs are not directly causing the result but chance should decide a detail.",
+      "p2p_note": "",
+      "template": "Fate Rolls: A one-die roll when the GM leaves an outcome entirely to chance.",
+      "step_by_step": [
+        "Use when the PCs are not directly causing the result but chance should decide a detail.",
+        "Name the stakes first, then roll one Duality Die and interpret it openly.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "Roll a Fear Die to set how soon off-screen reinforcements arrive.",
+      "scenario_story": "Roll a Fear Die to set how soon off-screen reinforcements arrive.",
+      "try_it": "Can we just see what chance says?",
+      "keywords": [
+        "Fate Rolls",
+        "fate roll",
+        "chance roll",
+        "luck roll",
+        "duality-dice",
+        "gm-moves",
+        "countdown"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "gm-tool"
+  },
+  {
     "id": "conditions",
     "title": "Conditions",
     "tag": "official",
@@ -2569,6 +3179,86 @@
         "hidden",
         "restrained",
         "vulnerable"
+      ],
+      "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
+    },
+    "canon_status": "#rules-canon",
+    "category": "condition"
+  },
+  {
+    "id": "temporary-effects",
+    "title": "Temporary Effects",
+    "tag": "official",
+    "summary": "Temporary conditions or effects can be cleared through the listed move, feature text, natural end, or spell/Fear procedure.",
+    "when": "Use when a feature says an effect or condition is temporary.",
+    "not_when": "Do not create a new global condition just because an effect is temporary.",
+    "question": "How does temporary end?",
+    "answer": "Use the effect text first. If it is a temporary condition, clear it through the appropriate move or spotlight procedure.",
+    "example": "A temporary thorn restraint asks what action frees the trapped PC.",
+    "related": [
+      "conditions",
+      "action-roll",
+      "fear",
+      "spellcast-rolls"
+    ],
+    "aliases": [
+      "temporary",
+      "temporary tag",
+      "temporary condition",
+      "temporary effect"
+    ],
+    "key_number": "",
+    "source": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table.",
+    "mechanic_profile": {
+      "schema_version": "mechanic-profile-v1",
+      "mechanic_id": "temporary-effects",
+      "mechanic_name": "Temporary Effects",
+      "aliases": [
+        "temporary",
+        "temporary tag",
+        "temporary condition",
+        "temporary effect"
+      ],
+      "pronunciation": "Temporary Effects",
+      "category": "condition",
+      "canon_status": "#rules-canon",
+      "difficulty": "Intermediate",
+      "dependencies": [
+        "conditions",
+        "action-roll",
+        "fear",
+        "spellcast-rolls"
+      ],
+      "intro_stage": "Introduce at first use",
+      "related": [
+        "conditions",
+        "action-roll",
+        "fear",
+        "spellcast-rolls"
+      ],
+      "what_it_is": "Temporary conditions or effects can be cleared through the listed move, feature text, natural end, or spell/Fear procedure.",
+      "why_it_matters": "Use the effect text first. If it is a temporary condition, clear it through the appropriate move or spotlight procedure.",
+      "how_it_functions": "Use when a feature says an effect or condition is temporary.",
+      "p2p_note": "",
+      "template": "Temporary Effects: Temporary conditions or effects can be cleared through the listed move, feature text, natural end, or spell/Fear procedure.",
+      "step_by_step": [
+        "Use when a feature says an effect or condition is temporary.",
+        "Use the effect text first. If it is a temporary condition, clear it through the appropriate move or spotlight procedure.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ],
+      "scenario_generic": "A temporary thorn restraint asks what action frees the trapped PC.",
+      "scenario_story": "A temporary thorn restraint asks what action frees the trapped PC.",
+      "try_it": "How does temporary end?",
+      "keywords": [
+        "Temporary Effects",
+        "temporary",
+        "temporary tag",
+        "temporary condition",
+        "temporary effect",
+        "conditions",
+        "action-roll",
+        "fear",
+        "spellcast-rolls"
       ],
       "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
     },
@@ -3634,16 +4324,17 @@
     "id": "long-rest",
     "title": "Long Rest",
     "tag": "rules-canon",
-    "summary": "A deeper downtime recovery and reset structure used when the story has enough time.",
+    "summary": "Extended downtime recovery; the GM gains 1d4 plus the number of PCs in Fear and may advance a long-term countdown.",
     "when": "Use between adventures or when a sequel session gives the party real downtime.",
     "not_when": "Do not use during the one-shot climax unless the fiction actually grants extended safety.",
     "question": "Do we long rest?",
-    "answer": "Not during immediate danger. Use short rest inside the one-shot; save long rest for between-session recovery or continuation play.",
+    "answer": "Not during immediate danger. Use short rest inside the one-shot; save long rest for continuation play and long-term pressure.",
     "example": "After the epilogue, a future campaign could begin after a long rest and level-up decisions.",
     "related": [
       "short-rest",
       "level-up",
-      "domain-cards"
+      "domain-cards",
+      "countdown"
     ],
     "aliases": [
       "downtime",
@@ -3666,22 +4357,24 @@
       "dependencies": [
         "short-rest",
         "level-up",
-        "domain-cards"
+        "domain-cards",
+        "countdown"
       ],
       "intro_stage": "Introduce at first use",
       "related": [
         "short-rest",
         "level-up",
-        "domain-cards"
+        "domain-cards",
+        "countdown"
       ],
-      "what_it_is": "A deeper downtime recovery and reset structure used when the story has enough time.",
-      "why_it_matters": "Not during immediate danger. Use short rest inside the one-shot; save long rest for between-session recovery or continuation play.",
+      "what_it_is": "Extended downtime recovery; the GM gains 1d4 plus the number of PCs in Fear and may advance a long-term countdown.",
+      "why_it_matters": "Not during immediate danger. Use short rest inside the one-shot; save long rest for continuation play and long-term pressure.",
       "how_it_functions": "Use between adventures or when a sequel session gives the party real downtime.",
       "p2p_note": "",
-      "template": "Long Rest: A deeper downtime recovery and reset structure used when the story has enough time.",
+      "template": "Long Rest: Extended downtime recovery; the GM gains 1d4 plus the number of PCs in Fear and may advance a long-term countdown.",
       "step_by_step": [
         "Use between adventures or when a sequel session gives the party real downtime.",
-        "Not during immediate danger. Use short rest inside the one-shot; save long rest for between-session recovery or continuation play.",
+        "Not during immediate danger. Use short rest inside the one-shot; save long rest for continuation play and long-term pressure.",
         "Return to the fiction with the concrete result, cost, or benefit."
       ],
       "scenario_generic": "After the epilogue, a future campaign could begin after a long rest and level-up decisions.",
@@ -3693,7 +4386,8 @@
         "full rest",
         "short-rest",
         "level-up",
-        "domain-cards"
+        "domain-cards",
+        "countdown"
       ],
       "source_label": "Verified against local Daggerheart rules packet and Mechanic System Packet; paraphrased for table use."
     },

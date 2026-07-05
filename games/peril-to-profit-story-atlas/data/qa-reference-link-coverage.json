@@ -1757,7 +1757,7 @@
   ],
   "counts": {
     "entity_aliases_checked": 833,
-    "rule_aliases_checked": 196,
+    "rule_aliases_checked": 237,
     "html_unlinked_existing_references": 0,
     "obsidian_missing_notes": 0,
     "obsidian_missing_aliases": 0,

@@ -31,4 +31,4 @@ Cover room logistics, the GM role, the player role, and the shape of an in-perso
 Welcome everyone by name if possible. Say: I'm Kyle, he/him, and you can call me Kyle. I've been running TTRPGs for 15+ years, both in person and online. For Daggerheart, my style is story-first and roleplay-friendly: the mechanics are here to support the table's fun and help us resolve risky moments, not to make you memorize a rulebook. I play the world, frame scenes, make rulings, and help everyone get time in the spotlight. You play one character and tell me what they try to do. Before we begin, let's confirm end time, breaks, bathrooms, drinks, phone expectations, and any Mox house policies.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 3e727b67a24a1c34 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 3e727b67a24a1c34 | Source hash 6753a06c32e5dca07a19eb73

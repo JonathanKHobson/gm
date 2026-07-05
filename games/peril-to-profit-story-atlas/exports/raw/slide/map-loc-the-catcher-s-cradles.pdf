@@ -1,6 +1,6 @@
 %PDF-1.4
 1 0 obj
-<< /Length 2640 >>
+<< /Length 2643 >>
 stream
 BT
 /F1 10 Tf
@@ -40,9 +40,9 @@ T*
 T*
 (- Maptype: environment) Tj
 T*
-(- Sectionid: STORY) Tj
+(- Sectionid: MAPS) Tj
 T*
-(- Sectiontitle: Map Board) Tj
+(- Sectiontitle: Location Maps) Tj
 T*
 (- Title: The Catcher's Cradles Location Map) Tj
 T*
@@ -288,9 +288,9 @@ T*
 T*
 () Tj
 T*
-(Build 2026-06-23T21:40:58 | Content hash 5219506a754b677d | Source hash) Tj
+(Build 2026-07-05T12:33:16 | Content hash d74afd7e3ff4dfaf | Source hash) Tj
 T*
-(dac3370046ed077140fab2d6) Tj
+(6753a06c32e5dca07a19eb73) Tj
 T*
 () Tj
 T*
@@ -313,16 +313,16 @@ xref
 0 10
 0000000000 65535 f 
 0000000009 00000 n 
-0000002701 00000 n 
-0000002827 00000 n 
-0000006985 00000 n 
-0000007111 00000 n 
-0000009628 00000 n 
-0000009754 00000 n 
-0000009823 00000 n 
-0000009872 00000 n 
+0000002704 00000 n 
+0000002830 00000 n 
+0000006988 00000 n 
+0000007114 00000 n 
+0000009631 00000 n 
+0000009757 00000 n 
+0000009826 00000 n 
+0000009875 00000 n 
 trailer
 << /Size 10 /Root 8 0 R >>
 startxref
-9944
+9947
 %%EOF

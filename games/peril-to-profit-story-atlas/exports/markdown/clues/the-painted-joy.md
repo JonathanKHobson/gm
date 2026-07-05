@@ -43,4 +43,4 @@ Player-safe note: Glimpsed through the thorns: a hidden village painted in brigh
 - Visual Gallery: primary Primary wiki image primary assets/clue-images/the-painted-joy/profile_base.webp The Painted Joy primary wiki image visual. The Painted Joy: Primary wiki image. clue_visual_profile True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 83b43a20bc08687b | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 83b43a20bc08687b | Source hash 6753a06c32e5dca07a19eb73

@@ -54,4 +54,4 @@ Turn cargo into responsibility. The party starts paid to carry it; by Act Four t
 - Visual Assets: profile_base Item profile image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/keystone-asset/profile_base.png assets/item-images/keystone-asset/profile_base.webp ready Keystone Asset™ item illustration. Inside the sealed crate, packed in wax-paper and reassurance, sits a heavy grey stone the size of a loaf, warm to the touch, faintly humming, with a light deep inside it that is slowly going out.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 6b156329fecfd1c4 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 6b156329fecfd1c4 | Source hash 6753a06c32e5dca07a19eb73

@@ -311,7 +311,9 @@
       channel.className = "spotlight-channel";
       return;
     }
-    const open = readBoolState(SPOTLIGHT_PANEL_KEY, false);
+    const rail = channel.closest("[data-run-reference-rail]");
+    const dockedInOpenRail = !!(rail && rail.open);
+    const open = dockedInOpenRail || readBoolState(SPOTLIGHT_PANEL_KEY, false);
     const activeKey = active ? spotlightSeenKey(active) : (shouldDefer ? "deferred-spotlight" : "");
     let attention = false;
     if (hasActive && !open && activeKey) {
@@ -330,6 +332,7 @@
     channel.hidden = false;
     channel.className = [
       "spotlight-channel",
+      dockedInOpenRail ? "is-rail-docked" : "",
       open ? "is-open" : "is-collapsed",
       hasActive ? "has-active" : "",
       pendingCount ? "has-pending" : "",
@@ -674,6 +677,77 @@
     return entries;
   }
 
+  function quickCardStateKey(type, id, slideId = currentSlide()?.id || "") {
+    return `${slideId || "slide"}::${type || "card"}::${id || "card"}`;
+  }
+
+  function quickCardCollapsed(entry, type, id, slide = currentSlide()) {
+    if ((entry?.source || "") !== "scene") return false;
+    const key = quickCardStateKey(type, id, slide?.id || "");
+    return !state.expandedQuickCards?.[key];
+  }
+
+  function quickCardClasses(entry, type, id, slide = currentSlide(), extra = "") {
+    const classes = String(extra || "").split(/\s+/).filter(Boolean);
+    if (quickCardCollapsed(entry, type, id, slide)) classes.push("is-collapsed");
+    return classes.length ? ` ${classes.join(" ")}` : "";
+  }
+
+  function quickCardDataset(type, id, slide = currentSlide()) {
+    return `data-quick-card="${escapeAttr(type)}" data-quick-card-key="${escapeAttr(quickCardStateKey(type, id, slide?.id || ""))}"`;
+  }
+
+  function quickCardToggleMarkup(entry, type, id, slide = currentSlide()) {
+    const collapsed = quickCardCollapsed(entry, type, id, slide);
+    return `<button class="quick-card-toggle" type="button" data-quick-card-toggle aria-expanded="${collapsed ? "false" : "true"}">${collapsed ? "Open" : "Collapse"}</button>`;
+  }
+
+  function quickCardChannelFor(node) {
+    return node?.closest?.("[data-quick-card-channel]") || null;
+  }
+
+  function syncQuickCardChannelCache(node) {
+    const channel = quickCardChannelFor(node);
+    if (channel) channel.__renderedHtml = channel.innerHTML;
+  }
+
+  function renderStableQuickCardChannel(channel, nextHtml) {
+    if (!channel) return false;
+    const html = String(nextHtml || "");
+    if (channel.__renderedHtml === html) return false;
+    const channelScrollTop = channel.scrollTop;
+    const cardScrollTops = new Map();
+    channel.querySelectorAll("[data-quick-card-key]").forEach((card) => {
+      cardScrollTops.set(card.dataset.quickCardKey || "", card.scrollTop || 0);
+    });
+    channel.innerHTML = html;
+    channel.__renderedHtml = html;
+    channel.scrollTop = channelScrollTop;
+    if (cardScrollTops.size) {
+      channel.querySelectorAll("[data-quick-card-key]").forEach((card) => {
+        const key = card.dataset.quickCardKey || "";
+        if (cardScrollTops.has(key)) card.scrollTop = cardScrollTops.get(key) || 0;
+      });
+    }
+    return true;
+  }
+
+  function toggleQuickCard(button) {
+    const card = button.closest("[data-quick-card]");
+    if (!card) return;
+    const key = card.dataset.quickCardKey || "";
+    const collapsed = card.classList.toggle("is-collapsed");
+    button.setAttribute("aria-expanded", collapsed ? "false" : "true");
+    button.textContent = collapsed ? "Open" : "Collapse";
+    if (key) {
+      state.expandedQuickCards = { ...(state.expandedQuickCards || {}) };
+      if (collapsed) delete state.expandedQuickCards[key];
+      else state.expandedQuickCards[key] = Date.now();
+      saveState();
+    }
+    syncQuickCardChannelCache(card);
+  }
+
   function npcQuickCard(entry, slide) {
     const profile = entry.profile || {};
     const block = profile.block1 || {};
@@ -682,8 +756,8 @@
     const offers = (block.offers_players || []).slice(0, 3).map((item) => `<li>${escapeHtml(item)}</li>`).join("");
     const physical = npcPhysicalDescription(profile);
     const combat = npcCombatSummary(profile);
-    return `<section class="npc-quick-card" data-npc-card data-npc-id="${escapeAttr(id)}" data-source="${escapeAttr(entry.source)}">
-      <p class="npc-eyebrow"><span>NPC quick-card</span><span>${entry.source === "scene" ? "Scene entry" : "Summoned"}</span></p>
+    return `<section class="npc-quick-card${quickCardClasses(entry, "npc", id, slide)}" data-npc-card ${quickCardDataset("npc", id, slide)} data-npc-id="${escapeAttr(id)}" data-source="${escapeAttr(entry.source)}">
+      <p class="npc-eyebrow"><span>NPC quick-card</span><span>${entry.source === "scene" ? "Scene entry" : "Summoned"}</span>${quickCardToggleMarkup(entry, "npc", id, slide)}</p>
       <h2>${escapeHtml(npcName(profile))}</h2>
       <p class="npc-player-line">${escapeHtml(npcOneLine(profile))}</p>
       ${physical ? `<p class="npc-physical-line">${escapeHtml(physical)}</p>` : ""}
@@ -714,15 +788,15 @@
       const activeSpotlight = typeof activeSpotlightForSlide === "function" ? activeSpotlightForSlide(slide)?.active : null;
       const spotlightPriority = String(activeSpotlight?.priority || "").toLowerCase();
       if (clockCriticalActive() || ["high", "urgent", "critical"].includes(spotlightPriority)) {
-        channel.innerHTML = `<section class="npc-quick-card is-deferred" data-npc-card>
+        renderStableQuickCardChannel(channel, `<section class="npc-quick-card is-deferred" data-npc-card>
           <p class="npc-eyebrow"><span>NPC queued</span><span>${clockCriticalActive() ? "Clock priority" : "Spotlight priority"}</span></p>
           <h2>${entries.length} NPC quick-card${entries.length === 1 ? "" : "s"} waiting</h2>
           <p class="npc-player-line">Clear the higher-priority notice, then return here for role-first NPC context.</p>
-        </section>`;
+        </section>`);
         return;
       }
     }
-    channel.innerHTML = entries.map((entry) => npcQuickCard(entry, slide)).join("");
+    renderStableQuickCardChannel(channel, entries.map((entry) => npcQuickCard(entry, slide)).join(""));
   }
 
   function npcValueMarkup(value) {
@@ -994,8 +1068,8 @@
         </div>
         ${logged ? `<p class="faction-answer-log"><strong>Last answer:</strong> ${escapeHtml(logged.answer)}</p>` : ""}
       </details>` : "";
-    return `<section class="faction-quick-card" data-faction-card data-faction-id="${escapeAttr(id)}" data-source="${escapeAttr(entry.source)}">
-      <p class="npc-eyebrow"><span>Faction quick-card</span><span>${entry.source === "scene" ? "Scene entry" : "Summoned"}</span></p>
+    return `<section class="faction-quick-card${quickCardClasses(entry, "faction", id, slide)}" data-faction-card ${quickCardDataset("faction", id, slide)} data-faction-id="${escapeAttr(id)}" data-source="${escapeAttr(entry.source)}">
+      <p class="npc-eyebrow"><span>Faction quick-card</span><span>${entry.source === "scene" ? "Scene entry" : "Summoned"}</span>${quickCardToggleMarkup(entry, "faction", id, slide)}</p>
       <h2>${escapeHtml(factionName(profile))}</h2>
       <p class="faction-public-line">${escapeHtml(factionPublicFace(profile))}</p>
       ${imagine ? `<p class="faction-current-move"><strong>Imagine this like:</strong> ${escapeHtml(imagine)}</p>` : ""}
@@ -1026,15 +1100,15 @@
       const activeSpotlight = typeof activeSpotlightForSlide === "function" ? activeSpotlightForSlide(slide)?.active : null;
       const spotlightPriority = String(activeSpotlight?.priority || "").toLowerCase();
       if (clockCriticalActive() || ["high", "urgent", "critical"].includes(spotlightPriority)) {
-        channel.innerHTML = `<section class="faction-quick-card is-deferred" data-faction-card>
+        renderStableQuickCardChannel(channel, `<section class="faction-quick-card is-deferred" data-faction-card>
           <p class="npc-eyebrow"><span>Faction queued</span><span>${clockCriticalActive() ? "Clock priority" : "Spotlight priority"}</span></p>
           <h2>${entries.length} faction card${entries.length === 1 ? "" : "s"} waiting</h2>
           <p class="faction-public-line">Clear the higher-priority notice, then return here for role-first faction context.</p>
-        </section>`;
+        </section>`);
         return;
       }
     }
-    channel.innerHTML = entries.map((entry) => factionQuickCard(entry, slide)).join("");
+    renderStableQuickCardChannel(channel, entries.map((entry) => factionQuickCard(entry, slide)).join(""));
   }
 
   function factionValueMarkup(value) {
@@ -1268,8 +1342,8 @@
       locationVisualActionButton(id, "beat_arrival", "Show arrival beat"),
       locationVisualActionButton(id, "beat_detail", "Show detail beat"),
     ].filter(Boolean).join("");
-    return `<section class="location-quick-card" data-location-card data-location-id="${escapeAttr(id)}" data-source="${escapeAttr(entry.source)}">
-      <p class="npc-eyebrow"><span>Location quick-card</span><span>${entry.source === "scene" ? "Scene entry" : "Opened"}</span></p>
+    return `<section class="location-quick-card${quickCardClasses(entry, "location", id, slide)}" data-location-card ${quickCardDataset("location", id, slide)} data-location-id="${escapeAttr(id)}" data-source="${escapeAttr(entry.source)}">
+      <p class="npc-eyebrow"><span>Location quick-card</span><span>${entry.source === "scene" ? "Scene entry" : "Opened"}</span>${quickCardToggleMarkup(entry, "location", id, slide)}</p>
       <h2>${escapeHtml(locationName(profile))}</h2>
       <p class="location-public-line">${escapeHtml(locationOneLine(profile))}</p>
       ${imagine ? `<p class="location-current-pressure"><strong>Imagine this like:</strong> ${escapeHtml(imagine)}</p>` : ""}
@@ -1301,15 +1375,15 @@
       const activeSpotlight = typeof activeSpotlightForSlide === "function" ? activeSpotlightForSlide(slide)?.active : null;
       const spotlightPriority = String(activeSpotlight?.priority || "").toLowerCase();
       if (clockCriticalActive() || ["high", "urgent", "critical"].includes(spotlightPriority)) {
-        channel.innerHTML = `<section class="location-quick-card is-deferred" data-location-card>
+        renderStableQuickCardChannel(channel, `<section class="location-quick-card is-deferred" data-location-card>
           <p class="npc-eyebrow"><span>Location queued</span><span>${clockCriticalActive() ? "Clock priority" : "Spotlight priority"}</span></p>
           <h2>${entries.length} location card${entries.length === 1 ? "" : "s"} waiting</h2>
           <p class="location-public-line">Clear the higher-priority notice, then return here for place context.</p>
-        </section>`;
+        </section>`);
         return;
       }
     }
-    channel.innerHTML = entries.map((entry) => locationQuickCard(entry, slide)).join("");
+    renderStableQuickCardChannel(channel, entries.map((entry) => locationQuickCard(entry, slide)).join(""));
   }
 
   function locationValueMarkup(value) {
@@ -1523,8 +1597,8 @@
     const tell = itemTell(profile);
     const mechanics = block3.mechanics || block3.narrative_function || "";
     const imageButton = itemImagePayload(id) ? `<button type="button" data-item-visual-id="${escapeAttr(id)}">Show image</button>` : "";
-    return `<section class="item-quick-card" data-item-card data-item-id="${escapeAttr(id)}" data-source="${escapeAttr(entry.source)}">
-      <p class="npc-eyebrow"><span>Item quick-card</span><span>${entry.source === "scene" ? "Scene entry" : "Opened"}</span></p>
+    return `<section class="item-quick-card${quickCardClasses(entry, "item", id, slide)}" data-item-card ${quickCardDataset("item", id, slide)} data-item-id="${escapeAttr(id)}" data-source="${escapeAttr(entry.source)}">
+      <p class="npc-eyebrow"><span>Item quick-card</span><span>${entry.source === "scene" ? "Scene entry" : "Opened"}</span>${quickCardToggleMarkup(entry, "item", id, slide)}</p>
       <h2>${escapeHtml(itemName(profile))}</h2>
       <p class="item-public-line">${escapeHtml(first)}</p>
       <dl class="item-role-grid">
@@ -1556,15 +1630,15 @@
       const activeSpotlight = typeof activeSpotlightForSlide === "function" ? activeSpotlightForSlide(slide)?.active : null;
       const spotlightPriority = String(activeSpotlight?.priority || "").toLowerCase();
       if (clockCriticalActive() || ["high", "urgent", "critical"].includes(spotlightPriority)) {
-        channel.innerHTML = `<section class="item-quick-card is-deferred" data-item-card>
+        renderStableQuickCardChannel(channel, `<section class="item-quick-card is-deferred" data-item-card>
           <p class="npc-eyebrow"><span>Item queued</span><span>${clockCriticalActive() ? "Clock priority" : "Spotlight priority"}</span></p>
           <h2>${entries.length} item card${entries.length === 1 ? "" : "s"} waiting</h2>
           <p class="item-public-line">Clear the higher-priority notice, then return here for loot, prop, and asset context.</p>
-        </section>`;
+        </section>`);
         return;
       }
     }
-    channel.innerHTML = entries.map((entry) => itemQuickCard(entry, slide)).join("");
+    renderStableQuickCardChannel(channel, entries.map((entry) => itemQuickCard(entry, slide)).join(""));
   }
 
   function itemValueMarkup(value) {
@@ -1873,8 +1947,8 @@
     const imageButton = clueImagePayload(id) ? `<button type="button" data-clue-visual-id="${escapeAttr(id)}">Show image</button>` : "";
     const siblingList = (block4.sibling_clues || []).slice(0, 4).join(", ");
     const primaryRolls = cluePrimaryRolls(profile, 3).join(", ");
-    return `<section class="clue-quick-card ${isHidden ? "is-hidden-clue" : ""}" data-clue-card data-clue-id="${escapeAttr(id)}" data-source="${escapeAttr(entry.source)}">
-      <p class="npc-eyebrow"><span>${isHidden ? "Hidden clue" : "Clue board"}</span><span>${escapeHtml(tier || "OPTIONAL")}</span></p>
+    return `<section class="clue-quick-card${quickCardClasses(entry, "clue", id, slide, isHidden ? "is-hidden-clue" : "")}" data-clue-card ${quickCardDataset("clue", id, slide)} data-clue-id="${escapeAttr(id)}" data-source="${escapeAttr(entry.source)}">
+      <p class="npc-eyebrow"><span>${isHidden ? "Hidden clue" : "Clue board"}</span><span>${escapeHtml(tier || "OPTIONAL")}</span>${quickCardToggleMarkup(entry, "clue", id, slide)}</p>
       <h2>${escapeHtml(clueName(profile))}</h2>
       <p class="item-public-line">${escapeHtml(clueShow(profile))}</p>
       <dl class="item-role-grid">
@@ -1913,15 +1987,15 @@
       const activeSpotlight = typeof activeSpotlightForSlide === "function" ? activeSpotlightForSlide(slide)?.active : null;
       const spotlightPriority = String(activeSpotlight?.priority || "").toLowerCase();
       if (clockCriticalActive() || ["urgent", "critical"].includes(spotlightPriority)) {
-        channel.innerHTML = `<section class="clue-quick-card is-deferred" data-clue-card>
+        renderStableQuickCardChannel(channel, `<section class="clue-quick-card is-deferred" data-clue-card>
           <p class="npc-eyebrow"><span>Clues queued</span><span>${clockCriticalActive() ? "Clock priority" : "Spotlight priority"}</span></p>
           <h2>${entries.length} clue card${entries.length === 1 ? "" : "s"} waiting</h2>
           <p class="item-public-line">Clear the higher-priority notice, then return here for evidence and fallback rungs.</p>
-        </section>`;
+        </section>`);
         return;
       }
     }
-    channel.innerHTML = entries.map((entry) => clueQuickCard(entry, slide)).join("");
+    renderStableQuickCardChannel(channel, entries.map((entry) => clueQuickCard(entry, slide)).join(""));
   }
 
   function openClueProfile(id) {
@@ -2437,6 +2511,9 @@
       reset: resetSpotlights,
       pending: pendingSpotlightsByHalf,
       render: renderSpotlightChannel,
+    },
+    npcs: {
+      render: renderNpcChannel,
     },
     factions: {
       profiles: () => factionProfiles,
@@ -3711,14 +3788,20 @@
     const toggle = widget.querySelector("[data-run-quick-ref-toggle]");
     const reset = widget.querySelector("[data-run-quick-ref-reset]");
     const header = widget.querySelector("[data-run-quick-ref-drag]");
+    const fixedInRail = () => !!widget.closest("[data-run-reference-rail]");
     const apply = () => {
       widget.classList.toggle("is-collapsed", !!saved.collapsed);
       toggle?.setAttribute("aria-expanded", saved.collapsed ? "false" : "true");
-      if (saved.x != null && saved.y != null && !window.matchMedia("(max-width: 720px)").matches) {
+      if (!fixedInRail() && saved.x != null && saved.y != null && !window.matchMedia("(max-width: 720px)").matches) {
         widget.style.left = `${saved.x}px`;
         widget.style.top = `${saved.y}px`;
         widget.style.right = "auto";
         widget.style.bottom = "auto";
+      } else if (fixedInRail()) {
+        widget.style.left = "";
+        widget.style.top = "";
+        widget.style.right = "";
+        widget.style.bottom = "";
       }
     };
     toggle?.addEventListener("click", () => {
@@ -3739,7 +3822,7 @@
     });
     widget.querySelector("[data-run-quick-rule-search]")?.addEventListener("input", updateRunQuickRef);
     header?.addEventListener("pointerdown", (event) => {
-      if (window.matchMedia("(max-width: 720px)").matches || event.target.closest("button")) return;
+      if (fixedInRail() || window.matchMedia("(max-width: 720px)").matches || event.target.closest("button")) return;
       const rect = widget.getBoundingClientRect();
       const startX = event.clientX;
       const startY = event.clientY;
@@ -3758,8 +3841,83 @@
       header.addEventListener("pointerup", up);
       header.addEventListener("pointercancel", up);
     });
+    document.addEventListener("goldspire-run-reference-rail-toggled", apply);
     apply();
     updateRunQuickRef();
+  }
+
+  function setupRunReferenceRail() {
+    const rail = document.querySelector("[data-run-reference-rail]");
+    if (!rail) return;
+    const body = rail.querySelector(".run-reference-rail-body");
+    if (!body) return;
+    const key = rail.dataset.persistKey || "goldspire.referenceRail.open";
+    const saved = readJson(key, {});
+    const compact = window.matchMedia("(max-width: 920px)").matches;
+    const summary = rail.querySelector(".run-reference-summary");
+    const summaryControl = rail.querySelector(".run-reference-summary-control");
+    const topbar = document.querySelector(".run-topbar");
+    const floatingDock = document.createElement("div");
+    floatingDock.id = "run-floating-reference-dock";
+    document.body.appendChild(floatingDock);
+    const spotlight = document.querySelector("#spotlight-channel");
+    const hover = document.querySelector("#hover-card");
+    const quickRef = document.querySelector("[data-run-quick-ref]");
+    const quickCardChannels = ["#npc-channel", "#faction-channel", "#location-channel", "#item-channel", "#clue-channel"]
+      .map((selector) => document.querySelector(selector))
+      .filter(Boolean);
+    const firstQuickCardChannel = () => quickCardChannels.find((channel) => channel.parentElement === body) || quickCardChannels[0] || quickRef;
+    const syncTopbarOffset = () => {
+      const height = topbar ? Math.ceil(topbar.getBoundingClientRect().height) : 72;
+      document.documentElement.style.setProperty("--run-topbar-block-size", `${height}px`);
+      const hud = document.querySelector("[data-gm-hud].gm-dock");
+      const hudRect = hud ? hud.getBoundingClientRect() : null;
+      const railRect = rail.getBoundingClientRect();
+      const railTop = railRect.top || height + 12;
+      const hudTop = hudRect && hudRect.height ? hudRect.top : window.innerHeight - 150;
+      const railMax = Math.max(220, Math.floor(hudTop - railTop - 12));
+      rail.style.setProperty("--run-reference-rail-max-height", `${railMax}px`);
+    };
+    const syncSummary = () => {
+      if (summary) summary.setAttribute("aria-expanded", rail.open ? "true" : "false");
+      if (summaryControl) summaryControl.textContent = rail.open ? "Hide" : "Show";
+    };
+    const placeDocked = () => {
+      if (spotlight && body.firstElementChild !== spotlight) body.insertBefore(spotlight, body.firstElementChild);
+      if (hover && hover.parentElement !== body) body.insertBefore(hover, firstQuickCardChannel() || quickRef || null);
+      if (quickRef && quickRef.parentElement !== body) body.appendChild(quickRef);
+    };
+    const placeFloating = () => {
+      if (spotlight && spotlight.parentElement !== floatingDock) floatingDock.appendChild(spotlight);
+      if (quickRef && quickRef.parentElement !== floatingDock) floatingDock.appendChild(quickRef);
+      if (hover && hover.parentElement !== floatingDock) floatingDock.appendChild(hover);
+    };
+    const syncDocking = () => {
+      syncTopbarOffset();
+      if (rail.open) placeDocked();
+      else placeFloating();
+      syncSummary();
+      document.dispatchEvent(new CustomEvent("goldspire-run-reference-rail-toggled", { detail: { open: rail.open } }));
+    };
+    if (typeof saved.open === "boolean") {
+      rail.open = saved.open;
+    } else {
+      rail.open = !compact;
+    }
+    syncDocking();
+    rail.addEventListener("toggle", () => {
+      writeJson(key, { open: rail.open });
+      syncDocking();
+    });
+    window.addEventListener("resize", syncTopbarOffset, { passive: true });
+    window.addEventListener("scroll", syncTopbarOffset, { passive: true });
+    window.addEventListener("goldspire-run-slide-rendered", syncTopbarOffset);
+    requestAnimationFrame(syncTopbarOffset);
+    window.setTimeout(syncTopbarOffset, 250);
+    if ("ResizeObserver" in window && topbar) {
+      const observer = new ResizeObserver(syncTopbarOffset);
+      observer.observe(topbar);
+    }
   }
 
   function setupEntityHoverCards() {
@@ -3771,6 +3929,12 @@
     let activeTarget = null;
     let suppressedTarget = null;
     let suppressClearTimer = null;
+    const fixedInRail = () => !!card.closest("[data-run-reference-rail]");
+    const floatingTopBoundary = () => {
+      const topbar = document.querySelector(".run-topbar");
+      const bottom = topbar ? topbar.getBoundingClientRect().bottom : 0;
+      return Math.max(12, Math.ceil(bottom) + 12);
+    };
     const closeButton = () => '<button class="hover-card-close" type="button" data-hover-card-close aria-label="Close cue card">Close</button>';
     const fill = (entity) => {
       const tags = (entity.tags || []).map((tag) => `<span class="track-pill">${escapeHtml(tag)}</span>`).join(" ");
@@ -3848,22 +4012,51 @@
       decorateRunReferenceLinks(card);
     };
     const place = (target) => {
+      if (fixedInRail()) {
+        card.style.left = "";
+        card.style.top = "";
+        card.style.maxWidth = "";
+        card.style.maxHeight = "";
+        return;
+      }
       const r = target.getBoundingClientRect();
       const gap = 12;
+      const minTop = floatingTopBoundary();
       const maxW = Math.max(240, window.innerWidth - (gap * 2));
-      const maxH = Math.max(220, window.innerHeight - (gap * 2));
+      const maxH = Math.max(220, window.innerHeight - minTop - gap);
       card.style.maxWidth = `${maxW}px`;
       card.style.maxHeight = `${maxH}px`;
       const rect = card.getBoundingClientRect();
       const w = Math.min(rect.width || card.offsetWidth || 350, maxW);
       const h = Math.min(rect.height || card.offsetHeight || 260, maxH);
-      const left = Math.min(window.innerWidth - w - gap, Math.max(gap, r.left));
-      let top = r.bottom + 8;
-      if (top + h > window.innerHeight - gap) top = Math.max(gap, r.top - h - 8);
-      card.style.left = `${left}px`;
-      card.style.top = `${Math.min(window.innerHeight - h - gap, Math.max(gap, top))}px`;
+      const clampX = (value) => Math.min(window.innerWidth - w - gap, Math.max(gap, value));
+      const clampY = (value) => Math.min(window.innerHeight - h - gap, Math.max(minTop, value));
+      const safeTarget = {
+        left: r.left - 8,
+        right: r.right + 8,
+        top: r.top - 8,
+        bottom: r.bottom + 8,
+      };
+      const overlapsTarget = (left, top) => (
+        left < safeTarget.right
+        && left + w > safeTarget.left
+        && top < safeTarget.bottom
+        && top + h > safeTarget.top
+      );
+      const candidates = [
+        { left: clampX(r.left), top: r.bottom + 10 },
+        { left: clampX(r.left), top: r.top - h - 10 },
+        { left: r.right + 10, top: clampY(r.top) },
+        { left: r.left - w - 10, top: clampY(r.top) },
+        { left: clampX(r.right + 10), top: minTop },
+        { left: gap, top: clampY(r.bottom + 10) },
+      ].map((candidate) => ({ left: clampX(candidate.left), top: clampY(candidate.top) }));
+      const chosen = candidates.find((candidate) => !overlapsTarget(candidate.left, candidate.top)) || candidates[0];
+      card.style.left = `${chosen.left}px`;
+      card.style.top = `${chosen.top}px`;
     };
     const bringTargetIntoView = (target) => {
+      if (fixedInRail()) return;
       const r = target.getBoundingClientRect();
       const gap = 16;
       const offscreen = r.top < gap || r.left < gap || r.bottom > window.innerHeight - gap || r.right > window.innerWidth - gap;
@@ -3884,9 +4077,14 @@
       else if (rule) fillRule(rule);
       else fill(entity);
       card.scrollTop = 0;
-      card.style.left = "12px";
-      card.style.top = "12px";
+      if (!fixedInRail()) {
+        card.style.left = "12px";
+        card.style.top = `${floatingTopBoundary()}px`;
+      }
       card.classList.add("is-visible");
+      if (fixedInRail() && card.scrollIntoView) {
+        card.scrollIntoView({ block: "nearest", inline: "nearest" });
+      }
       if (pin) { pinned = true; card.classList.add("is-pinned"); }
       card.querySelectorAll("img").forEach((img) => {
         if (!img.complete) {
@@ -3908,6 +4106,10 @@
       activeTarget = null;
     };
     const handleReferenceEnter = (event) => {
+      if (suppressedTarget && !suppressedTarget.contains(event.target) && !card.contains(event.target)) {
+        clearTimeout(suppressClearTimer);
+        suppressedTarget = null;
+      }
       const target = event.target.closest("[data-entity], [data-mechanic], [data-takeaway-kind]");
       if (target && !pinned) open(target, false);
     };
@@ -3918,9 +4120,11 @@
       if (target && !pinned) open(target, false);
     });
     document.addEventListener("pointerout", (event) => {
+      if (fixedInRail()) return;
       if (pinned) return;
       const target = event.target.closest("[data-entity], [data-mechanic], [data-takeaway-kind]");
       if (!target) return;
+      if (event.relatedTarget && target.contains(event.relatedTarget)) return;
       if (target === suppressedTarget) {
         clearTimeout(suppressClearTimer);
         suppressedTarget = null;
@@ -3939,7 +4143,17 @@
     }, { passive: true });
     card.addEventListener("pointerenter", () => clearTimeout(hideTimer));
     card.addEventListener("pointerleave", () => {
+      if (fixedInRail()) return;
       if (!pinned) hideTimer = setTimeout(close, 500);
+    });
+    document.addEventListener("goldspire-run-reference-rail-toggled", () => {
+      if (!card.classList.contains("is-visible") || !activeTarget) return;
+      if (!fixedInRail()) {
+        card.style.left = "12px";
+        card.style.top = `${floatingTopBoundary()}px`;
+      }
+      place(activeTarget);
+      requestAnimationFrame(() => place(activeTarget));
     });
     document.addEventListener("click", (event) => {
       if (event.target.closest("[data-hover-card-close]")) {
@@ -3951,6 +4165,7 @@
       const target = event.target.closest("[data-entity], [data-mechanic], [data-takeaway-kind]");
       if (target) { event.preventDefault(); open(target, true); return; }
       if (!card.classList.contains("is-visible")) return;
+      if (fixedInRail()) return;
       if (!event.target.closest("#hover-card")) close();
     }, true);
     document.addEventListener("keydown", (event) => { if (event.key === "Escape" && card.classList.contains("is-visible")) close(true); });
@@ -3990,6 +4205,12 @@
 
   function bindStaticControls() {
     document.addEventListener("click", (event) => {
+      const quickCardToggle = event.target.closest("[data-quick-card-toggle]");
+      if (quickCardToggle) {
+        event.preventDefault();
+        toggleQuickCard(quickCardToggle);
+        return;
+      }
       const actionButton = event.target.closest("[data-run-action]");
       if (actionButton) handleAction(actionButton.dataset.runAction);
       const scrub = event.target.closest("[data-scrub-slide-id]");
@@ -4137,11 +4358,13 @@
     setupRunReferenceLinkSafety();
     bindStaticControls();
     bindKeyboard();
+    setupRunReferenceRail();
     setupRunQuickRef();
     setupEntityHoverCards();
     setupScrubberCue();
     window.addEventListener("goldspire-run-slide-rendered", renderSpotlightChannel);
     window.addEventListener("goldspire-run-beat-changed", renderSpotlightChannel);
+    document.addEventListener("goldspire-run-reference-rail-toggled", renderSpotlightChannel);
     window.addEventListener("goldspire-run-slide-rendered", renderFactionChannel);
     window.addEventListener("goldspire-run-beat-changed", renderFactionChannel);
     window.addEventListener("goldspire-run-slide-rendered", renderLocationChannel);

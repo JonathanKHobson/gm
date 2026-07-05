@@ -1,6 +1,6 @@
 %PDF-1.4
 1 0 obj
-<< /Length 2549 >>
+<< /Length 2552 >>
 stream
 BT
 /F1 10 Tf
@@ -40,9 +40,9 @@ T*
 T*
 (- Maptype: environment) Tj
 T*
-(- Sectionid: STORY) Tj
+(- Sectionid: MAPS) Tj
 T*
-(- Sectiontitle: Map Board) Tj
+(- Sectiontitle: Location Maps) Tj
 T*
 (- Title: The Fire Walk Location Map) Tj
 T*
@@ -276,9 +276,9 @@ T*
 T*
 () Tj
 T*
-(Build 2026-06-23T21:40:58 | Content hash 03c52cc9555fa018 | Source hash) Tj
+(Build 2026-07-05T12:33:16 | Content hash ecc7383ed146245d | Source hash) Tj
 T*
-(dac3370046ed077140fab2d6) Tj
+(6753a06c32e5dca07a19eb73) Tj
 T*
 () Tj
 T*
@@ -301,16 +301,16 @@ xref
 0 10
 0000000000 65535 f 
 0000000009 00000 n 
-0000002610 00000 n 
-0000002736 00000 n 
-0000006988 00000 n 
-0000007114 00000 n 
-0000009153 00000 n 
-0000009279 00000 n 
-0000009348 00000 n 
-0000009397 00000 n 
+0000002613 00000 n 
+0000002739 00000 n 
+0000006991 00000 n 
+0000007117 00000 n 
+0000009156 00000 n 
+0000009282 00000 n 
+0000009351 00000 n 
+0000009400 00000 n 
 trailer
 << /Size 10 /Root 8 0 R >>
 startxref
-9469
+9472
 %%EOF

@@ -7,7 +7,7 @@
   "title": "MAP-LOC-athervast - Athervast Location Map",
   "in_world_label": "Run Mode Slide Briefing",
   "brand_flag": "Run Mode",
-  "kicker": "Act Four: The Hanging Office",
+  "kicker": "Location Maps",
   "hook": "This distant capital reference is not part of the player route today.",
   "blocks": [
     {
@@ -29,8 +29,8 @@
   "featured": false,
   "handout_policy": "generate",
   "watermark": "Goldspire Story Atlas - slide:MAP-LOC-athervast",
-  "build_timestamp": "2026-06-23T21:40:58",
-  "source_content_hash": "dac3370046ed077140fab2d6",
-  "content_hash": "fab28d64d5e96fe9",
-  "generated_at": "2026-06-23T21:40:58"
+  "build_timestamp": "2026-07-05T12:33:16",
+  "source_content_hash": "6753a06c32e5dca07a19eb73",
+  "content_hash": "532810198e5f67bf",
+  "generated_at": "2026-07-05T12:33:16"
 }

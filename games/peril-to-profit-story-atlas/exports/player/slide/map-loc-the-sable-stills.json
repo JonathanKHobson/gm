@@ -7,7 +7,7 @@
   "title": "MAP-LOC-the-sable-stills - The Sable Stills Location Map",
   "in_world_label": "Run Mode Slide Briefing",
   "brand_flag": "Run Mode",
-  "kicker": "Map Board",
+  "kicker": "Location Maps",
   "hook": "The Sable Stills are warm, smoky, and sharper than they seem, turning old wood, strong drink, and local jokes into hospitality with teeth.",
   "blocks": [
     {
@@ -29,8 +29,8 @@
   "featured": false,
   "handout_policy": "generate",
   "watermark": "Goldspire Story Atlas - slide:MAP-LOC-the-sable-stills",
-  "build_timestamp": "2026-06-23T21:40:58",
-  "source_content_hash": "dac3370046ed077140fab2d6",
-  "content_hash": "2b5a9d4da71118eb",
-  "generated_at": "2026-06-23T21:40:58"
+  "build_timestamp": "2026-07-05T12:33:16",
+  "source_content_hash": "6753a06c32e5dca07a19eb73",
+  "content_hash": "0c09e182c8af5857",
+  "generated_at": "2026-07-05T12:33:16"
 }

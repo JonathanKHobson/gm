@@ -43,4 +43,4 @@ Gentle reset, care scene, or village truth.
 - Fullbody: assets/npc-images/mama-suet/fullbody_base.webp assets/npc-images/mama-suet/fullbody_chroma.webp assets/npc-images/mama-suet/fullbody_transparent.webp
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 768849376304a8e7 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 768849376304a8e7 | Source hash 6753a06c32e5dca07a19eb73

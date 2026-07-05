@@ -46,4 +46,4 @@ Player-safe note: Cold wax flecks that show a system trying to file reality into
 - Visual Gallery: primary Primary wiki image primary assets/clue-images/corporate-seal-wax-residue/profile_base.webp Corporate Seal Wax Residue primary wiki image visual. Corporate Seal Wax Residue: Primary wiki image. clue_visual_profile True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash f8ba895cc1bfbd6d | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash f8ba895cc1bfbd6d | Source hash 6753a06c32e5dca07a19eb73

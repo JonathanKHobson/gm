@@ -37,4 +37,4 @@ Lausa can date the cargo and wardline craft through old Mithril & Mortar lineage
 - Imagine It Like: Think a fantasy Home Depot that also quietly owns the demolition company, the contractor who builds your house and the termites, a megacorp with a mortar trowel.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 56706036193c8e5a | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 56706036193c8e5a | Source hash 6753a06c32e5dca07a19eb73

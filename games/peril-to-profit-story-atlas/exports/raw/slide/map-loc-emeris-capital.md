@@ -12,8 +12,8 @@ A walled city of honey-colored stone on the very lip of the great forest, where 
 - Id: MAP-LOC-emeris-capital
 - Type: map
 - Maptype: environment
-- Sectionid: STORY
-- Sectiontitle: Map Board
+- Sectionid: MAPS
+- Sectiontitle: Location Maps
 - Title: Emeris Location Map
 - Shorttitle: Emeris
 - Order: 850.2
@@ -45,4 +45,4 @@ A walled city of honey-colored stone on the very lip of the great forest, where 
 - Totalslides: 110
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash db319c670e78a960 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash f29a2a5984056d62 | Source hash 6753a06c32e5dca07a19eb73

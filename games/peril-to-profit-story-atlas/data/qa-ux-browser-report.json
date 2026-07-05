@@ -1,0 +1,542 @@
+{
+  "pass": true,
+  "generatedAt": "2026-07-05T20:28:42.455809+00:00",
+  "check_count": 62,
+  "issue_count": 0,
+  "checks": [
+    {
+      "name": "index.html has no horizontal overflow at 1366",
+      "ok": true,
+      "detail": "{\"title\": \"Peril to Profit: The Goldspire Messengers \\u00b7 GM Story Atlas\", \"noHorizontalOverflow\": true, \"visiblePromptLeakage\": [], \"rulesDrawerHidden\": true, \"devModeOff\": true, \"lightThemeDefault\": true, \"bodyBg\": \"rgba(0, 0, 0, 0)\", \"ledeRect\": null, \"ledeClipped\": false, \"entityImageFit\": null, \"mainImageFit\": \"contain\", \"iconButtonsMissingLabels\": 0, \"sectionDetails\": 223, \"path\": \"index.html\", \"viewport\": {\"width\": 1366, \"height\": 768}, \"errors\": [], \"screenshot\": \"/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/index-desktop.png\"}"
+    },
+    {
+      "name": "index.html has no visible prompt leakage",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "index.html keeps rules drawer hidden by default",
+      "ok": true,
+      "detail": "true"
+    },
+    {
+      "name": "index.html has Dev Mode off by default",
+      "ok": true,
+      "detail": "true"
+    },
+    {
+      "name": "index.html has no browser errors",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "index.html primary image uses contain fit",
+      "ok": true,
+      "detail": "contain"
+    },
+    {
+      "name": "index.html icon buttons are labeled",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "index.html has no horizontal overflow at 390",
+      "ok": true,
+      "detail": "{\"title\": \"Peril to Profit: The Goldspire Messengers \\u00b7 GM Story Atlas\", \"noHorizontalOverflow\": true, \"visiblePromptLeakage\": [], \"rulesDrawerHidden\": true, \"devModeOff\": true, \"lightThemeDefault\": true, \"bodyBg\": \"rgba(0, 0, 0, 0)\", \"ledeRect\": null, \"ledeClipped\": false, \"entityImageFit\": null, \"mainImageFit\": \"contain\", \"iconButtonsMissingLabels\": 0, \"sectionDetails\": 223, \"path\": \"index.html\", \"viewport\": {\"width\": 390, \"height\": 844}, \"errors\": [], \"screenshot\": \"/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/index-mobile.png\"}"
+    },
+    {
+      "name": "index.html has no visible prompt leakage",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "index.html keeps rules drawer hidden by default",
+      "ok": true,
+      "detail": "true"
+    },
+    {
+      "name": "index.html has Dev Mode off by default",
+      "ok": true,
+      "detail": "true"
+    },
+    {
+      "name": "index.html has no browser errors",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "index.html primary image uses contain fit",
+      "ok": true,
+      "detail": "contain"
+    },
+    {
+      "name": "index.html icon buttons are labeled",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "run.html?slide=S01-01 has no horizontal overflow at 1366",
+      "ok": true,
+      "detail": "{\"title\": \"Run Mode - Goldspire Story Atlas\", \"noHorizontalOverflow\": true, \"visiblePromptLeakage\": [], \"rulesDrawerHidden\": true, \"devModeOff\": true, \"lightThemeDefault\": true, \"bodyBg\": \"rgb(248, 245, 238)\", \"ledeRect\": null, \"ledeClipped\": false, \"entityImageFit\": null, \"mainImageFit\": null, \"iconButtonsMissingLabels\": 0, \"sectionDetails\": 0, \"path\": \"run.html?slide=S01-01\", \"viewport\": {\"width\": 1366, \"height\": 768}, \"errors\": [], \"screenshot\": \"/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/run-desktop.png\"}"
+    },
+    {
+      "name": "run.html?slide=S01-01 has no visible prompt leakage",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "run.html?slide=S01-01 keeps rules drawer hidden by default",
+      "ok": true,
+      "detail": "true"
+    },
+    {
+      "name": "run.html?slide=S01-01 has Dev Mode off by default",
+      "ok": true,
+      "detail": "true"
+    },
+    {
+      "name": "run.html?slide=S01-01 has no browser errors",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "run.html?slide=S01-01 icon buttons are labeled",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "pages/gm-dashboard.html has no horizontal overflow at 1366",
+      "ok": true,
+      "detail": "{\"title\": \"GM Dashboard \\u00b7 Goldspire Story Atlas\", \"noHorizontalOverflow\": true, \"visiblePromptLeakage\": [], \"rulesDrawerHidden\": true, \"devModeOff\": true, \"lightThemeDefault\": true, \"bodyBg\": \"rgba(0, 0, 0, 0)\", \"ledeRect\": null, \"ledeClipped\": false, \"entityImageFit\": null, \"mainImageFit\": null, \"iconButtonsMissingLabels\": 0, \"sectionDetails\": 6, \"path\": \"pages/gm-dashboard.html\", \"viewport\": {\"width\": 1366, \"height\": 768}, \"errors\": [], \"screenshot\": \"/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/dashboard-desktop.png\"}"
+    },
+    {
+      "name": "pages/gm-dashboard.html has no visible prompt leakage",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "pages/gm-dashboard.html keeps rules drawer hidden by default",
+      "ok": true,
+      "detail": "true"
+    },
+    {
+      "name": "pages/gm-dashboard.html has Dev Mode off by default",
+      "ok": true,
+      "detail": "true"
+    },
+    {
+      "name": "pages/gm-dashboard.html has no browser errors",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "pages/gm-dashboard.html icon buttons are labeled",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "pages/entities/garrick-reed.html has no horizontal overflow at 1024",
+      "ok": true,
+      "detail": "{\"title\": \"Garrick Reed \\u00b7 Goldspire Story Atlas\", \"noHorizontalOverflow\": true, \"visiblePromptLeakage\": [], \"rulesDrawerHidden\": true, \"devModeOff\": true, \"lightThemeDefault\": true, \"bodyBg\": \"rgba(0, 0, 0, 0)\", \"ledeRect\": {\"x\": 40.953125, \"y\": 413.109375, \"width\": 491.375, \"height\": 25.265625, \"scrollHeight\": 31, \"clientHeight\": 25}, \"ledeClipped\": false, \"entityImageFit\": \"contain\", \"mainImageFit\": null, \"iconButtonsMissingLabels\": 0, \"sectionDetails\": 17, \"path\": \"pages/entities/garrick-reed.html\", \"viewport\": {\"width\": 1024, \"height\": 768}, \"errors\": [], \"screenshot\": \"/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/garrick-tablet.png\"}"
+    },
+    {
+      "name": "pages/entities/garrick-reed.html has no visible prompt leakage",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "pages/entities/garrick-reed.html keeps rules drawer hidden by default",
+      "ok": true,
+      "detail": "true"
+    },
+    {
+      "name": "pages/entities/garrick-reed.html has Dev Mode off by default",
+      "ok": true,
+      "detail": "true"
+    },
+    {
+      "name": "pages/entities/garrick-reed.html has no browser errors",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "pages/entities/garrick-reed.html lede is not clipped",
+      "ok": true,
+      "detail": "{\"x\": 40.953125, \"y\": 413.109375, \"width\": 491.375, \"height\": 25.265625, \"scrollHeight\": 31, \"clientHeight\": 25}"
+    },
+    {
+      "name": "pages/entities/garrick-reed.html portrait uses contain fit",
+      "ok": true,
+      "detail": "contain"
+    },
+    {
+      "name": "pages/entities/garrick-reed.html icon buttons are labeled",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "pages/entities/garrick-reed.html has no horizontal overflow at 390",
+      "ok": true,
+      "detail": "{\"title\": \"Garrick Reed \\u00b7 Goldspire Story Atlas\", \"noHorizontalOverflow\": true, \"visiblePromptLeakage\": [], \"rulesDrawerHidden\": true, \"devModeOff\": true, \"lightThemeDefault\": true, \"bodyBg\": \"rgba(0, 0, 0, 0)\", \"ledeRect\": {\"x\": 16, \"y\": 493.390625, \"width\": 358, \"height\": 50.53125, \"scrollHeight\": 51, \"clientHeight\": 51}, \"ledeClipped\": false, \"entityImageFit\": \"contain\", \"mainImageFit\": null, \"iconButtonsMissingLabels\": 0, \"sectionDetails\": 17, \"path\": \"pages/entities/garrick-reed.html\", \"viewport\": {\"width\": 390, \"height\": 844}, \"errors\": [], \"screenshot\": \"/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/garrick-mobile.png\"}"
+    },
+    {
+      "name": "pages/entities/garrick-reed.html has no visible prompt leakage",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "pages/entities/garrick-reed.html keeps rules drawer hidden by default",
+      "ok": true,
+      "detail": "true"
+    },
+    {
+      "name": "pages/entities/garrick-reed.html has Dev Mode off by default",
+      "ok": true,
+      "detail": "true"
+    },
+    {
+      "name": "pages/entities/garrick-reed.html has no browser errors",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "pages/entities/garrick-reed.html lede is not clipped",
+      "ok": true,
+      "detail": "{\"x\": 16, \"y\": 493.390625, \"width\": 358, \"height\": 50.53125, \"scrollHeight\": 51, \"clientHeight\": 51}"
+    },
+    {
+      "name": "pages/entities/garrick-reed.html portrait uses contain fit",
+      "ok": true,
+      "detail": "contain"
+    },
+    {
+      "name": "pages/entities/garrick-reed.html icon buttons are labeled",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "pages/pc-cheat-sheet.html has no horizontal overflow at 1024",
+      "ok": true,
+      "detail": "{\"title\": \"PC Cheat Sheet \\u00b7 Goldspire Story Atlas\", \"noHorizontalOverflow\": true, \"visiblePromptLeakage\": [], \"rulesDrawerHidden\": true, \"devModeOff\": true, \"lightThemeDefault\": true, \"bodyBg\": \"rgba(0, 0, 0, 0)\", \"ledeRect\": null, \"ledeClipped\": false, \"entityImageFit\": null, \"mainImageFit\": null, \"iconButtonsMissingLabels\": 0, \"sectionDetails\": 2, \"path\": \"pages/pc-cheat-sheet.html\", \"viewport\": {\"width\": 1024, \"height\": 768}, \"errors\": [], \"screenshot\": \"/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/pc-cheat-sheet.png\"}"
+    },
+    {
+      "name": "pages/pc-cheat-sheet.html has no visible prompt leakage",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "pages/pc-cheat-sheet.html keeps rules drawer hidden by default",
+      "ok": true,
+      "detail": "true"
+    },
+    {
+      "name": "pages/pc-cheat-sheet.html has Dev Mode off by default",
+      "ok": true,
+      "detail": "true"
+    },
+    {
+      "name": "pages/pc-cheat-sheet.html has no browser errors",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "pages/pc-cheat-sheet.html icon buttons are labeled",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "pages/pronunciation-guide.html has no horizontal overflow at 768",
+      "ok": true,
+      "detail": "{\"title\": \"Pronunciation Guide \\u00b7 Goldspire Story Atlas\", \"noHorizontalOverflow\": true, \"visiblePromptLeakage\": [], \"rulesDrawerHidden\": true, \"devModeOff\": true, \"lightThemeDefault\": true, \"bodyBg\": \"rgba(0, 0, 0, 0)\", \"ledeRect\": null, \"ledeClipped\": false, \"entityImageFit\": null, \"mainImageFit\": null, \"iconButtonsMissingLabels\": 0, \"sectionDetails\": 0, \"path\": \"pages/pronunciation-guide.html\", \"viewport\": {\"width\": 768, \"height\": 900}, \"errors\": [], \"screenshot\": \"/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/pronunciation-guide.png\"}"
+    },
+    {
+      "name": "pages/pronunciation-guide.html has no visible prompt leakage",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "pages/pronunciation-guide.html keeps rules drawer hidden by default",
+      "ok": true,
+      "detail": "true"
+    },
+    {
+      "name": "pages/pronunciation-guide.html has Dev Mode off by default",
+      "ok": true,
+      "detail": "true"
+    },
+    {
+      "name": "pages/pronunciation-guide.html has no browser errors",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "pages/pronunciation-guide.html icon buttons are labeled",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "player-display.html?slide=S01-01 has no horizontal overflow at 1280",
+      "ok": true,
+      "detail": "{\"title\": \"Player Display - Goldspire Story Atlas\", \"noHorizontalOverflow\": true, \"visiblePromptLeakage\": [], \"rulesDrawerHidden\": true, \"devModeOff\": true, \"lightThemeDefault\": true, \"bodyBg\": \"rgb(5, 6, 7)\", \"ledeRect\": null, \"ledeClipped\": false, \"entityImageFit\": null, \"mainImageFit\": \"contain\", \"iconButtonsMissingLabels\": 0, \"sectionDetails\": 0, \"path\": \"player-display.html?slide=S01-01\", \"viewport\": {\"width\": 1280, \"height\": 720}, \"errors\": [], \"screenshot\": \"/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/player-display.png\"}"
+    },
+    {
+      "name": "player-display.html?slide=S01-01 has no visible prompt leakage",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "player-display.html?slide=S01-01 keeps rules drawer hidden by default",
+      "ok": true,
+      "detail": "true"
+    },
+    {
+      "name": "player-display.html?slide=S01-01 has Dev Mode off by default",
+      "ok": true,
+      "detail": "true"
+    },
+    {
+      "name": "player-display.html?slide=S01-01 has no browser errors",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "player-display.html?slide=S01-01 primary image uses contain fit",
+      "ok": true,
+      "detail": "contain"
+    },
+    {
+      "name": "player-display.html?slide=S01-01 icon buttons are labeled",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "Run Mode advances Player Display over BroadcastChannel",
+      "ok": true,
+      "detail": "{\n  \"beforeTitle\": \"Entering Sablewood\",\n  \"afterTitle\": \"Local Clues\",\n  \"advanced\": true,\n  \"errors\": [],\n  \"screenshots\": {\n    \"runMode\": \"/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/run-mode-desktop.png\",\n    \"playerDisplay\": \"/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/player-display-synced.png\"\n  }\n}"
+    }
+  ],
+  "pages": [
+    {
+      "title": "Peril to Profit: The Goldspire Messengers · GM Story Atlas",
+      "noHorizontalOverflow": true,
+      "visiblePromptLeakage": [],
+      "rulesDrawerHidden": true,
+      "devModeOff": true,
+      "lightThemeDefault": true,
+      "bodyBg": "rgba(0, 0, 0, 0)",
+      "ledeRect": null,
+      "ledeClipped": false,
+      "entityImageFit": null,
+      "mainImageFit": "contain",
+      "iconButtonsMissingLabels": 0,
+      "sectionDetails": 223,
+      "path": "index.html",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "errors": [],
+      "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/index-desktop.png"
+    },
+    {
+      "title": "Peril to Profit: The Goldspire Messengers · GM Story Atlas",
+      "noHorizontalOverflow": true,
+      "visiblePromptLeakage": [],
+      "rulesDrawerHidden": true,
+      "devModeOff": true,
+      "lightThemeDefault": true,
+      "bodyBg": "rgba(0, 0, 0, 0)",
+      "ledeRect": null,
+      "ledeClipped": false,
+      "entityImageFit": null,
+      "mainImageFit": "contain",
+      "iconButtonsMissingLabels": 0,
+      "sectionDetails": 223,
+      "path": "index.html",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "errors": [],
+      "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/index-mobile.png"
+    },
+    {
+      "title": "Run Mode - Goldspire Story Atlas",
+      "noHorizontalOverflow": true,
+      "visiblePromptLeakage": [],
+      "rulesDrawerHidden": true,
+      "devModeOff": true,
+      "lightThemeDefault": true,
+      "bodyBg": "rgb(248, 245, 238)",
+      "ledeRect": null,
+      "ledeClipped": false,
+      "entityImageFit": null,
+      "mainImageFit": null,
+      "iconButtonsMissingLabels": 0,
+      "sectionDetails": 0,
+      "path": "run.html?slide=S01-01",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "errors": [],
+      "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/run-desktop.png"
+    },
+    {
+      "title": "GM Dashboard · Goldspire Story Atlas",
+      "noHorizontalOverflow": true,
+      "visiblePromptLeakage": [],
+      "rulesDrawerHidden": true,
+      "devModeOff": true,
+      "lightThemeDefault": true,
+      "bodyBg": "rgba(0, 0, 0, 0)",
+      "ledeRect": null,
+      "ledeClipped": false,
+      "entityImageFit": null,
+      "mainImageFit": null,
+      "iconButtonsMissingLabels": 0,
+      "sectionDetails": 6,
+      "path": "pages/gm-dashboard.html",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "errors": [],
+      "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/dashboard-desktop.png"
+    },
+    {
+      "title": "Garrick Reed · Goldspire Story Atlas",
+      "noHorizontalOverflow": true,
+      "visiblePromptLeakage": [],
+      "rulesDrawerHidden": true,
+      "devModeOff": true,
+      "lightThemeDefault": true,
+      "bodyBg": "rgba(0, 0, 0, 0)",
+      "ledeRect": {
+        "x": 40.953125,
+        "y": 413.109375,
+        "width": 491.375,
+        "height": 25.265625,
+        "scrollHeight": 31,
+        "clientHeight": 25
+      },
+      "ledeClipped": false,
+      "entityImageFit": "contain",
+      "mainImageFit": null,
+      "iconButtonsMissingLabels": 0,
+      "sectionDetails": 17,
+      "path": "pages/entities/garrick-reed.html",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "errors": [],
+      "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/garrick-tablet.png"
+    },
+    {
+      "title": "Garrick Reed · Goldspire Story Atlas",
+      "noHorizontalOverflow": true,
+      "visiblePromptLeakage": [],
+      "rulesDrawerHidden": true,
+      "devModeOff": true,
+      "lightThemeDefault": true,
+      "bodyBg": "rgba(0, 0, 0, 0)",
+      "ledeRect": {
+        "x": 16,
+        "y": 493.390625,
+        "width": 358,
+        "height": 50.53125,
+        "scrollHeight": 51,
+        "clientHeight": 51
+      },
+      "ledeClipped": false,
+      "entityImageFit": "contain",
+      "mainImageFit": null,
+      "iconButtonsMissingLabels": 0,
+      "sectionDetails": 17,
+      "path": "pages/entities/garrick-reed.html",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "errors": [],
+      "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/garrick-mobile.png"
+    },
+    {
+      "title": "PC Cheat Sheet · Goldspire Story Atlas",
+      "noHorizontalOverflow": true,
+      "visiblePromptLeakage": [],
+      "rulesDrawerHidden": true,
+      "devModeOff": true,
+      "lightThemeDefault": true,
+      "bodyBg": "rgba(0, 0, 0, 0)",
+      "ledeRect": null,
+      "ledeClipped": false,
+      "entityImageFit": null,
+      "mainImageFit": null,
+      "iconButtonsMissingLabels": 0,
+      "sectionDetails": 2,
+      "path": "pages/pc-cheat-sheet.html",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "errors": [],
+      "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/pc-cheat-sheet.png"
+    },
+    {
+      "title": "Pronunciation Guide · Goldspire Story Atlas",
+      "noHorizontalOverflow": true,
+      "visiblePromptLeakage": [],
+      "rulesDrawerHidden": true,
+      "devModeOff": true,
+      "lightThemeDefault": true,
+      "bodyBg": "rgba(0, 0, 0, 0)",
+      "ledeRect": null,
+      "ledeClipped": false,
+      "entityImageFit": null,
+      "mainImageFit": null,
+      "iconButtonsMissingLabels": 0,
+      "sectionDetails": 0,
+      "path": "pages/pronunciation-guide.html",
+      "viewport": {
+        "width": 768,
+        "height": 900
+      },
+      "errors": [],
+      "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/pronunciation-guide.png"
+    },
+    {
+      "title": "Player Display - Goldspire Story Atlas",
+      "noHorizontalOverflow": true,
+      "visiblePromptLeakage": [],
+      "rulesDrawerHidden": true,
+      "devModeOff": true,
+      "lightThemeDefault": true,
+      "bodyBg": "rgb(5, 6, 7)",
+      "ledeRect": null,
+      "ledeClipped": false,
+      "entityImageFit": null,
+      "mainImageFit": "contain",
+      "iconButtonsMissingLabels": 0,
+      "sectionDetails": 0,
+      "path": "player-display.html?slide=S01-01",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "errors": [],
+      "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/player-display.png"
+    }
+  ],
+  "sync": {
+    "beforeTitle": "Entering Sablewood",
+    "afterTitle": "Local Clues",
+    "advanced": true,
+    "errors": [],
+    "screenshots": {
+      "runMode": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/run-mode-desktop.png",
+      "playerDisplay": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/player-display-synced.png"
+    }
+  }
+}

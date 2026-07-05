@@ -49,4 +49,4 @@ Tie the PDF's Open Vale material directly to the final ritual and to the Sablewo
 - Imagine It Like: An ancient sacred grove that a company slapped a logo on, like a holy site with a gift-shop sign. Think Stonehenge with a corporate naming-rights plaque nobody asked for.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 637d745e357c1966 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 637d745e357c1966 | Source hash 6753a06c32e5dca07a19eb73

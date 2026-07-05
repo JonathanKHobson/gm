@@ -4,10 +4,10 @@
   "kind": "slide",
   "id": "MAP-LOC-root-s-hollow",
   "title": "MAP-LOC-root-s-hollow - Root's Hollow Location Map",
-  "generated_at": "2026-06-23T21:40:58",
-  "build_timestamp": "2026-06-23T21:40:58",
-  "source_content_hash": "dac3370046ed077140fab2d6",
-  "content_hash": "c1369ba3c32e3022",
+  "generated_at": "2026-07-05T12:33:16",
+  "build_timestamp": "2026-07-05T12:33:16",
+  "source_content_hash": "6753a06c32e5dca07a19eb73",
+  "content_hash": "a30e280d1f638208",
   "sections": [
     {
       "title": "Player text",
@@ -23,8 +23,8 @@
         "Id: MAP-LOC-root-s-hollow",
         "Type: map",
         "Maptype: environment",
-        "Sectionid: STORY",
-        "Sectiontitle: Map Board",
+        "Sectionid: MAPS",
+        "Sectiontitle: Location Maps",
         "Title: Root's Hollow Location Map",
         "Shorttitle: Root's Hollow",
         "Order: 851.3",
@@ -59,7 +59,7 @@
     },
     {
       "title": "Export Stamp",
-      "body": "Build 2026-06-23T21:40:58 | Content hash c1369ba3c32e3022 | Source hash dac3370046ed077140fab2d6"
+      "body": "Build 2026-07-05T12:33:16 | Content hash a30e280d1f638208 | Source hash 6753a06c32e5dca07a19eb73"
     }
   ]
 }

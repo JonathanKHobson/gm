@@ -49,4 +49,4 @@ Use Sablewood as the umbrella wiki for every local route, settlement, creature, 
 - Imagine It Like: A gorgeous old-growth national park that a logistics company has 'improved' with toll booths and liability signage. Think redwoods plus a freight depot plus a lot of fine print.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash ebc25126c5d89691 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash ebc25126c5d89691 | Source hash 6753a06c32e5dca07a19eb73

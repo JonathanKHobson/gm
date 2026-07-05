@@ -44,4 +44,4 @@ Fire Solutions™: ahead of the flames. Heroic crews, fast wagons, and a retaine
 - Visual Gallery: primary Primary wiki image primary assets/logos/fire-solutions.webp Fire Solutions primary wiki image visual. Fire Solutions: Primary wiki image. image_gen True True faction-logo-source Faction logo faction-logo assets/entity-gallery/fire-solutions/faction-logo-source.webp Fire Solutions faction logo visual. Fire Solutions: Faction logo. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/logos/fire-solutions.webp faction-representative-source Representative scene faction-representative assets/entity-gallery/fire-solutions/faction-representative-source.webp Fire Solutions representative scene visual. Fire Solutions: Representative scene. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/representative/fire-solutions.png
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash ddbaf34f7266cbb5 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash ddbaf34f7266cbb5 | Source hash 6753a06c32e5dca07a19eb73

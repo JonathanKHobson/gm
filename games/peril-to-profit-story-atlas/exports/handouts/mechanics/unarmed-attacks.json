@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "unarmed-attacks",
+  "kind": "rule",
+  "title": "Unarmed Attacks",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "combat",
+  "hook": "Attacks without a weapon use Strength or Finesse and deal Proficiency d4 physical damage on a success.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Attacks without a weapon use Strength or Finesse and deal Proficiency d4 physical damage on a success."
+    },
+    {
+      "label": "How It Works",
+      "body": "Unarmed Attacks: Attacks without a weapon use Strength or Finesse and deal Proficiency d4 physical damage on a success."
+    },
+    {
+      "label": "Try It",
+      "body": "Can I hit them without a weapon?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use when a PC punches, kicks, tackles, or otherwise attacks without a listed weapon.",
+    "Yes. Use Strength or Finesse as fits the fiction, then roll Proficiency d4 damage on a hit.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:unarmed-attacks",
+  "build_timestamp": "2026-07-05T12:33:16",
+  "source_content_hash": "6753a06c32e5dca07a19eb73",
+  "content_hash": "171fb67986c1f896",
+  "generated_at": "2026-07-05T12:33:16"
+}

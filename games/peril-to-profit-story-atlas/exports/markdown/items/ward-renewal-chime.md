@@ -45,4 +45,4 @@ Player-safe note: A low tone felt in the teeth that tells the table the ward is 
 - Visual Gallery: primary Primary wiki image primary assets/entities/ward-renewal-chime.webp Ward Renewal Chime primary wiki image visual. Ward Renewal Chime: Primary wiki image. image_gen True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash b5058064c016908a | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash b5058064c016908a | Source hash 6753a06c32e5dca07a19eb73

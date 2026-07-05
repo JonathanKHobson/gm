@@ -7,7 +7,7 @@
   "title": "MAP-LOC-root-s-hollow - Root's Hollow Location Map",
   "in_world_label": "Run Mode Slide Briefing",
   "brand_flag": "Run Mode",
-  "kicker": "Map Board",
+  "kicker": "Location Maps",
   "hook": "Root's Hollow smells of tinctures, river water, and careful survival, a place where alchemists learn from Sablewood because they have to.",
   "blocks": [
     {
@@ -29,8 +29,8 @@
   "featured": false,
   "handout_policy": "generate",
   "watermark": "Goldspire Story Atlas - slide:MAP-LOC-root-s-hollow",
-  "build_timestamp": "2026-06-23T21:40:58",
-  "source_content_hash": "dac3370046ed077140fab2d6",
-  "content_hash": "3b60504063932fb1",
-  "generated_at": "2026-06-23T21:40:58"
+  "build_timestamp": "2026-07-05T12:33:16",
+  "source_content_hash": "6753a06c32e5dca07a19eb73",
+  "content_hash": "ad16d9974ba363be",
+  "generated_at": "2026-07-05T12:33:16"
 }

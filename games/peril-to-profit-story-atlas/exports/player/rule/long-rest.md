@@ -3,21 +3,21 @@
 Player Reference Card
 
 ## Hook
-A deeper downtime recovery and reset structure used when the story has enough time.
+Extended downtime recovery; the GM gains 1d4 plus the number of PCs in Fear and may advance a long-term countdown.
 
 ## What It Is
-A deeper downtime recovery and reset structure used when the story has enough time.
+Extended downtime recovery; the GM gains 1d4 plus the number of PCs in Fear and may advance a long-term countdown.
 
 ## How It Works
-Long Rest: A deeper downtime recovery and reset structure used when the story has enough time.
+Long Rest: Extended downtime recovery; the GM gains 1d4 plus the number of PCs in Fear and may advance a long-term countdown.
 
 ## Try It
 Do we long rest?
 
 ## You Could
 - Use between adventures or when a sequel session gives the party real downtime.
-- Not during immediate danger. Use short rest inside the one-shot; save long rest for between-session recovery or continuation play.
+- Not during immediate danger. Use short rest inside the one-shot; save long rest for continuation play and long-term pressure.
 - Return to the fiction with the concrete result, cost, or benefit.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 49cbcf53df348014 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 2b1de26053bbda27 | Source hash 6753a06c32e5dca07a19eb73

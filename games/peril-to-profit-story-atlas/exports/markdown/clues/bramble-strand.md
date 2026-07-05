@@ -46,4 +46,4 @@ Player-safe note: Thorny bramble tangled around the wheel, pointing beyond anima
 - Visual Gallery: primary Primary wiki image primary assets/clue-images/bramble-strand/profile_base.webp Bramble Strand primary wiki image visual. Bramble Strand: Primary wiki image. clue_visual_profile True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 5b333dbc9a26fc2d | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 5b333dbc9a26fc2d | Source hash 6753a06c32e5dca07a19eb73

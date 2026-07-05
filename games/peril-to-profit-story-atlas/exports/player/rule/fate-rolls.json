@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "fate-rolls",
+  "kind": "rule",
+  "title": "Fate Rolls",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "gm-tool",
+  "hook": "A one-die roll when the GM leaves an outcome entirely to chance.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "A one-die roll when the GM leaves an outcome entirely to chance."
+    },
+    {
+      "label": "How It Works",
+      "body": "Fate Rolls: A one-die roll when the GM leaves an outcome entirely to chance."
+    },
+    {
+      "label": "Try It",
+      "body": "Can we just see what chance says?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use when the PCs are not directly causing the result but chance should decide a detail.",
+    "Name the stakes first, then roll one Duality Die and interpret it openly.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:fate-rolls",
+  "build_timestamp": "2026-07-05T12:33:16",
+  "source_content_hash": "6753a06c32e5dca07a19eb73",
+  "content_hash": "c354bf367ee28ab0",
+  "generated_at": "2026-07-05T12:33:16"
+}

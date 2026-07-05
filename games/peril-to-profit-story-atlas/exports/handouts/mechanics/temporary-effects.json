@@ -1,0 +1,41 @@
+{
+  "schema_version": "story-atlas-player-handout-v1",
+  "available": true,
+  "status": "ready",
+  "id": "temporary-effects",
+  "kind": "rule",
+  "title": "Temporary Effects",
+  "in_world_label": "Player Reference Card",
+  "brand_flag": "Rules",
+  "kicker": "condition",
+  "hook": "Temporary conditions or effects can be cleared through the listed move, feature text, natural end, or spell/Fear procedure.",
+  "blocks": [
+    {
+      "label": "What It Is",
+      "body": "Temporary conditions or effects can be cleared through the listed move, feature text, natural end, or spell/Fear procedure."
+    },
+    {
+      "label": "How It Works",
+      "body": "Temporary Effects: Temporary conditions or effects can be cleared through the listed move, feature text, natural end, or spell/Fear procedure."
+    },
+    {
+      "label": "Try It",
+      "body": "How does temporary end?"
+    }
+  ],
+  "spec": [],
+  "affordances": [
+    "Use when a feature says an effect or condition is temporary.",
+    "Use the effect text first. If it is a temporary condition, clear it through the appropriate move or spotlight procedure.",
+    "Return to the fiction with the concrete result, cost, or benefit."
+  ],
+  "archetype": "mechanic.reference_card",
+  "disclosure_tier": "standard",
+  "featured": false,
+  "handout_policy": "generate",
+  "watermark": "Goldspire Story Atlas - rule:temporary-effects",
+  "build_timestamp": "2026-07-05T12:33:16",
+  "source_content_hash": "6753a06c32e5dca07a19eb73",
+  "content_hash": "90d0e3d7e9d1feff",
+  "generated_at": "2026-07-05T12:33:16"
+}

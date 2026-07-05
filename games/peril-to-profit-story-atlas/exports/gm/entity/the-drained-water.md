@@ -51,4 +51,4 @@ Use when players need a tangible handle on the scene's pressure.
 - Visual Assets: profile_base Clue evidence image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/the-drained-water/profile_base.png assets/clue-images/the-drained-water/profile_base.webp ready The Drained Water clue image. Hush looks freshly painted and warmly tended, but the little public board is crowded with service fees, late-payment ribbons, and household ledger slips marked again and again in outgoing ink.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 88f588aaffaf7abf | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 88f588aaffaf7abf | Source hash 6753a06c32e5dca07a19eb73

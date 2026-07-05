@@ -44,4 +44,4 @@ Player-safe note: Once, reroll a damage die and keep the higher.
 - Visual Gallery: primary Primary wiki image primary assets/entities/whetcord.webp Whetcord primary wiki image visual. Whetcord: Primary wiki image. fallback_type_icon True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 3696fa9ae2647888 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 3696fa9ae2647888 | Source hash 6753a06c32e5dca07a19eb73

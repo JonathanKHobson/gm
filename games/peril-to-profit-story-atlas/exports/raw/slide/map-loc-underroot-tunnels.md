@@ -12,8 +12,8 @@ A Progress Countdown-based traversal environment where finding entrances and nav
 - Id: MAP-LOC-underroot-tunnels
 - Type: map
 - Maptype: environment
-- Sectionid: STORY
-- Sectiontitle: Map Board
+- Sectionid: MAPS
+- Sectiontitle: Location Maps
 - Title: Underroot Tunnels Location Map
 - Shorttitle: Underroot Tunnels
 - Order: 850.5
@@ -45,4 +45,4 @@ A Progress Countdown-based traversal environment where finding entrances and nav
 - Totalslides: 110
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 4cd05a0dafc7587a | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash b95d2a96d02c4da3 | Source hash 6753a06c32e5dca07a19eb73

@@ -1,0 +1,703 @@
+{
+  "pass": true,
+  "check_count": 26,
+  "issue_count": 0,
+  "pages": [
+    {
+      "title": "Story Outline · Goldspire Story Atlas",
+      "hasRoot": true,
+      "hasSearch": true,
+      "hasFilter": true,
+      "entityLinks": 148,
+      "visibleCards": 42,
+      "contentImages": 0,
+      "nonIconImages": 0,
+      "hasOverflow": false,
+      "hasPromptLeak": false,
+      "hasSpeechControls": false,
+      "hasStoryboardGrid": false,
+      "label": "outline-desktop",
+      "path": "pages/story-outline.html",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-outline-desktop.png"
+    },
+    {
+      "title": "Story Outline · Goldspire Story Atlas",
+      "hasRoot": true,
+      "hasSearch": true,
+      "hasFilter": true,
+      "entityLinks": 148,
+      "visibleCards": 42,
+      "contentImages": 0,
+      "nonIconImages": 0,
+      "hasOverflow": false,
+      "hasPromptLeak": false,
+      "hasSpeechControls": false,
+      "hasStoryboardGrid": false,
+      "label": "outline-mobile",
+      "path": "pages/story-outline.html",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-outline-mobile.png"
+    },
+    {
+      "title": "Storyboard · Goldspire Story Atlas",
+      "hasRoot": true,
+      "hasSearch": true,
+      "hasFilter": true,
+      "entityLinks": 102,
+      "visibleCards": 49,
+      "contentImages": 49,
+      "nonIconImages": 49,
+      "hasOverflow": false,
+      "hasPromptLeak": false,
+      "hasSpeechControls": false,
+      "hasStoryboardGrid": true,
+      "label": "storyboard-desktop",
+      "path": "pages/storyboard.html",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-storyboard-desktop.png"
+    },
+    {
+      "title": "Story · Goldspire Story Atlas",
+      "hasRoot": true,
+      "hasSearch": true,
+      "hasFilter": true,
+      "entityLinks": 170,
+      "visibleCards": 28,
+      "contentImages": 0,
+      "nonIconImages": 0,
+      "hasOverflow": false,
+      "hasPromptLeak": false,
+      "hasSpeechControls": true,
+      "hasStoryboardGrid": false,
+      "label": "story-mobile",
+      "path": "pages/story.html",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-story-mobile.png"
+    }
+  ],
+  "checks": [
+    {
+      "name": "pages/story-outline.html renders story mode root at 1366",
+      "ok": true,
+      "detail": {
+        "title": "Story Outline · Goldspire Story Atlas",
+        "hasRoot": true,
+        "hasSearch": true,
+        "hasFilter": true,
+        "entityLinks": 148,
+        "visibleCards": 42,
+        "contentImages": 0,
+        "nonIconImages": 0,
+        "hasOverflow": false,
+        "hasPromptLeak": false,
+        "hasSpeechControls": false,
+        "hasStoryboardGrid": false,
+        "label": "outline-desktop",
+        "path": "pages/story-outline.html",
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-outline-desktop.png"
+      }
+    },
+    {
+      "name": "pages/story-outline.html has no horizontal overflow at 1366",
+      "ok": true,
+      "detail": {
+        "title": "Story Outline · Goldspire Story Atlas",
+        "hasRoot": true,
+        "hasSearch": true,
+        "hasFilter": true,
+        "entityLinks": 148,
+        "visibleCards": 42,
+        "contentImages": 0,
+        "nonIconImages": 0,
+        "hasOverflow": false,
+        "hasPromptLeak": false,
+        "hasSpeechControls": false,
+        "hasStoryboardGrid": false,
+        "label": "outline-desktop",
+        "path": "pages/story-outline.html",
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-outline-desktop.png"
+      }
+    },
+    {
+      "name": "pages/story-outline.html has search and filter at 1366",
+      "ok": true,
+      "detail": {
+        "title": "Story Outline · Goldspire Story Atlas",
+        "hasRoot": true,
+        "hasSearch": true,
+        "hasFilter": true,
+        "entityLinks": 148,
+        "visibleCards": 42,
+        "contentImages": 0,
+        "nonIconImages": 0,
+        "hasOverflow": false,
+        "hasPromptLeak": false,
+        "hasSpeechControls": false,
+        "hasStoryboardGrid": false,
+        "label": "outline-desktop",
+        "path": "pages/story-outline.html",
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-outline-desktop.png"
+      }
+    },
+    {
+      "name": "pages/story-outline.html has no visible prompt/dev leakage at 1366",
+      "ok": true,
+      "detail": {
+        "title": "Story Outline · Goldspire Story Atlas",
+        "hasRoot": true,
+        "hasSearch": true,
+        "hasFilter": true,
+        "entityLinks": 148,
+        "visibleCards": 42,
+        "contentImages": 0,
+        "nonIconImages": 0,
+        "hasOverflow": false,
+        "hasPromptLeak": false,
+        "hasSpeechControls": false,
+        "hasStoryboardGrid": false,
+        "label": "outline-desktop",
+        "path": "pages/story-outline.html",
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-outline-desktop.png"
+      }
+    },
+    {
+      "name": "pages/story-outline.html preserves wiki entity links at 1366",
+      "ok": true,
+      "detail": {
+        "title": "Story Outline · Goldspire Story Atlas",
+        "hasRoot": true,
+        "hasSearch": true,
+        "hasFilter": true,
+        "entityLinks": 148,
+        "visibleCards": 42,
+        "contentImages": 0,
+        "nonIconImages": 0,
+        "hasOverflow": false,
+        "hasPromptLeak": false,
+        "hasSpeechControls": false,
+        "hasStoryboardGrid": false,
+        "label": "outline-desktop",
+        "path": "pages/story-outline.html",
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-outline-desktop.png"
+      }
+    },
+    {
+      "name": "pages/story-outline.html keeps content images out of outline at 1366",
+      "ok": true,
+      "detail": {
+        "title": "Story Outline · Goldspire Story Atlas",
+        "hasRoot": true,
+        "hasSearch": true,
+        "hasFilter": true,
+        "entityLinks": 148,
+        "visibleCards": 42,
+        "contentImages": 0,
+        "nonIconImages": 0,
+        "hasOverflow": false,
+        "hasPromptLeak": false,
+        "hasSpeechControls": false,
+        "hasStoryboardGrid": false,
+        "label": "outline-desktop",
+        "path": "pages/story-outline.html",
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-outline-desktop.png"
+      }
+    },
+    {
+      "name": "pages/story-outline.html renders story mode root at 390",
+      "ok": true,
+      "detail": {
+        "title": "Story Outline · Goldspire Story Atlas",
+        "hasRoot": true,
+        "hasSearch": true,
+        "hasFilter": true,
+        "entityLinks": 148,
+        "visibleCards": 42,
+        "contentImages": 0,
+        "nonIconImages": 0,
+        "hasOverflow": false,
+        "hasPromptLeak": false,
+        "hasSpeechControls": false,
+        "hasStoryboardGrid": false,
+        "label": "outline-mobile",
+        "path": "pages/story-outline.html",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-outline-mobile.png"
+      }
+    },
+    {
+      "name": "pages/story-outline.html has no horizontal overflow at 390",
+      "ok": true,
+      "detail": {
+        "title": "Story Outline · Goldspire Story Atlas",
+        "hasRoot": true,
+        "hasSearch": true,
+        "hasFilter": true,
+        "entityLinks": 148,
+        "visibleCards": 42,
+        "contentImages": 0,
+        "nonIconImages": 0,
+        "hasOverflow": false,
+        "hasPromptLeak": false,
+        "hasSpeechControls": false,
+        "hasStoryboardGrid": false,
+        "label": "outline-mobile",
+        "path": "pages/story-outline.html",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-outline-mobile.png"
+      }
+    },
+    {
+      "name": "pages/story-outline.html has search and filter at 390",
+      "ok": true,
+      "detail": {
+        "title": "Story Outline · Goldspire Story Atlas",
+        "hasRoot": true,
+        "hasSearch": true,
+        "hasFilter": true,
+        "entityLinks": 148,
+        "visibleCards": 42,
+        "contentImages": 0,
+        "nonIconImages": 0,
+        "hasOverflow": false,
+        "hasPromptLeak": false,
+        "hasSpeechControls": false,
+        "hasStoryboardGrid": false,
+        "label": "outline-mobile",
+        "path": "pages/story-outline.html",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-outline-mobile.png"
+      }
+    },
+    {
+      "name": "pages/story-outline.html has no visible prompt/dev leakage at 390",
+      "ok": true,
+      "detail": {
+        "title": "Story Outline · Goldspire Story Atlas",
+        "hasRoot": true,
+        "hasSearch": true,
+        "hasFilter": true,
+        "entityLinks": 148,
+        "visibleCards": 42,
+        "contentImages": 0,
+        "nonIconImages": 0,
+        "hasOverflow": false,
+        "hasPromptLeak": false,
+        "hasSpeechControls": false,
+        "hasStoryboardGrid": false,
+        "label": "outline-mobile",
+        "path": "pages/story-outline.html",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-outline-mobile.png"
+      }
+    },
+    {
+      "name": "pages/story-outline.html preserves wiki entity links at 390",
+      "ok": true,
+      "detail": {
+        "title": "Story Outline · Goldspire Story Atlas",
+        "hasRoot": true,
+        "hasSearch": true,
+        "hasFilter": true,
+        "entityLinks": 148,
+        "visibleCards": 42,
+        "contentImages": 0,
+        "nonIconImages": 0,
+        "hasOverflow": false,
+        "hasPromptLeak": false,
+        "hasSpeechControls": false,
+        "hasStoryboardGrid": false,
+        "label": "outline-mobile",
+        "path": "pages/story-outline.html",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-outline-mobile.png"
+      }
+    },
+    {
+      "name": "pages/story-outline.html keeps content images out of outline at 390",
+      "ok": true,
+      "detail": {
+        "title": "Story Outline · Goldspire Story Atlas",
+        "hasRoot": true,
+        "hasSearch": true,
+        "hasFilter": true,
+        "entityLinks": 148,
+        "visibleCards": 42,
+        "contentImages": 0,
+        "nonIconImages": 0,
+        "hasOverflow": false,
+        "hasPromptLeak": false,
+        "hasSpeechControls": false,
+        "hasStoryboardGrid": false,
+        "label": "outline-mobile",
+        "path": "pages/story-outline.html",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-outline-mobile.png"
+      }
+    },
+    {
+      "name": "pages/storyboard.html renders story mode root at 1366",
+      "ok": true,
+      "detail": {
+        "title": "Storyboard · Goldspire Story Atlas",
+        "hasRoot": true,
+        "hasSearch": true,
+        "hasFilter": true,
+        "entityLinks": 102,
+        "visibleCards": 49,
+        "contentImages": 49,
+        "nonIconImages": 49,
+        "hasOverflow": false,
+        "hasPromptLeak": false,
+        "hasSpeechControls": false,
+        "hasStoryboardGrid": true,
+        "label": "storyboard-desktop",
+        "path": "pages/storyboard.html",
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-storyboard-desktop.png"
+      }
+    },
+    {
+      "name": "pages/storyboard.html has no horizontal overflow at 1366",
+      "ok": true,
+      "detail": {
+        "title": "Storyboard · Goldspire Story Atlas",
+        "hasRoot": true,
+        "hasSearch": true,
+        "hasFilter": true,
+        "entityLinks": 102,
+        "visibleCards": 49,
+        "contentImages": 49,
+        "nonIconImages": 49,
+        "hasOverflow": false,
+        "hasPromptLeak": false,
+        "hasSpeechControls": false,
+        "hasStoryboardGrid": true,
+        "label": "storyboard-desktop",
+        "path": "pages/storyboard.html",
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-storyboard-desktop.png"
+      }
+    },
+    {
+      "name": "pages/storyboard.html has search and filter at 1366",
+      "ok": true,
+      "detail": {
+        "title": "Storyboard · Goldspire Story Atlas",
+        "hasRoot": true,
+        "hasSearch": true,
+        "hasFilter": true,
+        "entityLinks": 102,
+        "visibleCards": 49,
+        "contentImages": 49,
+        "nonIconImages": 49,
+        "hasOverflow": false,
+        "hasPromptLeak": false,
+        "hasSpeechControls": false,
+        "hasStoryboardGrid": true,
+        "label": "storyboard-desktop",
+        "path": "pages/storyboard.html",
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-storyboard-desktop.png"
+      }
+    },
+    {
+      "name": "pages/storyboard.html has no visible prompt/dev leakage at 1366",
+      "ok": true,
+      "detail": {
+        "title": "Storyboard · Goldspire Story Atlas",
+        "hasRoot": true,
+        "hasSearch": true,
+        "hasFilter": true,
+        "entityLinks": 102,
+        "visibleCards": 49,
+        "contentImages": 49,
+        "nonIconImages": 49,
+        "hasOverflow": false,
+        "hasPromptLeak": false,
+        "hasSpeechControls": false,
+        "hasStoryboardGrid": true,
+        "label": "storyboard-desktop",
+        "path": "pages/storyboard.html",
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-storyboard-desktop.png"
+      }
+    },
+    {
+      "name": "pages/storyboard.html preserves wiki entity links at 1366",
+      "ok": true,
+      "detail": {
+        "title": "Storyboard · Goldspire Story Atlas",
+        "hasRoot": true,
+        "hasSearch": true,
+        "hasFilter": true,
+        "entityLinks": 102,
+        "visibleCards": 49,
+        "contentImages": 49,
+        "nonIconImages": 49,
+        "hasOverflow": false,
+        "hasPromptLeak": false,
+        "hasSpeechControls": false,
+        "hasStoryboardGrid": true,
+        "label": "storyboard-desktop",
+        "path": "pages/storyboard.html",
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-storyboard-desktop.png"
+      }
+    },
+    {
+      "name": "pages/storyboard.html shows visual storyboard cards",
+      "ok": true,
+      "detail": {
+        "title": "Storyboard · Goldspire Story Atlas",
+        "hasRoot": true,
+        "hasSearch": true,
+        "hasFilter": true,
+        "entityLinks": 102,
+        "visibleCards": 49,
+        "contentImages": 49,
+        "nonIconImages": 49,
+        "hasOverflow": false,
+        "hasPromptLeak": false,
+        "hasSpeechControls": false,
+        "hasStoryboardGrid": true,
+        "label": "storyboard-desktop",
+        "path": "pages/storyboard.html",
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-storyboard-desktop.png"
+      }
+    },
+    {
+      "name": "pages/story.html renders story mode root at 390",
+      "ok": true,
+      "detail": {
+        "title": "Story · Goldspire Story Atlas",
+        "hasRoot": true,
+        "hasSearch": true,
+        "hasFilter": true,
+        "entityLinks": 170,
+        "visibleCards": 28,
+        "contentImages": 0,
+        "nonIconImages": 0,
+        "hasOverflow": false,
+        "hasPromptLeak": false,
+        "hasSpeechControls": true,
+        "hasStoryboardGrid": false,
+        "label": "story-mobile",
+        "path": "pages/story.html",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-story-mobile.png"
+      }
+    },
+    {
+      "name": "pages/story.html has no horizontal overflow at 390",
+      "ok": true,
+      "detail": {
+        "title": "Story · Goldspire Story Atlas",
+        "hasRoot": true,
+        "hasSearch": true,
+        "hasFilter": true,
+        "entityLinks": 170,
+        "visibleCards": 28,
+        "contentImages": 0,
+        "nonIconImages": 0,
+        "hasOverflow": false,
+        "hasPromptLeak": false,
+        "hasSpeechControls": true,
+        "hasStoryboardGrid": false,
+        "label": "story-mobile",
+        "path": "pages/story.html",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-story-mobile.png"
+      }
+    },
+    {
+      "name": "pages/story.html has search and filter at 390",
+      "ok": true,
+      "detail": {
+        "title": "Story · Goldspire Story Atlas",
+        "hasRoot": true,
+        "hasSearch": true,
+        "hasFilter": true,
+        "entityLinks": 170,
+        "visibleCards": 28,
+        "contentImages": 0,
+        "nonIconImages": 0,
+        "hasOverflow": false,
+        "hasPromptLeak": false,
+        "hasSpeechControls": true,
+        "hasStoryboardGrid": false,
+        "label": "story-mobile",
+        "path": "pages/story.html",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-story-mobile.png"
+      }
+    },
+    {
+      "name": "pages/story.html has no visible prompt/dev leakage at 390",
+      "ok": true,
+      "detail": {
+        "title": "Story · Goldspire Story Atlas",
+        "hasRoot": true,
+        "hasSearch": true,
+        "hasFilter": true,
+        "entityLinks": 170,
+        "visibleCards": 28,
+        "contentImages": 0,
+        "nonIconImages": 0,
+        "hasOverflow": false,
+        "hasPromptLeak": false,
+        "hasSpeechControls": true,
+        "hasStoryboardGrid": false,
+        "label": "story-mobile",
+        "path": "pages/story.html",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-story-mobile.png"
+      }
+    },
+    {
+      "name": "pages/story.html preserves wiki entity links at 390",
+      "ok": true,
+      "detail": {
+        "title": "Story · Goldspire Story Atlas",
+        "hasRoot": true,
+        "hasSearch": true,
+        "hasFilter": true,
+        "entityLinks": 170,
+        "visibleCards": 28,
+        "contentImages": 0,
+        "nonIconImages": 0,
+        "hasOverflow": false,
+        "hasPromptLeak": false,
+        "hasSpeechControls": true,
+        "hasStoryboardGrid": false,
+        "label": "story-mobile",
+        "path": "pages/story.html",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-story-mobile.png"
+      }
+    },
+    {
+      "name": "pages/story.html exposes story read-aloud controls",
+      "ok": true,
+      "detail": {
+        "title": "Story · Goldspire Story Atlas",
+        "hasRoot": true,
+        "hasSearch": true,
+        "hasFilter": true,
+        "entityLinks": 170,
+        "visibleCards": 28,
+        "contentImages": 0,
+        "nonIconImages": 0,
+        "hasOverflow": false,
+        "hasPromptLeak": false,
+        "hasSpeechControls": true,
+        "hasStoryboardGrid": false,
+        "label": "story-mobile",
+        "path": "pages/story.html",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "screenshot": "/Users/kyle/Documents/My Games/Peril To Profit/dist/story-atlas/qa/screenshots/story-modes-story-mobile.png"
+      }
+    },
+    {
+      "name": "story outline search narrows visible cards",
+      "ok": true,
+      "detail": 5
+    },
+    {
+      "name": "story outline filter combines with search without crashing",
+      "ok": true,
+      "detail": 0
+    }
+  ]
+}

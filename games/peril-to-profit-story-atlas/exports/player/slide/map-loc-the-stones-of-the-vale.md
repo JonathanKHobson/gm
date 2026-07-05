@@ -16,4 +16,4 @@ The clearing's stones make the ward visible: blue seams, old cuts, moss-lit lane
 - Ask one practical question before acting.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash aca6777ad181eca9 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash aca6777ad181eca9 | Source hash 6753a06c32e5dca07a19eb73

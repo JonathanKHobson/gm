@@ -1,0 +1,49 @@
+{
+  "schema_version": "story-atlas-export-v1",
+  "variant": "gm",
+  "kind": "rule",
+  "id": "spellcast-rolls",
+  "title": "Spellcast Rolls",
+  "generated_at": "2026-07-05T12:33:16",
+  "build_timestamp": "2026-07-05T12:33:16",
+  "source_content_hash": "6753a06c32e5dca07a19eb73",
+  "content_hash": "f4d8798cd42465b6",
+  "sections": [
+    {
+      "title": "What it is",
+      "body": "Trait rolls using a character's Spellcast trait when a feature requires one."
+    },
+    {
+      "title": "How it works",
+      "body": "Use only when the feature, spell, or card calls for a Spellcast Roll."
+    },
+    {
+      "title": "Step by step",
+      "items": [
+        "Use only when the feature, spell, or card calls for a Spellcast Roll.",
+        "Use your Spellcast trait when the feature says to make a Spellcast Roll.",
+        "Return to the fiction with the concrete result, cost, or benefit."
+      ]
+    },
+    {
+      "title": "Try it",
+      "body": "When do I spellcast?"
+    },
+    {
+      "title": "Related rules",
+      "items": [
+        "traits",
+        "attack-rolls",
+        "temporary-effects"
+      ]
+    },
+    {
+      "title": "Source",
+      "body": "Official SRD / local quickstart reference. Use private full-rulebook material only at the table."
+    },
+    {
+      "title": "Export Stamp",
+      "body": "Build 2026-07-05T12:33:16 | Content hash f4d8798cd42465b6 | Source hash 6753a06c32e5dca07a19eb73"
+    }
+  ]
+}

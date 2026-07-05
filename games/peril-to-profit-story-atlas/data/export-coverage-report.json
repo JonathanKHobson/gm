@@ -1,6 +1,6 @@
 {
   "schema_version": "story-atlas-export-coverage-v1",
-  "generated_at": "2026-06-23T21:41:06",
+  "generated_at": "2026-07-05T12:39:43",
   "entities_by_type": {
     "pc": {
       "total": 5,
@@ -112,7 +112,7 @@
     "playerSafeProjection": 110
   },
   "player_handouts": {
-    "available": 403,
+    "available": 412,
     "featured": 11,
     "no_handout": 43,
     "by_archetype": {
@@ -120,7 +120,7 @@
       "faction.flyer": 21,
       "item.product_card": 54,
       "location.advisory": 40,
-      "mechanic.reference_card": 83,
+      "mechanic.reference_card": 92,
       "npc.contact_card": 40,
       "scene.briefing": 137
     }

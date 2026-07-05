@@ -45,4 +45,4 @@ Player-safe note: The ritual site produces more skeletons as an environmental Fe
 - Visual Gallery: primary Primary wiki image primary assets/clue-images/market-correction/profile_base.webp Market Correction primary wiki image visual. Market Correction: Primary wiki image. clue_visual_profile True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 686c8248fa3d0136 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 686c8248fa3d0136 | Source hash 6753a06c32e5dca07a19eb73

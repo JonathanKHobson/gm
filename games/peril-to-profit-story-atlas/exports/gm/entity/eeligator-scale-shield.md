@@ -54,4 +54,4 @@ Use when the scene needs a concrete object for players to inspect, carry, debate
 - Visual Assets: profile_base Item profile image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/eeligator-scale-shield/profile_base.png assets/item-images/eeligator-scale-shield/profile_base.webp ready Eeligator Scale Shield item illustration. A round shield of overlapping slick green-grey scales catches the light like river-water. It smells of deep water, mud, and old teeth.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 5dbd5e8b0fc2c6e1 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 5dbd5e8b0fc2c6e1 | Source hash 6753a06c32e5dca07a19eb73

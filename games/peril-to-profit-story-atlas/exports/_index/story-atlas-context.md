@@ -6,13 +6,13 @@ Whole-site GM/AI context export
 - Scenes: 27
 - Entities: 252
 - Slides: 110
-- Rules: 57
+- Rules: 66
 
 ## Coverage
-- Available: 403
+- Available: 412
 - Featured: 11
 - No Handout: 43
-- By Archetype: 28 21 54 40 83 40 137
+- By Archetype: 28 21 54 40 92 40 137
 
 ## Scene index
 - S00-01: The Job
@@ -320,11 +320,17 @@ Whole-site GM/AI context export
 - safety-tools: Safety Tools
 - advantage-disadvantage: Advantage / Disadvantage
 - help-an-ally: Help an Ally
+- group-action-rolls: Group Action Rolls
 - tag-team-roll: Tag Team Roll
 - gm-moves: GM Moves
 - adversary-spotlight: Spotlight
 - adversary-attacks: Adversary Attacks
+- attack-rolls: Attack Rolls
+- spellcast-rolls: Spellcast Rolls
 - evasion: Evasion
+- proficiency: Proficiency
+- unarmed-attacks: Unarmed Attacks
+- attack-of-opportunity: Attack of Opportunity
 - damage-thresholds: Damage Thresholds
 - hp: HP
 - armor-slots: Armor Slots
@@ -334,7 +340,10 @@ Whole-site GM/AI context export
 - report-choice: Report Choice
 - countdown: Countdown
 - ranges: Ranges
+- falling-collision: Falling / Collision Damage
+- fate-rolls: Fate Rolls
 - conditions: Conditions
+- temporary-effects: Temporary Effects
 - hidden: Hidden
 - restrained: Restrained
 - vulnerable: Vulnerable
@@ -357,4 +366,4 @@ Whole-site GM/AI context export
 - roll-slider: Roll Slider
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash db9d897ab087117a | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 55445f4953a93e5f | Source hash 6753a06c32e5dca07a19eb73

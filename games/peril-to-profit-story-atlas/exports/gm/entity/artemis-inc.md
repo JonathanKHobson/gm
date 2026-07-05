@@ -37,4 +37,4 @@ The strixwolf encounter and preserve danger are exactly the kind of fear Artemis
 - Imagine It Like: Think REI run by exclusive country-club elitists, a safari company that pays to keep the lions scary, a luxury wellness brand selling survival as a tier.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 94c1bfeeb25b66db | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 94c1bfeeb25b66db | Source hash 6753a06c32e5dca07a19eb73

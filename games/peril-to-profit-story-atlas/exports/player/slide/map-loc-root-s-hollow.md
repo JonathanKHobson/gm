@@ -16,4 +16,4 @@ Root's Hollow smells of tinctures, river water, and careful survival, a place wh
 - Ask one practical question before acting.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 3b60504063932fb1 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash ad16d9974ba363be | Source hash 6753a06c32e5dca07a19eb73

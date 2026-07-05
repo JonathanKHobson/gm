@@ -2,9 +2,9 @@
   "schema_version": "story-atlas-player-handout-pack-v1",
   "id": "player-handouts-featured",
   "count": 11,
-  "build_timestamp": "2026-06-23T21:40:58",
-  "source_content_hash": "dac3370046ed077140fab2d6",
-  "content_hash": "980bf5a74833ea04",
+  "build_timestamp": "2026-07-05T12:33:16",
+  "source_content_hash": "6753a06c32e5dca07a19eb73",
+  "content_hash": "a950cfe7a3d3b073",
   "handouts": [
     {
       "available": true,
@@ -49,8 +49,8 @@
         "pdf": "exports/player/entity/strixwolf-mother.pdf",
         "docx": "exports/player/entity/strixwolf-mother.docx"
       },
-      "build_timestamp": "2026-06-23T21:40:58",
-      "source_content_hash": "dac3370046ed077140fab2d6",
+      "build_timestamp": "2026-07-05T12:33:16",
+      "source_content_hash": "6753a06c32e5dca07a19eb73",
       "content_hash": "4793e79d1664a358"
     },
     {
@@ -96,8 +96,8 @@
         "pdf": "exports/player/entity/bramble-union.pdf",
         "docx": "exports/player/entity/bramble-union.docx"
       },
-      "build_timestamp": "2026-06-23T21:40:58",
-      "source_content_hash": "dac3370046ed077140fab2d6",
+      "build_timestamp": "2026-07-05T12:33:16",
+      "source_content_hash": "6753a06c32e5dca07a19eb73",
       "content_hash": "7652355798663a27"
     },
     {
@@ -147,8 +147,8 @@
         "pdf": "exports/player/entity/hush.pdf",
         "docx": "exports/player/entity/hush.docx"
       },
-      "build_timestamp": "2026-06-23T21:40:58",
-      "source_content_hash": "dac3370046ed077140fab2d6",
+      "build_timestamp": "2026-07-05T12:33:16",
+      "source_content_hash": "6753a06c32e5dca07a19eb73",
       "content_hash": "451e4b2318c41137"
     },
     {
@@ -190,8 +190,8 @@
         "pdf": "exports/player/entity/clover-co-op.pdf",
         "docx": "exports/player/entity/clover-co-op.docx"
       },
-      "build_timestamp": "2026-06-23T21:40:58",
-      "source_content_hash": "dac3370046ed077140fab2d6",
+      "build_timestamp": "2026-07-05T12:33:16",
+      "source_content_hash": "6753a06c32e5dca07a19eb73",
       "content_hash": "540b7ba717e5f60e"
     },
     {
@@ -250,8 +250,8 @@
         "pdf": "exports/player/entity/keystone-asset.pdf",
         "docx": "exports/player/entity/keystone-asset.docx"
       },
-      "build_timestamp": "2026-06-23T21:40:58",
-      "source_content_hash": "dac3370046ed077140fab2d6",
+      "build_timestamp": "2026-07-05T12:33:16",
+      "source_content_hash": "6753a06c32e5dca07a19eb73",
       "content_hash": "0a3aedb00cda5b1d"
     },
     {
@@ -301,8 +301,8 @@
         "pdf": "exports/player/entity/sablewoodtm-logistics-preserve.pdf",
         "docx": "exports/player/entity/sablewoodtm-logistics-preserve.docx"
       },
-      "build_timestamp": "2026-06-23T21:40:58",
-      "source_content_hash": "dac3370046ed077140fab2d6",
+      "build_timestamp": "2026-07-05T12:33:16",
+      "source_content_hash": "6753a06c32e5dca07a19eb73",
       "content_hash": "72ee071e8913ddb6"
     },
     {
@@ -350,8 +350,8 @@
         "pdf": "exports/player/rule/action-roll.pdf",
         "docx": "exports/player/rule/action-roll.docx"
       },
-      "build_timestamp": "2026-06-23T21:40:58",
-      "source_content_hash": "dac3370046ed077140fab2d6",
+      "build_timestamp": "2026-07-05T12:33:16",
+      "source_content_hash": "6753a06c32e5dca07a19eb73",
       "content_hash": "fa85346b4ce76a9a"
     },
     {
@@ -398,8 +398,8 @@
         "pdf": "exports/player/rule/duality-dice.pdf",
         "docx": "exports/player/rule/duality-dice.docx"
       },
-      "build_timestamp": "2026-06-23T21:40:58",
-      "source_content_hash": "dac3370046ed077140fab2d6",
+      "build_timestamp": "2026-07-05T12:33:16",
+      "source_content_hash": "6753a06c32e5dca07a19eb73",
       "content_hash": "d01712bb90f5c22f"
     },
     {
@@ -446,8 +446,8 @@
         "pdf": "exports/player/rule/hope.pdf",
         "docx": "exports/player/rule/hope.docx"
       },
-      "build_timestamp": "2026-06-23T21:40:58",
-      "source_content_hash": "dac3370046ed077140fab2d6",
+      "build_timestamp": "2026-07-05T12:33:16",
+      "source_content_hash": "6753a06c32e5dca07a19eb73",
       "content_hash": "4fc53f2cf8292530"
     },
     {
@@ -494,8 +494,8 @@
         "pdf": "exports/player/rule/conditions.pdf",
         "docx": "exports/player/rule/conditions.docx"
       },
-      "build_timestamp": "2026-06-23T21:40:58",
-      "source_content_hash": "dac3370046ed077140fab2d6",
+      "build_timestamp": "2026-07-05T12:33:16",
+      "source_content_hash": "6753a06c32e5dca07a19eb73",
       "content_hash": "384cb0c30fb86a7f"
     },
     {
@@ -537,8 +537,8 @@
         "pdf": "exports/player/slide/sz-00-standby.pdf",
         "docx": "exports/player/slide/sz-00-standby.docx"
       },
-      "build_timestamp": "2026-06-23T21:40:58",
-      "source_content_hash": "dac3370046ed077140fab2d6",
+      "build_timestamp": "2026-07-05T12:33:16",
+      "source_content_hash": "6753a06c32e5dca07a19eb73",
       "content_hash": "6ce660f0f60a53ae"
     }
   ]

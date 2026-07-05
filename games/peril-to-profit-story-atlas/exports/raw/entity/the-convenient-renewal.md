@@ -43,4 +43,4 @@ Player-safe note: The ward "happens" to fail exactly as the village's protection
 - Visual Gallery: primary Primary wiki image primary assets/clue-images/the-convenient-renewal/profile_base.webp The Convenient Renewal primary wiki image visual. The Convenient Renewal: Primary wiki image. clue_visual_profile True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 0f9e9a47de792887 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 0f9e9a47de792887 | Source hash 6753a06c32e5dca07a19eb73

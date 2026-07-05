@@ -1,6 +1,6 @@
 %PDF-1.4
 1 0 obj
-<< /Length 2482 >>
+<< /Length 2463 >>
 stream
 BT
 /F1 10 Tf
@@ -36,9 +36,9 @@ T*
 T*
 (- Maptype: environment) Tj
 T*
-(- Sectionid: ACT-FOUR) Tj
+(- Sectionid: MAPS) Tj
 T*
-(- Sectiontitle: Act Four: The Hanging Office) Tj
+(- Sectiontitle: Location Maps) Tj
 T*
 (- Title: Athervast Location Map) Tj
 T*
@@ -343,9 +343,9 @@ T*
 T*
 () Tj
 T*
-(Build 2026-06-23T21:40:58 | Content hash d1254ef105dc5267 | Source hash) Tj
+(Build 2026-07-05T12:33:16 | Content hash b9664ed94dd4298d | Source hash) Tj
 T*
-(dac3370046ed077140fab2d6) Tj
+(6753a06c32e5dca07a19eb73) Tj
 T*
 () Tj
 T*
@@ -368,18 +368,18 @@ xref
 0 12
 0000000000 65535 f 
 0000000009 00000 n 
-0000002543 00000 n 
-0000002670 00000 n 
-0000006720 00000 n 
-0000006847 00000 n 
-0000010967 00000 n 
-0000011094 00000 n 
-0000011390 00000 n 
-0000011517 00000 n 
-0000011592 00000 n 
-0000011642 00000 n 
+0000002524 00000 n 
+0000002651 00000 n 
+0000006701 00000 n 
+0000006828 00000 n 
+0000010948 00000 n 
+0000011075 00000 n 
+0000011371 00000 n 
+0000011498 00000 n 
+0000011573 00000 n 
+0000011623 00000 n 
 trailer
 << /Size 12 /Root 10 0 R >>
 startxref
-11715
+11696
 %%EOF

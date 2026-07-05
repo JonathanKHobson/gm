@@ -37,4 +37,4 @@ Broadsheets can call Bramble bandits and call Tamsin's death an animal attack be
 - Imagine It Like: Think Disney owning the only history book, a streaming service that re-cuts your memories, a Ministry of Truth with a marketing budget and a catchy jingle.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 763ab9445cd3c07c | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 763ab9445cd3c07c | Source hash 6753a06c32e5dca07a19eb73

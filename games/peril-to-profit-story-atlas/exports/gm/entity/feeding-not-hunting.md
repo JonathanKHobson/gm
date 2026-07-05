@@ -51,4 +51,4 @@ Use when players need a tangible handle on the scene's pressure.
 - Visual Assets: profile_base Clue evidence image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/feeding-not-hunting/profile_base.png assets/clue-images/feeding-not-hunting/profile_base.webp ready Feeding, Not Hunting clue image. It isn't guarding the body at all — it's nosing at droppings and scattered scat near the cargo, scavenging, uninterested in the corpse.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash dfc25f8de0c9a83e | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash dfc25f8de0c9a83e | Source hash 6753a06c32e5dca07a19eb73

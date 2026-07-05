@@ -1,6 +1,6 @@
 {
   "schema_version": "story-atlas-export-qa-report-v1",
-  "entries": 446,
+  "entries": 455,
   "warnings": [
     "entity:barnacle: wiki-voice tells ['\\\\bplayer-safe note\\\\b']",
     "entity:garrick-reed: wiki-voice tells ['\\\\bplayer-safe note\\\\b']",

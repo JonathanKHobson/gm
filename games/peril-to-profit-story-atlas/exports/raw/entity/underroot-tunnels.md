@@ -50,4 +50,4 @@ A Progress Countdown-based traversal environment where finding entrances and nav
 - Visual Gallery: primary Primary wiki image primary assets/location-visuals/underroot-tunnels/profile_scene_v02.webp Underroot Tunnels primary wiki image visual. Underroot Tunnels: Primary wiki image. location_visual_profile True True primary_map Top-down map location-map assets/location-visuals/underroot-tunnels/primary_map_v02.webp Underroot Tunnels top-down map visual. Underroot Tunnels: Top-down map. ready True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/location_visual_assets/underroot-tunnels/primary_map_v02.png
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 92accf6b1973c47d | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 92accf6b1973c47d | Source hash 6753a06c32e5dca07a19eb73

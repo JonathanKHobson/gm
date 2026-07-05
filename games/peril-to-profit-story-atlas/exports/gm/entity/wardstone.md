@@ -28,4 +28,4 @@ Use when the scene needs a concrete object for players to inspect, carry, debate
 - Search Loot: A chipped wardstone fragment is dangerous evidence: useful for study, risky near spellcasting, and valuable enough to invite custody claims.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 36b199b4cf7f77dc | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 36b199b4cf7f77dc | Source hash 6753a06c32e5dca07a19eb73

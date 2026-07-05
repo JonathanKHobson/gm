@@ -16,4 +16,4 @@ The canopy road feels like travel through the forest's memory: dim green light, 
 - Ask one practical question before acting.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 0caba50c08592386 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 02f15dd08b1e56ab | Source hash 6753a06c32e5dca07a19eb73

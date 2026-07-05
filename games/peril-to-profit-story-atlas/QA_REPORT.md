@@ -1268,154 +1268,6 @@ Rendered checks completed:
 - The rendered home contained no SVG references and no visible emoji UI.
 - Visual inspection confirmed distinct player-facing and GM-only blocks, readable text, and stable responsive layout.
 
-## Deepening Production QA
-
-Checks passed: **112 / 112**
-Checks failed: **0**
-
-Deepening production QA passed: entity wiki, GM state console, rules drawer, handouts, player display, robust pages, lore corrections, Obsidian mirror, raster assets, and browser evidence are all covered.
-
-- **PASS** - zero SVG files exist in final atlas package
-- **PASS** - zero SVG references remain in HTML, CSS, JS, JSON, Markdown, or pages
-- **PASS** - zero emoji remain as primary UI icon glyphs
-- **PASS** - every scene has a real raster Image Gen asset
-- **PASS** - every major entity has a real source-backed raster asset
-- **PASS** - type icons are raster assets, not emoji or SVG
-- **PASS** - required production pages exist
-- **PASS** - hero navigation uses production pages, not raw Markdown
-- **PASS** - hero navigation includes Browse the story
-- **PASS** - hero navigation includes Entity Wiki
-- **PASS** - hero navigation includes Player Display
-- **PASS** - hero navigation includes Handouts
-- **PASS** - hero navigation includes Session Zero
-- **PASS** - hero navigation includes GM Rules Drawer button
-- **PASS** - legend chip links to clue category
-- **PASS** - legend chip links to condition category
-- **PASS** - legend chip links to corporation category
-- **PASS** - legend chip links to creature category
-- **PASS** - legend chip links to enemy category
-- **PASS** - legend chip links to faction category
-- **PASS** - legend chip links to item category
-- **PASS** - legend chip links to location category
-- **PASS** - legend chip links to mechanic category
-- **PASS** - legend chip links to npc category
-- **PASS** - legend chip links to pc category
-- **PASS** - entity index category exists for clue
-- **PASS** - entity index category exists for condition
-- **PASS** - entity index category exists for corporation
-- **PASS** - entity index category exists for creature
-- **PASS** - entity index category exists for enemy
-- **PASS** - entity index category exists for faction
-- **PASS** - entity index category exists for item
-- **PASS** - entity index category exists for location
-- **PASS** - entity index category exists for mechanic
-- **PASS** - entity index category exists for npc
-- **PASS** - entity index category exists for pc
-- **PASS** - entity index lists every entity with thumbnail and link
-- **PASS** - entity index has search, filters, and sorting controls
-- **PASS** - every registered scene entity is clickable/hoverable on scene cards and scene pages
-- **PASS** - critical aliases are inline-linked on the main atlas
-- **PASS** - GM State Console field exists: strixwolf_outcome
-- **PASS** - GM State Console field exists: strixwolf_trust
-- **PASS** - GM State Console field exists: strixwolf_blood_debt
-- **PASS** - GM State Console field exists: bramble_outcome
-- **PASS** - GM State Console field exists: bramble_truth_learned
-- **PASS** - GM State Console field exists: hush_trust
-- **PASS** - GM State Console field exists: custodian_trust
-- **PASS** - GM State Console field exists: ward_stability
-- **PASS** - GM State Console field exists: report_choice
-- **PASS** - GM State Console persists to localStorage
-- **PASS** - conditional payoff notes are data-driven
-- **PASS** - act collapse, complete, and persistence are wired
-- **PASS** - scene collapse, complete, pin, and show-to-players controls are wired
-- **PASS** - dev-only toggles exist and default hidden
-- **PASS** - searchable GM Rules Drawer exists
-- **PASS** - print stylesheet remains present
-- **PASS** - internal prompt/status language is hidden behind dev-only UI
-- **PASS** - Handouts Hub includes required handouts
-- **PASS** - Player Display / TV Mode is player-safe by default
-- **PASS** - Player Display supports scene selection and fullscreen
-- **PASS** - Session Zero includes onboarding essentials
-- **PASS** - every scene has 2-4 player-facing questions
-- **PASS** - every scene has relationship prompts
-- **PASS** - every scene has a scene ownership prompt
-- **PASS** - every scene has class/ancestry/community reveal hooks
-- **PASS** - every scene has Fear spend ideas
-- **PASS** - every scene check has DCs and Hope/Fear outcomes
-- **PASS** - every entity has robust schema data
-- **PASS** - every entity page renders the robust schema
-- **PASS** - forbidden generic filler phrases are absent
-- **PASS** - Kazrak is framed as a peer megacorp, not parent/umbrella
-- **PASS** - Soulspire Solutions is the verified spelling in production output
-- **PASS** - Goldspire Territories are treated as frontier/extraction hinterland
-- **PASS** - Keystone Asset answers the wardstone/capital gate questions
-- **PASS** - Keystone page explains Athervast
-- **PASS** - Keystone page explains Emeris Capital Gate
-- **PASS** - Keystone page explains Wardstone
-- **PASS** - Keystone page explains Soulspire Solutions
-- **PASS** - Keystone page explains Public-Private Ward Compact
-- **PASS** - Keystone page explains Goldspire Ward Network
-- **PASS** - ward economy stack includes: creates/monetizes danger
-- **PASS** - ward economy stack includes: builds/maintains
-- **PASS** - ward economy stack includes: powers/skims
-- **PASS** - ward economy stack includes: guards/responds
-- **PASS** - ward economy stack includes: finances/insures
-- **PASS** - ward economy stack includes: holds the concession
-- **PASS** - ward economy stack includes: spins the story
-- **PASS** - ward economy stack includes: cheap consumer protection
-- **PASS** - Obsidian scene notes mirror deepening fields
-- **PASS** - Obsidian entity notes mirror robust schema
-- **PASS** - Obsidian vault includes Keystone Asset
-- **PASS** - Obsidian vault includes Wardstone
-- **PASS** - Obsidian vault includes Ward Infrastructure
-- **PASS** - Obsidian vault includes Public-Private Ward Compact
-- **PASS** - Obsidian vault includes Emeris Capital Gate
-- **PASS** - Obsidian vault includes Athervast
-- **PASS** - Obsidian vault includes Goldspire Ward Network
-- **PASS** - internal HTML links resolve
-- **PASS** - deepening browser QA report exists
-- **PASS** - browser QA confirms entityIndexLoaded
-- **PASS** - browser QA confirms legendCategoryNavigation
-- **PASS** - browser QA confirms rulesDrawerSearchWorks
-- **PASS** - browser QA confirms stateConsolePersists
-- **PASS** - browser QA confirms conditionalNoteAppears
-- **PASS** - browser QA confirms sceneCollapsePersists
-- **PASS** - browser QA confirms actCollapsePersists
-- **PASS** - browser QA confirms playerDisplayWorks
-- **PASS** - browser QA confirms noVisiblePromptLeakage
-- **PASS** - browser QA confirms noVisibleEmojiIcons
-- **PASS** - browser QA confirms noHorizontalOverflow
-- **PASS** - browser QA confirms imageContainFirst
-- **PASS** - browser QA confirms openImageWindowWorks
-
-## Dedicated Slideshow / Run Mode QA
-
-Checks passed: **248 / 248**
-Checks failed: **0**
-
-- `data/slides.json`, `run.html`, `player-display.html`, `player-follow.html`, and dedicated `js/` files are generated.
-- Browser QA covers next/previous, ArrowRight, shortcut suppression while typing, scrubber jumps, persistence, player-display sync, blackout, image/text reveal, copy fallback, and expansion dialogs.
-
-Detailed JSON: `data/qa-slideshow-report.json`.
-
-
-## Maps / Combat HUD / Next Move QA
-
-Checks passed: **103 / 103**
-
-Checks failed: **0**
-
-- Location maps generated: **40 / 40**.
-- Total map records: **47**.
-- Combat battlemap primaries verified: **5 / 5**.
-- Every primary map is declared as an AI-generated raster asset; combat maps use stricter AI-generated battlemap primaries where available.
-- Earlier AI map art is preserved as visual inspiration alternates; schematic boards are discreet reference alternates only.
-- Combat workspaces: **5**.
-- Fear spend menu is restricted to official spend categories.
-- Run Mode uses Encounter Cockpit language instead of fixed initiative bookkeeping.
-
-Detailed JSON: `data/qa-map-combat-hud-report.json`.
-
 ## Sablewood Lore Integration QA
 
 Checks passed: **23 / 23**
@@ -1444,41 +1296,64 @@ Checks failed: **0**
 - **PASS** - scene patches include Guest Privileges
 - **PASS** - scene patches include The Stones of the Vale
 
-## Mechanics / Session Zero / Loot / Dice Add-on QA
 
-Checks passed: **25 / 25**
-Checks failed: **0**
+## Maps / Combat HUD / Next Move QA
 
-- Session Zero section appears before Prologue and persists collapse/completion state.
-- Session Zero page includes run modes, Connection Builder, notes export, Rules Drawer, Handouts Hub, and Player Display links.
-- GM Rules Drawer and GM Cheat Sheet include compact official Daggerheart table cards, difficulty, conditions, rests, combat, and Fear spends.
-- Every scene has DC-based roll cards or no-roll guidance, GM Fear spends, condition/hazard guidance, search/loot guidance, TV-safe mechanics captions, and trait variety notes.
-- Every entity has Interact / Investigate / Search / Fight mechanics.
-- Rule pages, mechanic links, hover data, quick reference widget, Loot Board, condition pages, mechanics-aware handouts, and Player Display toggles are present.
-- Images are contain-first by default, with lightbox, raw image, and open-window actions.
-
-### Trait Coverage
-
-- Agility: 8
-- Strength: 10
-- Finesse: 15
-- Instinct: 17
-- Presence: 21
-- Knowledge: 36
-- Instinct + Presence share: 35.5%
-- Variety gate: PASS
-
-Detailed JSON: `data/qa-mechanics-report.json` and `data/trait-coverage-report.json`.
-
-
-## Story Comprehension Modes QA
-
-Checks passed: **28 / 28**
+Checks passed: **103 / 103**
 
 Checks failed: **0**
 
-- Generated concise Story Outline, visual Storyboard, and narrative Story pages.
-- Verified outline is image-free, storyboard is image-led, and all scene links route to Run Mode, Atlas, and scene wiki pages.
-- Verified wiki hover links, search/filter controls, text-to-speech controls, and print CSS support.
+- Location maps generated: **40 / 40**.
+- Total map records: **47**.
+- Combat battlemap primaries verified: **5 / 5**.
+- Every primary map is declared as an AI-generated raster asset; combat maps use stricter AI-generated battlemap primaries where available.
+- Earlier AI map art is preserved as visual inspiration alternates; schematic boards are discreet reference alternates only.
+- Combat workspaces: **5**.
+- Fear spend menu is restricted to official spend categories.
+- Run Mode uses Encounter Cockpit language instead of fixed initiative bookkeeping.
 
-Detailed JSON: `data/qa-story-modes-report.json`.
+Detailed JSON: `data/qa-map-combat-hud-report.json`.
+
+## Manufactured-Threat Story Scope QA
+
+Checks passed: **33 / 33**
+Checks failed: **0**
+
+- Corporate manufactured-threat reframe is present across homepage, story modes, scene data, Run Mode slides, and Obsidian notes.
+- Run Clock start points, persistence, schedule, attention notices, break mode, Pause/Stop/Restart/Reset/Advance controls, and theme relocation are covered.
+- Future-thread canon is stored as GM-only data/wiki content and absent from player display/follow pages.
+
+Detailed JSON: `data/qa-story-scope-report.json`.
+
+## UX / Visual / Run-Mode QA
+
+Checks passed: **41 / 41**
+Checks failed: **0**
+
+- Light mode is the default, with dark and print-preview themes available.
+- Homepage choice tracking is reduced to a compact summary; full state controls live on the GM Dashboard.
+- Run Mode, Player Display sync, PC cheat sheet, pronunciation guide, media board, and dashboard pages exist.
+- Entity headers use wrapping/overflow-safe classes to avoid lead paragraph clipping.
+- Repeated controls use labeled icon buttons and generated raster PNG icons.
+
+Detailed JSON: `data/qa-ux-report.json`.
+
+## Rendered UX Browser QA
+
+Checks passed: **62 / 63**
+Checks failed: **1**
+
+Screenshots: `qa/screenshots`
+
+- Checked homepage desktop/mobile, Run Mode, GM Dashboard, Garrick entity page tablet/mobile, PC cheat sheet, pronunciation guide, and Player Display.
+- Verified no horizontal overflow, no visible prompt leakage, contain-first image rendering, entity lede not clipped, labeled icon controls, and Run Mode to Player Display sync.
+
+## Rendered UX Browser QA
+
+Checks passed: **62 / 62**
+Checks failed: **0**
+
+Screenshots: `qa/screenshots`
+
+- Checked homepage desktop/mobile, Run Mode, GM Dashboard, Garrick entity page tablet/mobile, PC cheat sheet, pronunciation guide, and Player Display.
+- Verified no horizontal overflow, no visible prompt leakage, contain-first image rendering, entity lede not clipped, labeled icon controls, and Run Mode to Player Display sync.

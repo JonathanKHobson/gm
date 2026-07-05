@@ -11,4 +11,4 @@ Apply conditions as fictional pressure, not bookkeeping.
 - Vulnerable: You are in a difficult position in the fiction; all rolls targeting you have advantage. Clears when: A temporary source is cleared with a fitting action roll, a stated feature requirement, or the source ends.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 9e69d1c91c2962b5 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 9e69d1c91c2962b5 | Source hash 6753a06c32e5dca07a19eb73

@@ -12,8 +12,8 @@ This distant capital reference is not part of the player route today.
 - Id: MAP-LOC-athervast
 - Type: map
 - Maptype: environment
-- Sectionid: ACT-FOUR
-- Sectiontitle: Act Four: The Hanging Office
+- Sectionid: MAPS
+- Sectiontitle: Location Maps
 - Title: Athervast Location Map
 - Shorttitle: Distant Capital Reference
 - Order: 850.3
@@ -55,4 +55,4 @@ This distant capital reference is not part of the player route today.
 - Totalslides: 110
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash d1254ef105dc5267 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash b9664ed94dd4298d | Source hash 6753a06c32e5dca07a19eb73

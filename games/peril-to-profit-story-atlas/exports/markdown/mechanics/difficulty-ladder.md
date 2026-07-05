@@ -44,4 +44,4 @@ Player-safe note: Very Easy 5, Easy 10, Average 15, Hard 20, Very Hard 25, Nearl
 - Visual Gallery: primary Primary wiki image primary assets/entities/difficulty-ladder.webp Difficulty Ladder primary wiki image visual. Difficulty Ladder: Primary wiki image. fallback_type_icon True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 8fcc0ea10e01dc22 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 8fcc0ea10e01dc22 | Source hash 6753a06c32e5dca07a19eb73

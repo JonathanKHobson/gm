@@ -67,7 +67,7 @@
     {
       "name": "Run Mode has Sablewood Field Guide section",
       "ok": true,
-      "detail": "[\n  \"ACT-FIVE\",\n  \"ACT-FOUR\",\n  \"ACT-ONE\",\n  \"ACT-THREE\",\n  \"ACT-TWO\",\n  \"CHEATS\",\n  \"EPILOGUE\",\n  \"MAPS\",\n  \"PROLOGUE\",\n  \"SABLEWOOD\",\n  \"SESSION-ZERO\",\n  \"STORY\"\n]"
+      "detail": "[\n  \"ACT-FIVE\",\n  \"ACT-FOUR\",\n  \"ACT-ONE\",\n  \"ACT-THREE\",\n  \"ACT-TWO\",\n  \"CHEATS\",\n  \"EPILOGUE\",\n  \"MAPS\",\n  \"PROLOGUE\",\n  \"SABLEWOOD\",\n  \"SESSION-ZERO\"\n]"
     },
     {
       "name": "Run Mode Sablewood slide exists: SABLEWOOD-GUIDE",

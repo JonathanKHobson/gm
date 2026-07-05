@@ -46,4 +46,4 @@ Not player-safe. Keep this page private.
 - Visual Gallery: primary Primary wiki image primary assets/entities/manufactured-threat-future-thread.webp Manufactured-Threat Future Thread primary wiki image visual. Manufactured-Threat Future Thread: Primary wiki image. fallback_type_icon True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 1228b493674010de | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 1228b493674010de | Source hash 6753a06c32e5dca07a19eb73

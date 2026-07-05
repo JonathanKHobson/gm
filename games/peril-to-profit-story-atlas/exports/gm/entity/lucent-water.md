@@ -54,4 +54,4 @@ Use when players need a tangible handle on the scene's pressure.
 - Visual Assets: profile_base Item profile image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/lucent-water/profile_base.png assets/item-images/lucent-water/profile_base.webp ready Lucent Water™ item illustration. A corked bottle glows moonlit blue from inside, even in daylight, even in your pack. The water looks calm enough to sell itself.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 7bdb0e83c050fe7f | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 7bdb0e83c050fe7f | Source hash 6753a06c32e5dca07a19eb73

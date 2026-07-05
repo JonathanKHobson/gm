@@ -49,4 +49,4 @@ Introduce with sensory texture, then make one discoverable clue or social choice
 - Imagine It Like: A boardwalk through a marsh preserve, or the narrow levee paths between rice fields. Think wetland catwalk where the locals know which board is rotten and you do not.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 7afb87c24f840795 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 7afb87c24f840795 | Source hash 6753a06c32e5dca07a19eb73

@@ -48,4 +48,4 @@ The Grail: The Grail™ sells salvation-shaped security: holy escorts, blessed w
 - Visual Gallery: primary Primary wiki image primary assets/logos/the-grail.webp The Grail primary wiki image visual. The Grail: Primary wiki image. image_gen True True faction-logo-source Faction logo faction-logo assets/entity-gallery/the-grail/faction-logo-source.webp The Grail faction logo visual. The Grail: Faction logo. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/logos/the-grail.webp faction-representative-source Representative scene faction-representative assets/entity-gallery/the-grail/faction-representative-source.webp The Grail representative scene visual. The Grail: Representative scene. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/representative/the-grail.png
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 263bec899e61bead | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 263bec899e61bead | Source hash 6753a06c32e5dca07a19eb73

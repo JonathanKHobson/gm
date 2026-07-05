@@ -12,8 +12,8 @@ Duskwatch Exchange is where route knowledge changes hands quietly, because the f
 - Id: MAP-LOC-duskwatch-exchange
 - Type: map
 - Maptype: environment
-- Sectionid: STORY
-- Sectiontitle: Map Board
+- Sectionid: MAPS
+- Sectiontitle: Location Maps
 - Title: Duskwatch Exchange Location Map
 - Shorttitle: Duskwatch Exchange
 - Order: 850.7
@@ -46,4 +46,4 @@ Duskwatch Exchange is where route knowledge changes hands quietly, because the f
 - Totalslides: 110
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 6a3fcfabbda46ed5 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 6eb30b4d568e6946 | Source hash 6753a06c32e5dca07a19eb73

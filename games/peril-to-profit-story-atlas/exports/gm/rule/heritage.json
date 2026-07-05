@@ -4,9 +4,9 @@
   "kind": "rule",
   "id": "heritage",
   "title": "Heritage",
-  "generated_at": "2026-06-23T21:40:58",
-  "build_timestamp": "2026-06-23T21:40:58",
-  "source_content_hash": "dac3370046ed077140fab2d6",
+  "generated_at": "2026-07-05T12:33:16",
+  "build_timestamp": "2026-07-05T12:33:16",
+  "source_content_hash": "6753a06c32e5dca07a19eb73",
   "content_hash": "71872f0150b448cc",
   "sections": [
     {
@@ -43,7 +43,7 @@
     },
     {
       "title": "Export Stamp",
-      "body": "Build 2026-06-23T21:40:58 | Content hash 71872f0150b448cc | Source hash dac3370046ed077140fab2d6"
+      "body": "Build 2026-07-05T12:33:16 | Content hash 71872f0150b448cc | Source hash 6753a06c32e5dca07a19eb73"
     }
   ]
 }

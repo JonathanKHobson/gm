@@ -45,4 +45,4 @@ Player-safe note: A braided cord around Tamsin's wrist that makes the body a per
 - Visual Gallery: primary Primary wiki image primary assets/clue-images/tamsin-s-wedding-cord/profile_base.webp Tamsin's Wedding Cord primary wiki image visual. Tamsin's Wedding Cord: Primary wiki image. clue_visual_profile True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash a78b2c3adee47806 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash a78b2c3adee47806 | Source hash 6753a06c32e5dca07a19eb73

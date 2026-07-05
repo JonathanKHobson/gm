@@ -49,4 +49,4 @@ Player-safe note: A wild adult owl-wolf with a feathered ruff, lupine body, owl 
 - Visual Gallery: primary Primary wiki image primary assets/creature-images/strixwolf/portrait_base.webp Strixwolf primary wiki image visual. Strixwolf: Primary wiki image. creature_images True True creature-variant-1 Variant 1 creature-variant assets/entity-gallery/strixwolf/creature-variant-1.webp Strixwolf variant 1 visual. Strixwolf: Variant 1. curated_variant True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/creature_images/strixwolf/variants/adult-alt-20260621.png
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 1425a84d07dd057e | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 1425a84d07dd057e | Source hash 6753a06c32e5dca07a19eb73

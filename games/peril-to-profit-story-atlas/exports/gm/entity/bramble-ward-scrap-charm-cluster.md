@@ -55,4 +55,4 @@ Use when players need a tangible handle on the scene's pressure.
 - Visual Assets: profile_base Item profile image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/bramble-ward-scrap-charm-cluster/profile_base.png assets/item-images/bramble-ward-scrap-charm-cluster/profile_base.webp ready Bramble Ward-Scrap Charm Cluster item illustration. A knot of blue ward shards, twine, and tiny salvage tags clacks softly at a Bramblefolk belt. It looks illegal only because it looks useful.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 76b222f4347b9631 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 76b222f4347b9631 | Source hash 6753a06c32e5dca07a19eb73

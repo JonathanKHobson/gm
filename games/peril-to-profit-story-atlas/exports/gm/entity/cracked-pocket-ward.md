@@ -55,4 +55,4 @@ Use when players need a tangible handle on the scene's pressure.
 - Visual Assets: profile_base Item profile image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/cracked-pocket-ward/profile_base.png assets/item-images/cracked-pocket-ward/profile_base.webp ready Cracked Pocket Ward™ item illustration. A cheap little ward charm sits cracked down the middle, still trying to glow through a smiling warranty sticker.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash d08e81a4d5b29100 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash d08e81a4d5b29100 | Source hash 6753a06c32e5dca07a19eb73

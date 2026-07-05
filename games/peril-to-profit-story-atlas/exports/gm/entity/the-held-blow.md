@@ -51,4 +51,4 @@ Use when players need a tangible handle on the scene's pressure.
 - Visual Assets: profile_base Clue evidence image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/the-held-blow/profile_base.png assets/clue-images/the-held-blow/profile_base.webp ready The Held Blow clue image. In the fight, a Bramble fighter has a clean opening — and pulls the strike. A beat of hesitation that doesn't fit a ruthless bandit.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 5d10e76c2da02afb | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 5d10e76c2da02afb | Source hash 6753a06c32e5dca07a19eb73

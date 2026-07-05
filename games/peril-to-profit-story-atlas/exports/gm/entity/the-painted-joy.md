@@ -51,4 +51,4 @@ Use when players need a tangible handle on the scene's pressure.
 - Visual Assets: profile_base Clue evidence image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/the-painted-joy/profile_base.png assets/clue-images/the-painted-joy/profile_base.webp ready The Painted Joy clue image. Glimpsed through the thorns: a hidden village painted in bright murals and lit by glowing moss, full of color and care — nothing like the den of thieves you were warned about.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash b4703bcddad2a32a | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash b4703bcddad2a32a | Source hash 6753a06c32e5dca07a19eb73

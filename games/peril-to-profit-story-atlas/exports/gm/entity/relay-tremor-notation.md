@@ -50,4 +50,4 @@ Use when the scene needs a concrete object for players to inspect, carry, debate
 - Visual Assets: profile_base Clue evidence image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/relay-tremor-notation/profile_base.png assets/clue-images/relay-tremor-notation/profile_base.webp ready Relay Tremor Notation clue image. A small marginal notation — a tremor reading — showing the wider relay network is already shaking, before anyone here has words for the problem.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 6f4276e107300218 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 6f4276e107300218 | Source hash 6753a06c32e5dca07a19eb73

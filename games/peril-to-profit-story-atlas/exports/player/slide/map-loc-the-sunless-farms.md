@@ -16,4 +16,4 @@ Under the canopy, farms grow without full sun: blue-green rows, dark wet soil, c
 - Ask one practical question before acting.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash fe31d3b384927d73 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash fe31d3b384927d73 | Source hash 6753a06c32e5dca07a19eb73

@@ -49,4 +49,4 @@ Introduce with sensory texture, then make one discoverable clue or social choice
 - Imagine It Like: An underground mushroom farm or a vertical grow-op lit by lamps, except the lamps are alive. Think hydroponic warehouse crossed with a cave, run by people who out-clevered the sun.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 506856e129064594 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 506856e129064594 | Source hash 6753a06c32e5dca07a19eb73

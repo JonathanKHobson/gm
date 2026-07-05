@@ -12,8 +12,8 @@ Root's Hollow smells of tinctures, river water, and careful survival, a place wh
 - Id: MAP-LOC-root-s-hollow
 - Type: map
 - Maptype: environment
-- Sectionid: STORY
-- Sectiontitle: Map Board
+- Sectionid: MAPS
+- Sectiontitle: Location Maps
 - Title: Root's Hollow Location Map
 - Shorttitle: Root's Hollow
 - Order: 851.3
@@ -46,4 +46,4 @@ Root's Hollow smells of tinctures, river water, and careful survival, a place wh
 - Totalslides: 110
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash c1369ba3c32e3022 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash a30e280d1f638208 | Source hash 6753a06c32e5dca07a19eb73

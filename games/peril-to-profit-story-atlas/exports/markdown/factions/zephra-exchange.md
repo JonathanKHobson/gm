@@ -46,4 +46,4 @@ Zephra Exchange: Zephra Exchange™ runs the market, the toll, and the stamp tha
 - Visual Gallery: primary Primary wiki image primary assets/logos/zephra-exchange.webp Zephra Exchange primary wiki image visual. Zephra Exchange: Primary wiki image. image_gen True True faction-logo-source Faction logo faction-logo assets/entity-gallery/zephra-exchange/faction-logo-source.webp Zephra Exchange faction logo visual. Zephra Exchange: Faction logo. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/logos/zephra-exchange.webp faction-representative-source Representative scene faction-representative assets/entity-gallery/zephra-exchange/faction-representative-source.webp Zephra Exchange representative scene visual. Zephra Exchange: Representative scene. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/representative/zephra-exchange.png
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 3559c91a56e6ab50 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 3559c91a56e6ab50 | Source hash 6753a06c32e5dca07a19eb73

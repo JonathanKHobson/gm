@@ -43,4 +43,4 @@ Player-safe note: Mid-laugh, a villager's smile slips for half a second — bone
 - Visual Gallery: primary Primary wiki image primary assets/clue-images/the-tired-smile/profile_base.webp The Tired Smile primary wiki image visual. The Tired Smile: Primary wiki image. clue_visual_profile True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 43d07757465453bf | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 43d07757465453bf | Source hash 6753a06c32e5dca07a19eb73

@@ -43,4 +43,4 @@ Player-safe note: The villagers explain, cheerfully, what the ward costs them â€
 - Visual Gallery: primary Primary wiki image primary assets/clue-images/the-ward-subscription/profile_base.webp The Ward Subscription primary wiki image visual. The Ward Subscription: Primary wiki image. clue_visual_profile True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 7cce2768a35f06d6 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 7cce2768a35f06d6 | Source hash 6753a06c32e5dca07a19eb73

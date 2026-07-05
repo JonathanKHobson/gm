@@ -16,4 +16,4 @@ The preserve stretches beyond the path, too vast to read at once. The route ahea
 - Ask one practical question before acting.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 88f37cc79b0c7534 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 30bf6691a9e5a603 | Source hash 6753a06c32e5dca07a19eb73

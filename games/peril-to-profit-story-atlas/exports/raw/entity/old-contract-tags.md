@@ -43,4 +43,4 @@ Player-safe note: The "stolen" seals and tags on the Bramble's goods are old and
 - Visual Gallery: primary Primary wiki image primary assets/clue-images/old-contract-tags/profile_base.webp Old Contract Tags primary wiki image visual. Old Contract Tags: Primary wiki image. clue_visual_profile True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 303165eea191d0a7 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 303165eea191d0a7 | Source hash 6753a06c32e5dca07a19eb73

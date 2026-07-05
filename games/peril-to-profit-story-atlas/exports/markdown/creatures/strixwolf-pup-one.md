@@ -45,4 +45,4 @@ Player-safe note: A wet-feathered strixwolf pup with oversized ears, bright frig
 - Visual Gallery: primary Primary wiki image primary assets/creature-images/strixwolf-pup-one/portrait_base.webp Strixwolf Pup One primary wiki image visual. Strixwolf Pup One: Primary wiki image. creature_images True True creature-variant-1 Variant 1 creature-variant assets/entity-gallery/strixwolf-pup-one/creature-variant-1.webp Strixwolf Pup One variant 1 visual. Strixwolf Pup One: Variant 1. curated_variant True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/creature_images/strixwolf-pup-one/variants/legacy-current.png
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash a5e5c6107d0711dd | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash a5e5c6107d0711dd | Source hash 6753a06c32e5dca07a19eb73

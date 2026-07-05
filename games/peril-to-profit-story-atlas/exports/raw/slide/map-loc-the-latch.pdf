@@ -1,6 +1,6 @@
 %PDF-1.4
 1 0 obj
-<< /Length 2391 >>
+<< /Length 2394 >>
 stream
 BT
 /F1 10 Tf
@@ -40,9 +40,9 @@ T*
 T*
 (- Maptype: environment) Tj
 T*
-(- Sectionid: STORY) Tj
+(- Sectionid: MAPS) Tj
 T*
-(- Sectiontitle: Map Board) Tj
+(- Sectiontitle: Location Maps) Tj
 T*
 (- Title: The Latch Location Map) Tj
 T*
@@ -274,9 +274,9 @@ T*
 T*
 () Tj
 T*
-(Build 2026-06-23T21:40:58 | Content hash 3353f0f1dbdae7ba | Source hash) Tj
+(Build 2026-07-05T12:33:16 | Content hash 54f71444e073a4e0 | Source hash) Tj
 T*
-(dac3370046ed077140fab2d6) Tj
+(6753a06c32e5dca07a19eb73) Tj
 T*
 () Tj
 T*
@@ -299,16 +299,16 @@ xref
 0 10
 0000000000 65535 f 
 0000000009 00000 n 
-0000002452 00000 n 
-0000002578 00000 n 
-0000006907 00000 n 
-0000007033 00000 n 
-0000008962 00000 n 
-0000009088 00000 n 
-0000009157 00000 n 
-0000009206 00000 n 
+0000002455 00000 n 
+0000002581 00000 n 
+0000006910 00000 n 
+0000007036 00000 n 
+0000008965 00000 n 
+0000009091 00000 n 
+0000009160 00000 n 
+0000009209 00000 n 
 trailer
 << /Size 10 /Root 8 0 R >>
 startxref
-9278
+9281
 %%EOF

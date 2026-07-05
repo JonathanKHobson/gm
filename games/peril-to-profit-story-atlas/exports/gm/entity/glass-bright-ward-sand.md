@@ -50,4 +50,4 @@ Use when the scene needs a concrete object for players to inspect, carry, debate
 - Visual Assets: profile_base Clue evidence image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/glass-bright-ward-sand/profile_base.png assets/clue-images/glass-bright-ward-sand/profile_base.webp ready Glass-Bright Ward Sand clue image. Where the ward settles, the ground is left strewn with bright glittering sand — lovely, and just a little too sharp to touch.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash e9329b15a530ea19 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash e9329b15a530ea19 | Source hash 6753a06c32e5dca07a19eb73

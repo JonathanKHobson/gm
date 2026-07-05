@@ -44,4 +44,4 @@ Player-safe note: Clear 1 Stress or move at Far without a roll once.
 - Visual Gallery: primary Primary wiki image primary assets/entities/stride-salve.webp Stride Salve primary wiki image visual. Stride Salve: Primary wiki image. fallback_type_icon True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 6c15c9e2d5adc65f | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 6c15c9e2d5adc65f | Source hash 6753a06c32e5dca07a19eb73

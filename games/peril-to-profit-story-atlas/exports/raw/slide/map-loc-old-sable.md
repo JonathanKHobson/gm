@@ -12,8 +12,8 @@ Older stones sit half-hidden near the path, weathered enough that nobody here co
 - Id: MAP-LOC-old-sable
 - Type: map
 - Maptype: environment
-- Sectionid: ACT-FOUR
-- Sectiontitle: Act Four: The Hanging Office
+- Sectionid: PROLOGUE
+- Sectiontitle: Prologue: The Contract
 - Title: Old Sable Location Map
 - Shorttitle: Older Ward Stones
 - Order: 102.16
@@ -60,4 +60,4 @@ Older stones sit half-hidden near the path, weathered enough that nobody here co
 - Totalslides: 110
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash efdb11ae4190bf90 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 784025b81d311138 | Source hash 6753a06c32e5dca07a19eb73

@@ -16,4 +16,4 @@ A wild adult owl-wolf with a feathered ruff, lupine body, owl face, amber huntin
 - Watch what they protect before asking for trust.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash f56eb1a7a415e6aa | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash f56eb1a7a415e6aa | Source hash 6753a06c32e5dca07a19eb73

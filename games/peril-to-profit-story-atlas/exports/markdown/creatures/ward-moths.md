@@ -45,4 +45,4 @@ Player-safe note: Ward-moths drift along invisible pressure lines at Open Vale, 
 - Visual Gallery: primary Primary wiki image primary assets/creature-images/ward-moths/portrait_base.webp Ward-Moths primary wiki image visual. Ward-Moths: Primary wiki image. creature_images True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 2de5fab98b1bf03f | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 2de5fab98b1bf03f | Source hash 6753a06c32e5dca07a19eb73

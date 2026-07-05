@@ -1,6 +1,6 @@
 %PDF-1.4
 1 0 obj
-<< /Length 2411 >>
+<< /Length 2405 >>
 stream
 BT
 /F1 10 Tf
@@ -40,9 +40,9 @@ T*
 T*
 (- Maptype: environment) Tj
 T*
-(- Sectionid: ACT-FOUR) Tj
+(- Sectionid: PROLOGUE) Tj
 T*
-(- Sectiontitle: Act Four: The Hanging Office) Tj
+(- Sectiontitle: Prologue: The Contract) Tj
 T*
 (- Title: Old Sable Location Map) Tj
 T*
@@ -411,9 +411,9 @@ T*
 T*
 () Tj
 T*
-(Build 2026-06-23T21:40:58 | Content hash efdb11ae4190bf90 | Source hash) Tj
+(Build 2026-07-05T12:33:16 | Content hash 784025b81d311138 | Source hash) Tj
 T*
-(dac3370046ed077140fab2d6) Tj
+(6753a06c32e5dca07a19eb73) Tj
 T*
 () Tj
 T*
@@ -436,18 +436,18 @@ xref
 0 12
 0000000000 65535 f 
 0000000009 00000 n 
-0000002472 00000 n 
-0000002599 00000 n 
-0000006609 00000 n 
-0000006736 00000 n 
-0000011025 00000 n 
-0000011152 00000 n 
-0000014388 00000 n 
-0000014515 00000 n 
-0000014590 00000 n 
-0000014640 00000 n 
+0000002466 00000 n 
+0000002593 00000 n 
+0000006603 00000 n 
+0000006730 00000 n 
+0000011019 00000 n 
+0000011146 00000 n 
+0000014382 00000 n 
+0000014509 00000 n 
+0000014584 00000 n 
+0000014634 00000 n 
 trailer
 << /Size 12 /Root 10 0 R >>
 startxref
-14713
+14707
 %%EOF

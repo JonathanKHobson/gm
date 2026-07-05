@@ -1,23 +1,23 @@
 {
   "schema_version": "story-atlas-export-build-info-v1",
-  "build_timestamp": "2026-06-23T21:40:58",
-  "source_content_hash": "dac3370046ed077140fab2d6",
+  "build_timestamp": "2026-07-05T12:33:16",
+  "source_content_hash": "6753a06c32e5dca07a19eb73",
   "regenerate_command": "python3 story-atlas/src/build_atlas.py",
   "dynamic_reexport_todo": "TODO: Future pipeline can re-export only changed entities from source hashes. Do not build that dynamic path in this static export slice.",
   "counts": {
-    "entries": 446,
-    "player_handouts_available": 403,
+    "entries": 455,
+    "player_handouts_available": 412,
     "player_handouts_featured": 11
   },
   "organized_counts": {
-    "markdown": 336,
-    "handouts": 293,
+    "markdown": 345,
+    "handouts": 302,
     "featured": 11,
     "no_handout": 43
   },
   "coverage": {
     "schema_version": "story-atlas-export-coverage-v1",
-    "generated_at": "2026-06-23T21:41:06",
+    "generated_at": "2026-07-05T12:39:43",
     "entities_by_type": {
       "pc": {
         "total": 5,
@@ -129,7 +129,7 @@
       "playerSafeProjection": 110
     },
     "player_handouts": {
-      "available": 403,
+      "available": 412,
       "featured": 11,
       "no_handout": 43,
       "by_archetype": {
@@ -137,7 +137,7 @@
         "faction.flyer": 21,
         "item.product_card": 54,
         "location.advisory": 40,
-        "mechanic.reference_card": 83,
+        "mechanic.reference_card": 92,
         "npc.contact_card": 40,
         "scene.briefing": 137
       }
@@ -171,7 +171,7 @@
       "route-vignette.png": "cf8b5aaa92100e44",
       "stamp-frame.png": "e3b69ef47af5e585"
     },
-    "build_timestamp": "2026-06-23T21:40:58",
+    "build_timestamp": "2026-07-05T12:33:16",
     "content_hash": "7e2c31ba7c91b7c6"
   }
 }

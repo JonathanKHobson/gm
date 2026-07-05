@@ -1,6 +1,6 @@
 %PDF-1.4
 1 0 obj
-<< /Length 2626 >>
+<< /Length 2629 >>
 stream
 BT
 /F1 10 Tf
@@ -40,9 +40,9 @@ T*
 T*
 (- Maptype: environment) Tj
 T*
-(- Sectionid: STORY) Tj
+(- Sectionid: MAPS) Tj
 T*
-(- Sectiontitle: Map Board) Tj
+(- Sectiontitle: Location Maps) Tj
 T*
 (- Title: Duskwatch Exchange Location Map) Tj
 T*
@@ -280,9 +280,9 @@ T*
 T*
 () Tj
 T*
-(Build 2026-06-23T21:40:58 | Content hash 6a3fcfabbda46ed5 | Source hash) Tj
+(Build 2026-07-05T12:33:16 | Content hash 6eb30b4d568e6946 | Source hash) Tj
 T*
-(dac3370046ed077140fab2d6) Tj
+(6753a06c32e5dca07a19eb73) Tj
 T*
 () Tj
 T*
@@ -305,16 +305,16 @@ xref
 0 10
 0000000000 65535 f 
 0000000009 00000 n 
-0000002687 00000 n 
-0000002813 00000 n 
-0000007047 00000 n 
-0000007173 00000 n 
-0000009315 00000 n 
-0000009441 00000 n 
-0000009510 00000 n 
-0000009559 00000 n 
+0000002690 00000 n 
+0000002816 00000 n 
+0000007050 00000 n 
+0000007176 00000 n 
+0000009318 00000 n 
+0000009444 00000 n 
+0000009513 00000 n 
+0000009562 00000 n 
 trailer
 << /Size 10 /Root 8 0 R >>
 startxref
-9631
+9634
 %%EOF

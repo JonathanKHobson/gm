@@ -18,4 +18,4 @@ No forced reveal. Let this entity disclose truth through scene context and playe
 Use as forest-justice pressure and a chance for players to slow down, speak gently, and prove they can be guests instead of claimants.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 840b15a55225e393 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 840b15a55225e393 | Source hash 6753a06c32e5dca07a19eb73

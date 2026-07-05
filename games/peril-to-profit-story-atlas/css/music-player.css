@@ -1,7 +1,7 @@
 
 .music-player-panel {
   position: relative;
-  z-index: 24;
+  z-index: 120;
   margin-top: .55rem;
   border: 1px solid rgba(32, 43, 53, .16);
   border-radius: 8px;
@@ -9,7 +9,7 @@
   box-shadow: 0 10px 24px rgba(26, 34, 42, .08);
 }
 .music-player-panel[open] {
-  z-index: 150;
+  z-index: 170;
 }
 .music-player-panel:not([open]) {
   background: rgba(255,255,255,.62);

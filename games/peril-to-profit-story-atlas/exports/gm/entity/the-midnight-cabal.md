@@ -47,4 +47,4 @@ Future thread only; a rumor, not a staged one-shot faction.
 - Imagine It Like: Think the heist crew that is also an urban legend, the people who open doors that should not open, a master-thief myth whispered between jobs. (GM seed; do not stage without Kyle.)
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash c6105e39a835d7f3 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash c6105e39a835d7f3 | Source hash 6753a06c32e5dca07a19eb73

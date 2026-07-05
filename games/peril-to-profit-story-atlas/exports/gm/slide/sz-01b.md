@@ -29,4 +29,4 @@ Set a clear rating and content frame before safety tools.
 Frame the one-shot as adult PG-13-ish. Say that combat exists, descriptions of violence will be light, animal peril can be avoided or softened, and any player can pause or redirect if something crosses a line.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 629ff59a0d7e5e0f | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 629ff59a0d7e5e0f | Source hash 6753a06c32e5dca07a19eb73

@@ -50,4 +50,4 @@ Use when the scene needs a concrete object for players to inspect, carry, debate
 - Visual Assets: profile_base Clue evidence image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/bramble-strand/profile_base.png assets/clue-images/bramble-strand/profile_base.webp ready Bramble Strand clue image. A length of thorned bramble is wound tight around the wheel-spokes — deliberate, woven, not snagged in passing.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 3d9971b208fdbed7 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 3d9971b208fdbed7 | Source hash 6753a06c32e5dca07a19eb73

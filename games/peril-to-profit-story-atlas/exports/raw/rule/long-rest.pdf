@@ -1,6 +1,6 @@
 %PDF-1.4
 1 0 obj
-<< /Length 2427 >>
+<< /Length 2410 >>
 stream
 BT
 /F1 10 Tf
@@ -14,7 +14,9 @@ T*
 T*
 () Tj
 T*
-(A deeper downtime recovery and reset structure used when the story has enough time.) Tj
+(Extended downtime recovery; the GM gains 1d4 plus the number of PCs in Fear and may) Tj
+T*
+(advance a long-term countdown.) Tj
 T*
 () Tj
 T*
@@ -34,7 +36,7 @@ T*
 T*
 (- Not during immediate danger. Use short rest inside the one-shot; save long rest for) Tj
 T*
-(  between-session recovery or continuation play.) Tj
+(  continuation play and long-term pressure.) Tj
 T*
 (- Return to the fiction with the concrete result, cost, or benefit.) Tj
 T*
@@ -58,9 +60,9 @@ T*
 T*
 (- Tag: rules-canon) Tj
 T*
-(- Summary: A deeper downtime recovery and reset structure used when the story has) Tj
+(- Summary: Extended downtime recovery; the GM gains 1d4 plus the number of PCs in Fear) Tj
 T*
-(  enough time.) Tj
+(  and may advance a long-term countdown.) Tj
 T*
 (- When: Use between adventures or when a sequel session gives the party real downtime.) Tj
 T*
@@ -72,13 +74,13 @@ T*
 T*
 (- Answer: Not during immediate danger. Use short rest inside the one-shot; save long) Tj
 T*
-(  rest for between-session recovery or continuation play.) Tj
+(  rest for continuation play and long-term pressure.) Tj
 T*
 (- Example: After the epilogue, a future campaign could begin after a long rest and) Tj
 T*
 (  level-up decisions.) Tj
 T*
-(- Related: short-rest level-up domain-cards) Tj
+(- Related: short-rest level-up domain-cards countdown) Tj
 T*
 (- Aliases: downtime full rest) Tj
 T*
@@ -88,19 +90,17 @@ T*
 T*
 (- Mechanic Profile: mechanic-profile-v1 long-rest Long Rest downtime full rest Long) Tj
 T*
-(  Rest downtime #rules-canon Beginner+ short-rest level-up domain-cards Introduce at) Tj
+(  Rest downtime #rules-canon Beginner+ short-rest level-up domain-cards countdown) Tj
 T*
-(  first use short-rest level-up domain-cards A deeper downtime recovery and reset) Tj
+(  Introduce at first use short-rest level-up domain-cards countdown Extended downtime) Tj
 T*
-(  structure used when the story has enough time. Not during immediate danger. Use) Tj
+(  recovery; the GM gains 1d4 plus the number of PCs in Fear and may advance a long-) Tj
 T*
-(  short rest inside the one-shot; save long rest for between-session recovery or) Tj
+(  term countdown. Not during immediate danger. Use short rest inside the one-shot;) Tj
 T*
-(  continuation play. Use between adventures or when a sequel session gives the party) Tj
+(  save long rest for continuation play and long-term pressure. Use between adventures) Tj
 T*
-(  real downtime. Long Rest: A deeper downtime recovery and reset structure used when) Tj
-T*
-(  the story has enough time. Use between adventures or when a sequel session gives the) Tj
+(  or when a sequel session gives the party real downtime. Long Rest: Extended downtime) Tj
 T*
 ET
 endstream
@@ -109,25 +109,27 @@ endobj
 << /Type /Page /Parent 5 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 1 0 R >>
 endobj
 3 0 obj
-<< /Length 888 >>
+<< /Length 973 >>
 stream
 BT
 /F1 10 Tf
 50 742 Td
 14 TL
-(  party real downtime. Not during immediate danger. Use short rest inside the one-) Tj
+(  recovery; the GM gains 1d4 plus the number of PCs in Fear and may advance a long-) Tj
 T*
-(  shot; save long rest for between-session recovery or continuation play. Return to) Tj
+(  term countdown. Use between adventures or when a sequel session gives the party real) Tj
 T*
-(  the fiction with the concrete result, cost, or benefit. After the epilogue, a future) Tj
+(  downtime. Not during immediate danger. Use short rest inside the one-shot; save long) Tj
 T*
-(  campaign could begin after a long rest and level-up decisions. After the epilogue, a) Tj
+(  rest for continuation play and long-term pressure. Return to the fiction with the) Tj
 T*
-(  future campaign could begin after a long rest and level-up decisions. Do we long) Tj
+(  concrete result, cost, or benefit. After the epilogue, a future campaign could begin) Tj
 T*
-(  rest? Long Rest downtime full rest short-rest level-up domain-cards Verified against) Tj
+(  after a long rest and level-up decisions. After the epilogue, a future campaign) Tj
 T*
-(  local Daggerheart rules packet and Mechanic System Packet...) Tj
+(  could begin after a long rest and level-up decisions. Do we long rest? Long Rest) Tj
+T*
+(  downtime full rest short-rest level-up domain-cards...) Tj
 T*
 (- Canon Status: #rules-canon) Tj
 T*
@@ -139,9 +141,9 @@ T*
 T*
 () Tj
 T*
-(Build 2026-06-23T21:40:58 | Content hash 69a657f89e06ee02 | Source hash) Tj
+(Build 2026-07-05T12:33:16 | Content hash d1f3d3b91c564b8f | Source hash) Tj
 T*
-(dac3370046ed077140fab2d6) Tj
+(6753a06c32e5dca07a19eb73) Tj
 T*
 () Tj
 T*
@@ -164,14 +166,14 @@ xref
 0 8
 0000000000 65535 f 
 0000000009 00000 n 
-0000002488 00000 n 
-0000002614 00000 n 
-0000003553 00000 n 
-0000003679 00000 n 
-0000003742 00000 n 
-0000003791 00000 n 
+0000002471 00000 n 
+0000002597 00000 n 
+0000003621 00000 n 
+0000003747 00000 n 
+0000003810 00000 n 
+0000003859 00000 n 
 trailer
 << /Size 8 /Root 6 0 R >>
 startxref
-3863
+3931
 %%EOF

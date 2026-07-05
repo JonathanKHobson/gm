@@ -50,4 +50,4 @@ Use when the scene needs a concrete object for players to inspect, carry, debate
 - Visual Assets: profile_base Clue evidence image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/route-ledger/profile_base.png assets/clue-images/route-ledger/profile_base.webp ready Route Ledger clue image. A water-stained ledger of the driver's route — stops, times, and a final leg that runs straight into trouble.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash c51351cdb081b519 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash c51351cdb081b519 | Source hash 6753a06c32e5dca07a19eb73

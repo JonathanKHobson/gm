@@ -1,6 +1,6 @@
 %PDF-1.4
 1 0 obj
-<< /Length 1022 >>
+<< /Length 1126 >>
 stream
 BT
 /F1 10 Tf
@@ -14,7 +14,9 @@ T*
 T*
 () Tj
 T*
-(A deeper downtime recovery and reset structure used when the story has enough time.) Tj
+(Extended downtime recovery; the GM gains 1d4 plus the number of PCs in Fear and may) Tj
+T*
+(advance a long-term countdown.) Tj
 T*
 () Tj
 T*
@@ -22,7 +24,9 @@ T*
 T*
 () Tj
 T*
-(A deeper downtime recovery and reset structure used when the story has enough time.) Tj
+(Extended downtime recovery; the GM gains 1d4 plus the number of PCs in Fear and may) Tj
+T*
+(advance a long-term countdown.) Tj
 T*
 () Tj
 T*
@@ -30,9 +34,9 @@ T*
 T*
 () Tj
 T*
-(Long Rest: A deeper downtime recovery and reset structure used when the story has enough) Tj
+(Long Rest: Extended downtime recovery; the GM gains 1d4 plus the number of PCs in Fear) Tj
 T*
-(time.) Tj
+(and may advance a long-term countdown.) Tj
 T*
 () Tj
 T*
@@ -52,7 +56,7 @@ T*
 T*
 (- Not during immediate danger. Use short rest inside the one-shot; save long rest for) Tj
 T*
-(  between-session recovery or continuation play.) Tj
+(  continuation play and long-term pressure.) Tj
 T*
 (- Return to the fiction with the concrete result, cost, or benefit.) Tj
 T*
@@ -62,9 +66,9 @@ T*
 T*
 () Tj
 T*
-(Build 2026-06-23T21:40:58 | Content hash 49cbcf53df348014 | Source hash) Tj
+(Build 2026-07-05T12:33:16 | Content hash 2b1de26053bbda27 | Source hash) Tj
 T*
-(dac3370046ed077140fab2d6) Tj
+(6753a06c32e5dca07a19eb73) Tj
 T*
 () Tj
 T*
@@ -87,12 +91,12 @@ xref
 0 6
 0000000000 65535 f 
 0000000009 00000 n 
-0000001083 00000 n 
-0000001209 00000 n 
-0000001266 00000 n 
-0000001315 00000 n 
+0000001187 00000 n 
+0000001313 00000 n 
+0000001370 00000 n 
+0000001419 00000 n 
 trailer
 << /Size 6 /Root 4 0 R >>
 startxref
-1387
+1491
 %%EOF

@@ -106,10 +106,10 @@ ET
 endstream
 endobj
 2 0 obj
-<< /Type /Page /Parent 5 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 1 0 R >>
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 1 0 R >>
 endobj
 3 0 obj
-<< /Length 2267 >>
+<< /Length 2849 >>
 stream
 BT
 /F1 10 Tf
@@ -155,6 +155,8 @@ T*
 T*
 (- Short Rest: Use before Open Vale pressure spikes.) Tj
 T*
+(- ? GM gains 1d4 Fear.) Tj
+T*
 (- ? Tend to Wounds.) Tj
 T*
 (- ? Clear Stress.) Tj
@@ -163,7 +165,9 @@ T*
 T*
 (- ? Prepare.) Tj
 T*
-(- ? Check official loadout/vault swap text from the sheet or SRD.) Tj
+(- ? Long rest is true downtime: GM gains PC count + 1d4 Fear and can advance a long-) Tj
+T*
+(  term countdown.) Tj
 T*
 (- Countdown: Make pressure visible and explain what a tick means.) Tj
 T*
@@ -187,45 +191,82 @@ T*
 T*
 (- ? There is no initiative order; spotlight follows the fiction.) Tj
 T*
+(- GM Screen Edge Cases: Fast handles for rules that come up mid-session but do not) Tj
+T*
+(  deserve a lecture.) Tj
+T*
+(- ? Group Action: choose a leader; helpers roll reactions; successes and failures) Tj
+T*
+(  shift the leader's roll.) Tj
+T*
+(- ? Fate Roll: define the stakes, then roll one Duality Die when the outcome is pure) Tj
+T*
+(  chance.) Tj
+T*
+(- ? Temporary effects: clear through the listed move, natural end, or GM/Fear) Tj
+T*
+(  procedure if a spell says so.) Tj
+T*
+(- ? Falling or collision: use the SRD damage guide and fit the danger to the fiction.) Tj
+T*
+(- ? Spellcast Roll: only when a feature calls for the character's Spellcast trait.) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 278 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(- ? Unarmed attack: Strength or Finesse, then Proficiency d4 damage on a hit.) Tj
+T*
 () Tj
 T*
 (Export Stamp) Tj
 T*
 () Tj
 T*
-(Build 2026-06-23T21:40:58 | Content hash 1032b0911b0e1361 | Source hash) Tj
+(Build 2026-07-05T12:33:16 | Content hash 80df45b2a750f9f2 | Source hash) Tj
 T*
-(dac3370046ed077140fab2d6) Tj
+(6753a06c32e5dca07a19eb73) Tj
 T*
 () Tj
 T*
 ET
 endstream
 endobj
-4 0 obj
-<< /Type /Page /Parent 5 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 3 0 R >>
-endobj
-5 0 obj
-<< /Type /Pages /Kids [2 0 R 4 0 R] /Count 2 >>
-endobj
 6 0 obj
-<< /Type /Catalog /Pages 5 0 R >>
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 5 0 R >>
 endobj
 7 0 obj
+<< /Type /Pages /Kids [2 0 R 4 0 R 6 0 R] /Count 3 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+9 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
 endobj
 xref
-0 8
+0 10
 0000000000 65535 f 
 0000000009 00000 n 
 0000002193 00000 n 
 0000002319 00000 n 
-0000004638 00000 n 
-0000004764 00000 n 
-0000004827 00000 n 
-0000004876 00000 n 
+0000005220 00000 n 
+0000005346 00000 n 
+0000005675 00000 n 
+0000005801 00000 n 
+0000005870 00000 n 
+0000005919 00000 n 
 trailer
-<< /Size 8 /Root 6 0 R >>
+<< /Size 10 /Root 8 0 R >>
 startxref
-4948
+5991
 %%EOF

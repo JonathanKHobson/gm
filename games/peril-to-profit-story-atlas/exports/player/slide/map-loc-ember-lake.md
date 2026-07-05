@@ -16,4 +16,4 @@ Ember Lake steams under cool canopy air, a hot spring mirror that suggests somet
 - Ask one practical question before acting.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash f4c98b284d150fb8 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 4464c459dbee992c | Source hash 6753a06c32e5dca07a19eb73

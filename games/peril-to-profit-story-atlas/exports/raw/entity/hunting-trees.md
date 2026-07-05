@@ -48,4 +48,4 @@ Player-safe note: Walking predatory trees with root legs, hooked branch arms, ho
 - Visual Gallery: primary Primary wiki image primary assets/creature-images/hunting-trees/portrait_base.webp Hunting Trees primary wiki image visual. Hunting Trees: Primary wiki image. creature_images True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash b3e2cb9af6d29f43 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash b3e2cb9af6d29f43 | Source hash 6753a06c32e5dca07a19eb73

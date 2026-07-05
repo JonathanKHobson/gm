@@ -1,10 +1,14 @@
 
+html {
+  overscroll-behavior-x: none;
+}
 .slideshow-run-page, .player-follow-page {
   min-height: 100vh;
   background: #f8f5ee;
 }
 .slideshow-run-page {
   min-height: 100vh;
+  overscroll-behavior-x: none;
 }
 .sr-only {
   position: absolute;
@@ -79,11 +83,16 @@
 .run-slide-jump select { max-width: min(36rem, 52vw); }
 .run-layout {
   display: grid;
-  grid-template-rows: auto auto;
+  grid-template-columns: minmax(0, 1fr) minmax(17rem, 21rem);
+  grid-template-areas:
+    "controls controls"
+    "slide references";
   gap: .7rem;
   padding: .75rem .85rem 8.5rem;
+  align-items: start;
 }
 .run-side-panel {
+  grid-area: controls;
   align-self: stretch;
   display: flex;
   flex-wrap: wrap;
@@ -112,11 +121,89 @@ html[data-theme="dark"] .run-pinned-shortcut .pin-key { color: var(--amber); }
 .run-scratch { flex: 1 1 16rem; }
 .run-scratch textarea { width: 100%; resize: vertical; }
 .run-slide-stage {
+  grid-area: slide;
   position: relative;
   min-width: 0;
   min-height: 0;
   display: grid;
-  padding-inline: 5rem;
+  padding-inline: 3.25rem;
+}
+.run-reference-rail {
+  grid-area: references;
+  min-width: 0;
+  position: sticky;
+  top: calc(var(--run-topbar-block-size, 4.5rem) + .75rem);
+  z-index: 89;
+  max-height: var(--run-reference-rail-max-height, calc(100vh - var(--run-topbar-block-size, 4.5rem) - 2rem));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  display: grid;
+  gap: .62rem;
+  align-content: start;
+  padding: .65rem .65rem 5.25rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255,253,248,.92);
+}
+.run-reference-summary {
+  list-style: none;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: .18rem;
+  padding-bottom: .52rem;
+  border-bottom: 1px solid var(--line);
+}
+.run-reference-summary::-webkit-details-marker {
+  display: none;
+}
+.run-reference-summary > span:first-child {
+  min-width: 0;
+  display: grid;
+  gap: .16rem;
+}
+.run-reference-summary-text {
+  color: var(--muted);
+  font-size: .82rem;
+  line-height: 1.32;
+}
+.run-reference-summary-control {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: .22rem .48rem;
+  background: var(--panel-2);
+  color: var(--muted);
+  font-size: .7rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+.run-reference-rail:not([open]) {
+  max-height: none;
+  overflow: visible;
+  padding: .65rem;
+}
+.run-reference-rail:not([open]) .run-reference-summary {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+.run-reference-rail:not([open]) .run-reference-rail-body {
+  display: none;
+}
+.run-reference-rail-body {
+  display: grid;
+  gap: .62rem;
+  align-content: start;
+  margin-top: .62rem;
+}
+.slideshow-run-page .gm-dock {
+  top: auto;
+  right: 1rem;
+  bottom: 5.8rem;
+}
+#run-floating-reference-dock {
+  display: contents;
 }
 .run-slide-card {
   min-height: 0;
@@ -413,7 +500,7 @@ body.prologue-run-slide .player-beat-quick .player-beat-actions span {
   font-size: clamp(1.65rem, 3vw, 2.35rem);
 }
 .slide-main.prologue-compact-main {
-  grid-template-columns: minmax(15rem, .62fr) minmax(36rem, 1.38fr);
+  grid-template-columns: minmax(21rem, .72fr) minmax(30rem, 1.28fr);
 }
 .prologue-compact-main .slide-goal,
 .prologue-compact-main .slide-objective {
@@ -844,8 +931,8 @@ button .mechanic-link,
   box-shadow: inset 0 0 0 2px rgba(34,124,112,.13);
   outline: none;
 }
-#hover-card { max-height: min(80vh, 34rem); overflow: auto; padding-top: 2.35rem; }
-#hover-card.is-visible { pointer-events: none; }
+#hover-card { max-height: min(80vh, 34rem); overflow: auto; overscroll-behavior: contain; padding-top: 2.35rem; }
+#hover-card.is-visible { pointer-events: auto; }
 #hover-card.is-pinned { pointer-events: auto; box-shadow: 0 1rem 2.6rem rgba(0,0,0,.4), 0 0 0 2px var(--amber); }
 #hover-card .hover-card-close {
   position: absolute;
@@ -917,19 +1004,32 @@ body:has(#command-palette[open]) #hover-card {
   box-shadow: 0 1rem 2.4rem rgba(0,0,0,.3);
 }
 .run-overflow-menu .run-labeled-button { width: 100%; justify-content: flex-start; }
+.run-reference-rail .spotlight-channel,
+.run-reference-rail .npc-channel,
+.run-reference-rail .faction-channel,
+.run-reference-rail .location-channel,
+.run-reference-rail .item-channel,
+.run-reference-rail .clue-channel {
+  position: static;
+  z-index: auto;
+  width: auto;
+  max-height: none;
+  min-width: 0;
+  overflow: visible;
+  display: grid;
+  gap: .55rem;
+  pointer-events: auto;
+}
 .spotlight-channel {
   position: fixed;
-  right: 5.9rem;
-  bottom: 7.4rem;
-  z-index: 92;
+  right: 1rem;
+  bottom: 9.55rem;
+  z-index: 93;
   width: auto;
   max-height: none;
   overflow: visible;
   display: block;
   pointer-events: none;
-}
-.spotlight-channel[hidden] {
-  display: none !important;
 }
 .npc-channel {
   position: fixed;
@@ -955,18 +1055,6 @@ body:has(#command-palette[open]) #hover-card {
   gap: .55rem;
   pointer-events: none;
 }
-.location-channel {
-  position: fixed;
-  right: 1rem;
-  top: 9rem;
-  z-index: 89;
-  width: min(25rem, calc(100vw - 7rem));
-  max-height: min(42vh, 28rem);
-  overflow-y: auto;
-  display: grid;
-  gap: .55rem;
-  pointer-events: none;
-}
 .item-channel {
   position: fixed;
   left: 26.5rem;
@@ -979,17 +1067,76 @@ body:has(#command-palette[open]) #hover-card {
   gap: .55rem;
   pointer-events: none;
 }
-.clue-channel {
-  position: fixed;
-  left: 26.5rem;
-  top: 9rem;
-  z-index: 90;
-  width: min(27rem, calc(100vw - 7rem));
-  max-height: min(48vh, 30rem);
-  overflow-y: auto;
+.spotlight-channel[hidden],
+.npc-channel:empty,
+.faction-channel:empty,
+.location-channel:empty,
+.item-channel:empty,
+.clue-channel:empty {
+  display: none !important;
+}
+.run-reference-rail .quick-ref-widget {
+  position: static !important;
+  left: auto !important;
+  right: auto !important;
+  top: auto !important;
+  bottom: auto !important;
+  width: auto;
+  max-height: none;
+  min-width: 0;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: none;
+  transform: none !important;
+}
+.run-reference-rail .quick-ref-header {
+  cursor: default;
+}
+.run-reference-rail .quick-ref-body {
+  max-height: min(40vh, 28rem);
+  overscroll-behavior: contain;
+}
+.run-reference-rail #hover-card {
+  position: relative;
+  display: none;
+  width: auto;
+  max-width: none;
+  max-height: min(42vh, 29rem);
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding: 2.35rem .78rem .78rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255,253,248,.98);
+  color: var(--ink);
+  box-shadow: none;
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  pointer-events: auto;
+}
+.run-reference-rail #hover-card.is-visible {
   display: grid;
-  gap: .55rem;
-  pointer-events: none;
+  gap: .45rem;
+}
+.run-reference-rail #hover-card[aria-hidden="true"]:not(.is-visible) {
+  display: none;
+}
+.run-reference-rail .spotlight-tray {
+  width: 100%;
+  height: auto;
+  display: grid;
+  gap: .45rem;
+}
+.run-reference-rail .spotlight-tray-toggle {
+  display: none;
+}
+.run-reference-rail .spotlight-tray-body {
+  position: static;
+  width: auto;
+  max-height: min(40vh, 28rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
 }
 .spotlight-card,
 .spotlight-pending,
@@ -1131,10 +1278,78 @@ body:has(#command-palette[open]) #hover-card {
 .clue-quick-card {
   pointer-events: none;
 }
+.npc-quick-card,
+.faction-quick-card,
+.location-quick-card,
+.item-quick-card,
+.clue-quick-card {
+  pointer-events: auto;
+  max-height: min(44vh, 29rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.run-reference-rail .npc-quick-card,
+.run-reference-rail .faction-quick-card,
+.run-reference-rail .location-quick-card,
+.run-reference-rail .item-quick-card,
+.run-reference-rail .clue-quick-card,
+.run-reference-rail .spotlight-card,
+.run-reference-rail .spotlight-pending {
+  width: 100%;
+  max-width: 100%;
+  box-shadow: none;
+}
+.run-reference-rail .npc-quick-card,
+.run-reference-rail .faction-quick-card,
+.run-reference-rail .location-quick-card,
+.run-reference-rail .item-quick-card,
+.run-reference-rail .clue-quick-card {
+  max-height: min(38vh, 25rem);
+  animation: none;
+}
+.npc-quick-card.is-collapsed,
+.faction-quick-card.is-collapsed,
+.location-quick-card.is-collapsed,
+.item-quick-card.is-collapsed,
+.clue-quick-card.is-collapsed {
+  pointer-events: none;
+  width: min(17rem, 100%);
+  max-height: 4.75rem;
+  gap: .16rem;
+  overflow: hidden;
+  padding: .5rem .62rem;
+  box-shadow: 0 .45rem 1.15rem rgba(20, 18, 12, .13);
+}
+.run-reference-rail .npc-quick-card.is-collapsed,
+.run-reference-rail .faction-quick-card.is-collapsed,
+.run-reference-rail .location-quick-card.is-collapsed,
+.run-reference-rail .item-quick-card.is-collapsed,
+.run-reference-rail .clue-quick-card.is-collapsed {
+  width: 100%;
+  max-height: 4.75rem;
+}
+.npc-quick-card.is-collapsed > :not(.npc-eyebrow):not(h2),
+.faction-quick-card.is-collapsed > :not(.npc-eyebrow):not(h2),
+.location-quick-card.is-collapsed > :not(.npc-eyebrow):not(h2),
+.item-quick-card.is-collapsed > :not(.npc-eyebrow):not(h2),
+.clue-quick-card.is-collapsed > :not(.npc-eyebrow):not(h2) {
+  display: none !important;
+}
+.npc-quick-card.is-collapsed h2,
+.faction-quick-card.is-collapsed h2,
+.location-quick-card.is-collapsed h2,
+.item-quick-card.is-collapsed h2,
+.clue-quick-card.is-collapsed h2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: .94rem;
+}
 .npc-quick-card h2,
 .faction-quick-card h2,
 .location-quick-card h2,
 .item-quick-card h2,
+.clue-quick-card h2,
 .npc-summon-card h3 {
   margin: 0;
   line-height: 1.12;
@@ -1162,6 +1377,7 @@ body:has(#command-palette[open]) #hover-card {
 .npc-eyebrow {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: .5rem;
   margin: 0;
   color: var(--muted);
@@ -1169,6 +1385,23 @@ body:has(#command-palette[open]) #hover-card {
   font-weight: 950;
   letter-spacing: .06em;
   text-transform: uppercase;
+}
+.quick-card-toggle {
+  pointer-events: auto;
+  min-height: 1.72rem;
+  padding: .16rem .44rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,.82);
+  color: var(--ink);
+  font-size: .68rem;
+  font-weight: 950;
+  line-height: 1;
+}
+.quick-card-toggle:hover,
+.quick-card-toggle:focus-visible {
+  border-color: color-mix(in srgb, var(--green) 60%, var(--line));
+  background: rgba(34,124,112,.14);
 }
 .npc-role-grid,
 .faction-role-grid,
@@ -1594,6 +1827,7 @@ html[data-theme="dark"] .spotlight-cta-row a {
   overflow-x: auto;
   padding: .35rem;
   scroll-snap-type: x proximity;
+  overscroll-behavior-x: contain;
 }
 .scrub-act-divider {
   flex: 0 0 auto;
@@ -2017,8 +2251,19 @@ html[data-theme="dark"] .scrub-cue-act { color: var(--amber); }
 .follow-toc { display: grid; gap: .45rem; }
 .follow-toc a { display: flex; justify-content: space-between; gap: 1rem; padding: .5rem; border: 1px solid var(--line); border-radius: 6px; text-decoration: none; }
 @media (max-width: 920px) {
-  .run-layout, .run-slide-card { grid-template-columns: 1fr; }
+  .run-layout {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "controls"
+      "slide"
+      "references";
+  }
+  .run-slide-card { grid-template-columns: 1fr; }
   .run-slide-stage { padding-inline: 0; }
+  .run-reference-rail {
+    position: static;
+    max-height: none;
+  }
   .map-slide-main .map-stage {
     position: relative;
     top: auto;
@@ -2054,43 +2299,6 @@ html[data-theme="dark"] .scrub-cue-act { color: var(--amber); }
   .run-side-panel { position: static; }
   .run-slide-jump { width: 100%; margin-left: 0; }
   .run-slide-jump select { max-width: 100%; width: 100%; }
-  .spotlight-channel {
-    right: 5.4rem;
-    bottom: 6.7rem;
-    width: auto;
-  }
-  .spotlight-tray-body {
-    width: min(21rem, calc(100vw - 6.1rem));
-  }
-  .npc-channel {
-    left: .7rem;
-    bottom: 6.7rem;
-    width: min(21rem, calc(100vw - 6.1rem));
-  }
-  .faction-channel {
-    left: .7rem;
-    top: 7.8rem;
-    width: min(21rem, calc(100vw - 6.1rem));
-    max-height: min(35vh, 22rem);
-  }
-  .location-channel {
-    right: .7rem;
-    top: 7.8rem;
-    width: min(21rem, calc(100vw - 6.1rem));
-    max-height: min(35vh, 22rem);
-  }
-  .item-channel {
-    left: .7rem;
-    bottom: 13.6rem;
-    width: min(21rem, calc(100vw - 6.1rem));
-    max-height: min(34vh, 21rem);
-  }
-  .clue-channel {
-    left: .7rem;
-    top: 13.5rem;
-    width: min(21rem, calc(100vw - 6.1rem));
-    max-height: min(30vh, 19rem);
-  }
 }
 @media (max-width: 560px) {
   .run-layout {
@@ -2137,23 +2345,26 @@ html[data-theme="dark"] .scrub-cue-act { color: var(--amber); }
     gap: .35rem;
     padding-inline: .4rem;
   }
+  .run-reference-rail {
+    padding: .55rem;
+  }
+  .slideshow-run-page .gm-dock {
+    right: .6rem;
+    bottom: 4.8rem;
+  }
   .spotlight-channel {
-    position: fixed;
-    right: .7rem;
-    bottom: .7rem;
-    width: auto;
-    margin: 0;
-  }
-  .spotlight-tray-body {
-    width: min(21rem, calc(100vw - 1.4rem));
-  }
-  .npc-channel {
-    position: static;
-    width: auto;
-    margin: .5rem;
+    right: .6rem;
+    bottom: 8.55rem;
   }
   .spotlight-pending-grid {
     grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 560px) {
+  .slideshow-run-page .gm-dock {
+    position: static;
+    width: fit-content;
+    margin: .45rem .7rem 0 auto;
   }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -2165,7 +2376,7 @@ html[data-theme="dark"] .scrub-cue-act { color: var(--amber); }
   }
 }
 @media print {
-  .run-topbar, .run-side-panel, .run-bottom-scrubber, .player-display-tools, .run-throw-actions, .run-inline-affordance, .run-table-action-head, .run-table-throw-actions, .spotlight-channel, .npc-channel, .faction-channel, .location-channel, .item-channel, .clue-channel { display: none !important; }
+  .run-topbar, .run-side-panel, .run-bottom-scrubber, .player-display-tools, .run-throw-actions, .run-inline-affordance, .run-table-action-head, .run-table-throw-actions, .run-reference-rail, .spotlight-channel, .npc-channel, .faction-channel, .location-channel, .item-channel, .clue-channel { display: none !important; }
   .run-throwable-text { padding-right: 0 !important; background: transparent !important; outline: 0 !important; }
   .run-layout, .run-slide-card, .player-slide { display: block; padding: 0; }
   .slide-main, .slide-panel, .follow-current, .follow-toc { box-shadow: none; border-color: #999; }

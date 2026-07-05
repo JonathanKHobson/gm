@@ -44,4 +44,4 @@ Player-safe note: Next damage roll adds +1d6.
 - Visual Gallery: primary Primary wiki image primary assets/entities/grindstone-vial.webp Grindstone Vial primary wiki image visual. Grindstone Vial: Primary wiki image. fallback_type_icon True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 5b31ba4b4b0a8820 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 5b31ba4b4b0a8820 | Source hash 6753a06c32e5dca07a19eb73

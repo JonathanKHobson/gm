@@ -1,6 +1,6 @@
 %PDF-1.4
 1 0 obj
-<< /Length 2529 >>
+<< /Length 2523 >>
 stream
 BT
 /F1 10 Tf
@@ -40,9 +40,9 @@ T*
 T*
 (- Maptype: environment) Tj
 T*
-(- Sectionid: ACT-FOUR) Tj
+(- Sectionid: PROLOGUE) Tj
 T*
-(- Sectiontitle: Act Four: The Hanging Office) Tj
+(- Sectiontitle: Prologue: The Contract) Tj
 T*
 (- Title: SablewoodTM Logistics Preserve Location Map) Tj
 T*
@@ -401,9 +401,9 @@ T*
 T*
 () Tj
 T*
-(Build 2026-06-23T21:40:58 | Content hash d609e4d005684064 | Source hash) Tj
+(Build 2026-07-05T12:33:16 | Content hash ad138e9b82141f24 | Source hash) Tj
 T*
-(dac3370046ed077140fab2d6) Tj
+(6753a06c32e5dca07a19eb73) Tj
 T*
 () Tj
 T*
@@ -426,18 +426,18 @@ xref
 0 12
 0000000000 65535 f 
 0000000009 00000 n 
-0000002590 00000 n 
-0000002717 00000 n 
-0000006770 00000 n 
-0000006897 00000 n 
-0000011202 00000 n 
-0000011329 00000 n 
-0000014029 00000 n 
-0000014156 00000 n 
-0000014231 00000 n 
-0000014281 00000 n 
+0000002584 00000 n 
+0000002711 00000 n 
+0000006764 00000 n 
+0000006891 00000 n 
+0000011196 00000 n 
+0000011323 00000 n 
+0000014023 00000 n 
+0000014150 00000 n 
+0000014225 00000 n 
+0000014275 00000 n 
 trailer
 << /Size 12 /Root 10 0 R >>
 startxref
-14354
+14348
 %%EOF

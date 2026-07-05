@@ -19,4 +19,4 @@ Being surrounded, misread as a monster, or driven toward Root's Hollow, Underroo
 - Read posture, tracks, and what it is protecting.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 9e4e6f1163e29bff | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 9e4e6f1163e29bff | Source hash 6753a06c32e5dca07a19eb73

@@ -46,4 +46,4 @@ Artemis Inc: Artemis Inc™ makes the wild terrifying, the locals unreliable, an
 - Visual Gallery: primary Primary wiki image primary assets/logos/artemis-inc.webp Artemis Inc primary wiki image visual. Artemis Inc: Primary wiki image. image_gen True True faction-logo-source Faction logo faction-logo assets/entity-gallery/artemis-inc/faction-logo-source.webp Artemis Inc faction logo visual. Artemis Inc: Faction logo. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/logos/artemis-inc.webp faction-representative-source Representative scene faction-representative assets/entity-gallery/artemis-inc/faction-representative-source.webp Artemis Inc representative scene visual. Artemis Inc: Representative scene. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/representative/artemis-inc.png
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 4256c856227a69c1 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 4256c856227a69c1 | Source hash 6753a06c32e5dca07a19eb73

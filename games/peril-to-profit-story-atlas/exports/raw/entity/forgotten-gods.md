@@ -46,4 +46,4 @@ Player-safe note: Nameless old powers still honored by Hush and feared by the Cu
 - Visual Gallery: primary Primary wiki image primary assets/logos/forgotten-gods.webp Forgotten Gods primary wiki image visual. Forgotten Gods: Primary wiki image. image_gen True True faction-logo-source Faction logo faction-logo assets/entity-gallery/forgotten-gods/faction-logo-source.webp Forgotten Gods faction logo visual. Forgotten Gods: Faction logo. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/logos/forgotten-gods.webp faction-representative-source Representative scene faction-representative assets/entity-gallery/forgotten-gods/faction-representative-source.webp Forgotten Gods representative scene visual. Forgotten Gods: Representative scene. faction_visual_assets True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/faction_visual_assets/representative/forgotten-gods.png
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 8330c0e3df7ac776 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 8330c0e3df7ac776 | Source hash 6753a06c32e5dca07a19eb73

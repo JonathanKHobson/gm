@@ -46,4 +46,4 @@ Player-safe note: Broken mud lines and wheel scars that show the cart was disabl
 - Visual Gallery: primary Primary wiki image primary assets/clue-images/overturned-wheel-ruts/profile_base.webp Overturned Wheel Ruts primary wiki image visual. Overturned Wheel Ruts: Primary wiki image. clue_visual_profile True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash fc2c5272da3e0e48 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash fc2c5272da3e0e48 | Source hash 6753a06c32e5dca07a19eb73

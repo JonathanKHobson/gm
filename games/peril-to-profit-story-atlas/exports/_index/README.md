@@ -2,10 +2,10 @@
 
 This folder is the local front door for reviewing static Story Atlas exports without opening the Atlas app.
 
-Build timestamp: 2026-06-23T21:40:58
-Source content hash: dac3370046ed077140fab2d6
-Entries in manifest: 446
-Player handouts available: 403
+Build timestamp: 2026-07-05T12:33:16
+Source content hash: 6753a06c32e5dca07a19eb73
+Entries in manifest: 455
+Player handouts available: 412
 
 ## Start Here
 

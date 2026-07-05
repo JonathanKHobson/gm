@@ -40,4 +40,4 @@ Say: "This is the finale hub. Use it for arrival, the Short Rest, the ritual sta
 - custodian_fate Custodian Fate select unresolved well drained dying
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash bf888b9fada9fea4 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash bf888b9fada9fea4 | Source hash 6753a06c32e5dca07a19eb73

@@ -45,4 +45,4 @@ Player-safe note: A crouched strixwolf pup with darker back feathers, round eyes
 - Visual Gallery: primary Primary wiki image primary assets/creature-images/strixwolf-pup-two/portrait_base.webp Strixwolf Pup Two primary wiki image visual. Strixwolf Pup Two: Primary wiki image. creature_images True True creature-variant-1 Variant 1 creature-variant assets/entity-gallery/strixwolf-pup-two/creature-variant-1.webp Strixwolf Pup Two variant 1 visual. Strixwolf Pup Two: Variant 1. curated_variant True /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/creature_images/strixwolf-pup-two/variants/legacy-current.png
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 20ec4a5f76204961 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 20ec4a5f76204961 | Source hash 6753a06c32e5dca07a19eb73

@@ -12,8 +12,8 @@ The Refuge is prosperous because people learned how to survive Sablewood, not be
 - Id: MAP-LOC-the-refuge
 - Type: map
 - Maptype: environment
-- Sectionid: STORY
-- Sectiontitle: Map Board
+- Sectionid: MAPS
+- Sectiontitle: Location Maps
 - Title: The Refuge Location Map
 - Shorttitle: The Refuge
 - Order: 851.0
@@ -46,4 +46,4 @@ The Refuge is prosperous because people learned how to survive Sablewood, not be
 - Totalslides: 110
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 424b3a4784915c87 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 20d341c23fca23ce | Source hash 6753a06c32e5dca07a19eb73

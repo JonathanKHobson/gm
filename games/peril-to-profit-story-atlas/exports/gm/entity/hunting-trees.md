@@ -18,4 +18,4 @@ No forced reveal. Let this entity disclose truth through scene context and playe
 Use as environment-scale threat unless Kyle turns them into a combat scene; their horror is village pressure, not a random tree fight.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash f695d49e1e57eedc | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash f695d49e1e57eedc | Source hash 6753a06c32e5dca07a19eb73

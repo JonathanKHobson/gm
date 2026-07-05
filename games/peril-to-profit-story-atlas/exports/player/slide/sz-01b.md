@@ -21,4 +21,4 @@ This is an adult game, but not a grimdark or graphic game. Likely content: comba
 - If anything I describe or any action at the table makes you uncomfortable, say pause, slow down, rewind, or break.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash f14beb4deb313381 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash f14beb4deb313381 | Source hash 6753a06c32e5dca07a19eb73

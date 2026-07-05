@@ -7,7 +7,7 @@
   "title": "MAP-LOC-old-sable-canopy-road - Old Sable Canopy Road Location Map",
   "in_world_label": "Run Mode Slide Briefing",
   "brand_flag": "Run Mode",
-  "kicker": "Map Board",
+  "kicker": "Location Maps",
   "hook": "The canopy road feels like travel through the forest's memory: dim green light, root-shadow bends, and old markers half-swallowed by moss.",
   "blocks": [
     {
@@ -29,8 +29,8 @@
   "featured": false,
   "handout_policy": "generate",
   "watermark": "Goldspire Story Atlas - slide:MAP-LOC-old-sable-canopy-road",
-  "build_timestamp": "2026-06-23T21:40:58",
-  "source_content_hash": "dac3370046ed077140fab2d6",
-  "content_hash": "0caba50c08592386",
-  "generated_at": "2026-06-23T21:40:58"
+  "build_timestamp": "2026-07-05T12:33:16",
+  "source_content_hash": "6753a06c32e5dca07a19eb73",
+  "content_hash": "02f15dd08b1e56ab",
+  "generated_at": "2026-07-05T12:33:16"
 }

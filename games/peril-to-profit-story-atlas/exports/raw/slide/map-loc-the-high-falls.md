@@ -12,8 +12,8 @@ The High Falls drown speech in blue-white spray where the Lucent River drops int
 - Id: MAP-LOC-the-high-falls
 - Type: map
 - Maptype: environment
-- Sectionid: STORY
-- Sectiontitle: Map Board
+- Sectionid: MAPS
+- Sectiontitle: Location Maps
 - Title: The High Falls Location Map
 - Shorttitle: The High Falls
 - Order: 850.9
@@ -46,4 +46,4 @@ The High Falls drown speech in blue-white spray where the Lucent River drops int
 - Totalslides: 110
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash d8bbb91f26f2a061 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash b49e17f4fc9d3326 | Source hash 6753a06c32e5dca07a19eb73

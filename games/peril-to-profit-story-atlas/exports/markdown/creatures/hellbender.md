@@ -45,4 +45,4 @@ Player-safe note: The old Hellbender is the story people tell when the ground he
 - Visual Gallery: primary Primary wiki image primary assets/creature-images/hellbender/portrait_base.webp Hellbender primary wiki image visual. Hellbender: Primary wiki image. creature_images True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 695f7316d1e07e8b | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 695f7316d1e07e8b | Source hash 6753a06c32e5dca07a19eb73

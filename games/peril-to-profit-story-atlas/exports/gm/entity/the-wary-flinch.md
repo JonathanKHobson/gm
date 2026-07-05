@@ -51,4 +51,4 @@ Use when players need a tangible handle on the scene's pressure.
 - Visual Assets: profile_base Clue evidence image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/the-wary-flinch/profile_base.png assets/clue-images/the-wary-flinch/profile_base.webp ready The Wary Flinch clue image. The creature watches your every movement and shrinks from it — ears flat, wings tucked, ready to bolt, not to pounce. It is more afraid of you than you are of it.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 6f36c68c19d047bb | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 6f36c68c19d047bb | Source hash 6753a06c32e5dca07a19eb73

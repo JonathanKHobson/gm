@@ -3,14 +3,14 @@
 GM export - rule:short-rest
 
 ## What it is
-About an hour to recover and prepare.
+About an hour to recover and prepare; the GM gains 1d4 Fear.
 
 ## How it works
 Use at the Open Vale rest beat or similar downtime.
 
 ## Step by step
 - Use at the Open Vale rest beat or similar downtime.
-- Tend Wounds, Clear Stress, Repair Armor, or Prepare.
+- Each PC chooses two downtime moves. The GM gains 1d4 Fear, then play returns with refreshed pressure.
 - Return to the fiction with the concrete result, cost, or benefit.
 
 ## Try it
@@ -25,4 +25,4 @@ What can I do on a short rest?
 Official SRD / local quickstart reference. Use private full-rulebook material only at the table.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 331363deab5a257d | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 57bcbe4d63146126 | Source hash 6753a06c32e5dca07a19eb73

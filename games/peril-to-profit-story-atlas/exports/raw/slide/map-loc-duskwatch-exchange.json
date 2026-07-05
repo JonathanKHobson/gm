@@ -4,10 +4,10 @@
   "kind": "slide",
   "id": "MAP-LOC-duskwatch-exchange",
   "title": "MAP-LOC-duskwatch-exchange - Duskwatch Exchange Location Map",
-  "generated_at": "2026-06-23T21:40:58",
-  "build_timestamp": "2026-06-23T21:40:58",
-  "source_content_hash": "dac3370046ed077140fab2d6",
-  "content_hash": "6a3fcfabbda46ed5",
+  "generated_at": "2026-07-05T12:33:16",
+  "build_timestamp": "2026-07-05T12:33:16",
+  "source_content_hash": "6753a06c32e5dca07a19eb73",
+  "content_hash": "6eb30b4d568e6946",
   "sections": [
     {
       "title": "Player text",
@@ -23,8 +23,8 @@
         "Id: MAP-LOC-duskwatch-exchange",
         "Type: map",
         "Maptype: environment",
-        "Sectionid: STORY",
-        "Sectiontitle: Map Board",
+        "Sectionid: MAPS",
+        "Sectiontitle: Location Maps",
         "Title: Duskwatch Exchange Location Map",
         "Shorttitle: Duskwatch Exchange",
         "Order: 850.7",
@@ -59,7 +59,7 @@
     },
     {
       "title": "Export Stamp",
-      "body": "Build 2026-06-23T21:40:58 | Content hash 6a3fcfabbda46ed5 | Source hash dac3370046ed077140fab2d6"
+      "body": "Build 2026-07-05T12:33:16 | Content hash 6eb30b4d568e6946 | Source hash 6753a06c32e5dca07a19eb73"
     }
   ]
 }

@@ -45,4 +45,4 @@ Player-safe note: A reinforced hired carriage whose practical details make the c
 - Visual Gallery: primary Primary wiki image primary assets/entities/escort-carriage.webp Escort Carriage primary wiki image visual. Escort Carriage: Primary wiki image. image_gen True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 6d48672794c6c26b | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 6d48672794c6c26b | Source hash 6753a06c32e5dca07a19eb73

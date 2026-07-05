@@ -12,8 +12,8 @@ Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low la
 - Id: MAP-LOC-underroot
 - Type: map
 - Maptype: environment
-- Sectionid: STORY
-- Sectiontitle: Map Board
+- Sectionid: MAPS
+- Sectiontitle: Location Maps
 - Title: Underroot Location Map
 - Shorttitle: Underroot
 - Order: 850.4
@@ -46,4 +46,4 @@ Underroot is not a dungeon; it is a concealed neighborhood of root rooms, low la
 - Totalslides: 110
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 9dd87fd8f412a6ee | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 34413c3dee301473 | Source hash 6753a06c32e5dca07a19eb73

@@ -1376,6 +1376,12 @@ Player handout pack
 - Spend Hope, describe the help, and add the help die.
 - Return to the fiction with the concrete result, cost, or benefit.
 
+## Group Action Rolls
+- A shared action where one PC leads and the other PCs support with reaction rolls.
+- Use when several PCs work on the same task together and one clear leader makes sense.
+- Choose a leader. Other PCs describe help and make reaction rolls; their successes and failures adjust the leader's action roll.
+- Return to the fiction with the concrete result, cost, or benefit.
+
 ## Tag Team Roll
 - A bigger shared action fueled by Hope.
 - Use for a dramatic two-PC combined effort.
@@ -1400,10 +1406,40 @@ Player handout pack
 - Roll d20 plus ATK against the target's Evasion.
 - Return to the fiction with the concrete result, cost, or benefit.
 
+## Attack Rolls
+- Action rolls intended to inflict harm with a weapon, spell, or unarmed strike.
+- Use when a PC attacks an adversary or a feature calls for an attack roll.
+- Make the relevant action roll against the target Difficulty, then roll damage on a success.
+- Return to the fiction with the concrete result, cost, or benefit.
+
+## Spellcast Rolls
+- Trait rolls using a character's Spellcast trait when a feature requires one.
+- Use only when the feature, spell, or card calls for a Spellcast Roll.
+- Use your Spellcast trait when the feature says to make a Spellcast Roll.
+- Return to the fiction with the concrete result, cost, or benefit.
+
 ## Evasion
 - The target number adversaries roll against to hit a PC.
 - Use when resolving adversary attacks.
 - The closest Daggerheart equivalent is Evasion.
+- Return to the fiction with the concrete result, cost, or benefit.
+
+## Proficiency
+- The number that sets how many damage dice a PC rolls with weapons and many damaging features.
+- Use after a successful PC attack or when a feature references Proficiency.
+- Roll a number of damage dice equal to Proficiency, then add the listed modifier.
+- Return to the fiction with the concrete result, cost, or benefit.
+
+## Unarmed Attacks
+- Attacks without a weapon use Strength or Finesse and deal Proficiency d4 physical damage on a success.
+- Use when a PC punches, kicks, tackles, or otherwise attacks without a listed weapon.
+- Yes. Use Strength or Finesse as fits the fiction, then roll Proficiency d4 damage on a hit.
+- Return to the fiction with the concrete result, cost, or benefit.
+
+## Attack of Opportunity
+- A Warrior feature that punishes an adversary leaving Melee range.
+- Use for Garrick when an adversary in Melee tries to leave that range.
+- If the feature applies, make the reaction roll and choose the listed success effect from the sheet.
 - Return to the fiction with the concrete result, cost, or benefit.
 
 ## Damage Thresholds
@@ -1431,9 +1467,9 @@ Player handout pack
 - Return to the fiction with the concrete result, cost, or benefit.
 
 ## Short Rest
-- About an hour to recover and prepare.
+- About an hour to recover and prepare; the GM gains 1d4 Fear.
 - Use at the Open Vale rest beat or similar downtime.
-- Tend Wounds, Clear Stress, Repair Armor, or Prepare.
+- Each PC chooses two downtime moves. The GM gains 1d4 Fear, then play returns with refreshed pressure.
 - Return to the fiction with the concrete result, cost, or benefit.
 
 ## Level Up
@@ -1460,10 +1496,28 @@ Player handout pack
 - Use the range band that best fits the fiction.
 - Return to the fiction with the concrete result, cost, or benefit.
 
+## Falling / Collision Damage
+- SRD guidance for falls and dangerous-speed collisions.
+- Use when a fall or collision is a real consequence already established in the fiction.
+- Use the SRD fall/collision guide and scale it to the range, speed, and established danger.
+- Return to the fiction with the concrete result, cost, or benefit.
+
+## Fate Rolls
+- A one-die roll when the GM leaves an outcome entirely to chance.
+- Use when the PCs are not directly causing the result but chance should decide a detail.
+- Name the stakes first, then roll one Duality Die and interpret it openly.
+- Return to the fiction with the concrete result, cost, or benefit.
+
 ## Conditions
 - The Atlas uses only official global conditions: Hidden, Restrained, Vulnerable.
 - Use when a rule or clear fiction creates one of those states.
 - They change tactical position in specific official ways.
+- Return to the fiction with the concrete result, cost, or benefit.
+
+## Temporary Effects
+- Temporary conditions or effects can be cleared through the listed move, feature text, natural end, or spell/Fear procedure.
+- Use when a feature says an effect or condition is temporary.
+- Use the effect text first. If it is a temporary condition, clear it through the appropriate move or spotlight procedure.
 - Return to the fiction with the concrete result, cost, or benefit.
 
 ## Hidden
@@ -1552,9 +1606,9 @@ Player handout pack
 - Return to the fiction with the concrete result, cost, or benefit.
 
 ## Long Rest
-- A deeper downtime recovery and reset structure used when the story has enough time.
+- Extended downtime recovery; the GM gains 1d4 plus the number of PCs in Fear and may advance a long-term countdown.
 - Use between adventures or when a sequel session gives the party real downtime.
-- Not during immediate danger. Use short rest inside the one-shot; save long rest for between-session recovery or continuation play.
+- Not during immediate danger. Use short rest inside the one-shot; save long rest for continuation play and long-term pressure.
 - Return to the fiction with the concrete result, cost, or benefit.
 
 ## Disposition / Resolution Track
@@ -2166,4 +2220,4 @@ Player handout pack
 - Ask one practical question before acting.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash bb37aea68192b5b9 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash b24de482a23ed768 | Source hash 6753a06c32e5dca07a19eb73

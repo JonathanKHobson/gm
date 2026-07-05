@@ -784,8 +784,8 @@
       }
     ],
     "schematicSourceImage": "story-atlas/src/map_assets/MAP-S05-03.png",
-    "schematicImage": "assets/maps/MAP-S05-03-schematic.webp",
-    "schematicPlayerSafeImage": "assets/maps/MAP-S05-03-schematic-player.webp",
+    "schematicImage": "assets/maps/MAP-S05-03-schematic.png",
+    "schematicPlayerSafeImage": "assets/maps/MAP-S05-03-schematic-player.png",
     "battlemapSourceImage": "story-atlas/src/ai_battlemap_assets/MAP-S05-03.png",
     "aiSourceImage": "story-atlas/src/ai_battlemap_assets/MAP-S05-03.png",
     "sourceImage": "story-atlas/src/ai_battlemap_assets/MAP-S05-03.png",

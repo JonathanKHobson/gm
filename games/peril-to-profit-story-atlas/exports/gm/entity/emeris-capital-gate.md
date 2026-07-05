@@ -49,4 +49,4 @@ Introduce with sensory texture, then make one discoverable clue or social choice
 - Imagine It Like: Think the last cheerful toll plaza before a haunted national forest, crossed with a medieval festival gate. There are snacks, stamps, and lanterns under the arch, but every wheel that rolls through seems to get a little quieter.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 3bf1729a3b71d9c2 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 3bf1729a3b71d9c2 | Source hash 6753a06c32e5dca07a19eb73

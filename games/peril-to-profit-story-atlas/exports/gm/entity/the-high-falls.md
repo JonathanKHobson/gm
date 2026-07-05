@@ -49,4 +49,4 @@ Introduce with sensory texture, then make one discoverable clue or social choice
 - Imagine It Like: A thundering waterfall with a cave behind it, like the walkways behind Niagara. Think roaring mist, slick rock, and a hidden mouth in the cliff nobody wants to talk about.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash a48c2b0c3ae0ef1d | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash a48c2b0c3ae0ef1d | Source hash 6753a06c32e5dca07a19eb73

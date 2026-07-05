@@ -54,4 +54,4 @@ Use when the scene needs a concrete object for players to inspect, carry, debate
 - Visual Assets: profile_base Item profile image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/sable-sap/profile_base.png assets/item-images/sable-sap/profile_base.webp ready Sable Sap item illustration. Warm amber sap beads from a crack in a huge trunk like the tree is breathing it out. It smells of honey, woodsmoke, and something older.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash f55b50302b44d688 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash f55b50302b44d688 | Source hash 6753a06c32e5dca07a19eb73

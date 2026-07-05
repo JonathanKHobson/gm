@@ -47,4 +47,4 @@ Sablewood field-guide faction and future-route texture; not a main one-shot anta
 - Imagine It Like: Think a luxury concierge service for a death-forest, a Centurion card for freight, a Michelin guide that rates how expensively you can almost die.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash f9f63844f798abba | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash f9f63844f798abba | Source hash 6753a06c32e5dca07a19eb73

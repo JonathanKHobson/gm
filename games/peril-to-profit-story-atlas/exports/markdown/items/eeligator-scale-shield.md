@@ -49,4 +49,4 @@ HEXMART REMINDS YOU: Genuine eeligator scale is unregulated wildlife and may car
 - Visual Gallery: primary Primary wiki image primary assets/item-images/eeligator-scale-shield/profile_base.webp Eeligator Scale Shield primary wiki image visual. Eeligator Scale Shield: Primary wiki image. item_visual_profile True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 3ea175df3d073220 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 3ea175df3d073220 | Source hash 6753a06c32e5dca07a19eb73

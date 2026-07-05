@@ -1,6 +1,6 @@
 %PDF-1.4
 1 0 obj
-<< /Length 2776 >>
+<< /Length 2779 >>
 stream
 BT
 /F1 10 Tf
@@ -40,9 +40,9 @@ T*
 T*
 (- Maptype: environment) Tj
 T*
-(- Sectionid: STORY) Tj
+(- Sectionid: MAPS) Tj
 T*
-(- Sectiontitle: Map Board) Tj
+(- Sectiontitle: Location Maps) Tj
 T*
 (- Title: Root's Hollow Location Map) Tj
 T*
@@ -288,9 +288,9 @@ T*
 T*
 () Tj
 T*
-(Build 2026-06-23T21:40:58 | Content hash c1369ba3c32e3022 | Source hash) Tj
+(Build 2026-07-05T12:33:16 | Content hash a30e280d1f638208 | Source hash) Tj
 T*
-(dac3370046ed077140fab2d6) Tj
+(6753a06c32e5dca07a19eb73) Tj
 T*
 () Tj
 T*
@@ -313,16 +313,16 @@ xref
 0 10
 0000000000 65535 f 
 0000000009 00000 n 
-0000002837 00000 n 
-0000002963 00000 n 
-0000007219 00000 n 
-0000007345 00000 n 
-0000009849 00000 n 
-0000009975 00000 n 
-0000010044 00000 n 
-0000010093 00000 n 
+0000002840 00000 n 
+0000002966 00000 n 
+0000007222 00000 n 
+0000007348 00000 n 
+0000009852 00000 n 
+0000009978 00000 n 
+0000010047 00000 n 
+0000010096 00000 n 
 trailer
 << /Size 10 /Root 8 0 R >>
 startxref
-10165
+10168
 %%EOF

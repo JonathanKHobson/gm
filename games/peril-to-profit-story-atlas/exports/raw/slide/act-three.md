@@ -46,4 +46,4 @@ Reach the village, find the person who can receive the package, and deliver it.
 - Totalslides: 110
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash ac21b375209985bf | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash ac21b375209985bf | Source hash 6753a06c32e5dca07a19eb73

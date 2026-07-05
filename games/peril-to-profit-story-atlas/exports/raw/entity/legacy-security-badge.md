@@ -45,4 +45,4 @@ Player-safe note: A broken badge naming a defunct unit rather than a current bos
 - Visual Gallery: primary Primary wiki image primary assets/clue-images/legacy-security-badge/profile_base.webp Legacy Security Badge primary wiki image visual. Legacy Security Badge: Primary wiki image. clue_visual_profile True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 87ddbeaa2e6f5566 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 87ddbeaa2e6f5566 | Source hash 6753a06c32e5dca07a19eb73

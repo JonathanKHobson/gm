@@ -37,4 +37,4 @@ Tamsin's cracked Pocket Ward and scavenged Bramble charms show what ordinary saf
 - Imagine It Like: Think Spacer's Choice from The Outer Worlds ('it's not the best ward, it's the Hexmart ward'), a dollar store crossed with a carnival, the Dollar General of Diagon Alley. Aggressively cheerful, faintly cursed.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash f05268013a33f590 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash f05268013a33f590 | Source hash 6753a06c32e5dca07a19eb73

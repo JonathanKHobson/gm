@@ -18,4 +18,4 @@ No forced reveal. Let this entity disclose truth through scene context and playe
 Use to invite gentle action: distance, food, lowered weapons, and player descriptions of care.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 32258e28f949603d | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 32258e28f949603d | Source hash 6753a06c32e5dca07a19eb73

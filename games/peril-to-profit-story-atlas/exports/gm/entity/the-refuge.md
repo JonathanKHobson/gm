@@ -49,4 +49,4 @@ Introduce with sensory texture, then make one discoverable clue or social choice
 - Imagine It Like: A mountain refuge hut or a hostel for through-hikers, crossed with a quiet field clinic. Think trail shelter where strangers patch each other up and trade warnings.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 192a87784c8ed1e6 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 192a87784c8ed1e6 | Source hash 6753a06c32e5dca07a19eb73

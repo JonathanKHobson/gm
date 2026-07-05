@@ -12,8 +12,8 @@ The canopy road feels like travel through the forest's memory: dim green light, 
 - Id: MAP-LOC-old-sable-canopy-road
 - Type: map
 - Maptype: environment
-- Sectionid: STORY
-- Sectiontitle: Map Board
+- Sectionid: MAPS
+- Sectiontitle: Location Maps
 - Title: Old Sable Canopy Road Location Map
 - Shorttitle: Old Sable Canopy Road
 - Order: 850.1
@@ -46,4 +46,4 @@ The canopy road feels like travel through the forest's memory: dim green light, 
 - Totalslides: 110
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 16256117c4aa12dd | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 14f08e20f69a9065 | Source hash 6753a06c32e5dca07a19eb73

@@ -52,4 +52,4 @@ Use when the scene needs a concrete object for players to inspect, carry, debate
 - Visual Assets: profile_base Clue evidence image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/clue_images/sable-sinecure-secret-caches/profile_base.png assets/clue-images/sable-sinecure-secret-caches/profile_base.webp ready Sable Sinecure Secret Caches clue image. A forest cache sitting in plain sight, apparently unguarded — which is exactly what makes it terrifying to the locals.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 6eef04e11e5a2b8d | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 6eef04e11e5a2b8d | Source hash 6753a06c32e5dca07a19eb73

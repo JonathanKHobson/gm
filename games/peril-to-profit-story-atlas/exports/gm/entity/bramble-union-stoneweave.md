@@ -54,4 +54,4 @@ Use when the scene needs a concrete object for players to inspect, carry, debate
 - Visual Assets: profile_base Item profile image /Users/kyle/Documents/My Games/Peril To Profit/story-atlas/src/item_images/bramble-union-stoneweave/profile_base.png assets/item-images/bramble-union-stoneweave/profile_base.webp ready Bramble Union Stoneweave item illustration. A garment of thousands of tiny polished stones moves like cloth and turns thorns like armor. Every fitted piece looks cut by hands that loved the work.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 0de674dcc5fc97af | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 0de674dcc5fc97af | Source hash 6753a06c32e5dca07a19eb73

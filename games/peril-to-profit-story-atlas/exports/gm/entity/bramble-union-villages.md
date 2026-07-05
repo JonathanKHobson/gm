@@ -49,4 +49,4 @@ Introduce with sensory texture, then make one discoverable clue or social choice
 - Imagine It Like: A hidden refugee or maroon community tucked off the map, crossed with a thorn-walled hill fort. Think off-grid settlement that survives by not being on anyone's route.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash dfd3fbef52919230 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash dfd3fbef52919230 | Source hash 6753a06c32e5dca07a19eb73

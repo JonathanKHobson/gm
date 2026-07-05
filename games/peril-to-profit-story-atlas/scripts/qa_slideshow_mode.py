@@ -1614,8 +1614,47 @@ def static_checks(checks: list[dict[str, Any]]) -> tuple[list[dict], list[dict]]
     add(checks, "static hover-card image/text controls are generated and rebound", "hover-card-media-wrap throwable-image-inline" in app_js and "staticThrowableTextChunk" in app_js and "setupPlayerSafeActions();" in app_js and "playerActionBound" in app_js, "")
     run_css = (DIST / "css" / "run-mode.css").read_text(encoding="utf-8", errors="ignore") if (DIST / "css" / "run-mode.css").exists() else ""
     add(checks, "spotlight tray is tucked and expandable", all(token in run_js for token in ["SPOTLIGHT_PANEL_KEY", "SPOTLIGHT_ATTENTION_KEY", "data-spotlight-toggle", "function setSpotlightTrayOpen"]) and all(token in run_css for token in [".spotlight-tray-toggle", ".spotlight-tray-body", ".spotlight-channel[hidden]", "spotlight-tray-nudge"]), "")
+    fixed_rail_channels = re.findall(r"\.run-reference-rail\s+\.(?:npc|faction|location|item|clue)-channel\s*\{[^}]*position:\s*fixed", run_css, flags=re.S)
+    add(
+        checks,
+        "Run Mode rail owns every quick-card channel",
+        "data-run-reference-rail" in run_html
+        and "run-reference-summary" in run_html
+        and ".run-reference-rail" in run_css
+        and "setupRunReferenceRail" in run_js
+        and "renderStableQuickCardChannel" in run_js
+        and not fixed_rail_channels
+        and all(token in run_html for token in ["data-spotlight-channel", "data-npc-channel", "data-faction-channel", "data-location-channel", "data-item-channel", "data-clue-channel", "data-run-quick-ref", 'id="hover-card"']),
+        {"fixedRailChannels": fixed_rail_channels[:5]},
+    )
     add(checks, "Run Clock controls are not countdown cue-card references", all(token not in run_html for token in ['data-run-clock-start data-mechanic="countdown"', 'data-run-clock-toggle data-mechanic="countdown"', 'data-mechanic="countdown">Run Clock']) and "data-run-clock-start data-mechanic" not in run_js, "")
-    add(checks, "Run Mode hover cards can be closed, temporarily suppressed, and avoid blocking new chips", all(token in run_js for token in ["data-hover-card-close", "suppressedTarget", "activeTarget", "close(true)"]) and "#hover-card.is-visible { pointer-events: none; }" in run_css and "#hover-card .hover-card-close" in run_css, "")
+    add(
+        checks,
+        "Run Mode hover cards can be closed, scrolled, temporarily suppressed, and avoid blocking new chips",
+        all(token in run_js for token in ["data-hover-card-close", "suppressedTarget", "activeTarget", "close(true)"])
+        and "#hover-card.is-visible { pointer-events: auto; }" in run_css
+        and "fixedInRail" in run_js
+        and "document.addEventListener(\"mouseover\", handleReferenceEnter)" in run_js
+        and "overscroll-behavior: contain" in run_css
+        and "#hover-card .hover-card-close" in run_css,
+        "",
+    )
+    add(
+        checks,
+        "collapsed Run Mode quick cards are click-through except for Open controls",
+        all(
+            token in run_css
+            for token in [
+                ".clue-quick-card.is-collapsed",
+                "pointer-events: none;",
+                ".quick-card-toggle",
+                "pointer-events: auto;",
+            ]
+        )
+        and "data-quick-card-toggle" in run_js
+        and "toggleQuickCard" in run_js,
+        "",
+    )
     add(checks, "optional Run Mode panels start collapsed by default", all(token not in run_js for token in ['per-character-panel" open', 'story-scope-panel" open', 'world-connection-panel" open', 'map-actions-panel" open', 'open><summary>Scene mechanics', 'open><summary>Roll cards', 'open><summary>Relevant state controls', 'open><summary>Key entities']) and 'player-beat-panel" open' in run_js, "")
     add(checks, "Run Clock has one canonical reset control plus explicit restart", "data-run-clock-restart" in run_html and "data-run-clock-restart" in app_js and "function runClockRestart" in app_js and run_html.count("data-run-clock-reset") == 1, {"resetCount": run_html.count("data-run-clock-reset"), "restartInHtml": "data-run-clock-restart" in run_html, "restartInJs": "data-run-clock-restart" in app_js})
     add(checks, "Run Clock uses explicit status/elapsed state model", "status: safeStatus" in app_js and "elapsedMs" in app_js and "segmentIndex" in app_js and "sceneIndex" in app_js and "sceneStartMs" in app_js and "segmentStartMs" in app_js, "")
@@ -1731,10 +1770,23 @@ def browser_checks(checks: list[dict[str, Any]]) -> None:
             )
             add(checks, "music sheet opens without moving side panel or active slide", music_overlay_stable, {"sideBefore": side_before, "sideAfter": side_after, "headingBefore": heading_before, "headingAfter": heading_after})
             add(checks, "Player Display has single music audio output", player.locator("[data-music-audio]").count() == 1 and run.locator("[data-music-audio]").count() == 0, "")
+            player_visual_before_music = player.evaluate(
+                """() => ({
+                    mode: document.body.dataset.displayMode || "",
+                    text: document.querySelector("[data-player-root]")?.innerText || ""
+                })"""
+            )
             run.locator('[data-music-action="play-pause"]').click()
             player.wait_for_function("() => !!document.querySelector('[data-music-audio]')?.getAttribute('src')", timeout=5000)
             first_music_src = player.evaluate("() => document.querySelector('[data-music-audio]')?.getAttribute('src') || ''")
             add(checks, "music play command reaches Player Display audio element", "assets/audio/" in first_music_src and first_music_src.endswith(".mp3"), first_music_src)
+            player_visual_after_music = player.evaluate(
+                """() => ({
+                    mode: document.body.dataset.displayMode || "",
+                    text: document.querySelector("[data-player-root]")?.innerText || ""
+                })"""
+            )
+            add(checks, "music play command does not change Player Display visual state", player_visual_after_music == player_visual_before_music, {"before": player_visual_before_music, "after": player_visual_after_music})
             run.locator('[data-music-action="next"]').click()
             player.wait_for_function("(oldSrc) => (document.querySelector('[data-music-audio]')?.getAttribute('src') || '') !== oldSrc", arg=first_music_src, timeout=5000)
             next_music_src = player.evaluate("() => document.querySelector('[data-music-audio]')?.getAttribute('src') || ''")
@@ -1747,19 +1799,198 @@ def browser_checks(checks: list[dict[str, Any]]) -> None:
             run.locator(".run-side-panel [data-run-clock-start]").hover()
             run.wait_for_timeout(350)
             add(checks, "Start Run Clock hover does not open countdown cue card", run.locator("#hover-card.is-visible").count() == 0, "")
+            reference_contract = run.evaluate(
+                """() => {
+                  const rect = (node) => {
+                    if (!node) return null;
+                    const r = node.getBoundingClientRect();
+                    return { left: r.left, top: r.top, right: r.right, bottom: r.bottom, width: r.width, height: r.height };
+                  };
+                  const overlap = (a, b) => !!a && !!b && a.left < b.right && a.right > b.left && a.top < b.bottom && a.bottom > b.top;
+                  const horizontalContains = (outer, inner) => !!outer && !!inner && inner.left >= outer.left - 1 && inner.right <= outer.right + 1;
+                  const clippedBox = (box, clip) => {
+                    if (!box || !clip) return null;
+                    const visible = {
+                      left: Math.max(box.left, clip.left),
+                      top: Math.max(box.top, clip.top),
+                      right: Math.min(box.right, clip.right),
+                      bottom: Math.min(box.bottom, clip.bottom),
+                    };
+                    visible.width = visible.right - visible.left;
+                    visible.height = visible.bottom - visible.top;
+                    return visible.width > 0 && visible.height > 0 ? visible : null;
+                  };
+                  const railNode = document.querySelector('[data-run-reference-rail]');
+                  const rail = rect(railNode);
+                  const protectedNodes = ['.run-topbar', '.run-slide-stage', '[data-music-panel]', '[data-gm-hud]'].map((selector) => ({ selector, box: rect(document.querySelector(selector)) })).filter((row) => row.box);
+                  const cards = [...document.querySelectorAll('[data-run-reference-rail] [data-quick-card], [data-run-reference-rail] [data-spotlight-tray], [data-run-reference-rail] [data-run-quick-ref]')]
+                    .filter((node) => node.offsetParent !== null)
+                    .map((node) => {
+                      const box = rect(node);
+                      return { label: node.dataset.quickCard || node.id || node.className || node.tagName, box, visibleBox: clippedBox(box, rail) };
+                    })
+                    .filter((row) => row.box && row.box.width > 0 && row.box.height > 0);
+                  const outsideRail = cards.filter((row) => !horizontalContains(rail, row.box));
+                  const collisions = cards.flatMap((card) => protectedNodes.filter((protectedNode) => overlap(card.visibleBox, protectedNode.box)).map((protectedNode) => ({ card: card.label, protected: protectedNode.selector })));
+                  return {
+                    ok: !!rail && railNode.open === true && cards.length > 0 && getComputedStyle(railNode).overflowY === 'auto' && outsideRail.length === 0 && collisions.length === 0,
+                    rail,
+                    open: railNode ? railNode.open : false,
+                    railOverflowY: railNode ? getComputedStyle(railNode).overflowY : '',
+                    cardCount: cards.length,
+                    outsideRail,
+                    collisions,
+                    channelPositions: ['npc', 'faction', 'location', 'item', 'clue'].map((kind) => {
+                      const node = document.querySelector(`[data-${kind}-channel]`);
+                      return { kind, position: node ? getComputedStyle(node).position : 'missing' };
+                    }),
+                    railContents: {
+                      npc: !!railNode?.querySelector('[data-npc-channel]'),
+                      faction: !!railNode?.querySelector('[data-faction-channel]'),
+                      item: !!railNode?.querySelector('[data-item-channel]'),
+                      location: !!railNode?.querySelector('[data-location-channel]'),
+                      clue: !!railNode?.querySelector('[data-clue-channel]'),
+                      gmRef: !!railNode?.querySelector('[data-run-quick-ref]'),
+                      spotlight: !!railNode?.querySelector('[data-spotlight-channel]'),
+                      hover: !!railNode?.querySelector('#hover-card')
+                    }
+                  };
+                }"""
+            )
+            add(checks, "Run Mode open rail docks all quick cards plus hover, GM reference, and spotlight", reference_contract.get("ok") and all(reference_contract.get("railContents", {}).get(kind) for kind in ["npc", "faction", "location", "item", "clue", "gmRef", "spotlight", "hover"]), reference_contract)
+            stable_quick_cards = run.evaluate(
+                """() => {
+                  const channels = ['npc', 'faction', 'location', 'item', 'clue'].map((kind) => document.querySelector(`[data-${kind}-channel]`));
+                  const before = channels.map((channel) => ({ channel, first: channel?.firstElementChild || null, html: channel?.innerHTML || '', scrollTop: channel?.scrollTop || 0 }));
+                  window.GoldspireRunMode?.npcs?.render?.();
+                  window.GoldspireRunMode?.factions?.render?.();
+                  window.GoldspireRunMode?.locations?.render?.();
+                  window.GoldspireRunMode?.items?.render?.();
+                  window.GoldspireRunMode?.clues?.render?.();
+                  const after = before.map((row) => ({ sameFirst: (row.channel?.firstElementChild || null) === row.first, sameHtml: (row.channel?.innerHTML || '') === row.html, sameScroll: (row.channel?.scrollTop || 0) === row.scrollTop }));
+                  return { ok: after.every((row) => row.sameFirst && row.sameHtml && row.sameScroll), after };
+                }"""
+            )
+            add(checks, "Run Mode quick-card render polling does not recreate unchanged cards", stable_quick_cards.get("ok"), stable_quick_cards)
+            gm_hud_contract = run.evaluate(
+                """() => {
+                  const rail = document.querySelector('[data-run-reference-rail]');
+                  const hud = document.querySelector('[data-gm-hud]');
+                  const rect = (node) => {
+                    if (!node) return null;
+                    const r = node.getBoundingClientRect();
+                    return { left: r.left, top: r.top, right: r.right, bottom: r.bottom, width: r.width, height: r.height };
+                  };
+                  const overlap = (a, b) => !!a && !!b && a.left < b.right && a.right > b.left && a.top < b.bottom && a.bottom > b.top;
+                  const styles = hud ? getComputedStyle(hud) : null;
+                  const hudBox = rect(hud);
+                  const topNode = hudBox ? document.elementFromPoint((hudBox.left + hudBox.right) / 2, (hudBox.top + hudBox.bottom) / 2) : null;
+                  return {
+	                    ok: !!hud
+	                      && !hud.closest('.run-side-panel')
+	                      && styles?.position === 'fixed'
+	                      && hudBox
+	                      && window.innerWidth - hudBox.right < 24
+	                      && window.innerHeight - hudBox.bottom > 80
+	                      && window.innerHeight - hudBox.bottom < 130
+	                      && (!!topNode && (topNode === hud || hud.contains(topNode)))
+	                      && !overlap(rect(hud), rect(document.querySelector('[data-music-panel]'))),
+                    position: styles?.position || '',
+                    visibleOnTop: !!topNode && (topNode === hud || hud.contains(topNode)),
+                    hud: rect(hud),
+                    rail: rect(rail)
+                  };
+                }"""
+            )
+            add(checks, "Run Mode Fear HUD remains a visible floating overlay", gm_hud_contract.get("ok"), gm_hud_contract)
+            if run.locator('[data-run-reference-rail] [data-location-card] [data-quick-card-toggle]').count() > 0:
+                run.locator('[data-run-reference-rail] [data-location-card] [data-quick-card-toggle]').first.click()
+                run.wait_for_selector('[data-run-reference-rail] [data-location-card]:not(.is-collapsed)', timeout=5000)
+                expanded_location_contract = run.evaluate(
+                    """() => {
+                      const card = document.querySelector('[data-run-reference-rail] [data-location-card]:not(.is-collapsed)');
+                      const stage = document.querySelector('.run-slide-stage');
+                      const music = document.querySelector('[data-music-panel]');
+                      const hud = document.querySelector('[data-gm-hud]');
+                      const rect = (node) => {
+                        if (!node) return null;
+                        const r = node.getBoundingClientRect();
+                        return { left: r.left, top: r.top, right: r.right, bottom: r.bottom, width: r.width, height: r.height };
+                      };
+                      const overlap = (a, b) => !!a && !!b && a.left < b.right && a.right > b.left && a.top < b.bottom && a.bottom > b.top;
+                      const styles = card ? getComputedStyle(card) : null;
+                      return {
+                        hudVisible: !!hud,
+                        ok: !!card && !!card.closest('[data-run-reference-rail]') && styles?.overflowY === 'auto' && !overlap(rect(card), rect(stage)) && !overlap(rect(card), rect(music)) && !!hud,
+                        overflowY: styles?.overflowY || '',
+                        maxHeight: styles?.maxHeight || '',
+                        card: rect(card),
+                        stage: rect(stage),
+                        music: rect(music),
+                        hud: rect(hud)
+                      };
+                    }"""
+                )
+                add(checks, "expanded location quick-card stays in rail, scrolls, and does not cover the beat or music", expanded_location_contract.get("ok"), expanded_location_contract)
+            else:
+                add(checks, "expanded location quick-card stays in rail, scrolls, and does not cover the beat or music", False, "No location card toggle rendered on S01-01")
 
             run.evaluate(
                 """() => {
                   localStorage.removeItem('goldspire-run-spotlights-v1');
                   localStorage.removeItem('goldspire-run-spotlight-panel-open-v1');
                   localStorage.removeItem('goldspire-run-spotlight-attention-v1');
+                  localStorage.removeItem('goldspire.referenceRail.open');
                 }"""
             )
             run.goto(f"{base_url}/run.html?slide=S01-03", wait_until="domcontentloaded")
-            run.wait_for_selector("[data-spotlight-toggle]", timeout=10000)
-            spotlight_body_hidden = run.locator("[data-spotlight-tray-body]").evaluate("node => node.hidden")
-            spotlight_attention = run.locator("[data-spotlight-channel]").evaluate("node => node.classList.contains('has-active') && node.classList.contains('has-attention')")
-            add(checks, "spotlight tray starts tucked with active-slide attention", spotlight_body_hidden and spotlight_attention, "")
+            run.wait_for_selector("[data-run-reference-rail] [data-spotlight-card]", timeout=30000)
+            rail_spotlight_contract = run.evaluate(
+                """() => {
+                  const rail = document.querySelector('[data-run-reference-rail]');
+                  const channel = document.querySelector('[data-spotlight-channel]');
+                  const body = document.querySelector('[data-spotlight-tray-body]');
+                  const toggle = document.querySelector('[data-spotlight-toggle]');
+                  return {
+                    ok: !!rail && rail.open === true && !!channel && rail.contains(channel) && channel.classList.contains('is-rail-docked') && !!body && body.hidden === false && !!toggle && getComputedStyle(toggle).display === 'none',
+                    railOpen: rail?.open,
+                    insideRail: !!(rail && channel && rail.contains(channel)),
+                    railDocked: !!channel?.classList.contains('is-rail-docked'),
+                    bodyHidden: body?.hidden,
+                    toggleDisplay: toggle ? getComputedStyle(toggle).display : 'missing'
+                  };
+                }"""
+            )
+            add(checks, "rail-open spotlight is auto-expanded without a visible dropdown toggle", rail_spotlight_contract.get("ok"), rail_spotlight_contract)
+            run.locator("[data-run-reference-rail] > summary").click()
+            run.wait_for_function("() => !document.querySelector('[data-run-reference-rail]')?.open", timeout=2000)
+            run.wait_for_selector("[data-spotlight-toggle]", timeout=5000)
+            floating_spotlight_contract = run.evaluate(
+                """() => {
+                  const rail = document.querySelector('[data-run-reference-rail]');
+                  const channel = document.querySelector('[data-spotlight-channel]');
+                  const toggle = document.querySelector('[data-spotlight-toggle]');
+                  const body = document.querySelector('[data-spotlight-tray-body]');
+                  const hud = document.querySelector('[data-gm-hud]');
+                  const rect = (node) => {
+                    if (!node) return null;
+                    const r = node.getBoundingClientRect();
+                    return { left: r.left, top: r.top, right: r.right, bottom: r.bottom, width: r.width, height: r.height };
+                  };
+                  const spotlight = rect(channel);
+                  const fear = rect(hud);
+                  return {
+                    ok: !!channel && !!toggle && !!hud && !rail?.contains(channel) && getComputedStyle(channel).position === 'fixed' && body?.hidden === true && !!spotlight && !!fear && spotlight.bottom <= fear.top - 4 && Math.abs(spotlight.right - fear.right) < 8,
+                    railOpen: rail?.open,
+                    insideRail: !!(rail && channel && rail.contains(channel)),
+                    position: channel ? getComputedStyle(channel).position : 'missing',
+                    bodyHidden: body?.hidden,
+                    spotlight,
+                    fear
+                  };
+                }"""
+            )
+            add(checks, "rail-closed spotlight is compact and stacked above the bottom-right Fear HUD", floating_spotlight_contract.get("ok"), floating_spotlight_contract)
             run.locator("[data-spotlight-toggle]").click()
             run.wait_for_selector("[data-spotlight-card]", timeout=5000)
             add(checks, "spotlight tray expands on click", run.locator("[data-spotlight-card]").count() > 0 and not run.locator("[data-spotlight-tray-body]").evaluate("node => node.hidden"), "")
@@ -1833,6 +2064,9 @@ def browser_checks(checks: list[dict[str, Any]]) -> None:
                 }"""
             )
             add(checks, "optional Run Mode reference panels are collapsed while player beats stay open", optional_panels_closed, "")
+            if not run.evaluate("() => document.querySelector('[data-run-reference-rail]')?.open === true"):
+                run.locator("[data-run-reference-rail] > summary").click()
+                run.wait_for_function("() => document.querySelector('[data-run-reference-rail]')?.open === true", timeout=2000)
             run.locator(".entity-panel").evaluate("(node) => { node.open = true; }")
             run.wait_for_selector('#run-slide-root [data-entity="goldspire-waymarkers"]', state="visible", timeout=10000)
             run.locator('#run-slide-root [data-entity="goldspire-waymarkers"]').first.hover()
@@ -1840,7 +2074,72 @@ def browser_checks(checks: list[dict[str, Any]]) -> None:
             hover_image_controls = run.locator('#hover-card .hover-card-media-wrap [data-run-inline-action="send-image"]').count()
             hover_text_controls = run.locator('#hover-card .hover-card-player-text [data-run-inline-action="send-text"]').count()
             add(checks, "Run Mode entity hover-card image/text controls appear", hover_image_controls > 0 and hover_text_controls > 0, {"hoverImageControls": hover_image_controls, "hoverTextControls": hover_text_controls})
-            run.locator('#hover-card .hover-card-media-wrap [data-run-inline-action="send-image"]').click()
+            hover_rail_contract = run.evaluate(
+                """() => {
+                  const card = document.querySelector('#hover-card.is-visible');
+                  const rail = document.querySelector('[data-run-reference-rail]');
+                  const stage = document.querySelector('.run-slide-stage');
+                  const music = document.querySelector('[data-music-panel]');
+                  const hud = document.querySelector('[data-gm-hud]');
+                  const rect = (node) => {
+                    if (!node) return null;
+                    const r = node.getBoundingClientRect();
+                    return { left: r.left, top: r.top, right: r.right, bottom: r.bottom, width: r.width, height: r.height };
+                  };
+                  const overlap = (a, b) => !!a && !!b && a.left < b.right && a.right > b.left && a.top < b.bottom && a.bottom > b.top;
+                  const styles = card ? getComputedStyle(card) : null;
+                  return {
+                    ok: !!card && rail?.open === true && card.closest('[data-run-reference-rail]') === rail && ['relative', 'static'].includes(styles?.position || '') && !overlap(rect(card), rect(stage)) && !overlap(rect(card), rect(music)),
+                    position: styles?.position || '',
+                    insideRail: !!(card && rail && rail.contains(card)),
+                    card: rect(card),
+                    stage: rect(stage),
+                    music: rect(music),
+                    hud: rect(hud)
+                  };
+                }"""
+            )
+            add(checks, "Run Mode hover cue docks inside the open reference rail", hover_rail_contract.get("ok"), hover_rail_contract)
+            run.locator("[data-run-reference-rail] > summary").click()
+            run.wait_for_function("() => !document.querySelector('[data-run-reference-rail]')?.open", timeout=2000)
+            closed_fallback_contract = run.evaluate(
+                """() => {
+                  const rail = document.querySelector('[data-run-reference-rail]');
+                  const hover = document.querySelector('#hover-card');
+                  const quickRef = document.querySelector('[data-run-quick-ref]');
+                  const spotlight = document.querySelector('[data-spotlight-channel]');
+                  const style = (node) => node ? getComputedStyle(node).position : 'missing';
+                  const quickChannels = ['npc', 'faction', 'location', 'item', 'clue'].map((kind) => {
+                    const node = document.querySelector(`[data-${kind}-channel]`);
+                    return { kind, insideRail: !!(node && rail?.contains(node)), position: style(node) };
+                  });
+                  const visibleQuickCards = [...document.querySelectorAll('[data-run-reference-rail] [data-quick-card]')].filter((node) => node.offsetParent !== null).length;
+                  return {
+                    ok: !!rail
+                      && rail.open === false
+                      && hover && !rail.contains(hover) && style(hover) === 'fixed'
+                      && quickRef && !rail.contains(quickRef) && style(quickRef) === 'fixed'
+                      && spotlight && !rail.contains(spotlight) && style(spotlight) === 'fixed'
+                      && quickChannels.every((row) => row.insideRail)
+                      && visibleQuickCards === 0,
+                    railOpen: rail?.open,
+                    quickChannels,
+                    visibleQuickCards,
+                    hoverInsideRail: !!(hover && rail?.contains(hover)),
+                    hoverPosition: style(hover),
+                    gmRefInsideRail: !!(quickRef && rail?.contains(quickRef)),
+                    gmRefPosition: style(quickRef),
+                    spotlightInsideRail: !!(spotlight && rail?.contains(spotlight)),
+                    spotlightPosition: style(spotlight)
+                  };
+                }"""
+            )
+            add(checks, "closed Run Mode rail restores hover, GM reference, and spotlight floating behavior", closed_fallback_contract.get("ok"), closed_fallback_contract)
+            run.locator("#run-position").hover()
+            run.wait_for_timeout(450)
+            run.locator('#run-slide-root [data-entity="goldspire-waymarkers"]').first.hover()
+            run.wait_for_selector('#hover-card.is-visible .hover-card-media-wrap [data-run-inline-action="send-image"]', timeout=5000)
+            run.locator('#hover-card.is-visible .hover-card-media-wrap [data-run-inline-action="send-image"]').click()
             player.wait_for_function("() => document.body.dataset.displayMode === 'image-title-caption'", timeout=5000)
             hover_player_title = player.locator(".player-caption h1").inner_text()
             add(checks, "Run Mode entity hover-card image sends to Player Display", bool(re.search("Goldspire Waymarkers", hover_player_title, re.I)), hover_player_title)
@@ -1970,6 +2269,18 @@ def browser_checks(checks: list[dict[str, Any]]) -> None:
 
             run.locator('[data-scrub-slide-id="S03-02"]').evaluate("(node) => node.click()")
             add(checks, "scrubber jumps between slides", current_id() == "S03-02", current_id())
+            overscroll_state = run.locator(".run-scrubber-track").evaluate(
+                """(node) => ({
+                  html: getComputedStyle(document.documentElement).overscrollBehaviorX,
+                  scrubber: getComputedStyle(node).overscrollBehaviorX,
+                })"""
+            )
+            add(
+                checks,
+                "Run Mode blocks horizontal browser history overscroll",
+                overscroll_state.get("html") in {"contain", "none"} and overscroll_state.get("scrubber") in {"contain", "none"},
+                overscroll_state,
+            )
 
             run.locator("#run-auto-complete").set_checked(True)
             run.evaluate(
@@ -2088,10 +2399,19 @@ async function main() {
       && Math.abs(headingBeforeMusic.y - headingAfterMusic.y) < 2;
     add('music sheet opens without moving side panel or active slide', musicOverlayStable, { sideBeforeMusic, sideAfterMusic, headingBeforeMusic, headingAfterMusic });
     add('Player Display has single music audio output', await player.locator('[data-music-audio]').count() === 1 && await run.locator('[data-music-audio]').count() === 0, '');
+    const playerVisualBeforeMusic = await player.evaluate(() => ({
+      mode: document.body.dataset.displayMode || '',
+      text: document.querySelector('[data-player-root]')?.innerText || ''
+    }));
     await run.locator('[data-music-action="play-pause"]').click();
     await player.waitForFunction(() => !!document.querySelector('[data-music-audio]')?.getAttribute('src'), null, { timeout: 5000 });
     const firstMusicSrc = await player.evaluate(() => document.querySelector('[data-music-audio]')?.getAttribute('src') || '');
     add('music play command sets Player Display audio source', firstMusicSrc.includes('assets/audio/') && firstMusicSrc.endsWith('.mp3'), firstMusicSrc);
+    const playerVisualAfterMusic = await player.evaluate(() => ({
+      mode: document.body.dataset.displayMode || '',
+      text: document.querySelector('[data-player-root]')?.innerText || ''
+    }));
+    add('music play command does not change Player Display visual state', JSON.stringify(playerVisualAfterMusic) === JSON.stringify(playerVisualBeforeMusic), { before: playerVisualBeforeMusic, after: playerVisualAfterMusic });
     await run.locator('[data-music-action="next"]').click();
     await player.waitForFunction((oldSrc) => (document.querySelector('[data-music-audio]')?.getAttribute('src') || '') !== oldSrc, firstMusicSrc, { timeout: 5000 });
     const nextMusicSrc = await player.evaluate(() => document.querySelector('[data-music-audio]')?.getAttribute('src') || '');
@@ -2105,16 +2425,184 @@ async function main() {
     await run.locator('.run-side-panel [data-run-clock-start]').hover();
     await run.waitForTimeout(350);
     add('Start Run Clock hover does not open countdown cue card', await run.locator('#hover-card.is-visible').count() === 0, '');
+    const referenceContract = await run.evaluate(() => {
+      const rect = (node) => {
+        if (!node) return null;
+        const r = node.getBoundingClientRect();
+        return { left: r.left, top: r.top, right: r.right, bottom: r.bottom, width: r.width, height: r.height };
+      };
+      const overlap = (a, b) => !!a && !!b && a.left < b.right && a.right > b.left && a.top < b.bottom && a.bottom > b.top;
+      const horizontalContains = (outer, inner) => !!outer && !!inner && inner.left >= outer.left - 1 && inner.right <= outer.right + 1;
+      const clippedBox = (box, clip) => {
+        if (!box || !clip) return null;
+        const visible = {
+          left: Math.max(box.left, clip.left),
+          top: Math.max(box.top, clip.top),
+          right: Math.min(box.right, clip.right),
+          bottom: Math.min(box.bottom, clip.bottom),
+        };
+        visible.width = visible.right - visible.left;
+        visible.height = visible.bottom - visible.top;
+        return visible.width > 0 && visible.height > 0 ? visible : null;
+      };
+      const railNode = document.querySelector('[data-run-reference-rail]');
+      const rail = rect(railNode);
+      const protectedNodes = ['.run-topbar', '.run-slide-stage', '[data-music-panel]', '[data-gm-hud]'].map((selector) => ({ selector, box: rect(document.querySelector(selector)) })).filter((row) => row.box);
+      const cards = [...document.querySelectorAll('[data-run-reference-rail] [data-quick-card], [data-run-reference-rail] [data-spotlight-tray], [data-run-reference-rail] [data-run-quick-ref]')]
+        .filter((node) => node.offsetParent !== null)
+        .map((node) => {
+          const box = rect(node);
+          return { label: node.dataset.quickCard || node.id || node.className || node.tagName, box, visibleBox: clippedBox(box, rail) };
+        })
+        .filter((row) => row.box && row.box.width > 0 && row.box.height > 0);
+      const outsideRail = cards.filter((row) => !horizontalContains(rail, row.box));
+      const collisions = cards.flatMap((card) => protectedNodes.filter((protectedNode) => overlap(card.visibleBox, protectedNode.box)).map((protectedNode) => ({ card: card.label, protected: protectedNode.selector })));
+      return {
+        ok: !!rail && railNode.open === true && cards.length > 0 && getComputedStyle(railNode).overflowY === 'auto' && outsideRail.length === 0 && collisions.length === 0,
+        rail,
+        open: railNode ? railNode.open : false,
+        railOverflowY: railNode ? getComputedStyle(railNode).overflowY : '',
+        cardCount: cards.length,
+        outsideRail,
+        collisions,
+        channelPositions: ['npc', 'faction', 'location', 'item', 'clue'].map((kind) => {
+          const node = document.querySelector(`[data-${kind}-channel]`);
+          return { kind, position: node ? getComputedStyle(node).position : 'missing' };
+        }),
+        railContents: {
+          npc: !!railNode?.querySelector('[data-npc-channel]'),
+          faction: !!railNode?.querySelector('[data-faction-channel]'),
+          item: !!railNode?.querySelector('[data-item-channel]'),
+          location: !!railNode?.querySelector('[data-location-channel]'),
+          clue: !!railNode?.querySelector('[data-clue-channel]'),
+          gmRef: !!railNode?.querySelector('[data-run-quick-ref]'),
+          spotlight: !!railNode?.querySelector('[data-spotlight-channel]'),
+          hover: !!railNode?.querySelector('#hover-card')
+        }
+      };
+    });
+    add('Run Mode open rail docks all quick cards plus hover, GM reference, and spotlight', referenceContract.ok && ['npc', 'faction', 'location', 'item', 'clue', 'gmRef', 'spotlight', 'hover'].every((kind) => referenceContract.railContents[kind]), referenceContract);
+    const stableQuickCards = await run.evaluate(() => {
+      const channels = ['npc', 'faction', 'location', 'item', 'clue'].map((kind) => document.querySelector(`[data-${kind}-channel]`));
+      const before = channels.map((channel) => ({ channel, first: channel?.firstElementChild || null, html: channel?.innerHTML || '', scrollTop: channel?.scrollTop || 0 }));
+      window.GoldspireRunMode?.npcs?.render?.();
+      window.GoldspireRunMode?.factions?.render?.();
+      window.GoldspireRunMode?.locations?.render?.();
+      window.GoldspireRunMode?.items?.render?.();
+      window.GoldspireRunMode?.clues?.render?.();
+      const after = before.map((row) => ({ sameFirst: (row.channel?.firstElementChild || null) === row.first, sameHtml: (row.channel?.innerHTML || '') === row.html, sameScroll: (row.channel?.scrollTop || 0) === row.scrollTop }));
+      return { ok: after.every((row) => row.sameFirst && row.sameHtml && row.sameScroll), after };
+    });
+    add('Run Mode quick-card render polling does not recreate unchanged cards', stableQuickCards.ok, stableQuickCards);
+    const gmHudContract = await run.evaluate(() => {
+      const rail = document.querySelector('[data-run-reference-rail]');
+      const hud = document.querySelector('[data-gm-hud]');
+      const rect = (node) => {
+        if (!node) return null;
+        const r = node.getBoundingClientRect();
+        return { left: r.left, top: r.top, right: r.right, bottom: r.bottom, width: r.width, height: r.height };
+      };
+      const overlap = (a, b) => !!a && !!b && a.left < b.right && a.right > b.left && a.top < b.bottom && a.bottom > b.top;
+      const styles = hud ? getComputedStyle(hud) : null;
+      const hudBox = rect(hud);
+      const topNode = hudBox ? document.elementFromPoint((hudBox.left + hudBox.right) / 2, (hudBox.top + hudBox.bottom) / 2) : null;
+      return {
+	        ok: !!hud
+	          && !hud.closest('.run-side-panel')
+	          && styles?.position === 'fixed'
+	          && hudBox
+	          && window.innerWidth - hudBox.right < 24
+	          && window.innerHeight - hudBox.bottom > 80
+	          && window.innerHeight - hudBox.bottom < 130
+	          && (!!topNode && (topNode === hud || hud.contains(topNode)))
+	          && !overlap(rect(hud), rect(document.querySelector('[data-music-panel]'))),
+        position: styles?.position || '',
+        visibleOnTop: !!topNode && (topNode === hud || hud.contains(topNode)),
+        hud: rect(hud),
+        rail: rect(rail)
+      };
+    });
+    add('Run Mode Fear HUD remains a visible floating overlay', gmHudContract.ok, gmHudContract);
+    if (await run.locator('[data-run-reference-rail] [data-location-card] [data-quick-card-toggle]').count() > 0) {
+      await run.locator('[data-run-reference-rail] [data-location-card] [data-quick-card-toggle]').first().click();
+      await run.waitForSelector('[data-run-reference-rail] [data-location-card]:not(.is-collapsed)', { timeout: 5000 });
+      const expandedLocationContract = await run.evaluate(() => {
+        const card = document.querySelector('[data-run-reference-rail] [data-location-card]:not(.is-collapsed)');
+        const stage = document.querySelector('.run-slide-stage');
+        const music = document.querySelector('[data-music-panel]');
+        const hud = document.querySelector('[data-gm-hud]');
+        const rect = (node) => {
+          if (!node) return null;
+          const r = node.getBoundingClientRect();
+          return { left: r.left, top: r.top, right: r.right, bottom: r.bottom, width: r.width, height: r.height };
+        };
+        const overlap = (a, b) => !!a && !!b && a.left < b.right && a.right > b.left && a.top < b.bottom && a.bottom > b.top;
+        const styles = card ? getComputedStyle(card) : null;
+        return {
+          hudVisible: !!hud,
+          ok: !!card && !!card.closest('[data-run-reference-rail]') && styles?.overflowY === 'auto' && !overlap(rect(card), rect(stage)) && !overlap(rect(card), rect(music)) && !!hud,
+          overflowY: styles?.overflowY || '',
+          maxHeight: styles?.maxHeight || '',
+          card: rect(card),
+          stage: rect(stage),
+          music: rect(music),
+          hud: rect(hud)
+        };
+      });
+      add('expanded location quick-card stays in rail, scrolls, and does not cover the beat or music', expandedLocationContract.ok, expandedLocationContract);
+    } else {
+      add('expanded location quick-card stays in rail, scrolls, and does not cover the beat or music', false, 'No location card toggle rendered on S01-01');
+    }
     await run.evaluate(() => {
       localStorage.removeItem('goldspire-run-spotlights-v1');
       localStorage.removeItem('goldspire-run-spotlight-panel-open-v1');
       localStorage.removeItem('goldspire-run-spotlight-attention-v1');
+      localStorage.removeItem('goldspire.referenceRail.open');
     });
     await run.goto(`${base}/run.html?slide=S01-03`, { waitUntil: 'domcontentloaded' });
-    await run.waitForSelector('[data-spotlight-toggle]', { timeout: 10000 });
-    const spotlightBodyHidden = await run.locator('[data-spotlight-tray-body]').evaluate((node) => node.hidden);
-    const spotlightAttention = await run.locator('[data-spotlight-channel]').evaluate((node) => node.classList.contains('has-active') && node.classList.contains('has-attention'));
-    add('spotlight tray starts tucked with active-slide attention', spotlightBodyHidden && spotlightAttention, '');
+    await run.waitForSelector('[data-run-reference-rail] [data-spotlight-card]', { timeout: 30000 });
+    const railSpotlightContract = await run.evaluate(() => {
+      const rail = document.querySelector('[data-run-reference-rail]');
+      const channel = document.querySelector('[data-spotlight-channel]');
+      const body = document.querySelector('[data-spotlight-tray-body]');
+      const toggle = document.querySelector('[data-spotlight-toggle]');
+      return {
+        ok: !!rail && rail.open === true && !!channel && rail.contains(channel) && channel.classList.contains('is-rail-docked') && !!body && body.hidden === false && !!toggle && getComputedStyle(toggle).display === 'none',
+        railOpen: rail?.open,
+        insideRail: !!(rail && channel && rail.contains(channel)),
+        railDocked: !!channel?.classList.contains('is-rail-docked'),
+        bodyHidden: body?.hidden,
+        toggleDisplay: toggle ? getComputedStyle(toggle).display : 'missing'
+      };
+    });
+    add('rail-open spotlight is auto-expanded without a visible dropdown toggle', railSpotlightContract.ok, railSpotlightContract);
+    await run.locator('[data-run-reference-rail] > summary').click();
+    await run.waitForFunction(() => !document.querySelector('[data-run-reference-rail]')?.open, null, { timeout: 2000 });
+    await run.waitForSelector('[data-spotlight-toggle]', { timeout: 5000 });
+    const floatingSpotlightContract = await run.evaluate(() => {
+      const rail = document.querySelector('[data-run-reference-rail]');
+      const channel = document.querySelector('[data-spotlight-channel]');
+      const toggle = document.querySelector('[data-spotlight-toggle]');
+      const body = document.querySelector('[data-spotlight-tray-body]');
+      const hud = document.querySelector('[data-gm-hud]');
+      const rect = (node) => {
+        if (!node) return null;
+        const r = node.getBoundingClientRect();
+        return { left: r.left, top: r.top, right: r.right, bottom: r.bottom, width: r.width, height: r.height };
+      };
+      const spotlight = rect(channel);
+      const fear = rect(hud);
+      return {
+        ok: !!channel && !!toggle && !!hud && !rail?.contains(channel) && getComputedStyle(channel).position === 'fixed' && body?.hidden === true && !!spotlight && !!fear && spotlight.bottom <= fear.top - 4 && Math.abs(spotlight.right - fear.right) < 8,
+        railOpen: rail?.open,
+        insideRail: !!(rail && channel && rail.contains(channel)),
+        position: channel ? getComputedStyle(channel).position : 'missing',
+        bodyHidden: body?.hidden,
+        spotlight,
+        fear
+      };
+    });
+    add('rail-closed spotlight is compact and stacked above the bottom-right Fear HUD', floatingSpotlightContract.ok, floatingSpotlightContract);
     await run.locator('[data-spotlight-toggle]').click();
     await run.waitForSelector('[data-spotlight-card]', { timeout: 5000 });
     add('spotlight tray expands on click', await run.locator('[data-spotlight-card]').count() > 0 && !(await run.locator('[data-spotlight-tray-body]').evaluate((node) => node.hidden)), '');
@@ -2177,6 +2665,10 @@ async function main() {
       return optional.length > 0 && optional.every((panel) => !panel.open) && playerBeatsOpen;
     });
     add('optional Run Mode reference panels are collapsed while player beats stay open', optionalPanelsClosed, '');
+    if (!(await run.evaluate(() => document.querySelector('[data-run-reference-rail]')?.open === true))) {
+      await run.locator('[data-run-reference-rail] > summary').click();
+      await run.waitForFunction(() => document.querySelector('[data-run-reference-rail]')?.open === true, null, { timeout: 2000 });
+    }
     await run.locator('.entity-panel').evaluate((node) => { node.open = true; });
     await run.waitForSelector('#run-slide-root [data-entity="goldspire-waymarkers"]', { state: 'visible', timeout: 10000 });
     await run.locator('#run-slide-root [data-entity="goldspire-waymarkers"]').first().hover();
@@ -2184,7 +2676,68 @@ async function main() {
     const hoverImageControls = await run.locator('#hover-card .hover-card-media-wrap [data-run-inline-action="send-image"]').count();
     const hoverTextControls = await run.locator('#hover-card .hover-card-player-text [data-run-inline-action="send-text"]').count();
     add('Run Mode entity hover-card image/text controls appear', hoverImageControls > 0 && hoverTextControls > 0, { hoverImageControls, hoverTextControls });
-    await run.locator('#hover-card .hover-card-media-wrap [data-run-inline-action="send-image"]').click();
+    const hoverRailContract = await run.evaluate(() => {
+      const card = document.querySelector('#hover-card.is-visible');
+      const rail = document.querySelector('[data-run-reference-rail]');
+      const stage = document.querySelector('.run-slide-stage');
+      const music = document.querySelector('[data-music-panel]');
+      const hud = document.querySelector('[data-gm-hud]');
+      const rect = (node) => {
+        if (!node) return null;
+        const r = node.getBoundingClientRect();
+        return { left: r.left, top: r.top, right: r.right, bottom: r.bottom, width: r.width, height: r.height };
+      };
+      const overlap = (a, b) => !!a && !!b && a.left < b.right && a.right > b.left && a.top < b.bottom && a.bottom > b.top;
+      const styles = card ? getComputedStyle(card) : null;
+      return {
+        ok: !!card && rail?.open === true && card.closest('[data-run-reference-rail]') === rail && ['relative', 'static'].includes(styles?.position || '') && !overlap(rect(card), rect(stage)) && !overlap(rect(card), rect(music)),
+        position: styles?.position || '',
+        insideRail: !!(card && rail && rail.contains(card)),
+        card: rect(card),
+        stage: rect(stage),
+        music: rect(music),
+        hud: rect(hud)
+      };
+    });
+    add('Run Mode hover cue docks inside the open reference rail', hoverRailContract.ok, hoverRailContract);
+    await run.locator('[data-run-reference-rail] > summary').click();
+    await run.waitForFunction(() => !document.querySelector('[data-run-reference-rail]')?.open, null, { timeout: 2000 });
+    const closedFallbackContract = await run.evaluate(() => {
+      const rail = document.querySelector('[data-run-reference-rail]');
+      const hover = document.querySelector('#hover-card');
+      const quickRef = document.querySelector('[data-run-quick-ref]');
+      const spotlight = document.querySelector('[data-spotlight-channel]');
+      const style = (node) => node ? getComputedStyle(node).position : 'missing';
+      const quickChannels = ['npc', 'faction', 'location', 'item', 'clue'].map((kind) => {
+        const node = document.querySelector(`[data-${kind}-channel]`);
+        return { kind, insideRail: !!(node && rail?.contains(node)), position: style(node) };
+      });
+      const visibleQuickCards = [...document.querySelectorAll('[data-run-reference-rail] [data-quick-card]')].filter((node) => node.offsetParent !== null).length;
+      return {
+        ok: !!rail
+          && rail.open === false
+          && hover && !rail.contains(hover) && style(hover) === 'fixed'
+          && quickRef && !rail.contains(quickRef) && style(quickRef) === 'fixed'
+          && spotlight && !rail.contains(spotlight) && style(spotlight) === 'fixed'
+          && quickChannels.every((row) => row.insideRail)
+          && visibleQuickCards === 0,
+        railOpen: rail?.open,
+        quickChannels,
+        visibleQuickCards,
+        hoverInsideRail: !!(hover && rail?.contains(hover)),
+        hoverPosition: style(hover),
+        gmRefInsideRail: !!(quickRef && rail?.contains(quickRef)),
+        gmRefPosition: style(quickRef),
+        spotlightInsideRail: !!(spotlight && rail?.contains(spotlight)),
+        spotlightPosition: style(spotlight)
+      };
+    });
+    add('closed Run Mode rail restores hover, GM reference, and spotlight floating behavior', closedFallbackContract.ok, closedFallbackContract);
+    await run.locator('#run-position').hover();
+    await run.waitForTimeout(450);
+    await run.locator('#run-slide-root [data-entity="goldspire-waymarkers"]').first().hover();
+    await run.waitForSelector('#hover-card.is-visible .hover-card-media-wrap [data-run-inline-action="send-image"]', { timeout: 5000 });
+    await run.locator('#hover-card.is-visible .hover-card-media-wrap [data-run-inline-action="send-image"]').click();
     await player.waitForFunction(() => document.body.dataset.displayMode === 'image-title-caption', null, { timeout: 5000 });
     const hoverPlayerTitle = await player.locator('.player-caption h1').innerText();
     add('Run Mode entity hover-card image sends to Player Display', /Goldspire Waymarkers/i.test(hoverPlayerTitle), hoverPlayerTitle);
@@ -2297,6 +2850,15 @@ async function main() {
     await run.keyboard.press('Escape');
     await run.locator('[data-scrub-slide-id="S03-02"]').evaluate((node) => node.click());
     add('scrubber jumps between slides', await currentId() === 'S03-02', await currentId());
+    const overscrollState = await run.locator('.run-scrubber-track').evaluate((node) => ({
+      html: getComputedStyle(document.documentElement).overscrollBehaviorX,
+      scrubber: getComputedStyle(node).overscrollBehaviorX,
+    }));
+    add(
+      'Run Mode blocks horizontal browser history overscroll',
+      ['contain', 'none'].includes(overscrollState.html) && ['contain', 'none'].includes(overscrollState.scrubber),
+      overscrollState
+    );
     await player.waitForFunction(() => document.body.dataset.displayMode === 'image-title-caption', null, { timeout: 5000 });
     const playerTitle = await player.locator('.player-caption h1').innerText();
     add('player display receives setSlide messages', playerTitle.includes('Local Clues'), playerTitle);
@@ -2345,7 +2907,7 @@ main();
         if chrome.exists():
             env["CHROME_PATH"] = str(chrome)
         try:
-            result = subprocess.run([str(node), str(script_path)], text=True, capture_output=True, timeout=180, env=env)
+            result = subprocess.run([str(node), str(script_path)], text=True, capture_output=True, timeout=360, env=env)
             stdout = (result.stdout or "").strip().splitlines()
             payload = json.loads(stdout[-1]) if stdout else {"ok": False, "checks": []}
         except Exception as exc:
@@ -2378,7 +2940,7 @@ def write_report(checks: list[dict[str, Any]]) -> dict:
         f"Checks failed: **{len(issues)}**",
         "",
         "- `data/slides.json`, `run.html`, `player-display.html`, `player-follow.html`, and dedicated `js/` files are generated.",
-        "- Browser QA covers next/previous, ArrowRight, shortcut suppression while typing, scrubber jumps, persistence, player-display sync, blackout, image/text reveal, copy fallback, and expansion dialogs.",
+        "- Browser QA covers next/previous, ArrowRight, shortcut suppression while typing, scrubber jumps, horizontal overscroll guard, persistence, player-display sync, blackout, image/text reveal, copy fallback, and expansion dialogs.",
         "",
         "Detailed JSON: `data/qa-slideshow-report.json`.",
     ]

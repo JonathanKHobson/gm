@@ -198,7 +198,42 @@
       <button class="deck-arrow deck-arrow-next" type="button" data-run-action="next" aria-label="Next slide" title="Next slide"><img src="assets/icons/action-next.png" alt="" aria-hidden="true"><span class="sr-only">Next slide</span></button>
       <p id="run-status" class="run-status" role="status" aria-live="polite"></p>
     </section>
+
+    <details class="run-reference-rail" data-run-reference-rail data-persist-key="goldspire.referenceRail.open" aria-label="Scene reference cards" open>
+      <summary class="run-reference-summary" aria-expanded="true">
+        <span>
+          <span class="run-kicker">Scene Reference</span>
+          <span class="run-reference-summary-text">Quick cards, clue board, <span class="mechanic-link" data-mechanic="table-spotlight"><span>spotlight</span></span>, hover card, and GM reference.</span>
+        </span>
+        <span class="run-reference-summary-control"><span class="mechanic-link" data-mechanic="finesse"><span>Hide</span></span></span>
+      </summary>
+      <div class="run-reference-rail-body">
+      <aside id="spotlight-channel" class="spotlight-channel" data-spotlight-channel aria-live="polite" aria-label="Scene spotlight alerts"></aside>
+      <aside id="npc-channel" class="npc-channel" data-npc-channel data-quick-card-channel="npc" aria-live="polite" aria-label="NPC quick cards"></aside>
+      <aside id="faction-channel" class="faction-channel" data-faction-channel data-quick-card-channel="faction" aria-live="polite" aria-label="Faction quick cards"></aside>
+      <aside id="location-channel" class="location-channel" data-location-channel data-quick-card-channel="location" aria-live="polite" aria-label="Location quick cards"></aside>
+      <aside id="item-channel" class="item-channel" data-item-channel data-quick-card-channel="item" aria-live="polite" aria-label="Item quick cards"></aside>
+      <aside id="clue-channel" class="clue-channel" data-clue-channel data-quick-card-channel="clue" aria-live="polite" aria-label="Clue and evidence cards"></aside>
+      <aside id="quick-ref-widget" class="quick-ref-widget is-collapsed" data-run-quick-ref data-persist-key="goldspire.quickRef.state" aria-label="Quick Reference">
+        <header class="quick-ref-header" data-run-quick-ref-drag>
+          <button type="button" class="quick-ref-toggle" data-run-quick-ref-toggle aria-expanded="false">GM Ref</button>
+          <button type="button" class="quick-ref-reset" data-run-quick-ref-reset>Reset</button>
+        </header>
+        <div class="quick-ref-body">
+          <section class="quick-ref-card"><h2>Current Slide</h2><p data-run-quick-current>Loading...</p><div data-run-quick-mechanics class="mechanic-chip-row"></div></section>
+          <section class="quick-ref-card"><h2>PC Names</h2><div data-run-quick-pcs class="quick-ref-pc-list"></div><a class="button secondary" href="pages/pc-cheat-sheet.html">Open PC Sheet</a></section>
+          <section class="quick-ref-card"><h2><a class="mechanic-link" href="pages/rules/action-roll.html" data-mechanic="action-roll">Action Roll</a></h2><p>Pick <a class="mechanic-link" href="pages/rules/traits.html" data-mechanic="traits">trait</a>, set <a class="mechanic-link" href="pages/rules/difficulty.html" data-mechanic="difficulty">Difficulty</a>, <a class="mechanic-link" href="pages/rules/action-roll.html" data-mechanic="action-roll"><span>roll</span></a> <a class="mechanic-link" href="pages/rules/hope.html" data-mechanic="hope">Hope</a> d12 + <a class="mechanic-link" href="pages/rules/fear.html" data-mechanic="fear">Fear</a> d12, add bonuses, compare total.</p></section>
+          <section class="quick-ref-card"><h2><a class="mechanic-link" href="pages/rules/difficulty.html" data-mechanic="difficulty">Difficulty</a></h2><ul><li><a class="mechanic-link" href="pages/rules/difficulty.html" data-mechanic="difficulty">Very Easy 5</a></li><li><a class="mechanic-link" href="pages/rules/difficulty.html" data-mechanic="difficulty">Easy 10</a></li><li><a class="mechanic-link" href="pages/rules/difficulty.html" data-mechanic="difficulty">Average 15</a></li><li><a class="mechanic-link" href="pages/rules/difficulty.html" data-mechanic="difficulty">Hard 20</a></li><li><a class="mechanic-link" href="pages/rules/difficulty.html" data-mechanic="difficulty">Very Hard 25</a></li><li><a class="mechanic-link" href="pages/rules/difficulty.html" data-mechanic="difficulty">Nearly Impossible 30</a></li></ul></section>
+          <section class="quick-ref-card"><h2><a class="mechanic-link" href="pages/rules/hope.html" data-mechanic="hope">Hope</a> / <a class="mechanic-link" href="pages/rules/fear.html" data-mechanic="fear">Fear</a></h2><p>Higher die colors the result. <a class="mechanic-link" href="pages/rules/critical-success.html" data-mechanic="critical-success"><span>Doubles</span></a> are <a class="mechanic-link" href="pages/rules/critical-success.html" data-mechanic="critical-success">Critical Success</a>.</p></section>
+          <section class="quick-ref-card"><h2><a class="mechanic-link" href="pages/rules/conditions.html" data-mechanic="conditions">Conditions</a></h2><div class="mechanic-chip-row"><a class="mechanic-chip" href="pages/rules/hidden.html" data-mechanic="hidden">Hidden</a><a class="mechanic-chip" href="pages/rules/restrained.html" data-mechanic="restrained">Restrained</a><a class="mechanic-chip" href="pages/rules/vulnerable.html" data-mechanic="vulnerable">Vulnerable</a></div></section>
+          <section class="quick-ref-card"><h2>Quick Search</h2><input data-run-quick-rule-search type="search" placeholder="perception, save, AC"><div data-run-quick-rule-results class="quick-rule-results"></div></section>
+        </div>
+      </aside>
+      </div>
+    </details>
   </main>
+
+  <aside id="hover-card" class="hover-card" role="dialog" aria-label="Entity quick reference" aria-hidden="true"></aside>
 
   <footer class="run-bottom-scrubber" aria-label="Slide filmstrip">
     <button class="scrub-toggle" type="button" data-run-action="toggle-filmstrip" aria-expanded="false" aria-label="Show or hide the filmstrip">
@@ -314,28 +349,6 @@
     </form>
   </dialog>
 
-  <aside id="quick-ref-widget" class="quick-ref-widget is-collapsed" data-run-quick-ref data-persist-key="goldspire.quickRef.state" aria-label="Floating Quick Reference">
-    <header class="quick-ref-header" data-run-quick-ref-drag>
-      <button type="button" class="quick-ref-toggle" data-run-quick-ref-toggle aria-expanded="false">GM Ref</button>
-      <button type="button" class="quick-ref-reset" data-run-quick-ref-reset>Reset</button>
-    </header>
-    <div class="quick-ref-body">
-      <section class="quick-ref-card"><h2>Current Slide</h2><p data-run-quick-current>Loading...</p><div data-run-quick-mechanics class="mechanic-chip-row"></div></section>
-      <section class="quick-ref-card"><h2>PC Names</h2><div data-run-quick-pcs class="quick-ref-pc-list"></div><a class="button secondary" href="pages/pc-cheat-sheet.html">Open PC Sheet</a></section>
-      <section class="quick-ref-card"><h2><a class="mechanic-link" href="pages/rules/action-roll.html" data-mechanic="action-roll">Action Roll</a></h2><p>Pick <a class="mechanic-link" href="pages/rules/traits.html" data-mechanic="traits">trait</a>, set <a class="mechanic-link" href="pages/rules/difficulty.html" data-mechanic="difficulty">Difficulty</a>, <a class="mechanic-link" href="pages/rules/action-roll.html" data-mechanic="action-roll"><span>roll</span></a> <a class="mechanic-link" href="pages/rules/hope.html" data-mechanic="hope">Hope</a> d12 + <a class="mechanic-link" href="pages/rules/fear.html" data-mechanic="fear">Fear</a> d12, add bonuses, compare total.</p></section>
-      <section class="quick-ref-card"><h2><a class="mechanic-link" href="pages/rules/difficulty.html" data-mechanic="difficulty">Difficulty</a></h2><ul><li><a class="mechanic-link" href="pages/rules/difficulty.html" data-mechanic="difficulty">Very Easy 5</a></li><li><a class="mechanic-link" href="pages/rules/difficulty.html" data-mechanic="difficulty">Easy 10</a></li><li><a class="mechanic-link" href="pages/rules/difficulty.html" data-mechanic="difficulty">Average 15</a></li><li><a class="mechanic-link" href="pages/rules/difficulty.html" data-mechanic="difficulty">Hard 20</a></li><li><a class="mechanic-link" href="pages/rules/difficulty.html" data-mechanic="difficulty">Very Hard 25</a></li><li><a class="mechanic-link" href="pages/rules/difficulty.html" data-mechanic="difficulty">Nearly Impossible 30</a></li></ul></section>
-      <section class="quick-ref-card"><h2><a class="mechanic-link" href="pages/rules/hope.html" data-mechanic="hope">Hope</a> / <a class="mechanic-link" href="pages/rules/fear.html" data-mechanic="fear">Fear</a></h2><p>Higher die colors the result. <a class="mechanic-link" href="pages/rules/critical-success.html" data-mechanic="critical-success"><span>Doubles</span></a> are <a class="mechanic-link" href="pages/rules/critical-success.html" data-mechanic="critical-success">Critical Success</a>.</p></section>
-      <section class="quick-ref-card"><h2><a class="mechanic-link" href="pages/rules/conditions.html" data-mechanic="conditions">Conditions</a></h2><div class="mechanic-chip-row"><a class="mechanic-chip" href="pages/rules/hidden.html" data-mechanic="hidden">Hidden</a><a class="mechanic-chip" href="pages/rules/restrained.html" data-mechanic="restrained">Restrained</a><a class="mechanic-chip" href="pages/rules/vulnerable.html" data-mechanic="vulnerable">Vulnerable</a></div></section>
-      <section class="quick-ref-card"><h2>Quick Search</h2><input data-run-quick-rule-search type="search" placeholder="perception, save, AC"><div data-run-quick-rule-results class="quick-rule-results"></div></section>
-    </div>
-  </aside>
-  <aside id="faction-channel" class="faction-channel" data-faction-channel aria-live="polite" aria-label="Faction quick cards"></aside>
-  <aside id="location-channel" class="location-channel" data-location-channel aria-live="polite" aria-label="Location quick cards"></aside>
-  <aside id="item-channel" class="item-channel" data-item-channel aria-live="polite" aria-label="Item quick cards"></aside>
-  <aside id="clue-channel" class="clue-channel" data-clue-channel aria-live="polite" aria-label="Clue and evidence cards"></aside>
-  <aside id="npc-channel" class="npc-channel" data-npc-channel aria-live="polite" aria-label="NPC quick cards"></aside>
-  <aside id="spotlight-channel" class="spotlight-channel" data-spotlight-channel aria-live="polite" aria-label="Scene spotlight alerts"></aside>
-  <aside id="hover-card" class="hover-card" role="dialog" aria-label="Entity quick reference" aria-hidden="true"></aside>
   <div id="scrub-cue" class="scrub-cue" role="tooltip" hidden></div>
 
   <script src="data/atlas-data.js"></script>

@@ -17,4 +17,4 @@ Pick one hook only when the table asks what lies beyond the contract.
 - The Glimpse is useful when the table cares about injured animals or strange mercy.
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 576d8e9ce8abdfc2 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 576d8e9ce8abdfc2 | Source hash 6753a06c32e5dca07a19eb73

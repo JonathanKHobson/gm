@@ -44,4 +44,4 @@ Player-safe note: A bland, sunny contract, thick with optimistic language, that 
 - Visual Gallery: primary Primary wiki image primary assets/clue-images/route-assurance-contracttm/profile_base.webp Route Assurance Contract™ primary wiki image visual. Route Assurance Contract™: Primary wiki image. clue_visual_profile True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 1fc2f4fdde10d863 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 1fc2f4fdde10d863 | Source hash 6753a06c32e5dca07a19eb73

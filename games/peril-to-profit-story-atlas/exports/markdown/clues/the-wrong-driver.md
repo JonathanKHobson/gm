@@ -43,4 +43,4 @@ Player-safe note: The body's livery, hands, and papers don't match this cart. A 
 - Visual Gallery: primary Primary wiki image primary assets/clue-images/the-wrong-driver/profile_base.webp The Wrong Driver primary wiki image visual. The Wrong Driver: Primary wiki image. clue_visual_profile True True
 
 ## Export Stamp
-Build 2026-06-23T21:40:58 | Content hash 408c948ddc6dd5d9 | Source hash dac3370046ed077140fab2d6
+Build 2026-07-05T12:33:16 | Content hash 408c948ddc6dd5d9 | Source hash 6753a06c32e5dca07a19eb73
