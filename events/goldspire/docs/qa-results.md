@@ -425,3 +425,21 @@ status: local-qa-passed
 - Hero party PNG reduced from about `2138KB` to `315KB` WebP.
 - Five landing character PNGs reduced from about `6836KB` total to about `447KB` total WebP.
 - Original PNG files remain in place as fallback/source assets.
+
+## 2026-07-09 Past-Date Removal And Links Copy QA
+
+### Visual Anchor Map
+
+| ID | Source / viewport | Region | Visual fact / issue | Intended action | Verification |
+| --- | --- | --- | --- | --- | --- |
+| GoldspireDates02 | Playwright `1366x900`, `390x844` | Landing hero and date-options route | July 7 is removed; the current public choices are July 15 and July 25, with more dates described as coming soon. | Remove the past table without weakening the live booking path. | Passed: `/tmp/goldspire-july-date-qa/landing-desktop.png`, `/tmp/goldspire-july-date-qa/landing-mobile.png`, `/tmp/goldspire-july-date-qa/dates-mobile.png`; date route renders two cards. |
+| EventsIndex02 | Playwright `1366x900` | `/events/` Goldspire card | The all-events card lists July 15 and July 25, their current start times, and `more coming soon`. | Keep the broader event index concise and current. | Passed: `/tmp/goldspire-july-date-qa/events-desktop.png`; no horizontal overflow observed. |
+| LinksCopy02 | Playwright `390x844` | `links.html` fast links and primary actions | Goldspire has `Claim a Goldspire seat` / `Book at Mox`; contact copy reads `Contact Me` / `Send an Email`; the contact button stays on one line. | Remove date drift and technical EmailJS wording from the link hub. | Passed: `/tmp/goldspire-july-date-qa/links-mobile.png`; DOM sweep found no July 7 or visible EmailJS copy. |
+| FallbackDates02 | Playwright DOM check | `events/goldspire/coming-soon/` fallback facts | The noindex fallback no longer exposes the past July 7 date and reflects July 15 or July 25. | Keep stale inbound links useful without presenting old event details. | Passed: two current date options, no July 7 text. |
+
+### Static Integrity Checks
+
+- `git diff --check` passed.
+- Goldspire JSON-LD parses with exactly two scheduled Event nodes: July 15 and July 25.
+- Active public route sweep found no July 7, `Book the July 7`, `5:00-9:00 PM`, `Tue 5:00 PM`, or visible `EmailJS form` copy in the changed surfaces.
+- The existing shared Mox listing URL and `Book now at Mox` CTA wiring were preserved.

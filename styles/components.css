@@ -3538,6 +3538,10 @@
   gap: 0.65rem;
 }
 
+.link-card-primary-actions .btn {
+  white-space: nowrap;
+}
+
 .link-card-share {
   grid-area: share;
   display: grid;

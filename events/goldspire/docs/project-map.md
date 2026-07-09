@@ -10,7 +10,7 @@ status: active
 
 - `events/goldspire/index.html`: player-facing landing page for Peril to Profit: The Goldspire Messengers.
 - `events/goldspire/characters/index.html`: optional player-facing courier guide with plain-language character profiles, PDF links, and sheet-reading help.
-- `events/goldspire/dates/index.html`: lean date-options route for confirmed Goldspire tables; currently lists July 7, July 15, and July 25, all booking through the same Mox listing.
+- `events/goldspire/dates/index.html`: lean date-options route for confirmed Goldspire tables; currently lists July 15 and July 25, both booking through the same Mox listing. More dates may be added later.
 - `events/goldspire/coming-soon/index.html`: noindex fallback route for old registration-status links; it now points users to the live Mox listing.
 - `resources/daggerheart.html`: optional official Daggerheart resources page.
 
@@ -41,4 +41,4 @@ multi_url: "dates/"
 checkout_url: "https://events.moxboardinghouse.com/p/n/xnP6r62v/v5/checkout"
 ```
 
-The `/checkout` URL is retained as an optional future switch, but current verification shows it redirects back to the event listing. The Goldspire and Daggerheart resource CTAs use the same script. As of the July multi-date update, Mox uses one listing for all three confirmed table times, so the shared CTA remains `Book now at Mox`. If future dates receive separate Mox listing URLs, set `booking_mode: "multi"` so global CTAs read `View Times` and route to `events/goldspire/dates/`; each date card should then link to its own Mox listing.
+The `/checkout` URL is retained as an optional future switch, but current verification shows it redirects back to the event listing. The Goldspire and Daggerheart resource CTAs use the same script. Mox uses one listing for the currently confirmed July 15 and July 25 table times, so the shared CTA remains `Book now at Mox`. If future dates receive separate Mox listing URLs, set `booking_mode: "multi"` so global CTAs read `View Times` and route to `events/goldspire/dates/`; each date card should then link to its own Mox listing.
