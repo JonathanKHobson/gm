@@ -40,7 +40,7 @@ The page is a conversion-ready landing page for curious Mox, Discord, and friend
 - CTA wiring lives in `goldspire-registration.js` through one registration state object shared by the event page and Daggerheart resources page.
 - Current state is `registration_state: "live"` and `booking_mode: "single"` with label `Book now at Mox` and target `https://events.moxboardinghouse.com/p/n/xnP6r62v/v5`.
 - Future separate-listing state is prepared through `booking_mode: "multi"`, `multi_label: "View Times"`, and `multi_url: "dates/"`.
-- `events/goldspire/dates/` is the date-options route. It currently lists the July 15 and July 25 confirmed tables. Both use the same official Mox listing, where visitors choose the date and time. More dates may be added later.
+- `events/goldspire/dates/` is the date-options route. It currently lists the Saturday, July 25 Tier 1 table, which uses the official Mox listing. More Tier 1 Goldspire dates are coming soon. A separate Tier 2 one-shot is planned for late August and September; do not present it as bookable until its dates and listing are live.
 - If Mox later creates separate URLs per table, update the date cards and switch `booking_mode` to `multi` so shared CTAs route to the local date-options page.
 - `checkout_url` is retained in the config as an optional future switch, but the verified checkout URL currently redirects back to the event listing.
 - The `events/goldspire/coming-soon/` route remains noindex as a recovery fallback for stale links and points visitors to the live Mox listing.

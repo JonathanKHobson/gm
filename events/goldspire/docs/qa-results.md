@@ -443,3 +443,23 @@ status: local-qa-passed
 - Goldspire JSON-LD parses with exactly two scheduled Event nodes: July 15 and July 25.
 - Active public route sweep found no July 7, `Book the July 7`, `5:00-9:00 PM`, `Tue 5:00 PM`, or visible `EmailJS form` copy in the changed surfaces.
 - The existing shared Mox listing URL and `Book now at Mox` CTA wiring were preserved.
+
+## 2026-07-16 July 25 Current-Date And Tier Positioning Update
+
+### Verification Map
+
+| ID | Source | Region | Verified state |
+| --- | --- | --- | --- |
+| CurrentDate01 | `events/goldspire/index.html` | Metadata, hero facts, future-date strip, logistics, final CTA | Saturday, July 25, 2026 at 10:30 AM-2:30 PM is the only current Goldspire session. |
+| DatesRoute01 | `events/goldspire/dates/index.html` | Confirmed-date card | The date-options route contains one July 25 booking card and retains the Mox booking and directions actions. |
+| EventsIndex03 | `events/index.html` | Featured Goldspire event card | The all-events surface shows July 25 as current and keeps the shared Mox booking route. |
+| Schema03 | `events/goldspire/index.html` | JSON-LD | Structured event data parses as one scheduled Event node, starting `2026-07-25T10:30:00-07:00`. |
+| TierRoadmap01 | Landing, date-options, and all-events copy | Future-session messaging | Current Goldspire is framed as a beginner-friendly Tier 1 adventure; future Tier 1 dates are marked as coming soon; the separate Tier 2 one-shot is planned for late August and September but is not represented as bookable. |
+
+### Static Integrity Checks
+
+- `git diff --check` passed.
+- `node --check events/goldspire/goldspire-registration.js` passed.
+- HTML smoke checks passed for the changed public routes.
+- Current public route sweep found no July 15 copy, old Wednesday time, or two-table wording in the changed HTML.
+- Browser rendering was intentionally not started because the local pressure guard reported critical memory pressure (about 80 MB free). This pass changes copy and structured data only; no CSS, media, or layout rules changed.
