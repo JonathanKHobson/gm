@@ -75,7 +75,7 @@
             <div><dt>Based in</dt><dd>Phoenix East Valley</dd></div>
             <div><dt>Known for</dt><dd>Worlds, safety, humor, custom systems</dd></div>
           </dl>
-          <div class="link-card-primary-actions" aria-label="Primary actions">
+          <div class="link-card-primary-actions" role="group" aria-label="Primary actions">
             <a class="btn btn-primary" href="index.html">Portfolio</a>
             <button class="btn btn-secondary" type="button" id="shareCardBtn">Share card</button>
             <a class="btn btn-secondary" href="index.html#contact">Contact Me</a>
@@ -96,7 +96,11 @@
           <h2 class="h-section" id="links-title">Start here.</h2>
         </div>
 
-        <div class="quick-link-grid" aria-label="Most useful GameMasterKyle links">
+        <div class="quick-link-grid" role="group" aria-label="Most useful GameMasterKyle links">
+          <a class="quick-link-card" href="events/stargate-phx/">
+            <strong>Stargate PHX</strong>
+            <span>Drop-in sci-fi missions</span>
+          </a>
           <a aria-describedby="new-tab-note" class="quick-link-card external-link" href="https://events.moxboardinghouse.com/p/n/xnP6r62v/v5" target="_blank" rel="noopener noreferrer">
             <strong>Claim a Goldspire seat</strong>
             <span>Book at Mox</span>
@@ -170,6 +174,10 @@
               <a class="link-card-button" href="events/goldspire/">
                 <img class="contact-icon" src="assets/events/goldspire/icons/action-rules.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="GoldspireIconRules01" />
                 <span><strong>Goldspire event page</strong><small>Premise, premades, beginner promise, and FAQ</small></span>
+              </a>
+              <a class="link-card-button" href="events/stargate-phx/">
+                <img class="contact-icon" src="assets/brand/gmk-compass-d20-mark.png" alt="" width="96" height="96" loading="lazy" decoding="async" />
+                <span><strong>Stargate PHX event page</strong><small>Premise, premade heroes, player rules, and current session status</small></span>
               </a>
               <a aria-describedby="new-tab-note" class="link-card-button external-link" href="https://discord.gg/A9JNzTRucn" target="_blank" rel="noopener noreferrer">
                 <img class="contact-icon" src="assets/generated/icons/contact-discord-icon.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="ContactDiscordIcon" />
@@ -254,7 +262,7 @@
         <h2 id="share-modal-title">Let them scan this.</h2>
         <p id="share-modal-copy">Show this QR code on your phone, copy the short link, or send the card through the share sheet.</p>
       </div>
-      <div class="share-mode-toggle" aria-label="Choose QR code">
+      <div class="share-mode-toggle" role="group" aria-label="Choose QR code">
         <button type="button" class="share-mode-button active" data-qr-mode="portfolio" aria-pressed="true">Portfolio card</button>
         <button type="button" class="share-mode-button" data-qr-mode="discord" aria-pressed="false">Discord friend</button>
       </div>
@@ -262,11 +270,11 @@
         <img id="shareQrImage" src="assets/brand/gamemasterkyle-link-qr-code.png" alt="QR code for the GameMasterKyle digital business card." width="230" height="230" loading="eager" decoding="sync" data-asset-id="LinkCardQRCode01" />
         <figcaption id="shareQrCaption">jonathankhobson.github.io/g</figcaption>
       </figure>
-      <div class="share-link-box" aria-label="Short share link">
+      <div class="share-link-box" role="group" aria-label="Short share link">
         <input id="shareUrlField" type="text" readonly value="https://jonathankhobson.github.io/g/" />
         <button class="btn btn-primary" type="button" id="copyShareLinkBtn">Copy link</button>
       </div>
-      <div class="share-modal-actions" aria-label="Share actions">
+      <div class="share-modal-actions" role="group" aria-label="Share actions">
         <button class="chip-link" type="button" id="nativeShareBtn">Open share sheet</button>
         <button class="chip-link" type="button" id="copyDiscordMessageBtn">Copy for Discord</button>
         <a aria-describedby="new-tab-note" class="chip-link external-link" href="https://discord.com/channels/@me" target="_blank" rel="noopener noreferrer">Open Discord</a>

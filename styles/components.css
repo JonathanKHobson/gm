@@ -178,6 +178,20 @@
   color: #fff;
 }
 
+.btn-secondary-paper {
+  border-color: rgba(127, 44, 22, 0.42);
+  background: rgba(255, 250, 241, 0.84);
+  color: var(--ember-dark);
+  box-shadow: 0 10px 24px rgba(14, 8, 4, 0.08);
+}
+
+.btn-secondary-paper:hover,
+.btn-secondary-paper:focus-visible {
+  border-color: var(--ember-dark);
+  background: #fffaf1;
+  color: var(--ink);
+}
+
 .external-link::after {
   content: "↗";
   display: inline-block;
@@ -2288,6 +2302,9 @@
 }
 
 .story-recap summary {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
   color: var(--ember-dark);
   cursor: pointer;
   font-weight: 850;
@@ -3952,6 +3969,10 @@
     radial-gradient(circle at 15% 10%, rgba(111, 174, 183, 0.16), transparent 15rem),
     linear-gradient(180deg, rgba(255, 250, 241, 0.97), rgba(255, 244, 222, 0.93));
   box-shadow: var(--shadow-soft);
+}
+
+.events-list-band .event-card-featured + .event-card-featured {
+  margin-top: 1.5rem;
 }
 
 .event-card-media {

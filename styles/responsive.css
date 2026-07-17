@@ -1320,3 +1320,19 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Keep shared navigation and action controls comfortably tappable. */
+.btn,
+.navlink,
+.nav-cta,
+.link-card-primary-actions .btn,
+.link-card-button {
+  min-height: 44px;
+}
+
+.navlink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+}
