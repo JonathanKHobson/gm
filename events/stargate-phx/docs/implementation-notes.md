@@ -77,6 +77,9 @@ updated: 2026-07-16
 - Final conformance fixes give shared nav links a 44px minimum target, make the
   Echoes recap summary fully tappable, make the landing consent label a 44px
   target, and use valid labeled-group semantics on shared page clusters.
+- The custom 404 declares `<base href="/gm/">` because GitHub Pages serves its
+  body at the requested missing URL; this keeps nested recovery assets and links
+  rooted in the project site.
 - Avoid neon cyberpunk, dark-blue dashboard tiles, classified-dossier clichés,
   logo/glyph wallpaper, glass panels, decorative blobs, and card grids as a
   default section pattern.

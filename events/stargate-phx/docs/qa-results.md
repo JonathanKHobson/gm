@@ -1,7 +1,7 @@
 ---
 project: stargate-phx-event-page
 type: qa-results
-status: active
+status: complete
 updated: 2026-07-16
 ---
 
@@ -136,14 +136,12 @@ Pass. Private rendered evidence is in
   portfolio CTA on phone and desktop. A low-contrast secondary action and
   legacy shared touch targets were corrected before the passing run.
 
-Prompt 19 remains active.
+### Prompt 19 integrated publish gate
 
-### Prompt 19 local integrated publish gate
-
-Pass locally; publication and live verification are the remaining Prompt 19
-steps. The compact anchor contract is in private
+Pass locally and live. The compact anchor contract is in private
 `site-build-packet/19-visual-anchor-map.md`; rendered evidence is in
-`site-build-packet/qa/final/`.
+`site-build-packet/qa/final/`, `site-build-packet/qa/final-after-404/`, and
+`site-build-packet/qa/live/`.
 
 - Rendered matrix: nine audited routes at 390x844, 430x932, 1366x900, and
   1440x900; all 36 route/viewport combinations pass.
@@ -167,3 +165,17 @@ steps. The compact anchor contract is in private
   5e comparison, shared event card, Echoes bridge, links discovery, and 404
   recovery anchors were reviewed after the final target-size and contrast
   corrections.
+- Publication: release `e379a93` and recovery correction `c53d35a` were pushed
+  to the verified GitHub remote and fast-forwarded to `main` without force.
+- Live routes: all nine audited pages return their expected status and current
+  content; hero/character WebP/AVIF assets and individual/combined PDFs return
+  the correct media types. The sitemap exposes four indexable Stargate routes,
+  and the pending fallback remains `noindex,nofollow` and absent from it.
+- Live rendering: all 18 phone/desktop route combinations pass at 390x844 and
+  1440x900 with the same anchor, interaction, registration, media, and
+  accessibility assertions used locally.
+- Live recovery: the real nested bad URL returns 404 while loading the custom
+  page's CSS/logo and resolving Stargate PHX to `/gm/events/stargate-phx/`.
+  The initial relative-path defect was corrected with a `/gm/` base before the
+  passing live run.
+- Final live verification: `2026-07-17T04:28:03Z`.

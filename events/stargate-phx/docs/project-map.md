@@ -1,7 +1,7 @@
 ---
 project: stargate-phx-event-page
 type: project-map
-status: active
+status: complete
 updated: 2026-07-16
 ---
 
@@ -45,8 +45,8 @@ updated: 2026-07-16
 - `styles/components.css` and `styles/responsive.css` for shared CTA contrast
   and minimum touch-target corrections
 
-Prompts 11–18 are complete. The Phoenix Threshold event family, registration
+Prompts 11–19 are complete. The Phoenix Threshold event family, registration
 engine, rules route, seven-profile character guide, eight-file PDF package,
 dates/session route, noindex pending route, and shared Pro GM discovery surfaces
-are built and locally verified. Prompt 19 owns integrated QA, publication, and
-live verification.
+are built, published, and locally/live verified. Future registration cutover is
+one central configuration edit after official Mox session facts exist.
