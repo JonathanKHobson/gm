@@ -18,6 +18,14 @@ Source root:
 - `event-visual-asset-pack/assets/hero/goldspire-footer-sablewood-wide-crop.png` -> `events/goldspire/assets/hero/forest-road-wide-crop.png`
 - `event-visual-asset-pack/assets/hero/SZ-00-standby-welcome.png` -> `events/goldspire/assets/hero/SZ-00-standby-welcome.png`
 
+Generated performance derivatives from approved hero art:
+
+- `assets/events/goldspire/hero/goldspire-sablewood-scene.png` -> `assets/events/goldspire/hero/goldspire-sablewood-scene-1280.avif`
+- `assets/events/goldspire/hero/goldspire-sablewood-wide.png` -> `assets/events/goldspire/hero/goldspire-sablewood-wide.avif`
+
+The original PNG files remain as fallbacks. Browsers with AVIF support receive
+the smaller derivatives through `<picture>` or CSS `image-set()`.
+
 ### Transparent Character Art
 
 - `visual-assets/pc_portrait_assets/transparent/barnacle.png` -> `events/goldspire/assets/characters/barnacle-background-removed.png`

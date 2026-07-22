@@ -1,7 +1,5 @@
 (function () {
   var nav = document.querySelector("[data-anchor='Nav01']");
-  var menuButton = document.getElementById("menuBtn");
-  var navLinks = document.getElementById("navlinks");
   var form = document.getElementById("contactForm");
   var note = document.getElementById("formNote");
   var shareModal = document.getElementById("shareModal");
@@ -48,26 +46,6 @@
 
   window.addEventListener("scroll", updateNav, { passive: true });
   updateNav();
-
-  if (menuButton && navLinks) {
-    menuButton.addEventListener("click", function () {
-      var open = navLinks.classList.toggle("open");
-      menuButton.setAttribute("aria-expanded", open ? "true" : "false");
-    });
-
-    navLinks.addEventListener("click", function (event) {
-      if (!event.target.closest("a")) return;
-      navLinks.classList.remove("open");
-      menuButton.setAttribute("aria-expanded", "false");
-    });
-
-    window.addEventListener("keydown", function (event) {
-      if (event.key !== "Escape") return;
-      navLinks.classList.remove("open");
-      menuButton.setAttribute("aria-expanded", "false");
-      menuButton.focus();
-    });
-  }
 
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   var reveals = Array.prototype.slice.call(document.querySelectorAll(".reveal"));

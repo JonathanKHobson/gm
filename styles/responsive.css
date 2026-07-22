@@ -1336,3 +1336,326 @@
   justify-content: center;
   min-width: 44px;
 }
+
+.navlink[aria-current="page"] {
+  color: #fff;
+}
+
+.navlink[aria-current="page"]::after {
+  transform: scaleX(1);
+}
+
+/* 2026 shared experience refresh
+   One deliberately scoped override layer for the portfolio shell and indexes.
+   Campaign-specific art direction remains in each campaign stylesheet. */
+
+@media (min-width: 901px) {
+  .nav .wrap {
+    max-width: 1320px;
+  }
+
+  .website-nav {
+    gap: clamp(0.65rem, 1.1vw, 1.05rem);
+  }
+
+  .website-hero .wrap {
+    min-height: 38rem;
+    grid-template-columns: minmax(0, 1.1fr) minmax(18rem, 0.64fr);
+    gap: clamp(2rem, 4vw, 4rem);
+    padding-top: 3.25rem;
+    padding-bottom: 3.25rem;
+  }
+
+  .website-hero h1 {
+    max-width: 12ch;
+    font-size: 4.35rem;
+  }
+
+  .events-hero .wrap,
+  .projects-detail .detail-hero .wrap {
+    padding-top: 4.25rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .events-hero h1,
+  .projects-detail .detail-hero h1 {
+    max-width: 16ch;
+  }
+
+  .events-list-band .wrap {
+    max-width: 1320px;
+  }
+
+  .events-card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+    align-items: stretch;
+  }
+
+  .events-card-grid .event-card-featured {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+  }
+
+  .events-card-grid .event-card-media,
+  .events-card-grid .event-card-media img {
+    min-height: 0;
+  }
+
+  .events-card-grid .event-card-media {
+    aspect-ratio: 16 / 9;
+  }
+
+  .events-card-grid .event-card-copy {
+    align-content: start;
+    padding: 1.35rem;
+  }
+
+  .events-card-grid .event-card-copy h3 {
+    max-width: 17ch;
+    font-size: 2.25rem;
+  }
+
+  .events-list-band .event-card-featured + .event-card-featured {
+    margin-top: 0;
+  }
+
+  .link-card-hero {
+    min-height: auto;
+    align-items: start;
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .about-detail .detail-hero .wrap {
+    max-width: 1320px;
+    padding-right: clamp(18rem, 23vw, 21rem);
+  }
+
+  .about-detail .detail-hero h1 {
+    max-width: 17ch;
+    font-size: 3.75rem;
+  }
+}
+
+.events-index .events-hero {
+  background:
+    linear-gradient(90deg, rgba(7, 19, 25, 0.95), rgba(7, 19, 25, 0.72) 56%, rgba(7, 19, 25, 0.46)),
+    url("../assets/generated/hero-tabletop-warm.webp") center / cover no-repeat;
+}
+
+.events-index .events-list-band {
+  padding-top: clamp(3.5rem, 6vw, 5rem);
+}
+
+.events-index .event-card-copy > .form-hint {
+  margin-top: auto;
+  border-top: 1px solid rgba(127, 44, 22, 0.14);
+  padding-top: 0.8rem;
+}
+
+.events-index .event-actions .btn {
+  flex: 1 1 11rem;
+}
+
+.events-index .event-card-media img {
+  object-position: center;
+}
+
+.events-index .event-card-featured:first-child .event-card-media img {
+  object-position: center 48%;
+}
+
+.link-card-intro h1 {
+  overflow-wrap: normal;
+  word-break: normal;
+  line-height: 1;
+}
+
+.site-footer .wrap {
+  min-height: 4.5rem;
+  align-items: center;
+}
+
+@media (max-width: 1100px) and (min-width: 901px) {
+  .brand-name span {
+    display: none;
+  }
+
+  .navlink {
+    font-size: 0.92rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .nav .wrap {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.45rem;
+    padding-top: 0.55rem;
+    padding-bottom: 0;
+  }
+
+  .brand-mark {
+    width: 2.35rem;
+    height: 2.35rem;
+  }
+
+  .brand-name strong {
+    font-size: 0.94rem;
+  }
+
+  .nav-links,
+  .website-nav {
+    flex-wrap: nowrap;
+    width: calc(100% + 2.5rem);
+    margin-inline: -1.25rem;
+    gap: 0.35rem;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    padding: 0.3rem 1.25rem 0.55rem;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .navlink,
+  .nav-cta {
+    min-height: 2.75rem;
+    padding: 0.45rem 0.7rem;
+    font-size: 0.92rem;
+  }
+
+  .navlink[aria-current="page"] {
+    border-radius: 999px;
+    background: rgba(248, 237, 218, 0.12);
+    color: #fff;
+  }
+
+  .detail-hero .wrap {
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem;
+  }
+
+  .events-hero .detail-meta,
+  .projects-detail .detail-meta {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+  }
+
+  .events-hero .detail-meta span,
+  .projects-detail .detail-meta span {
+    display: grid;
+    place-items: center;
+    min-height: 3rem;
+    text-align: center;
+  }
+
+  .events-card-grid {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .events-list-band .event-card-featured + .event-card-featured {
+    margin-top: 0;
+  }
+
+  .events-index .event-card-media,
+  .events-index .event-card-media img {
+    min-height: 0;
+  }
+
+  .events-index .event-card-media {
+    aspect-ratio: 16 / 9;
+  }
+}
+
+@media (max-width: 680px) {
+  .band {
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+  }
+
+  .section-head {
+    gap: 0.75rem;
+    margin-bottom: 1.65rem;
+  }
+
+  .h-section {
+    font-size: 2.2rem;
+  }
+
+  .website-hero .wrap {
+    gap: 1.75rem;
+    padding-top: 2.25rem;
+  }
+
+  .website-hero h1 {
+    max-width: 11ch;
+    font-size: 2.9rem;
+  }
+
+  .website-hero .hero-lede {
+    max-width: 32rem;
+  }
+
+  .website-hero-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .website-hero-actions .btn {
+    width: 100%;
+  }
+
+  .events-index .events-hero h1,
+  .projects-detail .detail-hero h1 {
+    font-size: 2.55rem;
+  }
+
+  .events-index .event-card-copy h3 {
+    max-width: 100%;
+    font-size: 2rem;
+  }
+
+  .events-index .event-facts {
+    grid-template-columns: 1fr;
+  }
+
+  .events-index .event-facts div {
+    display: grid;
+    grid-template-columns: 5.5rem minmax(0, 1fr);
+    gap: 0.75rem;
+    align-items: baseline;
+    padding: 0.72rem 0.8rem;
+  }
+
+  .events-index .event-facts dd {
+    margin-top: 0;
+  }
+
+  .events-index .event-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .events-index .event-actions .btn {
+    width: 100%;
+  }
+
+  .link-card-intro h1 {
+    font-family: var(--mono);
+    font-size: 1.42rem;
+    font-weight: 700;
+  }
+
+  .link-card-primary-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .link-card-primary-actions .btn {
+    width: 100%;
+  }
+}

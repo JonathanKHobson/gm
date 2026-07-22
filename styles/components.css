@@ -3781,7 +3781,10 @@
 .goldspire-hero {
   background:
     linear-gradient(90deg, rgba(7, 19, 25, 0.94), rgba(7, 19, 25, 0.72) 54%, rgba(7, 19, 25, 0.34)),
-    url("../assets/events/goldspire/hero/goldspire-sablewood-wide.png") center / cover no-repeat;
+    image-set(
+      url("../assets/events/goldspire/hero/goldspire-sablewood-wide.avif") type("image/avif"),
+      url("../assets/events/goldspire/hero/goldspire-sablewood-wide.png") type("image/png")
+    ) center / cover no-repeat;
 }
 
 .goldspire-hero.detail-hero-with-art .wrap {
@@ -4360,7 +4363,10 @@
   min-height: auto;
   background:
     linear-gradient(90deg, rgba(7, 19, 25, 0.92), rgba(32, 60, 42, 0.88)),
-    url("../assets/events/goldspire/hero/goldspire-sablewood-wide.png") center / cover no-repeat,
+    image-set(
+      url("../assets/events/goldspire/hero/goldspire-sablewood-wide.avif") type("image/avif"),
+      url("../assets/events/goldspire/hero/goldspire-sablewood-wide.png") type("image/png")
+    ) center / cover no-repeat,
     var(--void);
 }
 
