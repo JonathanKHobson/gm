@@ -33,10 +33,9 @@ updated: 2026-07-16
   add route-local CSS but must reuse its tokens, focus rules, section rhythm,
   buttons, disclosures, and mobile conventions.
 - The landing page now routes directly to the verified rules, character,
-  dates, and pending-status destinations.
-- The pending-state CTA is `Dates coming soon`; the fuller
-  `Dates and registration coming soon` message remains visible in status copy.
-  Scheduled, live, and sold-out labels and targets are controlled by
+  dates, and live Mox registration destinations.
+- Production registration is live through one shared Mox listing. The primary
+  CTA is `Book now at Mox`; live labels and targets are controlled by
   `stargate-registration.js`.
 - The rules route imports the Stargate family CSS and adds only its operational
   field-guide layout in `resources/stargate-phx.css`. The contents rail is
@@ -62,16 +61,18 @@ updated: 2026-07-16
   `registrationFlow: "shared_listing"`, provide `defaultRegistrationUrl`, and
   update `registrationFlowNote` when one Mox listing contains its own date
   selector.
+- Current production uses `shared_listing` with the verified Mox URL and three
+  sessions: August 22, September 5, and September 19, 2026 at 10:30 AM.
 - Pending CTAs resolve to `coming-soon/`; scheduled, live, and sold-out CTAs
   resolve to `dates/` unless a verified default live registration URL is set.
-  The coming-soon route intentionally has no self-referential registration CTA.
+  The former coming-soon route now provides a noindex recovery CTA to the live
+  listing.
 - `coming-soon/` is `noindex,nofollow` and must never enter the sitemap. It
   remains a meaningful status page with facts, event, rules, heroes, dates, and
   question paths.
-- Shared Pro GM discovery is deliberately date-neutral. The events index,
-  links page, 404 recovery page, and Echoes portfolio route point visitors into
-  the event family while the central Stargate configuration remains the only
-  authority for current registration status.
+- Shared Pro GM discovery now exposes live Mox registration on the events
+  index, links page, 404 recovery page, and Echoes portfolio route. The central
+  Stargate configuration remains the authority for session details.
 - Shared light-paper secondary actions use `btn-secondary-paper`; shared
   buttons, nav CTAs, and link-directory actions keep a 44px minimum target.
 - Final conformance fixes give shared nav links a 44px minimum target, make the

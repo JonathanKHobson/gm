@@ -3,18 +3,46 @@
 
   var config = {
     title: "Stargate PHX",
-    state: "pending",
+    state: "live",
     price: "$25 per player",
     seats: "7 seats maximum",
-    duration: "Roughly 3–4 hours",
+    duration: "Roughly 4–5 hours",
     venue: "Mox Boarding House Chandler",
     address: "1371 N Alma School Rd, Chandler, AZ 85224",
     directionsUrl: "https://www.google.com/maps/place/Mox%2BBoarding%2BHouse/%4033.3269143%2C-111.8608469%2C17z/data%3D%213m1%214b1%214m6%213m5%211s0x872b07b636f01fef%3A0x5b0edca367684e13%218m2%213d33.3269098%214d-111.858272%2116s%2Fg%2F11y7hf8780",
-    defaultRegistrationUrl: null,
-    registrationFlow: "per_session",
-    registrationFlowNote: "Each session has its own Mox registration link.",
-    sessionCtaLabel: "Continue to Mox",
-    sessions: [],
+    defaultRegistrationUrl: "https://events.moxboardinghouse.com/p/n/nmph2JKD",
+    registrationFlow: "shared_listing",
+    registrationFlowNote: "All three missions share one Mox listing. Choose your date and time there.",
+    sessionCtaLabel: "Book at Mox",
+    sessions: [
+      {
+        id: "groundbreaking-2026-08-22",
+        title: "Groundbreaking",
+        episode: "Episode 1.01",
+        day: "Saturday",
+        date: "August 22, 2026",
+        time: "10:30 AM",
+        availability: "Registration open"
+      },
+      {
+        id: "watershed-2026-09-05",
+        title: "Watershed",
+        episode: "Episode 1.02",
+        day: "Saturday",
+        date: "September 5, 2026",
+        time: "10:30 AM",
+        availability: "Registration open"
+      },
+      {
+        id: "a-matter-of-fae-2026-09-19",
+        title: "A Matter of Fae",
+        episode: "Episode 1.03",
+        day: "Saturday",
+        date: "September 19, 2026",
+        time: "10:30 AM",
+        availability: "Registration open"
+      }
+    ],
     states: {
       pending: {
         label: "Dates and registration coming soon",
@@ -37,11 +65,11 @@
         sessionCopy: "Review the dates below. Booking links will appear when Mox registration opens."
       },
       live: {
-        label: "Registration open",
-        title: "Choose a session and join the team.",
-        copy: "Select an available Stargate PHX session, then complete registration through Mox.",
-        ctaLabel: "Choose a session",
-        ctaAriaLabel: "Choose a Stargate PHX session and continue to official Mox registration.",
+        label: "Registration open · Three missions available",
+        title: "Choose your mission window.",
+        copy: "Choose August 22, September 5, or September 19, then complete registration through Mox.",
+        ctaLabel: "Book now at Mox",
+        ctaAriaLabel: "Book Stargate PHX through the official Mox event listing.",
         url: "dates/",
         sessionHeading: "Available mission windows",
         sessionCopy: "Choose a session below, then complete registration through Mox."

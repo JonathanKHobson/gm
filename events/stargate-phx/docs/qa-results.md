@@ -150,9 +150,9 @@ Pass locally and live. The compact anchor contract is in private
 - Accessibility/interaction: one H1 and sequential headings per route, visible
   keyboard focus, working keyboard disclosures, reduced-motion matching, and
   useful mobile content at every anchor.
-- Registration: production remains `pending` with zero sessions and no Mox
-  registration URL. Separate simulation passes pending, scheduled, live with
-  per-session URLs, live with one shared listing, and sold-out behavior.
+- Registration: production is `live` with one verified shared Mox listing and
+  three sessions on August 22, September 5, and September 19, 2026. Each
+  session starts at 10:30 AM and uses the shared listing's date selector.
 - Links: 515 internal asset/route/hash references and 20 external destinations
   pass; the coming-soon route remains absent from the sitemap.
 - Documents/code: all nine HTML documents have zero Nu HTML errors; XML, JS,
@@ -179,3 +179,20 @@ Pass locally and live. The compact anchor contract is in private
   The initial relative-path defect was corrected with a `/gm/` base before the
   passing live run.
 - Final live verification: `2026-07-17T04:28:03Z`.
+
+### 2026-07-21 live-registration cutover
+
+Local pass. The official Mox listing resolves successfully and contains three
+mission windows: August 22, September 5, and September 19, 2026 at 10:30 AM.
+
+- `RegHero01`: landing-page mobile hero shows the live status and a visible
+  `Book now at Mox` action without overflow.
+- `MissionPicker01`: dates route renders all three episode rows at 390x844 and
+  1440x900; every row points to the shared Mox listing.
+- `EventsCTA01`: the shared events index preserves the event overview path and
+  adds a direct Mox booking action with current dates and 4–5 hour duration.
+- `LinksCTA01`: the mobile links page leads with a direct Stargate booking card
+  while retaining the separate event-information route.
+- Character and player-resource routes inherit the live state and verified Mox
+  target from `stargate-registration.js`; browser execution reports no console
+  errors or horizontal overflow.

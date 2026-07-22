@@ -48,5 +48,6 @@ updated: 2026-07-16
 Prompts 11–19 are complete. The Phoenix Threshold event family, registration
 engine, rules route, seven-profile character guide, eight-file PDF package,
 dates/session route, noindex pending route, and shared Pro GM discovery surfaces
-are built, published, and locally/live verified. Future registration cutover is
-one central configuration edit after official Mox session facts exist.
+are built, published, and locally/live verified. Registration is now live
+through one shared Mox listing, with all three session records owned by the
+central registration configuration.
