@@ -5184,6 +5184,81 @@
   margin-bottom: 1rem;
 }
 
+.next-game-banner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.25rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(224, 181, 96, 0.56);
+  border-left: 5px solid var(--gold);
+  border-radius: var(--radius);
+  background: var(--night);
+  color: var(--cream);
+  padding: 1.05rem 1.2rem;
+  box-shadow: 0 16px 34px rgba(14, 8, 4, 0.16);
+}
+
+.next-game-copy {
+  display: grid;
+  gap: 0.28rem;
+}
+
+.next-game-kicker {
+  color: var(--gold);
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.next-game-banner h3 {
+  margin: 0;
+  color: #fff;
+  font-family: var(--display);
+  font-size: 1.55rem;
+  line-height: 1.08;
+}
+
+.next-game-banner p {
+  margin: 0;
+  color: rgba(248, 237, 218, 0.86);
+  line-height: 1.35;
+}
+
+.next-game-banner p strong {
+  color: #fff;
+}
+
+.next-game-note {
+  font-size: 0.92rem;
+}
+
+.next-game-actions {
+  display: grid;
+  gap: 0.55rem;
+  justify-items: center;
+}
+
+.next-game-actions .btn {
+  min-width: 9.5rem;
+  white-space: nowrap;
+}
+
+.next-game-details {
+  color: var(--cream);
+  font-size: 0.9rem;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.next-game-details:hover,
+.next-game-details:focus-visible {
+  color: #fff;
+}
+
 .quick-link-card {
   display: grid;
   gap: 0.22rem;
