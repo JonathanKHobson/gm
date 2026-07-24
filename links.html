@@ -95,27 +95,42 @@
           <h2 class="h-section" id="links-title">Start here.</h2>
         </div>
 
-        <aside class="next-game-banner" aria-labelledby="next-game-title">
+        <aside class="next-game-banner" data-next-game-banner aria-labelledby="next-game-title" hidden>
           <div class="next-game-copy">
             <div class="next-game-kicker">Next public game</div>
-            <h3 id="next-game-title">Daggerheart one-shot: Saturday, July 25</h3>
-            <p><strong>The Goldspire Messengers</strong> · 10:30 AM-2:30 PM · Mox Boarding House Chandler</p>
+            <h3 id="next-game-title" data-next-game-title>Daggerheart one-shot: Saturday, July 25</h3>
+            <p><strong data-next-game-name>The Goldspire Messengers</strong> · <span data-next-game-time>10:30 AM-2:30 PM</span> · <span data-next-game-venue>Mox Boarding House Chandler</span></p>
             <p class="next-game-note">Beginner-friendly. Premade heroes and rules guidance provided.</p>
           </div>
           <div class="next-game-actions">
-            <a aria-describedby="new-tab-note" class="btn btn-primary external-link" href="https://events.moxboardinghouse.com/p/n/xnP6r62v/v5" target="_blank" rel="noopener noreferrer">Book at Mox</a>
+            <a aria-describedby="new-tab-note" class="btn btn-primary external-link" data-next-game-primary href="https://events.moxboardinghouse.com/p/n/xnP6r62v/v5" target="_blank" rel="noopener noreferrer">Book at Mox</a>
             <a class="next-game-details" href="events/goldspire/">See event details</a>
           </div>
         </aside>
+
+        <script type="application/json" id="next-public-games">
+          [
+            {
+              "title": "Daggerheart one-shot: Saturday, July 25",
+              "name": "The Goldspire Messengers",
+              "time": "10:30 AM-2:30 PM",
+              "venue": "Mox Boarding House Chandler",
+              "linkTitle": "Book the Daggerheart one-shot",
+              "linkDetail": "Saturday, July 25 at Mox",
+              "start": "2026-07-25T10:30:00-07:00",
+              "url": "https://events.moxboardinghouse.com/p/n/xnP6r62v/v5"
+            }
+          ]
+        </script>
 
         <div class="quick-link-grid" role="group" aria-label="Most useful GameMasterKyle links">
           <a aria-describedby="new-tab-note" class="quick-link-card external-link" href="https://events.moxboardinghouse.com/p/n/nmph2JKD" target="_blank" rel="noopener noreferrer">
             <strong>Book Stargate PHX</strong>
             <span>Choose Aug 22, Sep 5, or Sep 19 at Mox</span>
           </a>
-          <a aria-describedby="new-tab-note" class="quick-link-card external-link" href="https://events.moxboardinghouse.com/p/n/xnP6r62v/v5" target="_blank" rel="noopener noreferrer">
-            <strong>Book the Daggerheart one-shot</strong>
-            <span>Saturday, July 25 at Mox</span>
+          <a aria-describedby="new-tab-note" class="quick-link-card external-link" data-next-game-link href="https://events.moxboardinghouse.com/p/n/xnP6r62v/v5" target="_blank" rel="noopener noreferrer" hidden>
+            <strong data-next-game-link-title>Book the Daggerheart one-shot</strong>
+            <span data-next-game-link-detail>Saturday, July 25 at Mox</span>
           </a>
           <a class="quick-link-card" href="events/goldspire/">
             <strong>Goldspire event page</strong>
@@ -183,9 +198,9 @@
                 <img class="contact-icon" src="assets/brand/gmk-compass-d20-mark.png" alt="" width="96" height="96" loading="lazy" decoding="async" />
                 <span><strong>Book Stargate PHX</strong><small>Choose one of three missions on the Mox listing</small></span>
               </a>
-              <a aria-describedby="new-tab-note" class="link-card-button external-link" href="https://events.moxboardinghouse.com/p/n/xnP6r62v/v5" target="_blank" rel="noopener noreferrer">
+              <a aria-describedby="new-tab-note" class="link-card-button external-link" data-next-game-link href="https://events.moxboardinghouse.com/p/n/xnP6r62v/v5" target="_blank" rel="noopener noreferrer" hidden>
                 <img class="contact-icon" src="assets/events/goldspire/icons/item.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="GoldspireIconItem01" />
-                <span><strong>Book the Daggerheart one-shot</strong><small>Saturday, July 25 at Mox</small></span>
+                <span><strong data-next-game-link-title>Book the Daggerheart one-shot</strong><small data-next-game-link-detail>Saturday, July 25 at Mox</small></span>
               </a>
               <a class="link-card-button" href="events/goldspire/">
                 <img class="contact-icon" src="assets/events/goldspire/icons/action-rules.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="GoldspireIconRules01" />

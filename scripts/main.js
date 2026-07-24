@@ -39,6 +39,66 @@
     }
   };
 
+  function initNextGamePromotion() {
+    var banner = document.querySelector("[data-next-game-banner]");
+    var dataNode = document.getElementById("next-public-games");
+    var datedLinks = Array.prototype.slice.call(document.querySelectorAll("[data-next-game-link]"));
+    if (!banner || !dataNode) return;
+
+    var events;
+    try {
+      events = JSON.parse(dataNode.textContent);
+    } catch (error) {
+      console.error("Could not read the next public game schedule.", error);
+      return;
+    }
+
+    var now = Date.now();
+    var nextGame = events
+      .map(function (event) {
+        return Object.assign({}, event, { startTime: Date.parse(event.start) });
+      })
+      .filter(function (event) {
+        return Number.isFinite(event.startTime) && event.startTime > now;
+      })
+      .sort(function (a, b) {
+        return a.startTime - b.startTime;
+      })[0];
+
+    if (!nextGame) {
+      banner.hidden = true;
+      datedLinks.forEach(function (link) {
+        link.hidden = true;
+      });
+      return;
+    }
+
+    var title = banner.querySelector("[data-next-game-title]");
+    var name = banner.querySelector("[data-next-game-name]");
+    var time = banner.querySelector("[data-next-game-time]");
+    var venue = banner.querySelector("[data-next-game-venue]");
+    var primary = banner.querySelector("[data-next-game-primary]");
+
+    if (title) title.textContent = nextGame.title;
+    if (name) name.textContent = nextGame.name;
+    if (time) time.textContent = nextGame.time;
+    if (venue) venue.textContent = nextGame.venue;
+    if (primary) primary.href = nextGame.url;
+
+    datedLinks.forEach(function (link) {
+      var linkTitle = link.querySelector("[data-next-game-link-title]");
+      var linkDetail = link.querySelector("[data-next-game-link-detail]");
+      link.href = nextGame.url;
+      if (linkTitle) linkTitle.textContent = nextGame.linkTitle;
+      if (linkDetail) linkDetail.textContent = nextGame.linkDetail;
+      link.hidden = false;
+    });
+
+    banner.hidden = false;
+  }
+
+  initNextGamePromotion();
+
   function updateNav() {
     if (!nav) return;
     nav.classList.toggle("scrolled", window.scrollY > 18);
