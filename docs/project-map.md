@@ -63,3 +63,12 @@ Do not mirror or overwrite the live site from that folder.
 4. Render-check affected routes at mobile and desktop sizes.
 5. Run route, link, overflow, image, and accessibility checks.
 6. Commit, push to `origin/main`, and verify the live Pages routes.
+
+## Deployment Analytics
+
+- `.github/workflows/pages.yml` builds and deploys the Pages artifact from
+  `main`.
+- `tools/inject-cloudflare-analytics.mjs` adds the privacy-first Cloudflare
+  beacon only to that generated artifact, leaving source HTML unchanged.
+- The workflow requires the repository variable
+  `CLOUDFLARE_WEB_ANALYTICS_TOKEN` and fails if it is missing or invalid.
