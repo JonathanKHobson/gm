@@ -46,6 +46,10 @@ Do not mirror or overwrite the live site from that folder.
 
 ## Event Configuration
 
+- Site-wide next public event registry: `scripts/public-events.js`.
+- Scheduled registry and known-listing watcher:
+  `.github/workflows/public-event-watch.yml` and
+  `tools/check-public-events.mjs`.
 - Goldspire registration and date state: `events/goldspire/goldspire.js`.
 - Stargate PHX registration and date state: `events/stargate-phx/stargate-phx.js`.
 - Venue listings remain external Mox pages; this repository does not implement

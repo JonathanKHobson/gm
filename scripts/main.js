@@ -41,17 +41,9 @@
 
   function initNextGamePromotion() {
     var banner = document.querySelector("[data-next-game-banner]");
-    var dataNode = document.getElementById("next-public-games");
-    var datedLinks = Array.prototype.slice.call(document.querySelectorAll("[data-next-game-link]"));
-    if (!banner || !dataNode) return;
-
-    var events;
-    try {
-      events = JSON.parse(dataNode.textContent);
-    } catch (error) {
-      console.error("Could not read the next public game schedule.", error);
-      return;
-    }
+    var site = window.GameMasterKyle || {};
+    var events = site.publicEvents;
+    if (!banner || !Array.isArray(events)) return;
 
     var now = Date.now();
     var nextGame = events
@@ -67,9 +59,6 @@
 
     if (!nextGame) {
       banner.hidden = true;
-      datedLinks.forEach(function (link) {
-        link.hidden = true;
-      });
       return;
     }
 
@@ -78,21 +67,14 @@
     var time = banner.querySelector("[data-next-game-time]");
     var venue = banner.querySelector("[data-next-game-venue]");
     var primary = banner.querySelector("[data-next-game-primary]");
+    var details = banner.querySelector("[data-next-game-details]");
 
     if (title) title.textContent = nextGame.title;
     if (name) name.textContent = nextGame.name;
     if (time) time.textContent = nextGame.time;
     if (venue) venue.textContent = nextGame.venue;
     if (primary) primary.href = nextGame.url;
-
-    datedLinks.forEach(function (link) {
-      var linkTitle = link.querySelector("[data-next-game-link-title]");
-      var linkDetail = link.querySelector("[data-next-game-link-detail]");
-      link.href = nextGame.url;
-      if (linkTitle) linkTitle.textContent = nextGame.linkTitle;
-      if (linkDetail) linkDetail.textContent = nextGame.linkDetail;
-      link.hidden = false;
-    });
+    if (details) details.href = nextGame.detailsUrl;
 
     banner.hidden = false;
   }

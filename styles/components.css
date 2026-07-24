@@ -5199,8 +5199,7 @@
   box-shadow: 0 16px 34px rgba(14, 8, 4, 0.16);
 }
 
-.next-game-banner[hidden],
-[data-next-game-link][hidden] {
+.next-game-banner[hidden] {
   display: none;
 }
 
