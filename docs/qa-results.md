@@ -15,6 +15,15 @@ structured-data, syntax, and visual checks before publication.
 The July 24 booking-switchboard pass also passed verified-event rotation,
 lead-capture, share-tool, responsive, contrast, and rendered visual checks.
 
+## Booking Switchboard Icon Anchor Map
+
+| ID | Source and viewport | Region / selector | Verified result |
+| --- | --- | --- | --- |
+| `Icon01` | `/tmp/gm-links-switchboard-qa/icons-mobile.png`, 390x844; `icons-desktop.png`, 1366x900 | Header, `.links-header-action .lucide-icon` | The prototype's 18px Lucide mail icon is restored, aligned with the label, and no longer rendered as a tiny platform-dependent glyph. |
+| `Icon02` | Both icon QA screenshots | Featured event, `.event-facts .lucide-icon` | Calendar and map-pin icons are distinct, consistently sized at 18px, and aligned to their date and venue text. |
+| `Icon03` | Both icon QA screenshots | Follow/resource rows, `.utility-links` | Contextual Lucide icons render at 20px with consistent 17px destination arrows; labels retain full usable width. |
+| `Icon04` | Rendered page and expanded share controls | `.share-tools`, `.share-actions` | Chevron, share, copy, and CTA arrows use the same local icon system; all sprite references render nonblank and controls retain text or accessible labels. |
+
 ## Booking Switchboard Anchor Map
 
 | ID | Source and viewport | Region / selector | Verified result |
@@ -56,6 +65,9 @@ local audit. Baseline and intermediate evidence remains under
 - Visitor-facing copy sweep found no production-status language in primary public
   routes; `EmailJS` appears only in the implementation script URL/API code.
 - Axe found no WCAG A/AA violations on the booking switchboard.
+- Axe found no WCAG A/AA violations after restoring the local Lucide icon set.
+- All 24 external SVG sprite references rendered with nonzero geometry; no icon
+  request failed and no console error or warning was emitted.
 - Simulated pre-start and post-start states confirmed chronological event
   rotation uses `scripts/public-events.js`, not hardcoded page copy.
 

@@ -21,6 +21,18 @@
   font: inherit;
 }
 
+.lucide-icon {
+  display: block;
+  width: 1em;
+  height: 1em;
+  flex: 0 0 auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
 .links-wrap {
   width: min(100%, 1120px);
   margin-inline: auto;
@@ -82,6 +94,11 @@
   font-size: 14px;
   font-weight: 800;
   white-space: nowrap;
+}
+
+.links-header-action .lucide-icon {
+  width: 18px;
+  height: 18px;
 }
 
 .booking-section {
@@ -203,10 +220,11 @@
   align-items: start;
 }
 
-.event-facts li > span:first-child {
-  margin-top: 2px;
+.event-facts .lucide-icon {
+  width: 18px;
+  height: 18px;
+  margin-top: 3px;
   color: var(--ember-dark);
-  font-weight: 800;
 }
 
 .event-note {
@@ -233,6 +251,11 @@
   white-space: nowrap;
   cursor: pointer;
   transition: transform 160ms ease, background-color 160ms ease, border-color 160ms ease;
+}
+
+.links-button .lucide-icon {
+  width: 18px;
+  height: 18px;
 }
 
 .links-button:hover {
@@ -321,7 +344,9 @@
   background: white;
 }
 
-.input-shell > span {
+.input-shell .lucide-icon {
+  width: 18px;
+  height: 18px;
   color: var(--ink-muted);
 }
 
@@ -382,6 +407,11 @@
   font-weight: 800;
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+
+.lead-events-link .lucide-icon {
+  width: 16px;
+  height: 16px;
 }
 
 .tentative-strip {
@@ -504,13 +534,19 @@
 
 .utility-links a {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 20px;
+  grid-template-columns: 25px minmax(0, 1fr) 20px;
   gap: 11px;
   align-items: center;
   min-height: 66px;
   padding: 10px 4px;
   border-bottom: 1px solid var(--line);
   color: var(--ink);
+}
+
+.utility-links a > .lucide-icon:first-child {
+  width: 20px;
+  height: 20px;
+  color: var(--ember-dark);
 }
 
 .utility-links a:hover {
@@ -528,9 +564,10 @@
   font-size: 12px;
 }
 
-.utility-links a > span:last-child {
+.utility-links .utility-arrow {
+  width: 17px;
+  height: 17px;
   color: var(--ember-dark);
-  font-weight: 800;
 }
 
 .identity-section {
@@ -600,7 +637,13 @@
   font-size: 12px;
 }
 
-.share-tools[open] summary > span:last-child {
+.share-chevron {
+  width: 21px;
+  height: 21px;
+  transition: transform 160ms ease;
+}
+
+.share-tools[open] .share-chevron {
   transform: rotate(180deg);
 }
 
@@ -635,6 +678,11 @@
   background: transparent;
   color: var(--ink);
   cursor: pointer;
+}
+
+.icon-button .lucide-icon {
+  width: 19px;
+  height: 19px;
 }
 
 .share-status {
