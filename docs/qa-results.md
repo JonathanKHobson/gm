@@ -2,7 +2,7 @@
 project: pro-gm-website
 type: qa-results
 status: passed
-updated: 2026-07-22
+updated: 2026-07-24
 ---
 
 # Pro GM Site QA Results
@@ -12,6 +12,19 @@ updated: 2026-07-22
 The July 2026 experience upgrade passed local route, link, responsive, image,
 structured-data, syntax, and visual checks before publication.
 
+The July 24 booking-switchboard pass also passed verified-event rotation,
+lead-capture, share-tool, responsive, contrast, and rendered visual checks.
+
+## Booking Switchboard Anchor Map
+
+| ID | Source and viewport | Region / selector | Verified result |
+| --- | --- | --- | --- |
+| `Booking01` | `/tmp/gm-links-switchboard-qa/mobile-before.png`, 390x844; `desktop-before.png`, 1366x900 | First conversion card, `[data-featured-event]` | Goldspire is the earliest future verified event before its start; sold-out status and Mox waitlist action are clear and unwrapped. |
+| `Rotate01` | `/tmp/gm-links-switchboard-qa/mobile-after.png`, 390x844; `desktop-after.png`, 1366x900 | Featured card and `[data-also-booking]` | At 10:31 AM on July 25, the featured card automatically becomes `Stargate PHX: Groundbreaking`; the secondary band advances to `Watershed`. |
+| `Lead01` | Both before/after screenshots | `.lead-capture` | Copy is game-agnostic, the email-only action is clear, and `See all public events` remains a quiet secondary route. Mocked EmailJS success returned the intended confirmation. |
+| `Share01` | `/tmp/gm-links-switchboard-qa/mobile-share.png`, 390x844 | `.share-tools` | Summary reads `Share`; disclosure opens without layout shift or overflow; both QR images load at their natural 230px size. |
+| `Responsive01` | 390x844, 430x932, 1024x768, 1366x900, 1440x900 | Full page | No horizontal overflow; primary CTA remains 48px high with `white-space: nowrap`; header remains 73px high. |
+
 ## Visual Anchor Map
 
 | ID | Source and viewport | Region / selector | Verified result |
@@ -20,7 +33,7 @@ structured-data, syntax, and visual checks before publication.
 | `Home01` | `/gm/`, both viewports | First viewport, `.website-hero` | Offer, audience, public-game action, private-table action, portrait, and trust stats read in a clear order with no overlap. |
 | `Events01` | `/gm/events/`, both viewports | Hero and `.events-card-grid` | Beginner promise is immediate; Goldspire and Stargate compare side by side on desktop and stack cleanly on mobile. |
 | `Games01` | `/gm/projects.html`, both viewports | Hero and first portfolio band | Page purpose is concise; category labels scan cleanly; campaign work remains the visual focus. |
-| `Links01` | `/gm/links.html`, both viewports | Digital-card first viewport | Name, portrait, core actions, and fast links fit without horizontal overflow; share field has an accessible name. |
+| `Links01` | `/gm/links.html`, both viewports | Booking-switchboard first viewport | Next verified event, booking/waitlist action, and game-agnostic reminder path scan in a clear order without horizontal overflow. |
 | `Goldspire01` | `/gm/events/goldspire/`, both viewports | Campaign hero | Transparent party art remains intact; facts stay readable; no character/text collision; AVIF/WebP delivery is active. |
 | `Stargate01` | `/gm/events/stargate-phx/`, both viewports | Campaign hero | Campaign identity remains distinct; premise, beginner reassurance, and booking action fit without overlap. |
 | `Utility01` | Daggerheart, Stargate resources, and 404, both viewports | First viewport and recovery actions | Resource pages retain clear return/booking paths; 404 provides concise recovery without a dead end. |
@@ -42,6 +55,9 @@ local audit. Baseline and intermediate evidence remains under
 - `git diff --check` passed.
 - Visitor-facing copy sweep found no production-status language in primary public
   routes; `EmailJS` appears only in the implementation script URL/API code.
+- Axe found no WCAG A/AA violations on the booking switchboard.
+- Simulated pre-start and post-start states confirmed chronological event
+  rotation uses `scripts/public-events.js`, not hardcoded page copy.
 
 ## Performance Evidence
 

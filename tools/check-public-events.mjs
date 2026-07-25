@@ -66,8 +66,10 @@ function loadRegistry() {
 
 const registry = loadRegistry();
 const events = Array.isArray(registry.publicEvents) ? registry.publicEvents : [];
+const tentativeEvents = Array.isArray(registry.tentativeEvents) ? registry.tentativeEvents : [];
 const sources = Array.isArray(registry.publicEventSources) ? registry.publicEventSources : [];
 const requiredFields = ["id", "game", "title", "name", "time", "venue", "start", "url", "detailsUrl", "sourceId"];
+const allowedPublicStatuses = new Set(["live", "sold_out"]);
 const seenIds = new Set();
 const sourceById = new Map(sources.map((source) => [source.id, source]));
 
@@ -83,6 +85,20 @@ for (const event of events) {
   if (!Number.isFinite(Date.parse(event.start))) addIssue("error", "INVALID_START", `${event.id} has an invalid start time.`);
   if (!sourceById.has(event.sourceId)) addIssue("error", "UNKNOWN_SOURCE", `${event.id} references unknown source ${event.sourceId}.`);
   if (!/^https:\/\//.test(event.url || "")) addIssue("error", "INVALID_URL", `${event.id} must use an HTTPS booking URL.`);
+  if (event.status && !allowedPublicStatuses.has(event.status)) {
+    addIssue("error", "INVALID_STATUS", `${event.id} has unsupported public status ${event.status}.`);
+  }
+}
+
+for (const event of tentativeEvents) {
+  for (const field of ["id", "game", "system", "dateLabel", "status"]) {
+    if (!event[field]) addIssue("error", "MISSING_TENTATIVE_FIELD", `${event.id || "Unnamed tentative event"} is missing ${field}.`);
+  }
+  if (seenIds.has(event.id)) addIssue("error", "DUPLICATE_ID", `Duplicate event id: ${event.id}.`);
+  seenIds.add(event.id);
+  if (event.status !== "tentative") {
+    addIssue("error", "INVALID_TENTATIVE_STATUS", `${event.id} must use tentative status.`);
+  }
 }
 
 const sortedStarts = events.map((event) => Date.parse(event.start));
@@ -150,6 +166,7 @@ const report = {
   registryPath: path.relative(root, registryPath),
   sourceCount: sources.length,
   eventCount: events.length,
+  tentativeEventCount: tentativeEvents.length,
   upcomingCount: upcoming.length,
   nextEvent: upcoming[0] ? {
     id: upcoming[0].id,

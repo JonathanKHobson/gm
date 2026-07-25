@@ -2,7 +2,7 @@
 project: pro-gm-website
 type: project-map
 status: active
-updated: 2026-07-22
+updated: 2026-07-24
 ---
 
 # Pro GM Website Project Map
@@ -32,7 +32,7 @@ Do not mirror or overwrite the live site from that folder.
 | Goldspire | `events/goldspire/` | Daggerheart event, dates, and characters |
 | Stargate PHX | `events/stargate-phx/` | Episodic event, dates, and characters |
 | Player resources | `resources/` | Beginner-facing rules and prep support |
-| Link card | `links.html` | Compact social/profile navigation |
+| Booking switchboard | `links.html` | Next verified game, lead capture, event directory, contact, and share tools |
 | Recovery | `404.html` | Branded route recovery |
 
 ## Shared Ownership
@@ -42,11 +42,18 @@ Do not mirror or overwrite the live site from that folder.
 - `styles/components.css`: reusable buttons, cards, bands, and page components.
 - `styles/responsive.css`: shared breakpoints and mobile/desktop adaptations.
 - `scripts/main.js`: shared interactions and contact form behavior.
+- `styles/links.css`: booking-switchboard presentation only.
+- `scripts/links-page.js`: next-event rotation, game-agnostic reminder form,
+  tentative-date display, and share controls for `links.html`.
 - Campaign folders own only their campaign-specific HTML, CSS, JS, and assets.
 
 ## Event Configuration
 
 - Site-wide next public event registry: `scripts/public-events.js`.
+- `GameMasterKyle.publicEvents` contains verified bookable listings and drives
+  the earliest-future-event CTA on `links.html`.
+- `GameMasterKyle.tentativeEvents` contains informational dates only and cannot
+  become the featured booking CTA.
 - Scheduled registry and known-listing watcher:
   `.github/workflows/public-event-watch.yml` and
   `tools/check-public-events.mjs`.

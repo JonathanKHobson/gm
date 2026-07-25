@@ -1,8 +1,10 @@
 # Public Event Registry
 
-The next-game banner on `links.html` is driven by
-`scripts/public-events.js`. It is a game-agnostic chronological list: the
-banner selects the earliest event whose `start` time is still in the future.
+The booking spotlight on `links.html` is driven by
+`scripts/public-events.js`. It is a game-agnostic chronological list: the page
+selects the earliest verified event whose `start` time is still in the future.
+When that start time passes, the next verified event is promoted without an
+HTML edit.
 
 ## Add An Event
 
@@ -15,11 +17,32 @@ Add one object to `GameMasterKyle.publicEvents` with:
 - the external booking URL
 - the local details-page URL
 - a `sourceId` matching `GameMasterKyle.publicEventSources`
+- a `status` of `live` or `sold_out` when the booking CTA needs special wording
+
+The order in the file does not control the featured card. If a newly verified
+August 4 event is added later, its earlier `start` time will place it ahead of
+the current Stargate listing automatically.
 
 Add a new source entry when a new recurring Mox listing URL is introduced.
 Set `discoverDates` to `true` when that listing prints its dated sessions in
 the public page copy. Add `watchText` to an event when the watcher should
 confirm a specific listing line remains present.
+
+## Tentative Dates
+
+Tentative dates belong in `GameMasterKyle.tentativeEvents`. They can appear as
+an informational schedule note, but they never become booking CTAs and are not
+treated as verified listings.
+
+When Mox publishes a real listing:
+
+1. add the source URL if it is new;
+2. add the dated event to `GameMasterKyle.publicEvents`;
+3. remove the matching item from `GameMasterKyle.tentativeEvents`;
+4. run the watcher locally.
+
+Do not maintain a second CSV. The browser-safe JavaScript registry is the
+single structured source used by the page and the watcher.
 
 ## Watcher
 
