@@ -35,6 +35,11 @@ function registryDateKey(start) {
   return match ? `${match[1]}T${match[2]}` : "";
 }
 
+function byDisplayPriority(a, b) {
+  const priorityDifference = Number(b.featurePriority || 0) - Number(a.featurePriority || 0);
+  return priorityDifference || Date.parse(a.start) - Date.parse(b.start);
+}
+
 function discoverDateKeys(html) {
   const months = {
     january: "01", february: "02", march: "03", april: "04",
@@ -111,7 +116,7 @@ for (let index = 1; index < sortedStarts.length; index += 1) {
 
 const upcoming = events
   .filter((event) => Date.parse(event.start) > now.getTime())
-  .sort((a, b) => Date.parse(a.start) - Date.parse(b.start));
+  .sort(byDisplayPriority);
 
 if (!upcoming.length) {
   addIssue("error", "NO_UPCOMING_EVENTS", "No future public event is registered. The next-game banner will be hidden.");

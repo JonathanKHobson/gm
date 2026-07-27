@@ -7,8 +7,9 @@
   var CONTACT_TEMPLATE_ID = "template_hjbmxbn";
   var SHARE_URL = "https://jonathankhobson.github.io/g/";
 
-  function byStart(a, b) {
-    return Date.parse(a.start) - Date.parse(b.start);
+  function byDisplayPriority(a, b) {
+    var priorityDifference = Number(b.featurePriority || 0) - Number(a.featurePriority || 0);
+    return priorityDifference || Date.parse(a.start) - Date.parse(b.start);
   }
 
   function getUpcomingVerifiedEvents(now) {
@@ -20,7 +21,7 @@
         var start = Date.parse(event.start);
         return Number.isFinite(start) && start > now;
       })
-      .sort(byStart);
+      .sort(byDisplayPriority);
   }
 
   function formatEventDate(event) {

@@ -20,16 +20,16 @@
 
   site.publicEvents = [
     {
-      id: "goldspire-2026-07-25",
+      id: "goldspire-2026-08-04",
       game: "The Goldspire Messengers",
       system: "Daggerheart",
       tier: "Tier 1",
-      status: "sold_out",
-      title: "Daggerheart one-shot: Saturday, July 25",
+      status: "live",
+      title: "Daggerheart one-shot: Tuesday, August 4",
       name: "The Goldspire Messengers",
-      time: "10:30 AM-2:30 PM",
+      time: "5:00-10:00 PM",
       venue: "Mox Boarding House Chandler",
-      start: "2026-07-25T10:30:00-07:00",
+      start: "2026-08-04T17:00:00-07:00",
       url: "https://events.moxboardinghouse.com/p/n/xnP6r62v/v5",
       detailsUrl: "events/goldspire/",
       sourceId: "goldspire-mox"
@@ -44,6 +44,7 @@
       time: "Starts at 10:30 AM",
       venue: "Mox Boarding House Chandler",
       start: "2026-08-22T10:30:00-07:00",
+      featurePriority: 100,
       url: "https://events.moxboardinghouse.com/p/n/nmph2JKD",
       detailsUrl: "events/stargate-phx/",
       sourceId: "stargate-phx-mox",
@@ -84,14 +85,6 @@
   // Tentative dates are intentionally separate. They never become booking CTAs
   // until a verified listing is added to publicEvents above.
   site.tentativeEvents = [
-    {
-      id: "daggerheart-2026-08-04",
-      game: "The Goldspire Messengers",
-      system: "Daggerheart",
-      tier: "Tier 1",
-      dateLabel: "Aug 4",
-      status: "tentative"
-    },
     {
       id: "daggerheart-2026-08-25",
       game: "Tier 2 adventure",

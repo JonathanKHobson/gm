@@ -1,10 +1,12 @@
 # Public Event Registry
 
 The booking spotlight on `links.html` is driven by
-`scripts/public-events.js`. It is a game-agnostic chronological list: the page
-selects the earliest verified event whose `start` time is still in the future.
-When that start time passes, the next verified event is promoted without an
-HTML edit.
+`scripts/public-events.js`. By default, the page selects the earliest verified
+event whose `start` time is still in the future. An event can temporarily take
+the featured position with a numeric `featurePriority`; higher values appear
+first while the event remains upcoming. When that event starts, it expires from
+the page automatically and the next eligible event is promoted without an HTML
+edit.
 
 ## Add An Event
 
@@ -18,10 +20,14 @@ Add one object to `GameMasterKyle.publicEvents` with:
 - the local details-page URL
 - a `sourceId` matching `GameMasterKyle.publicEventSources`
 - a `status` of `live` or `sold_out` when the booking CTA needs special wording
+- an optional numeric `featurePriority` when a verified event should be
+  deliberately promoted over an earlier secondary option
 
-The order in the file does not control the featured card. If a newly verified
-August 4 event is added later, its earlier `start` time will place it ahead of
-the current Stargate listing automatically.
+The order in the file does not control the featured card. Events with the
+highest `featurePriority` appear first; ties and events without a priority are
+ordered chronologically. The July 2026 switchboard uses this to keep Stargate
+PHX featured while the earlier August 4 Goldspire table appears as the compact
+secondary booking action.
 
 Add a new source entry when a new recurring Mox listing URL is introduced.
 Set `discoverDates` to `true` when that listing prints its dated sessions in

@@ -463,3 +463,28 @@ status: local-qa-passed
 - HTML smoke checks passed for the changed public routes.
 - Current public route sweep found no July 15 copy, old Wednesday time, or two-table wording in the changed HTML.
 - Browser rendering was intentionally not started because the local pressure guard reported critical memory pressure (about 80 MB free). This pass changes copy and structured data only; no CSS, media, or layout rules changed.
+
+## 2026-07-27 August 4 Live Listing Update
+
+### Verification Map
+
+| ID | Source | Region | Verified result |
+| --- | --- | --- | --- |
+| GoldspireDate04 | `events/goldspire/index.html` | Metadata, hero logistics, date strip, event details, final CTA | Tuesday, August 4, 2026 from 5:00-10:00 PM is the current Tier 1 Goldspire session. |
+| GoldspireRoute04 | `events/goldspire/dates/` | Confirmed-date card | The date route lists August 4 with the shared official Mox booking URL. |
+| EventsIndex04 | `events/index.html` | Goldspire event card | The master event page shows August 4 and its current Mox-listed time. |
+| LinksPriority04 | `links.html` + `scripts/public-events.js` | Featured and secondary booking actions | Stargate PHX remains featured; August 4 Goldspire is available as the smaller secondary booking action. |
+| Schema04 | `events/goldspire/index.html` | JSON-LD | Structured event data identifies the August 4 scheduled event and official Mox offer URL. |
+
+### Verification Evidence
+
+- Mox rendered verification showed Tuesday, August 4, 2026 from 5:00-10:00 PM
+  with a $25 total.
+- Playwright screenshots passed at 390x844 and 1366x900 under
+  `/tmp/gm-aug4-qa/`.
+- No checked route had horizontal overflow, broken images, stale July 25 public
+  copy, or a Mox CTA pointed anywhere other than the verified listing.
+- Axe reported no WCAG A/AA violations on the links, events, Goldspire landing,
+  or Goldspire dates routes.
+- The online public-event watcher returned `status: ok` for both registered Mox
+  source URLs.

@@ -2,7 +2,7 @@
 project: pro-gm-website
 type: qa-results
 status: passed
-updated: 2026-07-24
+updated: 2026-07-27
 ---
 
 # Pro GM Site QA Results
@@ -14,6 +14,20 @@ structured-data, syntax, and visual checks before publication.
 
 The July 24 booking-switchboard pass also passed verified-event rotation,
 lead-capture, share-tool, responsive, contrast, and rendered visual checks.
+
+The July 27 event update verifies Stargate as the intentional featured booking,
+with the newly confirmed August 4 Goldspire table presented as the compact
+secondary action.
+
+## August 4 Event Update Anchor Map
+
+| ID | Source and viewport | Region / selector | Verified result |
+| --- | --- | --- | --- |
+| `Feature04` | `/tmp/gm-aug4-qa/links-mobile.png`, 390x844; `links-desktop.png`, 1366x900 | `[data-featured-event]` | Stargate PHX: Groundbreaking remains the primary booking card and targets the Stargate Mox listing. |
+| `Minor04` | Same links-page screenshots | `[data-also-booking]` | Goldspire August 4 appears as a visually quieter secondary strip; it measures 180px on mobile and 105px on desktop and targets the shared Goldspire Mox listing. |
+| `Events04` | `/tmp/gm-aug4-qa/events-mobile.png`; `events-desktop.png` | Goldspire card on `/events/` | Date, time, price, venue, seat count, and booking copy show the confirmed August 4 session without changing the Stargate card. |
+| `Hero04` | `/tmp/gm-aug4-qa/goldspire-top-mobile.png`; `goldspire-top-desktop.png` | Goldspire hero and logistics | Tuesday, August 4, 5:00-10:00 PM, and the five-hour event window render without art/text collisions or horizontal overflow. |
+| `Dates04` | `/tmp/gm-aug4-qa/dates-card-mobile.png`; `dates-top-desktop.png` | Goldspire date route | The only confirmed date card shows August 4 and retains direct Mox booking plus directions. |
 
 ## Booking Switchboard Icon Anchor Map
 
@@ -66,10 +80,12 @@ local audit. Baseline and intermediate evidence remains under
   routes; `EmailJS` appears only in the implementation script URL/API code.
 - Axe found no WCAG A/AA violations on the booking switchboard.
 - Axe found no WCAG A/AA violations after restoring the local Lucide icon set.
+- Axe found no WCAG A/AA violations on the four July 27 update routes at
+  390x844.
 - All 24 external SVG sprite references rendered with nonzero geometry; no icon
   request failed and no console error or warning was emitted.
-- Simulated pre-start and post-start states confirmed chronological event
-  rotation uses `scripts/public-events.js`, not hardcoded page copy.
+- Simulated event states confirmed default chronological rotation plus optional
+  `featurePriority` use `scripts/public-events.js`, not hardcoded page copy.
 
 ## Performance Evidence
 
