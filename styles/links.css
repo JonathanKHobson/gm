@@ -424,6 +424,10 @@
   background: rgba(255, 250, 241, 0.62);
 }
 
+.tentative-strip[hidden] {
+  display: none;
+}
+
 .tentative-heading {
   display: grid;
   grid-template-columns: 10px minmax(0, 1fr);
