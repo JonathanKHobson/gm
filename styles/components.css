@@ -2919,6 +2919,25 @@
   margin-top: 2rem;
 }
 
+.proof-cta-actions {
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.proof-cta .review-cta-link {
+  border-color: var(--ember);
+  background: var(--ember);
+  color: #170c07;
+  box-shadow: 0 12px 24px rgba(230, 96, 54, 0.18);
+}
+
+.proof-cta .review-cta-link:hover,
+.proof-cta .review-cta-link:focus-visible {
+  border-color: #f27a45;
+  background: #f27a45;
+  color: #170c07;
+}
+
 .table-voices {
   position: relative;
   overflow: hidden;
@@ -4867,6 +4886,38 @@
 
 .goldspire-proof-source {
   margin: 0;
+}
+
+.goldspire-review-prompt {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+  border: 1px solid rgba(201, 163, 92, 0.32);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 250, 241, 0.72);
+  padding: 0.9rem 1rem;
+}
+
+.goldspire-review-prompt p {
+  margin: 0;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+
+.goldspire-review-prompt strong {
+  color: var(--ink);
+}
+
+@media (max-width: 680px) {
+  .goldspire-review-prompt {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .goldspire-review-prompt .btn {
+    width: 100%;
+  }
 }
 
 .goldspire-video-proof {

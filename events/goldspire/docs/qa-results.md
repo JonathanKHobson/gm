@@ -511,3 +511,13 @@ status: local-qa-passed
   Tier 2 sessions.
 - The online registry watcher returned `status: ok`; no checked page had
   horizontal overflow, broken images, or serious/critical Axe findings.
+
+## 2026-07-28 StartPlaying Review Prompt
+
+| ID | Source / viewport | Region | Verified result |
+| --- | --- | --- | --- |
+| `GoldReview06` | `/tmp/gm-review-cta-qa/goldspire-mobile.png`, 390x844; `goldspire-desktop.png`, 1366x900 | `.goldspire-review-prompt` | A compact prompt appears directly after player reflections. The button stays single-line on mobile, remains secondary to booking, and opens the verified StartPlaying review route. |
+
+- The review destination returned HTTP `200`.
+- Axe reported no serious or critical WCAG A/AA findings.
+- No horizontal overflow or button/text collision was observed.

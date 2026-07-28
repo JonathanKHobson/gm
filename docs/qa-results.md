@@ -132,3 +132,24 @@ this static site's control.
   Goldspire landing, or Goldspire dates routes at 390x844 and 1366x900.
 - No checked route had horizontal overflow or broken images. Tier 1 and Tier 2
   CTA destinations matched their separate official Mox listings.
+
+## 2026-07-28 StartPlaying Review CTA Release
+
+### Visual Anchor Map
+
+| ID | Source and viewport | Region / selector | Verified result |
+| --- | --- | --- | --- |
+| `Review01` | `/tmp/gm-review-cta-qa/links-mobile.png`, 390x844; `links-desktop.png`, 1366x900 | `.review-callout` | The review invitation is easy to find after booking options without competing with the featured event CTA. The Lucide star icon renders correctly. |
+| `ReviewsMain01` | `/tmp/gm-review-cta-qa/portfolio-mobile.png`, 390x844; `portfolio-desktop.png`, 1366x900 | `.table-voices .proof-cta` | Read and leave-review actions are distinct, single-line, and placed directly after player testimonials. |
+| `GoldReview01` | `/tmp/gm-review-cta-qa/goldspire-mobile.png`, 390x844; `goldspire-desktop.png`, 1366x900 | `.goldspire-review-prompt` | The Goldspire review prompt follows player reflections, stays compact, and does not interrupt the booking path. |
+
+### Verification Evidence
+
+- The exact StartPlaying review destination returned HTTP `200`.
+- All four active review CTAs use
+  `https://startplaying.games/gm/gamemasterkyle/review`, open in a new tab, and
+  retain a clear accessible label.
+- Axe reported no serious or critical WCAG A/AA findings on the links,
+  portfolio, or Goldspire routes at the checked viewports.
+- No checked route had horizontal overflow. Review controls were at least 46px
+  high and final mobile button labels remained on one line.

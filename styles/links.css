@@ -524,6 +524,43 @@
   padding-block: 8px;
 }
 
+.review-callout {
+  border-bottom: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.review-callout-inner {
+  display: grid;
+  gap: 14px;
+  padding-block: 20px;
+}
+
+.review-callout-copy {
+  display: grid;
+  gap: 4px;
+}
+
+.review-callout h2 {
+  font-size: 22px;
+  line-height: 1.12;
+}
+
+.review-callout p:not(.links-kicker) {
+  max-width: 54rem;
+  color: var(--ink-muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.review-callout .links-button {
+  width: fit-content;
+}
+
+.review-callout .links-button .lucide-icon:first-child {
+  color: var(--brass-dark);
+}
+
 .utility-section {
   padding: 40px 0;
   background: var(--card);
@@ -779,6 +816,11 @@
   }
 
   .also-booking-inner {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+  }
+
+  .review-callout-inner {
     grid-template-columns: minmax(0, 1fr) auto;
     align-items: center;
   }
