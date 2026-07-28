@@ -490,10 +490,22 @@
   color: var(--ink);
 }
 
+.also-booking-shell {
+  padding-block: 14px;
+}
+
+.also-booking-list {
+  display: grid;
+}
+
 .also-booking-inner {
   display: grid;
   gap: 12px;
-  padding-block: 16px;
+  padding-block: 10px;
+}
+
+.also-booking-inner + .also-booking-inner {
+  border-top: 1px solid var(--line);
 }
 
 .also-booking h2 {

@@ -59,6 +59,16 @@ function discoverDateKeys(html) {
     found.set(key, match[0]);
   }
 
+  const slotPattern = /(Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday),\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2}),\s+(20\d{2}),\s+(\d{1,2}):(\d{2})\s+(am|pm)\s+to\s+(\d{1,2}):(\d{2})\s+(am|pm)/gi;
+  while ((match = slotPattern.exec(html)) !== null) {
+    let hour = Number(match[5]);
+    const period = match[7].toLowerCase();
+    if (period === "pm" && hour !== 12) hour += 12;
+    if (period === "am" && hour === 12) hour = 0;
+    const key = `${match[4]}-${months[match[2].toLowerCase()]}-${String(match[3]).padStart(2, "0")}T${String(hour).padStart(2, "0")}:${match[6]}`;
+    found.set(key, match[0]);
+  }
+
   return found;
 }
 
@@ -146,7 +156,20 @@ if (!offline) {
       }
 
       if (source.discoverDates) {
-        const discovered = discoverDateKeys(normalized);
+        let discoveryHtml = html;
+        if (source.dateDiscoveryPath) {
+          const discoveryUrl = `${source.url.replace(/\/$/, "")}/${source.dateDiscoveryPath.replace(/^\//, "")}`;
+          const discoveryResponse = await fetch(discoveryUrl, {
+            headers: { "user-agent": "GameMasterKyle public event registry watcher" },
+            signal: AbortSignal.timeout(20000)
+          });
+          if (!discoveryResponse.ok) {
+            addIssue("error", "DATE_SOURCE_UNAVAILABLE", `${source.name} date feed returned HTTP ${discoveryResponse.status}.`);
+          } else {
+            discoveryHtml = await discoveryResponse.text();
+          }
+        }
+        const discovered = discoverDateKeys(discoveryHtml);
         const registered = new Set(events
           .filter((event) => event.sourceId === source.id)
           .map((event) => registryDateKey(event.start)));

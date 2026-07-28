@@ -44,8 +44,8 @@ Do not mirror or overwrite the live site from that folder.
 - `scripts/main.js`: shared interactions and contact form behavior.
 - `styles/links.css`: booking-switchboard presentation only.
 - `scripts/links-page.js`: next-event rotation, game-agnostic reminder form,
-  optional featured-event priority, secondary booking display, tentative-date
-  display, and share controls for `links.html`.
+  optional featured-event priority, distinct-listing secondary booking display,
+  tentative-date display, and share controls for `links.html`.
 - Campaign folders own only their campaign-specific HTML, CSS, JS, and assets.
 
 ## Event Configuration
@@ -54,7 +54,8 @@ Do not mirror or overwrite the live site from that folder.
 - `GameMasterKyle.publicEvents` contains verified bookable listings and drives
   the future-event CTAs on `links.html`. Events default to chronological order;
   optional `featurePriority` can promote one upcoming listing while earlier
-  verified dates remain available as secondary actions.
+  verified listings remain available as compact secondary actions. Multiple
+  dates sharing one Mox source are grouped into one booking action.
 - `GameMasterKyle.tentativeEvents` contains informational dates only and cannot
   become the featured booking CTA.
 - Scheduled registry and known-listing watcher:

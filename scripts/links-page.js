@@ -101,27 +101,48 @@
 
   function renderAlsoBooking(events) {
     var band = document.querySelector("[data-also-booking]");
-    if (!band) return;
+    var list = document.querySelector("[data-also-booking-list]");
+    var template = document.getElementById("also-booking-template");
+    if (!band || !list || !template || !events.length) return;
 
-    var event = events[1];
-    if (!event) {
-      band.hidden = true;
-      return;
-    }
+    var featuredGroup = events[0].sourceId || events[0].url;
+    var groups = [];
+    var groupsById = Object.create(null);
 
-    var game = event.game || event.system || "";
-    var name = event.name || event.title || game;
-    var title = name.toLowerCase().indexOf(game.toLowerCase()) === 0
-      ? name
-      : game + ": " + name;
+    events.forEach(function (event) {
+      var groupId = event.sourceId || event.url;
+      if (groupId === featuredGroup) return;
+      if (!groupsById[groupId]) {
+        groupsById[groupId] = [];
+        groups.push(groupsById[groupId]);
+      }
+      groupsById[groupId].push(event);
+    });
 
-    setText(band, "[data-also-title]", title);
-    setText(band, "[data-also-facts]", formatEventDate(event) + " · " + event.venue);
-    setText(band, "[data-also-label]", event.status === "sold_out" ? "Join the Mox waitlist" : "Book at Mox");
+    list.textContent = "";
+    groups.forEach(function (group) {
+      var event = group[0];
+      var fragment = template.content.cloneNode(true);
+      var item = fragment.querySelector("[data-also-booking-item]");
+      var dates = group.map(formatEventDate).join(" · ");
+      var soldOut = group.every(function (candidate) {
+        return candidate.status === "sold_out";
+      });
 
-    var link = band.querySelector("[data-also-link]");
-    if (link) link.href = event.url;
-    band.hidden = false;
+      setText(item, "[data-also-title]", event.bookingTitle || event.name || event.title || event.game);
+      setText(item, "[data-also-facts]", dates + " · " + event.venue);
+      setText(
+        item,
+        "[data-also-label]",
+        soldOut ? "Join the Mox waitlist" : event.bookingLabel || "Book at Mox"
+      );
+
+      var link = item.querySelector("[data-also-link]");
+      if (link) link.href = event.url;
+      list.appendChild(fragment);
+    });
+
+    band.hidden = groups.length === 0;
   }
 
   function renderTentativeEvents() {

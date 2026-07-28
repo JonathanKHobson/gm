@@ -10,7 +10,7 @@ status: active
 
 - `events/goldspire/index.html`: player-facing landing page for Peril to Profit: The Goldspire Messengers.
 - `events/goldspire/characters/index.html`: optional player-facing courier guide with plain-language character profiles, PDF links, and sheet-reading help.
-- `events/goldspire/dates/index.html`: lean date-options route for confirmed Goldspire tables; currently lists the Tuesday, August 4 Tier 1 table booking through the Mox listing. More Tier 1 dates are coming soon.
+- `events/goldspire/dates/index.html`: lean date-options route for confirmed Goldspire tables; currently lists the August 4 Tier 1 table plus the August 25 and September 12 Tier 2 tables.
 - `events/goldspire/coming-soon/index.html`: noindex fallback route for old registration-status links; it now points users to the live Mox listing.
 - `resources/daggerheart.html`: optional official Daggerheart resources page.
 
@@ -41,4 +41,4 @@ multi_url: "dates/"
 checkout_url: "https://events.moxboardinghouse.com/p/n/xnP6r62v/v5/checkout"
 ```
 
-The `/checkout` URL is retained as an optional future switch, but current verification shows it redirects back to the event listing. The Goldspire and Daggerheart resource CTAs use the same script. Mox uses one listing for the currently confirmed Tuesday, August 4 Tier 1 table, so the shared CTA remains `Book now at Mox`. More Tier 1 Goldspire dates are coming soon. A separate Tier 2 one-shot is planned for late August and September and needs its own confirmed dates/listing before it appears as bookable. If future dates receive separate Mox listing URLs, set `booking_mode: "multi"` so global CTAs read `View Times` and route to `events/goldspire/dates/`; each date card should then link to its own Mox listing.
+The `/checkout` URL is retained as an optional future switch, but current verification shows it redirects back to the event listing. The Goldspire and Daggerheart resource CTAs use the same script. Tier 1 CTAs target `https://events.moxboardinghouse.com/p/n/xnP6r62v/v5`; Tier 2 CTAs target `https://events.moxboardinghouse.com/p/n/zdRmLjPV/v5`. The Tier 2 listing offers August 25 and September 12. If future dates receive additional listing URLs, keep each tier/adventure explicit on the date-options route instead of silently repointing every Goldspire CTA.

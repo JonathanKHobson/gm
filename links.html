@@ -123,18 +123,24 @@
     </section>
 
     <section class="also-booking also-booking-minor" aria-labelledby="also-booking-title" data-also-booking hidden data-anchor="Next01">
-      <div class="links-wrap also-booking-inner">
+      <div class="links-wrap also-booking-shell">
+        <p class="links-kicker" id="also-booking-title">Also booking</p>
+        <div class="also-booking-list" data-also-booking-list></div>
+      </div>
+    </section>
+
+    <template id="also-booking-template">
+      <article class="also-booking-inner" data-also-booking-item>
         <div>
-          <p class="links-kicker">Also booking</p>
-          <h2 id="also-booking-title" data-also-title>Another public game</h2>
+          <h2 data-also-title>Another public game</h2>
           <p data-also-facts></p>
         </div>
         <a class="links-button links-button-secondary" data-also-link href="events/" aria-describedby="new-tab-note" target="_blank" rel="noopener noreferrer">
           <span data-also-label>Book at Mox</span>
           <svg class="lucide-icon" aria-hidden="true"><use href="assets/icons/lucide-sprite.svg#arrow-up-right"></use></svg>
         </a>
-      </div>
-    </section>
+      </article>
+    </template>
 
     <section class="utility-section" aria-labelledby="keep-in-touch-title" data-anchor="Links01">
       <div class="links-wrap">

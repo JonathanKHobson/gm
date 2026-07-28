@@ -3,16 +3,19 @@
     registration_state: "live",
     booking_mode: "single",
     pending_label: "Registration coming soon",
-    single_label: "Book now at Mox",
+    single_label: "Book Tier 1 at Mox",
     multi_label: "View Times",
     live_label: "Book now at Mox",
     pending_url: "coming-soon/",
     single_url: "https://events.moxboardinghouse.com/p/n/xnP6r62v/v5",
+    tier_two_label: "Book Tier 2 at Mox",
+    tier_two_url: "https://events.moxboardinghouse.com/p/n/zdRmLjPV/v5",
+    tier_two_aria_label: "Book The Dying Spires Tier 2 adventure at Mox. Open the official event listing.",
     multi_url: "dates/",
     live_url: "https://events.moxboardinghouse.com/p/n/xnP6r62v/v5",
     checkout_url: "https://events.moxboardinghouse.com/p/n/xnP6r62v/v5/checkout",
     pending_aria_label: "Registration coming soon. Open event listing status.",
-    single_aria_label: "Book now at Mox. Open the official event listing.",
+    single_aria_label: "Book The Goldspire Messengers Tier 1 adventure at Mox. Open the official event listing.",
     multi_aria_label: "View Goldspire event times and booking links.",
     live_aria_label: "Book now at Mox. Open the official event listing."
   };
@@ -68,6 +71,18 @@
       link.removeAttribute("rel");
       link.removeAttribute("aria-describedby");
       link.classList.remove("external-link");
+    }
+  });
+
+  Array.prototype.forEach.call(document.querySelectorAll("[data-tier-two-cta]"), function (link) {
+    link.href = registrationConfig.tier_two_url;
+    link.textContent = registrationConfig.tier_two_label;
+    link.setAttribute("aria-label", registrationConfig.tier_two_aria_label);
+    link.setAttribute("target", "_blank");
+    link.setAttribute("rel", "noopener noreferrer");
+    link.classList.add("external-link");
+    if (document.getElementById("new-tab-note")) {
+      link.setAttribute("aria-describedby", "new-tab-note");
     }
   });
 

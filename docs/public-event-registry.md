@@ -22,17 +22,21 @@ Add one object to `GameMasterKyle.publicEvents` with:
 - a `status` of `live` or `sold_out` when the booking CTA needs special wording
 - an optional numeric `featurePriority` when a verified event should be
   deliberately promoted over an earlier secondary option
+- optional `bookingTitle` and `bookingLabel` values when a compact secondary
+  action needs to distinguish an adventure or tier
 
 The order in the file does not control the featured card. Events with the
 highest `featurePriority` appear first; ties and events without a priority are
-ordered chronologically. The July 2026 switchboard uses this to keep Stargate
-PHX featured while the earlier August 4 Goldspire table appears as the compact
-secondary booking action.
+ordered chronologically. The switchboard uses this to keep Stargate PHX
+featured while Tier 1 and Tier 2 Goldspire listings appear as compact secondary
+booking actions. Dated events with the same `sourceId` are grouped into one
+secondary action so a multi-date Mox listing is not repeated.
 
 Add a new source entry when a new recurring Mox listing URL is introduced.
 Set `discoverDates` to `true` when that listing prints its dated sessions in
-the public page copy. Add `watchText` to an event when the watcher should
-confirm a specific listing line remains present.
+the public page copy. If dates are loaded from a calendar endpoint, set
+`dateDiscoveryPath` to that relative endpoint. Add `watchText` to an event when
+the watcher should confirm a specific listing line remains present.
 
 ## Tentative Dates
 

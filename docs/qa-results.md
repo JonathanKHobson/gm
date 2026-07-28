@@ -109,3 +109,26 @@ this static site's control.
   blocker; local semantic, contrast, interaction, and responsive checks passed.
 - Additional legacy portfolio evidence images can be converted only where live
   performance data shows a meaningful benefit.
+
+## 2026-07-28 Goldspire Tier 2 Booking Release
+
+### Visual Anchor Map
+
+| ID | Source and viewport | Region / selector | Verified result |
+| --- | --- | --- | --- |
+| `LinkT2` | `/tmp/gm-tier2-qa/links-mobile.png`, 390x844; `links-desktop.png`, 1366x900 | `[data-also-booking]` | Stargate remains the featured booking. Tier 1 and Tier 2 appear as separate compact Goldspire options with distinct Mox destinations. |
+| `EventsT2` | `/tmp/gm-tier2-qa/events-mobile.png`, 390x844; `events-desktop.png`, 1366x900 | Goldspire event card | The master events page presents Tier 1 and Tier 2 without duplicating the campaign card or obscuring the beginner promise. |
+| `GoldT2` | `/tmp/gm-tier2-qa/goldspire-mobile.png`, 390x844; `goldspire-desktop.png`, 1366x900 | `.goldspire-future-dates-strip` | The campaign page distinguishes the August 4 Tier 1 listing from the August 25 and September 12 Tier 2 listing, with no overlap or horizontal overflow. |
+| `DatesT2` | `/tmp/gm-tier2-qa/dates-mobile.png`, 390x844; `dates-desktop.png`, 1366x900 | Goldspire date cards | Three confirmed sessions are readable as two booking choices: one Tier 1 listing and one Tier 2 listing containing both available dates. |
+
+### Verification Evidence
+
+- The Tier 2 Mox listing and calendar view returned `200` and exposed Tuesday,
+  August 25, 2026 from 5:00-10:00 PM and Saturday, September 12, 2026 from
+  10:30 AM-3:30 PM.
+- The public-event watcher returned `status: ok` for all three registered Mox
+  sources and retained Stargate as the featured links-page booking.
+- Axe reported no serious or critical WCAG A/AA findings on the links, events,
+  Goldspire landing, or Goldspire dates routes at 390x844 and 1366x900.
+- No checked route had horizontal overflow or broken images. Tier 1 and Tier 2
+  CTA destinations matched their separate official Mox listings.

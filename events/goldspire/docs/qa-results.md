@@ -454,7 +454,7 @@ status: local-qa-passed
 | DatesRoute01 | `events/goldspire/dates/index.html` | Confirmed-date card | The date-options route contains one July 25 booking card and retains the Mox booking and directions actions. |
 | EventsIndex03 | `events/index.html` | Featured Goldspire event card | The all-events surface shows July 25 as current and keeps the shared Mox booking route. |
 | Schema03 | `events/goldspire/index.html` | JSON-LD | Structured event data parses as one scheduled Event node, starting `2026-07-25T10:30:00-07:00`. |
-| TierRoadmap01 | Landing, date-options, and all-events copy | Future-session messaging | Current Goldspire is framed as a beginner-friendly Tier 1 adventure; future Tier 1 dates are marked as coming soon; the separate Tier 2 one-shot is planned for late August and September but is not represented as bookable. |
+| TierRoadmap01 | Landing, date-options, and all-events copy | Historical future-session messaging | At the time of this July 16 check, Tier 2 was not yet bookable. This state was superseded by the verified July 28 Tier 2 listing update below. |
 
 ### Static Integrity Checks
 
@@ -488,3 +488,26 @@ status: local-qa-passed
   or Goldspire dates routes.
 - The online public-event watcher returned `status: ok` for both registered Mox
   source URLs.
+
+## 2026-07-28 Tier 2 Live Listing Update
+
+### Verification Map
+
+| ID | Source / viewport | Region | Verified result |
+| --- | --- | --- | --- |
+| `TierLinks05` | `/tmp/gm-tier2-qa/links-mobile.png`, 390x844; `links-desktop.png`, 1366x900 | Links-page secondary bookings | Stargate stays featured. Goldspire Tier 1 and Tier 2 are distinct compact booking choices. |
+| `TierLanding05` | `/tmp/gm-tier2-qa/goldspire-mobile.png`, 390x844; `goldspire-desktop.png`, 1366x900 | Goldspire booking strip | August 4 is labeled Tier 1; August 25 and September 12 are labeled Tier 2; separate Mox CTAs remain clear. |
+| `TierDates05` | `/tmp/gm-tier2-qa/dates-mobile.png`, 390x844; `dates-desktop.png`, 1366x900 | Confirmed-date cards | Three sessions are presented through the correct two official listings, with concise guidance for choosing a tier. |
+| `TierEvents05` | `/tmp/gm-tier2-qa/events-mobile.png`, 390x844; `events-desktop.png`, 1366x900 | Master Goldspire card | The Tier 2 option is visible without replacing the Tier 1 event summary or campaign detail path. |
+
+### Verification Evidence
+
+- Verified the official Tier 2 listing title `Daggerheart One-Shot — Tier Two
+  Adventure`, the public adventure name `The Dying Spires`, the $25 price, and
+  the Mox Boarding House Chandler venue.
+- Verified Tier 2 sessions on August 25 from 5:00-10:00 PM and September 12 from
+  10:30 AM-3:30 PM.
+- Goldspire JSON-LD parses with three Event nodes: one Tier 1 session and two
+  Tier 2 sessions.
+- The online registry watcher returned `status: ok`; no checked page had
+  horizontal overflow, broken images, or serious/critical Axe findings.
