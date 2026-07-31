@@ -126,10 +126,33 @@
   line-height: 0.98;
 }
 
-.booking-intro > p:last-child {
+.booking-summary {
   max-width: 730px;
   color: var(--ink-soft);
   font-size: 18px;
+}
+
+.mobile-scroll-cue {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  width: fit-content;
+  min-height: 44px;
+  margin-top: 12px;
+  color: var(--ember-dark);
+  font-size: 12px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.mobile-scroll-cue .lucide-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.mobile-scroll-cue:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .conversion-grid {
@@ -798,6 +821,10 @@
 }
 
 @media (min-width: 720px) {
+  .mobile-scroll-cue {
+    display: none;
+  }
+
   .links-wrap {
     padding-inline: 28px;
   }
