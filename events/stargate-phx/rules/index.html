@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#11191c">
+    <title>Stargate SG-1 Core Rulebook Reader</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='25' fill='none' stroke='%2358c5db' stroke-width='6'/%3E%3Ccircle cx='32' cy='32' r='7' fill='%2358c5db'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+    <script src="data/metadata.js"></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a id="skip-link" class="skip-link" href="#reader-main">Skip to rulebook page</a>
+    <div class="app-shell" data-menu-open="false">
+      <header class="topbar">
+        <button class="icon-button menu-button" id="menu-button" type="button" aria-controls="sidebar" aria-expanded="false">
+          <span aria-hidden="true">☰</span><span class="button-label">Contents</span>
+        </button>
+        <div class="brand-block">
+          <p class="brand-title">Stargate SG-1</p>
+          <p class="brand-subtitle">Core Rulebook · v1.03</p>
+        </div>
+        <form class="search-form" id="search-form" role="search">
+          <label class="sr-only" for="search-input">Search all 369 pages</label>
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input id="search-input" name="q" type="search" autocomplete="off" placeholder="Search rules, terms, or names" aria-controls="search-results" aria-expanded="false">
+          <kbd>/</kbd>
+        </form>
+        <a class="download-link" id="download-link" href="downloads/Stargate-SG1-Core-Rulebook-v1.03-Web-Lite.pdf" download>
+          Lite PDF
+        </a>
+      </header>
+
+      <aside class="sidebar" id="sidebar" aria-label="Rulebook contents">
+        <div class="sidebar-heading">
+          <div>
+            <p class="section-label">Mission index</p>
+            <h1>Contents</h1>
+          </div>
+          <button class="icon-button sidebar-close" id="sidebar-close" type="button" aria-label="Close contents">×</button>
+        </div>
+        <nav id="toc" class="toc" aria-label="Chapters"></nav>
+        <div class="rights-note">
+          <strong>Private group copy</strong>
+          <p>This reader preserves licensed purchaser information. Do not publish it publicly without distribution permission.</p>
+        </div>
+      </aside>
+
+      <button class="menu-scrim" id="menu-scrim" type="button" tabindex="-1" aria-label="Close contents"></button>
+
+      <main id="reader-main" class="reader-main" tabindex="-1">
+        <section class="reader-toolbar" aria-label="Page controls">
+          <div class="page-nav">
+            <button class="control-button" id="previous-page" type="button" aria-label="Previous page">← <span>Previous</span></button>
+            <label class="page-picker" for="page-input">
+              <span class="sr-only">Go to page</span>
+              <input id="page-input" type="number" min="1" value="1" inputmode="numeric">
+              <span id="page-count">of 369</span>
+            </label>
+            <button class="control-button" id="next-page" type="button" aria-label="Next page"><span>Next</span> →</button>
+          </div>
+          <div class="view-controls" role="group" aria-label="Reader view">
+            <button class="view-button is-active" id="image-view-button" type="button" aria-pressed="true">Page</button>
+            <button class="view-button" id="text-view-button" type="button" aria-pressed="false">Text</button>
+            <button class="view-button" id="fit-button" type="button" aria-pressed="true">Fit</button>
+          </div>
+        </section>
+
+        <section class="page-stage" id="page-stage" aria-labelledby="current-section-title">
+          <div class="page-context">
+            <p class="section-label">Current section</p>
+            <h2 id="current-section-title">Loading rulebook…</h2>
+          </div>
+          <div class="page-frame is-fit" id="page-frame">
+            <img id="page-image" alt="" width="890" height="1223">
+            <article id="page-text" class="page-text" hidden></article>
+            <div class="page-loading" id="page-loading" role="status">Preparing page…</div>
+          </div>
+        </section>
+      </main>
+
+      <aside class="search-panel" id="search-panel" aria-label="Search results" hidden>
+        <div class="search-panel-heading">
+          <div>
+            <p class="section-label">Rulebook search</p>
+            <h2 id="search-heading">Results</h2>
+          </div>
+          <button class="icon-button" id="search-close" type="button" aria-label="Close search results">×</button>
+        </div>
+        <p class="search-summary" id="search-summary" role="status"></p>
+        <ol id="search-results" class="search-results"></ol>
+      </aside>
+
+      <div class="status-live sr-only" id="status-live" role="status" aria-live="polite"></div>
+    </div>
+    <noscript>This reader needs JavaScript for page navigation and search. Use the Lite PDF download instead.</noscript>
+  </body>
+</html>
