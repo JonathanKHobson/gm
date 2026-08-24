@@ -153,3 +153,27 @@ this static site's control.
   portfolio, or Goldspire routes at the checked viewports.
 - No checked route had horizontal overflow. Review controls were at least 46px
   high and final mobile button labels remained on one line.
+
+## 2026-08-23 Feedback Follow-Up Actions
+
+### Visual Anchor Map
+
+| ID | Source and viewport | Region / selector | Verified result |
+| --- | --- | --- | --- |
+| `Review01` | `/tmp/gm-feedback-thanks-20260823/mobile-390.png`, 390x844; `desktop-1366.png`, 1366x900 | `.review-next` | The StartPlaying review request is the first optional action after survey completion, uses a clear external-link cue, and remains readable without clipping or overflow. |
+| `Email01` | `/tmp/gm-feedback-thanks-20260823/mobile-390-success.png`; `mobile-390-fallback.png` | `.feedback-reminder` | The email field, submit control, privacy promise, success confirmation, validation error, and direct-email fallback render clearly. The fallback link retains a 44px minimum touch target. |
+| `Actions01` | Both base screenshots | `.events-next`, `.secondary-actions` | Upcoming events, Mox events, Mox Discord, private booking, and bring-a-friend routes remain available without competing visually with the review action. |
+| `Layout01` | 390x844, 430x932, and 1366x900 | `.feedback-main` | No horizontal overflow, text collision, missing image, or failed icon request; the review and email actions precede the retained route list on all checked viewports. |
+
+### Verification Evidence
+
+- The exact StartPlaying review destination returned HTTP `200` and opens in a
+  new tab with an accessible new-tab description.
+- Empty and malformed email values return focus to the field with a plain-language
+  error. A mocked successful EmailJS response clears the field and confirms the
+  next-booking request without sending a real test email.
+- A mocked failed request exposes the direct `mailto:` fallback and re-enables
+  the submit control.
+- `node --check`, HTML parsing, and `git diff --check` passed. Browser console
+  output was clear after the local Lucide sprite path was restored to the sparse
+  checkout.

@@ -54,12 +54,41 @@
 
     <section class="thanks-actions" aria-labelledby="next-title" data-anchor="ThanksActions01">
       <div class="action-heading">
-        <p class="action-kicker">One more adventure?</p>
-        <h2 id="next-title">Choose what sounds useful.</h2>
-        <p>No pressure. These routes will still be here when your schedule and hit points recover.</p>
+        <p class="action-kicker">One more favor?</p>
+        <h2 id="next-title">Help the next player find the table.</h2>
+        <p>A short, honest review helps new players know what to expect from a game with Kyle.</p>
       </div>
 
-      <a class="primary-next" href="../events/">
+      <a class="primary-next review-next" href="https://startplaying.games/gm/gamemasterkyle/review" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-note">
+        <span><strong>Leave a StartPlaying review</strong><small>Share what the game felt like in your own words.</small></span>
+        <span class="action-arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <section class="feedback-reminder" aria-labelledby="reminder-title" data-anchor="ThanksEmail01">
+        <div class="reminder-copy">
+          <p class="action-kicker">Want another public game?</p>
+          <h3 id="reminder-title">Get the next seat first.</h3>
+          <p>Leave one email. Kyle will send the booking link when a new public table opens.</p>
+        </div>
+        <form class="reminder-form" id="feedbackReminderForm" novalidate>
+          <label for="feedback-reminder-email">Email for the next opening</label>
+          <div class="reminder-form-row">
+            <span class="reminder-input-shell">
+              <svg class="lucide-icon email-icon" aria-hidden="true"><use href="../assets/icons/lucide-sprite.svg#mail"></use></svg>
+              <input id="feedback-reminder-email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="you@example.com" aria-describedby="reminder-privacy reminder-status" required />
+            </span>
+            <button class="reminder-submit" type="submit">
+              <span data-submit-label>Tell me</span>
+              <span aria-hidden="true">→</span>
+            </button>
+          </div>
+          <input class="honeypot-field" name="company" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" />
+          <p class="reminder-privacy" id="reminder-privacy">One useful email when a new public game opens. No newsletter.</p>
+          <p class="reminder-status" id="reminder-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+
+      <a class="events-next" href="../events/">
         <span><strong>See Upcoming GameMasterKyle Events</strong><small>Find the next public table and current registration details.</small></span>
         <span class="action-arrow" aria-hidden="true">→</span>
       </a>

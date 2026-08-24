@@ -211,6 +211,7 @@
 }
 
 .primary-next,
+.events-next,
 .secondary-actions a {
   min-width: 0;
   display: flex;
@@ -228,6 +229,21 @@
   box-shadow: 0 14px 30px rgba(127, 44, 22, 0.2);
 }
 
+.events-next {
+  min-height: 4.75rem;
+  padding: 0.9rem 1.05rem;
+  border: 1px solid rgba(35, 73, 69, 0.34);
+  background: rgba(35, 73, 69, 0.08);
+  color: var(--teal-dark);
+}
+
+.events-next:hover,
+.events-next:focus-visible {
+  border-color: var(--teal-dark);
+  background: rgba(35, 73, 69, 0.14);
+  transform: translateY(-1px);
+}
+
 .primary-next:hover,
 .primary-next:focus-visible {
   background: #f27a45;
@@ -235,6 +251,7 @@
 }
 
 .primary-next > span:first-child,
+.events-next > span:first-child,
 .secondary-actions a > span:first-child {
   min-width: 0;
   display: grid;
@@ -242,12 +259,14 @@
 }
 
 .primary-next strong,
+.events-next strong,
 .secondary-actions strong {
   font-size: 1rem;
   line-height: 1.25;
 }
 
 .primary-next small,
+.events-next small,
 .secondary-actions small {
   font-size: 0.82rem;
   font-weight: 550;
@@ -256,6 +275,148 @@
 
 .primary-next small {
   color: rgba(23, 12, 7, 0.76);
+}
+
+.events-next small {
+  color: var(--ink-muted);
+}
+
+.feedback-reminder {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.reminder-copy {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.reminder-copy h3 {
+  font-family: var(--serif);
+  font-size: clamp(1.45rem, 2.5vw, 1.9rem);
+  line-height: 1.08;
+}
+
+.reminder-copy > p:last-child {
+  color: var(--ink-muted);
+  font-size: 0.92rem;
+}
+
+.reminder-form label {
+  display: block;
+  margin-bottom: 0.45rem;
+  font-size: 0.84rem;
+  font-weight: 800;
+}
+
+.reminder-form-row {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.reminder-input-shell {
+  min-width: 0;
+  min-height: 3.15rem;
+  display: grid;
+  grid-template-columns: 1.35rem minmax(0, 1fr);
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0 0.7rem;
+  border: 1px solid rgba(23, 16, 11, 0.42);
+  border-radius: var(--radius-sm);
+  background: #fff;
+}
+
+.reminder-input-shell:focus-within {
+  border-color: var(--teal-dark);
+  box-shadow: 0 0 0 2px rgba(35, 73, 69, 0.18);
+}
+
+.email-icon {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  color: var(--ink-muted);
+}
+
+.reminder-input-shell input {
+  width: 100%;
+  min-width: 0;
+  min-height: 3rem;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--ink);
+  font-size: max(1rem, 16px);
+}
+
+.reminder-submit {
+  min-height: 3.15rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  padding: 0.7rem 1rem;
+  border: 1px solid #091619;
+  border-radius: var(--radius-sm);
+  background: #091619;
+  color: var(--cream);
+  font: 800 max(0.95rem, 16px) / 1 var(--sans);
+  cursor: pointer;
+}
+
+.reminder-submit:hover,
+.reminder-submit:focus-visible {
+  background: var(--teal-dark);
+}
+
+.reminder-submit:disabled {
+  cursor: wait;
+  opacity: 0.72;
+}
+
+.honeypot-field {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+}
+
+.reminder-privacy,
+.reminder-status {
+  margin-top: 0.45rem;
+  color: var(--ink-muted);
+  font-size: 0.78rem;
+}
+
+.reminder-status {
+  min-height: 1.2rem;
+  font-weight: 700;
+}
+
+.reminder-status.is-error {
+  color: var(--ember-dark);
+}
+
+.reminder-status.is-success {
+  color: var(--teal-dark);
+}
+
+.reminder-status a {
+  min-height: 2.75rem;
+  display: inline-flex;
+  align-items: center;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .action-arrow {
@@ -392,11 +553,18 @@
   }
 
   .primary-next,
+  .events-next,
   .secondary-actions a {
     gap: 0.7rem;
   }
 
   .feedback-footer {
     display: grid;
+  }
+}
+
+@media (min-width: 560px) {
+  .reminder-form-row {
+    grid-template-columns: minmax(0, 1fr) auto;
   }
 }
