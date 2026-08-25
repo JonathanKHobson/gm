@@ -57,7 +57,7 @@ These assets are used as the visual lead for each player-facing courier profile.
 
 ### Player Character PDFs
 
-Copied from `event-visual-asset-pack/player-pdfs/` into `events/goldspire/assets/player-pdfs/` and linked from both the Goldspire landing page and `/resources/daggerheart.html`.
+Generated from the canonical directly edited table-edition pages by `source/level_1_player_packets/scripts/build_level_1_packets.py` into `events/goldspire/assets/player-pdfs/`. These same files are linked from the Goldspire landing page, the character page, and the root `00 - PLAYER START HANDOUTS/` print pickup folder.
 
 - `01-marlowe-fairwind-pages-02-05.pdf`
 - `02-barnacle-pages-06-09.pdf`
