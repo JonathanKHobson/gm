@@ -27,30 +27,36 @@
   <link rel="stylesheet" href="../../../styles/responsive.css" />
   <link rel="stylesheet" href="../stargate-phx.css" />
   <link rel="stylesheet" href="dates.css" />
+  <link rel="stylesheet" href="../../../styles/site-shell.css" />
+  <script src="../../../scripts/site-shell.js" defer></script>
 </head>
 <body class="stargate-phx-page sg-dates-page">
   <a class="skip" href="#main">Skip to content</a>
   <span id="new-tab-note" class="sr-only">Opens in a new tab.</span>
   <span class="sr-only" role="status" aria-live="polite" data-registration-announcer></span>
 
-  <header class="site-header sg-header">
-    <nav class="nav" id="nav" aria-label="Primary navigation">
-      <div class="wrap">
-        <a class="brand" href="../../../index.html" aria-label="GameMasterKyle home">
-          <img class="brand-mark" src="../../../assets/brand/gmk-compass-d20-mark.png" alt="" width="96" height="96" />
-          <span class="brand-name"><strong>GameMasterKyle</strong><span>Stargate PHX</span></span>
-        </a>
-        <div class="nav-links sg-nav-links" id="navlinks">
-          <a class="navlink" href="../">Event</a>
-          <a class="navlink" href="#sessions">Sessions</a>
-          <a class="navlink" href="#venue">Venue</a>
-          <a class="navlink" href="../characters/">Heroes</a>
-          <a class="navlink" href="../../../resources/stargate-phx.html">Player rules</a>
-          <a class="btn nav-cta sg-nav-cta" href="https://events.moxboardinghouse.com/p/n/nmph2JKD" data-event-cta>Book now at Mox</a>
-        </div>
-      </div>
-    </nav>
-  </header>
+  <!-- site-shell:start -->
+<header class="gmk-header">
+  <div class="gmk-header-inner">
+    <a class="gmk-brand" href="../../../index.html" aria-label="GameMasterKyle home">
+      <img src="../../../assets/brand/gmk-compass-d20-mark.png" alt="" width="48" height="48" />
+      <span>GameMasterKyle<small>Come curious. Leave with a story.</small></span>
+    </a>
+    <details class="gmk-menu" open>
+      <summary>Menu</summary>
+      <nav class="gmk-navigation" aria-label="Main navigation">
+        <a href="../../../events/" aria-current="page">Public games</a>
+        <a href="../../../about.html">About Kyle</a>
+        <a href="../../../projects.html">Worlds & work</a>
+        <a href="../../../resources/">Player resources</a>
+        <a class="gmk-contact" href="../../../index.html#contact">Plan a game</a>
+      </nav>
+    </details>
+  </div>
+</header>
+<nav class="gmk-local" aria-label="Stargate PHX navigation"><div><span>Stargate PHX</span><a href="../../../events/stargate-phx/">The adventure</a><a href="../../../events/stargate-phx/dates/">Dates & booking</a><a href="../../../events/stargate-phx/characters/">Characters</a><a href="../../../resources/stargate-phx.html">Player guide</a></div></nav>
+<!-- site-shell:end -->
+
 
   <main id="main">
     <section class="sg-dates-intro" id="top" data-anchor="DatesIntro01" aria-labelledby="dates-title">
@@ -58,10 +64,10 @@
         <div class="sg-dates-status-copy">
           <a class="sg-dates-breadcrumb" href="../">← Return to Stargate PHX</a>
           <p class="sg-eyebrow">Dates &amp; registration</p>
-          <p class="sg-status-badge"><span class="sg-status-mark" aria-hidden="true"></span><span data-event-status-label>Registration open · Three missions available</span></p>
+          <p class="sg-status-badge"><span class="sg-status-mark" aria-hidden="true"></span><span data-event-status-label>Current dates at Mox</span></p>
           <h1 id="dates-title" data-event-status-title>Choose your mission window.</h1>
-          <p class="sg-dates-lede" data-event-status-copy>Choose August 22, September 5, or September 19, then complete registration through Mox.</p>
-          <a class="btn btn-primary" href="https://events.moxboardinghouse.com/p/n/nmph2JKD" data-event-cta>Book now at Mox</a>
+          <p class="sg-dates-lede" data-event-status-copy>Check the official Mox listing for future sessions and seat availability. Past missions are shown below for context.</p>
+          <a class="btn btn-primary" href="https://events.moxboardinghouse.com/p/n/nmph2JKD" data-event-cta>Check dates at Mox</a>
         </div>
         <figure class="sg-dates-media" data-anchor="MobileDates01">
           <picture>
@@ -97,11 +103,11 @@
         <div class="sg-session-stage" data-anchor="LiveCTA01">
           <div class="sg-pending-panel" data-no-sessions data-anchor="Pending01">
             <div>
-              <h3>Registration is open</h3>
-              <p>Choose from three complete missions on the official Mox event listing.</p>
+              <h3>Check the current listing</h3>
+              <p>Choose a complete mission on the official Mox event listing.</p>
             </div>
             <div class="sg-pending-actions">
-              <a class="btn btn-primary external-link" href="https://events.moxboardinghouse.com/p/n/nmph2JKD" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-note">Book now at Mox</a>
+              <a class="btn btn-primary external-link" href="https://events.moxboardinghouse.com/p/n/nmph2JKD" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-note">Check dates at Mox</a>
               <a class="btn btn-secondary" href="../#contactForm">Ask Kyle a question</a>
             </div>
           </div>
@@ -142,13 +148,22 @@
     </section>
   </main>
 
-  <footer class="site-footer sg-footer">
-    <div class="wrap">
-      <span>GameMasterKyle | Stargate PHX dates</span>
-      <span>Independently run using Wyvern Gaming's <cite>Stargate SG-1 Roleplaying Game</cite>. Not presented as an official or endorsed Stargate production.</span>
-    </div>
-  </footer>
+  <!-- site-footer:start -->
+<footer class="gmk-footer">
+  <div class="gmk-footer-inner">
+    <div><a href="../../../index.html" class="gmk-footer-name">GameMasterKyle</a><p>Jonathan “Kyle” Hobson · Phoenix, Arizona</p></div>
+    <nav aria-label="Footer navigation">
+      <a href="../../../events/">Public games</a>
+      <a href="../../../index.html#contact">Private games &amp; venues</a>
+      <a href="../../../feedback/">Player feedback</a>
+      <a href="../../../links.html">Contact &amp; community</a>
+    </nav>
+  </div>
+</footer>
+<!-- site-footer:end -->
 
+
+  <script src="../../../scripts/public-events.js"></script>
   <script src="../stargate-registration.js" data-event-base="../"></script>
   <script src="../../../scripts/main.js"></script>
   <script src="../stargate-phx.js"></script>

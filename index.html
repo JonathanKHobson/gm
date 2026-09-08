@@ -48,33 +48,36 @@
   <link rel="stylesheet" href="styles/base.css" />
   <link rel="stylesheet" href="styles/components.css" />
   <link rel="stylesheet" href="styles/responsive.css" />
+  <link rel="stylesheet" href="styles/site-shell.css" />
+  <script src="scripts/site-shell.js" defer></script>
+  <link rel="stylesheet" href="styles/home.css" />
 </head>
-<body class="shareable-shell" data-template="website" data-style-source="warm-editorial">
+<body class="shareable-shell home-page" data-template="website" data-style-source="warm-editorial">
   <a class="skip" href="#main">Skip to content</a>
   <span id="new-tab-note" class="sr-only">Opens in a new tab.</span>
 
-  <header class="site-header website-bar website-bar-wrap" data-anchor="Nav01">
-    <nav class="nav" id="nav" aria-label="Primary navigation">
-      <div class="wrap">
-        <a class="brand" href="#top" aria-label="GameMasterKyle home">
-          <img class="brand-mark" src="assets/brand/gmk-compass-d20-mark.png" alt="" width="96" height="96" data-asset-id="LogoMark01" />
-          <span class="brand-name">
-            <strong>GameMasterKyle</strong>
-            <span>Table craft for real rooms</span>
-          </span>
-        </a>
-        <div class="nav-links website-nav" id="navlinks">
-          <a class="navlink" href="#mission">Mission</a>
-          <a class="navlink" href="#about">About</a>
-          <a class="navlink" href="#games">Games</a>
-          <a class="navlink" href="events/">Events</a>
-          <a class="navlink" href="#reviews">Reviews</a>
-          <a aria-describedby="new-tab-note" class="btn nav-cta nav-cta-discord external-link" href="https://discord.gg/A9JNzTRucn" target="_blank" rel="noopener noreferrer">Join Discord</a>
-          <a class="btn nav-cta" href="#contact">Get in touch</a>
-        </div>
-      </div>
-    </nav>
-  </header>
+  <!-- site-shell:start -->
+<header class="gmk-header">
+  <div class="gmk-header-inner">
+    <a class="gmk-brand" href="./index.html" aria-label="GameMasterKyle home">
+      <img src="./assets/brand/gmk-compass-d20-mark.png" alt="" width="48" height="48" />
+      <span>GameMasterKyle<small>Come curious. Leave with a story.</small></span>
+    </a>
+    <details class="gmk-menu" open>
+      <summary>Menu</summary>
+      <nav class="gmk-navigation" aria-label="Main navigation">
+        <a href="events/">Public games</a>
+        <a href="about.html">About Kyle</a>
+        <a href="projects.html">Worlds & work</a>
+        <a href="resources/">Player resources</a>
+        <a class="gmk-contact" href="./index.html#contact">Plan a game</a>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<!-- site-shell:end -->
+
 
   <main id="main">
     <section class="hero website-hero" id="top" data-anchor="Hero01" aria-labelledby="hero-title">
@@ -82,81 +85,105 @@
         <div class="hero-copy reveal">
           <div class="eyebrow">Professional Game Master in Phoenix</div>
           <h1 id="hero-title">A table where strangers <em>become a party.</em></h1>
-          <p class="hero-lede">Welcoming, story-rich tabletop games for public events, private groups, and players who want a strong adventure without needing to arrive as experts.</p>
+          <p class="hero-lede">I’m Kyle. I run tabletop adventures for first-time players, longtime groups, and anyone curious about what happens when the dice hit the table. Join a public game in the Phoenix area, or bring me your own party.</p>
           <div class="cta-row website-hero-actions" aria-label="Primary actions">
             <a class="button btn btn-primary" href="events/">Find a public game</a>
             <a class="button btn btn-secondary" href="#contact">Plan a private table</a>
           </div>
-          <div class="media-proof-links" aria-label="Public media links">
-            <a aria-describedby="new-tab-note" class="mini-proof-link external-link" href="https://www.youtube.com/@GameMasterKyleH" target="_blank" rel="noopener noreferrer">YouTube</a>
-            <a aria-describedby="new-tab-note" class="mini-proof-link external-link" href="https://www.tiktok.com/@gamemasterkyle" target="_blank" rel="noopener noreferrer">TikTok</a>
-          </div>
-          <div class="hero-proof" aria-label="Portfolio experience summary">
-            <div class="proof-micro"><b>15+</b><span>years running tables</span></div>
-            <div class="proof-micro"><b>5+</b><span>years in one persistent campaign</span></div>
-            <div class="proof-micro"><b>200+</b><span>players welcomed</span></div>
-            <div class="proof-micro"><b>50+</b><span>factions in one campaign</span></div>
-          </div>
+          <p class="home-first-time"><a href="#first-game">Your first tabletop game?</a> You can learn as we play.</p>
         </div>
 
         <figure class="hero-art hero-portrait-panel reveal">
-          <img src="assets/portraits/kyle-hobson-hero-portrait.webp" alt="Portrait of Jonathan Kyle Hobson in a warm office, wearing glasses and a knitted cardigan." width="900" height="1125" data-asset-id="HeroPortrait01" />
+          <img srcset="assets/optimized/b2d4ac51-kyle-hobson-hero-portrait-640.webp 640w, assets/optimized/b2d4ac51-kyle-hobson-hero-portrait-900.webp 900w" sizes="(max-width: 700px) 90vw, 640px" src="assets/optimized/b2d4ac51-kyle-hobson-hero-portrait-900.webp" alt="Portrait of Jonathan Kyle Hobson in a warm office, wearing glasses and a knitted cardigan." width="900" height="1125" data-asset-id="HeroPortrait01" />
           <figcaption class="hero-caption">
-            <strong>Prepared, warm, and room-aware.</strong>
-            <span>A calm host, a clear opening, and a table that knows where it is going.</span>
+            <strong>Jonathan “Kyle” Hobson</strong>
+            <span>Your Game Master, rules guide, and enthusiastic accomplice.</span>
           </figcaption>
         </figure>
       </div>
     </section>
 
-    <aside class="proof-strip" aria-label="Table style signals">
-      <div class="wrap">
-        <div class="stat signal-stat" aria-label="Long-form table style">
-          <img class="signal-icon" src="assets/generated/icons/signal-long-form-icon.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="SignalLongFormIcon" />
-          <strong>Long&#8209;form</strong><span>Living worlds, faction memory, and choices that echo.</span>
-        </div>
-        <div class="stat signal-stat" aria-label="Beginner-safe onboarding">
-          <img class="signal-icon" src="assets/generated/icons/signal-beginner-safe-icon.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="SignalBeginnerSafeIcon" />
-          <strong>Beginner&#8209;safe</strong><span>Clean openings, clear expectations, and gentle onboarding.</span>
-        </div>
-        <div class="stat signal-stat" aria-label="Event-ready pacing">
-          <img class="signal-icon" src="assets/generated/icons/signal-event-ready-icon.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="SignalEventReadyIcon" />
-          <strong>Event&#8209;ready</strong><span>Strong hooks, room-aware pacing, and easy first turns.</span>
-        </div>
-        <div class="stat signal-stat" aria-label="Tool-minded game design">
-          <img class="signal-icon" src="assets/generated/icons/signal-tool-minded-icon.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="SignalToolMindedIcon" />
-          <strong>Tool&#8209;minded</strong><span>Cards, towers, maps, and mechanics players can hold.</span>
-        </div>
+    <section class="home-welcome" id="first-game" aria-labelledby="first-game-title">
+      <div class="wrap home-welcome-layout">
+        <div><p class="eyebrow">New to the table?</p><h2 id="first-game-title">You don’t need to know the rules to have a good idea.</h2></div>
+        <div class="home-welcome-copy"><p>A tabletop roleplaying game is a story you help make. You describe what your character tries. I play the world around you, explain the rules when they matter, and help everyone find a turn.</p>
+        <details><summary>What should I expect at my first game?</summary><p>We start with the premise, introductions, and what everyone is comfortable with. Questions and pauses are welcome. You can speak in character, describe an action, or take a moment to think. Check the event page for the time, location, and what’s provided.</p></details>
+        <a href="events/">Explore the public games</a></div>
       </div>
-    </aside>
+    </section>
 
-    <section class="trust-band" data-anchor="Trust01" aria-labelledby="trust-title">
+    <section class="band dark" data-anchor="Games01" aria-labelledby="games-title">
       <div class="wrap reveal">
-        <div class="trust-intro">
-          <div class="eyebrow">Built for the room</div>
-          <h2 id="trust-title">Player trust, organizer calm, and enough magic to make the night stick.</h2>
+        <span class="section-anchor" id="games" aria-hidden="true"></span>
+        <div class="section-head">
+          <div class="eyebrow">The games</div>
+          <h2 class="h-section" id="games-title">Four worlds, four ways into the table.</h2>
+          <p class="lead">Each one shows a different kind of fun: long-game consequence, bright table pressure, cinematic mission play, and custom systems players can actually enter.</p>
         </div>
-        <div class="trust-grid" aria-label="GameMasterKyle table strengths">
-          <article class="trust-card">
-            <span class="trust-kicker">Start clean</span>
-            <h3>People know how to enter.</h3>
-            <p>Expectations, tone, and first choices land early, so new players can stop bracing and start playing.</p>
-          </article>
-          <article class="trust-card">
-            <span class="trust-kicker">Hold the room</span>
-            <h3>The table has a real host.</h3>
-            <p>Pacing, safety, rules help, and spotlight sharing stay handled while the story keeps moving.</p>
-          </article>
-          <article class="trust-card">
-            <span class="trust-kicker">Make it matter</span>
-            <h3>Worlds answer back.</h3>
-            <p>Choices leave marks: factions react, relationships change, and the next session has memory.</p>
-          </article>
-          <article class="trust-card">
-            <span class="trust-kicker">Keep it playable</span>
-            <h3>Custom systems have handles.</h3>
-            <p>Cards, towers, maps, and visible pressure turn big ideas into table objects players understand fast.</p>
-          </article>
+
+        <div class="case-list">
+          <a class="case-card" href="games/peasants-to-kings.html" data-anchor="CaseP2K" aria-label="Open Peasants to Kings game page">
+            <img class="case-card-badge" src="assets/generated/icons/case-spark-badge-icon.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="CaseSparkBadgeIcon" />
+            <figure class="case-media">
+              <img srcset="assets/optimized/9ec8335c-heartland-region-map-web-640.webp 640w, assets/optimized/9ec8335c-heartland-region-map-web-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="assets/optimized/9ec8335c-heartland-region-map-web-1280.webp" alt="Illustrated regional fantasy map centered on Heartland City, with labeled settlements, roads, mountains, forests, islands, and major campaign locations." width="1800" height="1350" loading="lazy" decoding="async" data-asset-id="P2KHeartlandMap01" />
+              <figcaption class="case-label">Real campaign map from the Heartland region.</figcaption>
+            </figure>
+            <div class="case-copy">
+              <div class="meta">Flagship campaign | long-form worldbuilding</div>
+              <h3>Peasants to Kings</h3>
+              <p>A long-running fantasy campaign about nobodies becoming dangerous enough for the world to notice. The value is continuity: factions move, consequences echo, and players can still find the thread.</p>
+              <p class="case-proof"><b>At the table:</b> Deep lore gets turned into choices players can actually use.</p>
+              <span class="case-action">Explore more</span>
+            </div>
+          </a>
+
+          <a class="case-card" href="games/peril-to-profit.html" data-anchor="CaseP2P" aria-label="Open Peril to Profit game page">
+            <img class="case-card-badge" src="assets/generated/icons/case-spark-badge-icon.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="CaseSparkBadgeIcon" />
+            <figure class="case-media">
+              <img srcset="assets/optimized/1a3da1eb-kazraks-labyrinth-vendors-preview-640.webp 640w, assets/optimized/1a3da1eb-kazraks-labyrinth-vendors-preview-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="assets/optimized/1a3da1eb-kazraks-labyrinth-vendors-preview-1280.webp" alt="A Peril to Profit vendor guide cover reading Buy. Survive. Succeed. with a smiling fantasy vendor at a magical shop counter." width="1391" height="1800" loading="lazy" decoding="async" data-asset-id="P2PKazrakVendor01" />
+              <figcaption class="case-label">Real vendor-guide artifact from Peril to Profit.</figcaption>
+            </figure>
+            <div class="case-copy">
+              <div class="meta">Daggerheart one-shot | corporate fantasy satire</div>
+              <h3>Peril to Profit</h3>
+              <p>A fantasy workplace hazard disguised as a team-building opportunity. The Jenga tower turns risk into a shared physical joke: HR would call it morale. The table knows better.</p>
+              <p class="case-proof"><b>At the table:</b> The joke lands because the mechanic is visible, physical, and easy to teach.</p>
+              <span class="case-action">Explore more</span>
+            </div>
+          </a>
+
+          <a class="case-card" href="games/echoes-of-stargate.html" data-anchor="CaseEchoes" aria-label="Open Echoes of Stargate game page">
+            <img class="case-card-badge" src="assets/generated/icons/case-spark-badge-icon.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="CaseSparkBadgeIcon" />
+            <figure class="case-media">
+              <img srcset="assets/optimized/f6db47a8-token-contact-sheet-640.webp 640w, assets/optimized/f6db47a8-token-contact-sheet-1152.webp 1152w" sizes="(max-width: 700px) 90vw, 640px" src="assets/optimized/f6db47a8-token-contact-sheet-1152.webp" alt="Contact sheet of Echoes of Stargate character and NPC tokens arranged on a dark campaign surface." width="1152" height="1152" loading="lazy" decoding="async" data-asset-id="EchoesTokenSheet01" />
+              <figcaption class="case-label">Mission tokens and table-facing identity assets.</figcaption>
+            </figure>
+            <div class="case-copy">
+              <div class="meta">Cinematic mission RPG | briefings, maps, and tokens</div>
+              <h3>Echoes of Stargate</h3>
+              <p>A mission-driven sci-fi campaign built around briefings, objectives, maps, role support, and episode pacing. It proves a different kind of table craft: fast orientation inside a big premise.</p>
+              <p class="case-proof"><b>At the table:</b> Players get a clear mission frame, a shared team identity, and concrete tools for the scene.</p>
+              <span class="case-action">Explore more</span>
+            </div>
+          </a>
+
+          <a class="case-card stargate-case" href="games/stargate-card-universe.html" data-anchor="CaseStargate" aria-label="Open Stargate Card Universe game page">
+            <img class="case-card-badge" src="assets/generated/icons/case-spark-badge-icon.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="CaseSparkBadgeIcon" />
+            <figure class="case-media">
+              <img srcset="assets/optimized/8f8036be-stargate-card-system-preview-sharp-640.webp 640w, assets/optimized/8f8036be-stargate-card-system-preview-sharp-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="assets/optimized/8f8036be-stargate-card-system-preview-sharp-1280.webp" alt="A derivative preview of custom Stargate-themed card exports arranged across a dark system-map surface." width="2400" height="1500" loading="eager" decoding="async" data-asset-id="StargateCards01" />
+              <figcaption class="case-label">Public preview of real Cockatrice card-system exports.</figcaption>
+            </figure>
+            <div class="case-copy">
+              <div class="meta">Custom card universe | play and systems thinking</div>
+              <h3>Stargate Card Universe</h3>
+              <p>A custom sci-fi card world built around factions, missions, and table-tested pressure. The card work shows a different side of GM craft: readable mechanics, faction identity, and balance you can actually play.</p>
+              <p class="case-proof"><b>At the table:</b> Faction identity and readable cards make custom systems feel playable.</p>
+              <span class="case-action">Explore more</span>
+            </div>
+          </a>
+        </div>
+        <div class="games-more-cta" data-anchor="ProjectsCta01">
+          <a class="chip-link" href="projects.html">View more projects</a>
         </div>
       </div>
     </section>
@@ -216,7 +243,7 @@
             <div class="about-actions" aria-label="GameMasterKyle profile links">
               <a class="chip-link" href="about.html">More about Kyle</a>
               <a class="chip-link" href="links.html">
-                <img class="inline-link-icon" src="assets/brand/gmk-compass-d20-mark.png" alt="" width="96" height="96" loading="lazy" decoding="async" data-asset-id="LogoMark01" />
+                <img srcset="assets/optimized/a2e43906-gmk-compass-d20-mark-384.webp 384w" sizes="(max-width: 700px) 90vw, 640px" class="inline-link-icon" src="assets/optimized/a2e43906-gmk-compass-d20-mark-384.webp" alt="" width="96" height="96" loading="lazy" decoding="async" data-asset-id="LogoMark01" />
                 Digital business card
               </a>
               <a aria-describedby="new-tab-note" class="chip-link external-link" href="https://discord.gg/A9JNzTRucn" target="_blank" rel="noopener noreferrer">
@@ -257,9 +284,9 @@
       <div class="wrap reveal">
         <span class="section-anchor" id="who" aria-hidden="true"></span>
         <div class="section-head">
-          <div class="eyebrow">Who it helps</div>
-          <h2 class="h-section" id="audience-title">A safer bet for the person booking the room.</h2>
-          <p class="lead">A good GM lowers buyer risk. People need to know the event will start cleanly, include newcomers, and leave the group wanting another session.</p>
+          <div class="eyebrow">Private groups &amp; venues</div>
+          <h2 class="h-section" id="audience-title">Bring your people. I’ll bring the adventure.</h2>
+          <p class="lead">Planning a game night for friends, a private event, or a venue? Tell me about the group, the time you have, and the kind of story you want to try.</p>
         </div>
         <div class="audience-layout">
           <div class="audience-stack">
@@ -303,124 +330,15 @@
       </div>
     </section>
 
-    <section class="band dark" data-anchor="Games01" aria-labelledby="games-title">
-      <div class="wrap reveal">
-        <span class="section-anchor" id="games" aria-hidden="true"></span>
-        <div class="section-head">
-          <div class="eyebrow">The games</div>
-          <h2 class="h-section" id="games-title">Four worlds, four ways into the table.</h2>
-          <p class="lead">Each one shows a different kind of fun: long-game consequence, bright table pressure, cinematic mission play, and custom systems players can actually enter.</p>
-        </div>
 
-        <div class="case-list">
-          <a class="case-card" href="games/peasants-to-kings.html" data-anchor="CaseP2K" aria-label="Open Peasants to Kings game page">
-            <img class="case-card-badge" src="assets/generated/icons/case-spark-badge-icon.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="CaseSparkBadgeIcon" />
-            <figure class="case-media">
-              <img src="assets/evidence/p2k/heartland-region-map-web.jpg" alt="Illustrated regional fantasy map centered on Heartland City, with labeled settlements, roads, mountains, forests, islands, and major campaign locations." width="1800" height="1350" loading="lazy" decoding="async" data-asset-id="P2KHeartlandMap01" />
-              <figcaption class="case-label">Real campaign map from the Heartland region.</figcaption>
-            </figure>
-            <div class="case-copy">
-              <div class="meta">Flagship campaign | long-form worldbuilding</div>
-              <h3>Peasants to Kings</h3>
-              <p>A long-running fantasy campaign about nobodies becoming dangerous enough for the world to notice. The value is continuity: factions move, consequences echo, and players can still find the thread.</p>
-              <p class="case-proof"><b>At the table:</b> Deep lore gets turned into choices players can actually use.</p>
-              <span class="case-action">Explore more</span>
-            </div>
-          </a>
-
-          <a class="case-card" href="games/peril-to-profit.html" data-anchor="CaseP2P" aria-label="Open Peril to Profit game page">
-            <img class="case-card-badge" src="assets/generated/icons/case-spark-badge-icon.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="CaseSparkBadgeIcon" />
-            <figure class="case-media">
-              <img src="assets/evidence/p2p/kazraks-labyrinth-vendors-preview.jpg" alt="A Peril to Profit vendor guide cover reading Buy. Survive. Succeed. with a smiling fantasy vendor at a magical shop counter." width="1391" height="1800" loading="lazy" decoding="async" data-asset-id="P2PKazrakVendor01" />
-              <figcaption class="case-label">Real vendor-guide artifact from Peril to Profit.</figcaption>
-            </figure>
-            <div class="case-copy">
-              <div class="meta">Daggerheart one-shot | corporate fantasy satire</div>
-              <h3>Peril to Profit</h3>
-              <p>A fantasy workplace hazard disguised as a team-building opportunity. The Jenga tower turns risk into a shared physical joke: HR would call it morale. The table knows better.</p>
-              <p class="case-proof"><b>At the table:</b> The joke lands because the mechanic is visible, physical, and easy to teach.</p>
-              <span class="case-action">Explore more</span>
-            </div>
-          </a>
-
-          <a class="case-card" href="games/echoes-of-stargate.html" data-anchor="CaseEchoes" aria-label="Open Echoes of Stargate game page">
-            <img class="case-card-badge" src="assets/generated/icons/case-spark-badge-icon.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="CaseSparkBadgeIcon" />
-            <figure class="case-media">
-              <img src="assets/evidence/echoes-of-stargate/token-contact-sheet.jpg" alt="Contact sheet of Echoes of Stargate character and NPC tokens arranged on a dark campaign surface." width="1152" height="1152" loading="lazy" decoding="async" data-asset-id="EchoesTokenSheet01" />
-              <figcaption class="case-label">Mission tokens and table-facing identity assets.</figcaption>
-            </figure>
-            <div class="case-copy">
-              <div class="meta">Cinematic mission RPG | briefings, maps, and tokens</div>
-              <h3>Echoes of Stargate</h3>
-              <p>A mission-driven sci-fi campaign built around briefings, objectives, maps, role support, and episode pacing. It proves a different kind of table craft: fast orientation inside a big premise.</p>
-              <p class="case-proof"><b>At the table:</b> Players get a clear mission frame, a shared team identity, and concrete tools for the scene.</p>
-              <span class="case-action">Explore more</span>
-            </div>
-          </a>
-
-          <a class="case-card stargate-case" href="games/stargate-card-universe.html" data-anchor="CaseStargate" aria-label="Open Stargate Card Universe game page">
-            <img class="case-card-badge" src="assets/generated/icons/case-spark-badge-icon.png" alt="" width="256" height="256" loading="lazy" decoding="async" data-asset-id="CaseSparkBadgeIcon" />
-            <figure class="case-media">
-              <img src="assets/cards/stargate-card-system-preview-sharp.webp" alt="A derivative preview of custom Stargate-themed card exports arranged across a dark system-map surface." width="2400" height="1500" loading="eager" decoding="async" data-asset-id="StargateCards01" />
-              <figcaption class="case-label">Public preview of real Cockatrice card-system exports.</figcaption>
-            </figure>
-            <div class="case-copy">
-              <div class="meta">Custom card universe | play and systems thinking</div>
-              <h3>Stargate Card Universe</h3>
-              <p>A custom sci-fi card world built around factions, missions, and table-tested pressure. The card work shows a different side of GM craft: readable mechanics, faction identity, and balance you can actually play.</p>
-              <p class="case-proof"><b>At the table:</b> Faction identity and readable cards make custom systems feel playable.</p>
-              <span class="case-action">Explore more</span>
-            </div>
-          </a>
-        </div>
-        <div class="games-more-cta" data-anchor="ProjectsCta01">
-          <a class="chip-link" href="projects.html">View more projects</a>
-        </div>
-      </div>
-    </section>
 
     <section class="band paper-band table-voices" data-anchor="PlayerVoices01" aria-labelledby="reviews-title">
       <div class="wrap reveal">
         <span class="section-anchor" id="reviews" aria-hidden="true"></span>
         <div class="section-head">
           <div class="eyebrow">From the table</div>
-          <h2 class="h-section" id="reviews-title">The proof that matters most is how players talk after.</h2>
-          <p class="lead">These are player words with handle-based attribution. Read the verified StartPlaying reviews, or add your own if you have played at Kyle's table.</p>
-        </div>
-
-        <div class="quote-grid" aria-label="Player words about Kyle's tables">
-          <figure class="quote-card">
-            <blockquote>Kyle makes the world feel like it keeps moving even when our characters are not looking at it. I always felt like my choices mattered and that my character had a real place in the larger story.</blockquote>
-            <figcaption><strong>@avalonr</strong><span>played Sly and Raven</span></figcaption>
-          </figure>
-          <figure class="quote-card">
-            <blockquote>Kyle creates the kind of table where people feel safe enough to take creative risks. He pays attention to the room and still keeps the story moving.</blockquote>
-            <figcaption><strong>@betweentheivyandthemoss</strong><span>played Maia</span></figcaption>
-          </figure>
-          <figure class="quote-card">
-            <blockquote>Kyle can handle absolute player chaos and still make it feel like part of the story. He keeps the table welcoming no matter how much experience someone has.</blockquote>
-            <figcaption><strong>@corncornthecorngod</strong><span>played Logan and Brax</span></figcaption>
-          </figure>
-          <figure class="quote-card">
-            <blockquote>In Peril to Profit, every faction and place felt like it had a reason to exist. The world was huge, but I never felt lost.</blockquote>
-            <figcaption><strong>@StasyFrey</strong><span>played Amber</span></figcaption>
-          </figure>
-          <figure class="quote-card">
-            <blockquote>I have played with Kyle across very different games. There is a huge amount behind the scenes, but at the table it still feels clear and fast.</blockquote>
-            <figcaption><strong>@Infinitely0</strong><span>played Crag and Kroc</span></figcaption>
-          </figure>
-          <figure class="quote-card">
-            <blockquote>Kyle puts a lot of invisible work into making custom systems feel smooth at the table. In Stargate, the mechanics supported the cinematic feeling instead of getting in the way.</blockquote>
-            <figcaption><strong>Razor</strong><span>played Xan and O'Lacran</span></figcaption>
-          </figure>
-          <figure class="quote-card">
-            <blockquote>My character felt like they mattered to the world. That is what kept me excited between sessions.</blockquote>
-            <figcaption><strong>June</strong><span>played Lila</span></figcaption>
-          </figure>
-          <figure class="quote-card">
-            <blockquote>Kyle gives players room to chase what interests them, adjusts mechanics for the fun of the table, and gives creative problem-solving a fair shot.</blockquote>
-            <figcaption><strong>Kosros</strong><span>StartPlaying review, longtime campaign player</span></figcaption>
-          </figure>
+          <h2 class="h-section" id="reviews-title">Hear from the players.</h2>
+          <p class="lead">Read player reviews on StartPlaying. If you’ve played at my table, you can leave your own or share private feedback about the session.</p>
         </div>
 
         <div class="proof-cta proof-cta-actions">
@@ -491,7 +409,7 @@
             </figure>
           </div>
           <figure class="featured-review-art">
-            <img src="assets/evidence/p2p/mycostar-lopchop-review.png" alt="Mycostar, lopchop's mushroom-like Peril to Profit character, holding a staff and clustered stones." width="900" height="900" loading="lazy" decoding="async" data-asset-id="LopchopMycostarReview01" />
+            <img srcset="assets/optimized/7f1f0e56-mycostar-lopchop-review-640.webp 640w, assets/optimized/7f1f0e56-mycostar-lopchop-review-900.webp 900w" sizes="(max-width: 700px) 90vw, 640px" src="assets/optimized/7f1f0e56-mycostar-lopchop-review-900.webp" alt="Mycostar, lopchop's mushroom-like Peril to Profit character, holding a staff and clustered stones." width="900" height="900" loading="lazy" decoding="async" data-asset-id="LopchopMycostarReview01" />
             <figcaption>Mycostar from Peril to Profit.</figcaption>
           </figure>
         </div>
@@ -542,7 +460,7 @@
                 GameMasterKyle Discord
               </a>
               <a class="contact-link" href="links.html">
-                <img class="contact-icon" src="assets/brand/gmk-compass-d20-mark.png" alt="" width="96" height="96" loading="lazy" decoding="async" data-asset-id="LogoMark01" />
+                <img srcset="assets/optimized/a2e43906-gmk-compass-d20-mark-384.webp 384w" sizes="(max-width: 700px) 90vw, 640px" class="contact-icon" src="assets/optimized/a2e43906-gmk-compass-d20-mark-384.webp" alt="" width="96" height="96" loading="lazy" decoding="async" data-asset-id="LogoMark01" />
                 Digital business card
               </a>
               <a aria-describedby="new-tab-note" class="contact-link external-link" href="https://startplaying.games/gm/gamemasterkyle/review" target="_blank" rel="noopener noreferrer">
@@ -603,15 +521,23 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <span>GameMasterKyle | @GameMasterKyle</span>
-      <span>Built table by table in the Phoenix East Valley</span>
-    </div>
-  </footer>
+  <!-- site-footer:start -->
+<footer class="gmk-footer">
+  <div class="gmk-footer-inner">
+    <div><a href="./index.html" class="gmk-footer-name">GameMasterKyle</a><p>Jonathan “Kyle” Hobson · Phoenix, Arizona</p></div>
+    <nav aria-label="Footer navigation">
+      <a href="./events/">Public games</a>
+      <a href="./index.html#contact">Private games &amp; venues</a>
+      <a href="./feedback/">Player feedback</a>
+      <a href="./links.html">Contact &amp; community</a>
+    </nav>
+  </div>
+</footer>
+<!-- site-footer:end -->
+
 
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-  <script async src="https://www.tiktok.com/embed.js"></script>
+
   <script src="scripts/main.js"></script>
 </body>
 </html>

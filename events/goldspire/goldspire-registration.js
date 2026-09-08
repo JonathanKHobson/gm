@@ -1,90 +1,45 @@
 (function () {
-  var registrationConfig = {
-    registration_state: "live",
-    booking_mode: "single",
-    pending_label: "Registration coming soon",
-    single_label: "Book Tier 1 at Mox",
-    multi_label: "View Times",
-    live_label: "Book now at Mox",
-    pending_url: "coming-soon/",
-    single_url: "https://events.moxboardinghouse.com/p/n/xnP6r62v/v5",
-    tier_two_label: "Book Tier 2 at Mox",
-    tier_two_url: "https://events.moxboardinghouse.com/p/n/zdRmLjPV/v5",
-    tier_two_aria_label: "Book The Dying Spires Tier 2 adventure at Mox. Open the official event listing.",
-    multi_url: "dates/",
-    live_url: "https://events.moxboardinghouse.com/p/n/xnP6r62v/v5",
-    checkout_url: "https://events.moxboardinghouse.com/p/n/xnP6r62v/v5/checkout",
-    pending_aria_label: "Registration coming soon. Open event listing status.",
-    single_aria_label: "Book The Goldspire Messengers Tier 1 adventure at Mox. Open the official event listing.",
-    multi_aria_label: "View Goldspire event times and booking links.",
-    live_aria_label: "Book now at Mox. Open the official event listing."
-  };
+  "use strict";
 
+  var site = window.GameMasterKyle || {};
   var script = document.currentScript;
   var eventBase = script ? script.getAttribute("data-event-base") || "" : "";
-  var bookingMode = registrationConfig.booking_mode === "multi" ? "multi" : "single";
-  var hasLiveTarget = bookingMode === "multi"
-    ? Boolean(registrationConfig.multi_url)
-    : Boolean(registrationConfig.single_url || registrationConfig.live_url);
-  var state = registrationConfig.registration_state === "live" && hasLiveTarget ? "live" : "pending";
-  var label = registrationConfig.pending_label;
-  var url = registrationConfig.pending_url;
-  var ariaLabel = registrationConfig.pending_aria_label;
+  var now = Date.now();
+  var upcoming = typeof site.getUpcomingPublicEvents === "function"
+    ? site.getUpcomingPublicEvents(now).filter(function (event) {
+      return event.sourceId === "goldspire-mox" || event.sourceId === "goldspire-tier-two-mox";
+    }) : [];
 
-  if (state === "live" && bookingMode === "multi") {
-    label = registrationConfig.multi_label;
-    url = registrationConfig.multi_url;
-    ariaLabel = registrationConfig.multi_aria_label;
-  } else if (state === "live") {
-    label = registrationConfig.single_label || registrationConfig.live_label;
-    url = registrationConfig.single_url || registrationConfig.live_url;
-    ariaLabel = registrationConfig.single_aria_label || registrationConfig.live_aria_label;
-  }
-
-  function resolveUrl(value) {
-    if (/^(https?:|mailto:|\/|#)/.test(value)) return value;
-    return eventBase + value;
-  }
-
-  function isExternalUrl(value) {
-    return /^https?:/.test(value);
-  }
-
-  document.documentElement.setAttribute("data-registration-state", state);
-  document.documentElement.setAttribute("data-booking-mode", bookingMode);
-
-  Array.prototype.forEach.call(document.querySelectorAll("[data-event-cta]"), function (link) {
-    var resolvedUrl = resolveUrl(url);
-    link.href = resolvedUrl;
-    link.textContent = label;
-    link.setAttribute("aria-label", ariaLabel);
-    link.setAttribute("data-registration-state", state);
-    if (isExternalUrl(resolvedUrl)) {
-      link.setAttribute("target", "_blank");
-      link.setAttribute("rel", "noopener noreferrer");
-      link.classList.add("external-link");
-      if (document.getElementById("new-tab-note")) {
-        link.setAttribute("aria-describedby", "new-tab-note");
+  function updateLinks(selector, sourceId, fallbackLabel) {
+    var event = upcoming.filter(function (candidate) {
+      return !sourceId || candidate.sourceId === sourceId;
+    })[0];
+    Array.prototype.forEach.call(document.querySelectorAll(selector), function (link) {
+      var label = event
+        ? (event.status === "sold_out" ? "Check availability at Mox" : "Check " + event.tier + " seats at Mox")
+        : fallbackLabel;
+      link.href = event ? event.url : eventBase + "index.html#contact";
+      link.textContent = label;
+      link.setAttribute("aria-label", event ? label + " for " + event.name + ". Opens the official Mox listing." : label + ". Contact Kyle.");
+      link.setAttribute("data-registration-state", event ? event.status : "ended");
+      link.classList.toggle("external-link", Boolean(event));
+      if (event) {
+        link.setAttribute("target", "_blank");
+        link.setAttribute("rel", "noopener noreferrer");
+        if (document.getElementById("new-tab-note")) link.setAttribute("aria-describedby", "new-tab-note");
+      } else {
+        link.removeAttribute("target");
+        link.removeAttribute("rel");
+        link.removeAttribute("aria-describedby");
       }
-    } else {
-      link.removeAttribute("target");
-      link.removeAttribute("rel");
-      link.removeAttribute("aria-describedby");
-      link.classList.remove("external-link");
-    }
-  });
+    });
+  }
 
-  Array.prototype.forEach.call(document.querySelectorAll("[data-tier-two-cta]"), function (link) {
-    link.href = registrationConfig.tier_two_url;
-    link.textContent = registrationConfig.tier_two_label;
-    link.setAttribute("aria-label", registrationConfig.tier_two_aria_label);
-    link.setAttribute("target", "_blank");
-    link.setAttribute("rel", "noopener noreferrer");
-    link.classList.add("external-link");
-    if (document.getElementById("new-tab-note")) {
-      link.setAttribute("aria-describedby", "new-tab-note");
-    }
-  });
+  document.documentElement.setAttribute("data-registration-state", upcoming.length ? "live" : "ended");
+  document.documentElement.setAttribute("data-booking-mode", "multi");
+  updateLinks("[data-event-cta]", "", "Ask about a game");
+  updateLinks("[data-tier-one-cta]", "goldspire-mox", "Ask about Tier 1");
+  updateLinks("[data-tier-two-cta]", "goldspire-tier-two-mox", "Ask about Tier 2");
 
   var stickyCta = document.querySelector(".goldspire-sticky-cta");
   var hero = document.querySelector(".goldspire-hero");

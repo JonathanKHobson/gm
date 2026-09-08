@@ -12,35 +12,38 @@
     directionsUrl: "https://www.google.com/maps/place/Mox%2BBoarding%2BHouse/%4033.3269143%2C-111.8608469%2C17z/data%3D%213m1%214b1%214m6%213m5%211s0x872b07b636f01fef%3A0x5b0edca367684e13%218m2%213d33.3269098%214d-111.858272%2116s%2Fg%2F11y7hf8780",
     defaultRegistrationUrl: "https://events.moxboardinghouse.com/p/n/nmph2JKD",
     registrationFlow: "shared_listing",
-    registrationFlowNote: "All three missions share one Mox listing. Choose your date and time there.",
-    sessionCtaLabel: "Book at Mox",
+    registrationFlowNote: "Upcoming missions share one Mox listing. Choose your date and time there.",
+    sessionCtaLabel: "Check seats at Mox",
     sessions: [
       {
         id: "groundbreaking-2026-08-22",
+        eventId: "stargate-phx-2026-08-22",
         title: "Groundbreaking",
         episode: "Episode 1.01",
         day: "Saturday",
         date: "August 22, 2026",
         time: "10:30 AM",
-        availability: "Registration open"
+        availability: "Check seats at Mox"
       },
       {
         id: "watershed-2026-09-05",
+        eventId: "stargate-phx-2026-09-05",
         title: "Watershed",
         episode: "Episode 1.02",
         day: "Saturday",
         date: "September 5, 2026",
         time: "10:30 AM",
-        availability: "Registration open"
+        availability: "Check seats at Mox"
       },
       {
         id: "a-matter-of-fae-2026-09-19",
+        eventId: "stargate-phx-2026-09-19",
         title: "A Matter of Fae",
         episode: "Episode 1.03",
         day: "Saturday",
         date: "September 19, 2026",
         time: "10:30 AM",
-        availability: "Registration open"
+        availability: "Check seats at Mox"
       }
     ],
     states: {
@@ -65,14 +68,24 @@
         sessionCopy: "Review the dates below. Booking links will appear when Mox registration opens."
       },
       live: {
-        label: "Registration open · Three missions available",
+        label: "Upcoming missions",
         title: "Choose your mission window.",
-        copy: "Choose August 22, September 5, or September 19, then complete registration through Mox.",
-        ctaLabel: "Book now at Mox",
+        copy: "Check the upcoming date and current seat availability on the official Mox listing.",
+        ctaLabel: "Check seats at Mox",
         ctaAriaLabel: "Book Stargate PHX through the official Mox event listing.",
         url: "dates/",
         sessionHeading: "Available mission windows",
         sessionCopy: "Choose a session below, then complete registration through Mox."
+      },
+      ended: {
+        label: "Listed sessions have passed",
+        title: "The next mission date is being arranged.",
+        copy: "These listed dates have passed. Contact Kyle about a future mission or explore the player resources.",
+        ctaLabel: "Ask about a future mission",
+        ctaAriaLabel: "Ask Kyle about a future Stargate PHX mission.",
+        url: "../../index.html#contact",
+        sessionHeading: "Past mission dates",
+        sessionCopy: "These dates are kept for reference. They are no longer offered for booking."
       },
       sold_out: {
         label: "Current sessions sold out",
@@ -87,7 +100,30 @@
     }
   };
 
-  var allowedStates = ["pending", "scheduled", "live", "sold_out"];
+  var allowedStates = ["pending", "scheduled", "live", "sold_out", "ended"];
+  var site = window.GameMasterKyle || {};
+
+  function registeredEvent(session) {
+    return (site.publicEvents || []).filter(function (event) {
+      return event.id === session.eventId;
+    })[0];
+  }
+
+  function upcomingEvents() {
+    return typeof site.getUpcomingPublicEvents === "function"
+      ? site.getUpcomingPublicEvents(Date.now(), "stargate-phx-mox") : [];
+  }
+
+  function isPast(session) {
+    var event = registeredEvent(session);
+    return Boolean(event) && Date.parse(event.start) <= Date.now();
+  }
+
+  function isBookable(session) {
+    return upcomingEvents().some(function (event) {
+      return event.id === session.eventId && event.status === "live";
+    });
+  }
   var script = document.currentScript;
   var eventBase = script ? script.getAttribute("data-event-base") || "" : "";
 
@@ -103,11 +139,12 @@
 
   function effectiveState(requestedState) {
     var requested = allowedStates.indexOf(requestedState) >= 0 ? requestedState : "pending";
+    var hasRegistry = typeof site.getUpcomingPublicEvents === "function";
+    var future = upcomingEvents();
+    if (hasRegistry && !future.length && config.sessions.length && config.sessions.every(isPast)) return "ended";
     if (requested !== "live") return requested;
-    var hasLiveUrl = Boolean(config.defaultRegistrationUrl) || config.sessions.some(function (session) {
-      return Boolean(session.registrationUrl);
-    });
-    return hasLiveUrl ? requested : "pending";
+    if (!hasRegistry || !future.length) return "pending";
+    return future.every(function (event) { return event.status === "sold_out"; }) ? "sold_out" : "live";
   }
 
   function setLink(link, stateCopy) {
@@ -156,6 +193,8 @@
   }
 
   function createSessionOption(session, state) {
+    var event = registeredEvent(session);
+    var soldOut = event && event.status === "sold_out";
     var option = document.createElement("article");
     option.className = "sg-session-option";
     option.setAttribute("data-session-id", session.id || "session");
@@ -171,7 +210,7 @@
     appendFact(facts, "Day", session.day || "To be confirmed");
     appendFact(facts, "Date", session.date || "To be confirmed");
     appendFact(facts, "Time", session.time || "To be confirmed");
-    appendFact(facts, "Availability", session.availability || config.states[state].label);
+    appendFact(facts, "Availability", isPast(session) ? "Past session" : soldOut ? "Sold out" : (state === "live" && isBookable(session) ? session.availability : config.states[state].label));
     option.appendChild(facts);
 
     if (session.contentNote) {
@@ -179,7 +218,7 @@
     }
 
     var sessionUrl = session.registrationUrl || config.defaultRegistrationUrl;
-    if (state === "live" && sessionUrl) {
+    if (state === "live" && isBookable(session) && sessionUrl) {
       var link = createTextElement("a", "btn btn-primary", session.ctaLabel || config.sessionCtaLabel);
       link.href = sessionUrl;
       link.target = "_blank";
@@ -188,7 +227,7 @@
       if (document.getElementById("new-tab-note")) link.setAttribute("aria-describedby", "new-tab-note");
       option.appendChild(link);
     } else {
-      option.appendChild(createTextElement("p", "sg-session-unavailable", state === "sold_out" ? "Sold out" : "Registration opens soon"));
+      option.appendChild(createTextElement("p", "sg-session-unavailable", isPast(session) ? "This session date has passed." : (soldOut || state === "sold_out") ? "Sold out" : "Check with Kyle for the next registration update."));
     }
     return option;
   }
@@ -211,7 +250,7 @@
     });
 
     Array.prototype.forEach.call(document.querySelectorAll("[data-shared-listing-note]"), function (node) {
-      var isSharedListing = state === "live" && config.registrationFlow === "shared_listing" && Boolean(config.defaultRegistrationUrl) && config.sessions.length > 1;
+      var isSharedListing = state === "live" && config.registrationFlow === "shared_listing" && Boolean(config.defaultRegistrationUrl) && upcomingEvents().length > 1;
       node.hidden = !isSharedListing;
       node.textContent = isSharedListing ? config.registrationFlowNote : "";
     });
@@ -219,6 +258,14 @@
 
   function render(requestedState) {
     var state = effectiveState(requestedState || config.state);
+    if (state === "live") {
+      var future = upcomingEvents();
+      config.states.live.label = future.length === 1 ? "One upcoming mission" : future.length + " upcoming missions";
+      config.states.live.copy = "Check the upcoming date and current seat availability on the official Mox listing.";
+      config.states.live.ctaLabel = "Check seats at Mox";
+      config.states.live.sessionHeading = "Mission dates";
+      config.states.live.sessionCopy = "Upcoming sessions link to Mox. Past sessions remain here for reference.";
+    }
     var stateCopy = config.states[state];
     config.state = state;
     document.documentElement.setAttribute("data-registration-state", state);

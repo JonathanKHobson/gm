@@ -20,29 +20,34 @@
   <link rel="stylesheet" href="../styles/base.css" />
   <link rel="stylesheet" href="../styles/components.css" />
   <link rel="stylesheet" href="../styles/responsive.css" />
+  <link rel="stylesheet" href="../styles/site-shell.css" />
+  <script src="../scripts/site-shell.js" defer></script>
 </head>
 <body class="case-detail resource-detail p2k-war-resource">
   <a class="skip" href="#main">Skip to content</a>
   <span id="new-tab-note" class="sr-only">Opens in a new tab.</span>
-  <header class="site-header">
-    <nav class="nav" aria-label="Primary navigation">
-      <div class="wrap">
-        <a class="brand" href="../index.html#top" aria-label="GameMasterKyle home">
-          <img class="brand-mark" src="../assets/brand/gmk-compass-d20-mark.png" alt="" width="96" height="96" data-asset-id="LogoMark01" />
-          <span class="brand-name"><strong>GameMasterKyle</strong><span>Table craft for real rooms</span></span>
-        </a>
-        <div class="nav-links website-nav">
-          <a class="navlink" href="../index.html#mission">Mission</a>
-          <a class="navlink" href="../index.html#about">About</a>
-          <a class="navlink" href="../index.html#games">Games</a>
-          <a class="navlink" href="../events/">Events</a>
-          <a class="navlink" href="../index.html#reviews">Reviews</a>
-          <a aria-describedby="new-tab-note" class="btn nav-cta nav-cta-discord external-link" href="https://discord.gg/A9JNzTRucn" target="_blank" rel="noopener noreferrer">Join Discord</a>
-          <a class="btn nav-cta" href="../index.html#contact">Get in touch</a>
-        </div>
-      </div>
-    </nav>
-  </header>
+  <!-- site-shell:start -->
+<header class="gmk-header">
+  <div class="gmk-header-inner">
+    <a class="gmk-brand" href="../index.html" aria-label="GameMasterKyle home">
+      <img src="../assets/brand/gmk-compass-d20-mark.png" alt="" width="48" height="48" />
+      <span>GameMasterKyle<small>Come curious. Leave with a story.</small></span>
+    </a>
+    <details class="gmk-menu" open>
+      <summary>Menu</summary>
+      <nav class="gmk-navigation" aria-label="Main navigation">
+        <a href="../events/">Public games</a>
+        <a href="../about.html">About Kyle</a>
+        <a href="../projects.html">Worlds & work</a>
+        <a href="../resources/" aria-current="page">Player resources</a>
+        <a class="gmk-contact" href="../index.html#contact">Plan a game</a>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<!-- site-shell:end -->
+
 
   <main id="main">
     <section class="detail-hero detail-hero-with-art" data-anchor="WarResourceHero01" aria-labelledby="war-resource-title">
@@ -58,7 +63,7 @@
           <span>Table-tested war structure</span>
         </div>
         <figure class="detail-hero-art">
-          <img src="../assets/evidence/p2k-war-encounter/war-room-tab-desktop.jpg" alt="Fantasy War Sim War Room screenshot with campaign meters, faction totals, doctrine cards, and battle history." width="1500" height="1041" loading="eager" decoding="async" data-asset-id="P2KWarRoomScreenshot01" />
+          <img srcset="../assets/optimized/4e55f96c-war-room-tab-desktop-640.webp 640w, ../assets/optimized/4e55f96c-war-room-tab-desktop-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/4e55f96c-war-room-tab-desktop-1280.webp" alt="Fantasy War Sim War Room screenshot with campaign meters, faction totals, doctrine cards, and battle history." width="1500" height="1041" loading="eager" decoding="async" data-asset-id="P2KWarRoomScreenshot01" />
         </figure>
       </div>
     </section>
@@ -77,7 +82,7 @@
         </article>
 
         <aside class="detail-side" data-anchor="WarResourceSide01">
-          <img src="../assets/evidence/p2k-war-encounter/battle-roll-result-desktop.jpg" alt="Fantasy War Sim battle result screenshot showing a resolved battle report and outcome details." width="1500" height="1041" loading="lazy" decoding="async" data-asset-id="P2KWarBattleResult01" />
+          <img srcset="../assets/optimized/66a71e84-battle-roll-result-desktop-640.webp 640w, ../assets/optimized/66a71e84-battle-roll-result-desktop-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/66a71e84-battle-roll-result-desktop-1280.webp" alt="Fantasy War Sim battle result screenshot showing a resolved battle report and outcome details." width="1500" height="1041" loading="lazy" decoding="async" data-asset-id="P2KWarBattleResult01" />
           <div class="detail-side-body">
             <h2>What to notice</h2>
             <p>The simulator gives a table-facing record of battle setup, rolls, results, and campaign consequences.</p>
@@ -123,7 +128,7 @@
 
         <article class="featured-artifact">
           <figure>
-            <img src="../assets/evidence/p2k-war-encounter/war-room-tab-desktop.jpg" alt="Fantasy War Sim War Room overview with campaign pressure panels, faction summary, and war-turn controls." width="1500" height="1041" loading="lazy" decoding="async" data-asset-id="P2KWarRoomScreenshot01" />
+            <img srcset="../assets/optimized/4e55f96c-war-room-tab-desktop-640.webp 640w, ../assets/optimized/4e55f96c-war-room-tab-desktop-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/4e55f96c-war-room-tab-desktop-1280.webp" alt="Fantasy War Sim War Room overview with campaign pressure panels, faction summary, and war-turn controls." width="1500" height="1041" loading="lazy" decoding="async" data-asset-id="P2KWarRoomScreenshot01" />
           </figure>
           <div class="featured-copy">
             <span class="proof-index">War Room</span>
@@ -134,22 +139,22 @@
 
         <div class="artifact-grid resource-screenshot-grid" aria-label="Fantasy War Sim proof screenshots">
           <article class="artifact-card">
-            <img src="../assets/evidence/p2k-war-encounter/battle-roll-result-desktop.jpg" alt="Fantasy War Sim battle result screen with a resolved battle report and roll outcome." width="1500" height="1041" loading="lazy" decoding="async" data-asset-id="P2KWarBattleResult01" />
+            <img srcset="../assets/optimized/66a71e84-battle-roll-result-desktop-640.webp 640w, ../assets/optimized/66a71e84-battle-roll-result-desktop-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/66a71e84-battle-roll-result-desktop-1280.webp" alt="Fantasy War Sim battle result screen with a resolved battle report and roll outcome." width="1500" height="1041" loading="lazy" decoding="async" data-asset-id="P2KWarBattleResult01" />
             <h3>Battle report</h3>
             <p>Outcome traces make the battle feel accountable instead of arbitrary.</p>
           </article>
           <article class="artifact-card">
-            <img src="../assets/evidence/p2k-war-encounter/help-wiki-desktop.jpg" alt="Fantasy War Sim help wiki screenshot with documentation for importing armies, factions, and doctrines." width="1500" height="1041" loading="lazy" decoding="async" data-asset-id="P2KWarHelpWiki01" />
+            <img srcset="../assets/optimized/247f6c33-help-wiki-desktop-640.webp 640w, ../assets/optimized/247f6c33-help-wiki-desktop-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/247f6c33-help-wiki-desktop-1280.webp" alt="Fantasy War Sim help wiki screenshot with documentation for importing armies, factions, and doctrines." width="1500" height="1041" loading="lazy" decoding="async" data-asset-id="P2KWarHelpWiki01" />
             <h3>Help wiki</h3>
             <p>The support docs turn the simulator into something another GM can learn from.</p>
           </article>
           <article class="artifact-card">
-            <img src="../assets/evidence/p2k-war-encounter/rulebook-desktop.jpg" alt="Fantasy War Sim rulebook screenshot with table-facing war encounter guidance." width="1500" height="1041" loading="lazy" decoding="async" data-asset-id="P2KWarRulebookScreenshot01" />
+            <img srcset="../assets/optimized/7f6866a3-rulebook-desktop-640.webp 640w, ../assets/optimized/7f6866a3-rulebook-desktop-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/7f6866a3-rulebook-desktop-1280.webp" alt="Fantasy War Sim rulebook screenshot with table-facing war encounter guidance." width="1500" height="1041" loading="lazy" decoding="async" data-asset-id="P2KWarRulebookScreenshot01" />
             <h3>Rules snapshot</h3>
             <p>The rules are presented as a snapshot of a working table system, not a final commercial rulebook.</p>
           </article>
           <article class="artifact-card resource-mobile-card">
-            <img src="../assets/evidence/p2k-war-encounter/mobile-simulator.jpg" alt="Mobile screenshot of Fantasy War Sim showing responsive simulator controls." width="650" height="1500" loading="lazy" decoding="async" data-asset-id="P2KWarMobileScreenshot01" />
+            <img srcset="../assets/optimized/52e574b7-mobile-simulator-640.webp 640w, ../assets/optimized/52e574b7-mobile-simulator-650.webp 650w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/52e574b7-mobile-simulator-650.webp" alt="Mobile screenshot of Fantasy War Sim showing responsive simulator controls." width="650" height="1500" loading="lazy" decoding="async" data-asset-id="P2KWarMobileScreenshot01" />
             <h3>Mobile proof</h3>
             <p>The simulator surface was checked at a narrow viewport so the resource can be reviewed beyond desktop.</p>
           </article>
@@ -224,11 +229,19 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <span>GameMasterKyle | @GameMasterKyle</span>
-      <span>Built table by table in the Phoenix East Valley</span>
-    </div>
-  </footer>
+  <!-- site-footer:start -->
+<footer class="gmk-footer">
+  <div class="gmk-footer-inner">
+    <div><a href="../index.html" class="gmk-footer-name">GameMasterKyle</a><p>Jonathan “Kyle” Hobson · Phoenix, Arizona</p></div>
+    <nav aria-label="Footer navigation">
+      <a href="../events/">Public games</a>
+      <a href="../index.html#contact">Private games &amp; venues</a>
+      <a href="../feedback/">Player feedback</a>
+      <a href="../links.html">Contact &amp; community</a>
+    </nav>
+  </div>
+</footer>
+<!-- site-footer:end -->
+
 </body>
 </html>

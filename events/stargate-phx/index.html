@@ -68,33 +68,36 @@
   <link rel="stylesheet" href="../../styles/components.css" />
   <link rel="stylesheet" href="../../styles/responsive.css" />
   <link rel="stylesheet" href="stargate-phx.css" />
+  <link rel="stylesheet" href="../../styles/site-shell.css" />
+  <script src="../../scripts/site-shell.js" defer></script>
 </head>
 <body class="stargate-phx-page">
   <a class="skip" href="#main">Skip to content</a>
   <span id="new-tab-note" class="sr-only">Opens in a new tab.</span>
   <span class="sr-only" role="status" aria-live="polite" data-registration-announcer></span>
 
-  <header class="site-header sg-header" data-anchor="Nav01">
-    <nav class="nav" id="nav" aria-label="Primary navigation">
-      <div class="wrap">
-        <a class="brand" href="../../index.html" aria-label="GameMasterKyle home">
-          <img class="brand-mark" src="../../assets/brand/gmk-compass-d20-mark.png" alt="" width="96" height="96" />
-          <span class="brand-name">
-            <strong>GameMasterKyle</strong>
-            <span>Stargate PHX</span>
-          </span>
-        </a>
-        <div class="nav-links sg-nav-links" id="navlinks">
-          <a class="navlink" href="#who">New players</a>
-          <a class="navlink" href="#mission">The mission</a>
-          <a class="navlink" href="#characters">Heroes</a>
-          <a class="navlink" href="#expectations">At the table</a>
-          <a class="navlink" href="#faq">FAQ</a>
-          <a class="btn nav-cta sg-nav-cta" href="https://events.moxboardinghouse.com/p/n/nmph2JKD" data-event-cta>Book now at Mox</a>
-        </div>
-      </div>
-    </nav>
-  </header>
+  <!-- site-shell:start -->
+<header class="gmk-header">
+  <div class="gmk-header-inner">
+    <a class="gmk-brand" href="../../index.html" aria-label="GameMasterKyle home">
+      <img src="../../assets/brand/gmk-compass-d20-mark.png" alt="" width="48" height="48" />
+      <span>GameMasterKyle<small>Come curious. Leave with a story.</small></span>
+    </a>
+    <details class="gmk-menu" open>
+      <summary>Menu</summary>
+      <nav class="gmk-navigation" aria-label="Main navigation">
+        <a href="../../events/" aria-current="page">Public games</a>
+        <a href="../../about.html">About Kyle</a>
+        <a href="../../projects.html">Worlds & work</a>
+        <a href="../../resources/">Player resources</a>
+        <a class="gmk-contact" href="../../index.html#contact">Plan a game</a>
+      </nav>
+    </details>
+  </div>
+</header>
+<nav class="gmk-local" aria-label="Stargate PHX navigation"><div><span>Stargate PHX</span><a href="../../events/stargate-phx/">The adventure</a><a href="../../events/stargate-phx/dates/">Dates & booking</a><a href="../../events/stargate-phx/characters/">Characters</a><a href="../../resources/stargate-phx.html">Player guide</a></div></nav>
+<!-- site-shell:end -->
+
 
   <main id="main">
     <section class="sg-hero" id="top" data-anchor="Hero01" aria-labelledby="hero-title">
@@ -106,12 +109,12 @@
           <p class="sg-hero-lede">Choose a ready-to-play hero, learn the rules as they matter, and solve the episode together. No Stargate lore, tabletop experience, preparation, acting, or character voice is required.</p>
           <p class="sg-hero-confidence">Come once for a complete story. Return for another mission whenever it works for you.</p>
           <div class="sg-hero-actions">
-            <a class="btn btn-primary" href="https://events.moxboardinghouse.com/p/n/nmph2JKD" data-event-cta>Book now at Mox</a>
+            <a class="btn btn-primary" href="https://events.moxboardinghouse.com/p/n/nmph2JKD" data-event-cta>Check dates at Mox</a>
             <a class="btn btn-secondary" href="characters/">Meet the ready-to-play heroes</a>
           </div>
           <p class="sg-status-line" data-anchor="Status01">
             <span class="sg-status-mark" aria-hidden="true"></span>
-            <span data-event-status-label>Registration open · Three missions available</span>
+            <span data-event-status-label>Current dates at Mox</span>
           </p>
         </div>
 
@@ -410,7 +413,7 @@
           <details class="sg-detail"><summary>Is this just D&amp;D fifth edition with a Stargate skin?</summary><p>It shares a familiar d20 foundation, but mission advancement, Determination, Tension, noncombat procedures, technology, firearms, and team roles change how play works.</p></details>
           <details class="sg-detail"><summary>Is combat required?</summary><p>Missions can include tactical danger, but investigation, diplomacy, rescue, technical problem-solving, exploration, and teamwork also drive outcomes. Exact content notes will accompany each scheduled session.</p></details>
           <details class="sg-detail"><summary>How long is a session?</summary><p>Plan for roughly 4–5 hours. Current missions begin at 10:30 AM; confirm the details for your selected date on the official Mox listing.</p></details>
-          <details class="sg-detail"><summary>Where do I register?</summary><p>Registration is open through the official Mox event listing. Choose August 22, September 5, or September 19 when you book.</p></details>
+          <details class="sg-detail"><summary>Where do I register?</summary><p>Check the current listing through the official Mox event listing. Choose September 19 when you book.</p></details>
           <details class="sg-detail"><summary>What if I have an access or content concern?</summary><p>Send Kyle a note before the session when possible. He will make a best-effort plan and confirm what the table and venue can support.</p></details>
         </div>
       </div>
@@ -420,13 +423,13 @@
       <div class="wrap sg-status-board">
         <div class="reveal">
           <p class="sg-eyebrow">Choose your dial-out</p>
-          <p class="sg-status-badge"><span class="sg-status-mark" aria-hidden="true"></span><span data-event-status-label>Registration open · Three missions available</span></p>
+          <p class="sg-status-badge"><span class="sg-status-mark" aria-hidden="true"></span><span data-event-status-label>Current dates at Mox</span></p>
           <h2 id="status-title" data-event-status-title>Choose your mission window.</h2>
-          <p class="sg-lede" data-event-status-copy>Choose August 22, September 5, or September 19, then complete registration through Mox.</p>
+          <p class="sg-lede" data-event-status-copy>Check the official Mox listing for future sessions and seat availability. Past missions are shown below for context.</p>
           <p>Each date runs a different complete episode. Pick the mission window that fits your schedule; no previous episode is required.</p>
         </div>
         <div class="sg-final-actions reveal">
-          <a class="btn btn-primary" href="https://events.moxboardinghouse.com/p/n/nmph2JKD" data-event-cta>Book now at Mox</a>
+          <a class="btn btn-primary" href="https://events.moxboardinghouse.com/p/n/nmph2JKD" data-event-cta>Check dates at Mox</a>
           <a class="btn btn-secondary" href="#contactForm">Ask Kyle a question</a>
           <a href="characters/">Open the character guide</a>
           <a href="../../resources/stargate-phx.html">Open player rules &amp; resources</a>
@@ -435,14 +438,23 @@
     </section>
   </main>
 
-  <footer class="site-footer sg-footer">
-    <div class="wrap">
-      <span>GameMasterKyle | Stargate PHX</span>
-      <span>Independently run using Wyvern Gaming's <cite>Stargate SG-1 Roleplaying Game</cite>. Not presented as an official or endorsed Stargate production.</span>
-    </div>
-  </footer>
+  <!-- site-footer:start -->
+<footer class="gmk-footer">
+  <div class="gmk-footer-inner">
+    <div><a href="../../index.html" class="gmk-footer-name">GameMasterKyle</a><p>Jonathan “Kyle” Hobson · Phoenix, Arizona</p></div>
+    <nav aria-label="Footer navigation">
+      <a href="../../events/">Public games</a>
+      <a href="../../index.html#contact">Private games &amp; venues</a>
+      <a href="../../feedback/">Player feedback</a>
+      <a href="../../links.html">Contact &amp; community</a>
+    </nav>
+  </div>
+</footer>
+<!-- site-footer:end -->
+
 
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="../../scripts/public-events.js"></script>
   <script src="stargate-registration.js" data-event-base=""></script>
   <script src="../../scripts/main.js"></script>
   <script src="stargate-phx.js"></script>

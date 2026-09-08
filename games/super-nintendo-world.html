@@ -20,29 +20,34 @@
   <link rel="stylesheet" href="../styles/base.css" />
   <link rel="stylesheet" href="../styles/components.css" />
   <link rel="stylesheet" href="../styles/responsive.css" />
+  <link rel="stylesheet" href="../styles/site-shell.css" />
+  <script src="../scripts/site-shell.js" defer></script>
 </head>
 <body class="case-detail super-nintendo-detail">
   <a class="skip" href="#main">Skip to content</a>
   <span id="new-tab-note" class="sr-only">Opens in a new tab.</span>
-  <header class="site-header">
-    <nav class="nav" aria-label="Primary navigation">
-      <div class="wrap">
-        <a class="brand" href="../index.html#top" aria-label="GameMasterKyle home">
-          <img class="brand-mark" src="../assets/brand/gmk-compass-d20-mark.png" alt="" width="96" height="96" data-asset-id="LogoMark01" />
-          <span class="brand-name"><strong>GameMasterKyle</strong><span>Table craft for real rooms</span></span>
-        </a>
-        <div class="nav-links website-nav">
-          <a class="navlink" href="../index.html#mission">Mission</a>
-          <a class="navlink" href="../index.html#about">About</a>
-          <a class="navlink" href="../index.html#games" aria-current="page">Games</a>
-          <a class="navlink" href="../events/">Events</a>
-          <a class="navlink" href="../index.html#reviews">Reviews</a>
-          <a aria-describedby="new-tab-note" class="btn nav-cta nav-cta-discord external-link" href="https://discord.gg/A9JNzTRucn" target="_blank" rel="noopener noreferrer">Join Discord</a>
-          <a class="btn nav-cta" href="../index.html#contact">Get in touch</a>
-        </div>
-      </div>
-    </nav>
-  </header>
+  <!-- site-shell:start -->
+<header class="gmk-header">
+  <div class="gmk-header-inner">
+    <a class="gmk-brand" href="../index.html" aria-label="GameMasterKyle home">
+      <img src="../assets/brand/gmk-compass-d20-mark.png" alt="" width="48" height="48" />
+      <span>GameMasterKyle<small>Come curious. Leave with a story.</small></span>
+    </a>
+    <details class="gmk-menu" open>
+      <summary>Menu</summary>
+      <nav class="gmk-navigation" aria-label="Main navigation">
+        <a href="../events/">Public games</a>
+        <a href="../about.html">About Kyle</a>
+        <a href="../projects.html" aria-current="page">Worlds & work</a>
+        <a href="../resources/">Player resources</a>
+        <a class="gmk-contact" href="../index.html#contact">Plan a game</a>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<!-- site-shell:end -->
+
 
   <main id="main">
     <section class="detail-hero detail-hero-with-art" data-anchor="SuperNintendoDetailHero01" aria-labelledby="super-nintendo-title">
@@ -57,7 +62,7 @@
           <span>Boss-gated progression</span>
         </div>
         <figure class="detail-hero-art artifact-hero-art">
-          <img src="../assets/evidence/super-nintendo-world/selected/mario-character-sheet-web.jpg" alt="Mario character sheet for the Super Nintendo World RPG with stats, skills, lives, armor, Super Smash charge, abilities, and items." width="900" height="675" loading="eager" decoding="async" data-asset-id="SNWMarioSheet01" />
+          <img srcset="../assets/optimized/cd2d20a1-mario-character-sheet-web-640.webp 640w, ../assets/optimized/cd2d20a1-mario-character-sheet-web-900.webp 900w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/cd2d20a1-mario-character-sheet-web-900.webp" alt="Mario character sheet for the Super Nintendo World RPG with stats, skills, lives, armor, Super Smash charge, abilities, and items." width="900" height="675" loading="eager" decoding="async" data-asset-id="SNWMarioSheet01" />
         </figure>
       </div>
     </section>
@@ -76,7 +81,7 @@
         </article>
 
         <aside class="detail-side" data-anchor="SuperNintendoSideArtifact01">
-          <img src="../assets/evidence/super-nintendo-world/selected/yoshi-character-sheet-web.jpg" alt="Yoshi character sheet for the Super Nintendo World RPG with stats, skills, lives, armor, Super Smash charge, abilities, and items." width="900" height="675" loading="lazy" decoding="async" data-asset-id="SNWYoshiSheet01" />
+          <img srcset="../assets/optimized/807a9346-yoshi-character-sheet-web-640.webp 640w, ../assets/optimized/807a9346-yoshi-character-sheet-web-900.webp 900w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/807a9346-yoshi-character-sheet-web-900.webp" alt="Yoshi character sheet for the Super Nintendo World RPG with stats, skills, lives, armor, Super Smash charge, abilities, and items." width="900" height="675" loading="lazy" decoding="async" data-asset-id="SNWYoshiSheet01" />
           <div class="detail-side-body">
             <h2>What to notice</h2>
             <p>The character sheet translates a recognizable character into stats, abilities, and a playable action list.</p>
@@ -163,19 +168,19 @@
         <article class="readable-artifact readable-artifact-wide readable-artifact-reverse" data-anchor="SuperNintendoMechanics01">
           <div class="mechanics-mini-grid" aria-label="Super Nintendo World RPG character mechanics examples">
             <figure class="mechanic-card">
-              <img src="../assets/evidence/super-nintendo-world/selected/mario-character-sheet-web.jpg" alt="Mario character sheet for Super Nintendo World RPG." width="900" height="675" loading="lazy" decoding="async" data-asset-id="SNWMarioSheet01" />
+              <img srcset="../assets/optimized/cd2d20a1-mario-character-sheet-web-640.webp 640w, ../assets/optimized/cd2d20a1-mario-character-sheet-web-900.webp 900w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/cd2d20a1-mario-character-sheet-web-900.webp" alt="Mario character sheet for Super Nintendo World RPG." width="900" height="675" loading="lazy" decoding="async" data-asset-id="SNWMarioSheet01" />
               <figcaption><strong>Mario</strong><span>Platform movement, water and fire options, cape gliding, and cone-shaped finale attacks.</span></figcaption>
             </figure>
             <figure class="mechanic-card">
-              <img src="../assets/evidence/super-nintendo-world/selected/kirby-character-sheet-web.jpg" alt="Kirby character sheet for Super Nintendo World RPG." width="900" height="675" loading="lazy" decoding="async" data-asset-id="SNWKirbySheet01" />
+              <img srcset="../assets/optimized/b9e7cdd2-kirby-character-sheet-web-640.webp 640w, ../assets/optimized/b9e7cdd2-kirby-character-sheet-web-900.webp 900w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/b9e7cdd2-kirby-character-sheet-web-900.webp" alt="Kirby character sheet for Super Nintendo World RPG." width="900" height="675" loading="lazy" decoding="async" data-asset-id="SNWKirbySheet01" />
               <figcaption><strong>Kirby</strong><span>Copy powers and turn-meme moves become table-ready action choices.</span></figcaption>
             </figure>
             <figure class="mechanic-card">
-              <img src="../assets/evidence/super-nintendo-world/selected/link-character-sheet-web.jpg" alt="Link character sheet for Super Nintendo World RPG." width="900" height="675" loading="lazy" decoding="async" data-asset-id="SNWLinkSheet01" />
+              <img srcset="../assets/optimized/ffe2a504-link-character-sheet-web-640.webp 640w, ../assets/optimized/ffe2a504-link-character-sheet-web-900.webp 900w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/ffe2a504-link-character-sheet-web-900.webp" alt="Link character sheet for Super Nintendo World RPG." width="900" height="675" loading="lazy" decoding="async" data-asset-id="SNWLinkSheet01" />
               <figcaption><strong>Link</strong><span>Mask, hookshot, boomerang, sword, and bomb choices become a flexible action kit.</span></figcaption>
             </figure>
             <figure class="mechanic-card">
-              <img src="../assets/evidence/super-nintendo-world/selected/pikachu-character-sheet-web.jpg" alt="Pikachu character sheet for Super Nintendo World RPG." width="900" height="675" loading="lazy" decoding="async" data-asset-id="SNWPikachuSheet01" />
+              <img srcset="../assets/optimized/1ffe9827-pikachu-character-sheet-web-640.webp 640w, ../assets/optimized/1ffe9827-pikachu-character-sheet-web-900.webp 900w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/1ffe9827-pikachu-character-sheet-web-900.webp" alt="Pikachu character sheet for Super Nintendo World RPG." width="900" height="675" loading="lazy" decoding="async" data-asset-id="SNWPikachuSheet01" />
               <figcaption><strong>Pikachu</strong><span>Electric charges, AC boosts, lighting moves, and surge options create a distinct play feel.</span></figcaption>
             </figure>
           </div>
@@ -188,27 +193,27 @@
 
         <div class="artifact-grid artifact-grid-large character-sheet-grid" aria-label="Super Nintendo World RPG character sheets">
           <article class="artifact-card artifact-card-readable" data-anchor="SuperNintendoMario01">
-            <img src="../assets/evidence/super-nintendo-world/selected/mario-character-sheet-web.jpg" alt="Mario character sheet for the Super Nintendo World RPG." width="900" height="675" loading="lazy" decoding="async" data-asset-id="SNWMarioSheet01" />
+            <img srcset="../assets/optimized/cd2d20a1-mario-character-sheet-web-640.webp 640w, ../assets/optimized/cd2d20a1-mario-character-sheet-web-900.webp 900w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/cd2d20a1-mario-character-sheet-web-900.webp" alt="Mario character sheet for the Super Nintendo World RPG." width="900" height="675" loading="lazy" decoding="async" data-asset-id="SNWMarioSheet01" />
             <h3>Mario became a table-ready character.</h3>
             <p>The sheet turns a familiar hero into stats, skills, movement, attacks, lives, and a Super Smash charge.</p>
           </article>
           <article class="artifact-card artifact-card-readable" data-anchor="SuperNintendoKirby01">
-            <img src="../assets/evidence/super-nintendo-world/selected/kirby-character-sheet-web.jpg" alt="Kirby character sheet for the Super Nintendo World RPG." width="900" height="675" loading="lazy" decoding="async" data-asset-id="SNWKirbySheet01" />
+            <img srcset="../assets/optimized/b9e7cdd2-kirby-character-sheet-web-640.webp 640w, ../assets/optimized/b9e7cdd2-kirby-character-sheet-web-900.webp 900w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/b9e7cdd2-kirby-character-sheet-web-900.webp" alt="Kirby character sheet for the Super Nintendo World RPG." width="900" height="675" loading="lazy" decoding="async" data-asset-id="SNWKirbySheet01" />
             <h3>Kirby carried a different rules promise.</h3>
             <p>Character-specific sheets make the roster feel distinct while keeping everyone inside the same table structure.</p>
           </article>
           <article class="artifact-card artifact-card-readable" data-anchor="SuperNintendoLink01">
-            <img src="../assets/evidence/super-nintendo-world/selected/link-character-sheet-web.jpg" alt="Link character sheet for the Super Nintendo World RPG." width="900" height="675" loading="lazy" decoding="async" data-asset-id="SNWLinkSheet01" />
+            <img srcset="../assets/optimized/ffe2a504-link-character-sheet-web-640.webp 640w, ../assets/optimized/ffe2a504-link-character-sheet-web-900.webp 900w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/ffe2a504-link-character-sheet-web-900.webp" alt="Link character sheet for the Super Nintendo World RPG." width="900" height="675" loading="lazy" decoding="async" data-asset-id="SNWLinkSheet01" />
             <h3>Known characters had concrete move lists.</h3>
             <p>Weapons, abilities, and items become readable options instead of relying on players to guess what the character should do.</p>
           </article>
           <article class="artifact-card artifact-card-readable" data-anchor="SuperNintendoPikachu01">
-            <img src="../assets/evidence/super-nintendo-world/selected/pikachu-character-sheet-web.jpg" alt="Pikachu character sheet for the Super Nintendo World RPG." width="900" height="675" loading="lazy" decoding="async" data-asset-id="SNWPikachuSheet01" />
+            <img srcset="../assets/optimized/1ffe9827-pikachu-character-sheet-web-640.webp 640w, ../assets/optimized/1ffe9827-pikachu-character-sheet-web-900.webp 900w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/1ffe9827-pikachu-character-sheet-web-900.webp" alt="Pikachu character sheet for the Super Nintendo World RPG." width="900" height="675" loading="lazy" decoding="async" data-asset-id="SNWPikachuSheet01" />
             <h3>Abilities gave the roster texture.</h3>
             <p>Different attacks and bonuses let the crossover premise feel playful without needing separate systems for every character.</p>
           </article>
           <article class="artifact-card artifact-card-readable" data-anchor="SuperNintendoYoshi01">
-            <img src="../assets/evidence/super-nintendo-world/selected/yoshi-character-sheet-web.jpg" alt="Yoshi character sheet for the Super Nintendo World RPG." width="900" height="675" loading="lazy" decoding="async" data-asset-id="SNWYoshiSheet01" />
+            <img srcset="../assets/optimized/807a9346-yoshi-character-sheet-web-640.webp 640w, ../assets/optimized/807a9346-yoshi-character-sheet-web-900.webp 900w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/807a9346-yoshi-character-sheet-web-900.webp" alt="Yoshi character sheet for the Super Nintendo World RPG." width="900" height="675" loading="lazy" decoding="async" data-asset-id="SNWYoshiSheet01" />
             <h3>The template supported a roster.</h3>
             <p>Consistent sheet structure makes different characters easier to compare, teach, and bring into play.</p>
           </article>
@@ -232,12 +237,20 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <span>GameMasterKyle | @GameMasterKyle</span>
-      <span>Built table by table in the Phoenix East Valley</span>
-    </div>
-  </footer>
+  <!-- site-footer:start -->
+<footer class="gmk-footer">
+  <div class="gmk-footer-inner">
+    <div><a href="../index.html" class="gmk-footer-name">GameMasterKyle</a><p>Jonathan “Kyle” Hobson · Phoenix, Arizona</p></div>
+    <nav aria-label="Footer navigation">
+      <a href="../events/">Public games</a>
+      <a href="../index.html#contact">Private games &amp; venues</a>
+      <a href="../feedback/">Player feedback</a>
+      <a href="../links.html">Contact &amp; community</a>
+    </nav>
+  </div>
+</footer>
+<!-- site-footer:end -->
+
   <script src="../scripts/main.js"></script>
 </body>
 </html>

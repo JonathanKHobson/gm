@@ -20,29 +20,34 @@
   <link rel="stylesheet" href="styles/base.css" />
   <link rel="stylesheet" href="styles/components.css" />
   <link rel="stylesheet" href="styles/responsive.css" />
+  <link rel="stylesheet" href="styles/site-shell.css" />
+  <script src="scripts/site-shell.js" defer></script>
 </head>
 <body class="case-detail projects-detail">
   <a class="skip" href="#main">Skip to content</a>
   <span id="new-tab-note" class="sr-only">Opens in a new tab.</span>
-  <header class="site-header">
-    <nav class="nav" aria-label="Primary navigation">
-      <div class="wrap">
-        <a class="brand" href="index.html#top" aria-label="GameMasterKyle home">
-          <img class="brand-mark" src="assets/brand/gmk-compass-d20-mark.png" alt="" width="96" height="96" data-asset-id="LogoMark01" />
-          <span class="brand-name"><strong>GameMasterKyle</strong><span>Table craft for real rooms</span></span>
-        </a>
-        <div class="nav-links website-nav">
-          <a class="navlink" href="index.html#mission">Mission</a>
-          <a class="navlink" href="index.html#about">About</a>
-          <a class="navlink" href="index.html#games" aria-current="page">Games</a>
-          <a class="navlink" href="events/">Events</a>
-          <a class="navlink" href="index.html#reviews">Reviews</a>
-          <a aria-describedby="new-tab-note" class="btn nav-cta nav-cta-discord external-link" href="https://discord.gg/A9JNzTRucn" target="_blank" rel="noopener noreferrer">Join Discord</a>
-          <a class="btn nav-cta" href="index.html#contact">Get in touch</a>
-        </div>
-      </div>
-    </nav>
-  </header>
+  <!-- site-shell:start -->
+<header class="gmk-header">
+  <div class="gmk-header-inner">
+    <a class="gmk-brand" href="./index.html" aria-label="GameMasterKyle home">
+      <img src="./assets/brand/gmk-compass-d20-mark.png" alt="" width="48" height="48" />
+      <span>GameMasterKyle<small>Come curious. Leave with a story.</small></span>
+    </a>
+    <details class="gmk-menu" open>
+      <summary>Menu</summary>
+      <nav class="gmk-navigation" aria-label="Main navigation">
+        <a href="events/">Public games</a>
+        <a href="about.html">About Kyle</a>
+        <a href="projects.html" aria-current="page">Worlds & work</a>
+        <a href="resources/">Player resources</a>
+        <a class="gmk-contact" href="./index.html#contact">Plan a game</a>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<!-- site-shell:end -->
+
 
   <main id="main">
     <section class="detail-hero projects-hero" data-anchor="ProjectsHero01" aria-labelledby="projects-page-title">
@@ -71,7 +76,7 @@
         <div class="project-index-grid" aria-label="Projects and games index">
           <article class="project-index-card">
             <figure class="project-card-media">
-              <img src="assets/evidence/p2k/heartland-region-map-web.jpg" alt="Illustrated regional fantasy map centered on Heartland City with labeled settlements, roads, mountains, forests, islands, and campaign locations." width="1800" height="1350" loading="lazy" decoding="async" data-asset-id="P2KHeartlandMap01" />
+              <img srcset="assets/optimized/9ec8335c-heartland-region-map-web-640.webp 640w, assets/optimized/9ec8335c-heartland-region-map-web-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="assets/optimized/9ec8335c-heartland-region-map-web-1280.webp" alt="Illustrated regional fantasy map centered on Heartland City with labeled settlements, roads, mountains, forests, islands, and campaign locations." width="1800" height="1350" loading="lazy" decoding="async" data-asset-id="P2KHeartlandMap01" />
             </figure>
             <div class="project-card-copy">
               <span class="project-type">Long-running fantasy campaign</span>
@@ -88,7 +93,7 @@
 
           <article class="project-index-card">
             <figure class="project-card-media">
-              <img src="assets/evidence/p2p/kazraks-labyrinth-vendors-preview.jpg" alt="A Peril to Profit vendor guide cover with a smiling fantasy vendor at a magical shop counter." width="1391" height="1800" loading="lazy" decoding="async" data-asset-id="P2PKazrakVendor01" />
+              <img srcset="assets/optimized/1a3da1eb-kazraks-labyrinth-vendors-preview-640.webp 640w, assets/optimized/1a3da1eb-kazraks-labyrinth-vendors-preview-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="assets/optimized/1a3da1eb-kazraks-labyrinth-vendors-preview-1280.webp" alt="A Peril to Profit vendor guide cover with a smiling fantasy vendor at a magical shop counter." width="1391" height="1800" loading="lazy" decoding="async" data-asset-id="P2PKazrakVendor01" />
             </figure>
             <div class="project-card-copy">
               <span class="project-type">Corporate fantasy RPG</span>
@@ -105,7 +110,7 @@
 
           <article class="project-index-card">
             <figure class="project-card-media">
-              <img src="assets/evidence/echoes-of-stargate/token-contact-sheet.jpg" alt="Contact sheet of Echoes of Stargate character and NPC tokens arranged on a dark campaign surface." width="1152" height="1152" loading="lazy" decoding="async" data-asset-id="EchoesTokenSheet01" />
+              <img srcset="assets/optimized/f6db47a8-token-contact-sheet-640.webp 640w, assets/optimized/f6db47a8-token-contact-sheet-1152.webp 1152w" sizes="(max-width: 700px) 90vw, 640px" src="assets/optimized/f6db47a8-token-contact-sheet-1152.webp" alt="Contact sheet of Echoes of Stargate character and NPC tokens arranged on a dark campaign surface." width="1152" height="1152" loading="lazy" decoding="async" data-asset-id="EchoesTokenSheet01" />
             </figure>
             <div class="project-card-copy">
               <span class="project-type">Stargate RPG story campaign</span>
@@ -122,7 +127,7 @@
 
           <article class="project-index-card">
             <figure class="project-card-media">
-              <img src="assets/cards/stargate-card-system-preview-sharp.webp" alt="A derivative preview of custom Stargate-themed card exports arranged across a dark system-map surface." width="2400" height="1500" loading="lazy" decoding="async" data-asset-id="StargateCards01" />
+              <img srcset="assets/optimized/8f8036be-stargate-card-system-preview-sharp-640.webp 640w, assets/optimized/8f8036be-stargate-card-system-preview-sharp-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="assets/optimized/8f8036be-stargate-card-system-preview-sharp-1280.webp" alt="A derivative preview of custom Stargate-themed card exports arranged across a dark system-map surface." width="2400" height="1500" loading="lazy" decoding="async" data-asset-id="StargateCards01" />
             </figure>
             <div class="project-card-copy">
               <span class="project-type">Card-system design and playtest</span>
@@ -139,7 +144,7 @@
 
           <article class="project-index-card" id="supers-and-specials-card">
             <figure class="project-card-media">
-              <img src="assets/evidence/super/super-contact-sheet-01-table-kit-captioned-web.jpg" alt="Supers and Specials table printables showing character mechanics, bio, power slots, carrying capacity, special items, and reference guide." width="1800" height="1502" loading="lazy" decoding="async" data-asset-id="SuperTableKitSheet01" />
+              <img srcset="assets/optimized/86788f6e-super-contact-sheet-01-table-kit-captioned-web-640.webp 640w, assets/optimized/86788f6e-super-contact-sheet-01-table-kit-captioned-web-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="assets/optimized/86788f6e-super-contact-sheet-01-table-kit-captioned-web-1280.webp" alt="Supers and Specials table printables showing character mechanics, bio, power slots, carrying capacity, special items, and reference guide." width="1800" height="1502" loading="lazy" decoding="async" data-asset-id="SuperTableKitSheet01" />
             </figure>
             <div class="project-card-copy">
               <span class="project-type">Original pre-AI superhero RPG</span>
@@ -156,7 +161,7 @@
 
           <article class="project-index-card" id="super-nintendo-world-card">
             <figure class="project-card-media">
-              <img src="assets/evidence/super-nintendo-world/super-nintendo-contact-sheet-02-character-roster-web.jpg" alt="Super Nintendo World RPG character roster board showing custom character sheets and table-facing layouts." width="2000" height="1650" loading="lazy" decoding="async" data-asset-id="SuperNintendoRosterSheet01" />
+              <img srcset="assets/optimized/ba4df758-super-nintendo-contact-sheet-02-character-roster-web-640.webp 640w, assets/optimized/ba4df758-super-nintendo-contact-sheet-02-character-roster-web-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="assets/optimized/ba4df758-super-nintendo-contact-sheet-02-character-roster-web-1280.webp" alt="Super Nintendo World RPG character roster board showing custom character sheets and table-facing layouts." width="2000" height="1650" loading="lazy" decoding="async" data-asset-id="SuperNintendoRosterSheet01" />
             </figure>
             <div class="project-card-copy">
               <span class="project-type">Fan crossover RPG</span>
@@ -173,7 +178,7 @@
 
           <article class="project-index-card" id="borderlands-ttrpg-card">
             <figure class="project-card-media">
-              <img src="assets/evidence/borderlands-ttrpg/contact-sheets/borderlands-contact-sheet-01-evidence-overview-web.jpg" alt="Borderlands TTRPG evidence board summarizing rules pages, workbooks, loot trackers, item-builder sheets, and selected system artifacts." width="2400" height="1800" loading="lazy" decoding="async" data-asset-id="BorderlandsOverviewSheet01" />
+              <img srcset="assets/optimized/78686dc1-borderlands-contact-sheet-01-evidence-overview-web-640.webp 640w, assets/optimized/78686dc1-borderlands-contact-sheet-01-evidence-overview-web-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="assets/optimized/78686dc1-borderlands-contact-sheet-01-evidence-overview-web-1280.webp" alt="Borderlands TTRPG evidence board summarizing rules pages, workbooks, loot trackers, item-builder sheets, and selected system artifacts." width="2400" height="1800" loading="lazy" decoding="async" data-asset-id="BorderlandsOverviewSheet01" />
             </figure>
             <div class="project-card-copy">
               <span class="project-type">Pre-AI fan tabletop adaptation</span>
@@ -190,7 +195,7 @@
 
           <article class="project-index-card" id="creed-ttrpg-card">
             <figure class="project-card-media">
-              <img src="assets/evidence/creed-ttrpg/contact-sheets/creed-contact-sheet-01-evidence-overview-web.jpg" alt="Creed TTRPG evidence board summarizing a 59-page mechanics packet, alert states, adrenaline, upgrade markers, and selected rules artifacts." width="2300" height="1700" loading="lazy" decoding="async" data-asset-id="CreedOverviewSheet01" />
+              <img srcset="assets/optimized/8a6f4a07-creed-contact-sheet-01-evidence-overview-web-640.webp 640w, assets/optimized/8a6f4a07-creed-contact-sheet-01-evidence-overview-web-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="assets/optimized/8a6f4a07-creed-contact-sheet-01-evidence-overview-web-1280.webp" alt="Creed TTRPG evidence board summarizing a 59-page mechanics packet, alert states, adrenaline, upgrade markers, and selected rules artifacts." width="2300" height="1700" loading="lazy" decoding="async" data-asset-id="CreedOverviewSheet01" />
             </figure>
             <div class="project-card-copy">
               <span class="project-type">Pre-AI mechanics archive</span>
@@ -207,7 +212,7 @@
 
           <article class="project-index-card">
             <figure class="project-card-media">
-              <img src="assets/evidence/p2k-war-encounter/war-room-tab-desktop.jpg" alt="Fantasy War Sim War Room screenshot showing army, faction, and war encounter controls." width="1500" height="1041" loading="lazy" decoding="async" data-asset-id="P2KWarRoomScreenshot01" />
+              <img srcset="assets/optimized/4e55f96c-war-room-tab-desktop-640.webp 640w, assets/optimized/4e55f96c-war-room-tab-desktop-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="assets/optimized/4e55f96c-war-room-tab-desktop-1280.webp" alt="Fantasy War Sim War Room screenshot showing army, faction, and war encounter controls." width="1500" height="1041" loading="lazy" decoding="async" data-asset-id="P2KWarRoomScreenshot01" />
             </figure>
             <div class="project-card-copy">
               <span class="project-type">Browser war-simulation tool</span>
@@ -224,7 +229,7 @@
 
           <article class="project-index-card">
             <figure class="project-card-media">
-              <img src="assets/evidence/projects/homebrew-forge-screenshot.png" alt="Screenshot of the Homebrew Forge public artifact with a dark forge-themed hero and condition-system project cards." width="1440" height="900" loading="lazy" decoding="async" data-asset-id="HomebrewForgeScreenshot01" />
+              <img srcset="assets/optimized/59f9d09e-homebrew-forge-screenshot-640.webp 640w, assets/optimized/59f9d09e-homebrew-forge-screenshot-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="assets/optimized/59f9d09e-homebrew-forge-screenshot-1280.webp" alt="Screenshot of the Homebrew Forge public artifact with a dark forge-themed hero and condition-system project cards." width="1440" height="900" loading="lazy" decoding="async" data-asset-id="HomebrewForgeScreenshot01" />
             </figure>
             <div class="project-card-copy">
               <span class="project-type">Public tool artifact</span>
@@ -241,7 +246,7 @@
 
           <article class="project-index-card">
             <figure class="project-card-media">
-              <img src="assets/evidence/projects/lumina-field-notes-screenshot.png" alt="Screenshot of the Lumina 3D Field Notes shareable with a gameplay background and project-progress proof sections." width="1440" height="900" loading="lazy" decoding="async" data-asset-id="LuminaFieldNotesScreenshot01" />
+              <img srcset="assets/optimized/1ef8e125-lumina-field-notes-screenshot-640.webp 640w, assets/optimized/1ef8e125-lumina-field-notes-screenshot-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="assets/optimized/1ef8e125-lumina-field-notes-screenshot-1280.webp" alt="Screenshot of the Lumina 3D Field Notes shareable with a gameplay background and project-progress proof sections." width="1440" height="900" loading="lazy" decoding="async" data-asset-id="LuminaFieldNotesScreenshot01" />
             </figure>
             <div class="project-card-copy">
               <span class="project-type">Game/dev field-note shareable</span>
@@ -258,7 +263,7 @@
 
           <article class="project-index-card">
             <figure class="project-card-media">
-              <img src="assets/evidence/projects/compass-suite-screenshot.png" alt="Screenshot of the Compass Suite public landing page with focused cards for decision-support tools." width="1440" height="900" loading="lazy" decoding="async" data-asset-id="CompassSuiteScreenshot01" />
+              <img srcset="assets/optimized/d1b7993b-compass-suite-screenshot-640.webp 640w, assets/optimized/d1b7993b-compass-suite-screenshot-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="assets/optimized/d1b7993b-compass-suite-screenshot-1280.webp" alt="Screenshot of the Compass Suite public landing page with focused cards for decision-support tools." width="1440" height="900" loading="lazy" decoding="async" data-asset-id="CompassSuiteScreenshot01" />
             </figure>
             <div class="project-card-copy">
               <span class="project-type">Public decision-support suite</span>
@@ -275,7 +280,7 @@
 
           <article class="project-index-card">
             <figure class="project-card-media">
-              <img src="assets/evidence/projects/p2k-survival-architecture-screenshot.png" alt="Screenshot of the P2K roguelike survival architecture shareable with a dark survival-game landing page and gameplay proof panel." width="1440" height="900" loading="lazy" decoding="async" data-asset-id="P2KSurvivalArchitectureScreenshot01" />
+              <img srcset="assets/optimized/4a2fc88d-p2k-survival-architecture-screenshot-640.webp 640w, assets/optimized/4a2fc88d-p2k-survival-architecture-screenshot-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="assets/optimized/4a2fc88d-p2k-survival-architecture-screenshot-1280.webp" alt="Screenshot of the P2K roguelike survival architecture shareable with a dark survival-game landing page and gameplay proof panel." width="1440" height="900" loading="lazy" decoding="async" data-asset-id="P2KSurvivalArchitectureScreenshot01" />
             </figure>
             <div class="project-card-copy">
               <span class="project-type">Game architecture and AI workflow</span>
@@ -308,12 +313,20 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <span>GameMasterKyle | Games, systems, and table craft</span>
-      <span><a href="events/">Find a public game</a> | <a href="index.html#contact">Plan a private table</a></span>
-    </div>
-  </footer>
+  <!-- site-footer:start -->
+<footer class="gmk-footer">
+  <div class="gmk-footer-inner">
+    <div><a href="./index.html" class="gmk-footer-name">GameMasterKyle</a><p>Jonathan “Kyle” Hobson · Phoenix, Arizona</p></div>
+    <nav aria-label="Footer navigation">
+      <a href="./events/">Public games</a>
+      <a href="./index.html#contact">Private games &amp; venues</a>
+      <a href="./feedback/">Player feedback</a>
+      <a href="./links.html">Contact &amp; community</a>
+    </nav>
+  </div>
+</footer>
+<!-- site-footer:end -->
+
 
   <script src="scripts/main.js"></script>
 </body>

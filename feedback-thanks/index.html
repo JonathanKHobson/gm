@@ -24,18 +24,35 @@
   <link rel="stylesheet" href="../styles/base.css" />
   <link rel="stylesheet" href="../styles/components.css" />
   <link rel="stylesheet" href="feedback-thanks.css" />
+  <link rel="stylesheet" href="../styles/site-shell.css" />
+  <script src="../scripts/site-shell.js" defer></script>
 </head>
 <body class="feedback-thanks-page">
   <a class="skip" href="#main">Skip to content</a>
   <span id="new-tab-note" class="sr-only">Opens in a new tab.</span>
 
-  <header class="feedback-header" data-anchor="ThanksNav01">
-    <a class="feedback-brand" href="../" aria-label="GameMasterKyle home">
-      <img src="../assets/brand/gmk-compass-d20-mark.png" alt="" width="96" height="96" />
-      <span><strong>GameMasterKyle</strong><small>Table craft for real rooms</small></span>
+  <!-- site-shell:start -->
+<header class="gmk-header">
+  <div class="gmk-header-inner">
+    <a class="gmk-brand" href="../index.html" aria-label="GameMasterKyle home">
+      <img src="../assets/brand/gmk-compass-d20-mark.png" alt="" width="48" height="48" />
+      <span>GameMasterKyle<small>Come curious. Leave with a story.</small></span>
     </a>
-    <a class="feedback-header-link" href="../events/">Upcoming events</a>
-  </header>
+    <details class="gmk-menu" open>
+      <summary>Menu</summary>
+      <nav class="gmk-navigation" aria-label="Main navigation">
+        <a href="../events/">Public games</a>
+        <a href="../about.html">About Kyle</a>
+        <a href="../projects.html">Worlds & work</a>
+        <a href="../resources/">Player resources</a>
+        <a class="gmk-contact" href="../index.html#contact">Plan a game</a>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<!-- site-shell:end -->
+
 
   <main id="main" class="feedback-main" data-anchor="ThanksMain01">
     <section class="thanks-message" aria-labelledby="thanks-title">
@@ -47,7 +64,7 @@
       </div>
 
       <figure class="thanks-host">
-        <img src="../assets/portraits/kyle-hobson-hero-portrait.webp" alt="Jonathan Kyle Hobson, GameMasterKyle, smiling in a warm office." width="900" height="1125" decoding="async" />
+        <img srcset="../assets/optimized/b2d4ac51-kyle-hobson-hero-portrait-640.webp 640w, ../assets/optimized/b2d4ac51-kyle-hobson-hero-portrait-900.webp 900w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/b2d4ac51-kyle-hobson-hero-portrait-900.webp" alt="Jonathan Kyle Hobson, GameMasterKyle, smiling in a warm office." width="900" height="1125" decoding="async" />
         <figcaption><strong>Thanks for playing.</strong><span>Kyle reads every response.</span></figcaption>
       </figure>
     </section>
@@ -115,10 +132,20 @@
     </section>
   </main>
 
-  <footer class="feedback-footer">
-    <p>GameMasterKyle · Welcoming tables, memorable choices, clear next steps.</p>
-    <a href="../">Back to the portfolio</a>
-  </footer>
+  <!-- site-footer:start -->
+<footer class="gmk-footer">
+  <div class="gmk-footer-inner">
+    <div><a href="../index.html" class="gmk-footer-name">GameMasterKyle</a><p>Jonathan “Kyle” Hobson · Phoenix, Arizona</p></div>
+    <nav aria-label="Footer navigation">
+      <a href="../events/">Public games</a>
+      <a href="../index.html#contact">Private games &amp; venues</a>
+      <a href="../feedback/">Player feedback</a>
+      <a href="../links.html">Contact &amp; community</a>
+    </nav>
+  </div>
+</footer>
+<!-- site-footer:end -->
+
 
   <script src="feedback-thanks.js"></script>
 </body>

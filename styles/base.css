@@ -22,27 +22,6 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -2;
-  background: var(--paper) url("../assets/generated/parchment-map-background.webp") center / cover no-repeat;
-}
-
-body::after {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  background:
-    radial-gradient(circle at 7% 16%, rgba(111, 174, 183, 0.2), transparent 22rem),
-    radial-gradient(circle at 94% 32%, rgba(230, 96, 54, 0.15), transparent 24rem),
-    linear-gradient(180deg, rgba(7, 19, 25, 0.22), rgba(251, 244, 232, 0.72) 38%, rgba(251, 244, 232, 0.88) 74%),
-    linear-gradient(90deg, rgba(7, 19, 25, 0.14), transparent 32%, rgba(201, 163, 92, 0.12));
-  pointer-events: none;
-}
-
 img,
 svg {
   display: block;
@@ -65,7 +44,7 @@ button {
 }
 
 :focus-visible {
-  outline: 3px solid var(--teal);
+  outline: 3px solid #b8502e;
   outline-offset: 4px;
 }
 
@@ -169,14 +148,7 @@ blockquote {
   padding: 5.5rem 0;
 }
 
-.paper-band {
-  background:
-    radial-gradient(circle at 0 0, rgba(111, 174, 183, 0.12), transparent 22rem),
-    radial-gradient(circle at 100% 100%, rgba(230, 96, 54, 0.1), transparent 20rem),
-    linear-gradient(180deg, rgba(251, 244, 232, 0.92), rgba(239, 224, 199, 0.9)),
-    url("../assets/generated/parchment-map-background.webp") center / cover no-repeat,
-    var(--paper);
-}
+.paper-band { background: var(--paper); }
 
 .dark {
   background:

@@ -20,29 +20,34 @@
   <link rel="stylesheet" href="../styles/base.css" />
   <link rel="stylesheet" href="../styles/components.css" />
   <link rel="stylesheet" href="../styles/responsive.css" />
+  <link rel="stylesheet" href="../styles/site-shell.css" />
+  <script src="../scripts/site-shell.js" defer></script>
 </head>
 <body class="case-detail echoes-detail">
   <a class="skip" href="#main">Skip to content</a>
   <span id="new-tab-note" class="sr-only">Opens in a new tab.</span>
-  <header class="site-header">
-    <nav class="nav" aria-label="Primary navigation">
-      <div class="wrap">
-        <a class="brand" href="../index.html#top" aria-label="GameMasterKyle home">
-          <img class="brand-mark" src="../assets/brand/gmk-compass-d20-mark.png" alt="" width="96" height="96" data-asset-id="LogoMark01" />
-          <span class="brand-name"><strong>GameMasterKyle</strong><span>Table craft for real rooms</span></span>
-        </a>
-        <div class="nav-links website-nav">
-          <a class="navlink" href="../index.html#mission">Mission</a>
-          <a class="navlink" href="../index.html#about">About</a>
-          <a class="navlink" href="../index.html#games" aria-current="page">Games</a>
-          <a class="navlink" href="../events/">Events</a>
-          <a class="navlink" href="../index.html#reviews">Reviews</a>
-          <a aria-describedby="new-tab-note" class="btn nav-cta nav-cta-discord external-link" href="https://discord.gg/A9JNzTRucn" target="_blank" rel="noopener noreferrer">Join Discord</a>
-          <a class="btn nav-cta" href="../index.html#contact">Get in touch</a>
-        </div>
-      </div>
-    </nav>
-  </header>
+  <!-- site-shell:start -->
+<header class="gmk-header">
+  <div class="gmk-header-inner">
+    <a class="gmk-brand" href="../index.html" aria-label="GameMasterKyle home">
+      <img src="../assets/brand/gmk-compass-d20-mark.png" alt="" width="48" height="48" />
+      <span>GameMasterKyle<small>Come curious. Leave with a story.</small></span>
+    </a>
+    <details class="gmk-menu" open>
+      <summary>Menu</summary>
+      <nav class="gmk-navigation" aria-label="Main navigation">
+        <a href="../events/">Public games</a>
+        <a href="../about.html">About Kyle</a>
+        <a href="../projects.html" aria-current="page">Worlds & work</a>
+        <a href="../resources/">Player resources</a>
+        <a class="gmk-contact" href="../index.html#contact">Plan a game</a>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<!-- site-shell:end -->
+
 
   <main id="main">
     <section class="detail-hero detail-hero-with-art" data-anchor="EchoesDetailHero" aria-labelledby="echoes-title">
@@ -57,7 +62,7 @@
           <span>Episode pacing</span>
         </div>
         <figure class="detail-hero-art">
-          <img src="../assets/evidence/echoes-of-stargate/stargate-map-hero.jpeg" alt="Prepared Stargate RPG map showing a forest clearing with a gate platform and path through the terrain." width="1260" height="1750" loading="eager" decoding="async" data-asset-id="EchoesMapHero01" />
+          <img srcset="../assets/optimized/9a981c9c-stargate-map-hero-640.webp 640w, ../assets/optimized/9a981c9c-stargate-map-hero-1260.webp 1260w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/9a981c9c-stargate-map-hero-1260.webp" alt="Prepared Stargate RPG map showing a forest clearing with a gate platform and path through the terrain." width="1260" height="1750" loading="eager" decoding="async" data-asset-id="EchoesMapHero01" />
         </figure>
       </div>
     </section>
@@ -76,7 +81,7 @@
         </article>
 
         <aside class="detail-side" data-anchor="EchoesSideArtifact">
-          <img src="../assets/evidence/echoes-of-stargate/token-contact-sheet.jpg" alt="Contact sheet of Echoes of Stargate character and NPC tokens arranged on a dark campaign surface." width="1152" height="1152" loading="lazy" decoding="async" data-asset-id="EchoesTokenSheet01" />
+          <img srcset="../assets/optimized/f6db47a8-token-contact-sheet-640.webp 640w, ../assets/optimized/f6db47a8-token-contact-sheet-1152.webp 1152w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/f6db47a8-token-contact-sheet-1152.webp" alt="Contact sheet of Echoes of Stargate character and NPC tokens arranged on a dark campaign surface." width="1152" height="1152" loading="lazy" decoding="async" data-asset-id="EchoesTokenSheet01" />
           <div class="detail-side-body">
             <h2>What to notice</h2>
             <p>Tokens, maps, and briefings help a mission campaign start with shared orientation.</p>
@@ -96,10 +101,10 @@
           <div class="story-media-stack">
             <div class="story-video-grid">
               <div class="media-frame">
-                <iframe src="https://www.youtube-nocookie.com/embed/YrNHvN3y7RM" title="Echoes of Stargate Maia Puppet Fever Dream Part 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="gmk-video" data-video-src="https://www.youtube-nocookie.com/embed/YrNHvN3y7RM" data-video-title="Echoes of Stargate Maia Puppet Fever Dream Part 1"><p>Echoes of Stargate Maia Puppet Fever Dream Part 1</p><button type="button" class="gmk-video-load">Play video here</button><a href="https://www.youtube.com/watch?v=YrNHvN3y7RM" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></div>
               </div>
               <div class="media-frame">
-                <iframe src="https://www.youtube-nocookie.com/embed/Mik0RXTvgF8" title="Echoes of Stargate Maia's Dream Part 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="gmk-video" data-video-src="https://www.youtube-nocookie.com/embed/Mik0RXTvgF8" data-video-title="Echoes of Stargate Maia's Dream Part 2"><p>Echoes of Stargate Maia's Dream Part 2</p><button type="button" class="gmk-video-load">Play video here</button><a href="https://www.youtube.com/watch?v=Mik0RXTvgF8" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></div>
               </div>
             </div>
           </div>
@@ -164,7 +169,7 @@
 
         <article class="featured-artifact">
           <figure>
-            <img src="../assets/evidence/echoes-of-stargate/sg1-mission-briefing-preview.png" alt="Preview image of an SG-1 mission briefing PDF used as a table-facing mission document." width="1081" height="1400" loading="lazy" decoding="async" data-asset-id="EchoesMissionBriefing01" />
+            <img srcset="../assets/optimized/60fe0a0f-sg1-mission-briefing-preview-640.webp 640w, ../assets/optimized/60fe0a0f-sg1-mission-briefing-preview-1081.webp 1081w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/60fe0a0f-sg1-mission-briefing-preview-1081.webp" alt="Preview image of an SG-1 mission briefing PDF used as a table-facing mission document." width="1081" height="1400" loading="lazy" decoding="async" data-asset-id="EchoesMissionBriefing01" />
           </figure>
           <div class="featured-copy">
             <span class="proof-index">Briefing proof</span>
@@ -176,22 +181,22 @@
 
         <div class="artifact-grid" role="group" aria-label="Echoes of Stargate evidence artifacts">
           <article class="artifact-card">
-            <img src="../assets/evidence/echoes-of-stargate/phoenix-site-overview.jpg" alt="A prepared Phoenix Site overview mission map from the Echoes of Stargate campaign." width="1650" height="1275" loading="lazy" decoding="async" data-asset-id="EchoesMap01" />
+            <img srcset="../assets/optimized/86892423-phoenix-site-overview-640.webp 640w, ../assets/optimized/86892423-phoenix-site-overview-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/86892423-phoenix-site-overview-1280.webp" alt="A prepared Phoenix Site overview mission map from the Echoes of Stargate campaign." width="1650" height="1275" loading="lazy" decoding="async" data-asset-id="EchoesMap01" />
             <h3>Mission-site map</h3>
             <p>A prepared location gives the table a shared tactical object instead of a vague mental image.</p>
           </article>
           <article class="artifact-card">
-            <img src="../assets/evidence/echoes-of-stargate/haven-map.png" alt="A compact Haven area map used as a prepared Echoes of Stargate table reference." width="512" height="411" loading="lazy" decoding="async" data-asset-id="EchoesHavenMap01" />
+            <img srcset="../assets/optimized/d7cc8128-haven-map-512.webp 512w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/d7cc8128-haven-map-512.webp" alt="A compact Haven area map used as a prepared Echoes of Stargate table reference." width="512" height="411" loading="lazy" decoding="async" data-asset-id="EchoesHavenMap01" />
             <h3>Secondary location support</h3>
             <p>Smaller maps help scenes move cleanly when the mission shifts locations.</p>
           </article>
           <article class="artifact-card">
-            <img src="../assets/evidence/echoes-of-stargate/token-contact-sheet.jpg" alt="Contact sheet of Echoes of Stargate character and NPC tokens arranged on a dark campaign surface." width="1152" height="1152" loading="lazy" decoding="async" data-asset-id="EchoesTokenSheet01" />
+            <img srcset="../assets/optimized/f6db47a8-token-contact-sheet-640.webp 640w, ../assets/optimized/f6db47a8-token-contact-sheet-1152.webp 1152w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/f6db47a8-token-contact-sheet-1152.webp" alt="Contact sheet of Echoes of Stargate character and NPC tokens arranged on a dark campaign surface." width="1152" height="1152" loading="lazy" decoding="async" data-asset-id="EchoesTokenSheet01" />
             <h3>Table identity at a glance</h3>
             <p>Tokens help players read who is in the scene and keep mission play moving.</p>
           </article>
           <article class="artifact-card">
-            <img src="../assets/evidence/echoes-of-stargate/episode-art-contact-sheet.jpg" alt="Contact sheet of four Echoes of Stargate episode scene images with sci-fi and fantasy mission imagery." width="1294" height="894" loading="lazy" decoding="async" data-asset-id="EchoesEpisodeSheet01" />
+            <img srcset="../assets/optimized/c0221970-episode-art-contact-sheet-640.webp 640w, ../assets/optimized/c0221970-episode-art-contact-sheet-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/c0221970-episode-art-contact-sheet-1280.webp" alt="Contact sheet of four Echoes of Stargate episode scene images with sci-fi and fantasy mission imagery." width="1294" height="894" loading="lazy" decoding="async" data-asset-id="EchoesEpisodeSheet01" />
             <h3>Episode-ready scenes</h3>
             <p>Scene art and episode assets support the campaign's TV-mission rhythm without asking players to guess the tone.</p>
           </article>
@@ -251,7 +256,7 @@
           <p>Stargate PHX brings this beginner-safe mission rhythm to connected but independently playable one-shots at Mox Boarding House Chandler. Choose a premade hero, learn the rules at the table, and finish one complete episode without a campaign commitment.</p>
           <div class="event-actions">
             <a class="btn btn-primary" href="../events/stargate-phx/">Explore Stargate PHX</a>
-            <a class="btn btn-secondary btn-secondary-paper external-link" href="https://events.moxboardinghouse.com/p/n/nmph2JKD" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-note">Book now at Mox</a>
+            <a class="btn btn-secondary btn-secondary-paper external-link" href="../events/stargate-phx/dates/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-note">Check current Stargate dates</a>
           </div>
         </article>
         <aside class="detail-card">
@@ -278,11 +283,20 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <span>GameMasterKyle | @GameMasterKyle</span>
-      <span>Built table by table in the Phoenix East Valley</span>
-    </div>
-  </footer>
+  <!-- site-footer:start -->
+<footer class="gmk-footer">
+  <div class="gmk-footer-inner">
+    <div><a href="../index.html" class="gmk-footer-name">GameMasterKyle</a><p>Jonathan “Kyle” Hobson · Phoenix, Arizona</p></div>
+    <nav aria-label="Footer navigation">
+      <a href="../events/">Public games</a>
+      <a href="../index.html#contact">Private games &amp; venues</a>
+      <a href="../feedback/">Player feedback</a>
+      <a href="../links.html">Contact &amp; community</a>
+    </nav>
+  </div>
+</footer>
+<!-- site-footer:end -->
+
+<script src="../scripts/media.js" defer></script>
 </body>
 </html>

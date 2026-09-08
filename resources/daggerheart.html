@@ -22,28 +22,34 @@
   <link rel="stylesheet" href="../styles/components.css" />
   <link rel="stylesheet" href="../styles/responsive.css" />
   <link rel="stylesheet" href="daggerheart.css" />
+  <link rel="stylesheet" href="../styles/site-shell.css" />
+  <script src="../scripts/site-shell.js" defer></script>
 </head>
 <body class="case-detail resource-detail daggerheart-resource">
   <a class="skip" href="#main">Skip to content</a>
   <span id="new-tab-note" class="sr-only">Opens in a new tab.</span>
-  <header class="site-header">
-    <nav class="nav" aria-label="Primary navigation">
-      <div class="wrap">
-        <a class="brand" href="../index.html#top" aria-label="GameMasterKyle home">
-          <img class="brand-mark" src="../assets/brand/gmk-compass-d20-mark.png" alt="" width="96" height="96" data-asset-id="LogoMark01" />
-          <span class="brand-name"><strong>GameMasterKyle</strong><span>Table craft for real rooms</span></span>
-        </a>
-        <div class="nav-links website-nav">
-          <a class="navlink" href="../events/goldspire/#for-new-players">New players</a>
-          <a class="navlink" href="../events/goldspire/#couriers">Characters</a>
-          <a class="navlink" href="../events/goldspire/#faq">FAQ</a>
-          <a class="navlink" href="daggerheart.html" aria-current="page">Daggerheart</a>
-          <a class="navlink" href="../index.html">Portfolio</a>
-          <a class="btn nav-cta" href="https://events.moxboardinghouse.com/p/n/xnP6r62v/v5" data-event-cta target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-note">Book now at Mox</a>
-        </div>
-      </div>
-    </nav>
-  </header>
+  <!-- site-shell:start -->
+<header class="gmk-header">
+  <div class="gmk-header-inner">
+    <a class="gmk-brand" href="../index.html" aria-label="GameMasterKyle home">
+      <img src="../assets/brand/gmk-compass-d20-mark.png" alt="" width="48" height="48" />
+      <span>GameMasterKyle<small>Come curious. Leave with a story.</small></span>
+    </a>
+    <details class="gmk-menu" open>
+      <summary>Menu</summary>
+      <nav class="gmk-navigation" aria-label="Main navigation">
+        <a href="../events/">Public games</a>
+        <a href="../about.html">About Kyle</a>
+        <a href="../projects.html">Worlds & work</a>
+        <a href="../resources/" aria-current="page">Player resources</a>
+        <a class="gmk-contact" href="../index.html#contact">Plan a game</a>
+      </nav>
+    </details>
+  </div>
+</header>
+<nav class="gmk-local" aria-label="Peril to Profit navigation"><div><span>Peril to Profit</span><a href="../events/goldspire/">The adventure</a><a href="../events/goldspire/dates/">Dates & booking</a><a href="../events/goldspire/characters/">Characters</a><a href="../resources/daggerheart.html">Player guide</a></div></nav>
+<!-- site-shell:end -->
+
 
   <main id="main">
     <section class="detail-hero" aria-labelledby="daggerheart-title">
@@ -82,7 +88,7 @@
     <section class="band paper-band resource-proof-band" aria-labelledby="resource-proof-title">
       <div class="wrap resource-proof-grid">
         <figure class="resource-proof-figure">
-          <img src="../events/goldspire/assets/proof/table-session-photo.png" alt="Players smiling at a tabletop session with dice, sheets, and table materials visible." width="1000" height="674" loading="lazy" decoding="async" />
+          <img srcset="../assets/optimized/f5d38a56-table-session-photo-640.webp 640w, ../assets/optimized/f5d38a56-table-session-photo-1000.webp 1000w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/f5d38a56-table-session-photo-1000.webp" alt="Players smiling at a tabletop session with dice, sheets, and table materials visible." width="1000" height="674" loading="lazy" decoding="async" />
           <figcaption>Past GameMasterKyle table session. The resource page is optional; the live table is guided.</figcaption>
         </figure>
         <div class="resource-proof-copy">
@@ -252,7 +258,7 @@
           <p class="lead">If you are clear on the essentials, book through Mox or jump back to the event page for the full pitch.</p>
         </div>
         <div class="resource-cta-actions">
-          <a class="btn btn-primary" href="https://events.moxboardinghouse.com/p/n/xnP6r62v/v5" data-event-cta target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-note">Book now at Mox</a>
+          <a class="btn btn-primary" href="../events/goldspire/dates/" data-event-cta target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-note">Check dates &amp; booking</a>
           <a class="btn btn-secondary" href="../events/goldspire/">Back to Goldspire event</a>
           <a class="btn btn-secondary" href="../index.html">View GM portfolio</a>
         </div>
@@ -260,12 +266,21 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <span>GameMasterKyle | Peril to Profit</span>
-      <span>Build one-shot confidence in one place</span>
-    </div>
-  </footer>
+  <!-- site-footer:start -->
+<footer class="gmk-footer">
+  <div class="gmk-footer-inner">
+    <div><a href="../index.html" class="gmk-footer-name">GameMasterKyle</a><p>Jonathan “Kyle” Hobson · Phoenix, Arizona</p></div>
+    <nav aria-label="Footer navigation">
+      <a href="../events/">Public games</a>
+      <a href="../index.html#contact">Private games &amp; venues</a>
+      <a href="../feedback/">Player feedback</a>
+      <a href="../links.html">Contact &amp; community</a>
+    </nav>
+  </div>
+</footer>
+<!-- site-footer:end -->
+
+  <script src="../scripts/public-events.js"></script>
   <script src="../events/goldspire/goldspire-registration.js" data-event-base="../events/goldspire/"></script>
 </body>
 </html>

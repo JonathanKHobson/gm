@@ -20,29 +20,34 @@
   <link rel="stylesheet" href="../styles/base.css" />
   <link rel="stylesheet" href="../styles/components.css" />
   <link rel="stylesheet" href="../styles/responsive.css" />
+  <link rel="stylesheet" href="../styles/site-shell.css" />
+  <script src="../scripts/site-shell.js" defer></script>
 </head>
 <body class="case-detail p2p-detail">
   <a class="skip" href="#main">Skip to content</a>
   <span id="new-tab-note" class="sr-only">Opens in a new tab.</span>
-  <header class="site-header">
-    <nav class="nav" aria-label="Primary navigation">
-      <div class="wrap">
-        <a class="brand" href="../index.html#top" aria-label="GameMasterKyle home">
-          <img class="brand-mark" src="../assets/brand/gmk-compass-d20-mark.png" alt="" width="96" height="96" data-asset-id="LogoMark01" />
-          <span class="brand-name"><strong>GameMasterKyle</strong><span>Table craft for real rooms</span></span>
-        </a>
-        <div class="nav-links website-nav">
-          <a class="navlink" href="../index.html#mission">Mission</a>
-          <a class="navlink" href="../index.html#about">About</a>
-          <a class="navlink" href="../index.html#games" aria-current="page">Games</a>
-          <a class="navlink" href="../events/">Events</a>
-          <a class="navlink" href="../index.html#reviews">Reviews</a>
-          <a aria-describedby="new-tab-note" class="btn nav-cta nav-cta-discord external-link" href="https://discord.gg/A9JNzTRucn" target="_blank" rel="noopener noreferrer">Join Discord</a>
-          <a class="btn nav-cta" href="../index.html#contact">Get in touch</a>
-        </div>
-      </div>
-    </nav>
-  </header>
+  <!-- site-shell:start -->
+<header class="gmk-header">
+  <div class="gmk-header-inner">
+    <a class="gmk-brand" href="../index.html" aria-label="GameMasterKyle home">
+      <img src="../assets/brand/gmk-compass-d20-mark.png" alt="" width="48" height="48" />
+      <span>GameMasterKyle<small>Come curious. Leave with a story.</small></span>
+    </a>
+    <details class="gmk-menu" open>
+      <summary>Menu</summary>
+      <nav class="gmk-navigation" aria-label="Main navigation">
+        <a href="../events/">Public games</a>
+        <a href="../about.html">About Kyle</a>
+        <a href="../projects.html" aria-current="page">Worlds & work</a>
+        <a href="../resources/">Player resources</a>
+        <a class="gmk-contact" href="../index.html#contact">Plan a game</a>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<!-- site-shell:end -->
+
 
   <main id="main">
     <section class="detail-hero detail-hero-with-art" data-anchor="P2PDetailHero" aria-labelledby="p2p-title">
@@ -57,7 +62,7 @@
           <span>Jenga tower Fear mechanic</span>
         </div>
         <figure class="detail-hero-art">
-          <img src="../assets/evidence/p2p/amber-fearbreaker-hero.png" alt="Hero Forge screenshot of Amber Fearbreaker, a Peril to Profit player character, standing on a glowing fantasy base." width="1024" height="1024" loading="eager" decoding="async" data-asset-id="P2PAmberHero01" />
+          <img srcset="../assets/optimized/7f37d0d5-amber-fearbreaker-hero-640.webp 640w, ../assets/optimized/7f37d0d5-amber-fearbreaker-hero-1024.webp 1024w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/7f37d0d5-amber-fearbreaker-hero-1024.webp" alt="Hero Forge screenshot of Amber Fearbreaker, a Peril to Profit player character, standing on a glowing fantasy base." width="1024" height="1024" loading="eager" decoding="async" data-asset-id="P2PAmberHero01" />
         </figure>
       </div>
     </section>
@@ -76,7 +81,7 @@
         </article>
 
         <aside class="detail-side" data-anchor="P2PSideArtifact">
-          <img src="../assets/evidence/p2p/kazraks-labyrinth-vendors-preview.jpg" alt="A Peril to Profit vendor guide cover reading Buy. Survive. Succeed. with a smiling fantasy vendor at a magical shop counter." width="1391" height="1800" loading="lazy" decoding="async" data-asset-id="P2PKazrakVendor01" />
+          <img srcset="../assets/optimized/1a3da1eb-kazraks-labyrinth-vendors-preview-640.webp 640w, ../assets/optimized/1a3da1eb-kazraks-labyrinth-vendors-preview-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/1a3da1eb-kazraks-labyrinth-vendors-preview-1280.webp" alt="A Peril to Profit vendor guide cover reading Buy. Survive. Succeed. with a smiling fantasy vendor at a magical shop counter." width="1391" height="1800" loading="lazy" decoding="async" data-asset-id="P2PKazrakVendor01" />
           <div class="detail-side-body">
             <h2>What to notice</h2>
             <p>The corporate-fantasy joke carries through the actual table handouts, not just the pitch.</p>
@@ -95,7 +100,7 @@
         <article class="story-feature">
           <div class="story-media-stack">
             <div class="media-frame">
-              <iframe src="https://www.youtube-nocookie.com/embed/VvD18Viz9gU" title="Peril to Profit featured story: Kazrak interview" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div class="gmk-video" data-video-src="https://www.youtube-nocookie.com/embed/VvD18Viz9gU" data-video-title="Peril to Profit featured story: Kazrak interview"><p>Peril to Profit featured story: Kazrak interview</p><button type="button" class="gmk-video-load">Play video here</button><a href="https://www.youtube.com/watch?v=VvD18Viz9gU" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></div>
             </div>
             <div class="story-prop-grid" aria-label="Peril to Profit story prop visuals">
               <figure class="story-prop">
@@ -137,7 +142,7 @@
         </div>
         <article class="playlist-feature">
           <div class="media-frame playlist-frame">
-            <iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLtC8RvsQOPbl6wYjbsaSkbJD-mKzHKA1T" title="Live Peril to Profit sessions playlist" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="gmk-video" data-video-src="https://www.youtube-nocookie.com/embed/videoseries?list=PLtC8RvsQOPbl6wYjbsaSkbJD-mKzHKA1T" data-video-title="Live Peril to Profit sessions playlist"><p>Live Peril to Profit sessions playlist</p><button type="button" class="gmk-video-load">Play video here</button><a href="https://www.youtube.com/playlist?list=PLtC8RvsQOPbl6wYjbsaSkbJD-mKzHKA1T" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></div>
           </div>
           <div class="playlist-copy">
             <span class="proof-index">Live P2P sessions</span>
@@ -248,8 +253,8 @@
           </article>
           <article class="proof-panel">
             <span class="proof-index">02</span>
-            <h3>What players feel</h3>
-            <p>The table gets the bit quickly: bright fantasy adventure filtered through performance reviews, hazard forms, and a tower that makes danger public.</p>
+            <h3>What players work with</h3>
+            <p>Performance reviews, hazard forms, character debt cards, and a physical tower carry the corporate-fantasy premise into play.</p>
           </article>
           <article class="proof-panel">
             <span class="proof-index">03</span>
@@ -270,7 +275,7 @@
 
         <article class="featured-artifact">
           <figure>
-            <img src="../assets/evidence/p2p/kazraks-labyrinth-vendors-preview.jpg" alt="A Peril to Profit vendor guide cover reading Buy. Survive. Succeed. with a smiling fantasy vendor at a magical shop counter." width="1391" height="1800" loading="lazy" decoding="async" data-asset-id="P2PKazrakVendor01" />
+            <img srcset="../assets/optimized/1a3da1eb-kazraks-labyrinth-vendors-preview-640.webp 640w, ../assets/optimized/1a3da1eb-kazraks-labyrinth-vendors-preview-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/1a3da1eb-kazraks-labyrinth-vendors-preview-1280.webp" alt="A Peril to Profit vendor guide cover reading Buy. Survive. Succeed. with a smiling fantasy vendor at a magical shop counter." width="1391" height="1800" loading="lazy" decoding="async" data-asset-id="P2PKazrakVendor01" />
           </figure>
           <div class="featured-copy">
             <span class="proof-index">Handout proof</span>
@@ -287,12 +292,12 @@
             <p>Debt is not just flavor. It becomes a number, a joke, and a reason for a character to take risks.</p>
           </article>
           <article class="artifact-card">
-            <img src="../assets/evidence/p2p/character-artifacts-contact-sheet.jpg" alt="Contact sheet of Peril to Profit character bio and debt artifacts for Amber, GLadran, and Mycostar." width="1564" height="928" loading="lazy" decoding="async" data-asset-id="P2PCharacterArtifacts01" />
+            <img srcset="../assets/optimized/d1deea5f-character-artifacts-contact-sheet-640.webp 640w, ../assets/optimized/d1deea5f-character-artifacts-contact-sheet-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/d1deea5f-character-artifacts-contact-sheet-1280.webp" alt="Contact sheet of Peril to Profit character bio and debt artifacts for Amber, GLadran, and Mycostar." width="1564" height="928" loading="lazy" decoding="async" data-asset-id="P2PCharacterArtifacts01" />
             <h3>Fast character onboarding</h3>
             <p>Bio and debt cards help players understand tone, motive, and stakes before the table gets bogged down.</p>
           </article>
           <article class="artifact-card">
-            <img src="../assets/evidence/p2p/player-toy-ads-contact-sheet-web.jpg" alt="Contact sheet of three Peril to Profit toy advertisement cards for Amber, G'Ladran, and Mycostar with action-figure jokes and 50 percent off pricing." width="1178" height="1050" loading="lazy" decoding="async" data-asset-id="P2PPlayerToyAds01" />
+            <img srcset="../assets/optimized/29b25fa4-player-toy-ads-contact-sheet-web-640.webp 640w, ../assets/optimized/29b25fa4-player-toy-ads-contact-sheet-web-1178.webp 1178w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/29b25fa4-player-toy-ads-contact-sheet-web-1178.webp" alt="Contact sheet of three Peril to Profit toy advertisement cards for Amber, G'Ladran, and Mycostar with action-figure jokes and 50 percent off pricing." width="1178" height="1050" loading="lazy" decoding="async" data-asset-id="P2PPlayerToyAds01" />
             <h3>Toy ads sell the bit</h3>
             <p>Fake action-figure ads turn character setup into comedy players can read fast: motive, tone, and the awful bargain in one glance.</p>
           </article>
@@ -302,20 +307,20 @@
             <p>Character visuals give the group a quick read on who is in the party before the first scene starts moving.</p>
           </article>
           <article class="artifact-card">
-            <img src="../assets/evidence/p2p/city-of-heartland-map-web.jpg" alt="A detailed overhead fantasy city map labeled with taverns, shops, guild spaces, city hall, farms, roads, and surrounding terrain." width="1800" height="1439" loading="lazy" decoding="async" data-asset-id="P2PCityHeartland01" />
+            <img srcset="../assets/optimized/e040d4f7-city-of-heartland-map-web-640.webp 640w, ../assets/optimized/e040d4f7-city-of-heartland-map-web-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/e040d4f7-city-of-heartland-map-web-1280.webp" alt="A detailed overhead fantasy city map labeled with taverns, shops, guild spaces, city hall, farms, roads, and surrounding terrain." width="1800" height="1439" loading="lazy" decoding="async" data-asset-id="P2PCityHeartland01" />
             <h3>Table-ready local geography</h3>
             <p>Named shops, civic spaces, and roads give the comedy somewhere concrete to happen.</p>
           </article>
           <article class="artifact-card media-artifact">
             <div class="media-frame">
-              <iframe src="https://www.youtube-nocookie.com/embed/25z2FAQN6W0" title="Peril to Profit pre-session video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div class="gmk-video" data-video-src="https://www.youtube-nocookie.com/embed/25z2FAQN6W0" data-video-title="Peril to Profit pre-session video"><p>Peril to Profit pre-session video</p><button type="button" class="gmk-video-load">Play video here</button><a href="https://www.youtube.com/watch?v=25z2FAQN6W0" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></div>
             </div>
             <h3>Pre-session table proof</h3>
             <p>A public pre-session video shows campfire questions and character-building setup before play.</p>
           </article>
           <article class="artifact-card media-artifact">
             <div class="media-frame">
-              <iframe src="https://www.youtube-nocookie.com/embed/Mz66xLiklKk" title="Peril to Profit devil battle recap" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div class="gmk-video" data-video-src="https://www.youtube-nocookie.com/embed/Mz66xLiklKk" data-video-title="Peril to Profit devil battle recap"><p>Peril to Profit devil battle recap</p><button type="button" class="gmk-video-load">Play video here</button><a href="https://www.youtube.com/watch?v=Mz66xLiklKk" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></div>
             </div>
             <h3>Devil battle recap</h3>
             <p>The recap is the high-drama media lane: corporate fantasy absurdity pushed into cinematic stakes.</p>
@@ -377,12 +382,21 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <span>GameMasterKyle | @GameMasterKyle</span>
-      <span>Built table by table in the Phoenix East Valley</span>
-    </div>
-  </footer>
-  <script async src="https://www.tiktok.com/embed.js"></script>
+  <!-- site-footer:start -->
+<footer class="gmk-footer">
+  <div class="gmk-footer-inner">
+    <div><a href="../index.html" class="gmk-footer-name">GameMasterKyle</a><p>Jonathan “Kyle” Hobson · Phoenix, Arizona</p></div>
+    <nav aria-label="Footer navigation">
+      <a href="../events/">Public games</a>
+      <a href="../index.html#contact">Private games &amp; venues</a>
+      <a href="../feedback/">Player feedback</a>
+      <a href="../links.html">Contact &amp; community</a>
+    </nav>
+  </div>
+</footer>
+<!-- site-footer:end -->
+
+
+<script src="../scripts/media.js" defer></script>
 </body>
 </html>

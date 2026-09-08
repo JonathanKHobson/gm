@@ -14,14 +14,9 @@
 
   function getUpcomingVerifiedEvents(now) {
     var site = window.GameMasterKyle || {};
-    var events = Array.isArray(site.publicEvents) ? site.publicEvents : [];
-
-    return events
-      .filter(function (event) {
-        var start = Date.parse(event.start);
-        return Number.isFinite(start) && start > now;
-      })
-      .sort(byDisplayPriority);
+    return typeof site.getUpcomingPublicEvents === "function"
+      ? site.getUpcomingPublicEvents(now).sort(byDisplayPriority)
+      : [];
   }
 
   function formatEventDate(event) {
@@ -70,7 +65,7 @@
     var soldOut = event.status === "sold_out";
     if (soldOut) card.classList.add("is-sold-out");
 
-    setText(card, "[data-event-status]", soldOut ? "Fully booked" : "Booking now");
+    setText(card, "[data-event-status]", soldOut ? "Fully booked" : "Upcoming at Mox");
     setText(card, "[data-event-system]", [event.system, event.tier].filter(Boolean).join(" · ") || event.game);
     setText(card, "[data-event-name]", event.name || event.game || event.title);
     setText(card, "[data-event-date]", formatEventDate(event));
@@ -78,7 +73,7 @@
 
     if (note) {
       note.textContent = soldOut
-        ? "This table is full. Mox may still accept last-minute waitlist requests before the game begins."
+        ? "This table is listed as full. Check Mox for the latest availability."
         : "Beginner-friendly. Rules guidance and ready-to-play characters are provided.";
       note.hidden = false;
     }
@@ -89,7 +84,7 @@
       primary.rel = "noopener noreferrer";
       primary.setAttribute("aria-describedby", "new-tab-note");
       primary.hidden = false;
-      setText(primary, "[data-event-primary-label]", soldOut ? "Join the Mox waitlist" : "Book at Mox");
+      setText(primary, "[data-event-primary-label]", soldOut ? "Check availability at Mox" : "Check seats at Mox");
     }
 
     if (details) {
@@ -134,7 +129,7 @@
       setText(
         item,
         "[data-also-label]",
-        soldOut ? "Join the Mox waitlist" : event.bookingLabel || "Book at Mox"
+        soldOut ? "Check availability at Mox" : event.bookingLabel || "Check seats at Mox"
       );
 
       var link = item.querySelector("[data-also-link]");

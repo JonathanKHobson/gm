@@ -1,0 +1,81 @@
+/* Site navigation has one owner. Campaign styles do not use these classes. */
+.gmk-header,.gmk-local,.gmk-footer { font-family:var(--sans,Inter,system-ui,sans-serif); box-sizing:border-box; }
+.gmk-header { position:relative; z-index:100; background:#181e1c; color:#fff9ed; border-bottom:1px solid #3b443e; }
+.gmk-header-inner { max-width:1320px; margin:auto; padding:12px 32px; display:flex; align-items:center; justify-content:space-between; gap:24px; }
+.gmk-brand { display:flex; align-items:center; gap:12px; color:#fff9ed; text-decoration:none; min-width:0; font-weight:750; font-size:18px; line-height:1.2; }
+.gmk-brand img { width:44px; height:44px; flex:none; object-fit:contain; }
+.gmk-brand small { display:block; font-size:12px; font-weight:400; color:#d4d6cc; margin-top:5px; }
+.gmk-menu { margin:0; padding:0; border:0; background:none; color:inherit; }
+.gmk-menu > summary { display:none; }
+.gmk-menu > .gmk-navigation { display:flex; align-items:center; gap:8px; }
+.gmk-navigation a { display:flex; align-items:center; min-height:44px; padding:10px 12px; color:#eceee5; font-size:15px; font-weight:600; line-height:1.25; text-decoration:none; border-radius:4px; }
+.gmk-navigation a:hover,.gmk-navigation a[aria-current] { color:#fff; background:#303d34; }
+.gmk-navigation a[aria-current] { text-decoration:underline; text-decoration-color:#e6b570; text-underline-offset:7px; }
+.gmk-navigation a.gmk-contact { background:#ebaf76; color:#23190e; margin-left:8px; }
+.gmk-navigation a.gmk-contact:hover { background:#f6c394; }
+.gmk-header :focus-visible,.gmk-footer :focus-visible { outline:3px solid #ffe0a5; outline-offset:3px; }
+.gmk-local { background:#edf0e8; border-bottom:1px solid #ccd2c7; color:#29382d; }
+.gmk-local > div { max-width:1256px; margin:auto; display:flex; align-items:center; flex-wrap:wrap; gap:4px 16px; padding:7px 32px; }
+.gmk-local span { font-size:14px; font-weight:750; margin-right:auto; }
+.gmk-local a { display:inline-flex; align-items:center; min-height:44px; color:#29382d; padding:8px 4px; font-size:14px; text-decoration:underline; text-underline-offset:4px; }
+.gmk-local :focus-visible { outline:3px solid #854526; outline-offset:2px; }
+.gmk-footer { background:#181e1c; color:#d4d6cc; padding:40px 32px; font-size:14px; }
+.gmk-footer-inner { max-width:1256px; margin:auto; display:flex; justify-content:space-between; gap:24px; flex-wrap:wrap; }
+.gmk-footer a { color:#fff9ed; text-decoration:none; }
+.gmk-footer-name { font-size:20px; font-weight:750; }
+.gmk-footer p { margin:8px 0 0; font-size:14px; }
+.gmk-footer nav { display:flex; gap:8px 20px; flex-wrap:wrap; align-items:center; }
+.gmk-footer nav a { display:flex; align-items:center; min-height:44px; }
+.gmk-footer nav a:hover { text-decoration:underline; }
+.gmk-skip { position:absolute; z-index:201; left:16px; top:-100px; background:#fff; color:#171e18; padding:12px; }
+.gmk-skip:focus { top:8px; }
+@media(max-width:1050px) {
+  .gmk-header-inner { flex-wrap:wrap; gap:0; padding:12px 20px; }
+  .gmk-brand { font-size:17px; }
+  .gmk-brand small { font-size:11px; }
+  .gmk-menu { margin-left:auto; }
+  .gmk-menu > summary { display:list-item; min-height:44px; padding:10px 12px; border:1px solid #697365; border-radius:4px; font-size:15px; font-weight:650; cursor:pointer; list-style-position:inside; }
+  .gmk-menu:not([open]) > .gmk-navigation { display:none; }
+  .gmk-menu[open] > .gmk-navigation { position:absolute; top:100%; left:0; right:0; padding:16px 20px 20px; background:#181e1c; border-bottom:1px solid #697365; display:grid; grid-template-columns:1fr 1fr; gap:8px; box-shadow:0 16px 20px #0003; }
+  .gmk-navigation a { min-height:48px; padding:12px; }
+  .gmk-navigation a.gmk-contact { margin:0; }
+  .gmk-local > div { padding:6px 20px; gap:0 16px; }
+  .gmk-local span { flex-basis:100%; font-size:12px; padding-top:4px; }
+  .gmk-local a { font-size:13px; }
+}
+@media(max-width:360px) {
+ .gmk-header-inner { padding:10px 12px; }
+ .gmk-brand { font-size:15px; gap:8px; }
+ .gmk-brand img { width:32px; height:32px; }
+ .gmk-brand small { display:none; }
+ .gmk-menu > summary { font-size:14px; padding:10px; }
+ .gmk-menu[open] > .gmk-navigation { grid-template-columns:1fr; }
+}
+@media(max-height:500px) and (max-width:1050px) { .gmk-menu[open] > .gmk-navigation { max-height:75vh; overflow-y:auto; } }
+@media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+@media print { .gmk-header,.gmk-local,.gmk-footer { display:none; } }
+/* Resource chooser uses the same reading rhythm as its guides. */
+.resource-detail .detail-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; }
+.resource-detail .detail-grid p { margin:18px 0; }
+.resource-detail .detail-grid .btn { white-space:normal; }
+@media(max-width:900px) { .resource-detail .detail-grid { grid-template-columns:1fr; } }
+.gmk-menu[open] > summary { margin:0; }
+.gmk-video { min-height:210px; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:16px; padding:24px; background:#1a2521; color:#f5f1e8; text-align:center; }
+.gmk-video p { color:#f5f1e8; font:600 18px/1.5 var(--sans,system-ui); max-width:42ch; }
+.gmk-video button { min-height:48px; padding:12px 20px; border:1px solid #eda767; border-radius:4px; background:#eda767; color:#24190e; font:600 16px var(--sans,system-ui); cursor:pointer; }
+.gmk-video a { min-height:44px; display:inline-flex; align-items:center; color:#f5f1e8; text-decoration:underline; font-size:15px; }
+.gmk-video:has(iframe) { padding:0; }
+.gmk-video iframe { width:100%; min-height:250px; aspect-ratio:16/9; border:0; }
+@media(max-width:1050px) {
+ .gmk-menu:not([data-enhanced]) { flex-basis:100%; margin-top:12px; }
+ .gmk-menu:not([data-enhanced]) > .gmk-navigation { position:static; box-shadow:none; padding:12px 0 0; }
+}
+
+.gmk-brand > span,.gmk-footer-inner > div { min-width:0; overflow-wrap:anywhere; max-width:100%; }
+
+/* Reflow long labels and enlarged text inside flexible page layouts. */
+body { overflow-wrap:anywhere; }
+main :where(*) { min-width:0; }
+main :where(a,button,summary) { white-space:normal; }
+
+.links-button > span { white-space:normal; overflow-wrap:anywhere; }

@@ -20,30 +20,35 @@
   <link rel="stylesheet" href="../styles/base.css" />
   <link rel="stylesheet" href="../styles/components.css" />
   <link rel="stylesheet" href="../styles/responsive.css" />
+  <link rel="stylesheet" href="../styles/site-shell.css" />
+  <script src="../scripts/site-shell.js" defer></script>
 </head>
 <body class="case-detail events-index">
   <a class="skip" href="#main">Skip to content</a>
   <span id="new-tab-note" class="sr-only">Opens in a new tab.</span>
 
-  <header class="site-header">
-    <nav class="nav" aria-label="Primary navigation">
-      <div class="wrap">
-        <a class="brand" href="../index.html#top" aria-label="GameMasterKyle home">
-          <img class="brand-mark" src="../assets/brand/gmk-compass-d20-mark.png" alt="" width="96" height="96" data-asset-id="LogoMark01" />
-          <span class="brand-name"><strong>GameMasterKyle</strong><span>Table craft for real rooms</span></span>
-        </a>
-        <div class="nav-links website-nav">
-          <a class="navlink" href="../index.html#mission">Mission</a>
-          <a class="navlink" href="../index.html#about">About</a>
-          <a class="navlink" href="../index.html#games">Games</a>
-          <a class="navlink" href="../events/" aria-current="page">Events</a>
-          <a class="navlink" href="../index.html#reviews">Reviews</a>
-          <a aria-describedby="new-tab-note" class="btn nav-cta nav-cta-discord external-link" href="https://discord.gg/A9JNzTRucn" target="_blank" rel="noopener noreferrer">Join Discord</a>
-          <a class="btn nav-cta" href="../index.html#contact">Get in touch</a>
-        </div>
-      </div>
-    </nav>
-  </header>
+  <!-- site-shell:start -->
+<header class="gmk-header">
+  <div class="gmk-header-inner">
+    <a class="gmk-brand" href="../index.html" aria-label="GameMasterKyle home">
+      <img src="../assets/brand/gmk-compass-d20-mark.png" alt="" width="48" height="48" />
+      <span>GameMasterKyle<small>Come curious. Leave with a story.</small></span>
+    </a>
+    <details class="gmk-menu" open>
+      <summary>Menu</summary>
+      <nav class="gmk-navigation" aria-label="Main navigation">
+        <a href="../events/" aria-current="page">Public games</a>
+        <a href="../about.html">About Kyle</a>
+        <a href="../projects.html">Worlds & work</a>
+        <a href="../resources/">Player resources</a>
+        <a class="gmk-contact" href="../index.html#contact">Plan a game</a>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<!-- site-shell:end -->
+
 
   <main id="main">
     <section class="detail-hero events-hero" data-anchor="EventsHero01" aria-labelledby="events-title">
@@ -82,23 +87,23 @@
             <h3 id="goldspire-card-title">Peril to Profit&trade;: The Goldspire Messengers</h3>
             <p>A funny, cinematic fantasy mission where a courier crew carries a sealed magical delivery through an ancient forest road that does not care what the contract says.</p>
             <dl class="event-facts" aria-label="Goldspire event facts">
-              <div><dt>Date</dt><dd>Tuesday, August 4; more coming soon</dd></div>
-              <div><dt>Time</dt><dd>5:00-10:00 PM</dd></div>
+              <div><dt>Date</dt><dd>See upcoming dates</dd></div>
+              <div><dt>Time</dt><dd>Varies by session</dd></div>
               <div><dt>Venue</dt><dd>Held at Mox Boarding House Chandler</dd></div>
               <div><dt>Seats</dt><dd>5 players max per table</dd></div>
               <div><dt>Cost</dt><dd>$25 per person</dd></div>
               <div><dt>Prep</dt><dd>No experience needed. Premades provided.</dd></div>
             </dl>
             <div class="event-actions">
-              <a class="btn btn-primary external-link" href="https://events.moxboardinghouse.com/p/n/xnP6r62v/v5" data-event-cta target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-note">Book at Mox</a>
+              <a class="btn btn-primary external-link" href="../events/goldspire/dates/" data-event-cta target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-note">Check dates &amp; booking</a>
               <a class="btn btn-secondary btn-secondary-paper" href="goldspire/">Explore adventure</a>
             </div>
             <aside class="event-booking-option" aria-label="Tier 2 Goldspire booking">
               <div>
                 <strong>Tier 2: The Dying Spires</strong>
-                <span>Aug 25, 5:00-10:00 PM · Sep 12, 10:30 AM-3:30 PM</span>
+                <span>See Tier 2 dates at Mox</span>
               </div>
-              <a class="btn btn-secondary external-link" href="https://events.moxboardinghouse.com/p/n/zdRmLjPV/v5" data-tier-two-cta target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-note">Book Tier 2</a>
+              <a class="btn btn-secondary external-link" href="https://events.moxboardinghouse.com/p/n/zdRmLjPV/v5" data-tier-two-cta target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-note">Check Tier 2 at Mox</a>
             </aside>
             <p class="form-hint">Tier 1 and Tier 2 use separate official Mox listings. No previous Goldspire session is required for The Dying Spires.</p>
           </div>
@@ -117,7 +122,7 @@
             <h3 id="stargate-phx-card-title">Stargate PHX</h3>
             <p>Choose a ready-to-play hero, cross the gate, and solve one complete team mission. Every episode stands alone, so players can drop in, return later, or miss a session without losing the way back.</p>
             <dl class="event-facts" aria-label="Stargate PHX event facts">
-              <div><dt>Dates</dt><dd>Aug 22, Sep 5, and Sep 19 at 10:30 AM</dd></div>
+              <div><dt>Dates</dt><dd>See current mission dates</dd></div>
               <div><dt>Duration</dt><dd>Roughly 4–5 hours</dd></div>
               <div><dt>Venue</dt><dd>Mox Boarding House Chandler</dd></div>
               <div><dt>Seats</dt><dd>7 players maximum</dd></div>
@@ -128,7 +133,7 @@
               <a class="btn btn-primary external-link" href="https://events.moxboardinghouse.com/p/n/nmph2JKD" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-note">Book at Mox</a>
               <a class="btn btn-secondary btn-secondary-paper" href="stargate-phx/">Explore Stargate PHX</a>
             </div>
-            <p class="form-hint">Registration is open. Choose one of three complete missions on the official Mox event listing.</p>
+            <p class="form-hint">Check Mox for upcoming dates. Choose a complete mission on the official Mox event listing.</p>
           </div>
         </article>
         </div>
@@ -136,13 +141,22 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <span>GameMasterKyle | Public events in the Phoenix East Valley</span>
-      <span><a href="../index.html#contact">Questions, private tables, and access needs</a></span>
-    </div>
-  </footer>
+  <!-- site-footer:start -->
+<footer class="gmk-footer">
+  <div class="gmk-footer-inner">
+    <div><a href="../index.html" class="gmk-footer-name">GameMasterKyle</a><p>Jonathan “Kyle” Hobson · Phoenix, Arizona</p></div>
+    <nav aria-label="Footer navigation">
+      <a href="../events/">Public games</a>
+      <a href="../index.html#contact">Private games &amp; venues</a>
+      <a href="../feedback/">Player feedback</a>
+      <a href="../links.html">Contact &amp; community</a>
+    </nav>
+  </div>
+</footer>
+<!-- site-footer:end -->
 
+
+  <script src="../scripts/public-events.js"></script>
   <script src="goldspire/goldspire-registration.js" data-event-base="goldspire/"></script>
   <script src="../scripts/main.js"></script>
 </body>

@@ -1,0 +1,45 @@
+/* The host introduction is quiet; campaign worlds carry the spectacle below. */
+.home-page .website-hero { background:#202d28; color:#fff9ed; }
+.home-page .website-hero::before { display:none; }
+.home-page .website-hero .wrap { grid-template-columns:minmax(0,1.2fr) minmax(280px,.8fr); padding-block:64px; gap:72px; align-items:center; min-height:0; }
+.home-page .website-hero .eyebrow { background:none; border:0; padding:0; color:#d9c3a2; box-shadow:none; font-size:15px; }
+.home-page .website-hero .eyebrow::before { display:none; }
+.home-page .website-hero h1 { font-size:clamp(42px,5.1vw,72px); max-width:14ch; line-height:1.08; margin-block:20px; }
+.home-page .website-hero h1 em { color:#edb77e; }
+.home-page .hero-lede { color:#e3e7dd; font-size:19px; max-width:52ch; line-height:1.65; margin:0; }
+.home-page .website-hero-actions { margin-top:28px; gap:12px; }
+.home-page .website-hero-actions .btn { border-radius:5px; box-shadow:none; min-height:48px; }
+.home-page .btn-primary { background:#eda767; border-color:#eda767; color:#22180e; }
+.home-page .btn-secondary { color:#fff9ed; background:transparent; border:1px solid #9aab9d; }
+.home-first-time { color:#d2dacd; margin-top:22px; font-size:15px; line-height:1.65; }
+.home-first-time a { text-decoration:underline; text-underline-offset:4px; color:#fff9ed; }
+.home-page .hero-portrait-panel { margin:0; padding:0; background:none; border:0; border-radius:0; box-shadow:none; transform:none; max-width:380px; }
+.home-page .hero-portrait-panel img { width:100%; height:auto; max-height:465px; aspect-ratio:4/5; object-fit:cover; border:0; border-radius:3px; }
+.home-page .hero-caption { margin:0; padding:18px 0 0; background:none; border:0; box-shadow:none; }
+.home-page .hero-caption strong { color:#fff9ed; font:650 19px var(--sans); text-transform:none; letter-spacing:0; }
+.home-page .hero-caption span { color:#d2dacd; font-size:14px; margin-top:6px; }
+.home-welcome { background:#f5f1e8; padding:64px 0; border-bottom:1px solid #d6d8c9; }
+.home-welcome-layout { display:grid; grid-template-columns:1fr 1fr; gap:64px; }
+.home-welcome .eyebrow { color:#725338; font-size:14px; margin-bottom:14px; }
+.home-welcome h2 { font-size:clamp(30px,3.2vw,42px); max-width:19ch; }
+.home-welcome-copy { font-size:17px; color:#344034; }
+.home-welcome details { margin:22px 0; border-block:1px solid #bec6b7; }
+.home-welcome summary { min-height:48px; padding-block:14px; cursor:pointer; font-weight:650; }
+.home-welcome details p { padding-bottom:20px; }
+.home-welcome-copy > a { color:#734026; text-decoration:underline; text-underline-offset:4px; display:inline-block; padding-block:10px; }
+@media(max-width:900px) {
+ .home-page .website-hero .wrap { grid-template-columns:minmax(0,1fr); gap:36px; padding-block:40px; }
+ .home-page .website-hero h1 { font-size:clamp(40px,8vw,64px); max-width:15ch; }
+ .home-page .hero-lede { font-size:17px; }
+ .home-page .hero-portrait-panel { max-width:340px; width:100%; justify-self:start; }
+ .home-page .hero-portrait-panel img { aspect-ratio:5/4; max-height:300px; object-position:center 25%; }
+ .home-page .hero-caption span { display:block; }
+ .home-welcome { padding:40px 0; }
+ .home-welcome-layout { grid-template-columns:1fr; gap:24px; }
+}
+.home-page .about-card,.home-page .about-card > *,.home-page .about-actions { min-width:0; max-width:100%; }
+.home-page .about-pillars span,.home-page .about-actions a { white-space:normal; overflow-wrap:anywhere; }
+
+/* Let larger text shrink grid tracks and wrap without horizontal clipping. */
+.home-page main { overflow-wrap:anywhere; }
+.home-page main :where(.wrap > *, .case-card > *, .contact-grid > *, .audience-layout > *, .audience-stack > *, .project-link-grid > *, .brief-title > *) { min-width:0; max-width:100%; }

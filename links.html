@@ -7,7 +7,7 @@
   <meta name="description" content="Book the next beginner-friendly GameMasterKyle table at Mox, get notified about new public games, or find Kyle's community and contact links." />
   <link rel="canonical" href="https://jonathankhobson.github.io/gm/links.html" />
   <meta property="og:title" content="Book a Game with GameMasterKyle" />
-  <meta property="og:description" content="Find the next public table, join a waitlist, or get one useful email when a new game opens." />
+  <meta property="og:description" content="Find the next public table, get one useful email when a new game opens." />
   <meta property="og:type" content="profile" />
   <meta property="og:url" content="https://jonathankhobson.github.io/gm/links.html" />
   <meta property="og:image" content="https://jonathankhobson.github.io/gm/assets/portraits/kyle-hobson-hero-portrait.webp" />
@@ -36,26 +36,35 @@
       ]
     }
   </script>
+  <link rel="stylesheet" href="styles/site-shell.css" />
+  <script src="scripts/site-shell.js" defer></script>
 </head>
 <body class="links-switchboard-page">
   <a class="skip" href="#main">Skip to content</a>
   <span id="new-tab-note" class="sr-only">Opens in a new tab.</span>
 
-  <header class="links-header">
-    <div class="links-wrap links-header-inner">
-      <a class="links-brand" href="index.html" aria-label="GameMasterKyle portfolio home">
-        <img src="assets/brand/gmk-compass-d20-mark.png" alt="" width="96" height="96" />
-        <span>
-          <strong>GameMasterKyle</strong>
-          <small>Phoenix public games</small>
-        </span>
-      </a>
-      <a class="links-header-action" href="mailto:jonathankylehobson@gmail.com">
-        <svg class="lucide-icon" aria-hidden="true"><use href="assets/icons/lucide-sprite.svg#mail"></use></svg>
-        Email Kyle
-      </a>
-    </div>
-  </header>
+  <!-- site-shell:start -->
+<header class="gmk-header">
+  <div class="gmk-header-inner">
+    <a class="gmk-brand" href="./index.html" aria-label="GameMasterKyle home">
+      <img src="./assets/brand/gmk-compass-d20-mark.png" alt="" width="48" height="48" />
+      <span>GameMasterKyle<small>Come curious. Leave with a story.</small></span>
+    </a>
+    <details class="gmk-menu" open>
+      <summary>Menu</summary>
+      <nav class="gmk-navigation" aria-label="Main navigation">
+        <a href="events/">Public games</a>
+        <a href="about.html">About Kyle</a>
+        <a href="projects.html">Worlds & work</a>
+        <a href="resources/">Player resources</a>
+        <a class="gmk-contact" href="./index.html#contact">Plan a game</a>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<!-- site-shell:end -->
+
 
   <main id="main">
     <section class="booking-section" aria-labelledby="page-title" data-anchor="Booking01">
@@ -63,7 +72,7 @@
         <div class="booking-intro">
           <p class="links-kicker">Book a public table</p>
           <h1 id="page-title">Find your next game.</h1>
-          <p class="booking-summary">Beginner-friendly one-shots at Mox. Book the next open table, join a waitlist, or leave one email for the next public game.</p>
+          <p class="booking-summary">Beginner-friendly one-shots at Mox. Book the next open table, leave one email for the next public game.</p>
           <a class="mobile-scroll-cue" href="#keep-in-touch-title">
             <span>More links below</span>
             <svg class="lucide-icon" aria-hidden="true"><use href="assets/icons/lucide-sprite.svg#chevron-down"></use></svg>
@@ -73,15 +82,15 @@
         <div class="conversion-grid">
           <article class="event-spotlight" aria-labelledby="featured-event-title" data-featured-event>
             <div class="event-status-row">
-              <span class="event-status" data-event-status>Finding the next table</span>
+              <span class="event-status" data-event-status>Public games at Mox</span>
               <span class="event-system" data-event-system>Public game</span>
             </div>
-            <h2 id="featured-event-title" data-event-name>Checking verified listings...</h2>
+            <h2 id="featured-event-title" data-event-name>Choose your next adventure</h2>
             <ul class="event-facts" aria-label="Event details">
-              <li><svg class="lucide-icon" aria-hidden="true"><use href="assets/icons/lucide-sprite.svg#calendar-days"></use></svg><span data-event-date>Loading date and time</span></li>
+              <li><svg class="lucide-icon" aria-hidden="true"><use href="assets/icons/lucide-sprite.svg#calendar-days"></use></svg><span data-event-date>See event pages for current dates</span></li>
               <li><svg class="lucide-icon" aria-hidden="true"><use href="assets/icons/lucide-sprite.svg#map-pin"></use></svg><span data-event-venue>Mox Boarding House Chandler</span></li>
             </ul>
-            <p class="event-note" data-event-note hidden></p>
+            <p class="event-note" data-event-note hidden></p><noscript><p><a href="events/">Browse public games and current booking links</a>.</p></noscript>
             <a class="links-button links-button-primary" data-event-primary href="events/" hidden>
               <span data-event-primary-label>See public games</span>
               <svg class="lucide-icon" aria-hidden="true"><use href="assets/icons/lucide-sprite.svg#arrow-up-right"></use></svg>
@@ -213,7 +222,7 @@
 
     <section class="identity-section" aria-labelledby="identity-title">
       <div class="links-wrap identity-inner">
-        <img src="assets/portraits/kyle-hobson-hero-portrait.webp" alt="Jonathan Kyle Hobson, GameMasterKyle." width="900" height="1125" loading="lazy" decoding="async" />
+        <img srcset="assets/optimized/b2d4ac51-kyle-hobson-hero-portrait-640.webp 640w, assets/optimized/b2d4ac51-kyle-hobson-hero-portrait-900.webp 900w" sizes="(max-width: 700px) 90vw, 640px" src="assets/optimized/b2d4ac51-kyle-hobson-hero-portrait-900.webp" alt="Jonathan Kyle Hobson, GameMasterKyle." width="900" height="1125" loading="lazy" decoding="async" />
         <div>
           <p class="links-kicker">Professional Game Master</p>
           <h2 id="identity-title">Welcoming tables. Strong hooks. Real player choice.</h2>
@@ -255,9 +264,20 @@
     </details>
   </main>
 
-  <footer class="links-footer">
-    <div class="links-wrap"><span>GameMasterKyle</span><span>Phoenix East Valley</span></div>
-  </footer>
+  <!-- site-footer:start -->
+<footer class="gmk-footer">
+  <div class="gmk-footer-inner">
+    <div><a href="./index.html" class="gmk-footer-name">GameMasterKyle</a><p>Jonathan “Kyle” Hobson · Phoenix, Arizona</p></div>
+    <nav aria-label="Footer navigation">
+      <a href="./events/">Public games</a>
+      <a href="./index.html#contact">Private games &amp; venues</a>
+      <a href="./feedback/">Player feedback</a>
+      <a href="./links.html">Contact &amp; community</a>
+    </nav>
+  </div>
+</footer>
+<!-- site-footer:end -->
+
 
   <script src="scripts/public-events.js"></script>
   <script src="scripts/links-page.js"></script>

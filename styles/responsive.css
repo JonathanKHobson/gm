@@ -1465,11 +1465,7 @@
   }
 }
 
-.events-index .events-hero {
-  background:
-    linear-gradient(90deg, rgba(7, 19, 25, 0.95), rgba(7, 19, 25, 0.72) 56%, rgba(7, 19, 25, 0.46)),
-    url("../assets/generated/hero-tabletop-warm.webp") center / cover no-repeat;
-}
+.events-index .events-hero { background: #202d28; }
 
 .events-index .events-list-band {
   padding-top: clamp(3.5rem, 6vw, 5rem);

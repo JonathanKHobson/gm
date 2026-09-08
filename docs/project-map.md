@@ -2,7 +2,7 @@
 project: pro-gm-website
 type: project-map
 status: active
-updated: 2026-07-24
+updated: 2026-09-08
 ---
 
 # Pro GM Website Project Map
@@ -61,8 +61,8 @@ Do not mirror or overwrite the live site from that folder.
 - Scheduled registry and known-listing watcher:
   `.github/workflows/public-event-watch.yml` and
   `tools/check-public-events.mjs`.
-- Goldspire registration and date state: `events/goldspire/goldspire.js`.
-- Stargate PHX registration and date state: `events/stargate-phx/stargate-phx.js`.
+- Goldspire registration and date state: `events/goldspire/goldspire-registration.js`.
+- Stargate PHX registration and date state: `events/stargate-phx/stargate-registration.js`.
 - Venue listings remain external Mox pages; this repository does not implement
   event registration or checkout.
 
@@ -74,3 +74,17 @@ Do not mirror or overwrite the live site from that folder.
 4. Render-check affected routes at mobile and desktop sizes.
 5. Run route, link, overflow, image, and accessibility checks.
 6. Commit, push to `origin/main`, and verify the live Pages routes.
+
+## September 2026 shared shell
+
+- `templates/site-header.tpl`, `site-footer.tpl`: one static site-level header and footer.
+- `tools/render-site-shell.py`: explicit 28-page route set; run after shell changes, then `--check` to detect drift. It does not traverse the large Story Atlas or Stargate rules archive.
+- `styles/site-shell.css`, `scripts/site-shell.js`: isolated navigation classes and native disclosure behavior; campaign-level links sit below the global header.
+- `styles/home.css`: host introduction and first-game guide; the campaign pages retain their own artwork and accents.
+- `resources/index.html`: player-resource chooser.
+- `scripts/media.js`: user-initiated YouTube embeds with native external-link fallbacks.
+- `assets/optimized/`: responsive derivatives of existing public images. Originals remain in their existing locations.
+
+Current booking is derived from `scripts/public-events.js`; registration scripts remove expired booking actions at event start. Venue links own seat availability. Tentative records never become booking CTAs. Feedback redirects, EmailJS contract, campaign rules/app internals, and source resume are preserved.
+
+The public case study remains separate from the live Story Atlas application. Campaign illustration is creative work, not documentary proof of table experience. Player testimonials require verified final wording and public display-name approval.

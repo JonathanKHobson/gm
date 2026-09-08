@@ -20,29 +20,34 @@
   <link rel="stylesheet" href="../styles/base.css" />
   <link rel="stylesheet" href="../styles/components.css" />
   <link rel="stylesheet" href="../styles/responsive.css" />
+  <link rel="stylesheet" href="../styles/site-shell.css" />
+  <script src="../scripts/site-shell.js" defer></script>
 </head>
 <body class="case-detail supers-detail">
   <a class="skip" href="#main">Skip to content</a>
   <span id="new-tab-note" class="sr-only">Opens in a new tab.</span>
-  <header class="site-header">
-    <nav class="nav" aria-label="Primary navigation">
-      <div class="wrap">
-        <a class="brand" href="../index.html#top" aria-label="GameMasterKyle home">
-          <img class="brand-mark" src="../assets/brand/gmk-compass-d20-mark.png" alt="" width="96" height="96" data-asset-id="LogoMark01" />
-          <span class="brand-name"><strong>GameMasterKyle</strong><span>Table craft for real rooms</span></span>
-        </a>
-        <div class="nav-links website-nav">
-          <a class="navlink" href="../index.html#mission">Mission</a>
-          <a class="navlink" href="../index.html#about">About</a>
-          <a class="navlink" href="../index.html#games" aria-current="page">Games</a>
-          <a class="navlink" href="../events/">Events</a>
-          <a class="navlink" href="../index.html#reviews">Reviews</a>
-          <a aria-describedby="new-tab-note" class="btn nav-cta nav-cta-discord external-link" href="https://discord.gg/A9JNzTRucn" target="_blank" rel="noopener noreferrer">Join Discord</a>
-          <a class="btn nav-cta" href="../index.html#contact">Get in touch</a>
-        </div>
-      </div>
-    </nav>
-  </header>
+  <!-- site-shell:start -->
+<header class="gmk-header">
+  <div class="gmk-header-inner">
+    <a class="gmk-brand" href="../index.html" aria-label="GameMasterKyle home">
+      <img src="../assets/brand/gmk-compass-d20-mark.png" alt="" width="48" height="48" />
+      <span>GameMasterKyle<small>Come curious. Leave with a story.</small></span>
+    </a>
+    <details class="gmk-menu" open>
+      <summary>Menu</summary>
+      <nav class="gmk-navigation" aria-label="Main navigation">
+        <a href="../events/">Public games</a>
+        <a href="../about.html">About Kyle</a>
+        <a href="../projects.html" aria-current="page">Worlds & work</a>
+        <a href="../resources/">Player resources</a>
+        <a class="gmk-contact" href="../index.html#contact">Plan a game</a>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<!-- site-shell:end -->
+
 
   <main id="main">
     <section class="detail-hero detail-hero-with-art" data-anchor="SupersDetailHero01" aria-labelledby="supers-title">
@@ -76,7 +81,7 @@
         </article>
 
         <aside class="detail-side" data-anchor="SupersSideArtifact01">
-          <img src="../assets/evidence/super/selected/super-power-slots-web.jpg" alt="Supers and Specials superpower slots sheet with unlock rows for basic, novice, advanced, master, elite, and omega powers." width="1553" height="1200" loading="lazy" decoding="async" data-asset-id="SupersPowerSlots01" />
+          <img srcset="../assets/optimized/f35287a4-super-power-slots-web-640.webp 640w, ../assets/optimized/f35287a4-super-power-slots-web-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/f35287a4-super-power-slots-web-1280.webp" alt="Supers and Specials superpower slots sheet with unlock rows for basic, novice, advanced, master, elite, and omega powers." width="1553" height="1200" loading="lazy" decoding="async" data-asset-id="SupersPowerSlots01" />
           <div class="detail-side-body">
             <h2>What to notice</h2>
             <p>Powers are not hidden in a paragraph. Players can see what is available now and what opens later.</p>
@@ -133,7 +138,7 @@
 
         <article class="readable-artifact readable-artifact-wide readable-artifact-reverse" data-anchor="SupersRules01">
           <figure>
-            <img src="../assets/evidence/super/selected/super-rules-dice-system-page-web.jpg" alt="Supers and Specials rules page explaining a lower-is-better d20 mechanic, modifiers, melee examples, grappling, and advantages." width="1224" height="1584" loading="lazy" decoding="async" data-asset-id="SupersDiceRules01" />
+            <img srcset="../assets/optimized/dc3cbcb7-super-rules-dice-system-page-web-640.webp 640w, ../assets/optimized/dc3cbcb7-super-rules-dice-system-page-web-1224.webp 1224w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/dc3cbcb7-super-rules-dice-system-page-web-1224.webp" alt="Supers and Specials rules page explaining a lower-is-better d20 mechanic, modifiers, melee examples, grappling, and advantages." width="1224" height="1584" loading="lazy" decoding="async" data-asset-id="SupersDiceRules01" />
           </figure>
           <div class="readable-artifact-copy">
             <span class="proof-index">Rules</span>
@@ -144,7 +149,7 @@
 
         <div class="artifact-grid artifact-grid-large" aria-label="Supers and Specials powers and gear artifacts">
           <article class="artifact-card artifact-card-readable" data-anchor="SupersPowers01">
-            <img src="../assets/evidence/super/selected/super-power-slots-web.jpg" alt="Supers and Specials power slots sheet with unlock rows from level 0 through level 5." width="1553" height="1200" loading="lazy" decoding="async" data-asset-id="SupersPowerSlots01" />
+            <img srcset="../assets/optimized/f35287a4-super-power-slots-web-640.webp 640w, ../assets/optimized/f35287a4-super-power-slots-web-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/f35287a4-super-power-slots-web-1280.webp" alt="Supers and Specials power slots sheet with unlock rows from level 0 through level 5." width="1553" height="1200" loading="lazy" decoding="async" data-asset-id="SupersPowerSlots01" />
             <h3>Powers opened in visible tiers.</h3>
             <p>Power slots help players understand growth as a table object, not a hidden progression note.</p>
           </article>
@@ -162,7 +167,7 @@
 
         <article class="readable-artifact readable-artifact-wide" data-anchor="SupersBuild01">
           <figure>
-            <img src="../assets/evidence/super/selected/super-build-character-page-web.jpg" alt="Supers and Specials build-a-character rules page with steps for making a custom superhero character." width="1224" height="1584" loading="lazy" decoding="async" data-asset-id="SupersBuildCharacter01" />
+            <img srcset="../assets/optimized/ce34d2fc-super-build-character-page-web-640.webp 640w, ../assets/optimized/ce34d2fc-super-build-character-page-web-1224.webp 1224w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/ce34d2fc-super-build-character-page-web-1224.webp" alt="Supers and Specials build-a-character rules page with steps for making a custom superhero character." width="1224" height="1584" loading="lazy" decoding="async" data-asset-id="SupersBuildCharacter01" />
           </figure>
           <div class="readable-artifact-copy">
             <span class="proof-index">Build flow</span>
@@ -189,12 +194,20 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <span>GameMasterKyle | @GameMasterKyle</span>
-      <span>Built table by table in the Phoenix East Valley</span>
-    </div>
-  </footer>
+  <!-- site-footer:start -->
+<footer class="gmk-footer">
+  <div class="gmk-footer-inner">
+    <div><a href="../index.html" class="gmk-footer-name">GameMasterKyle</a><p>Jonathan “Kyle” Hobson · Phoenix, Arizona</p></div>
+    <nav aria-label="Footer navigation">
+      <a href="../events/">Public games</a>
+      <a href="../index.html#contact">Private games &amp; venues</a>
+      <a href="../feedback/">Player feedback</a>
+      <a href="../links.html">Contact &amp; community</a>
+    </nav>
+  </div>
+</footer>
+<!-- site-footer:end -->
+
   <script src="../scripts/main.js"></script>
 </body>
 </html>

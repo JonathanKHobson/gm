@@ -127,6 +127,18 @@
     }
   ];
 
+  // Registration is time-bound. Keep past records for history, but never turn
+  // a past, tentative, cancelled, or malformed event into a booking action.
+  site.getUpcomingPublicEvents = function (now, sourceId) {
+    var timestamp = now === undefined ? Date.now() : Number(now);
+    return site.publicEvents.filter(function (event) {
+      return (event.status === "live" || event.status === "sold_out") &&
+        (!sourceId || event.sourceId === sourceId) &&
+        /^https:\/\//.test(event.url || "") &&
+        Number.isFinite(Date.parse(event.start)) && Date.parse(event.start) > timestamp;
+    }).sort(function (a, b) { return Date.parse(a.start) - Date.parse(b.start); });
+  };
+
   // Tentative dates are intentionally separate. They never become booking CTAs
   // until a verified listing is added to publicEvents above.
   site.tentativeEvents = [];

@@ -20,29 +20,34 @@
   <link rel="stylesheet" href="../styles/base.css" />
   <link rel="stylesheet" href="../styles/components.css" />
   <link rel="stylesheet" href="../styles/responsive.css" />
+  <link rel="stylesheet" href="../styles/site-shell.css" />
+  <script src="../scripts/site-shell.js" defer></script>
 </head>
 <body class="case-detail p2k-detail">
   <a class="skip" href="#main">Skip to content</a>
   <span id="new-tab-note" class="sr-only">Opens in a new tab.</span>
-  <header class="site-header">
-    <nav class="nav" aria-label="Primary navigation">
-      <div class="wrap">
-        <a class="brand" href="../index.html#top" aria-label="GameMasterKyle home">
-          <img class="brand-mark" src="../assets/brand/gmk-compass-d20-mark.png" alt="" width="96" height="96" data-asset-id="LogoMark01" />
-          <span class="brand-name"><strong>GameMasterKyle</strong><span>Table craft for real rooms</span></span>
-        </a>
-        <div class="nav-links website-nav">
-          <a class="navlink" href="../index.html#mission">Mission</a>
-          <a class="navlink" href="../index.html#about">About</a>
-          <a class="navlink" href="../index.html#games" aria-current="page">Games</a>
-          <a class="navlink" href="../events/">Events</a>
-          <a class="navlink" href="../index.html#reviews">Reviews</a>
-          <a aria-describedby="new-tab-note" class="btn nav-cta nav-cta-discord external-link" href="https://discord.gg/A9JNzTRucn" target="_blank" rel="noopener noreferrer">Join Discord</a>
-          <a class="btn nav-cta" href="../index.html#contact">Get in touch</a>
-        </div>
-      </div>
-    </nav>
-  </header>
+  <!-- site-shell:start -->
+<header class="gmk-header">
+  <div class="gmk-header-inner">
+    <a class="gmk-brand" href="../index.html" aria-label="GameMasterKyle home">
+      <img src="../assets/brand/gmk-compass-d20-mark.png" alt="" width="48" height="48" />
+      <span>GameMasterKyle<small>Come curious. Leave with a story.</small></span>
+    </a>
+    <details class="gmk-menu" open>
+      <summary>Menu</summary>
+      <nav class="gmk-navigation" aria-label="Main navigation">
+        <a href="../events/">Public games</a>
+        <a href="../about.html">About Kyle</a>
+        <a href="../projects.html" aria-current="page">Worlds & work</a>
+        <a href="../resources/">Player resources</a>
+        <a class="gmk-contact" href="../index.html#contact">Plan a game</a>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<!-- site-shell:end -->
+
 
   <main id="main">
     <section class="detail-hero detail-hero-with-art" data-anchor="P2KDetailHero" aria-labelledby="p2k-title">
@@ -57,7 +62,7 @@
           <span>Multi-party continuity</span>
         </div>
         <figure class="detail-hero-art">
-          <img src="../assets/evidence/p2k/valizar-map-hero.jpg" alt="Campaign map section showing Valizar, Orriondelu, Rijinor, Rejner, and surrounding roads, forests, coast, and settlements." width="4096" height="4096" loading="eager" decoding="async" data-asset-id="P2KValizarHero01" />
+          <img srcset="../assets/optimized/9e09065c-valizar-map-hero-640.webp 640w, ../assets/optimized/9e09065c-valizar-map-hero-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/9e09065c-valizar-map-hero-1280.webp" alt="Campaign map section showing Valizar, Orriondelu, Rijinor, Rejner, and surrounding roads, forests, coast, and settlements." width="4096" height="4096" loading="eager" decoding="async" data-asset-id="P2KValizarHero01" />
         </figure>
       </div>
     </section>
@@ -76,7 +81,7 @@
         </article>
 
         <aside class="detail-side" data-anchor="P2KSideArtifact">
-          <img src="../assets/evidence/p2k/heartland-region-map-web.jpg" alt="Illustrated regional fantasy map centered on Heartland City, with labeled settlements, roads, mountains, forests, islands, and major campaign locations." width="1800" height="1350" loading="lazy" decoding="async" data-asset-id="P2KHeartlandMap01" />
+          <img srcset="../assets/optimized/9ec8335c-heartland-region-map-web-640.webp 640w, ../assets/optimized/9ec8335c-heartland-region-map-web-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/9ec8335c-heartland-region-map-web-1280.webp" alt="Illustrated regional fantasy map centered on Heartland City, with labeled settlements, roads, mountains, forests, islands, and major campaign locations." width="1800" height="1350" loading="lazy" decoding="async" data-asset-id="P2KHeartlandMap01" />
           <div class="detail-side-body">
             <h2>What to notice</h2>
             <p>Named roads, settlements, factions, and danger zones give players a world they can navigate.</p>
@@ -95,7 +100,7 @@
         <article class="story-feature">
           <div class="story-media-stack">
             <div class="media-frame">
-              <iframe src="https://www.youtube-nocookie.com/embed/0xn9johSIrI" title="Peasants to Kings featured story: The Fractured Hearts" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div class="gmk-video" data-video-src="https://www.youtube-nocookie.com/embed/0xn9johSIrI" data-video-title="Peasants to Kings featured story: The Fractured Hearts"><p>Peasants to Kings featured story: The Fractured Hearts</p><button type="button" class="gmk-video-load">Play video here</button><a href="https://www.youtube.com/watch?v=0xn9johSIrI" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></div>
             </div>
             <figure class="story-art-card">
               <img src="../assets/evidence/p2k/crag-fractured-hearts-art.png" alt="Golden Peasants to Kings character art with a glowing antler-like crown, red fur shawl, and flowing tail." width="439" height="445" loading="lazy" decoding="async" data-asset-id="P2KFracturedHeartsArt01" />
@@ -130,7 +135,7 @@
         </div>
         <article class="playlist-feature">
           <div class="media-frame playlist-frame">
-            <iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLtC8RvsQOPbmpDLG30vzhSkf7gt0m6dmE" title="Skrik's story playlist" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="gmk-video" data-video-src="https://www.youtube-nocookie.com/embed/videoseries?list=PLtC8RvsQOPbmpDLG30vzhSkf7gt0m6dmE" data-video-title="Skrik's story playlist"><p>Skrik's story playlist</p><button type="button" class="gmk-video-load">Play video here</button><a href="https://www.youtube.com/playlist?list=PLtC8RvsQOPbmpDLG30vzhSkf7gt0m6dmE" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></div>
           </div>
           <div class="playlist-copy">
             <span class="proof-index">Skrik's story playlist</span>
@@ -155,7 +160,7 @@
         </div>
         <article class="playlist-feature playlist-feature-reverse">
           <div class="media-frame playlist-frame">
-            <iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLtC8RvsQOPbklHVCxiZ2fQ0JoZCRL-IZe" title="Live Peasants to Kings sessions playlist" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="gmk-video" data-video-src="https://www.youtube-nocookie.com/embed/videoseries?list=PLtC8RvsQOPbklHVCxiZ2fQ0JoZCRL-IZe" data-video-title="Live Peasants to Kings sessions playlist"><p>Live Peasants to Kings sessions playlist</p><button type="button" class="gmk-video-load">Play video here</button><a href="https://www.youtube.com/playlist?list=PLtC8RvsQOPbklHVCxiZ2fQ0JoZCRL-IZe" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></div>
           </div>
           <div class="playlist-copy">
             <span class="proof-index">Live P2K sessions</span>
@@ -208,7 +213,7 @@
 
         <article class="featured-artifact">
           <figure>
-            <img src="../assets/evidence/p2k/heartland-region-map-web.jpg" alt="Illustrated regional fantasy map centered on Heartland City, with labeled settlements, roads, mountains, forests, islands, and major campaign locations." width="1800" height="1350" loading="lazy" decoding="async" data-asset-id="P2KHeartlandMap01" />
+            <img srcset="../assets/optimized/9ec8335c-heartland-region-map-web-640.webp 640w, ../assets/optimized/9ec8335c-heartland-region-map-web-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/9ec8335c-heartland-region-map-web-1280.webp" alt="Illustrated regional fantasy map centered on Heartland City, with labeled settlements, roads, mountains, forests, islands, and major campaign locations." width="1800" height="1350" loading="lazy" decoding="async" data-asset-id="P2KHeartlandMap01" />
           </figure>
           <div class="featured-copy">
             <span class="proof-index">Map proof</span>
@@ -219,12 +224,12 @@
 
         <div class="artifact-grid" aria-label="Peasants to Kings evidence artifacts">
           <article class="artifact-card">
-            <img src="../assets/evidence/p2k/terria-world-map-web.png" alt="A labeled fantasy world map with multiple kingdoms, seas, borders, and island regions from the Peasants to Kings setting." width="1800" height="1541" loading="lazy" decoding="async" data-asset-id="P2KTerriaMap01" />
+            <img srcset="../assets/optimized/4bc31b51-terria-world-map-web-640.webp 640w, ../assets/optimized/4bc31b51-terria-world-map-web-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/4bc31b51-terria-world-map-web-1280.webp" alt="A labeled fantasy world map with multiple kingdoms, seas, borders, and island regions from the Peasants to Kings setting." width="1800" height="1541" loading="lazy" decoding="async" data-asset-id="P2KTerriaMap01" />
             <h3>World-scale geography</h3>
             <p>Terria shows the campaign has political and geographic scale beyond a single adventuring site.</p>
           </article>
           <article class="artifact-card">
-            <img src="../assets/evidence/p2k/unicorns-of-aldebaran-lore-guide-web.jpg" alt="Illustrated lore guide titled Unicorns of Aldebaran: A Guide to the Light and Dark, showing celestial, sylvan, sea, material, black, and hellfire unicorn variants with short rules and story notes." width="1800" height="1005" loading="lazy" decoding="async" data-asset-id="P2KUnicornLoreGuide01" />
+            <img srcset="../assets/optimized/9723362e-unicorns-of-aldebaran-lore-guide-web-640.webp 640w, ../assets/optimized/9723362e-unicorns-of-aldebaran-lore-guide-web-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/9723362e-unicorns-of-aldebaran-lore-guide-web-1280.webp" alt="Illustrated lore guide titled Unicorns of Aldebaran: A Guide to the Light and Dark, showing celestial, sylvan, sea, material, black, and hellfire unicorn variants with short rules and story notes." width="1800" height="1005" loading="lazy" decoding="async" data-asset-id="P2KUnicornLoreGuide01" />
             <h3>Lore made table-readable</h3>
             <p>A creature-family guide turns setting depth into a fast reference players can scan without needing a lore lecture.</p>
             <a aria-describedby="new-tab-note" class="artifact-link external-link" href="../assets/evidence/p2k/unicorns-of-aldebaran-lore-guide-web.jpg" target="_blank" rel="noopener noreferrer">Open readable preview</a>
@@ -235,18 +240,18 @@
             <p>Thread indexes, maps, organizations, shops, and text-RP spaces show a world that keeps moving between live sessions.</p>
           </article>
           <article class="artifact-card">
-            <img src="../assets/evidence/p2k/campfire-story-prompt-web.jpg" alt="A printed story prompt card reading Tell a story about being in the wrong place at the wrong time." width="2149" height="2858" loading="lazy" decoding="async" data-asset-id="P2KCampfirePrompt01" />
+            <img srcset="../assets/optimized/7d9c88a1-campfire-story-prompt-web-640.webp 640w, ../assets/optimized/7d9c88a1-campfire-story-prompt-web-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/7d9c88a1-campfire-story-prompt-web-1280.webp" alt="A printed story prompt card reading Tell a story about being in the wrong place at the wrong time." width="2149" height="2858" loading="lazy" decoding="async" data-asset-id="P2KCampfirePrompt01" />
             <h3>Story prompts at table scale</h3>
             <p>A simple prompt turns world memory into character voice: tell us what happened when you were in the wrong place at the wrong time.</p>
           </article>
           <article class="artifact-card">
-            <img src="../assets/evidence/p2k/player-art-contact-sheet.jpg" alt="Contact sheet of Peasants to Kings player character art, including multiple fantasy characters drawn in different styles." width="1564" height="1168" loading="lazy" decoding="async" data-asset-id="P2KPlayerArtSheet01" />
+            <img srcset="../assets/optimized/42e2305f-player-art-contact-sheet-640.webp 640w, ../assets/optimized/42e2305f-player-art-contact-sheet-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/42e2305f-player-art-contact-sheet-1280.webp" alt="Contact sheet of Peasants to Kings player character art, including multiple fantasy characters drawn in different styles." width="1564" height="1168" loading="lazy" decoding="async" data-asset-id="P2KPlayerArtSheet01" />
             <h3>Characters with roots</h3>
             <p>Player character art gives the campaign emotional anchors: people at the table can see who they are becoming.</p>
           </article>
           <article class="artifact-card media-artifact">
             <div class="media-frame">
-              <iframe src="https://www.youtube-nocookie.com/embed/6H5KxOLwzdE" title="Peasants to Kings horror story: Citadel of Suffering" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div class="gmk-video" data-video-src="https://www.youtube-nocookie.com/embed/6H5KxOLwzdE" data-video-title="Peasants to Kings horror story: Citadel of Suffering"><p>Peasants to Kings horror story: Citadel of Suffering</p><button type="button" class="gmk-video-load">Play video here</button><a href="https://www.youtube.com/watch?v=6H5KxOLwzdE" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></div>
             </div>
             <h3>Citadel of Suffering horror story</h3>
             <p>A darker P2K story card for the mythic-horror lane: strange pressure, emotional consequence, and a world that remembers what happened.</p>
@@ -288,7 +293,7 @@
         </div>
         <article class="featured-artifact war-system-card">
           <figure>
-            <img src="../assets/evidence/p2k-war-encounter/war-room-tab-desktop.jpg" alt="Fantasy War Sim War Room screenshot showing campaign-scale war state, faction totals, meters, doctrines, and battle history." width="1500" height="1041" loading="lazy" decoding="async" data-asset-id="P2KWarRoomScreenshot01" />
+            <img srcset="../assets/optimized/4e55f96c-war-room-tab-desktop-640.webp 640w, ../assets/optimized/4e55f96c-war-room-tab-desktop-1280.webp 1280w" sizes="(max-width: 700px) 90vw, 640px" src="../assets/optimized/4e55f96c-war-room-tab-desktop-1280.webp" alt="Fantasy War Sim War Room screenshot showing campaign-scale war state, faction totals, meters, doctrines, and battle history." width="1500" height="1041" loading="lazy" decoding="async" data-asset-id="P2KWarRoomScreenshot01" />
           </figure>
           <div class="featured-copy">
             <span class="proof-index">War Encounter System</span>
@@ -349,12 +354,21 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <span>GameMasterKyle | @GameMasterKyle</span>
-      <span>Built table by table in the Phoenix East Valley</span>
-    </div>
-  </footer>
-  <script async src="https://www.tiktok.com/embed.js"></script>
+  <!-- site-footer:start -->
+<footer class="gmk-footer">
+  <div class="gmk-footer-inner">
+    <div><a href="../index.html" class="gmk-footer-name">GameMasterKyle</a><p>Jonathan “Kyle” Hobson · Phoenix, Arizona</p></div>
+    <nav aria-label="Footer navigation">
+      <a href="../events/">Public games</a>
+      <a href="../index.html#contact">Private games &amp; venues</a>
+      <a href="../feedback/">Player feedback</a>
+      <a href="../links.html">Contact &amp; community</a>
+    </nav>
+  </div>
+</footer>
+<!-- site-footer:end -->
+
+
+<script src="../scripts/media.js" defer></script>
 </body>
 </html>

@@ -1103,9 +1103,7 @@
   position: relative;
   overflow: hidden;
   color: var(--cream);
-  background:
-    linear-gradient(90deg, rgba(7, 19, 25, 0.9), rgba(7, 19, 25, 0.68)),
-    url("../assets/generated/hero-tabletop-warm.webp") center / cover no-repeat;
+  background: #202d28;
 }
 
 .echoes-detail .detail-hero {
@@ -1120,15 +1118,7 @@
     url("../assets/generated/stargate-card-sci-fi-hero.webp") 38% center / cover no-repeat;
 }
 
-.detail-hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(circle at 16% 28%, rgba(111, 174, 183, 0.3), transparent 22rem),
-    radial-gradient(circle at 82% 20%, rgba(201, 163, 92, 0.2), transparent 20rem),
-    linear-gradient(180deg, rgba(7, 19, 25, 0.08), rgba(7, 19, 25, 0.66));
-}
+.detail-hero::before { display: none; }
 
 .detail-hero .wrap {
   position: relative;
@@ -2047,11 +2037,11 @@
 }
 
 .loop-red span {
-  background: #db3e32;
+  background: #be3027;
 }
 
 .loop-gold span {
-  background: #d8a912;
+  background: #896600;
 }
 
 .loop-blue span {
@@ -2063,11 +2053,11 @@
 }
 
 .loop-green span {
-  background: #24935c;
+  background: #167543;
 }
 
 .loop-teal span {
-  background: #1f8790;
+  background: #146d75;
 }
 
 .mechanics-mini-grid {
@@ -3797,14 +3787,7 @@
 }
 
 .events-hero,
-.goldspire-hero {
-  background:
-    linear-gradient(90deg, rgba(7, 19, 25, 0.94), rgba(7, 19, 25, 0.72) 54%, rgba(7, 19, 25, 0.34)),
-    image-set(
-      url("../assets/events/goldspire/hero/goldspire-sablewood-wide.avif") type("image/avif"),
-      url("../assets/events/goldspire/hero/goldspire-sablewood-wide.png") type("image/png")
-    ) center / cover no-repeat;
-}
+.goldspire-hero { background: #1e3027; }
 
 .goldspire-hero.detail-hero-with-art .wrap {
   max-width: min(100%, 1320px);
