@@ -1486,7 +1486,7 @@
 }
 
 .events-index .event-card-featured:first-child .event-card-media img {
-  object-position: center 48%;
+  object-position: center;
 }
 
 .link-card-intro h1 {

@@ -8,6 +8,7 @@ PAGES = ['index.html','about.html','projects.html','links.html','404.html','feed
 PAGES += [str(p.relative_to(ROOT)) for p in sorted((ROOT/'games').glob('*.html'))]
 PAGES += [str(p.relative_to(ROOT)) for p in sorted((ROOT/'resources').glob('*.html'))]
 PAGES += ['events/index.html']
+PAGES += ['events/soulspires-secret/index.html']
 PAGES += [f'events/{c}/{p}' for c in ['goldspire','stargate-phx'] for p in ['index.html','characters/index.html','dates/index.html','coming-soon/index.html']]
 PAGES += ['shareables/story-atlas-ai-build-case-study/index.html']
 LINKS = [('Public games','events/'),('About Kyle','about.html'),('Worlds & work','projects.html'),('Player resources','resources/')]

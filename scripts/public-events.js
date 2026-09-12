@@ -22,6 +22,12 @@
       name: "Stargate PHX at Mox",
       url: "https://events.moxboardinghouse.com/p/n/nmph2JKD",
       discoverDates: true
+    },
+    {
+      id: "soulspires-secret-mox",
+      name: "Soulspire's Secret at Mox",
+      url: "https://events.moxboardinghouse.com/p/n/lQFZrr9D/v5",
+      discoverDates: false
     }
   ];
 
@@ -124,6 +130,24 @@
       detailsUrl: "events/stargate-phx/",
       sourceId: "stargate-phx-mox",
       watchText: "Saturday, September 19, 2026 at 10:30 a.m.: Stargate Phoenix Site: A Matter of Fae, Episode 1.03"
+    },
+    {
+      id: "soulspires-secret-2026-10-17",
+      game: "Soulspire's Secret",
+      system: "Daggerheart",
+      tier: "Tier 2",
+      status: "live",
+      title: "Halloween Daggerheart horror event: Saturday, October 17",
+      name: "Soulspire's Secret",
+      bookingTitle: "Halloween special: Soulspire's Secret",
+      bookingLabel: "Book the Halloween special",
+      time: "10:30 AM-3:00 PM",
+      venue: "Mox Boarding House Chandler",
+      start: "2026-10-17T10:30:00-07:00",
+      url: "https://events.moxboardinghouse.com/p/n/lQFZrr9D/v5",
+      detailsUrl: "events/soulspires-secret/",
+      sourceId: "soulspires-secret-mox",
+      watchText: "Soulspire's Secret"
     }
   ];
 

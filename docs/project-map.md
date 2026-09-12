@@ -30,6 +30,7 @@ Do not mirror or overwrite the live site from that folder.
 | Games | `projects.html`, `games/*.html` | Campaign portfolio and individual case studies |
 | Public events | `events/index.html` | Current event chooser |
 | Goldspire | `events/goldspire/` | Daggerheart event, dates, and characters |
+| Soulspire's Secret | `events/soulspires-secret/` | October 17 Halloween Daggerheart horror event and Mox booking funnel |
 | Stargate PHX | `events/stargate-phx/` | Episodic event, dates, and characters |
 | Player resources | `resources/` | Beginner-facing rules and prep support |
 | Booking switchboard | `links.html` | Next verified game, lead capture, event directory, contact, and share tools |

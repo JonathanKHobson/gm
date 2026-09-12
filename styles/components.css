@@ -3980,6 +3980,23 @@
   margin-top: 1.5rem;
 }
 
+.event-card-halloween {
+  border-color: rgba(132, 29, 40, 0.68);
+  background:
+    radial-gradient(circle at 90% 4%, rgba(132, 29, 40, 0.14), transparent 17rem),
+    linear-gradient(180deg, rgba(255, 250, 241, 0.98), rgba(244, 226, 212, 0.94));
+  box-shadow: 0 22px 48px rgba(48, 10, 15, 0.2);
+}
+
+.event-card-halloween .project-type,
+.event-card-halloween .event-facts dt {
+  color: #8d2530;
+}
+
+.event-card-halloween .event-card-media {
+  background: #120f11;
+}
+
 .event-card-media {
   min-height: 28rem;
   margin: 0;
