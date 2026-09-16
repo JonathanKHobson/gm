@@ -92,3 +92,6 @@ The public case study remains separate from the live Story Atlas application. Ca
 
 ## Shared site orientation
 The Kyle Hobson bar links this product to the portfolio, Compass Suite, AI Glossary, Workshop Studio, GameMasterKyle, and the Building with AI case study. The shared home is https://jonathankhobson.github.io/portfolio/spaces/. Each product retains its own local navigation. Shared navigation sources live in the portfolio-suite authoring project under `src/network/`; regenerate static copies with `scripts/sync_network.py` when destinations change.
+
+## Theme-aware shared navigation (September 16)
+Shared network tokens, destinations and static footer are owned by portfolio-suite `src/network/` and distributed with `scripts/sync_network.py`. Host palettes preserve local identity. CLARE hash routes compact the top bar below the homepage; Workshop uses a compact bar without a network footer and preserves focused tasks with new-tab links. The Workshop public overview lives at `https://jonathankhobson.github.io/portfolio/workshop-studio/`; the app remains separate.

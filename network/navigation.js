@@ -1,5 +1,11 @@
 /* Optional enhancement: every destination and the disclosure work without JS. */
 (() => {
+  const routeStyle = () => {
+    const bar = document.querySelector('.kh-network[data-kh-space="glossary"]');
+    if (bar) bar.classList.toggle('kh-network--compact', !['', '#', '#/'].includes(location.hash));
+  };
+  routeStyle();
+  window.addEventListener('hashchange', routeStyle);
   document.querySelectorAll('.kh-network').forEach((bar) => {
     const menu = bar.querySelector('details');
     if (!menu) return;
