@@ -32,6 +32,7 @@ def render(page):
     elif '<footer' in t:t=re.sub(r'<footer\b.*?</footer>',footer,t,count=1,flags=re.S)
     else:t=t.replace('</body>',footer+'</body>')
     if 'styles/site-shell.css' not in t:t=t.replace('</head>',f'  <link rel="stylesheet" href="{prefix}styles/site-shell.css" />\n  <script src="{prefix}scripts/site-shell.js" defer></script>\n</head>')
+    if 'network/navigation.css' not in t:t=t.replace('</head>',f'<link rel="stylesheet" href="{prefix}network/navigation.css?v=1"><script src="{prefix}network/navigation.js?v=1" defer></script>\n</head>')
     if not re.search(r'<main[^>]*id=',t):t=t.replace('<main','<main id="main"',1)
     if 'class="skip"' not in t and 'class="gmk-skip"' not in t:t=re.sub(r'(<body[^>]*>)',r'\1\n<a class="gmk-skip" href="#main">Skip to content</a>',t,count=1)
     if 'registration.js' in t and 'scripts/public-events.js' not in t:

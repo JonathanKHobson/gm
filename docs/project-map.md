@@ -89,3 +89,6 @@ Do not mirror or overwrite the live site from that folder.
 Current booking is derived from `scripts/public-events.js`; registration scripts remove expired booking actions at event start. Venue links own seat availability. Tentative records never become booking CTAs. Feedback redirects, EmailJS contract, campaign rules/app internals, and source resume are preserved.
 
 The public case study remains separate from the live Story Atlas application. Campaign illustration is creative work, not documentary proof of table experience. Player testimonials require verified final wording and public display-name approval.
+
+## Shared site orientation
+The Kyle Hobson bar links this product to the portfolio, Compass Suite, AI Glossary, Workshop Studio, GameMasterKyle, and the Building with AI case study. The shared home is https://jonathankhobson.github.io/portfolio/spaces/. Each product retains its own local navigation. Shared navigation sources live in the portfolio-suite authoring project under `src/network/`; regenerate static copies with `scripts/sync_network.py` when destinations change.

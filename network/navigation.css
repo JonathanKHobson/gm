@@ -1,0 +1,46 @@
+/* Kyle Hobson's shared navigation. Product headers remain locally owned. */
+:root { --kh-bar-height: 56px; }
+.kh-network, .kh-network * { box-sizing: border-box; }
+.kh-network {
+  position: sticky; top: 0; z-index: 60; isolation: isolate;
+  width: 100%; margin: 0; padding: 0; border: 0; border-bottom: 1px solid #c9cdc3;
+  background: #f4f2e9; color: #192b25; text-align: left;
+  font: 400 14px/1.4 Arial, Helvetica, sans-serif; letter-spacing: normal;
+}
+.kh-network--flow { position: relative; }
+.kh-network .kh-inner { max-width: 1440px; min-height: calc(var(--kh-bar-height) - 1px); margin: 0 auto; padding: 0 32px; display: flex; align-items: center; gap: 22px; }
+.kh-network a { color: #192b25; text-decoration: none; border: 0; box-shadow: none; background: transparent; font: inherit; letter-spacing: normal; text-transform: none; }
+.kh-network a::after { content: none; }
+.kh-network .kh-home { display: inline-flex; align-items: center; gap: 9px; min-height: 44px; font-weight: 700; white-space: nowrap; }
+.kh-network .kh-home-symbol { font-size: 20px; font-weight: 400; line-height: 1; }
+.kh-network .kh-current { border-left: 1px solid #b8c0b6; padding-left: 22px; font-size: 13px; color: #46564b; }
+.kh-network .kh-menu { position: static; margin: 0 0 0 auto; padding: 0; border: 0; background: transparent; }
+.kh-network .kh-menu > summary { display: flex; align-items: center; justify-content: center; gap: 10px; list-style: none; min-height: 44px; padding: 0 12px; border: 0; border-radius: 4px; background: transparent; color: #192b25; cursor: pointer; font: 700 14px/1.4 Arial, Helvetica, sans-serif; }
+.kh-network summary::-webkit-details-marker { display: none; }
+.kh-network summary::after { content: none; }
+.kh-network .kh-menu[open] > summary, .kh-network summary:hover { background: #e2e6da; }
+.kh-network .kh-caret { display: inline-block; transition: transform 120ms; }
+.kh-network .kh-menu[open] .kh-caret { transform: rotate(180deg); }
+.kh-network .kh-menu:not([open]) .kh-panel { display: none; }
+.kh-network .kh-panel { position: absolute; right: 24px; top: calc(100% + 8px); width: min(660px, calc(100vw - 32px)); max-height: calc(100dvh - var(--kh-bar-height) - 24px); overflow-y: auto; overscroll-behavior: contain; padding: 20px; background: #fffef8; color: #192b25; border: 1px solid #bec7ba; border-radius: 8px; box-shadow: 0 12px 36px #13251d26; }
+.kh-network .kh-panel-top { display: flex; justify-content: space-between; gap: 12px; align-items: center; padding: 0 8px 12px; border-bottom: 1px solid #d9ddd2; }
+.kh-network .kh-panel-top a { display: flex; align-items: center; min-height: 44px; font-weight: 700; text-decoration: underline; text-underline-offset: 4px; }
+.kh-network .kh-note { max-width: 220px; color: #52604e; font-size: 12px; text-align: right; margin: 0; }
+.kh-network .kh-destinations { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; padding-top: 12px; }
+.kh-network .kh-destination { display: block; min-height: 84px; border-radius: 4px; padding: 13px 12px; line-height: 1.4; }
+.kh-network .kh-destination:hover, .kh-network .kh-destination[aria-current] { background: #e8ecdf; }
+.kh-network .kh-destination strong { display: block; font: 700 15px/1.4 Arial, Helvetica, sans-serif; color: #192b25; }
+.kh-network .kh-destination small { display: block; font: 400 12px/1.5 Arial, Helvetica, sans-serif; color: #4c5c50; margin-top: 3px; }
+.kh-network .kh-destination em { font: 400 11px/1.4 Arial, Helvetica, sans-serif; margin-left: 6px; color: #46564b; white-space: nowrap; }
+.kh-network :is(a, summary):focus-visible { outline: 3px solid #246247; outline-offset: 3px; }
+@media (max-width: 640px) {
+  :root { --kh-bar-height: 80px; }
+  .kh-network .kh-inner { display: grid; grid-template-columns: 1fr auto; grid-template-rows: 44px 25px; gap: 0 10px; padding: 4px 16px 6px; }
+  .kh-network .kh-current { border: 0; padding: 0 0 0 27px; grid-column: 1; font-size: 12px; white-space: nowrap; }
+  .kh-network .kh-menu { grid-column: 2; grid-row: 1 / 3; }
+  .kh-network .kh-panel { right: 16px; padding: 12px; }
+  .kh-network .kh-destinations { grid-template-columns: 1fr; gap: 2px; padding-top: 8px; }
+  .kh-network .kh-destination { min-height: 68px; padding: 10px 12px; }
+  .kh-network .kh-panel-top { padding: 0 8px 8px; }
+}
+@media (prefers-reduced-motion: reduce) { .kh-network .kh-caret { transition: none; } }
