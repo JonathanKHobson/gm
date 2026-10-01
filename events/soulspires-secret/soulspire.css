@@ -90,3 +90,34 @@ details { border-top:1px solid #525757; padding:0; margin-top:16px; }summary { c
   .ss-characters::after { right:-70px; }
 }
 @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; }*,*::before,*::after { animation:none!important; transition:none!important; } }
+
+/* October 17 player preparation: page-local guidance and navigation. */
+.ss-page-nav { background:#171719; border-bottom:1px solid #464047; }
+.ss-page-nav .ss-wrap { display:flex; gap:12px 30px; flex-wrap:wrap; padding-block:10px; }
+.ss-page-nav a { min-height:44px; display:inline-flex; align-items:center; font-size:14px; font-weight:650; color:#dfcec9; text-decoration:none; }
+.ss-page-nav a:hover { color:#fff; text-decoration:underline; text-underline-offset:6px; }
+section[id],.ss-custom-guide,.ss-roster-heading { scroll-margin-top:110px; }
+.ss-character-paths { display:grid; grid-template-columns:1fr 1fr; gap:48px; margin-top:36px; padding-bottom:38px; border-bottom:1px solid #aab3ac; }
+.ss-character-paths article { border-top:3px solid #772831; padding-top:20px; }
+.ss-path-label { color:#71303a; font-size:13px; font-weight:750; }
+.ss-character-paths h3 { margin:10px 0 14px; }.ss-character-paths p { color:#454e49; }
+.ss-character-paths .ss-text-link { margin-top:12px; color:#6a222c; }
+.ss-roster-heading { margin-top:34px; }.ss-roster-heading p { margin-top:12px; color:#454e49; max-width:70ch; }
+.ss-custom-guide { max-width:920px; margin-top:38px; padding-top:28px; border-top:1px solid #aab3ac; }
+.ss-custom-summary { margin:16px 0; color:#454e49; }
+.ss-custom-guide details { border-color:#aab3ac; }.ss-custom-guide details p { color:#454e49; padding:0; margin:0 0 18px; }
+.ss-detail-body { padding:4px 0 10px; }.ss-detail-body a { color:#6a222c; }
+.ss-custom-guide summary { display:flex; align-items:center; justify-content:space-between; gap:20px; list-style:none; }
+.ss-custom-guide summary::-webkit-details-marker { display:none; }
+.ss-custom-guide summary::after { content:'+'; font-size:25px; font-weight:400; }.ss-custom-guide details[open] summary::after { content:'−'; }
+.ss-updates { background:#21181c; border-block:1px solid #624047; }
+.ss-updates-inner { display:grid; grid-template-columns:1fr 1.4fr; gap:64px; }
+.ss-updates h2 { margin-top:14px; }.ss-updates p+p { margin-top:20px; }.ss-updates-inner>div:last-child>p { color:#d6cec9; }
+.ss-update-reassurance { border-left:3px solid #c48d86; padding-left:20px; }.ss-updates a { margin-top:16px; }
+@media(max-width:700px) { .ss-page-nav .ss-wrap { gap:0 24px; }.ss-character-paths,.ss-updates-inner { grid-template-columns:1fr; gap:30px; }.ss-character-paths { margin-top:28px; padding-bottom:28px; }section[id],.ss-custom-guide,.ss-roster-heading { scroll-margin-top:80px; } }
+
+.ss-session-update { max-width:950px; margin:0 0 28px; padding:18px 22px; background:#2d2226; color:#e9d6d1; font-size:15px; border:1px solid #8a5d65; }
+.ss-listing-link { margin-top:4px; font-size:14px; color:#d9bbb5; }
+::selection { background:#862e3a; color:#fff5ed; }
+.ss-characters ::selection { background:#71303a; color:#fff; }
+.ss-update-reassurance { border-left:0; border-top:1px solid #a77c77; padding:18px 0 0; }

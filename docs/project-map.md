@@ -2,7 +2,7 @@
 project: pro-gm-website
 type: project-map
 status: active
-updated: 2026-09-08
+updated: 2026-10-01
 ---
 
 # Pro GM Website Project Map
@@ -30,7 +30,7 @@ Do not mirror or overwrite the live site from that folder.
 | Games | `projects.html`, `games/*.html` | Campaign portfolio and individual case studies |
 | Public events | `events/index.html` | Current event chooser |
 | Goldspire | `events/goldspire/` | Daggerheart event, dates, and characters |
-| Soulspire's Secret | `events/soulspires-secret/` | October 17 Halloween Daggerheart horror event and Mox booking funnel |
+| Soulspire's Secret | `events/soulspires-secret/` | October 17 Level 5 Halloween event, player preparation, and Mox listing |
 | Stargate PHX | `events/stargate-phx/` | Episodic event, dates, and characters |
 | Player resources | `resources/` | Beginner-facing rules and prep support |
 | Booking switchboard | `links.html` | Next verified game, lead capture, event directory, contact, and share tools |
@@ -95,3 +95,7 @@ The Kyle Hobson bar links this product to the portfolio, Compass Suite, AI Gloss
 
 ## Theme-aware shared navigation (September 16)
 Shared network tokens, destinations and static footer are owned by portfolio-suite `src/network/` and distributed with `scripts/sync_network.py`. Host palettes preserve local identity. CLARE hash routes compact the top bar below the homepage; Workshop uses a compact bar without a network footer and preserves focused tasks with new-tab links. The Workshop public overview lives at `https://jonathankhobson.github.io/portfolio/workshop-studio/`; the app remains separate.
+
+## Soulspire October 17 preparation and atmosphere
+
+`events/soulspires-secret/index.html` owns the dated Level 5 (Tier 3) session update and character preparation guidance. `soulspire.css` owns its page layout; `effects.css` and `effects.js` add finite decorative motion and optional sound. `assets/entrance-cue.wav` is a three-second excerpt of the commissioned October Nocturne soundtrack. The browser-local first-visit marker prevents repeat autoplay; blocked autoplay uses the explicit Play control. Reduced-motion preferences and the effects toggle disable decorative motion. New character sheets and portraits remain deferred until the roster is confirmed.
