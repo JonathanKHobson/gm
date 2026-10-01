@@ -122,3 +122,5 @@ section[id],.ss-custom-guide,.ss-roster-heading { scroll-margin-top:110px; }
 @media(max-width:700px) { .ss-experience .ss-section-heading { padding-right:0; min-height:0; }.ss-straight-claw { position:relative; top:auto; right:auto; width:min(280px,85%); margin:18px auto 24px; }.ss-damaged::before { width:125px; height:145px; left:-35px; }.ss-damaged:nth-of-type(even)::before { right:-35px; }.ss-comfort::after,.ss-faq-section::after { width:80px; height:100px; right:-18px; opacity:.6; }.ss-invitation-paper::after { width:75px; height:125px; } }
 
 @media(max-width:700px) { .ss-invitation-claw { right:20px; width:240px; }.ss-invitation-paper { background-size:25% auto,cover; } }
+.ss-straight-claw img { width:100%; height:auto; }
+@media(max-width:700px) { .ss-shoulder-claw { left:2%; } }
