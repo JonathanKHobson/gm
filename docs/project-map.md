@@ -99,3 +99,5 @@ Shared network tokens, destinations and static footer are owned by portfolio-sui
 ## Soulspire October 17 preparation and atmosphere
 
 `events/soulspires-secret/index.html` owns the dated Level 5 (Tier 3) session update and character preparation guidance. `soulspire.css` owns its page layout; `effects.css` and `effects.js` add finite decorative motion and optional sound. `assets/entrance-cue.wav` is a three-second excerpt of the commissioned October Nocturne soundtrack. The browser-local first-visit marker prevents repeat autoplay; blocked autoplay uses the explicit Play control. Reduced-motion preferences and the effects toggle disable decorative motion. New character sheets and portraits remain deferred until the roster is confirmed.
+
+The October 1 invitation revision places the date on a claw-held paper card in the hero and Garrick with a shoulder-reaching claw in the closing section. A fixed speaker button mirrors the hero sound control so playback can be stopped anywhere on the page.

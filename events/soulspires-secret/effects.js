@@ -6,6 +6,7 @@
   const controls = document.querySelector('.ss-atmosphere-controls');
   const effectsButton = document.getElementById('ss-effects-toggle');
   const soundButton = document.getElementById('ss-sound-toggle');
+  const speakerButton = document.getElementById('ss-speaker-toggle');
   const soundStatus = document.getElementById('ss-sound-status');
   const audio = document.getElementById('ss-entrance-audio');
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -46,12 +47,14 @@
   }
   root.classList.add('ss-effects-ready');
 
-  if (controls) controls.hidden = false;
   if (!audio || !soundButton || !soundStatus) return;
+  if (controls) controls.hidden = false;
+  if (speakerButton) speakerButton.hidden = false;
 
   const STORAGE_KEY = 'gmk-soulspire-entrance-seen';
   const MAX_SECONDS = 3;
   let playing = false;
+  let starting = false;
   let stopTimer = 0;
   let playToken = 0;
   let hasPlayed = false;
@@ -59,8 +62,16 @@
   audio.volume = .3;
 
   function setSoundButton() {
-    soundButton.setAttribute('aria-pressed', String(playing));
-    soundButton.textContent = playing ? 'Mute sound' : hasPlayed ? 'Replay 3-second sound' : 'Play 3-second sound';
+    const active = playing || starting;
+    const label = active ? 'Mute sound' : 'Play 3-second sound';
+    soundButton.setAttribute('aria-pressed', String(active));
+    soundButton.textContent = active ? label : hasPlayed ? 'Replay 3-second sound' : label;
+    if (speakerButton) {
+      speakerButton.setAttribute('aria-label', label);
+      speakerButton.setAttribute('aria-pressed', String(active));
+      speakerButton.title = label;
+      speakerButton.dataset.playing = String(active);
+    }
   }
   function stop(message) {
     playToken++;
@@ -69,45 +80,56 @@
     audio.pause();
     audio.currentTime = 0;
     playing = false;
+    starting = false;
     soundStatus.textContent = message;
     setSoundButton();
   }
-  async function play() {
+  async function play(automatic = false) {
     if (document.hidden) return;
     const token = ++playToken;
     clearTimeout(stopTimer);
     audio.pause();
     audio.currentTime = 0;
     audio.volume = .3;
+    starting = true;
+    soundStatus.textContent = 'Starting the 3-second entrance cue.';
+    setSoundButton();
     try {
       await audio.play();
-      if (token !== playToken || document.hidden) {
-        audio.pause();
+      if (token !== playToken) return;
+      if (document.hidden) {
+        stop('Sound stopped when you left the page.');
         return;
       }
+      starting = false;
       playing = true;
       hasPlayed = true;
       soundStatus.textContent = 'Playing a 3-second entrance cue.';
       setSoundButton();
-      stopTimer = window.setTimeout(() => stop('Entrance cue finished.'), MAX_SECONDS * 1000 + 50);
+      stopTimer = window.setTimeout(() => stop('Entrance cue finished.'), Math.max(0, MAX_SECONDS - audio.currentTime) * 1000 + 50);
     } catch {
       if (token !== playToken) return;
       playing = false;
-      soundStatus.textContent = 'Sound is off. Select Play to hear the 3-second cue.';
+      starting = false;
+      soundStatus.textContent = automatic
+        ? 'Your browser blocked the entrance cue. Select Play 3-second sound to hear it.'
+        : 'Sound could not start. You can try Play 3-second sound again.';
       setSoundButton();
     }
   }
-  soundButton.addEventListener('click', () => {
-    if (playing) stop('Sound muted.');
+  function toggleSound() {
+    if (playing || starting) stop('Sound muted.');
     else play();
-  });
+  }
+  soundButton.addEventListener('click', toggleSound);
+  speakerButton?.addEventListener('click', toggleSound);
   audio.addEventListener('timeupdate', () => {
     if (playing && audio.currentTime >= MAX_SECONDS) stop('Entrance cue finished.');
   });
   audio.addEventListener('ended', () => stop('Entrance cue finished.'));
   audio.addEventListener('error', () => stop('Sound could not load. The page still works.'));
   document.addEventListener('visibilitychange', () => {
-    if (document.hidden) stop('Sound stopped when you left the page.');
+    if (document.hidden && (playing || starting)) stop('Sound stopped when you left the page.');
   });
   window.addEventListener('pagehide', () => {
     stop('Sound stopped.');
@@ -123,6 +145,6 @@
     soundStatus.textContent = 'Sound is available by request. Select Play 3-second sound.';
     return;
   }
-  if (firstVisit) play();
+  if (firstVisit) play(true);
   else soundStatus.textContent = 'Sound is optional. Play it if you like.';
 })();

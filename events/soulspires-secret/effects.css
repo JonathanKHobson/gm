@@ -23,6 +23,29 @@
 .ss-atmosphere-controls button:disabled { cursor: default; opacity: .7; }
 .ss-atmosphere-controls button[aria-pressed="true"] { border-color: #e2a2a0; background: #633039; }
 #ss-sound-status { color: var(--ss-muted, #c2c6c3); font-size: 13px; }
+#ss-speaker-toggle[hidden] { display: none !important; }
+#ss-speaker-toggle {
+  position: fixed;
+  right: max(16px, env(safe-area-inset-right));
+  bottom: max(16px, env(safe-area-inset-bottom));
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  padding: 11px;
+  border: 1px solid #c18689;
+  border-radius: 50%;
+  background: #2a1b20;
+  color: #f2f0eb;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, .5);
+  cursor: pointer;
+}
+#ss-speaker-toggle:hover { background: #4b2a32; }
+#ss-speaker-toggle[data-playing="true"] { background: #633039; border-color: #e2a2a0; }
+#ss-speaker-toggle svg { width: 100%; height: 100%; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+#ss-speaker-toggle[data-playing="true"] .ss-speaker-muted,
+#ss-speaker-toggle[data-playing="false"] .ss-speaker-waves { display: none; }
 
 /* The mist stays behind the copy and fades away after its opening pass. */
 .ss-hero::after {
@@ -39,12 +62,17 @@
 .ss-effects-ready.ss-effects-on .ss-hero.ss-entered::after {
   animation: ss-fog-pass 3.6s ease-in-out 1 both;
 }
-.ss-effects-ready.ss-effects-on .ss-hero.ss-entered .ss-hero-character {
+.ss-effects-ready.ss-effects-on .ss-hero.ss-entered .ss-invitation {
+  animation: ss-paper-tug 2.4s cubic-bezier(.2,.8,.22,1) 1 both;
+}
+.ss-effects-ready.ss-effects-on .ss-hero.ss-entered .ss-invitation-claw {
+  animation: ss-claw-grip 2.15s cubic-bezier(.2,.75,.25,1) 1 both;
+  transform-origin: center center;
+}
+.ss-effects-ready.ss-effects-on .ss-final.ss-revealed .ss-finale-character {
   animation: ss-character-entrance 1.6s cubic-bezier(.2,.8,.22,1) 1 both;
 }
-.ss-effects-ready.ss-effects-on .ss-hero.ss-entered .ss-damage-hero,
-.ss-effects-ready.ss-effects-on .ss-booking-strip.ss-revealed .ss-edge-reach,
-.ss-effects-ready.ss-effects-on .ss-faq-section.ss-revealed .ss-edge-reach {
+.ss-effects-ready.ss-effects-on .ss-final.ss-revealed .ss-shoulder-claw {
   animation: ss-claw-grip 2.15s cubic-bezier(.2,.75,.25,1) 1 both;
   transform-origin: center center;
 }
@@ -75,17 +103,21 @@
   100% { opacity: 0; transform: translateX(42px); }
 }
 @keyframes ss-character-entrance {
-  0% { opacity: .58; transform: translate(18px, 8px) scale(.985); }
-  100% { opacity: 1; transform: none; }
+  0% { opacity: .58; translate: 18px 8px; scale: .985; }
+  100% { opacity: 1; translate: 0 0; scale: 1; }
 }
 @keyframes ss-claw-grip {
-  0% { opacity: .5; transform: translateX(var(--ss-claw-start, 22px)) rotate(var(--damage-turn, 0deg)); }
-  38% { opacity: 1; transform: translateX(-4px) rotate(calc(var(--damage-turn, 0deg) - 2deg)); }
-  65% { transform: translateX(2px) rotate(calc(var(--damage-turn, 0deg) + 1deg)); }
-  100% { opacity: 1; transform: translateX(0) rotate(var(--damage-turn, 0deg)); }
+  0% { opacity: .5; translate: 20px -8px; rotate: 5deg; }
+  38% { opacity: 1; translate: -4px 2px; rotate: -2deg; }
+  65% { translate: 2px -1px; rotate: 1deg; }
+  100% { opacity: 1; translate: 0 0; rotate: 0deg; }
 }
-.ss-edge-reach-left { --ss-claw-start: -22px; }
-.ss-edge-reach-right { --ss-claw-start: 22px; }
+@keyframes ss-paper-tug {
+  0%, 16% { translate: 0 0; rotate: 0deg; }
+  38% { translate: -3px 5px; rotate: -1deg; }
+  62% { translate: 1px -2px; rotate: .5deg; }
+  100% { translate: 0 0; rotate: 0deg; }
+}
 @keyframes ss-gentle-reveal {
   0% { opacity: 0; }
   100% { opacity: 1; }

@@ -19,9 +19,9 @@
   <meta name="twitter:description" content="Level 5 Daggerheart horror. October 17 at Mox Chandler. Prepared heroes or your own completed character. Familiarity recommended; beginners welcome." />
   <meta name="twitter:image" content="https://jonathankhobson.github.io/gm/events/soulspires-secret/assets/soulspires-secret-og.png" />
   <link rel="icon" href="../../assets/brand/favicon.png" />
-  <link rel="stylesheet" href="soulspire.css?v=20261001-level5" />
-  <link rel="stylesheet" href="effects.css?v=20261001" />
-  <script src="effects.js?v=20261001" defer></script>
+  <link rel="stylesheet" href="soulspire.css?v=20261001-invitation" />
+  <link rel="stylesheet" href="effects.css?v=20261001-invitation" />
+  <script src="effects.js?v=20261001-invitation" defer></script>
   <link rel="stylesheet" href="../../styles/site-shell.css" />
   <script src="../../scripts/site-shell.js" defer></script>
   <script type="application/ld+json">
@@ -67,9 +67,12 @@
 <!-- site-shell:end -->
 
   <nav class="ss-page-nav" aria-label="Soulspire event guide"><div class="ss-wrap"><a href="#event-details">Time &amp; place</a><a href="#characters">Your character</a><a href="#comfort">Content notes</a><a href="#updates">Latest updates</a></div></nav>
+  <button id="ss-speaker-toggle" class="ss-speaker-control" type="button" aria-label="Play 3-second sound" aria-pressed="false" title="Play 3-second sound" hidden>
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z"/><g class="ss-speaker-waves"><path d="M16 8a6 6 0 0 1 0 8M19 5a10 10 0 0 1 0 14"/></g><path class="ss-speaker-muted" d="m16 9 5 6m0-6-5 6"/></svg>
+  </button>
   <main id="main">
     <section class="ss-hero ss-damaged" aria-labelledby="ss-title">
-      <span class="ss-edge-damage ss-edge-damage-right ss-damage-hero" aria-hidden="true"><img src="assets/claw-tear-dark-v2.png" alt="" width="1536" height="1024" loading="eager" /></span>
+      
       <div class="ss-wrap ss-hero-inner">
         <div class="ss-hero-copy">
           <a class="ss-back" href="../">All public games</a>
@@ -88,11 +91,23 @@
           </div>
           <audio id="ss-entrance-audio" preload="none" src="assets/entrance-cue.wav"></audio>
         </div>
-        <img class="ss-hero-character" src="assets/garrick.webp" alt="A bloodied fantasy warrior gripping his sword." width="800" height="1200" fetchpriority="high" decoding="async" />
+        <div class="ss-invitation" aria-label="Your October 17 invitation">
+          <img class="ss-invitation-claw ss-invitation-claw-back" src="assets/claw-edge-c-rear.webp" alt="" width="495" height="378" aria-hidden="true" />
+          <div class="ss-invitation-paper">
+            <p class="ss-invitation-kicker">You are cordially invited</p>
+            <p class="ss-invitation-month">October</p><p class="ss-invitation-date">17</p>
+            <span class="ss-invitation-rule" aria-hidden="true"></span>
+            <p class="ss-invitation-time">Saturday · 10:30 am–3 pm</p>
+            <p class="ss-invitation-place">Mox Boarding House<br />Chandler, Arizona</p>
+            <p class="ss-invitation-note">Level 5 · Ages 18+ · $40<br />Prepared heroes. Your choices.</p>
+            <p class="ss-invitation-signature">Your GM, Kyle Hobson</p>
+          </div>
+          <img class="ss-invitation-claw ss-invitation-claw-front" src="assets/claw-edge-c-front.webp" alt="" width="495" height="378" aria-hidden="true" />
+        </div>
       </div>
     </section>
     <section class="ss-booking-strip ss-damaged" id="event-details" aria-label="Event details">
-      <span class="ss-edge-damage ss-edge-reach ss-edge-reach-left ss-damage-booking" aria-hidden="true"><img src="assets/claw-edge-a-rear.webp" alt="" width="495" height="378" loading="eager" /></span>
+      
       <div class="ss-wrap">
         <p class="ss-session-update"><strong>October 1 session update: Level 5 (Tier 3).</strong> This replaces the earlier Tier 2 plan. The Mox listing may still show the earlier level; use the character guidance on this page for October 17.</p>
         <dl class="ss-facts"><div><dt>Saturday</dt><dd>October 17, 2026</dd></div><div><dt>Arizona time</dt><dd>10:30 AM to 3:00 PM</dd></div><div><dt>Your seat</dt><dd>$40 per player</dd></div><div><dt>The table</dt><dd>5 players · Private room</dd></div></dl>
@@ -100,7 +115,7 @@
       </div>
     </section>
     <section class="ss-section ss-experience ss-damaged" id="experience" aria-labelledby="experience-title">
-      <span class="ss-edge-damage ss-edge-damage-right ss-damage-experience" aria-hidden="true"><img src="assets/claw-tear-dark-v2.png" alt="" width="1536" height="1024" loading="lazy" /></span>
+      
       <div class="ss-wrap">
         <div class="ss-section-heading"><p class="ss-kicker">Your seat is part of the story</p><h2 id="experience-title">You don’t watch this horror.<br />You decide what happens next.</h2><p>Follow the clues through Fairwage. Decide whom to protect, what to believe, and how far to dig when the answers stop making sense.</p></div>
         <div class="ss-three">
@@ -135,13 +150,13 @@
       </div>
     </section>
     <section class="ss-section ss-comfort ss-damaged" id="comfort" aria-labelledby="comfort-title">
-      <span class="ss-edge-damage ss-edge-damage-left ss-damage-comfort" aria-hidden="true"><img src="assets/claw-tear-dark-v2.png" alt="" width="1536" height="1024" loading="lazy" /></span>
+      
       <div class="ss-wrap ss-two">
         <div><p class="ss-kicker">Frightening fiction. A considerate table.</p><h2 id="comfort-title">Know what you’re stepping into.</h2><p><strong>Ages 18+.</strong> Expect mature psychological and body horror, violence, blood and gore, occult themes, and possible character death.</p><details><summary>Full content and comfort notes</summary><p>The adventure may include graphic bodily rupture, corpses, animal distress, memory and identity violation, voice mimicry, civilian endangerment, and possible amputation.</p><p>Content can be adjusted at the table. Tell Kyle about boundaries, access needs, or concerns before we play. You do not need to share personal details. Kyle will do his best to accommodate requests, but cannot guarantee every need can be met.</p></details><a class="ss-text-link" href="../../index.html#contact">Ask Kyle about comfort or access ↗</a></div>
         <div class="ss-host"><img src="../../assets/portraits/kyle-hobson-hero-portrait.webp" alt="Kyle Hobson, your game master." width="900" height="1125" loading="lazy" /><div><p class="ss-kicker">Run by GameMasterKyle</p><h3>A guide through the dark.</h3><p>Kyle brings the characters to life, explains the rules, and builds on what your group chooses. Quiet players and first-timers have a place here. You can describe what your hero does in your own voice.</p><a class="ss-text-link" href="../../index.html#reviews">Read player reviews ↗</a></div></div>
       </div>
     </section>
-    <section class="ss-section ss-faq-section ss-damaged" aria-labelledby="faq-title"><span class="ss-edge-damage ss-edge-reach ss-edge-reach-right ss-damage-faq" aria-hidden="true"><img src="assets/claw-edge-a-rear.webp" alt="" width="495" height="378" loading="lazy" /></span><div class="ss-wrap ss-faq-layout"><div><p class="ss-kicker">Before you step inside</p><h2 id="faq-title">A few things<br />worth knowing.</h2></div><div class="ss-faq">
+    <section class="ss-section ss-faq-section ss-damaged" aria-labelledby="faq-title"><div class="ss-wrap ss-faq-layout"><div><p class="ss-kicker">Before you step inside</p><h2 id="faq-title">A few things<br />worth knowing.</h2></div><div class="ss-faq">
       <details><summary>Can I play if I’ve never tried a tabletop RPG?</summary><p>Yes. A tabletop role-playing game is a shared story: you say what your character tries, the GM describes what happens, and the rules help when the outcome is uncertain. This session uses Level 5 characters, so Daggerheart familiarity is recommended, but it is not required. Choose a provided character and Kyle will guide you through play. No character creation or acting is required.</p></details>
       <details><summary>Do I need to know the earlier Goldspire adventures?</summary><p>No. Soulspire’s Secret is the third Goldspire adventure, but it stands on its own. Returning players may recognize connections; everyone gets a complete story in this session.</p></details>
       <details><summary>What is the Dread tower?</summary><p>A shared wooden-block tower used alongside Daggerheart. Some moments call for a pull; other pulls let you push your luck. The numbered, colored blocks have consequences, and each pull makes the tower less stable. Kyle explains the custom rules during play.</p></details>
@@ -149,7 +164,7 @@
       <details><summary>What should I bring?</summary><p>If you’re choosing a supplied pregen, just bring yourself and enough time to stay until 3:00 PM. A notebook, pencil, or your own dice are optional. If you’re bringing your own character, bring a completed Level 5 sheet on paper or a working device you’re comfortable editing. Paper is preferred. Check Mox for booking terms.</p></details>
     </div></div></section>
     <section class="ss-section ss-updates" id="updates" aria-labelledby="updates-title"><div class="ss-wrap ss-updates-inner"><div><p class="ss-kicker">Updated October 1, 2026</p><h2 id="updates-title">Character updates.</h2></div><div><p>More horror-themed character options are on the way. Kyle is working toward choices such as witch, warlock, and blood-hunter-style characters. The exact pregen roster, sheets, and artwork are coming later; a specific class isn’t guaranteed yet.</p><p>Have something in mind? Ask Kyle ahead of time. Keep an eye on this page for the confirmed options and preparation updates. Registered players will receive an email if there’s a significant change before October 17.</p><p class="ss-update-reassurance"><strong>All of this is extra.</strong> You can simply arrive, choose a provided hero, and play. See you at Mox.</p><a class="ss-text-link" href="mailto:JonathanKyleHobson@gmail.com?subject=Soulspire%20character%20options">Ask about a character option ↗</a></div></div></section>
-    <section class="ss-final ss-damaged" aria-labelledby="final-title"><span class="ss-edge-damage ss-edge-damage-left ss-damage-final" aria-hidden="true"><img src="assets/claw-tear-dark-v2.png" alt="" width="1536" height="1024" loading="lazy" /></span><div class="ss-wrap"><p class="ss-kicker">One afternoon. Your version of the story.</p><h2 id="final-title">What will you do<br />when it calls your name?</h2><p>October 17 · 10:30 AM to 3:00 PM · $40 · Ages 18+</p><div class="ss-actions"><a class="ss-button" href="https://events.moxboardinghouse.com/p/n/lQFZrr9D/v5">View Mox listing ↗</a><a class="ss-text-link" href="../../index.html#contact">Ask Kyle a question ↗</a></div><p class="ss-small">Five players maximum. Check current seat availability at Mox.</p><details class="ss-poster"><summary>View the Halloween event poster</summary><a href="assets/flyer-c.webp"><img src="assets/flyer-c.webp" alt="Soulspire’s Secret Halloween event poster, October 17 at Mox Boarding House Chandler." width="880" height="1360" loading="lazy" /></a></details></div></section>
+    <section class="ss-final ss-damaged" aria-labelledby="final-title"><div class="ss-wrap ss-finale-layout"><div class="ss-finale-copy"><p class="ss-kicker">One afternoon. Your version of the story.</p><h2 id="final-title">What will you do<br />when it calls your name?</h2><p>October 17 · 10:30 AM to 3:00 PM · $40 · Ages 18+</p><div class="ss-actions"><a class="ss-button" href="https://events.moxboardinghouse.com/p/n/lQFZrr9D/v5">View Mox listing ↗</a><a class="ss-text-link" href="../../index.html#contact">Ask Kyle a question ↗</a></div><p class="ss-small">Five players maximum. Check current seat availability at Mox.</p><details class="ss-poster"><summary>View the Halloween event poster</summary><a href="assets/flyer-c.webp"><img src="assets/flyer-c.webp" alt="Soulspire’s Secret Halloween event poster, October 17 at Mox Boarding House Chandler." width="880" height="1360" loading="lazy" /></a></details></div><div class="ss-final-art" aria-label="Garrick at the edge of the dark"><img class="ss-finale-character" src="assets/garrick.webp" alt="Garrick, a bloodied warrior, with a monstrous claw reaching across his shoulder." width="800" height="1200" loading="lazy" /><img class="ss-shoulder-claw" src="assets/claw-edge-c-rear.webp" alt="" width="495" height="378" loading="lazy" aria-hidden="true" /></div></div></section>
   </main>
   <!-- site-footer:start -->
 <footer class="gmk-footer">
