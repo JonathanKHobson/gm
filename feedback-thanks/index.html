@@ -1,6 +1,15 @@
 <!doctype html>
 <html lang="en">
 <head>
+<script data-gm-sites-forward>
+(function () {
+  if (location.hostname !== 'jonathankhobson.github.io') return;
+  if (new URLSearchParams(location.search).get('_legacy') === '1') return;
+  const sourcePrefix = '/gm/';
+  if (!location.pathname.startsWith(sourcePrefix)) return;
+  location.replace('https://gamemaster-kyle.jkylehobson.chatgpt.site/' + location.pathname.slice(sourcePrefix.length) + location.search + location.hash);
+})();
+</script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Thank You for Your Feedback | GameMasterKyle</title>
@@ -27,8 +36,10 @@
   <link rel="stylesheet" href="../styles/site-shell.css" />
   <script src="../scripts/site-shell.js" defer></script>
 <link rel="stylesheet" href="../network/navigation.css?v=4"><script src="../network/navigation.js?v=2" defer></script>
+
 </head>
 <body class="feedback-thanks-page">
+<noscript><p><a href="https://gamemaster-kyle.jkylehobson.chatgpt.site/feedback-thanks/index.html">Open this page at GameMasterKyle</a></p></noscript>
   <a class="skip" href="#main">Skip to content</a>
   <span id="new-tab-note" class="sr-only">Opens in a new tab.</span>
 

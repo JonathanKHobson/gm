@@ -9,7 +9,9 @@ updated: 2026-10-01
 
 ## Publication ownership
 
-This repository publishes the public website at `https://jonathankhobson.github.io/gm/` from `main`. Use a verified checkout of `JonathanKHobson/gm` for public-site changes.
+This repository remains the public GameMasterKyle source on `main`. The native Site at `https://gamemaster-kyle.jkylehobson.chatgpt.site/` serves a pinned projection of its eligible runtime through `gm-site/scripts/build_gm_site.py`. GitHub Pages at `https://jonathankhobson.github.io/gm/` remains a compatibility address, the original download origin, and the old-browser-state export origin. Use a verified checkout of `JonathanKHobson/gm` for source changes.
+
+`state-export.html` stays on this original Pages origin so its allowlisted localStorage export can read the browser's old gaming-tool state. The native Site's `/transfer/` route imports a chosen local file; neither page uploads that file. Private `games/peril-to-profit-story-atlas/` stays only on its original address and must not enter the public Sites projection. The October 31 native Halloween planner also stays on its original Site and is embedded at the new `/events/halloween-oct31/` entry with a direct-open fallback.
 
 The separate private Pro GM workspace holds source materials and older implementations. Copy only approved assets or text from it; do not mirror it over this repository.
 
