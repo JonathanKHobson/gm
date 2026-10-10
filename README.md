@@ -1,22 +1,13 @@
-# GameMasterKyle GitHub Pages Site
+# GameMasterKyle
 
-This is the canonical local checkout for the public `JonathanKHobson/gm` GitHub Pages site.
+Public games, player resources, and GM portfolio work by Kyle Hobson.
 
-- Local path: `/Volumes/KyleSSD/Documents/My Projects/Websites/gm`
-- Git remote: `https://github.com/JonathanKHobson/gm.git`
-- Live site root: `https://jonathankhobson.github.io/gm/`
-- Goldspire event page: `https://jonathankhobson.github.io/gm/events/goldspire/`
+- [Explore GameMasterKyle](https://jonathankhobson.github.io/gm/).
+- [Find current games and contact options](https://jonathankhobson.github.io/gm/links.html).
+- [Browse player resources](https://jonathankhobson.github.io/gm/resources/).
 
-## Editing Rule
+## Maintenance
 
-Make public site edits here, then commit and push to the GitHub remote above.
+This repository owns the public website. The separate Pro GM authoring workspace holds campaign preparation, approved source assets, and older snapshots; it is not a replacement deployment tree. Copy only reviewed public content from that workspace.
 
-Do not treat Pro GM source folders as the live website checkout. The Pro GM workspace contains source packets, assets, portfolio materials, older local HTML snapshots, and generated outputs that may look like this site but are not the canonical deploy target.
-
-## Nearby Source Workspace
-
-Primary Pro GM source workspace:
-
-`/Volumes/KyleSSD/Documents/My Work/Pro GM`
-
-That workspace is useful for source assets, campaign packet material, proof files, and older portfolio build material. When bringing material from that workspace into this site, copy only the approved public asset or text needed for the current slice and update the relevant manifest/docs.
+[docs/project-map.md](docs/project-map.md) identifies route and shared-shell owners. [AGENTS.md](AGENTS.md) gives the change boundaries. Event booking and seat availability belong to the linked venue listings.

@@ -7,19 +7,11 @@ updated: 2026-10-01
 
 # Pro GM Website Project Map
 
-## Canonical Publish Checkout
+## Publication ownership
 
-The authoritative GitHub Pages checkout is:
+This repository publishes the public website at `https://jonathankhobson.github.io/gm/` from `main`. Use a verified checkout of `JonathanKHobson/gm` for public-site changes.
 
-`/Volumes/KyleSSD/Documents/My Projects/Websites/gm`
-
-It publishes to `https://jonathankhobson.github.io/gm/` from the
-`JonathanKHobson/gm` repository. Make public-site edits here.
-
-`/Volumes/KyleSSD/Documents/My Work/Pro GM` is the source-material and older
-portfolio workspace. It contains campaign packets, evidence, visual sources,
-and archived implementations, but it is not the canonical publish checkout.
-Do not mirror or overwrite the live site from that folder.
+The separate private Pro GM workspace holds source materials and older implementations. Copy only approved assets or text from it; do not mirror it over this repository.
 
 ## Route Families
 
