@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Export saved gaming tool data | GameMasterKyle</title>
+  <style>
+    body{margin:0;background:#171a21;color:#f5efdf;font:17px/1.55 system-ui,sans-serif}main{max-width:44rem;margin:7vh auto;padding:1.4rem}h1{font:700 clamp(2rem,6vw,3.5rem)/1.1 Georgia,serif}a{color:#f8c68d}button{background:#e69b59;color:#191713;border:0;border-radius:.35rem;padding:.8rem 1.15rem;font:700 1rem system-ui;cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid #fff;outline-offset:3px}.note{border-left:3px solid #e69b59;padding-left:1rem}#result{margin-top:1rem}
+  </style>
+</head>
+<body><main>
+  <p><a href="https://jonathankhobson.github.io/gm/?_legacy=1">GameMasterKyle at the original address</a></p>
+  <h1>Export saved gaming tool data</h1>
+  <p>Run this page at the original GitHub Pages address in the same browser you used for Goldspire Calendar, Trade Binder, Dungeon Crawler, War Tool, or the Scrabble tile drawer. It saves only those tools' known browser storage keys to a JSON file on your device.</p>
+  <p class="note">The file can contain your notes, wants list, game progress, and battle history. Keep it private. The export page does not send it to a server. Party Invite and the Halloween planner stay at their original addresses and are not included.</p>
+  <button type="button" id="export">Download my saved data</button>
+  <p id="result" role="status" aria-live="polite"></p>
+  <p><a href="https://gamemaster-kyle.jkylehobson.chatgpt.site/transfer/">Open the new site's import page</a></p>
+  <script>
+    const keys = [
+      'goldspireSocialCalendar.status','goldspireSocialCalendar.notes',
+      'trade-binder-wants','trade-binder-theme','scrabble_saved_collapsed',
+      'eightbit_quest_data_v2','warTableState'
+    ];
+    const status = document.getElementById('result');
+    document.getElementById('export').addEventListener('click', () => {
+      try {
+        if (location.origin !== 'https://jonathankhobson.github.io') throw Error('Open this page at its original GitHub Pages address.');
+        const items = {};
+        for (const key of keys) {
+          const value = localStorage.getItem(key);
+          if (value !== null) items[key] = value;
+        }
+        const payload = {format:'gmk-local-state-v1',sourceOrigin:location.origin,exportedAt:new Date().toISOString(),items};
+        const url = URL.createObjectURL(new Blob([JSON.stringify(payload,null,2)],{type:'application/json'}));
+        const link = document.createElement('a'); link.href=url; link.download='gamemasterkyle-saved-data.json'; link.click();
+        setTimeout(() => URL.revokeObjectURL(url), 30000);
+        status.textContent = `Downloaded ${Object.keys(items).length} saved tool ${Object.keys(items).length===1?'item':'items'}.`;
+      } catch (error) { status.textContent = error.message || 'Export was unavailable in this browser.'; }
+    });
+  </script>
+</main></body></html>
