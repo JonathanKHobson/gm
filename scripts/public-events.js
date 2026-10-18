@@ -37,7 +37,7 @@
       game: "The Goldspire Messengers",
       system: "Daggerheart",
       tier: "Tier 1",
-      status: "live",
+      status: "completed",
       title: "Daggerheart one-shot: Tuesday, August 4",
       name: "The Goldspire Messengers",
       bookingTitle: "Daggerheart Tier 1: The Goldspire Messengers",

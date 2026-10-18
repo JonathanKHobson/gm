@@ -105,9 +105,10 @@ section[id],.ss-custom-guide,.ss-roster-heading { scroll-margin-top:110px; }
 .ss-damaged { position:relative; overflow:hidden; }.ss-damaged>.ss-wrap { position:relative; z-index:4; }
 
 /* Restore the reference's torn roots, stained paper and atmospheric damage. */
-.ss-invitation-claw-back,.ss-shoulder-claw { aspect-ratio:495/378; }
+.ss-invitation-claw-back,.ss-shoulder-claw { aspect-ratio:296/242; }
 .ss-arm-opening { position:absolute; z-index:-1; width:34%; height:90%; right:-7%; top:-15%; max-width:none; filter:brightness(.3) sepia(.3); }
-.ss-invitation-claw-back>img:not(.ss-arm-opening),.ss-shoulder-claw>img:not(.ss-arm-opening) { width:100%; }
+/* Front and rear share one canvas; keep their proportions and animation bounds aligned. */
+.ss-invitation-claw-back>img:not(.ss-arm-opening),.ss-shoulder-claw>img:not(.ss-arm-opening) { display:block; width:100%; height:auto; aspect-ratio:296/242; }
 .ss-invitation-paper { background-image:url('assets/horror-blood-mist.png'),url('assets/invitation-paper.png'); background-position:left bottom,center; background-size:43% auto,cover; background-repeat:no-repeat; }
 .ss-invitation-paper::after { content:""; position:absolute; top:0; left:0; width:90px; height:150px; background:url('assets/horror-blood-drip.png') top left/contain no-repeat; opacity:.88; pointer-events:none; }
 .ss-hero { background:linear-gradient(108deg,#151718bb 0 45%,#1d171960 100%),url('assets/atmosphere.png') right center/cover; }
